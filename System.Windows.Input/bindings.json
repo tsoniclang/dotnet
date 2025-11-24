@@ -19,7 +19,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Windows.Input.ICommand",
-          "declaringAssemblyName": "System.ObjectModel"
+          "declaringAssemblyName": "System.ObjectModel",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ObjectModel:System.Windows.Input.ICommand::Execute(System.Object):System.Void",
@@ -32,7 +33,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Windows.Input.ICommand",
-          "declaringAssemblyName": "System.ObjectModel"
+          "declaringAssemblyName": "System.ObjectModel",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],

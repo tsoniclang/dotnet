@@ -1418,7 +1418,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -1466,7 +1467,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -1618,7 +1620,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Security.Principal.IPrincipal::IsInRole(System.String):System.Boolean",
@@ -1634,7 +1637,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 1,
-          "sourceInterface": "System.Security.Principal.IPrincipal"
+          "sourceInterface": "System.Security.Principal.IPrincipal",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -1704,7 +1708,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
@@ -1720,7 +1725,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 2,
-          "sourceInterface": "System.Runtime.Serialization.ISerializable"
+          "sourceInterface": "System.Runtime.Serialization.ISerializable",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -1784,7 +1790,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.Principal.Windows:System.Security.Principal.IdentityReference::GetHashCode():System.Int32",
@@ -1799,7 +1806,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.Principal.Windows:System.Security.Principal.IdentityReference::IsValidTargetType(System.Type):System.Boolean",
@@ -1814,7 +1822,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.Principal.Windows:System.Security.Principal.IdentityReference::ToString():System.String",
@@ -1829,7 +1838,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.Principal.Windows:System.Security.Principal.IdentityReference::Translate(System.Type):System.Security.Principal.IdentityReference",
@@ -1844,7 +1854,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -1892,7 +1903,8 @@
           "isOverride": false,
           "isSealed": true,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.Principal.Windows:System.Security.Principal.IdentityReferenceCollection::Clear():System.Void",
@@ -1907,7 +1919,8 @@
           "isOverride": false,
           "isSealed": true,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.Principal.Windows:System.Security.Principal.IdentityReferenceCollection::Contains(System.Security.Principal.IdentityReference):System.Boolean",
@@ -1922,7 +1935,8 @@
           "isOverride": false,
           "isSealed": true,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.Principal.Windows:System.Security.Principal.IdentityReferenceCollection::CopyTo(System.Security.Principal.IdentityReference[],System.Int32):System.Void",
@@ -1937,7 +1951,8 @@
           "isOverride": false,
           "isSealed": true,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.Principal.Windows:System.Security.Principal.IdentityReferenceCollection::GetEnumerator():System.Collections.Generic.IEnumerator_1[[System.Security.Principal.IdentityReference,System.Security.Principal.Windows,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
@@ -1952,7 +1967,8 @@
           "isOverride": false,
           "isSealed": true,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.Principal.Windows:System.Security.Principal.IdentityReferenceCollection::Remove(System.Security.Principal.IdentityReference):System.Boolean",
@@ -1967,7 +1983,8 @@
           "isOverride": false,
           "isSealed": true,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.Principal.Windows:System.Security.Principal.IdentityReferenceCollection::Translate(System.Type):System.Security.Principal.IdentityReferenceCollection",
@@ -1982,7 +1999,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.Principal.Windows:System.Security.Principal.IdentityReferenceCollection::Translate(System.Type,System.Boolean):System.Security.Principal.IdentityReferenceCollection",
@@ -1997,7 +2015,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::Add(T):System.Void",
@@ -2013,7 +2032,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 1,
-          "sourceInterface": "System.Collections.Generic.ICollection\u00601"
+          "sourceInterface": "System.Collections.Generic.ICollection\u00601",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::Contains(T):System.Boolean",
@@ -2029,7 +2049,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 1,
-          "sourceInterface": "System.Collections.Generic.ICollection\u00601"
+          "sourceInterface": "System.Collections.Generic.ICollection\u00601",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::CopyTo(T[],System.Int32):System.Void",
@@ -2045,7 +2066,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 2,
-          "sourceInterface": "System.Collections.Generic.ICollection\u00601"
+          "sourceInterface": "System.Collections.Generic.ICollection\u00601",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IEnumerable\u00601::GetEnumerator():IEnumerator_1",
@@ -2061,7 +2083,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.Collections.Generic.IEnumerable\u00601"
+          "sourceInterface": "System.Collections.Generic.IEnumerable\u00601",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
@@ -2077,7 +2100,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.Collections.IEnumerable"
+          "sourceInterface": "System.Collections.IEnumerable",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::Clear():System.Void",
@@ -2093,7 +2117,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.Collections.Generic.ICollection\u00601"
+          "sourceInterface": "System.Collections.Generic.ICollection\u00601",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -2199,7 +2224,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.Principal.Windows:System.Security.Principal.NTAccount::GetHashCode():System.Int32",
@@ -2214,7 +2240,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.Principal.Windows:System.Security.Principal.NTAccount::IsValidTargetType(System.Type):System.Boolean",
@@ -2229,7 +2256,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.Principal.Windows:System.Security.Principal.NTAccount::ToString():System.String",
@@ -2244,7 +2272,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.Principal.Windows:System.Security.Principal.NTAccount::Translate(System.Type):System.Security.Principal.IdentityReference",
@@ -2259,7 +2288,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -2318,7 +2348,8 @@
           "isOverride": false,
           "isSealed": true,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.Principal.Windows:System.Security.Principal.SecurityIdentifier::Equals(System.Object):System.Boolean",
@@ -2333,7 +2364,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.Principal.Windows:System.Security.Principal.SecurityIdentifier::Equals(System.Security.Principal.SecurityIdentifier):System.Boolean",
@@ -2348,7 +2380,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.Principal.Windows:System.Security.Principal.SecurityIdentifier::GetBinaryForm(System.Byte[],System.Int32):System.Void",
@@ -2363,7 +2396,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.Principal.Windows:System.Security.Principal.SecurityIdentifier::GetHashCode():System.Int32",
@@ -2378,7 +2412,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.Principal.Windows:System.Security.Principal.SecurityIdentifier::IsAccountSid():System.Boolean",
@@ -2393,7 +2428,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.Principal.Windows:System.Security.Principal.SecurityIdentifier::IsEqualDomainSid(System.Security.Principal.SecurityIdentifier):System.Boolean",
@@ -2408,7 +2444,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.Principal.Windows:System.Security.Principal.SecurityIdentifier::IsValidTargetType(System.Type):System.Boolean",
@@ -2423,7 +2460,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.Principal.Windows:System.Security.Principal.SecurityIdentifier::IsWellKnown(System.Security.Principal.WellKnownSidType):System.Boolean",
@@ -2438,7 +2476,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.Principal.Windows:System.Security.Principal.SecurityIdentifier::ToString():System.String",
@@ -2453,7 +2492,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.Principal.Windows:System.Security.Principal.SecurityIdentifier::Translate(System.Type):System.Security.Principal.IdentityReference",
@@ -2468,7 +2508,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.IComparable\u00601::CompareTo(T):System.Int32",
@@ -2484,7 +2525,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 1,
-          "sourceInterface": "System.IComparable\u00601"
+          "sourceInterface": "System.IComparable\u00601",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -2602,7 +2644,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.Principal.Windows:System.Security.Principal.WindowsIdentity::Dispose():System.Void",
@@ -2617,7 +2660,8 @@
           "isOverride": false,
           "isSealed": true,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.Principal.Windows:System.Security.Principal.WindowsIdentity::GetAnonymous():System.Security.Principal.WindowsIdentity",
@@ -2632,7 +2676,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.Principal.Windows:System.Security.Principal.WindowsIdentity::GetCurrent():System.Security.Principal.WindowsIdentity",
@@ -2647,7 +2692,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.Principal.Windows:System.Security.Principal.WindowsIdentity::GetCurrent(System.Boolean):System.Security.Principal.WindowsIdentity",
@@ -2662,7 +2708,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.Principal.Windows:System.Security.Principal.WindowsIdentity::GetCurrent(System.Security.Principal.TokenAccessLevels):System.Security.Principal.WindowsIdentity",
@@ -2677,7 +2724,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.Principal.Windows:System.Security.Principal.WindowsIdentity::RunImpersonated(Microsoft.Win32.SafeHandles.SafeAccessTokenHandle,System.Action):System.Void",
@@ -2692,7 +2740,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.Principal.Windows:System.Security.Principal.WindowsIdentity::RunImpersonatedAsync(Microsoft.Win32.SafeHandles.SafeAccessTokenHandle,System.Func_1[[System.Threading.Tasks.Task,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Threading.Tasks.Task",
@@ -2707,7 +2756,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.Principal.Windows:System.Security.Principal.WindowsIdentity::RunImpersonatedAsync(Microsoft.Win32.SafeHandles.SafeAccessTokenHandle,Func_1):Task_1",
@@ -2722,7 +2772,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.Principal.Windows:System.Security.Principal.WindowsIdentity::RunImpersonated(Microsoft.Win32.SafeHandles.SafeAccessTokenHandle,Func_1):T",
@@ -2737,7 +2788,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.IDeserializationCallback::OnDeserialization(System.Object):System.Void",
@@ -2753,7 +2805,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 1,
-          "sourceInterface": "System.Runtime.Serialization.IDeserializationCallback"
+          "sourceInterface": "System.Runtime.Serialization.IDeserializationCallback",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
@@ -2769,7 +2822,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 2,
-          "sourceInterface": "System.Runtime.Serialization.ISerializable"
+          "sourceInterface": "System.Runtime.Serialization.ISerializable",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
@@ -2785,7 +2839,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.IDisposable"
+          "sourceInterface": "System.IDisposable",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -3132,7 +3187,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.Principal.Windows:System.Security.Principal.WindowsPrincipal::IsInRole(System.Security.Principal.SecurityIdentifier):System.Boolean",
@@ -3147,7 +3203,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.Principal.Windows:System.Security.Principal.WindowsPrincipal::IsInRole(System.Security.Principal.WindowsBuiltInRole):System.Boolean",
@@ -3162,7 +3219,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.Principal.Windows:System.Security.Principal.WindowsPrincipal::IsInRole(System.String):System.Boolean",
@@ -3177,7 +3235,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Security.Principal.IPrincipal::IsInRole(System.String):System.Boolean",
@@ -3193,7 +3252,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 1,
-          "sourceInterface": "System.Security.Principal.IPrincipal"
+          "sourceInterface": "System.Security.Principal.IPrincipal",
+          "isExtensionMethod": false
         }
       ],
       "properties": [

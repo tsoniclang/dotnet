@@ -28,7 +28,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.Policy.Evidence::AddAssemblyEvidence(T):System.Void",
@@ -43,7 +44,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.Policy.Evidence::AddHost(System.Object):System.Void",
@@ -58,7 +60,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.Policy.Evidence::AddHostEvidence(T):System.Void",
@@ -73,7 +76,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.Policy.Evidence::Clear():System.Void",
@@ -88,7 +92,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.Policy.Evidence::Clone():System.Security.Policy.Evidence",
@@ -103,7 +108,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.Policy.Evidence::CopyTo(System.Array,System.Int32):System.Void",
@@ -118,7 +124,8 @@
           "isOverride": false,
           "isSealed": true,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.Policy.Evidence::GetAssemblyEnumerator():System.Collections.IEnumerator",
@@ -133,7 +140,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.Policy.Evidence::GetAssemblyEvidence():T",
@@ -148,7 +156,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.Policy.Evidence::GetEnumerator():System.Collections.IEnumerator",
@@ -163,7 +172,8 @@
           "isOverride": false,
           "isSealed": true,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.Policy.Evidence::GetHostEnumerator():System.Collections.IEnumerator",
@@ -178,7 +188,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.Policy.Evidence::GetHostEvidence():T",
@@ -193,7 +204,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.Policy.Evidence::Merge(System.Security.Policy.Evidence):System.Void",
@@ -208,7 +220,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.Policy.Evidence::RemoveType(System.Type):System.Void",
@@ -223,7 +236,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.ICollection::CopyTo(System.Array,System.Int32):System.Void",
@@ -239,7 +253,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 2,
-          "sourceInterface": "System.Collections.ICollection"
+          "sourceInterface": "System.Collections.ICollection",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
@@ -255,7 +270,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.Collections.IEnumerable"
+          "sourceInterface": "System.Collections.IEnumerable",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -432,7 +448,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         }
       ],
       "properties": [],

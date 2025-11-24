@@ -862,7 +862,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Net.Mime.ContentDisposition",
-          "declaringAssemblyName": "System.Net.Mail"
+          "declaringAssemblyName": "System.Net.Mail",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Mail:System.Net.Mime.ContentDisposition::Equals(System.Object):System.Boolean",
@@ -875,7 +876,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Net.Mime.ContentDisposition",
-          "declaringAssemblyName": "System.Net.Mail"
+          "declaringAssemblyName": "System.Net.Mail",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Mail:System.Net.Mime.ContentDisposition::GetHashCode():System.Int32",
@@ -888,7 +890,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Net.Mime.ContentDisposition",
-          "declaringAssemblyName": "System.Net.Mail"
+          "declaringAssemblyName": "System.Net.Mail",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -1212,7 +1215,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Net.Mime.ContentType",
-          "declaringAssemblyName": "System.Net.Mail"
+          "declaringAssemblyName": "System.Net.Mail",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Mail:System.Net.Mime.ContentType::Equals(System.Object):System.Boolean",
@@ -1225,7 +1229,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Net.Mime.ContentType",
-          "declaringAssemblyName": "System.Net.Mail"
+          "declaringAssemblyName": "System.Net.Mail",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Mail:System.Net.Mime.ContentType::GetHashCode():System.Int32",
@@ -1238,7 +1243,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Net.Mime.ContentType",
-          "declaringAssemblyName": "System.Net.Mail"
+          "declaringAssemblyName": "System.Net.Mail",
+          "isExtensionMethod": false
         }
       ],
       "properties": [

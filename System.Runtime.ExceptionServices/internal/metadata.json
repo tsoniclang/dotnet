@@ -28,7 +28,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.ExceptionServices.ExceptionDispatchInfo::Throw():System.Void",
@@ -43,7 +44,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.ExceptionServices.ExceptionDispatchInfo::Throw(System.Exception):System.Void",
@@ -58,7 +60,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.ExceptionServices.ExceptionDispatchInfo::SetCurrentStackTrace(System.Exception):System.Exception",
@@ -73,7 +76,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.ExceptionServices.ExceptionDispatchInfo::SetRemoteStackTrace(System.Exception,System.String):System.Exception",
@@ -88,7 +92,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -196,7 +201,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.ExceptionServices.ExceptionHandling::RaiseAppDomainUnhandledExceptionEvent(System.Object):System.Void",
@@ -211,7 +217,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         }
       ],
       "properties": [],

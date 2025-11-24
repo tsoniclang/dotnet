@@ -9663,7 +9663,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Net.NetworkInformation.GatewayIPAddressInformationCollection",
-          "declaringAssemblyName": "System.Net.NetworkInformation"
+          "declaringAssemblyName": "System.Net.NetworkInformation",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.NetworkInformation:System.Net.NetworkInformation.GatewayIPAddressInformationCollection::Add(System.Net.NetworkInformation.GatewayIPAddressInformation):System.Void",
@@ -9676,7 +9677,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Net.NetworkInformation.GatewayIPAddressInformationCollection",
-          "declaringAssemblyName": "System.Net.NetworkInformation"
+          "declaringAssemblyName": "System.Net.NetworkInformation",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.NetworkInformation:System.Net.NetworkInformation.GatewayIPAddressInformationCollection::Contains(System.Net.NetworkInformation.GatewayIPAddressInformation):System.Boolean",
@@ -9689,7 +9691,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Net.NetworkInformation.GatewayIPAddressInformationCollection",
-          "declaringAssemblyName": "System.Net.NetworkInformation"
+          "declaringAssemblyName": "System.Net.NetworkInformation",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.NetworkInformation:System.Net.NetworkInformation.GatewayIPAddressInformationCollection::GetEnumerator():System.Collections.Generic.IEnumerator_1[[System.Net.NetworkInformation.GatewayIPAddressInformation,System.Net.NetworkInformation,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
@@ -9702,7 +9705,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Net.NetworkInformation.GatewayIPAddressInformationCollection",
-          "declaringAssemblyName": "System.Net.NetworkInformation"
+          "declaringAssemblyName": "System.Net.NetworkInformation",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.NetworkInformation:System.Net.NetworkInformation.GatewayIPAddressInformationCollection::Remove(System.Net.NetworkInformation.GatewayIPAddressInformation):System.Boolean",
@@ -9715,7 +9719,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Net.NetworkInformation.GatewayIPAddressInformationCollection",
-          "declaringAssemblyName": "System.Net.NetworkInformation"
+          "declaringAssemblyName": "System.Net.NetworkInformation",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.NetworkInformation:System.Net.NetworkInformation.GatewayIPAddressInformationCollection::Clear():System.Void",
@@ -9728,7 +9733,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Net.NetworkInformation.GatewayIPAddressInformationCollection",
-          "declaringAssemblyName": "System.Net.NetworkInformation"
+          "declaringAssemblyName": "System.Net.NetworkInformation",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::Add(T):System.Void",
@@ -9741,7 +9747,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::Contains(T):System.Boolean",
@@ -9754,7 +9761,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::CopyTo(T[],System.Int32):System.Void",
@@ -9767,7 +9775,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IEnumerable\u00601::GetEnumerator():IEnumerator_1",
@@ -9780,7 +9789,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.Generic.IEnumerable\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
@@ -9793,7 +9803,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.IEnumerable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::Clear():System.Void",
@@ -9806,7 +9817,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -11683,7 +11695,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Net.NetworkInformation.IPAddressCollection",
-          "declaringAssemblyName": "System.Net.Primitives"
+          "declaringAssemblyName": "System.Net.Primitives",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Primitives:System.Net.NetworkInformation.IPAddressCollection::Add(System.Net.IPAddress):System.Void",
@@ -11696,7 +11709,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Net.NetworkInformation.IPAddressCollection",
-          "declaringAssemblyName": "System.Net.Primitives"
+          "declaringAssemblyName": "System.Net.Primitives",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Primitives:System.Net.NetworkInformation.IPAddressCollection::Contains(System.Net.IPAddress):System.Boolean",
@@ -11709,7 +11723,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Net.NetworkInformation.IPAddressCollection",
-          "declaringAssemblyName": "System.Net.Primitives"
+          "declaringAssemblyName": "System.Net.Primitives",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Primitives:System.Net.NetworkInformation.IPAddressCollection::GetEnumerator():System.Collections.Generic.IEnumerator_1[[System.Net.IPAddress,System.Net.Primitives,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
@@ -11722,7 +11737,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Net.NetworkInformation.IPAddressCollection",
-          "declaringAssemblyName": "System.Net.Primitives"
+          "declaringAssemblyName": "System.Net.Primitives",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Primitives:System.Net.NetworkInformation.IPAddressCollection::Remove(System.Net.IPAddress):System.Boolean",
@@ -11735,7 +11751,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Net.NetworkInformation.IPAddressCollection",
-          "declaringAssemblyName": "System.Net.Primitives"
+          "declaringAssemblyName": "System.Net.Primitives",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Primitives:System.Net.NetworkInformation.IPAddressCollection::Clear():System.Void",
@@ -11748,7 +11765,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Net.NetworkInformation.IPAddressCollection",
-          "declaringAssemblyName": "System.Net.Primitives"
+          "declaringAssemblyName": "System.Net.Primitives",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::Add(T):System.Void",
@@ -11761,7 +11779,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::Contains(T):System.Boolean",
@@ -11774,7 +11793,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::CopyTo(T[],System.Int32):System.Void",
@@ -11787,7 +11807,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IEnumerable\u00601::GetEnumerator():IEnumerator_1",
@@ -11800,7 +11821,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.Generic.IEnumerable\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
@@ -11813,7 +11835,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.IEnumerable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::Clear():System.Void",
@@ -11826,7 +11849,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -12306,7 +12330,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Net.NetworkInformation.IPAddressInformationCollection",
-          "declaringAssemblyName": "System.Net.NetworkInformation"
+          "declaringAssemblyName": "System.Net.NetworkInformation",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.NetworkInformation:System.Net.NetworkInformation.IPAddressInformationCollection::Add(System.Net.NetworkInformation.IPAddressInformation):System.Void",
@@ -12319,7 +12344,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Net.NetworkInformation.IPAddressInformationCollection",
-          "declaringAssemblyName": "System.Net.NetworkInformation"
+          "declaringAssemblyName": "System.Net.NetworkInformation",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.NetworkInformation:System.Net.NetworkInformation.IPAddressInformationCollection::Contains(System.Net.NetworkInformation.IPAddressInformation):System.Boolean",
@@ -12332,7 +12358,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Net.NetworkInformation.IPAddressInformationCollection",
-          "declaringAssemblyName": "System.Net.NetworkInformation"
+          "declaringAssemblyName": "System.Net.NetworkInformation",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.NetworkInformation:System.Net.NetworkInformation.IPAddressInformationCollection::GetEnumerator():System.Collections.Generic.IEnumerator_1[[System.Net.NetworkInformation.IPAddressInformation,System.Net.NetworkInformation,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
@@ -12345,7 +12372,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Net.NetworkInformation.IPAddressInformationCollection",
-          "declaringAssemblyName": "System.Net.NetworkInformation"
+          "declaringAssemblyName": "System.Net.NetworkInformation",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.NetworkInformation:System.Net.NetworkInformation.IPAddressInformationCollection::Remove(System.Net.NetworkInformation.IPAddressInformation):System.Boolean",
@@ -12358,7 +12386,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Net.NetworkInformation.IPAddressInformationCollection",
-          "declaringAssemblyName": "System.Net.NetworkInformation"
+          "declaringAssemblyName": "System.Net.NetworkInformation",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.NetworkInformation:System.Net.NetworkInformation.IPAddressInformationCollection::Clear():System.Void",
@@ -12371,7 +12400,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Net.NetworkInformation.IPAddressInformationCollection",
-          "declaringAssemblyName": "System.Net.NetworkInformation"
+          "declaringAssemblyName": "System.Net.NetworkInformation",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::Add(T):System.Void",
@@ -12384,7 +12414,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::Contains(T):System.Boolean",
@@ -12397,7 +12428,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::CopyTo(T[],System.Int32):System.Void",
@@ -12410,7 +12442,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IEnumerable\u00601::GetEnumerator():IEnumerator_1",
@@ -12423,7 +12456,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.Generic.IEnumerable\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
@@ -12436,7 +12470,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.IEnumerable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::Clear():System.Void",
@@ -12449,7 +12484,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -12780,7 +12816,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Net.NetworkInformation.IPGlobalProperties",
-          "declaringAssemblyName": "System.Net.NetworkInformation"
+          "declaringAssemblyName": "System.Net.NetworkInformation",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.NetworkInformation:System.Net.NetworkInformation.IPGlobalProperties::GetActiveUdpListeners():System.Net.IPEndPoint[]",
@@ -12793,7 +12830,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Net.NetworkInformation.IPGlobalProperties",
-          "declaringAssemblyName": "System.Net.NetworkInformation"
+          "declaringAssemblyName": "System.Net.NetworkInformation",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.NetworkInformation:System.Net.NetworkInformation.IPGlobalProperties::GetActiveTcpListeners():System.Net.IPEndPoint[]",
@@ -12806,7 +12844,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Net.NetworkInformation.IPGlobalProperties",
-          "declaringAssemblyName": "System.Net.NetworkInformation"
+          "declaringAssemblyName": "System.Net.NetworkInformation",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.NetworkInformation:System.Net.NetworkInformation.IPGlobalProperties::GetActiveTcpConnections():System.Net.NetworkInformation.TcpConnectionInformation[]",
@@ -12819,7 +12858,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Net.NetworkInformation.IPGlobalProperties",
-          "declaringAssemblyName": "System.Net.NetworkInformation"
+          "declaringAssemblyName": "System.Net.NetworkInformation",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.NetworkInformation:System.Net.NetworkInformation.IPGlobalProperties::BeginGetUnicastAddresses(System.AsyncCallback,System.Object):System.IAsyncResult",
@@ -12832,7 +12872,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Net.NetworkInformation.IPGlobalProperties",
-          "declaringAssemblyName": "System.Net.NetworkInformation"
+          "declaringAssemblyName": "System.Net.NetworkInformation",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.NetworkInformation:System.Net.NetworkInformation.IPGlobalProperties::EndGetUnicastAddresses(System.IAsyncResult):System.Net.NetworkInformation.UnicastIPAddressInformationCollection",
@@ -12845,7 +12886,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Net.NetworkInformation.IPGlobalProperties",
-          "declaringAssemblyName": "System.Net.NetworkInformation"
+          "declaringAssemblyName": "System.Net.NetworkInformation",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.NetworkInformation:System.Net.NetworkInformation.IPGlobalProperties::GetTcpIPv4Statistics():System.Net.NetworkInformation.TcpStatistics",
@@ -12858,7 +12900,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Net.NetworkInformation.IPGlobalProperties",
-          "declaringAssemblyName": "System.Net.NetworkInformation"
+          "declaringAssemblyName": "System.Net.NetworkInformation",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.NetworkInformation:System.Net.NetworkInformation.IPGlobalProperties::GetTcpIPv6Statistics():System.Net.NetworkInformation.TcpStatistics",
@@ -12871,7 +12914,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Net.NetworkInformation.IPGlobalProperties",
-          "declaringAssemblyName": "System.Net.NetworkInformation"
+          "declaringAssemblyName": "System.Net.NetworkInformation",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.NetworkInformation:System.Net.NetworkInformation.IPGlobalProperties::GetUdpIPv4Statistics():System.Net.NetworkInformation.UdpStatistics",
@@ -12884,7 +12928,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Net.NetworkInformation.IPGlobalProperties",
-          "declaringAssemblyName": "System.Net.NetworkInformation"
+          "declaringAssemblyName": "System.Net.NetworkInformation",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.NetworkInformation:System.Net.NetworkInformation.IPGlobalProperties::GetUdpIPv6Statistics():System.Net.NetworkInformation.UdpStatistics",
@@ -12897,7 +12942,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Net.NetworkInformation.IPGlobalProperties",
-          "declaringAssemblyName": "System.Net.NetworkInformation"
+          "declaringAssemblyName": "System.Net.NetworkInformation",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.NetworkInformation:System.Net.NetworkInformation.IPGlobalProperties::GetIcmpV4Statistics():System.Net.NetworkInformation.IcmpV4Statistics",
@@ -12910,7 +12956,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Net.NetworkInformation.IPGlobalProperties",
-          "declaringAssemblyName": "System.Net.NetworkInformation"
+          "declaringAssemblyName": "System.Net.NetworkInformation",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.NetworkInformation:System.Net.NetworkInformation.IPGlobalProperties::GetIcmpV6Statistics():System.Net.NetworkInformation.IcmpV6Statistics",
@@ -12923,7 +12970,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Net.NetworkInformation.IPGlobalProperties",
-          "declaringAssemblyName": "System.Net.NetworkInformation"
+          "declaringAssemblyName": "System.Net.NetworkInformation",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.NetworkInformation:System.Net.NetworkInformation.IPGlobalProperties::GetIPv4GlobalStatistics():System.Net.NetworkInformation.IPGlobalStatistics",
@@ -12936,7 +12984,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Net.NetworkInformation.IPGlobalProperties",
-          "declaringAssemblyName": "System.Net.NetworkInformation"
+          "declaringAssemblyName": "System.Net.NetworkInformation",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.NetworkInformation:System.Net.NetworkInformation.IPGlobalProperties::GetIPv6GlobalStatistics():System.Net.NetworkInformation.IPGlobalStatistics",
@@ -12949,7 +12998,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Net.NetworkInformation.IPGlobalProperties",
-          "declaringAssemblyName": "System.Net.NetworkInformation"
+          "declaringAssemblyName": "System.Net.NetworkInformation",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.NetworkInformation:System.Net.NetworkInformation.IPGlobalProperties::GetUnicastAddresses():System.Net.NetworkInformation.UnicastIPAddressInformationCollection",
@@ -12962,7 +13012,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Net.NetworkInformation.IPGlobalProperties",
-          "declaringAssemblyName": "System.Net.NetworkInformation"
+          "declaringAssemblyName": "System.Net.NetworkInformation",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.NetworkInformation:System.Net.NetworkInformation.IPGlobalProperties::GetUnicastAddressesAsync():System.Threading.Tasks.Task_1[[System.Net.NetworkInformation.UnicastIPAddressInformationCollection,System.Net.NetworkInformation,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
@@ -12975,7 +13026,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Net.NetworkInformation.IPGlobalProperties",
-          "declaringAssemblyName": "System.Net.NetworkInformation"
+          "declaringAssemblyName": "System.Net.NetworkInformation",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -13951,7 +14003,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Net.NetworkInformation.IPInterfaceProperties",
-          "declaringAssemblyName": "System.Net.NetworkInformation"
+          "declaringAssemblyName": "System.Net.NetworkInformation",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.NetworkInformation:System.Net.NetworkInformation.IPInterfaceProperties::GetIPv6Properties():System.Net.NetworkInformation.IPv6InterfaceProperties",
@@ -13964,7 +14017,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Net.NetworkInformation.IPInterfaceProperties",
-          "declaringAssemblyName": "System.Net.NetworkInformation"
+          "declaringAssemblyName": "System.Net.NetworkInformation",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -15290,7 +15344,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Net.NetworkInformation.IPv6InterfaceProperties",
-          "declaringAssemblyName": "System.Net.NetworkInformation"
+          "declaringAssemblyName": "System.Net.NetworkInformation",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -15690,7 +15745,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Net.NetworkInformation.MulticastIPAddressInformationCollection",
-          "declaringAssemblyName": "System.Net.NetworkInformation"
+          "declaringAssemblyName": "System.Net.NetworkInformation",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.NetworkInformation:System.Net.NetworkInformation.MulticastIPAddressInformationCollection::Add(System.Net.NetworkInformation.MulticastIPAddressInformation):System.Void",
@@ -15703,7 +15759,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Net.NetworkInformation.MulticastIPAddressInformationCollection",
-          "declaringAssemblyName": "System.Net.NetworkInformation"
+          "declaringAssemblyName": "System.Net.NetworkInformation",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.NetworkInformation:System.Net.NetworkInformation.MulticastIPAddressInformationCollection::Contains(System.Net.NetworkInformation.MulticastIPAddressInformation):System.Boolean",
@@ -15716,7 +15773,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Net.NetworkInformation.MulticastIPAddressInformationCollection",
-          "declaringAssemblyName": "System.Net.NetworkInformation"
+          "declaringAssemblyName": "System.Net.NetworkInformation",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.NetworkInformation:System.Net.NetworkInformation.MulticastIPAddressInformationCollection::GetEnumerator():System.Collections.Generic.IEnumerator_1[[System.Net.NetworkInformation.MulticastIPAddressInformation,System.Net.NetworkInformation,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
@@ -15729,7 +15787,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Net.NetworkInformation.MulticastIPAddressInformationCollection",
-          "declaringAssemblyName": "System.Net.NetworkInformation"
+          "declaringAssemblyName": "System.Net.NetworkInformation",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.NetworkInformation:System.Net.NetworkInformation.MulticastIPAddressInformationCollection::Remove(System.Net.NetworkInformation.MulticastIPAddressInformation):System.Boolean",
@@ -15742,7 +15801,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Net.NetworkInformation.MulticastIPAddressInformationCollection",
-          "declaringAssemblyName": "System.Net.NetworkInformation"
+          "declaringAssemblyName": "System.Net.NetworkInformation",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.NetworkInformation:System.Net.NetworkInformation.MulticastIPAddressInformationCollection::Clear():System.Void",
@@ -15755,7 +15815,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Net.NetworkInformation.MulticastIPAddressInformationCollection",
-          "declaringAssemblyName": "System.Net.NetworkInformation"
+          "declaringAssemblyName": "System.Net.NetworkInformation",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::Add(T):System.Void",
@@ -15768,7 +15829,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::Contains(T):System.Boolean",
@@ -15781,7 +15843,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::CopyTo(T[],System.Int32):System.Void",
@@ -15794,7 +15857,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IEnumerable\u00601::GetEnumerator():IEnumerator_1",
@@ -15807,7 +15871,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.Generic.IEnumerable\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
@@ -15820,7 +15885,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.IEnumerable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::Clear():System.Void",
@@ -15833,7 +15899,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -16164,7 +16231,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Net.NetworkInformation.NetworkAddressChangedEventHandler",
-          "declaringAssemblyName": "System.Net.NetworkInformation"
+          "declaringAssemblyName": "System.Net.NetworkInformation",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.NetworkInformation:System.Net.NetworkInformation.NetworkAddressChangedEventHandler::BeginInvoke(System.Object,System.EventArgs,System.AsyncCallback,System.Object):System.IAsyncResult",
@@ -16177,7 +16245,8 @@
           "arity": 0,
           "parameterCount": 4,
           "declaringClrType": "System.Net.NetworkInformation.NetworkAddressChangedEventHandler",
-          "declaringAssemblyName": "System.Net.NetworkInformation"
+          "declaringAssemblyName": "System.Net.NetworkInformation",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.NetworkInformation:System.Net.NetworkInformation.NetworkAddressChangedEventHandler::EndInvoke(System.IAsyncResult):System.Void",
@@ -16190,7 +16259,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Net.NetworkInformation.NetworkAddressChangedEventHandler",
-          "declaringAssemblyName": "System.Net.NetworkInformation"
+          "declaringAssemblyName": "System.Net.NetworkInformation",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
@@ -16203,7 +16273,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.ICloneable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
@@ -16216,7 +16287,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.Serialization.ISerializable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.NetworkInformation:System.Net.NetworkInformation.NetworkAddressChangedEventHandler::Clone():System.Object",
@@ -16229,7 +16301,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Net.NetworkInformation.NetworkAddressChangedEventHandler",
-          "declaringAssemblyName": "System.Net.NetworkInformation"
+          "declaringAssemblyName": "System.Net.NetworkInformation",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.NetworkInformation:System.Net.NetworkInformation.NetworkAddressChangedEventHandler::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
@@ -16242,7 +16315,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Net.NetworkInformation.NetworkAddressChangedEventHandler",
-          "declaringAssemblyName": "System.Net.NetworkInformation"
+          "declaringAssemblyName": "System.Net.NetworkInformation",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -16634,7 +16708,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Net.NetworkInformation.NetworkAvailabilityChangedEventHandler",
-          "declaringAssemblyName": "System.Net.NetworkInformation"
+          "declaringAssemblyName": "System.Net.NetworkInformation",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.NetworkInformation:System.Net.NetworkInformation.NetworkAvailabilityChangedEventHandler::BeginInvoke(System.Object,System.Net.NetworkInformation.NetworkAvailabilityEventArgs,System.AsyncCallback,System.Object):System.IAsyncResult",
@@ -16647,7 +16722,8 @@
           "arity": 0,
           "parameterCount": 4,
           "declaringClrType": "System.Net.NetworkInformation.NetworkAvailabilityChangedEventHandler",
-          "declaringAssemblyName": "System.Net.NetworkInformation"
+          "declaringAssemblyName": "System.Net.NetworkInformation",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.NetworkInformation:System.Net.NetworkInformation.NetworkAvailabilityChangedEventHandler::EndInvoke(System.IAsyncResult):System.Void",
@@ -16660,7 +16736,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Net.NetworkInformation.NetworkAvailabilityChangedEventHandler",
-          "declaringAssemblyName": "System.Net.NetworkInformation"
+          "declaringAssemblyName": "System.Net.NetworkInformation",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
@@ -16673,7 +16750,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.ICloneable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
@@ -16686,7 +16764,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.Serialization.ISerializable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.NetworkInformation:System.Net.NetworkInformation.NetworkAvailabilityChangedEventHandler::Clone():System.Object",
@@ -16699,7 +16778,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Net.NetworkInformation.NetworkAvailabilityChangedEventHandler",
-          "declaringAssemblyName": "System.Net.NetworkInformation"
+          "declaringAssemblyName": "System.Net.NetworkInformation",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.NetworkInformation:System.Net.NetworkInformation.NetworkAvailabilityChangedEventHandler::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
@@ -16712,7 +16792,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Net.NetworkInformation.NetworkAvailabilityChangedEventHandler",
-          "declaringAssemblyName": "System.Net.NetworkInformation"
+          "declaringAssemblyName": "System.Net.NetworkInformation",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -17205,7 +17286,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Net.NetworkInformation.NetworkChange",
-          "declaringAssemblyName": "System.Net.NetworkInformation"
+          "declaringAssemblyName": "System.Net.NetworkInformation",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -17368,7 +17450,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.Serialization.ISerializable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.NetworkInformation:System.Net.NetworkInformation.NetworkInformationException::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
@@ -17381,7 +17464,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Net.NetworkInformation.NetworkInformationException",
-          "declaringAssemblyName": "System.Net.NetworkInformation"
+          "declaringAssemblyName": "System.Net.NetworkInformation",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -17657,7 +17741,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Net.NetworkInformation.NetworkInterface",
-          "declaringAssemblyName": "System.Net.NetworkInformation"
+          "declaringAssemblyName": "System.Net.NetworkInformation",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.NetworkInformation:System.Net.NetworkInformation.NetworkInterface::GetIsNetworkAvailable():System.Boolean",
@@ -17670,7 +17755,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Net.NetworkInformation.NetworkInterface",
-          "declaringAssemblyName": "System.Net.NetworkInformation"
+          "declaringAssemblyName": "System.Net.NetworkInformation",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.NetworkInformation:System.Net.NetworkInformation.NetworkInterface::GetIPProperties():System.Net.NetworkInformation.IPInterfaceProperties",
@@ -17683,7 +17769,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Net.NetworkInformation.NetworkInterface",
-          "declaringAssemblyName": "System.Net.NetworkInformation"
+          "declaringAssemblyName": "System.Net.NetworkInformation",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.NetworkInformation:System.Net.NetworkInformation.NetworkInterface::GetIPStatistics():System.Net.NetworkInformation.IPInterfaceStatistics",
@@ -17696,7 +17783,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Net.NetworkInformation.NetworkInterface",
-          "declaringAssemblyName": "System.Net.NetworkInformation"
+          "declaringAssemblyName": "System.Net.NetworkInformation",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.NetworkInformation:System.Net.NetworkInformation.NetworkInterface::GetIPv4Statistics():System.Net.NetworkInformation.IPv4InterfaceStatistics",
@@ -17709,7 +17797,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Net.NetworkInformation.NetworkInterface",
-          "declaringAssemblyName": "System.Net.NetworkInformation"
+          "declaringAssemblyName": "System.Net.NetworkInformation",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.NetworkInformation:System.Net.NetworkInformation.NetworkInterface::GetPhysicalAddress():System.Net.NetworkInformation.PhysicalAddress",
@@ -17722,7 +17811,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Net.NetworkInformation.NetworkInterface",
-          "declaringAssemblyName": "System.Net.NetworkInformation"
+          "declaringAssemblyName": "System.Net.NetworkInformation",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.NetworkInformation:System.Net.NetworkInformation.NetworkInterface::Supports(System.Net.NetworkInformation.NetworkInterfaceComponent):System.Boolean",
@@ -17735,7 +17825,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Net.NetworkInformation.NetworkInterface",
-          "declaringAssemblyName": "System.Net.NetworkInformation"
+          "declaringAssemblyName": "System.Net.NetworkInformation",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -18136,7 +18227,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Net.NetworkInformation.PhysicalAddress",
-          "declaringAssemblyName": "System.Net.NetworkInformation"
+          "declaringAssemblyName": "System.Net.NetworkInformation",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.NetworkInformation:System.Net.NetworkInformation.PhysicalAddress::Equals(System.Object):System.Boolean",
@@ -18149,7 +18241,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Net.NetworkInformation.PhysicalAddress",
-          "declaringAssemblyName": "System.Net.NetworkInformation"
+          "declaringAssemblyName": "System.Net.NetworkInformation",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.NetworkInformation:System.Net.NetworkInformation.PhysicalAddress::ToString():System.String",
@@ -18162,7 +18255,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Net.NetworkInformation.PhysicalAddress",
-          "declaringAssemblyName": "System.Net.NetworkInformation"
+          "declaringAssemblyName": "System.Net.NetworkInformation",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.NetworkInformation:System.Net.NetworkInformation.PhysicalAddress::GetAddressBytes():System.Byte[]",
@@ -18175,7 +18269,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Net.NetworkInformation.PhysicalAddress",
-          "declaringAssemblyName": "System.Net.NetworkInformation"
+          "declaringAssemblyName": "System.Net.NetworkInformation",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.NetworkInformation:System.Net.NetworkInformation.PhysicalAddress::Parse(System.String):System.Net.NetworkInformation.PhysicalAddress",
@@ -18188,7 +18283,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Net.NetworkInformation.PhysicalAddress",
-          "declaringAssemblyName": "System.Net.NetworkInformation"
+          "declaringAssemblyName": "System.Net.NetworkInformation",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.NetworkInformation:System.Net.NetworkInformation.PhysicalAddress::Parse(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Net.NetworkInformation.PhysicalAddress",
@@ -18201,7 +18297,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Net.NetworkInformation.PhysicalAddress",
-          "declaringAssemblyName": "System.Net.NetworkInformation"
+          "declaringAssemblyName": "System.Net.NetworkInformation",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.NetworkInformation:System.Net.NetworkInformation.PhysicalAddress::TryParse(System.String,System.Net.NetworkInformation.PhysicalAddress\u0026):System.Boolean",
@@ -18214,7 +18311,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Net.NetworkInformation.PhysicalAddress",
-          "declaringAssemblyName": "System.Net.NetworkInformation"
+          "declaringAssemblyName": "System.Net.NetworkInformation",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.NetworkInformation:System.Net.NetworkInformation.PhysicalAddress::TryParse(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Net.NetworkInformation.PhysicalAddress\u0026):System.Boolean",
@@ -18227,7 +18325,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Net.NetworkInformation.PhysicalAddress",
-          "declaringAssemblyName": "System.Net.NetworkInformation"
+          "declaringAssemblyName": "System.Net.NetworkInformation",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -18411,7 +18510,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Net.NetworkInformation.Ping",
-          "declaringAssemblyName": "System.Net.Ping"
+          "declaringAssemblyName": "System.Net.Ping",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Ping:System.Net.NetworkInformation.Ping::Send(System.String,System.Int32):System.Net.NetworkInformation.PingReply",
@@ -18424,7 +18524,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Net.NetworkInformation.Ping",
-          "declaringAssemblyName": "System.Net.Ping"
+          "declaringAssemblyName": "System.Net.Ping",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Ping:System.Net.NetworkInformation.Ping::Send(System.Net.IPAddress):System.Net.NetworkInformation.PingReply",
@@ -18437,7 +18538,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Net.NetworkInformation.Ping",
-          "declaringAssemblyName": "System.Net.Ping"
+          "declaringAssemblyName": "System.Net.Ping",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Ping:System.Net.NetworkInformation.Ping::Send(System.Net.IPAddress,System.Int32):System.Net.NetworkInformation.PingReply",
@@ -18450,7 +18552,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Net.NetworkInformation.Ping",
-          "declaringAssemblyName": "System.Net.Ping"
+          "declaringAssemblyName": "System.Net.Ping",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Ping:System.Net.NetworkInformation.Ping::Send(System.String,System.Int32,System.Byte[]):System.Net.NetworkInformation.PingReply",
@@ -18463,7 +18566,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Net.NetworkInformation.Ping",
-          "declaringAssemblyName": "System.Net.Ping"
+          "declaringAssemblyName": "System.Net.Ping",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Ping:System.Net.NetworkInformation.Ping::Send(System.Net.IPAddress,System.Int32,System.Byte[]):System.Net.NetworkInformation.PingReply",
@@ -18476,7 +18580,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Net.NetworkInformation.Ping",
-          "declaringAssemblyName": "System.Net.Ping"
+          "declaringAssemblyName": "System.Net.Ping",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Ping:System.Net.NetworkInformation.Ping::Send(System.String,System.Int32,System.Byte[],System.Net.NetworkInformation.PingOptions):System.Net.NetworkInformation.PingReply",
@@ -18489,7 +18594,8 @@
           "arity": 0,
           "parameterCount": 4,
           "declaringClrType": "System.Net.NetworkInformation.Ping",
-          "declaringAssemblyName": "System.Net.Ping"
+          "declaringAssemblyName": "System.Net.Ping",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Ping:System.Net.NetworkInformation.Ping::Send(System.Net.IPAddress,System.Int32,System.Byte[],System.Net.NetworkInformation.PingOptions):System.Net.NetworkInformation.PingReply",
@@ -18502,7 +18608,8 @@
           "arity": 0,
           "parameterCount": 4,
           "declaringClrType": "System.Net.NetworkInformation.Ping",
-          "declaringAssemblyName": "System.Net.Ping"
+          "declaringAssemblyName": "System.Net.Ping",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Ping:System.Net.NetworkInformation.Ping::Send(System.Net.IPAddress,System.TimeSpan,System.Byte[],System.Net.NetworkInformation.PingOptions):System.Net.NetworkInformation.PingReply",
@@ -18515,7 +18622,8 @@
           "arity": 0,
           "parameterCount": 4,
           "declaringClrType": "System.Net.NetworkInformation.Ping",
-          "declaringAssemblyName": "System.Net.Ping"
+          "declaringAssemblyName": "System.Net.Ping",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Ping:System.Net.NetworkInformation.Ping::Send(System.String,System.TimeSpan,System.Byte[],System.Net.NetworkInformation.PingOptions):System.Net.NetworkInformation.PingReply",
@@ -18528,7 +18636,8 @@
           "arity": 0,
           "parameterCount": 4,
           "declaringClrType": "System.Net.NetworkInformation.Ping",
-          "declaringAssemblyName": "System.Net.Ping"
+          "declaringAssemblyName": "System.Net.Ping",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Ping:System.Net.NetworkInformation.Ping::SendAsync(System.String,System.Object):System.Void",
@@ -18541,7 +18650,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Net.NetworkInformation.Ping",
-          "declaringAssemblyName": "System.Net.Ping"
+          "declaringAssemblyName": "System.Net.Ping",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Ping:System.Net.NetworkInformation.Ping::SendAsync(System.String,System.Int32,System.Object):System.Void",
@@ -18554,7 +18664,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Net.NetworkInformation.Ping",
-          "declaringAssemblyName": "System.Net.Ping"
+          "declaringAssemblyName": "System.Net.Ping",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Ping:System.Net.NetworkInformation.Ping::SendAsync(System.Net.IPAddress,System.Object):System.Void",
@@ -18567,7 +18678,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Net.NetworkInformation.Ping",
-          "declaringAssemblyName": "System.Net.Ping"
+          "declaringAssemblyName": "System.Net.Ping",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Ping:System.Net.NetworkInformation.Ping::SendAsync(System.Net.IPAddress,System.Int32,System.Object):System.Void",
@@ -18580,7 +18692,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Net.NetworkInformation.Ping",
-          "declaringAssemblyName": "System.Net.Ping"
+          "declaringAssemblyName": "System.Net.Ping",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Ping:System.Net.NetworkInformation.Ping::SendAsync(System.String,System.Int32,System.Byte[],System.Object):System.Void",
@@ -18593,7 +18706,8 @@
           "arity": 0,
           "parameterCount": 4,
           "declaringClrType": "System.Net.NetworkInformation.Ping",
-          "declaringAssemblyName": "System.Net.Ping"
+          "declaringAssemblyName": "System.Net.Ping",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Ping:System.Net.NetworkInformation.Ping::SendAsync(System.Net.IPAddress,System.Int32,System.Byte[],System.Object):System.Void",
@@ -18606,7 +18720,8 @@
           "arity": 0,
           "parameterCount": 4,
           "declaringClrType": "System.Net.NetworkInformation.Ping",
-          "declaringAssemblyName": "System.Net.Ping"
+          "declaringAssemblyName": "System.Net.Ping",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Ping:System.Net.NetworkInformation.Ping::SendAsync(System.String,System.Int32,System.Byte[],System.Net.NetworkInformation.PingOptions,System.Object):System.Void",
@@ -18619,7 +18734,8 @@
           "arity": 0,
           "parameterCount": 5,
           "declaringClrType": "System.Net.NetworkInformation.Ping",
-          "declaringAssemblyName": "System.Net.Ping"
+          "declaringAssemblyName": "System.Net.Ping",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Ping:System.Net.NetworkInformation.Ping::SendAsync(System.Net.IPAddress,System.Int32,System.Byte[],System.Net.NetworkInformation.PingOptions,System.Object):System.Void",
@@ -18632,7 +18748,8 @@
           "arity": 0,
           "parameterCount": 5,
           "declaringClrType": "System.Net.NetworkInformation.Ping",
-          "declaringAssemblyName": "System.Net.Ping"
+          "declaringAssemblyName": "System.Net.Ping",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Ping:System.Net.NetworkInformation.Ping::SendPingAsync(System.Net.IPAddress):System.Threading.Tasks.Task_1[[System.Net.NetworkInformation.PingReply,System.Net.Ping,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
@@ -18645,7 +18762,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Net.NetworkInformation.Ping",
-          "declaringAssemblyName": "System.Net.Ping"
+          "declaringAssemblyName": "System.Net.Ping",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Ping:System.Net.NetworkInformation.Ping::SendPingAsync(System.String):System.Threading.Tasks.Task_1[[System.Net.NetworkInformation.PingReply,System.Net.Ping,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
@@ -18658,7 +18776,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Net.NetworkInformation.Ping",
-          "declaringAssemblyName": "System.Net.Ping"
+          "declaringAssemblyName": "System.Net.Ping",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Ping:System.Net.NetworkInformation.Ping::SendPingAsync(System.Net.IPAddress,System.Int32):System.Threading.Tasks.Task_1[[System.Net.NetworkInformation.PingReply,System.Net.Ping,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
@@ -18671,7 +18790,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Net.NetworkInformation.Ping",
-          "declaringAssemblyName": "System.Net.Ping"
+          "declaringAssemblyName": "System.Net.Ping",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Ping:System.Net.NetworkInformation.Ping::SendPingAsync(System.String,System.Int32):System.Threading.Tasks.Task_1[[System.Net.NetworkInformation.PingReply,System.Net.Ping,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
@@ -18684,7 +18804,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Net.NetworkInformation.Ping",
-          "declaringAssemblyName": "System.Net.Ping"
+          "declaringAssemblyName": "System.Net.Ping",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Ping:System.Net.NetworkInformation.Ping::SendPingAsync(System.Net.IPAddress,System.Int32,System.Byte[]):System.Threading.Tasks.Task_1[[System.Net.NetworkInformation.PingReply,System.Net.Ping,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
@@ -18697,7 +18818,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Net.NetworkInformation.Ping",
-          "declaringAssemblyName": "System.Net.Ping"
+          "declaringAssemblyName": "System.Net.Ping",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Ping:System.Net.NetworkInformation.Ping::SendPingAsync(System.String,System.Int32,System.Byte[]):System.Threading.Tasks.Task_1[[System.Net.NetworkInformation.PingReply,System.Net.Ping,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
@@ -18710,7 +18832,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Net.NetworkInformation.Ping",
-          "declaringAssemblyName": "System.Net.Ping"
+          "declaringAssemblyName": "System.Net.Ping",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Ping:System.Net.NetworkInformation.Ping::SendPingAsync(System.Net.IPAddress,System.Int32,System.Byte[],System.Net.NetworkInformation.PingOptions):System.Threading.Tasks.Task_1[[System.Net.NetworkInformation.PingReply,System.Net.Ping,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
@@ -18723,7 +18846,8 @@
           "arity": 0,
           "parameterCount": 4,
           "declaringClrType": "System.Net.NetworkInformation.Ping",
-          "declaringAssemblyName": "System.Net.Ping"
+          "declaringAssemblyName": "System.Net.Ping",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Ping:System.Net.NetworkInformation.Ping::SendPingAsync(System.Net.IPAddress,System.TimeSpan,System.Byte[],System.Net.NetworkInformation.PingOptions,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.NetworkInformation.PingReply,System.Net.Ping,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
@@ -18736,7 +18860,8 @@
           "arity": 0,
           "parameterCount": 5,
           "declaringClrType": "System.Net.NetworkInformation.Ping",
-          "declaringAssemblyName": "System.Net.Ping"
+          "declaringAssemblyName": "System.Net.Ping",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Ping:System.Net.NetworkInformation.Ping::SendPingAsync(System.String,System.Int32,System.Byte[],System.Net.NetworkInformation.PingOptions):System.Threading.Tasks.Task_1[[System.Net.NetworkInformation.PingReply,System.Net.Ping,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
@@ -18749,7 +18874,8 @@
           "arity": 0,
           "parameterCount": 4,
           "declaringClrType": "System.Net.NetworkInformation.Ping",
-          "declaringAssemblyName": "System.Net.Ping"
+          "declaringAssemblyName": "System.Net.Ping",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Ping:System.Net.NetworkInformation.Ping::SendPingAsync(System.String,System.TimeSpan,System.Byte[],System.Net.NetworkInformation.PingOptions,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.NetworkInformation.PingReply,System.Net.Ping,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
@@ -18762,7 +18888,8 @@
           "arity": 0,
           "parameterCount": 5,
           "declaringClrType": "System.Net.NetworkInformation.Ping",
-          "declaringAssemblyName": "System.Net.Ping"
+          "declaringAssemblyName": "System.Net.Ping",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Ping:System.Net.NetworkInformation.Ping::SendAsyncCancel():System.Void",
@@ -18775,7 +18902,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Net.NetworkInformation.Ping",
-          "declaringAssemblyName": "System.Net.Ping"
+          "declaringAssemblyName": "System.Net.Ping",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
@@ -18788,7 +18916,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.IDisposable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Ping:System.Net.NetworkInformation.Ping::Dispose():System.Void",
@@ -18801,7 +18930,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Net.NetworkInformation.Ping",
-          "declaringAssemblyName": "System.Net.Ping"
+          "declaringAssemblyName": "System.Net.Ping",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -19442,7 +19572,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Net.NetworkInformation.PingCompletedEventHandler",
-          "declaringAssemblyName": "System.Net.Ping"
+          "declaringAssemblyName": "System.Net.Ping",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Ping:System.Net.NetworkInformation.PingCompletedEventHandler::BeginInvoke(System.Object,System.Net.NetworkInformation.PingCompletedEventArgs,System.AsyncCallback,System.Object):System.IAsyncResult",
@@ -19455,7 +19586,8 @@
           "arity": 0,
           "parameterCount": 4,
           "declaringClrType": "System.Net.NetworkInformation.PingCompletedEventHandler",
-          "declaringAssemblyName": "System.Net.Ping"
+          "declaringAssemblyName": "System.Net.Ping",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Ping:System.Net.NetworkInformation.PingCompletedEventHandler::EndInvoke(System.IAsyncResult):System.Void",
@@ -19468,7 +19600,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Net.NetworkInformation.PingCompletedEventHandler",
-          "declaringAssemblyName": "System.Net.Ping"
+          "declaringAssemblyName": "System.Net.Ping",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
@@ -19481,7 +19614,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.ICloneable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
@@ -19494,7 +19628,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.Serialization.ISerializable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Ping:System.Net.NetworkInformation.PingCompletedEventHandler::Clone():System.Object",
@@ -19507,7 +19642,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Net.NetworkInformation.PingCompletedEventHandler",
-          "declaringAssemblyName": "System.Net.Ping"
+          "declaringAssemblyName": "System.Net.Ping",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Ping:System.Net.NetworkInformation.PingCompletedEventHandler::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
@@ -19520,7 +19656,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Net.NetworkInformation.PingCompletedEventHandler",
-          "declaringAssemblyName": "System.Net.Ping"
+          "declaringAssemblyName": "System.Net.Ping",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -19912,7 +20049,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.Serialization.ISerializable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Ping:System.Net.NetworkInformation.PingException::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
@@ -19925,7 +20063,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Net.NetworkInformation.PingException",
-          "declaringAssemblyName": "System.Net.Ping"
+          "declaringAssemblyName": "System.Net.Ping",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -21587,7 +21726,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Net.NetworkInformation.UnicastIPAddressInformationCollection",
-          "declaringAssemblyName": "System.Net.NetworkInformation"
+          "declaringAssemblyName": "System.Net.NetworkInformation",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.NetworkInformation:System.Net.NetworkInformation.UnicastIPAddressInformationCollection::Add(System.Net.NetworkInformation.UnicastIPAddressInformation):System.Void",
@@ -21600,7 +21740,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Net.NetworkInformation.UnicastIPAddressInformationCollection",
-          "declaringAssemblyName": "System.Net.NetworkInformation"
+          "declaringAssemblyName": "System.Net.NetworkInformation",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.NetworkInformation:System.Net.NetworkInformation.UnicastIPAddressInformationCollection::Contains(System.Net.NetworkInformation.UnicastIPAddressInformation):System.Boolean",
@@ -21613,7 +21754,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Net.NetworkInformation.UnicastIPAddressInformationCollection",
-          "declaringAssemblyName": "System.Net.NetworkInformation"
+          "declaringAssemblyName": "System.Net.NetworkInformation",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.NetworkInformation:System.Net.NetworkInformation.UnicastIPAddressInformationCollection::GetEnumerator():System.Collections.Generic.IEnumerator_1[[System.Net.NetworkInformation.UnicastIPAddressInformation,System.Net.NetworkInformation,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
@@ -21626,7 +21768,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Net.NetworkInformation.UnicastIPAddressInformationCollection",
-          "declaringAssemblyName": "System.Net.NetworkInformation"
+          "declaringAssemblyName": "System.Net.NetworkInformation",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.NetworkInformation:System.Net.NetworkInformation.UnicastIPAddressInformationCollection::Remove(System.Net.NetworkInformation.UnicastIPAddressInformation):System.Boolean",
@@ -21639,7 +21782,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Net.NetworkInformation.UnicastIPAddressInformationCollection",
-          "declaringAssemblyName": "System.Net.NetworkInformation"
+          "declaringAssemblyName": "System.Net.NetworkInformation",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.NetworkInformation:System.Net.NetworkInformation.UnicastIPAddressInformationCollection::Clear():System.Void",
@@ -21652,7 +21796,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Net.NetworkInformation.UnicastIPAddressInformationCollection",
-          "declaringAssemblyName": "System.Net.NetworkInformation"
+          "declaringAssemblyName": "System.Net.NetworkInformation",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::Add(T):System.Void",
@@ -21665,7 +21810,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::Contains(T):System.Boolean",
@@ -21678,7 +21824,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::CopyTo(T[],System.Int32):System.Void",
@@ -21691,7 +21838,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IEnumerable\u00601::GetEnumerator():IEnumerator_1",
@@ -21704,7 +21852,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.Generic.IEnumerable\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
@@ -21717,7 +21866,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.IEnumerable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::Clear():System.Void",
@@ -21730,7 +21880,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [

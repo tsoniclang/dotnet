@@ -979,7 +979,8 @@
           "isOverride": false,
           "isSealed": true,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.DiagnosticCounter::AddMetadata(System.String,System.String):System.Void",
@@ -994,7 +995,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
@@ -1010,7 +1012,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.IDisposable"
+          "sourceInterface": "System.IDisposable",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -1276,7 +1279,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventCommandEventArgs::DisableEvent(System.Int32):System.Boolean",
@@ -1291,7 +1295,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -1354,7 +1359,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventCounter::WriteMetric(System.Double):System.Void",
@@ -1369,7 +1375,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventCounter::ToString():System.String",
@@ -1384,7 +1391,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
@@ -1400,7 +1408,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.IDisposable"
+          "sourceInterface": "System.IDisposable",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventCounter::Dispose():System.Void",
@@ -1415,7 +1424,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -1566,7 +1576,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventListener::EnableEvents(System.Diagnostics.Tracing.EventSource,System.Diagnostics.Tracing.EventLevel):System.Void",
@@ -1581,7 +1592,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventListener::EnableEvents(System.Diagnostics.Tracing.EventSource,System.Diagnostics.Tracing.EventLevel,System.Diagnostics.Tracing.EventKeywords):System.Void",
@@ -1596,7 +1608,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventListener::EnableEvents(System.Diagnostics.Tracing.EventSource,System.Diagnostics.Tracing.EventLevel,System.Diagnostics.Tracing.EventKeywords,System.Collections.Generic.IDictionary_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
@@ -1611,7 +1624,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 4
+          "parameterCount": 4,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventListener::DisableEvents(System.Diagnostics.Tracing.EventSource):System.Void",
@@ -1626,7 +1640,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
@@ -1642,7 +1657,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.IDisposable"
+          "sourceInterface": "System.IDisposable",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -1689,7 +1705,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventSource::IsEnabled(System.Diagnostics.Tracing.EventLevel,System.Diagnostics.Tracing.EventKeywords):System.Boolean",
@@ -1704,7 +1721,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventSource::IsEnabled(System.Diagnostics.Tracing.EventLevel,System.Diagnostics.Tracing.EventKeywords,System.Diagnostics.Tracing.EventChannel):System.Boolean",
@@ -1719,7 +1737,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventSource::GetGuid(System.Type):System.Guid",
@@ -1734,7 +1753,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventSource::GetName(System.Type):System.String",
@@ -1749,7 +1769,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventSource::GenerateManifest(System.Type,System.String):System.String",
@@ -1764,7 +1785,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventSource::GenerateManifest(System.Type,System.String,System.Diagnostics.Tracing.EventManifestOptions):System.String",
@@ -1779,7 +1801,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventSource::GetSources():System.Collections.Generic.IEnumerable_1[[System.Diagnostics.Tracing.EventSource,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
@@ -1794,7 +1817,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventSource::SendCommand(System.Diagnostics.Tracing.EventSource,System.Diagnostics.Tracing.EventCommand,System.Collections.Generic.IDictionary_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
@@ -1809,7 +1833,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventSource::GetTrait(System.String):System.String",
@@ -1824,7 +1849,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventSource::ToString():System.String",
@@ -1839,7 +1865,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventSource::SetCurrentThreadActivityId(System.Guid):System.Void",
@@ -1854,7 +1881,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventSource::SetCurrentThreadActivityId(System.Guid,System.Guid\u0026):System.Void",
@@ -1869,7 +1897,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventSource::Dispose():System.Void",
@@ -1884,7 +1913,8 @@
           "isOverride": false,
           "isSealed": true,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventSource::Write(System.String):System.Void",
@@ -1899,7 +1929,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventSource::Write(System.String,System.Diagnostics.Tracing.EventSourceOptions):System.Void",
@@ -1914,7 +1945,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventSource::Write(System.String,T):System.Void",
@@ -1929,7 +1961,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventSource::Write(System.String,System.Diagnostics.Tracing.EventSourceOptions,T):System.Void",
@@ -1944,7 +1977,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventSource::Write(System.String,System.Diagnostics.Tracing.EventSourceOptions\u0026,T\u0026):System.Void",
@@ -1959,7 +1993,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventSource::Write(System.String,System.Diagnostics.Tracing.EventSourceOptions\u0026,System.Guid\u0026,System.Guid\u0026,T\u0026):System.Void",
@@ -1974,7 +2009,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 5
+          "parameterCount": 5,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
@@ -1990,7 +2026,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.IDisposable"
+          "sourceInterface": "System.IDisposable",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -2229,7 +2266,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 2,
-          "sourceInterface": "System.Runtime.Serialization.ISerializable"
+          "sourceInterface": "System.Runtime.Serialization.ISerializable",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventSourceException::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
@@ -2244,7 +2282,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -2564,7 +2603,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.IncrementingEventCounter::ToString():System.String",
@@ -2579,7 +2619,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
@@ -2595,7 +2636,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.IDisposable"
+          "sourceInterface": "System.IDisposable",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.IncrementingEventCounter::Dispose():System.Void",
@@ -2610,7 +2652,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -2664,7 +2707,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
@@ -2680,7 +2724,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.IDisposable"
+          "sourceInterface": "System.IDisposable",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.IncrementingPollingCounter::Dispose():System.Void",
@@ -2695,7 +2740,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -2771,7 +2817,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
@@ -2787,7 +2834,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.IDisposable"
+          "sourceInterface": "System.IDisposable",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.PollingCounter::Dispose():System.Void",
@@ -2802,7 +2850,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         }
       ],
       "properties": [],

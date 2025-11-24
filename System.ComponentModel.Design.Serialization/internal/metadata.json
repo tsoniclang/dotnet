@@ -29,7 +29,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.IDesignerLoaderHost::Reload():System.Void",
@@ -44,7 +45,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IDesignerHost::CreateComponent(System.Type):System.ComponentModel.IComponent",
@@ -59,7 +61,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IDesignerHost::CreateComponent(System.Type,System.String):System.ComponentModel.IComponent",
@@ -74,7 +77,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IDesignerHost::CreateTransaction():System.ComponentModel.Design.DesignerTransaction",
@@ -89,7 +93,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IDesignerHost::CreateTransaction(System.String):System.ComponentModel.Design.DesignerTransaction",
@@ -104,7 +109,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IDesignerHost::DestroyComponent(System.ComponentModel.IComponent):System.Void",
@@ -119,7 +125,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IDesignerHost::GetDesigner(System.ComponentModel.IComponent):System.ComponentModel.Design.IDesigner",
@@ -134,7 +141,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IDesignerHost::GetType(System.String):System.Type",
@@ -149,7 +157,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IServiceContainer::AddService(System.Type,System.Object):System.Void",
@@ -164,7 +173,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IServiceContainer::AddService(System.Type,System.Object,System.Boolean):System.Void",
@@ -179,7 +189,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IServiceContainer::AddService(System.Type,System.ComponentModel.Design.ServiceCreatorCallback):System.Void",
@@ -194,7 +205,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IServiceContainer::AddService(System.Type,System.ComponentModel.Design.ServiceCreatorCallback,System.Boolean):System.Void",
@@ -209,7 +221,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IServiceContainer::RemoveService(System.Type):System.Void",
@@ -224,7 +237,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IServiceContainer::RemoveService(System.Type,System.Boolean):System.Void",
@@ -239,7 +253,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel:System.IServiceProvider::GetService(System.Type):System.Object",
@@ -254,7 +269,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -392,7 +408,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.IDesignerLoaderHost::Reload():System.Void",
@@ -407,7 +424,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IDesignerHost::CreateComponent(System.Type):System.ComponentModel.IComponent",
@@ -422,7 +440,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IDesignerHost::CreateComponent(System.Type,System.String):System.ComponentModel.IComponent",
@@ -437,7 +456,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IDesignerHost::CreateTransaction():System.ComponentModel.Design.DesignerTransaction",
@@ -452,7 +472,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IDesignerHost::CreateTransaction(System.String):System.ComponentModel.Design.DesignerTransaction",
@@ -467,7 +488,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IDesignerHost::DestroyComponent(System.ComponentModel.IComponent):System.Void",
@@ -482,7 +504,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IDesignerHost::GetDesigner(System.ComponentModel.IComponent):System.ComponentModel.Design.IDesigner",
@@ -497,7 +520,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IDesignerHost::GetType(System.String):System.Type",
@@ -512,7 +536,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IServiceContainer::AddService(System.Type,System.Object):System.Void",
@@ -527,7 +552,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IServiceContainer::AddService(System.Type,System.Object,System.Boolean):System.Void",
@@ -542,7 +568,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IServiceContainer::AddService(System.Type,System.ComponentModel.Design.ServiceCreatorCallback):System.Void",
@@ -557,7 +584,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IServiceContainer::AddService(System.Type,System.ComponentModel.Design.ServiceCreatorCallback,System.Boolean):System.Void",
@@ -572,7 +600,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IServiceContainer::RemoveService(System.Type):System.Void",
@@ -587,7 +616,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IServiceContainer::RemoveService(System.Type,System.Boolean):System.Void",
@@ -602,7 +632,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel:System.IServiceProvider::GetService(System.Type):System.Object",
@@ -617,7 +648,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -785,7 +817,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.IDesignerLoaderService::DependentLoadComplete(System.Boolean,System.Collections.ICollection):System.Void",
@@ -800,7 +833,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.IDesignerLoaderService::Reload():System.Boolean",
@@ -815,7 +849,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -847,7 +882,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.IDesignerSerializationManager::CreateInstance(System.Type,System.Collections.ICollection,System.String,System.Boolean):System.Object",
@@ -862,7 +898,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 4
+          "parameterCount": 4,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.IDesignerSerializationManager::GetInstance(System.String):System.Object",
@@ -877,7 +914,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.IDesignerSerializationManager::GetName(System.Object):System.String",
@@ -892,7 +930,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.IDesignerSerializationManager::GetSerializer(System.Type,System.Type):System.Object",
@@ -907,7 +946,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.IDesignerSerializationManager::GetType(System.String):System.Type",
@@ -922,7 +962,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.IDesignerSerializationManager::ReportError(System.Object):System.Void",
@@ -937,7 +978,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.IDesignerSerializationManager::SetName(System.Object,System.String):System.Void",
@@ -952,7 +994,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel:System.IServiceProvider::GetService(System.Type):System.Object",
@@ -967,7 +1010,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -1045,7 +1089,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 4
+          "parameterCount": 4,
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -1077,7 +1122,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.IDesignerSerializationService::Serialize(System.Collections.ICollection):System.Object",
@@ -1092,7 +1138,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -1124,7 +1171,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.INameCreationService::IsValidName(System.String):System.Boolean",
@@ -1139,7 +1187,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.INameCreationService::ValidateName(System.String):System.Void",
@@ -1154,7 +1203,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -1186,7 +1236,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.MemberRelationship::Equals(System.ComponentModel.Design.Serialization.MemberRelationship):System.Boolean",
@@ -1201,7 +1252,8 @@
           "isOverride": false,
           "isSealed": true,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.MemberRelationship::GetHashCode():System.Int32",
@@ -1216,7 +1268,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.IEquatable\u00601::Equals(T):System.Boolean",
@@ -1232,7 +1285,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 1,
-          "sourceInterface": "System.IEquatable\u00601"
+          "sourceInterface": "System.IEquatable\u00601",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -1326,7 +1380,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.ComponentSerializationService::LoadStore(System.IO.Stream):System.ComponentModel.Design.Serialization.SerializationStore",
@@ -1341,7 +1396,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.ComponentSerializationService::Serialize(System.ComponentModel.Design.Serialization.SerializationStore,System.Object):System.Void",
@@ -1356,7 +1412,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.ComponentSerializationService::SerializeAbsolute(System.ComponentModel.Design.Serialization.SerializationStore,System.Object):System.Void",
@@ -1371,7 +1428,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.ComponentSerializationService::SerializeMember(System.ComponentModel.Design.Serialization.SerializationStore,System.Object,System.ComponentModel.MemberDescriptor):System.Void",
@@ -1386,7 +1444,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.ComponentSerializationService::SerializeMemberAbsolute(System.ComponentModel.Design.Serialization.SerializationStore,System.Object,System.ComponentModel.MemberDescriptor):System.Void",
@@ -1401,7 +1460,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.ComponentSerializationService::Deserialize(System.ComponentModel.Design.Serialization.SerializationStore):System.Collections.ICollection",
@@ -1416,7 +1476,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.ComponentSerializationService::Deserialize(System.ComponentModel.Design.Serialization.SerializationStore,System.ComponentModel.IContainer):System.Collections.ICollection",
@@ -1431,7 +1492,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.ComponentSerializationService::DeserializeTo(System.ComponentModel.Design.Serialization.SerializationStore,System.ComponentModel.IContainer,System.Boolean,System.Boolean):System.Void",
@@ -1446,7 +1508,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 4
+          "parameterCount": 4,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.ComponentSerializationService::DeserializeTo(System.ComponentModel.Design.Serialization.SerializationStore,System.ComponentModel.IContainer):System.Void",
@@ -1461,7 +1524,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.ComponentSerializationService::DeserializeTo(System.ComponentModel.Design.Serialization.SerializationStore,System.ComponentModel.IContainer,System.Boolean):System.Void",
@@ -1476,7 +1540,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -1508,7 +1573,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.ContextStack::Pop():System.Object",
@@ -1523,7 +1589,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.ContextStack::Push(System.Object):System.Void",
@@ -1538,7 +1605,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.ContextStack::get_Item(System.Int32):System.Object",
@@ -1553,7 +1621,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.ContextStack::get_Item(System.Type):System.Object",
@@ -1568,7 +1637,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -1665,7 +1735,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.DesignerLoader::Dispose():System.Void",
@@ -1680,7 +1751,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.DesignerLoader::Flush():System.Void",
@@ -1695,7 +1767,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -1821,7 +1894,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -1910,7 +1984,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.MemberRelationshipService::get_Item(System.ComponentModel.Design.Serialization.MemberRelationship):System.ComponentModel.Design.Serialization.MemberRelationship",
@@ -1925,7 +2000,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.MemberRelationshipService::set_Item(System.ComponentModel.Design.Serialization.MemberRelationship,System.ComponentModel.Design.Serialization.MemberRelationship):System.Void",
@@ -1940,7 +2016,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.MemberRelationshipService::get_Item(System.Object,System.ComponentModel.MemberDescriptor):System.ComponentModel.Design.Serialization.MemberRelationship",
@@ -1955,7 +2032,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.MemberRelationshipService::set_Item(System.Object,System.ComponentModel.MemberDescriptor,System.ComponentModel.Design.Serialization.MemberRelationship):System.Void",
@@ -1970,7 +2048,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -2055,7 +2134,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.ResolveNameEventHandler::BeginInvoke(System.Object,System.ComponentModel.Design.Serialization.ResolveNameEventArgs,System.AsyncCallback,System.Object):System.IAsyncResult",
@@ -2070,7 +2150,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 4
+          "parameterCount": 4,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.ResolveNameEventHandler::EndInvoke(System.IAsyncResult):System.Void",
@@ -2085,7 +2166,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
@@ -2101,7 +2183,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.ICloneable"
+          "sourceInterface": "System.ICloneable",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
@@ -2117,7 +2200,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 2,
-          "sourceInterface": "System.Runtime.Serialization.ISerializable"
+          "sourceInterface": "System.Runtime.Serialization.ISerializable",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.ResolveNameEventHandler::Clone():System.Object",
@@ -2132,7 +2216,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.ResolveNameEventHandler::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
@@ -2147,7 +2232,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -2278,7 +2364,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.SerializationStore::Save(System.IO.Stream):System.Void",
@@ -2293,7 +2380,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
@@ -2309,7 +2397,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.IDisposable"
+          "sourceInterface": "System.IDisposable",
+          "isExtensionMethod": false
         }
       ],
       "properties": [

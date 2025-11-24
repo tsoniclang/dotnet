@@ -28,7 +28,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.Encodings.Web:System.Text.Encodings.Web.HtmlEncoder::Create(System.Text.Unicode.UnicodeRange[]):System.Text.Encodings.Web.HtmlEncoder",
@@ -43,7 +44,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -91,7 +93,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.Encodings.Web:System.Text.Encodings.Web.JavaScriptEncoder::Create(System.Text.Unicode.UnicodeRange[]):System.Text.Encodings.Web.JavaScriptEncoder",
@@ -106,7 +109,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -169,7 +173,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 4
+          "parameterCount": 4,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.Encodings.Web:System.Text.Encodings.Web.TextEncoder::FindFirstCharacterToEncode(System.Char*,System.Int32):System.Int32",
@@ -184,7 +189,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.Encodings.Web:System.Text.Encodings.Web.TextEncoder::WillEncode(System.Int32):System.Boolean",
@@ -199,7 +205,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.Encodings.Web:System.Text.Encodings.Web.TextEncoder::Encode(System.String):System.String",
@@ -214,7 +221,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.Encodings.Web:System.Text.Encodings.Web.TextEncoder::Encode(System.IO.TextWriter,System.String):System.Void",
@@ -229,7 +237,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.Encodings.Web:System.Text.Encodings.Web.TextEncoder::Encode(System.IO.TextWriter,System.String,System.Int32,System.Int32):System.Void",
@@ -244,7 +253,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 4
+          "parameterCount": 4,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.Encodings.Web:System.Text.Encodings.Web.TextEncoder::Encode(System.IO.TextWriter,System.Char[],System.Int32,System.Int32):System.Void",
@@ -259,7 +269,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 4
+          "parameterCount": 4,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.Encodings.Web:System.Text.Encodings.Web.TextEncoder::EncodeUtf8(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32\u0026,System.Int32\u0026,System.Boolean):System.Buffers.OperationStatus",
@@ -274,7 +285,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 5
+          "parameterCount": 5,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.Encodings.Web:System.Text.Encodings.Web.TextEncoder::Encode(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32\u0026,System.Int32\u0026,System.Boolean):System.Buffers.OperationStatus",
@@ -289,7 +301,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 5
+          "parameterCount": 5,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.Encodings.Web:System.Text.Encodings.Web.TextEncoder::FindFirstCharacterToEncodeUtf8(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32",
@@ -304,7 +317,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -352,7 +366,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.Encodings.Web:System.Text.Encodings.Web.TextEncoderSettings::AllowCharacters(System.Char[]):System.Void",
@@ -367,7 +382,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.Encodings.Web:System.Text.Encodings.Web.TextEncoderSettings::AllowCodePoints(System.Collections.Generic.IEnumerable_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
@@ -382,7 +398,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.Encodings.Web:System.Text.Encodings.Web.TextEncoderSettings::AllowRange(System.Text.Unicode.UnicodeRange):System.Void",
@@ -397,7 +414,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.Encodings.Web:System.Text.Encodings.Web.TextEncoderSettings::AllowRanges(System.Text.Unicode.UnicodeRange[]):System.Void",
@@ -412,7 +430,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.Encodings.Web:System.Text.Encodings.Web.TextEncoderSettings::Clear():System.Void",
@@ -427,7 +446,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.Encodings.Web:System.Text.Encodings.Web.TextEncoderSettings::ForbidCharacter(System.Char):System.Void",
@@ -442,7 +462,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.Encodings.Web:System.Text.Encodings.Web.TextEncoderSettings::ForbidCharacters(System.Char[]):System.Void",
@@ -457,7 +478,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.Encodings.Web:System.Text.Encodings.Web.TextEncoderSettings::ForbidRange(System.Text.Unicode.UnicodeRange):System.Void",
@@ -472,7 +494,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.Encodings.Web:System.Text.Encodings.Web.TextEncoderSettings::ForbidRanges(System.Text.Unicode.UnicodeRange[]):System.Void",
@@ -487,7 +510,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.Encodings.Web:System.Text.Encodings.Web.TextEncoderSettings::GetAllowedCodePoints():System.Collections.Generic.IEnumerable_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
@@ -502,7 +526,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -550,7 +575,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.Encodings.Web:System.Text.Encodings.Web.UrlEncoder::Create(System.Text.Unicode.UnicodeRange[]):System.Text.Encodings.Web.UrlEncoder",
@@ -565,7 +591,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         }
       ],
       "properties": [

@@ -111,7 +111,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.ServerSentEvents:System.Net.ServerSentEvents.SseItemParser\u00601::BeginInvoke(System.String,System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.AsyncCallback,System.Object):System.IAsyncResult",
@@ -126,7 +127,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 4
+          "parameterCount": 4,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.ServerSentEvents:System.Net.ServerSentEvents.SseItemParser\u00601::EndInvoke(System.IAsyncResult):T",
@@ -141,7 +143,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
@@ -157,7 +160,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.ICloneable"
+          "sourceInterface": "System.ICloneable",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
@@ -173,7 +177,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 2,
-          "sourceInterface": "System.Runtime.Serialization.ISerializable"
+          "sourceInterface": "System.Runtime.Serialization.ISerializable",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.ServerSentEvents:System.Net.ServerSentEvents.SseItemParser\u00601::Clone():System.Object",
@@ -188,7 +193,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.ServerSentEvents:System.Net.ServerSentEvents.SseItemParser\u00601::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
@@ -203,7 +209,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -241,7 +248,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.ServerSentEvents:System.Net.ServerSentEvents.SseParser\u00601::EnumerateAsync(System.Threading.CancellationToken):IAsyncEnumerable_1",
@@ -256,7 +264,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -319,7 +328,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.ServerSentEvents:System.Net.ServerSentEvents.SseFormatter::WriteAsync(IAsyncEnumerable_1,System.IO.Stream,Action_2,System.Threading.CancellationToken):System.Threading.Tasks.Task",
@@ -334,7 +344,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 4
+          "parameterCount": 4,
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -366,7 +377,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.ServerSentEvents:System.Net.ServerSentEvents.SseParser::Create(System.IO.Stream,SseItemParser_1):SseParser_1",
@@ -381,7 +393,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         }
       ],
       "properties": [],

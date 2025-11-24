@@ -99,7 +99,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Mail:System.Net.Mime.ContentDisposition::Equals(System.Object):System.Boolean",
@@ -114,7 +115,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Mail:System.Net.Mime.ContentDisposition::GetHashCode():System.Int32",
@@ -129,7 +131,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -293,7 +296,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Mail:System.Net.Mime.ContentType::Equals(System.Object):System.Boolean",
@@ -308,7 +312,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Mail:System.Net.Mime.ContentType::GetHashCode():System.Int32",
@@ -323,7 +328,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         }
       ],
       "properties": [

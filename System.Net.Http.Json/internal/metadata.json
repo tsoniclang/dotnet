@@ -28,7 +28,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http.Json:System.Net.Http.Json.JsonContent::Create(System.Object,System.Type,System.Net.Http.Headers.MediaTypeHeaderValue,System.Text.Json.JsonSerializerOptions):System.Net.Http.Json.JsonContent",
@@ -43,7 +44,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 4
+          "parameterCount": 4,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http.Json:System.Net.Http.Json.JsonContent::Create(T,JsonTypeInfo_1,System.Net.Http.Headers.MediaTypeHeaderValue):System.Net.Http.Json.JsonContent",
@@ -58,7 +60,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http.Json:System.Net.Http.Json.JsonContent::Create(System.Object,System.Text.Json.Serialization.Metadata.JsonTypeInfo,System.Net.Http.Headers.MediaTypeHeaderValue):System.Net.Http.Json.JsonContent",
@@ -73,7 +76,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
@@ -89,7 +93,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.IDisposable"
+          "sourceInterface": "System.IDisposable",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http.Json:System.Net.Http.Json.JsonContent::Dispose():System.Void",
@@ -104,7 +109,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -167,7 +173,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 4
+          "parameterCount": 4,
+          "isExtensionMethod": true
         },
         {
           "stableId": "System.Net.Http.Json:System.Net.Http.Json.HttpClientJsonExtensions::GetFromJsonAsAsyncEnumerable(System.Net.Http.HttpClient,System.Uri,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken):IAsyncEnumerable_1",
@@ -182,7 +189,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 4
+          "parameterCount": 4,
+          "isExtensionMethod": true
         },
         {
           "stableId": "System.Net.Http.Json:System.Net.Http.Json.HttpClientJsonExtensions::GetFromJsonAsAsyncEnumerable(System.Net.Http.HttpClient,System.String,JsonTypeInfo_1,System.Threading.CancellationToken):IAsyncEnumerable_1",
@@ -197,7 +205,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 4
+          "parameterCount": 4,
+          "isExtensionMethod": true
         },
         {
           "stableId": "System.Net.Http.Json:System.Net.Http.Json.HttpClientJsonExtensions::GetFromJsonAsAsyncEnumerable(System.Net.Http.HttpClient,System.Uri,JsonTypeInfo_1,System.Threading.CancellationToken):IAsyncEnumerable_1",
@@ -212,7 +221,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 4
+          "parameterCount": 4,
+          "isExtensionMethod": true
         },
         {
           "stableId": "System.Net.Http.Json:System.Net.Http.Json.HttpClientJsonExtensions::GetFromJsonAsAsyncEnumerable(System.Net.Http.HttpClient,System.String,System.Threading.CancellationToken):IAsyncEnumerable_1",
@@ -227,7 +237,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": true
         },
         {
           "stableId": "System.Net.Http.Json:System.Net.Http.Json.HttpClientJsonExtensions::GetFromJsonAsAsyncEnumerable(System.Net.Http.HttpClient,System.Uri,System.Threading.CancellationToken):IAsyncEnumerable_1",
@@ -242,7 +253,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": true
         },
         {
           "stableId": "System.Net.Http.Json:System.Net.Http.Json.HttpClientJsonExtensions::DeleteFromJsonAsync(System.Net.Http.HttpClient,System.String,System.Type,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
@@ -257,7 +269,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 5
+          "parameterCount": 5,
+          "isExtensionMethod": true
         },
         {
           "stableId": "System.Net.Http.Json:System.Net.Http.Json.HttpClientJsonExtensions::DeleteFromJsonAsync(System.Net.Http.HttpClient,System.Uri,System.Type,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
@@ -272,7 +285,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 5
+          "parameterCount": 5,
+          "isExtensionMethod": true
         },
         {
           "stableId": "System.Net.Http.Json:System.Net.Http.Json.HttpClientJsonExtensions::DeleteFromJsonAsync(System.Net.Http.HttpClient,System.String,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken):Task_1",
@@ -287,7 +301,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 4
+          "parameterCount": 4,
+          "isExtensionMethod": true
         },
         {
           "stableId": "System.Net.Http.Json:System.Net.Http.Json.HttpClientJsonExtensions::DeleteFromJsonAsync(System.Net.Http.HttpClient,System.Uri,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken):Task_1",
@@ -302,7 +317,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 4
+          "parameterCount": 4,
+          "isExtensionMethod": true
         },
         {
           "stableId": "System.Net.Http.Json:System.Net.Http.Json.HttpClientJsonExtensions::DeleteFromJsonAsync(System.Net.Http.HttpClient,System.String,System.Type,System.Text.Json.Serialization.JsonSerializerContext,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
@@ -317,7 +333,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 5
+          "parameterCount": 5,
+          "isExtensionMethod": true
         },
         {
           "stableId": "System.Net.Http.Json:System.Net.Http.Json.HttpClientJsonExtensions::DeleteFromJsonAsync(System.Net.Http.HttpClient,System.Uri,System.Type,System.Text.Json.Serialization.JsonSerializerContext,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
@@ -332,7 +349,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 5
+          "parameterCount": 5,
+          "isExtensionMethod": true
         },
         {
           "stableId": "System.Net.Http.Json:System.Net.Http.Json.HttpClientJsonExtensions::DeleteFromJsonAsync(System.Net.Http.HttpClient,System.String,JsonTypeInfo_1,System.Threading.CancellationToken):Task_1",
@@ -347,7 +365,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 4
+          "parameterCount": 4,
+          "isExtensionMethod": true
         },
         {
           "stableId": "System.Net.Http.Json:System.Net.Http.Json.HttpClientJsonExtensions::DeleteFromJsonAsync(System.Net.Http.HttpClient,System.Uri,JsonTypeInfo_1,System.Threading.CancellationToken):Task_1",
@@ -362,7 +381,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 4
+          "parameterCount": 4,
+          "isExtensionMethod": true
         },
         {
           "stableId": "System.Net.Http.Json:System.Net.Http.Json.HttpClientJsonExtensions::DeleteFromJsonAsync(System.Net.Http.HttpClient,System.String,System.Type,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
@@ -377,7 +397,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 4
+          "parameterCount": 4,
+          "isExtensionMethod": true
         },
         {
           "stableId": "System.Net.Http.Json:System.Net.Http.Json.HttpClientJsonExtensions::DeleteFromJsonAsync(System.Net.Http.HttpClient,System.Uri,System.Type,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
@@ -392,7 +413,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 4
+          "parameterCount": 4,
+          "isExtensionMethod": true
         },
         {
           "stableId": "System.Net.Http.Json:System.Net.Http.Json.HttpClientJsonExtensions::DeleteFromJsonAsync(System.Net.Http.HttpClient,System.String,System.Threading.CancellationToken):Task_1",
@@ -407,7 +429,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": true
         },
         {
           "stableId": "System.Net.Http.Json:System.Net.Http.Json.HttpClientJsonExtensions::DeleteFromJsonAsync(System.Net.Http.HttpClient,System.Uri,System.Threading.CancellationToken):Task_1",
@@ -422,7 +445,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": true
         },
         {
           "stableId": "System.Net.Http.Json:System.Net.Http.Json.HttpClientJsonExtensions::GetFromJsonAsync(System.Net.Http.HttpClient,System.String,System.Type,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
@@ -437,7 +461,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 5
+          "parameterCount": 5,
+          "isExtensionMethod": true
         },
         {
           "stableId": "System.Net.Http.Json:System.Net.Http.Json.HttpClientJsonExtensions::GetFromJsonAsync(System.Net.Http.HttpClient,System.Uri,System.Type,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
@@ -452,7 +477,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 5
+          "parameterCount": 5,
+          "isExtensionMethod": true
         },
         {
           "stableId": "System.Net.Http.Json:System.Net.Http.Json.HttpClientJsonExtensions::GetFromJsonAsync(System.Net.Http.HttpClient,System.String,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken):Task_1",
@@ -467,7 +493,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 4
+          "parameterCount": 4,
+          "isExtensionMethod": true
         },
         {
           "stableId": "System.Net.Http.Json:System.Net.Http.Json.HttpClientJsonExtensions::GetFromJsonAsync(System.Net.Http.HttpClient,System.Uri,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken):Task_1",
@@ -482,7 +509,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 4
+          "parameterCount": 4,
+          "isExtensionMethod": true
         },
         {
           "stableId": "System.Net.Http.Json:System.Net.Http.Json.HttpClientJsonExtensions::GetFromJsonAsync(System.Net.Http.HttpClient,System.String,System.Type,System.Text.Json.Serialization.JsonSerializerContext,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
@@ -497,7 +525,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 5
+          "parameterCount": 5,
+          "isExtensionMethod": true
         },
         {
           "stableId": "System.Net.Http.Json:System.Net.Http.Json.HttpClientJsonExtensions::GetFromJsonAsync(System.Net.Http.HttpClient,System.Uri,System.Type,System.Text.Json.Serialization.JsonSerializerContext,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
@@ -512,7 +541,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 5
+          "parameterCount": 5,
+          "isExtensionMethod": true
         },
         {
           "stableId": "System.Net.Http.Json:System.Net.Http.Json.HttpClientJsonExtensions::GetFromJsonAsync(System.Net.Http.HttpClient,System.String,JsonTypeInfo_1,System.Threading.CancellationToken):Task_1",
@@ -527,7 +557,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 4
+          "parameterCount": 4,
+          "isExtensionMethod": true
         },
         {
           "stableId": "System.Net.Http.Json:System.Net.Http.Json.HttpClientJsonExtensions::GetFromJsonAsync(System.Net.Http.HttpClient,System.Uri,JsonTypeInfo_1,System.Threading.CancellationToken):Task_1",
@@ -542,7 +573,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 4
+          "parameterCount": 4,
+          "isExtensionMethod": true
         },
         {
           "stableId": "System.Net.Http.Json:System.Net.Http.Json.HttpClientJsonExtensions::GetFromJsonAsync(System.Net.Http.HttpClient,System.String,System.Type,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
@@ -557,7 +589,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 4
+          "parameterCount": 4,
+          "isExtensionMethod": true
         },
         {
           "stableId": "System.Net.Http.Json:System.Net.Http.Json.HttpClientJsonExtensions::GetFromJsonAsync(System.Net.Http.HttpClient,System.Uri,System.Type,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
@@ -572,7 +605,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 4
+          "parameterCount": 4,
+          "isExtensionMethod": true
         },
         {
           "stableId": "System.Net.Http.Json:System.Net.Http.Json.HttpClientJsonExtensions::GetFromJsonAsync(System.Net.Http.HttpClient,System.String,System.Threading.CancellationToken):Task_1",
@@ -587,7 +621,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": true
         },
         {
           "stableId": "System.Net.Http.Json:System.Net.Http.Json.HttpClientJsonExtensions::GetFromJsonAsync(System.Net.Http.HttpClient,System.Uri,System.Threading.CancellationToken):Task_1",
@@ -602,7 +637,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": true
         },
         {
           "stableId": "System.Net.Http.Json:System.Net.Http.Json.HttpClientJsonExtensions::PostAsJsonAsync(System.Net.Http.HttpClient,System.String,TValue,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
@@ -617,7 +653,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 5
+          "parameterCount": 5,
+          "isExtensionMethod": true
         },
         {
           "stableId": "System.Net.Http.Json:System.Net.Http.Json.HttpClientJsonExtensions::PostAsJsonAsync(System.Net.Http.HttpClient,System.Uri,TValue,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
@@ -632,7 +669,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 5
+          "parameterCount": 5,
+          "isExtensionMethod": true
         },
         {
           "stableId": "System.Net.Http.Json:System.Net.Http.Json.HttpClientJsonExtensions::PostAsJsonAsync(System.Net.Http.HttpClient,System.String,TValue,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
@@ -647,7 +685,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 4
+          "parameterCount": 4,
+          "isExtensionMethod": true
         },
         {
           "stableId": "System.Net.Http.Json:System.Net.Http.Json.HttpClientJsonExtensions::PostAsJsonAsync(System.Net.Http.HttpClient,System.Uri,TValue,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
@@ -662,7 +701,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 4
+          "parameterCount": 4,
+          "isExtensionMethod": true
         },
         {
           "stableId": "System.Net.Http.Json:System.Net.Http.Json.HttpClientJsonExtensions::PostAsJsonAsync(System.Net.Http.HttpClient,System.String,TValue,JsonTypeInfo_1,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
@@ -677,7 +717,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 5
+          "parameterCount": 5,
+          "isExtensionMethod": true
         },
         {
           "stableId": "System.Net.Http.Json:System.Net.Http.Json.HttpClientJsonExtensions::PostAsJsonAsync(System.Net.Http.HttpClient,System.Uri,TValue,JsonTypeInfo_1,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
@@ -692,7 +733,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 5
+          "parameterCount": 5,
+          "isExtensionMethod": true
         },
         {
           "stableId": "System.Net.Http.Json:System.Net.Http.Json.HttpClientJsonExtensions::PutAsJsonAsync(System.Net.Http.HttpClient,System.String,TValue,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
@@ -707,7 +749,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 5
+          "parameterCount": 5,
+          "isExtensionMethod": true
         },
         {
           "stableId": "System.Net.Http.Json:System.Net.Http.Json.HttpClientJsonExtensions::PutAsJsonAsync(System.Net.Http.HttpClient,System.Uri,TValue,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
@@ -722,7 +765,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 5
+          "parameterCount": 5,
+          "isExtensionMethod": true
         },
         {
           "stableId": "System.Net.Http.Json:System.Net.Http.Json.HttpClientJsonExtensions::PutAsJsonAsync(System.Net.Http.HttpClient,System.String,TValue,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
@@ -737,7 +781,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 4
+          "parameterCount": 4,
+          "isExtensionMethod": true
         },
         {
           "stableId": "System.Net.Http.Json:System.Net.Http.Json.HttpClientJsonExtensions::PutAsJsonAsync(System.Net.Http.HttpClient,System.Uri,TValue,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
@@ -752,7 +797,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 4
+          "parameterCount": 4,
+          "isExtensionMethod": true
         },
         {
           "stableId": "System.Net.Http.Json:System.Net.Http.Json.HttpClientJsonExtensions::PutAsJsonAsync(System.Net.Http.HttpClient,System.String,TValue,JsonTypeInfo_1,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
@@ -767,7 +813,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 5
+          "parameterCount": 5,
+          "isExtensionMethod": true
         },
         {
           "stableId": "System.Net.Http.Json:System.Net.Http.Json.HttpClientJsonExtensions::PutAsJsonAsync(System.Net.Http.HttpClient,System.Uri,TValue,JsonTypeInfo_1,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
@@ -782,7 +829,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 5
+          "parameterCount": 5,
+          "isExtensionMethod": true
         },
         {
           "stableId": "System.Net.Http.Json:System.Net.Http.Json.HttpClientJsonExtensions::PatchAsJsonAsync(System.Net.Http.HttpClient,System.String,TValue,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
@@ -797,7 +845,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 5
+          "parameterCount": 5,
+          "isExtensionMethod": true
         },
         {
           "stableId": "System.Net.Http.Json:System.Net.Http.Json.HttpClientJsonExtensions::PatchAsJsonAsync(System.Net.Http.HttpClient,System.Uri,TValue,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
@@ -812,7 +861,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 5
+          "parameterCount": 5,
+          "isExtensionMethod": true
         },
         {
           "stableId": "System.Net.Http.Json:System.Net.Http.Json.HttpClientJsonExtensions::PatchAsJsonAsync(System.Net.Http.HttpClient,System.String,TValue,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
@@ -827,7 +877,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 4
+          "parameterCount": 4,
+          "isExtensionMethod": true
         },
         {
           "stableId": "System.Net.Http.Json:System.Net.Http.Json.HttpClientJsonExtensions::PatchAsJsonAsync(System.Net.Http.HttpClient,System.Uri,TValue,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
@@ -842,7 +893,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 4
+          "parameterCount": 4,
+          "isExtensionMethod": true
         },
         {
           "stableId": "System.Net.Http.Json:System.Net.Http.Json.HttpClientJsonExtensions::PatchAsJsonAsync(System.Net.Http.HttpClient,System.String,TValue,JsonTypeInfo_1,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
@@ -857,7 +909,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 5
+          "parameterCount": 5,
+          "isExtensionMethod": true
         },
         {
           "stableId": "System.Net.Http.Json:System.Net.Http.Json.HttpClientJsonExtensions::PatchAsJsonAsync(System.Net.Http.HttpClient,System.Uri,TValue,JsonTypeInfo_1,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
@@ -872,7 +925,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 5
+          "parameterCount": 5,
+          "isExtensionMethod": true
         }
       ],
       "properties": [],
@@ -904,7 +958,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": true
         },
         {
           "stableId": "System.Net.Http.Json:System.Net.Http.Json.HttpContentJsonExtensions::ReadFromJsonAsAsyncEnumerable(System.Net.Http.HttpContent,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken):IAsyncEnumerable_1",
@@ -919,7 +974,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": true
         },
         {
           "stableId": "System.Net.Http.Json:System.Net.Http.Json.HttpContentJsonExtensions::ReadFromJsonAsAsyncEnumerable(System.Net.Http.HttpContent,JsonTypeInfo_1,System.Threading.CancellationToken):IAsyncEnumerable_1",
@@ -934,7 +990,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": true
         },
         {
           "stableId": "System.Net.Http.Json:System.Net.Http.Json.HttpContentJsonExtensions::ReadFromJsonAsync(System.Net.Http.HttpContent,System.Type,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
@@ -949,7 +1006,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 4
+          "parameterCount": 4,
+          "isExtensionMethod": true
         },
         {
           "stableId": "System.Net.Http.Json:System.Net.Http.Json.HttpContentJsonExtensions::ReadFromJsonAsync(System.Net.Http.HttpContent,System.Type,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
@@ -964,7 +1022,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": true
         },
         {
           "stableId": "System.Net.Http.Json:System.Net.Http.Json.HttpContentJsonExtensions::ReadFromJsonAsync(System.Net.Http.HttpContent,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken):Task_1",
@@ -979,7 +1038,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": true
         },
         {
           "stableId": "System.Net.Http.Json:System.Net.Http.Json.HttpContentJsonExtensions::ReadFromJsonAsync(System.Net.Http.HttpContent,System.Threading.CancellationToken):Task_1",
@@ -994,7 +1054,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": true
         },
         {
           "stableId": "System.Net.Http.Json:System.Net.Http.Json.HttpContentJsonExtensions::ReadFromJsonAsync(System.Net.Http.HttpContent,System.Type,System.Text.Json.Serialization.JsonSerializerContext,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
@@ -1009,7 +1070,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 4
+          "parameterCount": 4,
+          "isExtensionMethod": true
         },
         {
           "stableId": "System.Net.Http.Json:System.Net.Http.Json.HttpContentJsonExtensions::ReadFromJsonAsync(System.Net.Http.HttpContent,JsonTypeInfo_1,System.Threading.CancellationToken):Task_1",
@@ -1024,7 +1086,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": true
         }
       ],
       "properties": [],

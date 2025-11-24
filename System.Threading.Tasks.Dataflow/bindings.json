@@ -862,7 +862,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Threading.Tasks.Dataflow.IDataflowBlock",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.IDataflowBlock::Fault(System.Exception):System.Void",
@@ -875,7 +876,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Threading.Tasks.Dataflow.IDataflowBlock",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -950,7 +952,8 @@
           "arity": 0,
           "parameterCount": 4,
           "declaringClrType": "System.Threading.Tasks.Dataflow.ITargetBlock\u00601",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.IDataflowBlock::Complete():System.Void",
@@ -963,7 +966,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Threading.Tasks.Dataflow.IDataflowBlock",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.IDataflowBlock::Fault(System.Exception):System.Void",
@@ -976,7 +980,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Threading.Tasks.Dataflow.IDataflowBlock",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.ISourceBlock\u00601::LinkTo(ITargetBlock_1,System.Threading.Tasks.Dataflow.DataflowLinkOptions):System.IDisposable",
@@ -989,7 +994,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Threading.Tasks.Dataflow.ISourceBlock\u00601",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.ISourceBlock\u00601::ConsumeMessage(System.Threading.Tasks.Dataflow.DataflowMessageHeader,ITargetBlock_1,System.Boolean\u0026):TOutput",
@@ -1002,7 +1008,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Threading.Tasks.Dataflow.ISourceBlock\u00601",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.ISourceBlock\u00601::ReserveMessage(System.Threading.Tasks.Dataflow.DataflowMessageHeader,ITargetBlock_1):System.Boolean",
@@ -1015,7 +1022,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Threading.Tasks.Dataflow.ISourceBlock\u00601",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.ISourceBlock\u00601::ReleaseReservation(System.Threading.Tasks.Dataflow.DataflowMessageHeader,ITargetBlock_1):System.Void",
@@ -1028,7 +1036,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Threading.Tasks.Dataflow.ISourceBlock\u00601",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -1153,7 +1162,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Threading.Tasks.Dataflow.IReceivableSourceBlock\u00601",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.IReceivableSourceBlock\u00601::TryReceiveAll(IList_1\u0026):System.Boolean",
@@ -1166,7 +1176,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Threading.Tasks.Dataflow.IReceivableSourceBlock\u00601",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.ISourceBlock\u00601::LinkTo(ITargetBlock_1,System.Threading.Tasks.Dataflow.DataflowLinkOptions):System.IDisposable",
@@ -1179,7 +1190,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Threading.Tasks.Dataflow.ISourceBlock\u00601",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.ISourceBlock\u00601::ConsumeMessage(System.Threading.Tasks.Dataflow.DataflowMessageHeader,ITargetBlock_1,System.Boolean\u0026):TOutput",
@@ -1192,7 +1204,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Threading.Tasks.Dataflow.ISourceBlock\u00601",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.ISourceBlock\u00601::ReserveMessage(System.Threading.Tasks.Dataflow.DataflowMessageHeader,ITargetBlock_1):System.Boolean",
@@ -1205,7 +1218,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Threading.Tasks.Dataflow.ISourceBlock\u00601",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.ISourceBlock\u00601::ReleaseReservation(System.Threading.Tasks.Dataflow.DataflowMessageHeader,ITargetBlock_1):System.Void",
@@ -1218,7 +1232,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Threading.Tasks.Dataflow.ISourceBlock\u00601",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.IDataflowBlock::Complete():System.Void",
@@ -1231,7 +1246,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Threading.Tasks.Dataflow.IDataflowBlock",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.IDataflowBlock::Fault(System.Exception):System.Void",
@@ -1244,7 +1260,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Threading.Tasks.Dataflow.IDataflowBlock",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -1379,7 +1396,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Threading.Tasks.Dataflow.ISourceBlock\u00601",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.ISourceBlock\u00601::ConsumeMessage(System.Threading.Tasks.Dataflow.DataflowMessageHeader,ITargetBlock_1,System.Boolean\u0026):TOutput",
@@ -1392,7 +1410,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Threading.Tasks.Dataflow.ISourceBlock\u00601",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.ISourceBlock\u00601::ReserveMessage(System.Threading.Tasks.Dataflow.DataflowMessageHeader,ITargetBlock_1):System.Boolean",
@@ -1405,7 +1424,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Threading.Tasks.Dataflow.ISourceBlock\u00601",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.ISourceBlock\u00601::ReleaseReservation(System.Threading.Tasks.Dataflow.DataflowMessageHeader,ITargetBlock_1):System.Void",
@@ -1418,7 +1438,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Threading.Tasks.Dataflow.ISourceBlock\u00601",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.IDataflowBlock::Complete():System.Void",
@@ -1431,7 +1452,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Threading.Tasks.Dataflow.IDataflowBlock",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.IDataflowBlock::Fault(System.Exception):System.Void",
@@ -1444,7 +1466,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Threading.Tasks.Dataflow.IDataflowBlock",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -1559,7 +1582,8 @@
           "arity": 0,
           "parameterCount": 4,
           "declaringClrType": "System.Threading.Tasks.Dataflow.ITargetBlock\u00601",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.IDataflowBlock::Complete():System.Void",
@@ -1572,7 +1596,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Threading.Tasks.Dataflow.IDataflowBlock",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.IDataflowBlock::Fault(System.Exception):System.Void",
@@ -1585,7 +1610,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Threading.Tasks.Dataflow.IDataflowBlock",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -1670,7 +1696,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Threading.Tasks.Dataflow.DataflowMessageHeader",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.DataflowMessageHeader::Equals(System.Object):System.Boolean",
@@ -1683,7 +1710,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Threading.Tasks.Dataflow.DataflowMessageHeader",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.DataflowMessageHeader::GetHashCode():System.Int32",
@@ -1696,7 +1724,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Threading.Tasks.Dataflow.DataflowMessageHeader",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.IEquatable\u00601::Equals(T):System.Boolean",
@@ -1709,7 +1738,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.IEquatable\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -1890,7 +1920,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Threading.Tasks.Dataflow.ActionBlock\u00601",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.ActionBlock\u00601::Post(TInput):System.Boolean",
@@ -1903,7 +1934,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Threading.Tasks.Dataflow.ActionBlock\u00601",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.ActionBlock\u00601::ToString():System.String",
@@ -1916,7 +1948,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Threading.Tasks.Dataflow.ActionBlock\u00601",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.ITargetBlock\u00601::OfferMessage(System.Threading.Tasks.Dataflow.DataflowMessageHeader,TInput,ISourceBlock_1,System.Boolean):System.Threading.Tasks.Dataflow.DataflowMessageStatus",
@@ -1929,7 +1962,8 @@
           "arity": 0,
           "parameterCount": 4,
           "declaringClrType": "System.Threading.Tasks.Dataflow.ITargetBlock\u00601",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.IDataflowBlock::Fault(System.Exception):System.Void",
@@ -1942,7 +1976,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Threading.Tasks.Dataflow.IDataflowBlock",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.IDataflowBlock::Complete():System.Void",
@@ -1955,7 +1990,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Threading.Tasks.Dataflow.IDataflowBlock",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -2247,7 +2283,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Threading.Tasks.Dataflow.BatchBlock\u00601",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.BatchBlock\u00601::TriggerBatch():System.Void",
@@ -2260,7 +2297,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Threading.Tasks.Dataflow.BatchBlock\u00601",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.BatchBlock\u00601::LinkTo(ITargetBlock_1,System.Threading.Tasks.Dataflow.DataflowLinkOptions):System.IDisposable",
@@ -2273,7 +2311,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Threading.Tasks.Dataflow.BatchBlock\u00601",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.BatchBlock\u00601::TryReceive(Predicate_1,T[]\u0026):System.Boolean",
@@ -2286,7 +2325,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Threading.Tasks.Dataflow.BatchBlock\u00601",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.BatchBlock\u00601::TryReceiveAll(IList_1\u0026):System.Boolean",
@@ -2299,7 +2339,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Threading.Tasks.Dataflow.BatchBlock\u00601",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.BatchBlock\u00601::ToString():System.String",
@@ -2312,7 +2353,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Threading.Tasks.Dataflow.BatchBlock\u00601",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.ITargetBlock\u00601::OfferMessage(System.Threading.Tasks.Dataflow.DataflowMessageHeader,TInput,ISourceBlock_1,System.Boolean):System.Threading.Tasks.Dataflow.DataflowMessageStatus",
@@ -2325,7 +2367,8 @@
           "arity": 0,
           "parameterCount": 4,
           "declaringClrType": "System.Threading.Tasks.Dataflow.ITargetBlock\u00601",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.IDataflowBlock::Fault(System.Exception):System.Void",
@@ -2338,7 +2381,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Threading.Tasks.Dataflow.IDataflowBlock",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.ISourceBlock\u00601::LinkTo(ITargetBlock_1,System.Threading.Tasks.Dataflow.DataflowLinkOptions):System.IDisposable",
@@ -2351,7 +2395,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Threading.Tasks.Dataflow.ISourceBlock\u00601",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.ISourceBlock\u00601::ConsumeMessage(System.Threading.Tasks.Dataflow.DataflowMessageHeader,ITargetBlock_1,System.Boolean\u0026):TOutput",
@@ -2364,7 +2409,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Threading.Tasks.Dataflow.ISourceBlock\u00601",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.ISourceBlock\u00601::ReserveMessage(System.Threading.Tasks.Dataflow.DataflowMessageHeader,ITargetBlock_1):System.Boolean",
@@ -2377,7 +2423,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Threading.Tasks.Dataflow.ISourceBlock\u00601",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.ISourceBlock\u00601::ReleaseReservation(System.Threading.Tasks.Dataflow.DataflowMessageHeader,ITargetBlock_1):System.Void",
@@ -2390,7 +2437,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Threading.Tasks.Dataflow.ISourceBlock\u00601",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.IReceivableSourceBlock\u00601::TryReceive(Predicate_1,TOutput\u0026):System.Boolean",
@@ -2403,7 +2451,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Threading.Tasks.Dataflow.IReceivableSourceBlock\u00601",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.IReceivableSourceBlock\u00601::TryReceiveAll(IList_1\u0026):System.Boolean",
@@ -2416,7 +2465,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Threading.Tasks.Dataflow.IReceivableSourceBlock\u00601",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.IDataflowBlock::Complete():System.Void",
@@ -2429,7 +2479,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Threading.Tasks.Dataflow.IDataflowBlock",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -2797,7 +2848,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Threading.Tasks.Dataflow.BatchedJoinBlock\u00602",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.BatchedJoinBlock\u00602::TryReceive(Predicate_1,Tuple_2\u0026):System.Boolean",
@@ -2810,7 +2862,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Threading.Tasks.Dataflow.BatchedJoinBlock\u00602",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.BatchedJoinBlock\u00602::TryReceiveAll(IList_1\u0026):System.Boolean",
@@ -2823,7 +2876,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Threading.Tasks.Dataflow.BatchedJoinBlock\u00602",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.BatchedJoinBlock\u00602::Complete():System.Void",
@@ -2836,7 +2890,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Threading.Tasks.Dataflow.BatchedJoinBlock\u00602",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.BatchedJoinBlock\u00602::ToString():System.String",
@@ -2849,7 +2904,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Threading.Tasks.Dataflow.BatchedJoinBlock\u00602",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.IReceivableSourceBlock\u00601::TryReceive(Predicate_1,TOutput\u0026):System.Boolean",
@@ -2862,7 +2918,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Threading.Tasks.Dataflow.IReceivableSourceBlock\u00601",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.IReceivableSourceBlock\u00601::TryReceiveAll(IList_1\u0026):System.Boolean",
@@ -2875,7 +2932,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Threading.Tasks.Dataflow.IReceivableSourceBlock\u00601",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.ISourceBlock\u00601::LinkTo(ITargetBlock_1,System.Threading.Tasks.Dataflow.DataflowLinkOptions):System.IDisposable",
@@ -2888,7 +2946,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Threading.Tasks.Dataflow.ISourceBlock\u00601",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.ISourceBlock\u00601::ConsumeMessage(System.Threading.Tasks.Dataflow.DataflowMessageHeader,ITargetBlock_1,System.Boolean\u0026):TOutput",
@@ -2901,7 +2960,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Threading.Tasks.Dataflow.ISourceBlock\u00601",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.ISourceBlock\u00601::ReserveMessage(System.Threading.Tasks.Dataflow.DataflowMessageHeader,ITargetBlock_1):System.Boolean",
@@ -2914,7 +2974,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Threading.Tasks.Dataflow.ISourceBlock\u00601",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.ISourceBlock\u00601::ReleaseReservation(System.Threading.Tasks.Dataflow.DataflowMessageHeader,ITargetBlock_1):System.Void",
@@ -2927,7 +2988,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Threading.Tasks.Dataflow.ISourceBlock\u00601",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.IDataflowBlock::Fault(System.Exception):System.Void",
@@ -2940,7 +3002,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Threading.Tasks.Dataflow.IDataflowBlock",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.IDataflowBlock::Complete():System.Void",
@@ -2953,7 +3016,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Threading.Tasks.Dataflow.IDataflowBlock",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -3349,7 +3413,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Threading.Tasks.Dataflow.BatchedJoinBlock\u00603",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.BatchedJoinBlock\u00603::TryReceive(Predicate_1,Tuple_3\u0026):System.Boolean",
@@ -3362,7 +3427,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Threading.Tasks.Dataflow.BatchedJoinBlock\u00603",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.BatchedJoinBlock\u00603::TryReceiveAll(IList_1\u0026):System.Boolean",
@@ -3375,7 +3441,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Threading.Tasks.Dataflow.BatchedJoinBlock\u00603",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.BatchedJoinBlock\u00603::Complete():System.Void",
@@ -3388,7 +3455,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Threading.Tasks.Dataflow.BatchedJoinBlock\u00603",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.BatchedJoinBlock\u00603::ToString():System.String",
@@ -3401,7 +3469,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Threading.Tasks.Dataflow.BatchedJoinBlock\u00603",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.IReceivableSourceBlock\u00601::TryReceive(Predicate_1,TOutput\u0026):System.Boolean",
@@ -3414,7 +3483,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Threading.Tasks.Dataflow.IReceivableSourceBlock\u00601",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.IReceivableSourceBlock\u00601::TryReceiveAll(IList_1\u0026):System.Boolean",
@@ -3427,7 +3497,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Threading.Tasks.Dataflow.IReceivableSourceBlock\u00601",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.ISourceBlock\u00601::LinkTo(ITargetBlock_1,System.Threading.Tasks.Dataflow.DataflowLinkOptions):System.IDisposable",
@@ -3440,7 +3511,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Threading.Tasks.Dataflow.ISourceBlock\u00601",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.ISourceBlock\u00601::ConsumeMessage(System.Threading.Tasks.Dataflow.DataflowMessageHeader,ITargetBlock_1,System.Boolean\u0026):TOutput",
@@ -3453,7 +3525,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Threading.Tasks.Dataflow.ISourceBlock\u00601",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.ISourceBlock\u00601::ReserveMessage(System.Threading.Tasks.Dataflow.DataflowMessageHeader,ITargetBlock_1):System.Boolean",
@@ -3466,7 +3539,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Threading.Tasks.Dataflow.ISourceBlock\u00601",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.ISourceBlock\u00601::ReleaseReservation(System.Threading.Tasks.Dataflow.DataflowMessageHeader,ITargetBlock_1):System.Void",
@@ -3479,7 +3553,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Threading.Tasks.Dataflow.ISourceBlock\u00601",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.IDataflowBlock::Fault(System.Exception):System.Void",
@@ -3492,7 +3567,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Threading.Tasks.Dataflow.IDataflowBlock",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.IDataflowBlock::Complete():System.Void",
@@ -3505,7 +3581,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Threading.Tasks.Dataflow.IDataflowBlock",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -3925,7 +4002,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Threading.Tasks.Dataflow.BroadcastBlock\u00601",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.BroadcastBlock\u00601::LinkTo(ITargetBlock_1,System.Threading.Tasks.Dataflow.DataflowLinkOptions):System.IDisposable",
@@ -3938,7 +4016,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Threading.Tasks.Dataflow.BroadcastBlock\u00601",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.BroadcastBlock\u00601::TryReceive(Predicate_1,T\u0026):System.Boolean",
@@ -3951,7 +4030,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Threading.Tasks.Dataflow.BroadcastBlock\u00601",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.BroadcastBlock\u00601::ToString():System.String",
@@ -3964,7 +4044,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Threading.Tasks.Dataflow.BroadcastBlock\u00601",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.ITargetBlock\u00601::OfferMessage(System.Threading.Tasks.Dataflow.DataflowMessageHeader,TInput,ISourceBlock_1,System.Boolean):System.Threading.Tasks.Dataflow.DataflowMessageStatus",
@@ -3977,7 +4058,8 @@
           "arity": 0,
           "parameterCount": 4,
           "declaringClrType": "System.Threading.Tasks.Dataflow.ITargetBlock\u00601",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.IDataflowBlock::Fault(System.Exception):System.Void",
@@ -3990,7 +4072,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Threading.Tasks.Dataflow.IDataflowBlock",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.ISourceBlock\u00601::LinkTo(ITargetBlock_1,System.Threading.Tasks.Dataflow.DataflowLinkOptions):System.IDisposable",
@@ -4003,7 +4086,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Threading.Tasks.Dataflow.ISourceBlock\u00601",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.ISourceBlock\u00601::ConsumeMessage(System.Threading.Tasks.Dataflow.DataflowMessageHeader,ITargetBlock_1,System.Boolean\u0026):TOutput",
@@ -4016,7 +4100,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Threading.Tasks.Dataflow.ISourceBlock\u00601",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.ISourceBlock\u00601::ReserveMessage(System.Threading.Tasks.Dataflow.DataflowMessageHeader,ITargetBlock_1):System.Boolean",
@@ -4029,7 +4114,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Threading.Tasks.Dataflow.ISourceBlock\u00601",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.ISourceBlock\u00601::ReleaseReservation(System.Threading.Tasks.Dataflow.DataflowMessageHeader,ITargetBlock_1):System.Void",
@@ -4042,7 +4128,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Threading.Tasks.Dataflow.ISourceBlock\u00601",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.IReceivableSourceBlock\u00601::TryReceive(Predicate_1,TOutput\u0026):System.Boolean",
@@ -4055,7 +4142,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Threading.Tasks.Dataflow.IReceivableSourceBlock\u00601",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.IReceivableSourceBlock\u00601::TryReceiveAll(IList_1\u0026):System.Boolean",
@@ -4068,7 +4156,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Threading.Tasks.Dataflow.IReceivableSourceBlock\u00601",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.IDataflowBlock::Complete():System.Void",
@@ -4081,7 +4170,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Threading.Tasks.Dataflow.IDataflowBlock",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -4381,7 +4471,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Threading.Tasks.Dataflow.BufferBlock\u00601",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.BufferBlock\u00601::LinkTo(ITargetBlock_1,System.Threading.Tasks.Dataflow.DataflowLinkOptions):System.IDisposable",
@@ -4394,7 +4485,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Threading.Tasks.Dataflow.BufferBlock\u00601",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.BufferBlock\u00601::TryReceive(Predicate_1,T\u0026):System.Boolean",
@@ -4407,7 +4499,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Threading.Tasks.Dataflow.BufferBlock\u00601",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.BufferBlock\u00601::TryReceiveAll(IList_1\u0026):System.Boolean",
@@ -4420,7 +4513,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Threading.Tasks.Dataflow.BufferBlock\u00601",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.BufferBlock\u00601::ToString():System.String",
@@ -4433,7 +4527,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Threading.Tasks.Dataflow.BufferBlock\u00601",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.ITargetBlock\u00601::OfferMessage(System.Threading.Tasks.Dataflow.DataflowMessageHeader,TInput,ISourceBlock_1,System.Boolean):System.Threading.Tasks.Dataflow.DataflowMessageStatus",
@@ -4446,7 +4541,8 @@
           "arity": 0,
           "parameterCount": 4,
           "declaringClrType": "System.Threading.Tasks.Dataflow.ITargetBlock\u00601",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.IDataflowBlock::Fault(System.Exception):System.Void",
@@ -4459,7 +4555,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Threading.Tasks.Dataflow.IDataflowBlock",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.ISourceBlock\u00601::LinkTo(ITargetBlock_1,System.Threading.Tasks.Dataflow.DataflowLinkOptions):System.IDisposable",
@@ -4472,7 +4569,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Threading.Tasks.Dataflow.ISourceBlock\u00601",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.ISourceBlock\u00601::ConsumeMessage(System.Threading.Tasks.Dataflow.DataflowMessageHeader,ITargetBlock_1,System.Boolean\u0026):TOutput",
@@ -4485,7 +4583,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Threading.Tasks.Dataflow.ISourceBlock\u00601",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.ISourceBlock\u00601::ReserveMessage(System.Threading.Tasks.Dataflow.DataflowMessageHeader,ITargetBlock_1):System.Boolean",
@@ -4498,7 +4597,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Threading.Tasks.Dataflow.ISourceBlock\u00601",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.ISourceBlock\u00601::ReleaseReservation(System.Threading.Tasks.Dataflow.DataflowMessageHeader,ITargetBlock_1):System.Void",
@@ -4511,7 +4611,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Threading.Tasks.Dataflow.ISourceBlock\u00601",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.IReceivableSourceBlock\u00601::TryReceive(Predicate_1,TOutput\u0026):System.Boolean",
@@ -4524,7 +4625,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Threading.Tasks.Dataflow.IReceivableSourceBlock\u00601",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.IReceivableSourceBlock\u00601::TryReceiveAll(IList_1\u0026):System.Boolean",
@@ -4537,7 +4639,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Threading.Tasks.Dataflow.IReceivableSourceBlock\u00601",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.IDataflowBlock::Complete():System.Void",
@@ -4550,7 +4653,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Threading.Tasks.Dataflow.IDataflowBlock",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -5736,7 +5840,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Threading.Tasks.Dataflow.JoinBlock\u00602",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.JoinBlock\u00602::TryReceive(Predicate_1,Tuple_2\u0026):System.Boolean",
@@ -5749,7 +5854,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Threading.Tasks.Dataflow.JoinBlock\u00602",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.JoinBlock\u00602::TryReceiveAll(IList_1\u0026):System.Boolean",
@@ -5762,7 +5868,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Threading.Tasks.Dataflow.JoinBlock\u00602",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.JoinBlock\u00602::Complete():System.Void",
@@ -5775,7 +5882,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Threading.Tasks.Dataflow.JoinBlock\u00602",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.JoinBlock\u00602::ToString():System.String",
@@ -5788,7 +5896,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Threading.Tasks.Dataflow.JoinBlock\u00602",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.IReceivableSourceBlock\u00601::TryReceive(Predicate_1,TOutput\u0026):System.Boolean",
@@ -5801,7 +5910,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Threading.Tasks.Dataflow.IReceivableSourceBlock\u00601",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.IReceivableSourceBlock\u00601::TryReceiveAll(IList_1\u0026):System.Boolean",
@@ -5814,7 +5924,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Threading.Tasks.Dataflow.IReceivableSourceBlock\u00601",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.ISourceBlock\u00601::LinkTo(ITargetBlock_1,System.Threading.Tasks.Dataflow.DataflowLinkOptions):System.IDisposable",
@@ -5827,7 +5938,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Threading.Tasks.Dataflow.ISourceBlock\u00601",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.ISourceBlock\u00601::ConsumeMessage(System.Threading.Tasks.Dataflow.DataflowMessageHeader,ITargetBlock_1,System.Boolean\u0026):TOutput",
@@ -5840,7 +5952,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Threading.Tasks.Dataflow.ISourceBlock\u00601",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.ISourceBlock\u00601::ReserveMessage(System.Threading.Tasks.Dataflow.DataflowMessageHeader,ITargetBlock_1):System.Boolean",
@@ -5853,7 +5966,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Threading.Tasks.Dataflow.ISourceBlock\u00601",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.ISourceBlock\u00601::ReleaseReservation(System.Threading.Tasks.Dataflow.DataflowMessageHeader,ITargetBlock_1):System.Void",
@@ -5866,7 +5980,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Threading.Tasks.Dataflow.ISourceBlock\u00601",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.IDataflowBlock::Fault(System.Exception):System.Void",
@@ -5879,7 +5994,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Threading.Tasks.Dataflow.IDataflowBlock",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.IDataflowBlock::Complete():System.Void",
@@ -5892,7 +6008,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Threading.Tasks.Dataflow.IDataflowBlock",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -6264,7 +6381,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Threading.Tasks.Dataflow.JoinBlock\u00603",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.JoinBlock\u00603::TryReceive(Predicate_1,Tuple_3\u0026):System.Boolean",
@@ -6277,7 +6395,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Threading.Tasks.Dataflow.JoinBlock\u00603",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.JoinBlock\u00603::TryReceiveAll(IList_1\u0026):System.Boolean",
@@ -6290,7 +6409,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Threading.Tasks.Dataflow.JoinBlock\u00603",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.JoinBlock\u00603::Complete():System.Void",
@@ -6303,7 +6423,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Threading.Tasks.Dataflow.JoinBlock\u00603",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.JoinBlock\u00603::ToString():System.String",
@@ -6316,7 +6437,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Threading.Tasks.Dataflow.JoinBlock\u00603",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.IReceivableSourceBlock\u00601::TryReceive(Predicate_1,TOutput\u0026):System.Boolean",
@@ -6329,7 +6451,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Threading.Tasks.Dataflow.IReceivableSourceBlock\u00601",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.IReceivableSourceBlock\u00601::TryReceiveAll(IList_1\u0026):System.Boolean",
@@ -6342,7 +6465,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Threading.Tasks.Dataflow.IReceivableSourceBlock\u00601",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.ISourceBlock\u00601::LinkTo(ITargetBlock_1,System.Threading.Tasks.Dataflow.DataflowLinkOptions):System.IDisposable",
@@ -6355,7 +6479,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Threading.Tasks.Dataflow.ISourceBlock\u00601",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.ISourceBlock\u00601::ConsumeMessage(System.Threading.Tasks.Dataflow.DataflowMessageHeader,ITargetBlock_1,System.Boolean\u0026):TOutput",
@@ -6368,7 +6493,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Threading.Tasks.Dataflow.ISourceBlock\u00601",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.ISourceBlock\u00601::ReserveMessage(System.Threading.Tasks.Dataflow.DataflowMessageHeader,ITargetBlock_1):System.Boolean",
@@ -6381,7 +6507,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Threading.Tasks.Dataflow.ISourceBlock\u00601",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.ISourceBlock\u00601::ReleaseReservation(System.Threading.Tasks.Dataflow.DataflowMessageHeader,ITargetBlock_1):System.Void",
@@ -6394,7 +6521,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Threading.Tasks.Dataflow.ISourceBlock\u00601",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.IDataflowBlock::Fault(System.Exception):System.Void",
@@ -6407,7 +6535,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Threading.Tasks.Dataflow.IDataflowBlock",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.IDataflowBlock::Complete():System.Void",
@@ -6420,7 +6549,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Threading.Tasks.Dataflow.IDataflowBlock",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -6816,7 +6946,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Threading.Tasks.Dataflow.TransformBlock\u00602",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.TransformBlock\u00602::LinkTo(ITargetBlock_1,System.Threading.Tasks.Dataflow.DataflowLinkOptions):System.IDisposable",
@@ -6829,7 +6960,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Threading.Tasks.Dataflow.TransformBlock\u00602",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.TransformBlock\u00602::TryReceive(Predicate_1,TOutput\u0026):System.Boolean",
@@ -6842,7 +6974,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Threading.Tasks.Dataflow.TransformBlock\u00602",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.TransformBlock\u00602::TryReceiveAll(IList_1\u0026):System.Boolean",
@@ -6855,7 +6988,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Threading.Tasks.Dataflow.TransformBlock\u00602",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.TransformBlock\u00602::ToString():System.String",
@@ -6868,7 +7002,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Threading.Tasks.Dataflow.TransformBlock\u00602",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.ITargetBlock\u00601::OfferMessage(System.Threading.Tasks.Dataflow.DataflowMessageHeader,TInput,ISourceBlock_1,System.Boolean):System.Threading.Tasks.Dataflow.DataflowMessageStatus",
@@ -6881,7 +7016,8 @@
           "arity": 0,
           "parameterCount": 4,
           "declaringClrType": "System.Threading.Tasks.Dataflow.ITargetBlock\u00601",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.IDataflowBlock::Fault(System.Exception):System.Void",
@@ -6894,7 +7030,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Threading.Tasks.Dataflow.IDataflowBlock",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.ISourceBlock\u00601::ConsumeMessage(System.Threading.Tasks.Dataflow.DataflowMessageHeader,ITargetBlock_1,System.Boolean\u0026):TOutput",
@@ -6907,7 +7044,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Threading.Tasks.Dataflow.ISourceBlock\u00601",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.ISourceBlock\u00601::ReserveMessage(System.Threading.Tasks.Dataflow.DataflowMessageHeader,ITargetBlock_1):System.Boolean",
@@ -6920,7 +7058,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Threading.Tasks.Dataflow.ISourceBlock\u00601",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.ISourceBlock\u00601::ReleaseReservation(System.Threading.Tasks.Dataflow.DataflowMessageHeader,ITargetBlock_1):System.Void",
@@ -6933,7 +7072,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Threading.Tasks.Dataflow.ISourceBlock\u00601",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.IDataflowBlock::Complete():System.Void",
@@ -6946,7 +7086,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Threading.Tasks.Dataflow.IDataflowBlock",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.ISourceBlock\u00601::LinkTo(ITargetBlock_1,System.Threading.Tasks.Dataflow.DataflowLinkOptions):System.IDisposable",
@@ -6959,7 +7100,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Threading.Tasks.Dataflow.ISourceBlock\u00601",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.IReceivableSourceBlock\u00601::TryReceive(Predicate_1,TOutput\u0026):System.Boolean",
@@ -6972,7 +7114,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Threading.Tasks.Dataflow.IReceivableSourceBlock\u00601",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.IReceivableSourceBlock\u00601::TryReceiveAll(IList_1\u0026):System.Boolean",
@@ -6985,7 +7128,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Threading.Tasks.Dataflow.IReceivableSourceBlock\u00601",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -7343,7 +7487,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Threading.Tasks.Dataflow.TransformManyBlock\u00602",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.TransformManyBlock\u00602::LinkTo(ITargetBlock_1,System.Threading.Tasks.Dataflow.DataflowLinkOptions):System.IDisposable",
@@ -7356,7 +7501,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Threading.Tasks.Dataflow.TransformManyBlock\u00602",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.TransformManyBlock\u00602::TryReceive(Predicate_1,TOutput\u0026):System.Boolean",
@@ -7369,7 +7515,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Threading.Tasks.Dataflow.TransformManyBlock\u00602",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.TransformManyBlock\u00602::TryReceiveAll(IList_1\u0026):System.Boolean",
@@ -7382,7 +7529,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Threading.Tasks.Dataflow.TransformManyBlock\u00602",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.TransformManyBlock\u00602::ToString():System.String",
@@ -7395,7 +7543,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Threading.Tasks.Dataflow.TransformManyBlock\u00602",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.ITargetBlock\u00601::OfferMessage(System.Threading.Tasks.Dataflow.DataflowMessageHeader,TInput,ISourceBlock_1,System.Boolean):System.Threading.Tasks.Dataflow.DataflowMessageStatus",
@@ -7408,7 +7557,8 @@
           "arity": 0,
           "parameterCount": 4,
           "declaringClrType": "System.Threading.Tasks.Dataflow.ITargetBlock\u00601",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.IDataflowBlock::Fault(System.Exception):System.Void",
@@ -7421,7 +7571,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Threading.Tasks.Dataflow.IDataflowBlock",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.ISourceBlock\u00601::ConsumeMessage(System.Threading.Tasks.Dataflow.DataflowMessageHeader,ITargetBlock_1,System.Boolean\u0026):TOutput",
@@ -7434,7 +7585,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Threading.Tasks.Dataflow.ISourceBlock\u00601",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.ISourceBlock\u00601::ReserveMessage(System.Threading.Tasks.Dataflow.DataflowMessageHeader,ITargetBlock_1):System.Boolean",
@@ -7447,7 +7599,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Threading.Tasks.Dataflow.ISourceBlock\u00601",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.ISourceBlock\u00601::ReleaseReservation(System.Threading.Tasks.Dataflow.DataflowMessageHeader,ITargetBlock_1):System.Void",
@@ -7460,7 +7613,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Threading.Tasks.Dataflow.ISourceBlock\u00601",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.IDataflowBlock::Complete():System.Void",
@@ -7473,7 +7627,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Threading.Tasks.Dataflow.IDataflowBlock",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.ISourceBlock\u00601::LinkTo(ITargetBlock_1,System.Threading.Tasks.Dataflow.DataflowLinkOptions):System.IDisposable",
@@ -7486,7 +7641,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Threading.Tasks.Dataflow.ISourceBlock\u00601",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.IReceivableSourceBlock\u00601::TryReceive(Predicate_1,TOutput\u0026):System.Boolean",
@@ -7499,7 +7655,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Threading.Tasks.Dataflow.IReceivableSourceBlock\u00601",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.IReceivableSourceBlock\u00601::TryReceiveAll(IList_1\u0026):System.Boolean",
@@ -7512,7 +7669,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Threading.Tasks.Dataflow.IReceivableSourceBlock\u00601",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -7870,7 +8028,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Threading.Tasks.Dataflow.WriteOnceBlock\u00601",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.WriteOnceBlock\u00601::TryReceive(Predicate_1,T\u0026):System.Boolean",
@@ -7883,7 +8042,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Threading.Tasks.Dataflow.WriteOnceBlock\u00601",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.WriteOnceBlock\u00601::LinkTo(ITargetBlock_1,System.Threading.Tasks.Dataflow.DataflowLinkOptions):System.IDisposable",
@@ -7896,7 +8056,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Threading.Tasks.Dataflow.WriteOnceBlock\u00601",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.WriteOnceBlock\u00601::ToString():System.String",
@@ -7909,7 +8070,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Threading.Tasks.Dataflow.WriteOnceBlock\u00601",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.ITargetBlock\u00601::OfferMessage(System.Threading.Tasks.Dataflow.DataflowMessageHeader,TInput,ISourceBlock_1,System.Boolean):System.Threading.Tasks.Dataflow.DataflowMessageStatus",
@@ -7922,7 +8084,8 @@
           "arity": 0,
           "parameterCount": 4,
           "declaringClrType": "System.Threading.Tasks.Dataflow.ITargetBlock\u00601",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.IDataflowBlock::Fault(System.Exception):System.Void",
@@ -7935,7 +8098,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Threading.Tasks.Dataflow.IDataflowBlock",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.ISourceBlock\u00601::LinkTo(ITargetBlock_1,System.Threading.Tasks.Dataflow.DataflowLinkOptions):System.IDisposable",
@@ -7948,7 +8112,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Threading.Tasks.Dataflow.ISourceBlock\u00601",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.ISourceBlock\u00601::ConsumeMessage(System.Threading.Tasks.Dataflow.DataflowMessageHeader,ITargetBlock_1,System.Boolean\u0026):TOutput",
@@ -7961,7 +8126,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Threading.Tasks.Dataflow.ISourceBlock\u00601",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.ISourceBlock\u00601::ReserveMessage(System.Threading.Tasks.Dataflow.DataflowMessageHeader,ITargetBlock_1):System.Boolean",
@@ -7974,7 +8140,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Threading.Tasks.Dataflow.ISourceBlock\u00601",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.ISourceBlock\u00601::ReleaseReservation(System.Threading.Tasks.Dataflow.DataflowMessageHeader,ITargetBlock_1):System.Void",
@@ -7987,7 +8154,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Threading.Tasks.Dataflow.ISourceBlock\u00601",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.IReceivableSourceBlock\u00601::TryReceive(Predicate_1,TOutput\u0026):System.Boolean",
@@ -8000,7 +8168,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Threading.Tasks.Dataflow.IReceivableSourceBlock\u00601",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.IReceivableSourceBlock\u00601::TryReceiveAll(IList_1\u0026):System.Boolean",
@@ -8013,7 +8182,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Threading.Tasks.Dataflow.IReceivableSourceBlock\u00601",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.IDataflowBlock::Complete():System.Void",
@@ -8026,7 +8196,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Threading.Tasks.Dataflow.IDataflowBlock",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -8326,7 +8497,8 @@
           "arity": 1,
           "parameterCount": 2,
           "declaringClrType": "System.Threading.Tasks.Dataflow.DataflowBlock",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": true
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.DataflowBlock::LinkTo(ISourceBlock_1,ITargetBlock_1,Predicate_1):System.IDisposable",
@@ -8339,7 +8511,8 @@
           "arity": 1,
           "parameterCount": 3,
           "declaringClrType": "System.Threading.Tasks.Dataflow.DataflowBlock",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": true
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.DataflowBlock::LinkTo(ISourceBlock_1,ITargetBlock_1,System.Threading.Tasks.Dataflow.DataflowLinkOptions,Predicate_1):System.IDisposable",
@@ -8352,7 +8525,8 @@
           "arity": 1,
           "parameterCount": 4,
           "declaringClrType": "System.Threading.Tasks.Dataflow.DataflowBlock",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": true
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.DataflowBlock::Post(ITargetBlock_1,TInput):System.Boolean",
@@ -8365,7 +8539,8 @@
           "arity": 1,
           "parameterCount": 2,
           "declaringClrType": "System.Threading.Tasks.Dataflow.DataflowBlock",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": true
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.DataflowBlock::SendAsync(ITargetBlock_1,TInput):System.Threading.Tasks.Task_1[[System.Boolean,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
@@ -8378,7 +8553,8 @@
           "arity": 1,
           "parameterCount": 2,
           "declaringClrType": "System.Threading.Tasks.Dataflow.DataflowBlock",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": true
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.DataflowBlock::SendAsync(ITargetBlock_1,TInput,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Boolean,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
@@ -8391,7 +8567,8 @@
           "arity": 1,
           "parameterCount": 3,
           "declaringClrType": "System.Threading.Tasks.Dataflow.DataflowBlock",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": true
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.DataflowBlock::TryReceive(IReceivableSourceBlock_1,TOutput\u0026):System.Boolean",
@@ -8404,7 +8581,8 @@
           "arity": 1,
           "parameterCount": 2,
           "declaringClrType": "System.Threading.Tasks.Dataflow.DataflowBlock",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": true
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.DataflowBlock::ReceiveAsync(ISourceBlock_1):Task_1",
@@ -8417,7 +8595,8 @@
           "arity": 1,
           "parameterCount": 1,
           "declaringClrType": "System.Threading.Tasks.Dataflow.DataflowBlock",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": true
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.DataflowBlock::ReceiveAsync(ISourceBlock_1,System.Threading.CancellationToken):Task_1",
@@ -8430,7 +8609,8 @@
           "arity": 1,
           "parameterCount": 2,
           "declaringClrType": "System.Threading.Tasks.Dataflow.DataflowBlock",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": true
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.DataflowBlock::ReceiveAsync(ISourceBlock_1,System.TimeSpan):Task_1",
@@ -8443,7 +8623,8 @@
           "arity": 1,
           "parameterCount": 2,
           "declaringClrType": "System.Threading.Tasks.Dataflow.DataflowBlock",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": true
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.DataflowBlock::ReceiveAsync(ISourceBlock_1,System.TimeSpan,System.Threading.CancellationToken):Task_1",
@@ -8456,7 +8637,8 @@
           "arity": 1,
           "parameterCount": 3,
           "declaringClrType": "System.Threading.Tasks.Dataflow.DataflowBlock",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": true
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.DataflowBlock::Receive(ISourceBlock_1):TOutput",
@@ -8469,7 +8651,8 @@
           "arity": 1,
           "parameterCount": 1,
           "declaringClrType": "System.Threading.Tasks.Dataflow.DataflowBlock",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": true
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.DataflowBlock::Receive(ISourceBlock_1,System.Threading.CancellationToken):TOutput",
@@ -8482,7 +8665,8 @@
           "arity": 1,
           "parameterCount": 2,
           "declaringClrType": "System.Threading.Tasks.Dataflow.DataflowBlock",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": true
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.DataflowBlock::Receive(ISourceBlock_1,System.TimeSpan):TOutput",
@@ -8495,7 +8679,8 @@
           "arity": 1,
           "parameterCount": 2,
           "declaringClrType": "System.Threading.Tasks.Dataflow.DataflowBlock",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": true
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.DataflowBlock::Receive(ISourceBlock_1,System.TimeSpan,System.Threading.CancellationToken):TOutput",
@@ -8508,7 +8693,8 @@
           "arity": 1,
           "parameterCount": 3,
           "declaringClrType": "System.Threading.Tasks.Dataflow.DataflowBlock",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": true
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.DataflowBlock::OutputAvailableAsync(ISourceBlock_1):System.Threading.Tasks.Task_1[[System.Boolean,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
@@ -8521,7 +8707,8 @@
           "arity": 1,
           "parameterCount": 1,
           "declaringClrType": "System.Threading.Tasks.Dataflow.DataflowBlock",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": true
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.DataflowBlock::OutputAvailableAsync(ISourceBlock_1,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Boolean,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
@@ -8534,7 +8721,8 @@
           "arity": 1,
           "parameterCount": 2,
           "declaringClrType": "System.Threading.Tasks.Dataflow.DataflowBlock",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": true
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.DataflowBlock::Encapsulate(ITargetBlock_1,ISourceBlock_1):IPropagatorBlock_2",
@@ -8547,7 +8735,8 @@
           "arity": 2,
           "parameterCount": 2,
           "declaringClrType": "System.Threading.Tasks.Dataflow.DataflowBlock",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.DataflowBlock::Choose(ISourceBlock_1,Action_1,ISourceBlock_1,Action_1):System.Threading.Tasks.Task_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
@@ -8560,7 +8749,8 @@
           "arity": 2,
           "parameterCount": 4,
           "declaringClrType": "System.Threading.Tasks.Dataflow.DataflowBlock",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.DataflowBlock::Choose(ISourceBlock_1,Action_1,ISourceBlock_1,Action_1,System.Threading.Tasks.Dataflow.DataflowBlockOptions):System.Threading.Tasks.Task_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
@@ -8573,7 +8763,8 @@
           "arity": 2,
           "parameterCount": 5,
           "declaringClrType": "System.Threading.Tasks.Dataflow.DataflowBlock",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.DataflowBlock::Choose(ISourceBlock_1,Action_1,ISourceBlock_1,Action_1,ISourceBlock_1,Action_1):System.Threading.Tasks.Task_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
@@ -8586,7 +8777,8 @@
           "arity": 3,
           "parameterCount": 6,
           "declaringClrType": "System.Threading.Tasks.Dataflow.DataflowBlock",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.DataflowBlock::Choose(ISourceBlock_1,Action_1,ISourceBlock_1,Action_1,ISourceBlock_1,Action_1,System.Threading.Tasks.Dataflow.DataflowBlockOptions):System.Threading.Tasks.Task_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
@@ -8599,7 +8791,8 @@
           "arity": 3,
           "parameterCount": 7,
           "declaringClrType": "System.Threading.Tasks.Dataflow.DataflowBlock",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.DataflowBlock::AsObservable(ISourceBlock_1):IObservable_1",
@@ -8612,7 +8805,8 @@
           "arity": 1,
           "parameterCount": 1,
           "declaringClrType": "System.Threading.Tasks.Dataflow.DataflowBlock",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": true
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.DataflowBlock::AsObserver(ITargetBlock_1):IObserver_1",
@@ -8625,7 +8819,8 @@
           "arity": 1,
           "parameterCount": 1,
           "declaringClrType": "System.Threading.Tasks.Dataflow.DataflowBlock",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": true
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.DataflowBlock::NullTarget():ITargetBlock_1",
@@ -8638,7 +8833,8 @@
           "arity": 1,
           "parameterCount": 0,
           "declaringClrType": "System.Threading.Tasks.Dataflow.DataflowBlock",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.DataflowBlock::ReceiveAllAsync(IReceivableSourceBlock_1,System.Threading.CancellationToken):IAsyncEnumerable_1",
@@ -8651,7 +8847,8 @@
           "arity": 1,
           "parameterCount": 2,
           "declaringClrType": "System.Threading.Tasks.Dataflow.DataflowBlock",
-          "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
+          "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
+          "isExtensionMethod": true
         }
       ],
       "properties": [],

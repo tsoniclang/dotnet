@@ -2380,7 +2380,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Security.IPermission",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Security.IPermission::Demand():System.Void",
@@ -2393,7 +2394,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Security.IPermission",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Security.IPermission::Intersect(System.Security.IPermission):System.Security.IPermission",
@@ -2406,7 +2408,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Security.IPermission",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Security.IPermission::IsSubsetOf(System.Security.IPermission):System.Boolean",
@@ -2419,7 +2422,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Security.IPermission",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Security.ISecurityEncodable::FromXml(System.Security.SecurityElement):System.Void",
@@ -2432,7 +2436,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Security.ISecurityEncodable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Security.ISecurityEncodable::ToXml():System.Security.SecurityElement",
@@ -2445,7 +2450,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Security.ISecurityEncodable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -2533,7 +2539,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Security.ISecurityEncodable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Security.ISecurityEncodable::ToXml():System.Security.SecurityElement",
@@ -2546,7 +2553,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Security.ISecurityEncodable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -2594,7 +2602,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Security.IStackWalk",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -3105,7 +3114,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Security.PermissionSet",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Security.PermissionSet::Assert():System.Void",
@@ -3118,7 +3128,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Security.PermissionSet",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Security.PermissionSet::ContainsNonCodeAccessPermissions():System.Boolean",
@@ -3131,7 +3142,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Security.PermissionSet",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Security.PermissionSet::ConvertPermissionSet(System.String,System.Byte[],System.String):System.Byte[]",
@@ -3144,7 +3156,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Security.PermissionSet",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Security.PermissionSet::Copy():System.Security.PermissionSet",
@@ -3157,7 +3170,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Security.PermissionSet",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Security.PermissionSet::CopyTo(System.Array,System.Int32):System.Void",
@@ -3170,7 +3184,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Security.PermissionSet",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Security.PermissionSet::Demand():System.Void",
@@ -3183,7 +3198,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Security.PermissionSet",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Security.PermissionSet::Deny():System.Void",
@@ -3196,7 +3212,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Security.PermissionSet",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Security.PermissionSet::Equals(System.Object):System.Boolean",
@@ -3209,7 +3226,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Security.PermissionSet",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Security.PermissionSet::FromXml(System.Security.SecurityElement):System.Void",
@@ -3222,7 +3240,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Security.PermissionSet",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Security.PermissionSet::GetEnumerator():System.Collections.IEnumerator",
@@ -3235,7 +3254,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Security.PermissionSet",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Security.PermissionSet::GetHashCode():System.Int32",
@@ -3248,7 +3268,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Security.PermissionSet",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Security.PermissionSet::GetPermission(System.Type):System.Security.IPermission",
@@ -3261,7 +3282,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Security.PermissionSet",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Security.PermissionSet::Intersect(System.Security.PermissionSet):System.Security.PermissionSet",
@@ -3274,7 +3296,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Security.PermissionSet",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Security.PermissionSet::IsEmpty():System.Boolean",
@@ -3287,7 +3310,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Security.PermissionSet",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Security.PermissionSet::IsSubsetOf(System.Security.PermissionSet):System.Boolean",
@@ -3300,7 +3324,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Security.PermissionSet",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Security.PermissionSet::IsUnrestricted():System.Boolean",
@@ -3313,7 +3338,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Security.PermissionSet",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Security.PermissionSet::PermitOnly():System.Void",
@@ -3326,7 +3352,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Security.PermissionSet",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Security.PermissionSet::RemovePermission(System.Type):System.Security.IPermission",
@@ -3339,7 +3366,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Security.PermissionSet",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Security.PermissionSet::RevertAssert():System.Void",
@@ -3352,7 +3380,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Security.PermissionSet",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Security.PermissionSet::SetPermission(System.Security.IPermission):System.Security.IPermission",
@@ -3365,7 +3394,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Security.PermissionSet",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Security.PermissionSet::ToString():System.String",
@@ -3378,7 +3408,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Security.PermissionSet",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Security.PermissionSet::ToXml():System.Security.SecurityElement",
@@ -3391,7 +3422,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Security.PermissionSet",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Security.PermissionSet::Union(System.Security.PermissionSet):System.Security.PermissionSet",
@@ -3404,7 +3436,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Security.PermissionSet",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.IDeserializationCallback::OnDeserialization(System.Object):System.Void",
@@ -3417,7 +3450,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.Serialization.IDeserializationCallback",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.ICollection::CopyTo(System.Array,System.Int32):System.Void",
@@ -3430,7 +3464,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Collections.ICollection",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
@@ -3443,7 +3478,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.IEnumerable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Security.ISecurityEncodable::FromXml(System.Security.SecurityElement):System.Void",
@@ -3456,7 +3492,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Security.ISecurityEncodable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Security.ISecurityEncodable::ToXml():System.Security.SecurityElement",
@@ -3469,7 +3506,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Security.ISecurityEncodable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Security.IStackWalk::Assert():System.Void",
@@ -3482,7 +3520,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Security.IStackWalk",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -4052,7 +4091,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Security.SecureString",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Security.SecureString::Clear():System.Void",
@@ -4065,7 +4105,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Security.SecureString",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Security.SecureString::Copy():System.Security.SecureString",
@@ -4078,7 +4119,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Security.SecureString",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Security.SecureString::Dispose():System.Void",
@@ -4091,7 +4133,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Security.SecureString",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Security.SecureString::InsertAt(System.Int32,System.Char):System.Void",
@@ -4104,7 +4147,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Security.SecureString",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Security.SecureString::IsReadOnly():System.Boolean",
@@ -4117,7 +4161,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Security.SecureString",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Security.SecureString::MakeReadOnly():System.Void",
@@ -4130,7 +4175,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Security.SecureString",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Security.SecureString::RemoveAt(System.Int32):System.Void",
@@ -4143,7 +4189,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Security.SecureString",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Security.SecureString::SetAt(System.Int32,System.Char):System.Void",
@@ -4156,7 +4203,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Security.SecureString",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
@@ -4169,7 +4217,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.IDisposable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -4917,7 +4966,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Security.SecurityElement",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Security.SecurityElement::AddChild(System.Security.SecurityElement):System.Void",
@@ -4930,7 +4980,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Security.SecurityElement",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Security.SecurityElement::Equal(System.Security.SecurityElement):System.Boolean",
@@ -4943,7 +4994,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Security.SecurityElement",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Security.SecurityElement::Copy():System.Security.SecurityElement",
@@ -4956,7 +5008,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Security.SecurityElement",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Security.SecurityElement::IsValidTag(System.String):System.Boolean",
@@ -4969,7 +5022,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Security.SecurityElement",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Security.SecurityElement::IsValidText(System.String):System.Boolean",
@@ -4982,7 +5036,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Security.SecurityElement",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Security.SecurityElement::IsValidAttributeName(System.String):System.Boolean",
@@ -4995,7 +5050,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Security.SecurityElement",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Security.SecurityElement::IsValidAttributeValue(System.String):System.Boolean",
@@ -5008,7 +5064,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Security.SecurityElement",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Security.SecurityElement::Escape(System.String):System.String",
@@ -5021,7 +5078,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Security.SecurityElement",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Security.SecurityElement::ToString():System.String",
@@ -5034,7 +5092,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Security.SecurityElement",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Security.SecurityElement::Attribute(System.String):System.String",
@@ -5047,7 +5106,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Security.SecurityElement",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Security.SecurityElement::SearchForChildByTag(System.String):System.Security.SecurityElement",
@@ -5060,7 +5120,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Security.SecurityElement",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Security.SecurityElement::SearchForTextOfTag(System.String):System.String",
@@ -5073,7 +5134,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Security.SecurityElement",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Security.SecurityElement::FromString(System.String):System.Security.SecurityElement",
@@ -5086,7 +5148,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Security.SecurityElement",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -5444,7 +5507,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Security.SecurityException",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Security.SecurityException::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
@@ -5457,7 +5521,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Security.SecurityException",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
@@ -5470,7 +5535,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.Serialization.ISerializable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -8746,7 +8812,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.Serialization.ISerializable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Security.VerificationException::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
@@ -8759,7 +8826,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Security.VerificationException",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -9019,7 +9087,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Security.SecureStringMarshal",
-          "declaringAssemblyName": "System.Runtime.InteropServices"
+          "declaringAssemblyName": "System.Runtime.InteropServices",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.InteropServices:System.Security.SecureStringMarshal::SecureStringToGlobalAllocAnsi(System.Security.SecureString):System.IntPtr",
@@ -9032,7 +9101,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Security.SecureStringMarshal",
-          "declaringAssemblyName": "System.Runtime.InteropServices"
+          "declaringAssemblyName": "System.Runtime.InteropServices",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.InteropServices:System.Security.SecureStringMarshal::SecureStringToCoTaskMemUnicode(System.Security.SecureString):System.IntPtr",
@@ -9045,7 +9115,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Security.SecureStringMarshal",
-          "declaringAssemblyName": "System.Runtime.InteropServices"
+          "declaringAssemblyName": "System.Runtime.InteropServices",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.InteropServices:System.Security.SecureStringMarshal::SecureStringToGlobalAllocUnicode(System.Security.SecureString):System.IntPtr",
@@ -9058,7 +9129,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Security.SecureStringMarshal",
-          "declaringAssemblyName": "System.Runtime.InteropServices"
+          "declaringAssemblyName": "System.Runtime.InteropServices",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],

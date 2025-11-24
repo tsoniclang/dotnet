@@ -10307,7 +10307,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Reflection.PortableExecutable.PEMemoryBlock",
-          "declaringAssemblyName": "System.Reflection.Metadata"
+          "declaringAssemblyName": "System.Reflection.Metadata",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.PEMemoryBlock::GetReader(System.Int32,System.Int32):System.Reflection.Metadata.BlobReader",
@@ -10320,7 +10321,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Reflection.PortableExecutable.PEMemoryBlock",
-          "declaringAssemblyName": "System.Reflection.Metadata"
+          "declaringAssemblyName": "System.Reflection.Metadata",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.PEMemoryBlock::GetContent():System.Collections.Immutable.ImmutableArray_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
@@ -10333,7 +10335,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Reflection.PortableExecutable.PEMemoryBlock",
-          "declaringAssemblyName": "System.Reflection.Metadata"
+          "declaringAssemblyName": "System.Reflection.Metadata",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.PEMemoryBlock::GetContent(System.Int32,System.Int32):System.Collections.Immutable.ImmutableArray_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
@@ -10346,7 +10349,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Reflection.PortableExecutable.PEMemoryBlock",
-          "declaringAssemblyName": "System.Reflection.Metadata"
+          "declaringAssemblyName": "System.Reflection.Metadata",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -11575,7 +11579,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Reflection.PortableExecutable.DebugDirectoryBuilder",
-          "declaringAssemblyName": "System.Reflection.Metadata"
+          "declaringAssemblyName": "System.Reflection.Metadata",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.DebugDirectoryBuilder::AddEntry(System.Reflection.PortableExecutable.DebugDirectoryEntryType,System.UInt32,System.UInt32,TData,Action_2):System.Void",
@@ -11588,7 +11593,8 @@
           "arity": 1,
           "parameterCount": 5,
           "declaringClrType": "System.Reflection.PortableExecutable.DebugDirectoryBuilder",
-          "declaringAssemblyName": "System.Reflection.Metadata"
+          "declaringAssemblyName": "System.Reflection.Metadata",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.DebugDirectoryBuilder::AddCodeViewEntry(System.String,System.Reflection.Metadata.BlobContentId,System.UInt16):System.Void",
@@ -11601,7 +11607,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Reflection.PortableExecutable.DebugDirectoryBuilder",
-          "declaringAssemblyName": "System.Reflection.Metadata"
+          "declaringAssemblyName": "System.Reflection.Metadata",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.DebugDirectoryBuilder::AddCodeViewEntry(System.String,System.Reflection.Metadata.BlobContentId,System.UInt16,System.Int32):System.Void",
@@ -11614,7 +11621,8 @@
           "arity": 0,
           "parameterCount": 4,
           "declaringClrType": "System.Reflection.PortableExecutable.DebugDirectoryBuilder",
-          "declaringAssemblyName": "System.Reflection.Metadata"
+          "declaringAssemblyName": "System.Reflection.Metadata",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.DebugDirectoryBuilder::AddReproducibleEntry():System.Void",
@@ -11627,7 +11635,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Reflection.PortableExecutable.DebugDirectoryBuilder",
-          "declaringAssemblyName": "System.Reflection.Metadata"
+          "declaringAssemblyName": "System.Reflection.Metadata",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.DebugDirectoryBuilder::AddPdbChecksumEntry(System.String,System.Collections.Immutable.ImmutableArray_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
@@ -11640,7 +11649,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Reflection.PortableExecutable.DebugDirectoryBuilder",
-          "declaringAssemblyName": "System.Reflection.Metadata"
+          "declaringAssemblyName": "System.Reflection.Metadata",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.DebugDirectoryBuilder::AddEmbeddedPortablePdbEntry(System.Reflection.Metadata.BlobBuilder,System.UInt16):System.Void",
@@ -11653,7 +11663,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Reflection.PortableExecutable.DebugDirectoryBuilder",
-          "declaringAssemblyName": "System.Reflection.Metadata"
+          "declaringAssemblyName": "System.Reflection.Metadata",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -11833,7 +11844,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Reflection.PortableExecutable.ManagedPEBuilder",
-          "declaringAssemblyName": "System.Reflection.Metadata"
+          "declaringAssemblyName": "System.Reflection.Metadata",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -12040,7 +12052,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Reflection.PortableExecutable.PEBuilder",
-          "declaringAssemblyName": "System.Reflection.Metadata"
+          "declaringAssemblyName": "System.Reflection.Metadata",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -13781,7 +13794,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Reflection.PortableExecutable.PEHeaderBuilder",
-          "declaringAssemblyName": "System.Reflection.Metadata"
+          "declaringAssemblyName": "System.Reflection.Metadata",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.PEHeaderBuilder::CreateLibraryHeader():System.Reflection.PortableExecutable.PEHeaderBuilder",
@@ -13794,7 +13808,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Reflection.PortableExecutable.PEHeaderBuilder",
-          "declaringAssemblyName": "System.Reflection.Metadata"
+          "declaringAssemblyName": "System.Reflection.Metadata",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -14383,7 +14398,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Reflection.PortableExecutable.PEHeaders",
-          "declaringAssemblyName": "System.Reflection.Metadata"
+          "declaringAssemblyName": "System.Reflection.Metadata",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.PEHeaders::GetContainingSectionIndex(System.Int32):System.Int32",
@@ -14396,7 +14412,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Reflection.PortableExecutable.PEHeaders",
-          "declaringAssemblyName": "System.Reflection.Metadata"
+          "declaringAssemblyName": "System.Reflection.Metadata",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -14879,7 +14896,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Reflection.PortableExecutable.PEReader",
-          "declaringAssemblyName": "System.Reflection.Metadata"
+          "declaringAssemblyName": "System.Reflection.Metadata",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.PEReader::GetEntireImage():System.Reflection.PortableExecutable.PEMemoryBlock",
@@ -14892,7 +14910,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Reflection.PortableExecutable.PEReader",
-          "declaringAssemblyName": "System.Reflection.Metadata"
+          "declaringAssemblyName": "System.Reflection.Metadata",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.PEReader::GetMetadata():System.Reflection.PortableExecutable.PEMemoryBlock",
@@ -14905,7 +14924,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Reflection.PortableExecutable.PEReader",
-          "declaringAssemblyName": "System.Reflection.Metadata"
+          "declaringAssemblyName": "System.Reflection.Metadata",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.PEReader::GetSectionData(System.Int32):System.Reflection.PortableExecutable.PEMemoryBlock",
@@ -14918,7 +14938,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Reflection.PortableExecutable.PEReader",
-          "declaringAssemblyName": "System.Reflection.Metadata"
+          "declaringAssemblyName": "System.Reflection.Metadata",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.PEReader::GetSectionData(System.String):System.Reflection.PortableExecutable.PEMemoryBlock",
@@ -14931,7 +14952,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Reflection.PortableExecutable.PEReader",
-          "declaringAssemblyName": "System.Reflection.Metadata"
+          "declaringAssemblyName": "System.Reflection.Metadata",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.PEReader::ReadDebugDirectory():System.Collections.Immutable.ImmutableArray_1[[System.Reflection.PortableExecutable.DebugDirectoryEntry,System.Reflection.Metadata,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
@@ -14944,7 +14966,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Reflection.PortableExecutable.PEReader",
-          "declaringAssemblyName": "System.Reflection.Metadata"
+          "declaringAssemblyName": "System.Reflection.Metadata",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.PEReader::ReadCodeViewDebugDirectoryData(System.Reflection.PortableExecutable.DebugDirectoryEntry):System.Reflection.PortableExecutable.CodeViewDebugDirectoryData",
@@ -14957,7 +14980,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Reflection.PortableExecutable.PEReader",
-          "declaringAssemblyName": "System.Reflection.Metadata"
+          "declaringAssemblyName": "System.Reflection.Metadata",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.PEReader::ReadPdbChecksumDebugDirectoryData(System.Reflection.PortableExecutable.DebugDirectoryEntry):System.Reflection.PortableExecutable.PdbChecksumDebugDirectoryData",
@@ -14970,7 +14994,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Reflection.PortableExecutable.PEReader",
-          "declaringAssemblyName": "System.Reflection.Metadata"
+          "declaringAssemblyName": "System.Reflection.Metadata",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.PEReader::TryOpenAssociatedPortablePdb(System.String,System.Func_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.IO.Stream,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Reflection.Metadata.MetadataReaderProvider\u0026,System.String\u0026):System.Boolean",
@@ -14983,7 +15008,8 @@
           "arity": 0,
           "parameterCount": 4,
           "declaringClrType": "System.Reflection.PortableExecutable.PEReader",
-          "declaringAssemblyName": "System.Reflection.Metadata"
+          "declaringAssemblyName": "System.Reflection.Metadata",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.PEReader::ReadEmbeddedPortablePdbDebugDirectoryData(System.Reflection.PortableExecutable.DebugDirectoryEntry):System.Reflection.Metadata.MetadataReaderProvider",
@@ -14996,7 +15022,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Reflection.PortableExecutable.PEReader",
-          "declaringAssemblyName": "System.Reflection.Metadata"
+          "declaringAssemblyName": "System.Reflection.Metadata",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
@@ -15009,7 +15036,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.IDisposable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [

@@ -19,7 +19,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Xml.Xsl.IXsltContextFunction",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -156,7 +157,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Xml.Xsl.IXsltContextVariable",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -269,7 +271,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Xml.Xsl.XslCompiledTransform",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.XslCompiledTransform::Load(System.Xml.XmlReader,System.Xml.Xsl.XsltSettings,System.Xml.XmlResolver):System.Void",
@@ -282,7 +285,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Xml.Xsl.XslCompiledTransform",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.XslCompiledTransform::Load(System.Xml.XPath.IXPathNavigable):System.Void",
@@ -295,7 +299,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Xml.Xsl.XslCompiledTransform",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.XslCompiledTransform::Load(System.Xml.XPath.IXPathNavigable,System.Xml.Xsl.XsltSettings,System.Xml.XmlResolver):System.Void",
@@ -308,7 +313,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Xml.Xsl.XslCompiledTransform",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.XslCompiledTransform::Load(System.String):System.Void",
@@ -321,7 +327,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Xml.Xsl.XslCompiledTransform",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.XslCompiledTransform::Load(System.String,System.Xml.Xsl.XsltSettings,System.Xml.XmlResolver):System.Void",
@@ -334,7 +341,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Xml.Xsl.XslCompiledTransform",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.XslCompiledTransform::Load(System.Type):System.Void",
@@ -347,7 +355,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Xml.Xsl.XslCompiledTransform",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.XslCompiledTransform::Load(System.Reflection.MethodInfo,System.Byte[],System.Type[]):System.Void",
@@ -360,7 +369,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Xml.Xsl.XslCompiledTransform",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.XslCompiledTransform::Transform(System.Xml.XPath.IXPathNavigable,System.Xml.XmlWriter):System.Void",
@@ -373,7 +383,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Xml.Xsl.XslCompiledTransform",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.XslCompiledTransform::Transform(System.Xml.XPath.IXPathNavigable,System.Xml.Xsl.XsltArgumentList,System.Xml.XmlWriter):System.Void",
@@ -386,7 +397,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Xml.Xsl.XslCompiledTransform",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.XslCompiledTransform::Transform(System.Xml.XPath.IXPathNavigable,System.Xml.Xsl.XsltArgumentList,System.IO.TextWriter):System.Void",
@@ -399,7 +411,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Xml.Xsl.XslCompiledTransform",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.XslCompiledTransform::Transform(System.Xml.XPath.IXPathNavigable,System.Xml.Xsl.XsltArgumentList,System.IO.Stream):System.Void",
@@ -412,7 +425,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Xml.Xsl.XslCompiledTransform",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.XslCompiledTransform::Transform(System.Xml.XmlReader,System.Xml.XmlWriter):System.Void",
@@ -425,7 +439,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Xml.Xsl.XslCompiledTransform",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.XslCompiledTransform::Transform(System.Xml.XmlReader,System.Xml.Xsl.XsltArgumentList,System.Xml.XmlWriter):System.Void",
@@ -438,7 +453,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Xml.Xsl.XslCompiledTransform",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.XslCompiledTransform::Transform(System.Xml.XmlReader,System.Xml.Xsl.XsltArgumentList,System.IO.TextWriter):System.Void",
@@ -451,7 +467,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Xml.Xsl.XslCompiledTransform",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.XslCompiledTransform::Transform(System.Xml.XmlReader,System.Xml.Xsl.XsltArgumentList,System.IO.Stream):System.Void",
@@ -464,7 +481,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Xml.Xsl.XslCompiledTransform",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.XslCompiledTransform::Transform(System.String,System.Xml.XmlWriter):System.Void",
@@ -477,7 +495,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Xml.Xsl.XslCompiledTransform",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.XslCompiledTransform::Transform(System.String,System.Xml.Xsl.XsltArgumentList,System.Xml.XmlWriter):System.Void",
@@ -490,7 +509,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Xml.Xsl.XslCompiledTransform",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.XslCompiledTransform::Transform(System.String,System.Xml.Xsl.XsltArgumentList,System.IO.TextWriter):System.Void",
@@ -503,7 +523,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Xml.Xsl.XslCompiledTransform",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.XslCompiledTransform::Transform(System.String,System.Xml.Xsl.XsltArgumentList,System.IO.Stream):System.Void",
@@ -516,7 +537,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Xml.Xsl.XslCompiledTransform",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.XslCompiledTransform::Transform(System.String,System.String):System.Void",
@@ -529,7 +551,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Xml.Xsl.XslCompiledTransform",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.XslCompiledTransform::Transform(System.Xml.XmlReader,System.Xml.Xsl.XsltArgumentList,System.Xml.XmlWriter,System.Xml.XmlResolver):System.Void",
@@ -542,7 +565,8 @@
           "arity": 0,
           "parameterCount": 4,
           "declaringClrType": "System.Xml.Xsl.XslCompiledTransform",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.XslCompiledTransform::Transform(System.Xml.XPath.IXPathNavigable,System.Xml.Xsl.XsltArgumentList,System.Xml.XmlWriter,System.Xml.XmlResolver):System.Void",
@@ -555,7 +579,8 @@
           "arity": 0,
           "parameterCount": 4,
           "declaringClrType": "System.Xml.Xsl.XslCompiledTransform",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -941,7 +966,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Xml.Xsl.XsltArgumentList",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.XsltArgumentList::GetExtensionObject(System.String):System.Object",
@@ -954,7 +980,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Xml.Xsl.XsltArgumentList",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.XsltArgumentList::AddParam(System.String,System.String,System.Object):System.Void",
@@ -967,7 +994,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Xml.Xsl.XsltArgumentList",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.XsltArgumentList::AddExtensionObject(System.String,System.Object):System.Void",
@@ -980,7 +1008,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Xml.Xsl.XsltArgumentList",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.XsltArgumentList::RemoveParam(System.String,System.String):System.Object",
@@ -993,7 +1022,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Xml.Xsl.XsltArgumentList",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.XsltArgumentList::RemoveExtensionObject(System.String):System.Object",
@@ -1006,7 +1036,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Xml.Xsl.XsltArgumentList",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.XsltArgumentList::Clear():System.Void",
@@ -1019,7 +1050,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Xml.Xsl.XsltArgumentList",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -1222,7 +1254,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Xml.Xsl.XsltCompileException",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
@@ -1235,7 +1268,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.Serialization.ISerializable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -1544,7 +1578,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Xml.Xsl.XsltContext",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.XsltContext::ResolveFunction(System.String,System.String,System.Xml.XPath.XPathResultType[]):System.Xml.Xsl.IXsltContextFunction",
@@ -1557,7 +1592,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Xml.Xsl.XsltContext",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.XsltContext::PreserveWhitespace(System.Xml.XPath.XPathNavigator):System.Boolean",
@@ -1570,7 +1606,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Xml.Xsl.XsltContext",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.XsltContext::CompareDocument(System.String,System.String):System.Int32",
@@ -1583,7 +1620,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Xml.Xsl.XsltContext",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.IXmlNamespaceResolver::GetNamespacesInScope(System.Xml.XmlNamespaceScope):System.Collections.Generic.IDictionary_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
@@ -1596,7 +1634,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Xml.IXmlNamespaceResolver",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.IXmlNamespaceResolver::LookupNamespace(System.String):System.String",
@@ -1609,7 +1648,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Xml.IXmlNamespaceResolver",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
@@ -1622,7 +1662,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.IEnumerable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.XsltContext::GetEnumerator():System.Collections.IEnumerator",
@@ -1635,7 +1676,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Xml.Xsl.XsltContext",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.XsltContext::GetNamespacesInScope(System.Xml.XmlNamespaceScope):System.Collections.Generic.IDictionary_2",
@@ -1648,7 +1690,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Xml.Xsl.XsltContext",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.XsltContext::LookupNamespace(System.String):System.String",
@@ -1661,7 +1704,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Xml.Xsl.XsltContext",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -1956,7 +2000,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Xml.Xsl.XsltException",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
@@ -1969,7 +2014,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.Serialization.ISerializable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -2417,7 +2463,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Xml.Xsl.XsltMessageEncounteredEventHandler",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.XsltMessageEncounteredEventHandler::BeginInvoke(System.Object,System.Xml.Xsl.XsltMessageEncounteredEventArgs,System.AsyncCallback,System.Object):System.IAsyncResult",
@@ -2430,7 +2477,8 @@
           "arity": 0,
           "parameterCount": 4,
           "declaringClrType": "System.Xml.Xsl.XsltMessageEncounteredEventHandler",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.XsltMessageEncounteredEventHandler::EndInvoke(System.IAsyncResult):System.Void",
@@ -2443,7 +2491,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Xml.Xsl.XsltMessageEncounteredEventHandler",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
@@ -2456,7 +2505,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.ICloneable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
@@ -2469,7 +2519,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.Serialization.ISerializable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.XsltMessageEncounteredEventHandler::Clone():System.Object",
@@ -2482,7 +2533,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Xml.Xsl.XsltMessageEncounteredEventHandler",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.XsltMessageEncounteredEventHandler::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
@@ -2495,7 +2547,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Xml.Xsl.XsltMessageEncounteredEventHandler",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -2887,7 +2940,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Xml.Xsl.XslTransform",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.XslTransform::Load(System.Xml.XmlReader,System.Xml.XmlResolver):System.Void",
@@ -2900,7 +2954,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Xml.Xsl.XslTransform",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.XslTransform::Load(System.Xml.XPath.IXPathNavigable):System.Void",
@@ -2913,7 +2968,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Xml.Xsl.XslTransform",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.XslTransform::Load(System.Xml.XPath.IXPathNavigable,System.Xml.XmlResolver):System.Void",
@@ -2926,7 +2982,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Xml.Xsl.XslTransform",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.XslTransform::Load(System.Xml.XPath.XPathNavigator):System.Void",
@@ -2939,7 +2996,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Xml.Xsl.XslTransform",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.XslTransform::Load(System.Xml.XPath.XPathNavigator,System.Xml.XmlResolver):System.Void",
@@ -2952,7 +3010,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Xml.Xsl.XslTransform",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.XslTransform::Load(System.String):System.Void",
@@ -2965,7 +3024,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Xml.Xsl.XslTransform",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.XslTransform::Load(System.String,System.Xml.XmlResolver):System.Void",
@@ -2978,7 +3038,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Xml.Xsl.XslTransform",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.XslTransform::Transform(System.Xml.XPath.XPathNavigator,System.Xml.Xsl.XsltArgumentList,System.Xml.XmlResolver):System.Xml.XmlReader",
@@ -2991,7 +3052,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Xml.Xsl.XslTransform",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.XslTransform::Transform(System.Xml.XPath.XPathNavigator,System.Xml.Xsl.XsltArgumentList):System.Xml.XmlReader",
@@ -3004,7 +3066,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Xml.Xsl.XslTransform",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.XslTransform::Transform(System.Xml.XPath.XPathNavigator,System.Xml.Xsl.XsltArgumentList,System.Xml.XmlWriter,System.Xml.XmlResolver):System.Void",
@@ -3017,7 +3080,8 @@
           "arity": 0,
           "parameterCount": 4,
           "declaringClrType": "System.Xml.Xsl.XslTransform",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.XslTransform::Transform(System.Xml.XPath.XPathNavigator,System.Xml.Xsl.XsltArgumentList,System.Xml.XmlWriter):System.Void",
@@ -3030,7 +3094,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Xml.Xsl.XslTransform",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.XslTransform::Transform(System.Xml.XPath.XPathNavigator,System.Xml.Xsl.XsltArgumentList,System.IO.Stream,System.Xml.XmlResolver):System.Void",
@@ -3043,7 +3108,8 @@
           "arity": 0,
           "parameterCount": 4,
           "declaringClrType": "System.Xml.Xsl.XslTransform",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.XslTransform::Transform(System.Xml.XPath.XPathNavigator,System.Xml.Xsl.XsltArgumentList,System.IO.Stream):System.Void",
@@ -3056,7 +3122,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Xml.Xsl.XslTransform",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.XslTransform::Transform(System.Xml.XPath.XPathNavigator,System.Xml.Xsl.XsltArgumentList,System.IO.TextWriter,System.Xml.XmlResolver):System.Void",
@@ -3069,7 +3136,8 @@
           "arity": 0,
           "parameterCount": 4,
           "declaringClrType": "System.Xml.Xsl.XslTransform",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.XslTransform::Transform(System.Xml.XPath.XPathNavigator,System.Xml.Xsl.XsltArgumentList,System.IO.TextWriter):System.Void",
@@ -3082,7 +3150,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Xml.Xsl.XslTransform",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.XslTransform::Transform(System.Xml.XPath.IXPathNavigable,System.Xml.Xsl.XsltArgumentList,System.Xml.XmlResolver):System.Xml.XmlReader",
@@ -3095,7 +3164,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Xml.Xsl.XslTransform",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.XslTransform::Transform(System.Xml.XPath.IXPathNavigable,System.Xml.Xsl.XsltArgumentList):System.Xml.XmlReader",
@@ -3108,7 +3178,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Xml.Xsl.XslTransform",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.XslTransform::Transform(System.Xml.XPath.IXPathNavigable,System.Xml.Xsl.XsltArgumentList,System.IO.TextWriter,System.Xml.XmlResolver):System.Void",
@@ -3121,7 +3192,8 @@
           "arity": 0,
           "parameterCount": 4,
           "declaringClrType": "System.Xml.Xsl.XslTransform",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.XslTransform::Transform(System.Xml.XPath.IXPathNavigable,System.Xml.Xsl.XsltArgumentList,System.IO.TextWriter):System.Void",
@@ -3134,7 +3206,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Xml.Xsl.XslTransform",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.XslTransform::Transform(System.Xml.XPath.IXPathNavigable,System.Xml.Xsl.XsltArgumentList,System.IO.Stream,System.Xml.XmlResolver):System.Void",
@@ -3147,7 +3220,8 @@
           "arity": 0,
           "parameterCount": 4,
           "declaringClrType": "System.Xml.Xsl.XslTransform",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.XslTransform::Transform(System.Xml.XPath.IXPathNavigable,System.Xml.Xsl.XsltArgumentList,System.IO.Stream):System.Void",
@@ -3160,7 +3234,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Xml.Xsl.XslTransform",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.XslTransform::Transform(System.Xml.XPath.IXPathNavigable,System.Xml.Xsl.XsltArgumentList,System.Xml.XmlWriter,System.Xml.XmlResolver):System.Void",
@@ -3173,7 +3248,8 @@
           "arity": 0,
           "parameterCount": 4,
           "declaringClrType": "System.Xml.Xsl.XslTransform",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.XslTransform::Transform(System.Xml.XPath.IXPathNavigable,System.Xml.Xsl.XsltArgumentList,System.Xml.XmlWriter):System.Void",
@@ -3186,7 +3262,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Xml.Xsl.XslTransform",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.XslTransform::Transform(System.String,System.String,System.Xml.XmlResolver):System.Void",
@@ -3199,7 +3276,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Xml.Xsl.XslTransform",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.XslTransform::Transform(System.String,System.String):System.Void",
@@ -3212,7 +3290,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Xml.Xsl.XslTransform",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         }
       ],
       "properties": [

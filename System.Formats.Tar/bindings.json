@@ -3281,7 +3281,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Formats.Tar.TarEntry",
-          "declaringAssemblyName": "System.Formats.Tar"
+          "declaringAssemblyName": "System.Formats.Tar",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Formats.Tar:System.Formats.Tar.TarEntry::ExtractToFileAsync(System.String,System.Boolean,System.Threading.CancellationToken):System.Threading.Tasks.Task",
@@ -3294,7 +3295,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Formats.Tar.TarEntry",
-          "declaringAssemblyName": "System.Formats.Tar"
+          "declaringAssemblyName": "System.Formats.Tar",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Formats.Tar:System.Formats.Tar.TarEntry::ToString():System.String",
@@ -3307,7 +3309,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Formats.Tar.TarEntry",
-          "declaringAssemblyName": "System.Formats.Tar"
+          "declaringAssemblyName": "System.Formats.Tar",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -3706,7 +3709,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Formats.Tar.TarReader",
-          "declaringAssemblyName": "System.Formats.Tar"
+          "declaringAssemblyName": "System.Formats.Tar",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Formats.Tar:System.Formats.Tar.TarReader::DisposeAsync():System.Threading.Tasks.ValueTask",
@@ -3719,7 +3723,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Formats.Tar.TarReader",
-          "declaringAssemblyName": "System.Formats.Tar"
+          "declaringAssemblyName": "System.Formats.Tar",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Formats.Tar:System.Formats.Tar.TarReader::GetNextEntry(System.Boolean):System.Formats.Tar.TarEntry",
@@ -3732,7 +3737,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Formats.Tar.TarReader",
-          "declaringAssemblyName": "System.Formats.Tar"
+          "declaringAssemblyName": "System.Formats.Tar",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Formats.Tar:System.Formats.Tar.TarReader::GetNextEntryAsync(System.Boolean,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Formats.Tar.TarEntry,System.Formats.Tar,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]",
@@ -3745,7 +3751,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Formats.Tar.TarReader",
-          "declaringAssemblyName": "System.Formats.Tar"
+          "declaringAssemblyName": "System.Formats.Tar",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
@@ -3758,7 +3765,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.IDisposable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.IAsyncDisposable::DisposeAsync():System.Threading.Tasks.ValueTask",
@@ -3771,7 +3779,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.IAsyncDisposable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -3941,7 +3950,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Formats.Tar.TarWriter",
-          "declaringAssemblyName": "System.Formats.Tar"
+          "declaringAssemblyName": "System.Formats.Tar",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Formats.Tar:System.Formats.Tar.TarWriter::DisposeAsync():System.Threading.Tasks.ValueTask",
@@ -3954,7 +3964,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Formats.Tar.TarWriter",
-          "declaringAssemblyName": "System.Formats.Tar"
+          "declaringAssemblyName": "System.Formats.Tar",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Formats.Tar:System.Formats.Tar.TarWriter::WriteEntry(System.String,System.String):System.Void",
@@ -3967,7 +3978,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Formats.Tar.TarWriter",
-          "declaringAssemblyName": "System.Formats.Tar"
+          "declaringAssemblyName": "System.Formats.Tar",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Formats.Tar:System.Formats.Tar.TarWriter::WriteEntryAsync(System.String,System.String,System.Threading.CancellationToken):System.Threading.Tasks.Task",
@@ -3980,7 +3992,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Formats.Tar.TarWriter",
-          "declaringAssemblyName": "System.Formats.Tar"
+          "declaringAssemblyName": "System.Formats.Tar",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Formats.Tar:System.Formats.Tar.TarWriter::WriteEntry(System.Formats.Tar.TarEntry):System.Void",
@@ -3993,7 +4006,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Formats.Tar.TarWriter",
-          "declaringAssemblyName": "System.Formats.Tar"
+          "declaringAssemblyName": "System.Formats.Tar",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Formats.Tar:System.Formats.Tar.TarWriter::WriteEntryAsync(System.Formats.Tar.TarEntry,System.Threading.CancellationToken):System.Threading.Tasks.Task",
@@ -4006,7 +4020,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Formats.Tar.TarWriter",
-          "declaringAssemblyName": "System.Formats.Tar"
+          "declaringAssemblyName": "System.Formats.Tar",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
@@ -4019,7 +4034,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.IDisposable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.IAsyncDisposable::DisposeAsync():System.Threading.Tasks.ValueTask",
@@ -4032,7 +4048,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.IAsyncDisposable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -4841,7 +4858,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Formats.Tar.TarFile",
-          "declaringAssemblyName": "System.Formats.Tar"
+          "declaringAssemblyName": "System.Formats.Tar",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Formats.Tar:System.Formats.Tar.TarFile::CreateFromDirectoryAsync(System.String,System.IO.Stream,System.Boolean,System.Threading.CancellationToken):System.Threading.Tasks.Task",
@@ -4854,7 +4872,8 @@
           "arity": 0,
           "parameterCount": 4,
           "declaringClrType": "System.Formats.Tar.TarFile",
-          "declaringAssemblyName": "System.Formats.Tar"
+          "declaringAssemblyName": "System.Formats.Tar",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Formats.Tar:System.Formats.Tar.TarFile::CreateFromDirectory(System.String,System.String,System.Boolean):System.Void",
@@ -4867,7 +4886,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Formats.Tar.TarFile",
-          "declaringAssemblyName": "System.Formats.Tar"
+          "declaringAssemblyName": "System.Formats.Tar",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Formats.Tar:System.Formats.Tar.TarFile::CreateFromDirectoryAsync(System.String,System.String,System.Boolean,System.Threading.CancellationToken):System.Threading.Tasks.Task",
@@ -4880,7 +4900,8 @@
           "arity": 0,
           "parameterCount": 4,
           "declaringClrType": "System.Formats.Tar.TarFile",
-          "declaringAssemblyName": "System.Formats.Tar"
+          "declaringAssemblyName": "System.Formats.Tar",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Formats.Tar:System.Formats.Tar.TarFile::ExtractToDirectory(System.IO.Stream,System.String,System.Boolean):System.Void",
@@ -4893,7 +4914,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Formats.Tar.TarFile",
-          "declaringAssemblyName": "System.Formats.Tar"
+          "declaringAssemblyName": "System.Formats.Tar",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Formats.Tar:System.Formats.Tar.TarFile::ExtractToDirectoryAsync(System.IO.Stream,System.String,System.Boolean,System.Threading.CancellationToken):System.Threading.Tasks.Task",
@@ -4906,7 +4928,8 @@
           "arity": 0,
           "parameterCount": 4,
           "declaringClrType": "System.Formats.Tar.TarFile",
-          "declaringAssemblyName": "System.Formats.Tar"
+          "declaringAssemblyName": "System.Formats.Tar",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Formats.Tar:System.Formats.Tar.TarFile::ExtractToDirectory(System.String,System.String,System.Boolean):System.Void",
@@ -4919,7 +4942,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Formats.Tar.TarFile",
-          "declaringAssemblyName": "System.Formats.Tar"
+          "declaringAssemblyName": "System.Formats.Tar",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Formats.Tar:System.Formats.Tar.TarFile::ExtractToDirectoryAsync(System.String,System.String,System.Boolean,System.Threading.CancellationToken):System.Threading.Tasks.Task",
@@ -4932,7 +4956,8 @@
           "arity": 0,
           "parameterCount": 4,
           "declaringClrType": "System.Formats.Tar.TarFile",
-          "declaringAssemblyName": "System.Formats.Tar"
+          "declaringAssemblyName": "System.Formats.Tar",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],

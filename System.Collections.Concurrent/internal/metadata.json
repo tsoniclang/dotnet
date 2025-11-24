@@ -73,7 +73,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Concurrent.IProducerConsumerCollection\u00601::TryAdd(T):System.Boolean",
@@ -88,7 +89,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Concurrent.IProducerConsumerCollection\u00601::TryTake(T\u0026):System.Boolean",
@@ -103,7 +105,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Concurrent.IProducerConsumerCollection\u00601::ToArray():T[]",
@@ -118,7 +121,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IEnumerable\u00601::GetEnumerator():IEnumerator_1",
@@ -133,7 +137,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
@@ -148,7 +153,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.ICollection::CopyTo(System.Array,System.Int32):System.Void",
@@ -163,7 +169,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -241,7 +248,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Collections.Concurrent:System.Collections.Concurrent.ConcurrentDictionary\u00602\u002BAlternateLookup\u00601::TryAdd(TAlternateKey,TValue):System.Boolean",
@@ -256,7 +264,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Collections.Concurrent:System.Collections.Concurrent.ConcurrentDictionary\u00602\u002BAlternateLookup\u00601::TryGetValue(TAlternateKey,TValue\u0026):System.Boolean",
@@ -271,7 +280,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Collections.Concurrent:System.Collections.Concurrent.ConcurrentDictionary\u00602\u002BAlternateLookup\u00601::TryGetValue(TAlternateKey,TKey\u0026,TValue\u0026):System.Boolean",
@@ -286,7 +296,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Collections.Concurrent:System.Collections.Concurrent.ConcurrentDictionary\u00602\u002BAlternateLookup\u00601::TryRemove(TAlternateKey,TValue\u0026):System.Boolean",
@@ -301,7 +312,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Collections.Concurrent:System.Collections.Concurrent.ConcurrentDictionary\u00602\u002BAlternateLookup\u00601::TryRemove(TAlternateKey,TKey\u0026,TValue\u0026):System.Boolean",
@@ -316,7 +328,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -379,7 +392,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Collections.Concurrent:System.Collections.Concurrent.BlockingCollection\u00601::Add(T,System.Threading.CancellationToken):System.Void",
@@ -394,7 +408,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Collections.Concurrent:System.Collections.Concurrent.BlockingCollection\u00601::TryAdd(T):System.Boolean",
@@ -409,7 +424,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Collections.Concurrent:System.Collections.Concurrent.BlockingCollection\u00601::TryAdd(T,System.TimeSpan):System.Boolean",
@@ -424,7 +440,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Collections.Concurrent:System.Collections.Concurrent.BlockingCollection\u00601::TryAdd(T,System.Int32):System.Boolean",
@@ -439,7 +456,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Collections.Concurrent:System.Collections.Concurrent.BlockingCollection\u00601::TryAdd(T,System.Int32,System.Threading.CancellationToken):System.Boolean",
@@ -454,7 +472,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Collections.Concurrent:System.Collections.Concurrent.BlockingCollection\u00601::Take():T",
@@ -469,7 +488,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Collections.Concurrent:System.Collections.Concurrent.BlockingCollection\u00601::Take(System.Threading.CancellationToken):T",
@@ -484,7 +504,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Collections.Concurrent:System.Collections.Concurrent.BlockingCollection\u00601::TryTake(T\u0026):System.Boolean",
@@ -499,7 +520,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Collections.Concurrent:System.Collections.Concurrent.BlockingCollection\u00601::TryTake(T\u0026,System.TimeSpan):System.Boolean",
@@ -514,7 +536,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Collections.Concurrent:System.Collections.Concurrent.BlockingCollection\u00601::TryTake(T\u0026,System.Int32):System.Boolean",
@@ -529,7 +552,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Collections.Concurrent:System.Collections.Concurrent.BlockingCollection\u00601::TryTake(T\u0026,System.Int32,System.Threading.CancellationToken):System.Boolean",
@@ -544,7 +568,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Collections.Concurrent:System.Collections.Concurrent.BlockingCollection\u00601::AddToAny(BlockingCollection_1[],T):System.Int32",
@@ -559,7 +584,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Collections.Concurrent:System.Collections.Concurrent.BlockingCollection\u00601::AddToAny(BlockingCollection_1[],T,System.Threading.CancellationToken):System.Int32",
@@ -574,7 +600,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Collections.Concurrent:System.Collections.Concurrent.BlockingCollection\u00601::TryAddToAny(BlockingCollection_1[],T):System.Int32",
@@ -589,7 +616,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Collections.Concurrent:System.Collections.Concurrent.BlockingCollection\u00601::TryAddToAny(BlockingCollection_1[],T,System.TimeSpan):System.Int32",
@@ -604,7 +632,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Collections.Concurrent:System.Collections.Concurrent.BlockingCollection\u00601::TryAddToAny(BlockingCollection_1[],T,System.Int32):System.Int32",
@@ -619,7 +648,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Collections.Concurrent:System.Collections.Concurrent.BlockingCollection\u00601::TryAddToAny(BlockingCollection_1[],T,System.Int32,System.Threading.CancellationToken):System.Int32",
@@ -634,7 +664,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 4
+          "parameterCount": 4,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Collections.Concurrent:System.Collections.Concurrent.BlockingCollection\u00601::TakeFromAny(BlockingCollection_1[],T\u0026):System.Int32",
@@ -649,7 +680,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Collections.Concurrent:System.Collections.Concurrent.BlockingCollection\u00601::TakeFromAny(BlockingCollection_1[],T\u0026,System.Threading.CancellationToken):System.Int32",
@@ -664,7 +696,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Collections.Concurrent:System.Collections.Concurrent.BlockingCollection\u00601::TryTakeFromAny(BlockingCollection_1[],T\u0026):System.Int32",
@@ -679,7 +712,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Collections.Concurrent:System.Collections.Concurrent.BlockingCollection\u00601::TryTakeFromAny(BlockingCollection_1[],T\u0026,System.TimeSpan):System.Int32",
@@ -694,7 +728,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Collections.Concurrent:System.Collections.Concurrent.BlockingCollection\u00601::TryTakeFromAny(BlockingCollection_1[],T\u0026,System.Int32):System.Int32",
@@ -709,7 +744,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Collections.Concurrent:System.Collections.Concurrent.BlockingCollection\u00601::TryTakeFromAny(BlockingCollection_1[],T\u0026,System.Int32,System.Threading.CancellationToken):System.Int32",
@@ -724,7 +760,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 4
+          "parameterCount": 4,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Collections.Concurrent:System.Collections.Concurrent.BlockingCollection\u00601::CompleteAdding():System.Void",
@@ -739,7 +776,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Collections.Concurrent:System.Collections.Concurrent.BlockingCollection\u00601::Dispose():System.Void",
@@ -754,7 +792,8 @@
           "isOverride": false,
           "isSealed": true,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Collections.Concurrent:System.Collections.Concurrent.BlockingCollection\u00601::ToArray():T[]",
@@ -769,7 +808,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Collections.Concurrent:System.Collections.Concurrent.BlockingCollection\u00601::CopyTo(T[],System.Int32):System.Void",
@@ -784,7 +824,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Collections.Concurrent:System.Collections.Concurrent.BlockingCollection\u00601::GetConsumingEnumerable():IEnumerable_1",
@@ -799,7 +840,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Collections.Concurrent:System.Collections.Concurrent.BlockingCollection\u00601::GetConsumingEnumerable(System.Threading.CancellationToken):IEnumerable_1",
@@ -814,7 +856,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IEnumerable\u00601::GetEnumerator():IEnumerator_1",
@@ -830,7 +873,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.Collections.Generic.IEnumerable\u00601"
+          "sourceInterface": "System.Collections.Generic.IEnumerable\u00601",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
@@ -846,7 +890,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.Collections.IEnumerable"
+          "sourceInterface": "System.Collections.IEnumerable",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.ICollection::CopyTo(System.Array,System.Int32):System.Void",
@@ -862,7 +907,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 2,
-          "sourceInterface": "System.Collections.ICollection"
+          "sourceInterface": "System.Collections.ICollection",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
@@ -878,7 +924,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.IDisposable"
+          "sourceInterface": "System.IDisposable",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -1056,7 +1103,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Collections.Concurrent:System.Collections.Concurrent.ConcurrentBag\u00601::TryTake(T\u0026):System.Boolean",
@@ -1071,7 +1119,8 @@
           "isOverride": false,
           "isSealed": true,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Collections.Concurrent:System.Collections.Concurrent.ConcurrentBag\u00601::TryPeek(T\u0026):System.Boolean",
@@ -1086,7 +1135,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Collections.Concurrent:System.Collections.Concurrent.ConcurrentBag\u00601::CopyTo(T[],System.Int32):System.Void",
@@ -1101,7 +1151,8 @@
           "isOverride": false,
           "isSealed": true,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Collections.Concurrent:System.Collections.Concurrent.ConcurrentBag\u00601::ToArray():T[]",
@@ -1116,7 +1167,8 @@
           "isOverride": false,
           "isSealed": true,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Collections.Concurrent:System.Collections.Concurrent.ConcurrentBag\u00601::Clear():System.Void",
@@ -1131,7 +1183,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Collections.Concurrent:System.Collections.Concurrent.ConcurrentBag\u00601::GetEnumerator():IEnumerator_1",
@@ -1146,7 +1199,8 @@
           "isOverride": false,
           "isSealed": true,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Concurrent.IProducerConsumerCollection\u00601::TryAdd(T):System.Boolean",
@@ -1162,7 +1216,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 1,
-          "sourceInterface": "System.Collections.Concurrent.IProducerConsumerCollection\u00601"
+          "sourceInterface": "System.Collections.Concurrent.IProducerConsumerCollection\u00601",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
@@ -1178,7 +1233,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.Collections.IEnumerable"
+          "sourceInterface": "System.Collections.IEnumerable",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.ICollection::CopyTo(System.Array,System.Int32):System.Void",
@@ -1194,7 +1250,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 2,
-          "sourceInterface": "System.Collections.ICollection"
+          "sourceInterface": "System.Collections.ICollection",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Concurrent.IProducerConsumerCollection\u00601::CopyTo(T[],System.Int32):System.Void",
@@ -1210,7 +1267,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 2,
-          "sourceInterface": "System.Collections.Concurrent.IProducerConsumerCollection\u00601"
+          "sourceInterface": "System.Collections.Concurrent.IProducerConsumerCollection\u00601",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Concurrent.IProducerConsumerCollection\u00601::TryTake(T\u0026):System.Boolean",
@@ -1226,7 +1284,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 1,
-          "sourceInterface": "System.Collections.Concurrent.IProducerConsumerCollection\u00601"
+          "sourceInterface": "System.Collections.Concurrent.IProducerConsumerCollection\u00601",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Concurrent.IProducerConsumerCollection\u00601::ToArray():T[]",
@@ -1242,7 +1301,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.Collections.Concurrent.IProducerConsumerCollection\u00601"
+          "sourceInterface": "System.Collections.Concurrent.IProducerConsumerCollection\u00601",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IEnumerable\u00601::GetEnumerator():IEnumerator_1",
@@ -1258,7 +1318,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.Collections.Generic.IEnumerable\u00601"
+          "sourceInterface": "System.Collections.Generic.IEnumerable\u00601",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -1396,7 +1457,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Collections.Concurrent:System.Collections.Concurrent.ConcurrentDictionary\u00602::TryGetAlternateLookup(AlternateLookup_1\u0026):System.Boolean",
@@ -1411,7 +1473,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Collections.Concurrent:System.Collections.Concurrent.ConcurrentDictionary\u00602::TryAdd(TKey,TValue):System.Boolean",
@@ -1426,7 +1489,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Collections.Concurrent:System.Collections.Concurrent.ConcurrentDictionary\u00602::ContainsKey(TKey):System.Boolean",
@@ -1441,7 +1505,8 @@
           "isOverride": false,
           "isSealed": true,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Collections.Concurrent:System.Collections.Concurrent.ConcurrentDictionary\u00602::TryRemove(TKey,TValue\u0026):System.Boolean",
@@ -1456,7 +1521,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Collections.Concurrent:System.Collections.Concurrent.ConcurrentDictionary\u00602::TryRemove(KeyValuePair_2):System.Boolean",
@@ -1471,7 +1537,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Collections.Concurrent:System.Collections.Concurrent.ConcurrentDictionary\u00602::TryGetValue(TKey,TValue\u0026):System.Boolean",
@@ -1486,7 +1553,8 @@
           "isOverride": false,
           "isSealed": true,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Collections.Concurrent:System.Collections.Concurrent.ConcurrentDictionary\u00602::TryUpdate(TKey,TValue,TValue):System.Boolean",
@@ -1501,7 +1569,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Collections.Concurrent:System.Collections.Concurrent.ConcurrentDictionary\u00602::Clear():System.Void",
@@ -1516,7 +1585,8 @@
           "isOverride": false,
           "isSealed": true,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Collections.Concurrent:System.Collections.Concurrent.ConcurrentDictionary\u00602::ToArray():KeyValuePair_2[]",
@@ -1531,7 +1601,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Collections.Concurrent:System.Collections.Concurrent.ConcurrentDictionary\u00602::GetEnumerator():IEnumerator_1",
@@ -1546,7 +1617,8 @@
           "isOverride": false,
           "isSealed": true,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Collections.Concurrent:System.Collections.Concurrent.ConcurrentDictionary\u00602::GetOrAdd(TKey,Func_2):TValue",
@@ -1561,7 +1633,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Collections.Concurrent:System.Collections.Concurrent.ConcurrentDictionary\u00602::GetOrAdd(TKey,Func_3,TArg):TValue",
@@ -1576,7 +1649,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Collections.Concurrent:System.Collections.Concurrent.ConcurrentDictionary\u00602::GetOrAdd(TKey,TValue):TValue",
@@ -1591,7 +1665,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Collections.Concurrent:System.Collections.Concurrent.ConcurrentDictionary\u00602::AddOrUpdate(TKey,Func_3,Func_4,TArg):TValue",
@@ -1606,7 +1681,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 4
+          "parameterCount": 4,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Collections.Concurrent:System.Collections.Concurrent.ConcurrentDictionary\u00602::AddOrUpdate(TKey,Func_2,Func_3):TValue",
@@ -1621,7 +1697,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Collections.Concurrent:System.Collections.Concurrent.ConcurrentDictionary\u00602::AddOrUpdate(TKey,TValue,Func_3):TValue",
@@ -1636,7 +1713,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IDictionary\u00602::Add(TKey,TValue):System.Void",
@@ -1652,7 +1730,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 2,
-          "sourceInterface": "System.Collections.Generic.IDictionary\u00602"
+          "sourceInterface": "System.Collections.Generic.IDictionary\u00602",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IDictionary\u00602::Remove(TKey):System.Boolean",
@@ -1668,7 +1747,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 1,
-          "sourceInterface": "System.Collections.Generic.IDictionary\u00602"
+          "sourceInterface": "System.Collections.Generic.IDictionary\u00602",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::Add(T):System.Void",
@@ -1684,7 +1764,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 1,
-          "sourceInterface": "System.Collections.Generic.ICollection\u00601"
+          "sourceInterface": "System.Collections.Generic.ICollection\u00601",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::Contains(T):System.Boolean",
@@ -1700,7 +1781,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 1,
-          "sourceInterface": "System.Collections.Generic.ICollection\u00601"
+          "sourceInterface": "System.Collections.Generic.ICollection\u00601",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::CopyTo(T[],System.Int32):System.Void",
@@ -1716,7 +1798,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 2,
-          "sourceInterface": "System.Collections.Generic.ICollection\u00601"
+          "sourceInterface": "System.Collections.Generic.ICollection\u00601",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IEnumerable\u00601::GetEnumerator():IEnumerator_1",
@@ -1732,7 +1815,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.Collections.Generic.IEnumerable\u00601"
+          "sourceInterface": "System.Collections.Generic.IEnumerable\u00601",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
@@ -1748,7 +1832,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.Collections.IEnumerable"
+          "sourceInterface": "System.Collections.IEnumerable",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IDictionary::Contains(System.Object):System.Boolean",
@@ -1764,7 +1849,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 1,
-          "sourceInterface": "System.Collections.IDictionary"
+          "sourceInterface": "System.Collections.IDictionary",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IDictionary::Add(System.Object,System.Object):System.Void",
@@ -1780,7 +1866,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 2,
-          "sourceInterface": "System.Collections.IDictionary"
+          "sourceInterface": "System.Collections.IDictionary",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IDictionary::GetEnumerator():System.Collections.IDictionaryEnumerator",
@@ -1796,7 +1883,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.Collections.IDictionary"
+          "sourceInterface": "System.Collections.IDictionary",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IDictionary::Remove(System.Object):System.Void",
@@ -1812,7 +1900,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 1,
-          "sourceInterface": "System.Collections.IDictionary"
+          "sourceInterface": "System.Collections.IDictionary",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.ICollection::CopyTo(System.Array,System.Int32):System.Void",
@@ -1828,7 +1917,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 2,
-          "sourceInterface": "System.Collections.ICollection"
+          "sourceInterface": "System.Collections.ICollection",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IDictionary\u00602::ContainsKey(TKey):System.Boolean",
@@ -1844,7 +1934,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 1,
-          "sourceInterface": "System.Collections.Generic.IDictionary\u00602"
+          "sourceInterface": "System.Collections.Generic.IDictionary\u00602",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IDictionary\u00602::TryGetValue(TKey,TValue\u0026):System.Boolean",
@@ -1860,7 +1951,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 2,
-          "sourceInterface": "System.Collections.Generic.IDictionary\u00602"
+          "sourceInterface": "System.Collections.Generic.IDictionary\u00602",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::Clear():System.Void",
@@ -1876,7 +1968,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.Collections.Generic.ICollection\u00601"
+          "sourceInterface": "System.Collections.Generic.ICollection\u00601",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IDictionary::Clear():System.Void",
@@ -1892,7 +1985,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.Collections.IDictionary"
+          "sourceInterface": "System.Collections.IDictionary",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IReadOnlyDictionary\u00602::ContainsKey(TKey):System.Boolean",
@@ -1908,7 +2002,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 1,
-          "sourceInterface": "System.Collections.Generic.IReadOnlyDictionary\u00602"
+          "sourceInterface": "System.Collections.Generic.IReadOnlyDictionary\u00602",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IReadOnlyDictionary\u00602::TryGetValue(TKey,TValue\u0026):System.Boolean",
@@ -1924,7 +2019,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 2,
-          "sourceInterface": "System.Collections.Generic.IReadOnlyDictionary\u00602"
+          "sourceInterface": "System.Collections.Generic.IReadOnlyDictionary\u00602",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -2307,7 +2403,8 @@
           "isOverride": false,
           "isSealed": true,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Concurrent.ConcurrentQueue\u00601::CopyTo(T[],System.Int32):System.Void",
@@ -2322,7 +2419,8 @@
           "isOverride": false,
           "isSealed": true,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Concurrent.ConcurrentQueue\u00601::GetEnumerator():IEnumerator_1",
@@ -2337,7 +2435,8 @@
           "isOverride": false,
           "isSealed": true,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Concurrent.ConcurrentQueue\u00601::Enqueue(T):System.Void",
@@ -2352,7 +2451,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Concurrent.ConcurrentQueue\u00601::TryDequeue(T\u0026):System.Boolean",
@@ -2367,7 +2467,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Concurrent.ConcurrentQueue\u00601::TryPeek(T\u0026):System.Boolean",
@@ -2382,7 +2483,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Concurrent.ConcurrentQueue\u00601::Clear():System.Void",
@@ -2397,7 +2499,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Concurrent.IProducerConsumerCollection\u00601::TryAdd(T):System.Boolean",
@@ -2413,7 +2516,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 1,
-          "sourceInterface": "System.Collections.Concurrent.IProducerConsumerCollection\u00601"
+          "sourceInterface": "System.Collections.Concurrent.IProducerConsumerCollection\u00601",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Concurrent.IProducerConsumerCollection\u00601::TryTake(T\u0026):System.Boolean",
@@ -2429,7 +2533,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 1,
-          "sourceInterface": "System.Collections.Concurrent.IProducerConsumerCollection\u00601"
+          "sourceInterface": "System.Collections.Concurrent.IProducerConsumerCollection\u00601",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
@@ -2445,7 +2550,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.Collections.IEnumerable"
+          "sourceInterface": "System.Collections.IEnumerable",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.ICollection::CopyTo(System.Array,System.Int32):System.Void",
@@ -2461,7 +2567,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 2,
-          "sourceInterface": "System.Collections.ICollection"
+          "sourceInterface": "System.Collections.ICollection",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Concurrent.IProducerConsumerCollection\u00601::CopyTo(T[],System.Int32):System.Void",
@@ -2477,7 +2584,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 2,
-          "sourceInterface": "System.Collections.Concurrent.IProducerConsumerCollection\u00601"
+          "sourceInterface": "System.Collections.Concurrent.IProducerConsumerCollection\u00601",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Concurrent.IProducerConsumerCollection\u00601::ToArray():T[]",
@@ -2493,7 +2601,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.Collections.Concurrent.IProducerConsumerCollection\u00601"
+          "sourceInterface": "System.Collections.Concurrent.IProducerConsumerCollection\u00601",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IEnumerable\u00601::GetEnumerator():IEnumerator_1",
@@ -2509,7 +2618,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.Collections.Generic.IEnumerable\u00601"
+          "sourceInterface": "System.Collections.Generic.IEnumerable\u00601",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -2647,7 +2757,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Collections.Concurrent:System.Collections.Concurrent.ConcurrentStack\u00601::CopyTo(T[],System.Int32):System.Void",
@@ -2662,7 +2773,8 @@
           "isOverride": false,
           "isSealed": true,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Collections.Concurrent:System.Collections.Concurrent.ConcurrentStack\u00601::Push(T):System.Void",
@@ -2677,7 +2789,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Collections.Concurrent:System.Collections.Concurrent.ConcurrentStack\u00601::PushRange(T[]):System.Void",
@@ -2692,7 +2805,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Collections.Concurrent:System.Collections.Concurrent.ConcurrentStack\u00601::PushRange(T[],System.Int32,System.Int32):System.Void",
@@ -2707,7 +2821,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Collections.Concurrent:System.Collections.Concurrent.ConcurrentStack\u00601::TryPeek(T\u0026):System.Boolean",
@@ -2722,7 +2837,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Collections.Concurrent:System.Collections.Concurrent.ConcurrentStack\u00601::TryPop(T\u0026):System.Boolean",
@@ -2737,7 +2853,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Collections.Concurrent:System.Collections.Concurrent.ConcurrentStack\u00601::TryPopRange(T[]):System.Int32",
@@ -2752,7 +2869,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Collections.Concurrent:System.Collections.Concurrent.ConcurrentStack\u00601::TryPopRange(T[],System.Int32,System.Int32):System.Int32",
@@ -2767,7 +2885,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Collections.Concurrent:System.Collections.Concurrent.ConcurrentStack\u00601::ToArray():T[]",
@@ -2782,7 +2901,8 @@
           "isOverride": false,
           "isSealed": true,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Collections.Concurrent:System.Collections.Concurrent.ConcurrentStack\u00601::GetEnumerator():IEnumerator_1",
@@ -2797,7 +2917,8 @@
           "isOverride": false,
           "isSealed": true,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Concurrent.IProducerConsumerCollection\u00601::TryAdd(T):System.Boolean",
@@ -2813,7 +2934,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 1,
-          "sourceInterface": "System.Collections.Concurrent.IProducerConsumerCollection\u00601"
+          "sourceInterface": "System.Collections.Concurrent.IProducerConsumerCollection\u00601",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Concurrent.IProducerConsumerCollection\u00601::TryTake(T\u0026):System.Boolean",
@@ -2829,7 +2951,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 1,
-          "sourceInterface": "System.Collections.Concurrent.IProducerConsumerCollection\u00601"
+          "sourceInterface": "System.Collections.Concurrent.IProducerConsumerCollection\u00601",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
@@ -2845,7 +2968,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.Collections.IEnumerable"
+          "sourceInterface": "System.Collections.IEnumerable",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.ICollection::CopyTo(System.Array,System.Int32):System.Void",
@@ -2861,7 +2985,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 2,
-          "sourceInterface": "System.Collections.ICollection"
+          "sourceInterface": "System.Collections.ICollection",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Concurrent.IProducerConsumerCollection\u00601::CopyTo(T[],System.Int32):System.Void",
@@ -2877,7 +3002,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 2,
-          "sourceInterface": "System.Collections.Concurrent.IProducerConsumerCollection\u00601"
+          "sourceInterface": "System.Collections.Concurrent.IProducerConsumerCollection\u00601",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Concurrent.IProducerConsumerCollection\u00601::ToArray():T[]",
@@ -2893,7 +3019,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.Collections.Concurrent.IProducerConsumerCollection\u00601"
+          "sourceInterface": "System.Collections.Concurrent.IProducerConsumerCollection\u00601",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IEnumerable\u00601::GetEnumerator():IEnumerator_1",
@@ -2909,7 +3036,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.Collections.Generic.IEnumerable\u00601"
+          "sourceInterface": "System.Collections.Generic.IEnumerable\u00601",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -3047,7 +3175,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Collections.Concurrent:System.Collections.Concurrent.OrderablePartitioner\u00601::GetOrderableDynamicPartitions():IEnumerable_1",
@@ -3062,7 +3191,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Collections.Concurrent:System.Collections.Concurrent.OrderablePartitioner\u00601::GetPartitions(System.Int32):IList_1",
@@ -3077,7 +3207,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Collections.Concurrent:System.Collections.Concurrent.OrderablePartitioner\u00601::GetDynamicPartitions():IEnumerable_1",
@@ -3092,7 +3223,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Collections.Concurrent:System.Collections.Concurrent.OrderablePartitioner\u00601::GetDynamicPartitions():System.Collections.Generic.IEnumerable_1",
@@ -3107,7 +3239,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Collections.Concurrent:System.Collections.Concurrent.OrderablePartitioner\u00601::GetPartitions(System.Int32):System.Collections.Generic.IList_1",
@@ -3122,7 +3255,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -3200,7 +3334,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Collections.Concurrent:System.Collections.Concurrent.Partitioner\u00601::GetDynamicPartitions():IEnumerable_1",
@@ -3215,7 +3350,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -3263,7 +3399,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Collections.Concurrent:System.Collections.Concurrent.Partitioner::Create(TSource[],System.Boolean):OrderablePartitioner_1",
@@ -3278,7 +3415,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Collections.Concurrent:System.Collections.Concurrent.Partitioner::Create(IEnumerable_1):OrderablePartitioner_1",
@@ -3293,7 +3431,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Collections.Concurrent:System.Collections.Concurrent.Partitioner::Create(IEnumerable_1,System.Collections.Concurrent.EnumerablePartitionerOptions):OrderablePartitioner_1",
@@ -3308,7 +3447,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Collections.Concurrent:System.Collections.Concurrent.Partitioner::Create(System.Int64,System.Int64):System.Collections.Concurrent.OrderablePartitioner_1[[System.Tuple_2[[System.Int64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Int64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
@@ -3323,7 +3463,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Collections.Concurrent:System.Collections.Concurrent.Partitioner::Create(System.Int64,System.Int64,System.Int64):System.Collections.Concurrent.OrderablePartitioner_1[[System.Tuple_2[[System.Int64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Int64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
@@ -3338,7 +3479,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Collections.Concurrent:System.Collections.Concurrent.Partitioner::Create(System.Int32,System.Int32):System.Collections.Concurrent.OrderablePartitioner_1[[System.Tuple_2[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
@@ -3353,7 +3495,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Collections.Concurrent:System.Collections.Concurrent.Partitioner::Create(System.Int32,System.Int32,System.Int32):System.Collections.Concurrent.OrderablePartitioner_1[[System.Tuple_2[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
@@ -3368,7 +3511,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         }
       ],
       "properties": [],

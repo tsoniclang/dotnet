@@ -19,7 +19,8 @@
           "arity": 0,
           "parameterCount": 6,
           "declaringClrType": "System.Runtime.Serialization.Json.IXmlJsonReaderInitializer",
-          "declaringAssemblyName": "System.Private.DataContractSerialization"
+          "declaringAssemblyName": "System.Private.DataContractSerialization",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.Json.IXmlJsonReaderInitializer::SetInput(System.IO.Stream,System.Text.Encoding,System.Xml.XmlDictionaryReaderQuotas,System.Xml.OnXmlDictionaryReaderClose):System.Void",
@@ -32,7 +33,8 @@
           "arity": 0,
           "parameterCount": 4,
           "declaringClrType": "System.Runtime.Serialization.Json.IXmlJsonReaderInitializer",
-          "declaringAssemblyName": "System.Private.DataContractSerialization"
+          "declaringAssemblyName": "System.Private.DataContractSerialization",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -80,7 +82,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Runtime.Serialization.Json.IXmlJsonWriterInitializer",
-          "declaringAssemblyName": "System.Private.DataContractSerialization"
+          "declaringAssemblyName": "System.Private.DataContractSerialization",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -118,7 +121,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Runtime.Serialization.Json.DataContractJsonSerializer",
-          "declaringAssemblyName": "System.Private.DataContractSerialization"
+          "declaringAssemblyName": "System.Private.DataContractSerialization",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.Json.DataContractJsonSerializer::SetSerializationSurrogateProvider(System.Runtime.Serialization.ISerializationSurrogateProvider):System.Void",
@@ -131,7 +135,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.Serialization.Json.DataContractJsonSerializer",
-          "declaringAssemblyName": "System.Private.DataContractSerialization"
+          "declaringAssemblyName": "System.Private.DataContractSerialization",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.Json.DataContractJsonSerializer::IsStartObject(System.Xml.XmlReader):System.Boolean",
@@ -144,7 +149,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.Serialization.Json.DataContractJsonSerializer",
-          "declaringAssemblyName": "System.Private.DataContractSerialization"
+          "declaringAssemblyName": "System.Private.DataContractSerialization",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.Json.DataContractJsonSerializer::IsStartObject(System.Xml.XmlDictionaryReader):System.Boolean",
@@ -157,7 +163,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.Serialization.Json.DataContractJsonSerializer",
-          "declaringAssemblyName": "System.Private.DataContractSerialization"
+          "declaringAssemblyName": "System.Private.DataContractSerialization",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.Json.DataContractJsonSerializer::ReadObject(System.IO.Stream):System.Object",
@@ -170,7 +177,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.Serialization.Json.DataContractJsonSerializer",
-          "declaringAssemblyName": "System.Private.DataContractSerialization"
+          "declaringAssemblyName": "System.Private.DataContractSerialization",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.Json.DataContractJsonSerializer::ReadObject(System.Xml.XmlReader):System.Object",
@@ -183,7 +191,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.Serialization.Json.DataContractJsonSerializer",
-          "declaringAssemblyName": "System.Private.DataContractSerialization"
+          "declaringAssemblyName": "System.Private.DataContractSerialization",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.Json.DataContractJsonSerializer::ReadObject(System.Xml.XmlReader,System.Boolean):System.Object",
@@ -196,7 +205,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.Serialization.Json.DataContractJsonSerializer",
-          "declaringAssemblyName": "System.Private.DataContractSerialization"
+          "declaringAssemblyName": "System.Private.DataContractSerialization",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.Json.DataContractJsonSerializer::ReadObject(System.Xml.XmlDictionaryReader):System.Object",
@@ -209,7 +219,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.Serialization.Json.DataContractJsonSerializer",
-          "declaringAssemblyName": "System.Private.DataContractSerialization"
+          "declaringAssemblyName": "System.Private.DataContractSerialization",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.Json.DataContractJsonSerializer::ReadObject(System.Xml.XmlDictionaryReader,System.Boolean):System.Object",
@@ -222,7 +233,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.Serialization.Json.DataContractJsonSerializer",
-          "declaringAssemblyName": "System.Private.DataContractSerialization"
+          "declaringAssemblyName": "System.Private.DataContractSerialization",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.Json.DataContractJsonSerializer::WriteEndObject(System.Xml.XmlWriter):System.Void",
@@ -235,7 +247,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.Serialization.Json.DataContractJsonSerializer",
-          "declaringAssemblyName": "System.Private.DataContractSerialization"
+          "declaringAssemblyName": "System.Private.DataContractSerialization",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.Json.DataContractJsonSerializer::WriteEndObject(System.Xml.XmlDictionaryWriter):System.Void",
@@ -248,7 +261,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.Serialization.Json.DataContractJsonSerializer",
-          "declaringAssemblyName": "System.Private.DataContractSerialization"
+          "declaringAssemblyName": "System.Private.DataContractSerialization",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.Json.DataContractJsonSerializer::WriteObject(System.IO.Stream,System.Object):System.Void",
@@ -261,7 +275,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.Serialization.Json.DataContractJsonSerializer",
-          "declaringAssemblyName": "System.Private.DataContractSerialization"
+          "declaringAssemblyName": "System.Private.DataContractSerialization",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.Json.DataContractJsonSerializer::WriteObject(System.Xml.XmlWriter,System.Object):System.Void",
@@ -274,7 +289,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.Serialization.Json.DataContractJsonSerializer",
-          "declaringAssemblyName": "System.Private.DataContractSerialization"
+          "declaringAssemblyName": "System.Private.DataContractSerialization",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.Json.DataContractJsonSerializer::WriteObject(System.Xml.XmlDictionaryWriter,System.Object):System.Void",
@@ -287,7 +303,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.Serialization.Json.DataContractJsonSerializer",
-          "declaringAssemblyName": "System.Private.DataContractSerialization"
+          "declaringAssemblyName": "System.Private.DataContractSerialization",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.Json.DataContractJsonSerializer::WriteObjectContent(System.Xml.XmlWriter,System.Object):System.Void",
@@ -300,7 +317,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.Serialization.Json.DataContractJsonSerializer",
-          "declaringAssemblyName": "System.Private.DataContractSerialization"
+          "declaringAssemblyName": "System.Private.DataContractSerialization",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.Json.DataContractJsonSerializer::WriteObjectContent(System.Xml.XmlDictionaryWriter,System.Object):System.Void",
@@ -313,7 +331,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.Serialization.Json.DataContractJsonSerializer",
-          "declaringAssemblyName": "System.Private.DataContractSerialization"
+          "declaringAssemblyName": "System.Private.DataContractSerialization",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.Json.DataContractJsonSerializer::WriteStartObject(System.Xml.XmlWriter,System.Object):System.Void",
@@ -326,7 +345,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.Serialization.Json.DataContractJsonSerializer",
-          "declaringAssemblyName": "System.Private.DataContractSerialization"
+          "declaringAssemblyName": "System.Private.DataContractSerialization",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.Json.DataContractJsonSerializer::WriteStartObject(System.Xml.XmlDictionaryWriter,System.Object):System.Void",
@@ -339,7 +359,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.Serialization.Json.DataContractJsonSerializer",
-          "declaringAssemblyName": "System.Private.DataContractSerialization"
+          "declaringAssemblyName": "System.Private.DataContractSerialization",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -1205,7 +1226,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.Serialization.Json.DataContractJsonSerializerExtensions",
-          "declaringAssemblyName": "System.Private.DataContractSerialization"
+          "declaringAssemblyName": "System.Private.DataContractSerialization",
+          "isExtensionMethod": true
         },
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.Json.DataContractJsonSerializerExtensions::SetSerializationSurrogateProvider(System.Runtime.Serialization.Json.DataContractJsonSerializer,System.Runtime.Serialization.ISerializationSurrogateProvider):System.Void",
@@ -1218,7 +1240,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.Serialization.Json.DataContractJsonSerializerExtensions",
-          "declaringAssemblyName": "System.Private.DataContractSerialization"
+          "declaringAssemblyName": "System.Private.DataContractSerialization",
+          "isExtensionMethod": true
         }
       ],
       "properties": [],
@@ -1326,7 +1349,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.Serialization.Json.JsonReaderWriterFactory",
-          "declaringAssemblyName": "System.Private.DataContractSerialization"
+          "declaringAssemblyName": "System.Private.DataContractSerialization",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.Json.JsonReaderWriterFactory::CreateJsonReader(System.Byte[],System.Xml.XmlDictionaryReaderQuotas):System.Xml.XmlDictionaryReader",
@@ -1339,7 +1363,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.Serialization.Json.JsonReaderWriterFactory",
-          "declaringAssemblyName": "System.Private.DataContractSerialization"
+          "declaringAssemblyName": "System.Private.DataContractSerialization",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.Json.JsonReaderWriterFactory::CreateJsonReader(System.IO.Stream,System.Text.Encoding,System.Xml.XmlDictionaryReaderQuotas,System.Xml.OnXmlDictionaryReaderClose):System.Xml.XmlDictionaryReader",
@@ -1352,7 +1377,8 @@
           "arity": 0,
           "parameterCount": 4,
           "declaringClrType": "System.Runtime.Serialization.Json.JsonReaderWriterFactory",
-          "declaringAssemblyName": "System.Private.DataContractSerialization"
+          "declaringAssemblyName": "System.Private.DataContractSerialization",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.Json.JsonReaderWriterFactory::CreateJsonReader(System.Byte[],System.Int32,System.Int32,System.Xml.XmlDictionaryReaderQuotas):System.Xml.XmlDictionaryReader",
@@ -1365,7 +1391,8 @@
           "arity": 0,
           "parameterCount": 4,
           "declaringClrType": "System.Runtime.Serialization.Json.JsonReaderWriterFactory",
-          "declaringAssemblyName": "System.Private.DataContractSerialization"
+          "declaringAssemblyName": "System.Private.DataContractSerialization",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.Json.JsonReaderWriterFactory::CreateJsonReader(System.Byte[],System.Int32,System.Int32,System.Text.Encoding,System.Xml.XmlDictionaryReaderQuotas,System.Xml.OnXmlDictionaryReaderClose):System.Xml.XmlDictionaryReader",
@@ -1378,7 +1405,8 @@
           "arity": 0,
           "parameterCount": 6,
           "declaringClrType": "System.Runtime.Serialization.Json.JsonReaderWriterFactory",
-          "declaringAssemblyName": "System.Private.DataContractSerialization"
+          "declaringAssemblyName": "System.Private.DataContractSerialization",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.Json.JsonReaderWriterFactory::CreateJsonWriter(System.IO.Stream):System.Xml.XmlDictionaryWriter",
@@ -1391,7 +1419,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.Serialization.Json.JsonReaderWriterFactory",
-          "declaringAssemblyName": "System.Private.DataContractSerialization"
+          "declaringAssemblyName": "System.Private.DataContractSerialization",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.Json.JsonReaderWriterFactory::CreateJsonWriter(System.IO.Stream,System.Text.Encoding):System.Xml.XmlDictionaryWriter",
@@ -1404,7 +1433,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.Serialization.Json.JsonReaderWriterFactory",
-          "declaringAssemblyName": "System.Private.DataContractSerialization"
+          "declaringAssemblyName": "System.Private.DataContractSerialization",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.Json.JsonReaderWriterFactory::CreateJsonWriter(System.IO.Stream,System.Text.Encoding,System.Boolean):System.Xml.XmlDictionaryWriter",
@@ -1417,7 +1447,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Runtime.Serialization.Json.JsonReaderWriterFactory",
-          "declaringAssemblyName": "System.Private.DataContractSerialization"
+          "declaringAssemblyName": "System.Private.DataContractSerialization",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.Json.JsonReaderWriterFactory::CreateJsonWriter(System.IO.Stream,System.Text.Encoding,System.Boolean,System.Boolean):System.Xml.XmlDictionaryWriter",
@@ -1430,7 +1461,8 @@
           "arity": 0,
           "parameterCount": 4,
           "declaringClrType": "System.Runtime.Serialization.Json.JsonReaderWriterFactory",
-          "declaringAssemblyName": "System.Private.DataContractSerialization"
+          "declaringAssemblyName": "System.Private.DataContractSerialization",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.Json.JsonReaderWriterFactory::CreateJsonWriter(System.IO.Stream,System.Text.Encoding,System.Boolean,System.Boolean,System.String):System.Xml.XmlDictionaryWriter",
@@ -1443,7 +1475,8 @@
           "arity": 0,
           "parameterCount": 5,
           "declaringClrType": "System.Runtime.Serialization.Json.JsonReaderWriterFactory",
-          "declaringAssemblyName": "System.Private.DataContractSerialization"
+          "declaringAssemblyName": "System.Private.DataContractSerialization",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],

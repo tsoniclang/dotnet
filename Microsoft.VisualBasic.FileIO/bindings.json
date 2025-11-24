@@ -4699,7 +4699,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "Microsoft.VisualBasic.FileIO.FileSystem",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileIO.FileSystem::DirectoryExists(System.String):System.Boolean",
@@ -4712,7 +4713,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "Microsoft.VisualBasic.FileIO.FileSystem",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileIO.FileSystem::FileExists(System.String):System.Boolean",
@@ -4725,7 +4727,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "Microsoft.VisualBasic.FileIO.FileSystem",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileIO.FileSystem::FindInFiles(System.String,System.String,System.Boolean,Microsoft.VisualBasic.FileIO.SearchOption):System.Collections.ObjectModel.ReadOnlyCollection_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
@@ -4738,7 +4741,8 @@
           "arity": 0,
           "parameterCount": 4,
           "declaringClrType": "Microsoft.VisualBasic.FileIO.FileSystem",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileIO.FileSystem::FindInFiles(System.String,System.String,System.Boolean,Microsoft.VisualBasic.FileIO.SearchOption,System.String[]):System.Collections.ObjectModel.ReadOnlyCollection_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
@@ -4751,7 +4755,8 @@
           "arity": 0,
           "parameterCount": 5,
           "declaringClrType": "Microsoft.VisualBasic.FileIO.FileSystem",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileIO.FileSystem::GetDirectories(System.String):System.Collections.ObjectModel.ReadOnlyCollection_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
@@ -4764,7 +4769,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "Microsoft.VisualBasic.FileIO.FileSystem",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileIO.FileSystem::GetDirectories(System.String,Microsoft.VisualBasic.FileIO.SearchOption,System.String[]):System.Collections.ObjectModel.ReadOnlyCollection_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
@@ -4777,7 +4783,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "Microsoft.VisualBasic.FileIO.FileSystem",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileIO.FileSystem::GetDirectoryInfo(System.String):System.IO.DirectoryInfo",
@@ -4790,7 +4797,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "Microsoft.VisualBasic.FileIO.FileSystem",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileIO.FileSystem::GetDriveInfo(System.String):System.IO.DriveInfo",
@@ -4803,7 +4811,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "Microsoft.VisualBasic.FileIO.FileSystem",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileIO.FileSystem::GetFileInfo(System.String):System.IO.FileInfo",
@@ -4816,7 +4825,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "Microsoft.VisualBasic.FileIO.FileSystem",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileIO.FileSystem::GetFiles(System.String):System.Collections.ObjectModel.ReadOnlyCollection_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
@@ -4829,7 +4839,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "Microsoft.VisualBasic.FileIO.FileSystem",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileIO.FileSystem::GetFiles(System.String,Microsoft.VisualBasic.FileIO.SearchOption,System.String[]):System.Collections.ObjectModel.ReadOnlyCollection_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
@@ -4842,7 +4853,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "Microsoft.VisualBasic.FileIO.FileSystem",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileIO.FileSystem::GetName(System.String):System.String",
@@ -4855,7 +4867,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "Microsoft.VisualBasic.FileIO.FileSystem",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileIO.FileSystem::GetParentPath(System.String):System.String",
@@ -4868,7 +4881,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "Microsoft.VisualBasic.FileIO.FileSystem",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileIO.FileSystem::GetTempFileName():System.String",
@@ -4881,7 +4895,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "Microsoft.VisualBasic.FileIO.FileSystem",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileIO.FileSystem::OpenTextFieldParser(System.String):Microsoft.VisualBasic.FileIO.TextFieldParser",
@@ -4894,7 +4909,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "Microsoft.VisualBasic.FileIO.FileSystem",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileIO.FileSystem::OpenTextFieldParser(System.String,System.String[]):Microsoft.VisualBasic.FileIO.TextFieldParser",
@@ -4907,7 +4923,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "Microsoft.VisualBasic.FileIO.FileSystem",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileIO.FileSystem::OpenTextFieldParser(System.String,System.Int32[]):Microsoft.VisualBasic.FileIO.TextFieldParser",
@@ -4920,7 +4937,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "Microsoft.VisualBasic.FileIO.FileSystem",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileIO.FileSystem::OpenTextFileReader(System.String):System.IO.StreamReader",
@@ -4933,7 +4951,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "Microsoft.VisualBasic.FileIO.FileSystem",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileIO.FileSystem::OpenTextFileReader(System.String,System.Text.Encoding):System.IO.StreamReader",
@@ -4946,7 +4965,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "Microsoft.VisualBasic.FileIO.FileSystem",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileIO.FileSystem::OpenTextFileWriter(System.String,System.Boolean):System.IO.StreamWriter",
@@ -4959,7 +4979,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "Microsoft.VisualBasic.FileIO.FileSystem",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileIO.FileSystem::OpenTextFileWriter(System.String,System.Boolean,System.Text.Encoding):System.IO.StreamWriter",
@@ -4972,7 +4993,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "Microsoft.VisualBasic.FileIO.FileSystem",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileIO.FileSystem::ReadAllBytes(System.String):System.Byte[]",
@@ -4985,7 +5007,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "Microsoft.VisualBasic.FileIO.FileSystem",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileIO.FileSystem::ReadAllText(System.String):System.String",
@@ -4998,7 +5021,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "Microsoft.VisualBasic.FileIO.FileSystem",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileIO.FileSystem::ReadAllText(System.String,System.Text.Encoding):System.String",
@@ -5011,7 +5035,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "Microsoft.VisualBasic.FileIO.FileSystem",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileIO.FileSystem::CopyDirectory(System.String,System.String):System.Void",
@@ -5024,7 +5049,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "Microsoft.VisualBasic.FileIO.FileSystem",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileIO.FileSystem::CopyDirectory(System.String,System.String,System.Boolean):System.Void",
@@ -5037,7 +5063,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "Microsoft.VisualBasic.FileIO.FileSystem",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileIO.FileSystem::CopyDirectory(System.String,System.String,Microsoft.VisualBasic.FileIO.UIOption):System.Void",
@@ -5050,7 +5077,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "Microsoft.VisualBasic.FileIO.FileSystem",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileIO.FileSystem::CopyDirectory(System.String,System.String,Microsoft.VisualBasic.FileIO.UIOption,Microsoft.VisualBasic.FileIO.UICancelOption):System.Void",
@@ -5063,7 +5091,8 @@
           "arity": 0,
           "parameterCount": 4,
           "declaringClrType": "Microsoft.VisualBasic.FileIO.FileSystem",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileIO.FileSystem::CopyFile(System.String,System.String):System.Void",
@@ -5076,7 +5105,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "Microsoft.VisualBasic.FileIO.FileSystem",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileIO.FileSystem::CopyFile(System.String,System.String,System.Boolean):System.Void",
@@ -5089,7 +5119,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "Microsoft.VisualBasic.FileIO.FileSystem",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileIO.FileSystem::CopyFile(System.String,System.String,Microsoft.VisualBasic.FileIO.UIOption):System.Void",
@@ -5102,7 +5133,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "Microsoft.VisualBasic.FileIO.FileSystem",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileIO.FileSystem::CopyFile(System.String,System.String,Microsoft.VisualBasic.FileIO.UIOption,Microsoft.VisualBasic.FileIO.UICancelOption):System.Void",
@@ -5115,7 +5147,8 @@
           "arity": 0,
           "parameterCount": 4,
           "declaringClrType": "Microsoft.VisualBasic.FileIO.FileSystem",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileIO.FileSystem::CreateDirectory(System.String):System.Void",
@@ -5128,7 +5161,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "Microsoft.VisualBasic.FileIO.FileSystem",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileIO.FileSystem::DeleteDirectory(System.String,Microsoft.VisualBasic.FileIO.DeleteDirectoryOption):System.Void",
@@ -5141,7 +5175,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "Microsoft.VisualBasic.FileIO.FileSystem",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileIO.FileSystem::DeleteDirectory(System.String,Microsoft.VisualBasic.FileIO.UIOption,Microsoft.VisualBasic.FileIO.RecycleOption):System.Void",
@@ -5154,7 +5189,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "Microsoft.VisualBasic.FileIO.FileSystem",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileIO.FileSystem::DeleteDirectory(System.String,Microsoft.VisualBasic.FileIO.UIOption,Microsoft.VisualBasic.FileIO.RecycleOption,Microsoft.VisualBasic.FileIO.UICancelOption):System.Void",
@@ -5167,7 +5203,8 @@
           "arity": 0,
           "parameterCount": 4,
           "declaringClrType": "Microsoft.VisualBasic.FileIO.FileSystem",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileIO.FileSystem::DeleteFile(System.String):System.Void",
@@ -5180,7 +5217,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "Microsoft.VisualBasic.FileIO.FileSystem",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileIO.FileSystem::DeleteFile(System.String,Microsoft.VisualBasic.FileIO.UIOption,Microsoft.VisualBasic.FileIO.RecycleOption):System.Void",
@@ -5193,7 +5231,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "Microsoft.VisualBasic.FileIO.FileSystem",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileIO.FileSystem::DeleteFile(System.String,Microsoft.VisualBasic.FileIO.UIOption,Microsoft.VisualBasic.FileIO.RecycleOption,Microsoft.VisualBasic.FileIO.UICancelOption):System.Void",
@@ -5206,7 +5245,8 @@
           "arity": 0,
           "parameterCount": 4,
           "declaringClrType": "Microsoft.VisualBasic.FileIO.FileSystem",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileIO.FileSystem::MoveDirectory(System.String,System.String):System.Void",
@@ -5219,7 +5259,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "Microsoft.VisualBasic.FileIO.FileSystem",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileIO.FileSystem::MoveDirectory(System.String,System.String,System.Boolean):System.Void",
@@ -5232,7 +5273,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "Microsoft.VisualBasic.FileIO.FileSystem",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileIO.FileSystem::MoveDirectory(System.String,System.String,Microsoft.VisualBasic.FileIO.UIOption):System.Void",
@@ -5245,7 +5287,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "Microsoft.VisualBasic.FileIO.FileSystem",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileIO.FileSystem::MoveDirectory(System.String,System.String,Microsoft.VisualBasic.FileIO.UIOption,Microsoft.VisualBasic.FileIO.UICancelOption):System.Void",
@@ -5258,7 +5301,8 @@
           "arity": 0,
           "parameterCount": 4,
           "declaringClrType": "Microsoft.VisualBasic.FileIO.FileSystem",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileIO.FileSystem::MoveFile(System.String,System.String):System.Void",
@@ -5271,7 +5315,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "Microsoft.VisualBasic.FileIO.FileSystem",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileIO.FileSystem::MoveFile(System.String,System.String,System.Boolean):System.Void",
@@ -5284,7 +5329,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "Microsoft.VisualBasic.FileIO.FileSystem",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileIO.FileSystem::MoveFile(System.String,System.String,Microsoft.VisualBasic.FileIO.UIOption):System.Void",
@@ -5297,7 +5343,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "Microsoft.VisualBasic.FileIO.FileSystem",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileIO.FileSystem::MoveFile(System.String,System.String,Microsoft.VisualBasic.FileIO.UIOption,Microsoft.VisualBasic.FileIO.UICancelOption):System.Void",
@@ -5310,7 +5357,8 @@
           "arity": 0,
           "parameterCount": 4,
           "declaringClrType": "Microsoft.VisualBasic.FileIO.FileSystem",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileIO.FileSystem::RenameDirectory(System.String,System.String):System.Void",
@@ -5323,7 +5371,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "Microsoft.VisualBasic.FileIO.FileSystem",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileIO.FileSystem::RenameFile(System.String,System.String):System.Void",
@@ -5336,7 +5385,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "Microsoft.VisualBasic.FileIO.FileSystem",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileIO.FileSystem::WriteAllBytes(System.String,System.Byte[],System.Boolean):System.Void",
@@ -5349,7 +5399,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "Microsoft.VisualBasic.FileIO.FileSystem",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileIO.FileSystem::WriteAllText(System.String,System.String,System.Boolean):System.Void",
@@ -5362,7 +5413,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "Microsoft.VisualBasic.FileIO.FileSystem",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileIO.FileSystem::WriteAllText(System.String,System.String,System.Boolean,System.Text.Encoding):System.Void",
@@ -5375,7 +5427,8 @@
           "arity": 0,
           "parameterCount": 4,
           "declaringClrType": "Microsoft.VisualBasic.FileIO.FileSystem",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -6066,7 +6119,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "Microsoft.VisualBasic.FileIO.MalformedLineException",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileIO.MalformedLineException::ToString():System.String",
@@ -6079,7 +6133,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "Microsoft.VisualBasic.FileIO.MalformedLineException",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
@@ -6092,7 +6147,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.Serialization.ISerializable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -6730,7 +6786,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "Microsoft.VisualBasic.FileIO.TextFieldParser",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileIO.TextFieldParser::SetFieldWidths(System.Int32[]):System.Void",
@@ -6743,7 +6800,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "Microsoft.VisualBasic.FileIO.TextFieldParser",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileIO.TextFieldParser::ReadLine():System.String",
@@ -6756,7 +6814,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "Microsoft.VisualBasic.FileIO.TextFieldParser",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileIO.TextFieldParser::ReadFields():System.String[]",
@@ -6769,7 +6828,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "Microsoft.VisualBasic.FileIO.TextFieldParser",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileIO.TextFieldParser::PeekChars(System.Int32):System.String",
@@ -6782,7 +6842,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "Microsoft.VisualBasic.FileIO.TextFieldParser",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileIO.TextFieldParser::ReadToEnd():System.String",
@@ -6795,7 +6856,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "Microsoft.VisualBasic.FileIO.TextFieldParser",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileIO.TextFieldParser::Close():System.Void",
@@ -6808,7 +6870,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "Microsoft.VisualBasic.FileIO.TextFieldParser",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileIO.TextFieldParser::Dispose():System.Void",
@@ -6821,7 +6884,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "Microsoft.VisualBasic.FileIO.TextFieldParser",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
@@ -6834,7 +6898,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.IDisposable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [

@@ -10443,7 +10443,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Xml.Schema.ValidationEventHandler",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Schema.ValidationEventHandler::BeginInvoke(System.Object,System.Xml.Schema.ValidationEventArgs,System.AsyncCallback,System.Object):System.IAsyncResult",
@@ -10456,7 +10457,8 @@
           "arity": 0,
           "parameterCount": 4,
           "declaringClrType": "System.Xml.Schema.ValidationEventHandler",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Schema.ValidationEventHandler::EndInvoke(System.IAsyncResult):System.Void",
@@ -10469,7 +10471,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Xml.Schema.ValidationEventHandler",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
@@ -10482,7 +10485,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.ICloneable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
@@ -10495,7 +10499,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.Serialization.ISerializable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Schema.ValidationEventHandler::Clone():System.Object",
@@ -10508,7 +10513,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Xml.Schema.ValidationEventHandler",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Schema.ValidationEventHandler::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
@@ -10521,7 +10527,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Xml.Schema.ValidationEventHandler",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -10913,7 +10920,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Xml.Schema.XmlAtomicValue",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Schema.XmlAtomicValue::ValueAs(System.Type,System.Xml.IXmlNamespaceResolver):System.Object",
@@ -10926,7 +10934,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Xml.Schema.XmlAtomicValue",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Schema.XmlAtomicValue::ToString():System.String",
@@ -10939,7 +10948,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Xml.Schema.XmlAtomicValue",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
@@ -10952,7 +10962,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.ICloneable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Schema.XmlAtomicValue::ValueAs(System.Type):System.Object",
@@ -10965,7 +10976,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Xml.Schema.XmlAtomicValue",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -11336,7 +11348,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Xml.Schema.XmlSchema",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Schema.XmlSchema::Read(System.IO.Stream,System.Xml.Schema.ValidationEventHandler):System.Xml.Schema.XmlSchema",
@@ -11349,7 +11362,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Xml.Schema.XmlSchema",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Schema.XmlSchema::Read(System.Xml.XmlReader,System.Xml.Schema.ValidationEventHandler):System.Xml.Schema.XmlSchema",
@@ -11362,7 +11376,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Xml.Schema.XmlSchema",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Schema.XmlSchema::Write(System.IO.Stream):System.Void",
@@ -11375,7 +11390,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Xml.Schema.XmlSchema",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Schema.XmlSchema::Write(System.IO.Stream,System.Xml.XmlNamespaceManager):System.Void",
@@ -11388,7 +11404,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Xml.Schema.XmlSchema",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Schema.XmlSchema::Write(System.IO.TextWriter):System.Void",
@@ -11401,7 +11418,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Xml.Schema.XmlSchema",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Schema.XmlSchema::Write(System.IO.TextWriter,System.Xml.XmlNamespaceManager):System.Void",
@@ -11414,7 +11432,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Xml.Schema.XmlSchema",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Schema.XmlSchema::Write(System.Xml.XmlWriter):System.Void",
@@ -11427,7 +11446,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Xml.Schema.XmlSchema",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Schema.XmlSchema::Write(System.Xml.XmlWriter,System.Xml.XmlNamespaceManager):System.Void",
@@ -11440,7 +11460,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Xml.Schema.XmlSchema",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Schema.XmlSchema::Compile(System.Xml.Schema.ValidationEventHandler):System.Void",
@@ -11453,7 +11474,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Xml.Schema.XmlSchema",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Schema.XmlSchema::Compile(System.Xml.Schema.ValidationEventHandler,System.Xml.XmlResolver):System.Void",
@@ -11466,7 +11488,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Xml.Schema.XmlSchema",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -14756,7 +14779,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Xml.Schema.XmlSchemaCollection",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Schema.XmlSchemaCollection::Add(System.String,System.Xml.XmlReader):System.Xml.Schema.XmlSchema",
@@ -14769,7 +14793,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Xml.Schema.XmlSchemaCollection",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Schema.XmlSchemaCollection::Add(System.String,System.Xml.XmlReader,System.Xml.XmlResolver):System.Xml.Schema.XmlSchema",
@@ -14782,7 +14807,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Xml.Schema.XmlSchemaCollection",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Schema.XmlSchemaCollection::Add(System.Xml.Schema.XmlSchema):System.Xml.Schema.XmlSchema",
@@ -14795,7 +14821,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Xml.Schema.XmlSchemaCollection",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Schema.XmlSchemaCollection::Add(System.Xml.Schema.XmlSchema,System.Xml.XmlResolver):System.Xml.Schema.XmlSchema",
@@ -14808,7 +14835,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Xml.Schema.XmlSchemaCollection",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Schema.XmlSchemaCollection::Add(System.Xml.Schema.XmlSchemaCollection):System.Void",
@@ -14821,7 +14849,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Xml.Schema.XmlSchemaCollection",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Schema.XmlSchemaCollection::Contains(System.Xml.Schema.XmlSchema):System.Boolean",
@@ -14834,7 +14863,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Xml.Schema.XmlSchemaCollection",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Schema.XmlSchemaCollection::Contains(System.String):System.Boolean",
@@ -14847,7 +14877,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Xml.Schema.XmlSchemaCollection",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Schema.XmlSchemaCollection::GetEnumerator():System.Xml.Schema.XmlSchemaCollectionEnumerator",
@@ -14860,7 +14891,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Xml.Schema.XmlSchemaCollection",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Schema.XmlSchemaCollection::CopyTo(System.Xml.Schema.XmlSchema[],System.Int32):System.Void",
@@ -14873,7 +14905,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Xml.Schema.XmlSchemaCollection",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.ICollection::CopyTo(System.Array,System.Int32):System.Void",
@@ -14886,7 +14919,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Collections.ICollection",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
@@ -14899,7 +14933,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.IEnumerable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -15318,7 +15353,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Xml.Schema.XmlSchemaCollectionEnumerator",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerator::Reset():System.Void",
@@ -15331,7 +15367,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.IEnumerator",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerator::MoveNext():System.Boolean",
@@ -15344,7 +15381,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.IEnumerator",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -17357,7 +17395,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Xml.Schema.XmlSchemaDatatype",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Schema.XmlSchemaDatatype::ChangeType(System.Object,System.Type):System.Object",
@@ -17370,7 +17409,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Xml.Schema.XmlSchemaDatatype",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Schema.XmlSchemaDatatype::ChangeType(System.Object,System.Type,System.Xml.IXmlNamespaceResolver):System.Object",
@@ -17383,7 +17423,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Xml.Schema.XmlSchemaDatatype",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Schema.XmlSchemaDatatype::IsDerivedFrom(System.Xml.Schema.XmlSchemaDatatype):System.Boolean",
@@ -17396,7 +17437,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Xml.Schema.XmlSchemaDatatype",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -18693,7 +18735,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Xml.Schema.XmlSchemaException",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
@@ -18706,7 +18749,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.Serialization.ISerializable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -21186,7 +21230,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Xml.Schema.XmlSchemaInference",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Schema.XmlSchemaInference::InferSchema(System.Xml.XmlReader,System.Xml.Schema.XmlSchemaSet):System.Xml.Schema.XmlSchemaSet",
@@ -21199,7 +21244,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Xml.Schema.XmlSchemaInference",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -21380,7 +21426,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Xml.Schema.XmlSchemaInferenceException",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
@@ -21393,7 +21440,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.Serialization.ISerializable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -24642,7 +24690,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Xml.Schema.XmlSchemaObjectCollection",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Schema.XmlSchemaObjectCollection::Add(System.Xml.Schema.XmlSchemaObject):System.Int32",
@@ -24655,7 +24704,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Xml.Schema.XmlSchemaObjectCollection",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Schema.XmlSchemaObjectCollection::Insert(System.Int32,System.Xml.Schema.XmlSchemaObject):System.Void",
@@ -24668,7 +24718,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Xml.Schema.XmlSchemaObjectCollection",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Schema.XmlSchemaObjectCollection::IndexOf(System.Xml.Schema.XmlSchemaObject):System.Int32",
@@ -24681,7 +24732,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Xml.Schema.XmlSchemaObjectCollection",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Schema.XmlSchemaObjectCollection::Contains(System.Xml.Schema.XmlSchemaObject):System.Boolean",
@@ -24694,7 +24746,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Xml.Schema.XmlSchemaObjectCollection",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Schema.XmlSchemaObjectCollection::Remove(System.Xml.Schema.XmlSchemaObject):System.Void",
@@ -24707,7 +24760,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Xml.Schema.XmlSchemaObjectCollection",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Schema.XmlSchemaObjectCollection::CopyTo(System.Xml.Schema.XmlSchemaObject[],System.Int32):System.Void",
@@ -24720,7 +24774,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Xml.Schema.XmlSchemaObjectCollection",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Clear():System.Void",
@@ -24733,7 +24788,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.IList",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::RemoveAt(System.Int32):System.Void",
@@ -24746,7 +24802,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.IList",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.ICollection::CopyTo(System.Array,System.Int32):System.Void",
@@ -24759,7 +24816,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Collections.ICollection",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
@@ -24772,7 +24830,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.IEnumerable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Add(System.Object):System.Int32",
@@ -24785,7 +24844,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.IList",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Contains(System.Object):System.Boolean",
@@ -24798,7 +24858,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.IList",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Insert(System.Int32,System.Object):System.Void",
@@ -24811,7 +24872,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Collections.IList",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Remove(System.Object):System.Void",
@@ -24824,7 +24886,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.IList",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Schema.XmlSchemaObjectCollection::Add(System.Object):System.Int32",
@@ -24837,7 +24900,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Xml.Schema.XmlSchemaObjectCollection",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Schema.XmlSchemaObjectCollection::Clear():System.Void",
@@ -24850,7 +24914,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Xml.Schema.XmlSchemaObjectCollection",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Schema.XmlSchemaObjectCollection::Contains(System.Object):System.Boolean",
@@ -24863,7 +24928,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Xml.Schema.XmlSchemaObjectCollection",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Schema.XmlSchemaObjectCollection::CopyTo(System.Array,System.Int32):System.Void",
@@ -24876,7 +24942,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Xml.Schema.XmlSchemaObjectCollection",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Schema.XmlSchemaObjectCollection::GetEnumerator():System.Collections.IEnumerator",
@@ -24889,7 +24956,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Xml.Schema.XmlSchemaObjectCollection",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Schema.XmlSchemaObjectCollection::Insert(System.Int32,System.Object):System.Void",
@@ -24902,7 +24970,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Xml.Schema.XmlSchemaObjectCollection",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Schema.XmlSchemaObjectCollection::Remove(System.Object):System.Void",
@@ -24915,7 +24984,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Xml.Schema.XmlSchemaObjectCollection",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Schema.XmlSchemaObjectCollection::RemoveAt(System.Int32):System.Void",
@@ -24928,7 +24998,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Xml.Schema.XmlSchemaObjectCollection",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -25444,7 +25515,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Xml.Schema.XmlSchemaObjectEnumerator",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Schema.XmlSchemaObjectEnumerator::MoveNext():System.Boolean",
@@ -25457,7 +25529,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Xml.Schema.XmlSchemaObjectEnumerator",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerator::MoveNext():System.Boolean",
@@ -25470,7 +25543,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.IEnumerator",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerator::Reset():System.Void",
@@ -25483,7 +25557,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.IEnumerator",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -25662,7 +25737,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Xml.Schema.XmlSchemaObjectTable",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Schema.XmlSchemaObjectTable::GetEnumerator():System.Collections.IDictionaryEnumerator",
@@ -25675,7 +25751,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Xml.Schema.XmlSchemaObjectTable",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -26861,7 +26938,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Xml.Schema.XmlSchemaSet",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Schema.XmlSchemaSet::Add(System.String,System.Xml.XmlReader):System.Xml.Schema.XmlSchema",
@@ -26874,7 +26952,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Xml.Schema.XmlSchemaSet",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Schema.XmlSchemaSet::Add(System.Xml.Schema.XmlSchemaSet):System.Void",
@@ -26887,7 +26966,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Xml.Schema.XmlSchemaSet",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Schema.XmlSchemaSet::Add(System.Xml.Schema.XmlSchema):System.Xml.Schema.XmlSchema",
@@ -26900,7 +26980,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Xml.Schema.XmlSchemaSet",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Schema.XmlSchemaSet::Remove(System.Xml.Schema.XmlSchema):System.Xml.Schema.XmlSchema",
@@ -26913,7 +26994,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Xml.Schema.XmlSchemaSet",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Schema.XmlSchemaSet::RemoveRecursive(System.Xml.Schema.XmlSchema):System.Boolean",
@@ -26926,7 +27008,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Xml.Schema.XmlSchemaSet",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Schema.XmlSchemaSet::Contains(System.String):System.Boolean",
@@ -26939,7 +27022,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Xml.Schema.XmlSchemaSet",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Schema.XmlSchemaSet::Contains(System.Xml.Schema.XmlSchema):System.Boolean",
@@ -26952,7 +27036,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Xml.Schema.XmlSchemaSet",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Schema.XmlSchemaSet::Compile():System.Void",
@@ -26965,7 +27050,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Xml.Schema.XmlSchemaSet",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Schema.XmlSchemaSet::Reprocess(System.Xml.Schema.XmlSchema):System.Xml.Schema.XmlSchema",
@@ -26978,7 +27064,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Xml.Schema.XmlSchemaSet",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Schema.XmlSchemaSet::CopyTo(System.Xml.Schema.XmlSchema[],System.Int32):System.Void",
@@ -26991,7 +27078,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Xml.Schema.XmlSchemaSet",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Schema.XmlSchemaSet::Schemas():System.Collections.ICollection",
@@ -27004,7 +27092,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Xml.Schema.XmlSchemaSet",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Schema.XmlSchemaSet::Schemas(System.String):System.Collections.ICollection",
@@ -27017,7 +27106,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Xml.Schema.XmlSchemaSet",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -29707,7 +29797,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Xml.Schema.XmlSchemaType",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Schema.XmlSchemaType::GetBuiltInSimpleType(System.Xml.Schema.XmlTypeCode):System.Xml.Schema.XmlSchemaSimpleType",
@@ -29720,7 +29811,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Xml.Schema.XmlSchemaType",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Schema.XmlSchemaType::GetBuiltInComplexType(System.Xml.Schema.XmlTypeCode):System.Xml.Schema.XmlSchemaComplexType",
@@ -29733,7 +29825,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Xml.Schema.XmlSchemaType",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Schema.XmlSchemaType::GetBuiltInComplexType(System.Xml.XmlQualifiedName):System.Xml.Schema.XmlSchemaComplexType",
@@ -29746,7 +29839,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Xml.Schema.XmlSchemaType",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Schema.XmlSchemaType::IsDerivedFrom(System.Xml.Schema.XmlSchemaType,System.Xml.Schema.XmlSchemaType,System.Xml.Schema.XmlSchemaDerivationMethod):System.Boolean",
@@ -29759,7 +29853,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Xml.Schema.XmlSchemaType",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -30460,7 +30555,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Xml.Schema.XmlSchemaValidationException",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
@@ -30473,7 +30569,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.Serialization.ISerializable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -30817,7 +30914,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Xml.Schema.XmlSchemaValidator",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Schema.XmlSchemaValidator::Initialize():System.Void",
@@ -30830,7 +30928,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Xml.Schema.XmlSchemaValidator",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Schema.XmlSchemaValidator::Initialize(System.Xml.Schema.XmlSchemaObject):System.Void",
@@ -30843,7 +30942,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Xml.Schema.XmlSchemaValidator",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Schema.XmlSchemaValidator::ValidateElement(System.String,System.String,System.Xml.Schema.XmlSchemaInfo):System.Void",
@@ -30856,7 +30956,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Xml.Schema.XmlSchemaValidator",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Schema.XmlSchemaValidator::ValidateElement(System.String,System.String,System.Xml.Schema.XmlSchemaInfo,System.String,System.String,System.String,System.String):System.Void",
@@ -30869,7 +30970,8 @@
           "arity": 0,
           "parameterCount": 7,
           "declaringClrType": "System.Xml.Schema.XmlSchemaValidator",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Schema.XmlSchemaValidator::ValidateAttribute(System.String,System.String,System.String,System.Xml.Schema.XmlSchemaInfo):System.Object",
@@ -30882,7 +30984,8 @@
           "arity": 0,
           "parameterCount": 4,
           "declaringClrType": "System.Xml.Schema.XmlSchemaValidator",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Schema.XmlSchemaValidator::ValidateAttribute(System.String,System.String,System.Xml.Schema.XmlValueGetter,System.Xml.Schema.XmlSchemaInfo):System.Object",
@@ -30895,7 +30998,8 @@
           "arity": 0,
           "parameterCount": 4,
           "declaringClrType": "System.Xml.Schema.XmlSchemaValidator",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Schema.XmlSchemaValidator::GetUnspecifiedDefaultAttributes(System.Collections.ArrayList):System.Void",
@@ -30908,7 +31012,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Xml.Schema.XmlSchemaValidator",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Schema.XmlSchemaValidator::ValidateEndOfAttributes(System.Xml.Schema.XmlSchemaInfo):System.Void",
@@ -30921,7 +31026,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Xml.Schema.XmlSchemaValidator",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Schema.XmlSchemaValidator::ValidateText(System.String):System.Void",
@@ -30934,7 +31040,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Xml.Schema.XmlSchemaValidator",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Schema.XmlSchemaValidator::ValidateText(System.Xml.Schema.XmlValueGetter):System.Void",
@@ -30947,7 +31054,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Xml.Schema.XmlSchemaValidator",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Schema.XmlSchemaValidator::ValidateWhitespace(System.String):System.Void",
@@ -30960,7 +31068,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Xml.Schema.XmlSchemaValidator",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Schema.XmlSchemaValidator::ValidateWhitespace(System.Xml.Schema.XmlValueGetter):System.Void",
@@ -30973,7 +31082,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Xml.Schema.XmlSchemaValidator",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Schema.XmlSchemaValidator::ValidateEndElement(System.Xml.Schema.XmlSchemaInfo):System.Object",
@@ -30986,7 +31096,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Xml.Schema.XmlSchemaValidator",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Schema.XmlSchemaValidator::ValidateEndElement(System.Xml.Schema.XmlSchemaInfo,System.Object):System.Object",
@@ -30999,7 +31110,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Xml.Schema.XmlSchemaValidator",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Schema.XmlSchemaValidator::SkipToEndElement(System.Xml.Schema.XmlSchemaInfo):System.Void",
@@ -31012,7 +31124,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Xml.Schema.XmlSchemaValidator",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Schema.XmlSchemaValidator::EndValidation():System.Void",
@@ -31025,7 +31138,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Xml.Schema.XmlSchemaValidator",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Schema.XmlSchemaValidator::GetExpectedParticles():System.Xml.Schema.XmlSchemaParticle[]",
@@ -31038,7 +31152,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Xml.Schema.XmlSchemaValidator",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Schema.XmlSchemaValidator::GetExpectedAttributes():System.Xml.Schema.XmlSchemaAttribute[]",
@@ -31051,7 +31166,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Xml.Schema.XmlSchemaValidator",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -31874,7 +31990,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Xml.Schema.XmlValueGetter",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Schema.XmlValueGetter::BeginInvoke(System.AsyncCallback,System.Object):System.IAsyncResult",
@@ -31887,7 +32004,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Xml.Schema.XmlValueGetter",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Schema.XmlValueGetter::EndInvoke(System.IAsyncResult):System.Object",
@@ -31900,7 +32018,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Xml.Schema.XmlValueGetter",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
@@ -31913,7 +32032,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.ICloneable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
@@ -31926,7 +32046,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.Serialization.ISerializable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Schema.XmlValueGetter::Clone():System.Object",
@@ -31939,7 +32060,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Xml.Schema.XmlValueGetter",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Schema.XmlValueGetter::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
@@ -31952,7 +32074,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Xml.Schema.XmlValueGetter",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -32344,7 +32467,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Xml.Schema.Extensions",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": true
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Schema.Extensions::GetSchemaInfo(System.Xml.Linq.XAttribute):System.Xml.Schema.IXmlSchemaInfo",
@@ -32357,7 +32481,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Xml.Schema.Extensions",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": true
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Schema.Extensions::Validate(System.Xml.Linq.XDocument,System.Xml.Schema.XmlSchemaSet,System.Xml.Schema.ValidationEventHandler):System.Void",
@@ -32370,7 +32495,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Xml.Schema.Extensions",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": true
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Schema.Extensions::Validate(System.Xml.Linq.XDocument,System.Xml.Schema.XmlSchemaSet,System.Xml.Schema.ValidationEventHandler,System.Boolean):System.Void",
@@ -32383,7 +32509,8 @@
           "arity": 0,
           "parameterCount": 4,
           "declaringClrType": "System.Xml.Schema.Extensions",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": true
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Schema.Extensions::Validate(System.Xml.Linq.XElement,System.Xml.Schema.XmlSchemaObject,System.Xml.Schema.XmlSchemaSet,System.Xml.Schema.ValidationEventHandler):System.Void",
@@ -32396,7 +32523,8 @@
           "arity": 0,
           "parameterCount": 4,
           "declaringClrType": "System.Xml.Schema.Extensions",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": true
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Schema.Extensions::Validate(System.Xml.Linq.XElement,System.Xml.Schema.XmlSchemaObject,System.Xml.Schema.XmlSchemaSet,System.Xml.Schema.ValidationEventHandler,System.Boolean):System.Void",
@@ -32409,7 +32537,8 @@
           "arity": 0,
           "parameterCount": 5,
           "declaringClrType": "System.Xml.Schema.Extensions",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": true
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Schema.Extensions::Validate(System.Xml.Linq.XAttribute,System.Xml.Schema.XmlSchemaObject,System.Xml.Schema.XmlSchemaSet,System.Xml.Schema.ValidationEventHandler):System.Void",
@@ -32422,7 +32551,8 @@
           "arity": 0,
           "parameterCount": 4,
           "declaringClrType": "System.Xml.Schema.Extensions",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": true
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Schema.Extensions::Validate(System.Xml.Linq.XAttribute,System.Xml.Schema.XmlSchemaObject,System.Xml.Schema.XmlSchemaSet,System.Xml.Schema.ValidationEventHandler,System.Boolean):System.Void",
@@ -32435,7 +32565,8 @@
           "arity": 0,
           "parameterCount": 5,
           "declaringClrType": "System.Xml.Schema.Extensions",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": true
         }
       ],
       "properties": [],

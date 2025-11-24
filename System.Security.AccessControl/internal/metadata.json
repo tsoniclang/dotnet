@@ -2022,7 +2022,8 @@
           "isOverride": false,
           "isSealed": true,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.AceEnumerator::Reset():System.Void",
@@ -2037,7 +2038,8 @@
           "isOverride": false,
           "isSealed": true,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerator::MoveNext():System.Boolean",
@@ -2053,7 +2055,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.Collections.IEnumerator"
+          "sourceInterface": "System.Collections.IEnumerator",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerator::Reset():System.Void",
@@ -2069,7 +2072,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.Collections.IEnumerator"
+          "sourceInterface": "System.Collections.IEnumerator",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -2295,7 +2299,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.AuthorizationRuleCollection::CopyTo(System.Security.AccessControl.AuthorizationRule[],System.Int32):System.Void",
@@ -2310,7 +2315,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.ICollection::CopyTo(System.Array,System.Int32):System.Void",
@@ -2326,7 +2332,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 2,
-          "sourceInterface": "System.Collections.ICollection"
+          "sourceInterface": "System.Collections.ICollection",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
@@ -2342,7 +2349,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.Collections.IEnumerable"
+          "sourceInterface": "System.Collections.IEnumerable",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.AuthorizationRuleCollection::CopyTo(System.Array,System.Int32):System.Void",
@@ -2357,7 +2365,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.AuthorizationRuleCollection::GetEnumerator():System.Collections.IEnumerator",
@@ -2372,7 +2381,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -2474,7 +2484,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.CommonAce::MaxOpaqueLength(System.Boolean):System.Int32",
@@ -2489,7 +2500,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -2543,7 +2555,8 @@
           "isOverride": true,
           "isSealed": true,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.CommonAcl::Purge(System.Security.Principal.SecurityIdentifier):System.Void",
@@ -2558,7 +2571,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.CommonAcl::RemoveInheritedAces():System.Void",
@@ -2573,7 +2587,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.ICollection::CopyTo(System.Array,System.Int32):System.Void",
@@ -2589,7 +2604,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 2,
-          "sourceInterface": "System.Collections.ICollection"
+          "sourceInterface": "System.Collections.ICollection",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
@@ -2605,7 +2621,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.Collections.IEnumerable"
+          "sourceInterface": "System.Collections.IEnumerable",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.CommonAcl::CopyTo(System.Security.AccessControl.GenericAce[],System.Int32):System.Void",
@@ -2620,7 +2637,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.CommonAcl::CopyTo(System.Array,System.Int32):System.Void",
@@ -2635,7 +2653,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.CommonAcl::GetEnumerator():System.Security.AccessControl.AceEnumerator",
@@ -2650,7 +2669,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.CommonAcl::GetEnumerator():System.Collections.IEnumerator",
@@ -2665,7 +2685,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -2851,7 +2872,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.CommonObjectSecurity::GetAuditRules(System.Boolean,System.Boolean,System.Type):System.Security.AccessControl.AuthorizationRuleCollection",
@@ -2866,7 +2888,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -2898,7 +2921,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.CommonSecurityDescriptor::AddSystemAcl(System.Byte,System.Int32):System.Void",
@@ -2913,7 +2937,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.CommonSecurityDescriptor::PurgeAccessControl(System.Security.Principal.SecurityIdentifier):System.Void",
@@ -2928,7 +2953,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.CommonSecurityDescriptor::PurgeAudit(System.Security.Principal.SecurityIdentifier):System.Void",
@@ -2943,7 +2969,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.CommonSecurityDescriptor::SetDiscretionaryAclProtection(System.Boolean,System.Boolean):System.Void",
@@ -2958,7 +2985,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.CommonSecurityDescriptor::SetSystemAclProtection(System.Boolean,System.Boolean):System.Void",
@@ -2973,7 +3001,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -3162,7 +3191,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -3231,7 +3261,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.CustomAce::GetOpaque():System.Byte[]",
@@ -3246,7 +3277,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.CustomAce::SetOpaque(System.Byte[]):System.Void",
@@ -3261,7 +3293,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -3340,7 +3373,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 8
+          "parameterCount": 8,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.FileSystem.AccessControl:System.Security.AccessControl.DirectoryObjectSecurity::AuditRuleFactory(System.Security.Principal.IdentityReference,System.Int32,System.Boolean,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags,System.Security.AccessControl.AuditFlags,System.Guid,System.Guid):System.Security.AccessControl.AuditRule",
@@ -3355,7 +3389,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 8
+          "parameterCount": 8,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.FileSystem.AccessControl:System.Security.AccessControl.DirectoryObjectSecurity::GetAccessRules(System.Boolean,System.Boolean,System.Type):System.Security.AccessControl.AuthorizationRuleCollection",
@@ -3370,7 +3405,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.FileSystem.AccessControl:System.Security.AccessControl.DirectoryObjectSecurity::GetAuditRules(System.Boolean,System.Boolean,System.Type):System.Security.AccessControl.AuthorizationRuleCollection",
@@ -3385,7 +3421,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.FileSystem.AccessControl:System.Security.AccessControl.DirectoryObjectSecurity::AccessRuleFactory(System.Security.Principal.IdentityReference,System.Int32,System.Boolean,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags,System.Security.AccessControl.AccessControlType):System.Security.AccessControl.AccessRule",
@@ -3400,7 +3437,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 6
+          "parameterCount": 6,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.FileSystem.AccessControl:System.Security.AccessControl.DirectoryObjectSecurity::AuditRuleFactory(System.Security.Principal.IdentityReference,System.Int32,System.Boolean,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags,System.Security.AccessControl.AuditFlags):System.Security.AccessControl.AuditRule",
@@ -3415,7 +3453,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 6
+          "parameterCount": 6,
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -3474,7 +3513,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 5
+          "parameterCount": 5,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.DiscretionaryAcl::AddAccess(System.Security.AccessControl.AccessControlType,System.Security.Principal.SecurityIdentifier,System.Int32,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags,System.Security.AccessControl.ObjectAceFlags,System.Guid,System.Guid):System.Void",
@@ -3489,7 +3529,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 8
+          "parameterCount": 8,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.DiscretionaryAcl::AddAccess(System.Security.AccessControl.AccessControlType,System.Security.Principal.SecurityIdentifier,System.Security.AccessControl.ObjectAccessRule):System.Void",
@@ -3504,7 +3545,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.DiscretionaryAcl::RemoveAccess(System.Security.AccessControl.AccessControlType,System.Security.Principal.SecurityIdentifier,System.Int32,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags):System.Boolean",
@@ -3519,7 +3561,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 5
+          "parameterCount": 5,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.DiscretionaryAcl::RemoveAccess(System.Security.AccessControl.AccessControlType,System.Security.Principal.SecurityIdentifier,System.Int32,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags,System.Security.AccessControl.ObjectAceFlags,System.Guid,System.Guid):System.Boolean",
@@ -3534,7 +3577,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 8
+          "parameterCount": 8,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.DiscretionaryAcl::RemoveAccess(System.Security.AccessControl.AccessControlType,System.Security.Principal.SecurityIdentifier,System.Security.AccessControl.ObjectAccessRule):System.Boolean",
@@ -3549,7 +3593,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.DiscretionaryAcl::RemoveAccessSpecific(System.Security.AccessControl.AccessControlType,System.Security.Principal.SecurityIdentifier,System.Int32,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags):System.Void",
@@ -3564,7 +3609,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 5
+          "parameterCount": 5,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.DiscretionaryAcl::RemoveAccessSpecific(System.Security.AccessControl.AccessControlType,System.Security.Principal.SecurityIdentifier,System.Int32,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags,System.Security.AccessControl.ObjectAceFlags,System.Guid,System.Guid):System.Void",
@@ -3579,7 +3625,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 8
+          "parameterCount": 8,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.DiscretionaryAcl::RemoveAccessSpecific(System.Security.AccessControl.AccessControlType,System.Security.Principal.SecurityIdentifier,System.Security.AccessControl.ObjectAccessRule):System.Void",
@@ -3594,7 +3641,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.DiscretionaryAcl::SetAccess(System.Security.AccessControl.AccessControlType,System.Security.Principal.SecurityIdentifier,System.Int32,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags):System.Void",
@@ -3609,7 +3657,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 5
+          "parameterCount": 5,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.DiscretionaryAcl::SetAccess(System.Security.AccessControl.AccessControlType,System.Security.Principal.SecurityIdentifier,System.Int32,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags,System.Security.AccessControl.ObjectAceFlags,System.Guid,System.Guid):System.Void",
@@ -3624,7 +3673,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 8
+          "parameterCount": 8,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.DiscretionaryAcl::SetAccess(System.Security.AccessControl.AccessControlType,System.Security.Principal.SecurityIdentifier,System.Security.AccessControl.ObjectAccessRule):System.Void",
@@ -3639,7 +3689,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.ICollection::CopyTo(System.Array,System.Int32):System.Void",
@@ -3655,7 +3706,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 2,
-          "sourceInterface": "System.Collections.ICollection"
+          "sourceInterface": "System.Collections.ICollection",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
@@ -3671,7 +3723,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.Collections.IEnumerable"
+          "sourceInterface": "System.Collections.IEnumerable",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.DiscretionaryAcl::CopyTo(System.Array,System.Int32):System.Void",
@@ -3686,7 +3739,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.DiscretionaryAcl::CopyTo(System.Security.AccessControl.GenericAce[],System.Int32):System.Void",
@@ -3701,7 +3755,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.DiscretionaryAcl::GetEnumerator():System.Collections.IEnumerator",
@@ -3716,7 +3771,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.DiscretionaryAcl::GetEnumerator():System.Security.AccessControl.AceEnumerator",
@@ -3731,7 +3787,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -3909,7 +3966,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 6
+          "parameterCount": 6,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.AccessControl:System.Security.AccessControl.EventWaitHandleSecurity::AddAccessRule(System.Security.AccessControl.EventWaitHandleAccessRule):System.Void",
@@ -3924,7 +3982,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.AccessControl:System.Security.AccessControl.EventWaitHandleSecurity::AddAuditRule(System.Security.AccessControl.EventWaitHandleAuditRule):System.Void",
@@ -3939,7 +3998,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.AccessControl:System.Security.AccessControl.EventWaitHandleSecurity::AuditRuleFactory(System.Security.Principal.IdentityReference,System.Int32,System.Boolean,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags,System.Security.AccessControl.AuditFlags):System.Security.AccessControl.AuditRule",
@@ -3954,7 +4014,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 6
+          "parameterCount": 6,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.AccessControl:System.Security.AccessControl.EventWaitHandleSecurity::RemoveAccessRule(System.Security.AccessControl.EventWaitHandleAccessRule):System.Boolean",
@@ -3969,7 +4030,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.AccessControl:System.Security.AccessControl.EventWaitHandleSecurity::RemoveAccessRuleAll(System.Security.AccessControl.EventWaitHandleAccessRule):System.Void",
@@ -3984,7 +4046,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.AccessControl:System.Security.AccessControl.EventWaitHandleSecurity::RemoveAccessRuleSpecific(System.Security.AccessControl.EventWaitHandleAccessRule):System.Void",
@@ -3999,7 +4062,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.AccessControl:System.Security.AccessControl.EventWaitHandleSecurity::RemoveAuditRule(System.Security.AccessControl.EventWaitHandleAuditRule):System.Boolean",
@@ -4014,7 +4078,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.AccessControl:System.Security.AccessControl.EventWaitHandleSecurity::RemoveAuditRuleAll(System.Security.AccessControl.EventWaitHandleAuditRule):System.Void",
@@ -4029,7 +4094,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.AccessControl:System.Security.AccessControl.EventWaitHandleSecurity::RemoveAuditRuleSpecific(System.Security.AccessControl.EventWaitHandleAuditRule):System.Void",
@@ -4044,7 +4110,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.AccessControl:System.Security.AccessControl.EventWaitHandleSecurity::ResetAccessRule(System.Security.AccessControl.EventWaitHandleAccessRule):System.Void",
@@ -4059,7 +4126,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.AccessControl:System.Security.AccessControl.EventWaitHandleSecurity::SetAccessRule(System.Security.AccessControl.EventWaitHandleAccessRule):System.Void",
@@ -4074,7 +4142,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.AccessControl:System.Security.AccessControl.EventWaitHandleSecurity::SetAuditRule(System.Security.AccessControl.EventWaitHandleAuditRule):System.Void",
@@ -4089,7 +4158,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -4306,7 +4376,8 @@
           "isOverride": true,
           "isSealed": true,
           "arity": 0,
-          "parameterCount": 6
+          "parameterCount": 6,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.FileSystem.AccessControl:System.Security.AccessControl.FileSystemSecurity::AddAccessRule(System.Security.AccessControl.FileSystemAccessRule):System.Void",
@@ -4321,7 +4392,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.FileSystem.AccessControl:System.Security.AccessControl.FileSystemSecurity::AddAuditRule(System.Security.AccessControl.FileSystemAuditRule):System.Void",
@@ -4336,7 +4408,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.FileSystem.AccessControl:System.Security.AccessControl.FileSystemSecurity::AuditRuleFactory(System.Security.Principal.IdentityReference,System.Int32,System.Boolean,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags,System.Security.AccessControl.AuditFlags):System.Security.AccessControl.AuditRule",
@@ -4351,7 +4424,8 @@
           "isOverride": true,
           "isSealed": true,
           "arity": 0,
-          "parameterCount": 6
+          "parameterCount": 6,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.FileSystem.AccessControl:System.Security.AccessControl.FileSystemSecurity::RemoveAccessRule(System.Security.AccessControl.FileSystemAccessRule):System.Boolean",
@@ -4366,7 +4440,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.FileSystem.AccessControl:System.Security.AccessControl.FileSystemSecurity::RemoveAccessRuleAll(System.Security.AccessControl.FileSystemAccessRule):System.Void",
@@ -4381,7 +4456,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.FileSystem.AccessControl:System.Security.AccessControl.FileSystemSecurity::RemoveAccessRuleSpecific(System.Security.AccessControl.FileSystemAccessRule):System.Void",
@@ -4396,7 +4472,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.FileSystem.AccessControl:System.Security.AccessControl.FileSystemSecurity::RemoveAuditRule(System.Security.AccessControl.FileSystemAuditRule):System.Boolean",
@@ -4411,7 +4488,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.FileSystem.AccessControl:System.Security.AccessControl.FileSystemSecurity::RemoveAuditRuleAll(System.Security.AccessControl.FileSystemAuditRule):System.Void",
@@ -4426,7 +4504,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.FileSystem.AccessControl:System.Security.AccessControl.FileSystemSecurity::RemoveAuditRuleSpecific(System.Security.AccessControl.FileSystemAuditRule):System.Void",
@@ -4441,7 +4520,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.FileSystem.AccessControl:System.Security.AccessControl.FileSystemSecurity::ResetAccessRule(System.Security.AccessControl.FileSystemAccessRule):System.Void",
@@ -4456,7 +4536,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.FileSystem.AccessControl:System.Security.AccessControl.FileSystemSecurity::SetAccessRule(System.Security.AccessControl.FileSystemAccessRule):System.Void",
@@ -4471,7 +4552,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.FileSystem.AccessControl:System.Security.AccessControl.FileSystemSecurity::SetAuditRule(System.Security.AccessControl.FileSystemAuditRule):System.Void",
@@ -4486,7 +4568,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -4564,7 +4647,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.GenericAce::CreateFromBinaryForm(System.Byte[],System.Int32):System.Security.AccessControl.GenericAce",
@@ -4579,7 +4663,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.GenericAce::Equals(System.Object):System.Boolean",
@@ -4594,7 +4679,8 @@
           "isOverride": true,
           "isSealed": true,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.GenericAce::GetBinaryForm(System.Byte[],System.Int32):System.Void",
@@ -4609,7 +4695,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.GenericAce::GetHashCode():System.Int32",
@@ -4624,7 +4711,8 @@
           "isOverride": true,
           "isSealed": true,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -4762,7 +4850,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.GenericAcl::GetBinaryForm(System.Byte[],System.Int32):System.Void",
@@ -4777,7 +4866,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.GenericAcl::GetEnumerator():System.Security.AccessControl.AceEnumerator",
@@ -4792,7 +4882,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.ICollection::CopyTo(System.Array,System.Int32):System.Void",
@@ -4808,7 +4899,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 2,
-          "sourceInterface": "System.Collections.ICollection"
+          "sourceInterface": "System.Collections.ICollection",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
@@ -4824,7 +4916,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.Collections.IEnumerable"
+          "sourceInterface": "System.Collections.IEnumerable",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -5023,7 +5116,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.GenericSecurityDescriptor::GetSddlForm(System.Security.AccessControl.AccessControlSections):System.String",
@@ -5038,7 +5132,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.GenericSecurityDescriptor::IsSddlConversionSupported():System.Boolean",
@@ -5053,7 +5148,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -5289,7 +5385,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 6
+          "parameterCount": 6,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.AccessControl:System.Security.AccessControl.MutexSecurity::AddAccessRule(System.Security.AccessControl.MutexAccessRule):System.Void",
@@ -5304,7 +5401,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.AccessControl:System.Security.AccessControl.MutexSecurity::AddAuditRule(System.Security.AccessControl.MutexAuditRule):System.Void",
@@ -5319,7 +5417,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.AccessControl:System.Security.AccessControl.MutexSecurity::AuditRuleFactory(System.Security.Principal.IdentityReference,System.Int32,System.Boolean,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags,System.Security.AccessControl.AuditFlags):System.Security.AccessControl.AuditRule",
@@ -5334,7 +5433,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 6
+          "parameterCount": 6,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.AccessControl:System.Security.AccessControl.MutexSecurity::RemoveAccessRule(System.Security.AccessControl.MutexAccessRule):System.Boolean",
@@ -5349,7 +5449,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.AccessControl:System.Security.AccessControl.MutexSecurity::RemoveAccessRuleAll(System.Security.AccessControl.MutexAccessRule):System.Void",
@@ -5364,7 +5465,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.AccessControl:System.Security.AccessControl.MutexSecurity::RemoveAccessRuleSpecific(System.Security.AccessControl.MutexAccessRule):System.Void",
@@ -5379,7 +5481,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.AccessControl:System.Security.AccessControl.MutexSecurity::RemoveAuditRule(System.Security.AccessControl.MutexAuditRule):System.Boolean",
@@ -5394,7 +5497,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.AccessControl:System.Security.AccessControl.MutexSecurity::RemoveAuditRuleAll(System.Security.AccessControl.MutexAuditRule):System.Void",
@@ -5409,7 +5513,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.AccessControl:System.Security.AccessControl.MutexSecurity::RemoveAuditRuleSpecific(System.Security.AccessControl.MutexAuditRule):System.Void",
@@ -5424,7 +5529,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.AccessControl:System.Security.AccessControl.MutexSecurity::ResetAccessRule(System.Security.AccessControl.MutexAccessRule):System.Void",
@@ -5439,7 +5545,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.AccessControl:System.Security.AccessControl.MutexSecurity::SetAccessRule(System.Security.AccessControl.MutexAccessRule):System.Void",
@@ -5454,7 +5561,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.AccessControl:System.Security.AccessControl.MutexSecurity::SetAuditRule(System.Security.AccessControl.MutexAuditRule):System.Void",
@@ -5469,7 +5577,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -5636,7 +5745,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.ObjectAce::MaxOpaqueLength(System.Boolean):System.Int32",
@@ -5651,7 +5761,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -5812,7 +5923,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 6
+          "parameterCount": 6,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.ObjectSecurity::AuditRuleFactory(System.Security.Principal.IdentityReference,System.Int32,System.Boolean,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags,System.Security.AccessControl.AuditFlags):System.Security.AccessControl.AuditRule",
@@ -5827,7 +5939,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 6
+          "parameterCount": 6,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.ObjectSecurity::GetGroup(System.Type):System.Security.Principal.IdentityReference",
@@ -5842,7 +5955,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.ObjectSecurity::GetOwner(System.Type):System.Security.Principal.IdentityReference",
@@ -5857,7 +5971,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.ObjectSecurity::GetSecurityDescriptorBinaryForm():System.Byte[]",
@@ -5872,7 +5987,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.ObjectSecurity::GetSecurityDescriptorSddlForm(System.Security.AccessControl.AccessControlSections):System.String",
@@ -5887,7 +6003,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.ObjectSecurity::IsSddlConversionSupported():System.Boolean",
@@ -5902,7 +6019,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.ObjectSecurity::ModifyAccessRule(System.Security.AccessControl.AccessControlModification,System.Security.AccessControl.AccessRule,System.Boolean\u0026):System.Boolean",
@@ -5917,7 +6035,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.ObjectSecurity::ModifyAuditRule(System.Security.AccessControl.AccessControlModification,System.Security.AccessControl.AuditRule,System.Boolean\u0026):System.Boolean",
@@ -5932,7 +6051,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.ObjectSecurity::PurgeAccessRules(System.Security.Principal.IdentityReference):System.Void",
@@ -5947,7 +6067,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.ObjectSecurity::PurgeAuditRules(System.Security.Principal.IdentityReference):System.Void",
@@ -5962,7 +6083,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.ObjectSecurity::SetAccessRuleProtection(System.Boolean,System.Boolean):System.Void",
@@ -5977,7 +6099,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.ObjectSecurity::SetAuditRuleProtection(System.Boolean,System.Boolean):System.Void",
@@ -5992,7 +6115,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.ObjectSecurity::SetGroup(System.Security.Principal.IdentityReference):System.Void",
@@ -6007,7 +6131,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.ObjectSecurity::SetOwner(System.Security.Principal.IdentityReference):System.Void",
@@ -6022,7 +6147,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.ObjectSecurity::SetSecurityDescriptorBinaryForm(System.Byte[]):System.Void",
@@ -6037,7 +6163,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.ObjectSecurity::SetSecurityDescriptorBinaryForm(System.Byte[],System.Security.AccessControl.AccessControlSections):System.Void",
@@ -6052,7 +6179,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.ObjectSecurity::SetSecurityDescriptorSddlForm(System.String):System.Void",
@@ -6067,7 +6195,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.ObjectSecurity::SetSecurityDescriptorSddlForm(System.String,System.Security.AccessControl.AccessControlSections):System.Void",
@@ -6082,7 +6211,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -6220,7 +6350,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 6
+          "parameterCount": 6,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.ObjectSecurity\u00601::AddAccessRule(AccessRule_1):System.Void",
@@ -6235,7 +6366,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.ObjectSecurity\u00601::AddAuditRule(AuditRule_1):System.Void",
@@ -6250,7 +6382,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.ObjectSecurity\u00601::AuditRuleFactory(System.Security.Principal.IdentityReference,System.Int32,System.Boolean,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags,System.Security.AccessControl.AuditFlags):System.Security.AccessControl.AuditRule",
@@ -6265,7 +6398,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 6
+          "parameterCount": 6,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.ObjectSecurity\u00601::RemoveAccessRule(AccessRule_1):System.Boolean",
@@ -6280,7 +6414,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.ObjectSecurity\u00601::RemoveAccessRuleAll(AccessRule_1):System.Void",
@@ -6295,7 +6430,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.ObjectSecurity\u00601::RemoveAccessRuleSpecific(AccessRule_1):System.Void",
@@ -6310,7 +6446,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.ObjectSecurity\u00601::RemoveAuditRule(AuditRule_1):System.Boolean",
@@ -6325,7 +6462,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.ObjectSecurity\u00601::RemoveAuditRuleAll(AuditRule_1):System.Void",
@@ -6340,7 +6478,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.ObjectSecurity\u00601::RemoveAuditRuleSpecific(AuditRule_1):System.Void",
@@ -6355,7 +6494,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.ObjectSecurity\u00601::ResetAccessRule(AccessRule_1):System.Void",
@@ -6370,7 +6510,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.ObjectSecurity\u00601::SetAccessRule(AccessRule_1):System.Void",
@@ -6385,7 +6526,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.ObjectSecurity\u00601::SetAuditRule(AuditRule_1):System.Void",
@@ -6400,7 +6542,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -6478,7 +6621,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
@@ -6494,7 +6638,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 2,
-          "sourceInterface": "System.Runtime.Serialization.ISerializable"
+          "sourceInterface": "System.Runtime.Serialization.ISerializable",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -6558,7 +6703,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.QualifiedAce::SetOpaque(System.Byte[]):System.Void",
@@ -6573,7 +6719,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -6651,7 +6798,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.RawAcl::InsertAce(System.Int32,System.Security.AccessControl.GenericAce):System.Void",
@@ -6666,7 +6814,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.RawAcl::RemoveAce(System.Int32):System.Void",
@@ -6681,7 +6830,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.ICollection::CopyTo(System.Array,System.Int32):System.Void",
@@ -6697,7 +6847,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 2,
-          "sourceInterface": "System.Collections.ICollection"
+          "sourceInterface": "System.Collections.ICollection",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
@@ -6713,7 +6864,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.Collections.IEnumerable"
+          "sourceInterface": "System.Collections.IEnumerable",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.RawAcl::CopyTo(System.Security.AccessControl.GenericAce[],System.Int32):System.Void",
@@ -6728,7 +6880,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.RawAcl::CopyTo(System.Array,System.Int32):System.Void",
@@ -6743,7 +6896,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.RawAcl::GetEnumerator():System.Security.AccessControl.AceEnumerator",
@@ -6758,7 +6912,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.RawAcl::GetEnumerator():System.Collections.IEnumerator",
@@ -6773,7 +6928,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -6925,7 +7081,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -7160,7 +7317,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 6
+          "parameterCount": 6,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.Win32.Registry:System.Security.AccessControl.RegistrySecurity::AddAccessRule(System.Security.AccessControl.RegistryAccessRule):System.Void",
@@ -7175,7 +7333,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.Win32.Registry:System.Security.AccessControl.RegistrySecurity::AddAuditRule(System.Security.AccessControl.RegistryAuditRule):System.Void",
@@ -7190,7 +7349,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.Win32.Registry:System.Security.AccessControl.RegistrySecurity::AuditRuleFactory(System.Security.Principal.IdentityReference,System.Int32,System.Boolean,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags,System.Security.AccessControl.AuditFlags):System.Security.AccessControl.AuditRule",
@@ -7205,7 +7365,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 6
+          "parameterCount": 6,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.Win32.Registry:System.Security.AccessControl.RegistrySecurity::RemoveAccessRule(System.Security.AccessControl.RegistryAccessRule):System.Boolean",
@@ -7220,7 +7381,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.Win32.Registry:System.Security.AccessControl.RegistrySecurity::RemoveAccessRuleAll(System.Security.AccessControl.RegistryAccessRule):System.Void",
@@ -7235,7 +7397,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.Win32.Registry:System.Security.AccessControl.RegistrySecurity::RemoveAccessRuleSpecific(System.Security.AccessControl.RegistryAccessRule):System.Void",
@@ -7250,7 +7413,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.Win32.Registry:System.Security.AccessControl.RegistrySecurity::RemoveAuditRule(System.Security.AccessControl.RegistryAuditRule):System.Boolean",
@@ -7265,7 +7429,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.Win32.Registry:System.Security.AccessControl.RegistrySecurity::RemoveAuditRuleAll(System.Security.AccessControl.RegistryAuditRule):System.Void",
@@ -7280,7 +7445,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.Win32.Registry:System.Security.AccessControl.RegistrySecurity::RemoveAuditRuleSpecific(System.Security.AccessControl.RegistryAuditRule):System.Void",
@@ -7295,7 +7461,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.Win32.Registry:System.Security.AccessControl.RegistrySecurity::ResetAccessRule(System.Security.AccessControl.RegistryAccessRule):System.Void",
@@ -7310,7 +7477,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.Win32.Registry:System.Security.AccessControl.RegistrySecurity::SetAccessRule(System.Security.AccessControl.RegistryAccessRule):System.Void",
@@ -7325,7 +7493,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.Win32.Registry:System.Security.AccessControl.RegistrySecurity::SetAuditRule(System.Security.AccessControl.RegistryAuditRule):System.Void",
@@ -7340,7 +7509,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -7505,7 +7675,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 6
+          "parameterCount": 6,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.AccessControl:System.Security.AccessControl.SemaphoreSecurity::AddAccessRule(System.Security.AccessControl.SemaphoreAccessRule):System.Void",
@@ -7520,7 +7691,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.AccessControl:System.Security.AccessControl.SemaphoreSecurity::AddAuditRule(System.Security.AccessControl.SemaphoreAuditRule):System.Void",
@@ -7535,7 +7707,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.AccessControl:System.Security.AccessControl.SemaphoreSecurity::AuditRuleFactory(System.Security.Principal.IdentityReference,System.Int32,System.Boolean,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags,System.Security.AccessControl.AuditFlags):System.Security.AccessControl.AuditRule",
@@ -7550,7 +7723,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 6
+          "parameterCount": 6,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.AccessControl:System.Security.AccessControl.SemaphoreSecurity::RemoveAccessRule(System.Security.AccessControl.SemaphoreAccessRule):System.Boolean",
@@ -7565,7 +7739,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.AccessControl:System.Security.AccessControl.SemaphoreSecurity::RemoveAccessRuleAll(System.Security.AccessControl.SemaphoreAccessRule):System.Void",
@@ -7580,7 +7755,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.AccessControl:System.Security.AccessControl.SemaphoreSecurity::RemoveAccessRuleSpecific(System.Security.AccessControl.SemaphoreAccessRule):System.Void",
@@ -7595,7 +7771,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.AccessControl:System.Security.AccessControl.SemaphoreSecurity::RemoveAuditRule(System.Security.AccessControl.SemaphoreAuditRule):System.Boolean",
@@ -7610,7 +7787,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.AccessControl:System.Security.AccessControl.SemaphoreSecurity::RemoveAuditRuleAll(System.Security.AccessControl.SemaphoreAuditRule):System.Void",
@@ -7625,7 +7803,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.AccessControl:System.Security.AccessControl.SemaphoreSecurity::RemoveAuditRuleSpecific(System.Security.AccessControl.SemaphoreAuditRule):System.Void",
@@ -7640,7 +7819,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.AccessControl:System.Security.AccessControl.SemaphoreSecurity::ResetAccessRule(System.Security.AccessControl.SemaphoreAccessRule):System.Void",
@@ -7655,7 +7835,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.AccessControl:System.Security.AccessControl.SemaphoreSecurity::SetAccessRule(System.Security.AccessControl.SemaphoreAccessRule):System.Void",
@@ -7670,7 +7851,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.AccessControl:System.Security.AccessControl.SemaphoreSecurity::SetAuditRule(System.Security.AccessControl.SemaphoreAuditRule):System.Void",
@@ -7685,7 +7867,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -7774,7 +7957,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 5
+          "parameterCount": 5,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.SystemAcl::AddAudit(System.Security.AccessControl.AuditFlags,System.Security.Principal.SecurityIdentifier,System.Int32,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags,System.Security.AccessControl.ObjectAceFlags,System.Guid,System.Guid):System.Void",
@@ -7789,7 +7973,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 8
+          "parameterCount": 8,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.SystemAcl::AddAudit(System.Security.Principal.SecurityIdentifier,System.Security.AccessControl.ObjectAuditRule):System.Void",
@@ -7804,7 +7989,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.SystemAcl::RemoveAudit(System.Security.AccessControl.AuditFlags,System.Security.Principal.SecurityIdentifier,System.Int32,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags):System.Boolean",
@@ -7819,7 +8005,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 5
+          "parameterCount": 5,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.SystemAcl::RemoveAudit(System.Security.AccessControl.AuditFlags,System.Security.Principal.SecurityIdentifier,System.Int32,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags,System.Security.AccessControl.ObjectAceFlags,System.Guid,System.Guid):System.Boolean",
@@ -7834,7 +8021,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 8
+          "parameterCount": 8,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.SystemAcl::RemoveAudit(System.Security.Principal.SecurityIdentifier,System.Security.AccessControl.ObjectAuditRule):System.Boolean",
@@ -7849,7 +8037,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.SystemAcl::RemoveAuditSpecific(System.Security.AccessControl.AuditFlags,System.Security.Principal.SecurityIdentifier,System.Int32,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags):System.Void",
@@ -7864,7 +8053,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 5
+          "parameterCount": 5,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.SystemAcl::RemoveAuditSpecific(System.Security.AccessControl.AuditFlags,System.Security.Principal.SecurityIdentifier,System.Int32,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags,System.Security.AccessControl.ObjectAceFlags,System.Guid,System.Guid):System.Void",
@@ -7879,7 +8069,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 8
+          "parameterCount": 8,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.SystemAcl::RemoveAuditSpecific(System.Security.Principal.SecurityIdentifier,System.Security.AccessControl.ObjectAuditRule):System.Void",
@@ -7894,7 +8085,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.SystemAcl::SetAudit(System.Security.AccessControl.AuditFlags,System.Security.Principal.SecurityIdentifier,System.Int32,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags):System.Void",
@@ -7909,7 +8101,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 5
+          "parameterCount": 5,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.SystemAcl::SetAudit(System.Security.AccessControl.AuditFlags,System.Security.Principal.SecurityIdentifier,System.Int32,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags,System.Security.AccessControl.ObjectAceFlags,System.Guid,System.Guid):System.Void",
@@ -7924,7 +8117,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 8
+          "parameterCount": 8,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.SystemAcl::SetAudit(System.Security.Principal.SecurityIdentifier,System.Security.AccessControl.ObjectAuditRule):System.Void",
@@ -7939,7 +8133,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.ICollection::CopyTo(System.Array,System.Int32):System.Void",
@@ -7955,7 +8150,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 2,
-          "sourceInterface": "System.Collections.ICollection"
+          "sourceInterface": "System.Collections.ICollection",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
@@ -7971,7 +8167,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.Collections.IEnumerable"
+          "sourceInterface": "System.Collections.IEnumerable",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.SystemAcl::CopyTo(System.Array,System.Int32):System.Void",
@@ -7986,7 +8183,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.SystemAcl::CopyTo(System.Security.AccessControl.GenericAce[],System.Int32):System.Void",
@@ -8001,7 +8199,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.SystemAcl::GetEnumerator():System.Collections.IEnumerator",
@@ -8016,7 +8215,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.SystemAcl::GetEnumerator():System.Security.AccessControl.AceEnumerator",
@@ -8031,7 +8231,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         }
       ],
       "properties": [

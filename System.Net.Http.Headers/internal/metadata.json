@@ -28,7 +28,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.Headers.HeaderStringValues::GetEnumerator():System.Net.Http.Headers.HeaderStringValues\u002BEnumerator",
@@ -43,7 +44,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IEnumerable\u00601::GetEnumerator():IEnumerator_1",
@@ -59,7 +61,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.Collections.Generic.IEnumerable\u00601"
+          "sourceInterface": "System.Collections.Generic.IEnumerable\u00601",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
@@ -75,7 +78,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.Collections.IEnumerable"
+          "sourceInterface": "System.Collections.IEnumerable",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -139,7 +143,8 @@
           "isOverride": false,
           "isSealed": true,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.Headers.HeaderStringValues\u002BEnumerator::Dispose():System.Void",
@@ -154,7 +159,8 @@
           "isOverride": false,
           "isSealed": true,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerator::Reset():System.Void",
@@ -170,7 +176,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.Collections.IEnumerator"
+          "sourceInterface": "System.Collections.IEnumerator",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
@@ -186,7 +193,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.Collections.IEnumerator"
+          "sourceInterface": "System.Collections.IEnumerator",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerator::MoveNext():System.Boolean",
@@ -202,7 +210,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.Collections.IEnumerator"
+          "sourceInterface": "System.Collections.IEnumerator",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -282,7 +291,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.Headers.HttpHeadersNonValidated::TryGetValues(System.String,System.Net.Http.Headers.HeaderStringValues\u0026):System.Boolean",
@@ -297,7 +307,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.Headers.HttpHeadersNonValidated::GetEnumerator():System.Net.Http.Headers.HttpHeadersNonValidated\u002BEnumerator",
@@ -312,7 +323,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IReadOnlyDictionary\u00602::ContainsKey(TKey):System.Boolean",
@@ -328,7 +340,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 1,
-          "sourceInterface": "System.Collections.Generic.IReadOnlyDictionary\u00602"
+          "sourceInterface": "System.Collections.Generic.IReadOnlyDictionary\u00602",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IReadOnlyDictionary\u00602::TryGetValue(TKey,TValue\u0026):System.Boolean",
@@ -344,7 +357,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 2,
-          "sourceInterface": "System.Collections.Generic.IReadOnlyDictionary\u00602"
+          "sourceInterface": "System.Collections.Generic.IReadOnlyDictionary\u00602",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IEnumerable\u00601::GetEnumerator():IEnumerator_1",
@@ -360,7 +374,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.Collections.Generic.IEnumerable\u00601"
+          "sourceInterface": "System.Collections.Generic.IEnumerable\u00601",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
@@ -376,7 +391,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.Collections.IEnumerable"
+          "sourceInterface": "System.Collections.IEnumerable",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -487,7 +503,8 @@
           "isOverride": false,
           "isSealed": true,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.Headers.HttpHeadersNonValidated\u002BEnumerator::Dispose():System.Void",
@@ -502,7 +519,8 @@
           "isOverride": false,
           "isSealed": true,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerator::Reset():System.Void",
@@ -518,7 +536,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.Collections.IEnumerator"
+          "sourceInterface": "System.Collections.IEnumerator",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
@@ -534,7 +553,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.Collections.IEnumerator"
+          "sourceInterface": "System.Collections.IEnumerator",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerator::MoveNext():System.Boolean",
@@ -550,7 +570,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.Collections.IEnumerator"
+          "sourceInterface": "System.Collections.IEnumerator",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -630,7 +651,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.Headers.AuthenticationHeaderValue::Equals(System.Object):System.Boolean",
@@ -645,7 +667,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.Headers.AuthenticationHeaderValue::GetHashCode():System.Int32",
@@ -660,7 +683,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.Headers.AuthenticationHeaderValue::Parse(System.String):System.Net.Http.Headers.AuthenticationHeaderValue",
@@ -675,7 +699,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.Headers.AuthenticationHeaderValue::TryParse(System.String,System.Net.Http.Headers.AuthenticationHeaderValue\u0026):System.Boolean",
@@ -690,7 +715,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
@@ -706,7 +732,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.ICloneable"
+          "sourceInterface": "System.ICloneable",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -780,7 +807,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.Headers.CacheControlHeaderValue::Equals(System.Object):System.Boolean",
@@ -795,7 +823,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.Headers.CacheControlHeaderValue::GetHashCode():System.Int32",
@@ -810,7 +839,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.Headers.CacheControlHeaderValue::Parse(System.String):System.Net.Http.Headers.CacheControlHeaderValue",
@@ -825,7 +855,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.Headers.CacheControlHeaderValue::TryParse(System.String,System.Net.Http.Headers.CacheControlHeaderValue\u0026):System.Boolean",
@@ -840,7 +871,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
@@ -856,7 +888,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.ICloneable"
+          "sourceInterface": "System.ICloneable",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -1135,7 +1168,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.Headers.ContentDispositionHeaderValue::Equals(System.Object):System.Boolean",
@@ -1150,7 +1184,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.Headers.ContentDispositionHeaderValue::GetHashCode():System.Int32",
@@ -1165,7 +1200,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.Headers.ContentDispositionHeaderValue::Parse(System.String):System.Net.Http.Headers.ContentDispositionHeaderValue",
@@ -1180,7 +1216,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.Headers.ContentDispositionHeaderValue::TryParse(System.String,System.Net.Http.Headers.ContentDispositionHeaderValue\u0026):System.Boolean",
@@ -1195,7 +1232,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
@@ -1211,7 +1249,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.ICloneable"
+          "sourceInterface": "System.ICloneable",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -1385,7 +1424,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.Headers.ContentRangeHeaderValue::GetHashCode():System.Int32",
@@ -1400,7 +1440,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.Headers.ContentRangeHeaderValue::ToString():System.String",
@@ -1415,7 +1456,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.Headers.ContentRangeHeaderValue::Parse(System.String):System.Net.Http.Headers.ContentRangeHeaderValue",
@@ -1430,7 +1472,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.Headers.ContentRangeHeaderValue::TryParse(System.String,System.Net.Http.Headers.ContentRangeHeaderValue\u0026):System.Boolean",
@@ -1445,7 +1488,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
@@ -1461,7 +1505,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.ICloneable"
+          "sourceInterface": "System.ICloneable",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -1600,7 +1645,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.Headers.EntityTagHeaderValue::Equals(System.Object):System.Boolean",
@@ -1615,7 +1661,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.Headers.EntityTagHeaderValue::GetHashCode():System.Int32",
@@ -1630,7 +1677,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.Headers.EntityTagHeaderValue::Parse(System.String):System.Net.Http.Headers.EntityTagHeaderValue",
@@ -1645,7 +1693,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.Headers.EntityTagHeaderValue::TryParse(System.String,System.Net.Http.Headers.EntityTagHeaderValue\u0026):System.Boolean",
@@ -1660,7 +1709,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
@@ -1676,7 +1726,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.ICloneable"
+          "sourceInterface": "System.ICloneable",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -1766,7 +1817,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.Collections.Generic.IEnumerable\u00601"
+          "sourceInterface": "System.Collections.Generic.IEnumerable\u00601",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
@@ -1782,7 +1834,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.Collections.IEnumerable"
+          "sourceInterface": "System.Collections.IEnumerable",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.Headers.HttpContentHeaders::GetEnumerator():System.Collections.Generic.IEnumerator_1",
@@ -1797,7 +1850,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.Headers.HttpContentHeaders::GetEnumerator():System.Collections.IEnumerator",
@@ -1812,7 +1866,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -2010,7 +2065,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.Headers.HttpHeaders::Add(System.String,System.Collections.Generic.IEnumerable_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
@@ -2025,7 +2081,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.Headers.HttpHeaders::TryAddWithoutValidation(System.String,System.String):System.Boolean",
@@ -2040,7 +2097,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.Headers.HttpHeaders::TryAddWithoutValidation(System.String,System.Collections.Generic.IEnumerable_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Boolean",
@@ -2055,7 +2113,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.Headers.HttpHeaders::GetValues(System.String):System.Collections.Generic.IEnumerable_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
@@ -2070,7 +2129,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.Headers.HttpHeaders::TryGetValues(System.String,System.Collections.Generic.IEnumerable_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026):System.Boolean",
@@ -2085,7 +2145,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.Headers.HttpHeaders::Contains(System.String):System.Boolean",
@@ -2100,7 +2161,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.Headers.HttpHeaders::ToString():System.String",
@@ -2115,7 +2177,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.Headers.HttpHeaders::GetEnumerator():System.Collections.Generic.IEnumerator_1[[System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
@@ -2130,7 +2193,8 @@
           "isOverride": false,
           "isSealed": true,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.Headers.HttpHeaders::Remove(System.String):System.Boolean",
@@ -2145,7 +2209,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.Headers.HttpHeaders::Clear():System.Void",
@@ -2160,7 +2225,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IEnumerable\u00601::GetEnumerator():IEnumerator_1",
@@ -2176,7 +2242,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.Collections.Generic.IEnumerable\u00601"
+          "sourceInterface": "System.Collections.Generic.IEnumerable\u00601",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
@@ -2192,7 +2259,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.Collections.IEnumerable"
+          "sourceInterface": "System.Collections.IEnumerable",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -2240,7 +2308,8 @@
           "isOverride": false,
           "isSealed": true,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.Headers.HttpHeaderValueCollection\u00601::ParseAdd(System.String):System.Void",
@@ -2255,7 +2324,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.Headers.HttpHeaderValueCollection\u00601::TryParseAdd(System.String):System.Boolean",
@@ -2270,7 +2340,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.Headers.HttpHeaderValueCollection\u00601::Clear():System.Void",
@@ -2285,7 +2356,8 @@
           "isOverride": false,
           "isSealed": true,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.Headers.HttpHeaderValueCollection\u00601::Contains(T):System.Boolean",
@@ -2300,7 +2372,8 @@
           "isOverride": false,
           "isSealed": true,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.Headers.HttpHeaderValueCollection\u00601::CopyTo(T[],System.Int32):System.Void",
@@ -2315,7 +2388,8 @@
           "isOverride": false,
           "isSealed": true,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.Headers.HttpHeaderValueCollection\u00601::Remove(T):System.Boolean",
@@ -2330,7 +2404,8 @@
           "isOverride": false,
           "isSealed": true,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.Headers.HttpHeaderValueCollection\u00601::GetEnumerator():IEnumerator_1",
@@ -2345,7 +2420,8 @@
           "isOverride": false,
           "isSealed": true,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.Headers.HttpHeaderValueCollection\u00601::ToString():System.String",
@@ -2360,7 +2436,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
@@ -2376,7 +2453,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.Collections.IEnumerable"
+          "sourceInterface": "System.Collections.IEnumerable",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::Add(T):System.Void",
@@ -2392,7 +2470,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 1,
-          "sourceInterface": "System.Collections.Generic.ICollection\u00601"
+          "sourceInterface": "System.Collections.Generic.ICollection\u00601",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::Clear():System.Void",
@@ -2408,7 +2487,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.Collections.Generic.ICollection\u00601"
+          "sourceInterface": "System.Collections.Generic.ICollection\u00601",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::Contains(T):System.Boolean",
@@ -2424,7 +2504,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 1,
-          "sourceInterface": "System.Collections.Generic.ICollection\u00601"
+          "sourceInterface": "System.Collections.Generic.ICollection\u00601",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::CopyTo(T[],System.Int32):System.Void",
@@ -2440,7 +2521,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 2,
-          "sourceInterface": "System.Collections.Generic.ICollection\u00601"
+          "sourceInterface": "System.Collections.Generic.ICollection\u00601",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IEnumerable\u00601::GetEnumerator():IEnumerator_1",
@@ -2456,7 +2538,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.Collections.Generic.IEnumerable\u00601"
+          "sourceInterface": "System.Collections.Generic.IEnumerable\u00601",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -2552,7 +2635,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.Collections.Generic.IEnumerable\u00601"
+          "sourceInterface": "System.Collections.Generic.IEnumerable\u00601",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
@@ -2568,7 +2652,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.Collections.IEnumerable"
+          "sourceInterface": "System.Collections.IEnumerable",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.Headers.HttpRequestHeaders::GetEnumerator():System.Collections.Generic.IEnumerator_1",
@@ -2583,7 +2668,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.Headers.HttpRequestHeaders::GetEnumerator():System.Collections.IEnumerator",
@@ -2598,7 +2684,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -3112,7 +3199,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.Collections.Generic.IEnumerable\u00601"
+          "sourceInterface": "System.Collections.Generic.IEnumerable\u00601",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
@@ -3128,7 +3216,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.Collections.IEnumerable"
+          "sourceInterface": "System.Collections.IEnumerable",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.Headers.HttpResponseHeaders::GetEnumerator():System.Collections.Generic.IEnumerator_1",
@@ -3143,7 +3232,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.Headers.HttpResponseHeaders::GetEnumerator():System.Collections.IEnumerator",
@@ -3158,7 +3248,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -3491,7 +3582,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.Headers.MediaTypeHeaderValue::Equals(System.Object):System.Boolean",
@@ -3506,7 +3598,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.Headers.MediaTypeHeaderValue::GetHashCode():System.Int32",
@@ -3521,7 +3614,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.Headers.MediaTypeHeaderValue::Parse(System.String):System.Net.Http.Headers.MediaTypeHeaderValue",
@@ -3536,7 +3630,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.Headers.MediaTypeHeaderValue::TryParse(System.String,System.Net.Http.Headers.MediaTypeHeaderValue\u0026):System.Boolean",
@@ -3551,7 +3646,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
@@ -3567,7 +3663,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.ICloneable"
+          "sourceInterface": "System.ICloneable",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -3656,7 +3753,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.Headers.MediaTypeWithQualityHeaderValue::TryParse(System.String,System.Net.Http.Headers.MediaTypeWithQualityHeaderValue\u0026):System.Boolean",
@@ -3671,7 +3769,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
@@ -3687,7 +3786,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.ICloneable"
+          "sourceInterface": "System.ICloneable",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.Headers.MediaTypeWithQualityHeaderValue::Clone():System.Object",
@@ -3702,7 +3802,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -3761,7 +3862,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.Headers.NameValueHeaderValue::Equals(System.Object):System.Boolean",
@@ -3776,7 +3878,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.Headers.NameValueHeaderValue::Parse(System.String):System.Net.Http.Headers.NameValueHeaderValue",
@@ -3791,7 +3894,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.Headers.NameValueHeaderValue::TryParse(System.String,System.Net.Http.Headers.NameValueHeaderValue\u0026):System.Boolean",
@@ -3806,7 +3910,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.Headers.NameValueHeaderValue::ToString():System.String",
@@ -3821,7 +3926,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
@@ -3837,7 +3943,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.ICloneable"
+          "sourceInterface": "System.ICloneable",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -3911,7 +4018,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.Headers.NameValueWithParametersHeaderValue::GetHashCode():System.Int32",
@@ -3926,7 +4034,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.Headers.NameValueWithParametersHeaderValue::ToString():System.String",
@@ -3941,7 +4050,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.Headers.NameValueWithParametersHeaderValue::Parse(System.String):System.Net.Http.Headers.NameValueWithParametersHeaderValue",
@@ -3956,7 +4066,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.Headers.NameValueWithParametersHeaderValue::TryParse(System.String,System.Net.Http.Headers.NameValueWithParametersHeaderValue\u0026):System.Boolean",
@@ -3971,7 +4082,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
@@ -3987,7 +4099,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.ICloneable"
+          "sourceInterface": "System.ICloneable",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.Headers.NameValueWithParametersHeaderValue::Clone():System.Object",
@@ -4002,7 +4115,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -4061,7 +4175,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.Headers.ProductHeaderValue::Equals(System.Object):System.Boolean",
@@ -4076,7 +4191,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.Headers.ProductHeaderValue::GetHashCode():System.Int32",
@@ -4091,7 +4207,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.Headers.ProductHeaderValue::Parse(System.String):System.Net.Http.Headers.ProductHeaderValue",
@@ -4106,7 +4223,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.Headers.ProductHeaderValue::TryParse(System.String,System.Net.Http.Headers.ProductHeaderValue\u0026):System.Boolean",
@@ -4121,7 +4239,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
@@ -4137,7 +4256,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.ICloneable"
+          "sourceInterface": "System.ICloneable",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -4211,7 +4331,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.Headers.ProductInfoHeaderValue::Equals(System.Object):System.Boolean",
@@ -4226,7 +4347,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.Headers.ProductInfoHeaderValue::GetHashCode():System.Int32",
@@ -4241,7 +4363,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.Headers.ProductInfoHeaderValue::Parse(System.String):System.Net.Http.Headers.ProductInfoHeaderValue",
@@ -4256,7 +4379,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.Headers.ProductInfoHeaderValue::TryParse(System.String,System.Net.Http.Headers.ProductInfoHeaderValue\u0026):System.Boolean",
@@ -4271,7 +4395,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
@@ -4287,7 +4412,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.ICloneable"
+          "sourceInterface": "System.ICloneable",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -4366,7 +4492,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.Headers.RangeConditionHeaderValue::Equals(System.Object):System.Boolean",
@@ -4381,7 +4508,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.Headers.RangeConditionHeaderValue::GetHashCode():System.Int32",
@@ -4396,7 +4524,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.Headers.RangeConditionHeaderValue::Parse(System.String):System.Net.Http.Headers.RangeConditionHeaderValue",
@@ -4411,7 +4540,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.Headers.RangeConditionHeaderValue::TryParse(System.String,System.Net.Http.Headers.RangeConditionHeaderValue\u0026):System.Boolean",
@@ -4426,7 +4556,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
@@ -4442,7 +4573,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.ICloneable"
+          "sourceInterface": "System.ICloneable",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -4521,7 +4653,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.Headers.RangeHeaderValue::Equals(System.Object):System.Boolean",
@@ -4536,7 +4669,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.Headers.RangeHeaderValue::GetHashCode():System.Int32",
@@ -4551,7 +4685,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.Headers.RangeHeaderValue::Parse(System.String):System.Net.Http.Headers.RangeHeaderValue",
@@ -4566,7 +4701,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.Headers.RangeHeaderValue::TryParse(System.String,System.Net.Http.Headers.RangeHeaderValue\u0026):System.Boolean",
@@ -4581,7 +4717,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
@@ -4597,7 +4734,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.ICloneable"
+          "sourceInterface": "System.ICloneable",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -4671,7 +4809,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.Headers.RangeItemHeaderValue::Equals(System.Object):System.Boolean",
@@ -4686,7 +4825,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.Headers.RangeItemHeaderValue::GetHashCode():System.Int32",
@@ -4701,7 +4841,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
@@ -4717,7 +4858,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.ICloneable"
+          "sourceInterface": "System.ICloneable",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -4786,7 +4928,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.Headers.RetryConditionHeaderValue::Equals(System.Object):System.Boolean",
@@ -4801,7 +4944,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.Headers.RetryConditionHeaderValue::GetHashCode():System.Int32",
@@ -4816,7 +4960,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.Headers.RetryConditionHeaderValue::Parse(System.String):System.Net.Http.Headers.RetryConditionHeaderValue",
@@ -4831,7 +4976,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.Headers.RetryConditionHeaderValue::TryParse(System.String,System.Net.Http.Headers.RetryConditionHeaderValue\u0026):System.Boolean",
@@ -4846,7 +4992,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
@@ -4862,7 +5009,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.ICloneable"
+          "sourceInterface": "System.ICloneable",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -4936,7 +5084,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.Headers.StringWithQualityHeaderValue::Equals(System.Object):System.Boolean",
@@ -4951,7 +5100,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.Headers.StringWithQualityHeaderValue::GetHashCode():System.Int32",
@@ -4966,7 +5116,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.Headers.StringWithQualityHeaderValue::Parse(System.String):System.Net.Http.Headers.StringWithQualityHeaderValue",
@@ -4981,7 +5132,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.Headers.StringWithQualityHeaderValue::TryParse(System.String,System.Net.Http.Headers.StringWithQualityHeaderValue\u0026):System.Boolean",
@@ -4996,7 +5148,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
@@ -5012,7 +5165,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.ICloneable"
+          "sourceInterface": "System.ICloneable",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -5086,7 +5240,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.Headers.TransferCodingHeaderValue::TryParse(System.String,System.Net.Http.Headers.TransferCodingHeaderValue\u0026):System.Boolean",
@@ -5101,7 +5256,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.Headers.TransferCodingHeaderValue::ToString():System.String",
@@ -5116,7 +5272,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.Headers.TransferCodingHeaderValue::Equals(System.Object):System.Boolean",
@@ -5131,7 +5288,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.Headers.TransferCodingHeaderValue::GetHashCode():System.Int32",
@@ -5146,7 +5304,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
@@ -5162,7 +5321,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.ICloneable"
+          "sourceInterface": "System.ICloneable",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -5231,7 +5391,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.Headers.TransferCodingWithQualityHeaderValue::TryParse(System.String,System.Net.Http.Headers.TransferCodingWithQualityHeaderValue\u0026):System.Boolean",
@@ -5246,7 +5407,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
@@ -5262,7 +5424,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.ICloneable"
+          "sourceInterface": "System.ICloneable",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.Headers.TransferCodingWithQualityHeaderValue::Clone():System.Object",
@@ -5277,7 +5440,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -5336,7 +5500,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.Headers.ViaHeaderValue::Equals(System.Object):System.Boolean",
@@ -5351,7 +5516,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.Headers.ViaHeaderValue::GetHashCode():System.Int32",
@@ -5366,7 +5532,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.Headers.ViaHeaderValue::Parse(System.String):System.Net.Http.Headers.ViaHeaderValue",
@@ -5381,7 +5548,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.Headers.ViaHeaderValue::TryParse(System.String,System.Net.Http.Headers.ViaHeaderValue\u0026):System.Boolean",
@@ -5396,7 +5564,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
@@ -5412,7 +5581,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.ICloneable"
+          "sourceInterface": "System.ICloneable",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -5521,7 +5691,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.Headers.WarningHeaderValue::Equals(System.Object):System.Boolean",
@@ -5536,7 +5707,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.Headers.WarningHeaderValue::GetHashCode():System.Int32",
@@ -5551,7 +5723,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.Headers.WarningHeaderValue::Parse(System.String):System.Net.Http.Headers.WarningHeaderValue",
@@ -5566,7 +5739,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.Headers.WarningHeaderValue::TryParse(System.String,System.Net.Http.Headers.WarningHeaderValue\u0026):System.Boolean",
@@ -5581,7 +5755,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
@@ -5597,7 +5772,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.ICloneable"
+          "sourceInterface": "System.ICloneable",
+          "isExtensionMethod": false
         }
       ],
       "properties": [

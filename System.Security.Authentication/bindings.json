@@ -3559,7 +3559,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.Serialization.ISerializable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Security:System.Security.Authentication.AuthenticationException::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
@@ -3572,7 +3573,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Security.Authentication.AuthenticationException",
-          "declaringAssemblyName": "System.Net.Security"
+          "declaringAssemblyName": "System.Net.Security",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -3832,7 +3834,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.Serialization.ISerializable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Security:System.Security.Authentication.InvalidCredentialException::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
@@ -3845,7 +3848,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Security.Authentication.InvalidCredentialException",
-          "declaringAssemblyName": "System.Net.Security"
+          "declaringAssemblyName": "System.Net.Security",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],

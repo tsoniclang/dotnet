@@ -28,7 +28,8 @@
           "isOverride": false,
           "isSealed": true,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.Serialization.Formatters:System.Runtime.Serialization.Formatters.Binary.BinaryFormatter::Serialize(System.IO.Stream,System.Object):System.Void",
@@ -43,7 +44,8 @@
           "isOverride": false,
           "isSealed": true,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.Serialization.Formatters:System.Runtime.Serialization.IFormatter::Deserialize(System.IO.Stream):System.Object",
@@ -59,7 +61,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 1,
-          "sourceInterface": "System.Runtime.Serialization.IFormatter"
+          "sourceInterface": "System.Runtime.Serialization.IFormatter",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.Serialization.Formatters:System.Runtime.Serialization.IFormatter::Serialize(System.IO.Stream,System.Object):System.Void",
@@ -75,7 +78,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 2,
-          "sourceInterface": "System.Runtime.Serialization.IFormatter"
+          "sourceInterface": "System.Runtime.Serialization.IFormatter",
+          "isExtensionMethod": false
         }
       ],
       "properties": [

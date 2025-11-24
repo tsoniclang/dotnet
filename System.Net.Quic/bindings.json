@@ -2976,7 +2976,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Net.Quic.QuicConnection",
-          "declaringAssemblyName": "System.Net.Quic"
+          "declaringAssemblyName": "System.Net.Quic",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Quic:System.Net.Quic.QuicConnection::ToString():System.String",
@@ -2989,7 +2990,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Net.Quic.QuicConnection",
-          "declaringAssemblyName": "System.Net.Quic"
+          "declaringAssemblyName": "System.Net.Quic",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Quic:System.Net.Quic.QuicConnection::OpenOutboundStreamAsync(System.Net.Quic.QuicStreamType,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Net.Quic.QuicStream,System.Net.Quic,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
@@ -3002,7 +3004,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Net.Quic.QuicConnection",
-          "declaringAssemblyName": "System.Net.Quic"
+          "declaringAssemblyName": "System.Net.Quic",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Quic:System.Net.Quic.QuicConnection::AcceptInboundStreamAsync(System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Net.Quic.QuicStream,System.Net.Quic,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
@@ -3015,7 +3018,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Net.Quic.QuicConnection",
-          "declaringAssemblyName": "System.Net.Quic"
+          "declaringAssemblyName": "System.Net.Quic",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Quic:System.Net.Quic.QuicConnection::CloseAsync(System.Int64,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask",
@@ -3028,7 +3032,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Net.Quic.QuicConnection",
-          "declaringAssemblyName": "System.Net.Quic"
+          "declaringAssemblyName": "System.Net.Quic",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Quic:System.Net.Quic.QuicConnection::DisposeAsync():System.Threading.Tasks.ValueTask",
@@ -3041,7 +3046,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Net.Quic.QuicConnection",
-          "declaringAssemblyName": "System.Net.Quic"
+          "declaringAssemblyName": "System.Net.Quic",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.IAsyncDisposable::DisposeAsync():System.Threading.Tasks.ValueTask",
@@ -3054,7 +3060,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.IAsyncDisposable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -3690,7 +3697,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.Serialization.ISerializable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Quic:System.Net.Quic.QuicException::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
@@ -3703,7 +3711,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Net.Quic.QuicException",
-          "declaringAssemblyName": "System.Net.Quic"
+          "declaringAssemblyName": "System.Net.Quic",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -3998,7 +4007,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Net.Quic.QuicListener",
-          "declaringAssemblyName": "System.Net.Quic"
+          "declaringAssemblyName": "System.Net.Quic",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Quic:System.Net.Quic.QuicListener::ToString():System.String",
@@ -4011,7 +4021,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Net.Quic.QuicListener",
-          "declaringAssemblyName": "System.Net.Quic"
+          "declaringAssemblyName": "System.Net.Quic",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Quic:System.Net.Quic.QuicListener::AcceptConnectionAsync(System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Net.Quic.QuicConnection,System.Net.Quic,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
@@ -4024,7 +4035,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Net.Quic.QuicListener",
-          "declaringAssemblyName": "System.Net.Quic"
+          "declaringAssemblyName": "System.Net.Quic",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Quic:System.Net.Quic.QuicListener::DisposeAsync():System.Threading.Tasks.ValueTask",
@@ -4037,7 +4049,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Net.Quic.QuicListener",
-          "declaringAssemblyName": "System.Net.Quic"
+          "declaringAssemblyName": "System.Net.Quic",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.IAsyncDisposable::DisposeAsync():System.Threading.Tasks.ValueTask",
@@ -4050,7 +4063,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.IAsyncDisposable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -4832,7 +4846,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Net.Quic.QuicStream",
-          "declaringAssemblyName": "System.Net.Quic"
+          "declaringAssemblyName": "System.Net.Quic",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Quic:System.Net.Quic.QuicStream::ReadAsync(System.Memory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
@@ -4845,7 +4860,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Net.Quic.QuicStream",
-          "declaringAssemblyName": "System.Net.Quic"
+          "declaringAssemblyName": "System.Net.Quic",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Quic:System.Net.Quic.QuicStream::WriteAsync(System.ReadOnlyMemory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask",
@@ -4858,7 +4874,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Net.Quic.QuicStream",
-          "declaringAssemblyName": "System.Net.Quic"
+          "declaringAssemblyName": "System.Net.Quic",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Quic:System.Net.Quic.QuicStream::WriteAsync(System.ReadOnlyMemory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Boolean,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask",
@@ -4871,7 +4888,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Net.Quic.QuicStream",
-          "declaringAssemblyName": "System.Net.Quic"
+          "declaringAssemblyName": "System.Net.Quic",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Quic:System.Net.Quic.QuicStream::Abort(System.Net.Quic.QuicAbortDirection,System.Int64):System.Void",
@@ -4884,7 +4902,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Net.Quic.QuicStream",
-          "declaringAssemblyName": "System.Net.Quic"
+          "declaringAssemblyName": "System.Net.Quic",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Quic:System.Net.Quic.QuicStream::CompleteWrites():System.Void",
@@ -4897,7 +4916,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Net.Quic.QuicStream",
-          "declaringAssemblyName": "System.Net.Quic"
+          "declaringAssemblyName": "System.Net.Quic",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Quic:System.Net.Quic.QuicStream::DisposeAsync():System.Threading.Tasks.ValueTask",
@@ -4910,7 +4930,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Net.Quic.QuicStream",
-          "declaringAssemblyName": "System.Net.Quic"
+          "declaringAssemblyName": "System.Net.Quic",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Quic:System.Net.Quic.QuicStream::Seek(System.Int64,System.IO.SeekOrigin):System.Int64",
@@ -4923,7 +4944,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Net.Quic.QuicStream",
-          "declaringAssemblyName": "System.Net.Quic"
+          "declaringAssemblyName": "System.Net.Quic",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Quic:System.Net.Quic.QuicStream::SetLength(System.Int64):System.Void",
@@ -4936,7 +4958,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Net.Quic.QuicStream",
-          "declaringAssemblyName": "System.Net.Quic"
+          "declaringAssemblyName": "System.Net.Quic",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Quic:System.Net.Quic.QuicStream::BeginRead(System.Byte[],System.Int32,System.Int32,System.AsyncCallback,System.Object):System.IAsyncResult",
@@ -4949,7 +4972,8 @@
           "arity": 0,
           "parameterCount": 5,
           "declaringClrType": "System.Net.Quic.QuicStream",
-          "declaringAssemblyName": "System.Net.Quic"
+          "declaringAssemblyName": "System.Net.Quic",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Quic:System.Net.Quic.QuicStream::EndRead(System.IAsyncResult):System.Int32",
@@ -4962,7 +4986,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Net.Quic.QuicStream",
-          "declaringAssemblyName": "System.Net.Quic"
+          "declaringAssemblyName": "System.Net.Quic",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Quic:System.Net.Quic.QuicStream::Read(System.Byte[],System.Int32,System.Int32):System.Int32",
@@ -4975,7 +5000,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Net.Quic.QuicStream",
-          "declaringAssemblyName": "System.Net.Quic"
+          "declaringAssemblyName": "System.Net.Quic",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Quic:System.Net.Quic.QuicStream::ReadByte():System.Int32",
@@ -4988,7 +5014,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Net.Quic.QuicStream",
-          "declaringAssemblyName": "System.Net.Quic"
+          "declaringAssemblyName": "System.Net.Quic",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Quic:System.Net.Quic.QuicStream::Read(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32",
@@ -5001,7 +5028,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Net.Quic.QuicStream",
-          "declaringAssemblyName": "System.Net.Quic"
+          "declaringAssemblyName": "System.Net.Quic",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Quic:System.Net.Quic.QuicStream::ReadAsync(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
@@ -5014,7 +5042,8 @@
           "arity": 0,
           "parameterCount": 4,
           "declaringClrType": "System.Net.Quic.QuicStream",
-          "declaringAssemblyName": "System.Net.Quic"
+          "declaringAssemblyName": "System.Net.Quic",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Quic:System.Net.Quic.QuicStream::BeginWrite(System.Byte[],System.Int32,System.Int32,System.AsyncCallback,System.Object):System.IAsyncResult",
@@ -5027,7 +5056,8 @@
           "arity": 0,
           "parameterCount": 5,
           "declaringClrType": "System.Net.Quic.QuicStream",
-          "declaringAssemblyName": "System.Net.Quic"
+          "declaringAssemblyName": "System.Net.Quic",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Quic:System.Net.Quic.QuicStream::EndWrite(System.IAsyncResult):System.Void",
@@ -5040,7 +5070,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Net.Quic.QuicStream",
-          "declaringAssemblyName": "System.Net.Quic"
+          "declaringAssemblyName": "System.Net.Quic",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Quic:System.Net.Quic.QuicStream::Write(System.Byte[],System.Int32,System.Int32):System.Void",
@@ -5053,7 +5084,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Net.Quic.QuicStream",
-          "declaringAssemblyName": "System.Net.Quic"
+          "declaringAssemblyName": "System.Net.Quic",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Quic:System.Net.Quic.QuicStream::WriteByte(System.Byte):System.Void",
@@ -5066,7 +5098,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Net.Quic.QuicStream",
-          "declaringAssemblyName": "System.Net.Quic"
+          "declaringAssemblyName": "System.Net.Quic",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Quic:System.Net.Quic.QuicStream::Write(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
@@ -5079,7 +5112,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Net.Quic.QuicStream",
-          "declaringAssemblyName": "System.Net.Quic"
+          "declaringAssemblyName": "System.Net.Quic",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Quic:System.Net.Quic.QuicStream::WriteAsync(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken):System.Threading.Tasks.Task",
@@ -5092,7 +5126,8 @@
           "arity": 0,
           "parameterCount": 4,
           "declaringClrType": "System.Net.Quic.QuicStream",
-          "declaringAssemblyName": "System.Net.Quic"
+          "declaringAssemblyName": "System.Net.Quic",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Quic:System.Net.Quic.QuicStream::Flush():System.Void",
@@ -5105,7 +5140,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Net.Quic.QuicStream",
-          "declaringAssemblyName": "System.Net.Quic"
+          "declaringAssemblyName": "System.Net.Quic",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Quic:System.Net.Quic.QuicStream::FlushAsync(System.Threading.CancellationToken):System.Threading.Tasks.Task",
@@ -5118,7 +5154,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Net.Quic.QuicStream",
-          "declaringAssemblyName": "System.Net.Quic"
+          "declaringAssemblyName": "System.Net.Quic",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
@@ -5131,7 +5168,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.IDisposable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.IAsyncDisposable::DisposeAsync():System.Threading.Tasks.ValueTask",
@@ -5144,7 +5182,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.IAsyncDisposable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Quic:System.Net.Quic.QuicStream::Dispose():System.Void",
@@ -5157,7 +5196,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Net.Quic.QuicStream",
-          "declaringAssemblyName": "System.Net.Quic"
+          "declaringAssemblyName": "System.Net.Quic",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Quic:System.Net.Quic.QuicStream::FlushAsync():System.Threading.Tasks.Task",
@@ -5170,7 +5210,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Net.Quic.QuicStream",
-          "declaringAssemblyName": "System.Net.Quic"
+          "declaringAssemblyName": "System.Net.Quic",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Quic:System.Net.Quic.QuicStream::Read(System.Span_1):System.Int32",
@@ -5183,7 +5224,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Net.Quic.QuicStream",
-          "declaringAssemblyName": "System.Net.Quic"
+          "declaringAssemblyName": "System.Net.Quic",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Quic:System.Net.Quic.QuicStream::ReadAsync(System.Byte[],System.Int32,System.Int32):System.Threading.Tasks.Task_1",
@@ -5196,7 +5238,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Net.Quic.QuicStream",
-          "declaringAssemblyName": "System.Net.Quic"
+          "declaringAssemblyName": "System.Net.Quic",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Quic:System.Net.Quic.QuicStream::ReadAsync(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken):System.Threading.Tasks.Task_1",
@@ -5209,7 +5252,8 @@
           "arity": 0,
           "parameterCount": 4,
           "declaringClrType": "System.Net.Quic.QuicStream",
-          "declaringAssemblyName": "System.Net.Quic"
+          "declaringAssemblyName": "System.Net.Quic",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Quic:System.Net.Quic.QuicStream::ReadAsync(System.Memory_1,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1",
@@ -5222,7 +5266,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Net.Quic.QuicStream",
-          "declaringAssemblyName": "System.Net.Quic"
+          "declaringAssemblyName": "System.Net.Quic",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Quic:System.Net.Quic.QuicStream::Write(System.ReadOnlySpan_1):System.Void",
@@ -5235,7 +5280,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Net.Quic.QuicStream",
-          "declaringAssemblyName": "System.Net.Quic"
+          "declaringAssemblyName": "System.Net.Quic",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Quic:System.Net.Quic.QuicStream::WriteAsync(System.Byte[],System.Int32,System.Int32):System.Threading.Tasks.Task",
@@ -5248,7 +5294,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Net.Quic.QuicStream",
-          "declaringAssemblyName": "System.Net.Quic"
+          "declaringAssemblyName": "System.Net.Quic",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Quic:System.Net.Quic.QuicStream::WriteAsync(System.ReadOnlyMemory_1,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask",
@@ -5261,7 +5308,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Net.Quic.QuicStream",
-          "declaringAssemblyName": "System.Net.Quic"
+          "declaringAssemblyName": "System.Net.Quic",
+          "isExtensionMethod": false
         }
       ],
       "properties": [

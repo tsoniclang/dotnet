@@ -904,7 +904,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.IO.IsolatedStorage.INormalizeForIsolatedStorage",
-          "declaringAssemblyName": "System.IO.IsolatedStorage"
+          "declaringAssemblyName": "System.IO.IsolatedStorage",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -942,7 +943,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorage",
-          "declaringAssemblyName": "System.IO.IsolatedStorage"
+          "declaringAssemblyName": "System.IO.IsolatedStorage",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorage::Remove():System.Void",
@@ -955,7 +957,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorage",
-          "declaringAssemblyName": "System.IO.IsolatedStorage"
+          "declaringAssemblyName": "System.IO.IsolatedStorage",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -1302,7 +1305,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.Serialization.ISerializable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageException::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
@@ -1315,7 +1319,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageException",
-          "declaringAssemblyName": "System.IO.IsolatedStorage"
+          "declaringAssemblyName": "System.IO.IsolatedStorage",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -1575,7 +1580,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFile",
-          "declaringAssemblyName": "System.IO.IsolatedStorage"
+          "declaringAssemblyName": "System.IO.IsolatedStorage",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFile::DeleteFile(System.String):System.Void",
@@ -1588,7 +1594,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFile",
-          "declaringAssemblyName": "System.IO.IsolatedStorage"
+          "declaringAssemblyName": "System.IO.IsolatedStorage",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFile::FileExists(System.String):System.Boolean",
@@ -1601,7 +1608,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFile",
-          "declaringAssemblyName": "System.IO.IsolatedStorage"
+          "declaringAssemblyName": "System.IO.IsolatedStorage",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFile::DirectoryExists(System.String):System.Boolean",
@@ -1614,7 +1622,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFile",
-          "declaringAssemblyName": "System.IO.IsolatedStorage"
+          "declaringAssemblyName": "System.IO.IsolatedStorage",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFile::CreateDirectory(System.String):System.Void",
@@ -1627,7 +1636,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFile",
-          "declaringAssemblyName": "System.IO.IsolatedStorage"
+          "declaringAssemblyName": "System.IO.IsolatedStorage",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFile::DeleteDirectory(System.String):System.Void",
@@ -1640,7 +1650,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFile",
-          "declaringAssemblyName": "System.IO.IsolatedStorage"
+          "declaringAssemblyName": "System.IO.IsolatedStorage",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFile::GetFileNames():System.String[]",
@@ -1653,7 +1664,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFile",
-          "declaringAssemblyName": "System.IO.IsolatedStorage"
+          "declaringAssemblyName": "System.IO.IsolatedStorage",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFile::GetFileNames(System.String):System.String[]",
@@ -1666,7 +1678,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFile",
-          "declaringAssemblyName": "System.IO.IsolatedStorage"
+          "declaringAssemblyName": "System.IO.IsolatedStorage",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFile::GetDirectoryNames():System.String[]",
@@ -1679,7 +1692,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFile",
-          "declaringAssemblyName": "System.IO.IsolatedStorage"
+          "declaringAssemblyName": "System.IO.IsolatedStorage",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFile::GetDirectoryNames(System.String):System.String[]",
@@ -1692,7 +1706,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFile",
-          "declaringAssemblyName": "System.IO.IsolatedStorage"
+          "declaringAssemblyName": "System.IO.IsolatedStorage",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFile::OpenFile(System.String,System.IO.FileMode):System.IO.IsolatedStorage.IsolatedStorageFileStream",
@@ -1705,7 +1720,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFile",
-          "declaringAssemblyName": "System.IO.IsolatedStorage"
+          "declaringAssemblyName": "System.IO.IsolatedStorage",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFile::OpenFile(System.String,System.IO.FileMode,System.IO.FileAccess):System.IO.IsolatedStorage.IsolatedStorageFileStream",
@@ -1718,7 +1734,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFile",
-          "declaringAssemblyName": "System.IO.IsolatedStorage"
+          "declaringAssemblyName": "System.IO.IsolatedStorage",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFile::OpenFile(System.String,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare):System.IO.IsolatedStorage.IsolatedStorageFileStream",
@@ -1731,7 +1748,8 @@
           "arity": 0,
           "parameterCount": 4,
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFile",
-          "declaringAssemblyName": "System.IO.IsolatedStorage"
+          "declaringAssemblyName": "System.IO.IsolatedStorage",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFile::CreateFile(System.String):System.IO.IsolatedStorage.IsolatedStorageFileStream",
@@ -1744,7 +1762,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFile",
-          "declaringAssemblyName": "System.IO.IsolatedStorage"
+          "declaringAssemblyName": "System.IO.IsolatedStorage",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFile::GetCreationTime(System.String):System.DateTimeOffset",
@@ -1757,7 +1776,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFile",
-          "declaringAssemblyName": "System.IO.IsolatedStorage"
+          "declaringAssemblyName": "System.IO.IsolatedStorage",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFile::GetLastAccessTime(System.String):System.DateTimeOffset",
@@ -1770,7 +1790,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFile",
-          "declaringAssemblyName": "System.IO.IsolatedStorage"
+          "declaringAssemblyName": "System.IO.IsolatedStorage",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFile::GetLastWriteTime(System.String):System.DateTimeOffset",
@@ -1783,7 +1804,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFile",
-          "declaringAssemblyName": "System.IO.IsolatedStorage"
+          "declaringAssemblyName": "System.IO.IsolatedStorage",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFile::CopyFile(System.String,System.String):System.Void",
@@ -1796,7 +1818,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFile",
-          "declaringAssemblyName": "System.IO.IsolatedStorage"
+          "declaringAssemblyName": "System.IO.IsolatedStorage",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFile::CopyFile(System.String,System.String,System.Boolean):System.Void",
@@ -1809,7 +1832,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFile",
-          "declaringAssemblyName": "System.IO.IsolatedStorage"
+          "declaringAssemblyName": "System.IO.IsolatedStorage",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFile::MoveFile(System.String,System.String):System.Void",
@@ -1822,7 +1846,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFile",
-          "declaringAssemblyName": "System.IO.IsolatedStorage"
+          "declaringAssemblyName": "System.IO.IsolatedStorage",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFile::MoveDirectory(System.String,System.String):System.Void",
@@ -1835,7 +1860,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFile",
-          "declaringAssemblyName": "System.IO.IsolatedStorage"
+          "declaringAssemblyName": "System.IO.IsolatedStorage",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFile::GetEnumerator(System.IO.IsolatedStorage.IsolatedStorageScope):System.Collections.IEnumerator",
@@ -1848,7 +1874,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFile",
-          "declaringAssemblyName": "System.IO.IsolatedStorage"
+          "declaringAssemblyName": "System.IO.IsolatedStorage",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFile::GetUserStoreForApplication():System.IO.IsolatedStorage.IsolatedStorageFile",
@@ -1861,7 +1888,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFile",
-          "declaringAssemblyName": "System.IO.IsolatedStorage"
+          "declaringAssemblyName": "System.IO.IsolatedStorage",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFile::GetUserStoreForAssembly():System.IO.IsolatedStorage.IsolatedStorageFile",
@@ -1874,7 +1902,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFile",
-          "declaringAssemblyName": "System.IO.IsolatedStorage"
+          "declaringAssemblyName": "System.IO.IsolatedStorage",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFile::GetUserStoreForDomain():System.IO.IsolatedStorage.IsolatedStorageFile",
@@ -1887,7 +1916,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFile",
-          "declaringAssemblyName": "System.IO.IsolatedStorage"
+          "declaringAssemblyName": "System.IO.IsolatedStorage",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFile::GetUserStoreForSite():System.IO.IsolatedStorage.IsolatedStorageFile",
@@ -1900,7 +1930,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFile",
-          "declaringAssemblyName": "System.IO.IsolatedStorage"
+          "declaringAssemblyName": "System.IO.IsolatedStorage",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFile::GetMachineStoreForApplication():System.IO.IsolatedStorage.IsolatedStorageFile",
@@ -1913,7 +1944,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFile",
-          "declaringAssemblyName": "System.IO.IsolatedStorage"
+          "declaringAssemblyName": "System.IO.IsolatedStorage",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFile::GetMachineStoreForAssembly():System.IO.IsolatedStorage.IsolatedStorageFile",
@@ -1926,7 +1958,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFile",
-          "declaringAssemblyName": "System.IO.IsolatedStorage"
+          "declaringAssemblyName": "System.IO.IsolatedStorage",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFile::GetMachineStoreForDomain():System.IO.IsolatedStorage.IsolatedStorageFile",
@@ -1939,7 +1972,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFile",
-          "declaringAssemblyName": "System.IO.IsolatedStorage"
+          "declaringAssemblyName": "System.IO.IsolatedStorage",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFile::GetStore(System.IO.IsolatedStorage.IsolatedStorageScope,System.Type):System.IO.IsolatedStorage.IsolatedStorageFile",
@@ -1952,7 +1986,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFile",
-          "declaringAssemblyName": "System.IO.IsolatedStorage"
+          "declaringAssemblyName": "System.IO.IsolatedStorage",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFile::GetStore(System.IO.IsolatedStorage.IsolatedStorageScope,System.Object):System.IO.IsolatedStorage.IsolatedStorageFile",
@@ -1965,7 +2000,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFile",
-          "declaringAssemblyName": "System.IO.IsolatedStorage"
+          "declaringAssemblyName": "System.IO.IsolatedStorage",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFile::GetStore(System.IO.IsolatedStorage.IsolatedStorageScope,System.Type,System.Type):System.IO.IsolatedStorage.IsolatedStorageFile",
@@ -1978,7 +2014,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFile",
-          "declaringAssemblyName": "System.IO.IsolatedStorage"
+          "declaringAssemblyName": "System.IO.IsolatedStorage",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFile::GetStore(System.IO.IsolatedStorage.IsolatedStorageScope,System.Object,System.Object):System.IO.IsolatedStorage.IsolatedStorageFile",
@@ -1991,7 +2028,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFile",
-          "declaringAssemblyName": "System.IO.IsolatedStorage"
+          "declaringAssemblyName": "System.IO.IsolatedStorage",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFile::Dispose():System.Void",
@@ -2004,7 +2042,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFile",
-          "declaringAssemblyName": "System.IO.IsolatedStorage"
+          "declaringAssemblyName": "System.IO.IsolatedStorage",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFile::IncreaseQuotaTo(System.Int64):System.Boolean",
@@ -2017,7 +2056,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFile",
-          "declaringAssemblyName": "System.IO.IsolatedStorage"
+          "declaringAssemblyName": "System.IO.IsolatedStorage",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFile::Remove():System.Void",
@@ -2030,7 +2070,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFile",
-          "declaringAssemblyName": "System.IO.IsolatedStorage"
+          "declaringAssemblyName": "System.IO.IsolatedStorage",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFile::Remove(System.IO.IsolatedStorage.IsolatedStorageScope):System.Void",
@@ -2043,7 +2084,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFile",
-          "declaringAssemblyName": "System.IO.IsolatedStorage"
+          "declaringAssemblyName": "System.IO.IsolatedStorage",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
@@ -2056,7 +2098,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.IDisposable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -2731,7 +2774,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFileStream",
-          "declaringAssemblyName": "System.IO.IsolatedStorage"
+          "declaringAssemblyName": "System.IO.IsolatedStorage",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFileStream::Flush():System.Void",
@@ -2744,7 +2788,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFileStream",
-          "declaringAssemblyName": "System.IO.IsolatedStorage"
+          "declaringAssemblyName": "System.IO.IsolatedStorage",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFileStream::Flush(System.Boolean):System.Void",
@@ -2757,7 +2802,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFileStream",
-          "declaringAssemblyName": "System.IO.IsolatedStorage"
+          "declaringAssemblyName": "System.IO.IsolatedStorage",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFileStream::FlushAsync(System.Threading.CancellationToken):System.Threading.Tasks.Task",
@@ -2770,7 +2816,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFileStream",
-          "declaringAssemblyName": "System.IO.IsolatedStorage"
+          "declaringAssemblyName": "System.IO.IsolatedStorage",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFileStream::SetLength(System.Int64):System.Void",
@@ -2783,7 +2830,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFileStream",
-          "declaringAssemblyName": "System.IO.IsolatedStorage"
+          "declaringAssemblyName": "System.IO.IsolatedStorage",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFileStream::Read(System.Byte[],System.Int32,System.Int32):System.Int32",
@@ -2796,7 +2844,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFileStream",
-          "declaringAssemblyName": "System.IO.IsolatedStorage"
+          "declaringAssemblyName": "System.IO.IsolatedStorage",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFileStream::Read(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32",
@@ -2809,7 +2858,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFileStream",
-          "declaringAssemblyName": "System.IO.IsolatedStorage"
+          "declaringAssemblyName": "System.IO.IsolatedStorage",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFileStream::ReadAsync(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
@@ -2822,7 +2872,8 @@
           "arity": 0,
           "parameterCount": 4,
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFileStream",
-          "declaringAssemblyName": "System.IO.IsolatedStorage"
+          "declaringAssemblyName": "System.IO.IsolatedStorage",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFileStream::ReadAsync(System.Memory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
@@ -2835,7 +2886,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFileStream",
-          "declaringAssemblyName": "System.IO.IsolatedStorage"
+          "declaringAssemblyName": "System.IO.IsolatedStorage",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFileStream::ReadByte():System.Int32",
@@ -2848,7 +2900,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFileStream",
-          "declaringAssemblyName": "System.IO.IsolatedStorage"
+          "declaringAssemblyName": "System.IO.IsolatedStorage",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFileStream::Seek(System.Int64,System.IO.SeekOrigin):System.Int64",
@@ -2861,7 +2914,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFileStream",
-          "declaringAssemblyName": "System.IO.IsolatedStorage"
+          "declaringAssemblyName": "System.IO.IsolatedStorage",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFileStream::Write(System.Byte[],System.Int32,System.Int32):System.Void",
@@ -2874,7 +2928,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFileStream",
-          "declaringAssemblyName": "System.IO.IsolatedStorage"
+          "declaringAssemblyName": "System.IO.IsolatedStorage",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFileStream::Write(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
@@ -2887,7 +2942,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFileStream",
-          "declaringAssemblyName": "System.IO.IsolatedStorage"
+          "declaringAssemblyName": "System.IO.IsolatedStorage",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFileStream::WriteAsync(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken):System.Threading.Tasks.Task",
@@ -2900,7 +2956,8 @@
           "arity": 0,
           "parameterCount": 4,
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFileStream",
-          "declaringAssemblyName": "System.IO.IsolatedStorage"
+          "declaringAssemblyName": "System.IO.IsolatedStorage",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFileStream::WriteAsync(System.ReadOnlyMemory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask",
@@ -2913,7 +2970,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFileStream",
-          "declaringAssemblyName": "System.IO.IsolatedStorage"
+          "declaringAssemblyName": "System.IO.IsolatedStorage",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFileStream::WriteByte(System.Byte):System.Void",
@@ -2926,7 +2984,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFileStream",
-          "declaringAssemblyName": "System.IO.IsolatedStorage"
+          "declaringAssemblyName": "System.IO.IsolatedStorage",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFileStream::BeginRead(System.Byte[],System.Int32,System.Int32,System.AsyncCallback,System.Object):System.IAsyncResult",
@@ -2939,7 +2998,8 @@
           "arity": 0,
           "parameterCount": 5,
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFileStream",
-          "declaringAssemblyName": "System.IO.IsolatedStorage"
+          "declaringAssemblyName": "System.IO.IsolatedStorage",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFileStream::BeginWrite(System.Byte[],System.Int32,System.Int32,System.AsyncCallback,System.Object):System.IAsyncResult",
@@ -2952,7 +3012,8 @@
           "arity": 0,
           "parameterCount": 5,
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFileStream",
-          "declaringAssemblyName": "System.IO.IsolatedStorage"
+          "declaringAssemblyName": "System.IO.IsolatedStorage",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFileStream::EndRead(System.IAsyncResult):System.Int32",
@@ -2965,7 +3026,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFileStream",
-          "declaringAssemblyName": "System.IO.IsolatedStorage"
+          "declaringAssemblyName": "System.IO.IsolatedStorage",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFileStream::EndWrite(System.IAsyncResult):System.Void",
@@ -2978,7 +3040,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFileStream",
-          "declaringAssemblyName": "System.IO.IsolatedStorage"
+          "declaringAssemblyName": "System.IO.IsolatedStorage",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFileStream::Unlock(System.Int64,System.Int64):System.Void",
@@ -2991,7 +3054,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFileStream",
-          "declaringAssemblyName": "System.IO.IsolatedStorage"
+          "declaringAssemblyName": "System.IO.IsolatedStorage",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFileStream::Lock(System.Int64,System.Int64):System.Void",
@@ -3004,7 +3068,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFileStream",
-          "declaringAssemblyName": "System.IO.IsolatedStorage"
+          "declaringAssemblyName": "System.IO.IsolatedStorage",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
@@ -3017,7 +3082,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.IDisposable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.IAsyncDisposable::DisposeAsync():System.Threading.Tasks.ValueTask",
@@ -3030,7 +3096,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.IAsyncDisposable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFileStream::Dispose():System.Void",
@@ -3043,7 +3110,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFileStream",
-          "declaringAssemblyName": "System.IO.IsolatedStorage"
+          "declaringAssemblyName": "System.IO.IsolatedStorage",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFileStream::FlushAsync():System.Threading.Tasks.Task",
@@ -3056,7 +3124,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFileStream",
-          "declaringAssemblyName": "System.IO.IsolatedStorage"
+          "declaringAssemblyName": "System.IO.IsolatedStorage",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFileStream::Read(System.Span_1):System.Int32",
@@ -3069,7 +3138,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFileStream",
-          "declaringAssemblyName": "System.IO.IsolatedStorage"
+          "declaringAssemblyName": "System.IO.IsolatedStorage",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFileStream::ReadAsync(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken):System.Threading.Tasks.Task_1",
@@ -3082,7 +3152,8 @@
           "arity": 0,
           "parameterCount": 4,
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFileStream",
-          "declaringAssemblyName": "System.IO.IsolatedStorage"
+          "declaringAssemblyName": "System.IO.IsolatedStorage",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFileStream::ReadAsync(System.Memory_1,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1",
@@ -3095,7 +3166,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFileStream",
-          "declaringAssemblyName": "System.IO.IsolatedStorage"
+          "declaringAssemblyName": "System.IO.IsolatedStorage",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFileStream::ReadAsync(System.Byte[],System.Int32,System.Int32):System.Threading.Tasks.Task_1",
@@ -3108,7 +3180,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFileStream",
-          "declaringAssemblyName": "System.IO.IsolatedStorage"
+          "declaringAssemblyName": "System.IO.IsolatedStorage",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFileStream::Write(System.ReadOnlySpan_1):System.Void",
@@ -3121,7 +3194,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFileStream",
-          "declaringAssemblyName": "System.IO.IsolatedStorage"
+          "declaringAssemblyName": "System.IO.IsolatedStorage",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFileStream::WriteAsync(System.ReadOnlyMemory_1,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask",
@@ -3134,7 +3208,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFileStream",
-          "declaringAssemblyName": "System.IO.IsolatedStorage"
+          "declaringAssemblyName": "System.IO.IsolatedStorage",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFileStream::WriteAsync(System.Byte[],System.Int32,System.Int32):System.Threading.Tasks.Task",
@@ -3147,7 +3222,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFileStream",
-          "declaringAssemblyName": "System.IO.IsolatedStorage"
+          "declaringAssemblyName": "System.IO.IsolatedStorage",
+          "isExtensionMethod": false
         }
       ],
       "properties": [

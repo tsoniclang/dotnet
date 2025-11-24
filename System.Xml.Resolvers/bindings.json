@@ -841,7 +841,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Xml.Resolvers.XmlPreloadedResolver",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Resolvers.XmlPreloadedResolver::GetEntity(System.Uri,System.String,System.Type):System.Object",
@@ -854,7 +855,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Xml.Resolvers.XmlPreloadedResolver",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Resolvers.XmlPreloadedResolver::SupportsType(System.Uri,System.Type):System.Boolean",
@@ -867,7 +869,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Xml.Resolvers.XmlPreloadedResolver",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Resolvers.XmlPreloadedResolver::Add(System.Uri,System.Byte[]):System.Void",
@@ -880,7 +883,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Xml.Resolvers.XmlPreloadedResolver",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Resolvers.XmlPreloadedResolver::Add(System.Uri,System.Byte[],System.Int32,System.Int32):System.Void",
@@ -893,7 +897,8 @@
           "arity": 0,
           "parameterCount": 4,
           "declaringClrType": "System.Xml.Resolvers.XmlPreloadedResolver",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Resolvers.XmlPreloadedResolver::Add(System.Uri,System.IO.Stream):System.Void",
@@ -906,7 +911,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Xml.Resolvers.XmlPreloadedResolver",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Resolvers.XmlPreloadedResolver::Add(System.Uri,System.String):System.Void",
@@ -919,7 +925,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Xml.Resolvers.XmlPreloadedResolver",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Resolvers.XmlPreloadedResolver::Remove(System.Uri):System.Void",
@@ -932,7 +939,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Xml.Resolvers.XmlPreloadedResolver",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Resolvers.XmlPreloadedResolver::GetEntityAsync(System.Uri,System.String,System.Type):System.Threading.Tasks.Task_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
@@ -945,7 +953,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Xml.Resolvers.XmlPreloadedResolver",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Resolvers.XmlPreloadedResolver::GetEntityAsync(System.Uri,System.String,System.Type):System.Threading.Tasks.Task_1",
@@ -958,7 +967,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Xml.Resolvers.XmlPreloadedResolver",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         }
       ],
       "properties": [

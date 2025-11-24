@@ -3244,7 +3244,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Xml.Linq.XAttribute",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XAttribute::SetValue(System.Object):System.Void",
@@ -3257,7 +3258,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Xml.Linq.XAttribute",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XAttribute::ToString():System.String",
@@ -3270,7 +3272,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Xml.Linq.XAttribute",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.IXmlLineInfo::HasLineInfo():System.Boolean",
@@ -3283,7 +3286,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Xml.IXmlLineInfo",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XAttribute::HasLineInfo():System.Boolean",
@@ -3296,7 +3300,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Xml.Linq.XAttribute",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -3806,7 +3811,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Xml.Linq.XCData",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XCData::WriteToAsync(System.Xml.XmlWriter,System.Threading.CancellationToken):System.Threading.Tasks.Task",
@@ -3819,7 +3825,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Xml.Linq.XCData",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.IXmlLineInfo::HasLineInfo():System.Boolean",
@@ -3832,7 +3839,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Xml.IXmlLineInfo",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XCData::HasLineInfo():System.Boolean",
@@ -3845,7 +3853,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Xml.Linq.XCData",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -4501,7 +4510,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Xml.Linq.XComment",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XComment::WriteToAsync(System.Xml.XmlWriter,System.Threading.CancellationToken):System.Threading.Tasks.Task",
@@ -4514,7 +4524,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Xml.Linq.XComment",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.IXmlLineInfo::HasLineInfo():System.Boolean",
@@ -4527,7 +4538,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Xml.IXmlLineInfo",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XComment::HasLineInfo():System.Boolean",
@@ -4540,7 +4552,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Xml.Linq.XComment",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -5210,7 +5223,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Xml.Linq.XContainer",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XContainer::Add(System.Object[]):System.Void",
@@ -5223,7 +5237,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Xml.Linq.XContainer",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XContainer::AddFirst(System.Object):System.Void",
@@ -5236,7 +5251,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Xml.Linq.XContainer",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XContainer::AddFirst(System.Object[]):System.Void",
@@ -5249,7 +5265,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Xml.Linq.XContainer",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XContainer::CreateWriter():System.Xml.XmlWriter",
@@ -5262,7 +5279,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Xml.Linq.XContainer",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XContainer::DescendantNodes():System.Collections.Generic.IEnumerable_1[[System.Xml.Linq.XNode,System.Private.Xml.Linq,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]",
@@ -5275,7 +5293,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Xml.Linq.XContainer",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XContainer::Descendants():System.Collections.Generic.IEnumerable_1[[System.Xml.Linq.XElement,System.Private.Xml.Linq,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]",
@@ -5288,7 +5307,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Xml.Linq.XContainer",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XContainer::Descendants(System.Xml.Linq.XName):System.Collections.Generic.IEnumerable_1[[System.Xml.Linq.XElement,System.Private.Xml.Linq,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]",
@@ -5301,7 +5321,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Xml.Linq.XContainer",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XContainer::Element(System.Xml.Linq.XName):System.Xml.Linq.XElement",
@@ -5314,7 +5335,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Xml.Linq.XContainer",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XContainer::Elements():System.Collections.Generic.IEnumerable_1[[System.Xml.Linq.XElement,System.Private.Xml.Linq,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]",
@@ -5327,7 +5349,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Xml.Linq.XContainer",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XContainer::Elements(System.Xml.Linq.XName):System.Collections.Generic.IEnumerable_1[[System.Xml.Linq.XElement,System.Private.Xml.Linq,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]",
@@ -5340,7 +5363,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Xml.Linq.XContainer",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XContainer::Nodes():System.Collections.Generic.IEnumerable_1[[System.Xml.Linq.XNode,System.Private.Xml.Linq,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]",
@@ -5353,7 +5377,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Xml.Linq.XContainer",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XContainer::RemoveNodes():System.Void",
@@ -5366,7 +5391,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Xml.Linq.XContainer",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XContainer::ReplaceNodes(System.Object):System.Void",
@@ -5379,7 +5405,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Xml.Linq.XContainer",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XContainer::ReplaceNodes(System.Object[]):System.Void",
@@ -5392,7 +5419,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Xml.Linq.XContainer",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.IXmlLineInfo::HasLineInfo():System.Boolean",
@@ -5405,7 +5433,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Xml.IXmlLineInfo",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XContainer::HasLineInfo():System.Boolean",
@@ -5418,7 +5447,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Xml.Linq.XContainer",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -6207,7 +6237,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Xml.Linq.XDeclaration",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -6411,7 +6442,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Xml.Linq.XDocument",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XDocument::Load(System.String,System.Xml.Linq.LoadOptions):System.Xml.Linq.XDocument",
@@ -6424,7 +6456,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Xml.Linq.XDocument",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XDocument::Load(System.IO.Stream):System.Xml.Linq.XDocument",
@@ -6437,7 +6470,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Xml.Linq.XDocument",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XDocument::Load(System.IO.Stream,System.Xml.Linq.LoadOptions):System.Xml.Linq.XDocument",
@@ -6450,7 +6484,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Xml.Linq.XDocument",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XDocument::LoadAsync(System.IO.Stream,System.Xml.Linq.LoadOptions,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Xml.Linq.XDocument,System.Private.Xml.Linq,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]",
@@ -6463,7 +6498,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Xml.Linq.XDocument",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XDocument::Load(System.IO.TextReader):System.Xml.Linq.XDocument",
@@ -6476,7 +6512,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Xml.Linq.XDocument",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XDocument::Load(System.IO.TextReader,System.Xml.Linq.LoadOptions):System.Xml.Linq.XDocument",
@@ -6489,7 +6526,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Xml.Linq.XDocument",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XDocument::LoadAsync(System.IO.TextReader,System.Xml.Linq.LoadOptions,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Xml.Linq.XDocument,System.Private.Xml.Linq,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]",
@@ -6502,7 +6540,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Xml.Linq.XDocument",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XDocument::Load(System.Xml.XmlReader):System.Xml.Linq.XDocument",
@@ -6515,7 +6554,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Xml.Linq.XDocument",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XDocument::Load(System.Xml.XmlReader,System.Xml.Linq.LoadOptions):System.Xml.Linq.XDocument",
@@ -6528,7 +6568,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Xml.Linq.XDocument",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XDocument::LoadAsync(System.Xml.XmlReader,System.Xml.Linq.LoadOptions,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Xml.Linq.XDocument,System.Private.Xml.Linq,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]",
@@ -6541,7 +6582,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Xml.Linq.XDocument",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XDocument::Parse(System.String):System.Xml.Linq.XDocument",
@@ -6554,7 +6596,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Xml.Linq.XDocument",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XDocument::Parse(System.String,System.Xml.Linq.LoadOptions):System.Xml.Linq.XDocument",
@@ -6567,7 +6610,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Xml.Linq.XDocument",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XDocument::Save(System.IO.Stream):System.Void",
@@ -6580,7 +6624,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Xml.Linq.XDocument",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XDocument::Save(System.IO.Stream,System.Xml.Linq.SaveOptions):System.Void",
@@ -6593,7 +6638,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Xml.Linq.XDocument",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XDocument::SaveAsync(System.IO.Stream,System.Xml.Linq.SaveOptions,System.Threading.CancellationToken):System.Threading.Tasks.Task",
@@ -6606,7 +6652,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Xml.Linq.XDocument",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XDocument::Save(System.IO.TextWriter):System.Void",
@@ -6619,7 +6666,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Xml.Linq.XDocument",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XDocument::Save(System.IO.TextWriter,System.Xml.Linq.SaveOptions):System.Void",
@@ -6632,7 +6680,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Xml.Linq.XDocument",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XDocument::Save(System.Xml.XmlWriter):System.Void",
@@ -6645,7 +6694,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Xml.Linq.XDocument",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XDocument::SaveAsync(System.IO.TextWriter,System.Xml.Linq.SaveOptions,System.Threading.CancellationToken):System.Threading.Tasks.Task",
@@ -6658,7 +6708,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Xml.Linq.XDocument",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XDocument::Save(System.String):System.Void",
@@ -6671,7 +6722,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Xml.Linq.XDocument",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XDocument::SaveAsync(System.Xml.XmlWriter,System.Threading.CancellationToken):System.Threading.Tasks.Task",
@@ -6684,7 +6736,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Xml.Linq.XDocument",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XDocument::Save(System.String,System.Xml.Linq.SaveOptions):System.Void",
@@ -6697,7 +6750,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Xml.Linq.XDocument",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XDocument::WriteTo(System.Xml.XmlWriter):System.Void",
@@ -6710,7 +6764,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Xml.Linq.XDocument",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XDocument::WriteToAsync(System.Xml.XmlWriter,System.Threading.CancellationToken):System.Threading.Tasks.Task",
@@ -6723,7 +6778,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Xml.Linq.XDocument",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.IXmlLineInfo::HasLineInfo():System.Boolean",
@@ -6736,7 +6792,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Xml.IXmlLineInfo",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XDocument::HasLineInfo():System.Boolean",
@@ -6749,7 +6806,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Xml.Linq.XDocument",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -7905,7 +7963,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Xml.Linq.XDocumentType",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XDocumentType::WriteToAsync(System.Xml.XmlWriter,System.Threading.CancellationToken):System.Threading.Tasks.Task",
@@ -7918,7 +7977,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Xml.Linq.XDocumentType",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.IXmlLineInfo::HasLineInfo():System.Boolean",
@@ -7931,7 +7991,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Xml.IXmlLineInfo",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XDocumentType::HasLineInfo():System.Boolean",
@@ -7944,7 +8005,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Xml.Linq.XDocumentType",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -8686,7 +8748,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Xml.Linq.XElement",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XElement::Save(System.String,System.Xml.Linq.SaveOptions):System.Void",
@@ -8699,7 +8762,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Xml.Linq.XElement",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XElement::AncestorsAndSelf():System.Collections.Generic.IEnumerable_1[[System.Xml.Linq.XElement,System.Private.Xml.Linq,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]",
@@ -8712,7 +8776,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Xml.Linq.XElement",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XElement::AncestorsAndSelf(System.Xml.Linq.XName):System.Collections.Generic.IEnumerable_1[[System.Xml.Linq.XElement,System.Private.Xml.Linq,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]",
@@ -8725,7 +8790,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Xml.Linq.XElement",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XElement::Attribute(System.Xml.Linq.XName):System.Xml.Linq.XAttribute",
@@ -8738,7 +8804,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Xml.Linq.XElement",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XElement::Attributes():System.Collections.Generic.IEnumerable_1[[System.Xml.Linq.XAttribute,System.Private.Xml.Linq,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]",
@@ -8751,7 +8818,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Xml.Linq.XElement",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XElement::Attributes(System.Xml.Linq.XName):System.Collections.Generic.IEnumerable_1[[System.Xml.Linq.XAttribute,System.Private.Xml.Linq,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]",
@@ -8764,7 +8832,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Xml.Linq.XElement",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XElement::DescendantNodesAndSelf():System.Collections.Generic.IEnumerable_1[[System.Xml.Linq.XNode,System.Private.Xml.Linq,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]",
@@ -8777,7 +8846,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Xml.Linq.XElement",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XElement::DescendantsAndSelf():System.Collections.Generic.IEnumerable_1[[System.Xml.Linq.XElement,System.Private.Xml.Linq,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]",
@@ -8790,7 +8860,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Xml.Linq.XElement",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XElement::DescendantsAndSelf(System.Xml.Linq.XName):System.Collections.Generic.IEnumerable_1[[System.Xml.Linq.XElement,System.Private.Xml.Linq,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]",
@@ -8803,7 +8874,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Xml.Linq.XElement",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XElement::GetDefaultNamespace():System.Xml.Linq.XNamespace",
@@ -8816,7 +8888,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Xml.Linq.XElement",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XElement::GetNamespaceOfPrefix(System.String):System.Xml.Linq.XNamespace",
@@ -8829,7 +8902,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Xml.Linq.XElement",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XElement::GetPrefixOfNamespace(System.Xml.Linq.XNamespace):System.String",
@@ -8842,7 +8916,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Xml.Linq.XElement",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XElement::Load(System.String):System.Xml.Linq.XElement",
@@ -8855,7 +8930,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Xml.Linq.XElement",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XElement::Load(System.String,System.Xml.Linq.LoadOptions):System.Xml.Linq.XElement",
@@ -8868,7 +8944,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Xml.Linq.XElement",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XElement::Load(System.IO.Stream):System.Xml.Linq.XElement",
@@ -8881,7 +8958,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Xml.Linq.XElement",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XElement::Load(System.IO.Stream,System.Xml.Linq.LoadOptions):System.Xml.Linq.XElement",
@@ -8894,7 +8972,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Xml.Linq.XElement",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XElement::LoadAsync(System.IO.Stream,System.Xml.Linq.LoadOptions,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Xml.Linq.XElement,System.Private.Xml.Linq,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]",
@@ -8907,7 +8986,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Xml.Linq.XElement",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XElement::Load(System.IO.TextReader):System.Xml.Linq.XElement",
@@ -8920,7 +9000,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Xml.Linq.XElement",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XElement::Load(System.IO.TextReader,System.Xml.Linq.LoadOptions):System.Xml.Linq.XElement",
@@ -8933,7 +9014,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Xml.Linq.XElement",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XElement::LoadAsync(System.IO.TextReader,System.Xml.Linq.LoadOptions,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Xml.Linq.XElement,System.Private.Xml.Linq,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]",
@@ -8946,7 +9028,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Xml.Linq.XElement",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XElement::Load(System.Xml.XmlReader):System.Xml.Linq.XElement",
@@ -8959,7 +9042,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Xml.Linq.XElement",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XElement::Load(System.Xml.XmlReader,System.Xml.Linq.LoadOptions):System.Xml.Linq.XElement",
@@ -8972,7 +9056,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Xml.Linq.XElement",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XElement::LoadAsync(System.Xml.XmlReader,System.Xml.Linq.LoadOptions,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Xml.Linq.XElement,System.Private.Xml.Linq,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]",
@@ -8985,7 +9070,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Xml.Linq.XElement",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XElement::Parse(System.String):System.Xml.Linq.XElement",
@@ -8998,7 +9084,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Xml.Linq.XElement",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XElement::Parse(System.String,System.Xml.Linq.LoadOptions):System.Xml.Linq.XElement",
@@ -9011,7 +9098,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Xml.Linq.XElement",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XElement::RemoveAll():System.Void",
@@ -9024,7 +9112,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Xml.Linq.XElement",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XElement::RemoveAttributes():System.Void",
@@ -9037,7 +9126,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Xml.Linq.XElement",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XElement::ReplaceAll(System.Object):System.Void",
@@ -9050,7 +9140,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Xml.Linq.XElement",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XElement::ReplaceAll(System.Object[]):System.Void",
@@ -9063,7 +9154,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Xml.Linq.XElement",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XElement::ReplaceAttributes(System.Object):System.Void",
@@ -9076,7 +9168,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Xml.Linq.XElement",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XElement::ReplaceAttributes(System.Object[]):System.Void",
@@ -9089,7 +9182,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Xml.Linq.XElement",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XElement::Save(System.IO.Stream):System.Void",
@@ -9102,7 +9196,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Xml.Linq.XElement",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XElement::Save(System.IO.Stream,System.Xml.Linq.SaveOptions):System.Void",
@@ -9115,7 +9210,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Xml.Linq.XElement",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XElement::SaveAsync(System.IO.Stream,System.Xml.Linq.SaveOptions,System.Threading.CancellationToken):System.Threading.Tasks.Task",
@@ -9128,7 +9224,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Xml.Linq.XElement",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XElement::Save(System.IO.TextWriter):System.Void",
@@ -9141,7 +9238,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Xml.Linq.XElement",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XElement::Save(System.IO.TextWriter,System.Xml.Linq.SaveOptions):System.Void",
@@ -9154,7 +9252,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Xml.Linq.XElement",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XElement::SaveAsync(System.IO.TextWriter,System.Xml.Linq.SaveOptions,System.Threading.CancellationToken):System.Threading.Tasks.Task",
@@ -9167,7 +9266,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Xml.Linq.XElement",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XElement::Save(System.Xml.XmlWriter):System.Void",
@@ -9180,7 +9280,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Xml.Linq.XElement",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XElement::SaveAsync(System.Xml.XmlWriter,System.Threading.CancellationToken):System.Threading.Tasks.Task",
@@ -9193,7 +9294,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Xml.Linq.XElement",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XElement::SetAttributeValue(System.Xml.Linq.XName,System.Object):System.Void",
@@ -9206,7 +9308,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Xml.Linq.XElement",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XElement::SetElementValue(System.Xml.Linq.XName,System.Object):System.Void",
@@ -9219,7 +9322,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Xml.Linq.XElement",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XElement::SetValue(System.Object):System.Void",
@@ -9232,7 +9336,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Xml.Linq.XElement",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XElement::WriteTo(System.Xml.XmlWriter):System.Void",
@@ -9245,7 +9350,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Xml.Linq.XElement",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XElement::WriteToAsync(System.Xml.XmlWriter,System.Threading.CancellationToken):System.Threading.Tasks.Task",
@@ -9258,7 +9364,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Xml.Linq.XElement",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.IXmlLineInfo::HasLineInfo():System.Boolean",
@@ -9271,7 +9378,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Xml.IXmlLineInfo",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.IXmlSerializable::GetSchema():System.Xml.Schema.XmlSchema",
@@ -9284,7 +9392,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Xml.Serialization.IXmlSerializable",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.IXmlSerializable::ReadXml(System.Xml.XmlReader):System.Void",
@@ -9297,7 +9406,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Xml.Serialization.IXmlSerializable",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.IXmlSerializable::WriteXml(System.Xml.XmlWriter):System.Void",
@@ -9310,7 +9420,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Xml.Serialization.IXmlSerializable",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XElement::HasLineInfo():System.Boolean",
@@ -9323,7 +9434,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Xml.Linq.XElement",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -10848,7 +10960,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Xml.Linq.XName",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XName::Get(System.String):System.Xml.Linq.XName",
@@ -10861,7 +10974,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Xml.Linq.XName",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XName::Get(System.String,System.String):System.Xml.Linq.XName",
@@ -10874,7 +10988,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Xml.Linq.XName",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XName::Equals(System.Object):System.Boolean",
@@ -10887,7 +11002,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Xml.Linq.XName",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XName::GetHashCode():System.Int32",
@@ -10900,7 +11016,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Xml.Linq.XName",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.IEquatable\u00601::Equals(T):System.Boolean",
@@ -10913,7 +11030,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.IEquatable\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
@@ -10926,7 +11044,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.Serialization.ISerializable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -11129,7 +11248,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Xml.Linq.XNamespace",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XNamespace::ToString():System.String",
@@ -11142,7 +11262,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Xml.Linq.XNamespace",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XNamespace::Get(System.String):System.Xml.Linq.XNamespace",
@@ -11155,7 +11276,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Xml.Linq.XNamespace",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XNamespace::Equals(System.Object):System.Boolean",
@@ -11168,7 +11290,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Xml.Linq.XNamespace",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XNamespace::GetHashCode():System.Int32",
@@ -11181,7 +11304,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Xml.Linq.XNamespace",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -11388,7 +11512,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Xml.Linq.XNode",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XNode::AddAfterSelf(System.Object[]):System.Void",
@@ -11401,7 +11526,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Xml.Linq.XNode",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XNode::AddBeforeSelf(System.Object):System.Void",
@@ -11414,7 +11540,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Xml.Linq.XNode",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XNode::AddBeforeSelf(System.Object[]):System.Void",
@@ -11427,7 +11554,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Xml.Linq.XNode",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XNode::Ancestors():System.Collections.Generic.IEnumerable_1[[System.Xml.Linq.XElement,System.Private.Xml.Linq,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]",
@@ -11440,7 +11568,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Xml.Linq.XNode",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XNode::Ancestors(System.Xml.Linq.XName):System.Collections.Generic.IEnumerable_1[[System.Xml.Linq.XElement,System.Private.Xml.Linq,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]",
@@ -11453,7 +11582,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Xml.Linq.XNode",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XNode::CompareDocumentOrder(System.Xml.Linq.XNode,System.Xml.Linq.XNode):System.Int32",
@@ -11466,7 +11596,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Xml.Linq.XNode",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XNode::CreateReader():System.Xml.XmlReader",
@@ -11479,7 +11610,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Xml.Linq.XNode",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XNode::CreateReader(System.Xml.Linq.ReaderOptions):System.Xml.XmlReader",
@@ -11492,7 +11624,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Xml.Linq.XNode",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XNode::NodesAfterSelf():System.Collections.Generic.IEnumerable_1[[System.Xml.Linq.XNode,System.Private.Xml.Linq,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]",
@@ -11505,7 +11638,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Xml.Linq.XNode",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XNode::NodesBeforeSelf():System.Collections.Generic.IEnumerable_1[[System.Xml.Linq.XNode,System.Private.Xml.Linq,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]",
@@ -11518,7 +11652,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Xml.Linq.XNode",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XNode::ElementsAfterSelf():System.Collections.Generic.IEnumerable_1[[System.Xml.Linq.XElement,System.Private.Xml.Linq,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]",
@@ -11531,7 +11666,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Xml.Linq.XNode",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XNode::ElementsAfterSelf(System.Xml.Linq.XName):System.Collections.Generic.IEnumerable_1[[System.Xml.Linq.XElement,System.Private.Xml.Linq,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]",
@@ -11544,7 +11680,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Xml.Linq.XNode",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XNode::ElementsBeforeSelf():System.Collections.Generic.IEnumerable_1[[System.Xml.Linq.XElement,System.Private.Xml.Linq,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]",
@@ -11557,7 +11694,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Xml.Linq.XNode",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XNode::ElementsBeforeSelf(System.Xml.Linq.XName):System.Collections.Generic.IEnumerable_1[[System.Xml.Linq.XElement,System.Private.Xml.Linq,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]",
@@ -11570,7 +11708,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Xml.Linq.XNode",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XNode::IsAfter(System.Xml.Linq.XNode):System.Boolean",
@@ -11583,7 +11722,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Xml.Linq.XNode",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XNode::IsBefore(System.Xml.Linq.XNode):System.Boolean",
@@ -11596,7 +11736,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Xml.Linq.XNode",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XNode::ReadFrom(System.Xml.XmlReader):System.Xml.Linq.XNode",
@@ -11609,7 +11750,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Xml.Linq.XNode",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XNode::ReadFromAsync(System.Xml.XmlReader,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Xml.Linq.XNode,System.Private.Xml.Linq,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]",
@@ -11622,7 +11764,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Xml.Linq.XNode",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XNode::Remove():System.Void",
@@ -11635,7 +11778,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Xml.Linq.XNode",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XNode::ReplaceWith(System.Object):System.Void",
@@ -11648,7 +11792,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Xml.Linq.XNode",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XNode::ReplaceWith(System.Object[]):System.Void",
@@ -11661,7 +11806,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Xml.Linq.XNode",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XNode::ToString():System.String",
@@ -11674,7 +11820,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Xml.Linq.XNode",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XNode::ToString(System.Xml.Linq.SaveOptions):System.String",
@@ -11687,7 +11834,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Xml.Linq.XNode",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XNode::DeepEquals(System.Xml.Linq.XNode,System.Xml.Linq.XNode):System.Boolean",
@@ -11700,7 +11848,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Xml.Linq.XNode",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XNode::WriteTo(System.Xml.XmlWriter):System.Void",
@@ -11713,7 +11862,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Xml.Linq.XNode",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XNode::WriteToAsync(System.Xml.XmlWriter,System.Threading.CancellationToken):System.Threading.Tasks.Task",
@@ -11726,7 +11876,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Xml.Linq.XNode",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.IXmlLineInfo::HasLineInfo():System.Boolean",
@@ -11739,7 +11890,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Xml.IXmlLineInfo",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XNode::HasLineInfo():System.Boolean",
@@ -11752,7 +11904,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Xml.Linq.XNode",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -12399,7 +12552,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Xml.Linq.XNodeDocumentOrderComparer",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IComparer\u00601::Compare(T,T):System.Int32",
@@ -12412,7 +12566,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Collections.Generic.IComparer\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IComparer::Compare(System.Object,System.Object):System.Int32",
@@ -12425,7 +12580,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Collections.IComparer",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -12565,7 +12721,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Xml.Linq.XNodeEqualityComparer",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XNodeEqualityComparer::GetHashCode(System.Xml.Linq.XNode):System.Int32",
@@ -12578,7 +12735,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Xml.Linq.XNodeEqualityComparer",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IEqualityComparer\u00601::Equals(T,T):System.Boolean",
@@ -12591,7 +12749,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Collections.Generic.IEqualityComparer\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IEqualityComparer\u00601::GetHashCode(T):System.Int32",
@@ -12604,7 +12763,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.Generic.IEqualityComparer\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEqualityComparer::Equals(System.Object,System.Object):System.Boolean",
@@ -12617,7 +12777,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Collections.IEqualityComparer",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEqualityComparer::GetHashCode(System.Object):System.Int32",
@@ -12630,7 +12791,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.IEqualityComparer",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -12800,7 +12962,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Xml.Linq.XObject",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XObject::Annotation(System.Type):System.Object",
@@ -12813,7 +12976,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Xml.Linq.XObject",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XObject::Annotation():T",
@@ -12826,7 +12990,8 @@
           "arity": 1,
           "parameterCount": 0,
           "declaringClrType": "System.Xml.Linq.XObject",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XObject::Annotations(System.Type):System.Collections.Generic.IEnumerable_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
@@ -12839,7 +13004,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Xml.Linq.XObject",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XObject::Annotations():IEnumerable_1",
@@ -12852,7 +13018,8 @@
           "arity": 1,
           "parameterCount": 0,
           "declaringClrType": "System.Xml.Linq.XObject",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XObject::RemoveAnnotations(System.Type):System.Void",
@@ -12865,7 +13032,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Xml.Linq.XObject",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XObject::RemoveAnnotations():System.Void",
@@ -12878,7 +13046,8 @@
           "arity": 1,
           "parameterCount": 0,
           "declaringClrType": "System.Xml.Linq.XObject",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.IXmlLineInfo::HasLineInfo():System.Boolean",
@@ -12891,7 +13060,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Xml.IXmlLineInfo",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -13459,7 +13629,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Xml.Linq.XProcessingInstruction",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XProcessingInstruction::WriteToAsync(System.Xml.XmlWriter,System.Threading.CancellationToken):System.Threading.Tasks.Task",
@@ -13472,7 +13643,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Xml.Linq.XProcessingInstruction",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.IXmlLineInfo::HasLineInfo():System.Boolean",
@@ -13485,7 +13657,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Xml.IXmlLineInfo",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XProcessingInstruction::HasLineInfo():System.Boolean",
@@ -13498,7 +13671,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Xml.Linq.XProcessingInstruction",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -14192,7 +14366,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Xml.Linq.XStreamingElement",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XStreamingElement::Add(System.Object[]):System.Void",
@@ -14205,7 +14380,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Xml.Linq.XStreamingElement",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XStreamingElement::Save(System.IO.Stream):System.Void",
@@ -14218,7 +14394,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Xml.Linq.XStreamingElement",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XStreamingElement::Save(System.IO.Stream,System.Xml.Linq.SaveOptions):System.Void",
@@ -14231,7 +14408,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Xml.Linq.XStreamingElement",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XStreamingElement::Save(System.IO.TextWriter):System.Void",
@@ -14244,7 +14422,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Xml.Linq.XStreamingElement",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XStreamingElement::Save(System.IO.TextWriter,System.Xml.Linq.SaveOptions):System.Void",
@@ -14257,7 +14436,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Xml.Linq.XStreamingElement",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XStreamingElement::Save(System.Xml.XmlWriter):System.Void",
@@ -14270,7 +14450,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Xml.Linq.XStreamingElement",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XStreamingElement::Save(System.String):System.Void",
@@ -14283,7 +14464,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Xml.Linq.XStreamingElement",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XStreamingElement::Save(System.String,System.Xml.Linq.SaveOptions):System.Void",
@@ -14296,7 +14478,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Xml.Linq.XStreamingElement",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XStreamingElement::ToString():System.String",
@@ -14309,7 +14492,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Xml.Linq.XStreamingElement",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XStreamingElement::ToString(System.Xml.Linq.SaveOptions):System.String",
@@ -14322,7 +14506,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Xml.Linq.XStreamingElement",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XStreamingElement::WriteTo(System.Xml.XmlWriter):System.Void",
@@ -14335,7 +14520,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Xml.Linq.XStreamingElement",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -14620,7 +14806,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Xml.Linq.XText",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XText::WriteToAsync(System.Xml.XmlWriter,System.Threading.CancellationToken):System.Threading.Tasks.Task",
@@ -14633,7 +14820,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Xml.Linq.XText",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.IXmlLineInfo::HasLineInfo():System.Boolean",
@@ -14646,7 +14834,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Xml.IXmlLineInfo",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XText::HasLineInfo():System.Boolean",
@@ -14659,7 +14848,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Xml.Linq.XText",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -15329,7 +15519,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Xml.Linq.Extensions",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": true
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.Extensions::Attributes(System.Collections.Generic.IEnumerable_1[[System.Xml.Linq.XElement,System.Private.Xml.Linq,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]],System.Xml.Linq.XName):System.Collections.Generic.IEnumerable_1[[System.Xml.Linq.XAttribute,System.Private.Xml.Linq,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]",
@@ -15342,7 +15533,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Xml.Linq.Extensions",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": true
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.Extensions::Ancestors(IEnumerable_1):System.Collections.Generic.IEnumerable_1[[System.Xml.Linq.XElement,System.Private.Xml.Linq,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]",
@@ -15355,7 +15547,8 @@
           "arity": 1,
           "parameterCount": 1,
           "declaringClrType": "System.Xml.Linq.Extensions",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": true
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.Extensions::Ancestors(IEnumerable_1,System.Xml.Linq.XName):System.Collections.Generic.IEnumerable_1[[System.Xml.Linq.XElement,System.Private.Xml.Linq,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]",
@@ -15368,7 +15561,8 @@
           "arity": 1,
           "parameterCount": 2,
           "declaringClrType": "System.Xml.Linq.Extensions",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": true
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.Extensions::AncestorsAndSelf(System.Collections.Generic.IEnumerable_1[[System.Xml.Linq.XElement,System.Private.Xml.Linq,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Collections.Generic.IEnumerable_1[[System.Xml.Linq.XElement,System.Private.Xml.Linq,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]",
@@ -15381,7 +15575,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Xml.Linq.Extensions",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": true
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.Extensions::AncestorsAndSelf(System.Collections.Generic.IEnumerable_1[[System.Xml.Linq.XElement,System.Private.Xml.Linq,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]],System.Xml.Linq.XName):System.Collections.Generic.IEnumerable_1[[System.Xml.Linq.XElement,System.Private.Xml.Linq,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]",
@@ -15394,7 +15589,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Xml.Linq.Extensions",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": true
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.Extensions::Nodes(IEnumerable_1):System.Collections.Generic.IEnumerable_1[[System.Xml.Linq.XNode,System.Private.Xml.Linq,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]",
@@ -15407,7 +15603,8 @@
           "arity": 1,
           "parameterCount": 1,
           "declaringClrType": "System.Xml.Linq.Extensions",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": true
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.Extensions::DescendantNodes(IEnumerable_1):System.Collections.Generic.IEnumerable_1[[System.Xml.Linq.XNode,System.Private.Xml.Linq,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]",
@@ -15420,7 +15617,8 @@
           "arity": 1,
           "parameterCount": 1,
           "declaringClrType": "System.Xml.Linq.Extensions",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": true
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.Extensions::Descendants(IEnumerable_1):System.Collections.Generic.IEnumerable_1[[System.Xml.Linq.XElement,System.Private.Xml.Linq,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]",
@@ -15433,7 +15631,8 @@
           "arity": 1,
           "parameterCount": 1,
           "declaringClrType": "System.Xml.Linq.Extensions",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": true
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.Extensions::Descendants(IEnumerable_1,System.Xml.Linq.XName):System.Collections.Generic.IEnumerable_1[[System.Xml.Linq.XElement,System.Private.Xml.Linq,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]",
@@ -15446,7 +15645,8 @@
           "arity": 1,
           "parameterCount": 2,
           "declaringClrType": "System.Xml.Linq.Extensions",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": true
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.Extensions::DescendantNodesAndSelf(System.Collections.Generic.IEnumerable_1[[System.Xml.Linq.XElement,System.Private.Xml.Linq,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Collections.Generic.IEnumerable_1[[System.Xml.Linq.XNode,System.Private.Xml.Linq,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]",
@@ -15459,7 +15659,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Xml.Linq.Extensions",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": true
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.Extensions::DescendantsAndSelf(System.Collections.Generic.IEnumerable_1[[System.Xml.Linq.XElement,System.Private.Xml.Linq,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Collections.Generic.IEnumerable_1[[System.Xml.Linq.XElement,System.Private.Xml.Linq,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]",
@@ -15472,7 +15673,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Xml.Linq.Extensions",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": true
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.Extensions::DescendantsAndSelf(System.Collections.Generic.IEnumerable_1[[System.Xml.Linq.XElement,System.Private.Xml.Linq,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]],System.Xml.Linq.XName):System.Collections.Generic.IEnumerable_1[[System.Xml.Linq.XElement,System.Private.Xml.Linq,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]",
@@ -15485,7 +15687,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Xml.Linq.Extensions",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": true
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.Extensions::Elements(IEnumerable_1):System.Collections.Generic.IEnumerable_1[[System.Xml.Linq.XElement,System.Private.Xml.Linq,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]",
@@ -15498,7 +15701,8 @@
           "arity": 1,
           "parameterCount": 1,
           "declaringClrType": "System.Xml.Linq.Extensions",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": true
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.Extensions::Elements(IEnumerable_1,System.Xml.Linq.XName):System.Collections.Generic.IEnumerable_1[[System.Xml.Linq.XElement,System.Private.Xml.Linq,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]",
@@ -15511,7 +15715,8 @@
           "arity": 1,
           "parameterCount": 2,
           "declaringClrType": "System.Xml.Linq.Extensions",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": true
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.Extensions::InDocumentOrder(IEnumerable_1):IEnumerable_1",
@@ -15524,7 +15729,8 @@
           "arity": 1,
           "parameterCount": 1,
           "declaringClrType": "System.Xml.Linq.Extensions",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": true
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.Extensions::Remove(System.Collections.Generic.IEnumerable_1[[System.Xml.Linq.XAttribute,System.Private.Xml.Linq,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Void",
@@ -15537,7 +15743,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Xml.Linq.Extensions",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": true
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.Extensions::Remove(IEnumerable_1):System.Void",
@@ -15550,7 +15757,8 @@
           "arity": 1,
           "parameterCount": 1,
           "declaringClrType": "System.Xml.Linq.Extensions",
-          "declaringAssemblyName": "System.Private.Xml.Linq"
+          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "isExtensionMethod": true
         }
       ],
       "properties": [],

@@ -28,7 +28,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -60,7 +61,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Web.HttpUtility:System.Web.HttpUtility::ParseQueryString(System.String,System.Text.Encoding):System.Collections.Specialized.NameValueCollection",
@@ -75,7 +77,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Web.HttpUtility:System.Web.HttpUtility::HtmlDecode(System.String):System.String",
@@ -90,7 +93,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Web.HttpUtility:System.Web.HttpUtility::HtmlDecode(System.String,System.IO.TextWriter):System.Void",
@@ -105,7 +109,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Web.HttpUtility:System.Web.HttpUtility::HtmlEncode(System.String):System.String",
@@ -120,7 +125,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Web.HttpUtility:System.Web.HttpUtility::HtmlEncode(System.Object):System.String",
@@ -135,7 +141,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Web.HttpUtility:System.Web.HttpUtility::HtmlEncode(System.String,System.IO.TextWriter):System.Void",
@@ -150,7 +157,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Web.HttpUtility:System.Web.HttpUtility::HtmlAttributeEncode(System.String):System.String",
@@ -165,7 +173,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Web.HttpUtility:System.Web.HttpUtility::HtmlAttributeEncode(System.String,System.IO.TextWriter):System.Void",
@@ -180,7 +189,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Web.HttpUtility:System.Web.HttpUtility::UrlEncode(System.String):System.String",
@@ -195,7 +205,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Web.HttpUtility:System.Web.HttpUtility::UrlPathEncode(System.String):System.String",
@@ -210,7 +221,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Web.HttpUtility:System.Web.HttpUtility::UrlEncode(System.String,System.Text.Encoding):System.String",
@@ -225,7 +237,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Web.HttpUtility:System.Web.HttpUtility::UrlEncode(System.Byte[]):System.String",
@@ -240,7 +253,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Web.HttpUtility:System.Web.HttpUtility::UrlEncode(System.Byte[],System.Int32,System.Int32):System.String",
@@ -255,7 +269,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Web.HttpUtility:System.Web.HttpUtility::UrlEncodeToBytes(System.String):System.Byte[]",
@@ -270,7 +285,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Web.HttpUtility:System.Web.HttpUtility::UrlEncodeToBytes(System.Byte[]):System.Byte[]",
@@ -285,7 +301,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Web.HttpUtility:System.Web.HttpUtility::UrlEncodeUnicodeToBytes(System.String):System.Byte[]",
@@ -300,7 +317,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Web.HttpUtility:System.Web.HttpUtility::UrlDecode(System.String):System.String",
@@ -315,7 +333,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Web.HttpUtility:System.Web.HttpUtility::UrlDecode(System.Byte[],System.Text.Encoding):System.String",
@@ -330,7 +349,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Web.HttpUtility:System.Web.HttpUtility::UrlDecodeToBytes(System.String):System.Byte[]",
@@ -345,7 +365,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Web.HttpUtility:System.Web.HttpUtility::UrlDecodeToBytes(System.String,System.Text.Encoding):System.Byte[]",
@@ -360,7 +381,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Web.HttpUtility:System.Web.HttpUtility::UrlDecodeToBytes(System.Byte[]):System.Byte[]",
@@ -375,7 +397,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Web.HttpUtility:System.Web.HttpUtility::UrlEncodeToBytes(System.String,System.Text.Encoding):System.Byte[]",
@@ -390,7 +413,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Web.HttpUtility:System.Web.HttpUtility::UrlEncodeToBytes(System.Byte[],System.Int32,System.Int32):System.Byte[]",
@@ -405,7 +429,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Web.HttpUtility:System.Web.HttpUtility::UrlEncodeUnicode(System.String):System.String",
@@ -420,7 +445,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Web.HttpUtility:System.Web.HttpUtility::UrlDecode(System.String,System.Text.Encoding):System.String",
@@ -435,7 +461,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Web.HttpUtility:System.Web.HttpUtility::UrlDecode(System.Byte[],System.Int32,System.Int32,System.Text.Encoding):System.String",
@@ -450,7 +477,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 4
+          "parameterCount": 4,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Web.HttpUtility:System.Web.HttpUtility::UrlDecodeToBytes(System.Byte[],System.Int32,System.Int32):System.Byte[]",
@@ -465,7 +493,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Web.HttpUtility:System.Web.HttpUtility::JavaScriptStringEncode(System.String):System.String",
@@ -480,7 +509,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Web.HttpUtility:System.Web.HttpUtility::JavaScriptStringEncode(System.String,System.Boolean):System.String",
@@ -495,7 +525,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         }
       ],
       "properties": [],

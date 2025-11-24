@@ -10385,7 +10385,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Diagnostics.Tracing.DiagnosticCounter",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.DiagnosticCounter::AddMetadata(System.String,System.String):System.Void",
@@ -10398,7 +10399,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Diagnostics.Tracing.DiagnosticCounter",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
@@ -10411,7 +10413,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.IDisposable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -11317,7 +11320,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Diagnostics.Tracing.EventCommandEventArgs",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventCommandEventArgs::DisableEvent(System.Int32):System.Boolean",
@@ -11330,7 +11334,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Diagnostics.Tracing.EventCommandEventArgs",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -11489,7 +11494,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Diagnostics.Tracing.EventCounter",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventCounter::WriteMetric(System.Double):System.Void",
@@ -11502,7 +11508,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Diagnostics.Tracing.EventCounter",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventCounter::ToString():System.String",
@@ -11515,7 +11522,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Diagnostics.Tracing.EventCounter",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
@@ -11528,7 +11536,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.IDisposable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventCounter::Dispose():System.Void",
@@ -11541,7 +11550,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Diagnostics.Tracing.EventCounter",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -13161,7 +13171,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Diagnostics.Tracing.EventListener",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventListener::EnableEvents(System.Diagnostics.Tracing.EventSource,System.Diagnostics.Tracing.EventLevel):System.Void",
@@ -13174,7 +13185,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Diagnostics.Tracing.EventListener",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventListener::EnableEvents(System.Diagnostics.Tracing.EventSource,System.Diagnostics.Tracing.EventLevel,System.Diagnostics.Tracing.EventKeywords):System.Void",
@@ -13187,7 +13199,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Diagnostics.Tracing.EventListener",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventListener::EnableEvents(System.Diagnostics.Tracing.EventSource,System.Diagnostics.Tracing.EventLevel,System.Diagnostics.Tracing.EventKeywords,System.Collections.Generic.IDictionary_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
@@ -13200,7 +13213,8 @@
           "arity": 0,
           "parameterCount": 4,
           "declaringClrType": "System.Diagnostics.Tracing.EventListener",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventListener::DisableEvents(System.Diagnostics.Tracing.EventSource):System.Void",
@@ -13213,7 +13227,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Diagnostics.Tracing.EventListener",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
@@ -13226,7 +13241,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.IDisposable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -13417,7 +13433,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Diagnostics.Tracing.EventSource",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventSource::IsEnabled(System.Diagnostics.Tracing.EventLevel,System.Diagnostics.Tracing.EventKeywords):System.Boolean",
@@ -13430,7 +13447,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Diagnostics.Tracing.EventSource",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventSource::IsEnabled(System.Diagnostics.Tracing.EventLevel,System.Diagnostics.Tracing.EventKeywords,System.Diagnostics.Tracing.EventChannel):System.Boolean",
@@ -13443,7 +13461,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Diagnostics.Tracing.EventSource",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventSource::GetGuid(System.Type):System.Guid",
@@ -13456,7 +13475,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Diagnostics.Tracing.EventSource",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventSource::GetName(System.Type):System.String",
@@ -13469,7 +13489,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Diagnostics.Tracing.EventSource",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventSource::GenerateManifest(System.Type,System.String):System.String",
@@ -13482,7 +13503,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Diagnostics.Tracing.EventSource",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventSource::GenerateManifest(System.Type,System.String,System.Diagnostics.Tracing.EventManifestOptions):System.String",
@@ -13495,7 +13517,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Diagnostics.Tracing.EventSource",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventSource::GetSources():System.Collections.Generic.IEnumerable_1[[System.Diagnostics.Tracing.EventSource,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
@@ -13508,7 +13531,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Diagnostics.Tracing.EventSource",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventSource::SendCommand(System.Diagnostics.Tracing.EventSource,System.Diagnostics.Tracing.EventCommand,System.Collections.Generic.IDictionary_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
@@ -13521,7 +13545,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Diagnostics.Tracing.EventSource",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventSource::GetTrait(System.String):System.String",
@@ -13534,7 +13559,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Diagnostics.Tracing.EventSource",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventSource::ToString():System.String",
@@ -13547,7 +13573,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Diagnostics.Tracing.EventSource",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventSource::SetCurrentThreadActivityId(System.Guid):System.Void",
@@ -13560,7 +13587,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Diagnostics.Tracing.EventSource",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventSource::SetCurrentThreadActivityId(System.Guid,System.Guid\u0026):System.Void",
@@ -13573,7 +13601,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Diagnostics.Tracing.EventSource",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventSource::Dispose():System.Void",
@@ -13586,7 +13615,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Diagnostics.Tracing.EventSource",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventSource::Write(System.String):System.Void",
@@ -13599,7 +13629,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Diagnostics.Tracing.EventSource",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventSource::Write(System.String,System.Diagnostics.Tracing.EventSourceOptions):System.Void",
@@ -13612,7 +13643,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Diagnostics.Tracing.EventSource",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventSource::Write(System.String,T):System.Void",
@@ -13625,7 +13657,8 @@
           "arity": 1,
           "parameterCount": 2,
           "declaringClrType": "System.Diagnostics.Tracing.EventSource",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventSource::Write(System.String,System.Diagnostics.Tracing.EventSourceOptions,T):System.Void",
@@ -13638,7 +13671,8 @@
           "arity": 1,
           "parameterCount": 3,
           "declaringClrType": "System.Diagnostics.Tracing.EventSource",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventSource::Write(System.String,System.Diagnostics.Tracing.EventSourceOptions\u0026,T\u0026):System.Void",
@@ -13651,7 +13685,8 @@
           "arity": 1,
           "parameterCount": 3,
           "declaringClrType": "System.Diagnostics.Tracing.EventSource",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventSource::Write(System.String,System.Diagnostics.Tracing.EventSourceOptions\u0026,System.Guid\u0026,System.Guid\u0026,T\u0026):System.Void",
@@ -13664,7 +13699,8 @@
           "arity": 1,
           "parameterCount": 5,
           "declaringClrType": "System.Diagnostics.Tracing.EventSource",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
@@ -13677,7 +13713,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.IDisposable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -14815,7 +14852,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.Serialization.ISerializable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventSourceException::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
@@ -14828,7 +14866,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Diagnostics.Tracing.EventSourceException",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -15573,7 +15612,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Diagnostics.Tracing.IncrementingEventCounter",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.IncrementingEventCounter::ToString():System.String",
@@ -15586,7 +15626,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Diagnostics.Tracing.IncrementingEventCounter",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
@@ -15599,7 +15640,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.IDisposable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.IncrementingEventCounter::Dispose():System.Void",
@@ -15612,7 +15654,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Diagnostics.Tracing.IncrementingEventCounter",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -15829,7 +15872,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Diagnostics.Tracing.IncrementingPollingCounter",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
@@ -15842,7 +15886,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.IDisposable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.IncrementingPollingCounter::Dispose():System.Void",
@@ -15855,7 +15900,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Diagnostics.Tracing.IncrementingPollingCounter",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -16510,7 +16556,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Diagnostics.Tracing.PollingCounter",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
@@ -16523,7 +16570,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.IDisposable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.PollingCounter::Dispose():System.Void",
@@ -16536,7 +16584,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Diagnostics.Tracing.PollingCounter",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],

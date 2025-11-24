@@ -29,7 +29,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Text.Unicode.Utf8\u002BTryWriteInterpolatedStringHandler::AppendFormatted(T):System.Boolean",
@@ -44,7 +45,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Text.Unicode.Utf8\u002BTryWriteInterpolatedStringHandler::AppendFormatted(T,System.String):System.Boolean",
@@ -59,7 +61,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Text.Unicode.Utf8\u002BTryWriteInterpolatedStringHandler::AppendFormatted(T,System.Int32):System.Boolean",
@@ -74,7 +77,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Text.Unicode.Utf8\u002BTryWriteInterpolatedStringHandler::AppendFormatted(T,System.Int32,System.String):System.Boolean",
@@ -89,7 +93,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Text.Unicode.Utf8\u002BTryWriteInterpolatedStringHandler::AppendFormatted(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Boolean",
@@ -104,7 +109,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Text.Unicode.Utf8\u002BTryWriteInterpolatedStringHandler::AppendFormatted(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32,System.String):System.Boolean",
@@ -119,7 +125,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Text.Unicode.Utf8\u002BTryWriteInterpolatedStringHandler::AppendFormatted(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Boolean",
@@ -134,7 +141,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Text.Unicode.Utf8\u002BTryWriteInterpolatedStringHandler::AppendFormatted(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32,System.String):System.Boolean",
@@ -149,7 +157,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Text.Unicode.Utf8\u002BTryWriteInterpolatedStringHandler::AppendFormatted(System.String):System.Boolean",
@@ -164,7 +173,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Text.Unicode.Utf8\u002BTryWriteInterpolatedStringHandler::AppendFormatted(System.String,System.Int32,System.String):System.Boolean",
@@ -179,7 +189,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Text.Unicode.Utf8\u002BTryWriteInterpolatedStringHandler::AppendFormatted(System.Object,System.Int32,System.String):System.Boolean",
@@ -194,7 +205,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -237,7 +249,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -2753,7 +2766,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 6
+          "parameterCount": 6,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Text.Unicode.Utf8::ToUtf16(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32\u0026,System.Int32\u0026,System.Boolean,System.Boolean):System.Buffers.OperationStatus",
@@ -2768,7 +2782,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 6
+          "parameterCount": 6,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Text.Unicode.Utf8::TryWrite(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Text.Unicode.Utf8\u002BTryWriteInterpolatedStringHandler\u0026,System.Int32\u0026):System.Boolean",
@@ -2783,7 +2798,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Text.Unicode.Utf8::TryWrite(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.IFormatProvider,System.Text.Unicode.Utf8\u002BTryWriteInterpolatedStringHandler\u0026,System.Int32\u0026):System.Boolean",
@@ -2798,7 +2814,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 4
+          "parameterCount": 4,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Text.Unicode.Utf8::IsValid(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Boolean",
@@ -2813,7 +2830,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         }
       ],
       "properties": [],

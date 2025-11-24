@@ -81,7 +81,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::DisposeAsync():System.Threading.Tasks.ValueTask",
@@ -96,7 +97,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::Flush():System.Void",
@@ -111,7 +113,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::FlushAsync():System.Threading.Tasks.Task",
@@ -126,7 +129,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::FlushAsync(System.Threading.CancellationToken):System.Threading.Tasks.Task",
@@ -141,7 +145,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::Write(System.String):System.Void",
@@ -156,7 +161,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::Write(System.Boolean):System.Void",
@@ -171,7 +177,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::Write(System.Char):System.Void",
@@ -186,7 +193,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::Write(System.Char[]):System.Void",
@@ -201,7 +209,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::Write(System.Char[],System.Int32,System.Int32):System.Void",
@@ -216,7 +225,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::Write(System.Double):System.Void",
@@ -231,7 +241,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::Write(System.Single):System.Void",
@@ -246,7 +257,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::Write(System.Int32):System.Void",
@@ -261,7 +273,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::Write(System.Int64):System.Void",
@@ -276,7 +289,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::Write(System.Object):System.Void",
@@ -291,7 +305,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::Write(System.String,System.Object):System.Void",
@@ -306,7 +321,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::Write(System.String,System.Object,System.Object):System.Void",
@@ -321,7 +337,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::Write(System.String,System.Object[]):System.Void",
@@ -336,7 +353,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::Write(System.String,System.ReadOnlySpan_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
@@ -351,7 +369,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteAsync(System.Char):System.Threading.Tasks.Task",
@@ -366,7 +385,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteAsync(System.Char[],System.Int32,System.Int32):System.Threading.Tasks.Task",
@@ -381,7 +401,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteAsync(System.String):System.Threading.Tasks.Task",
@@ -396,7 +417,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteAsync(System.ReadOnlyMemory_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.Task",
@@ -411,7 +433,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteAsync(System.Text.StringBuilder,System.Threading.CancellationToken):System.Threading.Tasks.Task",
@@ -426,7 +449,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteLineNoTabs(System.String):System.Void",
@@ -441,7 +465,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteLineNoTabsAsync(System.String):System.Threading.Tasks.Task",
@@ -456,7 +481,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteLine(System.String):System.Void",
@@ -471,7 +497,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteLine():System.Void",
@@ -486,7 +513,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteLine(System.Boolean):System.Void",
@@ -501,7 +529,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteLine(System.Char):System.Void",
@@ -516,7 +545,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteLine(System.Char[]):System.Void",
@@ -531,7 +561,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteLine(System.Char[],System.Int32,System.Int32):System.Void",
@@ -546,7 +577,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteLine(System.Double):System.Void",
@@ -561,7 +593,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteLine(System.Single):System.Void",
@@ -576,7 +609,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteLine(System.Int32):System.Void",
@@ -591,7 +625,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteLine(System.Int64):System.Void",
@@ -606,7 +641,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteLine(System.Object):System.Void",
@@ -621,7 +657,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteLine(System.String,System.Object):System.Void",
@@ -636,7 +673,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteLine(System.String,System.Object,System.Object):System.Void",
@@ -651,7 +689,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteLine(System.String,System.Object[]):System.Void",
@@ -666,7 +705,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteLine(System.String,System.ReadOnlySpan_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
@@ -681,7 +721,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteLine(System.UInt32):System.Void",
@@ -696,7 +737,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteLineAsync():System.Threading.Tasks.Task",
@@ -711,7 +753,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteLineAsync(System.Char):System.Threading.Tasks.Task",
@@ -726,7 +769,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteLineAsync(System.Char[],System.Int32,System.Int32):System.Threading.Tasks.Task",
@@ -741,7 +785,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteLineAsync(System.String):System.Threading.Tasks.Task",
@@ -756,7 +801,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteLineAsync(System.ReadOnlyMemory_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.Task",
@@ -771,7 +817,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteLineAsync(System.Text.StringBuilder,System.Threading.CancellationToken):System.Threading.Tasks.Task",
@@ -786,7 +833,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
@@ -802,7 +850,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.IDisposable"
+          "sourceInterface": "System.IDisposable",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.IAsyncDisposable::DisposeAsync():System.Threading.Tasks.ValueTask",
@@ -818,7 +867,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.IAsyncDisposable"
+          "sourceInterface": "System.IAsyncDisposable",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::Dispose():System.Void",
@@ -833,7 +883,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::Write(System.ReadOnlySpan_1):System.Void",
@@ -848,7 +899,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::Write(System.UInt32):System.Void",
@@ -863,7 +915,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::Write(System.UInt64):System.Void",
@@ -878,7 +931,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::Write(System.Decimal):System.Void",
@@ -893,7 +947,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::Write(System.Text.StringBuilder):System.Void",
@@ -908,7 +963,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::Write(System.String,System.Object,System.Object,System.Object):System.Void",
@@ -923,7 +979,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 4
+          "parameterCount": 4,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::Write(System.String,System.ReadOnlySpan_1):System.Void",
@@ -938,7 +995,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteAsync(System.Char[]):System.Threading.Tasks.Task",
@@ -953,7 +1011,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteAsync(System.ReadOnlyMemory_1,System.Threading.CancellationToken):System.Threading.Tasks.Task",
@@ -968,7 +1027,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteLine(System.ReadOnlySpan_1):System.Void",
@@ -983,7 +1043,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteLine(System.UInt64):System.Void",
@@ -998,7 +1059,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteLine(System.Decimal):System.Void",
@@ -1013,7 +1075,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteLine(System.Text.StringBuilder):System.Void",
@@ -1028,7 +1091,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteLine(System.String,System.Object,System.Object,System.Object):System.Void",
@@ -1043,7 +1107,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 4
+          "parameterCount": 4,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteLine(System.String,System.ReadOnlySpan_1):System.Void",
@@ -1058,7 +1123,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteLineAsync(System.Char[]):System.Threading.Tasks.Task",
@@ -1073,7 +1139,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteLineAsync(System.ReadOnlyMemory_1,System.Threading.CancellationToken):System.Threading.Tasks.Task",
@@ -1088,7 +1155,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         }
       ],
       "properties": [

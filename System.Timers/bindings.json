@@ -142,7 +142,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Timers.ElapsedEventHandler",
-          "declaringAssemblyName": "System.ComponentModel.TypeConverter"
+          "declaringAssemblyName": "System.ComponentModel.TypeConverter",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Timers.ElapsedEventHandler::BeginInvoke(System.Object,System.Timers.ElapsedEventArgs,System.AsyncCallback,System.Object):System.IAsyncResult",
@@ -155,7 +156,8 @@
           "arity": 0,
           "parameterCount": 4,
           "declaringClrType": "System.Timers.ElapsedEventHandler",
-          "declaringAssemblyName": "System.ComponentModel.TypeConverter"
+          "declaringAssemblyName": "System.ComponentModel.TypeConverter",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Timers.ElapsedEventHandler::EndInvoke(System.IAsyncResult):System.Void",
@@ -168,7 +170,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Timers.ElapsedEventHandler",
-          "declaringAssemblyName": "System.ComponentModel.TypeConverter"
+          "declaringAssemblyName": "System.ComponentModel.TypeConverter",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
@@ -181,7 +184,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.ICloneable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
@@ -194,7 +198,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.Serialization.ISerializable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Timers.ElapsedEventHandler::Clone():System.Object",
@@ -207,7 +212,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Timers.ElapsedEventHandler",
-          "declaringAssemblyName": "System.ComponentModel.TypeConverter"
+          "declaringAssemblyName": "System.ComponentModel.TypeConverter",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Timers.ElapsedEventHandler::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
@@ -220,7 +226,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Timers.ElapsedEventHandler",
-          "declaringAssemblyName": "System.ComponentModel.TypeConverter"
+          "declaringAssemblyName": "System.ComponentModel.TypeConverter",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -612,7 +619,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Timers.Timer",
-          "declaringAssemblyName": "System.ComponentModel.TypeConverter"
+          "declaringAssemblyName": "System.ComponentModel.TypeConverter",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Timers.Timer::Close():System.Void",
@@ -625,7 +633,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Timers.Timer",
-          "declaringAssemblyName": "System.ComponentModel.TypeConverter"
+          "declaringAssemblyName": "System.ComponentModel.TypeConverter",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Timers.Timer::EndInit():System.Void",
@@ -638,7 +647,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Timers.Timer",
-          "declaringAssemblyName": "System.ComponentModel.TypeConverter"
+          "declaringAssemblyName": "System.ComponentModel.TypeConverter",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Timers.Timer::Start():System.Void",
@@ -651,7 +661,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Timers.Timer",
-          "declaringAssemblyName": "System.ComponentModel.TypeConverter"
+          "declaringAssemblyName": "System.ComponentModel.TypeConverter",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Timers.Timer::Stop():System.Void",
@@ -664,7 +675,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Timers.Timer",
-          "declaringAssemblyName": "System.ComponentModel.TypeConverter"
+          "declaringAssemblyName": "System.ComponentModel.TypeConverter",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
@@ -677,7 +689,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.IDisposable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.Primitives:System.ComponentModel.ISupportInitialize::BeginInit():System.Void",
@@ -690,7 +703,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.ComponentModel.ISupportInitialize",
-          "declaringAssemblyName": "System.ComponentModel.Primitives"
+          "declaringAssemblyName": "System.ComponentModel.Primitives",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Timers.Timer::Dispose():System.Void",
@@ -703,7 +717,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Timers.Timer",
-          "declaringAssemblyName": "System.ComponentModel.TypeConverter"
+          "declaringAssemblyName": "System.ComponentModel.TypeConverter",
+          "isExtensionMethod": false
         }
       ],
       "properties": [

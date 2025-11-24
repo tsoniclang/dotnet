@@ -2725,7 +2725,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Diagnostics.Contracts.ContractException",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
@@ -2738,7 +2739,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.Serialization.ISerializable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -3057,7 +3059,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Diagnostics.Contracts.ContractFailedEventArgs",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.ContractFailedEventArgs::SetUnwind():System.Void",
@@ -3070,7 +3073,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Diagnostics.Contracts.ContractFailedEventArgs",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -6649,7 +6653,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Diagnostics.Contracts.Contract",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.Contract::Assume(System.Boolean,System.String):System.Void",
@@ -6662,7 +6667,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Diagnostics.Contracts.Contract",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.Contract::Assert(System.Boolean):System.Void",
@@ -6675,7 +6681,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Diagnostics.Contracts.Contract",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.Contract::Assert(System.Boolean,System.String):System.Void",
@@ -6688,7 +6695,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Diagnostics.Contracts.Contract",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.Contract::Requires(System.Boolean):System.Void",
@@ -6701,7 +6709,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Diagnostics.Contracts.Contract",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.Contract::Requires(System.Boolean,System.String):System.Void",
@@ -6714,7 +6723,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Diagnostics.Contracts.Contract",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.Contract::Ensures(System.Boolean):System.Void",
@@ -6727,7 +6737,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Diagnostics.Contracts.Contract",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.Contract::Ensures(System.Boolean,System.String):System.Void",
@@ -6740,7 +6751,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Diagnostics.Contracts.Contract",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.Contract::EnsuresOnThrow(System.Boolean):System.Void",
@@ -6753,7 +6765,8 @@
           "arity": 1,
           "parameterCount": 1,
           "declaringClrType": "System.Diagnostics.Contracts.Contract",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.Contract::EnsuresOnThrow(System.Boolean,System.String):System.Void",
@@ -6766,7 +6779,8 @@
           "arity": 1,
           "parameterCount": 2,
           "declaringClrType": "System.Diagnostics.Contracts.Contract",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.Contract::Result():T",
@@ -6779,7 +6793,8 @@
           "arity": 1,
           "parameterCount": 0,
           "declaringClrType": "System.Diagnostics.Contracts.Contract",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.Contract::ValueAtReturn(T\u0026):T",
@@ -6792,7 +6807,8 @@
           "arity": 1,
           "parameterCount": 1,
           "declaringClrType": "System.Diagnostics.Contracts.Contract",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.Contract::OldValue(T):T",
@@ -6805,7 +6821,8 @@
           "arity": 1,
           "parameterCount": 1,
           "declaringClrType": "System.Diagnostics.Contracts.Contract",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.Contract::Invariant(System.Boolean):System.Void",
@@ -6818,7 +6835,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Diagnostics.Contracts.Contract",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.Contract::Invariant(System.Boolean,System.String):System.Void",
@@ -6831,7 +6849,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Diagnostics.Contracts.Contract",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.Contract::ForAll(System.Int32,System.Int32,System.Predicate_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Boolean",
@@ -6844,7 +6863,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Diagnostics.Contracts.Contract",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.Contract::ForAll(IEnumerable_1,Predicate_1):System.Boolean",
@@ -6857,7 +6877,8 @@
           "arity": 1,
           "parameterCount": 2,
           "declaringClrType": "System.Diagnostics.Contracts.Contract",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.Contract::Exists(System.Int32,System.Int32,System.Predicate_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Boolean",
@@ -6870,7 +6891,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Diagnostics.Contracts.Contract",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.Contract::Exists(IEnumerable_1,Predicate_1):System.Boolean",
@@ -6883,7 +6905,8 @@
           "arity": 1,
           "parameterCount": 2,
           "declaringClrType": "System.Diagnostics.Contracts.Contract",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.Contract::EndContractBlock():System.Void",
@@ -6896,7 +6919,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Diagnostics.Contracts.Contract",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],

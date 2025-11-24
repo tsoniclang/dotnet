@@ -120,7 +120,8 @@
           "arity": 1,
           "parameterCount": 0,
           "declaringClrType": "System.Text.Json.Nodes.JsonArray",
-          "declaringAssemblyName": "System.Text.Json"
+          "declaringAssemblyName": "System.Text.Json",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.Json:System.Text.Json.Nodes.JsonArray::Create(System.Text.Json.JsonElement,System.Nullable_1[[System.Text.Json.Nodes.JsonNodeOptions,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Text.Json.Nodes.JsonArray",
@@ -133,7 +134,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Text.Json.Nodes.JsonArray",
-          "declaringAssemblyName": "System.Text.Json"
+          "declaringAssemblyName": "System.Text.Json",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.Json:System.Text.Json.Nodes.JsonArray::Add(T):System.Void",
@@ -146,7 +148,8 @@
           "arity": 1,
           "parameterCount": 1,
           "declaringClrType": "System.Text.Json.Nodes.JsonArray",
-          "declaringAssemblyName": "System.Text.Json"
+          "declaringAssemblyName": "System.Text.Json",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.Json:System.Text.Json.Nodes.JsonArray::WriteTo(System.Text.Json.Utf8JsonWriter,System.Text.Json.JsonSerializerOptions):System.Void",
@@ -159,7 +162,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Text.Json.Nodes.JsonArray",
-          "declaringAssemblyName": "System.Text.Json"
+          "declaringAssemblyName": "System.Text.Json",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.Json:System.Text.Json.Nodes.JsonArray::Add(System.Text.Json.Nodes.JsonNode):System.Void",
@@ -172,7 +176,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Text.Json.Nodes.JsonArray",
-          "declaringAssemblyName": "System.Text.Json"
+          "declaringAssemblyName": "System.Text.Json",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.Json:System.Text.Json.Nodes.JsonArray::Clear():System.Void",
@@ -185,7 +190,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Text.Json.Nodes.JsonArray",
-          "declaringAssemblyName": "System.Text.Json"
+          "declaringAssemblyName": "System.Text.Json",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.Json:System.Text.Json.Nodes.JsonArray::Contains(System.Text.Json.Nodes.JsonNode):System.Boolean",
@@ -198,7 +204,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Text.Json.Nodes.JsonArray",
-          "declaringAssemblyName": "System.Text.Json"
+          "declaringAssemblyName": "System.Text.Json",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.Json:System.Text.Json.Nodes.JsonArray::IndexOf(System.Text.Json.Nodes.JsonNode):System.Int32",
@@ -211,7 +218,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Text.Json.Nodes.JsonArray",
-          "declaringAssemblyName": "System.Text.Json"
+          "declaringAssemblyName": "System.Text.Json",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.Json:System.Text.Json.Nodes.JsonArray::Insert(System.Int32,System.Text.Json.Nodes.JsonNode):System.Void",
@@ -224,7 +232,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Text.Json.Nodes.JsonArray",
-          "declaringAssemblyName": "System.Text.Json"
+          "declaringAssemblyName": "System.Text.Json",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.Json:System.Text.Json.Nodes.JsonArray::Remove(System.Text.Json.Nodes.JsonNode):System.Boolean",
@@ -237,7 +246,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Text.Json.Nodes.JsonArray",
-          "declaringAssemblyName": "System.Text.Json"
+          "declaringAssemblyName": "System.Text.Json",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.Json:System.Text.Json.Nodes.JsonArray::RemoveAt(System.Int32):System.Void",
@@ -250,7 +260,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Text.Json.Nodes.JsonArray",
-          "declaringAssemblyName": "System.Text.Json"
+          "declaringAssemblyName": "System.Text.Json",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.Json:System.Text.Json.Nodes.JsonArray::RemoveAll(System.Func_2[[System.Text.Json.Nodes.JsonNode,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51],[System.Boolean,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32",
@@ -263,7 +274,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Text.Json.Nodes.JsonArray",
-          "declaringAssemblyName": "System.Text.Json"
+          "declaringAssemblyName": "System.Text.Json",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.Json:System.Text.Json.Nodes.JsonArray::RemoveRange(System.Int32,System.Int32):System.Void",
@@ -276,7 +288,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Text.Json.Nodes.JsonArray",
-          "declaringAssemblyName": "System.Text.Json"
+          "declaringAssemblyName": "System.Text.Json",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.Json:System.Text.Json.Nodes.JsonArray::GetEnumerator():System.Collections.Generic.IEnumerator_1[[System.Text.Json.Nodes.JsonNode,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]",
@@ -289,7 +302,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Text.Json.Nodes.JsonArray",
-          "declaringAssemblyName": "System.Text.Json"
+          "declaringAssemblyName": "System.Text.Json",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IList\u00601::IndexOf(T):System.Int32",
@@ -302,7 +316,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.Generic.IList\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IList\u00601::Insert(System.Int32,T):System.Void",
@@ -315,7 +330,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Collections.Generic.IList\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::Add(T):System.Void",
@@ -328,7 +344,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::Contains(T):System.Boolean",
@@ -341,7 +358,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::CopyTo(T[],System.Int32):System.Void",
@@ -354,7 +372,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IEnumerable\u00601::GetEnumerator():IEnumerator_1",
@@ -367,7 +386,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.Generic.IEnumerable\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
@@ -380,7 +400,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.IEnumerable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IList\u00601::RemoveAt(System.Int32):System.Void",
@@ -393,7 +414,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.Generic.IList\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::Clear():System.Void",
@@ -406,7 +428,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -1137,7 +1160,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Text.Json.Nodes.JsonNode",
-          "declaringAssemblyName": "System.Text.Json"
+          "declaringAssemblyName": "System.Text.Json",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.Json:System.Text.Json.Nodes.JsonNode::AsObject():System.Text.Json.Nodes.JsonObject",
@@ -1150,7 +1174,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Text.Json.Nodes.JsonNode",
-          "declaringAssemblyName": "System.Text.Json"
+          "declaringAssemblyName": "System.Text.Json",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.Json:System.Text.Json.Nodes.JsonNode::AsValue():System.Text.Json.Nodes.JsonValue",
@@ -1163,7 +1188,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Text.Json.Nodes.JsonNode",
-          "declaringAssemblyName": "System.Text.Json"
+          "declaringAssemblyName": "System.Text.Json",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.Json:System.Text.Json.Nodes.JsonNode::GetPath():System.String",
@@ -1176,7 +1202,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Text.Json.Nodes.JsonNode",
-          "declaringAssemblyName": "System.Text.Json"
+          "declaringAssemblyName": "System.Text.Json",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.Json:System.Text.Json.Nodes.JsonNode::GetValue():T",
@@ -1189,7 +1216,8 @@
           "arity": 1,
           "parameterCount": 0,
           "declaringClrType": "System.Text.Json.Nodes.JsonNode",
-          "declaringAssemblyName": "System.Text.Json"
+          "declaringAssemblyName": "System.Text.Json",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.Json:System.Text.Json.Nodes.JsonNode::DeepClone():System.Text.Json.Nodes.JsonNode",
@@ -1202,7 +1230,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Text.Json.Nodes.JsonNode",
-          "declaringAssemblyName": "System.Text.Json"
+          "declaringAssemblyName": "System.Text.Json",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.Json:System.Text.Json.Nodes.JsonNode::GetValueKind():System.Text.Json.JsonValueKind",
@@ -1215,7 +1244,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Text.Json.Nodes.JsonNode",
-          "declaringAssemblyName": "System.Text.Json"
+          "declaringAssemblyName": "System.Text.Json",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.Json:System.Text.Json.Nodes.JsonNode::GetPropertyName():System.String",
@@ -1228,7 +1258,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Text.Json.Nodes.JsonNode",
-          "declaringAssemblyName": "System.Text.Json"
+          "declaringAssemblyName": "System.Text.Json",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.Json:System.Text.Json.Nodes.JsonNode::GetElementIndex():System.Int32",
@@ -1241,7 +1272,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Text.Json.Nodes.JsonNode",
-          "declaringAssemblyName": "System.Text.Json"
+          "declaringAssemblyName": "System.Text.Json",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.Json:System.Text.Json.Nodes.JsonNode::DeepEquals(System.Text.Json.Nodes.JsonNode,System.Text.Json.Nodes.JsonNode):System.Boolean",
@@ -1254,7 +1286,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Text.Json.Nodes.JsonNode",
-          "declaringAssemblyName": "System.Text.Json"
+          "declaringAssemblyName": "System.Text.Json",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.Json:System.Text.Json.Nodes.JsonNode::ReplaceWith(T):System.Void",
@@ -1267,7 +1300,8 @@
           "arity": 1,
           "parameterCount": 1,
           "declaringClrType": "System.Text.Json.Nodes.JsonNode",
-          "declaringAssemblyName": "System.Text.Json"
+          "declaringAssemblyName": "System.Text.Json",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.Json:System.Text.Json.Nodes.JsonNode::Parse(System.Text.Json.Utf8JsonReader\u0026,System.Nullable_1[[System.Text.Json.Nodes.JsonNodeOptions,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Text.Json.Nodes.JsonNode",
@@ -1280,7 +1314,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Text.Json.Nodes.JsonNode",
-          "declaringAssemblyName": "System.Text.Json"
+          "declaringAssemblyName": "System.Text.Json",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.Json:System.Text.Json.Nodes.JsonNode::Parse(System.String,System.Nullable_1[[System.Text.Json.Nodes.JsonNodeOptions,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]],System.Text.Json.JsonDocumentOptions):System.Text.Json.Nodes.JsonNode",
@@ -1293,7 +1328,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Text.Json.Nodes.JsonNode",
-          "declaringAssemblyName": "System.Text.Json"
+          "declaringAssemblyName": "System.Text.Json",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.Json:System.Text.Json.Nodes.JsonNode::Parse(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Nullable_1[[System.Text.Json.Nodes.JsonNodeOptions,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]],System.Text.Json.JsonDocumentOptions):System.Text.Json.Nodes.JsonNode",
@@ -1306,7 +1342,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Text.Json.Nodes.JsonNode",
-          "declaringAssemblyName": "System.Text.Json"
+          "declaringAssemblyName": "System.Text.Json",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.Json:System.Text.Json.Nodes.JsonNode::Parse(System.IO.Stream,System.Nullable_1[[System.Text.Json.Nodes.JsonNodeOptions,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]],System.Text.Json.JsonDocumentOptions):System.Text.Json.Nodes.JsonNode",
@@ -1319,7 +1356,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Text.Json.Nodes.JsonNode",
-          "declaringAssemblyName": "System.Text.Json"
+          "declaringAssemblyName": "System.Text.Json",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.Json:System.Text.Json.Nodes.JsonNode::ParseAsync(System.IO.Stream,System.Nullable_1[[System.Text.Json.Nodes.JsonNodeOptions,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]],System.Text.Json.JsonDocumentOptions,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Text.Json.Nodes.JsonNode,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]",
@@ -1332,7 +1370,8 @@
           "arity": 0,
           "parameterCount": 4,
           "declaringClrType": "System.Text.Json.Nodes.JsonNode",
-          "declaringAssemblyName": "System.Text.Json"
+          "declaringAssemblyName": "System.Text.Json",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.Json:System.Text.Json.Nodes.JsonNode::ToJsonString(System.Text.Json.JsonSerializerOptions):System.String",
@@ -1345,7 +1384,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Text.Json.Nodes.JsonNode",
-          "declaringAssemblyName": "System.Text.Json"
+          "declaringAssemblyName": "System.Text.Json",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.Json:System.Text.Json.Nodes.JsonNode::ToString():System.String",
@@ -1358,7 +1398,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Text.Json.Nodes.JsonNode",
-          "declaringAssemblyName": "System.Text.Json"
+          "declaringAssemblyName": "System.Text.Json",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.Json:System.Text.Json.Nodes.JsonNode::WriteTo(System.Text.Json.Utf8JsonWriter,System.Text.Json.JsonSerializerOptions):System.Void",
@@ -1371,7 +1412,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Text.Json.Nodes.JsonNode",
-          "declaringAssemblyName": "System.Text.Json"
+          "declaringAssemblyName": "System.Text.Json",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.Json:System.Text.Json.Nodes.JsonNode::get_Item(System.Int32):System.Text.Json.Nodes.JsonNode",
@@ -1384,7 +1426,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Text.Json.Nodes.JsonNode",
-          "declaringAssemblyName": "System.Text.Json"
+          "declaringAssemblyName": "System.Text.Json",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.Json:System.Text.Json.Nodes.JsonNode::set_Item(System.Int32,System.Text.Json.Nodes.JsonNode):System.Void",
@@ -1397,7 +1440,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Text.Json.Nodes.JsonNode",
-          "declaringAssemblyName": "System.Text.Json"
+          "declaringAssemblyName": "System.Text.Json",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.Json:System.Text.Json.Nodes.JsonNode::get_Item(System.String):System.Text.Json.Nodes.JsonNode",
@@ -1410,7 +1454,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Text.Json.Nodes.JsonNode",
-          "declaringAssemblyName": "System.Text.Json"
+          "declaringAssemblyName": "System.Text.Json",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.Json:System.Text.Json.Nodes.JsonNode::set_Item(System.String,System.Text.Json.Nodes.JsonNode):System.Void",
@@ -1423,7 +1468,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Text.Json.Nodes.JsonNode",
-          "declaringAssemblyName": "System.Text.Json"
+          "declaringAssemblyName": "System.Text.Json",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -1806,7 +1852,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Text.Json.Nodes.JsonObject",
-          "declaringAssemblyName": "System.Text.Json"
+          "declaringAssemblyName": "System.Text.Json",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.Json:System.Text.Json.Nodes.JsonObject::TryGetPropertyValue(System.String,System.Text.Json.Nodes.JsonNode\u0026):System.Boolean",
@@ -1819,7 +1866,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Text.Json.Nodes.JsonObject",
-          "declaringAssemblyName": "System.Text.Json"
+          "declaringAssemblyName": "System.Text.Json",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.Json:System.Text.Json.Nodes.JsonObject::TryGetPropertyValue(System.String,System.Text.Json.Nodes.JsonNode\u0026,System.Int32\u0026):System.Boolean",
@@ -1832,7 +1880,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Text.Json.Nodes.JsonObject",
-          "declaringAssemblyName": "System.Text.Json"
+          "declaringAssemblyName": "System.Text.Json",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.Json:System.Text.Json.Nodes.JsonObject::WriteTo(System.Text.Json.Utf8JsonWriter,System.Text.Json.JsonSerializerOptions):System.Void",
@@ -1845,7 +1894,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Text.Json.Nodes.JsonObject",
-          "declaringAssemblyName": "System.Text.Json"
+          "declaringAssemblyName": "System.Text.Json",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.Json:System.Text.Json.Nodes.JsonObject::Add(System.String,System.Text.Json.Nodes.JsonNode):System.Void",
@@ -1858,7 +1908,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Text.Json.Nodes.JsonObject",
-          "declaringAssemblyName": "System.Text.Json"
+          "declaringAssemblyName": "System.Text.Json",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.Json:System.Text.Json.Nodes.JsonObject::TryAdd(System.String,System.Text.Json.Nodes.JsonNode):System.Boolean",
@@ -1871,7 +1922,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Text.Json.Nodes.JsonObject",
-          "declaringAssemblyName": "System.Text.Json"
+          "declaringAssemblyName": "System.Text.Json",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.Json:System.Text.Json.Nodes.JsonObject::TryAdd(System.String,System.Text.Json.Nodes.JsonNode,System.Int32\u0026):System.Boolean",
@@ -1884,7 +1936,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Text.Json.Nodes.JsonObject",
-          "declaringAssemblyName": "System.Text.Json"
+          "declaringAssemblyName": "System.Text.Json",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.Json:System.Text.Json.Nodes.JsonObject::Add(System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Text.Json.Nodes.JsonNode,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Void",
@@ -1897,7 +1950,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Text.Json.Nodes.JsonObject",
-          "declaringAssemblyName": "System.Text.Json"
+          "declaringAssemblyName": "System.Text.Json",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.Json:System.Text.Json.Nodes.JsonObject::Clear():System.Void",
@@ -1910,7 +1964,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Text.Json.Nodes.JsonObject",
-          "declaringAssemblyName": "System.Text.Json"
+          "declaringAssemblyName": "System.Text.Json",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.Json:System.Text.Json.Nodes.JsonObject::ContainsKey(System.String):System.Boolean",
@@ -1923,7 +1978,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Text.Json.Nodes.JsonObject",
-          "declaringAssemblyName": "System.Text.Json"
+          "declaringAssemblyName": "System.Text.Json",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.Json:System.Text.Json.Nodes.JsonObject::Remove(System.String):System.Boolean",
@@ -1936,7 +1992,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Text.Json.Nodes.JsonObject",
-          "declaringAssemblyName": "System.Text.Json"
+          "declaringAssemblyName": "System.Text.Json",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.Json:System.Text.Json.Nodes.JsonObject::GetEnumerator():System.Collections.Generic.IEnumerator_1[[System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Text.Json.Nodes.JsonNode,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
@@ -1949,7 +2006,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Text.Json.Nodes.JsonObject",
-          "declaringAssemblyName": "System.Text.Json"
+          "declaringAssemblyName": "System.Text.Json",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.Json:System.Text.Json.Nodes.JsonObject::GetAt(System.Int32):System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Text.Json.Nodes.JsonNode,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]",
@@ -1962,7 +2020,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Text.Json.Nodes.JsonObject",
-          "declaringAssemblyName": "System.Text.Json"
+          "declaringAssemblyName": "System.Text.Json",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.Json:System.Text.Json.Nodes.JsonObject::SetAt(System.Int32,System.String,System.Text.Json.Nodes.JsonNode):System.Void",
@@ -1975,7 +2034,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Text.Json.Nodes.JsonObject",
-          "declaringAssemblyName": "System.Text.Json"
+          "declaringAssemblyName": "System.Text.Json",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.Json:System.Text.Json.Nodes.JsonObject::SetAt(System.Int32,System.Text.Json.Nodes.JsonNode):System.Void",
@@ -1988,7 +2048,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Text.Json.Nodes.JsonObject",
-          "declaringAssemblyName": "System.Text.Json"
+          "declaringAssemblyName": "System.Text.Json",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.Json:System.Text.Json.Nodes.JsonObject::IndexOf(System.String):System.Int32",
@@ -2001,7 +2062,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Text.Json.Nodes.JsonObject",
-          "declaringAssemblyName": "System.Text.Json"
+          "declaringAssemblyName": "System.Text.Json",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.Json:System.Text.Json.Nodes.JsonObject::Insert(System.Int32,System.String,System.Text.Json.Nodes.JsonNode):System.Void",
@@ -2014,7 +2076,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Text.Json.Nodes.JsonObject",
-          "declaringAssemblyName": "System.Text.Json"
+          "declaringAssemblyName": "System.Text.Json",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.Json:System.Text.Json.Nodes.JsonObject::RemoveAt(System.Int32):System.Void",
@@ -2027,7 +2090,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Text.Json.Nodes.JsonObject",
-          "declaringAssemblyName": "System.Text.Json"
+          "declaringAssemblyName": "System.Text.Json",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IDictionary\u00602::ContainsKey(TKey):System.Boolean",
@@ -2040,7 +2104,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.Generic.IDictionary\u00602",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IDictionary\u00602::Add(TKey,TValue):System.Void",
@@ -2053,7 +2118,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Collections.Generic.IDictionary\u00602",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IDictionary\u00602::TryGetValue(TKey,TValue\u0026):System.Boolean",
@@ -2066,7 +2132,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Collections.Generic.IDictionary\u00602",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::Add(T):System.Void",
@@ -2079,7 +2146,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::Contains(T):System.Boolean",
@@ -2092,7 +2160,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::CopyTo(T[],System.Int32):System.Void",
@@ -2105,7 +2174,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IEnumerable\u00601::GetEnumerator():IEnumerator_1",
@@ -2118,7 +2188,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.Generic.IEnumerable\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
@@ -2131,7 +2202,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.IEnumerable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IList\u00601::IndexOf(T):System.Int32",
@@ -2144,7 +2216,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.Generic.IList\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IList\u00601::Insert(System.Int32,T):System.Void",
@@ -2157,7 +2230,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Collections.Generic.IList\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::Clear():System.Void",
@@ -2170,7 +2244,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IList\u00601::RemoveAt(System.Int32):System.Void",
@@ -2183,7 +2258,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.Generic.IList\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -2975,7 +3051,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Text.Json.Nodes.JsonValue",
-          "declaringAssemblyName": "System.Text.Json"
+          "declaringAssemblyName": "System.Text.Json",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.Json:System.Text.Json.Nodes.JsonValue::Create(System.Nullable_1[[System.Boolean,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Nullable_1[[System.Text.Json.Nodes.JsonNodeOptions,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Text.Json.Nodes.JsonValue",
@@ -2988,7 +3065,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Text.Json.Nodes.JsonValue",
-          "declaringAssemblyName": "System.Text.Json"
+          "declaringAssemblyName": "System.Text.Json",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.Json:System.Text.Json.Nodes.JsonValue::Create(System.Byte,System.Nullable_1[[System.Text.Json.Nodes.JsonNodeOptions,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Text.Json.Nodes.JsonValue",
@@ -3001,7 +3079,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Text.Json.Nodes.JsonValue",
-          "declaringAssemblyName": "System.Text.Json"
+          "declaringAssemblyName": "System.Text.Json",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.Json:System.Text.Json.Nodes.JsonValue::Create(System.Nullable_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Nullable_1[[System.Text.Json.Nodes.JsonNodeOptions,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Text.Json.Nodes.JsonValue",
@@ -3014,7 +3093,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Text.Json.Nodes.JsonValue",
-          "declaringAssemblyName": "System.Text.Json"
+          "declaringAssemblyName": "System.Text.Json",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.Json:System.Text.Json.Nodes.JsonValue::Create(System.Char,System.Nullable_1[[System.Text.Json.Nodes.JsonNodeOptions,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Text.Json.Nodes.JsonValue",
@@ -3027,7 +3107,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Text.Json.Nodes.JsonValue",
-          "declaringAssemblyName": "System.Text.Json"
+          "declaringAssemblyName": "System.Text.Json",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.Json:System.Text.Json.Nodes.JsonValue::Create(System.Nullable_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Nullable_1[[System.Text.Json.Nodes.JsonNodeOptions,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Text.Json.Nodes.JsonValue",
@@ -3040,7 +3121,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Text.Json.Nodes.JsonValue",
-          "declaringAssemblyName": "System.Text.Json"
+          "declaringAssemblyName": "System.Text.Json",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.Json:System.Text.Json.Nodes.JsonValue::Create(System.DateTime,System.Nullable_1[[System.Text.Json.Nodes.JsonNodeOptions,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Text.Json.Nodes.JsonValue",
@@ -3053,7 +3135,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Text.Json.Nodes.JsonValue",
-          "declaringAssemblyName": "System.Text.Json"
+          "declaringAssemblyName": "System.Text.Json",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.Json:System.Text.Json.Nodes.JsonValue::Create(System.Nullable_1[[System.DateTime,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Nullable_1[[System.Text.Json.Nodes.JsonNodeOptions,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Text.Json.Nodes.JsonValue",
@@ -3066,7 +3149,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Text.Json.Nodes.JsonValue",
-          "declaringAssemblyName": "System.Text.Json"
+          "declaringAssemblyName": "System.Text.Json",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.Json:System.Text.Json.Nodes.JsonValue::Create(System.DateTimeOffset,System.Nullable_1[[System.Text.Json.Nodes.JsonNodeOptions,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Text.Json.Nodes.JsonValue",
@@ -3079,7 +3163,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Text.Json.Nodes.JsonValue",
-          "declaringAssemblyName": "System.Text.Json"
+          "declaringAssemblyName": "System.Text.Json",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.Json:System.Text.Json.Nodes.JsonValue::Create(System.Nullable_1[[System.DateTimeOffset,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Nullable_1[[System.Text.Json.Nodes.JsonNodeOptions,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Text.Json.Nodes.JsonValue",
@@ -3092,7 +3177,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Text.Json.Nodes.JsonValue",
-          "declaringAssemblyName": "System.Text.Json"
+          "declaringAssemblyName": "System.Text.Json",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.Json:System.Text.Json.Nodes.JsonValue::Create(System.Decimal,System.Nullable_1[[System.Text.Json.Nodes.JsonNodeOptions,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Text.Json.Nodes.JsonValue",
@@ -3105,7 +3191,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Text.Json.Nodes.JsonValue",
-          "declaringAssemblyName": "System.Text.Json"
+          "declaringAssemblyName": "System.Text.Json",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.Json:System.Text.Json.Nodes.JsonValue::Create(System.Nullable_1[[System.Decimal,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Nullable_1[[System.Text.Json.Nodes.JsonNodeOptions,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Text.Json.Nodes.JsonValue",
@@ -3118,7 +3205,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Text.Json.Nodes.JsonValue",
-          "declaringAssemblyName": "System.Text.Json"
+          "declaringAssemblyName": "System.Text.Json",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.Json:System.Text.Json.Nodes.JsonValue::Create(System.Double,System.Nullable_1[[System.Text.Json.Nodes.JsonNodeOptions,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Text.Json.Nodes.JsonValue",
@@ -3131,7 +3219,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Text.Json.Nodes.JsonValue",
-          "declaringAssemblyName": "System.Text.Json"
+          "declaringAssemblyName": "System.Text.Json",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.Json:System.Text.Json.Nodes.JsonValue::Create(System.Nullable_1[[System.Double,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Nullable_1[[System.Text.Json.Nodes.JsonNodeOptions,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Text.Json.Nodes.JsonValue",
@@ -3144,7 +3233,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Text.Json.Nodes.JsonValue",
-          "declaringAssemblyName": "System.Text.Json"
+          "declaringAssemblyName": "System.Text.Json",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.Json:System.Text.Json.Nodes.JsonValue::Create(System.Guid,System.Nullable_1[[System.Text.Json.Nodes.JsonNodeOptions,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Text.Json.Nodes.JsonValue",
@@ -3157,7 +3247,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Text.Json.Nodes.JsonValue",
-          "declaringAssemblyName": "System.Text.Json"
+          "declaringAssemblyName": "System.Text.Json",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.Json:System.Text.Json.Nodes.JsonValue::Create(System.Nullable_1[[System.Guid,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Nullable_1[[System.Text.Json.Nodes.JsonNodeOptions,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Text.Json.Nodes.JsonValue",
@@ -3170,7 +3261,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Text.Json.Nodes.JsonValue",
-          "declaringAssemblyName": "System.Text.Json"
+          "declaringAssemblyName": "System.Text.Json",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.Json:System.Text.Json.Nodes.JsonValue::Create(System.Int16,System.Nullable_1[[System.Text.Json.Nodes.JsonNodeOptions,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Text.Json.Nodes.JsonValue",
@@ -3183,7 +3275,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Text.Json.Nodes.JsonValue",
-          "declaringAssemblyName": "System.Text.Json"
+          "declaringAssemblyName": "System.Text.Json",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.Json:System.Text.Json.Nodes.JsonValue::Create(System.Nullable_1[[System.Int16,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Nullable_1[[System.Text.Json.Nodes.JsonNodeOptions,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Text.Json.Nodes.JsonValue",
@@ -3196,7 +3289,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Text.Json.Nodes.JsonValue",
-          "declaringAssemblyName": "System.Text.Json"
+          "declaringAssemblyName": "System.Text.Json",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.Json:System.Text.Json.Nodes.JsonValue::Create(System.Int32,System.Nullable_1[[System.Text.Json.Nodes.JsonNodeOptions,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Text.Json.Nodes.JsonValue",
@@ -3209,7 +3303,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Text.Json.Nodes.JsonValue",
-          "declaringAssemblyName": "System.Text.Json"
+          "declaringAssemblyName": "System.Text.Json",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.Json:System.Text.Json.Nodes.JsonValue::Create(System.Nullable_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Nullable_1[[System.Text.Json.Nodes.JsonNodeOptions,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Text.Json.Nodes.JsonValue",
@@ -3222,7 +3317,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Text.Json.Nodes.JsonValue",
-          "declaringAssemblyName": "System.Text.Json"
+          "declaringAssemblyName": "System.Text.Json",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.Json:System.Text.Json.Nodes.JsonValue::Create(System.Int64,System.Nullable_1[[System.Text.Json.Nodes.JsonNodeOptions,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Text.Json.Nodes.JsonValue",
@@ -3235,7 +3331,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Text.Json.Nodes.JsonValue",
-          "declaringAssemblyName": "System.Text.Json"
+          "declaringAssemblyName": "System.Text.Json",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.Json:System.Text.Json.Nodes.JsonValue::Create(System.Nullable_1[[System.Int64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Nullable_1[[System.Text.Json.Nodes.JsonNodeOptions,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Text.Json.Nodes.JsonValue",
@@ -3248,7 +3345,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Text.Json.Nodes.JsonValue",
-          "declaringAssemblyName": "System.Text.Json"
+          "declaringAssemblyName": "System.Text.Json",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.Json:System.Text.Json.Nodes.JsonValue::Create(System.SByte,System.Nullable_1[[System.Text.Json.Nodes.JsonNodeOptions,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Text.Json.Nodes.JsonValue",
@@ -3261,7 +3359,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Text.Json.Nodes.JsonValue",
-          "declaringAssemblyName": "System.Text.Json"
+          "declaringAssemblyName": "System.Text.Json",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.Json:System.Text.Json.Nodes.JsonValue::Create(System.Nullable_1[[System.SByte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Nullable_1[[System.Text.Json.Nodes.JsonNodeOptions,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Text.Json.Nodes.JsonValue",
@@ -3274,7 +3373,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Text.Json.Nodes.JsonValue",
-          "declaringAssemblyName": "System.Text.Json"
+          "declaringAssemblyName": "System.Text.Json",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.Json:System.Text.Json.Nodes.JsonValue::Create(System.Single,System.Nullable_1[[System.Text.Json.Nodes.JsonNodeOptions,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Text.Json.Nodes.JsonValue",
@@ -3287,7 +3387,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Text.Json.Nodes.JsonValue",
-          "declaringAssemblyName": "System.Text.Json"
+          "declaringAssemblyName": "System.Text.Json",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.Json:System.Text.Json.Nodes.JsonValue::Create(System.Nullable_1[[System.Single,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Nullable_1[[System.Text.Json.Nodes.JsonNodeOptions,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Text.Json.Nodes.JsonValue",
@@ -3300,7 +3401,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Text.Json.Nodes.JsonValue",
-          "declaringAssemblyName": "System.Text.Json"
+          "declaringAssemblyName": "System.Text.Json",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.Json:System.Text.Json.Nodes.JsonValue::Create(System.String,System.Nullable_1[[System.Text.Json.Nodes.JsonNodeOptions,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Text.Json.Nodes.JsonValue",
@@ -3313,7 +3415,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Text.Json.Nodes.JsonValue",
-          "declaringAssemblyName": "System.Text.Json"
+          "declaringAssemblyName": "System.Text.Json",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.Json:System.Text.Json.Nodes.JsonValue::Create(System.UInt16,System.Nullable_1[[System.Text.Json.Nodes.JsonNodeOptions,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Text.Json.Nodes.JsonValue",
@@ -3326,7 +3429,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Text.Json.Nodes.JsonValue",
-          "declaringAssemblyName": "System.Text.Json"
+          "declaringAssemblyName": "System.Text.Json",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.Json:System.Text.Json.Nodes.JsonValue::Create(System.Nullable_1[[System.UInt16,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Nullable_1[[System.Text.Json.Nodes.JsonNodeOptions,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Text.Json.Nodes.JsonValue",
@@ -3339,7 +3443,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Text.Json.Nodes.JsonValue",
-          "declaringAssemblyName": "System.Text.Json"
+          "declaringAssemblyName": "System.Text.Json",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.Json:System.Text.Json.Nodes.JsonValue::Create(System.UInt32,System.Nullable_1[[System.Text.Json.Nodes.JsonNodeOptions,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Text.Json.Nodes.JsonValue",
@@ -3352,7 +3457,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Text.Json.Nodes.JsonValue",
-          "declaringAssemblyName": "System.Text.Json"
+          "declaringAssemblyName": "System.Text.Json",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.Json:System.Text.Json.Nodes.JsonValue::Create(System.Nullable_1[[System.UInt32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Nullable_1[[System.Text.Json.Nodes.JsonNodeOptions,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Text.Json.Nodes.JsonValue",
@@ -3365,7 +3471,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Text.Json.Nodes.JsonValue",
-          "declaringAssemblyName": "System.Text.Json"
+          "declaringAssemblyName": "System.Text.Json",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.Json:System.Text.Json.Nodes.JsonValue::Create(System.UInt64,System.Nullable_1[[System.Text.Json.Nodes.JsonNodeOptions,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Text.Json.Nodes.JsonValue",
@@ -3378,7 +3485,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Text.Json.Nodes.JsonValue",
-          "declaringAssemblyName": "System.Text.Json"
+          "declaringAssemblyName": "System.Text.Json",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.Json:System.Text.Json.Nodes.JsonValue::Create(System.Nullable_1[[System.UInt64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Nullable_1[[System.Text.Json.Nodes.JsonNodeOptions,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Text.Json.Nodes.JsonValue",
@@ -3391,7 +3499,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Text.Json.Nodes.JsonValue",
-          "declaringAssemblyName": "System.Text.Json"
+          "declaringAssemblyName": "System.Text.Json",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.Json:System.Text.Json.Nodes.JsonValue::Create(System.Text.Json.JsonElement,System.Nullable_1[[System.Text.Json.Nodes.JsonNodeOptions,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Text.Json.Nodes.JsonValue",
@@ -3404,7 +3513,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Text.Json.Nodes.JsonValue",
-          "declaringAssemblyName": "System.Text.Json"
+          "declaringAssemblyName": "System.Text.Json",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.Json:System.Text.Json.Nodes.JsonValue::Create(System.Nullable_1[[System.Text.Json.JsonElement,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]],System.Nullable_1[[System.Text.Json.Nodes.JsonNodeOptions,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Text.Json.Nodes.JsonValue",
@@ -3417,7 +3527,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Text.Json.Nodes.JsonValue",
-          "declaringAssemblyName": "System.Text.Json"
+          "declaringAssemblyName": "System.Text.Json",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.Json:System.Text.Json.Nodes.JsonValue::TryGetValue(T\u0026):System.Boolean",
@@ -3430,7 +3541,8 @@
           "arity": 1,
           "parameterCount": 1,
           "declaringClrType": "System.Text.Json.Nodes.JsonValue",
-          "declaringAssemblyName": "System.Text.Json"
+          "declaringAssemblyName": "System.Text.Json",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.Json:System.Text.Json.Nodes.JsonValue::Create(T,System.Nullable_1[[System.Text.Json.Nodes.JsonNodeOptions,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Text.Json.Nodes.JsonValue",
@@ -3443,7 +3555,8 @@
           "arity": 1,
           "parameterCount": 2,
           "declaringClrType": "System.Text.Json.Nodes.JsonValue",
-          "declaringAssemblyName": "System.Text.Json"
+          "declaringAssemblyName": "System.Text.Json",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.Json:System.Text.Json.Nodes.JsonValue::Create(T,JsonTypeInfo_1,System.Nullable_1[[System.Text.Json.Nodes.JsonNodeOptions,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Text.Json.Nodes.JsonValue",
@@ -3456,7 +3569,8 @@
           "arity": 1,
           "parameterCount": 3,
           "declaringClrType": "System.Text.Json.Nodes.JsonValue",
-          "declaringAssemblyName": "System.Text.Json"
+          "declaringAssemblyName": "System.Text.Json",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],

@@ -5668,7 +5668,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Transactions.IDtcTransaction",
-          "declaringAssemblyName": "System.Transactions.Local"
+          "declaringAssemblyName": "System.Transactions.Local",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Transactions.Local:System.Transactions.IDtcTransaction::Abort(System.IntPtr,System.Int32,System.Int32):System.Void",
@@ -5681,7 +5682,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Transactions.IDtcTransaction",
-          "declaringAssemblyName": "System.Transactions.Local"
+          "declaringAssemblyName": "System.Transactions.Local",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Transactions.Local:System.Transactions.IDtcTransaction::GetTransactionInfo(System.IntPtr):System.Void",
@@ -5694,7 +5696,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Transactions.IDtcTransaction",
-          "declaringAssemblyName": "System.Transactions.Local"
+          "declaringAssemblyName": "System.Transactions.Local",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -5752,7 +5755,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Transactions.IEnlistmentNotification",
-          "declaringAssemblyName": "System.Transactions.Local"
+          "declaringAssemblyName": "System.Transactions.Local",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Transactions.Local:System.Transactions.IEnlistmentNotification::Commit(System.Transactions.Enlistment):System.Void",
@@ -5765,7 +5769,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Transactions.IEnlistmentNotification",
-          "declaringAssemblyName": "System.Transactions.Local"
+          "declaringAssemblyName": "System.Transactions.Local",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -5813,7 +5818,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Transactions.IPromotableSinglePhaseNotification",
-          "declaringAssemblyName": "System.Transactions.Local"
+          "declaringAssemblyName": "System.Transactions.Local",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Transactions.Local:System.Transactions.IPromotableSinglePhaseNotification::SinglePhaseCommit(System.Transactions.SinglePhaseEnlistment):System.Void",
@@ -5826,7 +5832,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Transactions.IPromotableSinglePhaseNotification",
-          "declaringAssemblyName": "System.Transactions.Local"
+          "declaringAssemblyName": "System.Transactions.Local",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Transactions.Local:System.Transactions.ITransactionPromoter::Promote():System.Byte[]",
@@ -5839,7 +5846,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Transactions.ITransactionPromoter",
-          "declaringAssemblyName": "System.Transactions.Local"
+          "declaringAssemblyName": "System.Transactions.Local",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -5897,7 +5905,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Transactions.ISimpleTransactionSuperior",
-          "declaringAssemblyName": "System.Transactions.Local"
+          "declaringAssemblyName": "System.Transactions.Local",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Transactions.Local:System.Transactions.ITransactionPromoter::Promote():System.Byte[]",
@@ -5910,7 +5919,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Transactions.ITransactionPromoter",
-          "declaringAssemblyName": "System.Transactions.Local"
+          "declaringAssemblyName": "System.Transactions.Local",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -5958,7 +5968,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Transactions.ISinglePhaseNotification",
-          "declaringAssemblyName": "System.Transactions.Local"
+          "declaringAssemblyName": "System.Transactions.Local",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Transactions.Local:System.Transactions.IEnlistmentNotification::Prepare(System.Transactions.PreparingEnlistment):System.Void",
@@ -5971,7 +5982,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Transactions.IEnlistmentNotification",
-          "declaringAssemblyName": "System.Transactions.Local"
+          "declaringAssemblyName": "System.Transactions.Local",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Transactions.Local:System.Transactions.IEnlistmentNotification::Commit(System.Transactions.Enlistment):System.Void",
@@ -5984,7 +5996,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Transactions.IEnlistmentNotification",
-          "declaringAssemblyName": "System.Transactions.Local"
+          "declaringAssemblyName": "System.Transactions.Local",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -6042,7 +6055,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Transactions.ITransactionPromoter",
-          "declaringAssemblyName": "System.Transactions.Local"
+          "declaringAssemblyName": "System.Transactions.Local",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -6080,7 +6094,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Transactions.TransactionOptions",
-          "declaringAssemblyName": "System.Transactions.Local"
+          "declaringAssemblyName": "System.Transactions.Local",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Transactions.Local:System.Transactions.TransactionOptions::Equals(System.Object):System.Boolean",
@@ -6093,7 +6108,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Transactions.TransactionOptions",
-          "declaringAssemblyName": "System.Transactions.Local"
+          "declaringAssemblyName": "System.Transactions.Local",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Transactions.Local:System.Transactions.TransactionOptions::Equals(System.Transactions.TransactionOptions):System.Boolean",
@@ -6106,7 +6122,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Transactions.TransactionOptions",
-          "declaringAssemblyName": "System.Transactions.Local"
+          "declaringAssemblyName": "System.Transactions.Local",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.IEquatable\u00601::Equals(T):System.Boolean",
@@ -6119,7 +6136,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.IEquatable\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -6278,7 +6296,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Transactions.CommittableTransaction",
-          "declaringAssemblyName": "System.Transactions.Local"
+          "declaringAssemblyName": "System.Transactions.Local",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Transactions.Local:System.Transactions.CommittableTransaction::Commit():System.Void",
@@ -6291,7 +6310,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Transactions.CommittableTransaction",
-          "declaringAssemblyName": "System.Transactions.Local"
+          "declaringAssemblyName": "System.Transactions.Local",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Transactions.Local:System.Transactions.CommittableTransaction::EndCommit(System.IAsyncResult):System.Void",
@@ -6304,7 +6324,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Transactions.CommittableTransaction",
-          "declaringAssemblyName": "System.Transactions.Local"
+          "declaringAssemblyName": "System.Transactions.Local",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
@@ -6317,7 +6338,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.IDisposable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
@@ -6330,7 +6352,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.Serialization.ISerializable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Transactions.Local:System.Transactions.CommittableTransaction::Dispose():System.Void",
@@ -6343,7 +6366,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Transactions.CommittableTransaction",
-          "declaringAssemblyName": "System.Transactions.Local"
+          "declaringAssemblyName": "System.Transactions.Local",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Transactions.Local:System.Transactions.CommittableTransaction::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
@@ -6356,7 +6380,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Transactions.CommittableTransaction",
-          "declaringAssemblyName": "System.Transactions.Local"
+          "declaringAssemblyName": "System.Transactions.Local",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -6855,7 +6880,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Transactions.DependentTransaction",
-          "declaringAssemblyName": "System.Transactions.Local"
+          "declaringAssemblyName": "System.Transactions.Local",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
@@ -6868,7 +6894,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.IDisposable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
@@ -6881,7 +6908,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.Serialization.ISerializable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Transactions.Local:System.Transactions.DependentTransaction::Dispose():System.Void",
@@ -6894,7 +6922,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Transactions.DependentTransaction",
-          "declaringAssemblyName": "System.Transactions.Local"
+          "declaringAssemblyName": "System.Transactions.Local",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Transactions.Local:System.Transactions.DependentTransaction::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
@@ -6907,7 +6936,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Transactions.DependentTransaction",
-          "declaringAssemblyName": "System.Transactions.Local"
+          "declaringAssemblyName": "System.Transactions.Local",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -7229,7 +7259,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Transactions.Enlistment",
-          "declaringAssemblyName": "System.Transactions.Local"
+          "declaringAssemblyName": "System.Transactions.Local",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -7327,7 +7358,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Transactions.HostCurrentTransactionCallback",
-          "declaringAssemblyName": "System.Transactions.Local"
+          "declaringAssemblyName": "System.Transactions.Local",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Transactions.Local:System.Transactions.HostCurrentTransactionCallback::BeginInvoke(System.AsyncCallback,System.Object):System.IAsyncResult",
@@ -7340,7 +7372,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Transactions.HostCurrentTransactionCallback",
-          "declaringAssemblyName": "System.Transactions.Local"
+          "declaringAssemblyName": "System.Transactions.Local",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Transactions.Local:System.Transactions.HostCurrentTransactionCallback::EndInvoke(System.IAsyncResult):System.Transactions.Transaction",
@@ -7353,7 +7386,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Transactions.HostCurrentTransactionCallback",
-          "declaringAssemblyName": "System.Transactions.Local"
+          "declaringAssemblyName": "System.Transactions.Local",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
@@ -7366,7 +7400,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.ICloneable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
@@ -7379,7 +7414,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.Serialization.ISerializable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Transactions.Local:System.Transactions.HostCurrentTransactionCallback::Clone():System.Object",
@@ -7392,7 +7428,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Transactions.HostCurrentTransactionCallback",
-          "declaringAssemblyName": "System.Transactions.Local"
+          "declaringAssemblyName": "System.Transactions.Local",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Transactions.Local:System.Transactions.HostCurrentTransactionCallback::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
@@ -7405,7 +7442,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Transactions.HostCurrentTransactionCallback",
-          "declaringAssemblyName": "System.Transactions.Local"
+          "declaringAssemblyName": "System.Transactions.Local",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -7797,7 +7835,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Transactions.PreparingEnlistment",
-          "declaringAssemblyName": "System.Transactions.Local"
+          "declaringAssemblyName": "System.Transactions.Local",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Transactions.Local:System.Transactions.PreparingEnlistment::ForceRollback():System.Void",
@@ -7810,7 +7849,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Transactions.PreparingEnlistment",
-          "declaringAssemblyName": "System.Transactions.Local"
+          "declaringAssemblyName": "System.Transactions.Local",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Transactions.Local:System.Transactions.PreparingEnlistment::ForceRollback(System.Exception):System.Void",
@@ -7823,7 +7863,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Transactions.PreparingEnlistment",
-          "declaringAssemblyName": "System.Transactions.Local"
+          "declaringAssemblyName": "System.Transactions.Local",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Transactions.Local:System.Transactions.PreparingEnlistment::RecoveryInformation():System.Byte[]",
@@ -7836,7 +7877,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Transactions.PreparingEnlistment",
-          "declaringAssemblyName": "System.Transactions.Local"
+          "declaringAssemblyName": "System.Transactions.Local",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -7974,7 +8016,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Transactions.SinglePhaseEnlistment",
-          "declaringAssemblyName": "System.Transactions.Local"
+          "declaringAssemblyName": "System.Transactions.Local",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Transactions.Local:System.Transactions.SinglePhaseEnlistment::Aborted(System.Exception):System.Void",
@@ -7987,7 +8030,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Transactions.SinglePhaseEnlistment",
-          "declaringAssemblyName": "System.Transactions.Local"
+          "declaringAssemblyName": "System.Transactions.Local",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Transactions.Local:System.Transactions.SinglePhaseEnlistment::Committed():System.Void",
@@ -8000,7 +8044,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Transactions.SinglePhaseEnlistment",
-          "declaringAssemblyName": "System.Transactions.Local"
+          "declaringAssemblyName": "System.Transactions.Local",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Transactions.Local:System.Transactions.SinglePhaseEnlistment::InDoubt():System.Void",
@@ -8013,7 +8058,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Transactions.SinglePhaseEnlistment",
-          "declaringAssemblyName": "System.Transactions.Local"
+          "declaringAssemblyName": "System.Transactions.Local",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Transactions.Local:System.Transactions.SinglePhaseEnlistment::InDoubt(System.Exception):System.Void",
@@ -8026,7 +8072,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Transactions.SinglePhaseEnlistment",
-          "declaringAssemblyName": "System.Transactions.Local"
+          "declaringAssemblyName": "System.Transactions.Local",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -8174,7 +8221,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.IDisposable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
@@ -8187,7 +8235,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.Serialization.ISerializable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Transactions.Local:System.Transactions.SubordinateTransaction::Dispose():System.Void",
@@ -8200,7 +8249,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Transactions.SubordinateTransaction",
-          "declaringAssemblyName": "System.Transactions.Local"
+          "declaringAssemblyName": "System.Transactions.Local",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Transactions.Local:System.Transactions.SubordinateTransaction::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
@@ -8213,7 +8263,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Transactions.SubordinateTransaction",
-          "declaringAssemblyName": "System.Transactions.Local"
+          "declaringAssemblyName": "System.Transactions.Local",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -8547,7 +8598,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Transactions.Transaction",
-          "declaringAssemblyName": "System.Transactions.Local"
+          "declaringAssemblyName": "System.Transactions.Local",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Transactions.Local:System.Transactions.Transaction::Equals(System.Object):System.Boolean",
@@ -8560,7 +8612,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Transactions.Transaction",
-          "declaringAssemblyName": "System.Transactions.Local"
+          "declaringAssemblyName": "System.Transactions.Local",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Transactions.Local:System.Transactions.Transaction::GetPromotedToken():System.Byte[]",
@@ -8573,7 +8626,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Transactions.Transaction",
-          "declaringAssemblyName": "System.Transactions.Local"
+          "declaringAssemblyName": "System.Transactions.Local",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Transactions.Local:System.Transactions.Transaction::EnlistDurable(System.Guid,System.Transactions.IEnlistmentNotification,System.Transactions.EnlistmentOptions):System.Transactions.Enlistment",
@@ -8586,7 +8640,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Transactions.Transaction",
-          "declaringAssemblyName": "System.Transactions.Local"
+          "declaringAssemblyName": "System.Transactions.Local",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Transactions.Local:System.Transactions.Transaction::EnlistDurable(System.Guid,System.Transactions.ISinglePhaseNotification,System.Transactions.EnlistmentOptions):System.Transactions.Enlistment",
@@ -8599,7 +8654,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Transactions.Transaction",
-          "declaringAssemblyName": "System.Transactions.Local"
+          "declaringAssemblyName": "System.Transactions.Local",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Transactions.Local:System.Transactions.Transaction::Rollback():System.Void",
@@ -8612,7 +8668,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Transactions.Transaction",
-          "declaringAssemblyName": "System.Transactions.Local"
+          "declaringAssemblyName": "System.Transactions.Local",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Transactions.Local:System.Transactions.Transaction::Rollback(System.Exception):System.Void",
@@ -8625,7 +8682,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Transactions.Transaction",
-          "declaringAssemblyName": "System.Transactions.Local"
+          "declaringAssemblyName": "System.Transactions.Local",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Transactions.Local:System.Transactions.Transaction::EnlistVolatile(System.Transactions.IEnlistmentNotification,System.Transactions.EnlistmentOptions):System.Transactions.Enlistment",
@@ -8638,7 +8696,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Transactions.Transaction",
-          "declaringAssemblyName": "System.Transactions.Local"
+          "declaringAssemblyName": "System.Transactions.Local",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Transactions.Local:System.Transactions.Transaction::EnlistVolatile(System.Transactions.ISinglePhaseNotification,System.Transactions.EnlistmentOptions):System.Transactions.Enlistment",
@@ -8651,7 +8710,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Transactions.Transaction",
-          "declaringAssemblyName": "System.Transactions.Local"
+          "declaringAssemblyName": "System.Transactions.Local",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Transactions.Local:System.Transactions.Transaction::Clone():System.Transactions.Transaction",
@@ -8664,7 +8724,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Transactions.Transaction",
-          "declaringAssemblyName": "System.Transactions.Local"
+          "declaringAssemblyName": "System.Transactions.Local",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Transactions.Local:System.Transactions.Transaction::DependentClone(System.Transactions.DependentCloneOption):System.Transactions.DependentTransaction",
@@ -8677,7 +8738,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Transactions.Transaction",
-          "declaringAssemblyName": "System.Transactions.Local"
+          "declaringAssemblyName": "System.Transactions.Local",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Transactions.Local:System.Transactions.Transaction::Dispose():System.Void",
@@ -8690,7 +8752,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Transactions.Transaction",
-          "declaringAssemblyName": "System.Transactions.Local"
+          "declaringAssemblyName": "System.Transactions.Local",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Transactions.Local:System.Transactions.Transaction::EnlistPromotableSinglePhase(System.Transactions.IPromotableSinglePhaseNotification):System.Boolean",
@@ -8703,7 +8766,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Transactions.Transaction",
-          "declaringAssemblyName": "System.Transactions.Local"
+          "declaringAssemblyName": "System.Transactions.Local",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Transactions.Local:System.Transactions.Transaction::EnlistPromotableSinglePhase(System.Transactions.IPromotableSinglePhaseNotification,System.Guid):System.Boolean",
@@ -8716,7 +8780,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Transactions.Transaction",
-          "declaringAssemblyName": "System.Transactions.Local"
+          "declaringAssemblyName": "System.Transactions.Local",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Transactions.Local:System.Transactions.Transaction::PromoteAndEnlistDurable(System.Guid,System.Transactions.IPromotableSinglePhaseNotification,System.Transactions.ISinglePhaseNotification,System.Transactions.EnlistmentOptions):System.Transactions.Enlistment",
@@ -8729,7 +8794,8 @@
           "arity": 0,
           "parameterCount": 4,
           "declaringClrType": "System.Transactions.Transaction",
-          "declaringAssemblyName": "System.Transactions.Local"
+          "declaringAssemblyName": "System.Transactions.Local",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Transactions.Local:System.Transactions.Transaction::SetDistributedTransactionIdentifier(System.Transactions.IPromotableSinglePhaseNotification,System.Guid):System.Void",
@@ -8742,7 +8808,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Transactions.Transaction",
-          "declaringAssemblyName": "System.Transactions.Local"
+          "declaringAssemblyName": "System.Transactions.Local",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
@@ -8755,7 +8822,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.Serialization.ISerializable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
@@ -8768,7 +8836,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.IDisposable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -9138,7 +9207,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.Serialization.ISerializable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Transactions.Local:System.Transactions.TransactionAbortedException::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
@@ -9151,7 +9221,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Transactions.TransactionAbortedException",
-          "declaringAssemblyName": "System.Transactions.Local"
+          "declaringAssemblyName": "System.Transactions.Local",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -9411,7 +9482,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Transactions.TransactionCompletedEventHandler",
-          "declaringAssemblyName": "System.Transactions.Local"
+          "declaringAssemblyName": "System.Transactions.Local",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Transactions.Local:System.Transactions.TransactionCompletedEventHandler::BeginInvoke(System.Object,System.Transactions.TransactionEventArgs,System.AsyncCallback,System.Object):System.IAsyncResult",
@@ -9424,7 +9496,8 @@
           "arity": 0,
           "parameterCount": 4,
           "declaringClrType": "System.Transactions.TransactionCompletedEventHandler",
-          "declaringAssemblyName": "System.Transactions.Local"
+          "declaringAssemblyName": "System.Transactions.Local",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Transactions.Local:System.Transactions.TransactionCompletedEventHandler::EndInvoke(System.IAsyncResult):System.Void",
@@ -9437,7 +9510,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Transactions.TransactionCompletedEventHandler",
-          "declaringAssemblyName": "System.Transactions.Local"
+          "declaringAssemblyName": "System.Transactions.Local",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
@@ -9450,7 +9524,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.ICloneable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
@@ -9463,7 +9538,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.Serialization.ISerializable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Transactions.Local:System.Transactions.TransactionCompletedEventHandler::Clone():System.Object",
@@ -9476,7 +9552,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Transactions.TransactionCompletedEventHandler",
-          "declaringAssemblyName": "System.Transactions.Local"
+          "declaringAssemblyName": "System.Transactions.Local",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Transactions.Local:System.Transactions.TransactionCompletedEventHandler::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
@@ -9489,7 +9566,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Transactions.TransactionCompletedEventHandler",
-          "declaringAssemblyName": "System.Transactions.Local"
+          "declaringAssemblyName": "System.Transactions.Local",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -10004,7 +10082,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.Serialization.ISerializable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Transactions.Local:System.Transactions.TransactionException::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
@@ -10017,7 +10096,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Transactions.TransactionException",
-          "declaringAssemblyName": "System.Transactions.Local"
+          "declaringAssemblyName": "System.Transactions.Local",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -10277,7 +10357,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.Serialization.ISerializable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Transactions.Local:System.Transactions.TransactionInDoubtException::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
@@ -10290,7 +10371,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Transactions.TransactionInDoubtException",
-          "declaringAssemblyName": "System.Transactions.Local"
+          "declaringAssemblyName": "System.Transactions.Local",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -10723,7 +10805,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.Serialization.ISerializable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Transactions.Local:System.Transactions.TransactionManagerCommunicationException::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
@@ -10736,7 +10819,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Transactions.TransactionManagerCommunicationException",
-          "declaringAssemblyName": "System.Transactions.Local"
+          "declaringAssemblyName": "System.Transactions.Local",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -10996,7 +11080,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.Serialization.ISerializable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Transactions.Local:System.Transactions.TransactionPromotionException::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
@@ -11009,7 +11094,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Transactions.TransactionPromotionException",
-          "declaringAssemblyName": "System.Transactions.Local"
+          "declaringAssemblyName": "System.Transactions.Local",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -11269,7 +11355,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Transactions.TransactionScope",
-          "declaringAssemblyName": "System.Transactions.Local"
+          "declaringAssemblyName": "System.Transactions.Local",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Transactions.Local:System.Transactions.TransactionScope::Complete():System.Void",
@@ -11282,7 +11369,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Transactions.TransactionScope",
-          "declaringAssemblyName": "System.Transactions.Local"
+          "declaringAssemblyName": "System.Transactions.Local",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
@@ -11295,7 +11383,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.IDisposable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -11682,7 +11771,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Transactions.TransactionStartedEventHandler",
-          "declaringAssemblyName": "System.Transactions.Local"
+          "declaringAssemblyName": "System.Transactions.Local",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Transactions.Local:System.Transactions.TransactionStartedEventHandler::BeginInvoke(System.Object,System.Transactions.TransactionEventArgs,System.AsyncCallback,System.Object):System.IAsyncResult",
@@ -11695,7 +11785,8 @@
           "arity": 0,
           "parameterCount": 4,
           "declaringClrType": "System.Transactions.TransactionStartedEventHandler",
-          "declaringAssemblyName": "System.Transactions.Local"
+          "declaringAssemblyName": "System.Transactions.Local",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Transactions.Local:System.Transactions.TransactionStartedEventHandler::EndInvoke(System.IAsyncResult):System.Void",
@@ -11708,7 +11799,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Transactions.TransactionStartedEventHandler",
-          "declaringAssemblyName": "System.Transactions.Local"
+          "declaringAssemblyName": "System.Transactions.Local",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
@@ -11721,7 +11813,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.ICloneable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
@@ -11734,7 +11827,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.Serialization.ISerializable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Transactions.Local:System.Transactions.TransactionStartedEventHandler::Clone():System.Object",
@@ -11747,7 +11841,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Transactions.TransactionStartedEventHandler",
-          "declaringAssemblyName": "System.Transactions.Local"
+          "declaringAssemblyName": "System.Transactions.Local",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Transactions.Local:System.Transactions.TransactionStartedEventHandler::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
@@ -11760,7 +11855,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Transactions.TransactionStartedEventHandler",
-          "declaringAssemblyName": "System.Transactions.Local"
+          "declaringAssemblyName": "System.Transactions.Local",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -12152,7 +12248,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Transactions.TransactionInterop",
-          "declaringAssemblyName": "System.Transactions.Local"
+          "declaringAssemblyName": "System.Transactions.Local",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Transactions.Local:System.Transactions.TransactionInterop::GetTransactionFromExportCookie(System.Byte[]):System.Transactions.Transaction",
@@ -12165,7 +12262,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Transactions.TransactionInterop",
-          "declaringAssemblyName": "System.Transactions.Local"
+          "declaringAssemblyName": "System.Transactions.Local",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Transactions.Local:System.Transactions.TransactionInterop::GetTransmitterPropagationToken(System.Transactions.Transaction):System.Byte[]",
@@ -12178,7 +12276,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Transactions.TransactionInterop",
-          "declaringAssemblyName": "System.Transactions.Local"
+          "declaringAssemblyName": "System.Transactions.Local",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Transactions.Local:System.Transactions.TransactionInterop::GetTransactionFromTransmitterPropagationToken(System.Byte[]):System.Transactions.Transaction",
@@ -12191,7 +12290,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Transactions.TransactionInterop",
-          "declaringAssemblyName": "System.Transactions.Local"
+          "declaringAssemblyName": "System.Transactions.Local",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Transactions.Local:System.Transactions.TransactionInterop::GetDtcTransaction(System.Transactions.Transaction):System.Transactions.IDtcTransaction",
@@ -12204,7 +12304,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Transactions.TransactionInterop",
-          "declaringAssemblyName": "System.Transactions.Local"
+          "declaringAssemblyName": "System.Transactions.Local",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Transactions.Local:System.Transactions.TransactionInterop::GetTransactionFromDtcTransaction(System.Transactions.IDtcTransaction):System.Transactions.Transaction",
@@ -12217,7 +12318,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Transactions.TransactionInterop",
-          "declaringAssemblyName": "System.Transactions.Local"
+          "declaringAssemblyName": "System.Transactions.Local",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Transactions.Local:System.Transactions.TransactionInterop::GetWhereabouts():System.Byte[]",
@@ -12230,7 +12332,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Transactions.TransactionInterop",
-          "declaringAssemblyName": "System.Transactions.Local"
+          "declaringAssemblyName": "System.Transactions.Local",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -12412,7 +12515,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Transactions.TransactionManager",
-          "declaringAssemblyName": "System.Transactions.Local"
+          "declaringAssemblyName": "System.Transactions.Local",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Transactions.Local:System.Transactions.TransactionManager::RecoveryComplete(System.Guid):System.Void",
@@ -12425,7 +12529,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Transactions.TransactionManager",
-          "declaringAssemblyName": "System.Transactions.Local"
+          "declaringAssemblyName": "System.Transactions.Local",
+          "isExtensionMethod": false
         }
       ],
       "properties": [

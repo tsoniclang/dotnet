@@ -1114,7 +1114,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.ComponentModel.DataAnnotations.IValidatableObject",
-          "declaringAssemblyName": "System.ComponentModel.Annotations"
+          "declaringAssemblyName": "System.ComponentModel.Annotations",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -1152,7 +1153,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.ComponentModel.DataAnnotations.AllowedValuesAttribute",
-          "declaringAssemblyName": "System.ComponentModel.Annotations"
+          "declaringAssemblyName": "System.ComponentModel.Annotations",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -1729,7 +1731,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.ComponentModel.DataAnnotations.AssociatedMetadataTypeTypeDescriptionProvider",
-          "declaringAssemblyName": "System.ComponentModel.Annotations"
+          "declaringAssemblyName": "System.ComponentModel.Annotations",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.AssociatedMetadataTypeTypeDescriptionProvider::GetTypeDescriptor(System.Type):System.ComponentModel.ICustomTypeDescriptor",
@@ -1742,7 +1745,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.ComponentModel.DataAnnotations.AssociatedMetadataTypeTypeDescriptionProvider",
-          "declaringAssemblyName": "System.ComponentModel.Annotations"
+          "declaringAssemblyName": "System.ComponentModel.Annotations",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.AssociatedMetadataTypeTypeDescriptionProvider::GetTypeDescriptor(System.Object):System.ComponentModel.ICustomTypeDescriptor",
@@ -1755,7 +1759,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.ComponentModel.DataAnnotations.AssociatedMetadataTypeTypeDescriptionProvider",
-          "declaringAssemblyName": "System.ComponentModel.Annotations"
+          "declaringAssemblyName": "System.ComponentModel.Annotations",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -2669,7 +2674,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.ComponentModel.DataAnnotations.Base64StringAttribute",
-          "declaringAssemblyName": "System.ComponentModel.Annotations"
+          "declaringAssemblyName": "System.ComponentModel.Annotations",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -3221,7 +3227,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.ComponentModel.DataAnnotations.CompareAttribute",
-          "declaringAssemblyName": "System.ComponentModel.Annotations"
+          "declaringAssemblyName": "System.ComponentModel.Annotations",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -4284,7 +4291,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.ComponentModel.DataAnnotations.CreditCardAttribute",
-          "declaringAssemblyName": "System.ComponentModel.Annotations"
+          "declaringAssemblyName": "System.ComponentModel.Annotations",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -4876,7 +4884,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.ComponentModel.DataAnnotations.CustomValidationAttribute",
-          "declaringAssemblyName": "System.ComponentModel.Annotations"
+          "declaringAssemblyName": "System.ComponentModel.Annotations",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -5505,7 +5514,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.ComponentModel.DataAnnotations.DataTypeAttribute",
-          "declaringAssemblyName": "System.ComponentModel.Annotations"
+          "declaringAssemblyName": "System.ComponentModel.Annotations",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.DataTypeAttribute::IsValid(System.Object):System.Boolean",
@@ -5518,7 +5528,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.ComponentModel.DataAnnotations.DataTypeAttribute",
-          "declaringAssemblyName": "System.ComponentModel.Annotations"
+          "declaringAssemblyName": "System.ComponentModel.Annotations",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -6172,7 +6183,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.ComponentModel.DataAnnotations.DeniedValuesAttribute",
-          "declaringAssemblyName": "System.ComponentModel.Annotations"
+          "declaringAssemblyName": "System.ComponentModel.Annotations",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -6749,7 +6761,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.ComponentModel.DataAnnotations.DisplayAttribute",
-          "declaringAssemblyName": "System.ComponentModel.Annotations"
+          "declaringAssemblyName": "System.ComponentModel.Annotations",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.DisplayAttribute::GetName():System.String",
@@ -6762,7 +6775,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.ComponentModel.DataAnnotations.DisplayAttribute",
-          "declaringAssemblyName": "System.ComponentModel.Annotations"
+          "declaringAssemblyName": "System.ComponentModel.Annotations",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.DisplayAttribute::GetDescription():System.String",
@@ -6775,7 +6789,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.ComponentModel.DataAnnotations.DisplayAttribute",
-          "declaringAssemblyName": "System.ComponentModel.Annotations"
+          "declaringAssemblyName": "System.ComponentModel.Annotations",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.DisplayAttribute::GetPrompt():System.String",
@@ -6788,7 +6803,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.ComponentModel.DataAnnotations.DisplayAttribute",
-          "declaringAssemblyName": "System.ComponentModel.Annotations"
+          "declaringAssemblyName": "System.ComponentModel.Annotations",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.DisplayAttribute::GetGroupName():System.String",
@@ -6801,7 +6817,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.ComponentModel.DataAnnotations.DisplayAttribute",
-          "declaringAssemblyName": "System.ComponentModel.Annotations"
+          "declaringAssemblyName": "System.ComponentModel.Annotations",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.DisplayAttribute::GetAutoGenerateField():System.Nullable_1[[System.Boolean,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
@@ -6814,7 +6831,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.ComponentModel.DataAnnotations.DisplayAttribute",
-          "declaringAssemblyName": "System.ComponentModel.Annotations"
+          "declaringAssemblyName": "System.ComponentModel.Annotations",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.DisplayAttribute::GetAutoGenerateFilter():System.Nullable_1[[System.Boolean,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
@@ -6827,7 +6845,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.ComponentModel.DataAnnotations.DisplayAttribute",
-          "declaringAssemblyName": "System.ComponentModel.Annotations"
+          "declaringAssemblyName": "System.ComponentModel.Annotations",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.DisplayAttribute::GetOrder():System.Nullable_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
@@ -6840,7 +6859,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.ComponentModel.DataAnnotations.DisplayAttribute",
-          "declaringAssemblyName": "System.ComponentModel.Annotations"
+          "declaringAssemblyName": "System.ComponentModel.Annotations",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -8158,7 +8178,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.ComponentModel.DataAnnotations.DisplayFormatAttribute",
-          "declaringAssemblyName": "System.ComponentModel.Annotations"
+          "declaringAssemblyName": "System.ComponentModel.Annotations",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -9272,7 +9293,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.ComponentModel.DataAnnotations.EmailAddressAttribute",
-          "declaringAssemblyName": "System.ComponentModel.Annotations"
+          "declaringAssemblyName": "System.ComponentModel.Annotations",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -9864,7 +9886,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.ComponentModel.DataAnnotations.EnumDataTypeAttribute",
-          "declaringAssemblyName": "System.ComponentModel.Annotations"
+          "declaringAssemblyName": "System.ComponentModel.Annotations",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -10481,7 +10504,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.ComponentModel.DataAnnotations.FileExtensionsAttribute",
-          "declaringAssemblyName": "System.ComponentModel.Annotations"
+          "declaringAssemblyName": "System.ComponentModel.Annotations",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.FileExtensionsAttribute::IsValid(System.Object):System.Boolean",
@@ -10494,7 +10518,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.ComponentModel.DataAnnotations.FileExtensionsAttribute",
-          "declaringAssemblyName": "System.ComponentModel.Annotations"
+          "declaringAssemblyName": "System.ComponentModel.Annotations",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -11111,7 +11136,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.ComponentModel.DataAnnotations.FilterUIHintAttribute",
-          "declaringAssemblyName": "System.ComponentModel.Annotations"
+          "declaringAssemblyName": "System.ComponentModel.Annotations",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.FilterUIHintAttribute::Equals(System.Object):System.Boolean",
@@ -11124,7 +11150,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.ComponentModel.DataAnnotations.FilterUIHintAttribute",
-          "declaringAssemblyName": "System.ComponentModel.Annotations"
+          "declaringAssemblyName": "System.ComponentModel.Annotations",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -12145,7 +12172,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.ComponentModel.DataAnnotations.LengthAttribute",
-          "declaringAssemblyName": "System.ComponentModel.Annotations"
+          "declaringAssemblyName": "System.ComponentModel.Annotations",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.LengthAttribute::FormatErrorMessage(System.String):System.String",
@@ -12158,7 +12186,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.ComponentModel.DataAnnotations.LengthAttribute",
-          "declaringAssemblyName": "System.ComponentModel.Annotations"
+          "declaringAssemblyName": "System.ComponentModel.Annotations",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -12759,7 +12788,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.ComponentModel.DataAnnotations.MaxLengthAttribute",
-          "declaringAssemblyName": "System.ComponentModel.Annotations"
+          "declaringAssemblyName": "System.ComponentModel.Annotations",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.MaxLengthAttribute::FormatErrorMessage(System.String):System.String",
@@ -12772,7 +12802,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.ComponentModel.DataAnnotations.MaxLengthAttribute",
-          "declaringAssemblyName": "System.ComponentModel.Annotations"
+          "declaringAssemblyName": "System.ComponentModel.Annotations",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -13841,7 +13872,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.ComponentModel.DataAnnotations.MinLengthAttribute",
-          "declaringAssemblyName": "System.ComponentModel.Annotations"
+          "declaringAssemblyName": "System.ComponentModel.Annotations",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.MinLengthAttribute::FormatErrorMessage(System.String):System.String",
@@ -13854,7 +13886,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.ComponentModel.DataAnnotations.MinLengthAttribute",
-          "declaringAssemblyName": "System.ComponentModel.Annotations"
+          "declaringAssemblyName": "System.ComponentModel.Annotations",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -14431,7 +14464,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.ComponentModel.DataAnnotations.PhoneAttribute",
-          "declaringAssemblyName": "System.ComponentModel.Annotations"
+          "declaringAssemblyName": "System.ComponentModel.Annotations",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -15023,7 +15057,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.ComponentModel.DataAnnotations.RangeAttribute",
-          "declaringAssemblyName": "System.ComponentModel.Annotations"
+          "declaringAssemblyName": "System.ComponentModel.Annotations",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.RangeAttribute::FormatErrorMessage(System.String):System.String",
@@ -15036,7 +15071,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.ComponentModel.DataAnnotations.RangeAttribute",
-          "declaringAssemblyName": "System.ComponentModel.Annotations"
+          "declaringAssemblyName": "System.ComponentModel.Annotations",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -15795,7 +15831,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.ComponentModel.DataAnnotations.RegularExpressionAttribute",
-          "declaringAssemblyName": "System.ComponentModel.Annotations"
+          "declaringAssemblyName": "System.ComponentModel.Annotations",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.RegularExpressionAttribute::FormatErrorMessage(System.String):System.String",
@@ -15808,7 +15845,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.ComponentModel.DataAnnotations.RegularExpressionAttribute",
-          "declaringAssemblyName": "System.ComponentModel.Annotations"
+          "declaringAssemblyName": "System.ComponentModel.Annotations",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -16433,7 +16471,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.ComponentModel.DataAnnotations.RequiredAttribute",
-          "declaringAssemblyName": "System.ComponentModel.Annotations"
+          "declaringAssemblyName": "System.ComponentModel.Annotations",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -17483,7 +17522,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.ComponentModel.DataAnnotations.StringLengthAttribute",
-          "declaringAssemblyName": "System.ComponentModel.Annotations"
+          "declaringAssemblyName": "System.ComponentModel.Annotations",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.StringLengthAttribute::FormatErrorMessage(System.String):System.String",
@@ -17496,7 +17536,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.ComponentModel.DataAnnotations.StringLengthAttribute",
-          "declaringAssemblyName": "System.ComponentModel.Annotations"
+          "declaringAssemblyName": "System.ComponentModel.Annotations",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -18545,7 +18586,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.ComponentModel.DataAnnotations.UIHintAttribute",
-          "declaringAssemblyName": "System.ComponentModel.Annotations"
+          "declaringAssemblyName": "System.ComponentModel.Annotations",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.UIHintAttribute::Equals(System.Object):System.Boolean",
@@ -18558,7 +18600,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.ComponentModel.DataAnnotations.UIHintAttribute",
-          "declaringAssemblyName": "System.ComponentModel.Annotations"
+          "declaringAssemblyName": "System.ComponentModel.Annotations",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -19131,7 +19174,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.ComponentModel.DataAnnotations.UrlAttribute",
-          "declaringAssemblyName": "System.ComponentModel.Annotations"
+          "declaringAssemblyName": "System.ComponentModel.Annotations",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -19723,7 +19767,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.ComponentModel.DataAnnotations.ValidationAttribute",
-          "declaringAssemblyName": "System.ComponentModel.Annotations"
+          "declaringAssemblyName": "System.ComponentModel.Annotations",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.ValidationAttribute::IsValid(System.Object):System.Boolean",
@@ -19736,7 +19781,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.ComponentModel.DataAnnotations.ValidationAttribute",
-          "declaringAssemblyName": "System.ComponentModel.Annotations"
+          "declaringAssemblyName": "System.ComponentModel.Annotations",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.ValidationAttribute::GetValidationResult(System.Object,System.ComponentModel.DataAnnotations.ValidationContext):System.ComponentModel.DataAnnotations.ValidationResult",
@@ -19749,7 +19795,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.ComponentModel.DataAnnotations.ValidationAttribute",
-          "declaringAssemblyName": "System.ComponentModel.Annotations"
+          "declaringAssemblyName": "System.ComponentModel.Annotations",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.ValidationAttribute::Validate(System.Object,System.String):System.Void",
@@ -19762,7 +19809,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.ComponentModel.DataAnnotations.ValidationAttribute",
-          "declaringAssemblyName": "System.ComponentModel.Annotations"
+          "declaringAssemblyName": "System.ComponentModel.Annotations",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.ValidationAttribute::Validate(System.Object,System.ComponentModel.DataAnnotations.ValidationContext):System.Void",
@@ -19775,7 +19823,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.ComponentModel.DataAnnotations.ValidationAttribute",
-          "declaringAssemblyName": "System.ComponentModel.Annotations"
+          "declaringAssemblyName": "System.ComponentModel.Annotations",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -20362,7 +20411,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.ComponentModel.DataAnnotations.ValidationContext",
-          "declaringAssemblyName": "System.ComponentModel.Annotations"
+          "declaringAssemblyName": "System.ComponentModel.Annotations",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.ValidationContext::GetService(System.Type):System.Object",
@@ -20375,7 +20425,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.ComponentModel.DataAnnotations.ValidationContext",
-          "declaringAssemblyName": "System.ComponentModel.Annotations"
+          "declaringAssemblyName": "System.ComponentModel.Annotations",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel:System.IServiceProvider::GetService(System.Type):System.Object",
@@ -20388,7 +20439,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.IServiceProvider",
-          "declaringAssemblyName": "System.ComponentModel"
+          "declaringAssemblyName": "System.ComponentModel",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -20708,7 +20760,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.Serialization.ISerializable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.ValidationException::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
@@ -20721,7 +20774,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.ComponentModel.DataAnnotations.ValidationException",
-          "declaringAssemblyName": "System.ComponentModel.Annotations"
+          "declaringAssemblyName": "System.ComponentModel.Annotations",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -21092,7 +21146,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.ComponentModel.DataAnnotations.ValidationResult",
-          "declaringAssemblyName": "System.ComponentModel.Annotations"
+          "declaringAssemblyName": "System.ComponentModel.Annotations",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -21296,7 +21351,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.ComponentModel.DataAnnotations.Validator",
-          "declaringAssemblyName": "System.ComponentModel.Annotations"
+          "declaringAssemblyName": "System.ComponentModel.Annotations",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.Validator::TryValidateObject(System.Object,System.ComponentModel.DataAnnotations.ValidationContext,System.Collections.Generic.ICollection_1[[System.ComponentModel.DataAnnotations.ValidationResult,System.ComponentModel.Annotations,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):System.Boolean",
@@ -21309,7 +21365,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.ComponentModel.DataAnnotations.Validator",
-          "declaringAssemblyName": "System.ComponentModel.Annotations"
+          "declaringAssemblyName": "System.ComponentModel.Annotations",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.Validator::TryValidateObject(System.Object,System.ComponentModel.DataAnnotations.ValidationContext,System.Collections.Generic.ICollection_1[[System.ComponentModel.DataAnnotations.ValidationResult,System.ComponentModel.Annotations,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]],System.Boolean):System.Boolean",
@@ -21322,7 +21379,8 @@
           "arity": 0,
           "parameterCount": 4,
           "declaringClrType": "System.ComponentModel.DataAnnotations.Validator",
-          "declaringAssemblyName": "System.ComponentModel.Annotations"
+          "declaringAssemblyName": "System.ComponentModel.Annotations",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.Validator::TryValidateValue(System.Object,System.ComponentModel.DataAnnotations.ValidationContext,System.Collections.Generic.ICollection_1[[System.ComponentModel.DataAnnotations.ValidationResult,System.ComponentModel.Annotations,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]],System.Collections.Generic.IEnumerable_1[[System.ComponentModel.DataAnnotations.ValidationAttribute,System.ComponentModel.Annotations,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):System.Boolean",
@@ -21335,7 +21393,8 @@
           "arity": 0,
           "parameterCount": 4,
           "declaringClrType": "System.ComponentModel.DataAnnotations.Validator",
-          "declaringAssemblyName": "System.ComponentModel.Annotations"
+          "declaringAssemblyName": "System.ComponentModel.Annotations",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.Validator::ValidateProperty(System.Object,System.ComponentModel.DataAnnotations.ValidationContext):System.Void",
@@ -21348,7 +21407,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.ComponentModel.DataAnnotations.Validator",
-          "declaringAssemblyName": "System.ComponentModel.Annotations"
+          "declaringAssemblyName": "System.ComponentModel.Annotations",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.Validator::ValidateObject(System.Object,System.ComponentModel.DataAnnotations.ValidationContext):System.Void",
@@ -21361,7 +21421,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.ComponentModel.DataAnnotations.Validator",
-          "declaringAssemblyName": "System.ComponentModel.Annotations"
+          "declaringAssemblyName": "System.ComponentModel.Annotations",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.Validator::ValidateObject(System.Object,System.ComponentModel.DataAnnotations.ValidationContext,System.Boolean):System.Void",
@@ -21374,7 +21435,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.ComponentModel.DataAnnotations.Validator",
-          "declaringAssemblyName": "System.ComponentModel.Annotations"
+          "declaringAssemblyName": "System.ComponentModel.Annotations",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.Validator::ValidateValue(System.Object,System.ComponentModel.DataAnnotations.ValidationContext,System.Collections.Generic.IEnumerable_1[[System.ComponentModel.DataAnnotations.ValidationAttribute,System.ComponentModel.Annotations,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):System.Void",
@@ -21387,7 +21449,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.ComponentModel.DataAnnotations.Validator",
-          "declaringAssemblyName": "System.ComponentModel.Annotations"
+          "declaringAssemblyName": "System.ComponentModel.Annotations",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],

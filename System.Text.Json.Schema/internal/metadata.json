@@ -173,7 +173,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": true
         },
         {
           "stableId": "System.Text.Json:System.Text.Json.Schema.JsonSchemaExporter::GetJsonSchemaAsNode(System.Text.Json.Serialization.Metadata.JsonTypeInfo,System.Text.Json.Schema.JsonSchemaExporterOptions):System.Text.Json.Nodes.JsonNode",
@@ -188,7 +189,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": true
         }
       ],
       "properties": [],

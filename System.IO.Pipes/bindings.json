@@ -3538,7 +3538,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.IDisposable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.IAsyncDisposable::DisposeAsync():System.Threading.Tasks.ValueTask",
@@ -3551,7 +3552,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.IAsyncDisposable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.Pipes:System.IO.Pipes.AnonymousPipeClientStream::Dispose():System.Void",
@@ -3564,7 +3566,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.IO.Pipes.AnonymousPipeClientStream",
-          "declaringAssemblyName": "System.IO.Pipes"
+          "declaringAssemblyName": "System.IO.Pipes",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.Pipes:System.IO.Pipes.AnonymousPipeClientStream::DisposeAsync():System.Threading.Tasks.ValueTask",
@@ -3577,7 +3580,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.IO.Pipes.AnonymousPipeClientStream",
-          "declaringAssemblyName": "System.IO.Pipes"
+          "declaringAssemblyName": "System.IO.Pipes",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -4406,7 +4410,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.IO.Pipes.AnonymousPipeServerStream",
-          "declaringAssemblyName": "System.IO.Pipes"
+          "declaringAssemblyName": "System.IO.Pipes",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.Pipes:System.IO.Pipes.AnonymousPipeServerStream::DisposeLocalCopyOfClientHandle():System.Void",
@@ -4419,7 +4424,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.IO.Pipes.AnonymousPipeServerStream",
-          "declaringAssemblyName": "System.IO.Pipes"
+          "declaringAssemblyName": "System.IO.Pipes",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
@@ -4432,7 +4438,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.IDisposable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.IAsyncDisposable::DisposeAsync():System.Threading.Tasks.ValueTask",
@@ -4445,7 +4452,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.IAsyncDisposable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.Pipes:System.IO.Pipes.AnonymousPipeServerStream::Dispose():System.Void",
@@ -4458,7 +4466,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.IO.Pipes.AnonymousPipeServerStream",
-          "declaringAssemblyName": "System.IO.Pipes"
+          "declaringAssemblyName": "System.IO.Pipes",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.Pipes:System.IO.Pipes.AnonymousPipeServerStream::DisposeAsync():System.Threading.Tasks.ValueTask",
@@ -4471,7 +4480,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.IO.Pipes.AnonymousPipeServerStream",
-          "declaringAssemblyName": "System.IO.Pipes"
+          "declaringAssemblyName": "System.IO.Pipes",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -5382,7 +5392,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.IO.Pipes.NamedPipeClientStream",
-          "declaringAssemblyName": "System.IO.Pipes"
+          "declaringAssemblyName": "System.IO.Pipes",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.Pipes:System.IO.Pipes.NamedPipeClientStream::Connect(System.Int32):System.Void",
@@ -5395,7 +5406,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.IO.Pipes.NamedPipeClientStream",
-          "declaringAssemblyName": "System.IO.Pipes"
+          "declaringAssemblyName": "System.IO.Pipes",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.Pipes:System.IO.Pipes.NamedPipeClientStream::Connect(System.TimeSpan):System.Void",
@@ -5408,7 +5420,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.IO.Pipes.NamedPipeClientStream",
-          "declaringAssemblyName": "System.IO.Pipes"
+          "declaringAssemblyName": "System.IO.Pipes",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.Pipes:System.IO.Pipes.NamedPipeClientStream::ConnectAsync():System.Threading.Tasks.Task",
@@ -5421,7 +5434,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.IO.Pipes.NamedPipeClientStream",
-          "declaringAssemblyName": "System.IO.Pipes"
+          "declaringAssemblyName": "System.IO.Pipes",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.Pipes:System.IO.Pipes.NamedPipeClientStream::ConnectAsync(System.Int32):System.Threading.Tasks.Task",
@@ -5434,7 +5448,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.IO.Pipes.NamedPipeClientStream",
-          "declaringAssemblyName": "System.IO.Pipes"
+          "declaringAssemblyName": "System.IO.Pipes",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.Pipes:System.IO.Pipes.NamedPipeClientStream::ConnectAsync(System.Threading.CancellationToken):System.Threading.Tasks.Task",
@@ -5447,7 +5462,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.IO.Pipes.NamedPipeClientStream",
-          "declaringAssemblyName": "System.IO.Pipes"
+          "declaringAssemblyName": "System.IO.Pipes",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.Pipes:System.IO.Pipes.NamedPipeClientStream::ConnectAsync(System.Int32,System.Threading.CancellationToken):System.Threading.Tasks.Task",
@@ -5460,7 +5476,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.IO.Pipes.NamedPipeClientStream",
-          "declaringAssemblyName": "System.IO.Pipes"
+          "declaringAssemblyName": "System.IO.Pipes",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.Pipes:System.IO.Pipes.NamedPipeClientStream::ConnectAsync(System.TimeSpan,System.Threading.CancellationToken):System.Threading.Tasks.Task",
@@ -5473,7 +5490,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.IO.Pipes.NamedPipeClientStream",
-          "declaringAssemblyName": "System.IO.Pipes"
+          "declaringAssemblyName": "System.IO.Pipes",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
@@ -5486,7 +5504,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.IDisposable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.IAsyncDisposable::DisposeAsync():System.Threading.Tasks.ValueTask",
@@ -5499,7 +5518,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.IAsyncDisposable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.Pipes:System.IO.Pipes.NamedPipeClientStream::Dispose():System.Void",
@@ -5512,7 +5532,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.IO.Pipes.NamedPipeClientStream",
-          "declaringAssemblyName": "System.IO.Pipes"
+          "declaringAssemblyName": "System.IO.Pipes",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.Pipes:System.IO.Pipes.NamedPipeClientStream::DisposeAsync():System.Threading.Tasks.ValueTask",
@@ -5525,7 +5546,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.IO.Pipes.NamedPipeClientStream",
-          "declaringAssemblyName": "System.IO.Pipes"
+          "declaringAssemblyName": "System.IO.Pipes",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -6543,7 +6565,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.IO.Pipes.NamedPipeServerStream",
-          "declaringAssemblyName": "System.IO.Pipes"
+          "declaringAssemblyName": "System.IO.Pipes",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.Pipes:System.IO.Pipes.NamedPipeServerStream::BeginWaitForConnection(System.AsyncCallback,System.Object):System.IAsyncResult",
@@ -6556,7 +6579,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.IO.Pipes.NamedPipeServerStream",
-          "declaringAssemblyName": "System.IO.Pipes"
+          "declaringAssemblyName": "System.IO.Pipes",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.Pipes:System.IO.Pipes.NamedPipeServerStream::EndWaitForConnection(System.IAsyncResult):System.Void",
@@ -6569,7 +6593,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.IO.Pipes.NamedPipeServerStream",
-          "declaringAssemblyName": "System.IO.Pipes"
+          "declaringAssemblyName": "System.IO.Pipes",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.Pipes:System.IO.Pipes.NamedPipeServerStream::WaitForConnection():System.Void",
@@ -6582,7 +6607,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.IO.Pipes.NamedPipeServerStream",
-          "declaringAssemblyName": "System.IO.Pipes"
+          "declaringAssemblyName": "System.IO.Pipes",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.Pipes:System.IO.Pipes.NamedPipeServerStream::WaitForConnectionAsync(System.Threading.CancellationToken):System.Threading.Tasks.Task",
@@ -6595,7 +6621,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.IO.Pipes.NamedPipeServerStream",
-          "declaringAssemblyName": "System.IO.Pipes"
+          "declaringAssemblyName": "System.IO.Pipes",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.Pipes:System.IO.Pipes.NamedPipeServerStream::Disconnect():System.Void",
@@ -6608,7 +6635,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.IO.Pipes.NamedPipeServerStream",
-          "declaringAssemblyName": "System.IO.Pipes"
+          "declaringAssemblyName": "System.IO.Pipes",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.Pipes:System.IO.Pipes.NamedPipeServerStream::GetImpersonationUserName():System.String",
@@ -6621,7 +6649,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.IO.Pipes.NamedPipeServerStream",
-          "declaringAssemblyName": "System.IO.Pipes"
+          "declaringAssemblyName": "System.IO.Pipes",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.Pipes:System.IO.Pipes.NamedPipeServerStream::RunAsClient(System.IO.Pipes.PipeStreamImpersonationWorker):System.Void",
@@ -6634,7 +6663,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.IO.Pipes.NamedPipeServerStream",
-          "declaringAssemblyName": "System.IO.Pipes"
+          "declaringAssemblyName": "System.IO.Pipes",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
@@ -6647,7 +6677,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.IDisposable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.IAsyncDisposable::DisposeAsync():System.Threading.Tasks.ValueTask",
@@ -6660,7 +6691,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.IAsyncDisposable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.Pipes:System.IO.Pipes.NamedPipeServerStream::Dispose():System.Void",
@@ -6673,7 +6705,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.IO.Pipes.NamedPipeServerStream",
-          "declaringAssemblyName": "System.IO.Pipes"
+          "declaringAssemblyName": "System.IO.Pipes",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.Pipes:System.IO.Pipes.NamedPipeServerStream::DisposeAsync():System.Threading.Tasks.ValueTask",
@@ -6686,7 +6719,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.IO.Pipes.NamedPipeServerStream",
-          "declaringAssemblyName": "System.IO.Pipes"
+          "declaringAssemblyName": "System.IO.Pipes",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -8069,7 +8103,8 @@
           "arity": 0,
           "parameterCount": 6,
           "declaringClrType": "System.IO.Pipes.PipeSecurity",
-          "declaringAssemblyName": "System.IO.Pipes.AccessControl"
+          "declaringAssemblyName": "System.IO.Pipes.AccessControl",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.Pipes.AccessControl:System.IO.Pipes.PipeSecurity::AddAccessRule(System.IO.Pipes.PipeAccessRule):System.Void",
@@ -8082,7 +8117,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.IO.Pipes.PipeSecurity",
-          "declaringAssemblyName": "System.IO.Pipes.AccessControl"
+          "declaringAssemblyName": "System.IO.Pipes.AccessControl",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.Pipes.AccessControl:System.IO.Pipes.PipeSecurity::AddAuditRule(System.IO.Pipes.PipeAuditRule):System.Void",
@@ -8095,7 +8131,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.IO.Pipes.PipeSecurity",
-          "declaringAssemblyName": "System.IO.Pipes.AccessControl"
+          "declaringAssemblyName": "System.IO.Pipes.AccessControl",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.Pipes.AccessControl:System.IO.Pipes.PipeSecurity::AuditRuleFactory(System.Security.Principal.IdentityReference,System.Int32,System.Boolean,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags,System.Security.AccessControl.AuditFlags):System.Security.AccessControl.AuditRule",
@@ -8108,7 +8145,8 @@
           "arity": 0,
           "parameterCount": 6,
           "declaringClrType": "System.IO.Pipes.PipeSecurity",
-          "declaringAssemblyName": "System.IO.Pipes.AccessControl"
+          "declaringAssemblyName": "System.IO.Pipes.AccessControl",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.Pipes.AccessControl:System.IO.Pipes.PipeSecurity::RemoveAccessRule(System.IO.Pipes.PipeAccessRule):System.Boolean",
@@ -8121,7 +8159,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.IO.Pipes.PipeSecurity",
-          "declaringAssemblyName": "System.IO.Pipes.AccessControl"
+          "declaringAssemblyName": "System.IO.Pipes.AccessControl",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.Pipes.AccessControl:System.IO.Pipes.PipeSecurity::RemoveAccessRuleSpecific(System.IO.Pipes.PipeAccessRule):System.Void",
@@ -8134,7 +8173,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.IO.Pipes.PipeSecurity",
-          "declaringAssemblyName": "System.IO.Pipes.AccessControl"
+          "declaringAssemblyName": "System.IO.Pipes.AccessControl",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.Pipes.AccessControl:System.IO.Pipes.PipeSecurity::RemoveAuditRule(System.IO.Pipes.PipeAuditRule):System.Boolean",
@@ -8147,7 +8187,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.IO.Pipes.PipeSecurity",
-          "declaringAssemblyName": "System.IO.Pipes.AccessControl"
+          "declaringAssemblyName": "System.IO.Pipes.AccessControl",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.Pipes.AccessControl:System.IO.Pipes.PipeSecurity::RemoveAuditRuleAll(System.IO.Pipes.PipeAuditRule):System.Void",
@@ -8160,7 +8201,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.IO.Pipes.PipeSecurity",
-          "declaringAssemblyName": "System.IO.Pipes.AccessControl"
+          "declaringAssemblyName": "System.IO.Pipes.AccessControl",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.Pipes.AccessControl:System.IO.Pipes.PipeSecurity::RemoveAuditRuleSpecific(System.IO.Pipes.PipeAuditRule):System.Void",
@@ -8173,7 +8215,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.IO.Pipes.PipeSecurity",
-          "declaringAssemblyName": "System.IO.Pipes.AccessControl"
+          "declaringAssemblyName": "System.IO.Pipes.AccessControl",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.Pipes.AccessControl:System.IO.Pipes.PipeSecurity::ResetAccessRule(System.IO.Pipes.PipeAccessRule):System.Void",
@@ -8186,7 +8229,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.IO.Pipes.PipeSecurity",
-          "declaringAssemblyName": "System.IO.Pipes.AccessControl"
+          "declaringAssemblyName": "System.IO.Pipes.AccessControl",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.Pipes.AccessControl:System.IO.Pipes.PipeSecurity::SetAccessRule(System.IO.Pipes.PipeAccessRule):System.Void",
@@ -8199,7 +8243,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.IO.Pipes.PipeSecurity",
-          "declaringAssemblyName": "System.IO.Pipes.AccessControl"
+          "declaringAssemblyName": "System.IO.Pipes.AccessControl",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.Pipes.AccessControl:System.IO.Pipes.PipeSecurity::SetAuditRule(System.IO.Pipes.PipeAuditRule):System.Void",
@@ -8212,7 +8257,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.IO.Pipes.PipeSecurity",
-          "declaringAssemblyName": "System.IO.Pipes.AccessControl"
+          "declaringAssemblyName": "System.IO.Pipes.AccessControl",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -8747,7 +8793,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.IO.Pipes.PipeStream",
-          "declaringAssemblyName": "System.IO.Pipes"
+          "declaringAssemblyName": "System.IO.Pipes",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.Pipes:System.IO.Pipes.PipeStream::WriteByte(System.Byte):System.Void",
@@ -8760,7 +8807,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.IO.Pipes.PipeStream",
-          "declaringAssemblyName": "System.IO.Pipes"
+          "declaringAssemblyName": "System.IO.Pipes",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.Pipes:System.IO.Pipes.PipeStream::Flush():System.Void",
@@ -8773,7 +8821,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.IO.Pipes.PipeStream",
-          "declaringAssemblyName": "System.IO.Pipes"
+          "declaringAssemblyName": "System.IO.Pipes",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.Pipes:System.IO.Pipes.PipeStream::FlushAsync(System.Threading.CancellationToken):System.Threading.Tasks.Task",
@@ -8786,7 +8835,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.IO.Pipes.PipeStream",
-          "declaringAssemblyName": "System.IO.Pipes"
+          "declaringAssemblyName": "System.IO.Pipes",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.Pipes:System.IO.Pipes.PipeStream::SetLength(System.Int64):System.Void",
@@ -8799,7 +8849,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.IO.Pipes.PipeStream",
-          "declaringAssemblyName": "System.IO.Pipes"
+          "declaringAssemblyName": "System.IO.Pipes",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.Pipes:System.IO.Pipes.PipeStream::Seek(System.Int64,System.IO.SeekOrigin):System.Int64",
@@ -8812,7 +8863,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.IO.Pipes.PipeStream",
-          "declaringAssemblyName": "System.IO.Pipes"
+          "declaringAssemblyName": "System.IO.Pipes",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.Pipes:System.IO.Pipes.PipeStream::Read(System.Byte[],System.Int32,System.Int32):System.Int32",
@@ -8825,7 +8877,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.IO.Pipes.PipeStream",
-          "declaringAssemblyName": "System.IO.Pipes"
+          "declaringAssemblyName": "System.IO.Pipes",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.Pipes:System.IO.Pipes.PipeStream::Read(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32",
@@ -8838,7 +8891,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.IO.Pipes.PipeStream",
-          "declaringAssemblyName": "System.IO.Pipes"
+          "declaringAssemblyName": "System.IO.Pipes",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.Pipes:System.IO.Pipes.PipeStream::ReadAsync(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
@@ -8851,7 +8905,8 @@
           "arity": 0,
           "parameterCount": 4,
           "declaringClrType": "System.IO.Pipes.PipeStream",
-          "declaringAssemblyName": "System.IO.Pipes"
+          "declaringAssemblyName": "System.IO.Pipes",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.Pipes:System.IO.Pipes.PipeStream::ReadAsync(System.Memory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
@@ -8864,7 +8919,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.IO.Pipes.PipeStream",
-          "declaringAssemblyName": "System.IO.Pipes"
+          "declaringAssemblyName": "System.IO.Pipes",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.Pipes:System.IO.Pipes.PipeStream::BeginRead(System.Byte[],System.Int32,System.Int32,System.AsyncCallback,System.Object):System.IAsyncResult",
@@ -8877,7 +8933,8 @@
           "arity": 0,
           "parameterCount": 5,
           "declaringClrType": "System.IO.Pipes.PipeStream",
-          "declaringAssemblyName": "System.IO.Pipes"
+          "declaringAssemblyName": "System.IO.Pipes",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.Pipes:System.IO.Pipes.PipeStream::EndRead(System.IAsyncResult):System.Int32",
@@ -8890,7 +8947,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.IO.Pipes.PipeStream",
-          "declaringAssemblyName": "System.IO.Pipes"
+          "declaringAssemblyName": "System.IO.Pipes",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.Pipes:System.IO.Pipes.PipeStream::Write(System.Byte[],System.Int32,System.Int32):System.Void",
@@ -8903,7 +8961,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.IO.Pipes.PipeStream",
-          "declaringAssemblyName": "System.IO.Pipes"
+          "declaringAssemblyName": "System.IO.Pipes",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.Pipes:System.IO.Pipes.PipeStream::Write(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
@@ -8916,7 +8975,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.IO.Pipes.PipeStream",
-          "declaringAssemblyName": "System.IO.Pipes"
+          "declaringAssemblyName": "System.IO.Pipes",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.Pipes:System.IO.Pipes.PipeStream::WriteAsync(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken):System.Threading.Tasks.Task",
@@ -8929,7 +8989,8 @@
           "arity": 0,
           "parameterCount": 4,
           "declaringClrType": "System.IO.Pipes.PipeStream",
-          "declaringAssemblyName": "System.IO.Pipes"
+          "declaringAssemblyName": "System.IO.Pipes",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.Pipes:System.IO.Pipes.PipeStream::WriteAsync(System.ReadOnlyMemory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask",
@@ -8942,7 +9003,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.IO.Pipes.PipeStream",
-          "declaringAssemblyName": "System.IO.Pipes"
+          "declaringAssemblyName": "System.IO.Pipes",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.Pipes:System.IO.Pipes.PipeStream::BeginWrite(System.Byte[],System.Int32,System.Int32,System.AsyncCallback,System.Object):System.IAsyncResult",
@@ -8955,7 +9017,8 @@
           "arity": 0,
           "parameterCount": 5,
           "declaringClrType": "System.IO.Pipes.PipeStream",
-          "declaringAssemblyName": "System.IO.Pipes"
+          "declaringAssemblyName": "System.IO.Pipes",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.Pipes:System.IO.Pipes.PipeStream::EndWrite(System.IAsyncResult):System.Void",
@@ -8968,7 +9031,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.IO.Pipes.PipeStream",
-          "declaringAssemblyName": "System.IO.Pipes"
+          "declaringAssemblyName": "System.IO.Pipes",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.Pipes:System.IO.Pipes.PipeStream::WaitForPipeDrain():System.Void",
@@ -8981,7 +9045,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.IO.Pipes.PipeStream",
-          "declaringAssemblyName": "System.IO.Pipes"
+          "declaringAssemblyName": "System.IO.Pipes",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
@@ -8994,7 +9059,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.IDisposable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.IAsyncDisposable::DisposeAsync():System.Threading.Tasks.ValueTask",
@@ -9007,7 +9073,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.IAsyncDisposable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.Pipes:System.IO.Pipes.PipeStream::Dispose():System.Void",
@@ -9020,7 +9087,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.IO.Pipes.PipeStream",
-          "declaringAssemblyName": "System.IO.Pipes"
+          "declaringAssemblyName": "System.IO.Pipes",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.Pipes:System.IO.Pipes.PipeStream::DisposeAsync():System.Threading.Tasks.ValueTask",
@@ -9033,7 +9101,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.IO.Pipes.PipeStream",
-          "declaringAssemblyName": "System.IO.Pipes"
+          "declaringAssemblyName": "System.IO.Pipes",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.Pipes:System.IO.Pipes.PipeStream::FlushAsync():System.Threading.Tasks.Task",
@@ -9046,7 +9115,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.IO.Pipes.PipeStream",
-          "declaringAssemblyName": "System.IO.Pipes"
+          "declaringAssemblyName": "System.IO.Pipes",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.Pipes:System.IO.Pipes.PipeStream::Read(System.Span_1):System.Int32",
@@ -9059,7 +9129,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.IO.Pipes.PipeStream",
-          "declaringAssemblyName": "System.IO.Pipes"
+          "declaringAssemblyName": "System.IO.Pipes",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.Pipes:System.IO.Pipes.PipeStream::ReadAsync(System.Byte[],System.Int32,System.Int32):System.Threading.Tasks.Task_1",
@@ -9072,7 +9143,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.IO.Pipes.PipeStream",
-          "declaringAssemblyName": "System.IO.Pipes"
+          "declaringAssemblyName": "System.IO.Pipes",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.Pipes:System.IO.Pipes.PipeStream::ReadAsync(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken):System.Threading.Tasks.Task_1",
@@ -9085,7 +9157,8 @@
           "arity": 0,
           "parameterCount": 4,
           "declaringClrType": "System.IO.Pipes.PipeStream",
-          "declaringAssemblyName": "System.IO.Pipes"
+          "declaringAssemblyName": "System.IO.Pipes",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.Pipes:System.IO.Pipes.PipeStream::ReadAsync(System.Memory_1,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1",
@@ -9098,7 +9171,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.IO.Pipes.PipeStream",
-          "declaringAssemblyName": "System.IO.Pipes"
+          "declaringAssemblyName": "System.IO.Pipes",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.Pipes:System.IO.Pipes.PipeStream::Write(System.ReadOnlySpan_1):System.Void",
@@ -9111,7 +9185,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.IO.Pipes.PipeStream",
-          "declaringAssemblyName": "System.IO.Pipes"
+          "declaringAssemblyName": "System.IO.Pipes",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.Pipes:System.IO.Pipes.PipeStream::WriteAsync(System.Byte[],System.Int32,System.Int32):System.Threading.Tasks.Task",
@@ -9124,7 +9199,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.IO.Pipes.PipeStream",
-          "declaringAssemblyName": "System.IO.Pipes"
+          "declaringAssemblyName": "System.IO.Pipes",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.Pipes:System.IO.Pipes.PipeStream::WriteAsync(System.ReadOnlyMemory_1,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask",
@@ -9137,7 +9213,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.IO.Pipes.PipeStream",
-          "declaringAssemblyName": "System.IO.Pipes"
+          "declaringAssemblyName": "System.IO.Pipes",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -10050,7 +10127,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.IO.Pipes.PipeStreamImpersonationWorker",
-          "declaringAssemblyName": "System.IO.Pipes"
+          "declaringAssemblyName": "System.IO.Pipes",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.Pipes:System.IO.Pipes.PipeStreamImpersonationWorker::BeginInvoke(System.AsyncCallback,System.Object):System.IAsyncResult",
@@ -10063,7 +10141,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.IO.Pipes.PipeStreamImpersonationWorker",
-          "declaringAssemblyName": "System.IO.Pipes"
+          "declaringAssemblyName": "System.IO.Pipes",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.Pipes:System.IO.Pipes.PipeStreamImpersonationWorker::EndInvoke(System.IAsyncResult):System.Void",
@@ -10076,7 +10155,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.IO.Pipes.PipeStreamImpersonationWorker",
-          "declaringAssemblyName": "System.IO.Pipes"
+          "declaringAssemblyName": "System.IO.Pipes",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
@@ -10089,7 +10169,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.ICloneable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
@@ -10102,7 +10183,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.Serialization.ISerializable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.Pipes:System.IO.Pipes.PipeStreamImpersonationWorker::Clone():System.Object",
@@ -10115,7 +10197,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.IO.Pipes.PipeStreamImpersonationWorker",
-          "declaringAssemblyName": "System.IO.Pipes"
+          "declaringAssemblyName": "System.IO.Pipes",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.Pipes:System.IO.Pipes.PipeStreamImpersonationWorker::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
@@ -10128,7 +10211,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.IO.Pipes.PipeStreamImpersonationWorker",
-          "declaringAssemblyName": "System.IO.Pipes"
+          "declaringAssemblyName": "System.IO.Pipes",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -10520,7 +10604,8 @@
           "arity": 0,
           "parameterCount": 4,
           "declaringClrType": "System.IO.Pipes.AnonymousPipeServerStreamAcl",
-          "declaringAssemblyName": "System.IO.Pipes.AccessControl"
+          "declaringAssemblyName": "System.IO.Pipes.AccessControl",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -10618,7 +10703,8 @@
           "arity": 0,
           "parameterCount": 10,
           "declaringClrType": "System.IO.Pipes.NamedPipeServerStreamAcl",
-          "declaringAssemblyName": "System.IO.Pipes.AccessControl"
+          "declaringAssemblyName": "System.IO.Pipes.AccessControl",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -10716,7 +10802,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.IO.Pipes.PipesAclExtensions",
-          "declaringAssemblyName": "System.IO.Pipes.AccessControl"
+          "declaringAssemblyName": "System.IO.Pipes.AccessControl",
+          "isExtensionMethod": true
         },
         {
           "stableId": "System.IO.Pipes.AccessControl:System.IO.Pipes.PipesAclExtensions::SetAccessControl(System.IO.Pipes.PipeStream,System.IO.Pipes.PipeSecurity):System.Void",
@@ -10729,7 +10816,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.IO.Pipes.PipesAclExtensions",
-          "declaringAssemblyName": "System.IO.Pipes.AccessControl"
+          "declaringAssemblyName": "System.IO.Pipes.AccessControl",
+          "isExtensionMethod": true
         }
       ],
       "properties": [],

@@ -7312,7 +7312,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Text.Json.Serialization.IJsonOnDeserialized",
-          "declaringAssemblyName": "System.Text.Json"
+          "declaringAssemblyName": "System.Text.Json",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -7350,7 +7351,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Text.Json.Serialization.IJsonOnDeserializing",
-          "declaringAssemblyName": "System.Text.Json"
+          "declaringAssemblyName": "System.Text.Json",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -7388,7 +7390,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Text.Json.Serialization.IJsonOnSerialized",
-          "declaringAssemblyName": "System.Text.Json"
+          "declaringAssemblyName": "System.Text.Json",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -7426,7 +7429,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Text.Json.Serialization.IJsonOnSerializing",
-          "declaringAssemblyName": "System.Text.Json"
+          "declaringAssemblyName": "System.Text.Json",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -8338,7 +8342,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Text.Json.Serialization.JsonConverter",
-          "declaringAssemblyName": "System.Text.Json"
+          "declaringAssemblyName": "System.Text.Json",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -8463,7 +8468,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Text.Json.Serialization.JsonConverter\u00601",
-          "declaringAssemblyName": "System.Text.Json"
+          "declaringAssemblyName": "System.Text.Json",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonConverter\u00601::Read(System.Text.Json.Utf8JsonReader\u0026,System.Type,System.Text.Json.JsonSerializerOptions):T",
@@ -8476,7 +8482,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Text.Json.Serialization.JsonConverter\u00601",
-          "declaringAssemblyName": "System.Text.Json"
+          "declaringAssemblyName": "System.Text.Json",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonConverter\u00601::Write(System.Text.Json.Utf8JsonWriter,T,System.Text.Json.JsonSerializerOptions):System.Void",
@@ -8489,7 +8496,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Text.Json.Serialization.JsonConverter\u00601",
-          "declaringAssemblyName": "System.Text.Json"
+          "declaringAssemblyName": "System.Text.Json",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonConverter\u00601::ReadAsPropertyName(System.Text.Json.Utf8JsonReader\u0026,System.Type,System.Text.Json.JsonSerializerOptions):T",
@@ -8502,7 +8510,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Text.Json.Serialization.JsonConverter\u00601",
-          "declaringAssemblyName": "System.Text.Json"
+          "declaringAssemblyName": "System.Text.Json",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonConverter\u00601::WriteAsPropertyName(System.Text.Json.Utf8JsonWriter,T,System.Text.Json.JsonSerializerOptions):System.Void",
@@ -8515,7 +8524,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Text.Json.Serialization.JsonConverter\u00601",
-          "declaringAssemblyName": "System.Text.Json"
+          "declaringAssemblyName": "System.Text.Json",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -8704,7 +8714,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Text.Json.Serialization.JsonConverterAttribute",
-          "declaringAssemblyName": "System.Text.Json"
+          "declaringAssemblyName": "System.Text.Json",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -9201,7 +9212,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Text.Json.Serialization.JsonConverterFactory",
-          "declaringAssemblyName": "System.Text.Json"
+          "declaringAssemblyName": "System.Text.Json",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -11240,7 +11252,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Text.Json.Serialization.JsonNumberEnumConverter\u00601",
-          "declaringAssemblyName": "System.Text.Json"
+          "declaringAssemblyName": "System.Text.Json",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonNumberEnumConverter\u00601::CreateConverter(System.Type,System.Text.Json.JsonSerializerOptions):System.Text.Json.Serialization.JsonConverter",
@@ -11253,7 +11266,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Text.Json.Serialization.JsonNumberEnumConverter\u00601",
-          "declaringAssemblyName": "System.Text.Json"
+          "declaringAssemblyName": "System.Text.Json",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -14753,7 +14767,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Text.Json.Serialization.JsonSerializerContext",
-          "declaringAssemblyName": "System.Text.Json"
+          "declaringAssemblyName": "System.Text.Json",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.Json:System.Text.Json.Serialization.Metadata.IJsonTypeInfoResolver::GetTypeInfo(System.Type,System.Text.Json.JsonSerializerOptions):System.Text.Json.Serialization.Metadata.JsonTypeInfo",
@@ -14766,7 +14781,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Text.Json.Serialization.Metadata.IJsonTypeInfoResolver",
-          "declaringAssemblyName": "System.Text.Json"
+          "declaringAssemblyName": "System.Text.Json",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -16017,7 +16033,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Text.Json.Serialization.JsonStringEnumConverter",
-          "declaringAssemblyName": "System.Text.Json"
+          "declaringAssemblyName": "System.Text.Json",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonStringEnumConverter::CreateConverter(System.Type,System.Text.Json.JsonSerializerOptions):System.Text.Json.Serialization.JsonConverter",
@@ -16030,7 +16047,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Text.Json.Serialization.JsonStringEnumConverter",
-          "declaringAssemblyName": "System.Text.Json"
+          "declaringAssemblyName": "System.Text.Json",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -16191,7 +16209,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Text.Json.Serialization.JsonStringEnumConverter\u00601",
-          "declaringAssemblyName": "System.Text.Json"
+          "declaringAssemblyName": "System.Text.Json",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonStringEnumConverter\u00601::CreateConverter(System.Type,System.Text.Json.JsonSerializerOptions):System.Text.Json.Serialization.JsonConverter",
@@ -16204,7 +16223,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Text.Json.Serialization.JsonStringEnumConverter\u00601",
-          "declaringAssemblyName": "System.Text.Json"
+          "declaringAssemblyName": "System.Text.Json",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -17311,7 +17331,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Text.Json.Serialization.ReferenceHandler",
-          "declaringAssemblyName": "System.Text.Json"
+          "declaringAssemblyName": "System.Text.Json",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -17460,7 +17481,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Text.Json.Serialization.ReferenceHandler\u00601",
-          "declaringAssemblyName": "System.Text.Json"
+          "declaringAssemblyName": "System.Text.Json",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -17602,7 +17624,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Text.Json.Serialization.ReferenceResolver",
-          "declaringAssemblyName": "System.Text.Json"
+          "declaringAssemblyName": "System.Text.Json",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.Json:System.Text.Json.Serialization.ReferenceResolver::GetReference(System.Object,System.Boolean\u0026):System.String",
@@ -17615,7 +17638,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Text.Json.Serialization.ReferenceResolver",
-          "declaringAssemblyName": "System.Text.Json"
+          "declaringAssemblyName": "System.Text.Json",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.Json:System.Text.Json.Serialization.ReferenceResolver::ResolveReference(System.String):System.Object",
@@ -17628,7 +17652,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Text.Json.Serialization.ReferenceResolver",
-          "declaringAssemblyName": "System.Text.Json"
+          "declaringAssemblyName": "System.Text.Json",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],

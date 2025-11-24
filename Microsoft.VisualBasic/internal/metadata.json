@@ -1620,7 +1620,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 4
+          "parameterCount": 4,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Collection::Clear():System.Void",
@@ -1635,7 +1636,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Collection::Contains(System.String):System.Boolean",
@@ -1650,7 +1652,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Collection::Remove(System.String):System.Void",
@@ -1665,7 +1668,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Collection::Remove(System.Int32):System.Void",
@@ -1680,7 +1684,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Collection::GetEnumerator():System.Collections.IEnumerator",
@@ -1695,7 +1700,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.ICollection::CopyTo(System.Array,System.Int32):System.Void",
@@ -1711,7 +1717,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 2,
-          "sourceInterface": "System.Collections.ICollection"
+          "sourceInterface": "System.Collections.ICollection",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Add(System.Object):System.Int32",
@@ -1727,7 +1734,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 1,
-          "sourceInterface": "System.Collections.IList"
+          "sourceInterface": "System.Collections.IList",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Insert(System.Int32,System.Object):System.Void",
@@ -1743,7 +1751,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 2,
-          "sourceInterface": "System.Collections.IList"
+          "sourceInterface": "System.Collections.IList",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::RemoveAt(System.Int32):System.Void",
@@ -1759,7 +1768,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 1,
-          "sourceInterface": "System.Collections.IList"
+          "sourceInterface": "System.Collections.IList",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
@@ -1775,7 +1785,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.Collections.IEnumerable"
+          "sourceInterface": "System.Collections.IEnumerable",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Contains(System.Object):System.Boolean",
@@ -1791,7 +1802,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 1,
-          "sourceInterface": "System.Collections.IList"
+          "sourceInterface": "System.Collections.IList",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Clear():System.Void",
@@ -1807,7 +1819,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.Collections.IList"
+          "sourceInterface": "System.Collections.IList",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Remove(System.Object):System.Void",
@@ -1823,7 +1836,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 1,
-          "sourceInterface": "System.Collections.IList"
+          "sourceInterface": "System.Collections.IList",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Collection::get_Item(System.Int32):System.Object",
@@ -1838,7 +1852,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Collection::get_Item(System.String):System.Object",
@@ -1853,7 +1868,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Collection::get_Item(System.Object):System.Object",
@@ -1868,7 +1884,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -3148,7 +3165,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Conversion::ErrorToString(System.Int32):System.String",
@@ -3163,7 +3181,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Conversion::Fix(System.Int16):System.Int16",
@@ -3178,7 +3197,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Conversion::Fix(System.Int32):System.Int32",
@@ -3193,7 +3213,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Conversion::Fix(System.Int64):System.Int64",
@@ -3208,7 +3229,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Conversion::Fix(System.Double):System.Double",
@@ -3223,7 +3245,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Conversion::Fix(System.Single):System.Single",
@@ -3238,7 +3261,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Conversion::Fix(System.Decimal):System.Decimal",
@@ -3253,7 +3277,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Conversion::Fix(System.Object):System.Object",
@@ -3268,7 +3293,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Conversion::Int(System.Int16):System.Int16",
@@ -3283,7 +3309,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Conversion::Int(System.Int32):System.Int32",
@@ -3298,7 +3325,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Conversion::Int(System.Int64):System.Int64",
@@ -3313,7 +3341,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Conversion::Int(System.Double):System.Double",
@@ -3328,7 +3357,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Conversion::Int(System.Single):System.Single",
@@ -3343,7 +3373,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Conversion::Int(System.Decimal):System.Decimal",
@@ -3358,7 +3389,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Conversion::Int(System.Object):System.Object",
@@ -3373,7 +3405,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Conversion::Hex(System.SByte):System.String",
@@ -3388,7 +3421,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Conversion::Hex(System.Byte):System.String",
@@ -3403,7 +3437,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Conversion::Hex(System.Int16):System.String",
@@ -3418,7 +3453,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Conversion::Hex(System.UInt16):System.String",
@@ -3433,7 +3469,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Conversion::Hex(System.Int32):System.String",
@@ -3448,7 +3485,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Conversion::Hex(System.UInt32):System.String",
@@ -3463,7 +3501,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Conversion::Hex(System.Int64):System.String",
@@ -3478,7 +3517,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Conversion::Hex(System.UInt64):System.String",
@@ -3493,7 +3533,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Conversion::Hex(System.Object):System.String",
@@ -3508,7 +3549,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Conversion::Oct(System.SByte):System.String",
@@ -3523,7 +3565,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Conversion::Oct(System.Byte):System.String",
@@ -3538,7 +3581,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Conversion::Oct(System.Int16):System.String",
@@ -3553,7 +3597,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Conversion::Oct(System.UInt16):System.String",
@@ -3568,7 +3613,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Conversion::Oct(System.Int32):System.String",
@@ -3583,7 +3629,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Conversion::Oct(System.UInt32):System.String",
@@ -3598,7 +3645,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Conversion::Oct(System.Int64):System.String",
@@ -3613,7 +3661,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Conversion::Oct(System.UInt64):System.String",
@@ -3628,7 +3677,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Conversion::Oct(System.Object):System.String",
@@ -3643,7 +3693,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Conversion::Str(System.Object):System.String",
@@ -3658,7 +3709,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Conversion::Val(System.String):System.Double",
@@ -3673,7 +3725,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Conversion::Val(System.Char):System.Int32",
@@ -3688,7 +3741,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Conversion::Val(System.Object):System.Double",
@@ -3703,7 +3757,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Conversion::CTypeDynamic(System.Object,System.Type):System.Object",
@@ -3718,7 +3773,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Conversion::CTypeDynamic(System.Object):TargetType",
@@ -3733,7 +3789,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -3765,7 +3822,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.DateAndTime::DateDiff(Microsoft.VisualBasic.DateInterval,System.DateTime,System.DateTime,Microsoft.VisualBasic.FirstDayOfWeek,Microsoft.VisualBasic.FirstWeekOfYear):System.Int64",
@@ -3780,7 +3838,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 5
+          "parameterCount": 5,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.DateAndTime::DatePart(Microsoft.VisualBasic.DateInterval,System.DateTime,Microsoft.VisualBasic.FirstDayOfWeek,Microsoft.VisualBasic.FirstWeekOfYear):System.Int32",
@@ -3795,7 +3854,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 4
+          "parameterCount": 4,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.DateAndTime::DateAdd(System.String,System.Double,System.Object):System.DateTime",
@@ -3810,7 +3870,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.DateAndTime::DateDiff(System.String,System.Object,System.Object,Microsoft.VisualBasic.FirstDayOfWeek,Microsoft.VisualBasic.FirstWeekOfYear):System.Int64",
@@ -3825,7 +3886,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 5
+          "parameterCount": 5,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.DateAndTime::DatePart(System.String,System.Object,Microsoft.VisualBasic.FirstDayOfWeek,Microsoft.VisualBasic.FirstWeekOfYear):System.Int32",
@@ -3840,7 +3902,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 4
+          "parameterCount": 4,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.DateAndTime::DateSerial(System.Int32,System.Int32,System.Int32):System.DateTime",
@@ -3855,7 +3918,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.DateAndTime::TimeSerial(System.Int32,System.Int32,System.Int32):System.DateTime",
@@ -3870,7 +3934,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.DateAndTime::DateValue(System.String):System.DateTime",
@@ -3885,7 +3950,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.DateAndTime::TimeValue(System.String):System.DateTime",
@@ -3900,7 +3966,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.DateAndTime::Year(System.DateTime):System.Int32",
@@ -3915,7 +3982,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.DateAndTime::Month(System.DateTime):System.Int32",
@@ -3930,7 +3998,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.DateAndTime::Day(System.DateTime):System.Int32",
@@ -3945,7 +4014,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.DateAndTime::Hour(System.DateTime):System.Int32",
@@ -3960,7 +4030,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.DateAndTime::Minute(System.DateTime):System.Int32",
@@ -3975,7 +4046,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.DateAndTime::Second(System.DateTime):System.Int32",
@@ -3990,7 +4062,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.DateAndTime::Weekday(System.DateTime,Microsoft.VisualBasic.FirstDayOfWeek):System.Int32",
@@ -4005,7 +4078,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.DateAndTime::MonthName(System.Int32,System.Boolean):System.String",
@@ -4020,7 +4094,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.DateAndTime::WeekdayName(System.Int32,System.Boolean,Microsoft.VisualBasic.FirstDayOfWeek):System.String",
@@ -4035,7 +4110,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -4158,7 +4234,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.ErrObject::Clear():System.Void",
@@ -4173,7 +4250,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.ErrObject::Raise(System.Int32,System.Object,System.Object,System.Object,System.Object):System.Void",
@@ -4188,7 +4266,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 5
+          "parameterCount": 5,
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -4326,7 +4405,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileSystem::ChDrive(System.Char):System.Void",
@@ -4341,7 +4421,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileSystem::ChDrive(System.String):System.Void",
@@ -4356,7 +4437,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileSystem::CurDir():System.String",
@@ -4371,7 +4453,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileSystem::CurDir(System.Char):System.String",
@@ -4386,7 +4469,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileSystem::Dir():System.String",
@@ -4401,7 +4485,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileSystem::Dir(System.String,Microsoft.VisualBasic.FileAttribute):System.String",
@@ -4416,7 +4501,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileSystem::MkDir(System.String):System.Void",
@@ -4431,7 +4517,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileSystem::RmDir(System.String):System.Void",
@@ -4446,7 +4533,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileSystem::FileCopy(System.String,System.String):System.Void",
@@ -4461,7 +4549,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileSystem::FileDateTime(System.String):System.DateTime",
@@ -4476,7 +4565,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileSystem::FileLen(System.String):System.Int64",
@@ -4491,7 +4581,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileSystem::GetAttr(System.String):Microsoft.VisualBasic.FileAttribute",
@@ -4506,7 +4597,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileSystem::Kill(System.String):System.Void",
@@ -4521,7 +4613,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileSystem::SetAttr(System.String,Microsoft.VisualBasic.FileAttribute):System.Void",
@@ -4536,7 +4629,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileSystem::FileOpen(System.Int32,System.String,Microsoft.VisualBasic.OpenMode,Microsoft.VisualBasic.OpenAccess,Microsoft.VisualBasic.OpenShare,System.Int32):System.Void",
@@ -4551,7 +4645,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 6
+          "parameterCount": 6,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileSystem::FileClose(System.Int32[]):System.Void",
@@ -4566,7 +4661,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileSystem::FileGetObject(System.Int32,System.Object\u0026,System.Int64):System.Void",
@@ -4581,7 +4677,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileSystem::FileGet(System.Int32,System.ValueType\u0026,System.Int64):System.Void",
@@ -4596,7 +4693,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileSystem::FileGet(System.Int32,System.Array\u0026,System.Int64,System.Boolean,System.Boolean):System.Void",
@@ -4611,7 +4709,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 5
+          "parameterCount": 5,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileSystem::FileGet(System.Int32,System.Boolean\u0026,System.Int64):System.Void",
@@ -4626,7 +4725,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileSystem::FileGet(System.Int32,System.Byte\u0026,System.Int64):System.Void",
@@ -4641,7 +4741,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileSystem::FileGet(System.Int32,System.Int16\u0026,System.Int64):System.Void",
@@ -4656,7 +4757,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileSystem::FileGet(System.Int32,System.Int32\u0026,System.Int64):System.Void",
@@ -4671,7 +4773,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileSystem::FileGet(System.Int32,System.Int64\u0026,System.Int64):System.Void",
@@ -4686,7 +4789,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileSystem::FileGet(System.Int32,System.Char\u0026,System.Int64):System.Void",
@@ -4701,7 +4805,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileSystem::FileGet(System.Int32,System.Single\u0026,System.Int64):System.Void",
@@ -4716,7 +4821,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileSystem::FileGet(System.Int32,System.Double\u0026,System.Int64):System.Void",
@@ -4731,7 +4837,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileSystem::FileGet(System.Int32,System.Decimal\u0026,System.Int64):System.Void",
@@ -4746,7 +4853,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileSystem::FileGet(System.Int32,System.String\u0026,System.Int64,System.Boolean):System.Void",
@@ -4761,7 +4869,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 4
+          "parameterCount": 4,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileSystem::FileGet(System.Int32,System.DateTime\u0026,System.Int64):System.Void",
@@ -4776,7 +4885,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileSystem::FilePutObject(System.Int32,System.Object,System.Int64):System.Void",
@@ -4791,7 +4901,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileSystem::FilePut(System.Object,System.Object,System.Object):System.Void",
@@ -4806,7 +4917,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileSystem::FilePut(System.Int32,System.ValueType,System.Int64):System.Void",
@@ -4821,7 +4933,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileSystem::FilePut(System.Int32,System.Array,System.Int64,System.Boolean,System.Boolean):System.Void",
@@ -4836,7 +4949,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 5
+          "parameterCount": 5,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileSystem::FilePut(System.Int32,System.Boolean,System.Int64):System.Void",
@@ -4851,7 +4965,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileSystem::FilePut(System.Int32,System.Byte,System.Int64):System.Void",
@@ -4866,7 +4981,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileSystem::FilePut(System.Int32,System.Int16,System.Int64):System.Void",
@@ -4881,7 +4997,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileSystem::FilePut(System.Int32,System.Int32,System.Int64):System.Void",
@@ -4896,7 +5013,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileSystem::FilePut(System.Int32,System.Int64,System.Int64):System.Void",
@@ -4911,7 +5029,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileSystem::FilePut(System.Int32,System.Char,System.Int64):System.Void",
@@ -4926,7 +5045,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileSystem::FilePut(System.Int32,System.Single,System.Int64):System.Void",
@@ -4941,7 +5061,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileSystem::FilePut(System.Int32,System.Double,System.Int64):System.Void",
@@ -4956,7 +5077,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileSystem::FilePut(System.Int32,System.Decimal,System.Int64):System.Void",
@@ -4971,7 +5093,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileSystem::FilePut(System.Int32,System.String,System.Int64,System.Boolean):System.Void",
@@ -4986,7 +5109,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 4
+          "parameterCount": 4,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileSystem::FilePut(System.Int32,System.DateTime,System.Int64):System.Void",
@@ -5001,7 +5125,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileSystem::Print(System.Int32,System.Object[]):System.Void",
@@ -5016,7 +5141,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileSystem::PrintLine(System.Int32,System.Object[]):System.Void",
@@ -5031,7 +5157,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileSystem::Input(System.Int32,System.Object\u0026):System.Void",
@@ -5046,7 +5173,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileSystem::Input(System.Int32,System.Boolean\u0026):System.Void",
@@ -5061,7 +5189,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileSystem::Input(System.Int32,System.Byte\u0026):System.Void",
@@ -5076,7 +5205,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileSystem::Input(System.Int32,System.Int16\u0026):System.Void",
@@ -5091,7 +5221,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileSystem::Input(System.Int32,System.Int32\u0026):System.Void",
@@ -5106,7 +5237,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileSystem::Input(System.Int32,System.Int64\u0026):System.Void",
@@ -5121,7 +5253,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileSystem::Input(System.Int32,System.Char\u0026):System.Void",
@@ -5136,7 +5269,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileSystem::Input(System.Int32,System.Single\u0026):System.Void",
@@ -5151,7 +5285,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileSystem::Input(System.Int32,System.Double\u0026):System.Void",
@@ -5166,7 +5301,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileSystem::Input(System.Int32,System.Decimal\u0026):System.Void",
@@ -5181,7 +5317,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileSystem::Input(System.Int32,System.String\u0026):System.Void",
@@ -5196,7 +5333,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileSystem::Input(System.Int32,System.DateTime\u0026):System.Void",
@@ -5211,7 +5349,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileSystem::Write(System.Int32,System.Object[]):System.Void",
@@ -5226,7 +5365,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileSystem::WriteLine(System.Int32,System.Object[]):System.Void",
@@ -5241,7 +5381,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileSystem::InputString(System.Int32,System.Int32):System.String",
@@ -5256,7 +5397,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileSystem::LineInput(System.Int32):System.String",
@@ -5271,7 +5413,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileSystem::Lock(System.Int32):System.Void",
@@ -5286,7 +5429,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileSystem::Lock(System.Int32,System.Int64):System.Void",
@@ -5301,7 +5445,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileSystem::Lock(System.Int32,System.Int64,System.Int64):System.Void",
@@ -5316,7 +5461,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileSystem::Unlock(System.Int32):System.Void",
@@ -5331,7 +5477,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileSystem::Unlock(System.Int32,System.Int64):System.Void",
@@ -5346,7 +5493,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileSystem::Unlock(System.Int32,System.Int64,System.Int64):System.Void",
@@ -5361,7 +5509,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileSystem::FileWidth(System.Int32,System.Int32):System.Void",
@@ -5376,7 +5525,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileSystem::FreeFile():System.Int32",
@@ -5391,7 +5541,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileSystem::Seek(System.Int32,System.Int64):System.Void",
@@ -5406,7 +5557,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileSystem::Seek(System.Int32):System.Int64",
@@ -5421,7 +5573,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileSystem::EOF(System.Int32):System.Boolean",
@@ -5436,7 +5589,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileSystem::Loc(System.Int32):System.Int64",
@@ -5451,7 +5605,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileSystem::LOF(System.Int32):System.Int64",
@@ -5466,7 +5621,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileSystem::TAB():Microsoft.VisualBasic.TabInfo",
@@ -5481,7 +5637,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileSystem::TAB(System.Int16):Microsoft.VisualBasic.TabInfo",
@@ -5496,7 +5653,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileSystem::SPC(System.Int16):Microsoft.VisualBasic.SpcInfo",
@@ -5511,7 +5669,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileSystem::FileAttr(System.Int32):Microsoft.VisualBasic.OpenMode",
@@ -5526,7 +5685,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileSystem::Reset():System.Void",
@@ -5541,7 +5701,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileSystem::Rename(System.String,System.String):System.Void",
@@ -5556,7 +5717,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -5588,7 +5750,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 5
+          "parameterCount": 5,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Financial::FV(System.Double,System.Double,System.Double,System.Double,Microsoft.VisualBasic.DueDate):System.Double",
@@ -5603,7 +5766,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 5
+          "parameterCount": 5,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Financial::IPmt(System.Double,System.Double,System.Double,System.Double,System.Double,Microsoft.VisualBasic.DueDate):System.Double",
@@ -5618,7 +5782,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 6
+          "parameterCount": 6,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Financial::IRR(System.Double[]\u0026,System.Double):System.Double",
@@ -5633,7 +5798,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Financial::MIRR(System.Double[]\u0026,System.Double,System.Double):System.Double",
@@ -5648,7 +5814,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Financial::NPer(System.Double,System.Double,System.Double,System.Double,Microsoft.VisualBasic.DueDate):System.Double",
@@ -5663,7 +5830,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 5
+          "parameterCount": 5,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Financial::NPV(System.Double,System.Double[]\u0026):System.Double",
@@ -5678,7 +5846,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Financial::Pmt(System.Double,System.Double,System.Double,System.Double,Microsoft.VisualBasic.DueDate):System.Double",
@@ -5693,7 +5862,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 5
+          "parameterCount": 5,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Financial::PPmt(System.Double,System.Double,System.Double,System.Double,System.Double,Microsoft.VisualBasic.DueDate):System.Double",
@@ -5708,7 +5878,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 6
+          "parameterCount": 6,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Financial::PV(System.Double,System.Double,System.Double,System.Double,Microsoft.VisualBasic.DueDate):System.Double",
@@ -5723,7 +5894,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 5
+          "parameterCount": 5,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Financial::Rate(System.Double,System.Double,System.Double,System.Double,Microsoft.VisualBasic.DueDate,System.Double):System.Double",
@@ -5738,7 +5910,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 6
+          "parameterCount": 6,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Financial::SLN(System.Double,System.Double,System.Double):System.Double",
@@ -5753,7 +5926,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Financial::SYD(System.Double,System.Double,System.Double,System.Double):System.Double",
@@ -5768,7 +5942,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 4
+          "parameterCount": 4,
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -5822,7 +5997,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Information::Erl():System.Int32",
@@ -5837,7 +6013,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Information::IsArray(System.Object):System.Boolean",
@@ -5852,7 +6029,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Information::IsDate(System.Object):System.Boolean",
@@ -5867,7 +6045,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Information::IsDBNull(System.Object):System.Boolean",
@@ -5882,7 +6061,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Information::IsNothing(System.Object):System.Boolean",
@@ -5897,7 +6077,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Information::IsError(System.Object):System.Boolean",
@@ -5912,7 +6093,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Information::IsReference(System.Object):System.Boolean",
@@ -5927,7 +6109,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Information::LBound(System.Array,System.Int32):System.Int32",
@@ -5942,7 +6125,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Information::UBound(System.Array,System.Int32):System.Int32",
@@ -5957,7 +6141,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Information::QBColor(System.Int32):System.Int32",
@@ -5972,7 +6157,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Information::RGB(System.Int32,System.Int32,System.Int32):System.Int32",
@@ -5987,7 +6173,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Information::VarType(System.Object):Microsoft.VisualBasic.VariantType",
@@ -6002,7 +6189,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Information::IsNumeric(System.Object):System.Boolean",
@@ -6017,7 +6205,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Information::TypeName(System.Object):System.String",
@@ -6032,7 +6221,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Information::SystemTypeName(System.String):System.String",
@@ -6047,7 +6237,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Information::VbTypeName(System.String):System.String",
@@ -6062,7 +6253,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -6094,7 +6286,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 4
+          "parameterCount": 4,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Interaction::AppActivate(System.Int32):System.Void",
@@ -6109,7 +6302,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Interaction::AppActivate(System.String):System.Void",
@@ -6124,7 +6318,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Interaction::Command():System.String",
@@ -6139,7 +6334,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Interaction::Environ(System.Int32):System.String",
@@ -6154,7 +6350,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Interaction::Environ(System.String):System.String",
@@ -6169,7 +6366,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Interaction::Beep():System.Void",
@@ -6184,7 +6382,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Interaction::InputBox(System.String,System.String,System.String,System.Int32,System.Int32):System.String",
@@ -6199,7 +6398,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 5
+          "parameterCount": 5,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Interaction::MsgBox(System.Object,Microsoft.VisualBasic.MsgBoxStyle,System.Object):Microsoft.VisualBasic.MsgBoxResult",
@@ -6214,7 +6414,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Interaction::Choose(System.Double,System.Object[]):System.Object",
@@ -6229,7 +6430,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Interaction::IIf(System.Boolean,System.Object,System.Object):System.Object",
@@ -6244,7 +6446,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Interaction::Partition(System.Int64,System.Int64,System.Int64,System.Int64):System.String",
@@ -6259,7 +6462,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 4
+          "parameterCount": 4,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Interaction::Switch(System.Object[]):System.Object",
@@ -6274,7 +6478,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Interaction::DeleteSetting(System.String,System.String,System.String):System.Void",
@@ -6289,7 +6494,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Interaction::GetAllSettings(System.String,System.String):System.String[,]",
@@ -6304,7 +6510,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Interaction::GetSetting(System.String,System.String,System.String,System.String):System.String",
@@ -6319,7 +6526,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 4
+          "parameterCount": 4,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Interaction::SaveSetting(System.String,System.String,System.String,System.String):System.Void",
@@ -6334,7 +6542,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 4
+          "parameterCount": 4,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Interaction::CreateObject(System.String,System.String):System.Object",
@@ -6349,7 +6558,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Interaction::GetObject(System.String,System.String):System.Object",
@@ -6364,7 +6574,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Interaction::CallByName(System.Object,System.String,Microsoft.VisualBasic.CallType,System.Object[]):System.Object",
@@ -6379,7 +6590,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 4
+          "parameterCount": 4,
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -6494,7 +6706,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Strings::Asc(System.String):System.Int32",
@@ -6509,7 +6722,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Strings::AscW(System.String):System.Int32",
@@ -6524,7 +6738,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Strings::AscW(System.Char):System.Int32",
@@ -6539,7 +6754,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Strings::Chr(System.Int32):System.Char",
@@ -6554,7 +6770,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Strings::ChrW(System.Int32):System.Char",
@@ -6569,7 +6786,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Strings::Filter(System.Object[],System.String,System.Boolean,Microsoft.VisualBasic.CompareMethod):System.String[]",
@@ -6584,7 +6802,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 4
+          "parameterCount": 4,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Strings::Filter(System.String[],System.String,System.Boolean,Microsoft.VisualBasic.CompareMethod):System.String[]",
@@ -6599,7 +6818,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 4
+          "parameterCount": 4,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Strings::InStr(System.String,System.String,Microsoft.VisualBasic.CompareMethod):System.Int32",
@@ -6614,7 +6834,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Strings::InStr(System.Int32,System.String,System.String,Microsoft.VisualBasic.CompareMethod):System.Int32",
@@ -6629,7 +6850,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 4
+          "parameterCount": 4,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Strings::InStrRev(System.String,System.String,System.Int32,Microsoft.VisualBasic.CompareMethod):System.Int32",
@@ -6644,7 +6866,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 4
+          "parameterCount": 4,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Strings::Join(System.Object[],System.String):System.String",
@@ -6659,7 +6882,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Strings::Join(System.String[],System.String):System.String",
@@ -6674,7 +6898,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Strings::LCase(System.String):System.String",
@@ -6689,7 +6914,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Strings::LCase(System.Char):System.Char",
@@ -6704,7 +6930,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Strings::Len(System.Boolean):System.Int32",
@@ -6719,7 +6946,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Strings::Len(System.SByte):System.Int32",
@@ -6734,7 +6962,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Strings::Len(System.Byte):System.Int32",
@@ -6749,7 +6978,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Strings::Len(System.Int16):System.Int32",
@@ -6764,7 +6994,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Strings::Len(System.UInt16):System.Int32",
@@ -6779,7 +7010,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Strings::Len(System.Int32):System.Int32",
@@ -6794,7 +7026,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Strings::Len(System.UInt32):System.Int32",
@@ -6809,7 +7042,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Strings::Len(System.Int64):System.Int32",
@@ -6824,7 +7058,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Strings::Len(System.UInt64):System.Int32",
@@ -6839,7 +7074,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Strings::Len(System.Decimal):System.Int32",
@@ -6854,7 +7090,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Strings::Len(System.Single):System.Int32",
@@ -6869,7 +7106,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Strings::Len(System.Double):System.Int32",
@@ -6884,7 +7122,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Strings::Len(System.DateTime):System.Int32",
@@ -6899,7 +7138,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Strings::Len(System.Char):System.Int32",
@@ -6914,7 +7154,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Strings::Len(System.String):System.Int32",
@@ -6929,7 +7170,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Strings::Len(System.Object):System.Int32",
@@ -6944,7 +7186,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Strings::Replace(System.String,System.String,System.String,System.Int32,System.Int32,Microsoft.VisualBasic.CompareMethod):System.String",
@@ -6959,7 +7202,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 6
+          "parameterCount": 6,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Strings::Space(System.Int32):System.String",
@@ -6974,7 +7218,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Strings::Split(System.String,System.String,System.Int32,Microsoft.VisualBasic.CompareMethod):System.String[]",
@@ -6989,7 +7234,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 4
+          "parameterCount": 4,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Strings::LSet(System.String,System.Int32):System.String",
@@ -7004,7 +7250,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Strings::RSet(System.String,System.Int32):System.String",
@@ -7019,7 +7266,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Strings::StrDup(System.Int32,System.Object):System.Object",
@@ -7034,7 +7282,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Strings::StrDup(System.Int32,System.Char):System.String",
@@ -7049,7 +7298,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Strings::StrDup(System.Int32,System.String):System.String",
@@ -7064,7 +7314,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Strings::StrReverse(System.String):System.String",
@@ -7079,7 +7330,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Strings::UCase(System.String):System.String",
@@ -7094,7 +7346,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Strings::UCase(System.Char):System.Char",
@@ -7109,7 +7362,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Strings::Format(System.Object,System.String):System.String",
@@ -7124,7 +7378,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Strings::FormatCurrency(System.Object,System.Int32,Microsoft.VisualBasic.TriState,Microsoft.VisualBasic.TriState,Microsoft.VisualBasic.TriState):System.String",
@@ -7139,7 +7394,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 5
+          "parameterCount": 5,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Strings::FormatDateTime(System.DateTime,Microsoft.VisualBasic.DateFormat):System.String",
@@ -7154,7 +7410,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Strings::FormatNumber(System.Object,System.Int32,Microsoft.VisualBasic.TriState,Microsoft.VisualBasic.TriState,Microsoft.VisualBasic.TriState):System.String",
@@ -7169,7 +7426,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 5
+          "parameterCount": 5,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Strings::FormatPercent(System.Object,System.Int32,Microsoft.VisualBasic.TriState,Microsoft.VisualBasic.TriState,Microsoft.VisualBasic.TriState):System.String",
@@ -7184,7 +7442,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 5
+          "parameterCount": 5,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Strings::GetChar(System.String,System.Int32):System.Char",
@@ -7199,7 +7458,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Strings::Left(System.String,System.Int32):System.String",
@@ -7214,7 +7474,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Strings::LTrim(System.String):System.String",
@@ -7229,7 +7490,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Strings::Mid(System.String,System.Int32):System.String",
@@ -7244,7 +7506,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Strings::Mid(System.String,System.Int32,System.Int32):System.String",
@@ -7259,7 +7522,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Strings::Right(System.String,System.Int32):System.String",
@@ -7274,7 +7538,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Strings::RTrim(System.String):System.String",
@@ -7289,7 +7554,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Strings::Trim(System.String):System.String",
@@ -7304,7 +7570,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Strings::StrComp(System.String,System.String,Microsoft.VisualBasic.CompareMethod):System.Int32",
@@ -7319,7 +7586,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Strings::StrConv(System.String,Microsoft.VisualBasic.VbStrConv,System.Int32):System.String",
@@ -7334,7 +7602,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -7462,7 +7731,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.VBMath::Rnd(System.Single):System.Single",
@@ -7477,7 +7747,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.VBMath::Randomize():System.Void",
@@ -7492,7 +7763,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.VBMath::Randomize(System.Double):System.Void",
@@ -7507,7 +7779,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         }
       ],
       "properties": [],

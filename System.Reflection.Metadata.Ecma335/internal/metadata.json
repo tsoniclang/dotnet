@@ -770,7 +770,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -824,7 +825,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.BlobEncoder::FieldSignature():System.Reflection.Metadata.Ecma335.SignatureTypeEncoder",
@@ -839,7 +841,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.BlobEncoder::MethodSpecificationSignature(System.Int32):System.Reflection.Metadata.Ecma335.GenericTypeArgumentsEncoder",
@@ -854,7 +857,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.BlobEncoder::MethodSignature(System.Reflection.Metadata.SignatureCallingConvention,System.Int32,System.Boolean):System.Reflection.Metadata.Ecma335.MethodSignatureEncoder",
@@ -869,7 +873,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.BlobEncoder::PropertySignature(System.Boolean):System.Reflection.Metadata.Ecma335.MethodSignatureEncoder",
@@ -884,7 +889,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.BlobEncoder::CustomAttributeSignature(System.Reflection.Metadata.Ecma335.FixedArgumentsEncoder\u0026,System.Reflection.Metadata.Ecma335.CustomAttributeNamedArgumentsEncoder\u0026):System.Void",
@@ -899,7 +905,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.BlobEncoder::CustomAttributeSignature(System.Action_1[[System.Reflection.Metadata.Ecma335.FixedArgumentsEncoder,System.Reflection.Metadata,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]],System.Action_1[[System.Reflection.Metadata.Ecma335.CustomAttributeNamedArgumentsEncoder,System.Reflection.Metadata,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):System.Void",
@@ -914,7 +921,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.BlobEncoder::LocalVariableSignature(System.Int32):System.Reflection.Metadata.Ecma335.LocalVariablesEncoder",
@@ -929,7 +937,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.BlobEncoder::TypeSpecificationSignature():System.Reflection.Metadata.Ecma335.SignatureTypeEncoder",
@@ -944,7 +953,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.BlobEncoder::PermissionSetBlob(System.Int32):System.Reflection.Metadata.Ecma335.PermissionSetEncoder",
@@ -959,7 +969,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.BlobEncoder::PermissionSetArguments(System.Int32):System.Reflection.Metadata.Ecma335.NamedArgumentsEncoder",
@@ -974,7 +985,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -1028,7 +1040,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.CustomAttributeArrayTypeEncoder::ElementType():System.Reflection.Metadata.Ecma335.CustomAttributeElementTypeEncoder",
@@ -1043,7 +1056,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -1097,7 +1111,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.CustomAttributeElementTypeEncoder::Char():System.Void",
@@ -1112,7 +1127,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.CustomAttributeElementTypeEncoder::SByte():System.Void",
@@ -1127,7 +1143,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.CustomAttributeElementTypeEncoder::Byte():System.Void",
@@ -1142,7 +1159,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.CustomAttributeElementTypeEncoder::Int16():System.Void",
@@ -1157,7 +1175,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.CustomAttributeElementTypeEncoder::UInt16():System.Void",
@@ -1172,7 +1191,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.CustomAttributeElementTypeEncoder::Int32():System.Void",
@@ -1187,7 +1207,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.CustomAttributeElementTypeEncoder::UInt32():System.Void",
@@ -1202,7 +1223,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.CustomAttributeElementTypeEncoder::Int64():System.Void",
@@ -1217,7 +1239,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.CustomAttributeElementTypeEncoder::UInt64():System.Void",
@@ -1232,7 +1255,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.CustomAttributeElementTypeEncoder::Single():System.Void",
@@ -1247,7 +1271,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.CustomAttributeElementTypeEncoder::Double():System.Void",
@@ -1262,7 +1287,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.CustomAttributeElementTypeEncoder::String():System.Void",
@@ -1277,7 +1303,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.CustomAttributeElementTypeEncoder::PrimitiveType(System.Reflection.Metadata.PrimitiveSerializationTypeCode):System.Void",
@@ -1292,7 +1319,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.CustomAttributeElementTypeEncoder::SystemType():System.Void",
@@ -1307,7 +1335,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.CustomAttributeElementTypeEncoder::Enum(System.String):System.Void",
@@ -1322,7 +1351,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -1376,7 +1406,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -1430,7 +1461,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -1484,7 +1516,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.EditAndContinueLogEntry::Equals(System.Reflection.Metadata.Ecma335.EditAndContinueLogEntry):System.Boolean",
@@ -1499,7 +1532,8 @@
           "isOverride": false,
           "isSealed": true,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.EditAndContinueLogEntry::GetHashCode():System.Int32",
@@ -1514,7 +1548,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.IEquatable\u00601::Equals(T):System.Boolean",
@@ -1530,7 +1565,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 1,
-          "sourceInterface": "System.IEquatable\u00601"
+          "sourceInterface": "System.IEquatable\u00601",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -1599,7 +1635,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.ExceptionRegionEncoder::IsSmallExceptionRegion(System.Int32,System.Int32):System.Boolean",
@@ -1614,7 +1651,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.ExceptionRegionEncoder::AddFinally(System.Int32,System.Int32,System.Int32,System.Int32):System.Reflection.Metadata.Ecma335.ExceptionRegionEncoder",
@@ -1629,7 +1667,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 4
+          "parameterCount": 4,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.ExceptionRegionEncoder::AddFault(System.Int32,System.Int32,System.Int32,System.Int32):System.Reflection.Metadata.Ecma335.ExceptionRegionEncoder",
@@ -1644,7 +1683,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 4
+          "parameterCount": 4,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.ExceptionRegionEncoder::AddCatch(System.Int32,System.Int32,System.Int32,System.Int32,System.Reflection.Metadata.EntityHandle):System.Reflection.Metadata.Ecma335.ExceptionRegionEncoder",
@@ -1659,7 +1699,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 5
+          "parameterCount": 5,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.ExceptionRegionEncoder::AddFilter(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32):System.Reflection.Metadata.Ecma335.ExceptionRegionEncoder",
@@ -1674,7 +1715,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 5
+          "parameterCount": 5,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.ExceptionRegionEncoder::Add(System.Reflection.Metadata.ExceptionRegionKind,System.Int32,System.Int32,System.Int32,System.Int32,System.Reflection.Metadata.EntityHandle,System.Int32):System.Reflection.Metadata.Ecma335.ExceptionRegionEncoder",
@@ -1689,7 +1731,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 7
+          "parameterCount": 7,
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -1752,7 +1795,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.FieldTypeEncoder::Type(System.Boolean):System.Reflection.Metadata.Ecma335.SignatureTypeEncoder",
@@ -1767,7 +1811,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.FieldTypeEncoder::TypedReference():System.Void",
@@ -1782,7 +1827,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -1836,7 +1882,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -1890,7 +1937,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -1944,7 +1992,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.InstructionEncoder::Token(System.Reflection.Metadata.EntityHandle):System.Void",
@@ -1959,7 +2008,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.InstructionEncoder::Token(System.Int32):System.Void",
@@ -1974,7 +2024,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.InstructionEncoder::LoadString(System.Reflection.Metadata.UserStringHandle):System.Void",
@@ -1989,7 +2040,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.InstructionEncoder::Call(System.Reflection.Metadata.EntityHandle):System.Void",
@@ -2004,7 +2056,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.InstructionEncoder::Call(System.Reflection.Metadata.MethodDefinitionHandle):System.Void",
@@ -2019,7 +2072,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.InstructionEncoder::Call(System.Reflection.Metadata.MethodSpecificationHandle):System.Void",
@@ -2034,7 +2088,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.InstructionEncoder::Call(System.Reflection.Metadata.MemberReferenceHandle):System.Void",
@@ -2049,7 +2104,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.InstructionEncoder::CallIndirect(System.Reflection.Metadata.StandaloneSignatureHandle):System.Void",
@@ -2064,7 +2120,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.InstructionEncoder::LoadConstantI4(System.Int32):System.Void",
@@ -2079,7 +2136,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.InstructionEncoder::LoadConstantI8(System.Int64):System.Void",
@@ -2094,7 +2152,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.InstructionEncoder::LoadConstantR4(System.Single):System.Void",
@@ -2109,7 +2168,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.InstructionEncoder::LoadConstantR8(System.Double):System.Void",
@@ -2124,7 +2184,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.InstructionEncoder::LoadLocal(System.Int32):System.Void",
@@ -2139,7 +2200,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.InstructionEncoder::StoreLocal(System.Int32):System.Void",
@@ -2154,7 +2216,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.InstructionEncoder::LoadLocalAddress(System.Int32):System.Void",
@@ -2169,7 +2232,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.InstructionEncoder::LoadArgument(System.Int32):System.Void",
@@ -2184,7 +2248,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.InstructionEncoder::LoadArgumentAddress(System.Int32):System.Void",
@@ -2199,7 +2264,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.InstructionEncoder::StoreArgument(System.Int32):System.Void",
@@ -2214,7 +2280,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.InstructionEncoder::DefineLabel():System.Reflection.Metadata.Ecma335.LabelHandle",
@@ -2229,7 +2296,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.InstructionEncoder::Branch(System.Reflection.Metadata.ILOpCode,System.Reflection.Metadata.Ecma335.LabelHandle):System.Void",
@@ -2244,7 +2312,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.InstructionEncoder::Switch(System.Int32):System.Reflection.Metadata.Ecma335.SwitchInstructionEncoder",
@@ -2259,7 +2328,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.InstructionEncoder::MarkLabel(System.Reflection.Metadata.Ecma335.LabelHandle):System.Void",
@@ -2274,7 +2344,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -2358,7 +2429,8 @@
           "isOverride": false,
           "isSealed": true,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.LabelHandle::Equals(System.Object):System.Boolean",
@@ -2373,7 +2445,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.LabelHandle::GetHashCode():System.Int32",
@@ -2388,7 +2461,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.IEquatable\u00601::Equals(T):System.Boolean",
@@ -2404,7 +2478,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 1,
-          "sourceInterface": "System.IEquatable\u00601"
+          "sourceInterface": "System.IEquatable\u00601",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -2467,7 +2542,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.LiteralEncoder::TaggedVector(System.Reflection.Metadata.Ecma335.CustomAttributeArrayTypeEncoder\u0026,System.Reflection.Metadata.Ecma335.VectorEncoder\u0026):System.Void",
@@ -2482,7 +2558,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.LiteralEncoder::TaggedVector(System.Action_1[[System.Reflection.Metadata.Ecma335.CustomAttributeArrayTypeEncoder,System.Reflection.Metadata,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]],System.Action_1[[System.Reflection.Metadata.Ecma335.VectorEncoder,System.Reflection.Metadata,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):System.Void",
@@ -2497,7 +2574,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.LiteralEncoder::Scalar():System.Reflection.Metadata.Ecma335.ScalarEncoder",
@@ -2512,7 +2590,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.LiteralEncoder::TaggedScalar(System.Reflection.Metadata.Ecma335.CustomAttributeElementTypeEncoder\u0026,System.Reflection.Metadata.Ecma335.ScalarEncoder\u0026):System.Void",
@@ -2527,7 +2606,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.LiteralEncoder::TaggedScalar(System.Action_1[[System.Reflection.Metadata.Ecma335.CustomAttributeElementTypeEncoder,System.Reflection.Metadata,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]],System.Action_1[[System.Reflection.Metadata.Ecma335.ScalarEncoder,System.Reflection.Metadata,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):System.Void",
@@ -2542,7 +2622,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -2596,7 +2677,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -2650,7 +2732,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -2704,7 +2787,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.LocalVariableTypeEncoder::Type(System.Boolean,System.Boolean):System.Reflection.Metadata.Ecma335.SignatureTypeEncoder",
@@ -2719,7 +2803,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.LocalVariableTypeEncoder::TypedReference():System.Void",
@@ -2734,7 +2819,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -2788,7 +2874,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 6
+          "parameterCount": 6,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.MethodBodyStreamEncoder::AddMethodBody(System.Int32,System.Int32,System.Int32,System.Boolean,System.Reflection.Metadata.StandaloneSignatureHandle,System.Reflection.Metadata.Ecma335.MethodBodyAttributes,System.Boolean):System.Reflection.Metadata.Ecma335.MethodBodyStreamEncoder\u002BMethodBody",
@@ -2803,7 +2890,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 7
+          "parameterCount": 7,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.MethodBodyStreamEncoder::AddMethodBody(System.Reflection.Metadata.Ecma335.InstructionEncoder,System.Int32,System.Reflection.Metadata.StandaloneSignatureHandle,System.Reflection.Metadata.Ecma335.MethodBodyAttributes):System.Int32",
@@ -2818,7 +2906,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 4
+          "parameterCount": 4,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.MethodBodyStreamEncoder::AddMethodBody(System.Reflection.Metadata.Ecma335.InstructionEncoder,System.Int32,System.Reflection.Metadata.StandaloneSignatureHandle,System.Reflection.Metadata.Ecma335.MethodBodyAttributes,System.Boolean):System.Int32",
@@ -2833,7 +2922,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 5
+          "parameterCount": 5,
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -2949,7 +3039,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.MethodSignatureEncoder::Parameters(System.Int32,System.Action_1[[System.Reflection.Metadata.Ecma335.ReturnTypeEncoder,System.Reflection.Metadata,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]],System.Action_1[[System.Reflection.Metadata.Ecma335.ParametersEncoder,System.Reflection.Metadata,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):System.Void",
@@ -2964,7 +3055,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -3033,7 +3125,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 4
+          "parameterCount": 4,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.NamedArgumentsEncoder::AddArgument(System.Boolean,System.Action_1[[System.Reflection.Metadata.Ecma335.NamedArgumentTypeEncoder,System.Reflection.Metadata,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]],System.Action_1[[System.Reflection.Metadata.Ecma335.NameEncoder,System.Reflection.Metadata,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]],System.Action_1[[System.Reflection.Metadata.Ecma335.LiteralEncoder,System.Reflection.Metadata,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):System.Void",
@@ -3048,7 +3141,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 4
+          "parameterCount": 4,
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -3102,7 +3196,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.NamedArgumentTypeEncoder::Object():System.Void",
@@ -3117,7 +3212,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.NamedArgumentTypeEncoder::SZArray():System.Reflection.Metadata.Ecma335.CustomAttributeArrayTypeEncoder",
@@ -3132,7 +3228,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -3186,7 +3283,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -3240,7 +3338,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.ParametersEncoder::StartVarArgs():System.Reflection.Metadata.Ecma335.ParametersEncoder",
@@ -3255,7 +3354,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -3324,7 +3424,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.ParameterTypeEncoder::Type(System.Boolean):System.Reflection.Metadata.Ecma335.SignatureTypeEncoder",
@@ -3339,7 +3440,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.ParameterTypeEncoder::TypedReference():System.Void",
@@ -3354,7 +3456,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -3408,7 +3511,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.PermissionSetEncoder::AddPermission(System.String,System.Reflection.Metadata.BlobBuilder):System.Reflection.Metadata.Ecma335.PermissionSetEncoder",
@@ -3423,7 +3527,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -3477,7 +3582,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.ReturnTypeEncoder::Type(System.Boolean):System.Reflection.Metadata.Ecma335.SignatureTypeEncoder",
@@ -3492,7 +3598,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.ReturnTypeEncoder::TypedReference():System.Void",
@@ -3507,7 +3614,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.ReturnTypeEncoder::Void():System.Void",
@@ -3522,7 +3630,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -3576,7 +3685,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.ScalarEncoder::Constant(System.Object):System.Void",
@@ -3591,7 +3701,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.ScalarEncoder::SystemType(System.String):System.Void",
@@ -3606,7 +3717,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -3660,7 +3772,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.SignatureDecoder\u00602::DecodeMethodSignature(System.Reflection.Metadata.BlobReader\u0026):MethodSignature_1",
@@ -3675,7 +3788,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.SignatureDecoder\u00602::DecodeMethodSpecificationSignature(System.Reflection.Metadata.BlobReader\u0026):ImmutableArray_1",
@@ -3690,7 +3804,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.SignatureDecoder\u00602::DecodeLocalSignature(System.Reflection.Metadata.BlobReader\u0026):ImmutableArray_1",
@@ -3705,7 +3820,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.SignatureDecoder\u00602::DecodeFieldSignature(System.Reflection.Metadata.BlobReader\u0026):TType",
@@ -3720,7 +3836,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -3758,7 +3875,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.SignatureTypeEncoder::Char():System.Void",
@@ -3773,7 +3891,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.SignatureTypeEncoder::SByte():System.Void",
@@ -3788,7 +3907,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.SignatureTypeEncoder::Byte():System.Void",
@@ -3803,7 +3923,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.SignatureTypeEncoder::Int16():System.Void",
@@ -3818,7 +3939,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.SignatureTypeEncoder::UInt16():System.Void",
@@ -3833,7 +3955,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.SignatureTypeEncoder::Int32():System.Void",
@@ -3848,7 +3971,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.SignatureTypeEncoder::UInt32():System.Void",
@@ -3863,7 +3987,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.SignatureTypeEncoder::Int64():System.Void",
@@ -3878,7 +4003,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.SignatureTypeEncoder::UInt64():System.Void",
@@ -3893,7 +4019,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.SignatureTypeEncoder::Single():System.Void",
@@ -3908,7 +4035,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.SignatureTypeEncoder::Double():System.Void",
@@ -3923,7 +4051,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.SignatureTypeEncoder::String():System.Void",
@@ -3938,7 +4067,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.SignatureTypeEncoder::TypedReference():System.Void",
@@ -3953,7 +4083,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.SignatureTypeEncoder::IntPtr():System.Void",
@@ -3968,7 +4099,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.SignatureTypeEncoder::UIntPtr():System.Void",
@@ -3983,7 +4115,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.SignatureTypeEncoder::Object():System.Void",
@@ -3998,7 +4131,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.SignatureTypeEncoder::PrimitiveType(System.Reflection.Metadata.PrimitiveTypeCode):System.Void",
@@ -4013,7 +4147,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.SignatureTypeEncoder::Array(System.Reflection.Metadata.Ecma335.SignatureTypeEncoder\u0026,System.Reflection.Metadata.Ecma335.ArrayShapeEncoder\u0026):System.Void",
@@ -4028,7 +4163,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.SignatureTypeEncoder::Array(System.Action_1[[System.Reflection.Metadata.Ecma335.SignatureTypeEncoder,System.Reflection.Metadata,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]],System.Action_1[[System.Reflection.Metadata.Ecma335.ArrayShapeEncoder,System.Reflection.Metadata,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):System.Void",
@@ -4043,7 +4179,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.SignatureTypeEncoder::Type(System.Reflection.Metadata.EntityHandle,System.Boolean):System.Void",
@@ -4058,7 +4195,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.SignatureTypeEncoder::FunctionPointer(System.Reflection.Metadata.SignatureCallingConvention,System.Reflection.Metadata.Ecma335.FunctionPointerAttributes,System.Int32):System.Reflection.Metadata.Ecma335.MethodSignatureEncoder",
@@ -4073,7 +4211,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.SignatureTypeEncoder::GenericInstantiation(System.Reflection.Metadata.EntityHandle,System.Int32,System.Boolean):System.Reflection.Metadata.Ecma335.GenericTypeArgumentsEncoder",
@@ -4088,7 +4227,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.SignatureTypeEncoder::GenericMethodTypeParameter(System.Int32):System.Void",
@@ -4103,7 +4243,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.SignatureTypeEncoder::GenericTypeParameter(System.Int32):System.Void",
@@ -4118,7 +4259,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.SignatureTypeEncoder::Pointer():System.Reflection.Metadata.Ecma335.SignatureTypeEncoder",
@@ -4133,7 +4275,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.SignatureTypeEncoder::VoidPointer():System.Void",
@@ -4148,7 +4291,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.SignatureTypeEncoder::SZArray():System.Reflection.Metadata.Ecma335.SignatureTypeEncoder",
@@ -4163,7 +4307,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.SignatureTypeEncoder::CustomModifiers():System.Reflection.Metadata.Ecma335.CustomModifiersEncoder",
@@ -4178,7 +4323,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -4232,7 +4378,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -4264,7 +4411,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -4318,7 +4466,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.ControlFlowBuilder::AddFinallyRegion(System.Reflection.Metadata.Ecma335.LabelHandle,System.Reflection.Metadata.Ecma335.LabelHandle,System.Reflection.Metadata.Ecma335.LabelHandle,System.Reflection.Metadata.Ecma335.LabelHandle):System.Void",
@@ -4333,7 +4482,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 4
+          "parameterCount": 4,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.ControlFlowBuilder::AddFaultRegion(System.Reflection.Metadata.Ecma335.LabelHandle,System.Reflection.Metadata.Ecma335.LabelHandle,System.Reflection.Metadata.Ecma335.LabelHandle,System.Reflection.Metadata.Ecma335.LabelHandle):System.Void",
@@ -4348,7 +4498,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 4
+          "parameterCount": 4,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.ControlFlowBuilder::AddCatchRegion(System.Reflection.Metadata.Ecma335.LabelHandle,System.Reflection.Metadata.Ecma335.LabelHandle,System.Reflection.Metadata.Ecma335.LabelHandle,System.Reflection.Metadata.Ecma335.LabelHandle,System.Reflection.Metadata.EntityHandle):System.Void",
@@ -4363,7 +4514,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 5
+          "parameterCount": 5,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.ControlFlowBuilder::AddFilterRegion(System.Reflection.Metadata.Ecma335.LabelHandle,System.Reflection.Metadata.Ecma335.LabelHandle,System.Reflection.Metadata.Ecma335.LabelHandle,System.Reflection.Metadata.Ecma335.LabelHandle,System.Reflection.Metadata.Ecma335.LabelHandle):System.Void",
@@ -4378,7 +4530,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 5
+          "parameterCount": 5,
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -4416,7 +4569,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -4459,7 +4613,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.MetadataBuilder::GetRowCount(System.Reflection.Metadata.Ecma335.TableIndex):System.Int32",
@@ -4474,7 +4629,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.MetadataBuilder::GetRowCounts():System.Collections.Immutable.ImmutableArray_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
@@ -4489,7 +4645,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.MetadataBuilder::AddModule(System.Int32,System.Reflection.Metadata.StringHandle,System.Reflection.Metadata.GuidHandle,System.Reflection.Metadata.GuidHandle,System.Reflection.Metadata.GuidHandle):System.Reflection.Metadata.ModuleDefinitionHandle",
@@ -4504,7 +4661,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 5
+          "parameterCount": 5,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.MetadataBuilder::AddAssembly(System.Reflection.Metadata.StringHandle,System.Version,System.Reflection.Metadata.StringHandle,System.Reflection.Metadata.BlobHandle,System.Reflection.AssemblyFlags,System.Reflection.AssemblyHashAlgorithm):System.Reflection.Metadata.AssemblyDefinitionHandle",
@@ -4519,7 +4677,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 6
+          "parameterCount": 6,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.MetadataBuilder::AddAssemblyReference(System.Reflection.Metadata.StringHandle,System.Version,System.Reflection.Metadata.StringHandle,System.Reflection.Metadata.BlobHandle,System.Reflection.AssemblyFlags,System.Reflection.Metadata.BlobHandle):System.Reflection.Metadata.AssemblyReferenceHandle",
@@ -4534,7 +4693,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 6
+          "parameterCount": 6,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.MetadataBuilder::AddTypeDefinition(System.Reflection.TypeAttributes,System.Reflection.Metadata.StringHandle,System.Reflection.Metadata.StringHandle,System.Reflection.Metadata.EntityHandle,System.Reflection.Metadata.FieldDefinitionHandle,System.Reflection.Metadata.MethodDefinitionHandle):System.Reflection.Metadata.TypeDefinitionHandle",
@@ -4549,7 +4709,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 6
+          "parameterCount": 6,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.MetadataBuilder::AddTypeLayout(System.Reflection.Metadata.TypeDefinitionHandle,System.UInt16,System.UInt32):System.Void",
@@ -4564,7 +4725,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.MetadataBuilder::AddInterfaceImplementation(System.Reflection.Metadata.TypeDefinitionHandle,System.Reflection.Metadata.EntityHandle):System.Reflection.Metadata.InterfaceImplementationHandle",
@@ -4579,7 +4741,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.MetadataBuilder::AddNestedType(System.Reflection.Metadata.TypeDefinitionHandle,System.Reflection.Metadata.TypeDefinitionHandle):System.Void",
@@ -4594,7 +4757,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.MetadataBuilder::AddTypeReference(System.Reflection.Metadata.EntityHandle,System.Reflection.Metadata.StringHandle,System.Reflection.Metadata.StringHandle):System.Reflection.Metadata.TypeReferenceHandle",
@@ -4609,7 +4773,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.MetadataBuilder::AddTypeSpecification(System.Reflection.Metadata.BlobHandle):System.Reflection.Metadata.TypeSpecificationHandle",
@@ -4624,7 +4789,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.MetadataBuilder::AddStandaloneSignature(System.Reflection.Metadata.BlobHandle):System.Reflection.Metadata.StandaloneSignatureHandle",
@@ -4639,7 +4805,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.MetadataBuilder::AddProperty(System.Reflection.PropertyAttributes,System.Reflection.Metadata.StringHandle,System.Reflection.Metadata.BlobHandle):System.Reflection.Metadata.PropertyDefinitionHandle",
@@ -4654,7 +4821,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.MetadataBuilder::AddPropertyMap(System.Reflection.Metadata.TypeDefinitionHandle,System.Reflection.Metadata.PropertyDefinitionHandle):System.Void",
@@ -4669,7 +4837,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.MetadataBuilder::AddEvent(System.Reflection.EventAttributes,System.Reflection.Metadata.StringHandle,System.Reflection.Metadata.EntityHandle):System.Reflection.Metadata.EventDefinitionHandle",
@@ -4684,7 +4853,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.MetadataBuilder::AddEventMap(System.Reflection.Metadata.TypeDefinitionHandle,System.Reflection.Metadata.EventDefinitionHandle):System.Void",
@@ -4699,7 +4869,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.MetadataBuilder::AddConstant(System.Reflection.Metadata.EntityHandle,System.Object):System.Reflection.Metadata.ConstantHandle",
@@ -4714,7 +4885,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.MetadataBuilder::AddMethodSemantics(System.Reflection.Metadata.EntityHandle,System.Reflection.MethodSemanticsAttributes,System.Reflection.Metadata.MethodDefinitionHandle):System.Void",
@@ -4729,7 +4901,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.MetadataBuilder::AddCustomAttribute(System.Reflection.Metadata.EntityHandle,System.Reflection.Metadata.EntityHandle,System.Reflection.Metadata.BlobHandle):System.Reflection.Metadata.CustomAttributeHandle",
@@ -4744,7 +4917,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.MetadataBuilder::AddMethodSpecification(System.Reflection.Metadata.EntityHandle,System.Reflection.Metadata.BlobHandle):System.Reflection.Metadata.MethodSpecificationHandle",
@@ -4759,7 +4933,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.MetadataBuilder::AddModuleReference(System.Reflection.Metadata.StringHandle):System.Reflection.Metadata.ModuleReferenceHandle",
@@ -4774,7 +4949,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.MetadataBuilder::AddParameter(System.Reflection.ParameterAttributes,System.Reflection.Metadata.StringHandle,System.Int32):System.Reflection.Metadata.ParameterHandle",
@@ -4789,7 +4965,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.MetadataBuilder::AddGenericParameter(System.Reflection.Metadata.EntityHandle,System.Reflection.GenericParameterAttributes,System.Reflection.Metadata.StringHandle,System.Int32):System.Reflection.Metadata.GenericParameterHandle",
@@ -4804,7 +4981,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 4
+          "parameterCount": 4,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.MetadataBuilder::AddGenericParameterConstraint(System.Reflection.Metadata.GenericParameterHandle,System.Reflection.Metadata.EntityHandle):System.Reflection.Metadata.GenericParameterConstraintHandle",
@@ -4819,7 +4997,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.MetadataBuilder::AddFieldDefinition(System.Reflection.FieldAttributes,System.Reflection.Metadata.StringHandle,System.Reflection.Metadata.BlobHandle):System.Reflection.Metadata.FieldDefinitionHandle",
@@ -4834,7 +5013,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.MetadataBuilder::AddFieldLayout(System.Reflection.Metadata.FieldDefinitionHandle,System.Int32):System.Void",
@@ -4849,7 +5029,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.MetadataBuilder::AddMarshallingDescriptor(System.Reflection.Metadata.EntityHandle,System.Reflection.Metadata.BlobHandle):System.Void",
@@ -4864,7 +5045,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.MetadataBuilder::AddFieldRelativeVirtualAddress(System.Reflection.Metadata.FieldDefinitionHandle,System.Int32):System.Void",
@@ -4879,7 +5061,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.MetadataBuilder::AddMethodDefinition(System.Reflection.MethodAttributes,System.Reflection.MethodImplAttributes,System.Reflection.Metadata.StringHandle,System.Reflection.Metadata.BlobHandle,System.Int32,System.Reflection.Metadata.ParameterHandle):System.Reflection.Metadata.MethodDefinitionHandle",
@@ -4894,7 +5077,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 6
+          "parameterCount": 6,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.MetadataBuilder::AddMethodImport(System.Reflection.Metadata.MethodDefinitionHandle,System.Reflection.MethodImportAttributes,System.Reflection.Metadata.StringHandle,System.Reflection.Metadata.ModuleReferenceHandle):System.Void",
@@ -4909,7 +5093,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 4
+          "parameterCount": 4,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.MetadataBuilder::AddMethodImplementation(System.Reflection.Metadata.TypeDefinitionHandle,System.Reflection.Metadata.EntityHandle,System.Reflection.Metadata.EntityHandle):System.Reflection.Metadata.MethodImplementationHandle",
@@ -4924,7 +5109,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.MetadataBuilder::AddMemberReference(System.Reflection.Metadata.EntityHandle,System.Reflection.Metadata.StringHandle,System.Reflection.Metadata.BlobHandle):System.Reflection.Metadata.MemberReferenceHandle",
@@ -4939,7 +5125,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.MetadataBuilder::AddManifestResource(System.Reflection.ManifestResourceAttributes,System.Reflection.Metadata.StringHandle,System.Reflection.Metadata.EntityHandle,System.UInt32):System.Reflection.Metadata.ManifestResourceHandle",
@@ -4954,7 +5141,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 4
+          "parameterCount": 4,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.MetadataBuilder::AddAssemblyFile(System.Reflection.Metadata.StringHandle,System.Reflection.Metadata.BlobHandle,System.Boolean):System.Reflection.Metadata.AssemblyFileHandle",
@@ -4969,7 +5157,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.MetadataBuilder::AddExportedType(System.Reflection.TypeAttributes,System.Reflection.Metadata.StringHandle,System.Reflection.Metadata.StringHandle,System.Reflection.Metadata.EntityHandle,System.Int32):System.Reflection.Metadata.ExportedTypeHandle",
@@ -4984,7 +5173,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 5
+          "parameterCount": 5,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.MetadataBuilder::AddDeclarativeSecurityAttribute(System.Reflection.Metadata.EntityHandle,System.Reflection.DeclarativeSecurityAction,System.Reflection.Metadata.BlobHandle):System.Reflection.Metadata.DeclarativeSecurityAttributeHandle",
@@ -4999,7 +5189,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.MetadataBuilder::AddEncLogEntry(System.Reflection.Metadata.EntityHandle,System.Reflection.Metadata.Ecma335.EditAndContinueOperation):System.Void",
@@ -5014,7 +5205,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.MetadataBuilder::AddEncMapEntry(System.Reflection.Metadata.EntityHandle):System.Void",
@@ -5029,7 +5221,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.MetadataBuilder::AddDocument(System.Reflection.Metadata.BlobHandle,System.Reflection.Metadata.GuidHandle,System.Reflection.Metadata.BlobHandle,System.Reflection.Metadata.GuidHandle):System.Reflection.Metadata.DocumentHandle",
@@ -5044,7 +5237,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 4
+          "parameterCount": 4,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.MetadataBuilder::AddMethodDebugInformation(System.Reflection.Metadata.DocumentHandle,System.Reflection.Metadata.BlobHandle):System.Reflection.Metadata.MethodDebugInformationHandle",
@@ -5059,7 +5253,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.MetadataBuilder::AddLocalScope(System.Reflection.Metadata.MethodDefinitionHandle,System.Reflection.Metadata.ImportScopeHandle,System.Reflection.Metadata.LocalVariableHandle,System.Reflection.Metadata.LocalConstantHandle,System.Int32,System.Int32):System.Reflection.Metadata.LocalScopeHandle",
@@ -5074,7 +5269,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 6
+          "parameterCount": 6,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.MetadataBuilder::AddLocalVariable(System.Reflection.Metadata.LocalVariableAttributes,System.Int32,System.Reflection.Metadata.StringHandle):System.Reflection.Metadata.LocalVariableHandle",
@@ -5089,7 +5285,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.MetadataBuilder::AddLocalConstant(System.Reflection.Metadata.StringHandle,System.Reflection.Metadata.BlobHandle):System.Reflection.Metadata.LocalConstantHandle",
@@ -5104,7 +5301,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.MetadataBuilder::AddImportScope(System.Reflection.Metadata.ImportScopeHandle,System.Reflection.Metadata.BlobHandle):System.Reflection.Metadata.ImportScopeHandle",
@@ -5119,7 +5317,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.MetadataBuilder::AddStateMachineMethod(System.Reflection.Metadata.MethodDefinitionHandle,System.Reflection.Metadata.MethodDefinitionHandle):System.Void",
@@ -5134,7 +5333,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.MetadataBuilder::AddCustomDebugInformation(System.Reflection.Metadata.EntityHandle,System.Reflection.Metadata.GuidHandle,System.Reflection.Metadata.BlobHandle):System.Reflection.Metadata.CustomDebugInformationHandle",
@@ -5149,7 +5349,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.MetadataBuilder::SetCapacity(System.Reflection.Metadata.Ecma335.HeapIndex,System.Int32):System.Void",
@@ -5164,7 +5365,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.MetadataBuilder::GetOrAddBlob(System.Reflection.Metadata.BlobBuilder):System.Reflection.Metadata.BlobHandle",
@@ -5179,7 +5381,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.MetadataBuilder::GetOrAddBlob(System.Byte[]):System.Reflection.Metadata.BlobHandle",
@@ -5194,7 +5397,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.MetadataBuilder::GetOrAddBlob(System.Collections.Immutable.ImmutableArray_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Reflection.Metadata.BlobHandle",
@@ -5209,7 +5413,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.MetadataBuilder::GetOrAddConstantBlob(System.Object):System.Reflection.Metadata.BlobHandle",
@@ -5224,7 +5429,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.MetadataBuilder::GetOrAddBlobUTF16(System.String):System.Reflection.Metadata.BlobHandle",
@@ -5239,7 +5445,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.MetadataBuilder::GetOrAddBlobUTF8(System.String,System.Boolean):System.Reflection.Metadata.BlobHandle",
@@ -5254,7 +5461,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.MetadataBuilder::GetOrAddDocumentName(System.String):System.Reflection.Metadata.BlobHandle",
@@ -5269,7 +5477,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.MetadataBuilder::GetOrAddGuid(System.Guid):System.Reflection.Metadata.GuidHandle",
@@ -5284,7 +5493,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.MetadataBuilder::ReserveGuid():System.Reflection.Metadata.ReservedBlob_1[[System.Reflection.Metadata.GuidHandle,System.Reflection.Metadata,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
@@ -5299,7 +5509,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.MetadataBuilder::GetOrAddString(System.String):System.Reflection.Metadata.StringHandle",
@@ -5314,7 +5525,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.MetadataBuilder::ReserveUserString(System.Int32):System.Reflection.Metadata.ReservedBlob_1[[System.Reflection.Metadata.UserStringHandle,System.Reflection.Metadata,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
@@ -5329,7 +5541,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.MetadataBuilder::GetOrAddUserString(System.String):System.Reflection.Metadata.UserStringHandle",
@@ -5344,7 +5557,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -5382,7 +5596,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -5466,7 +5681,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -5544,7 +5760,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -5628,7 +5845,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.CodedIndex::HasConstant(System.Reflection.Metadata.EntityHandle):System.Int32",
@@ -5643,7 +5861,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.CodedIndex::CustomAttributeType(System.Reflection.Metadata.EntityHandle):System.Int32",
@@ -5658,7 +5877,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.CodedIndex::HasDeclSecurity(System.Reflection.Metadata.EntityHandle):System.Int32",
@@ -5673,7 +5893,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.CodedIndex::HasFieldMarshal(System.Reflection.Metadata.EntityHandle):System.Int32",
@@ -5688,7 +5909,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.CodedIndex::HasSemantics(System.Reflection.Metadata.EntityHandle):System.Int32",
@@ -5703,7 +5925,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.CodedIndex::Implementation(System.Reflection.Metadata.EntityHandle):System.Int32",
@@ -5718,7 +5941,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.CodedIndex::MemberForwarded(System.Reflection.Metadata.EntityHandle):System.Int32",
@@ -5733,7 +5957,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.CodedIndex::MemberRefParent(System.Reflection.Metadata.EntityHandle):System.Int32",
@@ -5748,7 +5973,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.CodedIndex::MethodDefOrRef(System.Reflection.Metadata.EntityHandle):System.Int32",
@@ -5763,7 +5989,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.CodedIndex::ResolutionScope(System.Reflection.Metadata.EntityHandle):System.Int32",
@@ -5778,7 +6005,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.CodedIndex::TypeDefOrRef(System.Reflection.Metadata.EntityHandle):System.Int32",
@@ -5793,7 +6021,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.CodedIndex::TypeDefOrRefOrSpec(System.Reflection.Metadata.EntityHandle):System.Int32",
@@ -5808,7 +6037,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.CodedIndex::TypeOrMethodDef(System.Reflection.Metadata.EntityHandle):System.Int32",
@@ -5823,7 +6053,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.CodedIndex::HasCustomDebugInformation(System.Reflection.Metadata.EntityHandle):System.Int32",
@@ -5838,7 +6069,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -5870,7 +6102,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": true
         }
       ],
       "properties": [],
@@ -5902,7 +6135,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": true
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.MetadataReaderExtensions::GetTableRowSize(System.Reflection.Metadata.MetadataReader,System.Reflection.Metadata.Ecma335.TableIndex):System.Int32",
@@ -5917,7 +6151,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": true
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.MetadataReaderExtensions::GetTableMetadataOffset(System.Reflection.Metadata.MetadataReader,System.Reflection.Metadata.Ecma335.TableIndex):System.Int32",
@@ -5932,7 +6167,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": true
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.MetadataReaderExtensions::GetHeapSize(System.Reflection.Metadata.MetadataReader,System.Reflection.Metadata.Ecma335.HeapIndex):System.Int32",
@@ -5947,7 +6183,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": true
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.MetadataReaderExtensions::GetHeapMetadataOffset(System.Reflection.Metadata.MetadataReader,System.Reflection.Metadata.Ecma335.HeapIndex):System.Int32",
@@ -5962,7 +6199,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": true
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.MetadataReaderExtensions::GetNextHandle(System.Reflection.Metadata.MetadataReader,System.Reflection.Metadata.UserStringHandle):System.Reflection.Metadata.UserStringHandle",
@@ -5977,7 +6215,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": true
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.MetadataReaderExtensions::GetNextHandle(System.Reflection.Metadata.MetadataReader,System.Reflection.Metadata.BlobHandle):System.Reflection.Metadata.BlobHandle",
@@ -5992,7 +6231,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": true
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.MetadataReaderExtensions::GetNextHandle(System.Reflection.Metadata.MetadataReader,System.Reflection.Metadata.StringHandle):System.Reflection.Metadata.StringHandle",
@@ -6007,7 +6247,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": true
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.MetadataReaderExtensions::GetEditAndContinueLogEntries(System.Reflection.Metadata.MetadataReader):System.Collections.Generic.IEnumerable_1[[System.Reflection.Metadata.Ecma335.EditAndContinueLogEntry,System.Reflection.Metadata,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
@@ -6022,7 +6263,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": true
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.MetadataReaderExtensions::GetEditAndContinueMapEntries(System.Reflection.Metadata.MetadataReader):System.Collections.Generic.IEnumerable_1[[System.Reflection.Metadata.EntityHandle,System.Reflection.Metadata,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
@@ -6037,7 +6279,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": true
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.MetadataReaderExtensions::GetTypesWithProperties(System.Reflection.Metadata.MetadataReader):System.Collections.Generic.IEnumerable_1[[System.Reflection.Metadata.TypeDefinitionHandle,System.Reflection.Metadata,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
@@ -6052,7 +6295,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": true
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.MetadataReaderExtensions::GetTypesWithEvents(System.Reflection.Metadata.MetadataReader):System.Collections.Generic.IEnumerable_1[[System.Reflection.Metadata.TypeDefinitionHandle,System.Reflection.Metadata,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
@@ -6067,7 +6311,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": true
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.MetadataReaderExtensions::ResolveSignatureTypeKind(System.Reflection.Metadata.MetadataReader,System.Reflection.Metadata.EntityHandle,System.Byte):System.Reflection.Metadata.SignatureTypeKind",
@@ -6082,7 +6327,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": true
         }
       ],
       "properties": [],
@@ -6114,7 +6360,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": true
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.MetadataTokens::GetHeapOffset(System.Reflection.Metadata.MetadataReader,System.Reflection.Metadata.Handle):System.Int32",
@@ -6129,7 +6376,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": true
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.MetadataTokens::GetToken(System.Reflection.Metadata.MetadataReader,System.Reflection.Metadata.EntityHandle):System.Int32",
@@ -6144,7 +6392,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": true
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.MetadataTokens::GetToken(System.Reflection.Metadata.MetadataReader,System.Reflection.Metadata.Handle):System.Int32",
@@ -6159,7 +6408,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": true
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.MetadataTokens::GetRowNumber(System.Reflection.Metadata.EntityHandle):System.Int32",
@@ -6174,7 +6424,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.MetadataTokens::GetHeapOffset(System.Reflection.Metadata.Handle):System.Int32",
@@ -6189,7 +6440,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.MetadataTokens::GetHeapOffset(System.Reflection.Metadata.BlobHandle):System.Int32",
@@ -6204,7 +6456,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.MetadataTokens::GetHeapOffset(System.Reflection.Metadata.GuidHandle):System.Int32",
@@ -6219,7 +6472,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.MetadataTokens::GetHeapOffset(System.Reflection.Metadata.UserStringHandle):System.Int32",
@@ -6234,7 +6488,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.MetadataTokens::GetHeapOffset(System.Reflection.Metadata.StringHandle):System.Int32",
@@ -6249,7 +6504,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.MetadataTokens::GetToken(System.Reflection.Metadata.Handle):System.Int32",
@@ -6264,7 +6520,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.MetadataTokens::GetToken(System.Reflection.Metadata.EntityHandle):System.Int32",
@@ -6279,7 +6536,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.MetadataTokens::TryGetTableIndex(System.Reflection.Metadata.HandleKind,System.Reflection.Metadata.Ecma335.TableIndex\u0026):System.Boolean",
@@ -6294,7 +6552,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.MetadataTokens::TryGetHeapIndex(System.Reflection.Metadata.HandleKind,System.Reflection.Metadata.Ecma335.HeapIndex\u0026):System.Boolean",
@@ -6309,7 +6568,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.MetadataTokens::Handle(System.Int32):System.Reflection.Metadata.Handle",
@@ -6324,7 +6584,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.MetadataTokens::EntityHandle(System.Int32):System.Reflection.Metadata.EntityHandle",
@@ -6339,7 +6600,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.MetadataTokens::EntityHandle(System.Reflection.Metadata.Ecma335.TableIndex,System.Int32):System.Reflection.Metadata.EntityHandle",
@@ -6354,7 +6616,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.MetadataTokens::Handle(System.Reflection.Metadata.Ecma335.TableIndex,System.Int32):System.Reflection.Metadata.EntityHandle",
@@ -6369,7 +6632,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.MetadataTokens::MethodDefinitionHandle(System.Int32):System.Reflection.Metadata.MethodDefinitionHandle",
@@ -6384,7 +6648,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.MetadataTokens::MethodImplementationHandle(System.Int32):System.Reflection.Metadata.MethodImplementationHandle",
@@ -6399,7 +6664,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.MetadataTokens::MethodSpecificationHandle(System.Int32):System.Reflection.Metadata.MethodSpecificationHandle",
@@ -6414,7 +6680,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.MetadataTokens::TypeDefinitionHandle(System.Int32):System.Reflection.Metadata.TypeDefinitionHandle",
@@ -6429,7 +6696,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.MetadataTokens::ExportedTypeHandle(System.Int32):System.Reflection.Metadata.ExportedTypeHandle",
@@ -6444,7 +6712,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.MetadataTokens::TypeReferenceHandle(System.Int32):System.Reflection.Metadata.TypeReferenceHandle",
@@ -6459,7 +6728,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.MetadataTokens::TypeSpecificationHandle(System.Int32):System.Reflection.Metadata.TypeSpecificationHandle",
@@ -6474,7 +6744,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.MetadataTokens::InterfaceImplementationHandle(System.Int32):System.Reflection.Metadata.InterfaceImplementationHandle",
@@ -6489,7 +6760,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.MetadataTokens::MemberReferenceHandle(System.Int32):System.Reflection.Metadata.MemberReferenceHandle",
@@ -6504,7 +6776,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.MetadataTokens::FieldDefinitionHandle(System.Int32):System.Reflection.Metadata.FieldDefinitionHandle",
@@ -6519,7 +6792,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.MetadataTokens::EventDefinitionHandle(System.Int32):System.Reflection.Metadata.EventDefinitionHandle",
@@ -6534,7 +6808,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.MetadataTokens::PropertyDefinitionHandle(System.Int32):System.Reflection.Metadata.PropertyDefinitionHandle",
@@ -6549,7 +6824,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.MetadataTokens::StandaloneSignatureHandle(System.Int32):System.Reflection.Metadata.StandaloneSignatureHandle",
@@ -6564,7 +6840,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.MetadataTokens::ParameterHandle(System.Int32):System.Reflection.Metadata.ParameterHandle",
@@ -6579,7 +6856,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.MetadataTokens::GenericParameterHandle(System.Int32):System.Reflection.Metadata.GenericParameterHandle",
@@ -6594,7 +6872,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.MetadataTokens::GenericParameterConstraintHandle(System.Int32):System.Reflection.Metadata.GenericParameterConstraintHandle",
@@ -6609,7 +6888,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.MetadataTokens::ModuleReferenceHandle(System.Int32):System.Reflection.Metadata.ModuleReferenceHandle",
@@ -6624,7 +6904,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.MetadataTokens::AssemblyReferenceHandle(System.Int32):System.Reflection.Metadata.AssemblyReferenceHandle",
@@ -6639,7 +6920,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.MetadataTokens::CustomAttributeHandle(System.Int32):System.Reflection.Metadata.CustomAttributeHandle",
@@ -6654,7 +6936,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.MetadataTokens::DeclarativeSecurityAttributeHandle(System.Int32):System.Reflection.Metadata.DeclarativeSecurityAttributeHandle",
@@ -6669,7 +6952,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.MetadataTokens::ConstantHandle(System.Int32):System.Reflection.Metadata.ConstantHandle",
@@ -6684,7 +6968,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.MetadataTokens::ManifestResourceHandle(System.Int32):System.Reflection.Metadata.ManifestResourceHandle",
@@ -6699,7 +6984,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.MetadataTokens::AssemblyFileHandle(System.Int32):System.Reflection.Metadata.AssemblyFileHandle",
@@ -6714,7 +7000,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.MetadataTokens::DocumentHandle(System.Int32):System.Reflection.Metadata.DocumentHandle",
@@ -6729,7 +7016,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.MetadataTokens::MethodDebugInformationHandle(System.Int32):System.Reflection.Metadata.MethodDebugInformationHandle",
@@ -6744,7 +7032,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.MetadataTokens::LocalScopeHandle(System.Int32):System.Reflection.Metadata.LocalScopeHandle",
@@ -6759,7 +7048,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.MetadataTokens::LocalVariableHandle(System.Int32):System.Reflection.Metadata.LocalVariableHandle",
@@ -6774,7 +7064,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.MetadataTokens::LocalConstantHandle(System.Int32):System.Reflection.Metadata.LocalConstantHandle",
@@ -6789,7 +7080,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.MetadataTokens::ImportScopeHandle(System.Int32):System.Reflection.Metadata.ImportScopeHandle",
@@ -6804,7 +7096,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.MetadataTokens::CustomDebugInformationHandle(System.Int32):System.Reflection.Metadata.CustomDebugInformationHandle",
@@ -6819,7 +7112,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.MetadataTokens::UserStringHandle(System.Int32):System.Reflection.Metadata.UserStringHandle",
@@ -6834,7 +7128,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.MetadataTokens::StringHandle(System.Int32):System.Reflection.Metadata.StringHandle",
@@ -6849,7 +7144,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.MetadataTokens::BlobHandle(System.Int32):System.Reflection.Metadata.BlobHandle",
@@ -6864,7 +7160,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.MetadataTokens::GuidHandle(System.Int32):System.Reflection.Metadata.GuidHandle",
@@ -6879,7 +7176,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.MetadataTokens::DocumentNameBlobHandle(System.Int32):System.Reflection.Metadata.DocumentNameBlobHandle",
@@ -6894,7 +7192,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         }
       ],
       "properties": [],

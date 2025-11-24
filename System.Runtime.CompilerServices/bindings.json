@@ -4192,7 +4192,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Runtime.CompilerServices.IAsyncStateMachine",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.IAsyncStateMachine::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine):System.Void",
@@ -4205,7 +4206,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.CompilerServices.IAsyncStateMachine",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -4253,7 +4255,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.CompilerServices.ICriticalNotifyCompletion",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -4291,7 +4294,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.CompilerServices.INotifyCompletion",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -4494,7 +4498,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Runtime.CompilerServices.AsyncIteratorMethodBuilder",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.AsyncIteratorMethodBuilder::MoveNext(TStateMachine\u0026):System.Void",
@@ -4507,7 +4512,8 @@
           "arity": 1,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.CompilerServices.AsyncIteratorMethodBuilder",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.AsyncIteratorMethodBuilder::AwaitOnCompleted(TAwaiter\u0026,TStateMachine\u0026):System.Void",
@@ -4520,7 +4526,8 @@
           "arity": 2,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.CompilerServices.AsyncIteratorMethodBuilder",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.AsyncIteratorMethodBuilder::AwaitUnsafeOnCompleted(TAwaiter\u0026,TStateMachine\u0026):System.Void",
@@ -4533,7 +4540,8 @@
           "arity": 2,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.CompilerServices.AsyncIteratorMethodBuilder",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.AsyncIteratorMethodBuilder::Complete():System.Void",
@@ -4546,7 +4554,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Runtime.CompilerServices.AsyncIteratorMethodBuilder",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -4684,7 +4693,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Runtime.CompilerServices.AsyncTaskMethodBuilder",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.AsyncTaskMethodBuilder::Start(TStateMachine\u0026):System.Void",
@@ -4697,7 +4707,8 @@
           "arity": 1,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.CompilerServices.AsyncTaskMethodBuilder",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.AsyncTaskMethodBuilder::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine):System.Void",
@@ -4710,7 +4721,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.CompilerServices.AsyncTaskMethodBuilder",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.AsyncTaskMethodBuilder::AwaitOnCompleted(TAwaiter\u0026,TStateMachine\u0026):System.Void",
@@ -4723,7 +4735,8 @@
           "arity": 2,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.CompilerServices.AsyncTaskMethodBuilder",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.AsyncTaskMethodBuilder::AwaitUnsafeOnCompleted(TAwaiter\u0026,TStateMachine\u0026):System.Void",
@@ -4736,7 +4749,8 @@
           "arity": 2,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.CompilerServices.AsyncTaskMethodBuilder",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.AsyncTaskMethodBuilder::SetResult():System.Void",
@@ -4749,7 +4763,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Runtime.CompilerServices.AsyncTaskMethodBuilder",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.AsyncTaskMethodBuilder::SetException(System.Exception):System.Void",
@@ -4762,7 +4777,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.CompilerServices.AsyncTaskMethodBuilder",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -4947,7 +4963,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Runtime.CompilerServices.AsyncTaskMethodBuilder\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.AsyncTaskMethodBuilder\u00601::Start(TStateMachine\u0026):System.Void",
@@ -4960,7 +4977,8 @@
           "arity": 1,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.CompilerServices.AsyncTaskMethodBuilder\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.AsyncTaskMethodBuilder\u00601::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine):System.Void",
@@ -4973,7 +4991,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.CompilerServices.AsyncTaskMethodBuilder\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.AsyncTaskMethodBuilder\u00601::AwaitOnCompleted(TAwaiter\u0026,TStateMachine\u0026):System.Void",
@@ -4986,7 +5005,8 @@
           "arity": 2,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.CompilerServices.AsyncTaskMethodBuilder\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.AsyncTaskMethodBuilder\u00601::AwaitUnsafeOnCompleted(TAwaiter\u0026,TStateMachine\u0026):System.Void",
@@ -4999,7 +5019,8 @@
           "arity": 2,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.CompilerServices.AsyncTaskMethodBuilder\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.AsyncTaskMethodBuilder\u00601::SetResult(TResult):System.Void",
@@ -5012,7 +5033,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.CompilerServices.AsyncTaskMethodBuilder\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.AsyncTaskMethodBuilder\u00601::SetException(System.Exception):System.Void",
@@ -5025,7 +5047,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.CompilerServices.AsyncTaskMethodBuilder\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -5210,7 +5233,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Runtime.CompilerServices.AsyncValueTaskMethodBuilder",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.AsyncValueTaskMethodBuilder::Start(TStateMachine\u0026):System.Void",
@@ -5223,7 +5247,8 @@
           "arity": 1,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.CompilerServices.AsyncValueTaskMethodBuilder",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.AsyncValueTaskMethodBuilder::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine):System.Void",
@@ -5236,7 +5261,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.CompilerServices.AsyncValueTaskMethodBuilder",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.AsyncValueTaskMethodBuilder::SetResult():System.Void",
@@ -5249,7 +5275,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Runtime.CompilerServices.AsyncValueTaskMethodBuilder",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.AsyncValueTaskMethodBuilder::SetException(System.Exception):System.Void",
@@ -5262,7 +5289,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.CompilerServices.AsyncValueTaskMethodBuilder",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.AsyncValueTaskMethodBuilder::AwaitOnCompleted(TAwaiter\u0026,TStateMachine\u0026):System.Void",
@@ -5275,7 +5303,8 @@
           "arity": 2,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.CompilerServices.AsyncValueTaskMethodBuilder",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.AsyncValueTaskMethodBuilder::AwaitUnsafeOnCompleted(TAwaiter\u0026,TStateMachine\u0026):System.Void",
@@ -5288,7 +5317,8 @@
           "arity": 2,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.CompilerServices.AsyncValueTaskMethodBuilder",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -5473,7 +5503,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Runtime.CompilerServices.AsyncValueTaskMethodBuilder\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.AsyncValueTaskMethodBuilder\u00601::Start(TStateMachine\u0026):System.Void",
@@ -5486,7 +5517,8 @@
           "arity": 1,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.CompilerServices.AsyncValueTaskMethodBuilder\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.AsyncValueTaskMethodBuilder\u00601::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine):System.Void",
@@ -5499,7 +5531,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.CompilerServices.AsyncValueTaskMethodBuilder\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.AsyncValueTaskMethodBuilder\u00601::SetResult(TResult):System.Void",
@@ -5512,7 +5545,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.CompilerServices.AsyncValueTaskMethodBuilder\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.AsyncValueTaskMethodBuilder\u00601::SetException(System.Exception):System.Void",
@@ -5525,7 +5559,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.CompilerServices.AsyncValueTaskMethodBuilder\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.AsyncValueTaskMethodBuilder\u00601::AwaitOnCompleted(TAwaiter\u0026,TStateMachine\u0026):System.Void",
@@ -5538,7 +5573,8 @@
           "arity": 2,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.CompilerServices.AsyncValueTaskMethodBuilder\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.AsyncValueTaskMethodBuilder\u00601::AwaitUnsafeOnCompleted(TAwaiter\u0026,TStateMachine\u0026):System.Void",
@@ -5551,7 +5587,8 @@
           "arity": 2,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.CompilerServices.AsyncValueTaskMethodBuilder\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -5736,7 +5773,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Runtime.CompilerServices.AsyncVoidMethodBuilder",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.AsyncVoidMethodBuilder::Start(TStateMachine\u0026):System.Void",
@@ -5749,7 +5787,8 @@
           "arity": 1,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.CompilerServices.AsyncVoidMethodBuilder",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.AsyncVoidMethodBuilder::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine):System.Void",
@@ -5762,7 +5801,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.CompilerServices.AsyncVoidMethodBuilder",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.AsyncVoidMethodBuilder::AwaitOnCompleted(TAwaiter\u0026,TStateMachine\u0026):System.Void",
@@ -5775,7 +5815,8 @@
           "arity": 2,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.CompilerServices.AsyncVoidMethodBuilder",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.AsyncVoidMethodBuilder::AwaitUnsafeOnCompleted(TAwaiter\u0026,TStateMachine\u0026):System.Void",
@@ -5788,7 +5829,8 @@
           "arity": 2,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.CompilerServices.AsyncVoidMethodBuilder",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.AsyncVoidMethodBuilder::SetResult():System.Void",
@@ -5801,7 +5843,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Runtime.CompilerServices.AsyncVoidMethodBuilder",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.AsyncVoidMethodBuilder::SetException(System.Exception):System.Void",
@@ -5814,7 +5857,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.CompilerServices.AsyncVoidMethodBuilder",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -5972,7 +6016,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Runtime.CompilerServices.ConfiguredAsyncDisposable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -6070,7 +6115,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.CompilerServices.ConfiguredCancelableAsyncEnumerable\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.ConfiguredCancelableAsyncEnumerable\u00601::WithCancellation(System.Threading.CancellationToken):ConfiguredCancelableAsyncEnumerable_1",
@@ -6083,7 +6129,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.CompilerServices.ConfiguredCancelableAsyncEnumerable\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.ConfiguredCancelableAsyncEnumerable\u00601::GetAsyncEnumerator():Enumerator",
@@ -6096,7 +6143,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Runtime.CompilerServices.ConfiguredCancelableAsyncEnumerable\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -6214,7 +6262,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Runtime.CompilerServices.ConfiguredCancelableAsyncEnumerable\u00601\u002BEnumerator",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.ConfiguredCancelableAsyncEnumerable\u00601\u002BEnumerator::DisposeAsync():System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable",
@@ -6227,7 +6276,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Runtime.CompilerServices.ConfiguredCancelableAsyncEnumerable\u00601\u002BEnumerator",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -6362,7 +6412,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Runtime.CompilerServices.ConfiguredTaskAwaitable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -6460,7 +6511,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Runtime.CompilerServices.ConfiguredTaskAwaitable\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -6558,7 +6610,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.CompilerServices.ConfiguredTaskAwaitable\u00601\u002BConfiguredTaskAwaiter",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.ConfiguredTaskAwaitable\u00601\u002BConfiguredTaskAwaiter::UnsafeOnCompleted(System.Action):System.Void",
@@ -6571,7 +6624,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.CompilerServices.ConfiguredTaskAwaitable\u00601\u002BConfiguredTaskAwaiter",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.ConfiguredTaskAwaitable\u00601\u002BConfiguredTaskAwaiter::GetResult():TResult",
@@ -6584,7 +6638,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Runtime.CompilerServices.ConfiguredTaskAwaitable\u00601\u002BConfiguredTaskAwaiter",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.ICriticalNotifyCompletion::UnsafeOnCompleted(System.Action):System.Void",
@@ -6597,7 +6652,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.CompilerServices.ICriticalNotifyCompletion",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.INotifyCompletion::OnCompleted(System.Action):System.Void",
@@ -6610,7 +6666,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.CompilerServices.INotifyCompletion",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -6775,7 +6832,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.CompilerServices.ConfiguredTaskAwaitable\u002BConfiguredTaskAwaiter",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.ConfiguredTaskAwaitable\u002BConfiguredTaskAwaiter::UnsafeOnCompleted(System.Action):System.Void",
@@ -6788,7 +6846,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.CompilerServices.ConfiguredTaskAwaitable\u002BConfiguredTaskAwaiter",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.ConfiguredTaskAwaitable\u002BConfiguredTaskAwaiter::GetResult():System.Void",
@@ -6801,7 +6860,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Runtime.CompilerServices.ConfiguredTaskAwaitable\u002BConfiguredTaskAwaiter",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.ICriticalNotifyCompletion::UnsafeOnCompleted(System.Action):System.Void",
@@ -6814,7 +6874,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.CompilerServices.ICriticalNotifyCompletion",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.INotifyCompletion::OnCompleted(System.Action):System.Void",
@@ -6827,7 +6888,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.CompilerServices.INotifyCompletion",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -6992,7 +7054,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -7090,7 +7153,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -7188,7 +7252,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable\u00601\u002BConfiguredValueTaskAwaiter",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable\u00601\u002BConfiguredValueTaskAwaiter::OnCompleted(System.Action):System.Void",
@@ -7201,7 +7266,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable\u00601\u002BConfiguredValueTaskAwaiter",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable\u00601\u002BConfiguredValueTaskAwaiter::UnsafeOnCompleted(System.Action):System.Void",
@@ -7214,7 +7280,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable\u00601\u002BConfiguredValueTaskAwaiter",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.ICriticalNotifyCompletion::UnsafeOnCompleted(System.Action):System.Void",
@@ -7227,7 +7294,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.CompilerServices.ICriticalNotifyCompletion",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.INotifyCompletion::OnCompleted(System.Action):System.Void",
@@ -7240,7 +7308,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.CompilerServices.INotifyCompletion",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -7405,7 +7474,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable\u002BConfiguredValueTaskAwaiter",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable\u002BConfiguredValueTaskAwaiter::OnCompleted(System.Action):System.Void",
@@ -7418,7 +7488,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable\u002BConfiguredValueTaskAwaiter",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable\u002BConfiguredValueTaskAwaiter::UnsafeOnCompleted(System.Action):System.Void",
@@ -7431,7 +7502,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable\u002BConfiguredValueTaskAwaiter",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.ICriticalNotifyCompletion::UnsafeOnCompleted(System.Action):System.Void",
@@ -7444,7 +7516,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.CompilerServices.ICriticalNotifyCompletion",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.INotifyCompletion::OnCompleted(System.Action):System.Void",
@@ -7457,7 +7530,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.CompilerServices.INotifyCompletion",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -7622,7 +7696,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Runtime.CompilerServices.DefaultInterpolatedStringHandler",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.DefaultInterpolatedStringHandler::ToStringAndClear():System.String",
@@ -7635,7 +7710,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Runtime.CompilerServices.DefaultInterpolatedStringHandler",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.DefaultInterpolatedStringHandler::Clear():System.Void",
@@ -7648,7 +7724,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Runtime.CompilerServices.DefaultInterpolatedStringHandler",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.DefaultInterpolatedStringHandler::AppendLiteral(System.String):System.Void",
@@ -7661,7 +7738,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.CompilerServices.DefaultInterpolatedStringHandler",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.DefaultInterpolatedStringHandler::AppendFormatted(T):System.Void",
@@ -7674,7 +7752,8 @@
           "arity": 1,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.CompilerServices.DefaultInterpolatedStringHandler",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.DefaultInterpolatedStringHandler::AppendFormatted(T,System.String):System.Void",
@@ -7687,7 +7766,8 @@
           "arity": 1,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.CompilerServices.DefaultInterpolatedStringHandler",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.DefaultInterpolatedStringHandler::AppendFormatted(T,System.Int32):System.Void",
@@ -7700,7 +7780,8 @@
           "arity": 1,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.CompilerServices.DefaultInterpolatedStringHandler",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.DefaultInterpolatedStringHandler::AppendFormatted(T,System.Int32,System.String):System.Void",
@@ -7713,7 +7794,8 @@
           "arity": 1,
           "parameterCount": 3,
           "declaringClrType": "System.Runtime.CompilerServices.DefaultInterpolatedStringHandler",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.DefaultInterpolatedStringHandler::AppendFormatted(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
@@ -7726,7 +7808,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.CompilerServices.DefaultInterpolatedStringHandler",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.DefaultInterpolatedStringHandler::AppendFormatted(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32,System.String):System.Void",
@@ -7739,7 +7822,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Runtime.CompilerServices.DefaultInterpolatedStringHandler",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.DefaultInterpolatedStringHandler::AppendFormatted(System.String):System.Void",
@@ -7752,7 +7836,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.CompilerServices.DefaultInterpolatedStringHandler",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.DefaultInterpolatedStringHandler::AppendFormatted(System.String,System.Int32,System.String):System.Void",
@@ -7765,7 +7850,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Runtime.CompilerServices.DefaultInterpolatedStringHandler",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.DefaultInterpolatedStringHandler::AppendFormatted(System.Object,System.Int32,System.String):System.Void",
@@ -7778,7 +7864,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Runtime.CompilerServices.DefaultInterpolatedStringHandler",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -9183,7 +9270,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder::Start(TStateMachine\u0026):System.Void",
@@ -9196,7 +9284,8 @@
           "arity": 1,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine):System.Void",
@@ -9209,7 +9298,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder::SetResult():System.Void",
@@ -9222,7 +9312,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder::SetException(System.Exception):System.Void",
@@ -9235,7 +9326,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder::AwaitOnCompleted(TAwaiter\u0026,TStateMachine\u0026):System.Void",
@@ -9248,7 +9340,8 @@
           "arity": 2,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder::AwaitUnsafeOnCompleted(TAwaiter\u0026,TStateMachine\u0026):System.Void",
@@ -9261,7 +9354,8 @@
           "arity": 2,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -9446,7 +9540,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder\u00601::Start(TStateMachine\u0026):System.Void",
@@ -9459,7 +9554,8 @@
           "arity": 1,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder\u00601::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine):System.Void",
@@ -9472,7 +9568,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder\u00601::SetResult(TResult):System.Void",
@@ -9485,7 +9582,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder\u00601::SetException(System.Exception):System.Void",
@@ -9498,7 +9596,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder\u00601::AwaitOnCompleted(TAwaiter\u0026,TStateMachine\u0026):System.Void",
@@ -9511,7 +9610,8 @@
           "arity": 2,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder\u00601::AwaitUnsafeOnCompleted(TAwaiter\u0026,TStateMachine\u0026):System.Void",
@@ -9524,7 +9624,8 @@
           "arity": 2,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -9709,7 +9810,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.CompilerServices.TaskAwaiter",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.TaskAwaiter::UnsafeOnCompleted(System.Action):System.Void",
@@ -9722,7 +9824,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.CompilerServices.TaskAwaiter",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.TaskAwaiter::GetResult():System.Void",
@@ -9735,7 +9838,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Runtime.CompilerServices.TaskAwaiter",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.ICriticalNotifyCompletion::UnsafeOnCompleted(System.Action):System.Void",
@@ -9748,7 +9852,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.CompilerServices.ICriticalNotifyCompletion",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.INotifyCompletion::OnCompleted(System.Action):System.Void",
@@ -9761,7 +9866,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.CompilerServices.INotifyCompletion",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -9926,7 +10032,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.CompilerServices.TaskAwaiter\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.TaskAwaiter\u00601::UnsafeOnCompleted(System.Action):System.Void",
@@ -9939,7 +10046,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.CompilerServices.TaskAwaiter\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.TaskAwaiter\u00601::GetResult():TResult",
@@ -9952,7 +10060,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Runtime.CompilerServices.TaskAwaiter\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.ICriticalNotifyCompletion::UnsafeOnCompleted(System.Action):System.Void",
@@ -9965,7 +10074,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.CompilerServices.ICriticalNotifyCompletion",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.INotifyCompletion::OnCompleted(System.Action):System.Void",
@@ -9978,7 +10088,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.CompilerServices.INotifyCompletion",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -10143,7 +10254,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Runtime.CompilerServices.ValueTaskAwaiter",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.ValueTaskAwaiter::OnCompleted(System.Action):System.Void",
@@ -10156,7 +10268,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.CompilerServices.ValueTaskAwaiter",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.ValueTaskAwaiter::UnsafeOnCompleted(System.Action):System.Void",
@@ -10169,7 +10282,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.CompilerServices.ValueTaskAwaiter",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.ICriticalNotifyCompletion::UnsafeOnCompleted(System.Action):System.Void",
@@ -10182,7 +10296,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.CompilerServices.ICriticalNotifyCompletion",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.INotifyCompletion::OnCompleted(System.Action):System.Void",
@@ -10195,7 +10310,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.CompilerServices.INotifyCompletion",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -10360,7 +10476,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Runtime.CompilerServices.ValueTaskAwaiter\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.ValueTaskAwaiter\u00601::OnCompleted(System.Action):System.Void",
@@ -10373,7 +10490,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.CompilerServices.ValueTaskAwaiter\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.ValueTaskAwaiter\u00601::UnsafeOnCompleted(System.Action):System.Void",
@@ -10386,7 +10504,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.CompilerServices.ValueTaskAwaiter\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.ICriticalNotifyCompletion::UnsafeOnCompleted(System.Action):System.Void",
@@ -10399,7 +10518,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.CompilerServices.ICriticalNotifyCompletion",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.INotifyCompletion::OnCompleted(System.Action):System.Void",
@@ -10412,7 +10532,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.CompilerServices.INotifyCompletion",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -10577,7 +10698,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Runtime.CompilerServices.YieldAwaitable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -10675,7 +10797,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.CompilerServices.YieldAwaitable\u002BYieldAwaiter",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.YieldAwaitable\u002BYieldAwaiter::UnsafeOnCompleted(System.Action):System.Void",
@@ -10688,7 +10811,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.CompilerServices.YieldAwaitable\u002BYieldAwaiter",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.YieldAwaitable\u002BYieldAwaiter::GetResult():System.Void",
@@ -10701,7 +10825,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Runtime.CompilerServices.YieldAwaitable\u002BYieldAwaiter",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.ICriticalNotifyCompletion::UnsafeOnCompleted(System.Action):System.Void",
@@ -10714,7 +10839,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.CompilerServices.ICriticalNotifyCompletion",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.INotifyCompletion::OnCompleted(System.Action):System.Void",
@@ -10727,7 +10853,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.CompilerServices.INotifyCompletion",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -15243,7 +15370,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.CompilerServices.CallSite",
-          "declaringAssemblyName": "System.Linq.Expressions"
+          "declaringAssemblyName": "System.Linq.Expressions",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -15368,7 +15496,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.CompilerServices.CallSite\u00601",
-          "declaringAssemblyName": "System.Linq.Expressions"
+          "declaringAssemblyName": "System.Linq.Expressions",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -15537,7 +15666,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Runtime.CompilerServices.CallSiteBinder",
-          "declaringAssemblyName": "System.Linq.Expressions"
+          "declaringAssemblyName": "System.Linq.Expressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Linq.Expressions:System.Runtime.CompilerServices.CallSiteBinder::BindDelegate(CallSite_1,System.Object[]):T",
@@ -15550,7 +15680,8 @@
           "arity": 1,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.CompilerServices.CallSiteBinder",
-          "declaringAssemblyName": "System.Linq.Expressions"
+          "declaringAssemblyName": "System.Linq.Expressions",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -18701,7 +18832,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.CompilerServices.ConditionalWeakTable\u00602",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.ConditionalWeakTable\u00602::Add(TKey,TValue):System.Void",
@@ -18714,7 +18846,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.CompilerServices.ConditionalWeakTable\u00602",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.ConditionalWeakTable\u00602::TryAdd(TKey,TValue):System.Boolean",
@@ -18727,7 +18860,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.CompilerServices.ConditionalWeakTable\u00602",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.ConditionalWeakTable\u00602::AddOrUpdate(TKey,TValue):System.Void",
@@ -18740,7 +18874,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.CompilerServices.ConditionalWeakTable\u00602",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.ConditionalWeakTable\u00602::Remove(TKey):System.Boolean",
@@ -18753,7 +18888,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.CompilerServices.ConditionalWeakTable\u00602",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.ConditionalWeakTable\u00602::Remove(TKey,TValue\u0026):System.Boolean",
@@ -18766,7 +18902,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.CompilerServices.ConditionalWeakTable\u00602",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.ConditionalWeakTable\u00602::Clear():System.Void",
@@ -18779,7 +18916,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Runtime.CompilerServices.ConditionalWeakTable\u00602",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.ConditionalWeakTable\u00602::GetOrAdd(TKey,TValue):TValue",
@@ -18792,7 +18930,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.CompilerServices.ConditionalWeakTable\u00602",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.ConditionalWeakTable\u00602::GetOrAdd(TKey,Func_2):TValue",
@@ -18805,7 +18944,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.CompilerServices.ConditionalWeakTable\u00602",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.ConditionalWeakTable\u00602::GetOrAdd(TKey,Func_3,TArg):TValue",
@@ -18818,7 +18958,8 @@
           "arity": 1,
           "parameterCount": 3,
           "declaringClrType": "System.Runtime.CompilerServices.ConditionalWeakTable\u00602",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.ConditionalWeakTable\u00602::GetValue(TKey,CreateValueCallback):TValue",
@@ -18831,7 +18972,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.CompilerServices.ConditionalWeakTable\u00602",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.ConditionalWeakTable\u00602::GetOrCreateValue(TKey):TValue",
@@ -18844,7 +18986,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.CompilerServices.ConditionalWeakTable\u00602",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IEnumerable\u00601::GetEnumerator():IEnumerator_1",
@@ -18857,7 +19000,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.Generic.IEnumerable\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
@@ -18870,7 +19014,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.IEnumerable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -19120,7 +19265,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.CompilerServices.ConditionalWeakTable\u00602\u002BCreateValueCallback",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.ConditionalWeakTable\u00602\u002BCreateValueCallback::BeginInvoke(TKey,System.AsyncCallback,System.Object):System.IAsyncResult",
@@ -19133,7 +19279,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Runtime.CompilerServices.ConditionalWeakTable\u00602\u002BCreateValueCallback",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.ConditionalWeakTable\u00602\u002BCreateValueCallback::EndInvoke(System.IAsyncResult):TValue",
@@ -19146,7 +19293,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.CompilerServices.ConditionalWeakTable\u00602\u002BCreateValueCallback",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
@@ -19159,7 +19307,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.ICloneable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
@@ -19172,7 +19321,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.Serialization.ISerializable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.ConditionalWeakTable\u00602\u002BCreateValueCallback::Clone():System.Object",
@@ -19185,7 +19335,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Runtime.CompilerServices.ConditionalWeakTable\u00602\u002BCreateValueCallback",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.ConditionalWeakTable\u00602\u002BCreateValueCallback::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
@@ -19198,7 +19349,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.CompilerServices.ConditionalWeakTable\u00602\u002BCreateValueCallback",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -21410,7 +21562,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Runtime.CompilerServices.DebugInfoGenerator",
-          "declaringAssemblyName": "System.Linq.Expressions"
+          "declaringAssemblyName": "System.Linq.Expressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Linq.Expressions:System.Runtime.CompilerServices.DebugInfoGenerator::MarkSequencePoint(System.Linq.Expressions.LambdaExpression,System.Int32,System.Linq.Expressions.DebugInfoExpression):System.Void",
@@ -21423,7 +21576,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Runtime.CompilerServices.DebugInfoGenerator",
-          "declaringAssemblyName": "System.Linq.Expressions"
+          "declaringAssemblyName": "System.Linq.Expressions",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -37405,7 +37559,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.CompilerServices.ReadOnlyCollectionBuilder\u00601",
-          "declaringAssemblyName": "System.Linq.Expressions"
+          "declaringAssemblyName": "System.Linq.Expressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Linq.Expressions:System.Runtime.CompilerServices.ReadOnlyCollectionBuilder\u00601::Insert(System.Int32,T):System.Void",
@@ -37418,7 +37573,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.CompilerServices.ReadOnlyCollectionBuilder\u00601",
-          "declaringAssemblyName": "System.Linq.Expressions"
+          "declaringAssemblyName": "System.Linq.Expressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Linq.Expressions:System.Runtime.CompilerServices.ReadOnlyCollectionBuilder\u00601::RemoveAt(System.Int32):System.Void",
@@ -37431,7 +37587,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.CompilerServices.ReadOnlyCollectionBuilder\u00601",
-          "declaringAssemblyName": "System.Linq.Expressions"
+          "declaringAssemblyName": "System.Linq.Expressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Linq.Expressions:System.Runtime.CompilerServices.ReadOnlyCollectionBuilder\u00601::Add(T):System.Void",
@@ -37444,7 +37601,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.CompilerServices.ReadOnlyCollectionBuilder\u00601",
-          "declaringAssemblyName": "System.Linq.Expressions"
+          "declaringAssemblyName": "System.Linq.Expressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Linq.Expressions:System.Runtime.CompilerServices.ReadOnlyCollectionBuilder\u00601::Clear():System.Void",
@@ -37457,7 +37615,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Runtime.CompilerServices.ReadOnlyCollectionBuilder\u00601",
-          "declaringAssemblyName": "System.Linq.Expressions"
+          "declaringAssemblyName": "System.Linq.Expressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Linq.Expressions:System.Runtime.CompilerServices.ReadOnlyCollectionBuilder\u00601::Contains(T):System.Boolean",
@@ -37470,7 +37629,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.CompilerServices.ReadOnlyCollectionBuilder\u00601",
-          "declaringAssemblyName": "System.Linq.Expressions"
+          "declaringAssemblyName": "System.Linq.Expressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Linq.Expressions:System.Runtime.CompilerServices.ReadOnlyCollectionBuilder\u00601::CopyTo(T[],System.Int32):System.Void",
@@ -37483,7 +37643,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.CompilerServices.ReadOnlyCollectionBuilder\u00601",
-          "declaringAssemblyName": "System.Linq.Expressions"
+          "declaringAssemblyName": "System.Linq.Expressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Linq.Expressions:System.Runtime.CompilerServices.ReadOnlyCollectionBuilder\u00601::Remove(T):System.Boolean",
@@ -37496,7 +37657,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.CompilerServices.ReadOnlyCollectionBuilder\u00601",
-          "declaringAssemblyName": "System.Linq.Expressions"
+          "declaringAssemblyName": "System.Linq.Expressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Linq.Expressions:System.Runtime.CompilerServices.ReadOnlyCollectionBuilder\u00601::GetEnumerator():IEnumerator_1",
@@ -37509,7 +37671,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Runtime.CompilerServices.ReadOnlyCollectionBuilder\u00601",
-          "declaringAssemblyName": "System.Linq.Expressions"
+          "declaringAssemblyName": "System.Linq.Expressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Linq.Expressions:System.Runtime.CompilerServices.ReadOnlyCollectionBuilder\u00601::Reverse():System.Void",
@@ -37522,7 +37685,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Runtime.CompilerServices.ReadOnlyCollectionBuilder\u00601",
-          "declaringAssemblyName": "System.Linq.Expressions"
+          "declaringAssemblyName": "System.Linq.Expressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Linq.Expressions:System.Runtime.CompilerServices.ReadOnlyCollectionBuilder\u00601::Reverse(System.Int32,System.Int32):System.Void",
@@ -37535,7 +37699,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.CompilerServices.ReadOnlyCollectionBuilder\u00601",
-          "declaringAssemblyName": "System.Linq.Expressions"
+          "declaringAssemblyName": "System.Linq.Expressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Linq.Expressions:System.Runtime.CompilerServices.ReadOnlyCollectionBuilder\u00601::ToArray():T[]",
@@ -37548,7 +37713,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Runtime.CompilerServices.ReadOnlyCollectionBuilder\u00601",
-          "declaringAssemblyName": "System.Linq.Expressions"
+          "declaringAssemblyName": "System.Linq.Expressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Linq.Expressions:System.Runtime.CompilerServices.ReadOnlyCollectionBuilder\u00601::ToReadOnlyCollection():ReadOnlyCollection_1",
@@ -37561,7 +37727,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Runtime.CompilerServices.ReadOnlyCollectionBuilder\u00601",
-          "declaringAssemblyName": "System.Linq.Expressions"
+          "declaringAssemblyName": "System.Linq.Expressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
@@ -37574,7 +37741,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.IEnumerable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Add(System.Object):System.Int32",
@@ -37587,7 +37755,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.IList",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Contains(System.Object):System.Boolean",
@@ -37600,7 +37769,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.IList",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Insert(System.Int32,System.Object):System.Void",
@@ -37613,7 +37783,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Collections.IList",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Remove(System.Object):System.Void",
@@ -37626,7 +37797,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.IList",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.ICollection::CopyTo(System.Array,System.Int32):System.Void",
@@ -37639,7 +37811,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Collections.ICollection",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IList\u00601::IndexOf(T):System.Int32",
@@ -37652,7 +37825,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.Generic.IList\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IList\u00601::Insert(System.Int32,T):System.Void",
@@ -37665,7 +37839,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Collections.Generic.IList\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IList\u00601::RemoveAt(System.Int32):System.Void",
@@ -37678,7 +37853,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.Generic.IList\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::Add(T):System.Void",
@@ -37691,7 +37867,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::Clear():System.Void",
@@ -37704,7 +37881,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::Contains(T):System.Boolean",
@@ -37717,7 +37895,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::CopyTo(T[],System.Int32):System.Void",
@@ -37730,7 +37909,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IEnumerable\u00601::GetEnumerator():IEnumerator_1",
@@ -37743,7 +37923,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.Generic.IEnumerable\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Clear():System.Void",
@@ -37756,7 +37937,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.IList",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::RemoveAt(System.Int32):System.Void",
@@ -37769,7 +37951,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.IList",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -41331,7 +41514,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.CompilerServices.RuntimeHelpers\u002BCleanupCode",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.RuntimeHelpers\u002BCleanupCode::BeginInvoke(System.Object,System.Boolean,System.AsyncCallback,System.Object):System.IAsyncResult",
@@ -41344,7 +41528,8 @@
           "arity": 0,
           "parameterCount": 4,
           "declaringClrType": "System.Runtime.CompilerServices.RuntimeHelpers\u002BCleanupCode",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.RuntimeHelpers\u002BCleanupCode::EndInvoke(System.IAsyncResult):System.Void",
@@ -41357,7 +41542,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.CompilerServices.RuntimeHelpers\u002BCleanupCode",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
@@ -41370,7 +41556,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.ICloneable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
@@ -41383,7 +41570,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.Serialization.ISerializable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.RuntimeHelpers\u002BCleanupCode::Clone():System.Object",
@@ -41396,7 +41584,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Runtime.CompilerServices.RuntimeHelpers\u002BCleanupCode",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.RuntimeHelpers\u002BCleanupCode::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
@@ -41409,7 +41598,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.CompilerServices.RuntimeHelpers\u002BCleanupCode",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -41801,7 +41991,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.CompilerServices.RuntimeHelpers\u002BTryCode",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.RuntimeHelpers\u002BTryCode::BeginInvoke(System.Object,System.AsyncCallback,System.Object):System.IAsyncResult",
@@ -41814,7 +42005,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Runtime.CompilerServices.RuntimeHelpers\u002BTryCode",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.RuntimeHelpers\u002BTryCode::EndInvoke(System.IAsyncResult):System.Void",
@@ -41827,7 +42019,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.CompilerServices.RuntimeHelpers\u002BTryCode",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
@@ -41840,7 +42033,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.ICloneable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
@@ -41853,7 +42047,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.Serialization.ISerializable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.RuntimeHelpers\u002BTryCode::Clone():System.Object",
@@ -41866,7 +42061,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Runtime.CompilerServices.RuntimeHelpers\u002BTryCode",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.RuntimeHelpers\u002BTryCode::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
@@ -41879,7 +42075,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.CompilerServices.RuntimeHelpers\u002BTryCode",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -42271,7 +42468,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.CompilerServices.RuntimeWrappedException",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
@@ -42284,7 +42482,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.Serialization.ISerializable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -45858,7 +46057,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.CompilerServices.SwitchExpressionException",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
@@ -45871,7 +46071,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.Serialization.ISerializable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -49045,7 +49246,8 @@
           "arity": 1,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.CompilerServices.AsyncHelpers",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.AsyncHelpers::UnsafeAwaitAwaiter(TAwaiter):System.Void",
@@ -49058,7 +49260,8 @@
           "arity": 1,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.CompilerServices.AsyncHelpers",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.AsyncHelpers::Await(Task_1):T",
@@ -49071,7 +49274,8 @@
           "arity": 1,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.CompilerServices.AsyncHelpers",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.AsyncHelpers::Await(System.Threading.Tasks.Task):System.Void",
@@ -49084,7 +49288,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.CompilerServices.AsyncHelpers",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.AsyncHelpers::Await(ValueTask_1):T",
@@ -49097,7 +49302,8 @@
           "arity": 1,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.CompilerServices.AsyncHelpers",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.AsyncHelpers::Await(System.Threading.Tasks.ValueTask):System.Void",
@@ -49110,7 +49316,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.CompilerServices.AsyncHelpers",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.AsyncHelpers::Await(System.Runtime.CompilerServices.ConfiguredTaskAwaitable):System.Void",
@@ -49123,7 +49330,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.CompilerServices.AsyncHelpers",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.AsyncHelpers::Await(System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable):System.Void",
@@ -49136,7 +49344,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.CompilerServices.AsyncHelpers",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.AsyncHelpers::Await(ConfiguredTaskAwaitable_1):T",
@@ -49149,7 +49358,8 @@
           "arity": 1,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.CompilerServices.AsyncHelpers",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.AsyncHelpers::Await(ConfiguredValueTaskAwaitable_1):T",
@@ -49162,7 +49372,8 @@
           "arity": 1,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.CompilerServices.AsyncHelpers",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -49350,7 +49561,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.CompilerServices.CallSiteHelpers",
-          "declaringAssemblyName": "System.Linq.Expressions"
+          "declaringAssemblyName": "System.Linq.Expressions",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -49448,7 +49660,8 @@
           "arity": 1,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.CompilerServices.CallSiteOps",
-          "declaringAssemblyName": "System.Linq.Expressions"
+          "declaringAssemblyName": "System.Linq.Expressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Linq.Expressions:System.Runtime.CompilerServices.CallSiteOps::SetNotMatched(System.Runtime.CompilerServices.CallSite):System.Boolean",
@@ -49461,7 +49674,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.CompilerServices.CallSiteOps",
-          "declaringAssemblyName": "System.Linq.Expressions"
+          "declaringAssemblyName": "System.Linq.Expressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Linq.Expressions:System.Runtime.CompilerServices.CallSiteOps::GetMatch(System.Runtime.CompilerServices.CallSite):System.Boolean",
@@ -49474,7 +49688,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.CompilerServices.CallSiteOps",
-          "declaringAssemblyName": "System.Linq.Expressions"
+          "declaringAssemblyName": "System.Linq.Expressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Linq.Expressions:System.Runtime.CompilerServices.CallSiteOps::ClearMatch(System.Runtime.CompilerServices.CallSite):System.Void",
@@ -49487,7 +49702,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.CompilerServices.CallSiteOps",
-          "declaringAssemblyName": "System.Linq.Expressions"
+          "declaringAssemblyName": "System.Linq.Expressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Linq.Expressions:System.Runtime.CompilerServices.CallSiteOps::AddRule(CallSite_1,T):System.Void",
@@ -49500,7 +49716,8 @@
           "arity": 1,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.CompilerServices.CallSiteOps",
-          "declaringAssemblyName": "System.Linq.Expressions"
+          "declaringAssemblyName": "System.Linq.Expressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Linq.Expressions:System.Runtime.CompilerServices.CallSiteOps::UpdateRules(CallSite_1,System.Int32):System.Void",
@@ -49513,7 +49730,8 @@
           "arity": 1,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.CompilerServices.CallSiteOps",
-          "declaringAssemblyName": "System.Linq.Expressions"
+          "declaringAssemblyName": "System.Linq.Expressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Linq.Expressions:System.Runtime.CompilerServices.CallSiteOps::GetRules(CallSite_1):T[]",
@@ -49526,7 +49744,8 @@
           "arity": 1,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.CompilerServices.CallSiteOps",
-          "declaringAssemblyName": "System.Linq.Expressions"
+          "declaringAssemblyName": "System.Linq.Expressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Linq.Expressions:System.Runtime.CompilerServices.CallSiteOps::GetRuleCache(CallSite_1):RuleCache_1",
@@ -49539,7 +49758,8 @@
           "arity": 1,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.CompilerServices.CallSiteOps",
-          "declaringAssemblyName": "System.Linq.Expressions"
+          "declaringAssemblyName": "System.Linq.Expressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Linq.Expressions:System.Runtime.CompilerServices.CallSiteOps::MoveRule(RuleCache_1,T,System.Int32):System.Void",
@@ -49552,7 +49772,8 @@
           "arity": 1,
           "parameterCount": 3,
           "declaringClrType": "System.Runtime.CompilerServices.CallSiteOps",
-          "declaringAssemblyName": "System.Linq.Expressions"
+          "declaringAssemblyName": "System.Linq.Expressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Linq.Expressions:System.Runtime.CompilerServices.CallSiteOps::GetCachedRules(RuleCache_1):T[]",
@@ -49565,7 +49786,8 @@
           "arity": 1,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.CompilerServices.CallSiteOps",
-          "declaringAssemblyName": "System.Linq.Expressions"
+          "declaringAssemblyName": "System.Linq.Expressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Linq.Expressions:System.Runtime.CompilerServices.CallSiteOps::Bind(System.Runtime.CompilerServices.CallSiteBinder,CallSite_1,System.Object[]):T",
@@ -49578,7 +49800,8 @@
           "arity": 1,
           "parameterCount": 3,
           "declaringClrType": "System.Runtime.CompilerServices.CallSiteOps",
-          "declaringAssemblyName": "System.Linq.Expressions"
+          "declaringAssemblyName": "System.Linq.Expressions",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -49850,7 +50073,8 @@
           "arity": 0,
           "parameterCount": 4,
           "declaringClrType": "System.Runtime.CompilerServices.ContractHelper",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.ContractHelper::TriggerFailure(System.Diagnostics.Contracts.ContractFailureKind,System.String,System.String,System.String,System.Exception):System.Void",
@@ -49863,7 +50087,8 @@
           "arity": 0,
           "parameterCount": 5,
           "declaringClrType": "System.Runtime.CompilerServices.ContractHelper",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -49971,7 +50196,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.CompilerServices.FormattableStringFactory",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -51031,7 +51257,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.CompilerServices.RuntimeFeature",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -51351,7 +51578,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.CompilerServices.RuntimeHelpers",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.RuntimeHelpers::GetObjectValue(System.Object):System.Object",
@@ -51364,7 +51592,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.CompilerServices.RuntimeHelpers",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.RuntimeHelpers::RunClassConstructor(System.RuntimeTypeHandle):System.Void",
@@ -51377,7 +51606,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.CompilerServices.RuntimeHelpers",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.RuntimeHelpers::RunModuleConstructor(System.ModuleHandle):System.Void",
@@ -51390,7 +51620,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.CompilerServices.RuntimeHelpers",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.RuntimeHelpers::PrepareMethod(System.RuntimeMethodHandle):System.Void",
@@ -51403,7 +51634,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.CompilerServices.RuntimeHelpers",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.RuntimeHelpers::PrepareMethod(System.RuntimeMethodHandle,System.RuntimeTypeHandle[]):System.Void",
@@ -51416,7 +51648,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.CompilerServices.RuntimeHelpers",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.RuntimeHelpers::PrepareDelegate(System.Delegate):System.Void",
@@ -51429,7 +51662,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.CompilerServices.RuntimeHelpers",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.RuntimeHelpers::GetHashCode(System.Object):System.Int32",
@@ -51442,7 +51676,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.CompilerServices.RuntimeHelpers",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.RuntimeHelpers::Equals(System.Object,System.Object):System.Boolean",
@@ -51455,7 +51690,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.CompilerServices.RuntimeHelpers",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.RuntimeHelpers::EnsureSufficientExecutionStack():System.Void",
@@ -51468,7 +51704,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Runtime.CompilerServices.RuntimeHelpers",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.RuntimeHelpers::TryEnsureSufficientExecutionStack():System.Boolean",
@@ -51481,7 +51718,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Runtime.CompilerServices.RuntimeHelpers",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.RuntimeHelpers::GetUninitializedObject(System.Type):System.Object",
@@ -51494,7 +51732,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.CompilerServices.RuntimeHelpers",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.RuntimeHelpers::AllocateTypeAssociatedMemory(System.Type,System.Int32):System.IntPtr",
@@ -51507,7 +51746,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.CompilerServices.RuntimeHelpers",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.RuntimeHelpers::Box(System.Byte\u0026,System.RuntimeTypeHandle):System.Object",
@@ -51520,7 +51760,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.CompilerServices.RuntimeHelpers",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.RuntimeHelpers::SizeOf(System.RuntimeTypeHandle):System.Int32",
@@ -51533,7 +51774,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.CompilerServices.RuntimeHelpers",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.RuntimeHelpers::GetSubArray(T[],System.Range):T[]",
@@ -51546,7 +51788,8 @@
           "arity": 1,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.CompilerServices.RuntimeHelpers",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.RuntimeHelpers::ExecuteCodeWithGuaranteedCleanup(System.Runtime.CompilerServices.RuntimeHelpers\u002BTryCode,System.Runtime.CompilerServices.RuntimeHelpers\u002BCleanupCode,System.Object):System.Void",
@@ -51559,7 +51802,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Runtime.CompilerServices.RuntimeHelpers",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.RuntimeHelpers::PrepareContractedDelegate(System.Delegate):System.Void",
@@ -51572,7 +51816,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.CompilerServices.RuntimeHelpers",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.RuntimeHelpers::ProbeForSufficientStack():System.Void",
@@ -51585,7 +51830,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Runtime.CompilerServices.RuntimeHelpers",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.RuntimeHelpers::PrepareConstrainedRegions():System.Void",
@@ -51598,7 +51844,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Runtime.CompilerServices.RuntimeHelpers",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.RuntimeHelpers::PrepareConstrainedRegionsNoOP():System.Void",
@@ -51611,7 +51858,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Runtime.CompilerServices.RuntimeHelpers",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.RuntimeHelpers::CreateSpan(System.RuntimeFieldHandle):ReadOnlySpan_1",
@@ -51624,7 +51872,8 @@
           "arity": 1,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.CompilerServices.RuntimeHelpers",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.RuntimeHelpers::IsReferenceOrContainsReferences():System.Boolean",
@@ -51637,7 +51886,8 @@
           "arity": 1,
           "parameterCount": 0,
           "declaringClrType": "System.Runtime.CompilerServices.RuntimeHelpers",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -51972,7 +52222,8 @@
           "arity": 0,
           "parameterCount": 6,
           "declaringClrType": "System.Runtime.CompilerServices.RuntimeOps",
-          "declaringAssemblyName": "System.Linq.Expressions"
+          "declaringAssemblyName": "System.Linq.Expressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Linq.Expressions:System.Runtime.CompilerServices.RuntimeOps::ExpandoTrySetValue(System.Dynamic.ExpandoObject,System.Object,System.Int32,System.Object,System.String,System.Boolean):System.Object",
@@ -51985,7 +52236,8 @@
           "arity": 0,
           "parameterCount": 6,
           "declaringClrType": "System.Runtime.CompilerServices.RuntimeOps",
-          "declaringAssemblyName": "System.Linq.Expressions"
+          "declaringAssemblyName": "System.Linq.Expressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Linq.Expressions:System.Runtime.CompilerServices.RuntimeOps::ExpandoTryDeleteValue(System.Dynamic.ExpandoObject,System.Object,System.Int32,System.String,System.Boolean):System.Boolean",
@@ -51998,7 +52250,8 @@
           "arity": 0,
           "parameterCount": 5,
           "declaringClrType": "System.Runtime.CompilerServices.RuntimeOps",
-          "declaringAssemblyName": "System.Linq.Expressions"
+          "declaringAssemblyName": "System.Linq.Expressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Linq.Expressions:System.Runtime.CompilerServices.RuntimeOps::ExpandoCheckVersion(System.Dynamic.ExpandoObject,System.Object):System.Boolean",
@@ -52011,7 +52264,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.CompilerServices.RuntimeOps",
-          "declaringAssemblyName": "System.Linq.Expressions"
+          "declaringAssemblyName": "System.Linq.Expressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Linq.Expressions:System.Runtime.CompilerServices.RuntimeOps::ExpandoPromoteClass(System.Dynamic.ExpandoObject,System.Object,System.Object):System.Void",
@@ -52024,7 +52278,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Runtime.CompilerServices.RuntimeOps",
-          "declaringAssemblyName": "System.Linq.Expressions"
+          "declaringAssemblyName": "System.Linq.Expressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Linq.Expressions:System.Runtime.CompilerServices.RuntimeOps::Quote(System.Linq.Expressions.Expression,System.Object,System.Object[]):System.Linq.Expressions.Expression",
@@ -52037,7 +52292,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Runtime.CompilerServices.RuntimeOps",
-          "declaringAssemblyName": "System.Linq.Expressions"
+          "declaringAssemblyName": "System.Linq.Expressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Linq.Expressions:System.Runtime.CompilerServices.RuntimeOps::MergeRuntimeVariables(System.Runtime.CompilerServices.IRuntimeVariables,System.Runtime.CompilerServices.IRuntimeVariables,System.Int32[]):System.Runtime.CompilerServices.IRuntimeVariables",
@@ -52050,7 +52306,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Runtime.CompilerServices.RuntimeOps",
-          "declaringAssemblyName": "System.Linq.Expressions"
+          "declaringAssemblyName": "System.Linq.Expressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Linq.Expressions:System.Runtime.CompilerServices.RuntimeOps::CreateRuntimeVariables(System.Object[],System.Int64[]):System.Runtime.CompilerServices.IRuntimeVariables",
@@ -52063,7 +52320,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.CompilerServices.RuntimeOps",
-          "declaringAssemblyName": "System.Linq.Expressions"
+          "declaringAssemblyName": "System.Linq.Expressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Linq.Expressions:System.Runtime.CompilerServices.RuntimeOps::CreateRuntimeVariables():System.Runtime.CompilerServices.IRuntimeVariables",
@@ -52076,7 +52334,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Runtime.CompilerServices.RuntimeOps",
-          "declaringAssemblyName": "System.Linq.Expressions"
+          "declaringAssemblyName": "System.Linq.Expressions",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -52254,7 +52513,8 @@
           "arity": 1,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.CompilerServices.Unsafe",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.Unsafe::SizeOf():System.Int32",
@@ -52267,7 +52527,8 @@
           "arity": 1,
           "parameterCount": 0,
           "declaringClrType": "System.Runtime.CompilerServices.Unsafe",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.Unsafe::As(System.Object):T",
@@ -52280,7 +52541,8 @@
           "arity": 1,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.CompilerServices.Unsafe",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.Unsafe::As(TFrom\u0026):TTo\u0026",
@@ -52293,7 +52555,8 @@
           "arity": 2,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.CompilerServices.Unsafe",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.Unsafe::Add(T\u0026,System.Int32):T\u0026",
@@ -52306,7 +52569,8 @@
           "arity": 1,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.CompilerServices.Unsafe",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.Unsafe::Add(T\u0026,System.IntPtr):T\u0026",
@@ -52319,7 +52583,8 @@
           "arity": 1,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.CompilerServices.Unsafe",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.Unsafe::Add(System.Void*,System.Int32):System.Void*",
@@ -52332,7 +52597,8 @@
           "arity": 1,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.CompilerServices.Unsafe",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.Unsafe::Add(T\u0026,System.UIntPtr):T\u0026",
@@ -52345,7 +52611,8 @@
           "arity": 1,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.CompilerServices.Unsafe",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.Unsafe::AddByteOffset(T\u0026,System.UIntPtr):T\u0026",
@@ -52358,7 +52625,8 @@
           "arity": 1,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.CompilerServices.Unsafe",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.Unsafe::AreSame(T\u0026,T\u0026):System.Boolean",
@@ -52371,7 +52639,8 @@
           "arity": 1,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.CompilerServices.Unsafe",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.Unsafe::BitCast(TFrom):TTo",
@@ -52384,7 +52653,8 @@
           "arity": 2,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.CompilerServices.Unsafe",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.Unsafe::Copy(System.Void*,T\u0026):System.Void",
@@ -52397,7 +52667,8 @@
           "arity": 1,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.CompilerServices.Unsafe",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.Unsafe::Copy(T\u0026,System.Void*):System.Void",
@@ -52410,7 +52681,8 @@
           "arity": 1,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.CompilerServices.Unsafe",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.Unsafe::CopyBlock(System.Void*,System.Void*,System.UInt32):System.Void",
@@ -52423,7 +52695,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Runtime.CompilerServices.Unsafe",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.Unsafe::CopyBlock(System.Byte\u0026,System.Byte\u0026,System.UInt32):System.Void",
@@ -52436,7 +52709,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Runtime.CompilerServices.Unsafe",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.Unsafe::CopyBlockUnaligned(System.Void*,System.Void*,System.UInt32):System.Void",
@@ -52449,7 +52723,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Runtime.CompilerServices.Unsafe",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.Unsafe::CopyBlockUnaligned(System.Byte\u0026,System.Byte\u0026,System.UInt32):System.Void",
@@ -52462,7 +52737,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Runtime.CompilerServices.Unsafe",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.Unsafe::IsAddressGreaterThan(T\u0026,T\u0026):System.Boolean",
@@ -52475,7 +52751,8 @@
           "arity": 1,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.CompilerServices.Unsafe",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.Unsafe::IsAddressGreaterThanOrEqualTo(T\u0026,T\u0026):System.Boolean",
@@ -52488,7 +52765,8 @@
           "arity": 1,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.CompilerServices.Unsafe",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.Unsafe::IsAddressLessThan(T\u0026,T\u0026):System.Boolean",
@@ -52501,7 +52779,8 @@
           "arity": 1,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.CompilerServices.Unsafe",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.Unsafe::IsAddressLessThanOrEqualTo(T\u0026,T\u0026):System.Boolean",
@@ -52514,7 +52793,8 @@
           "arity": 1,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.CompilerServices.Unsafe",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.Unsafe::InitBlock(System.Void*,System.Byte,System.UInt32):System.Void",
@@ -52527,7 +52807,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Runtime.CompilerServices.Unsafe",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.Unsafe::InitBlock(System.Byte\u0026,System.Byte,System.UInt32):System.Void",
@@ -52540,7 +52821,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Runtime.CompilerServices.Unsafe",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.Unsafe::InitBlockUnaligned(System.Void*,System.Byte,System.UInt32):System.Void",
@@ -52553,7 +52835,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Runtime.CompilerServices.Unsafe",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.Unsafe::InitBlockUnaligned(System.Byte\u0026,System.Byte,System.UInt32):System.Void",
@@ -52566,7 +52849,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Runtime.CompilerServices.Unsafe",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.Unsafe::ReadUnaligned(System.Void*):T",
@@ -52579,7 +52863,8 @@
           "arity": 1,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.CompilerServices.Unsafe",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.Unsafe::ReadUnaligned(System.Byte\u0026):T",
@@ -52592,7 +52877,8 @@
           "arity": 1,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.CompilerServices.Unsafe",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.Unsafe::WriteUnaligned(System.Void*,T):System.Void",
@@ -52605,7 +52891,8 @@
           "arity": 1,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.CompilerServices.Unsafe",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.Unsafe::WriteUnaligned(System.Byte\u0026,T):System.Void",
@@ -52618,7 +52905,8 @@
           "arity": 1,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.CompilerServices.Unsafe",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.Unsafe::AddByteOffset(T\u0026,System.IntPtr):T\u0026",
@@ -52631,7 +52919,8 @@
           "arity": 1,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.CompilerServices.Unsafe",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.Unsafe::Read(System.Void*):T",
@@ -52644,7 +52933,8 @@
           "arity": 1,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.CompilerServices.Unsafe",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.Unsafe::Write(System.Void*,T):System.Void",
@@ -52657,7 +52947,8 @@
           "arity": 1,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.CompilerServices.Unsafe",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.Unsafe::AsRef(System.Void*):T\u0026",
@@ -52670,7 +52961,8 @@
           "arity": 1,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.CompilerServices.Unsafe",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.Unsafe::AsRef(T\u0026):T\u0026",
@@ -52683,7 +52975,8 @@
           "arity": 1,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.CompilerServices.Unsafe",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.Unsafe::ByteOffset(T\u0026,T\u0026):System.IntPtr",
@@ -52696,7 +52989,8 @@
           "arity": 1,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.CompilerServices.Unsafe",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.Unsafe::NullRef():T\u0026",
@@ -52709,7 +53003,8 @@
           "arity": 1,
           "parameterCount": 0,
           "declaringClrType": "System.Runtime.CompilerServices.Unsafe",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.Unsafe::IsNullRef(T\u0026):System.Boolean",
@@ -52722,7 +53017,8 @@
           "arity": 1,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.CompilerServices.Unsafe",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.Unsafe::SkipInit(T\u0026):System.Void",
@@ -52735,7 +53031,8 @@
           "arity": 1,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.CompilerServices.Unsafe",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.Unsafe::Subtract(T\u0026,System.Int32):T\u0026",
@@ -52748,7 +53045,8 @@
           "arity": 1,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.CompilerServices.Unsafe",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.Unsafe::Subtract(System.Void*,System.Int32):System.Void*",
@@ -52761,7 +53059,8 @@
           "arity": 1,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.CompilerServices.Unsafe",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.Unsafe::Subtract(T\u0026,System.IntPtr):T\u0026",
@@ -52774,7 +53073,8 @@
           "arity": 1,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.CompilerServices.Unsafe",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.Unsafe::Subtract(T\u0026,System.UIntPtr):T\u0026",
@@ -52787,7 +53087,8 @@
           "arity": 1,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.CompilerServices.Unsafe",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.Unsafe::SubtractByteOffset(T\u0026,System.IntPtr):T\u0026",
@@ -52800,7 +53101,8 @@
           "arity": 1,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.CompilerServices.Unsafe",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.Unsafe::SubtractByteOffset(T\u0026,System.UIntPtr):T\u0026",
@@ -52813,7 +53115,8 @@
           "arity": 1,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.CompilerServices.Unsafe",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.Unsafe::Unbox(System.Object):T\u0026",
@@ -52826,7 +53129,8 @@
           "arity": 1,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.CompilerServices.Unsafe",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],

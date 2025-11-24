@@ -2401,7 +2401,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.IDisposable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Primitives:System.Security.Authentication.ExtendedProtection.ChannelBinding::Dispose():System.Void",
@@ -2414,7 +2415,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Security.Authentication.ExtendedProtection.ChannelBinding",
-          "declaringAssemblyName": "System.Net.Primitives"
+          "declaringAssemblyName": "System.Net.Primitives",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -2619,7 +2621,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Security.Authentication.ExtendedProtection.ExtendedProtectionPolicy",
-          "declaringAssemblyName": "System.Net.Security"
+          "declaringAssemblyName": "System.Net.Security",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
@@ -2632,7 +2635,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.Serialization.ISerializable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -2932,7 +2936,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Security.Authentication.ExtendedProtection.ExtendedProtectionPolicyTypeConverter",
-          "declaringAssemblyName": "System.ComponentModel.TypeConverter"
+          "declaringAssemblyName": "System.ComponentModel.TypeConverter",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Security.Authentication.ExtendedProtection.ExtendedProtectionPolicyTypeConverter::ConvertTo(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object,System.Type):System.Object",
@@ -2945,7 +2950,8 @@
           "arity": 0,
           "parameterCount": 4,
           "declaringClrType": "System.Security.Authentication.ExtendedProtection.ExtendedProtectionPolicyTypeConverter",
-          "declaringAssemblyName": "System.ComponentModel.TypeConverter"
+          "declaringAssemblyName": "System.ComponentModel.TypeConverter",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Security.Authentication.ExtendedProtection.ExtendedProtectionPolicyTypeConverter::CanConvertTo(System.Type):System.Boolean",
@@ -2958,7 +2964,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Security.Authentication.ExtendedProtection.ExtendedProtectionPolicyTypeConverter",
-          "declaringAssemblyName": "System.ComponentModel.TypeConverter"
+          "declaringAssemblyName": "System.ComponentModel.TypeConverter",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Security.Authentication.ExtendedProtection.ExtendedProtectionPolicyTypeConverter::ConvertTo(System.Object,System.Type):System.Object",
@@ -2971,7 +2978,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Security.Authentication.ExtendedProtection.ExtendedProtectionPolicyTypeConverter",
-          "declaringAssemblyName": "System.ComponentModel.TypeConverter"
+          "declaringAssemblyName": "System.ComponentModel.TypeConverter",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -3431,7 +3439,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Security.Authentication.ExtendedProtection.ServiceNameCollection",
-          "declaringAssemblyName": "System.Net.Security"
+          "declaringAssemblyName": "System.Net.Security",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Security:System.Security.Authentication.ExtendedProtection.ServiceNameCollection::Merge(System.String):System.Security.Authentication.ExtendedProtection.ServiceNameCollection",
@@ -3444,7 +3453,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Security.Authentication.ExtendedProtection.ServiceNameCollection",
-          "declaringAssemblyName": "System.Net.Security"
+          "declaringAssemblyName": "System.Net.Security",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Security:System.Security.Authentication.ExtendedProtection.ServiceNameCollection::Merge(System.Collections.IEnumerable):System.Security.Authentication.ExtendedProtection.ServiceNameCollection",
@@ -3457,7 +3467,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Security.Authentication.ExtendedProtection.ServiceNameCollection",
-          "declaringAssemblyName": "System.Net.Security"
+          "declaringAssemblyName": "System.Net.Security",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.ICollection::CopyTo(System.Array,System.Int32):System.Void",
@@ -3470,7 +3481,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Collections.ICollection",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
@@ -3483,7 +3495,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.IEnumerable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Security:System.Security.Authentication.ExtendedProtection.ServiceNameCollection::CopyTo(System.Array,System.Int32):System.Void",
@@ -3496,7 +3509,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Security.Authentication.ExtendedProtection.ServiceNameCollection",
-          "declaringAssemblyName": "System.Net.Security"
+          "declaringAssemblyName": "System.Net.Security",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Security:System.Security.Authentication.ExtendedProtection.ServiceNameCollection::GetEnumerator():System.Collections.IEnumerator",
@@ -3509,7 +3523,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Security.Authentication.ExtendedProtection.ServiceNameCollection",
-          "declaringAssemblyName": "System.Net.Security"
+          "declaringAssemblyName": "System.Net.Security",
+          "isExtensionMethod": false
         }
       ],
       "properties": [

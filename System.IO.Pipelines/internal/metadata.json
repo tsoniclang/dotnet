@@ -196,7 +196,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -413,7 +414,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.Pipelines:System.IO.Pipelines.PipeReader::ReadAsync(System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.IO.Pipelines.ReadResult,System.IO.Pipelines,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]",
@@ -428,7 +430,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.Pipelines:System.IO.Pipelines.PipeReader::ReadAtLeastAsync(System.Int32,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.IO.Pipelines.ReadResult,System.IO.Pipelines,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]",
@@ -443,7 +446,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.Pipelines:System.IO.Pipelines.PipeReader::AdvanceTo(System.SequencePosition):System.Void",
@@ -458,7 +462,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.Pipelines:System.IO.Pipelines.PipeReader::AdvanceTo(System.SequencePosition,System.SequencePosition):System.Void",
@@ -473,7 +478,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.Pipelines:System.IO.Pipelines.PipeReader::AsStream(System.Boolean):System.IO.Stream",
@@ -488,7 +494,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.Pipelines:System.IO.Pipelines.PipeReader::CancelPendingRead():System.Void",
@@ -503,7 +510,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.Pipelines:System.IO.Pipelines.PipeReader::Complete(System.Exception):System.Void",
@@ -518,7 +526,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.Pipelines:System.IO.Pipelines.PipeReader::CompleteAsync(System.Exception):System.Threading.Tasks.ValueTask",
@@ -533,7 +542,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.Pipelines:System.IO.Pipelines.PipeReader::OnWriterCompleted(System.Action_2[[System.Exception,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Object):System.Void",
@@ -548,7 +558,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.Pipelines:System.IO.Pipelines.PipeReader::Create(System.IO.Stream,System.IO.Pipelines.StreamPipeReaderOptions):System.IO.Pipelines.PipeReader",
@@ -563,7 +574,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.Pipelines:System.IO.Pipelines.PipeReader::Create(System.Buffers.ReadOnlySequence_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.IO.Pipelines.PipeReader",
@@ -578,7 +590,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.Pipelines:System.IO.Pipelines.PipeReader::CopyToAsync(System.IO.Pipelines.PipeWriter,System.Threading.CancellationToken):System.Threading.Tasks.Task",
@@ -593,7 +606,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.Pipelines:System.IO.Pipelines.PipeReader::CopyToAsync(System.IO.Stream,System.Threading.CancellationToken):System.Threading.Tasks.Task",
@@ -608,7 +622,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -640,7 +655,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -703,7 +719,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.Pipelines:System.IO.Pipelines.PipeWriter::CompleteAsync(System.Exception):System.Threading.Tasks.ValueTask",
@@ -718,7 +735,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.Pipelines:System.IO.Pipelines.PipeWriter::CancelPendingFlush():System.Void",
@@ -733,7 +751,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.Pipelines:System.IO.Pipelines.PipeWriter::OnReaderCompleted(System.Action_2[[System.Exception,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Object):System.Void",
@@ -748,7 +767,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.Pipelines:System.IO.Pipelines.PipeWriter::FlushAsync(System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.IO.Pipelines.FlushResult,System.IO.Pipelines,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]",
@@ -763,7 +783,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.Pipelines:System.IO.Pipelines.PipeWriter::Advance(System.Int32):System.Void",
@@ -778,7 +799,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.Pipelines:System.IO.Pipelines.PipeWriter::GetMemory(System.Int32):System.Memory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
@@ -793,7 +815,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.Pipelines:System.IO.Pipelines.PipeWriter::GetSpan(System.Int32):System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
@@ -808,7 +831,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.Pipelines:System.IO.Pipelines.PipeWriter::AsStream(System.Boolean):System.IO.Stream",
@@ -823,7 +847,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.Pipelines:System.IO.Pipelines.PipeWriter::Create(System.IO.Stream,System.IO.Pipelines.StreamPipeWriterOptions):System.IO.Pipelines.PipeWriter",
@@ -838,7 +863,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.Pipelines:System.IO.Pipelines.PipeWriter::WriteAsync(System.ReadOnlyMemory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.IO.Pipelines.FlushResult,System.IO.Pipelines,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]",
@@ -853,7 +879,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Memory:System.Buffers.IBufferWriter\u00601::GetMemory(System.Int32):Memory_1",
@@ -869,7 +896,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 1,
-          "sourceInterface": "System.Buffers.IBufferWriter\u00601"
+          "sourceInterface": "System.Buffers.IBufferWriter\u00601",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Memory:System.Buffers.IBufferWriter\u00601::GetSpan(System.Int32):Span_1",
@@ -885,7 +913,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 1,
-          "sourceInterface": "System.Buffers.IBufferWriter\u00601"
+          "sourceInterface": "System.Buffers.IBufferWriter\u00601",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Memory:System.Buffers.IBufferWriter\u00601::Advance(System.Int32):System.Void",
@@ -901,7 +930,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 1,
-          "sourceInterface": "System.Buffers.IBufferWriter\u00601"
+          "sourceInterface": "System.Buffers.IBufferWriter\u00601",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -1135,7 +1165,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": true
         }
       ],
       "properties": [],

@@ -7264,7 +7264,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Security.Principal.IPrincipal",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -7329,7 +7330,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Security.Principal.GenericIdentity",
-          "declaringAssemblyName": "System.Security.Claims"
+          "declaringAssemblyName": "System.Security.Claims",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -7799,7 +7801,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Security.Principal.GenericPrincipal",
-          "declaringAssemblyName": "System.Security.Claims"
+          "declaringAssemblyName": "System.Security.Claims",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Security.Principal.IPrincipal::IsInRole(System.String):System.Boolean",
@@ -7812,7 +7815,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Security.Principal.IPrincipal",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -8143,7 +8147,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Security.Principal.IdentityNotMappedException",
-          "declaringAssemblyName": "System.Security.Principal.Windows"
+          "declaringAssemblyName": "System.Security.Principal.Windows",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
@@ -8156,7 +8161,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.Serialization.ISerializable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -8441,7 +8447,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Security.Principal.IdentityReference",
-          "declaringAssemblyName": "System.Security.Principal.Windows"
+          "declaringAssemblyName": "System.Security.Principal.Windows",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.Principal.Windows:System.Security.Principal.IdentityReference::GetHashCode():System.Int32",
@@ -8454,7 +8461,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Security.Principal.IdentityReference",
-          "declaringAssemblyName": "System.Security.Principal.Windows"
+          "declaringAssemblyName": "System.Security.Principal.Windows",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.Principal.Windows:System.Security.Principal.IdentityReference::IsValidTargetType(System.Type):System.Boolean",
@@ -8467,7 +8475,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Security.Principal.IdentityReference",
-          "declaringAssemblyName": "System.Security.Principal.Windows"
+          "declaringAssemblyName": "System.Security.Principal.Windows",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.Principal.Windows:System.Security.Principal.IdentityReference::ToString():System.String",
@@ -8480,7 +8489,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Security.Principal.IdentityReference",
-          "declaringAssemblyName": "System.Security.Principal.Windows"
+          "declaringAssemblyName": "System.Security.Principal.Windows",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.Principal.Windows:System.Security.Principal.IdentityReference::Translate(System.Type):System.Security.Principal.IdentityReference",
@@ -8493,7 +8503,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Security.Principal.IdentityReference",
-          "declaringAssemblyName": "System.Security.Principal.Windows"
+          "declaringAssemblyName": "System.Security.Principal.Windows",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -8628,7 +8639,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Security.Principal.IdentityReferenceCollection",
-          "declaringAssemblyName": "System.Security.Principal.Windows"
+          "declaringAssemblyName": "System.Security.Principal.Windows",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.Principal.Windows:System.Security.Principal.IdentityReferenceCollection::Clear():System.Void",
@@ -8641,7 +8653,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Security.Principal.IdentityReferenceCollection",
-          "declaringAssemblyName": "System.Security.Principal.Windows"
+          "declaringAssemblyName": "System.Security.Principal.Windows",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.Principal.Windows:System.Security.Principal.IdentityReferenceCollection::Contains(System.Security.Principal.IdentityReference):System.Boolean",
@@ -8654,7 +8667,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Security.Principal.IdentityReferenceCollection",
-          "declaringAssemblyName": "System.Security.Principal.Windows"
+          "declaringAssemblyName": "System.Security.Principal.Windows",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.Principal.Windows:System.Security.Principal.IdentityReferenceCollection::CopyTo(System.Security.Principal.IdentityReference[],System.Int32):System.Void",
@@ -8667,7 +8681,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Security.Principal.IdentityReferenceCollection",
-          "declaringAssemblyName": "System.Security.Principal.Windows"
+          "declaringAssemblyName": "System.Security.Principal.Windows",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.Principal.Windows:System.Security.Principal.IdentityReferenceCollection::GetEnumerator():System.Collections.Generic.IEnumerator_1[[System.Security.Principal.IdentityReference,System.Security.Principal.Windows,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
@@ -8680,7 +8695,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Security.Principal.IdentityReferenceCollection",
-          "declaringAssemblyName": "System.Security.Principal.Windows"
+          "declaringAssemblyName": "System.Security.Principal.Windows",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.Principal.Windows:System.Security.Principal.IdentityReferenceCollection::Remove(System.Security.Principal.IdentityReference):System.Boolean",
@@ -8693,7 +8709,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Security.Principal.IdentityReferenceCollection",
-          "declaringAssemblyName": "System.Security.Principal.Windows"
+          "declaringAssemblyName": "System.Security.Principal.Windows",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.Principal.Windows:System.Security.Principal.IdentityReferenceCollection::Translate(System.Type):System.Security.Principal.IdentityReferenceCollection",
@@ -8706,7 +8723,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Security.Principal.IdentityReferenceCollection",
-          "declaringAssemblyName": "System.Security.Principal.Windows"
+          "declaringAssemblyName": "System.Security.Principal.Windows",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.Principal.Windows:System.Security.Principal.IdentityReferenceCollection::Translate(System.Type,System.Boolean):System.Security.Principal.IdentityReferenceCollection",
@@ -8719,7 +8737,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Security.Principal.IdentityReferenceCollection",
-          "declaringAssemblyName": "System.Security.Principal.Windows"
+          "declaringAssemblyName": "System.Security.Principal.Windows",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::Add(T):System.Void",
@@ -8732,7 +8751,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::Contains(T):System.Boolean",
@@ -8745,7 +8765,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::CopyTo(T[],System.Int32):System.Void",
@@ -8758,7 +8779,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IEnumerable\u00601::GetEnumerator():IEnumerator_1",
@@ -8771,7 +8793,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.Generic.IEnumerable\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
@@ -8784,7 +8807,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.IEnumerable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::Clear():System.Void",
@@ -8797,7 +8821,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -9165,7 +9190,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Security.Principal.NTAccount",
-          "declaringAssemblyName": "System.Security.Principal.Windows"
+          "declaringAssemblyName": "System.Security.Principal.Windows",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.Principal.Windows:System.Security.Principal.NTAccount::GetHashCode():System.Int32",
@@ -9178,7 +9204,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Security.Principal.NTAccount",
-          "declaringAssemblyName": "System.Security.Principal.Windows"
+          "declaringAssemblyName": "System.Security.Principal.Windows",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.Principal.Windows:System.Security.Principal.NTAccount::IsValidTargetType(System.Type):System.Boolean",
@@ -9191,7 +9218,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Security.Principal.NTAccount",
-          "declaringAssemblyName": "System.Security.Principal.Windows"
+          "declaringAssemblyName": "System.Security.Principal.Windows",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.Principal.Windows:System.Security.Principal.NTAccount::ToString():System.String",
@@ -9204,7 +9232,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Security.Principal.NTAccount",
-          "declaringAssemblyName": "System.Security.Principal.Windows"
+          "declaringAssemblyName": "System.Security.Principal.Windows",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.Principal.Windows:System.Security.Principal.NTAccount::Translate(System.Type):System.Security.Principal.IdentityReference",
@@ -9217,7 +9246,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Security.Principal.NTAccount",
-          "declaringAssemblyName": "System.Security.Principal.Windows"
+          "declaringAssemblyName": "System.Security.Principal.Windows",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -9393,7 +9423,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Security.Principal.SecurityIdentifier",
-          "declaringAssemblyName": "System.Security.Principal.Windows"
+          "declaringAssemblyName": "System.Security.Principal.Windows",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.Principal.Windows:System.Security.Principal.SecurityIdentifier::Equals(System.Object):System.Boolean",
@@ -9406,7 +9437,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Security.Principal.SecurityIdentifier",
-          "declaringAssemblyName": "System.Security.Principal.Windows"
+          "declaringAssemblyName": "System.Security.Principal.Windows",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.Principal.Windows:System.Security.Principal.SecurityIdentifier::Equals(System.Security.Principal.SecurityIdentifier):System.Boolean",
@@ -9419,7 +9451,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Security.Principal.SecurityIdentifier",
-          "declaringAssemblyName": "System.Security.Principal.Windows"
+          "declaringAssemblyName": "System.Security.Principal.Windows",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.Principal.Windows:System.Security.Principal.SecurityIdentifier::GetBinaryForm(System.Byte[],System.Int32):System.Void",
@@ -9432,7 +9465,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Security.Principal.SecurityIdentifier",
-          "declaringAssemblyName": "System.Security.Principal.Windows"
+          "declaringAssemblyName": "System.Security.Principal.Windows",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.Principal.Windows:System.Security.Principal.SecurityIdentifier::GetHashCode():System.Int32",
@@ -9445,7 +9479,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Security.Principal.SecurityIdentifier",
-          "declaringAssemblyName": "System.Security.Principal.Windows"
+          "declaringAssemblyName": "System.Security.Principal.Windows",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.Principal.Windows:System.Security.Principal.SecurityIdentifier::IsAccountSid():System.Boolean",
@@ -9458,7 +9493,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Security.Principal.SecurityIdentifier",
-          "declaringAssemblyName": "System.Security.Principal.Windows"
+          "declaringAssemblyName": "System.Security.Principal.Windows",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.Principal.Windows:System.Security.Principal.SecurityIdentifier::IsEqualDomainSid(System.Security.Principal.SecurityIdentifier):System.Boolean",
@@ -9471,7 +9507,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Security.Principal.SecurityIdentifier",
-          "declaringAssemblyName": "System.Security.Principal.Windows"
+          "declaringAssemblyName": "System.Security.Principal.Windows",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.Principal.Windows:System.Security.Principal.SecurityIdentifier::IsValidTargetType(System.Type):System.Boolean",
@@ -9484,7 +9521,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Security.Principal.SecurityIdentifier",
-          "declaringAssemblyName": "System.Security.Principal.Windows"
+          "declaringAssemblyName": "System.Security.Principal.Windows",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.Principal.Windows:System.Security.Principal.SecurityIdentifier::IsWellKnown(System.Security.Principal.WellKnownSidType):System.Boolean",
@@ -9497,7 +9535,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Security.Principal.SecurityIdentifier",
-          "declaringAssemblyName": "System.Security.Principal.Windows"
+          "declaringAssemblyName": "System.Security.Principal.Windows",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.Principal.Windows:System.Security.Principal.SecurityIdentifier::ToString():System.String",
@@ -9510,7 +9549,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Security.Principal.SecurityIdentifier",
-          "declaringAssemblyName": "System.Security.Principal.Windows"
+          "declaringAssemblyName": "System.Security.Principal.Windows",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.Principal.Windows:System.Security.Principal.SecurityIdentifier::Translate(System.Type):System.Security.Principal.IdentityReference",
@@ -9523,7 +9563,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Security.Principal.SecurityIdentifier",
-          "declaringAssemblyName": "System.Security.Principal.Windows"
+          "declaringAssemblyName": "System.Security.Principal.Windows",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.IComparable\u00601::CompareTo(T):System.Int32",
@@ -9536,7 +9577,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.IComparable\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -9913,7 +9955,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Security.Principal.WindowsIdentity",
-          "declaringAssemblyName": "System.Security.Principal.Windows"
+          "declaringAssemblyName": "System.Security.Principal.Windows",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.Principal.Windows:System.Security.Principal.WindowsIdentity::Dispose():System.Void",
@@ -9926,7 +9969,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Security.Principal.WindowsIdentity",
-          "declaringAssemblyName": "System.Security.Principal.Windows"
+          "declaringAssemblyName": "System.Security.Principal.Windows",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.Principal.Windows:System.Security.Principal.WindowsIdentity::GetAnonymous():System.Security.Principal.WindowsIdentity",
@@ -9939,7 +9983,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Security.Principal.WindowsIdentity",
-          "declaringAssemblyName": "System.Security.Principal.Windows"
+          "declaringAssemblyName": "System.Security.Principal.Windows",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.Principal.Windows:System.Security.Principal.WindowsIdentity::GetCurrent():System.Security.Principal.WindowsIdentity",
@@ -9952,7 +9997,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Security.Principal.WindowsIdentity",
-          "declaringAssemblyName": "System.Security.Principal.Windows"
+          "declaringAssemblyName": "System.Security.Principal.Windows",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.Principal.Windows:System.Security.Principal.WindowsIdentity::GetCurrent(System.Boolean):System.Security.Principal.WindowsIdentity",
@@ -9965,7 +10011,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Security.Principal.WindowsIdentity",
-          "declaringAssemblyName": "System.Security.Principal.Windows"
+          "declaringAssemblyName": "System.Security.Principal.Windows",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.Principal.Windows:System.Security.Principal.WindowsIdentity::GetCurrent(System.Security.Principal.TokenAccessLevels):System.Security.Principal.WindowsIdentity",
@@ -9978,7 +10025,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Security.Principal.WindowsIdentity",
-          "declaringAssemblyName": "System.Security.Principal.Windows"
+          "declaringAssemblyName": "System.Security.Principal.Windows",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.Principal.Windows:System.Security.Principal.WindowsIdentity::RunImpersonated(Microsoft.Win32.SafeHandles.SafeAccessTokenHandle,System.Action):System.Void",
@@ -9991,7 +10039,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Security.Principal.WindowsIdentity",
-          "declaringAssemblyName": "System.Security.Principal.Windows"
+          "declaringAssemblyName": "System.Security.Principal.Windows",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.Principal.Windows:System.Security.Principal.WindowsIdentity::RunImpersonatedAsync(Microsoft.Win32.SafeHandles.SafeAccessTokenHandle,System.Func_1[[System.Threading.Tasks.Task,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Threading.Tasks.Task",
@@ -10004,7 +10053,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Security.Principal.WindowsIdentity",
-          "declaringAssemblyName": "System.Security.Principal.Windows"
+          "declaringAssemblyName": "System.Security.Principal.Windows",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.Principal.Windows:System.Security.Principal.WindowsIdentity::RunImpersonatedAsync(Microsoft.Win32.SafeHandles.SafeAccessTokenHandle,Func_1):Task_1",
@@ -10017,7 +10067,8 @@
           "arity": 1,
           "parameterCount": 2,
           "declaringClrType": "System.Security.Principal.WindowsIdentity",
-          "declaringAssemblyName": "System.Security.Principal.Windows"
+          "declaringAssemblyName": "System.Security.Principal.Windows",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.Principal.Windows:System.Security.Principal.WindowsIdentity::RunImpersonated(Microsoft.Win32.SafeHandles.SafeAccessTokenHandle,Func_1):T",
@@ -10030,7 +10081,8 @@
           "arity": 1,
           "parameterCount": 2,
           "declaringClrType": "System.Security.Principal.WindowsIdentity",
-          "declaringAssemblyName": "System.Security.Principal.Windows"
+          "declaringAssemblyName": "System.Security.Principal.Windows",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.IDeserializationCallback::OnDeserialization(System.Object):System.Void",
@@ -10043,7 +10095,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.Serialization.IDeserializationCallback",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
@@ -10056,7 +10109,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.Serialization.ISerializable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
@@ -10069,7 +10123,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.IDisposable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -11023,7 +11078,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Security.Principal.WindowsPrincipal",
-          "declaringAssemblyName": "System.Security.Principal.Windows"
+          "declaringAssemblyName": "System.Security.Principal.Windows",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.Principal.Windows:System.Security.Principal.WindowsPrincipal::IsInRole(System.Security.Principal.SecurityIdentifier):System.Boolean",
@@ -11036,7 +11092,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Security.Principal.WindowsPrincipal",
-          "declaringAssemblyName": "System.Security.Principal.Windows"
+          "declaringAssemblyName": "System.Security.Principal.Windows",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.Principal.Windows:System.Security.Principal.WindowsPrincipal::IsInRole(System.Security.Principal.WindowsBuiltInRole):System.Boolean",
@@ -11049,7 +11106,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Security.Principal.WindowsPrincipal",
-          "declaringAssemblyName": "System.Security.Principal.Windows"
+          "declaringAssemblyName": "System.Security.Principal.Windows",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.Principal.Windows:System.Security.Principal.WindowsPrincipal::IsInRole(System.String):System.Boolean",
@@ -11062,7 +11120,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Security.Principal.WindowsPrincipal",
-          "declaringAssemblyName": "System.Security.Principal.Windows"
+          "declaringAssemblyName": "System.Security.Principal.Windows",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Security.Principal.IPrincipal::IsInRole(System.String):System.Boolean",
@@ -11075,7 +11134,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Security.Principal.IPrincipal",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [

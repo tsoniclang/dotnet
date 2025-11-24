@@ -161,7 +161,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.IXmlSerializable::ReadXml(System.Xml.XmlReader):System.Void",
@@ -176,7 +177,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.IXmlSerializable::WriteXml(System.Xml.XmlWriter):System.Void",
@@ -191,7 +193,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -347,7 +350,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.CodeIdentifier::MakeCamel(System.String):System.String",
@@ -362,7 +366,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.CodeIdentifier::MakeValid(System.String):System.String",
@@ -377,7 +382,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -415,7 +421,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.CodeIdentifiers::MakeRightCase(System.String):System.String",
@@ -430,7 +437,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.CodeIdentifiers::MakeUnique(System.String):System.String",
@@ -445,7 +453,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.CodeIdentifiers::AddReserved(System.String):System.Void",
@@ -460,7 +469,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.CodeIdentifiers::RemoveReserved(System.String):System.Void",
@@ -475,7 +485,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.CodeIdentifiers::AddUnique(System.String,System.Object):System.String",
@@ -490,7 +501,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.CodeIdentifiers::IsInUse(System.String):System.Boolean",
@@ -505,7 +517,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.CodeIdentifiers::Add(System.String,System.Object):System.Void",
@@ -520,7 +533,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.CodeIdentifiers::Remove(System.String):System.Void",
@@ -535,7 +549,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.CodeIdentifiers::ToArray(System.Type):System.Object",
@@ -550,7 +565,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -766,7 +782,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.SoapAttributeOverrides::Add(System.Type,System.String,System.Xml.Serialization.SoapAttributes):System.Void",
@@ -781,7 +798,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.SoapAttributeOverrides::get_Item(System.Type):System.Xml.Serialization.SoapAttributes",
@@ -796,7 +814,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.SoapAttributeOverrides::get_Item(System.Type,System.String):System.Xml.Serialization.SoapAttributes",
@@ -811,7 +830,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -1143,7 +1163,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.SoapReflectionImporter::IncludeType(System.Type):System.Void",
@@ -1158,7 +1179,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.SoapReflectionImporter::ImportTypeMapping(System.Type):System.Xml.Serialization.XmlTypeMapping",
@@ -1173,7 +1195,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.SoapReflectionImporter::ImportTypeMapping(System.Type,System.String):System.Xml.Serialization.XmlTypeMapping",
@@ -1188,7 +1211,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.SoapReflectionImporter::ImportMembersMapping(System.String,System.String,System.Xml.Serialization.XmlReflectionMember[]):System.Xml.Serialization.XmlMembersMapping",
@@ -1203,7 +1227,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.SoapReflectionImporter::ImportMembersMapping(System.String,System.String,System.Xml.Serialization.XmlReflectionMember[],System.Boolean,System.Boolean):System.Xml.Serialization.XmlMembersMapping",
@@ -1218,7 +1243,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 5
+          "parameterCount": 5,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.SoapReflectionImporter::ImportMembersMapping(System.String,System.String,System.Xml.Serialization.XmlReflectionMember[],System.Boolean,System.Boolean,System.Boolean):System.Xml.Serialization.XmlMembersMapping",
@@ -1233,7 +1259,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 6
+          "parameterCount": 6,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.SoapReflectionImporter::ImportMembersMapping(System.String,System.String,System.Xml.Serialization.XmlReflectionMember[],System.Boolean,System.Boolean,System.Boolean,System.Xml.Serialization.XmlMappingAccess):System.Xml.Serialization.XmlMembersMapping",
@@ -1248,7 +1275,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 7
+          "parameterCount": 7,
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -1485,7 +1513,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.UnreferencedObjectEventHandler::BeginInvoke(System.Object,System.Xml.Serialization.UnreferencedObjectEventArgs,System.AsyncCallback,System.Object):System.IAsyncResult",
@@ -1500,7 +1529,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 4
+          "parameterCount": 4,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.UnreferencedObjectEventHandler::EndInvoke(System.IAsyncResult):System.Void",
@@ -1515,7 +1545,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
@@ -1531,7 +1562,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.ICloneable"
+          "sourceInterface": "System.ICloneable",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
@@ -1547,7 +1579,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 2,
-          "sourceInterface": "System.Runtime.Serialization.ISerializable"
+          "sourceInterface": "System.Runtime.Serialization.ISerializable",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.UnreferencedObjectEventHandler::Clone():System.Object",
@@ -1562,7 +1595,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.UnreferencedObjectEventHandler::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
@@ -1577,7 +1611,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -1715,7 +1750,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlAnyElementAttributes::Insert(System.Int32,System.Xml.Serialization.XmlAnyElementAttribute):System.Void",
@@ -1730,7 +1766,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlAnyElementAttributes::IndexOf(System.Xml.Serialization.XmlAnyElementAttribute):System.Int32",
@@ -1745,7 +1782,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlAnyElementAttributes::Contains(System.Xml.Serialization.XmlAnyElementAttribute):System.Boolean",
@@ -1760,7 +1798,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlAnyElementAttributes::Remove(System.Xml.Serialization.XmlAnyElementAttribute):System.Void",
@@ -1775,7 +1814,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlAnyElementAttributes::CopyTo(System.Xml.Serialization.XmlAnyElementAttribute[],System.Int32):System.Void",
@@ -1790,7 +1830,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Clear():System.Void",
@@ -1806,7 +1847,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.Collections.IList"
+          "sourceInterface": "System.Collections.IList",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::RemoveAt(System.Int32):System.Void",
@@ -1822,7 +1864,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 1,
-          "sourceInterface": "System.Collections.IList"
+          "sourceInterface": "System.Collections.IList",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.ICollection::CopyTo(System.Array,System.Int32):System.Void",
@@ -1838,7 +1881,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 2,
-          "sourceInterface": "System.Collections.ICollection"
+          "sourceInterface": "System.Collections.ICollection",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
@@ -1854,7 +1898,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.Collections.IEnumerable"
+          "sourceInterface": "System.Collections.IEnumerable",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Add(System.Object):System.Int32",
@@ -1870,7 +1915,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 1,
-          "sourceInterface": "System.Collections.IList"
+          "sourceInterface": "System.Collections.IList",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Contains(System.Object):System.Boolean",
@@ -1886,7 +1932,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 1,
-          "sourceInterface": "System.Collections.IList"
+          "sourceInterface": "System.Collections.IList",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Insert(System.Int32,System.Object):System.Void",
@@ -1902,7 +1949,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 2,
-          "sourceInterface": "System.Collections.IList"
+          "sourceInterface": "System.Collections.IList",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Remove(System.Object):System.Void",
@@ -1918,7 +1966,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 1,
-          "sourceInterface": "System.Collections.IList"
+          "sourceInterface": "System.Collections.IList",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlAnyElementAttributes::Add(System.Object):System.Int32",
@@ -1933,7 +1982,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlAnyElementAttributes::Clear():System.Void",
@@ -1948,7 +1998,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlAnyElementAttributes::Contains(System.Object):System.Boolean",
@@ -1963,7 +2014,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlAnyElementAttributes::CopyTo(System.Array,System.Int32):System.Void",
@@ -1978,7 +2030,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlAnyElementAttributes::GetEnumerator():System.Collections.IEnumerator",
@@ -1993,7 +2046,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlAnyElementAttributes::Insert(System.Int32,System.Object):System.Void",
@@ -2008,7 +2062,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlAnyElementAttributes::Remove(System.Object):System.Void",
@@ -2023,7 +2078,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlAnyElementAttributes::RemoveAt(System.Int32):System.Void",
@@ -2038,7 +2094,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -2418,7 +2475,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlArrayItemAttributes::Insert(System.Int32,System.Xml.Serialization.XmlArrayItemAttribute):System.Void",
@@ -2433,7 +2491,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlArrayItemAttributes::IndexOf(System.Xml.Serialization.XmlArrayItemAttribute):System.Int32",
@@ -2448,7 +2507,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlArrayItemAttributes::Contains(System.Xml.Serialization.XmlArrayItemAttribute):System.Boolean",
@@ -2463,7 +2523,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlArrayItemAttributes::Remove(System.Xml.Serialization.XmlArrayItemAttribute):System.Void",
@@ -2478,7 +2539,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlArrayItemAttributes::CopyTo(System.Xml.Serialization.XmlArrayItemAttribute[],System.Int32):System.Void",
@@ -2493,7 +2555,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Clear():System.Void",
@@ -2509,7 +2572,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.Collections.IList"
+          "sourceInterface": "System.Collections.IList",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::RemoveAt(System.Int32):System.Void",
@@ -2525,7 +2589,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 1,
-          "sourceInterface": "System.Collections.IList"
+          "sourceInterface": "System.Collections.IList",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.ICollection::CopyTo(System.Array,System.Int32):System.Void",
@@ -2541,7 +2606,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 2,
-          "sourceInterface": "System.Collections.ICollection"
+          "sourceInterface": "System.Collections.ICollection",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
@@ -2557,7 +2623,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.Collections.IEnumerable"
+          "sourceInterface": "System.Collections.IEnumerable",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Add(System.Object):System.Int32",
@@ -2573,7 +2640,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 1,
-          "sourceInterface": "System.Collections.IList"
+          "sourceInterface": "System.Collections.IList",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Contains(System.Object):System.Boolean",
@@ -2589,7 +2657,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 1,
-          "sourceInterface": "System.Collections.IList"
+          "sourceInterface": "System.Collections.IList",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Insert(System.Int32,System.Object):System.Void",
@@ -2605,7 +2674,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 2,
-          "sourceInterface": "System.Collections.IList"
+          "sourceInterface": "System.Collections.IList",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Remove(System.Object):System.Void",
@@ -2621,7 +2691,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 1,
-          "sourceInterface": "System.Collections.IList"
+          "sourceInterface": "System.Collections.IList",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlArrayItemAttributes::Add(System.Object):System.Int32",
@@ -2636,7 +2707,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlArrayItemAttributes::Clear():System.Void",
@@ -2651,7 +2723,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlArrayItemAttributes::Contains(System.Object):System.Boolean",
@@ -2666,7 +2739,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlArrayItemAttributes::CopyTo(System.Array,System.Int32):System.Void",
@@ -2681,7 +2755,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlArrayItemAttributes::GetEnumerator():System.Collections.IEnumerator",
@@ -2696,7 +2771,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlArrayItemAttributes::Insert(System.Int32,System.Object):System.Void",
@@ -2711,7 +2787,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlArrayItemAttributes::Remove(System.Object):System.Void",
@@ -2726,7 +2803,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlArrayItemAttributes::RemoveAt(System.Int32):System.Void",
@@ -2741,7 +2819,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -3080,7 +3159,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlAttributeEventHandler::BeginInvoke(System.Object,System.Xml.Serialization.XmlAttributeEventArgs,System.AsyncCallback,System.Object):System.IAsyncResult",
@@ -3095,7 +3175,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 4
+          "parameterCount": 4,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlAttributeEventHandler::EndInvoke(System.IAsyncResult):System.Void",
@@ -3110,7 +3191,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
@@ -3126,7 +3208,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.ICloneable"
+          "sourceInterface": "System.ICloneable",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
@@ -3142,7 +3225,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 2,
-          "sourceInterface": "System.Runtime.Serialization.ISerializable"
+          "sourceInterface": "System.Runtime.Serialization.ISerializable",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlAttributeEventHandler::Clone():System.Object",
@@ -3157,7 +3241,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlAttributeEventHandler::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
@@ -3172,7 +3257,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -3210,7 +3296,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlAttributeOverrides::Add(System.Type,System.String,System.Xml.Serialization.XmlAttributes):System.Void",
@@ -3225,7 +3312,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlAttributeOverrides::get_Item(System.Type):System.Xml.Serialization.XmlAttributes",
@@ -3240,7 +3328,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlAttributeOverrides::get_Item(System.Type,System.String):System.Xml.Serialization.XmlAttributes",
@@ -3255,7 +3344,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -3717,7 +3807,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlElementAttributes::Insert(System.Int32,System.Xml.Serialization.XmlElementAttribute):System.Void",
@@ -3732,7 +3823,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlElementAttributes::IndexOf(System.Xml.Serialization.XmlElementAttribute):System.Int32",
@@ -3747,7 +3839,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlElementAttributes::Contains(System.Xml.Serialization.XmlElementAttribute):System.Boolean",
@@ -3762,7 +3855,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlElementAttributes::Remove(System.Xml.Serialization.XmlElementAttribute):System.Void",
@@ -3777,7 +3871,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlElementAttributes::CopyTo(System.Xml.Serialization.XmlElementAttribute[],System.Int32):System.Void",
@@ -3792,7 +3887,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Clear():System.Void",
@@ -3808,7 +3904,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.Collections.IList"
+          "sourceInterface": "System.Collections.IList",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::RemoveAt(System.Int32):System.Void",
@@ -3824,7 +3921,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 1,
-          "sourceInterface": "System.Collections.IList"
+          "sourceInterface": "System.Collections.IList",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.ICollection::CopyTo(System.Array,System.Int32):System.Void",
@@ -3840,7 +3938,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 2,
-          "sourceInterface": "System.Collections.ICollection"
+          "sourceInterface": "System.Collections.ICollection",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
@@ -3856,7 +3955,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.Collections.IEnumerable"
+          "sourceInterface": "System.Collections.IEnumerable",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Add(System.Object):System.Int32",
@@ -3872,7 +3972,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 1,
-          "sourceInterface": "System.Collections.IList"
+          "sourceInterface": "System.Collections.IList",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Contains(System.Object):System.Boolean",
@@ -3888,7 +3989,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 1,
-          "sourceInterface": "System.Collections.IList"
+          "sourceInterface": "System.Collections.IList",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Insert(System.Int32,System.Object):System.Void",
@@ -3904,7 +4006,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 2,
-          "sourceInterface": "System.Collections.IList"
+          "sourceInterface": "System.Collections.IList",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Remove(System.Object):System.Void",
@@ -3920,7 +4023,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 1,
-          "sourceInterface": "System.Collections.IList"
+          "sourceInterface": "System.Collections.IList",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlElementAttributes::Add(System.Object):System.Int32",
@@ -3935,7 +4039,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlElementAttributes::Clear():System.Void",
@@ -3950,7 +4055,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlElementAttributes::Contains(System.Object):System.Boolean",
@@ -3965,7 +4071,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlElementAttributes::CopyTo(System.Array,System.Int32):System.Void",
@@ -3980,7 +4087,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlElementAttributes::GetEnumerator():System.Collections.IEnumerator",
@@ -3995,7 +4103,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlElementAttributes::Insert(System.Int32,System.Object):System.Void",
@@ -4010,7 +4119,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlElementAttributes::Remove(System.Object):System.Void",
@@ -4025,7 +4135,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlElementAttributes::RemoveAt(System.Int32):System.Void",
@@ -4040,7 +4151,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -4266,7 +4378,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlElementEventHandler::BeginInvoke(System.Object,System.Xml.Serialization.XmlElementEventArgs,System.AsyncCallback,System.Object):System.IAsyncResult",
@@ -4281,7 +4394,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 4
+          "parameterCount": 4,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlElementEventHandler::EndInvoke(System.IAsyncResult):System.Void",
@@ -4296,7 +4410,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
@@ -4312,7 +4427,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.ICloneable"
+          "sourceInterface": "System.ICloneable",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
@@ -4328,7 +4444,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 2,
-          "sourceInterface": "System.Runtime.Serialization.ISerializable"
+          "sourceInterface": "System.Runtime.Serialization.ISerializable",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlElementEventHandler::Clone():System.Object",
@@ -4343,7 +4460,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlElementEventHandler::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
@@ -4358,7 +4476,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -4499,7 +4618,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -4965,7 +5085,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlNodeEventHandler::BeginInvoke(System.Object,System.Xml.Serialization.XmlNodeEventArgs,System.AsyncCallback,System.Object):System.IAsyncResult",
@@ -4980,7 +5101,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 4
+          "parameterCount": 4,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlNodeEventHandler::EndInvoke(System.IAsyncResult):System.Void",
@@ -4995,7 +5117,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
@@ -5011,7 +5134,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.ICloneable"
+          "sourceInterface": "System.ICloneable",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
@@ -5027,7 +5151,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 2,
-          "sourceInterface": "System.Runtime.Serialization.ISerializable"
+          "sourceInterface": "System.Runtime.Serialization.ISerializable",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlNodeEventHandler::Clone():System.Object",
@@ -5042,7 +5167,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlNodeEventHandler::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
@@ -5057,7 +5183,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -5095,7 +5222,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlReflectionImporter::IncludeType(System.Type):System.Void",
@@ -5110,7 +5238,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlReflectionImporter::ImportTypeMapping(System.Type):System.Xml.Serialization.XmlTypeMapping",
@@ -5125,7 +5254,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlReflectionImporter::ImportTypeMapping(System.Type,System.String):System.Xml.Serialization.XmlTypeMapping",
@@ -5140,7 +5270,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlReflectionImporter::ImportTypeMapping(System.Type,System.Xml.Serialization.XmlRootAttribute):System.Xml.Serialization.XmlTypeMapping",
@@ -5155,7 +5286,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlReflectionImporter::ImportTypeMapping(System.Type,System.Xml.Serialization.XmlRootAttribute,System.String):System.Xml.Serialization.XmlTypeMapping",
@@ -5170,7 +5302,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlReflectionImporter::ImportMembersMapping(System.String,System.String,System.Xml.Serialization.XmlReflectionMember[],System.Boolean):System.Xml.Serialization.XmlMembersMapping",
@@ -5185,7 +5318,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 4
+          "parameterCount": 4,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlReflectionImporter::ImportMembersMapping(System.String,System.String,System.Xml.Serialization.XmlReflectionMember[],System.Boolean,System.Boolean):System.Xml.Serialization.XmlMembersMapping",
@@ -5200,7 +5334,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 5
+          "parameterCount": 5,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlReflectionImporter::ImportMembersMapping(System.String,System.String,System.Xml.Serialization.XmlReflectionMember[],System.Boolean,System.Boolean,System.Boolean):System.Xml.Serialization.XmlMembersMapping",
@@ -5215,7 +5350,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 6
+          "parameterCount": 6,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlReflectionImporter::ImportMembersMapping(System.String,System.String,System.Xml.Serialization.XmlReflectionMember[],System.Boolean,System.Boolean,System.Boolean,System.Xml.Serialization.XmlMappingAccess):System.Xml.Serialization.XmlMembersMapping",
@@ -5230,7 +5366,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 7
+          "parameterCount": 7,
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -5484,7 +5621,8 @@
           "isOverride": false,
           "isSealed": true,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlSchemaEnumerator::MoveNext():System.Boolean",
@@ -5499,7 +5637,8 @@
           "isOverride": false,
           "isSealed": true,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerator::Reset():System.Void",
@@ -5515,7 +5654,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.Collections.IEnumerator"
+          "sourceInterface": "System.Collections.IEnumerator",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
@@ -5531,7 +5671,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.Collections.IEnumerator"
+          "sourceInterface": "System.Collections.IEnumerator",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerator::MoveNext():System.Boolean",
@@ -5547,7 +5688,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.Collections.IEnumerator"
+          "sourceInterface": "System.Collections.IEnumerator",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -5633,7 +5775,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlSchemaExporter::ExportTypeMapping(System.Xml.Serialization.XmlMembersMapping):System.Xml.XmlQualifiedName",
@@ -5648,7 +5791,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlSchemaExporter::ExportMembersMapping(System.Xml.Serialization.XmlMembersMapping):System.Void",
@@ -5663,7 +5807,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlSchemaExporter::ExportMembersMapping(System.Xml.Serialization.XmlMembersMapping,System.Boolean):System.Void",
@@ -5678,7 +5823,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlSchemaExporter::ExportAnyType(System.String):System.String",
@@ -5693,7 +5839,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlSchemaExporter::ExportAnyType(System.Xml.Serialization.XmlMembersMapping):System.String",
@@ -5708,7 +5855,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -5746,7 +5894,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlSchemaImporter::ImportDerivedTypeMapping(System.Xml.XmlQualifiedName,System.Type,System.Boolean):System.Xml.Serialization.XmlTypeMapping",
@@ -5761,7 +5910,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlSchemaImporter::ImportSchemaType(System.Xml.XmlQualifiedName):System.Xml.Serialization.XmlTypeMapping",
@@ -5776,7 +5926,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlSchemaImporter::ImportSchemaType(System.Xml.XmlQualifiedName,System.Type):System.Xml.Serialization.XmlTypeMapping",
@@ -5791,7 +5942,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlSchemaImporter::ImportSchemaType(System.Xml.XmlQualifiedName,System.Type,System.Boolean):System.Xml.Serialization.XmlTypeMapping",
@@ -5806,7 +5958,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlSchemaImporter::ImportTypeMapping(System.Xml.XmlQualifiedName):System.Xml.Serialization.XmlTypeMapping",
@@ -5821,7 +5974,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlSchemaImporter::ImportMembersMapping(System.Xml.XmlQualifiedName):System.Xml.Serialization.XmlMembersMapping",
@@ -5836,7 +5990,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlSchemaImporter::ImportAnyType(System.Xml.XmlQualifiedName,System.String):System.Xml.Serialization.XmlMembersMapping",
@@ -5851,7 +6006,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlSchemaImporter::ImportMembersMapping(System.Xml.XmlQualifiedName[]):System.Xml.Serialization.XmlMembersMapping",
@@ -5866,7 +6022,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlSchemaImporter::ImportMembersMapping(System.Xml.XmlQualifiedName[],System.Type,System.Boolean):System.Xml.Serialization.XmlMembersMapping",
@@ -5881,7 +6038,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlSchemaImporter::ImportMembersMapping(System.String,System.String,System.Xml.Serialization.SoapSchemaMember[]):System.Xml.Serialization.XmlMembersMapping",
@@ -5896,7 +6054,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -5992,7 +6151,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlSchemas::Add(System.Xml.Schema.XmlSchema):System.Int32",
@@ -6007,7 +6167,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlSchemas::Add(System.Xml.Schema.XmlSchema,System.Uri):System.Int32",
@@ -6022,7 +6183,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlSchemas::Add(System.Xml.Serialization.XmlSchemas):System.Void",
@@ -6037,7 +6199,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlSchemas::AddReference(System.Xml.Schema.XmlSchema):System.Void",
@@ -6052,7 +6215,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlSchemas::Insert(System.Int32,System.Xml.Schema.XmlSchema):System.Void",
@@ -6067,7 +6231,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlSchemas::IndexOf(System.Xml.Schema.XmlSchema):System.Int32",
@@ -6082,7 +6247,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlSchemas::Contains(System.Xml.Schema.XmlSchema):System.Boolean",
@@ -6097,7 +6263,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlSchemas::Contains(System.String):System.Boolean",
@@ -6112,7 +6279,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlSchemas::Remove(System.Xml.Schema.XmlSchema):System.Void",
@@ -6127,7 +6295,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlSchemas::CopyTo(System.Xml.Schema.XmlSchema[],System.Int32):System.Void",
@@ -6142,7 +6311,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlSchemas::Find(System.Xml.XmlQualifiedName,System.Type):System.Object",
@@ -6157,7 +6327,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlSchemas::IsDataSet(System.Xml.Schema.XmlSchema):System.Boolean",
@@ -6172,7 +6343,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlSchemas::Compile(System.Xml.Schema.ValidationEventHandler,System.Boolean):System.Void",
@@ -6187,7 +6359,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Clear():System.Void",
@@ -6203,7 +6376,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.Collections.IList"
+          "sourceInterface": "System.Collections.IList",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::RemoveAt(System.Int32):System.Void",
@@ -6219,7 +6393,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 1,
-          "sourceInterface": "System.Collections.IList"
+          "sourceInterface": "System.Collections.IList",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.ICollection::CopyTo(System.Array,System.Int32):System.Void",
@@ -6235,7 +6410,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 2,
-          "sourceInterface": "System.Collections.ICollection"
+          "sourceInterface": "System.Collections.ICollection",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
@@ -6251,7 +6427,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.Collections.IEnumerable"
+          "sourceInterface": "System.Collections.IEnumerable",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IEnumerable\u00601::GetEnumerator():IEnumerator_1",
@@ -6267,7 +6444,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.Collections.Generic.IEnumerable\u00601"
+          "sourceInterface": "System.Collections.Generic.IEnumerable\u00601",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Add(System.Object):System.Int32",
@@ -6283,7 +6461,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 1,
-          "sourceInterface": "System.Collections.IList"
+          "sourceInterface": "System.Collections.IList",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Contains(System.Object):System.Boolean",
@@ -6299,7 +6478,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 1,
-          "sourceInterface": "System.Collections.IList"
+          "sourceInterface": "System.Collections.IList",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Insert(System.Int32,System.Object):System.Void",
@@ -6315,7 +6495,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 2,
-          "sourceInterface": "System.Collections.IList"
+          "sourceInterface": "System.Collections.IList",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Remove(System.Object):System.Void",
@@ -6331,7 +6512,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 1,
-          "sourceInterface": "System.Collections.IList"
+          "sourceInterface": "System.Collections.IList",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlSchemas::Add(System.Object):System.Int32",
@@ -6346,7 +6528,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlSchemas::Clear():System.Void",
@@ -6361,7 +6544,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlSchemas::Contains(System.Object):System.Boolean",
@@ -6376,7 +6560,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlSchemas::CopyTo(System.Array,System.Int32):System.Void",
@@ -6391,7 +6576,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlSchemas::GetEnumerator():System.Collections.IEnumerator",
@@ -6406,7 +6592,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlSchemas::Insert(System.Int32,System.Object):System.Void",
@@ -6421,7 +6608,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlSchemas::Remove(System.Object):System.Void",
@@ -6436,7 +6624,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlSchemas::RemoveAt(System.Int32):System.Void",
@@ -6451,7 +6640,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlSchemas::get_Item(System.Int32):System.Xml.Schema.XmlSchema",
@@ -6466,7 +6656,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlSchemas::set_Item(System.Int32,System.Xml.Schema.XmlSchema):System.Void",
@@ -6481,7 +6672,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlSchemas::get_Item(System.String):System.Xml.Schema.XmlSchema",
@@ -6496,7 +6688,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -6630,7 +6823,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlSerializationCollectionFixupCallback::BeginInvoke(System.Object,System.Object,System.AsyncCallback,System.Object):System.IAsyncResult",
@@ -6645,7 +6839,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 4
+          "parameterCount": 4,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlSerializationCollectionFixupCallback::EndInvoke(System.IAsyncResult):System.Void",
@@ -6660,7 +6855,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
@@ -6676,7 +6872,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.ICloneable"
+          "sourceInterface": "System.ICloneable",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
@@ -6692,7 +6889,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 2,
-          "sourceInterface": "System.Runtime.Serialization.ISerializable"
+          "sourceInterface": "System.Runtime.Serialization.ISerializable",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlSerializationCollectionFixupCallback::Clone():System.Object",
@@ -6707,7 +6905,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlSerializationCollectionFixupCallback::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
@@ -6722,7 +6921,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -6760,7 +6960,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlSerializationFixupCallback::BeginInvoke(System.Object,System.AsyncCallback,System.Object):System.IAsyncResult",
@@ -6775,7 +6976,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlSerializationFixupCallback::EndInvoke(System.IAsyncResult):System.Void",
@@ -6790,7 +6992,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
@@ -6806,7 +7009,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.ICloneable"
+          "sourceInterface": "System.ICloneable",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
@@ -6822,7 +7026,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 2,
-          "sourceInterface": "System.Runtime.Serialization.ISerializable"
+          "sourceInterface": "System.Runtime.Serialization.ISerializable",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlSerializationFixupCallback::Clone():System.Object",
@@ -6837,7 +7042,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlSerializationFixupCallback::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
@@ -6852,7 +7058,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -6906,7 +7113,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlSerializationReadCallback::BeginInvoke(System.AsyncCallback,System.Object):System.IAsyncResult",
@@ -6921,7 +7129,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlSerializationReadCallback::EndInvoke(System.IAsyncResult):System.Object",
@@ -6936,7 +7145,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
@@ -6952,7 +7162,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.ICloneable"
+          "sourceInterface": "System.ICloneable",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
@@ -6968,7 +7179,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 2,
-          "sourceInterface": "System.Runtime.Serialization.ISerializable"
+          "sourceInterface": "System.Runtime.Serialization.ISerializable",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlSerializationReadCallback::Clone():System.Object",
@@ -6983,7 +7195,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlSerializationReadCallback::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
@@ -6998,7 +7211,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -7052,7 +7266,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlSerializationWriteCallback::BeginInvoke(System.Object,System.AsyncCallback,System.Object):System.IAsyncResult",
@@ -7067,7 +7282,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlSerializationWriteCallback::EndInvoke(System.IAsyncResult):System.Void",
@@ -7082,7 +7298,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
@@ -7098,7 +7315,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.ICloneable"
+          "sourceInterface": "System.ICloneable",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
@@ -7114,7 +7332,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 2,
-          "sourceInterface": "System.Runtime.Serialization.ISerializable"
+          "sourceInterface": "System.Runtime.Serialization.ISerializable",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlSerializationWriteCallback::Clone():System.Object",
@@ -7129,7 +7348,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlSerializationWriteCallback::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
@@ -7144,7 +7364,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -7198,7 +7419,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlSerializer::Serialize(System.IO.TextWriter,System.Object,System.Xml.Serialization.XmlSerializerNamespaces):System.Void",
@@ -7213,7 +7435,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlSerializer::Serialize(System.IO.Stream,System.Object):System.Void",
@@ -7228,7 +7451,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlSerializer::Serialize(System.IO.Stream,System.Object,System.Xml.Serialization.XmlSerializerNamespaces):System.Void",
@@ -7243,7 +7467,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlSerializer::Serialize(System.Xml.XmlWriter,System.Object):System.Void",
@@ -7258,7 +7483,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlSerializer::Serialize(System.Xml.XmlWriter,System.Object,System.Xml.Serialization.XmlSerializerNamespaces):System.Void",
@@ -7273,7 +7499,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlSerializer::Serialize(System.Xml.XmlWriter,System.Object,System.Xml.Serialization.XmlSerializerNamespaces,System.String):System.Void",
@@ -7288,7 +7515,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 4
+          "parameterCount": 4,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlSerializer::Serialize(System.Xml.XmlWriter,System.Object,System.Xml.Serialization.XmlSerializerNamespaces,System.String,System.String):System.Void",
@@ -7303,7 +7531,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 5
+          "parameterCount": 5,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlSerializer::Deserialize(System.IO.Stream):System.Object",
@@ -7318,7 +7547,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlSerializer::Deserialize(System.IO.TextReader):System.Object",
@@ -7333,7 +7563,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlSerializer::Deserialize(System.Xml.XmlReader):System.Object",
@@ -7348,7 +7579,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlSerializer::Deserialize(System.Xml.XmlReader,System.Xml.Serialization.XmlDeserializationEvents):System.Object",
@@ -7363,7 +7595,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlSerializer::Deserialize(System.Xml.XmlReader,System.String):System.Object",
@@ -7378,7 +7611,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlSerializer::Deserialize(System.Xml.XmlReader,System.String,System.Xml.Serialization.XmlDeserializationEvents):System.Object",
@@ -7393,7 +7627,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlSerializer::CanDeserialize(System.Xml.XmlReader):System.Boolean",
@@ -7408,7 +7643,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlSerializer::FromMappings(System.Xml.Serialization.XmlMapping[]):System.Xml.Serialization.XmlSerializer[]",
@@ -7423,7 +7659,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlSerializer::FromMappings(System.Xml.Serialization.XmlMapping[],System.Type):System.Xml.Serialization.XmlSerializer[]",
@@ -7438,7 +7675,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlSerializer::FromTypes(System.Type[]):System.Xml.Serialization.XmlSerializer[]",
@@ -7453,7 +7691,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlSerializer::GetXmlSerializerAssemblyName(System.Type):System.String",
@@ -7468,7 +7707,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlSerializer::GetXmlSerializerAssemblyName(System.Type,System.String):System.String",
@@ -7483,7 +7723,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -7648,7 +7889,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 5
+          "parameterCount": 5,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlSerializerFactory::CreateSerializer(System.Type,System.Xml.Serialization.XmlRootAttribute):System.Xml.Serialization.XmlSerializer",
@@ -7663,7 +7905,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlSerializerFactory::CreateSerializer(System.Type,System.Type[]):System.Xml.Serialization.XmlSerializer",
@@ -7678,7 +7921,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlSerializerFactory::CreateSerializer(System.Type,System.Xml.Serialization.XmlAttributeOverrides):System.Xml.Serialization.XmlSerializer",
@@ -7693,7 +7937,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlSerializerFactory::CreateSerializer(System.Xml.Serialization.XmlTypeMapping):System.Xml.Serialization.XmlSerializer",
@@ -7708,7 +7953,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlSerializerFactory::CreateSerializer(System.Type):System.Xml.Serialization.XmlSerializer",
@@ -7723,7 +7969,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlSerializerFactory::CreateSerializer(System.Type,System.String):System.Xml.Serialization.XmlSerializer",
@@ -7738,7 +7985,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlSerializerFactory::CreateSerializer(System.Type,System.Xml.Serialization.XmlAttributeOverrides,System.Type[],System.Xml.Serialization.XmlRootAttribute,System.String,System.String):System.Xml.Serialization.XmlSerializer",
@@ -7753,7 +8001,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 6
+          "parameterCount": 6,
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -7791,7 +8040,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlSerializerImplementation::GetSerializer(System.Type):System.Xml.Serialization.XmlSerializer",
@@ -7806,7 +8056,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -7914,7 +8165,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlSerializerNamespaces::ToArray():System.Xml.XmlQualifiedName[]",
@@ -7929,7 +8181,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         }
       ],
       "properties": [

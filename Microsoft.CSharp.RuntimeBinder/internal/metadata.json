@@ -233,7 +233,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -266,7 +267,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 2,
-          "sourceInterface": "System.Runtime.Serialization.ISerializable"
+          "sourceInterface": "System.Runtime.Serialization.ISerializable",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.CSharp:Microsoft.CSharp.RuntimeBinder.RuntimeBinderException::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
@@ -281,7 +283,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -330,7 +333,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 2,
-          "sourceInterface": "System.Runtime.Serialization.ISerializable"
+          "sourceInterface": "System.Runtime.Serialization.ISerializable",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.CSharp:Microsoft.CSharp.RuntimeBinder.RuntimeBinderInternalCompilerException::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
@@ -345,7 +349,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -393,7 +398,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 4
+          "parameterCount": 4,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.CSharp:Microsoft.CSharp.RuntimeBinder.Binder::Convert(Microsoft.CSharp.RuntimeBinder.CSharpBinderFlags,System.Type,System.Type):System.Runtime.CompilerServices.CallSiteBinder",
@@ -408,7 +414,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.CSharp:Microsoft.CSharp.RuntimeBinder.Binder::GetIndex(Microsoft.CSharp.RuntimeBinder.CSharpBinderFlags,System.Type,System.Collections.Generic.IEnumerable_1[[Microsoft.CSharp.RuntimeBinder.CSharpArgumentInfo,Microsoft.CSharp,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):System.Runtime.CompilerServices.CallSiteBinder",
@@ -423,7 +430,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.CSharp:Microsoft.CSharp.RuntimeBinder.Binder::GetMember(Microsoft.CSharp.RuntimeBinder.CSharpBinderFlags,System.String,System.Type,System.Collections.Generic.IEnumerable_1[[Microsoft.CSharp.RuntimeBinder.CSharpArgumentInfo,Microsoft.CSharp,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):System.Runtime.CompilerServices.CallSiteBinder",
@@ -438,7 +446,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 4
+          "parameterCount": 4,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.CSharp:Microsoft.CSharp.RuntimeBinder.Binder::Invoke(Microsoft.CSharp.RuntimeBinder.CSharpBinderFlags,System.Type,System.Collections.Generic.IEnumerable_1[[Microsoft.CSharp.RuntimeBinder.CSharpArgumentInfo,Microsoft.CSharp,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):System.Runtime.CompilerServices.CallSiteBinder",
@@ -453,7 +462,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.CSharp:Microsoft.CSharp.RuntimeBinder.Binder::InvokeMember(Microsoft.CSharp.RuntimeBinder.CSharpBinderFlags,System.String,System.Collections.Generic.IEnumerable_1[[System.Type,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Type,System.Collections.Generic.IEnumerable_1[[Microsoft.CSharp.RuntimeBinder.CSharpArgumentInfo,Microsoft.CSharp,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):System.Runtime.CompilerServices.CallSiteBinder",
@@ -468,7 +478,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 5
+          "parameterCount": 5,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.CSharp:Microsoft.CSharp.RuntimeBinder.Binder::InvokeConstructor(Microsoft.CSharp.RuntimeBinder.CSharpBinderFlags,System.Type,System.Collections.Generic.IEnumerable_1[[Microsoft.CSharp.RuntimeBinder.CSharpArgumentInfo,Microsoft.CSharp,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):System.Runtime.CompilerServices.CallSiteBinder",
@@ -483,7 +494,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.CSharp:Microsoft.CSharp.RuntimeBinder.Binder::IsEvent(Microsoft.CSharp.RuntimeBinder.CSharpBinderFlags,System.String,System.Type):System.Runtime.CompilerServices.CallSiteBinder",
@@ -498,7 +510,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.CSharp:Microsoft.CSharp.RuntimeBinder.Binder::SetIndex(Microsoft.CSharp.RuntimeBinder.CSharpBinderFlags,System.Type,System.Collections.Generic.IEnumerable_1[[Microsoft.CSharp.RuntimeBinder.CSharpArgumentInfo,Microsoft.CSharp,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):System.Runtime.CompilerServices.CallSiteBinder",
@@ -513,7 +526,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.CSharp:Microsoft.CSharp.RuntimeBinder.Binder::SetMember(Microsoft.CSharp.RuntimeBinder.CSharpBinderFlags,System.String,System.Type,System.Collections.Generic.IEnumerable_1[[Microsoft.CSharp.RuntimeBinder.CSharpArgumentInfo,Microsoft.CSharp,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):System.Runtime.CompilerServices.CallSiteBinder",
@@ -528,7 +542,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 4
+          "parameterCount": 4,
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.CSharp:Microsoft.CSharp.RuntimeBinder.Binder::UnaryOperation(Microsoft.CSharp.RuntimeBinder.CSharpBinderFlags,System.Linq.Expressions.ExpressionType,System.Type,System.Collections.Generic.IEnumerable_1[[Microsoft.CSharp.RuntimeBinder.CSharpArgumentInfo,Microsoft.CSharp,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):System.Runtime.CompilerServices.CallSiteBinder",
@@ -543,7 +558,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 4
+          "parameterCount": 4,
+          "isExtensionMethod": false
         }
       ],
       "properties": [],

@@ -4273,7 +4273,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.IDisposable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.ByteArrayContent::Dispose():System.Void",
@@ -4286,7 +4287,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Net.Http.ByteArrayContent",
-          "declaringAssemblyName": "System.Net.Http"
+          "declaringAssemblyName": "System.Net.Http",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -4617,7 +4619,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.IDisposable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.DelegatingHandler::Dispose():System.Void",
@@ -4630,7 +4633,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Net.Http.DelegatingHandler",
-          "declaringAssemblyName": "System.Net.Http"
+          "declaringAssemblyName": "System.Net.Http",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -4765,7 +4769,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.IDisposable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.FormUrlEncodedContent::Dispose():System.Void",
@@ -4778,7 +4783,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Net.Http.FormUrlEncodedContent",
-          "declaringAssemblyName": "System.Net.Http"
+          "declaringAssemblyName": "System.Net.Http",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -5090,7 +5096,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Net.Http.HeaderEncodingSelector\u00601",
-          "declaringAssemblyName": "System.Net.Http"
+          "declaringAssemblyName": "System.Net.Http",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.HeaderEncodingSelector\u00601::BeginInvoke(System.String,TContext,System.AsyncCallback,System.Object):System.IAsyncResult",
@@ -5103,7 +5110,8 @@
           "arity": 0,
           "parameterCount": 4,
           "declaringClrType": "System.Net.Http.HeaderEncodingSelector\u00601",
-          "declaringAssemblyName": "System.Net.Http"
+          "declaringAssemblyName": "System.Net.Http",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.HeaderEncodingSelector\u00601::EndInvoke(System.IAsyncResult):System.Text.Encoding",
@@ -5116,7 +5124,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Net.Http.HeaderEncodingSelector\u00601",
-          "declaringAssemblyName": "System.Net.Http"
+          "declaringAssemblyName": "System.Net.Http",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
@@ -5129,7 +5138,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.ICloneable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
@@ -5142,7 +5152,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.Serialization.ISerializable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.HeaderEncodingSelector\u00601::Clone():System.Object",
@@ -5155,7 +5166,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Net.Http.HeaderEncodingSelector\u00601",
-          "declaringAssemblyName": "System.Net.Http"
+          "declaringAssemblyName": "System.Net.Http",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.HeaderEncodingSelector\u00601::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
@@ -5168,7 +5180,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Net.Http.HeaderEncodingSelector\u00601",
-          "declaringAssemblyName": "System.Net.Http"
+          "declaringAssemblyName": "System.Net.Http",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -5560,7 +5573,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Net.Http.HttpClient",
-          "declaringAssemblyName": "System.Net.Http"
+          "declaringAssemblyName": "System.Net.Http",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.HttpClient::GetStringAsync(System.Uri):System.Threading.Tasks.Task_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
@@ -5573,7 +5587,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Net.Http.HttpClient",
-          "declaringAssemblyName": "System.Net.Http"
+          "declaringAssemblyName": "System.Net.Http",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.HttpClient::GetStringAsync(System.String,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
@@ -5586,7 +5601,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Net.Http.HttpClient",
-          "declaringAssemblyName": "System.Net.Http"
+          "declaringAssemblyName": "System.Net.Http",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.HttpClient::GetStringAsync(System.Uri,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
@@ -5599,7 +5615,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Net.Http.HttpClient",
-          "declaringAssemblyName": "System.Net.Http"
+          "declaringAssemblyName": "System.Net.Http",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.HttpClient::GetByteArrayAsync(System.String):System.Threading.Tasks.Task_1[[System.Byte[],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
@@ -5612,7 +5629,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Net.Http.HttpClient",
-          "declaringAssemblyName": "System.Net.Http"
+          "declaringAssemblyName": "System.Net.Http",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.HttpClient::GetByteArrayAsync(System.Uri):System.Threading.Tasks.Task_1[[System.Byte[],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
@@ -5625,7 +5643,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Net.Http.HttpClient",
-          "declaringAssemblyName": "System.Net.Http"
+          "declaringAssemblyName": "System.Net.Http",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.HttpClient::GetByteArrayAsync(System.String,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Byte[],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
@@ -5638,7 +5657,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Net.Http.HttpClient",
-          "declaringAssemblyName": "System.Net.Http"
+          "declaringAssemblyName": "System.Net.Http",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.HttpClient::GetByteArrayAsync(System.Uri,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Byte[],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
@@ -5651,7 +5671,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Net.Http.HttpClient",
-          "declaringAssemblyName": "System.Net.Http"
+          "declaringAssemblyName": "System.Net.Http",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.HttpClient::GetStreamAsync(System.String):System.Threading.Tasks.Task_1[[System.IO.Stream,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
@@ -5664,7 +5685,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Net.Http.HttpClient",
-          "declaringAssemblyName": "System.Net.Http"
+          "declaringAssemblyName": "System.Net.Http",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.HttpClient::GetStreamAsync(System.String,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.IO.Stream,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
@@ -5677,7 +5699,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Net.Http.HttpClient",
-          "declaringAssemblyName": "System.Net.Http"
+          "declaringAssemblyName": "System.Net.Http",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.HttpClient::GetStreamAsync(System.Uri):System.Threading.Tasks.Task_1[[System.IO.Stream,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
@@ -5690,7 +5713,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Net.Http.HttpClient",
-          "declaringAssemblyName": "System.Net.Http"
+          "declaringAssemblyName": "System.Net.Http",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.HttpClient::GetStreamAsync(System.Uri,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.IO.Stream,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
@@ -5703,7 +5727,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Net.Http.HttpClient",
-          "declaringAssemblyName": "System.Net.Http"
+          "declaringAssemblyName": "System.Net.Http",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.HttpClient::GetAsync(System.String):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
@@ -5716,7 +5741,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Net.Http.HttpClient",
-          "declaringAssemblyName": "System.Net.Http"
+          "declaringAssemblyName": "System.Net.Http",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.HttpClient::GetAsync(System.Uri):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
@@ -5729,7 +5755,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Net.Http.HttpClient",
-          "declaringAssemblyName": "System.Net.Http"
+          "declaringAssemblyName": "System.Net.Http",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.HttpClient::GetAsync(System.String,System.Net.Http.HttpCompletionOption):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
@@ -5742,7 +5769,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Net.Http.HttpClient",
-          "declaringAssemblyName": "System.Net.Http"
+          "declaringAssemblyName": "System.Net.Http",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.HttpClient::GetAsync(System.Uri,System.Net.Http.HttpCompletionOption):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
@@ -5755,7 +5783,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Net.Http.HttpClient",
-          "declaringAssemblyName": "System.Net.Http"
+          "declaringAssemblyName": "System.Net.Http",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.HttpClient::GetAsync(System.String,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
@@ -5768,7 +5797,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Net.Http.HttpClient",
-          "declaringAssemblyName": "System.Net.Http"
+          "declaringAssemblyName": "System.Net.Http",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.HttpClient::GetAsync(System.Uri,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
@@ -5781,7 +5811,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Net.Http.HttpClient",
-          "declaringAssemblyName": "System.Net.Http"
+          "declaringAssemblyName": "System.Net.Http",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.HttpClient::GetAsync(System.String,System.Net.Http.HttpCompletionOption,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
@@ -5794,7 +5825,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Net.Http.HttpClient",
-          "declaringAssemblyName": "System.Net.Http"
+          "declaringAssemblyName": "System.Net.Http",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.HttpClient::GetAsync(System.Uri,System.Net.Http.HttpCompletionOption,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
@@ -5807,7 +5839,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Net.Http.HttpClient",
-          "declaringAssemblyName": "System.Net.Http"
+          "declaringAssemblyName": "System.Net.Http",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.HttpClient::PostAsync(System.String,System.Net.Http.HttpContent):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
@@ -5820,7 +5853,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Net.Http.HttpClient",
-          "declaringAssemblyName": "System.Net.Http"
+          "declaringAssemblyName": "System.Net.Http",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.HttpClient::PostAsync(System.Uri,System.Net.Http.HttpContent):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
@@ -5833,7 +5867,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Net.Http.HttpClient",
-          "declaringAssemblyName": "System.Net.Http"
+          "declaringAssemblyName": "System.Net.Http",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.HttpClient::PostAsync(System.String,System.Net.Http.HttpContent,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
@@ -5846,7 +5881,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Net.Http.HttpClient",
-          "declaringAssemblyName": "System.Net.Http"
+          "declaringAssemblyName": "System.Net.Http",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.HttpClient::PostAsync(System.Uri,System.Net.Http.HttpContent,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
@@ -5859,7 +5895,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Net.Http.HttpClient",
-          "declaringAssemblyName": "System.Net.Http"
+          "declaringAssemblyName": "System.Net.Http",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.HttpClient::PutAsync(System.String,System.Net.Http.HttpContent):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
@@ -5872,7 +5909,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Net.Http.HttpClient",
-          "declaringAssemblyName": "System.Net.Http"
+          "declaringAssemblyName": "System.Net.Http",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.HttpClient::PutAsync(System.Uri,System.Net.Http.HttpContent):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
@@ -5885,7 +5923,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Net.Http.HttpClient",
-          "declaringAssemblyName": "System.Net.Http"
+          "declaringAssemblyName": "System.Net.Http",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.HttpClient::PutAsync(System.String,System.Net.Http.HttpContent,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
@@ -5898,7 +5937,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Net.Http.HttpClient",
-          "declaringAssemblyName": "System.Net.Http"
+          "declaringAssemblyName": "System.Net.Http",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.HttpClient::PutAsync(System.Uri,System.Net.Http.HttpContent,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
@@ -5911,7 +5951,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Net.Http.HttpClient",
-          "declaringAssemblyName": "System.Net.Http"
+          "declaringAssemblyName": "System.Net.Http",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.HttpClient::PatchAsync(System.String,System.Net.Http.HttpContent):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
@@ -5924,7 +5965,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Net.Http.HttpClient",
-          "declaringAssemblyName": "System.Net.Http"
+          "declaringAssemblyName": "System.Net.Http",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.HttpClient::PatchAsync(System.Uri,System.Net.Http.HttpContent):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
@@ -5937,7 +5979,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Net.Http.HttpClient",
-          "declaringAssemblyName": "System.Net.Http"
+          "declaringAssemblyName": "System.Net.Http",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.HttpClient::PatchAsync(System.String,System.Net.Http.HttpContent,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
@@ -5950,7 +5993,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Net.Http.HttpClient",
-          "declaringAssemblyName": "System.Net.Http"
+          "declaringAssemblyName": "System.Net.Http",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.HttpClient::PatchAsync(System.Uri,System.Net.Http.HttpContent,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
@@ -5963,7 +6007,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Net.Http.HttpClient",
-          "declaringAssemblyName": "System.Net.Http"
+          "declaringAssemblyName": "System.Net.Http",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.HttpClient::DeleteAsync(System.String):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
@@ -5976,7 +6021,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Net.Http.HttpClient",
-          "declaringAssemblyName": "System.Net.Http"
+          "declaringAssemblyName": "System.Net.Http",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.HttpClient::DeleteAsync(System.Uri):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
@@ -5989,7 +6035,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Net.Http.HttpClient",
-          "declaringAssemblyName": "System.Net.Http"
+          "declaringAssemblyName": "System.Net.Http",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.HttpClient::DeleteAsync(System.String,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
@@ -6002,7 +6049,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Net.Http.HttpClient",
-          "declaringAssemblyName": "System.Net.Http"
+          "declaringAssemblyName": "System.Net.Http",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.HttpClient::DeleteAsync(System.Uri,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
@@ -6015,7 +6063,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Net.Http.HttpClient",
-          "declaringAssemblyName": "System.Net.Http"
+          "declaringAssemblyName": "System.Net.Http",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.HttpClient::Send(System.Net.Http.HttpRequestMessage):System.Net.Http.HttpResponseMessage",
@@ -6028,7 +6077,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Net.Http.HttpClient",
-          "declaringAssemblyName": "System.Net.Http"
+          "declaringAssemblyName": "System.Net.Http",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.HttpClient::Send(System.Net.Http.HttpRequestMessage,System.Net.Http.HttpCompletionOption):System.Net.Http.HttpResponseMessage",
@@ -6041,7 +6091,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Net.Http.HttpClient",
-          "declaringAssemblyName": "System.Net.Http"
+          "declaringAssemblyName": "System.Net.Http",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.HttpClient::Send(System.Net.Http.HttpRequestMessage,System.Threading.CancellationToken):System.Net.Http.HttpResponseMessage",
@@ -6054,7 +6105,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Net.Http.HttpClient",
-          "declaringAssemblyName": "System.Net.Http"
+          "declaringAssemblyName": "System.Net.Http",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.HttpClient::Send(System.Net.Http.HttpRequestMessage,System.Net.Http.HttpCompletionOption,System.Threading.CancellationToken):System.Net.Http.HttpResponseMessage",
@@ -6067,7 +6119,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Net.Http.HttpClient",
-          "declaringAssemblyName": "System.Net.Http"
+          "declaringAssemblyName": "System.Net.Http",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.HttpClient::SendAsync(System.Net.Http.HttpRequestMessage):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
@@ -6080,7 +6133,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Net.Http.HttpClient",
-          "declaringAssemblyName": "System.Net.Http"
+          "declaringAssemblyName": "System.Net.Http",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.HttpClient::SendAsync(System.Net.Http.HttpRequestMessage,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
@@ -6093,7 +6147,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Net.Http.HttpClient",
-          "declaringAssemblyName": "System.Net.Http"
+          "declaringAssemblyName": "System.Net.Http",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.HttpClient::SendAsync(System.Net.Http.HttpRequestMessage,System.Net.Http.HttpCompletionOption):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
@@ -6106,7 +6161,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Net.Http.HttpClient",
-          "declaringAssemblyName": "System.Net.Http"
+          "declaringAssemblyName": "System.Net.Http",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.HttpClient::SendAsync(System.Net.Http.HttpRequestMessage,System.Net.Http.HttpCompletionOption,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
@@ -6119,7 +6175,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Net.Http.HttpClient",
-          "declaringAssemblyName": "System.Net.Http"
+          "declaringAssemblyName": "System.Net.Http",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.HttpClient::CancelPendingRequests():System.Void",
@@ -6132,7 +6189,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Net.Http.HttpClient",
-          "declaringAssemblyName": "System.Net.Http"
+          "declaringAssemblyName": "System.Net.Http",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
@@ -6145,7 +6203,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.IDisposable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.HttpClient::Dispose():System.Void",
@@ -6158,7 +6217,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Net.Http.HttpClient",
-          "declaringAssemblyName": "System.Net.Http"
+          "declaringAssemblyName": "System.Net.Http",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.HttpClient::SendAsync(System.Net.Http.HttpRequestMessage,System.Threading.CancellationToken):System.Threading.Tasks.Task_1",
@@ -6171,7 +6231,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Net.Http.HttpClient",
-          "declaringAssemblyName": "System.Net.Http"
+          "declaringAssemblyName": "System.Net.Http",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -6970,7 +7031,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.IDisposable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.HttpClientHandler::Dispose():System.Void",
@@ -6983,7 +7045,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Net.Http.HttpClientHandler",
-          "declaringAssemblyName": "System.Net.Http"
+          "declaringAssemblyName": "System.Net.Http",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -7716,7 +7779,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Net.Http.HttpContent",
-          "declaringAssemblyName": "System.Net.Http"
+          "declaringAssemblyName": "System.Net.Http",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.HttpContent::ReadAsStringAsync(System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
@@ -7729,7 +7793,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Net.Http.HttpContent",
-          "declaringAssemblyName": "System.Net.Http"
+          "declaringAssemblyName": "System.Net.Http",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.HttpContent::ReadAsByteArrayAsync():System.Threading.Tasks.Task_1[[System.Byte[],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
@@ -7742,7 +7807,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Net.Http.HttpContent",
-          "declaringAssemblyName": "System.Net.Http"
+          "declaringAssemblyName": "System.Net.Http",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.HttpContent::ReadAsByteArrayAsync(System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Byte[],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
@@ -7755,7 +7821,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Net.Http.HttpContent",
-          "declaringAssemblyName": "System.Net.Http"
+          "declaringAssemblyName": "System.Net.Http",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.HttpContent::ReadAsStream():System.IO.Stream",
@@ -7768,7 +7835,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Net.Http.HttpContent",
-          "declaringAssemblyName": "System.Net.Http"
+          "declaringAssemblyName": "System.Net.Http",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.HttpContent::ReadAsStream(System.Threading.CancellationToken):System.IO.Stream",
@@ -7781,7 +7849,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Net.Http.HttpContent",
-          "declaringAssemblyName": "System.Net.Http"
+          "declaringAssemblyName": "System.Net.Http",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.HttpContent::ReadAsStreamAsync():System.Threading.Tasks.Task_1[[System.IO.Stream,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
@@ -7794,7 +7863,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Net.Http.HttpContent",
-          "declaringAssemblyName": "System.Net.Http"
+          "declaringAssemblyName": "System.Net.Http",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.HttpContent::ReadAsStreamAsync(System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.IO.Stream,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
@@ -7807,7 +7877,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Net.Http.HttpContent",
-          "declaringAssemblyName": "System.Net.Http"
+          "declaringAssemblyName": "System.Net.Http",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.HttpContent::CopyTo(System.IO.Stream,System.Net.TransportContext,System.Threading.CancellationToken):System.Void",
@@ -7820,7 +7891,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Net.Http.HttpContent",
-          "declaringAssemblyName": "System.Net.Http"
+          "declaringAssemblyName": "System.Net.Http",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.HttpContent::CopyToAsync(System.IO.Stream):System.Threading.Tasks.Task",
@@ -7833,7 +7905,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Net.Http.HttpContent",
-          "declaringAssemblyName": "System.Net.Http"
+          "declaringAssemblyName": "System.Net.Http",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.HttpContent::CopyToAsync(System.IO.Stream,System.Threading.CancellationToken):System.Threading.Tasks.Task",
@@ -7846,7 +7919,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Net.Http.HttpContent",
-          "declaringAssemblyName": "System.Net.Http"
+          "declaringAssemblyName": "System.Net.Http",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.HttpContent::CopyToAsync(System.IO.Stream,System.Net.TransportContext):System.Threading.Tasks.Task",
@@ -7859,7 +7933,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Net.Http.HttpContent",
-          "declaringAssemblyName": "System.Net.Http"
+          "declaringAssemblyName": "System.Net.Http",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.HttpContent::CopyToAsync(System.IO.Stream,System.Net.TransportContext,System.Threading.CancellationToken):System.Threading.Tasks.Task",
@@ -7872,7 +7947,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Net.Http.HttpContent",
-          "declaringAssemblyName": "System.Net.Http"
+          "declaringAssemblyName": "System.Net.Http",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.HttpContent::LoadIntoBufferAsync():System.Threading.Tasks.Task",
@@ -7885,7 +7961,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Net.Http.HttpContent",
-          "declaringAssemblyName": "System.Net.Http"
+          "declaringAssemblyName": "System.Net.Http",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.HttpContent::LoadIntoBufferAsync(System.Int64):System.Threading.Tasks.Task",
@@ -7898,7 +7975,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Net.Http.HttpContent",
-          "declaringAssemblyName": "System.Net.Http"
+          "declaringAssemblyName": "System.Net.Http",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.HttpContent::LoadIntoBufferAsync(System.Threading.CancellationToken):System.Threading.Tasks.Task",
@@ -7911,7 +7989,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Net.Http.HttpContent",
-          "declaringAssemblyName": "System.Net.Http"
+          "declaringAssemblyName": "System.Net.Http",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.HttpContent::LoadIntoBufferAsync(System.Int64,System.Threading.CancellationToken):System.Threading.Tasks.Task",
@@ -7924,7 +8003,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Net.Http.HttpContent",
-          "declaringAssemblyName": "System.Net.Http"
+          "declaringAssemblyName": "System.Net.Http",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.HttpContent::Dispose():System.Void",
@@ -7937,7 +8017,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Net.Http.HttpContent",
-          "declaringAssemblyName": "System.Net.Http"
+          "declaringAssemblyName": "System.Net.Http",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
@@ -7950,7 +8031,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.IDisposable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -8255,7 +8337,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.Serialization.ISerializable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.HttpIOException::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
@@ -8268,7 +8351,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Net.Http.HttpIOException",
-          "declaringAssemblyName": "System.Net.Http"
+          "declaringAssemblyName": "System.Net.Http",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -8529,7 +8613,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Net.Http.HttpMessageHandler",
-          "declaringAssemblyName": "System.Net.Http"
+          "declaringAssemblyName": "System.Net.Http",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
@@ -8542,7 +8627,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.IDisposable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -8650,7 +8736,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Net.Http.HttpMessageInvoker",
-          "declaringAssemblyName": "System.Net.Http"
+          "declaringAssemblyName": "System.Net.Http",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.HttpMessageInvoker::SendAsync(System.Net.Http.HttpRequestMessage,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
@@ -8663,7 +8750,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Net.Http.HttpMessageInvoker",
-          "declaringAssemblyName": "System.Net.Http"
+          "declaringAssemblyName": "System.Net.Http",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.HttpMessageInvoker::Dispose():System.Void",
@@ -8676,7 +8764,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Net.Http.HttpMessageInvoker",
-          "declaringAssemblyName": "System.Net.Http"
+          "declaringAssemblyName": "System.Net.Http",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
@@ -8689,7 +8778,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.IDisposable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -8858,7 +8948,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Net.Http.HttpMethod",
-          "declaringAssemblyName": "System.Net.Http"
+          "declaringAssemblyName": "System.Net.Http",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.HttpMethod::Equals(System.Object):System.Boolean",
@@ -8871,7 +8962,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Net.Http.HttpMethod",
-          "declaringAssemblyName": "System.Net.Http"
+          "declaringAssemblyName": "System.Net.Http",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.HttpMethod::GetHashCode():System.Int32",
@@ -8884,7 +8976,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Net.Http.HttpMethod",
-          "declaringAssemblyName": "System.Net.Http"
+          "declaringAssemblyName": "System.Net.Http",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.HttpMethod::ToString():System.String",
@@ -8897,7 +8990,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Net.Http.HttpMethod",
-          "declaringAssemblyName": "System.Net.Http"
+          "declaringAssemblyName": "System.Net.Http",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.HttpMethod::Parse(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Net.Http.HttpMethod",
@@ -8910,7 +9004,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Net.Http.HttpMethod",
-          "declaringAssemblyName": "System.Net.Http"
+          "declaringAssemblyName": "System.Net.Http",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.IEquatable\u00601::Equals(T):System.Boolean",
@@ -8923,7 +9018,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.IEquatable\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -9330,7 +9426,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.Serialization.ISerializable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.HttpProtocolException::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
@@ -9343,7 +9440,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Net.Http.HttpProtocolException",
-          "declaringAssemblyName": "System.Net.Http"
+          "declaringAssemblyName": "System.Net.Http",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -9600,7 +9698,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.Serialization.ISerializable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.HttpRequestException::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
@@ -9613,7 +9712,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Net.Http.HttpRequestException",
-          "declaringAssemblyName": "System.Net.Http"
+          "declaringAssemblyName": "System.Net.Http",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -9960,7 +10060,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Net.Http.HttpRequestMessage",
-          "declaringAssemblyName": "System.Net.Http"
+          "declaringAssemblyName": "System.Net.Http",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.HttpRequestMessage::Dispose():System.Void",
@@ -9973,7 +10074,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Net.Http.HttpRequestMessage",
-          "declaringAssemblyName": "System.Net.Http"
+          "declaringAssemblyName": "System.Net.Http",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
@@ -9986,7 +10088,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.IDisposable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -10349,7 +10452,8 @@
           "arity": 1,
           "parameterCount": 2,
           "declaringClrType": "System.Net.Http.HttpRequestOptions",
-          "declaringAssemblyName": "System.Net.Http"
+          "declaringAssemblyName": "System.Net.Http",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.HttpRequestOptions::Set(HttpRequestOptionsKey_1,TValue):System.Void",
@@ -10362,7 +10466,8 @@
           "arity": 1,
           "parameterCount": 2,
           "declaringClrType": "System.Net.Http.HttpRequestOptions",
-          "declaringAssemblyName": "System.Net.Http"
+          "declaringAssemblyName": "System.Net.Http",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IDictionary\u00602::ContainsKey(TKey):System.Boolean",
@@ -10375,7 +10480,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.Generic.IDictionary\u00602",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IDictionary\u00602::Add(TKey,TValue):System.Void",
@@ -10388,7 +10494,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Collections.Generic.IDictionary\u00602",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IDictionary\u00602::TryGetValue(TKey,TValue\u0026):System.Boolean",
@@ -10401,7 +10508,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Collections.Generic.IDictionary\u00602",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::Add(T):System.Void",
@@ -10414,7 +10522,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::Clear():System.Void",
@@ -10427,7 +10536,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::Contains(T):System.Boolean",
@@ -10440,7 +10550,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::CopyTo(T[],System.Int32):System.Void",
@@ -10453,7 +10564,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IEnumerable\u00601::GetEnumerator():IEnumerator_1",
@@ -10466,7 +10578,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.Generic.IEnumerable\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
@@ -10479,7 +10592,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.IEnumerable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IReadOnlyDictionary\u00602::ContainsKey(TKey):System.Boolean",
@@ -10492,7 +10606,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.Generic.IReadOnlyDictionary\u00602",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IReadOnlyDictionary\u00602::TryGetValue(TKey,TValue\u0026):System.Boolean",
@@ -10505,7 +10620,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Collections.Generic.IReadOnlyDictionary\u00602",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -10916,7 +11032,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Net.Http.HttpResponseMessage",
-          "declaringAssemblyName": "System.Net.Http"
+          "declaringAssemblyName": "System.Net.Http",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.HttpResponseMessage::ToString():System.String",
@@ -10929,7 +11046,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Net.Http.HttpResponseMessage",
-          "declaringAssemblyName": "System.Net.Http"
+          "declaringAssemblyName": "System.Net.Http",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.HttpResponseMessage::Dispose():System.Void",
@@ -10942,7 +11060,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Net.Http.HttpResponseMessage",
-          "declaringAssemblyName": "System.Net.Http"
+          "declaringAssemblyName": "System.Net.Http",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
@@ -10955,7 +11074,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.IDisposable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -11309,7 +11429,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.IDisposable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.MessageProcessingHandler::Dispose():System.Void",
@@ -11322,7 +11443,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Net.Http.MessageProcessingHandler",
-          "declaringAssemblyName": "System.Net.Http"
+          "declaringAssemblyName": "System.Net.Http",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -11442,7 +11564,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Net.Http.MultipartContent",
-          "declaringAssemblyName": "System.Net.Http"
+          "declaringAssemblyName": "System.Net.Http",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.MultipartContent::GetEnumerator():System.Collections.Generic.IEnumerator_1[[System.Net.Http.HttpContent,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
@@ -11455,7 +11578,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Net.Http.MultipartContent",
-          "declaringAssemblyName": "System.Net.Http"
+          "declaringAssemblyName": "System.Net.Http",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
@@ -11468,7 +11592,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.IDisposable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IEnumerable\u00601::GetEnumerator():IEnumerator_1",
@@ -11481,7 +11606,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.Generic.IEnumerable\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
@@ -11494,7 +11620,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.IEnumerable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.MultipartContent::Dispose():System.Void",
@@ -11507,7 +11634,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Net.Http.MultipartContent",
-          "declaringAssemblyName": "System.Net.Http"
+          "declaringAssemblyName": "System.Net.Http",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -11922,7 +12050,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Net.Http.MultipartFormDataContent",
-          "declaringAssemblyName": "System.Net.Http"
+          "declaringAssemblyName": "System.Net.Http",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.MultipartFormDataContent::Add(System.Net.Http.HttpContent,System.String):System.Void",
@@ -11935,7 +12064,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Net.Http.MultipartFormDataContent",
-          "declaringAssemblyName": "System.Net.Http"
+          "declaringAssemblyName": "System.Net.Http",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.MultipartFormDataContent::Add(System.Net.Http.HttpContent,System.String,System.String):System.Void",
@@ -11948,7 +12078,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Net.Http.MultipartFormDataContent",
-          "declaringAssemblyName": "System.Net.Http"
+          "declaringAssemblyName": "System.Net.Http",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
@@ -11961,7 +12092,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.IDisposable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IEnumerable\u00601::GetEnumerator():IEnumerator_1",
@@ -11974,7 +12106,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.Generic.IEnumerable\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
@@ -11987,7 +12120,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.IEnumerable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.MultipartFormDataContent::Dispose():System.Void",
@@ -12000,7 +12134,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Net.Http.MultipartFormDataContent",
-          "declaringAssemblyName": "System.Net.Http"
+          "declaringAssemblyName": "System.Net.Http",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.MultipartFormDataContent::GetEnumerator():System.Collections.Generic.IEnumerator_1",
@@ -12013,7 +12148,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Net.Http.MultipartFormDataContent",
-          "declaringAssemblyName": "System.Net.Http"
+          "declaringAssemblyName": "System.Net.Http",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.MultipartFormDataContent::GetEnumerator():System.Collections.IEnumerator",
@@ -12026,7 +12162,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Net.Http.MultipartFormDataContent",
-          "declaringAssemblyName": "System.Net.Http"
+          "declaringAssemblyName": "System.Net.Http",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -12447,7 +12584,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.IDisposable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.ReadOnlyMemoryContent::Dispose():System.Void",
@@ -12460,7 +12598,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Net.Http.ReadOnlyMemoryContent",
-          "declaringAssemblyName": "System.Net.Http"
+          "declaringAssemblyName": "System.Net.Http",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -12897,7 +13036,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.IDisposable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.SocketsHttpHandler::Dispose():System.Void",
@@ -12910,7 +13050,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Net.Http.SocketsHttpHandler",
-          "declaringAssemblyName": "System.Net.Http"
+          "declaringAssemblyName": "System.Net.Http",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -13984,7 +14125,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.IDisposable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.StreamContent::Dispose():System.Void",
@@ -13997,7 +14139,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Net.Http.StreamContent",
-          "declaringAssemblyName": "System.Net.Http"
+          "declaringAssemblyName": "System.Net.Http",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -14328,7 +14471,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.IDisposable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.StringContent::Dispose():System.Void",
@@ -14341,7 +14485,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Net.Http.StringContent",
-          "declaringAssemblyName": "System.Net.Http"
+          "declaringAssemblyName": "System.Net.Http",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
