@@ -5,6 +5,7 @@
   ],
   "types": [
     {
+      "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Swift.SwiftError",
       "clrName": "System.Runtime.InteropServices.Swift.SwiftError",
       "tsEmitName": "SwiftError",
       "kind": "Struct",
@@ -16,8 +17,9 @@
       "methods": [],
       "properties": [
         {
+          "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Swift.SwiftError::Value:System.Void*",
           "clrName": "Value",
-          "tsEmitName": "value",
+          "tsEmitName": "Value",
           "normalizedSignature": "Value|:System.Void*|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -41,6 +43,7 @@
       ]
     },
     {
+      "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Swift.SwiftIndirectResult",
       "clrName": "System.Runtime.InteropServices.Swift.SwiftIndirectResult",
       "tsEmitName": "SwiftIndirectResult",
       "kind": "Struct",
@@ -52,8 +55,9 @@
       "methods": [],
       "properties": [
         {
+          "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Swift.SwiftIndirectResult::Value:System.Void*",
           "clrName": "Value",
-          "tsEmitName": "value",
+          "tsEmitName": "Value",
           "normalizedSignature": "Value|:System.Void*|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -77,6 +81,7 @@
       ]
     },
     {
+      "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Swift.SwiftSelf",
       "clrName": "System.Runtime.InteropServices.Swift.SwiftSelf",
       "tsEmitName": "SwiftSelf",
       "kind": "Struct",
@@ -88,8 +93,9 @@
       "methods": [],
       "properties": [
         {
+          "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Swift.SwiftSelf::Value:System.Void*",
           "clrName": "Value",
-          "tsEmitName": "value",
+          "tsEmitName": "Value",
           "normalizedSignature": "Value|:System.Void*|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -113,6 +119,7 @@
       ]
     },
     {
+      "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Swift.SwiftSelf\u00601",
       "clrName": "System.Runtime.InteropServices.Swift.SwiftSelf\u00601",
       "tsEmitName": "SwiftSelf_1",
       "kind": "Struct",
@@ -124,8 +131,9 @@
       "methods": [],
       "properties": [
         {
+          "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Swift.SwiftSelf\u00601::Value:T",
           "clrName": "Value",
-          "tsEmitName": "value",
+          "tsEmitName": "Value",
           "normalizedSignature": "Value|:T|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",

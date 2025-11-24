@@ -2,6 +2,7 @@
   "namespace": "System.Net.Mime",
   "types": [
     {
+      "stableId": "System.Net.Mail:System.Net.Mime.TransferEncoding",
       "clrName": "System.Net.Mime.TransferEncoding",
       "tsEmitName": "TransferEncoding",
       "assemblyName": "System.Net.Mail",
@@ -10,6 +11,7 @@
       "properties": [],
       "fields": [
         {
+          "stableId": "System.Net.Mail:System.Net.Mime.TransferEncoding::value__System.Int32",
           "clrName": "value__",
           "tsEmitName": "value__",
           "metadataToken": 67109363,
@@ -20,8 +22,9 @@
           "declaringAssemblyName": "System.Net.Mail"
         },
         {
+          "stableId": "System.Net.Mail:System.Net.Mime.TransferEncoding::UnknownSystem.Net.Mime.TransferEncoding",
           "clrName": "Unknown",
-          "tsEmitName": "unknown_",
+          "tsEmitName": "Unknown",
           "metadataToken": 67109364,
           "normalizedSignature": "Unknown|System.Net.Mime.TransferEncoding|static=true|const=true",
           "isStatic": true,
@@ -30,8 +33,9 @@
           "declaringAssemblyName": "System.Net.Mail"
         },
         {
+          "stableId": "System.Net.Mail:System.Net.Mime.TransferEncoding::QuotedPrintableSystem.Net.Mime.TransferEncoding",
           "clrName": "QuotedPrintable",
-          "tsEmitName": "quotedPrintable",
+          "tsEmitName": "QuotedPrintable",
           "metadataToken": 67109365,
           "normalizedSignature": "QuotedPrintable|System.Net.Mime.TransferEncoding|static=true|const=true",
           "isStatic": true,
@@ -40,8 +44,9 @@
           "declaringAssemblyName": "System.Net.Mail"
         },
         {
+          "stableId": "System.Net.Mail:System.Net.Mime.TransferEncoding::Base64System.Net.Mime.TransferEncoding",
           "clrName": "Base64",
-          "tsEmitName": "base64",
+          "tsEmitName": "Base64",
           "metadataToken": 67109366,
           "normalizedSignature": "Base64|System.Net.Mime.TransferEncoding|static=true|const=true",
           "isStatic": true,
@@ -50,8 +55,9 @@
           "declaringAssemblyName": "System.Net.Mail"
         },
         {
+          "stableId": "System.Net.Mail:System.Net.Mime.TransferEncoding::SevenBitSystem.Net.Mime.TransferEncoding",
           "clrName": "SevenBit",
-          "tsEmitName": "sevenBit",
+          "tsEmitName": "SevenBit",
           "metadataToken": 67109367,
           "normalizedSignature": "SevenBit|System.Net.Mime.TransferEncoding|static=true|const=true",
           "isStatic": true,
@@ -60,8 +66,9 @@
           "declaringAssemblyName": "System.Net.Mail"
         },
         {
+          "stableId": "System.Net.Mail:System.Net.Mime.TransferEncoding::EightBitSystem.Net.Mime.TransferEncoding",
           "clrName": "EightBit",
-          "tsEmitName": "eightBit",
+          "tsEmitName": "EightBit",
           "metadataToken": 67109368,
           "normalizedSignature": "EightBit|System.Net.Mime.TransferEncoding|static=true|const=true",
           "isStatic": true,
@@ -74,7 +81,7 @@
       "constructors": [],
       "exposedMethods": [
         {
-          "tsName": "getName",
+          "tsName": "GetName",
           "isStatic": true,
           "tsSignatureId": "GetName|(TEnum):System.String|static=true",
           "target": {
@@ -84,7 +91,7 @@
           }
         },
         {
-          "tsName": "getName2",
+          "tsName": "GetName2",
           "isStatic": true,
           "tsSignatureId": "GetName|(System.Type,System.Object):System.String|static=true",
           "target": {
@@ -94,7 +101,7 @@
           }
         },
         {
-          "tsName": "getNames",
+          "tsName": "GetNames",
           "isStatic": true,
           "tsSignatureId": "GetNames|():System.String[]|static=true",
           "target": {
@@ -104,7 +111,7 @@
           }
         },
         {
-          "tsName": "getNames2",
+          "tsName": "GetNames2",
           "isStatic": true,
           "tsSignatureId": "GetNames|(System.Type):System.String[]|static=true",
           "target": {
@@ -114,7 +121,7 @@
           }
         },
         {
-          "tsName": "getUnderlyingType",
+          "tsName": "GetUnderlyingType",
           "isStatic": true,
           "tsSignatureId": "GetUnderlyingType|(System.Type):System.Type|static=true",
           "target": {
@@ -124,7 +131,7 @@
           }
         },
         {
-          "tsName": "getValues",
+          "tsName": "GetValues",
           "isStatic": true,
           "tsSignatureId": "GetValues|():TEnum[]|static=true",
           "target": {
@@ -134,7 +141,7 @@
           }
         },
         {
-          "tsName": "getValues2",
+          "tsName": "GetValues2",
           "isStatic": true,
           "tsSignatureId": "GetValues|(System.Type):System.Array|static=true",
           "target": {
@@ -144,7 +151,7 @@
           }
         },
         {
-          "tsName": "getValuesAsUnderlyingType",
+          "tsName": "GetValuesAsUnderlyingType",
           "isStatic": true,
           "tsSignatureId": "GetValuesAsUnderlyingType|():System.Array|static=true",
           "target": {
@@ -154,7 +161,7 @@
           }
         },
         {
-          "tsName": "getValuesAsUnderlyingType2",
+          "tsName": "GetValuesAsUnderlyingType2",
           "isStatic": true,
           "tsSignatureId": "GetValuesAsUnderlyingType|(System.Type):System.Array|static=true",
           "target": {
@@ -164,7 +171,7 @@
           }
         },
         {
-          "tsName": "hasFlag",
+          "tsName": "HasFlag",
           "isStatic": false,
           "tsSignatureId": "HasFlag|(System.Enum):System.Boolean|static=false",
           "target": {
@@ -174,7 +181,7 @@
           }
         },
         {
-          "tsName": "isDefined",
+          "tsName": "IsDefined",
           "isStatic": true,
           "tsSignatureId": "IsDefined|(TEnum):System.Boolean|static=true",
           "target": {
@@ -184,7 +191,7 @@
           }
         },
         {
-          "tsName": "isDefined2",
+          "tsName": "IsDefined2",
           "isStatic": true,
           "tsSignatureId": "IsDefined|(System.Type,System.Object):System.Boolean|static=true",
           "target": {
@@ -194,7 +201,7 @@
           }
         },
         {
-          "tsName": "parse",
+          "tsName": "Parse",
           "isStatic": true,
           "tsSignatureId": "Parse|(System.Type,System.String):System.Object|static=true",
           "target": {
@@ -204,7 +211,7 @@
           }
         },
         {
-          "tsName": "parse2",
+          "tsName": "Parse2",
           "isStatic": true,
           "tsSignatureId": "Parse|(System.Type,System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Object|static=true",
           "target": {
@@ -214,7 +221,7 @@
           }
         },
         {
-          "tsName": "parse3",
+          "tsName": "Parse3",
           "isStatic": true,
           "tsSignatureId": "Parse|(System.Type,System.String,System.Boolean):System.Object|static=true",
           "target": {
@@ -224,7 +231,7 @@
           }
         },
         {
-          "tsName": "parse4",
+          "tsName": "Parse4",
           "isStatic": true,
           "tsSignatureId": "Parse|(System.Type,System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Boolean):System.Object|static=true",
           "target": {
@@ -234,7 +241,7 @@
           }
         },
         {
-          "tsName": "parse5",
+          "tsName": "Parse5",
           "isStatic": true,
           "tsSignatureId": "Parse|(System.String):TEnum|static=true",
           "target": {
@@ -244,7 +251,7 @@
           }
         },
         {
-          "tsName": "parse6",
+          "tsName": "Parse6",
           "isStatic": true,
           "tsSignatureId": "Parse|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):TEnum|static=true",
           "target": {
@@ -254,7 +261,7 @@
           }
         },
         {
-          "tsName": "parse7",
+          "tsName": "Parse7",
           "isStatic": true,
           "tsSignatureId": "Parse|(System.String,System.Boolean):TEnum|static=true",
           "target": {
@@ -264,7 +271,7 @@
           }
         },
         {
-          "tsName": "parse8",
+          "tsName": "Parse8",
           "isStatic": true,
           "tsSignatureId": "Parse|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Boolean):TEnum|static=true",
           "target": {
@@ -274,7 +281,7 @@
           }
         },
         {
-          "tsName": "tryParse",
+          "tsName": "TryParse",
           "isStatic": true,
           "tsSignatureId": "TryParse|(System.Type,System.String,System.Object\u0026):System.Boolean|static=true",
           "target": {
@@ -284,7 +291,7 @@
           }
         },
         {
-          "tsName": "tryParse2",
+          "tsName": "TryParse2",
           "isStatic": true,
           "tsSignatureId": "TryParse|(System.Type,System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Object\u0026):System.Boolean|static=true",
           "target": {
@@ -294,7 +301,7 @@
           }
         },
         {
-          "tsName": "tryParse3",
+          "tsName": "TryParse3",
           "isStatic": true,
           "tsSignatureId": "TryParse|(System.Type,System.String,System.Boolean,System.Object\u0026):System.Boolean|static=true",
           "target": {
@@ -304,7 +311,7 @@
           }
         },
         {
-          "tsName": "tryParse4",
+          "tsName": "TryParse4",
           "isStatic": true,
           "tsSignatureId": "TryParse|(System.Type,System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Boolean,System.Object\u0026):System.Boolean|static=true",
           "target": {
@@ -314,7 +321,7 @@
           }
         },
         {
-          "tsName": "tryParse5",
+          "tsName": "TryParse5",
           "isStatic": true,
           "tsSignatureId": "TryParse|(System.String,TEnum\u0026):System.Boolean|static=true",
           "target": {
@@ -324,7 +331,7 @@
           }
         },
         {
-          "tsName": "tryParse6",
+          "tsName": "TryParse6",
           "isStatic": true,
           "tsSignatureId": "TryParse|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],TEnum\u0026):System.Boolean|static=true",
           "target": {
@@ -334,7 +341,7 @@
           }
         },
         {
-          "tsName": "tryParse7",
+          "tsName": "TryParse7",
           "isStatic": true,
           "tsSignatureId": "TryParse|(System.String,System.Boolean,TEnum\u0026):System.Boolean|static=true",
           "target": {
@@ -344,7 +351,7 @@
           }
         },
         {
-          "tsName": "tryParse8",
+          "tsName": "TryParse8",
           "isStatic": true,
           "tsSignatureId": "TryParse|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Boolean,TEnum\u0026):System.Boolean|static=true",
           "target": {
@@ -354,7 +361,7 @@
           }
         },
         {
-          "tsName": "equals",
+          "tsName": "Equals",
           "isStatic": false,
           "tsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
           "target": {
@@ -364,7 +371,7 @@
           }
         },
         {
-          "tsName": "getHashCode",
+          "tsName": "GetHashCode",
           "isStatic": false,
           "tsSignatureId": "GetHashCode|():System.Int32|static=false",
           "target": {
@@ -374,7 +381,7 @@
           }
         },
         {
-          "tsName": "compareTo",
+          "tsName": "CompareTo",
           "isStatic": false,
           "tsSignatureId": "CompareTo|(System.Object):System.Int32|static=false",
           "target": {
@@ -384,7 +391,7 @@
           }
         },
         {
-          "tsName": "toString",
+          "tsName": "ToString",
           "isStatic": false,
           "tsSignatureId": "ToString|():System.String|static=false",
           "target": {
@@ -394,7 +401,7 @@
           }
         },
         {
-          "tsName": "toString2",
+          "tsName": "ToString2",
           "isStatic": false,
           "tsSignatureId": "ToString|(System.String):System.String|static=false",
           "target": {
@@ -404,7 +411,7 @@
           }
         },
         {
-          "tsName": "toString3",
+          "tsName": "ToString3",
           "isStatic": false,
           "tsSignatureId": "ToString|(System.IFormatProvider):System.String|static=false",
           "target": {
@@ -414,7 +421,7 @@
           }
         },
         {
-          "tsName": "toString4",
+          "tsName": "ToString4",
           "isStatic": false,
           "tsSignatureId": "ToString|(System.String,System.IFormatProvider):System.String|static=false",
           "target": {
@@ -424,7 +431,7 @@
           }
         },
         {
-          "tsName": "format",
+          "tsName": "Format",
           "isStatic": true,
           "tsSignatureId": "Format|(System.Type,System.Object,System.String):System.String|static=true",
           "target": {
@@ -434,7 +441,7 @@
           }
         },
         {
-          "tsName": "tryFormat",
+          "tsName": "TryFormat",
           "isStatic": true,
           "tsSignatureId": "TryFormat|(TEnum,System.Span_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32\u0026,System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Boolean|static=true",
           "target": {
@@ -444,7 +451,7 @@
           }
         },
         {
-          "tsName": "getTypeCode",
+          "tsName": "GetTypeCode",
           "isStatic": false,
           "tsSignatureId": "GetTypeCode|():System.TypeCode|static=false",
           "target": {
@@ -454,7 +461,7 @@
           }
         },
         {
-          "tsName": "toObject",
+          "tsName": "ToObject",
           "isStatic": true,
           "tsSignatureId": "ToObject|(System.Type,System.Object):System.Object|static=true",
           "target": {
@@ -464,7 +471,7 @@
           }
         },
         {
-          "tsName": "toObject2",
+          "tsName": "ToObject2",
           "isStatic": true,
           "tsSignatureId": "ToObject|(System.Type,System.SByte):System.Object|static=true",
           "target": {
@@ -474,7 +481,7 @@
           }
         },
         {
-          "tsName": "toObject3",
+          "tsName": "ToObject3",
           "isStatic": true,
           "tsSignatureId": "ToObject|(System.Type,System.Int16):System.Object|static=true",
           "target": {
@@ -484,7 +491,7 @@
           }
         },
         {
-          "tsName": "toObject4",
+          "tsName": "ToObject4",
           "isStatic": true,
           "tsSignatureId": "ToObject|(System.Type,System.Int32):System.Object|static=true",
           "target": {
@@ -494,7 +501,7 @@
           }
         },
         {
-          "tsName": "toObject5",
+          "tsName": "ToObject5",
           "isStatic": true,
           "tsSignatureId": "ToObject|(System.Type,System.Byte):System.Object|static=true",
           "target": {
@@ -504,7 +511,7 @@
           }
         },
         {
-          "tsName": "toObject6",
+          "tsName": "ToObject6",
           "isStatic": true,
           "tsSignatureId": "ToObject|(System.Type,System.UInt16):System.Object|static=true",
           "target": {
@@ -514,7 +521,7 @@
           }
         },
         {
-          "tsName": "toObject7",
+          "tsName": "ToObject7",
           "isStatic": true,
           "tsSignatureId": "ToObject|(System.Type,System.UInt32):System.Object|static=true",
           "target": {
@@ -524,7 +531,7 @@
           }
         },
         {
-          "tsName": "toObject8",
+          "tsName": "ToObject8",
           "isStatic": true,
           "tsSignatureId": "ToObject|(System.Type,System.Int64):System.Object|static=true",
           "target": {
@@ -534,7 +541,7 @@
           }
         },
         {
-          "tsName": "toObject9",
+          "tsName": "ToObject9",
           "isStatic": true,
           "tsSignatureId": "ToObject|(System.Type,System.UInt64):System.Object|static=true",
           "target": {
@@ -544,7 +551,7 @@
           }
         },
         {
-          "tsName": "tryFormat$view",
+          "tsName": "TryFormat$view",
           "isStatic": false,
           "tsSignatureId": "TryFormat|(System.Span_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32\u0026,System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.IFormatProvider):System.Boolean|static=false",
           "target": {
@@ -554,7 +561,7 @@
           }
         },
         {
-          "tsName": "toBoolean",
+          "tsName": "ToBoolean",
           "isStatic": false,
           "tsSignatureId": "ToBoolean|(System.IFormatProvider):System.Boolean|static=false",
           "target": {
@@ -564,7 +571,7 @@
           }
         },
         {
-          "tsName": "toChar",
+          "tsName": "ToChar",
           "isStatic": false,
           "tsSignatureId": "ToChar|(System.IFormatProvider):System.Char|static=false",
           "target": {
@@ -574,7 +581,7 @@
           }
         },
         {
-          "tsName": "toSByte",
+          "tsName": "ToSByte",
           "isStatic": false,
           "tsSignatureId": "ToSByte|(System.IFormatProvider):System.SByte|static=false",
           "target": {
@@ -584,7 +591,7 @@
           }
         },
         {
-          "tsName": "toByte",
+          "tsName": "ToByte",
           "isStatic": false,
           "tsSignatureId": "ToByte|(System.IFormatProvider):System.Byte|static=false",
           "target": {
@@ -594,7 +601,7 @@
           }
         },
         {
-          "tsName": "toInt16",
+          "tsName": "ToInt16",
           "isStatic": false,
           "tsSignatureId": "ToInt16|(System.IFormatProvider):System.Int16|static=false",
           "target": {
@@ -604,7 +611,7 @@
           }
         },
         {
-          "tsName": "toUInt16",
+          "tsName": "ToUInt16",
           "isStatic": false,
           "tsSignatureId": "ToUInt16|(System.IFormatProvider):System.UInt16|static=false",
           "target": {
@@ -614,7 +621,7 @@
           }
         },
         {
-          "tsName": "toInt32",
+          "tsName": "ToInt32",
           "isStatic": false,
           "tsSignatureId": "ToInt32|(System.IFormatProvider):System.Int32|static=false",
           "target": {
@@ -624,7 +631,7 @@
           }
         },
         {
-          "tsName": "toUInt32",
+          "tsName": "ToUInt32",
           "isStatic": false,
           "tsSignatureId": "ToUInt32|(System.IFormatProvider):System.UInt32|static=false",
           "target": {
@@ -634,7 +641,7 @@
           }
         },
         {
-          "tsName": "toInt64",
+          "tsName": "ToInt64",
           "isStatic": false,
           "tsSignatureId": "ToInt64|(System.IFormatProvider):System.Int64|static=false",
           "target": {
@@ -644,7 +651,7 @@
           }
         },
         {
-          "tsName": "toUInt64",
+          "tsName": "ToUInt64",
           "isStatic": false,
           "tsSignatureId": "ToUInt64|(System.IFormatProvider):System.UInt64|static=false",
           "target": {
@@ -654,7 +661,7 @@
           }
         },
         {
-          "tsName": "toSingle",
+          "tsName": "ToSingle",
           "isStatic": false,
           "tsSignatureId": "ToSingle|(System.IFormatProvider):System.Single|static=false",
           "target": {
@@ -664,7 +671,7 @@
           }
         },
         {
-          "tsName": "toDouble",
+          "tsName": "ToDouble",
           "isStatic": false,
           "tsSignatureId": "ToDouble|(System.IFormatProvider):System.Double|static=false",
           "target": {
@@ -674,7 +681,7 @@
           }
         },
         {
-          "tsName": "toDecimal",
+          "tsName": "ToDecimal",
           "isStatic": false,
           "tsSignatureId": "ToDecimal|(System.IFormatProvider):System.Decimal|static=false",
           "target": {
@@ -684,7 +691,7 @@
           }
         },
         {
-          "tsName": "toDateTime",
+          "tsName": "ToDateTime",
           "isStatic": false,
           "tsSignatureId": "ToDateTime|(System.IFormatProvider):System.DateTime|static=false",
           "target": {
@@ -694,7 +701,7 @@
           }
         },
         {
-          "tsName": "toType",
+          "tsName": "ToType",
           "isStatic": false,
           "tsSignatureId": "ToType|(System.Type,System.IFormatProvider):System.Object|static=false",
           "target": {
@@ -704,7 +711,7 @@
           }
         },
         {
-          "tsName": "compareTo$view",
+          "tsName": "CompareTo$view",
           "isStatic": false,
           "tsSignatureId": "CompareTo|(System.Object):System.Int32|static=false",
           "target": {
@@ -714,7 +721,7 @@
           }
         },
         {
-          "tsName": "toString$view",
+          "tsName": "ToString$view",
           "isStatic": false,
           "tsSignatureId": "ToString|(System.String,System.IFormatProvider):System.String|static=false",
           "target": {
@@ -724,7 +731,7 @@
           }
         },
         {
-          "tsName": "getTypeCode$view",
+          "tsName": "GetTypeCode$view",
           "isStatic": false,
           "tsSignatureId": "GetTypeCode|():System.TypeCode|static=false",
           "target": {
@@ -734,7 +741,7 @@
           }
         },
         {
-          "tsName": "toString$view",
+          "tsName": "ToString$view",
           "isStatic": false,
           "tsSignatureId": "ToString|(System.IFormatProvider):System.String|static=false",
           "target": {
@@ -744,7 +751,7 @@
           }
         },
         {
-          "tsName": "getType",
+          "tsName": "GetType",
           "isStatic": false,
           "tsSignatureId": "GetType|():System.Type|static=false",
           "target": {
@@ -754,7 +761,7 @@
           }
         },
         {
-          "tsName": "equals",
+          "tsName": "Equals",
           "isStatic": true,
           "tsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
           "target": {
@@ -764,7 +771,7 @@
           }
         },
         {
-          "tsName": "referenceEquals",
+          "tsName": "ReferenceEquals",
           "isStatic": true,
           "tsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
           "target": {
@@ -786,7 +793,7 @@
           }
         },
         {
-          "tsName": "unknown_",
+          "tsName": "Unknown",
           "isStatic": true,
           "tsSignatureId": "Unknown|System.Net.Mime.TransferEncoding|static=true|const=true",
           "target": {
@@ -796,7 +803,7 @@
           }
         },
         {
-          "tsName": "quotedPrintable",
+          "tsName": "QuotedPrintable",
           "isStatic": true,
           "tsSignatureId": "QuotedPrintable|System.Net.Mime.TransferEncoding|static=true|const=true",
           "target": {
@@ -806,7 +813,7 @@
           }
         },
         {
-          "tsName": "base64",
+          "tsName": "Base64",
           "isStatic": true,
           "tsSignatureId": "Base64|System.Net.Mime.TransferEncoding|static=true|const=true",
           "target": {
@@ -816,7 +823,7 @@
           }
         },
         {
-          "tsName": "sevenBit",
+          "tsName": "SevenBit",
           "isStatic": true,
           "tsSignatureId": "SevenBit|System.Net.Mime.TransferEncoding|static=true|const=true",
           "target": {
@@ -826,7 +833,7 @@
           }
         },
         {
-          "tsName": "eightBit",
+          "tsName": "EightBit",
           "isStatic": true,
           "tsSignatureId": "EightBit|System.Net.Mime.TransferEncoding|static=true|const=true",
           "target": {
@@ -838,14 +845,16 @@
       ]
     },
     {
+      "stableId": "System.Net.Mail:System.Net.Mime.ContentDisposition",
       "clrName": "System.Net.Mime.ContentDisposition",
       "tsEmitName": "ContentDisposition",
       "assemblyName": "System.Net.Mail",
       "metadataToken": 0,
       "methods": [
         {
+          "stableId": "System.Net.Mail:System.Net.Mime.ContentDisposition::ToString():System.String",
           "clrName": "ToString",
-          "tsEmitName": "toString",
+          "tsEmitName": "ToString",
           "metadataToken": 100664147,
           "canonicalSignature": "():System.String",
           "normalizedSignature": "ToString|():System.String|static=false",
@@ -856,8 +865,9 @@
           "declaringAssemblyName": "System.Net.Mail"
         },
         {
+          "stableId": "System.Net.Mail:System.Net.Mime.ContentDisposition::Equals(System.Object):System.Boolean",
           "clrName": "Equals",
-          "tsEmitName": "equals",
+          "tsEmitName": "Equals",
           "metadataToken": 100664150,
           "canonicalSignature": "(System.Object):System.Boolean",
           "normalizedSignature": "Equals|(System.Object):System.Boolean|static=false",
@@ -868,8 +878,9 @@
           "declaringAssemblyName": "System.Net.Mail"
         },
         {
+          "stableId": "System.Net.Mail:System.Net.Mime.ContentDisposition::GetHashCode():System.Int32",
           "clrName": "GetHashCode",
-          "tsEmitName": "getHashCode",
+          "tsEmitName": "GetHashCode",
           "metadataToken": 100664151,
           "canonicalSignature": "():System.Int32",
           "normalizedSignature": "GetHashCode|():System.Int32|static=false",
@@ -882,8 +893,9 @@
       ],
       "properties": [
         {
+          "stableId": "System.Net.Mail:System.Net.Mime.ContentDisposition::DispositionType:System.String",
           "clrName": "DispositionType",
-          "tsEmitName": "dispositionType",
+          "tsEmitName": "DispositionType",
           "metadataToken": 385876191,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "DispositionType|:System.String|static=false|accessor=getset",
@@ -895,8 +907,9 @@
           "declaringAssemblyName": "System.Net.Mail"
         },
         {
+          "stableId": "System.Net.Mail:System.Net.Mime.ContentDisposition::Parameters:System.Collections.Specialized.StringDictionary",
           "clrName": "Parameters",
-          "tsEmitName": "parameters",
+          "tsEmitName": "Parameters",
           "metadataToken": 385876192,
           "canonicalSignature": ":System.Collections.Specialized.StringDictionary",
           "normalizedSignature": "Parameters|:System.Collections.Specialized.StringDictionary|static=false|accessor=get",
@@ -908,8 +921,9 @@
           "declaringAssemblyName": "System.Net.Mail"
         },
         {
+          "stableId": "System.Net.Mail:System.Net.Mime.ContentDisposition::FileName:System.String",
           "clrName": "FileName",
-          "tsEmitName": "fileName",
+          "tsEmitName": "FileName",
           "metadataToken": 385876193,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "FileName|:System.String|static=false|accessor=getset",
@@ -921,8 +935,9 @@
           "declaringAssemblyName": "System.Net.Mail"
         },
         {
+          "stableId": "System.Net.Mail:System.Net.Mime.ContentDisposition::CreationDate:System.DateTime",
           "clrName": "CreationDate",
-          "tsEmitName": "creationDate",
+          "tsEmitName": "CreationDate",
           "metadataToken": 385876194,
           "canonicalSignature": ":System.DateTime",
           "normalizedSignature": "CreationDate|:System.DateTime|static=false|accessor=getset",
@@ -934,8 +949,9 @@
           "declaringAssemblyName": "System.Net.Mail"
         },
         {
+          "stableId": "System.Net.Mail:System.Net.Mime.ContentDisposition::ModificationDate:System.DateTime",
           "clrName": "ModificationDate",
-          "tsEmitName": "modificationDate",
+          "tsEmitName": "ModificationDate",
           "metadataToken": 385876195,
           "canonicalSignature": ":System.DateTime",
           "normalizedSignature": "ModificationDate|:System.DateTime|static=false|accessor=getset",
@@ -947,8 +963,9 @@
           "declaringAssemblyName": "System.Net.Mail"
         },
         {
+          "stableId": "System.Net.Mail:System.Net.Mime.ContentDisposition::Inline:System.Boolean",
           "clrName": "Inline",
-          "tsEmitName": "inline",
+          "tsEmitName": "Inline",
           "metadataToken": 385876196,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "Inline|:System.Boolean|static=false|accessor=getset",
@@ -960,8 +977,9 @@
           "declaringAssemblyName": "System.Net.Mail"
         },
         {
+          "stableId": "System.Net.Mail:System.Net.Mime.ContentDisposition::ReadDate:System.DateTime",
           "clrName": "ReadDate",
-          "tsEmitName": "readDate",
+          "tsEmitName": "ReadDate",
           "metadataToken": 385876197,
           "canonicalSignature": ":System.DateTime",
           "normalizedSignature": "ReadDate|:System.DateTime|static=false|accessor=getset",
@@ -973,8 +991,9 @@
           "declaringAssemblyName": "System.Net.Mail"
         },
         {
+          "stableId": "System.Net.Mail:System.Net.Mime.ContentDisposition::Size:System.Int64",
           "clrName": "Size",
-          "tsEmitName": "size",
+          "tsEmitName": "Size",
           "metadataToken": 385876198,
           "canonicalSignature": ":System.Int64",
           "normalizedSignature": "Size|:System.Int64|static=false|accessor=getset",
@@ -990,6 +1009,7 @@
       "events": [],
       "constructors": [
         {
+          "stableId": "System.Net.Mail:System.Net.Mime.ContentDisposition::.ctor():void",
           "metadataToken": 100664127,
           "canonicalSignature": "():void",
           "normalizedSignature": "constructor|():void|static=false",
@@ -999,6 +1019,7 @@
           "declaringAssemblyName": "System.Net.Mail"
         },
         {
+          "stableId": "System.Net.Mail:System.Net.Mime.ContentDisposition::.ctor(System.String):void",
           "metadataToken": 100664128,
           "canonicalSignature": "(System.String):void",
           "normalizedSignature": "constructor|(System.String):void|static=false",
@@ -1010,7 +1031,7 @@
       ],
       "exposedMethods": [
         {
-          "tsName": "toString",
+          "tsName": "ToString",
           "isStatic": false,
           "tsSignatureId": "ToString|():System.String|static=false",
           "target": {
@@ -1020,7 +1041,7 @@
           }
         },
         {
-          "tsName": "equals",
+          "tsName": "Equals",
           "isStatic": false,
           "tsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
           "target": {
@@ -1030,7 +1051,7 @@
           }
         },
         {
-          "tsName": "getHashCode",
+          "tsName": "GetHashCode",
           "isStatic": false,
           "tsSignatureId": "GetHashCode|():System.Int32|static=false",
           "target": {
@@ -1040,7 +1061,7 @@
           }
         },
         {
-          "tsName": "getType",
+          "tsName": "GetType",
           "isStatic": false,
           "tsSignatureId": "GetType|():System.Type|static=false",
           "target": {
@@ -1050,7 +1071,7 @@
           }
         },
         {
-          "tsName": "equals",
+          "tsName": "Equals",
           "isStatic": true,
           "tsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
           "target": {
@@ -1060,7 +1081,7 @@
           }
         },
         {
-          "tsName": "referenceEquals",
+          "tsName": "ReferenceEquals",
           "isStatic": true,
           "tsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
           "target": {
@@ -1072,7 +1093,7 @@
       ],
       "exposedProperties": [
         {
-          "tsName": "dispositionType",
+          "tsName": "DispositionType",
           "isStatic": false,
           "tsSignatureId": "DispositionType|:System.String|static=false|accessor=getset",
           "target": {
@@ -1082,7 +1103,7 @@
           }
         },
         {
-          "tsName": "parameters",
+          "tsName": "Parameters",
           "isStatic": false,
           "tsSignatureId": "Parameters|:System.Collections.Specialized.StringDictionary|static=false|accessor=get",
           "target": {
@@ -1092,7 +1113,7 @@
           }
         },
         {
-          "tsName": "fileName",
+          "tsName": "FileName",
           "isStatic": false,
           "tsSignatureId": "FileName|:System.String|static=false|accessor=getset",
           "target": {
@@ -1102,7 +1123,7 @@
           }
         },
         {
-          "tsName": "creationDate",
+          "tsName": "CreationDate",
           "isStatic": false,
           "tsSignatureId": "CreationDate|:System.DateTime|static=false|accessor=getset",
           "target": {
@@ -1112,7 +1133,7 @@
           }
         },
         {
-          "tsName": "modificationDate",
+          "tsName": "ModificationDate",
           "isStatic": false,
           "tsSignatureId": "ModificationDate|:System.DateTime|static=false|accessor=getset",
           "target": {
@@ -1122,7 +1143,7 @@
           }
         },
         {
-          "tsName": "inline",
+          "tsName": "Inline",
           "isStatic": false,
           "tsSignatureId": "Inline|:System.Boolean|static=false|accessor=getset",
           "target": {
@@ -1132,7 +1153,7 @@
           }
         },
         {
-          "tsName": "readDate",
+          "tsName": "ReadDate",
           "isStatic": false,
           "tsSignatureId": "ReadDate|:System.DateTime|static=false|accessor=getset",
           "target": {
@@ -1142,7 +1163,7 @@
           }
         },
         {
-          "tsName": "size",
+          "tsName": "Size",
           "isStatic": false,
           "tsSignatureId": "Size|:System.Int64|static=false|accessor=getset",
           "target": {
@@ -1174,14 +1195,16 @@
       ]
     },
     {
+      "stableId": "System.Net.Mail:System.Net.Mime.ContentType",
       "clrName": "System.Net.Mime.ContentType",
       "tsEmitName": "ContentType",
       "assemblyName": "System.Net.Mail",
       "metadataToken": 0,
       "methods": [
         {
+          "stableId": "System.Net.Mail:System.Net.Mime.ContentType::ToString():System.String",
           "clrName": "ToString",
-          "tsEmitName": "toString",
+          "tsEmitName": "ToString",
           "metadataToken": 100664171,
           "canonicalSignature": "():System.String",
           "normalizedSignature": "ToString|():System.String|static=false",
@@ -1192,8 +1215,9 @@
           "declaringAssemblyName": "System.Net.Mail"
         },
         {
+          "stableId": "System.Net.Mail:System.Net.Mime.ContentType::Equals(System.Object):System.Boolean",
           "clrName": "Equals",
-          "tsEmitName": "equals",
+          "tsEmitName": "Equals",
           "metadataToken": 100664174,
           "canonicalSignature": "(System.Object):System.Boolean",
           "normalizedSignature": "Equals|(System.Object):System.Boolean|static=false",
@@ -1204,8 +1228,9 @@
           "declaringAssemblyName": "System.Net.Mail"
         },
         {
+          "stableId": "System.Net.Mail:System.Net.Mime.ContentType::GetHashCode():System.Int32",
           "clrName": "GetHashCode",
-          "tsEmitName": "getHashCode",
+          "tsEmitName": "GetHashCode",
           "metadataToken": 100664175,
           "canonicalSignature": "():System.Int32",
           "normalizedSignature": "GetHashCode|():System.Int32|static=false",
@@ -1218,8 +1243,9 @@
       ],
       "properties": [
         {
+          "stableId": "System.Net.Mail:System.Net.Mime.ContentType::Boundary:System.String",
           "clrName": "Boundary",
-          "tsEmitName": "boundary",
+          "tsEmitName": "Boundary",
           "metadataToken": 385876200,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "Boundary|:System.String|static=false|accessor=getset",
@@ -1231,8 +1257,9 @@
           "declaringAssemblyName": "System.Net.Mail"
         },
         {
+          "stableId": "System.Net.Mail:System.Net.Mime.ContentType::CharSet:System.String",
           "clrName": "CharSet",
-          "tsEmitName": "charSet",
+          "tsEmitName": "CharSet",
           "metadataToken": 385876201,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "CharSet|:System.String|static=false|accessor=getset",
@@ -1244,8 +1271,9 @@
           "declaringAssemblyName": "System.Net.Mail"
         },
         {
+          "stableId": "System.Net.Mail:System.Net.Mime.ContentType::MediaType:System.String",
           "clrName": "MediaType",
-          "tsEmitName": "mediaType",
+          "tsEmitName": "MediaType",
           "metadataToken": 385876202,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "MediaType|:System.String|static=false|accessor=getset",
@@ -1257,8 +1285,9 @@
           "declaringAssemblyName": "System.Net.Mail"
         },
         {
+          "stableId": "System.Net.Mail:System.Net.Mime.ContentType::Name:System.String",
           "clrName": "Name",
-          "tsEmitName": "name",
+          "tsEmitName": "Name",
           "metadataToken": 385876203,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "Name|:System.String|static=false|accessor=getset",
@@ -1270,8 +1299,9 @@
           "declaringAssemblyName": "System.Net.Mail"
         },
         {
+          "stableId": "System.Net.Mail:System.Net.Mime.ContentType::Parameters:System.Collections.Specialized.StringDictionary",
           "clrName": "Parameters",
-          "tsEmitName": "parameters",
+          "tsEmitName": "Parameters",
           "metadataToken": 385876204,
           "canonicalSignature": ":System.Collections.Specialized.StringDictionary",
           "normalizedSignature": "Parameters|:System.Collections.Specialized.StringDictionary|static=false|accessor=get",
@@ -1287,6 +1317,7 @@
       "events": [],
       "constructors": [
         {
+          "stableId": "System.Net.Mail:System.Net.Mime.ContentType::.ctor():void",
           "metadataToken": 100664158,
           "canonicalSignature": "():void",
           "normalizedSignature": "constructor|():void|static=false",
@@ -1296,6 +1327,7 @@
           "declaringAssemblyName": "System.Net.Mail"
         },
         {
+          "stableId": "System.Net.Mail:System.Net.Mime.ContentType::.ctor(System.String):void",
           "metadataToken": 100664159,
           "canonicalSignature": "(System.String):void",
           "normalizedSignature": "constructor|(System.String):void|static=false",
@@ -1307,7 +1339,7 @@
       ],
       "exposedMethods": [
         {
-          "tsName": "toString",
+          "tsName": "ToString",
           "isStatic": false,
           "tsSignatureId": "ToString|():System.String|static=false",
           "target": {
@@ -1317,7 +1349,7 @@
           }
         },
         {
-          "tsName": "equals",
+          "tsName": "Equals",
           "isStatic": false,
           "tsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
           "target": {
@@ -1327,7 +1359,7 @@
           }
         },
         {
-          "tsName": "getHashCode",
+          "tsName": "GetHashCode",
           "isStatic": false,
           "tsSignatureId": "GetHashCode|():System.Int32|static=false",
           "target": {
@@ -1337,7 +1369,7 @@
           }
         },
         {
-          "tsName": "getType",
+          "tsName": "GetType",
           "isStatic": false,
           "tsSignatureId": "GetType|():System.Type|static=false",
           "target": {
@@ -1347,7 +1379,7 @@
           }
         },
         {
-          "tsName": "equals",
+          "tsName": "Equals",
           "isStatic": true,
           "tsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
           "target": {
@@ -1357,7 +1389,7 @@
           }
         },
         {
-          "tsName": "referenceEquals",
+          "tsName": "ReferenceEquals",
           "isStatic": true,
           "tsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
           "target": {
@@ -1369,7 +1401,7 @@
       ],
       "exposedProperties": [
         {
-          "tsName": "boundary",
+          "tsName": "Boundary",
           "isStatic": false,
           "tsSignatureId": "Boundary|:System.String|static=false|accessor=getset",
           "target": {
@@ -1379,7 +1411,7 @@
           }
         },
         {
-          "tsName": "charSet",
+          "tsName": "CharSet",
           "isStatic": false,
           "tsSignatureId": "CharSet|:System.String|static=false|accessor=getset",
           "target": {
@@ -1389,7 +1421,7 @@
           }
         },
         {
-          "tsName": "mediaType",
+          "tsName": "MediaType",
           "isStatic": false,
           "tsSignatureId": "MediaType|:System.String|static=false|accessor=getset",
           "target": {
@@ -1399,7 +1431,7 @@
           }
         },
         {
-          "tsName": "name",
+          "tsName": "Name",
           "isStatic": false,
           "tsSignatureId": "Name|:System.String|static=false|accessor=getset",
           "target": {
@@ -1409,7 +1441,7 @@
           }
         },
         {
-          "tsName": "parameters",
+          "tsName": "Parameters",
           "isStatic": false,
           "tsSignatureId": "Parameters|:System.Collections.Specialized.StringDictionary|static=false|accessor=get",
           "target": {
@@ -1441,6 +1473,7 @@
       ]
     },
     {
+      "stableId": "System.Net.Mail:System.Net.Mime.DispositionTypeNames",
       "clrName": "System.Net.Mime.DispositionTypeNames",
       "tsEmitName": "DispositionTypeNames",
       "assemblyName": "System.Net.Mail",
@@ -1449,8 +1482,9 @@
       "properties": [],
       "fields": [
         {
+          "stableId": "System.Net.Mail:System.Net.Mime.DispositionTypeNames::InlineSystem.String",
           "clrName": "Inline",
-          "tsEmitName": "inline",
+          "tsEmitName": "Inline",
           "metadataToken": 67109384,
           "normalizedSignature": "Inline|System.String|static=true|const=true",
           "isStatic": true,
@@ -1459,8 +1493,9 @@
           "declaringAssemblyName": "System.Net.Mail"
         },
         {
+          "stableId": "System.Net.Mail:System.Net.Mime.DispositionTypeNames::AttachmentSystem.String",
           "clrName": "Attachment",
-          "tsEmitName": "attachment",
+          "tsEmitName": "Attachment",
           "metadataToken": 67109385,
           "normalizedSignature": "Attachment|System.String|static=true|const=true",
           "isStatic": true,
@@ -1473,7 +1508,7 @@
       "constructors": [],
       "exposedMethods": [
         {
-          "tsName": "getType",
+          "tsName": "GetType",
           "isStatic": false,
           "tsSignatureId": "GetType|():System.Type|static=false",
           "target": {
@@ -1483,7 +1518,7 @@
           }
         },
         {
-          "tsName": "toString",
+          "tsName": "ToString",
           "isStatic": false,
           "tsSignatureId": "ToString|():System.String|static=false",
           "target": {
@@ -1493,7 +1528,7 @@
           }
         },
         {
-          "tsName": "equals",
+          "tsName": "Equals",
           "isStatic": false,
           "tsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
           "target": {
@@ -1503,7 +1538,7 @@
           }
         },
         {
-          "tsName": "equals",
+          "tsName": "Equals",
           "isStatic": true,
           "tsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
           "target": {
@@ -1513,7 +1548,7 @@
           }
         },
         {
-          "tsName": "referenceEquals",
+          "tsName": "ReferenceEquals",
           "isStatic": true,
           "tsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
           "target": {
@@ -1523,7 +1558,7 @@
           }
         },
         {
-          "tsName": "getHashCode",
+          "tsName": "GetHashCode",
           "isStatic": false,
           "tsSignatureId": "GetHashCode|():System.Int32|static=false",
           "target": {
@@ -1535,7 +1570,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "inline",
+          "tsName": "Inline",
           "isStatic": true,
           "tsSignatureId": "Inline|System.String|static=true|const=true",
           "target": {
@@ -1545,7 +1580,7 @@
           }
         },
         {
-          "tsName": "attachment",
+          "tsName": "Attachment",
           "isStatic": true,
           "tsSignatureId": "Attachment|System.String|static=true|const=true",
           "target": {
@@ -1557,6 +1592,7 @@
       ]
     },
     {
+      "stableId": "System.Net.Mail:System.Net.Mime.MediaTypeNames",
       "clrName": "System.Net.Mime.MediaTypeNames",
       "tsEmitName": "MediaTypeNames",
       "assemblyName": "System.Net.Mail",
@@ -1568,7 +1604,7 @@
       "constructors": [],
       "exposedMethods": [
         {
-          "tsName": "getType",
+          "tsName": "GetType",
           "isStatic": false,
           "tsSignatureId": "GetType|():System.Type|static=false",
           "target": {
@@ -1578,7 +1614,7 @@
           }
         },
         {
-          "tsName": "toString",
+          "tsName": "ToString",
           "isStatic": false,
           "tsSignatureId": "ToString|():System.String|static=false",
           "target": {
@@ -1588,7 +1624,7 @@
           }
         },
         {
-          "tsName": "equals",
+          "tsName": "Equals",
           "isStatic": false,
           "tsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
           "target": {
@@ -1598,7 +1634,7 @@
           }
         },
         {
-          "tsName": "equals",
+          "tsName": "Equals",
           "isStatic": true,
           "tsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
           "target": {
@@ -1608,7 +1644,7 @@
           }
         },
         {
-          "tsName": "referenceEquals",
+          "tsName": "ReferenceEquals",
           "isStatic": true,
           "tsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
           "target": {
@@ -1618,7 +1654,7 @@
           }
         },
         {
-          "tsName": "getHashCode",
+          "tsName": "GetHashCode",
           "isStatic": false,
           "tsSignatureId": "GetHashCode|():System.Int32|static=false",
           "target": {
@@ -1630,6 +1666,7 @@
       ]
     },
     {
+      "stableId": "System.Net.Mail:System.Net.Mime.MediaTypeNames\u002BApplication",
       "clrName": "System.Net.Mime.MediaTypeNames\u002BApplication",
       "tsEmitName": "MediaTypeNames_Application",
       "assemblyName": "System.Net.Mail",
@@ -1638,8 +1675,9 @@
       "properties": [],
       "fields": [
         {
+          "stableId": "System.Net.Mail:System.Net.Mime.MediaTypeNames\u002BApplication::FormUrlEncodedSystem.String",
           "clrName": "FormUrlEncoded",
-          "tsEmitName": "formUrlEncoded",
+          "tsEmitName": "FormUrlEncoded",
           "metadataToken": 67109386,
           "normalizedSignature": "FormUrlEncoded|System.String|static=true|const=true",
           "isStatic": true,
@@ -1648,8 +1686,9 @@
           "declaringAssemblyName": "System.Net.Mail"
         },
         {
+          "stableId": "System.Net.Mail:System.Net.Mime.MediaTypeNames\u002BApplication::GZipSystem.String",
           "clrName": "GZip",
-          "tsEmitName": "gZip",
+          "tsEmitName": "GZip",
           "metadataToken": 67109387,
           "normalizedSignature": "GZip|System.String|static=true|const=true",
           "isStatic": true,
@@ -1658,8 +1697,9 @@
           "declaringAssemblyName": "System.Net.Mail"
         },
         {
+          "stableId": "System.Net.Mail:System.Net.Mime.MediaTypeNames\u002BApplication::JsonSystem.String",
           "clrName": "Json",
-          "tsEmitName": "json",
+          "tsEmitName": "Json",
           "metadataToken": 67109388,
           "normalizedSignature": "Json|System.String|static=true|const=true",
           "isStatic": true,
@@ -1668,8 +1708,9 @@
           "declaringAssemblyName": "System.Net.Mail"
         },
         {
+          "stableId": "System.Net.Mail:System.Net.Mime.MediaTypeNames\u002BApplication::JsonPatchSystem.String",
           "clrName": "JsonPatch",
-          "tsEmitName": "jsonPatch",
+          "tsEmitName": "JsonPatch",
           "metadataToken": 67109389,
           "normalizedSignature": "JsonPatch|System.String|static=true|const=true",
           "isStatic": true,
@@ -1678,8 +1719,9 @@
           "declaringAssemblyName": "System.Net.Mail"
         },
         {
+          "stableId": "System.Net.Mail:System.Net.Mime.MediaTypeNames\u002BApplication::JsonSequenceSystem.String",
           "clrName": "JsonSequence",
-          "tsEmitName": "jsonSequence",
+          "tsEmitName": "JsonSequence",
           "metadataToken": 67109390,
           "normalizedSignature": "JsonSequence|System.String|static=true|const=true",
           "isStatic": true,
@@ -1688,8 +1730,9 @@
           "declaringAssemblyName": "System.Net.Mail"
         },
         {
+          "stableId": "System.Net.Mail:System.Net.Mime.MediaTypeNames\u002BApplication::ManifestSystem.String",
           "clrName": "Manifest",
-          "tsEmitName": "manifest",
+          "tsEmitName": "Manifest",
           "metadataToken": 67109391,
           "normalizedSignature": "Manifest|System.String|static=true|const=true",
           "isStatic": true,
@@ -1698,8 +1741,9 @@
           "declaringAssemblyName": "System.Net.Mail"
         },
         {
+          "stableId": "System.Net.Mail:System.Net.Mime.MediaTypeNames\u002BApplication::OctetSystem.String",
           "clrName": "Octet",
-          "tsEmitName": "octet",
+          "tsEmitName": "Octet",
           "metadataToken": 67109392,
           "normalizedSignature": "Octet|System.String|static=true|const=true",
           "isStatic": true,
@@ -1708,8 +1752,9 @@
           "declaringAssemblyName": "System.Net.Mail"
         },
         {
+          "stableId": "System.Net.Mail:System.Net.Mime.MediaTypeNames\u002BApplication::PdfSystem.String",
           "clrName": "Pdf",
-          "tsEmitName": "pdf",
+          "tsEmitName": "Pdf",
           "metadataToken": 67109393,
           "normalizedSignature": "Pdf|System.String|static=true|const=true",
           "isStatic": true,
@@ -1718,8 +1763,9 @@
           "declaringAssemblyName": "System.Net.Mail"
         },
         {
+          "stableId": "System.Net.Mail:System.Net.Mime.MediaTypeNames\u002BApplication::ProblemJsonSystem.String",
           "clrName": "ProblemJson",
-          "tsEmitName": "problemJson",
+          "tsEmitName": "ProblemJson",
           "metadataToken": 67109394,
           "normalizedSignature": "ProblemJson|System.String|static=true|const=true",
           "isStatic": true,
@@ -1728,8 +1774,9 @@
           "declaringAssemblyName": "System.Net.Mail"
         },
         {
+          "stableId": "System.Net.Mail:System.Net.Mime.MediaTypeNames\u002BApplication::ProblemXmlSystem.String",
           "clrName": "ProblemXml",
-          "tsEmitName": "problemXml",
+          "tsEmitName": "ProblemXml",
           "metadataToken": 67109395,
           "normalizedSignature": "ProblemXml|System.String|static=true|const=true",
           "isStatic": true,
@@ -1738,8 +1785,9 @@
           "declaringAssemblyName": "System.Net.Mail"
         },
         {
+          "stableId": "System.Net.Mail:System.Net.Mime.MediaTypeNames\u002BApplication::RtfSystem.String",
           "clrName": "Rtf",
-          "tsEmitName": "rtf",
+          "tsEmitName": "Rtf",
           "metadataToken": 67109396,
           "normalizedSignature": "Rtf|System.String|static=true|const=true",
           "isStatic": true,
@@ -1748,8 +1796,9 @@
           "declaringAssemblyName": "System.Net.Mail"
         },
         {
+          "stableId": "System.Net.Mail:System.Net.Mime.MediaTypeNames\u002BApplication::SoapSystem.String",
           "clrName": "Soap",
-          "tsEmitName": "soap",
+          "tsEmitName": "Soap",
           "metadataToken": 67109397,
           "normalizedSignature": "Soap|System.String|static=true|const=true",
           "isStatic": true,
@@ -1758,8 +1807,9 @@
           "declaringAssemblyName": "System.Net.Mail"
         },
         {
+          "stableId": "System.Net.Mail:System.Net.Mime.MediaTypeNames\u002BApplication::WasmSystem.String",
           "clrName": "Wasm",
-          "tsEmitName": "wasm",
+          "tsEmitName": "Wasm",
           "metadataToken": 67109398,
           "normalizedSignature": "Wasm|System.String|static=true|const=true",
           "isStatic": true,
@@ -1768,8 +1818,9 @@
           "declaringAssemblyName": "System.Net.Mail"
         },
         {
+          "stableId": "System.Net.Mail:System.Net.Mime.MediaTypeNames\u002BApplication::XmlSystem.String",
           "clrName": "Xml",
-          "tsEmitName": "xml",
+          "tsEmitName": "Xml",
           "metadataToken": 67109399,
           "normalizedSignature": "Xml|System.String|static=true|const=true",
           "isStatic": true,
@@ -1778,8 +1829,9 @@
           "declaringAssemblyName": "System.Net.Mail"
         },
         {
+          "stableId": "System.Net.Mail:System.Net.Mime.MediaTypeNames\u002BApplication::XmlDtdSystem.String",
           "clrName": "XmlDtd",
-          "tsEmitName": "xmlDtd",
+          "tsEmitName": "XmlDtd",
           "metadataToken": 67109400,
           "normalizedSignature": "XmlDtd|System.String|static=true|const=true",
           "isStatic": true,
@@ -1788,8 +1840,9 @@
           "declaringAssemblyName": "System.Net.Mail"
         },
         {
+          "stableId": "System.Net.Mail:System.Net.Mime.MediaTypeNames\u002BApplication::XmlPatchSystem.String",
           "clrName": "XmlPatch",
-          "tsEmitName": "xmlPatch",
+          "tsEmitName": "XmlPatch",
           "metadataToken": 67109401,
           "normalizedSignature": "XmlPatch|System.String|static=true|const=true",
           "isStatic": true,
@@ -1798,8 +1851,9 @@
           "declaringAssemblyName": "System.Net.Mail"
         },
         {
+          "stableId": "System.Net.Mail:System.Net.Mime.MediaTypeNames\u002BApplication::YamlSystem.String",
           "clrName": "Yaml",
-          "tsEmitName": "yaml",
+          "tsEmitName": "Yaml",
           "metadataToken": 67109402,
           "normalizedSignature": "Yaml|System.String|static=true|const=true",
           "isStatic": true,
@@ -1808,8 +1862,9 @@
           "declaringAssemblyName": "System.Net.Mail"
         },
         {
+          "stableId": "System.Net.Mail:System.Net.Mime.MediaTypeNames\u002BApplication::ZipSystem.String",
           "clrName": "Zip",
-          "tsEmitName": "zip",
+          "tsEmitName": "Zip",
           "metadataToken": 67109403,
           "normalizedSignature": "Zip|System.String|static=true|const=true",
           "isStatic": true,
@@ -1822,7 +1877,7 @@
       "constructors": [],
       "exposedMethods": [
         {
-          "tsName": "getType",
+          "tsName": "GetType",
           "isStatic": false,
           "tsSignatureId": "GetType|():System.Type|static=false",
           "target": {
@@ -1832,7 +1887,7 @@
           }
         },
         {
-          "tsName": "toString",
+          "tsName": "ToString",
           "isStatic": false,
           "tsSignatureId": "ToString|():System.String|static=false",
           "target": {
@@ -1842,7 +1897,7 @@
           }
         },
         {
-          "tsName": "equals",
+          "tsName": "Equals",
           "isStatic": false,
           "tsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
           "target": {
@@ -1852,7 +1907,7 @@
           }
         },
         {
-          "tsName": "equals",
+          "tsName": "Equals",
           "isStatic": true,
           "tsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
           "target": {
@@ -1862,7 +1917,7 @@
           }
         },
         {
-          "tsName": "referenceEquals",
+          "tsName": "ReferenceEquals",
           "isStatic": true,
           "tsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
           "target": {
@@ -1872,7 +1927,7 @@
           }
         },
         {
-          "tsName": "getHashCode",
+          "tsName": "GetHashCode",
           "isStatic": false,
           "tsSignatureId": "GetHashCode|():System.Int32|static=false",
           "target": {
@@ -1884,7 +1939,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "formUrlEncoded",
+          "tsName": "FormUrlEncoded",
           "isStatic": true,
           "tsSignatureId": "FormUrlEncoded|System.String|static=true|const=true",
           "target": {
@@ -1894,7 +1949,7 @@
           }
         },
         {
-          "tsName": "gZip",
+          "tsName": "GZip",
           "isStatic": true,
           "tsSignatureId": "GZip|System.String|static=true|const=true",
           "target": {
@@ -1904,7 +1959,7 @@
           }
         },
         {
-          "tsName": "json",
+          "tsName": "Json",
           "isStatic": true,
           "tsSignatureId": "Json|System.String|static=true|const=true",
           "target": {
@@ -1914,7 +1969,7 @@
           }
         },
         {
-          "tsName": "jsonPatch",
+          "tsName": "JsonPatch",
           "isStatic": true,
           "tsSignatureId": "JsonPatch|System.String|static=true|const=true",
           "target": {
@@ -1924,7 +1979,7 @@
           }
         },
         {
-          "tsName": "jsonSequence",
+          "tsName": "JsonSequence",
           "isStatic": true,
           "tsSignatureId": "JsonSequence|System.String|static=true|const=true",
           "target": {
@@ -1934,7 +1989,7 @@
           }
         },
         {
-          "tsName": "manifest",
+          "tsName": "Manifest",
           "isStatic": true,
           "tsSignatureId": "Manifest|System.String|static=true|const=true",
           "target": {
@@ -1944,7 +1999,7 @@
           }
         },
         {
-          "tsName": "octet",
+          "tsName": "Octet",
           "isStatic": true,
           "tsSignatureId": "Octet|System.String|static=true|const=true",
           "target": {
@@ -1954,7 +2009,7 @@
           }
         },
         {
-          "tsName": "pdf",
+          "tsName": "Pdf",
           "isStatic": true,
           "tsSignatureId": "Pdf|System.String|static=true|const=true",
           "target": {
@@ -1964,7 +2019,7 @@
           }
         },
         {
-          "tsName": "problemJson",
+          "tsName": "ProblemJson",
           "isStatic": true,
           "tsSignatureId": "ProblemJson|System.String|static=true|const=true",
           "target": {
@@ -1974,7 +2029,7 @@
           }
         },
         {
-          "tsName": "problemXml",
+          "tsName": "ProblemXml",
           "isStatic": true,
           "tsSignatureId": "ProblemXml|System.String|static=true|const=true",
           "target": {
@@ -1984,7 +2039,7 @@
           }
         },
         {
-          "tsName": "rtf",
+          "tsName": "Rtf",
           "isStatic": true,
           "tsSignatureId": "Rtf|System.String|static=true|const=true",
           "target": {
@@ -1994,7 +2049,7 @@
           }
         },
         {
-          "tsName": "soap",
+          "tsName": "Soap",
           "isStatic": true,
           "tsSignatureId": "Soap|System.String|static=true|const=true",
           "target": {
@@ -2004,7 +2059,7 @@
           }
         },
         {
-          "tsName": "wasm",
+          "tsName": "Wasm",
           "isStatic": true,
           "tsSignatureId": "Wasm|System.String|static=true|const=true",
           "target": {
@@ -2014,7 +2069,7 @@
           }
         },
         {
-          "tsName": "xml",
+          "tsName": "Xml",
           "isStatic": true,
           "tsSignatureId": "Xml|System.String|static=true|const=true",
           "target": {
@@ -2024,7 +2079,7 @@
           }
         },
         {
-          "tsName": "xmlDtd",
+          "tsName": "XmlDtd",
           "isStatic": true,
           "tsSignatureId": "XmlDtd|System.String|static=true|const=true",
           "target": {
@@ -2034,7 +2089,7 @@
           }
         },
         {
-          "tsName": "xmlPatch",
+          "tsName": "XmlPatch",
           "isStatic": true,
           "tsSignatureId": "XmlPatch|System.String|static=true|const=true",
           "target": {
@@ -2044,7 +2099,7 @@
           }
         },
         {
-          "tsName": "yaml",
+          "tsName": "Yaml",
           "isStatic": true,
           "tsSignatureId": "Yaml|System.String|static=true|const=true",
           "target": {
@@ -2054,7 +2109,7 @@
           }
         },
         {
-          "tsName": "zip",
+          "tsName": "Zip",
           "isStatic": true,
           "tsSignatureId": "Zip|System.String|static=true|const=true",
           "target": {
@@ -2066,6 +2121,7 @@
       ]
     },
     {
+      "stableId": "System.Net.Mail:System.Net.Mime.MediaTypeNames\u002BFont",
       "clrName": "System.Net.Mime.MediaTypeNames\u002BFont",
       "tsEmitName": "MediaTypeNames_Font",
       "assemblyName": "System.Net.Mail",
@@ -2074,8 +2130,9 @@
       "properties": [],
       "fields": [
         {
+          "stableId": "System.Net.Mail:System.Net.Mime.MediaTypeNames\u002BFont::CollectionSystem.String",
           "clrName": "Collection",
-          "tsEmitName": "collection",
+          "tsEmitName": "Collection",
           "metadataToken": 67109404,
           "normalizedSignature": "Collection|System.String|static=true|const=true",
           "isStatic": true,
@@ -2084,8 +2141,9 @@
           "declaringAssemblyName": "System.Net.Mail"
         },
         {
+          "stableId": "System.Net.Mail:System.Net.Mime.MediaTypeNames\u002BFont::OtfSystem.String",
           "clrName": "Otf",
-          "tsEmitName": "otf",
+          "tsEmitName": "Otf",
           "metadataToken": 67109405,
           "normalizedSignature": "Otf|System.String|static=true|const=true",
           "isStatic": true,
@@ -2094,8 +2152,9 @@
           "declaringAssemblyName": "System.Net.Mail"
         },
         {
+          "stableId": "System.Net.Mail:System.Net.Mime.MediaTypeNames\u002BFont::SfntSystem.String",
           "clrName": "Sfnt",
-          "tsEmitName": "sfnt",
+          "tsEmitName": "Sfnt",
           "metadataToken": 67109406,
           "normalizedSignature": "Sfnt|System.String|static=true|const=true",
           "isStatic": true,
@@ -2104,8 +2163,9 @@
           "declaringAssemblyName": "System.Net.Mail"
         },
         {
+          "stableId": "System.Net.Mail:System.Net.Mime.MediaTypeNames\u002BFont::TtfSystem.String",
           "clrName": "Ttf",
-          "tsEmitName": "ttf",
+          "tsEmitName": "Ttf",
           "metadataToken": 67109407,
           "normalizedSignature": "Ttf|System.String|static=true|const=true",
           "isStatic": true,
@@ -2114,8 +2174,9 @@
           "declaringAssemblyName": "System.Net.Mail"
         },
         {
+          "stableId": "System.Net.Mail:System.Net.Mime.MediaTypeNames\u002BFont::WoffSystem.String",
           "clrName": "Woff",
-          "tsEmitName": "woff",
+          "tsEmitName": "Woff",
           "metadataToken": 67109408,
           "normalizedSignature": "Woff|System.String|static=true|const=true",
           "isStatic": true,
@@ -2124,8 +2185,9 @@
           "declaringAssemblyName": "System.Net.Mail"
         },
         {
+          "stableId": "System.Net.Mail:System.Net.Mime.MediaTypeNames\u002BFont::Woff2System.String",
           "clrName": "Woff2",
-          "tsEmitName": "woff2",
+          "tsEmitName": "Woff2",
           "metadataToken": 67109409,
           "normalizedSignature": "Woff2|System.String|static=true|const=true",
           "isStatic": true,
@@ -2138,7 +2200,7 @@
       "constructors": [],
       "exposedMethods": [
         {
-          "tsName": "getType",
+          "tsName": "GetType",
           "isStatic": false,
           "tsSignatureId": "GetType|():System.Type|static=false",
           "target": {
@@ -2148,7 +2210,7 @@
           }
         },
         {
-          "tsName": "toString",
+          "tsName": "ToString",
           "isStatic": false,
           "tsSignatureId": "ToString|():System.String|static=false",
           "target": {
@@ -2158,7 +2220,7 @@
           }
         },
         {
-          "tsName": "equals",
+          "tsName": "Equals",
           "isStatic": false,
           "tsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
           "target": {
@@ -2168,7 +2230,7 @@
           }
         },
         {
-          "tsName": "equals",
+          "tsName": "Equals",
           "isStatic": true,
           "tsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
           "target": {
@@ -2178,7 +2240,7 @@
           }
         },
         {
-          "tsName": "referenceEquals",
+          "tsName": "ReferenceEquals",
           "isStatic": true,
           "tsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
           "target": {
@@ -2188,7 +2250,7 @@
           }
         },
         {
-          "tsName": "getHashCode",
+          "tsName": "GetHashCode",
           "isStatic": false,
           "tsSignatureId": "GetHashCode|():System.Int32|static=false",
           "target": {
@@ -2200,7 +2262,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "collection",
+          "tsName": "Collection",
           "isStatic": true,
           "tsSignatureId": "Collection|System.String|static=true|const=true",
           "target": {
@@ -2210,7 +2272,7 @@
           }
         },
         {
-          "tsName": "otf",
+          "tsName": "Otf",
           "isStatic": true,
           "tsSignatureId": "Otf|System.String|static=true|const=true",
           "target": {
@@ -2220,7 +2282,7 @@
           }
         },
         {
-          "tsName": "sfnt",
+          "tsName": "Sfnt",
           "isStatic": true,
           "tsSignatureId": "Sfnt|System.String|static=true|const=true",
           "target": {
@@ -2230,7 +2292,7 @@
           }
         },
         {
-          "tsName": "ttf",
+          "tsName": "Ttf",
           "isStatic": true,
           "tsSignatureId": "Ttf|System.String|static=true|const=true",
           "target": {
@@ -2240,7 +2302,7 @@
           }
         },
         {
-          "tsName": "woff",
+          "tsName": "Woff",
           "isStatic": true,
           "tsSignatureId": "Woff|System.String|static=true|const=true",
           "target": {
@@ -2250,7 +2312,7 @@
           }
         },
         {
-          "tsName": "woff2",
+          "tsName": "Woff2",
           "isStatic": true,
           "tsSignatureId": "Woff2|System.String|static=true|const=true",
           "target": {
@@ -2262,6 +2324,7 @@
       ]
     },
     {
+      "stableId": "System.Net.Mail:System.Net.Mime.MediaTypeNames\u002BImage",
       "clrName": "System.Net.Mime.MediaTypeNames\u002BImage",
       "tsEmitName": "MediaTypeNames_Image",
       "assemblyName": "System.Net.Mail",
@@ -2270,8 +2333,9 @@
       "properties": [],
       "fields": [
         {
+          "stableId": "System.Net.Mail:System.Net.Mime.MediaTypeNames\u002BImage::AvifSystem.String",
           "clrName": "Avif",
-          "tsEmitName": "avif",
+          "tsEmitName": "Avif",
           "metadataToken": 67109410,
           "normalizedSignature": "Avif|System.String|static=true|const=true",
           "isStatic": true,
@@ -2280,8 +2344,9 @@
           "declaringAssemblyName": "System.Net.Mail"
         },
         {
+          "stableId": "System.Net.Mail:System.Net.Mime.MediaTypeNames\u002BImage::BmpSystem.String",
           "clrName": "Bmp",
-          "tsEmitName": "bmp",
+          "tsEmitName": "Bmp",
           "metadataToken": 67109411,
           "normalizedSignature": "Bmp|System.String|static=true|const=true",
           "isStatic": true,
@@ -2290,8 +2355,9 @@
           "declaringAssemblyName": "System.Net.Mail"
         },
         {
+          "stableId": "System.Net.Mail:System.Net.Mime.MediaTypeNames\u002BImage::GifSystem.String",
           "clrName": "Gif",
-          "tsEmitName": "gif",
+          "tsEmitName": "Gif",
           "metadataToken": 67109412,
           "normalizedSignature": "Gif|System.String|static=true|const=true",
           "isStatic": true,
@@ -2300,8 +2366,9 @@
           "declaringAssemblyName": "System.Net.Mail"
         },
         {
+          "stableId": "System.Net.Mail:System.Net.Mime.MediaTypeNames\u002BImage::IconSystem.String",
           "clrName": "Icon",
-          "tsEmitName": "icon",
+          "tsEmitName": "Icon",
           "metadataToken": 67109413,
           "normalizedSignature": "Icon|System.String|static=true|const=true",
           "isStatic": true,
@@ -2310,8 +2377,9 @@
           "declaringAssemblyName": "System.Net.Mail"
         },
         {
+          "stableId": "System.Net.Mail:System.Net.Mime.MediaTypeNames\u002BImage::JpegSystem.String",
           "clrName": "Jpeg",
-          "tsEmitName": "jpeg",
+          "tsEmitName": "Jpeg",
           "metadataToken": 67109414,
           "normalizedSignature": "Jpeg|System.String|static=true|const=true",
           "isStatic": true,
@@ -2320,8 +2388,9 @@
           "declaringAssemblyName": "System.Net.Mail"
         },
         {
+          "stableId": "System.Net.Mail:System.Net.Mime.MediaTypeNames\u002BImage::PngSystem.String",
           "clrName": "Png",
-          "tsEmitName": "png",
+          "tsEmitName": "Png",
           "metadataToken": 67109415,
           "normalizedSignature": "Png|System.String|static=true|const=true",
           "isStatic": true,
@@ -2330,8 +2399,9 @@
           "declaringAssemblyName": "System.Net.Mail"
         },
         {
+          "stableId": "System.Net.Mail:System.Net.Mime.MediaTypeNames\u002BImage::SvgSystem.String",
           "clrName": "Svg",
-          "tsEmitName": "svg",
+          "tsEmitName": "Svg",
           "metadataToken": 67109416,
           "normalizedSignature": "Svg|System.String|static=true|const=true",
           "isStatic": true,
@@ -2340,8 +2410,9 @@
           "declaringAssemblyName": "System.Net.Mail"
         },
         {
+          "stableId": "System.Net.Mail:System.Net.Mime.MediaTypeNames\u002BImage::TiffSystem.String",
           "clrName": "Tiff",
-          "tsEmitName": "tiff",
+          "tsEmitName": "Tiff",
           "metadataToken": 67109417,
           "normalizedSignature": "Tiff|System.String|static=true|const=true",
           "isStatic": true,
@@ -2350,8 +2421,9 @@
           "declaringAssemblyName": "System.Net.Mail"
         },
         {
+          "stableId": "System.Net.Mail:System.Net.Mime.MediaTypeNames\u002BImage::WebpSystem.String",
           "clrName": "Webp",
-          "tsEmitName": "webp",
+          "tsEmitName": "Webp",
           "metadataToken": 67109418,
           "normalizedSignature": "Webp|System.String|static=true|const=true",
           "isStatic": true,
@@ -2364,7 +2436,7 @@
       "constructors": [],
       "exposedMethods": [
         {
-          "tsName": "getType",
+          "tsName": "GetType",
           "isStatic": false,
           "tsSignatureId": "GetType|():System.Type|static=false",
           "target": {
@@ -2374,7 +2446,7 @@
           }
         },
         {
-          "tsName": "toString",
+          "tsName": "ToString",
           "isStatic": false,
           "tsSignatureId": "ToString|():System.String|static=false",
           "target": {
@@ -2384,7 +2456,7 @@
           }
         },
         {
-          "tsName": "equals",
+          "tsName": "Equals",
           "isStatic": false,
           "tsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
           "target": {
@@ -2394,7 +2466,7 @@
           }
         },
         {
-          "tsName": "equals",
+          "tsName": "Equals",
           "isStatic": true,
           "tsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
           "target": {
@@ -2404,7 +2476,7 @@
           }
         },
         {
-          "tsName": "referenceEquals",
+          "tsName": "ReferenceEquals",
           "isStatic": true,
           "tsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
           "target": {
@@ -2414,7 +2486,7 @@
           }
         },
         {
-          "tsName": "getHashCode",
+          "tsName": "GetHashCode",
           "isStatic": false,
           "tsSignatureId": "GetHashCode|():System.Int32|static=false",
           "target": {
@@ -2426,7 +2498,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "avif",
+          "tsName": "Avif",
           "isStatic": true,
           "tsSignatureId": "Avif|System.String|static=true|const=true",
           "target": {
@@ -2436,7 +2508,7 @@
           }
         },
         {
-          "tsName": "bmp",
+          "tsName": "Bmp",
           "isStatic": true,
           "tsSignatureId": "Bmp|System.String|static=true|const=true",
           "target": {
@@ -2446,7 +2518,7 @@
           }
         },
         {
-          "tsName": "gif",
+          "tsName": "Gif",
           "isStatic": true,
           "tsSignatureId": "Gif|System.String|static=true|const=true",
           "target": {
@@ -2456,7 +2528,7 @@
           }
         },
         {
-          "tsName": "icon",
+          "tsName": "Icon",
           "isStatic": true,
           "tsSignatureId": "Icon|System.String|static=true|const=true",
           "target": {
@@ -2466,7 +2538,7 @@
           }
         },
         {
-          "tsName": "jpeg",
+          "tsName": "Jpeg",
           "isStatic": true,
           "tsSignatureId": "Jpeg|System.String|static=true|const=true",
           "target": {
@@ -2476,7 +2548,7 @@
           }
         },
         {
-          "tsName": "png",
+          "tsName": "Png",
           "isStatic": true,
           "tsSignatureId": "Png|System.String|static=true|const=true",
           "target": {
@@ -2486,7 +2558,7 @@
           }
         },
         {
-          "tsName": "svg",
+          "tsName": "Svg",
           "isStatic": true,
           "tsSignatureId": "Svg|System.String|static=true|const=true",
           "target": {
@@ -2496,7 +2568,7 @@
           }
         },
         {
-          "tsName": "tiff",
+          "tsName": "Tiff",
           "isStatic": true,
           "tsSignatureId": "Tiff|System.String|static=true|const=true",
           "target": {
@@ -2506,7 +2578,7 @@
           }
         },
         {
-          "tsName": "webp",
+          "tsName": "Webp",
           "isStatic": true,
           "tsSignatureId": "Webp|System.String|static=true|const=true",
           "target": {
@@ -2518,6 +2590,7 @@
       ]
     },
     {
+      "stableId": "System.Net.Mail:System.Net.Mime.MediaTypeNames\u002BMultipart",
       "clrName": "System.Net.Mime.MediaTypeNames\u002BMultipart",
       "tsEmitName": "MediaTypeNames_Multipart",
       "assemblyName": "System.Net.Mail",
@@ -2526,8 +2599,9 @@
       "properties": [],
       "fields": [
         {
+          "stableId": "System.Net.Mail:System.Net.Mime.MediaTypeNames\u002BMultipart::ByteRangesSystem.String",
           "clrName": "ByteRanges",
-          "tsEmitName": "byteRanges",
+          "tsEmitName": "ByteRanges",
           "metadataToken": 67109419,
           "normalizedSignature": "ByteRanges|System.String|static=true|const=true",
           "isStatic": true,
@@ -2536,8 +2610,9 @@
           "declaringAssemblyName": "System.Net.Mail"
         },
         {
+          "stableId": "System.Net.Mail:System.Net.Mime.MediaTypeNames\u002BMultipart::FormDataSystem.String",
           "clrName": "FormData",
-          "tsEmitName": "formData",
+          "tsEmitName": "FormData",
           "metadataToken": 67109420,
           "normalizedSignature": "FormData|System.String|static=true|const=true",
           "isStatic": true,
@@ -2546,8 +2621,9 @@
           "declaringAssemblyName": "System.Net.Mail"
         },
         {
+          "stableId": "System.Net.Mail:System.Net.Mime.MediaTypeNames\u002BMultipart::MixedSystem.String",
           "clrName": "Mixed",
-          "tsEmitName": "mixed",
+          "tsEmitName": "Mixed",
           "metadataToken": 67109421,
           "normalizedSignature": "Mixed|System.String|static=true|const=true",
           "isStatic": true,
@@ -2556,8 +2632,9 @@
           "declaringAssemblyName": "System.Net.Mail"
         },
         {
+          "stableId": "System.Net.Mail:System.Net.Mime.MediaTypeNames\u002BMultipart::RelatedSystem.String",
           "clrName": "Related",
-          "tsEmitName": "related",
+          "tsEmitName": "Related",
           "metadataToken": 67109422,
           "normalizedSignature": "Related|System.String|static=true|const=true",
           "isStatic": true,
@@ -2570,7 +2647,7 @@
       "constructors": [],
       "exposedMethods": [
         {
-          "tsName": "getType",
+          "tsName": "GetType",
           "isStatic": false,
           "tsSignatureId": "GetType|():System.Type|static=false",
           "target": {
@@ -2580,7 +2657,7 @@
           }
         },
         {
-          "tsName": "toString",
+          "tsName": "ToString",
           "isStatic": false,
           "tsSignatureId": "ToString|():System.String|static=false",
           "target": {
@@ -2590,7 +2667,7 @@
           }
         },
         {
-          "tsName": "equals",
+          "tsName": "Equals",
           "isStatic": false,
           "tsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
           "target": {
@@ -2600,7 +2677,7 @@
           }
         },
         {
-          "tsName": "equals",
+          "tsName": "Equals",
           "isStatic": true,
           "tsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
           "target": {
@@ -2610,7 +2687,7 @@
           }
         },
         {
-          "tsName": "referenceEquals",
+          "tsName": "ReferenceEquals",
           "isStatic": true,
           "tsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
           "target": {
@@ -2620,7 +2697,7 @@
           }
         },
         {
-          "tsName": "getHashCode",
+          "tsName": "GetHashCode",
           "isStatic": false,
           "tsSignatureId": "GetHashCode|():System.Int32|static=false",
           "target": {
@@ -2632,7 +2709,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "byteRanges",
+          "tsName": "ByteRanges",
           "isStatic": true,
           "tsSignatureId": "ByteRanges|System.String|static=true|const=true",
           "target": {
@@ -2642,7 +2719,7 @@
           }
         },
         {
-          "tsName": "formData",
+          "tsName": "FormData",
           "isStatic": true,
           "tsSignatureId": "FormData|System.String|static=true|const=true",
           "target": {
@@ -2652,7 +2729,7 @@
           }
         },
         {
-          "tsName": "mixed",
+          "tsName": "Mixed",
           "isStatic": true,
           "tsSignatureId": "Mixed|System.String|static=true|const=true",
           "target": {
@@ -2662,7 +2739,7 @@
           }
         },
         {
-          "tsName": "related",
+          "tsName": "Related",
           "isStatic": true,
           "tsSignatureId": "Related|System.String|static=true|const=true",
           "target": {
@@ -2674,6 +2751,7 @@
       ]
     },
     {
+      "stableId": "System.Net.Mail:System.Net.Mime.MediaTypeNames\u002BText",
       "clrName": "System.Net.Mime.MediaTypeNames\u002BText",
       "tsEmitName": "MediaTypeNames_Text",
       "assemblyName": "System.Net.Mail",
@@ -2682,8 +2760,9 @@
       "properties": [],
       "fields": [
         {
+          "stableId": "System.Net.Mail:System.Net.Mime.MediaTypeNames\u002BText::CssSystem.String",
           "clrName": "Css",
-          "tsEmitName": "css",
+          "tsEmitName": "Css",
           "metadataToken": 67109423,
           "normalizedSignature": "Css|System.String|static=true|const=true",
           "isStatic": true,
@@ -2692,8 +2771,9 @@
           "declaringAssemblyName": "System.Net.Mail"
         },
         {
+          "stableId": "System.Net.Mail:System.Net.Mime.MediaTypeNames\u002BText::CsvSystem.String",
           "clrName": "Csv",
-          "tsEmitName": "csv",
+          "tsEmitName": "Csv",
           "metadataToken": 67109424,
           "normalizedSignature": "Csv|System.String|static=true|const=true",
           "isStatic": true,
@@ -2702,8 +2782,9 @@
           "declaringAssemblyName": "System.Net.Mail"
         },
         {
+          "stableId": "System.Net.Mail:System.Net.Mime.MediaTypeNames\u002BText::EventStreamSystem.String",
           "clrName": "EventStream",
-          "tsEmitName": "eventStream",
+          "tsEmitName": "EventStream",
           "metadataToken": 67109425,
           "normalizedSignature": "EventStream|System.String|static=true|const=true",
           "isStatic": true,
@@ -2712,8 +2793,9 @@
           "declaringAssemblyName": "System.Net.Mail"
         },
         {
+          "stableId": "System.Net.Mail:System.Net.Mime.MediaTypeNames\u002BText::HtmlSystem.String",
           "clrName": "Html",
-          "tsEmitName": "html",
+          "tsEmitName": "Html",
           "metadataToken": 67109426,
           "normalizedSignature": "Html|System.String|static=true|const=true",
           "isStatic": true,
@@ -2722,8 +2804,9 @@
           "declaringAssemblyName": "System.Net.Mail"
         },
         {
+          "stableId": "System.Net.Mail:System.Net.Mime.MediaTypeNames\u002BText::JavaScriptSystem.String",
           "clrName": "JavaScript",
-          "tsEmitName": "javaScript",
+          "tsEmitName": "JavaScript",
           "metadataToken": 67109427,
           "normalizedSignature": "JavaScript|System.String|static=true|const=true",
           "isStatic": true,
@@ -2732,8 +2815,9 @@
           "declaringAssemblyName": "System.Net.Mail"
         },
         {
+          "stableId": "System.Net.Mail:System.Net.Mime.MediaTypeNames\u002BText::MarkdownSystem.String",
           "clrName": "Markdown",
-          "tsEmitName": "markdown",
+          "tsEmitName": "Markdown",
           "metadataToken": 67109428,
           "normalizedSignature": "Markdown|System.String|static=true|const=true",
           "isStatic": true,
@@ -2742,8 +2826,9 @@
           "declaringAssemblyName": "System.Net.Mail"
         },
         {
+          "stableId": "System.Net.Mail:System.Net.Mime.MediaTypeNames\u002BText::PlainSystem.String",
           "clrName": "Plain",
-          "tsEmitName": "plain",
+          "tsEmitName": "Plain",
           "metadataToken": 67109429,
           "normalizedSignature": "Plain|System.String|static=true|const=true",
           "isStatic": true,
@@ -2752,8 +2837,9 @@
           "declaringAssemblyName": "System.Net.Mail"
         },
         {
+          "stableId": "System.Net.Mail:System.Net.Mime.MediaTypeNames\u002BText::RichTextSystem.String",
           "clrName": "RichText",
-          "tsEmitName": "richText",
+          "tsEmitName": "RichText",
           "metadataToken": 67109430,
           "normalizedSignature": "RichText|System.String|static=true|const=true",
           "isStatic": true,
@@ -2762,8 +2848,9 @@
           "declaringAssemblyName": "System.Net.Mail"
         },
         {
+          "stableId": "System.Net.Mail:System.Net.Mime.MediaTypeNames\u002BText::RtfSystem.String",
           "clrName": "Rtf",
-          "tsEmitName": "rtf",
+          "tsEmitName": "Rtf",
           "metadataToken": 67109431,
           "normalizedSignature": "Rtf|System.String|static=true|const=true",
           "isStatic": true,
@@ -2772,8 +2859,9 @@
           "declaringAssemblyName": "System.Net.Mail"
         },
         {
+          "stableId": "System.Net.Mail:System.Net.Mime.MediaTypeNames\u002BText::XmlSystem.String",
           "clrName": "Xml",
-          "tsEmitName": "xml",
+          "tsEmitName": "Xml",
           "metadataToken": 67109432,
           "normalizedSignature": "Xml|System.String|static=true|const=true",
           "isStatic": true,
@@ -2786,7 +2874,7 @@
       "constructors": [],
       "exposedMethods": [
         {
-          "tsName": "getType",
+          "tsName": "GetType",
           "isStatic": false,
           "tsSignatureId": "GetType|():System.Type|static=false",
           "target": {
@@ -2796,7 +2884,7 @@
           }
         },
         {
-          "tsName": "toString",
+          "tsName": "ToString",
           "isStatic": false,
           "tsSignatureId": "ToString|():System.String|static=false",
           "target": {
@@ -2806,7 +2894,7 @@
           }
         },
         {
-          "tsName": "equals",
+          "tsName": "Equals",
           "isStatic": false,
           "tsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
           "target": {
@@ -2816,7 +2904,7 @@
           }
         },
         {
-          "tsName": "equals",
+          "tsName": "Equals",
           "isStatic": true,
           "tsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
           "target": {
@@ -2826,7 +2914,7 @@
           }
         },
         {
-          "tsName": "referenceEquals",
+          "tsName": "ReferenceEquals",
           "isStatic": true,
           "tsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
           "target": {
@@ -2836,7 +2924,7 @@
           }
         },
         {
-          "tsName": "getHashCode",
+          "tsName": "GetHashCode",
           "isStatic": false,
           "tsSignatureId": "GetHashCode|():System.Int32|static=false",
           "target": {
@@ -2848,7 +2936,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "css",
+          "tsName": "Css",
           "isStatic": true,
           "tsSignatureId": "Css|System.String|static=true|const=true",
           "target": {
@@ -2858,7 +2946,7 @@
           }
         },
         {
-          "tsName": "csv",
+          "tsName": "Csv",
           "isStatic": true,
           "tsSignatureId": "Csv|System.String|static=true|const=true",
           "target": {
@@ -2868,7 +2956,7 @@
           }
         },
         {
-          "tsName": "eventStream",
+          "tsName": "EventStream",
           "isStatic": true,
           "tsSignatureId": "EventStream|System.String|static=true|const=true",
           "target": {
@@ -2878,7 +2966,7 @@
           }
         },
         {
-          "tsName": "html",
+          "tsName": "Html",
           "isStatic": true,
           "tsSignatureId": "Html|System.String|static=true|const=true",
           "target": {
@@ -2888,7 +2976,7 @@
           }
         },
         {
-          "tsName": "javaScript",
+          "tsName": "JavaScript",
           "isStatic": true,
           "tsSignatureId": "JavaScript|System.String|static=true|const=true",
           "target": {
@@ -2898,7 +2986,7 @@
           }
         },
         {
-          "tsName": "markdown",
+          "tsName": "Markdown",
           "isStatic": true,
           "tsSignatureId": "Markdown|System.String|static=true|const=true",
           "target": {
@@ -2908,7 +2996,7 @@
           }
         },
         {
-          "tsName": "plain",
+          "tsName": "Plain",
           "isStatic": true,
           "tsSignatureId": "Plain|System.String|static=true|const=true",
           "target": {
@@ -2918,7 +3006,7 @@
           }
         },
         {
-          "tsName": "richText",
+          "tsName": "RichText",
           "isStatic": true,
           "tsSignatureId": "RichText|System.String|static=true|const=true",
           "target": {
@@ -2928,7 +3016,7 @@
           }
         },
         {
-          "tsName": "rtf",
+          "tsName": "Rtf",
           "isStatic": true,
           "tsSignatureId": "Rtf|System.String|static=true|const=true",
           "target": {
@@ -2938,7 +3026,7 @@
           }
         },
         {
-          "tsName": "xml",
+          "tsName": "Xml",
           "isStatic": true,
           "tsSignatureId": "Xml|System.String|static=true|const=true",
           "target": {

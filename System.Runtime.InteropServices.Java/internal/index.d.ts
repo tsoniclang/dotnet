@@ -5,8 +5,8 @@
 // Branded primitive types are sourced from @tsonic/types
 import type { sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/types';
 
-// Import support types for unsafe CLR constructs
-import type { TSUnsafePointer, TSByRef } from "../../_support/types.js";
+// Import support types from @tsonic/types
+import type { ptr, ref } from "@tsonic/types";
 
 // Import types from other namespaces
 import type { GCHandle } from "../../System.Runtime.InteropServices/internal/index.js";
@@ -48,9 +48,9 @@ export type ComponentCrossReference = ComponentCrossReference$instance;
 
 export class MarkCrossReferencesArgs$instance {
     ComponentCount: nuint;
-    Components: TSUnsafePointer<StronglyConnectedComponent>;
+    Components: ptr<StronglyConnectedComponent>;
     CrossReferenceCount: nuint;
-    CrossReferences: TSUnsafePointer<ComponentCrossReference>;
+    CrossReferences: ptr<ComponentCrossReference>;
 }
 
 
@@ -58,16 +58,16 @@ export type MarkCrossReferencesArgs = MarkCrossReferencesArgs$instance;
 
 export class StronglyConnectedComponent$instance {
     Count: nuint;
-    Contexts: TSUnsafePointer<void>;
+    Contexts: ptr<void>;
 }
 
 
 export type StronglyConnectedComponent = StronglyConnectedComponent$instance;
 
 export abstract class JavaMarshal$instance {
-    static CreateReferenceTrackingHandle(obj: any, context: TSUnsafePointer<void>): GCHandle;
-    static FinishCrossReferenceProcessing(crossReferences: TSUnsafePointer<MarkCrossReferencesArgs>, unreachableObjectHandles: ReadOnlySpan_1<GCHandle>): void;
-    static GetContext(obj: GCHandle): TSUnsafePointer<void>;
+    static CreateReferenceTrackingHandle(obj: any, context: ptr<void>): GCHandle;
+    static FinishCrossReferenceProcessing(crossReferences: ptr<MarkCrossReferencesArgs>, unreachableObjectHandles: ReadOnlySpan_1<GCHandle>): void;
+    static GetContext(obj: GCHandle): ptr<void>;
     static Initialize(markCrossReferences: unknown): void;
 }
 

@@ -36,10 +36,10 @@ export type CLROf<T> =
     T; // Identity fallback for non-primitive types
 
 export class HttpMetricsEnrichmentContext$instance {
-    readonly exception: Exception;
-    readonly request: HttpRequestMessage;
-    readonly response: HttpResponseMessage;
-    addCustomTag(name: string, value: any): void;
+    readonly Exception: Exception;
+    readonly Request: HttpRequestMessage;
+    readonly Response: HttpResponseMessage;
+    AddCustomTag(name: string, value: any): void;
     static AddCallback(request: HttpRequestMessage, callback: Action_1<HttpMetricsEnrichmentContext>): void;
 }
 

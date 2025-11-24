@@ -63,7 +63,7 @@ const sequence: IEnumerable<int> = null!;
 - **130 namespaces** - All major .NET namespaces
 - **Flat ESM modules** - Clean import paths
 - **Metadata sidecars** - `metadata.json` files for CLR-specific info
-- **Support types** - `TSUnsafePointer<T>`, `TSByRef<T>` for unsafe/ref types
+- **Support types** - All CLR interop types imported from `@tsonic/types` (ptr, ref, etc.)
 
 ## Naming Conventions
 

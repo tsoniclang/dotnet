@@ -5,8 +5,8 @@
 // Branded primitive types are sourced from @tsonic/types
 import type { sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/types';
 
-// Import support types for unsafe CLR constructs
-import type { TSUnsafePointer, TSByRef } from "../../_support/types.js";
+// Import support types from @tsonic/types
+import type { ptr, ref } from "@tsonic/types";
 
 // Import types from other namespaces
 import type { OperationStatus } from "../../System.Buffers/internal/index.js";
@@ -61,17 +61,17 @@ export abstract class JavaScriptEncoder$instance extends TextEncoder$instance {
 export type JavaScriptEncoder = JavaScriptEncoder$instance;
 
 export abstract class TextEncoder$instance {
-    readonly maxOutputCharactersPerInputCharacter: int;
-    encode(value: string): string;
-    encode(output: TextWriter, value: string): void;
-    encode(output: TextWriter, value: string, startIndex: int, characterCount: int): void;
-    encode(output: TextWriter, value: string[], startIndex: int, characterCount: int): void;
-    encode(source: ReadOnlySpan_1<CLROf<string>>, destination: Span_1<CLROf<string>>, charsConsumed: { value: TSByRef<int> }, charsWritten: { value: TSByRef<int> }, isFinalBlock?: boolean): OperationStatus;
-    encodeUtf8(utf8Source: ReadOnlySpan_1<CLROf<byte>>, utf8Destination: Span_1<CLROf<byte>>, bytesConsumed: { value: TSByRef<int> }, bytesWritten: { value: TSByRef<int> }, isFinalBlock?: boolean): OperationStatus;
-    abstract findFirstCharacterToEncode(text: TSUnsafePointer<string>, textLength: int): int;
-    findFirstCharacterToEncodeUtf8(utf8Text: ReadOnlySpan_1<CLROf<byte>>): int;
-    abstract tryEncodeUnicodeScalar(unicodeScalar: int, buffer: TSUnsafePointer<string>, bufferLength: int, numberOfCharactersWritten: { value: TSByRef<int> }): boolean;
-    abstract willEncode(unicodeScalar: int): boolean;
+    readonly MaxOutputCharactersPerInputCharacter: int;
+    Encode(value: string): string;
+    Encode(output: TextWriter, value: string): void;
+    Encode(output: TextWriter, value: string, startIndex: int, characterCount: int): void;
+    Encode(output: TextWriter, value: string[], startIndex: int, characterCount: int): void;
+    Encode(source: ReadOnlySpan_1<CLROf<string>>, destination: Span_1<CLROf<string>>, charsConsumed: { value: ref<int> }, charsWritten: { value: ref<int> }, isFinalBlock?: boolean): OperationStatus;
+    EncodeUtf8(utf8Source: ReadOnlySpan_1<CLROf<byte>>, utf8Destination: Span_1<CLROf<byte>>, bytesConsumed: { value: ref<int> }, bytesWritten: { value: ref<int> }, isFinalBlock?: boolean): OperationStatus;
+    abstract FindFirstCharacterToEncode(text: ptr<string>, textLength: int): int;
+    FindFirstCharacterToEncodeUtf8(utf8Text: ReadOnlySpan_1<CLROf<byte>>): int;
+    abstract TryEncodeUnicodeScalar(unicodeScalar: int, buffer: ptr<string>, bufferLength: int, numberOfCharactersWritten: { value: ref<int> }): boolean;
+    abstract WillEncode(unicodeScalar: int): boolean;
 }
 
 
@@ -81,17 +81,17 @@ export class TextEncoderSettings$instance {
     constructor();
     constructor(other: TextEncoderSettings);
     constructor(allowedRanges: UnicodeRange[]);
-    allowCharacter(character: string): void;
-    allowCharacters(characters: string[]): void;
-    allowCodePoints(codePoints: IEnumerable_1<CLROf<int>>): void;
-    allowRange(range: UnicodeRange): void;
-    allowRanges(ranges: UnicodeRange[]): void;
-    clear(): void;
-    forbidCharacter(character: string): void;
-    forbidCharacters(characters: string[]): void;
-    forbidRange(range: UnicodeRange): void;
-    forbidRanges(ranges: UnicodeRange[]): void;
-    getAllowedCodePoints(): IEnumerable_1<CLROf<int>>;
+    AllowCharacter(character: string): void;
+    AllowCharacters(characters: string[]): void;
+    AllowCodePoints(codePoints: IEnumerable_1<CLROf<int>>): void;
+    AllowRange(range: UnicodeRange): void;
+    AllowRanges(ranges: UnicodeRange[]): void;
+    Clear(): void;
+    ForbidCharacter(character: string): void;
+    ForbidCharacters(characters: string[]): void;
+    ForbidRange(range: UnicodeRange): void;
+    ForbidRanges(ranges: UnicodeRange[]): void;
+    GetAllowedCodePoints(): IEnumerable_1<CLROf<int>>;
 }
 
 

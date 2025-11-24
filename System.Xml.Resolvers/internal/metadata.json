@@ -5,6 +5,7 @@
   ],
   "types": [
     {
+      "stableId": "System.Private.Xml:System.Xml.Resolvers.XmlKnownDtds",
       "clrName": "System.Xml.Resolvers.XmlKnownDtds",
       "tsEmitName": "XmlKnownDtds",
       "kind": "Enum",
@@ -17,6 +18,7 @@
       "properties": [],
       "fields": [
         {
+          "stableId": "System.Private.Xml:System.Xml.Resolvers.XmlKnownDtds::value__System.Int32",
           "clrName": "value__",
           "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
@@ -25,32 +27,36 @@
           "isLiteral": false
         },
         {
+          "stableId": "System.Private.Xml:System.Xml.Resolvers.XmlKnownDtds::NoneSystem.Xml.Resolvers.XmlKnownDtds",
           "clrName": "None",
-          "tsEmitName": "none",
+          "tsEmitName": "None",
           "normalizedSignature": "None|System.Xml.Resolvers.XmlKnownDtds|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true
         },
         {
+          "stableId": "System.Private.Xml:System.Xml.Resolvers.XmlKnownDtds::Xhtml10System.Xml.Resolvers.XmlKnownDtds",
           "clrName": "Xhtml10",
-          "tsEmitName": "xhtml10",
+          "tsEmitName": "Xhtml10",
           "normalizedSignature": "Xhtml10|System.Xml.Resolvers.XmlKnownDtds|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true
         },
         {
+          "stableId": "System.Private.Xml:System.Xml.Resolvers.XmlKnownDtds::Rss091System.Xml.Resolvers.XmlKnownDtds",
           "clrName": "Rss091",
-          "tsEmitName": "rss091",
+          "tsEmitName": "Rss091",
           "normalizedSignature": "Rss091|System.Xml.Resolvers.XmlKnownDtds|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true
         },
         {
+          "stableId": "System.Private.Xml:System.Xml.Resolvers.XmlKnownDtds::AllSystem.Xml.Resolvers.XmlKnownDtds",
           "clrName": "All",
-          "tsEmitName": "all",
+          "tsEmitName": "All",
           "normalizedSignature": "All|System.Xml.Resolvers.XmlKnownDtds|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -61,6 +67,7 @@
       "constructors": []
     },
     {
+      "stableId": "System.Private.Xml:System.Xml.Resolvers.XmlPreloadedResolver",
       "clrName": "System.Xml.Resolvers.XmlPreloadedResolver",
       "tsEmitName": "XmlPreloadedResolver",
       "kind": "Class",
@@ -71,8 +78,9 @@
       "arity": 0,
       "methods": [
         {
+          "stableId": "System.Private.Xml:System.Xml.Resolvers.XmlPreloadedResolver::ResolveUri(System.Uri,System.String):System.Uri",
           "clrName": "ResolveUri",
-          "tsEmitName": "resolveUri",
+          "tsEmitName": "ResolveUri",
           "normalizedSignature": "ResolveUri|(System.Uri,System.String):System.Uri|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -85,8 +93,9 @@
           "parameterCount": 2
         },
         {
+          "stableId": "System.Private.Xml:System.Xml.Resolvers.XmlPreloadedResolver::GetEntity(System.Uri,System.String,System.Type):System.Object",
           "clrName": "GetEntity",
-          "tsEmitName": "getEntity",
+          "tsEmitName": "GetEntity",
           "normalizedSignature": "GetEntity|(System.Uri,System.String,System.Type):System.Object|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -99,8 +108,9 @@
           "parameterCount": 3
         },
         {
+          "stableId": "System.Private.Xml:System.Xml.Resolvers.XmlPreloadedResolver::SupportsType(System.Uri,System.Type):System.Boolean",
           "clrName": "SupportsType",
-          "tsEmitName": "supportsType",
+          "tsEmitName": "SupportsType",
           "normalizedSignature": "SupportsType|(System.Uri,System.Type):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -113,8 +123,9 @@
           "parameterCount": 2
         },
         {
+          "stableId": "System.Private.Xml:System.Xml.Resolvers.XmlPreloadedResolver::Add(System.Uri,System.Byte[]):System.Void",
           "clrName": "Add",
-          "tsEmitName": "add",
+          "tsEmitName": "Add",
           "normalizedSignature": "Add|(System.Uri,System.Byte[]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -127,8 +138,9 @@
           "parameterCount": 2
         },
         {
+          "stableId": "System.Private.Xml:System.Xml.Resolvers.XmlPreloadedResolver::Add(System.Uri,System.Byte[],System.Int32,System.Int32):System.Void",
           "clrName": "Add",
-          "tsEmitName": "add2",
+          "tsEmitName": "Add2",
           "normalizedSignature": "Add|(System.Uri,System.Byte[],System.Int32,System.Int32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -141,8 +153,9 @@
           "parameterCount": 4
         },
         {
+          "stableId": "System.Private.Xml:System.Xml.Resolvers.XmlPreloadedResolver::Add(System.Uri,System.IO.Stream):System.Void",
           "clrName": "Add",
-          "tsEmitName": "add3",
+          "tsEmitName": "Add3",
           "normalizedSignature": "Add|(System.Uri,System.IO.Stream):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -155,8 +168,9 @@
           "parameterCount": 2
         },
         {
+          "stableId": "System.Private.Xml:System.Xml.Resolvers.XmlPreloadedResolver::Add(System.Uri,System.String):System.Void",
           "clrName": "Add",
-          "tsEmitName": "add4",
+          "tsEmitName": "Add4",
           "normalizedSignature": "Add|(System.Uri,System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -169,8 +183,9 @@
           "parameterCount": 2
         },
         {
+          "stableId": "System.Private.Xml:System.Xml.Resolvers.XmlPreloadedResolver::Remove(System.Uri):System.Void",
           "clrName": "Remove",
-          "tsEmitName": "remove",
+          "tsEmitName": "Remove",
           "normalizedSignature": "Remove|(System.Uri):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -183,8 +198,9 @@
           "parameterCount": 1
         },
         {
+          "stableId": "System.Private.Xml:System.Xml.Resolvers.XmlPreloadedResolver::GetEntityAsync(System.Uri,System.String,System.Type):System.Threading.Tasks.Task_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "GetEntityAsync",
-          "tsEmitName": "getEntityAsync2",
+          "tsEmitName": "GetEntityAsync2",
           "normalizedSignature": "GetEntityAsync|(System.Uri,System.String,System.Type):System.Threading.Tasks.Task_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -197,8 +213,9 @@
           "parameterCount": 3
         },
         {
+          "stableId": "System.Private.Xml:System.Xml.Resolvers.XmlPreloadedResolver::GetEntityAsync(System.Uri,System.String,System.Type):System.Threading.Tasks.Task_1",
           "clrName": "GetEntityAsync",
-          "tsEmitName": "getEntityAsync",
+          "tsEmitName": "GetEntityAsync",
           "normalizedSignature": "GetEntityAsync|(System.Uri,System.String,System.Type):System.Threading.Tasks.Task_1|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -213,8 +230,9 @@
       ],
       "properties": [
         {
+          "stableId": "System.Private.Xml:System.Xml.Resolvers.XmlPreloadedResolver::Credentials:System.Net.ICredentials",
           "clrName": "Credentials",
-          "tsEmitName": "credentials",
+          "tsEmitName": "Credentials",
           "normalizedSignature": "Credentials|:System.Net.ICredentials|static=false|accessor=set",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -227,8 +245,9 @@
           "hasSetter": true
         },
         {
+          "stableId": "System.Private.Xml:System.Xml.Resolvers.XmlPreloadedResolver::PreloadedUris:System.Collections.Generic.IEnumerable_1[[System.Uri,System.Private.Uri,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
           "clrName": "PreloadedUris",
-          "tsEmitName": "preloadedUris",
+          "tsEmitName": "PreloadedUris",
           "normalizedSignature": "PreloadedUris|:System.Collections.Generic.IEnumerable_1[[System.Uri,System.Private.Uri,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",

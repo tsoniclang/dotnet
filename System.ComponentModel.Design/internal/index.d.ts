@@ -47,39 +47,39 @@ export type CLROf<T> =
     T; // Identity fallback for non-primitive types
 
 export enum HelpContextType {
-    ambient = 0,
-    window = 1,
-    selection = 2,
-    toolWindowSelection = 3
+    Ambient = 0,
+    Window = 1,
+    Selection = 2,
+    ToolWindowSelection = 3
 }
 
 
 export enum HelpKeywordType {
-    f1Keyword = 0,
-    generalKeyword = 1,
-    filterKeyword = 2
+    F1Keyword = 0,
+    GeneralKeyword = 1,
+    FilterKeyword = 2
 }
 
 
 export enum SelectionTypes {
-    auto = 1,
-    normal = 1,
-    replace = 2,
-    mouseDown = 4,
-    mouseUp = 8,
-    click = 16,
-    primary = 16,
-    toggle = 32,
-    add = 64,
-    remove = 128,
-    valid = 31
+    Auto = 1,
+    Normal = 1,
+    Replace = 2,
+    MouseDown = 4,
+    MouseUp = 8,
+    Click = 16,
+    Primary = 16,
+    Toggle = 32,
+    Add = 64,
+    Remove = 128,
+    Valid = 31
 }
 
 
 export enum ViewTechnology {
-    passthrough = 0,
-    windowsForms = 1,
-    default_ = 2
+    Passthrough = 0,
+    WindowsForms = 1,
+    Default = 2
 }
 
 
@@ -337,8 +337,8 @@ export type ITypeResolutionService = ITypeResolutionService$instance;
 
 export class ActiveDesignerEventArgs$instance extends System_Internal.EventArgs$instance {
     constructor(oldDesigner: IDesignerHost, newDesigner: IDesignerHost);
-    readonly newDesigner: IDesignerHost;
-    readonly oldDesigner: IDesignerHost;
+    readonly NewDesigner: IDesignerHost;
+    readonly OldDesigner: IDesignerHost;
 }
 
 
@@ -346,11 +346,11 @@ export type ActiveDesignerEventArgs = ActiveDesignerEventArgs$instance;
 
 export class ActiveDesignerEventHandler$instance extends Function {
     constructor(object_: any, method: nint);
-    beginInvoke(sender: any, e: ActiveDesignerEventArgs, callback: AsyncCallback, object_: any): IAsyncResult;
-    clone(): any;
-    endInvoke(result: IAsyncResult): void;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(sender: any, e: ActiveDesignerEventArgs): void;
+    BeginInvoke(sender: any, e: ActiveDesignerEventArgs, callback: AsyncCallback, object_: any): IAsyncResult;
+    Clone(): any;
+    EndInvoke(result: IAsyncResult): void;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    Invoke(sender: any, e: ActiveDesignerEventArgs): void;
 }
 
 
@@ -367,8 +367,8 @@ export class CheckoutException$instance extends System_Runtime_InteropServices_I
     constructor(message: string);
     constructor(message: string, errorCode: int);
     constructor(message: string, innerException: Exception);
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    static readonly canceled: CheckoutException;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    static readonly Canceled: CheckoutException;
 }
 
 
@@ -381,11 +381,11 @@ export type CheckoutException = CheckoutException$instance & __CheckoutException
 
 export class CommandID$instance {
     constructor(menuGroup: Guid, commandID: int);
-    readonly guid: Guid;
-    readonly id: int;
-    equals(obj: any): boolean;
-    getHashCode(): int;
-    toString(): string;
+    readonly Guid: Guid;
+    readonly ID: int;
+    Equals(obj: any): boolean;
+    GetHashCode(): int;
+    ToString(): string;
 }
 
 
@@ -393,10 +393,10 @@ export type CommandID = CommandID$instance;
 
 export class ComponentChangedEventArgs$instance extends System_Internal.EventArgs$instance {
     constructor(component: any, member: MemberDescriptor, oldValue: any, newValue: any);
-    readonly component: any;
-    readonly member: MemberDescriptor;
-    readonly newValue: any;
-    readonly oldValue: any;
+    readonly Component: any;
+    readonly Member: MemberDescriptor;
+    readonly NewValue: any;
+    readonly OldValue: any;
 }
 
 
@@ -404,11 +404,11 @@ export type ComponentChangedEventArgs = ComponentChangedEventArgs$instance;
 
 export class ComponentChangedEventHandler$instance extends Function {
     constructor(object_: any, method: nint);
-    beginInvoke(sender: any, e: ComponentChangedEventArgs, callback: AsyncCallback, object_: any): IAsyncResult;
-    clone(): any;
-    endInvoke(result: IAsyncResult): void;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(sender: any, e: ComponentChangedEventArgs): void;
+    BeginInvoke(sender: any, e: ComponentChangedEventArgs, callback: AsyncCallback, object_: any): IAsyncResult;
+    Clone(): any;
+    EndInvoke(result: IAsyncResult): void;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    Invoke(sender: any, e: ComponentChangedEventArgs): void;
 }
 
 
@@ -422,8 +422,8 @@ export type ComponentChangedEventHandler = ComponentChangedEventHandler$instance
 
 export class ComponentChangingEventArgs$instance extends System_Internal.EventArgs$instance {
     constructor(component: any, member: MemberDescriptor);
-    readonly component: any;
-    readonly member: MemberDescriptor;
+    readonly Component: any;
+    readonly Member: MemberDescriptor;
 }
 
 
@@ -431,11 +431,11 @@ export type ComponentChangingEventArgs = ComponentChangingEventArgs$instance;
 
 export class ComponentChangingEventHandler$instance extends Function {
     constructor(object_: any, method: nint);
-    beginInvoke(sender: any, e: ComponentChangingEventArgs, callback: AsyncCallback, object_: any): IAsyncResult;
-    clone(): any;
-    endInvoke(result: IAsyncResult): void;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(sender: any, e: ComponentChangingEventArgs): void;
+    BeginInvoke(sender: any, e: ComponentChangingEventArgs, callback: AsyncCallback, object_: any): IAsyncResult;
+    Clone(): any;
+    EndInvoke(result: IAsyncResult): void;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    Invoke(sender: any, e: ComponentChangingEventArgs): void;
 }
 
 
@@ -449,7 +449,7 @@ export type ComponentChangingEventHandler = ComponentChangingEventHandler$instan
 
 export class ComponentEventArgs$instance extends System_Internal.EventArgs$instance {
     constructor(component: IComponent);
-    readonly component: IComponent;
+    readonly Component: IComponent;
 }
 
 
@@ -457,11 +457,11 @@ export type ComponentEventArgs = ComponentEventArgs$instance;
 
 export class ComponentEventHandler$instance extends Function {
     constructor(object_: any, method: nint);
-    beginInvoke(sender: any, e: ComponentEventArgs, callback: AsyncCallback, object_: any): IAsyncResult;
-    clone(): any;
-    endInvoke(result: IAsyncResult): void;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(sender: any, e: ComponentEventArgs): void;
+    BeginInvoke(sender: any, e: ComponentEventArgs, callback: AsyncCallback, object_: any): IAsyncResult;
+    Clone(): any;
+    EndInvoke(result: IAsyncResult): void;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    Invoke(sender: any, e: ComponentEventArgs): void;
 }
 
 
@@ -475,9 +475,9 @@ export type ComponentEventHandler = ComponentEventHandler$instance & __Component
 
 export class ComponentRenameEventArgs$instance extends System_Internal.EventArgs$instance {
     constructor(component: any, oldName: string, newName: string);
-    readonly component: any;
-    readonly newName: string;
-    readonly oldName: string;
+    readonly Component: any;
+    readonly NewName: string;
+    readonly OldName: string;
 }
 
 
@@ -485,11 +485,11 @@ export type ComponentRenameEventArgs = ComponentRenameEventArgs$instance;
 
 export class ComponentRenameEventHandler$instance extends Function {
     constructor(object_: any, method: nint);
-    beginInvoke(sender: any, e: ComponentRenameEventArgs, callback: AsyncCallback, object_: any): IAsyncResult;
-    clone(): any;
-    endInvoke(result: IAsyncResult): void;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(sender: any, e: ComponentRenameEventArgs): void;
+    BeginInvoke(sender: any, e: ComponentRenameEventArgs, callback: AsyncCallback, object_: any): IAsyncResult;
+    Clone(): any;
+    EndInvoke(result: IAsyncResult): void;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    Invoke(sender: any, e: ComponentRenameEventArgs): void;
 }
 
 
@@ -504,9 +504,9 @@ export type ComponentRenameEventHandler = ComponentRenameEventHandler$instance &
 export class DesignerCollection$instance {
     constructor(designers: IDesignerHost[]);
     constructor(designers: IList);
-    readonly count: int;
-    readonly item: IDesignerHost;
-    getEnumerator(): IEnumerator;
+    readonly Count: int;
+    readonly Item: IDesignerHost;
+    GetEnumerator(): IEnumerator;
 }
 
 
@@ -520,7 +520,7 @@ export type DesignerCollection = DesignerCollection$instance & __DesignerCollect
 
 export class DesignerEventArgs$instance extends System_Internal.EventArgs$instance {
     constructor(host: IDesignerHost);
-    readonly designer: IDesignerHost;
+    readonly Designer: IDesignerHost;
 }
 
 
@@ -528,11 +528,11 @@ export type DesignerEventArgs = DesignerEventArgs$instance;
 
 export class DesignerEventHandler$instance extends Function {
     constructor(object_: any, method: nint);
-    beginInvoke(sender: any, e: DesignerEventArgs, callback: AsyncCallback, object_: any): IAsyncResult;
-    clone(): any;
-    endInvoke(result: IAsyncResult): void;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(sender: any, e: DesignerEventArgs): void;
+    BeginInvoke(sender: any, e: DesignerEventArgs, callback: AsyncCallback, object_: any): IAsyncResult;
+    Clone(): any;
+    EndInvoke(result: IAsyncResult): void;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    Invoke(sender: any, e: DesignerEventArgs): void;
 }
 
 
@@ -545,7 +545,7 @@ export type DesignerEventHandler = DesignerEventHandler$instance & __DesignerEve
 
 
 export abstract class DesignerOptionService$instance {
-    readonly options: DesignerOptionService_DesignerOptionCollection;
+    readonly Options: DesignerOptionService_DesignerOptionCollection;
 }
 
 
@@ -557,16 +557,16 @@ export type DesignerOptionService = DesignerOptionService$instance & __DesignerO
 
 
 export class DesignerOptionService_DesignerOptionCollection$instance {
-    readonly count: int;
-    readonly name: string;
-    readonly parent: DesignerOptionService_DesignerOptionCollection;
-    readonly properties: PropertyDescriptorCollection;
-    copyTo(array: ClrArray, index: int): void;
+    readonly Count: int;
+    readonly Name: string;
+    readonly Parent: DesignerOptionService_DesignerOptionCollection;
+    readonly Properties: PropertyDescriptorCollection;
+    CopyTo(array: ClrArray, index: int): void;
     get_Item(index: int): DesignerOptionService_DesignerOptionCollection;
     get_Item(name: string): DesignerOptionService_DesignerOptionCollection;
-    getEnumerator(): IEnumerator;
-    indexOf(value: DesignerOptionService_DesignerOptionCollection): int;
-    showDialog(): boolean;
+    GetEnumerator(): IEnumerator;
+    IndexOf(value: DesignerOptionService_DesignerOptionCollection): int;
+    ShowDialog(): boolean;
 }
 
 
@@ -580,11 +580,11 @@ export type DesignerOptionService_DesignerOptionCollection = DesignerOptionServi
 
 
 export abstract class DesignerTransaction$instance {
-    readonly canceled: boolean;
-    readonly committed: boolean;
-    readonly description: string;
-    cancel(): void;
-    commit(): void;
+    readonly Canceled: boolean;
+    readonly Committed: boolean;
+    readonly Description: string;
+    Cancel(): void;
+    Commit(): void;
 }
 
 
@@ -598,8 +598,8 @@ export type DesignerTransaction = DesignerTransaction$instance & __DesignerTrans
 export class DesignerTransactionCloseEventArgs$instance extends System_Internal.EventArgs$instance {
     constructor(commit: boolean);
     constructor(commit: boolean, lastTransaction: boolean);
-    readonly lastTransaction: boolean;
-    readonly transactionCommitted: boolean;
+    readonly LastTransaction: boolean;
+    readonly TransactionCommitted: boolean;
 }
 
 
@@ -607,11 +607,11 @@ export type DesignerTransactionCloseEventArgs = DesignerTransactionCloseEventArg
 
 export class DesignerTransactionCloseEventHandler$instance extends Function {
     constructor(object_: any, method: nint);
-    beginInvoke(sender: any, e: DesignerTransactionCloseEventArgs, callback: AsyncCallback, object_: any): IAsyncResult;
-    clone(): any;
-    endInvoke(result: IAsyncResult): void;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(sender: any, e: DesignerTransactionCloseEventArgs): void;
+    BeginInvoke(sender: any, e: DesignerTransactionCloseEventArgs, callback: AsyncCallback, object_: any): IAsyncResult;
+    Clone(): any;
+    EndInvoke(result: IAsyncResult): void;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    Invoke(sender: any, e: DesignerTransactionCloseEventArgs): void;
 }
 
 
@@ -626,9 +626,9 @@ export type DesignerTransactionCloseEventHandler = DesignerTransactionCloseEvent
 export class DesignerVerb$instance extends MenuCommand$instance {
     constructor(text: string, handler: EventHandler);
     constructor(text: string, handler: EventHandler, startCommandID: CommandID);
-    description: string;
-    readonly text: string;
-    toString(): string;
+    Description: string;
+    readonly Text: string;
+    ToString(): string;
 }
 
 
@@ -637,18 +637,18 @@ export type DesignerVerb = DesignerVerb$instance;
 export class DesignerVerbCollection$instance extends System_Collections_Internal.CollectionBase$instance {
     constructor();
     constructor(value: DesignerVerb[]);
-    item: DesignerVerb;
-    add(value: any): int;
-    addRange(value: DesignerVerb[]): void;
-    addRange(value: DesignerVerbCollection): void;
-    clear(): void;
-    contains(value: any): boolean;
-    copyTo(array: ClrArray, index: int): void;
-    getEnumerator(): IEnumerator;
-    indexOf(value: DesignerVerb): int;
-    insert(index: int, value: any): void;
-    remove(value: any): void;
-    removeAt(index: int): void;
+    Item: DesignerVerb;
+    Add(value: any): int;
+    AddRange(value: DesignerVerb[]): void;
+    AddRange(value: DesignerVerbCollection): void;
+    Clear(): void;
+    Contains(value: any): boolean;
+    CopyTo(array: ClrArray, index: int): void;
+    GetEnumerator(): IEnumerator;
+    IndexOf(value: DesignerVerb): int;
+    Insert(index: int, value: any): void;
+    Remove(value: any): void;
+    RemoveAt(index: int): void;
 }
 
 
@@ -663,10 +663,10 @@ export type DesignerVerbCollection = DesignerVerbCollection$instance & __Designe
 
 export class DesigntimeLicenseContext$instance extends System_ComponentModel_Internal.LicenseContext$instance {
     constructor();
-    readonly usageMode: LicenseUsageMode;
-    getSavedLicenseKey(type_: Type, resourceAssembly: Assembly): string;
-    getService(type_: Type): any;
-    setSavedLicenseKey(type_: Type, key: string): void;
+    readonly UsageMode: LicenseUsageMode;
+    GetSavedLicenseKey(type_: Type, resourceAssembly: Assembly): string;
+    GetService(type_: Type): any;
+    SetSavedLicenseKey(type_: Type, key: string): void;
 }
 
 
@@ -688,11 +688,11 @@ export class HelpKeywordAttribute$instance extends System_Internal.Attribute$ins
     constructor();
     constructor(keyword: string);
     constructor(t: Type);
-    readonly helpKeyword: string;
-    equals(obj: any): boolean;
-    getHashCode(): int;
-    isDefaultAttribute(): boolean;
-    static readonly default_: HelpKeywordAttribute;
+    readonly HelpKeyword: string;
+    Equals(obj: any): boolean;
+    GetHashCode(): int;
+    IsDefaultAttribute(): boolean;
+    static readonly Default: HelpKeywordAttribute;
 }
 
 
@@ -700,16 +700,16 @@ export type HelpKeywordAttribute = HelpKeywordAttribute$instance;
 
 export class MenuCommand$instance {
     constructor(handler: EventHandler, command: CommandID);
-    checked: boolean;
-    readonly commandID: CommandID;
-    enabled: boolean;
-    readonly oleStatus: int;
-    readonly properties: IDictionary;
-    supported: boolean;
-    visible: boolean;
-    invoke(): void;
-    invoke(arg: any): void;
-    toString(): string;
+    Checked: boolean;
+    readonly CommandID: CommandID;
+    Enabled: boolean;
+    readonly OleStatus: int;
+    readonly Properties: IDictionary;
+    Supported: boolean;
+    Visible: boolean;
+    Invoke(): void;
+    Invoke(arg: any): void;
+    ToString(): string;
 }
 
 
@@ -718,14 +718,14 @@ export type MenuCommand = MenuCommand$instance;
 export class ServiceContainer$instance {
     constructor();
     constructor(parentProvider: IServiceProvider);
-    addService(serviceType: Type, serviceInstance: any): void;
-    addService(serviceType: Type, serviceInstance: any, promote: boolean): void;
-    addService(serviceType: Type, callback: ServiceCreatorCallback): void;
-    addService(serviceType: Type, callback: ServiceCreatorCallback, promote: boolean): void;
-    dispose(): void;
-    getService(serviceType: Type): any;
-    removeService(serviceType: Type): void;
-    removeService(serviceType: Type, promote: boolean): void;
+    AddService(serviceType: Type, serviceInstance: any): void;
+    AddService(serviceType: Type, serviceInstance: any, promote: boolean): void;
+    AddService(serviceType: Type, callback: ServiceCreatorCallback): void;
+    AddService(serviceType: Type, callback: ServiceCreatorCallback, promote: boolean): void;
+    Dispose(): void;
+    GetService(serviceType: Type): any;
+    RemoveService(serviceType: Type): void;
+    RemoveService(serviceType: Type, promote: boolean): void;
 }
 
 
@@ -740,11 +740,11 @@ export type ServiceContainer = ServiceContainer$instance & __ServiceContainer$vi
 
 export class ServiceCreatorCallback$instance extends Function {
     constructor(object_: any, method: nint);
-    beginInvoke(container: IServiceContainer, serviceType: Type, callback: AsyncCallback, object_: any): IAsyncResult;
-    clone(): any;
-    endInvoke(result: IAsyncResult): any;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(container: IServiceContainer, serviceType: Type): any;
+    BeginInvoke(container: IServiceContainer, serviceType: Type, callback: AsyncCallback, object_: any): IAsyncResult;
+    Clone(): any;
+    EndInvoke(result: IAsyncResult): any;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    Invoke(container: IServiceContainer, serviceType: Type): any;
 }
 
 
@@ -758,61 +758,61 @@ export type ServiceCreatorCallback = ServiceCreatorCallback$instance & __Service
 
 export class StandardCommands$instance {
     constructor();
-    static readonly alignBottom: CommandID;
-    static readonly alignHorizontalCenters: CommandID;
-    static readonly alignLeft: CommandID;
-    static readonly alignRight: CommandID;
-    static readonly alignToGrid: CommandID;
-    static readonly alignTop: CommandID;
-    static readonly alignVerticalCenters: CommandID;
-    static readonly arrangeBottom: CommandID;
-    static readonly arrangeRight: CommandID;
-    static readonly bringForward: CommandID;
-    static readonly bringToFront: CommandID;
-    static readonly centerHorizontally: CommandID;
-    static readonly centerVertically: CommandID;
-    static readonly viewCode: CommandID;
-    static readonly documentOutline: CommandID;
-    static readonly copy: CommandID;
-    static readonly cut: CommandID;
-    static readonly delete_: CommandID;
-    static readonly group: CommandID;
-    static readonly horizSpaceConcatenate: CommandID;
-    static readonly horizSpaceDecrease: CommandID;
-    static readonly horizSpaceIncrease: CommandID;
-    static readonly horizSpaceMakeEqual: CommandID;
-    static readonly paste: CommandID;
-    static readonly properties: CommandID;
-    static readonly redo: CommandID;
-    static readonly multiLevelRedo: CommandID;
-    static readonly selectAll: CommandID;
-    static readonly sendBackward: CommandID;
-    static readonly sendToBack: CommandID;
-    static readonly sizeToControl: CommandID;
-    static readonly sizeToControlHeight: CommandID;
-    static readonly sizeToControlWidth: CommandID;
-    static readonly sizeToFit: CommandID;
-    static readonly sizeToGrid: CommandID;
-    static readonly snapToGrid: CommandID;
-    static readonly tabOrder: CommandID;
-    static readonly undo: CommandID;
-    static readonly multiLevelUndo: CommandID;
-    static readonly ungroup: CommandID;
-    static readonly vertSpaceConcatenate: CommandID;
-    static readonly vertSpaceDecrease: CommandID;
-    static readonly vertSpaceIncrease: CommandID;
-    static readonly vertSpaceMakeEqual: CommandID;
-    static readonly showGrid: CommandID;
-    static readonly viewGrid: CommandID;
-    static readonly replace: CommandID;
-    static readonly propertiesWindow: CommandID;
-    static readonly lockControls: CommandID;
-    static readonly f1Help: CommandID;
-    static readonly arrangeIcons: CommandID;
-    static readonly lineupIcons: CommandID;
-    static readonly showLargeIcons: CommandID;
-    static readonly verbFirst: CommandID;
-    static readonly verbLast: CommandID;
+    static readonly AlignBottom: CommandID;
+    static readonly AlignHorizontalCenters: CommandID;
+    static readonly AlignLeft: CommandID;
+    static readonly AlignRight: CommandID;
+    static readonly AlignToGrid: CommandID;
+    static readonly AlignTop: CommandID;
+    static readonly AlignVerticalCenters: CommandID;
+    static readonly ArrangeBottom: CommandID;
+    static readonly ArrangeRight: CommandID;
+    static readonly BringForward: CommandID;
+    static readonly BringToFront: CommandID;
+    static readonly CenterHorizontally: CommandID;
+    static readonly CenterVertically: CommandID;
+    static readonly ViewCode: CommandID;
+    static readonly DocumentOutline: CommandID;
+    static readonly Copy: CommandID;
+    static readonly Cut: CommandID;
+    static readonly Delete: CommandID;
+    static readonly Group: CommandID;
+    static readonly HorizSpaceConcatenate: CommandID;
+    static readonly HorizSpaceDecrease: CommandID;
+    static readonly HorizSpaceIncrease: CommandID;
+    static readonly HorizSpaceMakeEqual: CommandID;
+    static readonly Paste: CommandID;
+    static readonly Properties: CommandID;
+    static readonly Redo: CommandID;
+    static readonly MultiLevelRedo: CommandID;
+    static readonly SelectAll: CommandID;
+    static readonly SendBackward: CommandID;
+    static readonly SendToBack: CommandID;
+    static readonly SizeToControl: CommandID;
+    static readonly SizeToControlHeight: CommandID;
+    static readonly SizeToControlWidth: CommandID;
+    static readonly SizeToFit: CommandID;
+    static readonly SizeToGrid: CommandID;
+    static readonly SnapToGrid: CommandID;
+    static readonly TabOrder: CommandID;
+    static readonly Undo: CommandID;
+    static readonly MultiLevelUndo: CommandID;
+    static readonly Ungroup: CommandID;
+    static readonly VertSpaceConcatenate: CommandID;
+    static readonly VertSpaceDecrease: CommandID;
+    static readonly VertSpaceIncrease: CommandID;
+    static readonly VertSpaceMakeEqual: CommandID;
+    static readonly ShowGrid: CommandID;
+    static readonly ViewGrid: CommandID;
+    static readonly Replace: CommandID;
+    static readonly PropertiesWindow: CommandID;
+    static readonly LockControls: CommandID;
+    static readonly F1Help: CommandID;
+    static readonly ArrangeIcons: CommandID;
+    static readonly LineupIcons: CommandID;
+    static readonly ShowLargeIcons: CommandID;
+    static readonly VerbFirst: CommandID;
+    static readonly VerbLast: CommandID;
 }
 
 
@@ -820,22 +820,22 @@ export type StandardCommands = StandardCommands$instance;
 
 export class StandardToolWindows$instance {
     constructor();
-    static readonly objectBrowser: Guid;
-    static readonly outputWindow: Guid;
-    static readonly projectExplorer: Guid;
-    static readonly propertyBrowser: Guid;
-    static readonly relatedLinks: Guid;
-    static readonly serverExplorer: Guid;
-    static readonly taskList: Guid;
-    static readonly toolbox: Guid;
+    static readonly ObjectBrowser: Guid;
+    static readonly OutputWindow: Guid;
+    static readonly ProjectExplorer: Guid;
+    static readonly PropertyBrowser: Guid;
+    static readonly RelatedLinks: Guid;
+    static readonly ServerExplorer: Guid;
+    static readonly TaskList: Guid;
+    static readonly Toolbox: Guid;
 }
 
 
 export type StandardToolWindows = StandardToolWindows$instance;
 
 export abstract class TypeDescriptionProviderService$instance {
-    abstract getProvider(instance: any): TypeDescriptionProvider;
-    abstract getProvider(type_: Type): TypeDescriptionProvider;
+    abstract GetProvider(instance: any): TypeDescriptionProvider;
+    abstract GetProvider(type_: Type): TypeDescriptionProvider;
 }
 
 

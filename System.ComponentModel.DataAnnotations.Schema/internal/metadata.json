@@ -5,6 +5,7 @@
   ],
   "types": [
     {
+      "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.Schema.DatabaseGeneratedOption",
       "clrName": "System.ComponentModel.DataAnnotations.Schema.DatabaseGeneratedOption",
       "tsEmitName": "DatabaseGeneratedOption",
       "kind": "Enum",
@@ -17,6 +18,7 @@
       "properties": [],
       "fields": [
         {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.Schema.DatabaseGeneratedOption::value__System.Int32",
           "clrName": "value__",
           "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
@@ -25,24 +27,27 @@
           "isLiteral": false
         },
         {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.Schema.DatabaseGeneratedOption::NoneSystem.ComponentModel.DataAnnotations.Schema.DatabaseGeneratedOption",
           "clrName": "None",
-          "tsEmitName": "none",
+          "tsEmitName": "None",
           "normalizedSignature": "None|System.ComponentModel.DataAnnotations.Schema.DatabaseGeneratedOption|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true
         },
         {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.Schema.DatabaseGeneratedOption::IdentitySystem.ComponentModel.DataAnnotations.Schema.DatabaseGeneratedOption",
           "clrName": "Identity",
-          "tsEmitName": "identity",
+          "tsEmitName": "Identity",
           "normalizedSignature": "Identity|System.ComponentModel.DataAnnotations.Schema.DatabaseGeneratedOption|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true
         },
         {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.Schema.DatabaseGeneratedOption::ComputedSystem.ComponentModel.DataAnnotations.Schema.DatabaseGeneratedOption",
           "clrName": "Computed",
-          "tsEmitName": "computed",
+          "tsEmitName": "Computed",
           "normalizedSignature": "Computed|System.ComponentModel.DataAnnotations.Schema.DatabaseGeneratedOption|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -53,6 +58,7 @@
       "constructors": []
     },
     {
+      "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.Schema.ColumnAttribute",
       "clrName": "System.ComponentModel.DataAnnotations.Schema.ColumnAttribute",
       "tsEmitName": "ColumnAttribute",
       "kind": "Class",
@@ -64,8 +70,9 @@
       "methods": [],
       "properties": [
         {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.Schema.ColumnAttribute::Name:System.String",
           "clrName": "Name",
-          "tsEmitName": "name",
+          "tsEmitName": "Name",
           "normalizedSignature": "Name|:System.String|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -78,8 +85,9 @@
           "hasSetter": false
         },
         {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.Schema.ColumnAttribute::Order:System.Int32",
           "clrName": "Order",
-          "tsEmitName": "order",
+          "tsEmitName": "Order",
           "normalizedSignature": "Order|:System.Int32|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -92,8 +100,9 @@
           "hasSetter": true
         },
         {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.Schema.ColumnAttribute::TypeName:System.String",
           "clrName": "TypeName",
-          "tsEmitName": "typeName",
+          "tsEmitName": "TypeName",
           "normalizedSignature": "TypeName|:System.String|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -122,6 +131,7 @@
       ]
     },
     {
+      "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.Schema.ComplexTypeAttribute",
       "clrName": "System.ComponentModel.DataAnnotations.Schema.ComplexTypeAttribute",
       "tsEmitName": "ComplexTypeAttribute",
       "kind": "Class",
@@ -143,6 +153,7 @@
       ]
     },
     {
+      "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.Schema.DatabaseGeneratedAttribute",
       "clrName": "System.ComponentModel.DataAnnotations.Schema.DatabaseGeneratedAttribute",
       "tsEmitName": "DatabaseGeneratedAttribute",
       "kind": "Class",
@@ -154,8 +165,9 @@
       "methods": [],
       "properties": [
         {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.Schema.DatabaseGeneratedAttribute::DatabaseGeneratedOption:System.ComponentModel.DataAnnotations.Schema.DatabaseGeneratedOption",
           "clrName": "DatabaseGeneratedOption",
-          "tsEmitName": "databaseGeneratedOption",
+          "tsEmitName": "DatabaseGeneratedOption",
           "normalizedSignature": "DatabaseGeneratedOption|:System.ComponentModel.DataAnnotations.Schema.DatabaseGeneratedOption|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -179,6 +191,7 @@
       ]
     },
     {
+      "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.Schema.ForeignKeyAttribute",
       "clrName": "System.ComponentModel.DataAnnotations.Schema.ForeignKeyAttribute",
       "tsEmitName": "ForeignKeyAttribute",
       "kind": "Class",
@@ -190,8 +203,9 @@
       "methods": [],
       "properties": [
         {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.Schema.ForeignKeyAttribute::Name:System.String",
           "clrName": "Name",
-          "tsEmitName": "name",
+          "tsEmitName": "Name",
           "normalizedSignature": "Name|:System.String|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -215,6 +229,7 @@
       ]
     },
     {
+      "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.Schema.InversePropertyAttribute",
       "clrName": "System.ComponentModel.DataAnnotations.Schema.InversePropertyAttribute",
       "tsEmitName": "InversePropertyAttribute",
       "kind": "Class",
@@ -226,8 +241,9 @@
       "methods": [],
       "properties": [
         {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.Schema.InversePropertyAttribute::Property:System.String",
           "clrName": "Property",
-          "tsEmitName": "property",
+          "tsEmitName": "Property",
           "normalizedSignature": "Property|:System.String|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -251,6 +267,7 @@
       ]
     },
     {
+      "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.Schema.NotMappedAttribute",
       "clrName": "System.ComponentModel.DataAnnotations.Schema.NotMappedAttribute",
       "tsEmitName": "NotMappedAttribute",
       "kind": "Class",
@@ -272,6 +289,7 @@
       ]
     },
     {
+      "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.Schema.TableAttribute",
       "clrName": "System.ComponentModel.DataAnnotations.Schema.TableAttribute",
       "tsEmitName": "TableAttribute",
       "kind": "Class",
@@ -283,8 +301,9 @@
       "methods": [],
       "properties": [
         {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.Schema.TableAttribute::Name:System.String",
           "clrName": "Name",
-          "tsEmitName": "name",
+          "tsEmitName": "Name",
           "normalizedSignature": "Name|:System.String|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -297,8 +316,9 @@
           "hasSetter": false
         },
         {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.Schema.TableAttribute::Schema:System.String",
           "clrName": "Schema",
-          "tsEmitName": "schema",
+          "tsEmitName": "Schema",
           "normalizedSignature": "Schema|:System.String|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",

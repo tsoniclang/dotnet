@@ -5,12 +5,12 @@
 // Branded primitive types are sourced from @tsonic/types
 import type { sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/types';
 
-// Import support types for unsafe CLR constructs
-import type { TSUnsafePointer, TSByRef } from "../../_support/types.js";
+// Import support types from @tsonic/types
+import type { ptr, ref } from "@tsonic/types";
 
 // Import types from other namespaces
 import * as System_Numerics_Internal from "../../System.Numerics/internal/index.js";
-import type { IAdditionOperators_3, IBitwiseOperators_3, IDivisionOperators_3, IEqualityOperators_3, IMultiplyOperators_3, IShiftOperators_3, ISubtractionOperators_3, IUnaryNegationOperators_2, IUnaryPlusOperators_2, Plane, Quaternion, Vector_1, Vector2, Vector3, Vector4 } from "../../System.Numerics/internal/index.js";
+import type { IAdditionOperators_3, IBitwiseOperators_3, IDivisionOperators_3, IEqualityOperators_3, IFloatingPointConstants_1, IFloatingPointIeee754_1, IMultiplyOperators_3, IShiftOperators_3, ISignedNumber_1, ISubtractionOperators_3, IUnaryNegationOperators_2, IUnaryPlusOperators_2, Plane, Quaternion, Vector_1, Vector2, Vector3, Vector4 } from "../../System.Numerics/internal/index.js";
 import * as System_Internal from "../../System/internal/index.js";
 import type { Boolean as ClrBoolean, Byte, Double, IEquatable_1, Int16, Int32, Int64, IntPtr, MidpointRounding, Object as ClrObject, ReadOnlySpan_1, SByte, Single, Span_1, String as ClrString, Type, UInt16, UInt32, UInt64, UIntPtr, ValueTuple_2, ValueType, Void } from "../../System/internal/index.js";
 
@@ -40,11 +40,11 @@ export type CLROf<T> =
     T; // Identity fallback for non-primitive types
 
 export class Vector128_1$instance<T> {
-    readonly item: T;
-    equals(obj: any): boolean;
-    equals(other: Vector128_1<T>): boolean;
-    getHashCode(): int;
-    toString(): string;
+    readonly Item: T;
+    Equals(obj: any): boolean;
+    Equals(other: Vector128_1<T>): boolean;
+    GetHashCode(): int;
+    ToString(): string;
     static readonly AllBitsSet: unknown;
     static readonly Count: int;
     static readonly Indices: unknown;
@@ -65,11 +65,11 @@ export type Vector128_1<T> = Vector128_1$instance<T> & __Vector128_1$views<T>;
 
 
 export class Vector256_1$instance<T> {
-    readonly item: T;
-    equals(obj: any): boolean;
-    equals(other: Vector256_1<T>): boolean;
-    getHashCode(): int;
-    toString(): string;
+    readonly Item: T;
+    Equals(obj: any): boolean;
+    Equals(other: Vector256_1<T>): boolean;
+    GetHashCode(): int;
+    ToString(): string;
     static readonly AllBitsSet: unknown;
     static readonly Count: int;
     static readonly Indices: unknown;
@@ -90,11 +90,11 @@ export type Vector256_1<T> = Vector256_1$instance<T> & __Vector256_1$views<T>;
 
 
 export class Vector512_1$instance<T> {
-    readonly item: T;
-    equals(obj: any): boolean;
-    equals(other: Vector512_1<T>): boolean;
-    getHashCode(): int;
-    toString(): string;
+    readonly Item: T;
+    Equals(obj: any): boolean;
+    Equals(other: Vector512_1<T>): boolean;
+    GetHashCode(): int;
+    ToString(): string;
     static readonly AllBitsSet: unknown;
     static readonly Count: int;
     static readonly Indices: unknown;
@@ -115,11 +115,11 @@ export type Vector512_1<T> = Vector512_1$instance<T> & __Vector512_1$views<T>;
 
 
 export class Vector64_1$instance<T> {
-    readonly item: T;
-    equals(obj: any): boolean;
-    equals(other: Vector64_1<T>): boolean;
-    getHashCode(): int;
-    toString(): string;
+    readonly Item: T;
+    Equals(obj: any): boolean;
+    Equals(other: Vector64_1<T>): boolean;
+    GetHashCode(): int;
+    ToString(): string;
     static readonly AllBitsSet: unknown;
     static readonly Count: int;
     static readonly Indices: unknown;
@@ -285,6 +285,15 @@ export abstract class Vector128$instance {
     static Floor(vector: Vector128_1<CLROf<float>>): Vector128_1<CLROf<float>>;
     static FusedMultiplyAdd(left: Vector128_1<CLROf<double>>, right: Vector128_1<CLROf<double>>, addend: Vector128_1<CLROf<double>>): Vector128_1<CLROf<double>>;
     static FusedMultiplyAdd(left: Vector128_1<CLROf<float>>, right: Vector128_1<CLROf<float>>, addend: Vector128_1<CLROf<float>>): Vector128_1<CLROf<float>>;
+    static get_E<T extends IFloatingPointConstants_1<T>>(): Vector128_1<T>;
+    static get_Epsilon<T extends IFloatingPointIeee754_1<T>>(): Vector128_1<T>;
+    static get_NaN<T extends IFloatingPointIeee754_1<T>>(): Vector128_1<T>;
+    static get_NegativeInfinity<T extends IFloatingPointIeee754_1<T>>(): Vector128_1<T>;
+    static get_NegativeOne<T extends ISignedNumber_1<T>>(): Vector128_1<T>;
+    static get_NegativeZero<T extends IFloatingPointIeee754_1<T>>(): Vector128_1<T>;
+    static get_Pi<T extends IFloatingPointConstants_1<T>>(): Vector128_1<T>;
+    static get_PositiveInfinity<T extends IFloatingPointIeee754_1<T>>(): Vector128_1<T>;
+    static get_Tau<T extends IFloatingPointConstants_1<T>>(): Vector128_1<T>;
     static GetElement<T>(vector: Vector128_1<T>, index: int): T;
     static GetLower<T>(vector: Vector128_1<T>): Vector64_1<T>;
     static GetUpper<T>(vector: Vector128_1<T>): Vector64_1<T>;
@@ -321,11 +330,11 @@ export abstract class Vector128$instance {
     static LessThanOrEqual<T>(left: Vector128_1<T>, right: Vector128_1<T>): Vector128_1<T>;
     static LessThanOrEqualAll<T>(left: Vector128_1<T>, right: Vector128_1<T>): boolean;
     static LessThanOrEqualAny<T>(left: Vector128_1<T>, right: Vector128_1<T>): boolean;
-    static Load<T>(source: TSUnsafePointer<T>): Vector128_1<T>;
-    static LoadAligned<T>(source: TSUnsafePointer<T>): Vector128_1<T>;
-    static LoadAlignedNonTemporal<T>(source: TSUnsafePointer<T>): Vector128_1<T>;
-    static LoadUnsafe<T>(source: { value: TSByRef<T> }, elementOffset: nuint): Vector128_1<T>;
-    static LoadUnsafe<T>(source: { value: TSByRef<T> }): Vector128_1<T>;
+    static Load<T>(source: ptr<T>): Vector128_1<T>;
+    static LoadAligned<T>(source: ptr<T>): Vector128_1<T>;
+    static LoadAlignedNonTemporal<T>(source: ptr<T>): Vector128_1<T>;
+    static LoadUnsafe<T>(source: { value: ref<T> }, elementOffset: nuint): Vector128_1<T>;
+    static LoadUnsafe<T>(source: { value: ref<T> }): Vector128_1<T>;
     static Log(vector: Vector128_1<CLROf<double>>): Vector128_1<CLROf<double>>;
     static Log(vector: Vector128_1<CLROf<float>>): Vector128_1<CLROf<float>>;
     static Log2(vector: Vector128_1<CLROf<double>>): Vector128_1<CLROf<double>>;
@@ -419,11 +428,11 @@ export abstract class Vector128$instance {
     static SinCos(vector: Vector128_1<CLROf<double>>): ValueTuple_2<Vector128_1<CLROf<double>>, Vector128_1<CLROf<double>>>;
     static SinCos(vector: Vector128_1<CLROf<float>>): ValueTuple_2<Vector128_1<CLROf<float>>, Vector128_1<CLROf<float>>>;
     static Sqrt<T>(vector: Vector128_1<T>): Vector128_1<T>;
-    static Store<T>(source: Vector128_1<T>, destination: TSUnsafePointer<T>): void;
-    static StoreAligned<T>(source: Vector128_1<T>, destination: TSUnsafePointer<T>): void;
-    static StoreAlignedNonTemporal<T>(source: Vector128_1<T>, destination: TSUnsafePointer<T>): void;
-    static StoreUnsafe<T>(source: Vector128_1<T>, destination: { value: TSByRef<T> }, elementOffset: nuint): void;
-    static StoreUnsafe<T>(source: Vector128_1<T>, destination: { value: TSByRef<T> }): void;
+    static Store<T>(source: Vector128_1<T>, destination: ptr<T>): void;
+    static StoreAligned<T>(source: Vector128_1<T>, destination: ptr<T>): void;
+    static StoreAlignedNonTemporal<T>(source: Vector128_1<T>, destination: ptr<T>): void;
+    static StoreUnsafe<T>(source: Vector128_1<T>, destination: { value: ref<T> }, elementOffset: nuint): void;
+    static StoreUnsafe<T>(source: Vector128_1<T>, destination: { value: ref<T> }): void;
     static Subtract<T>(left: Vector128_1<T>, right: Vector128_1<T>): Vector128_1<T>;
     static SubtractSaturate<T>(left: Vector128_1<T>, right: Vector128_1<T>): Vector128_1<T>;
     static Sum<T>(vector: Vector128_1<T>): T;
@@ -598,6 +607,15 @@ export abstract class Vector256$instance {
     static Floor(vector: Vector256_1<CLROf<float>>): Vector256_1<CLROf<float>>;
     static FusedMultiplyAdd(left: Vector256_1<CLROf<double>>, right: Vector256_1<CLROf<double>>, addend: Vector256_1<CLROf<double>>): Vector256_1<CLROf<double>>;
     static FusedMultiplyAdd(left: Vector256_1<CLROf<float>>, right: Vector256_1<CLROf<float>>, addend: Vector256_1<CLROf<float>>): Vector256_1<CLROf<float>>;
+    static get_E<T extends IFloatingPointConstants_1<T>>(): Vector256_1<T>;
+    static get_Epsilon<T extends IFloatingPointIeee754_1<T>>(): Vector256_1<T>;
+    static get_NaN<T extends IFloatingPointIeee754_1<T>>(): Vector256_1<T>;
+    static get_NegativeInfinity<T extends IFloatingPointIeee754_1<T>>(): Vector256_1<T>;
+    static get_NegativeOne<T extends ISignedNumber_1<T>>(): Vector256_1<T>;
+    static get_NegativeZero<T extends IFloatingPointIeee754_1<T>>(): Vector256_1<T>;
+    static get_Pi<T extends IFloatingPointConstants_1<T>>(): Vector256_1<T>;
+    static get_PositiveInfinity<T extends IFloatingPointIeee754_1<T>>(): Vector256_1<T>;
+    static get_Tau<T extends IFloatingPointConstants_1<T>>(): Vector256_1<T>;
     static GetElement<T>(vector: Vector256_1<T>, index: int): T;
     static GetLower<T>(vector: Vector256_1<T>): Vector128_1<T>;
     static GetUpper<T>(vector: Vector256_1<T>): Vector128_1<T>;
@@ -634,11 +652,11 @@ export abstract class Vector256$instance {
     static LessThanOrEqual<T>(left: Vector256_1<T>, right: Vector256_1<T>): Vector256_1<T>;
     static LessThanOrEqualAll<T>(left: Vector256_1<T>, right: Vector256_1<T>): boolean;
     static LessThanOrEqualAny<T>(left: Vector256_1<T>, right: Vector256_1<T>): boolean;
-    static Load<T>(source: TSUnsafePointer<T>): Vector256_1<T>;
-    static LoadAligned<T>(source: TSUnsafePointer<T>): Vector256_1<T>;
-    static LoadAlignedNonTemporal<T>(source: TSUnsafePointer<T>): Vector256_1<T>;
-    static LoadUnsafe<T>(source: { value: TSByRef<T> }, elementOffset: nuint): Vector256_1<T>;
-    static LoadUnsafe<T>(source: { value: TSByRef<T> }): Vector256_1<T>;
+    static Load<T>(source: ptr<T>): Vector256_1<T>;
+    static LoadAligned<T>(source: ptr<T>): Vector256_1<T>;
+    static LoadAlignedNonTemporal<T>(source: ptr<T>): Vector256_1<T>;
+    static LoadUnsafe<T>(source: { value: ref<T> }, elementOffset: nuint): Vector256_1<T>;
+    static LoadUnsafe<T>(source: { value: ref<T> }): Vector256_1<T>;
     static Log(vector: Vector256_1<CLROf<double>>): Vector256_1<CLROf<double>>;
     static Log(vector: Vector256_1<CLROf<float>>): Vector256_1<CLROf<float>>;
     static Log2(vector: Vector256_1<CLROf<double>>): Vector256_1<CLROf<double>>;
@@ -732,11 +750,11 @@ export abstract class Vector256$instance {
     static SinCos(vector: Vector256_1<CLROf<double>>): ValueTuple_2<Vector256_1<CLROf<double>>, Vector256_1<CLROf<double>>>;
     static SinCos(vector: Vector256_1<CLROf<float>>): ValueTuple_2<Vector256_1<CLROf<float>>, Vector256_1<CLROf<float>>>;
     static Sqrt<T>(vector: Vector256_1<T>): Vector256_1<T>;
-    static Store<T>(source: Vector256_1<T>, destination: TSUnsafePointer<T>): void;
-    static StoreAligned<T>(source: Vector256_1<T>, destination: TSUnsafePointer<T>): void;
-    static StoreAlignedNonTemporal<T>(source: Vector256_1<T>, destination: TSUnsafePointer<T>): void;
-    static StoreUnsafe<T>(source: Vector256_1<T>, destination: { value: TSByRef<T> }, elementOffset: nuint): void;
-    static StoreUnsafe<T>(source: Vector256_1<T>, destination: { value: TSByRef<T> }): void;
+    static Store<T>(source: Vector256_1<T>, destination: ptr<T>): void;
+    static StoreAligned<T>(source: Vector256_1<T>, destination: ptr<T>): void;
+    static StoreAlignedNonTemporal<T>(source: Vector256_1<T>, destination: ptr<T>): void;
+    static StoreUnsafe<T>(source: Vector256_1<T>, destination: { value: ref<T> }, elementOffset: nuint): void;
+    static StoreUnsafe<T>(source: Vector256_1<T>, destination: { value: ref<T> }): void;
     static Subtract<T>(left: Vector256_1<T>, right: Vector256_1<T>): Vector256_1<T>;
     static SubtractSaturate<T>(left: Vector256_1<T>, right: Vector256_1<T>): Vector256_1<T>;
     static Sum<T>(vector: Vector256_1<T>): T;
@@ -912,6 +930,15 @@ export abstract class Vector512$instance {
     static Floor(vector: Vector512_1<CLROf<float>>): Vector512_1<CLROf<float>>;
     static FusedMultiplyAdd(left: Vector512_1<CLROf<double>>, right: Vector512_1<CLROf<double>>, addend: Vector512_1<CLROf<double>>): Vector512_1<CLROf<double>>;
     static FusedMultiplyAdd(left: Vector512_1<CLROf<float>>, right: Vector512_1<CLROf<float>>, addend: Vector512_1<CLROf<float>>): Vector512_1<CLROf<float>>;
+    static get_E<T extends IFloatingPointConstants_1<T>>(): Vector512_1<T>;
+    static get_Epsilon<T extends IFloatingPointIeee754_1<T>>(): Vector512_1<T>;
+    static get_NaN<T extends IFloatingPointIeee754_1<T>>(): Vector512_1<T>;
+    static get_NegativeInfinity<T extends IFloatingPointIeee754_1<T>>(): Vector512_1<T>;
+    static get_NegativeOne<T extends ISignedNumber_1<T>>(): Vector512_1<T>;
+    static get_NegativeZero<T extends IFloatingPointIeee754_1<T>>(): Vector512_1<T>;
+    static get_Pi<T extends IFloatingPointConstants_1<T>>(): Vector512_1<T>;
+    static get_PositiveInfinity<T extends IFloatingPointIeee754_1<T>>(): Vector512_1<T>;
+    static get_Tau<T extends IFloatingPointConstants_1<T>>(): Vector512_1<T>;
     static GetElement<T>(vector: Vector512_1<T>, index: int): T;
     static GetLower<T>(vector: Vector512_1<T>): Vector256_1<T>;
     static GetUpper<T>(vector: Vector512_1<T>): Vector256_1<T>;
@@ -948,11 +975,11 @@ export abstract class Vector512$instance {
     static LessThanOrEqual<T>(left: Vector512_1<T>, right: Vector512_1<T>): Vector512_1<T>;
     static LessThanOrEqualAll<T>(left: Vector512_1<T>, right: Vector512_1<T>): boolean;
     static LessThanOrEqualAny<T>(left: Vector512_1<T>, right: Vector512_1<T>): boolean;
-    static Load<T>(source: TSUnsafePointer<T>): Vector512_1<T>;
-    static LoadAligned<T>(source: TSUnsafePointer<T>): Vector512_1<T>;
-    static LoadAlignedNonTemporal<T>(source: TSUnsafePointer<T>): Vector512_1<T>;
-    static LoadUnsafe<T>(source: { value: TSByRef<T> }, elementOffset: nuint): Vector512_1<T>;
-    static LoadUnsafe<T>(source: { value: TSByRef<T> }): Vector512_1<T>;
+    static Load<T>(source: ptr<T>): Vector512_1<T>;
+    static LoadAligned<T>(source: ptr<T>): Vector512_1<T>;
+    static LoadAlignedNonTemporal<T>(source: ptr<T>): Vector512_1<T>;
+    static LoadUnsafe<T>(source: { value: ref<T> }, elementOffset: nuint): Vector512_1<T>;
+    static LoadUnsafe<T>(source: { value: ref<T> }): Vector512_1<T>;
     static Log(vector: Vector512_1<CLROf<double>>): Vector512_1<CLROf<double>>;
     static Log(vector: Vector512_1<CLROf<float>>): Vector512_1<CLROf<float>>;
     static Log2(vector: Vector512_1<CLROf<double>>): Vector512_1<CLROf<double>>;
@@ -1046,11 +1073,11 @@ export abstract class Vector512$instance {
     static SinCos(vector: Vector512_1<CLROf<double>>): ValueTuple_2<Vector512_1<CLROf<double>>, Vector512_1<CLROf<double>>>;
     static SinCos(vector: Vector512_1<CLROf<float>>): ValueTuple_2<Vector512_1<CLROf<float>>, Vector512_1<CLROf<float>>>;
     static Sqrt<T>(vector: Vector512_1<T>): Vector512_1<T>;
-    static Store<T>(source: Vector512_1<T>, destination: TSUnsafePointer<T>): void;
-    static StoreAligned<T>(source: Vector512_1<T>, destination: TSUnsafePointer<T>): void;
-    static StoreAlignedNonTemporal<T>(source: Vector512_1<T>, destination: TSUnsafePointer<T>): void;
-    static StoreUnsafe<T>(source: Vector512_1<T>, destination: { value: TSByRef<T> }, elementOffset: nuint): void;
-    static StoreUnsafe<T>(source: Vector512_1<T>, destination: { value: TSByRef<T> }): void;
+    static Store<T>(source: Vector512_1<T>, destination: ptr<T>): void;
+    static StoreAligned<T>(source: Vector512_1<T>, destination: ptr<T>): void;
+    static StoreAlignedNonTemporal<T>(source: Vector512_1<T>, destination: ptr<T>): void;
+    static StoreUnsafe<T>(source: Vector512_1<T>, destination: { value: ref<T> }, elementOffset: nuint): void;
+    static StoreUnsafe<T>(source: Vector512_1<T>, destination: { value: ref<T> }): void;
     static Subtract<T>(left: Vector512_1<T>, right: Vector512_1<T>): Vector512_1<T>;
     static SubtractSaturate<T>(left: Vector512_1<T>, right: Vector512_1<T>): Vector512_1<T>;
     static Sum<T>(vector: Vector512_1<T>): T;
@@ -1203,6 +1230,15 @@ export abstract class Vector64$instance {
     static Floor(vector: Vector64_1<CLROf<float>>): Vector64_1<CLROf<float>>;
     static FusedMultiplyAdd(left: Vector64_1<CLROf<double>>, right: Vector64_1<CLROf<double>>, addend: Vector64_1<CLROf<double>>): Vector64_1<CLROf<double>>;
     static FusedMultiplyAdd(left: Vector64_1<CLROf<float>>, right: Vector64_1<CLROf<float>>, addend: Vector64_1<CLROf<float>>): Vector64_1<CLROf<float>>;
+    static get_E<T extends IFloatingPointConstants_1<T>>(): Vector64_1<T>;
+    static get_Epsilon<T extends IFloatingPointIeee754_1<T>>(): Vector64_1<T>;
+    static get_NaN<T extends IFloatingPointIeee754_1<T>>(): Vector64_1<T>;
+    static get_NegativeInfinity<T extends IFloatingPointIeee754_1<T>>(): Vector64_1<T>;
+    static get_NegativeOne<T extends ISignedNumber_1<T>>(): Vector64_1<T>;
+    static get_NegativeZero<T extends IFloatingPointIeee754_1<T>>(): Vector64_1<T>;
+    static get_Pi<T extends IFloatingPointConstants_1<T>>(): Vector64_1<T>;
+    static get_PositiveInfinity<T extends IFloatingPointIeee754_1<T>>(): Vector64_1<T>;
+    static get_Tau<T extends IFloatingPointConstants_1<T>>(): Vector64_1<T>;
     static GetElement<T>(vector: Vector64_1<T>, index: int): T;
     static GreaterThan<T>(left: Vector64_1<T>, right: Vector64_1<T>): Vector64_1<T>;
     static GreaterThanAll<T>(left: Vector64_1<T>, right: Vector64_1<T>): boolean;
@@ -1237,11 +1273,11 @@ export abstract class Vector64$instance {
     static LessThanOrEqual<T>(left: Vector64_1<T>, right: Vector64_1<T>): Vector64_1<T>;
     static LessThanOrEqualAll<T>(left: Vector64_1<T>, right: Vector64_1<T>): boolean;
     static LessThanOrEqualAny<T>(left: Vector64_1<T>, right: Vector64_1<T>): boolean;
-    static Load<T>(source: TSUnsafePointer<T>): Vector64_1<T>;
-    static LoadAligned<T>(source: TSUnsafePointer<T>): Vector64_1<T>;
-    static LoadAlignedNonTemporal<T>(source: TSUnsafePointer<T>): Vector64_1<T>;
-    static LoadUnsafe<T>(source: { value: TSByRef<T> }, elementOffset: nuint): Vector64_1<T>;
-    static LoadUnsafe<T>(source: { value: TSByRef<T> }): Vector64_1<T>;
+    static Load<T>(source: ptr<T>): Vector64_1<T>;
+    static LoadAligned<T>(source: ptr<T>): Vector64_1<T>;
+    static LoadAlignedNonTemporal<T>(source: ptr<T>): Vector64_1<T>;
+    static LoadUnsafe<T>(source: { value: ref<T> }, elementOffset: nuint): Vector64_1<T>;
+    static LoadUnsafe<T>(source: { value: ref<T> }): Vector64_1<T>;
     static Log(vector: Vector64_1<CLROf<double>>): Vector64_1<CLROf<double>>;
     static Log(vector: Vector64_1<CLROf<float>>): Vector64_1<CLROf<float>>;
     static Log2(vector: Vector64_1<CLROf<double>>): Vector64_1<CLROf<double>>;
@@ -1329,11 +1365,11 @@ export abstract class Vector64$instance {
     static SinCos(vector: Vector64_1<CLROf<double>>): ValueTuple_2<Vector64_1<CLROf<double>>, Vector64_1<CLROf<double>>>;
     static SinCos(vector: Vector64_1<CLROf<float>>): ValueTuple_2<Vector64_1<CLROf<float>>, Vector64_1<CLROf<float>>>;
     static Sqrt<T>(vector: Vector64_1<T>): Vector64_1<T>;
-    static Store<T>(source: Vector64_1<T>, destination: TSUnsafePointer<T>): void;
-    static StoreAligned<T>(source: Vector64_1<T>, destination: TSUnsafePointer<T>): void;
-    static StoreAlignedNonTemporal<T>(source: Vector64_1<T>, destination: TSUnsafePointer<T>): void;
-    static StoreUnsafe<T>(source: Vector64_1<T>, destination: { value: TSByRef<T> }, elementOffset: nuint): void;
-    static StoreUnsafe<T>(source: Vector64_1<T>, destination: { value: TSByRef<T> }): void;
+    static Store<T>(source: Vector64_1<T>, destination: ptr<T>): void;
+    static StoreAligned<T>(source: Vector64_1<T>, destination: ptr<T>): void;
+    static StoreAlignedNonTemporal<T>(source: Vector64_1<T>, destination: ptr<T>): void;
+    static StoreUnsafe<T>(source: Vector64_1<T>, destination: { value: ref<T> }, elementOffset: nuint): void;
+    static StoreUnsafe<T>(source: Vector64_1<T>, destination: { value: ref<T> }): void;
     static Subtract<T>(left: Vector64_1<T>, right: Vector64_1<T>): Vector64_1<T>;
     static SubtractSaturate<T>(left: Vector64_1<T>, right: Vector64_1<T>): Vector64_1<T>;
     static Sum<T>(vector: Vector64_1<T>): T;

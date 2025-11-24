@@ -2,14 +2,16 @@
   "namespace": "System.Linq.Expressions.Interpreter",
   "types": [
     {
+      "stableId": "System.Linq.Expressions:System.Linq.Expressions.Interpreter.LightLambda",
       "clrName": "System.Linq.Expressions.Interpreter.LightLambda",
       "tsEmitName": "LightLambda",
       "assemblyName": "System.Linq.Expressions",
       "metadataToken": 0,
       "methods": [
         {
+          "stableId": "System.Linq.Expressions:System.Linq.Expressions.Interpreter.LightLambda::Run(System.Object[]):System.Object",
           "clrName": "Run",
-          "tsEmitName": "run",
+          "tsEmitName": "Run",
           "metadataToken": 100666475,
           "canonicalSignature": "(System.Object[]):System.Object",
           "normalizedSignature": "Run|(System.Object[]):System.Object|static=false",
@@ -20,8 +22,9 @@
           "declaringAssemblyName": "System.Linq.Expressions"
         },
         {
+          "stableId": "System.Linq.Expressions:System.Linq.Expressions.Interpreter.LightLambda::RunVoid(System.Object[]):System.Object",
           "clrName": "RunVoid",
-          "tsEmitName": "runVoid",
+          "tsEmitName": "RunVoid",
           "metadataToken": 100666476,
           "canonicalSignature": "(System.Object[]):System.Object",
           "normalizedSignature": "RunVoid|(System.Object[]):System.Object|static=false",
@@ -38,7 +41,7 @@
       "constructors": [],
       "exposedMethods": [
         {
-          "tsName": "run",
+          "tsName": "Run",
           "isStatic": false,
           "tsSignatureId": "Run|(System.Object[]):System.Object|static=false",
           "target": {
@@ -48,7 +51,7 @@
           }
         },
         {
-          "tsName": "runVoid",
+          "tsName": "RunVoid",
           "isStatic": false,
           "tsSignatureId": "RunVoid|(System.Object[]):System.Object|static=false",
           "target": {
@@ -58,7 +61,7 @@
           }
         },
         {
-          "tsName": "getType",
+          "tsName": "GetType",
           "isStatic": false,
           "tsSignatureId": "GetType|():System.Type|static=false",
           "target": {
@@ -68,7 +71,7 @@
           }
         },
         {
-          "tsName": "toString",
+          "tsName": "ToString",
           "isStatic": false,
           "tsSignatureId": "ToString|():System.String|static=false",
           "target": {
@@ -78,7 +81,7 @@
           }
         },
         {
-          "tsName": "equals",
+          "tsName": "Equals",
           "isStatic": false,
           "tsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
           "target": {
@@ -88,7 +91,7 @@
           }
         },
         {
-          "tsName": "equals",
+          "tsName": "Equals",
           "isStatic": true,
           "tsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
           "target": {
@@ -98,7 +101,7 @@
           }
         },
         {
-          "tsName": "referenceEquals",
+          "tsName": "ReferenceEquals",
           "isStatic": true,
           "tsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
           "target": {
@@ -108,7 +111,7 @@
           }
         },
         {
-          "tsName": "getHashCode",
+          "tsName": "GetHashCode",
           "isStatic": false,
           "tsSignatureId": "GetHashCode|():System.Int32|static=false",
           "target": {

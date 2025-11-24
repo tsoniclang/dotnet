@@ -5,8 +5,8 @@
 // Branded primitive types are sourced from @tsonic/types
 import type { sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/types';
 
-// Import support types for unsafe CLR constructs
-import type { TSUnsafePointer, TSByRef } from "../../_support/types.js";
+// Import support types from @tsonic/types
+import type { ptr, ref } from "@tsonic/types";
 
 // Import types from other namespaces
 import type { IEnumerable_1 } from "../../System.Collections.Generic/internal/index.js";
@@ -42,106 +42,106 @@ export type CLROf<T> =
     T; // Identity fallback for non-primitive types
 
 export enum ExpressionType {
-    add = 0,
-    addChecked = 1,
-    and = 2,
-    andAlso = 3,
-    arrayLength = 4,
-    arrayIndex = 5,
-    call = 6,
-    coalesce = 7,
-    conditional = 8,
-    constant = 9,
-    convert = 10,
-    convertChecked = 11,
-    divide = 12,
-    equal = 13,
-    exclusiveOr = 14,
-    greaterThan = 15,
-    greaterThanOrEqual = 16,
-    invoke = 17,
-    lambda = 18,
-    leftShift = 19,
-    lessThan = 20,
-    lessThanOrEqual = 21,
-    listInit = 22,
-    memberAccess = 23,
-    memberInit = 24,
-    modulo = 25,
-    multiply = 26,
-    multiplyChecked = 27,
-    negate = 28,
-    unaryPlus = 29,
-    negateChecked = 30,
-    new_ = 31,
-    newArrayInit = 32,
-    newArrayBounds = 33,
-    not = 34,
-    notEqual = 35,
-    or = 36,
-    orElse = 37,
-    parameter = 38,
-    power = 39,
-    quote = 40,
-    rightShift = 41,
-    subtract = 42,
-    subtractChecked = 43,
-    typeAs = 44,
-    typeIs = 45,
-    assign = 46,
-    block = 47,
-    debugInfo = 48,
-    decrement = 49,
-    dynamic = 50,
-    default_ = 51,
-    extension = 52,
-    goto = 53,
-    increment = 54,
-    index = 55,
-    label = 56,
-    runtimeVariables = 57,
-    loop = 58,
-    switch_ = 59,
-    throw_ = 60,
-    try_ = 61,
-    unbox = 62,
-    addAssign = 63,
-    andAssign = 64,
-    divideAssign = 65,
-    exclusiveOrAssign = 66,
-    leftShiftAssign = 67,
-    moduloAssign = 68,
-    multiplyAssign = 69,
-    orAssign = 70,
-    powerAssign = 71,
-    rightShiftAssign = 72,
-    subtractAssign = 73,
-    addAssignChecked = 74,
-    multiplyAssignChecked = 75,
-    subtractAssignChecked = 76,
-    preIncrementAssign = 77,
-    preDecrementAssign = 78,
-    postIncrementAssign = 79,
-    postDecrementAssign = 80,
-    typeEqual = 81,
-    onesComplement = 82,
-    isTrue = 83,
-    isFalse = 84
+    Add = 0,
+    AddChecked = 1,
+    And = 2,
+    AndAlso = 3,
+    ArrayLength = 4,
+    ArrayIndex = 5,
+    Call = 6,
+    Coalesce = 7,
+    Conditional = 8,
+    Constant = 9,
+    Convert = 10,
+    ConvertChecked = 11,
+    Divide = 12,
+    Equal = 13,
+    ExclusiveOr = 14,
+    GreaterThan = 15,
+    GreaterThanOrEqual = 16,
+    Invoke = 17,
+    Lambda = 18,
+    LeftShift = 19,
+    LessThan = 20,
+    LessThanOrEqual = 21,
+    ListInit = 22,
+    MemberAccess = 23,
+    MemberInit = 24,
+    Modulo = 25,
+    Multiply = 26,
+    MultiplyChecked = 27,
+    Negate = 28,
+    UnaryPlus = 29,
+    NegateChecked = 30,
+    New = 31,
+    NewArrayInit = 32,
+    NewArrayBounds = 33,
+    Not = 34,
+    NotEqual = 35,
+    Or = 36,
+    OrElse = 37,
+    Parameter = 38,
+    Power = 39,
+    Quote = 40,
+    RightShift = 41,
+    Subtract = 42,
+    SubtractChecked = 43,
+    TypeAs = 44,
+    TypeIs = 45,
+    Assign = 46,
+    Block = 47,
+    DebugInfo = 48,
+    Decrement = 49,
+    Dynamic = 50,
+    Default = 51,
+    Extension = 52,
+    Goto = 53,
+    Increment = 54,
+    Index = 55,
+    Label = 56,
+    RuntimeVariables = 57,
+    Loop = 58,
+    Switch = 59,
+    Throw = 60,
+    Try = 61,
+    Unbox = 62,
+    AddAssign = 63,
+    AndAssign = 64,
+    DivideAssign = 65,
+    ExclusiveOrAssign = 66,
+    LeftShiftAssign = 67,
+    ModuloAssign = 68,
+    MultiplyAssign = 69,
+    OrAssign = 70,
+    PowerAssign = 71,
+    RightShiftAssign = 72,
+    SubtractAssign = 73,
+    AddAssignChecked = 74,
+    MultiplyAssignChecked = 75,
+    SubtractAssignChecked = 76,
+    PreIncrementAssign = 77,
+    PreDecrementAssign = 78,
+    PostIncrementAssign = 79,
+    PostDecrementAssign = 80,
+    TypeEqual = 81,
+    OnesComplement = 82,
+    IsTrue = 83,
+    IsFalse = 84
 }
 
 
 export enum GotoExpressionKind {
-    goto = 0,
-    return_ = 1,
-    break_ = 2,
-    continue_ = 3
+    Goto = 0,
+    Return = 1,
+    Break = 2,
+    Continue = 3
 }
 
 
 export enum MemberBindingType {
-    assignment = 0,
-    memberBinding = 1,
-    listBinding = 2
+    Assignment = 0,
+    MemberBinding = 1,
+    ListBinding = 2
 }
 
 
@@ -165,96 +165,96 @@ export interface IDynamicExpression$instance {
 export type IDynamicExpression = IDynamicExpression$instance;
 
 export class BinaryExpression$instance extends Expression$instance {
-    readonly canReduce: boolean;
-    readonly conversion: LambdaExpression;
-    readonly isLifted: boolean;
-    readonly isLiftedToNull: boolean;
-    readonly left: Expression;
-    readonly method: MethodInfo;
-    readonly right: Expression;
-    reduce(): Expression;
-    update(left: Expression, conversion: LambdaExpression, right: Expression): BinaryExpression;
+    readonly CanReduce: boolean;
+    readonly Conversion: LambdaExpression;
+    readonly IsLifted: boolean;
+    readonly IsLiftedToNull: boolean;
+    readonly Left: Expression;
+    readonly Method: MethodInfo;
+    readonly Right: Expression;
+    Reduce(): Expression;
+    Update(left: Expression, conversion: LambdaExpression, right: Expression): BinaryExpression;
 }
 
 
 export type BinaryExpression = BinaryExpression$instance;
 
 export class BlockExpression$instance extends Expression$instance {
-    readonly expressions: ReadOnlyCollection_1<Expression>;
-    readonly nodeType: ExpressionType;
-    readonly result: Expression;
-    readonly type_: Type;
-    readonly variables: ReadOnlyCollection_1<ParameterExpression>;
-    update(variables: IEnumerable_1<ParameterExpression>, expressions: IEnumerable_1<Expression>): BlockExpression;
+    readonly Expressions: ReadOnlyCollection_1<Expression>;
+    readonly NodeType: ExpressionType;
+    readonly Result: Expression;
+    readonly Type: Type;
+    readonly Variables: ReadOnlyCollection_1<ParameterExpression>;
+    Update(variables: IEnumerable_1<ParameterExpression>, expressions: IEnumerable_1<Expression>): BlockExpression;
 }
 
 
 export type BlockExpression = BlockExpression$instance;
 
 export class CatchBlock$instance {
-    readonly body: Expression;
-    readonly filter: Expression;
-    readonly test: Type;
-    readonly variable: ParameterExpression;
-    toString(): string;
-    update(variable: ParameterExpression, filter: Expression, body: Expression): CatchBlock;
+    readonly Body: Expression;
+    readonly Filter: Expression;
+    readonly Test: Type;
+    readonly Variable: ParameterExpression;
+    ToString(): string;
+    Update(variable: ParameterExpression, filter: Expression, body: Expression): CatchBlock;
 }
 
 
 export type CatchBlock = CatchBlock$instance;
 
 export class ConditionalExpression$instance extends Expression$instance {
-    readonly ifFalse: Expression;
-    readonly ifTrue: Expression;
-    readonly nodeType: ExpressionType;
-    readonly test: Expression;
-    readonly type_: Type;
-    update(test: Expression, ifTrue: Expression, ifFalse: Expression): ConditionalExpression;
+    readonly IfFalse: Expression;
+    readonly IfTrue: Expression;
+    readonly NodeType: ExpressionType;
+    readonly Test: Expression;
+    readonly Type: Type;
+    Update(test: Expression, ifTrue: Expression, ifFalse: Expression): ConditionalExpression;
 }
 
 
 export type ConditionalExpression = ConditionalExpression$instance;
 
 export class ConstantExpression$instance extends Expression$instance {
-    readonly nodeType: ExpressionType;
-    readonly type_: Type;
-    readonly value: any;
+    readonly NodeType: ExpressionType;
+    readonly Type: Type;
+    readonly Value: any;
 }
 
 
 export type ConstantExpression = ConstantExpression$instance;
 
 export class DebugInfoExpression$instance extends Expression$instance {
-    readonly document: SymbolDocumentInfo;
-    readonly endColumn: int;
-    readonly endLine: int;
-    readonly isClear: boolean;
-    readonly nodeType: ExpressionType;
-    readonly startColumn: int;
-    readonly startLine: int;
-    readonly type_: Type;
+    readonly Document: SymbolDocumentInfo;
+    readonly EndColumn: int;
+    readonly EndLine: int;
+    readonly IsClear: boolean;
+    readonly NodeType: ExpressionType;
+    readonly StartColumn: int;
+    readonly StartLine: int;
+    readonly Type: Type;
 }
 
 
 export type DebugInfoExpression = DebugInfoExpression$instance;
 
 export class DefaultExpression$instance extends Expression$instance {
-    readonly nodeType: ExpressionType;
-    readonly type_: Type;
+    readonly NodeType: ExpressionType;
+    readonly Type: Type;
 }
 
 
 export type DefaultExpression = DefaultExpression$instance;
 
 export class DynamicExpression$instance extends Expression$instance {
-    readonly arguments: ReadOnlyCollection_1<Expression>;
-    readonly binder: CallSiteBinder;
-    readonly canReduce: boolean;
-    readonly delegateType: Type;
-    readonly nodeType: ExpressionType;
-    readonly type_: Type;
-    reduce(): Expression;
-    update(arguments: IEnumerable_1<Expression>): DynamicExpression;
+    readonly Arguments: ReadOnlyCollection_1<Expression>;
+    readonly Binder: CallSiteBinder;
+    readonly CanReduce: boolean;
+    readonly DelegateType: Type;
+    readonly NodeType: ExpressionType;
+    readonly Type: Type;
+    Reduce(): Expression;
+    Update(arguments: IEnumerable_1<Expression>): DynamicExpression;
     static Dynamic(binder: CallSiteBinder, returnType: Type, arguments: IEnumerable_1<Expression>): DynamicExpression;
     static Dynamic(binder: CallSiteBinder, returnType: Type, arg0: Expression, arg1: Expression, arg2: Expression, arg3: Expression): DynamicExpression;
     static Dynamic(binder: CallSiteBinder, returnType: Type, arg0: Expression, arg1: Expression, arg2: Expression): DynamicExpression;
@@ -286,12 +286,12 @@ export class DynamicExpressionVisitor$instance extends ExpressionVisitor$instanc
 export type DynamicExpressionVisitor = DynamicExpressionVisitor$instance;
 
 export class ElementInit$instance {
-    readonly addMethod: MethodInfo;
-    readonly argumentCount: int;
-    readonly arguments: ReadOnlyCollection_1<Expression>;
-    getArgument(index: int): Expression;
-    toString(): string;
-    update(arguments: IEnumerable_1<Expression>): ElementInit;
+    readonly AddMethod: MethodInfo;
+    readonly ArgumentCount: int;
+    readonly Arguments: ReadOnlyCollection_1<Expression>;
+    GetArgument(index: int): Expression;
+    ToString(): string;
+    Update(arguments: IEnumerable_1<Expression>): ElementInit;
 }
 
 
@@ -303,13 +303,13 @@ export type ElementInit = ElementInit$instance & __ElementInit$views;
 
 
 export abstract class Expression$instance {
-    readonly canReduce: boolean;
-    readonly nodeType: ExpressionType;
-    readonly type_: Type;
-    reduce(): Expression;
-    reduceAndCheck(): Expression;
-    reduceExtensions(): Expression;
-    toString(): string;
+    readonly CanReduce: boolean;
+    readonly NodeType: ExpressionType;
+    readonly Type: Type;
+    Reduce(): Expression;
+    ReduceAndCheck(): Expression;
+    ReduceExtensions(): Expression;
+    ToString(): string;
     static Add(left: Expression, right: Expression, method: MethodInfo): BinaryExpression;
     static Add(left: Expression, right: Expression): BinaryExpression;
     static AddAssign(left: Expression, right: Expression, method: MethodInfo, conversion: LambdaExpression): BinaryExpression;
@@ -609,8 +609,8 @@ export abstract class Expression$instance {
     static TryCatchFinally(body: Expression, finally_: Expression, handlers: CatchBlock[]): TryExpression;
     static TryFault(body: Expression, fault: Expression): TryExpression;
     static TryFinally(body: Expression, finally_: Expression): TryExpression;
-    static TryGetActionType(typeArgs: Type[], actionType: { value: TSByRef<Type> }): boolean;
-    static TryGetFuncType(typeArgs: Type[], funcType: { value: TSByRef<Type> }): boolean;
+    static TryGetActionType(typeArgs: Type[], actionType: { value: ref<Type> }): boolean;
+    static TryGetFuncType(typeArgs: Type[], funcType: { value: ref<Type> }): boolean;
     static TypeAs(expression: Expression, type_: Type): UnaryExpression;
     static TypeEqual(expression: Expression, type_: Type): TypeBinaryExpression;
     static TypeIs(expression: Expression, type_: Type): TypeBinaryExpression;
@@ -625,23 +625,23 @@ export abstract class Expression$instance {
 export type Expression = Expression$instance;
 
 export class Expression_1$instance<TDelegate> extends LambdaExpression$instance {
-    compile(): TDelegate;
-    compile(preferInterpretation: boolean): TDelegate;
-    compile(debugInfoGenerator: DebugInfoGenerator): TDelegate;
-    compile(): Function;
-    compile(preferInterpretation: boolean): Function;
-    compile(debugInfoGenerator: DebugInfoGenerator): Function;
-    update(body: Expression, parameters: IEnumerable_1<ParameterExpression>): Expression_1<TDelegate>;
+    Compile(): TDelegate;
+    Compile(preferInterpretation: boolean): TDelegate;
+    Compile(debugInfoGenerator: DebugInfoGenerator): TDelegate;
+    Compile(): Function;
+    Compile(preferInterpretation: boolean): Function;
+    Compile(debugInfoGenerator: DebugInfoGenerator): Function;
+    Update(body: Expression, parameters: IEnumerable_1<ParameterExpression>): Expression_1<TDelegate>;
 }
 
 
 export type Expression_1<TDelegate> = Expression_1$instance<TDelegate>;
 
 export abstract class ExpressionVisitor$instance {
-    visit(node: Expression): Expression;
-    visit(nodes: ReadOnlyCollection_1<Expression>): ReadOnlyCollection_1<Expression>;
-    visitAndConvert<T extends Expression>(node: T, callerName: string): T;
-    visitAndConvert<T extends Expression>(nodes: ReadOnlyCollection_1<T>, callerName: string): ReadOnlyCollection_1<T>;
+    Visit(node: Expression): Expression;
+    Visit(nodes: ReadOnlyCollection_1<Expression>): ReadOnlyCollection_1<Expression>;
+    VisitAndConvert<T extends Expression>(node: T, callerName: string): T;
+    VisitAndConvert<T extends Expression>(nodes: ReadOnlyCollection_1<T>, callerName: string): ReadOnlyCollection_1<T>;
     static Visit<T>(nodes: ReadOnlyCollection_1<T>, elementVisitor: Func_2<T, T>): ReadOnlyCollection_1<T>;
 }
 
@@ -649,26 +649,26 @@ export abstract class ExpressionVisitor$instance {
 export type ExpressionVisitor = ExpressionVisitor$instance;
 
 export class GotoExpression$instance extends Expression$instance {
-    readonly kind: GotoExpressionKind;
-    readonly nodeType: ExpressionType;
-    readonly target: LabelTarget;
-    readonly type_: Type;
-    readonly value: Expression;
-    update(target: LabelTarget, value: Expression): GotoExpression;
+    readonly Kind: GotoExpressionKind;
+    readonly NodeType: ExpressionType;
+    readonly Target: LabelTarget;
+    readonly Type: Type;
+    readonly Value: Expression;
+    Update(target: LabelTarget, value: Expression): GotoExpression;
 }
 
 
 export type GotoExpression = GotoExpression$instance;
 
 export class IndexExpression$instance extends Expression$instance {
-    readonly argumentCount: int;
-    readonly arguments: ReadOnlyCollection_1<Expression>;
-    readonly indexer: PropertyInfo;
-    readonly nodeType: ExpressionType;
-    readonly object_: Expression;
-    readonly type_: Type;
-    getArgument(index: int): Expression;
-    update(object_: Expression, arguments: IEnumerable_1<Expression>): IndexExpression;
+    readonly ArgumentCount: int;
+    readonly Arguments: ReadOnlyCollection_1<Expression>;
+    readonly Indexer: PropertyInfo;
+    readonly NodeType: ExpressionType;
+    readonly Object: Expression;
+    readonly Type: Type;
+    GetArgument(index: int): Expression;
+    Update(object_: Expression, arguments: IEnumerable_1<Expression>): IndexExpression;
 }
 
 
@@ -680,13 +680,13 @@ export type IndexExpression = IndexExpression$instance & __IndexExpression$views
 
 
 export class InvocationExpression$instance extends Expression$instance {
-    readonly argumentCount: int;
-    readonly arguments: ReadOnlyCollection_1<Expression>;
-    readonly expression: Expression;
-    readonly nodeType: ExpressionType;
-    readonly type_: Type;
-    getArgument(index: int): Expression;
-    update(expression: Expression, arguments: IEnumerable_1<Expression>): InvocationExpression;
+    readonly ArgumentCount: int;
+    readonly Arguments: ReadOnlyCollection_1<Expression>;
+    readonly Expression: Expression;
+    readonly NodeType: ExpressionType;
+    readonly Type: Type;
+    GetArgument(index: int): Expression;
+    Update(expression: Expression, arguments: IEnumerable_1<Expression>): InvocationExpression;
 }
 
 
@@ -698,36 +698,36 @@ export type InvocationExpression = InvocationExpression$instance & __InvocationE
 
 
 export class LabelExpression$instance extends Expression$instance {
-    readonly defaultValue: Expression;
-    readonly nodeType: ExpressionType;
-    readonly target: LabelTarget;
-    readonly type_: Type;
-    update(target: LabelTarget, defaultValue: Expression): LabelExpression;
+    readonly DefaultValue: Expression;
+    readonly NodeType: ExpressionType;
+    readonly Target: LabelTarget;
+    readonly Type: Type;
+    Update(target: LabelTarget, defaultValue: Expression): LabelExpression;
 }
 
 
 export type LabelExpression = LabelExpression$instance;
 
 export class LabelTarget$instance {
-    readonly name: string;
-    readonly type_: Type;
-    toString(): string;
+    readonly Name: string;
+    readonly Type: Type;
+    ToString(): string;
 }
 
 
 export type LabelTarget = LabelTarget$instance;
 
 export abstract class LambdaExpression$instance extends Expression$instance {
-    readonly body: Expression;
-    readonly name: string;
-    readonly nodeType: ExpressionType;
-    readonly parameters: ReadOnlyCollection_1<ParameterExpression>;
-    readonly returnType: Type;
-    readonly tailCall: boolean;
-    readonly type_: Type;
-    compile(): Function;
-    compile(preferInterpretation: boolean): Function;
-    compile(debugInfoGenerator: DebugInfoGenerator): Function;
+    readonly Body: Expression;
+    readonly Name: string;
+    readonly NodeType: ExpressionType;
+    readonly Parameters: ReadOnlyCollection_1<ParameterExpression>;
+    readonly ReturnType: Type;
+    readonly TailCall: boolean;
+    readonly Type: Type;
+    Compile(): Function;
+    Compile(preferInterpretation: boolean): Function;
+    Compile(debugInfoGenerator: DebugInfoGenerator): Function;
     static readonly CanCompileToIL: boolean;
     static readonly CanInterpret: boolean;
 }
@@ -736,95 +736,95 @@ export abstract class LambdaExpression$instance extends Expression$instance {
 export type LambdaExpression = LambdaExpression$instance;
 
 export class ListInitExpression$instance extends Expression$instance {
-    readonly canReduce: boolean;
-    readonly initializers: ReadOnlyCollection_1<ElementInit>;
-    readonly newExpression: NewExpression;
-    readonly nodeType: ExpressionType;
-    readonly type_: Type;
-    reduce(): Expression;
-    update(newExpression: NewExpression, initializers: IEnumerable_1<ElementInit>): ListInitExpression;
+    readonly CanReduce: boolean;
+    readonly Initializers: ReadOnlyCollection_1<ElementInit>;
+    readonly NewExpression: NewExpression;
+    readonly NodeType: ExpressionType;
+    readonly Type: Type;
+    Reduce(): Expression;
+    Update(newExpression: NewExpression, initializers: IEnumerable_1<ElementInit>): ListInitExpression;
 }
 
 
 export type ListInitExpression = ListInitExpression$instance;
 
 export class LoopExpression$instance extends Expression$instance {
-    readonly body: Expression;
-    readonly breakLabel: LabelTarget;
-    readonly continueLabel: LabelTarget;
-    readonly nodeType: ExpressionType;
-    readonly type_: Type;
-    update(breakLabel: LabelTarget, continueLabel: LabelTarget, body: Expression): LoopExpression;
+    readonly Body: Expression;
+    readonly BreakLabel: LabelTarget;
+    readonly ContinueLabel: LabelTarget;
+    readonly NodeType: ExpressionType;
+    readonly Type: Type;
+    Update(breakLabel: LabelTarget, continueLabel: LabelTarget, body: Expression): LoopExpression;
 }
 
 
 export type LoopExpression = LoopExpression$instance;
 
 export class MemberAssignment$instance extends MemberBinding$instance {
-    readonly expression: Expression;
-    update(expression: Expression): MemberAssignment;
+    readonly Expression: Expression;
+    Update(expression: Expression): MemberAssignment;
 }
 
 
 export type MemberAssignment = MemberAssignment$instance;
 
 export abstract class MemberBinding$instance {
-    readonly bindingType: MemberBindingType;
-    readonly member: MemberInfo;
-    toString(): string;
+    readonly BindingType: MemberBindingType;
+    readonly Member: MemberInfo;
+    ToString(): string;
 }
 
 
 export type MemberBinding = MemberBinding$instance;
 
 export class MemberExpression$instance extends Expression$instance {
-    readonly expression: Expression;
-    readonly member: MemberInfo;
-    readonly nodeType: ExpressionType;
-    update(expression: Expression): MemberExpression;
+    readonly Expression: Expression;
+    readonly Member: MemberInfo;
+    readonly NodeType: ExpressionType;
+    Update(expression: Expression): MemberExpression;
 }
 
 
 export type MemberExpression = MemberExpression$instance;
 
 export class MemberInitExpression$instance extends Expression$instance {
-    readonly bindings: ReadOnlyCollection_1<MemberBinding>;
-    readonly canReduce: boolean;
-    readonly newExpression: NewExpression;
-    readonly nodeType: ExpressionType;
-    readonly type_: Type;
-    reduce(): Expression;
-    update(newExpression: NewExpression, bindings: IEnumerable_1<MemberBinding>): MemberInitExpression;
+    readonly Bindings: ReadOnlyCollection_1<MemberBinding>;
+    readonly CanReduce: boolean;
+    readonly NewExpression: NewExpression;
+    readonly NodeType: ExpressionType;
+    readonly Type: Type;
+    Reduce(): Expression;
+    Update(newExpression: NewExpression, bindings: IEnumerable_1<MemberBinding>): MemberInitExpression;
 }
 
 
 export type MemberInitExpression = MemberInitExpression$instance;
 
 export class MemberListBinding$instance extends MemberBinding$instance {
-    readonly initializers: ReadOnlyCollection_1<ElementInit>;
-    update(initializers: IEnumerable_1<ElementInit>): MemberListBinding;
+    readonly Initializers: ReadOnlyCollection_1<ElementInit>;
+    Update(initializers: IEnumerable_1<ElementInit>): MemberListBinding;
 }
 
 
 export type MemberListBinding = MemberListBinding$instance;
 
 export class MemberMemberBinding$instance extends MemberBinding$instance {
-    readonly bindings: ReadOnlyCollection_1<MemberBinding>;
-    update(bindings: IEnumerable_1<MemberBinding>): MemberMemberBinding;
+    readonly Bindings: ReadOnlyCollection_1<MemberBinding>;
+    Update(bindings: IEnumerable_1<MemberBinding>): MemberMemberBinding;
 }
 
 
 export type MemberMemberBinding = MemberMemberBinding$instance;
 
 export class MethodCallExpression$instance extends Expression$instance {
-    readonly argumentCount: int;
-    readonly arguments: ReadOnlyCollection_1<Expression>;
-    readonly method: MethodInfo;
-    readonly nodeType: ExpressionType;
-    readonly object_: Expression;
-    readonly type_: Type;
-    getArgument(index: int): Expression;
-    update(object_: Expression, arguments: IEnumerable_1<Expression>): MethodCallExpression;
+    readonly ArgumentCount: int;
+    readonly Arguments: ReadOnlyCollection_1<Expression>;
+    readonly Method: MethodInfo;
+    readonly NodeType: ExpressionType;
+    readonly Object: Expression;
+    readonly Type: Type;
+    GetArgument(index: int): Expression;
+    Update(object_: Expression, arguments: IEnumerable_1<Expression>): MethodCallExpression;
 }
 
 
@@ -836,23 +836,23 @@ export type MethodCallExpression = MethodCallExpression$instance & __MethodCallE
 
 
 export class NewArrayExpression$instance extends Expression$instance {
-    readonly expressions: ReadOnlyCollection_1<Expression>;
-    readonly type_: Type;
-    update(expressions: IEnumerable_1<Expression>): NewArrayExpression;
+    readonly Expressions: ReadOnlyCollection_1<Expression>;
+    readonly Type: Type;
+    Update(expressions: IEnumerable_1<Expression>): NewArrayExpression;
 }
 
 
 export type NewArrayExpression = NewArrayExpression$instance;
 
 export class NewExpression$instance extends Expression$instance {
-    readonly argumentCount: int;
-    readonly arguments: ReadOnlyCollection_1<Expression>;
-    readonly constructor_: ConstructorInfo;
-    readonly members: ReadOnlyCollection_1<MemberInfo>;
-    readonly nodeType: ExpressionType;
-    readonly type_: Type;
-    getArgument(index: int): Expression;
-    update(arguments: IEnumerable_1<Expression>): NewExpression;
+    readonly ArgumentCount: int;
+    readonly Arguments: ReadOnlyCollection_1<Expression>;
+    readonly Constructor: ConstructorInfo;
+    readonly Members: ReadOnlyCollection_1<MemberInfo>;
+    readonly NodeType: ExpressionType;
+    readonly Type: Type;
+    GetArgument(index: int): Expression;
+    Update(arguments: IEnumerable_1<Expression>): NewExpression;
 }
 
 
@@ -864,92 +864,92 @@ export type NewExpression = NewExpression$instance & __NewExpression$views;
 
 
 export class ParameterExpression$instance extends Expression$instance {
-    readonly isByRef: boolean;
-    readonly name: string;
-    readonly nodeType: ExpressionType;
-    readonly type_: Type;
+    readonly IsByRef: boolean;
+    readonly Name: string;
+    readonly NodeType: ExpressionType;
+    readonly Type: Type;
 }
 
 
 export type ParameterExpression = ParameterExpression$instance;
 
 export class RuntimeVariablesExpression$instance extends Expression$instance {
-    readonly nodeType: ExpressionType;
-    readonly type_: Type;
-    readonly variables: ReadOnlyCollection_1<ParameterExpression>;
-    update(variables: IEnumerable_1<ParameterExpression>): RuntimeVariablesExpression;
+    readonly NodeType: ExpressionType;
+    readonly Type: Type;
+    readonly Variables: ReadOnlyCollection_1<ParameterExpression>;
+    Update(variables: IEnumerable_1<ParameterExpression>): RuntimeVariablesExpression;
 }
 
 
 export type RuntimeVariablesExpression = RuntimeVariablesExpression$instance;
 
 export class SwitchCase$instance {
-    readonly body: Expression;
-    readonly testValues: ReadOnlyCollection_1<Expression>;
-    toString(): string;
-    update(testValues: IEnumerable_1<Expression>, body: Expression): SwitchCase;
+    readonly Body: Expression;
+    readonly TestValues: ReadOnlyCollection_1<Expression>;
+    ToString(): string;
+    Update(testValues: IEnumerable_1<Expression>, body: Expression): SwitchCase;
 }
 
 
 export type SwitchCase = SwitchCase$instance;
 
 export class SwitchExpression$instance extends Expression$instance {
-    readonly cases: ReadOnlyCollection_1<SwitchCase>;
-    readonly comparison: MethodInfo;
-    readonly defaultBody: Expression;
-    readonly nodeType: ExpressionType;
-    readonly switchValue: Expression;
-    readonly type_: Type;
-    update(switchValue: Expression, cases: IEnumerable_1<SwitchCase>, defaultBody: Expression): SwitchExpression;
+    readonly Cases: ReadOnlyCollection_1<SwitchCase>;
+    readonly Comparison: MethodInfo;
+    readonly DefaultBody: Expression;
+    readonly NodeType: ExpressionType;
+    readonly SwitchValue: Expression;
+    readonly Type: Type;
+    Update(switchValue: Expression, cases: IEnumerable_1<SwitchCase>, defaultBody: Expression): SwitchExpression;
 }
 
 
 export type SwitchExpression = SwitchExpression$instance;
 
 export class SymbolDocumentInfo$instance {
-    readonly documentType: Guid;
-    readonly fileName: string;
-    readonly language: Guid;
-    readonly languageVendor: Guid;
+    readonly DocumentType: Guid;
+    readonly FileName: string;
+    readonly Language: Guid;
+    readonly LanguageVendor: Guid;
 }
 
 
 export type SymbolDocumentInfo = SymbolDocumentInfo$instance;
 
 export class TryExpression$instance extends Expression$instance {
-    readonly body: Expression;
-    readonly fault: Expression;
-    readonly finally_: Expression;
-    readonly handlers: ReadOnlyCollection_1<CatchBlock>;
-    readonly nodeType: ExpressionType;
-    readonly type_: Type;
-    update(body: Expression, handlers: IEnumerable_1<CatchBlock>, finally_: Expression, fault: Expression): TryExpression;
+    readonly Body: Expression;
+    readonly Fault: Expression;
+    readonly Finally: Expression;
+    readonly Handlers: ReadOnlyCollection_1<CatchBlock>;
+    readonly NodeType: ExpressionType;
+    readonly Type: Type;
+    Update(body: Expression, handlers: IEnumerable_1<CatchBlock>, finally_: Expression, fault: Expression): TryExpression;
 }
 
 
 export type TryExpression = TryExpression$instance;
 
 export class TypeBinaryExpression$instance extends Expression$instance {
-    readonly expression: Expression;
-    readonly nodeType: ExpressionType;
-    readonly type_: Type;
-    readonly typeOperand: Type;
-    update(expression: Expression): TypeBinaryExpression;
+    readonly Expression: Expression;
+    readonly NodeType: ExpressionType;
+    readonly Type: Type;
+    readonly TypeOperand: Type;
+    Update(expression: Expression): TypeBinaryExpression;
 }
 
 
 export type TypeBinaryExpression = TypeBinaryExpression$instance;
 
 export class UnaryExpression$instance extends Expression$instance {
-    readonly canReduce: boolean;
-    readonly isLifted: boolean;
-    readonly isLiftedToNull: boolean;
-    readonly method: MethodInfo;
-    readonly nodeType: ExpressionType;
-    readonly operand: Expression;
-    readonly type_: Type;
-    reduce(): Expression;
-    update(operand: Expression): UnaryExpression;
+    readonly CanReduce: boolean;
+    readonly IsLifted: boolean;
+    readonly IsLiftedToNull: boolean;
+    readonly Method: MethodInfo;
+    readonly NodeType: ExpressionType;
+    readonly Operand: Expression;
+    readonly Type: Type;
+    Reduce(): Expression;
+    Update(operand: Expression): UnaryExpression;
 }
 
 

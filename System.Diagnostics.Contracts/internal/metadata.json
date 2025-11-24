@@ -5,6 +5,7 @@
   ],
   "types": [
     {
+      "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.ContractFailureKind",
       "clrName": "System.Diagnostics.Contracts.ContractFailureKind",
       "tsEmitName": "ContractFailureKind",
       "kind": "Enum",
@@ -17,6 +18,7 @@
       "properties": [],
       "fields": [
         {
+          "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.ContractFailureKind::value__System.Int32",
           "clrName": "value__",
           "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
@@ -25,48 +27,54 @@
           "isLiteral": false
         },
         {
+          "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.ContractFailureKind::PreconditionSystem.Diagnostics.Contracts.ContractFailureKind",
           "clrName": "Precondition",
-          "tsEmitName": "precondition",
+          "tsEmitName": "Precondition",
           "normalizedSignature": "Precondition|System.Diagnostics.Contracts.ContractFailureKind|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true
         },
         {
+          "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.ContractFailureKind::PostconditionSystem.Diagnostics.Contracts.ContractFailureKind",
           "clrName": "Postcondition",
-          "tsEmitName": "postcondition",
+          "tsEmitName": "Postcondition",
           "normalizedSignature": "Postcondition|System.Diagnostics.Contracts.ContractFailureKind|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true
         },
         {
+          "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.ContractFailureKind::PostconditionOnExceptionSystem.Diagnostics.Contracts.ContractFailureKind",
           "clrName": "PostconditionOnException",
-          "tsEmitName": "postconditionOnException",
+          "tsEmitName": "PostconditionOnException",
           "normalizedSignature": "PostconditionOnException|System.Diagnostics.Contracts.ContractFailureKind|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true
         },
         {
+          "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.ContractFailureKind::InvariantSystem.Diagnostics.Contracts.ContractFailureKind",
           "clrName": "Invariant",
-          "tsEmitName": "invariant",
+          "tsEmitName": "Invariant",
           "normalizedSignature": "Invariant|System.Diagnostics.Contracts.ContractFailureKind|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true
         },
         {
+          "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.ContractFailureKind::AssertSystem.Diagnostics.Contracts.ContractFailureKind",
           "clrName": "Assert",
-          "tsEmitName": "assert",
+          "tsEmitName": "Assert",
           "normalizedSignature": "Assert|System.Diagnostics.Contracts.ContractFailureKind|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true
         },
         {
+          "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.ContractFailureKind::AssumeSystem.Diagnostics.Contracts.ContractFailureKind",
           "clrName": "Assume",
-          "tsEmitName": "assume",
+          "tsEmitName": "Assume",
           "normalizedSignature": "Assume|System.Diagnostics.Contracts.ContractFailureKind|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -77,6 +85,7 @@
       "constructors": []
     },
     {
+      "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.ContractAbbreviatorAttribute",
       "clrName": "System.Diagnostics.Contracts.ContractAbbreviatorAttribute",
       "tsEmitName": "ContractAbbreviatorAttribute",
       "kind": "Class",
@@ -98,6 +107,7 @@
       ]
     },
     {
+      "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.ContractArgumentValidatorAttribute",
       "clrName": "System.Diagnostics.Contracts.ContractArgumentValidatorAttribute",
       "tsEmitName": "ContractArgumentValidatorAttribute",
       "kind": "Class",
@@ -119,6 +129,7 @@
       ]
     },
     {
+      "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.ContractClassAttribute",
       "clrName": "System.Diagnostics.Contracts.ContractClassAttribute",
       "tsEmitName": "ContractClassAttribute",
       "kind": "Class",
@@ -130,8 +141,9 @@
       "methods": [],
       "properties": [
         {
+          "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.ContractClassAttribute::TypeContainingContracts:System.Type",
           "clrName": "TypeContainingContracts",
-          "tsEmitName": "typeContainingContracts",
+          "tsEmitName": "TypeContainingContracts",
           "normalizedSignature": "TypeContainingContracts|:System.Type|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -155,6 +167,7 @@
       ]
     },
     {
+      "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.ContractClassForAttribute",
       "clrName": "System.Diagnostics.Contracts.ContractClassForAttribute",
       "tsEmitName": "ContractClassForAttribute",
       "kind": "Class",
@@ -166,8 +179,9 @@
       "methods": [],
       "properties": [
         {
+          "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.ContractClassForAttribute::TypeContractsAreFor:System.Type",
           "clrName": "TypeContractsAreFor",
-          "tsEmitName": "typeContractsAreFor",
+          "tsEmitName": "TypeContractsAreFor",
           "normalizedSignature": "TypeContractsAreFor|:System.Type|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -191,6 +205,7 @@
       ]
     },
     {
+      "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.ContractException",
       "clrName": "System.Diagnostics.Contracts.ContractException",
       "tsEmitName": "ContractException",
       "kind": "Class",
@@ -201,8 +216,9 @@
       "arity": 0,
       "methods": [
         {
+          "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.ContractException::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "getObjectData",
+          "tsEmitName": "GetObjectData",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -215,8 +231,9 @@
           "parameterCount": 2
         },
         {
+          "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "getObjectData$view",
+          "tsEmitName": "GetObjectData$view",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -232,8 +249,9 @@
       ],
       "properties": [
         {
+          "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.ContractException::Kind:System.Diagnostics.Contracts.ContractFailureKind",
           "clrName": "Kind",
-          "tsEmitName": "kind",
+          "tsEmitName": "Kind",
           "normalizedSignature": "Kind|:System.Diagnostics.Contracts.ContractFailureKind|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -246,8 +264,9 @@
           "hasSetter": false
         },
         {
+          "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.ContractException::Failure:System.String",
           "clrName": "Failure",
-          "tsEmitName": "failure",
+          "tsEmitName": "Failure",
           "normalizedSignature": "Failure|:System.String|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -260,8 +279,9 @@
           "hasSetter": false
         },
         {
+          "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.ContractException::UserMessage:System.String",
           "clrName": "UserMessage",
-          "tsEmitName": "userMessage",
+          "tsEmitName": "UserMessage",
           "normalizedSignature": "UserMessage|:System.String|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -274,8 +294,9 @@
           "hasSetter": false
         },
         {
+          "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.ContractException::Condition:System.String",
           "clrName": "Condition",
-          "tsEmitName": "condition",
+          "tsEmitName": "Condition",
           "normalizedSignature": "Condition|:System.String|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -299,6 +320,7 @@
       ]
     },
     {
+      "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.ContractFailedEventArgs",
       "clrName": "System.Diagnostics.Contracts.ContractFailedEventArgs",
       "tsEmitName": "ContractFailedEventArgs",
       "kind": "Class",
@@ -309,8 +331,9 @@
       "arity": 0,
       "methods": [
         {
+          "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.ContractFailedEventArgs::SetHandled():System.Void",
           "clrName": "SetHandled",
-          "tsEmitName": "setHandled",
+          "tsEmitName": "SetHandled",
           "normalizedSignature": "SetHandled|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -323,8 +346,9 @@
           "parameterCount": 0
         },
         {
+          "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.ContractFailedEventArgs::SetUnwind():System.Void",
           "clrName": "SetUnwind",
-          "tsEmitName": "setUnwind",
+          "tsEmitName": "SetUnwind",
           "normalizedSignature": "SetUnwind|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -339,8 +363,9 @@
       ],
       "properties": [
         {
+          "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.ContractFailedEventArgs::Message:System.String",
           "clrName": "Message",
-          "tsEmitName": "message",
+          "tsEmitName": "Message",
           "normalizedSignature": "Message|:System.String|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -353,8 +378,9 @@
           "hasSetter": false
         },
         {
+          "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.ContractFailedEventArgs::Condition:System.String",
           "clrName": "Condition",
-          "tsEmitName": "condition",
+          "tsEmitName": "Condition",
           "normalizedSignature": "Condition|:System.String|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -367,8 +393,9 @@
           "hasSetter": false
         },
         {
+          "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.ContractFailedEventArgs::FailureKind:System.Diagnostics.Contracts.ContractFailureKind",
           "clrName": "FailureKind",
-          "tsEmitName": "failureKind",
+          "tsEmitName": "FailureKind",
           "normalizedSignature": "FailureKind|:System.Diagnostics.Contracts.ContractFailureKind|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -381,8 +408,9 @@
           "hasSetter": false
         },
         {
+          "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.ContractFailedEventArgs::OriginalException:System.Exception",
           "clrName": "OriginalException",
-          "tsEmitName": "originalException",
+          "tsEmitName": "OriginalException",
           "normalizedSignature": "OriginalException|:System.Exception|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -395,8 +423,9 @@
           "hasSetter": false
         },
         {
+          "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.ContractFailedEventArgs::Handled:System.Boolean",
           "clrName": "Handled",
-          "tsEmitName": "handled",
+          "tsEmitName": "Handled",
           "normalizedSignature": "Handled|:System.Boolean|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -409,8 +438,9 @@
           "hasSetter": false
         },
         {
+          "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.ContractFailedEventArgs::Unwind:System.Boolean",
           "clrName": "Unwind",
-          "tsEmitName": "unwind",
+          "tsEmitName": "Unwind",
           "normalizedSignature": "Unwind|:System.Boolean|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -434,6 +464,7 @@
       ]
     },
     {
+      "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.ContractInvariantMethodAttribute",
       "clrName": "System.Diagnostics.Contracts.ContractInvariantMethodAttribute",
       "tsEmitName": "ContractInvariantMethodAttribute",
       "kind": "Class",
@@ -455,6 +486,7 @@
       ]
     },
     {
+      "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.ContractOptionAttribute",
       "clrName": "System.Diagnostics.Contracts.ContractOptionAttribute",
       "tsEmitName": "ContractOptionAttribute",
       "kind": "Class",
@@ -466,8 +498,9 @@
       "methods": [],
       "properties": [
         {
+          "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.ContractOptionAttribute::Category:System.String",
           "clrName": "Category",
-          "tsEmitName": "category",
+          "tsEmitName": "Category",
           "normalizedSignature": "Category|:System.String|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -480,8 +513,9 @@
           "hasSetter": false
         },
         {
+          "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.ContractOptionAttribute::Setting:System.String",
           "clrName": "Setting",
-          "tsEmitName": "setting",
+          "tsEmitName": "Setting",
           "normalizedSignature": "Setting|:System.String|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -494,8 +528,9 @@
           "hasSetter": false
         },
         {
+          "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.ContractOptionAttribute::Enabled:System.Boolean",
           "clrName": "Enabled",
-          "tsEmitName": "enabled",
+          "tsEmitName": "Enabled",
           "normalizedSignature": "Enabled|:System.Boolean|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -508,8 +543,9 @@
           "hasSetter": false
         },
         {
+          "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.ContractOptionAttribute::Value:System.String",
           "clrName": "Value",
-          "tsEmitName": "value",
+          "tsEmitName": "Value",
           "normalizedSignature": "Value|:System.String|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -538,6 +574,7 @@
       ]
     },
     {
+      "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.ContractPublicPropertyNameAttribute",
       "clrName": "System.Diagnostics.Contracts.ContractPublicPropertyNameAttribute",
       "tsEmitName": "ContractPublicPropertyNameAttribute",
       "kind": "Class",
@@ -549,8 +586,9 @@
       "methods": [],
       "properties": [
         {
+          "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.ContractPublicPropertyNameAttribute::Name:System.String",
           "clrName": "Name",
-          "tsEmitName": "name",
+          "tsEmitName": "Name",
           "normalizedSignature": "Name|:System.String|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -574,6 +612,7 @@
       ]
     },
     {
+      "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.ContractReferenceAssemblyAttribute",
       "clrName": "System.Diagnostics.Contracts.ContractReferenceAssemblyAttribute",
       "tsEmitName": "ContractReferenceAssemblyAttribute",
       "kind": "Class",
@@ -595,6 +634,7 @@
       ]
     },
     {
+      "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.ContractRuntimeIgnoredAttribute",
       "clrName": "System.Diagnostics.Contracts.ContractRuntimeIgnoredAttribute",
       "tsEmitName": "ContractRuntimeIgnoredAttribute",
       "kind": "Class",
@@ -616,6 +656,7 @@
       ]
     },
     {
+      "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.ContractVerificationAttribute",
       "clrName": "System.Diagnostics.Contracts.ContractVerificationAttribute",
       "tsEmitName": "ContractVerificationAttribute",
       "kind": "Class",
@@ -627,8 +668,9 @@
       "methods": [],
       "properties": [
         {
+          "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.ContractVerificationAttribute::Value:System.Boolean",
           "clrName": "Value",
-          "tsEmitName": "value",
+          "tsEmitName": "Value",
           "normalizedSignature": "Value|:System.Boolean|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -652,6 +694,7 @@
       ]
     },
     {
+      "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.PureAttribute",
       "clrName": "System.Diagnostics.Contracts.PureAttribute",
       "tsEmitName": "PureAttribute",
       "kind": "Class",
@@ -673,6 +716,7 @@
       ]
     },
     {
+      "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.Contract",
       "clrName": "System.Diagnostics.Contracts.Contract",
       "tsEmitName": "Contract",
       "kind": "StaticNamespace",
@@ -683,8 +727,9 @@
       "arity": 0,
       "methods": [
         {
+          "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.Contract::Assume(System.Boolean):System.Void",
           "clrName": "Assume",
-          "tsEmitName": "assume",
+          "tsEmitName": "Assume",
           "normalizedSignature": "Assume|(System.Boolean):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -697,8 +742,9 @@
           "parameterCount": 1
         },
         {
+          "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.Contract::Assume(System.Boolean,System.String):System.Void",
           "clrName": "Assume",
-          "tsEmitName": "assume2",
+          "tsEmitName": "Assume2",
           "normalizedSignature": "Assume|(System.Boolean,System.String):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -711,8 +757,9 @@
           "parameterCount": 2
         },
         {
+          "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.Contract::Assert(System.Boolean):System.Void",
           "clrName": "Assert",
-          "tsEmitName": "assert",
+          "tsEmitName": "Assert",
           "normalizedSignature": "Assert|(System.Boolean):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -725,8 +772,9 @@
           "parameterCount": 1
         },
         {
+          "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.Contract::Assert(System.Boolean,System.String):System.Void",
           "clrName": "Assert",
-          "tsEmitName": "assert2",
+          "tsEmitName": "Assert2",
           "normalizedSignature": "Assert|(System.Boolean,System.String):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -739,8 +787,9 @@
           "parameterCount": 2
         },
         {
+          "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.Contract::Requires(System.Boolean):System.Void",
           "clrName": "Requires",
-          "tsEmitName": "requires",
+          "tsEmitName": "Requires",
           "normalizedSignature": "Requires|(System.Boolean):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -753,8 +802,9 @@
           "parameterCount": 1
         },
         {
+          "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.Contract::Requires(System.Boolean,System.String):System.Void",
           "clrName": "Requires",
-          "tsEmitName": "requires2",
+          "tsEmitName": "Requires2",
           "normalizedSignature": "Requires|(System.Boolean,System.String):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -767,8 +817,9 @@
           "parameterCount": 2
         },
         {
+          "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.Contract::Ensures(System.Boolean):System.Void",
           "clrName": "Ensures",
-          "tsEmitName": "ensures",
+          "tsEmitName": "Ensures",
           "normalizedSignature": "Ensures|(System.Boolean):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -781,8 +832,9 @@
           "parameterCount": 1
         },
         {
+          "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.Contract::Ensures(System.Boolean,System.String):System.Void",
           "clrName": "Ensures",
-          "tsEmitName": "ensures2",
+          "tsEmitName": "Ensures2",
           "normalizedSignature": "Ensures|(System.Boolean,System.String):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -795,8 +847,9 @@
           "parameterCount": 2
         },
         {
+          "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.Contract::EnsuresOnThrow(System.Boolean):System.Void",
           "clrName": "EnsuresOnThrow",
-          "tsEmitName": "ensuresOnThrow",
+          "tsEmitName": "EnsuresOnThrow",
           "normalizedSignature": "EnsuresOnThrow|(System.Boolean):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -809,8 +862,9 @@
           "parameterCount": 1
         },
         {
+          "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.Contract::EnsuresOnThrow(System.Boolean,System.String):System.Void",
           "clrName": "EnsuresOnThrow",
-          "tsEmitName": "ensuresOnThrow2",
+          "tsEmitName": "EnsuresOnThrow2",
           "normalizedSignature": "EnsuresOnThrow|(System.Boolean,System.String):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -823,8 +877,9 @@
           "parameterCount": 2
         },
         {
+          "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.Contract::Result():T",
           "clrName": "Result",
-          "tsEmitName": "result",
+          "tsEmitName": "Result",
           "normalizedSignature": "Result|():T|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -837,8 +892,9 @@
           "parameterCount": 0
         },
         {
+          "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.Contract::ValueAtReturn(T\u0026):T",
           "clrName": "ValueAtReturn",
-          "tsEmitName": "valueAtReturn",
+          "tsEmitName": "ValueAtReturn",
           "normalizedSignature": "ValueAtReturn|(T\u0026):T|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -851,8 +907,9 @@
           "parameterCount": 1
         },
         {
+          "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.Contract::OldValue(T):T",
           "clrName": "OldValue",
-          "tsEmitName": "oldValue",
+          "tsEmitName": "OldValue",
           "normalizedSignature": "OldValue|(T):T|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -865,8 +922,9 @@
           "parameterCount": 1
         },
         {
+          "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.Contract::Invariant(System.Boolean):System.Void",
           "clrName": "Invariant",
-          "tsEmitName": "invariant",
+          "tsEmitName": "Invariant",
           "normalizedSignature": "Invariant|(System.Boolean):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -879,8 +937,9 @@
           "parameterCount": 1
         },
         {
+          "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.Contract::Invariant(System.Boolean,System.String):System.Void",
           "clrName": "Invariant",
-          "tsEmitName": "invariant2",
+          "tsEmitName": "Invariant2",
           "normalizedSignature": "Invariant|(System.Boolean,System.String):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -893,8 +952,9 @@
           "parameterCount": 2
         },
         {
+          "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.Contract::ForAll(System.Int32,System.Int32,System.Predicate_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Boolean",
           "clrName": "ForAll",
-          "tsEmitName": "forAll",
+          "tsEmitName": "ForAll",
           "normalizedSignature": "ForAll|(System.Int32,System.Int32,System.Predicate_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Boolean|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -907,8 +967,9 @@
           "parameterCount": 3
         },
         {
+          "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.Contract::ForAll(IEnumerable_1,Predicate_1):System.Boolean",
           "clrName": "ForAll",
-          "tsEmitName": "forAll2",
+          "tsEmitName": "ForAll2",
           "normalizedSignature": "ForAll|(IEnumerable_1,Predicate_1):System.Boolean|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -921,8 +982,9 @@
           "parameterCount": 2
         },
         {
+          "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.Contract::Exists(System.Int32,System.Int32,System.Predicate_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Boolean",
           "clrName": "Exists",
-          "tsEmitName": "exists",
+          "tsEmitName": "Exists",
           "normalizedSignature": "Exists|(System.Int32,System.Int32,System.Predicate_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Boolean|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -935,8 +997,9 @@
           "parameterCount": 3
         },
         {
+          "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.Contract::Exists(IEnumerable_1,Predicate_1):System.Boolean",
           "clrName": "Exists",
-          "tsEmitName": "exists2",
+          "tsEmitName": "Exists2",
           "normalizedSignature": "Exists|(IEnumerable_1,Predicate_1):System.Boolean|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -949,8 +1012,9 @@
           "parameterCount": 2
         },
         {
+          "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.Contract::EndContractBlock():System.Void",
           "clrName": "EndContractBlock",
-          "tsEmitName": "endContractBlock",
+          "tsEmitName": "EndContractBlock",
           "normalizedSignature": "EndContractBlock|():System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -967,8 +1031,9 @@
       "fields": [],
       "events": [
         {
+          "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.Contract::ContractFailedSystem.EventHandler\u00601[[System.Diagnostics.Contracts.ContractFailedEventArgs, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "ContractFailed",
-          "tsEmitName": "contractFailed",
+          "tsEmitName": "ContractFailed",
           "normalizedSignature": "ContractFailed|System.EventHandler\u00601[[System.Diagnostics.Contracts.ContractFailedEventArgs, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]|static=true",
           "isStatic": true
         }

@@ -5,8 +5,8 @@
 // Branded primitive types are sourced from @tsonic/types
 import type { sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/types';
 
-// Import support types for unsafe CLR constructs
-import type { TSUnsafePointer, TSByRef } from "../../_support/types.js";
+// Import support types from @tsonic/types
+import type { ptr, ref } from "@tsonic/types";
 
 // Import types from other namespaces
 import type { IAsyncEnumerable_1, IComparer_1 } from "../../System.Collections.Generic/internal/index.js";
@@ -45,17 +45,17 @@ export type CLROf<T> =
     T; // Identity fallback for non-primitive types
 
 export enum BoundedChannelFullMode {
-    wait = 0,
-    dropNewest = 1,
-    dropOldest = 2,
-    dropWrite = 3
+    Wait = 0,
+    DropNewest = 1,
+    DropOldest = 2,
+    DropWrite = 3
 }
 
 
 export class BoundedChannelOptions$instance extends ChannelOptions$instance {
     constructor(capacity: int);
-    capacity: int;
-    fullMode: BoundedChannelFullMode;
+    Capacity: int;
+    FullMode: BoundedChannelFullMode;
 }
 
 
@@ -68,8 +68,8 @@ export abstract class Channel_1$instance<T> extends Channel_2$instance<T, T> {
 export type Channel_1<T> = Channel_1$instance<T>;
 
 export abstract class Channel_2$instance<TWrite, TRead> {
-    readonly reader: ChannelReader_1<TRead>;
-    readonly writer: ChannelWriter_1<TWrite>;
+    readonly Reader: ChannelReader_1<TRead>;
+    readonly Writer: ChannelWriter_1<TWrite>;
 }
 
 
@@ -80,7 +80,7 @@ export class ChannelClosedException$instance extends System_Internal.InvalidOper
     constructor(message: string);
     constructor(innerException: Exception);
     constructor(message: string, innerException: Exception);
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
@@ -92,35 +92,35 @@ export type ChannelClosedException = ChannelClosedException$instance & __Channel
 
 
 export abstract class ChannelOptions$instance {
-    allowSynchronousContinuations: boolean;
-    singleReader: boolean;
-    singleWriter: boolean;
+    AllowSynchronousContinuations: boolean;
+    SingleReader: boolean;
+    SingleWriter: boolean;
 }
 
 
 export type ChannelOptions = ChannelOptions$instance;
 
 export abstract class ChannelReader_1$instance<T> {
-    readonly canCount: boolean;
-    readonly canPeek: boolean;
-    readonly completion: Task;
-    readonly count: int;
-    readAllAsync(cancellationToken?: CancellationToken): IAsyncEnumerable_1<T>;
-    readAsync(cancellationToken?: CancellationToken): ValueTask_1<T>;
-    tryPeek(item: { value: TSByRef<T> }): boolean;
-    abstract tryRead(item: { value: TSByRef<T> }): boolean;
-    abstract waitToReadAsync(cancellationToken?: CancellationToken): ValueTask_1<CLROf<boolean>>;
+    readonly CanCount: boolean;
+    readonly CanPeek: boolean;
+    readonly Completion: Task;
+    readonly Count: int;
+    ReadAllAsync(cancellationToken?: CancellationToken): IAsyncEnumerable_1<T>;
+    ReadAsync(cancellationToken?: CancellationToken): ValueTask_1<T>;
+    TryPeek(item: { value: ref<T> }): boolean;
+    abstract TryRead(item: { value: ref<T> }): boolean;
+    abstract WaitToReadAsync(cancellationToken?: CancellationToken): ValueTask_1<CLROf<boolean>>;
 }
 
 
 export type ChannelReader_1<T> = ChannelReader_1$instance<T>;
 
 export abstract class ChannelWriter_1$instance<T> {
-    complete(error?: Exception): void;
-    tryComplete(error?: Exception): boolean;
-    abstract tryWrite(item: T): boolean;
-    abstract waitToWriteAsync(cancellationToken?: CancellationToken): ValueTask_1<CLROf<boolean>>;
-    writeAsync(item: T, cancellationToken?: CancellationToken): ValueTask;
+    Complete(error?: Exception): void;
+    TryComplete(error?: Exception): boolean;
+    abstract TryWrite(item: T): boolean;
+    abstract WaitToWriteAsync(cancellationToken?: CancellationToken): ValueTask_1<CLROf<boolean>>;
+    WriteAsync(item: T, cancellationToken?: CancellationToken): ValueTask;
 }
 
 
@@ -135,7 +135,7 @@ export type UnboundedChannelOptions = UnboundedChannelOptions$instance;
 
 export class UnboundedPrioritizedChannelOptions_1$instance<T> extends ChannelOptions$instance {
     constructor();
-    comparer: IComparer_1<T>;
+    Comparer: IComparer_1<T>;
 }
 
 

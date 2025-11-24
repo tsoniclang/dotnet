@@ -5,6 +5,7 @@
   ],
   "types": [
     {
+      "stableId": "System.Linq.Expressions:System.Linq.Expressions.Interpreter.LightLambda",
       "clrName": "System.Linq.Expressions.Interpreter.LightLambda",
       "tsEmitName": "LightLambda",
       "kind": "Class",
@@ -15,8 +16,9 @@
       "arity": 0,
       "methods": [
         {
+          "stableId": "System.Linq.Expressions:System.Linq.Expressions.Interpreter.LightLambda::Run(System.Object[]):System.Object",
           "clrName": "Run",
-          "tsEmitName": "run",
+          "tsEmitName": "Run",
           "normalizedSignature": "Run|(System.Object[]):System.Object|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -29,8 +31,9 @@
           "parameterCount": 1
         },
         {
+          "stableId": "System.Linq.Expressions:System.Linq.Expressions.Interpreter.LightLambda::RunVoid(System.Object[]):System.Object",
           "clrName": "RunVoid",
-          "tsEmitName": "runVoid",
+          "tsEmitName": "RunVoid",
           "normalizedSignature": "RunVoid|(System.Object[]):System.Object|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",

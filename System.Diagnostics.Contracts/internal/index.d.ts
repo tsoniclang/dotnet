@@ -5,8 +5,8 @@
 // Branded primitive types are sourced from @tsonic/types
 import type { sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/types';
 
-// Import support types for unsafe CLR constructs
-import type { TSUnsafePointer, TSByRef } from "../../_support/types.js";
+// Import support types from @tsonic/types
+import type { ptr, ref } from "@tsonic/types";
 
 // Import types from other namespaces
 import type { IEnumerable_1 } from "../../System.Collections.Generic/internal/index.js";
@@ -43,12 +43,12 @@ export type CLROf<T> =
     T; // Identity fallback for non-primitive types
 
 export enum ContractFailureKind {
-    precondition = 0,
-    postcondition = 1,
-    postconditionOnException = 2,
-    invariant = 3,
-    assert = 4,
-    assume = 5
+    Precondition = 0,
+    Postcondition = 1,
+    PostconditionOnException = 2,
+    Invariant = 3,
+    Assert = 4,
+    Assume = 5
 }
 
 
@@ -68,7 +68,7 @@ export type ContractArgumentValidatorAttribute = ContractArgumentValidatorAttrib
 
 export class ContractClassAttribute$instance extends System_Internal.Attribute$instance {
     constructor(typeContainingContracts: Type);
-    readonly typeContainingContracts: Type;
+    readonly TypeContainingContracts: Type;
 }
 
 
@@ -76,7 +76,7 @@ export type ContractClassAttribute = ContractClassAttribute$instance;
 
 export class ContractClassForAttribute$instance extends System_Internal.Attribute$instance {
     constructor(typeContractsAreFor: Type);
-    readonly typeContractsAreFor: Type;
+    readonly TypeContractsAreFor: Type;
 }
 
 
@@ -84,11 +84,11 @@ export type ContractClassForAttribute = ContractClassForAttribute$instance;
 
 export class ContractException$instance extends System_Internal.Exception$instance {
     constructor(kind: ContractFailureKind, failure: string, userMessage: string, condition: string, innerException: Exception);
-    readonly condition: string;
-    readonly failure: string;
-    readonly kind: ContractFailureKind;
-    readonly userMessage: string;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
+    readonly Condition: string;
+    readonly Failure: string;
+    readonly Kind: ContractFailureKind;
+    readonly UserMessage: string;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
@@ -101,14 +101,14 @@ export type ContractException = ContractException$instance & __ContractException
 
 export class ContractFailedEventArgs$instance extends System_Internal.EventArgs$instance {
     constructor(failureKind: ContractFailureKind, message: string, condition: string, originalException: Exception);
-    readonly condition: string;
-    readonly failureKind: ContractFailureKind;
-    readonly handled: boolean;
-    readonly message: string;
-    readonly originalException: Exception;
-    readonly unwind: boolean;
-    setHandled(): void;
-    setUnwind(): void;
+    readonly Condition: string;
+    readonly FailureKind: ContractFailureKind;
+    readonly Handled: boolean;
+    readonly Message: string;
+    readonly OriginalException: Exception;
+    readonly Unwind: boolean;
+    SetHandled(): void;
+    SetUnwind(): void;
 }
 
 
@@ -124,10 +124,10 @@ export type ContractInvariantMethodAttribute = ContractInvariantMethodAttribute$
 export class ContractOptionAttribute$instance extends System_Internal.Attribute$instance {
     constructor(category: string, setting: string, enabled: boolean);
     constructor(category: string, setting: string, value: string);
-    readonly category: string;
-    readonly enabled: boolean;
-    readonly setting: string;
-    readonly value: string;
+    readonly Category: string;
+    readonly Enabled: boolean;
+    readonly Setting: string;
+    readonly Value: string;
 }
 
 
@@ -135,7 +135,7 @@ export type ContractOptionAttribute = ContractOptionAttribute$instance;
 
 export class ContractPublicPropertyNameAttribute$instance extends System_Internal.Attribute$instance {
     constructor(name: string);
-    readonly name: string;
+    readonly Name: string;
 }
 
 
@@ -157,7 +157,7 @@ export type ContractRuntimeIgnoredAttribute = ContractRuntimeIgnoredAttribute$in
 
 export class ContractVerificationAttribute$instance extends System_Internal.Attribute$instance {
     constructor(value: boolean);
-    readonly value: boolean;
+    readonly Value: boolean;
 }
 
 
@@ -190,7 +190,7 @@ export abstract class Contract$instance {
     static Requires(condition: boolean, userMessage: string): void;
     static Requires(condition: boolean): void;
     static Result<T>(): T;
-    static ValueAtReturn<T>(value: { value: TSByRef<T> }): T;
+    static ValueAtReturn<T>(value: { value: ref<T> }): T;
 }
 
 

@@ -5,8 +5,8 @@
 // Branded primitive types are sourced from @tsonic/types
 import type { sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/types';
 
-// Import support types for unsafe CLR constructs
-import type { TSUnsafePointer, TSByRef } from "../../_support/types.js";
+// Import support types from @tsonic/types
+import type { ptr, ref } from "@tsonic/types";
 
 // Import types from other namespaces
 import * as System_Internal from "../../System/internal/index.js";
@@ -38,24 +38,24 @@ export type CLROf<T> =
     T; // Identity fallback for non-primitive types
 
 export class SwiftError$instance {
-    constructor(value: TSUnsafePointer<void>);
-    readonly value: TSUnsafePointer<void>;
+    constructor(value: ptr<void>);
+    readonly Value: ptr<void>;
 }
 
 
 export type SwiftError = SwiftError$instance;
 
 export class SwiftIndirectResult$instance {
-    constructor(value: TSUnsafePointer<void>);
-    readonly value: TSUnsafePointer<void>;
+    constructor(value: ptr<void>);
+    readonly Value: ptr<void>;
 }
 
 
 export type SwiftIndirectResult = SwiftIndirectResult$instance;
 
 export class SwiftSelf$instance {
-    constructor(value: TSUnsafePointer<void>);
-    readonly value: TSUnsafePointer<void>;
+    constructor(value: ptr<void>);
+    readonly Value: ptr<void>;
 }
 
 
@@ -63,7 +63,7 @@ export type SwiftSelf = SwiftSelf$instance;
 
 export class SwiftSelf_1$instance<T extends any> {
     constructor(value: T);
-    readonly value: T;
+    readonly Value: T;
 }
 
 
