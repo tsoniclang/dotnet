@@ -29,7 +29,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.HelpContextType::AmbientSystem.ComponentModel.Design.HelpContextType",
           "clrName": "Ambient",
-          "tsEmitName": "Ambient",
+          "tsEmitName": "ambient",
           "normalizedSignature": "Ambient|System.ComponentModel.Design.HelpContextType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -38,7 +38,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.HelpContextType::WindowSystem.ComponentModel.Design.HelpContextType",
           "clrName": "Window",
-          "tsEmitName": "Window",
+          "tsEmitName": "window",
           "normalizedSignature": "Window|System.ComponentModel.Design.HelpContextType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -47,7 +47,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.HelpContextType::SelectionSystem.ComponentModel.Design.HelpContextType",
           "clrName": "Selection",
-          "tsEmitName": "Selection",
+          "tsEmitName": "selection",
           "normalizedSignature": "Selection|System.ComponentModel.Design.HelpContextType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -56,7 +56,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.HelpContextType::ToolWindowSelectionSystem.ComponentModel.Design.HelpContextType",
           "clrName": "ToolWindowSelection",
-          "tsEmitName": "ToolWindowSelection",
+          "tsEmitName": "toolWindowSelection",
           "normalizedSignature": "ToolWindowSelection|System.ComponentModel.Design.HelpContextType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -91,7 +91,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.HelpKeywordType::F1KeywordSystem.ComponentModel.Design.HelpKeywordType",
           "clrName": "F1Keyword",
-          "tsEmitName": "F1Keyword",
+          "tsEmitName": "f1Keyword",
           "normalizedSignature": "F1Keyword|System.ComponentModel.Design.HelpKeywordType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -100,7 +100,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.HelpKeywordType::GeneralKeywordSystem.ComponentModel.Design.HelpKeywordType",
           "clrName": "GeneralKeyword",
-          "tsEmitName": "GeneralKeyword",
+          "tsEmitName": "generalKeyword",
           "normalizedSignature": "GeneralKeyword|System.ComponentModel.Design.HelpKeywordType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -109,7 +109,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.HelpKeywordType::FilterKeywordSystem.ComponentModel.Design.HelpKeywordType",
           "clrName": "FilterKeyword",
-          "tsEmitName": "FilterKeyword",
+          "tsEmitName": "filterKeyword",
           "normalizedSignature": "FilterKeyword|System.ComponentModel.Design.HelpKeywordType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -144,7 +144,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.SelectionTypes::AutoSystem.ComponentModel.Design.SelectionTypes",
           "clrName": "Auto",
-          "tsEmitName": "Auto",
+          "tsEmitName": "auto",
           "normalizedSignature": "Auto|System.ComponentModel.Design.SelectionTypes|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -153,7 +153,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.SelectionTypes::NormalSystem.ComponentModel.Design.SelectionTypes",
           "clrName": "Normal",
-          "tsEmitName": "Normal",
+          "tsEmitName": "normal",
           "normalizedSignature": "Normal|System.ComponentModel.Design.SelectionTypes|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -162,7 +162,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.SelectionTypes::ReplaceSystem.ComponentModel.Design.SelectionTypes",
           "clrName": "Replace",
-          "tsEmitName": "Replace",
+          "tsEmitName": "replace",
           "normalizedSignature": "Replace|System.ComponentModel.Design.SelectionTypes|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -171,7 +171,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.SelectionTypes::MouseDownSystem.ComponentModel.Design.SelectionTypes",
           "clrName": "MouseDown",
-          "tsEmitName": "MouseDown",
+          "tsEmitName": "mouseDown",
           "normalizedSignature": "MouseDown|System.ComponentModel.Design.SelectionTypes|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -180,7 +180,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.SelectionTypes::MouseUpSystem.ComponentModel.Design.SelectionTypes",
           "clrName": "MouseUp",
-          "tsEmitName": "MouseUp",
+          "tsEmitName": "mouseUp",
           "normalizedSignature": "MouseUp|System.ComponentModel.Design.SelectionTypes|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -189,7 +189,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.SelectionTypes::ClickSystem.ComponentModel.Design.SelectionTypes",
           "clrName": "Click",
-          "tsEmitName": "Click",
+          "tsEmitName": "click",
           "normalizedSignature": "Click|System.ComponentModel.Design.SelectionTypes|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -198,7 +198,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.SelectionTypes::PrimarySystem.ComponentModel.Design.SelectionTypes",
           "clrName": "Primary",
-          "tsEmitName": "Primary",
+          "tsEmitName": "primary",
           "normalizedSignature": "Primary|System.ComponentModel.Design.SelectionTypes|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -207,7 +207,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.SelectionTypes::ToggleSystem.ComponentModel.Design.SelectionTypes",
           "clrName": "Toggle",
-          "tsEmitName": "Toggle",
+          "tsEmitName": "toggle",
           "normalizedSignature": "Toggle|System.ComponentModel.Design.SelectionTypes|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -216,7 +216,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.SelectionTypes::AddSystem.ComponentModel.Design.SelectionTypes",
           "clrName": "Add",
-          "tsEmitName": "Add",
+          "tsEmitName": "add",
           "normalizedSignature": "Add|System.ComponentModel.Design.SelectionTypes|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -225,7 +225,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.SelectionTypes::RemoveSystem.ComponentModel.Design.SelectionTypes",
           "clrName": "Remove",
-          "tsEmitName": "Remove",
+          "tsEmitName": "remove",
           "normalizedSignature": "Remove|System.ComponentModel.Design.SelectionTypes|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -234,7 +234,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.SelectionTypes::ValidSystem.ComponentModel.Design.SelectionTypes",
           "clrName": "Valid",
-          "tsEmitName": "Valid",
+          "tsEmitName": "valid",
           "normalizedSignature": "Valid|System.ComponentModel.Design.SelectionTypes|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -269,7 +269,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.ViewTechnology::PassthroughSystem.ComponentModel.Design.ViewTechnology",
           "clrName": "Passthrough",
-          "tsEmitName": "Passthrough",
+          "tsEmitName": "passthrough",
           "normalizedSignature": "Passthrough|System.ComponentModel.Design.ViewTechnology|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -278,7 +278,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.ViewTechnology::WindowsFormsSystem.ComponentModel.Design.ViewTechnology",
           "clrName": "WindowsForms",
-          "tsEmitName": "WindowsForms",
+          "tsEmitName": "windowsForms",
           "normalizedSignature": "WindowsForms|System.ComponentModel.Design.ViewTechnology|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -287,7 +287,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.ViewTechnology::DefaultSystem.ComponentModel.Design.ViewTechnology",
           "clrName": "Default",
-          "tsEmitName": "Default",
+          "tsEmitName": "default_",
           "normalizedSignature": "Default|System.ComponentModel.Design.ViewTechnology|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -311,7 +311,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IComponentChangeService::OnComponentChanged(System.Object,System.ComponentModel.MemberDescriptor,System.Object,System.Object):System.Void",
           "clrName": "OnComponentChanged",
-          "tsEmitName": "OnComponentChanged",
+          "tsEmitName": "onComponentChanged",
           "normalizedSignature": "OnComponentChanged|(System.Object,System.ComponentModel.MemberDescriptor,System.Object,System.Object):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -327,7 +327,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IComponentChangeService::OnComponentChanging(System.Object,System.ComponentModel.MemberDescriptor):System.Void",
           "clrName": "OnComponentChanging",
-          "tsEmitName": "OnComponentChanging",
+          "tsEmitName": "onComponentChanging",
           "normalizedSignature": "OnComponentChanging|(System.Object,System.ComponentModel.MemberDescriptor):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -347,28 +347,28 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IComponentChangeService::ComponentAddedSystem.ComponentModel.Design.ComponentEventHandler",
           "clrName": "ComponentAdded",
-          "tsEmitName": "ComponentAdded",
+          "tsEmitName": "componentAdded",
           "normalizedSignature": "ComponentAdded|System.ComponentModel.Design.ComponentEventHandler|static=false",
           "isStatic": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IComponentChangeService::ComponentChangedSystem.ComponentModel.Design.ComponentChangedEventHandler",
           "clrName": "ComponentChanged",
-          "tsEmitName": "ComponentChanged",
+          "tsEmitName": "componentChanged",
           "normalizedSignature": "ComponentChanged|System.ComponentModel.Design.ComponentChangedEventHandler|static=false",
           "isStatic": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IComponentChangeService::ComponentChangingSystem.ComponentModel.Design.ComponentChangingEventHandler",
           "clrName": "ComponentChanging",
-          "tsEmitName": "ComponentChanging",
+          "tsEmitName": "componentChanging",
           "normalizedSignature": "ComponentChanging|System.ComponentModel.Design.ComponentChangingEventHandler|static=false",
           "isStatic": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IComponentChangeService::ComponentRenameSystem.ComponentModel.Design.ComponentRenameEventHandler",
           "clrName": "ComponentRename",
-          "tsEmitName": "ComponentRename",
+          "tsEmitName": "componentRename",
           "normalizedSignature": "ComponentRename|System.ComponentModel.Design.ComponentRenameEventHandler|static=false",
           "isStatic": false
         }
@@ -389,7 +389,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IComponentDiscoveryService::GetComponentTypes(System.ComponentModel.Design.IDesignerHost,System.Type):System.Collections.ICollection",
           "clrName": "GetComponentTypes",
-          "tsEmitName": "GetComponentTypes",
+          "tsEmitName": "getComponentTypes",
           "normalizedSignature": "GetComponentTypes|(System.ComponentModel.Design.IDesignerHost,System.Type):System.Collections.ICollection|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -422,7 +422,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IComponentInitializer::InitializeExistingComponent(System.Collections.IDictionary):System.Void",
           "clrName": "InitializeExistingComponent",
-          "tsEmitName": "InitializeExistingComponent",
+          "tsEmitName": "initializeExistingComponent",
           "normalizedSignature": "InitializeExistingComponent|(System.Collections.IDictionary):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -455,7 +455,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IDesigner::DoDefaultAction():System.Void",
           "clrName": "DoDefaultAction",
-          "tsEmitName": "DoDefaultAction",
+          "tsEmitName": "doDefaultAction",
           "normalizedSignature": "DoDefaultAction|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -471,7 +471,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IDesigner::Initialize(System.ComponentModel.IComponent):System.Void",
           "clrName": "Initialize",
-          "tsEmitName": "Initialize",
+          "tsEmitName": "initialize",
           "normalizedSignature": "Initialize|(System.ComponentModel.IComponent):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -489,7 +489,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IDesigner::Component:System.ComponentModel.IComponent",
           "clrName": "Component",
-          "tsEmitName": "Component",
+          "tsEmitName": "component",
           "normalizedSignature": "Component|:System.ComponentModel.IComponent|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -504,7 +504,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IDesigner::Verbs:System.ComponentModel.Design.DesignerVerbCollection",
           "clrName": "Verbs",
-          "tsEmitName": "Verbs",
+          "tsEmitName": "verbs",
           "normalizedSignature": "Verbs|:System.ComponentModel.Design.DesignerVerbCollection|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -536,7 +536,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IDesignerEventService::ActiveDesigner:System.ComponentModel.Design.IDesignerHost",
           "clrName": "ActiveDesigner",
-          "tsEmitName": "ActiveDesigner",
+          "tsEmitName": "activeDesigner",
           "normalizedSignature": "ActiveDesigner|:System.ComponentModel.Design.IDesignerHost|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -551,7 +551,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IDesignerEventService::Designers:System.ComponentModel.Design.DesignerCollection",
           "clrName": "Designers",
-          "tsEmitName": "Designers",
+          "tsEmitName": "designers",
           "normalizedSignature": "Designers|:System.ComponentModel.Design.DesignerCollection|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -569,21 +569,21 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IDesignerEventService::ActiveDesignerChangedSystem.ComponentModel.Design.ActiveDesignerEventHandler",
           "clrName": "ActiveDesignerChanged",
-          "tsEmitName": "ActiveDesignerChanged",
+          "tsEmitName": "activeDesignerChanged",
           "normalizedSignature": "ActiveDesignerChanged|System.ComponentModel.Design.ActiveDesignerEventHandler|static=false",
           "isStatic": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IDesignerEventService::DesignerCreatedSystem.ComponentModel.Design.DesignerEventHandler",
           "clrName": "DesignerCreated",
-          "tsEmitName": "DesignerCreated",
+          "tsEmitName": "designerCreated",
           "normalizedSignature": "DesignerCreated|System.ComponentModel.Design.DesignerEventHandler|static=false",
           "isStatic": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IDesignerEventService::SelectionChangedSystem.EventHandler",
           "clrName": "SelectionChanged",
-          "tsEmitName": "SelectionChanged",
+          "tsEmitName": "selectionChanged",
           "normalizedSignature": "SelectionChanged|System.EventHandler|static=false",
           "isStatic": false
         }
@@ -604,7 +604,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IDesignerFilter::PostFilterAttributes(System.Collections.IDictionary):System.Void",
           "clrName": "PostFilterAttributes",
-          "tsEmitName": "PostFilterAttributes",
+          "tsEmitName": "postFilterAttributes",
           "normalizedSignature": "PostFilterAttributes|(System.Collections.IDictionary):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -637,7 +637,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IDesignerHost::Activate():System.Void",
           "clrName": "Activate",
-          "tsEmitName": "Activate",
+          "tsEmitName": "activate",
           "normalizedSignature": "Activate|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -653,7 +653,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IDesignerHost::CreateComponent(System.Type):System.ComponentModel.IComponent",
           "clrName": "CreateComponent",
-          "tsEmitName": "CreateComponent",
+          "tsEmitName": "createComponent",
           "normalizedSignature": "CreateComponent|(System.Type):System.ComponentModel.IComponent|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -669,7 +669,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IDesignerHost::CreateComponent(System.Type,System.String):System.ComponentModel.IComponent",
           "clrName": "CreateComponent",
-          "tsEmitName": "CreateComponent2",
+          "tsEmitName": "createComponent2",
           "normalizedSignature": "CreateComponent|(System.Type,System.String):System.ComponentModel.IComponent|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -685,7 +685,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IDesignerHost::CreateTransaction():System.ComponentModel.Design.DesignerTransaction",
           "clrName": "CreateTransaction",
-          "tsEmitName": "CreateTransaction",
+          "tsEmitName": "createTransaction",
           "normalizedSignature": "CreateTransaction|():System.ComponentModel.Design.DesignerTransaction|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -701,7 +701,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IDesignerHost::CreateTransaction(System.String):System.ComponentModel.Design.DesignerTransaction",
           "clrName": "CreateTransaction",
-          "tsEmitName": "CreateTransaction2",
+          "tsEmitName": "createTransaction2",
           "normalizedSignature": "CreateTransaction|(System.String):System.ComponentModel.Design.DesignerTransaction|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -717,7 +717,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IDesignerHost::DestroyComponent(System.ComponentModel.IComponent):System.Void",
           "clrName": "DestroyComponent",
-          "tsEmitName": "DestroyComponent",
+          "tsEmitName": "destroyComponent",
           "normalizedSignature": "DestroyComponent|(System.ComponentModel.IComponent):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -733,7 +733,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IDesignerHost::GetDesigner(System.ComponentModel.IComponent):System.ComponentModel.Design.IDesigner",
           "clrName": "GetDesigner",
-          "tsEmitName": "GetDesigner",
+          "tsEmitName": "getDesigner",
           "normalizedSignature": "GetDesigner|(System.ComponentModel.IComponent):System.ComponentModel.Design.IDesigner|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -749,7 +749,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IDesignerHost::GetType(System.String):System.Type",
           "clrName": "GetType",
-          "tsEmitName": "GetType",
+          "tsEmitName": "getType",
           "normalizedSignature": "GetType|(System.String):System.Type|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -765,7 +765,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IServiceContainer::AddService(System.Type,System.Object):System.Void",
           "clrName": "AddService",
-          "tsEmitName": "AddService",
+          "tsEmitName": "addService",
           "normalizedSignature": "AddService|(System.Type,System.Object):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -781,7 +781,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IServiceContainer::AddService(System.Type,System.Object,System.Boolean):System.Void",
           "clrName": "AddService",
-          "tsEmitName": "AddService2",
+          "tsEmitName": "addService2",
           "normalizedSignature": "AddService|(System.Type,System.Object,System.Boolean):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -797,7 +797,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IServiceContainer::AddService(System.Type,System.ComponentModel.Design.ServiceCreatorCallback):System.Void",
           "clrName": "AddService",
-          "tsEmitName": "AddService3",
+          "tsEmitName": "addService3",
           "normalizedSignature": "AddService|(System.Type,System.ComponentModel.Design.ServiceCreatorCallback):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -813,7 +813,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IServiceContainer::AddService(System.Type,System.ComponentModel.Design.ServiceCreatorCallback,System.Boolean):System.Void",
           "clrName": "AddService",
-          "tsEmitName": "AddService4",
+          "tsEmitName": "addService4",
           "normalizedSignature": "AddService|(System.Type,System.ComponentModel.Design.ServiceCreatorCallback,System.Boolean):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -829,7 +829,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IServiceContainer::RemoveService(System.Type):System.Void",
           "clrName": "RemoveService",
-          "tsEmitName": "RemoveService",
+          "tsEmitName": "removeService",
           "normalizedSignature": "RemoveService|(System.Type):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -845,7 +845,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IServiceContainer::RemoveService(System.Type,System.Boolean):System.Void",
           "clrName": "RemoveService",
-          "tsEmitName": "RemoveService2",
+          "tsEmitName": "removeService2",
           "normalizedSignature": "RemoveService|(System.Type,System.Boolean):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -861,7 +861,7 @@
         {
           "stableId": "System.ComponentModel:System.IServiceProvider::GetService(System.Type):System.Object",
           "clrName": "GetService",
-          "tsEmitName": "GetService",
+          "tsEmitName": "getService",
           "normalizedSignature": "GetService|(System.Type):System.Object|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -879,7 +879,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IDesignerHost::Loading:System.Boolean",
           "clrName": "Loading",
-          "tsEmitName": "Loading",
+          "tsEmitName": "loading",
           "normalizedSignature": "Loading|:System.Boolean|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -894,7 +894,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IDesignerHost::InTransaction:System.Boolean",
           "clrName": "InTransaction",
-          "tsEmitName": "InTransaction",
+          "tsEmitName": "inTransaction",
           "normalizedSignature": "InTransaction|:System.Boolean|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -909,7 +909,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IDesignerHost::Container:System.ComponentModel.IContainer",
           "clrName": "Container",
-          "tsEmitName": "Container",
+          "tsEmitName": "container",
           "normalizedSignature": "Container|:System.ComponentModel.IContainer|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -924,7 +924,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IDesignerHost::RootComponent:System.ComponentModel.IComponent",
           "clrName": "RootComponent",
-          "tsEmitName": "RootComponent",
+          "tsEmitName": "rootComponent",
           "normalizedSignature": "RootComponent|:System.ComponentModel.IComponent|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -939,7 +939,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IDesignerHost::RootComponentClassName:System.String",
           "clrName": "RootComponentClassName",
-          "tsEmitName": "RootComponentClassName",
+          "tsEmitName": "rootComponentClassName",
           "normalizedSignature": "RootComponentClassName|:System.String|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -954,7 +954,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IDesignerHost::TransactionDescription:System.String",
           "clrName": "TransactionDescription",
-          "tsEmitName": "TransactionDescription",
+          "tsEmitName": "transactionDescription",
           "normalizedSignature": "TransactionDescription|:System.String|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -972,14 +972,14 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IDesignerHost::ActivatedSystem.EventHandler",
           "clrName": "Activated",
-          "tsEmitName": "Activated",
+          "tsEmitName": "activated",
           "normalizedSignature": "Activated|System.EventHandler|static=false",
           "isStatic": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IDesignerHost::TransactionClosedSystem.ComponentModel.Design.DesignerTransactionCloseEventHandler",
           "clrName": "TransactionClosed",
-          "tsEmitName": "TransactionClosed",
+          "tsEmitName": "transactionClosed",
           "normalizedSignature": "TransactionClosed|System.ComponentModel.Design.DesignerTransactionCloseEventHandler|static=false",
           "isStatic": false
         }
@@ -1001,7 +1001,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IDesignerHostTransactionState::IsClosingTransaction:System.Boolean",
           "clrName": "IsClosingTransaction",
-          "tsEmitName": "IsClosingTransaction",
+          "tsEmitName": "isClosingTransaction",
           "normalizedSignature": "IsClosingTransaction|:System.Boolean|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1032,7 +1032,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IDesignerOptionService::GetOptionValue(System.String,System.String):System.Object",
           "clrName": "GetOptionValue",
-          "tsEmitName": "GetOptionValue",
+          "tsEmitName": "getOptionValue",
           "normalizedSignature": "GetOptionValue|(System.String,System.String):System.Object|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1048,7 +1048,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IDesignerOptionService::SetOptionValue(System.String,System.String,System.Object):System.Void",
           "clrName": "SetOptionValue",
-          "tsEmitName": "SetOptionValue",
+          "tsEmitName": "setOptionValue",
           "normalizedSignature": "SetOptionValue|(System.String,System.String,System.Object):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1081,7 +1081,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IDictionaryService::GetKey(System.Object):System.Object",
           "clrName": "GetKey",
-          "tsEmitName": "GetKey",
+          "tsEmitName": "getKey",
           "normalizedSignature": "GetKey|(System.Object):System.Object|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1097,7 +1097,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IDictionaryService::SetValue(System.Object,System.Object):System.Void",
           "clrName": "SetValue",
-          "tsEmitName": "SetValue",
+          "tsEmitName": "setValue",
           "normalizedSignature": "SetValue|(System.Object,System.Object):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1130,7 +1130,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IEventBindingService::CreateUniqueMethodName(System.ComponentModel.IComponent,System.ComponentModel.EventDescriptor):System.String",
           "clrName": "CreateUniqueMethodName",
-          "tsEmitName": "CreateUniqueMethodName",
+          "tsEmitName": "createUniqueMethodName",
           "normalizedSignature": "CreateUniqueMethodName|(System.ComponentModel.IComponent,System.ComponentModel.EventDescriptor):System.String|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1146,7 +1146,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IEventBindingService::GetCompatibleMethods(System.ComponentModel.EventDescriptor):System.Collections.ICollection",
           "clrName": "GetCompatibleMethods",
-          "tsEmitName": "GetCompatibleMethods",
+          "tsEmitName": "getCompatibleMethods",
           "normalizedSignature": "GetCompatibleMethods|(System.ComponentModel.EventDescriptor):System.Collections.ICollection|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1162,7 +1162,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IEventBindingService::GetEvent(System.ComponentModel.PropertyDescriptor):System.ComponentModel.EventDescriptor",
           "clrName": "GetEvent",
-          "tsEmitName": "GetEvent",
+          "tsEmitName": "getEvent",
           "normalizedSignature": "GetEvent|(System.ComponentModel.PropertyDescriptor):System.ComponentModel.EventDescriptor|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1178,7 +1178,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IEventBindingService::GetEventProperties(System.ComponentModel.EventDescriptorCollection):System.ComponentModel.PropertyDescriptorCollection",
           "clrName": "GetEventProperties",
-          "tsEmitName": "GetEventProperties",
+          "tsEmitName": "getEventProperties",
           "normalizedSignature": "GetEventProperties|(System.ComponentModel.EventDescriptorCollection):System.ComponentModel.PropertyDescriptorCollection|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1194,7 +1194,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IEventBindingService::GetEventProperty(System.ComponentModel.EventDescriptor):System.ComponentModel.PropertyDescriptor",
           "clrName": "GetEventProperty",
-          "tsEmitName": "GetEventProperty",
+          "tsEmitName": "getEventProperty",
           "normalizedSignature": "GetEventProperty|(System.ComponentModel.EventDescriptor):System.ComponentModel.PropertyDescriptor|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1210,7 +1210,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IEventBindingService::ShowCode():System.Boolean",
           "clrName": "ShowCode",
-          "tsEmitName": "ShowCode",
+          "tsEmitName": "showCode",
           "normalizedSignature": "ShowCode|():System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1226,7 +1226,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IEventBindingService::ShowCode(System.Int32):System.Boolean",
           "clrName": "ShowCode",
-          "tsEmitName": "ShowCode2",
+          "tsEmitName": "showCode2",
           "normalizedSignature": "ShowCode|(System.Int32):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1242,7 +1242,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IEventBindingService::ShowCode(System.ComponentModel.IComponent,System.ComponentModel.EventDescriptor):System.Boolean",
           "clrName": "ShowCode",
-          "tsEmitName": "ShowCode3",
+          "tsEmitName": "showCode3",
           "normalizedSignature": "ShowCode|(System.ComponentModel.IComponent,System.ComponentModel.EventDescriptor):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1275,7 +1275,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IExtenderListService::GetExtenderProviders():System.ComponentModel.IExtenderProvider[]",
           "clrName": "GetExtenderProviders",
-          "tsEmitName": "GetExtenderProviders",
+          "tsEmitName": "getExtenderProviders",
           "normalizedSignature": "GetExtenderProviders|():System.ComponentModel.IExtenderProvider[]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1308,7 +1308,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IExtenderProviderService::AddExtenderProvider(System.ComponentModel.IExtenderProvider):System.Void",
           "clrName": "AddExtenderProvider",
-          "tsEmitName": "AddExtenderProvider",
+          "tsEmitName": "addExtenderProvider",
           "normalizedSignature": "AddExtenderProvider|(System.ComponentModel.IExtenderProvider):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1341,7 +1341,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IHelpService::AddContextAttribute(System.String,System.String,System.ComponentModel.Design.HelpKeywordType):System.Void",
           "clrName": "AddContextAttribute",
-          "tsEmitName": "AddContextAttribute",
+          "tsEmitName": "addContextAttribute",
           "normalizedSignature": "AddContextAttribute|(System.String,System.String,System.ComponentModel.Design.HelpKeywordType):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1357,7 +1357,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IHelpService::ClearContextAttributes():System.Void",
           "clrName": "ClearContextAttributes",
-          "tsEmitName": "ClearContextAttributes",
+          "tsEmitName": "clearContextAttributes",
           "normalizedSignature": "ClearContextAttributes|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1373,7 +1373,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IHelpService::CreateLocalContext(System.ComponentModel.Design.HelpContextType):System.ComponentModel.Design.IHelpService",
           "clrName": "CreateLocalContext",
-          "tsEmitName": "CreateLocalContext",
+          "tsEmitName": "createLocalContext",
           "normalizedSignature": "CreateLocalContext|(System.ComponentModel.Design.HelpContextType):System.ComponentModel.Design.IHelpService|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1389,7 +1389,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IHelpService::RemoveContextAttribute(System.String,System.String):System.Void",
           "clrName": "RemoveContextAttribute",
-          "tsEmitName": "RemoveContextAttribute",
+          "tsEmitName": "removeContextAttribute",
           "normalizedSignature": "RemoveContextAttribute|(System.String,System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1405,7 +1405,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IHelpService::RemoveLocalContext(System.ComponentModel.Design.IHelpService):System.Void",
           "clrName": "RemoveLocalContext",
-          "tsEmitName": "RemoveLocalContext",
+          "tsEmitName": "removeLocalContext",
           "normalizedSignature": "RemoveLocalContext|(System.ComponentModel.Design.IHelpService):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1421,7 +1421,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IHelpService::ShowHelpFromKeyword(System.String):System.Void",
           "clrName": "ShowHelpFromKeyword",
-          "tsEmitName": "ShowHelpFromKeyword",
+          "tsEmitName": "showHelpFromKeyword",
           "normalizedSignature": "ShowHelpFromKeyword|(System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1454,7 +1454,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IInheritanceService::AddInheritedComponents(System.ComponentModel.IComponent,System.ComponentModel.IContainer):System.Void",
           "clrName": "AddInheritedComponents",
-          "tsEmitName": "AddInheritedComponents",
+          "tsEmitName": "addInheritedComponents",
           "normalizedSignature": "AddInheritedComponents|(System.ComponentModel.IComponent,System.ComponentModel.IContainer):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1470,7 +1470,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IInheritanceService::GetInheritanceAttribute(System.ComponentModel.IComponent):System.ComponentModel.InheritanceAttribute",
           "clrName": "GetInheritanceAttribute",
-          "tsEmitName": "GetInheritanceAttribute",
+          "tsEmitName": "getInheritanceAttribute",
           "normalizedSignature": "GetInheritanceAttribute|(System.ComponentModel.IComponent):System.ComponentModel.InheritanceAttribute|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1503,7 +1503,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IMenuCommandService::AddCommand(System.ComponentModel.Design.MenuCommand):System.Void",
           "clrName": "AddCommand",
-          "tsEmitName": "AddCommand",
+          "tsEmitName": "addCommand",
           "normalizedSignature": "AddCommand|(System.ComponentModel.Design.MenuCommand):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1519,7 +1519,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IMenuCommandService::AddVerb(System.ComponentModel.Design.DesignerVerb):System.Void",
           "clrName": "AddVerb",
-          "tsEmitName": "AddVerb",
+          "tsEmitName": "addVerb",
           "normalizedSignature": "AddVerb|(System.ComponentModel.Design.DesignerVerb):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1535,7 +1535,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IMenuCommandService::FindCommand(System.ComponentModel.Design.CommandID):System.ComponentModel.Design.MenuCommand",
           "clrName": "FindCommand",
-          "tsEmitName": "FindCommand",
+          "tsEmitName": "findCommand",
           "normalizedSignature": "FindCommand|(System.ComponentModel.Design.CommandID):System.ComponentModel.Design.MenuCommand|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1551,7 +1551,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IMenuCommandService::GlobalInvoke(System.ComponentModel.Design.CommandID):System.Boolean",
           "clrName": "GlobalInvoke",
-          "tsEmitName": "GlobalInvoke",
+          "tsEmitName": "globalInvoke",
           "normalizedSignature": "GlobalInvoke|(System.ComponentModel.Design.CommandID):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1567,7 +1567,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IMenuCommandService::ShowContextMenu(System.ComponentModel.Design.CommandID,System.Int32,System.Int32):System.Void",
           "clrName": "ShowContextMenu",
-          "tsEmitName": "ShowContextMenu",
+          "tsEmitName": "showContextMenu",
           "normalizedSignature": "ShowContextMenu|(System.ComponentModel.Design.CommandID,System.Int32,System.Int32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1585,7 +1585,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IMenuCommandService::Verbs:System.ComponentModel.Design.DesignerVerbCollection",
           "clrName": "Verbs",
-          "tsEmitName": "Verbs",
+          "tsEmitName": "verbs",
           "normalizedSignature": "Verbs|:System.ComponentModel.Design.DesignerVerbCollection|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1616,7 +1616,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IReferenceService::GetComponent(System.Object):System.ComponentModel.IComponent",
           "clrName": "GetComponent",
-          "tsEmitName": "GetComponent",
+          "tsEmitName": "getComponent",
           "normalizedSignature": "GetComponent|(System.Object):System.ComponentModel.IComponent|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1632,7 +1632,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IReferenceService::GetReference(System.String):System.Object",
           "clrName": "GetReference",
-          "tsEmitName": "GetReference",
+          "tsEmitName": "getReference",
           "normalizedSignature": "GetReference|(System.String):System.Object|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1648,7 +1648,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IReferenceService::GetName(System.Object):System.String",
           "clrName": "GetName",
-          "tsEmitName": "GetName",
+          "tsEmitName": "getName",
           "normalizedSignature": "GetName|(System.Object):System.String|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1664,7 +1664,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IReferenceService::GetReferences():System.Object[]",
           "clrName": "GetReferences",
-          "tsEmitName": "GetReferences",
+          "tsEmitName": "getReferences",
           "normalizedSignature": "GetReferences|():System.Object[]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1680,7 +1680,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IReferenceService::GetReferences(System.Type):System.Object[]",
           "clrName": "GetReferences",
-          "tsEmitName": "GetReferences2",
+          "tsEmitName": "getReferences2",
           "normalizedSignature": "GetReferences|(System.Type):System.Object[]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1713,7 +1713,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IResourceService::GetResourceReader(System.Globalization.CultureInfo):System.Resources.IResourceReader",
           "clrName": "GetResourceReader",
-          "tsEmitName": "GetResourceReader",
+          "tsEmitName": "getResourceReader",
           "normalizedSignature": "GetResourceReader|(System.Globalization.CultureInfo):System.Resources.IResourceReader|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1729,7 +1729,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IResourceService::GetResourceWriter(System.Globalization.CultureInfo):System.Resources.IResourceWriter",
           "clrName": "GetResourceWriter",
-          "tsEmitName": "GetResourceWriter",
+          "tsEmitName": "getResourceWriter",
           "normalizedSignature": "GetResourceWriter|(System.Globalization.CultureInfo):System.Resources.IResourceWriter|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1762,7 +1762,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IRootDesigner::GetView(System.ComponentModel.Design.ViewTechnology):System.Object",
           "clrName": "GetView",
-          "tsEmitName": "GetView",
+          "tsEmitName": "getView",
           "normalizedSignature": "GetView|(System.ComponentModel.Design.ViewTechnology):System.Object|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1778,7 +1778,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IDesigner::DoDefaultAction():System.Void",
           "clrName": "DoDefaultAction",
-          "tsEmitName": "DoDefaultAction",
+          "tsEmitName": "doDefaultAction",
           "normalizedSignature": "DoDefaultAction|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1794,7 +1794,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IDesigner::Initialize(System.ComponentModel.IComponent):System.Void",
           "clrName": "Initialize",
-          "tsEmitName": "Initialize",
+          "tsEmitName": "initialize",
           "normalizedSignature": "Initialize|(System.ComponentModel.IComponent):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1812,7 +1812,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IRootDesigner::SupportedTechnologies:System.ComponentModel.Design.ViewTechnology[]",
           "clrName": "SupportedTechnologies",
-          "tsEmitName": "SupportedTechnologies",
+          "tsEmitName": "supportedTechnologies",
           "normalizedSignature": "SupportedTechnologies|:System.ComponentModel.Design.ViewTechnology[]|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1827,7 +1827,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IDesigner::Component:System.ComponentModel.IComponent",
           "clrName": "Component",
-          "tsEmitName": "Component",
+          "tsEmitName": "component",
           "normalizedSignature": "Component|:System.ComponentModel.IComponent|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1842,7 +1842,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IDesigner::Verbs:System.ComponentModel.Design.DesignerVerbCollection",
           "clrName": "Verbs",
-          "tsEmitName": "Verbs",
+          "tsEmitName": "verbs",
           "normalizedSignature": "Verbs|:System.ComponentModel.Design.DesignerVerbCollection|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1873,7 +1873,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.ISelectionService::GetComponentSelected(System.Object):System.Boolean",
           "clrName": "GetComponentSelected",
-          "tsEmitName": "GetComponentSelected",
+          "tsEmitName": "getComponentSelected",
           "normalizedSignature": "GetComponentSelected|(System.Object):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1889,7 +1889,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.ISelectionService::GetSelectedComponents():System.Collections.ICollection",
           "clrName": "GetSelectedComponents",
-          "tsEmitName": "GetSelectedComponents",
+          "tsEmitName": "getSelectedComponents",
           "normalizedSignature": "GetSelectedComponents|():System.Collections.ICollection|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1905,7 +1905,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.ISelectionService::SetSelectedComponents(System.Collections.ICollection):System.Void",
           "clrName": "SetSelectedComponents",
-          "tsEmitName": "SetSelectedComponents",
+          "tsEmitName": "setSelectedComponents",
           "normalizedSignature": "SetSelectedComponents|(System.Collections.ICollection):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1921,7 +1921,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.ISelectionService::SetSelectedComponents(System.Collections.ICollection,System.ComponentModel.Design.SelectionTypes):System.Void",
           "clrName": "SetSelectedComponents",
-          "tsEmitName": "SetSelectedComponents2",
+          "tsEmitName": "setSelectedComponents2",
           "normalizedSignature": "SetSelectedComponents|(System.Collections.ICollection,System.ComponentModel.Design.SelectionTypes):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1939,7 +1939,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.ISelectionService::PrimarySelection:System.Object",
           "clrName": "PrimarySelection",
-          "tsEmitName": "PrimarySelection",
+          "tsEmitName": "primarySelection",
           "normalizedSignature": "PrimarySelection|:System.Object|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1954,7 +1954,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.ISelectionService::SelectionCount:System.Int32",
           "clrName": "SelectionCount",
-          "tsEmitName": "SelectionCount",
+          "tsEmitName": "selectionCount",
           "normalizedSignature": "SelectionCount|:System.Int32|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1972,7 +1972,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.ISelectionService::SelectionChangedSystem.EventHandler",
           "clrName": "SelectionChanged",
-          "tsEmitName": "SelectionChanged",
+          "tsEmitName": "selectionChanged",
           "normalizedSignature": "SelectionChanged|System.EventHandler|static=false",
           "isStatic": false
         }
@@ -1993,7 +1993,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IServiceContainer::AddService(System.Type,System.Object):System.Void",
           "clrName": "AddService",
-          "tsEmitName": "AddService",
+          "tsEmitName": "addService",
           "normalizedSignature": "AddService|(System.Type,System.Object):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2009,7 +2009,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IServiceContainer::AddService(System.Type,System.Object,System.Boolean):System.Void",
           "clrName": "AddService",
-          "tsEmitName": "AddService2",
+          "tsEmitName": "addService2",
           "normalizedSignature": "AddService|(System.Type,System.Object,System.Boolean):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2025,7 +2025,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IServiceContainer::AddService(System.Type,System.ComponentModel.Design.ServiceCreatorCallback):System.Void",
           "clrName": "AddService",
-          "tsEmitName": "AddService3",
+          "tsEmitName": "addService3",
           "normalizedSignature": "AddService|(System.Type,System.ComponentModel.Design.ServiceCreatorCallback):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2041,7 +2041,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IServiceContainer::AddService(System.Type,System.ComponentModel.Design.ServiceCreatorCallback,System.Boolean):System.Void",
           "clrName": "AddService",
-          "tsEmitName": "AddService4",
+          "tsEmitName": "addService4",
           "normalizedSignature": "AddService|(System.Type,System.ComponentModel.Design.ServiceCreatorCallback,System.Boolean):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2057,7 +2057,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IServiceContainer::RemoveService(System.Type):System.Void",
           "clrName": "RemoveService",
-          "tsEmitName": "RemoveService",
+          "tsEmitName": "removeService",
           "normalizedSignature": "RemoveService|(System.Type):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2073,7 +2073,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IServiceContainer::RemoveService(System.Type,System.Boolean):System.Void",
           "clrName": "RemoveService",
-          "tsEmitName": "RemoveService2",
+          "tsEmitName": "removeService2",
           "normalizedSignature": "RemoveService|(System.Type,System.Boolean):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2089,7 +2089,7 @@
         {
           "stableId": "System.ComponentModel:System.IServiceProvider::GetService(System.Type):System.Object",
           "clrName": "GetService",
-          "tsEmitName": "GetService",
+          "tsEmitName": "getService",
           "normalizedSignature": "GetService|(System.Type):System.Object|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2122,7 +2122,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IDesigner::DoDefaultAction():System.Void",
           "clrName": "DoDefaultAction",
-          "tsEmitName": "DoDefaultAction",
+          "tsEmitName": "doDefaultAction",
           "normalizedSignature": "DoDefaultAction|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2138,7 +2138,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IDesigner::Initialize(System.ComponentModel.IComponent):System.Void",
           "clrName": "Initialize",
-          "tsEmitName": "Initialize",
+          "tsEmitName": "initialize",
           "normalizedSignature": "Initialize|(System.ComponentModel.IComponent):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2156,7 +2156,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.ITreeDesigner::Children:System.Collections.ICollection",
           "clrName": "Children",
-          "tsEmitName": "Children",
+          "tsEmitName": "children",
           "normalizedSignature": "Children|:System.Collections.ICollection|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2171,7 +2171,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.ITreeDesigner::Parent:System.ComponentModel.Design.IDesigner",
           "clrName": "Parent",
-          "tsEmitName": "Parent",
+          "tsEmitName": "parent",
           "normalizedSignature": "Parent|:System.ComponentModel.Design.IDesigner|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2186,7 +2186,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IDesigner::Component:System.ComponentModel.IComponent",
           "clrName": "Component",
-          "tsEmitName": "Component",
+          "tsEmitName": "component",
           "normalizedSignature": "Component|:System.ComponentModel.IComponent|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2201,7 +2201,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IDesigner::Verbs:System.ComponentModel.Design.DesignerVerbCollection",
           "clrName": "Verbs",
-          "tsEmitName": "Verbs",
+          "tsEmitName": "verbs",
           "normalizedSignature": "Verbs|:System.ComponentModel.Design.DesignerVerbCollection|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2232,7 +2232,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.ITypeDescriptorFilterService::FilterAttributes(System.ComponentModel.IComponent,System.Collections.IDictionary):System.Boolean",
           "clrName": "FilterAttributes",
-          "tsEmitName": "FilterAttributes",
+          "tsEmitName": "filterAttributes",
           "normalizedSignature": "FilterAttributes|(System.ComponentModel.IComponent,System.Collections.IDictionary):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2265,7 +2265,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.ITypeDiscoveryService::GetTypes(System.Type,System.Boolean):System.Collections.ICollection",
           "clrName": "GetTypes",
-          "tsEmitName": "GetTypes",
+          "tsEmitName": "getTypes",
           "normalizedSignature": "GetTypes|(System.Type,System.Boolean):System.Collections.ICollection|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2298,7 +2298,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.ITypeResolutionService::GetAssembly(System.Reflection.AssemblyName):System.Reflection.Assembly",
           "clrName": "GetAssembly",
-          "tsEmitName": "GetAssembly",
+          "tsEmitName": "getAssembly",
           "normalizedSignature": "GetAssembly|(System.Reflection.AssemblyName):System.Reflection.Assembly|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2314,7 +2314,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.ITypeResolutionService::GetAssembly(System.Reflection.AssemblyName,System.Boolean):System.Reflection.Assembly",
           "clrName": "GetAssembly",
-          "tsEmitName": "GetAssembly2",
+          "tsEmitName": "getAssembly2",
           "normalizedSignature": "GetAssembly|(System.Reflection.AssemblyName,System.Boolean):System.Reflection.Assembly|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2330,7 +2330,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.ITypeResolutionService::GetType(System.String):System.Type",
           "clrName": "GetType",
-          "tsEmitName": "GetType",
+          "tsEmitName": "getType",
           "normalizedSignature": "GetType|(System.String):System.Type|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2346,7 +2346,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.ITypeResolutionService::GetType(System.String,System.Boolean):System.Type",
           "clrName": "GetType",
-          "tsEmitName": "GetType2",
+          "tsEmitName": "getType2",
           "normalizedSignature": "GetType|(System.String,System.Boolean):System.Type|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2362,7 +2362,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.ITypeResolutionService::GetType(System.String,System.Boolean,System.Boolean):System.Type",
           "clrName": "GetType",
-          "tsEmitName": "GetType3",
+          "tsEmitName": "getType3",
           "normalizedSignature": "GetType|(System.String,System.Boolean,System.Boolean):System.Type|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2378,7 +2378,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.ITypeResolutionService::ReferenceAssembly(System.Reflection.AssemblyName):System.Void",
           "clrName": "ReferenceAssembly",
-          "tsEmitName": "ReferenceAssembly",
+          "tsEmitName": "referenceAssembly",
           "normalizedSignature": "ReferenceAssembly|(System.Reflection.AssemblyName):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2394,7 +2394,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.ITypeResolutionService::GetPathOfAssembly(System.Reflection.AssemblyName):System.String",
           "clrName": "GetPathOfAssembly",
-          "tsEmitName": "GetPathOfAssembly",
+          "tsEmitName": "getPathOfAssembly",
           "normalizedSignature": "GetPathOfAssembly|(System.Reflection.AssemblyName):System.String|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2428,7 +2428,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.ActiveDesignerEventArgs::OldDesigner:System.ComponentModel.Design.IDesignerHost",
           "clrName": "OldDesigner",
-          "tsEmitName": "OldDesigner",
+          "tsEmitName": "oldDesigner",
           "normalizedSignature": "OldDesigner|:System.ComponentModel.Design.IDesignerHost|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2443,7 +2443,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.ActiveDesignerEventArgs::NewDesigner:System.ComponentModel.Design.IDesignerHost",
           "clrName": "NewDesigner",
-          "tsEmitName": "NewDesigner",
+          "tsEmitName": "newDesigner",
           "normalizedSignature": "NewDesigner|:System.ComponentModel.Design.IDesignerHost|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2480,7 +2480,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.ActiveDesignerEventHandler::Invoke(System.Object,System.ComponentModel.Design.ActiveDesignerEventArgs):System.Void",
           "clrName": "Invoke",
-          "tsEmitName": "Invoke",
+          "tsEmitName": "invoke",
           "normalizedSignature": "Invoke|(System.Object,System.ComponentModel.Design.ActiveDesignerEventArgs):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2496,7 +2496,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.ActiveDesignerEventHandler::BeginInvoke(System.Object,System.ComponentModel.Design.ActiveDesignerEventArgs,System.AsyncCallback,System.Object):System.IAsyncResult",
           "clrName": "BeginInvoke",
-          "tsEmitName": "BeginInvoke",
+          "tsEmitName": "beginInvoke",
           "normalizedSignature": "BeginInvoke|(System.Object,System.ComponentModel.Design.ActiveDesignerEventArgs,System.AsyncCallback,System.Object):System.IAsyncResult|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2512,7 +2512,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.ActiveDesignerEventHandler::EndInvoke(System.IAsyncResult):System.Void",
           "clrName": "EndInvoke",
-          "tsEmitName": "EndInvoke",
+          "tsEmitName": "endInvoke",
           "normalizedSignature": "EndInvoke|(System.IAsyncResult):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2528,7 +2528,7 @@
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "Clone$view",
+          "tsEmitName": "clone$view",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -2545,7 +2545,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData$view",
+          "tsEmitName": "getObjectData$view",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -2562,7 +2562,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.ActiveDesignerEventHandler::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "Clone",
+          "tsEmitName": "clone",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -2578,7 +2578,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.ActiveDesignerEventHandler::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData",
+          "tsEmitName": "getObjectData",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -2617,7 +2617,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData$view",
+          "tsEmitName": "getObjectData$view",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -2634,7 +2634,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.CheckoutException::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData",
+          "tsEmitName": "getObjectData",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -2653,7 +2653,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.CheckoutException::CanceledSystem.ComponentModel.Design.CheckoutException",
           "clrName": "Canceled",
-          "tsEmitName": "Canceled",
+          "tsEmitName": "canceled",
           "normalizedSignature": "Canceled|System.ComponentModel.Design.CheckoutException|static=true|const=false",
           "isStatic": true,
           "isReadOnly": true,
@@ -2698,7 +2698,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.CommandID::Equals(System.Object):System.Boolean",
           "clrName": "Equals",
-          "tsEmitName": "Equals",
+          "tsEmitName": "equals",
           "normalizedSignature": "Equals|(System.Object):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2714,7 +2714,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.CommandID::GetHashCode():System.Int32",
           "clrName": "GetHashCode",
-          "tsEmitName": "GetHashCode",
+          "tsEmitName": "getHashCode",
           "normalizedSignature": "GetHashCode|():System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2730,7 +2730,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.CommandID::ToString():System.String",
           "clrName": "ToString",
-          "tsEmitName": "ToString",
+          "tsEmitName": "toString",
           "normalizedSignature": "ToString|():System.String|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2748,7 +2748,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.CommandID::ID:System.Int32",
           "clrName": "ID",
-          "tsEmitName": "ID",
+          "tsEmitName": "id",
           "normalizedSignature": "ID|:System.Int32|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2763,7 +2763,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.CommandID::Guid:System.Guid",
           "clrName": "Guid",
-          "tsEmitName": "Guid",
+          "tsEmitName": "guid",
           "normalizedSignature": "Guid|:System.Guid|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2801,7 +2801,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.ComponentChangedEventArgs::Component:System.Object",
           "clrName": "Component",
-          "tsEmitName": "Component",
+          "tsEmitName": "component",
           "normalizedSignature": "Component|:System.Object|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2816,7 +2816,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.ComponentChangedEventArgs::Member:System.ComponentModel.MemberDescriptor",
           "clrName": "Member",
-          "tsEmitName": "Member",
+          "tsEmitName": "member",
           "normalizedSignature": "Member|:System.ComponentModel.MemberDescriptor|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2831,7 +2831,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.ComponentChangedEventArgs::NewValue:System.Object",
           "clrName": "NewValue",
-          "tsEmitName": "NewValue",
+          "tsEmitName": "newValue",
           "normalizedSignature": "NewValue|:System.Object|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2846,7 +2846,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.ComponentChangedEventArgs::OldValue:System.Object",
           "clrName": "OldValue",
-          "tsEmitName": "OldValue",
+          "tsEmitName": "oldValue",
           "normalizedSignature": "OldValue|:System.Object|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2883,7 +2883,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.ComponentChangedEventHandler::Invoke(System.Object,System.ComponentModel.Design.ComponentChangedEventArgs):System.Void",
           "clrName": "Invoke",
-          "tsEmitName": "Invoke",
+          "tsEmitName": "invoke",
           "normalizedSignature": "Invoke|(System.Object,System.ComponentModel.Design.ComponentChangedEventArgs):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2899,7 +2899,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.ComponentChangedEventHandler::BeginInvoke(System.Object,System.ComponentModel.Design.ComponentChangedEventArgs,System.AsyncCallback,System.Object):System.IAsyncResult",
           "clrName": "BeginInvoke",
-          "tsEmitName": "BeginInvoke",
+          "tsEmitName": "beginInvoke",
           "normalizedSignature": "BeginInvoke|(System.Object,System.ComponentModel.Design.ComponentChangedEventArgs,System.AsyncCallback,System.Object):System.IAsyncResult|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2915,7 +2915,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.ComponentChangedEventHandler::EndInvoke(System.IAsyncResult):System.Void",
           "clrName": "EndInvoke",
-          "tsEmitName": "EndInvoke",
+          "tsEmitName": "endInvoke",
           "normalizedSignature": "EndInvoke|(System.IAsyncResult):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2931,7 +2931,7 @@
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "Clone$view",
+          "tsEmitName": "clone$view",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -2948,7 +2948,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData$view",
+          "tsEmitName": "getObjectData$view",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -2965,7 +2965,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.ComponentChangedEventHandler::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "Clone",
+          "tsEmitName": "clone",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -2981,7 +2981,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.ComponentChangedEventHandler::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData",
+          "tsEmitName": "getObjectData",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -3021,7 +3021,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.ComponentChangingEventArgs::Component:System.Object",
           "clrName": "Component",
-          "tsEmitName": "Component",
+          "tsEmitName": "component",
           "normalizedSignature": "Component|:System.Object|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3036,7 +3036,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.ComponentChangingEventArgs::Member:System.ComponentModel.MemberDescriptor",
           "clrName": "Member",
-          "tsEmitName": "Member",
+          "tsEmitName": "member",
           "normalizedSignature": "Member|:System.ComponentModel.MemberDescriptor|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3073,7 +3073,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.ComponentChangingEventHandler::Invoke(System.Object,System.ComponentModel.Design.ComponentChangingEventArgs):System.Void",
           "clrName": "Invoke",
-          "tsEmitName": "Invoke",
+          "tsEmitName": "invoke",
           "normalizedSignature": "Invoke|(System.Object,System.ComponentModel.Design.ComponentChangingEventArgs):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3089,7 +3089,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.ComponentChangingEventHandler::BeginInvoke(System.Object,System.ComponentModel.Design.ComponentChangingEventArgs,System.AsyncCallback,System.Object):System.IAsyncResult",
           "clrName": "BeginInvoke",
-          "tsEmitName": "BeginInvoke",
+          "tsEmitName": "beginInvoke",
           "normalizedSignature": "BeginInvoke|(System.Object,System.ComponentModel.Design.ComponentChangingEventArgs,System.AsyncCallback,System.Object):System.IAsyncResult|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3105,7 +3105,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.ComponentChangingEventHandler::EndInvoke(System.IAsyncResult):System.Void",
           "clrName": "EndInvoke",
-          "tsEmitName": "EndInvoke",
+          "tsEmitName": "endInvoke",
           "normalizedSignature": "EndInvoke|(System.IAsyncResult):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3121,7 +3121,7 @@
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "Clone$view",
+          "tsEmitName": "clone$view",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3138,7 +3138,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData$view",
+          "tsEmitName": "getObjectData$view",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3155,7 +3155,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.ComponentChangingEventHandler::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "Clone",
+          "tsEmitName": "clone",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -3171,7 +3171,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.ComponentChangingEventHandler::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData",
+          "tsEmitName": "getObjectData",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -3211,7 +3211,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.ComponentEventArgs::Component:System.ComponentModel.IComponent",
           "clrName": "Component",
-          "tsEmitName": "Component",
+          "tsEmitName": "component",
           "normalizedSignature": "Component|:System.ComponentModel.IComponent|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3248,7 +3248,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.ComponentEventHandler::Invoke(System.Object,System.ComponentModel.Design.ComponentEventArgs):System.Void",
           "clrName": "Invoke",
-          "tsEmitName": "Invoke",
+          "tsEmitName": "invoke",
           "normalizedSignature": "Invoke|(System.Object,System.ComponentModel.Design.ComponentEventArgs):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3264,7 +3264,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.ComponentEventHandler::BeginInvoke(System.Object,System.ComponentModel.Design.ComponentEventArgs,System.AsyncCallback,System.Object):System.IAsyncResult",
           "clrName": "BeginInvoke",
-          "tsEmitName": "BeginInvoke",
+          "tsEmitName": "beginInvoke",
           "normalizedSignature": "BeginInvoke|(System.Object,System.ComponentModel.Design.ComponentEventArgs,System.AsyncCallback,System.Object):System.IAsyncResult|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3280,7 +3280,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.ComponentEventHandler::EndInvoke(System.IAsyncResult):System.Void",
           "clrName": "EndInvoke",
-          "tsEmitName": "EndInvoke",
+          "tsEmitName": "endInvoke",
           "normalizedSignature": "EndInvoke|(System.IAsyncResult):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3296,7 +3296,7 @@
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "Clone$view",
+          "tsEmitName": "clone$view",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3313,7 +3313,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData$view",
+          "tsEmitName": "getObjectData$view",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3330,7 +3330,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.ComponentEventHandler::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "Clone",
+          "tsEmitName": "clone",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -3346,7 +3346,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.ComponentEventHandler::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData",
+          "tsEmitName": "getObjectData",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -3386,7 +3386,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.ComponentRenameEventArgs::Component:System.Object",
           "clrName": "Component",
-          "tsEmitName": "Component",
+          "tsEmitName": "component",
           "normalizedSignature": "Component|:System.Object|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3401,7 +3401,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.ComponentRenameEventArgs::OldName:System.String",
           "clrName": "OldName",
-          "tsEmitName": "OldName",
+          "tsEmitName": "oldName",
           "normalizedSignature": "OldName|:System.String|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3416,7 +3416,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.ComponentRenameEventArgs::NewName:System.String",
           "clrName": "NewName",
-          "tsEmitName": "NewName",
+          "tsEmitName": "newName",
           "normalizedSignature": "NewName|:System.String|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3453,7 +3453,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.ComponentRenameEventHandler::Invoke(System.Object,System.ComponentModel.Design.ComponentRenameEventArgs):System.Void",
           "clrName": "Invoke",
-          "tsEmitName": "Invoke",
+          "tsEmitName": "invoke",
           "normalizedSignature": "Invoke|(System.Object,System.ComponentModel.Design.ComponentRenameEventArgs):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3469,7 +3469,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.ComponentRenameEventHandler::BeginInvoke(System.Object,System.ComponentModel.Design.ComponentRenameEventArgs,System.AsyncCallback,System.Object):System.IAsyncResult",
           "clrName": "BeginInvoke",
-          "tsEmitName": "BeginInvoke",
+          "tsEmitName": "beginInvoke",
           "normalizedSignature": "BeginInvoke|(System.Object,System.ComponentModel.Design.ComponentRenameEventArgs,System.AsyncCallback,System.Object):System.IAsyncResult|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3485,7 +3485,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.ComponentRenameEventHandler::EndInvoke(System.IAsyncResult):System.Void",
           "clrName": "EndInvoke",
-          "tsEmitName": "EndInvoke",
+          "tsEmitName": "endInvoke",
           "normalizedSignature": "EndInvoke|(System.IAsyncResult):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3501,7 +3501,7 @@
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "Clone$view",
+          "tsEmitName": "clone$view",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3518,7 +3518,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData$view",
+          "tsEmitName": "getObjectData$view",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3535,7 +3535,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.ComponentRenameEventHandler::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "Clone",
+          "tsEmitName": "clone",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -3551,7 +3551,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.ComponentRenameEventHandler::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData",
+          "tsEmitName": "getObjectData",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -3590,7 +3590,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.DesignerCollection::GetEnumerator():System.Collections.IEnumerator",
           "clrName": "GetEnumerator",
-          "tsEmitName": "GetEnumerator",
+          "tsEmitName": "getEnumerator",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3606,7 +3606,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.ICollection::CopyTo(System.Array,System.Int32):System.Void",
           "clrName": "CopyTo",
-          "tsEmitName": "CopyTo",
+          "tsEmitName": "copyTo",
           "normalizedSignature": "CopyTo|(System.Array,System.Int32):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3623,7 +3623,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
           "clrName": "GetEnumerator",
-          "tsEmitName": "GetEnumerator$view",
+          "tsEmitName": "getEnumerator$view",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3642,7 +3642,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.DesignerCollection::Count:System.Int32",
           "clrName": "Count",
-          "tsEmitName": "Count",
+          "tsEmitName": "count",
           "normalizedSignature": "Count|:System.Int32|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3657,7 +3657,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.DesignerCollection::Item[System.Int32]:System.ComponentModel.Design.IDesignerHost",
           "clrName": "Item",
-          "tsEmitName": "Item",
+          "tsEmitName": "item",
           "normalizedSignature": "Item|[System.Int32]:System.ComponentModel.Design.IDesignerHost|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3672,7 +3672,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.ICollection::SyncRoot:System.Object",
           "clrName": "SyncRoot",
-          "tsEmitName": "SyncRoot",
+          "tsEmitName": "syncRoot",
           "normalizedSignature": "SyncRoot|:System.Object|static=false|accessor=get",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3688,7 +3688,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.ICollection::IsSynchronized:System.Boolean",
           "clrName": "IsSynchronized",
-          "tsEmitName": "IsSynchronized",
+          "tsEmitName": "isSynchronized",
           "normalizedSignature": "IsSynchronized|:System.Boolean|static=false|accessor=get",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3704,7 +3704,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.ICollection::Count:System.Int32",
           "clrName": "Count",
-          "tsEmitName": "Count$view",
+          "tsEmitName": "count$view",
           "normalizedSignature": "Count|:System.Int32|static=false|accessor=get",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3748,7 +3748,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.DesignerEventArgs::Designer:System.ComponentModel.Design.IDesignerHost",
           "clrName": "Designer",
-          "tsEmitName": "Designer",
+          "tsEmitName": "designer",
           "normalizedSignature": "Designer|:System.ComponentModel.Design.IDesignerHost|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3785,7 +3785,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.DesignerEventHandler::Invoke(System.Object,System.ComponentModel.Design.DesignerEventArgs):System.Void",
           "clrName": "Invoke",
-          "tsEmitName": "Invoke",
+          "tsEmitName": "invoke",
           "normalizedSignature": "Invoke|(System.Object,System.ComponentModel.Design.DesignerEventArgs):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3801,7 +3801,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.DesignerEventHandler::BeginInvoke(System.Object,System.ComponentModel.Design.DesignerEventArgs,System.AsyncCallback,System.Object):System.IAsyncResult",
           "clrName": "BeginInvoke",
-          "tsEmitName": "BeginInvoke",
+          "tsEmitName": "beginInvoke",
           "normalizedSignature": "BeginInvoke|(System.Object,System.ComponentModel.Design.DesignerEventArgs,System.AsyncCallback,System.Object):System.IAsyncResult|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3817,7 +3817,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.DesignerEventHandler::EndInvoke(System.IAsyncResult):System.Void",
           "clrName": "EndInvoke",
-          "tsEmitName": "EndInvoke",
+          "tsEmitName": "endInvoke",
           "normalizedSignature": "EndInvoke|(System.IAsyncResult):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3833,7 +3833,7 @@
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "Clone$view",
+          "tsEmitName": "clone$view",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3850,7 +3850,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData$view",
+          "tsEmitName": "getObjectData$view",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3867,7 +3867,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.DesignerEventHandler::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "Clone",
+          "tsEmitName": "clone",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -3883,7 +3883,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.DesignerEventHandler::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData",
+          "tsEmitName": "getObjectData",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -3922,7 +3922,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IDesignerOptionService::GetOptionValue(System.String,System.String):System.Object",
           "clrName": "GetOptionValue",
-          "tsEmitName": "GetOptionValue",
+          "tsEmitName": "getOptionValue",
           "normalizedSignature": "GetOptionValue|(System.String,System.String):System.Object|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3939,7 +3939,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IDesignerOptionService::SetOptionValue(System.String,System.String,System.Object):System.Void",
           "clrName": "SetOptionValue",
-          "tsEmitName": "SetOptionValue",
+          "tsEmitName": "setOptionValue",
           "normalizedSignature": "SetOptionValue|(System.String,System.String,System.Object):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3958,7 +3958,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.DesignerOptionService::Options:System.ComponentModel.Design.DesignerOptionService\u002BDesignerOptionCollection",
           "clrName": "Options",
-          "tsEmitName": "Options",
+          "tsEmitName": "options",
           "normalizedSignature": "Options|:System.ComponentModel.Design.DesignerOptionService\u002BDesignerOptionCollection|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3989,7 +3989,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.DesignerOptionService\u002BDesignerOptionCollection::CopyTo(System.Array,System.Int32):System.Void",
           "clrName": "CopyTo",
-          "tsEmitName": "CopyTo",
+          "tsEmitName": "copyTo",
           "normalizedSignature": "CopyTo|(System.Array,System.Int32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4005,7 +4005,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.DesignerOptionService\u002BDesignerOptionCollection::GetEnumerator():System.Collections.IEnumerator",
           "clrName": "GetEnumerator",
-          "tsEmitName": "GetEnumerator",
+          "tsEmitName": "getEnumerator",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4021,7 +4021,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.DesignerOptionService\u002BDesignerOptionCollection::IndexOf(System.ComponentModel.Design.DesignerOptionService\u002BDesignerOptionCollection):System.Int32",
           "clrName": "IndexOf",
-          "tsEmitName": "IndexOf",
+          "tsEmitName": "indexOf",
           "normalizedSignature": "IndexOf|(System.ComponentModel.Design.DesignerOptionService\u002BDesignerOptionCollection):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4037,7 +4037,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.DesignerOptionService\u002BDesignerOptionCollection::ShowDialog():System.Boolean",
           "clrName": "ShowDialog",
-          "tsEmitName": "ShowDialog",
+          "tsEmitName": "showDialog",
           "normalizedSignature": "ShowDialog|():System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4053,7 +4053,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Add(System.Object):System.Int32",
           "clrName": "Add",
-          "tsEmitName": "Add",
+          "tsEmitName": "add",
           "normalizedSignature": "Add|(System.Object):System.Int32|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -4070,7 +4070,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Contains(System.Object):System.Boolean",
           "clrName": "Contains",
-          "tsEmitName": "Contains",
+          "tsEmitName": "contains",
           "normalizedSignature": "Contains|(System.Object):System.Boolean|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -4087,7 +4087,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Clear():System.Void",
           "clrName": "Clear",
-          "tsEmitName": "Clear",
+          "tsEmitName": "clear",
           "normalizedSignature": "Clear|():System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -4104,7 +4104,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Insert(System.Int32,System.Object):System.Void",
           "clrName": "Insert",
-          "tsEmitName": "Insert",
+          "tsEmitName": "insert",
           "normalizedSignature": "Insert|(System.Int32,System.Object):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -4121,7 +4121,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Remove(System.Object):System.Void",
           "clrName": "Remove",
-          "tsEmitName": "Remove",
+          "tsEmitName": "remove",
           "normalizedSignature": "Remove|(System.Object):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -4138,7 +4138,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::RemoveAt(System.Int32):System.Void",
           "clrName": "RemoveAt",
-          "tsEmitName": "RemoveAt",
+          "tsEmitName": "removeAt",
           "normalizedSignature": "RemoveAt|(System.Int32):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -4155,7 +4155,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.ICollection::CopyTo(System.Array,System.Int32):System.Void",
           "clrName": "CopyTo",
-          "tsEmitName": "CopyTo$view",
+          "tsEmitName": "copyTo$view",
           "normalizedSignature": "CopyTo|(System.Array,System.Int32):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -4172,7 +4172,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
           "clrName": "GetEnumerator",
-          "tsEmitName": "GetEnumerator$view",
+          "tsEmitName": "getEnumerator$view",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -4223,7 +4223,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.DesignerOptionService\u002BDesignerOptionCollection::Count:System.Int32",
           "clrName": "Count",
-          "tsEmitName": "Count",
+          "tsEmitName": "count",
           "normalizedSignature": "Count|:System.Int32|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4238,7 +4238,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.DesignerOptionService\u002BDesignerOptionCollection::Name:System.String",
           "clrName": "Name",
-          "tsEmitName": "Name",
+          "tsEmitName": "name",
           "normalizedSignature": "Name|:System.String|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4253,7 +4253,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.DesignerOptionService\u002BDesignerOptionCollection::Parent:System.ComponentModel.Design.DesignerOptionService\u002BDesignerOptionCollection",
           "clrName": "Parent",
-          "tsEmitName": "Parent",
+          "tsEmitName": "parent",
           "normalizedSignature": "Parent|:System.ComponentModel.Design.DesignerOptionService\u002BDesignerOptionCollection|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4268,7 +4268,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.DesignerOptionService\u002BDesignerOptionCollection::Properties:System.ComponentModel.PropertyDescriptorCollection",
           "clrName": "Properties",
-          "tsEmitName": "Properties",
+          "tsEmitName": "properties",
           "normalizedSignature": "Properties|:System.ComponentModel.PropertyDescriptorCollection|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4283,7 +4283,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::IsReadOnly:System.Boolean",
           "clrName": "IsReadOnly",
-          "tsEmitName": "IsReadOnly",
+          "tsEmitName": "isReadOnly",
           "normalizedSignature": "IsReadOnly|:System.Boolean|static=false|accessor=get",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -4299,7 +4299,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.ICollection::SyncRoot:System.Object",
           "clrName": "SyncRoot",
-          "tsEmitName": "SyncRoot",
+          "tsEmitName": "syncRoot",
           "normalizedSignature": "SyncRoot|:System.Object|static=false|accessor=get",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -4315,7 +4315,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::IsFixedSize:System.Boolean",
           "clrName": "IsFixedSize",
-          "tsEmitName": "IsFixedSize",
+          "tsEmitName": "isFixedSize",
           "normalizedSignature": "IsFixedSize|:System.Boolean|static=false|accessor=get",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -4331,7 +4331,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.ICollection::Count:System.Int32",
           "clrName": "Count",
-          "tsEmitName": "Count$view",
+          "tsEmitName": "count$view",
           "normalizedSignature": "Count|:System.Int32|static=false|accessor=get",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -4347,7 +4347,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.ICollection::IsSynchronized:System.Boolean",
           "clrName": "IsSynchronized",
-          "tsEmitName": "IsSynchronized",
+          "tsEmitName": "isSynchronized",
           "normalizedSignature": "IsSynchronized|:System.Boolean|static=false|accessor=get",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -4379,7 +4379,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.DesignerTransaction::Cancel():System.Void",
           "clrName": "Cancel",
-          "tsEmitName": "Cancel",
+          "tsEmitName": "cancel",
           "normalizedSignature": "Cancel|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4395,7 +4395,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.DesignerTransaction::Commit():System.Void",
           "clrName": "Commit",
-          "tsEmitName": "Commit",
+          "tsEmitName": "commit",
           "normalizedSignature": "Commit|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4411,7 +4411,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "Dispose",
+          "tsEmitName": "dispose",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -4430,7 +4430,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.DesignerTransaction::Canceled:System.Boolean",
           "clrName": "Canceled",
-          "tsEmitName": "Canceled",
+          "tsEmitName": "canceled",
           "normalizedSignature": "Canceled|:System.Boolean|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4445,7 +4445,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.DesignerTransaction::Committed:System.Boolean",
           "clrName": "Committed",
-          "tsEmitName": "Committed",
+          "tsEmitName": "committed",
           "normalizedSignature": "Committed|:System.Boolean|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4460,7 +4460,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.DesignerTransaction::Description:System.String",
           "clrName": "Description",
-          "tsEmitName": "Description",
+          "tsEmitName": "description",
           "normalizedSignature": "Description|:System.String|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4492,7 +4492,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.DesignerTransactionCloseEventArgs::TransactionCommitted:System.Boolean",
           "clrName": "TransactionCommitted",
-          "tsEmitName": "TransactionCommitted",
+          "tsEmitName": "transactionCommitted",
           "normalizedSignature": "TransactionCommitted|:System.Boolean|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4507,7 +4507,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.DesignerTransactionCloseEventArgs::LastTransaction:System.Boolean",
           "clrName": "LastTransaction",
-          "tsEmitName": "LastTransaction",
+          "tsEmitName": "lastTransaction",
           "normalizedSignature": "LastTransaction|:System.Boolean|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4549,7 +4549,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.DesignerTransactionCloseEventHandler::Invoke(System.Object,System.ComponentModel.Design.DesignerTransactionCloseEventArgs):System.Void",
           "clrName": "Invoke",
-          "tsEmitName": "Invoke",
+          "tsEmitName": "invoke",
           "normalizedSignature": "Invoke|(System.Object,System.ComponentModel.Design.DesignerTransactionCloseEventArgs):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4565,7 +4565,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.DesignerTransactionCloseEventHandler::BeginInvoke(System.Object,System.ComponentModel.Design.DesignerTransactionCloseEventArgs,System.AsyncCallback,System.Object):System.IAsyncResult",
           "clrName": "BeginInvoke",
-          "tsEmitName": "BeginInvoke",
+          "tsEmitName": "beginInvoke",
           "normalizedSignature": "BeginInvoke|(System.Object,System.ComponentModel.Design.DesignerTransactionCloseEventArgs,System.AsyncCallback,System.Object):System.IAsyncResult|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4581,7 +4581,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.DesignerTransactionCloseEventHandler::EndInvoke(System.IAsyncResult):System.Void",
           "clrName": "EndInvoke",
-          "tsEmitName": "EndInvoke",
+          "tsEmitName": "endInvoke",
           "normalizedSignature": "EndInvoke|(System.IAsyncResult):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4597,7 +4597,7 @@
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "Clone$view",
+          "tsEmitName": "clone$view",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -4614,7 +4614,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData$view",
+          "tsEmitName": "getObjectData$view",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -4631,7 +4631,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.DesignerTransactionCloseEventHandler::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "Clone",
+          "tsEmitName": "clone",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -4647,7 +4647,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.DesignerTransactionCloseEventHandler::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData",
+          "tsEmitName": "getObjectData",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -4686,7 +4686,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.DesignerVerb::ToString():System.String",
           "clrName": "ToString",
-          "tsEmitName": "ToString",
+          "tsEmitName": "toString",
           "normalizedSignature": "ToString|():System.String|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4704,7 +4704,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.DesignerVerb::Description:System.String",
           "clrName": "Description",
-          "tsEmitName": "Description",
+          "tsEmitName": "description",
           "normalizedSignature": "Description|:System.String|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4719,7 +4719,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.DesignerVerb::Text:System.String",
           "clrName": "Text",
-          "tsEmitName": "Text",
+          "tsEmitName": "text",
           "normalizedSignature": "Text|:System.String|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4761,7 +4761,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.DesignerVerbCollection::Add(System.ComponentModel.Design.DesignerVerb):System.Int32",
           "clrName": "Add",
-          "tsEmitName": "Add2",
+          "tsEmitName": "add2",
           "normalizedSignature": "Add|(System.ComponentModel.Design.DesignerVerb):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4777,7 +4777,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.DesignerVerbCollection::AddRange(System.ComponentModel.Design.DesignerVerb[]):System.Void",
           "clrName": "AddRange",
-          "tsEmitName": "AddRange",
+          "tsEmitName": "addRange",
           "normalizedSignature": "AddRange|(System.ComponentModel.Design.DesignerVerb[]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4793,7 +4793,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.DesignerVerbCollection::AddRange(System.ComponentModel.Design.DesignerVerbCollection):System.Void",
           "clrName": "AddRange",
-          "tsEmitName": "AddRange2",
+          "tsEmitName": "addRange2",
           "normalizedSignature": "AddRange|(System.ComponentModel.Design.DesignerVerbCollection):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4809,7 +4809,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.DesignerVerbCollection::Insert(System.Int32,System.ComponentModel.Design.DesignerVerb):System.Void",
           "clrName": "Insert",
-          "tsEmitName": "Insert2",
+          "tsEmitName": "insert2",
           "normalizedSignature": "Insert|(System.Int32,System.ComponentModel.Design.DesignerVerb):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4825,7 +4825,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.DesignerVerbCollection::IndexOf(System.ComponentModel.Design.DesignerVerb):System.Int32",
           "clrName": "IndexOf",
-          "tsEmitName": "IndexOf",
+          "tsEmitName": "indexOf",
           "normalizedSignature": "IndexOf|(System.ComponentModel.Design.DesignerVerb):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4841,7 +4841,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.DesignerVerbCollection::Contains(System.ComponentModel.Design.DesignerVerb):System.Boolean",
           "clrName": "Contains",
-          "tsEmitName": "Contains2",
+          "tsEmitName": "contains2",
           "normalizedSignature": "Contains|(System.ComponentModel.Design.DesignerVerb):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4857,7 +4857,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.DesignerVerbCollection::Remove(System.ComponentModel.Design.DesignerVerb):System.Void",
           "clrName": "Remove",
-          "tsEmitName": "Remove2",
+          "tsEmitName": "remove2",
           "normalizedSignature": "Remove|(System.ComponentModel.Design.DesignerVerb):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4873,7 +4873,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.DesignerVerbCollection::CopyTo(System.ComponentModel.Design.DesignerVerb[],System.Int32):System.Void",
           "clrName": "CopyTo",
-          "tsEmitName": "CopyTo2",
+          "tsEmitName": "copyTo2",
           "normalizedSignature": "CopyTo|(System.ComponentModel.Design.DesignerVerb[],System.Int32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4889,7 +4889,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Clear():System.Void",
           "clrName": "Clear",
-          "tsEmitName": "Clear$view",
+          "tsEmitName": "clear$view",
           "normalizedSignature": "Clear|():System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -4906,7 +4906,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::RemoveAt(System.Int32):System.Void",
           "clrName": "RemoveAt",
-          "tsEmitName": "RemoveAt$view",
+          "tsEmitName": "removeAt$view",
           "normalizedSignature": "RemoveAt|(System.Int32):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -4923,7 +4923,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.ICollection::CopyTo(System.Array,System.Int32):System.Void",
           "clrName": "CopyTo",
-          "tsEmitName": "CopyTo$view",
+          "tsEmitName": "copyTo$view",
           "normalizedSignature": "CopyTo|(System.Array,System.Int32):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -4940,7 +4940,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
           "clrName": "GetEnumerator",
-          "tsEmitName": "GetEnumerator$view",
+          "tsEmitName": "getEnumerator$view",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -4957,7 +4957,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Add(System.Object):System.Int32",
           "clrName": "Add",
-          "tsEmitName": "Add$view",
+          "tsEmitName": "add$view",
           "normalizedSignature": "Add|(System.Object):System.Int32|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -4974,7 +4974,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Contains(System.Object):System.Boolean",
           "clrName": "Contains",
-          "tsEmitName": "Contains$view",
+          "tsEmitName": "contains$view",
           "normalizedSignature": "Contains|(System.Object):System.Boolean|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -4991,7 +4991,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Insert(System.Int32,System.Object):System.Void",
           "clrName": "Insert",
-          "tsEmitName": "Insert$view",
+          "tsEmitName": "insert$view",
           "normalizedSignature": "Insert|(System.Int32,System.Object):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -5008,7 +5008,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Remove(System.Object):System.Void",
           "clrName": "Remove",
-          "tsEmitName": "Remove$view",
+          "tsEmitName": "remove$view",
           "normalizedSignature": "Remove|(System.Object):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -5025,7 +5025,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.DesignerVerbCollection::Add(System.Object):System.Int32",
           "clrName": "Add",
-          "tsEmitName": "Add",
+          "tsEmitName": "add",
           "normalizedSignature": "Add|(System.Object):System.Int32|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -5041,7 +5041,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.DesignerVerbCollection::Clear():System.Void",
           "clrName": "Clear",
-          "tsEmitName": "Clear",
+          "tsEmitName": "clear",
           "normalizedSignature": "Clear|():System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -5057,7 +5057,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.DesignerVerbCollection::Contains(System.Object):System.Boolean",
           "clrName": "Contains",
-          "tsEmitName": "Contains",
+          "tsEmitName": "contains",
           "normalizedSignature": "Contains|(System.Object):System.Boolean|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -5073,7 +5073,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.DesignerVerbCollection::CopyTo(System.Array,System.Int32):System.Void",
           "clrName": "CopyTo",
-          "tsEmitName": "CopyTo",
+          "tsEmitName": "copyTo",
           "normalizedSignature": "CopyTo|(System.Array,System.Int32):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -5089,7 +5089,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.DesignerVerbCollection::GetEnumerator():System.Collections.IEnumerator",
           "clrName": "GetEnumerator",
-          "tsEmitName": "GetEnumerator",
+          "tsEmitName": "getEnumerator",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -5105,7 +5105,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.DesignerVerbCollection::Insert(System.Int32,System.Object):System.Void",
           "clrName": "Insert",
-          "tsEmitName": "Insert",
+          "tsEmitName": "insert",
           "normalizedSignature": "Insert|(System.Int32,System.Object):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -5121,7 +5121,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.DesignerVerbCollection::Remove(System.Object):System.Void",
           "clrName": "Remove",
-          "tsEmitName": "Remove",
+          "tsEmitName": "remove",
           "normalizedSignature": "Remove|(System.Object):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -5137,7 +5137,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.DesignerVerbCollection::RemoveAt(System.Int32):System.Void",
           "clrName": "RemoveAt",
-          "tsEmitName": "RemoveAt",
+          "tsEmitName": "removeAt",
           "normalizedSignature": "RemoveAt|(System.Int32):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -5155,7 +5155,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.DesignerVerbCollection::Item[System.Int32]:System.ComponentModel.Design.DesignerVerb",
           "clrName": "Item",
-          "tsEmitName": "Item",
+          "tsEmitName": "item",
           "normalizedSignature": "Item|[System.Int32]:System.ComponentModel.Design.DesignerVerb|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5170,7 +5170,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::IsReadOnly:System.Boolean",
           "clrName": "IsReadOnly",
-          "tsEmitName": "IsReadOnly",
+          "tsEmitName": "isReadOnly",
           "normalizedSignature": "IsReadOnly|:System.Boolean|static=false|accessor=get",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -5186,7 +5186,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.ICollection::Count:System.Int32",
           "clrName": "Count",
-          "tsEmitName": "Count",
+          "tsEmitName": "count",
           "normalizedSignature": "Count|:System.Int32|static=false|accessor=get",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -5202,7 +5202,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.ICollection::SyncRoot:System.Object",
           "clrName": "SyncRoot",
-          "tsEmitName": "SyncRoot",
+          "tsEmitName": "syncRoot",
           "normalizedSignature": "SyncRoot|:System.Object|static=false|accessor=get",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -5218,7 +5218,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::IsFixedSize:System.Boolean",
           "clrName": "IsFixedSize",
-          "tsEmitName": "IsFixedSize",
+          "tsEmitName": "isFixedSize",
           "normalizedSignature": "IsFixedSize|:System.Boolean|static=false|accessor=get",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -5234,7 +5234,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.ICollection::IsSynchronized:System.Boolean",
           "clrName": "IsSynchronized",
-          "tsEmitName": "IsSynchronized",
+          "tsEmitName": "isSynchronized",
           "normalizedSignature": "IsSynchronized|:System.Boolean|static=false|accessor=get",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -5277,7 +5277,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.DesigntimeLicenseContext::GetSavedLicenseKey(System.Type,System.Reflection.Assembly):System.String",
           "clrName": "GetSavedLicenseKey",
-          "tsEmitName": "GetSavedLicenseKey",
+          "tsEmitName": "getSavedLicenseKey",
           "normalizedSignature": "GetSavedLicenseKey|(System.Type,System.Reflection.Assembly):System.String|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5293,7 +5293,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.DesigntimeLicenseContext::SetSavedLicenseKey(System.Type,System.String):System.Void",
           "clrName": "SetSavedLicenseKey",
-          "tsEmitName": "SetSavedLicenseKey",
+          "tsEmitName": "setSavedLicenseKey",
           "normalizedSignature": "SetSavedLicenseKey|(System.Type,System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5309,7 +5309,7 @@
         {
           "stableId": "System.ComponentModel:System.IServiceProvider::GetService(System.Type):System.Object",
           "clrName": "GetService",
-          "tsEmitName": "GetService$view",
+          "tsEmitName": "getService$view",
           "normalizedSignature": "GetService|(System.Type):System.Object|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -5326,7 +5326,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.DesigntimeLicenseContext::GetService(System.Type):System.Object",
           "clrName": "GetService",
-          "tsEmitName": "GetService",
+          "tsEmitName": "getService",
           "normalizedSignature": "GetService|(System.Type):System.Object|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -5344,7 +5344,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.DesigntimeLicenseContext::UsageMode:System.ComponentModel.LicenseUsageMode",
           "clrName": "UsageMode",
-          "tsEmitName": "UsageMode",
+          "tsEmitName": "usageMode",
           "normalizedSignature": "UsageMode|:System.ComponentModel.LicenseUsageMode|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5381,7 +5381,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.DesigntimeLicenseContextSerializer::Serialize(System.IO.Stream,System.String,System.ComponentModel.Design.DesigntimeLicenseContext):System.Void",
           "clrName": "Serialize",
-          "tsEmitName": "Serialize",
+          "tsEmitName": "serialize",
           "normalizedSignature": "Serialize|(System.IO.Stream,System.String,System.ComponentModel.Design.DesigntimeLicenseContext):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5414,7 +5414,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.HelpKeywordAttribute::Equals(System.Object):System.Boolean",
           "clrName": "Equals",
-          "tsEmitName": "Equals",
+          "tsEmitName": "equals",
           "normalizedSignature": "Equals|(System.Object):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5430,7 +5430,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.HelpKeywordAttribute::GetHashCode():System.Int32",
           "clrName": "GetHashCode",
-          "tsEmitName": "GetHashCode",
+          "tsEmitName": "getHashCode",
           "normalizedSignature": "GetHashCode|():System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5446,7 +5446,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.HelpKeywordAttribute::IsDefaultAttribute():System.Boolean",
           "clrName": "IsDefaultAttribute",
-          "tsEmitName": "IsDefaultAttribute",
+          "tsEmitName": "isDefaultAttribute",
           "normalizedSignature": "IsDefaultAttribute|():System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5464,7 +5464,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.HelpKeywordAttribute::HelpKeyword:System.String",
           "clrName": "HelpKeyword",
-          "tsEmitName": "HelpKeyword",
+          "tsEmitName": "helpKeyword",
           "normalizedSignature": "HelpKeyword|:System.String|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5481,7 +5481,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.HelpKeywordAttribute::DefaultSystem.ComponentModel.Design.HelpKeywordAttribute",
           "clrName": "Default",
-          "tsEmitName": "Default",
+          "tsEmitName": "default_",
           "normalizedSignature": "Default|System.ComponentModel.Design.HelpKeywordAttribute|static=true|const=false",
           "isStatic": true,
           "isReadOnly": true,
@@ -5521,7 +5521,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.MenuCommand::Invoke():System.Void",
           "clrName": "Invoke",
-          "tsEmitName": "Invoke",
+          "tsEmitName": "invoke",
           "normalizedSignature": "Invoke|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5537,7 +5537,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.MenuCommand::Invoke(System.Object):System.Void",
           "clrName": "Invoke",
-          "tsEmitName": "Invoke2",
+          "tsEmitName": "invoke2",
           "normalizedSignature": "Invoke|(System.Object):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5553,7 +5553,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.MenuCommand::ToString():System.String",
           "clrName": "ToString",
-          "tsEmitName": "ToString",
+          "tsEmitName": "toString",
           "normalizedSignature": "ToString|():System.String|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5571,7 +5571,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.MenuCommand::Checked:System.Boolean",
           "clrName": "Checked",
-          "tsEmitName": "Checked",
+          "tsEmitName": "checked",
           "normalizedSignature": "Checked|:System.Boolean|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5586,7 +5586,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.MenuCommand::Enabled:System.Boolean",
           "clrName": "Enabled",
-          "tsEmitName": "Enabled",
+          "tsEmitName": "enabled",
           "normalizedSignature": "Enabled|:System.Boolean|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5601,7 +5601,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.MenuCommand::Properties:System.Collections.IDictionary",
           "clrName": "Properties",
-          "tsEmitName": "Properties",
+          "tsEmitName": "properties",
           "normalizedSignature": "Properties|:System.Collections.IDictionary|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5616,7 +5616,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.MenuCommand::Supported:System.Boolean",
           "clrName": "Supported",
-          "tsEmitName": "Supported",
+          "tsEmitName": "supported",
           "normalizedSignature": "Supported|:System.Boolean|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5631,7 +5631,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.MenuCommand::Visible:System.Boolean",
           "clrName": "Visible",
-          "tsEmitName": "Visible",
+          "tsEmitName": "visible",
           "normalizedSignature": "Visible|:System.Boolean|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5646,7 +5646,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.MenuCommand::CommandID:System.ComponentModel.Design.CommandID",
           "clrName": "CommandID",
-          "tsEmitName": "CommandID",
+          "tsEmitName": "commandID",
           "normalizedSignature": "CommandID|:System.ComponentModel.Design.CommandID|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5661,7 +5661,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.MenuCommand::OleStatus:System.Int32",
           "clrName": "OleStatus",
-          "tsEmitName": "OleStatus",
+          "tsEmitName": "oleStatus",
           "normalizedSignature": "OleStatus|:System.Int32|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5679,7 +5679,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.MenuCommand::CommandChangedSystem.EventHandler",
           "clrName": "CommandChanged",
-          "tsEmitName": "CommandChanged",
+          "tsEmitName": "commandChanged",
           "normalizedSignature": "CommandChanged|System.EventHandler|static=false",
           "isStatic": false
         }
@@ -5706,7 +5706,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.ServiceContainer::AddService(System.Type,System.Object):System.Void",
           "clrName": "AddService",
-          "tsEmitName": "AddService",
+          "tsEmitName": "addService",
           "normalizedSignature": "AddService|(System.Type,System.Object):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5722,7 +5722,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.ServiceContainer::AddService(System.Type,System.Object,System.Boolean):System.Void",
           "clrName": "AddService",
-          "tsEmitName": "AddService2",
+          "tsEmitName": "addService2",
           "normalizedSignature": "AddService|(System.Type,System.Object,System.Boolean):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5738,7 +5738,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.ServiceContainer::AddService(System.Type,System.ComponentModel.Design.ServiceCreatorCallback):System.Void",
           "clrName": "AddService",
-          "tsEmitName": "AddService3",
+          "tsEmitName": "addService3",
           "normalizedSignature": "AddService|(System.Type,System.ComponentModel.Design.ServiceCreatorCallback):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5754,7 +5754,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.ServiceContainer::AddService(System.Type,System.ComponentModel.Design.ServiceCreatorCallback,System.Boolean):System.Void",
           "clrName": "AddService",
-          "tsEmitName": "AddService4",
+          "tsEmitName": "addService4",
           "normalizedSignature": "AddService|(System.Type,System.ComponentModel.Design.ServiceCreatorCallback,System.Boolean):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5770,7 +5770,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.ServiceContainer::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "Dispose",
+          "tsEmitName": "dispose",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5786,7 +5786,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.ServiceContainer::GetService(System.Type):System.Object",
           "clrName": "GetService",
-          "tsEmitName": "GetService",
+          "tsEmitName": "getService",
           "normalizedSignature": "GetService|(System.Type):System.Object|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5802,7 +5802,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.ServiceContainer::RemoveService(System.Type):System.Void",
           "clrName": "RemoveService",
-          "tsEmitName": "RemoveService",
+          "tsEmitName": "removeService",
           "normalizedSignature": "RemoveService|(System.Type):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5818,7 +5818,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.ServiceContainer::RemoveService(System.Type,System.Boolean):System.Void",
           "clrName": "RemoveService",
-          "tsEmitName": "RemoveService2",
+          "tsEmitName": "removeService2",
           "normalizedSignature": "RemoveService|(System.Type,System.Boolean):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5834,7 +5834,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IServiceContainer::AddService(System.Type,System.Object):System.Void",
           "clrName": "AddService",
-          "tsEmitName": "AddService$view4",
+          "tsEmitName": "addService$view4",
           "normalizedSignature": "AddService|(System.Type,System.Object):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -5851,7 +5851,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IServiceContainer::AddService(System.Type,System.Object,System.Boolean):System.Void",
           "clrName": "AddService",
-          "tsEmitName": "AddService$view3",
+          "tsEmitName": "addService$view3",
           "normalizedSignature": "AddService|(System.Type,System.Object,System.Boolean):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -5868,7 +5868,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IServiceContainer::AddService(System.Type,System.ComponentModel.Design.ServiceCreatorCallback):System.Void",
           "clrName": "AddService",
-          "tsEmitName": "AddService$view2",
+          "tsEmitName": "addService$view2",
           "normalizedSignature": "AddService|(System.Type,System.ComponentModel.Design.ServiceCreatorCallback):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -5885,7 +5885,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IServiceContainer::AddService(System.Type,System.ComponentModel.Design.ServiceCreatorCallback,System.Boolean):System.Void",
           "clrName": "AddService",
-          "tsEmitName": "AddService$view",
+          "tsEmitName": "addService$view",
           "normalizedSignature": "AddService|(System.Type,System.ComponentModel.Design.ServiceCreatorCallback,System.Boolean):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -5902,7 +5902,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IServiceContainer::RemoveService(System.Type):System.Void",
           "clrName": "RemoveService",
-          "tsEmitName": "RemoveService$view2",
+          "tsEmitName": "removeService$view2",
           "normalizedSignature": "RemoveService|(System.Type):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -5919,7 +5919,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IServiceContainer::RemoveService(System.Type,System.Boolean):System.Void",
           "clrName": "RemoveService",
-          "tsEmitName": "RemoveService$view",
+          "tsEmitName": "removeService$view",
           "normalizedSignature": "RemoveService|(System.Type,System.Boolean):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -5936,7 +5936,7 @@
         {
           "stableId": "System.ComponentModel:System.IServiceProvider::GetService(System.Type):System.Object",
           "clrName": "GetService",
-          "tsEmitName": "GetService$view",
+          "tsEmitName": "getService$view",
           "normalizedSignature": "GetService|(System.Type):System.Object|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -5953,7 +5953,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "Dispose$view",
+          "tsEmitName": "dispose$view",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -5998,7 +5998,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.ServiceCreatorCallback::Invoke(System.ComponentModel.Design.IServiceContainer,System.Type):System.Object",
           "clrName": "Invoke",
-          "tsEmitName": "Invoke",
+          "tsEmitName": "invoke",
           "normalizedSignature": "Invoke|(System.ComponentModel.Design.IServiceContainer,System.Type):System.Object|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6014,7 +6014,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.ServiceCreatorCallback::BeginInvoke(System.ComponentModel.Design.IServiceContainer,System.Type,System.AsyncCallback,System.Object):System.IAsyncResult",
           "clrName": "BeginInvoke",
-          "tsEmitName": "BeginInvoke",
+          "tsEmitName": "beginInvoke",
           "normalizedSignature": "BeginInvoke|(System.ComponentModel.Design.IServiceContainer,System.Type,System.AsyncCallback,System.Object):System.IAsyncResult|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6030,7 +6030,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.ServiceCreatorCallback::EndInvoke(System.IAsyncResult):System.Object",
           "clrName": "EndInvoke",
-          "tsEmitName": "EndInvoke",
+          "tsEmitName": "endInvoke",
           "normalizedSignature": "EndInvoke|(System.IAsyncResult):System.Object|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6046,7 +6046,7 @@
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "Clone$view",
+          "tsEmitName": "clone$view",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -6063,7 +6063,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData$view",
+          "tsEmitName": "getObjectData$view",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -6080,7 +6080,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.ServiceCreatorCallback::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "Clone",
+          "tsEmitName": "clone",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -6096,7 +6096,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.ServiceCreatorCallback::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData",
+          "tsEmitName": "getObjectData",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -6137,7 +6137,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.StandardCommands::AlignBottomSystem.ComponentModel.Design.CommandID",
           "clrName": "AlignBottom",
-          "tsEmitName": "AlignBottom",
+          "tsEmitName": "alignBottom",
           "normalizedSignature": "AlignBottom|System.ComponentModel.Design.CommandID|static=true|const=false",
           "isStatic": true,
           "isReadOnly": true,
@@ -6146,7 +6146,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.StandardCommands::AlignHorizontalCentersSystem.ComponentModel.Design.CommandID",
           "clrName": "AlignHorizontalCenters",
-          "tsEmitName": "AlignHorizontalCenters",
+          "tsEmitName": "alignHorizontalCenters",
           "normalizedSignature": "AlignHorizontalCenters|System.ComponentModel.Design.CommandID|static=true|const=false",
           "isStatic": true,
           "isReadOnly": true,
@@ -6155,7 +6155,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.StandardCommands::AlignLeftSystem.ComponentModel.Design.CommandID",
           "clrName": "AlignLeft",
-          "tsEmitName": "AlignLeft",
+          "tsEmitName": "alignLeft",
           "normalizedSignature": "AlignLeft|System.ComponentModel.Design.CommandID|static=true|const=false",
           "isStatic": true,
           "isReadOnly": true,
@@ -6164,7 +6164,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.StandardCommands::AlignRightSystem.ComponentModel.Design.CommandID",
           "clrName": "AlignRight",
-          "tsEmitName": "AlignRight",
+          "tsEmitName": "alignRight",
           "normalizedSignature": "AlignRight|System.ComponentModel.Design.CommandID|static=true|const=false",
           "isStatic": true,
           "isReadOnly": true,
@@ -6173,7 +6173,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.StandardCommands::AlignToGridSystem.ComponentModel.Design.CommandID",
           "clrName": "AlignToGrid",
-          "tsEmitName": "AlignToGrid",
+          "tsEmitName": "alignToGrid",
           "normalizedSignature": "AlignToGrid|System.ComponentModel.Design.CommandID|static=true|const=false",
           "isStatic": true,
           "isReadOnly": true,
@@ -6182,7 +6182,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.StandardCommands::AlignTopSystem.ComponentModel.Design.CommandID",
           "clrName": "AlignTop",
-          "tsEmitName": "AlignTop",
+          "tsEmitName": "alignTop",
           "normalizedSignature": "AlignTop|System.ComponentModel.Design.CommandID|static=true|const=false",
           "isStatic": true,
           "isReadOnly": true,
@@ -6191,7 +6191,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.StandardCommands::AlignVerticalCentersSystem.ComponentModel.Design.CommandID",
           "clrName": "AlignVerticalCenters",
-          "tsEmitName": "AlignVerticalCenters",
+          "tsEmitName": "alignVerticalCenters",
           "normalizedSignature": "AlignVerticalCenters|System.ComponentModel.Design.CommandID|static=true|const=false",
           "isStatic": true,
           "isReadOnly": true,
@@ -6200,7 +6200,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.StandardCommands::ArrangeBottomSystem.ComponentModel.Design.CommandID",
           "clrName": "ArrangeBottom",
-          "tsEmitName": "ArrangeBottom",
+          "tsEmitName": "arrangeBottom",
           "normalizedSignature": "ArrangeBottom|System.ComponentModel.Design.CommandID|static=true|const=false",
           "isStatic": true,
           "isReadOnly": true,
@@ -6209,7 +6209,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.StandardCommands::ArrangeRightSystem.ComponentModel.Design.CommandID",
           "clrName": "ArrangeRight",
-          "tsEmitName": "ArrangeRight",
+          "tsEmitName": "arrangeRight",
           "normalizedSignature": "ArrangeRight|System.ComponentModel.Design.CommandID|static=true|const=false",
           "isStatic": true,
           "isReadOnly": true,
@@ -6218,7 +6218,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.StandardCommands::BringForwardSystem.ComponentModel.Design.CommandID",
           "clrName": "BringForward",
-          "tsEmitName": "BringForward",
+          "tsEmitName": "bringForward",
           "normalizedSignature": "BringForward|System.ComponentModel.Design.CommandID|static=true|const=false",
           "isStatic": true,
           "isReadOnly": true,
@@ -6227,7 +6227,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.StandardCommands::BringToFrontSystem.ComponentModel.Design.CommandID",
           "clrName": "BringToFront",
-          "tsEmitName": "BringToFront",
+          "tsEmitName": "bringToFront",
           "normalizedSignature": "BringToFront|System.ComponentModel.Design.CommandID|static=true|const=false",
           "isStatic": true,
           "isReadOnly": true,
@@ -6236,7 +6236,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.StandardCommands::CenterHorizontallySystem.ComponentModel.Design.CommandID",
           "clrName": "CenterHorizontally",
-          "tsEmitName": "CenterHorizontally",
+          "tsEmitName": "centerHorizontally",
           "normalizedSignature": "CenterHorizontally|System.ComponentModel.Design.CommandID|static=true|const=false",
           "isStatic": true,
           "isReadOnly": true,
@@ -6245,7 +6245,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.StandardCommands::CenterVerticallySystem.ComponentModel.Design.CommandID",
           "clrName": "CenterVertically",
-          "tsEmitName": "CenterVertically",
+          "tsEmitName": "centerVertically",
           "normalizedSignature": "CenterVertically|System.ComponentModel.Design.CommandID|static=true|const=false",
           "isStatic": true,
           "isReadOnly": true,
@@ -6254,7 +6254,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.StandardCommands::ViewCodeSystem.ComponentModel.Design.CommandID",
           "clrName": "ViewCode",
-          "tsEmitName": "ViewCode",
+          "tsEmitName": "viewCode",
           "normalizedSignature": "ViewCode|System.ComponentModel.Design.CommandID|static=true|const=false",
           "isStatic": true,
           "isReadOnly": true,
@@ -6263,7 +6263,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.StandardCommands::DocumentOutlineSystem.ComponentModel.Design.CommandID",
           "clrName": "DocumentOutline",
-          "tsEmitName": "DocumentOutline",
+          "tsEmitName": "documentOutline",
           "normalizedSignature": "DocumentOutline|System.ComponentModel.Design.CommandID|static=true|const=false",
           "isStatic": true,
           "isReadOnly": true,
@@ -6272,7 +6272,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.StandardCommands::CopySystem.ComponentModel.Design.CommandID",
           "clrName": "Copy",
-          "tsEmitName": "Copy",
+          "tsEmitName": "copy",
           "normalizedSignature": "Copy|System.ComponentModel.Design.CommandID|static=true|const=false",
           "isStatic": true,
           "isReadOnly": true,
@@ -6281,7 +6281,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.StandardCommands::CutSystem.ComponentModel.Design.CommandID",
           "clrName": "Cut",
-          "tsEmitName": "Cut",
+          "tsEmitName": "cut",
           "normalizedSignature": "Cut|System.ComponentModel.Design.CommandID|static=true|const=false",
           "isStatic": true,
           "isReadOnly": true,
@@ -6290,7 +6290,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.StandardCommands::DeleteSystem.ComponentModel.Design.CommandID",
           "clrName": "Delete",
-          "tsEmitName": "Delete",
+          "tsEmitName": "delete_",
           "normalizedSignature": "Delete|System.ComponentModel.Design.CommandID|static=true|const=false",
           "isStatic": true,
           "isReadOnly": true,
@@ -6299,7 +6299,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.StandardCommands::GroupSystem.ComponentModel.Design.CommandID",
           "clrName": "Group",
-          "tsEmitName": "Group",
+          "tsEmitName": "group",
           "normalizedSignature": "Group|System.ComponentModel.Design.CommandID|static=true|const=false",
           "isStatic": true,
           "isReadOnly": true,
@@ -6308,7 +6308,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.StandardCommands::HorizSpaceConcatenateSystem.ComponentModel.Design.CommandID",
           "clrName": "HorizSpaceConcatenate",
-          "tsEmitName": "HorizSpaceConcatenate",
+          "tsEmitName": "horizSpaceConcatenate",
           "normalizedSignature": "HorizSpaceConcatenate|System.ComponentModel.Design.CommandID|static=true|const=false",
           "isStatic": true,
           "isReadOnly": true,
@@ -6317,7 +6317,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.StandardCommands::HorizSpaceDecreaseSystem.ComponentModel.Design.CommandID",
           "clrName": "HorizSpaceDecrease",
-          "tsEmitName": "HorizSpaceDecrease",
+          "tsEmitName": "horizSpaceDecrease",
           "normalizedSignature": "HorizSpaceDecrease|System.ComponentModel.Design.CommandID|static=true|const=false",
           "isStatic": true,
           "isReadOnly": true,
@@ -6326,7 +6326,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.StandardCommands::HorizSpaceIncreaseSystem.ComponentModel.Design.CommandID",
           "clrName": "HorizSpaceIncrease",
-          "tsEmitName": "HorizSpaceIncrease",
+          "tsEmitName": "horizSpaceIncrease",
           "normalizedSignature": "HorizSpaceIncrease|System.ComponentModel.Design.CommandID|static=true|const=false",
           "isStatic": true,
           "isReadOnly": true,
@@ -6335,7 +6335,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.StandardCommands::HorizSpaceMakeEqualSystem.ComponentModel.Design.CommandID",
           "clrName": "HorizSpaceMakeEqual",
-          "tsEmitName": "HorizSpaceMakeEqual",
+          "tsEmitName": "horizSpaceMakeEqual",
           "normalizedSignature": "HorizSpaceMakeEqual|System.ComponentModel.Design.CommandID|static=true|const=false",
           "isStatic": true,
           "isReadOnly": true,
@@ -6344,7 +6344,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.StandardCommands::PasteSystem.ComponentModel.Design.CommandID",
           "clrName": "Paste",
-          "tsEmitName": "Paste",
+          "tsEmitName": "paste",
           "normalizedSignature": "Paste|System.ComponentModel.Design.CommandID|static=true|const=false",
           "isStatic": true,
           "isReadOnly": true,
@@ -6353,7 +6353,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.StandardCommands::PropertiesSystem.ComponentModel.Design.CommandID",
           "clrName": "Properties",
-          "tsEmitName": "Properties",
+          "tsEmitName": "properties",
           "normalizedSignature": "Properties|System.ComponentModel.Design.CommandID|static=true|const=false",
           "isStatic": true,
           "isReadOnly": true,
@@ -6362,7 +6362,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.StandardCommands::RedoSystem.ComponentModel.Design.CommandID",
           "clrName": "Redo",
-          "tsEmitName": "Redo",
+          "tsEmitName": "redo",
           "normalizedSignature": "Redo|System.ComponentModel.Design.CommandID|static=true|const=false",
           "isStatic": true,
           "isReadOnly": true,
@@ -6371,7 +6371,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.StandardCommands::MultiLevelRedoSystem.ComponentModel.Design.CommandID",
           "clrName": "MultiLevelRedo",
-          "tsEmitName": "MultiLevelRedo",
+          "tsEmitName": "multiLevelRedo",
           "normalizedSignature": "MultiLevelRedo|System.ComponentModel.Design.CommandID|static=true|const=false",
           "isStatic": true,
           "isReadOnly": true,
@@ -6380,7 +6380,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.StandardCommands::SelectAllSystem.ComponentModel.Design.CommandID",
           "clrName": "SelectAll",
-          "tsEmitName": "SelectAll",
+          "tsEmitName": "selectAll",
           "normalizedSignature": "SelectAll|System.ComponentModel.Design.CommandID|static=true|const=false",
           "isStatic": true,
           "isReadOnly": true,
@@ -6389,7 +6389,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.StandardCommands::SendBackwardSystem.ComponentModel.Design.CommandID",
           "clrName": "SendBackward",
-          "tsEmitName": "SendBackward",
+          "tsEmitName": "sendBackward",
           "normalizedSignature": "SendBackward|System.ComponentModel.Design.CommandID|static=true|const=false",
           "isStatic": true,
           "isReadOnly": true,
@@ -6398,7 +6398,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.StandardCommands::SendToBackSystem.ComponentModel.Design.CommandID",
           "clrName": "SendToBack",
-          "tsEmitName": "SendToBack",
+          "tsEmitName": "sendToBack",
           "normalizedSignature": "SendToBack|System.ComponentModel.Design.CommandID|static=true|const=false",
           "isStatic": true,
           "isReadOnly": true,
@@ -6407,7 +6407,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.StandardCommands::SizeToControlSystem.ComponentModel.Design.CommandID",
           "clrName": "SizeToControl",
-          "tsEmitName": "SizeToControl",
+          "tsEmitName": "sizeToControl",
           "normalizedSignature": "SizeToControl|System.ComponentModel.Design.CommandID|static=true|const=false",
           "isStatic": true,
           "isReadOnly": true,
@@ -6416,7 +6416,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.StandardCommands::SizeToControlHeightSystem.ComponentModel.Design.CommandID",
           "clrName": "SizeToControlHeight",
-          "tsEmitName": "SizeToControlHeight",
+          "tsEmitName": "sizeToControlHeight",
           "normalizedSignature": "SizeToControlHeight|System.ComponentModel.Design.CommandID|static=true|const=false",
           "isStatic": true,
           "isReadOnly": true,
@@ -6425,7 +6425,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.StandardCommands::SizeToControlWidthSystem.ComponentModel.Design.CommandID",
           "clrName": "SizeToControlWidth",
-          "tsEmitName": "SizeToControlWidth",
+          "tsEmitName": "sizeToControlWidth",
           "normalizedSignature": "SizeToControlWidth|System.ComponentModel.Design.CommandID|static=true|const=false",
           "isStatic": true,
           "isReadOnly": true,
@@ -6434,7 +6434,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.StandardCommands::SizeToFitSystem.ComponentModel.Design.CommandID",
           "clrName": "SizeToFit",
-          "tsEmitName": "SizeToFit",
+          "tsEmitName": "sizeToFit",
           "normalizedSignature": "SizeToFit|System.ComponentModel.Design.CommandID|static=true|const=false",
           "isStatic": true,
           "isReadOnly": true,
@@ -6443,7 +6443,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.StandardCommands::SizeToGridSystem.ComponentModel.Design.CommandID",
           "clrName": "SizeToGrid",
-          "tsEmitName": "SizeToGrid",
+          "tsEmitName": "sizeToGrid",
           "normalizedSignature": "SizeToGrid|System.ComponentModel.Design.CommandID|static=true|const=false",
           "isStatic": true,
           "isReadOnly": true,
@@ -6452,7 +6452,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.StandardCommands::SnapToGridSystem.ComponentModel.Design.CommandID",
           "clrName": "SnapToGrid",
-          "tsEmitName": "SnapToGrid",
+          "tsEmitName": "snapToGrid",
           "normalizedSignature": "SnapToGrid|System.ComponentModel.Design.CommandID|static=true|const=false",
           "isStatic": true,
           "isReadOnly": true,
@@ -6461,7 +6461,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.StandardCommands::TabOrderSystem.ComponentModel.Design.CommandID",
           "clrName": "TabOrder",
-          "tsEmitName": "TabOrder",
+          "tsEmitName": "tabOrder",
           "normalizedSignature": "TabOrder|System.ComponentModel.Design.CommandID|static=true|const=false",
           "isStatic": true,
           "isReadOnly": true,
@@ -6470,7 +6470,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.StandardCommands::UndoSystem.ComponentModel.Design.CommandID",
           "clrName": "Undo",
-          "tsEmitName": "Undo",
+          "tsEmitName": "undo",
           "normalizedSignature": "Undo|System.ComponentModel.Design.CommandID|static=true|const=false",
           "isStatic": true,
           "isReadOnly": true,
@@ -6479,7 +6479,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.StandardCommands::MultiLevelUndoSystem.ComponentModel.Design.CommandID",
           "clrName": "MultiLevelUndo",
-          "tsEmitName": "MultiLevelUndo",
+          "tsEmitName": "multiLevelUndo",
           "normalizedSignature": "MultiLevelUndo|System.ComponentModel.Design.CommandID|static=true|const=false",
           "isStatic": true,
           "isReadOnly": true,
@@ -6488,7 +6488,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.StandardCommands::UngroupSystem.ComponentModel.Design.CommandID",
           "clrName": "Ungroup",
-          "tsEmitName": "Ungroup",
+          "tsEmitName": "ungroup",
           "normalizedSignature": "Ungroup|System.ComponentModel.Design.CommandID|static=true|const=false",
           "isStatic": true,
           "isReadOnly": true,
@@ -6497,7 +6497,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.StandardCommands::VertSpaceConcatenateSystem.ComponentModel.Design.CommandID",
           "clrName": "VertSpaceConcatenate",
-          "tsEmitName": "VertSpaceConcatenate",
+          "tsEmitName": "vertSpaceConcatenate",
           "normalizedSignature": "VertSpaceConcatenate|System.ComponentModel.Design.CommandID|static=true|const=false",
           "isStatic": true,
           "isReadOnly": true,
@@ -6506,7 +6506,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.StandardCommands::VertSpaceDecreaseSystem.ComponentModel.Design.CommandID",
           "clrName": "VertSpaceDecrease",
-          "tsEmitName": "VertSpaceDecrease",
+          "tsEmitName": "vertSpaceDecrease",
           "normalizedSignature": "VertSpaceDecrease|System.ComponentModel.Design.CommandID|static=true|const=false",
           "isStatic": true,
           "isReadOnly": true,
@@ -6515,7 +6515,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.StandardCommands::VertSpaceIncreaseSystem.ComponentModel.Design.CommandID",
           "clrName": "VertSpaceIncrease",
-          "tsEmitName": "VertSpaceIncrease",
+          "tsEmitName": "vertSpaceIncrease",
           "normalizedSignature": "VertSpaceIncrease|System.ComponentModel.Design.CommandID|static=true|const=false",
           "isStatic": true,
           "isReadOnly": true,
@@ -6524,7 +6524,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.StandardCommands::VertSpaceMakeEqualSystem.ComponentModel.Design.CommandID",
           "clrName": "VertSpaceMakeEqual",
-          "tsEmitName": "VertSpaceMakeEqual",
+          "tsEmitName": "vertSpaceMakeEqual",
           "normalizedSignature": "VertSpaceMakeEqual|System.ComponentModel.Design.CommandID|static=true|const=false",
           "isStatic": true,
           "isReadOnly": true,
@@ -6533,7 +6533,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.StandardCommands::ShowGridSystem.ComponentModel.Design.CommandID",
           "clrName": "ShowGrid",
-          "tsEmitName": "ShowGrid",
+          "tsEmitName": "showGrid",
           "normalizedSignature": "ShowGrid|System.ComponentModel.Design.CommandID|static=true|const=false",
           "isStatic": true,
           "isReadOnly": true,
@@ -6542,7 +6542,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.StandardCommands::ViewGridSystem.ComponentModel.Design.CommandID",
           "clrName": "ViewGrid",
-          "tsEmitName": "ViewGrid",
+          "tsEmitName": "viewGrid",
           "normalizedSignature": "ViewGrid|System.ComponentModel.Design.CommandID|static=true|const=false",
           "isStatic": true,
           "isReadOnly": true,
@@ -6551,7 +6551,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.StandardCommands::ReplaceSystem.ComponentModel.Design.CommandID",
           "clrName": "Replace",
-          "tsEmitName": "Replace",
+          "tsEmitName": "replace",
           "normalizedSignature": "Replace|System.ComponentModel.Design.CommandID|static=true|const=false",
           "isStatic": true,
           "isReadOnly": true,
@@ -6560,7 +6560,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.StandardCommands::PropertiesWindowSystem.ComponentModel.Design.CommandID",
           "clrName": "PropertiesWindow",
-          "tsEmitName": "PropertiesWindow",
+          "tsEmitName": "propertiesWindow",
           "normalizedSignature": "PropertiesWindow|System.ComponentModel.Design.CommandID|static=true|const=false",
           "isStatic": true,
           "isReadOnly": true,
@@ -6569,7 +6569,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.StandardCommands::LockControlsSystem.ComponentModel.Design.CommandID",
           "clrName": "LockControls",
-          "tsEmitName": "LockControls",
+          "tsEmitName": "lockControls",
           "normalizedSignature": "LockControls|System.ComponentModel.Design.CommandID|static=true|const=false",
           "isStatic": true,
           "isReadOnly": true,
@@ -6578,7 +6578,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.StandardCommands::F1HelpSystem.ComponentModel.Design.CommandID",
           "clrName": "F1Help",
-          "tsEmitName": "F1Help",
+          "tsEmitName": "f1Help",
           "normalizedSignature": "F1Help|System.ComponentModel.Design.CommandID|static=true|const=false",
           "isStatic": true,
           "isReadOnly": true,
@@ -6587,7 +6587,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.StandardCommands::ArrangeIconsSystem.ComponentModel.Design.CommandID",
           "clrName": "ArrangeIcons",
-          "tsEmitName": "ArrangeIcons",
+          "tsEmitName": "arrangeIcons",
           "normalizedSignature": "ArrangeIcons|System.ComponentModel.Design.CommandID|static=true|const=false",
           "isStatic": true,
           "isReadOnly": true,
@@ -6596,7 +6596,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.StandardCommands::LineupIconsSystem.ComponentModel.Design.CommandID",
           "clrName": "LineupIcons",
-          "tsEmitName": "LineupIcons",
+          "tsEmitName": "lineupIcons",
           "normalizedSignature": "LineupIcons|System.ComponentModel.Design.CommandID|static=true|const=false",
           "isStatic": true,
           "isReadOnly": true,
@@ -6605,7 +6605,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.StandardCommands::ShowLargeIconsSystem.ComponentModel.Design.CommandID",
           "clrName": "ShowLargeIcons",
-          "tsEmitName": "ShowLargeIcons",
+          "tsEmitName": "showLargeIcons",
           "normalizedSignature": "ShowLargeIcons|System.ComponentModel.Design.CommandID|static=true|const=false",
           "isStatic": true,
           "isReadOnly": true,
@@ -6614,7 +6614,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.StandardCommands::VerbFirstSystem.ComponentModel.Design.CommandID",
           "clrName": "VerbFirst",
-          "tsEmitName": "VerbFirst",
+          "tsEmitName": "verbFirst",
           "normalizedSignature": "VerbFirst|System.ComponentModel.Design.CommandID|static=true|const=false",
           "isStatic": true,
           "isReadOnly": true,
@@ -6623,7 +6623,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.StandardCommands::VerbLastSystem.ComponentModel.Design.CommandID",
           "clrName": "VerbLast",
-          "tsEmitName": "VerbLast",
+          "tsEmitName": "verbLast",
           "normalizedSignature": "VerbLast|System.ComponentModel.Design.CommandID|static=true|const=false",
           "isStatic": true,
           "isReadOnly": true,
@@ -6655,7 +6655,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.StandardToolWindows::ObjectBrowserSystem.Guid",
           "clrName": "ObjectBrowser",
-          "tsEmitName": "ObjectBrowser",
+          "tsEmitName": "objectBrowser",
           "normalizedSignature": "ObjectBrowser|System.Guid|static=true|const=false",
           "isStatic": true,
           "isReadOnly": true,
@@ -6664,7 +6664,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.StandardToolWindows::OutputWindowSystem.Guid",
           "clrName": "OutputWindow",
-          "tsEmitName": "OutputWindow",
+          "tsEmitName": "outputWindow",
           "normalizedSignature": "OutputWindow|System.Guid|static=true|const=false",
           "isStatic": true,
           "isReadOnly": true,
@@ -6673,7 +6673,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.StandardToolWindows::ProjectExplorerSystem.Guid",
           "clrName": "ProjectExplorer",
-          "tsEmitName": "ProjectExplorer",
+          "tsEmitName": "projectExplorer",
           "normalizedSignature": "ProjectExplorer|System.Guid|static=true|const=false",
           "isStatic": true,
           "isReadOnly": true,
@@ -6682,7 +6682,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.StandardToolWindows::PropertyBrowserSystem.Guid",
           "clrName": "PropertyBrowser",
-          "tsEmitName": "PropertyBrowser",
+          "tsEmitName": "propertyBrowser",
           "normalizedSignature": "PropertyBrowser|System.Guid|static=true|const=false",
           "isStatic": true,
           "isReadOnly": true,
@@ -6691,7 +6691,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.StandardToolWindows::RelatedLinksSystem.Guid",
           "clrName": "RelatedLinks",
-          "tsEmitName": "RelatedLinks",
+          "tsEmitName": "relatedLinks",
           "normalizedSignature": "RelatedLinks|System.Guid|static=true|const=false",
           "isStatic": true,
           "isReadOnly": true,
@@ -6700,7 +6700,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.StandardToolWindows::ServerExplorerSystem.Guid",
           "clrName": "ServerExplorer",
-          "tsEmitName": "ServerExplorer",
+          "tsEmitName": "serverExplorer",
           "normalizedSignature": "ServerExplorer|System.Guid|static=true|const=false",
           "isStatic": true,
           "isReadOnly": true,
@@ -6709,7 +6709,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.StandardToolWindows::TaskListSystem.Guid",
           "clrName": "TaskList",
-          "tsEmitName": "TaskList",
+          "tsEmitName": "taskList",
           "normalizedSignature": "TaskList|System.Guid|static=true|const=false",
           "isStatic": true,
           "isReadOnly": true,
@@ -6718,7 +6718,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.StandardToolWindows::ToolboxSystem.Guid",
           "clrName": "Toolbox",
-          "tsEmitName": "Toolbox",
+          "tsEmitName": "toolbox",
           "normalizedSignature": "Toolbox|System.Guid|static=true|const=false",
           "isStatic": true,
           "isReadOnly": true,
@@ -6748,7 +6748,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.TypeDescriptionProviderService::GetProvider(System.Object):System.ComponentModel.TypeDescriptionProvider",
           "clrName": "GetProvider",
-          "tsEmitName": "GetProvider",
+          "tsEmitName": "getProvider",
           "normalizedSignature": "GetProvider|(System.Object):System.ComponentModel.TypeDescriptionProvider|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6764,7 +6764,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.TypeDescriptionProviderService::GetProvider(System.Type):System.ComponentModel.TypeDescriptionProvider",
           "clrName": "GetProvider",
-          "tsEmitName": "GetProvider2",
+          "tsEmitName": "getProvider2",
           "normalizedSignature": "GetProvider|(System.Type):System.ComponentModel.TypeDescriptionProvider|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",

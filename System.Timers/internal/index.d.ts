@@ -41,7 +41,7 @@ export type CLROf<T> =
 
 export class ElapsedEventArgs$instance extends System_Internal.EventArgs$instance {
     constructor(signalTime: DateTime);
-    readonly SignalTime: DateTime;
+    readonly signalTime: DateTime;
 }
 
 
@@ -49,11 +49,11 @@ export type ElapsedEventArgs = ElapsedEventArgs$instance;
 
 export class ElapsedEventHandler$instance extends Function {
     constructor(object_: any, method: nint);
-    BeginInvoke(sender: any, e: ElapsedEventArgs, callback: AsyncCallback, object_: any): IAsyncResult;
-    Clone(): any;
-    EndInvoke(result: IAsyncResult): void;
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
-    Invoke(sender: any, e: ElapsedEventArgs): void;
+    beginInvoke(sender: any, e: ElapsedEventArgs, callback: AsyncCallback, object_: any): IAsyncResult;
+    clone(): any;
+    endInvoke(result: IAsyncResult): void;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
+    invoke(sender: any, e: ElapsedEventArgs): void;
 }
 
 
@@ -69,17 +69,17 @@ export class Timer$instance extends System_ComponentModel_Internal.Component$ins
     constructor();
     constructor(interval: double);
     constructor(interval: TimeSpan);
-    AutoReset: boolean;
-    Enabled: boolean;
-    Interval: double;
-    Site: ISite;
-    SynchronizingObject: ISynchronizeInvoke;
-    BeginInit(): void;
-    Close(): void;
-    Dispose(): void;
-    EndInit(): void;
-    Start(): void;
-    Stop(): void;
+    autoReset: boolean;
+    enabled: boolean;
+    interval: double;
+    site: ISite;
+    synchronizingObject: ISynchronizeInvoke;
+    beginInit(): void;
+    close(): void;
+    dispose(): void;
+    endInit(): void;
+    start(): void;
+    stop(): void;
 }
 
 
@@ -94,7 +94,7 @@ export type Timer = Timer$instance & __Timer$views;
 
 export class TimersDescriptionAttribute$instance extends System_ComponentModel_Internal.DescriptionAttribute$instance {
     constructor(description: string);
-    readonly Description: string;
+    readonly description: string;
 }
 
 

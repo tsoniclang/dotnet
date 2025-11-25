@@ -35,17 +35,17 @@ export type CLROf<T> =
     T; // Identity fallback for non-primitive types
 
 export enum ValueTaskSourceOnCompletedFlags {
-    None = 0,
-    UseSchedulingContext = 1,
-    FlowExecutionContext = 2
+    none = 0,
+    useSchedulingContext = 1,
+    flowExecutionContext = 2
 }
 
 
 export enum ValueTaskSourceStatus {
-    Pending = 0,
-    Succeeded = 1,
-    Faulted = 2,
-    Canceled = 3
+    pending = 0,
+    succeeded = 1,
+    faulted = 2,
+    canceled = 3
 }
 
 
@@ -68,14 +68,14 @@ export interface IValueTaskSource_1$instance<TResult> {
 export type IValueTaskSource_1<TResult> = IValueTaskSource_1$instance<TResult>;
 
 export class ManualResetValueTaskSourceCore_1$instance<TResult> {
-    RunContinuationsAsynchronously: boolean;
-    readonly Version: short;
-    GetResult(token: short): TResult;
-    GetStatus(token: short): ValueTaskSourceStatus;
-    OnCompleted(continuation: Action_1<any>, state: any, token: short, flags: ValueTaskSourceOnCompletedFlags): void;
-    Reset(): void;
-    SetException(error: Exception): void;
-    SetResult(result: TResult): void;
+    runContinuationsAsynchronously: boolean;
+    readonly version: short;
+    getResult(token: short): TResult;
+    getStatus(token: short): ValueTaskSourceStatus;
+    onCompleted(continuation: Action_1<any>, state: any, token: short, flags: ValueTaskSourceOnCompletedFlags): void;
+    reset(): void;
+    setException(error: Exception): void;
+    setResult(result: TResult): void;
 }
 
 

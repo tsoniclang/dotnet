@@ -29,7 +29,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.DeliveryNotificationOptions::NoneSystem.Net.Mail.DeliveryNotificationOptions",
           "clrName": "None",
-          "tsEmitName": "None",
+          "tsEmitName": "none",
           "normalizedSignature": "None|System.Net.Mail.DeliveryNotificationOptions|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -38,7 +38,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.DeliveryNotificationOptions::OnSuccessSystem.Net.Mail.DeliveryNotificationOptions",
           "clrName": "OnSuccess",
-          "tsEmitName": "OnSuccess",
+          "tsEmitName": "onSuccess",
           "normalizedSignature": "OnSuccess|System.Net.Mail.DeliveryNotificationOptions|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -47,7 +47,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.DeliveryNotificationOptions::OnFailureSystem.Net.Mail.DeliveryNotificationOptions",
           "clrName": "OnFailure",
-          "tsEmitName": "OnFailure",
+          "tsEmitName": "onFailure",
           "normalizedSignature": "OnFailure|System.Net.Mail.DeliveryNotificationOptions|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -56,7 +56,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.DeliveryNotificationOptions::DelaySystem.Net.Mail.DeliveryNotificationOptions",
           "clrName": "Delay",
-          "tsEmitName": "Delay",
+          "tsEmitName": "delay",
           "normalizedSignature": "Delay|System.Net.Mail.DeliveryNotificationOptions|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -65,7 +65,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.DeliveryNotificationOptions::NeverSystem.Net.Mail.DeliveryNotificationOptions",
           "clrName": "Never",
-          "tsEmitName": "Never",
+          "tsEmitName": "never_",
           "normalizedSignature": "Never|System.Net.Mail.DeliveryNotificationOptions|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -100,7 +100,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.MailPriority::NormalSystem.Net.Mail.MailPriority",
           "clrName": "Normal",
-          "tsEmitName": "Normal",
+          "tsEmitName": "normal",
           "normalizedSignature": "Normal|System.Net.Mail.MailPriority|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -109,7 +109,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.MailPriority::LowSystem.Net.Mail.MailPriority",
           "clrName": "Low",
-          "tsEmitName": "Low",
+          "tsEmitName": "low",
           "normalizedSignature": "Low|System.Net.Mail.MailPriority|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -118,7 +118,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.MailPriority::HighSystem.Net.Mail.MailPriority",
           "clrName": "High",
-          "tsEmitName": "High",
+          "tsEmitName": "high",
           "normalizedSignature": "High|System.Net.Mail.MailPriority|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -153,7 +153,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.SmtpDeliveryFormat::SevenBitSystem.Net.Mail.SmtpDeliveryFormat",
           "clrName": "SevenBit",
-          "tsEmitName": "SevenBit",
+          "tsEmitName": "sevenBit",
           "normalizedSignature": "SevenBit|System.Net.Mail.SmtpDeliveryFormat|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -162,7 +162,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.SmtpDeliveryFormat::InternationalSystem.Net.Mail.SmtpDeliveryFormat",
           "clrName": "International",
-          "tsEmitName": "International",
+          "tsEmitName": "international",
           "normalizedSignature": "International|System.Net.Mail.SmtpDeliveryFormat|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -197,7 +197,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.SmtpDeliveryMethod::NetworkSystem.Net.Mail.SmtpDeliveryMethod",
           "clrName": "Network",
-          "tsEmitName": "Network",
+          "tsEmitName": "network",
           "normalizedSignature": "Network|System.Net.Mail.SmtpDeliveryMethod|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -206,7 +206,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.SmtpDeliveryMethod::SpecifiedPickupDirectorySystem.Net.Mail.SmtpDeliveryMethod",
           "clrName": "SpecifiedPickupDirectory",
-          "tsEmitName": "SpecifiedPickupDirectory",
+          "tsEmitName": "specifiedPickupDirectory",
           "normalizedSignature": "SpecifiedPickupDirectory|System.Net.Mail.SmtpDeliveryMethod|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -215,7 +215,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.SmtpDeliveryMethod::PickupDirectoryFromIisSystem.Net.Mail.SmtpDeliveryMethod",
           "clrName": "PickupDirectoryFromIis",
-          "tsEmitName": "PickupDirectoryFromIis",
+          "tsEmitName": "pickupDirectoryFromIis",
           "normalizedSignature": "PickupDirectoryFromIis|System.Net.Mail.SmtpDeliveryMethod|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -250,7 +250,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.SmtpStatusCode::SystemStatusSystem.Net.Mail.SmtpStatusCode",
           "clrName": "SystemStatus",
-          "tsEmitName": "SystemStatus",
+          "tsEmitName": "systemStatus",
           "normalizedSignature": "SystemStatus|System.Net.Mail.SmtpStatusCode|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -259,7 +259,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.SmtpStatusCode::HelpMessageSystem.Net.Mail.SmtpStatusCode",
           "clrName": "HelpMessage",
-          "tsEmitName": "HelpMessage",
+          "tsEmitName": "helpMessage",
           "normalizedSignature": "HelpMessage|System.Net.Mail.SmtpStatusCode|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -268,7 +268,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.SmtpStatusCode::ServiceReadySystem.Net.Mail.SmtpStatusCode",
           "clrName": "ServiceReady",
-          "tsEmitName": "ServiceReady",
+          "tsEmitName": "serviceReady",
           "normalizedSignature": "ServiceReady|System.Net.Mail.SmtpStatusCode|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -277,7 +277,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.SmtpStatusCode::ServiceClosingTransmissionChannelSystem.Net.Mail.SmtpStatusCode",
           "clrName": "ServiceClosingTransmissionChannel",
-          "tsEmitName": "ServiceClosingTransmissionChannel",
+          "tsEmitName": "serviceClosingTransmissionChannel",
           "normalizedSignature": "ServiceClosingTransmissionChannel|System.Net.Mail.SmtpStatusCode|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -286,7 +286,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.SmtpStatusCode::OkSystem.Net.Mail.SmtpStatusCode",
           "clrName": "Ok",
-          "tsEmitName": "Ok",
+          "tsEmitName": "ok",
           "normalizedSignature": "Ok|System.Net.Mail.SmtpStatusCode|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -295,7 +295,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.SmtpStatusCode::UserNotLocalWillForwardSystem.Net.Mail.SmtpStatusCode",
           "clrName": "UserNotLocalWillForward",
-          "tsEmitName": "UserNotLocalWillForward",
+          "tsEmitName": "userNotLocalWillForward",
           "normalizedSignature": "UserNotLocalWillForward|System.Net.Mail.SmtpStatusCode|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -304,7 +304,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.SmtpStatusCode::CannotVerifyUserWillAttemptDeliverySystem.Net.Mail.SmtpStatusCode",
           "clrName": "CannotVerifyUserWillAttemptDelivery",
-          "tsEmitName": "CannotVerifyUserWillAttemptDelivery",
+          "tsEmitName": "cannotVerifyUserWillAttemptDelivery",
           "normalizedSignature": "CannotVerifyUserWillAttemptDelivery|System.Net.Mail.SmtpStatusCode|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -313,7 +313,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.SmtpStatusCode::StartMailInputSystem.Net.Mail.SmtpStatusCode",
           "clrName": "StartMailInput",
-          "tsEmitName": "StartMailInput",
+          "tsEmitName": "startMailInput",
           "normalizedSignature": "StartMailInput|System.Net.Mail.SmtpStatusCode|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -322,7 +322,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.SmtpStatusCode::ServiceNotAvailableSystem.Net.Mail.SmtpStatusCode",
           "clrName": "ServiceNotAvailable",
-          "tsEmitName": "ServiceNotAvailable",
+          "tsEmitName": "serviceNotAvailable",
           "normalizedSignature": "ServiceNotAvailable|System.Net.Mail.SmtpStatusCode|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -331,7 +331,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.SmtpStatusCode::MailboxBusySystem.Net.Mail.SmtpStatusCode",
           "clrName": "MailboxBusy",
-          "tsEmitName": "MailboxBusy",
+          "tsEmitName": "mailboxBusy",
           "normalizedSignature": "MailboxBusy|System.Net.Mail.SmtpStatusCode|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -340,7 +340,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.SmtpStatusCode::LocalErrorInProcessingSystem.Net.Mail.SmtpStatusCode",
           "clrName": "LocalErrorInProcessing",
-          "tsEmitName": "LocalErrorInProcessing",
+          "tsEmitName": "localErrorInProcessing",
           "normalizedSignature": "LocalErrorInProcessing|System.Net.Mail.SmtpStatusCode|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -349,7 +349,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.SmtpStatusCode::InsufficientStorageSystem.Net.Mail.SmtpStatusCode",
           "clrName": "InsufficientStorage",
-          "tsEmitName": "InsufficientStorage",
+          "tsEmitName": "insufficientStorage",
           "normalizedSignature": "InsufficientStorage|System.Net.Mail.SmtpStatusCode|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -358,7 +358,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.SmtpStatusCode::ClientNotPermittedSystem.Net.Mail.SmtpStatusCode",
           "clrName": "ClientNotPermitted",
-          "tsEmitName": "ClientNotPermitted",
+          "tsEmitName": "clientNotPermitted",
           "normalizedSignature": "ClientNotPermitted|System.Net.Mail.SmtpStatusCode|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -367,7 +367,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.SmtpStatusCode::CommandUnrecognizedSystem.Net.Mail.SmtpStatusCode",
           "clrName": "CommandUnrecognized",
-          "tsEmitName": "CommandUnrecognized",
+          "tsEmitName": "commandUnrecognized",
           "normalizedSignature": "CommandUnrecognized|System.Net.Mail.SmtpStatusCode|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -376,7 +376,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.SmtpStatusCode::SyntaxErrorSystem.Net.Mail.SmtpStatusCode",
           "clrName": "SyntaxError",
-          "tsEmitName": "SyntaxError",
+          "tsEmitName": "syntaxError",
           "normalizedSignature": "SyntaxError|System.Net.Mail.SmtpStatusCode|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -385,7 +385,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.SmtpStatusCode::CommandNotImplementedSystem.Net.Mail.SmtpStatusCode",
           "clrName": "CommandNotImplemented",
-          "tsEmitName": "CommandNotImplemented",
+          "tsEmitName": "commandNotImplemented",
           "normalizedSignature": "CommandNotImplemented|System.Net.Mail.SmtpStatusCode|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -394,7 +394,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.SmtpStatusCode::BadCommandSequenceSystem.Net.Mail.SmtpStatusCode",
           "clrName": "BadCommandSequence",
-          "tsEmitName": "BadCommandSequence",
+          "tsEmitName": "badCommandSequence",
           "normalizedSignature": "BadCommandSequence|System.Net.Mail.SmtpStatusCode|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -403,7 +403,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.SmtpStatusCode::MustIssueStartTlsFirstSystem.Net.Mail.SmtpStatusCode",
           "clrName": "MustIssueStartTlsFirst",
-          "tsEmitName": "MustIssueStartTlsFirst",
+          "tsEmitName": "mustIssueStartTlsFirst",
           "normalizedSignature": "MustIssueStartTlsFirst|System.Net.Mail.SmtpStatusCode|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -412,7 +412,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.SmtpStatusCode::CommandParameterNotImplementedSystem.Net.Mail.SmtpStatusCode",
           "clrName": "CommandParameterNotImplemented",
-          "tsEmitName": "CommandParameterNotImplemented",
+          "tsEmitName": "commandParameterNotImplemented",
           "normalizedSignature": "CommandParameterNotImplemented|System.Net.Mail.SmtpStatusCode|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -421,7 +421,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.SmtpStatusCode::MailboxUnavailableSystem.Net.Mail.SmtpStatusCode",
           "clrName": "MailboxUnavailable",
-          "tsEmitName": "MailboxUnavailable",
+          "tsEmitName": "mailboxUnavailable",
           "normalizedSignature": "MailboxUnavailable|System.Net.Mail.SmtpStatusCode|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -430,7 +430,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.SmtpStatusCode::UserNotLocalTryAlternatePathSystem.Net.Mail.SmtpStatusCode",
           "clrName": "UserNotLocalTryAlternatePath",
-          "tsEmitName": "UserNotLocalTryAlternatePath",
+          "tsEmitName": "userNotLocalTryAlternatePath",
           "normalizedSignature": "UserNotLocalTryAlternatePath|System.Net.Mail.SmtpStatusCode|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -439,7 +439,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.SmtpStatusCode::ExceededStorageAllocationSystem.Net.Mail.SmtpStatusCode",
           "clrName": "ExceededStorageAllocation",
-          "tsEmitName": "ExceededStorageAllocation",
+          "tsEmitName": "exceededStorageAllocation",
           "normalizedSignature": "ExceededStorageAllocation|System.Net.Mail.SmtpStatusCode|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -448,7 +448,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.SmtpStatusCode::MailboxNameNotAllowedSystem.Net.Mail.SmtpStatusCode",
           "clrName": "MailboxNameNotAllowed",
-          "tsEmitName": "MailboxNameNotAllowed",
+          "tsEmitName": "mailboxNameNotAllowed",
           "normalizedSignature": "MailboxNameNotAllowed|System.Net.Mail.SmtpStatusCode|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -457,7 +457,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.SmtpStatusCode::TransactionFailedSystem.Net.Mail.SmtpStatusCode",
           "clrName": "TransactionFailed",
-          "tsEmitName": "TransactionFailed",
+          "tsEmitName": "transactionFailed",
           "normalizedSignature": "TransactionFailed|System.Net.Mail.SmtpStatusCode|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -466,7 +466,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.SmtpStatusCode::GeneralFailureSystem.Net.Mail.SmtpStatusCode",
           "clrName": "GeneralFailure",
-          "tsEmitName": "GeneralFailure",
+          "tsEmitName": "generalFailure",
           "normalizedSignature": "GeneralFailure|System.Net.Mail.SmtpStatusCode|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -490,7 +490,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.AlternateView::CreateAlternateViewFromString(System.String):System.Net.Mail.AlternateView",
           "clrName": "CreateAlternateViewFromString",
-          "tsEmitName": "CreateAlternateViewFromString",
+          "tsEmitName": "createAlternateViewFromString",
           "normalizedSignature": "CreateAlternateViewFromString|(System.String):System.Net.Mail.AlternateView|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -506,7 +506,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.AlternateView::CreateAlternateViewFromString(System.String,System.Text.Encoding,System.String):System.Net.Mail.AlternateView",
           "clrName": "CreateAlternateViewFromString",
-          "tsEmitName": "CreateAlternateViewFromString2",
+          "tsEmitName": "createAlternateViewFromString2",
           "normalizedSignature": "CreateAlternateViewFromString|(System.String,System.Text.Encoding,System.String):System.Net.Mail.AlternateView|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -522,7 +522,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.AlternateView::CreateAlternateViewFromString(System.String,System.Net.Mime.ContentType):System.Net.Mail.AlternateView",
           "clrName": "CreateAlternateViewFromString",
-          "tsEmitName": "CreateAlternateViewFromString3",
+          "tsEmitName": "createAlternateViewFromString3",
           "normalizedSignature": "CreateAlternateViewFromString|(System.String,System.Net.Mime.ContentType):System.Net.Mail.AlternateView|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -538,7 +538,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "Dispose$view",
+          "tsEmitName": "dispose$view",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -555,7 +555,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.AlternateView::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "Dispose",
+          "tsEmitName": "dispose",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -573,7 +573,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.AlternateView::LinkedResources:System.Net.Mail.LinkedResourceCollection",
           "clrName": "LinkedResources",
-          "tsEmitName": "LinkedResources",
+          "tsEmitName": "linkedResources",
           "normalizedSignature": "LinkedResources|:System.Net.Mail.LinkedResourceCollection|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -588,7 +588,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.AlternateView::BaseUri:System.Uri",
           "clrName": "BaseUri",
-          "tsEmitName": "BaseUri",
+          "tsEmitName": "baseUri",
           "normalizedSignature": "BaseUri|:System.Uri|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -650,7 +650,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.AlternateViewCollection::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "Dispose",
+          "tsEmitName": "dispose",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -666,7 +666,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IList\u00601::IndexOf(T):System.Int32",
           "clrName": "IndexOf",
-          "tsEmitName": "IndexOf$view",
+          "tsEmitName": "indexOf$view",
           "normalizedSignature": "IndexOf|(T):System.Int32|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -683,7 +683,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IList\u00601::Insert(System.Int32,T):System.Void",
           "clrName": "Insert",
-          "tsEmitName": "Insert$view",
+          "tsEmitName": "insert$view",
           "normalizedSignature": "Insert|(System.Int32,T):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -700,7 +700,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IList\u00601::RemoveAt(System.Int32):System.Void",
           "clrName": "RemoveAt",
-          "tsEmitName": "RemoveAt$view",
+          "tsEmitName": "removeAt$view",
           "normalizedSignature": "RemoveAt|(System.Int32):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -717,7 +717,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::Add(T):System.Void",
           "clrName": "Add",
-          "tsEmitName": "Add$view",
+          "tsEmitName": "add$view",
           "normalizedSignature": "Add|(T):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -734,7 +734,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::Clear():System.Void",
           "clrName": "Clear",
-          "tsEmitName": "Clear$view",
+          "tsEmitName": "clear$view",
           "normalizedSignature": "Clear|():System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -751,7 +751,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::Contains(T):System.Boolean",
           "clrName": "Contains",
-          "tsEmitName": "Contains$view",
+          "tsEmitName": "contains$view",
           "normalizedSignature": "Contains|(T):System.Boolean|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -768,7 +768,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::CopyTo(T[],System.Int32):System.Void",
           "clrName": "CopyTo",
-          "tsEmitName": "CopyTo$view",
+          "tsEmitName": "copyTo$view",
           "normalizedSignature": "CopyTo|(T[],System.Int32):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -785,7 +785,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IEnumerable\u00601::GetEnumerator():IEnumerator_1",
           "clrName": "GetEnumerator",
-          "tsEmitName": "GetEnumerator$view",
+          "tsEmitName": "getEnumerator$view",
           "normalizedSignature": "GetEnumerator|():IEnumerator_1|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -802,7 +802,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
           "clrName": "GetEnumerator",
-          "tsEmitName": "GetEnumerator$view",
+          "tsEmitName": "getEnumerator$view",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -819,7 +819,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Add(System.Object):System.Int32",
           "clrName": "Add",
-          "tsEmitName": "Add$view",
+          "tsEmitName": "add$view",
           "normalizedSignature": "Add|(System.Object):System.Int32|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -836,7 +836,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Contains(System.Object):System.Boolean",
           "clrName": "Contains",
-          "tsEmitName": "Contains$view",
+          "tsEmitName": "contains$view",
           "normalizedSignature": "Contains|(System.Object):System.Boolean|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -853,7 +853,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Insert(System.Int32,System.Object):System.Void",
           "clrName": "Insert",
-          "tsEmitName": "Insert$view",
+          "tsEmitName": "insert$view",
           "normalizedSignature": "Insert|(System.Int32,System.Object):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -870,7 +870,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Remove(System.Object):System.Void",
           "clrName": "Remove",
-          "tsEmitName": "Remove$view",
+          "tsEmitName": "remove$view",
           "normalizedSignature": "Remove|(System.Object):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -887,7 +887,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.ICollection::CopyTo(System.Array,System.Int32):System.Void",
           "clrName": "CopyTo",
-          "tsEmitName": "CopyTo$view",
+          "tsEmitName": "copyTo$view",
           "normalizedSignature": "CopyTo|(System.Array,System.Int32):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -904,7 +904,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Clear():System.Void",
           "clrName": "Clear",
-          "tsEmitName": "Clear$view",
+          "tsEmitName": "clear$view",
           "normalizedSignature": "Clear|():System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -921,7 +921,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::RemoveAt(System.Int32):System.Void",
           "clrName": "RemoveAt",
-          "tsEmitName": "RemoveAt$view",
+          "tsEmitName": "removeAt$view",
           "normalizedSignature": "RemoveAt|(System.Int32):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -938,7 +938,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "Dispose$view",
+          "tsEmitName": "dispose$view",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -955,7 +955,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.AlternateViewCollection::Add(T):System.Void",
           "clrName": "Add",
-          "tsEmitName": "Add",
+          "tsEmitName": "add",
           "normalizedSignature": "Add|(T):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -971,7 +971,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.AlternateViewCollection::Add(System.Object):System.Int32",
           "clrName": "Add",
-          "tsEmitName": "Add2",
+          "tsEmitName": "add2",
           "normalizedSignature": "Add|(System.Object):System.Int32|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -987,7 +987,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.AlternateViewCollection::Clear():System.Void",
           "clrName": "Clear",
-          "tsEmitName": "Clear",
+          "tsEmitName": "clear",
           "normalizedSignature": "Clear|():System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -1003,7 +1003,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.AlternateViewCollection::Contains(T):System.Boolean",
           "clrName": "Contains",
-          "tsEmitName": "Contains",
+          "tsEmitName": "contains",
           "normalizedSignature": "Contains|(T):System.Boolean|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -1019,7 +1019,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.AlternateViewCollection::Contains(System.Object):System.Boolean",
           "clrName": "Contains",
-          "tsEmitName": "Contains2",
+          "tsEmitName": "contains2",
           "normalizedSignature": "Contains|(System.Object):System.Boolean|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -1035,7 +1035,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.AlternateViewCollection::CopyTo(T[],System.Int32):System.Void",
           "clrName": "CopyTo",
-          "tsEmitName": "CopyTo",
+          "tsEmitName": "copyTo",
           "normalizedSignature": "CopyTo|(T[],System.Int32):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -1051,7 +1051,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.AlternateViewCollection::CopyTo(System.Array,System.Int32):System.Void",
           "clrName": "CopyTo",
-          "tsEmitName": "CopyTo2",
+          "tsEmitName": "copyTo2",
           "normalizedSignature": "CopyTo|(System.Array,System.Int32):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -1067,7 +1067,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.AlternateViewCollection::GetEnumerator():System.Collections.Generic.IEnumerator_1",
           "clrName": "GetEnumerator",
-          "tsEmitName": "GetEnumerator",
+          "tsEmitName": "getEnumerator",
           "normalizedSignature": "GetEnumerator|():System.Collections.Generic.IEnumerator_1|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -1083,7 +1083,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.AlternateViewCollection::GetEnumerator():System.Collections.IEnumerator",
           "clrName": "GetEnumerator",
-          "tsEmitName": "GetEnumerator2",
+          "tsEmitName": "getEnumerator2",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -1099,7 +1099,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.AlternateViewCollection::IndexOf(T):System.Int32",
           "clrName": "IndexOf",
-          "tsEmitName": "IndexOf",
+          "tsEmitName": "indexOf",
           "normalizedSignature": "IndexOf|(T):System.Int32|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -1115,7 +1115,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.AlternateViewCollection::Insert(System.Int32,T):System.Void",
           "clrName": "Insert",
-          "tsEmitName": "Insert",
+          "tsEmitName": "insert",
           "normalizedSignature": "Insert|(System.Int32,T):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -1131,7 +1131,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.AlternateViewCollection::Insert(System.Int32,System.Object):System.Void",
           "clrName": "Insert",
-          "tsEmitName": "Insert2",
+          "tsEmitName": "insert2",
           "normalizedSignature": "Insert|(System.Int32,System.Object):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -1147,7 +1147,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.AlternateViewCollection::Remove(T):System.Boolean",
           "clrName": "Remove",
-          "tsEmitName": "Remove",
+          "tsEmitName": "remove",
           "normalizedSignature": "Remove|(T):System.Boolean|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -1163,7 +1163,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.AlternateViewCollection::Remove(System.Object):System.Void",
           "clrName": "Remove",
-          "tsEmitName": "Remove2",
+          "tsEmitName": "remove2",
           "normalizedSignature": "Remove|(System.Object):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -1179,7 +1179,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.AlternateViewCollection::RemoveAt(System.Int32):System.Void",
           "clrName": "RemoveAt",
-          "tsEmitName": "RemoveAt",
+          "tsEmitName": "removeAt",
           "normalizedSignature": "RemoveAt|(System.Int32):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -1197,7 +1197,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::Count:System.Int32",
           "clrName": "Count",
-          "tsEmitName": "Count",
+          "tsEmitName": "count",
           "normalizedSignature": "Count|:System.Int32|static=false|accessor=get",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -1213,7 +1213,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::IsReadOnly:System.Boolean",
           "clrName": "IsReadOnly",
-          "tsEmitName": "IsReadOnly",
+          "tsEmitName": "isReadOnly",
           "normalizedSignature": "IsReadOnly|:System.Boolean|static=false|accessor=get",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -1229,7 +1229,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.ICollection::SyncRoot:System.Object",
           "clrName": "SyncRoot",
-          "tsEmitName": "SyncRoot",
+          "tsEmitName": "syncRoot",
           "normalizedSignature": "SyncRoot|:System.Object|static=false|accessor=get",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -1245,7 +1245,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::IsReadOnly:System.Boolean",
           "clrName": "IsReadOnly",
-          "tsEmitName": "IsReadOnly",
+          "tsEmitName": "isReadOnly",
           "normalizedSignature": "IsReadOnly|:System.Boolean|static=false|accessor=get",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -1261,7 +1261,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::IsFixedSize:System.Boolean",
           "clrName": "IsFixedSize",
-          "tsEmitName": "IsFixedSize",
+          "tsEmitName": "isFixedSize",
           "normalizedSignature": "IsFixedSize|:System.Boolean|static=false|accessor=get",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -1277,7 +1277,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.ICollection::Count:System.Int32",
           "clrName": "Count",
-          "tsEmitName": "Count",
+          "tsEmitName": "count",
           "normalizedSignature": "Count|:System.Int32|static=false|accessor=get",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -1293,7 +1293,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.ICollection::IsSynchronized:System.Boolean",
           "clrName": "IsSynchronized",
-          "tsEmitName": "IsSynchronized",
+          "tsEmitName": "isSynchronized",
           "normalizedSignature": "IsSynchronized|:System.Boolean|static=false|accessor=get",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -1309,7 +1309,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IReadOnlyCollection\u00601::Count:System.Int32",
           "clrName": "Count",
-          "tsEmitName": "Count",
+          "tsEmitName": "count",
           "normalizedSignature": "Count|:System.Int32|static=false|accessor=get",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -1348,7 +1348,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.Attachment::CreateAttachmentFromString(System.String,System.String):System.Net.Mail.Attachment",
           "clrName": "CreateAttachmentFromString",
-          "tsEmitName": "CreateAttachmentFromString",
+          "tsEmitName": "createAttachmentFromString",
           "normalizedSignature": "CreateAttachmentFromString|(System.String,System.String):System.Net.Mail.Attachment|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1364,7 +1364,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.Attachment::CreateAttachmentFromString(System.String,System.String,System.Text.Encoding,System.String):System.Net.Mail.Attachment",
           "clrName": "CreateAttachmentFromString",
-          "tsEmitName": "CreateAttachmentFromString2",
+          "tsEmitName": "createAttachmentFromString2",
           "normalizedSignature": "CreateAttachmentFromString|(System.String,System.String,System.Text.Encoding,System.String):System.Net.Mail.Attachment|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1380,7 +1380,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.Attachment::CreateAttachmentFromString(System.String,System.Net.Mime.ContentType):System.Net.Mail.Attachment",
           "clrName": "CreateAttachmentFromString",
-          "tsEmitName": "CreateAttachmentFromString3",
+          "tsEmitName": "createAttachmentFromString3",
           "normalizedSignature": "CreateAttachmentFromString|(System.String,System.Net.Mime.ContentType):System.Net.Mail.Attachment|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1396,7 +1396,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "Dispose$view",
+          "tsEmitName": "dispose$view",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -1413,7 +1413,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.Attachment::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "Dispose",
+          "tsEmitName": "dispose",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -1431,7 +1431,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.Attachment::Name:System.String",
           "clrName": "Name",
-          "tsEmitName": "Name",
+          "tsEmitName": "name",
           "normalizedSignature": "Name|:System.String|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1446,7 +1446,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.Attachment::NameEncoding:System.Text.Encoding",
           "clrName": "NameEncoding",
-          "tsEmitName": "NameEncoding",
+          "tsEmitName": "nameEncoding",
           "normalizedSignature": "NameEncoding|:System.Text.Encoding|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1461,7 +1461,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.Attachment::ContentDisposition:System.Net.Mime.ContentDisposition",
           "clrName": "ContentDisposition",
-          "tsEmitName": "ContentDisposition",
+          "tsEmitName": "contentDisposition",
           "normalizedSignature": "ContentDisposition|:System.Net.Mime.ContentDisposition|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1523,7 +1523,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.AttachmentBase::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "Dispose",
+          "tsEmitName": "dispose",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1539,7 +1539,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "Dispose$view",
+          "tsEmitName": "dispose$view",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -1558,7 +1558,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.AttachmentBase::ContentStream:System.IO.Stream",
           "clrName": "ContentStream",
-          "tsEmitName": "ContentStream",
+          "tsEmitName": "contentStream",
           "normalizedSignature": "ContentStream|:System.IO.Stream|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1573,7 +1573,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.AttachmentBase::ContentId:System.String",
           "clrName": "ContentId",
-          "tsEmitName": "ContentId",
+          "tsEmitName": "contentId",
           "normalizedSignature": "ContentId|:System.String|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1588,7 +1588,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.AttachmentBase::ContentType:System.Net.Mime.ContentType",
           "clrName": "ContentType",
-          "tsEmitName": "ContentType",
+          "tsEmitName": "contentType",
           "normalizedSignature": "ContentType|:System.Net.Mime.ContentType|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1603,7 +1603,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.AttachmentBase::TransferEncoding:System.Net.Mime.TransferEncoding",
           "clrName": "TransferEncoding",
-          "tsEmitName": "TransferEncoding",
+          "tsEmitName": "transferEncoding",
           "normalizedSignature": "TransferEncoding|:System.Net.Mime.TransferEncoding|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1634,7 +1634,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.AttachmentCollection::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "Dispose",
+          "tsEmitName": "dispose",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1650,7 +1650,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IList\u00601::IndexOf(T):System.Int32",
           "clrName": "IndexOf",
-          "tsEmitName": "IndexOf$view",
+          "tsEmitName": "indexOf$view",
           "normalizedSignature": "IndexOf|(T):System.Int32|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -1667,7 +1667,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IList\u00601::Insert(System.Int32,T):System.Void",
           "clrName": "Insert",
-          "tsEmitName": "Insert$view",
+          "tsEmitName": "insert$view",
           "normalizedSignature": "Insert|(System.Int32,T):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -1684,7 +1684,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IList\u00601::RemoveAt(System.Int32):System.Void",
           "clrName": "RemoveAt",
-          "tsEmitName": "RemoveAt$view",
+          "tsEmitName": "removeAt$view",
           "normalizedSignature": "RemoveAt|(System.Int32):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -1701,7 +1701,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::Add(T):System.Void",
           "clrName": "Add",
-          "tsEmitName": "Add$view",
+          "tsEmitName": "add$view",
           "normalizedSignature": "Add|(T):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -1718,7 +1718,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::Clear():System.Void",
           "clrName": "Clear",
-          "tsEmitName": "Clear$view",
+          "tsEmitName": "clear$view",
           "normalizedSignature": "Clear|():System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -1735,7 +1735,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::Contains(T):System.Boolean",
           "clrName": "Contains",
-          "tsEmitName": "Contains$view",
+          "tsEmitName": "contains$view",
           "normalizedSignature": "Contains|(T):System.Boolean|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -1752,7 +1752,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::CopyTo(T[],System.Int32):System.Void",
           "clrName": "CopyTo",
-          "tsEmitName": "CopyTo$view",
+          "tsEmitName": "copyTo$view",
           "normalizedSignature": "CopyTo|(T[],System.Int32):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -1769,7 +1769,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IEnumerable\u00601::GetEnumerator():IEnumerator_1",
           "clrName": "GetEnumerator",
-          "tsEmitName": "GetEnumerator$view",
+          "tsEmitName": "getEnumerator$view",
           "normalizedSignature": "GetEnumerator|():IEnumerator_1|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -1786,7 +1786,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
           "clrName": "GetEnumerator",
-          "tsEmitName": "GetEnumerator$view",
+          "tsEmitName": "getEnumerator$view",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -1803,7 +1803,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Add(System.Object):System.Int32",
           "clrName": "Add",
-          "tsEmitName": "Add$view",
+          "tsEmitName": "add$view",
           "normalizedSignature": "Add|(System.Object):System.Int32|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -1820,7 +1820,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Contains(System.Object):System.Boolean",
           "clrName": "Contains",
-          "tsEmitName": "Contains$view",
+          "tsEmitName": "contains$view",
           "normalizedSignature": "Contains|(System.Object):System.Boolean|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -1837,7 +1837,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Insert(System.Int32,System.Object):System.Void",
           "clrName": "Insert",
-          "tsEmitName": "Insert$view",
+          "tsEmitName": "insert$view",
           "normalizedSignature": "Insert|(System.Int32,System.Object):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -1854,7 +1854,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Remove(System.Object):System.Void",
           "clrName": "Remove",
-          "tsEmitName": "Remove$view",
+          "tsEmitName": "remove$view",
           "normalizedSignature": "Remove|(System.Object):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -1871,7 +1871,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.ICollection::CopyTo(System.Array,System.Int32):System.Void",
           "clrName": "CopyTo",
-          "tsEmitName": "CopyTo$view",
+          "tsEmitName": "copyTo$view",
           "normalizedSignature": "CopyTo|(System.Array,System.Int32):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -1888,7 +1888,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Clear():System.Void",
           "clrName": "Clear",
-          "tsEmitName": "Clear$view",
+          "tsEmitName": "clear$view",
           "normalizedSignature": "Clear|():System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -1905,7 +1905,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::RemoveAt(System.Int32):System.Void",
           "clrName": "RemoveAt",
-          "tsEmitName": "RemoveAt$view",
+          "tsEmitName": "removeAt$view",
           "normalizedSignature": "RemoveAt|(System.Int32):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -1922,7 +1922,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "Dispose$view",
+          "tsEmitName": "dispose$view",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -1939,7 +1939,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.AttachmentCollection::Add(T):System.Void",
           "clrName": "Add",
-          "tsEmitName": "Add",
+          "tsEmitName": "add",
           "normalizedSignature": "Add|(T):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -1955,7 +1955,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.AttachmentCollection::Add(System.Object):System.Int32",
           "clrName": "Add",
-          "tsEmitName": "Add2",
+          "tsEmitName": "add2",
           "normalizedSignature": "Add|(System.Object):System.Int32|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -1971,7 +1971,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.AttachmentCollection::Clear():System.Void",
           "clrName": "Clear",
-          "tsEmitName": "Clear",
+          "tsEmitName": "clear",
           "normalizedSignature": "Clear|():System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -1987,7 +1987,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.AttachmentCollection::Contains(T):System.Boolean",
           "clrName": "Contains",
-          "tsEmitName": "Contains",
+          "tsEmitName": "contains",
           "normalizedSignature": "Contains|(T):System.Boolean|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -2003,7 +2003,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.AttachmentCollection::Contains(System.Object):System.Boolean",
           "clrName": "Contains",
-          "tsEmitName": "Contains2",
+          "tsEmitName": "contains2",
           "normalizedSignature": "Contains|(System.Object):System.Boolean|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -2019,7 +2019,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.AttachmentCollection::CopyTo(T[],System.Int32):System.Void",
           "clrName": "CopyTo",
-          "tsEmitName": "CopyTo",
+          "tsEmitName": "copyTo",
           "normalizedSignature": "CopyTo|(T[],System.Int32):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -2035,7 +2035,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.AttachmentCollection::CopyTo(System.Array,System.Int32):System.Void",
           "clrName": "CopyTo",
-          "tsEmitName": "CopyTo2",
+          "tsEmitName": "copyTo2",
           "normalizedSignature": "CopyTo|(System.Array,System.Int32):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -2051,7 +2051,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.AttachmentCollection::GetEnumerator():System.Collections.Generic.IEnumerator_1",
           "clrName": "GetEnumerator",
-          "tsEmitName": "GetEnumerator",
+          "tsEmitName": "getEnumerator",
           "normalizedSignature": "GetEnumerator|():System.Collections.Generic.IEnumerator_1|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -2067,7 +2067,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.AttachmentCollection::GetEnumerator():System.Collections.IEnumerator",
           "clrName": "GetEnumerator",
-          "tsEmitName": "GetEnumerator2",
+          "tsEmitName": "getEnumerator2",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -2083,7 +2083,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.AttachmentCollection::IndexOf(T):System.Int32",
           "clrName": "IndexOf",
-          "tsEmitName": "IndexOf",
+          "tsEmitName": "indexOf",
           "normalizedSignature": "IndexOf|(T):System.Int32|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -2099,7 +2099,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.AttachmentCollection::Insert(System.Int32,T):System.Void",
           "clrName": "Insert",
-          "tsEmitName": "Insert",
+          "tsEmitName": "insert",
           "normalizedSignature": "Insert|(System.Int32,T):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -2115,7 +2115,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.AttachmentCollection::Insert(System.Int32,System.Object):System.Void",
           "clrName": "Insert",
-          "tsEmitName": "Insert2",
+          "tsEmitName": "insert2",
           "normalizedSignature": "Insert|(System.Int32,System.Object):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -2131,7 +2131,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.AttachmentCollection::Remove(T):System.Boolean",
           "clrName": "Remove",
-          "tsEmitName": "Remove",
+          "tsEmitName": "remove",
           "normalizedSignature": "Remove|(T):System.Boolean|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -2147,7 +2147,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.AttachmentCollection::Remove(System.Object):System.Void",
           "clrName": "Remove",
-          "tsEmitName": "Remove2",
+          "tsEmitName": "remove2",
           "normalizedSignature": "Remove|(System.Object):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -2163,7 +2163,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.AttachmentCollection::RemoveAt(System.Int32):System.Void",
           "clrName": "RemoveAt",
-          "tsEmitName": "RemoveAt",
+          "tsEmitName": "removeAt",
           "normalizedSignature": "RemoveAt|(System.Int32):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -2181,7 +2181,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::Count:System.Int32",
           "clrName": "Count",
-          "tsEmitName": "Count",
+          "tsEmitName": "count",
           "normalizedSignature": "Count|:System.Int32|static=false|accessor=get",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -2197,7 +2197,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::IsReadOnly:System.Boolean",
           "clrName": "IsReadOnly",
-          "tsEmitName": "IsReadOnly",
+          "tsEmitName": "isReadOnly",
           "normalizedSignature": "IsReadOnly|:System.Boolean|static=false|accessor=get",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -2213,7 +2213,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.ICollection::SyncRoot:System.Object",
           "clrName": "SyncRoot",
-          "tsEmitName": "SyncRoot",
+          "tsEmitName": "syncRoot",
           "normalizedSignature": "SyncRoot|:System.Object|static=false|accessor=get",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -2229,7 +2229,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::IsReadOnly:System.Boolean",
           "clrName": "IsReadOnly",
-          "tsEmitName": "IsReadOnly",
+          "tsEmitName": "isReadOnly",
           "normalizedSignature": "IsReadOnly|:System.Boolean|static=false|accessor=get",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -2245,7 +2245,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::IsFixedSize:System.Boolean",
           "clrName": "IsFixedSize",
-          "tsEmitName": "IsFixedSize",
+          "tsEmitName": "isFixedSize",
           "normalizedSignature": "IsFixedSize|:System.Boolean|static=false|accessor=get",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -2261,7 +2261,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.ICollection::Count:System.Int32",
           "clrName": "Count",
-          "tsEmitName": "Count",
+          "tsEmitName": "count",
           "normalizedSignature": "Count|:System.Int32|static=false|accessor=get",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -2277,7 +2277,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.ICollection::IsSynchronized:System.Boolean",
           "clrName": "IsSynchronized",
-          "tsEmitName": "IsSynchronized",
+          "tsEmitName": "isSynchronized",
           "normalizedSignature": "IsSynchronized|:System.Boolean|static=false|accessor=get",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -2293,7 +2293,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IReadOnlyCollection\u00601::Count:System.Int32",
           "clrName": "Count",
-          "tsEmitName": "Count",
+          "tsEmitName": "count",
           "normalizedSignature": "Count|:System.Int32|static=false|accessor=get",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -2332,7 +2332,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.LinkedResource::CreateLinkedResourceFromString(System.String):System.Net.Mail.LinkedResource",
           "clrName": "CreateLinkedResourceFromString",
-          "tsEmitName": "CreateLinkedResourceFromString",
+          "tsEmitName": "createLinkedResourceFromString",
           "normalizedSignature": "CreateLinkedResourceFromString|(System.String):System.Net.Mail.LinkedResource|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2348,7 +2348,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.LinkedResource::CreateLinkedResourceFromString(System.String,System.Text.Encoding,System.String):System.Net.Mail.LinkedResource",
           "clrName": "CreateLinkedResourceFromString",
-          "tsEmitName": "CreateLinkedResourceFromString2",
+          "tsEmitName": "createLinkedResourceFromString2",
           "normalizedSignature": "CreateLinkedResourceFromString|(System.String,System.Text.Encoding,System.String):System.Net.Mail.LinkedResource|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2364,7 +2364,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.LinkedResource::CreateLinkedResourceFromString(System.String,System.Net.Mime.ContentType):System.Net.Mail.LinkedResource",
           "clrName": "CreateLinkedResourceFromString",
-          "tsEmitName": "CreateLinkedResourceFromString3",
+          "tsEmitName": "createLinkedResourceFromString3",
           "normalizedSignature": "CreateLinkedResourceFromString|(System.String,System.Net.Mime.ContentType):System.Net.Mail.LinkedResource|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2380,7 +2380,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "Dispose$view",
+          "tsEmitName": "dispose$view",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -2397,7 +2397,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.LinkedResource::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "Dispose",
+          "tsEmitName": "dispose",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -2415,7 +2415,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.LinkedResource::ContentLink:System.Uri",
           "clrName": "ContentLink",
-          "tsEmitName": "ContentLink",
+          "tsEmitName": "contentLink",
           "normalizedSignature": "ContentLink|:System.Uri|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2477,7 +2477,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.LinkedResourceCollection::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "Dispose",
+          "tsEmitName": "dispose",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2493,7 +2493,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IList\u00601::IndexOf(T):System.Int32",
           "clrName": "IndexOf",
-          "tsEmitName": "IndexOf$view",
+          "tsEmitName": "indexOf$view",
           "normalizedSignature": "IndexOf|(T):System.Int32|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -2510,7 +2510,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IList\u00601::Insert(System.Int32,T):System.Void",
           "clrName": "Insert",
-          "tsEmitName": "Insert$view",
+          "tsEmitName": "insert$view",
           "normalizedSignature": "Insert|(System.Int32,T):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -2527,7 +2527,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IList\u00601::RemoveAt(System.Int32):System.Void",
           "clrName": "RemoveAt",
-          "tsEmitName": "RemoveAt$view",
+          "tsEmitName": "removeAt$view",
           "normalizedSignature": "RemoveAt|(System.Int32):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -2544,7 +2544,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::Add(T):System.Void",
           "clrName": "Add",
-          "tsEmitName": "Add$view",
+          "tsEmitName": "add$view",
           "normalizedSignature": "Add|(T):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -2561,7 +2561,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::Clear():System.Void",
           "clrName": "Clear",
-          "tsEmitName": "Clear$view",
+          "tsEmitName": "clear$view",
           "normalizedSignature": "Clear|():System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -2578,7 +2578,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::Contains(T):System.Boolean",
           "clrName": "Contains",
-          "tsEmitName": "Contains$view",
+          "tsEmitName": "contains$view",
           "normalizedSignature": "Contains|(T):System.Boolean|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -2595,7 +2595,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::CopyTo(T[],System.Int32):System.Void",
           "clrName": "CopyTo",
-          "tsEmitName": "CopyTo$view",
+          "tsEmitName": "copyTo$view",
           "normalizedSignature": "CopyTo|(T[],System.Int32):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -2612,7 +2612,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IEnumerable\u00601::GetEnumerator():IEnumerator_1",
           "clrName": "GetEnumerator",
-          "tsEmitName": "GetEnumerator$view",
+          "tsEmitName": "getEnumerator$view",
           "normalizedSignature": "GetEnumerator|():IEnumerator_1|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -2629,7 +2629,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
           "clrName": "GetEnumerator",
-          "tsEmitName": "GetEnumerator$view",
+          "tsEmitName": "getEnumerator$view",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -2646,7 +2646,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Add(System.Object):System.Int32",
           "clrName": "Add",
-          "tsEmitName": "Add$view",
+          "tsEmitName": "add$view",
           "normalizedSignature": "Add|(System.Object):System.Int32|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -2663,7 +2663,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Contains(System.Object):System.Boolean",
           "clrName": "Contains",
-          "tsEmitName": "Contains$view",
+          "tsEmitName": "contains$view",
           "normalizedSignature": "Contains|(System.Object):System.Boolean|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -2680,7 +2680,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Insert(System.Int32,System.Object):System.Void",
           "clrName": "Insert",
-          "tsEmitName": "Insert$view",
+          "tsEmitName": "insert$view",
           "normalizedSignature": "Insert|(System.Int32,System.Object):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -2697,7 +2697,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Remove(System.Object):System.Void",
           "clrName": "Remove",
-          "tsEmitName": "Remove$view",
+          "tsEmitName": "remove$view",
           "normalizedSignature": "Remove|(System.Object):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -2714,7 +2714,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.ICollection::CopyTo(System.Array,System.Int32):System.Void",
           "clrName": "CopyTo",
-          "tsEmitName": "CopyTo$view",
+          "tsEmitName": "copyTo$view",
           "normalizedSignature": "CopyTo|(System.Array,System.Int32):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -2731,7 +2731,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Clear():System.Void",
           "clrName": "Clear",
-          "tsEmitName": "Clear$view",
+          "tsEmitName": "clear$view",
           "normalizedSignature": "Clear|():System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -2748,7 +2748,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::RemoveAt(System.Int32):System.Void",
           "clrName": "RemoveAt",
-          "tsEmitName": "RemoveAt$view",
+          "tsEmitName": "removeAt$view",
           "normalizedSignature": "RemoveAt|(System.Int32):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -2765,7 +2765,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "Dispose$view",
+          "tsEmitName": "dispose$view",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -2782,7 +2782,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.LinkedResourceCollection::Add(T):System.Void",
           "clrName": "Add",
-          "tsEmitName": "Add",
+          "tsEmitName": "add",
           "normalizedSignature": "Add|(T):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -2798,7 +2798,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.LinkedResourceCollection::Add(System.Object):System.Int32",
           "clrName": "Add",
-          "tsEmitName": "Add2",
+          "tsEmitName": "add2",
           "normalizedSignature": "Add|(System.Object):System.Int32|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -2814,7 +2814,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.LinkedResourceCollection::Clear():System.Void",
           "clrName": "Clear",
-          "tsEmitName": "Clear",
+          "tsEmitName": "clear",
           "normalizedSignature": "Clear|():System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -2830,7 +2830,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.LinkedResourceCollection::Contains(T):System.Boolean",
           "clrName": "Contains",
-          "tsEmitName": "Contains",
+          "tsEmitName": "contains",
           "normalizedSignature": "Contains|(T):System.Boolean|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -2846,7 +2846,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.LinkedResourceCollection::Contains(System.Object):System.Boolean",
           "clrName": "Contains",
-          "tsEmitName": "Contains2",
+          "tsEmitName": "contains2",
           "normalizedSignature": "Contains|(System.Object):System.Boolean|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -2862,7 +2862,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.LinkedResourceCollection::CopyTo(T[],System.Int32):System.Void",
           "clrName": "CopyTo",
-          "tsEmitName": "CopyTo",
+          "tsEmitName": "copyTo",
           "normalizedSignature": "CopyTo|(T[],System.Int32):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -2878,7 +2878,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.LinkedResourceCollection::CopyTo(System.Array,System.Int32):System.Void",
           "clrName": "CopyTo",
-          "tsEmitName": "CopyTo2",
+          "tsEmitName": "copyTo2",
           "normalizedSignature": "CopyTo|(System.Array,System.Int32):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -2894,7 +2894,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.LinkedResourceCollection::GetEnumerator():System.Collections.Generic.IEnumerator_1",
           "clrName": "GetEnumerator",
-          "tsEmitName": "GetEnumerator",
+          "tsEmitName": "getEnumerator",
           "normalizedSignature": "GetEnumerator|():System.Collections.Generic.IEnumerator_1|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -2910,7 +2910,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.LinkedResourceCollection::GetEnumerator():System.Collections.IEnumerator",
           "clrName": "GetEnumerator",
-          "tsEmitName": "GetEnumerator2",
+          "tsEmitName": "getEnumerator2",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -2926,7 +2926,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.LinkedResourceCollection::IndexOf(T):System.Int32",
           "clrName": "IndexOf",
-          "tsEmitName": "IndexOf",
+          "tsEmitName": "indexOf",
           "normalizedSignature": "IndexOf|(T):System.Int32|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -2942,7 +2942,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.LinkedResourceCollection::Insert(System.Int32,T):System.Void",
           "clrName": "Insert",
-          "tsEmitName": "Insert",
+          "tsEmitName": "insert",
           "normalizedSignature": "Insert|(System.Int32,T):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -2958,7 +2958,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.LinkedResourceCollection::Insert(System.Int32,System.Object):System.Void",
           "clrName": "Insert",
-          "tsEmitName": "Insert2",
+          "tsEmitName": "insert2",
           "normalizedSignature": "Insert|(System.Int32,System.Object):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -2974,7 +2974,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.LinkedResourceCollection::Remove(T):System.Boolean",
           "clrName": "Remove",
-          "tsEmitName": "Remove",
+          "tsEmitName": "remove",
           "normalizedSignature": "Remove|(T):System.Boolean|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -2990,7 +2990,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.LinkedResourceCollection::Remove(System.Object):System.Void",
           "clrName": "Remove",
-          "tsEmitName": "Remove2",
+          "tsEmitName": "remove2",
           "normalizedSignature": "Remove|(System.Object):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -3006,7 +3006,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.LinkedResourceCollection::RemoveAt(System.Int32):System.Void",
           "clrName": "RemoveAt",
-          "tsEmitName": "RemoveAt",
+          "tsEmitName": "removeAt",
           "normalizedSignature": "RemoveAt|(System.Int32):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -3024,7 +3024,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::Count:System.Int32",
           "clrName": "Count",
-          "tsEmitName": "Count",
+          "tsEmitName": "count",
           "normalizedSignature": "Count|:System.Int32|static=false|accessor=get",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3040,7 +3040,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::IsReadOnly:System.Boolean",
           "clrName": "IsReadOnly",
-          "tsEmitName": "IsReadOnly",
+          "tsEmitName": "isReadOnly",
           "normalizedSignature": "IsReadOnly|:System.Boolean|static=false|accessor=get",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3056,7 +3056,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.ICollection::SyncRoot:System.Object",
           "clrName": "SyncRoot",
-          "tsEmitName": "SyncRoot",
+          "tsEmitName": "syncRoot",
           "normalizedSignature": "SyncRoot|:System.Object|static=false|accessor=get",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3072,7 +3072,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::IsReadOnly:System.Boolean",
           "clrName": "IsReadOnly",
-          "tsEmitName": "IsReadOnly",
+          "tsEmitName": "isReadOnly",
           "normalizedSignature": "IsReadOnly|:System.Boolean|static=false|accessor=get",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3088,7 +3088,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::IsFixedSize:System.Boolean",
           "clrName": "IsFixedSize",
-          "tsEmitName": "IsFixedSize",
+          "tsEmitName": "isFixedSize",
           "normalizedSignature": "IsFixedSize|:System.Boolean|static=false|accessor=get",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3104,7 +3104,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.ICollection::Count:System.Int32",
           "clrName": "Count",
-          "tsEmitName": "Count",
+          "tsEmitName": "count",
           "normalizedSignature": "Count|:System.Int32|static=false|accessor=get",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3120,7 +3120,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.ICollection::IsSynchronized:System.Boolean",
           "clrName": "IsSynchronized",
-          "tsEmitName": "IsSynchronized",
+          "tsEmitName": "isSynchronized",
           "normalizedSignature": "IsSynchronized|:System.Boolean|static=false|accessor=get",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3136,7 +3136,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IReadOnlyCollection\u00601::Count:System.Int32",
           "clrName": "Count",
-          "tsEmitName": "Count",
+          "tsEmitName": "count",
           "normalizedSignature": "Count|:System.Int32|static=false|accessor=get",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3175,7 +3175,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.MailAddress::TryCreate(System.String,System.Net.Mail.MailAddress\u0026):System.Boolean",
           "clrName": "TryCreate",
-          "tsEmitName": "TryCreate",
+          "tsEmitName": "tryCreate",
           "normalizedSignature": "TryCreate|(System.String,System.Net.Mail.MailAddress\u0026):System.Boolean|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3191,7 +3191,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.MailAddress::TryCreate(System.String,System.String,System.Net.Mail.MailAddress\u0026):System.Boolean",
           "clrName": "TryCreate",
-          "tsEmitName": "TryCreate2",
+          "tsEmitName": "tryCreate2",
           "normalizedSignature": "TryCreate|(System.String,System.String,System.Net.Mail.MailAddress\u0026):System.Boolean|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3207,7 +3207,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.MailAddress::TryCreate(System.String,System.String,System.Text.Encoding,System.Net.Mail.MailAddress\u0026):System.Boolean",
           "clrName": "TryCreate",
-          "tsEmitName": "TryCreate3",
+          "tsEmitName": "tryCreate3",
           "normalizedSignature": "TryCreate|(System.String,System.String,System.Text.Encoding,System.Net.Mail.MailAddress\u0026):System.Boolean|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3223,7 +3223,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.MailAddress::ToString():System.String",
           "clrName": "ToString",
-          "tsEmitName": "ToString",
+          "tsEmitName": "toString",
           "normalizedSignature": "ToString|():System.String|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3239,7 +3239,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.MailAddress::Equals(System.Object):System.Boolean",
           "clrName": "Equals",
-          "tsEmitName": "Equals",
+          "tsEmitName": "equals",
           "normalizedSignature": "Equals|(System.Object):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3255,7 +3255,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.MailAddress::GetHashCode():System.Int32",
           "clrName": "GetHashCode",
-          "tsEmitName": "GetHashCode",
+          "tsEmitName": "getHashCode",
           "normalizedSignature": "GetHashCode|():System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3273,7 +3273,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.MailAddress::DisplayName:System.String",
           "clrName": "DisplayName",
-          "tsEmitName": "DisplayName",
+          "tsEmitName": "displayName",
           "normalizedSignature": "DisplayName|:System.String|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3288,7 +3288,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.MailAddress::User:System.String",
           "clrName": "User",
-          "tsEmitName": "User",
+          "tsEmitName": "user",
           "normalizedSignature": "User|:System.String|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3303,7 +3303,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.MailAddress::Host:System.String",
           "clrName": "Host",
-          "tsEmitName": "Host",
+          "tsEmitName": "host",
           "normalizedSignature": "Host|:System.String|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3318,7 +3318,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.MailAddress::Address:System.String",
           "clrName": "Address",
-          "tsEmitName": "Address",
+          "tsEmitName": "address",
           "normalizedSignature": "Address|:System.String|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3365,7 +3365,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.MailAddressCollection::Add(System.String):System.Void",
           "clrName": "Add",
-          "tsEmitName": "Add3",
+          "tsEmitName": "add3",
           "normalizedSignature": "Add|(System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3381,7 +3381,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.MailAddressCollection::ToString():System.String",
           "clrName": "ToString",
-          "tsEmitName": "ToString",
+          "tsEmitName": "toString",
           "normalizedSignature": "ToString|():System.String|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3397,7 +3397,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IList\u00601::IndexOf(T):System.Int32",
           "clrName": "IndexOf",
-          "tsEmitName": "IndexOf$view",
+          "tsEmitName": "indexOf$view",
           "normalizedSignature": "IndexOf|(T):System.Int32|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3414,7 +3414,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IList\u00601::Insert(System.Int32,T):System.Void",
           "clrName": "Insert",
-          "tsEmitName": "Insert$view",
+          "tsEmitName": "insert$view",
           "normalizedSignature": "Insert|(System.Int32,T):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3431,7 +3431,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IList\u00601::RemoveAt(System.Int32):System.Void",
           "clrName": "RemoveAt",
-          "tsEmitName": "RemoveAt$view",
+          "tsEmitName": "removeAt$view",
           "normalizedSignature": "RemoveAt|(System.Int32):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3448,7 +3448,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::Add(T):System.Void",
           "clrName": "Add",
-          "tsEmitName": "Add$view",
+          "tsEmitName": "add$view",
           "normalizedSignature": "Add|(T):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3465,7 +3465,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::Clear():System.Void",
           "clrName": "Clear",
-          "tsEmitName": "Clear$view",
+          "tsEmitName": "clear$view",
           "normalizedSignature": "Clear|():System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3482,7 +3482,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::Contains(T):System.Boolean",
           "clrName": "Contains",
-          "tsEmitName": "Contains$view",
+          "tsEmitName": "contains$view",
           "normalizedSignature": "Contains|(T):System.Boolean|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3499,7 +3499,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::CopyTo(T[],System.Int32):System.Void",
           "clrName": "CopyTo",
-          "tsEmitName": "CopyTo$view",
+          "tsEmitName": "copyTo$view",
           "normalizedSignature": "CopyTo|(T[],System.Int32):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3516,7 +3516,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IEnumerable\u00601::GetEnumerator():IEnumerator_1",
           "clrName": "GetEnumerator",
-          "tsEmitName": "GetEnumerator$view",
+          "tsEmitName": "getEnumerator$view",
           "normalizedSignature": "GetEnumerator|():IEnumerator_1|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3533,7 +3533,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
           "clrName": "GetEnumerator",
-          "tsEmitName": "GetEnumerator$view",
+          "tsEmitName": "getEnumerator$view",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3550,7 +3550,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Add(System.Object):System.Int32",
           "clrName": "Add",
-          "tsEmitName": "Add$view",
+          "tsEmitName": "add$view",
           "normalizedSignature": "Add|(System.Object):System.Int32|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3567,7 +3567,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Contains(System.Object):System.Boolean",
           "clrName": "Contains",
-          "tsEmitName": "Contains$view",
+          "tsEmitName": "contains$view",
           "normalizedSignature": "Contains|(System.Object):System.Boolean|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3584,7 +3584,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Insert(System.Int32,System.Object):System.Void",
           "clrName": "Insert",
-          "tsEmitName": "Insert$view",
+          "tsEmitName": "insert$view",
           "normalizedSignature": "Insert|(System.Int32,System.Object):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3601,7 +3601,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Remove(System.Object):System.Void",
           "clrName": "Remove",
-          "tsEmitName": "Remove$view",
+          "tsEmitName": "remove$view",
           "normalizedSignature": "Remove|(System.Object):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3618,7 +3618,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.ICollection::CopyTo(System.Array,System.Int32):System.Void",
           "clrName": "CopyTo",
-          "tsEmitName": "CopyTo$view",
+          "tsEmitName": "copyTo$view",
           "normalizedSignature": "CopyTo|(System.Array,System.Int32):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3635,7 +3635,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Clear():System.Void",
           "clrName": "Clear",
-          "tsEmitName": "Clear$view",
+          "tsEmitName": "clear$view",
           "normalizedSignature": "Clear|():System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3652,7 +3652,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::RemoveAt(System.Int32):System.Void",
           "clrName": "RemoveAt",
-          "tsEmitName": "RemoveAt$view",
+          "tsEmitName": "removeAt$view",
           "normalizedSignature": "RemoveAt|(System.Int32):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3669,7 +3669,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.MailAddressCollection::Add(T):System.Void",
           "clrName": "Add",
-          "tsEmitName": "Add",
+          "tsEmitName": "add",
           "normalizedSignature": "Add|(T):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -3685,7 +3685,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.MailAddressCollection::Add(System.Object):System.Int32",
           "clrName": "Add",
-          "tsEmitName": "Add2",
+          "tsEmitName": "add2",
           "normalizedSignature": "Add|(System.Object):System.Int32|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -3701,7 +3701,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.MailAddressCollection::Clear():System.Void",
           "clrName": "Clear",
-          "tsEmitName": "Clear",
+          "tsEmitName": "clear",
           "normalizedSignature": "Clear|():System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -3717,7 +3717,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.MailAddressCollection::Contains(T):System.Boolean",
           "clrName": "Contains",
-          "tsEmitName": "Contains",
+          "tsEmitName": "contains",
           "normalizedSignature": "Contains|(T):System.Boolean|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -3733,7 +3733,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.MailAddressCollection::Contains(System.Object):System.Boolean",
           "clrName": "Contains",
-          "tsEmitName": "Contains2",
+          "tsEmitName": "contains2",
           "normalizedSignature": "Contains|(System.Object):System.Boolean|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -3749,7 +3749,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.MailAddressCollection::CopyTo(T[],System.Int32):System.Void",
           "clrName": "CopyTo",
-          "tsEmitName": "CopyTo",
+          "tsEmitName": "copyTo",
           "normalizedSignature": "CopyTo|(T[],System.Int32):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -3765,7 +3765,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.MailAddressCollection::CopyTo(System.Array,System.Int32):System.Void",
           "clrName": "CopyTo",
-          "tsEmitName": "CopyTo2",
+          "tsEmitName": "copyTo2",
           "normalizedSignature": "CopyTo|(System.Array,System.Int32):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -3781,7 +3781,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.MailAddressCollection::GetEnumerator():System.Collections.Generic.IEnumerator_1",
           "clrName": "GetEnumerator",
-          "tsEmitName": "GetEnumerator",
+          "tsEmitName": "getEnumerator",
           "normalizedSignature": "GetEnumerator|():System.Collections.Generic.IEnumerator_1|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -3797,7 +3797,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.MailAddressCollection::GetEnumerator():System.Collections.IEnumerator",
           "clrName": "GetEnumerator",
-          "tsEmitName": "GetEnumerator2",
+          "tsEmitName": "getEnumerator2",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -3813,7 +3813,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.MailAddressCollection::IndexOf(T):System.Int32",
           "clrName": "IndexOf",
-          "tsEmitName": "IndexOf",
+          "tsEmitName": "indexOf",
           "normalizedSignature": "IndexOf|(T):System.Int32|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -3829,7 +3829,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.MailAddressCollection::Insert(System.Int32,T):System.Void",
           "clrName": "Insert",
-          "tsEmitName": "Insert",
+          "tsEmitName": "insert",
           "normalizedSignature": "Insert|(System.Int32,T):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -3845,7 +3845,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.MailAddressCollection::Insert(System.Int32,System.Object):System.Void",
           "clrName": "Insert",
-          "tsEmitName": "Insert2",
+          "tsEmitName": "insert2",
           "normalizedSignature": "Insert|(System.Int32,System.Object):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -3861,7 +3861,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.MailAddressCollection::Remove(T):System.Boolean",
           "clrName": "Remove",
-          "tsEmitName": "Remove",
+          "tsEmitName": "remove",
           "normalizedSignature": "Remove|(T):System.Boolean|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -3877,7 +3877,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.MailAddressCollection::Remove(System.Object):System.Void",
           "clrName": "Remove",
-          "tsEmitName": "Remove2",
+          "tsEmitName": "remove2",
           "normalizedSignature": "Remove|(System.Object):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -3893,7 +3893,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.MailAddressCollection::RemoveAt(System.Int32):System.Void",
           "clrName": "RemoveAt",
-          "tsEmitName": "RemoveAt",
+          "tsEmitName": "removeAt",
           "normalizedSignature": "RemoveAt|(System.Int32):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -3911,7 +3911,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::Count:System.Int32",
           "clrName": "Count",
-          "tsEmitName": "Count",
+          "tsEmitName": "count",
           "normalizedSignature": "Count|:System.Int32|static=false|accessor=get",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3927,7 +3927,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::IsReadOnly:System.Boolean",
           "clrName": "IsReadOnly",
-          "tsEmitName": "IsReadOnly",
+          "tsEmitName": "isReadOnly",
           "normalizedSignature": "IsReadOnly|:System.Boolean|static=false|accessor=get",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3943,7 +3943,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.ICollection::SyncRoot:System.Object",
           "clrName": "SyncRoot",
-          "tsEmitName": "SyncRoot",
+          "tsEmitName": "syncRoot",
           "normalizedSignature": "SyncRoot|:System.Object|static=false|accessor=get",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3959,7 +3959,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::IsReadOnly:System.Boolean",
           "clrName": "IsReadOnly",
-          "tsEmitName": "IsReadOnly",
+          "tsEmitName": "isReadOnly",
           "normalizedSignature": "IsReadOnly|:System.Boolean|static=false|accessor=get",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3975,7 +3975,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::IsFixedSize:System.Boolean",
           "clrName": "IsFixedSize",
-          "tsEmitName": "IsFixedSize",
+          "tsEmitName": "isFixedSize",
           "normalizedSignature": "IsFixedSize|:System.Boolean|static=false|accessor=get",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3991,7 +3991,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.ICollection::Count:System.Int32",
           "clrName": "Count",
-          "tsEmitName": "Count",
+          "tsEmitName": "count",
           "normalizedSignature": "Count|:System.Int32|static=false|accessor=get",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -4007,7 +4007,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.ICollection::IsSynchronized:System.Boolean",
           "clrName": "IsSynchronized",
-          "tsEmitName": "IsSynchronized",
+          "tsEmitName": "isSynchronized",
           "normalizedSignature": "IsSynchronized|:System.Boolean|static=false|accessor=get",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -4023,7 +4023,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IReadOnlyCollection\u00601::Count:System.Int32",
           "clrName": "Count",
-          "tsEmitName": "Count",
+          "tsEmitName": "count",
           "normalizedSignature": "Count|:System.Int32|static=false|accessor=get",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -4068,7 +4068,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.MailMessage::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "Dispose",
+          "tsEmitName": "dispose",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4084,7 +4084,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "Dispose$view",
+          "tsEmitName": "dispose$view",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -4103,7 +4103,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.MailMessage::From:System.Net.Mail.MailAddress",
           "clrName": "From",
-          "tsEmitName": "From",
+          "tsEmitName": "from_",
           "normalizedSignature": "From|:System.Net.Mail.MailAddress|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4118,7 +4118,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.MailMessage::Sender:System.Net.Mail.MailAddress",
           "clrName": "Sender",
-          "tsEmitName": "Sender",
+          "tsEmitName": "sender",
           "normalizedSignature": "Sender|:System.Net.Mail.MailAddress|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4133,7 +4133,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.MailMessage::ReplyTo:System.Net.Mail.MailAddress",
           "clrName": "ReplyTo",
-          "tsEmitName": "ReplyTo",
+          "tsEmitName": "replyTo",
           "normalizedSignature": "ReplyTo|:System.Net.Mail.MailAddress|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4148,7 +4148,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.MailMessage::ReplyToList:System.Net.Mail.MailAddressCollection",
           "clrName": "ReplyToList",
-          "tsEmitName": "ReplyToList",
+          "tsEmitName": "replyToList",
           "normalizedSignature": "ReplyToList|:System.Net.Mail.MailAddressCollection|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4163,7 +4163,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.MailMessage::To:System.Net.Mail.MailAddressCollection",
           "clrName": "To",
-          "tsEmitName": "To",
+          "tsEmitName": "to",
           "normalizedSignature": "To|:System.Net.Mail.MailAddressCollection|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4178,7 +4178,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.MailMessage::Bcc:System.Net.Mail.MailAddressCollection",
           "clrName": "Bcc",
-          "tsEmitName": "Bcc",
+          "tsEmitName": "bcc",
           "normalizedSignature": "Bcc|:System.Net.Mail.MailAddressCollection|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4193,7 +4193,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.MailMessage::CC:System.Net.Mail.MailAddressCollection",
           "clrName": "CC",
-          "tsEmitName": "CC",
+          "tsEmitName": "cc",
           "normalizedSignature": "CC|:System.Net.Mail.MailAddressCollection|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4208,7 +4208,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.MailMessage::Priority:System.Net.Mail.MailPriority",
           "clrName": "Priority",
-          "tsEmitName": "Priority",
+          "tsEmitName": "priority",
           "normalizedSignature": "Priority|:System.Net.Mail.MailPriority|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4223,7 +4223,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.MailMessage::DeliveryNotificationOptions:System.Net.Mail.DeliveryNotificationOptions",
           "clrName": "DeliveryNotificationOptions",
-          "tsEmitName": "DeliveryNotificationOptions",
+          "tsEmitName": "deliveryNotificationOptions",
           "normalizedSignature": "DeliveryNotificationOptions|:System.Net.Mail.DeliveryNotificationOptions|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4238,7 +4238,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.MailMessage::Subject:System.String",
           "clrName": "Subject",
-          "tsEmitName": "Subject",
+          "tsEmitName": "subject",
           "normalizedSignature": "Subject|:System.String|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4253,7 +4253,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.MailMessage::SubjectEncoding:System.Text.Encoding",
           "clrName": "SubjectEncoding",
-          "tsEmitName": "SubjectEncoding",
+          "tsEmitName": "subjectEncoding",
           "normalizedSignature": "SubjectEncoding|:System.Text.Encoding|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4268,7 +4268,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.MailMessage::Headers:System.Collections.Specialized.NameValueCollection",
           "clrName": "Headers",
-          "tsEmitName": "Headers",
+          "tsEmitName": "headers",
           "normalizedSignature": "Headers|:System.Collections.Specialized.NameValueCollection|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4283,7 +4283,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.MailMessage::HeadersEncoding:System.Text.Encoding",
           "clrName": "HeadersEncoding",
-          "tsEmitName": "HeadersEncoding",
+          "tsEmitName": "headersEncoding",
           "normalizedSignature": "HeadersEncoding|:System.Text.Encoding|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4298,7 +4298,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.MailMessage::Body:System.String",
           "clrName": "Body",
-          "tsEmitName": "Body",
+          "tsEmitName": "body",
           "normalizedSignature": "Body|:System.String|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4313,7 +4313,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.MailMessage::BodyEncoding:System.Text.Encoding",
           "clrName": "BodyEncoding",
-          "tsEmitName": "BodyEncoding",
+          "tsEmitName": "bodyEncoding",
           "normalizedSignature": "BodyEncoding|:System.Text.Encoding|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4328,7 +4328,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.MailMessage::BodyTransferEncoding:System.Net.Mime.TransferEncoding",
           "clrName": "BodyTransferEncoding",
-          "tsEmitName": "BodyTransferEncoding",
+          "tsEmitName": "bodyTransferEncoding",
           "normalizedSignature": "BodyTransferEncoding|:System.Net.Mime.TransferEncoding|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4343,7 +4343,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.MailMessage::IsBodyHtml:System.Boolean",
           "clrName": "IsBodyHtml",
-          "tsEmitName": "IsBodyHtml",
+          "tsEmitName": "isBodyHtml",
           "normalizedSignature": "IsBodyHtml|:System.Boolean|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4358,7 +4358,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.MailMessage::Attachments:System.Net.Mail.AttachmentCollection",
           "clrName": "Attachments",
-          "tsEmitName": "Attachments",
+          "tsEmitName": "attachments",
           "normalizedSignature": "Attachments|:System.Net.Mail.AttachmentCollection|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4373,7 +4373,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.MailMessage::AlternateViews:System.Net.Mail.AlternateViewCollection",
           "clrName": "AlternateViews",
-          "tsEmitName": "AlternateViews",
+          "tsEmitName": "alternateViews",
           "normalizedSignature": "AlternateViews|:System.Net.Mail.AlternateViewCollection|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4425,7 +4425,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.SendCompletedEventHandler::Invoke(System.Object,System.ComponentModel.AsyncCompletedEventArgs):System.Void",
           "clrName": "Invoke",
-          "tsEmitName": "Invoke",
+          "tsEmitName": "invoke",
           "normalizedSignature": "Invoke|(System.Object,System.ComponentModel.AsyncCompletedEventArgs):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4441,7 +4441,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.SendCompletedEventHandler::BeginInvoke(System.Object,System.ComponentModel.AsyncCompletedEventArgs,System.AsyncCallback,System.Object):System.IAsyncResult",
           "clrName": "BeginInvoke",
-          "tsEmitName": "BeginInvoke",
+          "tsEmitName": "beginInvoke",
           "normalizedSignature": "BeginInvoke|(System.Object,System.ComponentModel.AsyncCompletedEventArgs,System.AsyncCallback,System.Object):System.IAsyncResult|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4457,7 +4457,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.SendCompletedEventHandler::EndInvoke(System.IAsyncResult):System.Void",
           "clrName": "EndInvoke",
-          "tsEmitName": "EndInvoke",
+          "tsEmitName": "endInvoke",
           "normalizedSignature": "EndInvoke|(System.IAsyncResult):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4473,7 +4473,7 @@
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "Clone$view",
+          "tsEmitName": "clone$view",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -4490,7 +4490,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData$view",
+          "tsEmitName": "getObjectData$view",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -4507,7 +4507,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.SendCompletedEventHandler::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "Clone",
+          "tsEmitName": "clone",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -4523,7 +4523,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.SendCompletedEventHandler::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData",
+          "tsEmitName": "getObjectData",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -4562,7 +4562,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.SmtpClient::Send(System.String,System.String,System.String,System.String):System.Void",
           "clrName": "Send",
-          "tsEmitName": "Send",
+          "tsEmitName": "send",
           "normalizedSignature": "Send|(System.String,System.String,System.String,System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4578,7 +4578,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.SmtpClient::Send(System.Net.Mail.MailMessage):System.Void",
           "clrName": "Send",
-          "tsEmitName": "Send2",
+          "tsEmitName": "send2",
           "normalizedSignature": "Send|(System.Net.Mail.MailMessage):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4594,7 +4594,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.SmtpClient::SendAsync(System.String,System.String,System.String,System.String,System.Object):System.Void",
           "clrName": "SendAsync",
-          "tsEmitName": "SendAsync",
+          "tsEmitName": "sendAsync",
           "normalizedSignature": "SendAsync|(System.String,System.String,System.String,System.String,System.Object):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4610,7 +4610,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.SmtpClient::SendAsync(System.Net.Mail.MailMessage,System.Object):System.Void",
           "clrName": "SendAsync",
-          "tsEmitName": "SendAsync2",
+          "tsEmitName": "sendAsync2",
           "normalizedSignature": "SendAsync|(System.Net.Mail.MailMessage,System.Object):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4626,7 +4626,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.SmtpClient::SendAsyncCancel():System.Void",
           "clrName": "SendAsyncCancel",
-          "tsEmitName": "SendAsyncCancel",
+          "tsEmitName": "sendAsyncCancel",
           "normalizedSignature": "SendAsyncCancel|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4642,7 +4642,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.SmtpClient::SendMailAsync(System.String,System.String,System.String,System.String):System.Threading.Tasks.Task",
           "clrName": "SendMailAsync",
-          "tsEmitName": "SendMailAsync",
+          "tsEmitName": "sendMailAsync",
           "normalizedSignature": "SendMailAsync|(System.String,System.String,System.String,System.String):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4658,7 +4658,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.SmtpClient::SendMailAsync(System.Net.Mail.MailMessage):System.Threading.Tasks.Task",
           "clrName": "SendMailAsync",
-          "tsEmitName": "SendMailAsync2",
+          "tsEmitName": "sendMailAsync2",
           "normalizedSignature": "SendMailAsync|(System.Net.Mail.MailMessage):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4674,7 +4674,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.SmtpClient::SendMailAsync(System.String,System.String,System.String,System.String,System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "clrName": "SendMailAsync",
-          "tsEmitName": "SendMailAsync3",
+          "tsEmitName": "sendMailAsync3",
           "normalizedSignature": "SendMailAsync|(System.String,System.String,System.String,System.String,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4690,7 +4690,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.SmtpClient::SendMailAsync(System.Net.Mail.MailMessage,System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "clrName": "SendMailAsync",
-          "tsEmitName": "SendMailAsync4",
+          "tsEmitName": "sendMailAsync4",
           "normalizedSignature": "SendMailAsync|(System.Net.Mail.MailMessage,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4706,7 +4706,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.SmtpClient::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "Dispose",
+          "tsEmitName": "dispose",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4722,7 +4722,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "Dispose$view",
+          "tsEmitName": "dispose$view",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -4741,7 +4741,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.SmtpClient::Host:System.String",
           "clrName": "Host",
-          "tsEmitName": "Host",
+          "tsEmitName": "host",
           "normalizedSignature": "Host|:System.String|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4756,7 +4756,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.SmtpClient::Port:System.Int32",
           "clrName": "Port",
-          "tsEmitName": "Port",
+          "tsEmitName": "port",
           "normalizedSignature": "Port|:System.Int32|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4771,7 +4771,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.SmtpClient::UseDefaultCredentials:System.Boolean",
           "clrName": "UseDefaultCredentials",
-          "tsEmitName": "UseDefaultCredentials",
+          "tsEmitName": "useDefaultCredentials",
           "normalizedSignature": "UseDefaultCredentials|:System.Boolean|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4786,7 +4786,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.SmtpClient::Credentials:System.Net.ICredentialsByHost",
           "clrName": "Credentials",
-          "tsEmitName": "Credentials",
+          "tsEmitName": "credentials",
           "normalizedSignature": "Credentials|:System.Net.ICredentialsByHost|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4801,7 +4801,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.SmtpClient::Timeout:System.Int32",
           "clrName": "Timeout",
-          "tsEmitName": "Timeout",
+          "tsEmitName": "timeout",
           "normalizedSignature": "Timeout|:System.Int32|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4816,7 +4816,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.SmtpClient::ServicePoint:System.Net.ServicePoint",
           "clrName": "ServicePoint",
-          "tsEmitName": "ServicePoint",
+          "tsEmitName": "servicePoint",
           "normalizedSignature": "ServicePoint|:System.Net.ServicePoint|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4831,7 +4831,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.SmtpClient::DeliveryMethod:System.Net.Mail.SmtpDeliveryMethod",
           "clrName": "DeliveryMethod",
-          "tsEmitName": "DeliveryMethod",
+          "tsEmitName": "deliveryMethod",
           "normalizedSignature": "DeliveryMethod|:System.Net.Mail.SmtpDeliveryMethod|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4846,7 +4846,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.SmtpClient::DeliveryFormat:System.Net.Mail.SmtpDeliveryFormat",
           "clrName": "DeliveryFormat",
-          "tsEmitName": "DeliveryFormat",
+          "tsEmitName": "deliveryFormat",
           "normalizedSignature": "DeliveryFormat|:System.Net.Mail.SmtpDeliveryFormat|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4861,7 +4861,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.SmtpClient::PickupDirectoryLocation:System.String",
           "clrName": "PickupDirectoryLocation",
-          "tsEmitName": "PickupDirectoryLocation",
+          "tsEmitName": "pickupDirectoryLocation",
           "normalizedSignature": "PickupDirectoryLocation|:System.String|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4876,7 +4876,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.SmtpClient::EnableSsl:System.Boolean",
           "clrName": "EnableSsl",
-          "tsEmitName": "EnableSsl",
+          "tsEmitName": "enableSsl",
           "normalizedSignature": "EnableSsl|:System.Boolean|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4891,7 +4891,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.SmtpClient::ClientCertificates:System.Security.Cryptography.X509Certificates.X509CertificateCollection",
           "clrName": "ClientCertificates",
-          "tsEmitName": "ClientCertificates",
+          "tsEmitName": "clientCertificates",
           "normalizedSignature": "ClientCertificates|:System.Security.Cryptography.X509Certificates.X509CertificateCollection|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4906,7 +4906,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.SmtpClient::TargetName:System.String",
           "clrName": "TargetName",
-          "tsEmitName": "TargetName",
+          "tsEmitName": "targetName",
           "normalizedSignature": "TargetName|:System.String|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4924,7 +4924,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.SmtpClient::SendCompletedSystem.Net.Mail.SendCompletedEventHandler",
           "clrName": "SendCompleted",
-          "tsEmitName": "SendCompleted",
+          "tsEmitName": "sendCompleted",
           "normalizedSignature": "SendCompleted|System.Net.Mail.SendCompletedEventHandler|static=false",
           "isStatic": false
         }
@@ -4961,7 +4961,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.SmtpException::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData",
+          "tsEmitName": "getObjectData",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4977,7 +4977,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData$view",
+          "tsEmitName": "getObjectData$view",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -4996,7 +4996,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.SmtpException::StatusCode:System.Net.Mail.SmtpStatusCode",
           "clrName": "StatusCode",
-          "tsEmitName": "StatusCode",
+          "tsEmitName": "statusCode",
           "normalizedSignature": "StatusCode|:System.Net.Mail.SmtpStatusCode|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5053,7 +5053,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.SmtpFailedRecipientException::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData",
+          "tsEmitName": "getObjectData",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5069,7 +5069,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData$view",
+          "tsEmitName": "getObjectData$view",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -5088,7 +5088,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.SmtpFailedRecipientException::FailedRecipient:System.String",
           "clrName": "FailedRecipient",
-          "tsEmitName": "FailedRecipient",
+          "tsEmitName": "failedRecipient",
           "normalizedSignature": "FailedRecipient|:System.String|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5150,7 +5150,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.SmtpFailedRecipientsException::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData",
+          "tsEmitName": "getObjectData",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5166,7 +5166,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData$view",
+          "tsEmitName": "getObjectData$view",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -5185,7 +5185,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.SmtpFailedRecipientsException::InnerExceptions:System.Net.Mail.SmtpFailedRecipientException[]",
           "clrName": "InnerExceptions",
-          "tsEmitName": "InnerExceptions",
+          "tsEmitName": "innerExceptions",
           "normalizedSignature": "InnerExceptions|:System.Net.Mail.SmtpFailedRecipientException[]|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",

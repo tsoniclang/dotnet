@@ -42,38 +42,38 @@ export type CLROf<T> =
     T; // Identity fallback for non-primitive types
 
 export enum DeleteDirectoryOption {
-    ThrowIfDirectoryNonEmpty = 4,
-    DeleteAllContents = 5
+    throwIfDirectoryNonEmpty = 4,
+    deleteAllContents = 5
 }
 
 
 export enum FieldType {
-    Delimited = 0,
-    FixedWidth = 1
+    delimited = 0,
+    fixedWidth = 1
 }
 
 
 export enum RecycleOption {
-    DeletePermanently = 2,
-    SendToRecycleBin = 3
+    deletePermanently = 2,
+    sendToRecycleBin = 3
 }
 
 
 export enum SearchOption {
-    SearchTopLevelOnly = 2,
-    SearchAllSubDirectories = 3
+    searchTopLevelOnly = 2,
+    searchAllSubDirectories = 3
 }
 
 
 export enum UICancelOption {
-    DoNothing = 2,
-    ThrowException = 3
+    doNothing = 2,
+    throwException = 3
 }
 
 
 export enum UIOption {
-    OnlyErrorDialogs = 2,
-    AllDialogs = 3
+    onlyErrorDialogs = 2,
+    allDialogs = 3
 }
 
 
@@ -145,9 +145,9 @@ export class MalformedLineException$instance extends System_Internal.Exception$i
     constructor(message: string);
     constructor(message: string, lineNumber: long, innerException: Exception);
     constructor(message: string, innerException: Exception);
-    LineNumber: long;
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
-    ToString(): string;
+    lineNumber: long;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
+    toString(): string;
 }
 
 
@@ -183,24 +183,24 @@ export class TextFieldParser$instance {
     constructor(stream: Stream, defaultEncoding: Encoding, detectEncoding: boolean);
     constructor(stream: Stream, defaultEncoding: Encoding, detectEncoding: boolean, leaveOpen: boolean);
     constructor(reader: TextReader);
-    CommentTokens: string[];
-    Delimiters: string[];
-    readonly EndOfData: boolean;
-    readonly ErrorLine: string;
-    readonly ErrorLineNumber: long;
-    FieldWidths: int[];
-    HasFieldsEnclosedInQuotes: boolean;
-    readonly LineNumber: long;
-    TextFieldType: FieldType;
-    TrimWhiteSpace: boolean;
-    Close(): void;
-    Dispose(): void;
-    PeekChars(numberOfChars: int): string;
-    ReadFields(): string[];
-    ReadLine(): string;
-    ReadToEnd(): string;
-    SetDelimiters(delimiters: string[]): void;
-    SetFieldWidths(fieldWidths: int[]): void;
+    commentTokens: string[];
+    delimiters: string[];
+    readonly endOfData: boolean;
+    readonly errorLine: string;
+    readonly errorLineNumber: long;
+    fieldWidths: int[];
+    hasFieldsEnclosedInQuotes: boolean;
+    readonly lineNumber: long;
+    textFieldType: FieldType;
+    trimWhiteSpace: boolean;
+    close(): void;
+    dispose(): void;
+    peekChars(numberOfChars: int): string;
+    readFields(): string[];
+    readLine(): string;
+    readToEnd(): string;
+    setDelimiters(delimiters: string[]): void;
+    setFieldWidths(fieldWidths: int[]): void;
 }
 
 

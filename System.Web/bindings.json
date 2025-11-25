@@ -11,7 +11,7 @@
         {
           "stableId": "System.Web.HttpUtility:System.Web.IHtmlString::ToHtmlString():System.String",
           "clrName": "ToHtmlString",
-          "tsEmitName": "ToHtmlString",
+          "tsEmitName": "toHtmlString",
           "metadataToken": 100663310,
           "canonicalSignature": "():System.String",
           "normalizedSignature": "ToHtmlString|():System.String|static=false",
@@ -29,7 +29,7 @@
       "constructors": [],
       "exposedMethods": [
         {
-          "tsName": "ToHtmlString",
+          "tsName": "toHtmlString",
           "isStatic": false,
           "tsSignatureId": "ToHtmlString|():System.String|static=false",
           "target": {
@@ -50,7 +50,7 @@
         {
           "stableId": "System.Web.HttpUtility:System.Web.HttpUtility::ParseQueryString(System.String):System.Collections.Specialized.NameValueCollection",
           "clrName": "ParseQueryString",
-          "tsEmitName": "ParseQueryString",
+          "tsEmitName": "parseQueryString",
           "metadataToken": 100663311,
           "canonicalSignature": "(System.String):System.Collections.Specialized.NameValueCollection",
           "normalizedSignature": "ParseQueryString|(System.String):System.Collections.Specialized.NameValueCollection|static=true",
@@ -64,7 +64,7 @@
         {
           "stableId": "System.Web.HttpUtility:System.Web.HttpUtility::ParseQueryString(System.String,System.Text.Encoding):System.Collections.Specialized.NameValueCollection",
           "clrName": "ParseQueryString",
-          "tsEmitName": "ParseQueryString2",
+          "tsEmitName": "parseQueryString2",
           "metadataToken": 100663312,
           "canonicalSignature": "(System.String,System.Text.Encoding):System.Collections.Specialized.NameValueCollection",
           "normalizedSignature": "ParseQueryString|(System.String,System.Text.Encoding):System.Collections.Specialized.NameValueCollection|static=true",
@@ -78,7 +78,7 @@
         {
           "stableId": "System.Web.HttpUtility:System.Web.HttpUtility::HtmlDecode(System.String):System.String",
           "clrName": "HtmlDecode",
-          "tsEmitName": "HtmlDecode",
+          "tsEmitName": "htmlDecode",
           "metadataToken": 100663313,
           "canonicalSignature": "(System.String):System.String",
           "normalizedSignature": "HtmlDecode|(System.String):System.String|static=true",
@@ -92,7 +92,7 @@
         {
           "stableId": "System.Web.HttpUtility:System.Web.HttpUtility::HtmlDecode(System.String,System.IO.TextWriter):System.Void",
           "clrName": "HtmlDecode",
-          "tsEmitName": "HtmlDecode2",
+          "tsEmitName": "htmlDecode2",
           "metadataToken": 100663314,
           "canonicalSignature": "(System.String,System.IO.TextWriter):System.Void",
           "normalizedSignature": "HtmlDecode|(System.String,System.IO.TextWriter):System.Void|static=true",
@@ -106,7 +106,7 @@
         {
           "stableId": "System.Web.HttpUtility:System.Web.HttpUtility::HtmlEncode(System.String):System.String",
           "clrName": "HtmlEncode",
-          "tsEmitName": "HtmlEncode",
+          "tsEmitName": "htmlEncode",
           "metadataToken": 100663315,
           "canonicalSignature": "(System.String):System.String",
           "normalizedSignature": "HtmlEncode|(System.String):System.String|static=true",
@@ -120,7 +120,7 @@
         {
           "stableId": "System.Web.HttpUtility:System.Web.HttpUtility::HtmlEncode(System.Object):System.String",
           "clrName": "HtmlEncode",
-          "tsEmitName": "HtmlEncode2",
+          "tsEmitName": "htmlEncode2",
           "metadataToken": 100663316,
           "canonicalSignature": "(System.Object):System.String",
           "normalizedSignature": "HtmlEncode|(System.Object):System.String|static=true",
@@ -134,7 +134,7 @@
         {
           "stableId": "System.Web.HttpUtility:System.Web.HttpUtility::HtmlEncode(System.String,System.IO.TextWriter):System.Void",
           "clrName": "HtmlEncode",
-          "tsEmitName": "HtmlEncode3",
+          "tsEmitName": "htmlEncode3",
           "metadataToken": 100663317,
           "canonicalSignature": "(System.String,System.IO.TextWriter):System.Void",
           "normalizedSignature": "HtmlEncode|(System.String,System.IO.TextWriter):System.Void|static=true",
@@ -148,7 +148,7 @@
         {
           "stableId": "System.Web.HttpUtility:System.Web.HttpUtility::HtmlAttributeEncode(System.String):System.String",
           "clrName": "HtmlAttributeEncode",
-          "tsEmitName": "HtmlAttributeEncode",
+          "tsEmitName": "htmlAttributeEncode",
           "metadataToken": 100663318,
           "canonicalSignature": "(System.String):System.String",
           "normalizedSignature": "HtmlAttributeEncode|(System.String):System.String|static=true",
@@ -162,7 +162,7 @@
         {
           "stableId": "System.Web.HttpUtility:System.Web.HttpUtility::HtmlAttributeEncode(System.String,System.IO.TextWriter):System.Void",
           "clrName": "HtmlAttributeEncode",
-          "tsEmitName": "HtmlAttributeEncode2",
+          "tsEmitName": "htmlAttributeEncode2",
           "metadataToken": 100663319,
           "canonicalSignature": "(System.String,System.IO.TextWriter):System.Void",
           "normalizedSignature": "HtmlAttributeEncode|(System.String,System.IO.TextWriter):System.Void|static=true",
@@ -176,7 +176,7 @@
         {
           "stableId": "System.Web.HttpUtility:System.Web.HttpUtility::UrlEncode(System.String):System.String",
           "clrName": "UrlEncode",
-          "tsEmitName": "UrlEncode",
+          "tsEmitName": "urlEncode",
           "metadataToken": 100663320,
           "canonicalSignature": "(System.String):System.String",
           "normalizedSignature": "UrlEncode|(System.String):System.String|static=true",
@@ -190,7 +190,7 @@
         {
           "stableId": "System.Web.HttpUtility:System.Web.HttpUtility::UrlPathEncode(System.String):System.String",
           "clrName": "UrlPathEncode",
-          "tsEmitName": "UrlPathEncode",
+          "tsEmitName": "urlPathEncode",
           "metadataToken": 100663321,
           "canonicalSignature": "(System.String):System.String",
           "normalizedSignature": "UrlPathEncode|(System.String):System.String|static=true",
@@ -204,7 +204,7 @@
         {
           "stableId": "System.Web.HttpUtility:System.Web.HttpUtility::UrlEncode(System.String,System.Text.Encoding):System.String",
           "clrName": "UrlEncode",
-          "tsEmitName": "UrlEncode2",
+          "tsEmitName": "urlEncode2",
           "metadataToken": 100663322,
           "canonicalSignature": "(System.String,System.Text.Encoding):System.String",
           "normalizedSignature": "UrlEncode|(System.String,System.Text.Encoding):System.String|static=true",
@@ -218,7 +218,7 @@
         {
           "stableId": "System.Web.HttpUtility:System.Web.HttpUtility::UrlEncode(System.Byte[]):System.String",
           "clrName": "UrlEncode",
-          "tsEmitName": "UrlEncode3",
+          "tsEmitName": "urlEncode3",
           "metadataToken": 100663323,
           "canonicalSignature": "(System.Byte[]):System.String",
           "normalizedSignature": "UrlEncode|(System.Byte[]):System.String|static=true",
@@ -232,7 +232,7 @@
         {
           "stableId": "System.Web.HttpUtility:System.Web.HttpUtility::UrlEncode(System.Byte[],System.Int32,System.Int32):System.String",
           "clrName": "UrlEncode",
-          "tsEmitName": "UrlEncode4",
+          "tsEmitName": "urlEncode4",
           "metadataToken": 100663324,
           "canonicalSignature": "(System.Byte[],System.Int32,System.Int32):System.String",
           "normalizedSignature": "UrlEncode|(System.Byte[],System.Int32,System.Int32):System.String|static=true",
@@ -246,7 +246,7 @@
         {
           "stableId": "System.Web.HttpUtility:System.Web.HttpUtility::UrlEncodeToBytes(System.String):System.Byte[]",
           "clrName": "UrlEncodeToBytes",
-          "tsEmitName": "UrlEncodeToBytes",
+          "tsEmitName": "urlEncodeToBytes",
           "metadataToken": 100663325,
           "canonicalSignature": "(System.String):System.Byte[]",
           "normalizedSignature": "UrlEncodeToBytes|(System.String):System.Byte[]|static=true",
@@ -260,7 +260,7 @@
         {
           "stableId": "System.Web.HttpUtility:System.Web.HttpUtility::UrlEncodeToBytes(System.Byte[]):System.Byte[]",
           "clrName": "UrlEncodeToBytes",
-          "tsEmitName": "UrlEncodeToBytes2",
+          "tsEmitName": "urlEncodeToBytes2",
           "metadataToken": 100663326,
           "canonicalSignature": "(System.Byte[]):System.Byte[]",
           "normalizedSignature": "UrlEncodeToBytes|(System.Byte[]):System.Byte[]|static=true",
@@ -274,7 +274,7 @@
         {
           "stableId": "System.Web.HttpUtility:System.Web.HttpUtility::UrlEncodeUnicodeToBytes(System.String):System.Byte[]",
           "clrName": "UrlEncodeUnicodeToBytes",
-          "tsEmitName": "UrlEncodeUnicodeToBytes",
+          "tsEmitName": "urlEncodeUnicodeToBytes",
           "metadataToken": 100663327,
           "canonicalSignature": "(System.String):System.Byte[]",
           "normalizedSignature": "UrlEncodeUnicodeToBytes|(System.String):System.Byte[]|static=true",
@@ -288,7 +288,7 @@
         {
           "stableId": "System.Web.HttpUtility:System.Web.HttpUtility::UrlDecode(System.String):System.String",
           "clrName": "UrlDecode",
-          "tsEmitName": "UrlDecode",
+          "tsEmitName": "urlDecode",
           "metadataToken": 100663328,
           "canonicalSignature": "(System.String):System.String",
           "normalizedSignature": "UrlDecode|(System.String):System.String|static=true",
@@ -302,7 +302,7 @@
         {
           "stableId": "System.Web.HttpUtility:System.Web.HttpUtility::UrlDecode(System.Byte[],System.Text.Encoding):System.String",
           "clrName": "UrlDecode",
-          "tsEmitName": "UrlDecode2",
+          "tsEmitName": "urlDecode2",
           "metadataToken": 100663329,
           "canonicalSignature": "(System.Byte[],System.Text.Encoding):System.String",
           "normalizedSignature": "UrlDecode|(System.Byte[],System.Text.Encoding):System.String|static=true",
@@ -316,7 +316,7 @@
         {
           "stableId": "System.Web.HttpUtility:System.Web.HttpUtility::UrlDecodeToBytes(System.String):System.Byte[]",
           "clrName": "UrlDecodeToBytes",
-          "tsEmitName": "UrlDecodeToBytes",
+          "tsEmitName": "urlDecodeToBytes",
           "metadataToken": 100663330,
           "canonicalSignature": "(System.String):System.Byte[]",
           "normalizedSignature": "UrlDecodeToBytes|(System.String):System.Byte[]|static=true",
@@ -330,7 +330,7 @@
         {
           "stableId": "System.Web.HttpUtility:System.Web.HttpUtility::UrlDecodeToBytes(System.String,System.Text.Encoding):System.Byte[]",
           "clrName": "UrlDecodeToBytes",
-          "tsEmitName": "UrlDecodeToBytes2",
+          "tsEmitName": "urlDecodeToBytes2",
           "metadataToken": 100663331,
           "canonicalSignature": "(System.String,System.Text.Encoding):System.Byte[]",
           "normalizedSignature": "UrlDecodeToBytes|(System.String,System.Text.Encoding):System.Byte[]|static=true",
@@ -344,7 +344,7 @@
         {
           "stableId": "System.Web.HttpUtility:System.Web.HttpUtility::UrlDecodeToBytes(System.Byte[]):System.Byte[]",
           "clrName": "UrlDecodeToBytes",
-          "tsEmitName": "UrlDecodeToBytes3",
+          "tsEmitName": "urlDecodeToBytes3",
           "metadataToken": 100663332,
           "canonicalSignature": "(System.Byte[]):System.Byte[]",
           "normalizedSignature": "UrlDecodeToBytes|(System.Byte[]):System.Byte[]|static=true",
@@ -358,7 +358,7 @@
         {
           "stableId": "System.Web.HttpUtility:System.Web.HttpUtility::UrlEncodeToBytes(System.String,System.Text.Encoding):System.Byte[]",
           "clrName": "UrlEncodeToBytes",
-          "tsEmitName": "UrlEncodeToBytes3",
+          "tsEmitName": "urlEncodeToBytes3",
           "metadataToken": 100663333,
           "canonicalSignature": "(System.String,System.Text.Encoding):System.Byte[]",
           "normalizedSignature": "UrlEncodeToBytes|(System.String,System.Text.Encoding):System.Byte[]|static=true",
@@ -372,7 +372,7 @@
         {
           "stableId": "System.Web.HttpUtility:System.Web.HttpUtility::UrlEncodeToBytes(System.Byte[],System.Int32,System.Int32):System.Byte[]",
           "clrName": "UrlEncodeToBytes",
-          "tsEmitName": "UrlEncodeToBytes4",
+          "tsEmitName": "urlEncodeToBytes4",
           "metadataToken": 100663334,
           "canonicalSignature": "(System.Byte[],System.Int32,System.Int32):System.Byte[]",
           "normalizedSignature": "UrlEncodeToBytes|(System.Byte[],System.Int32,System.Int32):System.Byte[]|static=true",
@@ -386,7 +386,7 @@
         {
           "stableId": "System.Web.HttpUtility:System.Web.HttpUtility::UrlEncodeUnicode(System.String):System.String",
           "clrName": "UrlEncodeUnicode",
-          "tsEmitName": "UrlEncodeUnicode",
+          "tsEmitName": "urlEncodeUnicode",
           "metadataToken": 100663335,
           "canonicalSignature": "(System.String):System.String",
           "normalizedSignature": "UrlEncodeUnicode|(System.String):System.String|static=true",
@@ -400,7 +400,7 @@
         {
           "stableId": "System.Web.HttpUtility:System.Web.HttpUtility::UrlDecode(System.String,System.Text.Encoding):System.String",
           "clrName": "UrlDecode",
-          "tsEmitName": "UrlDecode3",
+          "tsEmitName": "urlDecode3",
           "metadataToken": 100663336,
           "canonicalSignature": "(System.String,System.Text.Encoding):System.String",
           "normalizedSignature": "UrlDecode|(System.String,System.Text.Encoding):System.String|static=true",
@@ -414,7 +414,7 @@
         {
           "stableId": "System.Web.HttpUtility:System.Web.HttpUtility::UrlDecode(System.Byte[],System.Int32,System.Int32,System.Text.Encoding):System.String",
           "clrName": "UrlDecode",
-          "tsEmitName": "UrlDecode4",
+          "tsEmitName": "urlDecode4",
           "metadataToken": 100663338,
           "canonicalSignature": "(System.Byte[],System.Int32,System.Int32,System.Text.Encoding):System.String",
           "normalizedSignature": "UrlDecode|(System.Byte[],System.Int32,System.Int32,System.Text.Encoding):System.String|static=true",
@@ -428,7 +428,7 @@
         {
           "stableId": "System.Web.HttpUtility:System.Web.HttpUtility::UrlDecodeToBytes(System.Byte[],System.Int32,System.Int32):System.Byte[]",
           "clrName": "UrlDecodeToBytes",
-          "tsEmitName": "UrlDecodeToBytes4",
+          "tsEmitName": "urlDecodeToBytes4",
           "metadataToken": 100663339,
           "canonicalSignature": "(System.Byte[],System.Int32,System.Int32):System.Byte[]",
           "normalizedSignature": "UrlDecodeToBytes|(System.Byte[],System.Int32,System.Int32):System.Byte[]|static=true",
@@ -442,7 +442,7 @@
         {
           "stableId": "System.Web.HttpUtility:System.Web.HttpUtility::JavaScriptStringEncode(System.String):System.String",
           "clrName": "JavaScriptStringEncode",
-          "tsEmitName": "JavaScriptStringEncode",
+          "tsEmitName": "javaScriptStringEncode",
           "metadataToken": 100663340,
           "canonicalSignature": "(System.String):System.String",
           "normalizedSignature": "JavaScriptStringEncode|(System.String):System.String|static=true",
@@ -456,7 +456,7 @@
         {
           "stableId": "System.Web.HttpUtility:System.Web.HttpUtility::JavaScriptStringEncode(System.String,System.Boolean):System.String",
           "clrName": "JavaScriptStringEncode",
-          "tsEmitName": "JavaScriptStringEncode2",
+          "tsEmitName": "javaScriptStringEncode2",
           "metadataToken": 100663341,
           "canonicalSignature": "(System.String,System.Boolean):System.String",
           "normalizedSignature": "JavaScriptStringEncode|(System.String,System.Boolean):System.String|static=true",
@@ -485,7 +485,7 @@
       ],
       "exposedMethods": [
         {
-          "tsName": "ParseQueryString",
+          "tsName": "parseQueryString",
           "isStatic": true,
           "tsSignatureId": "ParseQueryString|(System.String):System.Collections.Specialized.NameValueCollection|static=true",
           "target": {
@@ -495,7 +495,7 @@
           }
         },
         {
-          "tsName": "ParseQueryString2",
+          "tsName": "parseQueryString2",
           "isStatic": true,
           "tsSignatureId": "ParseQueryString|(System.String,System.Text.Encoding):System.Collections.Specialized.NameValueCollection|static=true",
           "target": {
@@ -505,7 +505,7 @@
           }
         },
         {
-          "tsName": "HtmlDecode",
+          "tsName": "htmlDecode",
           "isStatic": true,
           "tsSignatureId": "HtmlDecode|(System.String):System.String|static=true",
           "target": {
@@ -515,7 +515,7 @@
           }
         },
         {
-          "tsName": "HtmlDecode2",
+          "tsName": "htmlDecode2",
           "isStatic": true,
           "tsSignatureId": "HtmlDecode|(System.String,System.IO.TextWriter):System.Void|static=true",
           "target": {
@@ -525,7 +525,7 @@
           }
         },
         {
-          "tsName": "HtmlEncode",
+          "tsName": "htmlEncode",
           "isStatic": true,
           "tsSignatureId": "HtmlEncode|(System.String):System.String|static=true",
           "target": {
@@ -535,7 +535,7 @@
           }
         },
         {
-          "tsName": "HtmlEncode2",
+          "tsName": "htmlEncode2",
           "isStatic": true,
           "tsSignatureId": "HtmlEncode|(System.Object):System.String|static=true",
           "target": {
@@ -545,7 +545,7 @@
           }
         },
         {
-          "tsName": "HtmlEncode3",
+          "tsName": "htmlEncode3",
           "isStatic": true,
           "tsSignatureId": "HtmlEncode|(System.String,System.IO.TextWriter):System.Void|static=true",
           "target": {
@@ -555,7 +555,7 @@
           }
         },
         {
-          "tsName": "HtmlAttributeEncode",
+          "tsName": "htmlAttributeEncode",
           "isStatic": true,
           "tsSignatureId": "HtmlAttributeEncode|(System.String):System.String|static=true",
           "target": {
@@ -565,7 +565,7 @@
           }
         },
         {
-          "tsName": "HtmlAttributeEncode2",
+          "tsName": "htmlAttributeEncode2",
           "isStatic": true,
           "tsSignatureId": "HtmlAttributeEncode|(System.String,System.IO.TextWriter):System.Void|static=true",
           "target": {
@@ -575,7 +575,7 @@
           }
         },
         {
-          "tsName": "UrlEncode",
+          "tsName": "urlEncode",
           "isStatic": true,
           "tsSignatureId": "UrlEncode|(System.String):System.String|static=true",
           "target": {
@@ -585,7 +585,7 @@
           }
         },
         {
-          "tsName": "UrlPathEncode",
+          "tsName": "urlPathEncode",
           "isStatic": true,
           "tsSignatureId": "UrlPathEncode|(System.String):System.String|static=true",
           "target": {
@@ -595,7 +595,7 @@
           }
         },
         {
-          "tsName": "UrlEncode2",
+          "tsName": "urlEncode2",
           "isStatic": true,
           "tsSignatureId": "UrlEncode|(System.String,System.Text.Encoding):System.String|static=true",
           "target": {
@@ -605,7 +605,7 @@
           }
         },
         {
-          "tsName": "UrlEncode3",
+          "tsName": "urlEncode3",
           "isStatic": true,
           "tsSignatureId": "UrlEncode|(System.Byte[]):System.String|static=true",
           "target": {
@@ -615,7 +615,7 @@
           }
         },
         {
-          "tsName": "UrlEncode4",
+          "tsName": "urlEncode4",
           "isStatic": true,
           "tsSignatureId": "UrlEncode|(System.Byte[],System.Int32,System.Int32):System.String|static=true",
           "target": {
@@ -625,7 +625,7 @@
           }
         },
         {
-          "tsName": "UrlEncodeToBytes",
+          "tsName": "urlEncodeToBytes",
           "isStatic": true,
           "tsSignatureId": "UrlEncodeToBytes|(System.String):System.Byte[]|static=true",
           "target": {
@@ -635,7 +635,7 @@
           }
         },
         {
-          "tsName": "UrlEncodeToBytes2",
+          "tsName": "urlEncodeToBytes2",
           "isStatic": true,
           "tsSignatureId": "UrlEncodeToBytes|(System.Byte[]):System.Byte[]|static=true",
           "target": {
@@ -645,7 +645,7 @@
           }
         },
         {
-          "tsName": "UrlEncodeUnicodeToBytes",
+          "tsName": "urlEncodeUnicodeToBytes",
           "isStatic": true,
           "tsSignatureId": "UrlEncodeUnicodeToBytes|(System.String):System.Byte[]|static=true",
           "target": {
@@ -655,7 +655,7 @@
           }
         },
         {
-          "tsName": "UrlDecode",
+          "tsName": "urlDecode",
           "isStatic": true,
           "tsSignatureId": "UrlDecode|(System.String):System.String|static=true",
           "target": {
@@ -665,7 +665,7 @@
           }
         },
         {
-          "tsName": "UrlDecode2",
+          "tsName": "urlDecode2",
           "isStatic": true,
           "tsSignatureId": "UrlDecode|(System.Byte[],System.Text.Encoding):System.String|static=true",
           "target": {
@@ -675,7 +675,7 @@
           }
         },
         {
-          "tsName": "UrlDecodeToBytes",
+          "tsName": "urlDecodeToBytes",
           "isStatic": true,
           "tsSignatureId": "UrlDecodeToBytes|(System.String):System.Byte[]|static=true",
           "target": {
@@ -685,7 +685,7 @@
           }
         },
         {
-          "tsName": "UrlDecodeToBytes2",
+          "tsName": "urlDecodeToBytes2",
           "isStatic": true,
           "tsSignatureId": "UrlDecodeToBytes|(System.String,System.Text.Encoding):System.Byte[]|static=true",
           "target": {
@@ -695,7 +695,7 @@
           }
         },
         {
-          "tsName": "UrlDecodeToBytes3",
+          "tsName": "urlDecodeToBytes3",
           "isStatic": true,
           "tsSignatureId": "UrlDecodeToBytes|(System.Byte[]):System.Byte[]|static=true",
           "target": {
@@ -705,7 +705,7 @@
           }
         },
         {
-          "tsName": "UrlEncodeToBytes3",
+          "tsName": "urlEncodeToBytes3",
           "isStatic": true,
           "tsSignatureId": "UrlEncodeToBytes|(System.String,System.Text.Encoding):System.Byte[]|static=true",
           "target": {
@@ -715,7 +715,7 @@
           }
         },
         {
-          "tsName": "UrlEncodeToBytes4",
+          "tsName": "urlEncodeToBytes4",
           "isStatic": true,
           "tsSignatureId": "UrlEncodeToBytes|(System.Byte[],System.Int32,System.Int32):System.Byte[]|static=true",
           "target": {
@@ -725,7 +725,7 @@
           }
         },
         {
-          "tsName": "UrlEncodeUnicode",
+          "tsName": "urlEncodeUnicode",
           "isStatic": true,
           "tsSignatureId": "UrlEncodeUnicode|(System.String):System.String|static=true",
           "target": {
@@ -735,7 +735,7 @@
           }
         },
         {
-          "tsName": "UrlDecode3",
+          "tsName": "urlDecode3",
           "isStatic": true,
           "tsSignatureId": "UrlDecode|(System.String,System.Text.Encoding):System.String|static=true",
           "target": {
@@ -745,7 +745,7 @@
           }
         },
         {
-          "tsName": "UrlDecode4",
+          "tsName": "urlDecode4",
           "isStatic": true,
           "tsSignatureId": "UrlDecode|(System.Byte[],System.Int32,System.Int32,System.Text.Encoding):System.String|static=true",
           "target": {
@@ -755,7 +755,7 @@
           }
         },
         {
-          "tsName": "UrlDecodeToBytes4",
+          "tsName": "urlDecodeToBytes4",
           "isStatic": true,
           "tsSignatureId": "UrlDecodeToBytes|(System.Byte[],System.Int32,System.Int32):System.Byte[]|static=true",
           "target": {
@@ -765,7 +765,7 @@
           }
         },
         {
-          "tsName": "JavaScriptStringEncode",
+          "tsName": "javaScriptStringEncode",
           "isStatic": true,
           "tsSignatureId": "JavaScriptStringEncode|(System.String):System.String|static=true",
           "target": {
@@ -775,7 +775,7 @@
           }
         },
         {
-          "tsName": "JavaScriptStringEncode2",
+          "tsName": "javaScriptStringEncode2",
           "isStatic": true,
           "tsSignatureId": "JavaScriptStringEncode|(System.String,System.Boolean):System.String|static=true",
           "target": {
@@ -785,7 +785,7 @@
           }
         },
         {
-          "tsName": "GetType",
+          "tsName": "getType",
           "isStatic": false,
           "tsSignatureId": "GetType|():System.Type|static=false",
           "target": {
@@ -795,7 +795,7 @@
           }
         },
         {
-          "tsName": "ToString",
+          "tsName": "toString",
           "isStatic": false,
           "tsSignatureId": "ToString|():System.String|static=false",
           "target": {
@@ -805,7 +805,7 @@
           }
         },
         {
-          "tsName": "Equals",
+          "tsName": "equals",
           "isStatic": false,
           "tsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
           "target": {
@@ -815,7 +815,7 @@
           }
         },
         {
-          "tsName": "Equals",
+          "tsName": "equals",
           "isStatic": true,
           "tsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
           "target": {
@@ -825,7 +825,7 @@
           }
         },
         {
-          "tsName": "ReferenceEquals",
+          "tsName": "referenceEquals",
           "isStatic": true,
           "tsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
           "target": {
@@ -835,7 +835,7 @@
           }
         },
         {
-          "tsName": "GetHashCode",
+          "tsName": "getHashCode",
           "isStatic": false,
           "tsSignatureId": "GetHashCode|():System.Int32|static=false",
           "target": {

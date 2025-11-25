@@ -19,7 +19,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.IDesignerLoaderHost::EndLoad(System.String,System.Boolean,System.Collections.ICollection):System.Void",
           "clrName": "EndLoad",
-          "tsEmitName": "EndLoad",
+          "tsEmitName": "endLoad",
           "normalizedSignature": "EndLoad|(System.String,System.Boolean,System.Collections.ICollection):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -35,7 +35,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.IDesignerLoaderHost::Reload():System.Void",
           "clrName": "Reload",
-          "tsEmitName": "Reload",
+          "tsEmitName": "reload",
           "normalizedSignature": "Reload|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -51,7 +51,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IDesignerHost::CreateComponent(System.Type):System.ComponentModel.IComponent",
           "clrName": "CreateComponent",
-          "tsEmitName": "CreateComponent",
+          "tsEmitName": "createComponent",
           "normalizedSignature": "CreateComponent|(System.Type):System.ComponentModel.IComponent|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -67,7 +67,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IDesignerHost::CreateComponent(System.Type,System.String):System.ComponentModel.IComponent",
           "clrName": "CreateComponent",
-          "tsEmitName": "CreateComponent2",
+          "tsEmitName": "createComponent2",
           "normalizedSignature": "CreateComponent|(System.Type,System.String):System.ComponentModel.IComponent|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -83,7 +83,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IDesignerHost::CreateTransaction():System.ComponentModel.Design.DesignerTransaction",
           "clrName": "CreateTransaction",
-          "tsEmitName": "CreateTransaction",
+          "tsEmitName": "createTransaction",
           "normalizedSignature": "CreateTransaction|():System.ComponentModel.Design.DesignerTransaction|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -99,7 +99,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IDesignerHost::CreateTransaction(System.String):System.ComponentModel.Design.DesignerTransaction",
           "clrName": "CreateTransaction",
-          "tsEmitName": "CreateTransaction2",
+          "tsEmitName": "createTransaction2",
           "normalizedSignature": "CreateTransaction|(System.String):System.ComponentModel.Design.DesignerTransaction|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -115,7 +115,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IDesignerHost::DestroyComponent(System.ComponentModel.IComponent):System.Void",
           "clrName": "DestroyComponent",
-          "tsEmitName": "DestroyComponent",
+          "tsEmitName": "destroyComponent",
           "normalizedSignature": "DestroyComponent|(System.ComponentModel.IComponent):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -131,7 +131,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IDesignerHost::GetDesigner(System.ComponentModel.IComponent):System.ComponentModel.Design.IDesigner",
           "clrName": "GetDesigner",
-          "tsEmitName": "GetDesigner",
+          "tsEmitName": "getDesigner",
           "normalizedSignature": "GetDesigner|(System.ComponentModel.IComponent):System.ComponentModel.Design.IDesigner|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -147,7 +147,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IDesignerHost::GetType(System.String):System.Type",
           "clrName": "GetType",
-          "tsEmitName": "GetType",
+          "tsEmitName": "getType",
           "normalizedSignature": "GetType|(System.String):System.Type|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -163,7 +163,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IServiceContainer::AddService(System.Type,System.Object):System.Void",
           "clrName": "AddService",
-          "tsEmitName": "AddService",
+          "tsEmitName": "addService",
           "normalizedSignature": "AddService|(System.Type,System.Object):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -179,7 +179,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IServiceContainer::AddService(System.Type,System.Object,System.Boolean):System.Void",
           "clrName": "AddService",
-          "tsEmitName": "AddService2",
+          "tsEmitName": "addService2",
           "normalizedSignature": "AddService|(System.Type,System.Object,System.Boolean):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -195,7 +195,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IServiceContainer::AddService(System.Type,System.ComponentModel.Design.ServiceCreatorCallback):System.Void",
           "clrName": "AddService",
-          "tsEmitName": "AddService3",
+          "tsEmitName": "addService3",
           "normalizedSignature": "AddService|(System.Type,System.ComponentModel.Design.ServiceCreatorCallback):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -211,7 +211,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IServiceContainer::AddService(System.Type,System.ComponentModel.Design.ServiceCreatorCallback,System.Boolean):System.Void",
           "clrName": "AddService",
-          "tsEmitName": "AddService4",
+          "tsEmitName": "addService4",
           "normalizedSignature": "AddService|(System.Type,System.ComponentModel.Design.ServiceCreatorCallback,System.Boolean):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -227,7 +227,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IServiceContainer::RemoveService(System.Type):System.Void",
           "clrName": "RemoveService",
-          "tsEmitName": "RemoveService",
+          "tsEmitName": "removeService",
           "normalizedSignature": "RemoveService|(System.Type):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -243,7 +243,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IServiceContainer::RemoveService(System.Type,System.Boolean):System.Void",
           "clrName": "RemoveService",
-          "tsEmitName": "RemoveService2",
+          "tsEmitName": "removeService2",
           "normalizedSignature": "RemoveService|(System.Type,System.Boolean):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -259,7 +259,7 @@
         {
           "stableId": "System.ComponentModel:System.IServiceProvider::GetService(System.Type):System.Object",
           "clrName": "GetService",
-          "tsEmitName": "GetService",
+          "tsEmitName": "getService",
           "normalizedSignature": "GetService|(System.Type):System.Object|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -277,7 +277,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IDesignerHost::Loading:System.Boolean",
           "clrName": "Loading",
-          "tsEmitName": "Loading",
+          "tsEmitName": "loading",
           "normalizedSignature": "Loading|:System.Boolean|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -292,7 +292,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IDesignerHost::InTransaction:System.Boolean",
           "clrName": "InTransaction",
-          "tsEmitName": "InTransaction",
+          "tsEmitName": "inTransaction",
           "normalizedSignature": "InTransaction|:System.Boolean|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -307,7 +307,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IDesignerHost::Container:System.ComponentModel.IContainer",
           "clrName": "Container",
-          "tsEmitName": "Container",
+          "tsEmitName": "container",
           "normalizedSignature": "Container|:System.ComponentModel.IContainer|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -322,7 +322,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IDesignerHost::RootComponent:System.ComponentModel.IComponent",
           "clrName": "RootComponent",
-          "tsEmitName": "RootComponent",
+          "tsEmitName": "rootComponent",
           "normalizedSignature": "RootComponent|:System.ComponentModel.IComponent|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -337,7 +337,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IDesignerHost::RootComponentClassName:System.String",
           "clrName": "RootComponentClassName",
-          "tsEmitName": "RootComponentClassName",
+          "tsEmitName": "rootComponentClassName",
           "normalizedSignature": "RootComponentClassName|:System.String|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -352,7 +352,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IDesignerHost::TransactionDescription:System.String",
           "clrName": "TransactionDescription",
-          "tsEmitName": "TransactionDescription",
+          "tsEmitName": "transactionDescription",
           "normalizedSignature": "TransactionDescription|:System.String|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -370,14 +370,14 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IDesignerHost::ActivatedSystem.EventHandler",
           "clrName": "Activated",
-          "tsEmitName": "Activated",
+          "tsEmitName": "activated",
           "normalizedSignature": "Activated|System.EventHandler|static=false",
           "isStatic": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IDesignerHost::TransactionClosedSystem.ComponentModel.Design.DesignerTransactionCloseEventHandler",
           "clrName": "TransactionClosed",
-          "tsEmitName": "TransactionClosed",
+          "tsEmitName": "transactionClosed",
           "normalizedSignature": "TransactionClosed|System.ComponentModel.Design.DesignerTransactionCloseEventHandler|static=false",
           "isStatic": false
         }
@@ -398,7 +398,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.IDesignerLoaderHost::EndLoad(System.String,System.Boolean,System.Collections.ICollection):System.Void",
           "clrName": "EndLoad",
-          "tsEmitName": "EndLoad",
+          "tsEmitName": "endLoad",
           "normalizedSignature": "EndLoad|(System.String,System.Boolean,System.Collections.ICollection):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -414,7 +414,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.IDesignerLoaderHost::Reload():System.Void",
           "clrName": "Reload",
-          "tsEmitName": "Reload",
+          "tsEmitName": "reload",
           "normalizedSignature": "Reload|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -430,7 +430,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IDesignerHost::CreateComponent(System.Type):System.ComponentModel.IComponent",
           "clrName": "CreateComponent",
-          "tsEmitName": "CreateComponent",
+          "tsEmitName": "createComponent",
           "normalizedSignature": "CreateComponent|(System.Type):System.ComponentModel.IComponent|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -446,7 +446,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IDesignerHost::CreateComponent(System.Type,System.String):System.ComponentModel.IComponent",
           "clrName": "CreateComponent",
-          "tsEmitName": "CreateComponent2",
+          "tsEmitName": "createComponent2",
           "normalizedSignature": "CreateComponent|(System.Type,System.String):System.ComponentModel.IComponent|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -462,7 +462,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IDesignerHost::CreateTransaction():System.ComponentModel.Design.DesignerTransaction",
           "clrName": "CreateTransaction",
-          "tsEmitName": "CreateTransaction",
+          "tsEmitName": "createTransaction",
           "normalizedSignature": "CreateTransaction|():System.ComponentModel.Design.DesignerTransaction|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -478,7 +478,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IDesignerHost::CreateTransaction(System.String):System.ComponentModel.Design.DesignerTransaction",
           "clrName": "CreateTransaction",
-          "tsEmitName": "CreateTransaction2",
+          "tsEmitName": "createTransaction2",
           "normalizedSignature": "CreateTransaction|(System.String):System.ComponentModel.Design.DesignerTransaction|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -494,7 +494,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IDesignerHost::DestroyComponent(System.ComponentModel.IComponent):System.Void",
           "clrName": "DestroyComponent",
-          "tsEmitName": "DestroyComponent",
+          "tsEmitName": "destroyComponent",
           "normalizedSignature": "DestroyComponent|(System.ComponentModel.IComponent):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -510,7 +510,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IDesignerHost::GetDesigner(System.ComponentModel.IComponent):System.ComponentModel.Design.IDesigner",
           "clrName": "GetDesigner",
-          "tsEmitName": "GetDesigner",
+          "tsEmitName": "getDesigner",
           "normalizedSignature": "GetDesigner|(System.ComponentModel.IComponent):System.ComponentModel.Design.IDesigner|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -526,7 +526,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IDesignerHost::GetType(System.String):System.Type",
           "clrName": "GetType",
-          "tsEmitName": "GetType",
+          "tsEmitName": "getType",
           "normalizedSignature": "GetType|(System.String):System.Type|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -542,7 +542,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IServiceContainer::AddService(System.Type,System.Object):System.Void",
           "clrName": "AddService",
-          "tsEmitName": "AddService",
+          "tsEmitName": "addService",
           "normalizedSignature": "AddService|(System.Type,System.Object):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -558,7 +558,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IServiceContainer::AddService(System.Type,System.Object,System.Boolean):System.Void",
           "clrName": "AddService",
-          "tsEmitName": "AddService2",
+          "tsEmitName": "addService2",
           "normalizedSignature": "AddService|(System.Type,System.Object,System.Boolean):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -574,7 +574,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IServiceContainer::AddService(System.Type,System.ComponentModel.Design.ServiceCreatorCallback):System.Void",
           "clrName": "AddService",
-          "tsEmitName": "AddService3",
+          "tsEmitName": "addService3",
           "normalizedSignature": "AddService|(System.Type,System.ComponentModel.Design.ServiceCreatorCallback):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -590,7 +590,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IServiceContainer::AddService(System.Type,System.ComponentModel.Design.ServiceCreatorCallback,System.Boolean):System.Void",
           "clrName": "AddService",
-          "tsEmitName": "AddService4",
+          "tsEmitName": "addService4",
           "normalizedSignature": "AddService|(System.Type,System.ComponentModel.Design.ServiceCreatorCallback,System.Boolean):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -606,7 +606,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IServiceContainer::RemoveService(System.Type):System.Void",
           "clrName": "RemoveService",
-          "tsEmitName": "RemoveService",
+          "tsEmitName": "removeService",
           "normalizedSignature": "RemoveService|(System.Type):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -622,7 +622,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IServiceContainer::RemoveService(System.Type,System.Boolean):System.Void",
           "clrName": "RemoveService",
-          "tsEmitName": "RemoveService2",
+          "tsEmitName": "removeService2",
           "normalizedSignature": "RemoveService|(System.Type,System.Boolean):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -638,7 +638,7 @@
         {
           "stableId": "System.ComponentModel:System.IServiceProvider::GetService(System.Type):System.Object",
           "clrName": "GetService",
-          "tsEmitName": "GetService",
+          "tsEmitName": "getService",
           "normalizedSignature": "GetService|(System.Type):System.Object|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -656,7 +656,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.IDesignerLoaderHost2::IgnoreErrorsDuringReload:System.Boolean",
           "clrName": "IgnoreErrorsDuringReload",
-          "tsEmitName": "IgnoreErrorsDuringReload",
+          "tsEmitName": "ignoreErrorsDuringReload",
           "normalizedSignature": "IgnoreErrorsDuringReload|:System.Boolean|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -671,7 +671,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.IDesignerLoaderHost2::CanReloadWithErrors:System.Boolean",
           "clrName": "CanReloadWithErrors",
-          "tsEmitName": "CanReloadWithErrors",
+          "tsEmitName": "canReloadWithErrors",
           "normalizedSignature": "CanReloadWithErrors|:System.Boolean|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -686,7 +686,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IDesignerHost::Loading:System.Boolean",
           "clrName": "Loading",
-          "tsEmitName": "Loading",
+          "tsEmitName": "loading",
           "normalizedSignature": "Loading|:System.Boolean|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -701,7 +701,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IDesignerHost::InTransaction:System.Boolean",
           "clrName": "InTransaction",
-          "tsEmitName": "InTransaction",
+          "tsEmitName": "inTransaction",
           "normalizedSignature": "InTransaction|:System.Boolean|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -716,7 +716,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IDesignerHost::Container:System.ComponentModel.IContainer",
           "clrName": "Container",
-          "tsEmitName": "Container",
+          "tsEmitName": "container",
           "normalizedSignature": "Container|:System.ComponentModel.IContainer|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -731,7 +731,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IDesignerHost::RootComponent:System.ComponentModel.IComponent",
           "clrName": "RootComponent",
-          "tsEmitName": "RootComponent",
+          "tsEmitName": "rootComponent",
           "normalizedSignature": "RootComponent|:System.ComponentModel.IComponent|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -746,7 +746,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IDesignerHost::RootComponentClassName:System.String",
           "clrName": "RootComponentClassName",
-          "tsEmitName": "RootComponentClassName",
+          "tsEmitName": "rootComponentClassName",
           "normalizedSignature": "RootComponentClassName|:System.String|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -761,7 +761,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IDesignerHost::TransactionDescription:System.String",
           "clrName": "TransactionDescription",
-          "tsEmitName": "TransactionDescription",
+          "tsEmitName": "transactionDescription",
           "normalizedSignature": "TransactionDescription|:System.String|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -779,14 +779,14 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IDesignerHost::ActivatedSystem.EventHandler",
           "clrName": "Activated",
-          "tsEmitName": "Activated",
+          "tsEmitName": "activated",
           "normalizedSignature": "Activated|System.EventHandler|static=false",
           "isStatic": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IDesignerHost::TransactionClosedSystem.ComponentModel.Design.DesignerTransactionCloseEventHandler",
           "clrName": "TransactionClosed",
-          "tsEmitName": "TransactionClosed",
+          "tsEmitName": "transactionClosed",
           "normalizedSignature": "TransactionClosed|System.ComponentModel.Design.DesignerTransactionCloseEventHandler|static=false",
           "isStatic": false
         }
@@ -807,7 +807,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.IDesignerLoaderService::AddLoadDependency():System.Void",
           "clrName": "AddLoadDependency",
-          "tsEmitName": "AddLoadDependency",
+          "tsEmitName": "addLoadDependency",
           "normalizedSignature": "AddLoadDependency|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -823,7 +823,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.IDesignerLoaderService::DependentLoadComplete(System.Boolean,System.Collections.ICollection):System.Void",
           "clrName": "DependentLoadComplete",
-          "tsEmitName": "DependentLoadComplete",
+          "tsEmitName": "dependentLoadComplete",
           "normalizedSignature": "DependentLoadComplete|(System.Boolean,System.Collections.ICollection):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -839,7 +839,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.IDesignerLoaderService::Reload():System.Boolean",
           "clrName": "Reload",
-          "tsEmitName": "Reload",
+          "tsEmitName": "reload",
           "normalizedSignature": "Reload|():System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -872,7 +872,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.IDesignerSerializationManager::AddSerializationProvider(System.ComponentModel.Design.Serialization.IDesignerSerializationProvider):System.Void",
           "clrName": "AddSerializationProvider",
-          "tsEmitName": "AddSerializationProvider",
+          "tsEmitName": "addSerializationProvider",
           "normalizedSignature": "AddSerializationProvider|(System.ComponentModel.Design.Serialization.IDesignerSerializationProvider):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -888,7 +888,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.IDesignerSerializationManager::CreateInstance(System.Type,System.Collections.ICollection,System.String,System.Boolean):System.Object",
           "clrName": "CreateInstance",
-          "tsEmitName": "CreateInstance",
+          "tsEmitName": "createInstance",
           "normalizedSignature": "CreateInstance|(System.Type,System.Collections.ICollection,System.String,System.Boolean):System.Object|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -904,7 +904,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.IDesignerSerializationManager::GetInstance(System.String):System.Object",
           "clrName": "GetInstance",
-          "tsEmitName": "GetInstance",
+          "tsEmitName": "getInstance",
           "normalizedSignature": "GetInstance|(System.String):System.Object|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -920,7 +920,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.IDesignerSerializationManager::GetName(System.Object):System.String",
           "clrName": "GetName",
-          "tsEmitName": "GetName",
+          "tsEmitName": "getName",
           "normalizedSignature": "GetName|(System.Object):System.String|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -936,7 +936,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.IDesignerSerializationManager::GetSerializer(System.Type,System.Type):System.Object",
           "clrName": "GetSerializer",
-          "tsEmitName": "GetSerializer",
+          "tsEmitName": "getSerializer",
           "normalizedSignature": "GetSerializer|(System.Type,System.Type):System.Object|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -952,7 +952,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.IDesignerSerializationManager::GetType(System.String):System.Type",
           "clrName": "GetType",
-          "tsEmitName": "GetType",
+          "tsEmitName": "getType",
           "normalizedSignature": "GetType|(System.String):System.Type|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -968,7 +968,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.IDesignerSerializationManager::ReportError(System.Object):System.Void",
           "clrName": "ReportError",
-          "tsEmitName": "ReportError",
+          "tsEmitName": "reportError",
           "normalizedSignature": "ReportError|(System.Object):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -984,7 +984,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.IDesignerSerializationManager::SetName(System.Object,System.String):System.Void",
           "clrName": "SetName",
-          "tsEmitName": "SetName",
+          "tsEmitName": "setName",
           "normalizedSignature": "SetName|(System.Object,System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1000,7 +1000,7 @@
         {
           "stableId": "System.ComponentModel:System.IServiceProvider::GetService(System.Type):System.Object",
           "clrName": "GetService",
-          "tsEmitName": "GetService",
+          "tsEmitName": "getService",
           "normalizedSignature": "GetService|(System.Type):System.Object|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1018,7 +1018,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.IDesignerSerializationManager::Context:System.ComponentModel.Design.Serialization.ContextStack",
           "clrName": "Context",
-          "tsEmitName": "Context",
+          "tsEmitName": "context",
           "normalizedSignature": "Context|:System.ComponentModel.Design.Serialization.ContextStack|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1033,7 +1033,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.IDesignerSerializationManager::Properties:System.ComponentModel.PropertyDescriptorCollection",
           "clrName": "Properties",
-          "tsEmitName": "Properties",
+          "tsEmitName": "properties",
           "normalizedSignature": "Properties|:System.ComponentModel.PropertyDescriptorCollection|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1051,14 +1051,14 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.IDesignerSerializationManager::ResolveNameSystem.ComponentModel.Design.Serialization.ResolveNameEventHandler",
           "clrName": "ResolveName",
-          "tsEmitName": "ResolveName",
+          "tsEmitName": "resolveName",
           "normalizedSignature": "ResolveName|System.ComponentModel.Design.Serialization.ResolveNameEventHandler|static=false",
           "isStatic": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.IDesignerSerializationManager::SerializationCompleteSystem.EventHandler",
           "clrName": "SerializationComplete",
-          "tsEmitName": "SerializationComplete",
+          "tsEmitName": "serializationComplete",
           "normalizedSignature": "SerializationComplete|System.EventHandler|static=false",
           "isStatic": false
         }
@@ -1079,7 +1079,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.IDesignerSerializationProvider::GetSerializer(System.ComponentModel.Design.Serialization.IDesignerSerializationManager,System.Object,System.Type,System.Type):System.Object",
           "clrName": "GetSerializer",
-          "tsEmitName": "GetSerializer",
+          "tsEmitName": "getSerializer",
           "normalizedSignature": "GetSerializer|(System.ComponentModel.Design.Serialization.IDesignerSerializationManager,System.Object,System.Type,System.Type):System.Object|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1112,7 +1112,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.IDesignerSerializationService::Deserialize(System.Object):System.Collections.ICollection",
           "clrName": "Deserialize",
-          "tsEmitName": "Deserialize",
+          "tsEmitName": "deserialize",
           "normalizedSignature": "Deserialize|(System.Object):System.Collections.ICollection|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1128,7 +1128,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.IDesignerSerializationService::Serialize(System.Collections.ICollection):System.Object",
           "clrName": "Serialize",
-          "tsEmitName": "Serialize",
+          "tsEmitName": "serialize",
           "normalizedSignature": "Serialize|(System.Collections.ICollection):System.Object|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1161,7 +1161,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.INameCreationService::CreateName(System.ComponentModel.IContainer,System.Type):System.String",
           "clrName": "CreateName",
-          "tsEmitName": "CreateName",
+          "tsEmitName": "createName",
           "normalizedSignature": "CreateName|(System.ComponentModel.IContainer,System.Type):System.String|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1177,7 +1177,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.INameCreationService::IsValidName(System.String):System.Boolean",
           "clrName": "IsValidName",
-          "tsEmitName": "IsValidName",
+          "tsEmitName": "isValidName",
           "normalizedSignature": "IsValidName|(System.String):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1193,7 +1193,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.INameCreationService::ValidateName(System.String):System.Void",
           "clrName": "ValidateName",
-          "tsEmitName": "ValidateName",
+          "tsEmitName": "validateName",
           "normalizedSignature": "ValidateName|(System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1226,7 +1226,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.MemberRelationship::Equals(System.Object):System.Boolean",
           "clrName": "Equals",
-          "tsEmitName": "Equals",
+          "tsEmitName": "equals",
           "normalizedSignature": "Equals|(System.Object):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1242,7 +1242,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.MemberRelationship::Equals(System.ComponentModel.Design.Serialization.MemberRelationship):System.Boolean",
           "clrName": "Equals",
-          "tsEmitName": "Equals2",
+          "tsEmitName": "equals2",
           "normalizedSignature": "Equals|(System.ComponentModel.Design.Serialization.MemberRelationship):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1258,7 +1258,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.MemberRelationship::GetHashCode():System.Int32",
           "clrName": "GetHashCode",
-          "tsEmitName": "GetHashCode",
+          "tsEmitName": "getHashCode",
           "normalizedSignature": "GetHashCode|():System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1274,7 +1274,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IEquatable\u00601::Equals(T):System.Boolean",
           "clrName": "Equals",
-          "tsEmitName": "Equals$view",
+          "tsEmitName": "equals$view",
           "normalizedSignature": "Equals|(T):System.Boolean|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -1293,7 +1293,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.MemberRelationship::IsEmpty:System.Boolean",
           "clrName": "IsEmpty",
-          "tsEmitName": "IsEmpty",
+          "tsEmitName": "isEmpty",
           "normalizedSignature": "IsEmpty|:System.Boolean|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1308,7 +1308,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.MemberRelationship::Member:System.ComponentModel.MemberDescriptor",
           "clrName": "Member",
-          "tsEmitName": "Member",
+          "tsEmitName": "member",
           "normalizedSignature": "Member|:System.ComponentModel.MemberDescriptor|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1323,7 +1323,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.MemberRelationship::Owner:System.Object",
           "clrName": "Owner",
-          "tsEmitName": "Owner",
+          "tsEmitName": "owner",
           "normalizedSignature": "Owner|:System.Object|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1340,7 +1340,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.MemberRelationship::EmptySystem.ComponentModel.Design.Serialization.MemberRelationship",
           "clrName": "Empty",
-          "tsEmitName": "Empty",
+          "tsEmitName": "empty",
           "normalizedSignature": "Empty|System.ComponentModel.Design.Serialization.MemberRelationship|static=true|const=false",
           "isStatic": true,
           "isReadOnly": true,
@@ -1370,7 +1370,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.ComponentSerializationService::CreateStore():System.ComponentModel.Design.Serialization.SerializationStore",
           "clrName": "CreateStore",
-          "tsEmitName": "CreateStore",
+          "tsEmitName": "createStore",
           "normalizedSignature": "CreateStore|():System.ComponentModel.Design.Serialization.SerializationStore|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1386,7 +1386,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.ComponentSerializationService::LoadStore(System.IO.Stream):System.ComponentModel.Design.Serialization.SerializationStore",
           "clrName": "LoadStore",
-          "tsEmitName": "LoadStore",
+          "tsEmitName": "loadStore",
           "normalizedSignature": "LoadStore|(System.IO.Stream):System.ComponentModel.Design.Serialization.SerializationStore|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1402,7 +1402,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.ComponentSerializationService::Serialize(System.ComponentModel.Design.Serialization.SerializationStore,System.Object):System.Void",
           "clrName": "Serialize",
-          "tsEmitName": "Serialize",
+          "tsEmitName": "serialize",
           "normalizedSignature": "Serialize|(System.ComponentModel.Design.Serialization.SerializationStore,System.Object):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1418,7 +1418,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.ComponentSerializationService::SerializeAbsolute(System.ComponentModel.Design.Serialization.SerializationStore,System.Object):System.Void",
           "clrName": "SerializeAbsolute",
-          "tsEmitName": "SerializeAbsolute",
+          "tsEmitName": "serializeAbsolute",
           "normalizedSignature": "SerializeAbsolute|(System.ComponentModel.Design.Serialization.SerializationStore,System.Object):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1434,7 +1434,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.ComponentSerializationService::SerializeMember(System.ComponentModel.Design.Serialization.SerializationStore,System.Object,System.ComponentModel.MemberDescriptor):System.Void",
           "clrName": "SerializeMember",
-          "tsEmitName": "SerializeMember",
+          "tsEmitName": "serializeMember",
           "normalizedSignature": "SerializeMember|(System.ComponentModel.Design.Serialization.SerializationStore,System.Object,System.ComponentModel.MemberDescriptor):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1450,7 +1450,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.ComponentSerializationService::SerializeMemberAbsolute(System.ComponentModel.Design.Serialization.SerializationStore,System.Object,System.ComponentModel.MemberDescriptor):System.Void",
           "clrName": "SerializeMemberAbsolute",
-          "tsEmitName": "SerializeMemberAbsolute",
+          "tsEmitName": "serializeMemberAbsolute",
           "normalizedSignature": "SerializeMemberAbsolute|(System.ComponentModel.Design.Serialization.SerializationStore,System.Object,System.ComponentModel.MemberDescriptor):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1466,7 +1466,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.ComponentSerializationService::Deserialize(System.ComponentModel.Design.Serialization.SerializationStore):System.Collections.ICollection",
           "clrName": "Deserialize",
-          "tsEmitName": "Deserialize",
+          "tsEmitName": "deserialize",
           "normalizedSignature": "Deserialize|(System.ComponentModel.Design.Serialization.SerializationStore):System.Collections.ICollection|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1482,7 +1482,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.ComponentSerializationService::Deserialize(System.ComponentModel.Design.Serialization.SerializationStore,System.ComponentModel.IContainer):System.Collections.ICollection",
           "clrName": "Deserialize",
-          "tsEmitName": "Deserialize2",
+          "tsEmitName": "deserialize2",
           "normalizedSignature": "Deserialize|(System.ComponentModel.Design.Serialization.SerializationStore,System.ComponentModel.IContainer):System.Collections.ICollection|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1498,7 +1498,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.ComponentSerializationService::DeserializeTo(System.ComponentModel.Design.Serialization.SerializationStore,System.ComponentModel.IContainer,System.Boolean,System.Boolean):System.Void",
           "clrName": "DeserializeTo",
-          "tsEmitName": "DeserializeTo",
+          "tsEmitName": "deserializeTo",
           "normalizedSignature": "DeserializeTo|(System.ComponentModel.Design.Serialization.SerializationStore,System.ComponentModel.IContainer,System.Boolean,System.Boolean):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1514,7 +1514,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.ComponentSerializationService::DeserializeTo(System.ComponentModel.Design.Serialization.SerializationStore,System.ComponentModel.IContainer):System.Void",
           "clrName": "DeserializeTo",
-          "tsEmitName": "DeserializeTo2",
+          "tsEmitName": "deserializeTo2",
           "normalizedSignature": "DeserializeTo|(System.ComponentModel.Design.Serialization.SerializationStore,System.ComponentModel.IContainer):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1530,7 +1530,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.ComponentSerializationService::DeserializeTo(System.ComponentModel.Design.Serialization.SerializationStore,System.ComponentModel.IContainer,System.Boolean):System.Void",
           "clrName": "DeserializeTo",
-          "tsEmitName": "DeserializeTo3",
+          "tsEmitName": "deserializeTo3",
           "normalizedSignature": "DeserializeTo|(System.ComponentModel.Design.Serialization.SerializationStore,System.ComponentModel.IContainer,System.Boolean):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1563,7 +1563,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.ContextStack::Append(System.Object):System.Void",
           "clrName": "Append",
-          "tsEmitName": "Append",
+          "tsEmitName": "append",
           "normalizedSignature": "Append|(System.Object):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1579,7 +1579,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.ContextStack::Pop():System.Object",
           "clrName": "Pop",
-          "tsEmitName": "Pop",
+          "tsEmitName": "pop",
           "normalizedSignature": "Pop|():System.Object|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1595,7 +1595,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.ContextStack::Push(System.Object):System.Void",
           "clrName": "Push",
-          "tsEmitName": "Push",
+          "tsEmitName": "push",
           "normalizedSignature": "Push|(System.Object):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1645,7 +1645,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.ContextStack::Current:System.Object",
           "clrName": "Current",
-          "tsEmitName": "Current",
+          "tsEmitName": "current",
           "normalizedSignature": "Current|:System.Object|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1683,7 +1683,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.DefaultSerializationProviderAttribute::ProviderTypeName:System.String",
           "clrName": "ProviderTypeName",
-          "tsEmitName": "ProviderTypeName",
+          "tsEmitName": "providerTypeName",
           "normalizedSignature": "ProviderTypeName|:System.String|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1725,7 +1725,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.DesignerLoader::BeginLoad(System.ComponentModel.Design.Serialization.IDesignerLoaderHost):System.Void",
           "clrName": "BeginLoad",
-          "tsEmitName": "BeginLoad",
+          "tsEmitName": "beginLoad",
           "normalizedSignature": "BeginLoad|(System.ComponentModel.Design.Serialization.IDesignerLoaderHost):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1741,7 +1741,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.DesignerLoader::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "Dispose",
+          "tsEmitName": "dispose",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1757,7 +1757,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.DesignerLoader::Flush():System.Void",
           "clrName": "Flush",
-          "tsEmitName": "Flush",
+          "tsEmitName": "flush",
           "normalizedSignature": "Flush|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1775,7 +1775,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.DesignerLoader::Loading:System.Boolean",
           "clrName": "Loading",
-          "tsEmitName": "Loading",
+          "tsEmitName": "loading",
           "normalizedSignature": "Loading|:System.Boolean|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1807,7 +1807,7 @@
         {
           "stableId": "System.ComponentModel.Primitives:System.ComponentModel.Design.Serialization.DesignerSerializerAttribute::SerializerTypeName:System.String",
           "clrName": "SerializerTypeName",
-          "tsEmitName": "SerializerTypeName",
+          "tsEmitName": "serializerTypeName",
           "normalizedSignature": "SerializerTypeName|:System.String|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1822,7 +1822,7 @@
         {
           "stableId": "System.ComponentModel.Primitives:System.ComponentModel.Design.Serialization.DesignerSerializerAttribute::SerializerBaseTypeName:System.String",
           "clrName": "SerializerBaseTypeName",
-          "tsEmitName": "SerializerBaseTypeName",
+          "tsEmitName": "serializerBaseTypeName",
           "normalizedSignature": "SerializerBaseTypeName|:System.String|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1837,7 +1837,7 @@
         {
           "stableId": "System.ComponentModel.Primitives:System.ComponentModel.Design.Serialization.DesignerSerializerAttribute::TypeId:System.Object",
           "clrName": "TypeId",
-          "tsEmitName": "TypeId",
+          "tsEmitName": "typeId",
           "normalizedSignature": "TypeId|:System.Object|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1884,7 +1884,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.InstanceDescriptor::Invoke():System.Object",
           "clrName": "Invoke",
-          "tsEmitName": "Invoke",
+          "tsEmitName": "invoke",
           "normalizedSignature": "Invoke|():System.Object|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1902,7 +1902,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.InstanceDescriptor::Arguments:System.Collections.ICollection",
           "clrName": "Arguments",
-          "tsEmitName": "Arguments",
+          "tsEmitName": "arguments",
           "normalizedSignature": "Arguments|:System.Collections.ICollection|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1917,7 +1917,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.InstanceDescriptor::IsComplete:System.Boolean",
           "clrName": "IsComplete",
-          "tsEmitName": "IsComplete",
+          "tsEmitName": "isComplete",
           "normalizedSignature": "IsComplete|:System.Boolean|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1932,7 +1932,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.InstanceDescriptor::MemberInfo:System.Reflection.MemberInfo",
           "clrName": "MemberInfo",
-          "tsEmitName": "MemberInfo",
+          "tsEmitName": "memberInfo",
           "normalizedSignature": "MemberInfo|:System.Reflection.MemberInfo|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1974,7 +1974,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.MemberRelationshipService::SupportsRelationship(System.ComponentModel.Design.Serialization.MemberRelationship,System.ComponentModel.Design.Serialization.MemberRelationship):System.Boolean",
           "clrName": "SupportsRelationship",
-          "tsEmitName": "SupportsRelationship",
+          "tsEmitName": "supportsRelationship",
           "normalizedSignature": "SupportsRelationship|(System.ComponentModel.Design.Serialization.MemberRelationship,System.ComponentModel.Design.Serialization.MemberRelationship):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2072,7 +2072,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.ResolveNameEventArgs::Name:System.String",
           "clrName": "Name",
-          "tsEmitName": "Name",
+          "tsEmitName": "name",
           "normalizedSignature": "Name|:System.String|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2087,7 +2087,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.ResolveNameEventArgs::Value:System.Object",
           "clrName": "Value",
-          "tsEmitName": "Value",
+          "tsEmitName": "value",
           "normalizedSignature": "Value|:System.Object|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2124,7 +2124,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.ResolveNameEventHandler::Invoke(System.Object,System.ComponentModel.Design.Serialization.ResolveNameEventArgs):System.Void",
           "clrName": "Invoke",
-          "tsEmitName": "Invoke",
+          "tsEmitName": "invoke",
           "normalizedSignature": "Invoke|(System.Object,System.ComponentModel.Design.Serialization.ResolveNameEventArgs):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2140,7 +2140,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.ResolveNameEventHandler::BeginInvoke(System.Object,System.ComponentModel.Design.Serialization.ResolveNameEventArgs,System.AsyncCallback,System.Object):System.IAsyncResult",
           "clrName": "BeginInvoke",
-          "tsEmitName": "BeginInvoke",
+          "tsEmitName": "beginInvoke",
           "normalizedSignature": "BeginInvoke|(System.Object,System.ComponentModel.Design.Serialization.ResolveNameEventArgs,System.AsyncCallback,System.Object):System.IAsyncResult|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2156,7 +2156,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.ResolveNameEventHandler::EndInvoke(System.IAsyncResult):System.Void",
           "clrName": "EndInvoke",
-          "tsEmitName": "EndInvoke",
+          "tsEmitName": "endInvoke",
           "normalizedSignature": "EndInvoke|(System.IAsyncResult):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2172,7 +2172,7 @@
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "Clone$view",
+          "tsEmitName": "clone$view",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -2189,7 +2189,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData$view",
+          "tsEmitName": "getObjectData$view",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -2206,7 +2206,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.ResolveNameEventHandler::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "Clone",
+          "tsEmitName": "clone",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -2222,7 +2222,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.ResolveNameEventHandler::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData",
+          "tsEmitName": "getObjectData",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -2262,7 +2262,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.RootDesignerSerializerAttribute::Reloadable:System.Boolean",
           "clrName": "Reloadable",
-          "tsEmitName": "Reloadable",
+          "tsEmitName": "reloadable",
           "normalizedSignature": "Reloadable|:System.Boolean|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2277,7 +2277,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.RootDesignerSerializerAttribute::SerializerTypeName:System.String",
           "clrName": "SerializerTypeName",
-          "tsEmitName": "SerializerTypeName",
+          "tsEmitName": "serializerTypeName",
           "normalizedSignature": "SerializerTypeName|:System.String|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2292,7 +2292,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.RootDesignerSerializerAttribute::SerializerBaseTypeName:System.String",
           "clrName": "SerializerBaseTypeName",
-          "tsEmitName": "SerializerBaseTypeName",
+          "tsEmitName": "serializerBaseTypeName",
           "normalizedSignature": "SerializerBaseTypeName|:System.String|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2307,7 +2307,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.RootDesignerSerializerAttribute::TypeId:System.Object",
           "clrName": "TypeId",
-          "tsEmitName": "TypeId",
+          "tsEmitName": "typeId",
           "normalizedSignature": "TypeId|:System.Object|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2354,7 +2354,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.SerializationStore::Close():System.Void",
           "clrName": "Close",
-          "tsEmitName": "Close",
+          "tsEmitName": "close",
           "normalizedSignature": "Close|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2370,7 +2370,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.SerializationStore::Save(System.IO.Stream):System.Void",
           "clrName": "Save",
-          "tsEmitName": "Save",
+          "tsEmitName": "save",
           "normalizedSignature": "Save|(System.IO.Stream):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2386,7 +2386,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "Dispose",
+          "tsEmitName": "dispose",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -2405,7 +2405,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.SerializationStore::Errors:System.Collections.ICollection",
           "clrName": "Errors",
-          "tsEmitName": "Errors",
+          "tsEmitName": "errors",
           "normalizedSignature": "Errors|:System.Collections.ICollection|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",

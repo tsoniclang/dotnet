@@ -42,27 +42,27 @@ export type CLROf<T> =
     T; // Identity fallback for non-primitive types
 
 export enum CSharpArgumentInfoFlags {
-    None = 0,
-    UseCompileTimeType = 1,
-    Constant = 2,
-    NamedArgument = 4,
-    IsRef = 8,
-    IsOut = 16,
-    IsStaticType = 32
+    none = 0,
+    useCompileTimeType = 1,
+    constant = 2,
+    namedArgument = 4,
+    isRef = 8,
+    isOut = 16,
+    isStaticType = 32
 }
 
 
 export enum CSharpBinderFlags {
-    None = 0,
-    CheckedContext = 1,
-    InvokeSimpleName = 2,
-    InvokeSpecialName = 4,
-    BinaryOperationLogical = 8,
-    ConvertExplicit = 16,
-    ConvertArrayIndex = 32,
-    ResultIndexed = 64,
-    ValueFromCompoundAssignment = 128,
-    ResultDiscarded = 256
+    none = 0,
+    checkedContext = 1,
+    invokeSimpleName = 2,
+    invokeSpecialName = 4,
+    binaryOperationLogical = 8,
+    convertExplicit = 16,
+    convertArrayIndex = 32,
+    resultIndexed = 64,
+    valueFromCompoundAssignment = 128,
+    resultDiscarded = 256
 }
 
 
@@ -77,7 +77,7 @@ export class RuntimeBinderException$instance extends System_Internal.Exception$i
     constructor();
     constructor(message: string);
     constructor(message: string, innerException: Exception);
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
@@ -92,7 +92,7 @@ export class RuntimeBinderInternalCompilerException$instance extends System_Inte
     constructor();
     constructor(message: string);
     constructor(message: string, innerException: Exception);
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 

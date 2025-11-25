@@ -36,7 +36,7 @@ export type CLROf<T> =
 
 export class ObjectHandle$instance extends System_Internal.MarshalByRefObject$instance {
     constructor(o: any);
-    Unwrap(): any;
+    unwrap(): any;
 }
 
 
