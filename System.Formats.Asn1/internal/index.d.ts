@@ -43,94 +43,94 @@ export type CLROf<T> =
     T; // Identity fallback for non-primitive types
 
 export enum AsnEncodingRules {
-    BER = 0,
-    CER = 1,
-    DER = 2
+    ber = 0,
+    cer = 1,
+    der = 2
 }
 
 
 export enum TagClass {
-    Universal = 0,
-    Application = 64,
-    ContextSpecific = 128,
-    Private = 192
+    universal = 0,
+    application = 64,
+    contextSpecific = 128,
+    private_ = 192
 }
 
 
 export enum UniversalTagNumber {
-    EndOfContents = 0,
-    Boolean = 1,
-    Integer = 2,
-    BitString = 3,
-    OctetString = 4,
-    Null = 5,
-    ObjectIdentifier = 6,
-    ObjectDescriptor = 7,
-    External = 8,
-    InstanceOf = 8,
-    Real = 9,
-    Enumerated = 10,
-    Embedded = 11,
-    UTF8String = 12,
-    RelativeObjectIdentifier = 13,
-    Time = 14,
-    Sequence = 16,
-    SequenceOf = 16,
-    Set = 17,
-    SetOf = 17,
-    NumericString = 18,
-    PrintableString = 19,
-    TeletexString = 20,
-    T61String = 20,
-    VideotexString = 21,
-    IA5String = 22,
-    UtcTime = 23,
-    GeneralizedTime = 24,
-    GraphicString = 25,
-    VisibleString = 26,
-    ISO646String = 26,
-    GeneralString = 27,
-    UniversalString = 28,
-    UnrestrictedCharacterString = 29,
-    BMPString = 30,
-    Date = 31,
-    TimeOfDay = 32,
-    DateTime = 33,
-    Duration = 34,
-    ObjectIdentifierIRI = 35,
-    RelativeObjectIdentifierIRI = 36
+    endOfContents = 0,
+    boolean_ = 1,
+    integer = 2,
+    bitString = 3,
+    octetString = 4,
+    null_ = 5,
+    objectIdentifier = 6,
+    objectDescriptor = 7,
+    external = 8,
+    instanceOf = 8,
+    real = 9,
+    enumerated = 10,
+    embedded = 11,
+    utf8String = 12,
+    relativeObjectIdentifier = 13,
+    time = 14,
+    sequence = 16,
+    sequenceOf = 16,
+    set_ = 17,
+    setOf = 17,
+    numericString = 18,
+    printableString = 19,
+    teletexString = 20,
+    t61String = 20,
+    videotexString = 21,
+    ia5String = 22,
+    utcTime = 23,
+    generalizedTime = 24,
+    graphicString = 25,
+    visibleString = 26,
+    iso646String = 26,
+    generalString = 27,
+    universalString = 28,
+    unrestrictedCharacterString = 29,
+    bmpString = 30,
+    date = 31,
+    timeOfDay = 32,
+    dateTime = 33,
+    duration = 34,
+    objectIdentifierIRI = 35,
+    relativeObjectIdentifierIRI = 36
 }
 
 
 export class Asn1Tag$instance {
     constructor(universalTagNumber: UniversalTagNumber, isConstructed: boolean);
     constructor(tagClass: TagClass, tagValue: int, isConstructed: boolean);
-    readonly IsConstructed: boolean;
-    readonly TagClass: TagClass;
-    readonly TagValue: int;
-    AsConstructed(): Asn1Tag;
-    AsPrimitive(): Asn1Tag;
-    CalculateEncodedSize(): int;
-    Encode(destination: Span_1<CLROf<byte>>): int;
-    Equals(other: Asn1Tag): boolean;
-    Equals(obj: any): boolean;
-    GetHashCode(): int;
-    HasSameClassAndValue(other: Asn1Tag): boolean;
-    ToString(): string;
-    TryEncode(destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
-    static readonly Boolean: Asn1Tag;
-    static readonly Integer: Asn1Tag;
-    static readonly PrimitiveBitString: Asn1Tag;
-    static readonly ConstructedBitString: Asn1Tag;
-    static readonly PrimitiveOctetString: Asn1Tag;
-    static readonly ConstructedOctetString: Asn1Tag;
-    static readonly Null: Asn1Tag;
-    static readonly ObjectIdentifier: Asn1Tag;
-    static readonly Enumerated: Asn1Tag;
-    static readonly Sequence: Asn1Tag;
-    static readonly SetOf: Asn1Tag;
-    static readonly UtcTime: Asn1Tag;
-    static readonly GeneralizedTime: Asn1Tag;
+    readonly isConstructed: boolean;
+    readonly tagClass: TagClass;
+    readonly tagValue: int;
+    asConstructed(): Asn1Tag;
+    asPrimitive(): Asn1Tag;
+    calculateEncodedSize(): int;
+    encode(destination: Span_1<CLROf<byte>>): int;
+    equals(other: Asn1Tag): boolean;
+    equals(obj: any): boolean;
+    getHashCode(): int;
+    hasSameClassAndValue(other: Asn1Tag): boolean;
+    toString(): string;
+    tryEncode(destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
+    static readonly boolean_: Asn1Tag;
+    static readonly integer: Asn1Tag;
+    static readonly primitiveBitString: Asn1Tag;
+    static readonly constructedBitString: Asn1Tag;
+    static readonly primitiveOctetString: Asn1Tag;
+    static readonly constructedOctetString: Asn1Tag;
+    static readonly null_: Asn1Tag;
+    static readonly objectIdentifier: Asn1Tag;
+    static readonly enumerated: Asn1Tag;
+    static readonly sequence: Asn1Tag;
+    static readonly setOf: Asn1Tag;
+    static readonly utcTime: Asn1Tag;
+    static readonly generalizedTime: Asn1Tag;
     static Decode(source: ReadOnlySpan_1<CLROf<byte>>, bytesConsumed: { value: ref<int> }): Asn1Tag;
     static TryDecode(source: ReadOnlySpan_1<CLROf<byte>>, tag: { value: ref<Asn1Tag> }, bytesConsumed: { value: ref<int> }): boolean;
 }
@@ -147,15 +147,15 @@ export type Asn1Tag = Asn1Tag$instance & __Asn1Tag$views;
 
 
 export class AsnReaderOptions$instance {
-    SkipSetSortOrderVerification: boolean;
-    UtcTimeTwoDigitYearMax: int;
+    skipSetSortOrderVerification: boolean;
+    utcTimeTwoDigitYearMax: int;
 }
 
 
 export type AsnReaderOptions = AsnReaderOptions$instance;
 
 export class AsnWriter_Scope$instance {
-    Dispose(): void;
+    dispose(): void;
 }
 
 
@@ -170,7 +170,7 @@ export class AsnContentException$instance extends System_Internal.Exception$inst
     constructor();
     constructor(message: string);
     constructor(message: string, inner: Exception);
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
@@ -183,45 +183,45 @@ export type AsnContentException = AsnContentException$instance & __AsnContentExc
 
 export class AsnReader$instance {
     constructor(data: ReadOnlyMemory_1<CLROf<byte>>, ruleSet: AsnEncodingRules, options: AsnReaderOptions);
-    readonly HasData: boolean;
-    readonly RuleSet: AsnEncodingRules;
-    Clone(): AsnReader;
-    PeekContentBytes(): ReadOnlyMemory_1<CLROf<byte>>;
-    PeekEncodedValue(): ReadOnlyMemory_1<CLROf<byte>>;
-    PeekTag(): Asn1Tag;
-    ReadBitString(unusedBitCount: { value: ref<int> }, expectedTag?: Nullable_1<Asn1Tag>): byte[];
-    ReadBoolean(expectedTag?: Nullable_1<Asn1Tag>): boolean;
-    ReadCharacterString(encodingType: UniversalTagNumber, expectedTag?: Nullable_1<Asn1Tag>): string;
-    ReadEncodedValue(): ReadOnlyMemory_1<CLROf<byte>>;
-    ReadEnumeratedBytes(expectedTag?: Nullable_1<Asn1Tag>): ReadOnlyMemory_1<CLROf<byte>>;
-    ReadEnumeratedValue<TEnum extends number>(expectedTag?: Nullable_1<Asn1Tag>): TEnum;
-    ReadEnumeratedValue(enumType: Type, expectedTag?: Nullable_1<Asn1Tag>): number;
-    ReadGeneralizedTime(expectedTag?: Nullable_1<Asn1Tag>): DateTimeOffset;
-    ReadInteger(expectedTag?: Nullable_1<Asn1Tag>): BigInteger;
-    ReadIntegerBytes(expectedTag?: Nullable_1<Asn1Tag>): ReadOnlyMemory_1<CLROf<byte>>;
-    ReadNamedBitList(expectedTag?: Nullable_1<Asn1Tag>): BitArray;
-    ReadNamedBitListValue<TFlagsEnum extends number>(expectedTag?: Nullable_1<Asn1Tag>): TFlagsEnum;
-    ReadNamedBitListValue(flagsEnumType: Type, expectedTag?: Nullable_1<Asn1Tag>): number;
-    ReadNull(expectedTag?: Nullable_1<Asn1Tag>): void;
-    ReadObjectIdentifier(expectedTag?: Nullable_1<Asn1Tag>): string;
-    ReadOctetString(expectedTag?: Nullable_1<Asn1Tag>): byte[];
-    ReadSequence(expectedTag?: Nullable_1<Asn1Tag>): AsnReader;
-    ReadSetOf(expectedTag?: Nullable_1<Asn1Tag>): AsnReader;
-    ReadSetOf(skipSortOrderValidation: boolean, expectedTag?: Nullable_1<Asn1Tag>): AsnReader;
-    ReadUtcTime(expectedTag?: Nullable_1<Asn1Tag>): DateTimeOffset;
-    ReadUtcTime(twoDigitYearMax: int, expectedTag?: Nullable_1<Asn1Tag>): DateTimeOffset;
-    ThrowIfNotEmpty(): void;
-    TryReadBitString(destination: Span_1<CLROf<byte>>, unusedBitCount: { value: ref<int> }, bytesWritten: { value: ref<int> }, expectedTag?: Nullable_1<Asn1Tag>): boolean;
-    TryReadCharacterString(destination: Span_1<CLROf<string>>, encodingType: UniversalTagNumber, charsWritten: { value: ref<int> }, expectedTag?: Nullable_1<Asn1Tag>): boolean;
-    TryReadCharacterStringBytes(destination: Span_1<CLROf<byte>>, expectedTag: Asn1Tag, bytesWritten: { value: ref<int> }): boolean;
-    TryReadInt32(value: { value: ref<int> }, expectedTag?: Nullable_1<Asn1Tag>): boolean;
-    TryReadInt64(value: { value: ref<long> }, expectedTag?: Nullable_1<Asn1Tag>): boolean;
-    TryReadOctetString(destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }, expectedTag?: Nullable_1<Asn1Tag>): boolean;
-    TryReadPrimitiveBitString(unusedBitCount: { value: ref<int> }, value: { value: ref<ReadOnlyMemory_1<CLROf<byte>>> }, expectedTag?: Nullable_1<Asn1Tag>): boolean;
-    TryReadPrimitiveCharacterStringBytes(expectedTag: Asn1Tag, contents: { value: ref<ReadOnlyMemory_1<CLROf<byte>>> }): boolean;
-    TryReadPrimitiveOctetString(contents: { value: ref<ReadOnlyMemory_1<CLROf<byte>>> }, expectedTag?: Nullable_1<Asn1Tag>): boolean;
-    TryReadUInt32(value: { value: ref<uint> }, expectedTag?: Nullable_1<Asn1Tag>): boolean;
-    TryReadUInt64(value: { value: ref<ulong> }, expectedTag?: Nullable_1<Asn1Tag>): boolean;
+    readonly hasData: boolean;
+    readonly ruleSet: AsnEncodingRules;
+    clone(): AsnReader;
+    peekContentBytes(): ReadOnlyMemory_1<CLROf<byte>>;
+    peekEncodedValue(): ReadOnlyMemory_1<CLROf<byte>>;
+    peekTag(): Asn1Tag;
+    readBitString(unusedBitCount: { value: ref<int> }, expectedTag?: Nullable_1<Asn1Tag>): byte[];
+    readBoolean(expectedTag?: Nullable_1<Asn1Tag>): boolean;
+    readCharacterString(encodingType: UniversalTagNumber, expectedTag?: Nullable_1<Asn1Tag>): string;
+    readEncodedValue(): ReadOnlyMemory_1<CLROf<byte>>;
+    readEnumeratedBytes(expectedTag?: Nullable_1<Asn1Tag>): ReadOnlyMemory_1<CLROf<byte>>;
+    readEnumeratedValue<TEnum extends number>(expectedTag?: Nullable_1<Asn1Tag>): TEnum;
+    readEnumeratedValue(enumType: Type, expectedTag?: Nullable_1<Asn1Tag>): number;
+    readGeneralizedTime(expectedTag?: Nullable_1<Asn1Tag>): DateTimeOffset;
+    readInteger(expectedTag?: Nullable_1<Asn1Tag>): BigInteger;
+    readIntegerBytes(expectedTag?: Nullable_1<Asn1Tag>): ReadOnlyMemory_1<CLROf<byte>>;
+    readNamedBitList(expectedTag?: Nullable_1<Asn1Tag>): BitArray;
+    readNamedBitListValue<TFlagsEnum extends number>(expectedTag?: Nullable_1<Asn1Tag>): TFlagsEnum;
+    readNamedBitListValue(flagsEnumType: Type, expectedTag?: Nullable_1<Asn1Tag>): number;
+    readNull(expectedTag?: Nullable_1<Asn1Tag>): void;
+    readObjectIdentifier(expectedTag?: Nullable_1<Asn1Tag>): string;
+    readOctetString(expectedTag?: Nullable_1<Asn1Tag>): byte[];
+    readSequence(expectedTag?: Nullable_1<Asn1Tag>): AsnReader;
+    readSetOf(expectedTag?: Nullable_1<Asn1Tag>): AsnReader;
+    readSetOf(skipSortOrderValidation: boolean, expectedTag?: Nullable_1<Asn1Tag>): AsnReader;
+    readUtcTime(expectedTag?: Nullable_1<Asn1Tag>): DateTimeOffset;
+    readUtcTime(twoDigitYearMax: int, expectedTag?: Nullable_1<Asn1Tag>): DateTimeOffset;
+    throwIfNotEmpty(): void;
+    tryReadBitString(destination: Span_1<CLROf<byte>>, unusedBitCount: { value: ref<int> }, bytesWritten: { value: ref<int> }, expectedTag?: Nullable_1<Asn1Tag>): boolean;
+    tryReadCharacterString(destination: Span_1<CLROf<string>>, encodingType: UniversalTagNumber, charsWritten: { value: ref<int> }, expectedTag?: Nullable_1<Asn1Tag>): boolean;
+    tryReadCharacterStringBytes(destination: Span_1<CLROf<byte>>, expectedTag: Asn1Tag, bytesWritten: { value: ref<int> }): boolean;
+    tryReadInt32(value: { value: ref<int> }, expectedTag?: Nullable_1<Asn1Tag>): boolean;
+    tryReadInt64(value: { value: ref<long> }, expectedTag?: Nullable_1<Asn1Tag>): boolean;
+    tryReadOctetString(destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }, expectedTag?: Nullable_1<Asn1Tag>): boolean;
+    tryReadPrimitiveBitString(unusedBitCount: { value: ref<int> }, value: { value: ref<ReadOnlyMemory_1<CLROf<byte>>> }, expectedTag?: Nullable_1<Asn1Tag>): boolean;
+    tryReadPrimitiveCharacterStringBytes(expectedTag: Asn1Tag, contents: { value: ref<ReadOnlyMemory_1<CLROf<byte>>> }): boolean;
+    tryReadPrimitiveOctetString(contents: { value: ref<ReadOnlyMemory_1<CLROf<byte>>> }, expectedTag?: Nullable_1<Asn1Tag>): boolean;
+    tryReadUInt32(value: { value: ref<uint> }, expectedTag?: Nullable_1<Asn1Tag>): boolean;
+    tryReadUInt64(value: { value: ref<ulong> }, expectedTag?: Nullable_1<Asn1Tag>): boolean;
 }
 
 
@@ -230,46 +230,46 @@ export type AsnReader = AsnReader$instance;
 export class AsnWriter$instance {
     constructor(ruleSet: AsnEncodingRules);
     constructor(ruleSet: AsnEncodingRules, initialCapacity: int);
-    readonly RuleSet: AsnEncodingRules;
-    CopyTo(destination: AsnWriter): void;
-    Encode(destination: Span_1<CLROf<byte>>): int;
-    Encode(): byte[];
-    Encode<TReturn>(encodeCallback: Func_2<ReadOnlySpan_1<CLROf<byte>>, TReturn>): TReturn;
-    Encode<TState, TReturn>(state: TState, encodeCallback: Func_3<TState, ReadOnlySpan_1<CLROf<byte>>, TReturn>): TReturn;
-    Encode<TState>(state: TState, encodeCallback: Action_2<TState, ReadOnlySpan_1<CLROf<byte>>>): void;
-    EncodedValueEquals(other: ReadOnlySpan_1<CLROf<byte>>): boolean;
-    EncodedValueEquals(other: AsnWriter): boolean;
-    GetEncodedLength(): int;
-    PopOctetString(tag?: Nullable_1<Asn1Tag>): void;
-    PopSequence(tag?: Nullable_1<Asn1Tag>): void;
-    PopSetOf(tag?: Nullable_1<Asn1Tag>): void;
-    PushOctetString(tag?: Nullable_1<Asn1Tag>): AsnWriter_Scope;
-    PushSequence(tag?: Nullable_1<Asn1Tag>): AsnWriter_Scope;
-    PushSetOf(tag?: Nullable_1<Asn1Tag>): AsnWriter_Scope;
-    Reset(): void;
-    TryEncode(destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
-    WriteBitString(value: ReadOnlySpan_1<CLROf<byte>>, unusedBitCount?: int, tag?: Nullable_1<Asn1Tag>): void;
-    WriteBoolean(value: boolean, tag?: Nullable_1<Asn1Tag>): void;
-    WriteCharacterString(encodingType: UniversalTagNumber, value: string, tag?: Nullable_1<Asn1Tag>): void;
-    WriteCharacterString(encodingType: UniversalTagNumber, str: ReadOnlySpan_1<CLROf<string>>, tag?: Nullable_1<Asn1Tag>): void;
-    WriteEncodedValue(value: ReadOnlySpan_1<CLROf<byte>>): void;
-    WriteEnumeratedValue(value: number, tag?: Nullable_1<Asn1Tag>): void;
-    WriteEnumeratedValue<TEnum extends number>(value: TEnum, tag?: Nullable_1<Asn1Tag>): void;
-    WriteGeneralizedTime(value: DateTimeOffset, omitFractionalSeconds?: boolean, tag?: Nullable_1<Asn1Tag>): void;
-    WriteInteger(value: long, tag?: Nullable_1<Asn1Tag>): void;
-    WriteInteger(value: ulong, tag?: Nullable_1<Asn1Tag>): void;
-    WriteInteger(value: BigInteger, tag?: Nullable_1<Asn1Tag>): void;
-    WriteInteger(value: ReadOnlySpan_1<CLROf<byte>>, tag?: Nullable_1<Asn1Tag>): void;
-    WriteIntegerUnsigned(value: ReadOnlySpan_1<CLROf<byte>>, tag?: Nullable_1<Asn1Tag>): void;
-    WriteNamedBitList(value: number, tag?: Nullable_1<Asn1Tag>): void;
-    WriteNamedBitList<TEnum extends number>(value: TEnum, tag?: Nullable_1<Asn1Tag>): void;
-    WriteNamedBitList(value: BitArray, tag?: Nullable_1<Asn1Tag>): void;
-    WriteNull(tag?: Nullable_1<Asn1Tag>): void;
-    WriteObjectIdentifier(oidValue: string, tag?: Nullable_1<Asn1Tag>): void;
-    WriteObjectIdentifier(oidValue: ReadOnlySpan_1<CLROf<string>>, tag?: Nullable_1<Asn1Tag>): void;
-    WriteOctetString(value: ReadOnlySpan_1<CLROf<byte>>, tag?: Nullable_1<Asn1Tag>): void;
-    WriteUtcTime(value: DateTimeOffset, tag?: Nullable_1<Asn1Tag>): void;
-    WriteUtcTime(value: DateTimeOffset, twoDigitYearMax: int, tag?: Nullable_1<Asn1Tag>): void;
+    readonly ruleSet: AsnEncodingRules;
+    copyTo(destination: AsnWriter): void;
+    encode(destination: Span_1<CLROf<byte>>): int;
+    encode(): byte[];
+    encode<TReturn>(encodeCallback: Func_2<ReadOnlySpan_1<CLROf<byte>>, TReturn>): TReturn;
+    encode<TState, TReturn>(state: TState, encodeCallback: Func_3<TState, ReadOnlySpan_1<CLROf<byte>>, TReturn>): TReturn;
+    encode<TState>(state: TState, encodeCallback: Action_2<TState, ReadOnlySpan_1<CLROf<byte>>>): void;
+    encodedValueEquals(other: ReadOnlySpan_1<CLROf<byte>>): boolean;
+    encodedValueEquals(other: AsnWriter): boolean;
+    getEncodedLength(): int;
+    popOctetString(tag?: Nullable_1<Asn1Tag>): void;
+    popSequence(tag?: Nullable_1<Asn1Tag>): void;
+    popSetOf(tag?: Nullable_1<Asn1Tag>): void;
+    pushOctetString(tag?: Nullable_1<Asn1Tag>): AsnWriter_Scope;
+    pushSequence(tag?: Nullable_1<Asn1Tag>): AsnWriter_Scope;
+    pushSetOf(tag?: Nullable_1<Asn1Tag>): AsnWriter_Scope;
+    reset(): void;
+    tryEncode(destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
+    writeBitString(value: ReadOnlySpan_1<CLROf<byte>>, unusedBitCount?: int, tag?: Nullable_1<Asn1Tag>): void;
+    writeBoolean(value: boolean, tag?: Nullable_1<Asn1Tag>): void;
+    writeCharacterString(encodingType: UniversalTagNumber, value: string, tag?: Nullable_1<Asn1Tag>): void;
+    writeCharacterString(encodingType: UniversalTagNumber, str: ReadOnlySpan_1<CLROf<string>>, tag?: Nullable_1<Asn1Tag>): void;
+    writeEncodedValue(value: ReadOnlySpan_1<CLROf<byte>>): void;
+    writeEnumeratedValue(value: number, tag?: Nullable_1<Asn1Tag>): void;
+    writeEnumeratedValue<TEnum extends number>(value: TEnum, tag?: Nullable_1<Asn1Tag>): void;
+    writeGeneralizedTime(value: DateTimeOffset, omitFractionalSeconds?: boolean, tag?: Nullable_1<Asn1Tag>): void;
+    writeInteger(value: long, tag?: Nullable_1<Asn1Tag>): void;
+    writeInteger(value: ulong, tag?: Nullable_1<Asn1Tag>): void;
+    writeInteger(value: BigInteger, tag?: Nullable_1<Asn1Tag>): void;
+    writeInteger(value: ReadOnlySpan_1<CLROf<byte>>, tag?: Nullable_1<Asn1Tag>): void;
+    writeIntegerUnsigned(value: ReadOnlySpan_1<CLROf<byte>>, tag?: Nullable_1<Asn1Tag>): void;
+    writeNamedBitList(value: number, tag?: Nullable_1<Asn1Tag>): void;
+    writeNamedBitList<TEnum extends number>(value: TEnum, tag?: Nullable_1<Asn1Tag>): void;
+    writeNamedBitList(value: BitArray, tag?: Nullable_1<Asn1Tag>): void;
+    writeNull(tag?: Nullable_1<Asn1Tag>): void;
+    writeObjectIdentifier(oidValue: string, tag?: Nullable_1<Asn1Tag>): void;
+    writeObjectIdentifier(oidValue: ReadOnlySpan_1<CLROf<string>>, tag?: Nullable_1<Asn1Tag>): void;
+    writeOctetString(value: ReadOnlySpan_1<CLROf<byte>>, tag?: Nullable_1<Asn1Tag>): void;
+    writeUtcTime(value: DateTimeOffset, tag?: Nullable_1<Asn1Tag>): void;
+    writeUtcTime(value: DateTimeOffset, twoDigitYearMax: int, tag?: Nullable_1<Asn1Tag>): void;
 }
 
 

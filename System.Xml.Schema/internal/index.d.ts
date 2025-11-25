@@ -46,140 +46,140 @@ export type CLROf<T> =
     T; // Identity fallback for non-primitive types
 
 export enum XmlSchemaContentProcessing {
-    None = 0,
-    Skip = 1,
-    Lax = 2,
-    Strict = 3
+    none = 0,
+    skip = 1,
+    lax = 2,
+    strict = 3
 }
 
 
 export enum XmlSchemaContentType {
-    TextOnly = 0,
-    Empty = 1,
-    ElementOnly = 2,
-    Mixed = 3
+    textOnly = 0,
+    empty = 1,
+    elementOnly = 2,
+    mixed = 3
 }
 
 
 export enum XmlSchemaDatatypeVariety {
-    Atomic = 0,
-    List = 1,
-    Union = 2
+    atomic = 0,
+    list = 1,
+    union = 2
 }
 
 
 export enum XmlSchemaDerivationMethod {
-    Empty = 0,
-    Substitution = 1,
-    Extension = 2,
-    Restriction = 4,
-    List = 8,
-    Union = 16,
-    All = 255,
-    None = 256
+    empty = 0,
+    substitution = 1,
+    extension = 2,
+    restriction = 4,
+    list = 8,
+    union = 16,
+    all = 255,
+    none = 256
 }
 
 
 export enum XmlSchemaForm {
-    None = 0,
-    Qualified = 1,
-    Unqualified = 2
+    none = 0,
+    qualified = 1,
+    unqualified = 2
 }
 
 
 export enum XmlSchemaInference_InferenceOption {
-    Restricted = 0,
-    Relaxed = 1
+    restricted = 0,
+    relaxed = 1
 }
 
 
 export enum XmlSchemaUse {
-    None = 0,
-    Optional = 1,
-    Prohibited = 2,
-    Required = 3
+    none = 0,
+    optional = 1,
+    prohibited = 2,
+    required = 3
 }
 
 
 export enum XmlSchemaValidationFlags {
-    None = 0,
-    ProcessInlineSchema = 1,
-    ProcessSchemaLocation = 2,
-    ReportValidationWarnings = 4,
-    ProcessIdentityConstraints = 8,
-    AllowXmlAttributes = 16
+    none = 0,
+    processInlineSchema = 1,
+    processSchemaLocation = 2,
+    reportValidationWarnings = 4,
+    processIdentityConstraints = 8,
+    allowXmlAttributes = 16
 }
 
 
 export enum XmlSchemaValidity {
-    NotKnown = 0,
-    Valid = 1,
-    Invalid = 2
+    notKnown = 0,
+    valid = 1,
+    invalid = 2
 }
 
 
 export enum XmlSeverityType {
-    Error = 0,
-    Warning = 1
+    error = 0,
+    warning = 1
 }
 
 
 export enum XmlTypeCode {
-    None = 0,
-    Item = 1,
-    Node = 2,
-    Document = 3,
-    Element = 4,
-    Attribute = 5,
-    Namespace = 6,
-    ProcessingInstruction = 7,
-    Comment = 8,
-    Text = 9,
-    AnyAtomicType = 10,
-    UntypedAtomic = 11,
-    String = 12,
-    Boolean = 13,
-    Decimal = 14,
-    Float = 15,
-    Double = 16,
-    Duration = 17,
-    DateTime = 18,
-    Time = 19,
-    Date = 20,
-    GYearMonth = 21,
-    GYear = 22,
-    GMonthDay = 23,
-    GDay = 24,
-    GMonth = 25,
-    HexBinary = 26,
-    Base64Binary = 27,
-    AnyUri = 28,
-    QName = 29,
-    Notation = 30,
-    NormalizedString = 31,
-    Token = 32,
-    Language = 33,
-    NmToken = 34,
-    Name = 35,
-    NCName = 36,
-    Id = 37,
-    Idref = 38,
-    Entity = 39,
-    Integer = 40,
-    NonPositiveInteger = 41,
-    NegativeInteger = 42,
-    Long = 43,
-    Int = 44,
-    Short = 45,
-    Byte = 46,
-    NonNegativeInteger = 47,
-    UnsignedLong = 48,
-    UnsignedInt = 49,
-    UnsignedShort = 50,
-    UnsignedByte = 51,
-    PositiveInteger = 52,
-    YearMonthDuration = 53,
-    DayTimeDuration = 54
+    none = 0,
+    item = 1,
+    node = 2,
+    document = 3,
+    element = 4,
+    attribute = 5,
+    namespace_ = 6,
+    processingInstruction = 7,
+    comment = 8,
+    text = 9,
+    anyAtomicType = 10,
+    untypedAtomic = 11,
+    string_ = 12,
+    boolean_ = 13,
+    decimal = 14,
+    float = 15,
+    double = 16,
+    duration = 17,
+    dateTime = 18,
+    time = 19,
+    date = 20,
+    gYearMonth = 21,
+    gYear = 22,
+    gMonthDay = 23,
+    gDay = 24,
+    gMonth = 25,
+    hexBinary = 26,
+    base64Binary = 27,
+    anyUri = 28,
+    qName = 29,
+    notation = 30,
+    normalizedString = 31,
+    token = 32,
+    language = 33,
+    nmToken = 34,
+    name = 35,
+    ncName = 36,
+    id = 37,
+    idref = 38,
+    entity = 39,
+    integer = 40,
+    nonPositiveInteger = 41,
+    negativeInteger = 42,
+    long = 43,
+    int = 44,
+    short = 45,
+    byte = 46,
+    nonNegativeInteger = 47,
+    unsignedLong = 48,
+    unsignedInt = 49,
+    unsignedShort = 50,
+    unsignedByte = 51,
+    positiveInteger = 52,
+    yearMonthDuration = 53,
+    dayTimeDuration = 54
 }
 
 
@@ -197,9 +197,9 @@ export interface IXmlSchemaInfo$instance {
 export type IXmlSchemaInfo = IXmlSchemaInfo$instance;
 
 export class ValidationEventArgs$instance extends System_Internal.EventArgs$instance {
-    readonly Exception: XmlSchemaException;
-    readonly Message: string;
-    readonly Severity: XmlSeverityType;
+    readonly exception: XmlSchemaException;
+    readonly message: string;
+    readonly severity: XmlSeverityType;
 }
 
 
@@ -207,11 +207,11 @@ export type ValidationEventArgs = ValidationEventArgs$instance;
 
 export class ValidationEventHandler$instance extends Function {
     constructor(object_: any, method: nint);
-    BeginInvoke(sender: any, e: ValidationEventArgs, callback: AsyncCallback, object_: any): IAsyncResult;
-    Clone(): any;
-    EndInvoke(result: IAsyncResult): void;
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
-    Invoke(sender: any, e: ValidationEventArgs): void;
+    beginInvoke(sender: any, e: ValidationEventArgs, callback: AsyncCallback, object_: any): IAsyncResult;
+    clone(): any;
+    endInvoke(result: IAsyncResult): void;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
+    invoke(sender: any, e: ValidationEventArgs): void;
 }
 
 
@@ -224,20 +224,20 @@ export type ValidationEventHandler = ValidationEventHandler$instance & __Validat
 
 
 export class XmlAtomicValue$instance extends System_Xml_XPath_Internal.XPathItem$instance {
-    readonly IsNode: boolean;
-    readonly TypedValue: any;
-    readonly Value: string;
-    readonly ValueAsBoolean: boolean;
-    readonly ValueAsDateTime: DateTime;
-    readonly ValueAsDouble: double;
-    readonly ValueAsInt: int;
-    readonly ValueAsLong: long;
-    readonly ValueType: Type;
-    readonly XmlType: XmlSchemaType;
-    Clone(): XmlAtomicValue;
-    ToString(): string;
-    ValueAs(type_: Type, nsResolver: IXmlNamespaceResolver): any;
-    ValueAs(returnType: Type): any;
+    readonly isNode: boolean;
+    readonly typedValue: any;
+    readonly value: string;
+    readonly valueAsBoolean: boolean;
+    readonly valueAsDateTime: DateTime;
+    readonly valueAsDouble: double;
+    readonly valueAsInt: int;
+    readonly valueAsLong: long;
+    readonly valueType: Type;
+    readonly xmlType: XmlSchemaType;
+    clone(): XmlAtomicValue;
+    toString(): string;
+    valueAs(type_: Type, nsResolver: IXmlNamespaceResolver): any;
+    valueAs(returnType: Type): any;
 }
 
 
@@ -250,31 +250,31 @@ export type XmlAtomicValue = XmlAtomicValue$instance & __XmlAtomicValue$views;
 
 export class XmlSchema$instance extends XmlSchemaObject$instance {
     constructor();
-    AttributeFormDefault: XmlSchemaForm;
-    readonly AttributeGroups: XmlSchemaObjectTable;
-    readonly Attributes: XmlSchemaObjectTable;
-    BlockDefault: XmlSchemaDerivationMethod;
-    ElementFormDefault: XmlSchemaForm;
-    readonly Elements: XmlSchemaObjectTable;
-    FinalDefault: XmlSchemaDerivationMethod;
-    readonly Groups: XmlSchemaObjectTable;
-    Id: string;
-    readonly Includes: XmlSchemaObjectCollection;
-    readonly IsCompiled: boolean;
-    readonly Items: XmlSchemaObjectCollection;
-    readonly Notations: XmlSchemaObjectTable;
-    readonly SchemaTypes: XmlSchemaObjectTable;
-    TargetNamespace: string;
-    UnhandledAttributes: XmlAttribute[];
-    Version: string;
-    Compile(validationEventHandler: ValidationEventHandler): void;
-    Compile(validationEventHandler: ValidationEventHandler, resolver: XmlResolver): void;
-    Write(stream: Stream): void;
-    Write(stream: Stream, namespaceManager: XmlNamespaceManager): void;
-    Write(writer: TextWriter): void;
-    Write(writer: TextWriter, namespaceManager: XmlNamespaceManager): void;
-    Write(writer: XmlWriter): void;
-    Write(writer: XmlWriter, namespaceManager: XmlNamespaceManager): void;
+    attributeFormDefault: XmlSchemaForm;
+    readonly attributeGroups: XmlSchemaObjectTable;
+    readonly attributes: XmlSchemaObjectTable;
+    blockDefault: XmlSchemaDerivationMethod;
+    elementFormDefault: XmlSchemaForm;
+    readonly elements: XmlSchemaObjectTable;
+    finalDefault: XmlSchemaDerivationMethod;
+    readonly groups: XmlSchemaObjectTable;
+    id: string;
+    readonly includes: XmlSchemaObjectCollection;
+    readonly isCompiled: boolean;
+    readonly items: XmlSchemaObjectCollection;
+    readonly notations: XmlSchemaObjectTable;
+    readonly schemaTypes: XmlSchemaObjectTable;
+    targetNamespace: string;
+    unhandledAttributes: XmlAttribute[];
+    version: string;
+    compile(validationEventHandler: ValidationEventHandler): void;
+    compile(validationEventHandler: ValidationEventHandler, resolver: XmlResolver): void;
+    write(stream: Stream): void;
+    write(stream: Stream, namespaceManager: XmlNamespaceManager): void;
+    write(writer: TextWriter): void;
+    write(writer: TextWriter, namespaceManager: XmlNamespaceManager): void;
+    write(writer: XmlWriter): void;
+    write(writer: XmlWriter, namespaceManager: XmlNamespaceManager): void;
     static readonly Namespace: string;
     static readonly InstanceNamespace: string;
     static Read(stream: Stream, validationEventHandler: ValidationEventHandler): XmlSchema;
@@ -287,7 +287,7 @@ export type XmlSchema = XmlSchema$instance;
 
 export class XmlSchemaAll$instance extends XmlSchemaGroupBase$instance {
     constructor();
-    readonly Items: XmlSchemaObjectCollection;
+    readonly items: XmlSchemaObjectCollection;
 }
 
 
@@ -295,9 +295,9 @@ export type XmlSchemaAll = XmlSchemaAll$instance;
 
 export class XmlSchemaAnnotated$instance extends XmlSchemaObject$instance {
     constructor();
-    Annotation: XmlSchemaAnnotation;
-    Id: string;
-    UnhandledAttributes: XmlAttribute[];
+    annotation: XmlSchemaAnnotation;
+    id: string;
+    unhandledAttributes: XmlAttribute[];
 }
 
 
@@ -305,9 +305,9 @@ export type XmlSchemaAnnotated = XmlSchemaAnnotated$instance;
 
 export class XmlSchemaAnnotation$instance extends XmlSchemaObject$instance {
     constructor();
-    Id: string;
-    readonly Items: XmlSchemaObjectCollection;
-    UnhandledAttributes: XmlAttribute[];
+    id: string;
+    readonly items: XmlSchemaObjectCollection;
+    unhandledAttributes: XmlAttribute[];
 }
 
 
@@ -315,8 +315,8 @@ export type XmlSchemaAnnotation = XmlSchemaAnnotation$instance;
 
 export class XmlSchemaAny$instance extends XmlSchemaParticle$instance {
     constructor();
-    Namespace: string;
-    ProcessContents: XmlSchemaContentProcessing;
+    namespace_: string;
+    processContents: XmlSchemaContentProcessing;
 }
 
 
@@ -324,8 +324,8 @@ export type XmlSchemaAny = XmlSchemaAny$instance;
 
 export class XmlSchemaAnyAttribute$instance extends XmlSchemaAnnotated$instance {
     constructor();
-    Namespace: string;
-    ProcessContents: XmlSchemaContentProcessing;
+    namespace_: string;
+    processContents: XmlSchemaContentProcessing;
 }
 
 
@@ -333,8 +333,8 @@ export type XmlSchemaAnyAttribute = XmlSchemaAnyAttribute$instance;
 
 export class XmlSchemaAppInfo$instance extends XmlSchemaObject$instance {
     constructor();
-    Markup: XmlNode[];
-    Source: string;
+    markup: XmlNode[];
+    source: string;
 }
 
 
@@ -342,17 +342,17 @@ export type XmlSchemaAppInfo = XmlSchemaAppInfo$instance;
 
 export class XmlSchemaAttribute$instance extends XmlSchemaAnnotated$instance {
     constructor();
-    readonly AttributeSchemaType: XmlSchemaSimpleType;
-    readonly AttributeType: any;
-    DefaultValue: string;
-    FixedValue: string;
-    Form: XmlSchemaForm;
-    Name: string;
-    readonly QualifiedName: XmlQualifiedName;
-    RefName: XmlQualifiedName;
-    SchemaType: XmlSchemaSimpleType;
-    SchemaTypeName: XmlQualifiedName;
-    Use: XmlSchemaUse;
+    readonly attributeSchemaType: XmlSchemaSimpleType;
+    readonly attributeType: any;
+    defaultValue: string;
+    fixedValue: string;
+    form: XmlSchemaForm;
+    name: string;
+    readonly qualifiedName: XmlQualifiedName;
+    refName: XmlQualifiedName;
+    schemaType: XmlSchemaSimpleType;
+    schemaTypeName: XmlQualifiedName;
+    use: XmlSchemaUse;
 }
 
 
@@ -360,11 +360,11 @@ export type XmlSchemaAttribute = XmlSchemaAttribute$instance;
 
 export class XmlSchemaAttributeGroup$instance extends XmlSchemaAnnotated$instance {
     constructor();
-    AnyAttribute: XmlSchemaAnyAttribute;
-    readonly Attributes: XmlSchemaObjectCollection;
-    Name: string;
-    readonly QualifiedName: XmlQualifiedName;
-    readonly RedefinedAttributeGroup: XmlSchemaAttributeGroup;
+    anyAttribute: XmlSchemaAnyAttribute;
+    readonly attributes: XmlSchemaObjectCollection;
+    name: string;
+    readonly qualifiedName: XmlQualifiedName;
+    readonly redefinedAttributeGroup: XmlSchemaAttributeGroup;
 }
 
 
@@ -372,7 +372,7 @@ export type XmlSchemaAttributeGroup = XmlSchemaAttributeGroup$instance;
 
 export class XmlSchemaAttributeGroupRef$instance extends XmlSchemaAnnotated$instance {
     constructor();
-    RefName: XmlQualifiedName;
+    refName: XmlQualifiedName;
 }
 
 
@@ -380,7 +380,7 @@ export type XmlSchemaAttributeGroupRef = XmlSchemaAttributeGroupRef$instance;
 
 export class XmlSchemaChoice$instance extends XmlSchemaGroupBase$instance {
     constructor();
-    readonly Items: XmlSchemaObjectCollection;
+    readonly items: XmlSchemaObjectCollection;
 }
 
 
@@ -389,19 +389,19 @@ export type XmlSchemaChoice = XmlSchemaChoice$instance;
 export class XmlSchemaCollection$instance {
     constructor();
     constructor(nametable: XmlNameTable);
-    readonly Count: int;
-    readonly Item: XmlSchema;
-    readonly NameTable: XmlNameTable;
-    Add(ns: string, uri: string): XmlSchema;
-    Add(ns: string, reader: XmlReader): XmlSchema;
-    Add(ns: string, reader: XmlReader, resolver: XmlResolver): XmlSchema;
-    Add(schema: XmlSchema): XmlSchema;
-    Add(schema: XmlSchema, resolver: XmlResolver): XmlSchema;
-    Add(schema: XmlSchemaCollection): void;
-    Contains(schema: XmlSchema): boolean;
-    Contains(ns: string): boolean;
-    CopyTo(array: XmlSchema[], index: int): void;
-    GetEnumerator(): XmlSchemaCollectionEnumerator;
+    readonly count: int;
+    readonly item: XmlSchema;
+    readonly nameTable: XmlNameTable;
+    add(ns: string, uri: string): XmlSchema;
+    add(ns: string, reader: XmlReader): XmlSchema;
+    add(ns: string, reader: XmlReader, resolver: XmlResolver): XmlSchema;
+    add(schema: XmlSchema): XmlSchema;
+    add(schema: XmlSchema, resolver: XmlResolver): XmlSchema;
+    add(schema: XmlSchemaCollection): void;
+    contains(schema: XmlSchema): boolean;
+    contains(ns: string): boolean;
+    copyTo(array: XmlSchema[], index: int): void;
+    getEnumerator(): XmlSchemaCollectionEnumerator;
 }
 
 
@@ -414,8 +414,8 @@ export type XmlSchemaCollection = XmlSchemaCollection$instance & __XmlSchemaColl
 
 
 export class XmlSchemaCollectionEnumerator$instance {
-    readonly Current: any | XmlSchema;
-    MoveNext(): boolean;
+    readonly current: any | XmlSchema;
+    moveNext(): boolean;
 }
 
 
@@ -428,7 +428,7 @@ export type XmlSchemaCollectionEnumerator = XmlSchemaCollectionEnumerator$instan
 
 export class XmlSchemaCompilationSettings$instance {
     constructor();
-    EnableUpaCheck: boolean;
+    enableUpaCheck: boolean;
 }
 
 
@@ -436,8 +436,8 @@ export type XmlSchemaCompilationSettings = XmlSchemaCompilationSettings$instance
 
 export class XmlSchemaComplexContent$instance extends XmlSchemaContentModel$instance {
     constructor();
-    Content: XmlSchemaContent;
-    IsMixed: boolean;
+    content: XmlSchemaContent;
+    isMixed: boolean;
 }
 
 
@@ -445,10 +445,10 @@ export type XmlSchemaComplexContent = XmlSchemaComplexContent$instance;
 
 export class XmlSchemaComplexContentExtension$instance extends XmlSchemaContent$instance {
     constructor();
-    AnyAttribute: XmlSchemaAnyAttribute;
-    readonly Attributes: XmlSchemaObjectCollection;
-    BaseTypeName: XmlQualifiedName;
-    Particle: XmlSchemaParticle;
+    anyAttribute: XmlSchemaAnyAttribute;
+    readonly attributes: XmlSchemaObjectCollection;
+    baseTypeName: XmlQualifiedName;
+    particle: XmlSchemaParticle;
 }
 
 
@@ -456,10 +456,10 @@ export type XmlSchemaComplexContentExtension = XmlSchemaComplexContentExtension$
 
 export class XmlSchemaComplexContentRestriction$instance extends XmlSchemaContent$instance {
     constructor();
-    AnyAttribute: XmlSchemaAnyAttribute;
-    readonly Attributes: XmlSchemaObjectCollection;
-    BaseTypeName: XmlQualifiedName;
-    Particle: XmlSchemaParticle;
+    anyAttribute: XmlSchemaAnyAttribute;
+    readonly attributes: XmlSchemaObjectCollection;
+    baseTypeName: XmlQualifiedName;
+    particle: XmlSchemaParticle;
 }
 
 
@@ -467,18 +467,18 @@ export type XmlSchemaComplexContentRestriction = XmlSchemaComplexContentRestrict
 
 export class XmlSchemaComplexType$instance extends XmlSchemaType$instance {
     constructor();
-    AnyAttribute: XmlSchemaAnyAttribute;
-    readonly Attributes: XmlSchemaObjectCollection;
-    readonly AttributeUses: XmlSchemaObjectTable;
-    readonly AttributeWildcard: XmlSchemaAnyAttribute;
-    Block: XmlSchemaDerivationMethod;
-    readonly BlockResolved: XmlSchemaDerivationMethod;
-    ContentModel: XmlSchemaContentModel;
-    readonly ContentType: XmlSchemaContentType;
-    readonly ContentTypeParticle: XmlSchemaParticle;
-    IsAbstract: boolean;
-    IsMixed: boolean;
-    Particle: XmlSchemaParticle;
+    anyAttribute: XmlSchemaAnyAttribute;
+    readonly attributes: XmlSchemaObjectCollection;
+    readonly attributeUses: XmlSchemaObjectTable;
+    readonly attributeWildcard: XmlSchemaAnyAttribute;
+    block: XmlSchemaDerivationMethod;
+    readonly blockResolved: XmlSchemaDerivationMethod;
+    contentModel: XmlSchemaContentModel;
+    readonly contentType: XmlSchemaContentType;
+    readonly contentTypeParticle: XmlSchemaParticle;
+    isAbstract: boolean;
+    isMixed: boolean;
+    particle: XmlSchemaParticle;
 }
 
 
@@ -491,21 +491,21 @@ export abstract class XmlSchemaContent$instance extends XmlSchemaAnnotated$insta
 export type XmlSchemaContent = XmlSchemaContent$instance;
 
 export abstract class XmlSchemaContentModel$instance extends XmlSchemaAnnotated$instance {
-    Content: XmlSchemaContent;
+    content: XmlSchemaContent;
 }
 
 
 export type XmlSchemaContentModel = XmlSchemaContentModel$instance;
 
 export abstract class XmlSchemaDatatype$instance {
-    readonly TokenizedType: XmlTokenizedType;
-    readonly TypeCode: XmlTypeCode;
-    readonly ValueType: Type;
-    readonly Variety: XmlSchemaDatatypeVariety;
-    ChangeType(value: any, targetType: Type): any;
-    ChangeType(value: any, targetType: Type, namespaceResolver: IXmlNamespaceResolver): any;
-    IsDerivedFrom(datatype: XmlSchemaDatatype): boolean;
-    abstract ParseValue(s: string, nameTable: XmlNameTable, nsmgr: IXmlNamespaceResolver): any;
+    readonly tokenizedType: XmlTokenizedType;
+    readonly typeCode: XmlTypeCode;
+    readonly valueType: Type;
+    readonly variety: XmlSchemaDatatypeVariety;
+    changeType(value: any, targetType: Type): any;
+    changeType(value: any, targetType: Type, namespaceResolver: IXmlNamespaceResolver): any;
+    isDerivedFrom(datatype: XmlSchemaDatatype): boolean;
+    abstract parseValue(s: string, nameTable: XmlNameTable, nsmgr: IXmlNamespaceResolver): any;
 }
 
 
@@ -513,9 +513,9 @@ export type XmlSchemaDatatype = XmlSchemaDatatype$instance;
 
 export class XmlSchemaDocumentation$instance extends XmlSchemaObject$instance {
     constructor();
-    Language: string;
-    Markup: XmlNode[];
-    Source: string;
+    language: string;
+    markup: XmlNode[];
+    source: string;
 }
 
 
@@ -523,24 +523,24 @@ export type XmlSchemaDocumentation = XmlSchemaDocumentation$instance;
 
 export class XmlSchemaElement$instance extends XmlSchemaParticle$instance {
     constructor();
-    Block: XmlSchemaDerivationMethod;
-    readonly BlockResolved: XmlSchemaDerivationMethod;
-    readonly Constraints: XmlSchemaObjectCollection;
-    DefaultValue: string;
-    readonly ElementSchemaType: XmlSchemaType;
-    readonly ElementType: any;
-    Final: XmlSchemaDerivationMethod;
-    readonly FinalResolved: XmlSchemaDerivationMethod;
-    FixedValue: string;
-    Form: XmlSchemaForm;
-    IsAbstract: boolean;
-    IsNillable: boolean;
-    Name: string;
-    readonly QualifiedName: XmlQualifiedName;
-    RefName: XmlQualifiedName;
-    SchemaType: XmlSchemaType;
-    SchemaTypeName: XmlQualifiedName;
-    SubstitutionGroup: XmlQualifiedName;
+    block: XmlSchemaDerivationMethod;
+    readonly blockResolved: XmlSchemaDerivationMethod;
+    readonly constraints: XmlSchemaObjectCollection;
+    defaultValue: string;
+    readonly elementSchemaType: XmlSchemaType;
+    readonly elementType: any;
+    final: XmlSchemaDerivationMethod;
+    readonly finalResolved: XmlSchemaDerivationMethod;
+    fixedValue: string;
+    form: XmlSchemaForm;
+    isAbstract: boolean;
+    isNillable: boolean;
+    name: string;
+    readonly qualifiedName: XmlQualifiedName;
+    refName: XmlQualifiedName;
+    schemaType: XmlSchemaType;
+    schemaTypeName: XmlQualifiedName;
+    substitutionGroup: XmlQualifiedName;
 }
 
 
@@ -558,12 +558,12 @@ export class XmlSchemaException$instance extends System_Internal.SystemException
     constructor(message: string);
     constructor(message: string, innerException: Exception);
     constructor(message: string, innerException: Exception, lineNumber: int, linePosition: int);
-    readonly LineNumber: int;
-    readonly LinePosition: int;
-    readonly Message: string;
-    readonly SourceSchemaObject: XmlSchemaObject;
-    readonly SourceUri: string;
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    readonly lineNumber: int;
+    readonly linePosition: int;
+    readonly message: string;
+    readonly sourceSchemaObject: XmlSchemaObject;
+    readonly sourceUri: string;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
@@ -575,18 +575,18 @@ export type XmlSchemaException = XmlSchemaException$instance & __XmlSchemaExcept
 
 
 export abstract class XmlSchemaExternal$instance extends XmlSchemaObject$instance {
-    Id: string;
-    Schema: XmlSchema;
-    SchemaLocation: string;
-    UnhandledAttributes: XmlAttribute[];
+    id: string;
+    schema: XmlSchema;
+    schemaLocation: string;
+    unhandledAttributes: XmlAttribute[];
 }
 
 
 export type XmlSchemaExternal = XmlSchemaExternal$instance;
 
 export abstract class XmlSchemaFacet$instance extends XmlSchemaAnnotated$instance {
-    IsFixed: boolean;
-    Value: string;
+    isFixed: boolean;
+    value: string;
 }
 
 
@@ -601,16 +601,16 @@ export type XmlSchemaFractionDigitsFacet = XmlSchemaFractionDigitsFacet$instance
 
 export class XmlSchemaGroup$instance extends XmlSchemaAnnotated$instance {
     constructor();
-    Name: string;
-    Particle: XmlSchemaGroupBase;
-    readonly QualifiedName: XmlQualifiedName;
+    name: string;
+    particle: XmlSchemaGroupBase;
+    readonly qualifiedName: XmlQualifiedName;
 }
 
 
 export type XmlSchemaGroup = XmlSchemaGroup$instance;
 
 export abstract class XmlSchemaGroupBase$instance extends XmlSchemaParticle$instance {
-    readonly Items: XmlSchemaObjectCollection;
+    readonly items: XmlSchemaObjectCollection;
 }
 
 
@@ -618,8 +618,8 @@ export type XmlSchemaGroupBase = XmlSchemaGroupBase$instance;
 
 export class XmlSchemaGroupRef$instance extends XmlSchemaParticle$instance {
     constructor();
-    readonly Particle: XmlSchemaGroupBase;
-    RefName: XmlQualifiedName;
+    readonly particle: XmlSchemaGroupBase;
+    refName: XmlQualifiedName;
 }
 
 
@@ -627,10 +627,10 @@ export type XmlSchemaGroupRef = XmlSchemaGroupRef$instance;
 
 export class XmlSchemaIdentityConstraint$instance extends XmlSchemaAnnotated$instance {
     constructor();
-    readonly Fields: XmlSchemaObjectCollection;
-    Name: string;
-    readonly QualifiedName: XmlQualifiedName;
-    Selector: XmlSchemaXPath;
+    readonly fields: XmlSchemaObjectCollection;
+    name: string;
+    readonly qualifiedName: XmlQualifiedName;
+    selector: XmlSchemaXPath;
 }
 
 
@@ -638,8 +638,8 @@ export type XmlSchemaIdentityConstraint = XmlSchemaIdentityConstraint$instance;
 
 export class XmlSchemaImport$instance extends XmlSchemaExternal$instance {
     constructor();
-    Annotation: XmlSchemaAnnotation;
-    Namespace: string;
+    annotation: XmlSchemaAnnotation;
+    namespace_: string;
 }
 
 
@@ -647,7 +647,7 @@ export type XmlSchemaImport = XmlSchemaImport$instance;
 
 export class XmlSchemaInclude$instance extends XmlSchemaExternal$instance {
     constructor();
-    Annotation: XmlSchemaAnnotation;
+    annotation: XmlSchemaAnnotation;
 }
 
 
@@ -655,10 +655,10 @@ export type XmlSchemaInclude = XmlSchemaInclude$instance;
 
 export class XmlSchemaInference$instance {
     constructor();
-    Occurrence: XmlSchemaInference_InferenceOption;
-    TypeInference: XmlSchemaInference_InferenceOption;
-    InferSchema(instanceDocument: XmlReader): XmlSchemaSet;
-    InferSchema(instanceDocument: XmlReader, schemas: XmlSchemaSet): XmlSchemaSet;
+    occurrence: XmlSchemaInference_InferenceOption;
+    typeInference: XmlSchemaInference_InferenceOption;
+    inferSchema(instanceDocument: XmlReader): XmlSchemaSet;
+    inferSchema(instanceDocument: XmlReader, schemas: XmlSchemaSet): XmlSchemaSet;
 }
 
 
@@ -669,7 +669,7 @@ export class XmlSchemaInferenceException$instance extends XmlSchemaException$ins
     constructor(message: string);
     constructor(message: string, innerException: Exception);
     constructor(message: string, innerException: Exception, lineNumber: int, linePosition: int);
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
@@ -682,14 +682,14 @@ export type XmlSchemaInferenceException = XmlSchemaInferenceException$instance &
 
 export class XmlSchemaInfo$instance {
     constructor();
-    ContentType: XmlSchemaContentType;
-    IsDefault: boolean;
-    IsNil: boolean;
-    MemberType: XmlSchemaSimpleType;
-    SchemaAttribute: XmlSchemaAttribute;
-    SchemaElement: XmlSchemaElement;
-    SchemaType: XmlSchemaType;
-    Validity: XmlSchemaValidity;
+    contentType: XmlSchemaContentType;
+    isDefault: boolean;
+    isNil: boolean;
+    memberType: XmlSchemaSimpleType;
+    schemaAttribute: XmlSchemaAttribute;
+    schemaElement: XmlSchemaElement;
+    schemaType: XmlSchemaType;
+    validity: XmlSchemaValidity;
 }
 
 
@@ -709,7 +709,7 @@ export type XmlSchemaKey = XmlSchemaKey$instance;
 
 export class XmlSchemaKeyref$instance extends XmlSchemaIdentityConstraint$instance {
     constructor();
-    Refer: XmlQualifiedName;
+    refer: XmlQualifiedName;
 }
 
 
@@ -766,9 +766,9 @@ export type XmlSchemaMinLengthFacet = XmlSchemaMinLengthFacet$instance;
 
 export class XmlSchemaNotation$instance extends XmlSchemaAnnotated$instance {
     constructor();
-    Name: string;
-    Public: string;
-    System: string;
+    name: string;
+    public_: string;
+    system: string;
 }
 
 
@@ -781,11 +781,11 @@ export abstract class XmlSchemaNumericFacet$instance extends XmlSchemaFacet$inst
 export type XmlSchemaNumericFacet = XmlSchemaNumericFacet$instance;
 
 export abstract class XmlSchemaObject$instance {
-    LineNumber: int;
-    LinePosition: int;
-    Namespaces: XmlSerializerNamespaces;
-    Parent: XmlSchemaObject;
-    SourceUri: string;
+    lineNumber: int;
+    linePosition: int;
+    namespaces: XmlSerializerNamespaces;
+    parent: XmlSchemaObject;
+    sourceUri: string;
 }
 
 
@@ -794,16 +794,16 @@ export type XmlSchemaObject = XmlSchemaObject$instance;
 export class XmlSchemaObjectCollection$instance extends System_Collections_Internal.CollectionBase$instance {
     constructor();
     constructor(parent: XmlSchemaObject);
-    Item: XmlSchemaObject;
-    Add(value: any): int;
-    Clear(): void;
-    Contains(value: any): boolean;
-    CopyTo(array: ClrArray, index: int): void;
-    GetEnumerator(): IEnumerator;
-    IndexOf(item: XmlSchemaObject): int;
-    Insert(index: int, value: any): void;
-    Remove(value: any): void;
-    RemoveAt(index: int): void;
+    item: XmlSchemaObject;
+    add(value: any): int;
+    clear(): void;
+    contains(value: any): boolean;
+    copyTo(array: ClrArray, index: int): void;
+    getEnumerator(): IEnumerator;
+    indexOf(item: XmlSchemaObject): int;
+    insert(index: int, value: any): void;
+    remove(value: any): void;
+    removeAt(index: int): void;
 }
 
 
@@ -817,9 +817,9 @@ export type XmlSchemaObjectCollection = XmlSchemaObjectCollection$instance & __X
 
 
 export class XmlSchemaObjectEnumerator$instance {
-    readonly Current: any | XmlSchemaObject;
-    MoveNext(): boolean;
-    Reset(): void;
+    readonly current: any | XmlSchemaObject;
+    moveNext(): boolean;
+    reset(): void;
 }
 
 
@@ -831,22 +831,22 @@ export type XmlSchemaObjectEnumerator = XmlSchemaObjectEnumerator$instance & __X
 
 
 export class XmlSchemaObjectTable$instance {
-    readonly Count: int;
-    readonly Item: XmlSchemaObject;
-    readonly Names: ICollection;
-    readonly Values: ICollection;
-    Contains(name: XmlQualifiedName): boolean;
-    GetEnumerator(): IDictionaryEnumerator;
+    readonly count: int;
+    readonly item: XmlSchemaObject;
+    readonly names: ICollection;
+    readonly values: ICollection;
+    contains(name: XmlQualifiedName): boolean;
+    getEnumerator(): IDictionaryEnumerator;
 }
 
 
 export type XmlSchemaObjectTable = XmlSchemaObjectTable$instance;
 
 export abstract class XmlSchemaParticle$instance extends XmlSchemaAnnotated$instance {
-    MaxOccurs: decimal;
-    MaxOccursString: string;
-    MinOccurs: decimal;
-    MinOccursString: string;
+    maxOccurs: decimal;
+    maxOccursString: string;
+    minOccurs: decimal;
+    minOccursString: string;
 }
 
 
@@ -861,10 +861,10 @@ export type XmlSchemaPatternFacet = XmlSchemaPatternFacet$instance;
 
 export class XmlSchemaRedefine$instance extends XmlSchemaExternal$instance {
     constructor();
-    readonly AttributeGroups: XmlSchemaObjectTable;
-    readonly Groups: XmlSchemaObjectTable;
-    readonly Items: XmlSchemaObjectCollection;
-    readonly SchemaTypes: XmlSchemaObjectTable;
+    readonly attributeGroups: XmlSchemaObjectTable;
+    readonly groups: XmlSchemaObjectTable;
+    readonly items: XmlSchemaObjectCollection;
+    readonly schemaTypes: XmlSchemaObjectTable;
 }
 
 
@@ -872,7 +872,7 @@ export type XmlSchemaRedefine = XmlSchemaRedefine$instance;
 
 export class XmlSchemaSequence$instance extends XmlSchemaGroupBase$instance {
     constructor();
-    readonly Items: XmlSchemaObjectCollection;
+    readonly items: XmlSchemaObjectCollection;
 }
 
 
@@ -881,27 +881,27 @@ export type XmlSchemaSequence = XmlSchemaSequence$instance;
 export class XmlSchemaSet$instance {
     constructor();
     constructor(nameTable: XmlNameTable);
-    CompilationSettings: XmlSchemaCompilationSettings;
-    readonly Count: int;
-    readonly GlobalAttributes: XmlSchemaObjectTable;
-    readonly GlobalElements: XmlSchemaObjectTable;
-    readonly GlobalTypes: XmlSchemaObjectTable;
-    readonly IsCompiled: boolean;
-    readonly NameTable: XmlNameTable;
-    XmlResolver: XmlResolver;
-    Add(targetNamespace: string, schemaUri: string): XmlSchema;
-    Add(targetNamespace: string, schemaDocument: XmlReader): XmlSchema;
-    Add(schemas: XmlSchemaSet): void;
-    Add(schema: XmlSchema): XmlSchema;
-    Compile(): void;
-    Contains(targetNamespace: string): boolean;
-    Contains(schema: XmlSchema): boolean;
-    CopyTo(schemas: XmlSchema[], index: int): void;
-    Remove(schema: XmlSchema): XmlSchema;
-    RemoveRecursive(schemaToRemove: XmlSchema): boolean;
-    Reprocess(schema: XmlSchema): XmlSchema;
-    Schemas(): ICollection;
-    Schemas(targetNamespace: string): ICollection;
+    compilationSettings: XmlSchemaCompilationSettings;
+    readonly count: int;
+    readonly globalAttributes: XmlSchemaObjectTable;
+    readonly globalElements: XmlSchemaObjectTable;
+    readonly globalTypes: XmlSchemaObjectTable;
+    readonly isCompiled: boolean;
+    readonly nameTable: XmlNameTable;
+    xmlResolver: XmlResolver;
+    add(targetNamespace: string, schemaUri: string): XmlSchema;
+    add(targetNamespace: string, schemaDocument: XmlReader): XmlSchema;
+    add(schemas: XmlSchemaSet): void;
+    add(schema: XmlSchema): XmlSchema;
+    compile(): void;
+    contains(targetNamespace: string): boolean;
+    contains(schema: XmlSchema): boolean;
+    copyTo(schemas: XmlSchema[], index: int): void;
+    remove(schema: XmlSchema): XmlSchema;
+    removeRecursive(schemaToRemove: XmlSchema): boolean;
+    reprocess(schema: XmlSchema): XmlSchema;
+    schemas(): ICollection;
+    schemas(targetNamespace: string): ICollection;
 }
 
 
@@ -909,7 +909,7 @@ export type XmlSchemaSet = XmlSchemaSet$instance;
 
 export class XmlSchemaSimpleContent$instance extends XmlSchemaContentModel$instance {
     constructor();
-    Content: XmlSchemaContent;
+    content: XmlSchemaContent;
 }
 
 
@@ -917,9 +917,9 @@ export type XmlSchemaSimpleContent = XmlSchemaSimpleContent$instance;
 
 export class XmlSchemaSimpleContentExtension$instance extends XmlSchemaContent$instance {
     constructor();
-    AnyAttribute: XmlSchemaAnyAttribute;
-    readonly Attributes: XmlSchemaObjectCollection;
-    BaseTypeName: XmlQualifiedName;
+    anyAttribute: XmlSchemaAnyAttribute;
+    readonly attributes: XmlSchemaObjectCollection;
+    baseTypeName: XmlQualifiedName;
 }
 
 
@@ -927,11 +927,11 @@ export type XmlSchemaSimpleContentExtension = XmlSchemaSimpleContentExtension$in
 
 export class XmlSchemaSimpleContentRestriction$instance extends XmlSchemaContent$instance {
     constructor();
-    AnyAttribute: XmlSchemaAnyAttribute;
-    readonly Attributes: XmlSchemaObjectCollection;
-    BaseType: XmlSchemaSimpleType;
-    BaseTypeName: XmlQualifiedName;
-    readonly Facets: XmlSchemaObjectCollection;
+    anyAttribute: XmlSchemaAnyAttribute;
+    readonly attributes: XmlSchemaObjectCollection;
+    baseType: XmlSchemaSimpleType;
+    baseTypeName: XmlQualifiedName;
+    readonly facets: XmlSchemaObjectCollection;
 }
 
 
@@ -939,7 +939,7 @@ export type XmlSchemaSimpleContentRestriction = XmlSchemaSimpleContentRestrictio
 
 export class XmlSchemaSimpleType$instance extends XmlSchemaType$instance {
     constructor();
-    Content: XmlSchemaSimpleTypeContent;
+    content: XmlSchemaSimpleTypeContent;
 }
 
 
@@ -953,9 +953,9 @@ export type XmlSchemaSimpleTypeContent = XmlSchemaSimpleTypeContent$instance;
 
 export class XmlSchemaSimpleTypeList$instance extends XmlSchemaSimpleTypeContent$instance {
     constructor();
-    BaseItemType: XmlSchemaSimpleType;
-    ItemType: XmlSchemaSimpleType;
-    ItemTypeName: XmlQualifiedName;
+    baseItemType: XmlSchemaSimpleType;
+    itemType: XmlSchemaSimpleType;
+    itemTypeName: XmlQualifiedName;
 }
 
 
@@ -963,9 +963,9 @@ export type XmlSchemaSimpleTypeList = XmlSchemaSimpleTypeList$instance;
 
 export class XmlSchemaSimpleTypeRestriction$instance extends XmlSchemaSimpleTypeContent$instance {
     constructor();
-    BaseType: XmlSchemaSimpleType;
-    BaseTypeName: XmlQualifiedName;
-    readonly Facets: XmlSchemaObjectCollection;
+    baseType: XmlSchemaSimpleType;
+    baseTypeName: XmlQualifiedName;
+    readonly facets: XmlSchemaObjectCollection;
 }
 
 
@@ -973,9 +973,9 @@ export type XmlSchemaSimpleTypeRestriction = XmlSchemaSimpleTypeRestriction$inst
 
 export class XmlSchemaSimpleTypeUnion$instance extends XmlSchemaSimpleTypeContent$instance {
     constructor();
-    readonly BaseMemberTypes: XmlSchemaSimpleType[];
-    readonly BaseTypes: XmlSchemaObjectCollection;
-    MemberTypes: XmlQualifiedName[];
+    readonly baseMemberTypes: XmlSchemaSimpleType[];
+    readonly baseTypes: XmlSchemaObjectCollection;
+    memberTypes: XmlQualifiedName[];
 }
 
 
@@ -990,16 +990,16 @@ export type XmlSchemaTotalDigitsFacet = XmlSchemaTotalDigitsFacet$instance;
 
 export class XmlSchemaType$instance extends XmlSchemaAnnotated$instance {
     constructor();
-    readonly BaseSchemaType: any;
-    readonly BaseXmlSchemaType: XmlSchemaType;
-    readonly Datatype: XmlSchemaDatatype;
-    readonly DerivedBy: XmlSchemaDerivationMethod;
-    Final: XmlSchemaDerivationMethod;
-    readonly FinalResolved: XmlSchemaDerivationMethod;
-    IsMixed: boolean;
-    Name: string;
-    readonly QualifiedName: XmlQualifiedName;
-    readonly TypeCode: XmlTypeCode;
+    readonly baseSchemaType: any;
+    readonly baseXmlSchemaType: XmlSchemaType;
+    readonly datatype: XmlSchemaDatatype;
+    readonly derivedBy: XmlSchemaDerivationMethod;
+    final: XmlSchemaDerivationMethod;
+    readonly finalResolved: XmlSchemaDerivationMethod;
+    isMixed: boolean;
+    name: string;
+    readonly qualifiedName: XmlQualifiedName;
+    readonly typeCode: XmlTypeCode;
     static GetBuiltInComplexType(typeCode: XmlTypeCode): XmlSchemaComplexType;
     static GetBuiltInComplexType(qualifiedName: XmlQualifiedName): XmlSchemaComplexType;
     static GetBuiltInSimpleType(typeCode: XmlTypeCode): XmlSchemaSimpleType;
@@ -1022,8 +1022,8 @@ export class XmlSchemaValidationException$instance extends XmlSchemaException$in
     constructor(message: string);
     constructor(message: string, innerException: Exception);
     constructor(message: string, innerException: Exception, lineNumber: int, linePosition: int);
-    readonly SourceObject: any;
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    readonly sourceObject: any;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
@@ -1036,29 +1036,29 @@ export type XmlSchemaValidationException = XmlSchemaValidationException$instance
 
 export class XmlSchemaValidator$instance {
     constructor(nameTable: XmlNameTable, schemas: XmlSchemaSet, namespaceResolver: IXmlNamespaceResolver, validationFlags: XmlSchemaValidationFlags);
-    LineInfoProvider: IXmlLineInfo;
-    SourceUri: Uri;
-    ValidationEventSender: any;
-    XmlResolver: XmlResolver;
-    AddSchema(schema: XmlSchema): void;
-    EndValidation(): void;
-    GetExpectedAttributes(): XmlSchemaAttribute[];
-    GetExpectedParticles(): XmlSchemaParticle[];
-    GetUnspecifiedDefaultAttributes(defaultAttributes: ArrayList): void;
-    Initialize(): void;
-    Initialize(partialValidationType: XmlSchemaObject): void;
-    SkipToEndElement(schemaInfo: XmlSchemaInfo): void;
-    ValidateAttribute(localName: string, namespaceUri: string, attributeValue: string, schemaInfo: XmlSchemaInfo): any;
-    ValidateAttribute(localName: string, namespaceUri: string, attributeValue: XmlValueGetter, schemaInfo: XmlSchemaInfo): any;
-    ValidateElement(localName: string, namespaceUri: string, schemaInfo: XmlSchemaInfo): void;
-    ValidateElement(localName: string, namespaceUri: string, schemaInfo: XmlSchemaInfo, xsiType: string, xsiNil: string, xsiSchemaLocation: string, xsiNoNamespaceSchemaLocation: string): void;
-    ValidateEndElement(schemaInfo: XmlSchemaInfo): any;
-    ValidateEndElement(schemaInfo: XmlSchemaInfo, typedValue: any): any;
-    ValidateEndOfAttributes(schemaInfo: XmlSchemaInfo): void;
-    ValidateText(elementValue: string): void;
-    ValidateText(elementValue: XmlValueGetter): void;
-    ValidateWhitespace(elementValue: string): void;
-    ValidateWhitespace(elementValue: XmlValueGetter): void;
+    lineInfoProvider: IXmlLineInfo;
+    sourceUri: Uri;
+    validationEventSender: any;
+    xmlResolver: XmlResolver;
+    addSchema(schema: XmlSchema): void;
+    endValidation(): void;
+    getExpectedAttributes(): XmlSchemaAttribute[];
+    getExpectedParticles(): XmlSchemaParticle[];
+    getUnspecifiedDefaultAttributes(defaultAttributes: ArrayList): void;
+    initialize(): void;
+    initialize(partialValidationType: XmlSchemaObject): void;
+    skipToEndElement(schemaInfo: XmlSchemaInfo): void;
+    validateAttribute(localName: string, namespaceUri: string, attributeValue: string, schemaInfo: XmlSchemaInfo): any;
+    validateAttribute(localName: string, namespaceUri: string, attributeValue: XmlValueGetter, schemaInfo: XmlSchemaInfo): any;
+    validateElement(localName: string, namespaceUri: string, schemaInfo: XmlSchemaInfo): void;
+    validateElement(localName: string, namespaceUri: string, schemaInfo: XmlSchemaInfo, xsiType: string, xsiNil: string, xsiSchemaLocation: string, xsiNoNamespaceSchemaLocation: string): void;
+    validateEndElement(schemaInfo: XmlSchemaInfo): any;
+    validateEndElement(schemaInfo: XmlSchemaInfo, typedValue: any): any;
+    validateEndOfAttributes(schemaInfo: XmlSchemaInfo): void;
+    validateText(elementValue: string): void;
+    validateText(elementValue: XmlValueGetter): void;
+    validateWhitespace(elementValue: string): void;
+    validateWhitespace(elementValue: XmlValueGetter): void;
 }
 
 
@@ -1073,7 +1073,7 @@ export type XmlSchemaWhiteSpaceFacet = XmlSchemaWhiteSpaceFacet$instance;
 
 export class XmlSchemaXPath$instance extends XmlSchemaAnnotated$instance {
     constructor();
-    XPath: string;
+    xPath: string;
 }
 
 
@@ -1081,11 +1081,11 @@ export type XmlSchemaXPath = XmlSchemaXPath$instance;
 
 export class XmlValueGetter$instance extends Function {
     constructor(object_: any, method: nint);
-    BeginInvoke(callback: AsyncCallback, object_: any): IAsyncResult;
-    Clone(): any;
-    EndInvoke(result: IAsyncResult): any;
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
-    Invoke(): any;
+    beginInvoke(callback: AsyncCallback, object_: any): IAsyncResult;
+    clone(): any;
+    endInvoke(result: IAsyncResult): any;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
+    invoke(): any;
 }
 
 

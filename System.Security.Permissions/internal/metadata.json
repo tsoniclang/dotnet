@@ -29,7 +29,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Security.Permissions.PermissionState::NoneSystem.Security.Permissions.PermissionState",
           "clrName": "None",
-          "tsEmitName": "None",
+          "tsEmitName": "none",
           "normalizedSignature": "None|System.Security.Permissions.PermissionState|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -38,7 +38,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Security.Permissions.PermissionState::UnrestrictedSystem.Security.Permissions.PermissionState",
           "clrName": "Unrestricted",
-          "tsEmitName": "Unrestricted",
+          "tsEmitName": "unrestricted",
           "normalizedSignature": "Unrestricted|System.Security.Permissions.PermissionState|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -73,7 +73,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Security.Permissions.SecurityAction::AssertSystem.Security.Permissions.SecurityAction",
           "clrName": "Assert",
-          "tsEmitName": "Assert",
+          "tsEmitName": "assert",
           "normalizedSignature": "Assert|System.Security.Permissions.SecurityAction|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -82,7 +82,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Security.Permissions.SecurityAction::DemandSystem.Security.Permissions.SecurityAction",
           "clrName": "Demand",
-          "tsEmitName": "Demand",
+          "tsEmitName": "demand",
           "normalizedSignature": "Demand|System.Security.Permissions.SecurityAction|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -91,7 +91,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Security.Permissions.SecurityAction::DenySystem.Security.Permissions.SecurityAction",
           "clrName": "Deny",
-          "tsEmitName": "Deny",
+          "tsEmitName": "deny",
           "normalizedSignature": "Deny|System.Security.Permissions.SecurityAction|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -100,7 +100,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Security.Permissions.SecurityAction::InheritanceDemandSystem.Security.Permissions.SecurityAction",
           "clrName": "InheritanceDemand",
-          "tsEmitName": "InheritanceDemand",
+          "tsEmitName": "inheritanceDemand",
           "normalizedSignature": "InheritanceDemand|System.Security.Permissions.SecurityAction|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -109,7 +109,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Security.Permissions.SecurityAction::LinkDemandSystem.Security.Permissions.SecurityAction",
           "clrName": "LinkDemand",
-          "tsEmitName": "LinkDemand",
+          "tsEmitName": "linkDemand",
           "normalizedSignature": "LinkDemand|System.Security.Permissions.SecurityAction|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -118,7 +118,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Security.Permissions.SecurityAction::PermitOnlySystem.Security.Permissions.SecurityAction",
           "clrName": "PermitOnly",
-          "tsEmitName": "PermitOnly",
+          "tsEmitName": "permitOnly",
           "normalizedSignature": "PermitOnly|System.Security.Permissions.SecurityAction|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -127,7 +127,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Security.Permissions.SecurityAction::RequestMinimumSystem.Security.Permissions.SecurityAction",
           "clrName": "RequestMinimum",
-          "tsEmitName": "RequestMinimum",
+          "tsEmitName": "requestMinimum",
           "normalizedSignature": "RequestMinimum|System.Security.Permissions.SecurityAction|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -136,7 +136,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Security.Permissions.SecurityAction::RequestOptionalSystem.Security.Permissions.SecurityAction",
           "clrName": "RequestOptional",
-          "tsEmitName": "RequestOptional",
+          "tsEmitName": "requestOptional",
           "normalizedSignature": "RequestOptional|System.Security.Permissions.SecurityAction|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -145,7 +145,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Security.Permissions.SecurityAction::RequestRefuseSystem.Security.Permissions.SecurityAction",
           "clrName": "RequestRefuse",
-          "tsEmitName": "RequestRefuse",
+          "tsEmitName": "requestRefuse",
           "normalizedSignature": "RequestRefuse|System.Security.Permissions.SecurityAction|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -180,7 +180,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Security.Permissions.SecurityPermissionFlag::AllFlagsSystem.Security.Permissions.SecurityPermissionFlag",
           "clrName": "AllFlags",
-          "tsEmitName": "AllFlags",
+          "tsEmitName": "allFlags",
           "normalizedSignature": "AllFlags|System.Security.Permissions.SecurityPermissionFlag|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -189,7 +189,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Security.Permissions.SecurityPermissionFlag::AssertionSystem.Security.Permissions.SecurityPermissionFlag",
           "clrName": "Assertion",
-          "tsEmitName": "Assertion",
+          "tsEmitName": "assertion",
           "normalizedSignature": "Assertion|System.Security.Permissions.SecurityPermissionFlag|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -198,7 +198,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Security.Permissions.SecurityPermissionFlag::BindingRedirectsSystem.Security.Permissions.SecurityPermissionFlag",
           "clrName": "BindingRedirects",
-          "tsEmitName": "BindingRedirects",
+          "tsEmitName": "bindingRedirects",
           "normalizedSignature": "BindingRedirects|System.Security.Permissions.SecurityPermissionFlag|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -207,7 +207,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Security.Permissions.SecurityPermissionFlag::ControlAppDomainSystem.Security.Permissions.SecurityPermissionFlag",
           "clrName": "ControlAppDomain",
-          "tsEmitName": "ControlAppDomain",
+          "tsEmitName": "controlAppDomain",
           "normalizedSignature": "ControlAppDomain|System.Security.Permissions.SecurityPermissionFlag|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -216,7 +216,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Security.Permissions.SecurityPermissionFlag::ControlDomainPolicySystem.Security.Permissions.SecurityPermissionFlag",
           "clrName": "ControlDomainPolicy",
-          "tsEmitName": "ControlDomainPolicy",
+          "tsEmitName": "controlDomainPolicy",
           "normalizedSignature": "ControlDomainPolicy|System.Security.Permissions.SecurityPermissionFlag|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -225,7 +225,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Security.Permissions.SecurityPermissionFlag::ControlEvidenceSystem.Security.Permissions.SecurityPermissionFlag",
           "clrName": "ControlEvidence",
-          "tsEmitName": "ControlEvidence",
+          "tsEmitName": "controlEvidence",
           "normalizedSignature": "ControlEvidence|System.Security.Permissions.SecurityPermissionFlag|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -234,7 +234,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Security.Permissions.SecurityPermissionFlag::ControlPolicySystem.Security.Permissions.SecurityPermissionFlag",
           "clrName": "ControlPolicy",
-          "tsEmitName": "ControlPolicy",
+          "tsEmitName": "controlPolicy",
           "normalizedSignature": "ControlPolicy|System.Security.Permissions.SecurityPermissionFlag|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -243,7 +243,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Security.Permissions.SecurityPermissionFlag::ControlPrincipalSystem.Security.Permissions.SecurityPermissionFlag",
           "clrName": "ControlPrincipal",
-          "tsEmitName": "ControlPrincipal",
+          "tsEmitName": "controlPrincipal",
           "normalizedSignature": "ControlPrincipal|System.Security.Permissions.SecurityPermissionFlag|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -252,7 +252,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Security.Permissions.SecurityPermissionFlag::ControlThreadSystem.Security.Permissions.SecurityPermissionFlag",
           "clrName": "ControlThread",
-          "tsEmitName": "ControlThread",
+          "tsEmitName": "controlThread",
           "normalizedSignature": "ControlThread|System.Security.Permissions.SecurityPermissionFlag|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -261,7 +261,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Security.Permissions.SecurityPermissionFlag::ExecutionSystem.Security.Permissions.SecurityPermissionFlag",
           "clrName": "Execution",
-          "tsEmitName": "Execution",
+          "tsEmitName": "execution",
           "normalizedSignature": "Execution|System.Security.Permissions.SecurityPermissionFlag|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -270,7 +270,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Security.Permissions.SecurityPermissionFlag::InfrastructureSystem.Security.Permissions.SecurityPermissionFlag",
           "clrName": "Infrastructure",
-          "tsEmitName": "Infrastructure",
+          "tsEmitName": "infrastructure",
           "normalizedSignature": "Infrastructure|System.Security.Permissions.SecurityPermissionFlag|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -279,7 +279,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Security.Permissions.SecurityPermissionFlag::NoFlagsSystem.Security.Permissions.SecurityPermissionFlag",
           "clrName": "NoFlags",
-          "tsEmitName": "NoFlags",
+          "tsEmitName": "noFlags",
           "normalizedSignature": "NoFlags|System.Security.Permissions.SecurityPermissionFlag|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -288,7 +288,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Security.Permissions.SecurityPermissionFlag::RemotingConfigurationSystem.Security.Permissions.SecurityPermissionFlag",
           "clrName": "RemotingConfiguration",
-          "tsEmitName": "RemotingConfiguration",
+          "tsEmitName": "remotingConfiguration",
           "normalizedSignature": "RemotingConfiguration|System.Security.Permissions.SecurityPermissionFlag|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -297,7 +297,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Security.Permissions.SecurityPermissionFlag::SerializationFormatterSystem.Security.Permissions.SecurityPermissionFlag",
           "clrName": "SerializationFormatter",
-          "tsEmitName": "SerializationFormatter",
+          "tsEmitName": "serializationFormatter",
           "normalizedSignature": "SerializationFormatter|System.Security.Permissions.SecurityPermissionFlag|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -306,7 +306,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Security.Permissions.SecurityPermissionFlag::SkipVerificationSystem.Security.Permissions.SecurityPermissionFlag",
           "clrName": "SkipVerification",
-          "tsEmitName": "SkipVerification",
+          "tsEmitName": "skipVerification",
           "normalizedSignature": "SkipVerification|System.Security.Permissions.SecurityPermissionFlag|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -315,7 +315,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Security.Permissions.SecurityPermissionFlag::UnmanagedCodeSystem.Security.Permissions.SecurityPermissionFlag",
           "clrName": "UnmanagedCode",
-          "tsEmitName": "UnmanagedCode",
+          "tsEmitName": "unmanagedCode",
           "normalizedSignature": "UnmanagedCode|System.Security.Permissions.SecurityPermissionFlag|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -355,7 +355,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Security.Permissions.SecurityAttribute::CreatePermission():System.Security.IPermission",
           "clrName": "CreatePermission",
-          "tsEmitName": "CreatePermission",
+          "tsEmitName": "createPermission",
           "normalizedSignature": "CreatePermission|():System.Security.IPermission|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -373,7 +373,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Security.Permissions.SecurityAttribute::Action:System.Security.Permissions.SecurityAction",
           "clrName": "Action",
-          "tsEmitName": "Action",
+          "tsEmitName": "action",
           "normalizedSignature": "Action|:System.Security.Permissions.SecurityAction|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -388,7 +388,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Security.Permissions.SecurityAttribute::Unrestricted:System.Boolean",
           "clrName": "Unrestricted",
-          "tsEmitName": "Unrestricted",
+          "tsEmitName": "unrestricted",
           "normalizedSignature": "Unrestricted|:System.Boolean|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -419,7 +419,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Security.Permissions.SecurityPermissionAttribute::CreatePermission():System.Security.IPermission",
           "clrName": "CreatePermission",
-          "tsEmitName": "CreatePermission",
+          "tsEmitName": "createPermission",
           "normalizedSignature": "CreatePermission|():System.Security.IPermission|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -437,7 +437,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Security.Permissions.SecurityPermissionAttribute::Assertion:System.Boolean",
           "clrName": "Assertion",
-          "tsEmitName": "Assertion",
+          "tsEmitName": "assertion",
           "normalizedSignature": "Assertion|:System.Boolean|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -452,7 +452,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Security.Permissions.SecurityPermissionAttribute::BindingRedirects:System.Boolean",
           "clrName": "BindingRedirects",
-          "tsEmitName": "BindingRedirects",
+          "tsEmitName": "bindingRedirects",
           "normalizedSignature": "BindingRedirects|:System.Boolean|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -467,7 +467,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Security.Permissions.SecurityPermissionAttribute::ControlAppDomain:System.Boolean",
           "clrName": "ControlAppDomain",
-          "tsEmitName": "ControlAppDomain",
+          "tsEmitName": "controlAppDomain",
           "normalizedSignature": "ControlAppDomain|:System.Boolean|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -482,7 +482,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Security.Permissions.SecurityPermissionAttribute::ControlDomainPolicy:System.Boolean",
           "clrName": "ControlDomainPolicy",
-          "tsEmitName": "ControlDomainPolicy",
+          "tsEmitName": "controlDomainPolicy",
           "normalizedSignature": "ControlDomainPolicy|:System.Boolean|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -497,7 +497,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Security.Permissions.SecurityPermissionAttribute::ControlEvidence:System.Boolean",
           "clrName": "ControlEvidence",
-          "tsEmitName": "ControlEvidence",
+          "tsEmitName": "controlEvidence",
           "normalizedSignature": "ControlEvidence|:System.Boolean|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -512,7 +512,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Security.Permissions.SecurityPermissionAttribute::ControlPolicy:System.Boolean",
           "clrName": "ControlPolicy",
-          "tsEmitName": "ControlPolicy",
+          "tsEmitName": "controlPolicy",
           "normalizedSignature": "ControlPolicy|:System.Boolean|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -527,7 +527,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Security.Permissions.SecurityPermissionAttribute::ControlPrincipal:System.Boolean",
           "clrName": "ControlPrincipal",
-          "tsEmitName": "ControlPrincipal",
+          "tsEmitName": "controlPrincipal",
           "normalizedSignature": "ControlPrincipal|:System.Boolean|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -542,7 +542,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Security.Permissions.SecurityPermissionAttribute::ControlThread:System.Boolean",
           "clrName": "ControlThread",
-          "tsEmitName": "ControlThread",
+          "tsEmitName": "controlThread",
           "normalizedSignature": "ControlThread|:System.Boolean|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -557,7 +557,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Security.Permissions.SecurityPermissionAttribute::Execution:System.Boolean",
           "clrName": "Execution",
-          "tsEmitName": "Execution",
+          "tsEmitName": "execution",
           "normalizedSignature": "Execution|:System.Boolean|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -572,7 +572,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Security.Permissions.SecurityPermissionAttribute::Flags:System.Security.Permissions.SecurityPermissionFlag",
           "clrName": "Flags",
-          "tsEmitName": "Flags",
+          "tsEmitName": "flags",
           "normalizedSignature": "Flags|:System.Security.Permissions.SecurityPermissionFlag|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -587,7 +587,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Security.Permissions.SecurityPermissionAttribute::Infrastructure:System.Boolean",
           "clrName": "Infrastructure",
-          "tsEmitName": "Infrastructure",
+          "tsEmitName": "infrastructure",
           "normalizedSignature": "Infrastructure|:System.Boolean|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -602,7 +602,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Security.Permissions.SecurityPermissionAttribute::RemotingConfiguration:System.Boolean",
           "clrName": "RemotingConfiguration",
-          "tsEmitName": "RemotingConfiguration",
+          "tsEmitName": "remotingConfiguration",
           "normalizedSignature": "RemotingConfiguration|:System.Boolean|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -617,7 +617,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Security.Permissions.SecurityPermissionAttribute::SerializationFormatter:System.Boolean",
           "clrName": "SerializationFormatter",
-          "tsEmitName": "SerializationFormatter",
+          "tsEmitName": "serializationFormatter",
           "normalizedSignature": "SerializationFormatter|:System.Boolean|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -632,7 +632,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Security.Permissions.SecurityPermissionAttribute::SkipVerification:System.Boolean",
           "clrName": "SkipVerification",
-          "tsEmitName": "SkipVerification",
+          "tsEmitName": "skipVerification",
           "normalizedSignature": "SkipVerification|:System.Boolean|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -647,7 +647,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Security.Permissions.SecurityPermissionAttribute::UnmanagedCode:System.Boolean",
           "clrName": "UnmanagedCode",
-          "tsEmitName": "UnmanagedCode",
+          "tsEmitName": "unmanagedCode",
           "normalizedSignature": "UnmanagedCode|:System.Boolean|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",

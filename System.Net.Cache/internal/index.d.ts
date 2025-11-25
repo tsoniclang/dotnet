@@ -35,36 +35,36 @@ export type CLROf<T> =
     T; // Identity fallback for non-primitive types
 
 export enum HttpCacheAgeControl {
-    None = 0,
-    MinFresh = 1,
-    MaxAge = 2,
-    MaxStale = 4,
-    MaxAgeAndMinFresh = 3,
-    MaxAgeAndMaxStale = 6
+    none = 0,
+    minFresh = 1,
+    maxAge = 2,
+    maxStale = 4,
+    maxAgeAndMinFresh = 3,
+    maxAgeAndMaxStale = 6
 }
 
 
 export enum HttpRequestCacheLevel {
-    Default = 0,
-    BypassCache = 1,
-    CacheOnly = 2,
-    CacheIfAvailable = 3,
-    Revalidate = 4,
-    Reload = 5,
-    NoCacheNoStore = 6,
-    CacheOrNextCacheOnly = 7,
-    Refresh = 8
+    default_ = 0,
+    bypassCache = 1,
+    cacheOnly = 2,
+    cacheIfAvailable = 3,
+    revalidate = 4,
+    reload = 5,
+    noCacheNoStore = 6,
+    cacheOrNextCacheOnly = 7,
+    refresh = 8
 }
 
 
 export enum RequestCacheLevel {
-    Default = 0,
-    BypassCache = 1,
-    CacheOnly = 2,
-    CacheIfAvailable = 3,
-    Revalidate = 4,
-    Reload = 5,
-    NoCacheNoStore = 6
+    default_ = 0,
+    bypassCache = 1,
+    cacheOnly = 2,
+    cacheIfAvailable = 3,
+    revalidate = 4,
+    reload = 5,
+    noCacheNoStore = 6
 }
 
 
@@ -75,12 +75,12 @@ export class HttpRequestCachePolicy$instance extends RequestCachePolicy$instance
     constructor(cacheAgeControl: HttpCacheAgeControl, maxAge: TimeSpan, freshOrStale: TimeSpan);
     constructor(cacheSyncDate: DateTime);
     constructor(cacheAgeControl: HttpCacheAgeControl, maxAge: TimeSpan, freshOrStale: TimeSpan, cacheSyncDate: DateTime);
-    readonly CacheSyncDate: DateTime;
-    readonly Level: HttpRequestCacheLevel | RequestCacheLevel;
-    readonly MaxAge: TimeSpan;
-    readonly MaxStale: TimeSpan;
-    readonly MinFresh: TimeSpan;
-    ToString(): string;
+    readonly cacheSyncDate: DateTime;
+    readonly level: HttpRequestCacheLevel | RequestCacheLevel;
+    readonly maxAge: TimeSpan;
+    readonly maxStale: TimeSpan;
+    readonly minFresh: TimeSpan;
+    toString(): string;
 }
 
 
@@ -89,8 +89,8 @@ export type HttpRequestCachePolicy = HttpRequestCachePolicy$instance;
 export class RequestCachePolicy$instance {
     constructor();
     constructor(level: RequestCacheLevel);
-    readonly Level: HttpRequestCacheLevel | RequestCacheLevel;
-    ToString(): string;
+    readonly level: HttpRequestCacheLevel | RequestCacheLevel;
+    toString(): string;
 }
 
 

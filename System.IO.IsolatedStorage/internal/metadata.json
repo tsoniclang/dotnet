@@ -29,7 +29,7 @@
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageScope::NoneSystem.IO.IsolatedStorage.IsolatedStorageScope",
           "clrName": "None",
-          "tsEmitName": "None",
+          "tsEmitName": "none",
           "normalizedSignature": "None|System.IO.IsolatedStorage.IsolatedStorageScope|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -38,7 +38,7 @@
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageScope::UserSystem.IO.IsolatedStorage.IsolatedStorageScope",
           "clrName": "User",
-          "tsEmitName": "User",
+          "tsEmitName": "user",
           "normalizedSignature": "User|System.IO.IsolatedStorage.IsolatedStorageScope|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -47,7 +47,7 @@
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageScope::DomainSystem.IO.IsolatedStorage.IsolatedStorageScope",
           "clrName": "Domain",
-          "tsEmitName": "Domain",
+          "tsEmitName": "domain",
           "normalizedSignature": "Domain|System.IO.IsolatedStorage.IsolatedStorageScope|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -56,7 +56,7 @@
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageScope::AssemblySystem.IO.IsolatedStorage.IsolatedStorageScope",
           "clrName": "Assembly",
-          "tsEmitName": "Assembly",
+          "tsEmitName": "assembly",
           "normalizedSignature": "Assembly|System.IO.IsolatedStorage.IsolatedStorageScope|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -65,7 +65,7 @@
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageScope::RoamingSystem.IO.IsolatedStorage.IsolatedStorageScope",
           "clrName": "Roaming",
-          "tsEmitName": "Roaming",
+          "tsEmitName": "roaming",
           "normalizedSignature": "Roaming|System.IO.IsolatedStorage.IsolatedStorageScope|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -74,7 +74,7 @@
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageScope::MachineSystem.IO.IsolatedStorage.IsolatedStorageScope",
           "clrName": "Machine",
-          "tsEmitName": "Machine",
+          "tsEmitName": "machine",
           "normalizedSignature": "Machine|System.IO.IsolatedStorage.IsolatedStorageScope|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -83,7 +83,7 @@
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageScope::ApplicationSystem.IO.IsolatedStorage.IsolatedStorageScope",
           "clrName": "Application",
-          "tsEmitName": "Application",
+          "tsEmitName": "application",
           "normalizedSignature": "Application|System.IO.IsolatedStorage.IsolatedStorageScope|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -107,7 +107,7 @@
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.INormalizeForIsolatedStorage::Normalize():System.Object",
           "clrName": "Normalize",
-          "tsEmitName": "Normalize",
+          "tsEmitName": "normalize",
           "normalizedSignature": "Normalize|():System.Object|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -140,7 +140,7 @@
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorage::IncreaseQuotaTo(System.Int64):System.Boolean",
           "clrName": "IncreaseQuotaTo",
-          "tsEmitName": "IncreaseQuotaTo",
+          "tsEmitName": "increaseQuotaTo",
           "normalizedSignature": "IncreaseQuotaTo|(System.Int64):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -156,7 +156,7 @@
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorage::Remove():System.Void",
           "clrName": "Remove",
-          "tsEmitName": "Remove",
+          "tsEmitName": "remove",
           "normalizedSignature": "Remove|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -174,7 +174,7 @@
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorage::ApplicationIdentity:System.Object",
           "clrName": "ApplicationIdentity",
-          "tsEmitName": "ApplicationIdentity",
+          "tsEmitName": "applicationIdentity",
           "normalizedSignature": "ApplicationIdentity|:System.Object|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -189,7 +189,7 @@
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorage::AssemblyIdentity:System.Object",
           "clrName": "AssemblyIdentity",
-          "tsEmitName": "AssemblyIdentity",
+          "tsEmitName": "assemblyIdentity",
           "normalizedSignature": "AssemblyIdentity|:System.Object|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -204,7 +204,7 @@
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorage::DomainIdentity:System.Object",
           "clrName": "DomainIdentity",
-          "tsEmitName": "DomainIdentity",
+          "tsEmitName": "domainIdentity",
           "normalizedSignature": "DomainIdentity|:System.Object|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -219,7 +219,7 @@
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorage::CurrentSize:System.UInt64",
           "clrName": "CurrentSize",
-          "tsEmitName": "CurrentSize",
+          "tsEmitName": "currentSize",
           "normalizedSignature": "CurrentSize|:System.UInt64|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -234,7 +234,7 @@
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorage::UsedSize:System.Int64",
           "clrName": "UsedSize",
-          "tsEmitName": "UsedSize",
+          "tsEmitName": "usedSize",
           "normalizedSignature": "UsedSize|:System.Int64|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -249,7 +249,7 @@
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorage::AvailableFreeSpace:System.Int64",
           "clrName": "AvailableFreeSpace",
-          "tsEmitName": "AvailableFreeSpace",
+          "tsEmitName": "availableFreeSpace",
           "normalizedSignature": "AvailableFreeSpace|:System.Int64|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -264,7 +264,7 @@
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorage::MaximumSize:System.UInt64",
           "clrName": "MaximumSize",
-          "tsEmitName": "MaximumSize",
+          "tsEmitName": "maximumSize",
           "normalizedSignature": "MaximumSize|:System.UInt64|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -279,7 +279,7 @@
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorage::Quota:System.Int64",
           "clrName": "Quota",
-          "tsEmitName": "Quota",
+          "tsEmitName": "quota",
           "normalizedSignature": "Quota|:System.Int64|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -294,7 +294,7 @@
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorage::Scope:System.IO.IsolatedStorage.IsolatedStorageScope",
           "clrName": "Scope",
-          "tsEmitName": "Scope",
+          "tsEmitName": "scope",
           "normalizedSignature": "Scope|:System.IO.IsolatedStorage.IsolatedStorageScope|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -325,7 +325,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData$view",
+          "tsEmitName": "getObjectData$view",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -342,7 +342,7 @@
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageException::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData",
+          "tsEmitName": "getObjectData",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -391,7 +391,7 @@
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFile::Close():System.Void",
           "clrName": "Close",
-          "tsEmitName": "Close",
+          "tsEmitName": "close",
           "normalizedSignature": "Close|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -407,7 +407,7 @@
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFile::DeleteFile(System.String):System.Void",
           "clrName": "DeleteFile",
-          "tsEmitName": "DeleteFile",
+          "tsEmitName": "deleteFile",
           "normalizedSignature": "DeleteFile|(System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -423,7 +423,7 @@
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFile::FileExists(System.String):System.Boolean",
           "clrName": "FileExists",
-          "tsEmitName": "FileExists",
+          "tsEmitName": "fileExists",
           "normalizedSignature": "FileExists|(System.String):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -439,7 +439,7 @@
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFile::DirectoryExists(System.String):System.Boolean",
           "clrName": "DirectoryExists",
-          "tsEmitName": "DirectoryExists",
+          "tsEmitName": "directoryExists",
           "normalizedSignature": "DirectoryExists|(System.String):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -455,7 +455,7 @@
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFile::CreateDirectory(System.String):System.Void",
           "clrName": "CreateDirectory",
-          "tsEmitName": "CreateDirectory",
+          "tsEmitName": "createDirectory",
           "normalizedSignature": "CreateDirectory|(System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -471,7 +471,7 @@
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFile::DeleteDirectory(System.String):System.Void",
           "clrName": "DeleteDirectory",
-          "tsEmitName": "DeleteDirectory",
+          "tsEmitName": "deleteDirectory",
           "normalizedSignature": "DeleteDirectory|(System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -487,7 +487,7 @@
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFile::GetFileNames():System.String[]",
           "clrName": "GetFileNames",
-          "tsEmitName": "GetFileNames",
+          "tsEmitName": "getFileNames",
           "normalizedSignature": "GetFileNames|():System.String[]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -503,7 +503,7 @@
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFile::GetFileNames(System.String):System.String[]",
           "clrName": "GetFileNames",
-          "tsEmitName": "GetFileNames2",
+          "tsEmitName": "getFileNames2",
           "normalizedSignature": "GetFileNames|(System.String):System.String[]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -519,7 +519,7 @@
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFile::GetDirectoryNames():System.String[]",
           "clrName": "GetDirectoryNames",
-          "tsEmitName": "GetDirectoryNames",
+          "tsEmitName": "getDirectoryNames",
           "normalizedSignature": "GetDirectoryNames|():System.String[]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -535,7 +535,7 @@
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFile::GetDirectoryNames(System.String):System.String[]",
           "clrName": "GetDirectoryNames",
-          "tsEmitName": "GetDirectoryNames2",
+          "tsEmitName": "getDirectoryNames2",
           "normalizedSignature": "GetDirectoryNames|(System.String):System.String[]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -551,7 +551,7 @@
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFile::OpenFile(System.String,System.IO.FileMode):System.IO.IsolatedStorage.IsolatedStorageFileStream",
           "clrName": "OpenFile",
-          "tsEmitName": "OpenFile",
+          "tsEmitName": "openFile",
           "normalizedSignature": "OpenFile|(System.String,System.IO.FileMode):System.IO.IsolatedStorage.IsolatedStorageFileStream|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -567,7 +567,7 @@
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFile::OpenFile(System.String,System.IO.FileMode,System.IO.FileAccess):System.IO.IsolatedStorage.IsolatedStorageFileStream",
           "clrName": "OpenFile",
-          "tsEmitName": "OpenFile2",
+          "tsEmitName": "openFile2",
           "normalizedSignature": "OpenFile|(System.String,System.IO.FileMode,System.IO.FileAccess):System.IO.IsolatedStorage.IsolatedStorageFileStream|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -583,7 +583,7 @@
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFile::OpenFile(System.String,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare):System.IO.IsolatedStorage.IsolatedStorageFileStream",
           "clrName": "OpenFile",
-          "tsEmitName": "OpenFile3",
+          "tsEmitName": "openFile3",
           "normalizedSignature": "OpenFile|(System.String,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare):System.IO.IsolatedStorage.IsolatedStorageFileStream|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -599,7 +599,7 @@
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFile::CreateFile(System.String):System.IO.IsolatedStorage.IsolatedStorageFileStream",
           "clrName": "CreateFile",
-          "tsEmitName": "CreateFile",
+          "tsEmitName": "createFile",
           "normalizedSignature": "CreateFile|(System.String):System.IO.IsolatedStorage.IsolatedStorageFileStream|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -615,7 +615,7 @@
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFile::GetCreationTime(System.String):System.DateTimeOffset",
           "clrName": "GetCreationTime",
-          "tsEmitName": "GetCreationTime",
+          "tsEmitName": "getCreationTime",
           "normalizedSignature": "GetCreationTime|(System.String):System.DateTimeOffset|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -631,7 +631,7 @@
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFile::GetLastAccessTime(System.String):System.DateTimeOffset",
           "clrName": "GetLastAccessTime",
-          "tsEmitName": "GetLastAccessTime",
+          "tsEmitName": "getLastAccessTime",
           "normalizedSignature": "GetLastAccessTime|(System.String):System.DateTimeOffset|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -647,7 +647,7 @@
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFile::GetLastWriteTime(System.String):System.DateTimeOffset",
           "clrName": "GetLastWriteTime",
-          "tsEmitName": "GetLastWriteTime",
+          "tsEmitName": "getLastWriteTime",
           "normalizedSignature": "GetLastWriteTime|(System.String):System.DateTimeOffset|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -663,7 +663,7 @@
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFile::CopyFile(System.String,System.String):System.Void",
           "clrName": "CopyFile",
-          "tsEmitName": "CopyFile",
+          "tsEmitName": "copyFile",
           "normalizedSignature": "CopyFile|(System.String,System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -679,7 +679,7 @@
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFile::CopyFile(System.String,System.String,System.Boolean):System.Void",
           "clrName": "CopyFile",
-          "tsEmitName": "CopyFile2",
+          "tsEmitName": "copyFile2",
           "normalizedSignature": "CopyFile|(System.String,System.String,System.Boolean):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -695,7 +695,7 @@
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFile::MoveFile(System.String,System.String):System.Void",
           "clrName": "MoveFile",
-          "tsEmitName": "MoveFile",
+          "tsEmitName": "moveFile",
           "normalizedSignature": "MoveFile|(System.String,System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -711,7 +711,7 @@
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFile::MoveDirectory(System.String,System.String):System.Void",
           "clrName": "MoveDirectory",
-          "tsEmitName": "MoveDirectory",
+          "tsEmitName": "moveDirectory",
           "normalizedSignature": "MoveDirectory|(System.String,System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -727,7 +727,7 @@
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFile::GetEnumerator(System.IO.IsolatedStorage.IsolatedStorageScope):System.Collections.IEnumerator",
           "clrName": "GetEnumerator",
-          "tsEmitName": "GetEnumerator",
+          "tsEmitName": "getEnumerator",
           "normalizedSignature": "GetEnumerator|(System.IO.IsolatedStorage.IsolatedStorageScope):System.Collections.IEnumerator|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -743,7 +743,7 @@
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFile::GetUserStoreForApplication():System.IO.IsolatedStorage.IsolatedStorageFile",
           "clrName": "GetUserStoreForApplication",
-          "tsEmitName": "GetUserStoreForApplication",
+          "tsEmitName": "getUserStoreForApplication",
           "normalizedSignature": "GetUserStoreForApplication|():System.IO.IsolatedStorage.IsolatedStorageFile|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -759,7 +759,7 @@
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFile::GetUserStoreForAssembly():System.IO.IsolatedStorage.IsolatedStorageFile",
           "clrName": "GetUserStoreForAssembly",
-          "tsEmitName": "GetUserStoreForAssembly",
+          "tsEmitName": "getUserStoreForAssembly",
           "normalizedSignature": "GetUserStoreForAssembly|():System.IO.IsolatedStorage.IsolatedStorageFile|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -775,7 +775,7 @@
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFile::GetUserStoreForDomain():System.IO.IsolatedStorage.IsolatedStorageFile",
           "clrName": "GetUserStoreForDomain",
-          "tsEmitName": "GetUserStoreForDomain",
+          "tsEmitName": "getUserStoreForDomain",
           "normalizedSignature": "GetUserStoreForDomain|():System.IO.IsolatedStorage.IsolatedStorageFile|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -791,7 +791,7 @@
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFile::GetUserStoreForSite():System.IO.IsolatedStorage.IsolatedStorageFile",
           "clrName": "GetUserStoreForSite",
-          "tsEmitName": "GetUserStoreForSite",
+          "tsEmitName": "getUserStoreForSite",
           "normalizedSignature": "GetUserStoreForSite|():System.IO.IsolatedStorage.IsolatedStorageFile|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -807,7 +807,7 @@
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFile::GetMachineStoreForApplication():System.IO.IsolatedStorage.IsolatedStorageFile",
           "clrName": "GetMachineStoreForApplication",
-          "tsEmitName": "GetMachineStoreForApplication",
+          "tsEmitName": "getMachineStoreForApplication",
           "normalizedSignature": "GetMachineStoreForApplication|():System.IO.IsolatedStorage.IsolatedStorageFile|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -823,7 +823,7 @@
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFile::GetMachineStoreForAssembly():System.IO.IsolatedStorage.IsolatedStorageFile",
           "clrName": "GetMachineStoreForAssembly",
-          "tsEmitName": "GetMachineStoreForAssembly",
+          "tsEmitName": "getMachineStoreForAssembly",
           "normalizedSignature": "GetMachineStoreForAssembly|():System.IO.IsolatedStorage.IsolatedStorageFile|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -839,7 +839,7 @@
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFile::GetMachineStoreForDomain():System.IO.IsolatedStorage.IsolatedStorageFile",
           "clrName": "GetMachineStoreForDomain",
-          "tsEmitName": "GetMachineStoreForDomain",
+          "tsEmitName": "getMachineStoreForDomain",
           "normalizedSignature": "GetMachineStoreForDomain|():System.IO.IsolatedStorage.IsolatedStorageFile|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -855,7 +855,7 @@
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFile::GetStore(System.IO.IsolatedStorage.IsolatedStorageScope,System.Type):System.IO.IsolatedStorage.IsolatedStorageFile",
           "clrName": "GetStore",
-          "tsEmitName": "GetStore",
+          "tsEmitName": "getStore",
           "normalizedSignature": "GetStore|(System.IO.IsolatedStorage.IsolatedStorageScope,System.Type):System.IO.IsolatedStorage.IsolatedStorageFile|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -871,7 +871,7 @@
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFile::GetStore(System.IO.IsolatedStorage.IsolatedStorageScope,System.Object):System.IO.IsolatedStorage.IsolatedStorageFile",
           "clrName": "GetStore",
-          "tsEmitName": "GetStore2",
+          "tsEmitName": "getStore2",
           "normalizedSignature": "GetStore|(System.IO.IsolatedStorage.IsolatedStorageScope,System.Object):System.IO.IsolatedStorage.IsolatedStorageFile|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -887,7 +887,7 @@
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFile::GetStore(System.IO.IsolatedStorage.IsolatedStorageScope,System.Type,System.Type):System.IO.IsolatedStorage.IsolatedStorageFile",
           "clrName": "GetStore",
-          "tsEmitName": "GetStore3",
+          "tsEmitName": "getStore3",
           "normalizedSignature": "GetStore|(System.IO.IsolatedStorage.IsolatedStorageScope,System.Type,System.Type):System.IO.IsolatedStorage.IsolatedStorageFile|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -903,7 +903,7 @@
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFile::GetStore(System.IO.IsolatedStorage.IsolatedStorageScope,System.Object,System.Object):System.IO.IsolatedStorage.IsolatedStorageFile",
           "clrName": "GetStore",
-          "tsEmitName": "GetStore4",
+          "tsEmitName": "getStore4",
           "normalizedSignature": "GetStore|(System.IO.IsolatedStorage.IsolatedStorageScope,System.Object,System.Object):System.IO.IsolatedStorage.IsolatedStorageFile|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -919,7 +919,7 @@
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFile::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "Dispose",
+          "tsEmitName": "dispose",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -935,7 +935,7 @@
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFile::IncreaseQuotaTo(System.Int64):System.Boolean",
           "clrName": "IncreaseQuotaTo",
-          "tsEmitName": "IncreaseQuotaTo",
+          "tsEmitName": "increaseQuotaTo",
           "normalizedSignature": "IncreaseQuotaTo|(System.Int64):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -951,7 +951,7 @@
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFile::Remove():System.Void",
           "clrName": "Remove",
-          "tsEmitName": "Remove",
+          "tsEmitName": "remove",
           "normalizedSignature": "Remove|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -967,7 +967,7 @@
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFile::Remove(System.IO.IsolatedStorage.IsolatedStorageScope):System.Void",
           "clrName": "Remove",
-          "tsEmitName": "Remove",
+          "tsEmitName": "remove",
           "normalizedSignature": "Remove|(System.IO.IsolatedStorage.IsolatedStorageScope):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -983,7 +983,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "Dispose$view",
+          "tsEmitName": "dispose$view",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -1002,7 +1002,7 @@
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFile::AvailableFreeSpace:System.Int64",
           "clrName": "AvailableFreeSpace",
-          "tsEmitName": "AvailableFreeSpace",
+          "tsEmitName": "availableFreeSpace",
           "normalizedSignature": "AvailableFreeSpace|:System.Int64|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1017,7 +1017,7 @@
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFile::MaximumSize:System.UInt64",
           "clrName": "MaximumSize",
-          "tsEmitName": "MaximumSize",
+          "tsEmitName": "maximumSize",
           "normalizedSignature": "MaximumSize|:System.UInt64|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1032,7 +1032,7 @@
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFile::Quota:System.Int64",
           "clrName": "Quota",
-          "tsEmitName": "Quota",
+          "tsEmitName": "quota",
           "normalizedSignature": "Quota|:System.Int64|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1047,7 +1047,7 @@
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFile::UsedSize:System.Int64",
           "clrName": "UsedSize",
-          "tsEmitName": "UsedSize",
+          "tsEmitName": "usedSize",
           "normalizedSignature": "UsedSize|:System.Int64|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1062,7 +1062,7 @@
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFile::CurrentSize:System.UInt64",
           "clrName": "CurrentSize",
-          "tsEmitName": "CurrentSize",
+          "tsEmitName": "currentSize",
           "normalizedSignature": "CurrentSize|:System.UInt64|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1077,7 +1077,7 @@
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFile::IsEnabled:System.Boolean",
           "clrName": "IsEnabled",
-          "tsEmitName": "IsEnabled",
+          "tsEmitName": "isEnabled",
           "normalizedSignature": "IsEnabled|:System.Boolean|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1108,7 +1108,7 @@
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFileStream::DisposeAsync():System.Threading.Tasks.ValueTask",
           "clrName": "DisposeAsync",
-          "tsEmitName": "DisposeAsync",
+          "tsEmitName": "disposeAsync",
           "normalizedSignature": "DisposeAsync|():System.Threading.Tasks.ValueTask|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1124,7 +1124,7 @@
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFileStream::Flush():System.Void",
           "clrName": "Flush",
-          "tsEmitName": "Flush",
+          "tsEmitName": "flush",
           "normalizedSignature": "Flush|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1140,7 +1140,7 @@
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFileStream::Flush(System.Boolean):System.Void",
           "clrName": "Flush",
-          "tsEmitName": "Flush2",
+          "tsEmitName": "flush2",
           "normalizedSignature": "Flush|(System.Boolean):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1156,7 +1156,7 @@
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFileStream::FlushAsync(System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "clrName": "FlushAsync",
-          "tsEmitName": "FlushAsync2",
+          "tsEmitName": "flushAsync2",
           "normalizedSignature": "FlushAsync|(System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1172,7 +1172,7 @@
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFileStream::SetLength(System.Int64):System.Void",
           "clrName": "SetLength",
-          "tsEmitName": "SetLength",
+          "tsEmitName": "setLength",
           "normalizedSignature": "SetLength|(System.Int64):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1188,7 +1188,7 @@
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFileStream::Read(System.Byte[],System.Int32,System.Int32):System.Int32",
           "clrName": "Read",
-          "tsEmitName": "Read2",
+          "tsEmitName": "read2",
           "normalizedSignature": "Read|(System.Byte[],System.Int32,System.Int32):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1204,7 +1204,7 @@
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFileStream::Read(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32",
           "clrName": "Read",
-          "tsEmitName": "Read3",
+          "tsEmitName": "read3",
           "normalizedSignature": "Read|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1220,7 +1220,7 @@
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFileStream::ReadAsync(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "ReadAsync",
-          "tsEmitName": "ReadAsync7",
+          "tsEmitName": "readAsync7",
           "normalizedSignature": "ReadAsync|(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1236,7 +1236,7 @@
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFileStream::ReadAsync(System.Memory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "ReadAsync",
-          "tsEmitName": "ReadAsync8",
+          "tsEmitName": "readAsync8",
           "normalizedSignature": "ReadAsync|(System.Memory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1252,7 +1252,7 @@
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFileStream::ReadByte():System.Int32",
           "clrName": "ReadByte",
-          "tsEmitName": "ReadByte",
+          "tsEmitName": "readByte",
           "normalizedSignature": "ReadByte|():System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1268,7 +1268,7 @@
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFileStream::Seek(System.Int64,System.IO.SeekOrigin):System.Int64",
           "clrName": "Seek",
-          "tsEmitName": "Seek",
+          "tsEmitName": "seek",
           "normalizedSignature": "Seek|(System.Int64,System.IO.SeekOrigin):System.Int64|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1284,7 +1284,7 @@
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFileStream::Write(System.Byte[],System.Int32,System.Int32):System.Void",
           "clrName": "Write",
-          "tsEmitName": "Write2",
+          "tsEmitName": "write2",
           "normalizedSignature": "Write|(System.Byte[],System.Int32,System.Int32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1300,7 +1300,7 @@
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFileStream::Write(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "clrName": "Write",
-          "tsEmitName": "Write3",
+          "tsEmitName": "write3",
           "normalizedSignature": "Write|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1316,7 +1316,7 @@
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFileStream::WriteAsync(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "clrName": "WriteAsync",
-          "tsEmitName": "WriteAsync4",
+          "tsEmitName": "writeAsync4",
           "normalizedSignature": "WriteAsync|(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1332,7 +1332,7 @@
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFileStream::WriteAsync(System.ReadOnlyMemory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask",
           "clrName": "WriteAsync",
-          "tsEmitName": "WriteAsync5",
+          "tsEmitName": "writeAsync5",
           "normalizedSignature": "WriteAsync|(System.ReadOnlyMemory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1348,7 +1348,7 @@
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFileStream::WriteByte(System.Byte):System.Void",
           "clrName": "WriteByte",
-          "tsEmitName": "WriteByte",
+          "tsEmitName": "writeByte",
           "normalizedSignature": "WriteByte|(System.Byte):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1364,7 +1364,7 @@
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFileStream::BeginRead(System.Byte[],System.Int32,System.Int32,System.AsyncCallback,System.Object):System.IAsyncResult",
           "clrName": "BeginRead",
-          "tsEmitName": "BeginRead",
+          "tsEmitName": "beginRead",
           "normalizedSignature": "BeginRead|(System.Byte[],System.Int32,System.Int32,System.AsyncCallback,System.Object):System.IAsyncResult|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1380,7 +1380,7 @@
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFileStream::BeginWrite(System.Byte[],System.Int32,System.Int32,System.AsyncCallback,System.Object):System.IAsyncResult",
           "clrName": "BeginWrite",
-          "tsEmitName": "BeginWrite",
+          "tsEmitName": "beginWrite",
           "normalizedSignature": "BeginWrite|(System.Byte[],System.Int32,System.Int32,System.AsyncCallback,System.Object):System.IAsyncResult|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1396,7 +1396,7 @@
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFileStream::EndRead(System.IAsyncResult):System.Int32",
           "clrName": "EndRead",
-          "tsEmitName": "EndRead",
+          "tsEmitName": "endRead",
           "normalizedSignature": "EndRead|(System.IAsyncResult):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1412,7 +1412,7 @@
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFileStream::EndWrite(System.IAsyncResult):System.Void",
           "clrName": "EndWrite",
-          "tsEmitName": "EndWrite",
+          "tsEmitName": "endWrite",
           "normalizedSignature": "EndWrite|(System.IAsyncResult):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1428,7 +1428,7 @@
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFileStream::Unlock(System.Int64,System.Int64):System.Void",
           "clrName": "Unlock",
-          "tsEmitName": "Unlock",
+          "tsEmitName": "unlock",
           "normalizedSignature": "Unlock|(System.Int64,System.Int64):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1444,7 +1444,7 @@
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFileStream::Lock(System.Int64,System.Int64):System.Void",
           "clrName": "Lock",
-          "tsEmitName": "Lock",
+          "tsEmitName": "lock",
           "normalizedSignature": "Lock|(System.Int64,System.Int64):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1460,7 +1460,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "Dispose$view",
+          "tsEmitName": "dispose$view",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -1477,7 +1477,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IAsyncDisposable::DisposeAsync():System.Threading.Tasks.ValueTask",
           "clrName": "DisposeAsync",
-          "tsEmitName": "DisposeAsync$view",
+          "tsEmitName": "disposeAsync$view",
           "normalizedSignature": "DisposeAsync|():System.Threading.Tasks.ValueTask|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -1494,7 +1494,7 @@
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFileStream::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "Dispose",
+          "tsEmitName": "dispose",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -1510,7 +1510,7 @@
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFileStream::FlushAsync():System.Threading.Tasks.Task",
           "clrName": "FlushAsync",
-          "tsEmitName": "FlushAsync",
+          "tsEmitName": "flushAsync",
           "normalizedSignature": "FlushAsync|():System.Threading.Tasks.Task|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -1526,7 +1526,7 @@
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFileStream::Read(System.Span_1):System.Int32",
           "clrName": "Read",
-          "tsEmitName": "Read",
+          "tsEmitName": "read",
           "normalizedSignature": "Read|(System.Span_1):System.Int32|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -1542,7 +1542,7 @@
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFileStream::ReadAsync(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken):System.Threading.Tasks.Task_1",
           "clrName": "ReadAsync",
-          "tsEmitName": "ReadAsync",
+          "tsEmitName": "readAsync",
           "normalizedSignature": "ReadAsync|(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken):System.Threading.Tasks.Task_1|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -1558,7 +1558,7 @@
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFileStream::ReadAsync(System.Memory_1,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1",
           "clrName": "ReadAsync",
-          "tsEmitName": "ReadAsync6",
+          "tsEmitName": "readAsync6",
           "normalizedSignature": "ReadAsync|(System.Memory_1,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -1574,7 +1574,7 @@
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFileStream::ReadAsync(System.Byte[],System.Int32,System.Int32):System.Threading.Tasks.Task_1",
           "clrName": "ReadAsync",
-          "tsEmitName": "ReadAsync5",
+          "tsEmitName": "readAsync5",
           "normalizedSignature": "ReadAsync|(System.Byte[],System.Int32,System.Int32):System.Threading.Tasks.Task_1|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -1590,7 +1590,7 @@
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFileStream::Write(System.ReadOnlySpan_1):System.Void",
           "clrName": "Write",
-          "tsEmitName": "Write",
+          "tsEmitName": "write",
           "normalizedSignature": "Write|(System.ReadOnlySpan_1):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -1606,7 +1606,7 @@
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFileStream::WriteAsync(System.ReadOnlyMemory_1,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask",
           "clrName": "WriteAsync",
-          "tsEmitName": "WriteAsync",
+          "tsEmitName": "writeAsync",
           "normalizedSignature": "WriteAsync|(System.ReadOnlyMemory_1,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -1622,7 +1622,7 @@
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFileStream::WriteAsync(System.Byte[],System.Int32,System.Int32):System.Threading.Tasks.Task",
           "clrName": "WriteAsync",
-          "tsEmitName": "WriteAsync3",
+          "tsEmitName": "writeAsync3",
           "normalizedSignature": "WriteAsync|(System.Byte[],System.Int32,System.Int32):System.Threading.Tasks.Task|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -1640,7 +1640,7 @@
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFileStream::CanRead:System.Boolean",
           "clrName": "CanRead",
-          "tsEmitName": "CanRead",
+          "tsEmitName": "canRead",
           "normalizedSignature": "CanRead|:System.Boolean|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1655,7 +1655,7 @@
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFileStream::CanWrite:System.Boolean",
           "clrName": "CanWrite",
-          "tsEmitName": "CanWrite",
+          "tsEmitName": "canWrite",
           "normalizedSignature": "CanWrite|:System.Boolean|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1670,7 +1670,7 @@
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFileStream::CanSeek:System.Boolean",
           "clrName": "CanSeek",
-          "tsEmitName": "CanSeek",
+          "tsEmitName": "canSeek",
           "normalizedSignature": "CanSeek|:System.Boolean|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1685,7 +1685,7 @@
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFileStream::Length:System.Int64",
           "clrName": "Length",
-          "tsEmitName": "Length",
+          "tsEmitName": "length",
           "normalizedSignature": "Length|:System.Int64|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1700,7 +1700,7 @@
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFileStream::Position:System.Int64",
           "clrName": "Position",
-          "tsEmitName": "Position",
+          "tsEmitName": "position",
           "normalizedSignature": "Position|:System.Int64|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1715,7 +1715,7 @@
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFileStream::IsAsync:System.Boolean",
           "clrName": "IsAsync",
-          "tsEmitName": "IsAsync",
+          "tsEmitName": "isAsync",
           "normalizedSignature": "IsAsync|:System.Boolean|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1730,7 +1730,7 @@
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFileStream::Handle:System.IntPtr",
           "clrName": "Handle",
-          "tsEmitName": "Handle",
+          "tsEmitName": "handle",
           "normalizedSignature": "Handle|:System.IntPtr|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1745,7 +1745,7 @@
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFileStream::SafeFileHandle:Microsoft.Win32.SafeHandles.SafeFileHandle",
           "clrName": "SafeFileHandle",
-          "tsEmitName": "SafeFileHandle",
+          "tsEmitName": "safeFileHandle",
           "normalizedSignature": "SafeFileHandle|:Microsoft.Win32.SafeHandles.SafeFileHandle|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",

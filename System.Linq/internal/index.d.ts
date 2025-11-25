@@ -48,16 +48,16 @@ export type CLROf<T> =
     T; // Identity fallback for non-primitive types
 
 export enum ParallelExecutionMode {
-    Default = 0,
-    ForceParallelism = 1
+    default_ = 0,
+    forceParallelism = 1
 }
 
 
 export enum ParallelMergeOptions {
-    Default = 0,
-    NotBuffered = 1,
-    AutoBuffered = 2,
-    FullyBuffered = 3
+    default_ = 0,
+    notBuffered = 1,
+    autoBuffered = 2,
+    fullyBuffered = 3
 }
 
 
@@ -173,7 +173,7 @@ export type EnumerableQuery = EnumerableQuery$instance;
 export class EnumerableQuery_1$instance<T> extends EnumerableQuery$instance {
     constructor(enumerable: IEnumerable_1<T>);
     constructor(expression: Expression);
-    ToString(): string;
+    toString(): string;
 }
 
 
@@ -188,11 +188,11 @@ export type EnumerableQuery_1<T> = EnumerableQuery_1$instance<T> & __EnumerableQ
 
 
 export class Lookup_2$instance<TKey, TElement> {
-    readonly Count: int;
-    readonly Item: IEnumerable_1<TElement>;
-    ApplyResultSelector<TResult>(resultSelector: Func_3<TKey, IEnumerable_1<TElement>, TResult>): IEnumerable_1<TResult>;
-    Contains(key: TKey): boolean;
-    GetEnumerator(): IEnumerator_1<IGrouping_2<TKey, TElement>>;
+    readonly count: int;
+    readonly item: IEnumerable_1<TElement>;
+    applyResultSelector<TResult>(resultSelector: Func_3<TKey, IEnumerable_1<TElement>, TResult>): IEnumerable_1<TResult>;
+    contains(key: TKey): boolean;
+    getEnumerator(): IEnumerator_1<IGrouping_2<TKey, TElement>>;
 }
 
 
@@ -206,9 +206,9 @@ export type Lookup_2<TKey, TElement> = Lookup_2$instance<TKey, TElement> & __Loo
 
 
 export class OrderedParallelQuery_1$instance<TSource> extends ParallelQuery_1$instance<TSource> {
-    GetEnumerator(): IEnumerator_1<TSource>;
-    GetEnumerator(): IEnumerator_1<TSource>;
-    GetEnumerator(): IEnumerator;
+    getEnumerator(): IEnumerator_1<TSource>;
+    getEnumerator(): IEnumerator_1<TSource>;
+    getEnumerator(): IEnumerator;
 }
 
 
@@ -232,7 +232,7 @@ export type ParallelQuery = ParallelQuery$instance & __ParallelQuery$views;
 
 
 export class ParallelQuery_1$instance<TSource> extends ParallelQuery$instance {
-    GetEnumerator(): IEnumerator;
+    getEnumerator(): IEnumerator;
 }
 
 

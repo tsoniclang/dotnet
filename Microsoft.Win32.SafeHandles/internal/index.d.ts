@@ -37,8 +37,8 @@ export type CLROf<T> =
     T; // Identity fallback for non-primitive types
 
 export abstract class CriticalHandleMinusOneIsInvalid$instance extends System_Runtime_InteropServices_Internal.CriticalHandle$instance {
-    readonly IsInvalid: boolean;
-    Dispose(): void;
+    readonly isInvalid: boolean;
+    dispose(): void;
 }
 
 
@@ -50,8 +50,8 @@ export type CriticalHandleMinusOneIsInvalid = CriticalHandleMinusOneIsInvalid$in
 
 
 export abstract class CriticalHandleZeroOrMinusOneIsInvalid$instance extends System_Runtime_InteropServices_Internal.CriticalHandle$instance {
-    readonly IsInvalid: boolean;
-    Dispose(): void;
+    readonly isInvalid: boolean;
+    dispose(): void;
 }
 
 
@@ -65,8 +65,8 @@ export type CriticalHandleZeroOrMinusOneIsInvalid = CriticalHandleZeroOrMinusOne
 export class SafeAccessTokenHandle$instance extends System_Runtime_InteropServices_Internal.SafeHandle$instance {
     constructor();
     constructor(handle: nint);
-    readonly IsInvalid: boolean;
-    Dispose(): void;
+    readonly isInvalid: boolean;
+    dispose(): void;
     static readonly InvalidHandle: SafeAccessTokenHandle;
 }
 
@@ -81,9 +81,9 @@ export type SafeAccessTokenHandle = SafeAccessTokenHandle$instance & __SafeAcces
 export class SafeFileHandle$instance extends SafeHandleZeroOrMinusOneIsInvalid$instance {
     constructor(preexistingHandle: nint, ownsHandle: boolean);
     constructor();
-    readonly IsAsync: boolean;
-    readonly IsInvalid: boolean;
-    Dispose(): void;
+    readonly isAsync: boolean;
+    readonly isInvalid: boolean;
+    dispose(): void;
 }
 
 
@@ -95,8 +95,8 @@ export type SafeFileHandle = SafeFileHandle$instance & __SafeFileHandle$views;
 
 
 export abstract class SafeHandleMinusOneIsInvalid$instance extends System_Runtime_InteropServices_Internal.SafeHandle$instance {
-    readonly IsInvalid: boolean;
-    Dispose(): void;
+    readonly isInvalid: boolean;
+    dispose(): void;
 }
 
 
@@ -108,8 +108,8 @@ export type SafeHandleMinusOneIsInvalid = SafeHandleMinusOneIsInvalid$instance &
 
 
 export abstract class SafeHandleZeroOrMinusOneIsInvalid$instance extends System_Runtime_InteropServices_Internal.SafeHandle$instance {
-    readonly IsInvalid: boolean;
-    Dispose(): void;
+    readonly isInvalid: boolean;
+    dispose(): void;
 }
 
 
@@ -122,8 +122,8 @@ export type SafeHandleZeroOrMinusOneIsInvalid = SafeHandleZeroOrMinusOneIsInvali
 
 export class SafeMemoryMappedFileHandle$instance extends SafeHandleZeroOrMinusOneIsInvalid$instance {
     constructor();
-    readonly IsInvalid: boolean;
-    Dispose(): void;
+    readonly isInvalid: boolean;
+    dispose(): void;
 }
 
 
@@ -136,7 +136,7 @@ export type SafeMemoryMappedFileHandle = SafeMemoryMappedFileHandle$instance & _
 
 export class SafeMemoryMappedViewHandle$instance extends System_Runtime_InteropServices_Internal.SafeBuffer$instance {
     constructor();
-    Dispose(): void;
+    dispose(): void;
 }
 
 
@@ -148,7 +148,7 @@ export type SafeMemoryMappedViewHandle = SafeMemoryMappedViewHandle$instance & _
 
 
 export abstract class SafeNCryptHandle$instance extends SafeHandleZeroOrMinusOneIsInvalid$instance {
-    Dispose(): void;
+    dispose(): void;
 }
 
 
@@ -162,7 +162,7 @@ export type SafeNCryptHandle = SafeNCryptHandle$instance & __SafeNCryptHandle$vi
 export class SafeNCryptKeyHandle$instance extends SafeNCryptHandle$instance {
     constructor();
     constructor(handle: nint, parentHandle: SafeHandle);
-    Dispose(): void;
+    dispose(): void;
 }
 
 
@@ -175,7 +175,7 @@ export type SafeNCryptKeyHandle = SafeNCryptKeyHandle$instance & __SafeNCryptKey
 
 export class SafeNCryptProviderHandle$instance extends SafeNCryptHandle$instance {
     constructor();
-    Dispose(): void;
+    dispose(): void;
 }
 
 
@@ -188,7 +188,7 @@ export type SafeNCryptProviderHandle = SafeNCryptProviderHandle$instance & __Saf
 
 export class SafeNCryptSecretHandle$instance extends SafeNCryptHandle$instance {
     constructor();
-    Dispose(): void;
+    dispose(): void;
 }
 
 
@@ -202,8 +202,8 @@ export type SafeNCryptSecretHandle = SafeNCryptSecretHandle$instance & __SafeNCr
 export class SafePipeHandle$instance extends SafeHandleZeroOrMinusOneIsInvalid$instance {
     constructor();
     constructor(preexistingHandle: nint, ownsHandle: boolean);
-    readonly IsInvalid: boolean;
-    Dispose(): void;
+    readonly isInvalid: boolean;
+    dispose(): void;
 }
 
 
@@ -217,7 +217,7 @@ export type SafePipeHandle = SafePipeHandle$instance & __SafePipeHandle$views;
 export class SafeProcessHandle$instance extends SafeHandleZeroOrMinusOneIsInvalid$instance {
     constructor();
     constructor(existingHandle: nint, ownsHandle: boolean);
-    Dispose(): void;
+    dispose(): void;
 }
 
 
@@ -231,7 +231,7 @@ export type SafeProcessHandle = SafeProcessHandle$instance & __SafeProcessHandle
 export class SafeRegistryHandle$instance extends SafeHandleZeroOrMinusOneIsInvalid$instance {
     constructor();
     constructor(preexistingHandle: nint, ownsHandle: boolean);
-    Dispose(): void;
+    dispose(): void;
 }
 
 
@@ -245,7 +245,7 @@ export type SafeRegistryHandle = SafeRegistryHandle$instance & __SafeRegistryHan
 export class SafeWaitHandle$instance extends SafeHandleZeroOrMinusOneIsInvalid$instance {
     constructor();
     constructor(existingHandle: nint, ownsHandle: boolean);
-    Dispose(): void;
+    dispose(): void;
 }
 
 
@@ -258,7 +258,7 @@ export type SafeWaitHandle = SafeWaitHandle$instance & __SafeWaitHandle$views;
 
 export class SafeX509ChainHandle$instance extends SafeHandleZeroOrMinusOneIsInvalid$instance {
     constructor();
-    Dispose(): void;
+    dispose(): void;
 }
 
 

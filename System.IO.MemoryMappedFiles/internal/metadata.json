@@ -29,7 +29,7 @@
         {
           "stableId": "System.IO.MemoryMappedFiles:System.IO.MemoryMappedFiles.MemoryMappedFileAccess::ReadWriteSystem.IO.MemoryMappedFiles.MemoryMappedFileAccess",
           "clrName": "ReadWrite",
-          "tsEmitName": "ReadWrite",
+          "tsEmitName": "readWrite",
           "normalizedSignature": "ReadWrite|System.IO.MemoryMappedFiles.MemoryMappedFileAccess|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -38,7 +38,7 @@
         {
           "stableId": "System.IO.MemoryMappedFiles:System.IO.MemoryMappedFiles.MemoryMappedFileAccess::ReadSystem.IO.MemoryMappedFiles.MemoryMappedFileAccess",
           "clrName": "Read",
-          "tsEmitName": "Read",
+          "tsEmitName": "read",
           "normalizedSignature": "Read|System.IO.MemoryMappedFiles.MemoryMappedFileAccess|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -47,7 +47,7 @@
         {
           "stableId": "System.IO.MemoryMappedFiles:System.IO.MemoryMappedFiles.MemoryMappedFileAccess::WriteSystem.IO.MemoryMappedFiles.MemoryMappedFileAccess",
           "clrName": "Write",
-          "tsEmitName": "Write",
+          "tsEmitName": "write",
           "normalizedSignature": "Write|System.IO.MemoryMappedFiles.MemoryMappedFileAccess|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -56,7 +56,7 @@
         {
           "stableId": "System.IO.MemoryMappedFiles:System.IO.MemoryMappedFiles.MemoryMappedFileAccess::CopyOnWriteSystem.IO.MemoryMappedFiles.MemoryMappedFileAccess",
           "clrName": "CopyOnWrite",
-          "tsEmitName": "CopyOnWrite",
+          "tsEmitName": "copyOnWrite",
           "normalizedSignature": "CopyOnWrite|System.IO.MemoryMappedFiles.MemoryMappedFileAccess|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -65,7 +65,7 @@
         {
           "stableId": "System.IO.MemoryMappedFiles:System.IO.MemoryMappedFiles.MemoryMappedFileAccess::ReadExecuteSystem.IO.MemoryMappedFiles.MemoryMappedFileAccess",
           "clrName": "ReadExecute",
-          "tsEmitName": "ReadExecute",
+          "tsEmitName": "readExecute",
           "normalizedSignature": "ReadExecute|System.IO.MemoryMappedFiles.MemoryMappedFileAccess|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -74,7 +74,7 @@
         {
           "stableId": "System.IO.MemoryMappedFiles:System.IO.MemoryMappedFiles.MemoryMappedFileAccess::ReadWriteExecuteSystem.IO.MemoryMappedFiles.MemoryMappedFileAccess",
           "clrName": "ReadWriteExecute",
-          "tsEmitName": "ReadWriteExecute",
+          "tsEmitName": "readWriteExecute",
           "normalizedSignature": "ReadWriteExecute|System.IO.MemoryMappedFiles.MemoryMappedFileAccess|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -109,7 +109,7 @@
         {
           "stableId": "System.IO.MemoryMappedFiles:System.IO.MemoryMappedFiles.MemoryMappedFileOptions::NoneSystem.IO.MemoryMappedFiles.MemoryMappedFileOptions",
           "clrName": "None",
-          "tsEmitName": "None",
+          "tsEmitName": "none",
           "normalizedSignature": "None|System.IO.MemoryMappedFiles.MemoryMappedFileOptions|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -118,7 +118,7 @@
         {
           "stableId": "System.IO.MemoryMappedFiles:System.IO.MemoryMappedFiles.MemoryMappedFileOptions::DelayAllocatePagesSystem.IO.MemoryMappedFiles.MemoryMappedFileOptions",
           "clrName": "DelayAllocatePages",
-          "tsEmitName": "DelayAllocatePages",
+          "tsEmitName": "delayAllocatePages",
           "normalizedSignature": "DelayAllocatePages|System.IO.MemoryMappedFiles.MemoryMappedFileOptions|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -153,7 +153,7 @@
         {
           "stableId": "System.IO.MemoryMappedFiles:System.IO.MemoryMappedFiles.MemoryMappedFileRights::CopyOnWriteSystem.IO.MemoryMappedFiles.MemoryMappedFileRights",
           "clrName": "CopyOnWrite",
-          "tsEmitName": "CopyOnWrite",
+          "tsEmitName": "copyOnWrite",
           "normalizedSignature": "CopyOnWrite|System.IO.MemoryMappedFiles.MemoryMappedFileRights|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -162,7 +162,7 @@
         {
           "stableId": "System.IO.MemoryMappedFiles:System.IO.MemoryMappedFiles.MemoryMappedFileRights::WriteSystem.IO.MemoryMappedFiles.MemoryMappedFileRights",
           "clrName": "Write",
-          "tsEmitName": "Write",
+          "tsEmitName": "write",
           "normalizedSignature": "Write|System.IO.MemoryMappedFiles.MemoryMappedFileRights|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -171,7 +171,7 @@
         {
           "stableId": "System.IO.MemoryMappedFiles:System.IO.MemoryMappedFiles.MemoryMappedFileRights::ReadSystem.IO.MemoryMappedFiles.MemoryMappedFileRights",
           "clrName": "Read",
-          "tsEmitName": "Read",
+          "tsEmitName": "read",
           "normalizedSignature": "Read|System.IO.MemoryMappedFiles.MemoryMappedFileRights|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -180,7 +180,7 @@
         {
           "stableId": "System.IO.MemoryMappedFiles:System.IO.MemoryMappedFiles.MemoryMappedFileRights::ExecuteSystem.IO.MemoryMappedFiles.MemoryMappedFileRights",
           "clrName": "Execute",
-          "tsEmitName": "Execute",
+          "tsEmitName": "execute",
           "normalizedSignature": "Execute|System.IO.MemoryMappedFiles.MemoryMappedFileRights|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -189,7 +189,7 @@
         {
           "stableId": "System.IO.MemoryMappedFiles:System.IO.MemoryMappedFiles.MemoryMappedFileRights::DeleteSystem.IO.MemoryMappedFiles.MemoryMappedFileRights",
           "clrName": "Delete",
-          "tsEmitName": "Delete",
+          "tsEmitName": "delete_",
           "normalizedSignature": "Delete|System.IO.MemoryMappedFiles.MemoryMappedFileRights|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -198,7 +198,7 @@
         {
           "stableId": "System.IO.MemoryMappedFiles:System.IO.MemoryMappedFiles.MemoryMappedFileRights::ReadPermissionsSystem.IO.MemoryMappedFiles.MemoryMappedFileRights",
           "clrName": "ReadPermissions",
-          "tsEmitName": "ReadPermissions",
+          "tsEmitName": "readPermissions",
           "normalizedSignature": "ReadPermissions|System.IO.MemoryMappedFiles.MemoryMappedFileRights|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -207,7 +207,7 @@
         {
           "stableId": "System.IO.MemoryMappedFiles:System.IO.MemoryMappedFiles.MemoryMappedFileRights::ChangePermissionsSystem.IO.MemoryMappedFiles.MemoryMappedFileRights",
           "clrName": "ChangePermissions",
-          "tsEmitName": "ChangePermissions",
+          "tsEmitName": "changePermissions",
           "normalizedSignature": "ChangePermissions|System.IO.MemoryMappedFiles.MemoryMappedFileRights|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -216,7 +216,7 @@
         {
           "stableId": "System.IO.MemoryMappedFiles:System.IO.MemoryMappedFiles.MemoryMappedFileRights::TakeOwnershipSystem.IO.MemoryMappedFiles.MemoryMappedFileRights",
           "clrName": "TakeOwnership",
-          "tsEmitName": "TakeOwnership",
+          "tsEmitName": "takeOwnership",
           "normalizedSignature": "TakeOwnership|System.IO.MemoryMappedFiles.MemoryMappedFileRights|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -225,7 +225,7 @@
         {
           "stableId": "System.IO.MemoryMappedFiles:System.IO.MemoryMappedFiles.MemoryMappedFileRights::ReadWriteSystem.IO.MemoryMappedFiles.MemoryMappedFileRights",
           "clrName": "ReadWrite",
-          "tsEmitName": "ReadWrite",
+          "tsEmitName": "readWrite",
           "normalizedSignature": "ReadWrite|System.IO.MemoryMappedFiles.MemoryMappedFileRights|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -234,7 +234,7 @@
         {
           "stableId": "System.IO.MemoryMappedFiles:System.IO.MemoryMappedFiles.MemoryMappedFileRights::ReadExecuteSystem.IO.MemoryMappedFiles.MemoryMappedFileRights",
           "clrName": "ReadExecute",
-          "tsEmitName": "ReadExecute",
+          "tsEmitName": "readExecute",
           "normalizedSignature": "ReadExecute|System.IO.MemoryMappedFiles.MemoryMappedFileRights|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -243,7 +243,7 @@
         {
           "stableId": "System.IO.MemoryMappedFiles:System.IO.MemoryMappedFiles.MemoryMappedFileRights::ReadWriteExecuteSystem.IO.MemoryMappedFiles.MemoryMappedFileRights",
           "clrName": "ReadWriteExecute",
-          "tsEmitName": "ReadWriteExecute",
+          "tsEmitName": "readWriteExecute",
           "normalizedSignature": "ReadWriteExecute|System.IO.MemoryMappedFiles.MemoryMappedFileRights|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -252,7 +252,7 @@
         {
           "stableId": "System.IO.MemoryMappedFiles:System.IO.MemoryMappedFiles.MemoryMappedFileRights::FullControlSystem.IO.MemoryMappedFiles.MemoryMappedFileRights",
           "clrName": "FullControl",
-          "tsEmitName": "FullControl",
+          "tsEmitName": "fullControl",
           "normalizedSignature": "FullControl|System.IO.MemoryMappedFiles.MemoryMappedFileRights|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -261,7 +261,7 @@
         {
           "stableId": "System.IO.MemoryMappedFiles:System.IO.MemoryMappedFiles.MemoryMappedFileRights::AccessSystemSecuritySystem.IO.MemoryMappedFiles.MemoryMappedFileRights",
           "clrName": "AccessSystemSecurity",
-          "tsEmitName": "AccessSystemSecurity",
+          "tsEmitName": "accessSystemSecurity",
           "normalizedSignature": "AccessSystemSecurity|System.IO.MemoryMappedFiles.MemoryMappedFileRights|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -285,7 +285,7 @@
         {
           "stableId": "System.IO.MemoryMappedFiles:System.IO.MemoryMappedFiles.MemoryMappedFile::OpenExisting(System.String):System.IO.MemoryMappedFiles.MemoryMappedFile",
           "clrName": "OpenExisting",
-          "tsEmitName": "OpenExisting",
+          "tsEmitName": "openExisting",
           "normalizedSignature": "OpenExisting|(System.String):System.IO.MemoryMappedFiles.MemoryMappedFile|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -301,7 +301,7 @@
         {
           "stableId": "System.IO.MemoryMappedFiles:System.IO.MemoryMappedFiles.MemoryMappedFile::OpenExisting(System.String,System.IO.MemoryMappedFiles.MemoryMappedFileRights):System.IO.MemoryMappedFiles.MemoryMappedFile",
           "clrName": "OpenExisting",
-          "tsEmitName": "OpenExisting2",
+          "tsEmitName": "openExisting2",
           "normalizedSignature": "OpenExisting|(System.String,System.IO.MemoryMappedFiles.MemoryMappedFileRights):System.IO.MemoryMappedFiles.MemoryMappedFile|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -317,7 +317,7 @@
         {
           "stableId": "System.IO.MemoryMappedFiles:System.IO.MemoryMappedFiles.MemoryMappedFile::OpenExisting(System.String,System.IO.MemoryMappedFiles.MemoryMappedFileRights,System.IO.HandleInheritability):System.IO.MemoryMappedFiles.MemoryMappedFile",
           "clrName": "OpenExisting",
-          "tsEmitName": "OpenExisting3",
+          "tsEmitName": "openExisting3",
           "normalizedSignature": "OpenExisting|(System.String,System.IO.MemoryMappedFiles.MemoryMappedFileRights,System.IO.HandleInheritability):System.IO.MemoryMappedFiles.MemoryMappedFile|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -333,7 +333,7 @@
         {
           "stableId": "System.IO.MemoryMappedFiles:System.IO.MemoryMappedFiles.MemoryMappedFile::CreateFromFile(System.String):System.IO.MemoryMappedFiles.MemoryMappedFile",
           "clrName": "CreateFromFile",
-          "tsEmitName": "CreateFromFile",
+          "tsEmitName": "createFromFile",
           "normalizedSignature": "CreateFromFile|(System.String):System.IO.MemoryMappedFiles.MemoryMappedFile|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -349,7 +349,7 @@
         {
           "stableId": "System.IO.MemoryMappedFiles:System.IO.MemoryMappedFiles.MemoryMappedFile::CreateFromFile(System.String,System.IO.FileMode):System.IO.MemoryMappedFiles.MemoryMappedFile",
           "clrName": "CreateFromFile",
-          "tsEmitName": "CreateFromFile2",
+          "tsEmitName": "createFromFile2",
           "normalizedSignature": "CreateFromFile|(System.String,System.IO.FileMode):System.IO.MemoryMappedFiles.MemoryMappedFile|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -365,7 +365,7 @@
         {
           "stableId": "System.IO.MemoryMappedFiles:System.IO.MemoryMappedFiles.MemoryMappedFile::CreateFromFile(System.String,System.IO.FileMode,System.String):System.IO.MemoryMappedFiles.MemoryMappedFile",
           "clrName": "CreateFromFile",
-          "tsEmitName": "CreateFromFile3",
+          "tsEmitName": "createFromFile3",
           "normalizedSignature": "CreateFromFile|(System.String,System.IO.FileMode,System.String):System.IO.MemoryMappedFiles.MemoryMappedFile|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -381,7 +381,7 @@
         {
           "stableId": "System.IO.MemoryMappedFiles:System.IO.MemoryMappedFiles.MemoryMappedFile::CreateFromFile(System.String,System.IO.FileMode,System.String,System.Int64):System.IO.MemoryMappedFiles.MemoryMappedFile",
           "clrName": "CreateFromFile",
-          "tsEmitName": "CreateFromFile4",
+          "tsEmitName": "createFromFile4",
           "normalizedSignature": "CreateFromFile|(System.String,System.IO.FileMode,System.String,System.Int64):System.IO.MemoryMappedFiles.MemoryMappedFile|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -397,7 +397,7 @@
         {
           "stableId": "System.IO.MemoryMappedFiles:System.IO.MemoryMappedFiles.MemoryMappedFile::CreateFromFile(System.String,System.IO.FileMode,System.String,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess):System.IO.MemoryMappedFiles.MemoryMappedFile",
           "clrName": "CreateFromFile",
-          "tsEmitName": "CreateFromFile5",
+          "tsEmitName": "createFromFile5",
           "normalizedSignature": "CreateFromFile|(System.String,System.IO.FileMode,System.String,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess):System.IO.MemoryMappedFiles.MemoryMappedFile|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -413,7 +413,7 @@
         {
           "stableId": "System.IO.MemoryMappedFiles:System.IO.MemoryMappedFiles.MemoryMappedFile::CreateFromFile(Microsoft.Win32.SafeHandles.SafeFileHandle,System.String,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess,System.IO.HandleInheritability,System.Boolean):System.IO.MemoryMappedFiles.MemoryMappedFile",
           "clrName": "CreateFromFile",
-          "tsEmitName": "CreateFromFile6",
+          "tsEmitName": "createFromFile6",
           "normalizedSignature": "CreateFromFile|(Microsoft.Win32.SafeHandles.SafeFileHandle,System.String,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess,System.IO.HandleInheritability,System.Boolean):System.IO.MemoryMappedFiles.MemoryMappedFile|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -429,7 +429,7 @@
         {
           "stableId": "System.IO.MemoryMappedFiles:System.IO.MemoryMappedFiles.MemoryMappedFile::CreateFromFile(System.IO.FileStream,System.String,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess,System.IO.HandleInheritability,System.Boolean):System.IO.MemoryMappedFiles.MemoryMappedFile",
           "clrName": "CreateFromFile",
-          "tsEmitName": "CreateFromFile7",
+          "tsEmitName": "createFromFile7",
           "normalizedSignature": "CreateFromFile|(System.IO.FileStream,System.String,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess,System.IO.HandleInheritability,System.Boolean):System.IO.MemoryMappedFiles.MemoryMappedFile|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -445,7 +445,7 @@
         {
           "stableId": "System.IO.MemoryMappedFiles:System.IO.MemoryMappedFiles.MemoryMappedFile::CreateNew(System.String,System.Int64):System.IO.MemoryMappedFiles.MemoryMappedFile",
           "clrName": "CreateNew",
-          "tsEmitName": "CreateNew",
+          "tsEmitName": "createNew",
           "normalizedSignature": "CreateNew|(System.String,System.Int64):System.IO.MemoryMappedFiles.MemoryMappedFile|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -461,7 +461,7 @@
         {
           "stableId": "System.IO.MemoryMappedFiles:System.IO.MemoryMappedFiles.MemoryMappedFile::CreateNew(System.String,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess):System.IO.MemoryMappedFiles.MemoryMappedFile",
           "clrName": "CreateNew",
-          "tsEmitName": "CreateNew2",
+          "tsEmitName": "createNew2",
           "normalizedSignature": "CreateNew|(System.String,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess):System.IO.MemoryMappedFiles.MemoryMappedFile|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -477,7 +477,7 @@
         {
           "stableId": "System.IO.MemoryMappedFiles:System.IO.MemoryMappedFiles.MemoryMappedFile::CreateNew(System.String,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess,System.IO.MemoryMappedFiles.MemoryMappedFileOptions,System.IO.HandleInheritability):System.IO.MemoryMappedFiles.MemoryMappedFile",
           "clrName": "CreateNew",
-          "tsEmitName": "CreateNew3",
+          "tsEmitName": "createNew3",
           "normalizedSignature": "CreateNew|(System.String,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess,System.IO.MemoryMappedFiles.MemoryMappedFileOptions,System.IO.HandleInheritability):System.IO.MemoryMappedFiles.MemoryMappedFile|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -493,7 +493,7 @@
         {
           "stableId": "System.IO.MemoryMappedFiles:System.IO.MemoryMappedFiles.MemoryMappedFile::CreateOrOpen(System.String,System.Int64):System.IO.MemoryMappedFiles.MemoryMappedFile",
           "clrName": "CreateOrOpen",
-          "tsEmitName": "CreateOrOpen",
+          "tsEmitName": "createOrOpen",
           "normalizedSignature": "CreateOrOpen|(System.String,System.Int64):System.IO.MemoryMappedFiles.MemoryMappedFile|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -509,7 +509,7 @@
         {
           "stableId": "System.IO.MemoryMappedFiles:System.IO.MemoryMappedFiles.MemoryMappedFile::CreateOrOpen(System.String,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess):System.IO.MemoryMappedFiles.MemoryMappedFile",
           "clrName": "CreateOrOpen",
-          "tsEmitName": "CreateOrOpen2",
+          "tsEmitName": "createOrOpen2",
           "normalizedSignature": "CreateOrOpen|(System.String,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess):System.IO.MemoryMappedFiles.MemoryMappedFile|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -525,7 +525,7 @@
         {
           "stableId": "System.IO.MemoryMappedFiles:System.IO.MemoryMappedFiles.MemoryMappedFile::CreateOrOpen(System.String,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess,System.IO.MemoryMappedFiles.MemoryMappedFileOptions,System.IO.HandleInheritability):System.IO.MemoryMappedFiles.MemoryMappedFile",
           "clrName": "CreateOrOpen",
-          "tsEmitName": "CreateOrOpen3",
+          "tsEmitName": "createOrOpen3",
           "normalizedSignature": "CreateOrOpen|(System.String,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess,System.IO.MemoryMappedFiles.MemoryMappedFileOptions,System.IO.HandleInheritability):System.IO.MemoryMappedFiles.MemoryMappedFile|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -541,7 +541,7 @@
         {
           "stableId": "System.IO.MemoryMappedFiles:System.IO.MemoryMappedFiles.MemoryMappedFile::CreateViewStream():System.IO.MemoryMappedFiles.MemoryMappedViewStream",
           "clrName": "CreateViewStream",
-          "tsEmitName": "CreateViewStream",
+          "tsEmitName": "createViewStream",
           "normalizedSignature": "CreateViewStream|():System.IO.MemoryMappedFiles.MemoryMappedViewStream|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -557,7 +557,7 @@
         {
           "stableId": "System.IO.MemoryMappedFiles:System.IO.MemoryMappedFiles.MemoryMappedFile::CreateViewStream(System.Int64,System.Int64):System.IO.MemoryMappedFiles.MemoryMappedViewStream",
           "clrName": "CreateViewStream",
-          "tsEmitName": "CreateViewStream2",
+          "tsEmitName": "createViewStream2",
           "normalizedSignature": "CreateViewStream|(System.Int64,System.Int64):System.IO.MemoryMappedFiles.MemoryMappedViewStream|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -573,7 +573,7 @@
         {
           "stableId": "System.IO.MemoryMappedFiles:System.IO.MemoryMappedFiles.MemoryMappedFile::CreateViewStream(System.Int64,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess):System.IO.MemoryMappedFiles.MemoryMappedViewStream",
           "clrName": "CreateViewStream",
-          "tsEmitName": "CreateViewStream3",
+          "tsEmitName": "createViewStream3",
           "normalizedSignature": "CreateViewStream|(System.Int64,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess):System.IO.MemoryMappedFiles.MemoryMappedViewStream|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -589,7 +589,7 @@
         {
           "stableId": "System.IO.MemoryMappedFiles:System.IO.MemoryMappedFiles.MemoryMappedFile::CreateViewAccessor():System.IO.MemoryMappedFiles.MemoryMappedViewAccessor",
           "clrName": "CreateViewAccessor",
-          "tsEmitName": "CreateViewAccessor",
+          "tsEmitName": "createViewAccessor",
           "normalizedSignature": "CreateViewAccessor|():System.IO.MemoryMappedFiles.MemoryMappedViewAccessor|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -605,7 +605,7 @@
         {
           "stableId": "System.IO.MemoryMappedFiles:System.IO.MemoryMappedFiles.MemoryMappedFile::CreateViewAccessor(System.Int64,System.Int64):System.IO.MemoryMappedFiles.MemoryMappedViewAccessor",
           "clrName": "CreateViewAccessor",
-          "tsEmitName": "CreateViewAccessor2",
+          "tsEmitName": "createViewAccessor2",
           "normalizedSignature": "CreateViewAccessor|(System.Int64,System.Int64):System.IO.MemoryMappedFiles.MemoryMappedViewAccessor|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -621,7 +621,7 @@
         {
           "stableId": "System.IO.MemoryMappedFiles:System.IO.MemoryMappedFiles.MemoryMappedFile::CreateViewAccessor(System.Int64,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess):System.IO.MemoryMappedFiles.MemoryMappedViewAccessor",
           "clrName": "CreateViewAccessor",
-          "tsEmitName": "CreateViewAccessor3",
+          "tsEmitName": "createViewAccessor3",
           "normalizedSignature": "CreateViewAccessor|(System.Int64,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess):System.IO.MemoryMappedFiles.MemoryMappedViewAccessor|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -637,7 +637,7 @@
         {
           "stableId": "System.IO.MemoryMappedFiles:System.IO.MemoryMappedFiles.MemoryMappedFile::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "Dispose",
+          "tsEmitName": "dispose",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -653,7 +653,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "Dispose$view",
+          "tsEmitName": "dispose$view",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -672,7 +672,7 @@
         {
           "stableId": "System.IO.MemoryMappedFiles:System.IO.MemoryMappedFiles.MemoryMappedFile::SafeMemoryMappedFileHandle:Microsoft.Win32.SafeHandles.SafeMemoryMappedFileHandle",
           "clrName": "SafeMemoryMappedFileHandle",
-          "tsEmitName": "SafeMemoryMappedFileHandle",
+          "tsEmitName": "safeMemoryMappedFileHandle",
           "normalizedSignature": "SafeMemoryMappedFileHandle|:Microsoft.Win32.SafeHandles.SafeMemoryMappedFileHandle|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -703,7 +703,7 @@
         {
           "stableId": "System.IO.MemoryMappedFiles:System.IO.MemoryMappedFiles.MemoryMappedViewAccessor::Flush():System.Void",
           "clrName": "Flush",
-          "tsEmitName": "Flush",
+          "tsEmitName": "flush",
           "normalizedSignature": "Flush|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -719,7 +719,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "Dispose$view",
+          "tsEmitName": "dispose$view",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -736,7 +736,7 @@
         {
           "stableId": "System.IO.MemoryMappedFiles:System.IO.MemoryMappedFiles.MemoryMappedViewAccessor::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "Dispose",
+          "tsEmitName": "dispose",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -754,7 +754,7 @@
         {
           "stableId": "System.IO.MemoryMappedFiles:System.IO.MemoryMappedFiles.MemoryMappedViewAccessor::SafeMemoryMappedViewHandle:Microsoft.Win32.SafeHandles.SafeMemoryMappedViewHandle",
           "clrName": "SafeMemoryMappedViewHandle",
-          "tsEmitName": "SafeMemoryMappedViewHandle",
+          "tsEmitName": "safeMemoryMappedViewHandle",
           "normalizedSignature": "SafeMemoryMappedViewHandle|:Microsoft.Win32.SafeHandles.SafeMemoryMappedViewHandle|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -769,7 +769,7 @@
         {
           "stableId": "System.IO.MemoryMappedFiles:System.IO.MemoryMappedFiles.MemoryMappedViewAccessor::PointerOffset:System.Int64",
           "clrName": "PointerOffset",
-          "tsEmitName": "PointerOffset",
+          "tsEmitName": "pointerOffset",
           "normalizedSignature": "PointerOffset|:System.Int64|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -800,7 +800,7 @@
         {
           "stableId": "System.IO.MemoryMappedFiles:System.IO.MemoryMappedFiles.MemoryMappedViewStream::SetLength(System.Int64):System.Void",
           "clrName": "SetLength",
-          "tsEmitName": "SetLength",
+          "tsEmitName": "setLength",
           "normalizedSignature": "SetLength|(System.Int64):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -816,7 +816,7 @@
         {
           "stableId": "System.IO.MemoryMappedFiles:System.IO.MemoryMappedFiles.MemoryMappedViewStream::Flush():System.Void",
           "clrName": "Flush",
-          "tsEmitName": "Flush",
+          "tsEmitName": "flush",
           "normalizedSignature": "Flush|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -832,7 +832,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "Dispose$view",
+          "tsEmitName": "dispose$view",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -849,7 +849,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IAsyncDisposable::DisposeAsync():System.Threading.Tasks.ValueTask",
           "clrName": "DisposeAsync",
-          "tsEmitName": "DisposeAsync$view",
+          "tsEmitName": "disposeAsync$view",
           "normalizedSignature": "DisposeAsync|():System.Threading.Tasks.ValueTask|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -866,7 +866,7 @@
         {
           "stableId": "System.IO.MemoryMappedFiles:System.IO.MemoryMappedFiles.MemoryMappedViewStream::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "Dispose",
+          "tsEmitName": "dispose",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -882,7 +882,7 @@
         {
           "stableId": "System.IO.MemoryMappedFiles:System.IO.MemoryMappedFiles.MemoryMappedViewStream::DisposeAsync():System.Threading.Tasks.ValueTask",
           "clrName": "DisposeAsync",
-          "tsEmitName": "DisposeAsync",
+          "tsEmitName": "disposeAsync",
           "normalizedSignature": "DisposeAsync|():System.Threading.Tasks.ValueTask|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -900,7 +900,7 @@
         {
           "stableId": "System.IO.MemoryMappedFiles:System.IO.MemoryMappedFiles.MemoryMappedViewStream::SafeMemoryMappedViewHandle:Microsoft.Win32.SafeHandles.SafeMemoryMappedViewHandle",
           "clrName": "SafeMemoryMappedViewHandle",
-          "tsEmitName": "SafeMemoryMappedViewHandle",
+          "tsEmitName": "safeMemoryMappedViewHandle",
           "normalizedSignature": "SafeMemoryMappedViewHandle|:Microsoft.Win32.SafeHandles.SafeMemoryMappedViewHandle|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -915,7 +915,7 @@
         {
           "stableId": "System.IO.MemoryMappedFiles:System.IO.MemoryMappedFiles.MemoryMappedViewStream::PointerOffset:System.Int64",
           "clrName": "PointerOffset",
-          "tsEmitName": "PointerOffset",
+          "tsEmitName": "pointerOffset",
           "normalizedSignature": "PointerOffset|:System.Int64|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",

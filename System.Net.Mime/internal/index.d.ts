@@ -36,28 +36,28 @@ export type CLROf<T> =
     T; // Identity fallback for non-primitive types
 
 export enum TransferEncoding {
-    Unknown = -1,
-    QuotedPrintable = 0,
-    Base64 = 1,
-    SevenBit = 2,
-    EightBit = 3
+    unknown_ = -1,
+    quotedPrintable = 0,
+    base64 = 1,
+    sevenBit = 2,
+    eightBit = 3
 }
 
 
 export class ContentDisposition$instance {
     constructor();
     constructor(disposition: string);
-    CreationDate: DateTime;
-    DispositionType: string;
-    FileName: string;
-    Inline: boolean;
-    ModificationDate: DateTime;
-    readonly Parameters: StringDictionary;
-    ReadDate: DateTime;
-    Size: long;
-    Equals(rparam: any): boolean;
-    GetHashCode(): int;
-    ToString(): string;
+    creationDate: DateTime;
+    dispositionType: string;
+    fileName: string;
+    inline: boolean;
+    modificationDate: DateTime;
+    readonly parameters: StringDictionary;
+    readDate: DateTime;
+    size: long;
+    equals(rparam: any): boolean;
+    getHashCode(): int;
+    toString(): string;
 }
 
 
@@ -66,14 +66,14 @@ export type ContentDisposition = ContentDisposition$instance;
 export class ContentType$instance {
     constructor();
     constructor(contentType: string);
-    Boundary: string;
-    CharSet: string;
-    MediaType: string;
-    Name: string;
-    readonly Parameters: StringDictionary;
-    Equals(rparam: any): boolean;
-    GetHashCode(): int;
-    ToString(): string;
+    boundary: string;
+    charSet: string;
+    mediaType: string;
+    name: string;
+    readonly parameters: StringDictionary;
+    equals(rparam: any): boolean;
+    getHashCode(): int;
+    toString(): string;
 }
 
 

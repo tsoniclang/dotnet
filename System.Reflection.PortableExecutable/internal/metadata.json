@@ -29,7 +29,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.Characteristics::RelocsStrippedSystem.Reflection.PortableExecutable.Characteristics",
           "clrName": "RelocsStripped",
-          "tsEmitName": "RelocsStripped",
+          "tsEmitName": "relocsStripped",
           "normalizedSignature": "RelocsStripped|System.Reflection.PortableExecutable.Characteristics|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -38,7 +38,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.Characteristics::ExecutableImageSystem.Reflection.PortableExecutable.Characteristics",
           "clrName": "ExecutableImage",
-          "tsEmitName": "ExecutableImage",
+          "tsEmitName": "executableImage",
           "normalizedSignature": "ExecutableImage|System.Reflection.PortableExecutable.Characteristics|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -47,7 +47,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.Characteristics::LineNumsStrippedSystem.Reflection.PortableExecutable.Characteristics",
           "clrName": "LineNumsStripped",
-          "tsEmitName": "LineNumsStripped",
+          "tsEmitName": "lineNumsStripped",
           "normalizedSignature": "LineNumsStripped|System.Reflection.PortableExecutable.Characteristics|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -56,7 +56,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.Characteristics::LocalSymsStrippedSystem.Reflection.PortableExecutable.Characteristics",
           "clrName": "LocalSymsStripped",
-          "tsEmitName": "LocalSymsStripped",
+          "tsEmitName": "localSymsStripped",
           "normalizedSignature": "LocalSymsStripped|System.Reflection.PortableExecutable.Characteristics|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -65,7 +65,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.Characteristics::AggressiveWSTrimSystem.Reflection.PortableExecutable.Characteristics",
           "clrName": "AggressiveWSTrim",
-          "tsEmitName": "AggressiveWSTrim",
+          "tsEmitName": "aggressiveWSTrim",
           "normalizedSignature": "AggressiveWSTrim|System.Reflection.PortableExecutable.Characteristics|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -74,7 +74,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.Characteristics::LargeAddressAwareSystem.Reflection.PortableExecutable.Characteristics",
           "clrName": "LargeAddressAware",
-          "tsEmitName": "LargeAddressAware",
+          "tsEmitName": "largeAddressAware",
           "normalizedSignature": "LargeAddressAware|System.Reflection.PortableExecutable.Characteristics|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -83,7 +83,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.Characteristics::BytesReversedLoSystem.Reflection.PortableExecutable.Characteristics",
           "clrName": "BytesReversedLo",
-          "tsEmitName": "BytesReversedLo",
+          "tsEmitName": "bytesReversedLo",
           "normalizedSignature": "BytesReversedLo|System.Reflection.PortableExecutable.Characteristics|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -92,7 +92,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.Characteristics::Bit32MachineSystem.Reflection.PortableExecutable.Characteristics",
           "clrName": "Bit32Machine",
-          "tsEmitName": "Bit32Machine",
+          "tsEmitName": "bit32Machine",
           "normalizedSignature": "Bit32Machine|System.Reflection.PortableExecutable.Characteristics|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -101,7 +101,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.Characteristics::DebugStrippedSystem.Reflection.PortableExecutable.Characteristics",
           "clrName": "DebugStripped",
-          "tsEmitName": "DebugStripped",
+          "tsEmitName": "debugStripped",
           "normalizedSignature": "DebugStripped|System.Reflection.PortableExecutable.Characteristics|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -110,7 +110,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.Characteristics::RemovableRunFromSwapSystem.Reflection.PortableExecutable.Characteristics",
           "clrName": "RemovableRunFromSwap",
-          "tsEmitName": "RemovableRunFromSwap",
+          "tsEmitName": "removableRunFromSwap",
           "normalizedSignature": "RemovableRunFromSwap|System.Reflection.PortableExecutable.Characteristics|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -119,7 +119,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.Characteristics::NetRunFromSwapSystem.Reflection.PortableExecutable.Characteristics",
           "clrName": "NetRunFromSwap",
-          "tsEmitName": "NetRunFromSwap",
+          "tsEmitName": "netRunFromSwap",
           "normalizedSignature": "NetRunFromSwap|System.Reflection.PortableExecutable.Characteristics|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -128,7 +128,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.Characteristics::SystemSystem.Reflection.PortableExecutable.Characteristics",
           "clrName": "System",
-          "tsEmitName": "System",
+          "tsEmitName": "system",
           "normalizedSignature": "System|System.Reflection.PortableExecutable.Characteristics|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -137,7 +137,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.Characteristics::DllSystem.Reflection.PortableExecutable.Characteristics",
           "clrName": "Dll",
-          "tsEmitName": "Dll",
+          "tsEmitName": "dll",
           "normalizedSignature": "Dll|System.Reflection.PortableExecutable.Characteristics|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -146,7 +146,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.Characteristics::UpSystemOnlySystem.Reflection.PortableExecutable.Characteristics",
           "clrName": "UpSystemOnly",
-          "tsEmitName": "UpSystemOnly",
+          "tsEmitName": "upSystemOnly",
           "normalizedSignature": "UpSystemOnly|System.Reflection.PortableExecutable.Characteristics|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -155,7 +155,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.Characteristics::BytesReversedHiSystem.Reflection.PortableExecutable.Characteristics",
           "clrName": "BytesReversedHi",
-          "tsEmitName": "BytesReversedHi",
+          "tsEmitName": "bytesReversedHi",
           "normalizedSignature": "BytesReversedHi|System.Reflection.PortableExecutable.Characteristics|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -190,7 +190,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.CorFlags::ILOnlySystem.Reflection.PortableExecutable.CorFlags",
           "clrName": "ILOnly",
-          "tsEmitName": "ILOnly",
+          "tsEmitName": "ilOnly",
           "normalizedSignature": "ILOnly|System.Reflection.PortableExecutable.CorFlags|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -199,7 +199,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.CorFlags::Requires32BitSystem.Reflection.PortableExecutable.CorFlags",
           "clrName": "Requires32Bit",
-          "tsEmitName": "Requires32Bit",
+          "tsEmitName": "requires32Bit",
           "normalizedSignature": "Requires32Bit|System.Reflection.PortableExecutable.CorFlags|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -208,7 +208,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.CorFlags::ILLibrarySystem.Reflection.PortableExecutable.CorFlags",
           "clrName": "ILLibrary",
-          "tsEmitName": "ILLibrary",
+          "tsEmitName": "ilLibrary",
           "normalizedSignature": "ILLibrary|System.Reflection.PortableExecutable.CorFlags|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -217,7 +217,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.CorFlags::StrongNameSignedSystem.Reflection.PortableExecutable.CorFlags",
           "clrName": "StrongNameSigned",
-          "tsEmitName": "StrongNameSigned",
+          "tsEmitName": "strongNameSigned",
           "normalizedSignature": "StrongNameSigned|System.Reflection.PortableExecutable.CorFlags|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -226,7 +226,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.CorFlags::NativeEntryPointSystem.Reflection.PortableExecutable.CorFlags",
           "clrName": "NativeEntryPoint",
-          "tsEmitName": "NativeEntryPoint",
+          "tsEmitName": "nativeEntryPoint",
           "normalizedSignature": "NativeEntryPoint|System.Reflection.PortableExecutable.CorFlags|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -235,7 +235,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.CorFlags::TrackDebugDataSystem.Reflection.PortableExecutable.CorFlags",
           "clrName": "TrackDebugData",
-          "tsEmitName": "TrackDebugData",
+          "tsEmitName": "trackDebugData",
           "normalizedSignature": "TrackDebugData|System.Reflection.PortableExecutable.CorFlags|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -244,7 +244,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.CorFlags::Prefers32BitSystem.Reflection.PortableExecutable.CorFlags",
           "clrName": "Prefers32Bit",
-          "tsEmitName": "Prefers32Bit",
+          "tsEmitName": "prefers32Bit",
           "normalizedSignature": "Prefers32Bit|System.Reflection.PortableExecutable.CorFlags|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -279,7 +279,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.DebugDirectoryEntryType::UnknownSystem.Reflection.PortableExecutable.DebugDirectoryEntryType",
           "clrName": "Unknown",
-          "tsEmitName": "Unknown",
+          "tsEmitName": "unknown_",
           "normalizedSignature": "Unknown|System.Reflection.PortableExecutable.DebugDirectoryEntryType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -288,7 +288,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.DebugDirectoryEntryType::CoffSystem.Reflection.PortableExecutable.DebugDirectoryEntryType",
           "clrName": "Coff",
-          "tsEmitName": "Coff",
+          "tsEmitName": "coff",
           "normalizedSignature": "Coff|System.Reflection.PortableExecutable.DebugDirectoryEntryType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -297,7 +297,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.DebugDirectoryEntryType::CodeViewSystem.Reflection.PortableExecutable.DebugDirectoryEntryType",
           "clrName": "CodeView",
-          "tsEmitName": "CodeView",
+          "tsEmitName": "codeView",
           "normalizedSignature": "CodeView|System.Reflection.PortableExecutable.DebugDirectoryEntryType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -306,7 +306,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.DebugDirectoryEntryType::ReproducibleSystem.Reflection.PortableExecutable.DebugDirectoryEntryType",
           "clrName": "Reproducible",
-          "tsEmitName": "Reproducible",
+          "tsEmitName": "reproducible",
           "normalizedSignature": "Reproducible|System.Reflection.PortableExecutable.DebugDirectoryEntryType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -315,7 +315,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.DebugDirectoryEntryType::EmbeddedPortablePdbSystem.Reflection.PortableExecutable.DebugDirectoryEntryType",
           "clrName": "EmbeddedPortablePdb",
-          "tsEmitName": "EmbeddedPortablePdb",
+          "tsEmitName": "embeddedPortablePdb",
           "normalizedSignature": "EmbeddedPortablePdb|System.Reflection.PortableExecutable.DebugDirectoryEntryType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -324,7 +324,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.DebugDirectoryEntryType::PdbChecksumSystem.Reflection.PortableExecutable.DebugDirectoryEntryType",
           "clrName": "PdbChecksum",
-          "tsEmitName": "PdbChecksum",
+          "tsEmitName": "pdbChecksum",
           "normalizedSignature": "PdbChecksum|System.Reflection.PortableExecutable.DebugDirectoryEntryType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -359,7 +359,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.DllCharacteristics::ProcessInitSystem.Reflection.PortableExecutable.DllCharacteristics",
           "clrName": "ProcessInit",
-          "tsEmitName": "ProcessInit",
+          "tsEmitName": "processInit",
           "normalizedSignature": "ProcessInit|System.Reflection.PortableExecutable.DllCharacteristics|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -368,7 +368,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.DllCharacteristics::ProcessTermSystem.Reflection.PortableExecutable.DllCharacteristics",
           "clrName": "ProcessTerm",
-          "tsEmitName": "ProcessTerm",
+          "tsEmitName": "processTerm",
           "normalizedSignature": "ProcessTerm|System.Reflection.PortableExecutable.DllCharacteristics|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -377,7 +377,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.DllCharacteristics::ThreadInitSystem.Reflection.PortableExecutable.DllCharacteristics",
           "clrName": "ThreadInit",
-          "tsEmitName": "ThreadInit",
+          "tsEmitName": "threadInit",
           "normalizedSignature": "ThreadInit|System.Reflection.PortableExecutable.DllCharacteristics|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -386,7 +386,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.DllCharacteristics::ThreadTermSystem.Reflection.PortableExecutable.DllCharacteristics",
           "clrName": "ThreadTerm",
-          "tsEmitName": "ThreadTerm",
+          "tsEmitName": "threadTerm",
           "normalizedSignature": "ThreadTerm|System.Reflection.PortableExecutable.DllCharacteristics|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -395,7 +395,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.DllCharacteristics::HighEntropyVirtualAddressSpaceSystem.Reflection.PortableExecutable.DllCharacteristics",
           "clrName": "HighEntropyVirtualAddressSpace",
-          "tsEmitName": "HighEntropyVirtualAddressSpace",
+          "tsEmitName": "highEntropyVirtualAddressSpace",
           "normalizedSignature": "HighEntropyVirtualAddressSpace|System.Reflection.PortableExecutable.DllCharacteristics|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -404,7 +404,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.DllCharacteristics::DynamicBaseSystem.Reflection.PortableExecutable.DllCharacteristics",
           "clrName": "DynamicBase",
-          "tsEmitName": "DynamicBase",
+          "tsEmitName": "dynamicBase",
           "normalizedSignature": "DynamicBase|System.Reflection.PortableExecutable.DllCharacteristics|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -413,7 +413,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.DllCharacteristics::ForceIntegritySystem.Reflection.PortableExecutable.DllCharacteristics",
           "clrName": "ForceIntegrity",
-          "tsEmitName": "ForceIntegrity",
+          "tsEmitName": "forceIntegrity",
           "normalizedSignature": "ForceIntegrity|System.Reflection.PortableExecutable.DllCharacteristics|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -422,7 +422,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.DllCharacteristics::NxCompatibleSystem.Reflection.PortableExecutable.DllCharacteristics",
           "clrName": "NxCompatible",
-          "tsEmitName": "NxCompatible",
+          "tsEmitName": "nxCompatible",
           "normalizedSignature": "NxCompatible|System.Reflection.PortableExecutable.DllCharacteristics|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -431,7 +431,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.DllCharacteristics::NoIsolationSystem.Reflection.PortableExecutable.DllCharacteristics",
           "clrName": "NoIsolation",
-          "tsEmitName": "NoIsolation",
+          "tsEmitName": "noIsolation",
           "normalizedSignature": "NoIsolation|System.Reflection.PortableExecutable.DllCharacteristics|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -440,7 +440,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.DllCharacteristics::NoSehSystem.Reflection.PortableExecutable.DllCharacteristics",
           "clrName": "NoSeh",
-          "tsEmitName": "NoSeh",
+          "tsEmitName": "noSeh",
           "normalizedSignature": "NoSeh|System.Reflection.PortableExecutable.DllCharacteristics|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -449,7 +449,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.DllCharacteristics::NoBindSystem.Reflection.PortableExecutable.DllCharacteristics",
           "clrName": "NoBind",
-          "tsEmitName": "NoBind",
+          "tsEmitName": "noBind",
           "normalizedSignature": "NoBind|System.Reflection.PortableExecutable.DllCharacteristics|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -458,7 +458,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.DllCharacteristics::AppContainerSystem.Reflection.PortableExecutable.DllCharacteristics",
           "clrName": "AppContainer",
-          "tsEmitName": "AppContainer",
+          "tsEmitName": "appContainer",
           "normalizedSignature": "AppContainer|System.Reflection.PortableExecutable.DllCharacteristics|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -467,7 +467,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.DllCharacteristics::WdmDriverSystem.Reflection.PortableExecutable.DllCharacteristics",
           "clrName": "WdmDriver",
-          "tsEmitName": "WdmDriver",
+          "tsEmitName": "wdmDriver",
           "normalizedSignature": "WdmDriver|System.Reflection.PortableExecutable.DllCharacteristics|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -476,7 +476,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.DllCharacteristics::ControlFlowGuardSystem.Reflection.PortableExecutable.DllCharacteristics",
           "clrName": "ControlFlowGuard",
-          "tsEmitName": "ControlFlowGuard",
+          "tsEmitName": "controlFlowGuard",
           "normalizedSignature": "ControlFlowGuard|System.Reflection.PortableExecutable.DllCharacteristics|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -485,7 +485,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.DllCharacteristics::TerminalServerAwareSystem.Reflection.PortableExecutable.DllCharacteristics",
           "clrName": "TerminalServerAware",
-          "tsEmitName": "TerminalServerAware",
+          "tsEmitName": "terminalServerAware",
           "normalizedSignature": "TerminalServerAware|System.Reflection.PortableExecutable.DllCharacteristics|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -520,7 +520,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.Machine::UnknownSystem.Reflection.PortableExecutable.Machine",
           "clrName": "Unknown",
-          "tsEmitName": "Unknown",
+          "tsEmitName": "unknown_",
           "normalizedSignature": "Unknown|System.Reflection.PortableExecutable.Machine|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -529,7 +529,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.Machine::I386System.Reflection.PortableExecutable.Machine",
           "clrName": "I386",
-          "tsEmitName": "I386",
+          "tsEmitName": "i386",
           "normalizedSignature": "I386|System.Reflection.PortableExecutable.Machine|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -538,7 +538,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.Machine::WceMipsV2System.Reflection.PortableExecutable.Machine",
           "clrName": "WceMipsV2",
-          "tsEmitName": "WceMipsV2",
+          "tsEmitName": "wceMipsV2",
           "normalizedSignature": "WceMipsV2|System.Reflection.PortableExecutable.Machine|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -547,7 +547,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.Machine::AlphaSystem.Reflection.PortableExecutable.Machine",
           "clrName": "Alpha",
-          "tsEmitName": "Alpha",
+          "tsEmitName": "alpha",
           "normalizedSignature": "Alpha|System.Reflection.PortableExecutable.Machine|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -556,7 +556,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.Machine::SH3System.Reflection.PortableExecutable.Machine",
           "clrName": "SH3",
-          "tsEmitName": "SH3",
+          "tsEmitName": "sh3",
           "normalizedSignature": "SH3|System.Reflection.PortableExecutable.Machine|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -565,7 +565,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.Machine::SH3DspSystem.Reflection.PortableExecutable.Machine",
           "clrName": "SH3Dsp",
-          "tsEmitName": "SH3Dsp",
+          "tsEmitName": "sh3Dsp",
           "normalizedSignature": "SH3Dsp|System.Reflection.PortableExecutable.Machine|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -574,7 +574,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.Machine::SH3ESystem.Reflection.PortableExecutable.Machine",
           "clrName": "SH3E",
-          "tsEmitName": "SH3E",
+          "tsEmitName": "sh3e",
           "normalizedSignature": "SH3E|System.Reflection.PortableExecutable.Machine|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -583,7 +583,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.Machine::SH4System.Reflection.PortableExecutable.Machine",
           "clrName": "SH4",
-          "tsEmitName": "SH4",
+          "tsEmitName": "sh4",
           "normalizedSignature": "SH4|System.Reflection.PortableExecutable.Machine|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -592,7 +592,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.Machine::SH5System.Reflection.PortableExecutable.Machine",
           "clrName": "SH5",
-          "tsEmitName": "SH5",
+          "tsEmitName": "sh5",
           "normalizedSignature": "SH5|System.Reflection.PortableExecutable.Machine|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -601,7 +601,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.Machine::ArmSystem.Reflection.PortableExecutable.Machine",
           "clrName": "Arm",
-          "tsEmitName": "Arm",
+          "tsEmitName": "arm",
           "normalizedSignature": "Arm|System.Reflection.PortableExecutable.Machine|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -610,7 +610,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.Machine::ThumbSystem.Reflection.PortableExecutable.Machine",
           "clrName": "Thumb",
-          "tsEmitName": "Thumb",
+          "tsEmitName": "thumb",
           "normalizedSignature": "Thumb|System.Reflection.PortableExecutable.Machine|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -619,7 +619,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.Machine::ArmThumb2System.Reflection.PortableExecutable.Machine",
           "clrName": "ArmThumb2",
-          "tsEmitName": "ArmThumb2",
+          "tsEmitName": "armThumb2",
           "normalizedSignature": "ArmThumb2|System.Reflection.PortableExecutable.Machine|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -628,7 +628,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.Machine::AM33System.Reflection.PortableExecutable.Machine",
           "clrName": "AM33",
-          "tsEmitName": "AM33",
+          "tsEmitName": "am33",
           "normalizedSignature": "AM33|System.Reflection.PortableExecutable.Machine|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -637,7 +637,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.Machine::PowerPCSystem.Reflection.PortableExecutable.Machine",
           "clrName": "PowerPC",
-          "tsEmitName": "PowerPC",
+          "tsEmitName": "powerPC",
           "normalizedSignature": "PowerPC|System.Reflection.PortableExecutable.Machine|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -646,7 +646,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.Machine::PowerPCFPSystem.Reflection.PortableExecutable.Machine",
           "clrName": "PowerPCFP",
-          "tsEmitName": "PowerPCFP",
+          "tsEmitName": "powerPCFP",
           "normalizedSignature": "PowerPCFP|System.Reflection.PortableExecutable.Machine|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -655,7 +655,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.Machine::IA64System.Reflection.PortableExecutable.Machine",
           "clrName": "IA64",
-          "tsEmitName": "IA64",
+          "tsEmitName": "ia64",
           "normalizedSignature": "IA64|System.Reflection.PortableExecutable.Machine|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -664,7 +664,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.Machine::MIPS16System.Reflection.PortableExecutable.Machine",
           "clrName": "MIPS16",
-          "tsEmitName": "MIPS16",
+          "tsEmitName": "mips16",
           "normalizedSignature": "MIPS16|System.Reflection.PortableExecutable.Machine|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -673,7 +673,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.Machine::Alpha64System.Reflection.PortableExecutable.Machine",
           "clrName": "Alpha64",
-          "tsEmitName": "Alpha64",
+          "tsEmitName": "alpha64",
           "normalizedSignature": "Alpha64|System.Reflection.PortableExecutable.Machine|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -682,7 +682,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.Machine::MipsFpuSystem.Reflection.PortableExecutable.Machine",
           "clrName": "MipsFpu",
-          "tsEmitName": "MipsFpu",
+          "tsEmitName": "mipsFpu",
           "normalizedSignature": "MipsFpu|System.Reflection.PortableExecutable.Machine|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -691,7 +691,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.Machine::MipsFpu16System.Reflection.PortableExecutable.Machine",
           "clrName": "MipsFpu16",
-          "tsEmitName": "MipsFpu16",
+          "tsEmitName": "mipsFpu16",
           "normalizedSignature": "MipsFpu16|System.Reflection.PortableExecutable.Machine|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -700,7 +700,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.Machine::TricoreSystem.Reflection.PortableExecutable.Machine",
           "clrName": "Tricore",
-          "tsEmitName": "Tricore",
+          "tsEmitName": "tricore",
           "normalizedSignature": "Tricore|System.Reflection.PortableExecutable.Machine|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -709,7 +709,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.Machine::EbcSystem.Reflection.PortableExecutable.Machine",
           "clrName": "Ebc",
-          "tsEmitName": "Ebc",
+          "tsEmitName": "ebc",
           "normalizedSignature": "Ebc|System.Reflection.PortableExecutable.Machine|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -718,7 +718,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.Machine::Amd64System.Reflection.PortableExecutable.Machine",
           "clrName": "Amd64",
-          "tsEmitName": "Amd64",
+          "tsEmitName": "amd64",
           "normalizedSignature": "Amd64|System.Reflection.PortableExecutable.Machine|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -727,7 +727,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.Machine::M32RSystem.Reflection.PortableExecutable.Machine",
           "clrName": "M32R",
-          "tsEmitName": "M32R",
+          "tsEmitName": "m32r",
           "normalizedSignature": "M32R|System.Reflection.PortableExecutable.Machine|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -736,7 +736,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.Machine::Arm64System.Reflection.PortableExecutable.Machine",
           "clrName": "Arm64",
-          "tsEmitName": "Arm64",
+          "tsEmitName": "arm64",
           "normalizedSignature": "Arm64|System.Reflection.PortableExecutable.Machine|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -745,7 +745,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.Machine::LoongArch32System.Reflection.PortableExecutable.Machine",
           "clrName": "LoongArch32",
-          "tsEmitName": "LoongArch32",
+          "tsEmitName": "loongArch32",
           "normalizedSignature": "LoongArch32|System.Reflection.PortableExecutable.Machine|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -754,7 +754,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.Machine::LoongArch64System.Reflection.PortableExecutable.Machine",
           "clrName": "LoongArch64",
-          "tsEmitName": "LoongArch64",
+          "tsEmitName": "loongArch64",
           "normalizedSignature": "LoongArch64|System.Reflection.PortableExecutable.Machine|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -763,7 +763,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.Machine::RiscV32System.Reflection.PortableExecutable.Machine",
           "clrName": "RiscV32",
-          "tsEmitName": "RiscV32",
+          "tsEmitName": "riscV32",
           "normalizedSignature": "RiscV32|System.Reflection.PortableExecutable.Machine|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -772,7 +772,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.Machine::RiscV64System.Reflection.PortableExecutable.Machine",
           "clrName": "RiscV64",
-          "tsEmitName": "RiscV64",
+          "tsEmitName": "riscV64",
           "normalizedSignature": "RiscV64|System.Reflection.PortableExecutable.Machine|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -781,7 +781,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.Machine::RiscV128System.Reflection.PortableExecutable.Machine",
           "clrName": "RiscV128",
-          "tsEmitName": "RiscV128",
+          "tsEmitName": "riscV128",
           "normalizedSignature": "RiscV128|System.Reflection.PortableExecutable.Machine|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -816,7 +816,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.PEMagic::PE32System.Reflection.PortableExecutable.PEMagic",
           "clrName": "PE32",
-          "tsEmitName": "PE32",
+          "tsEmitName": "pe32",
           "normalizedSignature": "PE32|System.Reflection.PortableExecutable.PEMagic|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -825,7 +825,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.PEMagic::PE32PlusSystem.Reflection.PortableExecutable.PEMagic",
           "clrName": "PE32Plus",
-          "tsEmitName": "PE32Plus",
+          "tsEmitName": "pe32Plus",
           "normalizedSignature": "PE32Plus|System.Reflection.PortableExecutable.PEMagic|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -860,7 +860,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.PEStreamOptions::DefaultSystem.Reflection.PortableExecutable.PEStreamOptions",
           "clrName": "Default",
-          "tsEmitName": "Default",
+          "tsEmitName": "default_",
           "normalizedSignature": "Default|System.Reflection.PortableExecutable.PEStreamOptions|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -869,7 +869,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.PEStreamOptions::LeaveOpenSystem.Reflection.PortableExecutable.PEStreamOptions",
           "clrName": "LeaveOpen",
-          "tsEmitName": "LeaveOpen",
+          "tsEmitName": "leaveOpen",
           "normalizedSignature": "LeaveOpen|System.Reflection.PortableExecutable.PEStreamOptions|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -878,7 +878,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.PEStreamOptions::PrefetchMetadataSystem.Reflection.PortableExecutable.PEStreamOptions",
           "clrName": "PrefetchMetadata",
-          "tsEmitName": "PrefetchMetadata",
+          "tsEmitName": "prefetchMetadata",
           "normalizedSignature": "PrefetchMetadata|System.Reflection.PortableExecutable.PEStreamOptions|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -887,7 +887,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.PEStreamOptions::PrefetchEntireImageSystem.Reflection.PortableExecutable.PEStreamOptions",
           "clrName": "PrefetchEntireImage",
-          "tsEmitName": "PrefetchEntireImage",
+          "tsEmitName": "prefetchEntireImage",
           "normalizedSignature": "PrefetchEntireImage|System.Reflection.PortableExecutable.PEStreamOptions|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -896,7 +896,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.PEStreamOptions::IsLoadedImageSystem.Reflection.PortableExecutable.PEStreamOptions",
           "clrName": "IsLoadedImage",
-          "tsEmitName": "IsLoadedImage",
+          "tsEmitName": "isLoadedImage",
           "normalizedSignature": "IsLoadedImage|System.Reflection.PortableExecutable.PEStreamOptions|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -931,7 +931,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.SectionCharacteristics::TypeRegSystem.Reflection.PortableExecutable.SectionCharacteristics",
           "clrName": "TypeReg",
-          "tsEmitName": "TypeReg",
+          "tsEmitName": "typeReg",
           "normalizedSignature": "TypeReg|System.Reflection.PortableExecutable.SectionCharacteristics|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -940,7 +940,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.SectionCharacteristics::TypeDSectSystem.Reflection.PortableExecutable.SectionCharacteristics",
           "clrName": "TypeDSect",
-          "tsEmitName": "TypeDSect",
+          "tsEmitName": "typeDSect",
           "normalizedSignature": "TypeDSect|System.Reflection.PortableExecutable.SectionCharacteristics|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -949,7 +949,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.SectionCharacteristics::TypeNoLoadSystem.Reflection.PortableExecutable.SectionCharacteristics",
           "clrName": "TypeNoLoad",
-          "tsEmitName": "TypeNoLoad",
+          "tsEmitName": "typeNoLoad",
           "normalizedSignature": "TypeNoLoad|System.Reflection.PortableExecutable.SectionCharacteristics|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -958,7 +958,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.SectionCharacteristics::TypeGroupSystem.Reflection.PortableExecutable.SectionCharacteristics",
           "clrName": "TypeGroup",
-          "tsEmitName": "TypeGroup",
+          "tsEmitName": "typeGroup",
           "normalizedSignature": "TypeGroup|System.Reflection.PortableExecutable.SectionCharacteristics|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -967,7 +967,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.SectionCharacteristics::TypeNoPadSystem.Reflection.PortableExecutable.SectionCharacteristics",
           "clrName": "TypeNoPad",
-          "tsEmitName": "TypeNoPad",
+          "tsEmitName": "typeNoPad",
           "normalizedSignature": "TypeNoPad|System.Reflection.PortableExecutable.SectionCharacteristics|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -976,7 +976,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.SectionCharacteristics::TypeCopySystem.Reflection.PortableExecutable.SectionCharacteristics",
           "clrName": "TypeCopy",
-          "tsEmitName": "TypeCopy",
+          "tsEmitName": "typeCopy",
           "normalizedSignature": "TypeCopy|System.Reflection.PortableExecutable.SectionCharacteristics|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -985,7 +985,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.SectionCharacteristics::ContainsCodeSystem.Reflection.PortableExecutable.SectionCharacteristics",
           "clrName": "ContainsCode",
-          "tsEmitName": "ContainsCode",
+          "tsEmitName": "containsCode",
           "normalizedSignature": "ContainsCode|System.Reflection.PortableExecutable.SectionCharacteristics|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -994,7 +994,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.SectionCharacteristics::ContainsInitializedDataSystem.Reflection.PortableExecutable.SectionCharacteristics",
           "clrName": "ContainsInitializedData",
-          "tsEmitName": "ContainsInitializedData",
+          "tsEmitName": "containsInitializedData",
           "normalizedSignature": "ContainsInitializedData|System.Reflection.PortableExecutable.SectionCharacteristics|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1003,7 +1003,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.SectionCharacteristics::ContainsUninitializedDataSystem.Reflection.PortableExecutable.SectionCharacteristics",
           "clrName": "ContainsUninitializedData",
-          "tsEmitName": "ContainsUninitializedData",
+          "tsEmitName": "containsUninitializedData",
           "normalizedSignature": "ContainsUninitializedData|System.Reflection.PortableExecutable.SectionCharacteristics|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1012,7 +1012,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.SectionCharacteristics::LinkerOtherSystem.Reflection.PortableExecutable.SectionCharacteristics",
           "clrName": "LinkerOther",
-          "tsEmitName": "LinkerOther",
+          "tsEmitName": "linkerOther",
           "normalizedSignature": "LinkerOther|System.Reflection.PortableExecutable.SectionCharacteristics|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1021,7 +1021,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.SectionCharacteristics::LinkerInfoSystem.Reflection.PortableExecutable.SectionCharacteristics",
           "clrName": "LinkerInfo",
-          "tsEmitName": "LinkerInfo",
+          "tsEmitName": "linkerInfo",
           "normalizedSignature": "LinkerInfo|System.Reflection.PortableExecutable.SectionCharacteristics|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1030,7 +1030,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.SectionCharacteristics::TypeOverSystem.Reflection.PortableExecutable.SectionCharacteristics",
           "clrName": "TypeOver",
-          "tsEmitName": "TypeOver",
+          "tsEmitName": "typeOver",
           "normalizedSignature": "TypeOver|System.Reflection.PortableExecutable.SectionCharacteristics|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1039,7 +1039,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.SectionCharacteristics::LinkerRemoveSystem.Reflection.PortableExecutable.SectionCharacteristics",
           "clrName": "LinkerRemove",
-          "tsEmitName": "LinkerRemove",
+          "tsEmitName": "linkerRemove",
           "normalizedSignature": "LinkerRemove|System.Reflection.PortableExecutable.SectionCharacteristics|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1048,7 +1048,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.SectionCharacteristics::LinkerComdatSystem.Reflection.PortableExecutable.SectionCharacteristics",
           "clrName": "LinkerComdat",
-          "tsEmitName": "LinkerComdat",
+          "tsEmitName": "linkerComdat",
           "normalizedSignature": "LinkerComdat|System.Reflection.PortableExecutable.SectionCharacteristics|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1057,7 +1057,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.SectionCharacteristics::MemProtectedSystem.Reflection.PortableExecutable.SectionCharacteristics",
           "clrName": "MemProtected",
-          "tsEmitName": "MemProtected",
+          "tsEmitName": "memProtected",
           "normalizedSignature": "MemProtected|System.Reflection.PortableExecutable.SectionCharacteristics|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1066,7 +1066,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.SectionCharacteristics::NoDeferSpecExcSystem.Reflection.PortableExecutable.SectionCharacteristics",
           "clrName": "NoDeferSpecExc",
-          "tsEmitName": "NoDeferSpecExc",
+          "tsEmitName": "noDeferSpecExc",
           "normalizedSignature": "NoDeferSpecExc|System.Reflection.PortableExecutable.SectionCharacteristics|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1075,7 +1075,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.SectionCharacteristics::GPRelSystem.Reflection.PortableExecutable.SectionCharacteristics",
           "clrName": "GPRel",
-          "tsEmitName": "GPRel",
+          "tsEmitName": "gpRel",
           "normalizedSignature": "GPRel|System.Reflection.PortableExecutable.SectionCharacteristics|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1084,7 +1084,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.SectionCharacteristics::MemFardataSystem.Reflection.PortableExecutable.SectionCharacteristics",
           "clrName": "MemFardata",
-          "tsEmitName": "MemFardata",
+          "tsEmitName": "memFardata",
           "normalizedSignature": "MemFardata|System.Reflection.PortableExecutable.SectionCharacteristics|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1093,7 +1093,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.SectionCharacteristics::MemSysheapSystem.Reflection.PortableExecutable.SectionCharacteristics",
           "clrName": "MemSysheap",
-          "tsEmitName": "MemSysheap",
+          "tsEmitName": "memSysheap",
           "normalizedSignature": "MemSysheap|System.Reflection.PortableExecutable.SectionCharacteristics|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1102,7 +1102,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.SectionCharacteristics::MemPurgeableSystem.Reflection.PortableExecutable.SectionCharacteristics",
           "clrName": "MemPurgeable",
-          "tsEmitName": "MemPurgeable",
+          "tsEmitName": "memPurgeable",
           "normalizedSignature": "MemPurgeable|System.Reflection.PortableExecutable.SectionCharacteristics|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1111,7 +1111,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.SectionCharacteristics::Mem16BitSystem.Reflection.PortableExecutable.SectionCharacteristics",
           "clrName": "Mem16Bit",
-          "tsEmitName": "Mem16Bit",
+          "tsEmitName": "mem16Bit",
           "normalizedSignature": "Mem16Bit|System.Reflection.PortableExecutable.SectionCharacteristics|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1120,7 +1120,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.SectionCharacteristics::MemLockedSystem.Reflection.PortableExecutable.SectionCharacteristics",
           "clrName": "MemLocked",
-          "tsEmitName": "MemLocked",
+          "tsEmitName": "memLocked",
           "normalizedSignature": "MemLocked|System.Reflection.PortableExecutable.SectionCharacteristics|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1129,7 +1129,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.SectionCharacteristics::MemPreloadSystem.Reflection.PortableExecutable.SectionCharacteristics",
           "clrName": "MemPreload",
-          "tsEmitName": "MemPreload",
+          "tsEmitName": "memPreload",
           "normalizedSignature": "MemPreload|System.Reflection.PortableExecutable.SectionCharacteristics|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1138,7 +1138,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.SectionCharacteristics::Align1BytesSystem.Reflection.PortableExecutable.SectionCharacteristics",
           "clrName": "Align1Bytes",
-          "tsEmitName": "Align1Bytes",
+          "tsEmitName": "align1Bytes",
           "normalizedSignature": "Align1Bytes|System.Reflection.PortableExecutable.SectionCharacteristics|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1147,7 +1147,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.SectionCharacteristics::Align2BytesSystem.Reflection.PortableExecutable.SectionCharacteristics",
           "clrName": "Align2Bytes",
-          "tsEmitName": "Align2Bytes",
+          "tsEmitName": "align2Bytes",
           "normalizedSignature": "Align2Bytes|System.Reflection.PortableExecutable.SectionCharacteristics|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1156,7 +1156,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.SectionCharacteristics::Align4BytesSystem.Reflection.PortableExecutable.SectionCharacteristics",
           "clrName": "Align4Bytes",
-          "tsEmitName": "Align4Bytes",
+          "tsEmitName": "align4Bytes",
           "normalizedSignature": "Align4Bytes|System.Reflection.PortableExecutable.SectionCharacteristics|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1165,7 +1165,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.SectionCharacteristics::Align8BytesSystem.Reflection.PortableExecutable.SectionCharacteristics",
           "clrName": "Align8Bytes",
-          "tsEmitName": "Align8Bytes",
+          "tsEmitName": "align8Bytes",
           "normalizedSignature": "Align8Bytes|System.Reflection.PortableExecutable.SectionCharacteristics|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1174,7 +1174,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.SectionCharacteristics::Align16BytesSystem.Reflection.PortableExecutable.SectionCharacteristics",
           "clrName": "Align16Bytes",
-          "tsEmitName": "Align16Bytes",
+          "tsEmitName": "align16Bytes",
           "normalizedSignature": "Align16Bytes|System.Reflection.PortableExecutable.SectionCharacteristics|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1183,7 +1183,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.SectionCharacteristics::Align32BytesSystem.Reflection.PortableExecutable.SectionCharacteristics",
           "clrName": "Align32Bytes",
-          "tsEmitName": "Align32Bytes",
+          "tsEmitName": "align32Bytes",
           "normalizedSignature": "Align32Bytes|System.Reflection.PortableExecutable.SectionCharacteristics|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1192,7 +1192,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.SectionCharacteristics::Align64BytesSystem.Reflection.PortableExecutable.SectionCharacteristics",
           "clrName": "Align64Bytes",
-          "tsEmitName": "Align64Bytes",
+          "tsEmitName": "align64Bytes",
           "normalizedSignature": "Align64Bytes|System.Reflection.PortableExecutable.SectionCharacteristics|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1201,7 +1201,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.SectionCharacteristics::Align128BytesSystem.Reflection.PortableExecutable.SectionCharacteristics",
           "clrName": "Align128Bytes",
-          "tsEmitName": "Align128Bytes",
+          "tsEmitName": "align128Bytes",
           "normalizedSignature": "Align128Bytes|System.Reflection.PortableExecutable.SectionCharacteristics|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1210,7 +1210,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.SectionCharacteristics::Align256BytesSystem.Reflection.PortableExecutable.SectionCharacteristics",
           "clrName": "Align256Bytes",
-          "tsEmitName": "Align256Bytes",
+          "tsEmitName": "align256Bytes",
           "normalizedSignature": "Align256Bytes|System.Reflection.PortableExecutable.SectionCharacteristics|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1219,7 +1219,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.SectionCharacteristics::Align512BytesSystem.Reflection.PortableExecutable.SectionCharacteristics",
           "clrName": "Align512Bytes",
-          "tsEmitName": "Align512Bytes",
+          "tsEmitName": "align512Bytes",
           "normalizedSignature": "Align512Bytes|System.Reflection.PortableExecutable.SectionCharacteristics|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1228,7 +1228,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.SectionCharacteristics::Align1024BytesSystem.Reflection.PortableExecutable.SectionCharacteristics",
           "clrName": "Align1024Bytes",
-          "tsEmitName": "Align1024Bytes",
+          "tsEmitName": "align1024Bytes",
           "normalizedSignature": "Align1024Bytes|System.Reflection.PortableExecutable.SectionCharacteristics|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1237,7 +1237,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.SectionCharacteristics::Align2048BytesSystem.Reflection.PortableExecutable.SectionCharacteristics",
           "clrName": "Align2048Bytes",
-          "tsEmitName": "Align2048Bytes",
+          "tsEmitName": "align2048Bytes",
           "normalizedSignature": "Align2048Bytes|System.Reflection.PortableExecutable.SectionCharacteristics|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1246,7 +1246,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.SectionCharacteristics::Align4096BytesSystem.Reflection.PortableExecutable.SectionCharacteristics",
           "clrName": "Align4096Bytes",
-          "tsEmitName": "Align4096Bytes",
+          "tsEmitName": "align4096Bytes",
           "normalizedSignature": "Align4096Bytes|System.Reflection.PortableExecutable.SectionCharacteristics|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1255,7 +1255,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.SectionCharacteristics::Align8192BytesSystem.Reflection.PortableExecutable.SectionCharacteristics",
           "clrName": "Align8192Bytes",
-          "tsEmitName": "Align8192Bytes",
+          "tsEmitName": "align8192Bytes",
           "normalizedSignature": "Align8192Bytes|System.Reflection.PortableExecutable.SectionCharacteristics|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1264,7 +1264,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.SectionCharacteristics::AlignMaskSystem.Reflection.PortableExecutable.SectionCharacteristics",
           "clrName": "AlignMask",
-          "tsEmitName": "AlignMask",
+          "tsEmitName": "alignMask",
           "normalizedSignature": "AlignMask|System.Reflection.PortableExecutable.SectionCharacteristics|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1273,7 +1273,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.SectionCharacteristics::LinkerNRelocOvflSystem.Reflection.PortableExecutable.SectionCharacteristics",
           "clrName": "LinkerNRelocOvfl",
-          "tsEmitName": "LinkerNRelocOvfl",
+          "tsEmitName": "linkerNRelocOvfl",
           "normalizedSignature": "LinkerNRelocOvfl|System.Reflection.PortableExecutable.SectionCharacteristics|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1282,7 +1282,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.SectionCharacteristics::MemDiscardableSystem.Reflection.PortableExecutable.SectionCharacteristics",
           "clrName": "MemDiscardable",
-          "tsEmitName": "MemDiscardable",
+          "tsEmitName": "memDiscardable",
           "normalizedSignature": "MemDiscardable|System.Reflection.PortableExecutable.SectionCharacteristics|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1291,7 +1291,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.SectionCharacteristics::MemNotCachedSystem.Reflection.PortableExecutable.SectionCharacteristics",
           "clrName": "MemNotCached",
-          "tsEmitName": "MemNotCached",
+          "tsEmitName": "memNotCached",
           "normalizedSignature": "MemNotCached|System.Reflection.PortableExecutable.SectionCharacteristics|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1300,7 +1300,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.SectionCharacteristics::MemNotPagedSystem.Reflection.PortableExecutable.SectionCharacteristics",
           "clrName": "MemNotPaged",
-          "tsEmitName": "MemNotPaged",
+          "tsEmitName": "memNotPaged",
           "normalizedSignature": "MemNotPaged|System.Reflection.PortableExecutable.SectionCharacteristics|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1309,7 +1309,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.SectionCharacteristics::MemSharedSystem.Reflection.PortableExecutable.SectionCharacteristics",
           "clrName": "MemShared",
-          "tsEmitName": "MemShared",
+          "tsEmitName": "memShared",
           "normalizedSignature": "MemShared|System.Reflection.PortableExecutable.SectionCharacteristics|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1318,7 +1318,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.SectionCharacteristics::MemExecuteSystem.Reflection.PortableExecutable.SectionCharacteristics",
           "clrName": "MemExecute",
-          "tsEmitName": "MemExecute",
+          "tsEmitName": "memExecute",
           "normalizedSignature": "MemExecute|System.Reflection.PortableExecutable.SectionCharacteristics|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1327,7 +1327,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.SectionCharacteristics::MemReadSystem.Reflection.PortableExecutable.SectionCharacteristics",
           "clrName": "MemRead",
-          "tsEmitName": "MemRead",
+          "tsEmitName": "memRead",
           "normalizedSignature": "MemRead|System.Reflection.PortableExecutable.SectionCharacteristics|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1336,7 +1336,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.SectionCharacteristics::MemWriteSystem.Reflection.PortableExecutable.SectionCharacteristics",
           "clrName": "MemWrite",
-          "tsEmitName": "MemWrite",
+          "tsEmitName": "memWrite",
           "normalizedSignature": "MemWrite|System.Reflection.PortableExecutable.SectionCharacteristics|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1371,7 +1371,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.Subsystem::UnknownSystem.Reflection.PortableExecutable.Subsystem",
           "clrName": "Unknown",
-          "tsEmitName": "Unknown",
+          "tsEmitName": "unknown_",
           "normalizedSignature": "Unknown|System.Reflection.PortableExecutable.Subsystem|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1380,7 +1380,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.Subsystem::NativeSystem.Reflection.PortableExecutable.Subsystem",
           "clrName": "Native",
-          "tsEmitName": "Native",
+          "tsEmitName": "native",
           "normalizedSignature": "Native|System.Reflection.PortableExecutable.Subsystem|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1389,7 +1389,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.Subsystem::WindowsGuiSystem.Reflection.PortableExecutable.Subsystem",
           "clrName": "WindowsGui",
-          "tsEmitName": "WindowsGui",
+          "tsEmitName": "windowsGui",
           "normalizedSignature": "WindowsGui|System.Reflection.PortableExecutable.Subsystem|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1398,7 +1398,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.Subsystem::WindowsCuiSystem.Reflection.PortableExecutable.Subsystem",
           "clrName": "WindowsCui",
-          "tsEmitName": "WindowsCui",
+          "tsEmitName": "windowsCui",
           "normalizedSignature": "WindowsCui|System.Reflection.PortableExecutable.Subsystem|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1407,7 +1407,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.Subsystem::OS2CuiSystem.Reflection.PortableExecutable.Subsystem",
           "clrName": "OS2Cui",
-          "tsEmitName": "OS2Cui",
+          "tsEmitName": "os2Cui",
           "normalizedSignature": "OS2Cui|System.Reflection.PortableExecutable.Subsystem|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1416,7 +1416,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.Subsystem::PosixCuiSystem.Reflection.PortableExecutable.Subsystem",
           "clrName": "PosixCui",
-          "tsEmitName": "PosixCui",
+          "tsEmitName": "posixCui",
           "normalizedSignature": "PosixCui|System.Reflection.PortableExecutable.Subsystem|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1425,7 +1425,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.Subsystem::NativeWindowsSystem.Reflection.PortableExecutable.Subsystem",
           "clrName": "NativeWindows",
-          "tsEmitName": "NativeWindows",
+          "tsEmitName": "nativeWindows",
           "normalizedSignature": "NativeWindows|System.Reflection.PortableExecutable.Subsystem|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1434,7 +1434,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.Subsystem::WindowsCEGuiSystem.Reflection.PortableExecutable.Subsystem",
           "clrName": "WindowsCEGui",
-          "tsEmitName": "WindowsCEGui",
+          "tsEmitName": "windowsCEGui",
           "normalizedSignature": "WindowsCEGui|System.Reflection.PortableExecutable.Subsystem|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1443,7 +1443,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.Subsystem::EfiApplicationSystem.Reflection.PortableExecutable.Subsystem",
           "clrName": "EfiApplication",
-          "tsEmitName": "EfiApplication",
+          "tsEmitName": "efiApplication",
           "normalizedSignature": "EfiApplication|System.Reflection.PortableExecutable.Subsystem|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1452,7 +1452,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.Subsystem::EfiBootServiceDriverSystem.Reflection.PortableExecutable.Subsystem",
           "clrName": "EfiBootServiceDriver",
-          "tsEmitName": "EfiBootServiceDriver",
+          "tsEmitName": "efiBootServiceDriver",
           "normalizedSignature": "EfiBootServiceDriver|System.Reflection.PortableExecutable.Subsystem|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1461,7 +1461,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.Subsystem::EfiRuntimeDriverSystem.Reflection.PortableExecutable.Subsystem",
           "clrName": "EfiRuntimeDriver",
-          "tsEmitName": "EfiRuntimeDriver",
+          "tsEmitName": "efiRuntimeDriver",
           "normalizedSignature": "EfiRuntimeDriver|System.Reflection.PortableExecutable.Subsystem|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1470,7 +1470,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.Subsystem::EfiRomSystem.Reflection.PortableExecutable.Subsystem",
           "clrName": "EfiRom",
-          "tsEmitName": "EfiRom",
+          "tsEmitName": "efiRom",
           "normalizedSignature": "EfiRom|System.Reflection.PortableExecutable.Subsystem|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1479,7 +1479,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.Subsystem::XboxSystem.Reflection.PortableExecutable.Subsystem",
           "clrName": "Xbox",
-          "tsEmitName": "Xbox",
+          "tsEmitName": "xbox",
           "normalizedSignature": "Xbox|System.Reflection.PortableExecutable.Subsystem|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1488,7 +1488,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.Subsystem::WindowsBootApplicationSystem.Reflection.PortableExecutable.Subsystem",
           "clrName": "WindowsBootApplication",
-          "tsEmitName": "WindowsBootApplication",
+          "tsEmitName": "windowsBootApplication",
           "normalizedSignature": "WindowsBootApplication|System.Reflection.PortableExecutable.Subsystem|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1513,7 +1513,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.CodeViewDebugDirectoryData::Guid:System.Guid",
           "clrName": "Guid",
-          "tsEmitName": "Guid",
+          "tsEmitName": "guid",
           "normalizedSignature": "Guid|:System.Guid|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1528,7 +1528,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.CodeViewDebugDirectoryData::Age:System.Int32",
           "clrName": "Age",
-          "tsEmitName": "Age",
+          "tsEmitName": "age",
           "normalizedSignature": "Age|:System.Int32|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1543,7 +1543,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.CodeViewDebugDirectoryData::Path:System.String",
           "clrName": "Path",
-          "tsEmitName": "Path",
+          "tsEmitName": "path",
           "normalizedSignature": "Path|:System.String|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1575,7 +1575,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.DebugDirectoryEntry::Stamp:System.UInt32",
           "clrName": "Stamp",
-          "tsEmitName": "Stamp",
+          "tsEmitName": "stamp",
           "normalizedSignature": "Stamp|:System.UInt32|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1590,7 +1590,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.DebugDirectoryEntry::MajorVersion:System.UInt16",
           "clrName": "MajorVersion",
-          "tsEmitName": "MajorVersion",
+          "tsEmitName": "majorVersion",
           "normalizedSignature": "MajorVersion|:System.UInt16|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1605,7 +1605,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.DebugDirectoryEntry::MinorVersion:System.UInt16",
           "clrName": "MinorVersion",
-          "tsEmitName": "MinorVersion",
+          "tsEmitName": "minorVersion",
           "normalizedSignature": "MinorVersion|:System.UInt16|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1620,7 +1620,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.DebugDirectoryEntry::Type:System.Reflection.PortableExecutable.DebugDirectoryEntryType",
           "clrName": "Type",
-          "tsEmitName": "Type",
+          "tsEmitName": "type_",
           "normalizedSignature": "Type|:System.Reflection.PortableExecutable.DebugDirectoryEntryType|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1635,7 +1635,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.DebugDirectoryEntry::DataSize:System.Int32",
           "clrName": "DataSize",
-          "tsEmitName": "DataSize",
+          "tsEmitName": "dataSize",
           "normalizedSignature": "DataSize|:System.Int32|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1650,7 +1650,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.DebugDirectoryEntry::DataRelativeVirtualAddress:System.Int32",
           "clrName": "DataRelativeVirtualAddress",
-          "tsEmitName": "DataRelativeVirtualAddress",
+          "tsEmitName": "dataRelativeVirtualAddress",
           "normalizedSignature": "DataRelativeVirtualAddress|:System.Int32|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1665,7 +1665,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.DebugDirectoryEntry::DataPointer:System.Int32",
           "clrName": "DataPointer",
-          "tsEmitName": "DataPointer",
+          "tsEmitName": "dataPointer",
           "normalizedSignature": "DataPointer|:System.Int32|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1680,7 +1680,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.DebugDirectoryEntry::IsPortableCodeView:System.Boolean",
           "clrName": "IsPortableCodeView",
-          "tsEmitName": "IsPortableCodeView",
+          "tsEmitName": "isPortableCodeView",
           "normalizedSignature": "IsPortableCodeView|:System.Boolean|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1719,7 +1719,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.DirectoryEntry::RelativeVirtualAddressSystem.Int32",
           "clrName": "RelativeVirtualAddress",
-          "tsEmitName": "RelativeVirtualAddress",
+          "tsEmitName": "relativeVirtualAddress",
           "normalizedSignature": "RelativeVirtualAddress|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": true,
@@ -1728,7 +1728,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.DirectoryEntry::SizeSystem.Int32",
           "clrName": "Size",
-          "tsEmitName": "Size",
+          "tsEmitName": "size",
           "normalizedSignature": "Size|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": true,
@@ -1759,7 +1759,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.PdbChecksumDebugDirectoryData::AlgorithmName:System.String",
           "clrName": "AlgorithmName",
-          "tsEmitName": "AlgorithmName",
+          "tsEmitName": "algorithmName",
           "normalizedSignature": "AlgorithmName|:System.String|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1774,7 +1774,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.PdbChecksumDebugDirectoryData::Checksum:System.Collections.Immutable.ImmutableArray_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "Checksum",
-          "tsEmitName": "Checksum",
+          "tsEmitName": "checksum",
           "normalizedSignature": "Checksum|:System.Collections.Immutable.ImmutableArray_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1805,7 +1805,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.PEMemoryBlock::GetReader():System.Reflection.Metadata.BlobReader",
           "clrName": "GetReader",
-          "tsEmitName": "GetReader",
+          "tsEmitName": "getReader",
           "normalizedSignature": "GetReader|():System.Reflection.Metadata.BlobReader|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1821,7 +1821,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.PEMemoryBlock::GetReader(System.Int32,System.Int32):System.Reflection.Metadata.BlobReader",
           "clrName": "GetReader",
-          "tsEmitName": "GetReader2",
+          "tsEmitName": "getReader2",
           "normalizedSignature": "GetReader|(System.Int32,System.Int32):System.Reflection.Metadata.BlobReader|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1837,7 +1837,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.PEMemoryBlock::GetContent():System.Collections.Immutable.ImmutableArray_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "GetContent",
-          "tsEmitName": "GetContent",
+          "tsEmitName": "getContent",
           "normalizedSignature": "GetContent|():System.Collections.Immutable.ImmutableArray_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1853,7 +1853,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.PEMemoryBlock::GetContent(System.Int32,System.Int32):System.Collections.Immutable.ImmutableArray_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "GetContent",
-          "tsEmitName": "GetContent2",
+          "tsEmitName": "getContent2",
           "normalizedSignature": "GetContent|(System.Int32,System.Int32):System.Collections.Immutable.ImmutableArray_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1871,7 +1871,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.PEMemoryBlock::Pointer:System.Byte*",
           "clrName": "Pointer",
-          "tsEmitName": "Pointer",
+          "tsEmitName": "pointer",
           "normalizedSignature": "Pointer|:System.Byte*|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1886,7 +1886,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.PEMemoryBlock::Length:System.Int32",
           "clrName": "Length",
-          "tsEmitName": "Length",
+          "tsEmitName": "length",
           "normalizedSignature": "Length|:System.Int32|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1918,7 +1918,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.SectionHeader::Name:System.String",
           "clrName": "Name",
-          "tsEmitName": "Name",
+          "tsEmitName": "name",
           "normalizedSignature": "Name|:System.String|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1933,7 +1933,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.SectionHeader::VirtualSize:System.Int32",
           "clrName": "VirtualSize",
-          "tsEmitName": "VirtualSize",
+          "tsEmitName": "virtualSize",
           "normalizedSignature": "VirtualSize|:System.Int32|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1948,7 +1948,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.SectionHeader::VirtualAddress:System.Int32",
           "clrName": "VirtualAddress",
-          "tsEmitName": "VirtualAddress",
+          "tsEmitName": "virtualAddress",
           "normalizedSignature": "VirtualAddress|:System.Int32|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1963,7 +1963,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.SectionHeader::SizeOfRawData:System.Int32",
           "clrName": "SizeOfRawData",
-          "tsEmitName": "SizeOfRawData",
+          "tsEmitName": "sizeOfRawData",
           "normalizedSignature": "SizeOfRawData|:System.Int32|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1978,7 +1978,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.SectionHeader::PointerToRawData:System.Int32",
           "clrName": "PointerToRawData",
-          "tsEmitName": "PointerToRawData",
+          "tsEmitName": "pointerToRawData",
           "normalizedSignature": "PointerToRawData|:System.Int32|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1993,7 +1993,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.SectionHeader::PointerToRelocations:System.Int32",
           "clrName": "PointerToRelocations",
-          "tsEmitName": "PointerToRelocations",
+          "tsEmitName": "pointerToRelocations",
           "normalizedSignature": "PointerToRelocations|:System.Int32|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2008,7 +2008,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.SectionHeader::PointerToLineNumbers:System.Int32",
           "clrName": "PointerToLineNumbers",
-          "tsEmitName": "PointerToLineNumbers",
+          "tsEmitName": "pointerToLineNumbers",
           "normalizedSignature": "PointerToLineNumbers|:System.Int32|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2023,7 +2023,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.SectionHeader::NumberOfRelocations:System.UInt16",
           "clrName": "NumberOfRelocations",
-          "tsEmitName": "NumberOfRelocations",
+          "tsEmitName": "numberOfRelocations",
           "normalizedSignature": "NumberOfRelocations|:System.UInt16|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2038,7 +2038,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.SectionHeader::NumberOfLineNumbers:System.UInt16",
           "clrName": "NumberOfLineNumbers",
-          "tsEmitName": "NumberOfLineNumbers",
+          "tsEmitName": "numberOfLineNumbers",
           "normalizedSignature": "NumberOfLineNumbers|:System.UInt16|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2053,7 +2053,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.SectionHeader::SectionCharacteristics:System.Reflection.PortableExecutable.SectionCharacteristics",
           "clrName": "SectionCharacteristics",
-          "tsEmitName": "SectionCharacteristics",
+          "tsEmitName": "sectionCharacteristics",
           "normalizedSignature": "SectionCharacteristics|:System.Reflection.PortableExecutable.SectionCharacteristics|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2085,7 +2085,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.SectionLocation::RelativeVirtualAddress:System.Int32",
           "clrName": "RelativeVirtualAddress",
-          "tsEmitName": "RelativeVirtualAddress",
+          "tsEmitName": "relativeVirtualAddress",
           "normalizedSignature": "RelativeVirtualAddress|:System.Int32|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2100,7 +2100,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.SectionLocation::PointerToRawData:System.Int32",
           "clrName": "PointerToRawData",
-          "tsEmitName": "PointerToRawData",
+          "tsEmitName": "pointerToRawData",
           "normalizedSignature": "PointerToRawData|:System.Int32|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2138,7 +2138,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.CoffHeader::Machine:System.Reflection.PortableExecutable.Machine",
           "clrName": "Machine",
-          "tsEmitName": "Machine",
+          "tsEmitName": "machine",
           "normalizedSignature": "Machine|:System.Reflection.PortableExecutable.Machine|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2153,7 +2153,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.CoffHeader::NumberOfSections:System.Int16",
           "clrName": "NumberOfSections",
-          "tsEmitName": "NumberOfSections",
+          "tsEmitName": "numberOfSections",
           "normalizedSignature": "NumberOfSections|:System.Int16|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2168,7 +2168,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.CoffHeader::TimeDateStamp:System.Int32",
           "clrName": "TimeDateStamp",
-          "tsEmitName": "TimeDateStamp",
+          "tsEmitName": "timeDateStamp",
           "normalizedSignature": "TimeDateStamp|:System.Int32|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2183,7 +2183,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.CoffHeader::PointerToSymbolTable:System.Int32",
           "clrName": "PointerToSymbolTable",
-          "tsEmitName": "PointerToSymbolTable",
+          "tsEmitName": "pointerToSymbolTable",
           "normalizedSignature": "PointerToSymbolTable|:System.Int32|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2198,7 +2198,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.CoffHeader::NumberOfSymbols:System.Int32",
           "clrName": "NumberOfSymbols",
-          "tsEmitName": "NumberOfSymbols",
+          "tsEmitName": "numberOfSymbols",
           "normalizedSignature": "NumberOfSymbols|:System.Int32|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2213,7 +2213,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.CoffHeader::SizeOfOptionalHeader:System.Int16",
           "clrName": "SizeOfOptionalHeader",
-          "tsEmitName": "SizeOfOptionalHeader",
+          "tsEmitName": "sizeOfOptionalHeader",
           "normalizedSignature": "SizeOfOptionalHeader|:System.Int16|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2228,7 +2228,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.CoffHeader::Characteristics:System.Reflection.PortableExecutable.Characteristics",
           "clrName": "Characteristics",
-          "tsEmitName": "Characteristics",
+          "tsEmitName": "characteristics",
           "normalizedSignature": "Characteristics|:System.Reflection.PortableExecutable.Characteristics|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2260,7 +2260,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.CorHeader::MajorRuntimeVersion:System.UInt16",
           "clrName": "MajorRuntimeVersion",
-          "tsEmitName": "MajorRuntimeVersion",
+          "tsEmitName": "majorRuntimeVersion",
           "normalizedSignature": "MajorRuntimeVersion|:System.UInt16|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2275,7 +2275,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.CorHeader::MinorRuntimeVersion:System.UInt16",
           "clrName": "MinorRuntimeVersion",
-          "tsEmitName": "MinorRuntimeVersion",
+          "tsEmitName": "minorRuntimeVersion",
           "normalizedSignature": "MinorRuntimeVersion|:System.UInt16|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2290,7 +2290,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.CorHeader::MetadataDirectory:System.Reflection.PortableExecutable.DirectoryEntry",
           "clrName": "MetadataDirectory",
-          "tsEmitName": "MetadataDirectory",
+          "tsEmitName": "metadataDirectory",
           "normalizedSignature": "MetadataDirectory|:System.Reflection.PortableExecutable.DirectoryEntry|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2305,7 +2305,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.CorHeader::Flags:System.Reflection.PortableExecutable.CorFlags",
           "clrName": "Flags",
-          "tsEmitName": "Flags",
+          "tsEmitName": "flags",
           "normalizedSignature": "Flags|:System.Reflection.PortableExecutable.CorFlags|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2320,7 +2320,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.CorHeader::EntryPointTokenOrRelativeVirtualAddress:System.Int32",
           "clrName": "EntryPointTokenOrRelativeVirtualAddress",
-          "tsEmitName": "EntryPointTokenOrRelativeVirtualAddress",
+          "tsEmitName": "entryPointTokenOrRelativeVirtualAddress",
           "normalizedSignature": "EntryPointTokenOrRelativeVirtualAddress|:System.Int32|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2335,7 +2335,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.CorHeader::ResourcesDirectory:System.Reflection.PortableExecutable.DirectoryEntry",
           "clrName": "ResourcesDirectory",
-          "tsEmitName": "ResourcesDirectory",
+          "tsEmitName": "resourcesDirectory",
           "normalizedSignature": "ResourcesDirectory|:System.Reflection.PortableExecutable.DirectoryEntry|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2350,7 +2350,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.CorHeader::StrongNameSignatureDirectory:System.Reflection.PortableExecutable.DirectoryEntry",
           "clrName": "StrongNameSignatureDirectory",
-          "tsEmitName": "StrongNameSignatureDirectory",
+          "tsEmitName": "strongNameSignatureDirectory",
           "normalizedSignature": "StrongNameSignatureDirectory|:System.Reflection.PortableExecutable.DirectoryEntry|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2365,7 +2365,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.CorHeader::CodeManagerTableDirectory:System.Reflection.PortableExecutable.DirectoryEntry",
           "clrName": "CodeManagerTableDirectory",
-          "tsEmitName": "CodeManagerTableDirectory",
+          "tsEmitName": "codeManagerTableDirectory",
           "normalizedSignature": "CodeManagerTableDirectory|:System.Reflection.PortableExecutable.DirectoryEntry|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2380,7 +2380,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.CorHeader::VtableFixupsDirectory:System.Reflection.PortableExecutable.DirectoryEntry",
           "clrName": "VtableFixupsDirectory",
-          "tsEmitName": "VtableFixupsDirectory",
+          "tsEmitName": "vtableFixupsDirectory",
           "normalizedSignature": "VtableFixupsDirectory|:System.Reflection.PortableExecutable.DirectoryEntry|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2395,7 +2395,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.CorHeader::ExportAddressTableJumpsDirectory:System.Reflection.PortableExecutable.DirectoryEntry",
           "clrName": "ExportAddressTableJumpsDirectory",
-          "tsEmitName": "ExportAddressTableJumpsDirectory",
+          "tsEmitName": "exportAddressTableJumpsDirectory",
           "normalizedSignature": "ExportAddressTableJumpsDirectory|:System.Reflection.PortableExecutable.DirectoryEntry|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2410,7 +2410,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.CorHeader::ManagedNativeHeaderDirectory:System.Reflection.PortableExecutable.DirectoryEntry",
           "clrName": "ManagedNativeHeaderDirectory",
-          "tsEmitName": "ManagedNativeHeaderDirectory",
+          "tsEmitName": "managedNativeHeaderDirectory",
           "normalizedSignature": "ManagedNativeHeaderDirectory|:System.Reflection.PortableExecutable.DirectoryEntry|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2441,7 +2441,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.DebugDirectoryBuilder::AddEntry(System.Reflection.PortableExecutable.DebugDirectoryEntryType,System.UInt32,System.UInt32):System.Void",
           "clrName": "AddEntry",
-          "tsEmitName": "AddEntry",
+          "tsEmitName": "addEntry",
           "normalizedSignature": "AddEntry|(System.Reflection.PortableExecutable.DebugDirectoryEntryType,System.UInt32,System.UInt32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2457,7 +2457,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.DebugDirectoryBuilder::AddEntry(System.Reflection.PortableExecutable.DebugDirectoryEntryType,System.UInt32,System.UInt32,TData,Action_2):System.Void",
           "clrName": "AddEntry",
-          "tsEmitName": "AddEntry2",
+          "tsEmitName": "addEntry2",
           "normalizedSignature": "AddEntry|(System.Reflection.PortableExecutable.DebugDirectoryEntryType,System.UInt32,System.UInt32,TData,Action_2):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2473,7 +2473,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.DebugDirectoryBuilder::AddCodeViewEntry(System.String,System.Reflection.Metadata.BlobContentId,System.UInt16):System.Void",
           "clrName": "AddCodeViewEntry",
-          "tsEmitName": "AddCodeViewEntry",
+          "tsEmitName": "addCodeViewEntry",
           "normalizedSignature": "AddCodeViewEntry|(System.String,System.Reflection.Metadata.BlobContentId,System.UInt16):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2489,7 +2489,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.DebugDirectoryBuilder::AddCodeViewEntry(System.String,System.Reflection.Metadata.BlobContentId,System.UInt16,System.Int32):System.Void",
           "clrName": "AddCodeViewEntry",
-          "tsEmitName": "AddCodeViewEntry2",
+          "tsEmitName": "addCodeViewEntry2",
           "normalizedSignature": "AddCodeViewEntry|(System.String,System.Reflection.Metadata.BlobContentId,System.UInt16,System.Int32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2505,7 +2505,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.DebugDirectoryBuilder::AddReproducibleEntry():System.Void",
           "clrName": "AddReproducibleEntry",
-          "tsEmitName": "AddReproducibleEntry",
+          "tsEmitName": "addReproducibleEntry",
           "normalizedSignature": "AddReproducibleEntry|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2521,7 +2521,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.DebugDirectoryBuilder::AddPdbChecksumEntry(System.String,System.Collections.Immutable.ImmutableArray_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "clrName": "AddPdbChecksumEntry",
-          "tsEmitName": "AddPdbChecksumEntry",
+          "tsEmitName": "addPdbChecksumEntry",
           "normalizedSignature": "AddPdbChecksumEntry|(System.String,System.Collections.Immutable.ImmutableArray_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2537,7 +2537,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.DebugDirectoryBuilder::AddEmbeddedPortablePdbEntry(System.Reflection.Metadata.BlobBuilder,System.UInt16):System.Void",
           "clrName": "AddEmbeddedPortablePdbEntry",
-          "tsEmitName": "AddEmbeddedPortablePdbEntry",
+          "tsEmitName": "addEmbeddedPortablePdbEntry",
           "normalizedSignature": "AddEmbeddedPortablePdbEntry|(System.Reflection.Metadata.BlobBuilder,System.UInt16):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2576,7 +2576,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.ManagedPEBuilder::Sign(System.Reflection.Metadata.BlobBuilder,System.Func_2[[System.Collections.Generic.IEnumerable_1[[System.Reflection.Metadata.Blob,System.Reflection.Metadata,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Byte[],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "clrName": "Sign",
-          "tsEmitName": "Sign",
+          "tsEmitName": "sign",
           "normalizedSignature": "Sign|(System.Reflection.Metadata.BlobBuilder,System.Func_2[[System.Collections.Generic.IEnumerable_1[[System.Reflection.Metadata.Blob,System.Reflection.Metadata,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Byte[],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2595,7 +2595,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.ManagedPEBuilder::ManagedResourcesDataAlignmentSystem.Int32",
           "clrName": "ManagedResourcesDataAlignment",
-          "tsEmitName": "ManagedResourcesDataAlignment",
+          "tsEmitName": "managedResourcesDataAlignment",
           "normalizedSignature": "ManagedResourcesDataAlignment|System.Int32|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -2604,7 +2604,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.ManagedPEBuilder::MappedFieldDataAlignmentSystem.Int32",
           "clrName": "MappedFieldDataAlignment",
-          "tsEmitName": "MappedFieldDataAlignment",
+          "tsEmitName": "mappedFieldDataAlignment",
           "normalizedSignature": "MappedFieldDataAlignment|System.Int32|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -2634,7 +2634,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.PEBuilder::Serialize(System.Reflection.Metadata.BlobBuilder):System.Reflection.Metadata.BlobContentId",
           "clrName": "Serialize",
-          "tsEmitName": "Serialize",
+          "tsEmitName": "serialize",
           "normalizedSignature": "Serialize|(System.Reflection.Metadata.BlobBuilder):System.Reflection.Metadata.BlobContentId|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2652,7 +2652,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.PEBuilder::Header:System.Reflection.PortableExecutable.PEHeaderBuilder",
           "clrName": "Header",
-          "tsEmitName": "Header",
+          "tsEmitName": "header",
           "normalizedSignature": "Header|:System.Reflection.PortableExecutable.PEHeaderBuilder|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2667,7 +2667,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.PEBuilder::IdProvider:System.Func_2[[System.Collections.Generic.IEnumerable_1[[System.Reflection.Metadata.Blob,System.Reflection.Metadata,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Reflection.Metadata.BlobContentId,System.Reflection.Metadata,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
           "clrName": "IdProvider",
-          "tsEmitName": "IdProvider",
+          "tsEmitName": "idProvider",
           "normalizedSignature": "IdProvider|:System.Func_2[[System.Collections.Generic.IEnumerable_1[[System.Reflection.Metadata.Blob,System.Reflection.Metadata,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Reflection.Metadata.BlobContentId,System.Reflection.Metadata,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2682,7 +2682,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.PEBuilder::IsDeterministic:System.Boolean",
           "clrName": "IsDeterministic",
-          "tsEmitName": "IsDeterministic",
+          "tsEmitName": "isDeterministic",
           "normalizedSignature": "IsDeterministic|:System.Boolean|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2714,7 +2714,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.PEDirectoriesBuilder::AddressOfEntryPoint:System.Int32",
           "clrName": "AddressOfEntryPoint",
-          "tsEmitName": "AddressOfEntryPoint",
+          "tsEmitName": "addressOfEntryPoint",
           "normalizedSignature": "AddressOfEntryPoint|:System.Int32|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2729,7 +2729,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.PEDirectoriesBuilder::ExportTable:System.Reflection.PortableExecutable.DirectoryEntry",
           "clrName": "ExportTable",
-          "tsEmitName": "ExportTable",
+          "tsEmitName": "exportTable",
           "normalizedSignature": "ExportTable|:System.Reflection.PortableExecutable.DirectoryEntry|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2744,7 +2744,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.PEDirectoriesBuilder::ImportTable:System.Reflection.PortableExecutable.DirectoryEntry",
           "clrName": "ImportTable",
-          "tsEmitName": "ImportTable",
+          "tsEmitName": "importTable",
           "normalizedSignature": "ImportTable|:System.Reflection.PortableExecutable.DirectoryEntry|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2759,7 +2759,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.PEDirectoriesBuilder::ResourceTable:System.Reflection.PortableExecutable.DirectoryEntry",
           "clrName": "ResourceTable",
-          "tsEmitName": "ResourceTable",
+          "tsEmitName": "resourceTable",
           "normalizedSignature": "ResourceTable|:System.Reflection.PortableExecutable.DirectoryEntry|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2774,7 +2774,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.PEDirectoriesBuilder::ExceptionTable:System.Reflection.PortableExecutable.DirectoryEntry",
           "clrName": "ExceptionTable",
-          "tsEmitName": "ExceptionTable",
+          "tsEmitName": "exceptionTable",
           "normalizedSignature": "ExceptionTable|:System.Reflection.PortableExecutable.DirectoryEntry|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2789,7 +2789,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.PEDirectoriesBuilder::BaseRelocationTable:System.Reflection.PortableExecutable.DirectoryEntry",
           "clrName": "BaseRelocationTable",
-          "tsEmitName": "BaseRelocationTable",
+          "tsEmitName": "baseRelocationTable",
           "normalizedSignature": "BaseRelocationTable|:System.Reflection.PortableExecutable.DirectoryEntry|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2804,7 +2804,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.PEDirectoriesBuilder::DebugTable:System.Reflection.PortableExecutable.DirectoryEntry",
           "clrName": "DebugTable",
-          "tsEmitName": "DebugTable",
+          "tsEmitName": "debugTable",
           "normalizedSignature": "DebugTable|:System.Reflection.PortableExecutable.DirectoryEntry|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2819,7 +2819,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.PEDirectoriesBuilder::CopyrightTable:System.Reflection.PortableExecutable.DirectoryEntry",
           "clrName": "CopyrightTable",
-          "tsEmitName": "CopyrightTable",
+          "tsEmitName": "copyrightTable",
           "normalizedSignature": "CopyrightTable|:System.Reflection.PortableExecutable.DirectoryEntry|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2834,7 +2834,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.PEDirectoriesBuilder::GlobalPointerTable:System.Reflection.PortableExecutable.DirectoryEntry",
           "clrName": "GlobalPointerTable",
-          "tsEmitName": "GlobalPointerTable",
+          "tsEmitName": "globalPointerTable",
           "normalizedSignature": "GlobalPointerTable|:System.Reflection.PortableExecutable.DirectoryEntry|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2849,7 +2849,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.PEDirectoriesBuilder::ThreadLocalStorageTable:System.Reflection.PortableExecutable.DirectoryEntry",
           "clrName": "ThreadLocalStorageTable",
-          "tsEmitName": "ThreadLocalStorageTable",
+          "tsEmitName": "threadLocalStorageTable",
           "normalizedSignature": "ThreadLocalStorageTable|:System.Reflection.PortableExecutable.DirectoryEntry|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2864,7 +2864,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.PEDirectoriesBuilder::LoadConfigTable:System.Reflection.PortableExecutable.DirectoryEntry",
           "clrName": "LoadConfigTable",
-          "tsEmitName": "LoadConfigTable",
+          "tsEmitName": "loadConfigTable",
           "normalizedSignature": "LoadConfigTable|:System.Reflection.PortableExecutable.DirectoryEntry|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2879,7 +2879,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.PEDirectoriesBuilder::BoundImportTable:System.Reflection.PortableExecutable.DirectoryEntry",
           "clrName": "BoundImportTable",
-          "tsEmitName": "BoundImportTable",
+          "tsEmitName": "boundImportTable",
           "normalizedSignature": "BoundImportTable|:System.Reflection.PortableExecutable.DirectoryEntry|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2894,7 +2894,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.PEDirectoriesBuilder::ImportAddressTable:System.Reflection.PortableExecutable.DirectoryEntry",
           "clrName": "ImportAddressTable",
-          "tsEmitName": "ImportAddressTable",
+          "tsEmitName": "importAddressTable",
           "normalizedSignature": "ImportAddressTable|:System.Reflection.PortableExecutable.DirectoryEntry|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2909,7 +2909,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.PEDirectoriesBuilder::DelayImportTable:System.Reflection.PortableExecutable.DirectoryEntry",
           "clrName": "DelayImportTable",
-          "tsEmitName": "DelayImportTable",
+          "tsEmitName": "delayImportTable",
           "normalizedSignature": "DelayImportTable|:System.Reflection.PortableExecutable.DirectoryEntry|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2924,7 +2924,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.PEDirectoriesBuilder::CorHeaderTable:System.Reflection.PortableExecutable.DirectoryEntry",
           "clrName": "CorHeaderTable",
-          "tsEmitName": "CorHeaderTable",
+          "tsEmitName": "corHeaderTable",
           "normalizedSignature": "CorHeaderTable|:System.Reflection.PortableExecutable.DirectoryEntry|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2962,7 +2962,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.PEHeader::Magic:System.Reflection.PortableExecutable.PEMagic",
           "clrName": "Magic",
-          "tsEmitName": "Magic",
+          "tsEmitName": "magic",
           "normalizedSignature": "Magic|:System.Reflection.PortableExecutable.PEMagic|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2977,7 +2977,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.PEHeader::MajorLinkerVersion:System.Byte",
           "clrName": "MajorLinkerVersion",
-          "tsEmitName": "MajorLinkerVersion",
+          "tsEmitName": "majorLinkerVersion",
           "normalizedSignature": "MajorLinkerVersion|:System.Byte|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2992,7 +2992,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.PEHeader::MinorLinkerVersion:System.Byte",
           "clrName": "MinorLinkerVersion",
-          "tsEmitName": "MinorLinkerVersion",
+          "tsEmitName": "minorLinkerVersion",
           "normalizedSignature": "MinorLinkerVersion|:System.Byte|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3007,7 +3007,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.PEHeader::SizeOfCode:System.Int32",
           "clrName": "SizeOfCode",
-          "tsEmitName": "SizeOfCode",
+          "tsEmitName": "sizeOfCode",
           "normalizedSignature": "SizeOfCode|:System.Int32|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3022,7 +3022,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.PEHeader::SizeOfInitializedData:System.Int32",
           "clrName": "SizeOfInitializedData",
-          "tsEmitName": "SizeOfInitializedData",
+          "tsEmitName": "sizeOfInitializedData",
           "normalizedSignature": "SizeOfInitializedData|:System.Int32|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3037,7 +3037,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.PEHeader::SizeOfUninitializedData:System.Int32",
           "clrName": "SizeOfUninitializedData",
-          "tsEmitName": "SizeOfUninitializedData",
+          "tsEmitName": "sizeOfUninitializedData",
           "normalizedSignature": "SizeOfUninitializedData|:System.Int32|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3052,7 +3052,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.PEHeader::AddressOfEntryPoint:System.Int32",
           "clrName": "AddressOfEntryPoint",
-          "tsEmitName": "AddressOfEntryPoint",
+          "tsEmitName": "addressOfEntryPoint",
           "normalizedSignature": "AddressOfEntryPoint|:System.Int32|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3067,7 +3067,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.PEHeader::BaseOfCode:System.Int32",
           "clrName": "BaseOfCode",
-          "tsEmitName": "BaseOfCode",
+          "tsEmitName": "baseOfCode",
           "normalizedSignature": "BaseOfCode|:System.Int32|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3082,7 +3082,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.PEHeader::BaseOfData:System.Int32",
           "clrName": "BaseOfData",
-          "tsEmitName": "BaseOfData",
+          "tsEmitName": "baseOfData",
           "normalizedSignature": "BaseOfData|:System.Int32|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3097,7 +3097,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.PEHeader::ImageBase:System.UInt64",
           "clrName": "ImageBase",
-          "tsEmitName": "ImageBase",
+          "tsEmitName": "imageBase",
           "normalizedSignature": "ImageBase|:System.UInt64|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3112,7 +3112,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.PEHeader::SectionAlignment:System.Int32",
           "clrName": "SectionAlignment",
-          "tsEmitName": "SectionAlignment",
+          "tsEmitName": "sectionAlignment",
           "normalizedSignature": "SectionAlignment|:System.Int32|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3127,7 +3127,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.PEHeader::FileAlignment:System.Int32",
           "clrName": "FileAlignment",
-          "tsEmitName": "FileAlignment",
+          "tsEmitName": "fileAlignment",
           "normalizedSignature": "FileAlignment|:System.Int32|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3142,7 +3142,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.PEHeader::MajorOperatingSystemVersion:System.UInt16",
           "clrName": "MajorOperatingSystemVersion",
-          "tsEmitName": "MajorOperatingSystemVersion",
+          "tsEmitName": "majorOperatingSystemVersion",
           "normalizedSignature": "MajorOperatingSystemVersion|:System.UInt16|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3157,7 +3157,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.PEHeader::MinorOperatingSystemVersion:System.UInt16",
           "clrName": "MinorOperatingSystemVersion",
-          "tsEmitName": "MinorOperatingSystemVersion",
+          "tsEmitName": "minorOperatingSystemVersion",
           "normalizedSignature": "MinorOperatingSystemVersion|:System.UInt16|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3172,7 +3172,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.PEHeader::MajorImageVersion:System.UInt16",
           "clrName": "MajorImageVersion",
-          "tsEmitName": "MajorImageVersion",
+          "tsEmitName": "majorImageVersion",
           "normalizedSignature": "MajorImageVersion|:System.UInt16|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3187,7 +3187,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.PEHeader::MinorImageVersion:System.UInt16",
           "clrName": "MinorImageVersion",
-          "tsEmitName": "MinorImageVersion",
+          "tsEmitName": "minorImageVersion",
           "normalizedSignature": "MinorImageVersion|:System.UInt16|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3202,7 +3202,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.PEHeader::MajorSubsystemVersion:System.UInt16",
           "clrName": "MajorSubsystemVersion",
-          "tsEmitName": "MajorSubsystemVersion",
+          "tsEmitName": "majorSubsystemVersion",
           "normalizedSignature": "MajorSubsystemVersion|:System.UInt16|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3217,7 +3217,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.PEHeader::MinorSubsystemVersion:System.UInt16",
           "clrName": "MinorSubsystemVersion",
-          "tsEmitName": "MinorSubsystemVersion",
+          "tsEmitName": "minorSubsystemVersion",
           "normalizedSignature": "MinorSubsystemVersion|:System.UInt16|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3232,7 +3232,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.PEHeader::SizeOfImage:System.Int32",
           "clrName": "SizeOfImage",
-          "tsEmitName": "SizeOfImage",
+          "tsEmitName": "sizeOfImage",
           "normalizedSignature": "SizeOfImage|:System.Int32|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3247,7 +3247,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.PEHeader::SizeOfHeaders:System.Int32",
           "clrName": "SizeOfHeaders",
-          "tsEmitName": "SizeOfHeaders",
+          "tsEmitName": "sizeOfHeaders",
           "normalizedSignature": "SizeOfHeaders|:System.Int32|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3262,7 +3262,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.PEHeader::CheckSum:System.UInt32",
           "clrName": "CheckSum",
-          "tsEmitName": "CheckSum",
+          "tsEmitName": "checkSum",
           "normalizedSignature": "CheckSum|:System.UInt32|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3277,7 +3277,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.PEHeader::Subsystem:System.Reflection.PortableExecutable.Subsystem",
           "clrName": "Subsystem",
-          "tsEmitName": "Subsystem",
+          "tsEmitName": "subsystem",
           "normalizedSignature": "Subsystem|:System.Reflection.PortableExecutable.Subsystem|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3292,7 +3292,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.PEHeader::DllCharacteristics:System.Reflection.PortableExecutable.DllCharacteristics",
           "clrName": "DllCharacteristics",
-          "tsEmitName": "DllCharacteristics",
+          "tsEmitName": "dllCharacteristics",
           "normalizedSignature": "DllCharacteristics|:System.Reflection.PortableExecutable.DllCharacteristics|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3307,7 +3307,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.PEHeader::SizeOfStackReserve:System.UInt64",
           "clrName": "SizeOfStackReserve",
-          "tsEmitName": "SizeOfStackReserve",
+          "tsEmitName": "sizeOfStackReserve",
           "normalizedSignature": "SizeOfStackReserve|:System.UInt64|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3322,7 +3322,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.PEHeader::SizeOfStackCommit:System.UInt64",
           "clrName": "SizeOfStackCommit",
-          "tsEmitName": "SizeOfStackCommit",
+          "tsEmitName": "sizeOfStackCommit",
           "normalizedSignature": "SizeOfStackCommit|:System.UInt64|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3337,7 +3337,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.PEHeader::SizeOfHeapReserve:System.UInt64",
           "clrName": "SizeOfHeapReserve",
-          "tsEmitName": "SizeOfHeapReserve",
+          "tsEmitName": "sizeOfHeapReserve",
           "normalizedSignature": "SizeOfHeapReserve|:System.UInt64|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3352,7 +3352,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.PEHeader::SizeOfHeapCommit:System.UInt64",
           "clrName": "SizeOfHeapCommit",
-          "tsEmitName": "SizeOfHeapCommit",
+          "tsEmitName": "sizeOfHeapCommit",
           "normalizedSignature": "SizeOfHeapCommit|:System.UInt64|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3367,7 +3367,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.PEHeader::NumberOfRvaAndSizes:System.Int32",
           "clrName": "NumberOfRvaAndSizes",
-          "tsEmitName": "NumberOfRvaAndSizes",
+          "tsEmitName": "numberOfRvaAndSizes",
           "normalizedSignature": "NumberOfRvaAndSizes|:System.Int32|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3382,7 +3382,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.PEHeader::ExportTableDirectory:System.Reflection.PortableExecutable.DirectoryEntry",
           "clrName": "ExportTableDirectory",
-          "tsEmitName": "ExportTableDirectory",
+          "tsEmitName": "exportTableDirectory",
           "normalizedSignature": "ExportTableDirectory|:System.Reflection.PortableExecutable.DirectoryEntry|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3397,7 +3397,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.PEHeader::ImportTableDirectory:System.Reflection.PortableExecutable.DirectoryEntry",
           "clrName": "ImportTableDirectory",
-          "tsEmitName": "ImportTableDirectory",
+          "tsEmitName": "importTableDirectory",
           "normalizedSignature": "ImportTableDirectory|:System.Reflection.PortableExecutable.DirectoryEntry|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3412,7 +3412,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.PEHeader::ResourceTableDirectory:System.Reflection.PortableExecutable.DirectoryEntry",
           "clrName": "ResourceTableDirectory",
-          "tsEmitName": "ResourceTableDirectory",
+          "tsEmitName": "resourceTableDirectory",
           "normalizedSignature": "ResourceTableDirectory|:System.Reflection.PortableExecutable.DirectoryEntry|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3427,7 +3427,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.PEHeader::ExceptionTableDirectory:System.Reflection.PortableExecutable.DirectoryEntry",
           "clrName": "ExceptionTableDirectory",
-          "tsEmitName": "ExceptionTableDirectory",
+          "tsEmitName": "exceptionTableDirectory",
           "normalizedSignature": "ExceptionTableDirectory|:System.Reflection.PortableExecutable.DirectoryEntry|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3442,7 +3442,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.PEHeader::CertificateTableDirectory:System.Reflection.PortableExecutable.DirectoryEntry",
           "clrName": "CertificateTableDirectory",
-          "tsEmitName": "CertificateTableDirectory",
+          "tsEmitName": "certificateTableDirectory",
           "normalizedSignature": "CertificateTableDirectory|:System.Reflection.PortableExecutable.DirectoryEntry|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3457,7 +3457,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.PEHeader::BaseRelocationTableDirectory:System.Reflection.PortableExecutable.DirectoryEntry",
           "clrName": "BaseRelocationTableDirectory",
-          "tsEmitName": "BaseRelocationTableDirectory",
+          "tsEmitName": "baseRelocationTableDirectory",
           "normalizedSignature": "BaseRelocationTableDirectory|:System.Reflection.PortableExecutable.DirectoryEntry|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3472,7 +3472,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.PEHeader::DebugTableDirectory:System.Reflection.PortableExecutable.DirectoryEntry",
           "clrName": "DebugTableDirectory",
-          "tsEmitName": "DebugTableDirectory",
+          "tsEmitName": "debugTableDirectory",
           "normalizedSignature": "DebugTableDirectory|:System.Reflection.PortableExecutable.DirectoryEntry|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3487,7 +3487,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.PEHeader::CopyrightTableDirectory:System.Reflection.PortableExecutable.DirectoryEntry",
           "clrName": "CopyrightTableDirectory",
-          "tsEmitName": "CopyrightTableDirectory",
+          "tsEmitName": "copyrightTableDirectory",
           "normalizedSignature": "CopyrightTableDirectory|:System.Reflection.PortableExecutable.DirectoryEntry|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3502,7 +3502,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.PEHeader::GlobalPointerTableDirectory:System.Reflection.PortableExecutable.DirectoryEntry",
           "clrName": "GlobalPointerTableDirectory",
-          "tsEmitName": "GlobalPointerTableDirectory",
+          "tsEmitName": "globalPointerTableDirectory",
           "normalizedSignature": "GlobalPointerTableDirectory|:System.Reflection.PortableExecutable.DirectoryEntry|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3517,7 +3517,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.PEHeader::ThreadLocalStorageTableDirectory:System.Reflection.PortableExecutable.DirectoryEntry",
           "clrName": "ThreadLocalStorageTableDirectory",
-          "tsEmitName": "ThreadLocalStorageTableDirectory",
+          "tsEmitName": "threadLocalStorageTableDirectory",
           "normalizedSignature": "ThreadLocalStorageTableDirectory|:System.Reflection.PortableExecutable.DirectoryEntry|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3532,7 +3532,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.PEHeader::LoadConfigTableDirectory:System.Reflection.PortableExecutable.DirectoryEntry",
           "clrName": "LoadConfigTableDirectory",
-          "tsEmitName": "LoadConfigTableDirectory",
+          "tsEmitName": "loadConfigTableDirectory",
           "normalizedSignature": "LoadConfigTableDirectory|:System.Reflection.PortableExecutable.DirectoryEntry|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3547,7 +3547,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.PEHeader::BoundImportTableDirectory:System.Reflection.PortableExecutable.DirectoryEntry",
           "clrName": "BoundImportTableDirectory",
-          "tsEmitName": "BoundImportTableDirectory",
+          "tsEmitName": "boundImportTableDirectory",
           "normalizedSignature": "BoundImportTableDirectory|:System.Reflection.PortableExecutable.DirectoryEntry|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3562,7 +3562,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.PEHeader::ImportAddressTableDirectory:System.Reflection.PortableExecutable.DirectoryEntry",
           "clrName": "ImportAddressTableDirectory",
-          "tsEmitName": "ImportAddressTableDirectory",
+          "tsEmitName": "importAddressTableDirectory",
           "normalizedSignature": "ImportAddressTableDirectory|:System.Reflection.PortableExecutable.DirectoryEntry|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3577,7 +3577,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.PEHeader::DelayImportTableDirectory:System.Reflection.PortableExecutable.DirectoryEntry",
           "clrName": "DelayImportTableDirectory",
-          "tsEmitName": "DelayImportTableDirectory",
+          "tsEmitName": "delayImportTableDirectory",
           "normalizedSignature": "DelayImportTableDirectory|:System.Reflection.PortableExecutable.DirectoryEntry|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3592,7 +3592,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.PEHeader::CorHeaderTableDirectory:System.Reflection.PortableExecutable.DirectoryEntry",
           "clrName": "CorHeaderTableDirectory",
-          "tsEmitName": "CorHeaderTableDirectory",
+          "tsEmitName": "corHeaderTableDirectory",
           "normalizedSignature": "CorHeaderTableDirectory|:System.Reflection.PortableExecutable.DirectoryEntry|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3623,7 +3623,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.PEHeaderBuilder::CreateExecutableHeader():System.Reflection.PortableExecutable.PEHeaderBuilder",
           "clrName": "CreateExecutableHeader",
-          "tsEmitName": "CreateExecutableHeader",
+          "tsEmitName": "createExecutableHeader",
           "normalizedSignature": "CreateExecutableHeader|():System.Reflection.PortableExecutable.PEHeaderBuilder|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3639,7 +3639,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.PEHeaderBuilder::CreateLibraryHeader():System.Reflection.PortableExecutable.PEHeaderBuilder",
           "clrName": "CreateLibraryHeader",
-          "tsEmitName": "CreateLibraryHeader",
+          "tsEmitName": "createLibraryHeader",
           "normalizedSignature": "CreateLibraryHeader|():System.Reflection.PortableExecutable.PEHeaderBuilder|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3657,7 +3657,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.PEHeaderBuilder::Machine:System.Reflection.PortableExecutable.Machine",
           "clrName": "Machine",
-          "tsEmitName": "Machine",
+          "tsEmitName": "machine",
           "normalizedSignature": "Machine|:System.Reflection.PortableExecutable.Machine|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3672,7 +3672,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.PEHeaderBuilder::ImageCharacteristics:System.Reflection.PortableExecutable.Characteristics",
           "clrName": "ImageCharacteristics",
-          "tsEmitName": "ImageCharacteristics",
+          "tsEmitName": "imageCharacteristics",
           "normalizedSignature": "ImageCharacteristics|:System.Reflection.PortableExecutable.Characteristics|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3687,7 +3687,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.PEHeaderBuilder::MajorLinkerVersion:System.Byte",
           "clrName": "MajorLinkerVersion",
-          "tsEmitName": "MajorLinkerVersion",
+          "tsEmitName": "majorLinkerVersion",
           "normalizedSignature": "MajorLinkerVersion|:System.Byte|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3702,7 +3702,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.PEHeaderBuilder::MinorLinkerVersion:System.Byte",
           "clrName": "MinorLinkerVersion",
-          "tsEmitName": "MinorLinkerVersion",
+          "tsEmitName": "minorLinkerVersion",
           "normalizedSignature": "MinorLinkerVersion|:System.Byte|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3717,7 +3717,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.PEHeaderBuilder::ImageBase:System.UInt64",
           "clrName": "ImageBase",
-          "tsEmitName": "ImageBase",
+          "tsEmitName": "imageBase",
           "normalizedSignature": "ImageBase|:System.UInt64|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3732,7 +3732,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.PEHeaderBuilder::SectionAlignment:System.Int32",
           "clrName": "SectionAlignment",
-          "tsEmitName": "SectionAlignment",
+          "tsEmitName": "sectionAlignment",
           "normalizedSignature": "SectionAlignment|:System.Int32|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3747,7 +3747,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.PEHeaderBuilder::FileAlignment:System.Int32",
           "clrName": "FileAlignment",
-          "tsEmitName": "FileAlignment",
+          "tsEmitName": "fileAlignment",
           "normalizedSignature": "FileAlignment|:System.Int32|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3762,7 +3762,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.PEHeaderBuilder::MajorOperatingSystemVersion:System.UInt16",
           "clrName": "MajorOperatingSystemVersion",
-          "tsEmitName": "MajorOperatingSystemVersion",
+          "tsEmitName": "majorOperatingSystemVersion",
           "normalizedSignature": "MajorOperatingSystemVersion|:System.UInt16|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3777,7 +3777,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.PEHeaderBuilder::MinorOperatingSystemVersion:System.UInt16",
           "clrName": "MinorOperatingSystemVersion",
-          "tsEmitName": "MinorOperatingSystemVersion",
+          "tsEmitName": "minorOperatingSystemVersion",
           "normalizedSignature": "MinorOperatingSystemVersion|:System.UInt16|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3792,7 +3792,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.PEHeaderBuilder::MajorImageVersion:System.UInt16",
           "clrName": "MajorImageVersion",
-          "tsEmitName": "MajorImageVersion",
+          "tsEmitName": "majorImageVersion",
           "normalizedSignature": "MajorImageVersion|:System.UInt16|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3807,7 +3807,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.PEHeaderBuilder::MinorImageVersion:System.UInt16",
           "clrName": "MinorImageVersion",
-          "tsEmitName": "MinorImageVersion",
+          "tsEmitName": "minorImageVersion",
           "normalizedSignature": "MinorImageVersion|:System.UInt16|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3822,7 +3822,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.PEHeaderBuilder::MajorSubsystemVersion:System.UInt16",
           "clrName": "MajorSubsystemVersion",
-          "tsEmitName": "MajorSubsystemVersion",
+          "tsEmitName": "majorSubsystemVersion",
           "normalizedSignature": "MajorSubsystemVersion|:System.UInt16|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3837,7 +3837,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.PEHeaderBuilder::MinorSubsystemVersion:System.UInt16",
           "clrName": "MinorSubsystemVersion",
-          "tsEmitName": "MinorSubsystemVersion",
+          "tsEmitName": "minorSubsystemVersion",
           "normalizedSignature": "MinorSubsystemVersion|:System.UInt16|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3852,7 +3852,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.PEHeaderBuilder::Subsystem:System.Reflection.PortableExecutable.Subsystem",
           "clrName": "Subsystem",
-          "tsEmitName": "Subsystem",
+          "tsEmitName": "subsystem",
           "normalizedSignature": "Subsystem|:System.Reflection.PortableExecutable.Subsystem|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3867,7 +3867,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.PEHeaderBuilder::DllCharacteristics:System.Reflection.PortableExecutable.DllCharacteristics",
           "clrName": "DllCharacteristics",
-          "tsEmitName": "DllCharacteristics",
+          "tsEmitName": "dllCharacteristics",
           "normalizedSignature": "DllCharacteristics|:System.Reflection.PortableExecutable.DllCharacteristics|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3882,7 +3882,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.PEHeaderBuilder::SizeOfStackReserve:System.UInt64",
           "clrName": "SizeOfStackReserve",
-          "tsEmitName": "SizeOfStackReserve",
+          "tsEmitName": "sizeOfStackReserve",
           "normalizedSignature": "SizeOfStackReserve|:System.UInt64|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3897,7 +3897,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.PEHeaderBuilder::SizeOfStackCommit:System.UInt64",
           "clrName": "SizeOfStackCommit",
-          "tsEmitName": "SizeOfStackCommit",
+          "tsEmitName": "sizeOfStackCommit",
           "normalizedSignature": "SizeOfStackCommit|:System.UInt64|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3912,7 +3912,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.PEHeaderBuilder::SizeOfHeapReserve:System.UInt64",
           "clrName": "SizeOfHeapReserve",
-          "tsEmitName": "SizeOfHeapReserve",
+          "tsEmitName": "sizeOfHeapReserve",
           "normalizedSignature": "SizeOfHeapReserve|:System.UInt64|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3927,7 +3927,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.PEHeaderBuilder::SizeOfHeapCommit:System.UInt64",
           "clrName": "SizeOfHeapCommit",
-          "tsEmitName": "SizeOfHeapCommit",
+          "tsEmitName": "sizeOfHeapCommit",
           "normalizedSignature": "SizeOfHeapCommit|:System.UInt64|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3964,7 +3964,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.PEHeaders::TryGetDirectoryOffset(System.Reflection.PortableExecutable.DirectoryEntry,System.Int32\u0026):System.Boolean",
           "clrName": "TryGetDirectoryOffset",
-          "tsEmitName": "TryGetDirectoryOffset",
+          "tsEmitName": "tryGetDirectoryOffset",
           "normalizedSignature": "TryGetDirectoryOffset|(System.Reflection.PortableExecutable.DirectoryEntry,System.Int32\u0026):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3980,7 +3980,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.PEHeaders::GetContainingSectionIndex(System.Int32):System.Int32",
           "clrName": "GetContainingSectionIndex",
-          "tsEmitName": "GetContainingSectionIndex",
+          "tsEmitName": "getContainingSectionIndex",
           "normalizedSignature": "GetContainingSectionIndex|(System.Int32):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3998,7 +3998,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.PEHeaders::MetadataStartOffset:System.Int32",
           "clrName": "MetadataStartOffset",
-          "tsEmitName": "MetadataStartOffset",
+          "tsEmitName": "metadataStartOffset",
           "normalizedSignature": "MetadataStartOffset|:System.Int32|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4013,7 +4013,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.PEHeaders::MetadataSize:System.Int32",
           "clrName": "MetadataSize",
-          "tsEmitName": "MetadataSize",
+          "tsEmitName": "metadataSize",
           "normalizedSignature": "MetadataSize|:System.Int32|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4028,7 +4028,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.PEHeaders::CoffHeader:System.Reflection.PortableExecutable.CoffHeader",
           "clrName": "CoffHeader",
-          "tsEmitName": "CoffHeader",
+          "tsEmitName": "coffHeader",
           "normalizedSignature": "CoffHeader|:System.Reflection.PortableExecutable.CoffHeader|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4043,7 +4043,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.PEHeaders::CoffHeaderStartOffset:System.Int32",
           "clrName": "CoffHeaderStartOffset",
-          "tsEmitName": "CoffHeaderStartOffset",
+          "tsEmitName": "coffHeaderStartOffset",
           "normalizedSignature": "CoffHeaderStartOffset|:System.Int32|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4058,7 +4058,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.PEHeaders::IsCoffOnly:System.Boolean",
           "clrName": "IsCoffOnly",
-          "tsEmitName": "IsCoffOnly",
+          "tsEmitName": "isCoffOnly",
           "normalizedSignature": "IsCoffOnly|:System.Boolean|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4073,7 +4073,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.PEHeaders::PEHeader:System.Reflection.PortableExecutable.PEHeader",
           "clrName": "PEHeader",
-          "tsEmitName": "PEHeader",
+          "tsEmitName": "peHeader",
           "normalizedSignature": "PEHeader|:System.Reflection.PortableExecutable.PEHeader|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4088,7 +4088,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.PEHeaders::PEHeaderStartOffset:System.Int32",
           "clrName": "PEHeaderStartOffset",
-          "tsEmitName": "PEHeaderStartOffset",
+          "tsEmitName": "peHeaderStartOffset",
           "normalizedSignature": "PEHeaderStartOffset|:System.Int32|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4103,7 +4103,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.PEHeaders::SectionHeaders:System.Collections.Immutable.ImmutableArray_1[[System.Reflection.PortableExecutable.SectionHeader,System.Reflection.Metadata,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
           "clrName": "SectionHeaders",
-          "tsEmitName": "SectionHeaders",
+          "tsEmitName": "sectionHeaders",
           "normalizedSignature": "SectionHeaders|:System.Collections.Immutable.ImmutableArray_1[[System.Reflection.PortableExecutable.SectionHeader,System.Reflection.Metadata,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4118,7 +4118,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.PEHeaders::CorHeader:System.Reflection.PortableExecutable.CorHeader",
           "clrName": "CorHeader",
-          "tsEmitName": "CorHeader",
+          "tsEmitName": "corHeader",
           "normalizedSignature": "CorHeader|:System.Reflection.PortableExecutable.CorHeader|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4133,7 +4133,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.PEHeaders::CorHeaderStartOffset:System.Int32",
           "clrName": "CorHeaderStartOffset",
-          "tsEmitName": "CorHeaderStartOffset",
+          "tsEmitName": "corHeaderStartOffset",
           "normalizedSignature": "CorHeaderStartOffset|:System.Int32|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4148,7 +4148,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.PEHeaders::IsConsoleApplication:System.Boolean",
           "clrName": "IsConsoleApplication",
-          "tsEmitName": "IsConsoleApplication",
+          "tsEmitName": "isConsoleApplication",
           "normalizedSignature": "IsConsoleApplication|:System.Boolean|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4163,7 +4163,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.PEHeaders::IsDll:System.Boolean",
           "clrName": "IsDll",
-          "tsEmitName": "IsDll",
+          "tsEmitName": "isDll",
           "normalizedSignature": "IsDll|:System.Boolean|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4178,7 +4178,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.PEHeaders::IsExe:System.Boolean",
           "clrName": "IsExe",
-          "tsEmitName": "IsExe",
+          "tsEmitName": "isExe",
           "normalizedSignature": "IsExe|:System.Boolean|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4225,7 +4225,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.PEReader::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "Dispose",
+          "tsEmitName": "dispose",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4241,7 +4241,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.PEReader::GetEntireImage():System.Reflection.PortableExecutable.PEMemoryBlock",
           "clrName": "GetEntireImage",
-          "tsEmitName": "GetEntireImage",
+          "tsEmitName": "getEntireImage",
           "normalizedSignature": "GetEntireImage|():System.Reflection.PortableExecutable.PEMemoryBlock|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4257,7 +4257,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.PEReader::GetMetadata():System.Reflection.PortableExecutable.PEMemoryBlock",
           "clrName": "GetMetadata",
-          "tsEmitName": "GetMetadata",
+          "tsEmitName": "getMetadata",
           "normalizedSignature": "GetMetadata|():System.Reflection.PortableExecutable.PEMemoryBlock|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4273,7 +4273,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.PEReader::GetSectionData(System.Int32):System.Reflection.PortableExecutable.PEMemoryBlock",
           "clrName": "GetSectionData",
-          "tsEmitName": "GetSectionData",
+          "tsEmitName": "getSectionData",
           "normalizedSignature": "GetSectionData|(System.Int32):System.Reflection.PortableExecutable.PEMemoryBlock|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4289,7 +4289,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.PEReader::GetSectionData(System.String):System.Reflection.PortableExecutable.PEMemoryBlock",
           "clrName": "GetSectionData",
-          "tsEmitName": "GetSectionData2",
+          "tsEmitName": "getSectionData2",
           "normalizedSignature": "GetSectionData|(System.String):System.Reflection.PortableExecutable.PEMemoryBlock|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4305,7 +4305,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.PEReader::ReadDebugDirectory():System.Collections.Immutable.ImmutableArray_1[[System.Reflection.PortableExecutable.DebugDirectoryEntry,System.Reflection.Metadata,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
           "clrName": "ReadDebugDirectory",
-          "tsEmitName": "ReadDebugDirectory",
+          "tsEmitName": "readDebugDirectory",
           "normalizedSignature": "ReadDebugDirectory|():System.Collections.Immutable.ImmutableArray_1[[System.Reflection.PortableExecutable.DebugDirectoryEntry,System.Reflection.Metadata,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4321,7 +4321,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.PEReader::ReadCodeViewDebugDirectoryData(System.Reflection.PortableExecutable.DebugDirectoryEntry):System.Reflection.PortableExecutable.CodeViewDebugDirectoryData",
           "clrName": "ReadCodeViewDebugDirectoryData",
-          "tsEmitName": "ReadCodeViewDebugDirectoryData",
+          "tsEmitName": "readCodeViewDebugDirectoryData",
           "normalizedSignature": "ReadCodeViewDebugDirectoryData|(System.Reflection.PortableExecutable.DebugDirectoryEntry):System.Reflection.PortableExecutable.CodeViewDebugDirectoryData|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4337,7 +4337,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.PEReader::ReadPdbChecksumDebugDirectoryData(System.Reflection.PortableExecutable.DebugDirectoryEntry):System.Reflection.PortableExecutable.PdbChecksumDebugDirectoryData",
           "clrName": "ReadPdbChecksumDebugDirectoryData",
-          "tsEmitName": "ReadPdbChecksumDebugDirectoryData",
+          "tsEmitName": "readPdbChecksumDebugDirectoryData",
           "normalizedSignature": "ReadPdbChecksumDebugDirectoryData|(System.Reflection.PortableExecutable.DebugDirectoryEntry):System.Reflection.PortableExecutable.PdbChecksumDebugDirectoryData|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4353,7 +4353,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.PEReader::TryOpenAssociatedPortablePdb(System.String,System.Func_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.IO.Stream,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Reflection.Metadata.MetadataReaderProvider\u0026,System.String\u0026):System.Boolean",
           "clrName": "TryOpenAssociatedPortablePdb",
-          "tsEmitName": "TryOpenAssociatedPortablePdb",
+          "tsEmitName": "tryOpenAssociatedPortablePdb",
           "normalizedSignature": "TryOpenAssociatedPortablePdb|(System.String,System.Func_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.IO.Stream,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Reflection.Metadata.MetadataReaderProvider\u0026,System.String\u0026):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4369,7 +4369,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.PEReader::ReadEmbeddedPortablePdbDebugDirectoryData(System.Reflection.PortableExecutable.DebugDirectoryEntry):System.Reflection.Metadata.MetadataReaderProvider",
           "clrName": "ReadEmbeddedPortablePdbDebugDirectoryData",
-          "tsEmitName": "ReadEmbeddedPortablePdbDebugDirectoryData",
+          "tsEmitName": "readEmbeddedPortablePdbDebugDirectoryData",
           "normalizedSignature": "ReadEmbeddedPortablePdbDebugDirectoryData|(System.Reflection.PortableExecutable.DebugDirectoryEntry):System.Reflection.Metadata.MetadataReaderProvider|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4385,7 +4385,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "Dispose$view",
+          "tsEmitName": "dispose$view",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -4404,7 +4404,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.PEReader::IsLoadedImage:System.Boolean",
           "clrName": "IsLoadedImage",
-          "tsEmitName": "IsLoadedImage",
+          "tsEmitName": "isLoadedImage",
           "normalizedSignature": "IsLoadedImage|:System.Boolean|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4419,7 +4419,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.PEReader::PEHeaders:System.Reflection.PortableExecutable.PEHeaders",
           "clrName": "PEHeaders",
-          "tsEmitName": "PEHeaders",
+          "tsEmitName": "peHeaders",
           "normalizedSignature": "PEHeaders|:System.Reflection.PortableExecutable.PEHeaders|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4434,7 +4434,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.PEReader::IsEntireImageAvailable:System.Boolean",
           "clrName": "IsEntireImageAvailable",
-          "tsEmitName": "IsEntireImageAvailable",
+          "tsEmitName": "isEntireImageAvailable",
           "normalizedSignature": "IsEntireImageAvailable|:System.Boolean|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4449,7 +4449,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.PEReader::HasMetadata:System.Boolean",
           "clrName": "HasMetadata",
-          "tsEmitName": "HasMetadata",
+          "tsEmitName": "hasMetadata",
           "normalizedSignature": "HasMetadata|:System.Boolean|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",

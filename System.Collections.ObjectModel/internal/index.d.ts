@@ -48,17 +48,17 @@ export type CLROf<T> =
 export class Collection_1$instance<T> {
     constructor();
     constructor(list: IList_1<T>);
-    readonly Count: int;
-    Item: T;
-    Add(item: T): void;
-    Clear(): void;
-    Contains(item: T): boolean;
-    CopyTo(array: T[], index: int): void;
-    GetEnumerator(): IEnumerator_1<T>;
-    IndexOf(item: T): int;
-    Insert(index: int, item: T): void;
-    Remove(item: T): boolean;
-    RemoveAt(index: int): void;
+    readonly count: int;
+    item: T;
+    add(item: T): void;
+    clear(): void;
+    contains(item: T): boolean;
+    copyTo(array: T[], index: int): void;
+    getEnumerator(): IEnumerator_1<T>;
+    indexOf(item: T): int;
+    insert(index: int, item: T): void;
+    remove(item: T): boolean;
+    removeAt(index: int): void;
 }
 
 
@@ -76,23 +76,23 @@ export type Collection_1<T> = Collection_1$instance<T> & __Collection_1$views<T>
 
 
 export abstract class KeyedCollection_2$instance<TKey, TItem> extends Collection_1$instance<TItem> {
-    readonly Comparer: IEqualityComparer_1<TKey>;
-    Add(item: TItem): void;
-    Add(value: any): int;
-    Clear(): void;
-    Contains(item: TItem): boolean;
-    Contains(value: any): boolean;
-    CopyTo(array: TItem[], index: int): void;
-    CopyTo(array: ClrArray, index: int): void;
-    GetEnumerator(): IEnumerator_1<TItem>;
-    GetEnumerator(): IEnumerator;
-    IndexOf(item: TItem): int;
-    Insert(index: int, item: TItem): void;
-    Insert(index: int, value: any): void;
-    Remove(item: TItem): boolean;
-    Remove(value: any): void;
-    RemoveAt(index: int): void;
-    TryGetValue(key: TKey, item: { value: ref<TItem> }): boolean;
+    readonly comparer: IEqualityComparer_1<TKey>;
+    add(item: TItem): void;
+    add(value: any): int;
+    clear(): void;
+    contains(item: TItem): boolean;
+    contains(value: any): boolean;
+    copyTo(array: TItem[], index: int): void;
+    copyTo(array: ClrArray, index: int): void;
+    getEnumerator(): IEnumerator_1<TItem>;
+    getEnumerator(): IEnumerator;
+    indexOf(item: TItem): int;
+    insert(index: int, item: TItem): void;
+    insert(index: int, value: any): void;
+    remove(item: TItem): boolean;
+    remove(value: any): void;
+    removeAt(index: int): void;
+    tryGetValue(key: TKey, item: { value: ref<TItem> }): boolean;
 }
 
 
@@ -113,22 +113,22 @@ export class ObservableCollection_1$instance<T> extends Collection_1$instance<T>
     constructor();
     constructor(collection: IEnumerable_1<T>);
     constructor(list: List_1<T>);
-    Add(item: T): void;
-    Add(value: any): int;
-    Clear(): void;
-    Contains(item: T): boolean;
-    Contains(value: any): boolean;
-    CopyTo(array: T[], index: int): void;
-    CopyTo(array: ClrArray, index: int): void;
-    GetEnumerator(): IEnumerator_1<T>;
-    GetEnumerator(): IEnumerator;
-    IndexOf(item: T): int;
-    Insert(index: int, item: T): void;
-    Insert(index: int, value: any): void;
-    Move(oldIndex: int, newIndex: int): void;
-    Remove(item: T): boolean;
-    Remove(value: any): void;
-    RemoveAt(index: int): void;
+    add(item: T): void;
+    add(value: any): int;
+    clear(): void;
+    contains(item: T): boolean;
+    contains(value: any): boolean;
+    copyTo(array: T[], index: int): void;
+    copyTo(array: ClrArray, index: int): void;
+    getEnumerator(): IEnumerator_1<T>;
+    getEnumerator(): IEnumerator;
+    indexOf(item: T): int;
+    insert(index: int, item: T): void;
+    insert(index: int, value: any): void;
+    move(oldIndex: int, newIndex: int): void;
+    remove(item: T): boolean;
+    remove(value: any): void;
+    removeAt(index: int): void;
 }
 
 
@@ -147,12 +147,12 @@ export type ObservableCollection_1<T> = ObservableCollection_1$instance<T> & __O
 
 export class ReadOnlyCollection_1$instance<T> {
     constructor(list: IList_1<T>);
-    readonly Count: int;
-    readonly Item: T;
-    Contains(value: T): boolean;
-    CopyTo(array: T[], index: int): void;
-    GetEnumerator(): IEnumerator_1<T>;
-    IndexOf(value: T): int;
+    readonly count: int;
+    readonly item: T;
+    contains(value: T): boolean;
+    copyTo(array: T[], index: int): void;
+    getEnumerator(): IEnumerator_1<T>;
+    indexOf(value: T): int;
     static readonly Empty: unknown;
 }
 
@@ -172,13 +172,13 @@ export type ReadOnlyCollection_1<T> = ReadOnlyCollection_1$instance<T> & __ReadO
 
 export class ReadOnlyDictionary_2$instance<TKey, TValue> {
     constructor(dictionary: IDictionary_2<TKey, TValue>);
-    readonly Count: int;
-    readonly Item: TValue;
-    readonly Keys: ReadOnlyDictionary_2_KeyCollection<TKey, TValue>;
-    readonly Values: ReadOnlyDictionary_2_ValueCollection<TKey, TValue>;
-    ContainsKey(key: TKey): boolean;
-    GetEnumerator(): IEnumerator_1<KeyValuePair_2<TKey, TValue>>;
-    TryGetValue(key: TKey, value: { value: ref<TValue> }): boolean;
+    readonly count: int;
+    readonly item: TValue;
+    readonly keys: ReadOnlyDictionary_2_KeyCollection<TKey, TValue>;
+    readonly values: ReadOnlyDictionary_2_ValueCollection<TKey, TValue>;
+    containsKey(key: TKey): boolean;
+    getEnumerator(): IEnumerator_1<KeyValuePair_2<TKey, TValue>>;
+    tryGetValue(key: TKey, value: { value: ref<TValue> }): boolean;
     static readonly Empty: unknown;
 }
 
@@ -198,10 +198,10 @@ export type ReadOnlyDictionary_2<TKey, TValue> = ReadOnlyDictionary_2$instance<T
 
 
 export class ReadOnlyDictionary_2_KeyCollection$instance<TKey, TValue> {
-    readonly Count: int;
-    Contains(item: TKey): boolean;
-    CopyTo(array: TKey[], arrayIndex: int): void;
-    GetEnumerator(): IEnumerator_1<TKey>;
+    readonly count: int;
+    contains(item: TKey): boolean;
+    copyTo(array: TKey[], arrayIndex: int): void;
+    getEnumerator(): IEnumerator_1<TKey>;
 }
 
 
@@ -217,9 +217,9 @@ export type ReadOnlyDictionary_2_KeyCollection<TKey, TValue> = ReadOnlyDictionar
 
 
 export class ReadOnlyDictionary_2_ValueCollection$instance<TKey, TValue> {
-    readonly Count: int;
-    CopyTo(array: TValue[], arrayIndex: int): void;
-    GetEnumerator(): IEnumerator_1<TValue>;
+    readonly count: int;
+    copyTo(array: TValue[], arrayIndex: int): void;
+    getEnumerator(): IEnumerator_1<TValue>;
 }
 
 
@@ -236,21 +236,21 @@ export type ReadOnlyDictionary_2_ValueCollection<TKey, TValue> = ReadOnlyDiction
 
 export class ReadOnlyObservableCollection_1$instance<T> extends ReadOnlyCollection_1$instance<T> {
     constructor(list: ObservableCollection_1<T>);
-    Add(item: T): void;
-    Add(value: any): int;
-    Clear(): void;
-    Contains(value: T): boolean;
-    Contains(value: any): boolean;
-    CopyTo(array: T[], index: int): void;
-    CopyTo(array: ClrArray, index: int): void;
-    GetEnumerator(): IEnumerator_1<T>;
-    GetEnumerator(): IEnumerator;
-    IndexOf(value: T): int;
-    Insert(index: int, item: T): void;
-    Insert(index: int, value: any): void;
-    Remove(item: T): boolean;
-    Remove(value: any): void;
-    RemoveAt(index: int): void;
+    add(item: T): void;
+    add(value: any): int;
+    clear(): void;
+    contains(value: T): boolean;
+    contains(value: any): boolean;
+    copyTo(array: T[], index: int): void;
+    copyTo(array: ClrArray, index: int): void;
+    getEnumerator(): IEnumerator_1<T>;
+    getEnumerator(): IEnumerator;
+    indexOf(value: T): int;
+    insert(index: int, item: T): void;
+    insert(index: int, value: any): void;
+    remove(item: T): boolean;
+    remove(value: any): void;
+    removeAt(index: int): void;
 }
 
 
@@ -269,15 +269,15 @@ export type ReadOnlyObservableCollection_1<T> = ReadOnlyObservableCollection_1$i
 
 export class ReadOnlySet_1$instance<T> {
     constructor(set_: ISet_1<T>);
-    readonly Count: int;
-    Contains(item: T): boolean;
-    GetEnumerator(): IEnumerator_1<T>;
-    IsProperSubsetOf(other: IEnumerable_1<T>): boolean;
-    IsProperSupersetOf(other: IEnumerable_1<T>): boolean;
-    IsSubsetOf(other: IEnumerable_1<T>): boolean;
-    IsSupersetOf(other: IEnumerable_1<T>): boolean;
-    Overlaps(other: IEnumerable_1<T>): boolean;
-    SetEquals(other: IEnumerable_1<T>): boolean;
+    readonly count: int;
+    contains(item: T): boolean;
+    getEnumerator(): IEnumerator_1<T>;
+    isProperSubsetOf(other: IEnumerable_1<T>): boolean;
+    isProperSupersetOf(other: IEnumerable_1<T>): boolean;
+    isSubsetOf(other: IEnumerable_1<T>): boolean;
+    isSupersetOf(other: IEnumerable_1<T>): boolean;
+    overlaps(other: IEnumerable_1<T>): boolean;
+    setEquals(other: IEnumerable_1<T>): boolean;
     static readonly Empty: unknown;
 }
 
