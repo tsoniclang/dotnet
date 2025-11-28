@@ -14,21 +14,21 @@ import type { Array as ClrArray, AsyncCallback, Boolean as ClrBoolean, Delegate,
 export * from './internal/index.js';
 
 // Individual type exports for convenience
-export type CollectionsUtil = Internal.CollectionsUtil;
-export type BitVector32 = Internal.BitVector32;
-export type BitVector32_Section = Internal.BitVector32_Section;
-export type HybridDictionary = Internal.HybridDictionary;
+export { CollectionsUtil$instance as CollectionsUtil } from './internal/index.js';
+export { BitVector32$instance as BitVector32 } from './internal/index.js';
+export { BitVector32_Section$instance as BitVector32_Section } from './internal/index.js';
+export { HybridDictionary$instance as HybridDictionary } from './internal/index.js';
 export type IOrderedDictionary = Internal.IOrderedDictionary;
-export type ListDictionary = Internal.ListDictionary;
-export type ListDictionary_DictionaryNode = Internal.ListDictionary_DictionaryNode;
-export type NameObjectCollectionBase = Internal.NameObjectCollectionBase;
-export type NameObjectCollectionBase_KeysCollection = Internal.NameObjectCollectionBase_KeysCollection;
-export type NameValueCollection = Internal.NameValueCollection;
-export type OrderedDictionary = Internal.OrderedDictionary;
-export type StringCollection = Internal.StringCollection;
-export type StringEnumerator = Internal.StringEnumerator;
-export type StringDictionary = Internal.StringDictionary;
+export { ListDictionary$instance as ListDictionary } from './internal/index.js';
+export { ListDictionary_DictionaryNode$instance as ListDictionary_DictionaryNode } from './internal/index.js';
+export { NameObjectCollectionBase$instance as NameObjectCollectionBase } from './internal/index.js';
+export { NameObjectCollectionBase_KeysCollection$instance as NameObjectCollectionBase_KeysCollection } from './internal/index.js';
+export { NameValueCollection$instance as NameValueCollection } from './internal/index.js';
+export { OrderedDictionary$instance as OrderedDictionary } from './internal/index.js';
+export { StringCollection$instance as StringCollection } from './internal/index.js';
+export { StringEnumerator$instance as StringEnumerator } from './internal/index.js';
+export { StringDictionary$instance as StringDictionary } from './internal/index.js';
 export type INotifyCollectionChanged = Internal.INotifyCollectionChanged;
-export type NotifyCollectionChangedAction = Internal.NotifyCollectionChangedAction;
-export type NotifyCollectionChangedEventArgs = Internal.NotifyCollectionChangedEventArgs;
-export type NotifyCollectionChangedEventHandler = Internal.NotifyCollectionChangedEventHandler;
+export { NotifyCollectionChangedAction as NotifyCollectionChangedAction } from './internal/index.js';
+export { NotifyCollectionChangedEventArgs$instance as NotifyCollectionChangedEventArgs } from './internal/index.js';
+export { NotifyCollectionChangedEventHandler$instance as NotifyCollectionChangedEventHandler } from './internal/index.js';

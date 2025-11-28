@@ -13,11 +13,11 @@ import type { Boolean as ClrBoolean, Enum, IComparable, IConvertible, IDisposabl
 export * from './internal/index.js';
 
 // Individual type exports for convenience
-export type Registry = Internal.Registry;
-export type RegistryHive = Internal.RegistryHive;
-export type RegistryKey = Internal.RegistryKey;
-export type RegistryKeyPermissionCheck = Internal.RegistryKeyPermissionCheck;
-export type RegistryOptions = Internal.RegistryOptions;
-export type RegistryValueKind = Internal.RegistryValueKind;
-export type RegistryValueOptions = Internal.RegistryValueOptions;
-export type RegistryView = Internal.RegistryView;
+export { Registry$instance as Registry } from './internal/index.js';
+export { RegistryHive as RegistryHive } from './internal/index.js';
+export { RegistryKey$instance as RegistryKey } from './internal/index.js';
+export { RegistryKeyPermissionCheck as RegistryKeyPermissionCheck } from './internal/index.js';
+export { RegistryOptions as RegistryOptions } from './internal/index.js';
+export { RegistryValueKind as RegistryValueKind } from './internal/index.js';
+export { RegistryValueOptions as RegistryValueOptions } from './internal/index.js';
+export { RegistryView as RegistryView } from './internal/index.js';

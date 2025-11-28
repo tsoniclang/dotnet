@@ -14,7 +14,7 @@ import type { AsyncCallback, Boolean as ClrBoolean, DateTime, Delegate, Double, 
 export * from './internal/index.js';
 
 // Individual type exports for convenience
-export type ElapsedEventArgs = Internal.ElapsedEventArgs;
-export type ElapsedEventHandler = Internal.ElapsedEventHandler;
-export type Timer = Internal.Timer;
-export type TimersDescriptionAttribute = Internal.TimersDescriptionAttribute;
+export { ElapsedEventArgs$instance as ElapsedEventArgs } from './internal/index.js';
+export { ElapsedEventHandler$instance as ElapsedEventHandler } from './internal/index.js';
+export { Timer$instance as Timer } from './internal/index.js';
+export { TimersDescriptionAttribute$instance as TimersDescriptionAttribute } from './internal/index.js';

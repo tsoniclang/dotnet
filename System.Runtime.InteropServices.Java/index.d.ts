@@ -12,7 +12,7 @@ import type { Boolean as ClrBoolean, Int32, Object as ClrObject, ReadOnlySpan_1,
 export * from './internal/index.js';
 
 // Individual type exports for convenience
-export type ComponentCrossReference = Internal.ComponentCrossReference;
-export type JavaMarshal = Internal.JavaMarshal;
-export type MarkCrossReferencesArgs = Internal.MarkCrossReferencesArgs;
-export type StronglyConnectedComponent = Internal.StronglyConnectedComponent;
+export { ComponentCrossReference$instance as ComponentCrossReference } from './internal/index.js';
+export { JavaMarshal$instance as JavaMarshal } from './internal/index.js';
+export { MarkCrossReferencesArgs$instance as MarkCrossReferencesArgs } from './internal/index.js';
+export { StronglyConnectedComponent$instance as StronglyConnectedComponent } from './internal/index.js';

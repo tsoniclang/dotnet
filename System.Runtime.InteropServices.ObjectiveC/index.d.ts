@@ -14,7 +14,7 @@ import type { AsyncCallback, Attribute, Boolean as ClrBoolean, Delegate, Enum, E
 export * from './internal/index.js';
 
 // Individual type exports for convenience
-export type ObjectiveCMarshal = Internal.ObjectiveCMarshal;
-export type ObjectiveCMarshal_UnhandledExceptionPropagationHandler = Internal.ObjectiveCMarshal_UnhandledExceptionPropagationHandler;
-export type ObjectiveCMarshal_MessageSendFunction = Internal.ObjectiveCMarshal_MessageSendFunction;
-export type ObjectiveCTrackedTypeAttribute = Internal.ObjectiveCTrackedTypeAttribute;
+export { ObjectiveCMarshal$instance as ObjectiveCMarshal } from './internal/index.js';
+export { ObjectiveCMarshal_UnhandledExceptionPropagationHandler$instance as ObjectiveCMarshal_UnhandledExceptionPropagationHandler } from './internal/index.js';
+export { ObjectiveCMarshal_MessageSendFunction as ObjectiveCMarshal_MessageSendFunction } from './internal/index.js';
+export { ObjectiveCTrackedTypeAttribute$instance as ObjectiveCTrackedTypeAttribute } from './internal/index.js';

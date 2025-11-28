@@ -18,11 +18,11 @@ import type { Action_2, AsyncCallback, Boolean as ClrBoolean, Byte, Delegate, IA
 export * from './internal/index.js';
 
 // Individual type exports for convenience
-export type SseFormatter = Internal.SseFormatter;
-export type SseParser_1<T> = Internal.SseParser_1<T>;
-export type SseParser<T> = Internal.SseParser_1<T>;
-export type SseItem_1<T> = Internal.SseItem_1<T>;
-export type SseItem<T> = Internal.SseItem_1<T>;
-export type SseItemParser_1<T> = Internal.SseItemParser_1<T>;
-export type SseItemParser<T> = Internal.SseItemParser_1<T>;
-export type SseParser_0 = Internal.SseParser;
+export { SseFormatter$instance as SseFormatter } from './internal/index.js';
+export { SseParser_1$instance as SseParser_1 } from './internal/index.js';
+export { SseParser_1$instance as SseParser } from './internal/index.js';
+export { SseItem_1$instance as SseItem_1 } from './internal/index.js';
+export { SseItem_1$instance as SseItem } from './internal/index.js';
+export { SseItemParser_1$instance as SseItemParser_1 } from './internal/index.js';
+export { SseItemParser_1$instance as SseItemParser } from './internal/index.js';
+export { SseParser$instance as SseParser_0 } from './internal/index.js';

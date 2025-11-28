@@ -21,6 +21,6 @@ import type { Boolean as ClrBoolean, Byte, IDisposable, Int32, Int64, Object as 
 export * from './internal/index.js';
 
 // Individual type exports for convenience
-export type HttpClientJsonExtensions = Internal.HttpClientJsonExtensions;
-export type HttpContentJsonExtensions = Internal.HttpContentJsonExtensions;
-export type JsonContent = Internal.JsonContent;
+export { HttpClientJsonExtensions$instance as HttpClientJsonExtensions } from './internal/index.js';
+export { HttpContentJsonExtensions$instance as HttpContentJsonExtensions } from './internal/index.js';
+export { JsonContent$instance as JsonContent } from './internal/index.js';

@@ -18,9 +18,9 @@ import type { AsyncCallback, Boolean as ClrBoolean, Byte, DateTimeOffset, Enum, 
 export * from './internal/index.js';
 
 // Individual type exports for convenience
-export type IsolatedStorageException = Internal.IsolatedStorageException;
-export type IsolatedStorageFile = Internal.IsolatedStorageFile;
-export type IsolatedStorageFileStream = Internal.IsolatedStorageFileStream;
-export type IsolatedStorage = Internal.IsolatedStorage;
-export type IsolatedStorageScope = Internal.IsolatedStorageScope;
+export { IsolatedStorageException$instance as IsolatedStorageException } from './internal/index.js';
+export { IsolatedStorageFile$instance as IsolatedStorageFile } from './internal/index.js';
+export { IsolatedStorageFileStream$instance as IsolatedStorageFileStream } from './internal/index.js';
+export { IsolatedStorage$instance as IsolatedStorage } from './internal/index.js';
+export { IsolatedStorageScope as IsolatedStorageScope } from './internal/index.js';
 export type INormalizeForIsolatedStorage = Internal.INormalizeForIsolatedStorage;

@@ -14,8 +14,8 @@ import type { Boolean as ClrBoolean, Func_1, Func_2, Int32, Object as ClrObject,
 export * from './internal/index.js';
 
 // Individual type exports for convenience
-export type Claim = Internal.Claim;
-export type ClaimsIdentity = Internal.ClaimsIdentity;
-export type ClaimsPrincipal = Internal.ClaimsPrincipal;
-export type ClaimTypes = Internal.ClaimTypes;
-export type ClaimValueTypes = Internal.ClaimValueTypes;
+export { Claim$instance as Claim } from './internal/index.js';
+export { ClaimsIdentity$instance as ClaimsIdentity } from './internal/index.js';
+export { ClaimsPrincipal$instance as ClaimsPrincipal } from './internal/index.js';
+export { ClaimTypes$instance as ClaimTypes } from './internal/index.js';
+export { ClaimValueTypes$instance as ClaimValueTypes } from './internal/index.js';

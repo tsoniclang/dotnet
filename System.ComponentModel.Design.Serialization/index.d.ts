@@ -17,13 +17,13 @@ import type { AsyncCallback, Attribute, Boolean as ClrBoolean, Delegate, EventAr
 export * from './internal/index.js';
 
 // Individual type exports for convenience
-export type DesignerSerializerAttribute = Internal.DesignerSerializerAttribute;
-export type InstanceDescriptor = Internal.InstanceDescriptor;
-export type ComponentSerializationService = Internal.ComponentSerializationService;
-export type ContextStack = Internal.ContextStack;
-export type DefaultSerializationProviderAttribute = Internal.DefaultSerializationProviderAttribute;
-export type DesignerLoader = Internal.DesignerLoader;
-export type SerializationStore = Internal.SerializationStore;
+export { DesignerSerializerAttribute$instance as DesignerSerializerAttribute } from './internal/index.js';
+export { InstanceDescriptor$instance as InstanceDescriptor } from './internal/index.js';
+export { ComponentSerializationService$instance as ComponentSerializationService } from './internal/index.js';
+export { ContextStack$instance as ContextStack } from './internal/index.js';
+export { DefaultSerializationProviderAttribute$instance as DefaultSerializationProviderAttribute } from './internal/index.js';
+export { DesignerLoader$instance as DesignerLoader } from './internal/index.js';
+export { SerializationStore$instance as SerializationStore } from './internal/index.js';
 export type IDesignerLoaderHost = Internal.IDesignerLoaderHost;
 export type IDesignerLoaderHost2 = Internal.IDesignerLoaderHost2;
 export type IDesignerLoaderService = Internal.IDesignerLoaderService;
@@ -31,8 +31,8 @@ export type IDesignerSerializationManager = Internal.IDesignerSerializationManag
 export type IDesignerSerializationProvider = Internal.IDesignerSerializationProvider;
 export type IDesignerSerializationService = Internal.IDesignerSerializationService;
 export type INameCreationService = Internal.INameCreationService;
-export type MemberRelationshipService = Internal.MemberRelationshipService;
-export type MemberRelationship = Internal.MemberRelationship;
-export type ResolveNameEventHandler = Internal.ResolveNameEventHandler;
-export type ResolveNameEventArgs = Internal.ResolveNameEventArgs;
-export type RootDesignerSerializerAttribute = Internal.RootDesignerSerializerAttribute;
+export { MemberRelationshipService$instance as MemberRelationshipService } from './internal/index.js';
+export { MemberRelationship$instance as MemberRelationship } from './internal/index.js';
+export { ResolveNameEventHandler$instance as ResolveNameEventHandler } from './internal/index.js';
+export { ResolveNameEventArgs$instance as ResolveNameEventArgs } from './internal/index.js';
+export { RootDesignerSerializerAttribute$instance as RootDesignerSerializerAttribute } from './internal/index.js';

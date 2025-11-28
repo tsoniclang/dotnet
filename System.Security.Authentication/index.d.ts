@@ -14,9 +14,9 @@ import type { Boolean as ClrBoolean, Enum, Exception, IComparable, IConvertible,
 export * from './internal/index.js';
 
 // Individual type exports for convenience
-export type SslProtocols = Internal.SslProtocols;
-export type ExchangeAlgorithmType = Internal.ExchangeAlgorithmType;
-export type CipherAlgorithmType = Internal.CipherAlgorithmType;
-export type HashAlgorithmType = Internal.HashAlgorithmType;
-export type AuthenticationException = Internal.AuthenticationException;
-export type InvalidCredentialException = Internal.InvalidCredentialException;
+export { SslProtocols as SslProtocols } from './internal/index.js';
+export { ExchangeAlgorithmType as ExchangeAlgorithmType } from './internal/index.js';
+export { CipherAlgorithmType as CipherAlgorithmType } from './internal/index.js';
+export { HashAlgorithmType as HashAlgorithmType } from './internal/index.js';
+export { AuthenticationException$instance as AuthenticationException } from './internal/index.js';
+export { InvalidCredentialException$instance as InvalidCredentialException } from './internal/index.js';

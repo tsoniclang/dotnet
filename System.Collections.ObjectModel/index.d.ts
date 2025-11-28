@@ -15,20 +15,20 @@ import type { Array as ClrArray, Boolean as ClrBoolean, Int32, Object as ClrObje
 export * from './internal/index.js';
 
 // Individual type exports for convenience
-export type KeyedCollection_2<TKey, TItem> = Internal.KeyedCollection_2<TKey, TItem>;
-export type KeyedCollection<TKey, TItem> = Internal.KeyedCollection_2<TKey, TItem>;
-export type ObservableCollection_1<T> = Internal.ObservableCollection_1<T>;
-export type ObservableCollection<T> = Internal.ObservableCollection_1<T>;
-export type ReadOnlyObservableCollection_1<T> = Internal.ReadOnlyObservableCollection_1<T>;
-export type ReadOnlyObservableCollection<T> = Internal.ReadOnlyObservableCollection_1<T>;
-export type Collection_1<T> = Internal.Collection_1<T>;
-export type Collection<T> = Internal.Collection_1<T>;
-export type ReadOnlyCollection_1<T> = Internal.ReadOnlyCollection_1<T>;
-export type ReadOnlyCollection<T> = Internal.ReadOnlyCollection_1<T>;
-export type ReadOnlyCollection_0 = Internal.ReadOnlyCollection;
-export type ReadOnlyDictionary_2<TKey, TValue> = Internal.ReadOnlyDictionary_2<TKey, TValue>;
-export type ReadOnlyDictionary<TKey, TValue> = Internal.ReadOnlyDictionary_2<TKey, TValue>;
-export type ReadOnlyDictionary_2_KeyCollection<TKey, TValue> = Internal.ReadOnlyDictionary_2_KeyCollection<TKey, TValue>;
-export type ReadOnlyDictionary_2_ValueCollection<TKey, TValue> = Internal.ReadOnlyDictionary_2_ValueCollection<TKey, TValue>;
-export type ReadOnlySet_1<T> = Internal.ReadOnlySet_1<T>;
-export type ReadOnlySet<T> = Internal.ReadOnlySet_1<T>;
+export { KeyedCollection_2$instance as KeyedCollection_2 } from './internal/index.js';
+export { KeyedCollection_2$instance as KeyedCollection } from './internal/index.js';
+export { ObservableCollection_1$instance as ObservableCollection_1 } from './internal/index.js';
+export { ObservableCollection_1$instance as ObservableCollection } from './internal/index.js';
+export { ReadOnlyObservableCollection_1$instance as ReadOnlyObservableCollection_1 } from './internal/index.js';
+export { ReadOnlyObservableCollection_1$instance as ReadOnlyObservableCollection } from './internal/index.js';
+export { Collection_1$instance as Collection_1 } from './internal/index.js';
+export { Collection_1$instance as Collection } from './internal/index.js';
+export { ReadOnlyCollection_1$instance as ReadOnlyCollection_1 } from './internal/index.js';
+export { ReadOnlyCollection_1$instance as ReadOnlyCollection } from './internal/index.js';
+export { ReadOnlyCollection$instance as ReadOnlyCollection_0 } from './internal/index.js';
+export { ReadOnlyDictionary_2$instance as ReadOnlyDictionary_2 } from './internal/index.js';
+export { ReadOnlyDictionary_2$instance as ReadOnlyDictionary } from './internal/index.js';
+export { ReadOnlyDictionary_2_KeyCollection$instance as ReadOnlyDictionary_2_KeyCollection } from './internal/index.js';
+export { ReadOnlyDictionary_2_ValueCollection$instance as ReadOnlyDictionary_2_ValueCollection } from './internal/index.js';
+export { ReadOnlySet_1$instance as ReadOnlySet_1 } from './internal/index.js';
+export { ReadOnlySet_1$instance as ReadOnlySet } from './internal/index.js';

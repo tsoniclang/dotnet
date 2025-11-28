@@ -11,4 +11,4 @@ import type { Boolean as ClrBoolean, Byte, Double, Half, Int128, Int16, Int32, I
 export * from './internal/index.js';
 
 // Individual type exports for convenience
-export type BinaryPrimitives = Internal.BinaryPrimitives;
+export { BinaryPrimitives$instance as BinaryPrimitives } from './internal/index.js';

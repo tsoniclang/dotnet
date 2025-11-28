@@ -12,5 +12,5 @@ import type { Array as ClrArray, Boolean as ClrBoolean, Int32, Object as ClrObje
 export * from './internal/index.js';
 
 // Individual type exports for convenience
-export type Evidence = Internal.Evidence;
-export type EvidenceBase = Internal.EvidenceBase;
+export { Evidence$instance as Evidence } from './internal/index.js';
+export { EvidenceBase$instance as EvidenceBase } from './internal/index.js';

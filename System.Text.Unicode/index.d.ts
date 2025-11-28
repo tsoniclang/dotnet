@@ -12,7 +12,7 @@ import type { Boolean as ClrBoolean, Byte, Char, IFormatProvider, Int32, Object 
 export * from './internal/index.js';
 
 // Individual type exports for convenience
-export type Utf8 = Internal.Utf8;
-export type Utf8_TryWriteInterpolatedStringHandler = Internal.Utf8_TryWriteInterpolatedStringHandler;
-export type UnicodeRange = Internal.UnicodeRange;
-export type UnicodeRanges = Internal.UnicodeRanges;
+export { Utf8$instance as Utf8 } from './internal/index.js';
+export { Utf8_TryWriteInterpolatedStringHandler$instance as Utf8_TryWriteInterpolatedStringHandler } from './internal/index.js';
+export { UnicodeRange$instance as UnicodeRange } from './internal/index.js';
+export { UnicodeRanges$instance as UnicodeRanges } from './internal/index.js';

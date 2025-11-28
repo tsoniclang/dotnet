@@ -15,13 +15,13 @@ import type { Action_2, Boolean as ClrBoolean, Byte, Char, DateTimeOffset, Enum,
 export * from './internal/index.js';
 
 // Individual type exports for convenience
-export type Asn1Tag = Internal.Asn1Tag;
-export type AsnContentException = Internal.AsnContentException;
-export type AsnEncodingRules = Internal.AsnEncodingRules;
-export type AsnDecoder = Internal.AsnDecoder;
-export type AsnReader = Internal.AsnReader;
-export type AsnReaderOptions = Internal.AsnReaderOptions;
-export type AsnWriter = Internal.AsnWriter;
-export type AsnWriter_Scope = Internal.AsnWriter_Scope;
-export type TagClass = Internal.TagClass;
-export type UniversalTagNumber = Internal.UniversalTagNumber;
+export { Asn1Tag$instance as Asn1Tag } from './internal/index.js';
+export { AsnContentException$instance as AsnContentException } from './internal/index.js';
+export { AsnEncodingRules as AsnEncodingRules } from './internal/index.js';
+export { AsnDecoder$instance as AsnDecoder } from './internal/index.js';
+export { AsnReader$instance as AsnReader } from './internal/index.js';
+export { AsnReaderOptions$instance as AsnReaderOptions } from './internal/index.js';
+export { AsnWriter$instance as AsnWriter } from './internal/index.js';
+export { AsnWriter_Scope$instance as AsnWriter_Scope } from './internal/index.js';
+export { TagClass as TagClass } from './internal/index.js';
+export { UniversalTagNumber as UniversalTagNumber } from './internal/index.js';

@@ -15,18 +15,18 @@ import type { Attribute, Boolean as ClrBoolean, Enum, EventArgs, EventHandler_1,
 export * from './internal/index.js';
 
 // Individual type exports for convenience
-export type ContractException = Internal.ContractException;
-export type ContractFailedEventArgs = Internal.ContractFailedEventArgs;
-export type PureAttribute = Internal.PureAttribute;
-export type ContractClassAttribute = Internal.ContractClassAttribute;
-export type ContractClassForAttribute = Internal.ContractClassForAttribute;
-export type ContractInvariantMethodAttribute = Internal.ContractInvariantMethodAttribute;
-export type ContractReferenceAssemblyAttribute = Internal.ContractReferenceAssemblyAttribute;
-export type ContractRuntimeIgnoredAttribute = Internal.ContractRuntimeIgnoredAttribute;
-export type ContractVerificationAttribute = Internal.ContractVerificationAttribute;
-export type ContractPublicPropertyNameAttribute = Internal.ContractPublicPropertyNameAttribute;
-export type ContractArgumentValidatorAttribute = Internal.ContractArgumentValidatorAttribute;
-export type ContractAbbreviatorAttribute = Internal.ContractAbbreviatorAttribute;
-export type ContractOptionAttribute = Internal.ContractOptionAttribute;
-export type Contract = Internal.Contract;
-export type ContractFailureKind = Internal.ContractFailureKind;
+export { ContractException$instance as ContractException } from './internal/index.js';
+export { ContractFailedEventArgs$instance as ContractFailedEventArgs } from './internal/index.js';
+export { PureAttribute$instance as PureAttribute } from './internal/index.js';
+export { ContractClassAttribute$instance as ContractClassAttribute } from './internal/index.js';
+export { ContractClassForAttribute$instance as ContractClassForAttribute } from './internal/index.js';
+export { ContractInvariantMethodAttribute$instance as ContractInvariantMethodAttribute } from './internal/index.js';
+export { ContractReferenceAssemblyAttribute$instance as ContractReferenceAssemblyAttribute } from './internal/index.js';
+export { ContractRuntimeIgnoredAttribute$instance as ContractRuntimeIgnoredAttribute } from './internal/index.js';
+export { ContractVerificationAttribute$instance as ContractVerificationAttribute } from './internal/index.js';
+export { ContractPublicPropertyNameAttribute$instance as ContractPublicPropertyNameAttribute } from './internal/index.js';
+export { ContractArgumentValidatorAttribute$instance as ContractArgumentValidatorAttribute } from './internal/index.js';
+export { ContractAbbreviatorAttribute$instance as ContractAbbreviatorAttribute } from './internal/index.js';
+export { ContractOptionAttribute$instance as ContractOptionAttribute } from './internal/index.js';
+export { Contract$instance as Contract } from './internal/index.js';
+export { ContractFailureKind as ContractFailureKind } from './internal/index.js';

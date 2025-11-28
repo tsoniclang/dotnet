@@ -12,4 +12,4 @@ import type { Action_1, Boolean as ClrBoolean, Exception, Int32, Object as ClrOb
 export * from './internal/index.js';
 
 // Individual type exports for convenience
-export type HttpMetricsEnrichmentContext = Internal.HttpMetricsEnrichmentContext;
+export { HttpMetricsEnrichmentContext$instance as HttpMetricsEnrichmentContext } from './internal/index.js';

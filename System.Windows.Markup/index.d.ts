@@ -11,4 +11,4 @@ import type { Attribute, Boolean as ClrBoolean, Int32, Object as ClrObject, Stri
 export * from './internal/index.js';
 
 // Individual type exports for convenience
-export type ValueSerializerAttribute = Internal.ValueSerializerAttribute;
+export { ValueSerializerAttribute$instance as ValueSerializerAttribute } from './internal/index.js';

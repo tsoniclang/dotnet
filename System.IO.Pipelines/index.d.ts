@@ -15,14 +15,14 @@ import type { Action_1, Action_2, Boolean as ClrBoolean, Byte, Exception, Int32,
 export * from './internal/index.js';
 
 // Individual type exports for convenience
-export type FlushResult = Internal.FlushResult;
+export { FlushResult$instance as FlushResult } from './internal/index.js';
 export type IDuplexPipe = Internal.IDuplexPipe;
-export type Pipe = Internal.Pipe;
-export type PipeOptions = Internal.PipeOptions;
-export type PipeReader = Internal.PipeReader;
-export type PipeScheduler = Internal.PipeScheduler;
-export type PipeWriter = Internal.PipeWriter;
-export type ReadResult = Internal.ReadResult;
-export type StreamPipeExtensions = Internal.StreamPipeExtensions;
-export type StreamPipeReaderOptions = Internal.StreamPipeReaderOptions;
-export type StreamPipeWriterOptions = Internal.StreamPipeWriterOptions;
+export { Pipe$instance as Pipe } from './internal/index.js';
+export { PipeOptions$instance as PipeOptions } from './internal/index.js';
+export { PipeReader$instance as PipeReader } from './internal/index.js';
+export { PipeScheduler$instance as PipeScheduler } from './internal/index.js';
+export { PipeWriter$instance as PipeWriter } from './internal/index.js';
+export { ReadResult$instance as ReadResult } from './internal/index.js';
+export { StreamPipeExtensions$instance as StreamPipeExtensions } from './internal/index.js';
+export { StreamPipeReaderOptions$instance as StreamPipeReaderOptions } from './internal/index.js';
+export { StreamPipeWriterOptions$instance as StreamPipeWriterOptions } from './internal/index.js';

@@ -11,4 +11,4 @@ import type { Boolean as ClrBoolean, Int32, MarshalByRefObject, Object as ClrObj
 export * from './internal/index.js';
 
 // Individual type exports for convenience
-export type ObjectHandle = Internal.ObjectHandle;
+export { ObjectHandle$instance as ObjectHandle } from './internal/index.js';

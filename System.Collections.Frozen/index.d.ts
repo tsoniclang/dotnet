@@ -14,13 +14,13 @@ import type { Array as ClrArray, Boolean as ClrBoolean, Func_2, IDisposable, Int
 export * from './internal/index.js';
 
 // Individual type exports for convenience
-export type FrozenDictionary_0 = Internal.FrozenDictionary;
-export type FrozenDictionary_2<TKey, TValue> = Internal.FrozenDictionary_2<TKey, TValue>;
-export type FrozenDictionary<TKey, TValue> = Internal.FrozenDictionary_2<TKey, TValue>;
-export type FrozenDictionary_2_Enumerator<TKey, TValue> = Internal.FrozenDictionary_2_Enumerator<TKey, TValue>;
-export type FrozenDictionary_2_AlternateLookup_1<TKey, TValue, TAlternateKey> = Internal.FrozenDictionary_2_AlternateLookup_1<TKey, TValue, TAlternateKey>;
-export type FrozenSet_0 = Internal.FrozenSet;
-export type FrozenSet_1<T> = Internal.FrozenSet_1<T>;
-export type FrozenSet<T> = Internal.FrozenSet_1<T>;
-export type FrozenSet_1_Enumerator<T> = Internal.FrozenSet_1_Enumerator<T>;
-export type FrozenSet_1_AlternateLookup_1<T, TAlternate> = Internal.FrozenSet_1_AlternateLookup_1<T, TAlternate>;
+export { FrozenDictionary$instance as FrozenDictionary_0 } from './internal/index.js';
+export { FrozenDictionary_2$instance as FrozenDictionary_2 } from './internal/index.js';
+export { FrozenDictionary_2$instance as FrozenDictionary } from './internal/index.js';
+export { FrozenDictionary_2_Enumerator$instance as FrozenDictionary_2_Enumerator } from './internal/index.js';
+export { FrozenDictionary_2_AlternateLookup_1$instance as FrozenDictionary_2_AlternateLookup_1 } from './internal/index.js';
+export { FrozenSet$instance as FrozenSet_0 } from './internal/index.js';
+export { FrozenSet_1$instance as FrozenSet_1 } from './internal/index.js';
+export { FrozenSet_1$instance as FrozenSet } from './internal/index.js';
+export { FrozenSet_1_Enumerator$instance as FrozenSet_1_Enumerator } from './internal/index.js';
+export { FrozenSet_1_AlternateLookup_1$instance as FrozenSet_1_AlternateLookup_1 } from './internal/index.js';

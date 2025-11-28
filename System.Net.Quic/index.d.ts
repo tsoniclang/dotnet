@@ -22,16 +22,16 @@ import type { Action_2, AsyncCallback, Boolean as ClrBoolean, Byte, Enum, Except
 export * from './internal/index.js';
 
 // Individual type exports for convenience
-export type QuicAbortDirection = Internal.QuicAbortDirection;
-export type QuicConnection = Internal.QuicConnection;
-export type QuicReceiveWindowSizes = Internal.QuicReceiveWindowSizes;
-export type QuicStreamCapacityChangedArgs = Internal.QuicStreamCapacityChangedArgs;
-export type QuicConnectionOptions = Internal.QuicConnectionOptions;
-export type QuicClientConnectionOptions = Internal.QuicClientConnectionOptions;
-export type QuicServerConnectionOptions = Internal.QuicServerConnectionOptions;
-export type QuicError = Internal.QuicError;
-export type QuicException = Internal.QuicException;
-export type QuicListener = Internal.QuicListener;
-export type QuicListenerOptions = Internal.QuicListenerOptions;
-export type QuicStream = Internal.QuicStream;
-export type QuicStreamType = Internal.QuicStreamType;
+export { QuicAbortDirection as QuicAbortDirection } from './internal/index.js';
+export { QuicConnection$instance as QuicConnection } from './internal/index.js';
+export { QuicReceiveWindowSizes$instance as QuicReceiveWindowSizes } from './internal/index.js';
+export { QuicStreamCapacityChangedArgs$instance as QuicStreamCapacityChangedArgs } from './internal/index.js';
+export { QuicConnectionOptions$instance as QuicConnectionOptions } from './internal/index.js';
+export { QuicClientConnectionOptions$instance as QuicClientConnectionOptions } from './internal/index.js';
+export { QuicServerConnectionOptions$instance as QuicServerConnectionOptions } from './internal/index.js';
+export { QuicError as QuicError } from './internal/index.js';
+export { QuicException$instance as QuicException } from './internal/index.js';
+export { QuicListener$instance as QuicListener } from './internal/index.js';
+export { QuicListenerOptions$instance as QuicListenerOptions } from './internal/index.js';
+export { QuicStream$instance as QuicStream } from './internal/index.js';
+export { QuicStreamType as QuicStreamType } from './internal/index.js';

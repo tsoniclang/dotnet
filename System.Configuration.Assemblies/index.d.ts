@@ -11,5 +11,5 @@ import type { Boolean as ClrBoolean, Enum, IComparable, IConvertible, IFormatPro
 export * from './internal/index.js';
 
 // Individual type exports for convenience
-export type AssemblyHashAlgorithm = Internal.AssemblyHashAlgorithm;
-export type AssemblyVersionCompatibility = Internal.AssemblyVersionCompatibility;
+export { AssemblyHashAlgorithm as AssemblyHashAlgorithm } from './internal/index.js';
+export { AssemblyVersionCompatibility as AssemblyVersionCompatibility } from './internal/index.js';

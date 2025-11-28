@@ -11,10 +11,10 @@ import type { Action_1, Boolean as ClrBoolean, Enum, Exception, IComparable, ICo
 export * from './internal/index.js';
 
 // Individual type exports for convenience
-export type ValueTaskSourceOnCompletedFlags = Internal.ValueTaskSourceOnCompletedFlags;
-export type ValueTaskSourceStatus = Internal.ValueTaskSourceStatus;
+export { ValueTaskSourceOnCompletedFlags as ValueTaskSourceOnCompletedFlags } from './internal/index.js';
+export { ValueTaskSourceStatus as ValueTaskSourceStatus } from './internal/index.js';
 export type IValueTaskSource_0 = Internal.IValueTaskSource;
 export type IValueTaskSource_1<TResult> = Internal.IValueTaskSource_1<TResult>;
 export type IValueTaskSource<TResult> = Internal.IValueTaskSource_1<TResult>;
-export type ManualResetValueTaskSourceCore_1<TResult> = Internal.ManualResetValueTaskSourceCore_1<TResult>;
-export type ManualResetValueTaskSourceCore<TResult> = Internal.ManualResetValueTaskSourceCore_1<TResult>;
+export { ManualResetValueTaskSourceCore_1$instance as ManualResetValueTaskSourceCore_1 } from './internal/index.js';
+export { ManualResetValueTaskSourceCore_1$instance as ManualResetValueTaskSourceCore } from './internal/index.js';

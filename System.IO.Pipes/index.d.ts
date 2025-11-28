@@ -19,19 +19,19 @@ import type { AsyncCallback, Boolean as ClrBoolean, Byte, Delegate, Enum, IAsync
 export * from './internal/index.js';
 
 // Individual type exports for convenience
-export type AnonymousPipeClientStream = Internal.AnonymousPipeClientStream;
-export type AnonymousPipeServerStream = Internal.AnonymousPipeServerStream;
-export type NamedPipeClientStream = Internal.NamedPipeClientStream;
-export type NamedPipeServerStream = Internal.NamedPipeServerStream;
-export type PipeStreamImpersonationWorker = Internal.PipeStreamImpersonationWorker;
-export type PipeAccessRights = Internal.PipeAccessRights;
-export type PipeDirection = Internal.PipeDirection;
-export type PipeOptions = Internal.PipeOptions;
-export type PipeStream = Internal.PipeStream;
-export type PipeTransmissionMode = Internal.PipeTransmissionMode;
-export type AnonymousPipeServerStreamAcl = Internal.AnonymousPipeServerStreamAcl;
-export type NamedPipeServerStreamAcl = Internal.NamedPipeServerStreamAcl;
-export type PipeAccessRule = Internal.PipeAccessRule;
-export type PipeAuditRule = Internal.PipeAuditRule;
-export type PipeSecurity = Internal.PipeSecurity;
-export type PipesAclExtensions = Internal.PipesAclExtensions;
+export { AnonymousPipeClientStream$instance as AnonymousPipeClientStream } from './internal/index.js';
+export { AnonymousPipeServerStream$instance as AnonymousPipeServerStream } from './internal/index.js';
+export { NamedPipeClientStream$instance as NamedPipeClientStream } from './internal/index.js';
+export { NamedPipeServerStream$instance as NamedPipeServerStream } from './internal/index.js';
+export { PipeStreamImpersonationWorker$instance as PipeStreamImpersonationWorker } from './internal/index.js';
+export { PipeAccessRights as PipeAccessRights } from './internal/index.js';
+export { PipeDirection as PipeDirection } from './internal/index.js';
+export { PipeOptions as PipeOptions } from './internal/index.js';
+export { PipeStream$instance as PipeStream } from './internal/index.js';
+export { PipeTransmissionMode as PipeTransmissionMode } from './internal/index.js';
+export { AnonymousPipeServerStreamAcl$instance as AnonymousPipeServerStreamAcl } from './internal/index.js';
+export { NamedPipeServerStreamAcl$instance as NamedPipeServerStreamAcl } from './internal/index.js';
+export { PipeAccessRule$instance as PipeAccessRule } from './internal/index.js';
+export { PipeAuditRule$instance as PipeAuditRule } from './internal/index.js';
+export { PipeSecurity$instance as PipeSecurity } from './internal/index.js';
+export { PipesAclExtensions$instance as PipesAclExtensions } from './internal/index.js';

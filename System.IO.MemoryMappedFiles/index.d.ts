@@ -15,9 +15,9 @@ import type { AsyncCallback, Boolean as ClrBoolean, Byte, Char, Decimal, Double,
 export * from './internal/index.js';
 
 // Individual type exports for convenience
-export type MemoryMappedFileOptions = Internal.MemoryMappedFileOptions;
-export type MemoryMappedFileAccess = Internal.MemoryMappedFileAccess;
-export type MemoryMappedFile = Internal.MemoryMappedFile;
-export type MemoryMappedViewAccessor = Internal.MemoryMappedViewAccessor;
-export type MemoryMappedViewStream = Internal.MemoryMappedViewStream;
-export type MemoryMappedFileRights = Internal.MemoryMappedFileRights;
+export { MemoryMappedFileOptions as MemoryMappedFileOptions } from './internal/index.js';
+export { MemoryMappedFileAccess as MemoryMappedFileAccess } from './internal/index.js';
+export { MemoryMappedFile$instance as MemoryMappedFile } from './internal/index.js';
+export { MemoryMappedViewAccessor$instance as MemoryMappedViewAccessor } from './internal/index.js';
+export { MemoryMappedViewStream$instance as MemoryMappedViewStream } from './internal/index.js';
+export { MemoryMappedFileRights as MemoryMappedFileRights } from './internal/index.js';

@@ -16,5 +16,5 @@ import type { Boolean as ClrBoolean, Byte, Enum, IComparable, IConvertible, IFor
 export * from './internal/index.js';
 
 // Individual type exports for convenience
-export type XmlKnownDtds = Internal.XmlKnownDtds;
-export type XmlPreloadedResolver = Internal.XmlPreloadedResolver;
+export { XmlKnownDtds as XmlKnownDtds } from './internal/index.js';
+export { XmlPreloadedResolver$instance as XmlPreloadedResolver } from './internal/index.js';

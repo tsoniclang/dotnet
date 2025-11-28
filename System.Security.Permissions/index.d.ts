@@ -12,9 +12,9 @@ import type { Attribute, Boolean as ClrBoolean, Enum, IComparable, IConvertible,
 export * from './internal/index.js';
 
 // Individual type exports for convenience
-export type CodeAccessSecurityAttribute = Internal.CodeAccessSecurityAttribute;
-export type PermissionState = Internal.PermissionState;
-export type SecurityAction = Internal.SecurityAction;
-export type SecurityAttribute = Internal.SecurityAttribute;
-export type SecurityPermissionAttribute = Internal.SecurityPermissionAttribute;
-export type SecurityPermissionFlag = Internal.SecurityPermissionFlag;
+export { CodeAccessSecurityAttribute$instance as CodeAccessSecurityAttribute } from './internal/index.js';
+export { PermissionState as PermissionState } from './internal/index.js';
+export { SecurityAction as SecurityAction } from './internal/index.js';
+export { SecurityAttribute$instance as SecurityAttribute } from './internal/index.js';
+export { SecurityPermissionAttribute$instance as SecurityPermissionAttribute } from './internal/index.js';
+export { SecurityPermissionFlag as SecurityPermissionFlag } from './internal/index.js';

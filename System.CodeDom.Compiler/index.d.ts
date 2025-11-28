@@ -15,5 +15,5 @@ import type { Attribute, Boolean as ClrBoolean, Char, Decimal, Double, IAsyncDis
 export * from './internal/index.js';
 
 // Individual type exports for convenience
-export type GeneratedCodeAttribute = Internal.GeneratedCodeAttribute;
-export type IndentedTextWriter = Internal.IndentedTextWriter;
+export { GeneratedCodeAttribute$instance as GeneratedCodeAttribute } from './internal/index.js';
+export { IndentedTextWriter$instance as IndentedTextWriter } from './internal/index.js';

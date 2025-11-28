@@ -11,11 +11,11 @@ import type { Attribute, Boolean as ClrBoolean, Enum, IComparable, IConvertible,
 export * from './internal/index.js';
 
 // Individual type exports for convenience
-export type ColumnAttribute = Internal.ColumnAttribute;
-export type ComplexTypeAttribute = Internal.ComplexTypeAttribute;
-export type DatabaseGeneratedAttribute = Internal.DatabaseGeneratedAttribute;
-export type DatabaseGeneratedOption = Internal.DatabaseGeneratedOption;
-export type ForeignKeyAttribute = Internal.ForeignKeyAttribute;
-export type InversePropertyAttribute = Internal.InversePropertyAttribute;
-export type NotMappedAttribute = Internal.NotMappedAttribute;
-export type TableAttribute = Internal.TableAttribute;
+export { ColumnAttribute$instance as ColumnAttribute } from './internal/index.js';
+export { ComplexTypeAttribute$instance as ComplexTypeAttribute } from './internal/index.js';
+export { DatabaseGeneratedAttribute$instance as DatabaseGeneratedAttribute } from './internal/index.js';
+export { DatabaseGeneratedOption as DatabaseGeneratedOption } from './internal/index.js';
+export { ForeignKeyAttribute$instance as ForeignKeyAttribute } from './internal/index.js';
+export { InversePropertyAttribute$instance as InversePropertyAttribute } from './internal/index.js';
+export { NotMappedAttribute$instance as NotMappedAttribute } from './internal/index.js';
+export { TableAttribute$instance as TableAttribute } from './internal/index.js';

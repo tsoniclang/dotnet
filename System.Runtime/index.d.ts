@@ -16,14 +16,14 @@ import type { Action, Attribute, Boolean as ClrBoolean, Enum, Exception, ICompar
 export * from './internal/index.js';
 
 // Individual type exports for convenience
-export type ControlledExecution = Internal.ControlledExecution;
-export type DependentHandle = Internal.DependentHandle;
-export type GCSettings = Internal.GCSettings;
-export type JitInfo = Internal.JitInfo;
-export type AmbiguousImplementationException = Internal.AmbiguousImplementationException;
-export type GCLargeObjectHeapCompactionMode = Internal.GCLargeObjectHeapCompactionMode;
-export type GCLatencyMode = Internal.GCLatencyMode;
-export type MemoryFailPoint = Internal.MemoryFailPoint;
-export type AssemblyTargetedPatchBandAttribute = Internal.AssemblyTargetedPatchBandAttribute;
-export type TargetedPatchingOptOutAttribute = Internal.TargetedPatchingOptOutAttribute;
-export type ProfileOptimization = Internal.ProfileOptimization;
+export { ControlledExecution$instance as ControlledExecution } from './internal/index.js';
+export { DependentHandle$instance as DependentHandle } from './internal/index.js';
+export { GCSettings$instance as GCSettings } from './internal/index.js';
+export { JitInfo$instance as JitInfo } from './internal/index.js';
+export { AmbiguousImplementationException$instance as AmbiguousImplementationException } from './internal/index.js';
+export { GCLargeObjectHeapCompactionMode as GCLargeObjectHeapCompactionMode } from './internal/index.js';
+export { GCLatencyMode as GCLatencyMode } from './internal/index.js';
+export { MemoryFailPoint$instance as MemoryFailPoint } from './internal/index.js';
+export { AssemblyTargetedPatchBandAttribute$instance as AssemblyTargetedPatchBandAttribute } from './internal/index.js';
+export { TargetedPatchingOptOutAttribute$instance as TargetedPatchingOptOutAttribute } from './internal/index.js';
+export { ProfileOptimization$instance as ProfileOptimization } from './internal/index.js';

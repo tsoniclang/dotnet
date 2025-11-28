@@ -25,19 +25,19 @@ import type { ArraySegment_1, AsyncCallback, Boolean as ClrBoolean, Byte, Enum, 
 export * from './internal/index.js';
 
 // Individual type exports for convenience
-export type HttpListenerWebSocketContext = Internal.HttpListenerWebSocketContext;
-export type ValueWebSocketReceiveResult = Internal.ValueWebSocketReceiveResult;
-export type WebSocket = Internal.WebSocket;
-export type WebSocketCloseStatus = Internal.WebSocketCloseStatus;
-export type WebSocketContext = Internal.WebSocketContext;
-export type WebSocketCreationOptions = Internal.WebSocketCreationOptions;
-export type WebSocketDeflateOptions = Internal.WebSocketDeflateOptions;
-export type WebSocketError = Internal.WebSocketError;
-export type WebSocketException = Internal.WebSocketException;
-export type WebSocketMessageType = Internal.WebSocketMessageType;
-export type WebSocketMessageFlags = Internal.WebSocketMessageFlags;
-export type WebSocketReceiveResult = Internal.WebSocketReceiveResult;
-export type WebSocketState = Internal.WebSocketState;
-export type WebSocketStream = Internal.WebSocketStream;
-export type ClientWebSocket = Internal.ClientWebSocket;
-export type ClientWebSocketOptions = Internal.ClientWebSocketOptions;
+export { HttpListenerWebSocketContext$instance as HttpListenerWebSocketContext } from './internal/index.js';
+export { ValueWebSocketReceiveResult$instance as ValueWebSocketReceiveResult } from './internal/index.js';
+export { WebSocket$instance as WebSocket } from './internal/index.js';
+export { WebSocketCloseStatus as WebSocketCloseStatus } from './internal/index.js';
+export { WebSocketContext$instance as WebSocketContext } from './internal/index.js';
+export { WebSocketCreationOptions$instance as WebSocketCreationOptions } from './internal/index.js';
+export { WebSocketDeflateOptions$instance as WebSocketDeflateOptions } from './internal/index.js';
+export { WebSocketError as WebSocketError } from './internal/index.js';
+export { WebSocketException$instance as WebSocketException } from './internal/index.js';
+export { WebSocketMessageType as WebSocketMessageType } from './internal/index.js';
+export { WebSocketMessageFlags as WebSocketMessageFlags } from './internal/index.js';
+export { WebSocketReceiveResult$instance as WebSocketReceiveResult } from './internal/index.js';
+export { WebSocketState as WebSocketState } from './internal/index.js';
+export { WebSocketStream$instance as WebSocketStream } from './internal/index.js';
+export { ClientWebSocket$instance as ClientWebSocket } from './internal/index.js';
+export { ClientWebSocketOptions$instance as ClientWebSocketOptions } from './internal/index.js';
