@@ -15,15 +15,15 @@ import type { Boolean as ClrBoolean, Byte, DateTimeOffset, Enum, IAsyncDisposabl
 export * from './internal/index.js';
 
 // Individual type exports for convenience
-export type PosixTarEntry = Internal.PosixTarEntry;
-export type V7TarEntry = Internal.V7TarEntry;
-export type TarEntry = Internal.TarEntry;
-export type TarEntryFormat = Internal.TarEntryFormat;
-export type UstarTarEntry = Internal.UstarTarEntry;
-export type GnuTarEntry = Internal.GnuTarEntry;
-export type PaxGlobalExtendedAttributesTarEntry = Internal.PaxGlobalExtendedAttributesTarEntry;
-export type PaxTarEntry = Internal.PaxTarEntry;
-export type TarEntryType = Internal.TarEntryType;
-export type TarFile = Internal.TarFile;
-export type TarReader = Internal.TarReader;
-export type TarWriter = Internal.TarWriter;
+export { PosixTarEntry$instance as PosixTarEntry } from './internal/index.js';
+export { V7TarEntry$instance as V7TarEntry } from './internal/index.js';
+export { TarEntry$instance as TarEntry } from './internal/index.js';
+export { TarEntryFormat as TarEntryFormat } from './internal/index.js';
+export { UstarTarEntry$instance as UstarTarEntry } from './internal/index.js';
+export { GnuTarEntry$instance as GnuTarEntry } from './internal/index.js';
+export { PaxGlobalExtendedAttributesTarEntry$instance as PaxGlobalExtendedAttributesTarEntry } from './internal/index.js';
+export { PaxTarEntry$instance as PaxTarEntry } from './internal/index.js';
+export { TarEntryType as TarEntryType } from './internal/index.js';
+export { TarFile$instance as TarFile } from './internal/index.js';
+export { TarReader$instance as TarReader } from './internal/index.js';
+export { TarWriter$instance as TarWriter } from './internal/index.js';

@@ -14,6 +14,6 @@ import type { Boolean as ClrBoolean, Func_3, Int32, Object as ClrObject, ReadOnl
 export * from './internal/index.js';
 
 // Individual type exports for convenience
-export type JsonSchemaExporter = Internal.JsonSchemaExporter;
-export type JsonSchemaExporterOptions = Internal.JsonSchemaExporterOptions;
-export type JsonSchemaExporterContext = Internal.JsonSchemaExporterContext;
+export { JsonSchemaExporter$instance as JsonSchemaExporter } from './internal/index.js';
+export { JsonSchemaExporterOptions$instance as JsonSchemaExporterOptions } from './internal/index.js';
+export { JsonSchemaExporterContext$instance as JsonSchemaExporterContext } from './internal/index.js';

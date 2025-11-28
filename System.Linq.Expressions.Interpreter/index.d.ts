@@ -11,4 +11,4 @@ import type { Boolean as ClrBoolean, Int32, Object as ClrObject, String as ClrSt
 export * from './internal/index.js';
 
 // Individual type exports for convenience
-export type LightLambda = Internal.LightLambda;
+export { LightLambda$instance as LightLambda } from './internal/index.js';

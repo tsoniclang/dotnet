@@ -17,18 +17,18 @@ import type { Action_1, Boolean as ClrBoolean, Enum, Exception, IComparable, ICo
 export * from './internal/index.js';
 
 // Individual type exports for convenience
-export type BoundedChannelFullMode = Internal.BoundedChannelFullMode;
-export type Channel_0 = Internal.Channel;
-export type ChannelClosedException = Internal.ChannelClosedException;
-export type ChannelOptions = Internal.ChannelOptions;
-export type BoundedChannelOptions = Internal.BoundedChannelOptions;
-export type UnboundedChannelOptions = Internal.UnboundedChannelOptions;
-export type ChannelReader_1<T> = Internal.ChannelReader_1<T>;
-export type ChannelReader<T> = Internal.ChannelReader_1<T>;
-export type ChannelWriter_1<T> = Internal.ChannelWriter_1<T>;
-export type ChannelWriter<T> = Internal.ChannelWriter_1<T>;
-export type Channel_1<T> = Internal.Channel_1<T>;
-export type Channel<T> = Internal.Channel_1<T>;
-export type Channel_2<TWrite, TRead> = Internal.Channel_2<TWrite, TRead>;
-export type UnboundedPrioritizedChannelOptions_1<T> = Internal.UnboundedPrioritizedChannelOptions_1<T>;
-export type UnboundedPrioritizedChannelOptions<T> = Internal.UnboundedPrioritizedChannelOptions_1<T>;
+export { BoundedChannelFullMode as BoundedChannelFullMode } from './internal/index.js';
+export { Channel$instance as Channel_0 } from './internal/index.js';
+export { ChannelClosedException$instance as ChannelClosedException } from './internal/index.js';
+export { ChannelOptions$instance as ChannelOptions } from './internal/index.js';
+export { BoundedChannelOptions$instance as BoundedChannelOptions } from './internal/index.js';
+export { UnboundedChannelOptions$instance as UnboundedChannelOptions } from './internal/index.js';
+export { ChannelReader_1$instance as ChannelReader_1 } from './internal/index.js';
+export { ChannelReader_1$instance as ChannelReader } from './internal/index.js';
+export { ChannelWriter_1$instance as ChannelWriter_1 } from './internal/index.js';
+export { ChannelWriter_1$instance as ChannelWriter } from './internal/index.js';
+export { Channel_1$instance as Channel_1 } from './internal/index.js';
+export { Channel_1$instance as Channel } from './internal/index.js';
+export { Channel_2$instance as Channel_2 } from './internal/index.js';
+export { UnboundedPrioritizedChannelOptions_1$instance as UnboundedPrioritizedChannelOptions_1 } from './internal/index.js';
+export { UnboundedPrioritizedChannelOptions_1$instance as UnboundedPrioritizedChannelOptions } from './internal/index.js';

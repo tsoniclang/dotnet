@@ -11,7 +11,7 @@ import type { Boolean as ClrBoolean, Enum, IComparable, IConvertible, IFormatPro
 export * from './internal/index.js';
 
 // Individual type exports for convenience
-export type FormatterTypeStyle = Internal.FormatterTypeStyle;
-export type FormatterAssemblyStyle = Internal.FormatterAssemblyStyle;
-export type TypeFilterLevel = Internal.TypeFilterLevel;
+export { FormatterTypeStyle as FormatterTypeStyle } from './internal/index.js';
+export { FormatterAssemblyStyle as FormatterAssemblyStyle } from './internal/index.js';
+export { TypeFilterLevel as TypeFilterLevel } from './internal/index.js';
 export type IFieldInfo = Internal.IFieldInfo;

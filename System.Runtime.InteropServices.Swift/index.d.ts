@@ -11,8 +11,8 @@ import type { Boolean as ClrBoolean, Int32, Object as ClrObject, String as ClrSt
 export * from './internal/index.js';
 
 // Individual type exports for convenience
-export type SwiftSelf_0 = Internal.SwiftSelf;
-export type SwiftSelf_1<T> = Internal.SwiftSelf_1<T>;
-export type SwiftSelf<T> = Internal.SwiftSelf_1<T>;
-export type SwiftError = Internal.SwiftError;
-export type SwiftIndirectResult = Internal.SwiftIndirectResult;
+export { SwiftSelf$instance as SwiftSelf_0 } from './internal/index.js';
+export { SwiftSelf_1$instance as SwiftSelf_1 } from './internal/index.js';
+export { SwiftSelf_1$instance as SwiftSelf } from './internal/index.js';
+export { SwiftError$instance as SwiftError } from './internal/index.js';
+export { SwiftIndirectResult$instance as SwiftIndirectResult } from './internal/index.js';

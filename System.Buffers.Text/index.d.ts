@@ -12,7 +12,7 @@ import type { Boolean as ClrBoolean, Byte, Char, DateTime, DateTimeOffset, Decim
 export * from './internal/index.js';
 
 // Individual type exports for convenience
-export type Base64 = Internal.Base64;
-export type Base64Url = Internal.Base64Url;
-export type Utf8Formatter = Internal.Utf8Formatter;
-export type Utf8Parser = Internal.Utf8Parser;
+export { Base64$instance as Base64 } from './internal/index.js';
+export { Base64Url$instance as Base64Url } from './internal/index.js';
+export { Utf8Formatter$instance as Utf8Formatter } from './internal/index.js';
+export { Utf8Parser$instance as Utf8Parser } from './internal/index.js';

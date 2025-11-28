@@ -11,8 +11,8 @@ import type { Boolean as ClrBoolean, DateTime, Enum, IComparable, IConvertible, 
 export * from './internal/index.js';
 
 // Individual type exports for convenience
-export type RequestCacheLevel = Internal.RequestCacheLevel;
-export type RequestCachePolicy = Internal.RequestCachePolicy;
-export type HttpCacheAgeControl = Internal.HttpCacheAgeControl;
-export type HttpRequestCacheLevel = Internal.HttpRequestCacheLevel;
-export type HttpRequestCachePolicy = Internal.HttpRequestCachePolicy;
+export { RequestCacheLevel as RequestCacheLevel } from './internal/index.js';
+export { RequestCachePolicy$instance as RequestCachePolicy } from './internal/index.js';
+export { HttpCacheAgeControl as HttpCacheAgeControl } from './internal/index.js';
+export { HttpRequestCacheLevel as HttpRequestCacheLevel } from './internal/index.js';
+export { HttpRequestCachePolicy$instance as HttpRequestCachePolicy } from './internal/index.js';

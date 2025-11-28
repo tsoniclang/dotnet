@@ -17,9 +17,9 @@ import type { Boolean as ClrBoolean, Byte, Int32, Object as ClrObject, String as
 export * from './internal/index.js';
 
 // Individual type exports for convenience
-export type DataContractJsonSerializer = Internal.DataContractJsonSerializer;
-export type DataContractJsonSerializerExtensions = Internal.DataContractJsonSerializerExtensions;
-export type DataContractJsonSerializerSettings = Internal.DataContractJsonSerializerSettings;
+export { DataContractJsonSerializer$instance as DataContractJsonSerializer } from './internal/index.js';
+export { DataContractJsonSerializerExtensions$instance as DataContractJsonSerializerExtensions } from './internal/index.js';
+export { DataContractJsonSerializerSettings$instance as DataContractJsonSerializerSettings } from './internal/index.js';
 export type IXmlJsonReaderInitializer = Internal.IXmlJsonReaderInitializer;
 export type IXmlJsonWriterInitializer = Internal.IXmlJsonWriterInitializer;
-export type JsonReaderWriterFactory = Internal.JsonReaderWriterFactory;
+export { JsonReaderWriterFactory$instance as JsonReaderWriterFactory } from './internal/index.js';

@@ -17,13 +17,13 @@ export * from './internal/index.js';
 
 // Individual type exports for convenience
 export type IResourceReader = Internal.IResourceReader;
-export type MissingManifestResourceException = Internal.MissingManifestResourceException;
-export type MissingSatelliteAssemblyException = Internal.MissingSatelliteAssemblyException;
-export type NeutralResourcesLanguageAttribute = Internal.NeutralResourcesLanguageAttribute;
-export type ResourceManager = Internal.ResourceManager;
-export type ResourceReader = Internal.ResourceReader;
-export type ResourceSet = Internal.ResourceSet;
-export type SatelliteContractVersionAttribute = Internal.SatelliteContractVersionAttribute;
-export type UltimateResourceFallbackLocation = Internal.UltimateResourceFallbackLocation;
+export { MissingManifestResourceException$instance as MissingManifestResourceException } from './internal/index.js';
+export { MissingSatelliteAssemblyException$instance as MissingSatelliteAssemblyException } from './internal/index.js';
+export { NeutralResourcesLanguageAttribute$instance as NeutralResourcesLanguageAttribute } from './internal/index.js';
+export { ResourceManager$instance as ResourceManager } from './internal/index.js';
+export { ResourceReader$instance as ResourceReader } from './internal/index.js';
+export { ResourceSet$instance as ResourceSet } from './internal/index.js';
+export { SatelliteContractVersionAttribute$instance as SatelliteContractVersionAttribute } from './internal/index.js';
+export { UltimateResourceFallbackLocation as UltimateResourceFallbackLocation } from './internal/index.js';
 export type IResourceWriter = Internal.IResourceWriter;
-export type ResourceWriter = Internal.ResourceWriter;
+export { ResourceWriter$instance as ResourceWriter } from './internal/index.js';

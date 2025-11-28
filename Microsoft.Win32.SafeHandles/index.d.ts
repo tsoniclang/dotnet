@@ -12,20 +12,20 @@ import type { Boolean as ClrBoolean, Byte, IDisposable, Int32, IntPtr, Object as
 export * from './internal/index.js';
 
 // Individual type exports for convenience
-export type SafeRegistryHandle = Internal.SafeRegistryHandle;
-export type SafeProcessHandle = Internal.SafeProcessHandle;
-export type SafeMemoryMappedFileHandle = Internal.SafeMemoryMappedFileHandle;
-export type SafeMemoryMappedViewHandle = Internal.SafeMemoryMappedViewHandle;
-export type SafePipeHandle = Internal.SafePipeHandle;
-export type CriticalHandleMinusOneIsInvalid = Internal.CriticalHandleMinusOneIsInvalid;
-export type CriticalHandleZeroOrMinusOneIsInvalid = Internal.CriticalHandleZeroOrMinusOneIsInvalid;
-export type SafeHandleMinusOneIsInvalid = Internal.SafeHandleMinusOneIsInvalid;
-export type SafeHandleZeroOrMinusOneIsInvalid = Internal.SafeHandleZeroOrMinusOneIsInvalid;
-export type SafeFileHandle = Internal.SafeFileHandle;
-export type SafeWaitHandle = Internal.SafeWaitHandle;
-export type SafeX509ChainHandle = Internal.SafeX509ChainHandle;
-export type SafeNCryptHandle = Internal.SafeNCryptHandle;
-export type SafeNCryptKeyHandle = Internal.SafeNCryptKeyHandle;
-export type SafeNCryptProviderHandle = Internal.SafeNCryptProviderHandle;
-export type SafeNCryptSecretHandle = Internal.SafeNCryptSecretHandle;
-export type SafeAccessTokenHandle = Internal.SafeAccessTokenHandle;
+export { SafeRegistryHandle$instance as SafeRegistryHandle } from './internal/index.js';
+export { SafeProcessHandle$instance as SafeProcessHandle } from './internal/index.js';
+export { SafeMemoryMappedFileHandle$instance as SafeMemoryMappedFileHandle } from './internal/index.js';
+export { SafeMemoryMappedViewHandle$instance as SafeMemoryMappedViewHandle } from './internal/index.js';
+export { SafePipeHandle$instance as SafePipeHandle } from './internal/index.js';
+export { CriticalHandleMinusOneIsInvalid$instance as CriticalHandleMinusOneIsInvalid } from './internal/index.js';
+export { CriticalHandleZeroOrMinusOneIsInvalid$instance as CriticalHandleZeroOrMinusOneIsInvalid } from './internal/index.js';
+export { SafeHandleMinusOneIsInvalid$instance as SafeHandleMinusOneIsInvalid } from './internal/index.js';
+export { SafeHandleZeroOrMinusOneIsInvalid$instance as SafeHandleZeroOrMinusOneIsInvalid } from './internal/index.js';
+export { SafeFileHandle$instance as SafeFileHandle } from './internal/index.js';
+export { SafeWaitHandle$instance as SafeWaitHandle } from './internal/index.js';
+export { SafeX509ChainHandle$instance as SafeX509ChainHandle } from './internal/index.js';
+export { SafeNCryptHandle$instance as SafeNCryptHandle } from './internal/index.js';
+export { SafeNCryptKeyHandle$instance as SafeNCryptKeyHandle } from './internal/index.js';
+export { SafeNCryptProviderHandle$instance as SafeNCryptProviderHandle } from './internal/index.js';
+export { SafeNCryptSecretHandle$instance as SafeNCryptSecretHandle } from './internal/index.js';
+export { SafeAccessTokenHandle$instance as SafeAccessTokenHandle } from './internal/index.js';

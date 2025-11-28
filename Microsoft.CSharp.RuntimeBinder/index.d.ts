@@ -17,9 +17,9 @@ import type { Boolean as ClrBoolean, Enum, Exception, IComparable, IConvertible,
 export * from './internal/index.js';
 
 // Individual type exports for convenience
-export type Binder = Internal.Binder;
-export type CSharpArgumentInfo = Internal.CSharpArgumentInfo;
-export type CSharpArgumentInfoFlags = Internal.CSharpArgumentInfoFlags;
-export type CSharpBinderFlags = Internal.CSharpBinderFlags;
-export type RuntimeBinderException = Internal.RuntimeBinderException;
-export type RuntimeBinderInternalCompilerException = Internal.RuntimeBinderInternalCompilerException;
+export { Binder$instance as Binder } from './internal/index.js';
+export { CSharpArgumentInfo$instance as CSharpArgumentInfo } from './internal/index.js';
+export { CSharpArgumentInfoFlags as CSharpArgumentInfoFlags } from './internal/index.js';
+export { CSharpBinderFlags as CSharpBinderFlags } from './internal/index.js';
+export { RuntimeBinderException$instance as RuntimeBinderException } from './internal/index.js';
+export { RuntimeBinderInternalCompilerException$instance as RuntimeBinderInternalCompilerException } from './internal/index.js';

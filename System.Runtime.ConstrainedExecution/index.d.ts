@@ -11,8 +11,8 @@ import type { Attribute, Boolean as ClrBoolean, Enum, IComparable, IConvertible,
 export * from './internal/index.js';
 
 // Individual type exports for convenience
-export type Cer = Internal.Cer;
-export type Consistency = Internal.Consistency;
-export type CriticalFinalizerObject = Internal.CriticalFinalizerObject;
-export type PrePrepareMethodAttribute = Internal.PrePrepareMethodAttribute;
-export type ReliabilityContractAttribute = Internal.ReliabilityContractAttribute;
+export { Cer as Cer } from './internal/index.js';
+export { Consistency as Consistency } from './internal/index.js';
+export { CriticalFinalizerObject$instance as CriticalFinalizerObject } from './internal/index.js';
+export { PrePrepareMethodAttribute$instance as PrePrepareMethodAttribute } from './internal/index.js';
+export { ReliabilityContractAttribute$instance as ReliabilityContractAttribute } from './internal/index.js';

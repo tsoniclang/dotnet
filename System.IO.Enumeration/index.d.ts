@@ -17,11 +17,11 @@ import type { AsyncCallback, Boolean as ClrBoolean, Char, DateTimeOffset, Delega
 export * from './internal/index.js';
 
 // Individual type exports for convenience
-export type FileSystemEntry = Internal.FileSystemEntry;
-export type FileSystemEnumerator_1<TResult> = Internal.FileSystemEnumerator_1<TResult>;
-export type FileSystemEnumerator<TResult> = Internal.FileSystemEnumerator_1<TResult>;
-export type FileSystemEnumerable_1<TResult> = Internal.FileSystemEnumerable_1<TResult>;
-export type FileSystemEnumerable<TResult> = Internal.FileSystemEnumerable_1<TResult>;
-export type FileSystemEnumerable_1_FindPredicate<TResult> = Internal.FileSystemEnumerable_1_FindPredicate<TResult>;
-export type FileSystemEnumerable_1_FindTransform<TResult> = Internal.FileSystemEnumerable_1_FindTransform<TResult>;
-export type FileSystemName = Internal.FileSystemName;
+export { FileSystemEntry$instance as FileSystemEntry } from './internal/index.js';
+export { FileSystemEnumerator_1$instance as FileSystemEnumerator_1 } from './internal/index.js';
+export { FileSystemEnumerator_1$instance as FileSystemEnumerator } from './internal/index.js';
+export { FileSystemEnumerable_1$instance as FileSystemEnumerable_1 } from './internal/index.js';
+export { FileSystemEnumerable_1$instance as FileSystemEnumerable } from './internal/index.js';
+export { FileSystemEnumerable_1_FindPredicate$instance as FileSystemEnumerable_1_FindPredicate } from './internal/index.js';
+export { FileSystemEnumerable_1_FindTransform$instance as FileSystemEnumerable_1_FindTransform } from './internal/index.js';
+export { FileSystemName$instance as FileSystemName } from './internal/index.js';

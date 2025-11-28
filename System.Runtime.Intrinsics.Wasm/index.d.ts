@@ -12,4 +12,4 @@ import type { Boolean as ClrBoolean, Byte, Double, Int16, Int32, Int64, IntPtr, 
 export * from './internal/index.js';
 
 // Individual type exports for convenience
-export type PackedSimd = Internal.PackedSimd;
+export { PackedSimd$instance as PackedSimd } from './internal/index.js';

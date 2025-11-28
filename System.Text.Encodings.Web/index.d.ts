@@ -15,8 +15,8 @@ import type { Boolean as ClrBoolean, Byte, Char, Int32, Object as ClrObject, Rea
 export * from './internal/index.js';
 
 // Individual type exports for convenience
-export type HtmlEncoder = Internal.HtmlEncoder;
-export type JavaScriptEncoder = Internal.JavaScriptEncoder;
-export type TextEncoder = Internal.TextEncoder;
-export type TextEncoderSettings = Internal.TextEncoderSettings;
-export type UrlEncoder = Internal.UrlEncoder;
+export { HtmlEncoder$instance as HtmlEncoder } from './internal/index.js';
+export { JavaScriptEncoder$instance as JavaScriptEncoder } from './internal/index.js';
+export { TextEncoder$instance as TextEncoder } from './internal/index.js';
+export { TextEncoderSettings$instance as TextEncoderSettings } from './internal/index.js';
+export { UrlEncoder$instance as UrlEncoder } from './internal/index.js';

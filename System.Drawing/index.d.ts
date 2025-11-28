@@ -15,18 +15,18 @@ import type { Attribute, Boolean as ClrBoolean, Byte, Enum, IComparable, IConver
 export * from './internal/index.js';
 
 // Individual type exports for convenience
-export type ColorConverter = Internal.ColorConverter;
-export type PointConverter = Internal.PointConverter;
-export type RectangleConverter = Internal.RectangleConverter;
-export type SizeConverter = Internal.SizeConverter;
-export type SizeFConverter = Internal.SizeFConverter;
-export type Point = Internal.Point;
-export type PointF = Internal.PointF;
-export type Rectangle = Internal.Rectangle;
-export type RectangleF = Internal.RectangleF;
-export type Size = Internal.Size;
-export type SizeF = Internal.SizeF;
-export type Color = Internal.Color;
-export type ColorTranslator = Internal.ColorTranslator;
-export type KnownColor = Internal.KnownColor;
-export type SystemColors = Internal.SystemColors;
+export { ColorConverter$instance as ColorConverter } from './internal/index.js';
+export { PointConverter$instance as PointConverter } from './internal/index.js';
+export { RectangleConverter$instance as RectangleConverter } from './internal/index.js';
+export { SizeConverter$instance as SizeConverter } from './internal/index.js';
+export { SizeFConverter$instance as SizeFConverter } from './internal/index.js';
+export { Point$instance as Point } from './internal/index.js';
+export { PointF$instance as PointF } from './internal/index.js';
+export { Rectangle$instance as Rectangle } from './internal/index.js';
+export { RectangleF$instance as RectangleF } from './internal/index.js';
+export { Size$instance as Size } from './internal/index.js';
+export { SizeF$instance as SizeF } from './internal/index.js';
+export { Color$instance as Color } from './internal/index.js';
+export { ColorTranslator$instance as ColorTranslator } from './internal/index.js';
+export { KnownColor as KnownColor } from './internal/index.js';
+export { SystemColors$instance as SystemColors } from './internal/index.js';

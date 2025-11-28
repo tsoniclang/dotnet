@@ -12,15 +12,15 @@ import type { Boolean as ClrBoolean, Byte, Double, IEquatable_1, Int16, Int32, I
 export * from './internal/index.js';
 
 // Individual type exports for convenience
-export type Vector128_0 = Internal.Vector128;
-export type Vector128_1<T> = Internal.Vector128_1<T>;
-export type Vector128<T> = Internal.Vector128_1<T>;
-export type Vector256_0 = Internal.Vector256;
-export type Vector256_1<T> = Internal.Vector256_1<T>;
-export type Vector256<T> = Internal.Vector256_1<T>;
-export type Vector512_0 = Internal.Vector512;
-export type Vector512_1<T> = Internal.Vector512_1<T>;
-export type Vector512<T> = Internal.Vector512_1<T>;
-export type Vector64_0 = Internal.Vector64;
-export type Vector64_1<T> = Internal.Vector64_1<T>;
-export type Vector64<T> = Internal.Vector64_1<T>;
+export { Vector128$instance as Vector128_0 } from './internal/index.js';
+export { Vector128_1$instance as Vector128_1 } from './internal/index.js';
+export { Vector128_1$instance as Vector128 } from './internal/index.js';
+export { Vector256$instance as Vector256_0 } from './internal/index.js';
+export { Vector256_1$instance as Vector256_1 } from './internal/index.js';
+export { Vector256_1$instance as Vector256 } from './internal/index.js';
+export { Vector512$instance as Vector512_0 } from './internal/index.js';
+export { Vector512_1$instance as Vector512_1 } from './internal/index.js';
+export { Vector512_1$instance as Vector512 } from './internal/index.js';
+export { Vector64$instance as Vector64_0 } from './internal/index.js';
+export { Vector64_1$instance as Vector64_1 } from './internal/index.js';
+export { Vector64_1$instance as Vector64 } from './internal/index.js';

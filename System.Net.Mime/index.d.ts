@@ -12,13 +12,13 @@ import type { Boolean as ClrBoolean, DateTime, Enum, IComparable, IConvertible, 
 export * from './internal/index.js';
 
 // Individual type exports for convenience
-export type TransferEncoding = Internal.TransferEncoding;
-export type ContentDisposition = Internal.ContentDisposition;
-export type ContentType = Internal.ContentType;
-export type DispositionTypeNames = Internal.DispositionTypeNames;
-export type MediaTypeNames = Internal.MediaTypeNames;
-export type MediaTypeNames_Application = Internal.MediaTypeNames_Application;
-export type MediaTypeNames_Font = Internal.MediaTypeNames_Font;
-export type MediaTypeNames_Image = Internal.MediaTypeNames_Image;
-export type MediaTypeNames_Multipart = Internal.MediaTypeNames_Multipart;
-export type MediaTypeNames_Text = Internal.MediaTypeNames_Text;
+export { TransferEncoding as TransferEncoding } from './internal/index.js';
+export { ContentDisposition$instance as ContentDisposition } from './internal/index.js';
+export { ContentType$instance as ContentType } from './internal/index.js';
+export { DispositionTypeNames$instance as DispositionTypeNames } from './internal/index.js';
+export { MediaTypeNames$instance as MediaTypeNames } from './internal/index.js';
+export { MediaTypeNames_Application$instance as MediaTypeNames_Application } from './internal/index.js';
+export { MediaTypeNames_Font$instance as MediaTypeNames_Font } from './internal/index.js';
+export { MediaTypeNames_Image$instance as MediaTypeNames_Image } from './internal/index.js';
+export { MediaTypeNames_Multipart$instance as MediaTypeNames_Multipart } from './internal/index.js';
+export { MediaTypeNames_Text$instance as MediaTypeNames_Text } from './internal/index.js';
