@@ -1,13 +1,8 @@
 {
   "name": "@tsonic/dotnet",
-  "version": "0.5.0",
+  "version": "0.5.1",
   "description": "TypeScript type definitions for .NET 10 BCL (Base Class Library)",
   "type": "module",
-  "exports": {
-    "./*": {
-      "types": "./*/index.d.ts"
-    }
-  },
   "files": [
     "**/*.d.ts",
     "**/*.json",
