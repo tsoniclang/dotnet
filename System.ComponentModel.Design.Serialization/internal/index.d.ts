@@ -50,8 +50,8 @@ export interface IDesignerLoaderHost$instance {
     readonly TransactionDescription: string;
     AddService(serviceType: Type, callback: ServiceCreatorCallback, promote: boolean): void;
     AddService(serviceType: Type, callback: ServiceCreatorCallback): void;
-    AddService(serviceType: Type, serviceInstance: any, promote: boolean): void;
-    AddService(serviceType: Type, serviceInstance: any): void;
+    AddService(serviceType: Type, serviceInstance: unknown, promote: boolean): void;
+    AddService(serviceType: Type, serviceInstance: unknown): void;
     CreateComponent(componentClass: Type, name: string): IComponent;
     CreateComponent(componentClass: Type): IComponent;
     CreateTransaction(): DesignerTransaction;
@@ -59,7 +59,7 @@ export interface IDesignerLoaderHost$instance {
     DestroyComponent(component: IComponent): void;
     EndLoad(baseClassName: string, successful: boolean, errorCollection: ICollection): void;
     GetDesigner(component: IComponent): IDesigner;
-    GetService(serviceType: Type): any;
+    GetService(serviceType: Type): unknown;
     GetType(typeName: string): Type;
     Reload(): void;
     RemoveService(serviceType: Type, promote: boolean): void;
@@ -80,8 +80,8 @@ export interface IDesignerLoaderHost2$instance {
     readonly TransactionDescription: string;
     AddService(serviceType: Type, callback: ServiceCreatorCallback, promote: boolean): void;
     AddService(serviceType: Type, callback: ServiceCreatorCallback): void;
-    AddService(serviceType: Type, serviceInstance: any, promote: boolean): void;
-    AddService(serviceType: Type, serviceInstance: any): void;
+    AddService(serviceType: Type, serviceInstance: unknown, promote: boolean): void;
+    AddService(serviceType: Type, serviceInstance: unknown): void;
     CreateComponent(componentClass: Type, name: string): IComponent;
     CreateComponent(componentClass: Type): IComponent;
     CreateTransaction(): DesignerTransaction;
@@ -89,7 +89,7 @@ export interface IDesignerLoaderHost2$instance {
     DestroyComponent(component: IComponent): void;
     EndLoad(baseClassName: string, successful: boolean, errorCollection: ICollection): void;
     GetDesigner(component: IComponent): IDesigner;
-    GetService(serviceType: Type): any;
+    GetService(serviceType: Type): unknown;
     GetType(typeName: string): Type;
     Reload(): void;
     RemoveService(serviceType: Type, promote: boolean): void;
@@ -112,29 +112,29 @@ export interface IDesignerSerializationManager$instance {
     readonly Context: ContextStack;
     readonly Properties: PropertyDescriptorCollection;
     AddSerializationProvider(provider: IDesignerSerializationProvider): void;
-    CreateInstance(type_: Type, arguments: ICollection, name: string, addToContainer: boolean): any;
-    GetInstance(name: string): any;
-    GetName(value: any): string;
-    GetSerializer(objectType: Type, serializerType: Type): any;
-    GetService(serviceType: Type): any;
+    CreateInstance(type_: Type, arguments: ICollection, name: string, addToContainer: boolean): unknown;
+    GetInstance(name: string): unknown;
+    GetName(value: unknown): string;
+    GetSerializer(objectType: Type, serializerType: Type): unknown;
+    GetService(serviceType: Type): unknown;
     GetType(typeName: string): Type;
-    ReportError(errorInformation: any): void;
-    SetName(instance: any, name: string): void;
+    ReportError(errorInformation: unknown): void;
+    SetName(instance: unknown, name: string): void;
 }
 
 
 export type IDesignerSerializationManager = IDesignerSerializationManager$instance;
 
 export interface IDesignerSerializationProvider$instance {
-    GetSerializer(manager: IDesignerSerializationManager, currentSerializer: any, objectType: Type, serializerType: Type): any;
+    GetSerializer(manager: IDesignerSerializationManager, currentSerializer: unknown, objectType: Type, serializerType: Type): unknown;
 }
 
 
 export type IDesignerSerializationProvider = IDesignerSerializationProvider$instance;
 
 export interface IDesignerSerializationService$instance {
-    Deserialize(serializationData: any): ICollection;
-    Serialize(objects: ICollection): any;
+    Deserialize(serializationData: unknown): ICollection;
+    Serialize(objects: ICollection): unknown;
 }
 
 
@@ -150,19 +150,19 @@ export interface INameCreationService$instance {
 export type INameCreationService = INameCreationService$instance;
 
 export class MemberRelationship$instance {
-    constructor(owner: any, member: MemberDescriptor);
-    readonly isEmpty: boolean;
-    readonly member: MemberDescriptor;
-    readonly owner: any;
-    equals(obj: any): boolean;
-    equals(other: MemberRelationship): boolean;
-    getHashCode(): int;
-    static readonly empty: MemberRelationship;
+    constructor(owner: unknown, member: MemberDescriptor);
+    readonly IsEmpty: boolean;
+    readonly Member: MemberDescriptor;
+    readonly Owner: unknown;
+    Equals(obj: unknown): boolean;
+    Equals(other: MemberRelationship): boolean;
+    GetHashCode(): int;
+    static readonly Empty: MemberRelationship;
 }
 
 
 export interface __MemberRelationship$views {
-    readonly As_IEquatable_1_of_ConsoleKeyInfo: System_Internal.IEquatable_1$instance<MemberRelationship>;
+    As_IEquatable_1(): System_Internal.IEquatable_1$instance<MemberRelationship>;
 
     // Structural method bridges for numeric interface constraints
     Equals(other: MemberRelationship): boolean;
@@ -172,17 +172,17 @@ export type MemberRelationship = MemberRelationship$instance & __MemberRelations
 
 
 export abstract class ComponentSerializationService$instance {
-    abstract createStore(): SerializationStore;
-    abstract deserialize(store: SerializationStore): ICollection;
-    abstract deserialize(store: SerializationStore, container: IContainer): ICollection;
-    deserializeTo(store: SerializationStore, container: IContainer, validateRecycledTypes: boolean, applyDefaults: boolean): void;
-    deserializeTo(store: SerializationStore, container: IContainer): void;
-    deserializeTo(store: SerializationStore, container: IContainer, validateRecycledTypes: boolean): void;
-    abstract loadStore(stream: Stream): SerializationStore;
-    abstract serialize(store: SerializationStore, value: any): void;
-    abstract serializeAbsolute(store: SerializationStore, value: any): void;
-    abstract serializeMember(store: SerializationStore, owningObject: any, member: MemberDescriptor): void;
-    abstract serializeMemberAbsolute(store: SerializationStore, owningObject: any, member: MemberDescriptor): void;
+    abstract CreateStore(): SerializationStore;
+    abstract Deserialize(store: SerializationStore): ICollection;
+    abstract Deserialize(store: SerializationStore, container: IContainer): ICollection;
+    DeserializeTo(store: SerializationStore, container: IContainer, validateRecycledTypes: boolean, applyDefaults: boolean): void;
+    DeserializeTo(store: SerializationStore, container: IContainer): void;
+    DeserializeTo(store: SerializationStore, container: IContainer, validateRecycledTypes: boolean): void;
+    abstract LoadStore(stream: Stream): SerializationStore;
+    abstract Serialize(store: SerializationStore, value: unknown): void;
+    abstract SerializeAbsolute(store: SerializationStore, value: unknown): void;
+    abstract SerializeMember(store: SerializationStore, owningObject: unknown, member: MemberDescriptor): void;
+    abstract SerializeMemberAbsolute(store: SerializationStore, owningObject: unknown, member: MemberDescriptor): void;
 }
 
 
@@ -190,12 +190,12 @@ export type ComponentSerializationService = ComponentSerializationService$instan
 
 export class ContextStack$instance {
     constructor();
-    readonly current: any;
-    append(context: any): void;
-    get_Item(level: int): any;
-    get_Item(type_: Type): any;
-    pop(): any;
-    push(context: any): void;
+    readonly Current: unknown;
+    Append(context: unknown): void;
+    get_Item(level: int): unknown;
+    get_Item(type_: Type): unknown;
+    Pop(): unknown;
+    Push(context: unknown): void;
 }
 
 
@@ -204,17 +204,17 @@ export type ContextStack = ContextStack$instance;
 export class DefaultSerializationProviderAttribute$instance extends System_Internal.Attribute$instance {
     constructor(providerType: Type);
     constructor(providerTypeName: string);
-    readonly providerTypeName: string;
+    readonly ProviderTypeName: string;
 }
 
 
 export type DefaultSerializationProviderAttribute = DefaultSerializationProviderAttribute$instance;
 
 export abstract class DesignerLoader$instance {
-    readonly loading: boolean;
-    abstract beginLoad(host: IDesignerLoaderHost): void;
-    abstract dispose(): void;
-    flush(): void;
+    readonly Loading: boolean;
+    abstract BeginLoad(host: IDesignerLoaderHost): void;
+    abstract Dispose(): void;
+    Flush(): void;
 }
 
 
@@ -224,9 +224,9 @@ export class DesignerSerializerAttribute$instance extends System_Internal.Attrib
     constructor(serializerType: Type, baseSerializerType: Type);
     constructor(serializerTypeName: string, baseSerializerType: Type);
     constructor(serializerTypeName: string, baseSerializerTypeName: string);
-    readonly serializerBaseTypeName: string;
-    readonly serializerTypeName: string;
-    readonly typeId: any;
+    readonly SerializerBaseTypeName: string;
+    readonly SerializerTypeName: string;
+    readonly TypeId: unknown;
 }
 
 
@@ -235,10 +235,10 @@ export type DesignerSerializerAttribute = DesignerSerializerAttribute$instance;
 export class InstanceDescriptor$instance {
     constructor(member: MemberInfo, arguments: ICollection);
     constructor(member: MemberInfo, arguments: ICollection, isComplete: boolean);
-    readonly arguments: ICollection;
-    readonly isComplete: boolean;
-    readonly memberInfo: MemberInfo;
-    invoke(): any;
+    readonly Arguments: ICollection;
+    readonly IsComplete: boolean;
+    readonly MemberInfo: MemberInfo;
+    Invoke(): unknown;
 }
 
 
@@ -246,10 +246,10 @@ export type InstanceDescriptor = InstanceDescriptor$instance;
 
 export abstract class MemberRelationshipService$instance {
     get_Item(source: MemberRelationship): MemberRelationship;
-    get_Item(sourceOwner: any, sourceMember: MemberDescriptor): MemberRelationship;
+    get_Item(sourceOwner: unknown, sourceMember: MemberDescriptor): MemberRelationship;
     set_Item(source: MemberRelationship, value: MemberRelationship): void;
-    set_Item(sourceOwner: any, sourceMember: MemberDescriptor, value: MemberRelationship): void;
-    abstract supportsRelationship(source: MemberRelationship, relationship: MemberRelationship): boolean;
+    set_Item(sourceOwner: unknown, sourceMember: MemberDescriptor, value: MemberRelationship): void;
+    abstract SupportsRelationship(source: MemberRelationship, relationship: MemberRelationship): boolean;
 }
 
 
@@ -257,26 +257,26 @@ export type MemberRelationshipService = MemberRelationshipService$instance;
 
 export class ResolveNameEventArgs$instance extends System_Internal.EventArgs$instance {
     constructor(name: string);
-    readonly name: string;
-    value: any;
+    readonly Name: string;
+    Value: unknown;
 }
 
 
 export type ResolveNameEventArgs = ResolveNameEventArgs$instance;
 
 export class ResolveNameEventHandler$instance extends Function {
-    constructor(object_: any, method: nint);
-    beginInvoke(sender: any, e: ResolveNameEventArgs, callback: AsyncCallback, object_: any): IAsyncResult;
-    clone(): any;
-    endInvoke(result: IAsyncResult): void;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(sender: any, e: ResolveNameEventArgs): void;
+    constructor(object_: unknown, method: nint);
+    BeginInvoke(sender: unknown, e: ResolveNameEventArgs, callback: AsyncCallback, object_: unknown): IAsyncResult;
+    Clone(): unknown;
+    EndInvoke(result: IAsyncResult): void;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    Invoke(sender: unknown, e: ResolveNameEventArgs): void;
 }
 
 
 export interface __ResolveNameEventHandler$views {
-    readonly As_ICloneable: System_Internal.ICloneable$instance;
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ICloneable(): System_Internal.ICloneable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type ResolveNameEventHandler = ResolveNameEventHandler$instance & __ResolveNameEventHandler$views;
@@ -286,24 +286,24 @@ export class RootDesignerSerializerAttribute$instance extends System_Internal.At
     constructor(serializerType: Type, baseSerializerType: Type, reloadable: boolean);
     constructor(serializerTypeName: string, baseSerializerType: Type, reloadable: boolean);
     constructor(serializerTypeName: string, baseSerializerTypeName: string, reloadable: boolean);
-    readonly reloadable: boolean;
-    readonly serializerBaseTypeName: string;
-    readonly serializerTypeName: string;
-    readonly typeId: any;
+    readonly Reloadable: boolean;
+    readonly SerializerBaseTypeName: string;
+    readonly SerializerTypeName: string;
+    readonly TypeId: unknown;
 }
 
 
 export type RootDesignerSerializerAttribute = RootDesignerSerializerAttribute$instance;
 
 export abstract class SerializationStore$instance {
-    readonly errors: ICollection;
-    abstract close(): void;
-    abstract save(stream: Stream): void;
+    readonly Errors: ICollection;
+    abstract Close(): void;
+    abstract Save(stream: Stream): void;
 }
 
 
 export interface __SerializationStore$views {
-    readonly As_IDisposable: System_Internal.IDisposable$instance;
+    As_IDisposable(): System_Internal.IDisposable$instance;
 }
 
 export type SerializationStore = SerializationStore$instance & __SerializationStore$views;

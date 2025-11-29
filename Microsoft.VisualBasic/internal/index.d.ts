@@ -40,192 +40,192 @@ export type CLROf<T> =
     T; // Identity fallback for non-primitive types
 
 export enum AppWinStyle {
-    hide = 0,
-    normalFocus = 1,
-    minimizedFocus = 2,
-    maximizedFocus = 3,
-    normalNoFocus = 4,
-    minimizedNoFocus = 6
+    Hide = 0,
+    NormalFocus = 1,
+    MinimizedFocus = 2,
+    MaximizedFocus = 3,
+    NormalNoFocus = 4,
+    MinimizedNoFocus = 6
 }
 
 
 export enum CallType {
-    method = 1,
-    get_ = 2,
-    let_ = 4,
-    set_ = 8
+    Method = 1,
+    Get = 2,
+    Let = 4,
+    Set = 8
 }
 
 
 export enum CompareMethod {
-    binary = 0,
-    text = 1
+    Binary = 0,
+    Text = 1
 }
 
 
 export enum DateFormat {
-    generalDate = 0,
-    longDate = 1,
-    shortDate = 2,
-    longTime = 3,
-    shortTime = 4
+    GeneralDate = 0,
+    LongDate = 1,
+    ShortDate = 2,
+    LongTime = 3,
+    ShortTime = 4
 }
 
 
 export enum DateInterval {
-    year = 0,
-    quarter = 1,
-    month = 2,
-    dayOfYear = 3,
-    day = 4,
-    weekOfYear = 5,
-    weekday = 6,
-    hour = 7,
-    minute = 8,
-    second = 9
+    Year = 0,
+    Quarter = 1,
+    Month = 2,
+    DayOfYear = 3,
+    Day = 4,
+    WeekOfYear = 5,
+    Weekday = 6,
+    Hour = 7,
+    Minute = 8,
+    Second = 9
 }
 
 
 export enum DueDate {
-    endOfPeriod = 0,
-    begOfPeriod = 1
+    EndOfPeriod = 0,
+    BegOfPeriod = 1
 }
 
 
 export enum FileAttribute {
-    normal = 0,
-    readOnly = 1,
-    hidden = 2,
-    system = 4,
-    volume = 8,
-    directory = 16,
-    archive = 32
+    Normal = 0,
+    ReadOnly = 1,
+    Hidden = 2,
+    System = 4,
+    Volume = 8,
+    Directory = 16,
+    Archive = 32
 }
 
 
 export enum FirstDayOfWeek {
-    system = 0,
-    sunday = 1,
-    monday = 2,
-    tuesday = 3,
-    wednesday = 4,
-    thursday = 5,
-    friday = 6,
-    saturday = 7
+    System = 0,
+    Sunday = 1,
+    Monday = 2,
+    Tuesday = 3,
+    Wednesday = 4,
+    Thursday = 5,
+    Friday = 6,
+    Saturday = 7
 }
 
 
 export enum FirstWeekOfYear {
-    system = 0,
-    jan1 = 1,
-    firstFourDays = 2,
-    firstFullWeek = 3
+    System = 0,
+    Jan1 = 1,
+    FirstFourDays = 2,
+    FirstFullWeek = 3
 }
 
 
 export enum MsgBoxResult {
-    ok = 1,
-    cancel = 2,
-    abort = 3,
-    retry = 4,
-    ignore = 5,
-    yes = 6,
-    no = 7
+    Ok = 1,
+    Cancel = 2,
+    Abort = 3,
+    Retry = 4,
+    Ignore = 5,
+    Yes = 6,
+    No = 7
 }
 
 
 export enum MsgBoxStyle {
-    okOnly = 0,
-    okCancel = 1,
-    abortRetryIgnore = 2,
-    yesNoCancel = 3,
-    yesNo = 4,
-    retryCancel = 5,
-    critical = 16,
-    question = 32,
-    exclamation = 48,
-    information = 64,
-    defaultButton1 = 0,
-    defaultButton2 = 256,
-    defaultButton3 = 512,
-    applicationModal = 0,
-    systemModal = 4096,
-    msgBoxHelp = 16384,
-    msgBoxRight = 524288,
-    msgBoxRtlReading = 1048576,
-    msgBoxSetForeground = 65536
+    OkOnly = 0,
+    OkCancel = 1,
+    AbortRetryIgnore = 2,
+    YesNoCancel = 3,
+    YesNo = 4,
+    RetryCancel = 5,
+    Critical = 16,
+    Question = 32,
+    Exclamation = 48,
+    Information = 64,
+    DefaultButton1 = 0,
+    DefaultButton2 = 256,
+    DefaultButton3 = 512,
+    ApplicationModal = 0,
+    SystemModal = 4096,
+    MsgBoxHelp = 16384,
+    MsgBoxRight = 524288,
+    MsgBoxRtlReading = 1048576,
+    MsgBoxSetForeground = 65536
 }
 
 
 export enum OpenAccess {
-    default_ = -1,
-    read = 1,
-    readWrite = 3,
-    write = 2
+    Default = -1,
+    Read = 1,
+    ReadWrite = 3,
+    Write = 2
 }
 
 
 export enum OpenMode {
-    input = 1,
-    output = 2,
-    random = 4,
-    append = 8,
-    binary = 32
+    Input = 1,
+    Output = 2,
+    Random = 4,
+    Append = 8,
+    Binary = 32
 }
 
 
 export enum OpenShare {
-    default_ = -1,
-    shared = 3,
-    lockRead = 2,
-    lockReadWrite = 0,
-    lockWrite = 1
+    Default = -1,
+    Shared = 3,
+    LockRead = 2,
+    LockReadWrite = 0,
+    LockWrite = 1
 }
 
 
 export enum TriState {
-    false_ = 0,
-    true_ = -1,
-    useDefault = -2
+    False = 0,
+    True = -1,
+    UseDefault = -2
 }
 
 
 export enum VariantType {
-    empty = 0,
-    null_ = 1,
-    short = 2,
-    integer = 3,
-    single = 4,
-    double = 5,
-    currency = 6,
-    date = 7,
-    string_ = 8,
-    object_ = 9,
-    error = 10,
-    boolean_ = 11,
-    variant = 12,
-    dataObject = 13,
-    decimal = 14,
-    byte = 17,
-    char = 18,
-    long = 20,
-    userDefinedType = 36,
-    array = 8192
+    Empty = 0,
+    Null = 1,
+    Short = 2,
+    Integer = 3,
+    Single = 4,
+    Double = 5,
+    Currency = 6,
+    Date = 7,
+    String = 8,
+    Object = 9,
+    Error = 10,
+    Boolean = 11,
+    Variant = 12,
+    DataObject = 13,
+    Decimal = 14,
+    Byte = 17,
+    Char = 18,
+    Long = 20,
+    UserDefinedType = 36,
+    Array = 8192
 }
 
 
 export enum VbStrConv {
-    none = 0,
-    uppercase = 1,
-    lowercase = 2,
-    properCase = 3,
-    wide = 4,
-    narrow = 8,
-    katakana = 16,
-    hiragana = 32,
-    simplifiedChinese = 256,
-    traditionalChinese = 512,
-    linguisticCasing = 1024
+    None = 0,
+    Uppercase = 1,
+    Lowercase = 2,
+    ProperCase = 3,
+    Wide = 4,
+    Narrow = 8,
+    Katakana = 16,
+    Hiragana = 32,
+    SimplifiedChinese = 256,
+    TraditionalChinese = 512,
+    LinguisticCasing = 1024
 }
 
 
@@ -245,23 +245,23 @@ export type TabInfo = TabInfo$instance;
 
 export class Collection$instance {
     constructor();
-    readonly count: int;
-    add(Item: any, Key?: string, Before?: any, After?: any): void;
-    clear(): void;
-    contains(Key: string): boolean;
-    get_Item(Index: int): any;
-    get_Item(Key: string): any;
-    get_Item(Index: any): any;
-    getEnumerator(): IEnumerator;
-    remove(Key: string): void;
-    remove(Index: int): void;
+    readonly Count: int;
+    Add(Item: unknown, Key?: string, Before?: unknown, After?: unknown): void;
+    Clear(): void;
+    Contains(Key: string): boolean;
+    get_Item(Index: int): unknown;
+    get_Item(Key: string): unknown;
+    get_Item(Index: unknown): unknown;
+    GetEnumerator(): IEnumerator;
+    Remove(Key: string): void;
+    Remove(Index: int): void;
 }
 
 
 export interface __Collection$views {
-    readonly As_ICollection: System_Collections_Internal.ICollection$instance;
-    readonly As_IEnumerable: System_Collections_Internal.IEnumerable$instance;
-    readonly As_IList: System_Collections_Internal.IList$instance;
+    As_ICollection(): System_Collections_Internal.ICollection$instance;
+    As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
+    As_IList(): System_Collections_Internal.IList$instance;
 }
 
 export type Collection = Collection$instance & __Collection$views;
@@ -272,10 +272,10 @@ export class ComClassAttribute$instance extends System_Internal.Attribute$instan
     constructor(_ClassID: string);
     constructor(_ClassID: string, _InterfaceID: string);
     constructor(_ClassID: string, _InterfaceID: string, _EventId: string);
-    readonly classID: string;
-    readonly eventID: string;
-    readonly interfaceID: string;
-    interfaceShadows: boolean;
+    readonly ClassID: string;
+    readonly EventID: string;
+    readonly InterfaceID: string;
+    InterfaceShadows: boolean;
 }
 
 
@@ -393,22 +393,22 @@ export class ControlChars$instance {
     constructor();
     static readonly CrLf: string;
     static readonly NewLine: string;
-    static readonly Cr: string;
-    static readonly Lf: string;
-    static readonly Back: string;
-    static readonly FormFeed: string;
-    static readonly Tab: string;
-    static readonly VerticalTab: string;
-    static readonly NullChar: string;
-    static readonly Quote: string;
+    static readonly Cr: char;
+    static readonly Lf: char;
+    static readonly Back: char;
+    static readonly FormFeed: char;
+    static readonly Tab: char;
+    static readonly VerticalTab: char;
+    static readonly NullChar: char;
+    static readonly Quote: char;
 }
 
 
 export type ControlChars = ControlChars$instance;
 
 export class Conversion$instance {
-    static CTypeDynamic(Expression: any, TargetType: Type): any;
-    static CTypeDynamic<TargetType>(Expression: any): TargetType;
+    static CTypeDynamic(Expression: unknown, TargetType: Type): unknown;
+    static CTypeDynamic<TargetType>(Expression: unknown): TargetType;
     static ErrorToString(): string;
     static ErrorToString(ErrorNumber: int): string;
     static Fix(Number: decimal): decimal;
@@ -416,13 +416,13 @@ export class Conversion$instance {
     static Fix(Number: short): short;
     static Fix(Number: int): int;
     static Fix(Number: long): long;
-    static Fix(Number: any): any;
+    static Fix(Number: unknown): unknown;
     static Fix(Number: float): float;
     static Hex(Number: byte): string;
     static Hex(Number: short): string;
     static Hex(Number: int): string;
     static Hex(Number: long): string;
-    static Hex(Number: any): string;
+    static Hex(Number: unknown): string;
     static Hex(Number: sbyte): string;
     static Hex(Number: ushort): string;
     static Hex(Number: uint): string;
@@ -432,20 +432,20 @@ export class Conversion$instance {
     static Int(Number: short): short;
     static Int(Number: int): int;
     static Int(Number: long): long;
-    static Int(Number: any): any;
+    static Int(Number: unknown): unknown;
     static Int(Number: float): float;
     static Oct(Number: byte): string;
     static Oct(Number: short): string;
     static Oct(Number: int): string;
     static Oct(Number: long): string;
-    static Oct(Number: any): string;
+    static Oct(Number: unknown): string;
     static Oct(Number: sbyte): string;
     static Oct(Number: ushort): string;
     static Oct(Number: uint): string;
     static Oct(Number: ulong): string;
-    static Str(Number: any): string;
-    static Val(Expression: string): int;
-    static Val(Expression: any): double;
+    static Str(Number: unknown): string;
+    static Val(Expression: char): int;
+    static Val(Expression: unknown): double;
     static Val(InputStr: string): double;
 }
 
@@ -460,11 +460,11 @@ export class DateAndTime$instance {
     static DateString: string;
     static readonly Timer: double;
     static DateAdd(Interval: DateInterval, Number: double, DateValue: DateTime): DateTime;
-    static DateAdd(Interval: string, Number: double, DateValue: any): DateTime;
+    static DateAdd(Interval: string, Number: double, DateValue: unknown): DateTime;
     static DateDiff(Interval: DateInterval, Date1: DateTime, Date2: DateTime, DayOfWeek?: FirstDayOfWeek, WeekOfYear?: FirstWeekOfYear): long;
-    static DateDiff(Interval: string, Date1: any, Date2: any, DayOfWeek?: FirstDayOfWeek, WeekOfYear?: FirstWeekOfYear): long;
+    static DateDiff(Interval: string, Date1: unknown, Date2: unknown, DayOfWeek?: FirstDayOfWeek, WeekOfYear?: FirstWeekOfYear): long;
     static DatePart(Interval: DateInterval, DateValue: DateTime, FirstDayOfWeekValue?: FirstDayOfWeek, FirstWeekOfYearValue?: FirstWeekOfYear): int;
-    static DatePart(Interval: string, DateValue: any, DayOfWeek?: FirstDayOfWeek, WeekOfYear?: FirstWeekOfYear): int;
+    static DatePart(Interval: string, DateValue: unknown, DayOfWeek?: FirstDayOfWeek, WeekOfYear?: FirstWeekOfYear): int;
     static DateSerial(Year: int, Month: int, Day: int): DateTime;
     static DateValue(StringDate: string): DateTime;
     static Day(DateValue: DateTime): int;
@@ -484,16 +484,16 @@ export class DateAndTime$instance {
 export type DateAndTime = DateAndTime$instance;
 
 export class ErrObject$instance {
-    description: string;
-    readonly erl: int;
-    helpContext: int;
-    helpFile: string;
-    readonly lastDllError: int;
-    number_: int;
-    source: string;
-    clear(): void;
-    getException(): Exception;
-    raise(Number: int, Source?: any, Description?: any, HelpFile?: any, HelpContext?: any): void;
+    Description: string;
+    readonly Erl: int;
+    HelpContext: int;
+    HelpFile: string;
+    readonly LastDllError: int;
+    Number: int;
+    Source: string;
+    Clear(): void;
+    GetException(): Exception;
+    Raise(Number: int, Source?: unknown, Description?: unknown, HelpFile?: unknown, HelpContext?: unknown): void;
 }
 
 
@@ -501,10 +501,10 @@ export type ErrObject = ErrObject$instance;
 
 export class FileSystem$instance {
     static ChDir(Path: string): void;
-    static ChDrive(Drive: string): void;
+    static ChDrive(Drive: char): void;
     static ChDrive(Drive: string): void;
     static CurDir(): string;
-    static CurDir(Drive: string): string;
+    static CurDir(Drive: char): string;
     static Dir(): string;
     static Dir(PathName: string, Attributes?: FileAttribute): string;
     static EOF(FileNumber: int): boolean;
@@ -515,7 +515,7 @@ export class FileSystem$instance {
     static FileGet(FileNumber: int, Value: { value: ref<ClrArray> }, RecordNumber?: long, ArrayIsDynamic?: boolean, StringIsFixedLength?: boolean): void;
     static FileGet(FileNumber: int, Value: { value: ref<boolean> }, RecordNumber?: long): void;
     static FileGet(FileNumber: int, Value: { value: ref<byte> }, RecordNumber?: long): void;
-    static FileGet(FileNumber: int, Value: { value: ref<string> }, RecordNumber?: long): void;
+    static FileGet(FileNumber: int, Value: { value: ref<char> }, RecordNumber?: long): void;
     static FileGet(FileNumber: int, Value: { value: ref<DateTime> }, RecordNumber?: long): void;
     static FileGet(FileNumber: int, Value: { value: ref<decimal> }, RecordNumber?: long): void;
     static FileGet(FileNumber: int, Value: { value: ref<double> }, RecordNumber?: long): void;
@@ -524,14 +524,14 @@ export class FileSystem$instance {
     static FileGet(FileNumber: int, Value: { value: ref<long> }, RecordNumber?: long): void;
     static FileGet(FileNumber: int, Value: { value: ref<float> }, RecordNumber?: long): void;
     static FileGet(FileNumber: int, Value: { value: ref<string> }, RecordNumber?: long, StringIsFixedLength?: boolean): void;
-    static FileGet(FileNumber: int, Value: { value: ref<any> }, RecordNumber?: long): void;
-    static FileGetObject(FileNumber: int, Value: { value: ref<any> }, RecordNumber?: long): void;
+    static FileGet(FileNumber: int, Value: { value: ref<unknown> }, RecordNumber?: long): void;
+    static FileGetObject(FileNumber: int, Value: { value: ref<unknown> }, RecordNumber?: long): void;
     static FileLen(PathName: string): long;
     static FileOpen(FileNumber: int, FileName: string, Mode: OpenMode, Access?: OpenAccess, Share?: OpenShare, RecordLength?: int): void;
     static FilePut(FileNumber: int, Value: ClrArray, RecordNumber?: long, ArrayIsDynamic?: boolean, StringIsFixedLength?: boolean): void;
     static FilePut(FileNumber: int, Value: boolean, RecordNumber?: long): void;
     static FilePut(FileNumber: int, Value: byte, RecordNumber?: long): void;
-    static FilePut(FileNumber: int, Value: string, RecordNumber?: long): void;
+    static FilePut(FileNumber: int, Value: char, RecordNumber?: long): void;
     static FilePut(FileNumber: int, Value: DateTime, RecordNumber?: long): void;
     static FilePut(FileNumber: int, Value: decimal, RecordNumber?: long): void;
     static FilePut(FileNumber: int, Value: double, RecordNumber?: long): void;
@@ -540,22 +540,22 @@ export class FileSystem$instance {
     static FilePut(FileNumber: int, Value: long, RecordNumber?: long): void;
     static FilePut(FileNumber: int, Value: float, RecordNumber?: long): void;
     static FilePut(FileNumber: int, Value: string, RecordNumber?: long, StringIsFixedLength?: boolean): void;
-    static FilePut(FileNumber: int, Value: any, RecordNumber?: long): void;
-    static FilePut(FileNumber: any, Value: any, RecordNumber?: any): void;
-    static FilePutObject(FileNumber: int, Value: any, RecordNumber?: long): void;
+    static FilePut(FileNumber: int, Value: unknown, RecordNumber?: long): void;
+    static FilePut(FileNumber: unknown, Value: unknown, RecordNumber?: unknown): void;
+    static FilePutObject(FileNumber: int, Value: unknown, RecordNumber?: long): void;
     static FileWidth(FileNumber: int, RecordWidth: int): void;
     static FreeFile(): int;
     static GetAttr(PathName: string): FileAttribute;
     static Input(FileNumber: int, Value: { value: ref<boolean> }): void;
     static Input(FileNumber: int, Value: { value: ref<byte> }): void;
-    static Input(FileNumber: int, Value: { value: ref<string> }): void;
+    static Input(FileNumber: int, Value: { value: ref<char> }): void;
     static Input(FileNumber: int, Value: { value: ref<DateTime> }): void;
     static Input(FileNumber: int, Value: { value: ref<decimal> }): void;
     static Input(FileNumber: int, Value: { value: ref<double> }): void;
     static Input(FileNumber: int, Value: { value: ref<short> }): void;
     static Input(FileNumber: int, Value: { value: ref<int> }): void;
     static Input(FileNumber: int, Value: { value: ref<long> }): void;
-    static Input(FileNumber: int, Value: { value: ref<any> }): void;
+    static Input(FileNumber: int, Value: { value: ref<unknown> }): void;
     static Input(FileNumber: int, Value: { value: ref<float> }): void;
     static Input(FileNumber: int, Value: { value: ref<string> }): void;
     static InputString(FileNumber: int, CharCount: int): string;
@@ -567,8 +567,8 @@ export class FileSystem$instance {
     static Lock(FileNumber: int): void;
     static LOF(FileNumber: int): long;
     static MkDir(Path: string): void;
-    static Print(FileNumber: int, Output: any[]): void;
-    static PrintLine(FileNumber: int, Output: any[]): void;
+    static Print(FileNumber: int, Output: unknown[]): void;
+    static PrintLine(FileNumber: int, Output: unknown[]): void;
     static Rename(OldPath: string, NewPath: string): void;
     static Reset(): void;
     static RmDir(Path: string): void;
@@ -581,8 +581,8 @@ export class FileSystem$instance {
     static Unlock(FileNumber: int, FromRecord: long, ToRecord: long): void;
     static Unlock(FileNumber: int, Record: long): void;
     static Unlock(FileNumber: int): void;
-    static Write(FileNumber: int, Output: any[]): void;
-    static WriteLine(FileNumber: int, Output: any[]): void;
+    static Write(FileNumber: int, Output: unknown[]): void;
+    static WriteLine(FileNumber: int, Output: unknown[]): void;
 }
 
 
@@ -617,20 +617,20 @@ export type HideModuleNameAttribute = HideModuleNameAttribute$instance;
 export class Information$instance {
     static Erl(): int;
     static Err(): ErrObject;
-    static IsArray(VarName: any): boolean;
-    static IsDate(Expression: any): boolean;
-    static IsDBNull(Expression: any): boolean;
-    static IsError(Expression: any): boolean;
-    static IsNothing(Expression: any): boolean;
-    static IsNumeric(Expression: any): boolean;
-    static IsReference(Expression: any): boolean;
+    static IsArray(VarName: unknown): boolean;
+    static IsDate(Expression: unknown): boolean;
+    static IsDBNull(Expression: unknown): boolean;
+    static IsError(Expression: unknown): boolean;
+    static IsNothing(Expression: unknown): boolean;
+    static IsNumeric(Expression: unknown): boolean;
+    static IsReference(Expression: unknown): boolean;
     static LBound(Array: ClrArray, Rank?: int): int;
     static QBColor(Color: int): int;
     static RGB(Red: int, Green: int, Blue: int): int;
     static SystemTypeName(VbName: string): string;
-    static TypeName(VarName: any): string;
+    static TypeName(VarName: unknown): string;
     static UBound(Array: ClrArray, Rank?: int): int;
-    static VarType(VarName: any): VariantType;
+    static VarType(VarName: unknown): VariantType;
     static VbTypeName(UrtName: string): string;
 }
 
@@ -641,23 +641,23 @@ export class Interaction$instance {
     static AppActivate(ProcessId: int): void;
     static AppActivate(Title: string): void;
     static Beep(): void;
-    static CallByName(ObjectRef: any, ProcName: string, UseCallType: CallType, Args: any[]): any;
-    static Choose(Index: double, Choice: any[]): any;
+    static CallByName(ObjectRef: unknown, ProcName: string, UseCallType: CallType, Args: unknown[]): unknown;
+    static Choose(Index: double, Choice: unknown[]): unknown;
     static Command(): string;
-    static CreateObject(ProgId: string, ServerName?: string): any;
+    static CreateObject(ProgId: string, ServerName?: string): unknown;
     static DeleteSetting(AppName: string, Section?: string, Key?: string): void;
     static Environ(Expression: int): string;
     static Environ(Expression: string): string;
     static GetAllSettings(AppName: string, Section: string): Array<Array<string>>;
-    static GetObject(PathName?: string, Class?: string): any;
+    static GetObject(PathName?: string, Class?: string): unknown;
     static GetSetting(AppName: string, Section: string, Key: string, Default?: string): string;
-    static IIf(Expression: boolean, TruePart: any, FalsePart: any): any;
+    static IIf(Expression: boolean, TruePart: unknown, FalsePart: unknown): unknown;
     static InputBox(Prompt: string, Title?: string, DefaultResponse?: string, XPos?: int, YPos?: int): string;
-    static MsgBox(Prompt: any, Buttons?: MsgBoxStyle, Title?: any): MsgBoxResult;
+    static MsgBox(Prompt: unknown, Buttons?: MsgBoxStyle, Title?: unknown): MsgBoxResult;
     static Partition(Number: long, Start: long, Stop: long, Interval: long): string;
     static SaveSetting(AppName: string, Section: string, Key: string, Setting: string): void;
     static Shell(PathName: string, Style?: AppWinStyle, Wait?: boolean, Timeout?: int): int;
-    static Switch(VarExpr: any[]): any;
+    static Switch(VarExpr: unknown[]): unknown;
 }
 
 
@@ -665,48 +665,48 @@ export type Interaction = Interaction$instance;
 
 export class MyGroupCollectionAttribute$instance extends System_Internal.Attribute$instance {
     constructor(typeToCollect: string, createInstanceMethodName: string, disposeInstanceMethodName: string, defaultInstanceAlias: string);
-    readonly createMethod: string;
-    readonly defaultInstanceAlias: string;
-    readonly disposeMethod: string;
-    readonly myGroupName: string;
+    readonly CreateMethod: string;
+    readonly DefaultInstanceAlias: string;
+    readonly DisposeMethod: string;
+    readonly MyGroupName: string;
 }
 
 
 export type MyGroupCollectionAttribute = MyGroupCollectionAttribute$instance;
 
 export class Strings$instance {
+    static Asc(String: char): int;
     static Asc(String: string): int;
-    static Asc(String: string): int;
+    static AscW(String: char): int;
     static AscW(String: string): int;
-    static AscW(String: string): int;
-    static Chr(CharCode: int): string;
-    static ChrW(CharCode: int): string;
-    static Filter(Source: any[], Match: string, Include?: boolean, Compare?: CompareMethod): string[];
+    static Chr(CharCode: int): char;
+    static ChrW(CharCode: int): char;
+    static Filter(Source: unknown[], Match: string, Include?: boolean, Compare?: CompareMethod): string[];
     static Filter(Source: string[], Match: string, Include?: boolean, Compare?: CompareMethod): string[];
-    static Format(Expression: any, Style?: string): string;
-    static FormatCurrency(Expression: any, NumDigitsAfterDecimal?: int, IncludeLeadingDigit?: TriState, UseParensForNegativeNumbers?: TriState, GroupDigits?: TriState): string;
+    static Format(Expression: unknown, Style?: string): string;
+    static FormatCurrency(Expression: unknown, NumDigitsAfterDecimal?: int, IncludeLeadingDigit?: TriState, UseParensForNegativeNumbers?: TriState, GroupDigits?: TriState): string;
     static FormatDateTime(Expression: DateTime, NamedFormat?: DateFormat): string;
-    static FormatNumber(Expression: any, NumDigitsAfterDecimal?: int, IncludeLeadingDigit?: TriState, UseParensForNegativeNumbers?: TriState, GroupDigits?: TriState): string;
-    static FormatPercent(Expression: any, NumDigitsAfterDecimal?: int, IncludeLeadingDigit?: TriState, UseParensForNegativeNumbers?: TriState, GroupDigits?: TriState): string;
-    static GetChar(str: string, Index: int): string;
+    static FormatNumber(Expression: unknown, NumDigitsAfterDecimal?: int, IncludeLeadingDigit?: TriState, UseParensForNegativeNumbers?: TriState, GroupDigits?: TriState): string;
+    static FormatPercent(Expression: unknown, NumDigitsAfterDecimal?: int, IncludeLeadingDigit?: TriState, UseParensForNegativeNumbers?: TriState, GroupDigits?: TriState): string;
+    static GetChar(str: string, Index: int): char;
     static InStr(Start: int, String1: string, String2: string, Compare?: CompareMethod): int;
     static InStr(String1: string, String2: string, Compare?: CompareMethod): int;
     static InStrRev(StringCheck: string, StringMatch: string, Start?: int, Compare?: CompareMethod): int;
-    static Join(SourceArray: any[], Delimiter?: string): string;
+    static Join(SourceArray: unknown[], Delimiter?: string): string;
     static Join(SourceArray: string[], Delimiter?: string): string;
-    static LCase(Value: string): string;
+    static LCase(Value: char): char;
     static LCase(Value: string): string;
     static Left(str: string, Length: int): string;
     static Len(Expression: boolean): int;
     static Len(Expression: byte): int;
-    static Len(Expression: string): int;
+    static Len(Expression: char): int;
     static Len(Expression: DateTime): int;
     static Len(Expression: decimal): int;
     static Len(Expression: double): int;
     static Len(Expression: short): int;
     static Len(Expression: int): int;
     static Len(Expression: long): int;
-    static Len(Expression: any): int;
+    static Len(Expression: unknown): int;
     static Len(Expression: sbyte): int;
     static Len(Expression: float): int;
     static Len(Expression: string): int;
@@ -725,12 +725,12 @@ export class Strings$instance {
     static Split(Expression: string, Delimiter?: string, Limit?: int, Compare?: CompareMethod): string[];
     static StrComp(String1: string, String2: string, Compare?: CompareMethod): int;
     static StrConv(str: string, Conversion: VbStrConv, LocaleID?: int): string;
-    static StrDup(Number: int, Character: string): string;
-    static StrDup(Number: int, Character: any): any;
+    static StrDup(Number: int, Character: char): string;
+    static StrDup(Number: int, Character: unknown): unknown;
     static StrDup(Number: int, Character: string): string;
     static StrReverse(Expression: string): string;
     static Trim(str: string): string;
-    static UCase(Value: string): string;
+    static UCase(Value: char): char;
     static UCase(Value: string): string;
 }
 
@@ -740,8 +740,8 @@ export type Strings = Strings$instance;
 export class VBFixedArrayAttribute$instance extends System_Internal.Attribute$instance {
     constructor(UpperBound1: int);
     constructor(UpperBound1: int, UpperBound2: int);
-    readonly bounds: int[];
-    readonly length: int;
+    readonly Bounds: int[];
+    readonly Length: int;
 }
 
 
@@ -749,7 +749,7 @@ export type VBFixedArrayAttribute = VBFixedArrayAttribute$instance;
 
 export class VBFixedStringAttribute$instance extends System_Internal.Attribute$instance {
     constructor(Length: int);
-    readonly length: int;
+    readonly Length: int;
 }
 
 

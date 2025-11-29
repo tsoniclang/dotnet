@@ -38,199 +38,199 @@ export type CLROf<T> =
     T; // Identity fallback for non-primitive types
 
 export enum ADVF {
-    advf_nodata = 1,
-    advf_primefirst = 2,
-    advf_onlyonce = 4,
-    advf_dataonstop = 64,
-    advfcache_nohandler = 8,
-    advfcache_forcebuiltin = 16,
-    advfcache_onsave = 32
+    ADVF_NODATA = 1,
+    ADVF_PRIMEFIRST = 2,
+    ADVF_ONLYONCE = 4,
+    ADVF_DATAONSTOP = 64,
+    ADVFCACHE_NOHANDLER = 8,
+    ADVFCACHE_FORCEBUILTIN = 16,
+    ADVFCACHE_ONSAVE = 32
 }
 
 
 export enum CALLCONV {
-    cc_cdecl = 1,
-    cc_mscpascal = 2,
-    cc_pascal = 2,
-    cc_macpascal = 3,
-    cc_stdcall = 4,
-    cc_reserved = 5,
-    cc_syscall = 6,
-    cc_mpwcdecl = 7,
-    cc_mpwpascal = 8,
-    cc_max = 9
+    CC_CDECL = 1,
+    CC_MSCPASCAL = 2,
+    CC_PASCAL = 2,
+    CC_MACPASCAL = 3,
+    CC_STDCALL = 4,
+    CC_RESERVED = 5,
+    CC_SYSCALL = 6,
+    CC_MPWCDECL = 7,
+    CC_MPWPASCAL = 8,
+    CC_MAX = 9
 }
 
 
 export enum DATADIR {
-    datadir_get = 1,
-    datadir_set = 2
+    DATADIR_GET = 1,
+    DATADIR_SET = 2
 }
 
 
 export enum DESCKIND {
-    desckind_none = 0,
-    desckind_funcdesc = 1,
-    desckind_vardesc = 2,
-    desckind_typecomp = 3,
-    desckind_implicitappobj = 4,
-    desckind_max = 5
+    DESCKIND_NONE = 0,
+    DESCKIND_FUNCDESC = 1,
+    DESCKIND_VARDESC = 2,
+    DESCKIND_TYPECOMP = 3,
+    DESCKIND_IMPLICITAPPOBJ = 4,
+    DESCKIND_MAX = 5
 }
 
 
 export enum DVASPECT {
-    dvaspect_content = 1,
-    dvaspect_thumbnail = 2,
-    dvaspect_icon = 4,
-    dvaspect_docprint = 8
+    DVASPECT_CONTENT = 1,
+    DVASPECT_THUMBNAIL = 2,
+    DVASPECT_ICON = 4,
+    DVASPECT_DOCPRINT = 8
 }
 
 
 export enum FUNCFLAGS {
-    funcflag_frestricted = 1,
-    funcflag_fsource = 2,
-    funcflag_fbindable = 4,
-    funcflag_frequestedit = 8,
-    funcflag_fdisplaybind = 16,
-    funcflag_fdefaultbind = 32,
-    funcflag_fhidden = 64,
-    funcflag_fusesgetlasterror = 128,
-    funcflag_fdefaultcollelem = 256,
-    funcflag_fuidefault = 512,
-    funcflag_fnonbrowsable = 1024,
-    funcflag_freplaceable = 2048,
-    funcflag_fimmediatebind = 4096
+    FUNCFLAG_FRESTRICTED = 1,
+    FUNCFLAG_FSOURCE = 2,
+    FUNCFLAG_FBINDABLE = 4,
+    FUNCFLAG_FREQUESTEDIT = 8,
+    FUNCFLAG_FDISPLAYBIND = 16,
+    FUNCFLAG_FDEFAULTBIND = 32,
+    FUNCFLAG_FHIDDEN = 64,
+    FUNCFLAG_FUSESGETLASTERROR = 128,
+    FUNCFLAG_FDEFAULTCOLLELEM = 256,
+    FUNCFLAG_FUIDEFAULT = 512,
+    FUNCFLAG_FNONBROWSABLE = 1024,
+    FUNCFLAG_FREPLACEABLE = 2048,
+    FUNCFLAG_FIMMEDIATEBIND = 4096
 }
 
 
 export enum FUNCKIND {
-    func_virtual = 0,
-    func_purevirtual = 1,
-    func_nonvirtual = 2,
-    func_static = 3,
-    func_dispatch = 4
+    FUNC_VIRTUAL = 0,
+    FUNC_PUREVIRTUAL = 1,
+    FUNC_NONVIRTUAL = 2,
+    FUNC_STATIC = 3,
+    FUNC_DISPATCH = 4
 }
 
 
 export enum IDLFLAG {
-    idlflag_none = 0,
-    idlflag_fin = 1,
-    idlflag_fout = 2,
-    idlflag_flcid = 4,
-    idlflag_fretval = 8
+    IDLFLAG_NONE = 0,
+    IDLFLAG_FIN = 1,
+    IDLFLAG_FOUT = 2,
+    IDLFLAG_FLCID = 4,
+    IDLFLAG_FRETVAL = 8
 }
 
 
 export enum IMPLTYPEFLAGS {
-    impltypeflag_fdefault = 1,
-    impltypeflag_fsource = 2,
-    impltypeflag_frestricted = 4,
-    impltypeflag_fdefaultvtable = 8
+    IMPLTYPEFLAG_FDEFAULT = 1,
+    IMPLTYPEFLAG_FSOURCE = 2,
+    IMPLTYPEFLAG_FRESTRICTED = 4,
+    IMPLTYPEFLAG_FDEFAULTVTABLE = 8
 }
 
 
 export enum INVOKEKIND {
-    invoke_func = 1,
-    invoke_propertyget = 2,
-    invoke_propertyput = 4,
-    invoke_propertyputref = 8
+    INVOKE_FUNC = 1,
+    INVOKE_PROPERTYGET = 2,
+    INVOKE_PROPERTYPUT = 4,
+    INVOKE_PROPERTYPUTREF = 8
 }
 
 
 export enum LIBFLAGS {
-    libflag_frestricted = 1,
-    libflag_fcontrol = 2,
-    libflag_fhidden = 4,
-    libflag_fhasdiskimage = 8
+    LIBFLAG_FRESTRICTED = 1,
+    LIBFLAG_FCONTROL = 2,
+    LIBFLAG_FHIDDEN = 4,
+    LIBFLAG_FHASDISKIMAGE = 8
 }
 
 
 export enum PARAMFLAG {
-    paramflag_none = 0,
-    paramflag_fin = 1,
-    paramflag_fout = 2,
-    paramflag_flcid = 4,
-    paramflag_fretval = 8,
-    paramflag_fopt = 16,
-    paramflag_fhasdefault = 32,
-    paramflag_fhascustdata = 64
+    PARAMFLAG_NONE = 0,
+    PARAMFLAG_FIN = 1,
+    PARAMFLAG_FOUT = 2,
+    PARAMFLAG_FLCID = 4,
+    PARAMFLAG_FRETVAL = 8,
+    PARAMFLAG_FOPT = 16,
+    PARAMFLAG_FHASDEFAULT = 32,
+    PARAMFLAG_FHASCUSTDATA = 64
 }
 
 
 export enum SYSKIND {
-    sys_win16 = 0,
-    sys_win32 = 1,
-    sys_mac = 2,
-    sys_win64 = 3
+    SYS_WIN16 = 0,
+    SYS_WIN32 = 1,
+    SYS_MAC = 2,
+    SYS_WIN64 = 3
 }
 
 
 export enum TYMED {
-    tymed_hglobal = 1,
-    tymed_file = 2,
-    tymed_istream = 4,
-    tymed_istorage = 8,
-    tymed_gdi = 16,
-    tymed_mfpict = 32,
-    tymed_enhmf = 64,
-    tymed_null = 0
+    TYMED_HGLOBAL = 1,
+    TYMED_FILE = 2,
+    TYMED_ISTREAM = 4,
+    TYMED_ISTORAGE = 8,
+    TYMED_GDI = 16,
+    TYMED_MFPICT = 32,
+    TYMED_ENHMF = 64,
+    TYMED_NULL = 0
 }
 
 
 export enum TYPEFLAGS {
-    typeflag_fappobject = 1,
-    typeflag_fcancreate = 2,
-    typeflag_flicensed = 4,
-    typeflag_fpredeclid = 8,
-    typeflag_fhidden = 16,
-    typeflag_fcontrol = 32,
-    typeflag_fdual = 64,
-    typeflag_fnonextensible = 128,
-    typeflag_foleautomation = 256,
-    typeflag_frestricted = 512,
-    typeflag_faggregatable = 1024,
-    typeflag_freplaceable = 2048,
-    typeflag_fdispatchable = 4096,
-    typeflag_freversebind = 8192,
-    typeflag_fproxy = 16384
+    TYPEFLAG_FAPPOBJECT = 1,
+    TYPEFLAG_FCANCREATE = 2,
+    TYPEFLAG_FLICENSED = 4,
+    TYPEFLAG_FPREDECLID = 8,
+    TYPEFLAG_FHIDDEN = 16,
+    TYPEFLAG_FCONTROL = 32,
+    TYPEFLAG_FDUAL = 64,
+    TYPEFLAG_FNONEXTENSIBLE = 128,
+    TYPEFLAG_FOLEAUTOMATION = 256,
+    TYPEFLAG_FRESTRICTED = 512,
+    TYPEFLAG_FAGGREGATABLE = 1024,
+    TYPEFLAG_FREPLACEABLE = 2048,
+    TYPEFLAG_FDISPATCHABLE = 4096,
+    TYPEFLAG_FREVERSEBIND = 8192,
+    TYPEFLAG_FPROXY = 16384
 }
 
 
 export enum TYPEKIND {
-    tkind_enum = 0,
-    tkind_record = 1,
-    tkind_module = 2,
-    tkind_interface = 3,
-    tkind_dispatch = 4,
-    tkind_coclass = 5,
-    tkind_alias = 6,
-    tkind_union = 7,
-    tkind_max = 8
+    TKIND_ENUM = 0,
+    TKIND_RECORD = 1,
+    TKIND_MODULE = 2,
+    TKIND_INTERFACE = 3,
+    TKIND_DISPATCH = 4,
+    TKIND_COCLASS = 5,
+    TKIND_ALIAS = 6,
+    TKIND_UNION = 7,
+    TKIND_MAX = 8
 }
 
 
 export enum VARFLAGS {
-    varflag_freadonly = 1,
-    varflag_fsource = 2,
-    varflag_fbindable = 4,
-    varflag_frequestedit = 8,
-    varflag_fdisplaybind = 16,
-    varflag_fdefaultbind = 32,
-    varflag_fhidden = 64,
-    varflag_frestricted = 128,
-    varflag_fdefaultcollelem = 256,
-    varflag_fuidefault = 512,
-    varflag_fnonbrowsable = 1024,
-    varflag_freplaceable = 2048,
-    varflag_fimmediatebind = 4096
+    VARFLAG_FREADONLY = 1,
+    VARFLAG_FSOURCE = 2,
+    VARFLAG_FBINDABLE = 4,
+    VARFLAG_FREQUESTEDIT = 8,
+    VARFLAG_FDISPLAYBIND = 16,
+    VARFLAG_FDEFAULTBIND = 32,
+    VARFLAG_FHIDDEN = 64,
+    VARFLAG_FRESTRICTED = 128,
+    VARFLAG_FDEFAULTCOLLELEM = 256,
+    VARFLAG_FUIDEFAULT = 512,
+    VARFLAG_FNONBROWSABLE = 1024,
+    VARFLAG_FREPLACEABLE = 2048,
+    VARFLAG_FIMMEDIATEBIND = 4096
 }
 
 
 export enum VARKIND {
-    var_perinstance = 0,
-    var_static = 1,
-    var_const = 2,
-    var_dispatch = 3
+    VAR_PERINSTANCE = 0,
+    VAR_STATIC = 1,
+    VAR_CONST = 2,
+    VAR_DISPATCH = 3
 }
 
 
@@ -246,10 +246,10 @@ export type IAdviseSink = IAdviseSink$instance;
 
 export interface IBindCtx$instance {
     EnumObjectParam(ppenum: { value: ref<IEnumString> }): void;
-    GetObjectParam(pszKey: string, ppunk: { value: ref<any> }): void;
+    GetObjectParam(pszKey: string, ppunk: { value: ref<unknown> }): void;
     GetRunningObjectTable(pprot: { value: ref<IRunningObjectTable> }): void;
-    RegisterObjectBound(punk: any): void;
-    RegisterObjectParam(pszKey: string, punk: any): void;
+    RegisterObjectBound(punk: unknown): void;
+    RegisterObjectParam(pszKey: string, punk: unknown): void;
     ReleaseBoundObjects(): void;
     RevokeObjectParam(pszKey: string): int;
     SetBindOptions(pbindopts: { value: ref<BIND_OPTS> }): void;
@@ -259,7 +259,7 @@ export interface IBindCtx$instance {
 export type IBindCtx = IBindCtx$instance;
 
 export interface IConnectionPoint$instance {
-    Advise(pUnkSink: any, pdwCookie: { value: ref<int> }): void;
+    Advise(pUnkSink: unknown, pdwCookie: { value: ref<int> }): void;
     EnumConnections(ppEnum: { value: ref<IEnumConnections> }): void;
     GetConnectionInterface(pIID: { value: ref<Guid> }): void;
     GetConnectionPointContainer(ppCPC: { value: ref<IConnectionPointContainer> }): void;
@@ -353,7 +353,7 @@ export type IEnumString = IEnumString$instance;
 
 export interface IEnumVARIANT$instance {
     Clone(): IEnumVARIANT;
-    Next(celt: int, rgVar: { value: any[] }, pceltFetched: nint): int;
+    Next(celt: int, rgVar: { value: unknown[] }, pceltFetched: nint): int;
     Reset(): int;
     Skip(celt: int): int;
 }
@@ -362,7 +362,7 @@ export interface IEnumVARIANT$instance {
 export type IEnumVARIANT = IEnumVARIANT$instance;
 
 export interface IMoniker$instance {
-    BindToObject(pbc: IBindCtx, pmkToLeft: IMoniker, riidResult: { value: ref<Guid> }, ppvResult: { value: ref<any> }): void;
+    BindToObject(pbc: IBindCtx, pmkToLeft: IMoniker, riidResult: { value: ref<Guid> }, ppvResult: { value: ref<unknown> }): void;
     CommonPrefixWith(pmkOther: IMoniker, ppmkPrefix: { value: ref<IMoniker> }): void;
     ComposeWith(pmkRight: IMoniker, fOnlyIfNotGeneric: boolean, ppmkComposite: { value: ref<IMoniker> }): void;
     Enum(fForward: boolean, ppenumMoniker: { value: ref<IEnumMoniker> }): void;
@@ -399,11 +399,11 @@ export type IPersistFile = IPersistFile$instance;
 
 export interface IRunningObjectTable$instance {
     EnumRunning(ppenumMoniker: { value: ref<IEnumMoniker> }): void;
-    GetObject(pmkObjectName: IMoniker, ppunkObject: { value: ref<any> }): int;
+    GetObject(pmkObjectName: IMoniker, ppunkObject: { value: ref<unknown> }): int;
     GetTimeOfLastChange(pmkObjectName: IMoniker, pfiletime: { value: ref<FILETIME> }): int;
     IsRunning(pmkObjectName: IMoniker): int;
     NoteChangeTime(dwRegister: int, pfiletime: { value: ref<FILETIME> }): void;
-    Register(grfFlags: int, punkObject: any, pmkObjectName: IMoniker): int;
+    Register(grfFlags: int, punkObject: unknown, pmkObjectName: IMoniker): int;
     Revoke(dwRegister: int): void;
 }
 
@@ -435,7 +435,7 @@ export type ITypeComp = ITypeComp$instance;
 
 export interface ITypeInfo$instance {
     AddressOfMember(memid: int, invKind: INVOKEKIND, ppv: { value: ref<nint> }): void;
-    CreateInstance(pUnkOuter: any, riid: { value: ref<Guid> }, ppvObj: { value: ref<any> }): void;
+    CreateInstance(pUnkOuter: unknown, riid: { value: ref<Guid> }, ppvObj: { value: ref<unknown> }): void;
     GetContainingTypeLib(ppTLB: { value: ref<ITypeLib> }, pIndex: { value: ref<int> }): void;
     GetDllEntry(memid: int, invKind: INVOKEKIND, pBstrDllName: nint, pBstrName: nint, pwOrdinal: nint): void;
     GetDocumentation(index: int, strName: { value: ref<string> }, strDocString: { value: ref<string> }, dwHelpContext: { value: ref<int> }, strHelpFile: { value: ref<string> }): void;
@@ -448,7 +448,7 @@ export interface ITypeInfo$instance {
     GetRefTypeOfImplType(index: int, href: { value: ref<int> }): void;
     GetTypeAttr(ppTypeAttr: { value: ref<nint> }): void;
     GetTypeComp(ppTComp: { value: ref<ITypeComp> }): void;
-    Invoke(pvInstance: any, memid: int, wFlags: short, pDispParams: { value: ref<DISPPARAMS> }, pVarResult: nint, pExcepInfo: nint, puArgErr: { value: ref<int> }): void;
+    Invoke(pvInstance: unknown, memid: int, wFlags: short, pDispParams: { value: ref<DISPPARAMS> }, pVarResult: nint, pExcepInfo: nint, puArgErr: { value: ref<int> }): void;
     ReleaseTypeAttr(pTypeAttr: nint): void;
 }
 
@@ -457,29 +457,29 @@ export type ITypeInfo = ITypeInfo$instance;
 
 export interface ITypeInfo2$instance {
     AddressOfMember(memid: int, invKind: INVOKEKIND, ppv: { value: ref<nint> }): void;
-    CreateInstance(pUnkOuter: any, riid: { value: ref<Guid> }, ppvObj: { value: ref<any> }): void;
+    CreateInstance(pUnkOuter: unknown, riid: { value: ref<Guid> }, ppvObj: { value: ref<unknown> }): void;
     GetAllFuncCustData(index: int, pCustData: nint): void;
     GetAllParamCustData(indexFunc: int, indexParam: int, pCustData: nint): void;
     GetContainingTypeLib(ppTLB: { value: ref<ITypeLib> }, pIndex: { value: ref<int> }): void;
-    GetCustData(guid: { value: ref<Guid> }, pVarVal: { value: ref<any> }): void;
+    GetCustData(guid: { value: ref<Guid> }, pVarVal: { value: ref<unknown> }): void;
     GetDllEntry(memid: int, invKind: INVOKEKIND, pBstrDllName: nint, pBstrName: nint, pwOrdinal: nint): void;
     GetDocumentation(index: int, strName: { value: ref<string> }, strDocString: { value: ref<string> }, dwHelpContext: { value: ref<int> }, strHelpFile: { value: ref<string> }): void;
     GetDocumentation2(memid: int, pbstrHelpString: { value: ref<string> }, pdwHelpStringContext: { value: ref<int> }, pbstrHelpStringDll: { value: ref<string> }): void;
-    GetFuncCustData(index: int, guid: { value: ref<Guid> }, pVarVal: { value: ref<any> }): void;
+    GetFuncCustData(index: int, guid: { value: ref<Guid> }, pVarVal: { value: ref<unknown> }): void;
     GetFuncDesc(index: int, ppFuncDesc: { value: ref<nint> }): void;
     GetFuncIndexOfMemId(memid: int, invKind: INVOKEKIND, pFuncIndex: { value: ref<int> }): void;
     GetIDsOfNames(rgszNames: string[], cNames: int, pMemId: { value: int[] }): void;
     GetImplTypeFlags(index: int, pImplTypeFlags: { value: ref<IMPLTYPEFLAGS> }): void;
     GetMops(memid: int, pBstrMops: { value: ref<string> }): void;
     GetNames(memid: int, rgBstrNames: { value: string[] }, cMaxNames: int, pcNames: { value: ref<int> }): void;
-    GetParamCustData(indexFunc: int, indexParam: int, guid: { value: ref<Guid> }, pVarVal: { value: ref<any> }): void;
+    GetParamCustData(indexFunc: int, indexParam: int, guid: { value: ref<Guid> }, pVarVal: { value: ref<unknown> }): void;
     GetRefTypeInfo(hRef: int, ppTI: { value: ref<ITypeInfo> }): void;
     GetRefTypeOfImplType(index: int, href: { value: ref<int> }): void;
     GetTypeAttr(ppTypeAttr: { value: ref<nint> }): void;
     GetTypeComp(ppTComp: { value: ref<ITypeComp> }): void;
     GetTypeFlags(pTypeFlags: { value: ref<int> }): void;
     GetTypeKind(pTypeKind: { value: ref<TYPEKIND> }): void;
-    Invoke(pvInstance: any, memid: int, wFlags: short, pDispParams: { value: ref<DISPPARAMS> }, pVarResult: nint, pExcepInfo: nint, puArgErr: { value: ref<int> }): void;
+    Invoke(pvInstance: unknown, memid: int, wFlags: short, pDispParams: { value: ref<DISPPARAMS> }, pVarResult: nint, pExcepInfo: nint, puArgErr: { value: ref<int> }): void;
     ReleaseTypeAttr(pTypeAttr: nint): void;
 }
 
@@ -504,7 +504,7 @@ export type ITypeLib = ITypeLib$instance;
 
 export interface ITypeLib2$instance {
     FindName(szNameBuf: string, lHashVal: int, ppTInfo: { value: ITypeInfo[] }, rgMemId: { value: int[] }, pcFound: { value: ref<short> }): void;
-    GetCustData(guid: { value: ref<Guid> }, pVarVal: { value: ref<any> }): void;
+    GetCustData(guid: { value: ref<Guid> }, pVarVal: { value: ref<unknown> }): void;
     GetDocumentation(index: int, strName: { value: ref<string> }, strDocString: { value: ref<string> }, dwHelpContext: { value: ref<int> }, strHelpFile: { value: ref<string> }): void;
     GetDocumentation2(index: int, pbstrHelpString: { value: ref<string> }, pdwHelpStringContext: { value: ref<int> }, pbstrHelpStringDll: { value: ref<string> }): void;
     GetLibAttr(ppTLibAttr: { value: ref<nint> }): void;
@@ -541,7 +541,7 @@ export class BINDPTR$instance {
 export type BINDPTR = BINDPTR$instance;
 
 export class CONNECTDATA$instance {
-    pUnk: any;
+    pUnk: unknown;
     dwCookie: int;
 }
 
@@ -672,7 +672,7 @@ export type STATSTG = STATSTG$instance;
 export class STGMEDIUM$instance {
     tymed: TYMED;
     unionmember: nint;
-    pUnkForRelease: any;
+    pUnkForRelease: unknown;
 }
 
 

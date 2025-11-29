@@ -29,7 +29,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes::NoneSystem.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
           "clrName": "None",
-          "tsEmitName": "none",
+          "tsEmitName": "None",
           "normalizedSignature": "None|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -38,7 +38,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes::PublicParameterlessConstructorSystem.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
           "clrName": "PublicParameterlessConstructor",
-          "tsEmitName": "publicParameterlessConstructor",
+          "tsEmitName": "PublicParameterlessConstructor",
           "normalizedSignature": "PublicParameterlessConstructor|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -47,7 +47,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes::PublicConstructorsSystem.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
           "clrName": "PublicConstructors",
-          "tsEmitName": "publicConstructors",
+          "tsEmitName": "PublicConstructors",
           "normalizedSignature": "PublicConstructors|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -56,7 +56,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes::NonPublicConstructorsSystem.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
           "clrName": "NonPublicConstructors",
-          "tsEmitName": "nonPublicConstructors",
+          "tsEmitName": "NonPublicConstructors",
           "normalizedSignature": "NonPublicConstructors|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -65,7 +65,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes::PublicMethodsSystem.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
           "clrName": "PublicMethods",
-          "tsEmitName": "publicMethods",
+          "tsEmitName": "PublicMethods",
           "normalizedSignature": "PublicMethods|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -74,7 +74,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes::NonPublicMethodsSystem.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
           "clrName": "NonPublicMethods",
-          "tsEmitName": "nonPublicMethods",
+          "tsEmitName": "NonPublicMethods",
           "normalizedSignature": "NonPublicMethods|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -83,7 +83,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes::PublicFieldsSystem.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
           "clrName": "PublicFields",
-          "tsEmitName": "publicFields",
+          "tsEmitName": "PublicFields",
           "normalizedSignature": "PublicFields|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -92,7 +92,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes::NonPublicFieldsSystem.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
           "clrName": "NonPublicFields",
-          "tsEmitName": "nonPublicFields",
+          "tsEmitName": "NonPublicFields",
           "normalizedSignature": "NonPublicFields|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -101,7 +101,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes::PublicNestedTypesSystem.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
           "clrName": "PublicNestedTypes",
-          "tsEmitName": "publicNestedTypes",
+          "tsEmitName": "PublicNestedTypes",
           "normalizedSignature": "PublicNestedTypes|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -110,7 +110,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes::NonPublicNestedTypesSystem.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
           "clrName": "NonPublicNestedTypes",
-          "tsEmitName": "nonPublicNestedTypes",
+          "tsEmitName": "NonPublicNestedTypes",
           "normalizedSignature": "NonPublicNestedTypes|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -119,7 +119,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes::PublicPropertiesSystem.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
           "clrName": "PublicProperties",
-          "tsEmitName": "publicProperties",
+          "tsEmitName": "PublicProperties",
           "normalizedSignature": "PublicProperties|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -128,7 +128,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes::NonPublicPropertiesSystem.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
           "clrName": "NonPublicProperties",
-          "tsEmitName": "nonPublicProperties",
+          "tsEmitName": "NonPublicProperties",
           "normalizedSignature": "NonPublicProperties|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -137,7 +137,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes::PublicEventsSystem.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
           "clrName": "PublicEvents",
-          "tsEmitName": "publicEvents",
+          "tsEmitName": "PublicEvents",
           "normalizedSignature": "PublicEvents|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -146,7 +146,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes::NonPublicEventsSystem.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
           "clrName": "NonPublicEvents",
-          "tsEmitName": "nonPublicEvents",
+          "tsEmitName": "NonPublicEvents",
           "normalizedSignature": "NonPublicEvents|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -155,7 +155,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes::InterfacesSystem.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
           "clrName": "Interfaces",
-          "tsEmitName": "interfaces",
+          "tsEmitName": "Interfaces",
           "normalizedSignature": "Interfaces|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -164,7 +164,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes::NonPublicConstructorsWithInheritedSystem.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
           "clrName": "NonPublicConstructorsWithInherited",
-          "tsEmitName": "nonPublicConstructorsWithInherited",
+          "tsEmitName": "NonPublicConstructorsWithInherited",
           "normalizedSignature": "NonPublicConstructorsWithInherited|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -173,7 +173,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes::NonPublicMethodsWithInheritedSystem.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
           "clrName": "NonPublicMethodsWithInherited",
-          "tsEmitName": "nonPublicMethodsWithInherited",
+          "tsEmitName": "NonPublicMethodsWithInherited",
           "normalizedSignature": "NonPublicMethodsWithInherited|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -182,7 +182,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes::NonPublicFieldsWithInheritedSystem.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
           "clrName": "NonPublicFieldsWithInherited",
-          "tsEmitName": "nonPublicFieldsWithInherited",
+          "tsEmitName": "NonPublicFieldsWithInherited",
           "normalizedSignature": "NonPublicFieldsWithInherited|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -191,7 +191,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes::NonPublicNestedTypesWithInheritedSystem.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
           "clrName": "NonPublicNestedTypesWithInherited",
-          "tsEmitName": "nonPublicNestedTypesWithInherited",
+          "tsEmitName": "NonPublicNestedTypesWithInherited",
           "normalizedSignature": "NonPublicNestedTypesWithInherited|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -200,7 +200,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes::NonPublicPropertiesWithInheritedSystem.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
           "clrName": "NonPublicPropertiesWithInherited",
-          "tsEmitName": "nonPublicPropertiesWithInherited",
+          "tsEmitName": "NonPublicPropertiesWithInherited",
           "normalizedSignature": "NonPublicPropertiesWithInherited|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -209,7 +209,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes::NonPublicEventsWithInheritedSystem.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
           "clrName": "NonPublicEventsWithInherited",
-          "tsEmitName": "nonPublicEventsWithInherited",
+          "tsEmitName": "NonPublicEventsWithInherited",
           "normalizedSignature": "NonPublicEventsWithInherited|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -218,7 +218,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes::PublicConstructorsWithInheritedSystem.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
           "clrName": "PublicConstructorsWithInherited",
-          "tsEmitName": "publicConstructorsWithInherited",
+          "tsEmitName": "PublicConstructorsWithInherited",
           "normalizedSignature": "PublicConstructorsWithInherited|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -227,7 +227,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes::PublicNestedTypesWithInheritedSystem.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
           "clrName": "PublicNestedTypesWithInherited",
-          "tsEmitName": "publicNestedTypesWithInherited",
+          "tsEmitName": "PublicNestedTypesWithInherited",
           "normalizedSignature": "PublicNestedTypesWithInherited|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -236,7 +236,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes::AllConstructorsSystem.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
           "clrName": "AllConstructors",
-          "tsEmitName": "allConstructors",
+          "tsEmitName": "AllConstructors",
           "normalizedSignature": "AllConstructors|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -245,7 +245,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes::AllMethodsSystem.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
           "clrName": "AllMethods",
-          "tsEmitName": "allMethods",
+          "tsEmitName": "AllMethods",
           "normalizedSignature": "AllMethods|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -254,7 +254,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes::AllFieldsSystem.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
           "clrName": "AllFields",
-          "tsEmitName": "allFields",
+          "tsEmitName": "AllFields",
           "normalizedSignature": "AllFields|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -263,7 +263,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes::AllNestedTypesSystem.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
           "clrName": "AllNestedTypes",
-          "tsEmitName": "allNestedTypes",
+          "tsEmitName": "AllNestedTypes",
           "normalizedSignature": "AllNestedTypes|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -272,7 +272,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes::AllPropertiesSystem.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
           "clrName": "AllProperties",
-          "tsEmitName": "allProperties",
+          "tsEmitName": "AllProperties",
           "normalizedSignature": "AllProperties|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -281,7 +281,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes::AllEventsSystem.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
           "clrName": "AllEvents",
-          "tsEmitName": "allEvents",
+          "tsEmitName": "AllEvents",
           "normalizedSignature": "AllEvents|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -290,7 +290,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes::AllSystem.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
           "clrName": "All",
-          "tsEmitName": "all",
+          "tsEmitName": "All",
           "normalizedSignature": "All|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -337,7 +337,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.ConstantExpectedAttribute::Min:System.Object",
           "clrName": "Min",
-          "tsEmitName": "min",
+          "tsEmitName": "Min",
           "normalizedSignature": "Min|:System.Object|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -352,7 +352,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.ConstantExpectedAttribute::Max:System.Object",
           "clrName": "Max",
-          "tsEmitName": "max",
+          "tsEmitName": "Max",
           "normalizedSignature": "Max|:System.Object|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -434,7 +434,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.DoesNotReturnIfAttribute::ParameterValue:System.Boolean",
           "clrName": "ParameterValue",
-          "tsEmitName": "parameterValue",
+          "tsEmitName": "ParameterValue",
           "normalizedSignature": "ParameterValue|:System.Boolean|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -472,7 +472,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.DynamicallyAccessedMembersAttribute::MemberTypes:System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
           "clrName": "MemberTypes",
-          "tsEmitName": "memberTypes",
+          "tsEmitName": "MemberTypes",
           "normalizedSignature": "MemberTypes|:System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -510,7 +510,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.DynamicDependencyAttribute::MemberSignature:System.String",
           "clrName": "MemberSignature",
-          "tsEmitName": "memberSignature",
+          "tsEmitName": "MemberSignature",
           "normalizedSignature": "MemberSignature|:System.String|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -525,7 +525,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.DynamicDependencyAttribute::MemberTypes:System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
           "clrName": "MemberTypes",
-          "tsEmitName": "memberTypes",
+          "tsEmitName": "MemberTypes",
           "normalizedSignature": "MemberTypes|:System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -540,7 +540,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.DynamicDependencyAttribute::Type:System.Type",
           "clrName": "Type",
-          "tsEmitName": "type_",
+          "tsEmitName": "Type",
           "normalizedSignature": "Type|:System.Type|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -555,7 +555,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.DynamicDependencyAttribute::TypeName:System.String",
           "clrName": "TypeName",
-          "tsEmitName": "typeName",
+          "tsEmitName": "TypeName",
           "normalizedSignature": "TypeName|:System.String|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -570,7 +570,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.DynamicDependencyAttribute::AssemblyName:System.String",
           "clrName": "AssemblyName",
-          "tsEmitName": "assemblyName",
+          "tsEmitName": "AssemblyName",
           "normalizedSignature": "AssemblyName|:System.String|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -585,7 +585,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.DynamicDependencyAttribute::Condition:System.String",
           "clrName": "Condition",
-          "tsEmitName": "condition",
+          "tsEmitName": "Condition",
           "normalizedSignature": "Condition|:System.String|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -643,7 +643,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverageAttribute::Justification:System.String",
           "clrName": "Justification",
-          "tsEmitName": "justification",
+          "tsEmitName": "Justification",
           "normalizedSignature": "Justification|:System.String|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -681,7 +681,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.ExperimentalAttribute::DiagnosticId:System.String",
           "clrName": "DiagnosticId",
-          "tsEmitName": "diagnosticId",
+          "tsEmitName": "DiagnosticId",
           "normalizedSignature": "DiagnosticId|:System.String|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -696,7 +696,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.ExperimentalAttribute::Message:System.String",
           "clrName": "Message",
-          "tsEmitName": "message",
+          "tsEmitName": "Message",
           "normalizedSignature": "Message|:System.String|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -711,7 +711,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.ExperimentalAttribute::UrlFormat:System.String",
           "clrName": "UrlFormat",
-          "tsEmitName": "urlFormat",
+          "tsEmitName": "UrlFormat",
           "normalizedSignature": "UrlFormat|:System.String|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -749,7 +749,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.FeatureGuardAttribute::FeatureType:System.Type",
           "clrName": "FeatureType",
-          "tsEmitName": "featureType",
+          "tsEmitName": "FeatureType",
           "normalizedSignature": "FeatureType|:System.Type|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -787,7 +787,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.FeatureSwitchDefinitionAttribute::SwitchName:System.String",
           "clrName": "SwitchName",
-          "tsEmitName": "switchName",
+          "tsEmitName": "SwitchName",
           "normalizedSignature": "SwitchName|:System.String|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -847,7 +847,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.MaybeNullWhenAttribute::ReturnValue:System.Boolean",
           "clrName": "ReturnValue",
-          "tsEmitName": "returnValue",
+          "tsEmitName": "ReturnValue",
           "normalizedSignature": "ReturnValue|:System.Boolean|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -885,7 +885,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.MemberNotNullAttribute::Members:System.String[]",
           "clrName": "Members",
-          "tsEmitName": "members",
+          "tsEmitName": "Members",
           "normalizedSignature": "Members|:System.String[]|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -928,7 +928,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.MemberNotNullWhenAttribute::ReturnValue:System.Boolean",
           "clrName": "ReturnValue",
-          "tsEmitName": "returnValue",
+          "tsEmitName": "ReturnValue",
           "normalizedSignature": "ReturnValue|:System.Boolean|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -943,7 +943,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.MemberNotNullWhenAttribute::Members:System.String[]",
           "clrName": "Members",
-          "tsEmitName": "members",
+          "tsEmitName": "Members",
           "normalizedSignature": "Members|:System.String[]|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1008,7 +1008,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.NotNullIfNotNullAttribute::ParameterName:System.String",
           "clrName": "ParameterName",
-          "tsEmitName": "parameterName",
+          "tsEmitName": "ParameterName",
           "normalizedSignature": "ParameterName|:System.String|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1046,7 +1046,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.NotNullWhenAttribute::ReturnValue:System.Boolean",
           "clrName": "ReturnValue",
-          "tsEmitName": "returnValue",
+          "tsEmitName": "ReturnValue",
           "normalizedSignature": "ReturnValue|:System.Boolean|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1084,7 +1084,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.RequiresAssemblyFilesAttribute::Message:System.String",
           "clrName": "Message",
-          "tsEmitName": "message",
+          "tsEmitName": "Message",
           "normalizedSignature": "Message|:System.String|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1099,7 +1099,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.RequiresAssemblyFilesAttribute::Url:System.String",
           "clrName": "Url",
-          "tsEmitName": "url",
+          "tsEmitName": "Url",
           "normalizedSignature": "Url|:System.String|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1142,7 +1142,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.RequiresDynamicCodeAttribute::ExcludeStatics:System.Boolean",
           "clrName": "ExcludeStatics",
-          "tsEmitName": "excludeStatics",
+          "tsEmitName": "ExcludeStatics",
           "normalizedSignature": "ExcludeStatics|:System.Boolean|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1157,7 +1157,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.RequiresDynamicCodeAttribute::Message:System.String",
           "clrName": "Message",
-          "tsEmitName": "message",
+          "tsEmitName": "Message",
           "normalizedSignature": "Message|:System.String|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1172,7 +1172,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.RequiresDynamicCodeAttribute::Url:System.String",
           "clrName": "Url",
-          "tsEmitName": "url",
+          "tsEmitName": "Url",
           "normalizedSignature": "Url|:System.String|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1210,7 +1210,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.RequiresUnreferencedCodeAttribute::ExcludeStatics:System.Boolean",
           "clrName": "ExcludeStatics",
-          "tsEmitName": "excludeStatics",
+          "tsEmitName": "ExcludeStatics",
           "normalizedSignature": "ExcludeStatics|:System.Boolean|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1225,7 +1225,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.RequiresUnreferencedCodeAttribute::Message:System.String",
           "clrName": "Message",
-          "tsEmitName": "message",
+          "tsEmitName": "Message",
           "normalizedSignature": "Message|:System.String|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1240,7 +1240,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.RequiresUnreferencedCodeAttribute::Url:System.String",
           "clrName": "Url",
-          "tsEmitName": "url",
+          "tsEmitName": "Url",
           "normalizedSignature": "Url|:System.String|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1300,7 +1300,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.StringSyntaxAttribute::Syntax:System.String",
           "clrName": "Syntax",
-          "tsEmitName": "syntax",
+          "tsEmitName": "Syntax",
           "normalizedSignature": "Syntax|:System.String|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1315,7 +1315,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.StringSyntaxAttribute::Arguments:System.Object[]",
           "clrName": "Arguments",
-          "tsEmitName": "arguments",
+          "tsEmitName": "Arguments",
           "normalizedSignature": "Arguments|:System.Object[]|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1332,7 +1332,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.StringSyntaxAttribute::CompositeFormatSystem.String",
           "clrName": "CompositeFormat",
-          "tsEmitName": "compositeFormat",
+          "tsEmitName": "CompositeFormat",
           "normalizedSignature": "CompositeFormat|System.String|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1341,7 +1341,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.StringSyntaxAttribute::DateOnlyFormatSystem.String",
           "clrName": "DateOnlyFormat",
-          "tsEmitName": "dateOnlyFormat",
+          "tsEmitName": "DateOnlyFormat",
           "normalizedSignature": "DateOnlyFormat|System.String|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1350,7 +1350,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.StringSyntaxAttribute::DateTimeFormatSystem.String",
           "clrName": "DateTimeFormat",
-          "tsEmitName": "dateTimeFormat",
+          "tsEmitName": "DateTimeFormat",
           "normalizedSignature": "DateTimeFormat|System.String|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1359,7 +1359,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.StringSyntaxAttribute::EnumFormatSystem.String",
           "clrName": "EnumFormat",
-          "tsEmitName": "enumFormat",
+          "tsEmitName": "EnumFormat",
           "normalizedSignature": "EnumFormat|System.String|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1368,7 +1368,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.StringSyntaxAttribute::GuidFormatSystem.String",
           "clrName": "GuidFormat",
-          "tsEmitName": "guidFormat",
+          "tsEmitName": "GuidFormat",
           "normalizedSignature": "GuidFormat|System.String|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1377,7 +1377,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.StringSyntaxAttribute::JsonSystem.String",
           "clrName": "Json",
-          "tsEmitName": "json",
+          "tsEmitName": "Json",
           "normalizedSignature": "Json|System.String|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1386,7 +1386,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.StringSyntaxAttribute::NumericFormatSystem.String",
           "clrName": "NumericFormat",
-          "tsEmitName": "numericFormat",
+          "tsEmitName": "NumericFormat",
           "normalizedSignature": "NumericFormat|System.String|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1395,7 +1395,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.StringSyntaxAttribute::RegexSystem.String",
           "clrName": "Regex",
-          "tsEmitName": "regex",
+          "tsEmitName": "Regex",
           "normalizedSignature": "Regex|System.String|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1404,7 +1404,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.StringSyntaxAttribute::TimeOnlyFormatSystem.String",
           "clrName": "TimeOnlyFormat",
-          "tsEmitName": "timeOnlyFormat",
+          "tsEmitName": "TimeOnlyFormat",
           "normalizedSignature": "TimeOnlyFormat|System.String|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1413,7 +1413,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.StringSyntaxAttribute::TimeSpanFormatSystem.String",
           "clrName": "TimeSpanFormat",
-          "tsEmitName": "timeSpanFormat",
+          "tsEmitName": "TimeSpanFormat",
           "normalizedSignature": "TimeSpanFormat|System.String|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1422,7 +1422,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.StringSyntaxAttribute::UriSystem.String",
           "clrName": "Uri",
-          "tsEmitName": "uri",
+          "tsEmitName": "Uri",
           "normalizedSignature": "Uri|System.String|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1431,7 +1431,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.StringSyntaxAttribute::XmlSystem.String",
           "clrName": "Xml",
-          "tsEmitName": "xml",
+          "tsEmitName": "Xml",
           "normalizedSignature": "Xml|System.String|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1467,7 +1467,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.SuppressMessageAttribute::Category:System.String",
           "clrName": "Category",
-          "tsEmitName": "category",
+          "tsEmitName": "Category",
           "normalizedSignature": "Category|:System.String|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1482,7 +1482,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.SuppressMessageAttribute::CheckId:System.String",
           "clrName": "CheckId",
-          "tsEmitName": "checkId",
+          "tsEmitName": "CheckId",
           "normalizedSignature": "CheckId|:System.String|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1497,7 +1497,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.SuppressMessageAttribute::Scope:System.String",
           "clrName": "Scope",
-          "tsEmitName": "scope",
+          "tsEmitName": "Scope",
           "normalizedSignature": "Scope|:System.String|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1512,7 +1512,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.SuppressMessageAttribute::Target:System.String",
           "clrName": "Target",
-          "tsEmitName": "target",
+          "tsEmitName": "Target",
           "normalizedSignature": "Target|:System.String|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1527,7 +1527,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.SuppressMessageAttribute::MessageId:System.String",
           "clrName": "MessageId",
-          "tsEmitName": "messageId",
+          "tsEmitName": "MessageId",
           "normalizedSignature": "MessageId|:System.String|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1542,7 +1542,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.SuppressMessageAttribute::Justification:System.String",
           "clrName": "Justification",
-          "tsEmitName": "justification",
+          "tsEmitName": "Justification",
           "normalizedSignature": "Justification|:System.String|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1580,7 +1580,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.UnconditionalSuppressMessageAttribute::Category:System.String",
           "clrName": "Category",
-          "tsEmitName": "category",
+          "tsEmitName": "Category",
           "normalizedSignature": "Category|:System.String|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1595,7 +1595,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.UnconditionalSuppressMessageAttribute::CheckId:System.String",
           "clrName": "CheckId",
-          "tsEmitName": "checkId",
+          "tsEmitName": "CheckId",
           "normalizedSignature": "CheckId|:System.String|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1610,7 +1610,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.UnconditionalSuppressMessageAttribute::Scope:System.String",
           "clrName": "Scope",
-          "tsEmitName": "scope",
+          "tsEmitName": "Scope",
           "normalizedSignature": "Scope|:System.String|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1625,7 +1625,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.UnconditionalSuppressMessageAttribute::Target:System.String",
           "clrName": "Target",
-          "tsEmitName": "target",
+          "tsEmitName": "Target",
           "normalizedSignature": "Target|:System.String|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1640,7 +1640,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.UnconditionalSuppressMessageAttribute::MessageId:System.String",
           "clrName": "MessageId",
-          "tsEmitName": "messageId",
+          "tsEmitName": "MessageId",
           "normalizedSignature": "MessageId|:System.String|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1655,7 +1655,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.UnconditionalSuppressMessageAttribute::Justification:System.String",
           "clrName": "Justification",
-          "tsEmitName": "justification",
+          "tsEmitName": "Justification",
           "normalizedSignature": "Justification|:System.String|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",

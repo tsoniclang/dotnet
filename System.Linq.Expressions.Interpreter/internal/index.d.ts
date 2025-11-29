@@ -35,8 +35,8 @@ export type CLROf<T> =
     T; // Identity fallback for non-primitive types
 
 export class LightLambda$instance {
-    run(arguments: any[]): any;
-    runVoid(arguments: any[]): any;
+    Run(arguments: unknown[]): unknown;
+    RunVoid(arguments: unknown[]): unknown;
 }
 
 

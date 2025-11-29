@@ -41,10 +41,10 @@ export type CLROf<T> =
     T; // Identity fallback for non-primitive types
 
 export enum XmlKnownDtds {
-    none = 0,
-    xhtml10 = 1,
-    rss091 = 2,
-    all = 65535
+    None = 0,
+    Xhtml10 = 1,
+    Rss091 = 2,
+    All = 65535
 }
 
 
@@ -54,18 +54,18 @@ export class XmlPreloadedResolver$instance extends System_Xml_Internal.XmlResolv
     constructor(fallbackResolver: XmlResolver);
     constructor(fallbackResolver: XmlResolver, preloadedDtds: XmlKnownDtds);
     constructor(fallbackResolver: XmlResolver, preloadedDtds: XmlKnownDtds, uriComparer: IEqualityComparer_1<Uri>);
-    credentials: ICredentials;
-    readonly preloadedUris: IEnumerable_1<Uri>;
-    add(uri: Uri, value: byte[]): void;
-    add(uri: Uri, value: byte[], offset: int, count: int): void;
-    add(uri: Uri, value: Stream): void;
-    add(uri: Uri, value: string): void;
-    getEntity(absoluteUri: Uri, role: string, ofObjectToReturn: Type): any;
-    getEntityAsync(absoluteUri: Uri, role: string, ofObjectToReturn: Type): Task_1<any>;
-    getEntityAsync(absoluteUri: Uri, role: string, ofObjectToReturn: Type): Task_1<any>;
-    remove(uri: Uri): void;
-    resolveUri(baseUri: Uri, relativeUri: string): Uri;
-    supportsType(absoluteUri: Uri, type_: Type): boolean;
+    Credentials: ICredentials;
+    readonly PreloadedUris: IEnumerable_1<Uri>;
+    Add(uri: Uri, value: byte[]): void;
+    Add(uri: Uri, value: byte[], offset: int, count: int): void;
+    Add(uri: Uri, value: Stream): void;
+    Add(uri: Uri, value: string): void;
+    GetEntity(absoluteUri: Uri, role: string, ofObjectToReturn: Type): unknown;
+    GetEntityAsync(absoluteUri: Uri, role: string, ofObjectToReturn: Type): Task_1<unknown>;
+    GetEntityAsync(absoluteUri: Uri, role: string, ofObjectToReturn: Type): Task_1<unknown>;
+    Remove(uri: Uri): void;
+    ResolveUri(baseUri: Uri, relativeUri: string): Uri;
+    SupportsType(absoluteUri: Uri, type_: Type): boolean;
 }
 
 

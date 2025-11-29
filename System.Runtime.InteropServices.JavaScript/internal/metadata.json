@@ -18,7 +18,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::Initialize():System.Void",
           "clrName": "Initialize",
-          "tsEmitName": "initialize",
+          "tsEmitName": "Initialize",
           "normalizedSignature": "Initialize|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -34,7 +34,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToManaged(System.Boolean\u0026):System.Void",
           "clrName": "ToManaged",
-          "tsEmitName": "toManaged",
+          "tsEmitName": "ToManaged",
           "normalizedSignature": "ToManaged|(System.Boolean\u0026):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -50,7 +50,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToJS(System.Boolean):System.Void",
           "clrName": "ToJS",
-          "tsEmitName": "toJS",
+          "tsEmitName": "ToJS",
           "normalizedSignature": "ToJS|(System.Boolean):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -66,7 +66,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToManaged(System.Nullable_1[[System.Boolean,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026):System.Void",
           "clrName": "ToManaged",
-          "tsEmitName": "toManaged2",
+          "tsEmitName": "ToManaged2",
           "normalizedSignature": "ToManaged|(System.Nullable_1[[System.Boolean,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -82,7 +82,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToJS(System.Nullable_1[[System.Boolean,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "clrName": "ToJS",
-          "tsEmitName": "toJS2",
+          "tsEmitName": "ToJS2",
           "normalizedSignature": "ToJS|(System.Nullable_1[[System.Boolean,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -98,7 +98,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToManaged(System.Byte\u0026):System.Void",
           "clrName": "ToManaged",
-          "tsEmitName": "toManaged3",
+          "tsEmitName": "ToManaged3",
           "normalizedSignature": "ToManaged|(System.Byte\u0026):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -114,7 +114,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToJS(System.Byte):System.Void",
           "clrName": "ToJS",
-          "tsEmitName": "toJS3",
+          "tsEmitName": "ToJS3",
           "normalizedSignature": "ToJS|(System.Byte):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -130,7 +130,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToManaged(System.Nullable_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026):System.Void",
           "clrName": "ToManaged",
-          "tsEmitName": "toManaged4",
+          "tsEmitName": "ToManaged4",
           "normalizedSignature": "ToManaged|(System.Nullable_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -146,7 +146,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToJS(System.Nullable_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "clrName": "ToJS",
-          "tsEmitName": "toJS4",
+          "tsEmitName": "ToJS4",
           "normalizedSignature": "ToJS|(System.Nullable_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -162,7 +162,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToManaged(System.Byte[]\u0026):System.Void",
           "clrName": "ToManaged",
-          "tsEmitName": "toManaged5",
+          "tsEmitName": "ToManaged5",
           "normalizedSignature": "ToManaged|(System.Byte[]\u0026):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -178,7 +178,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToJS(System.Byte[]):System.Void",
           "clrName": "ToJS",
-          "tsEmitName": "toJS5",
+          "tsEmitName": "ToJS5",
           "normalizedSignature": "ToJS|(System.Byte[]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -194,7 +194,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToManaged(System.Char\u0026):System.Void",
           "clrName": "ToManaged",
-          "tsEmitName": "toManaged6",
+          "tsEmitName": "ToManaged6",
           "normalizedSignature": "ToManaged|(System.Char\u0026):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -210,7 +210,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToJS(System.Char):System.Void",
           "clrName": "ToJS",
-          "tsEmitName": "toJS6",
+          "tsEmitName": "ToJS6",
           "normalizedSignature": "ToJS|(System.Char):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -226,7 +226,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToManaged(System.Nullable_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026):System.Void",
           "clrName": "ToManaged",
-          "tsEmitName": "toManaged7",
+          "tsEmitName": "ToManaged7",
           "normalizedSignature": "ToManaged|(System.Nullable_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -242,7 +242,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToJS(System.Nullable_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "clrName": "ToJS",
-          "tsEmitName": "toJS7",
+          "tsEmitName": "ToJS7",
           "normalizedSignature": "ToJS|(System.Nullable_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -258,7 +258,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToManaged(System.Int16\u0026):System.Void",
           "clrName": "ToManaged",
-          "tsEmitName": "toManaged8",
+          "tsEmitName": "ToManaged8",
           "normalizedSignature": "ToManaged|(System.Int16\u0026):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -274,7 +274,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToJS(System.Int16):System.Void",
           "clrName": "ToJS",
-          "tsEmitName": "toJS8",
+          "tsEmitName": "ToJS8",
           "normalizedSignature": "ToJS|(System.Int16):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -290,7 +290,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToManaged(System.Nullable_1[[System.Int16,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026):System.Void",
           "clrName": "ToManaged",
-          "tsEmitName": "toManaged9",
+          "tsEmitName": "ToManaged9",
           "normalizedSignature": "ToManaged|(System.Nullable_1[[System.Int16,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -306,7 +306,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToJS(System.Nullable_1[[System.Int16,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "clrName": "ToJS",
-          "tsEmitName": "toJS9",
+          "tsEmitName": "ToJS9",
           "normalizedSignature": "ToJS|(System.Nullable_1[[System.Int16,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -322,7 +322,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToManaged(System.Int32\u0026):System.Void",
           "clrName": "ToManaged",
-          "tsEmitName": "toManaged10",
+          "tsEmitName": "ToManaged10",
           "normalizedSignature": "ToManaged|(System.Int32\u0026):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -338,7 +338,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToJS(System.Int32):System.Void",
           "clrName": "ToJS",
-          "tsEmitName": "toJS10",
+          "tsEmitName": "ToJS10",
           "normalizedSignature": "ToJS|(System.Int32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -354,7 +354,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToManaged(System.Nullable_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026):System.Void",
           "clrName": "ToManaged",
-          "tsEmitName": "toManaged11",
+          "tsEmitName": "ToManaged11",
           "normalizedSignature": "ToManaged|(System.Nullable_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -370,7 +370,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToJS(System.Nullable_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "clrName": "ToJS",
-          "tsEmitName": "toJS11",
+          "tsEmitName": "ToJS11",
           "normalizedSignature": "ToJS|(System.Nullable_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -386,7 +386,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToManaged(System.Int32[]\u0026):System.Void",
           "clrName": "ToManaged",
-          "tsEmitName": "toManaged12",
+          "tsEmitName": "ToManaged12",
           "normalizedSignature": "ToManaged|(System.Int32[]\u0026):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -402,7 +402,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToJS(System.Int32[]):System.Void",
           "clrName": "ToJS",
-          "tsEmitName": "toJS12",
+          "tsEmitName": "ToJS12",
           "normalizedSignature": "ToJS|(System.Int32[]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -418,7 +418,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToManaged(System.Int64\u0026):System.Void",
           "clrName": "ToManaged",
-          "tsEmitName": "toManaged13",
+          "tsEmitName": "ToManaged13",
           "normalizedSignature": "ToManaged|(System.Int64\u0026):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -434,7 +434,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToJS(System.Int64):System.Void",
           "clrName": "ToJS",
-          "tsEmitName": "toJS13",
+          "tsEmitName": "ToJS13",
           "normalizedSignature": "ToJS|(System.Int64):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -450,7 +450,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToManaged(System.Nullable_1[[System.Int64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026):System.Void",
           "clrName": "ToManaged",
-          "tsEmitName": "toManaged14",
+          "tsEmitName": "ToManaged14",
           "normalizedSignature": "ToManaged|(System.Nullable_1[[System.Int64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -466,7 +466,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToJS(System.Nullable_1[[System.Int64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "clrName": "ToJS",
-          "tsEmitName": "toJS14",
+          "tsEmitName": "ToJS14",
           "normalizedSignature": "ToJS|(System.Nullable_1[[System.Int64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -482,7 +482,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToManagedBig(System.Int64\u0026):System.Void",
           "clrName": "ToManagedBig",
-          "tsEmitName": "toManagedBig",
+          "tsEmitName": "ToManagedBig",
           "normalizedSignature": "ToManagedBig|(System.Int64\u0026):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -498,7 +498,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToJSBig(System.Int64):System.Void",
           "clrName": "ToJSBig",
-          "tsEmitName": "toJSBig",
+          "tsEmitName": "ToJSBig",
           "normalizedSignature": "ToJSBig|(System.Int64):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -514,7 +514,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToManagedBig(System.Nullable_1[[System.Int64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026):System.Void",
           "clrName": "ToManagedBig",
-          "tsEmitName": "toManagedBig2",
+          "tsEmitName": "ToManagedBig2",
           "normalizedSignature": "ToManagedBig|(System.Nullable_1[[System.Int64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -530,7 +530,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToJSBig(System.Nullable_1[[System.Int64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "clrName": "ToJSBig",
-          "tsEmitName": "toJSBig2",
+          "tsEmitName": "ToJSBig2",
           "normalizedSignature": "ToJSBig|(System.Nullable_1[[System.Int64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -546,7 +546,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToManaged(System.Single\u0026):System.Void",
           "clrName": "ToManaged",
-          "tsEmitName": "toManaged15",
+          "tsEmitName": "ToManaged15",
           "normalizedSignature": "ToManaged|(System.Single\u0026):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -562,7 +562,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToJS(System.Single):System.Void",
           "clrName": "ToJS",
-          "tsEmitName": "toJS15",
+          "tsEmitName": "ToJS15",
           "normalizedSignature": "ToJS|(System.Single):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -578,7 +578,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToManaged(System.Nullable_1[[System.Single,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026):System.Void",
           "clrName": "ToManaged",
-          "tsEmitName": "toManaged16",
+          "tsEmitName": "ToManaged16",
           "normalizedSignature": "ToManaged|(System.Nullable_1[[System.Single,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -594,7 +594,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToJS(System.Nullable_1[[System.Single,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "clrName": "ToJS",
-          "tsEmitName": "toJS16",
+          "tsEmitName": "ToJS16",
           "normalizedSignature": "ToJS|(System.Nullable_1[[System.Single,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -610,7 +610,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToManaged(System.Double\u0026):System.Void",
           "clrName": "ToManaged",
-          "tsEmitName": "toManaged17",
+          "tsEmitName": "ToManaged17",
           "normalizedSignature": "ToManaged|(System.Double\u0026):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -626,7 +626,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToJS(System.Double):System.Void",
           "clrName": "ToJS",
-          "tsEmitName": "toJS17",
+          "tsEmitName": "ToJS17",
           "normalizedSignature": "ToJS|(System.Double):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -642,7 +642,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToManaged(System.Nullable_1[[System.Double,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026):System.Void",
           "clrName": "ToManaged",
-          "tsEmitName": "toManaged18",
+          "tsEmitName": "ToManaged18",
           "normalizedSignature": "ToManaged|(System.Nullable_1[[System.Double,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -658,7 +658,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToJS(System.Nullable_1[[System.Double,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "clrName": "ToJS",
-          "tsEmitName": "toJS18",
+          "tsEmitName": "ToJS18",
           "normalizedSignature": "ToJS|(System.Nullable_1[[System.Double,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -674,7 +674,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToManaged(System.Double[]\u0026):System.Void",
           "clrName": "ToManaged",
-          "tsEmitName": "toManaged19",
+          "tsEmitName": "ToManaged19",
           "normalizedSignature": "ToManaged|(System.Double[]\u0026):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -690,7 +690,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToJS(System.Double[]):System.Void",
           "clrName": "ToJS",
-          "tsEmitName": "toJS19",
+          "tsEmitName": "ToJS19",
           "normalizedSignature": "ToJS|(System.Double[]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -706,7 +706,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToManaged(System.IntPtr\u0026):System.Void",
           "clrName": "ToManaged",
-          "tsEmitName": "toManaged20",
+          "tsEmitName": "ToManaged20",
           "normalizedSignature": "ToManaged|(System.IntPtr\u0026):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -722,7 +722,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToJS(System.IntPtr):System.Void",
           "clrName": "ToJS",
-          "tsEmitName": "toJS20",
+          "tsEmitName": "ToJS20",
           "normalizedSignature": "ToJS|(System.IntPtr):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -738,7 +738,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToManaged(System.Nullable_1[[System.IntPtr,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026):System.Void",
           "clrName": "ToManaged",
-          "tsEmitName": "toManaged21",
+          "tsEmitName": "ToManaged21",
           "normalizedSignature": "ToManaged|(System.Nullable_1[[System.IntPtr,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -754,7 +754,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToJS(System.Nullable_1[[System.IntPtr,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "clrName": "ToJS",
-          "tsEmitName": "toJS21",
+          "tsEmitName": "ToJS21",
           "normalizedSignature": "ToJS|(System.Nullable_1[[System.IntPtr,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -770,7 +770,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToManaged(System.DateTimeOffset\u0026):System.Void",
           "clrName": "ToManaged",
-          "tsEmitName": "toManaged22",
+          "tsEmitName": "ToManaged22",
           "normalizedSignature": "ToManaged|(System.DateTimeOffset\u0026):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -786,7 +786,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToJS(System.DateTimeOffset):System.Void",
           "clrName": "ToJS",
-          "tsEmitName": "toJS22",
+          "tsEmitName": "ToJS22",
           "normalizedSignature": "ToJS|(System.DateTimeOffset):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -802,7 +802,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToManaged(System.Nullable_1[[System.DateTimeOffset,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026):System.Void",
           "clrName": "ToManaged",
-          "tsEmitName": "toManaged23",
+          "tsEmitName": "ToManaged23",
           "normalizedSignature": "ToManaged|(System.Nullable_1[[System.DateTimeOffset,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -818,7 +818,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToJS(System.Nullable_1[[System.DateTimeOffset,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "clrName": "ToJS",
-          "tsEmitName": "toJS23",
+          "tsEmitName": "ToJS23",
           "normalizedSignature": "ToJS|(System.Nullable_1[[System.DateTimeOffset,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -834,7 +834,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToManaged(System.DateTime\u0026):System.Void",
           "clrName": "ToManaged",
-          "tsEmitName": "toManaged24",
+          "tsEmitName": "ToManaged24",
           "normalizedSignature": "ToManaged|(System.DateTime\u0026):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -850,7 +850,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToJS(System.DateTime):System.Void",
           "clrName": "ToJS",
-          "tsEmitName": "toJS24",
+          "tsEmitName": "ToJS24",
           "normalizedSignature": "ToJS|(System.DateTime):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -866,7 +866,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToManaged(System.Nullable_1[[System.DateTime,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026):System.Void",
           "clrName": "ToManaged",
-          "tsEmitName": "toManaged25",
+          "tsEmitName": "ToManaged25",
           "normalizedSignature": "ToManaged|(System.Nullable_1[[System.DateTime,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -882,7 +882,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToJS(System.Nullable_1[[System.DateTime,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "clrName": "ToJS",
-          "tsEmitName": "toJS25",
+          "tsEmitName": "ToJS25",
           "normalizedSignature": "ToJS|(System.Nullable_1[[System.DateTime,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -898,7 +898,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToManaged(System.String\u0026):System.Void",
           "clrName": "ToManaged",
-          "tsEmitName": "toManaged26",
+          "tsEmitName": "ToManaged26",
           "normalizedSignature": "ToManaged|(System.String\u0026):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -914,7 +914,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToJS(System.String):System.Void",
           "clrName": "ToJS",
-          "tsEmitName": "toJS26",
+          "tsEmitName": "ToJS26",
           "normalizedSignature": "ToJS|(System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -930,7 +930,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToManaged(System.String[]\u0026):System.Void",
           "clrName": "ToManaged",
-          "tsEmitName": "toManaged27",
+          "tsEmitName": "ToManaged27",
           "normalizedSignature": "ToManaged|(System.String[]\u0026):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -946,7 +946,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToJS(System.String[]):System.Void",
           "clrName": "ToJS",
-          "tsEmitName": "toJS27",
+          "tsEmitName": "ToJS27",
           "normalizedSignature": "ToJS|(System.String[]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -962,7 +962,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToManaged(System.Exception\u0026):System.Void",
           "clrName": "ToManaged",
-          "tsEmitName": "toManaged28",
+          "tsEmitName": "ToManaged28",
           "normalizedSignature": "ToManaged|(System.Exception\u0026):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -978,7 +978,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToJS(System.Exception):System.Void",
           "clrName": "ToJS",
-          "tsEmitName": "toJS28",
+          "tsEmitName": "ToJS28",
           "normalizedSignature": "ToJS|(System.Exception):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -994,7 +994,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToManaged(System.Object\u0026):System.Void",
           "clrName": "ToManaged",
-          "tsEmitName": "toManaged29",
+          "tsEmitName": "ToManaged29",
           "normalizedSignature": "ToManaged|(System.Object\u0026):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1010,7 +1010,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToJS(System.Object):System.Void",
           "clrName": "ToJS",
-          "tsEmitName": "toJS29",
+          "tsEmitName": "ToJS29",
           "normalizedSignature": "ToJS|(System.Object):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1026,7 +1026,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToManaged(System.Object[]\u0026):System.Void",
           "clrName": "ToManaged",
-          "tsEmitName": "toManaged30",
+          "tsEmitName": "ToManaged30",
           "normalizedSignature": "ToManaged|(System.Object[]\u0026):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1042,7 +1042,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToJS(System.Object[]):System.Void",
           "clrName": "ToJS",
-          "tsEmitName": "toJS30",
+          "tsEmitName": "ToJS30",
           "normalizedSignature": "ToJS|(System.Object[]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1058,7 +1058,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToManaged(System.Runtime.InteropServices.JavaScript.JSObject\u0026):System.Void",
           "clrName": "ToManaged",
-          "tsEmitName": "toManaged31",
+          "tsEmitName": "ToManaged31",
           "normalizedSignature": "ToManaged|(System.Runtime.InteropServices.JavaScript.JSObject\u0026):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1074,7 +1074,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToJS(System.Runtime.InteropServices.JavaScript.JSObject):System.Void",
           "clrName": "ToJS",
-          "tsEmitName": "toJS31",
+          "tsEmitName": "ToJS31",
           "normalizedSignature": "ToJS|(System.Runtime.InteropServices.JavaScript.JSObject):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1090,7 +1090,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToManaged(System.Runtime.InteropServices.JavaScript.JSObject[]\u0026):System.Void",
           "clrName": "ToManaged",
-          "tsEmitName": "toManaged32",
+          "tsEmitName": "ToManaged32",
           "normalizedSignature": "ToManaged|(System.Runtime.InteropServices.JavaScript.JSObject[]\u0026):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1106,7 +1106,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToJS(System.Runtime.InteropServices.JavaScript.JSObject[]):System.Void",
           "clrName": "ToJS",
-          "tsEmitName": "toJS32",
+          "tsEmitName": "ToJS32",
           "normalizedSignature": "ToJS|(System.Runtime.InteropServices.JavaScript.JSObject[]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1122,7 +1122,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToManaged(System.Threading.Tasks.Task\u0026):System.Void",
           "clrName": "ToManaged",
-          "tsEmitName": "toManaged33",
+          "tsEmitName": "ToManaged33",
           "normalizedSignature": "ToManaged|(System.Threading.Tasks.Task\u0026):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1138,7 +1138,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToJS(System.Threading.Tasks.Task):System.Void",
           "clrName": "ToJS",
-          "tsEmitName": "toJS33",
+          "tsEmitName": "ToJS33",
           "normalizedSignature": "ToJS|(System.Threading.Tasks.Task):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1154,7 +1154,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToManaged(Task_1\u0026,ArgumentToManagedCallback_1):System.Void",
           "clrName": "ToManaged",
-          "tsEmitName": "toManaged34",
+          "tsEmitName": "ToManaged34",
           "normalizedSignature": "ToManaged|(Task_1\u0026,ArgumentToManagedCallback_1):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1170,7 +1170,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToJS(Task_1,ArgumentToJSCallback_1):System.Void",
           "clrName": "ToJS",
-          "tsEmitName": "toJS34",
+          "tsEmitName": "ToJS34",
           "normalizedSignature": "ToJS|(Task_1,ArgumentToJSCallback_1):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1186,7 +1186,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToManaged(System.Action\u0026):System.Void",
           "clrName": "ToManaged",
-          "tsEmitName": "toManaged35",
+          "tsEmitName": "ToManaged35",
           "normalizedSignature": "ToManaged|(System.Action\u0026):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1202,7 +1202,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToJS(System.Action):System.Void",
           "clrName": "ToJS",
-          "tsEmitName": "toJS35",
+          "tsEmitName": "ToJS35",
           "normalizedSignature": "ToJS|(System.Action):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1218,7 +1218,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToManaged(Action_1\u0026,ArgumentToJSCallback_1):System.Void",
           "clrName": "ToManaged",
-          "tsEmitName": "toManaged36",
+          "tsEmitName": "ToManaged36",
           "normalizedSignature": "ToManaged|(Action_1\u0026,ArgumentToJSCallback_1):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1234,7 +1234,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToJS(Action_1,ArgumentToManagedCallback_1):System.Void",
           "clrName": "ToJS",
-          "tsEmitName": "toJS36",
+          "tsEmitName": "ToJS36",
           "normalizedSignature": "ToJS|(Action_1,ArgumentToManagedCallback_1):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1250,7 +1250,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToManaged(Action_2\u0026,ArgumentToJSCallback_1,ArgumentToJSCallback_1):System.Void",
           "clrName": "ToManaged",
-          "tsEmitName": "toManaged37",
+          "tsEmitName": "ToManaged37",
           "normalizedSignature": "ToManaged|(Action_2\u0026,ArgumentToJSCallback_1,ArgumentToJSCallback_1):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1266,7 +1266,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToJS(Action_2,ArgumentToManagedCallback_1,ArgumentToManagedCallback_1):System.Void",
           "clrName": "ToJS",
-          "tsEmitName": "toJS37",
+          "tsEmitName": "ToJS37",
           "normalizedSignature": "ToJS|(Action_2,ArgumentToManagedCallback_1,ArgumentToManagedCallback_1):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1282,7 +1282,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToManaged(Action_3\u0026,ArgumentToJSCallback_1,ArgumentToJSCallback_1,ArgumentToJSCallback_1):System.Void",
           "clrName": "ToManaged",
-          "tsEmitName": "toManaged38",
+          "tsEmitName": "ToManaged38",
           "normalizedSignature": "ToManaged|(Action_3\u0026,ArgumentToJSCallback_1,ArgumentToJSCallback_1,ArgumentToJSCallback_1):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1298,7 +1298,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToJS(Action_3,ArgumentToManagedCallback_1,ArgumentToManagedCallback_1,ArgumentToManagedCallback_1):System.Void",
           "clrName": "ToJS",
-          "tsEmitName": "toJS38",
+          "tsEmitName": "ToJS38",
           "normalizedSignature": "ToJS|(Action_3,ArgumentToManagedCallback_1,ArgumentToManagedCallback_1,ArgumentToManagedCallback_1):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1314,7 +1314,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToManaged(Func_1\u0026,ArgumentToManagedCallback_1):System.Void",
           "clrName": "ToManaged",
-          "tsEmitName": "toManaged39",
+          "tsEmitName": "ToManaged39",
           "normalizedSignature": "ToManaged|(Func_1\u0026,ArgumentToManagedCallback_1):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1330,7 +1330,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToJS(Func_1,ArgumentToJSCallback_1):System.Void",
           "clrName": "ToJS",
-          "tsEmitName": "toJS39",
+          "tsEmitName": "ToJS39",
           "normalizedSignature": "ToJS|(Func_1,ArgumentToJSCallback_1):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1346,7 +1346,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToManaged(Func_2\u0026,ArgumentToJSCallback_1,ArgumentToManagedCallback_1):System.Void",
           "clrName": "ToManaged",
-          "tsEmitName": "toManaged40",
+          "tsEmitName": "ToManaged40",
           "normalizedSignature": "ToManaged|(Func_2\u0026,ArgumentToJSCallback_1,ArgumentToManagedCallback_1):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1362,7 +1362,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToJS(Func_2,ArgumentToManagedCallback_1,ArgumentToJSCallback_1):System.Void",
           "clrName": "ToJS",
-          "tsEmitName": "toJS40",
+          "tsEmitName": "ToJS40",
           "normalizedSignature": "ToJS|(Func_2,ArgumentToManagedCallback_1,ArgumentToJSCallback_1):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1378,7 +1378,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToManaged(Func_3\u0026,ArgumentToJSCallback_1,ArgumentToJSCallback_1,ArgumentToManagedCallback_1):System.Void",
           "clrName": "ToManaged",
-          "tsEmitName": "toManaged41",
+          "tsEmitName": "ToManaged41",
           "normalizedSignature": "ToManaged|(Func_3\u0026,ArgumentToJSCallback_1,ArgumentToJSCallback_1,ArgumentToManagedCallback_1):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1394,7 +1394,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToJS(Func_3,ArgumentToManagedCallback_1,ArgumentToManagedCallback_1,ArgumentToJSCallback_1):System.Void",
           "clrName": "ToJS",
-          "tsEmitName": "toJS41",
+          "tsEmitName": "ToJS41",
           "normalizedSignature": "ToJS|(Func_3,ArgumentToManagedCallback_1,ArgumentToManagedCallback_1,ArgumentToJSCallback_1):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1410,7 +1410,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToManaged(Func_4\u0026,ArgumentToJSCallback_1,ArgumentToJSCallback_1,ArgumentToJSCallback_1,ArgumentToManagedCallback_1):System.Void",
           "clrName": "ToManaged",
-          "tsEmitName": "toManaged42",
+          "tsEmitName": "ToManaged42",
           "normalizedSignature": "ToManaged|(Func_4\u0026,ArgumentToJSCallback_1,ArgumentToJSCallback_1,ArgumentToJSCallback_1,ArgumentToManagedCallback_1):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1426,7 +1426,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToJS(Func_4,ArgumentToManagedCallback_1,ArgumentToManagedCallback_1,ArgumentToManagedCallback_1,ArgumentToJSCallback_1):System.Void",
           "clrName": "ToJS",
-          "tsEmitName": "toJS42",
+          "tsEmitName": "ToJS42",
           "normalizedSignature": "ToJS|(Func_4,ArgumentToManagedCallback_1,ArgumentToManagedCallback_1,ArgumentToManagedCallback_1,ArgumentToJSCallback_1):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1442,7 +1442,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToManaged(System.Void*\u0026):System.Void",
           "clrName": "ToManaged",
-          "tsEmitName": "toManaged43",
+          "tsEmitName": "ToManaged43",
           "normalizedSignature": "ToManaged|(System.Void*\u0026):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1458,7 +1458,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToJS(System.Void*):System.Void",
           "clrName": "ToJS",
-          "tsEmitName": "toJS43",
+          "tsEmitName": "ToJS43",
           "normalizedSignature": "ToJS|(System.Void*):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1474,7 +1474,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToManaged(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026):System.Void",
           "clrName": "ToManaged",
-          "tsEmitName": "toManaged44",
+          "tsEmitName": "ToManaged44",
           "normalizedSignature": "ToManaged|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1490,7 +1490,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToJS(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "clrName": "ToJS",
-          "tsEmitName": "toJS44",
+          "tsEmitName": "ToJS44",
           "normalizedSignature": "ToJS|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1506,7 +1506,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToManaged(System.ArraySegment_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026):System.Void",
           "clrName": "ToManaged",
-          "tsEmitName": "toManaged45",
+          "tsEmitName": "ToManaged45",
           "normalizedSignature": "ToManaged|(System.ArraySegment_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1522,7 +1522,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToJS(System.ArraySegment_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "clrName": "ToJS",
-          "tsEmitName": "toJS45",
+          "tsEmitName": "ToJS45",
           "normalizedSignature": "ToJS|(System.ArraySegment_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1538,7 +1538,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToManaged(System.Span_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026):System.Void",
           "clrName": "ToManaged",
-          "tsEmitName": "toManaged46",
+          "tsEmitName": "ToManaged46",
           "normalizedSignature": "ToManaged|(System.Span_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1554,7 +1554,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToJS(System.Span_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "clrName": "ToJS",
-          "tsEmitName": "toJS46",
+          "tsEmitName": "ToJS46",
           "normalizedSignature": "ToJS|(System.Span_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1570,7 +1570,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToManaged(System.Span_1[[System.Double,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026):System.Void",
           "clrName": "ToManaged",
-          "tsEmitName": "toManaged47",
+          "tsEmitName": "ToManaged47",
           "normalizedSignature": "ToManaged|(System.Span_1[[System.Double,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1586,7 +1586,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToJS(System.Span_1[[System.Double,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "clrName": "ToJS",
-          "tsEmitName": "toJS47",
+          "tsEmitName": "ToJS47",
           "normalizedSignature": "ToJS|(System.Span_1[[System.Double,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1602,7 +1602,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToManaged(System.ArraySegment_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026):System.Void",
           "clrName": "ToManaged",
-          "tsEmitName": "toManaged48",
+          "tsEmitName": "ToManaged48",
           "normalizedSignature": "ToManaged|(System.ArraySegment_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1618,7 +1618,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToJS(System.ArraySegment_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "clrName": "ToJS",
-          "tsEmitName": "toJS48",
+          "tsEmitName": "ToJS48",
           "normalizedSignature": "ToJS|(System.ArraySegment_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1634,7 +1634,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToManaged(System.ArraySegment_1[[System.Double,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026):System.Void",
           "clrName": "ToManaged",
-          "tsEmitName": "toManaged49",
+          "tsEmitName": "ToManaged49",
           "normalizedSignature": "ToManaged|(System.ArraySegment_1[[System.Double,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1650,7 +1650,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToJS(System.ArraySegment_1[[System.Double,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "clrName": "ToJS",
-          "tsEmitName": "toJS49",
+          "tsEmitName": "ToJS49",
           "normalizedSignature": "ToJS|(System.ArraySegment_1[[System.Double,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1683,7 +1683,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "getObjectData$view",
+          "tsEmitName": "GetObjectData$view",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -1700,7 +1700,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSException::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "getObjectData",
+          "tsEmitName": "GetObjectData",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -1722,6 +1722,13 @@
           "normalizedSignature": "constructor|(System.String):void|static=false",
           "isStatic": false,
           "parameterCount": 1
+        }
+      ],
+      "unsatisfiableInterfaces": [
+        {
+          "interfaceClrName": "System.Runtime.Serialization.ISerializable",
+          "reason": "ExplicitImplementationMovedToView",
+          "issueCount": 1
         }
       ]
     },
@@ -1761,7 +1768,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSFunctionBinding::InvokeJS(System.Runtime.InteropServices.JavaScript.JSFunctionBinding,System.Span_1[[System.Runtime.InteropServices.JavaScript.JSMarshalerArgument,System.Runtime.InteropServices.JavaScript,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):System.Void",
           "clrName": "InvokeJS",
-          "tsEmitName": "invokeJS",
+          "tsEmitName": "InvokeJS",
           "normalizedSignature": "InvokeJS|(System.Runtime.InteropServices.JavaScript.JSFunctionBinding,System.Span_1[[System.Runtime.InteropServices.JavaScript.JSMarshalerArgument,System.Runtime.InteropServices.JavaScript,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1777,7 +1784,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSFunctionBinding::BindJSFunction(System.String,System.String,System.ReadOnlySpan_1[[System.Runtime.InteropServices.JavaScript.JSMarshalerType,System.Runtime.InteropServices.JavaScript,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):System.Runtime.InteropServices.JavaScript.JSFunctionBinding",
           "clrName": "BindJSFunction",
-          "tsEmitName": "bindJSFunction",
+          "tsEmitName": "BindJSFunction",
           "normalizedSignature": "BindJSFunction|(System.String,System.String,System.ReadOnlySpan_1[[System.Runtime.InteropServices.JavaScript.JSMarshalerType,System.Runtime.InteropServices.JavaScript,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):System.Runtime.InteropServices.JavaScript.JSFunctionBinding|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1793,7 +1800,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSFunctionBinding::BindManagedFunction(System.String,System.Int32,System.ReadOnlySpan_1[[System.Runtime.InteropServices.JavaScript.JSMarshalerType,System.Runtime.InteropServices.JavaScript,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):System.Runtime.InteropServices.JavaScript.JSFunctionBinding",
           "clrName": "BindManagedFunction",
-          "tsEmitName": "bindManagedFunction",
+          "tsEmitName": "BindManagedFunction",
           "normalizedSignature": "BindManagedFunction|(System.String,System.Int32,System.ReadOnlySpan_1[[System.Runtime.InteropServices.JavaScript.JSMarshalerType,System.Runtime.InteropServices.JavaScript,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):System.Runtime.InteropServices.JavaScript.JSFunctionBinding|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1827,7 +1834,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSImportAttribute::FunctionName:System.String",
           "clrName": "FunctionName",
-          "tsEmitName": "functionName",
+          "tsEmitName": "FunctionName",
           "normalizedSignature": "FunctionName|:System.String|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1842,7 +1849,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSImportAttribute::ModuleName:System.String",
           "clrName": "ModuleName",
-          "tsEmitName": "moduleName",
+          "tsEmitName": "ModuleName",
           "normalizedSignature": "ModuleName|:System.String|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1906,7 +1913,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u002BArgumentToJSCallback\u00601::Invoke(System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u0026,T):System.Void",
           "clrName": "Invoke",
-          "tsEmitName": "invoke",
+          "tsEmitName": "Invoke",
           "normalizedSignature": "Invoke|(System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u0026,T):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1922,7 +1929,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u002BArgumentToJSCallback\u00601::BeginInvoke(System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u0026,T,System.AsyncCallback,System.Object):System.IAsyncResult",
           "clrName": "BeginInvoke",
-          "tsEmitName": "beginInvoke",
+          "tsEmitName": "BeginInvoke",
           "normalizedSignature": "BeginInvoke|(System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u0026,T,System.AsyncCallback,System.Object):System.IAsyncResult|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1938,7 +1945,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u002BArgumentToJSCallback\u00601::EndInvoke(System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u0026,System.IAsyncResult):System.Void",
           "clrName": "EndInvoke",
-          "tsEmitName": "endInvoke",
+          "tsEmitName": "EndInvoke",
           "normalizedSignature": "EndInvoke|(System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u0026,System.IAsyncResult):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1954,7 +1961,7 @@
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "clone$view",
+          "tsEmitName": "Clone$view",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -1971,7 +1978,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "getObjectData$view",
+          "tsEmitName": "GetObjectData$view",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -1988,7 +1995,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u002BArgumentToJSCallback\u00601::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "clone",
+          "tsEmitName": "Clone",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -2004,7 +2011,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u002BArgumentToJSCallback\u00601::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "getObjectData",
+          "tsEmitName": "GetObjectData",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -2026,6 +2033,18 @@
           "normalizedSignature": "constructor|(System.Object,System.IntPtr):void|static=false",
           "isStatic": false,
           "parameterCount": 2
+        }
+      ],
+      "unsatisfiableInterfaces": [
+        {
+          "interfaceClrName": "System.ICloneable",
+          "reason": "ExplicitImplementationMovedToView",
+          "issueCount": 1
+        },
+        {
+          "interfaceClrName": "System.Runtime.Serialization.ISerializable",
+          "reason": "ExplicitImplementationMovedToView",
+          "issueCount": 1
         }
       ]
     },
@@ -2043,7 +2062,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u002BArgumentToManagedCallback\u00601::Invoke(System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u0026,T\u0026):System.Void",
           "clrName": "Invoke",
-          "tsEmitName": "invoke",
+          "tsEmitName": "Invoke",
           "normalizedSignature": "Invoke|(System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u0026,T\u0026):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2059,7 +2078,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u002BArgumentToManagedCallback\u00601::BeginInvoke(System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u0026,T\u0026,System.AsyncCallback,System.Object):System.IAsyncResult",
           "clrName": "BeginInvoke",
-          "tsEmitName": "beginInvoke",
+          "tsEmitName": "BeginInvoke",
           "normalizedSignature": "BeginInvoke|(System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u0026,T\u0026,System.AsyncCallback,System.Object):System.IAsyncResult|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2075,7 +2094,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u002BArgumentToManagedCallback\u00601::EndInvoke(System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u0026,T\u0026,System.IAsyncResult):System.Void",
           "clrName": "EndInvoke",
-          "tsEmitName": "endInvoke",
+          "tsEmitName": "EndInvoke",
           "normalizedSignature": "EndInvoke|(System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u0026,T\u0026,System.IAsyncResult):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2091,7 +2110,7 @@
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "clone$view",
+          "tsEmitName": "Clone$view",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -2108,7 +2127,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "getObjectData$view",
+          "tsEmitName": "GetObjectData$view",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -2125,7 +2144,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u002BArgumentToManagedCallback\u00601::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "clone",
+          "tsEmitName": "Clone",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -2141,7 +2160,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u002BArgumentToManagedCallback\u00601::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "getObjectData",
+          "tsEmitName": "GetObjectData",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -2164,6 +2183,18 @@
           "isStatic": false,
           "parameterCount": 2
         }
+      ],
+      "unsatisfiableInterfaces": [
+        {
+          "interfaceClrName": "System.ICloneable",
+          "reason": "ExplicitImplementationMovedToView",
+          "issueCount": 1
+        },
+        {
+          "interfaceClrName": "System.Runtime.Serialization.ISerializable",
+          "reason": "ExplicitImplementationMovedToView",
+          "issueCount": 1
+        }
       ]
     },
     {
@@ -2180,7 +2211,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerType::Nullable(System.Runtime.InteropServices.JavaScript.JSMarshalerType):System.Runtime.InteropServices.JavaScript.JSMarshalerType",
           "clrName": "Nullable",
-          "tsEmitName": "nullable",
+          "tsEmitName": "Nullable",
           "normalizedSignature": "Nullable|(System.Runtime.InteropServices.JavaScript.JSMarshalerType):System.Runtime.InteropServices.JavaScript.JSMarshalerType|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2196,7 +2227,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerType::Task():System.Runtime.InteropServices.JavaScript.JSMarshalerType",
           "clrName": "Task",
-          "tsEmitName": "task",
+          "tsEmitName": "Task",
           "normalizedSignature": "Task|():System.Runtime.InteropServices.JavaScript.JSMarshalerType|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2212,7 +2243,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerType::Task(System.Runtime.InteropServices.JavaScript.JSMarshalerType):System.Runtime.InteropServices.JavaScript.JSMarshalerType",
           "clrName": "Task",
-          "tsEmitName": "task2",
+          "tsEmitName": "Task2",
           "normalizedSignature": "Task|(System.Runtime.InteropServices.JavaScript.JSMarshalerType):System.Runtime.InteropServices.JavaScript.JSMarshalerType|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2228,7 +2259,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerType::Array(System.Runtime.InteropServices.JavaScript.JSMarshalerType):System.Runtime.InteropServices.JavaScript.JSMarshalerType",
           "clrName": "Array",
-          "tsEmitName": "array",
+          "tsEmitName": "Array",
           "normalizedSignature": "Array|(System.Runtime.InteropServices.JavaScript.JSMarshalerType):System.Runtime.InteropServices.JavaScript.JSMarshalerType|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2244,7 +2275,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerType::ArraySegment(System.Runtime.InteropServices.JavaScript.JSMarshalerType):System.Runtime.InteropServices.JavaScript.JSMarshalerType",
           "clrName": "ArraySegment",
-          "tsEmitName": "arraySegment",
+          "tsEmitName": "ArraySegment",
           "normalizedSignature": "ArraySegment|(System.Runtime.InteropServices.JavaScript.JSMarshalerType):System.Runtime.InteropServices.JavaScript.JSMarshalerType|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2260,7 +2291,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerType::Span(System.Runtime.InteropServices.JavaScript.JSMarshalerType):System.Runtime.InteropServices.JavaScript.JSMarshalerType",
           "clrName": "Span",
-          "tsEmitName": "span",
+          "tsEmitName": "Span",
           "normalizedSignature": "Span|(System.Runtime.InteropServices.JavaScript.JSMarshalerType):System.Runtime.InteropServices.JavaScript.JSMarshalerType|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2276,7 +2307,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerType::Action():System.Runtime.InteropServices.JavaScript.JSMarshalerType",
           "clrName": "Action",
-          "tsEmitName": "action",
+          "tsEmitName": "Action",
           "normalizedSignature": "Action|():System.Runtime.InteropServices.JavaScript.JSMarshalerType|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2292,7 +2323,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerType::Action(System.Runtime.InteropServices.JavaScript.JSMarshalerType):System.Runtime.InteropServices.JavaScript.JSMarshalerType",
           "clrName": "Action",
-          "tsEmitName": "action2",
+          "tsEmitName": "Action2",
           "normalizedSignature": "Action|(System.Runtime.InteropServices.JavaScript.JSMarshalerType):System.Runtime.InteropServices.JavaScript.JSMarshalerType|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2308,7 +2339,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerType::Action(System.Runtime.InteropServices.JavaScript.JSMarshalerType,System.Runtime.InteropServices.JavaScript.JSMarshalerType):System.Runtime.InteropServices.JavaScript.JSMarshalerType",
           "clrName": "Action",
-          "tsEmitName": "action3",
+          "tsEmitName": "Action3",
           "normalizedSignature": "Action|(System.Runtime.InteropServices.JavaScript.JSMarshalerType,System.Runtime.InteropServices.JavaScript.JSMarshalerType):System.Runtime.InteropServices.JavaScript.JSMarshalerType|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2324,7 +2355,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerType::Action(System.Runtime.InteropServices.JavaScript.JSMarshalerType,System.Runtime.InteropServices.JavaScript.JSMarshalerType,System.Runtime.InteropServices.JavaScript.JSMarshalerType):System.Runtime.InteropServices.JavaScript.JSMarshalerType",
           "clrName": "Action",
-          "tsEmitName": "action4",
+          "tsEmitName": "Action4",
           "normalizedSignature": "Action|(System.Runtime.InteropServices.JavaScript.JSMarshalerType,System.Runtime.InteropServices.JavaScript.JSMarshalerType,System.Runtime.InteropServices.JavaScript.JSMarshalerType):System.Runtime.InteropServices.JavaScript.JSMarshalerType|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2340,7 +2371,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerType::Function(System.Runtime.InteropServices.JavaScript.JSMarshalerType):System.Runtime.InteropServices.JavaScript.JSMarshalerType",
           "clrName": "Function",
-          "tsEmitName": "function_",
+          "tsEmitName": "Function",
           "normalizedSignature": "Function|(System.Runtime.InteropServices.JavaScript.JSMarshalerType):System.Runtime.InteropServices.JavaScript.JSMarshalerType|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2356,7 +2387,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerType::Function(System.Runtime.InteropServices.JavaScript.JSMarshalerType,System.Runtime.InteropServices.JavaScript.JSMarshalerType):System.Runtime.InteropServices.JavaScript.JSMarshalerType",
           "clrName": "Function",
-          "tsEmitName": "function_2",
+          "tsEmitName": "Function2",
           "normalizedSignature": "Function|(System.Runtime.InteropServices.JavaScript.JSMarshalerType,System.Runtime.InteropServices.JavaScript.JSMarshalerType):System.Runtime.InteropServices.JavaScript.JSMarshalerType|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2372,7 +2403,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerType::Function(System.Runtime.InteropServices.JavaScript.JSMarshalerType,System.Runtime.InteropServices.JavaScript.JSMarshalerType,System.Runtime.InteropServices.JavaScript.JSMarshalerType):System.Runtime.InteropServices.JavaScript.JSMarshalerType",
           "clrName": "Function",
-          "tsEmitName": "function_3",
+          "tsEmitName": "Function3",
           "normalizedSignature": "Function|(System.Runtime.InteropServices.JavaScript.JSMarshalerType,System.Runtime.InteropServices.JavaScript.JSMarshalerType,System.Runtime.InteropServices.JavaScript.JSMarshalerType):System.Runtime.InteropServices.JavaScript.JSMarshalerType|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2388,7 +2419,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerType::Function(System.Runtime.InteropServices.JavaScript.JSMarshalerType,System.Runtime.InteropServices.JavaScript.JSMarshalerType,System.Runtime.InteropServices.JavaScript.JSMarshalerType,System.Runtime.InteropServices.JavaScript.JSMarshalerType):System.Runtime.InteropServices.JavaScript.JSMarshalerType",
           "clrName": "Function",
-          "tsEmitName": "function_4",
+          "tsEmitName": "Function4",
           "normalizedSignature": "Function|(System.Runtime.InteropServices.JavaScript.JSMarshalerType,System.Runtime.InteropServices.JavaScript.JSMarshalerType,System.Runtime.InteropServices.JavaScript.JSMarshalerType,System.Runtime.InteropServices.JavaScript.JSMarshalerType):System.Runtime.InteropServices.JavaScript.JSMarshalerType|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2406,7 +2437,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerType::Void:System.Runtime.InteropServices.JavaScript.JSMarshalerType",
           "clrName": "Void",
-          "tsEmitName": "void_",
+          "tsEmitName": "Void",
           "normalizedSignature": "Void|:System.Runtime.InteropServices.JavaScript.JSMarshalerType|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2421,7 +2452,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerType::Discard:System.Runtime.InteropServices.JavaScript.JSMarshalerType",
           "clrName": "Discard",
-          "tsEmitName": "discard",
+          "tsEmitName": "Discard",
           "normalizedSignature": "Discard|:System.Runtime.InteropServices.JavaScript.JSMarshalerType|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2436,7 +2467,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerType::Boolean:System.Runtime.InteropServices.JavaScript.JSMarshalerType",
           "clrName": "Boolean",
-          "tsEmitName": "boolean_",
+          "tsEmitName": "Boolean",
           "normalizedSignature": "Boolean|:System.Runtime.InteropServices.JavaScript.JSMarshalerType|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2451,7 +2482,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerType::Byte:System.Runtime.InteropServices.JavaScript.JSMarshalerType",
           "clrName": "Byte",
-          "tsEmitName": "byte",
+          "tsEmitName": "Byte",
           "normalizedSignature": "Byte|:System.Runtime.InteropServices.JavaScript.JSMarshalerType|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2466,7 +2497,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerType::Char:System.Runtime.InteropServices.JavaScript.JSMarshalerType",
           "clrName": "Char",
-          "tsEmitName": "char",
+          "tsEmitName": "Char",
           "normalizedSignature": "Char|:System.Runtime.InteropServices.JavaScript.JSMarshalerType|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2481,7 +2512,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerType::Int16:System.Runtime.InteropServices.JavaScript.JSMarshalerType",
           "clrName": "Int16",
-          "tsEmitName": "int16",
+          "tsEmitName": "Int16",
           "normalizedSignature": "Int16|:System.Runtime.InteropServices.JavaScript.JSMarshalerType|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2496,7 +2527,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerType::Int32:System.Runtime.InteropServices.JavaScript.JSMarshalerType",
           "clrName": "Int32",
-          "tsEmitName": "int32",
+          "tsEmitName": "Int32",
           "normalizedSignature": "Int32|:System.Runtime.InteropServices.JavaScript.JSMarshalerType|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2511,7 +2542,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerType::Int52:System.Runtime.InteropServices.JavaScript.JSMarshalerType",
           "clrName": "Int52",
-          "tsEmitName": "int52",
+          "tsEmitName": "Int52",
           "normalizedSignature": "Int52|:System.Runtime.InteropServices.JavaScript.JSMarshalerType|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2526,7 +2557,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerType::BigInt64:System.Runtime.InteropServices.JavaScript.JSMarshalerType",
           "clrName": "BigInt64",
-          "tsEmitName": "bigInt64",
+          "tsEmitName": "BigInt64",
           "normalizedSignature": "BigInt64|:System.Runtime.InteropServices.JavaScript.JSMarshalerType|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2541,7 +2572,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerType::Double:System.Runtime.InteropServices.JavaScript.JSMarshalerType",
           "clrName": "Double",
-          "tsEmitName": "double",
+          "tsEmitName": "Double",
           "normalizedSignature": "Double|:System.Runtime.InteropServices.JavaScript.JSMarshalerType|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2556,7 +2587,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerType::Single:System.Runtime.InteropServices.JavaScript.JSMarshalerType",
           "clrName": "Single",
-          "tsEmitName": "single",
+          "tsEmitName": "Single",
           "normalizedSignature": "Single|:System.Runtime.InteropServices.JavaScript.JSMarshalerType|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2571,7 +2602,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerType::IntPtr:System.Runtime.InteropServices.JavaScript.JSMarshalerType",
           "clrName": "IntPtr",
-          "tsEmitName": "intPtr",
+          "tsEmitName": "IntPtr",
           "normalizedSignature": "IntPtr|:System.Runtime.InteropServices.JavaScript.JSMarshalerType|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2586,7 +2617,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerType::JSObject:System.Runtime.InteropServices.JavaScript.JSMarshalerType",
           "clrName": "JSObject",
-          "tsEmitName": "jsObject",
+          "tsEmitName": "JSObject",
           "normalizedSignature": "JSObject|:System.Runtime.InteropServices.JavaScript.JSMarshalerType|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2601,7 +2632,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerType::Object:System.Runtime.InteropServices.JavaScript.JSMarshalerType",
           "clrName": "Object",
-          "tsEmitName": "object_",
+          "tsEmitName": "Object",
           "normalizedSignature": "Object|:System.Runtime.InteropServices.JavaScript.JSMarshalerType|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2616,7 +2647,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerType::String:System.Runtime.InteropServices.JavaScript.JSMarshalerType",
           "clrName": "String",
-          "tsEmitName": "string_",
+          "tsEmitName": "String",
           "normalizedSignature": "String|:System.Runtime.InteropServices.JavaScript.JSMarshalerType|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2631,7 +2662,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerType::Exception:System.Runtime.InteropServices.JavaScript.JSMarshalerType",
           "clrName": "Exception",
-          "tsEmitName": "exception",
+          "tsEmitName": "Exception",
           "normalizedSignature": "Exception|:System.Runtime.InteropServices.JavaScript.JSMarshalerType|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2646,7 +2677,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerType::DateTime:System.Runtime.InteropServices.JavaScript.JSMarshalerType",
           "clrName": "DateTime",
-          "tsEmitName": "dateTime",
+          "tsEmitName": "DateTime",
           "normalizedSignature": "DateTime|:System.Runtime.InteropServices.JavaScript.JSMarshalerType|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2661,7 +2692,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerType::DateTimeOffset:System.Runtime.InteropServices.JavaScript.JSMarshalerType",
           "clrName": "DateTimeOffset",
-          "tsEmitName": "dateTimeOffset",
+          "tsEmitName": "DateTimeOffset",
           "normalizedSignature": "DateTimeOffset|:System.Runtime.InteropServices.JavaScript.JSMarshalerType|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2692,7 +2723,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSObject::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "dispose",
+          "tsEmitName": "Dispose",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2708,7 +2739,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSObject::HasProperty(System.String):System.Boolean",
           "clrName": "HasProperty",
-          "tsEmitName": "hasProperty",
+          "tsEmitName": "HasProperty",
           "normalizedSignature": "HasProperty|(System.String):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2724,7 +2755,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSObject::GetTypeOfProperty(System.String):System.String",
           "clrName": "GetTypeOfProperty",
-          "tsEmitName": "getTypeOfProperty",
+          "tsEmitName": "GetTypeOfProperty",
           "normalizedSignature": "GetTypeOfProperty|(System.String):System.String|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2740,7 +2771,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSObject::GetPropertyAsBoolean(System.String):System.Boolean",
           "clrName": "GetPropertyAsBoolean",
-          "tsEmitName": "getPropertyAsBoolean",
+          "tsEmitName": "GetPropertyAsBoolean",
           "normalizedSignature": "GetPropertyAsBoolean|(System.String):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2756,7 +2787,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSObject::GetPropertyAsInt32(System.String):System.Int32",
           "clrName": "GetPropertyAsInt32",
-          "tsEmitName": "getPropertyAsInt32",
+          "tsEmitName": "GetPropertyAsInt32",
           "normalizedSignature": "GetPropertyAsInt32|(System.String):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2772,7 +2803,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSObject::GetPropertyAsDouble(System.String):System.Double",
           "clrName": "GetPropertyAsDouble",
-          "tsEmitName": "getPropertyAsDouble",
+          "tsEmitName": "GetPropertyAsDouble",
           "normalizedSignature": "GetPropertyAsDouble|(System.String):System.Double|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2788,7 +2819,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSObject::GetPropertyAsString(System.String):System.String",
           "clrName": "GetPropertyAsString",
-          "tsEmitName": "getPropertyAsString",
+          "tsEmitName": "GetPropertyAsString",
           "normalizedSignature": "GetPropertyAsString|(System.String):System.String|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2804,7 +2835,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSObject::GetPropertyAsJSObject(System.String):System.Runtime.InteropServices.JavaScript.JSObject",
           "clrName": "GetPropertyAsJSObject",
-          "tsEmitName": "getPropertyAsJSObject",
+          "tsEmitName": "GetPropertyAsJSObject",
           "normalizedSignature": "GetPropertyAsJSObject|(System.String):System.Runtime.InteropServices.JavaScript.JSObject|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2820,7 +2851,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSObject::GetPropertyAsByteArray(System.String):System.Byte[]",
           "clrName": "GetPropertyAsByteArray",
-          "tsEmitName": "getPropertyAsByteArray",
+          "tsEmitName": "GetPropertyAsByteArray",
           "normalizedSignature": "GetPropertyAsByteArray|(System.String):System.Byte[]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2836,7 +2867,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSObject::SetProperty(System.String,System.Boolean):System.Void",
           "clrName": "SetProperty",
-          "tsEmitName": "setProperty",
+          "tsEmitName": "SetProperty",
           "normalizedSignature": "SetProperty|(System.String,System.Boolean):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2852,7 +2883,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSObject::SetProperty(System.String,System.Int32):System.Void",
           "clrName": "SetProperty",
-          "tsEmitName": "setProperty2",
+          "tsEmitName": "SetProperty2",
           "normalizedSignature": "SetProperty|(System.String,System.Int32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2868,7 +2899,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSObject::SetProperty(System.String,System.Double):System.Void",
           "clrName": "SetProperty",
-          "tsEmitName": "setProperty3",
+          "tsEmitName": "SetProperty3",
           "normalizedSignature": "SetProperty|(System.String,System.Double):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2884,7 +2915,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSObject::SetProperty(System.String,System.String):System.Void",
           "clrName": "SetProperty",
-          "tsEmitName": "setProperty4",
+          "tsEmitName": "SetProperty4",
           "normalizedSignature": "SetProperty|(System.String,System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2900,7 +2931,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSObject::SetProperty(System.String,System.Runtime.InteropServices.JavaScript.JSObject):System.Void",
           "clrName": "SetProperty",
-          "tsEmitName": "setProperty5",
+          "tsEmitName": "SetProperty5",
           "normalizedSignature": "SetProperty|(System.String,System.Runtime.InteropServices.JavaScript.JSObject):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2916,7 +2947,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSObject::SetProperty(System.String,System.Byte[]):System.Void",
           "clrName": "SetProperty",
-          "tsEmitName": "setProperty6",
+          "tsEmitName": "SetProperty6",
           "normalizedSignature": "SetProperty|(System.String,System.Byte[]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2932,7 +2963,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "dispose$view",
+          "tsEmitName": "Dispose$view",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -2951,7 +2982,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSObject::IsDisposed:System.Boolean",
           "clrName": "IsDisposed",
-          "tsEmitName": "isDisposed",
+          "tsEmitName": "IsDisposed",
           "normalizedSignature": "IsDisposed|:System.Boolean|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2966,7 +2997,14 @@
       ],
       "fields": [],
       "events": [],
-      "constructors": []
+      "constructors": [],
+      "unsatisfiableInterfaces": [
+        {
+          "interfaceClrName": "System.IDisposable",
+          "reason": "ExplicitImplementationMovedToView",
+          "issueCount": 1
+        }
+      ]
     },
     {
       "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSType",
@@ -3286,7 +3324,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSHost::ImportAsync(System.String,System.String,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Runtime.InteropServices.JavaScript.JSObject,System.Runtime.InteropServices.JavaScript,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
           "clrName": "ImportAsync",
-          "tsEmitName": "importAsync",
+          "tsEmitName": "ImportAsync",
           "normalizedSignature": "ImportAsync|(System.String,System.String,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Runtime.InteropServices.JavaScript.JSObject,System.Runtime.InteropServices.JavaScript,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3304,7 +3342,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSHost::GlobalThis:System.Runtime.InteropServices.JavaScript.JSObject",
           "clrName": "GlobalThis",
-          "tsEmitName": "globalThis",
+          "tsEmitName": "GlobalThis",
           "normalizedSignature": "GlobalThis|:System.Runtime.InteropServices.JavaScript.JSObject|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3319,7 +3357,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSHost::DotnetInstance:System.Runtime.InteropServices.JavaScript.JSObject",
           "clrName": "DotnetInstance",
-          "tsEmitName": "dotnetInstance",
+          "tsEmitName": "DotnetInstance",
           "normalizedSignature": "DotnetInstance|:System.Runtime.InteropServices.JavaScript.JSObject|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",

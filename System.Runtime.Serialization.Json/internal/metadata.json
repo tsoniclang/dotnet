@@ -18,7 +18,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.Json.IXmlJsonReaderInitializer::SetInput(System.Byte[],System.Int32,System.Int32,System.Text.Encoding,System.Xml.XmlDictionaryReaderQuotas,System.Xml.OnXmlDictionaryReaderClose):System.Void",
           "clrName": "SetInput",
-          "tsEmitName": "setInput",
+          "tsEmitName": "SetInput",
           "normalizedSignature": "SetInput|(System.Byte[],System.Int32,System.Int32,System.Text.Encoding,System.Xml.XmlDictionaryReaderQuotas,System.Xml.OnXmlDictionaryReaderClose):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -34,7 +34,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.Json.IXmlJsonReaderInitializer::SetInput(System.IO.Stream,System.Text.Encoding,System.Xml.XmlDictionaryReaderQuotas,System.Xml.OnXmlDictionaryReaderClose):System.Void",
           "clrName": "SetInput",
-          "tsEmitName": "setInput2",
+          "tsEmitName": "SetInput2",
           "normalizedSignature": "SetInput|(System.IO.Stream,System.Text.Encoding,System.Xml.XmlDictionaryReaderQuotas,System.Xml.OnXmlDictionaryReaderClose):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -67,7 +67,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.Json.IXmlJsonWriterInitializer::SetOutput(System.IO.Stream,System.Text.Encoding,System.Boolean):System.Void",
           "clrName": "SetOutput",
-          "tsEmitName": "setOutput",
+          "tsEmitName": "SetOutput",
           "normalizedSignature": "SetOutput|(System.IO.Stream,System.Text.Encoding,System.Boolean):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -100,7 +100,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.Json.DataContractJsonSerializer::GetSerializationSurrogateProvider():System.Runtime.Serialization.ISerializationSurrogateProvider",
           "clrName": "GetSerializationSurrogateProvider",
-          "tsEmitName": "getSerializationSurrogateProvider",
+          "tsEmitName": "GetSerializationSurrogateProvider",
           "normalizedSignature": "GetSerializationSurrogateProvider|():System.Runtime.Serialization.ISerializationSurrogateProvider|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -116,7 +116,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.Json.DataContractJsonSerializer::SetSerializationSurrogateProvider(System.Runtime.Serialization.ISerializationSurrogateProvider):System.Void",
           "clrName": "SetSerializationSurrogateProvider",
-          "tsEmitName": "setSerializationSurrogateProvider",
+          "tsEmitName": "SetSerializationSurrogateProvider",
           "normalizedSignature": "SetSerializationSurrogateProvider|(System.Runtime.Serialization.ISerializationSurrogateProvider):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -132,7 +132,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.Json.DataContractJsonSerializer::IsStartObject(System.Xml.XmlReader):System.Boolean",
           "clrName": "IsStartObject",
-          "tsEmitName": "isStartObject",
+          "tsEmitName": "IsStartObject",
           "normalizedSignature": "IsStartObject|(System.Xml.XmlReader):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -148,7 +148,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.Json.DataContractJsonSerializer::IsStartObject(System.Xml.XmlDictionaryReader):System.Boolean",
           "clrName": "IsStartObject",
-          "tsEmitName": "isStartObject2",
+          "tsEmitName": "IsStartObject2",
           "normalizedSignature": "IsStartObject|(System.Xml.XmlDictionaryReader):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -164,7 +164,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.Json.DataContractJsonSerializer::ReadObject(System.IO.Stream):System.Object",
           "clrName": "ReadObject",
-          "tsEmitName": "readObject",
+          "tsEmitName": "ReadObject",
           "normalizedSignature": "ReadObject|(System.IO.Stream):System.Object|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -180,7 +180,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.Json.DataContractJsonSerializer::ReadObject(System.Xml.XmlReader):System.Object",
           "clrName": "ReadObject",
-          "tsEmitName": "readObject2",
+          "tsEmitName": "ReadObject2",
           "normalizedSignature": "ReadObject|(System.Xml.XmlReader):System.Object|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -196,7 +196,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.Json.DataContractJsonSerializer::ReadObject(System.Xml.XmlReader,System.Boolean):System.Object",
           "clrName": "ReadObject",
-          "tsEmitName": "readObject3",
+          "tsEmitName": "ReadObject3",
           "normalizedSignature": "ReadObject|(System.Xml.XmlReader,System.Boolean):System.Object|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -212,7 +212,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.Json.DataContractJsonSerializer::ReadObject(System.Xml.XmlDictionaryReader):System.Object",
           "clrName": "ReadObject",
-          "tsEmitName": "readObject4",
+          "tsEmitName": "ReadObject4",
           "normalizedSignature": "ReadObject|(System.Xml.XmlDictionaryReader):System.Object|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -228,7 +228,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.Json.DataContractJsonSerializer::ReadObject(System.Xml.XmlDictionaryReader,System.Boolean):System.Object",
           "clrName": "ReadObject",
-          "tsEmitName": "readObject5",
+          "tsEmitName": "ReadObject5",
           "normalizedSignature": "ReadObject|(System.Xml.XmlDictionaryReader,System.Boolean):System.Object|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -244,7 +244,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.Json.DataContractJsonSerializer::WriteEndObject(System.Xml.XmlWriter):System.Void",
           "clrName": "WriteEndObject",
-          "tsEmitName": "writeEndObject",
+          "tsEmitName": "WriteEndObject",
           "normalizedSignature": "WriteEndObject|(System.Xml.XmlWriter):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -260,7 +260,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.Json.DataContractJsonSerializer::WriteEndObject(System.Xml.XmlDictionaryWriter):System.Void",
           "clrName": "WriteEndObject",
-          "tsEmitName": "writeEndObject2",
+          "tsEmitName": "WriteEndObject2",
           "normalizedSignature": "WriteEndObject|(System.Xml.XmlDictionaryWriter):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -276,7 +276,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.Json.DataContractJsonSerializer::WriteObject(System.IO.Stream,System.Object):System.Void",
           "clrName": "WriteObject",
-          "tsEmitName": "writeObject",
+          "tsEmitName": "WriteObject",
           "normalizedSignature": "WriteObject|(System.IO.Stream,System.Object):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -292,7 +292,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.Json.DataContractJsonSerializer::WriteObject(System.Xml.XmlWriter,System.Object):System.Void",
           "clrName": "WriteObject",
-          "tsEmitName": "writeObject2",
+          "tsEmitName": "WriteObject2",
           "normalizedSignature": "WriteObject|(System.Xml.XmlWriter,System.Object):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -308,7 +308,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.Json.DataContractJsonSerializer::WriteObject(System.Xml.XmlDictionaryWriter,System.Object):System.Void",
           "clrName": "WriteObject",
-          "tsEmitName": "writeObject3",
+          "tsEmitName": "WriteObject3",
           "normalizedSignature": "WriteObject|(System.Xml.XmlDictionaryWriter,System.Object):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -324,7 +324,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.Json.DataContractJsonSerializer::WriteObjectContent(System.Xml.XmlWriter,System.Object):System.Void",
           "clrName": "WriteObjectContent",
-          "tsEmitName": "writeObjectContent",
+          "tsEmitName": "WriteObjectContent",
           "normalizedSignature": "WriteObjectContent|(System.Xml.XmlWriter,System.Object):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -340,7 +340,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.Json.DataContractJsonSerializer::WriteObjectContent(System.Xml.XmlDictionaryWriter,System.Object):System.Void",
           "clrName": "WriteObjectContent",
-          "tsEmitName": "writeObjectContent2",
+          "tsEmitName": "WriteObjectContent2",
           "normalizedSignature": "WriteObjectContent|(System.Xml.XmlDictionaryWriter,System.Object):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -356,7 +356,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.Json.DataContractJsonSerializer::WriteStartObject(System.Xml.XmlWriter,System.Object):System.Void",
           "clrName": "WriteStartObject",
-          "tsEmitName": "writeStartObject",
+          "tsEmitName": "WriteStartObject",
           "normalizedSignature": "WriteStartObject|(System.Xml.XmlWriter,System.Object):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -372,7 +372,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.Json.DataContractJsonSerializer::WriteStartObject(System.Xml.XmlDictionaryWriter,System.Object):System.Void",
           "clrName": "WriteStartObject",
-          "tsEmitName": "writeStartObject2",
+          "tsEmitName": "WriteStartObject2",
           "normalizedSignature": "WriteStartObject|(System.Xml.XmlDictionaryWriter,System.Object):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -390,7 +390,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.Json.DataContractJsonSerializer::IgnoreExtensionDataObject:System.Boolean",
           "clrName": "IgnoreExtensionDataObject",
-          "tsEmitName": "ignoreExtensionDataObject",
+          "tsEmitName": "IgnoreExtensionDataObject",
           "normalizedSignature": "IgnoreExtensionDataObject|:System.Boolean|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -405,7 +405,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.Json.DataContractJsonSerializer::KnownTypes:System.Collections.ObjectModel.ReadOnlyCollection_1[[System.Type,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "KnownTypes",
-          "tsEmitName": "knownTypes",
+          "tsEmitName": "KnownTypes",
           "normalizedSignature": "KnownTypes|:System.Collections.ObjectModel.ReadOnlyCollection_1[[System.Type,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -420,7 +420,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.Json.DataContractJsonSerializer::MaxItemsInObjectGraph:System.Int32",
           "clrName": "MaxItemsInObjectGraph",
-          "tsEmitName": "maxItemsInObjectGraph",
+          "tsEmitName": "MaxItemsInObjectGraph",
           "normalizedSignature": "MaxItemsInObjectGraph|:System.Int32|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -435,7 +435,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.Json.DataContractJsonSerializer::DateTimeFormat:System.Runtime.Serialization.DateTimeFormat",
           "clrName": "DateTimeFormat",
-          "tsEmitName": "dateTimeFormat",
+          "tsEmitName": "DateTimeFormat",
           "normalizedSignature": "DateTimeFormat|:System.Runtime.Serialization.DateTimeFormat|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -450,7 +450,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.Json.DataContractJsonSerializer::EmitTypeInformation:System.Runtime.Serialization.EmitTypeInformation",
           "clrName": "EmitTypeInformation",
-          "tsEmitName": "emitTypeInformation",
+          "tsEmitName": "EmitTypeInformation",
           "normalizedSignature": "EmitTypeInformation|:System.Runtime.Serialization.EmitTypeInformation|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -465,7 +465,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.Json.DataContractJsonSerializer::SerializeReadOnlyTypes:System.Boolean",
           "clrName": "SerializeReadOnlyTypes",
-          "tsEmitName": "serializeReadOnlyTypes",
+          "tsEmitName": "SerializeReadOnlyTypes",
           "normalizedSignature": "SerializeReadOnlyTypes|:System.Boolean|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -480,7 +480,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.Json.DataContractJsonSerializer::UseSimpleDictionaryFormat:System.Boolean",
           "clrName": "UseSimpleDictionaryFormat",
-          "tsEmitName": "useSimpleDictionaryFormat",
+          "tsEmitName": "UseSimpleDictionaryFormat",
           "normalizedSignature": "UseSimpleDictionaryFormat|:System.Boolean|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -548,7 +548,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.Json.DataContractJsonSerializerSettings::RootName:System.String",
           "clrName": "RootName",
-          "tsEmitName": "rootName",
+          "tsEmitName": "RootName",
           "normalizedSignature": "RootName|:System.String|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -563,7 +563,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.Json.DataContractJsonSerializerSettings::KnownTypes:System.Collections.Generic.IEnumerable_1[[System.Type,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "KnownTypes",
-          "tsEmitName": "knownTypes",
+          "tsEmitName": "KnownTypes",
           "normalizedSignature": "KnownTypes|:System.Collections.Generic.IEnumerable_1[[System.Type,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -578,7 +578,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.Json.DataContractJsonSerializerSettings::MaxItemsInObjectGraph:System.Int32",
           "clrName": "MaxItemsInObjectGraph",
-          "tsEmitName": "maxItemsInObjectGraph",
+          "tsEmitName": "MaxItemsInObjectGraph",
           "normalizedSignature": "MaxItemsInObjectGraph|:System.Int32|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -593,7 +593,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.Json.DataContractJsonSerializerSettings::IgnoreExtensionDataObject:System.Boolean",
           "clrName": "IgnoreExtensionDataObject",
-          "tsEmitName": "ignoreExtensionDataObject",
+          "tsEmitName": "IgnoreExtensionDataObject",
           "normalizedSignature": "IgnoreExtensionDataObject|:System.Boolean|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -608,7 +608,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.Json.DataContractJsonSerializerSettings::EmitTypeInformation:System.Runtime.Serialization.EmitTypeInformation",
           "clrName": "EmitTypeInformation",
-          "tsEmitName": "emitTypeInformation",
+          "tsEmitName": "EmitTypeInformation",
           "normalizedSignature": "EmitTypeInformation|:System.Runtime.Serialization.EmitTypeInformation|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -623,7 +623,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.Json.DataContractJsonSerializerSettings::DateTimeFormat:System.Runtime.Serialization.DateTimeFormat",
           "clrName": "DateTimeFormat",
-          "tsEmitName": "dateTimeFormat",
+          "tsEmitName": "DateTimeFormat",
           "normalizedSignature": "DateTimeFormat|:System.Runtime.Serialization.DateTimeFormat|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -638,7 +638,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.Json.DataContractJsonSerializerSettings::SerializeReadOnlyTypes:System.Boolean",
           "clrName": "SerializeReadOnlyTypes",
-          "tsEmitName": "serializeReadOnlyTypes",
+          "tsEmitName": "SerializeReadOnlyTypes",
           "normalizedSignature": "SerializeReadOnlyTypes|:System.Boolean|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -653,7 +653,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.Json.DataContractJsonSerializerSettings::UseSimpleDictionaryFormat:System.Boolean",
           "clrName": "UseSimpleDictionaryFormat",
-          "tsEmitName": "useSimpleDictionaryFormat",
+          "tsEmitName": "UseSimpleDictionaryFormat",
           "normalizedSignature": "UseSimpleDictionaryFormat|:System.Boolean|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -690,7 +690,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.Json.DataContractJsonSerializerExtensions::GetSerializationSurrogateProvider(System.Runtime.Serialization.Json.DataContractJsonSerializer):System.Runtime.Serialization.ISerializationSurrogateProvider",
           "clrName": "GetSerializationSurrogateProvider",
-          "tsEmitName": "getSerializationSurrogateProvider",
+          "tsEmitName": "GetSerializationSurrogateProvider",
           "normalizedSignature": "GetSerializationSurrogateProvider|(System.Runtime.Serialization.Json.DataContractJsonSerializer):System.Runtime.Serialization.ISerializationSurrogateProvider|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -706,7 +706,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.Json.DataContractJsonSerializerExtensions::SetSerializationSurrogateProvider(System.Runtime.Serialization.Json.DataContractJsonSerializer,System.Runtime.Serialization.ISerializationSurrogateProvider):System.Void",
           "clrName": "SetSerializationSurrogateProvider",
-          "tsEmitName": "setSerializationSurrogateProvider",
+          "tsEmitName": "SetSerializationSurrogateProvider",
           "normalizedSignature": "SetSerializationSurrogateProvider|(System.Runtime.Serialization.Json.DataContractJsonSerializer,System.Runtime.Serialization.ISerializationSurrogateProvider):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -739,7 +739,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.Json.JsonReaderWriterFactory::CreateJsonReader(System.IO.Stream,System.Xml.XmlDictionaryReaderQuotas):System.Xml.XmlDictionaryReader",
           "clrName": "CreateJsonReader",
-          "tsEmitName": "createJsonReader",
+          "tsEmitName": "CreateJsonReader",
           "normalizedSignature": "CreateJsonReader|(System.IO.Stream,System.Xml.XmlDictionaryReaderQuotas):System.Xml.XmlDictionaryReader|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -755,7 +755,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.Json.JsonReaderWriterFactory::CreateJsonReader(System.Byte[],System.Xml.XmlDictionaryReaderQuotas):System.Xml.XmlDictionaryReader",
           "clrName": "CreateJsonReader",
-          "tsEmitName": "createJsonReader2",
+          "tsEmitName": "CreateJsonReader2",
           "normalizedSignature": "CreateJsonReader|(System.Byte[],System.Xml.XmlDictionaryReaderQuotas):System.Xml.XmlDictionaryReader|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -771,7 +771,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.Json.JsonReaderWriterFactory::CreateJsonReader(System.IO.Stream,System.Text.Encoding,System.Xml.XmlDictionaryReaderQuotas,System.Xml.OnXmlDictionaryReaderClose):System.Xml.XmlDictionaryReader",
           "clrName": "CreateJsonReader",
-          "tsEmitName": "createJsonReader3",
+          "tsEmitName": "CreateJsonReader3",
           "normalizedSignature": "CreateJsonReader|(System.IO.Stream,System.Text.Encoding,System.Xml.XmlDictionaryReaderQuotas,System.Xml.OnXmlDictionaryReaderClose):System.Xml.XmlDictionaryReader|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -787,7 +787,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.Json.JsonReaderWriterFactory::CreateJsonReader(System.Byte[],System.Int32,System.Int32,System.Xml.XmlDictionaryReaderQuotas):System.Xml.XmlDictionaryReader",
           "clrName": "CreateJsonReader",
-          "tsEmitName": "createJsonReader4",
+          "tsEmitName": "CreateJsonReader4",
           "normalizedSignature": "CreateJsonReader|(System.Byte[],System.Int32,System.Int32,System.Xml.XmlDictionaryReaderQuotas):System.Xml.XmlDictionaryReader|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -803,7 +803,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.Json.JsonReaderWriterFactory::CreateJsonReader(System.Byte[],System.Int32,System.Int32,System.Text.Encoding,System.Xml.XmlDictionaryReaderQuotas,System.Xml.OnXmlDictionaryReaderClose):System.Xml.XmlDictionaryReader",
           "clrName": "CreateJsonReader",
-          "tsEmitName": "createJsonReader5",
+          "tsEmitName": "CreateJsonReader5",
           "normalizedSignature": "CreateJsonReader|(System.Byte[],System.Int32,System.Int32,System.Text.Encoding,System.Xml.XmlDictionaryReaderQuotas,System.Xml.OnXmlDictionaryReaderClose):System.Xml.XmlDictionaryReader|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -819,7 +819,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.Json.JsonReaderWriterFactory::CreateJsonWriter(System.IO.Stream):System.Xml.XmlDictionaryWriter",
           "clrName": "CreateJsonWriter",
-          "tsEmitName": "createJsonWriter",
+          "tsEmitName": "CreateJsonWriter",
           "normalizedSignature": "CreateJsonWriter|(System.IO.Stream):System.Xml.XmlDictionaryWriter|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -835,7 +835,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.Json.JsonReaderWriterFactory::CreateJsonWriter(System.IO.Stream,System.Text.Encoding):System.Xml.XmlDictionaryWriter",
           "clrName": "CreateJsonWriter",
-          "tsEmitName": "createJsonWriter2",
+          "tsEmitName": "CreateJsonWriter2",
           "normalizedSignature": "CreateJsonWriter|(System.IO.Stream,System.Text.Encoding):System.Xml.XmlDictionaryWriter|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -851,7 +851,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.Json.JsonReaderWriterFactory::CreateJsonWriter(System.IO.Stream,System.Text.Encoding,System.Boolean):System.Xml.XmlDictionaryWriter",
           "clrName": "CreateJsonWriter",
-          "tsEmitName": "createJsonWriter3",
+          "tsEmitName": "CreateJsonWriter3",
           "normalizedSignature": "CreateJsonWriter|(System.IO.Stream,System.Text.Encoding,System.Boolean):System.Xml.XmlDictionaryWriter|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -867,7 +867,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.Json.JsonReaderWriterFactory::CreateJsonWriter(System.IO.Stream,System.Text.Encoding,System.Boolean,System.Boolean):System.Xml.XmlDictionaryWriter",
           "clrName": "CreateJsonWriter",
-          "tsEmitName": "createJsonWriter4",
+          "tsEmitName": "CreateJsonWriter4",
           "normalizedSignature": "CreateJsonWriter|(System.IO.Stream,System.Text.Encoding,System.Boolean,System.Boolean):System.Xml.XmlDictionaryWriter|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -883,7 +883,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.Json.JsonReaderWriterFactory::CreateJsonWriter(System.IO.Stream,System.Text.Encoding,System.Boolean,System.Boolean,System.String):System.Xml.XmlDictionaryWriter",
           "clrName": "CreateJsonWriter",
-          "tsEmitName": "createJsonWriter5",
+          "tsEmitName": "CreateJsonWriter5",
           "normalizedSignature": "CreateJsonWriter|(System.IO.Stream,System.Text.Encoding,System.Boolean,System.Boolean,System.String):System.Xml.XmlDictionaryWriter|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",

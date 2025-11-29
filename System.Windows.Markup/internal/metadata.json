@@ -19,7 +19,7 @@
         {
           "stableId": "System.ObjectModel:System.Windows.Markup.ValueSerializerAttribute::ValueSerializerType:System.Type",
           "clrName": "ValueSerializerType",
-          "tsEmitName": "valueSerializerType",
+          "tsEmitName": "ValueSerializerType",
           "normalizedSignature": "ValueSerializerType|:System.Type|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -34,7 +34,7 @@
         {
           "stableId": "System.ObjectModel:System.Windows.Markup.ValueSerializerAttribute::ValueSerializerTypeName:System.String",
           "clrName": "ValueSerializerTypeName",
-          "tsEmitName": "valueSerializerTypeName",
+          "tsEmitName": "ValueSerializerTypeName",
           "normalizedSignature": "ValueSerializerTypeName|:System.String|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",

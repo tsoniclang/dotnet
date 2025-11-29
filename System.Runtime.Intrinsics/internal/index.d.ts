@@ -39,12 +39,12 @@ export type CLROf<T> =
     T extends string ? System_Internal.String :
     T; // Identity fallback for non-primitive types
 
-export class Vector128_1$instance<T> {
-    readonly item: T;
-    equals(obj: any): boolean;
-    equals(other: Vector128_1<T>): boolean;
-    getHashCode(): int;
-    toString(): string;
+export class Vector128_1$instance<T> implements IAdditionOperators_3<Vector128_1<T>, Vector128_1<T>, Vector128_1<T>>, IBitwiseOperators_3<Vector128_1<T>, Vector128_1<T>, Vector128_1<T>>, IDivisionOperators_3<Vector128_1<T>, Vector128_1<T>, Vector128_1<T>>, IEqualityOperators_3<Vector128_1<T>, Vector128_1<T>, CLROf<boolean>>, IMultiplyOperators_3<Vector128_1<T>, Vector128_1<T>, Vector128_1<T>>, IShiftOperators_3<Vector128_1<T>, CLROf<int>, Vector128_1<T>>, ISubtractionOperators_3<Vector128_1<T>, Vector128_1<T>, Vector128_1<T>>, IUnaryNegationOperators_2<Vector128_1<T>, Vector128_1<T>>, IUnaryPlusOperators_2<Vector128_1<T>, Vector128_1<T>> {
+    readonly Item: T;
+    Equals(obj: unknown): boolean;
+    Equals(other: Vector128_1<T>): boolean;
+    GetHashCode(): int;
+    ToString(): string;
     static readonly AllBitsSet: unknown;
     static readonly Count: int;
     static readonly Indices: unknown;
@@ -55,7 +55,7 @@ export class Vector128_1$instance<T> {
 
 
 export interface __Vector128_1$views<T> {
-    readonly As_IEquatable_1_of_ConsoleKeyInfo: System_Internal.IEquatable_1$instance<Vector128_1<T>>;
+    As_IEquatable_1(): System_Internal.IEquatable_1$instance<Vector128_1<T>>;
 
     // Structural method bridges for numeric interface constraints
     Equals(other: Vector128_1<T>): boolean;
@@ -64,12 +64,12 @@ export interface __Vector128_1$views<T> {
 export type Vector128_1<T> = Vector128_1$instance<T> & __Vector128_1$views<T>;
 
 
-export class Vector256_1$instance<T> {
-    readonly item: T;
-    equals(obj: any): boolean;
-    equals(other: Vector256_1<T>): boolean;
-    getHashCode(): int;
-    toString(): string;
+export class Vector256_1$instance<T> implements IAdditionOperators_3<Vector256_1<T>, Vector256_1<T>, Vector256_1<T>>, IBitwiseOperators_3<Vector256_1<T>, Vector256_1<T>, Vector256_1<T>>, IDivisionOperators_3<Vector256_1<T>, Vector256_1<T>, Vector256_1<T>>, IEqualityOperators_3<Vector256_1<T>, Vector256_1<T>, CLROf<boolean>>, IMultiplyOperators_3<Vector256_1<T>, Vector256_1<T>, Vector256_1<T>>, IShiftOperators_3<Vector256_1<T>, CLROf<int>, Vector256_1<T>>, ISubtractionOperators_3<Vector256_1<T>, Vector256_1<T>, Vector256_1<T>>, IUnaryNegationOperators_2<Vector256_1<T>, Vector256_1<T>>, IUnaryPlusOperators_2<Vector256_1<T>, Vector256_1<T>> {
+    readonly Item: T;
+    Equals(obj: unknown): boolean;
+    Equals(other: Vector256_1<T>): boolean;
+    GetHashCode(): int;
+    ToString(): string;
     static readonly AllBitsSet: unknown;
     static readonly Count: int;
     static readonly Indices: unknown;
@@ -80,7 +80,7 @@ export class Vector256_1$instance<T> {
 
 
 export interface __Vector256_1$views<T> {
-    readonly As_IEquatable_1_of_ConsoleKeyInfo: System_Internal.IEquatable_1$instance<Vector256_1<T>>;
+    As_IEquatable_1(): System_Internal.IEquatable_1$instance<Vector256_1<T>>;
 
     // Structural method bridges for numeric interface constraints
     Equals(other: Vector256_1<T>): boolean;
@@ -89,12 +89,12 @@ export interface __Vector256_1$views<T> {
 export type Vector256_1<T> = Vector256_1$instance<T> & __Vector256_1$views<T>;
 
 
-export class Vector512_1$instance<T> {
-    readonly item: T;
-    equals(obj: any): boolean;
-    equals(other: Vector512_1<T>): boolean;
-    getHashCode(): int;
-    toString(): string;
+export class Vector512_1$instance<T> implements IAdditionOperators_3<Vector512_1<T>, Vector512_1<T>, Vector512_1<T>>, IBitwiseOperators_3<Vector512_1<T>, Vector512_1<T>, Vector512_1<T>>, IDivisionOperators_3<Vector512_1<T>, Vector512_1<T>, Vector512_1<T>>, IEqualityOperators_3<Vector512_1<T>, Vector512_1<T>, CLROf<boolean>>, IMultiplyOperators_3<Vector512_1<T>, Vector512_1<T>, Vector512_1<T>>, IShiftOperators_3<Vector512_1<T>, CLROf<int>, Vector512_1<T>>, ISubtractionOperators_3<Vector512_1<T>, Vector512_1<T>, Vector512_1<T>>, IUnaryNegationOperators_2<Vector512_1<T>, Vector512_1<T>>, IUnaryPlusOperators_2<Vector512_1<T>, Vector512_1<T>> {
+    readonly Item: T;
+    Equals(obj: unknown): boolean;
+    Equals(other: Vector512_1<T>): boolean;
+    GetHashCode(): int;
+    ToString(): string;
     static readonly AllBitsSet: unknown;
     static readonly Count: int;
     static readonly Indices: unknown;
@@ -105,7 +105,7 @@ export class Vector512_1$instance<T> {
 
 
 export interface __Vector512_1$views<T> {
-    readonly As_IEquatable_1_of_ConsoleKeyInfo: System_Internal.IEquatable_1$instance<Vector512_1<T>>;
+    As_IEquatable_1(): System_Internal.IEquatable_1$instance<Vector512_1<T>>;
 
     // Structural method bridges for numeric interface constraints
     Equals(other: Vector512_1<T>): boolean;
@@ -114,12 +114,12 @@ export interface __Vector512_1$views<T> {
 export type Vector512_1<T> = Vector512_1$instance<T> & __Vector512_1$views<T>;
 
 
-export class Vector64_1$instance<T> {
-    readonly item: T;
-    equals(obj: any): boolean;
-    equals(other: Vector64_1<T>): boolean;
-    getHashCode(): int;
-    toString(): string;
+export class Vector64_1$instance<T> implements IAdditionOperators_3<Vector64_1<T>, Vector64_1<T>, Vector64_1<T>>, IBitwiseOperators_3<Vector64_1<T>, Vector64_1<T>, Vector64_1<T>>, IDivisionOperators_3<Vector64_1<T>, Vector64_1<T>, Vector64_1<T>>, IEqualityOperators_3<Vector64_1<T>, Vector64_1<T>, CLROf<boolean>>, IMultiplyOperators_3<Vector64_1<T>, Vector64_1<T>, Vector64_1<T>>, IShiftOperators_3<Vector64_1<T>, CLROf<int>, Vector64_1<T>>, ISubtractionOperators_3<Vector64_1<T>, Vector64_1<T>, Vector64_1<T>>, IUnaryNegationOperators_2<Vector64_1<T>, Vector64_1<T>>, IUnaryPlusOperators_2<Vector64_1<T>, Vector64_1<T>> {
+    readonly Item: T;
+    Equals(obj: unknown): boolean;
+    Equals(other: Vector64_1<T>): boolean;
+    GetHashCode(): int;
+    ToString(): string;
     static readonly AllBitsSet: unknown;
     static readonly Count: int;
     static readonly Indices: unknown;
@@ -130,7 +130,7 @@ export class Vector64_1$instance<T> {
 
 
 export interface __Vector64_1$views<T> {
-    readonly As_IEquatable_1_of_ConsoleKeyInfo: System_Internal.IEquatable_1$instance<Vector64_1<T>>;
+    As_IEquatable_1(): System_Internal.IEquatable_1$instance<Vector64_1<T>>;
 
     // Structural method bridges for numeric interface constraints
     Equals(other: Vector64_1<T>): boolean;

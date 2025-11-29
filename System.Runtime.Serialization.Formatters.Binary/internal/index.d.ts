@@ -41,19 +41,19 @@ export type CLROf<T> =
 export class BinaryFormatter$instance {
     constructor();
     constructor(selector: ISurrogateSelector, context: StreamingContext);
-    assemblyFormat: FormatterAssemblyStyle;
-    binder: SerializationBinder;
-    context: StreamingContext;
-    filterLevel: TypeFilterLevel;
-    surrogateSelector: ISurrogateSelector;
-    typeFormat: FormatterTypeStyle;
-    deserialize(serializationStream: Stream): any;
-    serialize(serializationStream: Stream, graph: any): void;
+    AssemblyFormat: FormatterAssemblyStyle;
+    Binder: SerializationBinder;
+    Context: StreamingContext;
+    FilterLevel: TypeFilterLevel;
+    SurrogateSelector: ISurrogateSelector;
+    TypeFormat: FormatterTypeStyle;
+    Deserialize(serializationStream: Stream): unknown;
+    Serialize(serializationStream: Stream, graph: unknown): void;
 }
 
 
 export interface __BinaryFormatter$views {
-    readonly As_IFormatter: System_Runtime_Serialization_Internal.IFormatter$instance;
+    As_IFormatter(): System_Runtime_Serialization_Internal.IFormatter$instance;
 }
 
 export type BinaryFormatter = BinaryFormatter$instance & __BinaryFormatter$views;

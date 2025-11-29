@@ -50,7 +50,7 @@ export class HttpUtility$instance {
     static HtmlAttributeEncode(s: string): string;
     static HtmlDecode(s: string, output: TextWriter): void;
     static HtmlDecode(s: string): string;
-    static HtmlEncode(value: any): string;
+    static HtmlEncode(value: unknown): string;
     static HtmlEncode(s: string, output: TextWriter): void;
     static HtmlEncode(s: string): string;
     static JavaScriptStringEncode(value: string, addDoubleQuotes: boolean): string;

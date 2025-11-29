@@ -42,27 +42,27 @@ export type CLROf<T> =
     T; // Identity fallback for non-primitive types
 
 export enum CSharpArgumentInfoFlags {
-    none = 0,
-    useCompileTimeType = 1,
-    constant = 2,
-    namedArgument = 4,
-    isRef = 8,
-    isOut = 16,
-    isStaticType = 32
+    None = 0,
+    UseCompileTimeType = 1,
+    Constant = 2,
+    NamedArgument = 4,
+    IsRef = 8,
+    IsOut = 16,
+    IsStaticType = 32
 }
 
 
 export enum CSharpBinderFlags {
-    none = 0,
-    checkedContext = 1,
-    invokeSimpleName = 2,
-    invokeSpecialName = 4,
-    binaryOperationLogical = 8,
-    convertExplicit = 16,
-    convertArrayIndex = 32,
-    resultIndexed = 64,
-    valueFromCompoundAssignment = 128,
-    resultDiscarded = 256
+    None = 0,
+    CheckedContext = 1,
+    InvokeSimpleName = 2,
+    InvokeSpecialName = 4,
+    BinaryOperationLogical = 8,
+    ConvertExplicit = 16,
+    ConvertArrayIndex = 32,
+    ResultIndexed = 64,
+    ValueFromCompoundAssignment = 128,
+    ResultDiscarded = 256
 }
 
 
@@ -77,12 +77,12 @@ export class RuntimeBinderException$instance extends System_Internal.Exception$i
     constructor();
     constructor(message: string);
     constructor(message: string, innerException: Exception);
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
 export interface __RuntimeBinderException$views {
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type RuntimeBinderException = RuntimeBinderException$instance & __RuntimeBinderException$views;
@@ -92,12 +92,12 @@ export class RuntimeBinderInternalCompilerException$instance extends System_Inte
     constructor();
     constructor(message: string);
     constructor(message: string, innerException: Exception);
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
 export interface __RuntimeBinderInternalCompilerException$views {
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type RuntimeBinderInternalCompilerException = RuntimeBinderInternalCompilerException$instance & __RuntimeBinderInternalCompilerException$views;

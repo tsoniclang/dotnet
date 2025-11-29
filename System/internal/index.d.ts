@@ -64,457 +64,457 @@ export type CLROf<T> =
     T; // Identity fallback for non-primitive types
 
 export enum AttributeTargets {
-    assembly = 1,
-    module_ = 2,
-    class_ = 4,
-    struct = 8,
-    enum_ = 16,
-    constructor_ = 32,
-    method = 64,
-    property = 128,
-    field = 256,
-    event = 512,
-    interface_ = 1024,
-    parameter = 2048,
-    delegate = 4096,
-    returnValue = 8192,
-    genericParameter = 16384,
-    all = 32767
+    Assembly = 1,
+    Module = 2,
+    Class = 4,
+    Struct = 8,
+    Enum = 16,
+    Constructor = 32,
+    Method = 64,
+    Property = 128,
+    Field = 256,
+    Event = 512,
+    Interface = 1024,
+    Parameter = 2048,
+    Delegate = 4096,
+    ReturnValue = 8192,
+    GenericParameter = 16384,
+    All = 32767
 }
 
 
 export enum Base64FormattingOptions {
-    none = 0,
-    insertLineBreaks = 1
+    None = 0,
+    InsertLineBreaks = 1
 }
 
 
 export enum ConsoleColor {
-    black = 0,
-    darkBlue = 1,
-    darkGreen = 2,
-    darkCyan = 3,
-    darkRed = 4,
-    darkMagenta = 5,
-    darkYellow = 6,
-    gray = 7,
-    darkGray = 8,
-    blue = 9,
-    green = 10,
-    cyan = 11,
-    red = 12,
-    magenta = 13,
-    yellow = 14,
-    white = 15
+    Black = 0,
+    DarkBlue = 1,
+    DarkGreen = 2,
+    DarkCyan = 3,
+    DarkRed = 4,
+    DarkMagenta = 5,
+    DarkYellow = 6,
+    Gray = 7,
+    DarkGray = 8,
+    Blue = 9,
+    Green = 10,
+    Cyan = 11,
+    Red = 12,
+    Magenta = 13,
+    Yellow = 14,
+    White = 15
 }
 
 
 export enum ConsoleKey {
-    none = 0,
-    backspace = 8,
-    tab = 9,
-    clear = 12,
-    enter = 13,
-    pause = 19,
-    escape = 27,
-    spacebar = 32,
-    pageUp = 33,
-    pageDown = 34,
-    end = 35,
-    home = 36,
-    leftArrow = 37,
-    upArrow = 38,
-    rightArrow = 39,
-    downArrow = 40,
-    select = 41,
-    print = 42,
-    execute = 43,
-    printScreen = 44,
-    insert = 45,
-    delete_ = 46,
-    help = 47,
-    d0 = 48,
-    d1 = 49,
-    d2 = 50,
-    d3 = 51,
-    d4 = 52,
-    d5 = 53,
-    d6 = 54,
-    d7 = 55,
-    d8 = 56,
-    d9 = 57,
-    a = 65,
-    b = 66,
-    c = 67,
-    d = 68,
-    e = 69,
-    f = 70,
-    g = 71,
-    h = 72,
-    i = 73,
-    j = 74,
-    k = 75,
-    l = 76,
-    m = 77,
-    n = 78,
-    o = 79,
-    p = 80,
-    q = 81,
-    r = 82,
-    s = 83,
-    t = 84,
-    u = 85,
-    v = 86,
-    w = 87,
-    x = 88,
-    y = 89,
-    z = 90,
-    leftWindows = 91,
-    rightWindows = 92,
-    applications = 93,
-    sleep = 95,
-    numPad0 = 96,
-    numPad1 = 97,
-    numPad2 = 98,
-    numPad3 = 99,
-    numPad4 = 100,
-    numPad5 = 101,
-    numPad6 = 102,
-    numPad7 = 103,
-    numPad8 = 104,
-    numPad9 = 105,
-    multiply = 106,
-    add = 107,
-    separator = 108,
-    subtract = 109,
-    decimal = 110,
-    divide = 111,
-    f1 = 112,
-    f2 = 113,
-    f3 = 114,
-    f4 = 115,
-    f5 = 116,
-    f6 = 117,
-    f7 = 118,
-    f8 = 119,
-    f9 = 120,
-    f10 = 121,
-    f11 = 122,
-    f12 = 123,
-    f13 = 124,
-    f14 = 125,
-    f15 = 126,
-    f16 = 127,
-    f17 = 128,
-    f18 = 129,
-    f19 = 130,
-    f20 = 131,
-    f21 = 132,
-    f22 = 133,
-    f23 = 134,
-    f24 = 135,
-    browserBack = 166,
-    browserForward = 167,
-    browserRefresh = 168,
-    browserStop = 169,
-    browserSearch = 170,
-    browserFavorites = 171,
-    browserHome = 172,
-    volumeMute = 173,
-    volumeDown = 174,
-    volumeUp = 175,
-    mediaNext = 176,
-    mediaPrevious = 177,
-    mediaStop = 178,
-    mediaPlay = 179,
-    launchMail = 180,
-    launchMediaSelect = 181,
-    launchApp1 = 182,
-    launchApp2 = 183,
-    oem1 = 186,
-    oemPlus = 187,
-    oemComma = 188,
-    oemMinus = 189,
-    oemPeriod = 190,
-    oem2 = 191,
-    oem3 = 192,
-    oem4 = 219,
-    oem5 = 220,
-    oem6 = 221,
-    oem7 = 222,
-    oem8 = 223,
-    oem102 = 226,
-    process = 229,
-    packet = 231,
-    attention = 246,
-    crSel = 247,
-    exSel = 248,
-    eraseEndOfFile = 249,
-    play = 250,
-    zoom = 251,
-    noName = 252,
-    pa1 = 253,
-    oemClear = 254
+    None = 0,
+    Backspace = 8,
+    Tab = 9,
+    Clear = 12,
+    Enter = 13,
+    Pause = 19,
+    Escape = 27,
+    Spacebar = 32,
+    PageUp = 33,
+    PageDown = 34,
+    End = 35,
+    Home = 36,
+    LeftArrow = 37,
+    UpArrow = 38,
+    RightArrow = 39,
+    DownArrow = 40,
+    Select = 41,
+    Print = 42,
+    Execute = 43,
+    PrintScreen = 44,
+    Insert = 45,
+    Delete = 46,
+    Help = 47,
+    D0 = 48,
+    D1 = 49,
+    D2 = 50,
+    D3 = 51,
+    D4 = 52,
+    D5 = 53,
+    D6 = 54,
+    D7 = 55,
+    D8 = 56,
+    D9 = 57,
+    A = 65,
+    B = 66,
+    C = 67,
+    D = 68,
+    E = 69,
+    F = 70,
+    G = 71,
+    H = 72,
+    I = 73,
+    J = 74,
+    K = 75,
+    L = 76,
+    M = 77,
+    N = 78,
+    O = 79,
+    P = 80,
+    Q = 81,
+    R = 82,
+    S = 83,
+    T = 84,
+    U = 85,
+    V = 86,
+    W = 87,
+    X = 88,
+    Y = 89,
+    Z = 90,
+    LeftWindows = 91,
+    RightWindows = 92,
+    Applications = 93,
+    Sleep = 95,
+    NumPad0 = 96,
+    NumPad1 = 97,
+    NumPad2 = 98,
+    NumPad3 = 99,
+    NumPad4 = 100,
+    NumPad5 = 101,
+    NumPad6 = 102,
+    NumPad7 = 103,
+    NumPad8 = 104,
+    NumPad9 = 105,
+    Multiply = 106,
+    Add = 107,
+    Separator = 108,
+    Subtract = 109,
+    Decimal = 110,
+    Divide = 111,
+    F1 = 112,
+    F2 = 113,
+    F3 = 114,
+    F4 = 115,
+    F5 = 116,
+    F6 = 117,
+    F7 = 118,
+    F8 = 119,
+    F9 = 120,
+    F10 = 121,
+    F11 = 122,
+    F12 = 123,
+    F13 = 124,
+    F14 = 125,
+    F15 = 126,
+    F16 = 127,
+    F17 = 128,
+    F18 = 129,
+    F19 = 130,
+    F20 = 131,
+    F21 = 132,
+    F22 = 133,
+    F23 = 134,
+    F24 = 135,
+    BrowserBack = 166,
+    BrowserForward = 167,
+    BrowserRefresh = 168,
+    BrowserStop = 169,
+    BrowserSearch = 170,
+    BrowserFavorites = 171,
+    BrowserHome = 172,
+    VolumeMute = 173,
+    VolumeDown = 174,
+    VolumeUp = 175,
+    MediaNext = 176,
+    MediaPrevious = 177,
+    MediaStop = 178,
+    MediaPlay = 179,
+    LaunchMail = 180,
+    LaunchMediaSelect = 181,
+    LaunchApp1 = 182,
+    LaunchApp2 = 183,
+    Oem1 = 186,
+    OemPlus = 187,
+    OemComma = 188,
+    OemMinus = 189,
+    OemPeriod = 190,
+    Oem2 = 191,
+    Oem3 = 192,
+    Oem4 = 219,
+    Oem5 = 220,
+    Oem6 = 221,
+    Oem7 = 222,
+    Oem8 = 223,
+    Oem102 = 226,
+    Process = 229,
+    Packet = 231,
+    Attention = 246,
+    CrSel = 247,
+    ExSel = 248,
+    EraseEndOfFile = 249,
+    Play = 250,
+    Zoom = 251,
+    NoName = 252,
+    Pa1 = 253,
+    OemClear = 254
 }
 
 
 export enum ConsoleModifiers {
-    none = 0,
-    alt = 1,
-    shift = 2,
-    control = 4
+    None = 0,
+    Alt = 1,
+    Shift = 2,
+    Control = 4
 }
 
 
 export enum ConsoleSpecialKey {
-    controlC = 0,
-    controlBreak = 1
+    ControlC = 0,
+    ControlBreak = 1
 }
 
 
 export enum DateTimeKind {
-    unspecified = 0,
-    utc = 1,
-    local = 2
+    Unspecified = 0,
+    Utc = 1,
+    Local = 2
 }
 
 
 export enum DayOfWeek {
-    sunday = 0,
-    monday = 1,
-    tuesday = 2,
-    wednesday = 3,
-    thursday = 4,
-    friday = 5,
-    saturday = 6
+    Sunday = 0,
+    Monday = 1,
+    Tuesday = 2,
+    Wednesday = 3,
+    Thursday = 4,
+    Friday = 5,
+    Saturday = 6
 }
 
 
 export enum Environment_SpecialFolder {
-    applicationData = 26,
-    commonApplicationData = 35,
-    localApplicationData = 28,
-    cookies = 33,
-    desktop = 0,
-    favorites = 6,
-    history = 34,
-    internetCache = 32,
-    programs = 2,
-    myComputer = 17,
-    myMusic = 13,
-    myPictures = 39,
-    myVideos = 14,
-    recent = 8,
-    sendTo = 9,
-    startMenu = 11,
-    startup = 7,
-    system = 37,
-    templates = 21,
-    desktopDirectory = 16,
-    personal = 5,
-    myDocuments = 5,
-    programFiles = 38,
-    commonProgramFiles = 43,
-    adminTools = 48,
-    cdBurning = 59,
-    commonAdminTools = 47,
-    commonDocuments = 46,
-    commonMusic = 53,
-    commonOemLinks = 58,
-    commonPictures = 54,
-    commonStartMenu = 22,
-    commonPrograms = 23,
-    commonStartup = 24,
-    commonDesktopDirectory = 25,
-    commonTemplates = 45,
-    commonVideos = 55,
-    fonts = 20,
-    networkShortcuts = 19,
-    printerShortcuts = 27,
-    userProfile = 40,
-    commonProgramFilesX86 = 44,
-    programFilesX86 = 42,
-    resources = 56,
-    localizedResources = 57,
-    systemX86 = 41,
-    windows = 36
+    ApplicationData = 26,
+    CommonApplicationData = 35,
+    LocalApplicationData = 28,
+    Cookies = 33,
+    Desktop = 0,
+    Favorites = 6,
+    History = 34,
+    InternetCache = 32,
+    Programs = 2,
+    MyComputer = 17,
+    MyMusic = 13,
+    MyPictures = 39,
+    MyVideos = 14,
+    Recent = 8,
+    SendTo = 9,
+    StartMenu = 11,
+    Startup = 7,
+    System = 37,
+    Templates = 21,
+    DesktopDirectory = 16,
+    Personal = 5,
+    MyDocuments = 5,
+    ProgramFiles = 38,
+    CommonProgramFiles = 43,
+    AdminTools = 48,
+    CDBurning = 59,
+    CommonAdminTools = 47,
+    CommonDocuments = 46,
+    CommonMusic = 53,
+    CommonOemLinks = 58,
+    CommonPictures = 54,
+    CommonStartMenu = 22,
+    CommonPrograms = 23,
+    CommonStartup = 24,
+    CommonDesktopDirectory = 25,
+    CommonTemplates = 45,
+    CommonVideos = 55,
+    Fonts = 20,
+    NetworkShortcuts = 19,
+    PrinterShortcuts = 27,
+    UserProfile = 40,
+    CommonProgramFilesX86 = 44,
+    ProgramFilesX86 = 42,
+    Resources = 56,
+    LocalizedResources = 57,
+    SystemX86 = 41,
+    Windows = 36
 }
 
 
 export enum Environment_SpecialFolderOption {
-    none = 0,
-    create = 32768,
-    doNotVerify = 16384
+    None = 0,
+    Create = 32768,
+    DoNotVerify = 16384
 }
 
 
 export enum EnvironmentVariableTarget {
-    process = 0,
-    user = 1,
-    machine = 2
+    Process = 0,
+    User = 1,
+    Machine = 2
 }
 
 
 export enum GCCollectionMode {
-    default_ = 0,
-    forced = 1,
-    optimized = 2,
-    aggressive = 3
+    Default = 0,
+    Forced = 1,
+    Optimized = 2,
+    Aggressive = 3
 }
 
 
 export enum GCKind {
-    any_ = 0,
-    ephemeral = 1,
-    fullBlocking = 2,
-    background = 3
+    Any = 0,
+    Ephemeral = 1,
+    FullBlocking = 2,
+    Background = 3
 }
 
 
 export enum GCNotificationStatus {
-    succeeded = 0,
-    failed = 1,
-    canceled = 2,
-    timeout = 3,
-    notApplicable = 4
+    Succeeded = 0,
+    Failed = 1,
+    Canceled = 2,
+    Timeout = 3,
+    NotApplicable = 4
 }
 
 
 export enum GenericUriParserOptions {
-    default_ = 0,
-    genericAuthority = 1,
-    allowEmptyAuthority = 2,
-    noUserInfo = 4,
-    noPort = 8,
-    noQuery = 16,
-    noFragment = 32,
-    dontConvertPathBackslashes = 64,
-    dontCompressPath = 128,
-    dontUnescapePathDotsAndSlashes = 256,
-    idn = 512,
-    iriParsing = 1024
+    Default = 0,
+    GenericAuthority = 1,
+    AllowEmptyAuthority = 2,
+    NoUserInfo = 4,
+    NoPort = 8,
+    NoQuery = 16,
+    NoFragment = 32,
+    DontConvertPathBackslashes = 64,
+    DontCompressPath = 128,
+    DontUnescapePathDotsAndSlashes = 256,
+    Idn = 512,
+    IriParsing = 1024
 }
 
 
 export enum LoaderOptimization {
-    disallowBindings = 4,
-    domainMask = 3,
-    multiDomain = 2,
-    multiDomainHost = 3,
-    notSpecified = 0,
-    singleDomain = 1
+    DisallowBindings = 4,
+    DomainMask = 3,
+    MultiDomain = 2,
+    MultiDomainHost = 3,
+    NotSpecified = 0,
+    SingleDomain = 1
 }
 
 
 export enum MidpointRounding {
-    toEven = 0,
-    awayFromZero = 1,
-    toZero = 2,
-    toNegativeInfinity = 3,
-    toPositiveInfinity = 4
+    ToEven = 0,
+    AwayFromZero = 1,
+    ToZero = 2,
+    ToNegativeInfinity = 3,
+    ToPositiveInfinity = 4
 }
 
 
 export enum PlatformID {
-    win32S = 0,
-    win32Windows = 1,
-    win32NT = 2,
-    winCE = 3,
-    unix = 4,
-    xbox = 5,
-    macOSX = 6,
-    other = 7
+    Win32S = 0,
+    Win32Windows = 1,
+    Win32NT = 2,
+    WinCE = 3,
+    Unix = 4,
+    Xbox = 5,
+    MacOSX = 6,
+    Other = 7
 }
 
 
 export enum StringComparison {
-    currentCulture = 0,
-    currentCultureIgnoreCase = 1,
-    invariantCulture = 2,
-    invariantCultureIgnoreCase = 3,
-    ordinal = 4,
-    ordinalIgnoreCase = 5
+    CurrentCulture = 0,
+    CurrentCultureIgnoreCase = 1,
+    InvariantCulture = 2,
+    InvariantCultureIgnoreCase = 3,
+    Ordinal = 4,
+    OrdinalIgnoreCase = 5
 }
 
 
 export enum StringSplitOptions {
-    none = 0,
-    removeEmptyEntries = 1,
-    trimEntries = 2
+    None = 0,
+    RemoveEmptyEntries = 1,
+    TrimEntries = 2
 }
 
 
 export enum TypeCode {
-    empty = 0,
-    object_ = 1,
-    dbNull = 2,
-    boolean_ = 3,
-    char = 4,
-    sByte = 5,
-    byte = 6,
-    int16 = 7,
-    uInt16 = 8,
-    int32 = 9,
-    uInt32 = 10,
-    int64 = 11,
-    uInt64 = 12,
-    single = 13,
-    double = 14,
-    decimal = 15,
-    dateTime = 16,
-    string_ = 18
+    Empty = 0,
+    Object = 1,
+    DBNull = 2,
+    Boolean = 3,
+    Char = 4,
+    SByte = 5,
+    Byte = 6,
+    Int16 = 7,
+    UInt16 = 8,
+    Int32 = 9,
+    UInt32 = 10,
+    Int64 = 11,
+    UInt64 = 12,
+    Single = 13,
+    Double = 14,
+    Decimal = 15,
+    DateTime = 16,
+    String = 18
 }
 
 
 export enum UriComponents {
-    scheme = 1,
-    userInfo = 2,
-    host = 4,
-    port = 8,
-    path = 16,
-    query = 32,
-    fragment = 64,
-    strongPort = 128,
-    normalizedHost = 256,
-    keepDelimiter = 1073741824,
-    serializationInfoString = -2147483648,
-    absoluteUri = 127,
-    hostAndPort = 132,
-    strongAuthority = 134,
-    schemeAndServer = 13,
-    httpRequestUrl = 61,
-    pathAndQuery = 48
+    Scheme = 1,
+    UserInfo = 2,
+    Host = 4,
+    Port = 8,
+    Path = 16,
+    Query = 32,
+    Fragment = 64,
+    StrongPort = 128,
+    NormalizedHost = 256,
+    KeepDelimiter = 1073741824,
+    SerializationInfoString = -2147483648,
+    AbsoluteUri = 127,
+    HostAndPort = 132,
+    StrongAuthority = 134,
+    SchemeAndServer = 13,
+    HttpRequestUrl = 61,
+    PathAndQuery = 48
 }
 
 
 export enum UriFormat {
-    uriEscaped = 1,
-    unescaped = 2,
-    safeUnescaped = 3
+    UriEscaped = 1,
+    Unescaped = 2,
+    SafeUnescaped = 3
 }
 
 
 export enum UriHostNameType {
-    unknown_ = 0,
-    basic = 1,
-    dns = 2,
-    iPv4 = 3,
-    iPv6 = 4
+    Unknown = 0,
+    Basic = 1,
+    Dns = 2,
+    IPv4 = 3,
+    IPv6 = 4
 }
 
 
 export enum UriKind {
-    relativeOrAbsolute = 0,
-    absolute = 1,
-    relative = 2
+    RelativeOrAbsolute = 0,
+    Absolute = 1,
+    Relative = 2
 }
 
 
 export enum UriPartial {
-    scheme = 0,
-    authority = 1,
-    path = 2,
-    query = 3
+    Scheme = 0,
+    Authority = 1,
+    Path = 2,
+    Query = 3
 }
 
 
@@ -528,7 +528,7 @@ export type IAsyncDisposable = IAsyncDisposable$instance;
 export interface IAsyncResult$instance {
     readonly IsCompleted: boolean;
     readonly AsyncWaitHandle: WaitHandle;
-    readonly AsyncState: any;
+    readonly AsyncState: unknown;
     readonly CompletedSynchronously: boolean;
 }
 
@@ -536,14 +536,14 @@ export interface IAsyncResult$instance {
 export type IAsyncResult = IAsyncResult$instance;
 
 export interface ICloneable$instance {
-    Clone(): any;
+    Clone(): unknown;
 }
 
 
 export type ICloneable = ICloneable$instance;
 
 export interface IComparable$instance {
-    CompareTo(obj: any): int;
+    CompareTo(obj: unknown): int;
 }
 
 
@@ -560,7 +560,7 @@ export interface IConvertible$instance {
     GetTypeCode(): TypeCode;
     ToBoolean(provider: IFormatProvider): boolean;
     ToByte(provider: IFormatProvider): byte;
-    ToChar(provider: IFormatProvider): string;
+    ToChar(provider: IFormatProvider): char;
     ToDateTime(provider: IFormatProvider): DateTime;
     ToDecimal(provider: IFormatProvider): decimal;
     ToDouble(provider: IFormatProvider): double;
@@ -570,7 +570,7 @@ export interface IConvertible$instance {
     ToSByte(provider: IFormatProvider): sbyte;
     ToSingle(provider: IFormatProvider): float;
     ToString(provider: IFormatProvider): string;
-    ToType(conversionType: Type, provider: IFormatProvider): any;
+    ToType(conversionType: Type, provider: IFormatProvider): unknown;
     ToUInt16(provider: IFormatProvider): ushort;
     ToUInt32(provider: IFormatProvider): uint;
     ToUInt64(provider: IFormatProvider): ulong;
@@ -580,7 +580,7 @@ export interface IConvertible$instance {
 export type IConvertible = IConvertible$instance;
 
 export interface ICustomFormatter$instance {
-    Format(format: string, arg: any, formatProvider: IFormatProvider): string;
+    Format(format: string, arg: unknown, formatProvider: IFormatProvider): string;
 }
 
 
@@ -601,7 +601,7 @@ export interface IEquatable_1$instance<T> {
 export type IEquatable_1<T> = IEquatable_1$instance<T>;
 
 export interface IFormatProvider$instance {
-    GetFormat(formatType: Type): any;
+    GetFormat(formatType: Type): unknown;
 }
 
 
@@ -644,7 +644,7 @@ export interface IProgress_1$instance<T> {
 export type IProgress_1<T> = IProgress_1$instance<T>;
 
 export interface IServiceProvider$instance {
-    GetService(serviceType: Type): any;
+    GetService(serviceType: Type): unknown;
 }
 
 
@@ -652,7 +652,7 @@ export type IServiceProvider = IServiceProvider$instance;
 
 export interface ISpanFormattable$instance {
     ToString(format: string, formatProvider: IFormatProvider): string;
-    TryFormat(destination: Span_1<CLROf<string>>, charsWritten: { value: ref<int> }, format: ReadOnlySpan_1<CLROf<string>>, provider: IFormatProvider): boolean;
+    TryFormat(destination: Span_1<CLROf<char>>, charsWritten: { value: ref<int> }, format: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider): boolean;
 }
 
 
@@ -665,7 +665,7 @@ export interface ISpanParsable_1$instance<TSelf extends ISpanParsable_1<TSelf>> 
 export type ISpanParsable_1<TSelf extends ISpanParsable_1<TSelf>> = ISpanParsable_1$instance<TSelf>;
 
 export interface IUtf8SpanFormattable$instance {
-    TryFormat(utf8Destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }, format: ReadOnlySpan_1<CLROf<string>>, provider: IFormatProvider): boolean;
+    TryFormat(utf8Destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }, format: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider): boolean;
 }
 
 
@@ -680,13 +680,13 @@ export type IUtf8SpanParsable_1<TSelf extends IUtf8SpanParsable_1<TSelf>> = IUtf
 export class ArgIterator$instance {
     constructor(arglist: RuntimeArgumentHandle);
     constructor(arglist: RuntimeArgumentHandle, ptr: ptr<void>);
-    end(): void;
-    equals(o: any): boolean;
-    getHashCode(): int;
-    getNextArg(): TypedReference;
-    getNextArg(rth: RuntimeTypeHandle): TypedReference;
-    getNextArgType(): RuntimeTypeHandle;
-    getRemainingCount(): int;
+    End(): void;
+    Equals(o: unknown): boolean;
+    GetHashCode(): int;
+    GetNextArg(): TypedReference;
+    GetNextArg(rth: RuntimeTypeHandle): TypedReference;
+    GetNextArgType(): RuntimeTypeHandle;
+    GetRemainingCount(): int;
 }
 
 
@@ -695,98 +695,98 @@ export type ArgIterator = ArgIterator$instance;
 export class ArraySegment_1$instance<T> {
     constructor(array: T[]);
     constructor(array: T[], offset: int, count: int);
-    readonly array: T[];
-    readonly count: int;
-    item: T;
-    readonly offset: int;
-    copyTo(destination: T[]): void;
-    copyTo(destination: T[], destinationIndex: int): void;
-    copyTo(destination: ArraySegment_1<T>): void;
-    equals(obj: any): boolean;
-    equals(obj: ArraySegment_1<T>): boolean;
-    getEnumerator(): ArraySegment_1_Enumerator<T>;
-    getHashCode(): int;
-    slice(index: int): ArraySegment_1<T>;
-    slice(index: int, count: int): ArraySegment_1<T>;
-    toArray(): T[];
+    readonly Array: T[];
+    readonly Count: int;
+    Item: T;
+    readonly Offset: int;
+    CopyTo(destination: T[]): void;
+    CopyTo(destination: T[], destinationIndex: int): void;
+    CopyTo(destination: ArraySegment_1<T>): void;
+    Equals(obj: unknown): boolean;
+    Equals(obj: ArraySegment_1<T>): boolean;
+    GetEnumerator(): ArraySegment_1_Enumerator<T>;
+    GetHashCode(): int;
+    Slice(index: int): ArraySegment_1<T>;
+    Slice(index: int, count: int): ArraySegment_1<T>;
+    ToArray(): T[];
     static readonly Empty: unknown;
 }
 
 
 export interface __ArraySegment_1$views<T> {
-    readonly As_ICollection_1: System_Collections_Generic_Internal.ICollection_1$instance<T>;
-    readonly As_IEnumerable_1_of_Char: System_Collections_Generic_Internal.IEnumerable_1$instance<T>;
-    readonly As_IList_1: System_Collections_Generic_Internal.IList_1$instance<T>;
-    readonly As_IReadOnlyCollection_1: System_Collections_Generic_Internal.IReadOnlyCollection_1$instance<T>;
-    readonly As_IEnumerable: System_Collections_Internal.IEnumerable$instance;
+    As_ICollection_1(): System_Collections_Generic_Internal.ICollection_1$instance<T>;
+    As_IEnumerable_1(): System_Collections_Generic_Internal.IEnumerable_1$instance<T>;
+    As_IList_1(): System_Collections_Generic_Internal.IList_1$instance<T>;
+    As_IReadOnlyCollection_1(): System_Collections_Generic_Internal.IReadOnlyCollection_1$instance<T>;
+    As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
 }
 
 export type ArraySegment_1<T> = ArraySegment_1$instance<T> & __ArraySegment_1$views<T>;
 
 
-export class ArraySegment_1_Enumerator$instance<T> {
-    readonly current: T;
-    dispose(): void;
-    moveNext(): boolean;
+export class ArraySegment_1_Enumerator$instance<T> implements IDisposable {
+    readonly Current: T;
+    Dispose(): void;
+    MoveNext(): boolean;
 }
 
 
 export interface __ArraySegment_1_Enumerator$views<T> {
-    readonly As_IEnumerator_1: System_Collections_Generic_Internal.IEnumerator_1$instance<T>;
-    readonly As_IEnumerator: System_Collections_Internal.IEnumerator$instance;
+    As_IEnumerator_1(): System_Collections_Generic_Internal.IEnumerator_1$instance<T>;
+    As_IEnumerator(): System_Collections_Internal.IEnumerator$instance;
 }
 
 export type ArraySegment_1_Enumerator<T> = ArraySegment_1_Enumerator$instance<T> & __ArraySegment_1_Enumerator$views<T>;
 
 
 export class Boolean$instance {
-    compareTo(obj: any): int;
-    compareTo(value: boolean): int;
-    equals(obj: any): boolean;
-    equals(obj: boolean): boolean;
-    getHashCode(): int;
-    getTypeCode(): TypeCode;
-    toString(): string;
-    toString(provider: IFormatProvider): string;
-    tryFormat(destination: Span_1<CLROf<string>>, charsWritten: { value: ref<int> }): boolean;
-    static readonly trueString: string;
-    static readonly falseString: string;
-    static Parse(value: ReadOnlySpan_1<CLROf<string>>): boolean;
+    CompareTo(obj: unknown): int;
+    CompareTo(value: boolean): int;
+    Equals(obj: unknown): boolean;
+    Equals(obj: boolean): boolean;
+    GetHashCode(): int;
+    GetTypeCode(): TypeCode;
+    ToString(): string;
+    ToString(provider: IFormatProvider): string;
+    TryFormat(destination: Span_1<CLROf<char>>, charsWritten: { value: ref<int> }): boolean;
+    static readonly TrueString: string;
+    static readonly FalseString: string;
+    static Parse(value: ReadOnlySpan_1<CLROf<char>>): boolean;
     static Parse(value: string): boolean;
-    static TryParse(value: ReadOnlySpan_1<CLROf<string>>, result: { value: ref<boolean> }): boolean;
+    static TryParse(value: ReadOnlySpan_1<CLROf<char>>, result: { value: ref<boolean> }): boolean;
     static TryParse(value: string, result: { value: ref<boolean> }): boolean;
 }
 
 
 export interface __Boolean$views {
-    readonly As_IComparable: IComparable$instance;
-    readonly As_IComparable_1_of_Decimal: IComparable_1$instance<CLROf<boolean>>;
-    readonly As_IConvertible: IConvertible$instance;
-    readonly As_IEquatable_1_of_ConsoleKeyInfo: IEquatable_1$instance<CLROf<boolean>>;
-    readonly As_IParsable_1_of_Decimal: IParsable_1$instance<any>;
-    readonly As_ISpanParsable_1_of_Decimal: ISpanParsable_1$instance<any>;
+    As_IComparable(): IComparable$instance;
+    As_IComparable_1(): IComparable_1$instance<CLROf<boolean>>;
+    As_IConvertible(): IConvertible$instance;
+    As_IEquatable_1(): IEquatable_1$instance<CLROf<boolean>>;
+    As_IParsable_1(): IParsable_1$instance<CLROf<boolean>>;
+    As_ISpanParsable_1(): ISpanParsable_1$instance<CLROf<boolean>>;
 
     // Structural method bridges for numeric interface constraints
     Equals(other: Boolean): boolean;
-    CompareTo(obj: any): int;
+    CompareTo(obj: unknown): int;
 }
 
 export type Boolean = Boolean$instance & __Boolean$views;
 
 
-export class Byte$instance {
-    compareTo(value: any): int;
-    compareTo(value: byte): int;
-    equals(obj: any): boolean;
-    equals(obj: byte): boolean;
-    getHashCode(): int;
-    getTypeCode(): TypeCode;
-    toString(): string;
-    toString(format: string): string;
-    toString(provider: IFormatProvider): string;
-    toString(format: string, provider: IFormatProvider): string;
-    tryFormat(destination: Span_1<CLROf<string>>, charsWritten: { value: ref<int> }, format?: ReadOnlySpan_1<CLROf<string>>, provider?: IFormatProvider): boolean;
-    tryFormat(utf8Destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }, format?: ReadOnlySpan_1<CLROf<string>>, provider?: IFormatProvider): boolean;
+export class Byte$instance implements IBitwiseOperators_3<CLROf<byte>, CLROf<byte>, CLROf<byte>>, IComparisonOperators_3<CLROf<byte>, CLROf<byte>, CLROf<boolean>>, IEqualityOperators_3<CLROf<byte>, CLROf<byte>, CLROf<boolean>>, IModulusOperators_3<CLROf<byte>, CLROf<byte>, CLROf<byte>>, IAdditionOperators_3<CLROf<byte>, CLROf<byte>, CLROf<byte>>, IDecrementOperators_1<CLROf<byte>>, IDivisionOperators_3<CLROf<byte>, CLROf<byte>, CLROf<byte>>, IIncrementOperators_1<CLROf<byte>>, IMultiplyOperators_3<CLROf<byte>, CLROf<byte>, CLROf<byte>>, ISubtractionOperators_3<CLROf<byte>, CLROf<byte>, CLROf<byte>>, IUnaryPlusOperators_2<CLROf<byte>, CLROf<byte>>, IUnaryNegationOperators_2<CLROf<byte>, CLROf<byte>>, IShiftOperators_3<CLROf<byte>, CLROf<int>, CLROf<byte>> {
+    CompareTo(value: unknown): int;
+    CompareTo(value: byte): int;
+    Equals(obj: unknown): boolean;
+    Equals(obj: byte): boolean;
+    GetHashCode(): int;
+    GetTypeCode(): TypeCode;
+    ToString(): string;
+    ToString(format: string): string;
+    ToString(provider: IFormatProvider): string;
+    ToString(format: string, provider: IFormatProvider): string;
+    TryFormat(destination: Span_1<CLROf<char>>, charsWritten: { value: ref<int> }, format?: ReadOnlySpan_1<CLROf<char>>, provider?: IFormatProvider): boolean;
+    TryFormat(utf8Destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }, format?: ReadOnlySpan_1<CLROf<char>>, provider?: IFormatProvider): boolean;
     static readonly MaxValue: byte;
     static readonly MinValue: byte;
     static Clamp(value: byte, min: byte, max: byte): byte;
@@ -803,8 +803,8 @@ export class Byte$instance {
     static Min(x: byte, y: byte): byte;
     static Parse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, style?: NumberStyles, provider?: IFormatProvider): byte;
     static Parse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, provider: IFormatProvider): byte;
-    static Parse(s: ReadOnlySpan_1<CLROf<string>>, style?: NumberStyles, provider?: IFormatProvider): byte;
-    static Parse(s: ReadOnlySpan_1<CLROf<string>>, provider: IFormatProvider): byte;
+    static Parse(s: ReadOnlySpan_1<CLROf<char>>, style?: NumberStyles, provider?: IFormatProvider): byte;
+    static Parse(s: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider): byte;
     static Parse(s: string, style: NumberStyles, provider: IFormatProvider): byte;
     static Parse(s: string, style: NumberStyles): byte;
     static Parse(s: string, provider: IFormatProvider): byte;
@@ -817,9 +817,9 @@ export class Byte$instance {
     static TryParse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, result: { value: ref<byte> }): boolean;
     static TryParse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, style: NumberStyles, provider: IFormatProvider, result: { value: ref<byte> }): boolean;
     static TryParse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, provider: IFormatProvider, result: { value: ref<byte> }): boolean;
-    static TryParse(s: ReadOnlySpan_1<CLROf<string>>, result: { value: ref<byte> }): boolean;
-    static TryParse(s: ReadOnlySpan_1<CLROf<string>>, style: NumberStyles, provider: IFormatProvider, result: { value: ref<byte> }): boolean;
-    static TryParse(s: ReadOnlySpan_1<CLROf<string>>, provider: IFormatProvider, result: { value: ref<byte> }): boolean;
+    static TryParse(s: ReadOnlySpan_1<CLROf<char>>, result: { value: ref<byte> }): boolean;
+    static TryParse(s: ReadOnlySpan_1<CLROf<char>>, style: NumberStyles, provider: IFormatProvider, result: { value: ref<byte> }): boolean;
+    static TryParse(s: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider, result: { value: ref<byte> }): boolean;
     static TryParse(s: string, result: { value: ref<byte> }): boolean;
     static TryParse(s: string, style: NumberStyles, provider: IFormatProvider, result: { value: ref<byte> }): boolean;
     static TryParse(s: string, provider: IFormatProvider, result: { value: ref<byte> }): boolean;
@@ -827,144 +827,152 @@ export class Byte$instance {
 
 
 export interface __Byte$views {
-    readonly As_IComparable: IComparable$instance;
-    readonly As_IComparable_1_of_Decimal: IComparable_1$instance<CLROf<byte>>;
-    readonly As_IConvertible: IConvertible$instance;
-    readonly As_IEquatable_1_of_ConsoleKeyInfo: IEquatable_1$instance<CLROf<byte>>;
-    readonly As_IFormattable: IFormattable$instance;
-    readonly As_IParsable_1_of_Decimal: IParsable_1$instance<any>;
-    readonly As_ISpanFormattable: ISpanFormattable$instance;
-    readonly As_ISpanParsable_1_of_Decimal: ISpanParsable_1$instance<any>;
-    readonly As_IUtf8SpanFormattable: IUtf8SpanFormattable$instance;
-    readonly As_IUtf8SpanParsable_1_of_Decimal: IUtf8SpanParsable_1$instance<any>;
-    readonly As_IAdditiveIdentity_2: System_Numerics_Internal.IAdditiveIdentity_2$instance<any, any>;
-    readonly As_IBinaryInteger_1: System_Numerics_Internal.IBinaryInteger_1$instance<any>;
-    readonly As_IMinMaxValue_1: System_Numerics_Internal.IMinMaxValue_1$instance<any>;
-    readonly As_INumber_1: System_Numerics_Internal.INumber_1$instance<any>;
-    readonly As_INumberBase_1: System_Numerics_Internal.INumberBase_1$instance<any>;
+    As_IComparable(): IComparable$instance;
+    As_IComparable_1(): IComparable_1$instance<CLROf<byte>>;
+    As_IConvertible(): IConvertible$instance;
+    As_IEquatable_1(): IEquatable_1$instance<CLROf<byte>>;
+    As_IFormattable(): IFormattable$instance;
+    As_IParsable_1(): IParsable_1$instance<CLROf<byte>>;
+    As_ISpanFormattable(): ISpanFormattable$instance;
+    As_ISpanParsable_1(): ISpanParsable_1$instance<CLROf<byte>>;
+    As_IUtf8SpanFormattable(): IUtf8SpanFormattable$instance;
+    As_IUtf8SpanParsable_1(): IUtf8SpanParsable_1$instance<CLROf<byte>>;
+    As_IAdditiveIdentity_2(): System_Numerics_Internal.IAdditiveIdentity_2$instance<CLROf<byte>, CLROf<byte>>;
+    As_IBinaryInteger_1(): System_Numerics_Internal.IBinaryInteger_1$instance<CLROf<byte>>;
+    As_IMinMaxValue_1(): System_Numerics_Internal.IMinMaxValue_1$instance<CLROf<byte>>;
+    As_INumber_1(): System_Numerics_Internal.INumber_1$instance<CLROf<byte>>;
+    As_INumberBase_1(): System_Numerics_Internal.INumberBase_1$instance<CLROf<byte>>;
 
     // Structural method bridges for numeric interface constraints
     Equals(other: Byte): boolean;
-    CompareTo(obj: any): int;
+    CompareTo(obj: unknown): int;
     ToString(format: string, formatProvider: IFormatProvider): string;
-    TryFormat(destination: Span_1<CLROf<string>>, charsWritten: { value: ref<int> }, format: ReadOnlySpan_1<CLROf<string>>, provider: IFormatProvider): boolean;
+    TryFormat(destination: Span_1<CLROf<char>>, charsWritten: { value: ref<int> }, format: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider): boolean;
     GetByteCount(): int;
+    TryWriteBigEndian(destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
+    WriteBigEndian(destination: byte[], startIndex: int): int;
+    WriteBigEndian(destination: byte[]): int;
+    WriteBigEndian(destination: Span_1<CLROf<byte>>): int;
 }
 
 export type Byte = Byte$instance & __Byte$views;
 
 
-export class Char$instance {
-    compareTo(value: any): int;
-    compareTo(value: string): int;
-    equals(obj: any): boolean;
-    equals(obj: string): boolean;
-    getHashCode(): int;
-    getTypeCode(): TypeCode;
-    toString(): string;
-    toString(provider: IFormatProvider): string;
-    static readonly MaxValue: string;
-    static readonly MinValue: string;
+export class Char$instance implements IBitwiseOperators_3<CLROf<char>, CLROf<char>, CLROf<char>>, IComparisonOperators_3<CLROf<char>, CLROf<char>, CLROf<boolean>>, IEqualityOperators_3<CLROf<char>, CLROf<char>, CLROf<boolean>>, IModulusOperators_3<CLROf<char>, CLROf<char>, CLROf<char>>, IAdditionOperators_3<CLROf<char>, CLROf<char>, CLROf<char>>, IDecrementOperators_1<CLROf<char>>, IDivisionOperators_3<CLROf<char>, CLROf<char>, CLROf<char>>, IIncrementOperators_1<CLROf<char>>, IMultiplyOperators_3<CLROf<char>, CLROf<char>, CLROf<char>>, ISubtractionOperators_3<CLROf<char>, CLROf<char>, CLROf<char>>, IUnaryPlusOperators_2<CLROf<char>, CLROf<char>>, IUnaryNegationOperators_2<CLROf<char>, CLROf<char>>, IShiftOperators_3<CLROf<char>, CLROf<int>, CLROf<char>> {
+    CompareTo(value: unknown): int;
+    CompareTo(value: char): int;
+    Equals(obj: unknown): boolean;
+    Equals(obj: char): boolean;
+    GetHashCode(): int;
+    GetTypeCode(): TypeCode;
+    ToString(): string;
+    ToString(provider: IFormatProvider): string;
+    static readonly MaxValue: char;
+    static readonly MinValue: char;
     static ConvertFromUtf32(utf32: int): string;
-    static ConvertToUtf32(highSurrogate: string, lowSurrogate: string): int;
+    static ConvertToUtf32(highSurrogate: char, lowSurrogate: char): int;
     static ConvertToUtf32(s: string, index: int): int;
-    static GetNumericValue(c: string): double;
+    static GetNumericValue(c: char): double;
     static GetNumericValue(s: string, index: int): double;
-    static GetUnicodeCategory(c: string): UnicodeCategory;
+    static GetUnicodeCategory(c: char): UnicodeCategory;
     static GetUnicodeCategory(s: string, index: int): UnicodeCategory;
-    static IsAscii(c: string): boolean;
-    static IsAsciiDigit(c: string): boolean;
-    static IsAsciiHexDigit(c: string): boolean;
-    static IsAsciiHexDigitLower(c: string): boolean;
-    static IsAsciiHexDigitUpper(c: string): boolean;
-    static IsAsciiLetter(c: string): boolean;
-    static IsAsciiLetterLower(c: string): boolean;
-    static IsAsciiLetterOrDigit(c: string): boolean;
-    static IsAsciiLetterUpper(c: string): boolean;
-    static IsBetween(c: string, minInclusive: string, maxInclusive: string): boolean;
-    static IsControl(c: string): boolean;
+    static IsAscii(c: char): boolean;
+    static IsAsciiDigit(c: char): boolean;
+    static IsAsciiHexDigit(c: char): boolean;
+    static IsAsciiHexDigitLower(c: char): boolean;
+    static IsAsciiHexDigitUpper(c: char): boolean;
+    static IsAsciiLetter(c: char): boolean;
+    static IsAsciiLetterLower(c: char): boolean;
+    static IsAsciiLetterOrDigit(c: char): boolean;
+    static IsAsciiLetterUpper(c: char): boolean;
+    static IsBetween(c: char, minInclusive: char, maxInclusive: char): boolean;
+    static IsControl(c: char): boolean;
     static IsControl(s: string, index: int): boolean;
-    static IsDigit(c: string): boolean;
+    static IsDigit(c: char): boolean;
     static IsDigit(s: string, index: int): boolean;
-    static IsHighSurrogate(c: string): boolean;
+    static IsHighSurrogate(c: char): boolean;
     static IsHighSurrogate(s: string, index: int): boolean;
-    static IsLetter(c: string): boolean;
+    static IsLetter(c: char): boolean;
     static IsLetter(s: string, index: int): boolean;
-    static IsLetterOrDigit(c: string): boolean;
+    static IsLetterOrDigit(c: char): boolean;
     static IsLetterOrDigit(s: string, index: int): boolean;
-    static IsLower(c: string): boolean;
+    static IsLower(c: char): boolean;
     static IsLower(s: string, index: int): boolean;
-    static IsLowSurrogate(c: string): boolean;
+    static IsLowSurrogate(c: char): boolean;
     static IsLowSurrogate(s: string, index: int): boolean;
-    static IsNumber(c: string): boolean;
+    static IsNumber(c: char): boolean;
     static IsNumber(s: string, index: int): boolean;
-    static IsPunctuation(c: string): boolean;
+    static IsPunctuation(c: char): boolean;
     static IsPunctuation(s: string, index: int): boolean;
-    static IsSeparator(c: string): boolean;
+    static IsSeparator(c: char): boolean;
     static IsSeparator(s: string, index: int): boolean;
-    static IsSurrogate(c: string): boolean;
+    static IsSurrogate(c: char): boolean;
     static IsSurrogate(s: string, index: int): boolean;
-    static IsSurrogatePair(highSurrogate: string, lowSurrogate: string): boolean;
+    static IsSurrogatePair(highSurrogate: char, lowSurrogate: char): boolean;
     static IsSurrogatePair(s: string, index: int): boolean;
-    static IsSymbol(c: string): boolean;
+    static IsSymbol(c: char): boolean;
     static IsSymbol(s: string, index: int): boolean;
-    static IsUpper(c: string): boolean;
+    static IsUpper(c: char): boolean;
     static IsUpper(s: string, index: int): boolean;
-    static IsWhiteSpace(c: string): boolean;
+    static IsWhiteSpace(c: char): boolean;
     static IsWhiteSpace(s: string, index: int): boolean;
-    static Parse(s: string): string;
-    static ToLower(c: string, culture: CultureInfo): string;
-    static ToLower(c: string): string;
-    static ToLowerInvariant(c: string): string;
-    static ToString(c: string): string;
-    static ToUpper(c: string, culture: CultureInfo): string;
-    static ToUpper(c: string): string;
-    static ToUpperInvariant(c: string): string;
-    static TryParse(s: string, result: { value: ref<string> }): boolean;
+    static Parse(s: string): char;
+    static ToLower(c: char, culture: CultureInfo): char;
+    static ToLower(c: char): char;
+    static ToLowerInvariant(c: char): char;
+    static ToString(c: char): string;
+    static ToUpper(c: char, culture: CultureInfo): char;
+    static ToUpper(c: char): char;
+    static ToUpperInvariant(c: char): char;
+    static TryParse(s: string, result: { value: ref<char> }): boolean;
 }
 
 
 export interface __Char$views {
-    readonly As_IComparable: IComparable$instance;
-    readonly As_IComparable_1_of_Decimal: IComparable_1$instance<CLROf<string>>;
-    readonly As_IConvertible: IConvertible$instance;
-    readonly As_IEquatable_1_of_ConsoleKeyInfo: IEquatable_1$instance<CLROf<string>>;
-    readonly As_IFormattable: IFormattable$instance;
-    readonly As_IParsable_1_of_Decimal: IParsable_1$instance<any>;
-    readonly As_ISpanFormattable: ISpanFormattable$instance;
-    readonly As_ISpanParsable_1_of_Decimal: ISpanParsable_1$instance<any>;
-    readonly As_IUtf8SpanFormattable: IUtf8SpanFormattable$instance;
-    readonly As_IUtf8SpanParsable_1_of_Decimal: IUtf8SpanParsable_1$instance<any>;
-    readonly As_IAdditiveIdentity_2: System_Numerics_Internal.IAdditiveIdentity_2$instance<any, any>;
-    readonly As_IBinaryInteger_1: System_Numerics_Internal.IBinaryInteger_1$instance<any>;
-    readonly As_IMinMaxValue_1: System_Numerics_Internal.IMinMaxValue_1$instance<any>;
-    readonly As_INumber_1: System_Numerics_Internal.INumber_1$instance<any>;
-    readonly As_INumberBase_1: System_Numerics_Internal.INumberBase_1$instance<any>;
+    As_IComparable(): IComparable$instance;
+    As_IComparable_1(): IComparable_1$instance<CLROf<char>>;
+    As_IConvertible(): IConvertible$instance;
+    As_IEquatable_1(): IEquatable_1$instance<CLROf<char>>;
+    As_IFormattable(): IFormattable$instance;
+    As_IParsable_1(): IParsable_1$instance<CLROf<char>>;
+    As_ISpanFormattable(): ISpanFormattable$instance;
+    As_ISpanParsable_1(): ISpanParsable_1$instance<CLROf<char>>;
+    As_IUtf8SpanFormattable(): IUtf8SpanFormattable$instance;
+    As_IUtf8SpanParsable_1(): IUtf8SpanParsable_1$instance<CLROf<char>>;
+    As_IAdditiveIdentity_2(): System_Numerics_Internal.IAdditiveIdentity_2$instance<CLROf<char>, CLROf<char>>;
+    As_IBinaryInteger_1(): System_Numerics_Internal.IBinaryInteger_1$instance<CLROf<char>>;
+    As_IMinMaxValue_1(): System_Numerics_Internal.IMinMaxValue_1$instance<CLROf<char>>;
+    As_INumber_1(): System_Numerics_Internal.INumber_1$instance<CLROf<char>>;
+    As_INumberBase_1(): System_Numerics_Internal.INumberBase_1$instance<CLROf<char>>;
 
     // Structural method bridges for numeric interface constraints
     Equals(other: Char): boolean;
-    CompareTo(obj: any): int;
+    CompareTo(obj: unknown): int;
     ToString(format: string, formatProvider: IFormatProvider): string;
-    TryFormat(destination: Span_1<CLROf<string>>, charsWritten: { value: ref<int> }, format: ReadOnlySpan_1<CLROf<string>>, provider: IFormatProvider): boolean;
+    TryFormat(destination: Span_1<CLROf<char>>, charsWritten: { value: ref<int> }, format: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider): boolean;
     GetByteCount(): int;
+    TryWriteBigEndian(destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
+    WriteBigEndian(destination: byte[], startIndex: int): int;
+    WriteBigEndian(destination: byte[]): int;
+    WriteBigEndian(destination: Span_1<CLROf<byte>>): int;
 }
 
 export type Char = Char$instance & __Char$views;
 
 
 export class ConsoleKeyInfo$instance {
-    constructor(keyChar: string, key: ConsoleKey, shift: boolean, alt: boolean, control: boolean);
-    readonly key: ConsoleKey;
-    readonly keyChar: string;
-    readonly modifiers: ConsoleModifiers;
-    equals(value: any): boolean;
-    equals(obj: ConsoleKeyInfo): boolean;
-    getHashCode(): int;
+    constructor(keyChar: char, key: ConsoleKey, shift: boolean, alt: boolean, control: boolean);
+    readonly Key: ConsoleKey;
+    readonly KeyChar: char;
+    readonly Modifiers: ConsoleModifiers;
+    Equals(value: unknown): boolean;
+    Equals(obj: ConsoleKeyInfo): boolean;
+    GetHashCode(): int;
 }
 
 
 export interface __ConsoleKeyInfo$views {
-    readonly As_IEquatable_1_of_ConsoleKeyInfo: IEquatable_1$instance<ConsoleKeyInfo>;
+    As_IEquatable_1(): IEquatable_1$instance<ConsoleKeyInfo>;
 
     // Structural method bridges for numeric interface constraints
     Equals(other: ConsoleKeyInfo): boolean;
@@ -976,57 +984,57 @@ export type ConsoleKeyInfo = ConsoleKeyInfo$instance & __ConsoleKeyInfo$views;
 export class DateOnly$instance {
     constructor(year: int, month: int, day: int);
     constructor(year: int, month: int, day: int, calendar: Calendar);
-    readonly day: int;
-    readonly dayNumber: int;
-    readonly dayOfWeek: DayOfWeek;
-    readonly dayOfYear: int;
-    readonly month: int;
-    readonly year: int;
-    addDays(value: int): DateOnly;
-    addMonths(value: int): DateOnly;
-    addYears(value: int): DateOnly;
-    compareTo(value: DateOnly): int;
-    compareTo(value: any): int;
-    deconstruct(year: { value: ref<int> }, month: { value: ref<int> }, day: { value: ref<int> }): void;
-    equals(value: DateOnly): boolean;
-    equals(value: any): boolean;
-    getHashCode(): int;
-    toDateTime(time: TimeOnly): DateTime;
-    toDateTime(time: TimeOnly, kind: DateTimeKind): DateTime;
-    toLongDateString(): string;
-    toShortDateString(): string;
-    toString(): string;
-    toString(format: string): string;
-    toString(provider: IFormatProvider): string;
-    toString(format: string, provider: IFormatProvider): string;
-    tryFormat(destination: Span_1<CLROf<string>>, charsWritten: { value: ref<int> }, format?: ReadOnlySpan_1<CLROf<string>>, provider?: IFormatProvider): boolean;
-    tryFormat(utf8Destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }, format?: ReadOnlySpan_1<CLROf<string>>, provider?: IFormatProvider): boolean;
+    readonly Day: int;
+    readonly DayNumber: int;
+    readonly DayOfWeek: DayOfWeek;
+    readonly DayOfYear: int;
+    readonly Month: int;
+    readonly Year: int;
+    AddDays(value: int): DateOnly;
+    AddMonths(value: int): DateOnly;
+    AddYears(value: int): DateOnly;
+    CompareTo(value: DateOnly): int;
+    CompareTo(value: unknown): int;
+    Deconstruct(year: { value: ref<int> }, month: { value: ref<int> }, day: { value: ref<int> }): void;
+    Equals(value: DateOnly): boolean;
+    Equals(value: unknown): boolean;
+    GetHashCode(): int;
+    ToDateTime(time: TimeOnly): DateTime;
+    ToDateTime(time: TimeOnly, kind: DateTimeKind): DateTime;
+    ToLongDateString(): string;
+    ToShortDateString(): string;
+    ToString(): string;
+    ToString(format: string): string;
+    ToString(provider: IFormatProvider): string;
+    ToString(format: string, provider: IFormatProvider): string;
+    TryFormat(destination: Span_1<CLROf<char>>, charsWritten: { value: ref<int> }, format?: ReadOnlySpan_1<CLROf<char>>, provider?: IFormatProvider): boolean;
+    TryFormat(utf8Destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }, format?: ReadOnlySpan_1<CLROf<char>>, provider?: IFormatProvider): boolean;
     static readonly MinValue: DateOnly;
     static readonly MaxValue: DateOnly;
     static FromDateTime(dateTime: DateTime): DateOnly;
     static FromDayNumber(dayNumber: int): DateOnly;
-    static Parse(s: ReadOnlySpan_1<CLROf<string>>, provider?: IFormatProvider, style?: DateTimeStyles): DateOnly;
-    static Parse(s: ReadOnlySpan_1<CLROf<string>>, provider: IFormatProvider): DateOnly;
+    static Parse(s: ReadOnlySpan_1<CLROf<char>>, provider?: IFormatProvider, style?: DateTimeStyles): DateOnly;
+    static Parse(s: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider): DateOnly;
     static Parse(s: string, provider: IFormatProvider, style?: DateTimeStyles): DateOnly;
     static Parse(s: string, provider: IFormatProvider): DateOnly;
     static Parse(s: string): DateOnly;
-    static ParseExact(s: ReadOnlySpan_1<CLROf<string>>, format: ReadOnlySpan_1<CLROf<string>>, provider?: IFormatProvider, style?: DateTimeStyles): DateOnly;
-    static ParseExact(s: ReadOnlySpan_1<CLROf<string>>, formats: string[], provider: IFormatProvider, style?: DateTimeStyles): DateOnly;
-    static ParseExact(s: ReadOnlySpan_1<CLROf<string>>, formats: string[]): DateOnly;
+    static ParseExact(s: ReadOnlySpan_1<CLROf<char>>, format: ReadOnlySpan_1<CLROf<char>>, provider?: IFormatProvider, style?: DateTimeStyles): DateOnly;
+    static ParseExact(s: ReadOnlySpan_1<CLROf<char>>, formats: string[], provider: IFormatProvider, style?: DateTimeStyles): DateOnly;
+    static ParseExact(s: ReadOnlySpan_1<CLROf<char>>, formats: string[]): DateOnly;
     static ParseExact(s: string, format: string, provider: IFormatProvider, style?: DateTimeStyles): DateOnly;
     static ParseExact(s: string, format: string): DateOnly;
     static ParseExact(s: string, formats: string[], provider: IFormatProvider, style?: DateTimeStyles): DateOnly;
     static ParseExact(s: string, formats: string[]): DateOnly;
-    static TryParse(s: ReadOnlySpan_1<CLROf<string>>, result: { value: ref<DateOnly> }): boolean;
-    static TryParse(s: ReadOnlySpan_1<CLROf<string>>, provider: IFormatProvider, result: { value: ref<DateOnly> }): boolean;
-    static TryParse(s: ReadOnlySpan_1<CLROf<string>>, provider: IFormatProvider, style: DateTimeStyles, result: { value: ref<DateOnly> }): boolean;
+    static TryParse(s: ReadOnlySpan_1<CLROf<char>>, result: { value: ref<DateOnly> }): boolean;
+    static TryParse(s: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider, result: { value: ref<DateOnly> }): boolean;
+    static TryParse(s: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider, style: DateTimeStyles, result: { value: ref<DateOnly> }): boolean;
     static TryParse(s: string, result: { value: ref<DateOnly> }): boolean;
     static TryParse(s: string, provider: IFormatProvider, result: { value: ref<DateOnly> }): boolean;
     static TryParse(s: string, provider: IFormatProvider, style: DateTimeStyles, result: { value: ref<DateOnly> }): boolean;
-    static TryParseExact(s: ReadOnlySpan_1<CLROf<string>>, format: ReadOnlySpan_1<CLROf<string>>, result: { value: ref<DateOnly> }): boolean;
-    static TryParseExact(s: ReadOnlySpan_1<CLROf<string>>, format: ReadOnlySpan_1<CLROf<string>>, provider: IFormatProvider, style: DateTimeStyles, result: { value: ref<DateOnly> }): boolean;
-    static TryParseExact(s: ReadOnlySpan_1<CLROf<string>>, formats: string[], result: { value: ref<DateOnly> }): boolean;
-    static TryParseExact(s: ReadOnlySpan_1<CLROf<string>>, formats: string[], provider: IFormatProvider, style: DateTimeStyles, result: { value: ref<DateOnly> }): boolean;
+    static TryParseExact(s: ReadOnlySpan_1<CLROf<char>>, format: ReadOnlySpan_1<CLROf<char>>, result: { value: ref<DateOnly> }): boolean;
+    static TryParseExact(s: ReadOnlySpan_1<CLROf<char>>, format: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider, style: DateTimeStyles, result: { value: ref<DateOnly> }): boolean;
+    static TryParseExact(s: ReadOnlySpan_1<CLROf<char>>, formats: string[], result: { value: ref<DateOnly> }): boolean;
+    static TryParseExact(s: ReadOnlySpan_1<CLROf<char>>, formats: string[], provider: IFormatProvider, style: DateTimeStyles, result: { value: ref<DateOnly> }): boolean;
     static TryParseExact(s: string, format: string, result: { value: ref<DateOnly> }): boolean;
     static TryParseExact(s: string, format: string, provider: IFormatProvider, style: DateTimeStyles, result: { value: ref<DateOnly> }): boolean;
     static TryParseExact(s: string, formats: string[], result: { value: ref<DateOnly> }): boolean;
@@ -1035,18 +1043,18 @@ export class DateOnly$instance {
 
 
 export interface __DateOnly$views {
-    readonly As_IComparable: IComparable$instance;
-    readonly As_IComparable_1_of_Decimal: IComparable_1$instance<DateOnly>;
-    readonly As_IEquatable_1_of_ConsoleKeyInfo: IEquatable_1$instance<DateOnly>;
-    readonly As_IFormattable: IFormattable$instance;
-    readonly As_IParsable_1_of_Decimal: IParsable_1$instance<any>;
-    readonly As_ISpanFormattable: ISpanFormattable$instance;
-    readonly As_ISpanParsable_1_of_Decimal: ISpanParsable_1$instance<any>;
-    readonly As_IUtf8SpanFormattable: IUtf8SpanFormattable$instance;
+    As_IComparable(): IComparable$instance;
+    As_IComparable_1(): IComparable_1$instance<DateOnly>;
+    As_IEquatable_1(): IEquatable_1$instance<DateOnly>;
+    As_IFormattable(): IFormattable$instance;
+    As_IParsable_1(): IParsable_1$instance<DateOnly>;
+    As_ISpanFormattable(): ISpanFormattable$instance;
+    As_ISpanParsable_1(): ISpanParsable_1$instance<DateOnly>;
+    As_IUtf8SpanFormattable(): IUtf8SpanFormattable$instance;
 
     // Structural method bridges for numeric interface constraints
     Equals(other: DateOnly): boolean;
-    CompareTo(obj: any): int;
+    CompareTo(obj: unknown): int;
 }
 
 export type DateOnly = DateOnly$instance & __DateOnly$views;
@@ -1070,65 +1078,65 @@ export class DateTime$instance {
     constructor(year: int, month: int, day: int, hour: int, minute: int, second: int, millisecond: int, microsecond: int, kind: DateTimeKind);
     constructor(year: int, month: int, day: int, hour: int, minute: int, second: int, millisecond: int, microsecond: int, calendar: Calendar);
     constructor(year: int, month: int, day: int, hour: int, minute: int, second: int, millisecond: int, microsecond: int, calendar: Calendar, kind: DateTimeKind);
-    readonly date: DateTime;
-    readonly day: int;
-    readonly dayOfWeek: DayOfWeek;
-    readonly dayOfYear: int;
-    readonly hour: int;
-    readonly kind: DateTimeKind;
-    readonly microsecond: int;
-    readonly millisecond: int;
-    readonly minute: int;
-    readonly month: int;
-    readonly nanosecond: int;
-    readonly second: int;
-    readonly ticks: long;
-    readonly timeOfDay: TimeSpan;
-    readonly year: int;
-    add(value: TimeSpan): DateTime;
-    addDays(value: double): DateTime;
-    addHours(value: double): DateTime;
-    addMicroseconds(value: double): DateTime;
-    addMilliseconds(value: double): DateTime;
-    addMinutes(value: double): DateTime;
-    addMonths(months: int): DateTime;
-    addSeconds(value: double): DateTime;
-    addTicks(value: long): DateTime;
-    addYears(value: int): DateTime;
-    compareTo(value: any): int;
-    compareTo(value: DateTime): int;
-    deconstruct(date: { value: ref<DateOnly> }, time: { value: ref<TimeOnly> }): void;
-    deconstruct(year: { value: ref<int> }, month: { value: ref<int> }, day: { value: ref<int> }): void;
-    equals(value: any): boolean;
-    equals(value: DateTime): boolean;
-    getDateTimeFormats(): string[];
-    getDateTimeFormats(provider: IFormatProvider): string[];
-    getDateTimeFormats(format: string): string[];
-    getDateTimeFormats(format: string, provider: IFormatProvider): string[];
-    getHashCode(): int;
-    getTypeCode(): TypeCode;
-    isDaylightSavingTime(): boolean;
-    subtract(value: DateTime): TimeSpan;
-    subtract(value: TimeSpan): DateTime;
-    toBinary(): long;
-    toFileTime(): long;
-    toFileTimeUtc(): long;
-    toLocalTime(): DateTime;
-    toLongDateString(): string;
-    toLongTimeString(): string;
-    toOADate(): double;
-    toShortDateString(): string;
-    toShortTimeString(): string;
-    toString(): string;
-    toString(format: string): string;
-    toString(provider: IFormatProvider): string;
-    toString(format: string, provider: IFormatProvider): string;
-    toUniversalTime(): DateTime;
-    tryFormat(destination: Span_1<CLROf<string>>, charsWritten: { value: ref<int> }, format?: ReadOnlySpan_1<CLROf<string>>, provider?: IFormatProvider): boolean;
-    tryFormat(utf8Destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }, format?: ReadOnlySpan_1<CLROf<string>>, provider?: IFormatProvider): boolean;
-    static readonly minValue: DateTime;
-    static readonly maxValue: DateTime;
-    static readonly unixEpoch: DateTime;
+    readonly Date: DateTime;
+    readonly Day: int;
+    readonly DayOfWeek: DayOfWeek;
+    readonly DayOfYear: int;
+    readonly Hour: int;
+    readonly Kind: DateTimeKind;
+    readonly Microsecond: int;
+    readonly Millisecond: int;
+    readonly Minute: int;
+    readonly Month: int;
+    readonly Nanosecond: int;
+    readonly Second: int;
+    readonly Ticks: long;
+    readonly TimeOfDay: TimeSpan;
+    readonly Year: int;
+    Add(value: TimeSpan): DateTime;
+    AddDays(value: double): DateTime;
+    AddHours(value: double): DateTime;
+    AddMicroseconds(value: double): DateTime;
+    AddMilliseconds(value: double): DateTime;
+    AddMinutes(value: double): DateTime;
+    AddMonths(months: int): DateTime;
+    AddSeconds(value: double): DateTime;
+    AddTicks(value: long): DateTime;
+    AddYears(value: int): DateTime;
+    CompareTo(value: unknown): int;
+    CompareTo(value: DateTime): int;
+    Deconstruct(date: { value: ref<DateOnly> }, time: { value: ref<TimeOnly> }): void;
+    Deconstruct(year: { value: ref<int> }, month: { value: ref<int> }, day: { value: ref<int> }): void;
+    Equals(value: unknown): boolean;
+    Equals(value: DateTime): boolean;
+    GetDateTimeFormats(): string[];
+    GetDateTimeFormats(provider: IFormatProvider): string[];
+    GetDateTimeFormats(format: char): string[];
+    GetDateTimeFormats(format: char, provider: IFormatProvider): string[];
+    GetHashCode(): int;
+    GetTypeCode(): TypeCode;
+    IsDaylightSavingTime(): boolean;
+    Subtract(value: DateTime): TimeSpan;
+    Subtract(value: TimeSpan): DateTime;
+    ToBinary(): long;
+    ToFileTime(): long;
+    ToFileTimeUtc(): long;
+    ToLocalTime(): DateTime;
+    ToLongDateString(): string;
+    ToLongTimeString(): string;
+    ToOADate(): double;
+    ToShortDateString(): string;
+    ToShortTimeString(): string;
+    ToString(): string;
+    ToString(format: string): string;
+    ToString(provider: IFormatProvider): string;
+    ToString(format: string, provider: IFormatProvider): string;
+    ToUniversalTime(): DateTime;
+    TryFormat(destination: Span_1<CLROf<char>>, charsWritten: { value: ref<int> }, format?: ReadOnlySpan_1<CLROf<char>>, provider?: IFormatProvider): boolean;
+    TryFormat(utf8Destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }, format?: ReadOnlySpan_1<CLROf<char>>, provider?: IFormatProvider): boolean;
+    static readonly MinValue: DateTime;
+    static readonly MaxValue: DateTime;
+    static readonly UnixEpoch: DateTime;
     static readonly Now: DateTime;
     static readonly Today: DateTime;
     static readonly UtcNow: DateTime;
@@ -1140,45 +1148,45 @@ export class DateTime$instance {
     static FromFileTimeUtc(fileTime: long): DateTime;
     static FromOADate(d: double): DateTime;
     static IsLeapYear(year: int): boolean;
-    static Parse(s: ReadOnlySpan_1<CLROf<string>>, provider?: IFormatProvider, styles?: DateTimeStyles): DateTime;
-    static Parse(s: ReadOnlySpan_1<CLROf<string>>, provider: IFormatProvider): DateTime;
+    static Parse(s: ReadOnlySpan_1<CLROf<char>>, provider?: IFormatProvider, styles?: DateTimeStyles): DateTime;
+    static Parse(s: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider): DateTime;
     static Parse(s: string, provider: IFormatProvider, styles: DateTimeStyles): DateTime;
     static Parse(s: string, provider: IFormatProvider): DateTime;
     static Parse(s: string): DateTime;
-    static ParseExact(s: ReadOnlySpan_1<CLROf<string>>, format: ReadOnlySpan_1<CLROf<string>>, provider: IFormatProvider, style?: DateTimeStyles): DateTime;
-    static ParseExact(s: ReadOnlySpan_1<CLROf<string>>, formats: string[], provider: IFormatProvider, style?: DateTimeStyles): DateTime;
+    static ParseExact(s: ReadOnlySpan_1<CLROf<char>>, format: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider, style?: DateTimeStyles): DateTime;
+    static ParseExact(s: ReadOnlySpan_1<CLROf<char>>, formats: string[], provider: IFormatProvider, style?: DateTimeStyles): DateTime;
     static ParseExact(s: string, format: string, provider: IFormatProvider, style: DateTimeStyles): DateTime;
     static ParseExact(s: string, format: string, provider: IFormatProvider): DateTime;
     static ParseExact(s: string, formats: string[], provider: IFormatProvider, style: DateTimeStyles): DateTime;
     static SpecifyKind(value: DateTime, kind: DateTimeKind): DateTime;
-    static TryParse(s: ReadOnlySpan_1<CLROf<string>>, result: { value: ref<DateTime> }): boolean;
-    static TryParse(s: ReadOnlySpan_1<CLROf<string>>, provider: IFormatProvider, result: { value: ref<DateTime> }): boolean;
-    static TryParse(s: ReadOnlySpan_1<CLROf<string>>, provider: IFormatProvider, styles: DateTimeStyles, result: { value: ref<DateTime> }): boolean;
+    static TryParse(s: ReadOnlySpan_1<CLROf<char>>, result: { value: ref<DateTime> }): boolean;
+    static TryParse(s: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider, result: { value: ref<DateTime> }): boolean;
+    static TryParse(s: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider, styles: DateTimeStyles, result: { value: ref<DateTime> }): boolean;
     static TryParse(s: string, result: { value: ref<DateTime> }): boolean;
     static TryParse(s: string, provider: IFormatProvider, result: { value: ref<DateTime> }): boolean;
     static TryParse(s: string, provider: IFormatProvider, styles: DateTimeStyles, result: { value: ref<DateTime> }): boolean;
-    static TryParseExact(s: ReadOnlySpan_1<CLROf<string>>, format: ReadOnlySpan_1<CLROf<string>>, provider: IFormatProvider, style: DateTimeStyles, result: { value: ref<DateTime> }): boolean;
-    static TryParseExact(s: ReadOnlySpan_1<CLROf<string>>, formats: string[], provider: IFormatProvider, style: DateTimeStyles, result: { value: ref<DateTime> }): boolean;
+    static TryParseExact(s: ReadOnlySpan_1<CLROf<char>>, format: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider, style: DateTimeStyles, result: { value: ref<DateTime> }): boolean;
+    static TryParseExact(s: ReadOnlySpan_1<CLROf<char>>, formats: string[], provider: IFormatProvider, style: DateTimeStyles, result: { value: ref<DateTime> }): boolean;
     static TryParseExact(s: string, format: string, provider: IFormatProvider, style: DateTimeStyles, result: { value: ref<DateTime> }): boolean;
     static TryParseExact(s: string, formats: string[], provider: IFormatProvider, style: DateTimeStyles, result: { value: ref<DateTime> }): boolean;
 }
 
 
 export interface __DateTime$views {
-    readonly As_IComparable: IComparable$instance;
-    readonly As_IComparable_1_of_Decimal: IComparable_1$instance<DateTime>;
-    readonly As_IConvertible: IConvertible$instance;
-    readonly As_IEquatable_1_of_ConsoleKeyInfo: IEquatable_1$instance<DateTime>;
-    readonly As_IFormattable: IFormattable$instance;
-    readonly As_IParsable_1_of_Decimal: IParsable_1$instance<any>;
-    readonly As_ISpanFormattable: ISpanFormattable$instance;
-    readonly As_ISpanParsable_1_of_Decimal: ISpanParsable_1$instance<any>;
-    readonly As_IUtf8SpanFormattable: IUtf8SpanFormattable$instance;
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_IComparable(): IComparable$instance;
+    As_IComparable_1(): IComparable_1$instance<DateTime>;
+    As_IConvertible(): IConvertible$instance;
+    As_IEquatable_1(): IEquatable_1$instance<DateTime>;
+    As_IFormattable(): IFormattable$instance;
+    As_IParsable_1(): IParsable_1$instance<DateTime>;
+    As_ISpanFormattable(): ISpanFormattable$instance;
+    As_ISpanParsable_1(): ISpanParsable_1$instance<DateTime>;
+    As_IUtf8SpanFormattable(): IUtf8SpanFormattable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 
     // Structural method bridges for numeric interface constraints
     Equals(other: DateTime): boolean;
-    CompareTo(obj: any): int;
+    CompareTo(obj: unknown): int;
 }
 
 export type DateTime = DateTime$instance & __DateTime$views;
@@ -1194,59 +1202,59 @@ export class DateTimeOffset$instance {
     constructor(year: int, month: int, day: int, hour: int, minute: int, second: int, millisecond: int, calendar: Calendar, offset: TimeSpan);
     constructor(year: int, month: int, day: int, hour: int, minute: int, second: int, millisecond: int, microsecond: int, offset: TimeSpan);
     constructor(year: int, month: int, day: int, hour: int, minute: int, second: int, millisecond: int, microsecond: int, calendar: Calendar, offset: TimeSpan);
-    readonly date: DateTime;
-    readonly dateTime: DateTime;
-    readonly day: int;
-    readonly dayOfWeek: DayOfWeek;
-    readonly dayOfYear: int;
-    readonly hour: int;
-    readonly localDateTime: DateTime;
-    readonly microsecond: int;
-    readonly millisecond: int;
-    readonly minute: int;
-    readonly month: int;
-    readonly nanosecond: int;
-    readonly offset: TimeSpan;
-    readonly second: int;
-    readonly ticks: long;
-    readonly timeOfDay: TimeSpan;
-    readonly totalOffsetMinutes: int;
-    readonly utcDateTime: DateTime;
-    readonly utcTicks: long;
-    readonly year: int;
-    add(timeSpan: TimeSpan): DateTimeOffset;
-    addDays(days: double): DateTimeOffset;
-    addHours(hours: double): DateTimeOffset;
-    addMicroseconds(microseconds: double): DateTimeOffset;
-    addMilliseconds(milliseconds: double): DateTimeOffset;
-    addMinutes(minutes: double): DateTimeOffset;
-    addMonths(months: int): DateTimeOffset;
-    addSeconds(seconds: double): DateTimeOffset;
-    addTicks(ticks: long): DateTimeOffset;
-    addYears(years: int): DateTimeOffset;
-    compareTo(other: DateTimeOffset): int;
-    deconstruct(date: { value: ref<DateOnly> }, time: { value: ref<TimeOnly> }, offset: { value: ref<TimeSpan> }): void;
-    equals(obj: any): boolean;
-    equals(other: DateTimeOffset): boolean;
-    equalsExact(other: DateTimeOffset): boolean;
-    getHashCode(): int;
-    subtract(value: DateTimeOffset): TimeSpan;
-    subtract(value: TimeSpan): DateTimeOffset;
-    toFileTime(): long;
-    toLocalTime(): DateTimeOffset;
-    toOffset(offset: TimeSpan): DateTimeOffset;
-    toString(): string;
-    toString(format: string): string;
-    toString(formatProvider: IFormatProvider): string;
-    toString(format: string, formatProvider: IFormatProvider): string;
-    toUniversalTime(): DateTimeOffset;
-    toUnixTimeMilliseconds(): long;
-    toUnixTimeSeconds(): long;
-    tryFormat(destination: Span_1<CLROf<string>>, charsWritten: { value: ref<int> }, format?: ReadOnlySpan_1<CLROf<string>>, formatProvider?: IFormatProvider): boolean;
-    tryFormat(utf8Destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }, format?: ReadOnlySpan_1<CLROf<string>>, formatProvider?: IFormatProvider): boolean;
-    static readonly minValue: DateTimeOffset;
-    static readonly maxValue: DateTimeOffset;
-    static readonly unixEpoch: DateTimeOffset;
+    readonly Date: DateTime;
+    readonly DateTime: DateTime;
+    readonly Day: int;
+    readonly DayOfWeek: DayOfWeek;
+    readonly DayOfYear: int;
+    readonly Hour: int;
+    readonly LocalDateTime: DateTime;
+    readonly Microsecond: int;
+    readonly Millisecond: int;
+    readonly Minute: int;
+    readonly Month: int;
+    readonly Nanosecond: int;
+    readonly Offset: TimeSpan;
+    readonly Second: int;
+    readonly Ticks: long;
+    readonly TimeOfDay: TimeSpan;
+    readonly TotalOffsetMinutes: int;
+    readonly UtcDateTime: DateTime;
+    readonly UtcTicks: long;
+    readonly Year: int;
+    Add(timeSpan: TimeSpan): DateTimeOffset;
+    AddDays(days: double): DateTimeOffset;
+    AddHours(hours: double): DateTimeOffset;
+    AddMicroseconds(microseconds: double): DateTimeOffset;
+    AddMilliseconds(milliseconds: double): DateTimeOffset;
+    AddMinutes(minutes: double): DateTimeOffset;
+    AddMonths(months: int): DateTimeOffset;
+    AddSeconds(seconds: double): DateTimeOffset;
+    AddTicks(ticks: long): DateTimeOffset;
+    AddYears(years: int): DateTimeOffset;
+    CompareTo(other: DateTimeOffset): int;
+    Deconstruct(date: { value: ref<DateOnly> }, time: { value: ref<TimeOnly> }, offset: { value: ref<TimeSpan> }): void;
+    Equals(obj: unknown): boolean;
+    Equals(other: DateTimeOffset): boolean;
+    EqualsExact(other: DateTimeOffset): boolean;
+    GetHashCode(): int;
+    Subtract(value: DateTimeOffset): TimeSpan;
+    Subtract(value: TimeSpan): DateTimeOffset;
+    ToFileTime(): long;
+    ToLocalTime(): DateTimeOffset;
+    ToOffset(offset: TimeSpan): DateTimeOffset;
+    ToString(): string;
+    ToString(format: string): string;
+    ToString(formatProvider: IFormatProvider): string;
+    ToString(format: string, formatProvider: IFormatProvider): string;
+    ToUniversalTime(): DateTimeOffset;
+    ToUnixTimeMilliseconds(): long;
+    ToUnixTimeSeconds(): long;
+    TryFormat(destination: Span_1<CLROf<char>>, charsWritten: { value: ref<int> }, format?: ReadOnlySpan_1<CLROf<char>>, formatProvider?: IFormatProvider): boolean;
+    TryFormat(utf8Destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }, format?: ReadOnlySpan_1<CLROf<char>>, formatProvider?: IFormatProvider): boolean;
+    static readonly MinValue: DateTimeOffset;
+    static readonly MaxValue: DateTimeOffset;
+    static readonly UnixEpoch: DateTimeOffset;
     static readonly UtcNow: DateTimeOffset;
     static readonly Now: DateTimeOffset;
     static Compare(first: DateTimeOffset, second: DateTimeOffset): int;
@@ -1254,50 +1262,50 @@ export class DateTimeOffset$instance {
     static FromFileTime(fileTime: long): DateTimeOffset;
     static FromUnixTimeMilliseconds(milliseconds: long): DateTimeOffset;
     static FromUnixTimeSeconds(seconds: long): DateTimeOffset;
-    static Parse(input: ReadOnlySpan_1<CLROf<string>>, formatProvider?: IFormatProvider, styles?: DateTimeStyles): DateTimeOffset;
-    static Parse(s: ReadOnlySpan_1<CLROf<string>>, provider: IFormatProvider): DateTimeOffset;
+    static Parse(input: ReadOnlySpan_1<CLROf<char>>, formatProvider?: IFormatProvider, styles?: DateTimeStyles): DateTimeOffset;
+    static Parse(s: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider): DateTimeOffset;
     static Parse(input: string, formatProvider: IFormatProvider, styles: DateTimeStyles): DateTimeOffset;
     static Parse(input: string, formatProvider: IFormatProvider): DateTimeOffset;
     static Parse(input: string): DateTimeOffset;
-    static ParseExact(input: ReadOnlySpan_1<CLROf<string>>, format: ReadOnlySpan_1<CLROf<string>>, formatProvider: IFormatProvider, styles?: DateTimeStyles): DateTimeOffset;
-    static ParseExact(input: ReadOnlySpan_1<CLROf<string>>, formats: string[], formatProvider: IFormatProvider, styles?: DateTimeStyles): DateTimeOffset;
+    static ParseExact(input: ReadOnlySpan_1<CLROf<char>>, format: ReadOnlySpan_1<CLROf<char>>, formatProvider: IFormatProvider, styles?: DateTimeStyles): DateTimeOffset;
+    static ParseExact(input: ReadOnlySpan_1<CLROf<char>>, formats: string[], formatProvider: IFormatProvider, styles?: DateTimeStyles): DateTimeOffset;
     static ParseExact(input: string, format: string, formatProvider: IFormatProvider, styles: DateTimeStyles): DateTimeOffset;
     static ParseExact(input: string, format: string, formatProvider: IFormatProvider): DateTimeOffset;
     static ParseExact(input: string, formats: string[], formatProvider: IFormatProvider, styles: DateTimeStyles): DateTimeOffset;
-    static TryParse(input: ReadOnlySpan_1<CLROf<string>>, result: { value: ref<DateTimeOffset> }): boolean;
-    static TryParse(s: ReadOnlySpan_1<CLROf<string>>, provider: IFormatProvider, result: { value: ref<DateTimeOffset> }): boolean;
-    static TryParse(input: ReadOnlySpan_1<CLROf<string>>, formatProvider: IFormatProvider, styles: DateTimeStyles, result: { value: ref<DateTimeOffset> }): boolean;
+    static TryParse(input: ReadOnlySpan_1<CLROf<char>>, result: { value: ref<DateTimeOffset> }): boolean;
+    static TryParse(s: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider, result: { value: ref<DateTimeOffset> }): boolean;
+    static TryParse(input: ReadOnlySpan_1<CLROf<char>>, formatProvider: IFormatProvider, styles: DateTimeStyles, result: { value: ref<DateTimeOffset> }): boolean;
     static TryParse(input: string, result: { value: ref<DateTimeOffset> }): boolean;
     static TryParse(s: string, provider: IFormatProvider, result: { value: ref<DateTimeOffset> }): boolean;
     static TryParse(input: string, formatProvider: IFormatProvider, styles: DateTimeStyles, result: { value: ref<DateTimeOffset> }): boolean;
-    static TryParseExact(input: ReadOnlySpan_1<CLROf<string>>, format: ReadOnlySpan_1<CLROf<string>>, formatProvider: IFormatProvider, styles: DateTimeStyles, result: { value: ref<DateTimeOffset> }): boolean;
-    static TryParseExact(input: ReadOnlySpan_1<CLROf<string>>, formats: string[], formatProvider: IFormatProvider, styles: DateTimeStyles, result: { value: ref<DateTimeOffset> }): boolean;
+    static TryParseExact(input: ReadOnlySpan_1<CLROf<char>>, format: ReadOnlySpan_1<CLROf<char>>, formatProvider: IFormatProvider, styles: DateTimeStyles, result: { value: ref<DateTimeOffset> }): boolean;
+    static TryParseExact(input: ReadOnlySpan_1<CLROf<char>>, formats: string[], formatProvider: IFormatProvider, styles: DateTimeStyles, result: { value: ref<DateTimeOffset> }): boolean;
     static TryParseExact(input: string, format: string, formatProvider: IFormatProvider, styles: DateTimeStyles, result: { value: ref<DateTimeOffset> }): boolean;
     static TryParseExact(input: string, formats: string[], formatProvider: IFormatProvider, styles: DateTimeStyles, result: { value: ref<DateTimeOffset> }): boolean;
 }
 
 
 export interface __DateTimeOffset$views {
-    readonly As_IComparable: IComparable$instance;
-    readonly As_IComparable_1_of_Decimal: IComparable_1$instance<DateTimeOffset>;
-    readonly As_IEquatable_1_of_ConsoleKeyInfo: IEquatable_1$instance<DateTimeOffset>;
-    readonly As_IFormattable: IFormattable$instance;
-    readonly As_IParsable_1_of_Decimal: IParsable_1$instance<any>;
-    readonly As_ISpanFormattable: ISpanFormattable$instance;
-    readonly As_ISpanParsable_1_of_Decimal: ISpanParsable_1$instance<any>;
-    readonly As_IUtf8SpanFormattable: IUtf8SpanFormattable$instance;
-    readonly As_IDeserializationCallback: System_Runtime_Serialization_Internal.IDeserializationCallback$instance;
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_IComparable(): IComparable$instance;
+    As_IComparable_1(): IComparable_1$instance<DateTimeOffset>;
+    As_IEquatable_1(): IEquatable_1$instance<DateTimeOffset>;
+    As_IFormattable(): IFormattable$instance;
+    As_IParsable_1(): IParsable_1$instance<DateTimeOffset>;
+    As_ISpanFormattable(): ISpanFormattable$instance;
+    As_ISpanParsable_1(): ISpanParsable_1$instance<DateTimeOffset>;
+    As_IUtf8SpanFormattable(): IUtf8SpanFormattable$instance;
+    As_IDeserializationCallback(): System_Runtime_Serialization_Internal.IDeserializationCallback$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 
     // Structural method bridges for numeric interface constraints
     Equals(other: DateTimeOffset): boolean;
-    CompareTo(obj: any): int;
+    CompareTo(obj: unknown): int;
 }
 
 export type DateTimeOffset = DateTimeOffset$instance & __DateTimeOffset$views;
 
 
-export class Decimal$instance {
+export class Decimal$instance implements IAdditionOperators_3<CLROf<decimal>, CLROf<decimal>, CLROf<decimal>>, IDecrementOperators_1<CLROf<decimal>>, IDivisionOperators_3<CLROf<decimal>, CLROf<decimal>, CLROf<decimal>>, IEqualityOperators_3<CLROf<decimal>, CLROf<decimal>, CLROf<boolean>>, IIncrementOperators_1<CLROf<decimal>>, IMultiplyOperators_3<CLROf<decimal>, CLROf<decimal>, CLROf<decimal>>, ISubtractionOperators_3<CLROf<decimal>, CLROf<decimal>, CLROf<decimal>>, IUnaryPlusOperators_2<CLROf<decimal>, CLROf<decimal>>, IUnaryNegationOperators_2<CLROf<decimal>, CLROf<decimal>>, IComparisonOperators_3<CLROf<decimal>, CLROf<decimal>, CLROf<boolean>>, IModulusOperators_3<CLROf<decimal>, CLROf<decimal>, CLROf<decimal>> {
     constructor(value: int);
     constructor(value: uint);
     constructor(value: long);
@@ -1307,24 +1315,24 @@ export class Decimal$instance {
     constructor(bits: int[]);
     constructor(bits: ReadOnlySpan_1<CLROf<int>>);
     constructor(lo: int, mid: int, hi: int, isNegative: boolean, scale: byte);
-    readonly scale: byte;
-    compareTo(value: any): int;
-    compareTo(value: decimal): int;
-    equals(value: any): boolean;
-    equals(value: decimal): boolean;
-    getHashCode(): int;
-    getTypeCode(): TypeCode;
-    toString(): string;
-    toString(format: string): string;
-    toString(provider: IFormatProvider): string;
-    toString(format: string, provider: IFormatProvider): string;
-    tryFormat(destination: Span_1<CLROf<string>>, charsWritten: { value: ref<int> }, format?: ReadOnlySpan_1<CLROf<string>>, provider?: IFormatProvider): boolean;
-    tryFormat(utf8Destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }, format?: ReadOnlySpan_1<CLROf<string>>, provider?: IFormatProvider): boolean;
-    static readonly zero: decimal;
-    static readonly one: decimal;
-    static readonly minusOne: decimal;
-    static readonly maxValue: decimal;
-    static readonly minValue: decimal;
+    readonly Scale: byte;
+    CompareTo(value: unknown): int;
+    CompareTo(value: decimal): int;
+    Equals(value: unknown): boolean;
+    Equals(value: decimal): boolean;
+    GetHashCode(): int;
+    GetTypeCode(): TypeCode;
+    ToString(): string;
+    ToString(format: string): string;
+    ToString(provider: IFormatProvider): string;
+    ToString(format: string, provider: IFormatProvider): string;
+    TryFormat(destination: Span_1<CLROf<char>>, charsWritten: { value: ref<int> }, format?: ReadOnlySpan_1<CLROf<char>>, provider?: IFormatProvider): boolean;
+    TryFormat(utf8Destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }, format?: ReadOnlySpan_1<CLROf<char>>, provider?: IFormatProvider): boolean;
+    static readonly Zero: decimal;
+    static readonly One: decimal;
+    static readonly MinusOne: decimal;
+    static readonly MaxValue: decimal;
+    static readonly MinValue: decimal;
     static Abs(value: decimal): decimal;
     static Add(d1: decimal, d2: decimal): decimal;
     static Ceiling(d: decimal): decimal;
@@ -1356,8 +1364,8 @@ export class Decimal$instance {
     static Negate(d: decimal): decimal;
     static Parse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, style?: NumberStyles, provider?: IFormatProvider): decimal;
     static Parse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, provider: IFormatProvider): decimal;
-    static Parse(s: ReadOnlySpan_1<CLROf<string>>, style?: NumberStyles, provider?: IFormatProvider): decimal;
-    static Parse(s: ReadOnlySpan_1<CLROf<string>>, provider: IFormatProvider): decimal;
+    static Parse(s: ReadOnlySpan_1<CLROf<char>>, style?: NumberStyles, provider?: IFormatProvider): decimal;
+    static Parse(s: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider): decimal;
     static Parse(s: string, style: NumberStyles, provider: IFormatProvider): decimal;
     static Parse(s: string, style: NumberStyles): decimal;
     static Parse(s: string, provider: IFormatProvider): decimal;
@@ -1385,9 +1393,9 @@ export class Decimal$instance {
     static TryParse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, result: { value: ref<decimal> }): boolean;
     static TryParse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, style: NumberStyles, provider: IFormatProvider, result: { value: ref<decimal> }): boolean;
     static TryParse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, provider: IFormatProvider, result: { value: ref<decimal> }): boolean;
-    static TryParse(s: ReadOnlySpan_1<CLROf<string>>, result: { value: ref<decimal> }): boolean;
-    static TryParse(s: ReadOnlySpan_1<CLROf<string>>, style: NumberStyles, provider: IFormatProvider, result: { value: ref<decimal> }): boolean;
-    static TryParse(s: ReadOnlySpan_1<CLROf<string>>, provider: IFormatProvider, result: { value: ref<decimal> }): boolean;
+    static TryParse(s: ReadOnlySpan_1<CLROf<char>>, result: { value: ref<decimal> }): boolean;
+    static TryParse(s: ReadOnlySpan_1<CLROf<char>>, style: NumberStyles, provider: IFormatProvider, result: { value: ref<decimal> }): boolean;
+    static TryParse(s: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider, result: { value: ref<decimal> }): boolean;
     static TryParse(s: string, result: { value: ref<decimal> }): boolean;
     static TryParse(s: string, style: NumberStyles, provider: IFormatProvider, result: { value: ref<decimal> }): boolean;
     static TryParse(s: string, provider: IFormatProvider, result: { value: ref<decimal> }): boolean;
@@ -1395,58 +1403,62 @@ export class Decimal$instance {
 
 
 export interface __Decimal$views {
-    readonly As_IComparable: IComparable$instance;
-    readonly As_IComparable_1_of_Decimal: IComparable_1$instance<CLROf<decimal>>;
-    readonly As_IConvertible: IConvertible$instance;
-    readonly As_IEquatable_1_of_ConsoleKeyInfo: IEquatable_1$instance<CLROf<decimal>>;
-    readonly As_IFormattable: IFormattable$instance;
-    readonly As_IParsable_1_of_Decimal: IParsable_1$instance<any>;
-    readonly As_ISpanFormattable: ISpanFormattable$instance;
-    readonly As_ISpanParsable_1_of_Decimal: ISpanParsable_1$instance<any>;
-    readonly As_IUtf8SpanFormattable: IUtf8SpanFormattable$instance;
-    readonly As_IUtf8SpanParsable_1_of_Decimal: IUtf8SpanParsable_1$instance<any>;
-    readonly As_IAdditiveIdentity_2: System_Numerics_Internal.IAdditiveIdentity_2$instance<any, any>;
-    readonly As_IFloatingPoint_1: System_Numerics_Internal.IFloatingPoint_1$instance<any>;
-    readonly As_IMinMaxValue_1: System_Numerics_Internal.IMinMaxValue_1$instance<any>;
-    readonly As_INumber_1: System_Numerics_Internal.INumber_1$instance<any>;
-    readonly As_INumberBase_1: System_Numerics_Internal.INumberBase_1$instance<any>;
-    readonly As_IDeserializationCallback: System_Runtime_Serialization_Internal.IDeserializationCallback$instance;
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_IComparable(): IComparable$instance;
+    As_IComparable_1(): IComparable_1$instance<CLROf<decimal>>;
+    As_IConvertible(): IConvertible$instance;
+    As_IEquatable_1(): IEquatable_1$instance<CLROf<decimal>>;
+    As_IFormattable(): IFormattable$instance;
+    As_IParsable_1(): IParsable_1$instance<CLROf<decimal>>;
+    As_ISpanFormattable(): ISpanFormattable$instance;
+    As_ISpanParsable_1(): ISpanParsable_1$instance<CLROf<decimal>>;
+    As_IUtf8SpanFormattable(): IUtf8SpanFormattable$instance;
+    As_IUtf8SpanParsable_1(): IUtf8SpanParsable_1$instance<CLROf<decimal>>;
+    As_IAdditiveIdentity_2(): System_Numerics_Internal.IAdditiveIdentity_2$instance<CLROf<decimal>, CLROf<decimal>>;
+    As_IFloatingPoint_1(): System_Numerics_Internal.IFloatingPoint_1$instance<CLROf<decimal>>;
+    As_IMinMaxValue_1(): System_Numerics_Internal.IMinMaxValue_1$instance<CLROf<decimal>>;
+    As_INumber_1(): System_Numerics_Internal.INumber_1$instance<CLROf<decimal>>;
+    As_INumberBase_1(): System_Numerics_Internal.INumberBase_1$instance<CLROf<decimal>>;
+    As_IDeserializationCallback(): System_Runtime_Serialization_Internal.IDeserializationCallback$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 
     // Structural method bridges for numeric interface constraints
     Equals(other: Decimal): boolean;
-    CompareTo(obj: any): int;
+    CompareTo(obj: unknown): int;
     ToString(format: string, formatProvider: IFormatProvider): string;
-    TryFormat(destination: Span_1<CLROf<string>>, charsWritten: { value: ref<int> }, format: ReadOnlySpan_1<CLROf<string>>, provider: IFormatProvider): boolean;
+    TryFormat(destination: Span_1<CLROf<char>>, charsWritten: { value: ref<int> }, format: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider): boolean;
     GetExponentByteCount(): int;
     GetExponentShortestBitLength(): int;
+    TryWriteExponentBigEndian(destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
+    WriteExponentBigEndian(destination: byte[], startIndex: int): int;
+    WriteExponentBigEndian(destination: byte[]): int;
+    WriteExponentBigEndian(destination: Span_1<CLROf<byte>>): int;
 }
 
 export type Decimal = Decimal$instance & __Decimal$views;
 
 
 export class Delegate_InvocationListEnumerator_1$instance<TDelegate extends Function> {
-    readonly current: TDelegate;
-    getEnumerator(): Delegate_InvocationListEnumerator_1<TDelegate>;
-    moveNext(): boolean;
+    readonly Current: TDelegate;
+    GetEnumerator(): Delegate_InvocationListEnumerator_1<TDelegate>;
+    MoveNext(): boolean;
 }
 
 
 export type Delegate_InvocationListEnumerator_1<TDelegate extends Function> = Delegate_InvocationListEnumerator_1$instance<TDelegate>;
 
-export class Double$instance {
-    compareTo(value: any): int;
-    compareTo(value: double): int;
-    equals(obj: any): boolean;
-    equals(obj: double): boolean;
-    getHashCode(): int;
-    getTypeCode(): TypeCode;
-    toString(): string;
-    toString(format: string): string;
-    toString(provider: IFormatProvider): string;
-    toString(format: string, provider: IFormatProvider): string;
-    tryFormat(destination: Span_1<CLROf<string>>, charsWritten: { value: ref<int> }, format?: ReadOnlySpan_1<CLROf<string>>, provider?: IFormatProvider): boolean;
-    tryFormat(utf8Destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }, format?: ReadOnlySpan_1<CLROf<string>>, provider?: IFormatProvider): boolean;
+export class Double$instance implements IBitwiseOperators_3<CLROf<double>, CLROf<double>, CLROf<double>>, IComparisonOperators_3<CLROf<double>, CLROf<double>, CLROf<boolean>>, IEqualityOperators_3<CLROf<double>, CLROf<double>, CLROf<boolean>>, IModulusOperators_3<CLROf<double>, CLROf<double>, CLROf<double>>, IAdditionOperators_3<CLROf<double>, CLROf<double>, CLROf<double>>, IDecrementOperators_1<CLROf<double>>, IDivisionOperators_3<CLROf<double>, CLROf<double>, CLROf<double>>, IIncrementOperators_1<CLROf<double>>, IMultiplyOperators_3<CLROf<double>, CLROf<double>, CLROf<double>>, ISubtractionOperators_3<CLROf<double>, CLROf<double>, CLROf<double>>, IUnaryPlusOperators_2<CLROf<double>, CLROf<double>>, IUnaryNegationOperators_2<CLROf<double>, CLROf<double>> {
+    CompareTo(value: unknown): int;
+    CompareTo(value: double): int;
+    Equals(obj: unknown): boolean;
+    Equals(obj: double): boolean;
+    GetHashCode(): int;
+    GetTypeCode(): TypeCode;
+    ToString(): string;
+    ToString(format: string): string;
+    ToString(provider: IFormatProvider): string;
+    ToString(format: string, provider: IFormatProvider): string;
+    TryFormat(destination: Span_1<CLROf<char>>, charsWritten: { value: ref<int> }, format?: ReadOnlySpan_1<CLROf<char>>, provider?: IFormatProvider): boolean;
+    TryFormat(utf8Destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }, format?: ReadOnlySpan_1<CLROf<char>>, provider?: IFormatProvider): boolean;
     static readonly MinValue: double;
     static readonly MaxValue: double;
     static readonly Epsilon: double;
@@ -1531,8 +1543,8 @@ export class Double$instance {
     static MultiplyAddEstimate(left: double, right: double, addend: double): double;
     static Parse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, style?: NumberStyles, provider?: IFormatProvider): double;
     static Parse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, provider: IFormatProvider): double;
-    static Parse(s: ReadOnlySpan_1<CLROf<string>>, style?: NumberStyles, provider?: IFormatProvider): double;
-    static Parse(s: ReadOnlySpan_1<CLROf<string>>, provider: IFormatProvider): double;
+    static Parse(s: ReadOnlySpan_1<CLROf<char>>, style?: NumberStyles, provider?: IFormatProvider): double;
+    static Parse(s: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider): double;
     static Parse(s: string, style: NumberStyles, provider: IFormatProvider): double;
     static Parse(s: string, style: NumberStyles): double;
     static Parse(s: string, provider: IFormatProvider): double;
@@ -1561,9 +1573,9 @@ export class Double$instance {
     static TryParse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, result: { value: ref<double> }): boolean;
     static TryParse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, style: NumberStyles, provider: IFormatProvider, result: { value: ref<double> }): boolean;
     static TryParse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, provider: IFormatProvider, result: { value: ref<double> }): boolean;
-    static TryParse(s: ReadOnlySpan_1<CLROf<string>>, result: { value: ref<double> }): boolean;
-    static TryParse(s: ReadOnlySpan_1<CLROf<string>>, style: NumberStyles, provider: IFormatProvider, result: { value: ref<double> }): boolean;
-    static TryParse(s: ReadOnlySpan_1<CLROf<string>>, provider: IFormatProvider, result: { value: ref<double> }): boolean;
+    static TryParse(s: ReadOnlySpan_1<CLROf<char>>, result: { value: ref<double> }): boolean;
+    static TryParse(s: ReadOnlySpan_1<CLROf<char>>, style: NumberStyles, provider: IFormatProvider, result: { value: ref<double> }): boolean;
+    static TryParse(s: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider, result: { value: ref<double> }): boolean;
     static TryParse(s: string, result: { value: ref<double> }): boolean;
     static TryParse(s: string, style: NumberStyles, provider: IFormatProvider, result: { value: ref<double> }): boolean;
     static TryParse(s: string, provider: IFormatProvider, result: { value: ref<double> }): boolean;
@@ -1571,72 +1583,76 @@ export class Double$instance {
 
 
 export interface __Double$views {
-    readonly As_IComparable: IComparable$instance;
-    readonly As_IComparable_1_of_Decimal: IComparable_1$instance<CLROf<double>>;
-    readonly As_IConvertible: IConvertible$instance;
-    readonly As_IEquatable_1_of_ConsoleKeyInfo: IEquatable_1$instance<CLROf<double>>;
-    readonly As_IFormattable: IFormattable$instance;
-    readonly As_IParsable_1_of_Decimal: IParsable_1$instance<any>;
-    readonly As_ISpanFormattable: ISpanFormattable$instance;
-    readonly As_ISpanParsable_1_of_Decimal: ISpanParsable_1$instance<any>;
-    readonly As_IUtf8SpanFormattable: IUtf8SpanFormattable$instance;
-    readonly As_IUtf8SpanParsable_1_of_Decimal: IUtf8SpanParsable_1$instance<any>;
-    readonly As_IAdditiveIdentity_2: System_Numerics_Internal.IAdditiveIdentity_2$instance<any, any>;
-    readonly As_IFloatingPoint_1: System_Numerics_Internal.IFloatingPoint_1$instance<any>;
-    readonly As_IMinMaxValue_1: System_Numerics_Internal.IMinMaxValue_1$instance<any>;
-    readonly As_INumber_1: System_Numerics_Internal.INumber_1$instance<any>;
-    readonly As_INumberBase_1: System_Numerics_Internal.INumberBase_1$instance<any>;
-    readonly As_IRootFunctions_1: System_Numerics_Internal.IRootFunctions_1$instance<CLROf<double>>;
-    readonly As_ITrigonometricFunctions_1_of_Double: System_Numerics_Internal.ITrigonometricFunctions_1$instance<CLROf<double>>;
+    As_IComparable(): IComparable$instance;
+    As_IComparable_1(): IComparable_1$instance<CLROf<double>>;
+    As_IConvertible(): IConvertible$instance;
+    As_IEquatable_1(): IEquatable_1$instance<CLROf<double>>;
+    As_IFormattable(): IFormattable$instance;
+    As_IParsable_1(): IParsable_1$instance<CLROf<double>>;
+    As_ISpanFormattable(): ISpanFormattable$instance;
+    As_ISpanParsable_1(): ISpanParsable_1$instance<CLROf<double>>;
+    As_IUtf8SpanFormattable(): IUtf8SpanFormattable$instance;
+    As_IUtf8SpanParsable_1(): IUtf8SpanParsable_1$instance<CLROf<double>>;
+    As_IAdditiveIdentity_2(): System_Numerics_Internal.IAdditiveIdentity_2$instance<CLROf<double>, CLROf<double>>;
+    As_IFloatingPoint_1(): System_Numerics_Internal.IFloatingPoint_1$instance<CLROf<double>>;
+    As_IMinMaxValue_1(): System_Numerics_Internal.IMinMaxValue_1$instance<CLROf<double>>;
+    As_INumber_1(): System_Numerics_Internal.INumber_1$instance<CLROf<double>>;
+    As_INumberBase_1(): System_Numerics_Internal.INumberBase_1$instance<CLROf<double>>;
+    As_IRootFunctions_1(): System_Numerics_Internal.IRootFunctions_1$instance<CLROf<double>>;
+    As_ITrigonometricFunctions_1(): System_Numerics_Internal.ITrigonometricFunctions_1$instance<CLROf<double>>;
 
     // Structural method bridges for numeric interface constraints
     Equals(other: Double): boolean;
-    CompareTo(obj: any): int;
+    CompareTo(obj: unknown): int;
     ToString(format: string, formatProvider: IFormatProvider): string;
-    TryFormat(destination: Span_1<CLROf<string>>, charsWritten: { value: ref<int> }, format: ReadOnlySpan_1<CLROf<string>>, provider: IFormatProvider): boolean;
+    TryFormat(destination: Span_1<CLROf<char>>, charsWritten: { value: ref<int> }, format: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider): boolean;
     GetExponentByteCount(): int;
     GetExponentShortestBitLength(): int;
+    TryWriteExponentBigEndian(destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
+    WriteExponentBigEndian(destination: byte[], startIndex: int): int;
+    WriteExponentBigEndian(destination: byte[]): int;
+    WriteExponentBigEndian(destination: Span_1<CLROf<byte>>): int;
 }
 
 export type Double = Double$instance & __Double$views;
 
 
 export class Environment_ProcessCpuUsage$instance {
-    readonly privilegedTime: TimeSpan;
-    readonly totalTime: TimeSpan;
-    readonly userTime: TimeSpan;
+    readonly PrivilegedTime: TimeSpan;
+    readonly TotalTime: TimeSpan;
+    readonly UserTime: TimeSpan;
 }
 
 
 export type Environment_ProcessCpuUsage = Environment_ProcessCpuUsage$instance;
 
 export class GCGenerationInfo$instance {
-    readonly fragmentationAfterBytes: long;
-    readonly fragmentationBeforeBytes: long;
-    readonly sizeAfterBytes: long;
-    readonly sizeBeforeBytes: long;
+    readonly FragmentationAfterBytes: long;
+    readonly FragmentationBeforeBytes: long;
+    readonly SizeAfterBytes: long;
+    readonly SizeBeforeBytes: long;
 }
 
 
 export type GCGenerationInfo = GCGenerationInfo$instance;
 
 export class GCMemoryInfo$instance {
-    readonly compacted: boolean;
-    readonly concurrent: boolean;
-    readonly finalizationPendingCount: long;
-    readonly fragmentedBytes: long;
-    readonly generation: int;
-    readonly generationInfo: ReadOnlySpan_1<GCGenerationInfo>;
-    readonly heapSizeBytes: long;
-    readonly highMemoryLoadThresholdBytes: long;
-    readonly index: long;
-    readonly memoryLoadBytes: long;
-    readonly pauseDurations: ReadOnlySpan_1<TimeSpan>;
-    readonly pauseTimePercentage: double;
-    readonly pinnedObjectsCount: long;
-    readonly promotedBytes: long;
-    readonly totalAvailableMemoryBytes: long;
-    readonly totalCommittedBytes: long;
+    readonly Compacted: boolean;
+    readonly Concurrent: boolean;
+    readonly FinalizationPendingCount: long;
+    readonly FragmentedBytes: long;
+    readonly Generation: int;
+    readonly GenerationInfo: ReadOnlySpan_1<GCGenerationInfo>;
+    readonly HeapSizeBytes: long;
+    readonly HighMemoryLoadThresholdBytes: long;
+    readonly Index: long;
+    readonly MemoryLoadBytes: long;
+    readonly PauseDurations: ReadOnlySpan_1<TimeSpan>;
+    readonly PauseTimePercentage: double;
+    readonly PinnedObjectsCount: long;
+    readonly PromotedBytes: long;
+    readonly TotalAvailableMemoryBytes: long;
+    readonly TotalCommittedBytes: long;
 }
 
 
@@ -1650,77 +1666,77 @@ export class Guid$instance {
     constructor(a: int, b: short, c: short, d: byte[]);
     constructor(a: int, b: short, c: short, d: byte, e: byte, f: byte, g: byte, h: byte, i: byte, j: byte, k: byte);
     constructor(g: string);
-    readonly variant: int;
-    readonly version: int;
-    compareTo(value: any): int;
-    compareTo(value: Guid): int;
-    equals(o: any): boolean;
-    equals(g: Guid): boolean;
-    getHashCode(): int;
-    toByteArray(): byte[];
-    toByteArray(bigEndian: boolean): byte[];
-    toString(): string;
-    toString(format: string): string;
-    toString(format: string, provider: IFormatProvider): string;
-    tryFormat(destination: Span_1<CLROf<string>>, charsWritten: { value: ref<int> }, format?: ReadOnlySpan_1<CLROf<string>>): boolean;
-    tryFormat(utf8Destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }, format?: ReadOnlySpan_1<CLROf<string>>): boolean;
-    tryWriteBytes(destination: Span_1<CLROf<byte>>): boolean;
-    tryWriteBytes(destination: Span_1<CLROf<byte>>, bigEndian: boolean, bytesWritten: { value: ref<int> }): boolean;
-    static readonly empty: Guid;
+    readonly Variant: int;
+    readonly Version: int;
+    CompareTo(value: unknown): int;
+    CompareTo(value: Guid): int;
+    Equals(o: unknown): boolean;
+    Equals(g: Guid): boolean;
+    GetHashCode(): int;
+    ToByteArray(): byte[];
+    ToByteArray(bigEndian: boolean): byte[];
+    ToString(): string;
+    ToString(format: string): string;
+    ToString(format: string, provider: IFormatProvider): string;
+    TryFormat(destination: Span_1<CLROf<char>>, charsWritten: { value: ref<int> }, format?: ReadOnlySpan_1<CLROf<char>>): boolean;
+    TryFormat(utf8Destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }, format?: ReadOnlySpan_1<CLROf<char>>): boolean;
+    TryWriteBytes(destination: Span_1<CLROf<byte>>): boolean;
+    TryWriteBytes(destination: Span_1<CLROf<byte>>, bigEndian: boolean, bytesWritten: { value: ref<int> }): boolean;
+    static readonly Empty: Guid;
     static readonly AllBitsSet: Guid;
     static CreateVersion7(): Guid;
     static CreateVersion7(timestamp: DateTimeOffset): Guid;
     static NewGuid(): Guid;
     static Parse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, provider: IFormatProvider): Guid;
     static Parse(utf8Text: ReadOnlySpan_1<CLROf<byte>>): Guid;
-    static Parse(s: ReadOnlySpan_1<CLROf<string>>, provider: IFormatProvider): Guid;
-    static Parse(input: ReadOnlySpan_1<CLROf<string>>): Guid;
+    static Parse(s: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider): Guid;
+    static Parse(input: ReadOnlySpan_1<CLROf<char>>): Guid;
     static Parse(s: string, provider: IFormatProvider): Guid;
     static Parse(input: string): Guid;
-    static ParseExact(input: ReadOnlySpan_1<CLROf<string>>, format: ReadOnlySpan_1<CLROf<string>>): Guid;
+    static ParseExact(input: ReadOnlySpan_1<CLROf<char>>, format: ReadOnlySpan_1<CLROf<char>>): Guid;
     static ParseExact(input: string, format: string): Guid;
     static TryParse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, result: { value: ref<Guid> }): boolean;
     static TryParse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, provider: IFormatProvider, result: { value: ref<Guid> }): boolean;
-    static TryParse(input: ReadOnlySpan_1<CLROf<string>>, result: { value: ref<Guid> }): boolean;
-    static TryParse(s: ReadOnlySpan_1<CLROf<string>>, provider: IFormatProvider, result: { value: ref<Guid> }): boolean;
+    static TryParse(input: ReadOnlySpan_1<CLROf<char>>, result: { value: ref<Guid> }): boolean;
+    static TryParse(s: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider, result: { value: ref<Guid> }): boolean;
     static TryParse(input: string, result: { value: ref<Guid> }): boolean;
     static TryParse(s: string, provider: IFormatProvider, result: { value: ref<Guid> }): boolean;
-    static TryParseExact(input: ReadOnlySpan_1<CLROf<string>>, format: ReadOnlySpan_1<CLROf<string>>, result: { value: ref<Guid> }): boolean;
+    static TryParseExact(input: ReadOnlySpan_1<CLROf<char>>, format: ReadOnlySpan_1<CLROf<char>>, result: { value: ref<Guid> }): boolean;
     static TryParseExact(input: string, format: string, result: { value: ref<Guid> }): boolean;
 }
 
 
 export interface __Guid$views {
-    readonly As_IComparable: IComparable$instance;
-    readonly As_IComparable_1_of_Decimal: IComparable_1$instance<Guid>;
-    readonly As_IEquatable_1_of_ConsoleKeyInfo: IEquatable_1$instance<Guid>;
-    readonly As_IFormattable: IFormattable$instance;
-    readonly As_IParsable_1_of_Decimal: IParsable_1$instance<any>;
-    readonly As_ISpanFormattable: ISpanFormattable$instance;
-    readonly As_ISpanParsable_1_of_Decimal: ISpanParsable_1$instance<any>;
-    readonly As_IUtf8SpanFormattable: IUtf8SpanFormattable$instance;
-    readonly As_IUtf8SpanParsable_1_of_Decimal: IUtf8SpanParsable_1$instance<any>;
+    As_IComparable(): IComparable$instance;
+    As_IComparable_1(): IComparable_1$instance<Guid>;
+    As_IEquatable_1(): IEquatable_1$instance<Guid>;
+    As_IFormattable(): IFormattable$instance;
+    As_IParsable_1(): IParsable_1$instance<Guid>;
+    As_ISpanFormattable(): ISpanFormattable$instance;
+    As_ISpanParsable_1(): ISpanParsable_1$instance<Guid>;
+    As_IUtf8SpanFormattable(): IUtf8SpanFormattable$instance;
+    As_IUtf8SpanParsable_1(): IUtf8SpanParsable_1$instance<Guid>;
 
     // Structural method bridges for numeric interface constraints
     Equals(other: Guid): boolean;
-    CompareTo(obj: any): int;
+    CompareTo(obj: unknown): int;
 }
 
 export type Guid = Guid$instance & __Guid$views;
 
 
-export class Half$instance {
-    compareTo(obj: any): int;
-    compareTo(other: half): int;
-    equals(obj: any): boolean;
-    equals(other: half): boolean;
-    getHashCode(): int;
-    toString(): string;
-    toString(format: string): string;
-    toString(provider: IFormatProvider): string;
-    toString(format: string, provider: IFormatProvider): string;
-    tryFormat(destination: Span_1<CLROf<string>>, charsWritten: { value: ref<int> }, format?: ReadOnlySpan_1<CLROf<string>>, provider?: IFormatProvider): boolean;
-    tryFormat(utf8Destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }, format?: ReadOnlySpan_1<CLROf<string>>, provider?: IFormatProvider): boolean;
+export class Half$instance implements IBitwiseOperators_3<CLROf<half>, CLROf<half>, CLROf<half>>, IComparisonOperators_3<CLROf<half>, CLROf<half>, CLROf<boolean>>, IEqualityOperators_3<CLROf<half>, CLROf<half>, CLROf<boolean>>, IModulusOperators_3<CLROf<half>, CLROf<half>, CLROf<half>>, IAdditionOperators_3<CLROf<half>, CLROf<half>, CLROf<half>>, IDecrementOperators_1<CLROf<half>>, IDivisionOperators_3<CLROf<half>, CLROf<half>, CLROf<half>>, IIncrementOperators_1<CLROf<half>>, IMultiplicativeIdentity_2<CLROf<half>, CLROf<half>>, IMultiplyOperators_3<CLROf<half>, CLROf<half>, CLROf<half>>, ISubtractionOperators_3<CLROf<half>, CLROf<half>, CLROf<half>>, IUnaryPlusOperators_2<CLROf<half>, CLROf<half>>, IUnaryNegationOperators_2<CLROf<half>, CLROf<half>> {
+    CompareTo(obj: unknown): int;
+    CompareTo(other: half): int;
+    Equals(obj: unknown): boolean;
+    Equals(other: half): boolean;
+    GetHashCode(): int;
+    ToString(): string;
+    ToString(format: string): string;
+    ToString(provider: IFormatProvider): string;
+    ToString(format: string, provider: IFormatProvider): string;
+    TryFormat(destination: Span_1<CLROf<char>>, charsWritten: { value: ref<int> }, format?: ReadOnlySpan_1<CLROf<char>>, provider?: IFormatProvider): boolean;
+    TryFormat(utf8Destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }, format?: ReadOnlySpan_1<CLROf<char>>, provider?: IFormatProvider): boolean;
     static readonly Epsilon: half;
     static readonly PositiveInfinity: half;
     static readonly NegativeInfinity: half;
@@ -1809,8 +1825,8 @@ export class Half$instance {
     static MultiplyAddEstimate(left: half, right: half, addend: half): half;
     static Parse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, style?: NumberStyles, provider?: IFormatProvider): half;
     static Parse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, provider: IFormatProvider): half;
-    static Parse(s: ReadOnlySpan_1<CLROf<string>>, style?: NumberStyles, provider?: IFormatProvider): half;
-    static Parse(s: ReadOnlySpan_1<CLROf<string>>, provider: IFormatProvider): half;
+    static Parse(s: ReadOnlySpan_1<CLROf<char>>, style?: NumberStyles, provider?: IFormatProvider): half;
+    static Parse(s: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider): half;
     static Parse(s: string, style?: NumberStyles, provider?: IFormatProvider): half;
     static Parse(s: string, style: NumberStyles): half;
     static Parse(s: string, provider: IFormatProvider): half;
@@ -1839,9 +1855,9 @@ export class Half$instance {
     static TryParse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, style: NumberStyles, provider: IFormatProvider, result: { value: ref<half> }): boolean;
     static TryParse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, result: { value: ref<half> }): boolean;
     static TryParse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, provider: IFormatProvider, result: { value: ref<half> }): boolean;
-    static TryParse(s: ReadOnlySpan_1<CLROf<string>>, style: NumberStyles, provider: IFormatProvider, result: { value: ref<half> }): boolean;
-    static TryParse(s: ReadOnlySpan_1<CLROf<string>>, result: { value: ref<half> }): boolean;
-    static TryParse(s: ReadOnlySpan_1<CLROf<string>>, provider: IFormatProvider, result: { value: ref<half> }): boolean;
+    static TryParse(s: ReadOnlySpan_1<CLROf<char>>, style: NumberStyles, provider: IFormatProvider, result: { value: ref<half> }): boolean;
+    static TryParse(s: ReadOnlySpan_1<CLROf<char>>, result: { value: ref<half> }): boolean;
+    static TryParse(s: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider, result: { value: ref<half> }): boolean;
     static TryParse(s: string, style: NumberStyles, provider: IFormatProvider, result: { value: ref<half> }): boolean;
     static TryParse(s: string, result: { value: ref<half> }): boolean;
     static TryParse(s: string, provider: IFormatProvider, result: { value: ref<half> }): boolean;
@@ -1849,42 +1865,46 @@ export class Half$instance {
 
 
 export interface __Half$views {
-    readonly As_IComparable: IComparable$instance;
-    readonly As_IComparable_1_of_Decimal: IComparable_1$instance<CLROf<half>>;
-    readonly As_IEquatable_1_of_ConsoleKeyInfo: IEquatable_1$instance<CLROf<half>>;
-    readonly As_IFormattable: IFormattable$instance;
-    readonly As_IParsable_1_of_Decimal: IParsable_1$instance<any>;
-    readonly As_ISpanFormattable: ISpanFormattable$instance;
-    readonly As_ISpanParsable_1_of_Decimal: ISpanParsable_1$instance<any>;
-    readonly As_IUtf8SpanFormattable: IUtf8SpanFormattable$instance;
-    readonly As_IUtf8SpanParsable_1_of_Decimal: IUtf8SpanParsable_1$instance<any>;
-    readonly As_IAdditiveIdentity_2: System_Numerics_Internal.IAdditiveIdentity_2$instance<any, any>;
-    readonly As_IFloatingPoint_1: System_Numerics_Internal.IFloatingPoint_1$instance<any>;
-    readonly As_IMinMaxValue_1: System_Numerics_Internal.IMinMaxValue_1$instance<any>;
-    readonly As_INumber_1: System_Numerics_Internal.INumber_1$instance<any>;
-    readonly As_INumberBase_1: System_Numerics_Internal.INumberBase_1$instance<any>;
-    readonly As_IRootFunctions_1: System_Numerics_Internal.IRootFunctions_1$instance<CLROf<half>>;
-    readonly As_ITrigonometricFunctions_1_of_Double: System_Numerics_Internal.ITrigonometricFunctions_1$instance<CLROf<half>>;
+    As_IComparable(): IComparable$instance;
+    As_IComparable_1(): IComparable_1$instance<CLROf<half>>;
+    As_IEquatable_1(): IEquatable_1$instance<CLROf<half>>;
+    As_IFormattable(): IFormattable$instance;
+    As_IParsable_1(): IParsable_1$instance<CLROf<half>>;
+    As_ISpanFormattable(): ISpanFormattable$instance;
+    As_ISpanParsable_1(): ISpanParsable_1$instance<CLROf<half>>;
+    As_IUtf8SpanFormattable(): IUtf8SpanFormattable$instance;
+    As_IUtf8SpanParsable_1(): IUtf8SpanParsable_1$instance<CLROf<half>>;
+    As_IAdditiveIdentity_2(): System_Numerics_Internal.IAdditiveIdentity_2$instance<CLROf<half>, CLROf<half>>;
+    As_IFloatingPoint_1(): System_Numerics_Internal.IFloatingPoint_1$instance<CLROf<half>>;
+    As_IMinMaxValue_1(): System_Numerics_Internal.IMinMaxValue_1$instance<CLROf<half>>;
+    As_INumber_1(): System_Numerics_Internal.INumber_1$instance<CLROf<half>>;
+    As_INumberBase_1(): System_Numerics_Internal.INumberBase_1$instance<CLROf<half>>;
+    As_IRootFunctions_1(): System_Numerics_Internal.IRootFunctions_1$instance<CLROf<half>>;
+    As_ITrigonometricFunctions_1(): System_Numerics_Internal.ITrigonometricFunctions_1$instance<CLROf<half>>;
 
     // Structural method bridges for numeric interface constraints
     Equals(other: Half): boolean;
-    CompareTo(obj: any): int;
+    CompareTo(obj: unknown): int;
     ToString(format: string, formatProvider: IFormatProvider): string;
-    TryFormat(destination: Span_1<CLROf<string>>, charsWritten: { value: ref<int> }, format: ReadOnlySpan_1<CLROf<string>>, provider: IFormatProvider): boolean;
+    TryFormat(destination: Span_1<CLROf<char>>, charsWritten: { value: ref<int> }, format: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider): boolean;
     GetExponentByteCount(): int;
     GetExponentShortestBitLength(): int;
+    TryWriteExponentBigEndian(destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
+    WriteExponentBigEndian(destination: byte[], startIndex: int): int;
+    WriteExponentBigEndian(destination: byte[]): int;
+    WriteExponentBigEndian(destination: Span_1<CLROf<byte>>): int;
 }
 
 export type Half = Half$instance & __Half$views;
 
 
 export class HashCode$instance {
-    add<T>(value: T): void;
-    add<T>(value: T, comparer: IEqualityComparer_1<T>): void;
-    addBytes(value: ReadOnlySpan_1<CLROf<byte>>): void;
-    equals(obj: any): boolean;
-    getHashCode(): int;
-    toHashCode(): int;
+    Add<T>(value: T): void;
+    Add<T>(value: T, comparer: IEqualityComparer_1<T>): void;
+    AddBytes(value: ReadOnlySpan_1<CLROf<byte>>): void;
+    Equals(obj: unknown): boolean;
+    GetHashCode(): int;
+    ToHashCode(): int;
     static Combine<T1, T2, T3, T4, T5, T6, T7, T8>(value1: T1, value2: T2, value3: T3, value4: T4, value5: T5, value6: T6, value7: T7, value8: T8): int;
     static Combine<T1, T2, T3, T4, T5, T6, T7>(value1: T1, value2: T2, value3: T3, value4: T4, value5: T5, value6: T6, value7: T7): int;
     static Combine<T1, T2, T3, T4, T5, T6>(value1: T1, value2: T2, value3: T3, value4: T4, value5: T5, value6: T6): int;
@@ -1900,13 +1920,13 @@ export type HashCode = HashCode$instance;
 
 export class Index$instance {
     constructor(value: int, fromEnd: boolean);
-    readonly isFromEnd: boolean;
-    readonly value: int;
-    equals(value: any): boolean;
-    equals(other: Index): boolean;
-    getHashCode(): int;
-    getOffset(length: int): int;
-    toString(): string;
+    readonly IsFromEnd: boolean;
+    readonly Value: int;
+    Equals(value: unknown): boolean;
+    Equals(other: Index): boolean;
+    GetHashCode(): int;
+    GetOffset(length: int): int;
+    ToString(): string;
     static readonly Start: Index;
     static readonly End: Index;
     static FromEnd(value: int): Index;
@@ -1915,7 +1935,7 @@ export class Index$instance {
 
 
 export interface __Index$views {
-    readonly As_IEquatable_1_of_ConsoleKeyInfo: IEquatable_1$instance<Index>;
+    As_IEquatable_1(): IEquatable_1$instance<Index>;
 
     // Structural method bridges for numeric interface constraints
     Equals(other: Index): boolean;
@@ -1924,19 +1944,19 @@ export interface __Index$views {
 export type Index = Index$instance & __Index$views;
 
 
-export class Int128$instance {
+export class Int128$instance implements IBitwiseOperators_3<CLROf<int128>, CLROf<int128>, CLROf<int128>>, IComparisonOperators_3<CLROf<int128>, CLROf<int128>, CLROf<boolean>>, IEqualityOperators_3<CLROf<int128>, CLROf<int128>, CLROf<boolean>>, IModulusOperators_3<CLROf<int128>, CLROf<int128>, CLROf<int128>>, IAdditionOperators_3<CLROf<int128>, CLROf<int128>, CLROf<int128>>, IDecrementOperators_1<CLROf<int128>>, IDivisionOperators_3<CLROf<int128>, CLROf<int128>, CLROf<int128>>, IIncrementOperators_1<CLROf<int128>>, IMultiplyOperators_3<CLROf<int128>, CLROf<int128>, CLROf<int128>>, ISubtractionOperators_3<CLROf<int128>, CLROf<int128>, CLROf<int128>>, IUnaryPlusOperators_2<CLROf<int128>, CLROf<int128>>, IUnaryNegationOperators_2<CLROf<int128>, CLROf<int128>>, IShiftOperators_3<CLROf<int128>, CLROf<int>, CLROf<int128>> {
     constructor(upper: ulong, lower: ulong);
-    compareTo(value: any): int;
-    compareTo(value: int128): int;
-    equals(obj: any): boolean;
-    equals(other: int128): boolean;
-    getHashCode(): int;
-    toString(): string;
-    toString(provider: IFormatProvider): string;
-    toString(format: string): string;
-    toString(format: string, provider: IFormatProvider): string;
-    tryFormat(destination: Span_1<CLROf<string>>, charsWritten: { value: ref<int> }, format?: ReadOnlySpan_1<CLROf<string>>, provider?: IFormatProvider): boolean;
-    tryFormat(utf8Destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }, format?: ReadOnlySpan_1<CLROf<string>>, provider?: IFormatProvider): boolean;
+    CompareTo(value: unknown): int;
+    CompareTo(value: int128): int;
+    Equals(obj: unknown): boolean;
+    Equals(other: int128): boolean;
+    GetHashCode(): int;
+    ToString(): string;
+    ToString(provider: IFormatProvider): string;
+    ToString(format: string): string;
+    ToString(format: string, provider: IFormatProvider): string;
+    TryFormat(destination: Span_1<CLROf<char>>, charsWritten: { value: ref<int> }, format?: ReadOnlySpan_1<CLROf<char>>, provider?: IFormatProvider): boolean;
+    TryFormat(utf8Destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }, format?: ReadOnlySpan_1<CLROf<char>>, provider?: IFormatProvider): boolean;
     static readonly MinValue: int128;
     static readonly MaxValue: int128;
     static readonly One: int128;
@@ -1963,8 +1983,8 @@ export class Int128$instance {
     static MinMagnitude(x: int128, y: int128): int128;
     static Parse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, style?: NumberStyles, provider?: IFormatProvider): int128;
     static Parse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, provider: IFormatProvider): int128;
-    static Parse(s: ReadOnlySpan_1<CLROf<string>>, style?: NumberStyles, provider?: IFormatProvider): int128;
-    static Parse(s: ReadOnlySpan_1<CLROf<string>>, provider: IFormatProvider): int128;
+    static Parse(s: ReadOnlySpan_1<CLROf<char>>, style?: NumberStyles, provider?: IFormatProvider): int128;
+    static Parse(s: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider): int128;
     static Parse(s: string, style: NumberStyles, provider: IFormatProvider): int128;
     static Parse(s: string, style: NumberStyles): int128;
     static Parse(s: string, provider: IFormatProvider): int128;
@@ -1977,9 +1997,9 @@ export class Int128$instance {
     static TryParse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, style: NumberStyles, provider: IFormatProvider, result: { value: ref<int128> }): boolean;
     static TryParse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, provider: IFormatProvider, result: { value: ref<int128> }): boolean;
     static TryParse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, result: { value: ref<int128> }): boolean;
-    static TryParse(s: ReadOnlySpan_1<CLROf<string>>, style: NumberStyles, provider: IFormatProvider, result: { value: ref<int128> }): boolean;
-    static TryParse(s: ReadOnlySpan_1<CLROf<string>>, provider: IFormatProvider, result: { value: ref<int128> }): boolean;
-    static TryParse(s: ReadOnlySpan_1<CLROf<string>>, result: { value: ref<int128> }): boolean;
+    static TryParse(s: ReadOnlySpan_1<CLROf<char>>, style: NumberStyles, provider: IFormatProvider, result: { value: ref<int128> }): boolean;
+    static TryParse(s: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider, result: { value: ref<int128> }): boolean;
+    static TryParse(s: ReadOnlySpan_1<CLROf<char>>, result: { value: ref<int128> }): boolean;
     static TryParse(s: string, style: NumberStyles, provider: IFormatProvider, result: { value: ref<int128> }): boolean;
     static TryParse(s: string, provider: IFormatProvider, result: { value: ref<int128> }): boolean;
     static TryParse(s: string, result: { value: ref<int128> }): boolean;
@@ -1987,44 +2007,48 @@ export class Int128$instance {
 
 
 export interface __Int128$views {
-    readonly As_IComparable: IComparable$instance;
-    readonly As_IComparable_1_of_Decimal: IComparable_1$instance<CLROf<int128>>;
-    readonly As_IEquatable_1_of_ConsoleKeyInfo: IEquatable_1$instance<CLROf<int128>>;
-    readonly As_IFormattable: IFormattable$instance;
-    readonly As_IParsable_1_of_Decimal: IParsable_1$instance<any>;
-    readonly As_ISpanParsable_1_of_Decimal: ISpanParsable_1$instance<any>;
-    readonly As_IUtf8SpanFormattable: IUtf8SpanFormattable$instance;
-    readonly As_IUtf8SpanParsable_1_of_Decimal: IUtf8SpanParsable_1$instance<any>;
-    readonly As_IAdditiveIdentity_2: System_Numerics_Internal.IAdditiveIdentity_2$instance<any, any>;
-    readonly As_IBinaryInteger_1: System_Numerics_Internal.IBinaryInteger_1$instance<any>;
-    readonly As_IMinMaxValue_1: System_Numerics_Internal.IMinMaxValue_1$instance<any>;
-    readonly As_INumber_1: System_Numerics_Internal.INumber_1$instance<any>;
-    readonly As_INumberBase_1: System_Numerics_Internal.INumberBase_1$instance<any>;
+    As_IComparable(): IComparable$instance;
+    As_IComparable_1(): IComparable_1$instance<CLROf<int128>>;
+    As_IEquatable_1(): IEquatable_1$instance<CLROf<int128>>;
+    As_IFormattable(): IFormattable$instance;
+    As_IParsable_1(): IParsable_1$instance<CLROf<int128>>;
+    As_ISpanParsable_1(): ISpanParsable_1$instance<CLROf<int128>>;
+    As_IUtf8SpanFormattable(): IUtf8SpanFormattable$instance;
+    As_IUtf8SpanParsable_1(): IUtf8SpanParsable_1$instance<CLROf<int128>>;
+    As_IAdditiveIdentity_2(): System_Numerics_Internal.IAdditiveIdentity_2$instance<CLROf<int128>, CLROf<int128>>;
+    As_IBinaryInteger_1(): System_Numerics_Internal.IBinaryInteger_1$instance<CLROf<int128>>;
+    As_IMinMaxValue_1(): System_Numerics_Internal.IMinMaxValue_1$instance<CLROf<int128>>;
+    As_INumber_1(): System_Numerics_Internal.INumber_1$instance<CLROf<int128>>;
+    As_INumberBase_1(): System_Numerics_Internal.INumberBase_1$instance<CLROf<int128>>;
 
     // Structural method bridges for numeric interface constraints
     Equals(other: Int128): boolean;
-    CompareTo(obj: any): int;
+    CompareTo(obj: unknown): int;
     ToString(format: string, formatProvider: IFormatProvider): string;
-    TryFormat(destination: Span_1<CLROf<string>>, charsWritten: { value: ref<int> }, format: ReadOnlySpan_1<CLROf<string>>, provider: IFormatProvider): boolean;
+    TryFormat(destination: Span_1<CLROf<char>>, charsWritten: { value: ref<int> }, format: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider): boolean;
     GetByteCount(): int;
+    TryWriteBigEndian(destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
+    WriteBigEndian(destination: byte[], startIndex: int): int;
+    WriteBigEndian(destination: byte[]): int;
+    WriteBigEndian(destination: Span_1<CLROf<byte>>): int;
 }
 
 export type Int128 = Int128$instance & __Int128$views;
 
 
-export class Int16$instance {
-    compareTo(value: any): int;
-    compareTo(value: short): int;
-    equals(obj: any): boolean;
-    equals(obj: short): boolean;
-    getHashCode(): int;
-    getTypeCode(): TypeCode;
-    toString(): string;
-    toString(provider: IFormatProvider): string;
-    toString(format: string): string;
-    toString(format: string, provider: IFormatProvider): string;
-    tryFormat(destination: Span_1<CLROf<string>>, charsWritten: { value: ref<int> }, format?: ReadOnlySpan_1<CLROf<string>>, provider?: IFormatProvider): boolean;
-    tryFormat(utf8Destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }, format?: ReadOnlySpan_1<CLROf<string>>, provider?: IFormatProvider): boolean;
+export class Int16$instance implements IBitwiseOperators_3<CLROf<short>, CLROf<short>, CLROf<short>>, IComparisonOperators_3<CLROf<short>, CLROf<short>, CLROf<boolean>>, IEqualityOperators_3<CLROf<short>, CLROf<short>, CLROf<boolean>>, IModulusOperators_3<CLROf<short>, CLROf<short>, CLROf<short>>, IAdditionOperators_3<CLROf<short>, CLROf<short>, CLROf<short>>, IDecrementOperators_1<CLROf<short>>, IDivisionOperators_3<CLROf<short>, CLROf<short>, CLROf<short>>, IIncrementOperators_1<CLROf<short>>, IMultiplyOperators_3<CLROf<short>, CLROf<short>, CLROf<short>>, ISubtractionOperators_3<CLROf<short>, CLROf<short>, CLROf<short>>, IUnaryPlusOperators_2<CLROf<short>, CLROf<short>>, IUnaryNegationOperators_2<CLROf<short>, CLROf<short>>, IShiftOperators_3<CLROf<short>, CLROf<int>, CLROf<short>> {
+    CompareTo(value: unknown): int;
+    CompareTo(value: short): int;
+    Equals(obj: unknown): boolean;
+    Equals(obj: short): boolean;
+    GetHashCode(): int;
+    GetTypeCode(): TypeCode;
+    ToString(): string;
+    ToString(provider: IFormatProvider): string;
+    ToString(format: string): string;
+    ToString(format: string, provider: IFormatProvider): string;
+    TryFormat(destination: Span_1<CLROf<char>>, charsWritten: { value: ref<int> }, format?: ReadOnlySpan_1<CLROf<char>>, provider?: IFormatProvider): boolean;
+    TryFormat(utf8Destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }, format?: ReadOnlySpan_1<CLROf<char>>, provider?: IFormatProvider): boolean;
     static readonly MaxValue: short;
     static readonly MinValue: short;
     static Abs(value: short): short;
@@ -2047,8 +2071,8 @@ export class Int16$instance {
     static MinMagnitude(x: short, y: short): short;
     static Parse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, style?: NumberStyles, provider?: IFormatProvider): short;
     static Parse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, provider: IFormatProvider): short;
-    static Parse(s: ReadOnlySpan_1<CLROf<string>>, style?: NumberStyles, provider?: IFormatProvider): short;
-    static Parse(s: ReadOnlySpan_1<CLROf<string>>, provider: IFormatProvider): short;
+    static Parse(s: ReadOnlySpan_1<CLROf<char>>, style?: NumberStyles, provider?: IFormatProvider): short;
+    static Parse(s: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider): short;
     static Parse(s: string, style: NumberStyles, provider: IFormatProvider): short;
     static Parse(s: string, style: NumberStyles): short;
     static Parse(s: string, provider: IFormatProvider): short;
@@ -2061,9 +2085,9 @@ export class Int16$instance {
     static TryParse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, style: NumberStyles, provider: IFormatProvider, result: { value: ref<short> }): boolean;
     static TryParse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, provider: IFormatProvider, result: { value: ref<short> }): boolean;
     static TryParse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, result: { value: ref<short> }): boolean;
-    static TryParse(s: ReadOnlySpan_1<CLROf<string>>, style: NumberStyles, provider: IFormatProvider, result: { value: ref<short> }): boolean;
-    static TryParse(s: ReadOnlySpan_1<CLROf<string>>, provider: IFormatProvider, result: { value: ref<short> }): boolean;
-    static TryParse(s: ReadOnlySpan_1<CLROf<string>>, result: { value: ref<short> }): boolean;
+    static TryParse(s: ReadOnlySpan_1<CLROf<char>>, style: NumberStyles, provider: IFormatProvider, result: { value: ref<short> }): boolean;
+    static TryParse(s: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider, result: { value: ref<short> }): boolean;
+    static TryParse(s: ReadOnlySpan_1<CLROf<char>>, result: { value: ref<short> }): boolean;
     static TryParse(s: string, style: NumberStyles, provider: IFormatProvider, result: { value: ref<short> }): boolean;
     static TryParse(s: string, provider: IFormatProvider, result: { value: ref<short> }): boolean;
     static TryParse(s: string, result: { value: ref<short> }): boolean;
@@ -2071,46 +2095,50 @@ export class Int16$instance {
 
 
 export interface __Int16$views {
-    readonly As_IComparable: IComparable$instance;
-    readonly As_IComparable_1_of_Decimal: IComparable_1$instance<CLROf<short>>;
-    readonly As_IConvertible: IConvertible$instance;
-    readonly As_IEquatable_1_of_ConsoleKeyInfo: IEquatable_1$instance<CLROf<short>>;
-    readonly As_IFormattable: IFormattable$instance;
-    readonly As_IParsable_1_of_Decimal: IParsable_1$instance<any>;
-    readonly As_ISpanFormattable: ISpanFormattable$instance;
-    readonly As_ISpanParsable_1_of_Decimal: ISpanParsable_1$instance<any>;
-    readonly As_IUtf8SpanFormattable: IUtf8SpanFormattable$instance;
-    readonly As_IUtf8SpanParsable_1_of_Decimal: IUtf8SpanParsable_1$instance<any>;
-    readonly As_IAdditiveIdentity_2: System_Numerics_Internal.IAdditiveIdentity_2$instance<any, any>;
-    readonly As_IBinaryInteger_1: System_Numerics_Internal.IBinaryInteger_1$instance<any>;
-    readonly As_IMinMaxValue_1: System_Numerics_Internal.IMinMaxValue_1$instance<any>;
-    readonly As_INumber_1: System_Numerics_Internal.INumber_1$instance<any>;
-    readonly As_INumberBase_1: System_Numerics_Internal.INumberBase_1$instance<any>;
+    As_IComparable(): IComparable$instance;
+    As_IComparable_1(): IComparable_1$instance<CLROf<short>>;
+    As_IConvertible(): IConvertible$instance;
+    As_IEquatable_1(): IEquatable_1$instance<CLROf<short>>;
+    As_IFormattable(): IFormattable$instance;
+    As_IParsable_1(): IParsable_1$instance<CLROf<short>>;
+    As_ISpanFormattable(): ISpanFormattable$instance;
+    As_ISpanParsable_1(): ISpanParsable_1$instance<CLROf<short>>;
+    As_IUtf8SpanFormattable(): IUtf8SpanFormattable$instance;
+    As_IUtf8SpanParsable_1(): IUtf8SpanParsable_1$instance<CLROf<short>>;
+    As_IAdditiveIdentity_2(): System_Numerics_Internal.IAdditiveIdentity_2$instance<CLROf<short>, CLROf<short>>;
+    As_IBinaryInteger_1(): System_Numerics_Internal.IBinaryInteger_1$instance<CLROf<short>>;
+    As_IMinMaxValue_1(): System_Numerics_Internal.IMinMaxValue_1$instance<CLROf<short>>;
+    As_INumber_1(): System_Numerics_Internal.INumber_1$instance<CLROf<short>>;
+    As_INumberBase_1(): System_Numerics_Internal.INumberBase_1$instance<CLROf<short>>;
 
     // Structural method bridges for numeric interface constraints
     Equals(other: Int16): boolean;
-    CompareTo(obj: any): int;
+    CompareTo(obj: unknown): int;
     ToString(format: string, formatProvider: IFormatProvider): string;
-    TryFormat(destination: Span_1<CLROf<string>>, charsWritten: { value: ref<int> }, format: ReadOnlySpan_1<CLROf<string>>, provider: IFormatProvider): boolean;
+    TryFormat(destination: Span_1<CLROf<char>>, charsWritten: { value: ref<int> }, format: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider): boolean;
     GetByteCount(): int;
+    TryWriteBigEndian(destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
+    WriteBigEndian(destination: byte[], startIndex: int): int;
+    WriteBigEndian(destination: byte[]): int;
+    WriteBigEndian(destination: Span_1<CLROf<byte>>): int;
 }
 
 export type Int16 = Int16$instance & __Int16$views;
 
 
-export class Int32$instance {
-    compareTo(value: any): int;
-    compareTo(value: int): int;
-    equals(obj: any): boolean;
-    equals(obj: int): boolean;
-    getHashCode(): int;
-    getTypeCode(): TypeCode;
-    toString(): string;
-    toString(format: string): string;
-    toString(provider: IFormatProvider): string;
-    toString(format: string, provider: IFormatProvider): string;
-    tryFormat(destination: Span_1<CLROf<string>>, charsWritten: { value: ref<int> }, format?: ReadOnlySpan_1<CLROf<string>>, provider?: IFormatProvider): boolean;
-    tryFormat(utf8Destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }, format?: ReadOnlySpan_1<CLROf<string>>, provider?: IFormatProvider): boolean;
+export class Int32$instance implements IBitwiseOperators_3<CLROf<int>, CLROf<int>, CLROf<int>>, IComparisonOperators_3<CLROf<int>, CLROf<int>, CLROf<boolean>>, IEqualityOperators_3<CLROf<int>, CLROf<int>, CLROf<boolean>>, IModulusOperators_3<CLROf<int>, CLROf<int>, CLROf<int>>, IAdditionOperators_3<CLROf<int>, CLROf<int>, CLROf<int>>, IDecrementOperators_1<CLROf<int>>, IDivisionOperators_3<CLROf<int>, CLROf<int>, CLROf<int>>, IIncrementOperators_1<CLROf<int>>, IMultiplyOperators_3<CLROf<int>, CLROf<int>, CLROf<int>>, ISubtractionOperators_3<CLROf<int>, CLROf<int>, CLROf<int>>, IUnaryPlusOperators_2<CLROf<int>, CLROf<int>>, IUnaryNegationOperators_2<CLROf<int>, CLROf<int>>, IShiftOperators_3<CLROf<int>, CLROf<int>, CLROf<int>> {
+    CompareTo(value: unknown): int;
+    CompareTo(value: int): int;
+    Equals(obj: unknown): boolean;
+    Equals(obj: int): boolean;
+    GetHashCode(): int;
+    GetTypeCode(): TypeCode;
+    ToString(): string;
+    ToString(format: string): string;
+    ToString(provider: IFormatProvider): string;
+    ToString(format: string, provider: IFormatProvider): string;
+    TryFormat(destination: Span_1<CLROf<char>>, charsWritten: { value: ref<int> }, format?: ReadOnlySpan_1<CLROf<char>>, provider?: IFormatProvider): boolean;
+    TryFormat(utf8Destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }, format?: ReadOnlySpan_1<CLROf<char>>, provider?: IFormatProvider): boolean;
     static readonly MaxValue: int;
     static readonly MinValue: int;
     static Abs(value: int): int;
@@ -2134,8 +2162,8 @@ export class Int32$instance {
     static MinMagnitude(x: int, y: int): int;
     static Parse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, style?: NumberStyles, provider?: IFormatProvider): int;
     static Parse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, provider: IFormatProvider): int;
-    static Parse(s: ReadOnlySpan_1<CLROf<string>>, style?: NumberStyles, provider?: IFormatProvider): int;
-    static Parse(s: ReadOnlySpan_1<CLROf<string>>, provider: IFormatProvider): int;
+    static Parse(s: ReadOnlySpan_1<CLROf<char>>, style?: NumberStyles, provider?: IFormatProvider): int;
+    static Parse(s: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider): int;
     static Parse(s: string, style: NumberStyles, provider: IFormatProvider): int;
     static Parse(s: string, style: NumberStyles): int;
     static Parse(s: string, provider: IFormatProvider): int;
@@ -2148,9 +2176,9 @@ export class Int32$instance {
     static TryParse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, style: NumberStyles, provider: IFormatProvider, result: { value: ref<int> }): boolean;
     static TryParse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, provider: IFormatProvider, result: { value: ref<int> }): boolean;
     static TryParse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, result: { value: ref<int> }): boolean;
-    static TryParse(s: ReadOnlySpan_1<CLROf<string>>, style: NumberStyles, provider: IFormatProvider, result: { value: ref<int> }): boolean;
-    static TryParse(s: ReadOnlySpan_1<CLROf<string>>, provider: IFormatProvider, result: { value: ref<int> }): boolean;
-    static TryParse(s: ReadOnlySpan_1<CLROf<string>>, result: { value: ref<int> }): boolean;
+    static TryParse(s: ReadOnlySpan_1<CLROf<char>>, style: NumberStyles, provider: IFormatProvider, result: { value: ref<int> }): boolean;
+    static TryParse(s: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider, result: { value: ref<int> }): boolean;
+    static TryParse(s: ReadOnlySpan_1<CLROf<char>>, result: { value: ref<int> }): boolean;
     static TryParse(s: string, style: NumberStyles, provider: IFormatProvider, result: { value: ref<int> }): boolean;
     static TryParse(s: string, provider: IFormatProvider, result: { value: ref<int> }): boolean;
     static TryParse(s: string, result: { value: ref<int> }): boolean;
@@ -2158,46 +2186,50 @@ export class Int32$instance {
 
 
 export interface __Int32$views {
-    readonly As_IComparable: IComparable$instance;
-    readonly As_IComparable_1_of_Decimal: IComparable_1$instance<CLROf<int>>;
-    readonly As_IConvertible: IConvertible$instance;
-    readonly As_IEquatable_1_of_ConsoleKeyInfo: IEquatable_1$instance<CLROf<int>>;
-    readonly As_IFormattable: IFormattable$instance;
-    readonly As_IParsable_1_of_Decimal: IParsable_1$instance<any>;
-    readonly As_ISpanFormattable: ISpanFormattable$instance;
-    readonly As_ISpanParsable_1_of_Decimal: ISpanParsable_1$instance<any>;
-    readonly As_IUtf8SpanFormattable: IUtf8SpanFormattable$instance;
-    readonly As_IUtf8SpanParsable_1_of_Decimal: IUtf8SpanParsable_1$instance<any>;
-    readonly As_IAdditiveIdentity_2: System_Numerics_Internal.IAdditiveIdentity_2$instance<any, any>;
-    readonly As_IBinaryInteger_1: System_Numerics_Internal.IBinaryInteger_1$instance<any>;
-    readonly As_IMinMaxValue_1: System_Numerics_Internal.IMinMaxValue_1$instance<any>;
-    readonly As_INumber_1: System_Numerics_Internal.INumber_1$instance<any>;
-    readonly As_INumberBase_1: System_Numerics_Internal.INumberBase_1$instance<any>;
+    As_IComparable(): IComparable$instance;
+    As_IComparable_1(): IComparable_1$instance<CLROf<int>>;
+    As_IConvertible(): IConvertible$instance;
+    As_IEquatable_1(): IEquatable_1$instance<CLROf<int>>;
+    As_IFormattable(): IFormattable$instance;
+    As_IParsable_1(): IParsable_1$instance<CLROf<int>>;
+    As_ISpanFormattable(): ISpanFormattable$instance;
+    As_ISpanParsable_1(): ISpanParsable_1$instance<CLROf<int>>;
+    As_IUtf8SpanFormattable(): IUtf8SpanFormattable$instance;
+    As_IUtf8SpanParsable_1(): IUtf8SpanParsable_1$instance<CLROf<int>>;
+    As_IAdditiveIdentity_2(): System_Numerics_Internal.IAdditiveIdentity_2$instance<CLROf<int>, CLROf<int>>;
+    As_IBinaryInteger_1(): System_Numerics_Internal.IBinaryInteger_1$instance<CLROf<int>>;
+    As_IMinMaxValue_1(): System_Numerics_Internal.IMinMaxValue_1$instance<CLROf<int>>;
+    As_INumber_1(): System_Numerics_Internal.INumber_1$instance<CLROf<int>>;
+    As_INumberBase_1(): System_Numerics_Internal.INumberBase_1$instance<CLROf<int>>;
 
     // Structural method bridges for numeric interface constraints
     Equals(other: Int32): boolean;
-    CompareTo(obj: any): int;
+    CompareTo(obj: unknown): int;
     ToString(format: string, formatProvider: IFormatProvider): string;
-    TryFormat(destination: Span_1<CLROf<string>>, charsWritten: { value: ref<int> }, format: ReadOnlySpan_1<CLROf<string>>, provider: IFormatProvider): boolean;
+    TryFormat(destination: Span_1<CLROf<char>>, charsWritten: { value: ref<int> }, format: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider): boolean;
     GetByteCount(): int;
+    TryWriteBigEndian(destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
+    WriteBigEndian(destination: byte[], startIndex: int): int;
+    WriteBigEndian(destination: byte[]): int;
+    WriteBigEndian(destination: Span_1<CLROf<byte>>): int;
 }
 
 export type Int32 = Int32$instance & __Int32$views;
 
 
-export class Int64$instance {
-    compareTo(value: any): int;
-    compareTo(value: long): int;
-    equals(obj: any): boolean;
-    equals(obj: long): boolean;
-    getHashCode(): int;
-    getTypeCode(): TypeCode;
-    toString(): string;
-    toString(provider: IFormatProvider): string;
-    toString(format: string): string;
-    toString(format: string, provider: IFormatProvider): string;
-    tryFormat(destination: Span_1<CLROf<string>>, charsWritten: { value: ref<int> }, format?: ReadOnlySpan_1<CLROf<string>>, provider?: IFormatProvider): boolean;
-    tryFormat(utf8Destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }, format?: ReadOnlySpan_1<CLROf<string>>, provider?: IFormatProvider): boolean;
+export class Int64$instance implements IBitwiseOperators_3<CLROf<long>, CLROf<long>, CLROf<long>>, IComparisonOperators_3<CLROf<long>, CLROf<long>, CLROf<boolean>>, IEqualityOperators_3<CLROf<long>, CLROf<long>, CLROf<boolean>>, IModulusOperators_3<CLROf<long>, CLROf<long>, CLROf<long>>, IAdditionOperators_3<CLROf<long>, CLROf<long>, CLROf<long>>, IDecrementOperators_1<CLROf<long>>, IDivisionOperators_3<CLROf<long>, CLROf<long>, CLROf<long>>, IIncrementOperators_1<CLROf<long>>, IMultiplyOperators_3<CLROf<long>, CLROf<long>, CLROf<long>>, ISubtractionOperators_3<CLROf<long>, CLROf<long>, CLROf<long>>, IUnaryPlusOperators_2<CLROf<long>, CLROf<long>>, IUnaryNegationOperators_2<CLROf<long>, CLROf<long>>, IShiftOperators_3<CLROf<long>, CLROf<int>, CLROf<long>> {
+    CompareTo(value: unknown): int;
+    CompareTo(value: long): int;
+    Equals(obj: unknown): boolean;
+    Equals(obj: long): boolean;
+    GetHashCode(): int;
+    GetTypeCode(): TypeCode;
+    ToString(): string;
+    ToString(provider: IFormatProvider): string;
+    ToString(format: string): string;
+    ToString(format: string, provider: IFormatProvider): string;
+    TryFormat(destination: Span_1<CLROf<char>>, charsWritten: { value: ref<int> }, format?: ReadOnlySpan_1<CLROf<char>>, provider?: IFormatProvider): boolean;
+    TryFormat(utf8Destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }, format?: ReadOnlySpan_1<CLROf<char>>, provider?: IFormatProvider): boolean;
     static readonly MaxValue: long;
     static readonly MinValue: long;
     static Abs(value: long): long;
@@ -2221,8 +2253,8 @@ export class Int64$instance {
     static MinMagnitude(x: long, y: long): long;
     static Parse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, style?: NumberStyles, provider?: IFormatProvider): long;
     static Parse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, provider: IFormatProvider): long;
-    static Parse(s: ReadOnlySpan_1<CLROf<string>>, style?: NumberStyles, provider?: IFormatProvider): long;
-    static Parse(s: ReadOnlySpan_1<CLROf<string>>, provider: IFormatProvider): long;
+    static Parse(s: ReadOnlySpan_1<CLROf<char>>, style?: NumberStyles, provider?: IFormatProvider): long;
+    static Parse(s: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider): long;
     static Parse(s: string, style: NumberStyles, provider: IFormatProvider): long;
     static Parse(s: string, style: NumberStyles): long;
     static Parse(s: string, provider: IFormatProvider): long;
@@ -2235,9 +2267,9 @@ export class Int64$instance {
     static TryParse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, style: NumberStyles, provider: IFormatProvider, result: { value: ref<long> }): boolean;
     static TryParse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, provider: IFormatProvider, result: { value: ref<long> }): boolean;
     static TryParse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, result: { value: ref<long> }): boolean;
-    static TryParse(s: ReadOnlySpan_1<CLROf<string>>, style: NumberStyles, provider: IFormatProvider, result: { value: ref<long> }): boolean;
-    static TryParse(s: ReadOnlySpan_1<CLROf<string>>, provider: IFormatProvider, result: { value: ref<long> }): boolean;
-    static TryParse(s: ReadOnlySpan_1<CLROf<string>>, result: { value: ref<long> }): boolean;
+    static TryParse(s: ReadOnlySpan_1<CLROf<char>>, style: NumberStyles, provider: IFormatProvider, result: { value: ref<long> }): boolean;
+    static TryParse(s: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider, result: { value: ref<long> }): boolean;
+    static TryParse(s: ReadOnlySpan_1<CLROf<char>>, result: { value: ref<long> }): boolean;
     static TryParse(s: string, style: NumberStyles, provider: IFormatProvider, result: { value: ref<long> }): boolean;
     static TryParse(s: string, provider: IFormatProvider, result: { value: ref<long> }): boolean;
     static TryParse(s: string, result: { value: ref<long> }): boolean;
@@ -2245,52 +2277,56 @@ export class Int64$instance {
 
 
 export interface __Int64$views {
-    readonly As_IComparable: IComparable$instance;
-    readonly As_IComparable_1_of_Decimal: IComparable_1$instance<CLROf<long>>;
-    readonly As_IConvertible: IConvertible$instance;
-    readonly As_IEquatable_1_of_ConsoleKeyInfo: IEquatable_1$instance<CLROf<long>>;
-    readonly As_IFormattable: IFormattable$instance;
-    readonly As_IParsable_1_of_Decimal: IParsable_1$instance<any>;
-    readonly As_ISpanFormattable: ISpanFormattable$instance;
-    readonly As_ISpanParsable_1_of_Decimal: ISpanParsable_1$instance<any>;
-    readonly As_IUtf8SpanFormattable: IUtf8SpanFormattable$instance;
-    readonly As_IUtf8SpanParsable_1_of_Decimal: IUtf8SpanParsable_1$instance<any>;
-    readonly As_IAdditiveIdentity_2: System_Numerics_Internal.IAdditiveIdentity_2$instance<any, any>;
-    readonly As_IBinaryInteger_1: System_Numerics_Internal.IBinaryInteger_1$instance<any>;
-    readonly As_IMinMaxValue_1: System_Numerics_Internal.IMinMaxValue_1$instance<any>;
-    readonly As_INumber_1: System_Numerics_Internal.INumber_1$instance<any>;
-    readonly As_INumberBase_1: System_Numerics_Internal.INumberBase_1$instance<any>;
+    As_IComparable(): IComparable$instance;
+    As_IComparable_1(): IComparable_1$instance<CLROf<long>>;
+    As_IConvertible(): IConvertible$instance;
+    As_IEquatable_1(): IEquatable_1$instance<CLROf<long>>;
+    As_IFormattable(): IFormattable$instance;
+    As_IParsable_1(): IParsable_1$instance<CLROf<long>>;
+    As_ISpanFormattable(): ISpanFormattable$instance;
+    As_ISpanParsable_1(): ISpanParsable_1$instance<CLROf<long>>;
+    As_IUtf8SpanFormattable(): IUtf8SpanFormattable$instance;
+    As_IUtf8SpanParsable_1(): IUtf8SpanParsable_1$instance<CLROf<long>>;
+    As_IAdditiveIdentity_2(): System_Numerics_Internal.IAdditiveIdentity_2$instance<CLROf<long>, CLROf<long>>;
+    As_IBinaryInteger_1(): System_Numerics_Internal.IBinaryInteger_1$instance<CLROf<long>>;
+    As_IMinMaxValue_1(): System_Numerics_Internal.IMinMaxValue_1$instance<CLROf<long>>;
+    As_INumber_1(): System_Numerics_Internal.INumber_1$instance<CLROf<long>>;
+    As_INumberBase_1(): System_Numerics_Internal.INumberBase_1$instance<CLROf<long>>;
 
     // Structural method bridges for numeric interface constraints
     Equals(other: Int64): boolean;
-    CompareTo(obj: any): int;
+    CompareTo(obj: unknown): int;
     ToString(format: string, formatProvider: IFormatProvider): string;
-    TryFormat(destination: Span_1<CLROf<string>>, charsWritten: { value: ref<int> }, format: ReadOnlySpan_1<CLROf<string>>, provider: IFormatProvider): boolean;
+    TryFormat(destination: Span_1<CLROf<char>>, charsWritten: { value: ref<int> }, format: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider): boolean;
     GetByteCount(): int;
+    TryWriteBigEndian(destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
+    WriteBigEndian(destination: byte[], startIndex: int): int;
+    WriteBigEndian(destination: byte[]): int;
+    WriteBigEndian(destination: Span_1<CLROf<byte>>): int;
 }
 
 export type Int64 = Int64$instance & __Int64$views;
 
 
-export class IntPtr$instance {
+export class IntPtr$instance implements IBitwiseOperators_3<CLROf<nint>, CLROf<nint>, CLROf<nint>>, IComparisonOperators_3<CLROf<nint>, CLROf<nint>, CLROf<boolean>>, IEqualityOperators_3<CLROf<nint>, CLROf<nint>, CLROf<boolean>>, IModulusOperators_3<CLROf<nint>, CLROf<nint>, CLROf<nint>>, IAdditionOperators_3<CLROf<nint>, CLROf<nint>, CLROf<nint>>, IDecrementOperators_1<CLROf<nint>>, IDivisionOperators_3<CLROf<nint>, CLROf<nint>, CLROf<nint>>, IIncrementOperators_1<CLROf<nint>>, IMultiplyOperators_3<CLROf<nint>, CLROf<nint>, CLROf<nint>>, ISubtractionOperators_3<CLROf<nint>, CLROf<nint>, CLROf<nint>>, IUnaryPlusOperators_2<CLROf<nint>, CLROf<nint>>, IUnaryNegationOperators_2<CLROf<nint>, CLROf<nint>>, IShiftOperators_3<CLROf<nint>, CLROf<int>, CLROf<nint>> {
     constructor(value: int);
     constructor(value: long);
     constructor(value: ptr<void>);
-    compareTo(value: any): int;
-    compareTo(value: nint): int;
-    equals(obj: any): boolean;
-    equals(other: nint): boolean;
-    getHashCode(): int;
-    toInt32(): int;
-    toInt64(): long;
-    toPointer(): ptr<void>;
-    toString(): string;
-    toString(format: string): string;
-    toString(provider: IFormatProvider): string;
-    toString(format: string, provider: IFormatProvider): string;
-    tryFormat(destination: Span_1<CLROf<string>>, charsWritten: { value: ref<int> }, format?: ReadOnlySpan_1<CLROf<string>>, provider?: IFormatProvider): boolean;
-    tryFormat(utf8Destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }, format?: ReadOnlySpan_1<CLROf<string>>, provider?: IFormatProvider): boolean;
-    static readonly zero: nint;
+    CompareTo(value: unknown): int;
+    CompareTo(value: nint): int;
+    Equals(obj: unknown): boolean;
+    Equals(other: nint): boolean;
+    GetHashCode(): int;
+    ToInt32(): int;
+    ToInt64(): long;
+    ToPointer(): ptr<void>;
+    ToString(): string;
+    ToString(format: string): string;
+    ToString(provider: IFormatProvider): string;
+    ToString(format: string, provider: IFormatProvider): string;
+    TryFormat(destination: Span_1<CLROf<char>>, charsWritten: { value: ref<int> }, format?: ReadOnlySpan_1<CLROf<char>>, provider?: IFormatProvider): boolean;
+    TryFormat(utf8Destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }, format?: ReadOnlySpan_1<CLROf<char>>, provider?: IFormatProvider): boolean;
+    static readonly Zero: nint;
     static readonly Size: int;
     static readonly MaxValue: nint;
     static readonly MinValue: nint;
@@ -2316,8 +2352,8 @@ export class IntPtr$instance {
     static MinMagnitude(x: nint, y: nint): nint;
     static Parse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, style?: NumberStyles, provider?: IFormatProvider): nint;
     static Parse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, provider: IFormatProvider): nint;
-    static Parse(s: ReadOnlySpan_1<CLROf<string>>, style?: NumberStyles, provider?: IFormatProvider): nint;
-    static Parse(s: ReadOnlySpan_1<CLROf<string>>, provider: IFormatProvider): nint;
+    static Parse(s: ReadOnlySpan_1<CLROf<char>>, style?: NumberStyles, provider?: IFormatProvider): nint;
+    static Parse(s: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider): nint;
     static Parse(s: string, style: NumberStyles, provider: IFormatProvider): nint;
     static Parse(s: string, style: NumberStyles): nint;
     static Parse(s: string, provider: IFormatProvider): nint;
@@ -2331,9 +2367,9 @@ export class IntPtr$instance {
     static TryParse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, style: NumberStyles, provider: IFormatProvider, result: { value: ref<nint> }): boolean;
     static TryParse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, provider: IFormatProvider, result: { value: ref<nint> }): boolean;
     static TryParse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, result: { value: ref<nint> }): boolean;
-    static TryParse(s: ReadOnlySpan_1<CLROf<string>>, style: NumberStyles, provider: IFormatProvider, result: { value: ref<nint> }): boolean;
-    static TryParse(s: ReadOnlySpan_1<CLROf<string>>, provider: IFormatProvider, result: { value: ref<nint> }): boolean;
-    static TryParse(s: ReadOnlySpan_1<CLROf<string>>, result: { value: ref<nint> }): boolean;
+    static TryParse(s: ReadOnlySpan_1<CLROf<char>>, style: NumberStyles, provider: IFormatProvider, result: { value: ref<nint> }): boolean;
+    static TryParse(s: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider, result: { value: ref<nint> }): boolean;
+    static TryParse(s: ReadOnlySpan_1<CLROf<char>>, result: { value: ref<nint> }): boolean;
     static TryParse(s: string, style: NumberStyles, provider: IFormatProvider, result: { value: ref<nint> }): boolean;
     static TryParse(s: string, provider: IFormatProvider, result: { value: ref<nint> }): boolean;
     static TryParse(s: string, result: { value: ref<nint> }): boolean;
@@ -2341,28 +2377,32 @@ export class IntPtr$instance {
 
 
 export interface __IntPtr$views {
-    readonly As_IComparable: IComparable$instance;
-    readonly As_IComparable_1_of_Decimal: IComparable_1$instance<CLROf<nint>>;
-    readonly As_IEquatable_1_of_ConsoleKeyInfo: IEquatable_1$instance<CLROf<nint>>;
-    readonly As_IFormattable: IFormattable$instance;
-    readonly As_IParsable_1_of_Decimal: IParsable_1$instance<any>;
-    readonly As_ISpanFormattable: ISpanFormattable$instance;
-    readonly As_ISpanParsable_1_of_Decimal: ISpanParsable_1$instance<any>;
-    readonly As_IUtf8SpanFormattable: IUtf8SpanFormattable$instance;
-    readonly As_IUtf8SpanParsable_1_of_Decimal: IUtf8SpanParsable_1$instance<any>;
-    readonly As_IAdditiveIdentity_2: System_Numerics_Internal.IAdditiveIdentity_2$instance<any, any>;
-    readonly As_IBinaryInteger_1: System_Numerics_Internal.IBinaryInteger_1$instance<any>;
-    readonly As_IMinMaxValue_1: System_Numerics_Internal.IMinMaxValue_1$instance<any>;
-    readonly As_INumber_1: System_Numerics_Internal.INumber_1$instance<any>;
-    readonly As_INumberBase_1: System_Numerics_Internal.INumberBase_1$instance<any>;
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_IComparable(): IComparable$instance;
+    As_IComparable_1(): IComparable_1$instance<CLROf<nint>>;
+    As_IEquatable_1(): IEquatable_1$instance<CLROf<nint>>;
+    As_IFormattable(): IFormattable$instance;
+    As_IParsable_1(): IParsable_1$instance<CLROf<nint>>;
+    As_ISpanFormattable(): ISpanFormattable$instance;
+    As_ISpanParsable_1(): ISpanParsable_1$instance<CLROf<nint>>;
+    As_IUtf8SpanFormattable(): IUtf8SpanFormattable$instance;
+    As_IUtf8SpanParsable_1(): IUtf8SpanParsable_1$instance<CLROf<nint>>;
+    As_IAdditiveIdentity_2(): System_Numerics_Internal.IAdditiveIdentity_2$instance<CLROf<nint>, CLROf<nint>>;
+    As_IBinaryInteger_1(): System_Numerics_Internal.IBinaryInteger_1$instance<CLROf<nint>>;
+    As_IMinMaxValue_1(): System_Numerics_Internal.IMinMaxValue_1$instance<CLROf<nint>>;
+    As_INumber_1(): System_Numerics_Internal.INumber_1$instance<CLROf<nint>>;
+    As_INumberBase_1(): System_Numerics_Internal.INumberBase_1$instance<CLROf<nint>>;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 
     // Structural method bridges for numeric interface constraints
     Equals(other: IntPtr): boolean;
-    CompareTo(obj: any): int;
+    CompareTo(obj: unknown): int;
     ToString(format: string, formatProvider: IFormatProvider): string;
-    TryFormat(destination: Span_1<CLROf<string>>, charsWritten: { value: ref<int> }, format: ReadOnlySpan_1<CLROf<string>>, provider: IFormatProvider): boolean;
+    TryFormat(destination: Span_1<CLROf<char>>, charsWritten: { value: ref<int> }, format: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider): boolean;
     GetByteCount(): int;
+    TryWriteBigEndian(destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
+    WriteBigEndian(destination: byte[], startIndex: int): int;
+    WriteBigEndian(destination: byte[]): int;
+    WriteBigEndian(destination: Span_1<CLROf<byte>>): int;
 }
 
 export type IntPtr = IntPtr$instance & __IntPtr$views;
@@ -2371,25 +2411,25 @@ export type IntPtr = IntPtr$instance & __IntPtr$views;
 export class Memory_1$instance<T> {
     constructor(array: T[]);
     constructor(array: T[], start: int, length: int);
-    readonly isEmpty: boolean;
-    readonly length: int;
-    readonly span: Span_1<T>;
-    copyTo(destination: Memory_1<T>): void;
-    equals(obj: any): boolean;
-    equals(other: Memory_1<T>): boolean;
-    getHashCode(): int;
-    pin(): MemoryHandle;
-    slice(start: int): Memory_1<T>;
-    slice(start: int, length: int): Memory_1<T>;
-    toArray(): T[];
-    toString(): string;
-    tryCopyTo(destination: Memory_1<T>): boolean;
+    readonly IsEmpty: boolean;
+    readonly Length: int;
+    readonly Span: Span_1<T>;
+    CopyTo(destination: Memory_1<T>): void;
+    Equals(obj: unknown): boolean;
+    Equals(other: Memory_1<T>): boolean;
+    GetHashCode(): int;
+    Pin(): MemoryHandle;
+    Slice(start: int): Memory_1<T>;
+    Slice(start: int, length: int): Memory_1<T>;
+    ToArray(): T[];
+    ToString(): string;
+    TryCopyTo(destination: Memory_1<T>): boolean;
     static readonly Empty: unknown;
 }
 
 
 export interface __Memory_1$views<T> {
-    readonly As_IEquatable_1_of_ConsoleKeyInfo: IEquatable_1$instance<Memory_1<T>>;
+    As_IEquatable_1(): IEquatable_1$instance<Memory_1<T>>;
 
     // Structural method bridges for numeric interface constraints
     Equals(other: Memory_1<T>): boolean;
@@ -2399,60 +2439,60 @@ export type Memory_1<T> = Memory_1$instance<T> & __Memory_1$views<T>;
 
 
 export class MemoryExtensions_SpanSplitEnumerator_1$instance<T extends IEquatable_1<T>> {
-    readonly current: Range;
-    readonly source: ReadOnlySpan_1<T>;
-    getEnumerator(): MemoryExtensions_SpanSplitEnumerator_1<T>;
-    moveNext(): boolean;
+    readonly Current: Range;
+    readonly Source: ReadOnlySpan_1<T>;
+    GetEnumerator(): MemoryExtensions_SpanSplitEnumerator_1<T>;
+    MoveNext(): boolean;
 }
 
 
 export interface __MemoryExtensions_SpanSplitEnumerator_1$views<T extends IEquatable_1<T>> {
-    readonly As_IEnumerator_1: System_Collections_Generic_Internal.IEnumerator_1$instance<Range>;
-    readonly As_IEnumerator: System_Collections_Internal.IEnumerator$instance;
-    readonly As_IDisposable: IDisposable$instance;
+    As_IEnumerator_1(): System_Collections_Generic_Internal.IEnumerator_1$instance<Range>;
+    As_IEnumerator(): System_Collections_Internal.IEnumerator$instance;
+    As_IDisposable(): IDisposable$instance;
 }
 
 export type MemoryExtensions_SpanSplitEnumerator_1<T extends IEquatable_1<T>> = MemoryExtensions_SpanSplitEnumerator_1$instance<T> & __MemoryExtensions_SpanSplitEnumerator_1$views<T>;
 
 
 export class MemoryExtensions_TryWriteInterpolatedStringHandler$instance {
-    constructor(literalLength: int, formattedCount: int, destination: Span_1<CLROf<string>>, shouldAppend: ref<boolean>);
-    constructor(literalLength: int, formattedCount: int, destination: Span_1<CLROf<string>>, provider: IFormatProvider, shouldAppend: ref<boolean>);
-    appendFormatted<T>(value: T): boolean;
-    appendFormatted<T>(value: T, format: string): boolean;
-    appendFormatted<T>(value: T, alignment: int): boolean;
-    appendFormatted<T>(value: T, alignment: int, format: string): boolean;
-    appendFormatted(value: ReadOnlySpan_1<CLROf<string>>): boolean;
-    appendFormatted(value: ReadOnlySpan_1<CLROf<string>>, alignment?: int, format?: string): boolean;
-    appendFormatted(value: string): boolean;
-    appendFormatted(value: string, alignment?: int, format?: string): boolean;
-    appendFormatted(value: any, alignment?: int, format?: string): boolean;
-    appendLiteral(value: string): boolean;
+    constructor(literalLength: int, formattedCount: int, destination: Span_1<CLROf<char>>, shouldAppend: ref<boolean>);
+    constructor(literalLength: int, formattedCount: int, destination: Span_1<CLROf<char>>, provider: IFormatProvider, shouldAppend: ref<boolean>);
+    AppendFormatted<T>(value: T): boolean;
+    AppendFormatted<T>(value: T, format: string): boolean;
+    AppendFormatted<T>(value: T, alignment: int): boolean;
+    AppendFormatted<T>(value: T, alignment: int, format: string): boolean;
+    AppendFormatted(value: ReadOnlySpan_1<CLROf<char>>): boolean;
+    AppendFormatted(value: ReadOnlySpan_1<CLROf<char>>, alignment?: int, format?: string): boolean;
+    AppendFormatted(value: string): boolean;
+    AppendFormatted(value: string, alignment?: int, format?: string): boolean;
+    AppendFormatted(value: unknown, alignment?: int, format?: string): boolean;
+    AppendLiteral(value: string): boolean;
 }
 
 
 export type MemoryExtensions_TryWriteInterpolatedStringHandler = MemoryExtensions_TryWriteInterpolatedStringHandler$instance;
 
 export class ModuleHandle$instance {
-    readonly mdStreamVersion: int;
-    equals(obj: any): boolean;
-    equals(handle: ModuleHandle): boolean;
-    getHashCode(): int;
-    getRuntimeFieldHandleFromMetadataToken(fieldToken: int): RuntimeFieldHandle;
-    getRuntimeMethodHandleFromMetadataToken(methodToken: int): RuntimeMethodHandle;
-    getRuntimeTypeHandleFromMetadataToken(typeToken: int): RuntimeTypeHandle;
-    resolveFieldHandle(fieldToken: int): RuntimeFieldHandle;
-    resolveFieldHandle(fieldToken: int, typeInstantiationContext: RuntimeTypeHandle[], methodInstantiationContext: RuntimeTypeHandle[]): RuntimeFieldHandle;
-    resolveMethodHandle(methodToken: int): RuntimeMethodHandle;
-    resolveMethodHandle(methodToken: int, typeInstantiationContext: RuntimeTypeHandle[], methodInstantiationContext: RuntimeTypeHandle[]): RuntimeMethodHandle;
-    resolveTypeHandle(typeToken: int): RuntimeTypeHandle;
-    resolveTypeHandle(typeToken: int, typeInstantiationContext: RuntimeTypeHandle[], methodInstantiationContext: RuntimeTypeHandle[]): RuntimeTypeHandle;
-    static readonly emptyHandle: ModuleHandle;
+    readonly MDStreamVersion: int;
+    Equals(obj: unknown): boolean;
+    Equals(handle: ModuleHandle): boolean;
+    GetHashCode(): int;
+    GetRuntimeFieldHandleFromMetadataToken(fieldToken: int): RuntimeFieldHandle;
+    GetRuntimeMethodHandleFromMetadataToken(methodToken: int): RuntimeMethodHandle;
+    GetRuntimeTypeHandleFromMetadataToken(typeToken: int): RuntimeTypeHandle;
+    ResolveFieldHandle(fieldToken: int): RuntimeFieldHandle;
+    ResolveFieldHandle(fieldToken: int, typeInstantiationContext: RuntimeTypeHandle[], methodInstantiationContext: RuntimeTypeHandle[]): RuntimeFieldHandle;
+    ResolveMethodHandle(methodToken: int): RuntimeMethodHandle;
+    ResolveMethodHandle(methodToken: int, typeInstantiationContext: RuntimeTypeHandle[], methodInstantiationContext: RuntimeTypeHandle[]): RuntimeMethodHandle;
+    ResolveTypeHandle(typeToken: int): RuntimeTypeHandle;
+    ResolveTypeHandle(typeToken: int, typeInstantiationContext: RuntimeTypeHandle[], methodInstantiationContext: RuntimeTypeHandle[]): RuntimeTypeHandle;
+    static readonly EmptyHandle: ModuleHandle;
 }
 
 
 export interface __ModuleHandle$views {
-    readonly As_IEquatable_1_of_ConsoleKeyInfo: IEquatable_1$instance<ModuleHandle>;
+    As_IEquatable_1(): IEquatable_1$instance<ModuleHandle>;
 
     // Structural method bridges for numeric interface constraints
     Equals(other: ModuleHandle): boolean;
@@ -2461,15 +2501,15 @@ export interface __ModuleHandle$views {
 export type ModuleHandle = ModuleHandle$instance & __ModuleHandle$views;
 
 
-export class Nullable_1$instance<T extends any> {
+export class Nullable_1$instance<T extends unknown> {
     constructor(value: T);
-    readonly hasValue: boolean;
-    readonly value: T;
-    equals(other: any): boolean;
-    getHashCode(): int;
-    getValueOrDefault(): T;
-    getValueOrDefault(defaultValue: T): T;
-    toString(): string;
+    readonly HasValue: boolean;
+    readonly Value: T;
+    Equals(other: unknown): boolean;
+    GetHashCode(): int;
+    GetValueOrDefault(): T;
+    GetValueOrDefault(defaultValue: T): T;
+    ToString(): string;
 }
 
 
@@ -2477,13 +2517,13 @@ export type Nullable_1<T> = Nullable_1$instance<T>;
 
 export class Range$instance {
     constructor(start: Index, end: Index);
-    readonly end: Index;
-    readonly start: Index;
-    equals(value: any): boolean;
-    equals(other: Range): boolean;
-    getHashCode(): int;
-    getOffsetAndLength(length: int): ValueTuple_2<CLROf<int>, CLROf<int>>;
-    toString(): string;
+    readonly End: Index;
+    readonly Start: Index;
+    Equals(value: unknown): boolean;
+    Equals(other: Range): boolean;
+    GetHashCode(): int;
+    GetOffsetAndLength(length: int): ValueTuple_2<CLROf<int>, CLROf<int>>;
+    ToString(): string;
     static readonly All: Range;
     static EndAt(end: Index): Range;
     static StartAt(start: Index): Range;
@@ -2491,7 +2531,7 @@ export class Range$instance {
 
 
 export interface __Range$views {
-    readonly As_IEquatable_1_of_ConsoleKeyInfo: IEquatable_1$instance<Range>;
+    As_IEquatable_1(): IEquatable_1$instance<Range>;
 
     // Structural method bridges for numeric interface constraints
     Equals(other: Range): boolean;
@@ -2503,25 +2543,25 @@ export type Range = Range$instance & __Range$views;
 export class ReadOnlyMemory_1$instance<T> {
     constructor(array: T[]);
     constructor(array: T[], start: int, length: int);
-    readonly isEmpty: boolean;
-    readonly length: int;
-    readonly span: ReadOnlySpan_1<T>;
-    copyTo(destination: Memory_1<T>): void;
-    equals(obj: any): boolean;
-    equals(other: ReadOnlyMemory_1<T>): boolean;
-    getHashCode(): int;
-    pin(): MemoryHandle;
-    slice(start: int): ReadOnlyMemory_1<T>;
-    slice(start: int, length: int): ReadOnlyMemory_1<T>;
-    toArray(): T[];
-    toString(): string;
-    tryCopyTo(destination: Memory_1<T>): boolean;
+    readonly IsEmpty: boolean;
+    readonly Length: int;
+    readonly Span: ReadOnlySpan_1<T>;
+    CopyTo(destination: Memory_1<T>): void;
+    Equals(obj: unknown): boolean;
+    Equals(other: ReadOnlyMemory_1<T>): boolean;
+    GetHashCode(): int;
+    Pin(): MemoryHandle;
+    Slice(start: int): ReadOnlyMemory_1<T>;
+    Slice(start: int, length: int): ReadOnlyMemory_1<T>;
+    ToArray(): T[];
+    ToString(): string;
+    TryCopyTo(destination: Memory_1<T>): boolean;
     static readonly Empty: unknown;
 }
 
 
 export interface __ReadOnlyMemory_1$views<T> {
-    readonly As_IEquatable_1_of_ConsoleKeyInfo: IEquatable_1$instance<ReadOnlyMemory_1<T>>;
+    As_IEquatable_1(): IEquatable_1$instance<ReadOnlyMemory_1<T>>;
 
     // Structural method bridges for numeric interface constraints
     Equals(other: ReadOnlyMemory_1<T>): boolean;
@@ -2535,19 +2575,19 @@ export class ReadOnlySpan_1$instance<T> {
     constructor(array: T[], start: int, length: int);
     constructor(pointer: ptr<void>, length: int);
     constructor(reference: ref<T>);
-    readonly isEmpty: boolean;
-    readonly item: ref<T>;
-    readonly length: int;
-    copyTo(destination: Span_1<T>): void;
-    equals(obj: any): boolean;
-    getEnumerator(): ReadOnlySpan_1_Enumerator<T>;
-    getHashCode(): int;
-    getPinnableReference(): ref<T>;
-    slice(start: int): ReadOnlySpan_1<T>;
-    slice(start: int, length: int): ReadOnlySpan_1<T>;
-    toArray(): T[];
-    toString(): string;
-    tryCopyTo(destination: Span_1<T>): boolean;
+    readonly IsEmpty: boolean;
+    readonly Item: ref<T>;
+    readonly Length: int;
+    CopyTo(destination: Span_1<T>): void;
+    Equals(obj: unknown): boolean;
+    GetEnumerator(): ReadOnlySpan_1_Enumerator<T>;
+    GetHashCode(): int;
+    GetPinnableReference(): ref<T>;
+    Slice(start: int): ReadOnlySpan_1<T>;
+    Slice(start: int, length: int): ReadOnlySpan_1<T>;
+    ToArray(): T[];
+    ToString(): string;
+    TryCopyTo(destination: Span_1<T>): boolean;
     static readonly Empty: unknown;
     static CastUp<T, TDerived extends T>(items: ReadOnlySpan_1<TDerived>): ReadOnlySpan_1<T>;
 }
@@ -2556,15 +2596,15 @@ export class ReadOnlySpan_1$instance<T> {
 export type ReadOnlySpan_1<T> = ReadOnlySpan_1$instance<T>;
 
 export class ReadOnlySpan_1_Enumerator$instance<T> {
-    readonly current: ref<T>;
-    moveNext(): boolean;
+    readonly Current: ref<T>;
+    MoveNext(): boolean;
 }
 
 
 export interface __ReadOnlySpan_1_Enumerator$views<T> {
-    readonly As_IEnumerator_1: System_Collections_Generic_Internal.IEnumerator_1$instance<T>;
-    readonly As_IEnumerator: System_Collections_Internal.IEnumerator$instance;
-    readonly As_IDisposable: IDisposable$instance;
+    As_IEnumerator_1(): System_Collections_Generic_Internal.IEnumerator_1$instance<T>;
+    As_IEnumerator(): System_Collections_Internal.IEnumerator$instance;
+    As_IDisposable(): IDisposable$instance;
 }
 
 export type ReadOnlySpan_1_Enumerator<T> = ReadOnlySpan_1_Enumerator$instance<T> & __ReadOnlySpan_1_Enumerator$views<T>;
@@ -2577,19 +2617,19 @@ export class RuntimeArgumentHandle$instance {
 export type RuntimeArgumentHandle = RuntimeArgumentHandle$instance;
 
 export class RuntimeFieldHandle$instance {
-    readonly value: nint;
-    equals(obj: any): boolean;
-    equals(handle: RuntimeFieldHandle): boolean;
-    getHashCode(): int;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
+    readonly Value: nint;
+    Equals(obj: unknown): boolean;
+    Equals(handle: RuntimeFieldHandle): boolean;
+    GetHashCode(): int;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
     static FromIntPtr(value: nint): RuntimeFieldHandle;
     static ToIntPtr(value: RuntimeFieldHandle): nint;
 }
 
 
 export interface __RuntimeFieldHandle$views {
-    readonly As_IEquatable_1_of_ConsoleKeyInfo: IEquatable_1$instance<RuntimeFieldHandle>;
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_IEquatable_1(): IEquatable_1$instance<RuntimeFieldHandle>;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 
     // Structural method bridges for numeric interface constraints
     Equals(other: RuntimeFieldHandle): boolean;
@@ -2599,20 +2639,20 @@ export type RuntimeFieldHandle = RuntimeFieldHandle$instance & __RuntimeFieldHan
 
 
 export class RuntimeMethodHandle$instance {
-    readonly value: nint;
-    equals(obj: any): boolean;
-    equals(handle: RuntimeMethodHandle): boolean;
-    getFunctionPointer(): nint;
-    getHashCode(): int;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
+    readonly Value: nint;
+    Equals(obj: unknown): boolean;
+    Equals(handle: RuntimeMethodHandle): boolean;
+    GetFunctionPointer(): nint;
+    GetHashCode(): int;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
     static FromIntPtr(value: nint): RuntimeMethodHandle;
     static ToIntPtr(value: RuntimeMethodHandle): nint;
 }
 
 
 export interface __RuntimeMethodHandle$views {
-    readonly As_IEquatable_1_of_ConsoleKeyInfo: IEquatable_1$instance<RuntimeMethodHandle>;
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_IEquatable_1(): IEquatable_1$instance<RuntimeMethodHandle>;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 
     // Structural method bridges for numeric interface constraints
     Equals(other: RuntimeMethodHandle): boolean;
@@ -2622,20 +2662,20 @@ export type RuntimeMethodHandle = RuntimeMethodHandle$instance & __RuntimeMethod
 
 
 export class RuntimeTypeHandle$instance {
-    readonly value: nint;
-    equals(obj: any): boolean;
-    equals(handle: RuntimeTypeHandle): boolean;
-    getHashCode(): int;
-    getModuleHandle(): ModuleHandle;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
+    readonly Value: nint;
+    Equals(obj: unknown): boolean;
+    Equals(handle: RuntimeTypeHandle): boolean;
+    GetHashCode(): int;
+    GetModuleHandle(): ModuleHandle;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
     static FromIntPtr(value: nint): RuntimeTypeHandle;
     static ToIntPtr(value: RuntimeTypeHandle): nint;
 }
 
 
 export interface __RuntimeTypeHandle$views {
-    readonly As_IEquatable_1_of_ConsoleKeyInfo: IEquatable_1$instance<RuntimeTypeHandle>;
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_IEquatable_1(): IEquatable_1$instance<RuntimeTypeHandle>;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 
     // Structural method bridges for numeric interface constraints
     Equals(other: RuntimeTypeHandle): boolean;
@@ -2644,19 +2684,19 @@ export interface __RuntimeTypeHandle$views {
 export type RuntimeTypeHandle = RuntimeTypeHandle$instance & __RuntimeTypeHandle$views;
 
 
-export class SByte$instance {
-    compareTo(obj: any): int;
-    compareTo(value: sbyte): int;
-    equals(obj: any): boolean;
-    equals(obj: sbyte): boolean;
-    getHashCode(): int;
-    getTypeCode(): TypeCode;
-    toString(): string;
-    toString(format: string): string;
-    toString(provider: IFormatProvider): string;
-    toString(format: string, provider: IFormatProvider): string;
-    tryFormat(destination: Span_1<CLROf<string>>, charsWritten: { value: ref<int> }, format?: ReadOnlySpan_1<CLROf<string>>, provider?: IFormatProvider): boolean;
-    tryFormat(utf8Destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }, format?: ReadOnlySpan_1<CLROf<string>>, provider?: IFormatProvider): boolean;
+export class SByte$instance implements IBitwiseOperators_3<CLROf<sbyte>, CLROf<sbyte>, CLROf<sbyte>>, IComparisonOperators_3<CLROf<sbyte>, CLROf<sbyte>, CLROf<boolean>>, IEqualityOperators_3<CLROf<sbyte>, CLROf<sbyte>, CLROf<boolean>>, IModulusOperators_3<CLROf<sbyte>, CLROf<sbyte>, CLROf<sbyte>>, IAdditionOperators_3<CLROf<sbyte>, CLROf<sbyte>, CLROf<sbyte>>, IDecrementOperators_1<CLROf<sbyte>>, IDivisionOperators_3<CLROf<sbyte>, CLROf<sbyte>, CLROf<sbyte>>, IIncrementOperators_1<CLROf<sbyte>>, IMultiplyOperators_3<CLROf<sbyte>, CLROf<sbyte>, CLROf<sbyte>>, ISubtractionOperators_3<CLROf<sbyte>, CLROf<sbyte>, CLROf<sbyte>>, IUnaryPlusOperators_2<CLROf<sbyte>, CLROf<sbyte>>, IUnaryNegationOperators_2<CLROf<sbyte>, CLROf<sbyte>>, IShiftOperators_3<CLROf<sbyte>, CLROf<int>, CLROf<sbyte>> {
+    CompareTo(obj: unknown): int;
+    CompareTo(value: sbyte): int;
+    Equals(obj: unknown): boolean;
+    Equals(obj: sbyte): boolean;
+    GetHashCode(): int;
+    GetTypeCode(): TypeCode;
+    ToString(): string;
+    ToString(format: string): string;
+    ToString(provider: IFormatProvider): string;
+    ToString(format: string, provider: IFormatProvider): string;
+    TryFormat(destination: Span_1<CLROf<char>>, charsWritten: { value: ref<int> }, format?: ReadOnlySpan_1<CLROf<char>>, provider?: IFormatProvider): boolean;
+    TryFormat(utf8Destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }, format?: ReadOnlySpan_1<CLROf<char>>, provider?: IFormatProvider): boolean;
     static readonly MaxValue: sbyte;
     static readonly MinValue: sbyte;
     static Abs(value: sbyte): sbyte;
@@ -2679,8 +2719,8 @@ export class SByte$instance {
     static MinMagnitude(x: sbyte, y: sbyte): sbyte;
     static Parse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, style?: NumberStyles, provider?: IFormatProvider): sbyte;
     static Parse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, provider: IFormatProvider): sbyte;
-    static Parse(s: ReadOnlySpan_1<CLROf<string>>, style?: NumberStyles, provider?: IFormatProvider): sbyte;
-    static Parse(s: ReadOnlySpan_1<CLROf<string>>, provider: IFormatProvider): sbyte;
+    static Parse(s: ReadOnlySpan_1<CLROf<char>>, style?: NumberStyles, provider?: IFormatProvider): sbyte;
+    static Parse(s: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider): sbyte;
     static Parse(s: string, style: NumberStyles, provider: IFormatProvider): sbyte;
     static Parse(s: string, style: NumberStyles): sbyte;
     static Parse(s: string, provider: IFormatProvider): sbyte;
@@ -2693,9 +2733,9 @@ export class SByte$instance {
     static TryParse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, style: NumberStyles, provider: IFormatProvider, result: { value: ref<sbyte> }): boolean;
     static TryParse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, provider: IFormatProvider, result: { value: ref<sbyte> }): boolean;
     static TryParse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, result: { value: ref<sbyte> }): boolean;
-    static TryParse(s: ReadOnlySpan_1<CLROf<string>>, style: NumberStyles, provider: IFormatProvider, result: { value: ref<sbyte> }): boolean;
-    static TryParse(s: ReadOnlySpan_1<CLROf<string>>, provider: IFormatProvider, result: { value: ref<sbyte> }): boolean;
-    static TryParse(s: ReadOnlySpan_1<CLROf<string>>, result: { value: ref<sbyte> }): boolean;
+    static TryParse(s: ReadOnlySpan_1<CLROf<char>>, style: NumberStyles, provider: IFormatProvider, result: { value: ref<sbyte> }): boolean;
+    static TryParse(s: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider, result: { value: ref<sbyte> }): boolean;
+    static TryParse(s: ReadOnlySpan_1<CLROf<char>>, result: { value: ref<sbyte> }): boolean;
     static TryParse(s: string, style: NumberStyles, provider: IFormatProvider, result: { value: ref<sbyte> }): boolean;
     static TryParse(s: string, provider: IFormatProvider, result: { value: ref<sbyte> }): boolean;
     static TryParse(s: string, result: { value: ref<sbyte> }): boolean;
@@ -2703,45 +2743,49 @@ export class SByte$instance {
 
 
 export interface __SByte$views {
-    readonly As_IComparable: IComparable$instance;
-    readonly As_IComparable_1_of_Decimal: IComparable_1$instance<CLROf<sbyte>>;
-    readonly As_IConvertible: IConvertible$instance;
-    readonly As_IEquatable_1_of_ConsoleKeyInfo: IEquatable_1$instance<CLROf<sbyte>>;
-    readonly As_IFormattable: IFormattable$instance;
-    readonly As_IParsable_1_of_Decimal: IParsable_1$instance<any>;
-    readonly As_ISpanFormattable: ISpanFormattable$instance;
-    readonly As_ISpanParsable_1_of_Decimal: ISpanParsable_1$instance<any>;
-    readonly As_IUtf8SpanFormattable: IUtf8SpanFormattable$instance;
-    readonly As_IUtf8SpanParsable_1_of_Decimal: IUtf8SpanParsable_1$instance<any>;
-    readonly As_IAdditiveIdentity_2: System_Numerics_Internal.IAdditiveIdentity_2$instance<any, any>;
-    readonly As_IBinaryInteger_1: System_Numerics_Internal.IBinaryInteger_1$instance<any>;
-    readonly As_IMinMaxValue_1: System_Numerics_Internal.IMinMaxValue_1$instance<any>;
-    readonly As_INumber_1: System_Numerics_Internal.INumber_1$instance<any>;
-    readonly As_INumberBase_1: System_Numerics_Internal.INumberBase_1$instance<any>;
+    As_IComparable(): IComparable$instance;
+    As_IComparable_1(): IComparable_1$instance<CLROf<sbyte>>;
+    As_IConvertible(): IConvertible$instance;
+    As_IEquatable_1(): IEquatable_1$instance<CLROf<sbyte>>;
+    As_IFormattable(): IFormattable$instance;
+    As_IParsable_1(): IParsable_1$instance<CLROf<sbyte>>;
+    As_ISpanFormattable(): ISpanFormattable$instance;
+    As_ISpanParsable_1(): ISpanParsable_1$instance<CLROf<sbyte>>;
+    As_IUtf8SpanFormattable(): IUtf8SpanFormattable$instance;
+    As_IUtf8SpanParsable_1(): IUtf8SpanParsable_1$instance<CLROf<sbyte>>;
+    As_IAdditiveIdentity_2(): System_Numerics_Internal.IAdditiveIdentity_2$instance<CLROf<sbyte>, CLROf<sbyte>>;
+    As_IBinaryInteger_1(): System_Numerics_Internal.IBinaryInteger_1$instance<CLROf<sbyte>>;
+    As_IMinMaxValue_1(): System_Numerics_Internal.IMinMaxValue_1$instance<CLROf<sbyte>>;
+    As_INumber_1(): System_Numerics_Internal.INumber_1$instance<CLROf<sbyte>>;
+    As_INumberBase_1(): System_Numerics_Internal.INumberBase_1$instance<CLROf<sbyte>>;
 
     // Structural method bridges for numeric interface constraints
     Equals(other: SByte): boolean;
-    CompareTo(obj: any): int;
+    CompareTo(obj: unknown): int;
     ToString(format: string, formatProvider: IFormatProvider): string;
-    TryFormat(destination: Span_1<CLROf<string>>, charsWritten: { value: ref<int> }, format: ReadOnlySpan_1<CLROf<string>>, provider: IFormatProvider): boolean;
+    TryFormat(destination: Span_1<CLROf<char>>, charsWritten: { value: ref<int> }, format: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider): boolean;
     GetByteCount(): int;
+    TryWriteBigEndian(destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
+    WriteBigEndian(destination: byte[], startIndex: int): int;
+    WriteBigEndian(destination: byte[]): int;
+    WriteBigEndian(destination: Span_1<CLROf<byte>>): int;
 }
 
 export type SByte = SByte$instance & __SByte$views;
 
 
 export class SequencePosition$instance {
-    constructor(object_: any, integer: int);
-    equals(other: SequencePosition): boolean;
-    equals(obj: any): boolean;
-    getHashCode(): int;
-    getInteger(): int;
-    getObject(): any;
+    constructor(object_: unknown, integer: int);
+    Equals(other: SequencePosition): boolean;
+    Equals(obj: unknown): boolean;
+    GetHashCode(): int;
+    GetInteger(): int;
+    GetObject(): unknown;
 }
 
 
 export interface __SequencePosition$views {
-    readonly As_IEquatable_1_of_ConsoleKeyInfo: IEquatable_1$instance<SequencePosition>;
+    As_IEquatable_1(): IEquatable_1$instance<SequencePosition>;
 
     // Structural method bridges for numeric interface constraints
     Equals(other: SequencePosition): boolean;
@@ -2750,19 +2794,19 @@ export interface __SequencePosition$views {
 export type SequencePosition = SequencePosition$instance & __SequencePosition$views;
 
 
-export class Single$instance {
-    compareTo(value: any): int;
-    compareTo(value: float): int;
-    equals(obj: any): boolean;
-    equals(obj: float): boolean;
-    getHashCode(): int;
-    getTypeCode(): TypeCode;
-    toString(): string;
-    toString(provider: IFormatProvider): string;
-    toString(format: string): string;
-    toString(format: string, provider: IFormatProvider): string;
-    tryFormat(destination: Span_1<CLROf<string>>, charsWritten: { value: ref<int> }, format?: ReadOnlySpan_1<CLROf<string>>, provider?: IFormatProvider): boolean;
-    tryFormat(utf8Destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }, format?: ReadOnlySpan_1<CLROf<string>>, provider?: IFormatProvider): boolean;
+export class Single$instance implements IBitwiseOperators_3<CLROf<float>, CLROf<float>, CLROf<float>>, IComparisonOperators_3<CLROf<float>, CLROf<float>, CLROf<boolean>>, IEqualityOperators_3<CLROf<float>, CLROf<float>, CLROf<boolean>>, IModulusOperators_3<CLROf<float>, CLROf<float>, CLROf<float>>, IAdditionOperators_3<CLROf<float>, CLROf<float>, CLROf<float>>, IDecrementOperators_1<CLROf<float>>, IDivisionOperators_3<CLROf<float>, CLROf<float>, CLROf<float>>, IIncrementOperators_1<CLROf<float>>, IMultiplyOperators_3<CLROf<float>, CLROf<float>, CLROf<float>>, ISubtractionOperators_3<CLROf<float>, CLROf<float>, CLROf<float>>, IUnaryPlusOperators_2<CLROf<float>, CLROf<float>>, IUnaryNegationOperators_2<CLROf<float>, CLROf<float>> {
+    CompareTo(value: unknown): int;
+    CompareTo(value: float): int;
+    Equals(obj: unknown): boolean;
+    Equals(obj: float): boolean;
+    GetHashCode(): int;
+    GetTypeCode(): TypeCode;
+    ToString(): string;
+    ToString(provider: IFormatProvider): string;
+    ToString(format: string): string;
+    ToString(format: string, provider: IFormatProvider): string;
+    TryFormat(destination: Span_1<CLROf<char>>, charsWritten: { value: ref<int> }, format?: ReadOnlySpan_1<CLROf<char>>, provider?: IFormatProvider): boolean;
+    TryFormat(utf8Destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }, format?: ReadOnlySpan_1<CLROf<char>>, provider?: IFormatProvider): boolean;
     static readonly MinValue: float;
     static readonly MaxValue: float;
     static readonly Epsilon: float;
@@ -2847,8 +2891,8 @@ export class Single$instance {
     static MultiplyAddEstimate(left: float, right: float, addend: float): float;
     static Parse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, style?: NumberStyles, provider?: IFormatProvider): float;
     static Parse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, provider: IFormatProvider): float;
-    static Parse(s: ReadOnlySpan_1<CLROf<string>>, style?: NumberStyles, provider?: IFormatProvider): float;
-    static Parse(s: ReadOnlySpan_1<CLROf<string>>, provider: IFormatProvider): float;
+    static Parse(s: ReadOnlySpan_1<CLROf<char>>, style?: NumberStyles, provider?: IFormatProvider): float;
+    static Parse(s: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider): float;
     static Parse(s: string, style: NumberStyles, provider: IFormatProvider): float;
     static Parse(s: string, style: NumberStyles): float;
     static Parse(s: string, provider: IFormatProvider): float;
@@ -2877,9 +2921,9 @@ export class Single$instance {
     static TryParse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, style: NumberStyles, provider: IFormatProvider, result: { value: ref<float> }): boolean;
     static TryParse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, provider: IFormatProvider, result: { value: ref<float> }): boolean;
     static TryParse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, result: { value: ref<float> }): boolean;
-    static TryParse(s: ReadOnlySpan_1<CLROf<string>>, style: NumberStyles, provider: IFormatProvider, result: { value: ref<float> }): boolean;
-    static TryParse(s: ReadOnlySpan_1<CLROf<string>>, provider: IFormatProvider, result: { value: ref<float> }): boolean;
-    static TryParse(s: ReadOnlySpan_1<CLROf<string>>, result: { value: ref<float> }): boolean;
+    static TryParse(s: ReadOnlySpan_1<CLROf<char>>, style: NumberStyles, provider: IFormatProvider, result: { value: ref<float> }): boolean;
+    static TryParse(s: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider, result: { value: ref<float> }): boolean;
+    static TryParse(s: ReadOnlySpan_1<CLROf<char>>, result: { value: ref<float> }): boolean;
     static TryParse(s: string, style: NumberStyles, provider: IFormatProvider, result: { value: ref<float> }): boolean;
     static TryParse(s: string, provider: IFormatProvider, result: { value: ref<float> }): boolean;
     static TryParse(s: string, result: { value: ref<float> }): boolean;
@@ -2887,31 +2931,35 @@ export class Single$instance {
 
 
 export interface __Single$views {
-    readonly As_IComparable: IComparable$instance;
-    readonly As_IComparable_1_of_Decimal: IComparable_1$instance<CLROf<float>>;
-    readonly As_IConvertible: IConvertible$instance;
-    readonly As_IEquatable_1_of_ConsoleKeyInfo: IEquatable_1$instance<CLROf<float>>;
-    readonly As_IFormattable: IFormattable$instance;
-    readonly As_IParsable_1_of_Decimal: IParsable_1$instance<any>;
-    readonly As_ISpanFormattable: ISpanFormattable$instance;
-    readonly As_ISpanParsable_1_of_Decimal: ISpanParsable_1$instance<any>;
-    readonly As_IUtf8SpanFormattable: IUtf8SpanFormattable$instance;
-    readonly As_IUtf8SpanParsable_1_of_Decimal: IUtf8SpanParsable_1$instance<any>;
-    readonly As_IAdditiveIdentity_2: System_Numerics_Internal.IAdditiveIdentity_2$instance<any, any>;
-    readonly As_IFloatingPoint_1: System_Numerics_Internal.IFloatingPoint_1$instance<any>;
-    readonly As_IMinMaxValue_1: System_Numerics_Internal.IMinMaxValue_1$instance<any>;
-    readonly As_INumber_1: System_Numerics_Internal.INumber_1$instance<any>;
-    readonly As_INumberBase_1: System_Numerics_Internal.INumberBase_1$instance<any>;
-    readonly As_IRootFunctions_1: System_Numerics_Internal.IRootFunctions_1$instance<CLROf<float>>;
-    readonly As_ITrigonometricFunctions_1_of_Double: System_Numerics_Internal.ITrigonometricFunctions_1$instance<CLROf<float>>;
+    As_IComparable(): IComparable$instance;
+    As_IComparable_1(): IComparable_1$instance<CLROf<float>>;
+    As_IConvertible(): IConvertible$instance;
+    As_IEquatable_1(): IEquatable_1$instance<CLROf<float>>;
+    As_IFormattable(): IFormattable$instance;
+    As_IParsable_1(): IParsable_1$instance<CLROf<float>>;
+    As_ISpanFormattable(): ISpanFormattable$instance;
+    As_ISpanParsable_1(): ISpanParsable_1$instance<CLROf<float>>;
+    As_IUtf8SpanFormattable(): IUtf8SpanFormattable$instance;
+    As_IUtf8SpanParsable_1(): IUtf8SpanParsable_1$instance<CLROf<float>>;
+    As_IAdditiveIdentity_2(): System_Numerics_Internal.IAdditiveIdentity_2$instance<CLROf<float>, CLROf<float>>;
+    As_IFloatingPoint_1(): System_Numerics_Internal.IFloatingPoint_1$instance<CLROf<float>>;
+    As_IMinMaxValue_1(): System_Numerics_Internal.IMinMaxValue_1$instance<CLROf<float>>;
+    As_INumber_1(): System_Numerics_Internal.INumber_1$instance<CLROf<float>>;
+    As_INumberBase_1(): System_Numerics_Internal.INumberBase_1$instance<CLROf<float>>;
+    As_IRootFunctions_1(): System_Numerics_Internal.IRootFunctions_1$instance<CLROf<float>>;
+    As_ITrigonometricFunctions_1(): System_Numerics_Internal.ITrigonometricFunctions_1$instance<CLROf<float>>;
 
     // Structural method bridges for numeric interface constraints
     Equals(other: Single): boolean;
-    CompareTo(obj: any): int;
+    CompareTo(obj: unknown): int;
     ToString(format: string, formatProvider: IFormatProvider): string;
-    TryFormat(destination: Span_1<CLROf<string>>, charsWritten: { value: ref<int> }, format: ReadOnlySpan_1<CLROf<string>>, provider: IFormatProvider): boolean;
+    TryFormat(destination: Span_1<CLROf<char>>, charsWritten: { value: ref<int> }, format: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider): boolean;
     GetExponentByteCount(): int;
     GetExponentShortestBitLength(): int;
+    TryWriteExponentBigEndian(destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
+    WriteExponentBigEndian(destination: byte[], startIndex: int): int;
+    WriteExponentBigEndian(destination: byte[]): int;
+    WriteExponentBigEndian(destination: Span_1<CLROf<byte>>): int;
 }
 
 export type Single = Single$instance & __Single$views;
@@ -2922,21 +2970,21 @@ export class Span_1$instance<T> {
     constructor(array: T[], start: int, length: int);
     constructor(pointer: ptr<void>, length: int);
     constructor(reference: ref<T>);
-    readonly isEmpty: boolean;
-    readonly item: ref<T>;
-    readonly length: int;
-    clear(): void;
-    copyTo(destination: Span_1<T>): void;
-    equals(obj: any): boolean;
-    fill(value: T): void;
-    getEnumerator(): Span_1_Enumerator<T>;
-    getHashCode(): int;
-    getPinnableReference(): ref<T>;
-    slice(start: int): Span_1<T>;
-    slice(start: int, length: int): Span_1<T>;
-    toArray(): T[];
-    toString(): string;
-    tryCopyTo(destination: Span_1<T>): boolean;
+    readonly IsEmpty: boolean;
+    readonly Item: ref<T>;
+    readonly Length: int;
+    Clear(): void;
+    CopyTo(destination: Span_1<T>): void;
+    Equals(obj: unknown): boolean;
+    Fill(value: T): void;
+    GetEnumerator(): Span_1_Enumerator<T>;
+    GetHashCode(): int;
+    GetPinnableReference(): ref<T>;
+    Slice(start: int): Span_1<T>;
+    Slice(start: int, length: int): Span_1<T>;
+    ToArray(): T[];
+    ToString(): string;
+    TryCopyTo(destination: Span_1<T>): boolean;
     static readonly Empty: unknown;
 }
 
@@ -2944,15 +2992,15 @@ export class Span_1$instance<T> {
 export type Span_1<T> = Span_1$instance<T>;
 
 export class Span_1_Enumerator$instance<T> {
-    readonly current: ref<T>;
-    moveNext(): boolean;
+    readonly Current: ref<T>;
+    MoveNext(): boolean;
 }
 
 
 export interface __Span_1_Enumerator$views<T> {
-    readonly As_IEnumerator_1: System_Collections_Generic_Internal.IEnumerator_1$instance<T>;
-    readonly As_IEnumerator: System_Collections_Internal.IEnumerator$instance;
-    readonly As_IDisposable: IDisposable$instance;
+    As_IEnumerator_1(): System_Collections_Generic_Internal.IEnumerator_1$instance<T>;
+    As_IEnumerator(): System_Collections_Internal.IEnumerator$instance;
+    As_IDisposable(): IDisposable$instance;
 }
 
 export type Span_1_Enumerator<T> = Span_1_Enumerator$instance<T> & __Span_1_Enumerator$views<T>;
@@ -2964,64 +3012,64 @@ export class TimeOnly$instance {
     constructor(hour: int, minute: int, second: int, millisecond: int);
     constructor(hour: int, minute: int, second: int, millisecond: int, microsecond: int);
     constructor(ticks: long);
-    readonly hour: int;
-    readonly microsecond: int;
-    readonly millisecond: int;
-    readonly minute: int;
-    readonly nanosecond: int;
-    readonly second: int;
-    readonly ticks: long;
-    add(value: TimeSpan): TimeOnly;
-    add(value: TimeSpan, wrappedDays: { value: ref<int> }): TimeOnly;
-    addHours(value: double): TimeOnly;
-    addHours(value: double, wrappedDays: { value: ref<int> }): TimeOnly;
-    addMinutes(value: double): TimeOnly;
-    addMinutes(value: double, wrappedDays: { value: ref<int> }): TimeOnly;
-    compareTo(value: TimeOnly): int;
-    compareTo(value: any): int;
-    deconstruct(hour: { value: ref<int> }, minute: { value: ref<int> }): void;
-    deconstruct(hour: { value: ref<int> }, minute: { value: ref<int> }, second: { value: ref<int> }): void;
-    deconstruct(hour: { value: ref<int> }, minute: { value: ref<int> }, second: { value: ref<int> }, millisecond: { value: ref<int> }): void;
-    deconstruct(hour: { value: ref<int> }, minute: { value: ref<int> }, second: { value: ref<int> }, millisecond: { value: ref<int> }, microsecond: { value: ref<int> }): void;
-    equals(value: TimeOnly): boolean;
-    equals(value: any): boolean;
-    getHashCode(): int;
-    isBetween(start: TimeOnly, end: TimeOnly): boolean;
-    toLongTimeString(): string;
-    toShortTimeString(): string;
-    toString(): string;
-    toString(format: string): string;
-    toString(provider: IFormatProvider): string;
-    toString(format: string, provider: IFormatProvider): string;
-    toTimeSpan(): TimeSpan;
-    tryFormat(destination: Span_1<CLROf<string>>, charsWritten: { value: ref<int> }, format?: ReadOnlySpan_1<CLROf<string>>, provider?: IFormatProvider): boolean;
-    tryFormat(utf8Destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }, format?: ReadOnlySpan_1<CLROf<string>>, provider?: IFormatProvider): boolean;
+    readonly Hour: int;
+    readonly Microsecond: int;
+    readonly Millisecond: int;
+    readonly Minute: int;
+    readonly Nanosecond: int;
+    readonly Second: int;
+    readonly Ticks: long;
+    Add(value: TimeSpan): TimeOnly;
+    Add(value: TimeSpan, wrappedDays: { value: ref<int> }): TimeOnly;
+    AddHours(value: double): TimeOnly;
+    AddHours(value: double, wrappedDays: { value: ref<int> }): TimeOnly;
+    AddMinutes(value: double): TimeOnly;
+    AddMinutes(value: double, wrappedDays: { value: ref<int> }): TimeOnly;
+    CompareTo(value: TimeOnly): int;
+    CompareTo(value: unknown): int;
+    Deconstruct(hour: { value: ref<int> }, minute: { value: ref<int> }): void;
+    Deconstruct(hour: { value: ref<int> }, minute: { value: ref<int> }, second: { value: ref<int> }): void;
+    Deconstruct(hour: { value: ref<int> }, minute: { value: ref<int> }, second: { value: ref<int> }, millisecond: { value: ref<int> }): void;
+    Deconstruct(hour: { value: ref<int> }, minute: { value: ref<int> }, second: { value: ref<int> }, millisecond: { value: ref<int> }, microsecond: { value: ref<int> }): void;
+    Equals(value: TimeOnly): boolean;
+    Equals(value: unknown): boolean;
+    GetHashCode(): int;
+    IsBetween(start: TimeOnly, end: TimeOnly): boolean;
+    ToLongTimeString(): string;
+    ToShortTimeString(): string;
+    ToString(): string;
+    ToString(format: string): string;
+    ToString(provider: IFormatProvider): string;
+    ToString(format: string, provider: IFormatProvider): string;
+    ToTimeSpan(): TimeSpan;
+    TryFormat(destination: Span_1<CLROf<char>>, charsWritten: { value: ref<int> }, format?: ReadOnlySpan_1<CLROf<char>>, provider?: IFormatProvider): boolean;
+    TryFormat(utf8Destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }, format?: ReadOnlySpan_1<CLROf<char>>, provider?: IFormatProvider): boolean;
     static readonly MinValue: TimeOnly;
     static readonly MaxValue: TimeOnly;
     static FromDateTime(dateTime: DateTime): TimeOnly;
     static FromTimeSpan(timeSpan: TimeSpan): TimeOnly;
-    static Parse(s: ReadOnlySpan_1<CLROf<string>>, provider?: IFormatProvider, style?: DateTimeStyles): TimeOnly;
-    static Parse(s: ReadOnlySpan_1<CLROf<string>>, provider: IFormatProvider): TimeOnly;
+    static Parse(s: ReadOnlySpan_1<CLROf<char>>, provider?: IFormatProvider, style?: DateTimeStyles): TimeOnly;
+    static Parse(s: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider): TimeOnly;
     static Parse(s: string, provider: IFormatProvider, style?: DateTimeStyles): TimeOnly;
     static Parse(s: string, provider: IFormatProvider): TimeOnly;
     static Parse(s: string): TimeOnly;
-    static ParseExact(s: ReadOnlySpan_1<CLROf<string>>, format: ReadOnlySpan_1<CLROf<string>>, provider?: IFormatProvider, style?: DateTimeStyles): TimeOnly;
-    static ParseExact(s: ReadOnlySpan_1<CLROf<string>>, formats: string[], provider: IFormatProvider, style?: DateTimeStyles): TimeOnly;
-    static ParseExact(s: ReadOnlySpan_1<CLROf<string>>, formats: string[]): TimeOnly;
+    static ParseExact(s: ReadOnlySpan_1<CLROf<char>>, format: ReadOnlySpan_1<CLROf<char>>, provider?: IFormatProvider, style?: DateTimeStyles): TimeOnly;
+    static ParseExact(s: ReadOnlySpan_1<CLROf<char>>, formats: string[], provider: IFormatProvider, style?: DateTimeStyles): TimeOnly;
+    static ParseExact(s: ReadOnlySpan_1<CLROf<char>>, formats: string[]): TimeOnly;
     static ParseExact(s: string, format: string, provider: IFormatProvider, style?: DateTimeStyles): TimeOnly;
     static ParseExact(s: string, format: string): TimeOnly;
     static ParseExact(s: string, formats: string[], provider: IFormatProvider, style?: DateTimeStyles): TimeOnly;
     static ParseExact(s: string, formats: string[]): TimeOnly;
-    static TryParse(s: ReadOnlySpan_1<CLROf<string>>, provider: IFormatProvider, style: DateTimeStyles, result: { value: ref<TimeOnly> }): boolean;
-    static TryParse(s: ReadOnlySpan_1<CLROf<string>>, provider: IFormatProvider, result: { value: ref<TimeOnly> }): boolean;
-    static TryParse(s: ReadOnlySpan_1<CLROf<string>>, result: { value: ref<TimeOnly> }): boolean;
+    static TryParse(s: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider, style: DateTimeStyles, result: { value: ref<TimeOnly> }): boolean;
+    static TryParse(s: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider, result: { value: ref<TimeOnly> }): boolean;
+    static TryParse(s: ReadOnlySpan_1<CLROf<char>>, result: { value: ref<TimeOnly> }): boolean;
     static TryParse(s: string, provider: IFormatProvider, style: DateTimeStyles, result: { value: ref<TimeOnly> }): boolean;
     static TryParse(s: string, provider: IFormatProvider, result: { value: ref<TimeOnly> }): boolean;
     static TryParse(s: string, result: { value: ref<TimeOnly> }): boolean;
-    static TryParseExact(s: ReadOnlySpan_1<CLROf<string>>, format: ReadOnlySpan_1<CLROf<string>>, provider: IFormatProvider, style: DateTimeStyles, result: { value: ref<TimeOnly> }): boolean;
-    static TryParseExact(s: ReadOnlySpan_1<CLROf<string>>, format: ReadOnlySpan_1<CLROf<string>>, result: { value: ref<TimeOnly> }): boolean;
-    static TryParseExact(s: ReadOnlySpan_1<CLROf<string>>, formats: string[], provider: IFormatProvider, style: DateTimeStyles, result: { value: ref<TimeOnly> }): boolean;
-    static TryParseExact(s: ReadOnlySpan_1<CLROf<string>>, formats: string[], result: { value: ref<TimeOnly> }): boolean;
+    static TryParseExact(s: ReadOnlySpan_1<CLROf<char>>, format: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider, style: DateTimeStyles, result: { value: ref<TimeOnly> }): boolean;
+    static TryParseExact(s: ReadOnlySpan_1<CLROf<char>>, format: ReadOnlySpan_1<CLROf<char>>, result: { value: ref<TimeOnly> }): boolean;
+    static TryParseExact(s: ReadOnlySpan_1<CLROf<char>>, formats: string[], provider: IFormatProvider, style: DateTimeStyles, result: { value: ref<TimeOnly> }): boolean;
+    static TryParseExact(s: ReadOnlySpan_1<CLROf<char>>, formats: string[], result: { value: ref<TimeOnly> }): boolean;
     static TryParseExact(s: string, format: string, provider: IFormatProvider, style: DateTimeStyles, result: { value: ref<TimeOnly> }): boolean;
     static TryParseExact(s: string, format: string, result: { value: ref<TimeOnly> }): boolean;
     static TryParseExact(s: string, formats: string[], provider: IFormatProvider, style: DateTimeStyles, result: { value: ref<TimeOnly> }): boolean;
@@ -3030,18 +3078,18 @@ export class TimeOnly$instance {
 
 
 export interface __TimeOnly$views {
-    readonly As_IComparable: IComparable$instance;
-    readonly As_IComparable_1_of_Decimal: IComparable_1$instance<TimeOnly>;
-    readonly As_IEquatable_1_of_ConsoleKeyInfo: IEquatable_1$instance<TimeOnly>;
-    readonly As_IFormattable: IFormattable$instance;
-    readonly As_IParsable_1_of_Decimal: IParsable_1$instance<any>;
-    readonly As_ISpanFormattable: ISpanFormattable$instance;
-    readonly As_ISpanParsable_1_of_Decimal: ISpanParsable_1$instance<any>;
-    readonly As_IUtf8SpanFormattable: IUtf8SpanFormattable$instance;
+    As_IComparable(): IComparable$instance;
+    As_IComparable_1(): IComparable_1$instance<TimeOnly>;
+    As_IEquatable_1(): IEquatable_1$instance<TimeOnly>;
+    As_IFormattable(): IFormattable$instance;
+    As_IParsable_1(): IParsable_1$instance<TimeOnly>;
+    As_ISpanFormattable(): ISpanFormattable$instance;
+    As_ISpanParsable_1(): ISpanParsable_1$instance<TimeOnly>;
+    As_IUtf8SpanFormattable(): IUtf8SpanFormattable$instance;
 
     // Structural method bridges for numeric interface constraints
     Equals(other: TimeOnly): boolean;
-    CompareTo(obj: any): int;
+    CompareTo(obj: unknown): int;
 }
 
 export type TimeOnly = TimeOnly$instance & __TimeOnly$views;
@@ -3053,41 +3101,41 @@ export class TimeSpan$instance {
     constructor(days: int, hours: int, minutes: int, seconds: int);
     constructor(days: int, hours: int, minutes: int, seconds: int, milliseconds: int);
     constructor(days: int, hours: int, minutes: int, seconds: int, milliseconds: int, microseconds: int);
-    readonly days: int;
-    readonly hours: int;
-    readonly microseconds: int;
-    readonly milliseconds: int;
-    readonly minutes: int;
-    readonly nanoseconds: int;
-    readonly seconds: int;
-    readonly ticks: long;
-    readonly totalDays: double;
-    readonly totalHours: double;
-    readonly totalMicroseconds: double;
-    readonly totalMilliseconds: double;
-    readonly totalMinutes: double;
-    readonly totalNanoseconds: double;
-    readonly totalSeconds: double;
-    add(ts: TimeSpan): TimeSpan;
-    compareTo(value: any): int;
-    compareTo(value: TimeSpan): int;
-    divide(divisor: double): TimeSpan;
-    divide(ts: TimeSpan): double;
-    duration(): TimeSpan;
-    equals(value: any): boolean;
-    equals(obj: TimeSpan): boolean;
-    getHashCode(): int;
-    multiply(factor: double): TimeSpan;
-    negate(): TimeSpan;
-    subtract(ts: TimeSpan): TimeSpan;
-    toString(): string;
-    toString(format: string): string;
-    toString(format: string, formatProvider: IFormatProvider): string;
-    tryFormat(destination: Span_1<CLROf<string>>, charsWritten: { value: ref<int> }, format?: ReadOnlySpan_1<CLROf<string>>, formatProvider?: IFormatProvider): boolean;
-    tryFormat(utf8Destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }, format?: ReadOnlySpan_1<CLROf<string>>, formatProvider?: IFormatProvider): boolean;
-    static readonly zero: TimeSpan;
-    static readonly maxValue: TimeSpan;
-    static readonly minValue: TimeSpan;
+    readonly Days: int;
+    readonly Hours: int;
+    readonly Microseconds: int;
+    readonly Milliseconds: int;
+    readonly Minutes: int;
+    readonly Nanoseconds: int;
+    readonly Seconds: int;
+    readonly Ticks: long;
+    readonly TotalDays: double;
+    readonly TotalHours: double;
+    readonly TotalMicroseconds: double;
+    readonly TotalMilliseconds: double;
+    readonly TotalMinutes: double;
+    readonly TotalNanoseconds: double;
+    readonly TotalSeconds: double;
+    Add(ts: TimeSpan): TimeSpan;
+    CompareTo(value: unknown): int;
+    CompareTo(value: TimeSpan): int;
+    Divide(divisor: double): TimeSpan;
+    Divide(ts: TimeSpan): double;
+    Duration(): TimeSpan;
+    Equals(value: unknown): boolean;
+    Equals(obj: TimeSpan): boolean;
+    GetHashCode(): int;
+    Multiply(factor: double): TimeSpan;
+    Negate(): TimeSpan;
+    Subtract(ts: TimeSpan): TimeSpan;
+    ToString(): string;
+    ToString(format: string): string;
+    ToString(format: string, formatProvider: IFormatProvider): string;
+    TryFormat(destination: Span_1<CLROf<char>>, charsWritten: { value: ref<int> }, format?: ReadOnlySpan_1<CLROf<char>>, formatProvider?: IFormatProvider): boolean;
+    TryFormat(utf8Destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }, format?: ReadOnlySpan_1<CLROf<char>>, formatProvider?: IFormatProvider): boolean;
+    static readonly Zero: TimeSpan;
+    static readonly MaxValue: TimeSpan;
+    static readonly MinValue: TimeSpan;
     static readonly NanosecondsPerTick: long;
     static readonly TicksPerMicrosecond: long;
     static readonly TicksPerMillisecond: long;
@@ -3130,23 +3178,23 @@ export class TimeSpan$instance {
     static FromSeconds(seconds: long, milliseconds?: long, microseconds?: long): TimeSpan;
     static FromSeconds(seconds: long): TimeSpan;
     static FromTicks(value: long): TimeSpan;
-    static Parse(input: ReadOnlySpan_1<CLROf<string>>, formatProvider?: IFormatProvider): TimeSpan;
+    static Parse(input: ReadOnlySpan_1<CLROf<char>>, formatProvider?: IFormatProvider): TimeSpan;
     static Parse(input: string, formatProvider: IFormatProvider): TimeSpan;
     static Parse(s: string): TimeSpan;
-    static ParseExact(input: ReadOnlySpan_1<CLROf<string>>, format: ReadOnlySpan_1<CLROf<string>>, formatProvider: IFormatProvider, styles?: TimeSpanStyles): TimeSpan;
-    static ParseExact(input: ReadOnlySpan_1<CLROf<string>>, formats: string[], formatProvider: IFormatProvider, styles?: TimeSpanStyles): TimeSpan;
+    static ParseExact(input: ReadOnlySpan_1<CLROf<char>>, format: ReadOnlySpan_1<CLROf<char>>, formatProvider: IFormatProvider, styles?: TimeSpanStyles): TimeSpan;
+    static ParseExact(input: ReadOnlySpan_1<CLROf<char>>, formats: string[], formatProvider: IFormatProvider, styles?: TimeSpanStyles): TimeSpan;
     static ParseExact(input: string, format: string, formatProvider: IFormatProvider, styles: TimeSpanStyles): TimeSpan;
     static ParseExact(input: string, format: string, formatProvider: IFormatProvider): TimeSpan;
     static ParseExact(input: string, formats: string[], formatProvider: IFormatProvider, styles: TimeSpanStyles): TimeSpan;
     static ParseExact(input: string, formats: string[], formatProvider: IFormatProvider): TimeSpan;
-    static TryParse(input: ReadOnlySpan_1<CLROf<string>>, formatProvider: IFormatProvider, result: { value: ref<TimeSpan> }): boolean;
-    static TryParse(s: ReadOnlySpan_1<CLROf<string>>, result: { value: ref<TimeSpan> }): boolean;
+    static TryParse(input: ReadOnlySpan_1<CLROf<char>>, formatProvider: IFormatProvider, result: { value: ref<TimeSpan> }): boolean;
+    static TryParse(s: ReadOnlySpan_1<CLROf<char>>, result: { value: ref<TimeSpan> }): boolean;
     static TryParse(input: string, formatProvider: IFormatProvider, result: { value: ref<TimeSpan> }): boolean;
     static TryParse(s: string, result: { value: ref<TimeSpan> }): boolean;
-    static TryParseExact(input: ReadOnlySpan_1<CLROf<string>>, format: ReadOnlySpan_1<CLROf<string>>, formatProvider: IFormatProvider, styles: TimeSpanStyles, result: { value: ref<TimeSpan> }): boolean;
-    static TryParseExact(input: ReadOnlySpan_1<CLROf<string>>, format: ReadOnlySpan_1<CLROf<string>>, formatProvider: IFormatProvider, result: { value: ref<TimeSpan> }): boolean;
-    static TryParseExact(input: ReadOnlySpan_1<CLROf<string>>, formats: string[], formatProvider: IFormatProvider, styles: TimeSpanStyles, result: { value: ref<TimeSpan> }): boolean;
-    static TryParseExact(input: ReadOnlySpan_1<CLROf<string>>, formats: string[], formatProvider: IFormatProvider, result: { value: ref<TimeSpan> }): boolean;
+    static TryParseExact(input: ReadOnlySpan_1<CLROf<char>>, format: ReadOnlySpan_1<CLROf<char>>, formatProvider: IFormatProvider, styles: TimeSpanStyles, result: { value: ref<TimeSpan> }): boolean;
+    static TryParseExact(input: ReadOnlySpan_1<CLROf<char>>, format: ReadOnlySpan_1<CLROf<char>>, formatProvider: IFormatProvider, result: { value: ref<TimeSpan> }): boolean;
+    static TryParseExact(input: ReadOnlySpan_1<CLROf<char>>, formats: string[], formatProvider: IFormatProvider, styles: TimeSpanStyles, result: { value: ref<TimeSpan> }): boolean;
+    static TryParseExact(input: ReadOnlySpan_1<CLROf<char>>, formats: string[], formatProvider: IFormatProvider, result: { value: ref<TimeSpan> }): boolean;
     static TryParseExact(input: string, format: string, formatProvider: IFormatProvider, styles: TimeSpanStyles, result: { value: ref<TimeSpan> }): boolean;
     static TryParseExact(input: string, format: string, formatProvider: IFormatProvider, result: { value: ref<TimeSpan> }): boolean;
     static TryParseExact(input: string, formats: string[], formatProvider: IFormatProvider, styles: TimeSpanStyles, result: { value: ref<TimeSpan> }): boolean;
@@ -3155,42 +3203,42 @@ export class TimeSpan$instance {
 
 
 export interface __TimeSpan$views {
-    readonly As_IComparable: IComparable$instance;
-    readonly As_IComparable_1_of_Decimal: IComparable_1$instance<TimeSpan>;
-    readonly As_IEquatable_1_of_ConsoleKeyInfo: IEquatable_1$instance<TimeSpan>;
-    readonly As_IFormattable: IFormattable$instance;
-    readonly As_IParsable_1_of_Decimal: IParsable_1$instance<any>;
-    readonly As_ISpanFormattable: ISpanFormattable$instance;
-    readonly As_ISpanParsable_1_of_Decimal: ISpanParsable_1$instance<any>;
-    readonly As_IUtf8SpanFormattable: IUtf8SpanFormattable$instance;
+    As_IComparable(): IComparable$instance;
+    As_IComparable_1(): IComparable_1$instance<TimeSpan>;
+    As_IEquatable_1(): IEquatable_1$instance<TimeSpan>;
+    As_IFormattable(): IFormattable$instance;
+    As_IParsable_1(): IParsable_1$instance<TimeSpan>;
+    As_ISpanFormattable(): ISpanFormattable$instance;
+    As_ISpanParsable_1(): ISpanParsable_1$instance<TimeSpan>;
+    As_IUtf8SpanFormattable(): IUtf8SpanFormattable$instance;
 
     // Structural method bridges for numeric interface constraints
     Equals(other: TimeSpan): boolean;
-    CompareTo(obj: any): int;
+    CompareTo(obj: unknown): int;
 }
 
 export type TimeSpan = TimeSpan$instance & __TimeSpan$views;
 
 
 export class TimeZoneInfo_TransitionTime$instance {
-    readonly day: int;
-    readonly dayOfWeek: DayOfWeek;
-    readonly isFixedDateRule: boolean;
-    readonly month: int;
-    readonly timeOfDay: DateTime;
-    readonly week: int;
-    equals(obj: any): boolean;
-    equals(other: TimeZoneInfo_TransitionTime): boolean;
-    getHashCode(): int;
+    readonly Day: int;
+    readonly DayOfWeek: DayOfWeek;
+    readonly IsFixedDateRule: boolean;
+    readonly Month: int;
+    readonly TimeOfDay: DateTime;
+    readonly Week: int;
+    Equals(obj: unknown): boolean;
+    Equals(other: TimeZoneInfo_TransitionTime): boolean;
+    GetHashCode(): int;
     static CreateFixedDateRule(timeOfDay: DateTime, month: int, day: int): TimeZoneInfo_TransitionTime;
     static CreateFloatingDateRule(timeOfDay: DateTime, month: int, week: int, dayOfWeek: DayOfWeek): TimeZoneInfo_TransitionTime;
 }
 
 
 export interface __TimeZoneInfo_TransitionTime$views {
-    readonly As_IEquatable_1_of_ConsoleKeyInfo: IEquatable_1$instance<TimeZoneInfo_TransitionTime>;
-    readonly As_IDeserializationCallback: System_Runtime_Serialization_Internal.IDeserializationCallback$instance;
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_IEquatable_1(): IEquatable_1$instance<TimeZoneInfo_TransitionTime>;
+    As_IDeserializationCallback(): System_Runtime_Serialization_Internal.IDeserializationCallback$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 
     // Structural method bridges for numeric interface constraints
     Equals(other: TimeZoneInfo_TransitionTime): boolean;
@@ -3200,31 +3248,31 @@ export type TimeZoneInfo_TransitionTime = TimeZoneInfo_TransitionTime$instance &
 
 
 export class TypedReference$instance {
-    equals(o: any): boolean;
-    getHashCode(): int;
+    Equals(o: unknown): boolean;
+    GetHashCode(): int;
     static GetTargetType(value: TypedReference): Type;
-    static MakeTypedReference(target: any, flds: FieldInfo[]): TypedReference;
-    static SetTypedReference(target: TypedReference, value: any): void;
+    static MakeTypedReference(target: unknown, flds: FieldInfo[]): TypedReference;
+    static SetTypedReference(target: TypedReference, value: unknown): void;
     static TargetTypeToken(value: TypedReference): RuntimeTypeHandle;
-    static ToObject(value: TypedReference): any;
+    static ToObject(value: TypedReference): unknown;
 }
 
 
 export type TypedReference = TypedReference$instance;
 
-export class UInt128$instance {
+export class UInt128$instance implements IBitwiseOperators_3<CLROf<uint128>, CLROf<uint128>, CLROf<uint128>>, IComparisonOperators_3<CLROf<uint128>, CLROf<uint128>, CLROf<boolean>>, IEqualityOperators_3<CLROf<uint128>, CLROf<uint128>, CLROf<boolean>>, IModulusOperators_3<CLROf<uint128>, CLROf<uint128>, CLROf<uint128>>, IAdditionOperators_3<CLROf<uint128>, CLROf<uint128>, CLROf<uint128>>, IDecrementOperators_1<CLROf<uint128>>, IDivisionOperators_3<CLROf<uint128>, CLROf<uint128>, CLROf<uint128>>, IIncrementOperators_1<CLROf<uint128>>, IMultiplyOperators_3<CLROf<uint128>, CLROf<uint128>, CLROf<uint128>>, ISubtractionOperators_3<CLROf<uint128>, CLROf<uint128>, CLROf<uint128>>, IUnaryPlusOperators_2<CLROf<uint128>, CLROf<uint128>>, IUnaryNegationOperators_2<CLROf<uint128>, CLROf<uint128>>, IShiftOperators_3<CLROf<uint128>, CLROf<int>, CLROf<uint128>> {
     constructor(upper: ulong, lower: ulong);
-    compareTo(value: any): int;
-    compareTo(value: uint128): int;
-    equals(obj: any): boolean;
-    equals(other: uint128): boolean;
-    getHashCode(): int;
-    toString(): string;
-    toString(provider: IFormatProvider): string;
-    toString(format: string): string;
-    toString(format: string, provider: IFormatProvider): string;
-    tryFormat(destination: Span_1<CLROf<string>>, charsWritten: { value: ref<int> }, format?: ReadOnlySpan_1<CLROf<string>>, provider?: IFormatProvider): boolean;
-    tryFormat(utf8Destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }, format?: ReadOnlySpan_1<CLROf<string>>, provider?: IFormatProvider): boolean;
+    CompareTo(value: unknown): int;
+    CompareTo(value: uint128): int;
+    Equals(obj: unknown): boolean;
+    Equals(other: uint128): boolean;
+    GetHashCode(): int;
+    ToString(): string;
+    ToString(provider: IFormatProvider): string;
+    ToString(format: string): string;
+    ToString(format: string, provider: IFormatProvider): string;
+    TryFormat(destination: Span_1<CLROf<char>>, charsWritten: { value: ref<int> }, format?: ReadOnlySpan_1<CLROf<char>>, provider?: IFormatProvider): boolean;
+    TryFormat(utf8Destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }, format?: ReadOnlySpan_1<CLROf<char>>, provider?: IFormatProvider): boolean;
     static readonly MinValue: uint128;
     static readonly MaxValue: uint128;
     static readonly One: uint128;
@@ -3244,8 +3292,8 @@ export class UInt128$instance {
     static Min(x: uint128, y: uint128): uint128;
     static Parse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, style?: NumberStyles, provider?: IFormatProvider): uint128;
     static Parse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, provider: IFormatProvider): uint128;
-    static Parse(s: ReadOnlySpan_1<CLROf<string>>, style?: NumberStyles, provider?: IFormatProvider): uint128;
-    static Parse(s: ReadOnlySpan_1<CLROf<string>>, provider: IFormatProvider): uint128;
+    static Parse(s: ReadOnlySpan_1<CLROf<char>>, style?: NumberStyles, provider?: IFormatProvider): uint128;
+    static Parse(s: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider): uint128;
     static Parse(s: string, style: NumberStyles, provider: IFormatProvider): uint128;
     static Parse(s: string, style: NumberStyles): uint128;
     static Parse(s: string, provider: IFormatProvider): uint128;
@@ -3258,9 +3306,9 @@ export class UInt128$instance {
     static TryParse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, style: NumberStyles, provider: IFormatProvider, result: { value: ref<uint128> }): boolean;
     static TryParse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, provider: IFormatProvider, result: { value: ref<uint128> }): boolean;
     static TryParse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, result: { value: ref<uint128> }): boolean;
-    static TryParse(s: ReadOnlySpan_1<CLROf<string>>, style: NumberStyles, provider: IFormatProvider, result: { value: ref<uint128> }): boolean;
-    static TryParse(s: ReadOnlySpan_1<CLROf<string>>, provider: IFormatProvider, result: { value: ref<uint128> }): boolean;
-    static TryParse(s: ReadOnlySpan_1<CLROf<string>>, result: { value: ref<uint128> }): boolean;
+    static TryParse(s: ReadOnlySpan_1<CLROf<char>>, style: NumberStyles, provider: IFormatProvider, result: { value: ref<uint128> }): boolean;
+    static TryParse(s: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider, result: { value: ref<uint128> }): boolean;
+    static TryParse(s: ReadOnlySpan_1<CLROf<char>>, result: { value: ref<uint128> }): boolean;
     static TryParse(s: string, style: NumberStyles, provider: IFormatProvider, result: { value: ref<uint128> }): boolean;
     static TryParse(s: string, provider: IFormatProvider, result: { value: ref<uint128> }): boolean;
     static TryParse(s: string, result: { value: ref<uint128> }): boolean;
@@ -3268,44 +3316,48 @@ export class UInt128$instance {
 
 
 export interface __UInt128$views {
-    readonly As_IComparable: IComparable$instance;
-    readonly As_IComparable_1_of_Decimal: IComparable_1$instance<CLROf<uint128>>;
-    readonly As_IEquatable_1_of_ConsoleKeyInfo: IEquatable_1$instance<CLROf<uint128>>;
-    readonly As_IFormattable: IFormattable$instance;
-    readonly As_IParsable_1_of_Decimal: IParsable_1$instance<any>;
-    readonly As_ISpanParsable_1_of_Decimal: ISpanParsable_1$instance<any>;
-    readonly As_IUtf8SpanFormattable: IUtf8SpanFormattable$instance;
-    readonly As_IUtf8SpanParsable_1_of_Decimal: IUtf8SpanParsable_1$instance<any>;
-    readonly As_IAdditiveIdentity_2: System_Numerics_Internal.IAdditiveIdentity_2$instance<any, any>;
-    readonly As_IBinaryInteger_1: System_Numerics_Internal.IBinaryInteger_1$instance<any>;
-    readonly As_IMinMaxValue_1: System_Numerics_Internal.IMinMaxValue_1$instance<any>;
-    readonly As_INumber_1: System_Numerics_Internal.INumber_1$instance<any>;
-    readonly As_INumberBase_1: System_Numerics_Internal.INumberBase_1$instance<any>;
+    As_IComparable(): IComparable$instance;
+    As_IComparable_1(): IComparable_1$instance<CLROf<uint128>>;
+    As_IEquatable_1(): IEquatable_1$instance<CLROf<uint128>>;
+    As_IFormattable(): IFormattable$instance;
+    As_IParsable_1(): IParsable_1$instance<CLROf<uint128>>;
+    As_ISpanParsable_1(): ISpanParsable_1$instance<CLROf<uint128>>;
+    As_IUtf8SpanFormattable(): IUtf8SpanFormattable$instance;
+    As_IUtf8SpanParsable_1(): IUtf8SpanParsable_1$instance<CLROf<uint128>>;
+    As_IAdditiveIdentity_2(): System_Numerics_Internal.IAdditiveIdentity_2$instance<CLROf<uint128>, CLROf<uint128>>;
+    As_IBinaryInteger_1(): System_Numerics_Internal.IBinaryInteger_1$instance<CLROf<uint128>>;
+    As_IMinMaxValue_1(): System_Numerics_Internal.IMinMaxValue_1$instance<CLROf<uint128>>;
+    As_INumber_1(): System_Numerics_Internal.INumber_1$instance<CLROf<uint128>>;
+    As_INumberBase_1(): System_Numerics_Internal.INumberBase_1$instance<CLROf<uint128>>;
 
     // Structural method bridges for numeric interface constraints
     Equals(other: UInt128): boolean;
-    CompareTo(obj: any): int;
+    CompareTo(obj: unknown): int;
     ToString(format: string, formatProvider: IFormatProvider): string;
-    TryFormat(destination: Span_1<CLROf<string>>, charsWritten: { value: ref<int> }, format: ReadOnlySpan_1<CLROf<string>>, provider: IFormatProvider): boolean;
+    TryFormat(destination: Span_1<CLROf<char>>, charsWritten: { value: ref<int> }, format: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider): boolean;
     GetByteCount(): int;
+    TryWriteBigEndian(destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
+    WriteBigEndian(destination: byte[], startIndex: int): int;
+    WriteBigEndian(destination: byte[]): int;
+    WriteBigEndian(destination: Span_1<CLROf<byte>>): int;
 }
 
 export type UInt128 = UInt128$instance & __UInt128$views;
 
 
-export class UInt16$instance {
-    compareTo(value: any): int;
-    compareTo(value: ushort): int;
-    equals(obj: any): boolean;
-    equals(obj: ushort): boolean;
-    getHashCode(): int;
-    getTypeCode(): TypeCode;
-    toString(): string;
-    toString(provider: IFormatProvider): string;
-    toString(format: string): string;
-    toString(format: string, provider: IFormatProvider): string;
-    tryFormat(destination: Span_1<CLROf<string>>, charsWritten: { value: ref<int> }, format?: ReadOnlySpan_1<CLROf<string>>, provider?: IFormatProvider): boolean;
-    tryFormat(utf8Destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }, format?: ReadOnlySpan_1<CLROf<string>>, provider?: IFormatProvider): boolean;
+export class UInt16$instance implements IBitwiseOperators_3<CLROf<ushort>, CLROf<ushort>, CLROf<ushort>>, IComparisonOperators_3<CLROf<ushort>, CLROf<ushort>, CLROf<boolean>>, IEqualityOperators_3<CLROf<ushort>, CLROf<ushort>, CLROf<boolean>>, IModulusOperators_3<CLROf<ushort>, CLROf<ushort>, CLROf<ushort>>, IAdditionOperators_3<CLROf<ushort>, CLROf<ushort>, CLROf<ushort>>, IDecrementOperators_1<CLROf<ushort>>, IDivisionOperators_3<CLROf<ushort>, CLROf<ushort>, CLROf<ushort>>, IIncrementOperators_1<CLROf<ushort>>, IMultiplyOperators_3<CLROf<ushort>, CLROf<ushort>, CLROf<ushort>>, ISubtractionOperators_3<CLROf<ushort>, CLROf<ushort>, CLROf<ushort>>, IUnaryPlusOperators_2<CLROf<ushort>, CLROf<ushort>>, IUnaryNegationOperators_2<CLROf<ushort>, CLROf<ushort>>, IShiftOperators_3<CLROf<ushort>, CLROf<int>, CLROf<ushort>> {
+    CompareTo(value: unknown): int;
+    CompareTo(value: ushort): int;
+    Equals(obj: unknown): boolean;
+    Equals(obj: ushort): boolean;
+    GetHashCode(): int;
+    GetTypeCode(): TypeCode;
+    ToString(): string;
+    ToString(provider: IFormatProvider): string;
+    ToString(format: string): string;
+    ToString(format: string, provider: IFormatProvider): string;
+    TryFormat(destination: Span_1<CLROf<char>>, charsWritten: { value: ref<int> }, format?: ReadOnlySpan_1<CLROf<char>>, provider?: IFormatProvider): boolean;
+    TryFormat(utf8Destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }, format?: ReadOnlySpan_1<CLROf<char>>, provider?: IFormatProvider): boolean;
     static readonly MaxValue: ushort;
     static readonly MinValue: ushort;
     static Clamp(value: ushort, min: ushort, max: ushort): ushort;
@@ -3322,8 +3374,8 @@ export class UInt16$instance {
     static Min(x: ushort, y: ushort): ushort;
     static Parse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, style?: NumberStyles, provider?: IFormatProvider): ushort;
     static Parse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, provider: IFormatProvider): ushort;
-    static Parse(s: ReadOnlySpan_1<CLROf<string>>, style?: NumberStyles, provider?: IFormatProvider): ushort;
-    static Parse(s: ReadOnlySpan_1<CLROf<string>>, provider: IFormatProvider): ushort;
+    static Parse(s: ReadOnlySpan_1<CLROf<char>>, style?: NumberStyles, provider?: IFormatProvider): ushort;
+    static Parse(s: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider): ushort;
     static Parse(s: string, style: NumberStyles, provider: IFormatProvider): ushort;
     static Parse(s: string, style: NumberStyles): ushort;
     static Parse(s: string, provider: IFormatProvider): ushort;
@@ -3336,9 +3388,9 @@ export class UInt16$instance {
     static TryParse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, style: NumberStyles, provider: IFormatProvider, result: { value: ref<ushort> }): boolean;
     static TryParse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, provider: IFormatProvider, result: { value: ref<ushort> }): boolean;
     static TryParse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, result: { value: ref<ushort> }): boolean;
-    static TryParse(s: ReadOnlySpan_1<CLROf<string>>, style: NumberStyles, provider: IFormatProvider, result: { value: ref<ushort> }): boolean;
-    static TryParse(s: ReadOnlySpan_1<CLROf<string>>, provider: IFormatProvider, result: { value: ref<ushort> }): boolean;
-    static TryParse(s: ReadOnlySpan_1<CLROf<string>>, result: { value: ref<ushort> }): boolean;
+    static TryParse(s: ReadOnlySpan_1<CLROf<char>>, style: NumberStyles, provider: IFormatProvider, result: { value: ref<ushort> }): boolean;
+    static TryParse(s: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider, result: { value: ref<ushort> }): boolean;
+    static TryParse(s: ReadOnlySpan_1<CLROf<char>>, result: { value: ref<ushort> }): boolean;
     static TryParse(s: string, style: NumberStyles, provider: IFormatProvider, result: { value: ref<ushort> }): boolean;
     static TryParse(s: string, provider: IFormatProvider, result: { value: ref<ushort> }): boolean;
     static TryParse(s: string, result: { value: ref<ushort> }): boolean;
@@ -3346,46 +3398,50 @@ export class UInt16$instance {
 
 
 export interface __UInt16$views {
-    readonly As_IComparable: IComparable$instance;
-    readonly As_IComparable_1_of_Decimal: IComparable_1$instance<CLROf<ushort>>;
-    readonly As_IConvertible: IConvertible$instance;
-    readonly As_IEquatable_1_of_ConsoleKeyInfo: IEquatable_1$instance<CLROf<ushort>>;
-    readonly As_IFormattable: IFormattable$instance;
-    readonly As_IParsable_1_of_Decimal: IParsable_1$instance<any>;
-    readonly As_ISpanFormattable: ISpanFormattable$instance;
-    readonly As_ISpanParsable_1_of_Decimal: ISpanParsable_1$instance<any>;
-    readonly As_IUtf8SpanFormattable: IUtf8SpanFormattable$instance;
-    readonly As_IUtf8SpanParsable_1_of_Decimal: IUtf8SpanParsable_1$instance<any>;
-    readonly As_IAdditiveIdentity_2: System_Numerics_Internal.IAdditiveIdentity_2$instance<any, any>;
-    readonly As_IBinaryInteger_1: System_Numerics_Internal.IBinaryInteger_1$instance<any>;
-    readonly As_IMinMaxValue_1: System_Numerics_Internal.IMinMaxValue_1$instance<any>;
-    readonly As_INumber_1: System_Numerics_Internal.INumber_1$instance<any>;
-    readonly As_INumberBase_1: System_Numerics_Internal.INumberBase_1$instance<any>;
+    As_IComparable(): IComparable$instance;
+    As_IComparable_1(): IComparable_1$instance<CLROf<ushort>>;
+    As_IConvertible(): IConvertible$instance;
+    As_IEquatable_1(): IEquatable_1$instance<CLROf<ushort>>;
+    As_IFormattable(): IFormattable$instance;
+    As_IParsable_1(): IParsable_1$instance<CLROf<ushort>>;
+    As_ISpanFormattable(): ISpanFormattable$instance;
+    As_ISpanParsable_1(): ISpanParsable_1$instance<CLROf<ushort>>;
+    As_IUtf8SpanFormattable(): IUtf8SpanFormattable$instance;
+    As_IUtf8SpanParsable_1(): IUtf8SpanParsable_1$instance<CLROf<ushort>>;
+    As_IAdditiveIdentity_2(): System_Numerics_Internal.IAdditiveIdentity_2$instance<CLROf<ushort>, CLROf<ushort>>;
+    As_IBinaryInteger_1(): System_Numerics_Internal.IBinaryInteger_1$instance<CLROf<ushort>>;
+    As_IMinMaxValue_1(): System_Numerics_Internal.IMinMaxValue_1$instance<CLROf<ushort>>;
+    As_INumber_1(): System_Numerics_Internal.INumber_1$instance<CLROf<ushort>>;
+    As_INumberBase_1(): System_Numerics_Internal.INumberBase_1$instance<CLROf<ushort>>;
 
     // Structural method bridges for numeric interface constraints
     Equals(other: UInt16): boolean;
-    CompareTo(obj: any): int;
+    CompareTo(obj: unknown): int;
     ToString(format: string, formatProvider: IFormatProvider): string;
-    TryFormat(destination: Span_1<CLROf<string>>, charsWritten: { value: ref<int> }, format: ReadOnlySpan_1<CLROf<string>>, provider: IFormatProvider): boolean;
+    TryFormat(destination: Span_1<CLROf<char>>, charsWritten: { value: ref<int> }, format: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider): boolean;
     GetByteCount(): int;
+    TryWriteBigEndian(destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
+    WriteBigEndian(destination: byte[], startIndex: int): int;
+    WriteBigEndian(destination: byte[]): int;
+    WriteBigEndian(destination: Span_1<CLROf<byte>>): int;
 }
 
 export type UInt16 = UInt16$instance & __UInt16$views;
 
 
-export class UInt32$instance {
-    compareTo(value: any): int;
-    compareTo(value: uint): int;
-    equals(obj: any): boolean;
-    equals(obj: uint): boolean;
-    getHashCode(): int;
-    getTypeCode(): TypeCode;
-    toString(): string;
-    toString(provider: IFormatProvider): string;
-    toString(format: string): string;
-    toString(format: string, provider: IFormatProvider): string;
-    tryFormat(destination: Span_1<CLROf<string>>, charsWritten: { value: ref<int> }, format?: ReadOnlySpan_1<CLROf<string>>, provider?: IFormatProvider): boolean;
-    tryFormat(utf8Destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }, format?: ReadOnlySpan_1<CLROf<string>>, provider?: IFormatProvider): boolean;
+export class UInt32$instance implements IBitwiseOperators_3<CLROf<uint>, CLROf<uint>, CLROf<uint>>, IComparisonOperators_3<CLROf<uint>, CLROf<uint>, CLROf<boolean>>, IEqualityOperators_3<CLROf<uint>, CLROf<uint>, CLROf<boolean>>, IModulusOperators_3<CLROf<uint>, CLROf<uint>, CLROf<uint>>, IAdditionOperators_3<CLROf<uint>, CLROf<uint>, CLROf<uint>>, IDecrementOperators_1<CLROf<uint>>, IDivisionOperators_3<CLROf<uint>, CLROf<uint>, CLROf<uint>>, IIncrementOperators_1<CLROf<uint>>, IMultiplyOperators_3<CLROf<uint>, CLROf<uint>, CLROf<uint>>, ISubtractionOperators_3<CLROf<uint>, CLROf<uint>, CLROf<uint>>, IUnaryPlusOperators_2<CLROf<uint>, CLROf<uint>>, IUnaryNegationOperators_2<CLROf<uint>, CLROf<uint>>, IShiftOperators_3<CLROf<uint>, CLROf<int>, CLROf<uint>> {
+    CompareTo(value: unknown): int;
+    CompareTo(value: uint): int;
+    Equals(obj: unknown): boolean;
+    Equals(obj: uint): boolean;
+    GetHashCode(): int;
+    GetTypeCode(): TypeCode;
+    ToString(): string;
+    ToString(provider: IFormatProvider): string;
+    ToString(format: string): string;
+    ToString(format: string, provider: IFormatProvider): string;
+    TryFormat(destination: Span_1<CLROf<char>>, charsWritten: { value: ref<int> }, format?: ReadOnlySpan_1<CLROf<char>>, provider?: IFormatProvider): boolean;
+    TryFormat(utf8Destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }, format?: ReadOnlySpan_1<CLROf<char>>, provider?: IFormatProvider): boolean;
     static readonly MaxValue: uint;
     static readonly MinValue: uint;
     static BigMul(left: uint, right: uint): ulong;
@@ -3403,8 +3459,8 @@ export class UInt32$instance {
     static Min(x: uint, y: uint): uint;
     static Parse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, style?: NumberStyles, provider?: IFormatProvider): uint;
     static Parse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, provider: IFormatProvider): uint;
-    static Parse(s: ReadOnlySpan_1<CLROf<string>>, style?: NumberStyles, provider?: IFormatProvider): uint;
-    static Parse(s: ReadOnlySpan_1<CLROf<string>>, provider: IFormatProvider): uint;
+    static Parse(s: ReadOnlySpan_1<CLROf<char>>, style?: NumberStyles, provider?: IFormatProvider): uint;
+    static Parse(s: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider): uint;
     static Parse(s: string, style: NumberStyles, provider: IFormatProvider): uint;
     static Parse(s: string, style: NumberStyles): uint;
     static Parse(s: string, provider: IFormatProvider): uint;
@@ -3417,9 +3473,9 @@ export class UInt32$instance {
     static TryParse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, style: NumberStyles, provider: IFormatProvider, result: { value: ref<uint> }): boolean;
     static TryParse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, provider: IFormatProvider, result: { value: ref<uint> }): boolean;
     static TryParse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, result: { value: ref<uint> }): boolean;
-    static TryParse(s: ReadOnlySpan_1<CLROf<string>>, style: NumberStyles, provider: IFormatProvider, result: { value: ref<uint> }): boolean;
-    static TryParse(s: ReadOnlySpan_1<CLROf<string>>, provider: IFormatProvider, result: { value: ref<uint> }): boolean;
-    static TryParse(s: ReadOnlySpan_1<CLROf<string>>, result: { value: ref<uint> }): boolean;
+    static TryParse(s: ReadOnlySpan_1<CLROf<char>>, style: NumberStyles, provider: IFormatProvider, result: { value: ref<uint> }): boolean;
+    static TryParse(s: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider, result: { value: ref<uint> }): boolean;
+    static TryParse(s: ReadOnlySpan_1<CLROf<char>>, result: { value: ref<uint> }): boolean;
     static TryParse(s: string, style: NumberStyles, provider: IFormatProvider, result: { value: ref<uint> }): boolean;
     static TryParse(s: string, provider: IFormatProvider, result: { value: ref<uint> }): boolean;
     static TryParse(s: string, result: { value: ref<uint> }): boolean;
@@ -3427,46 +3483,50 @@ export class UInt32$instance {
 
 
 export interface __UInt32$views {
-    readonly As_IComparable: IComparable$instance;
-    readonly As_IComparable_1_of_Decimal: IComparable_1$instance<CLROf<uint>>;
-    readonly As_IConvertible: IConvertible$instance;
-    readonly As_IEquatable_1_of_ConsoleKeyInfo: IEquatable_1$instance<CLROf<uint>>;
-    readonly As_IFormattable: IFormattable$instance;
-    readonly As_IParsable_1_of_Decimal: IParsable_1$instance<any>;
-    readonly As_ISpanFormattable: ISpanFormattable$instance;
-    readonly As_ISpanParsable_1_of_Decimal: ISpanParsable_1$instance<any>;
-    readonly As_IUtf8SpanFormattable: IUtf8SpanFormattable$instance;
-    readonly As_IUtf8SpanParsable_1_of_Decimal: IUtf8SpanParsable_1$instance<any>;
-    readonly As_IAdditiveIdentity_2: System_Numerics_Internal.IAdditiveIdentity_2$instance<any, any>;
-    readonly As_IBinaryInteger_1: System_Numerics_Internal.IBinaryInteger_1$instance<any>;
-    readonly As_IMinMaxValue_1: System_Numerics_Internal.IMinMaxValue_1$instance<any>;
-    readonly As_INumber_1: System_Numerics_Internal.INumber_1$instance<any>;
-    readonly As_INumberBase_1: System_Numerics_Internal.INumberBase_1$instance<any>;
+    As_IComparable(): IComparable$instance;
+    As_IComparable_1(): IComparable_1$instance<CLROf<uint>>;
+    As_IConvertible(): IConvertible$instance;
+    As_IEquatable_1(): IEquatable_1$instance<CLROf<uint>>;
+    As_IFormattable(): IFormattable$instance;
+    As_IParsable_1(): IParsable_1$instance<CLROf<uint>>;
+    As_ISpanFormattable(): ISpanFormattable$instance;
+    As_ISpanParsable_1(): ISpanParsable_1$instance<CLROf<uint>>;
+    As_IUtf8SpanFormattable(): IUtf8SpanFormattable$instance;
+    As_IUtf8SpanParsable_1(): IUtf8SpanParsable_1$instance<CLROf<uint>>;
+    As_IAdditiveIdentity_2(): System_Numerics_Internal.IAdditiveIdentity_2$instance<CLROf<uint>, CLROf<uint>>;
+    As_IBinaryInteger_1(): System_Numerics_Internal.IBinaryInteger_1$instance<CLROf<uint>>;
+    As_IMinMaxValue_1(): System_Numerics_Internal.IMinMaxValue_1$instance<CLROf<uint>>;
+    As_INumber_1(): System_Numerics_Internal.INumber_1$instance<CLROf<uint>>;
+    As_INumberBase_1(): System_Numerics_Internal.INumberBase_1$instance<CLROf<uint>>;
 
     // Structural method bridges for numeric interface constraints
     Equals(other: UInt32): boolean;
-    CompareTo(obj: any): int;
+    CompareTo(obj: unknown): int;
     ToString(format: string, formatProvider: IFormatProvider): string;
-    TryFormat(destination: Span_1<CLROf<string>>, charsWritten: { value: ref<int> }, format: ReadOnlySpan_1<CLROf<string>>, provider: IFormatProvider): boolean;
+    TryFormat(destination: Span_1<CLROf<char>>, charsWritten: { value: ref<int> }, format: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider): boolean;
     GetByteCount(): int;
+    TryWriteBigEndian(destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
+    WriteBigEndian(destination: byte[], startIndex: int): int;
+    WriteBigEndian(destination: byte[]): int;
+    WriteBigEndian(destination: Span_1<CLROf<byte>>): int;
 }
 
 export type UInt32 = UInt32$instance & __UInt32$views;
 
 
-export class UInt64$instance {
-    compareTo(value: any): int;
-    compareTo(value: ulong): int;
-    equals(obj: any): boolean;
-    equals(obj: ulong): boolean;
-    getHashCode(): int;
-    getTypeCode(): TypeCode;
-    toString(): string;
-    toString(provider: IFormatProvider): string;
-    toString(format: string): string;
-    toString(format: string, provider: IFormatProvider): string;
-    tryFormat(destination: Span_1<CLROf<string>>, charsWritten: { value: ref<int> }, format?: ReadOnlySpan_1<CLROf<string>>, provider?: IFormatProvider): boolean;
-    tryFormat(utf8Destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }, format?: ReadOnlySpan_1<CLROf<string>>, provider?: IFormatProvider): boolean;
+export class UInt64$instance implements IBitwiseOperators_3<CLROf<ulong>, CLROf<ulong>, CLROf<ulong>>, IComparisonOperators_3<CLROf<ulong>, CLROf<ulong>, CLROf<boolean>>, IEqualityOperators_3<CLROf<ulong>, CLROf<ulong>, CLROf<boolean>>, IModulusOperators_3<CLROf<ulong>, CLROf<ulong>, CLROf<ulong>>, IAdditionOperators_3<CLROf<ulong>, CLROf<ulong>, CLROf<ulong>>, IDecrementOperators_1<CLROf<ulong>>, IDivisionOperators_3<CLROf<ulong>, CLROf<ulong>, CLROf<ulong>>, IIncrementOperators_1<CLROf<ulong>>, IMultiplyOperators_3<CLROf<ulong>, CLROf<ulong>, CLROf<ulong>>, ISubtractionOperators_3<CLROf<ulong>, CLROf<ulong>, CLROf<ulong>>, IUnaryPlusOperators_2<CLROf<ulong>, CLROf<ulong>>, IUnaryNegationOperators_2<CLROf<ulong>, CLROf<ulong>>, IShiftOperators_3<CLROf<ulong>, CLROf<int>, CLROf<ulong>> {
+    CompareTo(value: unknown): int;
+    CompareTo(value: ulong): int;
+    Equals(obj: unknown): boolean;
+    Equals(obj: ulong): boolean;
+    GetHashCode(): int;
+    GetTypeCode(): TypeCode;
+    ToString(): string;
+    ToString(provider: IFormatProvider): string;
+    ToString(format: string): string;
+    ToString(format: string, provider: IFormatProvider): string;
+    TryFormat(destination: Span_1<CLROf<char>>, charsWritten: { value: ref<int> }, format?: ReadOnlySpan_1<CLROf<char>>, provider?: IFormatProvider): boolean;
+    TryFormat(utf8Destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }, format?: ReadOnlySpan_1<CLROf<char>>, provider?: IFormatProvider): boolean;
     static readonly MaxValue: ulong;
     static readonly MinValue: ulong;
     static BigMul(left: ulong, right: ulong): uint128;
@@ -3484,8 +3544,8 @@ export class UInt64$instance {
     static Min(x: ulong, y: ulong): ulong;
     static Parse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, style?: NumberStyles, provider?: IFormatProvider): ulong;
     static Parse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, provider: IFormatProvider): ulong;
-    static Parse(s: ReadOnlySpan_1<CLROf<string>>, style?: NumberStyles, provider?: IFormatProvider): ulong;
-    static Parse(s: ReadOnlySpan_1<CLROf<string>>, provider: IFormatProvider): ulong;
+    static Parse(s: ReadOnlySpan_1<CLROf<char>>, style?: NumberStyles, provider?: IFormatProvider): ulong;
+    static Parse(s: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider): ulong;
     static Parse(s: string, style: NumberStyles, provider: IFormatProvider): ulong;
     static Parse(s: string, style: NumberStyles): ulong;
     static Parse(s: string, provider: IFormatProvider): ulong;
@@ -3498,9 +3558,9 @@ export class UInt64$instance {
     static TryParse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, style: NumberStyles, provider: IFormatProvider, result: { value: ref<ulong> }): boolean;
     static TryParse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, provider: IFormatProvider, result: { value: ref<ulong> }): boolean;
     static TryParse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, result: { value: ref<ulong> }): boolean;
-    static TryParse(s: ReadOnlySpan_1<CLROf<string>>, style: NumberStyles, provider: IFormatProvider, result: { value: ref<ulong> }): boolean;
-    static TryParse(s: ReadOnlySpan_1<CLROf<string>>, provider: IFormatProvider, result: { value: ref<ulong> }): boolean;
-    static TryParse(s: ReadOnlySpan_1<CLROf<string>>, result: { value: ref<ulong> }): boolean;
+    static TryParse(s: ReadOnlySpan_1<CLROf<char>>, style: NumberStyles, provider: IFormatProvider, result: { value: ref<ulong> }): boolean;
+    static TryParse(s: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider, result: { value: ref<ulong> }): boolean;
+    static TryParse(s: ReadOnlySpan_1<CLROf<char>>, result: { value: ref<ulong> }): boolean;
     static TryParse(s: string, style: NumberStyles, provider: IFormatProvider, result: { value: ref<ulong> }): boolean;
     static TryParse(s: string, provider: IFormatProvider, result: { value: ref<ulong> }): boolean;
     static TryParse(s: string, result: { value: ref<ulong> }): boolean;
@@ -3508,52 +3568,56 @@ export class UInt64$instance {
 
 
 export interface __UInt64$views {
-    readonly As_IComparable: IComparable$instance;
-    readonly As_IComparable_1_of_Decimal: IComparable_1$instance<CLROf<ulong>>;
-    readonly As_IConvertible: IConvertible$instance;
-    readonly As_IEquatable_1_of_ConsoleKeyInfo: IEquatable_1$instance<CLROf<ulong>>;
-    readonly As_IFormattable: IFormattable$instance;
-    readonly As_IParsable_1_of_Decimal: IParsable_1$instance<any>;
-    readonly As_ISpanFormattable: ISpanFormattable$instance;
-    readonly As_ISpanParsable_1_of_Decimal: ISpanParsable_1$instance<any>;
-    readonly As_IUtf8SpanFormattable: IUtf8SpanFormattable$instance;
-    readonly As_IUtf8SpanParsable_1_of_Decimal: IUtf8SpanParsable_1$instance<any>;
-    readonly As_IAdditiveIdentity_2: System_Numerics_Internal.IAdditiveIdentity_2$instance<any, any>;
-    readonly As_IBinaryInteger_1: System_Numerics_Internal.IBinaryInteger_1$instance<any>;
-    readonly As_IMinMaxValue_1: System_Numerics_Internal.IMinMaxValue_1$instance<any>;
-    readonly As_INumber_1: System_Numerics_Internal.INumber_1$instance<any>;
-    readonly As_INumberBase_1: System_Numerics_Internal.INumberBase_1$instance<any>;
+    As_IComparable(): IComparable$instance;
+    As_IComparable_1(): IComparable_1$instance<CLROf<ulong>>;
+    As_IConvertible(): IConvertible$instance;
+    As_IEquatable_1(): IEquatable_1$instance<CLROf<ulong>>;
+    As_IFormattable(): IFormattable$instance;
+    As_IParsable_1(): IParsable_1$instance<CLROf<ulong>>;
+    As_ISpanFormattable(): ISpanFormattable$instance;
+    As_ISpanParsable_1(): ISpanParsable_1$instance<CLROf<ulong>>;
+    As_IUtf8SpanFormattable(): IUtf8SpanFormattable$instance;
+    As_IUtf8SpanParsable_1(): IUtf8SpanParsable_1$instance<CLROf<ulong>>;
+    As_IAdditiveIdentity_2(): System_Numerics_Internal.IAdditiveIdentity_2$instance<CLROf<ulong>, CLROf<ulong>>;
+    As_IBinaryInteger_1(): System_Numerics_Internal.IBinaryInteger_1$instance<CLROf<ulong>>;
+    As_IMinMaxValue_1(): System_Numerics_Internal.IMinMaxValue_1$instance<CLROf<ulong>>;
+    As_INumber_1(): System_Numerics_Internal.INumber_1$instance<CLROf<ulong>>;
+    As_INumberBase_1(): System_Numerics_Internal.INumberBase_1$instance<CLROf<ulong>>;
 
     // Structural method bridges for numeric interface constraints
     Equals(other: UInt64): boolean;
-    CompareTo(obj: any): int;
+    CompareTo(obj: unknown): int;
     ToString(format: string, formatProvider: IFormatProvider): string;
-    TryFormat(destination: Span_1<CLROf<string>>, charsWritten: { value: ref<int> }, format: ReadOnlySpan_1<CLROf<string>>, provider: IFormatProvider): boolean;
+    TryFormat(destination: Span_1<CLROf<char>>, charsWritten: { value: ref<int> }, format: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider): boolean;
     GetByteCount(): int;
+    TryWriteBigEndian(destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
+    WriteBigEndian(destination: byte[], startIndex: int): int;
+    WriteBigEndian(destination: byte[]): int;
+    WriteBigEndian(destination: Span_1<CLROf<byte>>): int;
 }
 
 export type UInt64 = UInt64$instance & __UInt64$views;
 
 
-export class UIntPtr$instance {
+export class UIntPtr$instance implements IBitwiseOperators_3<CLROf<nuint>, CLROf<nuint>, CLROf<nuint>>, IComparisonOperators_3<CLROf<nuint>, CLROf<nuint>, CLROf<boolean>>, IEqualityOperators_3<CLROf<nuint>, CLROf<nuint>, CLROf<boolean>>, IModulusOperators_3<CLROf<nuint>, CLROf<nuint>, CLROf<nuint>>, IAdditionOperators_3<CLROf<nuint>, CLROf<nuint>, CLROf<nuint>>, IDecrementOperators_1<CLROf<nuint>>, IDivisionOperators_3<CLROf<nuint>, CLROf<nuint>, CLROf<nuint>>, IIncrementOperators_1<CLROf<nuint>>, IMultiplyOperators_3<CLROf<nuint>, CLROf<nuint>, CLROf<nuint>>, ISubtractionOperators_3<CLROf<nuint>, CLROf<nuint>, CLROf<nuint>>, IUnaryPlusOperators_2<CLROf<nuint>, CLROf<nuint>>, IUnaryNegationOperators_2<CLROf<nuint>, CLROf<nuint>>, IShiftOperators_3<CLROf<nuint>, CLROf<int>, CLROf<nuint>> {
     constructor(value: uint);
     constructor(value: ulong);
     constructor(value: ptr<void>);
-    compareTo(value: any): int;
-    compareTo(value: nuint): int;
-    equals(obj: any): boolean;
-    equals(other: nuint): boolean;
-    getHashCode(): int;
-    toPointer(): ptr<void>;
-    toString(): string;
-    toString(format: string): string;
-    toString(provider: IFormatProvider): string;
-    toString(format: string, provider: IFormatProvider): string;
-    toUInt32(): uint;
-    toUInt64(): ulong;
-    tryFormat(destination: Span_1<CLROf<string>>, charsWritten: { value: ref<int> }, format?: ReadOnlySpan_1<CLROf<string>>, provider?: IFormatProvider): boolean;
-    tryFormat(utf8Destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }, format?: ReadOnlySpan_1<CLROf<string>>, provider?: IFormatProvider): boolean;
-    static readonly zero: nuint;
+    CompareTo(value: unknown): int;
+    CompareTo(value: nuint): int;
+    Equals(obj: unknown): boolean;
+    Equals(other: nuint): boolean;
+    GetHashCode(): int;
+    ToPointer(): ptr<void>;
+    ToString(): string;
+    ToString(format: string): string;
+    ToString(provider: IFormatProvider): string;
+    ToString(format: string, provider: IFormatProvider): string;
+    ToUInt32(): uint;
+    ToUInt64(): ulong;
+    TryFormat(destination: Span_1<CLROf<char>>, charsWritten: { value: ref<int> }, format?: ReadOnlySpan_1<CLROf<char>>, provider?: IFormatProvider): boolean;
+    TryFormat(utf8Destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }, format?: ReadOnlySpan_1<CLROf<char>>, provider?: IFormatProvider): boolean;
+    static readonly Zero: nuint;
     static readonly Size: int;
     static readonly MaxValue: nuint;
     static readonly MinValue: nuint;
@@ -3573,8 +3637,8 @@ export class UIntPtr$instance {
     static Min(x: nuint, y: nuint): nuint;
     static Parse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, style?: NumberStyles, provider?: IFormatProvider): nuint;
     static Parse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, provider: IFormatProvider): nuint;
-    static Parse(s: ReadOnlySpan_1<CLROf<string>>, style?: NumberStyles, provider?: IFormatProvider): nuint;
-    static Parse(s: ReadOnlySpan_1<CLROf<string>>, provider: IFormatProvider): nuint;
+    static Parse(s: ReadOnlySpan_1<CLROf<char>>, style?: NumberStyles, provider?: IFormatProvider): nuint;
+    static Parse(s: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider): nuint;
     static Parse(s: string, style: NumberStyles, provider: IFormatProvider): nuint;
     static Parse(s: string, style: NumberStyles): nuint;
     static Parse(s: string, provider: IFormatProvider): nuint;
@@ -3588,9 +3652,9 @@ export class UIntPtr$instance {
     static TryParse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, style: NumberStyles, provider: IFormatProvider, result: { value: ref<nuint> }): boolean;
     static TryParse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, provider: IFormatProvider, result: { value: ref<nuint> }): boolean;
     static TryParse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, result: { value: ref<nuint> }): boolean;
-    static TryParse(s: ReadOnlySpan_1<CLROf<string>>, style: NumberStyles, provider: IFormatProvider, result: { value: ref<nuint> }): boolean;
-    static TryParse(s: ReadOnlySpan_1<CLROf<string>>, provider: IFormatProvider, result: { value: ref<nuint> }): boolean;
-    static TryParse(s: ReadOnlySpan_1<CLROf<string>>, result: { value: ref<nuint> }): boolean;
+    static TryParse(s: ReadOnlySpan_1<CLROf<char>>, style: NumberStyles, provider: IFormatProvider, result: { value: ref<nuint> }): boolean;
+    static TryParse(s: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider, result: { value: ref<nuint> }): boolean;
+    static TryParse(s: ReadOnlySpan_1<CLROf<char>>, result: { value: ref<nuint> }): boolean;
     static TryParse(s: string, style: NumberStyles, provider: IFormatProvider, result: { value: ref<nuint> }): boolean;
     static TryParse(s: string, provider: IFormatProvider, result: { value: ref<nuint> }): boolean;
     static TryParse(s: string, result: { value: ref<nuint> }): boolean;
@@ -3598,46 +3662,50 @@ export class UIntPtr$instance {
 
 
 export interface __UIntPtr$views {
-    readonly As_IComparable: IComparable$instance;
-    readonly As_IComparable_1_of_Decimal: IComparable_1$instance<CLROf<nuint>>;
-    readonly As_IEquatable_1_of_ConsoleKeyInfo: IEquatable_1$instance<CLROf<nuint>>;
-    readonly As_IFormattable: IFormattable$instance;
-    readonly As_IParsable_1_of_Decimal: IParsable_1$instance<any>;
-    readonly As_ISpanFormattable: ISpanFormattable$instance;
-    readonly As_ISpanParsable_1_of_Decimal: ISpanParsable_1$instance<any>;
-    readonly As_IUtf8SpanFormattable: IUtf8SpanFormattable$instance;
-    readonly As_IUtf8SpanParsable_1_of_Decimal: IUtf8SpanParsable_1$instance<any>;
-    readonly As_IAdditiveIdentity_2: System_Numerics_Internal.IAdditiveIdentity_2$instance<any, any>;
-    readonly As_IBinaryInteger_1: System_Numerics_Internal.IBinaryInteger_1$instance<any>;
-    readonly As_IMinMaxValue_1: System_Numerics_Internal.IMinMaxValue_1$instance<any>;
-    readonly As_INumber_1: System_Numerics_Internal.INumber_1$instance<any>;
-    readonly As_INumberBase_1: System_Numerics_Internal.INumberBase_1$instance<any>;
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_IComparable(): IComparable$instance;
+    As_IComparable_1(): IComparable_1$instance<CLROf<nuint>>;
+    As_IEquatable_1(): IEquatable_1$instance<CLROf<nuint>>;
+    As_IFormattable(): IFormattable$instance;
+    As_IParsable_1(): IParsable_1$instance<CLROf<nuint>>;
+    As_ISpanFormattable(): ISpanFormattable$instance;
+    As_ISpanParsable_1(): ISpanParsable_1$instance<CLROf<nuint>>;
+    As_IUtf8SpanFormattable(): IUtf8SpanFormattable$instance;
+    As_IUtf8SpanParsable_1(): IUtf8SpanParsable_1$instance<CLROf<nuint>>;
+    As_IAdditiveIdentity_2(): System_Numerics_Internal.IAdditiveIdentity_2$instance<CLROf<nuint>, CLROf<nuint>>;
+    As_IBinaryInteger_1(): System_Numerics_Internal.IBinaryInteger_1$instance<CLROf<nuint>>;
+    As_IMinMaxValue_1(): System_Numerics_Internal.IMinMaxValue_1$instance<CLROf<nuint>>;
+    As_INumber_1(): System_Numerics_Internal.INumber_1$instance<CLROf<nuint>>;
+    As_INumberBase_1(): System_Numerics_Internal.INumberBase_1$instance<CLROf<nuint>>;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 
     // Structural method bridges for numeric interface constraints
     Equals(other: UIntPtr): boolean;
-    CompareTo(obj: any): int;
+    CompareTo(obj: unknown): int;
     ToString(format: string, formatProvider: IFormatProvider): string;
-    TryFormat(destination: Span_1<CLROf<string>>, charsWritten: { value: ref<int> }, format: ReadOnlySpan_1<CLROf<string>>, provider: IFormatProvider): boolean;
+    TryFormat(destination: Span_1<CLROf<char>>, charsWritten: { value: ref<int> }, format: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider): boolean;
     GetByteCount(): int;
+    TryWriteBigEndian(destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
+    WriteBigEndian(destination: byte[], startIndex: int): int;
+    WriteBigEndian(destination: byte[]): int;
+    WriteBigEndian(destination: Span_1<CLROf<byte>>): int;
 }
 
 export type UIntPtr = UIntPtr$instance & __UIntPtr$views;
 
 
 export class UriCreationOptions$instance {
-    dangerousDisablePathAndQueryCanonicalization: boolean;
+    DangerousDisablePathAndQueryCanonicalization: boolean;
 }
 
 
 export type UriCreationOptions = UriCreationOptions$instance;
 
 export class ValueTuple$instance {
-    compareTo(other: ValueTuple): int;
-    equals(obj: any): boolean;
-    equals(other: ValueTuple): boolean;
-    getHashCode(): int;
-    toString(): string;
+    CompareTo(other: ValueTuple): int;
+    Equals(obj: unknown): boolean;
+    Equals(other: ValueTuple): boolean;
+    GetHashCode(): int;
+    ToString(): string;
     static Create(): ValueTuple;
     static Create<T1, T2, T3, T4, T5, T6, T7, T8>(item1: T1, item2: T2, item3: T3, item4: T4, item5: T5, item6: T6, item7: T7, item8: T8): ValueTuple_8<T1, T2, T3, T4, T5, T6, T7, ValueTuple_1<T8>>;
     static Create<T1, T2, T3, T4, T5, T6, T7>(item1: T1, item2: T2, item3: T3, item4: T4, item5: T5, item6: T6, item7: T7): ValueTuple_7<T1, T2, T3, T4, T5, T6, T7>;
@@ -3651,16 +3719,16 @@ export class ValueTuple$instance {
 
 
 export interface __ValueTuple$views {
-    readonly As_IStructuralComparable: System_Collections_Internal.IStructuralComparable$instance;
-    readonly As_IStructuralEquatable: System_Collections_Internal.IStructuralEquatable$instance;
-    readonly As_IComparable: IComparable$instance;
-    readonly As_IComparable_1_of_Decimal: IComparable_1$instance<ValueTuple>;
-    readonly As_IEquatable_1_of_ConsoleKeyInfo: IEquatable_1$instance<ValueTuple>;
-    readonly As_ITuple: System_Runtime_CompilerServices_Internal.ITuple$instance;
+    As_IStructuralComparable(): System_Collections_Internal.IStructuralComparable$instance;
+    As_IStructuralEquatable(): System_Collections_Internal.IStructuralEquatable$instance;
+    As_IComparable(): IComparable$instance;
+    As_IComparable_1(): IComparable_1$instance<ValueTuple>;
+    As_IEquatable_1(): IEquatable_1$instance<ValueTuple>;
+    As_ITuple(): System_Runtime_CompilerServices_Internal.ITuple$instance;
 
     // Structural method bridges for numeric interface constraints
     Equals(other: ValueTuple): boolean;
-    CompareTo(obj: any): int;
+    CompareTo(obj: unknown): int;
 }
 
 export type ValueTuple = ValueTuple$instance & __ValueTuple$views;
@@ -3669,25 +3737,25 @@ export type ValueTuple = ValueTuple$instance & __ValueTuple$views;
 export class ValueTuple_1$instance<T1> {
     constructor(item1: T1);
     Item1: T1;
-    compareTo(other: ValueTuple_1<T1>): int;
-    equals(obj: any): boolean;
-    equals(other: ValueTuple_1<T1>): boolean;
-    getHashCode(): int;
-    toString(): string;
+    CompareTo(other: ValueTuple_1<T1>): int;
+    Equals(obj: unknown): boolean;
+    Equals(other: ValueTuple_1<T1>): boolean;
+    GetHashCode(): int;
+    ToString(): string;
 }
 
 
 export interface __ValueTuple_1$views<T1> {
-    readonly As_IStructuralComparable: System_Collections_Internal.IStructuralComparable$instance;
-    readonly As_IStructuralEquatable: System_Collections_Internal.IStructuralEquatable$instance;
-    readonly As_IComparable: IComparable$instance;
-    readonly As_IComparable_1_of_Decimal: IComparable_1$instance<ValueTuple_1<T1>>;
-    readonly As_IEquatable_1_of_ConsoleKeyInfo: IEquatable_1$instance<ValueTuple_1<T1>>;
-    readonly As_ITuple: System_Runtime_CompilerServices_Internal.ITuple$instance;
+    As_IStructuralComparable(): System_Collections_Internal.IStructuralComparable$instance;
+    As_IStructuralEquatable(): System_Collections_Internal.IStructuralEquatable$instance;
+    As_IComparable(): IComparable$instance;
+    As_IComparable_1(): IComparable_1$instance<ValueTuple_1<T1>>;
+    As_IEquatable_1(): IEquatable_1$instance<ValueTuple_1<T1>>;
+    As_ITuple(): System_Runtime_CompilerServices_Internal.ITuple$instance;
 
     // Structural method bridges for numeric interface constraints
     Equals(other: ValueTuple_1<T1>): boolean;
-    CompareTo(obj: any): int;
+    CompareTo(obj: unknown): int;
 }
 
 export type ValueTuple_1<T1> = ValueTuple_1$instance<T1> & __ValueTuple_1$views<T1>;
@@ -3697,25 +3765,25 @@ export class ValueTuple_2$instance<T1, T2> {
     constructor(item1: T1, item2: T2);
     Item1: T1;
     Item2: T2;
-    compareTo(other: ValueTuple_2<T1, T2>): int;
-    equals(obj: any): boolean;
-    equals(other: ValueTuple_2<T1, T2>): boolean;
-    getHashCode(): int;
-    toString(): string;
+    CompareTo(other: ValueTuple_2<T1, T2>): int;
+    Equals(obj: unknown): boolean;
+    Equals(other: ValueTuple_2<T1, T2>): boolean;
+    GetHashCode(): int;
+    ToString(): string;
 }
 
 
 export interface __ValueTuple_2$views<T1, T2> {
-    readonly As_IStructuralComparable: System_Collections_Internal.IStructuralComparable$instance;
-    readonly As_IStructuralEquatable: System_Collections_Internal.IStructuralEquatable$instance;
-    readonly As_IComparable: IComparable$instance;
-    readonly As_IComparable_1_of_Decimal: IComparable_1$instance<ValueTuple_2<T1, T2>>;
-    readonly As_IEquatable_1_of_ConsoleKeyInfo: IEquatable_1$instance<ValueTuple_2<T1, T2>>;
-    readonly As_ITuple: System_Runtime_CompilerServices_Internal.ITuple$instance;
+    As_IStructuralComparable(): System_Collections_Internal.IStructuralComparable$instance;
+    As_IStructuralEquatable(): System_Collections_Internal.IStructuralEquatable$instance;
+    As_IComparable(): IComparable$instance;
+    As_IComparable_1(): IComparable_1$instance<ValueTuple_2<T1, T2>>;
+    As_IEquatable_1(): IEquatable_1$instance<ValueTuple_2<T1, T2>>;
+    As_ITuple(): System_Runtime_CompilerServices_Internal.ITuple$instance;
 
     // Structural method bridges for numeric interface constraints
     Equals(other: ValueTuple_2<T1, T2>): boolean;
-    CompareTo(obj: any): int;
+    CompareTo(obj: unknown): int;
 }
 
 export type ValueTuple_2<T1, T2> = ValueTuple_2$instance<T1, T2> & __ValueTuple_2$views<T1, T2>;
@@ -3726,25 +3794,25 @@ export class ValueTuple_3$instance<T1, T2, T3> {
     Item1: T1;
     Item2: T2;
     Item3: T3;
-    compareTo(other: ValueTuple_3<T1, T2, T3>): int;
-    equals(obj: any): boolean;
-    equals(other: ValueTuple_3<T1, T2, T3>): boolean;
-    getHashCode(): int;
-    toString(): string;
+    CompareTo(other: ValueTuple_3<T1, T2, T3>): int;
+    Equals(obj: unknown): boolean;
+    Equals(other: ValueTuple_3<T1, T2, T3>): boolean;
+    GetHashCode(): int;
+    ToString(): string;
 }
 
 
 export interface __ValueTuple_3$views<T1, T2, T3> {
-    readonly As_IStructuralComparable: System_Collections_Internal.IStructuralComparable$instance;
-    readonly As_IStructuralEquatable: System_Collections_Internal.IStructuralEquatable$instance;
-    readonly As_IComparable: IComparable$instance;
-    readonly As_IComparable_1_of_Decimal: IComparable_1$instance<ValueTuple_3<T1, T2, T3>>;
-    readonly As_IEquatable_1_of_ConsoleKeyInfo: IEquatable_1$instance<ValueTuple_3<T1, T2, T3>>;
-    readonly As_ITuple: System_Runtime_CompilerServices_Internal.ITuple$instance;
+    As_IStructuralComparable(): System_Collections_Internal.IStructuralComparable$instance;
+    As_IStructuralEquatable(): System_Collections_Internal.IStructuralEquatable$instance;
+    As_IComparable(): IComparable$instance;
+    As_IComparable_1(): IComparable_1$instance<ValueTuple_3<T1, T2, T3>>;
+    As_IEquatable_1(): IEquatable_1$instance<ValueTuple_3<T1, T2, T3>>;
+    As_ITuple(): System_Runtime_CompilerServices_Internal.ITuple$instance;
 
     // Structural method bridges for numeric interface constraints
     Equals(other: ValueTuple_3<T1, T2, T3>): boolean;
-    CompareTo(obj: any): int;
+    CompareTo(obj: unknown): int;
 }
 
 export type ValueTuple_3<T1, T2, T3> = ValueTuple_3$instance<T1, T2, T3> & __ValueTuple_3$views<T1, T2, T3>;
@@ -3756,25 +3824,25 @@ export class ValueTuple_4$instance<T1, T2, T3, T4> {
     Item2: T2;
     Item3: T3;
     Item4: T4;
-    compareTo(other: ValueTuple_4<T1, T2, T3, T4>): int;
-    equals(obj: any): boolean;
-    equals(other: ValueTuple_4<T1, T2, T3, T4>): boolean;
-    getHashCode(): int;
-    toString(): string;
+    CompareTo(other: ValueTuple_4<T1, T2, T3, T4>): int;
+    Equals(obj: unknown): boolean;
+    Equals(other: ValueTuple_4<T1, T2, T3, T4>): boolean;
+    GetHashCode(): int;
+    ToString(): string;
 }
 
 
 export interface __ValueTuple_4$views<T1, T2, T3, T4> {
-    readonly As_IStructuralComparable: System_Collections_Internal.IStructuralComparable$instance;
-    readonly As_IStructuralEquatable: System_Collections_Internal.IStructuralEquatable$instance;
-    readonly As_IComparable: IComparable$instance;
-    readonly As_IComparable_1_of_Decimal: IComparable_1$instance<ValueTuple_4<T1, T2, T3, T4>>;
-    readonly As_IEquatable_1_of_ConsoleKeyInfo: IEquatable_1$instance<ValueTuple_4<T1, T2, T3, T4>>;
-    readonly As_ITuple: System_Runtime_CompilerServices_Internal.ITuple$instance;
+    As_IStructuralComparable(): System_Collections_Internal.IStructuralComparable$instance;
+    As_IStructuralEquatable(): System_Collections_Internal.IStructuralEquatable$instance;
+    As_IComparable(): IComparable$instance;
+    As_IComparable_1(): IComparable_1$instance<ValueTuple_4<T1, T2, T3, T4>>;
+    As_IEquatable_1(): IEquatable_1$instance<ValueTuple_4<T1, T2, T3, T4>>;
+    As_ITuple(): System_Runtime_CompilerServices_Internal.ITuple$instance;
 
     // Structural method bridges for numeric interface constraints
     Equals(other: ValueTuple_4<T1, T2, T3, T4>): boolean;
-    CompareTo(obj: any): int;
+    CompareTo(obj: unknown): int;
 }
 
 export type ValueTuple_4<T1, T2, T3, T4> = ValueTuple_4$instance<T1, T2, T3, T4> & __ValueTuple_4$views<T1, T2, T3, T4>;
@@ -3787,25 +3855,25 @@ export class ValueTuple_5$instance<T1, T2, T3, T4, T5> {
     Item3: T3;
     Item4: T4;
     Item5: T5;
-    compareTo(other: ValueTuple_5<T1, T2, T3, T4, T5>): int;
-    equals(obj: any): boolean;
-    equals(other: ValueTuple_5<T1, T2, T3, T4, T5>): boolean;
-    getHashCode(): int;
-    toString(): string;
+    CompareTo(other: ValueTuple_5<T1, T2, T3, T4, T5>): int;
+    Equals(obj: unknown): boolean;
+    Equals(other: ValueTuple_5<T1, T2, T3, T4, T5>): boolean;
+    GetHashCode(): int;
+    ToString(): string;
 }
 
 
 export interface __ValueTuple_5$views<T1, T2, T3, T4, T5> {
-    readonly As_IStructuralComparable: System_Collections_Internal.IStructuralComparable$instance;
-    readonly As_IStructuralEquatable: System_Collections_Internal.IStructuralEquatable$instance;
-    readonly As_IComparable: IComparable$instance;
-    readonly As_IComparable_1_of_Decimal: IComparable_1$instance<ValueTuple_5<T1, T2, T3, T4, T5>>;
-    readonly As_IEquatable_1_of_ConsoleKeyInfo: IEquatable_1$instance<ValueTuple_5<T1, T2, T3, T4, T5>>;
-    readonly As_ITuple: System_Runtime_CompilerServices_Internal.ITuple$instance;
+    As_IStructuralComparable(): System_Collections_Internal.IStructuralComparable$instance;
+    As_IStructuralEquatable(): System_Collections_Internal.IStructuralEquatable$instance;
+    As_IComparable(): IComparable$instance;
+    As_IComparable_1(): IComparable_1$instance<ValueTuple_5<T1, T2, T3, T4, T5>>;
+    As_IEquatable_1(): IEquatable_1$instance<ValueTuple_5<T1, T2, T3, T4, T5>>;
+    As_ITuple(): System_Runtime_CompilerServices_Internal.ITuple$instance;
 
     // Structural method bridges for numeric interface constraints
     Equals(other: ValueTuple_5<T1, T2, T3, T4, T5>): boolean;
-    CompareTo(obj: any): int;
+    CompareTo(obj: unknown): int;
 }
 
 export type ValueTuple_5<T1, T2, T3, T4, T5> = ValueTuple_5$instance<T1, T2, T3, T4, T5> & __ValueTuple_5$views<T1, T2, T3, T4, T5>;
@@ -3819,25 +3887,25 @@ export class ValueTuple_6$instance<T1, T2, T3, T4, T5, T6> {
     Item4: T4;
     Item5: T5;
     Item6: T6;
-    compareTo(other: ValueTuple_6<T1, T2, T3, T4, T5, T6>): int;
-    equals(obj: any): boolean;
-    equals(other: ValueTuple_6<T1, T2, T3, T4, T5, T6>): boolean;
-    getHashCode(): int;
-    toString(): string;
+    CompareTo(other: ValueTuple_6<T1, T2, T3, T4, T5, T6>): int;
+    Equals(obj: unknown): boolean;
+    Equals(other: ValueTuple_6<T1, T2, T3, T4, T5, T6>): boolean;
+    GetHashCode(): int;
+    ToString(): string;
 }
 
 
 export interface __ValueTuple_6$views<T1, T2, T3, T4, T5, T6> {
-    readonly As_IStructuralComparable: System_Collections_Internal.IStructuralComparable$instance;
-    readonly As_IStructuralEquatable: System_Collections_Internal.IStructuralEquatable$instance;
-    readonly As_IComparable: IComparable$instance;
-    readonly As_IComparable_1_of_Decimal: IComparable_1$instance<ValueTuple_6<T1, T2, T3, T4, T5, T6>>;
-    readonly As_IEquatable_1_of_ConsoleKeyInfo: IEquatable_1$instance<ValueTuple_6<T1, T2, T3, T4, T5, T6>>;
-    readonly As_ITuple: System_Runtime_CompilerServices_Internal.ITuple$instance;
+    As_IStructuralComparable(): System_Collections_Internal.IStructuralComparable$instance;
+    As_IStructuralEquatable(): System_Collections_Internal.IStructuralEquatable$instance;
+    As_IComparable(): IComparable$instance;
+    As_IComparable_1(): IComparable_1$instance<ValueTuple_6<T1, T2, T3, T4, T5, T6>>;
+    As_IEquatable_1(): IEquatable_1$instance<ValueTuple_6<T1, T2, T3, T4, T5, T6>>;
+    As_ITuple(): System_Runtime_CompilerServices_Internal.ITuple$instance;
 
     // Structural method bridges for numeric interface constraints
     Equals(other: ValueTuple_6<T1, T2, T3, T4, T5, T6>): boolean;
-    CompareTo(obj: any): int;
+    CompareTo(obj: unknown): int;
 }
 
 export type ValueTuple_6<T1, T2, T3, T4, T5, T6> = ValueTuple_6$instance<T1, T2, T3, T4, T5, T6> & __ValueTuple_6$views<T1, T2, T3, T4, T5, T6>;
@@ -3852,31 +3920,31 @@ export class ValueTuple_7$instance<T1, T2, T3, T4, T5, T6, T7> {
     Item5: T5;
     Item6: T6;
     Item7: T7;
-    compareTo(other: ValueTuple_7<T1, T2, T3, T4, T5, T6, T7>): int;
-    equals(obj: any): boolean;
-    equals(other: ValueTuple_7<T1, T2, T3, T4, T5, T6, T7>): boolean;
-    getHashCode(): int;
-    toString(): string;
+    CompareTo(other: ValueTuple_7<T1, T2, T3, T4, T5, T6, T7>): int;
+    Equals(obj: unknown): boolean;
+    Equals(other: ValueTuple_7<T1, T2, T3, T4, T5, T6, T7>): boolean;
+    GetHashCode(): int;
+    ToString(): string;
 }
 
 
 export interface __ValueTuple_7$views<T1, T2, T3, T4, T5, T6, T7> {
-    readonly As_IStructuralComparable: System_Collections_Internal.IStructuralComparable$instance;
-    readonly As_IStructuralEquatable: System_Collections_Internal.IStructuralEquatable$instance;
-    readonly As_IComparable: IComparable$instance;
-    readonly As_IComparable_1_of_Decimal: IComparable_1$instance<ValueTuple_7<T1, T2, T3, T4, T5, T6, T7>>;
-    readonly As_IEquatable_1_of_ConsoleKeyInfo: IEquatable_1$instance<ValueTuple_7<T1, T2, T3, T4, T5, T6, T7>>;
-    readonly As_ITuple: System_Runtime_CompilerServices_Internal.ITuple$instance;
+    As_IStructuralComparable(): System_Collections_Internal.IStructuralComparable$instance;
+    As_IStructuralEquatable(): System_Collections_Internal.IStructuralEquatable$instance;
+    As_IComparable(): IComparable$instance;
+    As_IComparable_1(): IComparable_1$instance<ValueTuple_7<T1, T2, T3, T4, T5, T6, T7>>;
+    As_IEquatable_1(): IEquatable_1$instance<ValueTuple_7<T1, T2, T3, T4, T5, T6, T7>>;
+    As_ITuple(): System_Runtime_CompilerServices_Internal.ITuple$instance;
 
     // Structural method bridges for numeric interface constraints
     Equals(other: ValueTuple_7<T1, T2, T3, T4, T5, T6, T7>): boolean;
-    CompareTo(obj: any): int;
+    CompareTo(obj: unknown): int;
 }
 
 export type ValueTuple_7<T1, T2, T3, T4, T5, T6, T7> = ValueTuple_7$instance<T1, T2, T3, T4, T5, T6, T7> & __ValueTuple_7$views<T1, T2, T3, T4, T5, T6, T7>;
 
 
-export class ValueTuple_8$instance<T1, T2, T3, T4, T5, T6, T7, TRest extends any> {
+export class ValueTuple_8$instance<T1, T2, T3, T4, T5, T6, T7, TRest extends unknown> {
     constructor(item1: T1, item2: T2, item3: T3, item4: T4, item5: T5, item6: T6, item7: T7, rest: TRest);
     Item1: T1;
     Item2: T2;
@@ -3886,25 +3954,25 @@ export class ValueTuple_8$instance<T1, T2, T3, T4, T5, T6, T7, TRest extends any
     Item6: T6;
     Item7: T7;
     Rest: TRest;
-    compareTo(other: ValueTuple_8<T1, T2, T3, T4, T5, T6, T7, TRest>): int;
-    equals(obj: any): boolean;
-    equals(other: ValueTuple_8<T1, T2, T3, T4, T5, T6, T7, TRest>): boolean;
-    getHashCode(): int;
-    toString(): string;
+    CompareTo(other: ValueTuple_8<T1, T2, T3, T4, T5, T6, T7, TRest>): int;
+    Equals(obj: unknown): boolean;
+    Equals(other: ValueTuple_8<T1, T2, T3, T4, T5, T6, T7, TRest>): boolean;
+    GetHashCode(): int;
+    ToString(): string;
 }
 
 
-export interface __ValueTuple_8$views<T1, T2, T3, T4, T5, T6, T7, TRest extends any> {
-    readonly As_IStructuralComparable: System_Collections_Internal.IStructuralComparable$instance;
-    readonly As_IStructuralEquatable: System_Collections_Internal.IStructuralEquatable$instance;
-    readonly As_IComparable: IComparable$instance;
-    readonly As_IComparable_1_of_Decimal: IComparable_1$instance<ValueTuple_8<T1, T2, T3, T4, T5, T6, T7, TRest>>;
-    readonly As_IEquatable_1_of_ConsoleKeyInfo: IEquatable_1$instance<ValueTuple_8<T1, T2, T3, T4, T5, T6, T7, TRest>>;
-    readonly As_ITuple: System_Runtime_CompilerServices_Internal.ITuple$instance;
+export interface __ValueTuple_8$views<T1, T2, T3, T4, T5, T6, T7, TRest extends unknown> {
+    As_IStructuralComparable(): System_Collections_Internal.IStructuralComparable$instance;
+    As_IStructuralEquatable(): System_Collections_Internal.IStructuralEquatable$instance;
+    As_IComparable(): IComparable$instance;
+    As_IComparable_1(): IComparable_1$instance<ValueTuple_8<T1, T2, T3, T4, T5, T6, T7, TRest>>;
+    As_IEquatable_1(): IEquatable_1$instance<ValueTuple_8<T1, T2, T3, T4, T5, T6, T7, TRest>>;
+    As_ITuple(): System_Runtime_CompilerServices_Internal.ITuple$instance;
 
     // Structural method bridges for numeric interface constraints
     Equals(other: ValueTuple_8<T1, T2, T3, T4, T5, T6, T7, TRest>): boolean;
-    CompareTo(obj: any): int;
+    CompareTo(obj: unknown): int;
 }
 
 export type ValueTuple_8<T1, T2, T3, T4, T5, T6, T7, TRest> = ValueTuple_8$instance<T1, T2, T3, T4, T5, T6, T7, TRest> & __ValueTuple_8$views<T1, T2, T3, T4, T5, T6, T7, TRest>;
@@ -3920,318 +3988,318 @@ export class AccessViolationException$instance extends SystemException$instance 
     constructor();
     constructor(message: string);
     constructor(message: string, innerException: Exception);
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
 export interface __AccessViolationException$views {
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type AccessViolationException = AccessViolationException$instance & __AccessViolationException$views;
 
 
 export class Action$instance extends Function {
-    constructor(object_: any, method: nint);
-    beginInvoke(callback: AsyncCallback, object_: any): IAsyncResult;
-    clone(): any;
-    endInvoke(result: IAsyncResult): void;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(): void;
+    constructor(object_: unknown, method: nint);
+    BeginInvoke(callback: AsyncCallback, object_: unknown): IAsyncResult;
+    Clone(): unknown;
+    EndInvoke(result: IAsyncResult): void;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    Invoke(): void;
 }
 
 
 export interface __Action$views {
-    readonly As_ICloneable: ICloneable$instance;
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ICloneable(): ICloneable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type Action = Action$instance & __Action$views;
 
 
 export class Action_1$instance<T> extends Function {
-    constructor(object_: any, method: nint);
-    beginInvoke(obj: T, callback: AsyncCallback, object_: any): IAsyncResult;
-    clone(): any;
-    endInvoke(result: IAsyncResult): void;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(obj: T): void;
+    constructor(object_: unknown, method: nint);
+    BeginInvoke(obj: T, callback: AsyncCallback, object_: unknown): IAsyncResult;
+    Clone(): unknown;
+    EndInvoke(result: IAsyncResult): void;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    Invoke(obj: T): void;
 }
 
 
 export interface __Action_1$views<T> {
-    readonly As_ICloneable: ICloneable$instance;
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ICloneable(): ICloneable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type Action_1<T> = Action_1$instance<T> & __Action_1$views<T>;
 
 
 export class Action_10$instance<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10> extends Function {
-    constructor(object_: any, method: nint);
-    beginInvoke(arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, arg9: T9, arg10: T10, callback: AsyncCallback, object_: any): IAsyncResult;
-    clone(): any;
-    endInvoke(result: IAsyncResult): void;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, arg9: T9, arg10: T10): void;
+    constructor(object_: unknown, method: nint);
+    BeginInvoke(arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, arg9: T9, arg10: T10, callback: AsyncCallback, object_: unknown): IAsyncResult;
+    Clone(): unknown;
+    EndInvoke(result: IAsyncResult): void;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    Invoke(arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, arg9: T9, arg10: T10): void;
 }
 
 
 export interface __Action_10$views<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10> {
-    readonly As_ICloneable: ICloneable$instance;
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ICloneable(): ICloneable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type Action_10<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10> = Action_10$instance<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10> & __Action_10$views<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10>;
 
 
 export class Action_11$instance<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11> extends Function {
-    constructor(object_: any, method: nint);
-    beginInvoke(arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, arg9: T9, arg10: T10, arg11: T11, callback: AsyncCallback, object_: any): IAsyncResult;
-    clone(): any;
-    endInvoke(result: IAsyncResult): void;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, arg9: T9, arg10: T10, arg11: T11): void;
+    constructor(object_: unknown, method: nint);
+    BeginInvoke(arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, arg9: T9, arg10: T10, arg11: T11, callback: AsyncCallback, object_: unknown): IAsyncResult;
+    Clone(): unknown;
+    EndInvoke(result: IAsyncResult): void;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    Invoke(arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, arg9: T9, arg10: T10, arg11: T11): void;
 }
 
 
 export interface __Action_11$views<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11> {
-    readonly As_ICloneable: ICloneable$instance;
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ICloneable(): ICloneable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type Action_11<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11> = Action_11$instance<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11> & __Action_11$views<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11>;
 
 
 export class Action_12$instance<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12> extends Function {
-    constructor(object_: any, method: nint);
-    beginInvoke(arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, arg9: T9, arg10: T10, arg11: T11, arg12: T12, callback: AsyncCallback, object_: any): IAsyncResult;
-    clone(): any;
-    endInvoke(result: IAsyncResult): void;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, arg9: T9, arg10: T10, arg11: T11, arg12: T12): void;
+    constructor(object_: unknown, method: nint);
+    BeginInvoke(arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, arg9: T9, arg10: T10, arg11: T11, arg12: T12, callback: AsyncCallback, object_: unknown): IAsyncResult;
+    Clone(): unknown;
+    EndInvoke(result: IAsyncResult): void;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    Invoke(arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, arg9: T9, arg10: T10, arg11: T11, arg12: T12): void;
 }
 
 
 export interface __Action_12$views<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12> {
-    readonly As_ICloneable: ICloneable$instance;
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ICloneable(): ICloneable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type Action_12<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12> = Action_12$instance<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12> & __Action_12$views<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12>;
 
 
 export class Action_13$instance<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13> extends Function {
-    constructor(object_: any, method: nint);
-    beginInvoke(arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, arg9: T9, arg10: T10, arg11: T11, arg12: T12, arg13: T13, callback: AsyncCallback, object_: any): IAsyncResult;
-    clone(): any;
-    endInvoke(result: IAsyncResult): void;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, arg9: T9, arg10: T10, arg11: T11, arg12: T12, arg13: T13): void;
+    constructor(object_: unknown, method: nint);
+    BeginInvoke(arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, arg9: T9, arg10: T10, arg11: T11, arg12: T12, arg13: T13, callback: AsyncCallback, object_: unknown): IAsyncResult;
+    Clone(): unknown;
+    EndInvoke(result: IAsyncResult): void;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    Invoke(arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, arg9: T9, arg10: T10, arg11: T11, arg12: T12, arg13: T13): void;
 }
 
 
 export interface __Action_13$views<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13> {
-    readonly As_ICloneable: ICloneable$instance;
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ICloneable(): ICloneable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type Action_13<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13> = Action_13$instance<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13> & __Action_13$views<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13>;
 
 
 export class Action_14$instance<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14> extends Function {
-    constructor(object_: any, method: nint);
-    beginInvoke(arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, arg9: T9, arg10: T10, arg11: T11, arg12: T12, arg13: T13, arg14: T14, callback: AsyncCallback, object_: any): IAsyncResult;
-    clone(): any;
-    endInvoke(result: IAsyncResult): void;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, arg9: T9, arg10: T10, arg11: T11, arg12: T12, arg13: T13, arg14: T14): void;
+    constructor(object_: unknown, method: nint);
+    BeginInvoke(arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, arg9: T9, arg10: T10, arg11: T11, arg12: T12, arg13: T13, arg14: T14, callback: AsyncCallback, object_: unknown): IAsyncResult;
+    Clone(): unknown;
+    EndInvoke(result: IAsyncResult): void;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    Invoke(arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, arg9: T9, arg10: T10, arg11: T11, arg12: T12, arg13: T13, arg14: T14): void;
 }
 
 
 export interface __Action_14$views<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14> {
-    readonly As_ICloneable: ICloneable$instance;
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ICloneable(): ICloneable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type Action_14<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14> = Action_14$instance<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14> & __Action_14$views<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14>;
 
 
 export class Action_15$instance<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15> extends Function {
-    constructor(object_: any, method: nint);
-    beginInvoke(arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, arg9: T9, arg10: T10, arg11: T11, arg12: T12, arg13: T13, arg14: T14, arg15: T15, callback: AsyncCallback, object_: any): IAsyncResult;
-    clone(): any;
-    endInvoke(result: IAsyncResult): void;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, arg9: T9, arg10: T10, arg11: T11, arg12: T12, arg13: T13, arg14: T14, arg15: T15): void;
+    constructor(object_: unknown, method: nint);
+    BeginInvoke(arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, arg9: T9, arg10: T10, arg11: T11, arg12: T12, arg13: T13, arg14: T14, arg15: T15, callback: AsyncCallback, object_: unknown): IAsyncResult;
+    Clone(): unknown;
+    EndInvoke(result: IAsyncResult): void;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    Invoke(arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, arg9: T9, arg10: T10, arg11: T11, arg12: T12, arg13: T13, arg14: T14, arg15: T15): void;
 }
 
 
 export interface __Action_15$views<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15> {
-    readonly As_ICloneable: ICloneable$instance;
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ICloneable(): ICloneable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type Action_15<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15> = Action_15$instance<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15> & __Action_15$views<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15>;
 
 
 export class Action_16$instance<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16> extends Function {
-    constructor(object_: any, method: nint);
-    beginInvoke(arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, arg9: T9, arg10: T10, arg11: T11, arg12: T12, arg13: T13, arg14: T14, arg15: T15, arg16: T16, callback: AsyncCallback, object_: any): IAsyncResult;
-    clone(): any;
-    endInvoke(result: IAsyncResult): void;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, arg9: T9, arg10: T10, arg11: T11, arg12: T12, arg13: T13, arg14: T14, arg15: T15, arg16: T16): void;
+    constructor(object_: unknown, method: nint);
+    BeginInvoke(arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, arg9: T9, arg10: T10, arg11: T11, arg12: T12, arg13: T13, arg14: T14, arg15: T15, arg16: T16, callback: AsyncCallback, object_: unknown): IAsyncResult;
+    Clone(): unknown;
+    EndInvoke(result: IAsyncResult): void;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    Invoke(arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, arg9: T9, arg10: T10, arg11: T11, arg12: T12, arg13: T13, arg14: T14, arg15: T15, arg16: T16): void;
 }
 
 
 export interface __Action_16$views<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16> {
-    readonly As_ICloneable: ICloneable$instance;
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ICloneable(): ICloneable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type Action_16<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16> = Action_16$instance<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16> & __Action_16$views<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16>;
 
 
 export class Action_2$instance<T1, T2> extends Function {
-    constructor(object_: any, method: nint);
-    beginInvoke(arg1: T1, arg2: T2, callback: AsyncCallback, object_: any): IAsyncResult;
-    clone(): any;
-    endInvoke(result: IAsyncResult): void;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(arg1: T1, arg2: T2): void;
+    constructor(object_: unknown, method: nint);
+    BeginInvoke(arg1: T1, arg2: T2, callback: AsyncCallback, object_: unknown): IAsyncResult;
+    Clone(): unknown;
+    EndInvoke(result: IAsyncResult): void;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    Invoke(arg1: T1, arg2: T2): void;
 }
 
 
 export interface __Action_2$views<T1, T2> {
-    readonly As_ICloneable: ICloneable$instance;
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ICloneable(): ICloneable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type Action_2<T1, T2> = Action_2$instance<T1, T2> & __Action_2$views<T1, T2>;
 
 
 export class Action_3$instance<T1, T2, T3> extends Function {
-    constructor(object_: any, method: nint);
-    beginInvoke(arg1: T1, arg2: T2, arg3: T3, callback: AsyncCallback, object_: any): IAsyncResult;
-    clone(): any;
-    endInvoke(result: IAsyncResult): void;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(arg1: T1, arg2: T2, arg3: T3): void;
+    constructor(object_: unknown, method: nint);
+    BeginInvoke(arg1: T1, arg2: T2, arg3: T3, callback: AsyncCallback, object_: unknown): IAsyncResult;
+    Clone(): unknown;
+    EndInvoke(result: IAsyncResult): void;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    Invoke(arg1: T1, arg2: T2, arg3: T3): void;
 }
 
 
 export interface __Action_3$views<T1, T2, T3> {
-    readonly As_ICloneable: ICloneable$instance;
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ICloneable(): ICloneable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type Action_3<T1, T2, T3> = Action_3$instance<T1, T2, T3> & __Action_3$views<T1, T2, T3>;
 
 
 export class Action_4$instance<T1, T2, T3, T4> extends Function {
-    constructor(object_: any, method: nint);
-    beginInvoke(arg1: T1, arg2: T2, arg3: T3, arg4: T4, callback: AsyncCallback, object_: any): IAsyncResult;
-    clone(): any;
-    endInvoke(result: IAsyncResult): void;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(arg1: T1, arg2: T2, arg3: T3, arg4: T4): void;
+    constructor(object_: unknown, method: nint);
+    BeginInvoke(arg1: T1, arg2: T2, arg3: T3, arg4: T4, callback: AsyncCallback, object_: unknown): IAsyncResult;
+    Clone(): unknown;
+    EndInvoke(result: IAsyncResult): void;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    Invoke(arg1: T1, arg2: T2, arg3: T3, arg4: T4): void;
 }
 
 
 export interface __Action_4$views<T1, T2, T3, T4> {
-    readonly As_ICloneable: ICloneable$instance;
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ICloneable(): ICloneable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type Action_4<T1, T2, T3, T4> = Action_4$instance<T1, T2, T3, T4> & __Action_4$views<T1, T2, T3, T4>;
 
 
 export class Action_5$instance<T1, T2, T3, T4, T5> extends Function {
-    constructor(object_: any, method: nint);
-    beginInvoke(arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, callback: AsyncCallback, object_: any): IAsyncResult;
-    clone(): any;
-    endInvoke(result: IAsyncResult): void;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5): void;
+    constructor(object_: unknown, method: nint);
+    BeginInvoke(arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, callback: AsyncCallback, object_: unknown): IAsyncResult;
+    Clone(): unknown;
+    EndInvoke(result: IAsyncResult): void;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    Invoke(arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5): void;
 }
 
 
 export interface __Action_5$views<T1, T2, T3, T4, T5> {
-    readonly As_ICloneable: ICloneable$instance;
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ICloneable(): ICloneable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type Action_5<T1, T2, T3, T4, T5> = Action_5$instance<T1, T2, T3, T4, T5> & __Action_5$views<T1, T2, T3, T4, T5>;
 
 
 export class Action_6$instance<T1, T2, T3, T4, T5, T6> extends Function {
-    constructor(object_: any, method: nint);
-    beginInvoke(arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, callback: AsyncCallback, object_: any): IAsyncResult;
-    clone(): any;
-    endInvoke(result: IAsyncResult): void;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6): void;
+    constructor(object_: unknown, method: nint);
+    BeginInvoke(arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, callback: AsyncCallback, object_: unknown): IAsyncResult;
+    Clone(): unknown;
+    EndInvoke(result: IAsyncResult): void;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    Invoke(arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6): void;
 }
 
 
 export interface __Action_6$views<T1, T2, T3, T4, T5, T6> {
-    readonly As_ICloneable: ICloneable$instance;
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ICloneable(): ICloneable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type Action_6<T1, T2, T3, T4, T5, T6> = Action_6$instance<T1, T2, T3, T4, T5, T6> & __Action_6$views<T1, T2, T3, T4, T5, T6>;
 
 
 export class Action_7$instance<T1, T2, T3, T4, T5, T6, T7> extends Function {
-    constructor(object_: any, method: nint);
-    beginInvoke(arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, callback: AsyncCallback, object_: any): IAsyncResult;
-    clone(): any;
-    endInvoke(result: IAsyncResult): void;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7): void;
+    constructor(object_: unknown, method: nint);
+    BeginInvoke(arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, callback: AsyncCallback, object_: unknown): IAsyncResult;
+    Clone(): unknown;
+    EndInvoke(result: IAsyncResult): void;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    Invoke(arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7): void;
 }
 
 
 export interface __Action_7$views<T1, T2, T3, T4, T5, T6, T7> {
-    readonly As_ICloneable: ICloneable$instance;
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ICloneable(): ICloneable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type Action_7<T1, T2, T3, T4, T5, T6, T7> = Action_7$instance<T1, T2, T3, T4, T5, T6, T7> & __Action_7$views<T1, T2, T3, T4, T5, T6, T7>;
 
 
 export class Action_8$instance<T1, T2, T3, T4, T5, T6, T7, T8> extends Function {
-    constructor(object_: any, method: nint);
-    beginInvoke(arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, callback: AsyncCallback, object_: any): IAsyncResult;
-    clone(): any;
-    endInvoke(result: IAsyncResult): void;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8): void;
+    constructor(object_: unknown, method: nint);
+    BeginInvoke(arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, callback: AsyncCallback, object_: unknown): IAsyncResult;
+    Clone(): unknown;
+    EndInvoke(result: IAsyncResult): void;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    Invoke(arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8): void;
 }
 
 
 export interface __Action_8$views<T1, T2, T3, T4, T5, T6, T7, T8> {
-    readonly As_ICloneable: ICloneable$instance;
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ICloneable(): ICloneable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type Action_8<T1, T2, T3, T4, T5, T6, T7, T8> = Action_8$instance<T1, T2, T3, T4, T5, T6, T7, T8> & __Action_8$views<T1, T2, T3, T4, T5, T6, T7, T8>;
 
 
 export class Action_9$instance<T1, T2, T3, T4, T5, T6, T7, T8, T9> extends Function {
-    constructor(object_: any, method: nint);
-    beginInvoke(arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, arg9: T9, callback: AsyncCallback, object_: any): IAsyncResult;
-    clone(): any;
-    endInvoke(result: IAsyncResult): void;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, arg9: T9): void;
+    constructor(object_: unknown, method: nint);
+    BeginInvoke(arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, arg9: T9, callback: AsyncCallback, object_: unknown): IAsyncResult;
+    Clone(): unknown;
+    EndInvoke(result: IAsyncResult): void;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    Invoke(arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, arg9: T9): void;
 }
 
 
 export interface __Action_9$views<T1, T2, T3, T4, T5, T6, T7, T8, T9> {
-    readonly As_ICloneable: ICloneable$instance;
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ICloneable(): ICloneable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type Action_9<T1, T2, T3, T4, T5, T6, T7, T8, T9> = Action_9$instance<T1, T2, T3, T4, T5, T6, T7, T8, T9> & __Action_9$views<T1, T2, T3, T4, T5, T6, T7, T8, T9>;
@@ -4245,77 +4313,77 @@ export class AggregateException$instance extends Exception$instance {
     constructor(innerExceptions: Exception[]);
     constructor(message: string, innerExceptions: IEnumerable_1<Exception>);
     constructor(message: string, innerExceptions: Exception[]);
-    readonly innerExceptions: ReadOnlyCollection_1<Exception>;
-    readonly message: string;
-    flatten(): AggregateException;
-    getBaseException(): Exception;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    handle(predicate: Func_2<Exception, CLROf<boolean>>): void;
-    toString(): string;
+    readonly InnerExceptions: ReadOnlyCollection_1<Exception>;
+    readonly Message: string;
+    Flatten(): AggregateException;
+    GetBaseException(): Exception;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    Handle(predicate: Func_2<Exception, CLROf<boolean>>): void;
+    ToString(): string;
 }
 
 
 export interface __AggregateException$views {
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type AggregateException = AggregateException$instance & __AggregateException$views;
 
 
 export class AppDomain$instance extends MarshalByRefObject$instance {
-    readonly baseDirectory: string;
-    readonly dynamicDirectory: string;
-    readonly friendlyName: string;
-    readonly id: int;
-    readonly isFullyTrusted: boolean;
-    readonly isHomogenous: boolean;
-    readonly monitoringSurvivedMemorySize: long;
-    readonly monitoringTotalAllocatedMemorySize: long;
-    readonly monitoringTotalProcessorTime: TimeSpan;
-    readonly permissionSet: PermissionSet;
-    readonly relativeSearchPath: string;
-    readonly setupInformation: AppDomainSetup;
-    readonly shadowCopyFiles: boolean;
-    appendPrivatePath(path: string): void;
-    applyPolicy(assemblyName: string): string;
-    clearPrivatePath(): void;
-    clearShadowCopyPath(): void;
-    createInstance(assemblyName: string, typeName: string): ObjectHandle;
-    createInstance(assemblyName: string, typeName: string, ignoreCase: boolean, bindingAttr: BindingFlags, binder: Binder, args: any[], culture: CultureInfo, activationAttributes: any[]): ObjectHandle;
-    createInstance(assemblyName: string, typeName: string, activationAttributes: any[]): ObjectHandle;
-    createInstanceAndUnwrap(assemblyName: string, typeName: string): any;
-    createInstanceAndUnwrap(assemblyName: string, typeName: string, ignoreCase: boolean, bindingAttr: BindingFlags, binder: Binder, args: any[], culture: CultureInfo, activationAttributes: any[]): any;
-    createInstanceAndUnwrap(assemblyName: string, typeName: string, activationAttributes: any[]): any;
-    createInstanceFrom(assemblyFile: string, typeName: string): ObjectHandle;
-    createInstanceFrom(assemblyFile: string, typeName: string, ignoreCase: boolean, bindingAttr: BindingFlags, binder: Binder, args: any[], culture: CultureInfo, activationAttributes: any[]): ObjectHandle;
-    createInstanceFrom(assemblyFile: string, typeName: string, activationAttributes: any[]): ObjectHandle;
-    createInstanceFromAndUnwrap(assemblyFile: string, typeName: string): any;
-    createInstanceFromAndUnwrap(assemblyFile: string, typeName: string, ignoreCase: boolean, bindingAttr: BindingFlags, binder: Binder, args: any[], culture: CultureInfo, activationAttributes: any[]): any;
-    createInstanceFromAndUnwrap(assemblyFile: string, typeName: string, activationAttributes: any[]): any;
-    executeAssembly(assemblyFile: string): int;
-    executeAssembly(assemblyFile: string, args: string[]): int;
-    executeAssembly(assemblyFile: string, args: string[], hashValue: byte[], hashAlgorithm: AssemblyHashAlgorithm): int;
-    executeAssemblyByName(assemblyName: AssemblyName, args: string[]): int;
-    executeAssemblyByName(assemblyName: string): int;
-    executeAssemblyByName(assemblyName: string, args: string[]): int;
-    getAssemblies(): Assembly[];
-    getData(name: string): any;
-    isCompatibilitySwitchSet(value: string): Nullable_1<CLROf<boolean>>;
-    isDefaultAppDomain(): boolean;
-    isFinalizingForUnload(): boolean;
-    load(rawAssembly: byte[]): Assembly;
-    load(rawAssembly: byte[], rawSymbolStore: byte[]): Assembly;
-    load(assemblyRef: AssemblyName): Assembly;
-    load(assemblyString: string): Assembly;
-    reflectionOnlyGetAssemblies(): Assembly[];
-    setCachePath(path: string): void;
-    setData(name: string, data: any): void;
-    setDynamicBase(path: string): void;
-    setPrincipalPolicy(policy: PrincipalPolicy): void;
-    setShadowCopyFiles(): void;
-    setShadowCopyPath(path: string): void;
-    setThreadPrincipal(principal: IPrincipal): void;
-    toString(): string;
+    readonly BaseDirectory: string;
+    readonly DynamicDirectory: string;
+    readonly FriendlyName: string;
+    readonly Id: int;
+    readonly IsFullyTrusted: boolean;
+    readonly IsHomogenous: boolean;
+    readonly MonitoringSurvivedMemorySize: long;
+    readonly MonitoringTotalAllocatedMemorySize: long;
+    readonly MonitoringTotalProcessorTime: TimeSpan;
+    readonly PermissionSet: PermissionSet;
+    readonly RelativeSearchPath: string;
+    readonly SetupInformation: AppDomainSetup;
+    readonly ShadowCopyFiles: boolean;
+    AppendPrivatePath(path: string): void;
+    ApplyPolicy(assemblyName: string): string;
+    ClearPrivatePath(): void;
+    ClearShadowCopyPath(): void;
+    CreateInstance(assemblyName: string, typeName: string): ObjectHandle;
+    CreateInstance(assemblyName: string, typeName: string, ignoreCase: boolean, bindingAttr: BindingFlags, binder: Binder, args: unknown[], culture: CultureInfo, activationAttributes: unknown[]): ObjectHandle;
+    CreateInstance(assemblyName: string, typeName: string, activationAttributes: unknown[]): ObjectHandle;
+    CreateInstanceAndUnwrap(assemblyName: string, typeName: string): unknown;
+    CreateInstanceAndUnwrap(assemblyName: string, typeName: string, ignoreCase: boolean, bindingAttr: BindingFlags, binder: Binder, args: unknown[], culture: CultureInfo, activationAttributes: unknown[]): unknown;
+    CreateInstanceAndUnwrap(assemblyName: string, typeName: string, activationAttributes: unknown[]): unknown;
+    CreateInstanceFrom(assemblyFile: string, typeName: string): ObjectHandle;
+    CreateInstanceFrom(assemblyFile: string, typeName: string, ignoreCase: boolean, bindingAttr: BindingFlags, binder: Binder, args: unknown[], culture: CultureInfo, activationAttributes: unknown[]): ObjectHandle;
+    CreateInstanceFrom(assemblyFile: string, typeName: string, activationAttributes: unknown[]): ObjectHandle;
+    CreateInstanceFromAndUnwrap(assemblyFile: string, typeName: string): unknown;
+    CreateInstanceFromAndUnwrap(assemblyFile: string, typeName: string, ignoreCase: boolean, bindingAttr: BindingFlags, binder: Binder, args: unknown[], culture: CultureInfo, activationAttributes: unknown[]): unknown;
+    CreateInstanceFromAndUnwrap(assemblyFile: string, typeName: string, activationAttributes: unknown[]): unknown;
+    ExecuteAssembly(assemblyFile: string): int;
+    ExecuteAssembly(assemblyFile: string, args: string[]): int;
+    ExecuteAssembly(assemblyFile: string, args: string[], hashValue: byte[], hashAlgorithm: AssemblyHashAlgorithm): int;
+    ExecuteAssemblyByName(assemblyName: AssemblyName, args: string[]): int;
+    ExecuteAssemblyByName(assemblyName: string): int;
+    ExecuteAssemblyByName(assemblyName: string, args: string[]): int;
+    GetAssemblies(): Assembly[];
+    GetData(name: string): unknown;
+    IsCompatibilitySwitchSet(value: string): Nullable_1<CLROf<boolean>>;
+    IsDefaultAppDomain(): boolean;
+    IsFinalizingForUnload(): boolean;
+    Load(rawAssembly: byte[]): Assembly;
+    Load(rawAssembly: byte[], rawSymbolStore: byte[]): Assembly;
+    Load(assemblyRef: AssemblyName): Assembly;
+    Load(assemblyString: string): Assembly;
+    ReflectionOnlyGetAssemblies(): Assembly[];
+    SetCachePath(path: string): void;
+    SetData(name: string, data: unknown): void;
+    SetDynamicBase(path: string): void;
+    SetPrincipalPolicy(policy: PrincipalPolicy): void;
+    SetShadowCopyFiles(): void;
+    SetShadowCopyPath(path: string): void;
+    SetThreadPrincipal(principal: IPrincipal): void;
+    ToString(): string;
     static readonly CurrentDomain: AppDomain;
     static MonitoringIsEnabled: boolean;
     static readonly MonitoringSurvivedProcessMemorySize: long;
@@ -4328,8 +4396,8 @@ export class AppDomain$instance extends MarshalByRefObject$instance {
 export type AppDomain = AppDomain$instance;
 
 export class AppDomainSetup$instance {
-    readonly applicationBase: string;
-    readonly targetFrameworkName: string;
+    readonly ApplicationBase: string;
+    readonly TargetFrameworkName: string;
 }
 
 
@@ -4339,12 +4407,12 @@ export class AppDomainUnloadedException$instance extends SystemException$instanc
     constructor();
     constructor(message: string);
     constructor(message: string, innerException: Exception);
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
 export interface __AppDomainUnloadedException$views {
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type AppDomainUnloadedException = AppDomainUnloadedException$instance & __AppDomainUnloadedException$views;
@@ -4354,12 +4422,12 @@ export class ApplicationException$instance extends Exception$instance {
     constructor();
     constructor(message: string);
     constructor(message: string, innerException: Exception);
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
 export interface __ApplicationException$views {
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type ApplicationException = ApplicationException$instance & __ApplicationException$views;
@@ -4367,15 +4435,15 @@ export type ApplicationException = ApplicationException$instance & __Application
 
 export class ApplicationId$instance {
     constructor(publicKeyToken: byte[], name: string, version: Version, processorArchitecture: string, culture: string);
-    readonly culture: string;
-    readonly name: string;
-    readonly processorArchitecture: string;
-    readonly publicKeyToken: byte[];
-    readonly version: Version;
-    copy(): ApplicationId;
-    equals(o: any): boolean;
-    getHashCode(): int;
-    toString(): string;
+    readonly Culture: string;
+    readonly Name: string;
+    readonly ProcessorArchitecture: string;
+    readonly PublicKeyToken: byte[];
+    readonly Version: Version;
+    Copy(): ApplicationId;
+    Equals(o: unknown): boolean;
+    GetHashCode(): int;
+    ToString(): string;
 }
 
 
@@ -4387,16 +4455,16 @@ export class ArgumentException$instance extends SystemException$instance {
     constructor(message: string, innerException: Exception);
     constructor(message: string, paramName: string, innerException: Exception);
     constructor(message: string, paramName: string);
-    readonly message: string;
-    readonly paramName: string;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
+    readonly Message: string;
+    readonly ParamName: string;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
     static ThrowIfNullOrEmpty(argument: string, paramName?: string): void;
     static ThrowIfNullOrWhiteSpace(argument: string, paramName?: string): void;
 }
 
 
 export interface __ArgumentException$views {
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type ArgumentException = ArgumentException$instance & __ArgumentException$views;
@@ -4407,14 +4475,14 @@ export class ArgumentNullException$instance extends ArgumentException$instance {
     constructor(paramName: string);
     constructor(message: string, innerException: Exception);
     constructor(paramName: string, message: string);
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    static ThrowIfNull(argument: any, paramName?: string): void;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    static ThrowIfNull(argument: unknown, paramName?: string): void;
     static ThrowIfNull(argument: ptr<void>, paramName?: string): void;
 }
 
 
 export interface __ArgumentNullException$views {
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type ArgumentNullException = ArgumentNullException$instance & __ArgumentNullException$views;
@@ -4425,10 +4493,10 @@ export class ArgumentOutOfRangeException$instance extends ArgumentException$inst
     constructor(paramName: string);
     constructor(paramName: string, message: string);
     constructor(message: string, innerException: Exception);
-    constructor(paramName: string, actualValue: any, message: string);
-    readonly actualValue: any;
-    readonly message: string;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
+    constructor(paramName: string, actualValue: unknown, message: string);
+    readonly ActualValue: unknown;
+    readonly Message: string;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
     static ThrowIfEqual<T extends IEquatable_1<T>>(value: T, other: T, paramName?: string): void;
     static ThrowIfGreaterThan<T extends IComparable_1<T>>(value: T, other: T, paramName?: string): void;
     static ThrowIfGreaterThanOrEqual<T extends IComparable_1<T>>(value: T, other: T, paramName?: string): void;
@@ -4442,7 +4510,7 @@ export class ArgumentOutOfRangeException$instance extends ArgumentException$inst
 
 
 export interface __ArgumentOutOfRangeException$views {
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type ArgumentOutOfRangeException = ArgumentOutOfRangeException$instance & __ArgumentOutOfRangeException$views;
@@ -4452,56 +4520,56 @@ export class ArithmeticException$instance extends SystemException$instance {
     constructor();
     constructor(message: string);
     constructor(message: string, innerException: Exception);
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
 export interface __ArithmeticException$views {
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type ArithmeticException = ArithmeticException$instance & __ArithmeticException$views;
 
 
 export abstract class Array$instance {
-    readonly isFixedSize: boolean;
-    readonly isReadOnly: boolean;
-    readonly isSynchronized: boolean;
-    readonly length: int;
-    readonly longLength: long;
-    readonly rank: int;
-    readonly syncRoot: any;
-    clone(): any;
-    copyTo(array: Array, index: int): void;
-    copyTo(array: Array, index: long): void;
-    getEnumerator(): IEnumerator;
-    getLength(dimension: int): int;
-    getLongLength(dimension: int): long;
-    getLowerBound(dimension: int): int;
-    getUpperBound(dimension: int): int;
-    getValue(indices: int[]): any;
-    getValue(index: int): any;
-    getValue(index1: int, index2: int): any;
-    getValue(index1: int, index2: int, index3: int): any;
-    getValue(index: long): any;
-    getValue(index1: long, index2: long): any;
-    getValue(index1: long, index2: long, index3: long): any;
-    getValue(indices: long[]): any;
-    initialize(): void;
-    setValue(value: any, index: int): void;
-    setValue(value: any, index1: int, index2: int): void;
-    setValue(value: any, index1: int, index2: int, index3: int): void;
-    setValue(value: any, indices: int[]): void;
-    setValue(value: any, index: long): void;
-    setValue(value: any, index1: long, index2: long): void;
-    setValue(value: any, index1: long, index2: long, index3: long): void;
-    setValue(value: any, indices: long[]): void;
+    readonly IsFixedSize: boolean;
+    readonly IsReadOnly: boolean;
+    readonly IsSynchronized: boolean;
+    readonly Length: int;
+    readonly LongLength: long;
+    readonly Rank: int;
+    readonly SyncRoot: unknown;
+    Clone(): unknown;
+    CopyTo(array: Array, index: int): void;
+    CopyTo(array: Array, index: long): void;
+    GetEnumerator(): IEnumerator;
+    GetLength(dimension: int): int;
+    GetLongLength(dimension: int): long;
+    GetLowerBound(dimension: int): int;
+    GetUpperBound(dimension: int): int;
+    GetValue(indices: int[]): unknown;
+    GetValue(index: int): unknown;
+    GetValue(index1: int, index2: int): unknown;
+    GetValue(index1: int, index2: int, index3: int): unknown;
+    GetValue(index: long): unknown;
+    GetValue(index1: long, index2: long): unknown;
+    GetValue(index1: long, index2: long, index3: long): unknown;
+    GetValue(indices: long[]): unknown;
+    Initialize(): void;
+    SetValue(value: unknown, index: int): void;
+    SetValue(value: unknown, index1: int, index2: int): void;
+    SetValue(value: unknown, index1: int, index2: int, index3: int): void;
+    SetValue(value: unknown, indices: int[]): void;
+    SetValue(value: unknown, index: long): void;
+    SetValue(value: unknown, index1: long, index2: long): void;
+    SetValue(value: unknown, index1: long, index2: long, index3: long): void;
+    SetValue(value: unknown, indices: long[]): void;
     static readonly MaxLength: int;
     static AsReadOnly<T>(array: T[]): ReadOnlyCollection_1<T>;
-    static BinarySearch(array: Array, index: int, length: int, value: any, comparer: IComparer): int;
-    static BinarySearch(array: Array, index: int, length: int, value: any): int;
-    static BinarySearch(array: Array, value: any, comparer: IComparer): int;
-    static BinarySearch(array: Array, value: any): int;
+    static BinarySearch(array: Array, index: int, length: int, value: unknown, comparer: IComparer): int;
+    static BinarySearch(array: Array, index: int, length: int, value: unknown): int;
+    static BinarySearch(array: Array, value: unknown, comparer: IComparer): int;
+    static BinarySearch(array: Array, value: unknown): int;
     static BinarySearch<T>(array: T[], index: int, length: int, value: T, comparer: IComparer_1<T>): int;
     static BinarySearch<T>(array: T[], index: int, length: int, value: T): int;
     static BinarySearch<T>(array: T[], value: T, comparer: IComparer_1<T>): int;
@@ -4537,15 +4605,15 @@ export abstract class Array$instance {
     static FindLastIndex<T>(array: T[], startIndex: int, match: Predicate_1<T>): int;
     static FindLastIndex<T>(array: T[], startIndex: int, count: int, match: Predicate_1<T>): int;
     static ForEach<T>(array: T[], action: Action_1<T>): void;
-    static IndexOf(array: Array, value: any, startIndex: int, count: int): int;
-    static IndexOf(array: Array, value: any, startIndex: int): int;
-    static IndexOf(array: Array, value: any): int;
+    static IndexOf(array: Array, value: unknown, startIndex: int, count: int): int;
+    static IndexOf(array: Array, value: unknown, startIndex: int): int;
+    static IndexOf(array: Array, value: unknown): int;
     static IndexOf<T>(array: T[], value: T, startIndex: int, count: int): int;
     static IndexOf<T>(array: T[], value: T, startIndex: int): int;
     static IndexOf<T>(array: T[], value: T): int;
-    static LastIndexOf(array: Array, value: any, startIndex: int, count: int): int;
-    static LastIndexOf(array: Array, value: any, startIndex: int): int;
-    static LastIndexOf(array: Array, value: any): int;
+    static LastIndexOf(array: Array, value: unknown, startIndex: int, count: int): int;
+    static LastIndexOf(array: Array, value: unknown, startIndex: int): int;
+    static LastIndexOf(array: Array, value: unknown): int;
     static LastIndexOf<T>(array: T[], value: T, startIndex: int, count: int): int;
     static LastIndexOf<T>(array: T[], value: T, startIndex: int): int;
     static LastIndexOf<T>(array: T[], value: T): int;
@@ -4576,12 +4644,12 @@ export abstract class Array$instance {
 
 
 export interface __Array$views {
-    readonly As_ICollection: System_Collections_Internal.ICollection$instance;
-    readonly As_IEnumerable: System_Collections_Internal.IEnumerable$instance;
-    readonly As_IList: System_Collections_Internal.IList$instance;
-    readonly As_IStructuralComparable: System_Collections_Internal.IStructuralComparable$instance;
-    readonly As_IStructuralEquatable: System_Collections_Internal.IStructuralEquatable$instance;
-    readonly As_ICloneable: ICloneable$instance;
+    As_ICollection(): System_Collections_Internal.ICollection$instance;
+    As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
+    As_IList(): System_Collections_Internal.IList$instance;
+    As_IStructuralComparable(): System_Collections_Internal.IStructuralComparable$instance;
+    As_IStructuralEquatable(): System_Collections_Internal.IStructuralEquatable$instance;
+    As_ICloneable(): ICloneable$instance;
 }
 
 export type Array = Array$instance & __Array$views;
@@ -4591,12 +4659,12 @@ export class ArrayTypeMismatchException$instance extends SystemException$instanc
     constructor();
     constructor(message: string);
     constructor(message: string, innerException: Exception);
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
 export interface __ArrayTypeMismatchException$views {
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type ArrayTypeMismatchException = ArrayTypeMismatchException$instance & __ArrayTypeMismatchException$views;
@@ -4604,54 +4672,54 @@ export type ArrayTypeMismatchException = ArrayTypeMismatchException$instance & _
 
 export class AssemblyLoadEventArgs$instance extends EventArgs$instance {
     constructor(loadedAssembly: Assembly);
-    readonly loadedAssembly: Assembly;
+    readonly LoadedAssembly: Assembly;
 }
 
 
 export type AssemblyLoadEventArgs = AssemblyLoadEventArgs$instance;
 
 export class AssemblyLoadEventHandler$instance extends Function {
-    constructor(object_: any, method: nint);
-    beginInvoke(sender: any, args: AssemblyLoadEventArgs, callback: AsyncCallback, object_: any): IAsyncResult;
-    clone(): any;
-    endInvoke(result: IAsyncResult): void;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(sender: any, args: AssemblyLoadEventArgs): void;
+    constructor(object_: unknown, method: nint);
+    BeginInvoke(sender: unknown, args: AssemblyLoadEventArgs, callback: AsyncCallback, object_: unknown): IAsyncResult;
+    Clone(): unknown;
+    EndInvoke(result: IAsyncResult): void;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    Invoke(sender: unknown, args: AssemblyLoadEventArgs): void;
 }
 
 
 export interface __AssemblyLoadEventHandler$views {
-    readonly As_ICloneable: ICloneable$instance;
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ICloneable(): ICloneable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type AssemblyLoadEventHandler = AssemblyLoadEventHandler$instance & __AssemblyLoadEventHandler$views;
 
 
 export class AsyncCallback$instance extends Function {
-    constructor(object_: any, method: nint);
-    beginInvoke(ar: IAsyncResult, callback: AsyncCallback, object_: any): IAsyncResult;
-    clone(): any;
-    endInvoke(result: IAsyncResult): void;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(ar: IAsyncResult): void;
+    constructor(object_: unknown, method: nint);
+    BeginInvoke(ar: IAsyncResult, callback: AsyncCallback, object_: unknown): IAsyncResult;
+    Clone(): unknown;
+    EndInvoke(result: IAsyncResult): void;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    Invoke(ar: IAsyncResult): void;
 }
 
 
 export interface __AsyncCallback$views {
-    readonly As_ICloneable: ICloneable$instance;
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ICloneable(): ICloneable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type AsyncCallback = AsyncCallback$instance & __AsyncCallback$views;
 
 
 export abstract class Attribute$instance {
-    readonly typeId: any;
-    equals(obj: any): boolean;
-    getHashCode(): int;
-    isDefaultAttribute(): boolean;
-    match(obj: any): boolean;
+    readonly TypeId: unknown;
+    Equals(obj: unknown): boolean;
+    GetHashCode(): int;
+    IsDefaultAttribute(): boolean;
+    Match(obj: unknown): boolean;
     static GetCustomAttribute(element: Assembly, attributeType: Type, inherit: boolean): Attribute;
     static GetCustomAttribute(element: Assembly, attributeType: Type): Attribute;
     static GetCustomAttribute(element: MemberInfo, attributeType: Type, inherit: boolean): Attribute;
@@ -4691,9 +4759,9 @@ export type Attribute = Attribute$instance;
 
 export class AttributeUsageAttribute$instance extends Attribute$instance {
     constructor(validOn: AttributeTargets);
-    allowMultiple: boolean;
-    inherited: boolean;
-    readonly validOn: AttributeTargets;
+    AllowMultiple: boolean;
+    Inherited: boolean;
+    readonly ValidOn: AttributeTargets;
 }
 
 
@@ -4705,16 +4773,16 @@ export class BadImageFormatException$instance extends SystemException$instance {
     constructor(message: string, inner: Exception);
     constructor(message: string, fileName: string);
     constructor(message: string, fileName: string, inner: Exception);
-    readonly fileName: string;
-    readonly fusionLog: string;
-    readonly message: string;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    toString(): string;
+    readonly FileName: string;
+    readonly FusionLog: string;
+    readonly Message: string;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    ToString(): string;
 }
 
 
 export interface __BadImageFormatException$views {
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type BadImageFormatException = BadImageFormatException$instance & __BadImageFormatException$views;
@@ -4724,30 +4792,30 @@ export class CannotUnloadAppDomainException$instance extends SystemException$ins
     constructor();
     constructor(message: string);
     constructor(message: string, innerException: Exception);
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
 export interface __CannotUnloadAppDomainException$views {
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type CannotUnloadAppDomainException = CannotUnloadAppDomainException$instance & __CannotUnloadAppDomainException$views;
 
 
-export class CharEnumerator$instance {
-    readonly current: string;
-    clone(): any;
-    dispose(): void;
-    moveNext(): boolean;
-    reset(): void;
+export class CharEnumerator$instance implements IDisposable$instance {
+    readonly Current: char;
+    Clone(): unknown;
+    Dispose(): void;
+    MoveNext(): boolean;
+    Reset(): void;
 }
 
 
 export interface __CharEnumerator$views {
-    readonly As_IEnumerator_1: System_Collections_Generic_Internal.IEnumerator_1$instance<CLROf<string>>;
-    readonly As_IEnumerator: System_Collections_Internal.IEnumerator$instance;
-    readonly As_ICloneable: ICloneable$instance;
+    As_IEnumerator_1(): System_Collections_Generic_Internal.IEnumerator_1$instance<CLROf<char>>;
+    As_IEnumerator(): System_Collections_Internal.IEnumerator$instance;
+    As_ICloneable(): ICloneable$instance;
 }
 
 export type CharEnumerator = CharEnumerator$instance & __CharEnumerator$views;
@@ -4755,51 +4823,51 @@ export type CharEnumerator = CharEnumerator$instance & __CharEnumerator$views;
 
 export class CLSCompliantAttribute$instance extends Attribute$instance {
     constructor(isCompliant: boolean);
-    readonly isCompliant: boolean;
+    readonly IsCompliant: boolean;
 }
 
 
 export type CLSCompliantAttribute = CLSCompliantAttribute$instance;
 
 export class Comparison_1$instance<T> extends Function {
-    constructor(object_: any, method: nint);
-    beginInvoke(x: T, y: T, callback: AsyncCallback, object_: any): IAsyncResult;
-    clone(): any;
-    endInvoke(result: IAsyncResult): int;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(x: T, y: T): int;
+    constructor(object_: unknown, method: nint);
+    BeginInvoke(x: T, y: T, callback: AsyncCallback, object_: unknown): IAsyncResult;
+    Clone(): unknown;
+    EndInvoke(result: IAsyncResult): int;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    Invoke(x: T, y: T): int;
 }
 
 
 export interface __Comparison_1$views<T> {
-    readonly As_ICloneable: ICloneable$instance;
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ICloneable(): ICloneable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type Comparison_1<T> = Comparison_1$instance<T> & __Comparison_1$views<T>;
 
 
 export class ConsoleCancelEventArgs$instance extends EventArgs$instance {
-    cancel: boolean;
-    readonly specialKey: ConsoleSpecialKey;
+    Cancel: boolean;
+    readonly SpecialKey: ConsoleSpecialKey;
 }
 
 
 export type ConsoleCancelEventArgs = ConsoleCancelEventArgs$instance;
 
 export class ConsoleCancelEventHandler$instance extends Function {
-    constructor(object_: any, method: nint);
-    beginInvoke(sender: any, e: ConsoleCancelEventArgs, callback: AsyncCallback, object_: any): IAsyncResult;
-    clone(): any;
-    endInvoke(result: IAsyncResult): void;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(sender: any, e: ConsoleCancelEventArgs): void;
+    constructor(object_: unknown, method: nint);
+    BeginInvoke(sender: unknown, e: ConsoleCancelEventArgs, callback: AsyncCallback, object_: unknown): IAsyncResult;
+    Clone(): unknown;
+    EndInvoke(result: IAsyncResult): void;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    Invoke(sender: unknown, e: ConsoleCancelEventArgs): void;
 }
 
 
 export interface __ConsoleCancelEventHandler$views {
-    readonly As_ICloneable: ICloneable$instance;
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ICloneable(): ICloneable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type ConsoleCancelEventHandler = ConsoleCancelEventHandler$instance & __ConsoleCancelEventHandler$views;
@@ -4815,12 +4883,12 @@ export class ContextMarshalException$instance extends SystemException$instance {
     constructor();
     constructor(message: string);
     constructor(message: string, inner: Exception);
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
 export interface __ContextMarshalException$views {
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type ContextMarshalException = ContextMarshalException$instance & __ContextMarshalException$views;
@@ -4834,44 +4902,44 @@ export class ContextStaticAttribute$instance extends Attribute$instance {
 export type ContextStaticAttribute = ContextStaticAttribute$instance;
 
 export class Converter_2$instance<TInput, TOutput> extends Function {
-    constructor(object_: any, method: nint);
-    beginInvoke(input: TInput, callback: AsyncCallback, object_: any): IAsyncResult;
-    clone(): any;
-    endInvoke(result: IAsyncResult): TOutput;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(input: TInput): TOutput;
+    constructor(object_: unknown, method: nint);
+    BeginInvoke(input: TInput, callback: AsyncCallback, object_: unknown): IAsyncResult;
+    Clone(): unknown;
+    EndInvoke(result: IAsyncResult): TOutput;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    Invoke(input: TInput): TOutput;
 }
 
 
 export interface __Converter_2$views<TInput, TOutput> {
-    readonly As_ICloneable: ICloneable$instance;
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ICloneable(): ICloneable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type Converter_2<TInput, TOutput> = Converter_2$instance<TInput, TOutput> & __Converter_2$views<TInput, TOutput>;
 
 
 export class CultureAwareComparer$instance extends StringComparer$instance {
-    compare(x: string, y: string): int;
-    compare(x: any, y: any): int;
-    compare(x: unknown, y: unknown): int;
-    equals(x: string, y: string): boolean;
-    equals(x: any, y: any): boolean;
-    equals(x: unknown, y: unknown): boolean;
-    getHashCode(obj: string): int;
-    getHashCode(obj: any): int;
-    getHashCode(obj: unknown): int;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
+    Compare(x: string, y: string): int;
+    Compare(x: unknown, y: unknown): int;
+    Compare(x: unknown, y: unknown): int;
+    Equals(x: string, y: string): boolean;
+    Equals(x: unknown, y: unknown): boolean;
+    Equals(x: unknown, y: unknown): boolean;
+    GetHashCode(obj: string): int;
+    GetHashCode(obj: unknown): int;
+    GetHashCode(obj: unknown): int;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
 export interface __CultureAwareComparer$views {
-    readonly As_IAlternateEqualityComparer_2_of_ReadOnlySpan_1_and_String: System_Collections_Generic_Internal.IAlternateEqualityComparer_2$instance<ReadOnlySpan_1<CLROf<string>>, CLROf<string>>;
-    readonly As_IComparer_1_of_String: System_Collections_Generic_Internal.IComparer_1$instance<CLROf<string>>;
-    readonly As_IEqualityComparer_1_of_String: System_Collections_Generic_Internal.IEqualityComparer_1$instance<CLROf<string>>;
-    readonly As_IComparer: System_Collections_Internal.IComparer$instance;
-    readonly As_IEqualityComparer: System_Collections_Internal.IEqualityComparer$instance;
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_IAlternateEqualityComparer_2(): System_Collections_Generic_Internal.IAlternateEqualityComparer_2$instance<ReadOnlySpan_1<CLROf<char>>, CLROf<string>>;
+    As_IComparer_1(): System_Collections_Generic_Internal.IComparer_1$instance<CLROf<string>>;
+    As_IEqualityComparer_1(): System_Collections_Generic_Internal.IEqualityComparer_1$instance<CLROf<string>>;
+    As_IComparer(): System_Collections_Internal.IComparer$instance;
+    As_IEqualityComparer(): System_Collections_Internal.IEqualityComparer$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type CultureAwareComparer = CultureAwareComparer$instance & __CultureAwareComparer$views;
@@ -4881,52 +4949,52 @@ export class DataMisalignedException$instance extends SystemException$instance {
     constructor();
     constructor(message: string);
     constructor(message: string, innerException: Exception);
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
 export interface __DataMisalignedException$views {
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type DataMisalignedException = DataMisalignedException$instance & __DataMisalignedException$views;
 
 
 export class DBNull$instance {
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    getTypeCode(): TypeCode;
-    toString(): string;
-    toString(provider: IFormatProvider): string;
-    static readonly value: DBNull;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    GetTypeCode(): TypeCode;
+    ToString(): string;
+    ToString(provider: IFormatProvider): string;
+    static readonly Value: DBNull;
 }
 
 
 export interface __DBNull$views {
-    readonly As_IConvertible: IConvertible$instance;
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_IConvertible(): IConvertible$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type DBNull = DBNull$instance & __DBNull$views;
 
 
 export abstract class Delegate$instance {
-    readonly hasSingleTarget: boolean;
-    readonly method: MethodInfo;
-    readonly target: any;
-    clone(): any;
-    dynamicInvoke(args: any[]): any;
-    equals(obj: any): boolean;
-    getHashCode(): int;
-    getInvocationList(): Function[];
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
+    readonly HasSingleTarget: boolean;
+    readonly Method: MethodInfo;
+    readonly Target: unknown;
+    Clone(): unknown;
+    DynamicInvoke(args: unknown[]): unknown;
+    Equals(obj: unknown): boolean;
+    GetHashCode(): int;
+    GetInvocationList(): Function[];
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
     static Combine(a: Function, b: Function): Function;
     static Combine(delegates: Function[]): Function;
     static Combine(delegates: ReadOnlySpan_1<Function>): Function;
-    static CreateDelegate(type_: Type, firstArgument: any, method: MethodInfo, throwOnBindFailure: boolean): Function;
-    static CreateDelegate(type_: Type, firstArgument: any, method: MethodInfo): Function;
-    static CreateDelegate(type_: Type, target: any, method: string, ignoreCase: boolean, throwOnBindFailure: boolean): Function;
-    static CreateDelegate(type_: Type, target: any, method: string, ignoreCase: boolean): Function;
-    static CreateDelegate(type_: Type, target: any, method: string): Function;
+    static CreateDelegate(type_: Type, firstArgument: unknown, method: MethodInfo, throwOnBindFailure: boolean): Function;
+    static CreateDelegate(type_: Type, firstArgument: unknown, method: MethodInfo): Function;
+    static CreateDelegate(type_: Type, target: unknown, method: string, ignoreCase: boolean, throwOnBindFailure: boolean): Function;
+    static CreateDelegate(type_: Type, target: unknown, method: string, ignoreCase: boolean): Function;
+    static CreateDelegate(type_: Type, target: unknown, method: string): Function;
     static CreateDelegate(type_: Type, method: MethodInfo, throwOnBindFailure: boolean): Function;
     static CreateDelegate(type_: Type, method: MethodInfo): Function;
     static CreateDelegate(type_: Type, target: Type, method: string, ignoreCase: boolean, throwOnBindFailure: boolean): Function;
@@ -4939,8 +5007,8 @@ export abstract class Delegate$instance {
 
 
 export interface __Delegate$views {
-    readonly As_ICloneable: ICloneable$instance;
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ICloneable(): ICloneable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type Delegate = Delegate$instance & __Delegate$views;
@@ -4950,12 +5018,12 @@ export class DivideByZeroException$instance extends ArithmeticException$instance
     constructor();
     constructor(message: string);
     constructor(message: string, innerException: Exception);
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
 export interface __DivideByZeroException$views {
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type DivideByZeroException = DivideByZeroException$instance & __DivideByZeroException$views;
@@ -4965,12 +5033,12 @@ export class DllNotFoundException$instance extends TypeLoadException$instance {
     constructor();
     constructor(message: string);
     constructor(message: string, inner: Exception);
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
 export interface __DllNotFoundException$views {
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type DllNotFoundException = DllNotFoundException$instance & __DllNotFoundException$views;
@@ -4981,12 +5049,12 @@ export class DuplicateWaitObjectException$instance extends ArgumentException$ins
     constructor(parameterName: string);
     constructor(parameterName: string, message: string);
     constructor(message: string, innerException: Exception);
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
 export interface __DuplicateWaitObjectException$views {
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type DuplicateWaitObjectException = DuplicateWaitObjectException$instance & __DuplicateWaitObjectException$views;
@@ -4996,29 +5064,29 @@ export class EntryPointNotFoundException$instance extends TypeLoadException$inst
     constructor();
     constructor(message: string);
     constructor(message: string, inner: Exception);
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
 export interface __EntryPointNotFoundException$views {
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type EntryPointNotFoundException = EntryPointNotFoundException$instance & __EntryPointNotFoundException$views;
 
 
 export abstract class Enum$instance {
-    compareTo(target: any): int;
-    equals(obj: any): boolean;
-    getHashCode(): int;
-    getTypeCode(): TypeCode;
-    hasFlag(flag: number): boolean;
-    toString(): string;
-    toString(format: string): string;
-    toString(provider: IFormatProvider): string;
-    toString(format: string, provider: IFormatProvider): string;
-    static Format(enumType: Type, value: any, format: string): string;
-    static GetName(enumType: Type, value: any): string;
+    CompareTo(target: unknown): int;
+    Equals(obj: unknown): boolean;
+    GetHashCode(): int;
+    GetTypeCode(): TypeCode;
+    HasFlag(flag: number): boolean;
+    ToString(): string;
+    ToString(format: string): string;
+    ToString(provider: IFormatProvider): string;
+    ToString(format: string, provider: IFormatProvider): string;
+    static Format(enumType: Type, value: unknown, format: string): string;
+    static GetName(enumType: Type, value: unknown): string;
     static GetName<TEnum extends number>(value: TEnum): string;
     static GetNames<TEnum extends number>(): string[];
     static GetNames(enumType: Type): string[];
@@ -5027,45 +5095,45 @@ export abstract class Enum$instance {
     static GetValues(enumType: Type): Array;
     static GetValuesAsUnderlyingType<TEnum extends number>(): Array;
     static GetValuesAsUnderlyingType(enumType: Type): Array;
-    static IsDefined(enumType: Type, value: any): boolean;
+    static IsDefined(enumType: Type, value: unknown): boolean;
     static IsDefined<TEnum extends number>(value: TEnum): boolean;
-    static Parse<TEnum extends any>(value: ReadOnlySpan_1<CLROf<string>>, ignoreCase: boolean): TEnum;
-    static Parse<TEnum extends any>(value: ReadOnlySpan_1<CLROf<string>>): TEnum;
-    static Parse<TEnum extends any>(value: string, ignoreCase: boolean): TEnum;
-    static Parse<TEnum extends any>(value: string): TEnum;
-    static Parse(enumType: Type, value: ReadOnlySpan_1<CLROf<string>>, ignoreCase: boolean): any;
-    static Parse(enumType: Type, value: ReadOnlySpan_1<CLROf<string>>): any;
-    static Parse(enumType: Type, value: string, ignoreCase: boolean): any;
-    static Parse(enumType: Type, value: string): any;
-    static ToObject(enumType: Type, value: byte): any;
-    static ToObject(enumType: Type, value: short): any;
-    static ToObject(enumType: Type, value: int): any;
-    static ToObject(enumType: Type, value: long): any;
-    static ToObject(enumType: Type, value: any): any;
-    static ToObject(enumType: Type, value: sbyte): any;
-    static ToObject(enumType: Type, value: ushort): any;
-    static ToObject(enumType: Type, value: uint): any;
-    static ToObject(enumType: Type, value: ulong): any;
-    static TryFormat<TEnum extends any>(value: TEnum, destination: Span_1<CLROf<string>>, charsWritten: { value: ref<int> }, format?: ReadOnlySpan_1<CLROf<string>>): boolean;
-    static TryParse<TEnum extends any>(value: ReadOnlySpan_1<CLROf<string>>, ignoreCase: boolean, result: { value: ref<TEnum> }): boolean;
-    static TryParse<TEnum extends any>(value: ReadOnlySpan_1<CLROf<string>>, result: { value: ref<TEnum> }): boolean;
-    static TryParse<TEnum extends any>(value: string, ignoreCase: boolean, result: { value: ref<TEnum> }): boolean;
-    static TryParse<TEnum extends any>(value: string, result: { value: ref<TEnum> }): boolean;
-    static TryParse(enumType: Type, value: ReadOnlySpan_1<CLROf<string>>, ignoreCase: boolean, result: { value: ref<any> }): boolean;
-    static TryParse(enumType: Type, value: ReadOnlySpan_1<CLROf<string>>, result: { value: ref<any> }): boolean;
-    static TryParse(enumType: Type, value: string, ignoreCase: boolean, result: { value: ref<any> }): boolean;
-    static TryParse(enumType: Type, value: string, result: { value: ref<any> }): boolean;
+    static Parse<TEnum extends unknown>(value: ReadOnlySpan_1<CLROf<char>>, ignoreCase: boolean): TEnum;
+    static Parse<TEnum extends unknown>(value: ReadOnlySpan_1<CLROf<char>>): TEnum;
+    static Parse<TEnum extends unknown>(value: string, ignoreCase: boolean): TEnum;
+    static Parse<TEnum extends unknown>(value: string): TEnum;
+    static Parse(enumType: Type, value: ReadOnlySpan_1<CLROf<char>>, ignoreCase: boolean): unknown;
+    static Parse(enumType: Type, value: ReadOnlySpan_1<CLROf<char>>): unknown;
+    static Parse(enumType: Type, value: string, ignoreCase: boolean): unknown;
+    static Parse(enumType: Type, value: string): unknown;
+    static ToObject(enumType: Type, value: byte): unknown;
+    static ToObject(enumType: Type, value: short): unknown;
+    static ToObject(enumType: Type, value: int): unknown;
+    static ToObject(enumType: Type, value: long): unknown;
+    static ToObject(enumType: Type, value: unknown): unknown;
+    static ToObject(enumType: Type, value: sbyte): unknown;
+    static ToObject(enumType: Type, value: ushort): unknown;
+    static ToObject(enumType: Type, value: uint): unknown;
+    static ToObject(enumType: Type, value: ulong): unknown;
+    static TryFormat<TEnum extends unknown>(value: TEnum, destination: Span_1<CLROf<char>>, charsWritten: { value: ref<int> }, format?: ReadOnlySpan_1<CLROf<char>>): boolean;
+    static TryParse<TEnum extends unknown>(value: ReadOnlySpan_1<CLROf<char>>, ignoreCase: boolean, result: { value: ref<TEnum> }): boolean;
+    static TryParse<TEnum extends unknown>(value: ReadOnlySpan_1<CLROf<char>>, result: { value: ref<TEnum> }): boolean;
+    static TryParse<TEnum extends unknown>(value: string, ignoreCase: boolean, result: { value: ref<TEnum> }): boolean;
+    static TryParse<TEnum extends unknown>(value: string, result: { value: ref<TEnum> }): boolean;
+    static TryParse(enumType: Type, value: ReadOnlySpan_1<CLROf<char>>, ignoreCase: boolean, result: { value: ref<unknown> }): boolean;
+    static TryParse(enumType: Type, value: ReadOnlySpan_1<CLROf<char>>, result: { value: ref<unknown> }): boolean;
+    static TryParse(enumType: Type, value: string, ignoreCase: boolean, result: { value: ref<unknown> }): boolean;
+    static TryParse(enumType: Type, value: string, result: { value: ref<unknown> }): boolean;
 }
 
 
 export interface __Enum$views {
-    readonly As_IComparable: IComparable$instance;
-    readonly As_IConvertible: IConvertible$instance;
-    readonly As_IFormattable: IFormattable$instance;
-    readonly As_ISpanFormattable: ISpanFormattable$instance;
+    As_IComparable(): IComparable$instance;
+    As_IConvertible(): IConvertible$instance;
+    As_IFormattable(): IFormattable$instance;
+    As_ISpanFormattable(): ISpanFormattable$instance;
 
     // Structural method bridges for numeric interface constraints
-    CompareTo(obj: any): int;
+    CompareTo(obj: unknown): int;
 }
 
 export type Enum = Enum$instance & __Enum$views;
@@ -5073,61 +5141,61 @@ export type Enum = Enum$instance & __Enum$views;
 
 export class EventArgs$instance {
     constructor();
-    static readonly empty: EventArgs;
+    static readonly Empty: EventArgs;
 }
 
 
 export type EventArgs = EventArgs$instance;
 
 export class EventHandler$instance extends Function {
-    constructor(object_: any, method: nint);
-    beginInvoke(sender: any, e: EventArgs, callback: AsyncCallback, object_: any): IAsyncResult;
-    clone(): any;
-    endInvoke(result: IAsyncResult): void;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(sender: any, e: EventArgs): void;
+    constructor(object_: unknown, method: nint);
+    BeginInvoke(sender: unknown, e: EventArgs, callback: AsyncCallback, object_: unknown): IAsyncResult;
+    Clone(): unknown;
+    EndInvoke(result: IAsyncResult): void;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    Invoke(sender: unknown, e: EventArgs): void;
 }
 
 
 export interface __EventHandler$views {
-    readonly As_ICloneable: ICloneable$instance;
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ICloneable(): ICloneable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type EventHandler = EventHandler$instance & __EventHandler$views;
 
 
 export class EventHandler_1$instance<TEventArgs> extends Function {
-    constructor(object_: any, method: nint);
-    beginInvoke(sender: any, e: TEventArgs, callback: AsyncCallback, object_: any): IAsyncResult;
-    clone(): any;
-    endInvoke(result: IAsyncResult): void;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(sender: any, e: TEventArgs): void;
+    constructor(object_: unknown, method: nint);
+    BeginInvoke(sender: unknown, e: TEventArgs, callback: AsyncCallback, object_: unknown): IAsyncResult;
+    Clone(): unknown;
+    EndInvoke(result: IAsyncResult): void;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    Invoke(sender: unknown, e: TEventArgs): void;
 }
 
 
 export interface __EventHandler_1$views<TEventArgs> {
-    readonly As_ICloneable: ICloneable$instance;
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ICloneable(): ICloneable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type EventHandler_1<TEventArgs> = EventHandler_1$instance<TEventArgs> & __EventHandler_1$views<TEventArgs>;
 
 
 export class EventHandler_2$instance<TSender, TEventArgs> extends Function {
-    constructor(object_: any, method: nint);
-    beginInvoke(sender: TSender, e: TEventArgs, callback: AsyncCallback, object_: any): IAsyncResult;
-    clone(): any;
-    endInvoke(result: IAsyncResult): void;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(sender: TSender, e: TEventArgs): void;
+    constructor(object_: unknown, method: nint);
+    BeginInvoke(sender: TSender, e: TEventArgs, callback: AsyncCallback, object_: unknown): IAsyncResult;
+    Clone(): unknown;
+    EndInvoke(result: IAsyncResult): void;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    Invoke(sender: TSender, e: TEventArgs): void;
 }
 
 
 export interface __EventHandler_2$views<TSender, TEventArgs> {
-    readonly As_ICloneable: ICloneable$instance;
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ICloneable(): ICloneable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type EventHandler_2<TSender, TEventArgs> = EventHandler_2$instance<TSender, TEventArgs> & __EventHandler_2$views<TSender, TEventArgs>;
@@ -5137,23 +5205,23 @@ export class Exception$instance {
     constructor();
     constructor(message: string);
     constructor(message: string, innerException: Exception);
-    readonly data: IDictionary;
-    helpLink: string;
-    hResult: int;
-    readonly innerException: Exception;
-    readonly message: string;
-    source: string;
-    readonly stackTrace: string;
-    readonly targetSite: MethodBase;
-    getBaseException(): Exception;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    getType(): Type;
-    toString(): string;
+    readonly Data: IDictionary;
+    HelpLink: string;
+    HResult: int;
+    readonly InnerException: Exception;
+    readonly Message: string;
+    Source: string;
+    readonly StackTrace: string;
+    readonly TargetSite: MethodBase;
+    GetBaseException(): Exception;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    GetType(): Type;
+    ToString(): string;
 }
 
 
 export interface __Exception$views {
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type Exception = Exception$instance & __Exception$views;
@@ -5163,12 +5231,12 @@ export class ExecutionEngineException$instance extends SystemException$instance 
     constructor();
     constructor(message: string);
     constructor(message: string, innerException: Exception);
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
 export interface __ExecutionEngineException$views {
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type ExecutionEngineException = ExecutionEngineException$instance & __ExecutionEngineException$views;
@@ -5178,12 +5246,12 @@ export class FieldAccessException$instance extends MemberAccessException$instanc
     constructor();
     constructor(message: string);
     constructor(message: string, inner: Exception);
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
 export interface __FieldAccessException$views {
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type FieldAccessException = FieldAccessException$instance & __FieldAccessException$views;
@@ -5207,31 +5275,31 @@ export class FormatException$instance extends SystemException$instance {
     constructor();
     constructor(message: string);
     constructor(message: string, innerException: Exception);
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
 export interface __FormatException$views {
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type FormatException = FormatException$instance & __FormatException$views;
 
 
 export abstract class FormattableString$instance {
-    readonly argumentCount: int;
-    readonly format: string;
-    abstract getArgument(index: int): any;
-    abstract getArguments(): any[];
-    toString(formatProvider: IFormatProvider): string;
-    toString(): string;
+    readonly ArgumentCount: int;
+    readonly Format: string;
+    abstract GetArgument(index: int): unknown;
+    abstract GetArguments(): unknown[];
+    ToString(formatProvider: IFormatProvider): string;
+    ToString(): string;
     static CurrentCulture(formattable: FormattableString): string;
     static Invariant(formattable: FormattableString): string;
 }
 
 
 export interface __FormattableString$views {
-    readonly As_IFormattable: IFormattable$instance;
+    As_IFormattable(): IFormattable$instance;
 }
 
 export type FormattableString = FormattableString$instance & __FormattableString$views;
@@ -5245,306 +5313,306 @@ export class FtpStyleUriParser$instance extends UriParser$instance {
 export type FtpStyleUriParser = FtpStyleUriParser$instance;
 
 export class Func_1$instance<TResult> extends Function {
-    constructor(object_: any, method: nint);
-    beginInvoke(callback: AsyncCallback, object_: any): IAsyncResult;
-    clone(): any;
-    endInvoke(result: IAsyncResult): TResult;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(): TResult;
+    constructor(object_: unknown, method: nint);
+    BeginInvoke(callback: AsyncCallback, object_: unknown): IAsyncResult;
+    Clone(): unknown;
+    EndInvoke(result: IAsyncResult): TResult;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    Invoke(): TResult;
 }
 
 
 export interface __Func_1$views<TResult> {
-    readonly As_ICloneable: ICloneable$instance;
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ICloneable(): ICloneable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type Func_1<TResult> = Func_1$instance<TResult> & __Func_1$views<TResult>;
 
 
 export class Func_10$instance<T1, T2, T3, T4, T5, T6, T7, T8, T9, TResult> extends Function {
-    constructor(object_: any, method: nint);
-    beginInvoke(arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, arg9: T9, callback: AsyncCallback, object_: any): IAsyncResult;
-    clone(): any;
-    endInvoke(result: IAsyncResult): TResult;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, arg9: T9): TResult;
+    constructor(object_: unknown, method: nint);
+    BeginInvoke(arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, arg9: T9, callback: AsyncCallback, object_: unknown): IAsyncResult;
+    Clone(): unknown;
+    EndInvoke(result: IAsyncResult): TResult;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    Invoke(arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, arg9: T9): TResult;
 }
 
 
 export interface __Func_10$views<T1, T2, T3, T4, T5, T6, T7, T8, T9, TResult> {
-    readonly As_ICloneable: ICloneable$instance;
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ICloneable(): ICloneable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type Func_10<T1, T2, T3, T4, T5, T6, T7, T8, T9, TResult> = Func_10$instance<T1, T2, T3, T4, T5, T6, T7, T8, T9, TResult> & __Func_10$views<T1, T2, T3, T4, T5, T6, T7, T8, T9, TResult>;
 
 
 export class Func_11$instance<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, TResult> extends Function {
-    constructor(object_: any, method: nint);
-    beginInvoke(arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, arg9: T9, arg10: T10, callback: AsyncCallback, object_: any): IAsyncResult;
-    clone(): any;
-    endInvoke(result: IAsyncResult): TResult;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, arg9: T9, arg10: T10): TResult;
+    constructor(object_: unknown, method: nint);
+    BeginInvoke(arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, arg9: T9, arg10: T10, callback: AsyncCallback, object_: unknown): IAsyncResult;
+    Clone(): unknown;
+    EndInvoke(result: IAsyncResult): TResult;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    Invoke(arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, arg9: T9, arg10: T10): TResult;
 }
 
 
 export interface __Func_11$views<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, TResult> {
-    readonly As_ICloneable: ICloneable$instance;
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ICloneable(): ICloneable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type Func_11<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, TResult> = Func_11$instance<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, TResult> & __Func_11$views<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, TResult>;
 
 
 export class Func_12$instance<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, TResult> extends Function {
-    constructor(object_: any, method: nint);
-    beginInvoke(arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, arg9: T9, arg10: T10, arg11: T11, callback: AsyncCallback, object_: any): IAsyncResult;
-    clone(): any;
-    endInvoke(result: IAsyncResult): TResult;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, arg9: T9, arg10: T10, arg11: T11): TResult;
+    constructor(object_: unknown, method: nint);
+    BeginInvoke(arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, arg9: T9, arg10: T10, arg11: T11, callback: AsyncCallback, object_: unknown): IAsyncResult;
+    Clone(): unknown;
+    EndInvoke(result: IAsyncResult): TResult;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    Invoke(arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, arg9: T9, arg10: T10, arg11: T11): TResult;
 }
 
 
 export interface __Func_12$views<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, TResult> {
-    readonly As_ICloneable: ICloneable$instance;
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ICloneable(): ICloneable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type Func_12<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, TResult> = Func_12$instance<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, TResult> & __Func_12$views<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, TResult>;
 
 
 export class Func_13$instance<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, TResult> extends Function {
-    constructor(object_: any, method: nint);
-    beginInvoke(arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, arg9: T9, arg10: T10, arg11: T11, arg12: T12, callback: AsyncCallback, object_: any): IAsyncResult;
-    clone(): any;
-    endInvoke(result: IAsyncResult): TResult;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, arg9: T9, arg10: T10, arg11: T11, arg12: T12): TResult;
+    constructor(object_: unknown, method: nint);
+    BeginInvoke(arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, arg9: T9, arg10: T10, arg11: T11, arg12: T12, callback: AsyncCallback, object_: unknown): IAsyncResult;
+    Clone(): unknown;
+    EndInvoke(result: IAsyncResult): TResult;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    Invoke(arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, arg9: T9, arg10: T10, arg11: T11, arg12: T12): TResult;
 }
 
 
 export interface __Func_13$views<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, TResult> {
-    readonly As_ICloneable: ICloneable$instance;
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ICloneable(): ICloneable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type Func_13<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, TResult> = Func_13$instance<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, TResult> & __Func_13$views<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, TResult>;
 
 
 export class Func_14$instance<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, TResult> extends Function {
-    constructor(object_: any, method: nint);
-    beginInvoke(arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, arg9: T9, arg10: T10, arg11: T11, arg12: T12, arg13: T13, callback: AsyncCallback, object_: any): IAsyncResult;
-    clone(): any;
-    endInvoke(result: IAsyncResult): TResult;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, arg9: T9, arg10: T10, arg11: T11, arg12: T12, arg13: T13): TResult;
+    constructor(object_: unknown, method: nint);
+    BeginInvoke(arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, arg9: T9, arg10: T10, arg11: T11, arg12: T12, arg13: T13, callback: AsyncCallback, object_: unknown): IAsyncResult;
+    Clone(): unknown;
+    EndInvoke(result: IAsyncResult): TResult;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    Invoke(arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, arg9: T9, arg10: T10, arg11: T11, arg12: T12, arg13: T13): TResult;
 }
 
 
 export interface __Func_14$views<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, TResult> {
-    readonly As_ICloneable: ICloneable$instance;
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ICloneable(): ICloneable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type Func_14<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, TResult> = Func_14$instance<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, TResult> & __Func_14$views<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, TResult>;
 
 
 export class Func_15$instance<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, TResult> extends Function {
-    constructor(object_: any, method: nint);
-    beginInvoke(arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, arg9: T9, arg10: T10, arg11: T11, arg12: T12, arg13: T13, arg14: T14, callback: AsyncCallback, object_: any): IAsyncResult;
-    clone(): any;
-    endInvoke(result: IAsyncResult): TResult;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, arg9: T9, arg10: T10, arg11: T11, arg12: T12, arg13: T13, arg14: T14): TResult;
+    constructor(object_: unknown, method: nint);
+    BeginInvoke(arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, arg9: T9, arg10: T10, arg11: T11, arg12: T12, arg13: T13, arg14: T14, callback: AsyncCallback, object_: unknown): IAsyncResult;
+    Clone(): unknown;
+    EndInvoke(result: IAsyncResult): TResult;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    Invoke(arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, arg9: T9, arg10: T10, arg11: T11, arg12: T12, arg13: T13, arg14: T14): TResult;
 }
 
 
 export interface __Func_15$views<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, TResult> {
-    readonly As_ICloneable: ICloneable$instance;
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ICloneable(): ICloneable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type Func_15<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, TResult> = Func_15$instance<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, TResult> & __Func_15$views<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, TResult>;
 
 
 export class Func_16$instance<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, TResult> extends Function {
-    constructor(object_: any, method: nint);
-    beginInvoke(arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, arg9: T9, arg10: T10, arg11: T11, arg12: T12, arg13: T13, arg14: T14, arg15: T15, callback: AsyncCallback, object_: any): IAsyncResult;
-    clone(): any;
-    endInvoke(result: IAsyncResult): TResult;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, arg9: T9, arg10: T10, arg11: T11, arg12: T12, arg13: T13, arg14: T14, arg15: T15): TResult;
+    constructor(object_: unknown, method: nint);
+    BeginInvoke(arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, arg9: T9, arg10: T10, arg11: T11, arg12: T12, arg13: T13, arg14: T14, arg15: T15, callback: AsyncCallback, object_: unknown): IAsyncResult;
+    Clone(): unknown;
+    EndInvoke(result: IAsyncResult): TResult;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    Invoke(arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, arg9: T9, arg10: T10, arg11: T11, arg12: T12, arg13: T13, arg14: T14, arg15: T15): TResult;
 }
 
 
 export interface __Func_16$views<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, TResult> {
-    readonly As_ICloneable: ICloneable$instance;
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ICloneable(): ICloneable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type Func_16<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, TResult> = Func_16$instance<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, TResult> & __Func_16$views<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, TResult>;
 
 
 export class Func_17$instance<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, TResult> extends Function {
-    constructor(object_: any, method: nint);
-    beginInvoke(arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, arg9: T9, arg10: T10, arg11: T11, arg12: T12, arg13: T13, arg14: T14, arg15: T15, arg16: T16, callback: AsyncCallback, object_: any): IAsyncResult;
-    clone(): any;
-    endInvoke(result: IAsyncResult): TResult;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, arg9: T9, arg10: T10, arg11: T11, arg12: T12, arg13: T13, arg14: T14, arg15: T15, arg16: T16): TResult;
+    constructor(object_: unknown, method: nint);
+    BeginInvoke(arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, arg9: T9, arg10: T10, arg11: T11, arg12: T12, arg13: T13, arg14: T14, arg15: T15, arg16: T16, callback: AsyncCallback, object_: unknown): IAsyncResult;
+    Clone(): unknown;
+    EndInvoke(result: IAsyncResult): TResult;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    Invoke(arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, arg9: T9, arg10: T10, arg11: T11, arg12: T12, arg13: T13, arg14: T14, arg15: T15, arg16: T16): TResult;
 }
 
 
 export interface __Func_17$views<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, TResult> {
-    readonly As_ICloneable: ICloneable$instance;
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ICloneable(): ICloneable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type Func_17<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, TResult> = Func_17$instance<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, TResult> & __Func_17$views<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, TResult>;
 
 
 export class Func_2$instance<T, TResult> extends Function {
-    constructor(object_: any, method: nint);
-    beginInvoke(arg: T, callback: AsyncCallback, object_: any): IAsyncResult;
-    clone(): any;
-    endInvoke(result: IAsyncResult): TResult;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(arg: T): TResult;
+    constructor(object_: unknown, method: nint);
+    BeginInvoke(arg: T, callback: AsyncCallback, object_: unknown): IAsyncResult;
+    Clone(): unknown;
+    EndInvoke(result: IAsyncResult): TResult;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    Invoke(arg: T): TResult;
 }
 
 
 export interface __Func_2$views<T, TResult> {
-    readonly As_ICloneable: ICloneable$instance;
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ICloneable(): ICloneable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type Func_2<T, TResult> = Func_2$instance<T, TResult> & __Func_2$views<T, TResult>;
 
 
 export class Func_3$instance<T1, T2, TResult> extends Function {
-    constructor(object_: any, method: nint);
-    beginInvoke(arg1: T1, arg2: T2, callback: AsyncCallback, object_: any): IAsyncResult;
-    clone(): any;
-    endInvoke(result: IAsyncResult): TResult;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(arg1: T1, arg2: T2): TResult;
+    constructor(object_: unknown, method: nint);
+    BeginInvoke(arg1: T1, arg2: T2, callback: AsyncCallback, object_: unknown): IAsyncResult;
+    Clone(): unknown;
+    EndInvoke(result: IAsyncResult): TResult;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    Invoke(arg1: T1, arg2: T2): TResult;
 }
 
 
 export interface __Func_3$views<T1, T2, TResult> {
-    readonly As_ICloneable: ICloneable$instance;
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ICloneable(): ICloneable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type Func_3<T1, T2, TResult> = Func_3$instance<T1, T2, TResult> & __Func_3$views<T1, T2, TResult>;
 
 
 export class Func_4$instance<T1, T2, T3, TResult> extends Function {
-    constructor(object_: any, method: nint);
-    beginInvoke(arg1: T1, arg2: T2, arg3: T3, callback: AsyncCallback, object_: any): IAsyncResult;
-    clone(): any;
-    endInvoke(result: IAsyncResult): TResult;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(arg1: T1, arg2: T2, arg3: T3): TResult;
+    constructor(object_: unknown, method: nint);
+    BeginInvoke(arg1: T1, arg2: T2, arg3: T3, callback: AsyncCallback, object_: unknown): IAsyncResult;
+    Clone(): unknown;
+    EndInvoke(result: IAsyncResult): TResult;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    Invoke(arg1: T1, arg2: T2, arg3: T3): TResult;
 }
 
 
 export interface __Func_4$views<T1, T2, T3, TResult> {
-    readonly As_ICloneable: ICloneable$instance;
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ICloneable(): ICloneable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type Func_4<T1, T2, T3, TResult> = Func_4$instance<T1, T2, T3, TResult> & __Func_4$views<T1, T2, T3, TResult>;
 
 
 export class Func_5$instance<T1, T2, T3, T4, TResult> extends Function {
-    constructor(object_: any, method: nint);
-    beginInvoke(arg1: T1, arg2: T2, arg3: T3, arg4: T4, callback: AsyncCallback, object_: any): IAsyncResult;
-    clone(): any;
-    endInvoke(result: IAsyncResult): TResult;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(arg1: T1, arg2: T2, arg3: T3, arg4: T4): TResult;
+    constructor(object_: unknown, method: nint);
+    BeginInvoke(arg1: T1, arg2: T2, arg3: T3, arg4: T4, callback: AsyncCallback, object_: unknown): IAsyncResult;
+    Clone(): unknown;
+    EndInvoke(result: IAsyncResult): TResult;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    Invoke(arg1: T1, arg2: T2, arg3: T3, arg4: T4): TResult;
 }
 
 
 export interface __Func_5$views<T1, T2, T3, T4, TResult> {
-    readonly As_ICloneable: ICloneable$instance;
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ICloneable(): ICloneable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type Func_5<T1, T2, T3, T4, TResult> = Func_5$instance<T1, T2, T3, T4, TResult> & __Func_5$views<T1, T2, T3, T4, TResult>;
 
 
 export class Func_6$instance<T1, T2, T3, T4, T5, TResult> extends Function {
-    constructor(object_: any, method: nint);
-    beginInvoke(arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, callback: AsyncCallback, object_: any): IAsyncResult;
-    clone(): any;
-    endInvoke(result: IAsyncResult): TResult;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5): TResult;
+    constructor(object_: unknown, method: nint);
+    BeginInvoke(arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, callback: AsyncCallback, object_: unknown): IAsyncResult;
+    Clone(): unknown;
+    EndInvoke(result: IAsyncResult): TResult;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    Invoke(arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5): TResult;
 }
 
 
 export interface __Func_6$views<T1, T2, T3, T4, T5, TResult> {
-    readonly As_ICloneable: ICloneable$instance;
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ICloneable(): ICloneable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type Func_6<T1, T2, T3, T4, T5, TResult> = Func_6$instance<T1, T2, T3, T4, T5, TResult> & __Func_6$views<T1, T2, T3, T4, T5, TResult>;
 
 
 export class Func_7$instance<T1, T2, T3, T4, T5, T6, TResult> extends Function {
-    constructor(object_: any, method: nint);
-    beginInvoke(arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, callback: AsyncCallback, object_: any): IAsyncResult;
-    clone(): any;
-    endInvoke(result: IAsyncResult): TResult;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6): TResult;
+    constructor(object_: unknown, method: nint);
+    BeginInvoke(arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, callback: AsyncCallback, object_: unknown): IAsyncResult;
+    Clone(): unknown;
+    EndInvoke(result: IAsyncResult): TResult;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    Invoke(arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6): TResult;
 }
 
 
 export interface __Func_7$views<T1, T2, T3, T4, T5, T6, TResult> {
-    readonly As_ICloneable: ICloneable$instance;
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ICloneable(): ICloneable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type Func_7<T1, T2, T3, T4, T5, T6, TResult> = Func_7$instance<T1, T2, T3, T4, T5, T6, TResult> & __Func_7$views<T1, T2, T3, T4, T5, T6, TResult>;
 
 
 export class Func_8$instance<T1, T2, T3, T4, T5, T6, T7, TResult> extends Function {
-    constructor(object_: any, method: nint);
-    beginInvoke(arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, callback: AsyncCallback, object_: any): IAsyncResult;
-    clone(): any;
-    endInvoke(result: IAsyncResult): TResult;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7): TResult;
+    constructor(object_: unknown, method: nint);
+    BeginInvoke(arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, callback: AsyncCallback, object_: unknown): IAsyncResult;
+    Clone(): unknown;
+    EndInvoke(result: IAsyncResult): TResult;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    Invoke(arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7): TResult;
 }
 
 
 export interface __Func_8$views<T1, T2, T3, T4, T5, T6, T7, TResult> {
-    readonly As_ICloneable: ICloneable$instance;
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ICloneable(): ICloneable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type Func_8<T1, T2, T3, T4, T5, T6, T7, TResult> = Func_8$instance<T1, T2, T3, T4, T5, T6, T7, TResult> & __Func_8$views<T1, T2, T3, T4, T5, T6, T7, TResult>;
 
 
 export class Func_9$instance<T1, T2, T3, T4, T5, T6, T7, T8, TResult> extends Function {
-    constructor(object_: any, method: nint);
-    beginInvoke(arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, callback: AsyncCallback, object_: any): IAsyncResult;
-    clone(): any;
-    endInvoke(result: IAsyncResult): TResult;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8): TResult;
+    constructor(object_: unknown, method: nint);
+    BeginInvoke(arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, callback: AsyncCallback, object_: unknown): IAsyncResult;
+    Clone(): unknown;
+    EndInvoke(result: IAsyncResult): TResult;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    Invoke(arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8): TResult;
 }
 
 
 export interface __Func_9$views<T1, T2, T3, T4, T5, T6, T7, T8, TResult> {
-    readonly As_ICloneable: ICloneable$instance;
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ICloneable(): ICloneable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type Func_9<T1, T2, T3, T4, T5, T6, T7, T8, TResult> = Func_9$instance<T1, T2, T3, T4, T5, T6, T7, T8, TResult> & __Func_9$views<T1, T2, T3, T4, T5, T6, T7, T8, TResult>;
@@ -5575,12 +5643,12 @@ export class IndexOutOfRangeException$instance extends SystemException$instance 
     constructor();
     constructor(message: string);
     constructor(message: string, innerException: Exception);
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
 export interface __IndexOutOfRangeException$views {
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type IndexOutOfRangeException = IndexOutOfRangeException$instance & __IndexOutOfRangeException$views;
@@ -5590,12 +5658,12 @@ export class InsufficientExecutionStackException$instance extends SystemExceptio
     constructor();
     constructor(message: string);
     constructor(message: string, innerException: Exception);
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
 export interface __InsufficientExecutionStackException$views {
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type InsufficientExecutionStackException = InsufficientExecutionStackException$instance & __InsufficientExecutionStackException$views;
@@ -5605,12 +5673,12 @@ export class InsufficientMemoryException$instance extends OutOfMemoryException$i
     constructor();
     constructor(message: string);
     constructor(message: string, innerException: Exception);
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
 export interface __InsufficientMemoryException$views {
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type InsufficientMemoryException = InsufficientMemoryException$instance & __InsufficientMemoryException$views;
@@ -5621,12 +5689,12 @@ export class InvalidCastException$instance extends SystemException$instance {
     constructor(message: string);
     constructor(message: string, innerException: Exception);
     constructor(message: string, errorCode: int);
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
 export interface __InvalidCastException$views {
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type InvalidCastException = InvalidCastException$instance & __InvalidCastException$views;
@@ -5636,12 +5704,12 @@ export class InvalidOperationException$instance extends SystemException$instance
     constructor();
     constructor(message: string);
     constructor(message: string, innerException: Exception);
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
 export interface __InvalidOperationException$views {
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type InvalidOperationException = InvalidOperationException$instance & __InvalidOperationException$views;
@@ -5651,12 +5719,12 @@ export class InvalidProgramException$instance extends SystemException$instance {
     constructor();
     constructor(message: string);
     constructor(message: string, inner: Exception);
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
 export interface __InvalidProgramException$views {
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type InvalidProgramException = InvalidProgramException$instance & __InvalidProgramException$views;
@@ -5666,12 +5734,12 @@ export class InvalidTimeZoneException$instance extends Exception$instance {
     constructor();
     constructor(message: string);
     constructor(message: string, innerException: Exception);
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
 export interface __InvalidTimeZoneException$views {
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type InvalidTimeZoneException = InvalidTimeZoneException$instance & __InvalidTimeZoneException$views;
@@ -5685,9 +5753,9 @@ export class Lazy_1$instance<T> {
     constructor(mode: LazyThreadSafetyMode);
     constructor(valueFactory: Func_1<T>, isThreadSafe: boolean);
     constructor(valueFactory: Func_1<T>, mode: LazyThreadSafetyMode);
-    readonly isValueCreated: boolean;
-    readonly value: T;
-    toString(): string;
+    readonly IsValueCreated: boolean;
+    readonly Value: T;
+    ToString(): string;
 }
 
 
@@ -5700,7 +5768,7 @@ export class Lazy_2$instance<T, TMetadata> extends Lazy_1$instance<T> {
     constructor(valueFactory: Func_1<T>, metadata: TMetadata, isThreadSafe: boolean);
     constructor(metadata: TMetadata, mode: LazyThreadSafetyMode);
     constructor(valueFactory: Func_1<T>, metadata: TMetadata, mode: LazyThreadSafetyMode);
-    readonly metadata: TMetadata;
+    readonly Metadata: TMetadata;
 }
 
 
@@ -5716,7 +5784,7 @@ export type LdapStyleUriParser = LdapStyleUriParser$instance;
 export class LoaderOptimizationAttribute$instance extends Attribute$instance {
     constructor(value: byte);
     constructor(value: LoaderOptimization);
-    readonly value: LoaderOptimization;
+    readonly Value: LoaderOptimization;
 }
 
 
@@ -5729,8 +5797,8 @@ export class LocalDataStoreSlot$instance {
 export type LocalDataStoreSlot = LocalDataStoreSlot$instance;
 
 export abstract class MarshalByRefObject$instance {
-    getLifetimeService(): any;
-    initializeLifetimeService(): any;
+    GetLifetimeService(): unknown;
+    InitializeLifetimeService(): unknown;
 }
 
 
@@ -5740,12 +5808,12 @@ export class MemberAccessException$instance extends SystemException$instance {
     constructor();
     constructor(message: string);
     constructor(message: string, inner: Exception);
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
 export interface __MemberAccessException$views {
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type MemberAccessException = MemberAccessException$instance & __MemberAccessException$views;
@@ -5755,12 +5823,12 @@ export class MethodAccessException$instance extends MemberAccessException$instan
     constructor();
     constructor(message: string);
     constructor(message: string, inner: Exception);
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
 export interface __MethodAccessException$views {
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type MethodAccessException = MethodAccessException$instance & __MethodAccessException$views;
@@ -5771,13 +5839,13 @@ export class MissingFieldException$instance extends MissingMemberException$insta
     constructor(message: string);
     constructor(message: string, inner: Exception);
     constructor(className: string, fieldName: string);
-    readonly message: string;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
+    readonly Message: string;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
 export interface __MissingFieldException$views {
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type MissingFieldException = MissingFieldException$instance & __MissingFieldException$views;
@@ -5788,13 +5856,13 @@ export class MissingMemberException$instance extends MemberAccessException$insta
     constructor(message: string);
     constructor(message: string, inner: Exception);
     constructor(className: string, memberName: string);
-    readonly message: string;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
+    readonly Message: string;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
 export interface __MissingMemberException$views {
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type MissingMemberException = MissingMemberException$instance & __MissingMemberException$views;
@@ -5805,13 +5873,13 @@ export class MissingMethodException$instance extends MissingMemberException$inst
     constructor(message: string);
     constructor(message: string, inner: Exception);
     constructor(className: string, methodName: string);
-    readonly message: string;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
+    readonly Message: string;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
 export interface __MissingMethodException$views {
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type MissingMethodException = MissingMethodException$instance & __MissingMethodException$views;
@@ -5825,17 +5893,17 @@ export class MTAThreadAttribute$instance extends Attribute$instance {
 export type MTAThreadAttribute = MTAThreadAttribute$instance;
 
 export abstract class MulticastDelegate$instance extends Function {
-    clone(): any;
-    equals(obj: any): boolean;
-    getHashCode(): int;
-    getInvocationList(): Function[];
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
+    Clone(): unknown;
+    Equals(obj: unknown): boolean;
+    GetHashCode(): int;
+    GetInvocationList(): Function[];
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
 export interface __MulticastDelegate$views {
-    readonly As_ICloneable: ICloneable$instance;
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ICloneable(): ICloneable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type MulticastDelegate = MulticastDelegate$instance & __MulticastDelegate$views;
@@ -5845,12 +5913,12 @@ export class MulticastNotSupportedException$instance extends SystemException$ins
     constructor();
     constructor(message: string);
     constructor(message: string, inner: Exception);
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
 export interface __MulticastNotSupportedException$views {
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type MulticastNotSupportedException = MulticastNotSupportedException$instance & __MulticastNotSupportedException$views;
@@ -5891,13 +5959,13 @@ export class NotFiniteNumberException$instance extends ArithmeticException$insta
     constructor(message: string, offendingNumber: double);
     constructor(message: string, innerException: Exception);
     constructor(message: string, offendingNumber: double, innerException: Exception);
-    readonly offendingNumber: double;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
+    readonly OffendingNumber: double;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
 export interface __NotFiniteNumberException$views {
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type NotFiniteNumberException = NotFiniteNumberException$instance & __NotFiniteNumberException$views;
@@ -5907,12 +5975,12 @@ export class NotImplementedException$instance extends SystemException$instance {
     constructor();
     constructor(message: string);
     constructor(message: string, inner: Exception);
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
 export interface __NotImplementedException$views {
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type NotImplementedException = NotImplementedException$instance & __NotImplementedException$views;
@@ -5922,12 +5990,12 @@ export class NotSupportedException$instance extends SystemException$instance {
     constructor();
     constructor(message: string);
     constructor(message: string, innerException: Exception);
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
 export interface __NotSupportedException$views {
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type NotSupportedException = NotSupportedException$instance & __NotSupportedException$views;
@@ -5937,12 +6005,12 @@ export class NullReferenceException$instance extends SystemException$instance {
     constructor();
     constructor(message: string);
     constructor(message: string, innerException: Exception);
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
 export interface __NullReferenceException$views {
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type NullReferenceException = NullReferenceException$instance & __NullReferenceException$views;
@@ -5950,12 +6018,12 @@ export type NullReferenceException = NullReferenceException$instance & __NullRef
 
 export class Object$instance {
     constructor();
-    equals(obj: any): boolean;
-    getHashCode(): int;
-    getType(): Type;
-    toString(): string;
-    static Equals(objA: any, objB: any): boolean;
-    static ReferenceEquals(objA: any, objB: any): boolean;
+    Equals(obj: unknown): boolean;
+    GetHashCode(): int;
+    GetType(): Type;
+    ToString(): string;
+    static Equals(objA: unknown, objB: unknown): boolean;
+    static ReferenceEquals(objA: unknown, objB: unknown): boolean;
 }
 
 
@@ -5965,16 +6033,16 @@ export class ObjectDisposedException$instance extends InvalidOperationException$
     constructor(objectName: string);
     constructor(objectName: string, message: string);
     constructor(message: string, innerException: Exception);
-    readonly message: string;
-    readonly objectName: string;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    static ThrowIf(condition: boolean, instance: any): void;
+    readonly Message: string;
+    readonly ObjectName: string;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    static ThrowIf(condition: boolean, instance: unknown): void;
     static ThrowIf(condition: boolean, type_: Type): void;
 }
 
 
 export interface __ObjectDisposedException$views {
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type ObjectDisposedException = ObjectDisposedException$instance & __ObjectDisposedException$views;
@@ -5984,10 +6052,10 @@ export class ObsoleteAttribute$instance extends Attribute$instance {
     constructor();
     constructor(message: string);
     constructor(message: string, error: boolean);
-    diagnosticId: string;
-    readonly isError: boolean;
-    readonly message: string;
-    urlFormat: string;
+    DiagnosticId: string;
+    readonly IsError: boolean;
+    readonly Message: string;
+    UrlFormat: string;
 }
 
 
@@ -5995,13 +6063,13 @@ export type ObsoleteAttribute = ObsoleteAttribute$instance;
 
 export class OperatingSystem$instance {
     constructor(platform: PlatformID, version: Version);
-    readonly platform: PlatformID;
-    readonly servicePack: string;
-    readonly version: Version;
-    readonly versionString: string;
-    clone(): any;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    toString(): string;
+    readonly Platform: PlatformID;
+    readonly ServicePack: string;
+    readonly Version: Version;
+    readonly VersionString: string;
+    Clone(): unknown;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    ToString(): string;
     static IsAndroid(): boolean;
     static IsAndroidVersionAtLeast(major: int, minor?: int, build?: int, revision?: int): boolean;
     static IsBrowser(): boolean;
@@ -6027,8 +6095,8 @@ export class OperatingSystem$instance {
 
 
 export interface __OperatingSystem$views {
-    readonly As_ICloneable: ICloneable$instance;
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ICloneable(): ICloneable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type OperatingSystem = OperatingSystem$instance & __OperatingSystem$views;
@@ -6041,37 +6109,37 @@ export class OperationCanceledException$instance extends SystemException$instanc
     constructor(token: CancellationToken);
     constructor(message: string, token: CancellationToken);
     constructor(message: string, innerException: Exception, token: CancellationToken);
-    readonly cancellationToken: CancellationToken;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
+    readonly CancellationToken: CancellationToken;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
 export interface __OperationCanceledException$views {
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type OperationCanceledException = OperationCanceledException$instance & __OperationCanceledException$views;
 
 
 export class OrdinalComparer$instance extends StringComparer$instance {
-    compare(x: string, y: string): int;
-    compare(x: any, y: any): int;
-    compare(x: unknown, y: unknown): int;
-    equals(x: string, y: string): boolean;
-    equals(x: any, y: any): boolean;
-    equals(x: unknown, y: unknown): boolean;
-    getHashCode(obj: string): int;
-    getHashCode(obj: any): int;
-    getHashCode(obj: unknown): int;
+    Compare(x: string, y: string): int;
+    Compare(x: unknown, y: unknown): int;
+    Compare(x: unknown, y: unknown): int;
+    Equals(x: string, y: string): boolean;
+    Equals(x: unknown, y: unknown): boolean;
+    Equals(x: unknown, y: unknown): boolean;
+    GetHashCode(obj: string): int;
+    GetHashCode(obj: unknown): int;
+    GetHashCode(obj: unknown): int;
 }
 
 
 export interface __OrdinalComparer$views {
-    readonly As_IAlternateEqualityComparer_2_of_ReadOnlySpan_1_and_String: System_Collections_Generic_Internal.IAlternateEqualityComparer_2$instance<ReadOnlySpan_1<CLROf<string>>, CLROf<string>>;
-    readonly As_IComparer_1_of_String: System_Collections_Generic_Internal.IComparer_1$instance<CLROf<string>>;
-    readonly As_IEqualityComparer_1_of_String: System_Collections_Generic_Internal.IEqualityComparer_1$instance<CLROf<string>>;
-    readonly As_IComparer: System_Collections_Internal.IComparer$instance;
-    readonly As_IEqualityComparer: System_Collections_Internal.IEqualityComparer$instance;
+    As_IAlternateEqualityComparer_2(): System_Collections_Generic_Internal.IAlternateEqualityComparer_2$instance<ReadOnlySpan_1<CLROf<char>>, CLROf<string>>;
+    As_IComparer_1(): System_Collections_Generic_Internal.IComparer_1$instance<CLROf<string>>;
+    As_IEqualityComparer_1(): System_Collections_Generic_Internal.IEqualityComparer_1$instance<CLROf<string>>;
+    As_IComparer(): System_Collections_Internal.IComparer$instance;
+    As_IEqualityComparer(): System_Collections_Internal.IEqualityComparer$instance;
 }
 
 export type OrdinalComparer = OrdinalComparer$instance & __OrdinalComparer$views;
@@ -6081,12 +6149,12 @@ export class OutOfMemoryException$instance extends SystemException$instance {
     constructor();
     constructor(message: string);
     constructor(message: string, innerException: Exception);
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
 export interface __OutOfMemoryException$views {
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type OutOfMemoryException = OutOfMemoryException$instance & __OutOfMemoryException$views;
@@ -6096,12 +6164,12 @@ export class OverflowException$instance extends ArithmeticException$instance {
     constructor();
     constructor(message: string);
     constructor(message: string, innerException: Exception);
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
 export interface __OverflowException$views {
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type OverflowException = OverflowException$instance & __OverflowException$views;
@@ -6118,30 +6186,30 @@ export class PlatformNotSupportedException$instance extends NotSupportedExceptio
     constructor();
     constructor(message: string);
     constructor(message: string, inner: Exception);
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
 export interface __PlatformNotSupportedException$views {
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type PlatformNotSupportedException = PlatformNotSupportedException$instance & __PlatformNotSupportedException$views;
 
 
 export class Predicate_1$instance<T> extends Function {
-    constructor(object_: any, method: nint);
-    beginInvoke(obj: T, callback: AsyncCallback, object_: any): IAsyncResult;
-    clone(): any;
-    endInvoke(result: IAsyncResult): boolean;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(obj: T): boolean;
+    constructor(object_: unknown, method: nint);
+    BeginInvoke(obj: T, callback: AsyncCallback, object_: unknown): IAsyncResult;
+    Clone(): unknown;
+    EndInvoke(result: IAsyncResult): boolean;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    Invoke(obj: T): boolean;
 }
 
 
 export interface __Predicate_1$views<T> {
-    readonly As_ICloneable: ICloneable$instance;
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ICloneable(): ICloneable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type Predicate_1<T> = Predicate_1$instance<T> & __Predicate_1$views<T>;
@@ -6154,7 +6222,7 @@ export class Progress_1$instance<T> {
 
 
 export interface __Progress_1$views<T> {
-    readonly As_IProgress_1: IProgress_1$instance<T>;
+    As_IProgress_1(): IProgress_1$instance<T>;
 }
 
 export type Progress_1<T> = Progress_1$instance<T> & __Progress_1$views<T>;
@@ -6163,24 +6231,24 @@ export type Progress_1<T> = Progress_1$instance<T> & __Progress_1$views<T>;
 export class Random$instance {
     constructor();
     constructor(Seed: int);
-    getHexString(stringLength: int, lowercase?: boolean): string;
-    getHexString(destination: Span_1<CLROf<string>>, lowercase?: boolean): void;
-    getItems<T>(choices: ReadOnlySpan_1<T>, destination: Span_1<T>): void;
-    getItems<T>(choices: T[], length: int): T[];
-    getItems<T>(choices: ReadOnlySpan_1<T>, length: int): T[];
-    getString(choices: ReadOnlySpan_1<CLROf<string>>, length: int): string;
-    next(): int;
-    next(maxValue: int): int;
-    next(minValue: int, maxValue: int): int;
-    nextBytes(buffer: byte[]): void;
-    nextBytes(buffer: Span_1<CLROf<byte>>): void;
-    nextDouble(): double;
-    nextInt64(): long;
-    nextInt64(maxValue: long): long;
-    nextInt64(minValue: long, maxValue: long): long;
-    nextSingle(): float;
-    shuffle<T>(values: T[]): void;
-    shuffle<T>(values: Span_1<T>): void;
+    GetHexString(stringLength: int, lowercase?: boolean): string;
+    GetHexString(destination: Span_1<CLROf<char>>, lowercase?: boolean): void;
+    GetItems<T>(choices: ReadOnlySpan_1<T>, destination: Span_1<T>): void;
+    GetItems<T>(choices: T[], length: int): T[];
+    GetItems<T>(choices: ReadOnlySpan_1<T>, length: int): T[];
+    GetString(choices: ReadOnlySpan_1<CLROf<char>>, length: int): string;
+    Next(): int;
+    Next(maxValue: int): int;
+    Next(minValue: int, maxValue: int): int;
+    NextBytes(buffer: byte[]): void;
+    NextBytes(buffer: Span_1<CLROf<byte>>): void;
+    NextDouble(): double;
+    NextInt64(): long;
+    NextInt64(maxValue: long): long;
+    NextInt64(minValue: long, maxValue: long): long;
+    NextSingle(): float;
+    Shuffle<T>(values: T[]): void;
+    Shuffle<T>(values: Span_1<T>): void;
     static readonly Shared: Random;
 }
 
@@ -6191,12 +6259,12 @@ export class RankException$instance extends SystemException$instance {
     constructor();
     constructor(message: string);
     constructor(message: string, innerException: Exception);
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
 export interface __RankException$views {
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type RankException = RankException$instance & __RankException$views;
@@ -6205,26 +6273,26 @@ export type RankException = RankException$instance & __RankException$views;
 export class ResolveEventArgs$instance extends EventArgs$instance {
     constructor(name: string);
     constructor(name: string, requestingAssembly: Assembly);
-    readonly name: string;
-    readonly requestingAssembly: Assembly;
+    readonly Name: string;
+    readonly RequestingAssembly: Assembly;
 }
 
 
 export type ResolveEventArgs = ResolveEventArgs$instance;
 
 export class ResolveEventHandler$instance extends Function {
-    constructor(object_: any, method: nint);
-    beginInvoke(sender: any, args: ResolveEventArgs, callback: AsyncCallback, object_: any): IAsyncResult;
-    clone(): any;
-    endInvoke(result: IAsyncResult): Assembly;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(sender: any, args: ResolveEventArgs): Assembly;
+    constructor(object_: unknown, method: nint);
+    BeginInvoke(sender: unknown, args: ResolveEventArgs, callback: AsyncCallback, object_: unknown): IAsyncResult;
+    Clone(): unknown;
+    EndInvoke(result: IAsyncResult): Assembly;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    Invoke(sender: unknown, args: ResolveEventArgs): Assembly;
 }
 
 
 export interface __ResolveEventHandler$views {
-    readonly As_ICloneable: ICloneable$instance;
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ICloneable(): ICloneable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type ResolveEventHandler = ResolveEventHandler$instance & __ResolveEventHandler$views;
@@ -6241,12 +6309,12 @@ export class StackOverflowException$instance extends SystemException$instance {
     constructor();
     constructor(message: string);
     constructor(message: string, innerException: Exception);
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
 export interface __StackOverflowException$views {
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type StackOverflowException = StackOverflowException$instance & __StackOverflowException$views;
@@ -6260,122 +6328,122 @@ export class STAThreadAttribute$instance extends Attribute$instance {
 export type STAThreadAttribute = STAThreadAttribute$instance;
 
 export class String$instance {
-    constructor(value: string[]);
-    constructor(value: string[], startIndex: int, length: int);
-    constructor(value: ptr<string>);
-    constructor(value: ptr<string>, startIndex: int, length: int);
+    constructor(value: char[]);
+    constructor(value: char[], startIndex: int, length: int);
+    constructor(value: ptr<char>);
+    constructor(value: ptr<char>, startIndex: int, length: int);
     constructor(value: ptr<sbyte>);
     constructor(value: ptr<sbyte>, startIndex: int, length: int);
     constructor(value: ptr<sbyte>, startIndex: int, length: int, enc: Encoding);
-    constructor(c: string, count: int);
-    constructor(value: ReadOnlySpan_1<CLROf<string>>);
-    readonly chars: string;
-    readonly length: int;
-    clone(): any;
-    compareTo(value: any): int;
-    compareTo(strB: string): int;
-    contains(value: string): boolean;
-    contains(value: string, comparisonType: StringComparison): boolean;
-    contains(value: string): boolean;
-    contains(value: string, comparisonType: StringComparison): boolean;
-    copyTo(sourceIndex: int, destination: string[], destinationIndex: int, count: int): void;
-    copyTo(destination: Span_1<CLROf<string>>): void;
-    endsWith(value: string): boolean;
-    endsWith(value: string, comparisonType: StringComparison): boolean;
-    endsWith(value: string, ignoreCase: boolean, culture: CultureInfo): boolean;
-    endsWith(value: string): boolean;
-    enumerateRunes(): StringRuneEnumerator;
-    equals(obj: any): boolean;
-    equals(value: string): boolean;
-    equals(value: string, comparisonType: StringComparison): boolean;
-    getEnumerator(): CharEnumerator;
-    getHashCode(): int;
-    getHashCode(comparisonType: StringComparison): int;
-    getPinnableReference(): ref<string>;
-    getTypeCode(): TypeCode;
-    indexOf(value: string): int;
-    indexOf(value: string, startIndex: int): int;
-    indexOf(value: string, comparisonType: StringComparison): int;
-    indexOf(value: string, startIndex: int, count: int): int;
-    indexOf(value: string): int;
-    indexOf(value: string, startIndex: int): int;
-    indexOf(value: string, startIndex: int, count: int): int;
-    indexOf(value: string, comparisonType: StringComparison): int;
-    indexOf(value: string, startIndex: int, comparisonType: StringComparison): int;
-    indexOf(value: string, startIndex: int, count: int, comparisonType: StringComparison): int;
-    indexOfAny(anyOf: string[]): int;
-    indexOfAny(anyOf: string[], startIndex: int): int;
-    indexOfAny(anyOf: string[], startIndex: int, count: int): int;
-    insert(startIndex: int, value: string): string;
-    isNormalized(): boolean;
-    isNormalized(normalizationForm: NormalizationForm): boolean;
-    lastIndexOf(value: string): int;
-    lastIndexOf(value: string, startIndex: int): int;
-    lastIndexOf(value: string, startIndex: int, count: int): int;
-    lastIndexOf(value: string): int;
-    lastIndexOf(value: string, startIndex: int): int;
-    lastIndexOf(value: string, startIndex: int, count: int): int;
-    lastIndexOf(value: string, comparisonType: StringComparison): int;
-    lastIndexOf(value: string, startIndex: int, comparisonType: StringComparison): int;
-    lastIndexOf(value: string, startIndex: int, count: int, comparisonType: StringComparison): int;
-    lastIndexOfAny(anyOf: string[]): int;
-    lastIndexOfAny(anyOf: string[], startIndex: int): int;
-    lastIndexOfAny(anyOf: string[], startIndex: int, count: int): int;
-    normalize(): string;
-    normalize(normalizationForm: NormalizationForm): string;
-    padLeft(totalWidth: int): string;
-    padLeft(totalWidth: int, paddingChar: string): string;
-    padRight(totalWidth: int): string;
-    padRight(totalWidth: int, paddingChar: string): string;
-    remove(startIndex: int, count: int): string;
-    remove(startIndex: int): string;
-    replace(oldValue: string, newValue: string, ignoreCase: boolean, culture: CultureInfo): string;
-    replace(oldValue: string, newValue: string, comparisonType: StringComparison): string;
-    replace(oldChar: string, newChar: string): string;
-    replace(oldValue: string, newValue: string): string;
-    replaceLineEndings(): string;
-    replaceLineEndings(replacementText: string): string;
-    split(separator: string, options?: StringSplitOptions): string[];
-    split(separator: string, count: int, options?: StringSplitOptions): string[];
-    split(separator: string[]): string[];
-    split(separator: ReadOnlySpan_1<CLROf<string>>): string[];
-    split(separator: string[], count: int): string[];
-    split(separator: string[], options: StringSplitOptions): string[];
-    split(separator: string[], count: int, options: StringSplitOptions): string[];
-    split(separator: string, options?: StringSplitOptions): string[];
-    split(separator: string, count: int, options?: StringSplitOptions): string[];
-    split(separator: string[], options: StringSplitOptions): string[];
-    split(separator: string[], count: int, options: StringSplitOptions): string[];
-    startsWith(value: string): boolean;
-    startsWith(value: string, comparisonType: StringComparison): boolean;
-    startsWith(value: string, ignoreCase: boolean, culture: CultureInfo): boolean;
-    startsWith(value: string): boolean;
-    substring(startIndex: int): string;
-    substring(startIndex: int, length: int): string;
-    toCharArray(): string[];
-    toCharArray(startIndex: int, length: int): string[];
-    toLower(): string;
-    toLower(culture: CultureInfo): string;
-    toLowerInvariant(): string;
-    toString(): string;
-    toString(provider: IFormatProvider): string;
-    toUpper(): string;
-    toUpper(culture: CultureInfo): string;
-    toUpperInvariant(): string;
-    trim(): string;
-    trim(trimChar: string): string;
-    trim(trimChars: string[]): string;
-    trim(trimChars: ReadOnlySpan_1<CLROf<string>>): string;
-    trimEnd(): string;
-    trimEnd(trimChar: string): string;
-    trimEnd(trimChars: string[]): string;
-    trimEnd(trimChars: ReadOnlySpan_1<CLROf<string>>): string;
-    trimStart(): string;
-    trimStart(trimChar: string): string;
-    trimStart(trimChars: string[]): string;
-    trimStart(trimChars: ReadOnlySpan_1<CLROf<string>>): string;
-    tryCopyTo(destination: Span_1<CLROf<string>>): boolean;
-    static readonly empty: string;
+    constructor(c: char, count: int);
+    constructor(value: ReadOnlySpan_1<CLROf<char>>);
+    readonly Chars: char;
+    readonly Length: int;
+    Clone(): unknown;
+    CompareTo(value: unknown): int;
+    CompareTo(strB: string): int;
+    Contains(value: string): boolean;
+    Contains(value: string, comparisonType: StringComparison): boolean;
+    Contains(value: char): boolean;
+    Contains(value: char, comparisonType: StringComparison): boolean;
+    CopyTo(sourceIndex: int, destination: char[], destinationIndex: int, count: int): void;
+    CopyTo(destination: Span_1<CLROf<char>>): void;
+    EndsWith(value: string): boolean;
+    EndsWith(value: string, comparisonType: StringComparison): boolean;
+    EndsWith(value: string, ignoreCase: boolean, culture: CultureInfo): boolean;
+    EndsWith(value: char): boolean;
+    EnumerateRunes(): StringRuneEnumerator;
+    Equals(obj: unknown): boolean;
+    Equals(value: string): boolean;
+    Equals(value: string, comparisonType: StringComparison): boolean;
+    GetEnumerator(): CharEnumerator;
+    GetHashCode(): int;
+    GetHashCode(comparisonType: StringComparison): int;
+    GetPinnableReference(): ref<char>;
+    GetTypeCode(): TypeCode;
+    IndexOf(value: char): int;
+    IndexOf(value: char, startIndex: int): int;
+    IndexOf(value: char, comparisonType: StringComparison): int;
+    IndexOf(value: char, startIndex: int, count: int): int;
+    IndexOf(value: string): int;
+    IndexOf(value: string, startIndex: int): int;
+    IndexOf(value: string, startIndex: int, count: int): int;
+    IndexOf(value: string, comparisonType: StringComparison): int;
+    IndexOf(value: string, startIndex: int, comparisonType: StringComparison): int;
+    IndexOf(value: string, startIndex: int, count: int, comparisonType: StringComparison): int;
+    IndexOfAny(anyOf: char[]): int;
+    IndexOfAny(anyOf: char[], startIndex: int): int;
+    IndexOfAny(anyOf: char[], startIndex: int, count: int): int;
+    Insert(startIndex: int, value: string): string;
+    IsNormalized(): boolean;
+    IsNormalized(normalizationForm: NormalizationForm): boolean;
+    LastIndexOf(value: char): int;
+    LastIndexOf(value: char, startIndex: int): int;
+    LastIndexOf(value: char, startIndex: int, count: int): int;
+    LastIndexOf(value: string): int;
+    LastIndexOf(value: string, startIndex: int): int;
+    LastIndexOf(value: string, startIndex: int, count: int): int;
+    LastIndexOf(value: string, comparisonType: StringComparison): int;
+    LastIndexOf(value: string, startIndex: int, comparisonType: StringComparison): int;
+    LastIndexOf(value: string, startIndex: int, count: int, comparisonType: StringComparison): int;
+    LastIndexOfAny(anyOf: char[]): int;
+    LastIndexOfAny(anyOf: char[], startIndex: int): int;
+    LastIndexOfAny(anyOf: char[], startIndex: int, count: int): int;
+    Normalize(): string;
+    Normalize(normalizationForm: NormalizationForm): string;
+    PadLeft(totalWidth: int): string;
+    PadLeft(totalWidth: int, paddingChar: char): string;
+    PadRight(totalWidth: int): string;
+    PadRight(totalWidth: int, paddingChar: char): string;
+    Remove(startIndex: int, count: int): string;
+    Remove(startIndex: int): string;
+    Replace(oldValue: string, newValue: string, ignoreCase: boolean, culture: CultureInfo): string;
+    Replace(oldValue: string, newValue: string, comparisonType: StringComparison): string;
+    Replace(oldChar: char, newChar: char): string;
+    Replace(oldValue: string, newValue: string): string;
+    ReplaceLineEndings(): string;
+    ReplaceLineEndings(replacementText: string): string;
+    Split(separator: char, options?: StringSplitOptions): string[];
+    Split(separator: char, count: int, options?: StringSplitOptions): string[];
+    Split(separator: char[]): string[];
+    Split(separator: ReadOnlySpan_1<CLROf<char>>): string[];
+    Split(separator: char[], count: int): string[];
+    Split(separator: char[], options: StringSplitOptions): string[];
+    Split(separator: char[], count: int, options: StringSplitOptions): string[];
+    Split(separator: string, options?: StringSplitOptions): string[];
+    Split(separator: string, count: int, options?: StringSplitOptions): string[];
+    Split(separator: string[], options: StringSplitOptions): string[];
+    Split(separator: string[], count: int, options: StringSplitOptions): string[];
+    StartsWith(value: string): boolean;
+    StartsWith(value: string, comparisonType: StringComparison): boolean;
+    StartsWith(value: string, ignoreCase: boolean, culture: CultureInfo): boolean;
+    StartsWith(value: char): boolean;
+    Substring(startIndex: int): string;
+    Substring(startIndex: int, length: int): string;
+    ToCharArray(): char[];
+    ToCharArray(startIndex: int, length: int): char[];
+    ToLower(): string;
+    ToLower(culture: CultureInfo): string;
+    ToLowerInvariant(): string;
+    ToString(): string;
+    ToString(provider: IFormatProvider): string;
+    ToUpper(): string;
+    ToUpper(culture: CultureInfo): string;
+    ToUpperInvariant(): string;
+    Trim(): string;
+    Trim(trimChar: char): string;
+    Trim(trimChars: char[]): string;
+    Trim(trimChars: ReadOnlySpan_1<CLROf<char>>): string;
+    TrimEnd(): string;
+    TrimEnd(trimChar: char): string;
+    TrimEnd(trimChars: char[]): string;
+    TrimEnd(trimChars: ReadOnlySpan_1<CLROf<char>>): string;
+    TrimStart(): string;
+    TrimStart(trimChar: char): string;
+    TrimStart(trimChars: char[]): string;
+    TrimStart(trimChars: ReadOnlySpan_1<CLROf<char>>): string;
+    TryCopyTo(destination: Span_1<CLROf<char>>): boolean;
+    static readonly Empty: string;
     static Compare(strA: string, indexA: int, strB: string, indexB: int, length: int, ignoreCase: boolean, culture: CultureInfo): int;
     static Compare(strA: string, indexA: int, strB: string, indexB: int, length: int, ignoreCase: boolean): int;
     static Compare(strA: string, indexA: int, strB: string, indexB: int, length: int, culture: CultureInfo, options: CompareOptions): int;
@@ -6390,14 +6458,14 @@ export class String$instance {
     static CompareOrdinal(strA: string, strB: string): int;
     static Concat<T>(values: IEnumerable_1<T>): string;
     static Concat(values: IEnumerable_1<CLROf<string>>): string;
-    static Concat(arg0: any, arg1: any, arg2: any): string;
-    static Concat(arg0: any, arg1: any): string;
-    static Concat(arg0: any): string;
-    static Concat(args: any[]): string;
-    static Concat(str0: ReadOnlySpan_1<CLROf<string>>, str1: ReadOnlySpan_1<CLROf<string>>, str2: ReadOnlySpan_1<CLROf<string>>, str3: ReadOnlySpan_1<CLROf<string>>): string;
-    static Concat(str0: ReadOnlySpan_1<CLROf<string>>, str1: ReadOnlySpan_1<CLROf<string>>, str2: ReadOnlySpan_1<CLROf<string>>): string;
-    static Concat(str0: ReadOnlySpan_1<CLROf<string>>, str1: ReadOnlySpan_1<CLROf<string>>): string;
-    static Concat(args: ReadOnlySpan_1<any>): string;
+    static Concat(arg0: unknown, arg1: unknown, arg2: unknown): string;
+    static Concat(arg0: unknown, arg1: unknown): string;
+    static Concat(arg0: unknown): string;
+    static Concat(args: unknown[]): string;
+    static Concat(str0: ReadOnlySpan_1<CLROf<char>>, str1: ReadOnlySpan_1<CLROf<char>>, str2: ReadOnlySpan_1<CLROf<char>>, str3: ReadOnlySpan_1<CLROf<char>>): string;
+    static Concat(str0: ReadOnlySpan_1<CLROf<char>>, str1: ReadOnlySpan_1<CLROf<char>>, str2: ReadOnlySpan_1<CLROf<char>>): string;
+    static Concat(str0: ReadOnlySpan_1<CLROf<char>>, str1: ReadOnlySpan_1<CLROf<char>>): string;
+    static Concat(args: ReadOnlySpan_1<unknown>): string;
     static Concat(values: ReadOnlySpan_1<CLROf<string>>): string;
     static Concat(str0: string, str1: string, str2: string, str3: string): string;
     static Concat(str0: string, str1: string, str2: string): string;
@@ -6405,41 +6473,41 @@ export class String$instance {
     static Concat(values: string[]): string;
     static Copy(str: string): string;
     static Create(provider: IFormatProvider, handler: { value: ref<DefaultInterpolatedStringHandler> }): string;
-    static Create(provider: IFormatProvider, initialBuffer: Span_1<CLROf<string>>, handler: { value: ref<DefaultInterpolatedStringHandler> }): string;
-    static Create<TState>(length: int, state: TState, action: SpanAction_2<CLROf<string>, TState>): string;
+    static Create(provider: IFormatProvider, initialBuffer: Span_1<CLROf<char>>, handler: { value: ref<DefaultInterpolatedStringHandler> }): string;
+    static Create<TState>(length: int, state: TState, action: SpanAction_2<CLROf<char>, TState>): string;
     static Equals(a: string, b: string, comparisonType: StringComparison): boolean;
     static Equals(a: string, b: string): boolean;
-    static Format(provider: IFormatProvider, format: string, arg0: any, arg1: any, arg2: any): string;
-    static Format(provider: IFormatProvider, format: string, arg0: any, arg1: any): string;
-    static Format(provider: IFormatProvider, format: string, arg0: any): string;
-    static Format(provider: IFormatProvider, format: string, args: any[]): string;
-    static Format(provider: IFormatProvider, format: string, args: ReadOnlySpan_1<any>): string;
-    static Format(provider: IFormatProvider, format: CompositeFormat, args: any[]): string;
-    static Format(provider: IFormatProvider, format: CompositeFormat, args: ReadOnlySpan_1<any>): string;
+    static Format(provider: IFormatProvider, format: string, arg0: unknown, arg1: unknown, arg2: unknown): string;
+    static Format(provider: IFormatProvider, format: string, arg0: unknown, arg1: unknown): string;
+    static Format(provider: IFormatProvider, format: string, arg0: unknown): string;
+    static Format(provider: IFormatProvider, format: string, args: unknown[]): string;
+    static Format(provider: IFormatProvider, format: string, args: ReadOnlySpan_1<unknown>): string;
+    static Format(provider: IFormatProvider, format: CompositeFormat, args: unknown[]): string;
+    static Format(provider: IFormatProvider, format: CompositeFormat, args: ReadOnlySpan_1<unknown>): string;
     static Format<TArg0, TArg1, TArg2>(provider: IFormatProvider, format: CompositeFormat, arg0: TArg0, arg1: TArg1, arg2: TArg2): string;
     static Format<TArg0, TArg1>(provider: IFormatProvider, format: CompositeFormat, arg0: TArg0, arg1: TArg1): string;
     static Format<TArg0>(provider: IFormatProvider, format: CompositeFormat, arg0: TArg0): string;
-    static Format(format: string, arg0: any, arg1: any, arg2: any): string;
-    static Format(format: string, arg0: any, arg1: any): string;
-    static Format(format: string, arg0: any): string;
-    static Format(format: string, args: any[]): string;
-    static Format(format: string, args: ReadOnlySpan_1<any>): string;
-    static GetHashCode(value: ReadOnlySpan_1<CLROf<string>>, comparisonType: StringComparison): int;
-    static GetHashCode(value: ReadOnlySpan_1<CLROf<string>>): int;
+    static Format(format: string, arg0: unknown, arg1: unknown, arg2: unknown): string;
+    static Format(format: string, arg0: unknown, arg1: unknown): string;
+    static Format(format: string, arg0: unknown): string;
+    static Format(format: string, args: unknown[]): string;
+    static Format(format: string, args: ReadOnlySpan_1<unknown>): string;
+    static GetHashCode(value: ReadOnlySpan_1<CLROf<char>>, comparisonType: StringComparison): int;
+    static GetHashCode(value: ReadOnlySpan_1<CLROf<char>>): int;
     static Intern(str: string): string;
     static IsInterned(str: string): string;
     static IsNullOrEmpty(value: string): boolean;
     static IsNullOrWhiteSpace(value: string): boolean;
-    static Join<T>(separator: string, values: IEnumerable_1<T>): string;
-    static Join(separator: string, values: any[]): string;
-    static Join(separator: string, values: ReadOnlySpan_1<any>): string;
-    static Join(separator: string, value: ReadOnlySpan_1<CLROf<string>>): string;
-    static Join(separator: string, value: string[], startIndex: int, count: int): string;
-    static Join(separator: string, value: string[]): string;
+    static Join<T>(separator: char, values: IEnumerable_1<T>): string;
+    static Join(separator: char, values: unknown[]): string;
+    static Join(separator: char, values: ReadOnlySpan_1<unknown>): string;
+    static Join(separator: char, value: ReadOnlySpan_1<CLROf<string>>): string;
+    static Join(separator: char, value: string[], startIndex: int, count: int): string;
+    static Join(separator: char, value: string[]): string;
     static Join<T>(separator: string, values: IEnumerable_1<T>): string;
     static Join(separator: string, values: IEnumerable_1<CLROf<string>>): string;
-    static Join(separator: string, values: any[]): string;
-    static Join(separator: string, values: ReadOnlySpan_1<any>): string;
+    static Join(separator: string, values: unknown[]): string;
+    static Join(separator: string, values: ReadOnlySpan_1<unknown>): string;
     static Join(separator: string, value: ReadOnlySpan_1<CLROf<string>>): string;
     static Join(separator: string, value: string[], startIndex: int, count: int): string;
     static Join(separator: string, value: string[]): string;
@@ -6447,31 +6515,31 @@ export class String$instance {
 
 
 export interface __String$views {
-    readonly As_IEnumerable_1_of_Char: System_Collections_Generic_Internal.IEnumerable_1$instance<CLROf<string>>;
-    readonly As_IEnumerable: System_Collections_Internal.IEnumerable$instance;
-    readonly As_ICloneable: ICloneable$instance;
-    readonly As_IComparable: IComparable$instance;
-    readonly As_IComparable_1_of_Decimal: IComparable_1$instance<CLROf<string>>;
-    readonly As_IConvertible: IConvertible$instance;
-    readonly As_IEquatable_1_of_ConsoleKeyInfo: IEquatable_1$instance<CLROf<string>>;
-    readonly As_IParsable_1_of_Decimal: IParsable_1$instance<any>;
-    readonly As_ISpanParsable_1_of_Decimal: ISpanParsable_1$instance<any>;
+    As_IEnumerable_1(): System_Collections_Generic_Internal.IEnumerable_1$instance<CLROf<char>>;
+    As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
+    As_ICloneable(): ICloneable$instance;
+    As_IComparable(): IComparable$instance;
+    As_IComparable_1(): IComparable_1$instance<CLROf<string>>;
+    As_IConvertible(): IConvertible$instance;
+    As_IEquatable_1(): IEquatable_1$instance<CLROf<string>>;
+    As_IParsable_1(): IParsable_1$instance<CLROf<string>>;
+    As_ISpanParsable_1(): ISpanParsable_1$instance<CLROf<string>>;
 
     // Structural method bridges for numeric interface constraints
     Equals(other: String): boolean;
-    CompareTo(obj: any): int;
+    CompareTo(obj: unknown): int;
 }
 
 export type String = String$instance & __String$views;
 
 
 export abstract class StringComparer$instance {
-    compare(x: any, y: any): int;
-    compare(x: string, y: string): int;
-    equals(x: any, y: any): boolean;
-    equals(x: string, y: string): boolean;
-    getHashCode(obj: any): int;
-    getHashCode(obj: string): int;
+    Compare(x: unknown, y: unknown): int;
+    Compare(x: string, y: string): int;
+    Equals(x: unknown, y: unknown): boolean;
+    Equals(x: string, y: string): boolean;
+    GetHashCode(obj: unknown): int;
+    GetHashCode(obj: string): int;
     static readonly InvariantCulture: StringComparer;
     static readonly InvariantCultureIgnoreCase: StringComparer;
     static readonly CurrentCulture: StringComparer;
@@ -6487,10 +6555,10 @@ export abstract class StringComparer$instance {
 
 
 export interface __StringComparer$views {
-    readonly As_IComparer_1_of_String: System_Collections_Generic_Internal.IComparer_1$instance<CLROf<string>>;
-    readonly As_IEqualityComparer_1_of_String: System_Collections_Generic_Internal.IEqualityComparer_1$instance<CLROf<string>>;
-    readonly As_IComparer: System_Collections_Internal.IComparer$instance;
-    readonly As_IEqualityComparer: System_Collections_Internal.IEqualityComparer$instance;
+    As_IComparer_1(): System_Collections_Generic_Internal.IComparer_1$instance<CLROf<string>>;
+    As_IEqualityComparer_1(): System_Collections_Generic_Internal.IEqualityComparer_1$instance<CLROf<string>>;
+    As_IComparer(): System_Collections_Internal.IComparer$instance;
+    As_IEqualityComparer(): System_Collections_Internal.IEqualityComparer$instance;
 }
 
 export type StringComparer = StringComparer$instance & __StringComparer$views;
@@ -6500,12 +6568,12 @@ export class SystemException$instance extends Exception$instance {
     constructor();
     constructor(message: string);
     constructor(message: string, innerException: Exception);
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
 export interface __SystemException$views {
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type SystemException = SystemException$instance & __SystemException$views;
@@ -6522,26 +6590,26 @@ export class TimeoutException$instance extends SystemException$instance {
     constructor();
     constructor(message: string);
     constructor(message: string, innerException: Exception);
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
 export interface __TimeoutException$views {
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type TimeoutException = TimeoutException$instance & __TimeoutException$views;
 
 
 export abstract class TimeProvider$instance {
-    readonly localTimeZone: TimeZoneInfo;
-    readonly timestampFrequency: long;
-    createTimer(callback: TimerCallback, state: any, dueTime: TimeSpan, period: TimeSpan): ITimer;
-    getElapsedTime(startingTimestamp: long, endingTimestamp: long): TimeSpan;
-    getElapsedTime(startingTimestamp: long): TimeSpan;
-    getLocalNow(): DateTimeOffset;
-    getTimestamp(): long;
-    getUtcNow(): DateTimeOffset;
+    readonly LocalTimeZone: TimeZoneInfo;
+    readonly TimestampFrequency: long;
+    CreateTimer(callback: TimerCallback, state: unknown, dueTime: TimeSpan, period: TimeSpan): ITimer;
+    GetElapsedTime(startingTimestamp: long, endingTimestamp: long): TimeSpan;
+    GetElapsedTime(startingTimestamp: long): TimeSpan;
+    GetLocalNow(): DateTimeOffset;
+    GetTimestamp(): long;
+    GetUtcNow(): DateTimeOffset;
     static readonly System: TimeProvider;
 }
 
@@ -6549,13 +6617,13 @@ export abstract class TimeProvider$instance {
 export type TimeProvider = TimeProvider$instance;
 
 export abstract class TimeZone$instance {
-    readonly daylightName: string;
-    readonly standardName: string;
-    abstract getDaylightChanges(year: int): DaylightTime;
-    abstract getUtcOffset(time: DateTime): TimeSpan;
-    isDaylightSavingTime(time: DateTime): boolean;
-    toLocalTime(time: DateTime): DateTime;
-    toUniversalTime(time: DateTime): DateTime;
+    readonly DaylightName: string;
+    readonly StandardName: string;
+    abstract GetDaylightChanges(year: int): DaylightTime;
+    abstract GetUtcOffset(time: DateTime): TimeSpan;
+    IsDaylightSavingTime(time: DateTime): boolean;
+    ToLocalTime(time: DateTime): DateTime;
+    ToUniversalTime(time: DateTime): DateTime;
     static readonly CurrentTimeZone: TimeZone;
     static IsDaylightSavingTime(time: DateTime, daylightTimes: DaylightTime): boolean;
 }
@@ -6564,29 +6632,29 @@ export abstract class TimeZone$instance {
 export type TimeZone = TimeZone$instance;
 
 export class TimeZoneInfo$instance {
-    readonly baseUtcOffset: TimeSpan;
-    readonly daylightName: string;
-    readonly displayName: string;
-    readonly hasIanaId: boolean;
-    readonly id: string;
-    readonly standardName: string;
-    readonly supportsDaylightSavingTime: boolean;
-    equals(other: TimeZoneInfo): boolean;
-    equals(obj: any): boolean;
-    getAdjustmentRules(): TimeZoneInfo_AdjustmentRule[];
-    getAmbiguousTimeOffsets(dateTimeOffset: DateTimeOffset): TimeSpan[];
-    getAmbiguousTimeOffsets(dateTime: DateTime): TimeSpan[];
-    getHashCode(): int;
-    getUtcOffset(dateTimeOffset: DateTimeOffset): TimeSpan;
-    getUtcOffset(dateTime: DateTime): TimeSpan;
-    hasSameRules(other: TimeZoneInfo): boolean;
-    isAmbiguousTime(dateTimeOffset: DateTimeOffset): boolean;
-    isAmbiguousTime(dateTime: DateTime): boolean;
-    isDaylightSavingTime(dateTimeOffset: DateTimeOffset): boolean;
-    isDaylightSavingTime(dateTime: DateTime): boolean;
-    isInvalidTime(dateTime: DateTime): boolean;
-    toSerializedString(): string;
-    toString(): string;
+    readonly BaseUtcOffset: TimeSpan;
+    readonly DaylightName: string;
+    readonly DisplayName: string;
+    readonly HasIanaId: boolean;
+    readonly Id: string;
+    readonly StandardName: string;
+    readonly SupportsDaylightSavingTime: boolean;
+    Equals(other: TimeZoneInfo): boolean;
+    Equals(obj: unknown): boolean;
+    GetAdjustmentRules(): TimeZoneInfo_AdjustmentRule[];
+    GetAmbiguousTimeOffsets(dateTimeOffset: DateTimeOffset): TimeSpan[];
+    GetAmbiguousTimeOffsets(dateTime: DateTime): TimeSpan[];
+    GetHashCode(): int;
+    GetUtcOffset(dateTimeOffset: DateTimeOffset): TimeSpan;
+    GetUtcOffset(dateTime: DateTime): TimeSpan;
+    HasSameRules(other: TimeZoneInfo): boolean;
+    IsAmbiguousTime(dateTimeOffset: DateTimeOffset): boolean;
+    IsAmbiguousTime(dateTime: DateTime): boolean;
+    IsDaylightSavingTime(dateTimeOffset: DateTimeOffset): boolean;
+    IsDaylightSavingTime(dateTime: DateTime): boolean;
+    IsInvalidTime(dateTime: DateTime): boolean;
+    ToSerializedString(): string;
+    ToString(): string;
     static readonly Local: TimeZoneInfo;
     static readonly Utc: TimeZoneInfo;
     static ClearCachedData(): void;
@@ -6614,9 +6682,9 @@ export class TimeZoneInfo$instance {
 
 
 export interface __TimeZoneInfo$views {
-    readonly As_IEquatable_1_of_ConsoleKeyInfo: IEquatable_1$instance<TimeZoneInfo>;
-    readonly As_IDeserializationCallback: System_Runtime_Serialization_Internal.IDeserializationCallback$instance;
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_IEquatable_1(): IEquatable_1$instance<TimeZoneInfo>;
+    As_IDeserializationCallback(): System_Runtime_Serialization_Internal.IDeserializationCallback$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 
     // Structural method bridges for numeric interface constraints
     Equals(other: TimeZoneInfo): boolean;
@@ -6626,24 +6694,24 @@ export type TimeZoneInfo = TimeZoneInfo$instance & __TimeZoneInfo$views;
 
 
 export class TimeZoneInfo_AdjustmentRule$instance {
-    readonly baseUtcOffsetDelta: TimeSpan;
-    readonly dateEnd: DateTime;
-    readonly dateStart: DateTime;
-    readonly daylightDelta: TimeSpan;
-    readonly daylightTransitionEnd: TimeZoneInfo_TransitionTime;
-    readonly daylightTransitionStart: TimeZoneInfo_TransitionTime;
-    equals(other: TimeZoneInfo_AdjustmentRule): boolean;
-    equals(obj: any): boolean;
-    getHashCode(): int;
+    readonly BaseUtcOffsetDelta: TimeSpan;
+    readonly DateEnd: DateTime;
+    readonly DateStart: DateTime;
+    readonly DaylightDelta: TimeSpan;
+    readonly DaylightTransitionEnd: TimeZoneInfo_TransitionTime;
+    readonly DaylightTransitionStart: TimeZoneInfo_TransitionTime;
+    Equals(other: TimeZoneInfo_AdjustmentRule): boolean;
+    Equals(obj: unknown): boolean;
+    GetHashCode(): int;
     static CreateAdjustmentRule(dateStart: DateTime, dateEnd: DateTime, daylightDelta: TimeSpan, daylightTransitionStart: TimeZoneInfo_TransitionTime, daylightTransitionEnd: TimeZoneInfo_TransitionTime, baseUtcOffsetDelta: TimeSpan): TimeZoneInfo_AdjustmentRule;
     static CreateAdjustmentRule(dateStart: DateTime, dateEnd: DateTime, daylightDelta: TimeSpan, daylightTransitionStart: TimeZoneInfo_TransitionTime, daylightTransitionEnd: TimeZoneInfo_TransitionTime): TimeZoneInfo_AdjustmentRule;
 }
 
 
 export interface __TimeZoneInfo_AdjustmentRule$views {
-    readonly As_IEquatable_1_of_ConsoleKeyInfo: IEquatable_1$instance<TimeZoneInfo_AdjustmentRule>;
-    readonly As_IDeserializationCallback: System_Runtime_Serialization_Internal.IDeserializationCallback$instance;
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_IEquatable_1(): IEquatable_1$instance<TimeZoneInfo_AdjustmentRule>;
+    As_IDeserializationCallback(): System_Runtime_Serialization_Internal.IDeserializationCallback$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 
     // Structural method bridges for numeric interface constraints
     Equals(other: TimeZoneInfo_AdjustmentRule): boolean;
@@ -6656,12 +6724,12 @@ export class TimeZoneNotFoundException$instance extends Exception$instance {
     constructor();
     constructor(message: string);
     constructor(message: string, innerException: Exception);
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
 export interface __TimeZoneNotFoundException$views {
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type TimeZoneNotFoundException = TimeZoneNotFoundException$instance & __TimeZoneNotFoundException$views;
@@ -6669,21 +6737,21 @@ export type TimeZoneNotFoundException = TimeZoneNotFoundException$instance & __T
 
 export class Tuple_1$instance<T1> {
     constructor(item1: T1);
-    readonly item1: T1;
-    equals(obj: any): boolean;
-    getHashCode(): int;
-    toString(): string;
+    readonly Item1: T1;
+    Equals(obj: unknown): boolean;
+    GetHashCode(): int;
+    ToString(): string;
 }
 
 
 export interface __Tuple_1$views<T1> {
-    readonly As_IStructuralComparable: System_Collections_Internal.IStructuralComparable$instance;
-    readonly As_IStructuralEquatable: System_Collections_Internal.IStructuralEquatable$instance;
-    readonly As_IComparable: IComparable$instance;
-    readonly As_ITuple: System_Runtime_CompilerServices_Internal.ITuple$instance;
+    As_IStructuralComparable(): System_Collections_Internal.IStructuralComparable$instance;
+    As_IStructuralEquatable(): System_Collections_Internal.IStructuralEquatable$instance;
+    As_IComparable(): IComparable$instance;
+    As_ITuple(): System_Runtime_CompilerServices_Internal.ITuple$instance;
 
     // Structural method bridges for numeric interface constraints
-    CompareTo(obj: any): int;
+    CompareTo(obj: unknown): int;
 }
 
 export type Tuple_1<T1> = Tuple_1$instance<T1> & __Tuple_1$views<T1>;
@@ -6691,22 +6759,22 @@ export type Tuple_1<T1> = Tuple_1$instance<T1> & __Tuple_1$views<T1>;
 
 export class Tuple_2$instance<T1, T2> {
     constructor(item1: T1, item2: T2);
-    readonly item1: T1;
-    readonly item2: T2;
-    equals(obj: any): boolean;
-    getHashCode(): int;
-    toString(): string;
+    readonly Item1: T1;
+    readonly Item2: T2;
+    Equals(obj: unknown): boolean;
+    GetHashCode(): int;
+    ToString(): string;
 }
 
 
 export interface __Tuple_2$views<T1, T2> {
-    readonly As_IStructuralComparable: System_Collections_Internal.IStructuralComparable$instance;
-    readonly As_IStructuralEquatable: System_Collections_Internal.IStructuralEquatable$instance;
-    readonly As_IComparable: IComparable$instance;
-    readonly As_ITuple: System_Runtime_CompilerServices_Internal.ITuple$instance;
+    As_IStructuralComparable(): System_Collections_Internal.IStructuralComparable$instance;
+    As_IStructuralEquatable(): System_Collections_Internal.IStructuralEquatable$instance;
+    As_IComparable(): IComparable$instance;
+    As_ITuple(): System_Runtime_CompilerServices_Internal.ITuple$instance;
 
     // Structural method bridges for numeric interface constraints
-    CompareTo(obj: any): int;
+    CompareTo(obj: unknown): int;
 }
 
 export type Tuple_2<T1, T2> = Tuple_2$instance<T1, T2> & __Tuple_2$views<T1, T2>;
@@ -6714,23 +6782,23 @@ export type Tuple_2<T1, T2> = Tuple_2$instance<T1, T2> & __Tuple_2$views<T1, T2>
 
 export class Tuple_3$instance<T1, T2, T3> {
     constructor(item1: T1, item2: T2, item3: T3);
-    readonly item1: T1;
-    readonly item2: T2;
-    readonly item3: T3;
-    equals(obj: any): boolean;
-    getHashCode(): int;
-    toString(): string;
+    readonly Item1: T1;
+    readonly Item2: T2;
+    readonly Item3: T3;
+    Equals(obj: unknown): boolean;
+    GetHashCode(): int;
+    ToString(): string;
 }
 
 
 export interface __Tuple_3$views<T1, T2, T3> {
-    readonly As_IStructuralComparable: System_Collections_Internal.IStructuralComparable$instance;
-    readonly As_IStructuralEquatable: System_Collections_Internal.IStructuralEquatable$instance;
-    readonly As_IComparable: IComparable$instance;
-    readonly As_ITuple: System_Runtime_CompilerServices_Internal.ITuple$instance;
+    As_IStructuralComparable(): System_Collections_Internal.IStructuralComparable$instance;
+    As_IStructuralEquatable(): System_Collections_Internal.IStructuralEquatable$instance;
+    As_IComparable(): IComparable$instance;
+    As_ITuple(): System_Runtime_CompilerServices_Internal.ITuple$instance;
 
     // Structural method bridges for numeric interface constraints
-    CompareTo(obj: any): int;
+    CompareTo(obj: unknown): int;
 }
 
 export type Tuple_3<T1, T2, T3> = Tuple_3$instance<T1, T2, T3> & __Tuple_3$views<T1, T2, T3>;
@@ -6738,24 +6806,24 @@ export type Tuple_3<T1, T2, T3> = Tuple_3$instance<T1, T2, T3> & __Tuple_3$views
 
 export class Tuple_4$instance<T1, T2, T3, T4> {
     constructor(item1: T1, item2: T2, item3: T3, item4: T4);
-    readonly item1: T1;
-    readonly item2: T2;
-    readonly item3: T3;
-    readonly item4: T4;
-    equals(obj: any): boolean;
-    getHashCode(): int;
-    toString(): string;
+    readonly Item1: T1;
+    readonly Item2: T2;
+    readonly Item3: T3;
+    readonly Item4: T4;
+    Equals(obj: unknown): boolean;
+    GetHashCode(): int;
+    ToString(): string;
 }
 
 
 export interface __Tuple_4$views<T1, T2, T3, T4> {
-    readonly As_IStructuralComparable: System_Collections_Internal.IStructuralComparable$instance;
-    readonly As_IStructuralEquatable: System_Collections_Internal.IStructuralEquatable$instance;
-    readonly As_IComparable: IComparable$instance;
-    readonly As_ITuple: System_Runtime_CompilerServices_Internal.ITuple$instance;
+    As_IStructuralComparable(): System_Collections_Internal.IStructuralComparable$instance;
+    As_IStructuralEquatable(): System_Collections_Internal.IStructuralEquatable$instance;
+    As_IComparable(): IComparable$instance;
+    As_ITuple(): System_Runtime_CompilerServices_Internal.ITuple$instance;
 
     // Structural method bridges for numeric interface constraints
-    CompareTo(obj: any): int;
+    CompareTo(obj: unknown): int;
 }
 
 export type Tuple_4<T1, T2, T3, T4> = Tuple_4$instance<T1, T2, T3, T4> & __Tuple_4$views<T1, T2, T3, T4>;
@@ -6763,25 +6831,25 @@ export type Tuple_4<T1, T2, T3, T4> = Tuple_4$instance<T1, T2, T3, T4> & __Tuple
 
 export class Tuple_5$instance<T1, T2, T3, T4, T5> {
     constructor(item1: T1, item2: T2, item3: T3, item4: T4, item5: T5);
-    readonly item1: T1;
-    readonly item2: T2;
-    readonly item3: T3;
-    readonly item4: T4;
-    readonly item5: T5;
-    equals(obj: any): boolean;
-    getHashCode(): int;
-    toString(): string;
+    readonly Item1: T1;
+    readonly Item2: T2;
+    readonly Item3: T3;
+    readonly Item4: T4;
+    readonly Item5: T5;
+    Equals(obj: unknown): boolean;
+    GetHashCode(): int;
+    ToString(): string;
 }
 
 
 export interface __Tuple_5$views<T1, T2, T3, T4, T5> {
-    readonly As_IStructuralComparable: System_Collections_Internal.IStructuralComparable$instance;
-    readonly As_IStructuralEquatable: System_Collections_Internal.IStructuralEquatable$instance;
-    readonly As_IComparable: IComparable$instance;
-    readonly As_ITuple: System_Runtime_CompilerServices_Internal.ITuple$instance;
+    As_IStructuralComparable(): System_Collections_Internal.IStructuralComparable$instance;
+    As_IStructuralEquatable(): System_Collections_Internal.IStructuralEquatable$instance;
+    As_IComparable(): IComparable$instance;
+    As_ITuple(): System_Runtime_CompilerServices_Internal.ITuple$instance;
 
     // Structural method bridges for numeric interface constraints
-    CompareTo(obj: any): int;
+    CompareTo(obj: unknown): int;
 }
 
 export type Tuple_5<T1, T2, T3, T4, T5> = Tuple_5$instance<T1, T2, T3, T4, T5> & __Tuple_5$views<T1, T2, T3, T4, T5>;
@@ -6789,26 +6857,26 @@ export type Tuple_5<T1, T2, T3, T4, T5> = Tuple_5$instance<T1, T2, T3, T4, T5> &
 
 export class Tuple_6$instance<T1, T2, T3, T4, T5, T6> {
     constructor(item1: T1, item2: T2, item3: T3, item4: T4, item5: T5, item6: T6);
-    readonly item1: T1;
-    readonly item2: T2;
-    readonly item3: T3;
-    readonly item4: T4;
-    readonly item5: T5;
-    readonly item6: T6;
-    equals(obj: any): boolean;
-    getHashCode(): int;
-    toString(): string;
+    readonly Item1: T1;
+    readonly Item2: T2;
+    readonly Item3: T3;
+    readonly Item4: T4;
+    readonly Item5: T5;
+    readonly Item6: T6;
+    Equals(obj: unknown): boolean;
+    GetHashCode(): int;
+    ToString(): string;
 }
 
 
 export interface __Tuple_6$views<T1, T2, T3, T4, T5, T6> {
-    readonly As_IStructuralComparable: System_Collections_Internal.IStructuralComparable$instance;
-    readonly As_IStructuralEquatable: System_Collections_Internal.IStructuralEquatable$instance;
-    readonly As_IComparable: IComparable$instance;
-    readonly As_ITuple: System_Runtime_CompilerServices_Internal.ITuple$instance;
+    As_IStructuralComparable(): System_Collections_Internal.IStructuralComparable$instance;
+    As_IStructuralEquatable(): System_Collections_Internal.IStructuralEquatable$instance;
+    As_IComparable(): IComparable$instance;
+    As_ITuple(): System_Runtime_CompilerServices_Internal.ITuple$instance;
 
     // Structural method bridges for numeric interface constraints
-    CompareTo(obj: any): int;
+    CompareTo(obj: unknown): int;
 }
 
 export type Tuple_6<T1, T2, T3, T4, T5, T6> = Tuple_6$instance<T1, T2, T3, T4, T5, T6> & __Tuple_6$views<T1, T2, T3, T4, T5, T6>;
@@ -6816,27 +6884,27 @@ export type Tuple_6<T1, T2, T3, T4, T5, T6> = Tuple_6$instance<T1, T2, T3, T4, T
 
 export class Tuple_7$instance<T1, T2, T3, T4, T5, T6, T7> {
     constructor(item1: T1, item2: T2, item3: T3, item4: T4, item5: T5, item6: T6, item7: T7);
-    readonly item1: T1;
-    readonly item2: T2;
-    readonly item3: T3;
-    readonly item4: T4;
-    readonly item5: T5;
-    readonly item6: T6;
-    readonly item7: T7;
-    equals(obj: any): boolean;
-    getHashCode(): int;
-    toString(): string;
+    readonly Item1: T1;
+    readonly Item2: T2;
+    readonly Item3: T3;
+    readonly Item4: T4;
+    readonly Item5: T5;
+    readonly Item6: T6;
+    readonly Item7: T7;
+    Equals(obj: unknown): boolean;
+    GetHashCode(): int;
+    ToString(): string;
 }
 
 
 export interface __Tuple_7$views<T1, T2, T3, T4, T5, T6, T7> {
-    readonly As_IStructuralComparable: System_Collections_Internal.IStructuralComparable$instance;
-    readonly As_IStructuralEquatable: System_Collections_Internal.IStructuralEquatable$instance;
-    readonly As_IComparable: IComparable$instance;
-    readonly As_ITuple: System_Runtime_CompilerServices_Internal.ITuple$instance;
+    As_IStructuralComparable(): System_Collections_Internal.IStructuralComparable$instance;
+    As_IStructuralEquatable(): System_Collections_Internal.IStructuralEquatable$instance;
+    As_IComparable(): IComparable$instance;
+    As_ITuple(): System_Runtime_CompilerServices_Internal.ITuple$instance;
 
     // Structural method bridges for numeric interface constraints
-    CompareTo(obj: any): int;
+    CompareTo(obj: unknown): int;
 }
 
 export type Tuple_7<T1, T2, T3, T4, T5, T6, T7> = Tuple_7$instance<T1, T2, T3, T4, T5, T6, T7> & __Tuple_7$views<T1, T2, T3, T4, T5, T6, T7>;
@@ -6844,199 +6912,199 @@ export type Tuple_7<T1, T2, T3, T4, T5, T6, T7> = Tuple_7$instance<T1, T2, T3, T
 
 export class Tuple_8$instance<T1, T2, T3, T4, T5, T6, T7, TRest> {
     constructor(item1: T1, item2: T2, item3: T3, item4: T4, item5: T5, item6: T6, item7: T7, rest: TRest);
-    readonly item1: T1;
-    readonly item2: T2;
-    readonly item3: T3;
-    readonly item4: T4;
-    readonly item5: T5;
-    readonly item6: T6;
-    readonly item7: T7;
-    readonly rest: TRest;
-    equals(obj: any): boolean;
-    getHashCode(): int;
-    toString(): string;
+    readonly Item1: T1;
+    readonly Item2: T2;
+    readonly Item3: T3;
+    readonly Item4: T4;
+    readonly Item5: T5;
+    readonly Item6: T6;
+    readonly Item7: T7;
+    readonly Rest: TRest;
+    Equals(obj: unknown): boolean;
+    GetHashCode(): int;
+    ToString(): string;
 }
 
 
 export interface __Tuple_8$views<T1, T2, T3, T4, T5, T6, T7, TRest> {
-    readonly As_IStructuralComparable: System_Collections_Internal.IStructuralComparable$instance;
-    readonly As_IStructuralEquatable: System_Collections_Internal.IStructuralEquatable$instance;
-    readonly As_IComparable: IComparable$instance;
-    readonly As_ITuple: System_Runtime_CompilerServices_Internal.ITuple$instance;
+    As_IStructuralComparable(): System_Collections_Internal.IStructuralComparable$instance;
+    As_IStructuralEquatable(): System_Collections_Internal.IStructuralEquatable$instance;
+    As_IComparable(): IComparable$instance;
+    As_ITuple(): System_Runtime_CompilerServices_Internal.ITuple$instance;
 
     // Structural method bridges for numeric interface constraints
-    CompareTo(obj: any): int;
+    CompareTo(obj: unknown): int;
 }
 
 export type Tuple_8<T1, T2, T3, T4, T5, T6, T7, TRest> = Tuple_8$instance<T1, T2, T3, T4, T5, T6, T7, TRest> & __Tuple_8$views<T1, T2, T3, T4, T5, T6, T7, TRest>;
 
 
 export abstract class Type$instance extends System_Reflection_Internal.MemberInfo$instance {
-    readonly assembly: Assembly;
-    readonly assemblyQualifiedName: string;
-    readonly attributes: TypeAttributes;
-    readonly baseType: Type;
-    readonly containsGenericParameters: boolean;
-    readonly declaringMethod: MethodBase;
-    readonly declaringType: Type;
-    readonly fullName: string;
-    readonly genericParameterAttributes: GenericParameterAttributes;
-    readonly genericParameterPosition: int;
-    readonly genericTypeArguments: Type[];
-    readonly guid: Guid;
-    readonly hasElementType: boolean;
-    readonly isAbstract: boolean;
-    readonly isAnsiClass: boolean;
-    readonly isArray: boolean;
-    readonly isAutoClass: boolean;
-    readonly isAutoLayout: boolean;
-    readonly isByRef: boolean;
-    readonly isByRefLike: boolean;
-    readonly isClass: boolean;
-    readonly isCOMObject: boolean;
-    readonly isConstructedGenericType: boolean;
-    readonly isContextful: boolean;
-    readonly isEnum: boolean;
-    readonly isExplicitLayout: boolean;
-    readonly isFunctionPointer: boolean;
-    readonly isGenericMethodParameter: boolean;
-    readonly isGenericParameter: boolean;
-    readonly isGenericType: boolean;
-    readonly isGenericTypeDefinition: boolean;
-    readonly isGenericTypeParameter: boolean;
-    readonly isImport: boolean;
-    readonly isInterface: boolean;
-    readonly isLayoutSequential: boolean;
-    readonly isMarshalByRef: boolean;
-    readonly isNested: boolean;
-    readonly isNestedAssembly: boolean;
-    readonly isNestedFamANDAssem: boolean;
-    readonly isNestedFamily: boolean;
-    readonly isNestedFamORAssem: boolean;
-    readonly isNestedPrivate: boolean;
-    readonly isNestedPublic: boolean;
-    readonly isNotPublic: boolean;
-    readonly isPointer: boolean;
-    readonly isPrimitive: boolean;
-    readonly isPublic: boolean;
-    readonly isSealed: boolean;
-    readonly isSecurityCritical: boolean;
-    readonly isSecuritySafeCritical: boolean;
-    readonly isSecurityTransparent: boolean;
-    readonly isSerializable: boolean;
-    readonly isSignatureType: boolean;
-    readonly isSpecialName: boolean;
-    readonly isSZArray: boolean;
-    readonly isTypeDefinition: boolean;
-    readonly isUnicodeClass: boolean;
-    readonly isUnmanagedFunctionPointer: boolean;
-    readonly isValueType: boolean;
-    readonly isVariableBoundArray: boolean;
-    readonly isVisible: boolean;
-    readonly memberType: MemberTypes;
-    readonly module_: Module;
-    readonly namespace_: string;
-    readonly reflectedType: Type;
-    readonly structLayoutAttribute: StructLayoutAttribute;
-    readonly typeHandle: RuntimeTypeHandle;
-    readonly typeInitializer: ConstructorInfo;
-    readonly underlyingSystemType: Type;
-    equals(o: any): boolean;
-    findInterfaces(filter: TypeFilter, filterCriteria: any): Type[];
-    findMembers(memberType: MemberTypes, bindingAttr: BindingFlags, filter: MemberFilter, filterCriteria: any): MemberInfo[];
-    getArrayRank(): int;
-    getConstructor(types: Type[]): ConstructorInfo;
-    getConstructor(bindingAttr: BindingFlags, types: Type[]): ConstructorInfo;
-    getConstructor(bindingAttr: BindingFlags, binder: Binder, types: Type[], modifiers: ParameterModifier[]): ConstructorInfo;
-    getConstructor(bindingAttr: BindingFlags, binder: Binder, callConvention: CallingConventions, types: Type[], modifiers: ParameterModifier[]): ConstructorInfo;
-    getConstructors(): ConstructorInfo[];
-    getConstructors(bindingAttr: BindingFlags): ConstructorInfo[];
-    abstract getCustomAttributes(inherit: boolean): any[];
-    abstract getCustomAttributes(attributeType: Type, inherit: boolean): any[];
-    getDefaultMembers(): MemberInfo[];
-    abstract getElementType(): Type;
-    getEnumName(value: any): string;
-    getEnumNames(): string[];
-    getEnumUnderlyingType(): Type;
-    getEnumValues(): Array;
-    getEnumValuesAsUnderlyingType(): Array;
-    getEvent(name: string): EventInfo;
-    getEvent(name: string, bindingAttr: BindingFlags): EventInfo;
-    getEvents(): EventInfo[];
-    getEvents(bindingAttr: BindingFlags): EventInfo[];
-    getField(name: string): FieldInfo;
-    getField(name: string, bindingAttr: BindingFlags): FieldInfo;
-    getFields(): FieldInfo[];
-    getFields(bindingAttr: BindingFlags): FieldInfo[];
-    getFunctionPointerCallingConventions(): Type[];
-    getFunctionPointerParameterTypes(): Type[];
-    getFunctionPointerReturnType(): Type;
-    getGenericArguments(): Type[];
-    getGenericParameterConstraints(): Type[];
-    getGenericTypeDefinition(): Type;
-    getHashCode(): int;
-    getInterface(name: string): Type;
-    getInterface(name: string, ignoreCase: boolean): Type;
-    getInterfaceMap(interfaceType: Type): InterfaceMapping;
-    abstract getInterfaces(): Type[];
-    getMember(name: string): MemberInfo[];
-    getMember(name: string, bindingAttr: BindingFlags): MemberInfo[];
-    getMember(name: string, type_: MemberTypes, bindingAttr: BindingFlags): MemberInfo[];
-    getMembers(): MemberInfo[];
-    getMembers(bindingAttr: BindingFlags): MemberInfo[];
-    getMemberWithSameMetadataDefinitionAs(member: MemberInfo): MemberInfo;
-    getMethod(name: string): MethodInfo;
-    getMethod(name: string, bindingAttr: BindingFlags): MethodInfo;
-    getMethod(name: string, bindingAttr: BindingFlags, types: Type[]): MethodInfo;
-    getMethod(name: string, types: Type[]): MethodInfo;
-    getMethod(name: string, types: Type[], modifiers: ParameterModifier[]): MethodInfo;
-    getMethod(name: string, bindingAttr: BindingFlags, binder: Binder, types: Type[], modifiers: ParameterModifier[]): MethodInfo;
-    getMethod(name: string, bindingAttr: BindingFlags, binder: Binder, callConvention: CallingConventions, types: Type[], modifiers: ParameterModifier[]): MethodInfo;
-    getMethod(name: string, genericParameterCount: int, types: Type[]): MethodInfo;
-    getMethod(name: string, genericParameterCount: int, types: Type[], modifiers: ParameterModifier[]): MethodInfo;
-    getMethod(name: string, genericParameterCount: int, bindingAttr: BindingFlags, types: Type[]): MethodInfo;
-    getMethod(name: string, genericParameterCount: int, bindingAttr: BindingFlags, binder: Binder, types: Type[], modifiers: ParameterModifier[]): MethodInfo;
-    getMethod(name: string, genericParameterCount: int, bindingAttr: BindingFlags, binder: Binder, callConvention: CallingConventions, types: Type[], modifiers: ParameterModifier[]): MethodInfo;
-    getMethods(): MethodInfo[];
-    getMethods(bindingAttr: BindingFlags): MethodInfo[];
-    getNestedType(name: string): Type;
-    getNestedType(name: string, bindingAttr: BindingFlags): Type;
-    getNestedTypes(): Type[];
-    getNestedTypes(bindingAttr: BindingFlags): Type[];
-    getOptionalCustomModifiers(): Type[];
-    getProperties(): PropertyInfo[];
-    getProperties(bindingAttr: BindingFlags): PropertyInfo[];
-    getProperty(name: string): PropertyInfo;
-    getProperty(name: string, bindingAttr: BindingFlags): PropertyInfo;
-    getProperty(name: string, returnType: Type): PropertyInfo;
-    getProperty(name: string, types: Type[]): PropertyInfo;
-    getProperty(name: string, returnType: Type, types: Type[]): PropertyInfo;
-    getProperty(name: string, returnType: Type, types: Type[], modifiers: ParameterModifier[]): PropertyInfo;
-    getProperty(name: string, bindingAttr: BindingFlags, binder: Binder, returnType: Type, types: Type[], modifiers: ParameterModifier[]): PropertyInfo;
-    getRequiredCustomModifiers(): Type[];
-    getType(): Type;
-    invokeMember(name: string, invokeAttr: BindingFlags, binder: Binder, target: any, args: any[]): any;
-    invokeMember(name: string, invokeAttr: BindingFlags, binder: Binder, target: any, args: any[], culture: CultureInfo): any;
-    invokeMember(name: string, invokeAttr: BindingFlags, binder: Binder, target: any, args: any[], modifiers: ParameterModifier[], culture: CultureInfo, namedParameters: string[]): any;
-    isAssignableFrom(c: Type): boolean;
-    isAssignableTo(targetType: Type): boolean;
-    abstract isDefined(attributeType: Type, inherit: boolean): boolean;
-    isEnumDefined(value: any): boolean;
-    isEquivalentTo(other: Type): boolean;
-    isInstanceOfType(o: any): boolean;
-    isSubclassOf(c: Type): boolean;
-    makeArrayType(): Type;
-    makeArrayType(rank: int): Type;
-    makeByRefType(): Type;
-    makeGenericType(typeArguments: Type[]): Type;
-    makePointerType(): Type;
-    toString(): string;
-    static readonly delimiter: string;
-    static readonly emptyTypes: Type[];
-    static readonly missing: any;
-    static readonly filterAttribute: MemberFilter;
-    static readonly filterName: MemberFilter;
-    static readonly filterNameIgnoreCase: MemberFilter;
+    readonly Assembly: Assembly;
+    readonly AssemblyQualifiedName: string;
+    readonly Attributes: TypeAttributes;
+    readonly BaseType: Type;
+    readonly ContainsGenericParameters: boolean;
+    readonly DeclaringMethod: MethodBase;
+    readonly DeclaringType: Type;
+    readonly FullName: string;
+    readonly GenericParameterAttributes: GenericParameterAttributes;
+    readonly GenericParameterPosition: int;
+    readonly GenericTypeArguments: Type[];
+    readonly GUID: Guid;
+    readonly HasElementType: boolean;
+    readonly IsAbstract: boolean;
+    readonly IsAnsiClass: boolean;
+    readonly IsArray: boolean;
+    readonly IsAutoClass: boolean;
+    readonly IsAutoLayout: boolean;
+    readonly IsByRef: boolean;
+    readonly IsByRefLike: boolean;
+    readonly IsClass: boolean;
+    readonly IsCOMObject: boolean;
+    readonly IsConstructedGenericType: boolean;
+    readonly IsContextful: boolean;
+    readonly IsEnum: boolean;
+    readonly IsExplicitLayout: boolean;
+    readonly IsFunctionPointer: boolean;
+    readonly IsGenericMethodParameter: boolean;
+    readonly IsGenericParameter: boolean;
+    readonly IsGenericType: boolean;
+    readonly IsGenericTypeDefinition: boolean;
+    readonly IsGenericTypeParameter: boolean;
+    readonly IsImport: boolean;
+    readonly IsInterface: boolean;
+    readonly IsLayoutSequential: boolean;
+    readonly IsMarshalByRef: boolean;
+    readonly IsNested: boolean;
+    readonly IsNestedAssembly: boolean;
+    readonly IsNestedFamANDAssem: boolean;
+    readonly IsNestedFamily: boolean;
+    readonly IsNestedFamORAssem: boolean;
+    readonly IsNestedPrivate: boolean;
+    readonly IsNestedPublic: boolean;
+    readonly IsNotPublic: boolean;
+    readonly IsPointer: boolean;
+    readonly IsPrimitive: boolean;
+    readonly IsPublic: boolean;
+    readonly IsSealed: boolean;
+    readonly IsSecurityCritical: boolean;
+    readonly IsSecuritySafeCritical: boolean;
+    readonly IsSecurityTransparent: boolean;
+    readonly IsSerializable: boolean;
+    readonly IsSignatureType: boolean;
+    readonly IsSpecialName: boolean;
+    readonly IsSZArray: boolean;
+    readonly IsTypeDefinition: boolean;
+    readonly IsUnicodeClass: boolean;
+    readonly IsUnmanagedFunctionPointer: boolean;
+    readonly IsValueType: boolean;
+    readonly IsVariableBoundArray: boolean;
+    readonly IsVisible: boolean;
+    readonly MemberType: MemberTypes;
+    readonly Module: Module;
+    readonly Namespace: string;
+    readonly ReflectedType: Type;
+    readonly StructLayoutAttribute: StructLayoutAttribute;
+    readonly TypeHandle: RuntimeTypeHandle;
+    readonly TypeInitializer: ConstructorInfo;
+    readonly UnderlyingSystemType: Type;
+    Equals(o: unknown): boolean;
+    FindInterfaces(filter: TypeFilter, filterCriteria: unknown): Type[];
+    FindMembers(memberType: MemberTypes, bindingAttr: BindingFlags, filter: MemberFilter, filterCriteria: unknown): MemberInfo[];
+    GetArrayRank(): int;
+    GetConstructor(types: Type[]): ConstructorInfo;
+    GetConstructor(bindingAttr: BindingFlags, types: Type[]): ConstructorInfo;
+    GetConstructor(bindingAttr: BindingFlags, binder: Binder, types: Type[], modifiers: ParameterModifier[]): ConstructorInfo;
+    GetConstructor(bindingAttr: BindingFlags, binder: Binder, callConvention: CallingConventions, types: Type[], modifiers: ParameterModifier[]): ConstructorInfo;
+    GetConstructors(): ConstructorInfo[];
+    GetConstructors(bindingAttr: BindingFlags): ConstructorInfo[];
+    abstract GetCustomAttributes(inherit: boolean): unknown[];
+    abstract GetCustomAttributes(attributeType: Type, inherit: boolean): unknown[];
+    GetDefaultMembers(): MemberInfo[];
+    abstract GetElementType(): Type;
+    GetEnumName(value: unknown): string;
+    GetEnumNames(): string[];
+    GetEnumUnderlyingType(): Type;
+    GetEnumValues(): Array;
+    GetEnumValuesAsUnderlyingType(): Array;
+    GetEvent(name: string): EventInfo;
+    GetEvent(name: string, bindingAttr: BindingFlags): EventInfo;
+    GetEvents(): EventInfo[];
+    GetEvents(bindingAttr: BindingFlags): EventInfo[];
+    GetField(name: string): FieldInfo;
+    GetField(name: string, bindingAttr: BindingFlags): FieldInfo;
+    GetFields(): FieldInfo[];
+    GetFields(bindingAttr: BindingFlags): FieldInfo[];
+    GetFunctionPointerCallingConventions(): Type[];
+    GetFunctionPointerParameterTypes(): Type[];
+    GetFunctionPointerReturnType(): Type;
+    GetGenericArguments(): Type[];
+    GetGenericParameterConstraints(): Type[];
+    GetGenericTypeDefinition(): Type;
+    GetHashCode(): int;
+    GetInterface(name: string): Type;
+    GetInterface(name: string, ignoreCase: boolean): Type;
+    GetInterfaceMap(interfaceType: Type): InterfaceMapping;
+    abstract GetInterfaces(): Type[];
+    GetMember(name: string): MemberInfo[];
+    GetMember(name: string, bindingAttr: BindingFlags): MemberInfo[];
+    GetMember(name: string, type_: MemberTypes, bindingAttr: BindingFlags): MemberInfo[];
+    GetMembers(): MemberInfo[];
+    GetMembers(bindingAttr: BindingFlags): MemberInfo[];
+    GetMemberWithSameMetadataDefinitionAs(member: MemberInfo): MemberInfo;
+    GetMethod(name: string): MethodInfo;
+    GetMethod(name: string, bindingAttr: BindingFlags): MethodInfo;
+    GetMethod(name: string, bindingAttr: BindingFlags, types: Type[]): MethodInfo;
+    GetMethod(name: string, types: Type[]): MethodInfo;
+    GetMethod(name: string, types: Type[], modifiers: ParameterModifier[]): MethodInfo;
+    GetMethod(name: string, bindingAttr: BindingFlags, binder: Binder, types: Type[], modifiers: ParameterModifier[]): MethodInfo;
+    GetMethod(name: string, bindingAttr: BindingFlags, binder: Binder, callConvention: CallingConventions, types: Type[], modifiers: ParameterModifier[]): MethodInfo;
+    GetMethod(name: string, genericParameterCount: int, types: Type[]): MethodInfo;
+    GetMethod(name: string, genericParameterCount: int, types: Type[], modifiers: ParameterModifier[]): MethodInfo;
+    GetMethod(name: string, genericParameterCount: int, bindingAttr: BindingFlags, types: Type[]): MethodInfo;
+    GetMethod(name: string, genericParameterCount: int, bindingAttr: BindingFlags, binder: Binder, types: Type[], modifiers: ParameterModifier[]): MethodInfo;
+    GetMethod(name: string, genericParameterCount: int, bindingAttr: BindingFlags, binder: Binder, callConvention: CallingConventions, types: Type[], modifiers: ParameterModifier[]): MethodInfo;
+    GetMethods(): MethodInfo[];
+    GetMethods(bindingAttr: BindingFlags): MethodInfo[];
+    GetNestedType(name: string): Type;
+    GetNestedType(name: string, bindingAttr: BindingFlags): Type;
+    GetNestedTypes(): Type[];
+    GetNestedTypes(bindingAttr: BindingFlags): Type[];
+    GetOptionalCustomModifiers(): Type[];
+    GetProperties(): PropertyInfo[];
+    GetProperties(bindingAttr: BindingFlags): PropertyInfo[];
+    GetProperty(name: string): PropertyInfo;
+    GetProperty(name: string, bindingAttr: BindingFlags): PropertyInfo;
+    GetProperty(name: string, returnType: Type): PropertyInfo;
+    GetProperty(name: string, types: Type[]): PropertyInfo;
+    GetProperty(name: string, returnType: Type, types: Type[]): PropertyInfo;
+    GetProperty(name: string, returnType: Type, types: Type[], modifiers: ParameterModifier[]): PropertyInfo;
+    GetProperty(name: string, bindingAttr: BindingFlags, binder: Binder, returnType: Type, types: Type[], modifiers: ParameterModifier[]): PropertyInfo;
+    GetRequiredCustomModifiers(): Type[];
+    GetType(): Type;
+    InvokeMember(name: string, invokeAttr: BindingFlags, binder: Binder, target: unknown, args: unknown[]): unknown;
+    InvokeMember(name: string, invokeAttr: BindingFlags, binder: Binder, target: unknown, args: unknown[], culture: CultureInfo): unknown;
+    InvokeMember(name: string, invokeAttr: BindingFlags, binder: Binder, target: unknown, args: unknown[], modifiers: ParameterModifier[], culture: CultureInfo, namedParameters: string[]): unknown;
+    IsAssignableFrom(c: Type): boolean;
+    IsAssignableTo(targetType: Type): boolean;
+    abstract IsDefined(attributeType: Type, inherit: boolean): boolean;
+    IsEnumDefined(value: unknown): boolean;
+    IsEquivalentTo(other: Type): boolean;
+    IsInstanceOfType(o: unknown): boolean;
+    IsSubclassOf(c: Type): boolean;
+    MakeArrayType(): Type;
+    MakeArrayType(rank: int): Type;
+    MakeByRefType(): Type;
+    MakeGenericType(typeArguments: Type[]): Type;
+    MakePointerType(): Type;
+    ToString(): string;
+    static readonly Delimiter: char;
+    static readonly EmptyTypes: Type[];
+    static readonly Missing: unknown;
+    static readonly FilterAttribute: MemberFilter;
+    static readonly FilterName: MemberFilter;
+    static readonly FilterNameIgnoreCase: MemberFilter;
     static readonly DefaultBinder: Binder;
     static GetType(typeName: string, throwOnError: boolean, ignoreCase: boolean): Type;
     static GetType(typeName: string, throwOnError: boolean): Type;
@@ -7044,7 +7112,7 @@ export abstract class Type$instance extends System_Reflection_Internal.MemberInf
     static GetType(typeName: string, assemblyResolver: Func_2<AssemblyName, Assembly>, typeResolver: Func_4<Assembly, CLROf<string>, CLROf<boolean>, Type>, throwOnError: boolean): Type;
     static GetType(typeName: string, assemblyResolver: Func_2<AssemblyName, Assembly>, typeResolver: Func_4<Assembly, CLROf<string>, CLROf<boolean>, Type>): Type;
     static GetType(typeName: string): Type;
-    static GetTypeArray(args: any[]): Type[];
+    static GetTypeArray(args: unknown[]): Type[];
     static GetTypeCode(type_: Type): TypeCode;
     static GetTypeFromCLSID(clsid: Guid, throwOnError: boolean): Type;
     static GetTypeFromCLSID(clsid: Guid, server: string, throwOnError: boolean): Type;
@@ -7055,7 +7123,7 @@ export abstract class Type$instance extends System_Reflection_Internal.MemberInf
     static GetTypeFromProgID(progID: string, server: string, throwOnError: boolean): Type;
     static GetTypeFromProgID(progID: string, server: string): Type;
     static GetTypeFromProgID(progID: string): Type;
-    static GetTypeHandle(o: any): RuntimeTypeHandle;
+    static GetTypeHandle(o: unknown): RuntimeTypeHandle;
     static MakeGenericMethodParameter(position: int): Type;
     static MakeGenericSignatureType(genericTypeDefinition: Type, typeArguments: Type[]): Type;
     static ReflectionOnlyGetType(typeName: string, throwIfNotFound: boolean, ignoreCase: boolean): Type;
@@ -7063,8 +7131,8 @@ export abstract class Type$instance extends System_Reflection_Internal.MemberInf
 
 
 export interface __Type$views {
-    readonly As_ICustomAttributeProvider: System_Reflection_Internal.ICustomAttributeProvider$instance;
-    readonly As_IReflect: System_Reflection_Internal.IReflect$instance;
+    As_ICustomAttributeProvider(): System_Reflection_Internal.ICustomAttributeProvider$instance;
+    As_IReflect(): System_Reflection_Internal.IReflect$instance;
 }
 
 export type Type = Type$instance & __Type$views;
@@ -7074,12 +7142,12 @@ export class TypeAccessException$instance extends TypeLoadException$instance {
     constructor();
     constructor(message: string);
     constructor(message: string, inner: Exception);
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
 export interface __TypeAccessException$views {
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type TypeAccessException = TypeAccessException$instance & __TypeAccessException$views;
@@ -7087,13 +7155,13 @@ export type TypeAccessException = TypeAccessException$instance & __TypeAccessExc
 
 export class TypeInitializationException$instance extends SystemException$instance {
     constructor(fullTypeName: string, innerException: Exception);
-    readonly typeName: string;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
+    readonly TypeName: string;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
 export interface __TypeInitializationException$views {
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type TypeInitializationException = TypeInitializationException$instance & __TypeInitializationException$views;
@@ -7103,14 +7171,14 @@ export class TypeLoadException$instance extends SystemException$instance {
     constructor();
     constructor(message: string);
     constructor(message: string, inner: Exception);
-    readonly message: string;
-    readonly typeName: string;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
+    readonly Message: string;
+    readonly TypeName: string;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
 export interface __TypeLoadException$views {
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type TypeLoadException = TypeLoadException$instance & __TypeLoadException$views;
@@ -7120,12 +7188,12 @@ export class TypeUnloadedException$instance extends SystemException$instance {
     constructor();
     constructor(message: string);
     constructor(message: string, innerException: Exception);
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
 export interface __TypeUnloadedException$views {
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type TypeUnloadedException = TypeUnloadedException$instance & __TypeUnloadedException$views;
@@ -7135,39 +7203,39 @@ export class UnauthorizedAccessException$instance extends SystemException$instan
     constructor();
     constructor(message: string);
     constructor(message: string, inner: Exception);
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
 export interface __UnauthorizedAccessException$views {
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type UnauthorizedAccessException = UnauthorizedAccessException$instance & __UnauthorizedAccessException$views;
 
 
 export class UnhandledExceptionEventArgs$instance extends EventArgs$instance {
-    constructor(exception: any, isTerminating: boolean);
-    readonly exceptionObject: any;
-    readonly isTerminating: boolean;
+    constructor(exception: unknown, isTerminating: boolean);
+    readonly ExceptionObject: unknown;
+    readonly IsTerminating: boolean;
 }
 
 
 export type UnhandledExceptionEventArgs = UnhandledExceptionEventArgs$instance;
 
 export class UnhandledExceptionEventHandler$instance extends Function {
-    constructor(object_: any, method: nint);
-    beginInvoke(sender: any, e: UnhandledExceptionEventArgs, callback: AsyncCallback, object_: any): IAsyncResult;
-    clone(): any;
-    endInvoke(result: IAsyncResult): void;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(sender: any, e: UnhandledExceptionEventArgs): void;
+    constructor(object_: unknown, method: nint);
+    BeginInvoke(sender: unknown, e: UnhandledExceptionEventArgs, callback: AsyncCallback, object_: unknown): IAsyncResult;
+    Clone(): unknown;
+    EndInvoke(result: IAsyncResult): void;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    Invoke(sender: unknown, e: UnhandledExceptionEventArgs): void;
 }
 
 
 export interface __UnhandledExceptionEventHandler$views {
-    readonly As_ICloneable: ICloneable$instance;
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ICloneable(): ICloneable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type UnhandledExceptionEventHandler = UnhandledExceptionEventHandler$instance & __UnhandledExceptionEventHandler$views;
@@ -7175,14 +7243,14 @@ export type UnhandledExceptionEventHandler = UnhandledExceptionEventHandler$inst
 
 export class UnitySerializationHolder$instance {
     constructor(info: SerializationInfo, context: StreamingContext);
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    getRealObject(context: StreamingContext): any;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    GetRealObject(context: StreamingContext): unknown;
 }
 
 
 export interface __UnitySerializationHolder$views {
-    readonly As_IObjectReference: System_Runtime_Serialization_Internal.IObjectReference$instance;
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_IObjectReference(): System_Runtime_Serialization_Internal.IObjectReference$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type UnitySerializationHolder = UnitySerializationHolder$instance & __UnitySerializationHolder$views;
@@ -7196,84 +7264,84 @@ export class Uri$instance {
     constructor(uriString: string, creationOptions: ref<UriCreationOptions>);
     constructor(baseUri: Uri, relativeUri: string);
     constructor(baseUri: Uri, relativeUri: Uri);
-    readonly absolutePath: string;
-    readonly absoluteUri: string;
-    readonly authority: string;
-    readonly dnsSafeHost: string;
-    readonly fragment: string;
-    readonly host: string;
-    readonly hostNameType: UriHostNameType;
-    readonly idnHost: string;
-    readonly isAbsoluteUri: boolean;
-    readonly isDefaultPort: boolean;
-    readonly isFile: boolean;
-    readonly isLoopback: boolean;
-    readonly isUnc: boolean;
-    readonly localPath: string;
-    readonly originalString: string;
-    readonly pathAndQuery: string;
-    readonly port: int;
-    readonly query: string;
-    readonly scheme: string;
-    readonly segments: string[];
-    readonly userEscaped: boolean;
-    readonly userInfo: string;
-    equals(comparand: any): boolean;
-    equals(other: Uri): boolean;
-    getComponents(components: UriComponents, format: UriFormat): string;
-    getHashCode(): int;
-    getLeftPart(part: UriPartial): string;
-    isBaseOf(uri: Uri): boolean;
-    isWellFormedOriginalString(): boolean;
-    makeRelative(toUri: Uri): string;
-    makeRelativeUri(uri: Uri): Uri;
-    toString(): string;
-    tryFormat(destination: Span_1<CLROf<string>>, charsWritten: { value: ref<int> }): boolean;
-    static readonly uriSchemeFile: string;
-    static readonly uriSchemeFtp: string;
-    static readonly uriSchemeSftp: string;
-    static readonly uriSchemeFtps: string;
-    static readonly uriSchemeGopher: string;
-    static readonly uriSchemeHttp: string;
-    static readonly uriSchemeHttps: string;
-    static readonly uriSchemeWs: string;
-    static readonly uriSchemeWss: string;
-    static readonly uriSchemeMailto: string;
-    static readonly uriSchemeNews: string;
-    static readonly uriSchemeNntp: string;
-    static readonly uriSchemeSsh: string;
-    static readonly uriSchemeTelnet: string;
-    static readonly uriSchemeNetTcp: string;
-    static readonly uriSchemeNetPipe: string;
-    static readonly schemeDelimiter: string;
+    readonly AbsolutePath: string;
+    readonly AbsoluteUri: string;
+    readonly Authority: string;
+    readonly DnsSafeHost: string;
+    readonly Fragment: string;
+    readonly Host: string;
+    readonly HostNameType: UriHostNameType;
+    readonly IdnHost: string;
+    readonly IsAbsoluteUri: boolean;
+    readonly IsDefaultPort: boolean;
+    readonly IsFile: boolean;
+    readonly IsLoopback: boolean;
+    readonly IsUnc: boolean;
+    readonly LocalPath: string;
+    readonly OriginalString: string;
+    readonly PathAndQuery: string;
+    readonly Port: int;
+    readonly Query: string;
+    readonly Scheme: string;
+    readonly Segments: string[];
+    readonly UserEscaped: boolean;
+    readonly UserInfo: string;
+    Equals(comparand: unknown): boolean;
+    Equals(other: Uri): boolean;
+    GetComponents(components: UriComponents, format: UriFormat): string;
+    GetHashCode(): int;
+    GetLeftPart(part: UriPartial): string;
+    IsBaseOf(uri: Uri): boolean;
+    IsWellFormedOriginalString(): boolean;
+    MakeRelative(toUri: Uri): string;
+    MakeRelativeUri(uri: Uri): Uri;
+    ToString(): string;
+    TryFormat(destination: Span_1<CLROf<char>>, charsWritten: { value: ref<int> }): boolean;
+    static readonly UriSchemeFile: string;
+    static readonly UriSchemeFtp: string;
+    static readonly UriSchemeSftp: string;
+    static readonly UriSchemeFtps: string;
+    static readonly UriSchemeGopher: string;
+    static readonly UriSchemeHttp: string;
+    static readonly UriSchemeHttps: string;
+    static readonly UriSchemeWs: string;
+    static readonly UriSchemeWss: string;
+    static readonly UriSchemeMailto: string;
+    static readonly UriSchemeNews: string;
+    static readonly UriSchemeNntp: string;
+    static readonly UriSchemeSsh: string;
+    static readonly UriSchemeTelnet: string;
+    static readonly UriSchemeNetTcp: string;
+    static readonly UriSchemeNetPipe: string;
+    static readonly SchemeDelimiter: string;
     static CheckHostName(name: string): UriHostNameType;
     static CheckSchemeName(schemeName: string): boolean;
     static Compare(uri1: Uri, uri2: Uri, partsToCompare: UriComponents, compareFormat: UriFormat, comparisonType: StringComparison): int;
-    static EscapeDataString(charsToEscape: ReadOnlySpan_1<CLROf<string>>): string;
+    static EscapeDataString(charsToEscape: ReadOnlySpan_1<CLROf<char>>): string;
     static EscapeDataString(stringToEscape: string): string;
     static EscapeUriString(stringToEscape: string): string;
-    static FromHex(digit: string): int;
-    static HexEscape(character: string): string;
-    static HexUnescape(pattern: string, index: { value: ref<int> }): string;
-    static IsHexDigit(character: string): boolean;
+    static FromHex(digit: char): int;
+    static HexEscape(character: char): string;
+    static HexUnescape(pattern: string, index: { value: ref<int> }): char;
+    static IsHexDigit(character: char): boolean;
     static IsHexEncoding(pattern: string, index: int): boolean;
     static IsWellFormedUriString(uriString: string, uriKind: UriKind): boolean;
     static TryCreate(uriString: string, creationOptions: { value: ref<UriCreationOptions> }, result: { value: ref<Uri> }): boolean;
     static TryCreate(uriString: string, uriKind: UriKind, result: { value: ref<Uri> }): boolean;
     static TryCreate(baseUri: Uri, relativeUri: string, result: { value: ref<Uri> }): boolean;
     static TryCreate(baseUri: Uri, relativeUri: Uri, result: { value: ref<Uri> }): boolean;
-    static TryEscapeDataString(charsToEscape: ReadOnlySpan_1<CLROf<string>>, destination: Span_1<CLROf<string>>, charsWritten: { value: ref<int> }): boolean;
-    static TryUnescapeDataString(charsToUnescape: ReadOnlySpan_1<CLROf<string>>, destination: Span_1<CLROf<string>>, charsWritten: { value: ref<int> }): boolean;
-    static UnescapeDataString(charsToUnescape: ReadOnlySpan_1<CLROf<string>>): string;
+    static TryEscapeDataString(charsToEscape: ReadOnlySpan_1<CLROf<char>>, destination: Span_1<CLROf<char>>, charsWritten: { value: ref<int> }): boolean;
+    static TryUnescapeDataString(charsToUnescape: ReadOnlySpan_1<CLROf<char>>, destination: Span_1<CLROf<char>>, charsWritten: { value: ref<int> }): boolean;
+    static UnescapeDataString(charsToUnescape: ReadOnlySpan_1<CLROf<char>>): string;
     static UnescapeDataString(stringToUnescape: string): string;
 }
 
 
 export interface __Uri$views {
-    readonly As_IEquatable_1_of_ConsoleKeyInfo: IEquatable_1$instance<Uri>;
-    readonly As_IFormattable: IFormattable$instance;
-    readonly As_ISpanFormattable: ISpanFormattable$instance;
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_IEquatable_1(): IEquatable_1$instance<Uri>;
+    As_IFormattable(): IFormattable$instance;
+    As_ISpanFormattable(): ISpanFormattable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 
     // Structural method bridges for numeric interface constraints
     Equals(other: Uri): boolean;
@@ -7290,18 +7358,18 @@ export class UriBuilder$instance {
     constructor(scheme: string, host: string, portNumber: int);
     constructor(scheme: string, host: string, port: int, pathValue: string);
     constructor(scheme: string, host: string, port: int, path: string, extraValue: string);
-    fragment: string;
-    host: string;
-    password: string;
-    path: string;
-    port: int;
-    query: string;
-    scheme: string;
-    readonly uri: Uri;
-    userName: string;
-    equals(rparam: any): boolean;
-    getHashCode(): int;
-    toString(): string;
+    Fragment: string;
+    Host: string;
+    Password: string;
+    Path: string;
+    Port: int;
+    Query: string;
+    Scheme: string;
+    readonly Uri: Uri;
+    UserName: string;
+    Equals(rparam: unknown): boolean;
+    GetHashCode(): int;
+    ToString(): string;
 }
 
 
@@ -7311,12 +7379,12 @@ export class UriFormatException$instance extends FormatException$instance {
     constructor();
     constructor(textString: string);
     constructor(textString: string, e: Exception);
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
 export interface __UriFormatException$views {
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type UriFormatException = UriFormatException$instance & __UriFormatException$views;
@@ -7332,25 +7400,25 @@ export type UriParser = UriParser$instance;
 
 export class UriTypeConverter$instance extends System_ComponentModel_Internal.TypeConverter$instance {
     constructor();
-    canConvertFrom(context: ITypeDescriptorContext, sourceType: Type): boolean;
-    canConvertFrom(sourceType: Type): boolean;
-    canConvertTo(context: ITypeDescriptorContext, destinationType: Type): boolean;
-    canConvertTo(destinationType: Type): boolean;
-    convertFrom(context: ITypeDescriptorContext, culture: CultureInfo, value: any): any;
-    convertFrom(value: any): any;
-    convertTo(context: ITypeDescriptorContext, culture: CultureInfo, value: any, destinationType: Type): any;
-    convertTo(value: any, destinationType: Type): any;
-    isValid(context: ITypeDescriptorContext, value: any): boolean;
-    isValid(value: any): boolean;
+    CanConvertFrom(context: ITypeDescriptorContext, sourceType: Type): boolean;
+    CanConvertFrom(sourceType: Type): boolean;
+    CanConvertTo(context: ITypeDescriptorContext, destinationType: Type): boolean;
+    CanConvertTo(destinationType: Type): boolean;
+    ConvertFrom(context: ITypeDescriptorContext, culture: CultureInfo, value: unknown): unknown;
+    ConvertFrom(value: unknown): unknown;
+    ConvertTo(context: ITypeDescriptorContext, culture: CultureInfo, value: unknown, destinationType: Type): unknown;
+    ConvertTo(value: unknown, destinationType: Type): unknown;
+    IsValid(context: ITypeDescriptorContext, value: unknown): boolean;
+    IsValid(value: unknown): boolean;
 }
 
 
 export type UriTypeConverter = UriTypeConverter$instance;
 
 export abstract class ValueType$instance {
-    equals(obj: any): boolean;
-    getHashCode(): int;
-    toString(): string;
+    Equals(obj: unknown): boolean;
+    GetHashCode(): int;
+    ToString(): string;
 }
 
 
@@ -7362,63 +7430,63 @@ export class Version$instance {
     constructor(major: int, minor: int);
     constructor(version: string);
     constructor();
-    readonly build: int;
-    readonly major: int;
-    readonly majorRevision: short;
-    readonly minor: int;
-    readonly minorRevision: short;
-    readonly revision: int;
-    clone(): any;
-    compareTo(version: any): int;
-    compareTo(value: Version): int;
-    equals(obj: any): boolean;
-    equals(obj: Version): boolean;
-    getHashCode(): int;
-    toString(): string;
-    toString(fieldCount: int): string;
-    tryFormat(destination: Span_1<CLROf<string>>, charsWritten: { value: ref<int> }): boolean;
-    tryFormat(destination: Span_1<CLROf<string>>, fieldCount: int, charsWritten: { value: ref<int> }): boolean;
-    tryFormat(utf8Destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
-    tryFormat(utf8Destination: Span_1<CLROf<byte>>, fieldCount: int, bytesWritten: { value: ref<int> }): boolean;
+    readonly Build: int;
+    readonly Major: int;
+    readonly MajorRevision: short;
+    readonly Minor: int;
+    readonly MinorRevision: short;
+    readonly Revision: int;
+    Clone(): unknown;
+    CompareTo(version: unknown): int;
+    CompareTo(value: Version): int;
+    Equals(obj: unknown): boolean;
+    Equals(obj: Version): boolean;
+    GetHashCode(): int;
+    ToString(): string;
+    ToString(fieldCount: int): string;
+    TryFormat(destination: Span_1<CLROf<char>>, charsWritten: { value: ref<int> }): boolean;
+    TryFormat(destination: Span_1<CLROf<char>>, fieldCount: int, charsWritten: { value: ref<int> }): boolean;
+    TryFormat(utf8Destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
+    TryFormat(utf8Destination: Span_1<CLROf<byte>>, fieldCount: int, bytesWritten: { value: ref<int> }): boolean;
     static Parse(utf8Text: ReadOnlySpan_1<CLROf<byte>>): Version;
-    static Parse(input: ReadOnlySpan_1<CLROf<string>>): Version;
+    static Parse(input: ReadOnlySpan_1<CLROf<char>>): Version;
     static Parse(input: string): Version;
     static TryParse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, result: { value: ref<Version> }): boolean;
-    static TryParse(input: ReadOnlySpan_1<CLROf<string>>, result: { value: ref<Version> }): boolean;
+    static TryParse(input: ReadOnlySpan_1<CLROf<char>>, result: { value: ref<Version> }): boolean;
     static TryParse(input: string, result: { value: ref<Version> }): boolean;
 }
 
 
 export interface __Version$views {
-    readonly As_ICloneable: ICloneable$instance;
-    readonly As_IComparable: IComparable$instance;
-    readonly As_IComparable_1_of_Decimal: IComparable_1$instance<Version>;
-    readonly As_IEquatable_1_of_ConsoleKeyInfo: IEquatable_1$instance<Version>;
-    readonly As_IFormattable: IFormattable$instance;
-    readonly As_ISpanFormattable: ISpanFormattable$instance;
-    readonly As_IUtf8SpanFormattable: IUtf8SpanFormattable$instance;
-    readonly As_IUtf8SpanParsable_1_of_Decimal: IUtf8SpanParsable_1$instance<any>;
+    As_ICloneable(): ICloneable$instance;
+    As_IComparable(): IComparable$instance;
+    As_IComparable_1(): IComparable_1$instance<Version>;
+    As_IEquatable_1(): IEquatable_1$instance<Version>;
+    As_IFormattable(): IFormattable$instance;
+    As_ISpanFormattable(): ISpanFormattable$instance;
+    As_IUtf8SpanFormattable(): IUtf8SpanFormattable$instance;
+    As_IUtf8SpanParsable_1(): IUtf8SpanParsable_1$instance<Version>;
 
     // Structural method bridges for numeric interface constraints
     Equals(other: Version): boolean;
-    CompareTo(obj: any): int;
+    CompareTo(obj: unknown): int;
 }
 
 export type Version = Version$instance & __Version$views;
 
 
 export class WeakReference$instance {
-    constructor(target: any);
-    constructor(target: any, trackResurrection: boolean);
-    readonly isAlive: boolean;
-    target: any;
-    readonly trackResurrection: boolean;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
+    constructor(target: unknown);
+    constructor(target: unknown, trackResurrection: boolean);
+    readonly IsAlive: boolean;
+    Target: unknown;
+    readonly TrackResurrection: boolean;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
 export interface __WeakReference$views {
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type WeakReference = WeakReference$instance & __WeakReference$views;
@@ -7427,14 +7495,14 @@ export type WeakReference = WeakReference$instance & __WeakReference$views;
 export class WeakReference_1$instance<T> {
     constructor(target: T);
     constructor(target: T, trackResurrection: boolean);
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    setTarget(target: T): void;
-    tryGetTarget(target: { value: ref<T> }): boolean;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    SetTarget(target: T): void;
+    TryGetTarget(target: { value: ref<T> }): boolean;
 }
 
 
 export interface __WeakReference_1$views<T> {
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type WeakReference_1<T> = WeakReference_1$instance<T> & __WeakReference_1$views<T>;
@@ -7442,17 +7510,17 @@ export type WeakReference_1<T> = WeakReference_1$instance<T> & __WeakReference_1
 
 export abstract class Activator$instance {
     static CreateInstance<T>(): T;
-    static CreateInstance(assemblyName: string, typeName: string, ignoreCase: boolean, bindingAttr: BindingFlags, binder: Binder, args: any[], culture: CultureInfo, activationAttributes: any[]): ObjectHandle;
-    static CreateInstance(assemblyName: string, typeName: string, activationAttributes: any[]): ObjectHandle;
+    static CreateInstance(assemblyName: string, typeName: string, ignoreCase: boolean, bindingAttr: BindingFlags, binder: Binder, args: unknown[], culture: CultureInfo, activationAttributes: unknown[]): ObjectHandle;
+    static CreateInstance(assemblyName: string, typeName: string, activationAttributes: unknown[]): ObjectHandle;
     static CreateInstance(assemblyName: string, typeName: string): ObjectHandle;
-    static CreateInstance(type_: Type, nonPublic: boolean): any;
-    static CreateInstance(type_: Type, args: any[], activationAttributes: any[]): any;
-    static CreateInstance(type_: Type, args: any[]): any;
-    static CreateInstance(type_: Type, bindingAttr: BindingFlags, binder: Binder, args: any[], culture: CultureInfo, activationAttributes: any[]): any;
-    static CreateInstance(type_: Type, bindingAttr: BindingFlags, binder: Binder, args: any[], culture: CultureInfo): any;
-    static CreateInstance(type_: Type): any;
-    static CreateInstanceFrom(assemblyFile: string, typeName: string, ignoreCase: boolean, bindingAttr: BindingFlags, binder: Binder, args: any[], culture: CultureInfo, activationAttributes: any[]): ObjectHandle;
-    static CreateInstanceFrom(assemblyFile: string, typeName: string, activationAttributes: any[]): ObjectHandle;
+    static CreateInstance(type_: Type, nonPublic: boolean): unknown;
+    static CreateInstance(type_: Type, args: unknown[], activationAttributes: unknown[]): unknown;
+    static CreateInstance(type_: Type, args: unknown[]): unknown;
+    static CreateInstance(type_: Type, bindingAttr: BindingFlags, binder: Binder, args: unknown[], culture: CultureInfo, activationAttributes: unknown[]): unknown;
+    static CreateInstance(type_: Type, bindingAttr: BindingFlags, binder: Binder, args: unknown[], culture: CultureInfo): unknown;
+    static CreateInstance(type_: Type): unknown;
+    static CreateInstanceFrom(assemblyFile: string, typeName: string, ignoreCase: boolean, bindingAttr: BindingFlags, binder: Binder, args: unknown[], culture: CultureInfo, activationAttributes: unknown[]): ObjectHandle;
+    static CreateInstanceFrom(assemblyFile: string, typeName: string, activationAttributes: unknown[]): ObjectHandle;
     static CreateInstanceFrom(assemblyFile: string, typeName: string): ObjectHandle;
 }
 
@@ -7462,8 +7530,8 @@ export type Activator = Activator$instance;
 export abstract class AppContext$instance {
     static readonly BaseDirectory: string;
     static readonly TargetFrameworkName: string;
-    static GetData(name: string): any;
-    static SetData(name: string, data: any): void;
+    static GetData(name: string): unknown;
+    static SetData(name: string, data: unknown): void;
     static SetSwitch(switchName: string, isEnabled: boolean): void;
     static TryGetSwitch(switchName: string, isEnabled: { value: ref<boolean> }): boolean;
 }
@@ -7472,11 +7540,11 @@ export abstract class AppContext$instance {
 export type AppContext = AppContext$instance;
 
 export abstract class BitConverter$instance {
-    static readonly isLittleEndian: boolean;
+    static readonly IsLittleEndian: boolean;
     static DoubleToInt64Bits(value: double): long;
     static DoubleToUInt64Bits(value: double): ulong;
     static GetBytes(value: boolean): byte[];
-    static GetBytes(value: string): byte[];
+    static GetBytes(value: char): byte[];
     static GetBytes(value: double): byte[];
     static GetBytes(value: half): byte[];
     static GetBytes(value: int128): byte[];
@@ -7497,8 +7565,8 @@ export abstract class BitConverter$instance {
     static SingleToUInt32Bits(value: float): uint;
     static ToBoolean(value: byte[], startIndex: int): boolean;
     static ToBoolean(value: ReadOnlySpan_1<CLROf<byte>>): boolean;
-    static ToChar(value: byte[], startIndex: int): string;
-    static ToChar(value: ReadOnlySpan_1<CLROf<byte>>): string;
+    static ToChar(value: byte[], startIndex: int): char;
+    static ToChar(value: ReadOnlySpan_1<CLROf<byte>>): char;
     static ToDouble(value: byte[], startIndex: int): double;
     static ToDouble(value: ReadOnlySpan_1<CLROf<byte>>): double;
     static ToHalf(value: byte[], startIndex: int): half;
@@ -7525,7 +7593,7 @@ export abstract class BitConverter$instance {
     static ToUInt64(value: byte[], startIndex: int): ulong;
     static ToUInt64(value: ReadOnlySpan_1<CLROf<byte>>): ulong;
     static TryWriteBytes(destination: Span_1<CLROf<byte>>, value: boolean): boolean;
-    static TryWriteBytes(destination: Span_1<CLROf<byte>>, value: string): boolean;
+    static TryWriteBytes(destination: Span_1<CLROf<byte>>, value: char): boolean;
     static TryWriteBytes(destination: Span_1<CLROf<byte>>, value: double): boolean;
     static TryWriteBytes(destination: Span_1<CLROf<byte>>, value: half): boolean;
     static TryWriteBytes(destination: Span_1<CLROf<byte>>, value: int128): boolean;
@@ -7589,7 +7657,7 @@ export abstract class Console$instance {
     static Beep(frequency: int, duration: int): void;
     static Clear(): void;
     static GetCursorPosition(): ValueTuple_2<CLROf<int>, CLROf<int>>;
-    static MoveBufferArea(sourceLeft: int, sourceTop: int, sourceWidth: int, sourceHeight: int, targetLeft: int, targetTop: int, sourceChar: string, sourceForeColor: ConsoleColor, sourceBackColor: ConsoleColor): void;
+    static MoveBufferArea(sourceLeft: int, sourceTop: int, sourceWidth: int, sourceHeight: int, targetLeft: int, targetTop: int, sourceChar: char, sourceForeColor: ConsoleColor, sourceBackColor: ConsoleColor): void;
     static MoveBufferArea(sourceLeft: int, sourceTop: int, sourceWidth: int, sourceHeight: int, targetLeft: int, targetTop: int): void;
     static OpenStandardError(): Stream;
     static OpenStandardError(bufferSize: int): Stream;
@@ -7610,41 +7678,41 @@ export abstract class Console$instance {
     static SetWindowPosition(left: int, top: int): void;
     static SetWindowSize(width: int, height: int): void;
     static Write(value: boolean): void;
-    static Write(value: string): void;
-    static Write(buffer: string[], index: int, count: int): void;
-    static Write(buffer: string[]): void;
+    static Write(value: char): void;
+    static Write(buffer: char[], index: int, count: int): void;
+    static Write(buffer: char[]): void;
     static Write(value: decimal): void;
     static Write(value: double): void;
     static Write(value: int): void;
     static Write(value: long): void;
-    static Write(value: any): void;
-    static Write(value: ReadOnlySpan_1<CLROf<string>>): void;
+    static Write(value: unknown): void;
+    static Write(value: ReadOnlySpan_1<CLROf<char>>): void;
     static Write(value: float): void;
-    static Write(format: string, arg0: any, arg1: any, arg2: any): void;
-    static Write(format: string, arg0: any, arg1: any): void;
-    static Write(format: string, arg0: any): void;
-    static Write(format: string, arg: any[]): void;
-    static Write(format: string, arg: ReadOnlySpan_1<any>): void;
+    static Write(format: string, arg0: unknown, arg1: unknown, arg2: unknown): void;
+    static Write(format: string, arg0: unknown, arg1: unknown): void;
+    static Write(format: string, arg0: unknown): void;
+    static Write(format: string, arg: unknown[]): void;
+    static Write(format: string, arg: ReadOnlySpan_1<unknown>): void;
     static Write(value: string): void;
     static Write(value: uint): void;
     static Write(value: ulong): void;
     static WriteLine(): void;
     static WriteLine(value: boolean): void;
-    static WriteLine(value: string): void;
-    static WriteLine(buffer: string[], index: int, count: int): void;
-    static WriteLine(buffer: string[]): void;
+    static WriteLine(value: char): void;
+    static WriteLine(buffer: char[], index: int, count: int): void;
+    static WriteLine(buffer: char[]): void;
     static WriteLine(value: decimal): void;
     static WriteLine(value: double): void;
     static WriteLine(value: int): void;
     static WriteLine(value: long): void;
-    static WriteLine(value: any): void;
-    static WriteLine(value: ReadOnlySpan_1<CLROf<string>>): void;
+    static WriteLine(value: unknown): void;
+    static WriteLine(value: ReadOnlySpan_1<CLROf<char>>): void;
     static WriteLine(value: float): void;
-    static WriteLine(format: string, arg0: any, arg1: any, arg2: any): void;
-    static WriteLine(format: string, arg0: any, arg1: any): void;
-    static WriteLine(format: string, arg0: any): void;
-    static WriteLine(format: string, arg: any[]): void;
-    static WriteLine(format: string, arg: ReadOnlySpan_1<any>): void;
+    static WriteLine(format: string, arg0: unknown, arg1: unknown, arg2: unknown): void;
+    static WriteLine(format: string, arg0: unknown, arg1: unknown): void;
+    static WriteLine(format: string, arg0: unknown): void;
+    static WriteLine(format: string, arg: unknown[]): void;
+    static WriteLine(format: string, arg: ReadOnlySpan_1<unknown>): void;
     static WriteLine(value: string): void;
     static WriteLine(value: uint): void;
     static WriteLine(value: ulong): void;
@@ -7654,23 +7722,23 @@ export abstract class Console$instance {
 export type Console = Console$instance;
 
 export abstract class Convert$instance {
-    static readonly dbNull: any;
-    static ChangeType(value: any, conversionType: Type, provider: IFormatProvider): any;
-    static ChangeType(value: any, conversionType: Type): any;
-    static ChangeType(value: any, typeCode: TypeCode, provider: IFormatProvider): any;
-    static ChangeType(value: any, typeCode: TypeCode): any;
-    static FromBase64CharArray(inArray: string[], offset: int, length: int): byte[];
+    static readonly DBNull: unknown;
+    static ChangeType(value: unknown, conversionType: Type, provider: IFormatProvider): unknown;
+    static ChangeType(value: unknown, conversionType: Type): unknown;
+    static ChangeType(value: unknown, typeCode: TypeCode, provider: IFormatProvider): unknown;
+    static ChangeType(value: unknown, typeCode: TypeCode): unknown;
+    static FromBase64CharArray(inArray: char[], offset: int, length: int): byte[];
     static FromBase64String(s: string): byte[];
     static FromHexString(utf8Source: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, bytesConsumed: { value: ref<int> }, bytesWritten: { value: ref<int> }): OperationStatus;
     static FromHexString(utf8Source: ReadOnlySpan_1<CLROf<byte>>): byte[];
-    static FromHexString(source: ReadOnlySpan_1<CLROf<string>>, destination: Span_1<CLROf<byte>>, charsConsumed: { value: ref<int> }, bytesWritten: { value: ref<int> }): OperationStatus;
-    static FromHexString(chars: ReadOnlySpan_1<CLROf<string>>): byte[];
+    static FromHexString(source: ReadOnlySpan_1<CLROf<char>>, destination: Span_1<CLROf<byte>>, charsConsumed: { value: ref<int> }, bytesWritten: { value: ref<int> }): OperationStatus;
+    static FromHexString(chars: ReadOnlySpan_1<CLROf<char>>): byte[];
     static FromHexString(source: string, destination: Span_1<CLROf<byte>>, charsConsumed: { value: ref<int> }, bytesWritten: { value: ref<int> }): OperationStatus;
     static FromHexString(s: string): byte[];
-    static GetTypeCode(value: any): TypeCode;
-    static IsDBNull(value: any): boolean;
-    static ToBase64CharArray(inArray: byte[], offsetIn: int, length: int, outArray: string[], offsetOut: int, options: Base64FormattingOptions): int;
-    static ToBase64CharArray(inArray: byte[], offsetIn: int, length: int, outArray: string[], offsetOut: int): int;
+    static GetTypeCode(value: unknown): TypeCode;
+    static IsDBNull(value: unknown): boolean;
+    static ToBase64CharArray(inArray: byte[], offsetIn: int, length: int, outArray: char[], offsetOut: int, options: Base64FormattingOptions): int;
+    static ToBase64CharArray(inArray: byte[], offsetIn: int, length: int, outArray: char[], offsetOut: int): int;
     static ToBase64String(inArray: byte[], options: Base64FormattingOptions): string;
     static ToBase64String(inArray: byte[], offset: int, length: int, options: Base64FormattingOptions): string;
     static ToBase64String(inArray: byte[], offset: int, length: int): string;
@@ -7678,15 +7746,15 @@ export abstract class Convert$instance {
     static ToBase64String(bytes: ReadOnlySpan_1<CLROf<byte>>, options?: Base64FormattingOptions): string;
     static ToBoolean(value: boolean): boolean;
     static ToBoolean(value: byte): boolean;
-    static ToBoolean(value: string): boolean;
+    static ToBoolean(value: char): boolean;
     static ToBoolean(value: DateTime): boolean;
     static ToBoolean(value: decimal): boolean;
     static ToBoolean(value: double): boolean;
     static ToBoolean(value: short): boolean;
     static ToBoolean(value: int): boolean;
     static ToBoolean(value: long): boolean;
-    static ToBoolean(value: any, provider: IFormatProvider): boolean;
-    static ToBoolean(value: any): boolean;
+    static ToBoolean(value: unknown, provider: IFormatProvider): boolean;
+    static ToBoolean(value: unknown): boolean;
     static ToBoolean(value: sbyte): boolean;
     static ToBoolean(value: float): boolean;
     static ToBoolean(value: string, provider: IFormatProvider): boolean;
@@ -7696,15 +7764,15 @@ export abstract class Convert$instance {
     static ToBoolean(value: ulong): boolean;
     static ToByte(value: boolean): byte;
     static ToByte(value: byte): byte;
-    static ToByte(value: string): byte;
+    static ToByte(value: char): byte;
     static ToByte(value: DateTime): byte;
     static ToByte(value: decimal): byte;
     static ToByte(value: double): byte;
     static ToByte(value: short): byte;
     static ToByte(value: int): byte;
     static ToByte(value: long): byte;
-    static ToByte(value: any, provider: IFormatProvider): byte;
-    static ToByte(value: any): byte;
+    static ToByte(value: unknown, provider: IFormatProvider): byte;
+    static ToByte(value: unknown): byte;
     static ToByte(value: sbyte): byte;
     static ToByte(value: float): byte;
     static ToByte(value: string, provider: IFormatProvider): byte;
@@ -7713,35 +7781,35 @@ export abstract class Convert$instance {
     static ToByte(value: ushort): byte;
     static ToByte(value: uint): byte;
     static ToByte(value: ulong): byte;
-    static ToChar(value: boolean): string;
-    static ToChar(value: byte): string;
-    static ToChar(value: string): string;
-    static ToChar(value: DateTime): string;
-    static ToChar(value: decimal): string;
-    static ToChar(value: double): string;
-    static ToChar(value: short): string;
-    static ToChar(value: int): string;
-    static ToChar(value: long): string;
-    static ToChar(value: any, provider: IFormatProvider): string;
-    static ToChar(value: any): string;
-    static ToChar(value: sbyte): string;
-    static ToChar(value: float): string;
-    static ToChar(value: string, provider: IFormatProvider): string;
-    static ToChar(value: string): string;
-    static ToChar(value: ushort): string;
-    static ToChar(value: uint): string;
-    static ToChar(value: ulong): string;
+    static ToChar(value: boolean): char;
+    static ToChar(value: byte): char;
+    static ToChar(value: char): char;
+    static ToChar(value: DateTime): char;
+    static ToChar(value: decimal): char;
+    static ToChar(value: double): char;
+    static ToChar(value: short): char;
+    static ToChar(value: int): char;
+    static ToChar(value: long): char;
+    static ToChar(value: unknown, provider: IFormatProvider): char;
+    static ToChar(value: unknown): char;
+    static ToChar(value: sbyte): char;
+    static ToChar(value: float): char;
+    static ToChar(value: string, provider: IFormatProvider): char;
+    static ToChar(value: string): char;
+    static ToChar(value: ushort): char;
+    static ToChar(value: uint): char;
+    static ToChar(value: ulong): char;
     static ToDateTime(value: boolean): DateTime;
     static ToDateTime(value: byte): DateTime;
-    static ToDateTime(value: string): DateTime;
+    static ToDateTime(value: char): DateTime;
     static ToDateTime(value: DateTime): DateTime;
     static ToDateTime(value: decimal): DateTime;
     static ToDateTime(value: double): DateTime;
     static ToDateTime(value: short): DateTime;
     static ToDateTime(value: int): DateTime;
     static ToDateTime(value: long): DateTime;
-    static ToDateTime(value: any, provider: IFormatProvider): DateTime;
-    static ToDateTime(value: any): DateTime;
+    static ToDateTime(value: unknown, provider: IFormatProvider): DateTime;
+    static ToDateTime(value: unknown): DateTime;
     static ToDateTime(value: sbyte): DateTime;
     static ToDateTime(value: float): DateTime;
     static ToDateTime(value: string, provider: IFormatProvider): DateTime;
@@ -7751,15 +7819,15 @@ export abstract class Convert$instance {
     static ToDateTime(value: ulong): DateTime;
     static ToDecimal(value: boolean): decimal;
     static ToDecimal(value: byte): decimal;
-    static ToDecimal(value: string): decimal;
+    static ToDecimal(value: char): decimal;
     static ToDecimal(value: DateTime): decimal;
     static ToDecimal(value: decimal): decimal;
     static ToDecimal(value: double): decimal;
     static ToDecimal(value: short): decimal;
     static ToDecimal(value: int): decimal;
     static ToDecimal(value: long): decimal;
-    static ToDecimal(value: any, provider: IFormatProvider): decimal;
-    static ToDecimal(value: any): decimal;
+    static ToDecimal(value: unknown, provider: IFormatProvider): decimal;
+    static ToDecimal(value: unknown): decimal;
     static ToDecimal(value: sbyte): decimal;
     static ToDecimal(value: float): decimal;
     static ToDecimal(value: string, provider: IFormatProvider): decimal;
@@ -7769,15 +7837,15 @@ export abstract class Convert$instance {
     static ToDecimal(value: ulong): decimal;
     static ToDouble(value: boolean): double;
     static ToDouble(value: byte): double;
-    static ToDouble(value: string): double;
+    static ToDouble(value: char): double;
     static ToDouble(value: DateTime): double;
     static ToDouble(value: decimal): double;
     static ToDouble(value: double): double;
     static ToDouble(value: short): double;
     static ToDouble(value: int): double;
     static ToDouble(value: long): double;
-    static ToDouble(value: any, provider: IFormatProvider): double;
-    static ToDouble(value: any): double;
+    static ToDouble(value: unknown, provider: IFormatProvider): double;
+    static ToDouble(value: unknown): double;
     static ToDouble(value: sbyte): double;
     static ToDouble(value: float): double;
     static ToDouble(value: string, provider: IFormatProvider): double;
@@ -7793,15 +7861,15 @@ export abstract class Convert$instance {
     static ToHexStringLower(bytes: ReadOnlySpan_1<CLROf<byte>>): string;
     static ToInt16(value: boolean): short;
     static ToInt16(value: byte): short;
-    static ToInt16(value: string): short;
+    static ToInt16(value: char): short;
     static ToInt16(value: DateTime): short;
     static ToInt16(value: decimal): short;
     static ToInt16(value: double): short;
     static ToInt16(value: short): short;
     static ToInt16(value: int): short;
     static ToInt16(value: long): short;
-    static ToInt16(value: any, provider: IFormatProvider): short;
-    static ToInt16(value: any): short;
+    static ToInt16(value: unknown, provider: IFormatProvider): short;
+    static ToInt16(value: unknown): short;
     static ToInt16(value: sbyte): short;
     static ToInt16(value: float): short;
     static ToInt16(value: string, provider: IFormatProvider): short;
@@ -7812,15 +7880,15 @@ export abstract class Convert$instance {
     static ToInt16(value: ulong): short;
     static ToInt32(value: boolean): int;
     static ToInt32(value: byte): int;
-    static ToInt32(value: string): int;
+    static ToInt32(value: char): int;
     static ToInt32(value: DateTime): int;
     static ToInt32(value: decimal): int;
     static ToInt32(value: double): int;
     static ToInt32(value: short): int;
     static ToInt32(value: int): int;
     static ToInt32(value: long): int;
-    static ToInt32(value: any, provider: IFormatProvider): int;
-    static ToInt32(value: any): int;
+    static ToInt32(value: unknown, provider: IFormatProvider): int;
+    static ToInt32(value: unknown): int;
     static ToInt32(value: sbyte): int;
     static ToInt32(value: float): int;
     static ToInt32(value: string, provider: IFormatProvider): int;
@@ -7831,15 +7899,15 @@ export abstract class Convert$instance {
     static ToInt32(value: ulong): int;
     static ToInt64(value: boolean): long;
     static ToInt64(value: byte): long;
-    static ToInt64(value: string): long;
+    static ToInt64(value: char): long;
     static ToInt64(value: DateTime): long;
     static ToInt64(value: decimal): long;
     static ToInt64(value: double): long;
     static ToInt64(value: short): long;
     static ToInt64(value: int): long;
     static ToInt64(value: long): long;
-    static ToInt64(value: any, provider: IFormatProvider): long;
-    static ToInt64(value: any): long;
+    static ToInt64(value: unknown, provider: IFormatProvider): long;
+    static ToInt64(value: unknown): long;
     static ToInt64(value: sbyte): long;
     static ToInt64(value: float): long;
     static ToInt64(value: string, provider: IFormatProvider): long;
@@ -7850,15 +7918,15 @@ export abstract class Convert$instance {
     static ToInt64(value: ulong): long;
     static ToSByte(value: boolean): sbyte;
     static ToSByte(value: byte): sbyte;
-    static ToSByte(value: string): sbyte;
+    static ToSByte(value: char): sbyte;
     static ToSByte(value: DateTime): sbyte;
     static ToSByte(value: decimal): sbyte;
     static ToSByte(value: double): sbyte;
     static ToSByte(value: short): sbyte;
     static ToSByte(value: int): sbyte;
     static ToSByte(value: long): sbyte;
-    static ToSByte(value: any, provider: IFormatProvider): sbyte;
-    static ToSByte(value: any): sbyte;
+    static ToSByte(value: unknown, provider: IFormatProvider): sbyte;
+    static ToSByte(value: unknown): sbyte;
     static ToSByte(value: sbyte): sbyte;
     static ToSByte(value: float): sbyte;
     static ToSByte(value: string, provider: IFormatProvider): sbyte;
@@ -7869,15 +7937,15 @@ export abstract class Convert$instance {
     static ToSByte(value: ulong): sbyte;
     static ToSingle(value: boolean): float;
     static ToSingle(value: byte): float;
-    static ToSingle(value: string): float;
+    static ToSingle(value: char): float;
     static ToSingle(value: DateTime): float;
     static ToSingle(value: decimal): float;
     static ToSingle(value: double): float;
     static ToSingle(value: short): float;
     static ToSingle(value: int): float;
     static ToSingle(value: long): float;
-    static ToSingle(value: any, provider: IFormatProvider): float;
-    static ToSingle(value: any): float;
+    static ToSingle(value: unknown, provider: IFormatProvider): float;
+    static ToSingle(value: unknown): float;
     static ToSingle(value: sbyte): float;
     static ToSingle(value: float): float;
     static ToSingle(value: string, provider: IFormatProvider): float;
@@ -7890,8 +7958,8 @@ export abstract class Convert$instance {
     static ToString(value: byte, provider: IFormatProvider): string;
     static ToString(value: byte, toBase: int): string;
     static ToString(value: byte): string;
-    static ToString(value: string, provider: IFormatProvider): string;
-    static ToString(value: string): string;
+    static ToString(value: char, provider: IFormatProvider): string;
+    static ToString(value: char): string;
     static ToString(value: DateTime, provider: IFormatProvider): string;
     static ToString(value: DateTime): string;
     static ToString(value: decimal, provider: IFormatProvider): string;
@@ -7907,8 +7975,8 @@ export abstract class Convert$instance {
     static ToString(value: long, provider: IFormatProvider): string;
     static ToString(value: long, toBase: int): string;
     static ToString(value: long): string;
-    static ToString(value: any, provider: IFormatProvider): string;
-    static ToString(value: any): string;
+    static ToString(value: unknown, provider: IFormatProvider): string;
+    static ToString(value: unknown): string;
     static ToString(value: sbyte, provider: IFormatProvider): string;
     static ToString(value: sbyte): string;
     static ToString(value: float, provider: IFormatProvider): string;
@@ -7923,15 +7991,15 @@ export abstract class Convert$instance {
     static ToString(value: ulong): string;
     static ToUInt16(value: boolean): ushort;
     static ToUInt16(value: byte): ushort;
-    static ToUInt16(value: string): ushort;
+    static ToUInt16(value: char): ushort;
     static ToUInt16(value: DateTime): ushort;
     static ToUInt16(value: decimal): ushort;
     static ToUInt16(value: double): ushort;
     static ToUInt16(value: short): ushort;
     static ToUInt16(value: int): ushort;
     static ToUInt16(value: long): ushort;
-    static ToUInt16(value: any, provider: IFormatProvider): ushort;
-    static ToUInt16(value: any): ushort;
+    static ToUInt16(value: unknown, provider: IFormatProvider): ushort;
+    static ToUInt16(value: unknown): ushort;
     static ToUInt16(value: sbyte): ushort;
     static ToUInt16(value: float): ushort;
     static ToUInt16(value: string, provider: IFormatProvider): ushort;
@@ -7942,15 +8010,15 @@ export abstract class Convert$instance {
     static ToUInt16(value: ulong): ushort;
     static ToUInt32(value: boolean): uint;
     static ToUInt32(value: byte): uint;
-    static ToUInt32(value: string): uint;
+    static ToUInt32(value: char): uint;
     static ToUInt32(value: DateTime): uint;
     static ToUInt32(value: decimal): uint;
     static ToUInt32(value: double): uint;
     static ToUInt32(value: short): uint;
     static ToUInt32(value: int): uint;
     static ToUInt32(value: long): uint;
-    static ToUInt32(value: any, provider: IFormatProvider): uint;
-    static ToUInt32(value: any): uint;
+    static ToUInt32(value: unknown, provider: IFormatProvider): uint;
+    static ToUInt32(value: unknown): uint;
     static ToUInt32(value: sbyte): uint;
     static ToUInt32(value: float): uint;
     static ToUInt32(value: string, provider: IFormatProvider): uint;
@@ -7961,15 +8029,15 @@ export abstract class Convert$instance {
     static ToUInt32(value: ulong): uint;
     static ToUInt64(value: boolean): ulong;
     static ToUInt64(value: byte): ulong;
-    static ToUInt64(value: string): ulong;
+    static ToUInt64(value: char): ulong;
     static ToUInt64(value: DateTime): ulong;
     static ToUInt64(value: decimal): ulong;
     static ToUInt64(value: double): ulong;
     static ToUInt64(value: short): ulong;
     static ToUInt64(value: int): ulong;
     static ToUInt64(value: long): ulong;
-    static ToUInt64(value: any, provider: IFormatProvider): ulong;
-    static ToUInt64(value: any): ulong;
+    static ToUInt64(value: unknown, provider: IFormatProvider): ulong;
+    static ToUInt64(value: unknown): ulong;
     static ToUInt64(value: sbyte): ulong;
     static ToUInt64(value: float): ulong;
     static ToUInt64(value: string, provider: IFormatProvider): ulong;
@@ -7978,13 +8046,13 @@ export abstract class Convert$instance {
     static ToUInt64(value: ushort): ulong;
     static ToUInt64(value: uint): ulong;
     static ToUInt64(value: ulong): ulong;
-    static TryFromBase64Chars(chars: ReadOnlySpan_1<CLROf<string>>, bytes: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
+    static TryFromBase64Chars(chars: ReadOnlySpan_1<CLROf<char>>, bytes: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
     static TryFromBase64String(s: string, bytes: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
-    static TryToBase64Chars(bytes: ReadOnlySpan_1<CLROf<byte>>, chars: Span_1<CLROf<string>>, charsWritten: { value: ref<int> }, options?: Base64FormattingOptions): boolean;
+    static TryToBase64Chars(bytes: ReadOnlySpan_1<CLROf<byte>>, chars: Span_1<CLROf<char>>, charsWritten: { value: ref<int> }, options?: Base64FormattingOptions): boolean;
     static TryToHexString(source: ReadOnlySpan_1<CLROf<byte>>, utf8Destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
-    static TryToHexString(source: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<string>>, charsWritten: { value: ref<int> }): boolean;
+    static TryToHexString(source: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<char>>, charsWritten: { value: ref<int> }): boolean;
     static TryToHexStringLower(source: ReadOnlySpan_1<CLROf<byte>>, utf8Destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
-    static TryToHexStringLower(source: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<string>>, charsWritten: { value: ref<int> }): boolean;
+    static TryToHexStringLower(source: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<char>>, charsWritten: { value: ref<int> }): boolean;
 }
 
 
@@ -8049,21 +8117,21 @@ export abstract class GC$instance {
     static CollectionCount(generation: int): int;
     static EndNoGCRegion(): void;
     static GetAllocatedBytesForCurrentThread(): long;
-    static GetConfigurationVariables(): IReadOnlyDictionary_2<CLROf<string>, any>;
+    static GetConfigurationVariables(): IReadOnlyDictionary_2<CLROf<string>, unknown>;
     static GetGCMemoryInfo(): GCMemoryInfo;
     static GetGCMemoryInfo(kind: GCKind): GCMemoryInfo;
-    static GetGeneration(obj: any): int;
+    static GetGeneration(obj: unknown): int;
     static GetGeneration(wo: WeakReference): int;
     static GetTotalAllocatedBytes(precise?: boolean): long;
     static GetTotalMemory(forceFullCollection: boolean): long;
     static GetTotalPauseDuration(): TimeSpan;
-    static KeepAlive(obj: any): void;
+    static KeepAlive(obj: unknown): void;
     static RefreshMemoryLimit(): void;
     static RegisterForFullGCNotification(maxGenerationThreshold: int, largeObjectHeapThreshold: int): void;
     static RegisterNoGCRegionCallback(totalSize: long, callback: Action): void;
     static RemoveMemoryPressure(bytesAllocated: long): void;
-    static ReRegisterForFinalize(obj: any): void;
-    static SuppressFinalize(obj: any): void;
+    static ReRegisterForFinalize(obj: unknown): void;
+    static SuppressFinalize(obj: unknown): void;
     static TryStartNoGCRegion(totalSize: long, disallowFullBlockingGC: boolean): boolean;
     static TryStartNoGCRegion(totalSize: long, lohSize: long, disallowFullBlockingGC: boolean): boolean;
     static TryStartNoGCRegion(totalSize: long, lohSize: long): boolean;
@@ -8266,11 +8334,11 @@ export abstract class MemoryExtensions$instance {
     static AsMemory<T>(segment: ArraySegment_1<T>, start: int, length: int): Memory_1<T>;
     static AsMemory<T>(segment: ArraySegment_1<T>, start: int): Memory_1<T>;
     static AsMemory<T>(segment: ArraySegment_1<T>): Memory_1<T>;
-    static AsMemory(text: string, startIndex: Index): ReadOnlyMemory_1<CLROf<string>>;
-    static AsMemory(text: string, start: int, length: int): ReadOnlyMemory_1<CLROf<string>>;
-    static AsMemory(text: string, start: int): ReadOnlyMemory_1<CLROf<string>>;
-    static AsMemory(text: string, range: Range): ReadOnlyMemory_1<CLROf<string>>;
-    static AsMemory(text: string): ReadOnlyMemory_1<CLROf<string>>;
+    static AsMemory(text: string, startIndex: Index): ReadOnlyMemory_1<CLROf<char>>;
+    static AsMemory(text: string, start: int, length: int): ReadOnlyMemory_1<CLROf<char>>;
+    static AsMemory(text: string, start: int): ReadOnlyMemory_1<CLROf<char>>;
+    static AsMemory(text: string, range: Range): ReadOnlyMemory_1<CLROf<char>>;
+    static AsMemory(text: string): ReadOnlyMemory_1<CLROf<char>>;
     static AsMemory<T>(array: T[], startIndex: Index): Memory_1<T>;
     static AsMemory<T>(array: T[], start: int, length: int): Memory_1<T>;
     static AsMemory<T>(array: T[], start: int): Memory_1<T>;
@@ -8281,11 +8349,11 @@ export abstract class MemoryExtensions$instance {
     static AsSpan<T>(segment: ArraySegment_1<T>, start: int): Span_1<T>;
     static AsSpan<T>(segment: ArraySegment_1<T>, range: Range): Span_1<T>;
     static AsSpan<T>(segment: ArraySegment_1<T>): Span_1<T>;
-    static AsSpan(text: string, startIndex: Index): ReadOnlySpan_1<CLROf<string>>;
-    static AsSpan(text: string, start: int, length: int): ReadOnlySpan_1<CLROf<string>>;
-    static AsSpan(text: string, start: int): ReadOnlySpan_1<CLROf<string>>;
-    static AsSpan(text: string, range: Range): ReadOnlySpan_1<CLROf<string>>;
-    static AsSpan(text: string): ReadOnlySpan_1<CLROf<string>>;
+    static AsSpan(text: string, startIndex: Index): ReadOnlySpan_1<CLROf<char>>;
+    static AsSpan(text: string, start: int, length: int): ReadOnlySpan_1<CLROf<char>>;
+    static AsSpan(text: string, start: int): ReadOnlySpan_1<CLROf<char>>;
+    static AsSpan(text: string, range: Range): ReadOnlySpan_1<CLROf<char>>;
+    static AsSpan(text: string): ReadOnlySpan_1<CLROf<char>>;
     static AsSpan<T>(array: T[], startIndex: Index): Span_1<T>;
     static AsSpan<T>(array: T[], start: int, length: int): Span_1<T>;
     static AsSpan<T>(array: T[], start: int): Span_1<T>;
@@ -8301,11 +8369,11 @@ export abstract class MemoryExtensions$instance {
     static CommonPrefixLength<T>(span: ReadOnlySpan_1<T>, other: ReadOnlySpan_1<T>): int;
     static CommonPrefixLength<T>(span: Span_1<T>, other: ReadOnlySpan_1<T>, comparer: IEqualityComparer_1<T>): int;
     static CommonPrefixLength<T>(span: Span_1<T>, other: ReadOnlySpan_1<T>): int;
-    static CompareTo(span: ReadOnlySpan_1<CLROf<string>>, other: ReadOnlySpan_1<CLROf<string>>, comparisonType: StringComparison): int;
+    static CompareTo(span: ReadOnlySpan_1<CLROf<char>>, other: ReadOnlySpan_1<CLROf<char>>, comparisonType: StringComparison): int;
     static Contains<T>(span: ReadOnlySpan_1<T>, value: T, comparer?: IEqualityComparer_1<T>): boolean;
     static Contains<T extends IEquatable_1<T>>(span: ReadOnlySpan_1<T>, value: T): boolean;
     static Contains<T extends IEquatable_1<T>>(span: Span_1<T>, value: T): boolean;
-    static Contains(span: ReadOnlySpan_1<CLROf<string>>, value: ReadOnlySpan_1<CLROf<string>>, comparisonType: StringComparison): boolean;
+    static Contains(span: ReadOnlySpan_1<CLROf<char>>, value: ReadOnlySpan_1<CLROf<char>>, comparisonType: StringComparison): boolean;
     static ContainsAny<T>(span: ReadOnlySpan_1<T>, values: ReadOnlySpan_1<T>, comparer?: IEqualityComparer_1<T>): boolean;
     static ContainsAny<T extends IEquatable_1<T>>(span: ReadOnlySpan_1<T>, values: ReadOnlySpan_1<T>): boolean;
     static ContainsAny<T extends IEquatable_1<T>>(span: ReadOnlySpan_1<T>, values: SearchValues_1<T>): boolean;
@@ -8317,8 +8385,8 @@ export abstract class MemoryExtensions$instance {
     static ContainsAny<T extends IEquatable_1<T>>(span: Span_1<T>, values: SearchValues_1<T>): boolean;
     static ContainsAny<T extends IEquatable_1<T>>(span: Span_1<T>, value0: T, value1: T, value2: T): boolean;
     static ContainsAny<T extends IEquatable_1<T>>(span: Span_1<T>, value0: T, value1: T): boolean;
-    static ContainsAny(span: ReadOnlySpan_1<CLROf<string>>, values: SearchValues_1<CLROf<string>>): boolean;
-    static ContainsAny(span: Span_1<CLROf<string>>, values: SearchValues_1<CLROf<string>>): boolean;
+    static ContainsAny(span: ReadOnlySpan_1<CLROf<char>>, values: SearchValues_1<CLROf<string>>): boolean;
+    static ContainsAny(span: Span_1<CLROf<char>>, values: SearchValues_1<CLROf<string>>): boolean;
     static ContainsAnyExcept<T>(span: ReadOnlySpan_1<T>, values: ReadOnlySpan_1<T>, comparer?: IEqualityComparer_1<T>): boolean;
     static ContainsAnyExcept<T extends IEquatable_1<T>>(span: ReadOnlySpan_1<T>, values: ReadOnlySpan_1<T>): boolean;
     static ContainsAnyExcept<T extends IEquatable_1<T>>(span: ReadOnlySpan_1<T>, values: SearchValues_1<T>): boolean;
@@ -8353,19 +8421,19 @@ export abstract class MemoryExtensions$instance {
     static EndsWith<T>(span: ReadOnlySpan_1<T>, value: T, comparer?: IEqualityComparer_1<T>): boolean;
     static EndsWith<T extends IEquatable_1<T>>(span: ReadOnlySpan_1<T>, value: T): boolean;
     static EndsWith<T extends IEquatable_1<T>>(span: Span_1<T>, value: ReadOnlySpan_1<T>): boolean;
-    static EndsWith(span: ReadOnlySpan_1<CLROf<string>>, value: ReadOnlySpan_1<CLROf<string>>, comparisonType: StringComparison): boolean;
-    static EnumerateLines(span: ReadOnlySpan_1<CLROf<string>>): SpanLineEnumerator;
-    static EnumerateLines(span: Span_1<CLROf<string>>): SpanLineEnumerator;
-    static EnumerateRunes(span: ReadOnlySpan_1<CLROf<string>>): SpanRuneEnumerator;
-    static EnumerateRunes(span: Span_1<CLROf<string>>): SpanRuneEnumerator;
-    static Equals(span: ReadOnlySpan_1<CLROf<string>>, other: ReadOnlySpan_1<CLROf<string>>, comparisonType: StringComparison): boolean;
+    static EndsWith(span: ReadOnlySpan_1<CLROf<char>>, value: ReadOnlySpan_1<CLROf<char>>, comparisonType: StringComparison): boolean;
+    static EnumerateLines(span: ReadOnlySpan_1<CLROf<char>>): SpanLineEnumerator;
+    static EnumerateLines(span: Span_1<CLROf<char>>): SpanLineEnumerator;
+    static EnumerateRunes(span: ReadOnlySpan_1<CLROf<char>>): SpanRuneEnumerator;
+    static EnumerateRunes(span: Span_1<CLROf<char>>): SpanRuneEnumerator;
+    static Equals(span: ReadOnlySpan_1<CLROf<char>>, other: ReadOnlySpan_1<CLROf<char>>, comparisonType: StringComparison): boolean;
     static IndexOf<T>(span: ReadOnlySpan_1<T>, value: ReadOnlySpan_1<T>, comparer?: IEqualityComparer_1<T>): int;
     static IndexOf<T extends IEquatable_1<T>>(span: ReadOnlySpan_1<T>, value: ReadOnlySpan_1<T>): int;
     static IndexOf<T>(span: ReadOnlySpan_1<T>, value: T, comparer?: IEqualityComparer_1<T>): int;
     static IndexOf<T extends IEquatable_1<T>>(span: ReadOnlySpan_1<T>, value: T): int;
     static IndexOf<T extends IEquatable_1<T>>(span: Span_1<T>, value: ReadOnlySpan_1<T>): int;
     static IndexOf<T extends IEquatable_1<T>>(span: Span_1<T>, value: T): int;
-    static IndexOf(span: ReadOnlySpan_1<CLROf<string>>, value: ReadOnlySpan_1<CLROf<string>>, comparisonType: StringComparison): int;
+    static IndexOf(span: ReadOnlySpan_1<CLROf<char>>, value: ReadOnlySpan_1<CLROf<char>>, comparisonType: StringComparison): int;
     static IndexOfAny<T>(span: ReadOnlySpan_1<T>, values: ReadOnlySpan_1<T>, comparer?: IEqualityComparer_1<T>): int;
     static IndexOfAny<T extends IEquatable_1<T>>(span: ReadOnlySpan_1<T>, values: ReadOnlySpan_1<T>): int;
     static IndexOfAny<T extends IEquatable_1<T>>(span: ReadOnlySpan_1<T>, values: SearchValues_1<T>): int;
@@ -8377,8 +8445,8 @@ export abstract class MemoryExtensions$instance {
     static IndexOfAny<T extends IEquatable_1<T>>(span: Span_1<T>, values: SearchValues_1<T>): int;
     static IndexOfAny<T extends IEquatable_1<T>>(span: Span_1<T>, value0: T, value1: T, value2: T): int;
     static IndexOfAny<T extends IEquatable_1<T>>(span: Span_1<T>, value0: T, value1: T): int;
-    static IndexOfAny(span: ReadOnlySpan_1<CLROf<string>>, values: SearchValues_1<CLROf<string>>): int;
-    static IndexOfAny(span: Span_1<CLROf<string>>, values: SearchValues_1<CLROf<string>>): int;
+    static IndexOfAny(span: ReadOnlySpan_1<CLROf<char>>, values: SearchValues_1<CLROf<string>>): int;
+    static IndexOfAny(span: Span_1<CLROf<char>>, values: SearchValues_1<CLROf<string>>): int;
     static IndexOfAnyExcept<T>(span: ReadOnlySpan_1<T>, values: ReadOnlySpan_1<T>, comparer?: IEqualityComparer_1<T>): int;
     static IndexOfAnyExcept<T extends IEquatable_1<T>>(span: ReadOnlySpan_1<T>, values: ReadOnlySpan_1<T>): int;
     static IndexOfAnyExcept<T extends IEquatable_1<T>>(span: ReadOnlySpan_1<T>, values: SearchValues_1<T>): int;
@@ -8397,14 +8465,14 @@ export abstract class MemoryExtensions$instance {
     static IndexOfAnyExceptInRange<T extends IComparable_1<T>>(span: Span_1<T>, lowInclusive: T, highInclusive: T): int;
     static IndexOfAnyInRange<T extends IComparable_1<T>>(span: ReadOnlySpan_1<T>, lowInclusive: T, highInclusive: T): int;
     static IndexOfAnyInRange<T extends IComparable_1<T>>(span: Span_1<T>, lowInclusive: T, highInclusive: T): int;
-    static IsWhiteSpace(span: ReadOnlySpan_1<CLROf<string>>): boolean;
+    static IsWhiteSpace(span: ReadOnlySpan_1<CLROf<char>>): boolean;
     static LastIndexOf<T>(span: ReadOnlySpan_1<T>, value: ReadOnlySpan_1<T>, comparer?: IEqualityComparer_1<T>): int;
     static LastIndexOf<T extends IEquatable_1<T>>(span: ReadOnlySpan_1<T>, value: ReadOnlySpan_1<T>): int;
     static LastIndexOf<T>(span: ReadOnlySpan_1<T>, value: T, comparer?: IEqualityComparer_1<T>): int;
     static LastIndexOf<T extends IEquatable_1<T>>(span: ReadOnlySpan_1<T>, value: T): int;
     static LastIndexOf<T extends IEquatable_1<T>>(span: Span_1<T>, value: ReadOnlySpan_1<T>): int;
     static LastIndexOf<T extends IEquatable_1<T>>(span: Span_1<T>, value: T): int;
-    static LastIndexOf(span: ReadOnlySpan_1<CLROf<string>>, value: ReadOnlySpan_1<CLROf<string>>, comparisonType: StringComparison): int;
+    static LastIndexOf(span: ReadOnlySpan_1<CLROf<char>>, value: ReadOnlySpan_1<CLROf<char>>, comparisonType: StringComparison): int;
     static LastIndexOfAny<T>(span: ReadOnlySpan_1<T>, values: ReadOnlySpan_1<T>, comparer?: IEqualityComparer_1<T>): int;
     static LastIndexOfAny<T extends IEquatable_1<T>>(span: ReadOnlySpan_1<T>, values: ReadOnlySpan_1<T>): int;
     static LastIndexOfAny<T extends IEquatable_1<T>>(span: ReadOnlySpan_1<T>, values: SearchValues_1<T>): int;
@@ -8462,22 +8530,22 @@ export abstract class MemoryExtensions$instance {
     static Sort<T>(span: Span_1<T>): void;
     static Split<T extends IEquatable_1<T>>(source: ReadOnlySpan_1<T>, separator: ReadOnlySpan_1<T>): MemoryExtensions_SpanSplitEnumerator_1<T>;
     static Split<T extends IEquatable_1<T>>(source: ReadOnlySpan_1<T>, separator: T): MemoryExtensions_SpanSplitEnumerator_1<T>;
-    static Split(source: ReadOnlySpan_1<CLROf<string>>, destination: Span_1<Range>, separator: string, options?: StringSplitOptions): int;
-    static Split(source: ReadOnlySpan_1<CLROf<string>>, destination: Span_1<Range>, separator: ReadOnlySpan_1<CLROf<string>>, options?: StringSplitOptions): int;
+    static Split(source: ReadOnlySpan_1<CLROf<char>>, destination: Span_1<Range>, separator: char, options?: StringSplitOptions): int;
+    static Split(source: ReadOnlySpan_1<CLROf<char>>, destination: Span_1<Range>, separator: ReadOnlySpan_1<CLROf<char>>, options?: StringSplitOptions): int;
     static SplitAny<T extends IEquatable_1<T>>(source: ReadOnlySpan_1<T>, separators: ReadOnlySpan_1<T>): MemoryExtensions_SpanSplitEnumerator_1<T>;
     static SplitAny<T extends IEquatable_1<T>>(source: ReadOnlySpan_1<T>, separators: SearchValues_1<T>): MemoryExtensions_SpanSplitEnumerator_1<T>;
-    static SplitAny(source: ReadOnlySpan_1<CLROf<string>>, destination: Span_1<Range>, separators: ReadOnlySpan_1<CLROf<string>>, options?: StringSplitOptions): int;
-    static SplitAny(source: ReadOnlySpan_1<CLROf<string>>, destination: Span_1<Range>, separators: ReadOnlySpan_1<CLROf<string>>, options?: StringSplitOptions): int;
+    static SplitAny(source: ReadOnlySpan_1<CLROf<char>>, destination: Span_1<Range>, separators: ReadOnlySpan_1<CLROf<char>>, options?: StringSplitOptions): int;
+    static SplitAny(source: ReadOnlySpan_1<CLROf<char>>, destination: Span_1<Range>, separators: ReadOnlySpan_1<CLROf<string>>, options?: StringSplitOptions): int;
     static StartsWith<T>(span: ReadOnlySpan_1<T>, value: ReadOnlySpan_1<T>, comparer?: IEqualityComparer_1<T>): boolean;
     static StartsWith<T extends IEquatable_1<T>>(span: ReadOnlySpan_1<T>, value: ReadOnlySpan_1<T>): boolean;
     static StartsWith<T>(span: ReadOnlySpan_1<T>, value: T, comparer?: IEqualityComparer_1<T>): boolean;
     static StartsWith<T extends IEquatable_1<T>>(span: ReadOnlySpan_1<T>, value: T): boolean;
     static StartsWith<T extends IEquatable_1<T>>(span: Span_1<T>, value: ReadOnlySpan_1<T>): boolean;
-    static StartsWith(span: ReadOnlySpan_1<CLROf<string>>, value: ReadOnlySpan_1<CLROf<string>>, comparisonType: StringComparison): boolean;
-    static ToLower(source: ReadOnlySpan_1<CLROf<string>>, destination: Span_1<CLROf<string>>, culture: CultureInfo): int;
-    static ToLowerInvariant(source: ReadOnlySpan_1<CLROf<string>>, destination: Span_1<CLROf<string>>): int;
-    static ToUpper(source: ReadOnlySpan_1<CLROf<string>>, destination: Span_1<CLROf<string>>, culture: CultureInfo): int;
-    static ToUpperInvariant(source: ReadOnlySpan_1<CLROf<string>>, destination: Span_1<CLROf<string>>): int;
+    static StartsWith(span: ReadOnlySpan_1<CLROf<char>>, value: ReadOnlySpan_1<CLROf<char>>, comparisonType: StringComparison): boolean;
+    static ToLower(source: ReadOnlySpan_1<CLROf<char>>, destination: Span_1<CLROf<char>>, culture: CultureInfo): int;
+    static ToLowerInvariant(source: ReadOnlySpan_1<CLROf<char>>, destination: Span_1<CLROf<char>>): int;
+    static ToUpper(source: ReadOnlySpan_1<CLROf<char>>, destination: Span_1<CLROf<char>>, culture: CultureInfo): int;
+    static ToUpperInvariant(source: ReadOnlySpan_1<CLROf<char>>, destination: Span_1<CLROf<char>>): int;
     static Trim<T extends IEquatable_1<T>>(memory: Memory_1<T>, trimElements: ReadOnlySpan_1<T>): Memory_1<T>;
     static Trim<T extends IEquatable_1<T>>(memory: Memory_1<T>, trimElement: T): Memory_1<T>;
     static Trim<T extends IEquatable_1<T>>(memory: ReadOnlyMemory_1<T>, trimElements: ReadOnlySpan_1<T>): ReadOnlyMemory_1<T>;
@@ -8486,12 +8554,12 @@ export abstract class MemoryExtensions$instance {
     static Trim<T extends IEquatable_1<T>>(span: ReadOnlySpan_1<T>, trimElement: T): ReadOnlySpan_1<T>;
     static Trim<T extends IEquatable_1<T>>(span: Span_1<T>, trimElements: ReadOnlySpan_1<T>): Span_1<T>;
     static Trim<T extends IEquatable_1<T>>(span: Span_1<T>, trimElement: T): Span_1<T>;
-    static Trim(memory: Memory_1<CLROf<string>>): Memory_1<CLROf<string>>;
-    static Trim(memory: ReadOnlyMemory_1<CLROf<string>>): ReadOnlyMemory_1<CLROf<string>>;
-    static Trim(span: ReadOnlySpan_1<CLROf<string>>, trimChar: string): ReadOnlySpan_1<CLROf<string>>;
-    static Trim(span: ReadOnlySpan_1<CLROf<string>>, trimChars: ReadOnlySpan_1<CLROf<string>>): ReadOnlySpan_1<CLROf<string>>;
-    static Trim(span: ReadOnlySpan_1<CLROf<string>>): ReadOnlySpan_1<CLROf<string>>;
-    static Trim(span: Span_1<CLROf<string>>): Span_1<CLROf<string>>;
+    static Trim(memory: Memory_1<CLROf<char>>): Memory_1<CLROf<char>>;
+    static Trim(memory: ReadOnlyMemory_1<CLROf<char>>): ReadOnlyMemory_1<CLROf<char>>;
+    static Trim(span: ReadOnlySpan_1<CLROf<char>>, trimChar: char): ReadOnlySpan_1<CLROf<char>>;
+    static Trim(span: ReadOnlySpan_1<CLROf<char>>, trimChars: ReadOnlySpan_1<CLROf<char>>): ReadOnlySpan_1<CLROf<char>>;
+    static Trim(span: ReadOnlySpan_1<CLROf<char>>): ReadOnlySpan_1<CLROf<char>>;
+    static Trim(span: Span_1<CLROf<char>>): Span_1<CLROf<char>>;
     static TrimEnd<T extends IEquatable_1<T>>(memory: Memory_1<T>, trimElements: ReadOnlySpan_1<T>): Memory_1<T>;
     static TrimEnd<T extends IEquatable_1<T>>(memory: Memory_1<T>, trimElement: T): Memory_1<T>;
     static TrimEnd<T extends IEquatable_1<T>>(memory: ReadOnlyMemory_1<T>, trimElements: ReadOnlySpan_1<T>): ReadOnlyMemory_1<T>;
@@ -8500,12 +8568,12 @@ export abstract class MemoryExtensions$instance {
     static TrimEnd<T extends IEquatable_1<T>>(span: ReadOnlySpan_1<T>, trimElement: T): ReadOnlySpan_1<T>;
     static TrimEnd<T extends IEquatable_1<T>>(span: Span_1<T>, trimElements: ReadOnlySpan_1<T>): Span_1<T>;
     static TrimEnd<T extends IEquatable_1<T>>(span: Span_1<T>, trimElement: T): Span_1<T>;
-    static TrimEnd(memory: Memory_1<CLROf<string>>): Memory_1<CLROf<string>>;
-    static TrimEnd(memory: ReadOnlyMemory_1<CLROf<string>>): ReadOnlyMemory_1<CLROf<string>>;
-    static TrimEnd(span: ReadOnlySpan_1<CLROf<string>>, trimChar: string): ReadOnlySpan_1<CLROf<string>>;
-    static TrimEnd(span: ReadOnlySpan_1<CLROf<string>>, trimChars: ReadOnlySpan_1<CLROf<string>>): ReadOnlySpan_1<CLROf<string>>;
-    static TrimEnd(span: ReadOnlySpan_1<CLROf<string>>): ReadOnlySpan_1<CLROf<string>>;
-    static TrimEnd(span: Span_1<CLROf<string>>): Span_1<CLROf<string>>;
+    static TrimEnd(memory: Memory_1<CLROf<char>>): Memory_1<CLROf<char>>;
+    static TrimEnd(memory: ReadOnlyMemory_1<CLROf<char>>): ReadOnlyMemory_1<CLROf<char>>;
+    static TrimEnd(span: ReadOnlySpan_1<CLROf<char>>, trimChar: char): ReadOnlySpan_1<CLROf<char>>;
+    static TrimEnd(span: ReadOnlySpan_1<CLROf<char>>, trimChars: ReadOnlySpan_1<CLROf<char>>): ReadOnlySpan_1<CLROf<char>>;
+    static TrimEnd(span: ReadOnlySpan_1<CLROf<char>>): ReadOnlySpan_1<CLROf<char>>;
+    static TrimEnd(span: Span_1<CLROf<char>>): Span_1<CLROf<char>>;
     static TrimStart<T extends IEquatable_1<T>>(memory: Memory_1<T>, trimElements: ReadOnlySpan_1<T>): Memory_1<T>;
     static TrimStart<T extends IEquatable_1<T>>(memory: Memory_1<T>, trimElement: T): Memory_1<T>;
     static TrimStart<T extends IEquatable_1<T>>(memory: ReadOnlyMemory_1<T>, trimElements: ReadOnlySpan_1<T>): ReadOnlyMemory_1<T>;
@@ -8514,42 +8582,42 @@ export abstract class MemoryExtensions$instance {
     static TrimStart<T extends IEquatable_1<T>>(span: ReadOnlySpan_1<T>, trimElement: T): ReadOnlySpan_1<T>;
     static TrimStart<T extends IEquatable_1<T>>(span: Span_1<T>, trimElements: ReadOnlySpan_1<T>): Span_1<T>;
     static TrimStart<T extends IEquatable_1<T>>(span: Span_1<T>, trimElement: T): Span_1<T>;
-    static TrimStart(memory: Memory_1<CLROf<string>>): Memory_1<CLROf<string>>;
-    static TrimStart(memory: ReadOnlyMemory_1<CLROf<string>>): ReadOnlyMemory_1<CLROf<string>>;
-    static TrimStart(span: ReadOnlySpan_1<CLROf<string>>, trimChar: string): ReadOnlySpan_1<CLROf<string>>;
-    static TrimStart(span: ReadOnlySpan_1<CLROf<string>>, trimChars: ReadOnlySpan_1<CLROf<string>>): ReadOnlySpan_1<CLROf<string>>;
-    static TrimStart(span: ReadOnlySpan_1<CLROf<string>>): ReadOnlySpan_1<CLROf<string>>;
-    static TrimStart(span: Span_1<CLROf<string>>): Span_1<CLROf<string>>;
-    static TryWrite(destination: Span_1<CLROf<string>>, provider: IFormatProvider, handler: { value: ref<MemoryExtensions_TryWriteInterpolatedStringHandler> }, charsWritten: { value: ref<int> }): boolean;
-    static TryWrite(destination: Span_1<CLROf<string>>, provider: IFormatProvider, format: CompositeFormat, charsWritten: { value: ref<int> }, args: any[]): boolean;
-    static TryWrite(destination: Span_1<CLROf<string>>, provider: IFormatProvider, format: CompositeFormat, charsWritten: { value: ref<int> }, args: ReadOnlySpan_1<any>): boolean;
-    static TryWrite<TArg0, TArg1, TArg2>(destination: Span_1<CLROf<string>>, provider: IFormatProvider, format: CompositeFormat, charsWritten: { value: ref<int> }, arg0: TArg0, arg1: TArg1, arg2: TArg2): boolean;
-    static TryWrite<TArg0, TArg1>(destination: Span_1<CLROf<string>>, provider: IFormatProvider, format: CompositeFormat, charsWritten: { value: ref<int> }, arg0: TArg0, arg1: TArg1): boolean;
-    static TryWrite<TArg0>(destination: Span_1<CLROf<string>>, provider: IFormatProvider, format: CompositeFormat, charsWritten: { value: ref<int> }, arg0: TArg0): boolean;
-    static TryWrite(destination: Span_1<CLROf<string>>, handler: { value: ref<MemoryExtensions_TryWriteInterpolatedStringHandler> }, charsWritten: { value: ref<int> }): boolean;
+    static TrimStart(memory: Memory_1<CLROf<char>>): Memory_1<CLROf<char>>;
+    static TrimStart(memory: ReadOnlyMemory_1<CLROf<char>>): ReadOnlyMemory_1<CLROf<char>>;
+    static TrimStart(span: ReadOnlySpan_1<CLROf<char>>, trimChar: char): ReadOnlySpan_1<CLROf<char>>;
+    static TrimStart(span: ReadOnlySpan_1<CLROf<char>>, trimChars: ReadOnlySpan_1<CLROf<char>>): ReadOnlySpan_1<CLROf<char>>;
+    static TrimStart(span: ReadOnlySpan_1<CLROf<char>>): ReadOnlySpan_1<CLROf<char>>;
+    static TrimStart(span: Span_1<CLROf<char>>): Span_1<CLROf<char>>;
+    static TryWrite(destination: Span_1<CLROf<char>>, provider: IFormatProvider, handler: { value: ref<MemoryExtensions_TryWriteInterpolatedStringHandler> }, charsWritten: { value: ref<int> }): boolean;
+    static TryWrite(destination: Span_1<CLROf<char>>, provider: IFormatProvider, format: CompositeFormat, charsWritten: { value: ref<int> }, args: unknown[]): boolean;
+    static TryWrite(destination: Span_1<CLROf<char>>, provider: IFormatProvider, format: CompositeFormat, charsWritten: { value: ref<int> }, args: ReadOnlySpan_1<unknown>): boolean;
+    static TryWrite<TArg0, TArg1, TArg2>(destination: Span_1<CLROf<char>>, provider: IFormatProvider, format: CompositeFormat, charsWritten: { value: ref<int> }, arg0: TArg0, arg1: TArg1, arg2: TArg2): boolean;
+    static TryWrite<TArg0, TArg1>(destination: Span_1<CLROf<char>>, provider: IFormatProvider, format: CompositeFormat, charsWritten: { value: ref<int> }, arg0: TArg0, arg1: TArg1): boolean;
+    static TryWrite<TArg0>(destination: Span_1<CLROf<char>>, provider: IFormatProvider, format: CompositeFormat, charsWritten: { value: ref<int> }, arg0: TArg0): boolean;
+    static TryWrite(destination: Span_1<CLROf<char>>, handler: { value: ref<MemoryExtensions_TryWriteInterpolatedStringHandler> }, charsWritten: { value: ref<int> }): boolean;
 }
 
 
 export type MemoryExtensions = MemoryExtensions$instance;
 
 export abstract class Nullable$instance {
-    static Compare<T extends any>(n1: Nullable_1<T>, n2: Nullable_1<T>): int;
-    static Equals<T extends any>(n1: Nullable_1<T>, n2: Nullable_1<T>): boolean;
+    static Compare<T extends unknown>(n1: Nullable_1<T>, n2: Nullable_1<T>): int;
+    static Equals<T extends unknown>(n1: Nullable_1<T>, n2: Nullable_1<T>): boolean;
     static GetUnderlyingType(nullableType: Type): Type;
-    static GetValueRefOrDefaultRef<T extends any>(nullable: { value: ref<Nullable_1<T>> }): ref<T>;
+    static GetValueRefOrDefaultRef<T extends unknown>(nullable: { value: ref<Nullable_1<T>> }): ref<T>;
 }
 
 
 export type Nullable = Nullable$instance;
 
 export abstract class StringNormalizationExtensions$instance {
-    static GetNormalizedLength(source: ReadOnlySpan_1<CLROf<string>>, normalizationForm?: NormalizationForm): int;
-    static IsNormalized(source: ReadOnlySpan_1<CLROf<string>>, normalizationForm?: NormalizationForm): boolean;
+    static GetNormalizedLength(source: ReadOnlySpan_1<CLROf<char>>, normalizationForm?: NormalizationForm): int;
+    static IsNormalized(source: ReadOnlySpan_1<CLROf<char>>, normalizationForm?: NormalizationForm): boolean;
     static IsNormalized(strInput: string, normalizationForm: NormalizationForm): boolean;
     static IsNormalized(strInput: string): boolean;
     static Normalize(strInput: string, normalizationForm: NormalizationForm): string;
     static Normalize(strInput: string): string;
-    static TryNormalize(source: ReadOnlySpan_1<CLROf<string>>, destination: Span_1<CLROf<string>>, charsWritten: { value: ref<int> }, normalizationForm?: NormalizationForm): boolean;
+    static TryNormalize(source: ReadOnlySpan_1<CLROf<char>>, destination: Span_1<CLROf<char>>, charsWritten: { value: ref<int> }, normalizationForm?: NormalizationForm): boolean;
 }
 
 

@@ -20,7 +20,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Java.ComponentCrossReference::SourceGroupIndexSystem.UIntPtr",
           "clrName": "SourceGroupIndex",
-          "tsEmitName": "sourceGroupIndex",
+          "tsEmitName": "SourceGroupIndex",
           "normalizedSignature": "SourceGroupIndex|System.UIntPtr|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -29,7 +29,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Java.ComponentCrossReference::DestinationGroupIndexSystem.UIntPtr",
           "clrName": "DestinationGroupIndex",
-          "tsEmitName": "destinationGroupIndex",
+          "tsEmitName": "DestinationGroupIndex",
           "normalizedSignature": "DestinationGroupIndex|System.UIntPtr|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -55,7 +55,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Java.MarkCrossReferencesArgs::ComponentCountSystem.UIntPtr",
           "clrName": "ComponentCount",
-          "tsEmitName": "componentCount",
+          "tsEmitName": "ComponentCount",
           "normalizedSignature": "ComponentCount|System.UIntPtr|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -64,7 +64,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Java.MarkCrossReferencesArgs::ComponentsSystem.Runtime.InteropServices.Java.StronglyConnectedComponent*",
           "clrName": "Components",
-          "tsEmitName": "components",
+          "tsEmitName": "Components",
           "normalizedSignature": "Components|System.Runtime.InteropServices.Java.StronglyConnectedComponent*|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -73,7 +73,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Java.MarkCrossReferencesArgs::CrossReferenceCountSystem.UIntPtr",
           "clrName": "CrossReferenceCount",
-          "tsEmitName": "crossReferenceCount",
+          "tsEmitName": "CrossReferenceCount",
           "normalizedSignature": "CrossReferenceCount|System.UIntPtr|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -82,7 +82,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Java.MarkCrossReferencesArgs::CrossReferencesSystem.Runtime.InteropServices.Java.ComponentCrossReference*",
           "clrName": "CrossReferences",
-          "tsEmitName": "crossReferences",
+          "tsEmitName": "CrossReferences",
           "normalizedSignature": "CrossReferences|System.Runtime.InteropServices.Java.ComponentCrossReference*|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -108,7 +108,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Java.StronglyConnectedComponent::CountSystem.UIntPtr",
           "clrName": "Count",
-          "tsEmitName": "count",
+          "tsEmitName": "Count",
           "normalizedSignature": "Count|System.UIntPtr|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -117,7 +117,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Java.StronglyConnectedComponent::ContextsSystem.Void**",
           "clrName": "Contexts",
-          "tsEmitName": "contexts",
+          "tsEmitName": "Contexts",
           "normalizedSignature": "Contexts|System.Void**|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -141,7 +141,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Java.JavaMarshal::Initialize():System.Void",
           "clrName": "Initialize",
-          "tsEmitName": "initialize",
+          "tsEmitName": "Initialize",
           "normalizedSignature": "Initialize|():System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -157,7 +157,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Java.JavaMarshal::CreateReferenceTrackingHandle(System.Object,System.Void*):System.Runtime.InteropServices.GCHandle",
           "clrName": "CreateReferenceTrackingHandle",
-          "tsEmitName": "createReferenceTrackingHandle",
+          "tsEmitName": "CreateReferenceTrackingHandle",
           "normalizedSignature": "CreateReferenceTrackingHandle|(System.Object,System.Void*):System.Runtime.InteropServices.GCHandle|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -173,7 +173,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Java.JavaMarshal::GetContext(System.Runtime.InteropServices.GCHandle):System.Void*",
           "clrName": "GetContext",
-          "tsEmitName": "getContext",
+          "tsEmitName": "GetContext",
           "normalizedSignature": "GetContext|(System.Runtime.InteropServices.GCHandle):System.Void*|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -189,7 +189,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Java.JavaMarshal::FinishCrossReferenceProcessing(System.Runtime.InteropServices.Java.MarkCrossReferencesArgs*,System.ReadOnlySpan_1[[System.Runtime.InteropServices.GCHandle,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "clrName": "FinishCrossReferenceProcessing",
-          "tsEmitName": "finishCrossReferenceProcessing",
+          "tsEmitName": "FinishCrossReferenceProcessing",
           "normalizedSignature": "FinishCrossReferenceProcessing|(System.Runtime.InteropServices.Java.MarkCrossReferencesArgs*,System.ReadOnlySpan_1[[System.Runtime.InteropServices.GCHandle,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",

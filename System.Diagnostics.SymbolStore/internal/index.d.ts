@@ -36,16 +36,16 @@ export type CLROf<T> =
     T; // Identity fallback for non-primitive types
 
 export enum SymAddressKind {
-    ilOffset = 1,
-    nativeRVA = 2,
-    nativeRegister = 3,
-    nativeRegisterRelative = 4,
-    nativeOffset = 5,
-    nativeRegisterRegister = 6,
-    nativeRegisterStack = 7,
-    nativeStackRegister = 8,
-    bitField = 9,
-    nativeSectionOffset = 10
+    ILOffset = 1,
+    NativeRVA = 2,
+    NativeRegister = 3,
+    NativeRegisterRelative = 4,
+    NativeOffset = 5,
+    NativeRegisterRegister = 6,
+    NativeRegisterStack = 7,
+    NativeStackRegister = 8,
+    BitField = 9,
+    NativeSectionOffset = 10
 }
 
 
@@ -143,7 +143,7 @@ export type ISymbolScope = ISymbolScope$instance;
 
 export interface ISymbolVariable$instance {
     readonly Name: string;
-    readonly Attributes: any;
+    readonly Attributes: unknown;
     readonly AddressKind: SymAddressKind;
     readonly AddressField1: int;
     readonly AddressField2: int;
@@ -180,15 +180,15 @@ export type ISymbolWriter = ISymbolWriter$instance;
 
 export class SymbolToken$instance {
     constructor(val: int);
-    equals(obj: any): boolean;
-    equals(obj: SymbolToken): boolean;
-    getHashCode(): int;
-    getToken(): int;
+    Equals(obj: unknown): boolean;
+    Equals(obj: SymbolToken): boolean;
+    GetHashCode(): int;
+    GetToken(): int;
 }
 
 
 export interface __SymbolToken$views {
-    readonly As_IEquatable_1_of_ConsoleKeyInfo: System_Internal.IEquatable_1$instance<SymbolToken>;
+    As_IEquatable_1(): System_Internal.IEquatable_1$instance<SymbolToken>;
 
     // Structural method bridges for numeric interface constraints
     Equals(other: SymbolToken): boolean;
@@ -199,7 +199,7 @@ export type SymbolToken = SymbolToken$instance & __SymbolToken$views;
 
 export class SymDocumentType$instance {
     constructor();
-    static readonly text: Guid;
+    static readonly Text: Guid;
 }
 
 
@@ -207,17 +207,17 @@ export type SymDocumentType = SymDocumentType$instance;
 
 export class SymLanguageType$instance {
     constructor();
-    static readonly c: Guid;
-    static readonly cPlusPlus: Guid;
-    static readonly cSharp: Guid;
-    static readonly basic: Guid;
-    static readonly java: Guid;
-    static readonly cobol: Guid;
-    static readonly pascal: Guid;
-    static readonly ilAssembly: Guid;
-    static readonly jScript: Guid;
-    static readonly smc: Guid;
-    static readonly mcPlusPlus: Guid;
+    static readonly C: Guid;
+    static readonly CPlusPlus: Guid;
+    static readonly CSharp: Guid;
+    static readonly Basic: Guid;
+    static readonly Java: Guid;
+    static readonly Cobol: Guid;
+    static readonly Pascal: Guid;
+    static readonly ILAssembly: Guid;
+    static readonly JScript: Guid;
+    static readonly SMC: Guid;
+    static readonly MCPlusPlus: Guid;
 }
 
 
@@ -225,7 +225,7 @@ export type SymLanguageType = SymLanguageType$instance;
 
 export class SymLanguageVendor$instance {
     constructor();
-    static readonly microsoft: Guid;
+    static readonly Microsoft: Guid;
 }
 
 

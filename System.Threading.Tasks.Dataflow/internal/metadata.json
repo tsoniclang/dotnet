@@ -29,7 +29,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.DataflowMessageStatus::AcceptedSystem.Threading.Tasks.Dataflow.DataflowMessageStatus",
           "clrName": "Accepted",
-          "tsEmitName": "accepted",
+          "tsEmitName": "Accepted",
           "normalizedSignature": "Accepted|System.Threading.Tasks.Dataflow.DataflowMessageStatus|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -38,7 +38,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.DataflowMessageStatus::DeclinedSystem.Threading.Tasks.Dataflow.DataflowMessageStatus",
           "clrName": "Declined",
-          "tsEmitName": "declined",
+          "tsEmitName": "Declined",
           "normalizedSignature": "Declined|System.Threading.Tasks.Dataflow.DataflowMessageStatus|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -47,7 +47,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.DataflowMessageStatus::PostponedSystem.Threading.Tasks.Dataflow.DataflowMessageStatus",
           "clrName": "Postponed",
-          "tsEmitName": "postponed",
+          "tsEmitName": "Postponed",
           "normalizedSignature": "Postponed|System.Threading.Tasks.Dataflow.DataflowMessageStatus|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -56,7 +56,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.DataflowMessageStatus::NotAvailableSystem.Threading.Tasks.Dataflow.DataflowMessageStatus",
           "clrName": "NotAvailable",
-          "tsEmitName": "notAvailable",
+          "tsEmitName": "NotAvailable",
           "normalizedSignature": "NotAvailable|System.Threading.Tasks.Dataflow.DataflowMessageStatus|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -65,7 +65,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.DataflowMessageStatus::DecliningPermanentlySystem.Threading.Tasks.Dataflow.DataflowMessageStatus",
           "clrName": "DecliningPermanently",
-          "tsEmitName": "decliningPermanently",
+          "tsEmitName": "DecliningPermanently",
           "normalizedSignature": "DecliningPermanently|System.Threading.Tasks.Dataflow.DataflowMessageStatus|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -89,7 +89,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.IDataflowBlock::Complete():System.Void",
           "clrName": "Complete",
-          "tsEmitName": "complete",
+          "tsEmitName": "Complete",
           "normalizedSignature": "Complete|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -105,7 +105,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.IDataflowBlock::Fault(System.Exception):System.Void",
           "clrName": "Fault",
-          "tsEmitName": "fault",
+          "tsEmitName": "Fault",
           "normalizedSignature": "Fault|(System.Exception):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -123,7 +123,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.IDataflowBlock::Completion:System.Threading.Tasks.Task",
           "clrName": "Completion",
-          "tsEmitName": "completion",
+          "tsEmitName": "Completion",
           "normalizedSignature": "Completion|:System.Threading.Tasks.Task|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -154,7 +154,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.ITargetBlock\u00601::OfferMessage(System.Threading.Tasks.Dataflow.DataflowMessageHeader,TInput,ISourceBlock_1,System.Boolean):System.Threading.Tasks.Dataflow.DataflowMessageStatus",
           "clrName": "OfferMessage",
-          "tsEmitName": "offerMessage",
+          "tsEmitName": "OfferMessage",
           "normalizedSignature": "OfferMessage|(System.Threading.Tasks.Dataflow.DataflowMessageHeader,TInput,ISourceBlock_1,System.Boolean):System.Threading.Tasks.Dataflow.DataflowMessageStatus|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -170,7 +170,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.IDataflowBlock::Complete():System.Void",
           "clrName": "Complete",
-          "tsEmitName": "complete",
+          "tsEmitName": "Complete",
           "normalizedSignature": "Complete|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -186,7 +186,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.IDataflowBlock::Fault(System.Exception):System.Void",
           "clrName": "Fault",
-          "tsEmitName": "fault",
+          "tsEmitName": "Fault",
           "normalizedSignature": "Fault|(System.Exception):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -202,7 +202,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.ISourceBlock\u00601::LinkTo(ITargetBlock_1,System.Threading.Tasks.Dataflow.DataflowLinkOptions):System.IDisposable",
           "clrName": "LinkTo",
-          "tsEmitName": "linkTo",
+          "tsEmitName": "LinkTo",
           "normalizedSignature": "LinkTo|(ITargetBlock_1,System.Threading.Tasks.Dataflow.DataflowLinkOptions):System.IDisposable|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -218,7 +218,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.ISourceBlock\u00601::ConsumeMessage(System.Threading.Tasks.Dataflow.DataflowMessageHeader,ITargetBlock_1,System.Boolean\u0026):TOutput",
           "clrName": "ConsumeMessage",
-          "tsEmitName": "consumeMessage",
+          "tsEmitName": "ConsumeMessage",
           "normalizedSignature": "ConsumeMessage|(System.Threading.Tasks.Dataflow.DataflowMessageHeader,ITargetBlock_1,System.Boolean\u0026):TOutput|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -234,7 +234,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.ISourceBlock\u00601::ReserveMessage(System.Threading.Tasks.Dataflow.DataflowMessageHeader,ITargetBlock_1):System.Boolean",
           "clrName": "ReserveMessage",
-          "tsEmitName": "reserveMessage",
+          "tsEmitName": "ReserveMessage",
           "normalizedSignature": "ReserveMessage|(System.Threading.Tasks.Dataflow.DataflowMessageHeader,ITargetBlock_1):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -250,7 +250,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.ISourceBlock\u00601::ReleaseReservation(System.Threading.Tasks.Dataflow.DataflowMessageHeader,ITargetBlock_1):System.Void",
           "clrName": "ReleaseReservation",
-          "tsEmitName": "releaseReservation",
+          "tsEmitName": "ReleaseReservation",
           "normalizedSignature": "ReleaseReservation|(System.Threading.Tasks.Dataflow.DataflowMessageHeader,ITargetBlock_1):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -268,7 +268,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.IDataflowBlock::Completion:System.Threading.Tasks.Task",
           "clrName": "Completion",
-          "tsEmitName": "completion",
+          "tsEmitName": "Completion",
           "normalizedSignature": "Completion|:System.Threading.Tasks.Task|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -299,7 +299,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.IReceivableSourceBlock\u00601::TryReceive(Predicate_1,TOutput\u0026):System.Boolean",
           "clrName": "TryReceive",
-          "tsEmitName": "tryReceive",
+          "tsEmitName": "TryReceive",
           "normalizedSignature": "TryReceive|(Predicate_1,TOutput\u0026):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -315,7 +315,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.IReceivableSourceBlock\u00601::TryReceiveAll(IList_1\u0026):System.Boolean",
           "clrName": "TryReceiveAll",
-          "tsEmitName": "tryReceiveAll",
+          "tsEmitName": "TryReceiveAll",
           "normalizedSignature": "TryReceiveAll|(IList_1\u0026):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -331,7 +331,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.ISourceBlock\u00601::LinkTo(ITargetBlock_1,System.Threading.Tasks.Dataflow.DataflowLinkOptions):System.IDisposable",
           "clrName": "LinkTo",
-          "tsEmitName": "linkTo",
+          "tsEmitName": "LinkTo",
           "normalizedSignature": "LinkTo|(ITargetBlock_1,System.Threading.Tasks.Dataflow.DataflowLinkOptions):System.IDisposable|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -347,7 +347,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.ISourceBlock\u00601::ConsumeMessage(System.Threading.Tasks.Dataflow.DataflowMessageHeader,ITargetBlock_1,System.Boolean\u0026):TOutput",
           "clrName": "ConsumeMessage",
-          "tsEmitName": "consumeMessage",
+          "tsEmitName": "ConsumeMessage",
           "normalizedSignature": "ConsumeMessage|(System.Threading.Tasks.Dataflow.DataflowMessageHeader,ITargetBlock_1,System.Boolean\u0026):TOutput|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -363,7 +363,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.ISourceBlock\u00601::ReserveMessage(System.Threading.Tasks.Dataflow.DataflowMessageHeader,ITargetBlock_1):System.Boolean",
           "clrName": "ReserveMessage",
-          "tsEmitName": "reserveMessage",
+          "tsEmitName": "ReserveMessage",
           "normalizedSignature": "ReserveMessage|(System.Threading.Tasks.Dataflow.DataflowMessageHeader,ITargetBlock_1):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -379,7 +379,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.ISourceBlock\u00601::ReleaseReservation(System.Threading.Tasks.Dataflow.DataflowMessageHeader,ITargetBlock_1):System.Void",
           "clrName": "ReleaseReservation",
-          "tsEmitName": "releaseReservation",
+          "tsEmitName": "ReleaseReservation",
           "normalizedSignature": "ReleaseReservation|(System.Threading.Tasks.Dataflow.DataflowMessageHeader,ITargetBlock_1):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -395,7 +395,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.IDataflowBlock::Complete():System.Void",
           "clrName": "Complete",
-          "tsEmitName": "complete",
+          "tsEmitName": "Complete",
           "normalizedSignature": "Complete|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -411,7 +411,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.IDataflowBlock::Fault(System.Exception):System.Void",
           "clrName": "Fault",
-          "tsEmitName": "fault",
+          "tsEmitName": "Fault",
           "normalizedSignature": "Fault|(System.Exception):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -429,7 +429,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.IDataflowBlock::Completion:System.Threading.Tasks.Task",
           "clrName": "Completion",
-          "tsEmitName": "completion",
+          "tsEmitName": "Completion",
           "normalizedSignature": "Completion|:System.Threading.Tasks.Task|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -460,7 +460,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.ISourceBlock\u00601::LinkTo(ITargetBlock_1,System.Threading.Tasks.Dataflow.DataflowLinkOptions):System.IDisposable",
           "clrName": "LinkTo",
-          "tsEmitName": "linkTo",
+          "tsEmitName": "LinkTo",
           "normalizedSignature": "LinkTo|(ITargetBlock_1,System.Threading.Tasks.Dataflow.DataflowLinkOptions):System.IDisposable|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -476,7 +476,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.ISourceBlock\u00601::ConsumeMessage(System.Threading.Tasks.Dataflow.DataflowMessageHeader,ITargetBlock_1,System.Boolean\u0026):TOutput",
           "clrName": "ConsumeMessage",
-          "tsEmitName": "consumeMessage",
+          "tsEmitName": "ConsumeMessage",
           "normalizedSignature": "ConsumeMessage|(System.Threading.Tasks.Dataflow.DataflowMessageHeader,ITargetBlock_1,System.Boolean\u0026):TOutput|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -492,7 +492,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.ISourceBlock\u00601::ReserveMessage(System.Threading.Tasks.Dataflow.DataflowMessageHeader,ITargetBlock_1):System.Boolean",
           "clrName": "ReserveMessage",
-          "tsEmitName": "reserveMessage",
+          "tsEmitName": "ReserveMessage",
           "normalizedSignature": "ReserveMessage|(System.Threading.Tasks.Dataflow.DataflowMessageHeader,ITargetBlock_1):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -508,7 +508,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.ISourceBlock\u00601::ReleaseReservation(System.Threading.Tasks.Dataflow.DataflowMessageHeader,ITargetBlock_1):System.Void",
           "clrName": "ReleaseReservation",
-          "tsEmitName": "releaseReservation",
+          "tsEmitName": "ReleaseReservation",
           "normalizedSignature": "ReleaseReservation|(System.Threading.Tasks.Dataflow.DataflowMessageHeader,ITargetBlock_1):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -524,7 +524,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.IDataflowBlock::Complete():System.Void",
           "clrName": "Complete",
-          "tsEmitName": "complete",
+          "tsEmitName": "Complete",
           "normalizedSignature": "Complete|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -540,7 +540,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.IDataflowBlock::Fault(System.Exception):System.Void",
           "clrName": "Fault",
-          "tsEmitName": "fault",
+          "tsEmitName": "Fault",
           "normalizedSignature": "Fault|(System.Exception):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -558,7 +558,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.IDataflowBlock::Completion:System.Threading.Tasks.Task",
           "clrName": "Completion",
-          "tsEmitName": "completion",
+          "tsEmitName": "Completion",
           "normalizedSignature": "Completion|:System.Threading.Tasks.Task|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -589,7 +589,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.ITargetBlock\u00601::OfferMessage(System.Threading.Tasks.Dataflow.DataflowMessageHeader,TInput,ISourceBlock_1,System.Boolean):System.Threading.Tasks.Dataflow.DataflowMessageStatus",
           "clrName": "OfferMessage",
-          "tsEmitName": "offerMessage",
+          "tsEmitName": "OfferMessage",
           "normalizedSignature": "OfferMessage|(System.Threading.Tasks.Dataflow.DataflowMessageHeader,TInput,ISourceBlock_1,System.Boolean):System.Threading.Tasks.Dataflow.DataflowMessageStatus|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -605,7 +605,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.IDataflowBlock::Complete():System.Void",
           "clrName": "Complete",
-          "tsEmitName": "complete",
+          "tsEmitName": "Complete",
           "normalizedSignature": "Complete|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -621,7 +621,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.IDataflowBlock::Fault(System.Exception):System.Void",
           "clrName": "Fault",
-          "tsEmitName": "fault",
+          "tsEmitName": "Fault",
           "normalizedSignature": "Fault|(System.Exception):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -639,7 +639,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.IDataflowBlock::Completion:System.Threading.Tasks.Task",
           "clrName": "Completion",
-          "tsEmitName": "completion",
+          "tsEmitName": "Completion",
           "normalizedSignature": "Completion|:System.Threading.Tasks.Task|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -670,7 +670,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.DataflowMessageHeader::Equals(System.Threading.Tasks.Dataflow.DataflowMessageHeader):System.Boolean",
           "clrName": "Equals",
-          "tsEmitName": "equals",
+          "tsEmitName": "Equals",
           "normalizedSignature": "Equals|(System.Threading.Tasks.Dataflow.DataflowMessageHeader):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -686,7 +686,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.DataflowMessageHeader::Equals(System.Object):System.Boolean",
           "clrName": "Equals",
-          "tsEmitName": "equals2",
+          "tsEmitName": "Equals2",
           "normalizedSignature": "Equals|(System.Object):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -702,7 +702,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.DataflowMessageHeader::GetHashCode():System.Int32",
           "clrName": "GetHashCode",
-          "tsEmitName": "getHashCode",
+          "tsEmitName": "GetHashCode",
           "normalizedSignature": "GetHashCode|():System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -718,7 +718,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IEquatable\u00601::Equals(T):System.Boolean",
           "clrName": "Equals",
-          "tsEmitName": "equals$view",
+          "tsEmitName": "Equals$view",
           "normalizedSignature": "Equals|(T):System.Boolean|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -737,7 +737,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.DataflowMessageHeader::IsValid:System.Boolean",
           "clrName": "IsValid",
-          "tsEmitName": "isValid",
+          "tsEmitName": "IsValid",
           "normalizedSignature": "IsValid|:System.Boolean|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -752,7 +752,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.DataflowMessageHeader::Id:System.Int64",
           "clrName": "Id",
-          "tsEmitName": "id",
+          "tsEmitName": "Id",
           "normalizedSignature": "Id|:System.Int64|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -773,6 +773,13 @@
           "isStatic": false,
           "parameterCount": 1
         }
+      ],
+      "unsatisfiableInterfaces": [
+        {
+          "interfaceClrName": "System.IEquatable\u00601",
+          "reason": "ExplicitImplementationMovedToView",
+          "issueCount": 1
+        }
       ]
     },
     {
@@ -789,7 +796,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.ActionBlock\u00601::Complete():System.Void",
           "clrName": "Complete",
-          "tsEmitName": "complete",
+          "tsEmitName": "Complete",
           "normalizedSignature": "Complete|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -805,7 +812,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.ActionBlock\u00601::Post(TInput):System.Boolean",
           "clrName": "Post",
-          "tsEmitName": "post",
+          "tsEmitName": "Post",
           "normalizedSignature": "Post|(TInput):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -821,7 +828,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.ActionBlock\u00601::ToString():System.String",
           "clrName": "ToString",
-          "tsEmitName": "toString",
+          "tsEmitName": "ToString",
           "normalizedSignature": "ToString|():System.String|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -837,7 +844,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.ITargetBlock\u00601::OfferMessage(System.Threading.Tasks.Dataflow.DataflowMessageHeader,TInput,ISourceBlock_1,System.Boolean):System.Threading.Tasks.Dataflow.DataflowMessageStatus",
           "clrName": "OfferMessage",
-          "tsEmitName": "offerMessage",
+          "tsEmitName": "OfferMessage",
           "normalizedSignature": "OfferMessage|(System.Threading.Tasks.Dataflow.DataflowMessageHeader,TInput,ISourceBlock_1,System.Boolean):System.Threading.Tasks.Dataflow.DataflowMessageStatus|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -854,7 +861,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.IDataflowBlock::Fault(System.Exception):System.Void",
           "clrName": "Fault",
-          "tsEmitName": "fault",
+          "tsEmitName": "Fault",
           "normalizedSignature": "Fault|(System.Exception):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -871,7 +878,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.IDataflowBlock::Complete():System.Void",
           "clrName": "Complete",
-          "tsEmitName": "complete$view",
+          "tsEmitName": "Complete$view",
           "normalizedSignature": "Complete|():System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -890,7 +897,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.ActionBlock\u00601::Completion:System.Threading.Tasks.Task",
           "clrName": "Completion",
-          "tsEmitName": "completion",
+          "tsEmitName": "Completion",
           "normalizedSignature": "Completion|:System.Threading.Tasks.Task|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -905,7 +912,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.ActionBlock\u00601::InputCount:System.Int32",
           "clrName": "InputCount",
-          "tsEmitName": "inputCount",
+          "tsEmitName": "InputCount",
           "normalizedSignature": "InputCount|:System.Int32|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -920,7 +927,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.IDataflowBlock::Completion:System.Threading.Tasks.Task",
           "clrName": "Completion",
-          "tsEmitName": "completion$view",
+          "tsEmitName": "Completion$view",
           "normalizedSignature": "Completion|:System.Threading.Tasks.Task|static=false|accessor=get",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -957,6 +964,18 @@
           "isStatic": false,
           "parameterCount": 2
         }
+      ],
+      "unsatisfiableInterfaces": [
+        {
+          "interfaceClrName": "System.Threading.Tasks.Dataflow.ITargetBlock\u00601",
+          "reason": "ExplicitImplementationMovedToView",
+          "issueCount": 1
+        },
+        {
+          "interfaceClrName": "System.Threading.Tasks.Dataflow.IDataflowBlock",
+          "reason": "ExplicitImplementationMovedToView",
+          "issueCount": 1
+        }
       ]
     },
     {
@@ -973,7 +992,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.BatchBlock\u00601::Complete():System.Void",
           "clrName": "Complete",
-          "tsEmitName": "complete",
+          "tsEmitName": "Complete",
           "normalizedSignature": "Complete|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -989,7 +1008,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.BatchBlock\u00601::TriggerBatch():System.Void",
           "clrName": "TriggerBatch",
-          "tsEmitName": "triggerBatch",
+          "tsEmitName": "TriggerBatch",
           "normalizedSignature": "TriggerBatch|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1005,7 +1024,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.BatchBlock\u00601::LinkTo(ITargetBlock_1,System.Threading.Tasks.Dataflow.DataflowLinkOptions):System.IDisposable",
           "clrName": "LinkTo",
-          "tsEmitName": "linkTo",
+          "tsEmitName": "LinkTo",
           "normalizedSignature": "LinkTo|(ITargetBlock_1,System.Threading.Tasks.Dataflow.DataflowLinkOptions):System.IDisposable|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1021,7 +1040,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.BatchBlock\u00601::TryReceive(Predicate_1,T[]\u0026):System.Boolean",
           "clrName": "TryReceive",
-          "tsEmitName": "tryReceive",
+          "tsEmitName": "TryReceive",
           "normalizedSignature": "TryReceive|(Predicate_1,T[]\u0026):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1037,7 +1056,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.BatchBlock\u00601::TryReceiveAll(IList_1\u0026):System.Boolean",
           "clrName": "TryReceiveAll",
-          "tsEmitName": "tryReceiveAll",
+          "tsEmitName": "TryReceiveAll",
           "normalizedSignature": "TryReceiveAll|(IList_1\u0026):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1053,7 +1072,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.BatchBlock\u00601::ToString():System.String",
           "clrName": "ToString",
-          "tsEmitName": "toString",
+          "tsEmitName": "ToString",
           "normalizedSignature": "ToString|():System.String|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1069,7 +1088,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.ITargetBlock\u00601::OfferMessage(System.Threading.Tasks.Dataflow.DataflowMessageHeader,TInput,ISourceBlock_1,System.Boolean):System.Threading.Tasks.Dataflow.DataflowMessageStatus",
           "clrName": "OfferMessage",
-          "tsEmitName": "offerMessage",
+          "tsEmitName": "OfferMessage",
           "normalizedSignature": "OfferMessage|(System.Threading.Tasks.Dataflow.DataflowMessageHeader,TInput,ISourceBlock_1,System.Boolean):System.Threading.Tasks.Dataflow.DataflowMessageStatus|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -1086,7 +1105,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.IDataflowBlock::Fault(System.Exception):System.Void",
           "clrName": "Fault",
-          "tsEmitName": "fault",
+          "tsEmitName": "Fault",
           "normalizedSignature": "Fault|(System.Exception):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -1103,7 +1122,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.ISourceBlock\u00601::LinkTo(ITargetBlock_1,System.Threading.Tasks.Dataflow.DataflowLinkOptions):System.IDisposable",
           "clrName": "LinkTo",
-          "tsEmitName": "linkTo$view",
+          "tsEmitName": "LinkTo$view",
           "normalizedSignature": "LinkTo|(ITargetBlock_1,System.Threading.Tasks.Dataflow.DataflowLinkOptions):System.IDisposable|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -1120,7 +1139,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.ISourceBlock\u00601::ConsumeMessage(System.Threading.Tasks.Dataflow.DataflowMessageHeader,ITargetBlock_1,System.Boolean\u0026):TOutput",
           "clrName": "ConsumeMessage",
-          "tsEmitName": "consumeMessage",
+          "tsEmitName": "ConsumeMessage",
           "normalizedSignature": "ConsumeMessage|(System.Threading.Tasks.Dataflow.DataflowMessageHeader,ITargetBlock_1,System.Boolean\u0026):TOutput|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -1137,7 +1156,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.ISourceBlock\u00601::ReserveMessage(System.Threading.Tasks.Dataflow.DataflowMessageHeader,ITargetBlock_1):System.Boolean",
           "clrName": "ReserveMessage",
-          "tsEmitName": "reserveMessage",
+          "tsEmitName": "ReserveMessage",
           "normalizedSignature": "ReserveMessage|(System.Threading.Tasks.Dataflow.DataflowMessageHeader,ITargetBlock_1):System.Boolean|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -1154,7 +1173,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.ISourceBlock\u00601::ReleaseReservation(System.Threading.Tasks.Dataflow.DataflowMessageHeader,ITargetBlock_1):System.Void",
           "clrName": "ReleaseReservation",
-          "tsEmitName": "releaseReservation",
+          "tsEmitName": "ReleaseReservation",
           "normalizedSignature": "ReleaseReservation|(System.Threading.Tasks.Dataflow.DataflowMessageHeader,ITargetBlock_1):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -1171,7 +1190,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.IReceivableSourceBlock\u00601::TryReceive(Predicate_1,TOutput\u0026):System.Boolean",
           "clrName": "TryReceive",
-          "tsEmitName": "tryReceive$view",
+          "tsEmitName": "TryReceive$view",
           "normalizedSignature": "TryReceive|(Predicate_1,TOutput\u0026):System.Boolean|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -1188,7 +1207,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.IReceivableSourceBlock\u00601::TryReceiveAll(IList_1\u0026):System.Boolean",
           "clrName": "TryReceiveAll",
-          "tsEmitName": "tryReceiveAll$view",
+          "tsEmitName": "TryReceiveAll$view",
           "normalizedSignature": "TryReceiveAll|(IList_1\u0026):System.Boolean|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -1205,7 +1224,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.IDataflowBlock::Complete():System.Void",
           "clrName": "Complete",
-          "tsEmitName": "complete$view",
+          "tsEmitName": "Complete$view",
           "normalizedSignature": "Complete|():System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -1224,7 +1243,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.BatchBlock\u00601::OutputCount:System.Int32",
           "clrName": "OutputCount",
-          "tsEmitName": "outputCount",
+          "tsEmitName": "OutputCount",
           "normalizedSignature": "OutputCount|:System.Int32|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1239,7 +1258,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.BatchBlock\u00601::Completion:System.Threading.Tasks.Task",
           "clrName": "Completion",
-          "tsEmitName": "completion",
+          "tsEmitName": "Completion",
           "normalizedSignature": "Completion|:System.Threading.Tasks.Task|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1254,7 +1273,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.BatchBlock\u00601::BatchSize:System.Int32",
           "clrName": "BatchSize",
-          "tsEmitName": "batchSize",
+          "tsEmitName": "BatchSize",
           "normalizedSignature": "BatchSize|:System.Int32|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1269,7 +1288,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.IDataflowBlock::Completion:System.Threading.Tasks.Task",
           "clrName": "Completion",
-          "tsEmitName": "completion$view",
+          "tsEmitName": "Completion$view",
           "normalizedSignature": "Completion|:System.Threading.Tasks.Task|static=false|accessor=get",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -1302,6 +1321,26 @@
           "interfaceClrName": "System.Threading.Tasks.Dataflow.IPropagatorBlock\u00602",
           "reason": "MissingOrIncompatibleMembers",
           "issueCount": 6
+        },
+        {
+          "interfaceClrName": "System.Threading.Tasks.Dataflow.ITargetBlock\u00601",
+          "reason": "ExplicitImplementationMovedToView",
+          "issueCount": 1
+        },
+        {
+          "interfaceClrName": "System.Threading.Tasks.Dataflow.IDataflowBlock",
+          "reason": "ExplicitImplementationMovedToView",
+          "issueCount": 1
+        },
+        {
+          "interfaceClrName": "System.Threading.Tasks.Dataflow.ISourceBlock\u00601",
+          "reason": "ExplicitImplementationMovedToView",
+          "issueCount": 1
+        },
+        {
+          "interfaceClrName": "System.Threading.Tasks.Dataflow.IReceivableSourceBlock\u00601",
+          "reason": "ExplicitImplementationMovedToView",
+          "issueCount": 1
         }
       ]
     },
@@ -1319,7 +1358,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.BatchedJoinBlock\u00602::LinkTo(ITargetBlock_1,System.Threading.Tasks.Dataflow.DataflowLinkOptions):System.IDisposable",
           "clrName": "LinkTo",
-          "tsEmitName": "linkTo",
+          "tsEmitName": "LinkTo",
           "normalizedSignature": "LinkTo|(ITargetBlock_1,System.Threading.Tasks.Dataflow.DataflowLinkOptions):System.IDisposable|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1335,7 +1374,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.BatchedJoinBlock\u00602::TryReceive(Predicate_1,Tuple_2\u0026):System.Boolean",
           "clrName": "TryReceive",
-          "tsEmitName": "tryReceive",
+          "tsEmitName": "TryReceive",
           "normalizedSignature": "TryReceive|(Predicate_1,Tuple_2\u0026):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1351,7 +1390,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.BatchedJoinBlock\u00602::TryReceiveAll(IList_1\u0026):System.Boolean",
           "clrName": "TryReceiveAll",
-          "tsEmitName": "tryReceiveAll",
+          "tsEmitName": "TryReceiveAll",
           "normalizedSignature": "TryReceiveAll|(IList_1\u0026):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1367,7 +1406,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.BatchedJoinBlock\u00602::Complete():System.Void",
           "clrName": "Complete",
-          "tsEmitName": "complete",
+          "tsEmitName": "Complete",
           "normalizedSignature": "Complete|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1383,7 +1422,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.BatchedJoinBlock\u00602::ToString():System.String",
           "clrName": "ToString",
-          "tsEmitName": "toString",
+          "tsEmitName": "ToString",
           "normalizedSignature": "ToString|():System.String|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1399,7 +1438,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.IReceivableSourceBlock\u00601::TryReceive(Predicate_1,TOutput\u0026):System.Boolean",
           "clrName": "TryReceive",
-          "tsEmitName": "tryReceive$view",
+          "tsEmitName": "TryReceive$view",
           "normalizedSignature": "TryReceive|(Predicate_1,TOutput\u0026):System.Boolean|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -1416,7 +1455,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.IReceivableSourceBlock\u00601::TryReceiveAll(IList_1\u0026):System.Boolean",
           "clrName": "TryReceiveAll",
-          "tsEmitName": "tryReceiveAll$view",
+          "tsEmitName": "TryReceiveAll$view",
           "normalizedSignature": "TryReceiveAll|(IList_1\u0026):System.Boolean|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -1433,7 +1472,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.ISourceBlock\u00601::LinkTo(ITargetBlock_1,System.Threading.Tasks.Dataflow.DataflowLinkOptions):System.IDisposable",
           "clrName": "LinkTo",
-          "tsEmitName": "linkTo$view",
+          "tsEmitName": "LinkTo$view",
           "normalizedSignature": "LinkTo|(ITargetBlock_1,System.Threading.Tasks.Dataflow.DataflowLinkOptions):System.IDisposable|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -1450,7 +1489,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.ISourceBlock\u00601::ConsumeMessage(System.Threading.Tasks.Dataflow.DataflowMessageHeader,ITargetBlock_1,System.Boolean\u0026):TOutput",
           "clrName": "ConsumeMessage",
-          "tsEmitName": "consumeMessage",
+          "tsEmitName": "ConsumeMessage",
           "normalizedSignature": "ConsumeMessage|(System.Threading.Tasks.Dataflow.DataflowMessageHeader,ITargetBlock_1,System.Boolean\u0026):TOutput|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -1467,7 +1506,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.ISourceBlock\u00601::ReserveMessage(System.Threading.Tasks.Dataflow.DataflowMessageHeader,ITargetBlock_1):System.Boolean",
           "clrName": "ReserveMessage",
-          "tsEmitName": "reserveMessage",
+          "tsEmitName": "ReserveMessage",
           "normalizedSignature": "ReserveMessage|(System.Threading.Tasks.Dataflow.DataflowMessageHeader,ITargetBlock_1):System.Boolean|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -1484,7 +1523,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.ISourceBlock\u00601::ReleaseReservation(System.Threading.Tasks.Dataflow.DataflowMessageHeader,ITargetBlock_1):System.Void",
           "clrName": "ReleaseReservation",
-          "tsEmitName": "releaseReservation",
+          "tsEmitName": "ReleaseReservation",
           "normalizedSignature": "ReleaseReservation|(System.Threading.Tasks.Dataflow.DataflowMessageHeader,ITargetBlock_1):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -1501,7 +1540,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.IDataflowBlock::Fault(System.Exception):System.Void",
           "clrName": "Fault",
-          "tsEmitName": "fault",
+          "tsEmitName": "Fault",
           "normalizedSignature": "Fault|(System.Exception):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -1518,7 +1557,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.IDataflowBlock::Complete():System.Void",
           "clrName": "Complete",
-          "tsEmitName": "complete$view",
+          "tsEmitName": "Complete$view",
           "normalizedSignature": "Complete|():System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -1537,7 +1576,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.BatchedJoinBlock\u00602::BatchSize:System.Int32",
           "clrName": "BatchSize",
-          "tsEmitName": "batchSize",
+          "tsEmitName": "BatchSize",
           "normalizedSignature": "BatchSize|:System.Int32|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1552,7 +1591,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.BatchedJoinBlock\u00602::Target1:ITargetBlock_1",
           "clrName": "Target1",
-          "tsEmitName": "target1",
+          "tsEmitName": "Target1",
           "normalizedSignature": "Target1|:ITargetBlock_1|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1567,7 +1606,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.BatchedJoinBlock\u00602::Target2:ITargetBlock_1",
           "clrName": "Target2",
-          "tsEmitName": "target2",
+          "tsEmitName": "Target2",
           "normalizedSignature": "Target2|:ITargetBlock_1|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1582,7 +1621,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.BatchedJoinBlock\u00602::OutputCount:System.Int32",
           "clrName": "OutputCount",
-          "tsEmitName": "outputCount",
+          "tsEmitName": "OutputCount",
           "normalizedSignature": "OutputCount|:System.Int32|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1597,7 +1636,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.BatchedJoinBlock\u00602::Completion:System.Threading.Tasks.Task",
           "clrName": "Completion",
-          "tsEmitName": "completion",
+          "tsEmitName": "Completion",
           "normalizedSignature": "Completion|:System.Threading.Tasks.Task|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1612,7 +1651,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.IDataflowBlock::Completion:System.Threading.Tasks.Task",
           "clrName": "Completion",
-          "tsEmitName": "completion$view",
+          "tsEmitName": "Completion$view",
           "normalizedSignature": "Completion|:System.Threading.Tasks.Task|static=false|accessor=get",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -1639,6 +1678,23 @@
           "isStatic": false,
           "parameterCount": 2
         }
+      ],
+      "unsatisfiableInterfaces": [
+        {
+          "interfaceClrName": "System.Threading.Tasks.Dataflow.IReceivableSourceBlock\u00601",
+          "reason": "ExplicitImplementationMovedToView",
+          "issueCount": 1
+        },
+        {
+          "interfaceClrName": "System.Threading.Tasks.Dataflow.ISourceBlock\u00601",
+          "reason": "ExplicitImplementationMovedToView",
+          "issueCount": 1
+        },
+        {
+          "interfaceClrName": "System.Threading.Tasks.Dataflow.IDataflowBlock",
+          "reason": "ExplicitImplementationMovedToView",
+          "issueCount": 1
+        }
       ]
     },
     {
@@ -1655,7 +1711,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.BatchedJoinBlock\u00603::LinkTo(ITargetBlock_1,System.Threading.Tasks.Dataflow.DataflowLinkOptions):System.IDisposable",
           "clrName": "LinkTo",
-          "tsEmitName": "linkTo",
+          "tsEmitName": "LinkTo",
           "normalizedSignature": "LinkTo|(ITargetBlock_1,System.Threading.Tasks.Dataflow.DataflowLinkOptions):System.IDisposable|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1671,7 +1727,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.BatchedJoinBlock\u00603::TryReceive(Predicate_1,Tuple_3\u0026):System.Boolean",
           "clrName": "TryReceive",
-          "tsEmitName": "tryReceive",
+          "tsEmitName": "TryReceive",
           "normalizedSignature": "TryReceive|(Predicate_1,Tuple_3\u0026):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1687,7 +1743,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.BatchedJoinBlock\u00603::TryReceiveAll(IList_1\u0026):System.Boolean",
           "clrName": "TryReceiveAll",
-          "tsEmitName": "tryReceiveAll",
+          "tsEmitName": "TryReceiveAll",
           "normalizedSignature": "TryReceiveAll|(IList_1\u0026):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1703,7 +1759,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.BatchedJoinBlock\u00603::Complete():System.Void",
           "clrName": "Complete",
-          "tsEmitName": "complete",
+          "tsEmitName": "Complete",
           "normalizedSignature": "Complete|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1719,7 +1775,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.BatchedJoinBlock\u00603::ToString():System.String",
           "clrName": "ToString",
-          "tsEmitName": "toString",
+          "tsEmitName": "ToString",
           "normalizedSignature": "ToString|():System.String|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1735,7 +1791,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.IReceivableSourceBlock\u00601::TryReceive(Predicate_1,TOutput\u0026):System.Boolean",
           "clrName": "TryReceive",
-          "tsEmitName": "tryReceive$view",
+          "tsEmitName": "TryReceive$view",
           "normalizedSignature": "TryReceive|(Predicate_1,TOutput\u0026):System.Boolean|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -1752,7 +1808,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.IReceivableSourceBlock\u00601::TryReceiveAll(IList_1\u0026):System.Boolean",
           "clrName": "TryReceiveAll",
-          "tsEmitName": "tryReceiveAll$view",
+          "tsEmitName": "TryReceiveAll$view",
           "normalizedSignature": "TryReceiveAll|(IList_1\u0026):System.Boolean|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -1769,7 +1825,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.ISourceBlock\u00601::LinkTo(ITargetBlock_1,System.Threading.Tasks.Dataflow.DataflowLinkOptions):System.IDisposable",
           "clrName": "LinkTo",
-          "tsEmitName": "linkTo$view",
+          "tsEmitName": "LinkTo$view",
           "normalizedSignature": "LinkTo|(ITargetBlock_1,System.Threading.Tasks.Dataflow.DataflowLinkOptions):System.IDisposable|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -1786,7 +1842,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.ISourceBlock\u00601::ConsumeMessage(System.Threading.Tasks.Dataflow.DataflowMessageHeader,ITargetBlock_1,System.Boolean\u0026):TOutput",
           "clrName": "ConsumeMessage",
-          "tsEmitName": "consumeMessage",
+          "tsEmitName": "ConsumeMessage",
           "normalizedSignature": "ConsumeMessage|(System.Threading.Tasks.Dataflow.DataflowMessageHeader,ITargetBlock_1,System.Boolean\u0026):TOutput|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -1803,7 +1859,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.ISourceBlock\u00601::ReserveMessage(System.Threading.Tasks.Dataflow.DataflowMessageHeader,ITargetBlock_1):System.Boolean",
           "clrName": "ReserveMessage",
-          "tsEmitName": "reserveMessage",
+          "tsEmitName": "ReserveMessage",
           "normalizedSignature": "ReserveMessage|(System.Threading.Tasks.Dataflow.DataflowMessageHeader,ITargetBlock_1):System.Boolean|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -1820,7 +1876,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.ISourceBlock\u00601::ReleaseReservation(System.Threading.Tasks.Dataflow.DataflowMessageHeader,ITargetBlock_1):System.Void",
           "clrName": "ReleaseReservation",
-          "tsEmitName": "releaseReservation",
+          "tsEmitName": "ReleaseReservation",
           "normalizedSignature": "ReleaseReservation|(System.Threading.Tasks.Dataflow.DataflowMessageHeader,ITargetBlock_1):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -1837,7 +1893,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.IDataflowBlock::Fault(System.Exception):System.Void",
           "clrName": "Fault",
-          "tsEmitName": "fault",
+          "tsEmitName": "Fault",
           "normalizedSignature": "Fault|(System.Exception):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -1854,7 +1910,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.IDataflowBlock::Complete():System.Void",
           "clrName": "Complete",
-          "tsEmitName": "complete$view",
+          "tsEmitName": "Complete$view",
           "normalizedSignature": "Complete|():System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -1873,7 +1929,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.BatchedJoinBlock\u00603::BatchSize:System.Int32",
           "clrName": "BatchSize",
-          "tsEmitName": "batchSize",
+          "tsEmitName": "BatchSize",
           "normalizedSignature": "BatchSize|:System.Int32|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1888,7 +1944,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.BatchedJoinBlock\u00603::Target1:ITargetBlock_1",
           "clrName": "Target1",
-          "tsEmitName": "target1",
+          "tsEmitName": "Target1",
           "normalizedSignature": "Target1|:ITargetBlock_1|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1903,7 +1959,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.BatchedJoinBlock\u00603::Target2:ITargetBlock_1",
           "clrName": "Target2",
-          "tsEmitName": "target2",
+          "tsEmitName": "Target2",
           "normalizedSignature": "Target2|:ITargetBlock_1|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1918,7 +1974,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.BatchedJoinBlock\u00603::Target3:ITargetBlock_1",
           "clrName": "Target3",
-          "tsEmitName": "target3",
+          "tsEmitName": "Target3",
           "normalizedSignature": "Target3|:ITargetBlock_1|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1933,7 +1989,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.BatchedJoinBlock\u00603::OutputCount:System.Int32",
           "clrName": "OutputCount",
-          "tsEmitName": "outputCount",
+          "tsEmitName": "OutputCount",
           "normalizedSignature": "OutputCount|:System.Int32|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1948,7 +2004,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.BatchedJoinBlock\u00603::Completion:System.Threading.Tasks.Task",
           "clrName": "Completion",
-          "tsEmitName": "completion",
+          "tsEmitName": "Completion",
           "normalizedSignature": "Completion|:System.Threading.Tasks.Task|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1963,7 +2019,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.IDataflowBlock::Completion:System.Threading.Tasks.Task",
           "clrName": "Completion",
-          "tsEmitName": "completion$view",
+          "tsEmitName": "Completion$view",
           "normalizedSignature": "Completion|:System.Threading.Tasks.Task|static=false|accessor=get",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -1990,6 +2046,23 @@
           "isStatic": false,
           "parameterCount": 2
         }
+      ],
+      "unsatisfiableInterfaces": [
+        {
+          "interfaceClrName": "System.Threading.Tasks.Dataflow.IReceivableSourceBlock\u00601",
+          "reason": "ExplicitImplementationMovedToView",
+          "issueCount": 1
+        },
+        {
+          "interfaceClrName": "System.Threading.Tasks.Dataflow.ISourceBlock\u00601",
+          "reason": "ExplicitImplementationMovedToView",
+          "issueCount": 1
+        },
+        {
+          "interfaceClrName": "System.Threading.Tasks.Dataflow.IDataflowBlock",
+          "reason": "ExplicitImplementationMovedToView",
+          "issueCount": 1
+        }
       ]
     },
     {
@@ -2006,7 +2079,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.BroadcastBlock\u00601::Complete():System.Void",
           "clrName": "Complete",
-          "tsEmitName": "complete",
+          "tsEmitName": "Complete",
           "normalizedSignature": "Complete|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2022,7 +2095,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.BroadcastBlock\u00601::LinkTo(ITargetBlock_1,System.Threading.Tasks.Dataflow.DataflowLinkOptions):System.IDisposable",
           "clrName": "LinkTo",
-          "tsEmitName": "linkTo",
+          "tsEmitName": "LinkTo",
           "normalizedSignature": "LinkTo|(ITargetBlock_1,System.Threading.Tasks.Dataflow.DataflowLinkOptions):System.IDisposable|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2038,7 +2111,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.BroadcastBlock\u00601::TryReceive(Predicate_1,T\u0026):System.Boolean",
           "clrName": "TryReceive",
-          "tsEmitName": "tryReceive",
+          "tsEmitName": "TryReceive",
           "normalizedSignature": "TryReceive|(Predicate_1,T\u0026):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2054,7 +2127,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.BroadcastBlock\u00601::ToString():System.String",
           "clrName": "ToString",
-          "tsEmitName": "toString",
+          "tsEmitName": "ToString",
           "normalizedSignature": "ToString|():System.String|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2070,7 +2143,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.ITargetBlock\u00601::OfferMessage(System.Threading.Tasks.Dataflow.DataflowMessageHeader,TInput,ISourceBlock_1,System.Boolean):System.Threading.Tasks.Dataflow.DataflowMessageStatus",
           "clrName": "OfferMessage",
-          "tsEmitName": "offerMessage",
+          "tsEmitName": "OfferMessage",
           "normalizedSignature": "OfferMessage|(System.Threading.Tasks.Dataflow.DataflowMessageHeader,TInput,ISourceBlock_1,System.Boolean):System.Threading.Tasks.Dataflow.DataflowMessageStatus|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -2087,7 +2160,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.IDataflowBlock::Fault(System.Exception):System.Void",
           "clrName": "Fault",
-          "tsEmitName": "fault",
+          "tsEmitName": "Fault",
           "normalizedSignature": "Fault|(System.Exception):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -2104,7 +2177,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.ISourceBlock\u00601::LinkTo(ITargetBlock_1,System.Threading.Tasks.Dataflow.DataflowLinkOptions):System.IDisposable",
           "clrName": "LinkTo",
-          "tsEmitName": "linkTo$view",
+          "tsEmitName": "LinkTo$view",
           "normalizedSignature": "LinkTo|(ITargetBlock_1,System.Threading.Tasks.Dataflow.DataflowLinkOptions):System.IDisposable|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -2121,7 +2194,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.ISourceBlock\u00601::ConsumeMessage(System.Threading.Tasks.Dataflow.DataflowMessageHeader,ITargetBlock_1,System.Boolean\u0026):TOutput",
           "clrName": "ConsumeMessage",
-          "tsEmitName": "consumeMessage",
+          "tsEmitName": "ConsumeMessage",
           "normalizedSignature": "ConsumeMessage|(System.Threading.Tasks.Dataflow.DataflowMessageHeader,ITargetBlock_1,System.Boolean\u0026):TOutput|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -2138,7 +2211,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.ISourceBlock\u00601::ReserveMessage(System.Threading.Tasks.Dataflow.DataflowMessageHeader,ITargetBlock_1):System.Boolean",
           "clrName": "ReserveMessage",
-          "tsEmitName": "reserveMessage",
+          "tsEmitName": "ReserveMessage",
           "normalizedSignature": "ReserveMessage|(System.Threading.Tasks.Dataflow.DataflowMessageHeader,ITargetBlock_1):System.Boolean|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -2155,7 +2228,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.ISourceBlock\u00601::ReleaseReservation(System.Threading.Tasks.Dataflow.DataflowMessageHeader,ITargetBlock_1):System.Void",
           "clrName": "ReleaseReservation",
-          "tsEmitName": "releaseReservation",
+          "tsEmitName": "ReleaseReservation",
           "normalizedSignature": "ReleaseReservation|(System.Threading.Tasks.Dataflow.DataflowMessageHeader,ITargetBlock_1):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -2172,7 +2245,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.IReceivableSourceBlock\u00601::TryReceive(Predicate_1,TOutput\u0026):System.Boolean",
           "clrName": "TryReceive",
-          "tsEmitName": "tryReceive$view",
+          "tsEmitName": "TryReceive$view",
           "normalizedSignature": "TryReceive|(Predicate_1,TOutput\u0026):System.Boolean|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -2189,7 +2262,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.IReceivableSourceBlock\u00601::TryReceiveAll(IList_1\u0026):System.Boolean",
           "clrName": "TryReceiveAll",
-          "tsEmitName": "tryReceiveAll",
+          "tsEmitName": "TryReceiveAll",
           "normalizedSignature": "TryReceiveAll|(IList_1\u0026):System.Boolean|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -2206,7 +2279,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.IDataflowBlock::Complete():System.Void",
           "clrName": "Complete",
-          "tsEmitName": "complete$view",
+          "tsEmitName": "Complete$view",
           "normalizedSignature": "Complete|():System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -2225,7 +2298,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.BroadcastBlock\u00601::Completion:System.Threading.Tasks.Task",
           "clrName": "Completion",
-          "tsEmitName": "completion",
+          "tsEmitName": "Completion",
           "normalizedSignature": "Completion|:System.Threading.Tasks.Task|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2240,7 +2313,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.IDataflowBlock::Completion:System.Threading.Tasks.Task",
           "clrName": "Completion",
-          "tsEmitName": "completion$view",
+          "tsEmitName": "Completion$view",
           "normalizedSignature": "Completion|:System.Threading.Tasks.Task|static=false|accessor=get",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -2273,6 +2346,26 @@
           "interfaceClrName": "System.Threading.Tasks.Dataflow.IPropagatorBlock\u00602",
           "reason": "MissingOrIncompatibleMembers",
           "issueCount": 6
+        },
+        {
+          "interfaceClrName": "System.Threading.Tasks.Dataflow.ITargetBlock\u00601",
+          "reason": "ExplicitImplementationMovedToView",
+          "issueCount": 1
+        },
+        {
+          "interfaceClrName": "System.Threading.Tasks.Dataflow.IDataflowBlock",
+          "reason": "ExplicitImplementationMovedToView",
+          "issueCount": 1
+        },
+        {
+          "interfaceClrName": "System.Threading.Tasks.Dataflow.ISourceBlock\u00601",
+          "reason": "ExplicitImplementationMovedToView",
+          "issueCount": 1
+        },
+        {
+          "interfaceClrName": "System.Threading.Tasks.Dataflow.IReceivableSourceBlock\u00601",
+          "reason": "ExplicitImplementationMovedToView",
+          "issueCount": 1
         }
       ]
     },
@@ -2290,7 +2383,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.BufferBlock\u00601::Complete():System.Void",
           "clrName": "Complete",
-          "tsEmitName": "complete",
+          "tsEmitName": "Complete",
           "normalizedSignature": "Complete|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2306,7 +2399,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.BufferBlock\u00601::LinkTo(ITargetBlock_1,System.Threading.Tasks.Dataflow.DataflowLinkOptions):System.IDisposable",
           "clrName": "LinkTo",
-          "tsEmitName": "linkTo",
+          "tsEmitName": "LinkTo",
           "normalizedSignature": "LinkTo|(ITargetBlock_1,System.Threading.Tasks.Dataflow.DataflowLinkOptions):System.IDisposable|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2322,7 +2415,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.BufferBlock\u00601::TryReceive(Predicate_1,T\u0026):System.Boolean",
           "clrName": "TryReceive",
-          "tsEmitName": "tryReceive",
+          "tsEmitName": "TryReceive",
           "normalizedSignature": "TryReceive|(Predicate_1,T\u0026):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2338,7 +2431,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.BufferBlock\u00601::TryReceiveAll(IList_1\u0026):System.Boolean",
           "clrName": "TryReceiveAll",
-          "tsEmitName": "tryReceiveAll",
+          "tsEmitName": "TryReceiveAll",
           "normalizedSignature": "TryReceiveAll|(IList_1\u0026):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2354,7 +2447,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.BufferBlock\u00601::ToString():System.String",
           "clrName": "ToString",
-          "tsEmitName": "toString",
+          "tsEmitName": "ToString",
           "normalizedSignature": "ToString|():System.String|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2370,7 +2463,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.ITargetBlock\u00601::OfferMessage(System.Threading.Tasks.Dataflow.DataflowMessageHeader,TInput,ISourceBlock_1,System.Boolean):System.Threading.Tasks.Dataflow.DataflowMessageStatus",
           "clrName": "OfferMessage",
-          "tsEmitName": "offerMessage",
+          "tsEmitName": "OfferMessage",
           "normalizedSignature": "OfferMessage|(System.Threading.Tasks.Dataflow.DataflowMessageHeader,TInput,ISourceBlock_1,System.Boolean):System.Threading.Tasks.Dataflow.DataflowMessageStatus|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -2387,7 +2480,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.IDataflowBlock::Fault(System.Exception):System.Void",
           "clrName": "Fault",
-          "tsEmitName": "fault",
+          "tsEmitName": "Fault",
           "normalizedSignature": "Fault|(System.Exception):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -2404,7 +2497,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.ISourceBlock\u00601::LinkTo(ITargetBlock_1,System.Threading.Tasks.Dataflow.DataflowLinkOptions):System.IDisposable",
           "clrName": "LinkTo",
-          "tsEmitName": "linkTo$view",
+          "tsEmitName": "LinkTo$view",
           "normalizedSignature": "LinkTo|(ITargetBlock_1,System.Threading.Tasks.Dataflow.DataflowLinkOptions):System.IDisposable|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -2421,7 +2514,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.ISourceBlock\u00601::ConsumeMessage(System.Threading.Tasks.Dataflow.DataflowMessageHeader,ITargetBlock_1,System.Boolean\u0026):TOutput",
           "clrName": "ConsumeMessage",
-          "tsEmitName": "consumeMessage",
+          "tsEmitName": "ConsumeMessage",
           "normalizedSignature": "ConsumeMessage|(System.Threading.Tasks.Dataflow.DataflowMessageHeader,ITargetBlock_1,System.Boolean\u0026):TOutput|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -2438,7 +2531,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.ISourceBlock\u00601::ReserveMessage(System.Threading.Tasks.Dataflow.DataflowMessageHeader,ITargetBlock_1):System.Boolean",
           "clrName": "ReserveMessage",
-          "tsEmitName": "reserveMessage",
+          "tsEmitName": "ReserveMessage",
           "normalizedSignature": "ReserveMessage|(System.Threading.Tasks.Dataflow.DataflowMessageHeader,ITargetBlock_1):System.Boolean|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -2455,7 +2548,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.ISourceBlock\u00601::ReleaseReservation(System.Threading.Tasks.Dataflow.DataflowMessageHeader,ITargetBlock_1):System.Void",
           "clrName": "ReleaseReservation",
-          "tsEmitName": "releaseReservation",
+          "tsEmitName": "ReleaseReservation",
           "normalizedSignature": "ReleaseReservation|(System.Threading.Tasks.Dataflow.DataflowMessageHeader,ITargetBlock_1):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -2472,7 +2565,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.IReceivableSourceBlock\u00601::TryReceive(Predicate_1,TOutput\u0026):System.Boolean",
           "clrName": "TryReceive",
-          "tsEmitName": "tryReceive$view",
+          "tsEmitName": "TryReceive$view",
           "normalizedSignature": "TryReceive|(Predicate_1,TOutput\u0026):System.Boolean|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -2489,7 +2582,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.IReceivableSourceBlock\u00601::TryReceiveAll(IList_1\u0026):System.Boolean",
           "clrName": "TryReceiveAll",
-          "tsEmitName": "tryReceiveAll$view",
+          "tsEmitName": "TryReceiveAll$view",
           "normalizedSignature": "TryReceiveAll|(IList_1\u0026):System.Boolean|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -2506,7 +2599,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.IDataflowBlock::Complete():System.Void",
           "clrName": "Complete",
-          "tsEmitName": "complete$view",
+          "tsEmitName": "Complete$view",
           "normalizedSignature": "Complete|():System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -2525,7 +2618,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.BufferBlock\u00601::Count:System.Int32",
           "clrName": "Count",
-          "tsEmitName": "count",
+          "tsEmitName": "Count",
           "normalizedSignature": "Count|:System.Int32|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2540,7 +2633,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.BufferBlock\u00601::Completion:System.Threading.Tasks.Task",
           "clrName": "Completion",
-          "tsEmitName": "completion",
+          "tsEmitName": "Completion",
           "normalizedSignature": "Completion|:System.Threading.Tasks.Task|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2555,7 +2648,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.IDataflowBlock::Completion:System.Threading.Tasks.Task",
           "clrName": "Completion",
-          "tsEmitName": "completion$view",
+          "tsEmitName": "Completion$view",
           "normalizedSignature": "Completion|:System.Threading.Tasks.Task|static=false|accessor=get",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -2588,6 +2681,26 @@
           "interfaceClrName": "System.Threading.Tasks.Dataflow.IPropagatorBlock\u00602",
           "reason": "MissingOrIncompatibleMembers",
           "issueCount": 6
+        },
+        {
+          "interfaceClrName": "System.Threading.Tasks.Dataflow.ITargetBlock\u00601",
+          "reason": "ExplicitImplementationMovedToView",
+          "issueCount": 1
+        },
+        {
+          "interfaceClrName": "System.Threading.Tasks.Dataflow.IDataflowBlock",
+          "reason": "ExplicitImplementationMovedToView",
+          "issueCount": 1
+        },
+        {
+          "interfaceClrName": "System.Threading.Tasks.Dataflow.ISourceBlock\u00601",
+          "reason": "ExplicitImplementationMovedToView",
+          "issueCount": 1
+        },
+        {
+          "interfaceClrName": "System.Threading.Tasks.Dataflow.IReceivableSourceBlock\u00601",
+          "reason": "ExplicitImplementationMovedToView",
+          "issueCount": 1
         }
       ]
     },
@@ -2606,7 +2719,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.DataflowBlockOptions::TaskScheduler:System.Threading.Tasks.TaskScheduler",
           "clrName": "TaskScheduler",
-          "tsEmitName": "taskScheduler",
+          "tsEmitName": "TaskScheduler",
           "normalizedSignature": "TaskScheduler|:System.Threading.Tasks.TaskScheduler|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2621,7 +2734,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.DataflowBlockOptions::CancellationToken:System.Threading.CancellationToken",
           "clrName": "CancellationToken",
-          "tsEmitName": "cancellationToken",
+          "tsEmitName": "CancellationToken",
           "normalizedSignature": "CancellationToken|:System.Threading.CancellationToken|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2636,7 +2749,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.DataflowBlockOptions::MaxMessagesPerTask:System.Int32",
           "clrName": "MaxMessagesPerTask",
-          "tsEmitName": "maxMessagesPerTask",
+          "tsEmitName": "MaxMessagesPerTask",
           "normalizedSignature": "MaxMessagesPerTask|:System.Int32|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2651,7 +2764,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.DataflowBlockOptions::BoundedCapacity:System.Int32",
           "clrName": "BoundedCapacity",
-          "tsEmitName": "boundedCapacity",
+          "tsEmitName": "BoundedCapacity",
           "normalizedSignature": "BoundedCapacity|:System.Int32|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2666,7 +2779,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.DataflowBlockOptions::NameFormat:System.String",
           "clrName": "NameFormat",
-          "tsEmitName": "nameFormat",
+          "tsEmitName": "NameFormat",
           "normalizedSignature": "NameFormat|:System.String|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2681,7 +2794,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.DataflowBlockOptions::EnsureOrdered:System.Boolean",
           "clrName": "EnsureOrdered",
-          "tsEmitName": "ensureOrdered",
+          "tsEmitName": "EnsureOrdered",
           "normalizedSignature": "EnsureOrdered|:System.Boolean|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2698,7 +2811,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.DataflowBlockOptions::UnboundedSystem.Int32",
           "clrName": "Unbounded",
-          "tsEmitName": "unbounded",
+          "tsEmitName": "Unbounded",
           "normalizedSignature": "Unbounded|System.Int32|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -2729,7 +2842,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.DataflowLinkOptions::PropagateCompletion:System.Boolean",
           "clrName": "PropagateCompletion",
-          "tsEmitName": "propagateCompletion",
+          "tsEmitName": "PropagateCompletion",
           "normalizedSignature": "PropagateCompletion|:System.Boolean|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2744,7 +2857,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.DataflowLinkOptions::MaxMessages:System.Int32",
           "clrName": "MaxMessages",
-          "tsEmitName": "maxMessages",
+          "tsEmitName": "MaxMessages",
           "normalizedSignature": "MaxMessages|:System.Int32|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2759,7 +2872,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.DataflowLinkOptions::Append:System.Boolean",
           "clrName": "Append",
-          "tsEmitName": "append",
+          "tsEmitName": "Append",
           "normalizedSignature": "Append|:System.Boolean|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2797,7 +2910,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.ExecutionDataflowBlockOptions::MaxDegreeOfParallelism:System.Int32",
           "clrName": "MaxDegreeOfParallelism",
-          "tsEmitName": "maxDegreeOfParallelism",
+          "tsEmitName": "MaxDegreeOfParallelism",
           "normalizedSignature": "MaxDegreeOfParallelism|:System.Int32|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2812,7 +2925,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.ExecutionDataflowBlockOptions::SingleProducerConstrained:System.Boolean",
           "clrName": "SingleProducerConstrained",
-          "tsEmitName": "singleProducerConstrained",
+          "tsEmitName": "SingleProducerConstrained",
           "normalizedSignature": "SingleProducerConstrained|:System.Boolean|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2850,7 +2963,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.GroupingDataflowBlockOptions::Greedy:System.Boolean",
           "clrName": "Greedy",
-          "tsEmitName": "greedy",
+          "tsEmitName": "Greedy",
           "normalizedSignature": "Greedy|:System.Boolean|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2865,7 +2978,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.GroupingDataflowBlockOptions::MaxNumberOfGroups:System.Int64",
           "clrName": "MaxNumberOfGroups",
-          "tsEmitName": "maxNumberOfGroups",
+          "tsEmitName": "MaxNumberOfGroups",
           "normalizedSignature": "MaxNumberOfGroups|:System.Int64|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2902,7 +3015,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.JoinBlock\u00602::LinkTo(ITargetBlock_1,System.Threading.Tasks.Dataflow.DataflowLinkOptions):System.IDisposable",
           "clrName": "LinkTo",
-          "tsEmitName": "linkTo",
+          "tsEmitName": "LinkTo",
           "normalizedSignature": "LinkTo|(ITargetBlock_1,System.Threading.Tasks.Dataflow.DataflowLinkOptions):System.IDisposable|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2918,7 +3031,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.JoinBlock\u00602::TryReceive(Predicate_1,Tuple_2\u0026):System.Boolean",
           "clrName": "TryReceive",
-          "tsEmitName": "tryReceive",
+          "tsEmitName": "TryReceive",
           "normalizedSignature": "TryReceive|(Predicate_1,Tuple_2\u0026):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2934,7 +3047,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.JoinBlock\u00602::TryReceiveAll(IList_1\u0026):System.Boolean",
           "clrName": "TryReceiveAll",
-          "tsEmitName": "tryReceiveAll",
+          "tsEmitName": "TryReceiveAll",
           "normalizedSignature": "TryReceiveAll|(IList_1\u0026):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2950,7 +3063,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.JoinBlock\u00602::Complete():System.Void",
           "clrName": "Complete",
-          "tsEmitName": "complete",
+          "tsEmitName": "Complete",
           "normalizedSignature": "Complete|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2966,7 +3079,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.JoinBlock\u00602::ToString():System.String",
           "clrName": "ToString",
-          "tsEmitName": "toString",
+          "tsEmitName": "ToString",
           "normalizedSignature": "ToString|():System.String|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2982,7 +3095,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.IReceivableSourceBlock\u00601::TryReceive(Predicate_1,TOutput\u0026):System.Boolean",
           "clrName": "TryReceive",
-          "tsEmitName": "tryReceive$view",
+          "tsEmitName": "TryReceive$view",
           "normalizedSignature": "TryReceive|(Predicate_1,TOutput\u0026):System.Boolean|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -2999,7 +3112,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.IReceivableSourceBlock\u00601::TryReceiveAll(IList_1\u0026):System.Boolean",
           "clrName": "TryReceiveAll",
-          "tsEmitName": "tryReceiveAll$view",
+          "tsEmitName": "TryReceiveAll$view",
           "normalizedSignature": "TryReceiveAll|(IList_1\u0026):System.Boolean|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3016,7 +3129,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.ISourceBlock\u00601::LinkTo(ITargetBlock_1,System.Threading.Tasks.Dataflow.DataflowLinkOptions):System.IDisposable",
           "clrName": "LinkTo",
-          "tsEmitName": "linkTo$view",
+          "tsEmitName": "LinkTo$view",
           "normalizedSignature": "LinkTo|(ITargetBlock_1,System.Threading.Tasks.Dataflow.DataflowLinkOptions):System.IDisposable|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3033,7 +3146,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.ISourceBlock\u00601::ConsumeMessage(System.Threading.Tasks.Dataflow.DataflowMessageHeader,ITargetBlock_1,System.Boolean\u0026):TOutput",
           "clrName": "ConsumeMessage",
-          "tsEmitName": "consumeMessage",
+          "tsEmitName": "ConsumeMessage",
           "normalizedSignature": "ConsumeMessage|(System.Threading.Tasks.Dataflow.DataflowMessageHeader,ITargetBlock_1,System.Boolean\u0026):TOutput|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3050,7 +3163,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.ISourceBlock\u00601::ReserveMessage(System.Threading.Tasks.Dataflow.DataflowMessageHeader,ITargetBlock_1):System.Boolean",
           "clrName": "ReserveMessage",
-          "tsEmitName": "reserveMessage",
+          "tsEmitName": "ReserveMessage",
           "normalizedSignature": "ReserveMessage|(System.Threading.Tasks.Dataflow.DataflowMessageHeader,ITargetBlock_1):System.Boolean|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3067,7 +3180,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.ISourceBlock\u00601::ReleaseReservation(System.Threading.Tasks.Dataflow.DataflowMessageHeader,ITargetBlock_1):System.Void",
           "clrName": "ReleaseReservation",
-          "tsEmitName": "releaseReservation",
+          "tsEmitName": "ReleaseReservation",
           "normalizedSignature": "ReleaseReservation|(System.Threading.Tasks.Dataflow.DataflowMessageHeader,ITargetBlock_1):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3084,7 +3197,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.IDataflowBlock::Fault(System.Exception):System.Void",
           "clrName": "Fault",
-          "tsEmitName": "fault",
+          "tsEmitName": "Fault",
           "normalizedSignature": "Fault|(System.Exception):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3101,7 +3214,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.IDataflowBlock::Complete():System.Void",
           "clrName": "Complete",
-          "tsEmitName": "complete$view",
+          "tsEmitName": "Complete$view",
           "normalizedSignature": "Complete|():System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3120,7 +3233,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.JoinBlock\u00602::OutputCount:System.Int32",
           "clrName": "OutputCount",
-          "tsEmitName": "outputCount",
+          "tsEmitName": "OutputCount",
           "normalizedSignature": "OutputCount|:System.Int32|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3135,7 +3248,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.JoinBlock\u00602::Completion:System.Threading.Tasks.Task",
           "clrName": "Completion",
-          "tsEmitName": "completion",
+          "tsEmitName": "Completion",
           "normalizedSignature": "Completion|:System.Threading.Tasks.Task|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3150,7 +3263,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.JoinBlock\u00602::Target1:ITargetBlock_1",
           "clrName": "Target1",
-          "tsEmitName": "target1",
+          "tsEmitName": "Target1",
           "normalizedSignature": "Target1|:ITargetBlock_1|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3165,7 +3278,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.JoinBlock\u00602::Target2:ITargetBlock_1",
           "clrName": "Target2",
-          "tsEmitName": "target2",
+          "tsEmitName": "Target2",
           "normalizedSignature": "Target2|:ITargetBlock_1|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3180,7 +3293,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.IDataflowBlock::Completion:System.Threading.Tasks.Task",
           "clrName": "Completion",
-          "tsEmitName": "completion$view",
+          "tsEmitName": "Completion$view",
           "normalizedSignature": "Completion|:System.Threading.Tasks.Task|static=false|accessor=get",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3207,6 +3320,23 @@
           "isStatic": false,
           "parameterCount": 1
         }
+      ],
+      "unsatisfiableInterfaces": [
+        {
+          "interfaceClrName": "System.Threading.Tasks.Dataflow.IReceivableSourceBlock\u00601",
+          "reason": "ExplicitImplementationMovedToView",
+          "issueCount": 1
+        },
+        {
+          "interfaceClrName": "System.Threading.Tasks.Dataflow.ISourceBlock\u00601",
+          "reason": "ExplicitImplementationMovedToView",
+          "issueCount": 1
+        },
+        {
+          "interfaceClrName": "System.Threading.Tasks.Dataflow.IDataflowBlock",
+          "reason": "ExplicitImplementationMovedToView",
+          "issueCount": 1
+        }
       ]
     },
     {
@@ -3223,7 +3353,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.JoinBlock\u00603::LinkTo(ITargetBlock_1,System.Threading.Tasks.Dataflow.DataflowLinkOptions):System.IDisposable",
           "clrName": "LinkTo",
-          "tsEmitName": "linkTo",
+          "tsEmitName": "LinkTo",
           "normalizedSignature": "LinkTo|(ITargetBlock_1,System.Threading.Tasks.Dataflow.DataflowLinkOptions):System.IDisposable|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3239,7 +3369,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.JoinBlock\u00603::TryReceive(Predicate_1,Tuple_3\u0026):System.Boolean",
           "clrName": "TryReceive",
-          "tsEmitName": "tryReceive",
+          "tsEmitName": "TryReceive",
           "normalizedSignature": "TryReceive|(Predicate_1,Tuple_3\u0026):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3255,7 +3385,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.JoinBlock\u00603::TryReceiveAll(IList_1\u0026):System.Boolean",
           "clrName": "TryReceiveAll",
-          "tsEmitName": "tryReceiveAll",
+          "tsEmitName": "TryReceiveAll",
           "normalizedSignature": "TryReceiveAll|(IList_1\u0026):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3271,7 +3401,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.JoinBlock\u00603::Complete():System.Void",
           "clrName": "Complete",
-          "tsEmitName": "complete",
+          "tsEmitName": "Complete",
           "normalizedSignature": "Complete|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3287,7 +3417,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.JoinBlock\u00603::ToString():System.String",
           "clrName": "ToString",
-          "tsEmitName": "toString",
+          "tsEmitName": "ToString",
           "normalizedSignature": "ToString|():System.String|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3303,7 +3433,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.IReceivableSourceBlock\u00601::TryReceive(Predicate_1,TOutput\u0026):System.Boolean",
           "clrName": "TryReceive",
-          "tsEmitName": "tryReceive$view",
+          "tsEmitName": "TryReceive$view",
           "normalizedSignature": "TryReceive|(Predicate_1,TOutput\u0026):System.Boolean|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3320,7 +3450,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.IReceivableSourceBlock\u00601::TryReceiveAll(IList_1\u0026):System.Boolean",
           "clrName": "TryReceiveAll",
-          "tsEmitName": "tryReceiveAll$view",
+          "tsEmitName": "TryReceiveAll$view",
           "normalizedSignature": "TryReceiveAll|(IList_1\u0026):System.Boolean|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3337,7 +3467,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.ISourceBlock\u00601::LinkTo(ITargetBlock_1,System.Threading.Tasks.Dataflow.DataflowLinkOptions):System.IDisposable",
           "clrName": "LinkTo",
-          "tsEmitName": "linkTo$view",
+          "tsEmitName": "LinkTo$view",
           "normalizedSignature": "LinkTo|(ITargetBlock_1,System.Threading.Tasks.Dataflow.DataflowLinkOptions):System.IDisposable|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3354,7 +3484,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.ISourceBlock\u00601::ConsumeMessage(System.Threading.Tasks.Dataflow.DataflowMessageHeader,ITargetBlock_1,System.Boolean\u0026):TOutput",
           "clrName": "ConsumeMessage",
-          "tsEmitName": "consumeMessage",
+          "tsEmitName": "ConsumeMessage",
           "normalizedSignature": "ConsumeMessage|(System.Threading.Tasks.Dataflow.DataflowMessageHeader,ITargetBlock_1,System.Boolean\u0026):TOutput|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3371,7 +3501,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.ISourceBlock\u00601::ReserveMessage(System.Threading.Tasks.Dataflow.DataflowMessageHeader,ITargetBlock_1):System.Boolean",
           "clrName": "ReserveMessage",
-          "tsEmitName": "reserveMessage",
+          "tsEmitName": "ReserveMessage",
           "normalizedSignature": "ReserveMessage|(System.Threading.Tasks.Dataflow.DataflowMessageHeader,ITargetBlock_1):System.Boolean|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3388,7 +3518,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.ISourceBlock\u00601::ReleaseReservation(System.Threading.Tasks.Dataflow.DataflowMessageHeader,ITargetBlock_1):System.Void",
           "clrName": "ReleaseReservation",
-          "tsEmitName": "releaseReservation",
+          "tsEmitName": "ReleaseReservation",
           "normalizedSignature": "ReleaseReservation|(System.Threading.Tasks.Dataflow.DataflowMessageHeader,ITargetBlock_1):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3405,7 +3535,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.IDataflowBlock::Fault(System.Exception):System.Void",
           "clrName": "Fault",
-          "tsEmitName": "fault",
+          "tsEmitName": "Fault",
           "normalizedSignature": "Fault|(System.Exception):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3422,7 +3552,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.IDataflowBlock::Complete():System.Void",
           "clrName": "Complete",
-          "tsEmitName": "complete$view",
+          "tsEmitName": "Complete$view",
           "normalizedSignature": "Complete|():System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3441,7 +3571,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.JoinBlock\u00603::OutputCount:System.Int32",
           "clrName": "OutputCount",
-          "tsEmitName": "outputCount",
+          "tsEmitName": "OutputCount",
           "normalizedSignature": "OutputCount|:System.Int32|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3456,7 +3586,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.JoinBlock\u00603::Completion:System.Threading.Tasks.Task",
           "clrName": "Completion",
-          "tsEmitName": "completion",
+          "tsEmitName": "Completion",
           "normalizedSignature": "Completion|:System.Threading.Tasks.Task|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3471,7 +3601,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.JoinBlock\u00603::Target1:ITargetBlock_1",
           "clrName": "Target1",
-          "tsEmitName": "target1",
+          "tsEmitName": "Target1",
           "normalizedSignature": "Target1|:ITargetBlock_1|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3486,7 +3616,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.JoinBlock\u00603::Target2:ITargetBlock_1",
           "clrName": "Target2",
-          "tsEmitName": "target2",
+          "tsEmitName": "Target2",
           "normalizedSignature": "Target2|:ITargetBlock_1|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3501,7 +3631,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.JoinBlock\u00603::Target3:ITargetBlock_1",
           "clrName": "Target3",
-          "tsEmitName": "target3",
+          "tsEmitName": "Target3",
           "normalizedSignature": "Target3|:ITargetBlock_1|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3516,7 +3646,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.IDataflowBlock::Completion:System.Threading.Tasks.Task",
           "clrName": "Completion",
-          "tsEmitName": "completion$view",
+          "tsEmitName": "Completion$view",
           "normalizedSignature": "Completion|:System.Threading.Tasks.Task|static=false|accessor=get",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3543,6 +3673,23 @@
           "isStatic": false,
           "parameterCount": 1
         }
+      ],
+      "unsatisfiableInterfaces": [
+        {
+          "interfaceClrName": "System.Threading.Tasks.Dataflow.IReceivableSourceBlock\u00601",
+          "reason": "ExplicitImplementationMovedToView",
+          "issueCount": 1
+        },
+        {
+          "interfaceClrName": "System.Threading.Tasks.Dataflow.ISourceBlock\u00601",
+          "reason": "ExplicitImplementationMovedToView",
+          "issueCount": 1
+        },
+        {
+          "interfaceClrName": "System.Threading.Tasks.Dataflow.IDataflowBlock",
+          "reason": "ExplicitImplementationMovedToView",
+          "issueCount": 1
+        }
       ]
     },
     {
@@ -3559,7 +3706,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.TransformBlock\u00602::Complete():System.Void",
           "clrName": "Complete",
-          "tsEmitName": "complete",
+          "tsEmitName": "Complete",
           "normalizedSignature": "Complete|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3575,7 +3722,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.TransformBlock\u00602::LinkTo(ITargetBlock_1,System.Threading.Tasks.Dataflow.DataflowLinkOptions):System.IDisposable",
           "clrName": "LinkTo",
-          "tsEmitName": "linkTo",
+          "tsEmitName": "LinkTo",
           "normalizedSignature": "LinkTo|(ITargetBlock_1,System.Threading.Tasks.Dataflow.DataflowLinkOptions):System.IDisposable|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3591,7 +3738,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.TransformBlock\u00602::TryReceive(Predicate_1,TOutput\u0026):System.Boolean",
           "clrName": "TryReceive",
-          "tsEmitName": "tryReceive",
+          "tsEmitName": "TryReceive",
           "normalizedSignature": "TryReceive|(Predicate_1,TOutput\u0026):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3607,7 +3754,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.TransformBlock\u00602::TryReceiveAll(IList_1\u0026):System.Boolean",
           "clrName": "TryReceiveAll",
-          "tsEmitName": "tryReceiveAll",
+          "tsEmitName": "TryReceiveAll",
           "normalizedSignature": "TryReceiveAll|(IList_1\u0026):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3623,7 +3770,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.TransformBlock\u00602::ToString():System.String",
           "clrName": "ToString",
-          "tsEmitName": "toString",
+          "tsEmitName": "ToString",
           "normalizedSignature": "ToString|():System.String|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3639,7 +3786,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.ITargetBlock\u00601::OfferMessage(System.Threading.Tasks.Dataflow.DataflowMessageHeader,TInput,ISourceBlock_1,System.Boolean):System.Threading.Tasks.Dataflow.DataflowMessageStatus",
           "clrName": "OfferMessage",
-          "tsEmitName": "offerMessage",
+          "tsEmitName": "OfferMessage",
           "normalizedSignature": "OfferMessage|(System.Threading.Tasks.Dataflow.DataflowMessageHeader,TInput,ISourceBlock_1,System.Boolean):System.Threading.Tasks.Dataflow.DataflowMessageStatus|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3656,7 +3803,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.IDataflowBlock::Fault(System.Exception):System.Void",
           "clrName": "Fault",
-          "tsEmitName": "fault",
+          "tsEmitName": "Fault",
           "normalizedSignature": "Fault|(System.Exception):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3673,7 +3820,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.ISourceBlock\u00601::ConsumeMessage(System.Threading.Tasks.Dataflow.DataflowMessageHeader,ITargetBlock_1,System.Boolean\u0026):TOutput",
           "clrName": "ConsumeMessage",
-          "tsEmitName": "consumeMessage",
+          "tsEmitName": "ConsumeMessage",
           "normalizedSignature": "ConsumeMessage|(System.Threading.Tasks.Dataflow.DataflowMessageHeader,ITargetBlock_1,System.Boolean\u0026):TOutput|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3690,7 +3837,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.ISourceBlock\u00601::ReserveMessage(System.Threading.Tasks.Dataflow.DataflowMessageHeader,ITargetBlock_1):System.Boolean",
           "clrName": "ReserveMessage",
-          "tsEmitName": "reserveMessage",
+          "tsEmitName": "ReserveMessage",
           "normalizedSignature": "ReserveMessage|(System.Threading.Tasks.Dataflow.DataflowMessageHeader,ITargetBlock_1):System.Boolean|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3707,7 +3854,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.ISourceBlock\u00601::ReleaseReservation(System.Threading.Tasks.Dataflow.DataflowMessageHeader,ITargetBlock_1):System.Void",
           "clrName": "ReleaseReservation",
-          "tsEmitName": "releaseReservation",
+          "tsEmitName": "ReleaseReservation",
           "normalizedSignature": "ReleaseReservation|(System.Threading.Tasks.Dataflow.DataflowMessageHeader,ITargetBlock_1):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3724,7 +3871,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.IDataflowBlock::Complete():System.Void",
           "clrName": "Complete",
-          "tsEmitName": "complete$view",
+          "tsEmitName": "Complete$view",
           "normalizedSignature": "Complete|():System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3741,7 +3888,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.ISourceBlock\u00601::LinkTo(ITargetBlock_1,System.Threading.Tasks.Dataflow.DataflowLinkOptions):System.IDisposable",
           "clrName": "LinkTo",
-          "tsEmitName": "linkTo$view",
+          "tsEmitName": "LinkTo$view",
           "normalizedSignature": "LinkTo|(ITargetBlock_1,System.Threading.Tasks.Dataflow.DataflowLinkOptions):System.IDisposable|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3758,7 +3905,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.IReceivableSourceBlock\u00601::TryReceive(Predicate_1,TOutput\u0026):System.Boolean",
           "clrName": "TryReceive",
-          "tsEmitName": "tryReceive$view",
+          "tsEmitName": "TryReceive$view",
           "normalizedSignature": "TryReceive|(Predicate_1,TOutput\u0026):System.Boolean|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3775,7 +3922,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.IReceivableSourceBlock\u00601::TryReceiveAll(IList_1\u0026):System.Boolean",
           "clrName": "TryReceiveAll",
-          "tsEmitName": "tryReceiveAll$view",
+          "tsEmitName": "TryReceiveAll$view",
           "normalizedSignature": "TryReceiveAll|(IList_1\u0026):System.Boolean|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3794,7 +3941,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.TransformBlock\u00602::Completion:System.Threading.Tasks.Task",
           "clrName": "Completion",
-          "tsEmitName": "completion",
+          "tsEmitName": "Completion",
           "normalizedSignature": "Completion|:System.Threading.Tasks.Task|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3809,7 +3956,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.TransformBlock\u00602::InputCount:System.Int32",
           "clrName": "InputCount",
-          "tsEmitName": "inputCount",
+          "tsEmitName": "InputCount",
           "normalizedSignature": "InputCount|:System.Int32|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3824,7 +3971,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.TransformBlock\u00602::OutputCount:System.Int32",
           "clrName": "OutputCount",
-          "tsEmitName": "outputCount",
+          "tsEmitName": "OutputCount",
           "normalizedSignature": "OutputCount|:System.Int32|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3839,7 +3986,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.IDataflowBlock::Completion:System.Threading.Tasks.Task",
           "clrName": "Completion",
-          "tsEmitName": "completion$view",
+          "tsEmitName": "Completion$view",
           "normalizedSignature": "Completion|:System.Threading.Tasks.Task|static=false|accessor=get",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3872,6 +4019,26 @@
           "interfaceClrName": "System.Threading.Tasks.Dataflow.IPropagatorBlock\u00602",
           "reason": "MissingOrIncompatibleMembers",
           "issueCount": 5
+        },
+        {
+          "interfaceClrName": "System.Threading.Tasks.Dataflow.ITargetBlock\u00601",
+          "reason": "ExplicitImplementationMovedToView",
+          "issueCount": 1
+        },
+        {
+          "interfaceClrName": "System.Threading.Tasks.Dataflow.IDataflowBlock",
+          "reason": "ExplicitImplementationMovedToView",
+          "issueCount": 1
+        },
+        {
+          "interfaceClrName": "System.Threading.Tasks.Dataflow.ISourceBlock\u00601",
+          "reason": "ExplicitImplementationMovedToView",
+          "issueCount": 1
+        },
+        {
+          "interfaceClrName": "System.Threading.Tasks.Dataflow.IReceivableSourceBlock\u00601",
+          "reason": "ExplicitImplementationMovedToView",
+          "issueCount": 1
         }
       ]
     },
@@ -3889,7 +4056,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.TransformManyBlock\u00602::Complete():System.Void",
           "clrName": "Complete",
-          "tsEmitName": "complete",
+          "tsEmitName": "Complete",
           "normalizedSignature": "Complete|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3905,7 +4072,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.TransformManyBlock\u00602::LinkTo(ITargetBlock_1,System.Threading.Tasks.Dataflow.DataflowLinkOptions):System.IDisposable",
           "clrName": "LinkTo",
-          "tsEmitName": "linkTo",
+          "tsEmitName": "LinkTo",
           "normalizedSignature": "LinkTo|(ITargetBlock_1,System.Threading.Tasks.Dataflow.DataflowLinkOptions):System.IDisposable|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3921,7 +4088,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.TransformManyBlock\u00602::TryReceive(Predicate_1,TOutput\u0026):System.Boolean",
           "clrName": "TryReceive",
-          "tsEmitName": "tryReceive",
+          "tsEmitName": "TryReceive",
           "normalizedSignature": "TryReceive|(Predicate_1,TOutput\u0026):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3937,7 +4104,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.TransformManyBlock\u00602::TryReceiveAll(IList_1\u0026):System.Boolean",
           "clrName": "TryReceiveAll",
-          "tsEmitName": "tryReceiveAll",
+          "tsEmitName": "TryReceiveAll",
           "normalizedSignature": "TryReceiveAll|(IList_1\u0026):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3953,7 +4120,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.TransformManyBlock\u00602::ToString():System.String",
           "clrName": "ToString",
-          "tsEmitName": "toString",
+          "tsEmitName": "ToString",
           "normalizedSignature": "ToString|():System.String|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3969,7 +4136,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.ITargetBlock\u00601::OfferMessage(System.Threading.Tasks.Dataflow.DataflowMessageHeader,TInput,ISourceBlock_1,System.Boolean):System.Threading.Tasks.Dataflow.DataflowMessageStatus",
           "clrName": "OfferMessage",
-          "tsEmitName": "offerMessage",
+          "tsEmitName": "OfferMessage",
           "normalizedSignature": "OfferMessage|(System.Threading.Tasks.Dataflow.DataflowMessageHeader,TInput,ISourceBlock_1,System.Boolean):System.Threading.Tasks.Dataflow.DataflowMessageStatus|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3986,7 +4153,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.IDataflowBlock::Fault(System.Exception):System.Void",
           "clrName": "Fault",
-          "tsEmitName": "fault",
+          "tsEmitName": "Fault",
           "normalizedSignature": "Fault|(System.Exception):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -4003,7 +4170,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.ISourceBlock\u00601::ConsumeMessage(System.Threading.Tasks.Dataflow.DataflowMessageHeader,ITargetBlock_1,System.Boolean\u0026):TOutput",
           "clrName": "ConsumeMessage",
-          "tsEmitName": "consumeMessage",
+          "tsEmitName": "ConsumeMessage",
           "normalizedSignature": "ConsumeMessage|(System.Threading.Tasks.Dataflow.DataflowMessageHeader,ITargetBlock_1,System.Boolean\u0026):TOutput|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -4020,7 +4187,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.ISourceBlock\u00601::ReserveMessage(System.Threading.Tasks.Dataflow.DataflowMessageHeader,ITargetBlock_1):System.Boolean",
           "clrName": "ReserveMessage",
-          "tsEmitName": "reserveMessage",
+          "tsEmitName": "ReserveMessage",
           "normalizedSignature": "ReserveMessage|(System.Threading.Tasks.Dataflow.DataflowMessageHeader,ITargetBlock_1):System.Boolean|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -4037,7 +4204,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.ISourceBlock\u00601::ReleaseReservation(System.Threading.Tasks.Dataflow.DataflowMessageHeader,ITargetBlock_1):System.Void",
           "clrName": "ReleaseReservation",
-          "tsEmitName": "releaseReservation",
+          "tsEmitName": "ReleaseReservation",
           "normalizedSignature": "ReleaseReservation|(System.Threading.Tasks.Dataflow.DataflowMessageHeader,ITargetBlock_1):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -4054,7 +4221,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.IDataflowBlock::Complete():System.Void",
           "clrName": "Complete",
-          "tsEmitName": "complete$view",
+          "tsEmitName": "Complete$view",
           "normalizedSignature": "Complete|():System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -4071,7 +4238,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.ISourceBlock\u00601::LinkTo(ITargetBlock_1,System.Threading.Tasks.Dataflow.DataflowLinkOptions):System.IDisposable",
           "clrName": "LinkTo",
-          "tsEmitName": "linkTo$view",
+          "tsEmitName": "LinkTo$view",
           "normalizedSignature": "LinkTo|(ITargetBlock_1,System.Threading.Tasks.Dataflow.DataflowLinkOptions):System.IDisposable|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -4088,7 +4255,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.IReceivableSourceBlock\u00601::TryReceive(Predicate_1,TOutput\u0026):System.Boolean",
           "clrName": "TryReceive",
-          "tsEmitName": "tryReceive$view",
+          "tsEmitName": "TryReceive$view",
           "normalizedSignature": "TryReceive|(Predicate_1,TOutput\u0026):System.Boolean|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -4105,7 +4272,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.IReceivableSourceBlock\u00601::TryReceiveAll(IList_1\u0026):System.Boolean",
           "clrName": "TryReceiveAll",
-          "tsEmitName": "tryReceiveAll$view",
+          "tsEmitName": "TryReceiveAll$view",
           "normalizedSignature": "TryReceiveAll|(IList_1\u0026):System.Boolean|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -4124,7 +4291,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.TransformManyBlock\u00602::Completion:System.Threading.Tasks.Task",
           "clrName": "Completion",
-          "tsEmitName": "completion",
+          "tsEmitName": "Completion",
           "normalizedSignature": "Completion|:System.Threading.Tasks.Task|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4139,7 +4306,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.TransformManyBlock\u00602::InputCount:System.Int32",
           "clrName": "InputCount",
-          "tsEmitName": "inputCount",
+          "tsEmitName": "InputCount",
           "normalizedSignature": "InputCount|:System.Int32|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4154,7 +4321,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.TransformManyBlock\u00602::OutputCount:System.Int32",
           "clrName": "OutputCount",
-          "tsEmitName": "outputCount",
+          "tsEmitName": "OutputCount",
           "normalizedSignature": "OutputCount|:System.Int32|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4169,7 +4336,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.IDataflowBlock::Completion:System.Threading.Tasks.Task",
           "clrName": "Completion",
-          "tsEmitName": "completion$view",
+          "tsEmitName": "Completion$view",
           "normalizedSignature": "Completion|:System.Threading.Tasks.Task|static=false|accessor=get",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -4202,6 +4369,26 @@
           "interfaceClrName": "System.Threading.Tasks.Dataflow.IPropagatorBlock\u00602",
           "reason": "MissingOrIncompatibleMembers",
           "issueCount": 5
+        },
+        {
+          "interfaceClrName": "System.Threading.Tasks.Dataflow.ITargetBlock\u00601",
+          "reason": "ExplicitImplementationMovedToView",
+          "issueCount": 1
+        },
+        {
+          "interfaceClrName": "System.Threading.Tasks.Dataflow.IDataflowBlock",
+          "reason": "ExplicitImplementationMovedToView",
+          "issueCount": 1
+        },
+        {
+          "interfaceClrName": "System.Threading.Tasks.Dataflow.ISourceBlock\u00601",
+          "reason": "ExplicitImplementationMovedToView",
+          "issueCount": 1
+        },
+        {
+          "interfaceClrName": "System.Threading.Tasks.Dataflow.IReceivableSourceBlock\u00601",
+          "reason": "ExplicitImplementationMovedToView",
+          "issueCount": 1
         }
       ]
     },
@@ -4219,7 +4406,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.WriteOnceBlock\u00601::Complete():System.Void",
           "clrName": "Complete",
-          "tsEmitName": "complete",
+          "tsEmitName": "Complete",
           "normalizedSignature": "Complete|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4235,7 +4422,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.WriteOnceBlock\u00601::TryReceive(Predicate_1,T\u0026):System.Boolean",
           "clrName": "TryReceive",
-          "tsEmitName": "tryReceive",
+          "tsEmitName": "TryReceive",
           "normalizedSignature": "TryReceive|(Predicate_1,T\u0026):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4251,7 +4438,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.WriteOnceBlock\u00601::LinkTo(ITargetBlock_1,System.Threading.Tasks.Dataflow.DataflowLinkOptions):System.IDisposable",
           "clrName": "LinkTo",
-          "tsEmitName": "linkTo",
+          "tsEmitName": "LinkTo",
           "normalizedSignature": "LinkTo|(ITargetBlock_1,System.Threading.Tasks.Dataflow.DataflowLinkOptions):System.IDisposable|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4267,7 +4454,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.WriteOnceBlock\u00601::ToString():System.String",
           "clrName": "ToString",
-          "tsEmitName": "toString",
+          "tsEmitName": "ToString",
           "normalizedSignature": "ToString|():System.String|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4283,7 +4470,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.ITargetBlock\u00601::OfferMessage(System.Threading.Tasks.Dataflow.DataflowMessageHeader,TInput,ISourceBlock_1,System.Boolean):System.Threading.Tasks.Dataflow.DataflowMessageStatus",
           "clrName": "OfferMessage",
-          "tsEmitName": "offerMessage",
+          "tsEmitName": "OfferMessage",
           "normalizedSignature": "OfferMessage|(System.Threading.Tasks.Dataflow.DataflowMessageHeader,TInput,ISourceBlock_1,System.Boolean):System.Threading.Tasks.Dataflow.DataflowMessageStatus|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -4300,7 +4487,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.IDataflowBlock::Fault(System.Exception):System.Void",
           "clrName": "Fault",
-          "tsEmitName": "fault",
+          "tsEmitName": "Fault",
           "normalizedSignature": "Fault|(System.Exception):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -4317,7 +4504,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.ISourceBlock\u00601::LinkTo(ITargetBlock_1,System.Threading.Tasks.Dataflow.DataflowLinkOptions):System.IDisposable",
           "clrName": "LinkTo",
-          "tsEmitName": "linkTo$view",
+          "tsEmitName": "LinkTo$view",
           "normalizedSignature": "LinkTo|(ITargetBlock_1,System.Threading.Tasks.Dataflow.DataflowLinkOptions):System.IDisposable|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -4334,7 +4521,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.ISourceBlock\u00601::ConsumeMessage(System.Threading.Tasks.Dataflow.DataflowMessageHeader,ITargetBlock_1,System.Boolean\u0026):TOutput",
           "clrName": "ConsumeMessage",
-          "tsEmitName": "consumeMessage",
+          "tsEmitName": "ConsumeMessage",
           "normalizedSignature": "ConsumeMessage|(System.Threading.Tasks.Dataflow.DataflowMessageHeader,ITargetBlock_1,System.Boolean\u0026):TOutput|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -4351,7 +4538,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.ISourceBlock\u00601::ReserveMessage(System.Threading.Tasks.Dataflow.DataflowMessageHeader,ITargetBlock_1):System.Boolean",
           "clrName": "ReserveMessage",
-          "tsEmitName": "reserveMessage",
+          "tsEmitName": "ReserveMessage",
           "normalizedSignature": "ReserveMessage|(System.Threading.Tasks.Dataflow.DataflowMessageHeader,ITargetBlock_1):System.Boolean|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -4368,7 +4555,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.ISourceBlock\u00601::ReleaseReservation(System.Threading.Tasks.Dataflow.DataflowMessageHeader,ITargetBlock_1):System.Void",
           "clrName": "ReleaseReservation",
-          "tsEmitName": "releaseReservation",
+          "tsEmitName": "ReleaseReservation",
           "normalizedSignature": "ReleaseReservation|(System.Threading.Tasks.Dataflow.DataflowMessageHeader,ITargetBlock_1):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -4385,7 +4572,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.IReceivableSourceBlock\u00601::TryReceive(Predicate_1,TOutput\u0026):System.Boolean",
           "clrName": "TryReceive",
-          "tsEmitName": "tryReceive$view",
+          "tsEmitName": "TryReceive$view",
           "normalizedSignature": "TryReceive|(Predicate_1,TOutput\u0026):System.Boolean|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -4402,7 +4589,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.IReceivableSourceBlock\u00601::TryReceiveAll(IList_1\u0026):System.Boolean",
           "clrName": "TryReceiveAll",
-          "tsEmitName": "tryReceiveAll",
+          "tsEmitName": "TryReceiveAll",
           "normalizedSignature": "TryReceiveAll|(IList_1\u0026):System.Boolean|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -4419,7 +4606,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.IDataflowBlock::Complete():System.Void",
           "clrName": "Complete",
-          "tsEmitName": "complete$view",
+          "tsEmitName": "Complete$view",
           "normalizedSignature": "Complete|():System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -4438,7 +4625,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.WriteOnceBlock\u00601::Completion:System.Threading.Tasks.Task",
           "clrName": "Completion",
-          "tsEmitName": "completion",
+          "tsEmitName": "Completion",
           "normalizedSignature": "Completion|:System.Threading.Tasks.Task|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4453,7 +4640,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.IDataflowBlock::Completion:System.Threading.Tasks.Task",
           "clrName": "Completion",
-          "tsEmitName": "completion$view",
+          "tsEmitName": "Completion$view",
           "normalizedSignature": "Completion|:System.Threading.Tasks.Task|static=false|accessor=get",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -4486,6 +4673,26 @@
           "interfaceClrName": "System.Threading.Tasks.Dataflow.IPropagatorBlock\u00602",
           "reason": "MissingOrIncompatibleMembers",
           "issueCount": 6
+        },
+        {
+          "interfaceClrName": "System.Threading.Tasks.Dataflow.ITargetBlock\u00601",
+          "reason": "ExplicitImplementationMovedToView",
+          "issueCount": 1
+        },
+        {
+          "interfaceClrName": "System.Threading.Tasks.Dataflow.IDataflowBlock",
+          "reason": "ExplicitImplementationMovedToView",
+          "issueCount": 1
+        },
+        {
+          "interfaceClrName": "System.Threading.Tasks.Dataflow.ISourceBlock\u00601",
+          "reason": "ExplicitImplementationMovedToView",
+          "issueCount": 1
+        },
+        {
+          "interfaceClrName": "System.Threading.Tasks.Dataflow.IReceivableSourceBlock\u00601",
+          "reason": "ExplicitImplementationMovedToView",
+          "issueCount": 1
         }
       ]
     },
@@ -4503,7 +4710,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.DataflowBlock::LinkTo(ISourceBlock_1,ITargetBlock_1):System.IDisposable",
           "clrName": "LinkTo",
-          "tsEmitName": "linkTo",
+          "tsEmitName": "LinkTo",
           "normalizedSignature": "LinkTo|(ISourceBlock_1,ITargetBlock_1):System.IDisposable|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4519,7 +4726,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.DataflowBlock::LinkTo(ISourceBlock_1,ITargetBlock_1,Predicate_1):System.IDisposable",
           "clrName": "LinkTo",
-          "tsEmitName": "linkTo2",
+          "tsEmitName": "LinkTo2",
           "normalizedSignature": "LinkTo|(ISourceBlock_1,ITargetBlock_1,Predicate_1):System.IDisposable|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4535,7 +4742,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.DataflowBlock::LinkTo(ISourceBlock_1,ITargetBlock_1,System.Threading.Tasks.Dataflow.DataflowLinkOptions,Predicate_1):System.IDisposable",
           "clrName": "LinkTo",
-          "tsEmitName": "linkTo3",
+          "tsEmitName": "LinkTo3",
           "normalizedSignature": "LinkTo|(ISourceBlock_1,ITargetBlock_1,System.Threading.Tasks.Dataflow.DataflowLinkOptions,Predicate_1):System.IDisposable|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4551,7 +4758,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.DataflowBlock::Post(ITargetBlock_1,TInput):System.Boolean",
           "clrName": "Post",
-          "tsEmitName": "post",
+          "tsEmitName": "Post",
           "normalizedSignature": "Post|(ITargetBlock_1,TInput):System.Boolean|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4567,7 +4774,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.DataflowBlock::SendAsync(ITargetBlock_1,TInput):System.Threading.Tasks.Task_1[[System.Boolean,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "SendAsync",
-          "tsEmitName": "sendAsync",
+          "tsEmitName": "SendAsync",
           "normalizedSignature": "SendAsync|(ITargetBlock_1,TInput):System.Threading.Tasks.Task_1[[System.Boolean,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4583,7 +4790,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.DataflowBlock::SendAsync(ITargetBlock_1,TInput,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Boolean,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "SendAsync",
-          "tsEmitName": "sendAsync2",
+          "tsEmitName": "SendAsync2",
           "normalizedSignature": "SendAsync|(ITargetBlock_1,TInput,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Boolean,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4599,7 +4806,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.DataflowBlock::TryReceive(IReceivableSourceBlock_1,TOutput\u0026):System.Boolean",
           "clrName": "TryReceive",
-          "tsEmitName": "tryReceive",
+          "tsEmitName": "TryReceive",
           "normalizedSignature": "TryReceive|(IReceivableSourceBlock_1,TOutput\u0026):System.Boolean|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4615,7 +4822,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.DataflowBlock::ReceiveAsync(ISourceBlock_1):Task_1",
           "clrName": "ReceiveAsync",
-          "tsEmitName": "receiveAsync",
+          "tsEmitName": "ReceiveAsync",
           "normalizedSignature": "ReceiveAsync|(ISourceBlock_1):Task_1|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4631,7 +4838,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.DataflowBlock::ReceiveAsync(ISourceBlock_1,System.Threading.CancellationToken):Task_1",
           "clrName": "ReceiveAsync",
-          "tsEmitName": "receiveAsync2",
+          "tsEmitName": "ReceiveAsync2",
           "normalizedSignature": "ReceiveAsync|(ISourceBlock_1,System.Threading.CancellationToken):Task_1|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4647,7 +4854,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.DataflowBlock::ReceiveAsync(ISourceBlock_1,System.TimeSpan):Task_1",
           "clrName": "ReceiveAsync",
-          "tsEmitName": "receiveAsync3",
+          "tsEmitName": "ReceiveAsync3",
           "normalizedSignature": "ReceiveAsync|(ISourceBlock_1,System.TimeSpan):Task_1|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4663,7 +4870,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.DataflowBlock::ReceiveAsync(ISourceBlock_1,System.TimeSpan,System.Threading.CancellationToken):Task_1",
           "clrName": "ReceiveAsync",
-          "tsEmitName": "receiveAsync4",
+          "tsEmitName": "ReceiveAsync4",
           "normalizedSignature": "ReceiveAsync|(ISourceBlock_1,System.TimeSpan,System.Threading.CancellationToken):Task_1|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4679,7 +4886,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.DataflowBlock::Receive(ISourceBlock_1):TOutput",
           "clrName": "Receive",
-          "tsEmitName": "receive",
+          "tsEmitName": "Receive",
           "normalizedSignature": "Receive|(ISourceBlock_1):TOutput|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4695,7 +4902,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.DataflowBlock::Receive(ISourceBlock_1,System.Threading.CancellationToken):TOutput",
           "clrName": "Receive",
-          "tsEmitName": "receive2",
+          "tsEmitName": "Receive2",
           "normalizedSignature": "Receive|(ISourceBlock_1,System.Threading.CancellationToken):TOutput|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4711,7 +4918,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.DataflowBlock::Receive(ISourceBlock_1,System.TimeSpan):TOutput",
           "clrName": "Receive",
-          "tsEmitName": "receive3",
+          "tsEmitName": "Receive3",
           "normalizedSignature": "Receive|(ISourceBlock_1,System.TimeSpan):TOutput|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4727,7 +4934,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.DataflowBlock::Receive(ISourceBlock_1,System.TimeSpan,System.Threading.CancellationToken):TOutput",
           "clrName": "Receive",
-          "tsEmitName": "receive4",
+          "tsEmitName": "Receive4",
           "normalizedSignature": "Receive|(ISourceBlock_1,System.TimeSpan,System.Threading.CancellationToken):TOutput|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4743,7 +4950,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.DataflowBlock::OutputAvailableAsync(ISourceBlock_1):System.Threading.Tasks.Task_1[[System.Boolean,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "OutputAvailableAsync",
-          "tsEmitName": "outputAvailableAsync",
+          "tsEmitName": "OutputAvailableAsync",
           "normalizedSignature": "OutputAvailableAsync|(ISourceBlock_1):System.Threading.Tasks.Task_1[[System.Boolean,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4759,7 +4966,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.DataflowBlock::OutputAvailableAsync(ISourceBlock_1,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Boolean,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "OutputAvailableAsync",
-          "tsEmitName": "outputAvailableAsync2",
+          "tsEmitName": "OutputAvailableAsync2",
           "normalizedSignature": "OutputAvailableAsync|(ISourceBlock_1,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Boolean,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4775,7 +4982,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.DataflowBlock::Encapsulate(ITargetBlock_1,ISourceBlock_1):IPropagatorBlock_2",
           "clrName": "Encapsulate",
-          "tsEmitName": "encapsulate",
+          "tsEmitName": "Encapsulate",
           "normalizedSignature": "Encapsulate|(ITargetBlock_1,ISourceBlock_1):IPropagatorBlock_2|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4791,7 +4998,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.DataflowBlock::Choose(ISourceBlock_1,Action_1,ISourceBlock_1,Action_1):System.Threading.Tasks.Task_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "Choose",
-          "tsEmitName": "choose",
+          "tsEmitName": "Choose",
           "normalizedSignature": "Choose|(ISourceBlock_1,Action_1,ISourceBlock_1,Action_1):System.Threading.Tasks.Task_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4807,7 +5014,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.DataflowBlock::Choose(ISourceBlock_1,Action_1,ISourceBlock_1,Action_1,System.Threading.Tasks.Dataflow.DataflowBlockOptions):System.Threading.Tasks.Task_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "Choose",
-          "tsEmitName": "choose2",
+          "tsEmitName": "Choose2",
           "normalizedSignature": "Choose|(ISourceBlock_1,Action_1,ISourceBlock_1,Action_1,System.Threading.Tasks.Dataflow.DataflowBlockOptions):System.Threading.Tasks.Task_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4823,7 +5030,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.DataflowBlock::Choose(ISourceBlock_1,Action_1,ISourceBlock_1,Action_1,ISourceBlock_1,Action_1):System.Threading.Tasks.Task_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "Choose",
-          "tsEmitName": "choose3",
+          "tsEmitName": "Choose3",
           "normalizedSignature": "Choose|(ISourceBlock_1,Action_1,ISourceBlock_1,Action_1,ISourceBlock_1,Action_1):System.Threading.Tasks.Task_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4839,7 +5046,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.DataflowBlock::Choose(ISourceBlock_1,Action_1,ISourceBlock_1,Action_1,ISourceBlock_1,Action_1,System.Threading.Tasks.Dataflow.DataflowBlockOptions):System.Threading.Tasks.Task_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "Choose",
-          "tsEmitName": "choose4",
+          "tsEmitName": "Choose4",
           "normalizedSignature": "Choose|(ISourceBlock_1,Action_1,ISourceBlock_1,Action_1,ISourceBlock_1,Action_1,System.Threading.Tasks.Dataflow.DataflowBlockOptions):System.Threading.Tasks.Task_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4855,7 +5062,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.DataflowBlock::AsObservable(ISourceBlock_1):IObservable_1",
           "clrName": "AsObservable",
-          "tsEmitName": "asObservable",
+          "tsEmitName": "AsObservable",
           "normalizedSignature": "AsObservable|(ISourceBlock_1):IObservable_1|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4871,7 +5078,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.DataflowBlock::AsObserver(ITargetBlock_1):IObserver_1",
           "clrName": "AsObserver",
-          "tsEmitName": "asObserver",
+          "tsEmitName": "AsObserver",
           "normalizedSignature": "AsObserver|(ITargetBlock_1):IObserver_1|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4887,7 +5094,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.DataflowBlock::NullTarget():ITargetBlock_1",
           "clrName": "NullTarget",
-          "tsEmitName": "nullTarget",
+          "tsEmitName": "NullTarget",
           "normalizedSignature": "NullTarget|():ITargetBlock_1|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4903,7 +5110,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.DataflowBlock::ReceiveAllAsync(IReceivableSourceBlock_1,System.Threading.CancellationToken):IAsyncEnumerable_1",
           "clrName": "ReceiveAllAsync",
-          "tsEmitName": "receiveAllAsync",
+          "tsEmitName": "ReceiveAllAsync",
           "normalizedSignature": "ReceiveAllAsync|(IReceivableSourceBlock_1,System.Threading.CancellationToken):IAsyncEnumerable_1|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",

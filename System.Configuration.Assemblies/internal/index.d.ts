@@ -35,19 +35,19 @@ export type CLROf<T> =
     T; // Identity fallback for non-primitive types
 
 export enum AssemblyHashAlgorithm {
-    none = 0,
-    md5 = 32771,
-    sha1 = 32772,
-    sha256 = 32780,
-    sha384 = 32781,
-    sha512 = 32782
+    None = 0,
+    MD5 = 32771,
+    SHA1 = 32772,
+    SHA256 = 32780,
+    SHA384 = 32781,
+    SHA512 = 32782
 }
 
 
 export enum AssemblyVersionCompatibility {
-    sameMachine = 1,
-    sameProcess = 2,
-    sameDomain = 3
+    SameMachine = 1,
+    SameProcess = 2,
+    SameDomain = 3
 }
 
 

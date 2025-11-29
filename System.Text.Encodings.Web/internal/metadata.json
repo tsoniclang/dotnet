@@ -18,7 +18,7 @@
         {
           "stableId": "System.Text.Encodings.Web:System.Text.Encodings.Web.HtmlEncoder::Create(System.Text.Encodings.Web.TextEncoderSettings):System.Text.Encodings.Web.HtmlEncoder",
           "clrName": "Create",
-          "tsEmitName": "create",
+          "tsEmitName": "Create",
           "normalizedSignature": "Create|(System.Text.Encodings.Web.TextEncoderSettings):System.Text.Encodings.Web.HtmlEncoder|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -34,7 +34,7 @@
         {
           "stableId": "System.Text.Encodings.Web:System.Text.Encodings.Web.HtmlEncoder::Create(System.Text.Unicode.UnicodeRange[]):System.Text.Encodings.Web.HtmlEncoder",
           "clrName": "Create",
-          "tsEmitName": "create2",
+          "tsEmitName": "Create2",
           "normalizedSignature": "Create|(System.Text.Unicode.UnicodeRange[]):System.Text.Encodings.Web.HtmlEncoder|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -52,7 +52,7 @@
         {
           "stableId": "System.Text.Encodings.Web:System.Text.Encodings.Web.HtmlEncoder::Default:System.Text.Encodings.Web.HtmlEncoder",
           "clrName": "Default",
-          "tsEmitName": "default_",
+          "tsEmitName": "Default",
           "normalizedSignature": "Default|:System.Text.Encodings.Web.HtmlEncoder|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -83,7 +83,7 @@
         {
           "stableId": "System.Text.Encodings.Web:System.Text.Encodings.Web.JavaScriptEncoder::Create(System.Text.Encodings.Web.TextEncoderSettings):System.Text.Encodings.Web.JavaScriptEncoder",
           "clrName": "Create",
-          "tsEmitName": "create",
+          "tsEmitName": "Create",
           "normalizedSignature": "Create|(System.Text.Encodings.Web.TextEncoderSettings):System.Text.Encodings.Web.JavaScriptEncoder|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -99,7 +99,7 @@
         {
           "stableId": "System.Text.Encodings.Web:System.Text.Encodings.Web.JavaScriptEncoder::Create(System.Text.Unicode.UnicodeRange[]):System.Text.Encodings.Web.JavaScriptEncoder",
           "clrName": "Create",
-          "tsEmitName": "create2",
+          "tsEmitName": "Create2",
           "normalizedSignature": "Create|(System.Text.Unicode.UnicodeRange[]):System.Text.Encodings.Web.JavaScriptEncoder|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -117,7 +117,7 @@
         {
           "stableId": "System.Text.Encodings.Web:System.Text.Encodings.Web.JavaScriptEncoder::Default:System.Text.Encodings.Web.JavaScriptEncoder",
           "clrName": "Default",
-          "tsEmitName": "default_",
+          "tsEmitName": "Default",
           "normalizedSignature": "Default|:System.Text.Encodings.Web.JavaScriptEncoder|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -132,7 +132,7 @@
         {
           "stableId": "System.Text.Encodings.Web:System.Text.Encodings.Web.JavaScriptEncoder::UnsafeRelaxedJsonEscaping:System.Text.Encodings.Web.JavaScriptEncoder",
           "clrName": "UnsafeRelaxedJsonEscaping",
-          "tsEmitName": "unsafeRelaxedJsonEscaping",
+          "tsEmitName": "UnsafeRelaxedJsonEscaping",
           "normalizedSignature": "UnsafeRelaxedJsonEscaping|:System.Text.Encodings.Web.JavaScriptEncoder|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -163,7 +163,7 @@
         {
           "stableId": "System.Text.Encodings.Web:System.Text.Encodings.Web.TextEncoder::TryEncodeUnicodeScalar(System.Int32,System.Char*,System.Int32,System.Int32\u0026):System.Boolean",
           "clrName": "TryEncodeUnicodeScalar",
-          "tsEmitName": "tryEncodeUnicodeScalar",
+          "tsEmitName": "TryEncodeUnicodeScalar",
           "normalizedSignature": "TryEncodeUnicodeScalar|(System.Int32,System.Char*,System.Int32,System.Int32\u0026):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -179,7 +179,7 @@
         {
           "stableId": "System.Text.Encodings.Web:System.Text.Encodings.Web.TextEncoder::FindFirstCharacterToEncode(System.Char*,System.Int32):System.Int32",
           "clrName": "FindFirstCharacterToEncode",
-          "tsEmitName": "findFirstCharacterToEncode",
+          "tsEmitName": "FindFirstCharacterToEncode",
           "normalizedSignature": "FindFirstCharacterToEncode|(System.Char*,System.Int32):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -195,7 +195,7 @@
         {
           "stableId": "System.Text.Encodings.Web:System.Text.Encodings.Web.TextEncoder::WillEncode(System.Int32):System.Boolean",
           "clrName": "WillEncode",
-          "tsEmitName": "willEncode",
+          "tsEmitName": "WillEncode",
           "normalizedSignature": "WillEncode|(System.Int32):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -211,7 +211,7 @@
         {
           "stableId": "System.Text.Encodings.Web:System.Text.Encodings.Web.TextEncoder::Encode(System.String):System.String",
           "clrName": "Encode",
-          "tsEmitName": "encode",
+          "tsEmitName": "Encode",
           "normalizedSignature": "Encode|(System.String):System.String|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -227,7 +227,7 @@
         {
           "stableId": "System.Text.Encodings.Web:System.Text.Encodings.Web.TextEncoder::Encode(System.IO.TextWriter,System.String):System.Void",
           "clrName": "Encode",
-          "tsEmitName": "encode2",
+          "tsEmitName": "Encode2",
           "normalizedSignature": "Encode|(System.IO.TextWriter,System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -243,7 +243,7 @@
         {
           "stableId": "System.Text.Encodings.Web:System.Text.Encodings.Web.TextEncoder::Encode(System.IO.TextWriter,System.String,System.Int32,System.Int32):System.Void",
           "clrName": "Encode",
-          "tsEmitName": "encode3",
+          "tsEmitName": "Encode3",
           "normalizedSignature": "Encode|(System.IO.TextWriter,System.String,System.Int32,System.Int32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -259,7 +259,7 @@
         {
           "stableId": "System.Text.Encodings.Web:System.Text.Encodings.Web.TextEncoder::Encode(System.IO.TextWriter,System.Char[],System.Int32,System.Int32):System.Void",
           "clrName": "Encode",
-          "tsEmitName": "encode4",
+          "tsEmitName": "Encode4",
           "normalizedSignature": "Encode|(System.IO.TextWriter,System.Char[],System.Int32,System.Int32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -275,7 +275,7 @@
         {
           "stableId": "System.Text.Encodings.Web:System.Text.Encodings.Web.TextEncoder::EncodeUtf8(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32\u0026,System.Int32\u0026,System.Boolean):System.Buffers.OperationStatus",
           "clrName": "EncodeUtf8",
-          "tsEmitName": "encodeUtf8",
+          "tsEmitName": "EncodeUtf8",
           "normalizedSignature": "EncodeUtf8|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32\u0026,System.Int32\u0026,System.Boolean):System.Buffers.OperationStatus|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -291,7 +291,7 @@
         {
           "stableId": "System.Text.Encodings.Web:System.Text.Encodings.Web.TextEncoder::Encode(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32\u0026,System.Int32\u0026,System.Boolean):System.Buffers.OperationStatus",
           "clrName": "Encode",
-          "tsEmitName": "encode5",
+          "tsEmitName": "Encode5",
           "normalizedSignature": "Encode|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32\u0026,System.Int32\u0026,System.Boolean):System.Buffers.OperationStatus|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -307,7 +307,7 @@
         {
           "stableId": "System.Text.Encodings.Web:System.Text.Encodings.Web.TextEncoder::FindFirstCharacterToEncodeUtf8(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32",
           "clrName": "FindFirstCharacterToEncodeUtf8",
-          "tsEmitName": "findFirstCharacterToEncodeUtf8",
+          "tsEmitName": "FindFirstCharacterToEncodeUtf8",
           "normalizedSignature": "FindFirstCharacterToEncodeUtf8|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -325,7 +325,7 @@
         {
           "stableId": "System.Text.Encodings.Web:System.Text.Encodings.Web.TextEncoder::MaxOutputCharactersPerInputCharacter:System.Int32",
           "clrName": "MaxOutputCharactersPerInputCharacter",
-          "tsEmitName": "maxOutputCharactersPerInputCharacter",
+          "tsEmitName": "MaxOutputCharactersPerInputCharacter",
           "normalizedSignature": "MaxOutputCharactersPerInputCharacter|:System.Int32|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -356,7 +356,7 @@
         {
           "stableId": "System.Text.Encodings.Web:System.Text.Encodings.Web.TextEncoderSettings::AllowCharacter(System.Char):System.Void",
           "clrName": "AllowCharacter",
-          "tsEmitName": "allowCharacter",
+          "tsEmitName": "AllowCharacter",
           "normalizedSignature": "AllowCharacter|(System.Char):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -372,7 +372,7 @@
         {
           "stableId": "System.Text.Encodings.Web:System.Text.Encodings.Web.TextEncoderSettings::AllowCharacters(System.Char[]):System.Void",
           "clrName": "AllowCharacters",
-          "tsEmitName": "allowCharacters",
+          "tsEmitName": "AllowCharacters",
           "normalizedSignature": "AllowCharacters|(System.Char[]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -388,7 +388,7 @@
         {
           "stableId": "System.Text.Encodings.Web:System.Text.Encodings.Web.TextEncoderSettings::AllowCodePoints(System.Collections.Generic.IEnumerable_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "clrName": "AllowCodePoints",
-          "tsEmitName": "allowCodePoints",
+          "tsEmitName": "AllowCodePoints",
           "normalizedSignature": "AllowCodePoints|(System.Collections.Generic.IEnumerable_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -404,7 +404,7 @@
         {
           "stableId": "System.Text.Encodings.Web:System.Text.Encodings.Web.TextEncoderSettings::AllowRange(System.Text.Unicode.UnicodeRange):System.Void",
           "clrName": "AllowRange",
-          "tsEmitName": "allowRange",
+          "tsEmitName": "AllowRange",
           "normalizedSignature": "AllowRange|(System.Text.Unicode.UnicodeRange):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -420,7 +420,7 @@
         {
           "stableId": "System.Text.Encodings.Web:System.Text.Encodings.Web.TextEncoderSettings::AllowRanges(System.Text.Unicode.UnicodeRange[]):System.Void",
           "clrName": "AllowRanges",
-          "tsEmitName": "allowRanges",
+          "tsEmitName": "AllowRanges",
           "normalizedSignature": "AllowRanges|(System.Text.Unicode.UnicodeRange[]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -436,7 +436,7 @@
         {
           "stableId": "System.Text.Encodings.Web:System.Text.Encodings.Web.TextEncoderSettings::Clear():System.Void",
           "clrName": "Clear",
-          "tsEmitName": "clear",
+          "tsEmitName": "Clear",
           "normalizedSignature": "Clear|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -452,7 +452,7 @@
         {
           "stableId": "System.Text.Encodings.Web:System.Text.Encodings.Web.TextEncoderSettings::ForbidCharacter(System.Char):System.Void",
           "clrName": "ForbidCharacter",
-          "tsEmitName": "forbidCharacter",
+          "tsEmitName": "ForbidCharacter",
           "normalizedSignature": "ForbidCharacter|(System.Char):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -468,7 +468,7 @@
         {
           "stableId": "System.Text.Encodings.Web:System.Text.Encodings.Web.TextEncoderSettings::ForbidCharacters(System.Char[]):System.Void",
           "clrName": "ForbidCharacters",
-          "tsEmitName": "forbidCharacters",
+          "tsEmitName": "ForbidCharacters",
           "normalizedSignature": "ForbidCharacters|(System.Char[]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -484,7 +484,7 @@
         {
           "stableId": "System.Text.Encodings.Web:System.Text.Encodings.Web.TextEncoderSettings::ForbidRange(System.Text.Unicode.UnicodeRange):System.Void",
           "clrName": "ForbidRange",
-          "tsEmitName": "forbidRange",
+          "tsEmitName": "ForbidRange",
           "normalizedSignature": "ForbidRange|(System.Text.Unicode.UnicodeRange):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -500,7 +500,7 @@
         {
           "stableId": "System.Text.Encodings.Web:System.Text.Encodings.Web.TextEncoderSettings::ForbidRanges(System.Text.Unicode.UnicodeRange[]):System.Void",
           "clrName": "ForbidRanges",
-          "tsEmitName": "forbidRanges",
+          "tsEmitName": "ForbidRanges",
           "normalizedSignature": "ForbidRanges|(System.Text.Unicode.UnicodeRange[]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -516,7 +516,7 @@
         {
           "stableId": "System.Text.Encodings.Web:System.Text.Encodings.Web.TextEncoderSettings::GetAllowedCodePoints():System.Collections.Generic.IEnumerable_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "GetAllowedCodePoints",
-          "tsEmitName": "getAllowedCodePoints",
+          "tsEmitName": "GetAllowedCodePoints",
           "normalizedSignature": "GetAllowedCodePoints|():System.Collections.Generic.IEnumerable_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -565,7 +565,7 @@
         {
           "stableId": "System.Text.Encodings.Web:System.Text.Encodings.Web.UrlEncoder::Create(System.Text.Encodings.Web.TextEncoderSettings):System.Text.Encodings.Web.UrlEncoder",
           "clrName": "Create",
-          "tsEmitName": "create",
+          "tsEmitName": "Create",
           "normalizedSignature": "Create|(System.Text.Encodings.Web.TextEncoderSettings):System.Text.Encodings.Web.UrlEncoder|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -581,7 +581,7 @@
         {
           "stableId": "System.Text.Encodings.Web:System.Text.Encodings.Web.UrlEncoder::Create(System.Text.Unicode.UnicodeRange[]):System.Text.Encodings.Web.UrlEncoder",
           "clrName": "Create",
-          "tsEmitName": "create2",
+          "tsEmitName": "Create2",
           "normalizedSignature": "Create|(System.Text.Unicode.UnicodeRange[]):System.Text.Encodings.Web.UrlEncoder|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -599,7 +599,7 @@
         {
           "stableId": "System.Text.Encodings.Web:System.Text.Encodings.Web.UrlEncoder::Default:System.Text.Encodings.Web.UrlEncoder",
           "clrName": "Default",
-          "tsEmitName": "default_",
+          "tsEmitName": "Default",
           "normalizedSignature": "Default|:System.Text.Encodings.Web.UrlEncoder|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",

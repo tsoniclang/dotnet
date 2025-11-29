@@ -41,25 +41,25 @@ export type CLROf<T> =
 
 export class ElapsedEventArgs$instance extends System_Internal.EventArgs$instance {
     constructor(signalTime: DateTime);
-    readonly signalTime: DateTime;
+    readonly SignalTime: DateTime;
 }
 
 
 export type ElapsedEventArgs = ElapsedEventArgs$instance;
 
 export class ElapsedEventHandler$instance extends Function {
-    constructor(object_: any, method: nint);
-    beginInvoke(sender: any, e: ElapsedEventArgs, callback: AsyncCallback, object_: any): IAsyncResult;
-    clone(): any;
-    endInvoke(result: IAsyncResult): void;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(sender: any, e: ElapsedEventArgs): void;
+    constructor(object_: unknown, method: nint);
+    BeginInvoke(sender: unknown, e: ElapsedEventArgs, callback: AsyncCallback, object_: unknown): IAsyncResult;
+    Clone(): unknown;
+    EndInvoke(result: IAsyncResult): void;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    Invoke(sender: unknown, e: ElapsedEventArgs): void;
 }
 
 
 export interface __ElapsedEventHandler$views {
-    readonly As_ICloneable: System_Internal.ICloneable$instance;
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ICloneable(): System_Internal.ICloneable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type ElapsedEventHandler = ElapsedEventHandler$instance & __ElapsedEventHandler$views;
@@ -69,24 +69,24 @@ export class Timer$instance extends System_ComponentModel_Internal.Component$ins
     constructor();
     constructor(interval: double);
     constructor(interval: TimeSpan);
-    autoReset: boolean;
-    enabled: boolean;
-    interval: double;
-    site: ISite;
-    synchronizingObject: ISynchronizeInvoke;
-    beginInit(): void;
-    close(): void;
-    dispose(): void;
-    endInit(): void;
-    start(): void;
-    stop(): void;
+    AutoReset: boolean;
+    Enabled: boolean;
+    Interval: double;
+    Site: ISite;
+    SynchronizingObject: ISynchronizeInvoke;
+    BeginInit(): void;
+    Close(): void;
+    Dispose(): void;
+    EndInit(): void;
+    Start(): void;
+    Stop(): void;
 }
 
 
 export interface __Timer$views {
-    readonly As_IComponent: System_ComponentModel_Internal.IComponent$instance;
-    readonly As_ISupportInitialize: System_ComponentModel_Internal.ISupportInitialize$instance;
-    readonly As_IDisposable: System_Internal.IDisposable$instance;
+    As_IComponent(): System_ComponentModel_Internal.IComponent$instance;
+    As_ISupportInitialize(): System_ComponentModel_Internal.ISupportInitialize$instance;
+    As_IDisposable(): System_Internal.IDisposable$instance;
 }
 
 export type Timer = Timer$instance & __Timer$views;
@@ -94,7 +94,7 @@ export type Timer = Timer$instance & __Timer$views;
 
 export class TimersDescriptionAttribute$instance extends System_ComponentModel_Internal.DescriptionAttribute$instance {
     constructor(description: string);
-    readonly description: string;
+    readonly Description: string;
 }
 
 

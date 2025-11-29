@@ -29,7 +29,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Versioning.ComponentGuaranteesOptions::NoneSystem.Runtime.Versioning.ComponentGuaranteesOptions",
           "clrName": "None",
-          "tsEmitName": "none",
+          "tsEmitName": "None",
           "normalizedSignature": "None|System.Runtime.Versioning.ComponentGuaranteesOptions|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -38,7 +38,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Versioning.ComponentGuaranteesOptions::ExchangeSystem.Runtime.Versioning.ComponentGuaranteesOptions",
           "clrName": "Exchange",
-          "tsEmitName": "exchange",
+          "tsEmitName": "Exchange",
           "normalizedSignature": "Exchange|System.Runtime.Versioning.ComponentGuaranteesOptions|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -47,7 +47,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Versioning.ComponentGuaranteesOptions::StableSystem.Runtime.Versioning.ComponentGuaranteesOptions",
           "clrName": "Stable",
-          "tsEmitName": "stable",
+          "tsEmitName": "Stable",
           "normalizedSignature": "Stable|System.Runtime.Versioning.ComponentGuaranteesOptions|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -56,7 +56,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Versioning.ComponentGuaranteesOptions::SideBySideSystem.Runtime.Versioning.ComponentGuaranteesOptions",
           "clrName": "SideBySide",
-          "tsEmitName": "sideBySide",
+          "tsEmitName": "SideBySide",
           "normalizedSignature": "SideBySide|System.Runtime.Versioning.ComponentGuaranteesOptions|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -91,7 +91,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Versioning.ResourceScope::NoneSystem.Runtime.Versioning.ResourceScope",
           "clrName": "None",
-          "tsEmitName": "none",
+          "tsEmitName": "None",
           "normalizedSignature": "None|System.Runtime.Versioning.ResourceScope|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -100,7 +100,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Versioning.ResourceScope::MachineSystem.Runtime.Versioning.ResourceScope",
           "clrName": "Machine",
-          "tsEmitName": "machine",
+          "tsEmitName": "Machine",
           "normalizedSignature": "Machine|System.Runtime.Versioning.ResourceScope|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -109,7 +109,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Versioning.ResourceScope::ProcessSystem.Runtime.Versioning.ResourceScope",
           "clrName": "Process",
-          "tsEmitName": "process",
+          "tsEmitName": "Process",
           "normalizedSignature": "Process|System.Runtime.Versioning.ResourceScope|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -118,7 +118,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Versioning.ResourceScope::AppDomainSystem.Runtime.Versioning.ResourceScope",
           "clrName": "AppDomain",
-          "tsEmitName": "appDomain",
+          "tsEmitName": "AppDomain",
           "normalizedSignature": "AppDomain|System.Runtime.Versioning.ResourceScope|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -127,7 +127,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Versioning.ResourceScope::LibrarySystem.Runtime.Versioning.ResourceScope",
           "clrName": "Library",
-          "tsEmitName": "library",
+          "tsEmitName": "Library",
           "normalizedSignature": "Library|System.Runtime.Versioning.ResourceScope|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -136,7 +136,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Versioning.ResourceScope::PrivateSystem.Runtime.Versioning.ResourceScope",
           "clrName": "Private",
-          "tsEmitName": "private_",
+          "tsEmitName": "Private",
           "normalizedSignature": "Private|System.Runtime.Versioning.ResourceScope|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -145,7 +145,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Versioning.ResourceScope::AssemblySystem.Runtime.Versioning.ResourceScope",
           "clrName": "Assembly",
-          "tsEmitName": "assembly",
+          "tsEmitName": "Assembly",
           "normalizedSignature": "Assembly|System.Runtime.Versioning.ResourceScope|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -170,7 +170,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Versioning.ComponentGuaranteesAttribute::Guarantees:System.Runtime.Versioning.ComponentGuaranteesOptions",
           "clrName": "Guarantees",
-          "tsEmitName": "guarantees",
+          "tsEmitName": "Guarantees",
           "normalizedSignature": "Guarantees|:System.Runtime.Versioning.ComponentGuaranteesOptions|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -207,7 +207,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Versioning.FrameworkName::Equals(System.Object):System.Boolean",
           "clrName": "Equals",
-          "tsEmitName": "equals",
+          "tsEmitName": "Equals",
           "normalizedSignature": "Equals|(System.Object):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -223,7 +223,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Versioning.FrameworkName::Equals(System.Runtime.Versioning.FrameworkName):System.Boolean",
           "clrName": "Equals",
-          "tsEmitName": "equals2",
+          "tsEmitName": "Equals2",
           "normalizedSignature": "Equals|(System.Runtime.Versioning.FrameworkName):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -239,7 +239,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Versioning.FrameworkName::GetHashCode():System.Int32",
           "clrName": "GetHashCode",
-          "tsEmitName": "getHashCode",
+          "tsEmitName": "GetHashCode",
           "normalizedSignature": "GetHashCode|():System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -255,7 +255,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Versioning.FrameworkName::ToString():System.String",
           "clrName": "ToString",
-          "tsEmitName": "toString",
+          "tsEmitName": "ToString",
           "normalizedSignature": "ToString|():System.String|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -271,7 +271,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IEquatable\u00601::Equals(T):System.Boolean",
           "clrName": "Equals",
-          "tsEmitName": "equals$view",
+          "tsEmitName": "Equals$view",
           "normalizedSignature": "Equals|(T):System.Boolean|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -290,7 +290,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Versioning.FrameworkName::Identifier:System.String",
           "clrName": "Identifier",
-          "tsEmitName": "identifier",
+          "tsEmitName": "Identifier",
           "normalizedSignature": "Identifier|:System.String|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -305,7 +305,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Versioning.FrameworkName::Version:System.Version",
           "clrName": "Version",
-          "tsEmitName": "version",
+          "tsEmitName": "Version",
           "normalizedSignature": "Version|:System.Version|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -320,7 +320,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Versioning.FrameworkName::Profile:System.String",
           "clrName": "Profile",
-          "tsEmitName": "profile",
+          "tsEmitName": "Profile",
           "normalizedSignature": "Profile|:System.String|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -335,7 +335,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Versioning.FrameworkName::FullName:System.String",
           "clrName": "FullName",
-          "tsEmitName": "fullName",
+          "tsEmitName": "FullName",
           "normalizedSignature": "FullName|:System.String|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -366,6 +366,13 @@
           "isStatic": false,
           "parameterCount": 1
         }
+      ],
+      "unsatisfiableInterfaces": [
+        {
+          "interfaceClrName": "System.IEquatable\u00601",
+          "reason": "ExplicitImplementationMovedToView",
+          "issueCount": 1
+        }
       ]
     },
     {
@@ -383,7 +390,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Versioning.ObsoletedOSPlatformAttribute::Message:System.String",
           "clrName": "Message",
-          "tsEmitName": "message",
+          "tsEmitName": "Message",
           "normalizedSignature": "Message|:System.String|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -398,7 +405,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Versioning.ObsoletedOSPlatformAttribute::Url:System.String",
           "clrName": "Url",
-          "tsEmitName": "url",
+          "tsEmitName": "Url",
           "normalizedSignature": "Url|:System.String|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -441,7 +448,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Versioning.OSPlatformAttribute::PlatformName:System.String",
           "clrName": "PlatformName",
-          "tsEmitName": "platformName",
+          "tsEmitName": "PlatformName",
           "normalizedSignature": "PlatformName|:System.String|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -473,7 +480,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Versioning.RequiresPreviewFeaturesAttribute::Message:System.String",
           "clrName": "Message",
-          "tsEmitName": "message",
+          "tsEmitName": "Message",
           "normalizedSignature": "Message|:System.String|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -488,7 +495,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Versioning.RequiresPreviewFeaturesAttribute::Url:System.String",
           "clrName": "Url",
-          "tsEmitName": "url",
+          "tsEmitName": "Url",
           "normalizedSignature": "Url|:System.String|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -531,7 +538,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Versioning.ResourceConsumptionAttribute::ResourceScope:System.Runtime.Versioning.ResourceScope",
           "clrName": "ResourceScope",
-          "tsEmitName": "resourceScope",
+          "tsEmitName": "ResourceScope",
           "normalizedSignature": "ResourceScope|:System.Runtime.Versioning.ResourceScope|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -546,7 +553,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Versioning.ResourceConsumptionAttribute::ConsumptionScope:System.Runtime.Versioning.ResourceScope",
           "clrName": "ConsumptionScope",
-          "tsEmitName": "consumptionScope",
+          "tsEmitName": "ConsumptionScope",
           "normalizedSignature": "ConsumptionScope|:System.Runtime.Versioning.ResourceScope|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -589,7 +596,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Versioning.ResourceExposureAttribute::ResourceExposureLevel:System.Runtime.Versioning.ResourceScope",
           "clrName": "ResourceExposureLevel",
-          "tsEmitName": "resourceExposureLevel",
+          "tsEmitName": "ResourceExposureLevel",
           "normalizedSignature": "ResourceExposureLevel|:System.Runtime.Versioning.ResourceScope|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -671,7 +678,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Versioning.TargetFrameworkAttribute::FrameworkName:System.String",
           "clrName": "FrameworkName",
-          "tsEmitName": "frameworkName",
+          "tsEmitName": "FrameworkName",
           "normalizedSignature": "FrameworkName|:System.String|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -686,7 +693,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Versioning.TargetFrameworkAttribute::FrameworkDisplayName:System.String",
           "clrName": "FrameworkDisplayName",
-          "tsEmitName": "frameworkDisplayName",
+          "tsEmitName": "FrameworkDisplayName",
           "normalizedSignature": "FrameworkDisplayName|:System.String|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -746,7 +753,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Versioning.UnsupportedOSPlatformAttribute::Message:System.String",
           "clrName": "Message",
-          "tsEmitName": "message",
+          "tsEmitName": "Message",
           "normalizedSignature": "Message|:System.String|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -810,7 +817,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Versioning.VersioningHelper::MakeVersionSafeName(System.String,System.Runtime.Versioning.ResourceScope,System.Runtime.Versioning.ResourceScope):System.String",
           "clrName": "MakeVersionSafeName",
-          "tsEmitName": "makeVersionSafeName",
+          "tsEmitName": "MakeVersionSafeName",
           "normalizedSignature": "MakeVersionSafeName|(System.String,System.Runtime.Versioning.ResourceScope,System.Runtime.Versioning.ResourceScope):System.String|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -826,7 +833,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Versioning.VersioningHelper::MakeVersionSafeName(System.String,System.Runtime.Versioning.ResourceScope,System.Runtime.Versioning.ResourceScope,System.Type):System.String",
           "clrName": "MakeVersionSafeName",
-          "tsEmitName": "makeVersionSafeName2",
+          "tsEmitName": "MakeVersionSafeName2",
           "normalizedSignature": "MakeVersionSafeName|(System.String,System.Runtime.Versioning.ResourceScope,System.Runtime.Versioning.ResourceScope,System.Type):System.String|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",

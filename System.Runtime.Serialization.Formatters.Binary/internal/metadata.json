@@ -18,7 +18,7 @@
         {
           "stableId": "System.Runtime.Serialization.Formatters:System.Runtime.Serialization.Formatters.Binary.BinaryFormatter::Deserialize(System.IO.Stream):System.Object",
           "clrName": "Deserialize",
-          "tsEmitName": "deserialize",
+          "tsEmitName": "Deserialize",
           "normalizedSignature": "Deserialize|(System.IO.Stream):System.Object|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -34,7 +34,7 @@
         {
           "stableId": "System.Runtime.Serialization.Formatters:System.Runtime.Serialization.Formatters.Binary.BinaryFormatter::Serialize(System.IO.Stream,System.Object):System.Void",
           "clrName": "Serialize",
-          "tsEmitName": "serialize",
+          "tsEmitName": "Serialize",
           "normalizedSignature": "Serialize|(System.IO.Stream,System.Object):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -50,7 +50,7 @@
         {
           "stableId": "System.Runtime.Serialization.Formatters:System.Runtime.Serialization.IFormatter::Deserialize(System.IO.Stream):System.Object",
           "clrName": "Deserialize",
-          "tsEmitName": "deserialize$view",
+          "tsEmitName": "Deserialize$view",
           "normalizedSignature": "Deserialize|(System.IO.Stream):System.Object|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -67,7 +67,7 @@
         {
           "stableId": "System.Runtime.Serialization.Formatters:System.Runtime.Serialization.IFormatter::Serialize(System.IO.Stream,System.Object):System.Void",
           "clrName": "Serialize",
-          "tsEmitName": "serialize$view",
+          "tsEmitName": "Serialize$view",
           "normalizedSignature": "Serialize|(System.IO.Stream,System.Object):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -86,7 +86,7 @@
         {
           "stableId": "System.Runtime.Serialization.Formatters:System.Runtime.Serialization.Formatters.Binary.BinaryFormatter::TypeFormat:System.Runtime.Serialization.Formatters.FormatterTypeStyle",
           "clrName": "TypeFormat",
-          "tsEmitName": "typeFormat",
+          "tsEmitName": "TypeFormat",
           "normalizedSignature": "TypeFormat|:System.Runtime.Serialization.Formatters.FormatterTypeStyle|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -101,7 +101,7 @@
         {
           "stableId": "System.Runtime.Serialization.Formatters:System.Runtime.Serialization.Formatters.Binary.BinaryFormatter::AssemblyFormat:System.Runtime.Serialization.Formatters.FormatterAssemblyStyle",
           "clrName": "AssemblyFormat",
-          "tsEmitName": "assemblyFormat",
+          "tsEmitName": "AssemblyFormat",
           "normalizedSignature": "AssemblyFormat|:System.Runtime.Serialization.Formatters.FormatterAssemblyStyle|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -116,7 +116,7 @@
         {
           "stableId": "System.Runtime.Serialization.Formatters:System.Runtime.Serialization.Formatters.Binary.BinaryFormatter::FilterLevel:System.Runtime.Serialization.Formatters.TypeFilterLevel",
           "clrName": "FilterLevel",
-          "tsEmitName": "filterLevel",
+          "tsEmitName": "FilterLevel",
           "normalizedSignature": "FilterLevel|:System.Runtime.Serialization.Formatters.TypeFilterLevel|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -131,7 +131,7 @@
         {
           "stableId": "System.Runtime.Serialization.Formatters:System.Runtime.Serialization.Formatters.Binary.BinaryFormatter::SurrogateSelector:System.Runtime.Serialization.ISurrogateSelector",
           "clrName": "SurrogateSelector",
-          "tsEmitName": "surrogateSelector",
+          "tsEmitName": "SurrogateSelector",
           "normalizedSignature": "SurrogateSelector|:System.Runtime.Serialization.ISurrogateSelector|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -146,7 +146,7 @@
         {
           "stableId": "System.Runtime.Serialization.Formatters:System.Runtime.Serialization.Formatters.Binary.BinaryFormatter::Binder:System.Runtime.Serialization.SerializationBinder",
           "clrName": "Binder",
-          "tsEmitName": "binder",
+          "tsEmitName": "Binder",
           "normalizedSignature": "Binder|:System.Runtime.Serialization.SerializationBinder|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -161,7 +161,7 @@
         {
           "stableId": "System.Runtime.Serialization.Formatters:System.Runtime.Serialization.Formatters.Binary.BinaryFormatter::Context:System.Runtime.Serialization.StreamingContext",
           "clrName": "Context",
-          "tsEmitName": "context",
+          "tsEmitName": "Context",
           "normalizedSignature": "Context|:System.Runtime.Serialization.StreamingContext|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -176,7 +176,7 @@
         {
           "stableId": "System.Runtime.Serialization.Formatters:System.Runtime.Serialization.IFormatter::SurrogateSelector:System.Runtime.Serialization.ISurrogateSelector",
           "clrName": "SurrogateSelector",
-          "tsEmitName": "surrogateSelector$view",
+          "tsEmitName": "SurrogateSelector$view",
           "normalizedSignature": "SurrogateSelector|:System.Runtime.Serialization.ISurrogateSelector|static=false|accessor=getset",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -192,7 +192,7 @@
         {
           "stableId": "System.Runtime.Serialization.Formatters:System.Runtime.Serialization.IFormatter::Binder:System.Runtime.Serialization.SerializationBinder",
           "clrName": "Binder",
-          "tsEmitName": "binder$view",
+          "tsEmitName": "Binder$view",
           "normalizedSignature": "Binder|:System.Runtime.Serialization.SerializationBinder|static=false|accessor=getset",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -208,7 +208,7 @@
         {
           "stableId": "System.Runtime.Serialization.Formatters:System.Runtime.Serialization.IFormatter::Context:System.Runtime.Serialization.StreamingContext",
           "clrName": "Context",
-          "tsEmitName": "context$view",
+          "tsEmitName": "Context$view",
           "normalizedSignature": "Context|:System.Runtime.Serialization.StreamingContext|static=false|accessor=getset",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -234,6 +234,13 @@
           "normalizedSignature": "constructor|(System.Runtime.Serialization.ISurrogateSelector,System.Runtime.Serialization.StreamingContext):void|static=false",
           "isStatic": false,
           "parameterCount": 2
+        }
+      ],
+      "unsatisfiableInterfaces": [
+        {
+          "interfaceClrName": "System.Runtime.Serialization.IFormatter",
+          "reason": "ExplicitImplementationMovedToView",
+          "issueCount": 1
         }
       ]
     }

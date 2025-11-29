@@ -18,7 +18,7 @@
         {
           "stableId": "System.Security.AccessControl:System.Security.Policy.Evidence::AddAssembly(System.Object):System.Void",
           "clrName": "AddAssembly",
-          "tsEmitName": "addAssembly",
+          "tsEmitName": "AddAssembly",
           "normalizedSignature": "AddAssembly|(System.Object):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -34,7 +34,7 @@
         {
           "stableId": "System.Security.AccessControl:System.Security.Policy.Evidence::AddAssemblyEvidence(T):System.Void",
           "clrName": "AddAssemblyEvidence",
-          "tsEmitName": "addAssemblyEvidence",
+          "tsEmitName": "AddAssemblyEvidence",
           "normalizedSignature": "AddAssemblyEvidence|(T):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -50,7 +50,7 @@
         {
           "stableId": "System.Security.AccessControl:System.Security.Policy.Evidence::AddHost(System.Object):System.Void",
           "clrName": "AddHost",
-          "tsEmitName": "addHost",
+          "tsEmitName": "AddHost",
           "normalizedSignature": "AddHost|(System.Object):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -66,7 +66,7 @@
         {
           "stableId": "System.Security.AccessControl:System.Security.Policy.Evidence::AddHostEvidence(T):System.Void",
           "clrName": "AddHostEvidence",
-          "tsEmitName": "addHostEvidence",
+          "tsEmitName": "AddHostEvidence",
           "normalizedSignature": "AddHostEvidence|(T):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -82,7 +82,7 @@
         {
           "stableId": "System.Security.AccessControl:System.Security.Policy.Evidence::Clear():System.Void",
           "clrName": "Clear",
-          "tsEmitName": "clear",
+          "tsEmitName": "Clear",
           "normalizedSignature": "Clear|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -98,7 +98,7 @@
         {
           "stableId": "System.Security.AccessControl:System.Security.Policy.Evidence::Clone():System.Security.Policy.Evidence",
           "clrName": "Clone",
-          "tsEmitName": "clone",
+          "tsEmitName": "Clone",
           "normalizedSignature": "Clone|():System.Security.Policy.Evidence|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -114,7 +114,7 @@
         {
           "stableId": "System.Security.AccessControl:System.Security.Policy.Evidence::CopyTo(System.Array,System.Int32):System.Void",
           "clrName": "CopyTo",
-          "tsEmitName": "copyTo",
+          "tsEmitName": "CopyTo",
           "normalizedSignature": "CopyTo|(System.Array,System.Int32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -130,7 +130,7 @@
         {
           "stableId": "System.Security.AccessControl:System.Security.Policy.Evidence::GetAssemblyEnumerator():System.Collections.IEnumerator",
           "clrName": "GetAssemblyEnumerator",
-          "tsEmitName": "getAssemblyEnumerator",
+          "tsEmitName": "GetAssemblyEnumerator",
           "normalizedSignature": "GetAssemblyEnumerator|():System.Collections.IEnumerator|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -146,7 +146,7 @@
         {
           "stableId": "System.Security.AccessControl:System.Security.Policy.Evidence::GetAssemblyEvidence():T",
           "clrName": "GetAssemblyEvidence",
-          "tsEmitName": "getAssemblyEvidence",
+          "tsEmitName": "GetAssemblyEvidence",
           "normalizedSignature": "GetAssemblyEvidence|():T|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -162,7 +162,7 @@
         {
           "stableId": "System.Security.AccessControl:System.Security.Policy.Evidence::GetEnumerator():System.Collections.IEnumerator",
           "clrName": "GetEnumerator",
-          "tsEmitName": "getEnumerator",
+          "tsEmitName": "GetEnumerator",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -178,7 +178,7 @@
         {
           "stableId": "System.Security.AccessControl:System.Security.Policy.Evidence::GetHostEnumerator():System.Collections.IEnumerator",
           "clrName": "GetHostEnumerator",
-          "tsEmitName": "getHostEnumerator",
+          "tsEmitName": "GetHostEnumerator",
           "normalizedSignature": "GetHostEnumerator|():System.Collections.IEnumerator|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -194,7 +194,7 @@
         {
           "stableId": "System.Security.AccessControl:System.Security.Policy.Evidence::GetHostEvidence():T",
           "clrName": "GetHostEvidence",
-          "tsEmitName": "getHostEvidence",
+          "tsEmitName": "GetHostEvidence",
           "normalizedSignature": "GetHostEvidence|():T|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -210,7 +210,7 @@
         {
           "stableId": "System.Security.AccessControl:System.Security.Policy.Evidence::Merge(System.Security.Policy.Evidence):System.Void",
           "clrName": "Merge",
-          "tsEmitName": "merge",
+          "tsEmitName": "Merge",
           "normalizedSignature": "Merge|(System.Security.Policy.Evidence):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -226,7 +226,7 @@
         {
           "stableId": "System.Security.AccessControl:System.Security.Policy.Evidence::RemoveType(System.Type):System.Void",
           "clrName": "RemoveType",
-          "tsEmitName": "removeType",
+          "tsEmitName": "RemoveType",
           "normalizedSignature": "RemoveType|(System.Type):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -242,7 +242,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.ICollection::CopyTo(System.Array,System.Int32):System.Void",
           "clrName": "CopyTo",
-          "tsEmitName": "copyTo$view",
+          "tsEmitName": "CopyTo$view",
           "normalizedSignature": "CopyTo|(System.Array,System.Int32):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -259,7 +259,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
           "clrName": "GetEnumerator",
-          "tsEmitName": "getEnumerator$view",
+          "tsEmitName": "GetEnumerator$view",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -278,7 +278,7 @@
         {
           "stableId": "System.Security.AccessControl:System.Security.Policy.Evidence::Count:System.Int32",
           "clrName": "Count",
-          "tsEmitName": "count",
+          "tsEmitName": "Count",
           "normalizedSignature": "Count|:System.Int32|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -293,7 +293,7 @@
         {
           "stableId": "System.Security.AccessControl:System.Security.Policy.Evidence::IsReadOnly:System.Boolean",
           "clrName": "IsReadOnly",
-          "tsEmitName": "isReadOnly",
+          "tsEmitName": "IsReadOnly",
           "normalizedSignature": "IsReadOnly|:System.Boolean|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -308,7 +308,7 @@
         {
           "stableId": "System.Security.AccessControl:System.Security.Policy.Evidence::IsSynchronized:System.Boolean",
           "clrName": "IsSynchronized",
-          "tsEmitName": "isSynchronized",
+          "tsEmitName": "IsSynchronized",
           "normalizedSignature": "IsSynchronized|:System.Boolean|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -323,7 +323,7 @@
         {
           "stableId": "System.Security.AccessControl:System.Security.Policy.Evidence::Locked:System.Boolean",
           "clrName": "Locked",
-          "tsEmitName": "locked",
+          "tsEmitName": "Locked",
           "normalizedSignature": "Locked|:System.Boolean|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -338,7 +338,7 @@
         {
           "stableId": "System.Security.AccessControl:System.Security.Policy.Evidence::SyncRoot:System.Object",
           "clrName": "SyncRoot",
-          "tsEmitName": "syncRoot",
+          "tsEmitName": "SyncRoot",
           "normalizedSignature": "SyncRoot|:System.Object|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -353,7 +353,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.ICollection::Count:System.Int32",
           "clrName": "Count",
-          "tsEmitName": "count$view",
+          "tsEmitName": "Count$view",
           "normalizedSignature": "Count|:System.Int32|static=false|accessor=get",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -369,7 +369,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.ICollection::SyncRoot:System.Object",
           "clrName": "SyncRoot",
-          "tsEmitName": "syncRoot$view",
+          "tsEmitName": "SyncRoot$view",
           "normalizedSignature": "SyncRoot|:System.Object|static=false|accessor=get",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -385,7 +385,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.ICollection::IsSynchronized:System.Boolean",
           "clrName": "IsSynchronized",
-          "tsEmitName": "isSynchronized$view",
+          "tsEmitName": "IsSynchronized$view",
           "normalizedSignature": "IsSynchronized|:System.Boolean|static=false|accessor=get",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -422,6 +422,18 @@
           "isStatic": false,
           "parameterCount": 2
         }
+      ],
+      "unsatisfiableInterfaces": [
+        {
+          "interfaceClrName": "System.Collections.ICollection",
+          "reason": "ExplicitImplementationMovedToView",
+          "issueCount": 1
+        },
+        {
+          "interfaceClrName": "System.Collections.IEnumerable",
+          "reason": "ExplicitImplementationMovedToView",
+          "issueCount": 1
+        }
       ]
     },
     {
@@ -438,7 +450,7 @@
         {
           "stableId": "System.Security.AccessControl:System.Security.Policy.EvidenceBase::Clone():System.Security.Policy.EvidenceBase",
           "clrName": "Clone",
-          "tsEmitName": "clone",
+          "tsEmitName": "Clone",
           "normalizedSignature": "Clone|():System.Security.Policy.EvidenceBase|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",

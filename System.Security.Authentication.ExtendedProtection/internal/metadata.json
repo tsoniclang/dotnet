@@ -31,7 +31,7 @@
         {
           "stableId": "System.Net.Primitives:System.Security.Authentication.ExtendedProtection.ChannelBindingKind::UnknownSystem.Security.Authentication.ExtendedProtection.ChannelBindingKind",
           "clrName": "Unknown",
-          "tsEmitName": "unknown_",
+          "tsEmitName": "Unknown",
           "normalizedSignature": "Unknown|System.Security.Authentication.ExtendedProtection.ChannelBindingKind|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -40,7 +40,7 @@
         {
           "stableId": "System.Net.Primitives:System.Security.Authentication.ExtendedProtection.ChannelBindingKind::UniqueSystem.Security.Authentication.ExtendedProtection.ChannelBindingKind",
           "clrName": "Unique",
-          "tsEmitName": "unique",
+          "tsEmitName": "Unique",
           "normalizedSignature": "Unique|System.Security.Authentication.ExtendedProtection.ChannelBindingKind|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -49,7 +49,7 @@
         {
           "stableId": "System.Net.Primitives:System.Security.Authentication.ExtendedProtection.ChannelBindingKind::EndpointSystem.Security.Authentication.ExtendedProtection.ChannelBindingKind",
           "clrName": "Endpoint",
-          "tsEmitName": "endpoint",
+          "tsEmitName": "Endpoint",
           "normalizedSignature": "Endpoint|System.Security.Authentication.ExtendedProtection.ChannelBindingKind|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -84,7 +84,7 @@
         {
           "stableId": "System.Net.Security:System.Security.Authentication.ExtendedProtection.PolicyEnforcement::NeverSystem.Security.Authentication.ExtendedProtection.PolicyEnforcement",
           "clrName": "Never",
-          "tsEmitName": "never_",
+          "tsEmitName": "Never",
           "normalizedSignature": "Never|System.Security.Authentication.ExtendedProtection.PolicyEnforcement|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -93,7 +93,7 @@
         {
           "stableId": "System.Net.Security:System.Security.Authentication.ExtendedProtection.PolicyEnforcement::WhenSupportedSystem.Security.Authentication.ExtendedProtection.PolicyEnforcement",
           "clrName": "WhenSupported",
-          "tsEmitName": "whenSupported",
+          "tsEmitName": "WhenSupported",
           "normalizedSignature": "WhenSupported|System.Security.Authentication.ExtendedProtection.PolicyEnforcement|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -102,7 +102,7 @@
         {
           "stableId": "System.Net.Security:System.Security.Authentication.ExtendedProtection.PolicyEnforcement::AlwaysSystem.Security.Authentication.ExtendedProtection.PolicyEnforcement",
           "clrName": "Always",
-          "tsEmitName": "always",
+          "tsEmitName": "Always",
           "normalizedSignature": "Always|System.Security.Authentication.ExtendedProtection.PolicyEnforcement|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -137,7 +137,7 @@
         {
           "stableId": "System.Net.Security:System.Security.Authentication.ExtendedProtection.ProtectionScenario::TransportSelectedSystem.Security.Authentication.ExtendedProtection.ProtectionScenario",
           "clrName": "TransportSelected",
-          "tsEmitName": "transportSelected",
+          "tsEmitName": "TransportSelected",
           "normalizedSignature": "TransportSelected|System.Security.Authentication.ExtendedProtection.ProtectionScenario|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -146,7 +146,7 @@
         {
           "stableId": "System.Net.Security:System.Security.Authentication.ExtendedProtection.ProtectionScenario::TrustedProxySystem.Security.Authentication.ExtendedProtection.ProtectionScenario",
           "clrName": "TrustedProxy",
-          "tsEmitName": "trustedProxy",
+          "tsEmitName": "TrustedProxy",
           "normalizedSignature": "TrustedProxy|System.Security.Authentication.ExtendedProtection.ProtectionScenario|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -170,7 +170,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "dispose$view",
+          "tsEmitName": "Dispose$view",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -187,7 +187,7 @@
         {
           "stableId": "System.Net.Primitives:System.Security.Authentication.ExtendedProtection.ChannelBinding::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "dispose",
+          "tsEmitName": "Dispose",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -205,7 +205,7 @@
         {
           "stableId": "System.Net.Primitives:System.Security.Authentication.ExtendedProtection.ChannelBinding::Size:System.Int32",
           "clrName": "Size",
-          "tsEmitName": "size",
+          "tsEmitName": "Size",
           "normalizedSignature": "Size|:System.Int32|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -220,7 +220,14 @@
       ],
       "fields": [],
       "events": [],
-      "constructors": []
+      "constructors": [],
+      "unsatisfiableInterfaces": [
+        {
+          "interfaceClrName": "System.IDisposable",
+          "reason": "ExplicitImplementationMovedToView",
+          "issueCount": 1
+        }
+      ]
     },
     {
       "stableId": "System.Net.Security:System.Security.Authentication.ExtendedProtection.ExtendedProtectionPolicy",
@@ -236,7 +243,7 @@
         {
           "stableId": "System.Net.Security:System.Security.Authentication.ExtendedProtection.ExtendedProtectionPolicy::ToString():System.String",
           "clrName": "ToString",
-          "tsEmitName": "toString",
+          "tsEmitName": "ToString",
           "normalizedSignature": "ToString|():System.String|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -252,7 +259,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "getObjectData",
+          "tsEmitName": "GetObjectData",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -271,7 +278,7 @@
         {
           "stableId": "System.Net.Security:System.Security.Authentication.ExtendedProtection.ExtendedProtectionPolicy::CustomServiceNames:System.Security.Authentication.ExtendedProtection.ServiceNameCollection",
           "clrName": "CustomServiceNames",
-          "tsEmitName": "customServiceNames",
+          "tsEmitName": "CustomServiceNames",
           "normalizedSignature": "CustomServiceNames|:System.Security.Authentication.ExtendedProtection.ServiceNameCollection|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -286,7 +293,7 @@
         {
           "stableId": "System.Net.Security:System.Security.Authentication.ExtendedProtection.ExtendedProtectionPolicy::PolicyEnforcement:System.Security.Authentication.ExtendedProtection.PolicyEnforcement",
           "clrName": "PolicyEnforcement",
-          "tsEmitName": "policyEnforcement",
+          "tsEmitName": "PolicyEnforcement",
           "normalizedSignature": "PolicyEnforcement|:System.Security.Authentication.ExtendedProtection.PolicyEnforcement|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -301,7 +308,7 @@
         {
           "stableId": "System.Net.Security:System.Security.Authentication.ExtendedProtection.ExtendedProtectionPolicy::ProtectionScenario:System.Security.Authentication.ExtendedProtection.ProtectionScenario",
           "clrName": "ProtectionScenario",
-          "tsEmitName": "protectionScenario",
+          "tsEmitName": "ProtectionScenario",
           "normalizedSignature": "ProtectionScenario|:System.Security.Authentication.ExtendedProtection.ProtectionScenario|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -316,7 +323,7 @@
         {
           "stableId": "System.Net.Security:System.Security.Authentication.ExtendedProtection.ExtendedProtectionPolicy::CustomChannelBinding:System.Security.Authentication.ExtendedProtection.ChannelBinding",
           "clrName": "CustomChannelBinding",
-          "tsEmitName": "customChannelBinding",
+          "tsEmitName": "CustomChannelBinding",
           "normalizedSignature": "CustomChannelBinding|:System.Security.Authentication.ExtendedProtection.ChannelBinding|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -331,7 +338,7 @@
         {
           "stableId": "System.Net.Security:System.Security.Authentication.ExtendedProtection.ExtendedProtectionPolicy::OSSupportsExtendedProtection:System.Boolean",
           "clrName": "OSSupportsExtendedProtection",
-          "tsEmitName": "osSupportsExtendedProtection",
+          "tsEmitName": "OSSupportsExtendedProtection",
           "normalizedSignature": "OSSupportsExtendedProtection|:System.Boolean|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -367,6 +374,13 @@
           "isStatic": false,
           "parameterCount": 1
         }
+      ],
+      "unsatisfiableInterfaces": [
+        {
+          "interfaceClrName": "System.Runtime.Serialization.ISerializable",
+          "reason": "ExplicitImplementationMovedToView",
+          "issueCount": 1
+        }
       ]
     },
     {
@@ -383,7 +397,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Security.Authentication.ExtendedProtection.ExtendedProtectionPolicyTypeConverter::CanConvertTo(System.ComponentModel.ITypeDescriptorContext,System.Type):System.Boolean",
           "clrName": "CanConvertTo",
-          "tsEmitName": "canConvertTo2",
+          "tsEmitName": "CanConvertTo2",
           "normalizedSignature": "CanConvertTo|(System.ComponentModel.ITypeDescriptorContext,System.Type):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -399,7 +413,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Security.Authentication.ExtendedProtection.ExtendedProtectionPolicyTypeConverter::ConvertTo(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object,System.Type):System.Object",
           "clrName": "ConvertTo",
-          "tsEmitName": "convertTo2",
+          "tsEmitName": "ConvertTo2",
           "normalizedSignature": "ConvertTo|(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object,System.Type):System.Object|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -415,7 +429,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Security.Authentication.ExtendedProtection.ExtendedProtectionPolicyTypeConverter::CanConvertTo(System.Type):System.Boolean",
           "clrName": "CanConvertTo",
-          "tsEmitName": "canConvertTo",
+          "tsEmitName": "CanConvertTo",
           "normalizedSignature": "CanConvertTo|(System.Type):System.Boolean|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -431,7 +445,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Security.Authentication.ExtendedProtection.ExtendedProtectionPolicyTypeConverter::ConvertTo(System.Object,System.Type):System.Object",
           "clrName": "ConvertTo",
-          "tsEmitName": "convertTo",
+          "tsEmitName": "ConvertTo",
           "normalizedSignature": "ConvertTo|(System.Object,System.Type):System.Object|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -470,7 +484,7 @@
         {
           "stableId": "System.Net.Security:System.Security.Authentication.ExtendedProtection.ServiceNameCollection::Contains(System.String):System.Boolean",
           "clrName": "Contains",
-          "tsEmitName": "contains",
+          "tsEmitName": "Contains",
           "normalizedSignature": "Contains|(System.String):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -486,7 +500,7 @@
         {
           "stableId": "System.Net.Security:System.Security.Authentication.ExtendedProtection.ServiceNameCollection::Merge(System.String):System.Security.Authentication.ExtendedProtection.ServiceNameCollection",
           "clrName": "Merge",
-          "tsEmitName": "merge",
+          "tsEmitName": "Merge",
           "normalizedSignature": "Merge|(System.String):System.Security.Authentication.ExtendedProtection.ServiceNameCollection|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -502,7 +516,7 @@
         {
           "stableId": "System.Net.Security:System.Security.Authentication.ExtendedProtection.ServiceNameCollection::Merge(System.Collections.IEnumerable):System.Security.Authentication.ExtendedProtection.ServiceNameCollection",
           "clrName": "Merge",
-          "tsEmitName": "merge2",
+          "tsEmitName": "Merge2",
           "normalizedSignature": "Merge|(System.Collections.IEnumerable):System.Security.Authentication.ExtendedProtection.ServiceNameCollection|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -518,7 +532,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.ICollection::CopyTo(System.Array,System.Int32):System.Void",
           "clrName": "CopyTo",
-          "tsEmitName": "copyTo$view",
+          "tsEmitName": "CopyTo$view",
           "normalizedSignature": "CopyTo|(System.Array,System.Int32):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -535,7 +549,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
           "clrName": "GetEnumerator",
-          "tsEmitName": "getEnumerator$view",
+          "tsEmitName": "GetEnumerator$view",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -552,7 +566,7 @@
         {
           "stableId": "System.Net.Security:System.Security.Authentication.ExtendedProtection.ServiceNameCollection::CopyTo(System.Array,System.Int32):System.Void",
           "clrName": "CopyTo",
-          "tsEmitName": "copyTo",
+          "tsEmitName": "CopyTo",
           "normalizedSignature": "CopyTo|(System.Array,System.Int32):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -568,7 +582,7 @@
         {
           "stableId": "System.Net.Security:System.Security.Authentication.ExtendedProtection.ServiceNameCollection::GetEnumerator():System.Collections.IEnumerator",
           "clrName": "GetEnumerator",
-          "tsEmitName": "getEnumerator",
+          "tsEmitName": "GetEnumerator",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -586,7 +600,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.ICollection::Count:System.Int32",
           "clrName": "Count",
-          "tsEmitName": "count",
+          "tsEmitName": "Count",
           "normalizedSignature": "Count|:System.Int32|static=false|accessor=get",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -602,7 +616,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.ICollection::SyncRoot:System.Object",
           "clrName": "SyncRoot",
-          "tsEmitName": "syncRoot",
+          "tsEmitName": "SyncRoot",
           "normalizedSignature": "SyncRoot|:System.Object|static=false|accessor=get",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -618,7 +632,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.ICollection::IsSynchronized:System.Boolean",
           "clrName": "IsSynchronized",
-          "tsEmitName": "isSynchronized",
+          "tsEmitName": "IsSynchronized",
           "normalizedSignature": "IsSynchronized|:System.Boolean|static=false|accessor=get",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -639,6 +653,18 @@
           "normalizedSignature": "constructor|(System.Collections.ICollection):void|static=false",
           "isStatic": false,
           "parameterCount": 1
+        }
+      ],
+      "unsatisfiableInterfaces": [
+        {
+          "interfaceClrName": "System.Collections.ICollection",
+          "reason": "ExplicitImplementationMovedToView",
+          "issueCount": 1
+        },
+        {
+          "interfaceClrName": "System.Collections.IEnumerable",
+          "reason": "ExplicitImplementationMovedToView",
+          "issueCount": 1
         }
       ]
     }

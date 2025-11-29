@@ -29,7 +29,7 @@
         {
           "stableId": "System.Threading.Channels:System.Threading.Channels.BoundedChannelFullMode::WaitSystem.Threading.Channels.BoundedChannelFullMode",
           "clrName": "Wait",
-          "tsEmitName": "wait",
+          "tsEmitName": "Wait",
           "normalizedSignature": "Wait|System.Threading.Channels.BoundedChannelFullMode|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -38,7 +38,7 @@
         {
           "stableId": "System.Threading.Channels:System.Threading.Channels.BoundedChannelFullMode::DropNewestSystem.Threading.Channels.BoundedChannelFullMode",
           "clrName": "DropNewest",
-          "tsEmitName": "dropNewest",
+          "tsEmitName": "DropNewest",
           "normalizedSignature": "DropNewest|System.Threading.Channels.BoundedChannelFullMode|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -47,7 +47,7 @@
         {
           "stableId": "System.Threading.Channels:System.Threading.Channels.BoundedChannelFullMode::DropOldestSystem.Threading.Channels.BoundedChannelFullMode",
           "clrName": "DropOldest",
-          "tsEmitName": "dropOldest",
+          "tsEmitName": "DropOldest",
           "normalizedSignature": "DropOldest|System.Threading.Channels.BoundedChannelFullMode|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -56,7 +56,7 @@
         {
           "stableId": "System.Threading.Channels:System.Threading.Channels.BoundedChannelFullMode::DropWriteSystem.Threading.Channels.BoundedChannelFullMode",
           "clrName": "DropWrite",
-          "tsEmitName": "dropWrite",
+          "tsEmitName": "DropWrite",
           "normalizedSignature": "DropWrite|System.Threading.Channels.BoundedChannelFullMode|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -81,7 +81,7 @@
         {
           "stableId": "System.Threading.Channels:System.Threading.Channels.BoundedChannelOptions::Capacity:System.Int32",
           "clrName": "Capacity",
-          "tsEmitName": "capacity",
+          "tsEmitName": "Capacity",
           "normalizedSignature": "Capacity|:System.Int32|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -96,7 +96,7 @@
         {
           "stableId": "System.Threading.Channels:System.Threading.Channels.BoundedChannelOptions::FullMode:System.Threading.Channels.BoundedChannelFullMode",
           "clrName": "FullMode",
-          "tsEmitName": "fullMode",
+          "tsEmitName": "FullMode",
           "normalizedSignature": "FullMode|:System.Threading.Channels.BoundedChannelFullMode|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -150,7 +150,7 @@
         {
           "stableId": "System.Threading.Channels:System.Threading.Channels.Channel\u00602::Reader:ChannelReader_1",
           "clrName": "Reader",
-          "tsEmitName": "reader",
+          "tsEmitName": "Reader",
           "normalizedSignature": "Reader|:ChannelReader_1|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -165,7 +165,7 @@
         {
           "stableId": "System.Threading.Channels:System.Threading.Channels.Channel\u00602::Writer:ChannelWriter_1",
           "clrName": "Writer",
-          "tsEmitName": "writer",
+          "tsEmitName": "Writer",
           "normalizedSignature": "Writer|:ChannelWriter_1|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -196,7 +196,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "getObjectData$view",
+          "tsEmitName": "GetObjectData$view",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -213,7 +213,7 @@
         {
           "stableId": "System.Threading.Channels:System.Threading.Channels.ChannelClosedException::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "getObjectData",
+          "tsEmitName": "GetObjectData",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -251,6 +251,13 @@
           "isStatic": false,
           "parameterCount": 2
         }
+      ],
+      "unsatisfiableInterfaces": [
+        {
+          "interfaceClrName": "System.Runtime.Serialization.ISerializable",
+          "reason": "ExplicitImplementationMovedToView",
+          "issueCount": 1
+        }
       ]
     },
     {
@@ -268,7 +275,7 @@
         {
           "stableId": "System.Threading.Channels:System.Threading.Channels.ChannelOptions::SingleWriter:System.Boolean",
           "clrName": "SingleWriter",
-          "tsEmitName": "singleWriter",
+          "tsEmitName": "SingleWriter",
           "normalizedSignature": "SingleWriter|:System.Boolean|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -283,7 +290,7 @@
         {
           "stableId": "System.Threading.Channels:System.Threading.Channels.ChannelOptions::SingleReader:System.Boolean",
           "clrName": "SingleReader",
-          "tsEmitName": "singleReader",
+          "tsEmitName": "SingleReader",
           "normalizedSignature": "SingleReader|:System.Boolean|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -298,7 +305,7 @@
         {
           "stableId": "System.Threading.Channels:System.Threading.Channels.ChannelOptions::AllowSynchronousContinuations:System.Boolean",
           "clrName": "AllowSynchronousContinuations",
-          "tsEmitName": "allowSynchronousContinuations",
+          "tsEmitName": "AllowSynchronousContinuations",
           "normalizedSignature": "AllowSynchronousContinuations|:System.Boolean|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -329,7 +336,7 @@
         {
           "stableId": "System.Threading.Channels:System.Threading.Channels.ChannelReader\u00601::TryRead(T\u0026):System.Boolean",
           "clrName": "TryRead",
-          "tsEmitName": "tryRead",
+          "tsEmitName": "TryRead",
           "normalizedSignature": "TryRead|(T\u0026):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -345,7 +352,7 @@
         {
           "stableId": "System.Threading.Channels:System.Threading.Channels.ChannelReader\u00601::TryPeek(T\u0026):System.Boolean",
           "clrName": "TryPeek",
-          "tsEmitName": "tryPeek",
+          "tsEmitName": "TryPeek",
           "normalizedSignature": "TryPeek|(T\u0026):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -361,7 +368,7 @@
         {
           "stableId": "System.Threading.Channels:System.Threading.Channels.ChannelReader\u00601::WaitToReadAsync(System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Boolean,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "WaitToReadAsync",
-          "tsEmitName": "waitToReadAsync",
+          "tsEmitName": "WaitToReadAsync",
           "normalizedSignature": "WaitToReadAsync|(System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Boolean,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -377,7 +384,7 @@
         {
           "stableId": "System.Threading.Channels:System.Threading.Channels.ChannelReader\u00601::ReadAsync(System.Threading.CancellationToken):ValueTask_1",
           "clrName": "ReadAsync",
-          "tsEmitName": "readAsync",
+          "tsEmitName": "ReadAsync",
           "normalizedSignature": "ReadAsync|(System.Threading.CancellationToken):ValueTask_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -393,7 +400,7 @@
         {
           "stableId": "System.Threading.Channels:System.Threading.Channels.ChannelReader\u00601::ReadAllAsync(System.Threading.CancellationToken):IAsyncEnumerable_1",
           "clrName": "ReadAllAsync",
-          "tsEmitName": "readAllAsync",
+          "tsEmitName": "ReadAllAsync",
           "normalizedSignature": "ReadAllAsync|(System.Threading.CancellationToken):IAsyncEnumerable_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -411,7 +418,7 @@
         {
           "stableId": "System.Threading.Channels:System.Threading.Channels.ChannelReader\u00601::Completion:System.Threading.Tasks.Task",
           "clrName": "Completion",
-          "tsEmitName": "completion",
+          "tsEmitName": "Completion",
           "normalizedSignature": "Completion|:System.Threading.Tasks.Task|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -426,7 +433,7 @@
         {
           "stableId": "System.Threading.Channels:System.Threading.Channels.ChannelReader\u00601::CanCount:System.Boolean",
           "clrName": "CanCount",
-          "tsEmitName": "canCount",
+          "tsEmitName": "CanCount",
           "normalizedSignature": "CanCount|:System.Boolean|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -441,7 +448,7 @@
         {
           "stableId": "System.Threading.Channels:System.Threading.Channels.ChannelReader\u00601::CanPeek:System.Boolean",
           "clrName": "CanPeek",
-          "tsEmitName": "canPeek",
+          "tsEmitName": "CanPeek",
           "normalizedSignature": "CanPeek|:System.Boolean|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -456,7 +463,7 @@
         {
           "stableId": "System.Threading.Channels:System.Threading.Channels.ChannelReader\u00601::Count:System.Int32",
           "clrName": "Count",
-          "tsEmitName": "count",
+          "tsEmitName": "Count",
           "normalizedSignature": "Count|:System.Int32|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -487,7 +494,7 @@
         {
           "stableId": "System.Threading.Channels:System.Threading.Channels.ChannelWriter\u00601::TryComplete(System.Exception):System.Boolean",
           "clrName": "TryComplete",
-          "tsEmitName": "tryComplete",
+          "tsEmitName": "TryComplete",
           "normalizedSignature": "TryComplete|(System.Exception):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -503,7 +510,7 @@
         {
           "stableId": "System.Threading.Channels:System.Threading.Channels.ChannelWriter\u00601::TryWrite(T):System.Boolean",
           "clrName": "TryWrite",
-          "tsEmitName": "tryWrite",
+          "tsEmitName": "TryWrite",
           "normalizedSignature": "TryWrite|(T):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -519,7 +526,7 @@
         {
           "stableId": "System.Threading.Channels:System.Threading.Channels.ChannelWriter\u00601::WaitToWriteAsync(System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Boolean,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "WaitToWriteAsync",
-          "tsEmitName": "waitToWriteAsync",
+          "tsEmitName": "WaitToWriteAsync",
           "normalizedSignature": "WaitToWriteAsync|(System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Boolean,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -535,7 +542,7 @@
         {
           "stableId": "System.Threading.Channels:System.Threading.Channels.ChannelWriter\u00601::WriteAsync(T,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask",
           "clrName": "WriteAsync",
-          "tsEmitName": "writeAsync",
+          "tsEmitName": "WriteAsync",
           "normalizedSignature": "WriteAsync|(T,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -551,7 +558,7 @@
         {
           "stableId": "System.Threading.Channels:System.Threading.Channels.ChannelWriter\u00601::Complete(System.Exception):System.Void",
           "clrName": "Complete",
-          "tsEmitName": "complete",
+          "tsEmitName": "Complete",
           "normalizedSignature": "Complete|(System.Exception):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -607,7 +614,7 @@
         {
           "stableId": "System.Threading.Channels:System.Threading.Channels.UnboundedPrioritizedChannelOptions\u00601::Comparer:IComparer_1",
           "clrName": "Comparer",
-          "tsEmitName": "comparer",
+          "tsEmitName": "Comparer",
           "normalizedSignature": "Comparer|:IComparer_1|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -644,7 +651,7 @@
         {
           "stableId": "System.Threading.Channels:System.Threading.Channels.Channel::CreateUnbounded():Channel_1",
           "clrName": "CreateUnbounded",
-          "tsEmitName": "createUnbounded",
+          "tsEmitName": "CreateUnbounded",
           "normalizedSignature": "CreateUnbounded|():Channel_1|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -660,7 +667,7 @@
         {
           "stableId": "System.Threading.Channels:System.Threading.Channels.Channel::CreateUnbounded(System.Threading.Channels.UnboundedChannelOptions):Channel_1",
           "clrName": "CreateUnbounded",
-          "tsEmitName": "createUnbounded2",
+          "tsEmitName": "CreateUnbounded2",
           "normalizedSignature": "CreateUnbounded|(System.Threading.Channels.UnboundedChannelOptions):Channel_1|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -676,7 +683,7 @@
         {
           "stableId": "System.Threading.Channels:System.Threading.Channels.Channel::CreateBounded(System.Int32):Channel_1",
           "clrName": "CreateBounded",
-          "tsEmitName": "createBounded",
+          "tsEmitName": "CreateBounded",
           "normalizedSignature": "CreateBounded|(System.Int32):Channel_1|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -692,7 +699,7 @@
         {
           "stableId": "System.Threading.Channels:System.Threading.Channels.Channel::CreateBounded(System.Threading.Channels.BoundedChannelOptions):Channel_1",
           "clrName": "CreateBounded",
-          "tsEmitName": "createBounded2",
+          "tsEmitName": "CreateBounded2",
           "normalizedSignature": "CreateBounded|(System.Threading.Channels.BoundedChannelOptions):Channel_1|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -708,7 +715,7 @@
         {
           "stableId": "System.Threading.Channels:System.Threading.Channels.Channel::CreateBounded(System.Threading.Channels.BoundedChannelOptions,Action_1):Channel_1",
           "clrName": "CreateBounded",
-          "tsEmitName": "createBounded3",
+          "tsEmitName": "CreateBounded3",
           "normalizedSignature": "CreateBounded|(System.Threading.Channels.BoundedChannelOptions,Action_1):Channel_1|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -724,7 +731,7 @@
         {
           "stableId": "System.Threading.Channels:System.Threading.Channels.Channel::CreateUnboundedPrioritized():Channel_1",
           "clrName": "CreateUnboundedPrioritized",
-          "tsEmitName": "createUnboundedPrioritized",
+          "tsEmitName": "CreateUnboundedPrioritized",
           "normalizedSignature": "CreateUnboundedPrioritized|():Channel_1|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -740,7 +747,7 @@
         {
           "stableId": "System.Threading.Channels:System.Threading.Channels.Channel::CreateUnboundedPrioritized(UnboundedPrioritizedChannelOptions_1):Channel_1",
           "clrName": "CreateUnboundedPrioritized",
-          "tsEmitName": "createUnboundedPrioritized2",
+          "tsEmitName": "CreateUnboundedPrioritized2",
           "normalizedSignature": "CreateUnboundedPrioritized|(UnboundedPrioritizedChannelOptions_1):Channel_1|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
