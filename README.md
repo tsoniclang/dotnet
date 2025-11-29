@@ -92,6 +92,45 @@ import type { IPAddress, Socket } from "@tsonic/dotnet/System.Net";
 import type { JsonSerializer } from "@tsonic/dotnet/System.Text.Json";
 ```
 
+## Development
+
+### Regenerating Types
+
+To regenerate TypeScript declarations from .NET assemblies:
+
+```bash
+./__build/scripts/generate.sh
+```
+
+**Prerequisites:**
+- .NET 10 SDK installed
+- `tsbindgen` repository cloned at `../tsbindgen` (sibling directory)
+
+The script will:
+1. Clean existing namespace directories
+2. Build tsbindgen
+3. Generate fresh TypeScript declarations
+
+**Environment variables:**
+- `DOTNET_VERSION` - .NET runtime version (default: `10.0.0-rc.1.25451.107`)
+- `DOTNET_HOME` - .NET installation directory (default: `$HOME/dotnet`)
+
+### Package Structure
+
+```
+@tsonic/dotnet/
+├── [Namespace]/           # .NET namespace directories (System, Microsoft, etc.)
+│   ├── index.d.ts         # Public type declarations
+│   ├── index.js           # ESM module stub
+│   ├── bindings.json      # CLR↔TS name mappings
+│   └── internal/          # Internal implementation types
+├── __internal/            # Extension method buckets
+│   └── extensions/
+└── __build/               # Build tooling
+    └── scripts/
+        └── generate.sh    # Type regeneration script
+```
+
 ## License
 
 MIT
