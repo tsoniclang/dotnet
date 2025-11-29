@@ -35,36 +35,36 @@ export type CLROf<T> =
     T; // Identity fallback for non-primitive types
 
 export enum DynamicallyAccessedMemberTypes {
-    None = 0,
-    PublicParameterlessConstructor = 1,
-    PublicConstructors = 3,
-    NonPublicConstructors = 4,
-    PublicMethods = 8,
-    NonPublicMethods = 16,
-    PublicFields = 32,
-    NonPublicFields = 64,
-    PublicNestedTypes = 128,
-    NonPublicNestedTypes = 256,
-    PublicProperties = 512,
-    NonPublicProperties = 1024,
-    PublicEvents = 2048,
-    NonPublicEvents = 4096,
-    Interfaces = 8192,
-    NonPublicConstructorsWithInherited = 16388,
-    NonPublicMethodsWithInherited = 32784,
-    NonPublicFieldsWithInherited = 65600,
-    NonPublicNestedTypesWithInherited = 131328,
-    NonPublicPropertiesWithInherited = 263168,
-    NonPublicEventsWithInherited = 528384,
-    PublicConstructorsWithInherited = 1048579,
-    PublicNestedTypesWithInherited = 2097280,
-    AllConstructors = 1064967,
-    AllMethods = 32792,
-    AllFields = 65632,
-    AllNestedTypes = 2228608,
-    AllProperties = 263680,
-    AllEvents = 530432,
-    All = -1
+    none = 0,
+    publicParameterlessConstructor = 1,
+    publicConstructors = 3,
+    nonPublicConstructors = 4,
+    publicMethods = 8,
+    nonPublicMethods = 16,
+    publicFields = 32,
+    nonPublicFields = 64,
+    publicNestedTypes = 128,
+    nonPublicNestedTypes = 256,
+    publicProperties = 512,
+    nonPublicProperties = 1024,
+    publicEvents = 2048,
+    nonPublicEvents = 4096,
+    interfaces = 8192,
+    nonPublicConstructorsWithInherited = 16388,
+    nonPublicMethodsWithInherited = 32784,
+    nonPublicFieldsWithInherited = 65600,
+    nonPublicNestedTypesWithInherited = 131328,
+    nonPublicPropertiesWithInherited = 263168,
+    nonPublicEventsWithInherited = 528384,
+    publicConstructorsWithInherited = 1048579,
+    publicNestedTypesWithInherited = 2097280,
+    allConstructors = 1064967,
+    allMethods = 32792,
+    allFields = 65632,
+    allNestedTypes = 2228608,
+    allProperties = 263680,
+    allEvents = 530432,
+    all = -1
 }
 
 
@@ -77,8 +77,8 @@ export type AllowNullAttribute = AllowNullAttribute$instance;
 
 export class ConstantExpectedAttribute$instance extends System_Internal.Attribute$instance {
     constructor();
-    Max: unknown;
-    Min: unknown;
+    max: unknown;
+    min: unknown;
 }
 
 
@@ -100,7 +100,7 @@ export type DoesNotReturnAttribute = DoesNotReturnAttribute$instance;
 
 export class DoesNotReturnIfAttribute$instance extends System_Internal.Attribute$instance {
     constructor(parameterValue: boolean);
-    readonly ParameterValue: boolean;
+    readonly parameterValue: boolean;
 }
 
 
@@ -108,7 +108,7 @@ export type DoesNotReturnIfAttribute = DoesNotReturnIfAttribute$instance;
 
 export class DynamicallyAccessedMembersAttribute$instance extends System_Internal.Attribute$instance {
     constructor(memberTypes: DynamicallyAccessedMemberTypes);
-    readonly MemberTypes: DynamicallyAccessedMemberTypes;
+    readonly memberTypes: DynamicallyAccessedMemberTypes;
 }
 
 
@@ -120,12 +120,12 @@ export class DynamicDependencyAttribute$instance extends System_Internal.Attribu
     constructor(memberSignature: string, typeName: string, assemblyName: string);
     constructor(memberTypes: DynamicallyAccessedMemberTypes, type_: Type);
     constructor(memberTypes: DynamicallyAccessedMemberTypes, typeName: string, assemblyName: string);
-    readonly AssemblyName: string;
-    Condition: string;
-    readonly MemberSignature: string;
-    readonly MemberTypes: DynamicallyAccessedMemberTypes;
-    readonly Type: Type;
-    readonly TypeName: string;
+    readonly assemblyName: string;
+    condition: string;
+    readonly memberSignature: string;
+    readonly memberTypes: DynamicallyAccessedMemberTypes;
+    readonly type_: Type;
+    readonly typeName: string;
 }
 
 
@@ -133,7 +133,7 @@ export type DynamicDependencyAttribute = DynamicDependencyAttribute$instance;
 
 export class ExcludeFromCodeCoverageAttribute$instance extends System_Internal.Attribute$instance {
     constructor();
-    Justification: string;
+    justification: string;
 }
 
 
@@ -141,9 +141,9 @@ export type ExcludeFromCodeCoverageAttribute = ExcludeFromCodeCoverageAttribute$
 
 export class ExperimentalAttribute$instance extends System_Internal.Attribute$instance {
     constructor(diagnosticId: string);
-    readonly DiagnosticId: string;
-    Message: string;
-    UrlFormat: string;
+    readonly diagnosticId: string;
+    message: string;
+    urlFormat: string;
 }
 
 
@@ -151,7 +151,7 @@ export type ExperimentalAttribute = ExperimentalAttribute$instance;
 
 export class FeatureGuardAttribute$instance extends System_Internal.Attribute$instance {
     constructor(featureType: Type);
-    readonly FeatureType: Type;
+    readonly featureType: Type;
 }
 
 
@@ -159,7 +159,7 @@ export type FeatureGuardAttribute = FeatureGuardAttribute$instance;
 
 export class FeatureSwitchDefinitionAttribute$instance extends System_Internal.Attribute$instance {
     constructor(switchName: string);
-    readonly SwitchName: string;
+    readonly switchName: string;
 }
 
 
@@ -174,7 +174,7 @@ export type MaybeNullAttribute = MaybeNullAttribute$instance;
 
 export class MaybeNullWhenAttribute$instance extends System_Internal.Attribute$instance {
     constructor(returnValue: boolean);
-    readonly ReturnValue: boolean;
+    readonly returnValue: boolean;
 }
 
 
@@ -183,7 +183,7 @@ export type MaybeNullWhenAttribute = MaybeNullWhenAttribute$instance;
 export class MemberNotNullAttribute$instance extends System_Internal.Attribute$instance {
     constructor(member: string);
     constructor(members: string[]);
-    readonly Members: string[];
+    readonly members: string[];
 }
 
 
@@ -192,8 +192,8 @@ export type MemberNotNullAttribute = MemberNotNullAttribute$instance;
 export class MemberNotNullWhenAttribute$instance extends System_Internal.Attribute$instance {
     constructor(returnValue: boolean, member: string);
     constructor(returnValue: boolean, members: string[]);
-    readonly Members: string[];
-    readonly ReturnValue: boolean;
+    readonly members: string[];
+    readonly returnValue: boolean;
 }
 
 
@@ -208,7 +208,7 @@ export type NotNullAttribute = NotNullAttribute$instance;
 
 export class NotNullIfNotNullAttribute$instance extends System_Internal.Attribute$instance {
     constructor(parameterName: string);
-    readonly ParameterName: string;
+    readonly parameterName: string;
 }
 
 
@@ -216,7 +216,7 @@ export type NotNullIfNotNullAttribute = NotNullIfNotNullAttribute$instance;
 
 export class NotNullWhenAttribute$instance extends System_Internal.Attribute$instance {
     constructor(returnValue: boolean);
-    readonly ReturnValue: boolean;
+    readonly returnValue: boolean;
 }
 
 
@@ -225,8 +225,8 @@ export type NotNullWhenAttribute = NotNullWhenAttribute$instance;
 export class RequiresAssemblyFilesAttribute$instance extends System_Internal.Attribute$instance {
     constructor();
     constructor(message: string);
-    readonly Message: string;
-    Url: string;
+    readonly message: string;
+    url: string;
 }
 
 
@@ -234,9 +234,9 @@ export type RequiresAssemblyFilesAttribute = RequiresAssemblyFilesAttribute$inst
 
 export class RequiresDynamicCodeAttribute$instance extends System_Internal.Attribute$instance {
     constructor(message: string);
-    ExcludeStatics: boolean;
-    readonly Message: string;
-    Url: string;
+    excludeStatics: boolean;
+    readonly message: string;
+    url: string;
 }
 
 
@@ -244,9 +244,9 @@ export type RequiresDynamicCodeAttribute = RequiresDynamicCodeAttribute$instance
 
 export class RequiresUnreferencedCodeAttribute$instance extends System_Internal.Attribute$instance {
     constructor(message: string);
-    ExcludeStatics: boolean;
-    readonly Message: string;
-    Url: string;
+    excludeStatics: boolean;
+    readonly message: string;
+    url: string;
 }
 
 
@@ -262,20 +262,20 @@ export type SetsRequiredMembersAttribute = SetsRequiredMembersAttribute$instance
 export class StringSyntaxAttribute$instance extends System_Internal.Attribute$instance {
     constructor(syntax: string);
     constructor(syntax: string, arguments: unknown[]);
-    readonly Arguments: unknown[];
-    readonly Syntax: string;
-    static readonly CompositeFormat: string;
-    static readonly DateOnlyFormat: string;
-    static readonly DateTimeFormat: string;
-    static readonly EnumFormat: string;
-    static readonly GuidFormat: string;
-    static readonly Json: string;
-    static readonly NumericFormat: string;
-    static readonly Regex: string;
-    static readonly TimeOnlyFormat: string;
-    static readonly TimeSpanFormat: string;
-    static readonly Uri: string;
-    static readonly Xml: string;
+    readonly arguments: unknown[];
+    readonly syntax: string;
+    static readonly compositeFormat: string;
+    static readonly dateOnlyFormat: string;
+    static readonly dateTimeFormat: string;
+    static readonly enumFormat: string;
+    static readonly guidFormat: string;
+    static readonly json: string;
+    static readonly numericFormat: string;
+    static readonly regex: string;
+    static readonly timeOnlyFormat: string;
+    static readonly timeSpanFormat: string;
+    static readonly uri: string;
+    static readonly xml: string;
 }
 
 
@@ -283,12 +283,12 @@ export type StringSyntaxAttribute = StringSyntaxAttribute$instance;
 
 export class SuppressMessageAttribute$instance extends System_Internal.Attribute$instance {
     constructor(category: string, checkId: string);
-    readonly Category: string;
-    readonly CheckId: string;
-    Justification: string;
-    MessageId: string;
-    Scope: string;
-    Target: string;
+    readonly category: string;
+    readonly checkId: string;
+    justification: string;
+    messageId: string;
+    scope: string;
+    target: string;
 }
 
 
@@ -296,12 +296,12 @@ export type SuppressMessageAttribute = SuppressMessageAttribute$instance;
 
 export class UnconditionalSuppressMessageAttribute$instance extends System_Internal.Attribute$instance {
     constructor(category: string, checkId: string);
-    readonly Category: string;
-    readonly CheckId: string;
-    Justification: string;
-    MessageId: string;
-    Scope: string;
-    Target: string;
+    readonly category: string;
+    readonly checkId: string;
+    justification: string;
+    messageId: string;
+    scope: string;
+    target: string;
 }
 
 

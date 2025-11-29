@@ -35,12 +35,12 @@ export type CLROf<T> =
     T; // Identity fallback for non-primitive types
 
 export class ExceptionDispatchInfo$instance {
-    readonly SourceException: Exception;
-    Throw(): void;
-    static Capture(source: Exception): ExceptionDispatchInfo;
-    static SetCurrentStackTrace(source: Exception): Exception;
-    static SetRemoteStackTrace(source: Exception, stackTrace: string): Exception;
-    static Throw(source: Exception): void;
+    readonly sourceException: Exception;
+    throw_(): void;
+    static capture(source: Exception): ExceptionDispatchInfo;
+    static setCurrentStackTrace(source: Exception): Exception;
+    static setRemoteStackTrace(source: Exception, stackTrace: string): Exception;
+    static throw(source: Exception): void;
 }
 
 
@@ -48,7 +48,7 @@ export type ExceptionDispatchInfo = ExceptionDispatchInfo$instance;
 
 export class FirstChanceExceptionEventArgs$instance extends System_Internal.EventArgs$instance {
     constructor(exception: Exception);
-    readonly Exception: Exception;
+    readonly exception: Exception;
 }
 
 
@@ -62,8 +62,8 @@ export class HandleProcessCorruptedStateExceptionsAttribute$instance extends Sys
 export type HandleProcessCorruptedStateExceptionsAttribute = HandleProcessCorruptedStateExceptionsAttribute$instance;
 
 export abstract class ExceptionHandling$instance {
-    static RaiseAppDomainUnhandledExceptionEvent(exception: unknown): void;
-    static SetUnhandledExceptionHandler(handler: Func_2<Exception, CLROf<boolean>>): void;
+    static raiseAppDomainUnhandledExceptionEvent(exception: unknown): void;
+    static setUnhandledExceptionHandler(handler: Func_2<Exception, CLROf<boolean>>): void;
 }
 
 

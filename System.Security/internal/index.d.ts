@@ -44,31 +44,31 @@ export type CLROf<T> =
     T; // Identity fallback for non-primitive types
 
 export enum PartialTrustVisibilityLevel {
-    VisibleToAllHosts = 0,
-    NotVisibleByDefault = 1
+    visibleToAllHosts = 0,
+    notVisibleByDefault = 1
 }
 
 
 export enum SecurityCriticalScope {
-    Explicit = 0,
-    Everything = 1
+    explicit = 0,
+    everything = 1
 }
 
 
 export enum SecurityRuleSet {
-    None = 0,
-    Level1 = 1,
-    Level2 = 2
+    none = 0,
+    level1 = 1,
+    level2 = 2
 }
 
 
 export interface IPermission$instance extends ISecurityEncodable {
-    Copy(): IPermission;
-    Demand(): void;
-    FromXml(e: SecurityElement): void;
-    Intersect(target: IPermission): IPermission;
-    IsSubsetOf(target: IPermission): boolean;
-    ToXml(): SecurityElement;
+    copy(): IPermission;
+    demand(): void;
+    fromXml(e: SecurityElement): void;
+    intersect(target: IPermission): IPermission;
+    isSubsetOf(target: IPermission): boolean;
+    toXml(): SecurityElement;
 }
 
 
@@ -77,15 +77,15 @@ export interface IPermission$instance extends ISecurityEncodable$instance {}
 export type IPermission = IPermission$instance;
 
 export interface ISecurityEncodable$instance {
-    FromXml(e: SecurityElement): void;
-    ToXml(): SecurityElement;
+    fromXml(e: SecurityElement): void;
+    toXml(): SecurityElement;
 }
 
 
 export type ISecurityEncodable = ISecurityEncodable$instance;
 
 export interface IStackWalk$instance {
-    Assert(): void;
+    assert(): void;
 }
 
 
@@ -93,7 +93,7 @@ export type IStackWalk = IStackWalk$instance;
 
 export class AllowPartiallyTrustedCallersAttribute$instance extends System_Internal.Attribute$instance {
     constructor();
-    PartialTrustVisibilityLevel: PartialTrustVisibilityLevel;
+    partialTrustVisibilityLevel: PartialTrustVisibilityLevel;
 }
 
 
@@ -102,34 +102,34 @@ export type AllowPartiallyTrustedCallersAttribute = AllowPartiallyTrustedCallers
 export class PermissionSet$instance {
     constructor(state: PermissionState);
     constructor(permSet: PermissionSet);
-    readonly Count: int;
-    readonly IsReadOnly: boolean;
-    readonly IsSynchronized: boolean;
-    readonly SyncRoot: unknown;
-    AddPermission(perm: IPermission): IPermission;
-    Assert(): void;
-    ContainsNonCodeAccessPermissions(): boolean;
-    Copy(): PermissionSet;
-    CopyTo(array: ClrArray, index: int): void;
-    Demand(): void;
-    Deny(): void;
-    Equals(o: unknown): boolean;
-    FromXml(et: SecurityElement): void;
-    GetEnumerator(): IEnumerator;
-    GetHashCode(): int;
-    GetPermission(permClass: Type): IPermission;
-    Intersect(other: PermissionSet): PermissionSet;
-    IsEmpty(): boolean;
-    IsSubsetOf(target: PermissionSet): boolean;
-    IsUnrestricted(): boolean;
-    PermitOnly(): void;
-    RemovePermission(permClass: Type): IPermission;
-    SetPermission(perm: IPermission): IPermission;
-    ToString(): string;
-    ToXml(): SecurityElement;
-    Union(other: PermissionSet): PermissionSet;
-    static ConvertPermissionSet(inFormat: string, inData: byte[], outFormat: string): byte[];
-    static RevertAssert(): void;
+    readonly count: int;
+    readonly isReadOnly: boolean;
+    readonly isSynchronized: boolean;
+    readonly syncRoot: unknown;
+    addPermission(perm: IPermission): IPermission;
+    assert(): void;
+    containsNonCodeAccessPermissions(): boolean;
+    copy(): PermissionSet;
+    copyTo(array: ClrArray, index: int): void;
+    demand(): void;
+    deny(): void;
+    equals(o: unknown): boolean;
+    fromXml(et: SecurityElement): void;
+    getEnumerator(): IEnumerator;
+    getHashCode(): int;
+    getPermission(permClass: Type): IPermission;
+    intersect(other: PermissionSet): PermissionSet;
+    isEmpty(): boolean;
+    isSubsetOf(target: PermissionSet): boolean;
+    isUnrestricted(): boolean;
+    permitOnly(): void;
+    removePermission(permClass: Type): IPermission;
+    setPermission(perm: IPermission): IPermission;
+    toString(): string;
+    toXml(): SecurityElement;
+    union(other: PermissionSet): PermissionSet;
+    static convertPermissionSet(inFormat: string, inData: byte[], outFormat: string): byte[];
+    static revertAssert(): void;
 }
 
 
@@ -149,16 +149,16 @@ export type PermissionSet = PermissionSet$instance & __PermissionSet$views;
 export class SecureString$instance {
     constructor();
     constructor(value: ptr<char>, length: int);
-    readonly Length: int;
-    AppendChar(c: char): void;
-    Clear(): void;
-    Copy(): SecureString;
-    Dispose(): void;
-    InsertAt(index: int, c: char): void;
-    IsReadOnly(): boolean;
-    MakeReadOnly(): void;
-    RemoveAt(index: int): void;
-    SetAt(index: int, c: char): void;
+    readonly length: int;
+    appendChar(c: char): void;
+    clear(): void;
+    copy(): SecureString;
+    dispose(): void;
+    insertAt(index: int, c: char): void;
+    isReadOnly(): boolean;
+    makeReadOnly(): void;
+    removeAt(index: int): void;
+    setAt(index: int, c: char): void;
 }
 
 
@@ -174,7 +174,7 @@ export type SecureString = SecureString$instance & __SecureString$views;
 export class SecurityCriticalAttribute$instance extends System_Internal.Attribute$instance {
     constructor();
     constructor(scope: SecurityCriticalScope);
-    readonly Scope: SecurityCriticalScope;
+    readonly scope: SecurityCriticalScope;
 }
 
 
@@ -183,24 +183,24 @@ export type SecurityCriticalAttribute = SecurityCriticalAttribute$instance;
 export class SecurityElement$instance {
     constructor(tag: string);
     constructor(tag: string, text: string);
-    Attributes: Hashtable;
-    Children: ArrayList;
-    Tag: string;
-    Text: string;
-    AddAttribute(name: string, value: string): void;
-    AddChild(child: SecurityElement): void;
-    Attribute(name: string): string;
-    Copy(): SecurityElement;
-    Equal(other: SecurityElement): boolean;
-    SearchForChildByTag(tag: string): SecurityElement;
-    SearchForTextOfTag(tag: string): string;
-    ToString(): string;
-    static Escape(str: string): string;
-    static FromString(xml: string): SecurityElement;
-    static IsValidAttributeName(name: string): boolean;
-    static IsValidAttributeValue(value: string): boolean;
-    static IsValidTag(tag: string): boolean;
-    static IsValidText(text: string): boolean;
+    attributes: Hashtable;
+    children: ArrayList;
+    tag: string;
+    text: string;
+    addAttribute(name: string, value: string): void;
+    addChild(child: SecurityElement): void;
+    attribute(name: string): string;
+    copy(): SecurityElement;
+    equal(other: SecurityElement): boolean;
+    searchForChildByTag(tag: string): SecurityElement;
+    searchForTextOfTag(tag: string): string;
+    toString(): string;
+    static escape(str: string): string;
+    static fromString(xml: string): SecurityElement;
+    static isValidAttributeName(name: string): boolean;
+    static isValidAttributeValue(value: string): boolean;
+    static isValidTag(tag: string): boolean;
+    static isValidText(text: string): boolean;
 }
 
 
@@ -212,18 +212,18 @@ export class SecurityException$instance extends System_Internal.SystemException$
     constructor(message: string, inner: Exception);
     constructor(message: string, type_: Type);
     constructor(message: string, type_: Type, state: string);
-    Demanded: unknown;
-    DenySetInstance: unknown;
-    FailedAssemblyInfo: AssemblyName;
-    GrantedSet: string;
-    Method: MethodInfo;
-    PermissionState: string;
-    PermissionType: Type;
-    PermitOnlySetInstance: unknown;
-    RefusedSet: string;
-    Url: string;
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
-    ToString(): string;
+    demanded: unknown;
+    denySetInstance: unknown;
+    failedAssemblyInfo: AssemblyName;
+    grantedSet: string;
+    method: MethodInfo;
+    permissionState: string;
+    permissionType: Type;
+    permitOnlySetInstance: unknown;
+    refusedSet: string;
+    url: string;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
+    toString(): string;
 }
 
 
@@ -236,8 +236,8 @@ export type SecurityException = SecurityException$instance & __SecurityException
 
 export class SecurityRulesAttribute$instance extends System_Internal.Attribute$instance {
     constructor(ruleSet: SecurityRuleSet);
-    readonly RuleSet: SecurityRuleSet;
-    SkipVerificationInFullTrust: boolean;
+    readonly ruleSet: SecurityRuleSet;
+    skipVerificationInFullTrust: boolean;
 }
 
 
@@ -290,14 +290,16 @@ export interface __VerificationException$views {
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
+export interface VerificationException$instance extends System_Runtime_Serialization_Internal.ISerializable$instance {}
+
 export type VerificationException = VerificationException$instance & __VerificationException$views;
 
 
 export abstract class SecureStringMarshal$instance {
-    static SecureStringToCoTaskMemAnsi(s: SecureString): nint;
-    static SecureStringToCoTaskMemUnicode(s: SecureString): nint;
-    static SecureStringToGlobalAllocAnsi(s: SecureString): nint;
-    static SecureStringToGlobalAllocUnicode(s: SecureString): nint;
+    static secureStringToCoTaskMemAnsi(s: SecureString): nint;
+    static secureStringToCoTaskMemUnicode(s: SecureString): nint;
+    static secureStringToGlobalAllocAnsi(s: SecureString): nint;
+    static secureStringToGlobalAllocUnicode(s: SecureString): nint;
 }
 
 

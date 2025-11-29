@@ -41,7 +41,7 @@ export type CLROf<T> =
 
 export class ElapsedEventArgs$instance extends System_Internal.EventArgs$instance {
     constructor(signalTime: DateTime);
-    readonly SignalTime: DateTime;
+    readonly signalTime: DateTime;
 }
 
 
@@ -49,11 +49,11 @@ export type ElapsedEventArgs = ElapsedEventArgs$instance;
 
 export class ElapsedEventHandler$instance extends Function {
     constructor(object_: unknown, method: nint);
-    BeginInvoke(sender: unknown, e: ElapsedEventArgs, callback: AsyncCallback, object_: unknown): IAsyncResult;
+    beginInvoke(sender: unknown, e: ElapsedEventArgs, callback: AsyncCallback, object_: unknown): IAsyncResult;
     Clone(): unknown;
-    EndInvoke(result: IAsyncResult): void;
+    endInvoke(result: IAsyncResult): void;
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
-    Invoke(sender: unknown, e: ElapsedEventArgs): void;
+    invoke(sender: unknown, e: ElapsedEventArgs): void;
 }
 
 
@@ -62,6 +62,8 @@ export interface __ElapsedEventHandler$views {
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
+export interface ElapsedEventHandler$instance extends System_Internal.ICloneable$instance {}
+
 export type ElapsedEventHandler = ElapsedEventHandler$instance & __ElapsedEventHandler$views;
 
 
@@ -69,17 +71,17 @@ export class Timer$instance extends System_ComponentModel_Internal.Component$ins
     constructor();
     constructor(interval: double);
     constructor(interval: TimeSpan);
-    AutoReset: boolean;
-    Enabled: boolean;
-    Interval: double;
-    Site: ISite;
-    SynchronizingObject: ISynchronizeInvoke;
-    BeginInit(): void;
-    Close(): void;
+    autoReset: boolean;
+    enabled: boolean;
+    interval: double;
+    site: ISite;
+    synchronizingObject: ISynchronizeInvoke;
+    beginInit(): void;
+    close(): void;
     Dispose(): void;
-    EndInit(): void;
-    Start(): void;
-    Stop(): void;
+    endInit(): void;
+    start(): void;
+    stop(): void;
 }
 
 
@@ -89,14 +91,14 @@ export interface __Timer$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
 
-export interface Timer$instance extends System_ComponentModel_Internal.IComponent$instance, System_ComponentModel_Internal.ISupportInitialize$instance {}
+export interface Timer$instance extends System_ComponentModel_Internal.ISupportInitialize$instance {}
 
 export type Timer = Timer$instance & __Timer$views;
 
 
 export class TimersDescriptionAttribute$instance extends System_ComponentModel_Internal.DescriptionAttribute$instance {
     constructor(description: string);
-    readonly Description: string;
+    readonly description: string;
 }
 
 

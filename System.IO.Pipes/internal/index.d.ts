@@ -46,45 +46,45 @@ export type CLROf<T> =
     T; // Identity fallback for non-primitive types
 
 export enum PipeAccessRights {
-    ReadData = 1,
-    WriteData = 2,
-    ReadAttributes = 128,
-    WriteAttributes = 256,
-    ReadExtendedAttributes = 8,
-    WriteExtendedAttributes = 16,
-    CreateNewInstance = 4,
-    Delete = 65536,
-    ReadPermissions = 131072,
-    ChangePermissions = 262144,
-    TakeOwnership = 524288,
-    Synchronize = 1048576,
-    FullControl = 2032031,
-    Read = 131209,
-    Write = 274,
-    ReadWrite = 131483,
-    AccessSystemSecurity = 16777216
+    readData = 1,
+    writeData = 2,
+    readAttributes = 128,
+    writeAttributes = 256,
+    readExtendedAttributes = 8,
+    writeExtendedAttributes = 16,
+    createNewInstance = 4,
+    delete_ = 65536,
+    readPermissions = 131072,
+    changePermissions = 262144,
+    takeOwnership = 524288,
+    synchronize = 1048576,
+    fullControl = 2032031,
+    read = 131209,
+    write = 274,
+    readWrite = 131483,
+    accessSystemSecurity = 16777216
 }
 
 
 export enum PipeDirection {
-    In = 1,
-    Out = 2,
-    InOut = 3
+    in_ = 1,
+    out = 2,
+    inOut = 3
 }
 
 
 export enum PipeOptions {
-    None = 0,
-    WriteThrough = -2147483648,
-    Asynchronous = 1073741824,
-    CurrentUserOnly = 536870912,
-    FirstPipeInstance = 524288
+    none = 0,
+    writeThrough = -2147483648,
+    asynchronous = 1073741824,
+    currentUserOnly = 536870912,
+    firstPipeInstance = 524288
 }
 
 
 export enum PipeTransmissionMode {
-    Byte = 0,
-    Message = 1
+    byte = 0,
+    message = 1
 }
 
 
@@ -92,8 +92,8 @@ export class AnonymousPipeClientStream$instance extends PipeStream$instance {
     constructor(pipeHandleAsString: string);
     constructor(direction: PipeDirection, pipeHandleAsString: string);
     constructor(direction: PipeDirection, safePipeHandle: SafePipeHandle);
-    ReadMode: PipeTransmissionMode;
-    readonly TransmissionMode: PipeTransmissionMode;
+    readMode: PipeTransmissionMode;
+    readonly transmissionMode: PipeTransmissionMode;
     Dispose(): void;
     DisposeAsync(): ValueTask;
 }
@@ -104,6 +104,8 @@ export interface __AnonymousPipeClientStream$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
 
+export interface AnonymousPipeClientStream$instance extends System_Internal.IAsyncDisposable$instance, System_Internal.IDisposable$instance {}
+
 export type AnonymousPipeClientStream = AnonymousPipeClientStream$instance & __AnonymousPipeClientStream$views;
 
 
@@ -113,13 +115,13 @@ export class AnonymousPipeServerStream$instance extends PipeStream$instance {
     constructor(direction: PipeDirection, inheritability: HandleInheritability);
     constructor(direction: PipeDirection, serverSafePipeHandle: SafePipeHandle, clientSafePipeHandle: SafePipeHandle);
     constructor(direction: PipeDirection, inheritability: HandleInheritability, bufferSize: int);
-    readonly ClientSafePipeHandle: SafePipeHandle;
-    ReadMode: PipeTransmissionMode;
-    readonly TransmissionMode: PipeTransmissionMode;
+    readonly clientSafePipeHandle: SafePipeHandle;
+    readMode: PipeTransmissionMode;
+    readonly transmissionMode: PipeTransmissionMode;
     Dispose(): void;
     DisposeAsync(): ValueTask;
-    DisposeLocalCopyOfClientHandle(): void;
-    GetClientHandleAsString(): string;
+    disposeLocalCopyOfClientHandle(): void;
+    getClientHandleAsString(): string;
 }
 
 
@@ -127,6 +129,8 @@ export interface __AnonymousPipeServerStream$views {
     As_IAsyncDisposable(): System_Internal.IAsyncDisposable$instance;
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
+
+export interface AnonymousPipeServerStream$instance extends System_Internal.IAsyncDisposable$instance, System_Internal.IDisposable$instance {}
 
 export type AnonymousPipeServerStream = AnonymousPipeServerStream$instance & __AnonymousPipeServerStream$views;
 
@@ -140,17 +144,17 @@ export class NamedPipeClientStream$instance extends PipeStream$instance {
     constructor(serverName: string, pipeName: string, direction: PipeDirection, options: PipeOptions, impersonationLevel: TokenImpersonationLevel, inheritability: HandleInheritability);
     constructor(direction: PipeDirection, isAsync: boolean, isConnected: boolean, safePipeHandle: SafePipeHandle);
     constructor(serverName: string, pipeName: string, desiredAccessRights: PipeAccessRights, options: PipeOptions, impersonationLevel: TokenImpersonationLevel, inheritability: HandleInheritability);
-    readonly InBufferSize: int;
-    readonly NumberOfServerInstances: int;
-    readonly OutBufferSize: int;
-    Connect(): void;
-    Connect(timeout: int): void;
-    Connect(timeout: TimeSpan): void;
-    ConnectAsync(): Task;
-    ConnectAsync(timeout: int): Task;
-    ConnectAsync(cancellationToken: CancellationToken): Task;
-    ConnectAsync(timeout: int, cancellationToken: CancellationToken): Task;
-    ConnectAsync(timeout: TimeSpan, cancellationToken?: CancellationToken): Task;
+    readonly inBufferSize: int;
+    readonly numberOfServerInstances: int;
+    readonly outBufferSize: int;
+    connect(): void;
+    connect(timeout: int): void;
+    connect(timeout: TimeSpan): void;
+    connectAsync(): Task;
+    connectAsync(timeout: int): Task;
+    connectAsync(cancellationToken: CancellationToken): Task;
+    connectAsync(timeout: int, cancellationToken: CancellationToken): Task;
+    connectAsync(timeout: TimeSpan, cancellationToken?: CancellationToken): Task;
     Dispose(): void;
     DisposeAsync(): ValueTask;
 }
@@ -160,6 +164,8 @@ export interface __NamedPipeClientStream$views {
     As_IAsyncDisposable(): System_Internal.IAsyncDisposable$instance;
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
+
+export interface NamedPipeClientStream$instance extends System_Internal.IAsyncDisposable$instance, System_Internal.IDisposable$instance {}
 
 export type NamedPipeClientStream = NamedPipeClientStream$instance & __NamedPipeClientStream$views;
 
@@ -172,19 +178,19 @@ export class NamedPipeServerStream$instance extends PipeStream$instance {
     constructor(pipeName: string, direction: PipeDirection, maxNumberOfServerInstances: int, transmissionMode: PipeTransmissionMode, options: PipeOptions);
     constructor(pipeName: string, direction: PipeDirection, maxNumberOfServerInstances: int, transmissionMode: PipeTransmissionMode, options: PipeOptions, inBufferSize: int, outBufferSize: int);
     constructor(direction: PipeDirection, isAsync: boolean, isConnected: boolean, safePipeHandle: SafePipeHandle);
-    readonly InBufferSize: int;
-    readonly OutBufferSize: int;
-    BeginWaitForConnection(callback: AsyncCallback, state: unknown): IAsyncResult;
-    Disconnect(): void;
+    readonly inBufferSize: int;
+    readonly outBufferSize: int;
+    beginWaitForConnection(callback: AsyncCallback, state: unknown): IAsyncResult;
+    disconnect(): void;
     Dispose(): void;
     DisposeAsync(): ValueTask;
-    EndWaitForConnection(asyncResult: IAsyncResult): void;
-    GetImpersonationUserName(): string;
-    RunAsClient(impersonationWorker: PipeStreamImpersonationWorker): void;
-    WaitForConnection(): void;
-    WaitForConnectionAsync(): Task;
-    WaitForConnectionAsync(cancellationToken: CancellationToken): Task;
-    static readonly MaxAllowedServerInstances: int;
+    endWaitForConnection(asyncResult: IAsyncResult): void;
+    getImpersonationUserName(): string;
+    runAsClient(impersonationWorker: PipeStreamImpersonationWorker): void;
+    waitForConnection(): void;
+    waitForConnectionAsync(): Task;
+    waitForConnectionAsync(cancellationToken: CancellationToken): Task;
+    static readonly maxAllowedServerInstances: int;
 }
 
 
@@ -193,13 +199,15 @@ export interface __NamedPipeServerStream$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
 
+export interface NamedPipeServerStream$instance extends System_Internal.IAsyncDisposable$instance, System_Internal.IDisposable$instance {}
+
 export type NamedPipeServerStream = NamedPipeServerStream$instance & __NamedPipeServerStream$views;
 
 
 export class PipeAccessRule$instance extends System_Security_AccessControl_Internal.AccessRule$instance {
     constructor(identity: IdentityReference, rights: PipeAccessRights, type_: AccessControlType);
     constructor(identity: string, rights: PipeAccessRights, type_: AccessControlType);
-    readonly PipeAccessRights: PipeAccessRights;
+    readonly pipeAccessRights: PipeAccessRights;
 }
 
 
@@ -208,7 +216,7 @@ export type PipeAccessRule = PipeAccessRule$instance;
 export class PipeAuditRule$instance extends System_Security_AccessControl_Internal.AuditRule$instance {
     constructor(identity: IdentityReference, rights: PipeAccessRights, flags: AuditFlags);
     constructor(identity: string, rights: PipeAccessRights, flags: AuditFlags);
-    readonly PipeAccessRights: PipeAccessRights;
+    readonly pipeAccessRights: PipeAccessRights;
 }
 
 
@@ -216,69 +224,69 @@ export type PipeAuditRule = PipeAuditRule$instance;
 
 export class PipeSecurity$instance extends System_Security_AccessControl_Internal.NativeObjectSecurity$instance {
     constructor();
-    readonly AccessRightType: Type;
-    readonly AccessRuleType: Type;
-    readonly AuditRuleType: Type;
-    AccessRuleFactory(identityReference: IdentityReference, accessMask: int, isInherited: boolean, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags, type_: AccessControlType): AccessRule;
-    AddAccessRule(rule: PipeAccessRule): void;
-    AddAuditRule(rule: PipeAuditRule): void;
-    AuditRuleFactory(identityReference: IdentityReference, accessMask: int, isInherited: boolean, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags, flags: AuditFlags): AuditRule;
-    RemoveAccessRule(rule: PipeAccessRule): boolean;
-    RemoveAccessRuleSpecific(rule: PipeAccessRule): void;
-    RemoveAuditRule(rule: PipeAuditRule): boolean;
-    RemoveAuditRuleAll(rule: PipeAuditRule): void;
-    RemoveAuditRuleSpecific(rule: PipeAuditRule): void;
-    ResetAccessRule(rule: PipeAccessRule): void;
-    SetAccessRule(rule: PipeAccessRule): void;
-    SetAuditRule(rule: PipeAuditRule): void;
+    readonly accessRightType: Type;
+    readonly accessRuleType: Type;
+    readonly auditRuleType: Type;
+    accessRuleFactory(identityReference: IdentityReference, accessMask: int, isInherited: boolean, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags, type_: AccessControlType): AccessRule;
+    addAccessRule(rule: PipeAccessRule): void;
+    addAuditRule(rule: PipeAuditRule): void;
+    auditRuleFactory(identityReference: IdentityReference, accessMask: int, isInherited: boolean, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags, flags: AuditFlags): AuditRule;
+    removeAccessRule(rule: PipeAccessRule): boolean;
+    removeAccessRuleSpecific(rule: PipeAccessRule): void;
+    removeAuditRule(rule: PipeAuditRule): boolean;
+    removeAuditRuleAll(rule: PipeAuditRule): void;
+    removeAuditRuleSpecific(rule: PipeAuditRule): void;
+    resetAccessRule(rule: PipeAccessRule): void;
+    setAccessRule(rule: PipeAccessRule): void;
+    setAuditRule(rule: PipeAuditRule): void;
 }
 
 
 export type PipeSecurity = PipeSecurity$instance;
 
 export abstract class PipeStream$instance extends System_IO_Internal.Stream$instance {
-    readonly CanRead: boolean;
-    readonly CanSeek: boolean;
-    readonly CanWrite: boolean;
-    readonly InBufferSize: int;
-    readonly IsAsync: boolean;
-    readonly IsConnected: boolean;
-    readonly IsMessageComplete: boolean;
-    readonly Length: long;
-    readonly OutBufferSize: int;
-    Position: long;
-    ReadMode: PipeTransmissionMode;
-    readonly SafePipeHandle: SafePipeHandle;
-    readonly TransmissionMode: PipeTransmissionMode;
-    BeginRead(buffer: byte[], offset: int, count: int, callback: AsyncCallback, state: unknown): IAsyncResult;
-    BeginWrite(buffer: byte[], offset: int, count: int, callback: AsyncCallback, state: unknown): IAsyncResult;
+    readonly canRead: boolean;
+    readonly canSeek: boolean;
+    readonly canWrite: boolean;
+    readonly inBufferSize: int;
+    readonly isAsync: boolean;
+    readonly isConnected: boolean;
+    readonly isMessageComplete: boolean;
+    readonly length: long;
+    readonly outBufferSize: int;
+    position: long;
+    readMode: PipeTransmissionMode;
+    readonly safePipeHandle: SafePipeHandle;
+    readonly transmissionMode: PipeTransmissionMode;
+    beginRead(buffer: byte[], offset: int, count: int, callback: AsyncCallback, state: unknown): IAsyncResult;
+    beginWrite(buffer: byte[], offset: int, count: int, callback: AsyncCallback, state: unknown): IAsyncResult;
     Dispose(): void;
     DisposeAsync(): ValueTask;
-    EndRead(asyncResult: IAsyncResult): int;
-    EndWrite(asyncResult: IAsyncResult): void;
-    Flush(): void;
-    FlushAsync(cancellationToken: CancellationToken): Task;
-    FlushAsync(): Task;
-    Read(buffer: byte[], offset: int, count: int): int;
-    Read(buffer: Span_1<CLROf<byte>>): int;
-    Read(buffer: Span_1<CLROf<byte>>): int;
-    ReadAsync(buffer: byte[], offset: int, count: int, cancellationToken: CancellationToken): Task_1<CLROf<int>>;
-    ReadAsync(buffer: Memory_1<CLROf<byte>>, cancellationToken?: CancellationToken): ValueTask_1<CLROf<int>>;
-    ReadAsync(buffer: byte[], offset: int, count: int): Task_1<CLROf<int>>;
-    ReadAsync(buffer: byte[], offset: int, count: int, cancellationToken: CancellationToken): Task_1<CLROf<int>>;
-    ReadAsync(buffer: Memory_1<CLROf<byte>>, cancellationToken?: CancellationToken): ValueTask_1<CLROf<int>>;
-    ReadByte(): int;
-    Seek(offset: long, origin: SeekOrigin): long;
-    SetLength(value: long): void;
-    WaitForPipeDrain(): void;
-    Write(buffer: byte[], offset: int, count: int): void;
-    Write(buffer: ReadOnlySpan_1<CLROf<byte>>): void;
-    Write(buffer: ReadOnlySpan_1<CLROf<byte>>): void;
-    WriteAsync(buffer: byte[], offset: int, count: int, cancellationToken: CancellationToken): Task;
-    WriteAsync(buffer: ReadOnlyMemory_1<CLROf<byte>>, cancellationToken?: CancellationToken): ValueTask;
-    WriteAsync(buffer: byte[], offset: int, count: int): Task;
-    WriteAsync(buffer: ReadOnlyMemory_1<CLROf<byte>>, cancellationToken?: CancellationToken): ValueTask;
-    WriteByte(value: byte): void;
+    endRead(asyncResult: IAsyncResult): int;
+    endWrite(asyncResult: IAsyncResult): void;
+    flush(): void;
+    flushAsync(cancellationToken: CancellationToken): Task;
+    flushAsync(): Task;
+    read(buffer: byte[], offset: int, count: int): int;
+    read(buffer: Span_1<CLROf<byte>>): int;
+    read(buffer: Span_1<CLROf<byte>>): int;
+    readAsync(buffer: byte[], offset: int, count: int, cancellationToken: CancellationToken): Task_1<CLROf<int>>;
+    readAsync(buffer: Memory_1<CLROf<byte>>, cancellationToken?: CancellationToken): ValueTask_1<CLROf<int>>;
+    readAsync(buffer: byte[], offset: int, count: int): Task_1<CLROf<int>>;
+    readAsync(buffer: byte[], offset: int, count: int, cancellationToken: CancellationToken): Task_1<CLROf<int>>;
+    readAsync(buffer: Memory_1<CLROf<byte>>, cancellationToken?: CancellationToken): ValueTask_1<CLROf<int>>;
+    readByte(): int;
+    seek(offset: long, origin: SeekOrigin): long;
+    setLength(value: long): void;
+    waitForPipeDrain(): void;
+    write(buffer: byte[], offset: int, count: int): void;
+    write(buffer: ReadOnlySpan_1<CLROf<byte>>): void;
+    write(buffer: ReadOnlySpan_1<CLROf<byte>>): void;
+    writeAsync(buffer: byte[], offset: int, count: int, cancellationToken: CancellationToken): Task;
+    writeAsync(buffer: ReadOnlyMemory_1<CLROf<byte>>, cancellationToken?: CancellationToken): ValueTask;
+    writeAsync(buffer: byte[], offset: int, count: int): Task;
+    writeAsync(buffer: ReadOnlyMemory_1<CLROf<byte>>, cancellationToken?: CancellationToken): ValueTask;
+    writeByte(value: byte): void;
 }
 
 
@@ -287,16 +295,18 @@ export interface __PipeStream$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
 
+export interface PipeStream$instance extends System_Internal.IAsyncDisposable$instance, System_Internal.IDisposable$instance {}
+
 export type PipeStream = PipeStream$instance & __PipeStream$views;
 
 
 export class PipeStreamImpersonationWorker$instance extends Function {
     constructor(object_: unknown, method: nint);
-    BeginInvoke(callback: AsyncCallback, object_: unknown): IAsyncResult;
+    beginInvoke(callback: AsyncCallback, object_: unknown): IAsyncResult;
     Clone(): unknown;
-    EndInvoke(result: IAsyncResult): void;
+    endInvoke(result: IAsyncResult): void;
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
-    Invoke(): void;
+    invoke(): void;
 }
 
 
@@ -305,26 +315,28 @@ export interface __PipeStreamImpersonationWorker$views {
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
+export interface PipeStreamImpersonationWorker$instance extends System_Internal.ICloneable$instance {}
+
 export type PipeStreamImpersonationWorker = PipeStreamImpersonationWorker$instance & __PipeStreamImpersonationWorker$views;
 
 
 export abstract class AnonymousPipeServerStreamAcl$instance {
-    static Create(direction: PipeDirection, inheritability: HandleInheritability, bufferSize: int, pipeSecurity: PipeSecurity): AnonymousPipeServerStream;
+    static create(direction: PipeDirection, inheritability: HandleInheritability, bufferSize: int, pipeSecurity: PipeSecurity): AnonymousPipeServerStream;
 }
 
 
 export type AnonymousPipeServerStreamAcl = AnonymousPipeServerStreamAcl$instance;
 
 export abstract class NamedPipeServerStreamAcl$instance {
-    static Create(pipeName: string, direction: PipeDirection, maxNumberOfServerInstances: int, transmissionMode: PipeTransmissionMode, options: PipeOptions, inBufferSize: int, outBufferSize: int, pipeSecurity: PipeSecurity, inheritability?: HandleInheritability, additionalAccessRights?: PipeAccessRights): NamedPipeServerStream;
+    static create(pipeName: string, direction: PipeDirection, maxNumberOfServerInstances: int, transmissionMode: PipeTransmissionMode, options: PipeOptions, inBufferSize: int, outBufferSize: int, pipeSecurity: PipeSecurity, inheritability?: HandleInheritability, additionalAccessRights?: PipeAccessRights): NamedPipeServerStream;
 }
 
 
 export type NamedPipeServerStreamAcl = NamedPipeServerStreamAcl$instance;
 
 export abstract class PipesAclExtensions$instance {
-    static GetAccessControl(stream: PipeStream): PipeSecurity;
-    static SetAccessControl(stream: PipeStream, pipeSecurity: PipeSecurity): void;
+    static getAccessControl(stream: PipeStream): PipeSecurity;
+    static setAccessControl(stream: PipeStream, pipeSecurity: PipeSecurity): void;
 }
 
 

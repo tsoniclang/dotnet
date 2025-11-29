@@ -36,41 +36,41 @@ export type CLROf<T> =
     T; // Identity fallback for non-primitive types
 
 export enum PermissionState {
-    None = 0,
-    Unrestricted = 1
+    none = 0,
+    unrestricted = 1
 }
 
 
 export enum SecurityAction {
-    Assert = 3,
-    Demand = 2,
-    Deny = 4,
-    InheritanceDemand = 7,
-    LinkDemand = 6,
-    PermitOnly = 5,
-    RequestMinimum = 8,
-    RequestOptional = 9,
-    RequestRefuse = 10
+    assert = 3,
+    demand = 2,
+    deny = 4,
+    inheritanceDemand = 7,
+    linkDemand = 6,
+    permitOnly = 5,
+    requestMinimum = 8,
+    requestOptional = 9,
+    requestRefuse = 10
 }
 
 
 export enum SecurityPermissionFlag {
-    AllFlags = 16383,
-    Assertion = 1,
-    BindingRedirects = 8192,
-    ControlAppDomain = 1024,
-    ControlDomainPolicy = 256,
-    ControlEvidence = 32,
-    ControlPolicy = 64,
-    ControlPrincipal = 512,
-    ControlThread = 16,
-    Execution = 8,
-    Infrastructure = 4096,
-    NoFlags = 0,
-    RemotingConfiguration = 2048,
-    SerializationFormatter = 128,
-    SkipVerification = 4,
-    UnmanagedCode = 2
+    allFlags = 16383,
+    assertion = 1,
+    bindingRedirects = 8192,
+    controlAppDomain = 1024,
+    controlDomainPolicy = 256,
+    controlEvidence = 32,
+    controlPolicy = 64,
+    controlPrincipal = 512,
+    controlThread = 16,
+    execution = 8,
+    infrastructure = 4096,
+    noFlags = 0,
+    remotingConfiguration = 2048,
+    serializationFormatter = 128,
+    skipVerification = 4,
+    unmanagedCode = 2
 }
 
 
@@ -81,9 +81,9 @@ export abstract class CodeAccessSecurityAttribute$instance extends SecurityAttri
 export type CodeAccessSecurityAttribute = CodeAccessSecurityAttribute$instance;
 
 export abstract class SecurityAttribute$instance extends System_Internal.Attribute$instance {
-    Action: SecurityAction;
-    Unrestricted: boolean;
-    abstract CreatePermission(): IPermission;
+    action: SecurityAction;
+    unrestricted: boolean;
+    abstract createPermission(): IPermission;
 }
 
 
@@ -91,22 +91,22 @@ export type SecurityAttribute = SecurityAttribute$instance;
 
 export class SecurityPermissionAttribute$instance extends CodeAccessSecurityAttribute$instance {
     constructor(action: SecurityAction);
-    Assertion: boolean;
-    BindingRedirects: boolean;
-    ControlAppDomain: boolean;
-    ControlDomainPolicy: boolean;
-    ControlEvidence: boolean;
-    ControlPolicy: boolean;
-    ControlPrincipal: boolean;
-    ControlThread: boolean;
-    Execution: boolean;
-    Flags: SecurityPermissionFlag;
-    Infrastructure: boolean;
-    RemotingConfiguration: boolean;
-    SerializationFormatter: boolean;
-    SkipVerification: boolean;
-    UnmanagedCode: boolean;
-    CreatePermission(): IPermission;
+    assertion: boolean;
+    bindingRedirects: boolean;
+    controlAppDomain: boolean;
+    controlDomainPolicy: boolean;
+    controlEvidence: boolean;
+    controlPolicy: boolean;
+    controlPrincipal: boolean;
+    controlThread: boolean;
+    execution: boolean;
+    flags: SecurityPermissionFlag;
+    infrastructure: boolean;
+    remotingConfiguration: boolean;
+    serializationFormatter: boolean;
+    skipVerification: boolean;
+    unmanagedCode: boolean;
+    createPermission(): IPermission;
 }
 
 

@@ -30,7 +30,7 @@
         {
           "stableId": "System.Net.Primitives:System.Security.Authentication.CipherAlgorithmType::NoneSystem.Security.Authentication.CipherAlgorithmType",
           "clrName": "None",
-          "tsEmitName": "None",
+          "tsEmitName": "none",
           "normalizedSignature": "None|System.Security.Authentication.CipherAlgorithmType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -39,7 +39,7 @@
         {
           "stableId": "System.Net.Primitives:System.Security.Authentication.CipherAlgorithmType::Rc2System.Security.Authentication.CipherAlgorithmType",
           "clrName": "Rc2",
-          "tsEmitName": "Rc2",
+          "tsEmitName": "rc2",
           "normalizedSignature": "Rc2|System.Security.Authentication.CipherAlgorithmType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -48,7 +48,7 @@
         {
           "stableId": "System.Net.Primitives:System.Security.Authentication.CipherAlgorithmType::Rc4System.Security.Authentication.CipherAlgorithmType",
           "clrName": "Rc4",
-          "tsEmitName": "Rc4",
+          "tsEmitName": "rc4",
           "normalizedSignature": "Rc4|System.Security.Authentication.CipherAlgorithmType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -57,7 +57,7 @@
         {
           "stableId": "System.Net.Primitives:System.Security.Authentication.CipherAlgorithmType::DesSystem.Security.Authentication.CipherAlgorithmType",
           "clrName": "Des",
-          "tsEmitName": "Des",
+          "tsEmitName": "des",
           "normalizedSignature": "Des|System.Security.Authentication.CipherAlgorithmType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -66,7 +66,7 @@
         {
           "stableId": "System.Net.Primitives:System.Security.Authentication.CipherAlgorithmType::TripleDesSystem.Security.Authentication.CipherAlgorithmType",
           "clrName": "TripleDes",
-          "tsEmitName": "TripleDes",
+          "tsEmitName": "tripleDes",
           "normalizedSignature": "TripleDes|System.Security.Authentication.CipherAlgorithmType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -75,7 +75,7 @@
         {
           "stableId": "System.Net.Primitives:System.Security.Authentication.CipherAlgorithmType::AesSystem.Security.Authentication.CipherAlgorithmType",
           "clrName": "Aes",
-          "tsEmitName": "Aes",
+          "tsEmitName": "aes",
           "normalizedSignature": "Aes|System.Security.Authentication.CipherAlgorithmType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -84,7 +84,7 @@
         {
           "stableId": "System.Net.Primitives:System.Security.Authentication.CipherAlgorithmType::Aes128System.Security.Authentication.CipherAlgorithmType",
           "clrName": "Aes128",
-          "tsEmitName": "Aes128",
+          "tsEmitName": "aes128",
           "normalizedSignature": "Aes128|System.Security.Authentication.CipherAlgorithmType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -93,7 +93,7 @@
         {
           "stableId": "System.Net.Primitives:System.Security.Authentication.CipherAlgorithmType::Aes192System.Security.Authentication.CipherAlgorithmType",
           "clrName": "Aes192",
-          "tsEmitName": "Aes192",
+          "tsEmitName": "aes192",
           "normalizedSignature": "Aes192|System.Security.Authentication.CipherAlgorithmType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -102,7 +102,7 @@
         {
           "stableId": "System.Net.Primitives:System.Security.Authentication.CipherAlgorithmType::Aes256System.Security.Authentication.CipherAlgorithmType",
           "clrName": "Aes256",
-          "tsEmitName": "Aes256",
+          "tsEmitName": "aes256",
           "normalizedSignature": "Aes256|System.Security.Authentication.CipherAlgorithmType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -111,7 +111,7 @@
         {
           "stableId": "System.Net.Primitives:System.Security.Authentication.CipherAlgorithmType::NullSystem.Security.Authentication.CipherAlgorithmType",
           "clrName": "Null",
-          "tsEmitName": "Null",
+          "tsEmitName": "null_",
           "normalizedSignature": "Null|System.Security.Authentication.CipherAlgorithmType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -146,7 +146,7 @@
         {
           "stableId": "System.Net.Primitives:System.Security.Authentication.ExchangeAlgorithmType::NoneSystem.Security.Authentication.ExchangeAlgorithmType",
           "clrName": "None",
-          "tsEmitName": "None",
+          "tsEmitName": "none",
           "normalizedSignature": "None|System.Security.Authentication.ExchangeAlgorithmType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -155,7 +155,7 @@
         {
           "stableId": "System.Net.Primitives:System.Security.Authentication.ExchangeAlgorithmType::RsaSignSystem.Security.Authentication.ExchangeAlgorithmType",
           "clrName": "RsaSign",
-          "tsEmitName": "RsaSign",
+          "tsEmitName": "rsaSign",
           "normalizedSignature": "RsaSign|System.Security.Authentication.ExchangeAlgorithmType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -164,7 +164,7 @@
         {
           "stableId": "System.Net.Primitives:System.Security.Authentication.ExchangeAlgorithmType::RsaKeyXSystem.Security.Authentication.ExchangeAlgorithmType",
           "clrName": "RsaKeyX",
-          "tsEmitName": "RsaKeyX",
+          "tsEmitName": "rsaKeyX",
           "normalizedSignature": "RsaKeyX|System.Security.Authentication.ExchangeAlgorithmType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -173,7 +173,7 @@
         {
           "stableId": "System.Net.Primitives:System.Security.Authentication.ExchangeAlgorithmType::DiffieHellmanSystem.Security.Authentication.ExchangeAlgorithmType",
           "clrName": "DiffieHellman",
-          "tsEmitName": "DiffieHellman",
+          "tsEmitName": "diffieHellman",
           "normalizedSignature": "DiffieHellman|System.Security.Authentication.ExchangeAlgorithmType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -208,7 +208,7 @@
         {
           "stableId": "System.Net.Primitives:System.Security.Authentication.HashAlgorithmType::NoneSystem.Security.Authentication.HashAlgorithmType",
           "clrName": "None",
-          "tsEmitName": "None",
+          "tsEmitName": "none",
           "normalizedSignature": "None|System.Security.Authentication.HashAlgorithmType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -217,7 +217,7 @@
         {
           "stableId": "System.Net.Primitives:System.Security.Authentication.HashAlgorithmType::Md5System.Security.Authentication.HashAlgorithmType",
           "clrName": "Md5",
-          "tsEmitName": "Md5",
+          "tsEmitName": "md5",
           "normalizedSignature": "Md5|System.Security.Authentication.HashAlgorithmType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -226,7 +226,7 @@
         {
           "stableId": "System.Net.Primitives:System.Security.Authentication.HashAlgorithmType::Sha1System.Security.Authentication.HashAlgorithmType",
           "clrName": "Sha1",
-          "tsEmitName": "Sha1",
+          "tsEmitName": "sha1",
           "normalizedSignature": "Sha1|System.Security.Authentication.HashAlgorithmType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -235,7 +235,7 @@
         {
           "stableId": "System.Net.Primitives:System.Security.Authentication.HashAlgorithmType::Sha256System.Security.Authentication.HashAlgorithmType",
           "clrName": "Sha256",
-          "tsEmitName": "Sha256",
+          "tsEmitName": "sha256",
           "normalizedSignature": "Sha256|System.Security.Authentication.HashAlgorithmType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -244,7 +244,7 @@
         {
           "stableId": "System.Net.Primitives:System.Security.Authentication.HashAlgorithmType::Sha384System.Security.Authentication.HashAlgorithmType",
           "clrName": "Sha384",
-          "tsEmitName": "Sha384",
+          "tsEmitName": "sha384",
           "normalizedSignature": "Sha384|System.Security.Authentication.HashAlgorithmType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -253,7 +253,7 @@
         {
           "stableId": "System.Net.Primitives:System.Security.Authentication.HashAlgorithmType::Sha512System.Security.Authentication.HashAlgorithmType",
           "clrName": "Sha512",
-          "tsEmitName": "Sha512",
+          "tsEmitName": "sha512",
           "normalizedSignature": "Sha512|System.Security.Authentication.HashAlgorithmType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -288,7 +288,7 @@
         {
           "stableId": "System.Net.Primitives:System.Security.Authentication.SslProtocols::NoneSystem.Security.Authentication.SslProtocols",
           "clrName": "None",
-          "tsEmitName": "None",
+          "tsEmitName": "none",
           "normalizedSignature": "None|System.Security.Authentication.SslProtocols|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -297,7 +297,7 @@
         {
           "stableId": "System.Net.Primitives:System.Security.Authentication.SslProtocols::Ssl2System.Security.Authentication.SslProtocols",
           "clrName": "Ssl2",
-          "tsEmitName": "Ssl2",
+          "tsEmitName": "ssl2",
           "normalizedSignature": "Ssl2|System.Security.Authentication.SslProtocols|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -306,7 +306,7 @@
         {
           "stableId": "System.Net.Primitives:System.Security.Authentication.SslProtocols::Ssl3System.Security.Authentication.SslProtocols",
           "clrName": "Ssl3",
-          "tsEmitName": "Ssl3",
+          "tsEmitName": "ssl3",
           "normalizedSignature": "Ssl3|System.Security.Authentication.SslProtocols|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -315,7 +315,7 @@
         {
           "stableId": "System.Net.Primitives:System.Security.Authentication.SslProtocols::TlsSystem.Security.Authentication.SslProtocols",
           "clrName": "Tls",
-          "tsEmitName": "Tls",
+          "tsEmitName": "tls",
           "normalizedSignature": "Tls|System.Security.Authentication.SslProtocols|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -324,7 +324,7 @@
         {
           "stableId": "System.Net.Primitives:System.Security.Authentication.SslProtocols::Tls11System.Security.Authentication.SslProtocols",
           "clrName": "Tls11",
-          "tsEmitName": "Tls11",
+          "tsEmitName": "tls11",
           "normalizedSignature": "Tls11|System.Security.Authentication.SslProtocols|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -333,7 +333,7 @@
         {
           "stableId": "System.Net.Primitives:System.Security.Authentication.SslProtocols::Tls12System.Security.Authentication.SslProtocols",
           "clrName": "Tls12",
-          "tsEmitName": "Tls12",
+          "tsEmitName": "tls12",
           "normalizedSignature": "Tls12|System.Security.Authentication.SslProtocols|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -342,7 +342,7 @@
         {
           "stableId": "System.Net.Primitives:System.Security.Authentication.SslProtocols::Tls13System.Security.Authentication.SslProtocols",
           "clrName": "Tls13",
-          "tsEmitName": "Tls13",
+          "tsEmitName": "tls13",
           "normalizedSignature": "Tls13|System.Security.Authentication.SslProtocols|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -351,7 +351,7 @@
         {
           "stableId": "System.Net.Primitives:System.Security.Authentication.SslProtocols::DefaultSystem.Security.Authentication.SslProtocols",
           "clrName": "Default",
-          "tsEmitName": "Default",
+          "tsEmitName": "default_",
           "normalizedSignature": "Default|System.Security.Authentication.SslProtocols|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -375,7 +375,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData$view",
+          "tsEmitName": "getObjectData",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -441,7 +441,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData$view",
+          "tsEmitName": "getObjectData",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",

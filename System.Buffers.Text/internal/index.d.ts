@@ -39,91 +39,91 @@ export type CLROf<T> =
     T; // Identity fallback for non-primitive types
 
 export abstract class Base64$instance {
-    static DecodeFromUtf8(utf8: ReadOnlySpan_1<CLROf<byte>>, bytes: Span_1<CLROf<byte>>, bytesConsumed: { value: ref<int> }, bytesWritten: { value: ref<int> }, isFinalBlock?: boolean): OperationStatus;
-    static DecodeFromUtf8InPlace(buffer: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): OperationStatus;
-    static EncodeToUtf8(bytes: ReadOnlySpan_1<CLROf<byte>>, utf8: Span_1<CLROf<byte>>, bytesConsumed: { value: ref<int> }, bytesWritten: { value: ref<int> }, isFinalBlock?: boolean): OperationStatus;
-    static EncodeToUtf8InPlace(buffer: Span_1<CLROf<byte>>, dataLength: int, bytesWritten: { value: ref<int> }): OperationStatus;
-    static GetMaxDecodedFromUtf8Length(length: int): int;
-    static GetMaxEncodedToUtf8Length(length: int): int;
-    static IsValid(base64TextUtf8: ReadOnlySpan_1<CLROf<byte>>, decodedLength: { value: ref<int> }): boolean;
-    static IsValid(base64TextUtf8: ReadOnlySpan_1<CLROf<byte>>): boolean;
-    static IsValid(base64Text: ReadOnlySpan_1<CLROf<char>>, decodedLength: { value: ref<int> }): boolean;
-    static IsValid(base64Text: ReadOnlySpan_1<CLROf<char>>): boolean;
+    static decodeFromUtf8(utf8: ReadOnlySpan_1<CLROf<byte>>, bytes: Span_1<CLROf<byte>>, bytesConsumed: { value: ref<int> }, bytesWritten: { value: ref<int> }, isFinalBlock?: boolean): OperationStatus;
+    static decodeFromUtf8InPlace(buffer: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): OperationStatus;
+    static encodeToUtf8(bytes: ReadOnlySpan_1<CLROf<byte>>, utf8: Span_1<CLROf<byte>>, bytesConsumed: { value: ref<int> }, bytesWritten: { value: ref<int> }, isFinalBlock?: boolean): OperationStatus;
+    static encodeToUtf8InPlace(buffer: Span_1<CLROf<byte>>, dataLength: int, bytesWritten: { value: ref<int> }): OperationStatus;
+    static getMaxDecodedFromUtf8Length(length: int): int;
+    static getMaxEncodedToUtf8Length(length: int): int;
+    static isValid(base64TextUtf8: ReadOnlySpan_1<CLROf<byte>>, decodedLength: { value: ref<int> }): boolean;
+    static isValid(base64TextUtf8: ReadOnlySpan_1<CLROf<byte>>): boolean;
+    static isValid(base64Text: ReadOnlySpan_1<CLROf<char>>, decodedLength: { value: ref<int> }): boolean;
+    static isValid(base64Text: ReadOnlySpan_1<CLROf<char>>): boolean;
 }
 
 
 export type Base64 = Base64$instance;
 
 export abstract class Base64Url$instance {
-    static DecodeFromChars(source: ReadOnlySpan_1<CLROf<char>>, destination: Span_1<CLROf<byte>>, charsConsumed: { value: ref<int> }, bytesWritten: { value: ref<int> }, isFinalBlock?: boolean): OperationStatus;
-    static DecodeFromChars(source: ReadOnlySpan_1<CLROf<char>>, destination: Span_1<CLROf<byte>>): int;
-    static DecodeFromChars(source: ReadOnlySpan_1<CLROf<char>>): byte[];
-    static DecodeFromUtf8(source: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, bytesConsumed: { value: ref<int> }, bytesWritten: { value: ref<int> }, isFinalBlock?: boolean): OperationStatus;
-    static DecodeFromUtf8(source: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>): int;
-    static DecodeFromUtf8(source: ReadOnlySpan_1<CLROf<byte>>): byte[];
-    static DecodeFromUtf8InPlace(buffer: Span_1<CLROf<byte>>): int;
-    static EncodeToChars(source: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<char>>, bytesConsumed: { value: ref<int> }, charsWritten: { value: ref<int> }, isFinalBlock?: boolean): OperationStatus;
-    static EncodeToChars(source: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<char>>): int;
-    static EncodeToChars(source: ReadOnlySpan_1<CLROf<byte>>): char[];
-    static EncodeToString(source: ReadOnlySpan_1<CLROf<byte>>): string;
-    static EncodeToUtf8(source: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, bytesConsumed: { value: ref<int> }, bytesWritten: { value: ref<int> }, isFinalBlock?: boolean): OperationStatus;
-    static EncodeToUtf8(source: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>): int;
-    static EncodeToUtf8(source: ReadOnlySpan_1<CLROf<byte>>): byte[];
-    static GetEncodedLength(bytesLength: int): int;
-    static GetMaxDecodedLength(base64Length: int): int;
-    static IsValid(utf8Base64UrlText: ReadOnlySpan_1<CLROf<byte>>, decodedLength: { value: ref<int> }): boolean;
-    static IsValid(utf8Base64UrlText: ReadOnlySpan_1<CLROf<byte>>): boolean;
-    static IsValid(base64UrlText: ReadOnlySpan_1<CLROf<char>>, decodedLength: { value: ref<int> }): boolean;
-    static IsValid(base64UrlText: ReadOnlySpan_1<CLROf<char>>): boolean;
-    static TryDecodeFromChars(source: ReadOnlySpan_1<CLROf<char>>, destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
-    static TryDecodeFromUtf8(source: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
-    static TryEncodeToChars(source: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<char>>, charsWritten: { value: ref<int> }): boolean;
-    static TryEncodeToUtf8(source: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
-    static TryEncodeToUtf8InPlace(buffer: Span_1<CLROf<byte>>, dataLength: int, bytesWritten: { value: ref<int> }): boolean;
+    static decodeFromChars(source: ReadOnlySpan_1<CLROf<char>>, destination: Span_1<CLROf<byte>>, charsConsumed: { value: ref<int> }, bytesWritten: { value: ref<int> }, isFinalBlock?: boolean): OperationStatus;
+    static decodeFromChars(source: ReadOnlySpan_1<CLROf<char>>, destination: Span_1<CLROf<byte>>): int;
+    static decodeFromChars(source: ReadOnlySpan_1<CLROf<char>>): byte[];
+    static decodeFromUtf8(source: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, bytesConsumed: { value: ref<int> }, bytesWritten: { value: ref<int> }, isFinalBlock?: boolean): OperationStatus;
+    static decodeFromUtf8(source: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>): int;
+    static decodeFromUtf8(source: ReadOnlySpan_1<CLROf<byte>>): byte[];
+    static decodeFromUtf8InPlace(buffer: Span_1<CLROf<byte>>): int;
+    static encodeToChars(source: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<char>>, bytesConsumed: { value: ref<int> }, charsWritten: { value: ref<int> }, isFinalBlock?: boolean): OperationStatus;
+    static encodeToChars(source: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<char>>): int;
+    static encodeToChars(source: ReadOnlySpan_1<CLROf<byte>>): char[];
+    static encodeToString(source: ReadOnlySpan_1<CLROf<byte>>): string;
+    static encodeToUtf8(source: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, bytesConsumed: { value: ref<int> }, bytesWritten: { value: ref<int> }, isFinalBlock?: boolean): OperationStatus;
+    static encodeToUtf8(source: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>): int;
+    static encodeToUtf8(source: ReadOnlySpan_1<CLROf<byte>>): byte[];
+    static getEncodedLength(bytesLength: int): int;
+    static getMaxDecodedLength(base64Length: int): int;
+    static isValid(utf8Base64UrlText: ReadOnlySpan_1<CLROf<byte>>, decodedLength: { value: ref<int> }): boolean;
+    static isValid(utf8Base64UrlText: ReadOnlySpan_1<CLROf<byte>>): boolean;
+    static isValid(base64UrlText: ReadOnlySpan_1<CLROf<char>>, decodedLength: { value: ref<int> }): boolean;
+    static isValid(base64UrlText: ReadOnlySpan_1<CLROf<char>>): boolean;
+    static tryDecodeFromChars(source: ReadOnlySpan_1<CLROf<char>>, destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
+    static tryDecodeFromUtf8(source: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
+    static tryEncodeToChars(source: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<char>>, charsWritten: { value: ref<int> }): boolean;
+    static tryEncodeToUtf8(source: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
+    static tryEncodeToUtf8InPlace(buffer: Span_1<CLROf<byte>>, dataLength: int, bytesWritten: { value: ref<int> }): boolean;
 }
 
 
 export type Base64Url = Base64Url$instance;
 
 export abstract class Utf8Formatter$instance {
-    static TryFormat(value: boolean, destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }, format?: StandardFormat): boolean;
-    static TryFormat(value: byte, destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }, format?: StandardFormat): boolean;
-    static TryFormat(value: DateTime, destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }, format?: StandardFormat): boolean;
-    static TryFormat(value: DateTimeOffset, destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }, format?: StandardFormat): boolean;
-    static TryFormat(value: decimal, destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }, format?: StandardFormat): boolean;
-    static TryFormat(value: double, destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }, format?: StandardFormat): boolean;
-    static TryFormat(value: Guid, destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }, format?: StandardFormat): boolean;
-    static TryFormat(value: short, destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }, format?: StandardFormat): boolean;
-    static TryFormat(value: int, destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }, format?: StandardFormat): boolean;
-    static TryFormat(value: long, destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }, format?: StandardFormat): boolean;
-    static TryFormat(value: sbyte, destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }, format?: StandardFormat): boolean;
-    static TryFormat(value: float, destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }, format?: StandardFormat): boolean;
-    static TryFormat(value: TimeSpan, destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }, format?: StandardFormat): boolean;
-    static TryFormat(value: ushort, destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }, format?: StandardFormat): boolean;
-    static TryFormat(value: uint, destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }, format?: StandardFormat): boolean;
-    static TryFormat(value: ulong, destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }, format?: StandardFormat): boolean;
+    static tryFormat(value: boolean, destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }, format?: StandardFormat): boolean;
+    static tryFormat(value: byte, destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }, format?: StandardFormat): boolean;
+    static tryFormat(value: DateTime, destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }, format?: StandardFormat): boolean;
+    static tryFormat(value: DateTimeOffset, destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }, format?: StandardFormat): boolean;
+    static tryFormat(value: decimal, destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }, format?: StandardFormat): boolean;
+    static tryFormat(value: double, destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }, format?: StandardFormat): boolean;
+    static tryFormat(value: Guid, destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }, format?: StandardFormat): boolean;
+    static tryFormat(value: short, destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }, format?: StandardFormat): boolean;
+    static tryFormat(value: int, destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }, format?: StandardFormat): boolean;
+    static tryFormat(value: long, destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }, format?: StandardFormat): boolean;
+    static tryFormat(value: sbyte, destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }, format?: StandardFormat): boolean;
+    static tryFormat(value: float, destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }, format?: StandardFormat): boolean;
+    static tryFormat(value: TimeSpan, destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }, format?: StandardFormat): boolean;
+    static tryFormat(value: ushort, destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }, format?: StandardFormat): boolean;
+    static tryFormat(value: uint, destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }, format?: StandardFormat): boolean;
+    static tryFormat(value: ulong, destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }, format?: StandardFormat): boolean;
 }
 
 
 export type Utf8Formatter = Utf8Formatter$instance;
 
 export abstract class Utf8Parser$instance {
-    static TryParse(source: ReadOnlySpan_1<CLROf<byte>>, value: { value: ref<boolean> }, bytesConsumed: { value: ref<int> }, standardFormat?: char): boolean;
-    static TryParse(source: ReadOnlySpan_1<CLROf<byte>>, value: { value: ref<byte> }, bytesConsumed: { value: ref<int> }, standardFormat?: char): boolean;
-    static TryParse(source: ReadOnlySpan_1<CLROf<byte>>, value: { value: ref<DateTime> }, bytesConsumed: { value: ref<int> }, standardFormat?: char): boolean;
-    static TryParse(source: ReadOnlySpan_1<CLROf<byte>>, value: { value: ref<DateTimeOffset> }, bytesConsumed: { value: ref<int> }, standardFormat?: char): boolean;
-    static TryParse(source: ReadOnlySpan_1<CLROf<byte>>, value: { value: ref<decimal> }, bytesConsumed: { value: ref<int> }, standardFormat?: char): boolean;
-    static TryParse(source: ReadOnlySpan_1<CLROf<byte>>, value: { value: ref<double> }, bytesConsumed: { value: ref<int> }, standardFormat?: char): boolean;
-    static TryParse(source: ReadOnlySpan_1<CLROf<byte>>, value: { value: ref<Guid> }, bytesConsumed: { value: ref<int> }, standardFormat?: char): boolean;
-    static TryParse(source: ReadOnlySpan_1<CLROf<byte>>, value: { value: ref<short> }, bytesConsumed: { value: ref<int> }, standardFormat?: char): boolean;
-    static TryParse(source: ReadOnlySpan_1<CLROf<byte>>, value: { value: ref<int> }, bytesConsumed: { value: ref<int> }, standardFormat?: char): boolean;
-    static TryParse(source: ReadOnlySpan_1<CLROf<byte>>, value: { value: ref<long> }, bytesConsumed: { value: ref<int> }, standardFormat?: char): boolean;
-    static TryParse(source: ReadOnlySpan_1<CLROf<byte>>, value: { value: ref<sbyte> }, bytesConsumed: { value: ref<int> }, standardFormat?: char): boolean;
-    static TryParse(source: ReadOnlySpan_1<CLROf<byte>>, value: { value: ref<float> }, bytesConsumed: { value: ref<int> }, standardFormat?: char): boolean;
-    static TryParse(source: ReadOnlySpan_1<CLROf<byte>>, value: { value: ref<TimeSpan> }, bytesConsumed: { value: ref<int> }, standardFormat?: char): boolean;
-    static TryParse(source: ReadOnlySpan_1<CLROf<byte>>, value: { value: ref<ushort> }, bytesConsumed: { value: ref<int> }, standardFormat?: char): boolean;
-    static TryParse(source: ReadOnlySpan_1<CLROf<byte>>, value: { value: ref<uint> }, bytesConsumed: { value: ref<int> }, standardFormat?: char): boolean;
-    static TryParse(source: ReadOnlySpan_1<CLROf<byte>>, value: { value: ref<ulong> }, bytesConsumed: { value: ref<int> }, standardFormat?: char): boolean;
+    static tryParse(source: ReadOnlySpan_1<CLROf<byte>>, value: { value: ref<boolean> }, bytesConsumed: { value: ref<int> }, standardFormat?: char): boolean;
+    static tryParse(source: ReadOnlySpan_1<CLROf<byte>>, value: { value: ref<byte> }, bytesConsumed: { value: ref<int> }, standardFormat?: char): boolean;
+    static tryParse(source: ReadOnlySpan_1<CLROf<byte>>, value: { value: ref<DateTime> }, bytesConsumed: { value: ref<int> }, standardFormat?: char): boolean;
+    static tryParse(source: ReadOnlySpan_1<CLROf<byte>>, value: { value: ref<DateTimeOffset> }, bytesConsumed: { value: ref<int> }, standardFormat?: char): boolean;
+    static tryParse(source: ReadOnlySpan_1<CLROf<byte>>, value: { value: ref<decimal> }, bytesConsumed: { value: ref<int> }, standardFormat?: char): boolean;
+    static tryParse(source: ReadOnlySpan_1<CLROf<byte>>, value: { value: ref<double> }, bytesConsumed: { value: ref<int> }, standardFormat?: char): boolean;
+    static tryParse(source: ReadOnlySpan_1<CLROf<byte>>, value: { value: ref<Guid> }, bytesConsumed: { value: ref<int> }, standardFormat?: char): boolean;
+    static tryParse(source: ReadOnlySpan_1<CLROf<byte>>, value: { value: ref<short> }, bytesConsumed: { value: ref<int> }, standardFormat?: char): boolean;
+    static tryParse(source: ReadOnlySpan_1<CLROf<byte>>, value: { value: ref<int> }, bytesConsumed: { value: ref<int> }, standardFormat?: char): boolean;
+    static tryParse(source: ReadOnlySpan_1<CLROf<byte>>, value: { value: ref<long> }, bytesConsumed: { value: ref<int> }, standardFormat?: char): boolean;
+    static tryParse(source: ReadOnlySpan_1<CLROf<byte>>, value: { value: ref<sbyte> }, bytesConsumed: { value: ref<int> }, standardFormat?: char): boolean;
+    static tryParse(source: ReadOnlySpan_1<CLROf<byte>>, value: { value: ref<float> }, bytesConsumed: { value: ref<int> }, standardFormat?: char): boolean;
+    static tryParse(source: ReadOnlySpan_1<CLROf<byte>>, value: { value: ref<TimeSpan> }, bytesConsumed: { value: ref<int> }, standardFormat?: char): boolean;
+    static tryParse(source: ReadOnlySpan_1<CLROf<byte>>, value: { value: ref<ushort> }, bytesConsumed: { value: ref<int> }, standardFormat?: char): boolean;
+    static tryParse(source: ReadOnlySpan_1<CLROf<byte>>, value: { value: ref<uint> }, bytesConsumed: { value: ref<int> }, standardFormat?: char): boolean;
+    static tryParse(source: ReadOnlySpan_1<CLROf<byte>>, value: { value: ref<ulong> }, bytesConsumed: { value: ref<int> }, standardFormat?: char): boolean;
 }
 
 

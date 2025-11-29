@@ -45,15 +45,15 @@ export type CLROf<T> =
     T; // Identity fallback for non-primitive types
 
 export enum UltimateResourceFallbackLocation {
-    MainAssembly = 0,
-    Satellite = 1
+    mainAssembly = 0,
+    satellite = 1
 }
 
 
 export interface IResourceReader$instance extends IEnumerable, IDisposable {
-    Close(): void;
-    GetEnumerator(): IEnumerator;
-    GetEnumerator(): IDictionaryEnumerator;
+    close(): void;
+    getEnumerator(): IEnumerator;
+    getEnumerator(): IDictionaryEnumerator;
 }
 
 
@@ -62,10 +62,10 @@ export interface IResourceReader$instance extends System_Internal.IDisposable$in
 export type IResourceReader = IResourceReader$instance;
 
 export interface IResourceWriter$instance extends IDisposable {
-    AddResource(name: string, value: byte[]): void;
-    AddResource(name: string, value: unknown): void;
-    AddResource(name: string, value: string): void;
-    Close(): void;
+    addResource(name: string, value: byte[]): void;
+    addResource(name: string, value: unknown): void;
+    addResource(name: string, value: string): void;
+    close(): void;
 }
 
 
@@ -85,6 +85,8 @@ export interface __MissingManifestResourceException$views {
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
+export interface MissingManifestResourceException$instance extends System_Runtime_Serialization_Internal.ISerializable$instance {}
+
 export type MissingManifestResourceException = MissingManifestResourceException$instance & __MissingManifestResourceException$views;
 
 
@@ -93,7 +95,7 @@ export class MissingSatelliteAssemblyException$instance extends System_Internal.
     constructor(message: string);
     constructor(message: string, cultureName: string);
     constructor(message: string, inner: Exception);
-    readonly CultureName: string;
+    readonly cultureName: string;
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
@@ -102,14 +104,16 @@ export interface __MissingSatelliteAssemblyException$views {
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
+export interface MissingSatelliteAssemblyException$instance extends System_Runtime_Serialization_Internal.ISerializable$instance {}
+
 export type MissingSatelliteAssemblyException = MissingSatelliteAssemblyException$instance & __MissingSatelliteAssemblyException$views;
 
 
 export class NeutralResourcesLanguageAttribute$instance extends System_Internal.Attribute$instance {
     constructor(cultureName: string);
     constructor(cultureName: string, location: UltimateResourceFallbackLocation);
-    readonly CultureName: string;
-    readonly Location: UltimateResourceFallbackLocation;
+    readonly cultureName: string;
+    readonly location: UltimateResourceFallbackLocation;
 }
 
 
@@ -119,20 +123,20 @@ export class ResourceManager$instance {
     constructor(baseName: string, assembly: Assembly);
     constructor(baseName: string, assembly: Assembly, usingResourceSet: Type);
     constructor(resourceSource: Type);
-    readonly BaseName: string;
-    IgnoreCase: boolean;
-    readonly ResourceSetType: Type;
-    GetObject(name: string): unknown;
-    GetObject(name: string, culture: CultureInfo): unknown;
-    GetResourceSet(culture: CultureInfo, createIfNotExists: boolean, tryParents: boolean): ResourceSet;
-    GetStream(name: string): UnmanagedMemoryStream;
-    GetStream(name: string, culture: CultureInfo): UnmanagedMemoryStream;
-    GetString(name: string): string;
-    GetString(name: string, culture: CultureInfo): string;
-    ReleaseAllResources(): void;
-    static readonly MagicNumber: int;
-    static readonly HeaderVersionNumber: int;
-    static CreateFileBasedResourceManager(baseName: string, resourceDir: string, usingResourceSet: Type): ResourceManager;
+    readonly baseName: string;
+    ignoreCase: boolean;
+    readonly resourceSetType: Type;
+    getObject(name: string): unknown;
+    getObject(name: string, culture: CultureInfo): unknown;
+    getResourceSet(culture: CultureInfo, createIfNotExists: boolean, tryParents: boolean): ResourceSet;
+    getStream(name: string): UnmanagedMemoryStream;
+    getStream(name: string, culture: CultureInfo): UnmanagedMemoryStream;
+    getString(name: string): string;
+    getString(name: string, culture: CultureInfo): string;
+    releaseAllResources(): void;
+    static readonly magicNumber: int;
+    static readonly headerVersionNumber: int;
+    static createFileBasedResourceManager(baseName: string, resourceDir: string, usingResourceSet: Type): ResourceManager;
 }
 
 
@@ -141,10 +145,10 @@ export type ResourceManager = ResourceManager$instance;
 export class ResourceReader$instance {
     constructor(fileName: string);
     constructor(stream: Stream);
-    Close(): void;
-    Dispose(): void;
-    GetEnumerator(): IDictionaryEnumerator;
-    GetResourceData(resourceName: string, resourceType: { value: ref<string> }, resourceData: { value: ref<byte[]> }): void;
+    close(): void;
+    dispose(): void;
+    getEnumerator(): IDictionaryEnumerator;
+    getResourceData(resourceName: string, resourceType: { value: ref<string> }, resourceData: { value: ref<byte[]> }): void;
 }
 
 
@@ -161,15 +165,15 @@ export class ResourceSet$instance {
     constructor(fileName: string);
     constructor(stream: Stream);
     constructor(reader: IResourceReader);
-    Close(): void;
-    Dispose(): void;
-    GetDefaultReader(): Type;
-    GetDefaultWriter(): Type;
-    GetEnumerator(): IDictionaryEnumerator;
-    GetObject(name: string): unknown;
-    GetObject(name: string, ignoreCase: boolean): unknown;
-    GetString(name: string): string;
-    GetString(name: string, ignoreCase: boolean): string;
+    close(): void;
+    dispose(): void;
+    getDefaultReader(): Type;
+    getDefaultWriter(): Type;
+    getEnumerator(): IDictionaryEnumerator;
+    getObject(name: string): unknown;
+    getObject(name: string, ignoreCase: boolean): unknown;
+    getString(name: string): string;
+    getString(name: string, ignoreCase: boolean): string;
 }
 
 
@@ -186,16 +190,16 @@ export type ResourceSet = ResourceSet$instance & __ResourceSet$views;
 export class ResourceWriter$instance {
     constructor(fileName: string);
     constructor(stream: Stream);
-    TypeNameConverter: Func_2<Type, CLROf<string>>;
-    AddResource(name: string, value: Stream): void;
-    AddResource(name: string, value: string): void;
-    AddResource(name: string, value: unknown): void;
-    AddResource(name: string, value: Stream, closeAfterWrite?: boolean): void;
-    AddResource(name: string, value: byte[]): void;
-    AddResourceData(name: string, typeName: string, serializedData: byte[]): void;
-    Close(): void;
-    Dispose(): void;
-    Generate(): void;
+    typeNameConverter: Func_2<Type, CLROf<string>>;
+    addResource(name: string, value: Stream): void;
+    addResource(name: string, value: string): void;
+    addResource(name: string, value: unknown): void;
+    addResource(name: string, value: Stream, closeAfterWrite?: boolean): void;
+    addResource(name: string, value: byte[]): void;
+    addResourceData(name: string, typeName: string, serializedData: byte[]): void;
+    close(): void;
+    dispose(): void;
+    generate(): void;
 }
 
 
@@ -209,7 +213,7 @@ export type ResourceWriter = ResourceWriter$instance & __ResourceWriter$views;
 
 export class SatelliteContractVersionAttribute$instance extends System_Internal.Attribute$instance {
     constructor(version: string);
-    readonly Version: string;
+    readonly version: string;
 }
 
 

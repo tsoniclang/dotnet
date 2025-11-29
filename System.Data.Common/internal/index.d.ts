@@ -57,60 +57,60 @@ export type CLROf<T> =
     T; // Identity fallback for non-primitive types
 
 export enum CatalogLocation {
-    Start = 1,
-    End = 2
+    start = 1,
+    end = 2
 }
 
 
 export enum GroupByBehavior {
-    Unknown = 0,
-    NotSupported = 1,
-    Unrelated = 2,
-    MustContainAll = 3,
-    ExactMatch = 4
+    unknown_ = 0,
+    notSupported = 1,
+    unrelated = 2,
+    mustContainAll = 3,
+    exactMatch = 4
 }
 
 
 export enum IdentifierCase {
-    Unknown = 0,
-    Insensitive = 1,
-    Sensitive = 2
+    unknown_ = 0,
+    insensitive = 1,
+    sensitive = 2
 }
 
 
 export enum SupportedJoinOperators {
-    None = 0,
-    Inner = 1,
-    LeftOuter = 2,
-    RightOuter = 4,
-    FullOuter = 8
+    none = 0,
+    inner = 1,
+    leftOuter = 2,
+    rightOuter = 4,
+    fullOuter = 8
 }
 
 
 export interface IDbColumnSchemaGenerator$instance {
-    GetColumnSchema(): ReadOnlyCollection_1<DbColumn>;
+    getColumnSchema(): ReadOnlyCollection_1<DbColumn>;
 }
 
 
 export type IDbColumnSchemaGenerator = IDbColumnSchemaGenerator$instance;
 
 export class DataAdapter$instance extends System_ComponentModel_Internal.Component$instance {
-    AcceptChangesDuringFill: boolean;
-    AcceptChangesDuringUpdate: boolean;
-    ContinueUpdateOnError: boolean;
-    FillLoadOption: LoadOption;
-    MissingMappingAction: MissingMappingAction;
-    MissingSchemaAction: MissingSchemaAction;
-    ReturnProviderSpecificTypes: boolean;
-    readonly TableMappings: DataTableMappingCollection | ITableMappingCollection;
+    acceptChangesDuringFill: boolean;
+    acceptChangesDuringUpdate: boolean;
+    continueUpdateOnError: boolean;
+    fillLoadOption: LoadOption;
+    missingMappingAction: MissingMappingAction;
+    missingSchemaAction: MissingSchemaAction;
+    returnProviderSpecificTypes: boolean;
+    readonly tableMappings: DataTableMappingCollection | ITableMappingCollection;
     Dispose(): void;
-    Fill(dataSet: DataSet): int;
-    FillSchema(dataSet: DataSet, schemaType: SchemaType): DataTable[];
-    GetFillParameters(): IDataParameter[];
-    ResetFillLoadOption(): void;
-    ShouldSerializeAcceptChangesDuringFill(): boolean;
-    ShouldSerializeFillLoadOption(): boolean;
-    Update(dataSet: DataSet): int;
+    fill(dataSet: DataSet): int;
+    fillSchema(dataSet: DataSet, schemaType: SchemaType): DataTable[];
+    getFillParameters(): IDataParameter[];
+    resetFillLoadOption(): void;
+    shouldSerializeAcceptChangesDuringFill(): boolean;
+    shouldSerializeFillLoadOption(): boolean;
+    update(dataSet: DataSet): int;
 }
 
 
@@ -120,19 +120,17 @@ export interface __DataAdapter$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
 
-export interface DataAdapter$instance extends System_ComponentModel_Internal.IComponent$instance {}
-
 export type DataAdapter = DataAdapter$instance & __DataAdapter$views;
 
 
 export class DataColumnMapping$instance extends System_Internal.MarshalByRefObject$instance {
     constructor();
     constructor(sourceColumn: string, dataSetColumn: string);
-    DataSetColumn: string;
-    SourceColumn: string;
-    GetDataColumnBySchemaAction(dataTable: DataTable, dataType: Type, schemaAction: MissingSchemaAction): DataColumn;
-    ToString(): string;
-    static GetDataColumnBySchemaAction(sourceColumn: string, dataSetColumn: string, dataTable: DataTable, dataType: Type, schemaAction: MissingSchemaAction): DataColumn;
+    dataSetColumn: string;
+    sourceColumn: string;
+    getDataColumnBySchemaAction(dataTable: DataTable, dataType: Type, schemaAction: MissingSchemaAction): DataColumn;
+    toString(): string;
+    static getDataColumnBySchemaAction(sourceColumn: string, dataSetColumn: string, dataTable: DataTable, dataType: Type, schemaAction: MissingSchemaAction): DataColumn;
 }
 
 
@@ -148,33 +146,33 @@ export type DataColumnMapping = DataColumnMapping$instance & __DataColumnMapping
 
 export class DataColumnMappingCollection$instance extends System_Internal.MarshalByRefObject$instance {
     constructor();
-    readonly Count: int;
-    Add(value: unknown): int;
-    Add(sourceColumn: string, dataSetColumn: string): DataColumnMapping;
-    AddRange(values: DataColumnMapping[]): void;
-    AddRange(values: ClrArray): void;
-    Clear(): void;
-    Contains(value: string): boolean;
-    Contains(value: unknown): boolean;
-    CopyTo(array: ClrArray, index: int): void;
-    CopyTo(array: DataColumnMapping[], index: int): void;
+    readonly count: int;
+    add(value: unknown): int;
+    add(sourceColumn: string, dataSetColumn: string): DataColumnMapping;
+    addRange(values: DataColumnMapping[]): void;
+    addRange(values: ClrArray): void;
+    clear(): void;
+    contains(value: string): boolean;
+    contains(value: unknown): boolean;
+    copyTo(array: ClrArray, index: int): void;
+    copyTo(array: DataColumnMapping[], index: int): void;
     get_Item(index: int): DataColumnMapping;
     get_Item(sourceColumn: string): DataColumnMapping;
-    GetByDataSetColumn(value: string): DataColumnMapping;
-    GetEnumerator(): IEnumerator;
-    IndexOf(value: unknown): int;
-    IndexOf(sourceColumn: string): int;
-    IndexOfDataSetColumn(dataSetColumn: string): int;
-    Insert(index: int, value: unknown): void;
-    Insert(index: int, value: DataColumnMapping): void;
-    Remove(value: unknown): void;
-    Remove(value: DataColumnMapping): void;
-    RemoveAt(index: int): void;
-    RemoveAt(sourceColumn: string): void;
+    getByDataSetColumn(value: string): DataColumnMapping;
+    getEnumerator(): IEnumerator;
+    indexOf(value: unknown): int;
+    indexOf(sourceColumn: string): int;
+    indexOfDataSetColumn(dataSetColumn: string): int;
+    insert(index: int, value: unknown): void;
+    insert(index: int, value: DataColumnMapping): void;
+    remove(value: unknown): void;
+    remove(value: DataColumnMapping): void;
+    removeAt(index: int): void;
+    removeAt(sourceColumn: string): void;
     set_Item(index: int, value: DataColumnMapping): void;
     set_Item(sourceColumn: string, value: DataColumnMapping): void;
-    static GetColumnMappingBySchemaAction(columnMappings: DataColumnMappingCollection, sourceColumn: string, mappingAction: MissingMappingAction): DataColumnMapping;
-    static GetDataColumn(columnMappings: DataColumnMappingCollection, sourceColumn: string, dataType: Type, dataTable: DataTable, mappingAction: MissingMappingAction, schemaAction: MissingSchemaAction): DataColumn;
+    static getColumnMappingBySchemaAction(columnMappings: DataColumnMappingCollection, sourceColumn: string, mappingAction: MissingMappingAction): DataColumnMapping;
+    static getDataColumn(columnMappings: DataColumnMappingCollection, sourceColumn: string, dataType: Type, dataTable: DataTable, mappingAction: MissingMappingAction, schemaAction: MissingSchemaAction): DataColumn;
 }
 
 
@@ -192,13 +190,13 @@ export class DataTableMapping$instance extends System_Internal.MarshalByRefObjec
     constructor();
     constructor(sourceTable: string, dataSetTable: string);
     constructor(sourceTable: string, dataSetTable: string, columnMappings: DataColumnMapping[]);
-    readonly ColumnMappings: DataColumnMappingCollection | IColumnMappingCollection;
-    DataSetTable: string;
-    SourceTable: string;
-    GetColumnMappingBySchemaAction(sourceColumn: string, mappingAction: MissingMappingAction): DataColumnMapping;
-    GetDataColumn(sourceColumn: string, dataType: Type, dataTable: DataTable, mappingAction: MissingMappingAction, schemaAction: MissingSchemaAction): DataColumn;
-    GetDataTableBySchemaAction(dataSet: DataSet, schemaAction: MissingSchemaAction): DataTable;
-    ToString(): string;
+    readonly columnMappings: DataColumnMappingCollection | IColumnMappingCollection;
+    dataSetTable: string;
+    sourceTable: string;
+    getColumnMappingBySchemaAction(sourceColumn: string, mappingAction: MissingMappingAction): DataColumnMapping;
+    getDataColumn(sourceColumn: string, dataType: Type, dataTable: DataTable, mappingAction: MissingMappingAction, schemaAction: MissingSchemaAction): DataColumn;
+    getDataTableBySchemaAction(dataSet: DataSet, schemaAction: MissingSchemaAction): DataTable;
+    toString(): string;
 }
 
 
@@ -214,32 +212,32 @@ export type DataTableMapping = DataTableMapping$instance & __DataTableMapping$vi
 
 export class DataTableMappingCollection$instance extends System_Internal.MarshalByRefObject$instance {
     constructor();
-    readonly Count: int;
-    Add(value: unknown): int;
-    Add(sourceTable: string, dataSetTable: string): DataTableMapping;
-    AddRange(values: DataTableMapping[]): void;
-    AddRange(values: ClrArray): void;
-    Clear(): void;
-    Contains(value: string): boolean;
-    Contains(value: unknown): boolean;
-    CopyTo(array: ClrArray, index: int): void;
-    CopyTo(array: DataTableMapping[], index: int): void;
+    readonly count: int;
+    add(value: unknown): int;
+    add(sourceTable: string, dataSetTable: string): DataTableMapping;
+    addRange(values: DataTableMapping[]): void;
+    addRange(values: ClrArray): void;
+    clear(): void;
+    contains(value: string): boolean;
+    contains(value: unknown): boolean;
+    copyTo(array: ClrArray, index: int): void;
+    copyTo(array: DataTableMapping[], index: int): void;
     get_Item(index: int): DataTableMapping;
     get_Item(sourceTable: string): DataTableMapping;
-    GetByDataSetTable(dataSetTable: string): DataTableMapping;
-    GetEnumerator(): IEnumerator;
-    IndexOf(value: unknown): int;
-    IndexOf(sourceTable: string): int;
-    IndexOfDataSetTable(dataSetTable: string): int;
-    Insert(index: int, value: unknown): void;
-    Insert(index: int, value: DataTableMapping): void;
-    Remove(value: unknown): void;
-    Remove(value: DataTableMapping): void;
-    RemoveAt(index: int): void;
-    RemoveAt(sourceTable: string): void;
+    getByDataSetTable(dataSetTable: string): DataTableMapping;
+    getEnumerator(): IEnumerator;
+    indexOf(value: unknown): int;
+    indexOf(sourceTable: string): int;
+    indexOfDataSetTable(dataSetTable: string): int;
+    insert(index: int, value: unknown): void;
+    insert(index: int, value: DataTableMapping): void;
+    remove(value: unknown): void;
+    remove(value: DataTableMapping): void;
+    removeAt(index: int): void;
+    removeAt(sourceTable: string): void;
     set_Item(index: int, value: DataTableMapping): void;
     set_Item(sourceTable: string, value: DataTableMapping): void;
-    static GetTableMappingBySchemaAction(tableMappings: DataTableMappingCollection, sourceTable: string, dataSetTable: string, mappingAction: MissingMappingAction): DataTableMapping;
+    static getTableMappingBySchemaAction(tableMappings: DataTableMappingCollection, sourceTable: string, dataSetTable: string, mappingAction: MissingMappingAction): DataTableMapping;
 }
 
 
@@ -254,23 +252,23 @@ export type DataTableMappingCollection = DataTableMappingCollection$instance & _
 
 
 export abstract class DbBatch$instance {
-    readonly BatchCommands: DbBatchCommandCollection;
-    Connection: DbConnection;
-    Timeout: int;
-    Transaction: DbTransaction;
-    abstract Cancel(): void;
-    CreateBatchCommand(): DbBatchCommand;
-    Dispose(): void;
-    DisposeAsync(): ValueTask;
-    abstract ExecuteNonQuery(): int;
-    abstract ExecuteNonQueryAsync(cancellationToken?: CancellationToken): Task_1<CLROf<int>>;
-    ExecuteReader(behavior?: CommandBehavior): DbDataReader;
-    ExecuteReaderAsync(cancellationToken?: CancellationToken): Task_1<DbDataReader>;
-    ExecuteReaderAsync(behavior: CommandBehavior, cancellationToken?: CancellationToken): Task_1<DbDataReader>;
-    abstract ExecuteScalar(): unknown;
-    abstract ExecuteScalarAsync(cancellationToken?: CancellationToken): Task_1<unknown>;
-    abstract Prepare(): void;
-    abstract PrepareAsync(cancellationToken?: CancellationToken): Task;
+    readonly batchCommands: DbBatchCommandCollection;
+    connection: DbConnection;
+    timeout: int;
+    transaction: DbTransaction;
+    abstract cancel(): void;
+    createBatchCommand(): DbBatchCommand;
+    dispose(): void;
+    disposeAsync(): ValueTask;
+    abstract executeNonQuery(): int;
+    abstract executeNonQueryAsync(cancellationToken?: CancellationToken): Task_1<CLROf<int>>;
+    executeReader(behavior?: CommandBehavior): DbDataReader;
+    executeReaderAsync(cancellationToken?: CancellationToken): Task_1<DbDataReader>;
+    executeReaderAsync(behavior: CommandBehavior, cancellationToken?: CancellationToken): Task_1<DbDataReader>;
+    abstract executeScalar(): unknown;
+    abstract executeScalarAsync(cancellationToken?: CancellationToken): Task_1<unknown>;
+    abstract prepare(): void;
+    abstract prepareAsync(cancellationToken?: CancellationToken): Task;
 }
 
 
@@ -285,30 +283,30 @@ export type DbBatch = DbBatch$instance & __DbBatch$views;
 
 
 export abstract class DbBatchCommand$instance {
-    readonly CanCreateParameter: boolean;
-    CommandText: string;
-    CommandType: CommandType;
-    readonly Parameters: DbParameterCollection;
-    readonly RecordsAffected: int;
-    CreateParameter(): DbParameter;
+    readonly canCreateParameter: boolean;
+    commandText: string;
+    commandType: CommandType;
+    readonly parameters: DbParameterCollection;
+    readonly recordsAffected: int;
+    createParameter(): DbParameter;
 }
 
 
 export type DbBatchCommand = DbBatchCommand$instance;
 
 export abstract class DbBatchCommandCollection$instance {
-    readonly Count: int;
-    readonly IsReadOnly: boolean;
-    Item: DbBatchCommand;
-    abstract Add(item: DbBatchCommand): void;
-    abstract Clear(): void;
-    abstract Contains(item: DbBatchCommand): boolean;
-    abstract CopyTo(array: DbBatchCommand[], arrayIndex: int): void;
-    abstract GetEnumerator(): IEnumerator_1<DbBatchCommand>;
-    abstract IndexOf(item: DbBatchCommand): int;
-    abstract Insert(index: int, item: DbBatchCommand): void;
-    abstract Remove(item: DbBatchCommand): boolean;
-    abstract RemoveAt(index: int): void;
+    readonly count: int;
+    readonly isReadOnly: boolean;
+    item: DbBatchCommand;
+    abstract add(item: DbBatchCommand): void;
+    abstract clear(): void;
+    abstract contains(item: DbBatchCommand): boolean;
+    abstract copyTo(array: DbBatchCommand[], arrayIndex: int): void;
+    abstract getEnumerator(): IEnumerator_1<DbBatchCommand>;
+    abstract indexOf(item: DbBatchCommand): int;
+    abstract insert(index: int, item: DbBatchCommand): void;
+    abstract remove(item: DbBatchCommand): boolean;
+    abstract removeAt(index: int): void;
 }
 
 
@@ -323,62 +321,62 @@ export type DbBatchCommandCollection = DbBatchCommandCollection$instance & __DbB
 
 
 export abstract class DbColumn$instance {
-    readonly AllowDBNull: Nullable_1<CLROf<boolean>>;
-    readonly BaseCatalogName: string;
-    readonly BaseColumnName: string;
-    readonly BaseSchemaName: string;
-    readonly BaseServerName: string;
-    readonly BaseTableName: string;
-    readonly ColumnName: string;
-    readonly ColumnOrdinal: Nullable_1<CLROf<int>>;
-    readonly ColumnSize: Nullable_1<CLROf<int>>;
-    readonly DataType: Type;
-    readonly DataTypeName: string;
-    readonly IsAliased: Nullable_1<CLROf<boolean>>;
-    readonly IsAutoIncrement: Nullable_1<CLROf<boolean>>;
-    readonly IsExpression: Nullable_1<CLROf<boolean>>;
-    readonly IsHidden: Nullable_1<CLROf<boolean>>;
-    readonly IsIdentity: Nullable_1<CLROf<boolean>>;
-    readonly IsKey: Nullable_1<CLROf<boolean>>;
-    readonly IsLong: Nullable_1<CLROf<boolean>>;
-    readonly IsReadOnly: Nullable_1<CLROf<boolean>>;
-    readonly IsUnique: Nullable_1<CLROf<boolean>>;
-    readonly Item: unknown;
-    readonly NumericPrecision: Nullable_1<CLROf<int>>;
-    readonly NumericScale: Nullable_1<CLROf<int>>;
-    readonly UdtAssemblyQualifiedName: string;
+    readonly allowDBNull: Nullable_1<CLROf<boolean>>;
+    readonly baseCatalogName: string;
+    readonly baseColumnName: string;
+    readonly baseSchemaName: string;
+    readonly baseServerName: string;
+    readonly baseTableName: string;
+    readonly columnName: string;
+    readonly columnOrdinal: Nullable_1<CLROf<int>>;
+    readonly columnSize: Nullable_1<CLROf<int>>;
+    readonly dataType: Type;
+    readonly dataTypeName: string;
+    readonly isAliased: Nullable_1<CLROf<boolean>>;
+    readonly isAutoIncrement: Nullable_1<CLROf<boolean>>;
+    readonly isExpression: Nullable_1<CLROf<boolean>>;
+    readonly isHidden: Nullable_1<CLROf<boolean>>;
+    readonly isIdentity: Nullable_1<CLROf<boolean>>;
+    readonly isKey: Nullable_1<CLROf<boolean>>;
+    readonly isLong: Nullable_1<CLROf<boolean>>;
+    readonly isReadOnly: Nullable_1<CLROf<boolean>>;
+    readonly isUnique: Nullable_1<CLROf<boolean>>;
+    readonly item: unknown;
+    readonly numericPrecision: Nullable_1<CLROf<int>>;
+    readonly numericScale: Nullable_1<CLROf<int>>;
+    readonly udtAssemblyQualifiedName: string;
 }
 
 
 export type DbColumn = DbColumn$instance;
 
 export abstract class DbCommand$instance extends System_ComponentModel_Internal.Component$instance {
-    CommandText: string;
-    CommandTimeout: int;
-    CommandType: CommandType;
-    Connection: DbConnection | IDbConnection;
-    DesignTimeVisible: boolean;
-    readonly Parameters: DbParameterCollection | IDataParameterCollection;
-    Transaction: DbTransaction | IDbTransaction;
-    UpdatedRowSource: UpdateRowSource;
-    abstract Cancel(): void;
-    CreateParameter(): DbParameter;
+    commandText: string;
+    commandTimeout: int;
+    commandType: CommandType;
+    connection: DbConnection | IDbConnection;
+    designTimeVisible: boolean;
+    readonly parameters: DbParameterCollection | IDataParameterCollection;
+    transaction: DbTransaction | IDbTransaction;
+    updatedRowSource: UpdateRowSource;
+    abstract cancel(): void;
+    createParameter(): DbParameter;
     Dispose(): void;
-    DisposeAsync(): ValueTask;
-    abstract ExecuteNonQuery(): int;
-    ExecuteNonQueryAsync(): Task_1<CLROf<int>>;
-    ExecuteNonQueryAsync(cancellationToken: CancellationToken): Task_1<CLROf<int>>;
-    ExecuteReader(): DbDataReader;
-    ExecuteReader(behavior: CommandBehavior): DbDataReader;
-    ExecuteReaderAsync(): Task_1<DbDataReader>;
-    ExecuteReaderAsync(cancellationToken: CancellationToken): Task_1<DbDataReader>;
-    ExecuteReaderAsync(behavior: CommandBehavior): Task_1<DbDataReader>;
-    ExecuteReaderAsync(behavior: CommandBehavior, cancellationToken: CancellationToken): Task_1<DbDataReader>;
-    abstract ExecuteScalar(): unknown;
-    ExecuteScalarAsync(): Task_1<unknown>;
-    ExecuteScalarAsync(cancellationToken: CancellationToken): Task_1<unknown>;
-    abstract Prepare(): void;
-    PrepareAsync(cancellationToken?: CancellationToken): Task;
+    disposeAsync(): ValueTask;
+    abstract executeNonQuery(): int;
+    executeNonQueryAsync(): Task_1<CLROf<int>>;
+    executeNonQueryAsync(cancellationToken: CancellationToken): Task_1<CLROf<int>>;
+    executeReader(): DbDataReader;
+    executeReader(behavior: CommandBehavior): DbDataReader;
+    executeReaderAsync(): Task_1<DbDataReader>;
+    executeReaderAsync(cancellationToken: CancellationToken): Task_1<DbDataReader>;
+    executeReaderAsync(behavior: CommandBehavior): Task_1<DbDataReader>;
+    executeReaderAsync(behavior: CommandBehavior, cancellationToken: CancellationToken): Task_1<DbDataReader>;
+    abstract executeScalar(): unknown;
+    executeScalarAsync(): Task_1<unknown>;
+    executeScalarAsync(cancellationToken: CancellationToken): Task_1<unknown>;
+    abstract prepare(): void;
+    prepareAsync(cancellationToken?: CancellationToken): Task;
 }
 
 
@@ -389,30 +387,30 @@ export interface __DbCommand$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
 
-export interface DbCommand$instance extends System_ComponentModel_Internal.IComponent$instance, System_Internal.IAsyncDisposable$instance {}
+export interface DbCommand$instance extends System_Internal.IAsyncDisposable$instance {}
 
 export type DbCommand = DbCommand$instance & __DbCommand$views;
 
 
 export abstract class DbCommandBuilder$instance extends System_ComponentModel_Internal.Component$instance {
-    CatalogLocation: CatalogLocation;
-    CatalogSeparator: string;
-    ConflictOption: ConflictOption;
-    DataAdapter: DbDataAdapter;
-    QuotePrefix: string;
-    QuoteSuffix: string;
-    SchemaSeparator: string;
-    SetAllValues: boolean;
+    catalogLocation: CatalogLocation;
+    catalogSeparator: string;
+    conflictOption: ConflictOption;
+    dataAdapter: DbDataAdapter;
+    quotePrefix: string;
+    quoteSuffix: string;
+    schemaSeparator: string;
+    setAllValues: boolean;
     Dispose(): void;
-    GetDeleteCommand(): DbCommand;
-    GetDeleteCommand(useColumnsForParameterNames: boolean): DbCommand;
-    GetInsertCommand(): DbCommand;
-    GetInsertCommand(useColumnsForParameterNames: boolean): DbCommand;
-    GetUpdateCommand(): DbCommand;
-    GetUpdateCommand(useColumnsForParameterNames: boolean): DbCommand;
-    QuoteIdentifier(unquotedIdentifier: string): string;
-    RefreshSchema(): void;
-    UnquoteIdentifier(quotedIdentifier: string): string;
+    getDeleteCommand(): DbCommand;
+    getDeleteCommand(useColumnsForParameterNames: boolean): DbCommand;
+    getInsertCommand(): DbCommand;
+    getInsertCommand(useColumnsForParameterNames: boolean): DbCommand;
+    getUpdateCommand(): DbCommand;
+    getUpdateCommand(useColumnsForParameterNames: boolean): DbCommand;
+    quoteIdentifier(unquotedIdentifier: string): string;
+    refreshSchema(): void;
+    unquoteIdentifier(quotedIdentifier: string): string;
 }
 
 
@@ -421,41 +419,39 @@ export interface __DbCommandBuilder$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
 
-export interface DbCommandBuilder$instance extends System_ComponentModel_Internal.IComponent$instance {}
-
 export type DbCommandBuilder = DbCommandBuilder$instance & __DbCommandBuilder$views;
 
 
 export abstract class DbConnection$instance extends System_ComponentModel_Internal.Component$instance {
-    readonly CanCreateBatch: boolean;
-    ConnectionString: string;
-    readonly ConnectionTimeout: int;
-    readonly Database: string;
-    readonly DataSource: string;
-    readonly ServerVersion: string;
-    readonly State: ConnectionState;
-    BeginTransaction(): DbTransaction;
-    BeginTransaction(isolationLevel: IsolationLevel): DbTransaction;
-    BeginTransactionAsync(cancellationToken?: CancellationToken): ValueTask_1<DbTransaction>;
-    BeginTransactionAsync(isolationLevel: IsolationLevel, cancellationToken?: CancellationToken): ValueTask_1<DbTransaction>;
-    abstract ChangeDatabase(databaseName: string): void;
-    ChangeDatabaseAsync(databaseName: string, cancellationToken?: CancellationToken): Task;
-    abstract Close(): void;
-    CloseAsync(): Task;
-    CreateBatch(): DbBatch;
-    CreateCommand(): DbCommand;
+    readonly canCreateBatch: boolean;
+    connectionString: string;
+    readonly connectionTimeout: int;
+    readonly database: string;
+    readonly dataSource: string;
+    readonly serverVersion: string;
+    readonly state: ConnectionState;
+    beginTransaction(): DbTransaction;
+    beginTransaction(isolationLevel: IsolationLevel): DbTransaction;
+    beginTransactionAsync(cancellationToken?: CancellationToken): ValueTask_1<DbTransaction>;
+    beginTransactionAsync(isolationLevel: IsolationLevel, cancellationToken?: CancellationToken): ValueTask_1<DbTransaction>;
+    abstract changeDatabase(databaseName: string): void;
+    changeDatabaseAsync(databaseName: string, cancellationToken?: CancellationToken): Task;
+    abstract close(): void;
+    closeAsync(): Task;
+    createBatch(): DbBatch;
+    createCommand(): DbCommand;
     Dispose(): void;
-    DisposeAsync(): ValueTask;
-    EnlistTransaction(transaction: Transaction): void;
-    GetSchema(): DataTable;
-    GetSchema(collectionName: string): DataTable;
-    GetSchema(collectionName: string, restrictionValues: string[]): DataTable;
-    GetSchemaAsync(cancellationToken?: CancellationToken): Task_1<DataTable>;
-    GetSchemaAsync(collectionName: string, cancellationToken?: CancellationToken): Task_1<DataTable>;
-    GetSchemaAsync(collectionName: string, restrictionValues: string[], cancellationToken?: CancellationToken): Task_1<DataTable>;
-    abstract Open(): void;
-    OpenAsync(): Task;
-    OpenAsync(cancellationToken: CancellationToken): Task;
+    disposeAsync(): ValueTask;
+    enlistTransaction(transaction: Transaction): void;
+    getSchema(): DataTable;
+    getSchema(collectionName: string): DataTable;
+    getSchema(collectionName: string, restrictionValues: string[]): DataTable;
+    getSchemaAsync(cancellationToken?: CancellationToken): Task_1<DataTable>;
+    getSchemaAsync(collectionName: string, cancellationToken?: CancellationToken): Task_1<DataTable>;
+    getSchemaAsync(collectionName: string, restrictionValues: string[], cancellationToken?: CancellationToken): Task_1<DataTable>;
+    abstract open(): void;
+    openAsync(): Task;
+    openAsync(cancellationToken: CancellationToken): Task;
 }
 
 
@@ -466,7 +462,7 @@ export interface __DbConnection$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
 
-export interface DbConnection$instance extends System_ComponentModel_Internal.IComponent$instance, System_Internal.IAsyncDisposable$instance {}
+export interface DbConnection$instance extends System_Internal.IAsyncDisposable$instance {}
 
 export type DbConnection = DbConnection$instance & __DbConnection$views;
 
@@ -474,24 +470,24 @@ export type DbConnection = DbConnection$instance & __DbConnection$views;
 export class DbConnectionStringBuilder$instance {
     constructor();
     constructor(useOdbcRules: boolean);
-    BrowsableConnectionString: boolean;
-    ConnectionString: string;
-    readonly Count: int;
-    readonly IsFixedSize: boolean;
-    readonly IsReadOnly: boolean;
-    Item: unknown;
-    readonly Keys: ICollection;
-    readonly Values: ICollection;
-    Add(keyword: string, value: unknown): void;
-    Clear(): void;
-    ContainsKey(keyword: string): boolean;
-    EquivalentTo(connectionStringBuilder: DbConnectionStringBuilder): boolean;
-    Remove(keyword: string): boolean;
-    ShouldSerialize(keyword: string): boolean;
-    ToString(): string;
-    TryGetValue(keyword: string, value: { value: ref<unknown> }): boolean;
-    static AppendKeyValuePair(builder: StringBuilder, keyword: string, value: string, useOdbcRules: boolean): void;
-    static AppendKeyValuePair(builder: StringBuilder, keyword: string, value: string): void;
+    browsableConnectionString: boolean;
+    connectionString: string;
+    readonly count: int;
+    readonly isFixedSize: boolean;
+    readonly isReadOnly: boolean;
+    item: unknown;
+    readonly keys: ICollection;
+    readonly values: ICollection;
+    add(keyword: string, value: unknown): void;
+    clear(): void;
+    containsKey(keyword: string): boolean;
+    equivalentTo(connectionStringBuilder: DbConnectionStringBuilder): boolean;
+    remove(keyword: string): boolean;
+    shouldSerialize(keyword: string): boolean;
+    toString(): string;
+    tryGetValue(keyword: string, value: { value: ref<unknown> }): boolean;
+    static appendKeyValuePair(builder: StringBuilder, keyword: string, value: string, useOdbcRules: boolean): void;
+    static appendKeyValuePair(builder: StringBuilder, keyword: string, value: string): void;
 }
 
 
@@ -508,17 +504,17 @@ export type DbConnectionStringBuilder = DbConnectionStringBuilder$instance & __D
 
 
 export abstract class DbDataAdapter$instance extends DataAdapter$instance {
-    DeleteCommand: DbCommand | IDbCommand;
-    InsertCommand: DbCommand | IDbCommand;
-    SelectCommand: DbCommand | IDbCommand;
-    UpdateBatchSize: int;
-    UpdateCommand: DbCommand | IDbCommand;
+    deleteCommand: DbCommand | IDbCommand;
+    insertCommand: DbCommand | IDbCommand;
+    selectCommand: DbCommand | IDbCommand;
+    updateBatchSize: int;
+    updateCommand: DbCommand | IDbCommand;
     Dispose(): void;
-    Fill(dataSet: DataSet): int;
-    FillSchema(dataSet: DataSet, schemaType: SchemaType): DataTable[];
-    GetFillParameters(): IDataParameter[];
-    Update(dataSet: DataSet): int;
-    static readonly DefaultSourceTableName: string;
+    fill(dataSet: DataSet): int;
+    fillSchema(dataSet: DataSet, schemaType: SchemaType): DataTable[];
+    getFillParameters(): IDataParameter[];
+    update(dataSet: DataSet): int;
+    static readonly defaultSourceTableName: string;
 }
 
 
@@ -536,60 +532,60 @@ export type DbDataAdapter = DbDataAdapter$instance & __DbDataAdapter$views;
 
 
 export abstract class DbDataReader$instance extends System_Internal.MarshalByRefObject$instance {
-    readonly Depth: int;
-    readonly FieldCount: int;
-    readonly HasRows: boolean;
-    readonly IsClosed: boolean;
-    readonly RecordsAffected: int;
-    readonly VisibleFieldCount: int;
-    Close(): void;
-    CloseAsync(): Task;
-    Dispose(): void;
-    DisposeAsync(): ValueTask;
+    readonly depth: int;
+    readonly fieldCount: int;
+    readonly hasRows: boolean;
+    readonly isClosed: boolean;
+    readonly recordsAffected: int;
+    readonly visibleFieldCount: int;
+    close(): void;
+    closeAsync(): Task;
+    dispose(): void;
+    disposeAsync(): ValueTask;
     get_Item(ordinal: int): unknown;
     get_Item(name: string): unknown;
-    abstract GetBoolean(ordinal: int): boolean;
-    abstract GetByte(ordinal: int): byte;
-    abstract GetBytes(ordinal: int, dataOffset: long, buffer: byte[], bufferOffset: int, length: int): long;
-    abstract GetChar(ordinal: int): char;
-    abstract GetChars(ordinal: int, dataOffset: long, buffer: char[], bufferOffset: int, length: int): long;
-    GetColumnSchemaAsync(cancellationToken?: CancellationToken): Task_1<ReadOnlyCollection_1<DbColumn>>;
-    GetData(ordinal: int): DbDataReader;
-    abstract GetDataTypeName(ordinal: int): string;
-    abstract GetDateTime(ordinal: int): DateTime;
-    abstract GetDecimal(ordinal: int): decimal;
-    abstract GetDouble(ordinal: int): double;
-    abstract GetEnumerator(): IEnumerator;
-    abstract GetFieldType(ordinal: int): Type;
-    GetFieldValue<T>(ordinal: int): T;
-    GetFieldValueAsync<T>(ordinal: int): Task_1<T>;
-    GetFieldValueAsync<T>(ordinal: int, cancellationToken: CancellationToken): Task_1<T>;
-    abstract GetFloat(ordinal: int): float;
-    abstract GetGuid(ordinal: int): Guid;
-    abstract GetInt16(ordinal: int): short;
-    abstract GetInt32(ordinal: int): int;
-    abstract GetInt64(ordinal: int): long;
-    abstract GetName(ordinal: int): string;
-    abstract GetOrdinal(name: string): int;
-    GetProviderSpecificFieldType(ordinal: int): Type;
-    GetProviderSpecificValue(ordinal: int): unknown;
-    GetProviderSpecificValues(values: unknown[]): int;
-    GetSchemaTable(): DataTable;
-    GetSchemaTableAsync(cancellationToken?: CancellationToken): Task_1<DataTable>;
-    GetStream(ordinal: int): Stream;
-    abstract GetString(ordinal: int): string;
-    GetTextReader(ordinal: int): TextReader;
-    abstract GetValue(ordinal: int): unknown;
-    abstract GetValues(values: unknown[]): int;
-    abstract IsDBNull(ordinal: int): boolean;
-    IsDBNullAsync(ordinal: int): Task_1<CLROf<boolean>>;
-    IsDBNullAsync(ordinal: int, cancellationToken: CancellationToken): Task_1<CLROf<boolean>>;
-    abstract NextResult(): boolean;
-    NextResultAsync(): Task_1<CLROf<boolean>>;
-    NextResultAsync(cancellationToken: CancellationToken): Task_1<CLROf<boolean>>;
-    abstract Read(): boolean;
-    ReadAsync(): Task_1<CLROf<boolean>>;
-    ReadAsync(cancellationToken: CancellationToken): Task_1<CLROf<boolean>>;
+    abstract getBoolean(ordinal: int): boolean;
+    abstract getByte(ordinal: int): byte;
+    abstract getBytes(ordinal: int, dataOffset: long, buffer: byte[], bufferOffset: int, length: int): long;
+    abstract getChar(ordinal: int): char;
+    abstract getChars(ordinal: int, dataOffset: long, buffer: char[], bufferOffset: int, length: int): long;
+    getColumnSchemaAsync(cancellationToken?: CancellationToken): Task_1<ReadOnlyCollection_1<DbColumn>>;
+    getData(ordinal: int): DbDataReader;
+    abstract getDataTypeName(ordinal: int): string;
+    abstract getDateTime(ordinal: int): DateTime;
+    abstract getDecimal(ordinal: int): decimal;
+    abstract getDouble(ordinal: int): double;
+    abstract getEnumerator(): IEnumerator;
+    abstract getFieldType(ordinal: int): Type;
+    getFieldValue<T>(ordinal: int): T;
+    getFieldValueAsync<T>(ordinal: int): Task_1<T>;
+    getFieldValueAsync<T>(ordinal: int, cancellationToken: CancellationToken): Task_1<T>;
+    abstract getFloat(ordinal: int): float;
+    abstract getGuid(ordinal: int): Guid;
+    abstract getInt16(ordinal: int): short;
+    abstract getInt32(ordinal: int): int;
+    abstract getInt64(ordinal: int): long;
+    abstract getName(ordinal: int): string;
+    abstract getOrdinal(name: string): int;
+    getProviderSpecificFieldType(ordinal: int): Type;
+    getProviderSpecificValue(ordinal: int): unknown;
+    getProviderSpecificValues(values: unknown[]): int;
+    getSchemaTable(): DataTable;
+    getSchemaTableAsync(cancellationToken?: CancellationToken): Task_1<DataTable>;
+    getStream(ordinal: int): Stream;
+    abstract getString(ordinal: int): string;
+    getTextReader(ordinal: int): TextReader;
+    abstract getValue(ordinal: int): unknown;
+    abstract getValues(values: unknown[]): int;
+    abstract isDBNull(ordinal: int): boolean;
+    isDBNullAsync(ordinal: int): Task_1<CLROf<boolean>>;
+    isDBNullAsync(ordinal: int, cancellationToken: CancellationToken): Task_1<CLROf<boolean>>;
+    abstract nextResult(): boolean;
+    nextResultAsync(): Task_1<CLROf<boolean>>;
+    nextResultAsync(cancellationToken: CancellationToken): Task_1<CLROf<boolean>>;
+    abstract read(): boolean;
+    readAsync(): Task_1<CLROf<boolean>>;
+    readAsync(cancellationToken: CancellationToken): Task_1<CLROf<boolean>>;
 }
 
 
@@ -607,31 +603,31 @@ export type DbDataReader = DbDataReader$instance & __DbDataReader$views;
 
 
 export abstract class DbDataRecord$instance {
-    readonly FieldCount: int;
+    readonly fieldCount: int;
     get_Item(i: int): unknown;
     get_Item(name: string): unknown;
-    abstract GetBoolean(i: int): boolean;
-    abstract GetByte(i: int): byte;
-    abstract GetBytes(i: int, dataIndex: long, buffer: byte[], bufferIndex: int, length: int): long;
-    abstract GetChar(i: int): char;
-    abstract GetChars(i: int, dataIndex: long, buffer: char[], bufferIndex: int, length: int): long;
-    GetData(i: int): IDataReader;
-    abstract GetDataTypeName(i: int): string;
-    abstract GetDateTime(i: int): DateTime;
-    abstract GetDecimal(i: int): decimal;
-    abstract GetDouble(i: int): double;
-    abstract GetFieldType(i: int): Type;
-    abstract GetFloat(i: int): float;
-    abstract GetGuid(i: int): Guid;
-    abstract GetInt16(i: int): short;
-    abstract GetInt32(i: int): int;
-    abstract GetInt64(i: int): long;
-    abstract GetName(i: int): string;
-    abstract GetOrdinal(name: string): int;
-    abstract GetString(i: int): string;
-    abstract GetValue(i: int): unknown;
-    abstract GetValues(values: unknown[]): int;
-    abstract IsDBNull(i: int): boolean;
+    abstract getBoolean(i: int): boolean;
+    abstract getByte(i: int): byte;
+    abstract getBytes(i: int, dataIndex: long, buffer: byte[], bufferIndex: int, length: int): long;
+    abstract getChar(i: int): char;
+    abstract getChars(i: int, dataIndex: long, buffer: char[], bufferIndex: int, length: int): long;
+    getData(i: int): IDataReader;
+    abstract getDataTypeName(i: int): string;
+    abstract getDateTime(i: int): DateTime;
+    abstract getDecimal(i: int): decimal;
+    abstract getDouble(i: int): double;
+    abstract getFieldType(i: int): Type;
+    abstract getFloat(i: int): float;
+    abstract getGuid(i: int): Guid;
+    abstract getInt16(i: int): short;
+    abstract getInt32(i: int): int;
+    abstract getInt64(i: int): long;
+    abstract getName(i: int): string;
+    abstract getOrdinal(name: string): int;
+    abstract getString(i: int): string;
+    abstract getValue(i: int): unknown;
+    abstract getValues(values: unknown[]): int;
+    abstract isDBNull(i: int): boolean;
 }
 
 
@@ -646,14 +642,14 @@ export type DbDataRecord = DbDataRecord$instance & __DbDataRecord$views;
 
 
 export abstract class DbDataSource$instance {
-    readonly ConnectionString: string;
-    CreateBatch(): DbBatch;
-    CreateCommand(commandText?: string): DbCommand;
-    CreateConnection(): DbConnection;
-    Dispose(): void;
-    DisposeAsync(): ValueTask;
-    OpenConnection(): DbConnection;
-    OpenConnectionAsync(cancellationToken?: CancellationToken): ValueTask_1<DbConnection>;
+    readonly connectionString: string;
+    createBatch(): DbBatch;
+    createCommand(commandText?: string): DbCommand;
+    createConnection(): DbConnection;
+    dispose(): void;
+    disposeAsync(): ValueTask;
+    openConnection(): DbConnection;
+    openConnectionAsync(cancellationToken?: CancellationToken): ValueTask_1<DbConnection>;
 }
 
 
@@ -668,7 +664,7 @@ export type DbDataSource = DbDataSource$instance & __DbDataSource$views;
 
 
 export abstract class DbDataSourceEnumerator$instance {
-    abstract GetDataSources(): DataTable;
+    abstract getDataSources(): DataTable;
 }
 
 
@@ -679,9 +675,9 @@ export class DbEnumerator$instance {
     constructor(reader: IDataReader, closeReader: boolean);
     constructor(reader: DbDataReader);
     constructor(reader: DbDataReader, closeReader: boolean);
-    readonly Current: unknown;
-    MoveNext(): boolean;
-    Reset(): void;
+    readonly current: unknown;
+    moveNext(): boolean;
+    reset(): void;
 }
 
 
@@ -695,9 +691,9 @@ export type DbEnumerator = DbEnumerator$instance & __DbEnumerator$views;
 
 
 export abstract class DbException$instance extends System_Runtime_InteropServices_Internal.ExternalException$instance {
-    readonly BatchCommand: DbBatchCommand;
-    readonly IsTransient: boolean;
-    readonly SqlState: string;
+    readonly batchCommand: DbBatchCommand;
+    readonly isTransient: boolean;
+    readonly sqlState: string;
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
@@ -706,22 +702,24 @@ export interface __DbException$views {
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
+export interface DbException$instance extends System_Runtime_Serialization_Internal.ISerializable$instance {}
+
 export type DbException = DbException$instance & __DbException$views;
 
 
 export abstract class DbParameter$instance extends System_Internal.MarshalByRefObject$instance {
-    DbType: DbType;
-    Direction: ParameterDirection;
-    IsNullable: boolean;
-    ParameterName: string;
-    Precision: byte;
-    Scale: byte;
-    Size: int;
-    SourceColumn: string;
-    SourceColumnNullMapping: boolean;
-    SourceVersion: DataRowVersion;
-    Value: unknown;
-    abstract ResetDbType(): void;
+    dbType: DbType;
+    direction: ParameterDirection;
+    isNullable: boolean;
+    parameterName: string;
+    precision: byte;
+    scale: byte;
+    size: int;
+    sourceColumn: string;
+    sourceColumnNullMapping: boolean;
+    sourceVersion: DataRowVersion;
+    value: unknown;
+    abstract resetDbType(): void;
 }
 
 
@@ -734,26 +732,26 @@ export type DbParameter = DbParameter$instance & __DbParameter$views;
 
 
 export abstract class DbParameterCollection$instance extends System_Internal.MarshalByRefObject$instance {
-    readonly Count: int;
-    readonly IsFixedSize: boolean;
-    readonly IsReadOnly: boolean;
-    readonly IsSynchronized: boolean;
-    readonly SyncRoot: unknown;
-    abstract Add(value: unknown): int;
-    abstract AddRange(values: ClrArray): void;
-    abstract Clear(): void;
-    abstract Contains(value: unknown): boolean;
-    abstract Contains(value: string): boolean;
-    abstract CopyTo(array: ClrArray, index: int): void;
+    readonly count: int;
+    readonly isFixedSize: boolean;
+    readonly isReadOnly: boolean;
+    readonly isSynchronized: boolean;
+    readonly syncRoot: unknown;
+    abstract add(value: unknown): int;
+    abstract addRange(values: ClrArray): void;
+    abstract clear(): void;
+    abstract contains(value: unknown): boolean;
+    abstract contains(value: string): boolean;
+    abstract copyTo(array: ClrArray, index: int): void;
     get_Item(index: int): DbParameter;
     get_Item(parameterName: string): DbParameter;
-    abstract GetEnumerator(): IEnumerator;
-    abstract IndexOf(value: unknown): int;
-    abstract IndexOf(parameterName: string): int;
-    abstract Insert(index: int, value: unknown): void;
-    abstract Remove(value: unknown): void;
-    abstract RemoveAt(index: int): void;
-    abstract RemoveAt(parameterName: string): void;
+    abstract getEnumerator(): IEnumerator;
+    abstract indexOf(value: unknown): int;
+    abstract indexOf(parameterName: string): int;
+    abstract insert(index: int, value: unknown): void;
+    abstract remove(value: unknown): void;
+    abstract removeAt(index: int): void;
+    abstract removeAt(parameterName: string): void;
     set_Item(index: int, value: DbParameter): void;
     set_Item(parameterName: string, value: DbParameter): void;
 }
@@ -770,20 +768,20 @@ export type DbParameterCollection = DbParameterCollection$instance & __DbParamet
 
 
 export abstract class DbProviderFactory$instance {
-    readonly CanCreateBatch: boolean;
-    readonly CanCreateCommandBuilder: boolean;
-    readonly CanCreateDataAdapter: boolean;
-    readonly CanCreateDataSourceEnumerator: boolean;
-    CreateBatch(): DbBatch;
-    CreateBatchCommand(): DbBatchCommand;
-    CreateCommand(): DbCommand;
-    CreateCommandBuilder(): DbCommandBuilder;
-    CreateConnection(): DbConnection;
-    CreateConnectionStringBuilder(): DbConnectionStringBuilder;
-    CreateDataAdapter(): DbDataAdapter;
-    CreateDataSource(connectionString: string): DbDataSource;
-    CreateDataSourceEnumerator(): DbDataSourceEnumerator;
-    CreateParameter(): DbParameter;
+    readonly canCreateBatch: boolean;
+    readonly canCreateCommandBuilder: boolean;
+    readonly canCreateDataAdapter: boolean;
+    readonly canCreateDataSourceEnumerator: boolean;
+    createBatch(): DbBatch;
+    createBatchCommand(): DbBatchCommand;
+    createCommand(): DbCommand;
+    createCommandBuilder(): DbCommandBuilder;
+    createConnection(): DbConnection;
+    createConnectionStringBuilder(): DbConnectionStringBuilder;
+    createDataAdapter(): DbDataAdapter;
+    createDataSource(connectionString: string): DbDataSource;
+    createDataSourceEnumerator(): DbDataSourceEnumerator;
+    createParameter(): DbParameter;
 }
 
 
@@ -791,28 +789,28 @@ export type DbProviderFactory = DbProviderFactory$instance;
 
 export class DbProviderSpecificTypePropertyAttribute$instance extends System_Internal.Attribute$instance {
     constructor(isProviderSpecificTypeProperty: boolean);
-    readonly IsProviderSpecificTypeProperty: boolean;
+    readonly isProviderSpecificTypeProperty: boolean;
 }
 
 
 export type DbProviderSpecificTypePropertyAttribute = DbProviderSpecificTypePropertyAttribute$instance;
 
 export abstract class DbTransaction$instance extends System_Internal.MarshalByRefObject$instance {
-    readonly Connection: DbConnection | IDbConnection;
-    readonly IsolationLevel: IsolationLevel;
-    readonly SupportsSavepoints: boolean;
-    abstract Commit(): void;
-    CommitAsync(cancellationToken?: CancellationToken): Task;
-    Dispose(): void;
-    DisposeAsync(): ValueTask;
-    Release(savepointName: string): void;
-    ReleaseAsync(savepointName: string, cancellationToken?: CancellationToken): Task;
-    Rollback(): void;
-    Rollback(savepointName: string): void;
-    RollbackAsync(cancellationToken?: CancellationToken): Task;
-    RollbackAsync(savepointName: string, cancellationToken?: CancellationToken): Task;
-    Save(savepointName: string): void;
-    SaveAsync(savepointName: string, cancellationToken?: CancellationToken): Task;
+    readonly connection: DbConnection | IDbConnection;
+    readonly isolationLevel: IsolationLevel;
+    readonly supportsSavepoints: boolean;
+    abstract commit(): void;
+    commitAsync(cancellationToken?: CancellationToken): Task;
+    dispose(): void;
+    disposeAsync(): ValueTask;
+    release(savepointName: string): void;
+    releaseAsync(savepointName: string, cancellationToken?: CancellationToken): Task;
+    rollback(): void;
+    rollback(savepointName: string): void;
+    rollbackAsync(cancellationToken?: CancellationToken): Task;
+    rollbackAsync(savepointName: string, cancellationToken?: CancellationToken): Task;
+    save(savepointName: string): void;
+    saveAsync(savepointName: string, cancellationToken?: CancellationToken): Task;
 }
 
 
@@ -829,16 +827,16 @@ export type DbTransaction = DbTransaction$instance & __DbTransaction$views;
 
 export class RowUpdatedEventArgs$instance extends System_Internal.EventArgs$instance {
     constructor(dataRow: DataRow, command: IDbCommand, statementType: StatementType, tableMapping: DataTableMapping);
-    readonly Command: IDbCommand;
-    Errors: Exception;
-    readonly RecordsAffected: int;
-    readonly Row: DataRow;
-    readonly RowCount: int;
-    readonly StatementType: StatementType;
-    Status: UpdateStatus;
-    readonly TableMapping: DataTableMapping;
-    CopyToRows(array: DataRow[]): void;
-    CopyToRows(array: DataRow[], arrayIndex: int): void;
+    readonly command: IDbCommand;
+    errors: Exception;
+    readonly recordsAffected: int;
+    readonly row: DataRow;
+    readonly rowCount: int;
+    readonly statementType: StatementType;
+    status: UpdateStatus;
+    readonly tableMapping: DataTableMapping;
+    copyToRows(array: DataRow[]): void;
+    copyToRows(array: DataRow[], arrayIndex: int): void;
 }
 
 
@@ -846,139 +844,139 @@ export type RowUpdatedEventArgs = RowUpdatedEventArgs$instance;
 
 export class RowUpdatingEventArgs$instance extends System_Internal.EventArgs$instance {
     constructor(dataRow: DataRow, command: IDbCommand, statementType: StatementType, tableMapping: DataTableMapping);
-    Command: IDbCommand;
-    Errors: Exception;
-    readonly Row: DataRow;
-    readonly StatementType: StatementType;
-    Status: UpdateStatus;
-    readonly TableMapping: DataTableMapping;
+    command: IDbCommand;
+    errors: Exception;
+    readonly row: DataRow;
+    readonly statementType: StatementType;
+    status: UpdateStatus;
+    readonly tableMapping: DataTableMapping;
 }
 
 
 export type RowUpdatingEventArgs = RowUpdatingEventArgs$instance;
 
 export abstract class DbDataReaderExtensions$instance {
-    static CanGetColumnSchema(reader: DbDataReader): boolean;
-    static GetColumnSchema(reader: DbDataReader): ReadOnlyCollection_1<DbColumn>;
+    static canGetColumnSchema(reader: DbDataReader): boolean;
+    static getColumnSchema(reader: DbDataReader): ReadOnlyCollection_1<DbColumn>;
 }
 
 
 export type DbDataReaderExtensions = DbDataReaderExtensions$instance;
 
 export abstract class DbMetaDataCollectionNames$instance {
-    static readonly MetaDataCollections: string;
-    static readonly DataSourceInformation: string;
-    static readonly DataTypes: string;
-    static readonly Restrictions: string;
-    static readonly ReservedWords: string;
+    static readonly metaDataCollections: string;
+    static readonly dataSourceInformation: string;
+    static readonly dataTypes: string;
+    static readonly restrictions: string;
+    static readonly reservedWords: string;
 }
 
 
 export type DbMetaDataCollectionNames = DbMetaDataCollectionNames$instance;
 
 export abstract class DbMetaDataColumnNames$instance {
-    static readonly CollectionName: string;
-    static readonly ColumnSize: string;
-    static readonly CompositeIdentifierSeparatorPattern: string;
-    static readonly CreateFormat: string;
-    static readonly CreateParameters: string;
-    static readonly DataSourceProductName: string;
-    static readonly DataSourceProductVersion: string;
-    static readonly DataType: string;
-    static readonly DataSourceProductVersionNormalized: string;
-    static readonly GroupByBehavior: string;
-    static readonly IdentifierCase: string;
-    static readonly IdentifierPattern: string;
-    static readonly IsAutoIncrementable: string;
-    static readonly IsBestMatch: string;
-    static readonly IsCaseSensitive: string;
-    static readonly IsConcurrencyType: string;
-    static readonly IsFixedLength: string;
-    static readonly IsFixedPrecisionScale: string;
-    static readonly IsLiteralSupported: string;
-    static readonly IsLong: string;
-    static readonly IsNullable: string;
-    static readonly IsSearchable: string;
-    static readonly IsSearchableWithLike: string;
-    static readonly IsUnsigned: string;
-    static readonly LiteralPrefix: string;
-    static readonly LiteralSuffix: string;
-    static readonly MaximumScale: string;
-    static readonly MinimumScale: string;
-    static readonly NumberOfIdentifierParts: string;
-    static readonly NumberOfRestrictions: string;
-    static readonly OrderByColumnsInSelect: string;
-    static readonly ParameterMarkerFormat: string;
-    static readonly ParameterMarkerPattern: string;
-    static readonly ParameterNameMaxLength: string;
-    static readonly ParameterNamePattern: string;
-    static readonly ProviderDbType: string;
-    static readonly QuotedIdentifierCase: string;
-    static readonly QuotedIdentifierPattern: string;
-    static readonly ReservedWord: string;
-    static readonly StatementSeparatorPattern: string;
-    static readonly StringLiteralPattern: string;
-    static readonly SupportedJoinOperators: string;
-    static readonly TypeName: string;
+    static readonly collectionName: string;
+    static readonly columnSize: string;
+    static readonly compositeIdentifierSeparatorPattern: string;
+    static readonly createFormat: string;
+    static readonly createParameters: string;
+    static readonly dataSourceProductName: string;
+    static readonly dataSourceProductVersion: string;
+    static readonly dataType: string;
+    static readonly dataSourceProductVersionNormalized: string;
+    static readonly groupByBehavior: string;
+    static readonly identifierCase: string;
+    static readonly identifierPattern: string;
+    static readonly isAutoIncrementable: string;
+    static readonly isBestMatch: string;
+    static readonly isCaseSensitive: string;
+    static readonly isConcurrencyType: string;
+    static readonly isFixedLength: string;
+    static readonly isFixedPrecisionScale: string;
+    static readonly isLiteralSupported: string;
+    static readonly isLong: string;
+    static readonly isNullable: string;
+    static readonly isSearchable: string;
+    static readonly isSearchableWithLike: string;
+    static readonly isUnsigned: string;
+    static readonly literalPrefix: string;
+    static readonly literalSuffix: string;
+    static readonly maximumScale: string;
+    static readonly minimumScale: string;
+    static readonly numberOfIdentifierParts: string;
+    static readonly numberOfRestrictions: string;
+    static readonly orderByColumnsInSelect: string;
+    static readonly parameterMarkerFormat: string;
+    static readonly parameterMarkerPattern: string;
+    static readonly parameterNameMaxLength: string;
+    static readonly parameterNamePattern: string;
+    static readonly providerDbType: string;
+    static readonly quotedIdentifierCase: string;
+    static readonly quotedIdentifierPattern: string;
+    static readonly reservedWord: string;
+    static readonly statementSeparatorPattern: string;
+    static readonly stringLiteralPattern: string;
+    static readonly supportedJoinOperators: string;
+    static readonly typeName: string;
 }
 
 
 export type DbMetaDataColumnNames = DbMetaDataColumnNames$instance;
 
 export abstract class DbProviderFactories$instance {
-    static GetFactory(connection: DbConnection): DbProviderFactory;
-    static GetFactory(providerRow: DataRow): DbProviderFactory;
-    static GetFactory(providerInvariantName: string): DbProviderFactory;
-    static GetFactoryClasses(): DataTable;
-    static GetProviderInvariantNames(): IEnumerable_1<CLROf<string>>;
-    static RegisterFactory(providerInvariantName: string, factory: DbProviderFactory): void;
-    static RegisterFactory(providerInvariantName: string, factoryTypeAssemblyQualifiedName: string): void;
-    static RegisterFactory(providerInvariantName: string, providerFactoryClass: Type): void;
-    static TryGetFactory(providerInvariantName: string, factory: { value: ref<DbProviderFactory> }): boolean;
-    static UnregisterFactory(providerInvariantName: string): boolean;
+    static getFactory(connection: DbConnection): DbProviderFactory;
+    static getFactory(providerRow: DataRow): DbProviderFactory;
+    static getFactory(providerInvariantName: string): DbProviderFactory;
+    static getFactoryClasses(): DataTable;
+    static getProviderInvariantNames(): IEnumerable_1<CLROf<string>>;
+    static registerFactory(providerInvariantName: string, factory: DbProviderFactory): void;
+    static registerFactory(providerInvariantName: string, factoryTypeAssemblyQualifiedName: string): void;
+    static registerFactory(providerInvariantName: string, providerFactoryClass: Type): void;
+    static tryGetFactory(providerInvariantName: string, factory: { value: ref<DbProviderFactory> }): boolean;
+    static unregisterFactory(providerInvariantName: string): boolean;
 }
 
 
 export type DbProviderFactories = DbProviderFactories$instance;
 
 export abstract class SchemaTableColumn$instance {
-    static readonly ColumnName: string;
-    static readonly ColumnOrdinal: string;
-    static readonly ColumnSize: string;
-    static readonly NumericPrecision: string;
-    static readonly NumericScale: string;
-    static readonly DataType: string;
-    static readonly ProviderType: string;
-    static readonly NonVersionedProviderType: string;
-    static readonly IsLong: string;
-    static readonly AllowDBNull: string;
-    static readonly IsAliased: string;
-    static readonly IsExpression: string;
-    static readonly IsKey: string;
-    static readonly IsUnique: string;
-    static readonly BaseSchemaName: string;
-    static readonly BaseTableName: string;
-    static readonly BaseColumnName: string;
+    static readonly columnName: string;
+    static readonly columnOrdinal: string;
+    static readonly columnSize: string;
+    static readonly numericPrecision: string;
+    static readonly numericScale: string;
+    static readonly dataType: string;
+    static readonly providerType: string;
+    static readonly nonVersionedProviderType: string;
+    static readonly isLong: string;
+    static readonly allowDBNull: string;
+    static readonly isAliased: string;
+    static readonly isExpression: string;
+    static readonly isKey: string;
+    static readonly isUnique: string;
+    static readonly baseSchemaName: string;
+    static readonly baseTableName: string;
+    static readonly baseColumnName: string;
 }
 
 
 export type SchemaTableColumn = SchemaTableColumn$instance;
 
 export abstract class SchemaTableOptionalColumn$instance {
-    static readonly ProviderSpecificDataType: string;
-    static readonly IsAutoIncrement: string;
-    static readonly IsHidden: string;
-    static readonly IsReadOnly: string;
-    static readonly IsRowVersion: string;
-    static readonly BaseServerName: string;
-    static readonly BaseCatalogName: string;
-    static readonly AutoIncrementSeed: string;
-    static readonly AutoIncrementStep: string;
-    static readonly DefaultValue: string;
-    static readonly Expression: string;
-    static readonly BaseTableNamespace: string;
-    static readonly BaseColumnNamespace: string;
-    static readonly ColumnMapping: string;
+    static readonly providerSpecificDataType: string;
+    static readonly isAutoIncrement: string;
+    static readonly isHidden: string;
+    static readonly isReadOnly: string;
+    static readonly isRowVersion: string;
+    static readonly baseServerName: string;
+    static readonly baseCatalogName: string;
+    static readonly autoIncrementSeed: string;
+    static readonly autoIncrementStep: string;
+    static readonly defaultValue: string;
+    static readonly expression: string;
+    static readonly baseTableNamespace: string;
+    static readonly baseColumnNamespace: string;
+    static readonly columnMapping: string;
 }
 
 

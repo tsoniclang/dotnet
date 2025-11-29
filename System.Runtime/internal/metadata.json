@@ -29,7 +29,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.GCLargeObjectHeapCompactionMode::DefaultSystem.Runtime.GCLargeObjectHeapCompactionMode",
           "clrName": "Default",
-          "tsEmitName": "Default",
+          "tsEmitName": "default_",
           "normalizedSignature": "Default|System.Runtime.GCLargeObjectHeapCompactionMode|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -38,7 +38,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.GCLargeObjectHeapCompactionMode::CompactOnceSystem.Runtime.GCLargeObjectHeapCompactionMode",
           "clrName": "CompactOnce",
-          "tsEmitName": "CompactOnce",
+          "tsEmitName": "compactOnce",
           "normalizedSignature": "CompactOnce|System.Runtime.GCLargeObjectHeapCompactionMode|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -73,7 +73,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.GCLatencyMode::BatchSystem.Runtime.GCLatencyMode",
           "clrName": "Batch",
-          "tsEmitName": "Batch",
+          "tsEmitName": "batch",
           "normalizedSignature": "Batch|System.Runtime.GCLatencyMode|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -82,7 +82,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.GCLatencyMode::InteractiveSystem.Runtime.GCLatencyMode",
           "clrName": "Interactive",
-          "tsEmitName": "Interactive",
+          "tsEmitName": "interactive",
           "normalizedSignature": "Interactive|System.Runtime.GCLatencyMode|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -91,7 +91,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.GCLatencyMode::LowLatencySystem.Runtime.GCLatencyMode",
           "clrName": "LowLatency",
-          "tsEmitName": "LowLatency",
+          "tsEmitName": "lowLatency",
           "normalizedSignature": "LowLatency|System.Runtime.GCLatencyMode|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -100,7 +100,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.GCLatencyMode::SustainedLowLatencySystem.Runtime.GCLatencyMode",
           "clrName": "SustainedLowLatency",
-          "tsEmitName": "SustainedLowLatency",
+          "tsEmitName": "sustainedLowLatency",
           "normalizedSignature": "SustainedLowLatency|System.Runtime.GCLatencyMode|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -109,7 +109,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.GCLatencyMode::NoGCRegionSystem.Runtime.GCLatencyMode",
           "clrName": "NoGCRegion",
-          "tsEmitName": "NoGCRegion",
+          "tsEmitName": "noGCRegion",
           "normalizedSignature": "NoGCRegion|System.Runtime.GCLatencyMode|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -133,7 +133,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.DependentHandle::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "Dispose",
+          "tsEmitName": "dispose",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -149,7 +149,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "Dispose$view",
+          "tsEmitName": "dispose$view",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -168,7 +168,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.DependentHandle::IsAllocated:System.Boolean",
           "clrName": "IsAllocated",
-          "tsEmitName": "IsAllocated",
+          "tsEmitName": "isAllocated",
           "normalizedSignature": "IsAllocated|:System.Boolean|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -183,7 +183,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.DependentHandle::Target:System.Object",
           "clrName": "Target",
-          "tsEmitName": "Target",
+          "tsEmitName": "target",
           "normalizedSignature": "Target|:System.Object|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -198,7 +198,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.DependentHandle::Dependent:System.Object",
           "clrName": "Dependent",
-          "tsEmitName": "Dependent",
+          "tsEmitName": "dependent",
           "normalizedSignature": "Dependent|:System.Object|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -213,7 +213,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.DependentHandle::TargetAndDependent:System.ValueTuple_2[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "TargetAndDependent",
-          "tsEmitName": "TargetAndDependent",
+          "tsEmitName": "targetAndDependent",
           "normalizedSignature": "TargetAndDependent|:System.ValueTuple_2[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -250,7 +250,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData$view",
+          "tsEmitName": "getObjectData",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -317,7 +317,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.AssemblyTargetedPatchBandAttribute::TargetedPatchBand:System.String",
           "clrName": "TargetedPatchBand",
-          "tsEmitName": "TargetedPatchBand",
+          "tsEmitName": "targetedPatchBand",
           "normalizedSignature": "TargetedPatchBand|:System.String|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -354,7 +354,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.MemoryFailPoint::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "Dispose",
+          "tsEmitName": "dispose",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -370,7 +370,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "Dispose$view",
+          "tsEmitName": "dispose$view",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -411,7 +411,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.TargetedPatchingOptOutAttribute::Reason:System.String",
           "clrName": "Reason",
-          "tsEmitName": "Reason",
+          "tsEmitName": "reason",
           "normalizedSignature": "Reason|:System.String|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -448,7 +448,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.ControlledExecution::Run(System.Action,System.Threading.CancellationToken):System.Void",
           "clrName": "Run",
-          "tsEmitName": "Run",
+          "tsEmitName": "run",
           "normalizedSignature": "Run|(System.Action,System.Threading.CancellationToken):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -482,7 +482,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.GCSettings::IsServerGC:System.Boolean",
           "clrName": "IsServerGC",
-          "tsEmitName": "IsServerGC",
+          "tsEmitName": "isServerGC",
           "normalizedSignature": "IsServerGC|:System.Boolean|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -497,7 +497,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.GCSettings::LatencyMode:System.Runtime.GCLatencyMode",
           "clrName": "LatencyMode",
-          "tsEmitName": "LatencyMode",
+          "tsEmitName": "latencyMode",
           "normalizedSignature": "LatencyMode|:System.Runtime.GCLatencyMode|static=true|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -512,7 +512,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.GCSettings::LargeObjectHeapCompactionMode:System.Runtime.GCLargeObjectHeapCompactionMode",
           "clrName": "LargeObjectHeapCompactionMode",
-          "tsEmitName": "LargeObjectHeapCompactionMode",
+          "tsEmitName": "largeObjectHeapCompactionMode",
           "normalizedSignature": "LargeObjectHeapCompactionMode|:System.Runtime.GCLargeObjectHeapCompactionMode|static=true|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -543,7 +543,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.JitInfo::GetCompiledILBytes(System.Boolean):System.Int64",
           "clrName": "GetCompiledILBytes",
-          "tsEmitName": "GetCompiledILBytes",
+          "tsEmitName": "getCompiledILBytes",
           "normalizedSignature": "GetCompiledILBytes|(System.Boolean):System.Int64|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -559,7 +559,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.JitInfo::GetCompiledMethodCount(System.Boolean):System.Int64",
           "clrName": "GetCompiledMethodCount",
-          "tsEmitName": "GetCompiledMethodCount",
+          "tsEmitName": "getCompiledMethodCount",
           "normalizedSignature": "GetCompiledMethodCount|(System.Boolean):System.Int64|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -575,7 +575,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.JitInfo::GetCompilationTime(System.Boolean):System.TimeSpan",
           "clrName": "GetCompilationTime",
-          "tsEmitName": "GetCompilationTime",
+          "tsEmitName": "getCompilationTime",
           "normalizedSignature": "GetCompilationTime|(System.Boolean):System.TimeSpan|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -608,7 +608,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.ProfileOptimization::SetProfileRoot(System.String):System.Void",
           "clrName": "SetProfileRoot",
-          "tsEmitName": "SetProfileRoot",
+          "tsEmitName": "setProfileRoot",
           "normalizedSignature": "SetProfileRoot|(System.String):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -624,7 +624,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.ProfileOptimization::StartProfile(System.String):System.Void",
           "clrName": "StartProfile",
-          "tsEmitName": "StartProfile",
+          "tsEmitName": "startProfile",
           "normalizedSignature": "StartProfile|(System.String):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",

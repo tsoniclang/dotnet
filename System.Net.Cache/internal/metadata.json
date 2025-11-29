@@ -30,7 +30,7 @@
         {
           "stableId": "System.Net.Requests:System.Net.Cache.HttpCacheAgeControl::NoneSystem.Net.Cache.HttpCacheAgeControl",
           "clrName": "None",
-          "tsEmitName": "None",
+          "tsEmitName": "none",
           "normalizedSignature": "None|System.Net.Cache.HttpCacheAgeControl|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -39,7 +39,7 @@
         {
           "stableId": "System.Net.Requests:System.Net.Cache.HttpCacheAgeControl::MinFreshSystem.Net.Cache.HttpCacheAgeControl",
           "clrName": "MinFresh",
-          "tsEmitName": "MinFresh",
+          "tsEmitName": "minFresh",
           "normalizedSignature": "MinFresh|System.Net.Cache.HttpCacheAgeControl|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -48,7 +48,7 @@
         {
           "stableId": "System.Net.Requests:System.Net.Cache.HttpCacheAgeControl::MaxAgeSystem.Net.Cache.HttpCacheAgeControl",
           "clrName": "MaxAge",
-          "tsEmitName": "MaxAge",
+          "tsEmitName": "maxAge",
           "normalizedSignature": "MaxAge|System.Net.Cache.HttpCacheAgeControl|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -57,7 +57,7 @@
         {
           "stableId": "System.Net.Requests:System.Net.Cache.HttpCacheAgeControl::MaxStaleSystem.Net.Cache.HttpCacheAgeControl",
           "clrName": "MaxStale",
-          "tsEmitName": "MaxStale",
+          "tsEmitName": "maxStale",
           "normalizedSignature": "MaxStale|System.Net.Cache.HttpCacheAgeControl|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -66,7 +66,7 @@
         {
           "stableId": "System.Net.Requests:System.Net.Cache.HttpCacheAgeControl::MaxAgeAndMinFreshSystem.Net.Cache.HttpCacheAgeControl",
           "clrName": "MaxAgeAndMinFresh",
-          "tsEmitName": "MaxAgeAndMinFresh",
+          "tsEmitName": "maxAgeAndMinFresh",
           "normalizedSignature": "MaxAgeAndMinFresh|System.Net.Cache.HttpCacheAgeControl|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -75,7 +75,7 @@
         {
           "stableId": "System.Net.Requests:System.Net.Cache.HttpCacheAgeControl::MaxAgeAndMaxStaleSystem.Net.Cache.HttpCacheAgeControl",
           "clrName": "MaxAgeAndMaxStale",
-          "tsEmitName": "MaxAgeAndMaxStale",
+          "tsEmitName": "maxAgeAndMaxStale",
           "normalizedSignature": "MaxAgeAndMaxStale|System.Net.Cache.HttpCacheAgeControl|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -110,7 +110,7 @@
         {
           "stableId": "System.Net.Requests:System.Net.Cache.HttpRequestCacheLevel::DefaultSystem.Net.Cache.HttpRequestCacheLevel",
           "clrName": "Default",
-          "tsEmitName": "Default",
+          "tsEmitName": "default_",
           "normalizedSignature": "Default|System.Net.Cache.HttpRequestCacheLevel|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -119,7 +119,7 @@
         {
           "stableId": "System.Net.Requests:System.Net.Cache.HttpRequestCacheLevel::BypassCacheSystem.Net.Cache.HttpRequestCacheLevel",
           "clrName": "BypassCache",
-          "tsEmitName": "BypassCache",
+          "tsEmitName": "bypassCache",
           "normalizedSignature": "BypassCache|System.Net.Cache.HttpRequestCacheLevel|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -128,7 +128,7 @@
         {
           "stableId": "System.Net.Requests:System.Net.Cache.HttpRequestCacheLevel::CacheOnlySystem.Net.Cache.HttpRequestCacheLevel",
           "clrName": "CacheOnly",
-          "tsEmitName": "CacheOnly",
+          "tsEmitName": "cacheOnly",
           "normalizedSignature": "CacheOnly|System.Net.Cache.HttpRequestCacheLevel|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -137,7 +137,7 @@
         {
           "stableId": "System.Net.Requests:System.Net.Cache.HttpRequestCacheLevel::CacheIfAvailableSystem.Net.Cache.HttpRequestCacheLevel",
           "clrName": "CacheIfAvailable",
-          "tsEmitName": "CacheIfAvailable",
+          "tsEmitName": "cacheIfAvailable",
           "normalizedSignature": "CacheIfAvailable|System.Net.Cache.HttpRequestCacheLevel|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -146,7 +146,7 @@
         {
           "stableId": "System.Net.Requests:System.Net.Cache.HttpRequestCacheLevel::RevalidateSystem.Net.Cache.HttpRequestCacheLevel",
           "clrName": "Revalidate",
-          "tsEmitName": "Revalidate",
+          "tsEmitName": "revalidate",
           "normalizedSignature": "Revalidate|System.Net.Cache.HttpRequestCacheLevel|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -155,7 +155,7 @@
         {
           "stableId": "System.Net.Requests:System.Net.Cache.HttpRequestCacheLevel::ReloadSystem.Net.Cache.HttpRequestCacheLevel",
           "clrName": "Reload",
-          "tsEmitName": "Reload",
+          "tsEmitName": "reload",
           "normalizedSignature": "Reload|System.Net.Cache.HttpRequestCacheLevel|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -164,7 +164,7 @@
         {
           "stableId": "System.Net.Requests:System.Net.Cache.HttpRequestCacheLevel::NoCacheNoStoreSystem.Net.Cache.HttpRequestCacheLevel",
           "clrName": "NoCacheNoStore",
-          "tsEmitName": "NoCacheNoStore",
+          "tsEmitName": "noCacheNoStore",
           "normalizedSignature": "NoCacheNoStore|System.Net.Cache.HttpRequestCacheLevel|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -173,7 +173,7 @@
         {
           "stableId": "System.Net.Requests:System.Net.Cache.HttpRequestCacheLevel::CacheOrNextCacheOnlySystem.Net.Cache.HttpRequestCacheLevel",
           "clrName": "CacheOrNextCacheOnly",
-          "tsEmitName": "CacheOrNextCacheOnly",
+          "tsEmitName": "cacheOrNextCacheOnly",
           "normalizedSignature": "CacheOrNextCacheOnly|System.Net.Cache.HttpRequestCacheLevel|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -182,7 +182,7 @@
         {
           "stableId": "System.Net.Requests:System.Net.Cache.HttpRequestCacheLevel::RefreshSystem.Net.Cache.HttpRequestCacheLevel",
           "clrName": "Refresh",
-          "tsEmitName": "Refresh",
+          "tsEmitName": "refresh",
           "normalizedSignature": "Refresh|System.Net.Cache.HttpRequestCacheLevel|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -217,7 +217,7 @@
         {
           "stableId": "System.Net.Primitives:System.Net.Cache.RequestCacheLevel::DefaultSystem.Net.Cache.RequestCacheLevel",
           "clrName": "Default",
-          "tsEmitName": "Default",
+          "tsEmitName": "default_",
           "normalizedSignature": "Default|System.Net.Cache.RequestCacheLevel|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -226,7 +226,7 @@
         {
           "stableId": "System.Net.Primitives:System.Net.Cache.RequestCacheLevel::BypassCacheSystem.Net.Cache.RequestCacheLevel",
           "clrName": "BypassCache",
-          "tsEmitName": "BypassCache",
+          "tsEmitName": "bypassCache",
           "normalizedSignature": "BypassCache|System.Net.Cache.RequestCacheLevel|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -235,7 +235,7 @@
         {
           "stableId": "System.Net.Primitives:System.Net.Cache.RequestCacheLevel::CacheOnlySystem.Net.Cache.RequestCacheLevel",
           "clrName": "CacheOnly",
-          "tsEmitName": "CacheOnly",
+          "tsEmitName": "cacheOnly",
           "normalizedSignature": "CacheOnly|System.Net.Cache.RequestCacheLevel|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -244,7 +244,7 @@
         {
           "stableId": "System.Net.Primitives:System.Net.Cache.RequestCacheLevel::CacheIfAvailableSystem.Net.Cache.RequestCacheLevel",
           "clrName": "CacheIfAvailable",
-          "tsEmitName": "CacheIfAvailable",
+          "tsEmitName": "cacheIfAvailable",
           "normalizedSignature": "CacheIfAvailable|System.Net.Cache.RequestCacheLevel|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -253,7 +253,7 @@
         {
           "stableId": "System.Net.Primitives:System.Net.Cache.RequestCacheLevel::RevalidateSystem.Net.Cache.RequestCacheLevel",
           "clrName": "Revalidate",
-          "tsEmitName": "Revalidate",
+          "tsEmitName": "revalidate",
           "normalizedSignature": "Revalidate|System.Net.Cache.RequestCacheLevel|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -262,7 +262,7 @@
         {
           "stableId": "System.Net.Primitives:System.Net.Cache.RequestCacheLevel::ReloadSystem.Net.Cache.RequestCacheLevel",
           "clrName": "Reload",
-          "tsEmitName": "Reload",
+          "tsEmitName": "reload",
           "normalizedSignature": "Reload|System.Net.Cache.RequestCacheLevel|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -271,7 +271,7 @@
         {
           "stableId": "System.Net.Primitives:System.Net.Cache.RequestCacheLevel::NoCacheNoStoreSystem.Net.Cache.RequestCacheLevel",
           "clrName": "NoCacheNoStore",
-          "tsEmitName": "NoCacheNoStore",
+          "tsEmitName": "noCacheNoStore",
           "normalizedSignature": "NoCacheNoStore|System.Net.Cache.RequestCacheLevel|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -295,7 +295,7 @@
         {
           "stableId": "System.Net.Requests:System.Net.Cache.HttpRequestCachePolicy::ToString():System.String",
           "clrName": "ToString",
-          "tsEmitName": "ToString",
+          "tsEmitName": "toString",
           "normalizedSignature": "ToString|():System.String|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -313,7 +313,7 @@
         {
           "stableId": "System.Net.Requests:System.Net.Cache.HttpRequestCachePolicy::Level:System.Net.Cache.HttpRequestCacheLevel",
           "clrName": "Level",
-          "tsEmitName": "Level",
+          "tsEmitName": "level",
           "normalizedSignature": "Level|:System.Net.Cache.HttpRequestCacheLevel|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -328,7 +328,7 @@
         {
           "stableId": "System.Net.Requests:System.Net.Cache.HttpRequestCachePolicy::CacheSyncDate:System.DateTime",
           "clrName": "CacheSyncDate",
-          "tsEmitName": "CacheSyncDate",
+          "tsEmitName": "cacheSyncDate",
           "normalizedSignature": "CacheSyncDate|:System.DateTime|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -343,7 +343,7 @@
         {
           "stableId": "System.Net.Requests:System.Net.Cache.HttpRequestCachePolicy::MaxAge:System.TimeSpan",
           "clrName": "MaxAge",
-          "tsEmitName": "MaxAge",
+          "tsEmitName": "maxAge",
           "normalizedSignature": "MaxAge|:System.TimeSpan|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -358,7 +358,7 @@
         {
           "stableId": "System.Net.Requests:System.Net.Cache.HttpRequestCachePolicy::MinFresh:System.TimeSpan",
           "clrName": "MinFresh",
-          "tsEmitName": "MinFresh",
+          "tsEmitName": "minFresh",
           "normalizedSignature": "MinFresh|:System.TimeSpan|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -373,7 +373,7 @@
         {
           "stableId": "System.Net.Requests:System.Net.Cache.HttpRequestCachePolicy::MaxStale:System.TimeSpan",
           "clrName": "MaxStale",
-          "tsEmitName": "MaxStale",
+          "tsEmitName": "maxStale",
           "normalizedSignature": "MaxStale|:System.TimeSpan|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -435,7 +435,7 @@
         {
           "stableId": "System.Net.Primitives:System.Net.Cache.RequestCachePolicy::ToString():System.String",
           "clrName": "ToString",
-          "tsEmitName": "ToString",
+          "tsEmitName": "toString",
           "normalizedSignature": "ToString|():System.String|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -453,7 +453,7 @@
         {
           "stableId": "System.Net.Primitives:System.Net.Cache.RequestCachePolicy::Level:System.Net.Cache.RequestCacheLevel",
           "clrName": "Level",
-          "tsEmitName": "Level",
+          "tsEmitName": "level",
           "normalizedSignature": "Level|:System.Net.Cache.RequestCacheLevel|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",

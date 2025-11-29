@@ -41,25 +41,25 @@ export class Evidence$instance {
     constructor(hostEvidence: unknown[], assemblyEvidence: unknown[]);
     constructor(evidence: Evidence);
     constructor(hostEvidence: EvidenceBase[], assemblyEvidence: EvidenceBase[]);
-    readonly Count: int;
-    readonly IsReadOnly: boolean;
-    readonly IsSynchronized: boolean;
-    Locked: boolean;
-    readonly SyncRoot: unknown;
-    AddAssembly(id: unknown): void;
-    AddAssemblyEvidence<T extends EvidenceBase>(evidence: T): void;
-    AddHost(id: unknown): void;
-    AddHostEvidence<T extends EvidenceBase>(evidence: T): void;
-    Clear(): void;
-    Clone(): Evidence;
-    CopyTo(array: ClrArray, index: int): void;
-    GetAssemblyEnumerator(): IEnumerator;
-    GetAssemblyEvidence<T extends EvidenceBase>(): T;
-    GetEnumerator(): IEnumerator;
-    GetHostEnumerator(): IEnumerator;
-    GetHostEvidence<T extends EvidenceBase>(): T;
-    Merge(evidence: Evidence): void;
-    RemoveType(t: Type): void;
+    readonly count: int;
+    readonly isReadOnly: boolean;
+    readonly isSynchronized: boolean;
+    locked: boolean;
+    readonly syncRoot: unknown;
+    addAssembly(id: unknown): void;
+    addAssemblyEvidence<T extends EvidenceBase>(evidence: T): void;
+    addHost(id: unknown): void;
+    addHostEvidence<T extends EvidenceBase>(evidence: T): void;
+    clear(): void;
+    clone(): Evidence;
+    copyTo(array: ClrArray, index: int): void;
+    getAssemblyEnumerator(): IEnumerator;
+    getAssemblyEvidence<T extends EvidenceBase>(): T;
+    getEnumerator(): IEnumerator;
+    getHostEnumerator(): IEnumerator;
+    getHostEvidence<T extends EvidenceBase>(): T;
+    merge(evidence: Evidence): void;
+    removeType(t: Type): void;
 }
 
 
@@ -72,7 +72,7 @@ export type Evidence = Evidence$instance & __Evidence$views;
 
 
 export abstract class EvidenceBase$instance {
-    Clone(): EvidenceBase;
+    clone(): EvidenceBase;
 }
 
 

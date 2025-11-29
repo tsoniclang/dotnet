@@ -42,21 +42,21 @@ export type CLROf<T> =
     T; // Identity fallback for non-primitive types
 
 export enum ObjectiveCMarshal_MessageSendFunction {
-    MsgSend = 0,
-    MsgSendFpret = 1,
-    MsgSendStret = 2,
-    MsgSendSuper = 3,
-    MsgSendSuperStret = 4
+    msgSend = 0,
+    msgSendFpret = 1,
+    msgSendStret = 2,
+    msgSendSuper = 3,
+    msgSendSuperStret = 4
 }
 
 
 export class ObjectiveCMarshal_UnhandledExceptionPropagationHandler$instance extends Function {
     constructor(object_: unknown, method: nint);
-    BeginInvoke(exception: Exception, lastMethod: RuntimeMethodHandle, context: { value: ref<nint> }, callback: AsyncCallback, object_: unknown): IAsyncResult;
+    beginInvoke(exception: Exception, lastMethod: RuntimeMethodHandle, context: { value: ref<nint> }, callback: AsyncCallback, object_: unknown): IAsyncResult;
     Clone(): unknown;
-    EndInvoke(context: { value: ref<nint> }, result: IAsyncResult): unknown;
+    endInvoke(context: { value: ref<nint> }, result: IAsyncResult): unknown;
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
-    Invoke(exception: Exception, lastMethod: RuntimeMethodHandle, context: { value: ref<nint> }): unknown;
+    invoke(exception: Exception, lastMethod: RuntimeMethodHandle, context: { value: ref<nint> }): unknown;
 }
 
 
@@ -64,6 +64,8 @@ export interface __ObjectiveCMarshal_UnhandledExceptionPropagationHandler$views 
     As_ICloneable(): System_Internal.ICloneable$instance;
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
+
+export interface ObjectiveCMarshal_UnhandledExceptionPropagationHandler$instance extends System_Internal.ICloneable$instance {}
 
 export type ObjectiveCMarshal_UnhandledExceptionPropagationHandler = ObjectiveCMarshal_UnhandledExceptionPropagationHandler$instance & __ObjectiveCMarshal_UnhandledExceptionPropagationHandler$views;
 
@@ -76,10 +78,10 @@ export class ObjectiveCTrackedTypeAttribute$instance extends System_Internal.Att
 export type ObjectiveCTrackedTypeAttribute = ObjectiveCTrackedTypeAttribute$instance;
 
 export abstract class ObjectiveCMarshal$instance {
-    static CreateReferenceTrackingHandle(obj: unknown, taggedMemory: { value: ref<Span_1<CLROf<nint>>> }): GCHandle;
-    static Initialize(beginEndCallback: unknown, isReferencedCallback: unknown, trackedObjectEnteredFinalization: unknown, unhandledExceptionPropagationHandler: ObjectiveCMarshal_UnhandledExceptionPropagationHandler): void;
-    static SetMessageSendCallback(msgSendFunction: ObjectiveCMarshal_MessageSendFunction, func: nint): void;
-    static SetMessageSendPendingException(exception: Exception): void;
+    static createReferenceTrackingHandle(obj: unknown, taggedMemory: { value: ref<Span_1<CLROf<nint>>> }): GCHandle;
+    static initialize(beginEndCallback: unknown, isReferencedCallback: unknown, trackedObjectEnteredFinalization: unknown, unhandledExceptionPropagationHandler: ObjectiveCMarshal_UnhandledExceptionPropagationHandler): void;
+    static setMessageSendCallback(msgSendFunction: ObjectiveCMarshal_MessageSendFunction, func: nint): void;
+    static setMessageSendPendingException(exception: Exception): void;
 }
 
 

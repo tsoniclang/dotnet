@@ -39,41 +39,41 @@ export type CLROf<T> =
     T; // Identity fallback for non-primitive types
 
 export enum TarEntryFormat {
-    Unknown = 0,
-    V7 = 1,
-    Ustar = 2,
-    Pax = 3,
-    Gnu = 4
+    unknown_ = 0,
+    v7 = 1,
+    ustar = 2,
+    pax = 3,
+    gnu = 4
 }
 
 
 export enum TarEntryType {
-    RegularFile = 48,
-    HardLink = 49,
-    SymbolicLink = 50,
-    CharacterDevice = 51,
-    BlockDevice = 52,
-    Directory = 53,
-    Fifo = 54,
-    ContiguousFile = 55,
-    ExtendedAttributes = 120,
-    GlobalExtendedAttributes = 103,
-    DirectoryList = 68,
-    LongLink = 75,
-    LongPath = 76,
-    MultiVolume = 77,
-    V7RegularFile = 0,
-    RenamedOrSymlinked = 78,
-    SparseFile = 83,
-    TapeVolume = 86
+    regularFile = 48,
+    hardLink = 49,
+    symbolicLink = 50,
+    characterDevice = 51,
+    blockDevice = 52,
+    directory = 53,
+    fifo = 54,
+    contiguousFile = 55,
+    extendedAttributes = 120,
+    globalExtendedAttributes = 103,
+    directoryList = 68,
+    longLink = 75,
+    longPath = 76,
+    multiVolume = 77,
+    v7RegularFile = 0,
+    renamedOrSymlinked = 78,
+    sparseFile = 83,
+    tapeVolume = 86
 }
 
 
 export class GnuTarEntry$instance extends PosixTarEntry$instance {
     constructor(entryType: TarEntryType, entryName: string);
     constructor(other: TarEntry);
-    AccessTime: DateTimeOffset;
-    ChangeTime: DateTimeOffset;
+    accessTime: DateTimeOffset;
+    changeTime: DateTimeOffset;
 }
 
 
@@ -81,7 +81,7 @@ export type GnuTarEntry = GnuTarEntry$instance;
 
 export class PaxGlobalExtendedAttributesTarEntry$instance extends PosixTarEntry$instance {
     constructor(globalExtendedAttributes: IEnumerable_1<KeyValuePair_2<CLROf<string>, CLROf<string>>>);
-    readonly GlobalExtendedAttributes: IReadOnlyDictionary_2<CLROf<string>, CLROf<string>>;
+    readonly globalExtendedAttributes: IReadOnlyDictionary_2<CLROf<string>, CLROf<string>>;
 }
 
 
@@ -91,38 +91,38 @@ export class PaxTarEntry$instance extends PosixTarEntry$instance {
     constructor(entryType: TarEntryType, entryName: string);
     constructor(entryType: TarEntryType, entryName: string, extendedAttributes: IEnumerable_1<KeyValuePair_2<CLROf<string>, CLROf<string>>>);
     constructor(other: TarEntry);
-    readonly ExtendedAttributes: IReadOnlyDictionary_2<CLROf<string>, CLROf<string>>;
+    readonly extendedAttributes: IReadOnlyDictionary_2<CLROf<string>, CLROf<string>>;
 }
 
 
 export type PaxTarEntry = PaxTarEntry$instance;
 
 export abstract class PosixTarEntry$instance extends TarEntry$instance {
-    DeviceMajor: int;
-    DeviceMinor: int;
-    GroupName: string;
-    UserName: string;
+    deviceMajor: int;
+    deviceMinor: int;
+    groupName: string;
+    userName: string;
 }
 
 
 export type PosixTarEntry = PosixTarEntry$instance;
 
 export abstract class TarEntry$instance {
-    readonly Checksum: int;
-    readonly DataOffset: long;
-    DataStream: Stream;
-    readonly EntryType: TarEntryType;
-    readonly Format: TarEntryFormat;
-    Gid: int;
-    readonly Length: long;
-    LinkName: string;
-    Mode: UnixFileMode;
-    ModificationTime: DateTimeOffset;
-    Name: string;
-    Uid: int;
-    ExtractToFile(destinationFileName: string, overwrite: boolean): void;
-    ExtractToFileAsync(destinationFileName: string, overwrite: boolean, cancellationToken?: CancellationToken): Task;
-    ToString(): string;
+    readonly checksum: int;
+    readonly dataOffset: long;
+    dataStream: Stream;
+    readonly entryType: TarEntryType;
+    readonly format: TarEntryFormat;
+    gid: int;
+    readonly length: long;
+    linkName: string;
+    mode: UnixFileMode;
+    modificationTime: DateTimeOffset;
+    name: string;
+    uid: int;
+    extractToFile(destinationFileName: string, overwrite: boolean): void;
+    extractToFileAsync(destinationFileName: string, overwrite: boolean, cancellationToken?: CancellationToken): Task;
+    toString(): string;
 }
 
 
@@ -130,10 +130,10 @@ export type TarEntry = TarEntry$instance;
 
 export class TarReader$instance {
     constructor(archiveStream: Stream, leaveOpen: boolean);
-    Dispose(): void;
-    DisposeAsync(): ValueTask;
-    GetNextEntry(copyData?: boolean): TarEntry;
-    GetNextEntryAsync(copyData?: boolean, cancellationToken?: CancellationToken): ValueTask_1<TarEntry>;
+    dispose(): void;
+    disposeAsync(): ValueTask;
+    getNextEntry(copyData?: boolean): TarEntry;
+    getNextEntryAsync(copyData?: boolean, cancellationToken?: CancellationToken): ValueTask_1<TarEntry>;
 }
 
 
@@ -151,13 +151,13 @@ export class TarWriter$instance {
     constructor(archiveStream: Stream);
     constructor(archiveStream: Stream, leaveOpen: boolean);
     constructor(archiveStream: Stream, format: TarEntryFormat, leaveOpen: boolean);
-    readonly Format: TarEntryFormat;
-    Dispose(): void;
-    DisposeAsync(): ValueTask;
-    WriteEntry(fileName: string, entryName: string): void;
-    WriteEntry(entry: TarEntry): void;
-    WriteEntryAsync(fileName: string, entryName: string, cancellationToken?: CancellationToken): Task;
-    WriteEntryAsync(entry: TarEntry, cancellationToken?: CancellationToken): Task;
+    readonly format: TarEntryFormat;
+    dispose(): void;
+    disposeAsync(): ValueTask;
+    writeEntry(fileName: string, entryName: string): void;
+    writeEntry(entry: TarEntry): void;
+    writeEntryAsync(fileName: string, entryName: string, cancellationToken?: CancellationToken): Task;
+    writeEntryAsync(entry: TarEntry, cancellationToken?: CancellationToken): Task;
 }
 
 
@@ -188,14 +188,14 @@ export class V7TarEntry$instance extends TarEntry$instance {
 export type V7TarEntry = V7TarEntry$instance;
 
 export abstract class TarFile$instance {
-    static CreateFromDirectory(sourceDirectoryName: string, destination: Stream, includeBaseDirectory: boolean): void;
-    static CreateFromDirectory(sourceDirectoryName: string, destinationFileName: string, includeBaseDirectory: boolean): void;
-    static CreateFromDirectoryAsync(sourceDirectoryName: string, destination: Stream, includeBaseDirectory: boolean, cancellationToken?: CancellationToken): Task;
-    static CreateFromDirectoryAsync(sourceDirectoryName: string, destinationFileName: string, includeBaseDirectory: boolean, cancellationToken?: CancellationToken): Task;
-    static ExtractToDirectory(source: Stream, destinationDirectoryName: string, overwriteFiles: boolean): void;
-    static ExtractToDirectory(sourceFileName: string, destinationDirectoryName: string, overwriteFiles: boolean): void;
-    static ExtractToDirectoryAsync(source: Stream, destinationDirectoryName: string, overwriteFiles: boolean, cancellationToken?: CancellationToken): Task;
-    static ExtractToDirectoryAsync(sourceFileName: string, destinationDirectoryName: string, overwriteFiles: boolean, cancellationToken?: CancellationToken): Task;
+    static createFromDirectory(sourceDirectoryName: string, destination: Stream, includeBaseDirectory: boolean): void;
+    static createFromDirectory(sourceDirectoryName: string, destinationFileName: string, includeBaseDirectory: boolean): void;
+    static createFromDirectoryAsync(sourceDirectoryName: string, destination: Stream, includeBaseDirectory: boolean, cancellationToken?: CancellationToken): Task;
+    static createFromDirectoryAsync(sourceDirectoryName: string, destinationFileName: string, includeBaseDirectory: boolean, cancellationToken?: CancellationToken): Task;
+    static extractToDirectory(source: Stream, destinationDirectoryName: string, overwriteFiles: boolean): void;
+    static extractToDirectory(sourceFileName: string, destinationDirectoryName: string, overwriteFiles: boolean): void;
+    static extractToDirectoryAsync(source: Stream, destinationDirectoryName: string, overwriteFiles: boolean, cancellationToken?: CancellationToken): Task;
+    static extractToDirectoryAsync(sourceFileName: string, destinationDirectoryName: string, overwriteFiles: boolean, cancellationToken?: CancellationToken): Task;
 }
 
 

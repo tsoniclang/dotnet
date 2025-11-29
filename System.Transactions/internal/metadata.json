@@ -29,7 +29,7 @@
         {
           "stableId": "System.Transactions.Local:System.Transactions.DependentCloneOption::BlockCommitUntilCompleteSystem.Transactions.DependentCloneOption",
           "clrName": "BlockCommitUntilComplete",
-          "tsEmitName": "BlockCommitUntilComplete",
+          "tsEmitName": "blockCommitUntilComplete",
           "normalizedSignature": "BlockCommitUntilComplete|System.Transactions.DependentCloneOption|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -38,7 +38,7 @@
         {
           "stableId": "System.Transactions.Local:System.Transactions.DependentCloneOption::RollbackIfNotCompleteSystem.Transactions.DependentCloneOption",
           "clrName": "RollbackIfNotComplete",
-          "tsEmitName": "RollbackIfNotComplete",
+          "tsEmitName": "rollbackIfNotComplete",
           "normalizedSignature": "RollbackIfNotComplete|System.Transactions.DependentCloneOption|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -73,7 +73,7 @@
         {
           "stableId": "System.Transactions.Local:System.Transactions.EnlistmentOptions::NoneSystem.Transactions.EnlistmentOptions",
           "clrName": "None",
-          "tsEmitName": "None",
+          "tsEmitName": "none",
           "normalizedSignature": "None|System.Transactions.EnlistmentOptions|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -82,7 +82,7 @@
         {
           "stableId": "System.Transactions.Local:System.Transactions.EnlistmentOptions::EnlistDuringPrepareRequiredSystem.Transactions.EnlistmentOptions",
           "clrName": "EnlistDuringPrepareRequired",
-          "tsEmitName": "EnlistDuringPrepareRequired",
+          "tsEmitName": "enlistDuringPrepareRequired",
           "normalizedSignature": "EnlistDuringPrepareRequired|System.Transactions.EnlistmentOptions|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -117,7 +117,7 @@
         {
           "stableId": "System.Transactions.Local:System.Transactions.EnterpriseServicesInteropOption::NoneSystem.Transactions.EnterpriseServicesInteropOption",
           "clrName": "None",
-          "tsEmitName": "None",
+          "tsEmitName": "none",
           "normalizedSignature": "None|System.Transactions.EnterpriseServicesInteropOption|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -126,7 +126,7 @@
         {
           "stableId": "System.Transactions.Local:System.Transactions.EnterpriseServicesInteropOption::AutomaticSystem.Transactions.EnterpriseServicesInteropOption",
           "clrName": "Automatic",
-          "tsEmitName": "Automatic",
+          "tsEmitName": "automatic",
           "normalizedSignature": "Automatic|System.Transactions.EnterpriseServicesInteropOption|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -135,7 +135,7 @@
         {
           "stableId": "System.Transactions.Local:System.Transactions.EnterpriseServicesInteropOption::FullSystem.Transactions.EnterpriseServicesInteropOption",
           "clrName": "Full",
-          "tsEmitName": "Full",
+          "tsEmitName": "full",
           "normalizedSignature": "Full|System.Transactions.EnterpriseServicesInteropOption|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -170,7 +170,7 @@
         {
           "stableId": "System.Transactions.Local:System.Transactions.IsolationLevel::SerializableSystem.Transactions.IsolationLevel",
           "clrName": "Serializable",
-          "tsEmitName": "Serializable",
+          "tsEmitName": "serializable",
           "normalizedSignature": "Serializable|System.Transactions.IsolationLevel|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -179,7 +179,7 @@
         {
           "stableId": "System.Transactions.Local:System.Transactions.IsolationLevel::RepeatableReadSystem.Transactions.IsolationLevel",
           "clrName": "RepeatableRead",
-          "tsEmitName": "RepeatableRead",
+          "tsEmitName": "repeatableRead",
           "normalizedSignature": "RepeatableRead|System.Transactions.IsolationLevel|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -188,7 +188,7 @@
         {
           "stableId": "System.Transactions.Local:System.Transactions.IsolationLevel::ReadCommittedSystem.Transactions.IsolationLevel",
           "clrName": "ReadCommitted",
-          "tsEmitName": "ReadCommitted",
+          "tsEmitName": "readCommitted",
           "normalizedSignature": "ReadCommitted|System.Transactions.IsolationLevel|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -197,7 +197,7 @@
         {
           "stableId": "System.Transactions.Local:System.Transactions.IsolationLevel::ReadUncommittedSystem.Transactions.IsolationLevel",
           "clrName": "ReadUncommitted",
-          "tsEmitName": "ReadUncommitted",
+          "tsEmitName": "readUncommitted",
           "normalizedSignature": "ReadUncommitted|System.Transactions.IsolationLevel|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -206,7 +206,7 @@
         {
           "stableId": "System.Transactions.Local:System.Transactions.IsolationLevel::SnapshotSystem.Transactions.IsolationLevel",
           "clrName": "Snapshot",
-          "tsEmitName": "Snapshot",
+          "tsEmitName": "snapshot",
           "normalizedSignature": "Snapshot|System.Transactions.IsolationLevel|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -215,7 +215,7 @@
         {
           "stableId": "System.Transactions.Local:System.Transactions.IsolationLevel::ChaosSystem.Transactions.IsolationLevel",
           "clrName": "Chaos",
-          "tsEmitName": "Chaos",
+          "tsEmitName": "chaos",
           "normalizedSignature": "Chaos|System.Transactions.IsolationLevel|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -224,7 +224,7 @@
         {
           "stableId": "System.Transactions.Local:System.Transactions.IsolationLevel::UnspecifiedSystem.Transactions.IsolationLevel",
           "clrName": "Unspecified",
-          "tsEmitName": "Unspecified",
+          "tsEmitName": "unspecified",
           "normalizedSignature": "Unspecified|System.Transactions.IsolationLevel|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -259,7 +259,7 @@
         {
           "stableId": "System.Transactions.Local:System.Transactions.TransactionScopeAsyncFlowOption::SuppressSystem.Transactions.TransactionScopeAsyncFlowOption",
           "clrName": "Suppress",
-          "tsEmitName": "Suppress",
+          "tsEmitName": "suppress",
           "normalizedSignature": "Suppress|System.Transactions.TransactionScopeAsyncFlowOption|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -268,7 +268,7 @@
         {
           "stableId": "System.Transactions.Local:System.Transactions.TransactionScopeAsyncFlowOption::EnabledSystem.Transactions.TransactionScopeAsyncFlowOption",
           "clrName": "Enabled",
-          "tsEmitName": "Enabled",
+          "tsEmitName": "enabled",
           "normalizedSignature": "Enabled|System.Transactions.TransactionScopeAsyncFlowOption|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -303,7 +303,7 @@
         {
           "stableId": "System.Transactions.Local:System.Transactions.TransactionScopeOption::RequiredSystem.Transactions.TransactionScopeOption",
           "clrName": "Required",
-          "tsEmitName": "Required",
+          "tsEmitName": "required",
           "normalizedSignature": "Required|System.Transactions.TransactionScopeOption|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -312,7 +312,7 @@
         {
           "stableId": "System.Transactions.Local:System.Transactions.TransactionScopeOption::RequiresNewSystem.Transactions.TransactionScopeOption",
           "clrName": "RequiresNew",
-          "tsEmitName": "RequiresNew",
+          "tsEmitName": "requiresNew",
           "normalizedSignature": "RequiresNew|System.Transactions.TransactionScopeOption|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -321,7 +321,7 @@
         {
           "stableId": "System.Transactions.Local:System.Transactions.TransactionScopeOption::SuppressSystem.Transactions.TransactionScopeOption",
           "clrName": "Suppress",
-          "tsEmitName": "Suppress",
+          "tsEmitName": "suppress",
           "normalizedSignature": "Suppress|System.Transactions.TransactionScopeOption|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -356,7 +356,7 @@
         {
           "stableId": "System.Transactions.Local:System.Transactions.TransactionStatus::ActiveSystem.Transactions.TransactionStatus",
           "clrName": "Active",
-          "tsEmitName": "Active",
+          "tsEmitName": "active",
           "normalizedSignature": "Active|System.Transactions.TransactionStatus|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -365,7 +365,7 @@
         {
           "stableId": "System.Transactions.Local:System.Transactions.TransactionStatus::CommittedSystem.Transactions.TransactionStatus",
           "clrName": "Committed",
-          "tsEmitName": "Committed",
+          "tsEmitName": "committed",
           "normalizedSignature": "Committed|System.Transactions.TransactionStatus|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -374,7 +374,7 @@
         {
           "stableId": "System.Transactions.Local:System.Transactions.TransactionStatus::AbortedSystem.Transactions.TransactionStatus",
           "clrName": "Aborted",
-          "tsEmitName": "Aborted",
+          "tsEmitName": "aborted",
           "normalizedSignature": "Aborted|System.Transactions.TransactionStatus|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -383,7 +383,7 @@
         {
           "stableId": "System.Transactions.Local:System.Transactions.TransactionStatus::InDoubtSystem.Transactions.TransactionStatus",
           "clrName": "InDoubt",
-          "tsEmitName": "InDoubt",
+          "tsEmitName": "inDoubt",
           "normalizedSignature": "InDoubt|System.Transactions.TransactionStatus|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -407,7 +407,7 @@
         {
           "stableId": "System.Transactions.Local:System.Transactions.IDtcTransaction::Commit(System.Int32,System.Int32,System.Int32):System.Void",
           "clrName": "Commit",
-          "tsEmitName": "Commit",
+          "tsEmitName": "commit",
           "normalizedSignature": "Commit|(System.Int32,System.Int32,System.Int32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -423,7 +423,7 @@
         {
           "stableId": "System.Transactions.Local:System.Transactions.IDtcTransaction::Abort(System.IntPtr,System.Int32,System.Int32):System.Void",
           "clrName": "Abort",
-          "tsEmitName": "Abort",
+          "tsEmitName": "abort",
           "normalizedSignature": "Abort|(System.IntPtr,System.Int32,System.Int32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -439,7 +439,7 @@
         {
           "stableId": "System.Transactions.Local:System.Transactions.IDtcTransaction::GetTransactionInfo(System.IntPtr):System.Void",
           "clrName": "GetTransactionInfo",
-          "tsEmitName": "GetTransactionInfo",
+          "tsEmitName": "getTransactionInfo",
           "normalizedSignature": "GetTransactionInfo|(System.IntPtr):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -472,7 +472,7 @@
         {
           "stableId": "System.Transactions.Local:System.Transactions.IEnlistmentNotification::Prepare(System.Transactions.PreparingEnlistment):System.Void",
           "clrName": "Prepare",
-          "tsEmitName": "Prepare",
+          "tsEmitName": "prepare",
           "normalizedSignature": "Prepare|(System.Transactions.PreparingEnlistment):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -488,7 +488,7 @@
         {
           "stableId": "System.Transactions.Local:System.Transactions.IEnlistmentNotification::Commit(System.Transactions.Enlistment):System.Void",
           "clrName": "Commit",
-          "tsEmitName": "Commit",
+          "tsEmitName": "commit",
           "normalizedSignature": "Commit|(System.Transactions.Enlistment):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -521,7 +521,7 @@
         {
           "stableId": "System.Transactions.Local:System.Transactions.IPromotableSinglePhaseNotification::Initialize():System.Void",
           "clrName": "Initialize",
-          "tsEmitName": "Initialize",
+          "tsEmitName": "initialize",
           "normalizedSignature": "Initialize|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -537,7 +537,7 @@
         {
           "stableId": "System.Transactions.Local:System.Transactions.IPromotableSinglePhaseNotification::SinglePhaseCommit(System.Transactions.SinglePhaseEnlistment):System.Void",
           "clrName": "SinglePhaseCommit",
-          "tsEmitName": "SinglePhaseCommit",
+          "tsEmitName": "singlePhaseCommit",
           "normalizedSignature": "SinglePhaseCommit|(System.Transactions.SinglePhaseEnlistment):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -553,7 +553,7 @@
         {
           "stableId": "System.Transactions.Local:System.Transactions.ITransactionPromoter::Promote():System.Byte[]",
           "clrName": "Promote",
-          "tsEmitName": "Promote",
+          "tsEmitName": "promote",
           "normalizedSignature": "Promote|():System.Byte[]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -586,7 +586,7 @@
         {
           "stableId": "System.Transactions.Local:System.Transactions.ISimpleTransactionSuperior::Rollback():System.Void",
           "clrName": "Rollback",
-          "tsEmitName": "Rollback",
+          "tsEmitName": "rollback",
           "normalizedSignature": "Rollback|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -602,7 +602,7 @@
         {
           "stableId": "System.Transactions.Local:System.Transactions.ITransactionPromoter::Promote():System.Byte[]",
           "clrName": "Promote",
-          "tsEmitName": "Promote",
+          "tsEmitName": "promote",
           "normalizedSignature": "Promote|():System.Byte[]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -635,7 +635,7 @@
         {
           "stableId": "System.Transactions.Local:System.Transactions.ISinglePhaseNotification::SinglePhaseCommit(System.Transactions.SinglePhaseEnlistment):System.Void",
           "clrName": "SinglePhaseCommit",
-          "tsEmitName": "SinglePhaseCommit",
+          "tsEmitName": "singlePhaseCommit",
           "normalizedSignature": "SinglePhaseCommit|(System.Transactions.SinglePhaseEnlistment):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -651,7 +651,7 @@
         {
           "stableId": "System.Transactions.Local:System.Transactions.IEnlistmentNotification::Prepare(System.Transactions.PreparingEnlistment):System.Void",
           "clrName": "Prepare",
-          "tsEmitName": "Prepare",
+          "tsEmitName": "prepare",
           "normalizedSignature": "Prepare|(System.Transactions.PreparingEnlistment):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -667,7 +667,7 @@
         {
           "stableId": "System.Transactions.Local:System.Transactions.IEnlistmentNotification::Commit(System.Transactions.Enlistment):System.Void",
           "clrName": "Commit",
-          "tsEmitName": "Commit",
+          "tsEmitName": "commit",
           "normalizedSignature": "Commit|(System.Transactions.Enlistment):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -700,7 +700,7 @@
         {
           "stableId": "System.Transactions.Local:System.Transactions.ITransactionPromoter::Promote():System.Byte[]",
           "clrName": "Promote",
-          "tsEmitName": "Promote",
+          "tsEmitName": "promote",
           "normalizedSignature": "Promote|():System.Byte[]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -733,7 +733,7 @@
         {
           "stableId": "System.Transactions.Local:System.Transactions.TransactionOptions::GetHashCode():System.Int32",
           "clrName": "GetHashCode",
-          "tsEmitName": "GetHashCode",
+          "tsEmitName": "getHashCode",
           "normalizedSignature": "GetHashCode|():System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -749,7 +749,7 @@
         {
           "stableId": "System.Transactions.Local:System.Transactions.TransactionOptions::Equals(System.Object):System.Boolean",
           "clrName": "Equals",
-          "tsEmitName": "Equals",
+          "tsEmitName": "equals",
           "normalizedSignature": "Equals|(System.Object):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -765,7 +765,7 @@
         {
           "stableId": "System.Transactions.Local:System.Transactions.TransactionOptions::Equals(System.Transactions.TransactionOptions):System.Boolean",
           "clrName": "Equals",
-          "tsEmitName": "Equals2",
+          "tsEmitName": "equals2",
           "normalizedSignature": "Equals|(System.Transactions.TransactionOptions):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -781,7 +781,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IEquatable\u00601::Equals(T):System.Boolean",
           "clrName": "Equals",
-          "tsEmitName": "Equals$view",
+          "tsEmitName": "equals$view",
           "normalizedSignature": "Equals|(T):System.Boolean|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -800,7 +800,7 @@
         {
           "stableId": "System.Transactions.Local:System.Transactions.TransactionOptions::Timeout:System.TimeSpan",
           "clrName": "Timeout",
-          "tsEmitName": "Timeout",
+          "tsEmitName": "timeout",
           "normalizedSignature": "Timeout|:System.TimeSpan|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -815,7 +815,7 @@
         {
           "stableId": "System.Transactions.Local:System.Transactions.TransactionOptions::IsolationLevel:System.Transactions.IsolationLevel",
           "clrName": "IsolationLevel",
-          "tsEmitName": "IsolationLevel",
+          "tsEmitName": "isolationLevel",
           "normalizedSignature": "IsolationLevel|:System.Transactions.IsolationLevel|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -846,7 +846,7 @@
         {
           "stableId": "System.Transactions.Local:System.Transactions.CommittableTransaction::BeginCommit(System.AsyncCallback,System.Object):System.IAsyncResult",
           "clrName": "BeginCommit",
-          "tsEmitName": "BeginCommit",
+          "tsEmitName": "beginCommit",
           "normalizedSignature": "BeginCommit|(System.AsyncCallback,System.Object):System.IAsyncResult|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -862,7 +862,7 @@
         {
           "stableId": "System.Transactions.Local:System.Transactions.CommittableTransaction::Commit():System.Void",
           "clrName": "Commit",
-          "tsEmitName": "Commit",
+          "tsEmitName": "commit",
           "normalizedSignature": "Commit|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -878,7 +878,7 @@
         {
           "stableId": "System.Transactions.Local:System.Transactions.CommittableTransaction::EndCommit(System.IAsyncResult):System.Void",
           "clrName": "EndCommit",
-          "tsEmitName": "EndCommit",
+          "tsEmitName": "endCommit",
           "normalizedSignature": "EndCommit|(System.IAsyncResult):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -894,7 +894,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "Dispose$view",
+          "tsEmitName": "dispose",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -911,7 +911,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData$view",
+          "tsEmitName": "getObjectData",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -962,7 +962,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IAsyncResult::IsCompleted:System.Boolean",
           "clrName": "IsCompleted",
-          "tsEmitName": "IsCompleted",
+          "tsEmitName": "isCompleted",
           "normalizedSignature": "IsCompleted|:System.Boolean|static=false|accessor=get",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -978,7 +978,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IAsyncResult::AsyncWaitHandle:System.Threading.WaitHandle",
           "clrName": "AsyncWaitHandle",
-          "tsEmitName": "AsyncWaitHandle",
+          "tsEmitName": "asyncWaitHandle",
           "normalizedSignature": "AsyncWaitHandle|:System.Threading.WaitHandle|static=false|accessor=get",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -994,7 +994,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IAsyncResult::AsyncState:System.Object",
           "clrName": "AsyncState",
-          "tsEmitName": "AsyncState",
+          "tsEmitName": "asyncState",
           "normalizedSignature": "AsyncState|:System.Object|static=false|accessor=get",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -1010,7 +1010,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IAsyncResult::CompletedSynchronously:System.Boolean",
           "clrName": "CompletedSynchronously",
-          "tsEmitName": "CompletedSynchronously",
+          "tsEmitName": "completedSynchronously",
           "normalizedSignature": "CompletedSynchronously|:System.Boolean|static=false|accessor=get",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -1058,7 +1058,7 @@
         {
           "stableId": "System.Transactions.Local:System.Transactions.DependentTransaction::Complete():System.Void",
           "clrName": "Complete",
-          "tsEmitName": "Complete",
+          "tsEmitName": "complete",
           "normalizedSignature": "Complete|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1074,7 +1074,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "Dispose$view",
+          "tsEmitName": "dispose",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -1091,7 +1091,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData$view",
+          "tsEmitName": "getObjectData",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -1157,7 +1157,7 @@
         {
           "stableId": "System.Transactions.Local:System.Transactions.Enlistment::Done():System.Void",
           "clrName": "Done",
-          "tsEmitName": "Done",
+          "tsEmitName": "done",
           "normalizedSignature": "Done|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1190,7 +1190,7 @@
         {
           "stableId": "System.Transactions.Local:System.Transactions.HostCurrentTransactionCallback::Invoke():System.Transactions.Transaction",
           "clrName": "Invoke",
-          "tsEmitName": "Invoke",
+          "tsEmitName": "invoke",
           "normalizedSignature": "Invoke|():System.Transactions.Transaction|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1206,7 +1206,7 @@
         {
           "stableId": "System.Transactions.Local:System.Transactions.HostCurrentTransactionCallback::BeginInvoke(System.AsyncCallback,System.Object):System.IAsyncResult",
           "clrName": "BeginInvoke",
-          "tsEmitName": "BeginInvoke",
+          "tsEmitName": "beginInvoke",
           "normalizedSignature": "BeginInvoke|(System.AsyncCallback,System.Object):System.IAsyncResult|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1222,7 +1222,7 @@
         {
           "stableId": "System.Transactions.Local:System.Transactions.HostCurrentTransactionCallback::EndInvoke(System.IAsyncResult):System.Transactions.Transaction",
           "clrName": "EndInvoke",
-          "tsEmitName": "EndInvoke",
+          "tsEmitName": "endInvoke",
           "normalizedSignature": "EndInvoke|(System.IAsyncResult):System.Transactions.Transaction|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1238,7 +1238,7 @@
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "Clone$view",
+          "tsEmitName": "clone",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -1255,7 +1255,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData$view",
+          "tsEmitName": "getObjectData",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -1327,7 +1327,7 @@
         {
           "stableId": "System.Transactions.Local:System.Transactions.PreparingEnlistment::Prepared():System.Void",
           "clrName": "Prepared",
-          "tsEmitName": "Prepared",
+          "tsEmitName": "prepared",
           "normalizedSignature": "Prepared|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1343,7 +1343,7 @@
         {
           "stableId": "System.Transactions.Local:System.Transactions.PreparingEnlistment::ForceRollback():System.Void",
           "clrName": "ForceRollback",
-          "tsEmitName": "ForceRollback",
+          "tsEmitName": "forceRollback",
           "normalizedSignature": "ForceRollback|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1359,7 +1359,7 @@
         {
           "stableId": "System.Transactions.Local:System.Transactions.PreparingEnlistment::ForceRollback(System.Exception):System.Void",
           "clrName": "ForceRollback",
-          "tsEmitName": "ForceRollback2",
+          "tsEmitName": "forceRollback2",
           "normalizedSignature": "ForceRollback|(System.Exception):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1375,7 +1375,7 @@
         {
           "stableId": "System.Transactions.Local:System.Transactions.PreparingEnlistment::RecoveryInformation():System.Byte[]",
           "clrName": "RecoveryInformation",
-          "tsEmitName": "RecoveryInformation",
+          "tsEmitName": "recoveryInformation",
           "normalizedSignature": "RecoveryInformation|():System.Byte[]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1408,7 +1408,7 @@
         {
           "stableId": "System.Transactions.Local:System.Transactions.SinglePhaseEnlistment::Aborted():System.Void",
           "clrName": "Aborted",
-          "tsEmitName": "Aborted",
+          "tsEmitName": "aborted",
           "normalizedSignature": "Aborted|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1424,7 +1424,7 @@
         {
           "stableId": "System.Transactions.Local:System.Transactions.SinglePhaseEnlistment::Aborted(System.Exception):System.Void",
           "clrName": "Aborted",
-          "tsEmitName": "Aborted2",
+          "tsEmitName": "aborted2",
           "normalizedSignature": "Aborted|(System.Exception):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1440,7 +1440,7 @@
         {
           "stableId": "System.Transactions.Local:System.Transactions.SinglePhaseEnlistment::Committed():System.Void",
           "clrName": "Committed",
-          "tsEmitName": "Committed",
+          "tsEmitName": "committed",
           "normalizedSignature": "Committed|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1456,7 +1456,7 @@
         {
           "stableId": "System.Transactions.Local:System.Transactions.SinglePhaseEnlistment::InDoubt():System.Void",
           "clrName": "InDoubt",
-          "tsEmitName": "InDoubt",
+          "tsEmitName": "inDoubt",
           "normalizedSignature": "InDoubt|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1472,7 +1472,7 @@
         {
           "stableId": "System.Transactions.Local:System.Transactions.SinglePhaseEnlistment::InDoubt(System.Exception):System.Void",
           "clrName": "InDoubt",
-          "tsEmitName": "InDoubt2",
+          "tsEmitName": "inDoubt2",
           "normalizedSignature": "InDoubt|(System.Exception):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1505,7 +1505,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "Dispose$view",
+          "tsEmitName": "dispose",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -1522,7 +1522,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData$view",
+          "tsEmitName": "getObjectData",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -1594,7 +1594,7 @@
         {
           "stableId": "System.Transactions.Local:System.Transactions.Transaction::GetHashCode():System.Int32",
           "clrName": "GetHashCode",
-          "tsEmitName": "GetHashCode",
+          "tsEmitName": "getHashCode",
           "normalizedSignature": "GetHashCode|():System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1610,7 +1610,7 @@
         {
           "stableId": "System.Transactions.Local:System.Transactions.Transaction::Equals(System.Object):System.Boolean",
           "clrName": "Equals",
-          "tsEmitName": "Equals",
+          "tsEmitName": "equals",
           "normalizedSignature": "Equals|(System.Object):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1626,7 +1626,7 @@
         {
           "stableId": "System.Transactions.Local:System.Transactions.Transaction::GetPromotedToken():System.Byte[]",
           "clrName": "GetPromotedToken",
-          "tsEmitName": "GetPromotedToken",
+          "tsEmitName": "getPromotedToken",
           "normalizedSignature": "GetPromotedToken|():System.Byte[]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1642,7 +1642,7 @@
         {
           "stableId": "System.Transactions.Local:System.Transactions.Transaction::EnlistDurable(System.Guid,System.Transactions.IEnlistmentNotification,System.Transactions.EnlistmentOptions):System.Transactions.Enlistment",
           "clrName": "EnlistDurable",
-          "tsEmitName": "EnlistDurable",
+          "tsEmitName": "enlistDurable",
           "normalizedSignature": "EnlistDurable|(System.Guid,System.Transactions.IEnlistmentNotification,System.Transactions.EnlistmentOptions):System.Transactions.Enlistment|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1658,7 +1658,7 @@
         {
           "stableId": "System.Transactions.Local:System.Transactions.Transaction::EnlistDurable(System.Guid,System.Transactions.ISinglePhaseNotification,System.Transactions.EnlistmentOptions):System.Transactions.Enlistment",
           "clrName": "EnlistDurable",
-          "tsEmitName": "EnlistDurable2",
+          "tsEmitName": "enlistDurable2",
           "normalizedSignature": "EnlistDurable|(System.Guid,System.Transactions.ISinglePhaseNotification,System.Transactions.EnlistmentOptions):System.Transactions.Enlistment|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1674,7 +1674,7 @@
         {
           "stableId": "System.Transactions.Local:System.Transactions.Transaction::Rollback():System.Void",
           "clrName": "Rollback",
-          "tsEmitName": "Rollback",
+          "tsEmitName": "rollback",
           "normalizedSignature": "Rollback|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1690,7 +1690,7 @@
         {
           "stableId": "System.Transactions.Local:System.Transactions.Transaction::Rollback(System.Exception):System.Void",
           "clrName": "Rollback",
-          "tsEmitName": "Rollback2",
+          "tsEmitName": "rollback2",
           "normalizedSignature": "Rollback|(System.Exception):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1706,7 +1706,7 @@
         {
           "stableId": "System.Transactions.Local:System.Transactions.Transaction::EnlistVolatile(System.Transactions.IEnlistmentNotification,System.Transactions.EnlistmentOptions):System.Transactions.Enlistment",
           "clrName": "EnlistVolatile",
-          "tsEmitName": "EnlistVolatile",
+          "tsEmitName": "enlistVolatile",
           "normalizedSignature": "EnlistVolatile|(System.Transactions.IEnlistmentNotification,System.Transactions.EnlistmentOptions):System.Transactions.Enlistment|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1722,7 +1722,7 @@
         {
           "stableId": "System.Transactions.Local:System.Transactions.Transaction::EnlistVolatile(System.Transactions.ISinglePhaseNotification,System.Transactions.EnlistmentOptions):System.Transactions.Enlistment",
           "clrName": "EnlistVolatile",
-          "tsEmitName": "EnlistVolatile2",
+          "tsEmitName": "enlistVolatile2",
           "normalizedSignature": "EnlistVolatile|(System.Transactions.ISinglePhaseNotification,System.Transactions.EnlistmentOptions):System.Transactions.Enlistment|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1738,7 +1738,7 @@
         {
           "stableId": "System.Transactions.Local:System.Transactions.Transaction::Clone():System.Transactions.Transaction",
           "clrName": "Clone",
-          "tsEmitName": "Clone",
+          "tsEmitName": "clone",
           "normalizedSignature": "Clone|():System.Transactions.Transaction|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1754,7 +1754,7 @@
         {
           "stableId": "System.Transactions.Local:System.Transactions.Transaction::DependentClone(System.Transactions.DependentCloneOption):System.Transactions.DependentTransaction",
           "clrName": "DependentClone",
-          "tsEmitName": "DependentClone",
+          "tsEmitName": "dependentClone",
           "normalizedSignature": "DependentClone|(System.Transactions.DependentCloneOption):System.Transactions.DependentTransaction|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1770,7 +1770,7 @@
         {
           "stableId": "System.Transactions.Local:System.Transactions.Transaction::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "Dispose",
+          "tsEmitName": "dispose",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1786,7 +1786,7 @@
         {
           "stableId": "System.Transactions.Local:System.Transactions.Transaction::EnlistPromotableSinglePhase(System.Transactions.IPromotableSinglePhaseNotification):System.Boolean",
           "clrName": "EnlistPromotableSinglePhase",
-          "tsEmitName": "EnlistPromotableSinglePhase",
+          "tsEmitName": "enlistPromotableSinglePhase",
           "normalizedSignature": "EnlistPromotableSinglePhase|(System.Transactions.IPromotableSinglePhaseNotification):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1802,7 +1802,7 @@
         {
           "stableId": "System.Transactions.Local:System.Transactions.Transaction::EnlistPromotableSinglePhase(System.Transactions.IPromotableSinglePhaseNotification,System.Guid):System.Boolean",
           "clrName": "EnlistPromotableSinglePhase",
-          "tsEmitName": "EnlistPromotableSinglePhase2",
+          "tsEmitName": "enlistPromotableSinglePhase2",
           "normalizedSignature": "EnlistPromotableSinglePhase|(System.Transactions.IPromotableSinglePhaseNotification,System.Guid):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1818,7 +1818,7 @@
         {
           "stableId": "System.Transactions.Local:System.Transactions.Transaction::PromoteAndEnlistDurable(System.Guid,System.Transactions.IPromotableSinglePhaseNotification,System.Transactions.ISinglePhaseNotification,System.Transactions.EnlistmentOptions):System.Transactions.Enlistment",
           "clrName": "PromoteAndEnlistDurable",
-          "tsEmitName": "PromoteAndEnlistDurable",
+          "tsEmitName": "promoteAndEnlistDurable",
           "normalizedSignature": "PromoteAndEnlistDurable|(System.Guid,System.Transactions.IPromotableSinglePhaseNotification,System.Transactions.ISinglePhaseNotification,System.Transactions.EnlistmentOptions):System.Transactions.Enlistment|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1834,7 +1834,7 @@
         {
           "stableId": "System.Transactions.Local:System.Transactions.Transaction::SetDistributedTransactionIdentifier(System.Transactions.IPromotableSinglePhaseNotification,System.Guid):System.Void",
           "clrName": "SetDistributedTransactionIdentifier",
-          "tsEmitName": "SetDistributedTransactionIdentifier",
+          "tsEmitName": "setDistributedTransactionIdentifier",
           "normalizedSignature": "SetDistributedTransactionIdentifier|(System.Transactions.IPromotableSinglePhaseNotification,System.Guid):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1850,7 +1850,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData",
+          "tsEmitName": "getObjectData",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -1867,7 +1867,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "Dispose$view",
+          "tsEmitName": "dispose$view",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -1886,7 +1886,7 @@
         {
           "stableId": "System.Transactions.Local:System.Transactions.Transaction::Current:System.Transactions.Transaction",
           "clrName": "Current",
-          "tsEmitName": "Current",
+          "tsEmitName": "current",
           "normalizedSignature": "Current|:System.Transactions.Transaction|static=true|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1901,7 +1901,7 @@
         {
           "stableId": "System.Transactions.Local:System.Transactions.Transaction::TransactionInformation:System.Transactions.TransactionInformation",
           "clrName": "TransactionInformation",
-          "tsEmitName": "TransactionInformation",
+          "tsEmitName": "transactionInformation",
           "normalizedSignature": "TransactionInformation|:System.Transactions.TransactionInformation|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1916,7 +1916,7 @@
         {
           "stableId": "System.Transactions.Local:System.Transactions.Transaction::IsolationLevel:System.Transactions.IsolationLevel",
           "clrName": "IsolationLevel",
-          "tsEmitName": "IsolationLevel",
+          "tsEmitName": "isolationLevel",
           "normalizedSignature": "IsolationLevel|:System.Transactions.IsolationLevel|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1931,7 +1931,7 @@
         {
           "stableId": "System.Transactions.Local:System.Transactions.Transaction::PromoterType:System.Guid",
           "clrName": "PromoterType",
-          "tsEmitName": "PromoterType",
+          "tsEmitName": "promoterType",
           "normalizedSignature": "PromoterType|:System.Guid|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1949,7 +1949,7 @@
         {
           "stableId": "System.Transactions.Local:System.Transactions.Transaction::TransactionCompletedSystem.Transactions.TransactionCompletedEventHandler",
           "clrName": "TransactionCompleted",
-          "tsEmitName": "TransactionCompleted",
+          "tsEmitName": "transactionCompleted",
           "normalizedSignature": "TransactionCompleted|System.Transactions.TransactionCompletedEventHandler|static=false",
           "isStatic": false
         }
@@ -1970,7 +1970,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData$view",
+          "tsEmitName": "getObjectData",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -2036,7 +2036,7 @@
         {
           "stableId": "System.Transactions.Local:System.Transactions.TransactionCompletedEventHandler::Invoke(System.Object,System.Transactions.TransactionEventArgs):System.Void",
           "clrName": "Invoke",
-          "tsEmitName": "Invoke",
+          "tsEmitName": "invoke",
           "normalizedSignature": "Invoke|(System.Object,System.Transactions.TransactionEventArgs):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2052,7 +2052,7 @@
         {
           "stableId": "System.Transactions.Local:System.Transactions.TransactionCompletedEventHandler::BeginInvoke(System.Object,System.Transactions.TransactionEventArgs,System.AsyncCallback,System.Object):System.IAsyncResult",
           "clrName": "BeginInvoke",
-          "tsEmitName": "BeginInvoke",
+          "tsEmitName": "beginInvoke",
           "normalizedSignature": "BeginInvoke|(System.Object,System.Transactions.TransactionEventArgs,System.AsyncCallback,System.Object):System.IAsyncResult|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2068,7 +2068,7 @@
         {
           "stableId": "System.Transactions.Local:System.Transactions.TransactionCompletedEventHandler::EndInvoke(System.IAsyncResult):System.Void",
           "clrName": "EndInvoke",
-          "tsEmitName": "EndInvoke",
+          "tsEmitName": "endInvoke",
           "normalizedSignature": "EndInvoke|(System.IAsyncResult):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2084,7 +2084,7 @@
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "Clone$view",
+          "tsEmitName": "clone",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -2101,7 +2101,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData$view",
+          "tsEmitName": "getObjectData",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -2174,7 +2174,7 @@
         {
           "stableId": "System.Transactions.Local:System.Transactions.TransactionEventArgs::Transaction:System.Transactions.Transaction",
           "clrName": "Transaction",
-          "tsEmitName": "Transaction",
+          "tsEmitName": "transaction",
           "normalizedSignature": "Transaction|:System.Transactions.Transaction|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2211,7 +2211,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData$view",
+          "tsEmitName": "getObjectData",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -2277,7 +2277,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData$view",
+          "tsEmitName": "getObjectData",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -2344,7 +2344,7 @@
         {
           "stableId": "System.Transactions.Local:System.Transactions.TransactionInformation::LocalIdentifier:System.String",
           "clrName": "LocalIdentifier",
-          "tsEmitName": "LocalIdentifier",
+          "tsEmitName": "localIdentifier",
           "normalizedSignature": "LocalIdentifier|:System.String|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2359,7 +2359,7 @@
         {
           "stableId": "System.Transactions.Local:System.Transactions.TransactionInformation::DistributedIdentifier:System.Guid",
           "clrName": "DistributedIdentifier",
-          "tsEmitName": "DistributedIdentifier",
+          "tsEmitName": "distributedIdentifier",
           "normalizedSignature": "DistributedIdentifier|:System.Guid|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2374,7 +2374,7 @@
         {
           "stableId": "System.Transactions.Local:System.Transactions.TransactionInformation::CreationTime:System.DateTime",
           "clrName": "CreationTime",
-          "tsEmitName": "CreationTime",
+          "tsEmitName": "creationTime",
           "normalizedSignature": "CreationTime|:System.DateTime|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2389,7 +2389,7 @@
         {
           "stableId": "System.Transactions.Local:System.Transactions.TransactionInformation::Status:System.Transactions.TransactionStatus",
           "clrName": "Status",
-          "tsEmitName": "Status",
+          "tsEmitName": "status",
           "normalizedSignature": "Status|:System.Transactions.TransactionStatus|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2420,7 +2420,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData$view",
+          "tsEmitName": "getObjectData",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -2486,7 +2486,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData$view",
+          "tsEmitName": "getObjectData",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -2552,7 +2552,7 @@
         {
           "stableId": "System.Transactions.Local:System.Transactions.TransactionScope::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "Dispose",
+          "tsEmitName": "dispose",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2568,7 +2568,7 @@
         {
           "stableId": "System.Transactions.Local:System.Transactions.TransactionScope::Complete():System.Void",
           "clrName": "Complete",
-          "tsEmitName": "Complete",
+          "tsEmitName": "complete",
           "normalizedSignature": "Complete|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2584,7 +2584,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "Dispose$view",
+          "tsEmitName": "dispose$view",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -2689,7 +2689,7 @@
         {
           "stableId": "System.Transactions.Local:System.Transactions.TransactionStartedEventHandler::Invoke(System.Object,System.Transactions.TransactionEventArgs):System.Void",
           "clrName": "Invoke",
-          "tsEmitName": "Invoke",
+          "tsEmitName": "invoke",
           "normalizedSignature": "Invoke|(System.Object,System.Transactions.TransactionEventArgs):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2705,7 +2705,7 @@
         {
           "stableId": "System.Transactions.Local:System.Transactions.TransactionStartedEventHandler::BeginInvoke(System.Object,System.Transactions.TransactionEventArgs,System.AsyncCallback,System.Object):System.IAsyncResult",
           "clrName": "BeginInvoke",
-          "tsEmitName": "BeginInvoke",
+          "tsEmitName": "beginInvoke",
           "normalizedSignature": "BeginInvoke|(System.Object,System.Transactions.TransactionEventArgs,System.AsyncCallback,System.Object):System.IAsyncResult|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2721,7 +2721,7 @@
         {
           "stableId": "System.Transactions.Local:System.Transactions.TransactionStartedEventHandler::EndInvoke(System.IAsyncResult):System.Void",
           "clrName": "EndInvoke",
-          "tsEmitName": "EndInvoke",
+          "tsEmitName": "endInvoke",
           "normalizedSignature": "EndInvoke|(System.IAsyncResult):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2737,7 +2737,7 @@
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "Clone$view",
+          "tsEmitName": "clone",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -2754,7 +2754,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData$view",
+          "tsEmitName": "getObjectData",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -2826,7 +2826,7 @@
         {
           "stableId": "System.Transactions.Local:System.Transactions.TransactionInterop::GetExportCookie(System.Transactions.Transaction,System.Byte[]):System.Byte[]",
           "clrName": "GetExportCookie",
-          "tsEmitName": "GetExportCookie",
+          "tsEmitName": "getExportCookie",
           "normalizedSignature": "GetExportCookie|(System.Transactions.Transaction,System.Byte[]):System.Byte[]|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2842,7 +2842,7 @@
         {
           "stableId": "System.Transactions.Local:System.Transactions.TransactionInterop::GetTransactionFromExportCookie(System.Byte[]):System.Transactions.Transaction",
           "clrName": "GetTransactionFromExportCookie",
-          "tsEmitName": "GetTransactionFromExportCookie",
+          "tsEmitName": "getTransactionFromExportCookie",
           "normalizedSignature": "GetTransactionFromExportCookie|(System.Byte[]):System.Transactions.Transaction|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2858,7 +2858,7 @@
         {
           "stableId": "System.Transactions.Local:System.Transactions.TransactionInterop::GetTransmitterPropagationToken(System.Transactions.Transaction):System.Byte[]",
           "clrName": "GetTransmitterPropagationToken",
-          "tsEmitName": "GetTransmitterPropagationToken",
+          "tsEmitName": "getTransmitterPropagationToken",
           "normalizedSignature": "GetTransmitterPropagationToken|(System.Transactions.Transaction):System.Byte[]|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2874,7 +2874,7 @@
         {
           "stableId": "System.Transactions.Local:System.Transactions.TransactionInterop::GetTransactionFromTransmitterPropagationToken(System.Byte[]):System.Transactions.Transaction",
           "clrName": "GetTransactionFromTransmitterPropagationToken",
-          "tsEmitName": "GetTransactionFromTransmitterPropagationToken",
+          "tsEmitName": "getTransactionFromTransmitterPropagationToken",
           "normalizedSignature": "GetTransactionFromTransmitterPropagationToken|(System.Byte[]):System.Transactions.Transaction|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2890,7 +2890,7 @@
         {
           "stableId": "System.Transactions.Local:System.Transactions.TransactionInterop::GetDtcTransaction(System.Transactions.Transaction):System.Transactions.IDtcTransaction",
           "clrName": "GetDtcTransaction",
-          "tsEmitName": "GetDtcTransaction",
+          "tsEmitName": "getDtcTransaction",
           "normalizedSignature": "GetDtcTransaction|(System.Transactions.Transaction):System.Transactions.IDtcTransaction|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2906,7 +2906,7 @@
         {
           "stableId": "System.Transactions.Local:System.Transactions.TransactionInterop::GetTransactionFromDtcTransaction(System.Transactions.IDtcTransaction):System.Transactions.Transaction",
           "clrName": "GetTransactionFromDtcTransaction",
-          "tsEmitName": "GetTransactionFromDtcTransaction",
+          "tsEmitName": "getTransactionFromDtcTransaction",
           "normalizedSignature": "GetTransactionFromDtcTransaction|(System.Transactions.IDtcTransaction):System.Transactions.Transaction|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2922,7 +2922,7 @@
         {
           "stableId": "System.Transactions.Local:System.Transactions.TransactionInterop::GetWhereabouts():System.Byte[]",
           "clrName": "GetWhereabouts",
-          "tsEmitName": "GetWhereabouts",
+          "tsEmitName": "getWhereabouts",
           "normalizedSignature": "GetWhereabouts|():System.Byte[]|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2941,7 +2941,7 @@
         {
           "stableId": "System.Transactions.Local:System.Transactions.TransactionInterop::PromoterTypeDtcSystem.Guid",
           "clrName": "PromoterTypeDtc",
-          "tsEmitName": "PromoterTypeDtc",
+          "tsEmitName": "promoterTypeDtc",
           "normalizedSignature": "PromoterTypeDtc|System.Guid|static=true|const=false",
           "isStatic": true,
           "isReadOnly": true,
@@ -2965,7 +2965,7 @@
         {
           "stableId": "System.Transactions.Local:System.Transactions.TransactionManager::Reenlist(System.Guid,System.Byte[],System.Transactions.IEnlistmentNotification):System.Transactions.Enlistment",
           "clrName": "Reenlist",
-          "tsEmitName": "Reenlist",
+          "tsEmitName": "reenlist",
           "normalizedSignature": "Reenlist|(System.Guid,System.Byte[],System.Transactions.IEnlistmentNotification):System.Transactions.Enlistment|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2981,7 +2981,7 @@
         {
           "stableId": "System.Transactions.Local:System.Transactions.TransactionManager::RecoveryComplete(System.Guid):System.Void",
           "clrName": "RecoveryComplete",
-          "tsEmitName": "RecoveryComplete",
+          "tsEmitName": "recoveryComplete",
           "normalizedSignature": "RecoveryComplete|(System.Guid):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2999,7 +2999,7 @@
         {
           "stableId": "System.Transactions.Local:System.Transactions.TransactionManager::HostCurrentCallback:System.Transactions.HostCurrentTransactionCallback",
           "clrName": "HostCurrentCallback",
-          "tsEmitName": "HostCurrentCallback",
+          "tsEmitName": "hostCurrentCallback",
           "normalizedSignature": "HostCurrentCallback|:System.Transactions.HostCurrentTransactionCallback|static=true|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3014,7 +3014,7 @@
         {
           "stableId": "System.Transactions.Local:System.Transactions.TransactionManager::DefaultTimeout:System.TimeSpan",
           "clrName": "DefaultTimeout",
-          "tsEmitName": "DefaultTimeout",
+          "tsEmitName": "defaultTimeout",
           "normalizedSignature": "DefaultTimeout|:System.TimeSpan|static=true|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3029,7 +3029,7 @@
         {
           "stableId": "System.Transactions.Local:System.Transactions.TransactionManager::MaximumTimeout:System.TimeSpan",
           "clrName": "MaximumTimeout",
-          "tsEmitName": "MaximumTimeout",
+          "tsEmitName": "maximumTimeout",
           "normalizedSignature": "MaximumTimeout|:System.TimeSpan|static=true|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3044,7 +3044,7 @@
         {
           "stableId": "System.Transactions.Local:System.Transactions.TransactionManager::ImplicitDistributedTransactions:System.Boolean",
           "clrName": "ImplicitDistributedTransactions",
-          "tsEmitName": "ImplicitDistributedTransactions",
+          "tsEmitName": "implicitDistributedTransactions",
           "normalizedSignature": "ImplicitDistributedTransactions|:System.Boolean|static=true|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3062,7 +3062,7 @@
         {
           "stableId": "System.Transactions.Local:System.Transactions.TransactionManager::DistributedTransactionStartedSystem.Transactions.TransactionStartedEventHandler",
           "clrName": "DistributedTransactionStarted",
-          "tsEmitName": "DistributedTransactionStarted",
+          "tsEmitName": "distributedTransactionStarted",
           "normalizedSignature": "DistributedTransactionStarted|System.Transactions.TransactionStartedEventHandler|static=true",
           "isStatic": true
         }

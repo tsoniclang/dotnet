@@ -44,10 +44,10 @@ export type CLROf<T> =
 
 export class SseItem_1$instance<T> {
     constructor(data: T, eventType: string);
-    readonly Data: T;
-    EventId: string;
-    readonly EventType: string;
-    ReconnectionInterval: Nullable_1<TimeSpan>;
+    readonly data: T;
+    eventId: string;
+    readonly eventType: string;
+    reconnectionInterval: Nullable_1<TimeSpan>;
 }
 
 
@@ -55,11 +55,11 @@ export type SseItem_1<T> = SseItem_1$instance<T>;
 
 export class SseItemParser_1$instance<T> extends Function {
     constructor(object_: unknown, method: nint);
-    BeginInvoke(eventType: string, data: ReadOnlySpan_1<CLROf<byte>>, callback: AsyncCallback, object_: unknown): IAsyncResult;
+    beginInvoke(eventType: string, data: ReadOnlySpan_1<CLROf<byte>>, callback: AsyncCallback, object_: unknown): IAsyncResult;
     Clone(): unknown;
-    EndInvoke(result: IAsyncResult): T;
+    endInvoke(result: IAsyncResult): T;
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
-    Invoke(eventType: string, data: ReadOnlySpan_1<CLROf<byte>>): T;
+    invoke(eventType: string, data: ReadOnlySpan_1<CLROf<byte>>): T;
 }
 
 
@@ -68,31 +68,33 @@ export interface __SseItemParser_1$views<T> {
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
+export interface SseItemParser_1$instance<T> extends System_Internal.ICloneable$instance {}
+
 export type SseItemParser_1<T> = SseItemParser_1$instance<T> & __SseItemParser_1$views<T>;
 
 
 export class SseParser_1$instance<T> {
-    readonly LastEventId: string;
-    readonly ReconnectionInterval: TimeSpan;
-    Enumerate(): IEnumerable_1<SseItem_1<T>>;
-    EnumerateAsync(cancellationToken?: CancellationToken): IAsyncEnumerable_1<SseItem_1<T>>;
+    readonly lastEventId: string;
+    readonly reconnectionInterval: TimeSpan;
+    enumerate(): IEnumerable_1<SseItem_1<T>>;
+    enumerateAsync(cancellationToken?: CancellationToken): IAsyncEnumerable_1<SseItem_1<T>>;
 }
 
 
 export type SseParser_1<T> = SseParser_1$instance<T>;
 
 export abstract class SseFormatter$instance {
-    static WriteAsync<T>(source: IAsyncEnumerable_1<SseItem_1<T>>, destination: Stream, itemFormatter: Action_2<SseItem_1<T>, IBufferWriter_1<CLROf<byte>>>, cancellationToken?: CancellationToken): Task;
-    static WriteAsync(source: IAsyncEnumerable_1<SseItem_1<CLROf<string>>>, destination: Stream, cancellationToken?: CancellationToken): Task;
+    static writeAsync<T>(source: IAsyncEnumerable_1<SseItem_1<T>>, destination: Stream, itemFormatter: Action_2<SseItem_1<T>, IBufferWriter_1<CLROf<byte>>>, cancellationToken?: CancellationToken): Task;
+    static writeAsync(source: IAsyncEnumerable_1<SseItem_1<CLROf<string>>>, destination: Stream, cancellationToken?: CancellationToken): Task;
 }
 
 
 export type SseFormatter = SseFormatter$instance;
 
 export abstract class SseParser$instance {
-    static readonly EventTypeDefault: string;
-    static Create<T>(sseStream: Stream, itemParser: SseItemParser_1<T>): SseParser_1<T>;
-    static Create(sseStream: Stream): SseParser_1<CLROf<string>>;
+    static readonly eventTypeDefault: string;
+    static create<T>(sseStream: Stream, itemParser: SseItemParser_1<T>): SseParser_1<T>;
+    static create(sseStream: Stream): SseParser_1<CLROf<string>>;
 }
 
 

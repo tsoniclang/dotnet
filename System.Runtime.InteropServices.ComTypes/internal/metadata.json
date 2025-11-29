@@ -30,7 +30,7 @@
         {
           "stableId": "System.Runtime.InteropServices:System.Runtime.InteropServices.ComTypes.ADVF::ADVF_NODATASystem.Runtime.InteropServices.ComTypes.ADVF",
           "clrName": "ADVF_NODATA",
-          "tsEmitName": "ADVF_NODATA",
+          "tsEmitName": "advf_nodata",
           "normalizedSignature": "ADVF_NODATA|System.Runtime.InteropServices.ComTypes.ADVF|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -39,7 +39,7 @@
         {
           "stableId": "System.Runtime.InteropServices:System.Runtime.InteropServices.ComTypes.ADVF::ADVF_PRIMEFIRSTSystem.Runtime.InteropServices.ComTypes.ADVF",
           "clrName": "ADVF_PRIMEFIRST",
-          "tsEmitName": "ADVF_PRIMEFIRST",
+          "tsEmitName": "advf_primefirst",
           "normalizedSignature": "ADVF_PRIMEFIRST|System.Runtime.InteropServices.ComTypes.ADVF|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -48,7 +48,7 @@
         {
           "stableId": "System.Runtime.InteropServices:System.Runtime.InteropServices.ComTypes.ADVF::ADVF_ONLYONCESystem.Runtime.InteropServices.ComTypes.ADVF",
           "clrName": "ADVF_ONLYONCE",
-          "tsEmitName": "ADVF_ONLYONCE",
+          "tsEmitName": "advf_onlyonce",
           "normalizedSignature": "ADVF_ONLYONCE|System.Runtime.InteropServices.ComTypes.ADVF|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -57,7 +57,7 @@
         {
           "stableId": "System.Runtime.InteropServices:System.Runtime.InteropServices.ComTypes.ADVF::ADVF_DATAONSTOPSystem.Runtime.InteropServices.ComTypes.ADVF",
           "clrName": "ADVF_DATAONSTOP",
-          "tsEmitName": "ADVF_DATAONSTOP",
+          "tsEmitName": "advf_dataonstop",
           "normalizedSignature": "ADVF_DATAONSTOP|System.Runtime.InteropServices.ComTypes.ADVF|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -66,7 +66,7 @@
         {
           "stableId": "System.Runtime.InteropServices:System.Runtime.InteropServices.ComTypes.ADVF::ADVFCACHE_NOHANDLERSystem.Runtime.InteropServices.ComTypes.ADVF",
           "clrName": "ADVFCACHE_NOHANDLER",
-          "tsEmitName": "ADVFCACHE_NOHANDLER",
+          "tsEmitName": "advfcache_nohandler",
           "normalizedSignature": "ADVFCACHE_NOHANDLER|System.Runtime.InteropServices.ComTypes.ADVF|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -75,7 +75,7 @@
         {
           "stableId": "System.Runtime.InteropServices:System.Runtime.InteropServices.ComTypes.ADVF::ADVFCACHE_FORCEBUILTINSystem.Runtime.InteropServices.ComTypes.ADVF",
           "clrName": "ADVFCACHE_FORCEBUILTIN",
-          "tsEmitName": "ADVFCACHE_FORCEBUILTIN",
+          "tsEmitName": "advfcache_forcebuiltin",
           "normalizedSignature": "ADVFCACHE_FORCEBUILTIN|System.Runtime.InteropServices.ComTypes.ADVF|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -84,7 +84,7 @@
         {
           "stableId": "System.Runtime.InteropServices:System.Runtime.InteropServices.ComTypes.ADVF::ADVFCACHE_ONSAVESystem.Runtime.InteropServices.ComTypes.ADVF",
           "clrName": "ADVFCACHE_ONSAVE",
-          "tsEmitName": "ADVFCACHE_ONSAVE",
+          "tsEmitName": "advfcache_onsave",
           "normalizedSignature": "ADVFCACHE_ONSAVE|System.Runtime.InteropServices.ComTypes.ADVF|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -119,7 +119,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.CALLCONV::CC_CDECLSystem.Runtime.InteropServices.ComTypes.CALLCONV",
           "clrName": "CC_CDECL",
-          "tsEmitName": "CC_CDECL",
+          "tsEmitName": "cc_cdecl",
           "normalizedSignature": "CC_CDECL|System.Runtime.InteropServices.ComTypes.CALLCONV|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -128,7 +128,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.CALLCONV::CC_MSCPASCALSystem.Runtime.InteropServices.ComTypes.CALLCONV",
           "clrName": "CC_MSCPASCAL",
-          "tsEmitName": "CC_MSCPASCAL",
+          "tsEmitName": "cc_mscpascal",
           "normalizedSignature": "CC_MSCPASCAL|System.Runtime.InteropServices.ComTypes.CALLCONV|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -137,7 +137,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.CALLCONV::CC_PASCALSystem.Runtime.InteropServices.ComTypes.CALLCONV",
           "clrName": "CC_PASCAL",
-          "tsEmitName": "CC_PASCAL",
+          "tsEmitName": "cc_pascal",
           "normalizedSignature": "CC_PASCAL|System.Runtime.InteropServices.ComTypes.CALLCONV|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -146,7 +146,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.CALLCONV::CC_MACPASCALSystem.Runtime.InteropServices.ComTypes.CALLCONV",
           "clrName": "CC_MACPASCAL",
-          "tsEmitName": "CC_MACPASCAL",
+          "tsEmitName": "cc_macpascal",
           "normalizedSignature": "CC_MACPASCAL|System.Runtime.InteropServices.ComTypes.CALLCONV|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -155,7 +155,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.CALLCONV::CC_STDCALLSystem.Runtime.InteropServices.ComTypes.CALLCONV",
           "clrName": "CC_STDCALL",
-          "tsEmitName": "CC_STDCALL",
+          "tsEmitName": "cc_stdcall",
           "normalizedSignature": "CC_STDCALL|System.Runtime.InteropServices.ComTypes.CALLCONV|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -164,7 +164,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.CALLCONV::CC_RESERVEDSystem.Runtime.InteropServices.ComTypes.CALLCONV",
           "clrName": "CC_RESERVED",
-          "tsEmitName": "CC_RESERVED",
+          "tsEmitName": "cc_reserved",
           "normalizedSignature": "CC_RESERVED|System.Runtime.InteropServices.ComTypes.CALLCONV|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -173,7 +173,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.CALLCONV::CC_SYSCALLSystem.Runtime.InteropServices.ComTypes.CALLCONV",
           "clrName": "CC_SYSCALL",
-          "tsEmitName": "CC_SYSCALL",
+          "tsEmitName": "cc_syscall",
           "normalizedSignature": "CC_SYSCALL|System.Runtime.InteropServices.ComTypes.CALLCONV|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -182,7 +182,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.CALLCONV::CC_MPWCDECLSystem.Runtime.InteropServices.ComTypes.CALLCONV",
           "clrName": "CC_MPWCDECL",
-          "tsEmitName": "CC_MPWCDECL",
+          "tsEmitName": "cc_mpwcdecl",
           "normalizedSignature": "CC_MPWCDECL|System.Runtime.InteropServices.ComTypes.CALLCONV|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -191,7 +191,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.CALLCONV::CC_MPWPASCALSystem.Runtime.InteropServices.ComTypes.CALLCONV",
           "clrName": "CC_MPWPASCAL",
-          "tsEmitName": "CC_MPWPASCAL",
+          "tsEmitName": "cc_mpwpascal",
           "normalizedSignature": "CC_MPWPASCAL|System.Runtime.InteropServices.ComTypes.CALLCONV|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -200,7 +200,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.CALLCONV::CC_MAXSystem.Runtime.InteropServices.ComTypes.CALLCONV",
           "clrName": "CC_MAX",
-          "tsEmitName": "CC_MAX",
+          "tsEmitName": "cc_max",
           "normalizedSignature": "CC_MAX|System.Runtime.InteropServices.ComTypes.CALLCONV|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -235,7 +235,7 @@
         {
           "stableId": "System.Runtime.InteropServices:System.Runtime.InteropServices.ComTypes.DATADIR::DATADIR_GETSystem.Runtime.InteropServices.ComTypes.DATADIR",
           "clrName": "DATADIR_GET",
-          "tsEmitName": "DATADIR_GET",
+          "tsEmitName": "datadir_get",
           "normalizedSignature": "DATADIR_GET|System.Runtime.InteropServices.ComTypes.DATADIR|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -244,7 +244,7 @@
         {
           "stableId": "System.Runtime.InteropServices:System.Runtime.InteropServices.ComTypes.DATADIR::DATADIR_SETSystem.Runtime.InteropServices.ComTypes.DATADIR",
           "clrName": "DATADIR_SET",
-          "tsEmitName": "DATADIR_SET",
+          "tsEmitName": "datadir_set",
           "normalizedSignature": "DATADIR_SET|System.Runtime.InteropServices.ComTypes.DATADIR|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -279,7 +279,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.DESCKIND::DESCKIND_NONESystem.Runtime.InteropServices.ComTypes.DESCKIND",
           "clrName": "DESCKIND_NONE",
-          "tsEmitName": "DESCKIND_NONE",
+          "tsEmitName": "desckind_none",
           "normalizedSignature": "DESCKIND_NONE|System.Runtime.InteropServices.ComTypes.DESCKIND|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -288,7 +288,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.DESCKIND::DESCKIND_FUNCDESCSystem.Runtime.InteropServices.ComTypes.DESCKIND",
           "clrName": "DESCKIND_FUNCDESC",
-          "tsEmitName": "DESCKIND_FUNCDESC",
+          "tsEmitName": "desckind_funcdesc",
           "normalizedSignature": "DESCKIND_FUNCDESC|System.Runtime.InteropServices.ComTypes.DESCKIND|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -297,7 +297,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.DESCKIND::DESCKIND_VARDESCSystem.Runtime.InteropServices.ComTypes.DESCKIND",
           "clrName": "DESCKIND_VARDESC",
-          "tsEmitName": "DESCKIND_VARDESC",
+          "tsEmitName": "desckind_vardesc",
           "normalizedSignature": "DESCKIND_VARDESC|System.Runtime.InteropServices.ComTypes.DESCKIND|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -306,7 +306,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.DESCKIND::DESCKIND_TYPECOMPSystem.Runtime.InteropServices.ComTypes.DESCKIND",
           "clrName": "DESCKIND_TYPECOMP",
-          "tsEmitName": "DESCKIND_TYPECOMP",
+          "tsEmitName": "desckind_typecomp",
           "normalizedSignature": "DESCKIND_TYPECOMP|System.Runtime.InteropServices.ComTypes.DESCKIND|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -315,7 +315,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.DESCKIND::DESCKIND_IMPLICITAPPOBJSystem.Runtime.InteropServices.ComTypes.DESCKIND",
           "clrName": "DESCKIND_IMPLICITAPPOBJ",
-          "tsEmitName": "DESCKIND_IMPLICITAPPOBJ",
+          "tsEmitName": "desckind_implicitappobj",
           "normalizedSignature": "DESCKIND_IMPLICITAPPOBJ|System.Runtime.InteropServices.ComTypes.DESCKIND|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -324,7 +324,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.DESCKIND::DESCKIND_MAXSystem.Runtime.InteropServices.ComTypes.DESCKIND",
           "clrName": "DESCKIND_MAX",
-          "tsEmitName": "DESCKIND_MAX",
+          "tsEmitName": "desckind_max",
           "normalizedSignature": "DESCKIND_MAX|System.Runtime.InteropServices.ComTypes.DESCKIND|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -359,7 +359,7 @@
         {
           "stableId": "System.Runtime.InteropServices:System.Runtime.InteropServices.ComTypes.DVASPECT::DVASPECT_CONTENTSystem.Runtime.InteropServices.ComTypes.DVASPECT",
           "clrName": "DVASPECT_CONTENT",
-          "tsEmitName": "DVASPECT_CONTENT",
+          "tsEmitName": "dvaspect_content",
           "normalizedSignature": "DVASPECT_CONTENT|System.Runtime.InteropServices.ComTypes.DVASPECT|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -368,7 +368,7 @@
         {
           "stableId": "System.Runtime.InteropServices:System.Runtime.InteropServices.ComTypes.DVASPECT::DVASPECT_THUMBNAILSystem.Runtime.InteropServices.ComTypes.DVASPECT",
           "clrName": "DVASPECT_THUMBNAIL",
-          "tsEmitName": "DVASPECT_THUMBNAIL",
+          "tsEmitName": "dvaspect_thumbnail",
           "normalizedSignature": "DVASPECT_THUMBNAIL|System.Runtime.InteropServices.ComTypes.DVASPECT|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -377,7 +377,7 @@
         {
           "stableId": "System.Runtime.InteropServices:System.Runtime.InteropServices.ComTypes.DVASPECT::DVASPECT_ICONSystem.Runtime.InteropServices.ComTypes.DVASPECT",
           "clrName": "DVASPECT_ICON",
-          "tsEmitName": "DVASPECT_ICON",
+          "tsEmitName": "dvaspect_icon",
           "normalizedSignature": "DVASPECT_ICON|System.Runtime.InteropServices.ComTypes.DVASPECT|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -386,7 +386,7 @@
         {
           "stableId": "System.Runtime.InteropServices:System.Runtime.InteropServices.ComTypes.DVASPECT::DVASPECT_DOCPRINTSystem.Runtime.InteropServices.ComTypes.DVASPECT",
           "clrName": "DVASPECT_DOCPRINT",
-          "tsEmitName": "DVASPECT_DOCPRINT",
+          "tsEmitName": "dvaspect_docprint",
           "normalizedSignature": "DVASPECT_DOCPRINT|System.Runtime.InteropServices.ComTypes.DVASPECT|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -421,7 +421,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.FUNCFLAGS::FUNCFLAG_FRESTRICTEDSystem.Runtime.InteropServices.ComTypes.FUNCFLAGS",
           "clrName": "FUNCFLAG_FRESTRICTED",
-          "tsEmitName": "FUNCFLAG_FRESTRICTED",
+          "tsEmitName": "funcflag_frestricted",
           "normalizedSignature": "FUNCFLAG_FRESTRICTED|System.Runtime.InteropServices.ComTypes.FUNCFLAGS|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -430,7 +430,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.FUNCFLAGS::FUNCFLAG_FSOURCESystem.Runtime.InteropServices.ComTypes.FUNCFLAGS",
           "clrName": "FUNCFLAG_FSOURCE",
-          "tsEmitName": "FUNCFLAG_FSOURCE",
+          "tsEmitName": "funcflag_fsource",
           "normalizedSignature": "FUNCFLAG_FSOURCE|System.Runtime.InteropServices.ComTypes.FUNCFLAGS|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -439,7 +439,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.FUNCFLAGS::FUNCFLAG_FBINDABLESystem.Runtime.InteropServices.ComTypes.FUNCFLAGS",
           "clrName": "FUNCFLAG_FBINDABLE",
-          "tsEmitName": "FUNCFLAG_FBINDABLE",
+          "tsEmitName": "funcflag_fbindable",
           "normalizedSignature": "FUNCFLAG_FBINDABLE|System.Runtime.InteropServices.ComTypes.FUNCFLAGS|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -448,7 +448,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.FUNCFLAGS::FUNCFLAG_FREQUESTEDITSystem.Runtime.InteropServices.ComTypes.FUNCFLAGS",
           "clrName": "FUNCFLAG_FREQUESTEDIT",
-          "tsEmitName": "FUNCFLAG_FREQUESTEDIT",
+          "tsEmitName": "funcflag_frequestedit",
           "normalizedSignature": "FUNCFLAG_FREQUESTEDIT|System.Runtime.InteropServices.ComTypes.FUNCFLAGS|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -457,7 +457,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.FUNCFLAGS::FUNCFLAG_FDISPLAYBINDSystem.Runtime.InteropServices.ComTypes.FUNCFLAGS",
           "clrName": "FUNCFLAG_FDISPLAYBIND",
-          "tsEmitName": "FUNCFLAG_FDISPLAYBIND",
+          "tsEmitName": "funcflag_fdisplaybind",
           "normalizedSignature": "FUNCFLAG_FDISPLAYBIND|System.Runtime.InteropServices.ComTypes.FUNCFLAGS|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -466,7 +466,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.FUNCFLAGS::FUNCFLAG_FDEFAULTBINDSystem.Runtime.InteropServices.ComTypes.FUNCFLAGS",
           "clrName": "FUNCFLAG_FDEFAULTBIND",
-          "tsEmitName": "FUNCFLAG_FDEFAULTBIND",
+          "tsEmitName": "funcflag_fdefaultbind",
           "normalizedSignature": "FUNCFLAG_FDEFAULTBIND|System.Runtime.InteropServices.ComTypes.FUNCFLAGS|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -475,7 +475,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.FUNCFLAGS::FUNCFLAG_FHIDDENSystem.Runtime.InteropServices.ComTypes.FUNCFLAGS",
           "clrName": "FUNCFLAG_FHIDDEN",
-          "tsEmitName": "FUNCFLAG_FHIDDEN",
+          "tsEmitName": "funcflag_fhidden",
           "normalizedSignature": "FUNCFLAG_FHIDDEN|System.Runtime.InteropServices.ComTypes.FUNCFLAGS|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -484,7 +484,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.FUNCFLAGS::FUNCFLAG_FUSESGETLASTERRORSystem.Runtime.InteropServices.ComTypes.FUNCFLAGS",
           "clrName": "FUNCFLAG_FUSESGETLASTERROR",
-          "tsEmitName": "FUNCFLAG_FUSESGETLASTERROR",
+          "tsEmitName": "funcflag_fusesgetlasterror",
           "normalizedSignature": "FUNCFLAG_FUSESGETLASTERROR|System.Runtime.InteropServices.ComTypes.FUNCFLAGS|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -493,7 +493,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.FUNCFLAGS::FUNCFLAG_FDEFAULTCOLLELEMSystem.Runtime.InteropServices.ComTypes.FUNCFLAGS",
           "clrName": "FUNCFLAG_FDEFAULTCOLLELEM",
-          "tsEmitName": "FUNCFLAG_FDEFAULTCOLLELEM",
+          "tsEmitName": "funcflag_fdefaultcollelem",
           "normalizedSignature": "FUNCFLAG_FDEFAULTCOLLELEM|System.Runtime.InteropServices.ComTypes.FUNCFLAGS|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -502,7 +502,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.FUNCFLAGS::FUNCFLAG_FUIDEFAULTSystem.Runtime.InteropServices.ComTypes.FUNCFLAGS",
           "clrName": "FUNCFLAG_FUIDEFAULT",
-          "tsEmitName": "FUNCFLAG_FUIDEFAULT",
+          "tsEmitName": "funcflag_fuidefault",
           "normalizedSignature": "FUNCFLAG_FUIDEFAULT|System.Runtime.InteropServices.ComTypes.FUNCFLAGS|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -511,7 +511,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.FUNCFLAGS::FUNCFLAG_FNONBROWSABLESystem.Runtime.InteropServices.ComTypes.FUNCFLAGS",
           "clrName": "FUNCFLAG_FNONBROWSABLE",
-          "tsEmitName": "FUNCFLAG_FNONBROWSABLE",
+          "tsEmitName": "funcflag_fnonbrowsable",
           "normalizedSignature": "FUNCFLAG_FNONBROWSABLE|System.Runtime.InteropServices.ComTypes.FUNCFLAGS|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -520,7 +520,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.FUNCFLAGS::FUNCFLAG_FREPLACEABLESystem.Runtime.InteropServices.ComTypes.FUNCFLAGS",
           "clrName": "FUNCFLAG_FREPLACEABLE",
-          "tsEmitName": "FUNCFLAG_FREPLACEABLE",
+          "tsEmitName": "funcflag_freplaceable",
           "normalizedSignature": "FUNCFLAG_FREPLACEABLE|System.Runtime.InteropServices.ComTypes.FUNCFLAGS|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -529,7 +529,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.FUNCFLAGS::FUNCFLAG_FIMMEDIATEBINDSystem.Runtime.InteropServices.ComTypes.FUNCFLAGS",
           "clrName": "FUNCFLAG_FIMMEDIATEBIND",
-          "tsEmitName": "FUNCFLAG_FIMMEDIATEBIND",
+          "tsEmitName": "funcflag_fimmediatebind",
           "normalizedSignature": "FUNCFLAG_FIMMEDIATEBIND|System.Runtime.InteropServices.ComTypes.FUNCFLAGS|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -564,7 +564,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.FUNCKIND::FUNC_VIRTUALSystem.Runtime.InteropServices.ComTypes.FUNCKIND",
           "clrName": "FUNC_VIRTUAL",
-          "tsEmitName": "FUNC_VIRTUAL",
+          "tsEmitName": "func_virtual",
           "normalizedSignature": "FUNC_VIRTUAL|System.Runtime.InteropServices.ComTypes.FUNCKIND|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -573,7 +573,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.FUNCKIND::FUNC_PUREVIRTUALSystem.Runtime.InteropServices.ComTypes.FUNCKIND",
           "clrName": "FUNC_PUREVIRTUAL",
-          "tsEmitName": "FUNC_PUREVIRTUAL",
+          "tsEmitName": "func_purevirtual",
           "normalizedSignature": "FUNC_PUREVIRTUAL|System.Runtime.InteropServices.ComTypes.FUNCKIND|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -582,7 +582,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.FUNCKIND::FUNC_NONVIRTUALSystem.Runtime.InteropServices.ComTypes.FUNCKIND",
           "clrName": "FUNC_NONVIRTUAL",
-          "tsEmitName": "FUNC_NONVIRTUAL",
+          "tsEmitName": "func_nonvirtual",
           "normalizedSignature": "FUNC_NONVIRTUAL|System.Runtime.InteropServices.ComTypes.FUNCKIND|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -591,7 +591,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.FUNCKIND::FUNC_STATICSystem.Runtime.InteropServices.ComTypes.FUNCKIND",
           "clrName": "FUNC_STATIC",
-          "tsEmitName": "FUNC_STATIC",
+          "tsEmitName": "func_static",
           "normalizedSignature": "FUNC_STATIC|System.Runtime.InteropServices.ComTypes.FUNCKIND|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -600,7 +600,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.FUNCKIND::FUNC_DISPATCHSystem.Runtime.InteropServices.ComTypes.FUNCKIND",
           "clrName": "FUNC_DISPATCH",
-          "tsEmitName": "FUNC_DISPATCH",
+          "tsEmitName": "func_dispatch",
           "normalizedSignature": "FUNC_DISPATCH|System.Runtime.InteropServices.ComTypes.FUNCKIND|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -635,7 +635,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IDLFLAG::IDLFLAG_NONESystem.Runtime.InteropServices.ComTypes.IDLFLAG",
           "clrName": "IDLFLAG_NONE",
-          "tsEmitName": "IDLFLAG_NONE",
+          "tsEmitName": "idlflag_none",
           "normalizedSignature": "IDLFLAG_NONE|System.Runtime.InteropServices.ComTypes.IDLFLAG|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -644,7 +644,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IDLFLAG::IDLFLAG_FINSystem.Runtime.InteropServices.ComTypes.IDLFLAG",
           "clrName": "IDLFLAG_FIN",
-          "tsEmitName": "IDLFLAG_FIN",
+          "tsEmitName": "idlflag_fin",
           "normalizedSignature": "IDLFLAG_FIN|System.Runtime.InteropServices.ComTypes.IDLFLAG|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -653,7 +653,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IDLFLAG::IDLFLAG_FOUTSystem.Runtime.InteropServices.ComTypes.IDLFLAG",
           "clrName": "IDLFLAG_FOUT",
-          "tsEmitName": "IDLFLAG_FOUT",
+          "tsEmitName": "idlflag_fout",
           "normalizedSignature": "IDLFLAG_FOUT|System.Runtime.InteropServices.ComTypes.IDLFLAG|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -662,7 +662,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IDLFLAG::IDLFLAG_FLCIDSystem.Runtime.InteropServices.ComTypes.IDLFLAG",
           "clrName": "IDLFLAG_FLCID",
-          "tsEmitName": "IDLFLAG_FLCID",
+          "tsEmitName": "idlflag_flcid",
           "normalizedSignature": "IDLFLAG_FLCID|System.Runtime.InteropServices.ComTypes.IDLFLAG|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -671,7 +671,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IDLFLAG::IDLFLAG_FRETVALSystem.Runtime.InteropServices.ComTypes.IDLFLAG",
           "clrName": "IDLFLAG_FRETVAL",
-          "tsEmitName": "IDLFLAG_FRETVAL",
+          "tsEmitName": "idlflag_fretval",
           "normalizedSignature": "IDLFLAG_FRETVAL|System.Runtime.InteropServices.ComTypes.IDLFLAG|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -706,7 +706,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IMPLTYPEFLAGS::IMPLTYPEFLAG_FDEFAULTSystem.Runtime.InteropServices.ComTypes.IMPLTYPEFLAGS",
           "clrName": "IMPLTYPEFLAG_FDEFAULT",
-          "tsEmitName": "IMPLTYPEFLAG_FDEFAULT",
+          "tsEmitName": "impltypeflag_fdefault",
           "normalizedSignature": "IMPLTYPEFLAG_FDEFAULT|System.Runtime.InteropServices.ComTypes.IMPLTYPEFLAGS|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -715,7 +715,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IMPLTYPEFLAGS::IMPLTYPEFLAG_FSOURCESystem.Runtime.InteropServices.ComTypes.IMPLTYPEFLAGS",
           "clrName": "IMPLTYPEFLAG_FSOURCE",
-          "tsEmitName": "IMPLTYPEFLAG_FSOURCE",
+          "tsEmitName": "impltypeflag_fsource",
           "normalizedSignature": "IMPLTYPEFLAG_FSOURCE|System.Runtime.InteropServices.ComTypes.IMPLTYPEFLAGS|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -724,7 +724,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IMPLTYPEFLAGS::IMPLTYPEFLAG_FRESTRICTEDSystem.Runtime.InteropServices.ComTypes.IMPLTYPEFLAGS",
           "clrName": "IMPLTYPEFLAG_FRESTRICTED",
-          "tsEmitName": "IMPLTYPEFLAG_FRESTRICTED",
+          "tsEmitName": "impltypeflag_frestricted",
           "normalizedSignature": "IMPLTYPEFLAG_FRESTRICTED|System.Runtime.InteropServices.ComTypes.IMPLTYPEFLAGS|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -733,7 +733,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IMPLTYPEFLAGS::IMPLTYPEFLAG_FDEFAULTVTABLESystem.Runtime.InteropServices.ComTypes.IMPLTYPEFLAGS",
           "clrName": "IMPLTYPEFLAG_FDEFAULTVTABLE",
-          "tsEmitName": "IMPLTYPEFLAG_FDEFAULTVTABLE",
+          "tsEmitName": "impltypeflag_fdefaultvtable",
           "normalizedSignature": "IMPLTYPEFLAG_FDEFAULTVTABLE|System.Runtime.InteropServices.ComTypes.IMPLTYPEFLAGS|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -768,7 +768,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.INVOKEKIND::INVOKE_FUNCSystem.Runtime.InteropServices.ComTypes.INVOKEKIND",
           "clrName": "INVOKE_FUNC",
-          "tsEmitName": "INVOKE_FUNC",
+          "tsEmitName": "invoke_func",
           "normalizedSignature": "INVOKE_FUNC|System.Runtime.InteropServices.ComTypes.INVOKEKIND|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -777,7 +777,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.INVOKEKIND::INVOKE_PROPERTYGETSystem.Runtime.InteropServices.ComTypes.INVOKEKIND",
           "clrName": "INVOKE_PROPERTYGET",
-          "tsEmitName": "INVOKE_PROPERTYGET",
+          "tsEmitName": "invoke_propertyget",
           "normalizedSignature": "INVOKE_PROPERTYGET|System.Runtime.InteropServices.ComTypes.INVOKEKIND|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -786,7 +786,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.INVOKEKIND::INVOKE_PROPERTYPUTSystem.Runtime.InteropServices.ComTypes.INVOKEKIND",
           "clrName": "INVOKE_PROPERTYPUT",
-          "tsEmitName": "INVOKE_PROPERTYPUT",
+          "tsEmitName": "invoke_propertyput",
           "normalizedSignature": "INVOKE_PROPERTYPUT|System.Runtime.InteropServices.ComTypes.INVOKEKIND|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -795,7 +795,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.INVOKEKIND::INVOKE_PROPERTYPUTREFSystem.Runtime.InteropServices.ComTypes.INVOKEKIND",
           "clrName": "INVOKE_PROPERTYPUTREF",
-          "tsEmitName": "INVOKE_PROPERTYPUTREF",
+          "tsEmitName": "invoke_propertyputref",
           "normalizedSignature": "INVOKE_PROPERTYPUTREF|System.Runtime.InteropServices.ComTypes.INVOKEKIND|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -830,7 +830,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.LIBFLAGS::LIBFLAG_FRESTRICTEDSystem.Runtime.InteropServices.ComTypes.LIBFLAGS",
           "clrName": "LIBFLAG_FRESTRICTED",
-          "tsEmitName": "LIBFLAG_FRESTRICTED",
+          "tsEmitName": "libflag_frestricted",
           "normalizedSignature": "LIBFLAG_FRESTRICTED|System.Runtime.InteropServices.ComTypes.LIBFLAGS|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -839,7 +839,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.LIBFLAGS::LIBFLAG_FCONTROLSystem.Runtime.InteropServices.ComTypes.LIBFLAGS",
           "clrName": "LIBFLAG_FCONTROL",
-          "tsEmitName": "LIBFLAG_FCONTROL",
+          "tsEmitName": "libflag_fcontrol",
           "normalizedSignature": "LIBFLAG_FCONTROL|System.Runtime.InteropServices.ComTypes.LIBFLAGS|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -848,7 +848,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.LIBFLAGS::LIBFLAG_FHIDDENSystem.Runtime.InteropServices.ComTypes.LIBFLAGS",
           "clrName": "LIBFLAG_FHIDDEN",
-          "tsEmitName": "LIBFLAG_FHIDDEN",
+          "tsEmitName": "libflag_fhidden",
           "normalizedSignature": "LIBFLAG_FHIDDEN|System.Runtime.InteropServices.ComTypes.LIBFLAGS|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -857,7 +857,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.LIBFLAGS::LIBFLAG_FHASDISKIMAGESystem.Runtime.InteropServices.ComTypes.LIBFLAGS",
           "clrName": "LIBFLAG_FHASDISKIMAGE",
-          "tsEmitName": "LIBFLAG_FHASDISKIMAGE",
+          "tsEmitName": "libflag_fhasdiskimage",
           "normalizedSignature": "LIBFLAG_FHASDISKIMAGE|System.Runtime.InteropServices.ComTypes.LIBFLAGS|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -892,7 +892,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.PARAMFLAG::PARAMFLAG_NONESystem.Runtime.InteropServices.ComTypes.PARAMFLAG",
           "clrName": "PARAMFLAG_NONE",
-          "tsEmitName": "PARAMFLAG_NONE",
+          "tsEmitName": "paramflag_none",
           "normalizedSignature": "PARAMFLAG_NONE|System.Runtime.InteropServices.ComTypes.PARAMFLAG|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -901,7 +901,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.PARAMFLAG::PARAMFLAG_FINSystem.Runtime.InteropServices.ComTypes.PARAMFLAG",
           "clrName": "PARAMFLAG_FIN",
-          "tsEmitName": "PARAMFLAG_FIN",
+          "tsEmitName": "paramflag_fin",
           "normalizedSignature": "PARAMFLAG_FIN|System.Runtime.InteropServices.ComTypes.PARAMFLAG|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -910,7 +910,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.PARAMFLAG::PARAMFLAG_FOUTSystem.Runtime.InteropServices.ComTypes.PARAMFLAG",
           "clrName": "PARAMFLAG_FOUT",
-          "tsEmitName": "PARAMFLAG_FOUT",
+          "tsEmitName": "paramflag_fout",
           "normalizedSignature": "PARAMFLAG_FOUT|System.Runtime.InteropServices.ComTypes.PARAMFLAG|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -919,7 +919,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.PARAMFLAG::PARAMFLAG_FLCIDSystem.Runtime.InteropServices.ComTypes.PARAMFLAG",
           "clrName": "PARAMFLAG_FLCID",
-          "tsEmitName": "PARAMFLAG_FLCID",
+          "tsEmitName": "paramflag_flcid",
           "normalizedSignature": "PARAMFLAG_FLCID|System.Runtime.InteropServices.ComTypes.PARAMFLAG|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -928,7 +928,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.PARAMFLAG::PARAMFLAG_FRETVALSystem.Runtime.InteropServices.ComTypes.PARAMFLAG",
           "clrName": "PARAMFLAG_FRETVAL",
-          "tsEmitName": "PARAMFLAG_FRETVAL",
+          "tsEmitName": "paramflag_fretval",
           "normalizedSignature": "PARAMFLAG_FRETVAL|System.Runtime.InteropServices.ComTypes.PARAMFLAG|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -937,7 +937,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.PARAMFLAG::PARAMFLAG_FOPTSystem.Runtime.InteropServices.ComTypes.PARAMFLAG",
           "clrName": "PARAMFLAG_FOPT",
-          "tsEmitName": "PARAMFLAG_FOPT",
+          "tsEmitName": "paramflag_fopt",
           "normalizedSignature": "PARAMFLAG_FOPT|System.Runtime.InteropServices.ComTypes.PARAMFLAG|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -946,7 +946,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.PARAMFLAG::PARAMFLAG_FHASDEFAULTSystem.Runtime.InteropServices.ComTypes.PARAMFLAG",
           "clrName": "PARAMFLAG_FHASDEFAULT",
-          "tsEmitName": "PARAMFLAG_FHASDEFAULT",
+          "tsEmitName": "paramflag_fhasdefault",
           "normalizedSignature": "PARAMFLAG_FHASDEFAULT|System.Runtime.InteropServices.ComTypes.PARAMFLAG|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -955,7 +955,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.PARAMFLAG::PARAMFLAG_FHASCUSTDATASystem.Runtime.InteropServices.ComTypes.PARAMFLAG",
           "clrName": "PARAMFLAG_FHASCUSTDATA",
-          "tsEmitName": "PARAMFLAG_FHASCUSTDATA",
+          "tsEmitName": "paramflag_fhascustdata",
           "normalizedSignature": "PARAMFLAG_FHASCUSTDATA|System.Runtime.InteropServices.ComTypes.PARAMFLAG|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -990,7 +990,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.SYSKIND::SYS_WIN16System.Runtime.InteropServices.ComTypes.SYSKIND",
           "clrName": "SYS_WIN16",
-          "tsEmitName": "SYS_WIN16",
+          "tsEmitName": "sys_win16",
           "normalizedSignature": "SYS_WIN16|System.Runtime.InteropServices.ComTypes.SYSKIND|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -999,7 +999,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.SYSKIND::SYS_WIN32System.Runtime.InteropServices.ComTypes.SYSKIND",
           "clrName": "SYS_WIN32",
-          "tsEmitName": "SYS_WIN32",
+          "tsEmitName": "sys_win32",
           "normalizedSignature": "SYS_WIN32|System.Runtime.InteropServices.ComTypes.SYSKIND|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1008,7 +1008,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.SYSKIND::SYS_MACSystem.Runtime.InteropServices.ComTypes.SYSKIND",
           "clrName": "SYS_MAC",
-          "tsEmitName": "SYS_MAC",
+          "tsEmitName": "sys_mac",
           "normalizedSignature": "SYS_MAC|System.Runtime.InteropServices.ComTypes.SYSKIND|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1017,7 +1017,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.SYSKIND::SYS_WIN64System.Runtime.InteropServices.ComTypes.SYSKIND",
           "clrName": "SYS_WIN64",
-          "tsEmitName": "SYS_WIN64",
+          "tsEmitName": "sys_win64",
           "normalizedSignature": "SYS_WIN64|System.Runtime.InteropServices.ComTypes.SYSKIND|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1052,7 +1052,7 @@
         {
           "stableId": "System.Runtime.InteropServices:System.Runtime.InteropServices.ComTypes.TYMED::TYMED_HGLOBALSystem.Runtime.InteropServices.ComTypes.TYMED",
           "clrName": "TYMED_HGLOBAL",
-          "tsEmitName": "TYMED_HGLOBAL",
+          "tsEmitName": "tymed_hglobal",
           "normalizedSignature": "TYMED_HGLOBAL|System.Runtime.InteropServices.ComTypes.TYMED|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1061,7 +1061,7 @@
         {
           "stableId": "System.Runtime.InteropServices:System.Runtime.InteropServices.ComTypes.TYMED::TYMED_FILESystem.Runtime.InteropServices.ComTypes.TYMED",
           "clrName": "TYMED_FILE",
-          "tsEmitName": "TYMED_FILE",
+          "tsEmitName": "tymed_file",
           "normalizedSignature": "TYMED_FILE|System.Runtime.InteropServices.ComTypes.TYMED|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1070,7 +1070,7 @@
         {
           "stableId": "System.Runtime.InteropServices:System.Runtime.InteropServices.ComTypes.TYMED::TYMED_ISTREAMSystem.Runtime.InteropServices.ComTypes.TYMED",
           "clrName": "TYMED_ISTREAM",
-          "tsEmitName": "TYMED_ISTREAM",
+          "tsEmitName": "tymed_istream",
           "normalizedSignature": "TYMED_ISTREAM|System.Runtime.InteropServices.ComTypes.TYMED|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1079,7 +1079,7 @@
         {
           "stableId": "System.Runtime.InteropServices:System.Runtime.InteropServices.ComTypes.TYMED::TYMED_ISTORAGESystem.Runtime.InteropServices.ComTypes.TYMED",
           "clrName": "TYMED_ISTORAGE",
-          "tsEmitName": "TYMED_ISTORAGE",
+          "tsEmitName": "tymed_istorage",
           "normalizedSignature": "TYMED_ISTORAGE|System.Runtime.InteropServices.ComTypes.TYMED|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1088,7 +1088,7 @@
         {
           "stableId": "System.Runtime.InteropServices:System.Runtime.InteropServices.ComTypes.TYMED::TYMED_GDISystem.Runtime.InteropServices.ComTypes.TYMED",
           "clrName": "TYMED_GDI",
-          "tsEmitName": "TYMED_GDI",
+          "tsEmitName": "tymed_gdi",
           "normalizedSignature": "TYMED_GDI|System.Runtime.InteropServices.ComTypes.TYMED|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1097,7 +1097,7 @@
         {
           "stableId": "System.Runtime.InteropServices:System.Runtime.InteropServices.ComTypes.TYMED::TYMED_MFPICTSystem.Runtime.InteropServices.ComTypes.TYMED",
           "clrName": "TYMED_MFPICT",
-          "tsEmitName": "TYMED_MFPICT",
+          "tsEmitName": "tymed_mfpict",
           "normalizedSignature": "TYMED_MFPICT|System.Runtime.InteropServices.ComTypes.TYMED|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1106,7 +1106,7 @@
         {
           "stableId": "System.Runtime.InteropServices:System.Runtime.InteropServices.ComTypes.TYMED::TYMED_ENHMFSystem.Runtime.InteropServices.ComTypes.TYMED",
           "clrName": "TYMED_ENHMF",
-          "tsEmitName": "TYMED_ENHMF",
+          "tsEmitName": "tymed_enhmf",
           "normalizedSignature": "TYMED_ENHMF|System.Runtime.InteropServices.ComTypes.TYMED|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1115,7 +1115,7 @@
         {
           "stableId": "System.Runtime.InteropServices:System.Runtime.InteropServices.ComTypes.TYMED::TYMED_NULLSystem.Runtime.InteropServices.ComTypes.TYMED",
           "clrName": "TYMED_NULL",
-          "tsEmitName": "TYMED_NULL",
+          "tsEmitName": "tymed_null",
           "normalizedSignature": "TYMED_NULL|System.Runtime.InteropServices.ComTypes.TYMED|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1150,7 +1150,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.TYPEFLAGS::TYPEFLAG_FAPPOBJECTSystem.Runtime.InteropServices.ComTypes.TYPEFLAGS",
           "clrName": "TYPEFLAG_FAPPOBJECT",
-          "tsEmitName": "TYPEFLAG_FAPPOBJECT",
+          "tsEmitName": "typeflag_fappobject",
           "normalizedSignature": "TYPEFLAG_FAPPOBJECT|System.Runtime.InteropServices.ComTypes.TYPEFLAGS|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1159,7 +1159,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.TYPEFLAGS::TYPEFLAG_FCANCREATESystem.Runtime.InteropServices.ComTypes.TYPEFLAGS",
           "clrName": "TYPEFLAG_FCANCREATE",
-          "tsEmitName": "TYPEFLAG_FCANCREATE",
+          "tsEmitName": "typeflag_fcancreate",
           "normalizedSignature": "TYPEFLAG_FCANCREATE|System.Runtime.InteropServices.ComTypes.TYPEFLAGS|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1168,7 +1168,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.TYPEFLAGS::TYPEFLAG_FLICENSEDSystem.Runtime.InteropServices.ComTypes.TYPEFLAGS",
           "clrName": "TYPEFLAG_FLICENSED",
-          "tsEmitName": "TYPEFLAG_FLICENSED",
+          "tsEmitName": "typeflag_flicensed",
           "normalizedSignature": "TYPEFLAG_FLICENSED|System.Runtime.InteropServices.ComTypes.TYPEFLAGS|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1177,7 +1177,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.TYPEFLAGS::TYPEFLAG_FPREDECLIDSystem.Runtime.InteropServices.ComTypes.TYPEFLAGS",
           "clrName": "TYPEFLAG_FPREDECLID",
-          "tsEmitName": "TYPEFLAG_FPREDECLID",
+          "tsEmitName": "typeflag_fpredeclid",
           "normalizedSignature": "TYPEFLAG_FPREDECLID|System.Runtime.InteropServices.ComTypes.TYPEFLAGS|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1186,7 +1186,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.TYPEFLAGS::TYPEFLAG_FHIDDENSystem.Runtime.InteropServices.ComTypes.TYPEFLAGS",
           "clrName": "TYPEFLAG_FHIDDEN",
-          "tsEmitName": "TYPEFLAG_FHIDDEN",
+          "tsEmitName": "typeflag_fhidden",
           "normalizedSignature": "TYPEFLAG_FHIDDEN|System.Runtime.InteropServices.ComTypes.TYPEFLAGS|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1195,7 +1195,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.TYPEFLAGS::TYPEFLAG_FCONTROLSystem.Runtime.InteropServices.ComTypes.TYPEFLAGS",
           "clrName": "TYPEFLAG_FCONTROL",
-          "tsEmitName": "TYPEFLAG_FCONTROL",
+          "tsEmitName": "typeflag_fcontrol",
           "normalizedSignature": "TYPEFLAG_FCONTROL|System.Runtime.InteropServices.ComTypes.TYPEFLAGS|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1204,7 +1204,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.TYPEFLAGS::TYPEFLAG_FDUALSystem.Runtime.InteropServices.ComTypes.TYPEFLAGS",
           "clrName": "TYPEFLAG_FDUAL",
-          "tsEmitName": "TYPEFLAG_FDUAL",
+          "tsEmitName": "typeflag_fdual",
           "normalizedSignature": "TYPEFLAG_FDUAL|System.Runtime.InteropServices.ComTypes.TYPEFLAGS|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1213,7 +1213,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.TYPEFLAGS::TYPEFLAG_FNONEXTENSIBLESystem.Runtime.InteropServices.ComTypes.TYPEFLAGS",
           "clrName": "TYPEFLAG_FNONEXTENSIBLE",
-          "tsEmitName": "TYPEFLAG_FNONEXTENSIBLE",
+          "tsEmitName": "typeflag_fnonextensible",
           "normalizedSignature": "TYPEFLAG_FNONEXTENSIBLE|System.Runtime.InteropServices.ComTypes.TYPEFLAGS|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1222,7 +1222,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.TYPEFLAGS::TYPEFLAG_FOLEAUTOMATIONSystem.Runtime.InteropServices.ComTypes.TYPEFLAGS",
           "clrName": "TYPEFLAG_FOLEAUTOMATION",
-          "tsEmitName": "TYPEFLAG_FOLEAUTOMATION",
+          "tsEmitName": "typeflag_foleautomation",
           "normalizedSignature": "TYPEFLAG_FOLEAUTOMATION|System.Runtime.InteropServices.ComTypes.TYPEFLAGS|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1231,7 +1231,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.TYPEFLAGS::TYPEFLAG_FRESTRICTEDSystem.Runtime.InteropServices.ComTypes.TYPEFLAGS",
           "clrName": "TYPEFLAG_FRESTRICTED",
-          "tsEmitName": "TYPEFLAG_FRESTRICTED",
+          "tsEmitName": "typeflag_frestricted",
           "normalizedSignature": "TYPEFLAG_FRESTRICTED|System.Runtime.InteropServices.ComTypes.TYPEFLAGS|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1240,7 +1240,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.TYPEFLAGS::TYPEFLAG_FAGGREGATABLESystem.Runtime.InteropServices.ComTypes.TYPEFLAGS",
           "clrName": "TYPEFLAG_FAGGREGATABLE",
-          "tsEmitName": "TYPEFLAG_FAGGREGATABLE",
+          "tsEmitName": "typeflag_faggregatable",
           "normalizedSignature": "TYPEFLAG_FAGGREGATABLE|System.Runtime.InteropServices.ComTypes.TYPEFLAGS|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1249,7 +1249,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.TYPEFLAGS::TYPEFLAG_FREPLACEABLESystem.Runtime.InteropServices.ComTypes.TYPEFLAGS",
           "clrName": "TYPEFLAG_FREPLACEABLE",
-          "tsEmitName": "TYPEFLAG_FREPLACEABLE",
+          "tsEmitName": "typeflag_freplaceable",
           "normalizedSignature": "TYPEFLAG_FREPLACEABLE|System.Runtime.InteropServices.ComTypes.TYPEFLAGS|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1258,7 +1258,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.TYPEFLAGS::TYPEFLAG_FDISPATCHABLESystem.Runtime.InteropServices.ComTypes.TYPEFLAGS",
           "clrName": "TYPEFLAG_FDISPATCHABLE",
-          "tsEmitName": "TYPEFLAG_FDISPATCHABLE",
+          "tsEmitName": "typeflag_fdispatchable",
           "normalizedSignature": "TYPEFLAG_FDISPATCHABLE|System.Runtime.InteropServices.ComTypes.TYPEFLAGS|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1267,7 +1267,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.TYPEFLAGS::TYPEFLAG_FREVERSEBINDSystem.Runtime.InteropServices.ComTypes.TYPEFLAGS",
           "clrName": "TYPEFLAG_FREVERSEBIND",
-          "tsEmitName": "TYPEFLAG_FREVERSEBIND",
+          "tsEmitName": "typeflag_freversebind",
           "normalizedSignature": "TYPEFLAG_FREVERSEBIND|System.Runtime.InteropServices.ComTypes.TYPEFLAGS|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1276,7 +1276,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.TYPEFLAGS::TYPEFLAG_FPROXYSystem.Runtime.InteropServices.ComTypes.TYPEFLAGS",
           "clrName": "TYPEFLAG_FPROXY",
-          "tsEmitName": "TYPEFLAG_FPROXY",
+          "tsEmitName": "typeflag_fproxy",
           "normalizedSignature": "TYPEFLAG_FPROXY|System.Runtime.InteropServices.ComTypes.TYPEFLAGS|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1311,7 +1311,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.TYPEKIND::TKIND_ENUMSystem.Runtime.InteropServices.ComTypes.TYPEKIND",
           "clrName": "TKIND_ENUM",
-          "tsEmitName": "TKIND_ENUM",
+          "tsEmitName": "tkind_enum",
           "normalizedSignature": "TKIND_ENUM|System.Runtime.InteropServices.ComTypes.TYPEKIND|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1320,7 +1320,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.TYPEKIND::TKIND_RECORDSystem.Runtime.InteropServices.ComTypes.TYPEKIND",
           "clrName": "TKIND_RECORD",
-          "tsEmitName": "TKIND_RECORD",
+          "tsEmitName": "tkind_record",
           "normalizedSignature": "TKIND_RECORD|System.Runtime.InteropServices.ComTypes.TYPEKIND|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1329,7 +1329,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.TYPEKIND::TKIND_MODULESystem.Runtime.InteropServices.ComTypes.TYPEKIND",
           "clrName": "TKIND_MODULE",
-          "tsEmitName": "TKIND_MODULE",
+          "tsEmitName": "tkind_module",
           "normalizedSignature": "TKIND_MODULE|System.Runtime.InteropServices.ComTypes.TYPEKIND|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1338,7 +1338,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.TYPEKIND::TKIND_INTERFACESystem.Runtime.InteropServices.ComTypes.TYPEKIND",
           "clrName": "TKIND_INTERFACE",
-          "tsEmitName": "TKIND_INTERFACE",
+          "tsEmitName": "tkind_interface",
           "normalizedSignature": "TKIND_INTERFACE|System.Runtime.InteropServices.ComTypes.TYPEKIND|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1347,7 +1347,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.TYPEKIND::TKIND_DISPATCHSystem.Runtime.InteropServices.ComTypes.TYPEKIND",
           "clrName": "TKIND_DISPATCH",
-          "tsEmitName": "TKIND_DISPATCH",
+          "tsEmitName": "tkind_dispatch",
           "normalizedSignature": "TKIND_DISPATCH|System.Runtime.InteropServices.ComTypes.TYPEKIND|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1356,7 +1356,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.TYPEKIND::TKIND_COCLASSSystem.Runtime.InteropServices.ComTypes.TYPEKIND",
           "clrName": "TKIND_COCLASS",
-          "tsEmitName": "TKIND_COCLASS",
+          "tsEmitName": "tkind_coclass",
           "normalizedSignature": "TKIND_COCLASS|System.Runtime.InteropServices.ComTypes.TYPEKIND|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1365,7 +1365,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.TYPEKIND::TKIND_ALIASSystem.Runtime.InteropServices.ComTypes.TYPEKIND",
           "clrName": "TKIND_ALIAS",
-          "tsEmitName": "TKIND_ALIAS",
+          "tsEmitName": "tkind_alias",
           "normalizedSignature": "TKIND_ALIAS|System.Runtime.InteropServices.ComTypes.TYPEKIND|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1374,7 +1374,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.TYPEKIND::TKIND_UNIONSystem.Runtime.InteropServices.ComTypes.TYPEKIND",
           "clrName": "TKIND_UNION",
-          "tsEmitName": "TKIND_UNION",
+          "tsEmitName": "tkind_union",
           "normalizedSignature": "TKIND_UNION|System.Runtime.InteropServices.ComTypes.TYPEKIND|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1383,7 +1383,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.TYPEKIND::TKIND_MAXSystem.Runtime.InteropServices.ComTypes.TYPEKIND",
           "clrName": "TKIND_MAX",
-          "tsEmitName": "TKIND_MAX",
+          "tsEmitName": "tkind_max",
           "normalizedSignature": "TKIND_MAX|System.Runtime.InteropServices.ComTypes.TYPEKIND|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1418,7 +1418,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.VARFLAGS::VARFLAG_FREADONLYSystem.Runtime.InteropServices.ComTypes.VARFLAGS",
           "clrName": "VARFLAG_FREADONLY",
-          "tsEmitName": "VARFLAG_FREADONLY",
+          "tsEmitName": "varflag_freadonly",
           "normalizedSignature": "VARFLAG_FREADONLY|System.Runtime.InteropServices.ComTypes.VARFLAGS|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1427,7 +1427,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.VARFLAGS::VARFLAG_FSOURCESystem.Runtime.InteropServices.ComTypes.VARFLAGS",
           "clrName": "VARFLAG_FSOURCE",
-          "tsEmitName": "VARFLAG_FSOURCE",
+          "tsEmitName": "varflag_fsource",
           "normalizedSignature": "VARFLAG_FSOURCE|System.Runtime.InteropServices.ComTypes.VARFLAGS|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1436,7 +1436,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.VARFLAGS::VARFLAG_FBINDABLESystem.Runtime.InteropServices.ComTypes.VARFLAGS",
           "clrName": "VARFLAG_FBINDABLE",
-          "tsEmitName": "VARFLAG_FBINDABLE",
+          "tsEmitName": "varflag_fbindable",
           "normalizedSignature": "VARFLAG_FBINDABLE|System.Runtime.InteropServices.ComTypes.VARFLAGS|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1445,7 +1445,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.VARFLAGS::VARFLAG_FREQUESTEDITSystem.Runtime.InteropServices.ComTypes.VARFLAGS",
           "clrName": "VARFLAG_FREQUESTEDIT",
-          "tsEmitName": "VARFLAG_FREQUESTEDIT",
+          "tsEmitName": "varflag_frequestedit",
           "normalizedSignature": "VARFLAG_FREQUESTEDIT|System.Runtime.InteropServices.ComTypes.VARFLAGS|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1454,7 +1454,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.VARFLAGS::VARFLAG_FDISPLAYBINDSystem.Runtime.InteropServices.ComTypes.VARFLAGS",
           "clrName": "VARFLAG_FDISPLAYBIND",
-          "tsEmitName": "VARFLAG_FDISPLAYBIND",
+          "tsEmitName": "varflag_fdisplaybind",
           "normalizedSignature": "VARFLAG_FDISPLAYBIND|System.Runtime.InteropServices.ComTypes.VARFLAGS|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1463,7 +1463,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.VARFLAGS::VARFLAG_FDEFAULTBINDSystem.Runtime.InteropServices.ComTypes.VARFLAGS",
           "clrName": "VARFLAG_FDEFAULTBIND",
-          "tsEmitName": "VARFLAG_FDEFAULTBIND",
+          "tsEmitName": "varflag_fdefaultbind",
           "normalizedSignature": "VARFLAG_FDEFAULTBIND|System.Runtime.InteropServices.ComTypes.VARFLAGS|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1472,7 +1472,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.VARFLAGS::VARFLAG_FHIDDENSystem.Runtime.InteropServices.ComTypes.VARFLAGS",
           "clrName": "VARFLAG_FHIDDEN",
-          "tsEmitName": "VARFLAG_FHIDDEN",
+          "tsEmitName": "varflag_fhidden",
           "normalizedSignature": "VARFLAG_FHIDDEN|System.Runtime.InteropServices.ComTypes.VARFLAGS|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1481,7 +1481,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.VARFLAGS::VARFLAG_FRESTRICTEDSystem.Runtime.InteropServices.ComTypes.VARFLAGS",
           "clrName": "VARFLAG_FRESTRICTED",
-          "tsEmitName": "VARFLAG_FRESTRICTED",
+          "tsEmitName": "varflag_frestricted",
           "normalizedSignature": "VARFLAG_FRESTRICTED|System.Runtime.InteropServices.ComTypes.VARFLAGS|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1490,7 +1490,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.VARFLAGS::VARFLAG_FDEFAULTCOLLELEMSystem.Runtime.InteropServices.ComTypes.VARFLAGS",
           "clrName": "VARFLAG_FDEFAULTCOLLELEM",
-          "tsEmitName": "VARFLAG_FDEFAULTCOLLELEM",
+          "tsEmitName": "varflag_fdefaultcollelem",
           "normalizedSignature": "VARFLAG_FDEFAULTCOLLELEM|System.Runtime.InteropServices.ComTypes.VARFLAGS|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1499,7 +1499,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.VARFLAGS::VARFLAG_FUIDEFAULTSystem.Runtime.InteropServices.ComTypes.VARFLAGS",
           "clrName": "VARFLAG_FUIDEFAULT",
-          "tsEmitName": "VARFLAG_FUIDEFAULT",
+          "tsEmitName": "varflag_fuidefault",
           "normalizedSignature": "VARFLAG_FUIDEFAULT|System.Runtime.InteropServices.ComTypes.VARFLAGS|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1508,7 +1508,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.VARFLAGS::VARFLAG_FNONBROWSABLESystem.Runtime.InteropServices.ComTypes.VARFLAGS",
           "clrName": "VARFLAG_FNONBROWSABLE",
-          "tsEmitName": "VARFLAG_FNONBROWSABLE",
+          "tsEmitName": "varflag_fnonbrowsable",
           "normalizedSignature": "VARFLAG_FNONBROWSABLE|System.Runtime.InteropServices.ComTypes.VARFLAGS|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1517,7 +1517,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.VARFLAGS::VARFLAG_FREPLACEABLESystem.Runtime.InteropServices.ComTypes.VARFLAGS",
           "clrName": "VARFLAG_FREPLACEABLE",
-          "tsEmitName": "VARFLAG_FREPLACEABLE",
+          "tsEmitName": "varflag_freplaceable",
           "normalizedSignature": "VARFLAG_FREPLACEABLE|System.Runtime.InteropServices.ComTypes.VARFLAGS|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1526,7 +1526,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.VARFLAGS::VARFLAG_FIMMEDIATEBINDSystem.Runtime.InteropServices.ComTypes.VARFLAGS",
           "clrName": "VARFLAG_FIMMEDIATEBIND",
-          "tsEmitName": "VARFLAG_FIMMEDIATEBIND",
+          "tsEmitName": "varflag_fimmediatebind",
           "normalizedSignature": "VARFLAG_FIMMEDIATEBIND|System.Runtime.InteropServices.ComTypes.VARFLAGS|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1561,7 +1561,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.VARKIND::VAR_PERINSTANCESystem.Runtime.InteropServices.ComTypes.VARKIND",
           "clrName": "VAR_PERINSTANCE",
-          "tsEmitName": "VAR_PERINSTANCE",
+          "tsEmitName": "var_perinstance",
           "normalizedSignature": "VAR_PERINSTANCE|System.Runtime.InteropServices.ComTypes.VARKIND|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1570,7 +1570,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.VARKIND::VAR_STATICSystem.Runtime.InteropServices.ComTypes.VARKIND",
           "clrName": "VAR_STATIC",
-          "tsEmitName": "VAR_STATIC",
+          "tsEmitName": "var_static",
           "normalizedSignature": "VAR_STATIC|System.Runtime.InteropServices.ComTypes.VARKIND|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1579,7 +1579,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.VARKIND::VAR_CONSTSystem.Runtime.InteropServices.ComTypes.VARKIND",
           "clrName": "VAR_CONST",
-          "tsEmitName": "VAR_CONST",
+          "tsEmitName": "var_const",
           "normalizedSignature": "VAR_CONST|System.Runtime.InteropServices.ComTypes.VARKIND|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1588,7 +1588,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.VARKIND::VAR_DISPATCHSystem.Runtime.InteropServices.ComTypes.VARKIND",
           "clrName": "VAR_DISPATCH",
-          "tsEmitName": "VAR_DISPATCH",
+          "tsEmitName": "var_dispatch",
           "normalizedSignature": "VAR_DISPATCH|System.Runtime.InteropServices.ComTypes.VARKIND|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1612,7 +1612,7 @@
         {
           "stableId": "System.Runtime.InteropServices:System.Runtime.InteropServices.ComTypes.IAdviseSink::OnDataChange(System.Runtime.InteropServices.ComTypes.FORMATETC\u0026,System.Runtime.InteropServices.ComTypes.STGMEDIUM\u0026):System.Void",
           "clrName": "OnDataChange",
-          "tsEmitName": "OnDataChange",
+          "tsEmitName": "onDataChange",
           "normalizedSignature": "OnDataChange|(System.Runtime.InteropServices.ComTypes.FORMATETC\u0026,System.Runtime.InteropServices.ComTypes.STGMEDIUM\u0026):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1628,7 +1628,7 @@
         {
           "stableId": "System.Runtime.InteropServices:System.Runtime.InteropServices.ComTypes.IAdviseSink::OnViewChange(System.Int32,System.Int32):System.Void",
           "clrName": "OnViewChange",
-          "tsEmitName": "OnViewChange",
+          "tsEmitName": "onViewChange",
           "normalizedSignature": "OnViewChange|(System.Int32,System.Int32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1644,7 +1644,7 @@
         {
           "stableId": "System.Runtime.InteropServices:System.Runtime.InteropServices.ComTypes.IAdviseSink::OnRename(System.Runtime.InteropServices.ComTypes.IMoniker):System.Void",
           "clrName": "OnRename",
-          "tsEmitName": "OnRename",
+          "tsEmitName": "onRename",
           "normalizedSignature": "OnRename|(System.Runtime.InteropServices.ComTypes.IMoniker):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1660,7 +1660,7 @@
         {
           "stableId": "System.Runtime.InteropServices:System.Runtime.InteropServices.ComTypes.IAdviseSink::OnSave():System.Void",
           "clrName": "OnSave",
-          "tsEmitName": "OnSave",
+          "tsEmitName": "onSave",
           "normalizedSignature": "OnSave|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1693,7 +1693,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IBindCtx::RegisterObjectBound(System.Object):System.Void",
           "clrName": "RegisterObjectBound",
-          "tsEmitName": "RegisterObjectBound",
+          "tsEmitName": "registerObjectBound",
           "normalizedSignature": "RegisterObjectBound|(System.Object):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1709,7 +1709,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IBindCtx::ReleaseBoundObjects():System.Void",
           "clrName": "ReleaseBoundObjects",
-          "tsEmitName": "ReleaseBoundObjects",
+          "tsEmitName": "releaseBoundObjects",
           "normalizedSignature": "ReleaseBoundObjects|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1725,7 +1725,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IBindCtx::SetBindOptions(System.Runtime.InteropServices.ComTypes.BIND_OPTS\u0026):System.Void",
           "clrName": "SetBindOptions",
-          "tsEmitName": "SetBindOptions",
+          "tsEmitName": "setBindOptions",
           "normalizedSignature": "SetBindOptions|(System.Runtime.InteropServices.ComTypes.BIND_OPTS\u0026):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1741,7 +1741,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IBindCtx::GetRunningObjectTable(System.Runtime.InteropServices.ComTypes.IRunningObjectTable\u0026):System.Void",
           "clrName": "GetRunningObjectTable",
-          "tsEmitName": "GetRunningObjectTable",
+          "tsEmitName": "getRunningObjectTable",
           "normalizedSignature": "GetRunningObjectTable|(System.Runtime.InteropServices.ComTypes.IRunningObjectTable\u0026):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1757,7 +1757,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IBindCtx::RegisterObjectParam(System.String,System.Object):System.Void",
           "clrName": "RegisterObjectParam",
-          "tsEmitName": "RegisterObjectParam",
+          "tsEmitName": "registerObjectParam",
           "normalizedSignature": "RegisterObjectParam|(System.String,System.Object):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1773,7 +1773,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IBindCtx::GetObjectParam(System.String,System.Object\u0026):System.Void",
           "clrName": "GetObjectParam",
-          "tsEmitName": "GetObjectParam",
+          "tsEmitName": "getObjectParam",
           "normalizedSignature": "GetObjectParam|(System.String,System.Object\u0026):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1789,7 +1789,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IBindCtx::EnumObjectParam(System.Runtime.InteropServices.ComTypes.IEnumString\u0026):System.Void",
           "clrName": "EnumObjectParam",
-          "tsEmitName": "EnumObjectParam",
+          "tsEmitName": "enumObjectParam",
           "normalizedSignature": "EnumObjectParam|(System.Runtime.InteropServices.ComTypes.IEnumString\u0026):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1805,7 +1805,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IBindCtx::RevokeObjectParam(System.String):System.Int32",
           "clrName": "RevokeObjectParam",
-          "tsEmitName": "RevokeObjectParam",
+          "tsEmitName": "revokeObjectParam",
           "normalizedSignature": "RevokeObjectParam|(System.String):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1838,7 +1838,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IConnectionPoint::GetConnectionInterface(System.Guid\u0026):System.Void",
           "clrName": "GetConnectionInterface",
-          "tsEmitName": "GetConnectionInterface",
+          "tsEmitName": "getConnectionInterface",
           "normalizedSignature": "GetConnectionInterface|(System.Guid\u0026):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1854,7 +1854,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IConnectionPoint::GetConnectionPointContainer(System.Runtime.InteropServices.ComTypes.IConnectionPointContainer\u0026):System.Void",
           "clrName": "GetConnectionPointContainer",
-          "tsEmitName": "GetConnectionPointContainer",
+          "tsEmitName": "getConnectionPointContainer",
           "normalizedSignature": "GetConnectionPointContainer|(System.Runtime.InteropServices.ComTypes.IConnectionPointContainer\u0026):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1870,7 +1870,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IConnectionPoint::Advise(System.Object,System.Int32\u0026):System.Void",
           "clrName": "Advise",
-          "tsEmitName": "Advise",
+          "tsEmitName": "advise",
           "normalizedSignature": "Advise|(System.Object,System.Int32\u0026):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1886,7 +1886,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IConnectionPoint::Unadvise(System.Int32):System.Void",
           "clrName": "Unadvise",
-          "tsEmitName": "Unadvise",
+          "tsEmitName": "unadvise",
           "normalizedSignature": "Unadvise|(System.Int32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1902,7 +1902,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IConnectionPoint::EnumConnections(System.Runtime.InteropServices.ComTypes.IEnumConnections\u0026):System.Void",
           "clrName": "EnumConnections",
-          "tsEmitName": "EnumConnections",
+          "tsEmitName": "enumConnections",
           "normalizedSignature": "EnumConnections|(System.Runtime.InteropServices.ComTypes.IEnumConnections\u0026):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1935,7 +1935,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IConnectionPointContainer::EnumConnectionPoints(System.Runtime.InteropServices.ComTypes.IEnumConnectionPoints\u0026):System.Void",
           "clrName": "EnumConnectionPoints",
-          "tsEmitName": "EnumConnectionPoints",
+          "tsEmitName": "enumConnectionPoints",
           "normalizedSignature": "EnumConnectionPoints|(System.Runtime.InteropServices.ComTypes.IEnumConnectionPoints\u0026):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1951,7 +1951,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IConnectionPointContainer::FindConnectionPoint(System.Guid\u0026,System.Runtime.InteropServices.ComTypes.IConnectionPoint\u0026):System.Void",
           "clrName": "FindConnectionPoint",
-          "tsEmitName": "FindConnectionPoint",
+          "tsEmitName": "findConnectionPoint",
           "normalizedSignature": "FindConnectionPoint|(System.Guid\u0026,System.Runtime.InteropServices.ComTypes.IConnectionPoint\u0026):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1984,7 +1984,7 @@
         {
           "stableId": "System.Runtime.InteropServices:System.Runtime.InteropServices.ComTypes.IDataObject::GetData(System.Runtime.InteropServices.ComTypes.FORMATETC\u0026,System.Runtime.InteropServices.ComTypes.STGMEDIUM\u0026):System.Void",
           "clrName": "GetData",
-          "tsEmitName": "GetData",
+          "tsEmitName": "getData",
           "normalizedSignature": "GetData|(System.Runtime.InteropServices.ComTypes.FORMATETC\u0026,System.Runtime.InteropServices.ComTypes.STGMEDIUM\u0026):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2000,7 +2000,7 @@
         {
           "stableId": "System.Runtime.InteropServices:System.Runtime.InteropServices.ComTypes.IDataObject::QueryGetData(System.Runtime.InteropServices.ComTypes.FORMATETC\u0026):System.Int32",
           "clrName": "QueryGetData",
-          "tsEmitName": "QueryGetData",
+          "tsEmitName": "queryGetData",
           "normalizedSignature": "QueryGetData|(System.Runtime.InteropServices.ComTypes.FORMATETC\u0026):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2016,7 +2016,7 @@
         {
           "stableId": "System.Runtime.InteropServices:System.Runtime.InteropServices.ComTypes.IDataObject::GetCanonicalFormatEtc(System.Runtime.InteropServices.ComTypes.FORMATETC\u0026,System.Runtime.InteropServices.ComTypes.FORMATETC\u0026):System.Int32",
           "clrName": "GetCanonicalFormatEtc",
-          "tsEmitName": "GetCanonicalFormatEtc",
+          "tsEmitName": "getCanonicalFormatEtc",
           "normalizedSignature": "GetCanonicalFormatEtc|(System.Runtime.InteropServices.ComTypes.FORMATETC\u0026,System.Runtime.InteropServices.ComTypes.FORMATETC\u0026):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2032,7 +2032,7 @@
         {
           "stableId": "System.Runtime.InteropServices:System.Runtime.InteropServices.ComTypes.IDataObject::SetData(System.Runtime.InteropServices.ComTypes.FORMATETC\u0026,System.Runtime.InteropServices.ComTypes.STGMEDIUM\u0026,System.Boolean):System.Void",
           "clrName": "SetData",
-          "tsEmitName": "SetData",
+          "tsEmitName": "setData",
           "normalizedSignature": "SetData|(System.Runtime.InteropServices.ComTypes.FORMATETC\u0026,System.Runtime.InteropServices.ComTypes.STGMEDIUM\u0026,System.Boolean):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2048,7 +2048,7 @@
         {
           "stableId": "System.Runtime.InteropServices:System.Runtime.InteropServices.ComTypes.IDataObject::EnumFormatEtc(System.Runtime.InteropServices.ComTypes.DATADIR):System.Runtime.InteropServices.ComTypes.IEnumFORMATETC",
           "clrName": "EnumFormatEtc",
-          "tsEmitName": "EnumFormatEtc",
+          "tsEmitName": "enumFormatEtc",
           "normalizedSignature": "EnumFormatEtc|(System.Runtime.InteropServices.ComTypes.DATADIR):System.Runtime.InteropServices.ComTypes.IEnumFORMATETC|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2064,7 +2064,7 @@
         {
           "stableId": "System.Runtime.InteropServices:System.Runtime.InteropServices.ComTypes.IDataObject::DAdvise(System.Runtime.InteropServices.ComTypes.FORMATETC\u0026,System.Runtime.InteropServices.ComTypes.ADVF,System.Runtime.InteropServices.ComTypes.IAdviseSink,System.Int32\u0026):System.Int32",
           "clrName": "DAdvise",
-          "tsEmitName": "DAdvise",
+          "tsEmitName": "dAdvise",
           "normalizedSignature": "DAdvise|(System.Runtime.InteropServices.ComTypes.FORMATETC\u0026,System.Runtime.InteropServices.ComTypes.ADVF,System.Runtime.InteropServices.ComTypes.IAdviseSink,System.Int32\u0026):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2080,7 +2080,7 @@
         {
           "stableId": "System.Runtime.InteropServices:System.Runtime.InteropServices.ComTypes.IDataObject::DUnadvise(System.Int32):System.Void",
           "clrName": "DUnadvise",
-          "tsEmitName": "DUnadvise",
+          "tsEmitName": "dUnadvise",
           "normalizedSignature": "DUnadvise|(System.Int32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2096,7 +2096,7 @@
         {
           "stableId": "System.Runtime.InteropServices:System.Runtime.InteropServices.ComTypes.IDataObject::EnumDAdvise(System.Runtime.InteropServices.ComTypes.IEnumSTATDATA\u0026):System.Int32",
           "clrName": "EnumDAdvise",
-          "tsEmitName": "EnumDAdvise",
+          "tsEmitName": "enumDAdvise",
           "normalizedSignature": "EnumDAdvise|(System.Runtime.InteropServices.ComTypes.IEnumSTATDATA\u0026):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2129,7 +2129,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IEnumConnectionPoints::Next(System.Int32,System.Runtime.InteropServices.ComTypes.IConnectionPoint[],System.IntPtr):System.Int32",
           "clrName": "Next",
-          "tsEmitName": "Next",
+          "tsEmitName": "next",
           "normalizedSignature": "Next|(System.Int32,System.Runtime.InteropServices.ComTypes.IConnectionPoint[],System.IntPtr):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2145,7 +2145,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IEnumConnectionPoints::Skip(System.Int32):System.Int32",
           "clrName": "Skip",
-          "tsEmitName": "Skip",
+          "tsEmitName": "skip",
           "normalizedSignature": "Skip|(System.Int32):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2161,7 +2161,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IEnumConnectionPoints::Reset():System.Void",
           "clrName": "Reset",
-          "tsEmitName": "Reset",
+          "tsEmitName": "reset",
           "normalizedSignature": "Reset|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2177,7 +2177,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IEnumConnectionPoints::Clone(System.Runtime.InteropServices.ComTypes.IEnumConnectionPoints\u0026):System.Void",
           "clrName": "Clone",
-          "tsEmitName": "Clone",
+          "tsEmitName": "clone",
           "normalizedSignature": "Clone|(System.Runtime.InteropServices.ComTypes.IEnumConnectionPoints\u0026):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2210,7 +2210,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IEnumConnections::Next(System.Int32,System.Runtime.InteropServices.ComTypes.CONNECTDATA[],System.IntPtr):System.Int32",
           "clrName": "Next",
-          "tsEmitName": "Next",
+          "tsEmitName": "next",
           "normalizedSignature": "Next|(System.Int32,System.Runtime.InteropServices.ComTypes.CONNECTDATA[],System.IntPtr):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2226,7 +2226,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IEnumConnections::Skip(System.Int32):System.Int32",
           "clrName": "Skip",
-          "tsEmitName": "Skip",
+          "tsEmitName": "skip",
           "normalizedSignature": "Skip|(System.Int32):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2242,7 +2242,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IEnumConnections::Reset():System.Void",
           "clrName": "Reset",
-          "tsEmitName": "Reset",
+          "tsEmitName": "reset",
           "normalizedSignature": "Reset|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2258,7 +2258,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IEnumConnections::Clone(System.Runtime.InteropServices.ComTypes.IEnumConnections\u0026):System.Void",
           "clrName": "Clone",
-          "tsEmitName": "Clone",
+          "tsEmitName": "clone",
           "normalizedSignature": "Clone|(System.Runtime.InteropServices.ComTypes.IEnumConnections\u0026):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2291,7 +2291,7 @@
         {
           "stableId": "System.Runtime.InteropServices:System.Runtime.InteropServices.ComTypes.IEnumFORMATETC::Next(System.Int32,System.Runtime.InteropServices.ComTypes.FORMATETC[],System.Int32[]):System.Int32",
           "clrName": "Next",
-          "tsEmitName": "Next",
+          "tsEmitName": "next",
           "normalizedSignature": "Next|(System.Int32,System.Runtime.InteropServices.ComTypes.FORMATETC[],System.Int32[]):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2307,7 +2307,7 @@
         {
           "stableId": "System.Runtime.InteropServices:System.Runtime.InteropServices.ComTypes.IEnumFORMATETC::Skip(System.Int32):System.Int32",
           "clrName": "Skip",
-          "tsEmitName": "Skip",
+          "tsEmitName": "skip",
           "normalizedSignature": "Skip|(System.Int32):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2323,7 +2323,7 @@
         {
           "stableId": "System.Runtime.InteropServices:System.Runtime.InteropServices.ComTypes.IEnumFORMATETC::Reset():System.Int32",
           "clrName": "Reset",
-          "tsEmitName": "Reset",
+          "tsEmitName": "reset",
           "normalizedSignature": "Reset|():System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2339,7 +2339,7 @@
         {
           "stableId": "System.Runtime.InteropServices:System.Runtime.InteropServices.ComTypes.IEnumFORMATETC::Clone(System.Runtime.InteropServices.ComTypes.IEnumFORMATETC\u0026):System.Void",
           "clrName": "Clone",
-          "tsEmitName": "Clone",
+          "tsEmitName": "clone",
           "normalizedSignature": "Clone|(System.Runtime.InteropServices.ComTypes.IEnumFORMATETC\u0026):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2372,7 +2372,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IEnumMoniker::Next(System.Int32,System.Runtime.InteropServices.ComTypes.IMoniker[],System.IntPtr):System.Int32",
           "clrName": "Next",
-          "tsEmitName": "Next",
+          "tsEmitName": "next",
           "normalizedSignature": "Next|(System.Int32,System.Runtime.InteropServices.ComTypes.IMoniker[],System.IntPtr):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2388,7 +2388,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IEnumMoniker::Skip(System.Int32):System.Int32",
           "clrName": "Skip",
-          "tsEmitName": "Skip",
+          "tsEmitName": "skip",
           "normalizedSignature": "Skip|(System.Int32):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2404,7 +2404,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IEnumMoniker::Reset():System.Void",
           "clrName": "Reset",
-          "tsEmitName": "Reset",
+          "tsEmitName": "reset",
           "normalizedSignature": "Reset|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2420,7 +2420,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IEnumMoniker::Clone(System.Runtime.InteropServices.ComTypes.IEnumMoniker\u0026):System.Void",
           "clrName": "Clone",
-          "tsEmitName": "Clone",
+          "tsEmitName": "clone",
           "normalizedSignature": "Clone|(System.Runtime.InteropServices.ComTypes.IEnumMoniker\u0026):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2453,7 +2453,7 @@
         {
           "stableId": "System.Runtime.InteropServices:System.Runtime.InteropServices.ComTypes.IEnumSTATDATA::Next(System.Int32,System.Runtime.InteropServices.ComTypes.STATDATA[],System.Int32[]):System.Int32",
           "clrName": "Next",
-          "tsEmitName": "Next",
+          "tsEmitName": "next",
           "normalizedSignature": "Next|(System.Int32,System.Runtime.InteropServices.ComTypes.STATDATA[],System.Int32[]):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2469,7 +2469,7 @@
         {
           "stableId": "System.Runtime.InteropServices:System.Runtime.InteropServices.ComTypes.IEnumSTATDATA::Skip(System.Int32):System.Int32",
           "clrName": "Skip",
-          "tsEmitName": "Skip",
+          "tsEmitName": "skip",
           "normalizedSignature": "Skip|(System.Int32):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2485,7 +2485,7 @@
         {
           "stableId": "System.Runtime.InteropServices:System.Runtime.InteropServices.ComTypes.IEnumSTATDATA::Reset():System.Int32",
           "clrName": "Reset",
-          "tsEmitName": "Reset",
+          "tsEmitName": "reset",
           "normalizedSignature": "Reset|():System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2501,7 +2501,7 @@
         {
           "stableId": "System.Runtime.InteropServices:System.Runtime.InteropServices.ComTypes.IEnumSTATDATA::Clone(System.Runtime.InteropServices.ComTypes.IEnumSTATDATA\u0026):System.Void",
           "clrName": "Clone",
-          "tsEmitName": "Clone",
+          "tsEmitName": "clone",
           "normalizedSignature": "Clone|(System.Runtime.InteropServices.ComTypes.IEnumSTATDATA\u0026):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2534,7 +2534,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IEnumString::Next(System.Int32,System.String[],System.IntPtr):System.Int32",
           "clrName": "Next",
-          "tsEmitName": "Next",
+          "tsEmitName": "next",
           "normalizedSignature": "Next|(System.Int32,System.String[],System.IntPtr):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2550,7 +2550,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IEnumString::Skip(System.Int32):System.Int32",
           "clrName": "Skip",
-          "tsEmitName": "Skip",
+          "tsEmitName": "skip",
           "normalizedSignature": "Skip|(System.Int32):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2566,7 +2566,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IEnumString::Reset():System.Void",
           "clrName": "Reset",
-          "tsEmitName": "Reset",
+          "tsEmitName": "reset",
           "normalizedSignature": "Reset|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2582,7 +2582,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IEnumString::Clone(System.Runtime.InteropServices.ComTypes.IEnumString\u0026):System.Void",
           "clrName": "Clone",
-          "tsEmitName": "Clone",
+          "tsEmitName": "clone",
           "normalizedSignature": "Clone|(System.Runtime.InteropServices.ComTypes.IEnumString\u0026):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2615,7 +2615,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IEnumVARIANT::Next(System.Int32,System.Object[],System.IntPtr):System.Int32",
           "clrName": "Next",
-          "tsEmitName": "Next",
+          "tsEmitName": "next",
           "normalizedSignature": "Next|(System.Int32,System.Object[],System.IntPtr):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2631,7 +2631,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IEnumVARIANT::Skip(System.Int32):System.Int32",
           "clrName": "Skip",
-          "tsEmitName": "Skip",
+          "tsEmitName": "skip",
           "normalizedSignature": "Skip|(System.Int32):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2647,7 +2647,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IEnumVARIANT::Reset():System.Int32",
           "clrName": "Reset",
-          "tsEmitName": "Reset",
+          "tsEmitName": "reset",
           "normalizedSignature": "Reset|():System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2663,7 +2663,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IEnumVARIANT::Clone():System.Runtime.InteropServices.ComTypes.IEnumVARIANT",
           "clrName": "Clone",
-          "tsEmitName": "Clone",
+          "tsEmitName": "clone",
           "normalizedSignature": "Clone|():System.Runtime.InteropServices.ComTypes.IEnumVARIANT|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2696,7 +2696,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IMoniker::GetClassID(System.Guid\u0026):System.Void",
           "clrName": "GetClassID",
-          "tsEmitName": "GetClassID",
+          "tsEmitName": "getClassID",
           "normalizedSignature": "GetClassID|(System.Guid\u0026):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2712,7 +2712,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IMoniker::IsDirty():System.Int32",
           "clrName": "IsDirty",
-          "tsEmitName": "IsDirty",
+          "tsEmitName": "isDirty",
           "normalizedSignature": "IsDirty|():System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2728,7 +2728,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IMoniker::Load(System.Runtime.InteropServices.ComTypes.IStream):System.Void",
           "clrName": "Load",
-          "tsEmitName": "Load",
+          "tsEmitName": "load",
           "normalizedSignature": "Load|(System.Runtime.InteropServices.ComTypes.IStream):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2744,7 +2744,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IMoniker::Save(System.Runtime.InteropServices.ComTypes.IStream,System.Boolean):System.Void",
           "clrName": "Save",
-          "tsEmitName": "Save",
+          "tsEmitName": "save",
           "normalizedSignature": "Save|(System.Runtime.InteropServices.ComTypes.IStream,System.Boolean):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2760,7 +2760,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IMoniker::GetSizeMax(System.Int64\u0026):System.Void",
           "clrName": "GetSizeMax",
-          "tsEmitName": "GetSizeMax",
+          "tsEmitName": "getSizeMax",
           "normalizedSignature": "GetSizeMax|(System.Int64\u0026):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2776,7 +2776,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IMoniker::BindToObject(System.Runtime.InteropServices.ComTypes.IBindCtx,System.Runtime.InteropServices.ComTypes.IMoniker,System.Guid\u0026,System.Object\u0026):System.Void",
           "clrName": "BindToObject",
-          "tsEmitName": "BindToObject",
+          "tsEmitName": "bindToObject",
           "normalizedSignature": "BindToObject|(System.Runtime.InteropServices.ComTypes.IBindCtx,System.Runtime.InteropServices.ComTypes.IMoniker,System.Guid\u0026,System.Object\u0026):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2792,7 +2792,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IMoniker::Reduce(System.Runtime.InteropServices.ComTypes.IBindCtx,System.Int32,System.Runtime.InteropServices.ComTypes.IMoniker\u0026,System.Runtime.InteropServices.ComTypes.IMoniker\u0026):System.Void",
           "clrName": "Reduce",
-          "tsEmitName": "Reduce",
+          "tsEmitName": "reduce",
           "normalizedSignature": "Reduce|(System.Runtime.InteropServices.ComTypes.IBindCtx,System.Int32,System.Runtime.InteropServices.ComTypes.IMoniker\u0026,System.Runtime.InteropServices.ComTypes.IMoniker\u0026):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2808,7 +2808,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IMoniker::ComposeWith(System.Runtime.InteropServices.ComTypes.IMoniker,System.Boolean,System.Runtime.InteropServices.ComTypes.IMoniker\u0026):System.Void",
           "clrName": "ComposeWith",
-          "tsEmitName": "ComposeWith",
+          "tsEmitName": "composeWith",
           "normalizedSignature": "ComposeWith|(System.Runtime.InteropServices.ComTypes.IMoniker,System.Boolean,System.Runtime.InteropServices.ComTypes.IMoniker\u0026):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2824,7 +2824,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IMoniker::Enum(System.Boolean,System.Runtime.InteropServices.ComTypes.IEnumMoniker\u0026):System.Void",
           "clrName": "Enum",
-          "tsEmitName": "Enum",
+          "tsEmitName": "enum_",
           "normalizedSignature": "Enum|(System.Boolean,System.Runtime.InteropServices.ComTypes.IEnumMoniker\u0026):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2840,7 +2840,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IMoniker::IsEqual(System.Runtime.InteropServices.ComTypes.IMoniker):System.Int32",
           "clrName": "IsEqual",
-          "tsEmitName": "IsEqual",
+          "tsEmitName": "isEqual",
           "normalizedSignature": "IsEqual|(System.Runtime.InteropServices.ComTypes.IMoniker):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2856,7 +2856,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IMoniker::Hash(System.Int32\u0026):System.Void",
           "clrName": "Hash",
-          "tsEmitName": "Hash",
+          "tsEmitName": "hash",
           "normalizedSignature": "Hash|(System.Int32\u0026):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2872,7 +2872,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IMoniker::IsRunning(System.Runtime.InteropServices.ComTypes.IBindCtx,System.Runtime.InteropServices.ComTypes.IMoniker,System.Runtime.InteropServices.ComTypes.IMoniker):System.Int32",
           "clrName": "IsRunning",
-          "tsEmitName": "IsRunning",
+          "tsEmitName": "isRunning",
           "normalizedSignature": "IsRunning|(System.Runtime.InteropServices.ComTypes.IBindCtx,System.Runtime.InteropServices.ComTypes.IMoniker,System.Runtime.InteropServices.ComTypes.IMoniker):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2888,7 +2888,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IMoniker::GetTimeOfLastChange(System.Runtime.InteropServices.ComTypes.IBindCtx,System.Runtime.InteropServices.ComTypes.IMoniker,System.Runtime.InteropServices.ComTypes.FILETIME\u0026):System.Void",
           "clrName": "GetTimeOfLastChange",
-          "tsEmitName": "GetTimeOfLastChange",
+          "tsEmitName": "getTimeOfLastChange",
           "normalizedSignature": "GetTimeOfLastChange|(System.Runtime.InteropServices.ComTypes.IBindCtx,System.Runtime.InteropServices.ComTypes.IMoniker,System.Runtime.InteropServices.ComTypes.FILETIME\u0026):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2904,7 +2904,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IMoniker::Inverse(System.Runtime.InteropServices.ComTypes.IMoniker\u0026):System.Void",
           "clrName": "Inverse",
-          "tsEmitName": "Inverse",
+          "tsEmitName": "inverse",
           "normalizedSignature": "Inverse|(System.Runtime.InteropServices.ComTypes.IMoniker\u0026):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2920,7 +2920,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IMoniker::CommonPrefixWith(System.Runtime.InteropServices.ComTypes.IMoniker,System.Runtime.InteropServices.ComTypes.IMoniker\u0026):System.Void",
           "clrName": "CommonPrefixWith",
-          "tsEmitName": "CommonPrefixWith",
+          "tsEmitName": "commonPrefixWith",
           "normalizedSignature": "CommonPrefixWith|(System.Runtime.InteropServices.ComTypes.IMoniker,System.Runtime.InteropServices.ComTypes.IMoniker\u0026):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2936,7 +2936,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IMoniker::GetDisplayName(System.Runtime.InteropServices.ComTypes.IBindCtx,System.Runtime.InteropServices.ComTypes.IMoniker,System.String\u0026):System.Void",
           "clrName": "GetDisplayName",
-          "tsEmitName": "GetDisplayName",
+          "tsEmitName": "getDisplayName",
           "normalizedSignature": "GetDisplayName|(System.Runtime.InteropServices.ComTypes.IBindCtx,System.Runtime.InteropServices.ComTypes.IMoniker,System.String\u0026):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2952,7 +2952,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IMoniker::ParseDisplayName(System.Runtime.InteropServices.ComTypes.IBindCtx,System.Runtime.InteropServices.ComTypes.IMoniker,System.String,System.Int32\u0026,System.Runtime.InteropServices.ComTypes.IMoniker\u0026):System.Void",
           "clrName": "ParseDisplayName",
-          "tsEmitName": "ParseDisplayName",
+          "tsEmitName": "parseDisplayName",
           "normalizedSignature": "ParseDisplayName|(System.Runtime.InteropServices.ComTypes.IBindCtx,System.Runtime.InteropServices.ComTypes.IMoniker,System.String,System.Int32\u0026,System.Runtime.InteropServices.ComTypes.IMoniker\u0026):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2968,7 +2968,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IMoniker::IsSystemMoniker(System.Int32\u0026):System.Int32",
           "clrName": "IsSystemMoniker",
-          "tsEmitName": "IsSystemMoniker",
+          "tsEmitName": "isSystemMoniker",
           "normalizedSignature": "IsSystemMoniker|(System.Int32\u0026):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3001,7 +3001,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IPersistFile::GetClassID(System.Guid\u0026):System.Void",
           "clrName": "GetClassID",
-          "tsEmitName": "GetClassID",
+          "tsEmitName": "getClassID",
           "normalizedSignature": "GetClassID|(System.Guid\u0026):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3017,7 +3017,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IPersistFile::IsDirty():System.Int32",
           "clrName": "IsDirty",
-          "tsEmitName": "IsDirty",
+          "tsEmitName": "isDirty",
           "normalizedSignature": "IsDirty|():System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3033,7 +3033,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IPersistFile::Load(System.String,System.Int32):System.Void",
           "clrName": "Load",
-          "tsEmitName": "Load",
+          "tsEmitName": "load",
           "normalizedSignature": "Load|(System.String,System.Int32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3049,7 +3049,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IPersistFile::Save(System.String,System.Boolean):System.Void",
           "clrName": "Save",
-          "tsEmitName": "Save",
+          "tsEmitName": "save",
           "normalizedSignature": "Save|(System.String,System.Boolean):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3065,7 +3065,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IPersistFile::SaveCompleted(System.String):System.Void",
           "clrName": "SaveCompleted",
-          "tsEmitName": "SaveCompleted",
+          "tsEmitName": "saveCompleted",
           "normalizedSignature": "SaveCompleted|(System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3081,7 +3081,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IPersistFile::GetCurFile(System.String\u0026):System.Void",
           "clrName": "GetCurFile",
-          "tsEmitName": "GetCurFile",
+          "tsEmitName": "getCurFile",
           "normalizedSignature": "GetCurFile|(System.String\u0026):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3114,7 +3114,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IRunningObjectTable::Register(System.Int32,System.Object,System.Runtime.InteropServices.ComTypes.IMoniker):System.Int32",
           "clrName": "Register",
-          "tsEmitName": "Register",
+          "tsEmitName": "register",
           "normalizedSignature": "Register|(System.Int32,System.Object,System.Runtime.InteropServices.ComTypes.IMoniker):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3130,7 +3130,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IRunningObjectTable::Revoke(System.Int32):System.Void",
           "clrName": "Revoke",
-          "tsEmitName": "Revoke",
+          "tsEmitName": "revoke",
           "normalizedSignature": "Revoke|(System.Int32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3146,7 +3146,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IRunningObjectTable::IsRunning(System.Runtime.InteropServices.ComTypes.IMoniker):System.Int32",
           "clrName": "IsRunning",
-          "tsEmitName": "IsRunning",
+          "tsEmitName": "isRunning",
           "normalizedSignature": "IsRunning|(System.Runtime.InteropServices.ComTypes.IMoniker):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3162,7 +3162,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IRunningObjectTable::GetObject(System.Runtime.InteropServices.ComTypes.IMoniker,System.Object\u0026):System.Int32",
           "clrName": "GetObject",
-          "tsEmitName": "GetObject",
+          "tsEmitName": "getObject",
           "normalizedSignature": "GetObject|(System.Runtime.InteropServices.ComTypes.IMoniker,System.Object\u0026):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3178,7 +3178,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IRunningObjectTable::NoteChangeTime(System.Int32,System.Runtime.InteropServices.ComTypes.FILETIME\u0026):System.Void",
           "clrName": "NoteChangeTime",
-          "tsEmitName": "NoteChangeTime",
+          "tsEmitName": "noteChangeTime",
           "normalizedSignature": "NoteChangeTime|(System.Int32,System.Runtime.InteropServices.ComTypes.FILETIME\u0026):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3194,7 +3194,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IRunningObjectTable::GetTimeOfLastChange(System.Runtime.InteropServices.ComTypes.IMoniker,System.Runtime.InteropServices.ComTypes.FILETIME\u0026):System.Int32",
           "clrName": "GetTimeOfLastChange",
-          "tsEmitName": "GetTimeOfLastChange",
+          "tsEmitName": "getTimeOfLastChange",
           "normalizedSignature": "GetTimeOfLastChange|(System.Runtime.InteropServices.ComTypes.IMoniker,System.Runtime.InteropServices.ComTypes.FILETIME\u0026):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3210,7 +3210,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IRunningObjectTable::EnumRunning(System.Runtime.InteropServices.ComTypes.IEnumMoniker\u0026):System.Void",
           "clrName": "EnumRunning",
-          "tsEmitName": "EnumRunning",
+          "tsEmitName": "enumRunning",
           "normalizedSignature": "EnumRunning|(System.Runtime.InteropServices.ComTypes.IEnumMoniker\u0026):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3243,7 +3243,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IStream::Read(System.Byte[],System.Int32,System.IntPtr):System.Void",
           "clrName": "Read",
-          "tsEmitName": "Read",
+          "tsEmitName": "read",
           "normalizedSignature": "Read|(System.Byte[],System.Int32,System.IntPtr):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3259,7 +3259,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IStream::Seek(System.Int64,System.Int32,System.IntPtr):System.Void",
           "clrName": "Seek",
-          "tsEmitName": "Seek",
+          "tsEmitName": "seek",
           "normalizedSignature": "Seek|(System.Int64,System.Int32,System.IntPtr):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3275,7 +3275,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IStream::SetSize(System.Int64):System.Void",
           "clrName": "SetSize",
-          "tsEmitName": "SetSize",
+          "tsEmitName": "setSize",
           "normalizedSignature": "SetSize|(System.Int64):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3291,7 +3291,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IStream::CopyTo(System.Runtime.InteropServices.ComTypes.IStream,System.Int64,System.IntPtr,System.IntPtr):System.Void",
           "clrName": "CopyTo",
-          "tsEmitName": "CopyTo",
+          "tsEmitName": "copyTo",
           "normalizedSignature": "CopyTo|(System.Runtime.InteropServices.ComTypes.IStream,System.Int64,System.IntPtr,System.IntPtr):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3307,7 +3307,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IStream::Commit(System.Int32):System.Void",
           "clrName": "Commit",
-          "tsEmitName": "Commit",
+          "tsEmitName": "commit",
           "normalizedSignature": "Commit|(System.Int32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3323,7 +3323,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IStream::Revert():System.Void",
           "clrName": "Revert",
-          "tsEmitName": "Revert",
+          "tsEmitName": "revert",
           "normalizedSignature": "Revert|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3339,7 +3339,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IStream::LockRegion(System.Int64,System.Int64,System.Int32):System.Void",
           "clrName": "LockRegion",
-          "tsEmitName": "LockRegion",
+          "tsEmitName": "lockRegion",
           "normalizedSignature": "LockRegion|(System.Int64,System.Int64,System.Int32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3355,7 +3355,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IStream::Stat(System.Runtime.InteropServices.ComTypes.STATSTG\u0026,System.Int32):System.Void",
           "clrName": "Stat",
-          "tsEmitName": "Stat",
+          "tsEmitName": "stat",
           "normalizedSignature": "Stat|(System.Runtime.InteropServices.ComTypes.STATSTG\u0026,System.Int32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3371,7 +3371,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IStream::Clone(System.Runtime.InteropServices.ComTypes.IStream\u0026):System.Void",
           "clrName": "Clone",
-          "tsEmitName": "Clone",
+          "tsEmitName": "clone",
           "normalizedSignature": "Clone|(System.Runtime.InteropServices.ComTypes.IStream\u0026):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3404,7 +3404,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.ITypeComp::Bind(System.String,System.Int32,System.Int16,System.Runtime.InteropServices.ComTypes.ITypeInfo\u0026,System.Runtime.InteropServices.ComTypes.DESCKIND\u0026,System.Runtime.InteropServices.ComTypes.BINDPTR\u0026):System.Void",
           "clrName": "Bind",
-          "tsEmitName": "Bind",
+          "tsEmitName": "bind",
           "normalizedSignature": "Bind|(System.String,System.Int32,System.Int16,System.Runtime.InteropServices.ComTypes.ITypeInfo\u0026,System.Runtime.InteropServices.ComTypes.DESCKIND\u0026,System.Runtime.InteropServices.ComTypes.BINDPTR\u0026):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3420,7 +3420,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.ITypeComp::BindType(System.String,System.Int32,System.Runtime.InteropServices.ComTypes.ITypeInfo\u0026,System.Runtime.InteropServices.ComTypes.ITypeComp\u0026):System.Void",
           "clrName": "BindType",
-          "tsEmitName": "BindType",
+          "tsEmitName": "bindType",
           "normalizedSignature": "BindType|(System.String,System.Int32,System.Runtime.InteropServices.ComTypes.ITypeInfo\u0026,System.Runtime.InteropServices.ComTypes.ITypeComp\u0026):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3453,7 +3453,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.ITypeInfo::GetTypeAttr(System.IntPtr\u0026):System.Void",
           "clrName": "GetTypeAttr",
-          "tsEmitName": "GetTypeAttr",
+          "tsEmitName": "getTypeAttr",
           "normalizedSignature": "GetTypeAttr|(System.IntPtr\u0026):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3469,7 +3469,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.ITypeInfo::GetTypeComp(System.Runtime.InteropServices.ComTypes.ITypeComp\u0026):System.Void",
           "clrName": "GetTypeComp",
-          "tsEmitName": "GetTypeComp",
+          "tsEmitName": "getTypeComp",
           "normalizedSignature": "GetTypeComp|(System.Runtime.InteropServices.ComTypes.ITypeComp\u0026):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3485,7 +3485,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.ITypeInfo::GetFuncDesc(System.Int32,System.IntPtr\u0026):System.Void",
           "clrName": "GetFuncDesc",
-          "tsEmitName": "GetFuncDesc",
+          "tsEmitName": "getFuncDesc",
           "normalizedSignature": "GetFuncDesc|(System.Int32,System.IntPtr\u0026):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3501,7 +3501,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.ITypeInfo::GetNames(System.Int32,System.String[],System.Int32,System.Int32\u0026):System.Void",
           "clrName": "GetNames",
-          "tsEmitName": "GetNames",
+          "tsEmitName": "getNames",
           "normalizedSignature": "GetNames|(System.Int32,System.String[],System.Int32,System.Int32\u0026):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3517,7 +3517,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.ITypeInfo::GetRefTypeOfImplType(System.Int32,System.Int32\u0026):System.Void",
           "clrName": "GetRefTypeOfImplType",
-          "tsEmitName": "GetRefTypeOfImplType",
+          "tsEmitName": "getRefTypeOfImplType",
           "normalizedSignature": "GetRefTypeOfImplType|(System.Int32,System.Int32\u0026):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3533,7 +3533,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.ITypeInfo::GetImplTypeFlags(System.Int32,System.Runtime.InteropServices.ComTypes.IMPLTYPEFLAGS\u0026):System.Void",
           "clrName": "GetImplTypeFlags",
-          "tsEmitName": "GetImplTypeFlags",
+          "tsEmitName": "getImplTypeFlags",
           "normalizedSignature": "GetImplTypeFlags|(System.Int32,System.Runtime.InteropServices.ComTypes.IMPLTYPEFLAGS\u0026):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3549,7 +3549,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.ITypeInfo::GetIDsOfNames(System.String[],System.Int32,System.Int32[]):System.Void",
           "clrName": "GetIDsOfNames",
-          "tsEmitName": "GetIDsOfNames",
+          "tsEmitName": "getIDsOfNames",
           "normalizedSignature": "GetIDsOfNames|(System.String[],System.Int32,System.Int32[]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3565,7 +3565,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.ITypeInfo::Invoke(System.Object,System.Int32,System.Int16,System.Runtime.InteropServices.ComTypes.DISPPARAMS\u0026,System.IntPtr,System.IntPtr,System.Int32\u0026):System.Void",
           "clrName": "Invoke",
-          "tsEmitName": "Invoke",
+          "tsEmitName": "invoke",
           "normalizedSignature": "Invoke|(System.Object,System.Int32,System.Int16,System.Runtime.InteropServices.ComTypes.DISPPARAMS\u0026,System.IntPtr,System.IntPtr,System.Int32\u0026):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3581,7 +3581,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.ITypeInfo::GetDocumentation(System.Int32,System.String\u0026,System.String\u0026,System.Int32\u0026,System.String\u0026):System.Void",
           "clrName": "GetDocumentation",
-          "tsEmitName": "GetDocumentation",
+          "tsEmitName": "getDocumentation",
           "normalizedSignature": "GetDocumentation|(System.Int32,System.String\u0026,System.String\u0026,System.Int32\u0026,System.String\u0026):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3597,7 +3597,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.ITypeInfo::GetDllEntry(System.Int32,System.Runtime.InteropServices.ComTypes.INVOKEKIND,System.IntPtr,System.IntPtr,System.IntPtr):System.Void",
           "clrName": "GetDllEntry",
-          "tsEmitName": "GetDllEntry",
+          "tsEmitName": "getDllEntry",
           "normalizedSignature": "GetDllEntry|(System.Int32,System.Runtime.InteropServices.ComTypes.INVOKEKIND,System.IntPtr,System.IntPtr,System.IntPtr):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3613,7 +3613,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.ITypeInfo::GetRefTypeInfo(System.Int32,System.Runtime.InteropServices.ComTypes.ITypeInfo\u0026):System.Void",
           "clrName": "GetRefTypeInfo",
-          "tsEmitName": "GetRefTypeInfo",
+          "tsEmitName": "getRefTypeInfo",
           "normalizedSignature": "GetRefTypeInfo|(System.Int32,System.Runtime.InteropServices.ComTypes.ITypeInfo\u0026):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3629,7 +3629,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.ITypeInfo::AddressOfMember(System.Int32,System.Runtime.InteropServices.ComTypes.INVOKEKIND,System.IntPtr\u0026):System.Void",
           "clrName": "AddressOfMember",
-          "tsEmitName": "AddressOfMember",
+          "tsEmitName": "addressOfMember",
           "normalizedSignature": "AddressOfMember|(System.Int32,System.Runtime.InteropServices.ComTypes.INVOKEKIND,System.IntPtr\u0026):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3645,7 +3645,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.ITypeInfo::CreateInstance(System.Object,System.Guid\u0026,System.Object\u0026):System.Void",
           "clrName": "CreateInstance",
-          "tsEmitName": "CreateInstance",
+          "tsEmitName": "createInstance",
           "normalizedSignature": "CreateInstance|(System.Object,System.Guid\u0026,System.Object\u0026):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3661,7 +3661,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.ITypeInfo::GetMops(System.Int32,System.String\u0026):System.Void",
           "clrName": "GetMops",
-          "tsEmitName": "GetMops",
+          "tsEmitName": "getMops",
           "normalizedSignature": "GetMops|(System.Int32,System.String\u0026):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3677,7 +3677,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.ITypeInfo::GetContainingTypeLib(System.Runtime.InteropServices.ComTypes.ITypeLib\u0026,System.Int32\u0026):System.Void",
           "clrName": "GetContainingTypeLib",
-          "tsEmitName": "GetContainingTypeLib",
+          "tsEmitName": "getContainingTypeLib",
           "normalizedSignature": "GetContainingTypeLib|(System.Runtime.InteropServices.ComTypes.ITypeLib\u0026,System.Int32\u0026):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3693,7 +3693,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.ITypeInfo::ReleaseTypeAttr(System.IntPtr):System.Void",
           "clrName": "ReleaseTypeAttr",
-          "tsEmitName": "ReleaseTypeAttr",
+          "tsEmitName": "releaseTypeAttr",
           "normalizedSignature": "ReleaseTypeAttr|(System.IntPtr):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3726,7 +3726,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.ITypeInfo2::GetTypeAttr(System.IntPtr\u0026):System.Void",
           "clrName": "GetTypeAttr",
-          "tsEmitName": "GetTypeAttr",
+          "tsEmitName": "getTypeAttr",
           "normalizedSignature": "GetTypeAttr|(System.IntPtr\u0026):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3742,7 +3742,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.ITypeInfo2::GetTypeComp(System.Runtime.InteropServices.ComTypes.ITypeComp\u0026):System.Void",
           "clrName": "GetTypeComp",
-          "tsEmitName": "GetTypeComp",
+          "tsEmitName": "getTypeComp",
           "normalizedSignature": "GetTypeComp|(System.Runtime.InteropServices.ComTypes.ITypeComp\u0026):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3758,7 +3758,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.ITypeInfo2::GetFuncDesc(System.Int32,System.IntPtr\u0026):System.Void",
           "clrName": "GetFuncDesc",
-          "tsEmitName": "GetFuncDesc",
+          "tsEmitName": "getFuncDesc",
           "normalizedSignature": "GetFuncDesc|(System.Int32,System.IntPtr\u0026):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3774,7 +3774,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.ITypeInfo2::GetNames(System.Int32,System.String[],System.Int32,System.Int32\u0026):System.Void",
           "clrName": "GetNames",
-          "tsEmitName": "GetNames",
+          "tsEmitName": "getNames",
           "normalizedSignature": "GetNames|(System.Int32,System.String[],System.Int32,System.Int32\u0026):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3790,7 +3790,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.ITypeInfo2::GetRefTypeOfImplType(System.Int32,System.Int32\u0026):System.Void",
           "clrName": "GetRefTypeOfImplType",
-          "tsEmitName": "GetRefTypeOfImplType",
+          "tsEmitName": "getRefTypeOfImplType",
           "normalizedSignature": "GetRefTypeOfImplType|(System.Int32,System.Int32\u0026):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3806,7 +3806,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.ITypeInfo2::GetImplTypeFlags(System.Int32,System.Runtime.InteropServices.ComTypes.IMPLTYPEFLAGS\u0026):System.Void",
           "clrName": "GetImplTypeFlags",
-          "tsEmitName": "GetImplTypeFlags",
+          "tsEmitName": "getImplTypeFlags",
           "normalizedSignature": "GetImplTypeFlags|(System.Int32,System.Runtime.InteropServices.ComTypes.IMPLTYPEFLAGS\u0026):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3822,7 +3822,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.ITypeInfo2::GetIDsOfNames(System.String[],System.Int32,System.Int32[]):System.Void",
           "clrName": "GetIDsOfNames",
-          "tsEmitName": "GetIDsOfNames",
+          "tsEmitName": "getIDsOfNames",
           "normalizedSignature": "GetIDsOfNames|(System.String[],System.Int32,System.Int32[]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3838,7 +3838,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.ITypeInfo2::Invoke(System.Object,System.Int32,System.Int16,System.Runtime.InteropServices.ComTypes.DISPPARAMS\u0026,System.IntPtr,System.IntPtr,System.Int32\u0026):System.Void",
           "clrName": "Invoke",
-          "tsEmitName": "Invoke",
+          "tsEmitName": "invoke",
           "normalizedSignature": "Invoke|(System.Object,System.Int32,System.Int16,System.Runtime.InteropServices.ComTypes.DISPPARAMS\u0026,System.IntPtr,System.IntPtr,System.Int32\u0026):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3854,7 +3854,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.ITypeInfo2::GetDocumentation(System.Int32,System.String\u0026,System.String\u0026,System.Int32\u0026,System.String\u0026):System.Void",
           "clrName": "GetDocumentation",
-          "tsEmitName": "GetDocumentation",
+          "tsEmitName": "getDocumentation",
           "normalizedSignature": "GetDocumentation|(System.Int32,System.String\u0026,System.String\u0026,System.Int32\u0026,System.String\u0026):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3870,7 +3870,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.ITypeInfo2::GetDllEntry(System.Int32,System.Runtime.InteropServices.ComTypes.INVOKEKIND,System.IntPtr,System.IntPtr,System.IntPtr):System.Void",
           "clrName": "GetDllEntry",
-          "tsEmitName": "GetDllEntry",
+          "tsEmitName": "getDllEntry",
           "normalizedSignature": "GetDllEntry|(System.Int32,System.Runtime.InteropServices.ComTypes.INVOKEKIND,System.IntPtr,System.IntPtr,System.IntPtr):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3886,7 +3886,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.ITypeInfo2::GetRefTypeInfo(System.Int32,System.Runtime.InteropServices.ComTypes.ITypeInfo\u0026):System.Void",
           "clrName": "GetRefTypeInfo",
-          "tsEmitName": "GetRefTypeInfo",
+          "tsEmitName": "getRefTypeInfo",
           "normalizedSignature": "GetRefTypeInfo|(System.Int32,System.Runtime.InteropServices.ComTypes.ITypeInfo\u0026):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3902,7 +3902,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.ITypeInfo2::AddressOfMember(System.Int32,System.Runtime.InteropServices.ComTypes.INVOKEKIND,System.IntPtr\u0026):System.Void",
           "clrName": "AddressOfMember",
-          "tsEmitName": "AddressOfMember",
+          "tsEmitName": "addressOfMember",
           "normalizedSignature": "AddressOfMember|(System.Int32,System.Runtime.InteropServices.ComTypes.INVOKEKIND,System.IntPtr\u0026):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3918,7 +3918,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.ITypeInfo2::CreateInstance(System.Object,System.Guid\u0026,System.Object\u0026):System.Void",
           "clrName": "CreateInstance",
-          "tsEmitName": "CreateInstance",
+          "tsEmitName": "createInstance",
           "normalizedSignature": "CreateInstance|(System.Object,System.Guid\u0026,System.Object\u0026):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3934,7 +3934,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.ITypeInfo2::GetMops(System.Int32,System.String\u0026):System.Void",
           "clrName": "GetMops",
-          "tsEmitName": "GetMops",
+          "tsEmitName": "getMops",
           "normalizedSignature": "GetMops|(System.Int32,System.String\u0026):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3950,7 +3950,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.ITypeInfo2::GetContainingTypeLib(System.Runtime.InteropServices.ComTypes.ITypeLib\u0026,System.Int32\u0026):System.Void",
           "clrName": "GetContainingTypeLib",
-          "tsEmitName": "GetContainingTypeLib",
+          "tsEmitName": "getContainingTypeLib",
           "normalizedSignature": "GetContainingTypeLib|(System.Runtime.InteropServices.ComTypes.ITypeLib\u0026,System.Int32\u0026):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3966,7 +3966,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.ITypeInfo2::ReleaseTypeAttr(System.IntPtr):System.Void",
           "clrName": "ReleaseTypeAttr",
-          "tsEmitName": "ReleaseTypeAttr",
+          "tsEmitName": "releaseTypeAttr",
           "normalizedSignature": "ReleaseTypeAttr|(System.IntPtr):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3982,7 +3982,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.ITypeInfo2::GetTypeKind(System.Runtime.InteropServices.ComTypes.TYPEKIND\u0026):System.Void",
           "clrName": "GetTypeKind",
-          "tsEmitName": "GetTypeKind",
+          "tsEmitName": "getTypeKind",
           "normalizedSignature": "GetTypeKind|(System.Runtime.InteropServices.ComTypes.TYPEKIND\u0026):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3998,7 +3998,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.ITypeInfo2::GetTypeFlags(System.Int32\u0026):System.Void",
           "clrName": "GetTypeFlags",
-          "tsEmitName": "GetTypeFlags",
+          "tsEmitName": "getTypeFlags",
           "normalizedSignature": "GetTypeFlags|(System.Int32\u0026):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4014,7 +4014,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.ITypeInfo2::GetFuncIndexOfMemId(System.Int32,System.Runtime.InteropServices.ComTypes.INVOKEKIND,System.Int32\u0026):System.Void",
           "clrName": "GetFuncIndexOfMemId",
-          "tsEmitName": "GetFuncIndexOfMemId",
+          "tsEmitName": "getFuncIndexOfMemId",
           "normalizedSignature": "GetFuncIndexOfMemId|(System.Int32,System.Runtime.InteropServices.ComTypes.INVOKEKIND,System.Int32\u0026):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4030,7 +4030,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.ITypeInfo2::GetCustData(System.Guid\u0026,System.Object\u0026):System.Void",
           "clrName": "GetCustData",
-          "tsEmitName": "GetCustData",
+          "tsEmitName": "getCustData",
           "normalizedSignature": "GetCustData|(System.Guid\u0026,System.Object\u0026):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4046,7 +4046,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.ITypeInfo2::GetFuncCustData(System.Int32,System.Guid\u0026,System.Object\u0026):System.Void",
           "clrName": "GetFuncCustData",
-          "tsEmitName": "GetFuncCustData",
+          "tsEmitName": "getFuncCustData",
           "normalizedSignature": "GetFuncCustData|(System.Int32,System.Guid\u0026,System.Object\u0026):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4062,7 +4062,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.ITypeInfo2::GetParamCustData(System.Int32,System.Int32,System.Guid\u0026,System.Object\u0026):System.Void",
           "clrName": "GetParamCustData",
-          "tsEmitName": "GetParamCustData",
+          "tsEmitName": "getParamCustData",
           "normalizedSignature": "GetParamCustData|(System.Int32,System.Int32,System.Guid\u0026,System.Object\u0026):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4078,7 +4078,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.ITypeInfo2::GetDocumentation2(System.Int32,System.String\u0026,System.Int32\u0026,System.String\u0026):System.Void",
           "clrName": "GetDocumentation2",
-          "tsEmitName": "GetDocumentation2",
+          "tsEmitName": "getDocumentation2",
           "normalizedSignature": "GetDocumentation2|(System.Int32,System.String\u0026,System.Int32\u0026,System.String\u0026):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4094,7 +4094,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.ITypeInfo2::GetAllFuncCustData(System.Int32,System.IntPtr):System.Void",
           "clrName": "GetAllFuncCustData",
-          "tsEmitName": "GetAllFuncCustData",
+          "tsEmitName": "getAllFuncCustData",
           "normalizedSignature": "GetAllFuncCustData|(System.Int32,System.IntPtr):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4110,7 +4110,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.ITypeInfo2::GetAllParamCustData(System.Int32,System.Int32,System.IntPtr):System.Void",
           "clrName": "GetAllParamCustData",
-          "tsEmitName": "GetAllParamCustData",
+          "tsEmitName": "getAllParamCustData",
           "normalizedSignature": "GetAllParamCustData|(System.Int32,System.Int32,System.IntPtr):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4143,7 +4143,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.ITypeLib::GetTypeInfoCount():System.Int32",
           "clrName": "GetTypeInfoCount",
-          "tsEmitName": "GetTypeInfoCount",
+          "tsEmitName": "getTypeInfoCount",
           "normalizedSignature": "GetTypeInfoCount|():System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4159,7 +4159,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.ITypeLib::GetTypeInfo(System.Int32,System.Runtime.InteropServices.ComTypes.ITypeInfo\u0026):System.Void",
           "clrName": "GetTypeInfo",
-          "tsEmitName": "GetTypeInfo",
+          "tsEmitName": "getTypeInfo",
           "normalizedSignature": "GetTypeInfo|(System.Int32,System.Runtime.InteropServices.ComTypes.ITypeInfo\u0026):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4175,7 +4175,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.ITypeLib::GetTypeInfoType(System.Int32,System.Runtime.InteropServices.ComTypes.TYPEKIND\u0026):System.Void",
           "clrName": "GetTypeInfoType",
-          "tsEmitName": "GetTypeInfoType",
+          "tsEmitName": "getTypeInfoType",
           "normalizedSignature": "GetTypeInfoType|(System.Int32,System.Runtime.InteropServices.ComTypes.TYPEKIND\u0026):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4191,7 +4191,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.ITypeLib::GetTypeInfoOfGuid(System.Guid\u0026,System.Runtime.InteropServices.ComTypes.ITypeInfo\u0026):System.Void",
           "clrName": "GetTypeInfoOfGuid",
-          "tsEmitName": "GetTypeInfoOfGuid",
+          "tsEmitName": "getTypeInfoOfGuid",
           "normalizedSignature": "GetTypeInfoOfGuid|(System.Guid\u0026,System.Runtime.InteropServices.ComTypes.ITypeInfo\u0026):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4207,7 +4207,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.ITypeLib::GetLibAttr(System.IntPtr\u0026):System.Void",
           "clrName": "GetLibAttr",
-          "tsEmitName": "GetLibAttr",
+          "tsEmitName": "getLibAttr",
           "normalizedSignature": "GetLibAttr|(System.IntPtr\u0026):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4223,7 +4223,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.ITypeLib::GetTypeComp(System.Runtime.InteropServices.ComTypes.ITypeComp\u0026):System.Void",
           "clrName": "GetTypeComp",
-          "tsEmitName": "GetTypeComp",
+          "tsEmitName": "getTypeComp",
           "normalizedSignature": "GetTypeComp|(System.Runtime.InteropServices.ComTypes.ITypeComp\u0026):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4239,7 +4239,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.ITypeLib::GetDocumentation(System.Int32,System.String\u0026,System.String\u0026,System.Int32\u0026,System.String\u0026):System.Void",
           "clrName": "GetDocumentation",
-          "tsEmitName": "GetDocumentation",
+          "tsEmitName": "getDocumentation",
           "normalizedSignature": "GetDocumentation|(System.Int32,System.String\u0026,System.String\u0026,System.Int32\u0026,System.String\u0026):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4255,7 +4255,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.ITypeLib::IsName(System.String,System.Int32):System.Boolean",
           "clrName": "IsName",
-          "tsEmitName": "IsName",
+          "tsEmitName": "isName",
           "normalizedSignature": "IsName|(System.String,System.Int32):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4271,7 +4271,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.ITypeLib::FindName(System.String,System.Int32,System.Runtime.InteropServices.ComTypes.ITypeInfo[],System.Int32[],System.Int16\u0026):System.Void",
           "clrName": "FindName",
-          "tsEmitName": "FindName",
+          "tsEmitName": "findName",
           "normalizedSignature": "FindName|(System.String,System.Int32,System.Runtime.InteropServices.ComTypes.ITypeInfo[],System.Int32[],System.Int16\u0026):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4287,7 +4287,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.ITypeLib::ReleaseTLibAttr(System.IntPtr):System.Void",
           "clrName": "ReleaseTLibAttr",
-          "tsEmitName": "ReleaseTLibAttr",
+          "tsEmitName": "releaseTLibAttr",
           "normalizedSignature": "ReleaseTLibAttr|(System.IntPtr):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4320,7 +4320,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.ITypeLib2::GetTypeInfoCount():System.Int32",
           "clrName": "GetTypeInfoCount",
-          "tsEmitName": "GetTypeInfoCount",
+          "tsEmitName": "getTypeInfoCount",
           "normalizedSignature": "GetTypeInfoCount|():System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4336,7 +4336,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.ITypeLib2::GetTypeInfo(System.Int32,System.Runtime.InteropServices.ComTypes.ITypeInfo\u0026):System.Void",
           "clrName": "GetTypeInfo",
-          "tsEmitName": "GetTypeInfo",
+          "tsEmitName": "getTypeInfo",
           "normalizedSignature": "GetTypeInfo|(System.Int32,System.Runtime.InteropServices.ComTypes.ITypeInfo\u0026):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4352,7 +4352,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.ITypeLib2::GetTypeInfoType(System.Int32,System.Runtime.InteropServices.ComTypes.TYPEKIND\u0026):System.Void",
           "clrName": "GetTypeInfoType",
-          "tsEmitName": "GetTypeInfoType",
+          "tsEmitName": "getTypeInfoType",
           "normalizedSignature": "GetTypeInfoType|(System.Int32,System.Runtime.InteropServices.ComTypes.TYPEKIND\u0026):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4368,7 +4368,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.ITypeLib2::GetTypeInfoOfGuid(System.Guid\u0026,System.Runtime.InteropServices.ComTypes.ITypeInfo\u0026):System.Void",
           "clrName": "GetTypeInfoOfGuid",
-          "tsEmitName": "GetTypeInfoOfGuid",
+          "tsEmitName": "getTypeInfoOfGuid",
           "normalizedSignature": "GetTypeInfoOfGuid|(System.Guid\u0026,System.Runtime.InteropServices.ComTypes.ITypeInfo\u0026):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4384,7 +4384,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.ITypeLib2::GetLibAttr(System.IntPtr\u0026):System.Void",
           "clrName": "GetLibAttr",
-          "tsEmitName": "GetLibAttr",
+          "tsEmitName": "getLibAttr",
           "normalizedSignature": "GetLibAttr|(System.IntPtr\u0026):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4400,7 +4400,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.ITypeLib2::GetTypeComp(System.Runtime.InteropServices.ComTypes.ITypeComp\u0026):System.Void",
           "clrName": "GetTypeComp",
-          "tsEmitName": "GetTypeComp",
+          "tsEmitName": "getTypeComp",
           "normalizedSignature": "GetTypeComp|(System.Runtime.InteropServices.ComTypes.ITypeComp\u0026):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4416,7 +4416,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.ITypeLib2::GetDocumentation(System.Int32,System.String\u0026,System.String\u0026,System.Int32\u0026,System.String\u0026):System.Void",
           "clrName": "GetDocumentation",
-          "tsEmitName": "GetDocumentation",
+          "tsEmitName": "getDocumentation",
           "normalizedSignature": "GetDocumentation|(System.Int32,System.String\u0026,System.String\u0026,System.Int32\u0026,System.String\u0026):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4432,7 +4432,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.ITypeLib2::IsName(System.String,System.Int32):System.Boolean",
           "clrName": "IsName",
-          "tsEmitName": "IsName",
+          "tsEmitName": "isName",
           "normalizedSignature": "IsName|(System.String,System.Int32):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4448,7 +4448,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.ITypeLib2::FindName(System.String,System.Int32,System.Runtime.InteropServices.ComTypes.ITypeInfo[],System.Int32[],System.Int16\u0026):System.Void",
           "clrName": "FindName",
-          "tsEmitName": "FindName",
+          "tsEmitName": "findName",
           "normalizedSignature": "FindName|(System.String,System.Int32,System.Runtime.InteropServices.ComTypes.ITypeInfo[],System.Int32[],System.Int16\u0026):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4464,7 +4464,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.ITypeLib2::ReleaseTLibAttr(System.IntPtr):System.Void",
           "clrName": "ReleaseTLibAttr",
-          "tsEmitName": "ReleaseTLibAttr",
+          "tsEmitName": "releaseTLibAttr",
           "normalizedSignature": "ReleaseTLibAttr|(System.IntPtr):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4480,7 +4480,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.ITypeLib2::GetCustData(System.Guid\u0026,System.Object\u0026):System.Void",
           "clrName": "GetCustData",
-          "tsEmitName": "GetCustData",
+          "tsEmitName": "getCustData",
           "normalizedSignature": "GetCustData|(System.Guid\u0026,System.Object\u0026):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4496,7 +4496,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.ITypeLib2::GetLibStatistics(System.IntPtr,System.Int32\u0026):System.Void",
           "clrName": "GetLibStatistics",
-          "tsEmitName": "GetLibStatistics",
+          "tsEmitName": "getLibStatistics",
           "normalizedSignature": "GetLibStatistics|(System.IntPtr,System.Int32\u0026):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4512,7 +4512,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.ITypeLib2::GetDocumentation2(System.Int32,System.String\u0026,System.Int32\u0026,System.String\u0026):System.Void",
           "clrName": "GetDocumentation2",
-          "tsEmitName": "GetDocumentation2",
+          "tsEmitName": "getDocumentation2",
           "normalizedSignature": "GetDocumentation2|(System.Int32,System.String\u0026,System.Int32\u0026,System.String\u0026):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5405,7 +5405,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.TYPEATTR::MEMBER_ID_NILSystem.Int32",
           "clrName": "MEMBER_ID_NIL",
-          "tsEmitName": "MEMBER_ID_NIL",
+          "tsEmitName": "member_id_nil",
           "normalizedSignature": "MEMBER_ID_NIL|System.Int32|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,

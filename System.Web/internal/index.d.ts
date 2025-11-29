@@ -38,7 +38,7 @@ export type CLROf<T> =
     T; // Identity fallback for non-primitive types
 
 export interface IHtmlString$instance {
-    ToHtmlString(): string;
+    toHtmlString(): string;
 }
 
 
@@ -46,36 +46,36 @@ export type IHtmlString = IHtmlString$instance;
 
 export class HttpUtility$instance {
     constructor();
-    static HtmlAttributeEncode(s: string, output: TextWriter): void;
-    static HtmlAttributeEncode(s: string): string;
-    static HtmlDecode(s: string, output: TextWriter): void;
-    static HtmlDecode(s: string): string;
-    static HtmlEncode(value: unknown): string;
-    static HtmlEncode(s: string, output: TextWriter): void;
-    static HtmlEncode(s: string): string;
-    static JavaScriptStringEncode(value: string, addDoubleQuotes: boolean): string;
-    static JavaScriptStringEncode(value: string): string;
-    static ParseQueryString(query: string, encoding: Encoding): NameValueCollection;
-    static ParseQueryString(query: string): NameValueCollection;
-    static UrlDecode(bytes: byte[], offset: int, count: int, e: Encoding): string;
-    static UrlDecode(bytes: byte[], e: Encoding): string;
-    static UrlDecode(str: string, e: Encoding): string;
-    static UrlDecode(str: string): string;
-    static UrlDecodeToBytes(bytes: byte[], offset: int, count: int): byte[];
-    static UrlDecodeToBytes(bytes: byte[]): byte[];
-    static UrlDecodeToBytes(str: string, e: Encoding): byte[];
-    static UrlDecodeToBytes(str: string): byte[];
-    static UrlEncode(bytes: byte[], offset: int, count: int): string;
-    static UrlEncode(bytes: byte[]): string;
-    static UrlEncode(str: string, e: Encoding): string;
-    static UrlEncode(str: string): string;
-    static UrlEncodeToBytes(bytes: byte[], offset: int, count: int): byte[];
-    static UrlEncodeToBytes(bytes: byte[]): byte[];
-    static UrlEncodeToBytes(str: string, e: Encoding): byte[];
-    static UrlEncodeToBytes(str: string): byte[];
-    static UrlEncodeUnicode(str: string): string;
-    static UrlEncodeUnicodeToBytes(str: string): byte[];
-    static UrlPathEncode(str: string): string;
+    static htmlAttributeEncode(s: string, output: TextWriter): void;
+    static htmlAttributeEncode(s: string): string;
+    static htmlDecode(s: string, output: TextWriter): void;
+    static htmlDecode(s: string): string;
+    static htmlEncode(value: unknown): string;
+    static htmlEncode(s: string, output: TextWriter): void;
+    static htmlEncode(s: string): string;
+    static javaScriptStringEncode(value: string, addDoubleQuotes: boolean): string;
+    static javaScriptStringEncode(value: string): string;
+    static parseQueryString(query: string, encoding: Encoding): NameValueCollection;
+    static parseQueryString(query: string): NameValueCollection;
+    static urlDecode(bytes: byte[], offset: int, count: int, e: Encoding): string;
+    static urlDecode(bytes: byte[], e: Encoding): string;
+    static urlDecode(str: string, e: Encoding): string;
+    static urlDecode(str: string): string;
+    static urlDecodeToBytes(bytes: byte[], offset: int, count: int): byte[];
+    static urlDecodeToBytes(bytes: byte[]): byte[];
+    static urlDecodeToBytes(str: string, e: Encoding): byte[];
+    static urlDecodeToBytes(str: string): byte[];
+    static urlEncode(bytes: byte[], offset: int, count: int): string;
+    static urlEncode(bytes: byte[]): string;
+    static urlEncode(str: string, e: Encoding): string;
+    static urlEncode(str: string): string;
+    static urlEncodeToBytes(bytes: byte[], offset: int, count: int): byte[];
+    static urlEncodeToBytes(bytes: byte[]): byte[];
+    static urlEncodeToBytes(str: string, e: Encoding): byte[];
+    static urlEncodeToBytes(str: string): byte[];
+    static urlEncodeUnicode(str: string): string;
+    static urlEncodeUnicodeToBytes(str: string): byte[];
+    static urlPathEncode(str: string): string;
 }
 
 

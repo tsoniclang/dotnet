@@ -42,25 +42,25 @@ export type CLROf<T> =
     T; // Identity fallback for non-primitive types
 
 export enum OperationStatus {
-    Done = 0,
-    DestinationTooSmall = 1,
-    NeedMoreData = 2,
-    InvalidData = 3
+    done = 0,
+    destinationTooSmall = 1,
+    needMoreData = 2,
+    invalidData = 3
 }
 
 
 export interface IBufferWriter_1$instance<T> {
-    Advance(count: int): void;
-    GetMemory(sizeHint?: int): Memory_1<T>;
-    GetSpan(sizeHint?: int): Span_1<T>;
+    advance(count: int): void;
+    getMemory(sizeHint?: int): Memory_1<T>;
+    getSpan(sizeHint?: int): Span_1<T>;
 }
 
 
 export type IBufferWriter_1<T> = IBufferWriter_1$instance<T>;
 
 export interface IMemoryOwner_1$instance<T> extends IDisposable {
-    readonly Memory: Memory_1<T>;
-    Dispose(): void;
+    readonly memory: Memory_1<T>;
+    dispose(): void;
 }
 
 
@@ -69,8 +69,8 @@ export interface IMemoryOwner_1$instance<T> extends System_Internal.IDisposable$
 export type IMemoryOwner_1<T> = IMemoryOwner_1$instance<T>;
 
 export interface IPinnable$instance {
-    Pin(elementIndex: int): MemoryHandle;
-    Unpin(): void;
+    pin(elementIndex: int): MemoryHandle;
+    unpin(): void;
 }
 
 
@@ -78,8 +78,8 @@ export type IPinnable = IPinnable$instance;
 
 export class MemoryHandle$instance {
     constructor(pointer: ptr<void>, handle: GCHandle, pinnable: IPinnable);
-    readonly Pointer: ptr<void>;
-    Dispose(): void;
+    readonly pointer: ptr<void>;
+    dispose(): void;
 }
 
 
@@ -97,29 +97,29 @@ export class ReadOnlySequence_1$instance<T> {
     constructor(array: T[]);
     constructor(array: T[], start: int, length: int);
     constructor(memory: ReadOnlyMemory_1<T>);
-    readonly End: SequencePosition;
-    readonly First: ReadOnlyMemory_1<T>;
-    readonly FirstSpan: ReadOnlySpan_1<T>;
-    readonly IsEmpty: boolean;
-    readonly IsSingleSegment: boolean;
-    readonly Length: long;
-    readonly Start: SequencePosition;
-    GetEnumerator(): ReadOnlySequence_1_Enumerator<T>;
-    GetOffset(position: SequencePosition): long;
-    GetPosition(offset: long): SequencePosition;
-    GetPosition(offset: long, origin: SequencePosition): SequencePosition;
-    Slice(start: long, length: long): ReadOnlySequence_1<T>;
-    Slice(start: long, end: SequencePosition): ReadOnlySequence_1<T>;
-    Slice(start: SequencePosition, length: long): ReadOnlySequence_1<T>;
-    Slice(start: int, length: int): ReadOnlySequence_1<T>;
-    Slice(start: int, end: SequencePosition): ReadOnlySequence_1<T>;
-    Slice(start: SequencePosition, length: int): ReadOnlySequence_1<T>;
-    Slice(start: SequencePosition, end: SequencePosition): ReadOnlySequence_1<T>;
-    Slice(start: SequencePosition): ReadOnlySequence_1<T>;
-    Slice(start: long): ReadOnlySequence_1<T>;
-    ToString(): string;
-    TryGet(position: { value: ref<SequencePosition> }, memory: { value: ref<ReadOnlyMemory_1<T>> }, advance?: boolean): boolean;
-    static readonly Empty: unknown;
+    readonly end: SequencePosition;
+    readonly first: ReadOnlyMemory_1<T>;
+    readonly firstSpan: ReadOnlySpan_1<T>;
+    readonly isEmpty: boolean;
+    readonly isSingleSegment: boolean;
+    readonly length: long;
+    readonly start: SequencePosition;
+    getEnumerator(): ReadOnlySequence_1_Enumerator<T>;
+    getOffset(position: SequencePosition): long;
+    getPosition(offset: long): SequencePosition;
+    getPosition(offset: long, origin: SequencePosition): SequencePosition;
+    slice(start: long, length: long): ReadOnlySequence_1<T>;
+    slice(start: long, end: SequencePosition): ReadOnlySequence_1<T>;
+    slice(start: SequencePosition, length: long): ReadOnlySequence_1<T>;
+    slice(start: int, length: int): ReadOnlySequence_1<T>;
+    slice(start: int, end: SequencePosition): ReadOnlySequence_1<T>;
+    slice(start: SequencePosition, length: int): ReadOnlySequence_1<T>;
+    slice(start: SequencePosition, end: SequencePosition): ReadOnlySequence_1<T>;
+    slice(start: SequencePosition): ReadOnlySequence_1<T>;
+    slice(start: long): ReadOnlySequence_1<T>;
+    toString(): string;
+    tryGet(position: { value: ref<SequencePosition> }, memory: { value: ref<ReadOnlyMemory_1<T>> }, advance?: boolean): boolean;
+    static readonly empty: unknown;
 }
 
 
@@ -127,8 +127,8 @@ export type ReadOnlySequence_1<T> = ReadOnlySequence_1$instance<T>;
 
 export class ReadOnlySequence_1_Enumerator$instance<T> {
     constructor(sequence: ref<ReadOnlySequence_1<T>>);
-    readonly Current: ReadOnlyMemory_1<T>;
-    MoveNext(): boolean;
+    readonly current: ReadOnlyMemory_1<T>;
+    moveNext(): boolean;
 }
 
 
@@ -136,41 +136,41 @@ export type ReadOnlySequence_1_Enumerator<T> = ReadOnlySequence_1_Enumerator$ins
 
 export class SequenceReader_1$instance<T extends IEquatable_1<T>> {
     constructor(sequence: ReadOnlySequence_1<T>);
-    readonly Consumed: long;
-    readonly CurrentSpan: ReadOnlySpan_1<T>;
-    readonly CurrentSpanIndex: int;
-    readonly End: boolean;
-    readonly Length: long;
-    readonly Position: SequencePosition;
-    readonly Remaining: long;
-    readonly Sequence: ReadOnlySequence_1<T>;
-    readonly UnreadSequence: ReadOnlySequence_1<T>;
-    readonly UnreadSpan: ReadOnlySpan_1<T>;
-    Advance(count: long): void;
-    AdvancePast(value: T): long;
-    AdvancePastAny(values: ReadOnlySpan_1<T>): long;
-    AdvancePastAny(value0: T, value1: T, value2: T, value3: T): long;
-    AdvancePastAny(value0: T, value1: T, value2: T): long;
-    AdvancePastAny(value0: T, value1: T): long;
-    AdvanceToEnd(): void;
-    IsNext(next: T, advancePast?: boolean): boolean;
-    IsNext(next: ReadOnlySpan_1<T>, advancePast?: boolean): boolean;
-    Rewind(count: long): void;
-    TryAdvanceTo(delimiter: T, advancePastDelimiter?: boolean): boolean;
-    TryAdvanceToAny(delimiters: ReadOnlySpan_1<T>, advancePastDelimiter?: boolean): boolean;
-    TryCopyTo(destination: Span_1<T>): boolean;
-    TryPeek(value: { value: ref<T> }): boolean;
-    TryPeek(offset: long, value: { value: ref<T> }): boolean;
-    TryRead(value: { value: ref<T> }): boolean;
-    TryReadExact(count: int, sequence: { value: ref<ReadOnlySequence_1<T>> }): boolean;
-    TryReadTo(span: { value: ref<ReadOnlySpan_1<T>> }, delimiter: T, advancePastDelimiter?: boolean): boolean;
-    TryReadTo(span: { value: ref<ReadOnlySpan_1<T>> }, delimiter: T, delimiterEscape: T, advancePastDelimiter?: boolean): boolean;
-    TryReadTo(sequence: { value: ref<ReadOnlySequence_1<T>> }, delimiter: T, advancePastDelimiter?: boolean): boolean;
-    TryReadTo(sequence: { value: ref<ReadOnlySequence_1<T>> }, delimiter: T, delimiterEscape: T, advancePastDelimiter?: boolean): boolean;
-    TryReadTo(span: { value: ref<ReadOnlySpan_1<T>> }, delimiter: ReadOnlySpan_1<T>, advancePastDelimiter?: boolean): boolean;
-    TryReadTo(sequence: { value: ref<ReadOnlySequence_1<T>> }, delimiter: ReadOnlySpan_1<T>, advancePastDelimiter?: boolean): boolean;
-    TryReadToAny(span: { value: ref<ReadOnlySpan_1<T>> }, delimiters: ReadOnlySpan_1<T>, advancePastDelimiter?: boolean): boolean;
-    TryReadToAny(sequence: { value: ref<ReadOnlySequence_1<T>> }, delimiters: ReadOnlySpan_1<T>, advancePastDelimiter?: boolean): boolean;
+    readonly consumed: long;
+    readonly currentSpan: ReadOnlySpan_1<T>;
+    readonly currentSpanIndex: int;
+    readonly end: boolean;
+    readonly length: long;
+    readonly position: SequencePosition;
+    readonly remaining: long;
+    readonly sequence: ReadOnlySequence_1<T>;
+    readonly unreadSequence: ReadOnlySequence_1<T>;
+    readonly unreadSpan: ReadOnlySpan_1<T>;
+    advance(count: long): void;
+    advancePast(value: T): long;
+    advancePastAny(values: ReadOnlySpan_1<T>): long;
+    advancePastAny(value0: T, value1: T, value2: T, value3: T): long;
+    advancePastAny(value0: T, value1: T, value2: T): long;
+    advancePastAny(value0: T, value1: T): long;
+    advanceToEnd(): void;
+    isNext(next: T, advancePast?: boolean): boolean;
+    isNext(next: ReadOnlySpan_1<T>, advancePast?: boolean): boolean;
+    rewind(count: long): void;
+    tryAdvanceTo(delimiter: T, advancePastDelimiter?: boolean): boolean;
+    tryAdvanceToAny(delimiters: ReadOnlySpan_1<T>, advancePastDelimiter?: boolean): boolean;
+    tryCopyTo(destination: Span_1<T>): boolean;
+    tryPeek(value: { value: ref<T> }): boolean;
+    tryPeek(offset: long, value: { value: ref<T> }): boolean;
+    tryRead(value: { value: ref<T> }): boolean;
+    tryReadExact(count: int, sequence: { value: ref<ReadOnlySequence_1<T>> }): boolean;
+    tryReadTo(span: { value: ref<ReadOnlySpan_1<T>> }, delimiter: T, advancePastDelimiter?: boolean): boolean;
+    tryReadTo(span: { value: ref<ReadOnlySpan_1<T>> }, delimiter: T, delimiterEscape: T, advancePastDelimiter?: boolean): boolean;
+    tryReadTo(sequence: { value: ref<ReadOnlySequence_1<T>> }, delimiter: T, advancePastDelimiter?: boolean): boolean;
+    tryReadTo(sequence: { value: ref<ReadOnlySequence_1<T>> }, delimiter: T, delimiterEscape: T, advancePastDelimiter?: boolean): boolean;
+    tryReadTo(span: { value: ref<ReadOnlySpan_1<T>> }, delimiter: ReadOnlySpan_1<T>, advancePastDelimiter?: boolean): boolean;
+    tryReadTo(sequence: { value: ref<ReadOnlySequence_1<T>> }, delimiter: ReadOnlySpan_1<T>, advancePastDelimiter?: boolean): boolean;
+    tryReadToAny(span: { value: ref<ReadOnlySpan_1<T>> }, delimiters: ReadOnlySpan_1<T>, advancePastDelimiter?: boolean): boolean;
+    tryReadToAny(sequence: { value: ref<ReadOnlySequence_1<T>> }, delimiters: ReadOnlySpan_1<T>, advancePastDelimiter?: boolean): boolean;
 }
 
 
@@ -178,19 +178,19 @@ export type SequenceReader_1<T extends IEquatable_1<T>> = SequenceReader_1$insta
 
 export class StandardFormat$instance {
     constructor(symbol_: char, precision: byte);
-    readonly HasPrecision: boolean;
-    readonly IsDefault: boolean;
-    readonly Precision: byte;
-    readonly Symbol: char;
-    Equals(obj: unknown): boolean;
-    Equals(other: StandardFormat): boolean;
-    GetHashCode(): int;
-    ToString(): string;
-    static readonly NoPrecision: byte;
-    static readonly MaxPrecision: byte;
-    static Parse(format: ReadOnlySpan_1<CLROf<char>>): StandardFormat;
-    static Parse(format: string): StandardFormat;
-    static TryParse(format: ReadOnlySpan_1<CLROf<char>>, result: { value: ref<StandardFormat> }): boolean;
+    readonly hasPrecision: boolean;
+    readonly isDefault: boolean;
+    readonly precision: byte;
+    readonly symbol_: char;
+    equals(obj: unknown): boolean;
+    equals(other: StandardFormat): boolean;
+    getHashCode(): int;
+    toString(): string;
+    static readonly noPrecision: byte;
+    static readonly maxPrecision: byte;
+    static parse(format: ReadOnlySpan_1<CLROf<char>>): StandardFormat;
+    static parse(format: string): StandardFormat;
+    static tryParse(format: ReadOnlySpan_1<CLROf<char>>, result: { value: ref<StandardFormat> }): boolean;
 }
 
 
@@ -207,16 +207,16 @@ export type StandardFormat = StandardFormat$instance & __StandardFormat$views;
 export class ArrayBufferWriter_1$instance<T> {
     constructor();
     constructor(initialCapacity: int);
-    readonly Capacity: int;
-    readonly FreeCapacity: int;
-    readonly WrittenCount: int;
-    readonly WrittenMemory: ReadOnlyMemory_1<T>;
-    readonly WrittenSpan: ReadOnlySpan_1<T>;
-    Advance(count: int): void;
-    Clear(): void;
-    GetMemory(sizeHint?: int): Memory_1<T>;
-    GetSpan(sizeHint?: int): Span_1<T>;
-    ResetWrittenCount(): void;
+    readonly capacity: int;
+    readonly freeCapacity: int;
+    readonly writtenCount: int;
+    readonly writtenMemory: ReadOnlyMemory_1<T>;
+    readonly writtenSpan: ReadOnlySpan_1<T>;
+    advance(count: int): void;
+    clear(): void;
+    getMemory(sizeHint?: int): Memory_1<T>;
+    getSpan(sizeHint?: int): Span_1<T>;
+    resetWrittenCount(): void;
 }
 
 
@@ -230,21 +230,21 @@ export type ArrayBufferWriter_1<T> = ArrayBufferWriter_1$instance<T> & __ArrayBu
 
 
 export abstract class ArrayPool_1$instance<T> {
-    abstract Rent(minimumLength: int): T[];
-    abstract Return(array: T[], clearArray?: boolean): void;
-    static readonly Shared: unknown;
-    static Create<T>(): ArrayPool_1<T>;
-    static Create<T>(maxArrayLength: int, maxArraysPerBucket: int): ArrayPool_1<T>;
+    abstract rent(minimumLength: int): T[];
+    abstract return_(array: T[], clearArray?: boolean): void;
+    static readonly shared: unknown;
+    static create<T>(): ArrayPool_1<T>;
+    static create<T>(maxArrayLength: int, maxArraysPerBucket: int): ArrayPool_1<T>;
 }
 
 
 export type ArrayPool_1<T> = ArrayPool_1$instance<T>;
 
 export abstract class MemoryManager_1$instance<T> {
-    readonly Memory: Memory_1<T>;
-    abstract GetSpan(): Span_1<T>;
-    abstract Pin(elementIndex?: int): MemoryHandle;
-    abstract Unpin(): void;
+    readonly memory: Memory_1<T>;
+    abstract getSpan(): Span_1<T>;
+    abstract pin(elementIndex?: int): MemoryHandle;
+    abstract unpin(): void;
 }
 
 
@@ -260,10 +260,10 @@ export type MemoryManager_1<T> = MemoryManager_1$instance<T> & __MemoryManager_1
 
 
 export abstract class MemoryPool_1$instance<T> {
-    readonly MaxBufferSize: int;
-    Dispose(): void;
-    abstract Rent(minBufferSize?: int): IMemoryOwner_1<T>;
-    static readonly Shared: unknown;
+    readonly maxBufferSize: int;
+    dispose(): void;
+    abstract rent(minBufferSize?: int): IMemoryOwner_1<T>;
+    static readonly shared: unknown;
 }
 
 
@@ -277,9 +277,9 @@ export type MemoryPool_1<T> = MemoryPool_1$instance<T> & __MemoryPool_1$views<T>
 
 
 export abstract class ReadOnlySequenceSegment_1$instance<T> {
-    readonly Memory: ReadOnlyMemory_1<T>;
-    readonly Next: ReadOnlySequenceSegment_1<T>;
-    readonly RunningIndex: long;
+    readonly memory: ReadOnlyMemory_1<T>;
+    readonly next: ReadOnlySequenceSegment_1<T>;
+    readonly runningIndex: long;
 }
 
 
@@ -287,11 +287,11 @@ export type ReadOnlySequenceSegment_1<T> = ReadOnlySequenceSegment_1$instance<T>
 
 export class ReadOnlySpanAction_2$instance<T, TArg> extends Function {
     constructor(object_: unknown, method: nint);
-    BeginInvoke(span: ReadOnlySpan_1<T>, arg: TArg, callback: AsyncCallback, object_: unknown): IAsyncResult;
+    beginInvoke(span: ReadOnlySpan_1<T>, arg: TArg, callback: AsyncCallback, object_: unknown): IAsyncResult;
     Clone(): unknown;
-    EndInvoke(result: IAsyncResult): void;
+    endInvoke(result: IAsyncResult): void;
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
-    Invoke(span: ReadOnlySpan_1<T>, arg: TArg): void;
+    invoke(span: ReadOnlySpan_1<T>, arg: TArg): void;
 }
 
 
@@ -300,11 +300,13 @@ export interface __ReadOnlySpanAction_2$views<T, TArg> {
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
+export interface ReadOnlySpanAction_2$instance<T, TArg> extends System_Internal.ICloneable$instance {}
+
 export type ReadOnlySpanAction_2<T, TArg> = ReadOnlySpanAction_2$instance<T, TArg> & __ReadOnlySpanAction_2$views<T, TArg>;
 
 
 export class SearchValues_1$instance<T extends IEquatable_1<T>> {
-    Contains(value: T): boolean;
+    contains(value: T): boolean;
 }
 
 
@@ -312,11 +314,11 @@ export type SearchValues_1<T extends IEquatable_1<T>> = SearchValues_1$instance<
 
 export class SpanAction_2$instance<T, TArg> extends Function {
     constructor(object_: unknown, method: nint);
-    BeginInvoke(span: Span_1<T>, arg: TArg, callback: AsyncCallback, object_: unknown): IAsyncResult;
+    beginInvoke(span: Span_1<T>, arg: TArg, callback: AsyncCallback, object_: unknown): IAsyncResult;
     Clone(): unknown;
-    EndInvoke(result: IAsyncResult): void;
+    endInvoke(result: IAsyncResult): void;
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
-    Invoke(span: Span_1<T>, arg: TArg): void;
+    invoke(span: Span_1<T>, arg: TArg): void;
 }
 
 
@@ -325,35 +327,37 @@ export interface __SpanAction_2$views<T, TArg> {
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
+export interface SpanAction_2$instance<T, TArg> extends System_Internal.ICloneable$instance {}
+
 export type SpanAction_2<T, TArg> = SpanAction_2$instance<T, TArg> & __SpanAction_2$views<T, TArg>;
 
 
 export abstract class BuffersExtensions$instance {
-    static CopyTo<T>(source: { value: ref<ReadOnlySequence_1<T>> }, destination: Span_1<T>): void;
-    static PositionOf<T extends IEquatable_1<T>>(source: { value: ref<ReadOnlySequence_1<T>> }, value: T): Nullable_1<SequencePosition>;
-    static ToArray<T>(sequence: { value: ref<ReadOnlySequence_1<T>> }): T[];
-    static Write<T>(writer: IBufferWriter_1<T>, value: ReadOnlySpan_1<T>): void;
+    static copyTo<T>(source: { value: ref<ReadOnlySequence_1<T>> }, destination: Span_1<T>): void;
+    static positionOf<T extends IEquatable_1<T>>(source: { value: ref<ReadOnlySequence_1<T>> }, value: T): Nullable_1<SequencePosition>;
+    static toArray<T>(sequence: { value: ref<ReadOnlySequence_1<T>> }): T[];
+    static write<T>(writer: IBufferWriter_1<T>, value: ReadOnlySpan_1<T>): void;
 }
 
 
 export type BuffersExtensions = BuffersExtensions$instance;
 
 export abstract class SearchValues$instance {
-    static Create(values: ReadOnlySpan_1<CLROf<byte>>): SearchValues_1<CLROf<byte>>;
-    static Create(values: ReadOnlySpan_1<CLROf<char>>): SearchValues_1<CLROf<char>>;
-    static Create(values: ReadOnlySpan_1<CLROf<string>>, comparisonType: StringComparison): SearchValues_1<CLROf<string>>;
+    static create(values: ReadOnlySpan_1<CLROf<byte>>): SearchValues_1<CLROf<byte>>;
+    static create(values: ReadOnlySpan_1<CLROf<char>>): SearchValues_1<CLROf<char>>;
+    static create(values: ReadOnlySpan_1<CLROf<string>>, comparisonType: StringComparison): SearchValues_1<CLROf<string>>;
 }
 
 
 export type SearchValues = SearchValues$instance;
 
 export abstract class SequenceReaderExtensions$instance {
-    static TryReadBigEndian(reader: { value: ref<SequenceReader_1<CLROf<byte>>> }, value: { value: ref<short> }): boolean;
-    static TryReadBigEndian(reader: { value: ref<SequenceReader_1<CLROf<byte>>> }, value: { value: ref<int> }): boolean;
-    static TryReadBigEndian(reader: { value: ref<SequenceReader_1<CLROf<byte>>> }, value: { value: ref<long> }): boolean;
-    static TryReadLittleEndian(reader: { value: ref<SequenceReader_1<CLROf<byte>>> }, value: { value: ref<short> }): boolean;
-    static TryReadLittleEndian(reader: { value: ref<SequenceReader_1<CLROf<byte>>> }, value: { value: ref<int> }): boolean;
-    static TryReadLittleEndian(reader: { value: ref<SequenceReader_1<CLROf<byte>>> }, value: { value: ref<long> }): boolean;
+    static tryReadBigEndian(reader: { value: ref<SequenceReader_1<CLROf<byte>>> }, value: { value: ref<short> }): boolean;
+    static tryReadBigEndian(reader: { value: ref<SequenceReader_1<CLROf<byte>>> }, value: { value: ref<int> }): boolean;
+    static tryReadBigEndian(reader: { value: ref<SequenceReader_1<CLROf<byte>>> }, value: { value: ref<long> }): boolean;
+    static tryReadLittleEndian(reader: { value: ref<SequenceReader_1<CLROf<byte>>> }, value: { value: ref<short> }): boolean;
+    static tryReadLittleEndian(reader: { value: ref<SequenceReader_1<CLROf<byte>>> }, value: { value: ref<int> }): boolean;
+    static tryReadLittleEndian(reader: { value: ref<SequenceReader_1<CLROf<byte>>> }, value: { value: ref<long> }): boolean;
 }
 
 

@@ -42,98 +42,98 @@ export type CLROf<T> =
     T; // Identity fallback for non-primitive types
 
 export enum DeleteDirectoryOption {
-    ThrowIfDirectoryNonEmpty = 4,
-    DeleteAllContents = 5
+    throwIfDirectoryNonEmpty = 4,
+    deleteAllContents = 5
 }
 
 
 export enum FieldType {
-    Delimited = 0,
-    FixedWidth = 1
+    delimited = 0,
+    fixedWidth = 1
 }
 
 
 export enum RecycleOption {
-    DeletePermanently = 2,
-    SendToRecycleBin = 3
+    deletePermanently = 2,
+    sendToRecycleBin = 3
 }
 
 
 export enum SearchOption {
-    SearchTopLevelOnly = 2,
-    SearchAllSubDirectories = 3
+    searchTopLevelOnly = 2,
+    searchAllSubDirectories = 3
 }
 
 
 export enum UICancelOption {
-    DoNothing = 2,
-    ThrowException = 3
+    doNothing = 2,
+    throwException = 3
 }
 
 
 export enum UIOption {
-    OnlyErrorDialogs = 2,
-    AllDialogs = 3
+    onlyErrorDialogs = 2,
+    allDialogs = 3
 }
 
 
 export class FileSystem$instance {
     constructor();
-    static readonly Drives: ReadOnlyCollection_1<DriveInfo>;
-    static CurrentDirectory: string;
-    static CombinePath(baseDirectory: string, relativePath: string): string;
-    static CopyDirectory(sourceDirectoryName: string, destinationDirectoryName: string, showUI: UIOption, onUserCancel: UICancelOption): void;
-    static CopyDirectory(sourceDirectoryName: string, destinationDirectoryName: string, showUI: UIOption): void;
-    static CopyDirectory(sourceDirectoryName: string, destinationDirectoryName: string, overwrite: boolean): void;
-    static CopyDirectory(sourceDirectoryName: string, destinationDirectoryName: string): void;
-    static CopyFile(sourceFileName: string, destinationFileName: string, showUI: UIOption, onUserCancel: UICancelOption): void;
-    static CopyFile(sourceFileName: string, destinationFileName: string, showUI: UIOption): void;
-    static CopyFile(sourceFileName: string, destinationFileName: string, overwrite: boolean): void;
-    static CopyFile(sourceFileName: string, destinationFileName: string): void;
-    static CreateDirectory(directory: string): void;
-    static DeleteDirectory(directory: string, onDirectoryNotEmpty: DeleteDirectoryOption): void;
-    static DeleteDirectory(directory: string, showUI: UIOption, recycle: RecycleOption, onUserCancel: UICancelOption): void;
-    static DeleteDirectory(directory: string, showUI: UIOption, recycle: RecycleOption): void;
-    static DeleteFile(file: string, showUI: UIOption, recycle: RecycleOption, onUserCancel: UICancelOption): void;
-    static DeleteFile(file: string, showUI: UIOption, recycle: RecycleOption): void;
-    static DeleteFile(file: string): void;
-    static DirectoryExists(directory: string): boolean;
-    static FileExists(file: string): boolean;
-    static FindInFiles(directory: string, containsText: string, ignoreCase: boolean, searchType: SearchOption, fileWildcards: string[]): ReadOnlyCollection_1<CLROf<string>>;
-    static FindInFiles(directory: string, containsText: string, ignoreCase: boolean, searchType: SearchOption): ReadOnlyCollection_1<CLROf<string>>;
-    static GetDirectories(directory: string, searchType: SearchOption, wildcards: string[]): ReadOnlyCollection_1<CLROf<string>>;
-    static GetDirectories(directory: string): ReadOnlyCollection_1<CLROf<string>>;
-    static GetDirectoryInfo(directory: string): DirectoryInfo;
-    static GetDriveInfo(drive: string): DriveInfo;
-    static GetFileInfo(file: string): FileInfo;
-    static GetFiles(directory: string, searchType: SearchOption, wildcards: string[]): ReadOnlyCollection_1<CLROf<string>>;
-    static GetFiles(directory: string): ReadOnlyCollection_1<CLROf<string>>;
-    static GetName(path: string): string;
-    static GetParentPath(path: string): string;
-    static GetTempFileName(): string;
-    static MoveDirectory(sourceDirectoryName: string, destinationDirectoryName: string, showUI: UIOption, onUserCancel: UICancelOption): void;
-    static MoveDirectory(sourceDirectoryName: string, destinationDirectoryName: string, showUI: UIOption): void;
-    static MoveDirectory(sourceDirectoryName: string, destinationDirectoryName: string, overwrite: boolean): void;
-    static MoveDirectory(sourceDirectoryName: string, destinationDirectoryName: string): void;
-    static MoveFile(sourceFileName: string, destinationFileName: string, showUI: UIOption, onUserCancel: UICancelOption): void;
-    static MoveFile(sourceFileName: string, destinationFileName: string, showUI: UIOption): void;
-    static MoveFile(sourceFileName: string, destinationFileName: string, overwrite: boolean): void;
-    static MoveFile(sourceFileName: string, destinationFileName: string): void;
-    static OpenTextFieldParser(file: string, fieldWidths: int[]): TextFieldParser;
-    static OpenTextFieldParser(file: string, delimiters: string[]): TextFieldParser;
-    static OpenTextFieldParser(file: string): TextFieldParser;
-    static OpenTextFileReader(file: string, encoding: Encoding): StreamReader;
-    static OpenTextFileReader(file: string): StreamReader;
-    static OpenTextFileWriter(file: string, append: boolean, encoding: Encoding): StreamWriter;
-    static OpenTextFileWriter(file: string, append: boolean): StreamWriter;
-    static ReadAllBytes(file: string): byte[];
-    static ReadAllText(file: string, encoding: Encoding): string;
-    static ReadAllText(file: string): string;
-    static RenameDirectory(directory: string, newName: string): void;
-    static RenameFile(file: string, newName: string): void;
-    static WriteAllBytes(file: string, data: byte[], append: boolean): void;
-    static WriteAllText(file: string, text: string, append: boolean, encoding: Encoding): void;
-    static WriteAllText(file: string, text: string, append: boolean): void;
+    static readonly drives: ReadOnlyCollection_1<DriveInfo>;
+    static currentDirectory: string;
+    static combinePath(baseDirectory: string, relativePath: string): string;
+    static copyDirectory(sourceDirectoryName: string, destinationDirectoryName: string, showUI: UIOption, onUserCancel: UICancelOption): void;
+    static copyDirectory(sourceDirectoryName: string, destinationDirectoryName: string, showUI: UIOption): void;
+    static copyDirectory(sourceDirectoryName: string, destinationDirectoryName: string, overwrite: boolean): void;
+    static copyDirectory(sourceDirectoryName: string, destinationDirectoryName: string): void;
+    static copyFile(sourceFileName: string, destinationFileName: string, showUI: UIOption, onUserCancel: UICancelOption): void;
+    static copyFile(sourceFileName: string, destinationFileName: string, showUI: UIOption): void;
+    static copyFile(sourceFileName: string, destinationFileName: string, overwrite: boolean): void;
+    static copyFile(sourceFileName: string, destinationFileName: string): void;
+    static createDirectory(directory: string): void;
+    static deleteDirectory(directory: string, onDirectoryNotEmpty: DeleteDirectoryOption): void;
+    static deleteDirectory(directory: string, showUI: UIOption, recycle: RecycleOption, onUserCancel: UICancelOption): void;
+    static deleteDirectory(directory: string, showUI: UIOption, recycle: RecycleOption): void;
+    static deleteFile(file: string, showUI: UIOption, recycle: RecycleOption, onUserCancel: UICancelOption): void;
+    static deleteFile(file: string, showUI: UIOption, recycle: RecycleOption): void;
+    static deleteFile(file: string): void;
+    static directoryExists(directory: string): boolean;
+    static fileExists(file: string): boolean;
+    static findInFiles(directory: string, containsText: string, ignoreCase: boolean, searchType: SearchOption, fileWildcards: string[]): ReadOnlyCollection_1<CLROf<string>>;
+    static findInFiles(directory: string, containsText: string, ignoreCase: boolean, searchType: SearchOption): ReadOnlyCollection_1<CLROf<string>>;
+    static getDirectories(directory: string, searchType: SearchOption, wildcards: string[]): ReadOnlyCollection_1<CLROf<string>>;
+    static getDirectories(directory: string): ReadOnlyCollection_1<CLROf<string>>;
+    static getDirectoryInfo(directory: string): DirectoryInfo;
+    static getDriveInfo(drive: string): DriveInfo;
+    static getFileInfo(file: string): FileInfo;
+    static getFiles(directory: string, searchType: SearchOption, wildcards: string[]): ReadOnlyCollection_1<CLROf<string>>;
+    static getFiles(directory: string): ReadOnlyCollection_1<CLROf<string>>;
+    static getName(path: string): string;
+    static getParentPath(path: string): string;
+    static getTempFileName(): string;
+    static moveDirectory(sourceDirectoryName: string, destinationDirectoryName: string, showUI: UIOption, onUserCancel: UICancelOption): void;
+    static moveDirectory(sourceDirectoryName: string, destinationDirectoryName: string, showUI: UIOption): void;
+    static moveDirectory(sourceDirectoryName: string, destinationDirectoryName: string, overwrite: boolean): void;
+    static moveDirectory(sourceDirectoryName: string, destinationDirectoryName: string): void;
+    static moveFile(sourceFileName: string, destinationFileName: string, showUI: UIOption, onUserCancel: UICancelOption): void;
+    static moveFile(sourceFileName: string, destinationFileName: string, showUI: UIOption): void;
+    static moveFile(sourceFileName: string, destinationFileName: string, overwrite: boolean): void;
+    static moveFile(sourceFileName: string, destinationFileName: string): void;
+    static openTextFieldParser(file: string, fieldWidths: int[]): TextFieldParser;
+    static openTextFieldParser(file: string, delimiters: string[]): TextFieldParser;
+    static openTextFieldParser(file: string): TextFieldParser;
+    static openTextFileReader(file: string, encoding: Encoding): StreamReader;
+    static openTextFileReader(file: string): StreamReader;
+    static openTextFileWriter(file: string, append: boolean, encoding: Encoding): StreamWriter;
+    static openTextFileWriter(file: string, append: boolean): StreamWriter;
+    static readAllBytes(file: string): byte[];
+    static readAllText(file: string, encoding: Encoding): string;
+    static readAllText(file: string): string;
+    static renameDirectory(directory: string, newName: string): void;
+    static renameFile(file: string, newName: string): void;
+    static writeAllBytes(file: string, data: byte[], append: boolean): void;
+    static writeAllText(file: string, text: string, append: boolean, encoding: Encoding): void;
+    static writeAllText(file: string, text: string, append: boolean): void;
 }
 
 
@@ -145,9 +145,9 @@ export class MalformedLineException$instance extends System_Internal.Exception$i
     constructor(message: string);
     constructor(message: string, lineNumber: long, innerException: Exception);
     constructor(message: string, innerException: Exception);
-    LineNumber: long;
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
-    ToString(): string;
+    lineNumber: long;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
+    toString(): string;
 }
 
 
@@ -160,15 +160,15 @@ export type MalformedLineException = MalformedLineException$instance & __Malform
 
 export class SpecialDirectories$instance {
     constructor();
-    static readonly MyDocuments: string;
-    static readonly MyMusic: string;
-    static readonly MyPictures: string;
-    static readonly Desktop: string;
-    static readonly Programs: string;
-    static readonly ProgramFiles: string;
-    static readonly Temp: string;
-    static readonly CurrentUserApplicationData: string;
-    static readonly AllUsersApplicationData: string;
+    static readonly myDocuments: string;
+    static readonly myMusic: string;
+    static readonly myPictures: string;
+    static readonly desktop: string;
+    static readonly programs: string;
+    static readonly programFiles: string;
+    static readonly temp: string;
+    static readonly currentUserApplicationData: string;
+    static readonly allUsersApplicationData: string;
 }
 
 
@@ -183,24 +183,24 @@ export class TextFieldParser$instance {
     constructor(stream: Stream, defaultEncoding: Encoding, detectEncoding: boolean);
     constructor(stream: Stream, defaultEncoding: Encoding, detectEncoding: boolean, leaveOpen: boolean);
     constructor(reader: TextReader);
-    CommentTokens: string[];
-    Delimiters: string[];
-    readonly EndOfData: boolean;
-    readonly ErrorLine: string;
-    readonly ErrorLineNumber: long;
-    FieldWidths: int[];
-    HasFieldsEnclosedInQuotes: boolean;
-    readonly LineNumber: long;
-    TextFieldType: FieldType;
-    TrimWhiteSpace: boolean;
-    Close(): void;
-    Dispose(): void;
-    PeekChars(numberOfChars: int): string;
-    ReadFields(): string[];
-    ReadLine(): string;
-    ReadToEnd(): string;
-    SetDelimiters(delimiters: string[]): void;
-    SetFieldWidths(fieldWidths: int[]): void;
+    commentTokens: string[];
+    delimiters: string[];
+    readonly endOfData: boolean;
+    readonly errorLine: string;
+    readonly errorLineNumber: long;
+    fieldWidths: int[];
+    hasFieldsEnclosedInQuotes: boolean;
+    readonly lineNumber: long;
+    textFieldType: FieldType;
+    trimWhiteSpace: boolean;
+    close(): void;
+    dispose(): void;
+    peekChars(numberOfChars: int): string;
+    readFields(): string[];
+    readLine(): string;
+    readToEnd(): string;
+    setDelimiters(delimiters: string[]): void;
+    setFieldWidths(fieldWidths: int[]): void;
 }
 
 

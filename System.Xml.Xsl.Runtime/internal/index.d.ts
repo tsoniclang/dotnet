@@ -48,401 +48,401 @@ export type CLROf<T> =
     T; // Identity fallback for non-primitive types
 
 export enum IteratorResult {
-    NoMoreNodes = 0,
-    NeedInputNode = 1,
-    HaveCurrentNode = 2
+    noMoreNodes = 0,
+    needInputNode = 1,
+    haveCurrentNode = 2
 }
 
 
 export enum SetIteratorResult {
-    NoMoreNodes = 0,
-    InitRightIterator = 1,
-    NeedLeftNode = 2,
-    NeedRightNode = 3,
-    HaveCurrentNode = 4
+    noMoreNodes = 0,
+    initRightIterator = 1,
+    needLeftNode = 2,
+    needRightNode = 3,
+    haveCurrentNode = 4
 }
 
 
 export class AncestorDocOrderIterator$instance {
-    readonly Current: XPathNavigator;
-    Create(context: XPathNavigator, filter: XmlNavigatorFilter, orSelf: boolean): void;
-    MoveNext(): boolean;
+    readonly current: XPathNavigator;
+    create(context: XPathNavigator, filter: XmlNavigatorFilter, orSelf: boolean): void;
+    moveNext(): boolean;
 }
 
 
 export type AncestorDocOrderIterator = AncestorDocOrderIterator$instance;
 
 export class AncestorIterator$instance {
-    readonly Current: XPathNavigator;
-    Create(context: XPathNavigator, filter: XmlNavigatorFilter, orSelf: boolean): void;
-    MoveNext(): boolean;
+    readonly current: XPathNavigator;
+    create(context: XPathNavigator, filter: XmlNavigatorFilter, orSelf: boolean): void;
+    moveNext(): boolean;
 }
 
 
 export type AncestorIterator = AncestorIterator$instance;
 
 export class AttributeContentIterator$instance {
-    readonly Current: XPathNavigator;
-    Create(context: XPathNavigator): void;
-    MoveNext(): boolean;
+    readonly current: XPathNavigator;
+    create(context: XPathNavigator): void;
+    moveNext(): boolean;
 }
 
 
 export type AttributeContentIterator = AttributeContentIterator$instance;
 
 export class AttributeIterator$instance {
-    readonly Current: XPathNavigator;
-    Create(context: XPathNavigator): void;
-    MoveNext(): boolean;
+    readonly current: XPathNavigator;
+    create(context: XPathNavigator): void;
+    moveNext(): boolean;
 }
 
 
 export type AttributeIterator = AttributeIterator$instance;
 
 export class ContentIterator$instance {
-    readonly Current: XPathNavigator;
-    Create(context: XPathNavigator): void;
-    MoveNext(): boolean;
+    readonly current: XPathNavigator;
+    create(context: XPathNavigator): void;
+    moveNext(): boolean;
 }
 
 
 export type ContentIterator = ContentIterator$instance;
 
 export class ContentMergeIterator$instance {
-    readonly Current: XPathNavigator;
-    Create(filter: XmlNavigatorFilter): void;
-    MoveNext(input: XPathNavigator): IteratorResult;
+    readonly current: XPathNavigator;
+    create(filter: XmlNavigatorFilter): void;
+    moveNext(input: XPathNavigator): IteratorResult;
 }
 
 
 export type ContentMergeIterator = ContentMergeIterator$instance;
 
 export class DecimalAggregator$instance {
-    readonly AverageResult: decimal;
-    readonly IsEmpty: boolean;
-    readonly MaximumResult: decimal;
-    readonly MinimumResult: decimal;
-    readonly SumResult: decimal;
-    Average(value: decimal): void;
-    Create(): void;
-    Maximum(value: decimal): void;
-    Minimum(value: decimal): void;
-    Sum(value: decimal): void;
+    readonly averageResult: decimal;
+    readonly isEmpty: boolean;
+    readonly maximumResult: decimal;
+    readonly minimumResult: decimal;
+    readonly sumResult: decimal;
+    average(value: decimal): void;
+    create(): void;
+    maximum(value: decimal): void;
+    minimum(value: decimal): void;
+    sum(value: decimal): void;
 }
 
 
 export type DecimalAggregator = DecimalAggregator$instance;
 
 export class DescendantIterator$instance {
-    readonly Current: XPathNavigator;
-    Create(input: XPathNavigator, filter: XmlNavigatorFilter, orSelf: boolean): void;
-    MoveNext(): boolean;
+    readonly current: XPathNavigator;
+    create(input: XPathNavigator, filter: XmlNavigatorFilter, orSelf: boolean): void;
+    moveNext(): boolean;
 }
 
 
 export type DescendantIterator = DescendantIterator$instance;
 
 export class DescendantMergeIterator$instance {
-    readonly Current: XPathNavigator;
-    Create(filter: XmlNavigatorFilter, orSelf: boolean): void;
-    MoveNext(input: XPathNavigator): IteratorResult;
+    readonly current: XPathNavigator;
+    create(filter: XmlNavigatorFilter, orSelf: boolean): void;
+    moveNext(input: XPathNavigator): IteratorResult;
 }
 
 
 export type DescendantMergeIterator = DescendantMergeIterator$instance;
 
 export class DifferenceIterator$instance {
-    readonly Current: XPathNavigator;
-    Create(runtime: XmlQueryRuntime): void;
-    MoveNext(nestedNavigator: XPathNavigator): SetIteratorResult;
+    readonly current: XPathNavigator;
+    create(runtime: XmlQueryRuntime): void;
+    moveNext(nestedNavigator: XPathNavigator): SetIteratorResult;
 }
 
 
 export type DifferenceIterator = DifferenceIterator$instance;
 
 export class DodSequenceMerge$instance {
-    AddSequence(sequence: IList_1<XPathNavigator>): void;
-    Create(runtime: XmlQueryRuntime): void;
-    MergeSequences(): IList_1<XPathNavigator>;
+    addSequence(sequence: IList_1<XPathNavigator>): void;
+    create(runtime: XmlQueryRuntime): void;
+    mergeSequences(): IList_1<XPathNavigator>;
 }
 
 
 export type DodSequenceMerge = DodSequenceMerge$instance;
 
 export class DoubleAggregator$instance {
-    readonly AverageResult: double;
-    readonly IsEmpty: boolean;
-    readonly MaximumResult: double;
-    readonly MinimumResult: double;
-    readonly SumResult: double;
-    Average(value: double): void;
-    Create(): void;
-    Maximum(value: double): void;
-    Minimum(value: double): void;
-    Sum(value: double): void;
+    readonly averageResult: double;
+    readonly isEmpty: boolean;
+    readonly maximumResult: double;
+    readonly minimumResult: double;
+    readonly sumResult: double;
+    average(value: double): void;
+    create(): void;
+    maximum(value: double): void;
+    minimum(value: double): void;
+    sum(value: double): void;
 }
 
 
 export type DoubleAggregator = DoubleAggregator$instance;
 
 export class ElementContentIterator$instance {
-    readonly Current: XPathNavigator;
-    Create(context: XPathNavigator, localName: string, ns: string): void;
-    MoveNext(): boolean;
+    readonly current: XPathNavigator;
+    create(context: XPathNavigator, localName: string, ns: string): void;
+    moveNext(): boolean;
 }
 
 
 export type ElementContentIterator = ElementContentIterator$instance;
 
 export class FollowingSiblingIterator$instance {
-    readonly Current: XPathNavigator;
-    Create(context: XPathNavigator, filter: XmlNavigatorFilter): void;
-    MoveNext(): boolean;
+    readonly current: XPathNavigator;
+    create(context: XPathNavigator, filter: XmlNavigatorFilter): void;
+    moveNext(): boolean;
 }
 
 
 export type FollowingSiblingIterator = FollowingSiblingIterator$instance;
 
 export class FollowingSiblingMergeIterator$instance {
-    readonly Current: XPathNavigator;
-    Create(filter: XmlNavigatorFilter): void;
-    MoveNext(navigator: XPathNavigator): IteratorResult;
+    readonly current: XPathNavigator;
+    create(filter: XmlNavigatorFilter): void;
+    moveNext(navigator: XPathNavigator): IteratorResult;
 }
 
 
 export type FollowingSiblingMergeIterator = FollowingSiblingMergeIterator$instance;
 
 export class IdIterator$instance {
-    readonly Current: XPathNavigator;
-    Create(context: XPathNavigator, value: string): void;
-    MoveNext(): boolean;
+    readonly current: XPathNavigator;
+    create(context: XPathNavigator, value: string): void;
+    moveNext(): boolean;
 }
 
 
 export type IdIterator = IdIterator$instance;
 
 export class Int32Aggregator$instance {
-    readonly AverageResult: int;
-    readonly IsEmpty: boolean;
-    readonly MaximumResult: int;
-    readonly MinimumResult: int;
-    readonly SumResult: int;
-    Average(value: int): void;
-    Create(): void;
-    Maximum(value: int): void;
-    Minimum(value: int): void;
-    Sum(value: int): void;
+    readonly averageResult: int;
+    readonly isEmpty: boolean;
+    readonly maximumResult: int;
+    readonly minimumResult: int;
+    readonly sumResult: int;
+    average(value: int): void;
+    create(): void;
+    maximum(value: int): void;
+    minimum(value: int): void;
+    sum(value: int): void;
 }
 
 
 export type Int32Aggregator = Int32Aggregator$instance;
 
 export class Int64Aggregator$instance {
-    readonly AverageResult: long;
-    readonly IsEmpty: boolean;
-    readonly MaximumResult: long;
-    readonly MinimumResult: long;
-    readonly SumResult: long;
-    Average(value: long): void;
-    Create(): void;
-    Maximum(value: long): void;
-    Minimum(value: long): void;
-    Sum(value: long): void;
+    readonly averageResult: long;
+    readonly isEmpty: boolean;
+    readonly maximumResult: long;
+    readonly minimumResult: long;
+    readonly sumResult: long;
+    average(value: long): void;
+    create(): void;
+    maximum(value: long): void;
+    minimum(value: long): void;
+    sum(value: long): void;
 }
 
 
 export type Int64Aggregator = Int64Aggregator$instance;
 
 export class IntersectIterator$instance {
-    readonly Current: XPathNavigator;
-    Create(runtime: XmlQueryRuntime): void;
-    MoveNext(nestedNavigator: XPathNavigator): SetIteratorResult;
+    readonly current: XPathNavigator;
+    create(runtime: XmlQueryRuntime): void;
+    moveNext(nestedNavigator: XPathNavigator): SetIteratorResult;
 }
 
 
 export type IntersectIterator = IntersectIterator$instance;
 
 export class NamespaceIterator$instance {
-    readonly Current: XPathNavigator;
-    Create(context: XPathNavigator): void;
-    MoveNext(): boolean;
+    readonly current: XPathNavigator;
+    create(context: XPathNavigator): void;
+    moveNext(): boolean;
 }
 
 
 export type NamespaceIterator = NamespaceIterator$instance;
 
 export class NodeKindContentIterator$instance {
-    readonly Current: XPathNavigator;
-    Create(context: XPathNavigator, nodeType: XPathNodeType): void;
-    MoveNext(): boolean;
+    readonly current: XPathNavigator;
+    create(context: XPathNavigator, nodeType: XPathNodeType): void;
+    moveNext(): boolean;
 }
 
 
 export type NodeKindContentIterator = NodeKindContentIterator$instance;
 
 export class NodeRangeIterator$instance {
-    readonly Current: XPathNavigator;
-    Create(start: XPathNavigator, filter: XmlNavigatorFilter, end: XPathNavigator): void;
-    MoveNext(): boolean;
+    readonly current: XPathNavigator;
+    create(start: XPathNavigator, filter: XmlNavigatorFilter, end: XPathNavigator): void;
+    moveNext(): boolean;
 }
 
 
 export type NodeRangeIterator = NodeRangeIterator$instance;
 
 export class ParentIterator$instance {
-    readonly Current: XPathNavigator;
-    Create(context: XPathNavigator, filter: XmlNavigatorFilter): void;
-    MoveNext(): boolean;
+    readonly current: XPathNavigator;
+    create(context: XPathNavigator, filter: XmlNavigatorFilter): void;
+    moveNext(): boolean;
 }
 
 
 export type ParentIterator = ParentIterator$instance;
 
 export class PrecedingIterator$instance {
-    readonly Current: XPathNavigator;
-    Create(context: XPathNavigator, filter: XmlNavigatorFilter): void;
-    MoveNext(): boolean;
+    readonly current: XPathNavigator;
+    create(context: XPathNavigator, filter: XmlNavigatorFilter): void;
+    moveNext(): boolean;
 }
 
 
 export type PrecedingIterator = PrecedingIterator$instance;
 
 export class PrecedingSiblingDocOrderIterator$instance {
-    readonly Current: XPathNavigator;
-    Create(context: XPathNavigator, filter: XmlNavigatorFilter): void;
-    MoveNext(): boolean;
+    readonly current: XPathNavigator;
+    create(context: XPathNavigator, filter: XmlNavigatorFilter): void;
+    moveNext(): boolean;
 }
 
 
 export type PrecedingSiblingDocOrderIterator = PrecedingSiblingDocOrderIterator$instance;
 
 export class PrecedingSiblingIterator$instance {
-    readonly Current: XPathNavigator;
-    Create(context: XPathNavigator, filter: XmlNavigatorFilter): void;
-    MoveNext(): boolean;
+    readonly current: XPathNavigator;
+    create(context: XPathNavigator, filter: XmlNavigatorFilter): void;
+    moveNext(): boolean;
 }
 
 
 export type PrecedingSiblingIterator = PrecedingSiblingIterator$instance;
 
 export class StringConcat$instance {
-    Delimiter: string;
-    Clear(): void;
-    Concat(value: string): void;
-    GetResult(): string;
+    delimiter: string;
+    clear(): void;
+    concat(value: string): void;
+    getResult(): string;
 }
 
 
 export type StringConcat = StringConcat$instance;
 
 export class UnionIterator$instance {
-    readonly Current: XPathNavigator;
-    Create(runtime: XmlQueryRuntime): void;
-    MoveNext(nestedNavigator: XPathNavigator): SetIteratorResult;
+    readonly current: XPathNavigator;
+    create(runtime: XmlQueryRuntime): void;
+    moveNext(nestedNavigator: XPathNavigator): SetIteratorResult;
 }
 
 
 export type UnionIterator = UnionIterator$instance;
 
 export class XmlSortKeyAccumulator$instance {
-    readonly Keys: ClrArray;
-    AddDateTimeSortKey(collation: XmlCollation, value: DateTime): void;
-    AddDecimalSortKey(collation: XmlCollation, value: decimal): void;
-    AddDoubleSortKey(collation: XmlCollation, value: double): void;
-    AddEmptySortKey(collation: XmlCollation): void;
-    AddIntegerSortKey(collation: XmlCollation, value: long): void;
-    AddIntSortKey(collation: XmlCollation, value: int): void;
-    AddStringSortKey(collation: XmlCollation, value: string): void;
-    Create(): void;
-    FinishSortKeys(): void;
+    readonly keys: ClrArray;
+    addDateTimeSortKey(collation: XmlCollation, value: DateTime): void;
+    addDecimalSortKey(collation: XmlCollation, value: decimal): void;
+    addDoubleSortKey(collation: XmlCollation, value: double): void;
+    addEmptySortKey(collation: XmlCollation): void;
+    addIntegerSortKey(collation: XmlCollation, value: long): void;
+    addIntSortKey(collation: XmlCollation, value: int): void;
+    addStringSortKey(collation: XmlCollation, value: string): void;
+    create(): void;
+    finishSortKeys(): void;
 }
 
 
 export type XmlSortKeyAccumulator = XmlSortKeyAccumulator$instance;
 
 export class XPathFollowingIterator$instance {
-    readonly Current: XPathNavigator;
-    Create(input: XPathNavigator, filter: XmlNavigatorFilter): void;
-    MoveNext(): boolean;
+    readonly current: XPathNavigator;
+    create(input: XPathNavigator, filter: XmlNavigatorFilter): void;
+    moveNext(): boolean;
 }
 
 
 export type XPathFollowingIterator = XPathFollowingIterator$instance;
 
 export class XPathFollowingMergeIterator$instance {
-    readonly Current: XPathNavigator;
-    Create(filter: XmlNavigatorFilter): void;
-    MoveNext(input: XPathNavigator): IteratorResult;
+    readonly current: XPathNavigator;
+    create(filter: XmlNavigatorFilter): void;
+    moveNext(input: XPathNavigator): IteratorResult;
 }
 
 
 export type XPathFollowingMergeIterator = XPathFollowingMergeIterator$instance;
 
 export class XPathPrecedingDocOrderIterator$instance {
-    readonly Current: XPathNavigator;
-    Create(input: XPathNavigator, filter: XmlNavigatorFilter): void;
-    MoveNext(): boolean;
+    readonly current: XPathNavigator;
+    create(input: XPathNavigator, filter: XmlNavigatorFilter): void;
+    moveNext(): boolean;
 }
 
 
 export type XPathPrecedingDocOrderIterator = XPathPrecedingDocOrderIterator$instance;
 
 export class XPathPrecedingIterator$instance {
-    readonly Current: XPathNavigator;
-    Create(context: XPathNavigator, filter: XmlNavigatorFilter): void;
-    MoveNext(): boolean;
+    readonly current: XPathNavigator;
+    create(context: XPathNavigator, filter: XmlNavigatorFilter): void;
+    moveNext(): boolean;
 }
 
 
 export type XPathPrecedingIterator = XPathPrecedingIterator$instance;
 
 export class XPathPrecedingMergeIterator$instance {
-    readonly Current: XPathNavigator;
-    Create(filter: XmlNavigatorFilter): void;
-    MoveNext(input: XPathNavigator): IteratorResult;
+    readonly current: XPathNavigator;
+    create(filter: XmlNavigatorFilter): void;
+    moveNext(input: XPathNavigator): IteratorResult;
 }
 
 
 export type XPathPrecedingMergeIterator = XPathPrecedingMergeIterator$instance;
 
 export class XmlCollation$instance {
-    Equals(obj: unknown): boolean;
-    GetHashCode(): int;
+    equals(obj: unknown): boolean;
+    getHashCode(): int;
 }
 
 
 export type XmlCollation = XmlCollation$instance;
 
 export class XmlILIndex$instance {
-    Add(key: string, navigator: XPathNavigator): void;
-    Lookup(key: string): XmlQueryNodeSequence;
+    add(key: string, navigator: XPathNavigator): void;
+    lookup(key: string): XmlQueryNodeSequence;
 }
 
 
 export type XmlILIndex = XmlILIndex$instance;
 
 export abstract class XmlNavigatorFilter$instance {
-    abstract IsFiltered(navigator: XPathNavigator): boolean;
-    abstract MoveToContent(navigator: XPathNavigator): boolean;
-    abstract MoveToFollowing(navigator: XPathNavigator, navigatorEnd: XPathNavigator): boolean;
-    abstract MoveToFollowingSibling(navigator: XPathNavigator): boolean;
-    abstract MoveToNextContent(navigator: XPathNavigator): boolean;
-    abstract MoveToPreviousSibling(navigator: XPathNavigator): boolean;
+    abstract isFiltered(navigator: XPathNavigator): boolean;
+    abstract moveToContent(navigator: XPathNavigator): boolean;
+    abstract moveToFollowing(navigator: XPathNavigator, navigatorEnd: XPathNavigator): boolean;
+    abstract moveToFollowingSibling(navigator: XPathNavigator): boolean;
+    abstract moveToNextContent(navigator: XPathNavigator): boolean;
+    abstract moveToPreviousSibling(navigator: XPathNavigator): boolean;
 }
 
 
 export type XmlNavigatorFilter = XmlNavigatorFilter$instance;
 
 export class XmlQueryContext$instance {
-    readonly DefaultDataSource: XPathNavigator;
-    readonly DefaultNameTable: XmlNameTable;
-    readonly QueryNameTable: XmlNameTable;
-    GetDataSource(uriRelative: string, uriBase: string): XPathNavigator;
-    GetLateBoundObject(namespaceUri: string): unknown;
-    GetParameter(localName: string, namespaceUri: string): unknown;
-    InvokeXsltLateBoundFunction(name: string, namespaceUri: string, args: IList_1<XPathItem>[]): IList_1<XPathItem>;
-    LateBoundFunctionExists(name: string, namespaceUri: string): boolean;
-    OnXsltMessageEncountered(message: string): void;
+    readonly defaultDataSource: XPathNavigator;
+    readonly defaultNameTable: XmlNameTable;
+    readonly queryNameTable: XmlNameTable;
+    getDataSource(uriRelative: string, uriBase: string): XPathNavigator;
+    getLateBoundObject(namespaceUri: string): unknown;
+    getParameter(localName: string, namespaceUri: string): unknown;
+    invokeXsltLateBoundFunction(name: string, namespaceUri: string, args: IList_1<XPathItem>[]): IList_1<XPathItem>;
+    lateBoundFunctionExists(name: string, namespaceUri: string): boolean;
+    onXsltMessageEncountered(message: string): void;
 }
 
 
@@ -454,7 +454,7 @@ export class XmlQueryItemSequence$instance extends XmlQuerySequence_1$instance<X
     constructor(item: XPathItem);
     Add(value: XPathItem): void;
     Add(value: unknown): int;
-    AddClone(item: XPathItem): void;
+    addClone(item: XPathItem): void;
     Clear(): void;
     Contains(value: XPathItem): boolean;
     Contains(value: unknown): boolean;
@@ -489,16 +489,16 @@ export class XmlQueryNodeSequence$instance extends XmlQuerySequence_1$instance<X
     constructor(list: IList_1<XPathNavigator>);
     constructor(array: XPathNavigator[], size: int);
     constructor(navigator: XPathNavigator);
-    IsDocOrderDistinct: boolean;
+    isDocOrderDistinct: boolean;
     Add(value: XPathNavigator): void;
     Add(value: unknown): int;
-    AddClone(navigator: XPathNavigator): void;
+    addClone(navigator: XPathNavigator): void;
     Clear(): void;
     Contains(value: XPathNavigator): boolean;
     Contains(value: unknown): boolean;
     CopyTo(array: XPathNavigator[], index: int): void;
     CopyTo(array: ClrArray, index: int): void;
-    DocOrderDistinct(comparer: IComparer_1<XPathNavigator>): XmlQueryNodeSequence;
+    docOrderDistinct(comparer: IComparer_1<XPathNavigator>): XmlQueryNodeSequence;
     GetEnumerator(): IEnumerator_1<XPathNavigator>;
     GetEnumerator(): IEnumerator;
     IndexOf(value: XPathNavigator): int;
@@ -523,78 +523,78 @@ export type XmlQueryNodeSequence = XmlQueryNodeSequence$instance & __XmlQueryNod
 
 
 export class XmlQueryOutput$instance extends System_Xml_Internal.XmlWriter$instance {
-    readonly WriteState: WriteState;
-    readonly XmlLang: string;
-    readonly XmlSpace: XmlSpace;
-    Close(): void;
+    readonly writeState: WriteState;
+    readonly xmlLang: string;
+    readonly xmlSpace: XmlSpace;
+    close(): void;
     Dispose(): void;
     DisposeAsync(): ValueTask;
-    EndCopy(navigator: XPathNavigator): void;
-    EndTree(): void;
-    Flush(): void;
-    LookupPrefix(ns: string): string;
-    StartCopy(navigator: XPathNavigator): boolean;
-    StartElementContentUnchecked(): void;
-    StartTree(rootType: XPathNodeType): void;
-    WriteBase64(buffer: byte[], index: int, count: int): void;
-    WriteCData(text: string): void;
-    WriteCharEntity(ch: char): void;
-    WriteChars(buffer: char[], index: int, count: int): void;
-    WriteComment(text: string): void;
-    WriteCommentString(text: string): void;
-    WriteDocType(name: string, pubid: string, sysid: string, subset: string): void;
-    WriteEndAttribute(): void;
-    WriteEndAttributeUnchecked(): void;
-    WriteEndComment(): void;
-    WriteEndDocument(): void;
-    WriteEndElement(): void;
-    WriteEndElementUnchecked(prefix: string, localName: string, ns: string): void;
-    WriteEndElementUnchecked(localName: string): void;
-    WriteEndNamespace(): void;
-    WriteEndProcessingInstruction(): void;
-    WriteEndRoot(): void;
-    WriteEntityRef(name: string): void;
-    WriteFullEndElement(): void;
-    WriteItem(item: XPathItem): void;
-    WriteNamespaceDeclaration(prefix: string, ns: string): void;
-    WriteNamespaceDeclarationUnchecked(prefix: string, ns: string): void;
-    WriteNamespaceString(text: string): void;
-    WriteProcessingInstruction(target: string, text: string): void;
-    WriteProcessingInstructionString(text: string): void;
-    WriteRaw(buffer: char[], index: int, count: int): void;
-    WriteRaw(data: string): void;
-    WriteRawUnchecked(text: string): void;
+    endCopy(navigator: XPathNavigator): void;
+    endTree(): void;
+    flush(): void;
+    lookupPrefix(ns: string): string;
+    startCopy(navigator: XPathNavigator): boolean;
+    startElementContentUnchecked(): void;
+    startTree(rootType: XPathNodeType): void;
+    writeBase64(buffer: byte[], index: int, count: int): void;
+    writeCData(text: string): void;
+    writeCharEntity(ch: char): void;
+    writeChars(buffer: char[], index: int, count: int): void;
+    writeComment(text: string): void;
+    writeCommentString(text: string): void;
+    writeDocType(name: string, pubid: string, sysid: string, subset: string): void;
+    writeEndAttribute(): void;
+    writeEndAttributeUnchecked(): void;
+    writeEndComment(): void;
+    writeEndDocument(): void;
+    writeEndElement(): void;
+    writeEndElementUnchecked(prefix: string, localName: string, ns: string): void;
+    writeEndElementUnchecked(localName: string): void;
+    writeEndNamespace(): void;
+    writeEndProcessingInstruction(): void;
+    writeEndRoot(): void;
+    writeEntityRef(name: string): void;
+    writeFullEndElement(): void;
+    writeItem(item: XPathItem): void;
+    writeNamespaceDeclaration(prefix: string, ns: string): void;
+    writeNamespaceDeclarationUnchecked(prefix: string, ns: string): void;
+    writeNamespaceString(text: string): void;
+    writeProcessingInstruction(target: string, text: string): void;
+    writeProcessingInstructionString(text: string): void;
+    writeRaw(buffer: char[], index: int, count: int): void;
+    writeRaw(data: string): void;
+    writeRawUnchecked(text: string): void;
     WriteStartAttribute(prefix: string, localName: string, ns: string): void;
     WriteStartAttribute(localName: string, ns: string): void;
     WriteStartAttribute(localName: string): void;
-    WriteStartAttributeComputed(tagName: string, prefixMappingsIndex: int): void;
-    WriteStartAttributeComputed(tagName: string, ns: string): void;
-    WriteStartAttributeComputed(navigator: XPathNavigator): void;
-    WriteStartAttributeComputed(name: XmlQualifiedName): void;
-    WriteStartAttributeLocalName(localName: string): void;
-    WriteStartAttributeUnchecked(prefix: string, localName: string, ns: string): void;
-    WriteStartAttributeUnchecked(localName: string): void;
-    WriteStartComment(): void;
-    WriteStartDocument(): void;
-    WriteStartDocument(standalone: boolean): void;
+    writeStartAttributeComputed(tagName: string, prefixMappingsIndex: int): void;
+    writeStartAttributeComputed(tagName: string, ns: string): void;
+    writeStartAttributeComputed(navigator: XPathNavigator): void;
+    writeStartAttributeComputed(name: XmlQualifiedName): void;
+    writeStartAttributeLocalName(localName: string): void;
+    writeStartAttributeUnchecked(prefix: string, localName: string, ns: string): void;
+    writeStartAttributeUnchecked(localName: string): void;
+    writeStartComment(): void;
+    writeStartDocument(): void;
+    writeStartDocument(standalone: boolean): void;
     WriteStartElement(prefix: string, localName: string, ns: string): void;
     WriteStartElement(localName: string, ns: string): void;
     WriteStartElement(localName: string): void;
-    WriteStartElementComputed(tagName: string, prefixMappingsIndex: int): void;
-    WriteStartElementComputed(tagName: string, ns: string): void;
-    WriteStartElementComputed(navigator: XPathNavigator): void;
-    WriteStartElementComputed(name: XmlQualifiedName): void;
-    WriteStartElementLocalName(localName: string): void;
-    WriteStartElementUnchecked(prefix: string, localName: string, ns: string): void;
-    WriteStartElementUnchecked(localName: string): void;
-    WriteStartNamespace(prefix: string): void;
-    WriteStartProcessingInstruction(target: string): void;
-    WriteStartRoot(): void;
-    WriteString(text: string): void;
-    WriteStringUnchecked(text: string): void;
-    WriteSurrogateCharEntity(lowChar: char, highChar: char): void;
-    WriteWhitespace(ws: string): void;
-    XsltCopyOf(navigator: XPathNavigator): void;
+    writeStartElementComputed(tagName: string, prefixMappingsIndex: int): void;
+    writeStartElementComputed(tagName: string, ns: string): void;
+    writeStartElementComputed(navigator: XPathNavigator): void;
+    writeStartElementComputed(name: XmlQualifiedName): void;
+    writeStartElementLocalName(localName: string): void;
+    writeStartElementUnchecked(prefix: string, localName: string, ns: string): void;
+    writeStartElementUnchecked(localName: string): void;
+    writeStartNamespace(prefix: string): void;
+    writeStartProcessingInstruction(target: string): void;
+    writeStartRoot(): void;
+    writeString(text: string): void;
+    writeStringUnchecked(text: string): void;
+    writeSurrogateCharEntity(lowChar: char, highChar: char): void;
+    writeWhitespace(ws: string): void;
+    xsltCopyOf(navigator: XPathNavigator): void;
 }
 
 
@@ -603,51 +603,53 @@ export interface __XmlQueryOutput$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
 
+export interface XmlQueryOutput$instance extends System_Internal.IAsyncDisposable$instance, System_Internal.IDisposable$instance {}
+
 export type XmlQueryOutput = XmlQueryOutput$instance & __XmlQueryOutput$views;
 
 
 export class XmlQueryRuntime$instance {
-    readonly ExternalContext: XmlQueryContext;
-    readonly NameTable: XmlNameTable;
-    readonly Output: XmlQueryOutput;
-    readonly XsltFunctions: XsltLibrary;
-    AddNewIndex(context: XPathNavigator, indexId: int, index: XmlILIndex): void;
-    ChangeTypeXsltArgument(indexType: int, value: unknown, destinationType: Type): unknown;
-    ChangeTypeXsltResult(indexType: int, value: unknown): unknown;
-    ComparePosition(navigatorThis: XPathNavigator, navigatorThat: XPathNavigator): int;
-    CreateCollation(collation: string): XmlCollation;
-    DebugGetGlobalNames(): string[];
-    DebugGetGlobalValue(name: string): IList;
-    DebugGetXsltValue(seq: IList): unknown;
-    DebugSetGlobalValue(name: string, value: unknown): void;
-    DocOrderDistinct(seq: IList_1<XPathNavigator>): IList_1<XPathNavigator>;
-    EarlyBoundFunctionExists(name: string, namespaceUri: string): boolean;
-    EndRtfConstruction(output: { value: ref<XmlQueryOutput> }): XPathNavigator;
-    EndSequenceConstruction(output: { value: ref<XmlQueryOutput> }): IList_1<XPathItem>;
-    FindIndex(context: XPathNavigator, indexId: int, index: { value: ref<XmlILIndex> }): boolean;
-    GenerateId(navigator: XPathNavigator): string;
-    GetAtomizedName(index: int): string;
-    GetCollation(index: int): XmlCollation;
-    GetEarlyBoundObject(index: int): unknown;
-    GetGlobalValue(index: int): unknown;
-    GetNameFilter(index: int): XmlNavigatorFilter;
-    GetTypeFilter(nodeType: XPathNodeType): XmlNavigatorFilter;
-    IsGlobalComputed(index: int): boolean;
-    IsQNameEqual(n1: XPathNavigator, n2: XPathNavigator): boolean;
-    IsQNameEqual(navigator: XPathNavigator, indexLocalName: int, indexNamespaceUri: int): boolean;
-    MatchesXmlType(seq: IList_1<XPathItem>, indexType: int): boolean;
-    MatchesXmlType(item: XPathItem, indexType: int): boolean;
-    MatchesXmlType(seq: IList_1<XPathItem>, code: XmlTypeCode): boolean;
-    MatchesXmlType(item: XPathItem, code: XmlTypeCode): boolean;
-    ParseTagName(tagName: string, indexPrefixMappings: int): XmlQualifiedName;
-    ParseTagName(tagName: string, ns: string): XmlQualifiedName;
-    SendMessage(message: string): void;
-    SetGlobalValue(index: int, value: unknown): void;
-    StartRtfConstruction(baseUri: string, output: { value: ref<XmlQueryOutput> }): void;
-    StartSequenceConstruction(output: { value: ref<XmlQueryOutput> }): void;
-    TextRtfConstruction(text: string, baseUri: string): XPathNavigator;
-    ThrowException(text: string): void;
-    static OnCurrentNodeChanged(currentNode: XPathNavigator): int;
+    readonly externalContext: XmlQueryContext;
+    readonly nameTable: XmlNameTable;
+    readonly output: XmlQueryOutput;
+    readonly xsltFunctions: XsltLibrary;
+    addNewIndex(context: XPathNavigator, indexId: int, index: XmlILIndex): void;
+    changeTypeXsltArgument(indexType: int, value: unknown, destinationType: Type): unknown;
+    changeTypeXsltResult(indexType: int, value: unknown): unknown;
+    comparePosition(navigatorThis: XPathNavigator, navigatorThat: XPathNavigator): int;
+    createCollation(collation: string): XmlCollation;
+    debugGetGlobalNames(): string[];
+    debugGetGlobalValue(name: string): IList;
+    debugGetXsltValue(seq: IList): unknown;
+    debugSetGlobalValue(name: string, value: unknown): void;
+    docOrderDistinct(seq: IList_1<XPathNavigator>): IList_1<XPathNavigator>;
+    earlyBoundFunctionExists(name: string, namespaceUri: string): boolean;
+    endRtfConstruction(output: { value: ref<XmlQueryOutput> }): XPathNavigator;
+    endSequenceConstruction(output: { value: ref<XmlQueryOutput> }): IList_1<XPathItem>;
+    findIndex(context: XPathNavigator, indexId: int, index: { value: ref<XmlILIndex> }): boolean;
+    generateId(navigator: XPathNavigator): string;
+    getAtomizedName(index: int): string;
+    getCollation(index: int): XmlCollation;
+    getEarlyBoundObject(index: int): unknown;
+    getGlobalValue(index: int): unknown;
+    getNameFilter(index: int): XmlNavigatorFilter;
+    getTypeFilter(nodeType: XPathNodeType): XmlNavigatorFilter;
+    isGlobalComputed(index: int): boolean;
+    isQNameEqual(n1: XPathNavigator, n2: XPathNavigator): boolean;
+    isQNameEqual(navigator: XPathNavigator, indexLocalName: int, indexNamespaceUri: int): boolean;
+    matchesXmlType(seq: IList_1<XPathItem>, indexType: int): boolean;
+    matchesXmlType(item: XPathItem, indexType: int): boolean;
+    matchesXmlType(seq: IList_1<XPathItem>, code: XmlTypeCode): boolean;
+    matchesXmlType(item: XPathItem, code: XmlTypeCode): boolean;
+    parseTagName(tagName: string, indexPrefixMappings: int): XmlQualifiedName;
+    parseTagName(tagName: string, ns: string): XmlQualifiedName;
+    sendMessage(message: string): void;
+    setGlobalValue(index: int, value: unknown): void;
+    startRtfConstruction(baseUri: string, output: { value: ref<XmlQueryOutput> }): void;
+    startSequenceConstruction(output: { value: ref<XmlQueryOutput> }): void;
+    textRtfConstruction(text: string, baseUri: string): XPathNavigator;
+    throwException(text: string): void;
+    static onCurrentNodeChanged(currentNode: XPathNavigator): int;
 }
 
 
@@ -658,18 +660,18 @@ export class XmlQuerySequence_1$instance<T> {
     constructor(capacity: int);
     constructor(array: T[], size: int);
     constructor(value: T);
-    readonly Count: int;
-    Item: T;
-    Add(value: T): void;
-    Clear(): void;
-    Contains(value: T): boolean;
-    CopyTo(array: T[], index: int): void;
-    GetEnumerator(): IEnumerator_1<T>;
-    IndexOf(value: T): int;
-    SortByKeys(keys: ClrArray): void;
-    static readonly Empty: unknown;
-    static CreateOrReuse<T>(seq: XmlQuerySequence_1<T>, item: T): XmlQuerySequence_1<T>;
-    static CreateOrReuse<T>(seq: XmlQuerySequence_1<T>): XmlQuerySequence_1<T>;
+    readonly count: int;
+    item: T;
+    add(value: T): void;
+    clear(): void;
+    contains(value: T): boolean;
+    copyTo(array: T[], index: int): void;
+    getEnumerator(): IEnumerator_1<T>;
+    indexOf(value: T): int;
+    sortByKeys(keys: ClrArray): void;
+    static readonly empty: unknown;
+    static createOrReuse<T>(seq: XmlQuerySequence_1<T>, item: T): XmlQuerySequence_1<T>;
+    static createOrReuse<T>(seq: XmlQuerySequence_1<T>): XmlQuerySequence_1<T>;
 }
 
 
@@ -686,91 +688,91 @@ export type XmlQuerySequence_1<T> = XmlQuerySequence_1$instance<T> & __XmlQueryS
 
 
 export class XsltLibrary$instance {
-    CheckScriptNamespace(nsUri: string): int;
-    ElementAvailable(name: XmlQualifiedName): boolean;
-    EqualityOperator(opCode: double, left: IList_1<XPathItem>, right: IList_1<XPathItem>): boolean;
-    FormatMessage(res: string, args: IList_1<CLROf<string>>): string;
-    FormatNumberDynamic(value: double, formatPicture: string, decimalFormatName: XmlQualifiedName, errorMessageName: string): string;
-    FormatNumberStatic(value: double, decimalFormatterIndex: double): string;
-    FunctionAvailable(name: XmlQualifiedName): boolean;
-    IsSameNodeSort(nav1: XPathNavigator, nav2: XPathNavigator): boolean;
-    LangToLcid(lang: string, forwardCompatibility: boolean): int;
-    NumberFormat(value: IList_1<XPathItem>, formatString: string, lang: double, letterValue: string, groupingSeparator: string, groupingSize: double): string;
-    RegisterDecimalFormat(name: XmlQualifiedName, infinitySymbol: string, nanSymbol: string, characters: string): int;
-    RegisterDecimalFormatter(formatPicture: string, infinitySymbol: string, nanSymbol: string, characters: string): double;
-    RelationalOperator(opCode: double, left: IList_1<XPathItem>, right: IList_1<XPathItem>): boolean;
+    checkScriptNamespace(nsUri: string): int;
+    elementAvailable(name: XmlQualifiedName): boolean;
+    equalityOperator(opCode: double, left: IList_1<XPathItem>, right: IList_1<XPathItem>): boolean;
+    formatMessage(res: string, args: IList_1<CLROf<string>>): string;
+    formatNumberDynamic(value: double, formatPicture: string, decimalFormatName: XmlQualifiedName, errorMessageName: string): string;
+    formatNumberStatic(value: double, decimalFormatterIndex: double): string;
+    functionAvailable(name: XmlQualifiedName): boolean;
+    isSameNodeSort(nav1: XPathNavigator, nav2: XPathNavigator): boolean;
+    langToLcid(lang: string, forwardCompatibility: boolean): int;
+    numberFormat(value: IList_1<XPathItem>, formatString: string, lang: double, letterValue: string, groupingSeparator: string, groupingSize: double): string;
+    registerDecimalFormat(name: XmlQualifiedName, infinitySymbol: string, nanSymbol: string, characters: string): int;
+    registerDecimalFormatter(formatPicture: string, infinitySymbol: string, nanSymbol: string, characters: string): double;
+    relationalOperator(opCode: double, left: IList_1<XPathItem>, right: IList_1<XPathItem>): boolean;
 }
 
 
 export type XsltLibrary = XsltLibrary$instance;
 
 export abstract class XmlILStorageConverter$instance {
-    static BooleanToAtomicValue(value: boolean, index: int, runtime: XmlQueryRuntime): XmlAtomicValue;
-    static BytesToAtomicValue(value: byte[], index: int, runtime: XmlQueryRuntime): XmlAtomicValue;
-    static DateTimeToAtomicValue(value: DateTime, index: int, runtime: XmlQueryRuntime): XmlAtomicValue;
-    static DecimalToAtomicValue(value: decimal, index: int, runtime: XmlQueryRuntime): XmlAtomicValue;
-    static DoubleToAtomicValue(value: double, index: int, runtime: XmlQueryRuntime): XmlAtomicValue;
-    static Int32ToAtomicValue(value: int, index: int, runtime: XmlQueryRuntime): XmlAtomicValue;
-    static Int64ToAtomicValue(value: long, index: int, runtime: XmlQueryRuntime): XmlAtomicValue;
-    static ItemsToNavigators(listItems: IList_1<XPathItem>): IList_1<XPathNavigator>;
-    static NavigatorsToItems(listNavigators: IList_1<XPathNavigator>): IList_1<XPathItem>;
-    static SingleToAtomicValue(value: float, index: int, runtime: XmlQueryRuntime): XmlAtomicValue;
-    static StringToAtomicValue(value: string, index: int, runtime: XmlQueryRuntime): XmlAtomicValue;
-    static TimeSpanToAtomicValue(value: TimeSpan, index: int, runtime: XmlQueryRuntime): XmlAtomicValue;
-    static XmlQualifiedNameToAtomicValue(value: XmlQualifiedName, index: int, runtime: XmlQueryRuntime): XmlAtomicValue;
+    static booleanToAtomicValue(value: boolean, index: int, runtime: XmlQueryRuntime): XmlAtomicValue;
+    static bytesToAtomicValue(value: byte[], index: int, runtime: XmlQueryRuntime): XmlAtomicValue;
+    static dateTimeToAtomicValue(value: DateTime, index: int, runtime: XmlQueryRuntime): XmlAtomicValue;
+    static decimalToAtomicValue(value: decimal, index: int, runtime: XmlQueryRuntime): XmlAtomicValue;
+    static doubleToAtomicValue(value: double, index: int, runtime: XmlQueryRuntime): XmlAtomicValue;
+    static int32ToAtomicValue(value: int, index: int, runtime: XmlQueryRuntime): XmlAtomicValue;
+    static int64ToAtomicValue(value: long, index: int, runtime: XmlQueryRuntime): XmlAtomicValue;
+    static itemsToNavigators(listItems: IList_1<XPathItem>): IList_1<XPathNavigator>;
+    static navigatorsToItems(listNavigators: IList_1<XPathNavigator>): IList_1<XPathItem>;
+    static singleToAtomicValue(value: float, index: int, runtime: XmlQueryRuntime): XmlAtomicValue;
+    static stringToAtomicValue(value: string, index: int, runtime: XmlQueryRuntime): XmlAtomicValue;
+    static timeSpanToAtomicValue(value: TimeSpan, index: int, runtime: XmlQueryRuntime): XmlAtomicValue;
+    static xmlQualifiedNameToAtomicValue(value: XmlQualifiedName, index: int, runtime: XmlQueryRuntime): XmlAtomicValue;
 }
 
 
 export type XmlILStorageConverter = XmlILStorageConverter$instance;
 
 export abstract class XsltConvert$instance {
-    static EnsureNodeSet(listItems: IList_1<XPathItem>): IList_1<XPathNavigator>;
-    static ToBoolean(listItems: IList_1<XPathItem>): boolean;
-    static ToBoolean(item: XPathItem): boolean;
-    static ToDateTime(value: string): DateTime;
-    static ToDecimal(value: double): decimal;
-    static ToDouble(listItems: IList_1<XPathItem>): double;
-    static ToDouble(value: decimal): double;
-    static ToDouble(value: int): double;
-    static ToDouble(value: long): double;
-    static ToDouble(value: string): double;
-    static ToDouble(item: XPathItem): double;
-    static ToInt(value: double): int;
-    static ToLong(value: double): long;
-    static ToNode(listItems: IList_1<XPathItem>): XPathNavigator;
-    static ToNode(item: XPathItem): XPathNavigator;
-    static ToNodeSet(listItems: IList_1<XPathItem>): IList_1<XPathNavigator>;
-    static ToNodeSet(item: XPathItem): IList_1<XPathNavigator>;
-    static ToString(listItems: IList_1<XPathItem>): string;
-    static ToString(value: DateTime): string;
-    static ToString(value: double): string;
-    static ToString(item: XPathItem): string;
+    static ensureNodeSet(listItems: IList_1<XPathItem>): IList_1<XPathNavigator>;
+    static toBoolean(listItems: IList_1<XPathItem>): boolean;
+    static toBoolean(item: XPathItem): boolean;
+    static toDateTime(value: string): DateTime;
+    static toDecimal(value: double): decimal;
+    static toDouble(listItems: IList_1<XPathItem>): double;
+    static toDouble(value: decimal): double;
+    static toDouble(value: int): double;
+    static toDouble(value: long): double;
+    static toDouble(value: string): double;
+    static toDouble(item: XPathItem): double;
+    static toInt(value: double): int;
+    static toLong(value: double): long;
+    static toNode(listItems: IList_1<XPathItem>): XPathNavigator;
+    static toNode(item: XPathItem): XPathNavigator;
+    static toNodeSet(listItems: IList_1<XPathItem>): IList_1<XPathNavigator>;
+    static toNodeSet(item: XPathItem): IList_1<XPathNavigator>;
+    static toString(listItems: IList_1<XPathItem>): string;
+    static toString(value: DateTime): string;
+    static toString(value: double): string;
+    static toString(item: XPathItem): string;
 }
 
 
 export type XsltConvert = XsltConvert$instance;
 
 export abstract class XsltFunctions$instance {
-    static BaseUri(navigator: XPathNavigator): string;
-    static Contains(s1: string, s2: string): boolean;
-    static EXslObjectType(value: IList_1<XPathItem>): string;
-    static Lang(value: string, context: XPathNavigator): boolean;
-    static MSFormatDateTime(dateTime: string, format: string, lang: string, isDate: boolean): string;
-    static MSLocalName(name: string): string;
-    static MSNamespaceUri(name: string, currentNode: XPathNavigator): string;
-    static MSNumber(value: IList_1<XPathItem>): double;
-    static MSStringCompare(s1: string, s2: string, lang: string, options: string): double;
-    static MSUtc(dateTime: string): string;
-    static NormalizeSpace(value: string): string;
-    static OuterXml(navigator: XPathNavigator): string;
-    static Round(value: double): double;
-    static StartsWith(s1: string, s2: string): boolean;
-    static Substring(value: string, startIndex: double, length: double): string;
-    static Substring(value: string, startIndex: double): string;
-    static SubstringAfter(s1: string, s2: string): string;
-    static SubstringBefore(s1: string, s2: string): string;
-    static SystemProperty(name: XmlQualifiedName): XPathItem;
-    static Translate(arg: string, mapString: string, transString: string): string;
+    static baseUri(navigator: XPathNavigator): string;
+    static contains(s1: string, s2: string): boolean;
+    static eXslObjectType(value: IList_1<XPathItem>): string;
+    static lang(value: string, context: XPathNavigator): boolean;
+    static msFormatDateTime(dateTime: string, format: string, lang: string, isDate: boolean): string;
+    static msLocalName(name: string): string;
+    static msNamespaceUri(name: string, currentNode: XPathNavigator): string;
+    static msNumber(value: IList_1<XPathItem>): double;
+    static msStringCompare(s1: string, s2: string, lang: string, options: string): double;
+    static msUtc(dateTime: string): string;
+    static normalizeSpace(value: string): string;
+    static outerXml(navigator: XPathNavigator): string;
+    static round(value: double): double;
+    static startsWith(s1: string, s2: string): boolean;
+    static substring(value: string, startIndex: double, length: double): string;
+    static substring(value: string, startIndex: double): string;
+    static substringAfter(s1: string, s2: string): string;
+    static substringBefore(s1: string, s2: string): string;
+    static systemProperty(name: XmlQualifiedName): XPathItem;
+    static translate(arg: string, mapString: string, transString: string): string;
 }
 
 

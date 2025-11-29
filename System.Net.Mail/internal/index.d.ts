@@ -56,60 +56,60 @@ export type CLROf<T> =
     T; // Identity fallback for non-primitive types
 
 export enum DeliveryNotificationOptions {
-    None = 0,
-    OnSuccess = 1,
-    OnFailure = 2,
-    Delay = 4,
-    Never = 134217728
+    none = 0,
+    onSuccess = 1,
+    onFailure = 2,
+    delay = 4,
+    never_ = 134217728
 }
 
 
 export enum MailPriority {
-    Normal = 0,
-    Low = 1,
-    High = 2
+    normal = 0,
+    low = 1,
+    high = 2
 }
 
 
 export enum SmtpDeliveryFormat {
-    SevenBit = 0,
-    International = 1
+    sevenBit = 0,
+    international = 1
 }
 
 
 export enum SmtpDeliveryMethod {
-    Network = 0,
-    SpecifiedPickupDirectory = 1,
-    PickupDirectoryFromIis = 2
+    network = 0,
+    specifiedPickupDirectory = 1,
+    pickupDirectoryFromIis = 2
 }
 
 
 export enum SmtpStatusCode {
-    SystemStatus = 211,
-    HelpMessage = 214,
-    ServiceReady = 220,
-    ServiceClosingTransmissionChannel = 221,
-    Ok = 250,
-    UserNotLocalWillForward = 251,
-    CannotVerifyUserWillAttemptDelivery = 252,
-    StartMailInput = 354,
-    ServiceNotAvailable = 421,
-    MailboxBusy = 450,
-    LocalErrorInProcessing = 451,
-    InsufficientStorage = 452,
-    ClientNotPermitted = 454,
-    CommandUnrecognized = 500,
-    SyntaxError = 501,
-    CommandNotImplemented = 502,
-    BadCommandSequence = 503,
-    MustIssueStartTlsFirst = 530,
-    CommandParameterNotImplemented = 504,
-    MailboxUnavailable = 550,
-    UserNotLocalTryAlternatePath = 551,
-    ExceededStorageAllocation = 552,
-    MailboxNameNotAllowed = 553,
-    TransactionFailed = 554,
-    GeneralFailure = -1
+    systemStatus = 211,
+    helpMessage = 214,
+    serviceReady = 220,
+    serviceClosingTransmissionChannel = 221,
+    ok = 250,
+    userNotLocalWillForward = 251,
+    cannotVerifyUserWillAttemptDelivery = 252,
+    startMailInput = 354,
+    serviceNotAvailable = 421,
+    mailboxBusy = 450,
+    localErrorInProcessing = 451,
+    insufficientStorage = 452,
+    clientNotPermitted = 454,
+    commandUnrecognized = 500,
+    syntaxError = 501,
+    commandNotImplemented = 502,
+    badCommandSequence = 503,
+    mustIssueStartTlsFirst = 530,
+    commandParameterNotImplemented = 504,
+    mailboxUnavailable = 550,
+    userNotLocalTryAlternatePath = 551,
+    exceededStorageAllocation = 552,
+    mailboxNameNotAllowed = 553,
+    transactionFailed = 554,
+    generalFailure = -1
 }
 
 
@@ -120,18 +120,20 @@ export class AlternateView$instance extends AttachmentBase$instance {
     constructor(contentStream: Stream);
     constructor(contentStream: Stream, mediaType: string);
     constructor(contentStream: Stream, contentType: ContentType);
-    BaseUri: Uri;
-    readonly LinkedResources: LinkedResourceCollection;
+    baseUri: Uri;
+    readonly linkedResources: LinkedResourceCollection;
     Dispose(): void;
-    static CreateAlternateViewFromString(content: string, contentType: ContentType): AlternateView;
-    static CreateAlternateViewFromString(content: string, contentEncoding: Encoding, mediaType: string): AlternateView;
-    static CreateAlternateViewFromString(content: string): AlternateView;
+    static createAlternateViewFromString(content: string, contentType: ContentType): AlternateView;
+    static createAlternateViewFromString(content: string, contentEncoding: Encoding, mediaType: string): AlternateView;
+    static createAlternateViewFromString(content: string): AlternateView;
 }
 
 
 export interface __AlternateView$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
+
+export interface AlternateView$instance extends System_Internal.IDisposable$instance {}
 
 export type AlternateView = AlternateView$instance & __AlternateView$views;
 
@@ -144,7 +146,7 @@ export class AlternateViewCollection$instance extends System_Collections_ObjectM
     Contains(value: unknown): boolean;
     CopyTo(array: AlternateView[], index: int): void;
     CopyTo(array: ClrArray, index: int): void;
-    Dispose(): void;
+    dispose(): void;
     GetEnumerator(): IEnumerator_1<AlternateView>;
     GetEnumerator(): IEnumerator;
     IndexOf(item: AlternateView): int;
@@ -179,13 +181,13 @@ export class Attachment$instance extends AttachmentBase$instance {
     constructor(contentStream: Stream, name: string);
     constructor(contentStream: Stream, name: string, mediaType: string);
     constructor(contentStream: Stream, contentType: ContentType);
-    readonly ContentDisposition: ContentDisposition;
-    Name: string;
-    NameEncoding: Encoding;
+    readonly contentDisposition: ContentDisposition;
+    name: string;
+    nameEncoding: Encoding;
     Dispose(): void;
-    static CreateAttachmentFromString(content: string, contentType: ContentType): Attachment;
-    static CreateAttachmentFromString(content: string, name: string, contentEncoding: Encoding, mediaType: string): Attachment;
-    static CreateAttachmentFromString(content: string, name: string): Attachment;
+    static createAttachmentFromString(content: string, contentType: ContentType): Attachment;
+    static createAttachmentFromString(content: string, name: string, contentEncoding: Encoding, mediaType: string): Attachment;
+    static createAttachmentFromString(content: string, name: string): Attachment;
 }
 
 
@@ -193,15 +195,17 @@ export interface __Attachment$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
 
+export interface Attachment$instance extends System_Internal.IDisposable$instance {}
+
 export type Attachment = Attachment$instance & __Attachment$views;
 
 
 export abstract class AttachmentBase$instance {
-    ContentId: string;
-    readonly ContentStream: Stream;
-    ContentType: ContentType;
-    TransferEncoding: TransferEncoding;
-    Dispose(): void;
+    contentId: string;
+    readonly contentStream: Stream;
+    contentType: ContentType;
+    transferEncoding: TransferEncoding;
+    dispose(): void;
 }
 
 
@@ -222,7 +226,7 @@ export class AttachmentCollection$instance extends System_Collections_ObjectMode
     Contains(value: unknown): boolean;
     CopyTo(array: Attachment[], index: int): void;
     CopyTo(array: ClrArray, index: int): void;
-    Dispose(): void;
+    dispose(): void;
     GetEnumerator(): IEnumerator_1<Attachment>;
     GetEnumerator(): IEnumerator;
     IndexOf(item: Attachment): int;
@@ -257,17 +261,19 @@ export class LinkedResource$instance extends AttachmentBase$instance {
     constructor(contentStream: Stream);
     constructor(contentStream: Stream, mediaType: string);
     constructor(contentStream: Stream, contentType: ContentType);
-    ContentLink: Uri;
+    contentLink: Uri;
     Dispose(): void;
-    static CreateLinkedResourceFromString(content: string, contentType: ContentType): LinkedResource;
-    static CreateLinkedResourceFromString(content: string, contentEncoding: Encoding, mediaType: string): LinkedResource;
-    static CreateLinkedResourceFromString(content: string): LinkedResource;
+    static createLinkedResourceFromString(content: string, contentType: ContentType): LinkedResource;
+    static createLinkedResourceFromString(content: string, contentEncoding: Encoding, mediaType: string): LinkedResource;
+    static createLinkedResourceFromString(content: string): LinkedResource;
 }
 
 
 export interface __LinkedResource$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
+
+export interface LinkedResource$instance extends System_Internal.IDisposable$instance {}
 
 export type LinkedResource = LinkedResource$instance & __LinkedResource$views;
 
@@ -280,7 +286,7 @@ export class LinkedResourceCollection$instance extends System_Collections_Object
     Contains(value: unknown): boolean;
     CopyTo(array: LinkedResource[], index: int): void;
     CopyTo(array: ClrArray, index: int): void;
-    Dispose(): void;
+    dispose(): void;
     GetEnumerator(): IEnumerator_1<LinkedResource>;
     GetEnumerator(): IEnumerator;
     IndexOf(item: LinkedResource): int;
@@ -312,16 +318,16 @@ export class MailAddress$instance {
     constructor(address: string);
     constructor(address: string, displayName: string);
     constructor(address: string, displayName: string, displayNameEncoding: Encoding);
-    readonly Address: string;
-    readonly DisplayName: string;
-    readonly Host: string;
-    readonly User: string;
-    Equals(value: unknown): boolean;
-    GetHashCode(): int;
-    ToString(): string;
-    static TryCreate(address: string, result: { value: ref<MailAddress> }): boolean;
-    static TryCreate(address: string, displayName: string, result: { value: ref<MailAddress> }): boolean;
-    static TryCreate(address: string, displayName: string, displayNameEncoding: Encoding, result: { value: ref<MailAddress> }): boolean;
+    readonly address: string;
+    readonly displayName: string;
+    readonly host: string;
+    readonly user: string;
+    equals(value: unknown): boolean;
+    getHashCode(): int;
+    toString(): string;
+    static tryCreate(address: string, result: { value: ref<MailAddress> }): boolean;
+    static tryCreate(address: string, displayName: string, result: { value: ref<MailAddress> }): boolean;
+    static tryCreate(address: string, displayName: string, displayNameEncoding: Encoding, result: { value: ref<MailAddress> }): boolean;
 }
 
 
@@ -329,8 +335,8 @@ export type MailAddress = MailAddress$instance;
 
 export class MailAddressCollection$instance extends System_Collections_ObjectModel_Internal.Collection_1$instance<MailAddress> {
     constructor();
-    Add(item: MailAddress): void;
-    Add(value: unknown): int;
+    add(item: MailAddress): void;
+    add(value: unknown): int;
     Clear(): void;
     Contains(item: MailAddress): boolean;
     Contains(value: unknown): boolean;
@@ -344,7 +350,7 @@ export class MailAddressCollection$instance extends System_Collections_ObjectMod
     Remove(item: MailAddress): boolean;
     Remove(value: unknown): void;
     RemoveAt(index: int): void;
-    ToString(): string;
+    toString(): string;
 }
 
 
@@ -366,26 +372,26 @@ export class MailMessage$instance {
     constructor(from_: string, to: string);
     constructor(from_: string, to: string, subject: string, body: string);
     constructor(from_: MailAddress, to: MailAddress);
-    readonly AlternateViews: AlternateViewCollection;
-    readonly Attachments: AttachmentCollection;
-    readonly Bcc: MailAddressCollection;
-    Body: string;
-    BodyEncoding: Encoding;
-    BodyTransferEncoding: TransferEncoding;
-    readonly CC: MailAddressCollection;
-    DeliveryNotificationOptions: DeliveryNotificationOptions;
-    From: MailAddress;
-    readonly Headers: NameValueCollection;
-    HeadersEncoding: Encoding;
-    IsBodyHtml: boolean;
-    Priority: MailPriority;
-    ReplyTo: MailAddress;
-    readonly ReplyToList: MailAddressCollection;
-    Sender: MailAddress;
-    Subject: string;
-    SubjectEncoding: Encoding;
-    readonly To: MailAddressCollection;
-    Dispose(): void;
+    readonly alternateViews: AlternateViewCollection;
+    readonly attachments: AttachmentCollection;
+    readonly bcc: MailAddressCollection;
+    body: string;
+    bodyEncoding: Encoding;
+    bodyTransferEncoding: TransferEncoding;
+    readonly cc: MailAddressCollection;
+    deliveryNotificationOptions: DeliveryNotificationOptions;
+    from_: MailAddress;
+    readonly headers: NameValueCollection;
+    headersEncoding: Encoding;
+    isBodyHtml: boolean;
+    priority: MailPriority;
+    replyTo: MailAddress;
+    readonly replyToList: MailAddressCollection;
+    sender: MailAddress;
+    subject: string;
+    subjectEncoding: Encoding;
+    readonly to: MailAddressCollection;
+    dispose(): void;
 }
 
 
@@ -400,11 +406,11 @@ export type MailMessage = MailMessage$instance & __MailMessage$views;
 
 export class SendCompletedEventHandler$instance extends Function {
     constructor(object_: unknown, method: nint);
-    BeginInvoke(sender: unknown, e: AsyncCompletedEventArgs, callback: AsyncCallback, object_: unknown): IAsyncResult;
+    beginInvoke(sender: unknown, e: AsyncCompletedEventArgs, callback: AsyncCallback, object_: unknown): IAsyncResult;
     Clone(): unknown;
-    EndInvoke(result: IAsyncResult): void;
+    endInvoke(result: IAsyncResult): void;
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
-    Invoke(sender: unknown, e: AsyncCompletedEventArgs): void;
+    invoke(sender: unknown, e: AsyncCompletedEventArgs): void;
 }
 
 
@@ -413,6 +419,8 @@ export interface __SendCompletedEventHandler$views {
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
+export interface SendCompletedEventHandler$instance extends System_Internal.ICloneable$instance {}
+
 export type SendCompletedEventHandler = SendCompletedEventHandler$instance & __SendCompletedEventHandler$views;
 
 
@@ -420,28 +428,28 @@ export class SmtpClient$instance {
     constructor();
     constructor(host: string);
     constructor(host: string, port: int);
-    readonly ClientCertificates: X509CertificateCollection;
-    Credentials: ICredentialsByHost;
-    DeliveryFormat: SmtpDeliveryFormat;
-    DeliveryMethod: SmtpDeliveryMethod;
-    EnableSsl: boolean;
-    Host: string;
-    PickupDirectoryLocation: string;
-    Port: int;
-    readonly ServicePoint: ServicePoint;
-    TargetName: string;
-    Timeout: int;
-    UseDefaultCredentials: boolean;
-    Dispose(): void;
-    Send(from_: string, recipients: string, subject: string, body: string): void;
-    Send(message: MailMessage): void;
-    SendAsync(from_: string, recipients: string, subject: string, body: string, userToken: unknown): void;
-    SendAsync(message: MailMessage, userToken: unknown): void;
-    SendAsyncCancel(): void;
-    SendMailAsync(from_: string, recipients: string, subject: string, body: string): Task;
-    SendMailAsync(message: MailMessage): Task;
-    SendMailAsync(from_: string, recipients: string, subject: string, body: string, cancellationToken: CancellationToken): Task;
-    SendMailAsync(message: MailMessage, cancellationToken: CancellationToken): Task;
+    readonly clientCertificates: X509CertificateCollection;
+    credentials: ICredentialsByHost;
+    deliveryFormat: SmtpDeliveryFormat;
+    deliveryMethod: SmtpDeliveryMethod;
+    enableSsl: boolean;
+    host: string;
+    pickupDirectoryLocation: string;
+    port: int;
+    readonly servicePoint: ServicePoint;
+    targetName: string;
+    timeout: int;
+    useDefaultCredentials: boolean;
+    dispose(): void;
+    send(from_: string, recipients: string, subject: string, body: string): void;
+    send(message: MailMessage): void;
+    sendAsync(from_: string, recipients: string, subject: string, body: string, userToken: unknown): void;
+    sendAsync(message: MailMessage, userToken: unknown): void;
+    sendAsyncCancel(): void;
+    sendMailAsync(from_: string, recipients: string, subject: string, body: string): Task;
+    sendMailAsync(message: MailMessage): Task;
+    sendMailAsync(from_: string, recipients: string, subject: string, body: string, cancellationToken: CancellationToken): Task;
+    sendMailAsync(message: MailMessage, cancellationToken: CancellationToken): Task;
 }
 
 
@@ -460,8 +468,8 @@ export class SmtpException$instance extends System_Internal.Exception$instance {
     constructor();
     constructor(message: string);
     constructor(message: string, innerException: Exception);
-    StatusCode: SmtpStatusCode;
-    GetObjectData(serializationInfo: SerializationInfo, streamingContext: StreamingContext): void;
+    statusCode: SmtpStatusCode;
+    getObjectData(serializationInfo: SerializationInfo, streamingContext: StreamingContext): void;
 }
 
 
@@ -479,8 +487,8 @@ export class SmtpFailedRecipientException$instance extends SmtpException$instanc
     constructor(statusCode: SmtpStatusCode, failedRecipient: string);
     constructor(statusCode: SmtpStatusCode, failedRecipient: string, serverResponse: string);
     constructor(message: string, failedRecipient: string, innerException: Exception);
-    readonly FailedRecipient: string;
-    GetObjectData(serializationInfo: SerializationInfo, streamingContext: StreamingContext): void;
+    readonly failedRecipient: string;
+    getObjectData(serializationInfo: SerializationInfo, streamingContext: StreamingContext): void;
 }
 
 
@@ -496,8 +504,8 @@ export class SmtpFailedRecipientsException$instance extends SmtpFailedRecipientE
     constructor(message: string);
     constructor(message: string, innerException: Exception);
     constructor(message: string, innerExceptions: SmtpFailedRecipientException[]);
-    readonly InnerExceptions: SmtpFailedRecipientException[];
-    GetObjectData(serializationInfo: SerializationInfo, streamingContext: StreamingContext): void;
+    readonly innerExceptions: SmtpFailedRecipientException[];
+    getObjectData(serializationInfo: SerializationInfo, streamingContext: StreamingContext): void;
 }
 
 

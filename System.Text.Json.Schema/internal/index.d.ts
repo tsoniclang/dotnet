@@ -38,10 +38,10 @@ export type CLROf<T> =
     T; // Identity fallback for non-primitive types
 
 export class JsonSchemaExporterContext$instance {
-    readonly BaseTypeInfo: JsonTypeInfo;
-    readonly Path: ReadOnlySpan_1<CLROf<string>>;
-    readonly PropertyInfo: JsonPropertyInfo;
-    readonly TypeInfo: JsonTypeInfo;
+    readonly baseTypeInfo: JsonTypeInfo;
+    readonly path: ReadOnlySpan_1<CLROf<string>>;
+    readonly propertyInfo: JsonPropertyInfo;
+    readonly typeInfo: JsonTypeInfo;
 }
 
 
@@ -49,17 +49,17 @@ export type JsonSchemaExporterContext = JsonSchemaExporterContext$instance;
 
 export class JsonSchemaExporterOptions$instance {
     constructor();
-    TransformSchemaNode: Func_3<JsonSchemaExporterContext, JsonNode, JsonNode>;
-    TreatNullObliviousAsNonNullable: boolean;
-    static readonly Default: JsonSchemaExporterOptions;
+    transformSchemaNode: Func_3<JsonSchemaExporterContext, JsonNode, JsonNode>;
+    treatNullObliviousAsNonNullable: boolean;
+    static readonly default: JsonSchemaExporterOptions;
 }
 
 
 export type JsonSchemaExporterOptions = JsonSchemaExporterOptions$instance;
 
 export abstract class JsonSchemaExporter$instance {
-    static GetJsonSchemaAsNode(options: JsonSerializerOptions, type_: Type, exporterOptions?: JsonSchemaExporterOptions): JsonNode;
-    static GetJsonSchemaAsNode(typeInfo: JsonTypeInfo, exporterOptions?: JsonSchemaExporterOptions): JsonNode;
+    static getJsonSchemaAsNode(options: JsonSerializerOptions, type_: Type, exporterOptions?: JsonSchemaExporterOptions): JsonNode;
+    static getJsonSchemaAsNode(typeInfo: JsonTypeInfo, exporterOptions?: JsonSchemaExporterOptions): JsonNode;
 }
 
 

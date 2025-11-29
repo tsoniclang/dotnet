@@ -35,17 +35,17 @@ export type CLROf<T> =
     T; // Identity fallback for non-primitive types
 
 export abstract class Console$instance {
-    static Write(s: string): void;
-    static WriteLine(): void;
-    static WriteLine(s: string): void;
+    static write(s: string): void;
+    static writeLine(): void;
+    static writeLine(s: string): void;
 }
 
 
 export type Console = Console$instance;
 
 export abstract class Console_Error$instance {
-    static Write(s: string): void;
-    static WriteLine(): void;
+    static write(s: string): void;
+    static writeLine(): void;
 }
 
 

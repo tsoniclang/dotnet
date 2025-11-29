@@ -47,69 +47,69 @@ export type CLROf<T> =
     T; // Identity fallback for non-primitive types
 
 export enum HelpContextType {
-    Ambient = 0,
-    Window = 1,
-    Selection = 2,
-    ToolWindowSelection = 3
+    ambient = 0,
+    window = 1,
+    selection = 2,
+    toolWindowSelection = 3
 }
 
 
 export enum HelpKeywordType {
-    F1Keyword = 0,
-    GeneralKeyword = 1,
-    FilterKeyword = 2
+    f1Keyword = 0,
+    generalKeyword = 1,
+    filterKeyword = 2
 }
 
 
 export enum SelectionTypes {
-    Auto = 1,
-    Normal = 1,
-    Replace = 2,
-    MouseDown = 4,
-    MouseUp = 8,
-    Click = 16,
-    Primary = 16,
-    Toggle = 32,
-    Add = 64,
-    Remove = 128,
-    Valid = 31
+    auto = 1,
+    normal = 1,
+    replace = 2,
+    mouseDown = 4,
+    mouseUp = 8,
+    click = 16,
+    primary = 16,
+    toggle = 32,
+    add = 64,
+    remove = 128,
+    valid = 31
 }
 
 
 export enum ViewTechnology {
-    Passthrough = 0,
-    WindowsForms = 1,
-    Default = 2
+    passthrough = 0,
+    windowsForms = 1,
+    default_ = 2
 }
 
 
 export interface IComponentChangeService$instance {
-    OnComponentChanged(component: unknown, member: MemberDescriptor, oldValue: unknown, newValue: unknown): void;
-    OnComponentChanging(component: unknown, member: MemberDescriptor): void;
+    onComponentChanged(component: unknown, member: MemberDescriptor, oldValue: unknown, newValue: unknown): void;
+    onComponentChanging(component: unknown, member: MemberDescriptor): void;
 }
 
 
 export type IComponentChangeService = IComponentChangeService$instance;
 
 export interface IComponentDiscoveryService$instance {
-    GetComponentTypes(designerHost: IDesignerHost, baseType: Type): ICollection;
+    getComponentTypes(designerHost: IDesignerHost, baseType: Type): ICollection;
 }
 
 
 export type IComponentDiscoveryService = IComponentDiscoveryService$instance;
 
 export interface IComponentInitializer$instance {
-    InitializeExistingComponent(defaultValues: IDictionary): void;
+    initializeExistingComponent(defaultValues: IDictionary): void;
 }
 
 
 export type IComponentInitializer = IComponentInitializer$instance;
 
 export interface IDesigner$instance extends IDisposable {
-    readonly Component: IComponent;
-    readonly Verbs: DesignerVerbCollection;
-    DoDefaultAction(): void;
-    Initialize(component: IComponent): void;
+    readonly component: IComponent;
+    readonly verbs: DesignerVerbCollection;
+    doDefaultAction(): void;
+    initialize(component: IComponent): void;
 }
 
 
@@ -118,156 +118,156 @@ export interface IDesigner$instance extends System_Internal.IDisposable$instance
 export type IDesigner = IDesigner$instance;
 
 export interface IDesignerEventService$instance {
-    readonly ActiveDesigner: IDesignerHost;
-    readonly Designers: DesignerCollection;
+    readonly activeDesigner: IDesignerHost;
+    readonly designers: DesignerCollection;
 }
 
 
 export type IDesignerEventService = IDesignerEventService$instance;
 
 export interface IDesignerFilter$instance {
-    PostFilterAttributes(attributes: IDictionary): void;
+    postFilterAttributes(attributes: IDictionary): void;
 }
 
 
 export type IDesignerFilter = IDesignerFilter$instance;
 
 export interface IDesignerHost$instance extends IServiceContainer, IServiceProvider {
-    readonly Loading: boolean;
-    readonly InTransaction: boolean;
-    readonly Container: IContainer;
-    readonly RootComponent: IComponent;
-    readonly RootComponentClassName: string;
-    readonly TransactionDescription: string;
-    Activate(): void;
-    AddService(serviceType: Type, callback: ServiceCreatorCallback, promote: boolean): void;
-    AddService(serviceType: Type, callback: ServiceCreatorCallback): void;
-    AddService(serviceType: Type, serviceInstance: unknown, promote: boolean): void;
-    AddService(serviceType: Type, serviceInstance: unknown): void;
-    CreateComponent(componentClass: Type, name: string): IComponent;
-    CreateComponent(componentClass: Type): IComponent;
-    CreateTransaction(): DesignerTransaction;
-    CreateTransaction(description: string): DesignerTransaction;
-    DestroyComponent(component: IComponent): void;
-    GetDesigner(component: IComponent): IDesigner;
-    GetService(serviceType: Type): unknown;
-    GetType(typeName: string): Type;
-    RemoveService(serviceType: Type, promote: boolean): void;
-    RemoveService(serviceType: Type): void;
+    readonly loading: boolean;
+    readonly inTransaction: boolean;
+    readonly container: IContainer;
+    readonly rootComponent: IComponent;
+    readonly rootComponentClassName: string;
+    readonly transactionDescription: string;
+    activate(): void;
+    addService(serviceType: Type, callback: ServiceCreatorCallback, promote: boolean): void;
+    addService(serviceType: Type, callback: ServiceCreatorCallback): void;
+    addService(serviceType: Type, serviceInstance: unknown, promote: boolean): void;
+    addService(serviceType: Type, serviceInstance: unknown): void;
+    createComponent(componentClass: Type, name: string): IComponent;
+    createComponent(componentClass: Type): IComponent;
+    createTransaction(): DesignerTransaction;
+    createTransaction(description: string): DesignerTransaction;
+    destroyComponent(component: IComponent): void;
+    getDesigner(component: IComponent): IDesigner;
+    getService(serviceType: Type): unknown;
+    getType(typeName: string): Type;
+    removeService(serviceType: Type, promote: boolean): void;
+    removeService(serviceType: Type): void;
 }
 
 
 export type IDesignerHost = IDesignerHost$instance;
 
 export interface IDesignerHostTransactionState$instance {
-    readonly IsClosingTransaction: boolean;
+    readonly isClosingTransaction: boolean;
 }
 
 
 export type IDesignerHostTransactionState = IDesignerHostTransactionState$instance;
 
 export interface IDesignerOptionService$instance {
-    GetOptionValue(pageName: string, valueName: string): unknown;
-    SetOptionValue(pageName: string, valueName: string, value: unknown): void;
+    getOptionValue(pageName: string, valueName: string): unknown;
+    setOptionValue(pageName: string, valueName: string, value: unknown): void;
 }
 
 
 export type IDesignerOptionService = IDesignerOptionService$instance;
 
 export interface IDictionaryService$instance {
-    GetKey(value: unknown): unknown;
-    SetValue(key: unknown, value: unknown): void;
+    getKey(value: unknown): unknown;
+    setValue(key: unknown, value: unknown): void;
 }
 
 
 export type IDictionaryService = IDictionaryService$instance;
 
 export interface IEventBindingService$instance {
-    CreateUniqueMethodName(component: IComponent, e: EventDescriptor): string;
-    GetCompatibleMethods(e: EventDescriptor): ICollection;
-    GetEvent(property: PropertyDescriptor): EventDescriptor;
-    GetEventProperties(events: EventDescriptorCollection): PropertyDescriptorCollection;
-    GetEventProperty(e: EventDescriptor): PropertyDescriptor;
-    ShowCode(): boolean;
-    ShowCode(component: IComponent, e: EventDescriptor): boolean;
-    ShowCode(lineNumber: int): boolean;
+    createUniqueMethodName(component: IComponent, e: EventDescriptor): string;
+    getCompatibleMethods(e: EventDescriptor): ICollection;
+    getEvent(property: PropertyDescriptor): EventDescriptor;
+    getEventProperties(events: EventDescriptorCollection): PropertyDescriptorCollection;
+    getEventProperty(e: EventDescriptor): PropertyDescriptor;
+    showCode(): boolean;
+    showCode(component: IComponent, e: EventDescriptor): boolean;
+    showCode(lineNumber: int): boolean;
 }
 
 
 export type IEventBindingService = IEventBindingService$instance;
 
 export interface IExtenderListService$instance {
-    GetExtenderProviders(): IExtenderProvider[];
+    getExtenderProviders(): IExtenderProvider[];
 }
 
 
 export type IExtenderListService = IExtenderListService$instance;
 
 export interface IExtenderProviderService$instance {
-    AddExtenderProvider(provider: IExtenderProvider): void;
+    addExtenderProvider(provider: IExtenderProvider): void;
 }
 
 
 export type IExtenderProviderService = IExtenderProviderService$instance;
 
 export interface IHelpService$instance {
-    AddContextAttribute(name: string, value: string, keywordType: HelpKeywordType): void;
-    ClearContextAttributes(): void;
-    CreateLocalContext(contextType: HelpContextType): IHelpService;
-    RemoveContextAttribute(name: string, value: string): void;
-    RemoveLocalContext(localContext: IHelpService): void;
-    ShowHelpFromKeyword(helpKeyword: string): void;
+    addContextAttribute(name: string, value: string, keywordType: HelpKeywordType): void;
+    clearContextAttributes(): void;
+    createLocalContext(contextType: HelpContextType): IHelpService;
+    removeContextAttribute(name: string, value: string): void;
+    removeLocalContext(localContext: IHelpService): void;
+    showHelpFromKeyword(helpKeyword: string): void;
 }
 
 
 export type IHelpService = IHelpService$instance;
 
 export interface IInheritanceService$instance {
-    AddInheritedComponents(component: IComponent, container: IContainer): void;
-    GetInheritanceAttribute(component: IComponent): InheritanceAttribute;
+    addInheritedComponents(component: IComponent, container: IContainer): void;
+    getInheritanceAttribute(component: IComponent): InheritanceAttribute;
 }
 
 
 export type IInheritanceService = IInheritanceService$instance;
 
 export interface IMenuCommandService$instance {
-    readonly Verbs: DesignerVerbCollection;
-    AddCommand(command: MenuCommand): void;
-    AddVerb(verb: DesignerVerb): void;
-    FindCommand(commandID: CommandID): MenuCommand;
-    GlobalInvoke(commandID: CommandID): boolean;
-    ShowContextMenu(menuID: CommandID, x: int, y: int): void;
+    readonly verbs: DesignerVerbCollection;
+    addCommand(command: MenuCommand): void;
+    addVerb(verb: DesignerVerb): void;
+    findCommand(commandID: CommandID): MenuCommand;
+    globalInvoke(commandID: CommandID): boolean;
+    showContextMenu(menuID: CommandID, x: int, y: int): void;
 }
 
 
 export type IMenuCommandService = IMenuCommandService$instance;
 
 export interface IReferenceService$instance {
-    GetComponent(reference: unknown): IComponent;
-    GetName(reference: unknown): string;
-    GetReference(name: string): unknown;
-    GetReferences(): unknown[];
-    GetReferences(baseType: Type): unknown[];
+    getComponent(reference: unknown): IComponent;
+    getName(reference: unknown): string;
+    getReference(name: string): unknown;
+    getReferences(): unknown[];
+    getReferences(baseType: Type): unknown[];
 }
 
 
 export type IReferenceService = IReferenceService$instance;
 
 export interface IResourceService$instance {
-    GetResourceReader(info: CultureInfo): IResourceReader;
-    GetResourceWriter(info: CultureInfo): IResourceWriter;
+    getResourceReader(info: CultureInfo): IResourceReader;
+    getResourceWriter(info: CultureInfo): IResourceWriter;
 }
 
 
 export type IResourceService = IResourceService$instance;
 
 export interface IRootDesigner$instance extends IDesigner, IDisposable {
-    readonly SupportedTechnologies: ViewTechnology[];
-    readonly Component: IComponent;
-    readonly Verbs: DesignerVerbCollection;
-    DoDefaultAction(): void;
-    GetView(technology: ViewTechnology): unknown;
-    Initialize(component: IComponent): void;
+    readonly supportedTechnologies: ViewTechnology[];
+    readonly component: IComponent;
+    readonly verbs: DesignerVerbCollection;
+    doDefaultAction(): void;
+    getView(technology: ViewTechnology): unknown;
+    initialize(component: IComponent): void;
 }
 
 
@@ -276,25 +276,25 @@ export interface IRootDesigner$instance extends IDesigner$instance {}
 export type IRootDesigner = IRootDesigner$instance;
 
 export interface ISelectionService$instance {
-    readonly PrimarySelection: unknown;
-    readonly SelectionCount: int;
-    GetComponentSelected(component: unknown): boolean;
-    GetSelectedComponents(): ICollection;
-    SetSelectedComponents(components: ICollection, selectionType: SelectionTypes): void;
-    SetSelectedComponents(components: ICollection): void;
+    readonly primarySelection: unknown;
+    readonly selectionCount: int;
+    getComponentSelected(component: unknown): boolean;
+    getSelectedComponents(): ICollection;
+    setSelectedComponents(components: ICollection, selectionType: SelectionTypes): void;
+    setSelectedComponents(components: ICollection): void;
 }
 
 
 export type ISelectionService = ISelectionService$instance;
 
 export interface IServiceContainer$instance extends IServiceProvider {
-    AddService(serviceType: Type, callback: ServiceCreatorCallback, promote: boolean): void;
-    AddService(serviceType: Type, callback: ServiceCreatorCallback): void;
-    AddService(serviceType: Type, serviceInstance: unknown, promote: boolean): void;
-    AddService(serviceType: Type, serviceInstance: unknown): void;
-    GetService(serviceType: Type): unknown;
-    RemoveService(serviceType: Type, promote: boolean): void;
-    RemoveService(serviceType: Type): void;
+    addService(serviceType: Type, callback: ServiceCreatorCallback, promote: boolean): void;
+    addService(serviceType: Type, callback: ServiceCreatorCallback): void;
+    addService(serviceType: Type, serviceInstance: unknown, promote: boolean): void;
+    addService(serviceType: Type, serviceInstance: unknown): void;
+    getService(serviceType: Type): unknown;
+    removeService(serviceType: Type, promote: boolean): void;
+    removeService(serviceType: Type): void;
 }
 
 
@@ -303,12 +303,12 @@ export interface IServiceContainer$instance extends System_Internal.IServiceProv
 export type IServiceContainer = IServiceContainer$instance;
 
 export interface ITreeDesigner$instance extends IDesigner, IDisposable {
-    readonly Children: ICollection;
-    readonly Parent: IDesigner;
-    readonly Component: IComponent;
-    readonly Verbs: DesignerVerbCollection;
-    DoDefaultAction(): void;
-    Initialize(component: IComponent): void;
+    readonly children: ICollection;
+    readonly parent: IDesigner;
+    readonly component: IComponent;
+    readonly verbs: DesignerVerbCollection;
+    doDefaultAction(): void;
+    initialize(component: IComponent): void;
 }
 
 
@@ -317,27 +317,27 @@ export interface ITreeDesigner$instance extends IDesigner$instance {}
 export type ITreeDesigner = ITreeDesigner$instance;
 
 export interface ITypeDescriptorFilterService$instance {
-    FilterAttributes(component: IComponent, attributes: IDictionary): boolean;
+    filterAttributes(component: IComponent, attributes: IDictionary): boolean;
 }
 
 
 export type ITypeDescriptorFilterService = ITypeDescriptorFilterService$instance;
 
 export interface ITypeDiscoveryService$instance {
-    GetTypes(baseType: Type, excludeGlobalTypes: boolean): ICollection;
+    getTypes(baseType: Type, excludeGlobalTypes: boolean): ICollection;
 }
 
 
 export type ITypeDiscoveryService = ITypeDiscoveryService$instance;
 
 export interface ITypeResolutionService$instance {
-    GetAssembly(name: AssemblyName, throwOnError: boolean): Assembly;
-    GetAssembly(name: AssemblyName): Assembly;
-    GetPathOfAssembly(name: AssemblyName): string;
-    GetType(name: string, throwOnError: boolean, ignoreCase: boolean): Type;
-    GetType(name: string, throwOnError: boolean): Type;
-    GetType(name: string): Type;
-    ReferenceAssembly(name: AssemblyName): void;
+    getAssembly(name: AssemblyName, throwOnError: boolean): Assembly;
+    getAssembly(name: AssemblyName): Assembly;
+    getPathOfAssembly(name: AssemblyName): string;
+    getType(name: string, throwOnError: boolean, ignoreCase: boolean): Type;
+    getType(name: string, throwOnError: boolean): Type;
+    getType(name: string): Type;
+    referenceAssembly(name: AssemblyName): void;
 }
 
 
@@ -345,8 +345,8 @@ export type ITypeResolutionService = ITypeResolutionService$instance;
 
 export class ActiveDesignerEventArgs$instance extends System_Internal.EventArgs$instance {
     constructor(oldDesigner: IDesignerHost, newDesigner: IDesignerHost);
-    readonly NewDesigner: IDesignerHost;
-    readonly OldDesigner: IDesignerHost;
+    readonly newDesigner: IDesignerHost;
+    readonly oldDesigner: IDesignerHost;
 }
 
 
@@ -354,11 +354,11 @@ export type ActiveDesignerEventArgs = ActiveDesignerEventArgs$instance;
 
 export class ActiveDesignerEventHandler$instance extends Function {
     constructor(object_: unknown, method: nint);
-    BeginInvoke(sender: unknown, e: ActiveDesignerEventArgs, callback: AsyncCallback, object_: unknown): IAsyncResult;
+    beginInvoke(sender: unknown, e: ActiveDesignerEventArgs, callback: AsyncCallback, object_: unknown): IAsyncResult;
     Clone(): unknown;
-    EndInvoke(result: IAsyncResult): void;
+    endInvoke(result: IAsyncResult): void;
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
-    Invoke(sender: unknown, e: ActiveDesignerEventArgs): void;
+    invoke(sender: unknown, e: ActiveDesignerEventArgs): void;
 }
 
 
@@ -366,6 +366,8 @@ export interface __ActiveDesignerEventHandler$views {
     As_ICloneable(): System_Internal.ICloneable$instance;
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
+
+export interface ActiveDesignerEventHandler$instance extends System_Internal.ICloneable$instance {}
 
 export type ActiveDesignerEventHandler = ActiveDesignerEventHandler$instance & __ActiveDesignerEventHandler$views;
 
@@ -376,7 +378,7 @@ export class CheckoutException$instance extends System_Runtime_InteropServices_I
     constructor(message: string, errorCode: int);
     constructor(message: string, innerException: Exception);
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
-    static readonly Canceled: CheckoutException;
+    static readonly canceled: CheckoutException;
 }
 
 
@@ -384,16 +386,18 @@ export interface __CheckoutException$views {
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
+export interface CheckoutException$instance extends System_Runtime_Serialization_Internal.ISerializable$instance {}
+
 export type CheckoutException = CheckoutException$instance & __CheckoutException$views;
 
 
 export class CommandID$instance {
     constructor(menuGroup: Guid, commandID: int);
-    readonly Guid: Guid;
-    readonly ID: int;
-    Equals(obj: unknown): boolean;
-    GetHashCode(): int;
-    ToString(): string;
+    readonly guid: Guid;
+    readonly id: int;
+    equals(obj: unknown): boolean;
+    getHashCode(): int;
+    toString(): string;
 }
 
 
@@ -401,10 +405,10 @@ export type CommandID = CommandID$instance;
 
 export class ComponentChangedEventArgs$instance extends System_Internal.EventArgs$instance {
     constructor(component: unknown, member: MemberDescriptor, oldValue: unknown, newValue: unknown);
-    readonly Component: unknown;
-    readonly Member: MemberDescriptor;
-    readonly NewValue: unknown;
-    readonly OldValue: unknown;
+    readonly component: unknown;
+    readonly member: MemberDescriptor;
+    readonly newValue: unknown;
+    readonly oldValue: unknown;
 }
 
 
@@ -412,11 +416,11 @@ export type ComponentChangedEventArgs = ComponentChangedEventArgs$instance;
 
 export class ComponentChangedEventHandler$instance extends Function {
     constructor(object_: unknown, method: nint);
-    BeginInvoke(sender: unknown, e: ComponentChangedEventArgs, callback: AsyncCallback, object_: unknown): IAsyncResult;
+    beginInvoke(sender: unknown, e: ComponentChangedEventArgs, callback: AsyncCallback, object_: unknown): IAsyncResult;
     Clone(): unknown;
-    EndInvoke(result: IAsyncResult): void;
+    endInvoke(result: IAsyncResult): void;
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
-    Invoke(sender: unknown, e: ComponentChangedEventArgs): void;
+    invoke(sender: unknown, e: ComponentChangedEventArgs): void;
 }
 
 
@@ -425,13 +429,15 @@ export interface __ComponentChangedEventHandler$views {
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
+export interface ComponentChangedEventHandler$instance extends System_Internal.ICloneable$instance {}
+
 export type ComponentChangedEventHandler = ComponentChangedEventHandler$instance & __ComponentChangedEventHandler$views;
 
 
 export class ComponentChangingEventArgs$instance extends System_Internal.EventArgs$instance {
     constructor(component: unknown, member: MemberDescriptor);
-    readonly Component: unknown;
-    readonly Member: MemberDescriptor;
+    readonly component: unknown;
+    readonly member: MemberDescriptor;
 }
 
 
@@ -439,11 +445,11 @@ export type ComponentChangingEventArgs = ComponentChangingEventArgs$instance;
 
 export class ComponentChangingEventHandler$instance extends Function {
     constructor(object_: unknown, method: nint);
-    BeginInvoke(sender: unknown, e: ComponentChangingEventArgs, callback: AsyncCallback, object_: unknown): IAsyncResult;
+    beginInvoke(sender: unknown, e: ComponentChangingEventArgs, callback: AsyncCallback, object_: unknown): IAsyncResult;
     Clone(): unknown;
-    EndInvoke(result: IAsyncResult): void;
+    endInvoke(result: IAsyncResult): void;
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
-    Invoke(sender: unknown, e: ComponentChangingEventArgs): void;
+    invoke(sender: unknown, e: ComponentChangingEventArgs): void;
 }
 
 
@@ -452,12 +458,14 @@ export interface __ComponentChangingEventHandler$views {
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
+export interface ComponentChangingEventHandler$instance extends System_Internal.ICloneable$instance {}
+
 export type ComponentChangingEventHandler = ComponentChangingEventHandler$instance & __ComponentChangingEventHandler$views;
 
 
 export class ComponentEventArgs$instance extends System_Internal.EventArgs$instance {
     constructor(component: IComponent);
-    readonly Component: IComponent;
+    readonly component: IComponent;
 }
 
 
@@ -465,11 +473,11 @@ export type ComponentEventArgs = ComponentEventArgs$instance;
 
 export class ComponentEventHandler$instance extends Function {
     constructor(object_: unknown, method: nint);
-    BeginInvoke(sender: unknown, e: ComponentEventArgs, callback: AsyncCallback, object_: unknown): IAsyncResult;
+    beginInvoke(sender: unknown, e: ComponentEventArgs, callback: AsyncCallback, object_: unknown): IAsyncResult;
     Clone(): unknown;
-    EndInvoke(result: IAsyncResult): void;
+    endInvoke(result: IAsyncResult): void;
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
-    Invoke(sender: unknown, e: ComponentEventArgs): void;
+    invoke(sender: unknown, e: ComponentEventArgs): void;
 }
 
 
@@ -478,14 +486,16 @@ export interface __ComponentEventHandler$views {
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
+export interface ComponentEventHandler$instance extends System_Internal.ICloneable$instance {}
+
 export type ComponentEventHandler = ComponentEventHandler$instance & __ComponentEventHandler$views;
 
 
 export class ComponentRenameEventArgs$instance extends System_Internal.EventArgs$instance {
     constructor(component: unknown, oldName: string, newName: string);
-    readonly Component: unknown;
-    readonly NewName: string;
-    readonly OldName: string;
+    readonly component: unknown;
+    readonly newName: string;
+    readonly oldName: string;
 }
 
 
@@ -493,11 +503,11 @@ export type ComponentRenameEventArgs = ComponentRenameEventArgs$instance;
 
 export class ComponentRenameEventHandler$instance extends Function {
     constructor(object_: unknown, method: nint);
-    BeginInvoke(sender: unknown, e: ComponentRenameEventArgs, callback: AsyncCallback, object_: unknown): IAsyncResult;
+    beginInvoke(sender: unknown, e: ComponentRenameEventArgs, callback: AsyncCallback, object_: unknown): IAsyncResult;
     Clone(): unknown;
-    EndInvoke(result: IAsyncResult): void;
+    endInvoke(result: IAsyncResult): void;
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
-    Invoke(sender: unknown, e: ComponentRenameEventArgs): void;
+    invoke(sender: unknown, e: ComponentRenameEventArgs): void;
 }
 
 
@@ -506,15 +516,17 @@ export interface __ComponentRenameEventHandler$views {
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
+export interface ComponentRenameEventHandler$instance extends System_Internal.ICloneable$instance {}
+
 export type ComponentRenameEventHandler = ComponentRenameEventHandler$instance & __ComponentRenameEventHandler$views;
 
 
 export class DesignerCollection$instance {
     constructor(designers: IDesignerHost[]);
     constructor(designers: IList);
-    readonly Count: int;
-    readonly Item: IDesignerHost;
-    GetEnumerator(): IEnumerator;
+    readonly count: int;
+    readonly item: IDesignerHost;
+    getEnumerator(): IEnumerator;
 }
 
 
@@ -528,7 +540,7 @@ export type DesignerCollection = DesignerCollection$instance & __DesignerCollect
 
 export class DesignerEventArgs$instance extends System_Internal.EventArgs$instance {
     constructor(host: IDesignerHost);
-    readonly Designer: IDesignerHost;
+    readonly designer: IDesignerHost;
 }
 
 
@@ -536,11 +548,11 @@ export type DesignerEventArgs = DesignerEventArgs$instance;
 
 export class DesignerEventHandler$instance extends Function {
     constructor(object_: unknown, method: nint);
-    BeginInvoke(sender: unknown, e: DesignerEventArgs, callback: AsyncCallback, object_: unknown): IAsyncResult;
+    beginInvoke(sender: unknown, e: DesignerEventArgs, callback: AsyncCallback, object_: unknown): IAsyncResult;
     Clone(): unknown;
-    EndInvoke(result: IAsyncResult): void;
+    endInvoke(result: IAsyncResult): void;
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
-    Invoke(sender: unknown, e: DesignerEventArgs): void;
+    invoke(sender: unknown, e: DesignerEventArgs): void;
 }
 
 
@@ -549,11 +561,13 @@ export interface __DesignerEventHandler$views {
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
+export interface DesignerEventHandler$instance extends System_Internal.ICloneable$instance {}
+
 export type DesignerEventHandler = DesignerEventHandler$instance & __DesignerEventHandler$views;
 
 
 export abstract class DesignerOptionService$instance {
-    readonly Options: DesignerOptionService_DesignerOptionCollection;
+    readonly options: DesignerOptionService_DesignerOptionCollection;
 }
 
 
@@ -567,16 +581,16 @@ export type DesignerOptionService = DesignerOptionService$instance & __DesignerO
 
 
 export class DesignerOptionService_DesignerOptionCollection$instance {
-    readonly Count: int;
-    readonly Name: string;
-    readonly Parent: DesignerOptionService_DesignerOptionCollection;
-    readonly Properties: PropertyDescriptorCollection;
-    CopyTo(array: ClrArray, index: int): void;
+    readonly count: int;
+    readonly name: string;
+    readonly parent: DesignerOptionService_DesignerOptionCollection;
+    readonly properties: PropertyDescriptorCollection;
+    copyTo(array: ClrArray, index: int): void;
     get_Item(index: int): DesignerOptionService_DesignerOptionCollection;
     get_Item(name: string): DesignerOptionService_DesignerOptionCollection;
-    GetEnumerator(): IEnumerator;
-    IndexOf(value: DesignerOptionService_DesignerOptionCollection): int;
-    ShowDialog(): boolean;
+    getEnumerator(): IEnumerator;
+    indexOf(value: DesignerOptionService_DesignerOptionCollection): int;
+    showDialog(): boolean;
 }
 
 
@@ -590,11 +604,11 @@ export type DesignerOptionService_DesignerOptionCollection = DesignerOptionServi
 
 
 export abstract class DesignerTransaction$instance {
-    readonly Canceled: boolean;
-    readonly Committed: boolean;
-    readonly Description: string;
-    Cancel(): void;
-    Commit(): void;
+    readonly canceled: boolean;
+    readonly committed: boolean;
+    readonly description: string;
+    cancel(): void;
+    commit(): void;
 }
 
 
@@ -610,8 +624,8 @@ export type DesignerTransaction = DesignerTransaction$instance & __DesignerTrans
 export class DesignerTransactionCloseEventArgs$instance extends System_Internal.EventArgs$instance {
     constructor(commit: boolean);
     constructor(commit: boolean, lastTransaction: boolean);
-    readonly LastTransaction: boolean;
-    readonly TransactionCommitted: boolean;
+    readonly lastTransaction: boolean;
+    readonly transactionCommitted: boolean;
 }
 
 
@@ -619,11 +633,11 @@ export type DesignerTransactionCloseEventArgs = DesignerTransactionCloseEventArg
 
 export class DesignerTransactionCloseEventHandler$instance extends Function {
     constructor(object_: unknown, method: nint);
-    BeginInvoke(sender: unknown, e: DesignerTransactionCloseEventArgs, callback: AsyncCallback, object_: unknown): IAsyncResult;
+    beginInvoke(sender: unknown, e: DesignerTransactionCloseEventArgs, callback: AsyncCallback, object_: unknown): IAsyncResult;
     Clone(): unknown;
-    EndInvoke(result: IAsyncResult): void;
+    endInvoke(result: IAsyncResult): void;
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
-    Invoke(sender: unknown, e: DesignerTransactionCloseEventArgs): void;
+    invoke(sender: unknown, e: DesignerTransactionCloseEventArgs): void;
 }
 
 
@@ -632,15 +646,17 @@ export interface __DesignerTransactionCloseEventHandler$views {
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
+export interface DesignerTransactionCloseEventHandler$instance extends System_Internal.ICloneable$instance {}
+
 export type DesignerTransactionCloseEventHandler = DesignerTransactionCloseEventHandler$instance & __DesignerTransactionCloseEventHandler$views;
 
 
 export class DesignerVerb$instance extends MenuCommand$instance {
     constructor(text: string, handler: EventHandler);
     constructor(text: string, handler: EventHandler, startCommandID: CommandID);
-    Description: string;
-    readonly Text: string;
-    ToString(): string;
+    description: string;
+    readonly text: string;
+    toString(): string;
 }
 
 
@@ -649,17 +665,17 @@ export type DesignerVerb = DesignerVerb$instance;
 export class DesignerVerbCollection$instance extends System_Collections_Internal.CollectionBase$instance {
     constructor();
     constructor(value: DesignerVerb[]);
-    Item: DesignerVerb;
-    Add(value: unknown): int;
-    AddRange(value: DesignerVerb[]): void;
-    AddRange(value: DesignerVerbCollection): void;
+    item: DesignerVerb;
+    add(value: unknown): int;
+    addRange(value: DesignerVerb[]): void;
+    addRange(value: DesignerVerbCollection): void;
     Clear(): void;
-    Contains(value: unknown): boolean;
-    CopyTo(array: ClrArray, index: int): void;
+    contains(value: unknown): boolean;
+    copyTo(array: ClrArray, index: int): void;
     GetEnumerator(): IEnumerator;
-    IndexOf(value: DesignerVerb): int;
-    Insert(index: int, value: unknown): void;
-    Remove(value: unknown): void;
+    indexOf(value: DesignerVerb): int;
+    insert(index: int, value: unknown): void;
+    remove(value: unknown): void;
     RemoveAt(index: int): void;
 }
 
@@ -675,10 +691,10 @@ export type DesignerVerbCollection = DesignerVerbCollection$instance & __Designe
 
 export class DesigntimeLicenseContext$instance extends System_ComponentModel_Internal.LicenseContext$instance {
     constructor();
-    readonly UsageMode: LicenseUsageMode;
-    GetSavedLicenseKey(type_: Type, resourceAssembly: Assembly): string;
+    readonly usageMode: LicenseUsageMode;
+    getSavedLicenseKey(type_: Type, resourceAssembly: Assembly): string;
     GetService(type_: Type): unknown;
-    SetSavedLicenseKey(type_: Type, key: string): void;
+    setSavedLicenseKey(type_: Type, key: string): void;
 }
 
 
@@ -686,11 +702,13 @@ export interface __DesigntimeLicenseContext$views {
     As_IServiceProvider(): System_Internal.IServiceProvider$instance;
 }
 
+export interface DesigntimeLicenseContext$instance extends System_Internal.IServiceProvider$instance {}
+
 export type DesigntimeLicenseContext = DesigntimeLicenseContext$instance & __DesigntimeLicenseContext$views;
 
 
 export class DesigntimeLicenseContextSerializer$instance {
-    static Serialize(o: Stream, cryptoKey: string, context: DesigntimeLicenseContext): void;
+    static serialize(o: Stream, cryptoKey: string, context: DesigntimeLicenseContext): void;
 }
 
 
@@ -700,11 +718,11 @@ export class HelpKeywordAttribute$instance extends System_Internal.Attribute$ins
     constructor();
     constructor(keyword: string);
     constructor(t: Type);
-    readonly HelpKeyword: string;
-    Equals(obj: unknown): boolean;
-    GetHashCode(): int;
-    IsDefaultAttribute(): boolean;
-    static readonly Default: HelpKeywordAttribute;
+    readonly helpKeyword: string;
+    equals(obj: unknown): boolean;
+    getHashCode(): int;
+    isDefaultAttribute(): boolean;
+    static readonly default_: HelpKeywordAttribute;
 }
 
 
@@ -712,16 +730,16 @@ export type HelpKeywordAttribute = HelpKeywordAttribute$instance;
 
 export class MenuCommand$instance {
     constructor(handler: EventHandler, command: CommandID);
-    Checked: boolean;
-    readonly CommandID: CommandID;
-    Enabled: boolean;
-    readonly OleStatus: int;
-    readonly Properties: IDictionary;
-    Supported: boolean;
-    Visible: boolean;
-    Invoke(): void;
-    Invoke(arg: unknown): void;
-    ToString(): string;
+    checked: boolean;
+    readonly commandID: CommandID;
+    enabled: boolean;
+    readonly oleStatus: int;
+    readonly properties: IDictionary;
+    supported: boolean;
+    visible: boolean;
+    invoke(): void;
+    invoke(arg: unknown): void;
+    toString(): string;
 }
 
 
@@ -730,14 +748,14 @@ export type MenuCommand = MenuCommand$instance;
 export class ServiceContainer$instance {
     constructor();
     constructor(parentProvider: IServiceProvider);
-    AddService(serviceType: Type, serviceInstance: unknown): void;
-    AddService(serviceType: Type, serviceInstance: unknown, promote: boolean): void;
-    AddService(serviceType: Type, callback: ServiceCreatorCallback): void;
-    AddService(serviceType: Type, callback: ServiceCreatorCallback, promote: boolean): void;
-    Dispose(): void;
-    GetService(serviceType: Type): unknown;
-    RemoveService(serviceType: Type): void;
-    RemoveService(serviceType: Type, promote: boolean): void;
+    addService(serviceType: Type, serviceInstance: unknown): void;
+    addService(serviceType: Type, serviceInstance: unknown, promote: boolean): void;
+    addService(serviceType: Type, callback: ServiceCreatorCallback): void;
+    addService(serviceType: Type, callback: ServiceCreatorCallback, promote: boolean): void;
+    dispose(): void;
+    getService(serviceType: Type): unknown;
+    removeService(serviceType: Type): void;
+    removeService(serviceType: Type, promote: boolean): void;
 }
 
 
@@ -754,11 +772,11 @@ export type ServiceContainer = ServiceContainer$instance & __ServiceContainer$vi
 
 export class ServiceCreatorCallback$instance extends Function {
     constructor(object_: unknown, method: nint);
-    BeginInvoke(container: IServiceContainer, serviceType: Type, callback: AsyncCallback, object_: unknown): IAsyncResult;
+    beginInvoke(container: IServiceContainer, serviceType: Type, callback: AsyncCallback, object_: unknown): IAsyncResult;
     Clone(): unknown;
-    EndInvoke(result: IAsyncResult): unknown;
+    endInvoke(result: IAsyncResult): unknown;
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
-    Invoke(container: IServiceContainer, serviceType: Type): unknown;
+    invoke(container: IServiceContainer, serviceType: Type): unknown;
 }
 
 
@@ -767,66 +785,68 @@ export interface __ServiceCreatorCallback$views {
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
+export interface ServiceCreatorCallback$instance extends System_Internal.ICloneable$instance {}
+
 export type ServiceCreatorCallback = ServiceCreatorCallback$instance & __ServiceCreatorCallback$views;
 
 
 export class StandardCommands$instance {
     constructor();
-    static readonly AlignBottom: CommandID;
-    static readonly AlignHorizontalCenters: CommandID;
-    static readonly AlignLeft: CommandID;
-    static readonly AlignRight: CommandID;
-    static readonly AlignToGrid: CommandID;
-    static readonly AlignTop: CommandID;
-    static readonly AlignVerticalCenters: CommandID;
-    static readonly ArrangeBottom: CommandID;
-    static readonly ArrangeRight: CommandID;
-    static readonly BringForward: CommandID;
-    static readonly BringToFront: CommandID;
-    static readonly CenterHorizontally: CommandID;
-    static readonly CenterVertically: CommandID;
-    static readonly ViewCode: CommandID;
-    static readonly DocumentOutline: CommandID;
-    static readonly Copy: CommandID;
-    static readonly Cut: CommandID;
-    static readonly Delete: CommandID;
-    static readonly Group: CommandID;
-    static readonly HorizSpaceConcatenate: CommandID;
-    static readonly HorizSpaceDecrease: CommandID;
-    static readonly HorizSpaceIncrease: CommandID;
-    static readonly HorizSpaceMakeEqual: CommandID;
-    static readonly Paste: CommandID;
-    static readonly Properties: CommandID;
-    static readonly Redo: CommandID;
-    static readonly MultiLevelRedo: CommandID;
-    static readonly SelectAll: CommandID;
-    static readonly SendBackward: CommandID;
-    static readonly SendToBack: CommandID;
-    static readonly SizeToControl: CommandID;
-    static readonly SizeToControlHeight: CommandID;
-    static readonly SizeToControlWidth: CommandID;
-    static readonly SizeToFit: CommandID;
-    static readonly SizeToGrid: CommandID;
-    static readonly SnapToGrid: CommandID;
-    static readonly TabOrder: CommandID;
-    static readonly Undo: CommandID;
-    static readonly MultiLevelUndo: CommandID;
-    static readonly Ungroup: CommandID;
-    static readonly VertSpaceConcatenate: CommandID;
-    static readonly VertSpaceDecrease: CommandID;
-    static readonly VertSpaceIncrease: CommandID;
-    static readonly VertSpaceMakeEqual: CommandID;
-    static readonly ShowGrid: CommandID;
-    static readonly ViewGrid: CommandID;
-    static readonly Replace: CommandID;
-    static readonly PropertiesWindow: CommandID;
-    static readonly LockControls: CommandID;
-    static readonly F1Help: CommandID;
-    static readonly ArrangeIcons: CommandID;
-    static readonly LineupIcons: CommandID;
-    static readonly ShowLargeIcons: CommandID;
-    static readonly VerbFirst: CommandID;
-    static readonly VerbLast: CommandID;
+    static readonly alignBottom: CommandID;
+    static readonly alignHorizontalCenters: CommandID;
+    static readonly alignLeft: CommandID;
+    static readonly alignRight: CommandID;
+    static readonly alignToGrid: CommandID;
+    static readonly alignTop: CommandID;
+    static readonly alignVerticalCenters: CommandID;
+    static readonly arrangeBottom: CommandID;
+    static readonly arrangeRight: CommandID;
+    static readonly bringForward: CommandID;
+    static readonly bringToFront: CommandID;
+    static readonly centerHorizontally: CommandID;
+    static readonly centerVertically: CommandID;
+    static readonly viewCode: CommandID;
+    static readonly documentOutline: CommandID;
+    static readonly copy: CommandID;
+    static readonly cut: CommandID;
+    static readonly delete_: CommandID;
+    static readonly group: CommandID;
+    static readonly horizSpaceConcatenate: CommandID;
+    static readonly horizSpaceDecrease: CommandID;
+    static readonly horizSpaceIncrease: CommandID;
+    static readonly horizSpaceMakeEqual: CommandID;
+    static readonly paste: CommandID;
+    static readonly properties: CommandID;
+    static readonly redo: CommandID;
+    static readonly multiLevelRedo: CommandID;
+    static readonly selectAll: CommandID;
+    static readonly sendBackward: CommandID;
+    static readonly sendToBack: CommandID;
+    static readonly sizeToControl: CommandID;
+    static readonly sizeToControlHeight: CommandID;
+    static readonly sizeToControlWidth: CommandID;
+    static readonly sizeToFit: CommandID;
+    static readonly sizeToGrid: CommandID;
+    static readonly snapToGrid: CommandID;
+    static readonly tabOrder: CommandID;
+    static readonly undo: CommandID;
+    static readonly multiLevelUndo: CommandID;
+    static readonly ungroup: CommandID;
+    static readonly vertSpaceConcatenate: CommandID;
+    static readonly vertSpaceDecrease: CommandID;
+    static readonly vertSpaceIncrease: CommandID;
+    static readonly vertSpaceMakeEqual: CommandID;
+    static readonly showGrid: CommandID;
+    static readonly viewGrid: CommandID;
+    static readonly replace: CommandID;
+    static readonly propertiesWindow: CommandID;
+    static readonly lockControls: CommandID;
+    static readonly f1Help: CommandID;
+    static readonly arrangeIcons: CommandID;
+    static readonly lineupIcons: CommandID;
+    static readonly showLargeIcons: CommandID;
+    static readonly verbFirst: CommandID;
+    static readonly verbLast: CommandID;
 }
 
 
@@ -834,22 +854,22 @@ export type StandardCommands = StandardCommands$instance;
 
 export class StandardToolWindows$instance {
     constructor();
-    static readonly ObjectBrowser: Guid;
-    static readonly OutputWindow: Guid;
-    static readonly ProjectExplorer: Guid;
-    static readonly PropertyBrowser: Guid;
-    static readonly RelatedLinks: Guid;
-    static readonly ServerExplorer: Guid;
-    static readonly TaskList: Guid;
-    static readonly Toolbox: Guid;
+    static readonly objectBrowser: Guid;
+    static readonly outputWindow: Guid;
+    static readonly projectExplorer: Guid;
+    static readonly propertyBrowser: Guid;
+    static readonly relatedLinks: Guid;
+    static readonly serverExplorer: Guid;
+    static readonly taskList: Guid;
+    static readonly toolbox: Guid;
 }
 
 
 export type StandardToolWindows = StandardToolWindows$instance;
 
 export abstract class TypeDescriptionProviderService$instance {
-    abstract GetProvider(instance: unknown): TypeDescriptionProvider;
-    abstract GetProvider(type_: Type): TypeDescriptionProvider;
+    abstract getProvider(instance: unknown): TypeDescriptionProvider;
+    abstract getProvider(type_: Type): TypeDescriptionProvider;
 }
 
 

@@ -43,12 +43,12 @@ export type CLROf<T> =
     T; // Identity fallback for non-primitive types
 
 export enum ContractFailureKind {
-    Precondition = 0,
-    Postcondition = 1,
-    PostconditionOnException = 2,
-    Invariant = 3,
-    Assert = 4,
-    Assume = 5
+    precondition = 0,
+    postcondition = 1,
+    postconditionOnException = 2,
+    invariant = 3,
+    assert = 4,
+    assume = 5
 }
 
 
@@ -68,7 +68,7 @@ export type ContractArgumentValidatorAttribute = ContractArgumentValidatorAttrib
 
 export class ContractClassAttribute$instance extends System_Internal.Attribute$instance {
     constructor(typeContainingContracts: Type);
-    readonly TypeContainingContracts: Type;
+    readonly typeContainingContracts: Type;
 }
 
 
@@ -76,7 +76,7 @@ export type ContractClassAttribute = ContractClassAttribute$instance;
 
 export class ContractClassForAttribute$instance extends System_Internal.Attribute$instance {
     constructor(typeContractsAreFor: Type);
-    readonly TypeContractsAreFor: Type;
+    readonly typeContractsAreFor: Type;
 }
 
 
@@ -84,11 +84,11 @@ export type ContractClassForAttribute = ContractClassForAttribute$instance;
 
 export class ContractException$instance extends System_Internal.Exception$instance {
     constructor(kind: ContractFailureKind, failure: string, userMessage: string, condition: string, innerException: Exception);
-    readonly Condition: string;
-    readonly Failure: string;
-    readonly Kind: ContractFailureKind;
-    readonly UserMessage: string;
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    readonly condition: string;
+    readonly failure: string;
+    readonly kind: ContractFailureKind;
+    readonly userMessage: string;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
@@ -101,14 +101,14 @@ export type ContractException = ContractException$instance & __ContractException
 
 export class ContractFailedEventArgs$instance extends System_Internal.EventArgs$instance {
     constructor(failureKind: ContractFailureKind, message: string, condition: string, originalException: Exception);
-    readonly Condition: string;
-    readonly FailureKind: ContractFailureKind;
-    readonly Handled: boolean;
-    readonly Message: string;
-    readonly OriginalException: Exception;
-    readonly Unwind: boolean;
-    SetHandled(): void;
-    SetUnwind(): void;
+    readonly condition: string;
+    readonly failureKind: ContractFailureKind;
+    readonly handled: boolean;
+    readonly message: string;
+    readonly originalException: Exception;
+    readonly unwind: boolean;
+    setHandled(): void;
+    setUnwind(): void;
 }
 
 
@@ -124,10 +124,10 @@ export type ContractInvariantMethodAttribute = ContractInvariantMethodAttribute$
 export class ContractOptionAttribute$instance extends System_Internal.Attribute$instance {
     constructor(category: string, setting: string, enabled: boolean);
     constructor(category: string, setting: string, value: string);
-    readonly Category: string;
-    readonly Enabled: boolean;
-    readonly Setting: string;
-    readonly Value: string;
+    readonly category: string;
+    readonly enabled: boolean;
+    readonly setting: string;
+    readonly value: string;
 }
 
 
@@ -135,7 +135,7 @@ export type ContractOptionAttribute = ContractOptionAttribute$instance;
 
 export class ContractPublicPropertyNameAttribute$instance extends System_Internal.Attribute$instance {
     constructor(name: string);
-    readonly Name: string;
+    readonly name: string;
 }
 
 
@@ -157,7 +157,7 @@ export type ContractRuntimeIgnoredAttribute = ContractRuntimeIgnoredAttribute$in
 
 export class ContractVerificationAttribute$instance extends System_Internal.Attribute$instance {
     constructor(value: boolean);
-    readonly Value: boolean;
+    readonly value: boolean;
 }
 
 
@@ -171,26 +171,26 @@ export class PureAttribute$instance extends System_Internal.Attribute$instance {
 export type PureAttribute = PureAttribute$instance;
 
 export abstract class Contract$instance {
-    static Assert(condition: boolean, userMessage: string): void;
-    static Assert(condition: boolean): void;
-    static Assume(condition: boolean, userMessage: string): void;
-    static Assume(condition: boolean): void;
-    static EndContractBlock(): void;
-    static Ensures(condition: boolean, userMessage: string): void;
-    static Ensures(condition: boolean): void;
-    static EnsuresOnThrow<TException extends Exception>(condition: boolean, userMessage: string): void;
-    static EnsuresOnThrow<TException extends Exception>(condition: boolean): void;
-    static Exists<T>(collection: IEnumerable_1<T>, predicate: Predicate_1<T>): boolean;
-    static Exists(fromInclusive: int, toExclusive: int, predicate: Predicate_1<CLROf<int>>): boolean;
-    static ForAll<T>(collection: IEnumerable_1<T>, predicate: Predicate_1<T>): boolean;
-    static ForAll(fromInclusive: int, toExclusive: int, predicate: Predicate_1<CLROf<int>>): boolean;
-    static Invariant(condition: boolean, userMessage: string): void;
-    static Invariant(condition: boolean): void;
-    static OldValue<T>(value: T): T;
-    static Requires(condition: boolean, userMessage: string): void;
-    static Requires(condition: boolean): void;
-    static Result<T>(): T;
-    static ValueAtReturn<T>(value: { value: ref<T> }): T;
+    static assert(condition: boolean, userMessage: string): void;
+    static assert(condition: boolean): void;
+    static assume(condition: boolean, userMessage: string): void;
+    static assume(condition: boolean): void;
+    static endContractBlock(): void;
+    static ensures(condition: boolean, userMessage: string): void;
+    static ensures(condition: boolean): void;
+    static ensuresOnThrow<TException extends Exception>(condition: boolean, userMessage: string): void;
+    static ensuresOnThrow<TException extends Exception>(condition: boolean): void;
+    static exists<T>(collection: IEnumerable_1<T>, predicate: Predicate_1<T>): boolean;
+    static exists(fromInclusive: int, toExclusive: int, predicate: Predicate_1<CLROf<int>>): boolean;
+    static forAll<T>(collection: IEnumerable_1<T>, predicate: Predicate_1<T>): boolean;
+    static forAll(fromInclusive: int, toExclusive: int, predicate: Predicate_1<CLROf<int>>): boolean;
+    static invariant(condition: boolean, userMessage: string): void;
+    static invariant(condition: boolean): void;
+    static oldValue<T>(value: T): T;
+    static requires(condition: boolean, userMessage: string): void;
+    static requires(condition: boolean): void;
+    static result<T>(): T;
+    static valueAtReturn<T>(value: { value: ref<T> }): T;
 }
 
 

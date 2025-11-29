@@ -44,109 +44,109 @@ export type CLROf<T> =
     T; // Identity fallback for non-primitive types
 
 export class JSMarshalerArgument$instance {
-    Initialize(): void;
-    ToJS(value: boolean): void;
-    ToJS(value: Nullable_1<CLROf<boolean>>): void;
-    ToJS(value: byte): void;
-    ToJS(value: Nullable_1<CLROf<byte>>): void;
-    ToJS(value: byte[]): void;
-    ToJS(value: char): void;
-    ToJS(value: Nullable_1<CLROf<char>>): void;
-    ToJS(value: short): void;
-    ToJS(value: Nullable_1<CLROf<short>>): void;
-    ToJS(value: int): void;
-    ToJS(value: Nullable_1<CLROf<int>>): void;
-    ToJS(value: int[]): void;
-    ToJS(value: long): void;
-    ToJS(value: Nullable_1<CLROf<long>>): void;
-    ToJS(value: float): void;
-    ToJS(value: Nullable_1<CLROf<float>>): void;
-    ToJS(value: double): void;
-    ToJS(value: Nullable_1<CLROf<double>>): void;
-    ToJS(value: double[]): void;
-    ToJS(value: nint): void;
-    ToJS(value: Nullable_1<CLROf<nint>>): void;
-    ToJS(value: DateTimeOffset): void;
-    ToJS(value: Nullable_1<DateTimeOffset>): void;
-    ToJS(value: DateTime): void;
-    ToJS(value: Nullable_1<DateTime>): void;
-    ToJS(value: string): void;
-    ToJS(value: string[]): void;
-    ToJS(value: Exception): void;
-    ToJS(value: unknown): void;
-    ToJS(value: unknown[]): void;
-    ToJS(value: JSObject): void;
-    ToJS(value: JSObject[]): void;
-    ToJS(value: Task): void;
-    ToJS<T>(value: Task_1<T>, marshaler: JSMarshalerArgument_ArgumentToJSCallback_1<T>): void;
-    ToJS(value: Action): void;
-    ToJS<T>(value: Action_1<T>, arg1Marshaler: JSMarshalerArgument_ArgumentToManagedCallback_1<T>): void;
-    ToJS<T1, T2>(value: Action_2<T1, T2>, arg1Marshaler: JSMarshalerArgument_ArgumentToManagedCallback_1<T1>, arg2Marshaler: JSMarshalerArgument_ArgumentToManagedCallback_1<T2>): void;
-    ToJS<T1, T2, T3>(value: Action_3<T1, T2, T3>, arg1Marshaler: JSMarshalerArgument_ArgumentToManagedCallback_1<T1>, arg2Marshaler: JSMarshalerArgument_ArgumentToManagedCallback_1<T2>, arg3Marshaler: JSMarshalerArgument_ArgumentToManagedCallback_1<T3>): void;
-    ToJS<TResult>(value: Func_1<TResult>, resMarshaler: JSMarshalerArgument_ArgumentToJSCallback_1<TResult>): void;
-    ToJS<T, TResult>(value: Func_2<T, TResult>, arg1Marshaler: JSMarshalerArgument_ArgumentToManagedCallback_1<T>, resMarshaler: JSMarshalerArgument_ArgumentToJSCallback_1<TResult>): void;
-    ToJS<T1, T2, TResult>(value: Func_3<T1, T2, TResult>, arg1Marshaler: JSMarshalerArgument_ArgumentToManagedCallback_1<T1>, arg2Marshaler: JSMarshalerArgument_ArgumentToManagedCallback_1<T2>, resMarshaler: JSMarshalerArgument_ArgumentToJSCallback_1<TResult>): void;
-    ToJS<T1, T2, T3, TResult>(value: Func_4<T1, T2, T3, TResult>, arg1Marshaler: JSMarshalerArgument_ArgumentToManagedCallback_1<T1>, arg2Marshaler: JSMarshalerArgument_ArgumentToManagedCallback_1<T2>, arg3Marshaler: JSMarshalerArgument_ArgumentToManagedCallback_1<T3>, resMarshaler: JSMarshalerArgument_ArgumentToJSCallback_1<TResult>): void;
-    ToJS(value: ptr<void>): void;
-    ToJS(value: Span_1<CLROf<byte>>): void;
-    ToJS(value: ArraySegment_1<CLROf<byte>>): void;
-    ToJS(value: Span_1<CLROf<int>>): void;
-    ToJS(value: Span_1<CLROf<double>>): void;
-    ToJS(value: ArraySegment_1<CLROf<int>>): void;
-    ToJS(value: ArraySegment_1<CLROf<double>>): void;
-    ToJSBig(value: long): void;
-    ToJSBig(value: Nullable_1<CLROf<long>>): void;
-    ToManaged(value: { value: ref<boolean> }): void;
-    ToManaged(value: { value: ref<Nullable_1<CLROf<boolean>>> }): void;
-    ToManaged(value: { value: ref<byte> }): void;
-    ToManaged(value: { value: ref<Nullable_1<CLROf<byte>>> }): void;
-    ToManaged(value: { value: ref<byte[]> }): void;
-    ToManaged(value: { value: ref<char> }): void;
-    ToManaged(value: { value: ref<Nullable_1<CLROf<char>>> }): void;
-    ToManaged(value: { value: ref<short> }): void;
-    ToManaged(value: { value: ref<Nullable_1<CLROf<short>>> }): void;
-    ToManaged(value: { value: ref<int> }): void;
-    ToManaged(value: { value: ref<Nullable_1<CLROf<int>>> }): void;
-    ToManaged(value: { value: ref<int[]> }): void;
-    ToManaged(value: { value: ref<long> }): void;
-    ToManaged(value: { value: ref<Nullable_1<CLROf<long>>> }): void;
-    ToManaged(value: { value: ref<float> }): void;
-    ToManaged(value: { value: ref<Nullable_1<CLROf<float>>> }): void;
-    ToManaged(value: { value: ref<double> }): void;
-    ToManaged(value: { value: ref<Nullable_1<CLROf<double>>> }): void;
-    ToManaged(value: { value: ref<double[]> }): void;
-    ToManaged(value: { value: ref<nint> }): void;
-    ToManaged(value: { value: ref<Nullable_1<CLROf<nint>>> }): void;
-    ToManaged(value: { value: ref<DateTimeOffset> }): void;
-    ToManaged(value: { value: ref<Nullable_1<DateTimeOffset>> }): void;
-    ToManaged(value: { value: ref<DateTime> }): void;
-    ToManaged(value: { value: ref<Nullable_1<DateTime>> }): void;
-    ToManaged(value: { value: ref<string> }): void;
-    ToManaged(value: { value: ref<string[]> }): void;
-    ToManaged(value: { value: ref<Exception> }): void;
-    ToManaged(value: { value: ref<unknown> }): void;
-    ToManaged(value: { value: ref<unknown[]> }): void;
-    ToManaged(value: { value: ref<JSObject> }): void;
-    ToManaged(value: { value: ref<JSObject[]> }): void;
-    ToManaged(value: { value: ref<Task> }): void;
-    ToManaged<T>(value: { value: ref<Task_1<T>> }, marshaler: JSMarshalerArgument_ArgumentToManagedCallback_1<T>): void;
-    ToManaged(value: { value: ref<Action> }): void;
-    ToManaged<T>(value: { value: ref<Action_1<T>> }, arg1Marshaler: JSMarshalerArgument_ArgumentToJSCallback_1<T>): void;
-    ToManaged<T1, T2>(value: { value: ref<Action_2<T1, T2>> }, arg1Marshaler: JSMarshalerArgument_ArgumentToJSCallback_1<T1>, arg2Marshaler: JSMarshalerArgument_ArgumentToJSCallback_1<T2>): void;
-    ToManaged<T1, T2, T3>(value: { value: ref<Action_3<T1, T2, T3>> }, arg1Marshaler: JSMarshalerArgument_ArgumentToJSCallback_1<T1>, arg2Marshaler: JSMarshalerArgument_ArgumentToJSCallback_1<T2>, arg3Marshaler: JSMarshalerArgument_ArgumentToJSCallback_1<T3>): void;
-    ToManaged<TResult>(value: { value: ref<Func_1<TResult>> }, resMarshaler: JSMarshalerArgument_ArgumentToManagedCallback_1<TResult>): void;
-    ToManaged<T, TResult>(value: { value: ref<Func_2<T, TResult>> }, arg1Marshaler: JSMarshalerArgument_ArgumentToJSCallback_1<T>, resMarshaler: JSMarshalerArgument_ArgumentToManagedCallback_1<TResult>): void;
-    ToManaged<T1, T2, TResult>(value: { value: ref<Func_3<T1, T2, TResult>> }, arg1Marshaler: JSMarshalerArgument_ArgumentToJSCallback_1<T1>, arg2Marshaler: JSMarshalerArgument_ArgumentToJSCallback_1<T2>, resMarshaler: JSMarshalerArgument_ArgumentToManagedCallback_1<TResult>): void;
-    ToManaged<T1, T2, T3, TResult>(value: { value: ref<Func_4<T1, T2, T3, TResult>> }, arg1Marshaler: JSMarshalerArgument_ArgumentToJSCallback_1<T1>, arg2Marshaler: JSMarshalerArgument_ArgumentToJSCallback_1<T2>, arg3Marshaler: JSMarshalerArgument_ArgumentToJSCallback_1<T3>, resMarshaler: JSMarshalerArgument_ArgumentToManagedCallback_1<TResult>): void;
-    ToManaged(value: { value: ref<ptr<void>> }): void;
-    ToManaged(value: { value: ref<Span_1<CLROf<byte>>> }): void;
-    ToManaged(value: { value: ref<ArraySegment_1<CLROf<byte>>> }): void;
-    ToManaged(value: { value: ref<Span_1<CLROf<int>>> }): void;
-    ToManaged(value: { value: ref<Span_1<CLROf<double>>> }): void;
-    ToManaged(value: { value: ref<ArraySegment_1<CLROf<int>>> }): void;
-    ToManaged(value: { value: ref<ArraySegment_1<CLROf<double>>> }): void;
-    ToManagedBig(value: { value: ref<long> }): void;
-    ToManagedBig(value: { value: ref<Nullable_1<CLROf<long>>> }): void;
+    initialize(): void;
+    toJS(value: boolean): void;
+    toJS(value: Nullable_1<CLROf<boolean>>): void;
+    toJS(value: byte): void;
+    toJS(value: Nullable_1<CLROf<byte>>): void;
+    toJS(value: byte[]): void;
+    toJS(value: char): void;
+    toJS(value: Nullable_1<CLROf<char>>): void;
+    toJS(value: short): void;
+    toJS(value: Nullable_1<CLROf<short>>): void;
+    toJS(value: int): void;
+    toJS(value: Nullable_1<CLROf<int>>): void;
+    toJS(value: int[]): void;
+    toJS(value: long): void;
+    toJS(value: Nullable_1<CLROf<long>>): void;
+    toJS(value: float): void;
+    toJS(value: Nullable_1<CLROf<float>>): void;
+    toJS(value: double): void;
+    toJS(value: Nullable_1<CLROf<double>>): void;
+    toJS(value: double[]): void;
+    toJS(value: nint): void;
+    toJS(value: Nullable_1<CLROf<nint>>): void;
+    toJS(value: DateTimeOffset): void;
+    toJS(value: Nullable_1<DateTimeOffset>): void;
+    toJS(value: DateTime): void;
+    toJS(value: Nullable_1<DateTime>): void;
+    toJS(value: string): void;
+    toJS(value: string[]): void;
+    toJS(value: Exception): void;
+    toJS(value: unknown): void;
+    toJS(value: unknown[]): void;
+    toJS(value: JSObject): void;
+    toJS(value: JSObject[]): void;
+    toJS(value: Task): void;
+    toJS<T>(value: Task_1<T>, marshaler: JSMarshalerArgument_ArgumentToJSCallback_1<T>): void;
+    toJS(value: Action): void;
+    toJS<T>(value: Action_1<T>, arg1Marshaler: JSMarshalerArgument_ArgumentToManagedCallback_1<T>): void;
+    toJS<T1, T2>(value: Action_2<T1, T2>, arg1Marshaler: JSMarshalerArgument_ArgumentToManagedCallback_1<T1>, arg2Marshaler: JSMarshalerArgument_ArgumentToManagedCallback_1<T2>): void;
+    toJS<T1, T2, T3>(value: Action_3<T1, T2, T3>, arg1Marshaler: JSMarshalerArgument_ArgumentToManagedCallback_1<T1>, arg2Marshaler: JSMarshalerArgument_ArgumentToManagedCallback_1<T2>, arg3Marshaler: JSMarshalerArgument_ArgumentToManagedCallback_1<T3>): void;
+    toJS<TResult>(value: Func_1<TResult>, resMarshaler: JSMarshalerArgument_ArgumentToJSCallback_1<TResult>): void;
+    toJS<T, TResult>(value: Func_2<T, TResult>, arg1Marshaler: JSMarshalerArgument_ArgumentToManagedCallback_1<T>, resMarshaler: JSMarshalerArgument_ArgumentToJSCallback_1<TResult>): void;
+    toJS<T1, T2, TResult>(value: Func_3<T1, T2, TResult>, arg1Marshaler: JSMarshalerArgument_ArgumentToManagedCallback_1<T1>, arg2Marshaler: JSMarshalerArgument_ArgumentToManagedCallback_1<T2>, resMarshaler: JSMarshalerArgument_ArgumentToJSCallback_1<TResult>): void;
+    toJS<T1, T2, T3, TResult>(value: Func_4<T1, T2, T3, TResult>, arg1Marshaler: JSMarshalerArgument_ArgumentToManagedCallback_1<T1>, arg2Marshaler: JSMarshalerArgument_ArgumentToManagedCallback_1<T2>, arg3Marshaler: JSMarshalerArgument_ArgumentToManagedCallback_1<T3>, resMarshaler: JSMarshalerArgument_ArgumentToJSCallback_1<TResult>): void;
+    toJS(value: ptr<void>): void;
+    toJS(value: Span_1<CLROf<byte>>): void;
+    toJS(value: ArraySegment_1<CLROf<byte>>): void;
+    toJS(value: Span_1<CLROf<int>>): void;
+    toJS(value: Span_1<CLROf<double>>): void;
+    toJS(value: ArraySegment_1<CLROf<int>>): void;
+    toJS(value: ArraySegment_1<CLROf<double>>): void;
+    toJSBig(value: long): void;
+    toJSBig(value: Nullable_1<CLROf<long>>): void;
+    toManaged(value: { value: ref<boolean> }): void;
+    toManaged(value: { value: ref<Nullable_1<CLROf<boolean>>> }): void;
+    toManaged(value: { value: ref<byte> }): void;
+    toManaged(value: { value: ref<Nullable_1<CLROf<byte>>> }): void;
+    toManaged(value: { value: ref<byte[]> }): void;
+    toManaged(value: { value: ref<char> }): void;
+    toManaged(value: { value: ref<Nullable_1<CLROf<char>>> }): void;
+    toManaged(value: { value: ref<short> }): void;
+    toManaged(value: { value: ref<Nullable_1<CLROf<short>>> }): void;
+    toManaged(value: { value: ref<int> }): void;
+    toManaged(value: { value: ref<Nullable_1<CLROf<int>>> }): void;
+    toManaged(value: { value: ref<int[]> }): void;
+    toManaged(value: { value: ref<long> }): void;
+    toManaged(value: { value: ref<Nullable_1<CLROf<long>>> }): void;
+    toManaged(value: { value: ref<float> }): void;
+    toManaged(value: { value: ref<Nullable_1<CLROf<float>>> }): void;
+    toManaged(value: { value: ref<double> }): void;
+    toManaged(value: { value: ref<Nullable_1<CLROf<double>>> }): void;
+    toManaged(value: { value: ref<double[]> }): void;
+    toManaged(value: { value: ref<nint> }): void;
+    toManaged(value: { value: ref<Nullable_1<CLROf<nint>>> }): void;
+    toManaged(value: { value: ref<DateTimeOffset> }): void;
+    toManaged(value: { value: ref<Nullable_1<DateTimeOffset>> }): void;
+    toManaged(value: { value: ref<DateTime> }): void;
+    toManaged(value: { value: ref<Nullable_1<DateTime>> }): void;
+    toManaged(value: { value: ref<string> }): void;
+    toManaged(value: { value: ref<string[]> }): void;
+    toManaged(value: { value: ref<Exception> }): void;
+    toManaged(value: { value: ref<unknown> }): void;
+    toManaged(value: { value: ref<unknown[]> }): void;
+    toManaged(value: { value: ref<JSObject> }): void;
+    toManaged(value: { value: ref<JSObject[]> }): void;
+    toManaged(value: { value: ref<Task> }): void;
+    toManaged<T>(value: { value: ref<Task_1<T>> }, marshaler: JSMarshalerArgument_ArgumentToManagedCallback_1<T>): void;
+    toManaged(value: { value: ref<Action> }): void;
+    toManaged<T>(value: { value: ref<Action_1<T>> }, arg1Marshaler: JSMarshalerArgument_ArgumentToJSCallback_1<T>): void;
+    toManaged<T1, T2>(value: { value: ref<Action_2<T1, T2>> }, arg1Marshaler: JSMarshalerArgument_ArgumentToJSCallback_1<T1>, arg2Marshaler: JSMarshalerArgument_ArgumentToJSCallback_1<T2>): void;
+    toManaged<T1, T2, T3>(value: { value: ref<Action_3<T1, T2, T3>> }, arg1Marshaler: JSMarshalerArgument_ArgumentToJSCallback_1<T1>, arg2Marshaler: JSMarshalerArgument_ArgumentToJSCallback_1<T2>, arg3Marshaler: JSMarshalerArgument_ArgumentToJSCallback_1<T3>): void;
+    toManaged<TResult>(value: { value: ref<Func_1<TResult>> }, resMarshaler: JSMarshalerArgument_ArgumentToManagedCallback_1<TResult>): void;
+    toManaged<T, TResult>(value: { value: ref<Func_2<T, TResult>> }, arg1Marshaler: JSMarshalerArgument_ArgumentToJSCallback_1<T>, resMarshaler: JSMarshalerArgument_ArgumentToManagedCallback_1<TResult>): void;
+    toManaged<T1, T2, TResult>(value: { value: ref<Func_3<T1, T2, TResult>> }, arg1Marshaler: JSMarshalerArgument_ArgumentToJSCallback_1<T1>, arg2Marshaler: JSMarshalerArgument_ArgumentToJSCallback_1<T2>, resMarshaler: JSMarshalerArgument_ArgumentToManagedCallback_1<TResult>): void;
+    toManaged<T1, T2, T3, TResult>(value: { value: ref<Func_4<T1, T2, T3, TResult>> }, arg1Marshaler: JSMarshalerArgument_ArgumentToJSCallback_1<T1>, arg2Marshaler: JSMarshalerArgument_ArgumentToJSCallback_1<T2>, arg3Marshaler: JSMarshalerArgument_ArgumentToJSCallback_1<T3>, resMarshaler: JSMarshalerArgument_ArgumentToManagedCallback_1<TResult>): void;
+    toManaged(value: { value: ref<ptr<void>> }): void;
+    toManaged(value: { value: ref<Span_1<CLROf<byte>>> }): void;
+    toManaged(value: { value: ref<ArraySegment_1<CLROf<byte>>> }): void;
+    toManaged(value: { value: ref<Span_1<CLROf<int>>> }): void;
+    toManaged(value: { value: ref<Span_1<CLROf<double>>> }): void;
+    toManaged(value: { value: ref<ArraySegment_1<CLROf<int>>> }): void;
+    toManaged(value: { value: ref<ArraySegment_1<CLROf<double>>> }): void;
+    toManagedBig(value: { value: ref<long> }): void;
+    toManagedBig(value: { value: ref<Nullable_1<CLROf<long>>> }): void;
 }
 
 
@@ -162,6 +162,8 @@ export interface __JSException$views {
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
+export interface JSException$instance extends System_Runtime_Serialization_Internal.ISerializable$instance {}
+
 export type JSException = JSException$instance & __JSException$views;
 
 
@@ -173,9 +175,9 @@ export class JSExportAttribute$instance extends System_Internal.Attribute$instan
 export type JSExportAttribute = JSExportAttribute$instance;
 
 export class JSFunctionBinding$instance {
-    static BindJSFunction(functionName: string, moduleName: string, signatures: ReadOnlySpan_1<JSMarshalerType>): JSFunctionBinding;
-    static BindManagedFunction(fullyQualifiedName: string, signatureHash: int, signatures: ReadOnlySpan_1<JSMarshalerType>): JSFunctionBinding;
-    static InvokeJS(signature: JSFunctionBinding, arguments: Span_1<JSMarshalerArgument>): void;
+    static bindJSFunction(functionName: string, moduleName: string, signatures: ReadOnlySpan_1<JSMarshalerType>): JSFunctionBinding;
+    static bindManagedFunction(fullyQualifiedName: string, signatureHash: int, signatures: ReadOnlySpan_1<JSMarshalerType>): JSFunctionBinding;
+    static invokeJS(signature: JSFunctionBinding, arguments: Span_1<JSMarshalerArgument>): void;
 }
 
 
@@ -184,8 +186,8 @@ export type JSFunctionBinding = JSFunctionBinding$instance;
 export class JSImportAttribute$instance extends System_Internal.Attribute$instance {
     constructor(functionName: string);
     constructor(functionName: string, moduleName: string);
-    readonly FunctionName: string;
-    readonly ModuleName: string;
+    readonly functionName: string;
+    readonly moduleName: string;
 }
 
 
@@ -200,11 +202,11 @@ export type JSMarshalAsAttribute_1<T extends JSType> = JSMarshalAsAttribute_1$in
 
 export class JSMarshalerArgument_ArgumentToJSCallback_1$instance<T> extends Function {
     constructor(object_: unknown, method: nint);
-    BeginInvoke(arg: { value: ref<JSMarshalerArgument> }, value: T, callback: AsyncCallback, object_: unknown): IAsyncResult;
+    beginInvoke(arg: { value: ref<JSMarshalerArgument> }, value: T, callback: AsyncCallback, object_: unknown): IAsyncResult;
     Clone(): unknown;
-    EndInvoke(arg: { value: ref<JSMarshalerArgument> }, result: IAsyncResult): void;
+    endInvoke(arg: { value: ref<JSMarshalerArgument> }, result: IAsyncResult): void;
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
-    Invoke(arg: { value: ref<JSMarshalerArgument> }, value: T): void;
+    invoke(arg: { value: ref<JSMarshalerArgument> }, value: T): void;
 }
 
 
@@ -213,16 +215,18 @@ export interface __JSMarshalerArgument_ArgumentToJSCallback_1$views<T> {
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
+export interface JSMarshalerArgument_ArgumentToJSCallback_1$instance<T> extends System_Internal.ICloneable$instance {}
+
 export type JSMarshalerArgument_ArgumentToJSCallback_1<T> = JSMarshalerArgument_ArgumentToJSCallback_1$instance<T> & __JSMarshalerArgument_ArgumentToJSCallback_1$views<T>;
 
 
 export class JSMarshalerArgument_ArgumentToManagedCallback_1$instance<T> extends Function {
     constructor(object_: unknown, method: nint);
-    BeginInvoke(arg: { value: ref<JSMarshalerArgument> }, value: { value: ref<T> }, callback: AsyncCallback, object_: unknown): IAsyncResult;
+    beginInvoke(arg: { value: ref<JSMarshalerArgument> }, value: { value: ref<T> }, callback: AsyncCallback, object_: unknown): IAsyncResult;
     Clone(): unknown;
-    EndInvoke(arg: { value: ref<JSMarshalerArgument> }, value: { value: ref<T> }, result: IAsyncResult): void;
+    endInvoke(arg: { value: ref<JSMarshalerArgument> }, value: { value: ref<T> }, result: IAsyncResult): void;
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
-    Invoke(arg: { value: ref<JSMarshalerArgument> }, value: { value: ref<T> }): void;
+    invoke(arg: { value: ref<JSMarshalerArgument> }, value: { value: ref<T> }): void;
 }
 
 
@@ -231,64 +235,66 @@ export interface __JSMarshalerArgument_ArgumentToManagedCallback_1$views<T> {
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
+export interface JSMarshalerArgument_ArgumentToManagedCallback_1$instance<T> extends System_Internal.ICloneable$instance {}
+
 export type JSMarshalerArgument_ArgumentToManagedCallback_1<T> = JSMarshalerArgument_ArgumentToManagedCallback_1$instance<T> & __JSMarshalerArgument_ArgumentToManagedCallback_1$views<T>;
 
 
 export class JSMarshalerType$instance {
-    static readonly Void: JSMarshalerType;
-    static readonly Discard: JSMarshalerType;
-    static readonly Boolean: JSMarshalerType;
-    static readonly Byte: JSMarshalerType;
-    static readonly Char: JSMarshalerType;
-    static readonly Int16: JSMarshalerType;
-    static readonly Int32: JSMarshalerType;
-    static readonly Int52: JSMarshalerType;
-    static readonly BigInt64: JSMarshalerType;
-    static readonly Double: JSMarshalerType;
-    static readonly Single: JSMarshalerType;
-    static readonly IntPtr: JSMarshalerType;
-    static readonly JSObject: JSMarshalerType;
-    static readonly Object: JSMarshalerType;
-    static readonly String: JSMarshalerType;
-    static readonly Exception: JSMarshalerType;
-    static readonly DateTime: JSMarshalerType;
-    static readonly DateTimeOffset: JSMarshalerType;
-    static Action(): JSMarshalerType;
-    static Action(arg1: JSMarshalerType, arg2: JSMarshalerType, arg3: JSMarshalerType): JSMarshalerType;
-    static Action(arg1: JSMarshalerType, arg2: JSMarshalerType): JSMarshalerType;
-    static Action(arg1: JSMarshalerType): JSMarshalerType;
-    static Array(element: JSMarshalerType): JSMarshalerType;
-    static ArraySegment(element: JSMarshalerType): JSMarshalerType;
-    static Function(arg1: JSMarshalerType, arg2: JSMarshalerType, arg3: JSMarshalerType, result: JSMarshalerType): JSMarshalerType;
-    static Function(arg1: JSMarshalerType, arg2: JSMarshalerType, result: JSMarshalerType): JSMarshalerType;
-    static Function(arg1: JSMarshalerType, result: JSMarshalerType): JSMarshalerType;
-    static Function(result: JSMarshalerType): JSMarshalerType;
-    static Nullable(primitive: JSMarshalerType): JSMarshalerType;
-    static Span(element: JSMarshalerType): JSMarshalerType;
-    static Task(): JSMarshalerType;
-    static Task(result: JSMarshalerType): JSMarshalerType;
+    static readonly void: JSMarshalerType;
+    static readonly discard: JSMarshalerType;
+    static readonly boolean: JSMarshalerType;
+    static readonly byte: JSMarshalerType;
+    static readonly char: JSMarshalerType;
+    static readonly int16: JSMarshalerType;
+    static readonly int32: JSMarshalerType;
+    static readonly int52: JSMarshalerType;
+    static readonly bigInt64: JSMarshalerType;
+    static readonly double: JSMarshalerType;
+    static readonly single: JSMarshalerType;
+    static readonly intPtr: JSMarshalerType;
+    static readonly jsObject: JSMarshalerType;
+    static readonly object: JSMarshalerType;
+    static readonly string: JSMarshalerType;
+    static readonly exception: JSMarshalerType;
+    static readonly dateTime: JSMarshalerType;
+    static readonly dateTimeOffset: JSMarshalerType;
+    static action(): JSMarshalerType;
+    static action(arg1: JSMarshalerType, arg2: JSMarshalerType, arg3: JSMarshalerType): JSMarshalerType;
+    static action(arg1: JSMarshalerType, arg2: JSMarshalerType): JSMarshalerType;
+    static action(arg1: JSMarshalerType): JSMarshalerType;
+    static array(element: JSMarshalerType): JSMarshalerType;
+    static arraySegment(element: JSMarshalerType): JSMarshalerType;
+    static function(arg1: JSMarshalerType, arg2: JSMarshalerType, arg3: JSMarshalerType, result: JSMarshalerType): JSMarshalerType;
+    static function(arg1: JSMarshalerType, arg2: JSMarshalerType, result: JSMarshalerType): JSMarshalerType;
+    static function(arg1: JSMarshalerType, result: JSMarshalerType): JSMarshalerType;
+    static function(result: JSMarshalerType): JSMarshalerType;
+    static nullable(primitive: JSMarshalerType): JSMarshalerType;
+    static span(element: JSMarshalerType): JSMarshalerType;
+    static task(): JSMarshalerType;
+    static task(result: JSMarshalerType): JSMarshalerType;
 }
 
 
 export type JSMarshalerType = JSMarshalerType$instance;
 
 export class JSObject$instance {
-    readonly IsDisposed: boolean;
-    Dispose(): void;
-    GetPropertyAsBoolean(propertyName: string): boolean;
-    GetPropertyAsByteArray(propertyName: string): byte[];
-    GetPropertyAsDouble(propertyName: string): double;
-    GetPropertyAsInt32(propertyName: string): int;
-    GetPropertyAsJSObject(propertyName: string): JSObject;
-    GetPropertyAsString(propertyName: string): string;
-    GetTypeOfProperty(propertyName: string): string;
-    HasProperty(propertyName: string): boolean;
-    SetProperty(propertyName: string, value: boolean): void;
-    SetProperty(propertyName: string, value: int): void;
-    SetProperty(propertyName: string, value: double): void;
-    SetProperty(propertyName: string, value: string): void;
-    SetProperty(propertyName: string, value: JSObject): void;
-    SetProperty(propertyName: string, value: byte[]): void;
+    readonly isDisposed: boolean;
+    dispose(): void;
+    getPropertyAsBoolean(propertyName: string): boolean;
+    getPropertyAsByteArray(propertyName: string): byte[];
+    getPropertyAsDouble(propertyName: string): double;
+    getPropertyAsInt32(propertyName: string): int;
+    getPropertyAsJSObject(propertyName: string): JSObject;
+    getPropertyAsString(propertyName: string): string;
+    getTypeOfProperty(propertyName: string): string;
+    hasProperty(propertyName: string): boolean;
+    setProperty(propertyName: string, value: boolean): void;
+    setProperty(propertyName: string, value: int): void;
+    setProperty(propertyName: string, value: double): void;
+    setProperty(propertyName: string, value: string): void;
+    setProperty(propertyName: string, value: JSObject): void;
+    setProperty(propertyName: string, value: byte[]): void;
 }
 
 
@@ -416,9 +422,9 @@ export class JSType_Void$instance extends JSType$instance {
 export type JSType_Void = JSType_Void$instance;
 
 export abstract class JSHost$instance {
-    static readonly GlobalThis: JSObject;
-    static readonly DotnetInstance: JSObject;
-    static ImportAsync(moduleName: string, moduleUrl: string, cancellationToken?: CancellationToken): Task_1<JSObject>;
+    static readonly globalThis: JSObject;
+    static readonly dotnetInstance: JSObject;
+    static importAsync(moduleName: string, moduleUrl: string, cancellationToken?: CancellationToken): Task_1<JSObject>;
 }
 
 

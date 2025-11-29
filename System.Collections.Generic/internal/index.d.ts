@@ -46,25 +46,25 @@ export type CLROf<T> =
     T; // Identity fallback for non-primitive types
 
 export interface IAlternateEqualityComparer_2$instance<TAlternate, T> {
-    Create(alternate: TAlternate): T;
-    Equals(alternate: TAlternate, other: T): boolean;
-    GetHashCode(alternate: TAlternate): int;
+    create(alternate: TAlternate): T;
+    equals(alternate: TAlternate, other: T): boolean;
+    getHashCode(alternate: TAlternate): int;
 }
 
 
 export type IAlternateEqualityComparer_2<TAlternate, T> = IAlternateEqualityComparer_2$instance<TAlternate, T>;
 
 export interface IAsyncEnumerable_1$instance<T> {
-    GetAsyncEnumerator(cancellationToken?: CancellationToken): IAsyncEnumerator_1<T>;
+    getAsyncEnumerator(cancellationToken?: CancellationToken): IAsyncEnumerator_1<T>;
 }
 
 
 export type IAsyncEnumerable_1<T> = IAsyncEnumerable_1$instance<T>;
 
 export interface IAsyncEnumerator_1$instance<T> extends IAsyncDisposable {
-    readonly Current: T;
-    DisposeAsync(): ValueTask;
-    MoveNextAsync(): ValueTask_1<CLROf<boolean>>;
+    readonly current: T;
+    disposeAsync(): ValueTask;
+    moveNextAsync(): ValueTask_1<CLROf<boolean>>;
 }
 
 
@@ -73,58 +73,58 @@ export interface IAsyncEnumerator_1$instance<T> extends System_Internal.IAsyncDi
 export type IAsyncEnumerator_1<T> = IAsyncEnumerator_1$instance<T>;
 
 export interface ICollection_1$instance<T> extends IEnumerable_1<T>, IEnumerable {
-    readonly Count: int;
-    readonly IsReadOnly: boolean;
-    Add(item: T): void;
-    Clear(): void;
-    Contains(item: T): boolean;
-    CopyTo(array: T[], arrayIndex: int): void;
-    GetEnumerator(): IEnumerator_1<T>;
-    GetEnumerator(): IEnumerator;
+    readonly count: int;
+    readonly isReadOnly: boolean;
+    add(item: T): void;
+    clear(): void;
+    contains(item: T): boolean;
+    copyTo(array: T[], arrayIndex: int): void;
+    getEnumerator(): IEnumerator_1<T>;
+    getEnumerator(): IEnumerator;
 }
 
 
 export type ICollection_1<T> = ICollection_1$instance<T>;
 
 export interface IComparer_1$instance<T> {
-    Compare(x: T, y: T): int;
+    compare(x: T, y: T): int;
 }
 
 
 export type IComparer_1<T> = IComparer_1$instance<T>;
 
 export interface IDictionary_2$instance<TKey, TValue> extends ICollection_1<KeyValuePair_2<TKey, TValue>>, IEnumerable_1<KeyValuePair_2<TKey, TValue>>, IEnumerable {
-    Item: TValue;
-    readonly Keys: ICollection_1<TKey>;
-    readonly Values: ICollection_1<TValue>;
-    readonly Count: int;
-    readonly IsReadOnly: boolean;
-    Add(item: KeyValuePair_2<TKey, TValue>): void;
-    Add(key: TKey, value: TValue): void;
-    Clear(): void;
-    Contains(item: KeyValuePair_2<TKey, TValue>): boolean;
-    ContainsKey(key: TKey): boolean;
-    CopyTo(array: KeyValuePair_2<TKey, TValue>[], arrayIndex: int): void;
-    GetEnumerator(): IEnumerator_1<KeyValuePair_2<TKey, TValue>>;
-    GetEnumerator(): IEnumerator;
-    TryGetValue(key: TKey, value: { value: ref<TValue> }): boolean;
+    item: TValue;
+    readonly keys: ICollection_1<TKey>;
+    readonly values: ICollection_1<TValue>;
+    readonly count: int;
+    readonly isReadOnly: boolean;
+    add(item: KeyValuePair_2<TKey, TValue>): void;
+    add(key: TKey, value: TValue): void;
+    clear(): void;
+    contains(item: KeyValuePair_2<TKey, TValue>): boolean;
+    containsKey(key: TKey): boolean;
+    copyTo(array: KeyValuePair_2<TKey, TValue>[], arrayIndex: int): void;
+    getEnumerator(): IEnumerator_1<KeyValuePair_2<TKey, TValue>>;
+    getEnumerator(): IEnumerator;
+    tryGetValue(key: TKey, value: { value: ref<TValue> }): boolean;
 }
 
 
 export type IDictionary_2<TKey, TValue> = IDictionary_2$instance<TKey, TValue>;
 
 export interface IEnumerable_1$instance<T> extends IEnumerable {
-    GetEnumerator(): IEnumerator_1<T>;
-    GetEnumerator(): IEnumerator;
+    getEnumerator(): IEnumerator_1<T>;
+    getEnumerator(): IEnumerator;
 }
 
 
 export type IEnumerable_1<T> = IEnumerable_1$instance<T>;
 
 export interface IEnumerator_1$instance<T> extends IDisposable, IEnumerator {
-    readonly Current: T;
-    Dispose(): void;
-    MoveNext(): boolean;
+    readonly current: T;
+    dispose(): void;
+    moveNext(): boolean;
 }
 
 
@@ -133,109 +133,109 @@ export interface IEnumerator_1$instance<T> extends System_Internal.IDisposable$i
 export type IEnumerator_1<T> = IEnumerator_1$instance<T>;
 
 export interface IEqualityComparer_1$instance<T> {
-    Equals(x: T, y: T): boolean;
-    GetHashCode(obj: T): int;
+    equals(x: T, y: T): boolean;
+    getHashCode(obj: T): int;
 }
 
 
 export type IEqualityComparer_1<T> = IEqualityComparer_1$instance<T>;
 
 export interface IList_1$instance<T> extends ICollection_1<T>, IEnumerable_1<T>, IEnumerable {
-    Item: T;
-    readonly Count: int;
-    readonly IsReadOnly: boolean;
-    Add(item: T): void;
-    Clear(): void;
-    Contains(item: T): boolean;
-    CopyTo(array: T[], arrayIndex: int): void;
-    GetEnumerator(): IEnumerator_1<T>;
-    GetEnumerator(): IEnumerator;
-    IndexOf(item: T): int;
-    Insert(index: int, item: T): void;
-    RemoveAt(index: int): void;
+    item: T;
+    readonly count: int;
+    readonly isReadOnly: boolean;
+    add(item: T): void;
+    clear(): void;
+    contains(item: T): boolean;
+    copyTo(array: T[], arrayIndex: int): void;
+    getEnumerator(): IEnumerator_1<T>;
+    getEnumerator(): IEnumerator;
+    indexOf(item: T): int;
+    insert(index: int, item: T): void;
+    removeAt(index: int): void;
 }
 
 
 export type IList_1<T> = IList_1$instance<T>;
 
 export interface IReadOnlyCollection_1$instance<T> extends IEnumerable_1<T>, IEnumerable {
-    readonly Count: int;
-    GetEnumerator(): IEnumerator_1<T>;
-    GetEnumerator(): IEnumerator;
+    readonly count: int;
+    getEnumerator(): IEnumerator_1<T>;
+    getEnumerator(): IEnumerator;
 }
 
 
 export type IReadOnlyCollection_1<T> = IReadOnlyCollection_1$instance<T>;
 
 export interface IReadOnlyDictionary_2$instance<TKey, TValue> extends IReadOnlyCollection_1<KeyValuePair_2<TKey, TValue>>, IEnumerable_1<KeyValuePair_2<TKey, TValue>>, IEnumerable {
-    readonly Item: TValue;
-    readonly Keys: IEnumerable_1<TKey>;
-    readonly Values: IEnumerable_1<TValue>;
-    readonly Count: int;
-    ContainsKey(key: TKey): boolean;
-    GetEnumerator(): IEnumerator_1<KeyValuePair_2<TKey, TValue>>;
-    GetEnumerator(): IEnumerator;
-    TryGetValue(key: TKey, value: { value: ref<TValue> }): boolean;
+    readonly item: TValue;
+    readonly keys: IEnumerable_1<TKey>;
+    readonly values: IEnumerable_1<TValue>;
+    readonly count: int;
+    containsKey(key: TKey): boolean;
+    getEnumerator(): IEnumerator_1<KeyValuePair_2<TKey, TValue>>;
+    getEnumerator(): IEnumerator;
+    tryGetValue(key: TKey, value: { value: ref<TValue> }): boolean;
 }
 
 
 export type IReadOnlyDictionary_2<TKey, TValue> = IReadOnlyDictionary_2$instance<TKey, TValue>;
 
 export interface IReadOnlyList_1$instance<T> extends IReadOnlyCollection_1<T>, IEnumerable_1<T>, IEnumerable {
-    readonly Item: T;
-    readonly Count: int;
-    GetEnumerator(): IEnumerator_1<T>;
-    GetEnumerator(): IEnumerator;
+    readonly item: T;
+    readonly count: int;
+    getEnumerator(): IEnumerator_1<T>;
+    getEnumerator(): IEnumerator;
 }
 
 
 export type IReadOnlyList_1<T> = IReadOnlyList_1$instance<T>;
 
 export interface IReadOnlySet_1$instance<T> extends IReadOnlyCollection_1<T>, IEnumerable_1<T>, IEnumerable {
-    readonly Count: int;
-    Contains(item: T): boolean;
-    GetEnumerator(): IEnumerator_1<T>;
-    GetEnumerator(): IEnumerator;
-    IsProperSubsetOf(other: IEnumerable_1<T>): boolean;
+    readonly count: int;
+    contains(item: T): boolean;
+    getEnumerator(): IEnumerator_1<T>;
+    getEnumerator(): IEnumerator;
+    isProperSubsetOf(other: IEnumerable_1<T>): boolean;
 }
 
 
 export type IReadOnlySet_1<T> = IReadOnlySet_1$instance<T>;
 
 export interface ISet_1$instance<T> extends ICollection_1<T>, IEnumerable_1<T>, IEnumerable {
-    readonly Count: int;
-    readonly IsReadOnly: boolean;
-    Add(item: T): void;
-    Add(item: T): boolean;
-    Clear(): void;
-    CopyTo(array: T[], arrayIndex: int): void;
-    GetEnumerator(): IEnumerator_1<T>;
-    GetEnumerator(): IEnumerator;
-    IsSubsetOf(other: IEnumerable_1<T>): boolean;
-    UnionWith(other: IEnumerable_1<T>): void;
+    readonly count: int;
+    readonly isReadOnly: boolean;
+    add(item: T): void;
+    add(item: T): boolean;
+    clear(): void;
+    copyTo(array: T[], arrayIndex: int): void;
+    getEnumerator(): IEnumerator_1<T>;
+    getEnumerator(): IEnumerator;
+    isSubsetOf(other: IEnumerable_1<T>): boolean;
+    unionWith(other: IEnumerable_1<T>): void;
 }
 
 
 export type ISet_1<T> = ISet_1$instance<T>;
 
 export class Dictionary_2_AlternateLookup_1$instance<TKey, TValue, TAlternateKey> {
-    readonly Dictionary: Dictionary_2<TKey, TValue>;
-    Item: TValue;
-    ContainsKey(key: TAlternateKey): boolean;
-    Remove(key: TAlternateKey): boolean;
-    Remove(key: TAlternateKey, actualKey: { value: ref<TKey> }, value: { value: ref<TValue> }): boolean;
-    TryAdd(key: TAlternateKey, value: TValue): boolean;
-    TryGetValue(key: TAlternateKey, value: { value: ref<TValue> }): boolean;
-    TryGetValue(key: TAlternateKey, actualKey: { value: ref<TKey> }, value: { value: ref<TValue> }): boolean;
+    readonly dictionary: Dictionary_2<TKey, TValue>;
+    item: TValue;
+    containsKey(key: TAlternateKey): boolean;
+    remove(key: TAlternateKey): boolean;
+    remove(key: TAlternateKey, actualKey: { value: ref<TKey> }, value: { value: ref<TValue> }): boolean;
+    tryAdd(key: TAlternateKey, value: TValue): boolean;
+    tryGetValue(key: TAlternateKey, value: { value: ref<TValue> }): boolean;
+    tryGetValue(key: TAlternateKey, actualKey: { value: ref<TKey> }, value: { value: ref<TValue> }): boolean;
 }
 
 
 export type Dictionary_2_AlternateLookup_1<TKey, TValue, TAlternateKey> = Dictionary_2_AlternateLookup_1$instance<TKey, TValue, TAlternateKey>;
 
 export class Dictionary_2_Enumerator$instance<TKey, TValue> implements IDisposable {
-    readonly Current: KeyValuePair_2<TKey, TValue>;
-    Dispose(): void;
-    MoveNext(): boolean;
+    readonly current: KeyValuePair_2<TKey, TValue>;
+    dispose(): void;
+    moveNext(): boolean;
 }
 
 
@@ -249,9 +249,9 @@ export type Dictionary_2_Enumerator<TKey, TValue> = Dictionary_2_Enumerator$inst
 
 
 export class Dictionary_2_KeyCollection_Enumerator$instance<TKey, TValue> implements IDisposable {
-    readonly Current: TKey;
-    Dispose(): void;
-    MoveNext(): boolean;
+    readonly current: TKey;
+    dispose(): void;
+    moveNext(): boolean;
 }
 
 
@@ -264,9 +264,9 @@ export type Dictionary_2_KeyCollection_Enumerator<TKey, TValue> = Dictionary_2_K
 
 
 export class Dictionary_2_ValueCollection_Enumerator$instance<TKey, TValue> implements IDisposable {
-    readonly Current: TValue;
-    Dispose(): void;
-    MoveNext(): boolean;
+    readonly current: TValue;
+    dispose(): void;
+    moveNext(): boolean;
 }
 
 
@@ -279,20 +279,20 @@ export type Dictionary_2_ValueCollection_Enumerator<TKey, TValue> = Dictionary_2
 
 
 export class HashSet_1_AlternateLookup_1$instance<T, TAlternate> {
-    readonly Set: HashSet_1<T>;
-    Add(item: TAlternate): boolean;
-    Contains(item: TAlternate): boolean;
-    Remove(item: TAlternate): boolean;
-    TryGetValue(equalValue: TAlternate, actualValue: { value: ref<T> }): boolean;
+    readonly set_: HashSet_1<T>;
+    add(item: TAlternate): boolean;
+    contains(item: TAlternate): boolean;
+    remove(item: TAlternate): boolean;
+    tryGetValue(equalValue: TAlternate, actualValue: { value: ref<T> }): boolean;
 }
 
 
 export type HashSet_1_AlternateLookup_1<T, TAlternate> = HashSet_1_AlternateLookup_1$instance<T, TAlternate>;
 
 export class HashSet_1_Enumerator$instance<T> implements IDisposable {
-    readonly Current: T;
-    Dispose(): void;
-    MoveNext(): boolean;
+    readonly current: T;
+    dispose(): void;
+    moveNext(): boolean;
 }
 
 
@@ -306,19 +306,19 @@ export type HashSet_1_Enumerator<T> = HashSet_1_Enumerator$instance<T> & __HashS
 
 export class KeyValuePair_2$instance<TKey, TValue> {
     constructor(key: TKey, value: TValue);
-    readonly Key: TKey;
-    readonly Value: TValue;
-    Deconstruct(key: { value: ref<TKey> }, value: { value: ref<TValue> }): void;
-    ToString(): string;
+    readonly key: TKey;
+    readonly value: TValue;
+    deconstruct(key: { value: ref<TKey> }, value: { value: ref<TValue> }): void;
+    toString(): string;
 }
 
 
 export type KeyValuePair_2<TKey, TValue> = KeyValuePair_2$instance<TKey, TValue>;
 
 export class LinkedList_1_Enumerator$instance<T> implements IDisposable {
-    readonly Current: T;
-    Dispose(): void;
-    MoveNext(): boolean;
+    readonly current: T;
+    dispose(): void;
+    moveNext(): boolean;
 }
 
 
@@ -335,9 +335,9 @@ export type LinkedList_1_Enumerator<T> = LinkedList_1_Enumerator$instance<T> & _
 
 
 export class List_1_Enumerator$instance<T> implements IDisposable {
-    readonly Current: T;
-    Dispose(): void;
-    MoveNext(): boolean;
+    readonly current: T;
+    dispose(): void;
+    moveNext(): boolean;
 }
 
 
@@ -350,8 +350,8 @@ export type List_1_Enumerator<T> = List_1_Enumerator$instance<T> & __List_1_Enum
 
 
 export class OrderedDictionary_2_Enumerator$instance<TKey, TValue> {
-    readonly Current: KeyValuePair_2<TKey, TValue>;
-    MoveNext(): boolean;
+    readonly current: KeyValuePair_2<TKey, TValue>;
+    moveNext(): boolean;
 }
 
 
@@ -365,8 +365,8 @@ export type OrderedDictionary_2_Enumerator<TKey, TValue> = OrderedDictionary_2_E
 
 
 export class OrderedDictionary_2_KeyCollection_Enumerator$instance<TKey, TValue> {
-    readonly Current: TKey;
-    MoveNext(): boolean;
+    readonly current: TKey;
+    moveNext(): boolean;
 }
 
 
@@ -379,8 +379,8 @@ export type OrderedDictionary_2_KeyCollection_Enumerator<TKey, TValue> = Ordered
 
 
 export class OrderedDictionary_2_ValueCollection_Enumerator$instance<TKey, TValue> {
-    readonly Current: TValue;
-    MoveNext(): boolean;
+    readonly current: TValue;
+    moveNext(): boolean;
 }
 
 
@@ -393,9 +393,9 @@ export type OrderedDictionary_2_ValueCollection_Enumerator<TKey, TValue> = Order
 
 
 export class PriorityQueue_2_UnorderedItemsCollection_Enumerator$instance<TElement, TPriority> implements IDisposable {
-    readonly Current: ValueTuple_2<TElement, TPriority>;
-    Dispose(): void;
-    MoveNext(): boolean;
+    readonly current: ValueTuple_2<TElement, TPriority>;
+    dispose(): void;
+    moveNext(): boolean;
 }
 
 
@@ -408,9 +408,9 @@ export type PriorityQueue_2_UnorderedItemsCollection_Enumerator<TElement, TPrior
 
 
 export class Queue_1_Enumerator$instance<T> implements IDisposable {
-    readonly Current: T;
-    Dispose(): void;
-    MoveNext(): boolean;
+    readonly current: T;
+    dispose(): void;
+    moveNext(): boolean;
 }
 
 
@@ -423,9 +423,9 @@ export type Queue_1_Enumerator<T> = Queue_1_Enumerator$instance<T> & __Queue_1_E
 
 
 export class SortedDictionary_2_Enumerator$instance<TKey, TValue> implements IDisposable {
-    readonly Current: KeyValuePair_2<TKey, TValue>;
-    Dispose(): void;
-    MoveNext(): boolean;
+    readonly current: KeyValuePair_2<TKey, TValue>;
+    dispose(): void;
+    moveNext(): boolean;
 }
 
 
@@ -439,9 +439,9 @@ export type SortedDictionary_2_Enumerator<TKey, TValue> = SortedDictionary_2_Enu
 
 
 export class SortedDictionary_2_KeyCollection_Enumerator$instance<TKey, TValue> implements IDisposable {
-    readonly Current: TKey;
-    Dispose(): void;
-    MoveNext(): boolean;
+    readonly current: TKey;
+    dispose(): void;
+    moveNext(): boolean;
 }
 
 
@@ -454,9 +454,9 @@ export type SortedDictionary_2_KeyCollection_Enumerator<TKey, TValue> = SortedDi
 
 
 export class SortedDictionary_2_ValueCollection_Enumerator$instance<TKey, TValue> implements IDisposable {
-    readonly Current: TValue;
-    Dispose(): void;
-    MoveNext(): boolean;
+    readonly current: TValue;
+    dispose(): void;
+    moveNext(): boolean;
 }
 
 
@@ -469,9 +469,9 @@ export type SortedDictionary_2_ValueCollection_Enumerator<TKey, TValue> = Sorted
 
 
 export class SortedSet_1_Enumerator$instance<T> implements IDisposable {
-    readonly Current: T;
-    Dispose(): void;
-    MoveNext(): boolean;
+    readonly current: T;
+    dispose(): void;
+    moveNext(): boolean;
 }
 
 
@@ -488,9 +488,9 @@ export type SortedSet_1_Enumerator<T> = SortedSet_1_Enumerator$instance<T> & __S
 
 
 export class Stack_1_Enumerator$instance<T> implements IDisposable {
-    readonly Current: T;
-    Dispose(): void;
-    MoveNext(): boolean;
+    readonly current: T;
+    dispose(): void;
+    moveNext(): boolean;
 }
 
 
@@ -504,8 +504,8 @@ export type Stack_1_Enumerator<T> = Stack_1_Enumerator$instance<T> & __Stack_1_E
 
 export class ByteEqualityComparer$instance extends EqualityComparer_1$instance<CLROf<byte>> {
     constructor();
-    Equals(x: unknown, y: unknown): boolean;
-    GetHashCode(obj: unknown): int;
+    equals(x: unknown, y: unknown): boolean;
+    getHashCode(obj: unknown): int;
 }
 
 
@@ -518,9 +518,9 @@ export type ByteEqualityComparer = ByteEqualityComparer$instance & __ByteEqualit
 
 
 export abstract class Comparer_1$instance<T> {
-    abstract Compare(x: T, y: T): int;
-    static readonly Default: unknown;
-    static Create<T>(comparison: Comparison_1<T>): Comparer_1<T>;
+    abstract compare(x: T, y: T): int;
+    static readonly default: unknown;
+    static create<T>(comparison: Comparison_1<T>): Comparer_1<T>;
 }
 
 
@@ -543,28 +543,28 @@ export class Dictionary_2$instance<TKey, TValue> {
     constructor(dictionary: IDictionary_2<TKey, TValue>, comparer: IEqualityComparer_1<TKey>);
     constructor(collection: IEnumerable_1<KeyValuePair_2<TKey, TValue>>);
     constructor(collection: IEnumerable_1<KeyValuePair_2<TKey, TValue>>, comparer: IEqualityComparer_1<TKey>);
-    readonly Capacity: int;
-    readonly Comparer: IEqualityComparer_1<TKey>;
-    readonly Count: int;
-    Item: TValue;
-    readonly Keys: Dictionary_2_KeyCollection<TKey, TValue>;
-    readonly Values: Dictionary_2_ValueCollection<TKey, TValue>;
-    Add(key: TKey, value: TValue): void;
-    Clear(): void;
-    ContainsKey(key: TKey): boolean;
-    ContainsValue(value: TValue): boolean;
-    EnsureCapacity(capacity: int): int;
-    GetAlternateLookup<TAlternateKey>(): Dictionary_2_AlternateLookup_1<TKey, TValue, TAlternateKey>;
-    GetEnumerator(): Dictionary_2_Enumerator<TKey, TValue>;
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
-    OnDeserialization(sender: unknown): void;
-    Remove(key: TKey): boolean;
-    Remove(key: TKey, value: { value: ref<TValue> }): boolean;
-    TrimExcess(): void;
-    TrimExcess(capacity: int): void;
-    TryAdd(key: TKey, value: TValue): boolean;
-    TryGetAlternateLookup<TAlternateKey>(lookup: { value: ref<Dictionary_2_AlternateLookup_1<TKey, TValue, TAlternateKey>> }): boolean;
-    TryGetValue(key: TKey, value: { value: ref<TValue> }): boolean;
+    readonly capacity: int;
+    readonly comparer: IEqualityComparer_1<TKey>;
+    readonly count: int;
+    item: TValue;
+    readonly keys: Dictionary_2_KeyCollection<TKey, TValue>;
+    readonly values: Dictionary_2_ValueCollection<TKey, TValue>;
+    add(key: TKey, value: TValue): void;
+    clear(): void;
+    containsKey(key: TKey): boolean;
+    containsValue(value: TValue): boolean;
+    ensureCapacity(capacity: int): int;
+    getAlternateLookup<TAlternateKey>(): Dictionary_2_AlternateLookup_1<TKey, TValue, TAlternateKey>;
+    getEnumerator(): Dictionary_2_Enumerator<TKey, TValue>;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
+    onDeserialization(sender: unknown): void;
+    remove(key: TKey): boolean;
+    remove(key: TKey, value: { value: ref<TValue> }): boolean;
+    trimExcess(): void;
+    trimExcess(capacity: int): void;
+    tryAdd(key: TKey, value: TValue): boolean;
+    tryGetAlternateLookup<TAlternateKey>(lookup: { value: ref<Dictionary_2_AlternateLookup_1<TKey, TValue, TAlternateKey>> }): boolean;
+    tryGetValue(key: TKey, value: { value: ref<TValue> }): boolean;
 }
 
 
@@ -588,10 +588,10 @@ export type Dictionary_2<TKey, TValue> = Dictionary_2$instance<TKey, TValue> & _
 
 export class Dictionary_2_KeyCollection$instance<TKey, TValue> {
     constructor(dictionary: Dictionary_2<TKey, TValue>);
-    readonly Count: int;
-    Contains(item: TKey): boolean;
-    CopyTo(array: TKey[], index: int): void;
-    GetEnumerator(): Dictionary_2_KeyCollection_Enumerator<TKey, TValue>;
+    readonly count: int;
+    contains(item: TKey): boolean;
+    copyTo(array: TKey[], index: int): void;
+    getEnumerator(): Dictionary_2_KeyCollection_Enumerator<TKey, TValue>;
 }
 
 
@@ -608,9 +608,9 @@ export type Dictionary_2_KeyCollection<TKey, TValue> = Dictionary_2_KeyCollectio
 
 export class Dictionary_2_ValueCollection$instance<TKey, TValue> {
     constructor(dictionary: Dictionary_2<TKey, TValue>);
-    readonly Count: int;
-    CopyTo(array: TValue[], index: int): void;
-    GetEnumerator(): Dictionary_2_ValueCollection_Enumerator<TKey, TValue>;
+    readonly count: int;
+    copyTo(array: TValue[], index: int): void;
+    getEnumerator(): Dictionary_2_ValueCollection_Enumerator<TKey, TValue>;
 }
 
 
@@ -627,9 +627,9 @@ export type Dictionary_2_ValueCollection<TKey, TValue> = Dictionary_2_ValueColle
 
 export class EnumEqualityComparer_1$instance<T extends number> extends EqualityComparer_1$instance<T> {
     constructor();
-    Equals(x: unknown, y: unknown): boolean;
-    GetHashCode(obj: unknown): int;
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    equals(x: unknown, y: unknown): boolean;
+    getHashCode(obj: unknown): int;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
@@ -645,10 +645,10 @@ export type EnumEqualityComparer_1<T extends number> = EnumEqualityComparer_1$in
 
 
 export abstract class EqualityComparer_1$instance<T> {
-    abstract Equals(x: T, y: T): boolean;
-    abstract GetHashCode(obj: T): int;
-    static readonly Default: unknown;
-    static Create<T>(equals: Func_3<T, T, CLROf<boolean>>, getHashCode?: Func_2<T, CLROf<int>>): EqualityComparer_1<T>;
+    abstract equals(x: T, y: T): boolean;
+    abstract getHashCode(obj: T): int;
+    static readonly default: unknown;
+    static create<T>(equals: Func_3<T, T, CLROf<boolean>>, getHashCode?: Func_2<T, CLROf<int>>): EqualityComparer_1<T>;
 }
 
 
@@ -662,9 +662,9 @@ export type EqualityComparer_1<T> = EqualityComparer_1$instance<T> & __EqualityC
 
 export class GenericComparer_1$instance<T extends IComparable_1<T>> extends Comparer_1$instance<T> {
     constructor();
-    Compare(x: unknown, y: unknown): int;
-    Equals(obj: unknown): boolean;
-    GetHashCode(): int;
+    compare(x: unknown, y: unknown): int;
+    equals(obj: unknown): boolean;
+    getHashCode(): int;
 }
 
 
@@ -678,8 +678,8 @@ export type GenericComparer_1<T extends IComparable_1<T>> = GenericComparer_1$in
 
 export class GenericEqualityComparer_1$instance<T extends IEquatable_1<T>> extends EqualityComparer_1$instance<T> {
     constructor();
-    Equals(x: unknown, y: unknown): boolean;
-    GetHashCode(obj: unknown): int;
+    equals(x: unknown, y: unknown): boolean;
+    getHashCode(obj: unknown): int;
 }
 
 
@@ -698,37 +698,37 @@ export class HashSet_1$instance<T> {
     constructor(collection: IEnumerable_1<T>);
     constructor(collection: IEnumerable_1<T>, comparer: IEqualityComparer_1<T>);
     constructor(capacity: int, comparer: IEqualityComparer_1<T>);
-    readonly Capacity: int;
-    readonly Comparer: IEqualityComparer_1<T>;
-    readonly Count: int;
-    Add(item: T): boolean;
-    Clear(): void;
-    Contains(item: T): boolean;
-    CopyTo(array: T[]): void;
-    CopyTo(array: T[], arrayIndex: int): void;
-    CopyTo(array: T[], arrayIndex: int, count: int): void;
-    EnsureCapacity(capacity: int): int;
-    ExceptWith(other: IEnumerable_1<T>): void;
-    GetAlternateLookup<TAlternate>(): HashSet_1_AlternateLookup_1<T, TAlternate>;
-    GetEnumerator(): HashSet_1_Enumerator<T>;
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
-    IntersectWith(other: IEnumerable_1<T>): void;
-    IsProperSubsetOf(other: IEnumerable_1<T>): boolean;
-    IsProperSupersetOf(other: IEnumerable_1<T>): boolean;
-    IsSubsetOf(other: IEnumerable_1<T>): boolean;
-    IsSupersetOf(other: IEnumerable_1<T>): boolean;
-    OnDeserialization(sender: unknown): void;
-    Overlaps(other: IEnumerable_1<T>): boolean;
-    Remove(item: T): boolean;
-    RemoveWhere(match: Predicate_1<T>): int;
-    SetEquals(other: IEnumerable_1<T>): boolean;
-    SymmetricExceptWith(other: IEnumerable_1<T>): void;
-    TrimExcess(): void;
-    TrimExcess(capacity: int): void;
-    TryGetAlternateLookup<TAlternate>(lookup: { value: ref<HashSet_1_AlternateLookup_1<T, TAlternate>> }): boolean;
-    TryGetValue(equalValue: T, actualValue: { value: ref<T> }): boolean;
-    UnionWith(other: IEnumerable_1<T>): void;
-    static CreateSetComparer<T>(): IEqualityComparer_1<HashSet_1<T>>;
+    readonly capacity: int;
+    readonly comparer: IEqualityComparer_1<T>;
+    readonly count: int;
+    add(item: T): boolean;
+    clear(): void;
+    contains(item: T): boolean;
+    copyTo(array: T[]): void;
+    copyTo(array: T[], arrayIndex: int): void;
+    copyTo(array: T[], arrayIndex: int, count: int): void;
+    ensureCapacity(capacity: int): int;
+    exceptWith(other: IEnumerable_1<T>): void;
+    getAlternateLookup<TAlternate>(): HashSet_1_AlternateLookup_1<T, TAlternate>;
+    getEnumerator(): HashSet_1_Enumerator<T>;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
+    intersectWith(other: IEnumerable_1<T>): void;
+    isProperSubsetOf(other: IEnumerable_1<T>): boolean;
+    isProperSupersetOf(other: IEnumerable_1<T>): boolean;
+    isSubsetOf(other: IEnumerable_1<T>): boolean;
+    isSupersetOf(other: IEnumerable_1<T>): boolean;
+    onDeserialization(sender: unknown): void;
+    overlaps(other: IEnumerable_1<T>): boolean;
+    remove(item: T): boolean;
+    removeWhere(match: Predicate_1<T>): int;
+    setEquals(other: IEnumerable_1<T>): boolean;
+    symmetricExceptWith(other: IEnumerable_1<T>): void;
+    trimExcess(): void;
+    trimExcess(capacity: int): void;
+    tryGetAlternateLookup<TAlternate>(lookup: { value: ref<HashSet_1_AlternateLookup_1<T, TAlternate>> }): boolean;
+    tryGetValue(equalValue: T, actualValue: { value: ref<T> }): boolean;
+    unionWith(other: IEnumerable_1<T>): void;
+    static createSetComparer<T>(): IEqualityComparer_1<HashSet_1<T>>;
 }
 
 
@@ -760,35 +760,37 @@ export interface __KeyNotFoundException$views {
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
+export interface KeyNotFoundException$instance extends System_Runtime_Serialization_Internal.ISerializable$instance {}
+
 export type KeyNotFoundException = KeyNotFoundException$instance & __KeyNotFoundException$views;
 
 
 export class LinkedList_1$instance<T> {
     constructor();
     constructor(collection: IEnumerable_1<T>);
-    readonly Count: int;
-    readonly First: LinkedListNode_1<T>;
-    readonly Last: LinkedListNode_1<T>;
-    AddAfter(node: LinkedListNode_1<T>, value: T): LinkedListNode_1<T>;
-    AddAfter(node: LinkedListNode_1<T>, newNode: LinkedListNode_1<T>): void;
-    AddBefore(node: LinkedListNode_1<T>, value: T): LinkedListNode_1<T>;
-    AddBefore(node: LinkedListNode_1<T>, newNode: LinkedListNode_1<T>): void;
-    AddFirst(value: T): LinkedListNode_1<T>;
-    AddFirst(node: LinkedListNode_1<T>): void;
-    AddLast(value: T): LinkedListNode_1<T>;
-    AddLast(node: LinkedListNode_1<T>): void;
-    Clear(): void;
-    Contains(value: T): boolean;
-    CopyTo(array: T[], index: int): void;
-    Find(value: T): LinkedListNode_1<T>;
-    FindLast(value: T): LinkedListNode_1<T>;
-    GetEnumerator(): LinkedList_1_Enumerator<T>;
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
-    OnDeserialization(sender: unknown): void;
-    Remove(value: T): boolean;
-    Remove(node: LinkedListNode_1<T>): void;
-    RemoveFirst(): void;
-    RemoveLast(): void;
+    readonly count: int;
+    readonly first: LinkedListNode_1<T>;
+    readonly last: LinkedListNode_1<T>;
+    addAfter(node: LinkedListNode_1<T>, value: T): LinkedListNode_1<T>;
+    addAfter(node: LinkedListNode_1<T>, newNode: LinkedListNode_1<T>): void;
+    addBefore(node: LinkedListNode_1<T>, value: T): LinkedListNode_1<T>;
+    addBefore(node: LinkedListNode_1<T>, newNode: LinkedListNode_1<T>): void;
+    addFirst(value: T): LinkedListNode_1<T>;
+    addFirst(node: LinkedListNode_1<T>): void;
+    addLast(value: T): LinkedListNode_1<T>;
+    addLast(node: LinkedListNode_1<T>): void;
+    clear(): void;
+    contains(value: T): boolean;
+    copyTo(array: T[], index: int): void;
+    find(value: T): LinkedListNode_1<T>;
+    findLast(value: T): LinkedListNode_1<T>;
+    getEnumerator(): LinkedList_1_Enumerator<T>;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
+    onDeserialization(sender: unknown): void;
+    remove(value: T): boolean;
+    remove(node: LinkedListNode_1<T>): void;
+    removeFirst(): void;
+    removeLast(): void;
 }
 
 
@@ -809,11 +811,11 @@ export type LinkedList_1<T> = LinkedList_1$instance<T> & __LinkedList_1$views<T>
 
 export class LinkedListNode_1$instance<T> {
     constructor(value: T);
-    readonly List: LinkedList_1<T>;
-    readonly Next: LinkedListNode_1<T>;
-    readonly Previous: LinkedListNode_1<T>;
-    Value: T;
-    readonly ValueRef: ref<T>;
+    readonly list: LinkedList_1<T>;
+    readonly next: LinkedListNode_1<T>;
+    readonly previous: LinkedListNode_1<T>;
+    value: T;
+    readonly valueRef: ref<T>;
 }
 
 
@@ -823,57 +825,57 @@ export class List_1$instance<T> {
     constructor();
     constructor(capacity: int);
     constructor(collection: IEnumerable_1<T>);
-    Capacity: int;
-    readonly Count: int;
-    Item: T;
-    Add(item: T): void;
-    AddRange(collection: IEnumerable_1<T>): void;
-    AsReadOnly(): ReadOnlyCollection_1<T>;
-    BinarySearch(index: int, count: int, item: T, comparer: IComparer_1<T>): int;
-    BinarySearch(item: T): int;
-    BinarySearch(item: T, comparer: IComparer_1<T>): int;
-    Clear(): void;
-    Contains(item: T): boolean;
-    ConvertAll<TOutput>(converter: Converter_2<T, TOutput>): List_1<TOutput>;
-    CopyTo(array: T[]): void;
-    CopyTo(index: int, array: T[], arrayIndex: int, count: int): void;
-    CopyTo(array: T[], arrayIndex: int): void;
-    EnsureCapacity(capacity: int): int;
-    Exists(match: Predicate_1<T>): boolean;
-    Find(match: Predicate_1<T>): T;
-    FindAll(match: Predicate_1<T>): List_1<T>;
-    FindIndex(match: Predicate_1<T>): int;
-    FindIndex(startIndex: int, match: Predicate_1<T>): int;
-    FindIndex(startIndex: int, count: int, match: Predicate_1<T>): int;
-    FindLast(match: Predicate_1<T>): T;
-    FindLastIndex(match: Predicate_1<T>): int;
-    FindLastIndex(startIndex: int, match: Predicate_1<T>): int;
-    FindLastIndex(startIndex: int, count: int, match: Predicate_1<T>): int;
-    ForEach(action: Action_1<T>): void;
-    GetEnumerator(): List_1_Enumerator<T>;
-    GetRange(index: int, count: int): List_1<T>;
-    IndexOf(item: T): int;
-    IndexOf(item: T, index: int): int;
-    IndexOf(item: T, index: int, count: int): int;
-    Insert(index: int, item: T): void;
-    InsertRange(index: int, collection: IEnumerable_1<T>): void;
-    LastIndexOf(item: T): int;
-    LastIndexOf(item: T, index: int): int;
-    LastIndexOf(item: T, index: int, count: int): int;
-    Remove(item: T): boolean;
-    RemoveAll(match: Predicate_1<T>): int;
-    RemoveAt(index: int): void;
-    RemoveRange(index: int, count: int): void;
-    Reverse(): void;
-    Reverse(index: int, count: int): void;
-    Slice(start: int, length: int): List_1<T>;
-    Sort(): void;
-    Sort(comparer: IComparer_1<T>): void;
-    Sort(index: int, count: int, comparer: IComparer_1<T>): void;
-    Sort(comparison: Comparison_1<T>): void;
-    ToArray(): T[];
-    TrimExcess(): void;
-    TrueForAll(match: Predicate_1<T>): boolean;
+    capacity: int;
+    readonly count: int;
+    item: T;
+    add(item: T): void;
+    addRange(collection: IEnumerable_1<T>): void;
+    asReadOnly(): ReadOnlyCollection_1<T>;
+    binarySearch(index: int, count: int, item: T, comparer: IComparer_1<T>): int;
+    binarySearch(item: T): int;
+    binarySearch(item: T, comparer: IComparer_1<T>): int;
+    clear(): void;
+    contains(item: T): boolean;
+    convertAll<TOutput>(converter: Converter_2<T, TOutput>): List_1<TOutput>;
+    copyTo(array: T[]): void;
+    copyTo(index: int, array: T[], arrayIndex: int, count: int): void;
+    copyTo(array: T[], arrayIndex: int): void;
+    ensureCapacity(capacity: int): int;
+    exists(match: Predicate_1<T>): boolean;
+    find(match: Predicate_1<T>): T;
+    findAll(match: Predicate_1<T>): List_1<T>;
+    findIndex(match: Predicate_1<T>): int;
+    findIndex(startIndex: int, match: Predicate_1<T>): int;
+    findIndex(startIndex: int, count: int, match: Predicate_1<T>): int;
+    findLast(match: Predicate_1<T>): T;
+    findLastIndex(match: Predicate_1<T>): int;
+    findLastIndex(startIndex: int, match: Predicate_1<T>): int;
+    findLastIndex(startIndex: int, count: int, match: Predicate_1<T>): int;
+    forEach(action: Action_1<T>): void;
+    getEnumerator(): List_1_Enumerator<T>;
+    getRange(index: int, count: int): List_1<T>;
+    indexOf(item: T): int;
+    indexOf(item: T, index: int): int;
+    indexOf(item: T, index: int, count: int): int;
+    insert(index: int, item: T): void;
+    insertRange(index: int, collection: IEnumerable_1<T>): void;
+    lastIndexOf(item: T): int;
+    lastIndexOf(item: T, index: int): int;
+    lastIndexOf(item: T, index: int, count: int): int;
+    remove(item: T): boolean;
+    removeAll(match: Predicate_1<T>): int;
+    removeAt(index: int): void;
+    removeRange(index: int, count: int): void;
+    reverse(): void;
+    reverse(index: int, count: int): void;
+    slice(start: int, length: int): List_1<T>;
+    sort(): void;
+    sort(comparer: IComparer_1<T>): void;
+    sort(index: int, count: int, comparer: IComparer_1<T>): void;
+    sort(comparison: Comparison_1<T>): void;
+    toArray(): T[];
+    trimExcess(): void;
+    trueForAll(match: Predicate_1<T>): boolean;
 }
 
 
@@ -891,10 +893,10 @@ export type List_1<T> = List_1$instance<T> & __List_1$views<T>;
 
 
 export class NonRandomizedStringEqualityComparer$instance {
-    Equals(x: string, y: string): boolean;
-    GetHashCode(obj: string): int;
-    GetUnderlyingEqualityComparer(): IEqualityComparer_1<CLROf<string>>;
-    static GetStringComparer(comparer: unknown): IEqualityComparer_1<CLROf<string>>;
+    equals(x: string, y: string): boolean;
+    getHashCode(obj: string): int;
+    getUnderlyingEqualityComparer(): IEqualityComparer_1<CLROf<string>>;
+    static getStringComparer(comparer: unknown): IEqualityComparer_1<CLROf<string>>;
 }
 
 
@@ -910,10 +912,10 @@ export type NonRandomizedStringEqualityComparer = NonRandomizedStringEqualityCom
 
 export class NullableComparer_1$instance<T extends unknown> extends Comparer_1$instance<Nullable_1<T>> {
     constructor();
-    Compare(x: unknown, y: unknown): int;
-    Equals(obj: unknown): boolean;
-    GetHashCode(): int;
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    compare(x: unknown, y: unknown): int;
+    equals(obj: unknown): boolean;
+    getHashCode(): int;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
@@ -930,9 +932,9 @@ export type NullableComparer_1<T> = NullableComparer_1$instance<T> & __NullableC
 
 export class NullableEqualityComparer_1$instance<T extends unknown> extends EqualityComparer_1$instance<Nullable_1<T>> {
     constructor();
-    Equals(x: unknown, y: unknown): boolean;
-    GetHashCode(obj: unknown): int;
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    equals(x: unknown, y: unknown): boolean;
+    getHashCode(obj: unknown): int;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
@@ -949,9 +951,9 @@ export type NullableEqualityComparer_1<T> = NullableEqualityComparer_1$instance<
 
 export class ObjectComparer_1$instance<T> extends Comparer_1$instance<T> {
     constructor();
-    Compare(x: unknown, y: unknown): int;
-    Equals(obj: unknown): boolean;
-    GetHashCode(): int;
+    compare(x: unknown, y: unknown): int;
+    equals(obj: unknown): boolean;
+    getHashCode(): int;
 }
 
 
@@ -965,8 +967,8 @@ export type ObjectComparer_1<T> = ObjectComparer_1$instance<T> & __ObjectCompare
 
 export class ObjectEqualityComparer_1$instance<T> extends EqualityComparer_1$instance<T> {
     constructor();
-    Equals(x: unknown, y: unknown): boolean;
-    GetHashCode(obj: unknown): int;
+    equals(x: unknown, y: unknown): boolean;
+    getHashCode(obj: unknown): int;
 }
 
 
@@ -987,32 +989,32 @@ export class OrderedDictionary_2$instance<TKey, TValue> {
     constructor(dictionary: IDictionary_2<TKey, TValue>, comparer: IEqualityComparer_1<TKey>);
     constructor(collection: IEnumerable_1<KeyValuePair_2<TKey, TValue>>);
     constructor(collection: IEnumerable_1<KeyValuePair_2<TKey, TValue>>, comparer: IEqualityComparer_1<TKey>);
-    readonly Capacity: int;
-    readonly Comparer: IEqualityComparer_1<TKey>;
-    readonly Count: int;
-    Item: TValue;
-    readonly Keys: OrderedDictionary_2_KeyCollection<TKey, TValue>;
-    readonly Values: OrderedDictionary_2_ValueCollection<TKey, TValue>;
-    Add(key: TKey, value: TValue): void;
-    Clear(): void;
-    ContainsKey(key: TKey): boolean;
-    ContainsValue(value: TValue): boolean;
-    EnsureCapacity(capacity: int): int;
-    GetAt(index: int): KeyValuePair_2<TKey, TValue>;
-    GetEnumerator(): OrderedDictionary_2_Enumerator<TKey, TValue>;
-    IndexOf(key: TKey): int;
-    Insert(index: int, key: TKey, value: TValue): void;
-    Remove(key: TKey): boolean;
-    Remove(key: TKey, value: { value: ref<TValue> }): boolean;
-    RemoveAt(index: int): void;
-    SetAt(index: int, value: TValue): void;
-    SetAt(index: int, key: TKey, value: TValue): void;
-    TrimExcess(): void;
-    TrimExcess(capacity: int): void;
-    TryAdd(key: TKey, value: TValue): boolean;
-    TryAdd(key: TKey, value: TValue, index: { value: ref<int> }): boolean;
-    TryGetValue(key: TKey, value: { value: ref<TValue> }): boolean;
-    TryGetValue(key: TKey, value: { value: ref<TValue> }, index: { value: ref<int> }): boolean;
+    readonly capacity: int;
+    readonly comparer: IEqualityComparer_1<TKey>;
+    readonly count: int;
+    item: TValue;
+    readonly keys: OrderedDictionary_2_KeyCollection<TKey, TValue>;
+    readonly values: OrderedDictionary_2_ValueCollection<TKey, TValue>;
+    add(key: TKey, value: TValue): void;
+    clear(): void;
+    containsKey(key: TKey): boolean;
+    containsValue(value: TValue): boolean;
+    ensureCapacity(capacity: int): int;
+    getAt(index: int): KeyValuePair_2<TKey, TValue>;
+    getEnumerator(): OrderedDictionary_2_Enumerator<TKey, TValue>;
+    indexOf(key: TKey): int;
+    insert(index: int, key: TKey, value: TValue): void;
+    remove(key: TKey): boolean;
+    remove(key: TKey, value: { value: ref<TValue> }): boolean;
+    removeAt(index: int): void;
+    setAt(index: int, value: TValue): void;
+    setAt(index: int, key: TKey, value: TValue): void;
+    trimExcess(): void;
+    trimExcess(capacity: int): void;
+    tryAdd(key: TKey, value: TValue): boolean;
+    tryAdd(key: TKey, value: TValue, index: { value: ref<int> }): boolean;
+    tryGetValue(key: TKey, value: { value: ref<TValue> }): boolean;
+    tryGetValue(key: TKey, value: { value: ref<TValue> }, index: { value: ref<int> }): boolean;
 }
 
 
@@ -1033,10 +1035,10 @@ export type OrderedDictionary_2<TKey, TValue> = OrderedDictionary_2$instance<TKe
 
 
 export class OrderedDictionary_2_KeyCollection$instance<TKey, TValue> {
-    readonly Count: int;
-    Contains(key: TKey): boolean;
-    CopyTo(array: TKey[], arrayIndex: int): void;
-    GetEnumerator(): OrderedDictionary_2_KeyCollection_Enumerator<TKey, TValue>;
+    readonly count: int;
+    contains(key: TKey): boolean;
+    copyTo(array: TKey[], arrayIndex: int): void;
+    getEnumerator(): OrderedDictionary_2_KeyCollection_Enumerator<TKey, TValue>;
 }
 
 
@@ -1054,9 +1056,9 @@ export type OrderedDictionary_2_KeyCollection<TKey, TValue> = OrderedDictionary_
 
 
 export class OrderedDictionary_2_ValueCollection$instance<TKey, TValue> {
-    readonly Count: int;
-    CopyTo(array: TValue[], arrayIndex: int): void;
-    GetEnumerator(): OrderedDictionary_2_ValueCollection_Enumerator<TKey, TValue>;
+    readonly count: int;
+    copyTo(array: TValue[], arrayIndex: int): void;
+    getEnumerator(): OrderedDictionary_2_ValueCollection_Enumerator<TKey, TValue>;
 }
 
 
@@ -1080,31 +1082,31 @@ export class PriorityQueue_2$instance<TElement, TPriority> {
     constructor(initialCapacity: int, comparer: IComparer_1<TPriority>);
     constructor(items: IEnumerable_1<ValueTuple_2<TElement, TPriority>>);
     constructor(items: IEnumerable_1<ValueTuple_2<TElement, TPriority>>, comparer: IComparer_1<TPriority>);
-    readonly Capacity: int;
-    readonly Comparer: IComparer_1<TPriority>;
-    readonly Count: int;
-    readonly UnorderedItems: PriorityQueue_2_UnorderedItemsCollection<TElement, TPriority>;
-    Clear(): void;
-    Dequeue(): TElement;
-    DequeueEnqueue(element: TElement, priority: TPriority): TElement;
-    Enqueue(element: TElement, priority: TPriority): void;
-    EnqueueDequeue(element: TElement, priority: TPriority): TElement;
-    EnqueueRange(items: IEnumerable_1<ValueTuple_2<TElement, TPriority>>): void;
-    EnqueueRange(elements: IEnumerable_1<TElement>, priority: TPriority): void;
-    EnsureCapacity(capacity: int): int;
-    Peek(): TElement;
-    Remove(element: TElement, removedElement: { value: ref<TElement> }, priority: { value: ref<TPriority> }, equalityComparer?: IEqualityComparer_1<TElement>): boolean;
-    TrimExcess(): void;
-    TryDequeue(element: { value: ref<TElement> }, priority: { value: ref<TPriority> }): boolean;
-    TryPeek(element: { value: ref<TElement> }, priority: { value: ref<TPriority> }): boolean;
+    readonly capacity: int;
+    readonly comparer: IComparer_1<TPriority>;
+    readonly count: int;
+    readonly unorderedItems: PriorityQueue_2_UnorderedItemsCollection<TElement, TPriority>;
+    clear(): void;
+    dequeue(): TElement;
+    dequeueEnqueue(element: TElement, priority: TPriority): TElement;
+    enqueue(element: TElement, priority: TPriority): void;
+    enqueueDequeue(element: TElement, priority: TPriority): TElement;
+    enqueueRange(items: IEnumerable_1<ValueTuple_2<TElement, TPriority>>): void;
+    enqueueRange(elements: IEnumerable_1<TElement>, priority: TPriority): void;
+    ensureCapacity(capacity: int): int;
+    peek(): TElement;
+    remove(element: TElement, removedElement: { value: ref<TElement> }, priority: { value: ref<TPriority> }, equalityComparer?: IEqualityComparer_1<TElement>): boolean;
+    trimExcess(): void;
+    tryDequeue(element: { value: ref<TElement> }, priority: { value: ref<TPriority> }): boolean;
+    tryPeek(element: { value: ref<TElement> }, priority: { value: ref<TPriority> }): boolean;
 }
 
 
 export type PriorityQueue_2<TElement, TPriority> = PriorityQueue_2$instance<TElement, TPriority>;
 
 export class PriorityQueue_2_UnorderedItemsCollection$instance<TElement, TPriority> {
-    readonly Count: int;
-    GetEnumerator(): PriorityQueue_2_UnorderedItemsCollection_Enumerator<TElement, TPriority>;
+    readonly count: int;
+    getEnumerator(): PriorityQueue_2_UnorderedItemsCollection_Enumerator<TElement, TPriority>;
 }
 
 
@@ -1122,21 +1124,21 @@ export class Queue_1$instance<T> {
     constructor();
     constructor(capacity: int);
     constructor(collection: IEnumerable_1<T>);
-    readonly Capacity: int;
-    readonly Count: int;
-    Clear(): void;
-    Contains(item: T): boolean;
-    CopyTo(array: T[], arrayIndex: int): void;
-    Dequeue(): T;
-    Enqueue(item: T): void;
-    EnsureCapacity(capacity: int): int;
-    GetEnumerator(): Queue_1_Enumerator<T>;
-    Peek(): T;
-    ToArray(): T[];
-    TrimExcess(): void;
-    TrimExcess(capacity: int): void;
-    TryDequeue(result: { value: ref<T> }): boolean;
-    TryPeek(result: { value: ref<T> }): boolean;
+    readonly capacity: int;
+    readonly count: int;
+    clear(): void;
+    contains(item: T): boolean;
+    copyTo(array: T[], arrayIndex: int): void;
+    dequeue(): T;
+    enqueue(item: T): void;
+    ensureCapacity(capacity: int): int;
+    getEnumerator(): Queue_1_Enumerator<T>;
+    peek(): T;
+    toArray(): T[];
+    trimExcess(): void;
+    trimExcess(capacity: int): void;
+    tryDequeue(result: { value: ref<T> }): boolean;
+    tryPeek(result: { value: ref<T> }): boolean;
 }
 
 
@@ -1151,9 +1153,9 @@ export type Queue_1<T> = Queue_1$instance<T> & __Queue_1$views<T>;
 
 
 export class ReferenceEqualityComparer$instance {
-    Equals(x: unknown, y: unknown): boolean;
-    GetHashCode(obj: unknown): int;
-    static readonly Instance: ReferenceEqualityComparer;
+    equals(x: unknown, y: unknown): boolean;
+    getHashCode(obj: unknown): int;
+    static readonly instance: ReferenceEqualityComparer;
 }
 
 
@@ -1170,19 +1172,19 @@ export class SortedDictionary_2$instance<TKey, TValue> {
     constructor(dictionary: IDictionary_2<TKey, TValue>);
     constructor(dictionary: IDictionary_2<TKey, TValue>, comparer: IComparer_1<TKey>);
     constructor(comparer: IComparer_1<TKey>);
-    readonly Comparer: IComparer_1<TKey>;
-    readonly Count: int;
-    Item: TValue;
-    readonly Keys: SortedDictionary_2_KeyCollection<TKey, TValue>;
-    readonly Values: SortedDictionary_2_ValueCollection<TKey, TValue>;
-    Add(key: TKey, value: TValue): void;
-    Clear(): void;
-    ContainsKey(key: TKey): boolean;
-    ContainsValue(value: TValue): boolean;
-    CopyTo(array: KeyValuePair_2<TKey, TValue>[], index: int): void;
-    GetEnumerator(): SortedDictionary_2_Enumerator<TKey, TValue>;
-    Remove(key: TKey): boolean;
-    TryGetValue(key: TKey, value: { value: ref<TValue> }): boolean;
+    readonly comparer: IComparer_1<TKey>;
+    readonly count: int;
+    item: TValue;
+    readonly keys: SortedDictionary_2_KeyCollection<TKey, TValue>;
+    readonly values: SortedDictionary_2_ValueCollection<TKey, TValue>;
+    add(key: TKey, value: TValue): void;
+    clear(): void;
+    containsKey(key: TKey): boolean;
+    containsValue(value: TValue): boolean;
+    copyTo(array: KeyValuePair_2<TKey, TValue>[], index: int): void;
+    getEnumerator(): SortedDictionary_2_Enumerator<TKey, TValue>;
+    remove(key: TKey): boolean;
+    tryGetValue(key: TKey, value: { value: ref<TValue> }): boolean;
 }
 
 
@@ -1202,10 +1204,10 @@ export type SortedDictionary_2<TKey, TValue> = SortedDictionary_2$instance<TKey,
 
 export class SortedDictionary_2_KeyCollection$instance<TKey, TValue> {
     constructor(dictionary: SortedDictionary_2<TKey, TValue>);
-    readonly Count: int;
-    Contains(item: TKey): boolean;
-    CopyTo(array: TKey[], index: int): void;
-    GetEnumerator(): SortedDictionary_2_KeyCollection_Enumerator<TKey, TValue>;
+    readonly count: int;
+    contains(item: TKey): boolean;
+    copyTo(array: TKey[], index: int): void;
+    getEnumerator(): SortedDictionary_2_KeyCollection_Enumerator<TKey, TValue>;
 }
 
 
@@ -1222,9 +1224,9 @@ export type SortedDictionary_2_KeyCollection<TKey, TValue> = SortedDictionary_2_
 
 export class SortedDictionary_2_KeyValuePairComparer$instance<TKey, TValue> extends Comparer_1$instance<KeyValuePair_2<TKey, TValue>> {
     constructor(keyComparer: IComparer_1<TKey>);
-    Compare(x: unknown, y: unknown): int;
-    Equals(obj: unknown): boolean;
-    GetHashCode(): int;
+    compare(x: unknown, y: unknown): int;
+    equals(obj: unknown): boolean;
+    getHashCode(): int;
 }
 
 
@@ -1238,9 +1240,9 @@ export type SortedDictionary_2_KeyValuePairComparer<TKey, TValue> = SortedDictio
 
 export class SortedDictionary_2_ValueCollection$instance<TKey, TValue> {
     constructor(dictionary: SortedDictionary_2<TKey, TValue>);
-    readonly Count: int;
-    CopyTo(array: TValue[], index: int): void;
-    GetEnumerator(): SortedDictionary_2_ValueCollection_Enumerator<TKey, TValue>;
+    readonly count: int;
+    copyTo(array: TValue[], index: int): void;
+    getEnumerator(): SortedDictionary_2_ValueCollection_Enumerator<TKey, TValue>;
 }
 
 
@@ -1262,26 +1264,26 @@ export class SortedList_2$instance<TKey, TValue> {
     constructor(capacity: int, comparer: IComparer_1<TKey>);
     constructor(dictionary: IDictionary_2<TKey, TValue>);
     constructor(dictionary: IDictionary_2<TKey, TValue>, comparer: IComparer_1<TKey>);
-    Capacity: int;
-    readonly Comparer: IComparer_1<TKey>;
-    readonly Count: int;
-    Item: TValue;
-    readonly Keys: IList_1<TKey>;
-    readonly Values: IList_1<TValue>;
-    Add(key: TKey, value: TValue): void;
-    Clear(): void;
-    ContainsKey(key: TKey): boolean;
-    ContainsValue(value: TValue): boolean;
-    GetEnumerator(): IEnumerator_1<KeyValuePair_2<TKey, TValue>>;
-    GetKeyAtIndex(index: int): TKey;
-    GetValueAtIndex(index: int): TValue;
-    IndexOfKey(key: TKey): int;
-    IndexOfValue(value: TValue): int;
-    Remove(key: TKey): boolean;
-    RemoveAt(index: int): void;
-    SetValueAtIndex(index: int, value: TValue): void;
-    TrimExcess(): void;
-    TryGetValue(key: TKey, value: { value: ref<TValue> }): boolean;
+    capacity: int;
+    readonly comparer: IComparer_1<TKey>;
+    readonly count: int;
+    item: TValue;
+    readonly keys: IList_1<TKey>;
+    readonly values: IList_1<TValue>;
+    add(key: TKey, value: TValue): void;
+    clear(): void;
+    containsKey(key: TKey): boolean;
+    containsValue(value: TValue): boolean;
+    getEnumerator(): IEnumerator_1<KeyValuePair_2<TKey, TValue>>;
+    getKeyAtIndex(index: int): TKey;
+    getValueAtIndex(index: int): TValue;
+    indexOfKey(key: TKey): int;
+    indexOfValue(value: TValue): int;
+    remove(key: TKey): boolean;
+    removeAt(index: int): void;
+    setValueAtIndex(index: int, value: TValue): void;
+    trimExcess(): void;
+    tryGetValue(key: TKey, value: { value: ref<TValue> }): boolean;
 }
 
 
@@ -1300,18 +1302,18 @@ export type SortedList_2<TKey, TValue> = SortedList_2$instance<TKey, TValue> & _
 
 
 export class SortedList_2_KeyList$instance<TKey, TValue> {
-    readonly Count: int;
-    readonly IsReadOnly: boolean;
-    Item: TKey;
-    Add(key: TKey): void;
-    Clear(): void;
-    Contains(key: TKey): boolean;
-    CopyTo(array: TKey[], arrayIndex: int): void;
-    GetEnumerator(): IEnumerator_1<TKey>;
-    IndexOf(key: TKey): int;
-    Insert(index: int, value: TKey): void;
-    Remove(key: TKey): boolean;
-    RemoveAt(index: int): void;
+    readonly count: int;
+    readonly isReadOnly: boolean;
+    item: TKey;
+    add(key: TKey): void;
+    clear(): void;
+    contains(key: TKey): boolean;
+    copyTo(array: TKey[], arrayIndex: int): void;
+    getEnumerator(): IEnumerator_1<TKey>;
+    indexOf(key: TKey): int;
+    insert(index: int, value: TKey): void;
+    remove(key: TKey): boolean;
+    removeAt(index: int): void;
 }
 
 
@@ -1327,18 +1329,18 @@ export type SortedList_2_KeyList<TKey, TValue> = SortedList_2_KeyList$instance<T
 
 
 export class SortedList_2_ValueList$instance<TKey, TValue> {
-    readonly Count: int;
-    readonly IsReadOnly: boolean;
-    Item: TValue;
-    Add(key: TValue): void;
-    Clear(): void;
-    Contains(value: TValue): boolean;
-    CopyTo(array: TValue[], arrayIndex: int): void;
-    GetEnumerator(): IEnumerator_1<TValue>;
-    IndexOf(value: TValue): int;
-    Insert(index: int, value: TValue): void;
-    Remove(value: TValue): boolean;
-    RemoveAt(index: int): void;
+    readonly count: int;
+    readonly isReadOnly: boolean;
+    item: TValue;
+    add(key: TValue): void;
+    clear(): void;
+    contains(value: TValue): boolean;
+    copyTo(array: TValue[], arrayIndex: int): void;
+    getEnumerator(): IEnumerator_1<TValue>;
+    indexOf(value: TValue): int;
+    insert(index: int, value: TValue): void;
+    remove(value: TValue): boolean;
+    removeAt(index: int): void;
 }
 
 
@@ -1358,34 +1360,34 @@ export class SortedSet_1$instance<T> {
     constructor(comparer: IComparer_1<T>);
     constructor(collection: IEnumerable_1<T>);
     constructor(collection: IEnumerable_1<T>, comparer: IComparer_1<T>);
-    readonly Comparer: IComparer_1<T>;
-    readonly Count: int;
-    readonly Max: T;
-    readonly Min: T;
-    Add(item: T): boolean;
-    Clear(): void;
-    Contains(item: T): boolean;
-    CopyTo(array: T[]): void;
-    CopyTo(array: T[], index: int): void;
-    CopyTo(array: T[], index: int, count: int): void;
-    ExceptWith(other: IEnumerable_1<T>): void;
-    GetEnumerator(): SortedSet_1_Enumerator<T>;
-    GetViewBetween(lowerValue: T, upperValue: T): SortedSet_1<T>;
-    IntersectWith(other: IEnumerable_1<T>): void;
-    IsProperSubsetOf(other: IEnumerable_1<T>): boolean;
-    IsProperSupersetOf(other: IEnumerable_1<T>): boolean;
-    IsSubsetOf(other: IEnumerable_1<T>): boolean;
-    IsSupersetOf(other: IEnumerable_1<T>): boolean;
-    Overlaps(other: IEnumerable_1<T>): boolean;
-    Remove(item: T): boolean;
-    RemoveWhere(match: Predicate_1<T>): int;
-    Reverse(): IEnumerable_1<T>;
-    SetEquals(other: IEnumerable_1<T>): boolean;
-    SymmetricExceptWith(other: IEnumerable_1<T>): void;
-    TryGetValue(equalValue: T, actualValue: { value: ref<T> }): boolean;
-    UnionWith(other: IEnumerable_1<T>): void;
-    static CreateSetComparer<T>(): IEqualityComparer_1<SortedSet_1<T>>;
-    static CreateSetComparer<T>(memberEqualityComparer: IEqualityComparer_1<T>): IEqualityComparer_1<SortedSet_1<T>>;
+    readonly comparer: IComparer_1<T>;
+    readonly count: int;
+    readonly max: T;
+    readonly min: T;
+    add(item: T): boolean;
+    clear(): void;
+    contains(item: T): boolean;
+    copyTo(array: T[]): void;
+    copyTo(array: T[], index: int): void;
+    copyTo(array: T[], index: int, count: int): void;
+    exceptWith(other: IEnumerable_1<T>): void;
+    getEnumerator(): SortedSet_1_Enumerator<T>;
+    getViewBetween(lowerValue: T, upperValue: T): SortedSet_1<T>;
+    intersectWith(other: IEnumerable_1<T>): void;
+    isProperSubsetOf(other: IEnumerable_1<T>): boolean;
+    isProperSupersetOf(other: IEnumerable_1<T>): boolean;
+    isSubsetOf(other: IEnumerable_1<T>): boolean;
+    isSupersetOf(other: IEnumerable_1<T>): boolean;
+    overlaps(other: IEnumerable_1<T>): boolean;
+    remove(item: T): boolean;
+    removeWhere(match: Predicate_1<T>): int;
+    reverse(): IEnumerable_1<T>;
+    setEquals(other: IEnumerable_1<T>): boolean;
+    symmetricExceptWith(other: IEnumerable_1<T>): void;
+    tryGetValue(equalValue: T, actualValue: { value: ref<T> }): boolean;
+    unionWith(other: IEnumerable_1<T>): void;
+    static createSetComparer<T>(): IEqualityComparer_1<SortedSet_1<T>>;
+    static createSetComparer<T>(memberEqualityComparer: IEqualityComparer_1<T>): IEqualityComparer_1<SortedSet_1<T>>;
 }
 
 
@@ -1410,21 +1412,21 @@ export class Stack_1$instance<T> {
     constructor();
     constructor(capacity: int);
     constructor(collection: IEnumerable_1<T>);
-    readonly Capacity: int;
-    readonly Count: int;
-    Clear(): void;
-    Contains(item: T): boolean;
-    CopyTo(array: T[], arrayIndex: int): void;
-    EnsureCapacity(capacity: int): int;
-    GetEnumerator(): Stack_1_Enumerator<T>;
-    Peek(): T;
-    Pop(): T;
-    Push(item: T): void;
-    ToArray(): T[];
-    TrimExcess(): void;
-    TrimExcess(capacity: int): void;
-    TryPeek(result: { value: ref<T> }): boolean;
-    TryPop(result: { value: ref<T> }): boolean;
+    readonly capacity: int;
+    readonly count: int;
+    clear(): void;
+    contains(item: T): boolean;
+    copyTo(array: T[], arrayIndex: int): void;
+    ensureCapacity(capacity: int): int;
+    getEnumerator(): Stack_1_Enumerator<T>;
+    peek(): T;
+    pop(): T;
+    push(item: T): void;
+    toArray(): T[];
+    trimExcess(): void;
+    trimExcess(capacity: int): void;
+    tryPeek(result: { value: ref<T> }): boolean;
+    tryPop(result: { value: ref<T> }): boolean;
 }
 
 
@@ -1478,23 +1480,23 @@ export type TreeSet_1<T> = TreeSet_1$instance<T> & __TreeSet_1$views<T>;
 
 
 export abstract class CollectionExtensions$instance {
-    static AddRange<T>(list: List_1<T>, source: ReadOnlySpan_1<T>): void;
-    static AsReadOnly<TKey, TValue>(dictionary: IDictionary_2<TKey, TValue>): ReadOnlyDictionary_2<TKey, TValue>;
-    static AsReadOnly<T>(list: IList_1<T>): ReadOnlyCollection_1<T>;
-    static AsReadOnly<T>(set_: ISet_1<T>): ReadOnlySet_1<T>;
-    static CopyTo<T>(list: List_1<T>, destination: Span_1<T>): void;
-    static GetValueOrDefault<TKey, TValue>(dictionary: IReadOnlyDictionary_2<TKey, TValue>, key: TKey, defaultValue: TValue): TValue;
-    static GetValueOrDefault<TKey, TValue>(dictionary: IReadOnlyDictionary_2<TKey, TValue>, key: TKey): TValue;
-    static InsertRange<T>(list: List_1<T>, index: int, source: ReadOnlySpan_1<T>): void;
-    static Remove<TKey, TValue>(dictionary: IDictionary_2<TKey, TValue>, key: TKey, value: { value: ref<TValue> }): boolean;
-    static TryAdd<TKey, TValue>(dictionary: IDictionary_2<TKey, TValue>, key: TKey, value: TValue): boolean;
+    static addRange<T>(list: List_1<T>, source: ReadOnlySpan_1<T>): void;
+    static asReadOnly<TKey, TValue>(dictionary: IDictionary_2<TKey, TValue>): ReadOnlyDictionary_2<TKey, TValue>;
+    static asReadOnly<T>(list: IList_1<T>): ReadOnlyCollection_1<T>;
+    static asReadOnly<T>(set_: ISet_1<T>): ReadOnlySet_1<T>;
+    static copyTo<T>(list: List_1<T>, destination: Span_1<T>): void;
+    static getValueOrDefault<TKey, TValue>(dictionary: IReadOnlyDictionary_2<TKey, TValue>, key: TKey, defaultValue: TValue): TValue;
+    static getValueOrDefault<TKey, TValue>(dictionary: IReadOnlyDictionary_2<TKey, TValue>, key: TKey): TValue;
+    static insertRange<T>(list: List_1<T>, index: int, source: ReadOnlySpan_1<T>): void;
+    static remove<TKey, TValue>(dictionary: IDictionary_2<TKey, TValue>, key: TKey, value: { value: ref<TValue> }): boolean;
+    static tryAdd<TKey, TValue>(dictionary: IDictionary_2<TKey, TValue>, key: TKey, value: TValue): boolean;
 }
 
 
 export type CollectionExtensions = CollectionExtensions$instance;
 
 export abstract class KeyValuePair$instance {
-    static Create<TKey, TValue>(key: TKey, value: TValue): KeyValuePair_2<TKey, TValue>;
+    static create<TKey, TValue>(key: TKey, value: TValue): KeyValuePair_2<TKey, TValue>;
 }
 
 

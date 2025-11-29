@@ -42,36 +42,36 @@ export type CLROf<T> =
     T; // Identity fallback for non-primitive types
 
 export abstract class HtmlEncoder$instance extends TextEncoder$instance {
-    static readonly Default: HtmlEncoder;
-    static Create(settings: TextEncoderSettings): HtmlEncoder;
-    static Create(allowedRanges: UnicodeRange[]): HtmlEncoder;
+    static readonly default: HtmlEncoder;
+    static create(settings: TextEncoderSettings): HtmlEncoder;
+    static create(allowedRanges: UnicodeRange[]): HtmlEncoder;
 }
 
 
 export type HtmlEncoder = HtmlEncoder$instance;
 
 export abstract class JavaScriptEncoder$instance extends TextEncoder$instance {
-    static readonly Default: JavaScriptEncoder;
-    static readonly UnsafeRelaxedJsonEscaping: JavaScriptEncoder;
-    static Create(settings: TextEncoderSettings): JavaScriptEncoder;
-    static Create(allowedRanges: UnicodeRange[]): JavaScriptEncoder;
+    static readonly default: JavaScriptEncoder;
+    static readonly unsafeRelaxedJsonEscaping: JavaScriptEncoder;
+    static create(settings: TextEncoderSettings): JavaScriptEncoder;
+    static create(allowedRanges: UnicodeRange[]): JavaScriptEncoder;
 }
 
 
 export type JavaScriptEncoder = JavaScriptEncoder$instance;
 
 export abstract class TextEncoder$instance {
-    readonly MaxOutputCharactersPerInputCharacter: int;
-    Encode(value: string): string;
-    Encode(output: TextWriter, value: string): void;
-    Encode(output: TextWriter, value: string, startIndex: int, characterCount: int): void;
-    Encode(output: TextWriter, value: char[], startIndex: int, characterCount: int): void;
-    Encode(source: ReadOnlySpan_1<CLROf<char>>, destination: Span_1<CLROf<char>>, charsConsumed: { value: ref<int> }, charsWritten: { value: ref<int> }, isFinalBlock?: boolean): OperationStatus;
-    EncodeUtf8(utf8Source: ReadOnlySpan_1<CLROf<byte>>, utf8Destination: Span_1<CLROf<byte>>, bytesConsumed: { value: ref<int> }, bytesWritten: { value: ref<int> }, isFinalBlock?: boolean): OperationStatus;
-    abstract FindFirstCharacterToEncode(text: ptr<char>, textLength: int): int;
-    FindFirstCharacterToEncodeUtf8(utf8Text: ReadOnlySpan_1<CLROf<byte>>): int;
-    abstract TryEncodeUnicodeScalar(unicodeScalar: int, buffer: ptr<char>, bufferLength: int, numberOfCharactersWritten: { value: ref<int> }): boolean;
-    abstract WillEncode(unicodeScalar: int): boolean;
+    readonly maxOutputCharactersPerInputCharacter: int;
+    encode(value: string): string;
+    encode(output: TextWriter, value: string): void;
+    encode(output: TextWriter, value: string, startIndex: int, characterCount: int): void;
+    encode(output: TextWriter, value: char[], startIndex: int, characterCount: int): void;
+    encode(source: ReadOnlySpan_1<CLROf<char>>, destination: Span_1<CLROf<char>>, charsConsumed: { value: ref<int> }, charsWritten: { value: ref<int> }, isFinalBlock?: boolean): OperationStatus;
+    encodeUtf8(utf8Source: ReadOnlySpan_1<CLROf<byte>>, utf8Destination: Span_1<CLROf<byte>>, bytesConsumed: { value: ref<int> }, bytesWritten: { value: ref<int> }, isFinalBlock?: boolean): OperationStatus;
+    abstract findFirstCharacterToEncode(text: ptr<char>, textLength: int): int;
+    findFirstCharacterToEncodeUtf8(utf8Text: ReadOnlySpan_1<CLROf<byte>>): int;
+    abstract tryEncodeUnicodeScalar(unicodeScalar: int, buffer: ptr<char>, bufferLength: int, numberOfCharactersWritten: { value: ref<int> }): boolean;
+    abstract willEncode(unicodeScalar: int): boolean;
 }
 
 
@@ -81,26 +81,26 @@ export class TextEncoderSettings$instance {
     constructor();
     constructor(other: TextEncoderSettings);
     constructor(allowedRanges: UnicodeRange[]);
-    AllowCharacter(character: char): void;
-    AllowCharacters(characters: char[]): void;
-    AllowCodePoints(codePoints: IEnumerable_1<CLROf<int>>): void;
-    AllowRange(range: UnicodeRange): void;
-    AllowRanges(ranges: UnicodeRange[]): void;
-    Clear(): void;
-    ForbidCharacter(character: char): void;
-    ForbidCharacters(characters: char[]): void;
-    ForbidRange(range: UnicodeRange): void;
-    ForbidRanges(ranges: UnicodeRange[]): void;
-    GetAllowedCodePoints(): IEnumerable_1<CLROf<int>>;
+    allowCharacter(character: char): void;
+    allowCharacters(characters: char[]): void;
+    allowCodePoints(codePoints: IEnumerable_1<CLROf<int>>): void;
+    allowRange(range: UnicodeRange): void;
+    allowRanges(ranges: UnicodeRange[]): void;
+    clear(): void;
+    forbidCharacter(character: char): void;
+    forbidCharacters(characters: char[]): void;
+    forbidRange(range: UnicodeRange): void;
+    forbidRanges(ranges: UnicodeRange[]): void;
+    getAllowedCodePoints(): IEnumerable_1<CLROf<int>>;
 }
 
 
 export type TextEncoderSettings = TextEncoderSettings$instance;
 
 export abstract class UrlEncoder$instance extends TextEncoder$instance {
-    static readonly Default: UrlEncoder;
-    static Create(settings: TextEncoderSettings): UrlEncoder;
-    static Create(allowedRanges: UnicodeRange[]): UrlEncoder;
+    static readonly default: UrlEncoder;
+    static create(settings: TextEncoderSettings): UrlEncoder;
+    static create(allowedRanges: UnicodeRange[]): UrlEncoder;
 }
 
 

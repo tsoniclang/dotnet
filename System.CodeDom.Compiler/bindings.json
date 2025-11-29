@@ -12,7 +12,7 @@
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.GeneratedCodeAttribute::Tool:System.String",
           "clrName": "Tool",
-          "tsEmitName": "Tool",
+          "tsEmitName": "tool",
           "metadataToken": 385878722,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "Tool|:System.String|static=false|accessor=get",
@@ -26,7 +26,7 @@
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.GeneratedCodeAttribute::Version:System.String",
           "clrName": "Version",
-          "tsEmitName": "Version",
+          "tsEmitName": "version",
           "metadataToken": 385878723,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "Version|:System.String|static=false|accessor=get",
@@ -54,7 +54,7 @@
       ],
       "exposedMethods": [
         {
-          "tsName": "GetCustomAttributes",
+          "tsName": "getCustomAttributes",
           "isStatic": true,
           "tsSignatureId": "GetCustomAttributes|(System.Reflection.MemberInfo,System.Type):System.Attribute[]|static=true",
           "target": {
@@ -64,7 +64,7 @@
           }
         },
         {
-          "tsName": "GetCustomAttributes2",
+          "tsName": "getCustomAttributes2",
           "isStatic": true,
           "tsSignatureId": "GetCustomAttributes|(System.Reflection.MemberInfo,System.Type,System.Boolean):System.Attribute[]|static=true",
           "target": {
@@ -74,7 +74,7 @@
           }
         },
         {
-          "tsName": "GetCustomAttributes3",
+          "tsName": "getCustomAttributes3",
           "isStatic": true,
           "tsSignatureId": "GetCustomAttributes|(System.Reflection.MemberInfo):System.Attribute[]|static=true",
           "target": {
@@ -84,7 +84,7 @@
           }
         },
         {
-          "tsName": "GetCustomAttributes4",
+          "tsName": "getCustomAttributes4",
           "isStatic": true,
           "tsSignatureId": "GetCustomAttributes|(System.Reflection.MemberInfo,System.Boolean):System.Attribute[]|static=true",
           "target": {
@@ -94,7 +94,7 @@
           }
         },
         {
-          "tsName": "IsDefined",
+          "tsName": "isDefined",
           "isStatic": true,
           "tsSignatureId": "IsDefined|(System.Reflection.MemberInfo,System.Type):System.Boolean|static=true",
           "target": {
@@ -104,7 +104,7 @@
           }
         },
         {
-          "tsName": "IsDefined2",
+          "tsName": "isDefined2",
           "isStatic": true,
           "tsSignatureId": "IsDefined|(System.Reflection.MemberInfo,System.Type,System.Boolean):System.Boolean|static=true",
           "target": {
@@ -114,7 +114,7 @@
           }
         },
         {
-          "tsName": "GetCustomAttribute",
+          "tsName": "getCustomAttribute",
           "isStatic": true,
           "tsSignatureId": "GetCustomAttribute|(System.Reflection.MemberInfo,System.Type):System.Attribute|static=true",
           "target": {
@@ -124,7 +124,7 @@
           }
         },
         {
-          "tsName": "GetCustomAttribute2",
+          "tsName": "getCustomAttribute2",
           "isStatic": true,
           "tsSignatureId": "GetCustomAttribute|(System.Reflection.MemberInfo,System.Type,System.Boolean):System.Attribute|static=true",
           "target": {
@@ -134,7 +134,7 @@
           }
         },
         {
-          "tsName": "GetCustomAttributes5",
+          "tsName": "getCustomAttributes5",
           "isStatic": true,
           "tsSignatureId": "GetCustomAttributes|(System.Reflection.ParameterInfo):System.Attribute[]|static=true",
           "target": {
@@ -144,7 +144,7 @@
           }
         },
         {
-          "tsName": "GetCustomAttributes6",
+          "tsName": "getCustomAttributes6",
           "isStatic": true,
           "tsSignatureId": "GetCustomAttributes|(System.Reflection.ParameterInfo,System.Type):System.Attribute[]|static=true",
           "target": {
@@ -154,7 +154,7 @@
           }
         },
         {
-          "tsName": "GetCustomAttributes7",
+          "tsName": "getCustomAttributes7",
           "isStatic": true,
           "tsSignatureId": "GetCustomAttributes|(System.Reflection.ParameterInfo,System.Type,System.Boolean):System.Attribute[]|static=true",
           "target": {
@@ -164,7 +164,7 @@
           }
         },
         {
-          "tsName": "GetCustomAttributes8",
+          "tsName": "getCustomAttributes8",
           "isStatic": true,
           "tsSignatureId": "GetCustomAttributes|(System.Reflection.ParameterInfo,System.Boolean):System.Attribute[]|static=true",
           "target": {
@@ -174,7 +174,7 @@
           }
         },
         {
-          "tsName": "IsDefined3",
+          "tsName": "isDefined3",
           "isStatic": true,
           "tsSignatureId": "IsDefined|(System.Reflection.ParameterInfo,System.Type):System.Boolean|static=true",
           "target": {
@@ -184,7 +184,7 @@
           }
         },
         {
-          "tsName": "IsDefined4",
+          "tsName": "isDefined4",
           "isStatic": true,
           "tsSignatureId": "IsDefined|(System.Reflection.ParameterInfo,System.Type,System.Boolean):System.Boolean|static=true",
           "target": {
@@ -194,7 +194,7 @@
           }
         },
         {
-          "tsName": "GetCustomAttribute3",
+          "tsName": "getCustomAttribute3",
           "isStatic": true,
           "tsSignatureId": "GetCustomAttribute|(System.Reflection.ParameterInfo,System.Type):System.Attribute|static=true",
           "target": {
@@ -204,7 +204,7 @@
           }
         },
         {
-          "tsName": "GetCustomAttribute4",
+          "tsName": "getCustomAttribute4",
           "isStatic": true,
           "tsSignatureId": "GetCustomAttribute|(System.Reflection.ParameterInfo,System.Type,System.Boolean):System.Attribute|static=true",
           "target": {
@@ -214,7 +214,7 @@
           }
         },
         {
-          "tsName": "GetCustomAttributes9",
+          "tsName": "getCustomAttributes9",
           "isStatic": true,
           "tsSignatureId": "GetCustomAttributes|(System.Reflection.Module,System.Type):System.Attribute[]|static=true",
           "target": {
@@ -224,7 +224,7 @@
           }
         },
         {
-          "tsName": "GetCustomAttributes10",
+          "tsName": "getCustomAttributes10",
           "isStatic": true,
           "tsSignatureId": "GetCustomAttributes|(System.Reflection.Module):System.Attribute[]|static=true",
           "target": {
@@ -234,7 +234,7 @@
           }
         },
         {
-          "tsName": "GetCustomAttributes11",
+          "tsName": "getCustomAttributes11",
           "isStatic": true,
           "tsSignatureId": "GetCustomAttributes|(System.Reflection.Module,System.Boolean):System.Attribute[]|static=true",
           "target": {
@@ -244,7 +244,7 @@
           }
         },
         {
-          "tsName": "GetCustomAttributes12",
+          "tsName": "getCustomAttributes12",
           "isStatic": true,
           "tsSignatureId": "GetCustomAttributes|(System.Reflection.Module,System.Type,System.Boolean):System.Attribute[]|static=true",
           "target": {
@@ -254,7 +254,7 @@
           }
         },
         {
-          "tsName": "IsDefined5",
+          "tsName": "isDefined5",
           "isStatic": true,
           "tsSignatureId": "IsDefined|(System.Reflection.Module,System.Type):System.Boolean|static=true",
           "target": {
@@ -264,7 +264,7 @@
           }
         },
         {
-          "tsName": "IsDefined6",
+          "tsName": "isDefined6",
           "isStatic": true,
           "tsSignatureId": "IsDefined|(System.Reflection.Module,System.Type,System.Boolean):System.Boolean|static=true",
           "target": {
@@ -274,7 +274,7 @@
           }
         },
         {
-          "tsName": "GetCustomAttribute5",
+          "tsName": "getCustomAttribute5",
           "isStatic": true,
           "tsSignatureId": "GetCustomAttribute|(System.Reflection.Module,System.Type):System.Attribute|static=true",
           "target": {
@@ -284,7 +284,7 @@
           }
         },
         {
-          "tsName": "GetCustomAttribute6",
+          "tsName": "getCustomAttribute6",
           "isStatic": true,
           "tsSignatureId": "GetCustomAttribute|(System.Reflection.Module,System.Type,System.Boolean):System.Attribute|static=true",
           "target": {
@@ -294,7 +294,7 @@
           }
         },
         {
-          "tsName": "GetCustomAttributes13",
+          "tsName": "getCustomAttributes13",
           "isStatic": true,
           "tsSignatureId": "GetCustomAttributes|(System.Reflection.Assembly,System.Type):System.Attribute[]|static=true",
           "target": {
@@ -304,7 +304,7 @@
           }
         },
         {
-          "tsName": "GetCustomAttributes14",
+          "tsName": "getCustomAttributes14",
           "isStatic": true,
           "tsSignatureId": "GetCustomAttributes|(System.Reflection.Assembly,System.Type,System.Boolean):System.Attribute[]|static=true",
           "target": {
@@ -314,7 +314,7 @@
           }
         },
         {
-          "tsName": "GetCustomAttributes15",
+          "tsName": "getCustomAttributes15",
           "isStatic": true,
           "tsSignatureId": "GetCustomAttributes|(System.Reflection.Assembly):System.Attribute[]|static=true",
           "target": {
@@ -324,7 +324,7 @@
           }
         },
         {
-          "tsName": "GetCustomAttributes16",
+          "tsName": "getCustomAttributes16",
           "isStatic": true,
           "tsSignatureId": "GetCustomAttributes|(System.Reflection.Assembly,System.Boolean):System.Attribute[]|static=true",
           "target": {
@@ -334,7 +334,7 @@
           }
         },
         {
-          "tsName": "IsDefined7",
+          "tsName": "isDefined7",
           "isStatic": true,
           "tsSignatureId": "IsDefined|(System.Reflection.Assembly,System.Type):System.Boolean|static=true",
           "target": {
@@ -344,7 +344,7 @@
           }
         },
         {
-          "tsName": "IsDefined8",
+          "tsName": "isDefined8",
           "isStatic": true,
           "tsSignatureId": "IsDefined|(System.Reflection.Assembly,System.Type,System.Boolean):System.Boolean|static=true",
           "target": {
@@ -354,7 +354,7 @@
           }
         },
         {
-          "tsName": "GetCustomAttribute7",
+          "tsName": "getCustomAttribute7",
           "isStatic": true,
           "tsSignatureId": "GetCustomAttribute|(System.Reflection.Assembly,System.Type):System.Attribute|static=true",
           "target": {
@@ -364,7 +364,7 @@
           }
         },
         {
-          "tsName": "GetCustomAttribute8",
+          "tsName": "getCustomAttribute8",
           "isStatic": true,
           "tsSignatureId": "GetCustomAttribute|(System.Reflection.Assembly,System.Type,System.Boolean):System.Attribute|static=true",
           "target": {
@@ -374,7 +374,7 @@
           }
         },
         {
-          "tsName": "Equals",
+          "tsName": "equals",
           "isStatic": false,
           "tsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
           "target": {
@@ -384,7 +384,7 @@
           }
         },
         {
-          "tsName": "GetHashCode",
+          "tsName": "getHashCode",
           "isStatic": false,
           "tsSignatureId": "GetHashCode|():System.Int32|static=false",
           "target": {
@@ -394,7 +394,7 @@
           }
         },
         {
-          "tsName": "Match",
+          "tsName": "match",
           "isStatic": false,
           "tsSignatureId": "Match|(System.Object):System.Boolean|static=false",
           "target": {
@@ -404,7 +404,7 @@
           }
         },
         {
-          "tsName": "IsDefaultAttribute",
+          "tsName": "isDefaultAttribute",
           "isStatic": false,
           "tsSignatureId": "IsDefaultAttribute|():System.Boolean|static=false",
           "target": {
@@ -414,7 +414,7 @@
           }
         },
         {
-          "tsName": "GetType",
+          "tsName": "getType",
           "isStatic": false,
           "tsSignatureId": "GetType|():System.Type|static=false",
           "target": {
@@ -424,7 +424,7 @@
           }
         },
         {
-          "tsName": "ToString",
+          "tsName": "toString",
           "isStatic": false,
           "tsSignatureId": "ToString|():System.String|static=false",
           "target": {
@@ -434,7 +434,7 @@
           }
         },
         {
-          "tsName": "Equals",
+          "tsName": "equals",
           "isStatic": true,
           "tsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
           "target": {
@@ -444,7 +444,7 @@
           }
         },
         {
-          "tsName": "ReferenceEquals",
+          "tsName": "referenceEquals",
           "isStatic": true,
           "tsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
           "target": {
@@ -456,7 +456,7 @@
       ],
       "exposedProperties": [
         {
-          "tsName": "Tool",
+          "tsName": "tool",
           "isStatic": false,
           "tsSignatureId": "Tool|:System.String|static=false|accessor=get",
           "target": {
@@ -466,7 +466,7 @@
           }
         },
         {
-          "tsName": "Version",
+          "tsName": "version",
           "isStatic": false,
           "tsSignatureId": "Version|:System.String|static=false|accessor=get",
           "target": {
@@ -476,7 +476,7 @@
           }
         },
         {
-          "tsName": "TypeId",
+          "tsName": "typeId",
           "isStatic": false,
           "tsSignatureId": "TypeId|:System.Object|static=false|accessor=get",
           "target": {
@@ -508,7 +508,7 @@
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::Close():System.Void",
           "clrName": "Close",
-          "tsEmitName": "Close",
+          "tsEmitName": "close",
           "metadataToken": 100677673,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Close|():System.Void|static=false",
@@ -522,7 +522,7 @@
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::DisposeAsync():System.Threading.Tasks.ValueTask",
           "clrName": "DisposeAsync",
-          "tsEmitName": "DisposeAsync",
+          "tsEmitName": "disposeAsync",
           "metadataToken": 100677674,
           "canonicalSignature": "():System.Threading.Tasks.ValueTask",
           "normalizedSignature": "DisposeAsync|():System.Threading.Tasks.ValueTask|static=false",
@@ -536,7 +536,7 @@
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::Flush():System.Void",
           "clrName": "Flush",
-          "tsEmitName": "Flush",
+          "tsEmitName": "flush",
           "metadataToken": 100677675,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Flush|():System.Void|static=false",
@@ -550,7 +550,7 @@
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::FlushAsync():System.Threading.Tasks.Task",
           "clrName": "FlushAsync",
-          "tsEmitName": "FlushAsync",
+          "tsEmitName": "flushAsync",
           "metadataToken": 100677676,
           "canonicalSignature": "():System.Threading.Tasks.Task",
           "normalizedSignature": "FlushAsync|():System.Threading.Tasks.Task|static=false",
@@ -564,7 +564,7 @@
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::FlushAsync(System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "clrName": "FlushAsync",
-          "tsEmitName": "FlushAsync2",
+          "tsEmitName": "flushAsync2",
           "metadataToken": 100677677,
           "canonicalSignature": "(System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "normalizedSignature": "FlushAsync|(System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
@@ -578,7 +578,7 @@
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::Write(System.String):System.Void",
           "clrName": "Write",
-          "tsEmitName": "Write8",
+          "tsEmitName": "write",
           "metadataToken": 100677680,
           "canonicalSignature": "(System.String):System.Void",
           "normalizedSignature": "Write|(System.String):System.Void|static=false",
@@ -592,7 +592,7 @@
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::Write(System.Boolean):System.Void",
           "clrName": "Write",
-          "tsEmitName": "Write9",
+          "tsEmitName": "write2",
           "metadataToken": 100677681,
           "canonicalSignature": "(System.Boolean):System.Void",
           "normalizedSignature": "Write|(System.Boolean):System.Void|static=false",
@@ -606,7 +606,7 @@
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::Write(System.Char):System.Void",
           "clrName": "Write",
-          "tsEmitName": "Write10",
+          "tsEmitName": "write3",
           "metadataToken": 100677682,
           "canonicalSignature": "(System.Char):System.Void",
           "normalizedSignature": "Write|(System.Char):System.Void|static=false",
@@ -620,7 +620,7 @@
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::Write(System.Char[]):System.Void",
           "clrName": "Write",
-          "tsEmitName": "Write11",
+          "tsEmitName": "write4",
           "metadataToken": 100677683,
           "canonicalSignature": "(System.Char[]):System.Void",
           "normalizedSignature": "Write|(System.Char[]):System.Void|static=false",
@@ -634,7 +634,7 @@
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::Write(System.Char[],System.Int32,System.Int32):System.Void",
           "clrName": "Write",
-          "tsEmitName": "Write12",
+          "tsEmitName": "write5",
           "metadataToken": 100677684,
           "canonicalSignature": "(System.Char[],System.Int32,System.Int32):System.Void",
           "normalizedSignature": "Write|(System.Char[],System.Int32,System.Int32):System.Void|static=false",
@@ -648,7 +648,7 @@
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::Write(System.Double):System.Void",
           "clrName": "Write",
-          "tsEmitName": "Write13",
+          "tsEmitName": "write6",
           "metadataToken": 100677685,
           "canonicalSignature": "(System.Double):System.Void",
           "normalizedSignature": "Write|(System.Double):System.Void|static=false",
@@ -662,7 +662,7 @@
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::Write(System.Single):System.Void",
           "clrName": "Write",
-          "tsEmitName": "Write14",
+          "tsEmitName": "write7",
           "metadataToken": 100677686,
           "canonicalSignature": "(System.Single):System.Void",
           "normalizedSignature": "Write|(System.Single):System.Void|static=false",
@@ -676,7 +676,7 @@
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::Write(System.Int32):System.Void",
           "clrName": "Write",
-          "tsEmitName": "Write15",
+          "tsEmitName": "write8",
           "metadataToken": 100677687,
           "canonicalSignature": "(System.Int32):System.Void",
           "normalizedSignature": "Write|(System.Int32):System.Void|static=false",
@@ -690,7 +690,7 @@
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::Write(System.Int64):System.Void",
           "clrName": "Write",
-          "tsEmitName": "Write16",
+          "tsEmitName": "write9",
           "metadataToken": 100677688,
           "canonicalSignature": "(System.Int64):System.Void",
           "normalizedSignature": "Write|(System.Int64):System.Void|static=false",
@@ -704,7 +704,7 @@
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::Write(System.Object):System.Void",
           "clrName": "Write",
-          "tsEmitName": "Write17",
+          "tsEmitName": "write10",
           "metadataToken": 100677689,
           "canonicalSignature": "(System.Object):System.Void",
           "normalizedSignature": "Write|(System.Object):System.Void|static=false",
@@ -718,7 +718,7 @@
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::Write(System.String,System.Object):System.Void",
           "clrName": "Write",
-          "tsEmitName": "Write18",
+          "tsEmitName": "write11",
           "metadataToken": 100677690,
           "canonicalSignature": "(System.String,System.Object):System.Void",
           "normalizedSignature": "Write|(System.String,System.Object):System.Void|static=false",
@@ -732,7 +732,7 @@
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::Write(System.String,System.Object,System.Object):System.Void",
           "clrName": "Write",
-          "tsEmitName": "Write19",
+          "tsEmitName": "write12",
           "metadataToken": 100677691,
           "canonicalSignature": "(System.String,System.Object,System.Object):System.Void",
           "normalizedSignature": "Write|(System.String,System.Object,System.Object):System.Void|static=false",
@@ -746,7 +746,7 @@
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::Write(System.String,System.Object[]):System.Void",
           "clrName": "Write",
-          "tsEmitName": "Write20",
+          "tsEmitName": "write13",
           "metadataToken": 100677692,
           "canonicalSignature": "(System.String,System.Object[]):System.Void",
           "normalizedSignature": "Write|(System.String,System.Object[]):System.Void|static=false",
@@ -760,7 +760,7 @@
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::Write(System.String,System.ReadOnlySpan_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "clrName": "Write",
-          "tsEmitName": "Write21",
+          "tsEmitName": "write14",
           "metadataToken": 100677693,
           "canonicalSignature": "(System.String,System.ReadOnlySpan_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "normalizedSignature": "Write|(System.String,System.ReadOnlySpan_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
@@ -774,7 +774,7 @@
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteAsync(System.Char):System.Threading.Tasks.Task",
           "clrName": "WriteAsync",
-          "tsEmitName": "WriteAsync3",
+          "tsEmitName": "writeAsync",
           "metadataToken": 100677694,
           "canonicalSignature": "(System.Char):System.Threading.Tasks.Task",
           "normalizedSignature": "WriteAsync|(System.Char):System.Threading.Tasks.Task|static=false",
@@ -788,7 +788,7 @@
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteAsync(System.Char[],System.Int32,System.Int32):System.Threading.Tasks.Task",
           "clrName": "WriteAsync",
-          "tsEmitName": "WriteAsync4",
+          "tsEmitName": "writeAsync2",
           "metadataToken": 100677695,
           "canonicalSignature": "(System.Char[],System.Int32,System.Int32):System.Threading.Tasks.Task",
           "normalizedSignature": "WriteAsync|(System.Char[],System.Int32,System.Int32):System.Threading.Tasks.Task|static=false",
@@ -802,7 +802,7 @@
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteAsync(System.String):System.Threading.Tasks.Task",
           "clrName": "WriteAsync",
-          "tsEmitName": "WriteAsync5",
+          "tsEmitName": "writeAsync3",
           "metadataToken": 100677696,
           "canonicalSignature": "(System.String):System.Threading.Tasks.Task",
           "normalizedSignature": "WriteAsync|(System.String):System.Threading.Tasks.Task|static=false",
@@ -816,7 +816,7 @@
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteAsync(System.ReadOnlyMemory_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "clrName": "WriteAsync",
-          "tsEmitName": "WriteAsync6",
+          "tsEmitName": "writeAsync4",
           "metadataToken": 100677697,
           "canonicalSignature": "(System.ReadOnlyMemory_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "normalizedSignature": "WriteAsync|(System.ReadOnlyMemory_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
@@ -830,7 +830,7 @@
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteAsync(System.Text.StringBuilder,System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "clrName": "WriteAsync",
-          "tsEmitName": "WriteAsync7",
+          "tsEmitName": "writeAsync5",
           "metadataToken": 100677698,
           "canonicalSignature": "(System.Text.StringBuilder,System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "normalizedSignature": "WriteAsync|(System.Text.StringBuilder,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
@@ -844,7 +844,7 @@
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteLineNoTabs(System.String):System.Void",
           "clrName": "WriteLineNoTabs",
-          "tsEmitName": "WriteLineNoTabs",
+          "tsEmitName": "writeLineNoTabs",
           "metadataToken": 100677699,
           "canonicalSignature": "(System.String):System.Void",
           "normalizedSignature": "WriteLineNoTabs|(System.String):System.Void|static=false",
@@ -858,7 +858,7 @@
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteLineNoTabsAsync(System.String):System.Threading.Tasks.Task",
           "clrName": "WriteLineNoTabsAsync",
-          "tsEmitName": "WriteLineNoTabsAsync",
+          "tsEmitName": "writeLineNoTabsAsync",
           "metadataToken": 100677700,
           "canonicalSignature": "(System.String):System.Threading.Tasks.Task",
           "normalizedSignature": "WriteLineNoTabsAsync|(System.String):System.Threading.Tasks.Task|static=false",
@@ -872,7 +872,7 @@
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteLine(System.String):System.Void",
           "clrName": "WriteLine",
-          "tsEmitName": "WriteLine7",
+          "tsEmitName": "writeLine",
           "metadataToken": 100677701,
           "canonicalSignature": "(System.String):System.Void",
           "normalizedSignature": "WriteLine|(System.String):System.Void|static=false",
@@ -886,7 +886,7 @@
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteLine():System.Void",
           "clrName": "WriteLine",
-          "tsEmitName": "WriteLine8",
+          "tsEmitName": "writeLine2",
           "metadataToken": 100677702,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "WriteLine|():System.Void|static=false",
@@ -900,7 +900,7 @@
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteLine(System.Boolean):System.Void",
           "clrName": "WriteLine",
-          "tsEmitName": "WriteLine9",
+          "tsEmitName": "writeLine3",
           "metadataToken": 100677703,
           "canonicalSignature": "(System.Boolean):System.Void",
           "normalizedSignature": "WriteLine|(System.Boolean):System.Void|static=false",
@@ -914,7 +914,7 @@
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteLine(System.Char):System.Void",
           "clrName": "WriteLine",
-          "tsEmitName": "WriteLine10",
+          "tsEmitName": "writeLine4",
           "metadataToken": 100677704,
           "canonicalSignature": "(System.Char):System.Void",
           "normalizedSignature": "WriteLine|(System.Char):System.Void|static=false",
@@ -928,7 +928,7 @@
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteLine(System.Char[]):System.Void",
           "clrName": "WriteLine",
-          "tsEmitName": "WriteLine11",
+          "tsEmitName": "writeLine5",
           "metadataToken": 100677705,
           "canonicalSignature": "(System.Char[]):System.Void",
           "normalizedSignature": "WriteLine|(System.Char[]):System.Void|static=false",
@@ -942,7 +942,7 @@
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteLine(System.Char[],System.Int32,System.Int32):System.Void",
           "clrName": "WriteLine",
-          "tsEmitName": "WriteLine12",
+          "tsEmitName": "writeLine6",
           "metadataToken": 100677706,
           "canonicalSignature": "(System.Char[],System.Int32,System.Int32):System.Void",
           "normalizedSignature": "WriteLine|(System.Char[],System.Int32,System.Int32):System.Void|static=false",
@@ -956,7 +956,7 @@
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteLine(System.Double):System.Void",
           "clrName": "WriteLine",
-          "tsEmitName": "WriteLine13",
+          "tsEmitName": "writeLine7",
           "metadataToken": 100677707,
           "canonicalSignature": "(System.Double):System.Void",
           "normalizedSignature": "WriteLine|(System.Double):System.Void|static=false",
@@ -970,7 +970,7 @@
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteLine(System.Single):System.Void",
           "clrName": "WriteLine",
-          "tsEmitName": "WriteLine14",
+          "tsEmitName": "writeLine8",
           "metadataToken": 100677708,
           "canonicalSignature": "(System.Single):System.Void",
           "normalizedSignature": "WriteLine|(System.Single):System.Void|static=false",
@@ -984,7 +984,7 @@
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteLine(System.Int32):System.Void",
           "clrName": "WriteLine",
-          "tsEmitName": "WriteLine15",
+          "tsEmitName": "writeLine9",
           "metadataToken": 100677709,
           "canonicalSignature": "(System.Int32):System.Void",
           "normalizedSignature": "WriteLine|(System.Int32):System.Void|static=false",
@@ -998,7 +998,7 @@
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteLine(System.Int64):System.Void",
           "clrName": "WriteLine",
-          "tsEmitName": "WriteLine16",
+          "tsEmitName": "writeLine10",
           "metadataToken": 100677710,
           "canonicalSignature": "(System.Int64):System.Void",
           "normalizedSignature": "WriteLine|(System.Int64):System.Void|static=false",
@@ -1012,7 +1012,7 @@
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteLine(System.Object):System.Void",
           "clrName": "WriteLine",
-          "tsEmitName": "WriteLine17",
+          "tsEmitName": "writeLine11",
           "metadataToken": 100677711,
           "canonicalSignature": "(System.Object):System.Void",
           "normalizedSignature": "WriteLine|(System.Object):System.Void|static=false",
@@ -1026,7 +1026,7 @@
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteLine(System.String,System.Object):System.Void",
           "clrName": "WriteLine",
-          "tsEmitName": "WriteLine18",
+          "tsEmitName": "writeLine12",
           "metadataToken": 100677712,
           "canonicalSignature": "(System.String,System.Object):System.Void",
           "normalizedSignature": "WriteLine|(System.String,System.Object):System.Void|static=false",
@@ -1040,7 +1040,7 @@
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteLine(System.String,System.Object,System.Object):System.Void",
           "clrName": "WriteLine",
-          "tsEmitName": "WriteLine19",
+          "tsEmitName": "writeLine13",
           "metadataToken": 100677713,
           "canonicalSignature": "(System.String,System.Object,System.Object):System.Void",
           "normalizedSignature": "WriteLine|(System.String,System.Object,System.Object):System.Void|static=false",
@@ -1054,7 +1054,7 @@
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteLine(System.String,System.Object[]):System.Void",
           "clrName": "WriteLine",
-          "tsEmitName": "WriteLine20",
+          "tsEmitName": "writeLine14",
           "metadataToken": 100677714,
           "canonicalSignature": "(System.String,System.Object[]):System.Void",
           "normalizedSignature": "WriteLine|(System.String,System.Object[]):System.Void|static=false",
@@ -1068,7 +1068,7 @@
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteLine(System.String,System.ReadOnlySpan_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "clrName": "WriteLine",
-          "tsEmitName": "WriteLine21",
+          "tsEmitName": "writeLine15",
           "metadataToken": 100677715,
           "canonicalSignature": "(System.String,System.ReadOnlySpan_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "normalizedSignature": "WriteLine|(System.String,System.ReadOnlySpan_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
@@ -1082,7 +1082,7 @@
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteLine(System.UInt32):System.Void",
           "clrName": "WriteLine",
-          "tsEmitName": "WriteLine22",
+          "tsEmitName": "writeLine16",
           "metadataToken": 100677716,
           "canonicalSignature": "(System.UInt32):System.Void",
           "normalizedSignature": "WriteLine|(System.UInt32):System.Void|static=false",
@@ -1096,7 +1096,7 @@
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteLineAsync():System.Threading.Tasks.Task",
           "clrName": "WriteLineAsync",
-          "tsEmitName": "WriteLineAsync3",
+          "tsEmitName": "writeLineAsync",
           "metadataToken": 100677717,
           "canonicalSignature": "():System.Threading.Tasks.Task",
           "normalizedSignature": "WriteLineAsync|():System.Threading.Tasks.Task|static=false",
@@ -1110,7 +1110,7 @@
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteLineAsync(System.Char):System.Threading.Tasks.Task",
           "clrName": "WriteLineAsync",
-          "tsEmitName": "WriteLineAsync4",
+          "tsEmitName": "writeLineAsync2",
           "metadataToken": 100677718,
           "canonicalSignature": "(System.Char):System.Threading.Tasks.Task",
           "normalizedSignature": "WriteLineAsync|(System.Char):System.Threading.Tasks.Task|static=false",
@@ -1124,7 +1124,7 @@
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteLineAsync(System.Char[],System.Int32,System.Int32):System.Threading.Tasks.Task",
           "clrName": "WriteLineAsync",
-          "tsEmitName": "WriteLineAsync5",
+          "tsEmitName": "writeLineAsync3",
           "metadataToken": 100677719,
           "canonicalSignature": "(System.Char[],System.Int32,System.Int32):System.Threading.Tasks.Task",
           "normalizedSignature": "WriteLineAsync|(System.Char[],System.Int32,System.Int32):System.Threading.Tasks.Task|static=false",
@@ -1138,7 +1138,7 @@
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteLineAsync(System.String):System.Threading.Tasks.Task",
           "clrName": "WriteLineAsync",
-          "tsEmitName": "WriteLineAsync6",
+          "tsEmitName": "writeLineAsync4",
           "metadataToken": 100677720,
           "canonicalSignature": "(System.String):System.Threading.Tasks.Task",
           "normalizedSignature": "WriteLineAsync|(System.String):System.Threading.Tasks.Task|static=false",
@@ -1152,7 +1152,7 @@
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteLineAsync(System.ReadOnlyMemory_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "clrName": "WriteLineAsync",
-          "tsEmitName": "WriteLineAsync7",
+          "tsEmitName": "writeLineAsync5",
           "metadataToken": 100677721,
           "canonicalSignature": "(System.ReadOnlyMemory_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "normalizedSignature": "WriteLineAsync|(System.ReadOnlyMemory_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
@@ -1166,7 +1166,7 @@
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteLineAsync(System.Text.StringBuilder,System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "clrName": "WriteLineAsync",
-          "tsEmitName": "WriteLineAsync8",
+          "tsEmitName": "writeLineAsync6",
           "metadataToken": 100677722,
           "canonicalSignature": "(System.Text.StringBuilder,System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "normalizedSignature": "WriteLineAsync|(System.Text.StringBuilder,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
@@ -1180,7 +1180,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "Dispose$view",
+          "tsEmitName": "dispose",
           "metadataToken": 100668530,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Dispose|():System.Void|static=false",
@@ -1194,7 +1194,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IAsyncDisposable::DisposeAsync():System.Threading.Tasks.ValueTask",
           "clrName": "DisposeAsync",
-          "tsEmitName": "DisposeAsync$view",
+          "tsEmitName": "disposeAsync$view",
           "metadataToken": 100668504,
           "canonicalSignature": "():System.Threading.Tasks.ValueTask",
           "normalizedSignature": "DisposeAsync|():System.Threading.Tasks.ValueTask|static=false",
@@ -1462,7 +1462,7 @@
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::Encoding:System.Text.Encoding",
           "clrName": "Encoding",
-          "tsEmitName": "Encoding",
+          "tsEmitName": "encoding",
           "metadataToken": 385878724,
           "canonicalSignature": ":System.Text.Encoding",
           "normalizedSignature": "Encoding|:System.Text.Encoding|static=false|accessor=get",
@@ -1476,7 +1476,7 @@
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::NewLine:System.String",
           "clrName": "NewLine",
-          "tsEmitName": "NewLine",
+          "tsEmitName": "newLine",
           "metadataToken": 385878725,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "NewLine|:System.String|static=false|accessor=getset",
@@ -1490,7 +1490,7 @@
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::Indent:System.Int32",
           "clrName": "Indent",
-          "tsEmitName": "Indent",
+          "tsEmitName": "indent",
           "metadataToken": 385878726,
           "canonicalSignature": ":System.Int32",
           "normalizedSignature": "Indent|:System.Int32|static=false|accessor=getset",
@@ -1504,7 +1504,7 @@
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::InnerWriter:System.IO.TextWriter",
           "clrName": "InnerWriter",
-          "tsEmitName": "InnerWriter",
+          "tsEmitName": "innerWriter",
           "metadataToken": 385878727,
           "canonicalSignature": ":System.IO.TextWriter",
           "normalizedSignature": "InnerWriter|:System.IO.TextWriter|static=false|accessor=get",
@@ -1520,7 +1520,7 @@
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::DefaultTabStringSystem.String",
           "clrName": "DefaultTabString",
-          "tsEmitName": "DefaultTabString",
+          "tsEmitName": "defaultTabString",
           "metadataToken": 67111679,
           "normalizedSignature": "DefaultTabString|System.String|static=true|const=true",
           "isStatic": true,
@@ -1554,7 +1554,7 @@
       ],
       "exposedMethods": [
         {
-          "tsName": "Close",
+          "tsName": "close",
           "isStatic": false,
           "tsSignatureId": "Close|():System.Void|static=false",
           "target": {
@@ -1564,7 +1564,7 @@
           }
         },
         {
-          "tsName": "DisposeAsync",
+          "tsName": "disposeAsync",
           "isStatic": false,
           "tsSignatureId": "DisposeAsync|():System.Threading.Tasks.ValueTask|static=false",
           "target": {
@@ -1574,7 +1574,7 @@
           }
         },
         {
-          "tsName": "Flush",
+          "tsName": "flush",
           "isStatic": false,
           "tsSignatureId": "Flush|():System.Void|static=false",
           "target": {
@@ -1584,7 +1584,7 @@
           }
         },
         {
-          "tsName": "FlushAsync",
+          "tsName": "flushAsync",
           "isStatic": false,
           "tsSignatureId": "FlushAsync|():System.Threading.Tasks.Task|static=false",
           "target": {
@@ -1594,7 +1594,7 @@
           }
         },
         {
-          "tsName": "FlushAsync2",
+          "tsName": "flushAsync2",
           "isStatic": false,
           "tsSignatureId": "FlushAsync|(System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
           "target": {
@@ -1604,7 +1604,7 @@
           }
         },
         {
-          "tsName": "Write8",
+          "tsName": "write",
           "isStatic": false,
           "tsSignatureId": "Write|(System.String):System.Void|static=false",
           "target": {
@@ -1614,7 +1614,7 @@
           }
         },
         {
-          "tsName": "Write9",
+          "tsName": "write2",
           "isStatic": false,
           "tsSignatureId": "Write|(System.Boolean):System.Void|static=false",
           "target": {
@@ -1624,7 +1624,7 @@
           }
         },
         {
-          "tsName": "Write10",
+          "tsName": "write3",
           "isStatic": false,
           "tsSignatureId": "Write|(System.Char):System.Void|static=false",
           "target": {
@@ -1634,7 +1634,7 @@
           }
         },
         {
-          "tsName": "Write11",
+          "tsName": "write4",
           "isStatic": false,
           "tsSignatureId": "Write|(System.Char[]):System.Void|static=false",
           "target": {
@@ -1644,7 +1644,7 @@
           }
         },
         {
-          "tsName": "Write12",
+          "tsName": "write5",
           "isStatic": false,
           "tsSignatureId": "Write|(System.Char[],System.Int32,System.Int32):System.Void|static=false",
           "target": {
@@ -1654,7 +1654,7 @@
           }
         },
         {
-          "tsName": "Write13",
+          "tsName": "write6",
           "isStatic": false,
           "tsSignatureId": "Write|(System.Double):System.Void|static=false",
           "target": {
@@ -1664,7 +1664,7 @@
           }
         },
         {
-          "tsName": "Write14",
+          "tsName": "write7",
           "isStatic": false,
           "tsSignatureId": "Write|(System.Single):System.Void|static=false",
           "target": {
@@ -1674,7 +1674,7 @@
           }
         },
         {
-          "tsName": "Write15",
+          "tsName": "write8",
           "isStatic": false,
           "tsSignatureId": "Write|(System.Int32):System.Void|static=false",
           "target": {
@@ -1684,7 +1684,7 @@
           }
         },
         {
-          "tsName": "Write16",
+          "tsName": "write9",
           "isStatic": false,
           "tsSignatureId": "Write|(System.Int64):System.Void|static=false",
           "target": {
@@ -1694,7 +1694,7 @@
           }
         },
         {
-          "tsName": "Write17",
+          "tsName": "write10",
           "isStatic": false,
           "tsSignatureId": "Write|(System.Object):System.Void|static=false",
           "target": {
@@ -1704,7 +1704,7 @@
           }
         },
         {
-          "tsName": "Write18",
+          "tsName": "write11",
           "isStatic": false,
           "tsSignatureId": "Write|(System.String,System.Object):System.Void|static=false",
           "target": {
@@ -1714,7 +1714,7 @@
           }
         },
         {
-          "tsName": "Write19",
+          "tsName": "write12",
           "isStatic": false,
           "tsSignatureId": "Write|(System.String,System.Object,System.Object):System.Void|static=false",
           "target": {
@@ -1724,7 +1724,7 @@
           }
         },
         {
-          "tsName": "Write20",
+          "tsName": "write13",
           "isStatic": false,
           "tsSignatureId": "Write|(System.String,System.Object[]):System.Void|static=false",
           "target": {
@@ -1734,7 +1734,7 @@
           }
         },
         {
-          "tsName": "Write21",
+          "tsName": "write14",
           "isStatic": false,
           "tsSignatureId": "Write|(System.String,System.ReadOnlySpan_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
           "target": {
@@ -1744,7 +1744,7 @@
           }
         },
         {
-          "tsName": "WriteAsync3",
+          "tsName": "writeAsync",
           "isStatic": false,
           "tsSignatureId": "WriteAsync|(System.Char):System.Threading.Tasks.Task|static=false",
           "target": {
@@ -1754,7 +1754,7 @@
           }
         },
         {
-          "tsName": "WriteAsync4",
+          "tsName": "writeAsync2",
           "isStatic": false,
           "tsSignatureId": "WriteAsync|(System.Char[],System.Int32,System.Int32):System.Threading.Tasks.Task|static=false",
           "target": {
@@ -1764,7 +1764,7 @@
           }
         },
         {
-          "tsName": "WriteAsync5",
+          "tsName": "writeAsync3",
           "isStatic": false,
           "tsSignatureId": "WriteAsync|(System.String):System.Threading.Tasks.Task|static=false",
           "target": {
@@ -1774,7 +1774,7 @@
           }
         },
         {
-          "tsName": "WriteAsync6",
+          "tsName": "writeAsync4",
           "isStatic": false,
           "tsSignatureId": "WriteAsync|(System.ReadOnlyMemory_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
           "target": {
@@ -1784,7 +1784,7 @@
           }
         },
         {
-          "tsName": "WriteAsync7",
+          "tsName": "writeAsync5",
           "isStatic": false,
           "tsSignatureId": "WriteAsync|(System.Text.StringBuilder,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
           "target": {
@@ -1794,7 +1794,7 @@
           }
         },
         {
-          "tsName": "WriteLineNoTabs",
+          "tsName": "writeLineNoTabs",
           "isStatic": false,
           "tsSignatureId": "WriteLineNoTabs|(System.String):System.Void|static=false",
           "target": {
@@ -1804,7 +1804,7 @@
           }
         },
         {
-          "tsName": "WriteLineNoTabsAsync",
+          "tsName": "writeLineNoTabsAsync",
           "isStatic": false,
           "tsSignatureId": "WriteLineNoTabsAsync|(System.String):System.Threading.Tasks.Task|static=false",
           "target": {
@@ -1814,7 +1814,7 @@
           }
         },
         {
-          "tsName": "WriteLine7",
+          "tsName": "writeLine",
           "isStatic": false,
           "tsSignatureId": "WriteLine|(System.String):System.Void|static=false",
           "target": {
@@ -1824,7 +1824,7 @@
           }
         },
         {
-          "tsName": "WriteLine8",
+          "tsName": "writeLine2",
           "isStatic": false,
           "tsSignatureId": "WriteLine|():System.Void|static=false",
           "target": {
@@ -1834,7 +1834,7 @@
           }
         },
         {
-          "tsName": "WriteLine9",
+          "tsName": "writeLine3",
           "isStatic": false,
           "tsSignatureId": "WriteLine|(System.Boolean):System.Void|static=false",
           "target": {
@@ -1844,7 +1844,7 @@
           }
         },
         {
-          "tsName": "WriteLine10",
+          "tsName": "writeLine4",
           "isStatic": false,
           "tsSignatureId": "WriteLine|(System.Char):System.Void|static=false",
           "target": {
@@ -1854,7 +1854,7 @@
           }
         },
         {
-          "tsName": "WriteLine11",
+          "tsName": "writeLine5",
           "isStatic": false,
           "tsSignatureId": "WriteLine|(System.Char[]):System.Void|static=false",
           "target": {
@@ -1864,7 +1864,7 @@
           }
         },
         {
-          "tsName": "WriteLine12",
+          "tsName": "writeLine6",
           "isStatic": false,
           "tsSignatureId": "WriteLine|(System.Char[],System.Int32,System.Int32):System.Void|static=false",
           "target": {
@@ -1874,7 +1874,7 @@
           }
         },
         {
-          "tsName": "WriteLine13",
+          "tsName": "writeLine7",
           "isStatic": false,
           "tsSignatureId": "WriteLine|(System.Double):System.Void|static=false",
           "target": {
@@ -1884,7 +1884,7 @@
           }
         },
         {
-          "tsName": "WriteLine14",
+          "tsName": "writeLine8",
           "isStatic": false,
           "tsSignatureId": "WriteLine|(System.Single):System.Void|static=false",
           "target": {
@@ -1894,7 +1894,7 @@
           }
         },
         {
-          "tsName": "WriteLine15",
+          "tsName": "writeLine9",
           "isStatic": false,
           "tsSignatureId": "WriteLine|(System.Int32):System.Void|static=false",
           "target": {
@@ -1904,7 +1904,7 @@
           }
         },
         {
-          "tsName": "WriteLine16",
+          "tsName": "writeLine10",
           "isStatic": false,
           "tsSignatureId": "WriteLine|(System.Int64):System.Void|static=false",
           "target": {
@@ -1914,7 +1914,7 @@
           }
         },
         {
-          "tsName": "WriteLine17",
+          "tsName": "writeLine11",
           "isStatic": false,
           "tsSignatureId": "WriteLine|(System.Object):System.Void|static=false",
           "target": {
@@ -1924,7 +1924,7 @@
           }
         },
         {
-          "tsName": "WriteLine18",
+          "tsName": "writeLine12",
           "isStatic": false,
           "tsSignatureId": "WriteLine|(System.String,System.Object):System.Void|static=false",
           "target": {
@@ -1934,7 +1934,7 @@
           }
         },
         {
-          "tsName": "WriteLine19",
+          "tsName": "writeLine13",
           "isStatic": false,
           "tsSignatureId": "WriteLine|(System.String,System.Object,System.Object):System.Void|static=false",
           "target": {
@@ -1944,7 +1944,7 @@
           }
         },
         {
-          "tsName": "WriteLine20",
+          "tsName": "writeLine14",
           "isStatic": false,
           "tsSignatureId": "WriteLine|(System.String,System.Object[]):System.Void|static=false",
           "target": {
@@ -1954,7 +1954,7 @@
           }
         },
         {
-          "tsName": "WriteLine21",
+          "tsName": "writeLine15",
           "isStatic": false,
           "tsSignatureId": "WriteLine|(System.String,System.ReadOnlySpan_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
           "target": {
@@ -1964,7 +1964,7 @@
           }
         },
         {
-          "tsName": "WriteLine22",
+          "tsName": "writeLine16",
           "isStatic": false,
           "tsSignatureId": "WriteLine|(System.UInt32):System.Void|static=false",
           "target": {
@@ -1974,7 +1974,7 @@
           }
         },
         {
-          "tsName": "WriteLineAsync3",
+          "tsName": "writeLineAsync",
           "isStatic": false,
           "tsSignatureId": "WriteLineAsync|():System.Threading.Tasks.Task|static=false",
           "target": {
@@ -1984,7 +1984,7 @@
           }
         },
         {
-          "tsName": "WriteLineAsync4",
+          "tsName": "writeLineAsync2",
           "isStatic": false,
           "tsSignatureId": "WriteLineAsync|(System.Char):System.Threading.Tasks.Task|static=false",
           "target": {
@@ -1994,7 +1994,7 @@
           }
         },
         {
-          "tsName": "WriteLineAsync5",
+          "tsName": "writeLineAsync3",
           "isStatic": false,
           "tsSignatureId": "WriteLineAsync|(System.Char[],System.Int32,System.Int32):System.Threading.Tasks.Task|static=false",
           "target": {
@@ -2004,7 +2004,7 @@
           }
         },
         {
-          "tsName": "WriteLineAsync6",
+          "tsName": "writeLineAsync4",
           "isStatic": false,
           "tsSignatureId": "WriteLineAsync|(System.String):System.Threading.Tasks.Task|static=false",
           "target": {
@@ -2014,7 +2014,7 @@
           }
         },
         {
-          "tsName": "WriteLineAsync7",
+          "tsName": "writeLineAsync5",
           "isStatic": false,
           "tsSignatureId": "WriteLineAsync|(System.ReadOnlyMemory_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
           "target": {
@@ -2024,7 +2024,7 @@
           }
         },
         {
-          "tsName": "WriteLineAsync8",
+          "tsName": "writeLineAsync6",
           "isStatic": false,
           "tsSignatureId": "WriteLineAsync|(System.Text.StringBuilder,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
           "target": {
@@ -2034,7 +2034,7 @@
           }
         },
         {
-          "tsName": "Dispose$view",
+          "tsName": "dispose",
           "isStatic": false,
           "tsSignatureId": "Dispose|():System.Void|static=false",
           "target": {
@@ -2044,7 +2044,7 @@
           }
         },
         {
-          "tsName": "DisposeAsync$view",
+          "tsName": "disposeAsync$view",
           "isStatic": false,
           "tsSignatureId": "DisposeAsync|():System.Threading.Tasks.ValueTask|static=false",
           "target": {
@@ -2234,7 +2234,7 @@
           }
         },
         {
-          "tsName": "Write4",
+          "tsName": "write4",
           "isStatic": false,
           "tsSignatureId": "Write|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
           "target": {
@@ -2244,7 +2244,7 @@
           }
         },
         {
-          "tsName": "WriteLine5",
+          "tsName": "writeLine5",
           "isStatic": false,
           "tsSignatureId": "WriteLine|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
           "target": {
@@ -2254,7 +2254,7 @@
           }
         },
         {
-          "tsName": "Synchronized",
+          "tsName": "synchronized",
           "isStatic": true,
           "tsSignatureId": "Synchronized|(System.IO.TextWriter):System.IO.TextWriter|static=true",
           "target": {
@@ -2264,7 +2264,7 @@
           }
         },
         {
-          "tsName": "CreateBroadcasting",
+          "tsName": "createBroadcasting",
           "isStatic": true,
           "tsSignatureId": "CreateBroadcasting|(System.IO.TextWriter[]):System.IO.TextWriter|static=true",
           "target": {
@@ -2274,7 +2274,7 @@
           }
         },
         {
-          "tsName": "GetLifetimeService",
+          "tsName": "getLifetimeService",
           "isStatic": false,
           "tsSignatureId": "GetLifetimeService|():System.Object|static=false",
           "target": {
@@ -2284,7 +2284,7 @@
           }
         },
         {
-          "tsName": "InitializeLifetimeService",
+          "tsName": "initializeLifetimeService",
           "isStatic": false,
           "tsSignatureId": "InitializeLifetimeService|():System.Object|static=false",
           "target": {
@@ -2294,7 +2294,7 @@
           }
         },
         {
-          "tsName": "GetType",
+          "tsName": "getType",
           "isStatic": false,
           "tsSignatureId": "GetType|():System.Type|static=false",
           "target": {
@@ -2304,7 +2304,7 @@
           }
         },
         {
-          "tsName": "ToString",
+          "tsName": "toString",
           "isStatic": false,
           "tsSignatureId": "ToString|():System.String|static=false",
           "target": {
@@ -2314,7 +2314,7 @@
           }
         },
         {
-          "tsName": "Equals",
+          "tsName": "equals",
           "isStatic": false,
           "tsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
           "target": {
@@ -2324,7 +2324,7 @@
           }
         },
         {
-          "tsName": "Equals",
+          "tsName": "equals",
           "isStatic": true,
           "tsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
           "target": {
@@ -2334,7 +2334,7 @@
           }
         },
         {
-          "tsName": "ReferenceEquals",
+          "tsName": "referenceEquals",
           "isStatic": true,
           "tsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
           "target": {
@@ -2344,7 +2344,7 @@
           }
         },
         {
-          "tsName": "GetHashCode",
+          "tsName": "getHashCode",
           "isStatic": false,
           "tsSignatureId": "GetHashCode|():System.Int32|static=false",
           "target": {
@@ -2356,7 +2356,7 @@
       ],
       "exposedProperties": [
         {
-          "tsName": "Encoding",
+          "tsName": "encoding",
           "isStatic": false,
           "tsSignatureId": "Encoding|:System.Text.Encoding|static=false|accessor=get",
           "target": {
@@ -2366,7 +2366,7 @@
           }
         },
         {
-          "tsName": "NewLine",
+          "tsName": "newLine",
           "isStatic": false,
           "tsSignatureId": "NewLine|:System.String|static=false|accessor=getset",
           "target": {
@@ -2376,7 +2376,7 @@
           }
         },
         {
-          "tsName": "Indent",
+          "tsName": "indent",
           "isStatic": false,
           "tsSignatureId": "Indent|:System.Int32|static=false|accessor=getset",
           "target": {
@@ -2386,7 +2386,7 @@
           }
         },
         {
-          "tsName": "InnerWriter",
+          "tsName": "innerWriter",
           "isStatic": false,
           "tsSignatureId": "InnerWriter|:System.IO.TextWriter|static=false|accessor=get",
           "target": {
@@ -2396,7 +2396,7 @@
           }
         },
         {
-          "tsName": "FormatProvider",
+          "tsName": "formatProvider",
           "isStatic": false,
           "tsSignatureId": "FormatProvider|:System.IFormatProvider|static=false|accessor=get",
           "target": {
@@ -2408,7 +2408,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "DefaultTabString",
+          "tsName": "defaultTabString",
           "isStatic": true,
           "tsSignatureId": "DefaultTabString|System.String|static=true|const=true",
           "target": {

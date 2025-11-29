@@ -37,8 +37,8 @@ export type CLROf<T> =
 export class ValueSerializerAttribute$instance extends System_Internal.Attribute$instance {
     constructor(valueSerializerType: Type);
     constructor(valueSerializerTypeName: string);
-    readonly ValueSerializerType: Type;
-    readonly ValueSerializerTypeName: string;
+    readonly valueSerializerType: Type;
+    readonly valueSerializerTypeName: string;
 }
 
 

@@ -43,185 +43,185 @@ export type CLROf<T> =
     T; // Identity fallback for non-primitive types
 
 export enum Characteristics {
-    RelocsStripped = 1,
-    ExecutableImage = 2,
-    LineNumsStripped = 4,
-    LocalSymsStripped = 8,
-    AggressiveWSTrim = 16,
-    LargeAddressAware = 32,
-    BytesReversedLo = 128,
-    Bit32Machine = 256,
-    DebugStripped = 512,
-    RemovableRunFromSwap = 1024,
-    NetRunFromSwap = 2048,
-    System = 4096,
-    Dll = 8192,
-    UpSystemOnly = 16384,
-    BytesReversedHi = 32768
+    relocsStripped = 1,
+    executableImage = 2,
+    lineNumsStripped = 4,
+    localSymsStripped = 8,
+    aggressiveWSTrim = 16,
+    largeAddressAware = 32,
+    bytesReversedLo = 128,
+    bit32Machine = 256,
+    debugStripped = 512,
+    removableRunFromSwap = 1024,
+    netRunFromSwap = 2048,
+    system = 4096,
+    dll = 8192,
+    upSystemOnly = 16384,
+    bytesReversedHi = 32768
 }
 
 
 export enum CorFlags {
-    ILOnly = 1,
-    Requires32Bit = 2,
-    ILLibrary = 4,
-    StrongNameSigned = 8,
-    NativeEntryPoint = 16,
-    TrackDebugData = 65536,
-    Prefers32Bit = 131072
+    ilOnly = 1,
+    requires32Bit = 2,
+    ilLibrary = 4,
+    strongNameSigned = 8,
+    nativeEntryPoint = 16,
+    trackDebugData = 65536,
+    prefers32Bit = 131072
 }
 
 
 export enum DebugDirectoryEntryType {
-    Unknown = 0,
-    Coff = 1,
-    CodeView = 2,
-    Reproducible = 16,
-    EmbeddedPortablePdb = 17,
-    PdbChecksum = 19
+    unknown_ = 0,
+    coff = 1,
+    codeView = 2,
+    reproducible = 16,
+    embeddedPortablePdb = 17,
+    pdbChecksum = 19
 }
 
 
 export enum DllCharacteristics {
-    ProcessInit = 1,
-    ProcessTerm = 2,
-    ThreadInit = 4,
-    ThreadTerm = 8,
-    HighEntropyVirtualAddressSpace = 32,
-    DynamicBase = 64,
-    ForceIntegrity = 128,
-    NxCompatible = 256,
-    NoIsolation = 512,
-    NoSeh = 1024,
-    NoBind = 2048,
-    AppContainer = 4096,
-    WdmDriver = 8192,
-    ControlFlowGuard = 16384,
-    TerminalServerAware = 32768
+    processInit = 1,
+    processTerm = 2,
+    threadInit = 4,
+    threadTerm = 8,
+    highEntropyVirtualAddressSpace = 32,
+    dynamicBase = 64,
+    forceIntegrity = 128,
+    nxCompatible = 256,
+    noIsolation = 512,
+    noSeh = 1024,
+    noBind = 2048,
+    appContainer = 4096,
+    wdmDriver = 8192,
+    controlFlowGuard = 16384,
+    terminalServerAware = 32768
 }
 
 
 export enum Machine {
-    Unknown = 0,
-    I386 = 332,
-    WceMipsV2 = 361,
-    Alpha = 388,
-    SH3 = 418,
-    SH3Dsp = 419,
-    SH3E = 420,
-    SH4 = 422,
-    SH5 = 424,
-    Arm = 448,
-    Thumb = 450,
-    ArmThumb2 = 452,
-    AM33 = 467,
-    PowerPC = 496,
-    PowerPCFP = 497,
-    IA64 = 512,
-    MIPS16 = 614,
-    Alpha64 = 644,
-    MipsFpu = 870,
-    MipsFpu16 = 1126,
-    Tricore = 1312,
-    Ebc = 3772,
-    Amd64 = 34404,
-    M32R = 36929,
-    Arm64 = 43620,
-    LoongArch32 = 25138,
-    LoongArch64 = 25188,
-    RiscV32 = 20530,
-    RiscV64 = 20580,
-    RiscV128 = 20776
+    unknown_ = 0,
+    i386 = 332,
+    wceMipsV2 = 361,
+    alpha = 388,
+    sh3 = 418,
+    sh3Dsp = 419,
+    sh3e = 420,
+    sh4 = 422,
+    sh5 = 424,
+    arm = 448,
+    thumb = 450,
+    armThumb2 = 452,
+    am33 = 467,
+    powerPC = 496,
+    powerPCFP = 497,
+    ia64 = 512,
+    mips16 = 614,
+    alpha64 = 644,
+    mipsFpu = 870,
+    mipsFpu16 = 1126,
+    tricore = 1312,
+    ebc = 3772,
+    amd64 = 34404,
+    m32r = 36929,
+    arm64 = 43620,
+    loongArch32 = 25138,
+    loongArch64 = 25188,
+    riscV32 = 20530,
+    riscV64 = 20580,
+    riscV128 = 20776
 }
 
 
 export enum PEMagic {
-    PE32 = 267,
-    PE32Plus = 523
+    pe32 = 267,
+    pe32Plus = 523
 }
 
 
 export enum PEStreamOptions {
-    Default = 0,
-    LeaveOpen = 1,
-    PrefetchMetadata = 2,
-    PrefetchEntireImage = 4,
-    IsLoadedImage = 8
+    default_ = 0,
+    leaveOpen = 1,
+    prefetchMetadata = 2,
+    prefetchEntireImage = 4,
+    isLoadedImage = 8
 }
 
 
 export enum SectionCharacteristics {
-    TypeReg = 0,
-    TypeDSect = 1,
-    TypeNoLoad = 2,
-    TypeGroup = 4,
-    TypeNoPad = 8,
-    TypeCopy = 16,
-    ContainsCode = 32,
-    ContainsInitializedData = 64,
-    ContainsUninitializedData = 128,
-    LinkerOther = 256,
-    LinkerInfo = 512,
-    TypeOver = 1024,
-    LinkerRemove = 2048,
-    LinkerComdat = 4096,
-    MemProtected = 16384,
-    NoDeferSpecExc = 16384,
-    GPRel = 32768,
-    MemFardata = 32768,
-    MemSysheap = 65536,
-    MemPurgeable = 131072,
-    Mem16Bit = 131072,
-    MemLocked = 262144,
-    MemPreload = 524288,
-    Align1Bytes = 1048576,
-    Align2Bytes = 2097152,
-    Align4Bytes = 3145728,
-    Align8Bytes = 4194304,
-    Align16Bytes = 5242880,
-    Align32Bytes = 6291456,
-    Align64Bytes = 7340032,
-    Align128Bytes = 8388608,
-    Align256Bytes = 9437184,
-    Align512Bytes = 10485760,
-    Align1024Bytes = 11534336,
-    Align2048Bytes = 12582912,
-    Align4096Bytes = 13631488,
-    Align8192Bytes = 14680064,
-    AlignMask = 15728640,
-    LinkerNRelocOvfl = 16777216,
-    MemDiscardable = 33554432,
-    MemNotCached = 67108864,
-    MemNotPaged = 134217728,
-    MemShared = 268435456,
-    MemExecute = 536870912,
-    MemRead = 1073741824,
-    MemWrite = 2147483648
+    typeReg = 0,
+    typeDSect = 1,
+    typeNoLoad = 2,
+    typeGroup = 4,
+    typeNoPad = 8,
+    typeCopy = 16,
+    containsCode = 32,
+    containsInitializedData = 64,
+    containsUninitializedData = 128,
+    linkerOther = 256,
+    linkerInfo = 512,
+    typeOver = 1024,
+    linkerRemove = 2048,
+    linkerComdat = 4096,
+    memProtected = 16384,
+    noDeferSpecExc = 16384,
+    gpRel = 32768,
+    memFardata = 32768,
+    memSysheap = 65536,
+    memPurgeable = 131072,
+    mem16Bit = 131072,
+    memLocked = 262144,
+    memPreload = 524288,
+    align1Bytes = 1048576,
+    align2Bytes = 2097152,
+    align4Bytes = 3145728,
+    align8Bytes = 4194304,
+    align16Bytes = 5242880,
+    align32Bytes = 6291456,
+    align64Bytes = 7340032,
+    align128Bytes = 8388608,
+    align256Bytes = 9437184,
+    align512Bytes = 10485760,
+    align1024Bytes = 11534336,
+    align2048Bytes = 12582912,
+    align4096Bytes = 13631488,
+    align8192Bytes = 14680064,
+    alignMask = 15728640,
+    linkerNRelocOvfl = 16777216,
+    memDiscardable = 33554432,
+    memNotCached = 67108864,
+    memNotPaged = 134217728,
+    memShared = 268435456,
+    memExecute = 536870912,
+    memRead = 1073741824,
+    memWrite = 2147483648
 }
 
 
 export enum Subsystem {
-    Unknown = 0,
-    Native = 1,
-    WindowsGui = 2,
-    WindowsCui = 3,
-    OS2Cui = 5,
-    PosixCui = 7,
-    NativeWindows = 8,
-    WindowsCEGui = 9,
-    EfiApplication = 10,
-    EfiBootServiceDriver = 11,
-    EfiRuntimeDriver = 12,
-    EfiRom = 13,
-    Xbox = 14,
-    WindowsBootApplication = 16
+    unknown_ = 0,
+    native = 1,
+    windowsGui = 2,
+    windowsCui = 3,
+    os2Cui = 5,
+    posixCui = 7,
+    nativeWindows = 8,
+    windowsCEGui = 9,
+    efiApplication = 10,
+    efiBootServiceDriver = 11,
+    efiRuntimeDriver = 12,
+    efiRom = 13,
+    xbox = 14,
+    windowsBootApplication = 16
 }
 
 
 export class CodeViewDebugDirectoryData$instance {
-    readonly Age: int;
-    readonly Guid: Guid;
-    readonly Path: string;
+    readonly age: int;
+    readonly guid: Guid;
+    readonly path: string;
 }
 
 
@@ -229,14 +229,14 @@ export type CodeViewDebugDirectoryData = CodeViewDebugDirectoryData$instance;
 
 export class DebugDirectoryEntry$instance {
     constructor(stamp: uint, majorVersion: ushort, minorVersion: ushort, type_: DebugDirectoryEntryType, dataSize: int, dataRelativeVirtualAddress: int, dataPointer: int);
-    readonly DataPointer: int;
-    readonly DataRelativeVirtualAddress: int;
-    readonly DataSize: int;
-    readonly IsPortableCodeView: boolean;
-    readonly MajorVersion: ushort;
-    readonly MinorVersion: ushort;
-    readonly Stamp: uint;
-    readonly Type: DebugDirectoryEntryType;
+    readonly dataPointer: int;
+    readonly dataRelativeVirtualAddress: int;
+    readonly dataSize: int;
+    readonly isPortableCodeView: boolean;
+    readonly majorVersion: ushort;
+    readonly minorVersion: ushort;
+    readonly stamp: uint;
+    readonly type_: DebugDirectoryEntryType;
 }
 
 
@@ -244,44 +244,44 @@ export type DebugDirectoryEntry = DebugDirectoryEntry$instance;
 
 export class DirectoryEntry$instance {
     constructor(relativeVirtualAddress: int, size: int);
-    readonly RelativeVirtualAddress: int;
-    readonly Size: int;
+    readonly relativeVirtualAddress: int;
+    readonly size: int;
 }
 
 
 export type DirectoryEntry = DirectoryEntry$instance;
 
 export class PdbChecksumDebugDirectoryData$instance {
-    readonly AlgorithmName: string;
-    readonly Checksum: ImmutableArray_1<CLROf<byte>>;
+    readonly algorithmName: string;
+    readonly checksum: ImmutableArray_1<CLROf<byte>>;
 }
 
 
 export type PdbChecksumDebugDirectoryData = PdbChecksumDebugDirectoryData$instance;
 
 export class PEMemoryBlock$instance {
-    readonly Length: int;
-    readonly Pointer: ptr<byte>;
-    GetContent(): ImmutableArray_1<CLROf<byte>>;
-    GetContent(start: int, length: int): ImmutableArray_1<CLROf<byte>>;
-    GetReader(): BlobReader;
-    GetReader(start: int, length: int): BlobReader;
+    readonly length: int;
+    readonly pointer: ptr<byte>;
+    getContent(): ImmutableArray_1<CLROf<byte>>;
+    getContent(start: int, length: int): ImmutableArray_1<CLROf<byte>>;
+    getReader(): BlobReader;
+    getReader(start: int, length: int): BlobReader;
 }
 
 
 export type PEMemoryBlock = PEMemoryBlock$instance;
 
 export class SectionHeader$instance {
-    readonly Name: string;
-    readonly NumberOfLineNumbers: ushort;
-    readonly NumberOfRelocations: ushort;
-    readonly PointerToLineNumbers: int;
-    readonly PointerToRawData: int;
-    readonly PointerToRelocations: int;
-    readonly SectionCharacteristics: SectionCharacteristics;
-    readonly SizeOfRawData: int;
-    readonly VirtualAddress: int;
-    readonly VirtualSize: int;
+    readonly name: string;
+    readonly numberOfLineNumbers: ushort;
+    readonly numberOfRelocations: ushort;
+    readonly pointerToLineNumbers: int;
+    readonly pointerToRawData: int;
+    readonly pointerToRelocations: int;
+    readonly sectionCharacteristics: SectionCharacteristics;
+    readonly sizeOfRawData: int;
+    readonly virtualAddress: int;
+    readonly virtualSize: int;
 }
 
 
@@ -289,38 +289,38 @@ export type SectionHeader = SectionHeader$instance;
 
 export class SectionLocation$instance {
     constructor(relativeVirtualAddress: int, pointerToRawData: int);
-    readonly PointerToRawData: int;
-    readonly RelativeVirtualAddress: int;
+    readonly pointerToRawData: int;
+    readonly relativeVirtualAddress: int;
 }
 
 
 export type SectionLocation = SectionLocation$instance;
 
 export class CoffHeader$instance {
-    readonly Characteristics: Characteristics;
-    readonly Machine: Machine;
-    readonly NumberOfSections: short;
-    readonly NumberOfSymbols: int;
-    readonly PointerToSymbolTable: int;
-    readonly SizeOfOptionalHeader: short;
-    readonly TimeDateStamp: int;
+    readonly characteristics: Characteristics;
+    readonly machine: Machine;
+    readonly numberOfSections: short;
+    readonly numberOfSymbols: int;
+    readonly pointerToSymbolTable: int;
+    readonly sizeOfOptionalHeader: short;
+    readonly timeDateStamp: int;
 }
 
 
 export type CoffHeader = CoffHeader$instance;
 
 export class CorHeader$instance {
-    readonly CodeManagerTableDirectory: DirectoryEntry;
-    readonly EntryPointTokenOrRelativeVirtualAddress: int;
-    readonly ExportAddressTableJumpsDirectory: DirectoryEntry;
-    readonly Flags: CorFlags;
-    readonly MajorRuntimeVersion: ushort;
-    readonly ManagedNativeHeaderDirectory: DirectoryEntry;
-    readonly MetadataDirectory: DirectoryEntry;
-    readonly MinorRuntimeVersion: ushort;
-    readonly ResourcesDirectory: DirectoryEntry;
-    readonly StrongNameSignatureDirectory: DirectoryEntry;
-    readonly VtableFixupsDirectory: DirectoryEntry;
+    readonly codeManagerTableDirectory: DirectoryEntry;
+    readonly entryPointTokenOrRelativeVirtualAddress: int;
+    readonly exportAddressTableJumpsDirectory: DirectoryEntry;
+    readonly flags: CorFlags;
+    readonly majorRuntimeVersion: ushort;
+    readonly managedNativeHeaderDirectory: DirectoryEntry;
+    readonly metadataDirectory: DirectoryEntry;
+    readonly minorRuntimeVersion: ushort;
+    readonly resourcesDirectory: DirectoryEntry;
+    readonly strongNameSignatureDirectory: DirectoryEntry;
+    readonly vtableFixupsDirectory: DirectoryEntry;
 }
 
 
@@ -328,13 +328,13 @@ export type CorHeader = CorHeader$instance;
 
 export class DebugDirectoryBuilder$instance {
     constructor();
-    AddCodeViewEntry(pdbPath: string, pdbContentId: BlobContentId, portablePdbVersion: ushort): void;
-    AddCodeViewEntry(pdbPath: string, pdbContentId: BlobContentId, portablePdbVersion: ushort, age: int): void;
-    AddEmbeddedPortablePdbEntry(debugMetadata: BlobBuilder, portablePdbVersion: ushort): void;
-    AddEntry(type_: DebugDirectoryEntryType, version: uint, stamp: uint): void;
-    AddEntry<TData>(type_: DebugDirectoryEntryType, version: uint, stamp: uint, data: TData, dataSerializer: Action_2<BlobBuilder, TData>): void;
-    AddPdbChecksumEntry(algorithmName: string, checksum: ImmutableArray_1<CLROf<byte>>): void;
-    AddReproducibleEntry(): void;
+    addCodeViewEntry(pdbPath: string, pdbContentId: BlobContentId, portablePdbVersion: ushort): void;
+    addCodeViewEntry(pdbPath: string, pdbContentId: BlobContentId, portablePdbVersion: ushort, age: int): void;
+    addEmbeddedPortablePdbEntry(debugMetadata: BlobBuilder, portablePdbVersion: ushort): void;
+    addEntry(type_: DebugDirectoryEntryType, version: uint, stamp: uint): void;
+    addEntry<TData>(type_: DebugDirectoryEntryType, version: uint, stamp: uint, data: TData, dataSerializer: Action_2<BlobBuilder, TData>): void;
+    addPdbChecksumEntry(algorithmName: string, checksum: ImmutableArray_1<CLROf<byte>>): void;
+    addReproducibleEntry(): void;
 }
 
 
@@ -342,19 +342,19 @@ export type DebugDirectoryBuilder = DebugDirectoryBuilder$instance;
 
 export class ManagedPEBuilder$instance extends PEBuilder$instance {
     constructor(header: PEHeaderBuilder, metadataRootBuilder: MetadataRootBuilder, ilStream: BlobBuilder, mappedFieldData: BlobBuilder, managedResources: BlobBuilder, nativeResources: ResourceSectionBuilder, debugDirectoryBuilder: DebugDirectoryBuilder, strongNameSignatureSize: int, entryPoint: MethodDefinitionHandle, flags: CorFlags, deterministicIdProvider: Func_2<IEnumerable_1<Blob>, BlobContentId>);
-    Sign(peImage: BlobBuilder, signatureProvider: Func_2<IEnumerable_1<Blob>, byte[]>): void;
-    static readonly ManagedResourcesDataAlignment: int;
-    static readonly MappedFieldDataAlignment: int;
+    sign(peImage: BlobBuilder, signatureProvider: Func_2<IEnumerable_1<Blob>, byte[]>): void;
+    static readonly managedResourcesDataAlignment: int;
+    static readonly mappedFieldDataAlignment: int;
 }
 
 
 export type ManagedPEBuilder = ManagedPEBuilder$instance;
 
 export abstract class PEBuilder$instance {
-    readonly Header: PEHeaderBuilder;
-    readonly IdProvider: Func_2<IEnumerable_1<Blob>, BlobContentId>;
-    readonly IsDeterministic: boolean;
-    Serialize(builder: BlobBuilder): BlobContentId;
+    readonly header: PEHeaderBuilder;
+    readonly idProvider: Func_2<IEnumerable_1<Blob>, BlobContentId>;
+    readonly isDeterministic: boolean;
+    serialize(builder: BlobBuilder): BlobContentId;
 }
 
 
@@ -362,70 +362,70 @@ export type PEBuilder = PEBuilder$instance;
 
 export class PEDirectoriesBuilder$instance {
     constructor();
-    AddressOfEntryPoint: int;
-    BaseRelocationTable: DirectoryEntry;
-    BoundImportTable: DirectoryEntry;
-    CopyrightTable: DirectoryEntry;
-    CorHeaderTable: DirectoryEntry;
-    DebugTable: DirectoryEntry;
-    DelayImportTable: DirectoryEntry;
-    ExceptionTable: DirectoryEntry;
-    ExportTable: DirectoryEntry;
-    GlobalPointerTable: DirectoryEntry;
-    ImportAddressTable: DirectoryEntry;
-    ImportTable: DirectoryEntry;
-    LoadConfigTable: DirectoryEntry;
-    ResourceTable: DirectoryEntry;
-    ThreadLocalStorageTable: DirectoryEntry;
+    addressOfEntryPoint: int;
+    baseRelocationTable: DirectoryEntry;
+    boundImportTable: DirectoryEntry;
+    copyrightTable: DirectoryEntry;
+    corHeaderTable: DirectoryEntry;
+    debugTable: DirectoryEntry;
+    delayImportTable: DirectoryEntry;
+    exceptionTable: DirectoryEntry;
+    exportTable: DirectoryEntry;
+    globalPointerTable: DirectoryEntry;
+    importAddressTable: DirectoryEntry;
+    importTable: DirectoryEntry;
+    loadConfigTable: DirectoryEntry;
+    resourceTable: DirectoryEntry;
+    threadLocalStorageTable: DirectoryEntry;
 }
 
 
 export type PEDirectoriesBuilder = PEDirectoriesBuilder$instance;
 
 export class PEHeader$instance {
-    readonly AddressOfEntryPoint: int;
-    readonly BaseOfCode: int;
-    readonly BaseOfData: int;
-    readonly BaseRelocationTableDirectory: DirectoryEntry;
-    readonly BoundImportTableDirectory: DirectoryEntry;
-    readonly CertificateTableDirectory: DirectoryEntry;
-    readonly CheckSum: uint;
-    readonly CopyrightTableDirectory: DirectoryEntry;
-    readonly CorHeaderTableDirectory: DirectoryEntry;
-    readonly DebugTableDirectory: DirectoryEntry;
-    readonly DelayImportTableDirectory: DirectoryEntry;
-    readonly DllCharacteristics: DllCharacteristics;
-    readonly ExceptionTableDirectory: DirectoryEntry;
-    readonly ExportTableDirectory: DirectoryEntry;
-    readonly FileAlignment: int;
-    readonly GlobalPointerTableDirectory: DirectoryEntry;
-    readonly ImageBase: ulong;
-    readonly ImportAddressTableDirectory: DirectoryEntry;
-    readonly ImportTableDirectory: DirectoryEntry;
-    readonly LoadConfigTableDirectory: DirectoryEntry;
-    readonly Magic: PEMagic;
-    readonly MajorImageVersion: ushort;
-    readonly MajorLinkerVersion: byte;
-    readonly MajorOperatingSystemVersion: ushort;
-    readonly MajorSubsystemVersion: ushort;
-    readonly MinorImageVersion: ushort;
-    readonly MinorLinkerVersion: byte;
-    readonly MinorOperatingSystemVersion: ushort;
-    readonly MinorSubsystemVersion: ushort;
-    readonly NumberOfRvaAndSizes: int;
-    readonly ResourceTableDirectory: DirectoryEntry;
-    readonly SectionAlignment: int;
-    readonly SizeOfCode: int;
-    readonly SizeOfHeaders: int;
-    readonly SizeOfHeapCommit: ulong;
-    readonly SizeOfHeapReserve: ulong;
-    readonly SizeOfImage: int;
-    readonly SizeOfInitializedData: int;
-    readonly SizeOfStackCommit: ulong;
-    readonly SizeOfStackReserve: ulong;
-    readonly SizeOfUninitializedData: int;
-    readonly Subsystem: Subsystem;
-    readonly ThreadLocalStorageTableDirectory: DirectoryEntry;
+    readonly addressOfEntryPoint: int;
+    readonly baseOfCode: int;
+    readonly baseOfData: int;
+    readonly baseRelocationTableDirectory: DirectoryEntry;
+    readonly boundImportTableDirectory: DirectoryEntry;
+    readonly certificateTableDirectory: DirectoryEntry;
+    readonly checkSum: uint;
+    readonly copyrightTableDirectory: DirectoryEntry;
+    readonly corHeaderTableDirectory: DirectoryEntry;
+    readonly debugTableDirectory: DirectoryEntry;
+    readonly delayImportTableDirectory: DirectoryEntry;
+    readonly dllCharacteristics: DllCharacteristics;
+    readonly exceptionTableDirectory: DirectoryEntry;
+    readonly exportTableDirectory: DirectoryEntry;
+    readonly fileAlignment: int;
+    readonly globalPointerTableDirectory: DirectoryEntry;
+    readonly imageBase: ulong;
+    readonly importAddressTableDirectory: DirectoryEntry;
+    readonly importTableDirectory: DirectoryEntry;
+    readonly loadConfigTableDirectory: DirectoryEntry;
+    readonly magic: PEMagic;
+    readonly majorImageVersion: ushort;
+    readonly majorLinkerVersion: byte;
+    readonly majorOperatingSystemVersion: ushort;
+    readonly majorSubsystemVersion: ushort;
+    readonly minorImageVersion: ushort;
+    readonly minorLinkerVersion: byte;
+    readonly minorOperatingSystemVersion: ushort;
+    readonly minorSubsystemVersion: ushort;
+    readonly numberOfRvaAndSizes: int;
+    readonly resourceTableDirectory: DirectoryEntry;
+    readonly sectionAlignment: int;
+    readonly sizeOfCode: int;
+    readonly sizeOfHeaders: int;
+    readonly sizeOfHeapCommit: ulong;
+    readonly sizeOfHeapReserve: ulong;
+    readonly sizeOfImage: int;
+    readonly sizeOfInitializedData: int;
+    readonly sizeOfStackCommit: ulong;
+    readonly sizeOfStackReserve: ulong;
+    readonly sizeOfUninitializedData: int;
+    readonly subsystem: Subsystem;
+    readonly threadLocalStorageTableDirectory: DirectoryEntry;
 }
 
 
@@ -433,27 +433,27 @@ export type PEHeader = PEHeader$instance;
 
 export class PEHeaderBuilder$instance {
     constructor(machine: Machine, sectionAlignment: int, fileAlignment: int, imageBase: ulong, majorLinkerVersion: byte, minorLinkerVersion: byte, majorOperatingSystemVersion: ushort, minorOperatingSystemVersion: ushort, majorImageVersion: ushort, minorImageVersion: ushort, majorSubsystemVersion: ushort, minorSubsystemVersion: ushort, subsystem: Subsystem, dllCharacteristics: DllCharacteristics, imageCharacteristics: Characteristics, sizeOfStackReserve: ulong, sizeOfStackCommit: ulong, sizeOfHeapReserve: ulong, sizeOfHeapCommit: ulong);
-    readonly DllCharacteristics: DllCharacteristics;
-    readonly FileAlignment: int;
-    readonly ImageBase: ulong;
-    readonly ImageCharacteristics: Characteristics;
-    readonly Machine: Machine;
-    readonly MajorImageVersion: ushort;
-    readonly MajorLinkerVersion: byte;
-    readonly MajorOperatingSystemVersion: ushort;
-    readonly MajorSubsystemVersion: ushort;
-    readonly MinorImageVersion: ushort;
-    readonly MinorLinkerVersion: byte;
-    readonly MinorOperatingSystemVersion: ushort;
-    readonly MinorSubsystemVersion: ushort;
-    readonly SectionAlignment: int;
-    readonly SizeOfHeapCommit: ulong;
-    readonly SizeOfHeapReserve: ulong;
-    readonly SizeOfStackCommit: ulong;
-    readonly SizeOfStackReserve: ulong;
-    readonly Subsystem: Subsystem;
-    static CreateExecutableHeader(): PEHeaderBuilder;
-    static CreateLibraryHeader(): PEHeaderBuilder;
+    readonly dllCharacteristics: DllCharacteristics;
+    readonly fileAlignment: int;
+    readonly imageBase: ulong;
+    readonly imageCharacteristics: Characteristics;
+    readonly machine: Machine;
+    readonly majorImageVersion: ushort;
+    readonly majorLinkerVersion: byte;
+    readonly majorOperatingSystemVersion: ushort;
+    readonly majorSubsystemVersion: ushort;
+    readonly minorImageVersion: ushort;
+    readonly minorLinkerVersion: byte;
+    readonly minorOperatingSystemVersion: ushort;
+    readonly minorSubsystemVersion: ushort;
+    readonly sectionAlignment: int;
+    readonly sizeOfHeapCommit: ulong;
+    readonly sizeOfHeapReserve: ulong;
+    readonly sizeOfStackCommit: ulong;
+    readonly sizeOfStackReserve: ulong;
+    readonly subsystem: Subsystem;
+    static createExecutableHeader(): PEHeaderBuilder;
+    static createLibraryHeader(): PEHeaderBuilder;
 }
 
 
@@ -463,21 +463,21 @@ export class PEHeaders$instance {
     constructor(peStream: Stream);
     constructor(peStream: Stream, size: int);
     constructor(peStream: Stream, size: int, isLoadedImage: boolean);
-    readonly CoffHeader: CoffHeader;
-    readonly CoffHeaderStartOffset: int;
-    readonly CorHeader: CorHeader;
-    readonly CorHeaderStartOffset: int;
-    readonly IsCoffOnly: boolean;
-    readonly IsConsoleApplication: boolean;
-    readonly IsDll: boolean;
-    readonly IsExe: boolean;
-    readonly MetadataSize: int;
-    readonly MetadataStartOffset: int;
-    readonly PEHeader: PEHeader;
-    readonly PEHeaderStartOffset: int;
-    readonly SectionHeaders: ImmutableArray_1<SectionHeader>;
-    GetContainingSectionIndex(relativeVirtualAddress: int): int;
-    TryGetDirectoryOffset(directory: DirectoryEntry, offset: { value: ref<int> }): boolean;
+    readonly coffHeader: CoffHeader;
+    readonly coffHeaderStartOffset: int;
+    readonly corHeader: CorHeader;
+    readonly corHeaderStartOffset: int;
+    readonly isCoffOnly: boolean;
+    readonly isConsoleApplication: boolean;
+    readonly isDll: boolean;
+    readonly isExe: boolean;
+    readonly metadataSize: int;
+    readonly metadataStartOffset: int;
+    readonly peHeader: PEHeader;
+    readonly peHeaderStartOffset: int;
+    readonly sectionHeaders: ImmutableArray_1<SectionHeader>;
+    getContainingSectionIndex(relativeVirtualAddress: int): int;
+    tryGetDirectoryOffset(directory: DirectoryEntry, offset: { value: ref<int> }): boolean;
 }
 
 
@@ -490,20 +490,20 @@ export class PEReader$instance {
     constructor(peStream: Stream, options: PEStreamOptions);
     constructor(peStream: Stream, options: PEStreamOptions, size: int);
     constructor(peImage: ImmutableArray_1<CLROf<byte>>);
-    readonly HasMetadata: boolean;
-    readonly IsEntireImageAvailable: boolean;
-    readonly IsLoadedImage: boolean;
-    readonly PEHeaders: PEHeaders;
-    Dispose(): void;
-    GetEntireImage(): PEMemoryBlock;
-    GetMetadata(): PEMemoryBlock;
-    GetSectionData(relativeVirtualAddress: int): PEMemoryBlock;
-    GetSectionData(sectionName: string): PEMemoryBlock;
-    ReadCodeViewDebugDirectoryData(entry: DebugDirectoryEntry): CodeViewDebugDirectoryData;
-    ReadDebugDirectory(): ImmutableArray_1<DebugDirectoryEntry>;
-    ReadEmbeddedPortablePdbDebugDirectoryData(entry: DebugDirectoryEntry): MetadataReaderProvider;
-    ReadPdbChecksumDebugDirectoryData(entry: DebugDirectoryEntry): PdbChecksumDebugDirectoryData;
-    TryOpenAssociatedPortablePdb(peImagePath: string, pdbFileStreamProvider: Func_2<CLROf<string>, Stream>, pdbReaderProvider: { value: ref<MetadataReaderProvider> }, pdbPath: { value: ref<string> }): boolean;
+    readonly hasMetadata: boolean;
+    readonly isEntireImageAvailable: boolean;
+    readonly isLoadedImage: boolean;
+    readonly peHeaders: PEHeaders;
+    dispose(): void;
+    getEntireImage(): PEMemoryBlock;
+    getMetadata(): PEMemoryBlock;
+    getSectionData(relativeVirtualAddress: int): PEMemoryBlock;
+    getSectionData(sectionName: string): PEMemoryBlock;
+    readCodeViewDebugDirectoryData(entry: DebugDirectoryEntry): CodeViewDebugDirectoryData;
+    readDebugDirectory(): ImmutableArray_1<DebugDirectoryEntry>;
+    readEmbeddedPortablePdbDebugDirectoryData(entry: DebugDirectoryEntry): MetadataReaderProvider;
+    readPdbChecksumDebugDirectoryData(entry: DebugDirectoryEntry): PdbChecksumDebugDirectoryData;
+    tryOpenAssociatedPortablePdb(peImagePath: string, pdbFileStreamProvider: Func_2<CLROf<string>, Stream>, pdbReaderProvider: { value: ref<MetadataReaderProvider> }, pdbPath: { value: ref<string> }): boolean;
 }
 
 

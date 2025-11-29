@@ -41,95 +41,95 @@ export type CLROf<T> =
     T; // Identity fallback for non-primitive types
 
 export enum JsonIgnoreCondition {
-    Never = 0,
-    Always = 1,
-    WhenWritingDefault = 2,
-    WhenWritingNull = 3,
-    WhenWriting = 4,
-    WhenReading = 5
+    never_ = 0,
+    always = 1,
+    whenWritingDefault = 2,
+    whenWritingNull = 3,
+    whenWriting = 4,
+    whenReading = 5
 }
 
 
 export enum JsonKnownNamingPolicy {
-    Unspecified = 0,
-    CamelCase = 1,
-    SnakeCaseLower = 2,
-    SnakeCaseUpper = 3,
-    KebabCaseLower = 4,
-    KebabCaseUpper = 5
+    unspecified = 0,
+    camelCase = 1,
+    snakeCaseLower = 2,
+    snakeCaseUpper = 3,
+    kebabCaseLower = 4,
+    kebabCaseUpper = 5
 }
 
 
 export enum JsonKnownReferenceHandler {
-    Unspecified = 0,
-    Preserve = 1,
-    IgnoreCycles = 2
+    unspecified = 0,
+    preserve = 1,
+    ignoreCycles = 2
 }
 
 
 export enum JsonNumberHandling {
-    Strict = 0,
-    AllowReadingFromString = 1,
-    WriteAsString = 2,
-    AllowNamedFloatingPointLiterals = 4
+    strict = 0,
+    allowReadingFromString = 1,
+    writeAsString = 2,
+    allowNamedFloatingPointLiterals = 4
 }
 
 
 export enum JsonObjectCreationHandling {
-    Replace = 0,
-    Populate = 1
+    replace = 0,
+    populate = 1
 }
 
 
 export enum JsonSourceGenerationMode {
-    Default = 0,
-    Metadata = 1,
-    Serialization = 2
+    default_ = 0,
+    metadata = 1,
+    serialization = 2
 }
 
 
 export enum JsonUnknownDerivedTypeHandling {
-    FailSerialization = 0,
-    FallBackToBaseType = 1,
-    FallBackToNearestAncestor = 2
+    failSerialization = 0,
+    fallBackToBaseType = 1,
+    fallBackToNearestAncestor = 2
 }
 
 
 export enum JsonUnknownTypeHandling {
-    JsonElement = 0,
-    JsonNode = 1
+    jsonElement = 0,
+    jsonNode = 1
 }
 
 
 export enum JsonUnmappedMemberHandling {
-    Skip = 0,
-    Disallow = 1
+    skip = 0,
+    disallow = 1
 }
 
 
 export interface IJsonOnDeserialized$instance {
-    OnDeserialized(): void;
+    onDeserialized(): void;
 }
 
 
 export type IJsonOnDeserialized = IJsonOnDeserialized$instance;
 
 export interface IJsonOnDeserializing$instance {
-    OnDeserializing(): void;
+    onDeserializing(): void;
 }
 
 
 export type IJsonOnDeserializing = IJsonOnDeserializing$instance;
 
 export interface IJsonOnSerialized$instance {
-    OnSerialized(): void;
+    onSerialized(): void;
 }
 
 
 export type IJsonOnSerialized = IJsonOnSerialized$instance;
 
 export interface IJsonOnSerializing$instance {
-    OnSerializing(): void;
+    onSerializing(): void;
 }
 
 
@@ -149,21 +149,21 @@ export class JsonConstructorAttribute$instance extends JsonAttribute$instance {
 export type JsonConstructorAttribute = JsonConstructorAttribute$instance;
 
 export abstract class JsonConverter$instance {
-    readonly Type: Type;
-    abstract CanConvert(typeToConvert: Type): boolean;
+    readonly type_: Type;
+    abstract canConvert(typeToConvert: Type): boolean;
 }
 
 
 export type JsonConverter = JsonConverter$instance;
 
 export abstract class JsonConverter_1$instance<T> extends JsonConverter$instance {
-    readonly HandleNull: boolean;
-    readonly Type: Type;
-    CanConvert(typeToConvert: Type): boolean;
-    abstract Read(reader: { value: ref<Utf8JsonReader> }, typeToConvert: Type, options: JsonSerializerOptions): T;
-    ReadAsPropertyName(reader: { value: ref<Utf8JsonReader> }, typeToConvert: Type, options: JsonSerializerOptions): T;
-    abstract Write(writer: Utf8JsonWriter, value: T, options: JsonSerializerOptions): void;
-    WriteAsPropertyName(writer: Utf8JsonWriter, value: T, options: JsonSerializerOptions): void;
+    readonly handleNull: boolean;
+    readonly type_: Type;
+    canConvert(typeToConvert: Type): boolean;
+    abstract read(reader: { value: ref<Utf8JsonReader> }, typeToConvert: Type, options: JsonSerializerOptions): T;
+    readAsPropertyName(reader: { value: ref<Utf8JsonReader> }, typeToConvert: Type, options: JsonSerializerOptions): T;
+    abstract write(writer: Utf8JsonWriter, value: T, options: JsonSerializerOptions): void;
+    writeAsPropertyName(writer: Utf8JsonWriter, value: T, options: JsonSerializerOptions): void;
 }
 
 
@@ -171,16 +171,16 @@ export type JsonConverter_1<T> = JsonConverter_1$instance<T>;
 
 export class JsonConverterAttribute$instance extends JsonAttribute$instance {
     constructor(converterType: Type);
-    readonly ConverterType: Type;
-    CreateConverter(typeToConvert: Type): JsonConverter;
+    readonly converterType: Type;
+    createConverter(typeToConvert: Type): JsonConverter;
 }
 
 
 export type JsonConverterAttribute = JsonConverterAttribute$instance;
 
 export abstract class JsonConverterFactory$instance extends JsonConverter$instance {
-    readonly Type: Type;
-    abstract CreateConverter(typeToConvert: Type, options: JsonSerializerOptions): JsonConverter;
+    readonly type_: Type;
+    abstract createConverter(typeToConvert: Type, options: JsonSerializerOptions): JsonConverter;
 }
 
 
@@ -190,8 +190,8 @@ export class JsonDerivedTypeAttribute$instance extends JsonAttribute$instance {
     constructor(derivedType: Type);
     constructor(derivedType: Type, typeDiscriminator: string);
     constructor(derivedType: Type, typeDiscriminator: int);
-    readonly DerivedType: Type;
-    readonly TypeDiscriminator: unknown;
+    readonly derivedType: Type;
+    readonly typeDiscriminator: unknown;
 }
 
 
@@ -206,7 +206,7 @@ export type JsonExtensionDataAttribute = JsonExtensionDataAttribute$instance;
 
 export class JsonIgnoreAttribute$instance extends JsonAttribute$instance {
     constructor();
-    Condition: JsonIgnoreCondition;
+    condition: JsonIgnoreCondition;
 }
 
 
@@ -221,8 +221,8 @@ export type JsonIncludeAttribute = JsonIncludeAttribute$instance;
 
 export class JsonNumberEnumConverter_1$instance<TEnum extends number> extends JsonConverterFactory$instance {
     constructor();
-    CanConvert(typeToConvert: Type): boolean;
-    CreateConverter(typeToConvert: Type, options: JsonSerializerOptions): JsonConverter;
+    canConvert(typeToConvert: Type): boolean;
+    createConverter(typeToConvert: Type, options: JsonSerializerOptions): JsonConverter;
 }
 
 
@@ -230,7 +230,7 @@ export type JsonNumberEnumConverter_1<TEnum extends number> = JsonNumberEnumConv
 
 export class JsonNumberHandlingAttribute$instance extends JsonAttribute$instance {
     constructor(handling: JsonNumberHandling);
-    readonly Handling: JsonNumberHandling;
+    readonly handling: JsonNumberHandling;
 }
 
 
@@ -238,7 +238,7 @@ export type JsonNumberHandlingAttribute = JsonNumberHandlingAttribute$instance;
 
 export class JsonObjectCreationHandlingAttribute$instance extends JsonAttribute$instance {
     constructor(handling: JsonObjectCreationHandling);
-    readonly Handling: JsonObjectCreationHandling;
+    readonly handling: JsonObjectCreationHandling;
 }
 
 
@@ -246,9 +246,9 @@ export type JsonObjectCreationHandlingAttribute = JsonObjectCreationHandlingAttr
 
 export class JsonPolymorphicAttribute$instance extends JsonAttribute$instance {
     constructor();
-    IgnoreUnrecognizedTypeDiscriminators: boolean;
-    TypeDiscriminatorPropertyName: string;
-    UnknownDerivedTypeHandling: JsonUnknownDerivedTypeHandling;
+    ignoreUnrecognizedTypeDiscriminators: boolean;
+    typeDiscriminatorPropertyName: string;
+    unknownDerivedTypeHandling: JsonUnknownDerivedTypeHandling;
 }
 
 
@@ -256,7 +256,7 @@ export type JsonPolymorphicAttribute = JsonPolymorphicAttribute$instance;
 
 export class JsonPropertyNameAttribute$instance extends JsonAttribute$instance {
     constructor(name: string);
-    readonly Name: string;
+    readonly name: string;
 }
 
 
@@ -264,7 +264,7 @@ export type JsonPropertyNameAttribute = JsonPropertyNameAttribute$instance;
 
 export class JsonPropertyOrderAttribute$instance extends JsonAttribute$instance {
     constructor(order: int);
-    readonly Order: int;
+    readonly order: int;
 }
 
 
@@ -279,16 +279,16 @@ export type JsonRequiredAttribute = JsonRequiredAttribute$instance;
 
 export class JsonSerializableAttribute$instance extends JsonAttribute$instance {
     constructor(type_: Type);
-    GenerationMode: JsonSourceGenerationMode;
-    TypeInfoPropertyName: string;
+    generationMode: JsonSourceGenerationMode;
+    typeInfoPropertyName: string;
 }
 
 
 export type JsonSerializableAttribute = JsonSerializableAttribute$instance;
 
 export abstract class JsonSerializerContext$instance {
-    readonly Options: JsonSerializerOptions;
-    abstract GetTypeInfo(type_: Type): JsonTypeInfo;
+    readonly options: JsonSerializerOptions;
+    abstract getTypeInfo(type_: Type): JsonTypeInfo;
 }
 
 
@@ -302,33 +302,33 @@ export type JsonSerializerContext = JsonSerializerContext$instance & __JsonSeria
 export class JsonSourceGenerationOptionsAttribute$instance extends JsonAttribute$instance {
     constructor();
     constructor(defaults: JsonSerializerDefaults);
-    AllowDuplicateProperties: boolean;
-    AllowOutOfOrderMetadataProperties: boolean;
-    AllowTrailingCommas: boolean;
-    Converters: Type[];
-    DefaultBufferSize: int;
-    DefaultIgnoreCondition: JsonIgnoreCondition;
-    DictionaryKeyPolicy: JsonKnownNamingPolicy;
-    GenerationMode: JsonSourceGenerationMode;
-    IgnoreReadOnlyFields: boolean;
-    IgnoreReadOnlyProperties: boolean;
-    IncludeFields: boolean;
-    IndentCharacter: char;
-    IndentSize: int;
-    MaxDepth: int;
-    NewLine: string;
-    NumberHandling: JsonNumberHandling;
-    PreferredObjectCreationHandling: JsonObjectCreationHandling;
-    PropertyNameCaseInsensitive: boolean;
-    PropertyNamingPolicy: JsonKnownNamingPolicy;
-    ReadCommentHandling: JsonCommentHandling;
-    ReferenceHandler: JsonKnownReferenceHandler;
-    RespectNullableAnnotations: boolean;
-    RespectRequiredConstructorParameters: boolean;
-    UnknownTypeHandling: JsonUnknownTypeHandling;
-    UnmappedMemberHandling: JsonUnmappedMemberHandling;
-    UseStringEnumConverter: boolean;
-    WriteIndented: boolean;
+    allowDuplicateProperties: boolean;
+    allowOutOfOrderMetadataProperties: boolean;
+    allowTrailingCommas: boolean;
+    converters: Type[];
+    defaultBufferSize: int;
+    defaultIgnoreCondition: JsonIgnoreCondition;
+    dictionaryKeyPolicy: JsonKnownNamingPolicy;
+    generationMode: JsonSourceGenerationMode;
+    ignoreReadOnlyFields: boolean;
+    ignoreReadOnlyProperties: boolean;
+    includeFields: boolean;
+    indentCharacter: char;
+    indentSize: int;
+    maxDepth: int;
+    newLine: string;
+    numberHandling: JsonNumberHandling;
+    preferredObjectCreationHandling: JsonObjectCreationHandling;
+    propertyNameCaseInsensitive: boolean;
+    propertyNamingPolicy: JsonKnownNamingPolicy;
+    readCommentHandling: JsonCommentHandling;
+    referenceHandler: JsonKnownReferenceHandler;
+    respectNullableAnnotations: boolean;
+    respectRequiredConstructorParameters: boolean;
+    unknownTypeHandling: JsonUnknownTypeHandling;
+    unmappedMemberHandling: JsonUnmappedMemberHandling;
+    useStringEnumConverter: boolean;
+    writeIndented: boolean;
 }
 
 
@@ -337,8 +337,8 @@ export type JsonSourceGenerationOptionsAttribute = JsonSourceGenerationOptionsAt
 export class JsonStringEnumConverter$instance extends JsonConverterFactory$instance {
     constructor();
     constructor(namingPolicy: JsonNamingPolicy, allowIntegerValues: boolean);
-    CanConvert(typeToConvert: Type): boolean;
-    CreateConverter(typeToConvert: Type, options: JsonSerializerOptions): JsonConverter;
+    canConvert(typeToConvert: Type): boolean;
+    createConverter(typeToConvert: Type, options: JsonSerializerOptions): JsonConverter;
 }
 
 
@@ -347,8 +347,8 @@ export type JsonStringEnumConverter = JsonStringEnumConverter$instance;
 export class JsonStringEnumConverter_1$instance<TEnum extends number> extends JsonConverterFactory$instance {
     constructor();
     constructor(namingPolicy: JsonNamingPolicy, allowIntegerValues: boolean);
-    CanConvert(typeToConvert: Type): boolean;
-    CreateConverter(typeToConvert: Type, options: JsonSerializerOptions): JsonConverter;
+    canConvert(typeToConvert: Type): boolean;
+    createConverter(typeToConvert: Type, options: JsonSerializerOptions): JsonConverter;
 }
 
 
@@ -356,7 +356,7 @@ export type JsonStringEnumConverter_1<TEnum extends number> = JsonStringEnumConv
 
 export class JsonStringEnumMemberNameAttribute$instance extends System_Internal.Attribute$instance {
     constructor(name: string);
-    readonly Name: string;
+    readonly name: string;
 }
 
 
@@ -364,16 +364,16 @@ export type JsonStringEnumMemberNameAttribute = JsonStringEnumMemberNameAttribut
 
 export class JsonUnmappedMemberHandlingAttribute$instance extends JsonAttribute$instance {
     constructor(unmappedMemberHandling: JsonUnmappedMemberHandling);
-    readonly UnmappedMemberHandling: JsonUnmappedMemberHandling;
+    readonly unmappedMemberHandling: JsonUnmappedMemberHandling;
 }
 
 
 export type JsonUnmappedMemberHandlingAttribute = JsonUnmappedMemberHandlingAttribute$instance;
 
 export abstract class ReferenceHandler$instance {
-    abstract CreateResolver(): ReferenceResolver;
-    static readonly Preserve: ReferenceHandler;
-    static readonly IgnoreCycles: ReferenceHandler;
+    abstract createResolver(): ReferenceResolver;
+    static readonly preserve: ReferenceHandler;
+    static readonly ignoreCycles: ReferenceHandler;
 }
 
 
@@ -381,16 +381,16 @@ export type ReferenceHandler = ReferenceHandler$instance;
 
 export class ReferenceHandler_1$instance<T extends ReferenceResolver> extends ReferenceHandler$instance {
     constructor();
-    CreateResolver(): ReferenceResolver;
+    createResolver(): ReferenceResolver;
 }
 
 
 export type ReferenceHandler_1<T extends ReferenceResolver> = ReferenceHandler_1$instance<T>;
 
 export abstract class ReferenceResolver$instance {
-    abstract AddReference(referenceId: string, value: unknown): void;
-    abstract GetReference(value: unknown, alreadyExists: { value: ref<boolean> }): string;
-    abstract ResolveReference(referenceId: string): unknown;
+    abstract addReference(referenceId: string, value: unknown): void;
+    abstract getReference(value: unknown, alreadyExists: { value: ref<boolean> }): string;
+    abstract resolveReference(referenceId: string): unknown;
 }
 
 

@@ -48,20 +48,20 @@ export type CLROf<T> =
     T; // Identity fallback for non-primitive types
 
 export class FileSystemEntry$instance {
-    readonly Attributes: FileAttributes;
-    readonly CreationTimeUtc: DateTimeOffset;
-    readonly Directory: ReadOnlySpan_1<CLROf<char>>;
-    readonly FileName: ReadOnlySpan_1<CLROf<char>>;
-    readonly IsDirectory: boolean;
-    readonly IsHidden: boolean;
-    readonly LastAccessTimeUtc: DateTimeOffset;
-    readonly LastWriteTimeUtc: DateTimeOffset;
-    readonly Length: long;
-    readonly OriginalRootDirectory: ReadOnlySpan_1<CLROf<char>>;
-    readonly RootDirectory: ReadOnlySpan_1<CLROf<char>>;
-    ToFileSystemInfo(): FileSystemInfo;
-    ToFullPath(): string;
-    ToSpecifiedFullPath(): string;
+    readonly attributes: FileAttributes;
+    readonly creationTimeUtc: DateTimeOffset;
+    readonly directory: ReadOnlySpan_1<CLROf<char>>;
+    readonly fileName: ReadOnlySpan_1<CLROf<char>>;
+    readonly isDirectory: boolean;
+    readonly isHidden: boolean;
+    readonly lastAccessTimeUtc: DateTimeOffset;
+    readonly lastWriteTimeUtc: DateTimeOffset;
+    readonly length: long;
+    readonly originalRootDirectory: ReadOnlySpan_1<CLROf<char>>;
+    readonly rootDirectory: ReadOnlySpan_1<CLROf<char>>;
+    toFileSystemInfo(): FileSystemInfo;
+    toFullPath(): string;
+    toSpecifiedFullPath(): string;
 }
 
 
@@ -69,9 +69,9 @@ export type FileSystemEntry = FileSystemEntry$instance;
 
 export class FileSystemEnumerable_1$instance<TResult> {
     constructor(directory: string, transform: FileSystemEnumerable_1_FindTransform<TResult>, options: EnumerationOptions);
-    ShouldIncludePredicate: FileSystemEnumerable_1_FindPredicate<TResult>;
-    ShouldRecursePredicate: FileSystemEnumerable_1_FindPredicate<TResult>;
-    GetEnumerator(): IEnumerator_1<TResult>;
+    shouldIncludePredicate: FileSystemEnumerable_1_FindPredicate<TResult>;
+    shouldRecursePredicate: FileSystemEnumerable_1_FindPredicate<TResult>;
+    getEnumerator(): IEnumerator_1<TResult>;
 }
 
 
@@ -85,11 +85,11 @@ export type FileSystemEnumerable_1<TResult> = FileSystemEnumerable_1$instance<TR
 
 export class FileSystemEnumerable_1_FindPredicate$instance<TResult> extends Function {
     constructor(object_: unknown, method: nint);
-    BeginInvoke(entry: { value: ref<FileSystemEntry> }, callback: AsyncCallback, object_: unknown): IAsyncResult;
+    beginInvoke(entry: { value: ref<FileSystemEntry> }, callback: AsyncCallback, object_: unknown): IAsyncResult;
     Clone(): unknown;
-    EndInvoke(entry: { value: ref<FileSystemEntry> }, result: IAsyncResult): boolean;
+    endInvoke(entry: { value: ref<FileSystemEntry> }, result: IAsyncResult): boolean;
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
-    Invoke(entry: { value: ref<FileSystemEntry> }): boolean;
+    invoke(entry: { value: ref<FileSystemEntry> }): boolean;
 }
 
 
@@ -98,16 +98,18 @@ export interface __FileSystemEnumerable_1_FindPredicate$views<TResult> {
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
+export interface FileSystemEnumerable_1_FindPredicate$instance<TResult> extends System_Internal.ICloneable$instance {}
+
 export type FileSystemEnumerable_1_FindPredicate<TResult> = FileSystemEnumerable_1_FindPredicate$instance<TResult> & __FileSystemEnumerable_1_FindPredicate$views<TResult>;
 
 
 export class FileSystemEnumerable_1_FindTransform$instance<TResult> extends Function {
     constructor(object_: unknown, method: nint);
-    BeginInvoke(entry: { value: ref<FileSystemEntry> }, callback: AsyncCallback, object_: unknown): IAsyncResult;
+    beginInvoke(entry: { value: ref<FileSystemEntry> }, callback: AsyncCallback, object_: unknown): IAsyncResult;
     Clone(): unknown;
-    EndInvoke(entry: { value: ref<FileSystemEntry> }, result: IAsyncResult): TResult;
+    endInvoke(entry: { value: ref<FileSystemEntry> }, result: IAsyncResult): TResult;
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
-    Invoke(entry: { value: ref<FileSystemEntry> }): TResult;
+    invoke(entry: { value: ref<FileSystemEntry> }): TResult;
 }
 
 
@@ -116,15 +118,17 @@ export interface __FileSystemEnumerable_1_FindTransform$views<TResult> {
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
+export interface FileSystemEnumerable_1_FindTransform$instance<TResult> extends System_Internal.ICloneable$instance {}
+
 export type FileSystemEnumerable_1_FindTransform<TResult> = FileSystemEnumerable_1_FindTransform$instance<TResult> & __FileSystemEnumerable_1_FindTransform$views<TResult>;
 
 
 export abstract class FileSystemEnumerator_1$instance<TResult> extends System_Runtime_ConstrainedExecution_Internal.CriticalFinalizerObject$instance implements System_Internal.IDisposable$instance {
     constructor(directory: string, options: EnumerationOptions);
-    readonly Current: TResult;
-    Dispose(): void;
-    MoveNext(): boolean;
-    Reset(): void;
+    readonly current: TResult;
+    dispose(): void;
+    moveNext(): boolean;
+    reset(): void;
 }
 
 
@@ -137,9 +141,9 @@ export type FileSystemEnumerator_1<TResult> = FileSystemEnumerator_1$instance<TR
 
 
 export abstract class FileSystemName$instance {
-    static MatchesSimpleExpression(expression: ReadOnlySpan_1<CLROf<char>>, name: ReadOnlySpan_1<CLROf<char>>, ignoreCase?: boolean): boolean;
-    static MatchesWin32Expression(expression: ReadOnlySpan_1<CLROf<char>>, name: ReadOnlySpan_1<CLROf<char>>, ignoreCase?: boolean): boolean;
-    static TranslateWin32Expression(expression: string): string;
+    static matchesSimpleExpression(expression: ReadOnlySpan_1<CLROf<char>>, name: ReadOnlySpan_1<CLROf<char>>, ignoreCase?: boolean): boolean;
+    static matchesWin32Expression(expression: ReadOnlySpan_1<CLROf<char>>, name: ReadOnlySpan_1<CLROf<char>>, ignoreCase?: boolean): boolean;
+    static translateWin32Expression(expression: string): string;
 }
 
 

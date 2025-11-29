@@ -55,227 +55,227 @@ export type CLROf<T> =
     T; // Identity fallback for non-primitive types
 
 export enum BindableSupport {
-    No = 0,
-    Yes = 1,
-    Default = 2
+    no = 0,
+    yes = 1,
+    default_ = 2
 }
 
 
 export enum BindingDirection {
-    OneWay = 0,
-    TwoWay = 1
+    oneWay = 0,
+    twoWay = 1
 }
 
 
 export enum CollectionChangeAction {
-    Add = 1,
-    Remove = 2,
-    Refresh = 3
+    add = 1,
+    remove = 2,
+    refresh = 3
 }
 
 
 export enum DataObjectMethodType {
-    Fill = 0,
-    Select = 1,
-    Update = 2,
-    Insert = 3,
-    Delete = 4
+    fill = 0,
+    select = 1,
+    update = 2,
+    insert = 3,
+    delete_ = 4
 }
 
 
 export enum DesignerSerializationVisibility {
-    Hidden = 0,
-    Visible = 1,
-    Content = 2
+    hidden = 0,
+    visible = 1,
+    content = 2
 }
 
 
 export enum EditorBrowsableState {
-    Always = 0,
-    Never = 1,
-    Advanced = 2
+    always = 0,
+    never_ = 1,
+    advanced = 2
 }
 
 
 export enum InheritanceLevel {
-    Inherited = 1,
-    InheritedReadOnly = 2,
-    NotInherited = 3
+    inherited = 1,
+    inheritedReadOnly = 2,
+    notInherited = 3
 }
 
 
 export enum LicenseUsageMode {
-    Runtime = 0,
-    Designtime = 1
+    runtime = 0,
+    designtime = 1
 }
 
 
 export enum ListChangedType {
-    Reset = 0,
-    ItemAdded = 1,
-    ItemDeleted = 2,
-    ItemMoved = 3,
-    ItemChanged = 4,
-    PropertyDescriptorAdded = 5,
-    PropertyDescriptorDeleted = 6,
-    PropertyDescriptorChanged = 7
+    reset = 0,
+    itemAdded = 1,
+    itemDeleted = 2,
+    itemMoved = 3,
+    itemChanged = 4,
+    propertyDescriptorAdded = 5,
+    propertyDescriptorDeleted = 6,
+    propertyDescriptorChanged = 7
 }
 
 
 export enum ListSortDirection {
-    Ascending = 0,
-    Descending = 1
+    ascending = 0,
+    descending = 1
 }
 
 
 export enum MaskedTextResultHint {
-    Unknown = 0,
-    CharacterEscaped = 1,
-    NoEffect = 2,
-    SideEffect = 3,
-    Success = 4,
-    AsciiCharacterExpected = -1,
-    AlphanumericCharacterExpected = -2,
-    DigitExpected = -3,
-    LetterExpected = -4,
-    SignedDigitExpected = -5,
-    InvalidInput = -51,
-    PromptCharNotAllowed = -52,
-    UnavailableEditPosition = -53,
-    NonEditPosition = -54,
-    PositionOutOfRange = -55
+    unknown_ = 0,
+    characterEscaped = 1,
+    noEffect = 2,
+    sideEffect = 3,
+    success = 4,
+    asciiCharacterExpected = -1,
+    alphanumericCharacterExpected = -2,
+    digitExpected = -3,
+    letterExpected = -4,
+    signedDigitExpected = -5,
+    invalidInput = -51,
+    promptCharNotAllowed = -52,
+    unavailableEditPosition = -53,
+    nonEditPosition = -54,
+    positionOutOfRange = -55
 }
 
 
 export enum PropertyTabScope {
-    Static = 0,
-    Global = 1,
-    Document = 2,
-    Component = 3
+    static_ = 0,
+    global = 1,
+    document = 2,
+    component = 3
 }
 
 
 export enum RefreshProperties {
-    None = 0,
-    All = 1,
-    Repaint = 2
+    none = 0,
+    all = 1,
+    repaint = 2
 }
 
 
 export enum ToolboxItemFilterType {
-    Allow = 0,
-    Custom = 1,
-    Prevent = 2,
-    Require = 3
+    allow = 0,
+    custom = 1,
+    prevent = 2,
+    require = 3
 }
 
 
 export interface IBindingList$instance extends IList, ICollection, IEnumerable {
-    readonly AllowNew: boolean;
-    readonly AllowEdit: boolean;
-    readonly AllowRemove: boolean;
-    readonly SupportsChangeNotification: boolean;
-    readonly SupportsSearching: boolean;
-    readonly SupportsSorting: boolean;
-    readonly IsSorted: boolean;
-    readonly SortProperty: PropertyDescriptor;
-    readonly SortDirection: ListSortDirection;
-    Item: unknown;
-    readonly IsReadOnly: boolean;
-    readonly IsFixedSize: boolean;
-    readonly Count: int;
-    readonly SyncRoot: unknown;
-    readonly IsSynchronized: boolean;
-    Add(value: unknown): int;
-    AddIndex(property: PropertyDescriptor): void;
-    AddNew(): unknown;
-    ApplySort(property: PropertyDescriptor, direction: ListSortDirection): void;
-    Contains(value: unknown): boolean;
-    CopyTo(array: ClrArray, index: int): void;
-    Find(property: PropertyDescriptor, key: unknown): int;
-    GetEnumerator(): IEnumerator;
-    Insert(index: int, value: unknown): void;
-    Remove(value: unknown): void;
-    RemoveAt(index: int): void;
-    RemoveSort(): void;
+    readonly allowNew: boolean;
+    readonly allowEdit: boolean;
+    readonly allowRemove: boolean;
+    readonly supportsChangeNotification: boolean;
+    readonly supportsSearching: boolean;
+    readonly supportsSorting: boolean;
+    readonly isSorted: boolean;
+    readonly sortProperty: PropertyDescriptor;
+    readonly sortDirection: ListSortDirection;
+    item: unknown;
+    readonly isReadOnly: boolean;
+    readonly isFixedSize: boolean;
+    readonly count: int;
+    readonly syncRoot: unknown;
+    readonly isSynchronized: boolean;
+    add(value: unknown): int;
+    addIndex(property: PropertyDescriptor): void;
+    addNew(): unknown;
+    applySort(property: PropertyDescriptor, direction: ListSortDirection): void;
+    contains(value: unknown): boolean;
+    copyTo(array: ClrArray, index: int): void;
+    find(property: PropertyDescriptor, key: unknown): int;
+    getEnumerator(): IEnumerator;
+    insert(index: int, value: unknown): void;
+    remove(value: unknown): void;
+    removeAt(index: int): void;
+    removeSort(): void;
 }
 
 
 export type IBindingList = IBindingList$instance;
 
 export interface IBindingListView$instance extends IBindingList, IList, ICollection, IEnumerable {
-    Filter: string;
-    readonly SortDescriptions: ListSortDescriptionCollection;
-    readonly SupportsAdvancedSorting: boolean;
-    readonly SupportsFiltering: boolean;
-    readonly AllowNew: boolean;
-    readonly AllowEdit: boolean;
-    readonly AllowRemove: boolean;
-    readonly SupportsChangeNotification: boolean;
-    readonly SupportsSearching: boolean;
-    readonly SupportsSorting: boolean;
-    readonly IsSorted: boolean;
-    readonly SortProperty: PropertyDescriptor;
-    readonly SortDirection: ListSortDirection;
-    Item: unknown;
-    readonly IsReadOnly: boolean;
-    readonly IsFixedSize: boolean;
-    readonly Count: int;
-    readonly SyncRoot: unknown;
-    readonly IsSynchronized: boolean;
-    Add(value: unknown): int;
-    AddIndex(property: PropertyDescriptor): void;
-    AddNew(): unknown;
-    ApplySort(property: PropertyDescriptor, direction: ListSortDirection): void;
-    ApplySort(sorts: ListSortDescriptionCollection): void;
-    Contains(value: unknown): boolean;
-    CopyTo(array: ClrArray, index: int): void;
-    Find(property: PropertyDescriptor, key: unknown): int;
-    GetEnumerator(): IEnumerator;
-    Insert(index: int, value: unknown): void;
-    Remove(value: unknown): void;
-    RemoveAt(index: int): void;
-    RemoveFilter(): void;
+    filter: string;
+    readonly sortDescriptions: ListSortDescriptionCollection;
+    readonly supportsAdvancedSorting: boolean;
+    readonly supportsFiltering: boolean;
+    readonly allowNew: boolean;
+    readonly allowEdit: boolean;
+    readonly allowRemove: boolean;
+    readonly supportsChangeNotification: boolean;
+    readonly supportsSearching: boolean;
+    readonly supportsSorting: boolean;
+    readonly isSorted: boolean;
+    readonly sortProperty: PropertyDescriptor;
+    readonly sortDirection: ListSortDirection;
+    item: unknown;
+    readonly isReadOnly: boolean;
+    readonly isFixedSize: boolean;
+    readonly count: int;
+    readonly syncRoot: unknown;
+    readonly isSynchronized: boolean;
+    add(value: unknown): int;
+    addIndex(property: PropertyDescriptor): void;
+    addNew(): unknown;
+    applySort(property: PropertyDescriptor, direction: ListSortDirection): void;
+    applySort(sorts: ListSortDescriptionCollection): void;
+    contains(value: unknown): boolean;
+    copyTo(array: ClrArray, index: int): void;
+    find(property: PropertyDescriptor, key: unknown): int;
+    getEnumerator(): IEnumerator;
+    insert(index: int, value: unknown): void;
+    remove(value: unknown): void;
+    removeAt(index: int): void;
+    removeFilter(): void;
 }
 
 
 export type IBindingListView = IBindingListView$instance;
 
 export interface ICancelAddNew$instance {
-    CancelNew(itemIndex: int): void;
+    cancelNew(itemIndex: int): void;
 }
 
 
 export type ICancelAddNew = ICancelAddNew$instance;
 
 export interface IChangeTracking$instance {
-    readonly IsChanged: boolean;
-    AcceptChanges(): void;
+    readonly isChanged: boolean;
+    acceptChanges(): void;
 }
 
 
 export type IChangeTracking = IChangeTracking$instance;
 
 export interface IComNativeDescriptorHandler$instance {
-    GetAttributes(component: unknown): AttributeCollection;
-    GetClassName(component: unknown): string;
-    GetConverter(component: unknown): TypeConverter;
-    GetDefaultEvent(component: unknown): EventDescriptor;
-    GetDefaultProperty(component: unknown): PropertyDescriptor;
-    GetEditor(component: unknown, baseEditorType: Type): unknown;
-    GetEvents(component: unknown, attributes: Attribute[]): EventDescriptorCollection;
-    GetEvents(component: unknown): EventDescriptorCollection;
-    GetProperties(component: unknown, attributes: Attribute[]): PropertyDescriptorCollection;
-    GetPropertyValue(component: unknown, dispid: int, success: { value: ref<boolean> }): unknown;
-    GetPropertyValue(component: unknown, propertyName: string, success: { value: ref<boolean> }): unknown;
+    getAttributes(component: unknown): AttributeCollection;
+    getClassName(component: unknown): string;
+    getConverter(component: unknown): TypeConverter;
+    getDefaultEvent(component: unknown): EventDescriptor;
+    getDefaultProperty(component: unknown): PropertyDescriptor;
+    getEditor(component: unknown, baseEditorType: Type): unknown;
+    getEvents(component: unknown, attributes: Attribute[]): EventDescriptorCollection;
+    getEvents(component: unknown): EventDescriptorCollection;
+    getProperties(component: unknown, attributes: Attribute[]): PropertyDescriptorCollection;
+    getPropertyValue(component: unknown, dispid: int, success: { value: ref<boolean> }): unknown;
+    getPropertyValue(component: unknown, propertyName: string, success: { value: ref<boolean> }): unknown;
 }
 
 
 export type IComNativeDescriptorHandler = IComNativeDescriptorHandler$instance;
 
 export interface IComponent$instance extends IDisposable {
-    Site: ISite;
-    Dispose(): void;
+    site: ISite;
+    dispose(): void;
 }
 
 
@@ -284,10 +284,10 @@ export interface IComponent$instance extends System_Internal.IDisposable$instanc
 export type IComponent = IComponent$instance;
 
 export interface IContainer$instance extends IDisposable {
-    readonly Components: ComponentCollection;
-    Add(component: IComponent, name: string): void;
-    Add(component: IComponent): void;
-    Dispose(): void;
+    readonly components: ComponentCollection;
+    add(component: IComponent, name: string): void;
+    add(component: IComponent): void;
+    dispose(): void;
 }
 
 
@@ -296,87 +296,87 @@ export interface IContainer$instance extends System_Internal.IDisposable$instanc
 export type IContainer = IContainer$instance;
 
 export interface ICustomTypeDescriptor$instance {
-    readonly RequireRegisteredTypes: Nullable_1<CLROf<boolean>>;
-    GetAttributes(): AttributeCollection;
-    GetClassName(): string;
-    GetConverter(): TypeConverter;
-    GetDefaultEvent(): EventDescriptor;
-    GetDefaultProperty(): PropertyDescriptor;
-    GetEditor(editorBaseType: Type): unknown;
-    GetEvents(): EventDescriptorCollection;
-    GetEvents(attributes: Attribute[]): EventDescriptorCollection;
-    GetProperties(): PropertyDescriptorCollection;
-    GetProperties(attributes: Attribute[]): PropertyDescriptorCollection;
-    GetPropertyOwner(pd: PropertyDescriptor): unknown;
+    readonly requireRegisteredTypes: Nullable_1<CLROf<boolean>>;
+    getAttributes(): AttributeCollection;
+    getClassName(): string;
+    getConverter(): TypeConverter;
+    getDefaultEvent(): EventDescriptor;
+    getDefaultProperty(): PropertyDescriptor;
+    getEditor(editorBaseType: Type): unknown;
+    getEvents(): EventDescriptorCollection;
+    getEvents(attributes: Attribute[]): EventDescriptorCollection;
+    getProperties(): PropertyDescriptorCollection;
+    getProperties(attributes: Attribute[]): PropertyDescriptorCollection;
+    getPropertyOwner(pd: PropertyDescriptor): unknown;
 }
 
 
 export type ICustomTypeDescriptor = ICustomTypeDescriptor$instance;
 
 export interface IDataErrorInfo$instance {
-    readonly Item: string;
-    readonly Error: string;
+    readonly item: string;
+    readonly error: string;
 }
 
 
 export type IDataErrorInfo = IDataErrorInfo$instance;
 
 export interface IEditableObject$instance {
-    BeginEdit(): void;
+    beginEdit(): void;
 }
 
 
 export type IEditableObject = IEditableObject$instance;
 
 export interface IExtenderProvider$instance {
-    CanExtend(extendee: unknown): boolean;
+    canExtend(extendee: unknown): boolean;
 }
 
 
 export type IExtenderProvider = IExtenderProvider$instance;
 
 export interface IIntellisenseBuilder$instance {
-    readonly Name: string;
-    Show(language: string, value: string, newValue: { value: ref<string> }): boolean;
+    readonly name: string;
+    show(language: string, value: string, newValue: { value: ref<string> }): boolean;
 }
 
 
 export type IIntellisenseBuilder = IIntellisenseBuilder$instance;
 
 export interface IListSource$instance {
-    readonly ContainsListCollection: boolean;
-    GetList(): IList;
+    readonly containsListCollection: boolean;
+    getList(): IList;
 }
 
 
 export type IListSource = IListSource$instance;
 
 export interface INestedContainer$instance extends IContainer, IDisposable {
-    readonly Owner: IComponent;
-    readonly Components: ComponentCollection;
-    Add(component: IComponent, name: string): void;
-    Add(component: IComponent): void;
-    Dispose(): void;
+    readonly owner: IComponent;
+    readonly components: ComponentCollection;
+    add(component: IComponent, name: string): void;
+    add(component: IComponent): void;
+    dispose(): void;
 }
 
 
 export type INestedContainer = INestedContainer$instance;
 
 export interface INestedSite$instance extends ISite, IServiceProvider {
-    readonly FullName: string;
-    readonly Component: IComponent;
-    readonly Container: IContainer;
-    readonly DesignMode: boolean;
-    Name: string;
-    GetService(serviceType: Type): unknown;
+    readonly fullName: string;
+    readonly component: IComponent;
+    readonly container: IContainer;
+    readonly designMode: boolean;
+    name: string;
+    getService(serviceType: Type): unknown;
 }
 
 
 export type INestedSite = INestedSite$instance;
 
 export interface INotifyDataErrorInfo$instance {
-    readonly HasErrors: boolean;
-    GetErrors(propertyName: string): IEnumerable;
+    readonly hasErrors: boolean;
+    getErrors(propertyName: string): IEnumerable;
 }
 
 
@@ -395,15 +395,15 @@ export interface INotifyPropertyChanging$instance {
 export type INotifyPropertyChanging = INotifyPropertyChanging$instance;
 
 export interface IRaiseItemChangedEvents$instance {
-    readonly RaisesItemChangedEvents: boolean;
+    readonly raisesItemChangedEvents: boolean;
 }
 
 
 export type IRaiseItemChangedEvents = IRaiseItemChangedEvents$instance;
 
 export interface IRevertibleChangeTracking$instance extends IChangeTracking {
-    readonly IsChanged: boolean;
-    RejectChanges(): void;
+    readonly isChanged: boolean;
+    rejectChanges(): void;
 }
 
 
@@ -412,11 +412,11 @@ export interface IRevertibleChangeTracking$instance extends IChangeTracking$inst
 export type IRevertibleChangeTracking = IRevertibleChangeTracking$instance;
 
 export interface ISite$instance extends IServiceProvider {
-    readonly Component: IComponent;
-    readonly Container: IContainer;
-    readonly DesignMode: boolean;
-    Name: string;
-    GetService(serviceType: Type): unknown;
+    readonly component: IComponent;
+    readonly container: IContainer;
+    readonly designMode: boolean;
+    name: string;
+    getService(serviceType: Type): unknown;
 }
 
 
@@ -425,15 +425,15 @@ export interface ISite$instance extends System_Internal.IServiceProvider$instanc
 export type ISite = ISite$instance;
 
 export interface ISupportInitialize$instance {
-    BeginInit(): void;
+    beginInit(): void;
 }
 
 
 export type ISupportInitialize = ISupportInitialize$instance;
 
 export interface ISupportInitializeNotification$instance extends ISupportInitialize {
-    readonly IsInitialized: boolean;
-    BeginInit(): void;
+    readonly isInitialized: boolean;
+    beginInit(): void;
 }
 
 
@@ -442,22 +442,22 @@ export interface ISupportInitializeNotification$instance extends ISupportInitial
 export type ISupportInitializeNotification = ISupportInitializeNotification$instance;
 
 export interface ISynchronizeInvoke$instance {
-    readonly InvokeRequired: boolean;
-    BeginInvoke(method: Function, args: unknown[]): IAsyncResult;
-    EndInvoke(result: IAsyncResult): unknown;
-    Invoke(method: Function, args: unknown[]): unknown;
+    readonly invokeRequired: boolean;
+    beginInvoke(method: Function, args: unknown[]): IAsyncResult;
+    endInvoke(result: IAsyncResult): unknown;
+    invoke(method: Function, args: unknown[]): unknown;
 }
 
 
 export type ISynchronizeInvoke = ISynchronizeInvoke$instance;
 
 export interface ITypeDescriptorContext$instance extends IServiceProvider {
-    readonly Container: IContainer;
-    readonly Instance: unknown;
-    readonly PropertyDescriptor: PropertyDescriptor;
-    GetService(serviceType: Type): unknown;
-    OnComponentChanged(): void;
-    OnComponentChanging(): boolean;
+    readonly container: IContainer;
+    readonly instance: unknown;
+    readonly propertyDescriptor: PropertyDescriptor;
+    getService(serviceType: Type): unknown;
+    onComponentChanged(): void;
+    onComponentChanging(): boolean;
 }
 
 
@@ -466,8 +466,8 @@ export interface ITypeDescriptorContext$instance extends System_Internal.IServic
 export type ITypeDescriptorContext = ITypeDescriptorContext$instance;
 
 export interface ITypedList$instance {
-    GetItemProperties(listAccessors: PropertyDescriptor[]): PropertyDescriptorCollection;
-    GetListName(listAccessors: PropertyDescriptor[]): string;
+    getItemProperties(listAccessors: PropertyDescriptor[]): PropertyDescriptorCollection;
+    getListName(listAccessors: PropertyDescriptor[]): string;
 }
 
 
@@ -476,7 +476,7 @@ export type ITypedList = ITypedList$instance;
 export class AddingNewEventArgs$instance extends System_Internal.EventArgs$instance {
     constructor();
     constructor(newObject: unknown);
-    NewObject: unknown;
+    newObject: unknown;
 }
 
 
@@ -484,11 +484,11 @@ export type AddingNewEventArgs = AddingNewEventArgs$instance;
 
 export class AddingNewEventHandler$instance extends Function {
     constructor(object_: unknown, method: nint);
-    BeginInvoke(sender: unknown, e: AddingNewEventArgs, callback: AsyncCallback, object_: unknown): IAsyncResult;
+    beginInvoke(sender: unknown, e: AddingNewEventArgs, callback: AsyncCallback, object_: unknown): IAsyncResult;
     Clone(): unknown;
-    EndInvoke(result: IAsyncResult): void;
+    endInvoke(result: IAsyncResult): void;
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
-    Invoke(sender: unknown, e: AddingNewEventArgs): void;
+    invoke(sender: unknown, e: AddingNewEventArgs): void;
 }
 
 
@@ -496,6 +496,8 @@ export interface __AddingNewEventHandler$views {
     As_ICloneable(): System_Internal.ICloneable$instance;
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
+
+export interface AddingNewEventHandler$instance extends System_Internal.ICloneable$instance {}
 
 export type AddingNewEventHandler = AddingNewEventHandler$instance & __AddingNewEventHandler$views;
 
@@ -512,9 +514,9 @@ export class AmbientValueAttribute$instance extends System_Internal.Attribute$in
     constructor(value: boolean);
     constructor(value: string);
     constructor(value: unknown);
-    readonly Value: unknown;
-    Equals(obj: unknown): boolean;
-    GetHashCode(): int;
+    readonly value: unknown;
+    equals(obj: unknown): boolean;
+    getHashCode(): int;
 }
 
 
@@ -522,13 +524,13 @@ export type AmbientValueAttribute = AmbientValueAttribute$instance;
 
 export class ArrayConverter$instance extends CollectionConverter$instance {
     constructor();
-    ConvertTo(context: ITypeDescriptorContext, culture: CultureInfo, value: unknown, destinationType: Type): unknown;
-    ConvertTo(value: unknown, destinationType: Type): unknown;
-    GetProperties(context: ITypeDescriptorContext, value: unknown, attributes: Attribute[]): PropertyDescriptorCollection;
-    GetProperties(value: unknown): PropertyDescriptorCollection;
-    GetProperties(context: ITypeDescriptorContext, value: unknown): PropertyDescriptorCollection;
-    GetPropertiesSupported(context: ITypeDescriptorContext): boolean;
-    GetPropertiesSupported(): boolean;
+    convertTo(context: ITypeDescriptorContext, culture: CultureInfo, value: unknown, destinationType: Type): unknown;
+    convertTo(value: unknown, destinationType: Type): unknown;
+    getProperties(context: ITypeDescriptorContext, value: unknown, attributes: Attribute[]): PropertyDescriptorCollection;
+    getProperties(value: unknown): PropertyDescriptorCollection;
+    getProperties(context: ITypeDescriptorContext, value: unknown): PropertyDescriptorCollection;
+    getPropertiesSupported(context: ITypeDescriptorContext): boolean;
+    getPropertiesSupported(): boolean;
 }
 
 
@@ -536,9 +538,9 @@ export type ArrayConverter = ArrayConverter$instance;
 
 export class AsyncCompletedEventArgs$instance extends System_Internal.EventArgs$instance {
     constructor(error: Exception, cancelled: boolean, userState: unknown);
-    readonly Cancelled: boolean;
-    readonly Error: Exception;
-    readonly UserState: unknown;
+    readonly cancelled: boolean;
+    readonly error: Exception;
+    readonly userState: unknown;
 }
 
 
@@ -546,11 +548,11 @@ export type AsyncCompletedEventArgs = AsyncCompletedEventArgs$instance;
 
 export class AsyncCompletedEventHandler$instance extends Function {
     constructor(object_: unknown, method: nint);
-    BeginInvoke(sender: unknown, e: AsyncCompletedEventArgs, callback: AsyncCallback, object_: unknown): IAsyncResult;
+    beginInvoke(sender: unknown, e: AsyncCompletedEventArgs, callback: AsyncCallback, object_: unknown): IAsyncResult;
     Clone(): unknown;
-    EndInvoke(result: IAsyncResult): void;
+    endInvoke(result: IAsyncResult): void;
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
-    Invoke(sender: unknown, e: AsyncCompletedEventArgs): void;
+    invoke(sender: unknown, e: AsyncCompletedEventArgs): void;
 }
 
 
@@ -559,15 +561,17 @@ export interface __AsyncCompletedEventHandler$views {
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
+export interface AsyncCompletedEventHandler$instance extends System_Internal.ICloneable$instance {}
+
 export type AsyncCompletedEventHandler = AsyncCompletedEventHandler$instance & __AsyncCompletedEventHandler$views;
 
 
 export class AsyncOperation$instance {
-    readonly SynchronizationContext: SynchronizationContext;
-    readonly UserSuppliedState: unknown;
-    OperationCompleted(): void;
-    Post(d: SendOrPostCallback, arg: unknown): void;
-    PostOperationCompleted(d: SendOrPostCallback, arg: unknown): void;
+    readonly synchronizationContext: SynchronizationContext;
+    readonly userSuppliedState: unknown;
+    operationCompleted(): void;
+    post(d: SendOrPostCallback, arg: unknown): void;
+    postOperationCompleted(d: SendOrPostCallback, arg: unknown): void;
 }
 
 
@@ -575,17 +579,17 @@ export type AsyncOperation = AsyncOperation$instance;
 
 export class AttributeCollection$instance {
     constructor(attributes: Attribute[]);
-    readonly Count: int;
-    Contains(attribute: Attribute): boolean;
-    Contains(attributes: Attribute[]): boolean;
-    CopyTo(array: ClrArray, index: int): void;
+    readonly count: int;
+    contains(attribute: Attribute): boolean;
+    contains(attributes: Attribute[]): boolean;
+    copyTo(array: ClrArray, index: int): void;
     get_Item(index: int): Attribute;
     get_Item(attributeType: Type): Attribute;
-    GetEnumerator(): IEnumerator;
-    Matches(attribute: Attribute): boolean;
-    Matches(attributes: Attribute[]): boolean;
-    static readonly Empty: AttributeCollection;
-    static FromExisting(existing: AttributeCollection, newAttributes: Attribute[]): AttributeCollection;
+    getEnumerator(): IEnumerator;
+    matches(attribute: Attribute): boolean;
+    matches(attributes: Attribute[]): boolean;
+    static readonly empty: AttributeCollection;
+    static fromExisting(existing: AttributeCollection, newAttributes: Attribute[]): AttributeCollection;
 }
 
 
@@ -601,8 +605,8 @@ export class AttributeProviderAttribute$instance extends System_Internal.Attribu
     constructor(typeName: string);
     constructor(typeName: string, propertyName: string);
     constructor(type_: Type);
-    readonly PropertyName: string;
-    readonly TypeName: string;
+    readonly propertyName: string;
+    readonly typeName: string;
 }
 
 
@@ -610,16 +614,16 @@ export type AttributeProviderAttribute = AttributeProviderAttribute$instance;
 
 export class BackgroundWorker$instance extends Component$instance {
     constructor();
-    readonly CancellationPending: boolean;
-    readonly IsBusy: boolean;
-    WorkerReportsProgress: boolean;
-    WorkerSupportsCancellation: boolean;
-    CancelAsync(): void;
+    readonly cancellationPending: boolean;
+    readonly isBusy: boolean;
+    workerReportsProgress: boolean;
+    workerSupportsCancellation: boolean;
+    cancelAsync(): void;
     Dispose(): void;
-    ReportProgress(percentProgress: int): void;
-    ReportProgress(percentProgress: int, userState: unknown): void;
-    RunWorkerAsync(): void;
-    RunWorkerAsync(argument: unknown): void;
+    reportProgress(percentProgress: int): void;
+    reportProgress(percentProgress: int, userState: unknown): void;
+    runWorkerAsync(): void;
+    runWorkerAsync(argument: unknown): void;
 }
 
 
@@ -628,20 +632,18 @@ export interface __BackgroundWorker$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
 
-export interface BackgroundWorker$instance extends IComponent$instance {}
-
 export type BackgroundWorker = BackgroundWorker$instance & __BackgroundWorker$views;
 
 
 export abstract class BaseNumberConverter$instance extends TypeConverter$instance {
-    CanConvertFrom(context: ITypeDescriptorContext, sourceType: Type): boolean;
-    CanConvertFrom(sourceType: Type): boolean;
-    CanConvertTo(context: ITypeDescriptorContext, destinationType: Type): boolean;
-    CanConvertTo(destinationType: Type): boolean;
-    ConvertFrom(context: ITypeDescriptorContext, culture: CultureInfo, value: unknown): unknown;
-    ConvertFrom(value: unknown): unknown;
-    ConvertTo(context: ITypeDescriptorContext, culture: CultureInfo, value: unknown, destinationType: Type): unknown;
-    ConvertTo(value: unknown, destinationType: Type): unknown;
+    canConvertFrom(context: ITypeDescriptorContext, sourceType: Type): boolean;
+    canConvertFrom(sourceType: Type): boolean;
+    canConvertTo(context: ITypeDescriptorContext, destinationType: Type): boolean;
+    canConvertTo(destinationType: Type): boolean;
+    convertFrom(context: ITypeDescriptorContext, culture: CultureInfo, value: unknown): unknown;
+    convertFrom(value: unknown): unknown;
+    convertTo(context: ITypeDescriptorContext, culture: CultureInfo, value: unknown, destinationType: Type): unknown;
+    convertTo(value: unknown, destinationType: Type): unknown;
 }
 
 
@@ -652,14 +654,14 @@ export class BindableAttribute$instance extends System_Internal.Attribute$instan
     constructor(bindable: boolean, direction: BindingDirection);
     constructor(flags: BindableSupport);
     constructor(flags: BindableSupport, direction: BindingDirection);
-    readonly Bindable: boolean;
-    readonly Direction: BindingDirection;
-    Equals(obj: unknown): boolean;
-    GetHashCode(): int;
-    IsDefaultAttribute(): boolean;
-    static readonly Yes: BindableAttribute;
-    static readonly No: BindableAttribute;
-    static readonly Default: BindableAttribute;
+    readonly bindable: boolean;
+    readonly direction: BindingDirection;
+    equals(obj: unknown): boolean;
+    getHashCode(): int;
+    isDefaultAttribute(): boolean;
+    static readonly yes: BindableAttribute;
+    static readonly no: BindableAttribute;
+    static readonly default_: BindableAttribute;
 }
 
 
@@ -668,20 +670,20 @@ export type BindableAttribute = BindableAttribute$instance;
 export class BindingList_1$instance<T> extends System_Collections_ObjectModel_Internal.Collection_1$instance<T> {
     constructor();
     constructor(list: IList_1<T>);
-    AllowEdit: boolean;
-    AllowNew: boolean;
-    AllowRemove: boolean;
-    RaiseListChangedEvents: boolean;
+    allowEdit: boolean;
+    allowNew: boolean;
+    allowRemove: boolean;
+    raiseListChangedEvents: boolean;
     Add(item: T): void;
     Add(value: unknown): int;
-    AddNew(): T;
-    CancelNew(itemIndex: int): void;
+    addNew(): T;
+    cancelNew(itemIndex: int): void;
     Clear(): void;
     Contains(item: T): boolean;
     Contains(value: unknown): boolean;
     CopyTo(array: T[], index: int): void;
     CopyTo(array: ClrArray, index: int): void;
-    EndNew(itemIndex: int): void;
+    endNew(itemIndex: int): void;
     GetEnumerator(): IEnumerator_1<T>;
     GetEnumerator(): IEnumerator;
     IndexOf(item: T): int;
@@ -690,8 +692,8 @@ export class BindingList_1$instance<T> extends System_Collections_ObjectModel_In
     Remove(item: T): boolean;
     Remove(value: unknown): void;
     RemoveAt(index: int): void;
-    ResetBindings(): void;
-    ResetItem(position: int): void;
+    resetBindings(): void;
+    resetItem(position: int): void;
 }
 
 
@@ -715,16 +717,16 @@ export type BindingList_1<T> = BindingList_1$instance<T> & __BindingList_1$views
 
 export class BooleanConverter$instance extends TypeConverter$instance {
     constructor();
-    CanConvertFrom(context: ITypeDescriptorContext, sourceType: Type): boolean;
-    CanConvertFrom(sourceType: Type): boolean;
-    ConvertFrom(context: ITypeDescriptorContext, culture: CultureInfo, value: unknown): unknown;
-    ConvertFrom(value: unknown): unknown;
-    GetStandardValues(context: ITypeDescriptorContext): TypeConverter_StandardValuesCollection;
-    GetStandardValues(): ICollection;
-    GetStandardValuesExclusive(context: ITypeDescriptorContext): boolean;
-    GetStandardValuesExclusive(): boolean;
-    GetStandardValuesSupported(context: ITypeDescriptorContext): boolean;
-    GetStandardValuesSupported(): boolean;
+    canConvertFrom(context: ITypeDescriptorContext, sourceType: Type): boolean;
+    canConvertFrom(sourceType: Type): boolean;
+    convertFrom(context: ITypeDescriptorContext, culture: CultureInfo, value: unknown): unknown;
+    convertFrom(value: unknown): unknown;
+    getStandardValues(context: ITypeDescriptorContext): TypeConverter_StandardValuesCollection;
+    getStandardValues(): ICollection;
+    getStandardValuesExclusive(context: ITypeDescriptorContext): boolean;
+    getStandardValuesExclusive(): boolean;
+    getStandardValuesSupported(context: ITypeDescriptorContext): boolean;
+    getStandardValuesSupported(): boolean;
 }
 
 
@@ -732,13 +734,13 @@ export type BooleanConverter = BooleanConverter$instance;
 
 export class BrowsableAttribute$instance extends System_Internal.Attribute$instance {
     constructor(browsable: boolean);
-    readonly Browsable: boolean;
-    Equals(obj: unknown): boolean;
-    GetHashCode(): int;
-    IsDefaultAttribute(): boolean;
-    static readonly Yes: BrowsableAttribute;
-    static readonly No: BrowsableAttribute;
-    static readonly Default: BrowsableAttribute;
+    readonly browsable: boolean;
+    equals(obj: unknown): boolean;
+    getHashCode(): int;
+    isDefaultAttribute(): boolean;
+    static readonly yes: BrowsableAttribute;
+    static readonly no: BrowsableAttribute;
+    static readonly default_: BrowsableAttribute;
 }
 
 
@@ -754,7 +756,7 @@ export type ByteConverter = ByteConverter$instance;
 export class CancelEventArgs$instance extends System_Internal.EventArgs$instance {
     constructor();
     constructor(cancel: boolean);
-    Cancel: boolean;
+    cancel: boolean;
 }
 
 
@@ -762,11 +764,11 @@ export type CancelEventArgs = CancelEventArgs$instance;
 
 export class CancelEventHandler$instance extends Function {
     constructor(object_: unknown, method: nint);
-    BeginInvoke(sender: unknown, e: CancelEventArgs, callback: AsyncCallback, object_: unknown): IAsyncResult;
+    beginInvoke(sender: unknown, e: CancelEventArgs, callback: AsyncCallback, object_: unknown): IAsyncResult;
     Clone(): unknown;
-    EndInvoke(result: IAsyncResult): void;
+    endInvoke(result: IAsyncResult): void;
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
-    Invoke(sender: unknown, e: CancelEventArgs): void;
+    invoke(sender: unknown, e: CancelEventArgs): void;
 }
 
 
@@ -775,30 +777,32 @@ export interface __CancelEventHandler$views {
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
+export interface CancelEventHandler$instance extends System_Internal.ICloneable$instance {}
+
 export type CancelEventHandler = CancelEventHandler$instance & __CancelEventHandler$views;
 
 
 export class CategoryAttribute$instance extends System_Internal.Attribute$instance {
     constructor();
     constructor(category: string);
-    readonly Category: string;
-    Equals(obj: unknown): boolean;
-    GetHashCode(): int;
-    IsDefaultAttribute(): boolean;
-    static readonly Action: CategoryAttribute;
-    static readonly Appearance: CategoryAttribute;
-    static readonly Asynchronous: CategoryAttribute;
-    static readonly Behavior: CategoryAttribute;
-    static readonly Data: CategoryAttribute;
-    static readonly Default: CategoryAttribute;
-    static readonly Design: CategoryAttribute;
-    static readonly DragDrop: CategoryAttribute;
-    static readonly Focus: CategoryAttribute;
-    static readonly Format: CategoryAttribute;
-    static readonly Key: CategoryAttribute;
-    static readonly Layout: CategoryAttribute;
-    static readonly Mouse: CategoryAttribute;
-    static readonly WindowStyle: CategoryAttribute;
+    readonly category: string;
+    equals(obj: unknown): boolean;
+    getHashCode(): int;
+    isDefaultAttribute(): boolean;
+    static readonly action: CategoryAttribute;
+    static readonly appearance: CategoryAttribute;
+    static readonly asynchronous: CategoryAttribute;
+    static readonly behavior: CategoryAttribute;
+    static readonly data: CategoryAttribute;
+    static readonly default: CategoryAttribute;
+    static readonly design: CategoryAttribute;
+    static readonly dragDrop: CategoryAttribute;
+    static readonly focus: CategoryAttribute;
+    static readonly format: CategoryAttribute;
+    static readonly key: CategoryAttribute;
+    static readonly layout: CategoryAttribute;
+    static readonly mouse: CategoryAttribute;
+    static readonly windowStyle: CategoryAttribute;
 }
 
 
@@ -806,12 +810,12 @@ export type CategoryAttribute = CategoryAttribute$instance;
 
 export class CharConverter$instance extends TypeConverter$instance {
     constructor();
-    CanConvertFrom(context: ITypeDescriptorContext, sourceType: Type): boolean;
-    CanConvertFrom(sourceType: Type): boolean;
-    ConvertFrom(context: ITypeDescriptorContext, culture: CultureInfo, value: unknown): unknown;
-    ConvertFrom(value: unknown): unknown;
-    ConvertTo(context: ITypeDescriptorContext, culture: CultureInfo, value: unknown, destinationType: Type): unknown;
-    ConvertTo(value: unknown, destinationType: Type): unknown;
+    canConvertFrom(context: ITypeDescriptorContext, sourceType: Type): boolean;
+    canConvertFrom(sourceType: Type): boolean;
+    convertFrom(context: ITypeDescriptorContext, culture: CultureInfo, value: unknown): unknown;
+    convertFrom(value: unknown): unknown;
+    convertTo(context: ITypeDescriptorContext, culture: CultureInfo, value: unknown, destinationType: Type): unknown;
+    convertTo(value: unknown, destinationType: Type): unknown;
 }
 
 
@@ -819,8 +823,8 @@ export type CharConverter = CharConverter$instance;
 
 export class CollectionChangeEventArgs$instance extends System_Internal.EventArgs$instance {
     constructor(action: CollectionChangeAction, element: unknown);
-    readonly Action: CollectionChangeAction;
-    readonly Element: unknown;
+    readonly action: CollectionChangeAction;
+    readonly element: unknown;
 }
 
 
@@ -828,11 +832,11 @@ export type CollectionChangeEventArgs = CollectionChangeEventArgs$instance;
 
 export class CollectionChangeEventHandler$instance extends Function {
     constructor(object_: unknown, method: nint);
-    BeginInvoke(sender: unknown, e: CollectionChangeEventArgs, callback: AsyncCallback, object_: unknown): IAsyncResult;
+    beginInvoke(sender: unknown, e: CollectionChangeEventArgs, callback: AsyncCallback, object_: unknown): IAsyncResult;
     Clone(): unknown;
-    EndInvoke(result: IAsyncResult): void;
+    endInvoke(result: IAsyncResult): void;
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
-    Invoke(sender: unknown, e: CollectionChangeEventArgs): void;
+    invoke(sender: unknown, e: CollectionChangeEventArgs): void;
 }
 
 
@@ -841,16 +845,18 @@ export interface __CollectionChangeEventHandler$views {
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
+export interface CollectionChangeEventHandler$instance extends System_Internal.ICloneable$instance {}
+
 export type CollectionChangeEventHandler = CollectionChangeEventHandler$instance & __CollectionChangeEventHandler$views;
 
 
 export class CollectionConverter$instance extends TypeConverter$instance {
     constructor();
-    ConvertTo(context: ITypeDescriptorContext, culture: CultureInfo, value: unknown, destinationType: Type): unknown;
-    ConvertTo(value: unknown, destinationType: Type): unknown;
-    GetProperties(context: ITypeDescriptorContext, value: unknown, attributes: Attribute[]): PropertyDescriptorCollection;
-    GetProperties(value: unknown): PropertyDescriptorCollection;
-    GetProperties(context: ITypeDescriptorContext, value: unknown): PropertyDescriptorCollection;
+    convertTo(context: ITypeDescriptorContext, culture: CultureInfo, value: unknown, destinationType: Type): unknown;
+    convertTo(value: unknown, destinationType: Type): unknown;
+    getProperties(context: ITypeDescriptorContext, value: unknown, attributes: Attribute[]): PropertyDescriptorCollection;
+    getProperties(value: unknown): PropertyDescriptorCollection;
+    getProperties(context: ITypeDescriptorContext, value: unknown): PropertyDescriptorCollection;
 }
 
 
@@ -860,11 +866,11 @@ export class ComplexBindingPropertiesAttribute$instance extends System_Internal.
     constructor();
     constructor(dataSource: string);
     constructor(dataSource: string, dataMember: string);
-    readonly DataMember: string;
-    readonly DataSource: string;
-    Equals(obj: unknown): boolean;
-    GetHashCode(): int;
-    static readonly Default: ComplexBindingPropertiesAttribute;
+    readonly dataMember: string;
+    readonly dataSource: string;
+    equals(obj: unknown): boolean;
+    getHashCode(): int;
+    static readonly default_: ComplexBindingPropertiesAttribute;
 }
 
 
@@ -872,10 +878,10 @@ export type ComplexBindingPropertiesAttribute = ComplexBindingPropertiesAttribut
 
 export class Component$instance extends System_Internal.MarshalByRefObject$instance {
     constructor();
-    readonly Container: IContainer;
-    Site: ISite;
-    Dispose(): void;
-    ToString(): string;
+    readonly container: IContainer;
+    site: ISite;
+    dispose(): void;
+    toString(): string;
 }
 
 
@@ -889,7 +895,7 @@ export type Component = Component$instance & __Component$views;
 
 export class ComponentCollection$instance extends System_Collections_Internal.ReadOnlyCollectionBase$instance {
     constructor(components: IComponent[]);
-    CopyTo(array: ClrArray, index: int): void;
+    copyTo(array: ClrArray, index: int): void;
     get_Item(name: string): IComponent;
     get_Item(index: int): IComponent;
     GetEnumerator(): IEnumerator;
@@ -901,26 +907,24 @@ export interface __ComponentCollection$views {
     As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
 }
 
-export interface ComponentCollection$instance extends System_Collections_Internal.ICollection$instance {}
-
 export type ComponentCollection = ComponentCollection$instance & __ComponentCollection$views;
 
 
 export class ComponentConverter$instance extends ReferenceConverter$instance {
     constructor(type_: Type);
-    GetProperties(context: ITypeDescriptorContext, value: unknown, attributes: Attribute[]): PropertyDescriptorCollection;
-    GetProperties(value: unknown): PropertyDescriptorCollection;
-    GetProperties(context: ITypeDescriptorContext, value: unknown): PropertyDescriptorCollection;
-    GetPropertiesSupported(context: ITypeDescriptorContext): boolean;
-    GetPropertiesSupported(): boolean;
+    getProperties(context: ITypeDescriptorContext, value: unknown, attributes: Attribute[]): PropertyDescriptorCollection;
+    getProperties(value: unknown): PropertyDescriptorCollection;
+    getProperties(context: ITypeDescriptorContext, value: unknown): PropertyDescriptorCollection;
+    getPropertiesSupported(context: ITypeDescriptorContext): boolean;
+    getPropertiesSupported(): boolean;
 }
 
 
 export type ComponentConverter = ComponentConverter$instance;
 
 export abstract class ComponentEditor$instance {
-    EditComponent(component: unknown): boolean;
-    EditComponent(context: ITypeDescriptorContext, component: unknown): boolean;
+    editComponent(component: unknown): boolean;
+    editComponent(context: ITypeDescriptorContext, component: unknown): boolean;
 }
 
 
@@ -929,9 +933,9 @@ export type ComponentEditor = ComponentEditor$instance;
 export class ComponentResourceManager$instance extends System_Resources_Internal.ResourceManager$instance {
     constructor();
     constructor(t: Type);
-    ApplyResources(value: unknown, objectName: string): void;
-    ApplyResources(value: unknown, objectName: string, culture: CultureInfo): void;
-    ApplyResourcesToRegisteredType(value: unknown, objectName: string, culture: CultureInfo): void;
+    applyResources(value: unknown, objectName: string): void;
+    applyResources(value: unknown, objectName: string, culture: CultureInfo): void;
+    applyResourcesToRegisteredType(value: unknown, objectName: string, culture: CultureInfo): void;
 }
 
 
@@ -939,11 +943,11 @@ export type ComponentResourceManager = ComponentResourceManager$instance;
 
 export class Container$instance {
     constructor();
-    readonly Components: ComponentCollection;
-    Add(component: IComponent): void;
-    Add(component: IComponent, name: string): void;
-    Dispose(): void;
-    Remove(component: IComponent): void;
+    readonly components: ComponentCollection;
+    add(component: IComponent): void;
+    add(component: IComponent, name: string): void;
+    dispose(): void;
+    remove(component: IComponent): void;
 }
 
 
@@ -956,7 +960,7 @@ export type Container = Container$instance & __Container$views;
 
 
 export abstract class ContainerFilterService$instance {
-    FilterComponents(components: ComponentCollection): ComponentCollection;
+    filterComponents(components: ComponentCollection): ComponentCollection;
 }
 
 
@@ -964,42 +968,42 @@ export type ContainerFilterService = ContainerFilterService$instance;
 
 export class CultureInfoConverter$instance extends TypeConverter$instance {
     constructor();
-    CanConvertFrom(context: ITypeDescriptorContext, sourceType: Type): boolean;
-    CanConvertFrom(sourceType: Type): boolean;
-    CanConvertTo(context: ITypeDescriptorContext, destinationType: Type): boolean;
-    CanConvertTo(destinationType: Type): boolean;
-    ConvertFrom(context: ITypeDescriptorContext, culture: CultureInfo, value: unknown): unknown;
-    ConvertFrom(value: unknown): unknown;
-    ConvertTo(context: ITypeDescriptorContext, culture: CultureInfo, value: unknown, destinationType: Type): unknown;
-    ConvertTo(value: unknown, destinationType: Type): unknown;
-    GetStandardValues(context: ITypeDescriptorContext): TypeConverter_StandardValuesCollection;
-    GetStandardValues(): ICollection;
-    GetStandardValuesExclusive(context: ITypeDescriptorContext): boolean;
-    GetStandardValuesExclusive(): boolean;
-    GetStandardValuesSupported(context: ITypeDescriptorContext): boolean;
-    GetStandardValuesSupported(): boolean;
+    canConvertFrom(context: ITypeDescriptorContext, sourceType: Type): boolean;
+    canConvertFrom(sourceType: Type): boolean;
+    canConvertTo(context: ITypeDescriptorContext, destinationType: Type): boolean;
+    canConvertTo(destinationType: Type): boolean;
+    convertFrom(context: ITypeDescriptorContext, culture: CultureInfo, value: unknown): unknown;
+    convertFrom(value: unknown): unknown;
+    convertTo(context: ITypeDescriptorContext, culture: CultureInfo, value: unknown, destinationType: Type): unknown;
+    convertTo(value: unknown, destinationType: Type): unknown;
+    getStandardValues(context: ITypeDescriptorContext): TypeConverter_StandardValuesCollection;
+    getStandardValues(): ICollection;
+    getStandardValuesExclusive(context: ITypeDescriptorContext): boolean;
+    getStandardValuesExclusive(): boolean;
+    getStandardValuesSupported(context: ITypeDescriptorContext): boolean;
+    getStandardValuesSupported(): boolean;
 }
 
 
 export type CultureInfoConverter = CultureInfoConverter$instance;
 
 export abstract class CustomTypeDescriptor$instance {
-    readonly RequireRegisteredTypes: Nullable_1<CLROf<boolean>>;
-    GetAttributes(): AttributeCollection;
-    GetClassName(): string;
-    GetComponentName(): string;
-    GetConverter(): TypeConverter;
-    GetConverterFromRegisteredType(): TypeConverter;
-    GetDefaultEvent(): EventDescriptor;
-    GetDefaultProperty(): PropertyDescriptor;
-    GetEditor(editorBaseType: Type): unknown;
-    GetEvents(): EventDescriptorCollection;
-    GetEvents(attributes: Attribute[]): EventDescriptorCollection;
-    GetEventsFromRegisteredType(): EventDescriptorCollection;
-    GetProperties(): PropertyDescriptorCollection;
-    GetProperties(attributes: Attribute[]): PropertyDescriptorCollection;
-    GetPropertiesFromRegisteredType(): PropertyDescriptorCollection;
-    GetPropertyOwner(pd: PropertyDescriptor): unknown;
+    readonly requireRegisteredTypes: Nullable_1<CLROf<boolean>>;
+    getAttributes(): AttributeCollection;
+    getClassName(): string;
+    getComponentName(): string;
+    getConverter(): TypeConverter;
+    getConverterFromRegisteredType(): TypeConverter;
+    getDefaultEvent(): EventDescriptor;
+    getDefaultProperty(): PropertyDescriptor;
+    getEditor(editorBaseType: Type): unknown;
+    getEvents(): EventDescriptorCollection;
+    getEvents(attributes: Attribute[]): EventDescriptorCollection;
+    getEventsFromRegisteredType(): EventDescriptorCollection;
+    getProperties(): PropertyDescriptorCollection;
+    getProperties(attributes: Attribute[]): PropertyDescriptorCollection;
+    getPropertiesFromRegisteredType(): PropertyDescriptorCollection;
+    getPropertyOwner(pd: PropertyDescriptor): unknown;
 }
 
 
@@ -1014,7 +1018,7 @@ export type CustomTypeDescriptor = CustomTypeDescriptor$instance & __CustomTypeD
 
 export class DataErrorsChangedEventArgs$instance extends System_Internal.EventArgs$instance {
     constructor(propertyName: string);
-    readonly PropertyName: string;
+    readonly propertyName: string;
 }
 
 
@@ -1023,13 +1027,13 @@ export type DataErrorsChangedEventArgs = DataErrorsChangedEventArgs$instance;
 export class DataObjectAttribute$instance extends System_Internal.Attribute$instance {
     constructor();
     constructor(isDataObject: boolean);
-    readonly IsDataObject: boolean;
-    Equals(obj: unknown): boolean;
-    GetHashCode(): int;
-    IsDefaultAttribute(): boolean;
-    static readonly DataObject: DataObjectAttribute;
-    static readonly NonDataObject: DataObjectAttribute;
-    static readonly Default: DataObjectAttribute;
+    readonly isDataObject: boolean;
+    equals(obj: unknown): boolean;
+    getHashCode(): int;
+    isDefaultAttribute(): boolean;
+    static readonly dataObject: DataObjectAttribute;
+    static readonly nonDataObject: DataObjectAttribute;
+    static readonly default_: DataObjectAttribute;
 }
 
 
@@ -1040,12 +1044,12 @@ export class DataObjectFieldAttribute$instance extends System_Internal.Attribute
     constructor(primaryKey: boolean, isIdentity: boolean);
     constructor(primaryKey: boolean, isIdentity: boolean, isNullable: boolean);
     constructor(primaryKey: boolean, isIdentity: boolean, isNullable: boolean, length: int);
-    readonly IsIdentity: boolean;
-    readonly IsNullable: boolean;
-    readonly Length: int;
-    readonly PrimaryKey: boolean;
-    Equals(obj: unknown): boolean;
-    GetHashCode(): int;
+    readonly isIdentity: boolean;
+    readonly isNullable: boolean;
+    readonly length: int;
+    readonly primaryKey: boolean;
+    equals(obj: unknown): boolean;
+    getHashCode(): int;
 }
 
 
@@ -1054,11 +1058,11 @@ export type DataObjectFieldAttribute = DataObjectFieldAttribute$instance;
 export class DataObjectMethodAttribute$instance extends System_Internal.Attribute$instance {
     constructor(methodType: DataObjectMethodType);
     constructor(methodType: DataObjectMethodType, isDefault: boolean);
-    readonly IsDefault: boolean;
-    readonly MethodType: DataObjectMethodType;
-    Equals(obj: unknown): boolean;
-    GetHashCode(): int;
-    Match(obj: unknown): boolean;
+    readonly isDefault: boolean;
+    readonly methodType: DataObjectMethodType;
+    equals(obj: unknown): boolean;
+    getHashCode(): int;
+    match(obj: unknown): boolean;
 }
 
 
@@ -1066,14 +1070,14 @@ export type DataObjectMethodAttribute = DataObjectMethodAttribute$instance;
 
 export class DateOnlyConverter$instance extends TypeConverter$instance {
     constructor();
-    CanConvertFrom(context: ITypeDescriptorContext, sourceType: Type): boolean;
-    CanConvertFrom(sourceType: Type): boolean;
-    CanConvertTo(context: ITypeDescriptorContext, destinationType: Type): boolean;
-    CanConvertTo(destinationType: Type): boolean;
-    ConvertFrom(context: ITypeDescriptorContext, culture: CultureInfo, value: unknown): unknown;
-    ConvertFrom(value: unknown): unknown;
-    ConvertTo(context: ITypeDescriptorContext, culture: CultureInfo, value: unknown, destinationType: Type): unknown;
-    ConvertTo(value: unknown, destinationType: Type): unknown;
+    canConvertFrom(context: ITypeDescriptorContext, sourceType: Type): boolean;
+    canConvertFrom(sourceType: Type): boolean;
+    canConvertTo(context: ITypeDescriptorContext, destinationType: Type): boolean;
+    canConvertTo(destinationType: Type): boolean;
+    convertFrom(context: ITypeDescriptorContext, culture: CultureInfo, value: unknown): unknown;
+    convertFrom(value: unknown): unknown;
+    convertTo(context: ITypeDescriptorContext, culture: CultureInfo, value: unknown, destinationType: Type): unknown;
+    convertTo(value: unknown, destinationType: Type): unknown;
 }
 
 
@@ -1081,14 +1085,14 @@ export type DateOnlyConverter = DateOnlyConverter$instance;
 
 export class DateTimeConverter$instance extends TypeConverter$instance {
     constructor();
-    CanConvertFrom(context: ITypeDescriptorContext, sourceType: Type): boolean;
-    CanConvertFrom(sourceType: Type): boolean;
-    CanConvertTo(context: ITypeDescriptorContext, destinationType: Type): boolean;
-    CanConvertTo(destinationType: Type): boolean;
-    ConvertFrom(context: ITypeDescriptorContext, culture: CultureInfo, value: unknown): unknown;
-    ConvertFrom(value: unknown): unknown;
-    ConvertTo(context: ITypeDescriptorContext, culture: CultureInfo, value: unknown, destinationType: Type): unknown;
-    ConvertTo(value: unknown, destinationType: Type): unknown;
+    canConvertFrom(context: ITypeDescriptorContext, sourceType: Type): boolean;
+    canConvertFrom(sourceType: Type): boolean;
+    canConvertTo(context: ITypeDescriptorContext, destinationType: Type): boolean;
+    canConvertTo(destinationType: Type): boolean;
+    convertFrom(context: ITypeDescriptorContext, culture: CultureInfo, value: unknown): unknown;
+    convertFrom(value: unknown): unknown;
+    convertTo(context: ITypeDescriptorContext, culture: CultureInfo, value: unknown, destinationType: Type): unknown;
+    convertTo(value: unknown, destinationType: Type): unknown;
 }
 
 
@@ -1096,14 +1100,14 @@ export type DateTimeConverter = DateTimeConverter$instance;
 
 export class DateTimeOffsetConverter$instance extends TypeConverter$instance {
     constructor();
-    CanConvertFrom(context: ITypeDescriptorContext, sourceType: Type): boolean;
-    CanConvertFrom(sourceType: Type): boolean;
-    CanConvertTo(context: ITypeDescriptorContext, destinationType: Type): boolean;
-    CanConvertTo(destinationType: Type): boolean;
-    ConvertFrom(context: ITypeDescriptorContext, culture: CultureInfo, value: unknown): unknown;
-    ConvertFrom(value: unknown): unknown;
-    ConvertTo(context: ITypeDescriptorContext, culture: CultureInfo, value: unknown, destinationType: Type): unknown;
-    ConvertTo(value: unknown, destinationType: Type): unknown;
+    canConvertFrom(context: ITypeDescriptorContext, sourceType: Type): boolean;
+    canConvertFrom(sourceType: Type): boolean;
+    canConvertTo(context: ITypeDescriptorContext, destinationType: Type): boolean;
+    canConvertTo(destinationType: Type): boolean;
+    convertFrom(context: ITypeDescriptorContext, culture: CultureInfo, value: unknown): unknown;
+    convertFrom(value: unknown): unknown;
+    convertTo(context: ITypeDescriptorContext, culture: CultureInfo, value: unknown, destinationType: Type): unknown;
+    convertTo(value: unknown, destinationType: Type): unknown;
 }
 
 
@@ -1111,10 +1115,10 @@ export type DateTimeOffsetConverter = DateTimeOffsetConverter$instance;
 
 export class DecimalConverter$instance extends BaseNumberConverter$instance {
     constructor();
-    CanConvertTo(context: ITypeDescriptorContext, destinationType: Type): boolean;
-    CanConvertTo(destinationType: Type): boolean;
-    ConvertTo(context: ITypeDescriptorContext, culture: CultureInfo, value: unknown, destinationType: Type): unknown;
-    ConvertTo(value: unknown, destinationType: Type): unknown;
+    canConvertTo(context: ITypeDescriptorContext, destinationType: Type): boolean;
+    canConvertTo(destinationType: Type): boolean;
+    convertTo(context: ITypeDescriptorContext, culture: CultureInfo, value: unknown, destinationType: Type): unknown;
+    convertTo(value: unknown, destinationType: Type): unknown;
 }
 
 
@@ -1123,10 +1127,10 @@ export type DecimalConverter = DecimalConverter$instance;
 export class DefaultBindingPropertyAttribute$instance extends System_Internal.Attribute$instance {
     constructor();
     constructor(name: string);
-    readonly Name: string;
-    Equals(obj: unknown): boolean;
-    GetHashCode(): int;
-    static readonly Default: DefaultBindingPropertyAttribute;
+    readonly name: string;
+    equals(obj: unknown): boolean;
+    getHashCode(): int;
+    static readonly default_: DefaultBindingPropertyAttribute;
 }
 
 
@@ -1134,10 +1138,10 @@ export type DefaultBindingPropertyAttribute = DefaultBindingPropertyAttribute$in
 
 export class DefaultEventAttribute$instance extends System_Internal.Attribute$instance {
     constructor(name: string);
-    readonly Name: string;
-    Equals(obj: unknown): boolean;
-    GetHashCode(): int;
-    static readonly Default: DefaultEventAttribute;
+    readonly name: string;
+    equals(obj: unknown): boolean;
+    getHashCode(): int;
+    static readonly default_: DefaultEventAttribute;
 }
 
 
@@ -1145,10 +1149,10 @@ export type DefaultEventAttribute = DefaultEventAttribute$instance;
 
 export class DefaultPropertyAttribute$instance extends System_Internal.Attribute$instance {
     constructor(name: string);
-    readonly Name: string;
-    Equals(obj: unknown): boolean;
-    GetHashCode(): int;
-    static readonly Default: DefaultPropertyAttribute;
+    readonly name: string;
+    equals(obj: unknown): boolean;
+    getHashCode(): int;
+    static readonly default_: DefaultPropertyAttribute;
 }
 
 
@@ -1170,9 +1174,9 @@ export class DefaultValueAttribute$instance extends System_Internal.Attribute$in
     constructor(value: ushort);
     constructor(value: uint);
     constructor(value: ulong);
-    readonly Value: unknown;
-    Equals(obj: unknown): boolean;
-    GetHashCode(): int;
+    readonly value: unknown;
+    equals(obj: unknown): boolean;
+    getHashCode(): int;
 }
 
 
@@ -1181,11 +1185,11 @@ export type DefaultValueAttribute = DefaultValueAttribute$instance;
 export class DescriptionAttribute$instance extends System_Internal.Attribute$instance {
     constructor();
     constructor(description: string);
-    readonly Description: string;
-    Equals(obj: unknown): boolean;
-    GetHashCode(): int;
-    IsDefaultAttribute(): boolean;
-    static readonly Default: DescriptionAttribute;
+    readonly description: string;
+    equals(obj: unknown): boolean;
+    getHashCode(): int;
+    isDefaultAttribute(): boolean;
+    static readonly default_: DescriptionAttribute;
 }
 
 
@@ -1197,11 +1201,11 @@ export class DesignerAttribute$instance extends System_Internal.Attribute$instan
     constructor(designerTypeName: string, designerBaseTypeName: string);
     constructor(designerTypeName: string, designerBaseType: Type);
     constructor(designerType: Type, designerBaseType: Type);
-    readonly DesignerBaseTypeName: string;
-    readonly DesignerTypeName: string;
-    readonly TypeId: unknown;
-    Equals(obj: unknown): boolean;
-    GetHashCode(): int;
+    readonly designerBaseTypeName: string;
+    readonly designerTypeName: string;
+    readonly typeId: unknown;
+    equals(obj: unknown): boolean;
+    getHashCode(): int;
 }
 
 
@@ -1210,15 +1214,15 @@ export type DesignerAttribute = DesignerAttribute$instance;
 export class DesignerCategoryAttribute$instance extends System_Internal.Attribute$instance {
     constructor();
     constructor(category: string);
-    readonly Category: string;
-    readonly TypeId: unknown;
-    Equals(obj: unknown): boolean;
-    GetHashCode(): int;
-    IsDefaultAttribute(): boolean;
-    static readonly Component: DesignerCategoryAttribute;
-    static readonly Default: DesignerCategoryAttribute;
-    static readonly Form: DesignerCategoryAttribute;
-    static readonly Generic: DesignerCategoryAttribute;
+    readonly category: string;
+    readonly typeId: unknown;
+    equals(obj: unknown): boolean;
+    getHashCode(): int;
+    isDefaultAttribute(): boolean;
+    static readonly component: DesignerCategoryAttribute;
+    static readonly default_: DesignerCategoryAttribute;
+    static readonly form: DesignerCategoryAttribute;
+    static readonly generic: DesignerCategoryAttribute;
 }
 
 
@@ -1226,14 +1230,14 @@ export type DesignerCategoryAttribute = DesignerCategoryAttribute$instance;
 
 export class DesignerSerializationVisibilityAttribute$instance extends System_Internal.Attribute$instance {
     constructor(visibility: DesignerSerializationVisibility);
-    readonly Visibility: DesignerSerializationVisibility;
-    Equals(obj: unknown): boolean;
-    GetHashCode(): int;
-    IsDefaultAttribute(): boolean;
-    static readonly Content: DesignerSerializationVisibilityAttribute;
-    static readonly Hidden: DesignerSerializationVisibilityAttribute;
-    static readonly Visible: DesignerSerializationVisibilityAttribute;
-    static readonly Default: DesignerSerializationVisibilityAttribute;
+    readonly visibility: DesignerSerializationVisibility;
+    equals(obj: unknown): boolean;
+    getHashCode(): int;
+    isDefaultAttribute(): boolean;
+    static readonly content: DesignerSerializationVisibilityAttribute;
+    static readonly hidden: DesignerSerializationVisibilityAttribute;
+    static readonly visible: DesignerSerializationVisibilityAttribute;
+    static readonly default_: DesignerSerializationVisibilityAttribute;
 }
 
 
@@ -1241,13 +1245,13 @@ export type DesignerSerializationVisibilityAttribute = DesignerSerializationVisi
 
 export class DesignOnlyAttribute$instance extends System_Internal.Attribute$instance {
     constructor(isDesignOnly: boolean);
-    readonly IsDesignOnly: boolean;
-    Equals(obj: unknown): boolean;
-    GetHashCode(): int;
-    IsDefaultAttribute(): boolean;
-    static readonly Yes: DesignOnlyAttribute;
-    static readonly No: DesignOnlyAttribute;
-    static readonly Default: DesignOnlyAttribute;
+    readonly isDesignOnly: boolean;
+    equals(obj: unknown): boolean;
+    getHashCode(): int;
+    isDefaultAttribute(): boolean;
+    static readonly yes: DesignOnlyAttribute;
+    static readonly no: DesignOnlyAttribute;
+    static readonly default_: DesignOnlyAttribute;
 }
 
 
@@ -1256,13 +1260,13 @@ export type DesignOnlyAttribute = DesignOnlyAttribute$instance;
 export class DesignTimeVisibleAttribute$instance extends System_Internal.Attribute$instance {
     constructor(visible: boolean);
     constructor();
-    readonly Visible: boolean;
-    Equals(obj: unknown): boolean;
-    GetHashCode(): int;
-    IsDefaultAttribute(): boolean;
-    static readonly Yes: DesignTimeVisibleAttribute;
-    static readonly No: DesignTimeVisibleAttribute;
-    static readonly Default: DesignTimeVisibleAttribute;
+    readonly visible: boolean;
+    equals(obj: unknown): boolean;
+    getHashCode(): int;
+    isDefaultAttribute(): boolean;
+    static readonly yes: DesignTimeVisibleAttribute;
+    static readonly no: DesignTimeVisibleAttribute;
+    static readonly default_: DesignTimeVisibleAttribute;
 }
 
 
@@ -1271,11 +1275,11 @@ export type DesignTimeVisibleAttribute = DesignTimeVisibleAttribute$instance;
 export class DisplayNameAttribute$instance extends System_Internal.Attribute$instance {
     constructor();
     constructor(displayName: string);
-    readonly DisplayName: string;
-    Equals(obj: unknown): boolean;
-    GetHashCode(): int;
-    IsDefaultAttribute(): boolean;
-    static readonly Default: DisplayNameAttribute;
+    readonly displayName: string;
+    equals(obj: unknown): boolean;
+    getHashCode(): int;
+    isDefaultAttribute(): boolean;
+    static readonly default_: DisplayNameAttribute;
 }
 
 
@@ -1290,8 +1294,8 @@ export type DoubleConverter = DoubleConverter$instance;
 
 export class DoWorkEventArgs$instance extends CancelEventArgs$instance {
     constructor(argument: unknown);
-    readonly Argument: unknown;
-    Result: unknown;
+    readonly argument: unknown;
+    result: unknown;
 }
 
 
@@ -1299,11 +1303,11 @@ export type DoWorkEventArgs = DoWorkEventArgs$instance;
 
 export class DoWorkEventHandler$instance extends Function {
     constructor(object_: unknown, method: nint);
-    BeginInvoke(sender: unknown, e: DoWorkEventArgs, callback: AsyncCallback, object_: unknown): IAsyncResult;
+    beginInvoke(sender: unknown, e: DoWorkEventArgs, callback: AsyncCallback, object_: unknown): IAsyncResult;
     Clone(): unknown;
-    EndInvoke(result: IAsyncResult): void;
+    endInvoke(result: IAsyncResult): void;
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
-    Invoke(sender: unknown, e: DoWorkEventArgs): void;
+    invoke(sender: unknown, e: DoWorkEventArgs): void;
 }
 
 
@@ -1311,6 +1315,8 @@ export interface __DoWorkEventHandler$views {
     As_ICloneable(): System_Internal.ICloneable$instance;
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
+
+export interface DoWorkEventHandler$instance extends System_Internal.ICloneable$instance {}
 
 export type DoWorkEventHandler = DoWorkEventHandler$instance & __DoWorkEventHandler$views;
 
@@ -1320,11 +1326,11 @@ export class EditorAttribute$instance extends System_Internal.Attribute$instance
     constructor(typeName: string, baseTypeName: string);
     constructor(typeName: string, baseType: Type);
     constructor(type_: Type, baseType: Type);
-    readonly EditorBaseTypeName: string;
-    readonly EditorTypeName: string;
-    readonly TypeId: unknown;
-    Equals(obj: unknown): boolean;
-    GetHashCode(): int;
+    readonly editorBaseTypeName: string;
+    readonly editorTypeName: string;
+    readonly typeId: unknown;
+    equals(obj: unknown): boolean;
+    getHashCode(): int;
 }
 
 
@@ -1333,9 +1339,9 @@ export type EditorAttribute = EditorAttribute$instance;
 export class EditorBrowsableAttribute$instance extends System_Internal.Attribute$instance {
     constructor(state: EditorBrowsableState);
     constructor();
-    readonly State: EditorBrowsableState;
-    Equals(obj: unknown): boolean;
-    GetHashCode(): int;
+    readonly state: EditorBrowsableState;
+    equals(obj: unknown): boolean;
+    getHashCode(): int;
 }
 
 
@@ -1343,33 +1349,33 @@ export type EditorBrowsableAttribute = EditorBrowsableAttribute$instance;
 
 export class EnumConverter$instance extends TypeConverter$instance {
     constructor(type_: Type);
-    CanConvertFrom(context: ITypeDescriptorContext, sourceType: Type): boolean;
-    CanConvertFrom(sourceType: Type): boolean;
-    CanConvertTo(context: ITypeDescriptorContext, destinationType: Type): boolean;
-    CanConvertTo(destinationType: Type): boolean;
-    ConvertFrom(context: ITypeDescriptorContext, culture: CultureInfo, value: unknown): unknown;
-    ConvertFrom(value: unknown): unknown;
-    ConvertTo(context: ITypeDescriptorContext, culture: CultureInfo, value: unknown, destinationType: Type): unknown;
-    ConvertTo(value: unknown, destinationType: Type): unknown;
-    GetStandardValues(context: ITypeDescriptorContext): TypeConverter_StandardValuesCollection;
-    GetStandardValues(): ICollection;
-    GetStandardValuesExclusive(context: ITypeDescriptorContext): boolean;
-    GetStandardValuesExclusive(): boolean;
-    GetStandardValuesSupported(context: ITypeDescriptorContext): boolean;
-    GetStandardValuesSupported(): boolean;
-    IsValid(context: ITypeDescriptorContext, value: unknown): boolean;
-    IsValid(value: unknown): boolean;
+    canConvertFrom(context: ITypeDescriptorContext, sourceType: Type): boolean;
+    canConvertFrom(sourceType: Type): boolean;
+    canConvertTo(context: ITypeDescriptorContext, destinationType: Type): boolean;
+    canConvertTo(destinationType: Type): boolean;
+    convertFrom(context: ITypeDescriptorContext, culture: CultureInfo, value: unknown): unknown;
+    convertFrom(value: unknown): unknown;
+    convertTo(context: ITypeDescriptorContext, culture: CultureInfo, value: unknown, destinationType: Type): unknown;
+    convertTo(value: unknown, destinationType: Type): unknown;
+    getStandardValues(context: ITypeDescriptorContext): TypeConverter_StandardValuesCollection;
+    getStandardValues(): ICollection;
+    getStandardValuesExclusive(context: ITypeDescriptorContext): boolean;
+    getStandardValuesExclusive(): boolean;
+    getStandardValuesSupported(context: ITypeDescriptorContext): boolean;
+    getStandardValuesSupported(): boolean;
+    isValid(context: ITypeDescriptorContext, value: unknown): boolean;
+    isValid(value: unknown): boolean;
 }
 
 
 export type EnumConverter = EnumConverter$instance;
 
 export abstract class EventDescriptor$instance extends MemberDescriptor$instance {
-    readonly ComponentType: Type;
-    readonly EventType: Type;
-    readonly IsMulticast: boolean;
-    abstract AddEventHandler(component: unknown, value: Function): void;
-    abstract RemoveEventHandler(component: unknown, value: Function): void;
+    readonly componentType: Type;
+    readonly eventType: Type;
+    readonly isMulticast: boolean;
+    abstract addEventHandler(component: unknown, value: Function): void;
+    abstract removeEventHandler(component: unknown, value: Function): void;
 }
 
 
@@ -1378,23 +1384,23 @@ export type EventDescriptor = EventDescriptor$instance;
 export class EventDescriptorCollection$instance {
     constructor(events: EventDescriptor[]);
     constructor(events: EventDescriptor[], readOnly: boolean);
-    readonly Count: int;
-    Add(value: EventDescriptor): int;
-    Clear(): void;
-    Contains(value: EventDescriptor): boolean;
-    Find(name: string, ignoreCase: boolean): EventDescriptor;
+    readonly count: int;
+    add(value: EventDescriptor): int;
+    clear(): void;
+    contains(value: EventDescriptor): boolean;
+    find(name: string, ignoreCase: boolean): EventDescriptor;
     get_Item(index: int): EventDescriptor;
     get_Item(name: string): EventDescriptor;
-    GetEnumerator(): IEnumerator;
-    IndexOf(value: EventDescriptor): int;
-    Insert(index: int, value: EventDescriptor): void;
-    Remove(value: EventDescriptor): void;
-    RemoveAt(index: int): void;
-    Sort(): EventDescriptorCollection;
-    Sort(names: string[]): EventDescriptorCollection;
-    Sort(names: string[], comparer: IComparer): EventDescriptorCollection;
-    Sort(comparer: IComparer): EventDescriptorCollection;
-    static readonly Empty: EventDescriptorCollection;
+    getEnumerator(): IEnumerator;
+    indexOf(value: EventDescriptor): int;
+    insert(index: int, value: EventDescriptor): void;
+    remove(value: EventDescriptor): void;
+    removeAt(index: int): void;
+    sort(): EventDescriptorCollection;
+    sort(names: string[]): EventDescriptorCollection;
+    sort(names: string[], comparer: IComparer): EventDescriptorCollection;
+    sort(comparer: IComparer): EventDescriptorCollection;
+    static readonly empty: EventDescriptorCollection;
 }
 
 
@@ -1409,11 +1415,11 @@ export type EventDescriptorCollection = EventDescriptorCollection$instance & __E
 
 export class EventHandlerList$instance {
     constructor();
-    Item: Function;
-    AddHandler(key: unknown, value: Function): void;
-    AddHandlers(listToAddFrom: EventHandlerList): void;
-    Dispose(): void;
-    RemoveHandler(key: unknown, value: Function): void;
+    item: Function;
+    addHandler(key: unknown, value: Function): void;
+    addHandlers(listToAddFrom: EventHandlerList): void;
+    dispose(): void;
+    removeHandler(key: unknown, value: Function): void;
 }
 
 
@@ -1428,11 +1434,11 @@ export type EventHandlerList = EventHandlerList$instance & __EventHandlerList$vi
 
 export class ExpandableObjectConverter$instance extends TypeConverter$instance {
     constructor();
-    GetProperties(context: ITypeDescriptorContext, value: unknown, attributes: Attribute[]): PropertyDescriptorCollection;
-    GetProperties(value: unknown): PropertyDescriptorCollection;
-    GetProperties(context: ITypeDescriptorContext, value: unknown): PropertyDescriptorCollection;
-    GetPropertiesSupported(context: ITypeDescriptorContext): boolean;
-    GetPropertiesSupported(): boolean;
+    getProperties(context: ITypeDescriptorContext, value: unknown, attributes: Attribute[]): PropertyDescriptorCollection;
+    getProperties(value: unknown): PropertyDescriptorCollection;
+    getProperties(context: ITypeDescriptorContext, value: unknown): PropertyDescriptorCollection;
+    getPropertiesSupported(context: ITypeDescriptorContext): boolean;
+    getPropertiesSupported(): boolean;
 }
 
 
@@ -1440,12 +1446,12 @@ export type ExpandableObjectConverter = ExpandableObjectConverter$instance;
 
 export class ExtenderProvidedPropertyAttribute$instance extends System_Internal.Attribute$instance {
     constructor();
-    readonly ExtenderProperty: PropertyDescriptor;
-    readonly Provider: IExtenderProvider;
-    readonly ReceiverType: Type;
-    Equals(obj: unknown): boolean;
-    GetHashCode(): int;
-    IsDefaultAttribute(): boolean;
+    readonly extenderProperty: PropertyDescriptor;
+    readonly provider: IExtenderProvider;
+    readonly receiverType: Type;
+    equals(obj: unknown): boolean;
+    getHashCode(): int;
+    isDefaultAttribute(): boolean;
 }
 
 
@@ -1453,14 +1459,14 @@ export type ExtenderProvidedPropertyAttribute = ExtenderProvidedPropertyAttribut
 
 export class GuidConverter$instance extends TypeConverter$instance {
     constructor();
-    CanConvertFrom(context: ITypeDescriptorContext, sourceType: Type): boolean;
-    CanConvertFrom(sourceType: Type): boolean;
-    CanConvertTo(context: ITypeDescriptorContext, destinationType: Type): boolean;
-    CanConvertTo(destinationType: Type): boolean;
-    ConvertFrom(context: ITypeDescriptorContext, culture: CultureInfo, value: unknown): unknown;
-    ConvertFrom(value: unknown): unknown;
-    ConvertTo(context: ITypeDescriptorContext, culture: CultureInfo, value: unknown, destinationType: Type): unknown;
-    ConvertTo(value: unknown, destinationType: Type): unknown;
+    canConvertFrom(context: ITypeDescriptorContext, sourceType: Type): boolean;
+    canConvertFrom(sourceType: Type): boolean;
+    canConvertTo(context: ITypeDescriptorContext, destinationType: Type): boolean;
+    canConvertTo(destinationType: Type): boolean;
+    convertFrom(context: ITypeDescriptorContext, culture: CultureInfo, value: unknown): unknown;
+    convertFrom(value: unknown): unknown;
+    convertTo(context: ITypeDescriptorContext, culture: CultureInfo, value: unknown, destinationType: Type): unknown;
+    convertTo(value: unknown, destinationType: Type): unknown;
 }
 
 
@@ -1476,7 +1482,7 @@ export type HalfConverter = HalfConverter$instance;
 export class HandledEventArgs$instance extends System_Internal.EventArgs$instance {
     constructor();
     constructor(defaultHandledValue: boolean);
-    Handled: boolean;
+    handled: boolean;
 }
 
 
@@ -1484,11 +1490,11 @@ export type HandledEventArgs = HandledEventArgs$instance;
 
 export class HandledEventHandler$instance extends Function {
     constructor(object_: unknown, method: nint);
-    BeginInvoke(sender: unknown, e: HandledEventArgs, callback: AsyncCallback, object_: unknown): IAsyncResult;
+    beginInvoke(sender: unknown, e: HandledEventArgs, callback: AsyncCallback, object_: unknown): IAsyncResult;
     Clone(): unknown;
-    EndInvoke(result: IAsyncResult): void;
+    endInvoke(result: IAsyncResult): void;
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
-    Invoke(sender: unknown, e: HandledEventArgs): void;
+    invoke(sender: unknown, e: HandledEventArgs): void;
 }
 
 
@@ -1497,18 +1503,20 @@ export interface __HandledEventHandler$views {
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
+export interface HandledEventHandler$instance extends System_Internal.ICloneable$instance {}
+
 export type HandledEventHandler = HandledEventHandler$instance & __HandledEventHandler$views;
 
 
 export class ImmutableObjectAttribute$instance extends System_Internal.Attribute$instance {
     constructor(immutable: boolean);
-    readonly Immutable: boolean;
-    Equals(obj: unknown): boolean;
-    GetHashCode(): int;
-    IsDefaultAttribute(): boolean;
-    static readonly Yes: ImmutableObjectAttribute;
-    static readonly No: ImmutableObjectAttribute;
-    static readonly Default: ImmutableObjectAttribute;
+    readonly immutable: boolean;
+    equals(obj: unknown): boolean;
+    getHashCode(): int;
+    isDefaultAttribute(): boolean;
+    static readonly yes: ImmutableObjectAttribute;
+    static readonly no: ImmutableObjectAttribute;
+    static readonly default_: ImmutableObjectAttribute;
 }
 
 
@@ -1517,15 +1525,15 @@ export type ImmutableObjectAttribute = ImmutableObjectAttribute$instance;
 export class InheritanceAttribute$instance extends System_Internal.Attribute$instance {
     constructor();
     constructor(inheritanceLevel: InheritanceLevel);
-    readonly InheritanceLevel: InheritanceLevel;
-    Equals(value: unknown): boolean;
-    GetHashCode(): int;
-    IsDefaultAttribute(): boolean;
-    ToString(): string;
-    static readonly Inherited: InheritanceAttribute;
-    static readonly InheritedReadOnly: InheritanceAttribute;
-    static readonly NotInherited: InheritanceAttribute;
-    static readonly Default: InheritanceAttribute;
+    readonly inheritanceLevel: InheritanceLevel;
+    equals(value: unknown): boolean;
+    getHashCode(): int;
+    isDefaultAttribute(): boolean;
+    toString(): string;
+    static readonly inherited: InheritanceAttribute;
+    static readonly inheritedReadOnly: InheritanceAttribute;
+    static readonly notInherited: InheritanceAttribute;
+    static readonly default_: InheritanceAttribute;
 }
 
 
@@ -1533,7 +1541,7 @@ export type InheritanceAttribute = InheritanceAttribute$instance;
 
 export class InitializationEventAttribute$instance extends System_Internal.Attribute$instance {
     constructor(eventName: string);
-    readonly EventName: string;
+    readonly eventName: string;
 }
 
 
@@ -1542,17 +1550,17 @@ export type InitializationEventAttribute = InitializationEventAttribute$instance
 export class InstallerTypeAttribute$instance extends System_Internal.Attribute$instance {
     constructor(installerType: Type);
     constructor(typeName: string);
-    readonly InstallerType: Type;
-    Equals(obj: unknown): boolean;
-    GetHashCode(): int;
+    readonly installerType: Type;
+    equals(obj: unknown): boolean;
+    getHashCode(): int;
 }
 
 
 export type InstallerTypeAttribute = InstallerTypeAttribute$instance;
 
 export abstract class InstanceCreationEditor$instance {
-    readonly Text: string;
-    abstract CreateInstance(context: ITypeDescriptorContext, instanceType: Type): unknown;
+    readonly text: string;
+    abstract createInstance(context: ITypeDescriptorContext, instanceType: Type): unknown;
 }
 
 
@@ -1618,8 +1626,8 @@ export type InvalidEnumArgumentException = InvalidEnumArgumentException$instance
 
 
 export abstract class License$instance {
-    readonly LicenseKey: string;
-    abstract Dispose(): void;
+    readonly licenseKey: string;
+    abstract dispose(): void;
 }
 
 
@@ -1634,10 +1642,10 @@ export type License = License$instance & __License$views;
 
 export class LicenseContext$instance {
     constructor();
-    readonly UsageMode: LicenseUsageMode;
-    GetSavedLicenseKey(type_: Type, resourceAssembly: Assembly): string;
-    GetService(type_: Type): unknown;
-    SetSavedLicenseKey(type_: Type, key: string): void;
+    readonly usageMode: LicenseUsageMode;
+    getSavedLicenseKey(type_: Type, resourceAssembly: Assembly): string;
+    getService(type_: Type): unknown;
+    setSavedLicenseKey(type_: Type, key: string): void;
 }
 
 
@@ -1655,8 +1663,8 @@ export class LicenseException$instance extends System_Internal.SystemException$i
     constructor(type_: Type, instance: unknown);
     constructor(type_: Type, instance: unknown, message: string);
     constructor(type_: Type, instance: unknown, message: string, innerException: Exception);
-    readonly LicensedType: Type;
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    readonly licensedType: Type;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
@@ -1668,24 +1676,24 @@ export type LicenseException = LicenseException$instance & __LicenseException$vi
 
 
 export class LicenseManager$instance {
-    static CurrentContext: LicenseContext;
-    static readonly UsageMode: LicenseUsageMode;
-    static CreateWithContext(type_: Type, creationContext: LicenseContext, args: unknown[]): unknown;
-    static CreateWithContext(type_: Type, creationContext: LicenseContext): unknown;
-    static IsLicensed(type_: Type): boolean;
-    static IsValid(type_: Type, instance: unknown, license: { value: ref<License> }): boolean;
-    static IsValid(type_: Type): boolean;
-    static LockContext(contextUser: unknown): void;
-    static UnlockContext(contextUser: unknown): void;
-    static Validate(type_: Type, instance: unknown): License;
-    static Validate(type_: Type): void;
+    static currentContext: LicenseContext;
+    static readonly usageMode: LicenseUsageMode;
+    static createWithContext(type_: Type, creationContext: LicenseContext, args: unknown[]): unknown;
+    static createWithContext(type_: Type, creationContext: LicenseContext): unknown;
+    static isLicensed(type_: Type): boolean;
+    static isValid(type_: Type, instance: unknown, license: { value: ref<License> }): boolean;
+    static isValid(type_: Type): boolean;
+    static lockContext(contextUser: unknown): void;
+    static unlockContext(contextUser: unknown): void;
+    static validate(type_: Type, instance: unknown): License;
+    static validate(type_: Type): void;
 }
 
 
 export type LicenseManager = LicenseManager$instance;
 
 export abstract class LicenseProvider$instance {
-    abstract GetLicense(context: LicenseContext, type_: Type, instance: unknown, allowExceptions: boolean): License;
+    abstract getLicense(context: LicenseContext, type_: Type, instance: unknown, allowExceptions: boolean): License;
 }
 
 
@@ -1695,11 +1703,11 @@ export class LicenseProviderAttribute$instance extends System_Internal.Attribute
     constructor();
     constructor(typeName: string);
     constructor(type_: Type);
-    readonly LicenseProvider: Type;
-    readonly TypeId: unknown;
-    Equals(value: unknown): boolean;
-    GetHashCode(): int;
-    static readonly Default: LicenseProviderAttribute;
+    readonly licenseProvider: Type;
+    readonly typeId: unknown;
+    equals(value: unknown): boolean;
+    getHashCode(): int;
+    static readonly default_: LicenseProviderAttribute;
 }
 
 
@@ -1707,7 +1715,7 @@ export type LicenseProviderAttribute = LicenseProviderAttribute$instance;
 
 export class LicFileLicenseProvider$instance extends LicenseProvider$instance {
     constructor();
-    GetLicense(context: LicenseContext, type_: Type, instance: unknown, allowExceptions: boolean): License;
+    getLicense(context: LicenseContext, type_: Type, instance: unknown, allowExceptions: boolean): License;
 }
 
 
@@ -1716,13 +1724,13 @@ export type LicFileLicenseProvider = LicFileLicenseProvider$instance;
 export class ListBindableAttribute$instance extends System_Internal.Attribute$instance {
     constructor(listBindable: boolean);
     constructor(flags: BindableSupport);
-    readonly ListBindable: boolean;
-    Equals(obj: unknown): boolean;
-    GetHashCode(): int;
-    IsDefaultAttribute(): boolean;
-    static readonly Yes: ListBindableAttribute;
-    static readonly No: ListBindableAttribute;
-    static readonly Default: ListBindableAttribute;
+    readonly listBindable: boolean;
+    equals(obj: unknown): boolean;
+    getHashCode(): int;
+    isDefaultAttribute(): boolean;
+    static readonly yes: ListBindableAttribute;
+    static readonly no: ListBindableAttribute;
+    static readonly default_: ListBindableAttribute;
 }
 
 
@@ -1733,10 +1741,10 @@ export class ListChangedEventArgs$instance extends System_Internal.EventArgs$ins
     constructor(listChangedType: ListChangedType, newIndex: int, propDesc: PropertyDescriptor);
     constructor(listChangedType: ListChangedType, propDesc: PropertyDescriptor);
     constructor(listChangedType: ListChangedType, newIndex: int, oldIndex: int);
-    readonly ListChangedType: ListChangedType;
-    readonly NewIndex: int;
-    readonly OldIndex: int;
-    readonly PropertyDescriptor: PropertyDescriptor;
+    readonly listChangedType: ListChangedType;
+    readonly newIndex: int;
+    readonly oldIndex: int;
+    readonly propertyDescriptor: PropertyDescriptor;
 }
 
 
@@ -1744,11 +1752,11 @@ export type ListChangedEventArgs = ListChangedEventArgs$instance;
 
 export class ListChangedEventHandler$instance extends Function {
     constructor(object_: unknown, method: nint);
-    BeginInvoke(sender: unknown, e: ListChangedEventArgs, callback: AsyncCallback, object_: unknown): IAsyncResult;
+    beginInvoke(sender: unknown, e: ListChangedEventArgs, callback: AsyncCallback, object_: unknown): IAsyncResult;
     Clone(): unknown;
-    EndInvoke(result: IAsyncResult): void;
+    endInvoke(result: IAsyncResult): void;
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
-    Invoke(sender: unknown, e: ListChangedEventArgs): void;
+    invoke(sender: unknown, e: ListChangedEventArgs): void;
 }
 
 
@@ -1757,13 +1765,15 @@ export interface __ListChangedEventHandler$views {
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
+export interface ListChangedEventHandler$instance extends System_Internal.ICloneable$instance {}
+
 export type ListChangedEventHandler = ListChangedEventHandler$instance & __ListChangedEventHandler$views;
 
 
 export class ListSortDescription$instance {
     constructor(property: PropertyDescriptor, direction: ListSortDirection);
-    PropertyDescriptor: PropertyDescriptor;
-    SortDirection: ListSortDirection;
+    propertyDescriptor: PropertyDescriptor;
+    sortDirection: ListSortDirection;
 }
 
 
@@ -1772,11 +1782,11 @@ export type ListSortDescription = ListSortDescription$instance;
 export class ListSortDescriptionCollection$instance {
     constructor();
     constructor(sorts: ListSortDescription[]);
-    readonly Count: int;
-    Item: ListSortDescription;
-    Contains(value: unknown): boolean;
-    CopyTo(array: ClrArray, index: int): void;
-    IndexOf(value: unknown): int;
+    readonly count: int;
+    item: ListSortDescription;
+    contains(value: unknown): boolean;
+    copyTo(array: ClrArray, index: int): void;
+    indexOf(value: unknown): int;
 }
 
 
@@ -1791,13 +1801,13 @@ export type ListSortDescriptionCollection = ListSortDescriptionCollection$instan
 
 export class LocalizableAttribute$instance extends System_Internal.Attribute$instance {
     constructor(isLocalizable: boolean);
-    readonly IsLocalizable: boolean;
-    Equals(obj: unknown): boolean;
-    GetHashCode(): int;
-    IsDefaultAttribute(): boolean;
-    static readonly Yes: LocalizableAttribute;
-    static readonly No: LocalizableAttribute;
-    static readonly Default: LocalizableAttribute;
+    readonly isLocalizable: boolean;
+    equals(obj: unknown): boolean;
+    getHashCode(): int;
+    isDefaultAttribute(): boolean;
+    static readonly yes: LocalizableAttribute;
+    static readonly no: LocalizableAttribute;
+    static readonly default_: LocalizableAttribute;
 }
 
 
@@ -1806,13 +1816,13 @@ export type LocalizableAttribute = LocalizableAttribute$instance;
 export class LookupBindingPropertiesAttribute$instance extends System_Internal.Attribute$instance {
     constructor();
     constructor(dataSource: string, displayMember: string, valueMember: string, lookupMember: string);
-    readonly DataSource: string;
-    readonly DisplayMember: string;
-    readonly LookupMember: string;
-    readonly ValueMember: string;
-    Equals(obj: unknown): boolean;
-    GetHashCode(): int;
-    static readonly Default: LookupBindingPropertiesAttribute;
+    readonly dataSource: string;
+    readonly displayMember: string;
+    readonly lookupMember: string;
+    readonly valueMember: string;
+    equals(obj: unknown): boolean;
+    getHashCode(): int;
+    static readonly default_: LookupBindingPropertiesAttribute;
 }
 
 
@@ -1820,12 +1830,12 @@ export type LookupBindingPropertiesAttribute = LookupBindingPropertiesAttribute$
 
 export class MarshalByValueComponent$instance {
     constructor();
-    readonly Container: IContainer;
-    readonly DesignMode: boolean;
-    Site: ISite;
-    Dispose(): void;
-    GetService(service: Type): unknown;
-    ToString(): string;
+    readonly container: IContainer;
+    readonly designMode: boolean;
+    site: ISite;
+    dispose(): void;
+    getService(service: Type): unknown;
+    toString(): string;
 }
 
 
@@ -1848,79 +1858,79 @@ export class MaskedTextProvider$instance {
     constructor(mask: string, passwordChar: char, allowPromptAsInput: boolean);
     constructor(mask: string, culture: CultureInfo, passwordChar: char, allowPromptAsInput: boolean);
     constructor(mask: string, culture: CultureInfo, allowPromptAsInput: boolean, promptChar: char, passwordChar: char, restrictToAscii: boolean);
-    readonly AllowPromptAsInput: boolean;
-    readonly AsciiOnly: boolean;
-    readonly AssignedEditPositionCount: int;
-    readonly AvailableEditPositionCount: int;
-    readonly Culture: CultureInfo;
-    readonly EditPositionCount: int;
-    readonly EditPositions: IEnumerator;
-    IncludeLiterals: boolean;
-    IncludePrompt: boolean;
-    IsPassword: boolean;
-    readonly Item: char;
-    readonly LastAssignedPosition: int;
-    readonly Length: int;
-    readonly Mask: string;
-    readonly MaskCompleted: boolean;
-    readonly MaskFull: boolean;
-    PasswordChar: char;
-    PromptChar: char;
-    ResetOnPrompt: boolean;
-    ResetOnSpace: boolean;
-    SkipLiterals: boolean;
-    Add(input: char): boolean;
-    Add(input: char, testPosition: { value: ref<int> }, resultHint: { value: ref<MaskedTextResultHint> }): boolean;
-    Add(input: string): boolean;
-    Add(input: string, testPosition: { value: ref<int> }, resultHint: { value: ref<MaskedTextResultHint> }): boolean;
-    Clear(): void;
-    Clear(resultHint: { value: ref<MaskedTextResultHint> }): void;
-    Clone(): unknown;
-    FindAssignedEditPositionFrom(position: int, direction: boolean): int;
-    FindAssignedEditPositionInRange(startPosition: int, endPosition: int, direction: boolean): int;
-    FindEditPositionFrom(position: int, direction: boolean): int;
-    FindEditPositionInRange(startPosition: int, endPosition: int, direction: boolean): int;
-    FindNonEditPositionFrom(position: int, direction: boolean): int;
-    FindNonEditPositionInRange(startPosition: int, endPosition: int, direction: boolean): int;
-    FindUnassignedEditPositionFrom(position: int, direction: boolean): int;
-    FindUnassignedEditPositionInRange(startPosition: int, endPosition: int, direction: boolean): int;
-    InsertAt(input: char, position: int): boolean;
-    InsertAt(input: char, position: int, testPosition: { value: ref<int> }, resultHint: { value: ref<MaskedTextResultHint> }): boolean;
-    InsertAt(input: string, position: int): boolean;
-    InsertAt(input: string, position: int, testPosition: { value: ref<int> }, resultHint: { value: ref<MaskedTextResultHint> }): boolean;
-    IsAvailablePosition(position: int): boolean;
-    IsEditPosition(position: int): boolean;
-    Remove(): boolean;
-    Remove(testPosition: { value: ref<int> }, resultHint: { value: ref<MaskedTextResultHint> }): boolean;
-    RemoveAt(position: int): boolean;
-    RemoveAt(startPosition: int, endPosition: int): boolean;
-    RemoveAt(startPosition: int, endPosition: int, testPosition: { value: ref<int> }, resultHint: { value: ref<MaskedTextResultHint> }): boolean;
-    Replace(input: char, position: int): boolean;
-    Replace(input: char, position: int, testPosition: { value: ref<int> }, resultHint: { value: ref<MaskedTextResultHint> }): boolean;
-    Replace(input: char, startPosition: int, endPosition: int, testPosition: { value: ref<int> }, resultHint: { value: ref<MaskedTextResultHint> }): boolean;
-    Replace(input: string, position: int): boolean;
-    Replace(input: string, position: int, testPosition: { value: ref<int> }, resultHint: { value: ref<MaskedTextResultHint> }): boolean;
-    Replace(input: string, startPosition: int, endPosition: int, testPosition: { value: ref<int> }, resultHint: { value: ref<MaskedTextResultHint> }): boolean;
-    Set(input: string): boolean;
-    Set(input: string, testPosition: { value: ref<int> }, resultHint: { value: ref<MaskedTextResultHint> }): boolean;
-    ToDisplayString(): string;
-    ToString(): string;
-    ToString(ignorePasswordChar: boolean): string;
-    ToString(startPosition: int, length: int): string;
-    ToString(ignorePasswordChar: boolean, startPosition: int, length: int): string;
-    ToString(includePrompt: boolean, includeLiterals: boolean): string;
-    ToString(includePrompt: boolean, includeLiterals: boolean, startPosition: int, length: int): string;
-    ToString(ignorePasswordChar: boolean, includePrompt: boolean, includeLiterals: boolean, startPosition: int, length: int): string;
-    VerifyChar(input: char, position: int, hint: { value: ref<MaskedTextResultHint> }): boolean;
-    VerifyEscapeChar(input: char, position: int): boolean;
-    VerifyString(input: string): boolean;
-    VerifyString(input: string, testPosition: { value: ref<int> }, resultHint: { value: ref<MaskedTextResultHint> }): boolean;
-    static readonly DefaultPasswordChar: char;
-    static readonly InvalidIndex: int;
-    static GetOperationResultFromHint(hint: MaskedTextResultHint): boolean;
-    static IsValidInputChar(c: char): boolean;
-    static IsValidMaskChar(c: char): boolean;
-    static IsValidPasswordChar(c: char): boolean;
+    readonly allowPromptAsInput: boolean;
+    readonly asciiOnly: boolean;
+    readonly assignedEditPositionCount: int;
+    readonly availableEditPositionCount: int;
+    readonly culture: CultureInfo;
+    readonly editPositionCount: int;
+    readonly editPositions: IEnumerator;
+    includeLiterals: boolean;
+    includePrompt: boolean;
+    isPassword: boolean;
+    readonly item: char;
+    readonly lastAssignedPosition: int;
+    readonly length: int;
+    readonly mask: string;
+    readonly maskCompleted: boolean;
+    readonly maskFull: boolean;
+    passwordChar: char;
+    promptChar: char;
+    resetOnPrompt: boolean;
+    resetOnSpace: boolean;
+    skipLiterals: boolean;
+    add(input: char): boolean;
+    add(input: char, testPosition: { value: ref<int> }, resultHint: { value: ref<MaskedTextResultHint> }): boolean;
+    add(input: string): boolean;
+    add(input: string, testPosition: { value: ref<int> }, resultHint: { value: ref<MaskedTextResultHint> }): boolean;
+    clear(): void;
+    clear(resultHint: { value: ref<MaskedTextResultHint> }): void;
+    clone(): unknown;
+    findAssignedEditPositionFrom(position: int, direction: boolean): int;
+    findAssignedEditPositionInRange(startPosition: int, endPosition: int, direction: boolean): int;
+    findEditPositionFrom(position: int, direction: boolean): int;
+    findEditPositionInRange(startPosition: int, endPosition: int, direction: boolean): int;
+    findNonEditPositionFrom(position: int, direction: boolean): int;
+    findNonEditPositionInRange(startPosition: int, endPosition: int, direction: boolean): int;
+    findUnassignedEditPositionFrom(position: int, direction: boolean): int;
+    findUnassignedEditPositionInRange(startPosition: int, endPosition: int, direction: boolean): int;
+    insertAt(input: char, position: int): boolean;
+    insertAt(input: char, position: int, testPosition: { value: ref<int> }, resultHint: { value: ref<MaskedTextResultHint> }): boolean;
+    insertAt(input: string, position: int): boolean;
+    insertAt(input: string, position: int, testPosition: { value: ref<int> }, resultHint: { value: ref<MaskedTextResultHint> }): boolean;
+    isAvailablePosition(position: int): boolean;
+    isEditPosition(position: int): boolean;
+    remove(): boolean;
+    remove(testPosition: { value: ref<int> }, resultHint: { value: ref<MaskedTextResultHint> }): boolean;
+    removeAt(position: int): boolean;
+    removeAt(startPosition: int, endPosition: int): boolean;
+    removeAt(startPosition: int, endPosition: int, testPosition: { value: ref<int> }, resultHint: { value: ref<MaskedTextResultHint> }): boolean;
+    replace(input: char, position: int): boolean;
+    replace(input: char, position: int, testPosition: { value: ref<int> }, resultHint: { value: ref<MaskedTextResultHint> }): boolean;
+    replace(input: char, startPosition: int, endPosition: int, testPosition: { value: ref<int> }, resultHint: { value: ref<MaskedTextResultHint> }): boolean;
+    replace(input: string, position: int): boolean;
+    replace(input: string, position: int, testPosition: { value: ref<int> }, resultHint: { value: ref<MaskedTextResultHint> }): boolean;
+    replace(input: string, startPosition: int, endPosition: int, testPosition: { value: ref<int> }, resultHint: { value: ref<MaskedTextResultHint> }): boolean;
+    set_(input: string): boolean;
+    set_(input: string, testPosition: { value: ref<int> }, resultHint: { value: ref<MaskedTextResultHint> }): boolean;
+    toDisplayString(): string;
+    toString(): string;
+    toString(ignorePasswordChar: boolean): string;
+    toString(startPosition: int, length: int): string;
+    toString(ignorePasswordChar: boolean, startPosition: int, length: int): string;
+    toString(includePrompt: boolean, includeLiterals: boolean): string;
+    toString(includePrompt: boolean, includeLiterals: boolean, startPosition: int, length: int): string;
+    toString(ignorePasswordChar: boolean, includePrompt: boolean, includeLiterals: boolean, startPosition: int, length: int): string;
+    verifyChar(input: char, position: int, hint: { value: ref<MaskedTextResultHint> }): boolean;
+    verifyEscapeChar(input: char, position: int): boolean;
+    verifyString(input: string): boolean;
+    verifyString(input: string, testPosition: { value: ref<int> }, resultHint: { value: ref<MaskedTextResultHint> }): boolean;
+    static readonly defaultPasswordChar: char;
+    static readonly invalidIndex: int;
+    static getOperationResultFromHint(hint: MaskedTextResultHint): boolean;
+    static isValidInputChar(c: char): boolean;
+    static isValidMaskChar(c: char): boolean;
+    static isValidPasswordChar(c: char): boolean;
 }
 
 
@@ -1934,15 +1944,15 @@ export type MaskedTextProvider = MaskedTextProvider$instance & __MaskedTextProvi
 
 
 export abstract class MemberDescriptor$instance {
-    readonly Attributes: AttributeCollection;
-    readonly Category: string;
-    readonly Description: string;
-    readonly DesignTimeOnly: boolean;
-    readonly DisplayName: string;
-    readonly IsBrowsable: boolean;
-    readonly Name: string;
-    Equals(obj: unknown): boolean;
-    GetHashCode(): int;
+    readonly attributes: AttributeCollection;
+    readonly category: string;
+    readonly description: string;
+    readonly designTimeOnly: boolean;
+    readonly displayName: string;
+    readonly isBrowsable: boolean;
+    readonly name: string;
+    equals(obj: unknown): boolean;
+    getHashCode(): int;
 }
 
 
@@ -1950,13 +1960,13 @@ export type MemberDescriptor = MemberDescriptor$instance;
 
 export class MergablePropertyAttribute$instance extends System_Internal.Attribute$instance {
     constructor(allowMerge: boolean);
-    readonly AllowMerge: boolean;
-    Equals(obj: unknown): boolean;
-    GetHashCode(): int;
-    IsDefaultAttribute(): boolean;
-    static readonly Yes: MergablePropertyAttribute;
-    static readonly No: MergablePropertyAttribute;
-    static readonly Default: MergablePropertyAttribute;
+    readonly allowMerge: boolean;
+    equals(obj: unknown): boolean;
+    getHashCode(): int;
+    isDefaultAttribute(): boolean;
+    static readonly yes: MergablePropertyAttribute;
+    static readonly no: MergablePropertyAttribute;
+    static readonly default_: MergablePropertyAttribute;
 }
 
 
@@ -1964,13 +1974,13 @@ export type MergablePropertyAttribute = MergablePropertyAttribute$instance;
 
 export class MultilineStringConverter$instance extends TypeConverter$instance {
     constructor();
-    ConvertTo(context: ITypeDescriptorContext, culture: CultureInfo, value: unknown, destinationType: Type): unknown;
-    ConvertTo(value: unknown, destinationType: Type): unknown;
-    GetProperties(context: ITypeDescriptorContext, value: unknown, attributes: Attribute[]): PropertyDescriptorCollection;
-    GetProperties(value: unknown): PropertyDescriptorCollection;
-    GetProperties(context: ITypeDescriptorContext, value: unknown): PropertyDescriptorCollection;
-    GetPropertiesSupported(context: ITypeDescriptorContext): boolean;
-    GetPropertiesSupported(): boolean;
+    convertTo(context: ITypeDescriptorContext, culture: CultureInfo, value: unknown, destinationType: Type): unknown;
+    convertTo(value: unknown, destinationType: Type): unknown;
+    getProperties(context: ITypeDescriptorContext, value: unknown, attributes: Attribute[]): PropertyDescriptorCollection;
+    getProperties(value: unknown): PropertyDescriptorCollection;
+    getProperties(context: ITypeDescriptorContext, value: unknown): PropertyDescriptorCollection;
+    getPropertiesSupported(context: ITypeDescriptorContext): boolean;
+    getPropertiesSupported(): boolean;
 }
 
 
@@ -1978,7 +1988,7 @@ export type MultilineStringConverter = MultilineStringConverter$instance;
 
 export class NestedContainer$instance extends Container$instance {
     constructor(owner: IComponent);
-    readonly Owner: IComponent;
+    readonly owner: IComponent;
     Add(component: IComponent): void;
     Add(component: IComponent, name: string): void;
     Dispose(): void;
@@ -1996,13 +2006,13 @@ export type NestedContainer = NestedContainer$instance & __NestedContainer$views
 
 export class NotifyParentPropertyAttribute$instance extends System_Internal.Attribute$instance {
     constructor(notifyParent: boolean);
-    readonly NotifyParent: boolean;
-    Equals(obj: unknown): boolean;
-    GetHashCode(): int;
-    IsDefaultAttribute(): boolean;
-    static readonly Yes: NotifyParentPropertyAttribute;
-    static readonly No: NotifyParentPropertyAttribute;
-    static readonly Default: NotifyParentPropertyAttribute;
+    readonly notifyParent: boolean;
+    equals(obj: unknown): boolean;
+    getHashCode(): int;
+    isDefaultAttribute(): boolean;
+    static readonly yes: NotifyParentPropertyAttribute;
+    static readonly no: NotifyParentPropertyAttribute;
+    static readonly default_: NotifyParentPropertyAttribute;
 }
 
 
@@ -2010,34 +2020,34 @@ export type NotifyParentPropertyAttribute = NotifyParentPropertyAttribute$instan
 
 export class NullableConverter$instance extends TypeConverter$instance {
     constructor(type_: Type);
-    readonly NullableType: Type;
-    readonly UnderlyingType: Type;
-    readonly UnderlyingTypeConverter: TypeConverter;
-    CanConvertFrom(context: ITypeDescriptorContext, sourceType: Type): boolean;
-    CanConvertFrom(sourceType: Type): boolean;
-    CanConvertTo(context: ITypeDescriptorContext, destinationType: Type): boolean;
-    CanConvertTo(destinationType: Type): boolean;
-    ConvertFrom(context: ITypeDescriptorContext, culture: CultureInfo, value: unknown): unknown;
-    ConvertFrom(value: unknown): unknown;
-    ConvertTo(context: ITypeDescriptorContext, culture: CultureInfo, value: unknown, destinationType: Type): unknown;
-    ConvertTo(value: unknown, destinationType: Type): unknown;
-    CreateInstance(context: ITypeDescriptorContext, propertyValues: IDictionary): unknown;
-    CreateInstance(propertyValues: IDictionary): unknown;
-    GetCreateInstanceSupported(context: ITypeDescriptorContext): boolean;
-    GetCreateInstanceSupported(): boolean;
-    GetProperties(context: ITypeDescriptorContext, value: unknown, attributes: Attribute[]): PropertyDescriptorCollection;
-    GetProperties(value: unknown): PropertyDescriptorCollection;
-    GetProperties(context: ITypeDescriptorContext, value: unknown): PropertyDescriptorCollection;
-    GetPropertiesSupported(context: ITypeDescriptorContext): boolean;
-    GetPropertiesSupported(): boolean;
-    GetStandardValues(context: ITypeDescriptorContext): TypeConverter_StandardValuesCollection;
-    GetStandardValues(): ICollection;
-    GetStandardValuesExclusive(context: ITypeDescriptorContext): boolean;
-    GetStandardValuesExclusive(): boolean;
-    GetStandardValuesSupported(context: ITypeDescriptorContext): boolean;
-    GetStandardValuesSupported(): boolean;
-    IsValid(context: ITypeDescriptorContext, value: unknown): boolean;
-    IsValid(value: unknown): boolean;
+    readonly nullableType: Type;
+    readonly underlyingType: Type;
+    readonly underlyingTypeConverter: TypeConverter;
+    canConvertFrom(context: ITypeDescriptorContext, sourceType: Type): boolean;
+    canConvertFrom(sourceType: Type): boolean;
+    canConvertTo(context: ITypeDescriptorContext, destinationType: Type): boolean;
+    canConvertTo(destinationType: Type): boolean;
+    convertFrom(context: ITypeDescriptorContext, culture: CultureInfo, value: unknown): unknown;
+    convertFrom(value: unknown): unknown;
+    convertTo(context: ITypeDescriptorContext, culture: CultureInfo, value: unknown, destinationType: Type): unknown;
+    convertTo(value: unknown, destinationType: Type): unknown;
+    createInstance(context: ITypeDescriptorContext, propertyValues: IDictionary): unknown;
+    createInstance(propertyValues: IDictionary): unknown;
+    getCreateInstanceSupported(context: ITypeDescriptorContext): boolean;
+    getCreateInstanceSupported(): boolean;
+    getProperties(context: ITypeDescriptorContext, value: unknown, attributes: Attribute[]): PropertyDescriptorCollection;
+    getProperties(value: unknown): PropertyDescriptorCollection;
+    getProperties(context: ITypeDescriptorContext, value: unknown): PropertyDescriptorCollection;
+    getPropertiesSupported(context: ITypeDescriptorContext): boolean;
+    getPropertiesSupported(): boolean;
+    getStandardValues(context: ITypeDescriptorContext): TypeConverter_StandardValuesCollection;
+    getStandardValues(): ICollection;
+    getStandardValuesExclusive(context: ITypeDescriptorContext): boolean;
+    getStandardValuesExclusive(): boolean;
+    getStandardValuesSupported(context: ITypeDescriptorContext): boolean;
+    getStandardValuesSupported(): boolean;
+    isValid(context: ITypeDescriptorContext, value: unknown): boolean;
+    isValid(value: unknown): boolean;
 }
 
 
@@ -2046,11 +2056,11 @@ export type NullableConverter = NullableConverter$instance;
 export class ParenthesizePropertyNameAttribute$instance extends System_Internal.Attribute$instance {
     constructor();
     constructor(needParenthesis: boolean);
-    readonly NeedParenthesis: boolean;
-    Equals(obj: unknown): boolean;
-    GetHashCode(): int;
-    IsDefaultAttribute(): boolean;
-    static readonly Default: ParenthesizePropertyNameAttribute;
+    readonly needParenthesis: boolean;
+    equals(obj: unknown): boolean;
+    getHashCode(): int;
+    isDefaultAttribute(): boolean;
+    static readonly default_: ParenthesizePropertyNameAttribute;
 }
 
 
@@ -2059,13 +2069,13 @@ export type ParenthesizePropertyNameAttribute = ParenthesizePropertyNameAttribut
 export class PasswordPropertyTextAttribute$instance extends System_Internal.Attribute$instance {
     constructor();
     constructor(password: boolean);
-    readonly Password: boolean;
-    Equals(o: unknown): boolean;
-    GetHashCode(): int;
-    IsDefaultAttribute(): boolean;
-    static readonly Yes: PasswordPropertyTextAttribute;
-    static readonly No: PasswordPropertyTextAttribute;
-    static readonly Default: PasswordPropertyTextAttribute;
+    readonly password: boolean;
+    equals(o: unknown): boolean;
+    getHashCode(): int;
+    isDefaultAttribute(): boolean;
+    static readonly yes: PasswordPropertyTextAttribute;
+    static readonly no: PasswordPropertyTextAttribute;
+    static readonly default_: PasswordPropertyTextAttribute;
 }
 
 
@@ -2073,8 +2083,8 @@ export type PasswordPropertyTextAttribute = PasswordPropertyTextAttribute$instan
 
 export class ProgressChangedEventArgs$instance extends System_Internal.EventArgs$instance {
     constructor(progressPercentage: int, userState: unknown);
-    readonly ProgressPercentage: int;
-    readonly UserState: unknown;
+    readonly progressPercentage: int;
+    readonly userState: unknown;
 }
 
 
@@ -2082,11 +2092,11 @@ export type ProgressChangedEventArgs = ProgressChangedEventArgs$instance;
 
 export class ProgressChangedEventHandler$instance extends Function {
     constructor(object_: unknown, method: nint);
-    BeginInvoke(sender: unknown, e: ProgressChangedEventArgs, callback: AsyncCallback, object_: unknown): IAsyncResult;
+    beginInvoke(sender: unknown, e: ProgressChangedEventArgs, callback: AsyncCallback, object_: unknown): IAsyncResult;
     Clone(): unknown;
-    EndInvoke(result: IAsyncResult): void;
+    endInvoke(result: IAsyncResult): void;
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
-    Invoke(sender: unknown, e: ProgressChangedEventArgs): void;
+    invoke(sender: unknown, e: ProgressChangedEventArgs): void;
 }
 
 
@@ -2095,12 +2105,14 @@ export interface __ProgressChangedEventHandler$views {
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
+export interface ProgressChangedEventHandler$instance extends System_Internal.ICloneable$instance {}
+
 export type ProgressChangedEventHandler = ProgressChangedEventHandler$instance & __ProgressChangedEventHandler$views;
 
 
 export class PropertyChangedEventArgs$instance extends System_Internal.EventArgs$instance {
     constructor(propertyName: string);
-    readonly PropertyName: string;
+    readonly propertyName: string;
 }
 
 
@@ -2108,11 +2120,11 @@ export type PropertyChangedEventArgs = PropertyChangedEventArgs$instance;
 
 export class PropertyChangedEventHandler$instance extends Function {
     constructor(object_: unknown, method: nint);
-    BeginInvoke(sender: unknown, e: PropertyChangedEventArgs, callback: AsyncCallback, object_: unknown): IAsyncResult;
+    beginInvoke(sender: unknown, e: PropertyChangedEventArgs, callback: AsyncCallback, object_: unknown): IAsyncResult;
     Clone(): unknown;
-    EndInvoke(result: IAsyncResult): void;
+    endInvoke(result: IAsyncResult): void;
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
-    Invoke(sender: unknown, e: PropertyChangedEventArgs): void;
+    invoke(sender: unknown, e: PropertyChangedEventArgs): void;
 }
 
 
@@ -2121,12 +2133,14 @@ export interface __PropertyChangedEventHandler$views {
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
+export interface PropertyChangedEventHandler$instance extends System_Internal.ICloneable$instance {}
+
 export type PropertyChangedEventHandler = PropertyChangedEventHandler$instance & __PropertyChangedEventHandler$views;
 
 
 export class PropertyChangingEventArgs$instance extends System_Internal.EventArgs$instance {
     constructor(propertyName: string);
-    readonly PropertyName: string;
+    readonly propertyName: string;
 }
 
 
@@ -2134,11 +2148,11 @@ export type PropertyChangingEventArgs = PropertyChangingEventArgs$instance;
 
 export class PropertyChangingEventHandler$instance extends Function {
     constructor(object_: unknown, method: nint);
-    BeginInvoke(sender: unknown, e: PropertyChangingEventArgs, callback: AsyncCallback, object_: unknown): IAsyncResult;
+    beginInvoke(sender: unknown, e: PropertyChangingEventArgs, callback: AsyncCallback, object_: unknown): IAsyncResult;
     Clone(): unknown;
-    EndInvoke(result: IAsyncResult): void;
+    endInvoke(result: IAsyncResult): void;
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
-    Invoke(sender: unknown, e: PropertyChangingEventArgs): void;
+    invoke(sender: unknown, e: PropertyChangingEventArgs): void;
 }
 
 
@@ -2147,32 +2161,34 @@ export interface __PropertyChangingEventHandler$views {
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
+export interface PropertyChangingEventHandler$instance extends System_Internal.ICloneable$instance {}
+
 export type PropertyChangingEventHandler = PropertyChangingEventHandler$instance & __PropertyChangingEventHandler$views;
 
 
 export abstract class PropertyDescriptor$instance extends MemberDescriptor$instance {
-    readonly ComponentType: Type;
-    readonly Converter: TypeConverter;
-    readonly ConverterFromRegisteredType: TypeConverter;
-    readonly IsLocalizable: boolean;
-    readonly IsReadOnly: boolean;
-    readonly PropertyType: Type;
-    readonly SerializationVisibility: DesignerSerializationVisibility;
-    readonly SupportsChangeEvents: boolean;
-    AddValueChanged(component: unknown, handler: EventHandler): void;
-    abstract CanResetValue(component: unknown): boolean;
-    Equals(obj: unknown): boolean;
-    GetChildProperties(): PropertyDescriptorCollection;
-    GetChildProperties(filter: Attribute[]): PropertyDescriptorCollection;
-    GetChildProperties(instance: unknown): PropertyDescriptorCollection;
-    GetChildProperties(instance: unknown, filter: Attribute[]): PropertyDescriptorCollection;
-    GetEditor(editorBaseType: Type): unknown;
-    GetHashCode(): int;
-    abstract GetValue(component: unknown): unknown;
-    RemoveValueChanged(component: unknown, handler: EventHandler): void;
-    abstract ResetValue(component: unknown): void;
-    abstract SetValue(component: unknown, value: unknown): void;
-    abstract ShouldSerializeValue(component: unknown): boolean;
+    readonly componentType: Type;
+    readonly converter: TypeConverter;
+    readonly converterFromRegisteredType: TypeConverter;
+    readonly isLocalizable: boolean;
+    readonly isReadOnly: boolean;
+    readonly propertyType: Type;
+    readonly serializationVisibility: DesignerSerializationVisibility;
+    readonly supportsChangeEvents: boolean;
+    addValueChanged(component: unknown, handler: EventHandler): void;
+    abstract canResetValue(component: unknown): boolean;
+    equals(obj: unknown): boolean;
+    getChildProperties(): PropertyDescriptorCollection;
+    getChildProperties(filter: Attribute[]): PropertyDescriptorCollection;
+    getChildProperties(instance: unknown): PropertyDescriptorCollection;
+    getChildProperties(instance: unknown, filter: Attribute[]): PropertyDescriptorCollection;
+    getEditor(editorBaseType: Type): unknown;
+    getHashCode(): int;
+    abstract getValue(component: unknown): unknown;
+    removeValueChanged(component: unknown, handler: EventHandler): void;
+    abstract resetValue(component: unknown): void;
+    abstract setValue(component: unknown, value: unknown): void;
+    abstract shouldSerializeValue(component: unknown): boolean;
 }
 
 
@@ -2181,24 +2197,24 @@ export type PropertyDescriptor = PropertyDescriptor$instance;
 export class PropertyDescriptorCollection$instance {
     constructor(properties: PropertyDescriptor[]);
     constructor(properties: PropertyDescriptor[], readOnly: boolean);
-    readonly Count: int;
-    Add(value: PropertyDescriptor): int;
-    Clear(): void;
-    Contains(value: PropertyDescriptor): boolean;
-    CopyTo(array: ClrArray, index: int): void;
-    Find(name: string, ignoreCase: boolean): PropertyDescriptor;
+    readonly count: int;
+    add(value: PropertyDescriptor): int;
+    clear(): void;
+    contains(value: PropertyDescriptor): boolean;
+    copyTo(array: ClrArray, index: int): void;
+    find(name: string, ignoreCase: boolean): PropertyDescriptor;
     get_Item(index: int): PropertyDescriptor;
     get_Item(name: string): PropertyDescriptor;
-    GetEnumerator(): IEnumerator;
-    IndexOf(value: PropertyDescriptor): int;
-    Insert(index: int, value: PropertyDescriptor): void;
-    Remove(value: PropertyDescriptor): void;
-    RemoveAt(index: int): void;
-    Sort(): PropertyDescriptorCollection;
-    Sort(names: string[]): PropertyDescriptorCollection;
-    Sort(names: string[], comparer: IComparer): PropertyDescriptorCollection;
-    Sort(comparer: IComparer): PropertyDescriptorCollection;
-    static readonly Empty: PropertyDescriptorCollection;
+    getEnumerator(): IEnumerator;
+    indexOf(value: PropertyDescriptor): int;
+    insert(index: int, value: PropertyDescriptor): void;
+    remove(value: PropertyDescriptor): void;
+    removeAt(index: int): void;
+    sort(): PropertyDescriptorCollection;
+    sort(names: string[]): PropertyDescriptorCollection;
+    sort(names: string[], comparer: IComparer): PropertyDescriptorCollection;
+    sort(comparer: IComparer): PropertyDescriptorCollection;
+    static readonly empty: PropertyDescriptorCollection;
 }
 
 
@@ -2218,11 +2234,11 @@ export class PropertyTabAttribute$instance extends System_Internal.Attribute$ins
     constructor(tabClassName: string);
     constructor(tabClass: Type, tabScope: PropertyTabScope);
     constructor(tabClassName: string, tabScope: PropertyTabScope);
-    readonly TabClasses: Type[];
-    readonly TabScopes: PropertyTabScope[];
-    Equals(other: unknown): boolean;
-    Equals(other: PropertyTabAttribute): boolean;
-    GetHashCode(): int;
+    readonly tabClasses: Type[];
+    readonly tabScopes: PropertyTabScope[];
+    equals(other: unknown): boolean;
+    equals(other: PropertyTabAttribute): boolean;
+    getHashCode(): int;
 }
 
 
@@ -2231,11 +2247,11 @@ export type PropertyTabAttribute = PropertyTabAttribute$instance;
 export class ProvidePropertyAttribute$instance extends System_Internal.Attribute$instance {
     constructor(propertyName: string, receiverType: Type);
     constructor(propertyName: string, receiverTypeName: string);
-    readonly PropertyName: string;
-    readonly ReceiverTypeName: string;
-    readonly TypeId: unknown;
-    Equals(obj: unknown): boolean;
-    GetHashCode(): int;
+    readonly propertyName: string;
+    readonly receiverTypeName: string;
+    readonly typeId: unknown;
+    equals(obj: unknown): boolean;
+    getHashCode(): int;
 }
 
 
@@ -2243,13 +2259,13 @@ export type ProvidePropertyAttribute = ProvidePropertyAttribute$instance;
 
 export class ReadOnlyAttribute$instance extends System_Internal.Attribute$instance {
     constructor(isReadOnly: boolean);
-    readonly IsReadOnly: boolean;
-    Equals(value: unknown): boolean;
-    GetHashCode(): int;
-    IsDefaultAttribute(): boolean;
-    static readonly Yes: ReadOnlyAttribute;
-    static readonly No: ReadOnlyAttribute;
-    static readonly Default: ReadOnlyAttribute;
+    readonly isReadOnly: boolean;
+    equals(value: unknown): boolean;
+    getHashCode(): int;
+    isDefaultAttribute(): boolean;
+    static readonly yes: ReadOnlyAttribute;
+    static readonly no: ReadOnlyAttribute;
+    static readonly default_: ReadOnlyAttribute;
 }
 
 
@@ -2257,13 +2273,13 @@ export type ReadOnlyAttribute = ReadOnlyAttribute$instance;
 
 export class RecommendedAsConfigurableAttribute$instance extends System_Internal.Attribute$instance {
     constructor(recommendedAsConfigurable: boolean);
-    readonly RecommendedAsConfigurable: boolean;
-    Equals(obj: unknown): boolean;
-    GetHashCode(): int;
-    IsDefaultAttribute(): boolean;
-    static readonly No: RecommendedAsConfigurableAttribute;
-    static readonly Yes: RecommendedAsConfigurableAttribute;
-    static readonly Default: RecommendedAsConfigurableAttribute;
+    readonly recommendedAsConfigurable: boolean;
+    equals(obj: unknown): boolean;
+    getHashCode(): int;
+    isDefaultAttribute(): boolean;
+    static readonly no: RecommendedAsConfigurableAttribute;
+    static readonly yes: RecommendedAsConfigurableAttribute;
+    static readonly default_: RecommendedAsConfigurableAttribute;
 }
 
 
@@ -2271,18 +2287,18 @@ export type RecommendedAsConfigurableAttribute = RecommendedAsConfigurableAttrib
 
 export class ReferenceConverter$instance extends TypeConverter$instance {
     constructor(type_: Type);
-    CanConvertFrom(context: ITypeDescriptorContext, sourceType: Type): boolean;
-    CanConvertFrom(sourceType: Type): boolean;
-    ConvertFrom(context: ITypeDescriptorContext, culture: CultureInfo, value: unknown): unknown;
-    ConvertFrom(value: unknown): unknown;
-    ConvertTo(context: ITypeDescriptorContext, culture: CultureInfo, value: unknown, destinationType: Type): unknown;
-    ConvertTo(value: unknown, destinationType: Type): unknown;
-    GetStandardValues(context: ITypeDescriptorContext): TypeConverter_StandardValuesCollection;
-    GetStandardValues(): ICollection;
-    GetStandardValuesExclusive(context: ITypeDescriptorContext): boolean;
-    GetStandardValuesExclusive(): boolean;
-    GetStandardValuesSupported(context: ITypeDescriptorContext): boolean;
-    GetStandardValuesSupported(): boolean;
+    canConvertFrom(context: ITypeDescriptorContext, sourceType: Type): boolean;
+    canConvertFrom(sourceType: Type): boolean;
+    convertFrom(context: ITypeDescriptorContext, culture: CultureInfo, value: unknown): unknown;
+    convertFrom(value: unknown): unknown;
+    convertTo(context: ITypeDescriptorContext, culture: CultureInfo, value: unknown, destinationType: Type): unknown;
+    convertTo(value: unknown, destinationType: Type): unknown;
+    getStandardValues(context: ITypeDescriptorContext): TypeConverter_StandardValuesCollection;
+    getStandardValues(): ICollection;
+    getStandardValuesExclusive(context: ITypeDescriptorContext): boolean;
+    getStandardValuesExclusive(): boolean;
+    getStandardValuesSupported(context: ITypeDescriptorContext): boolean;
+    getStandardValuesSupported(): boolean;
 }
 
 
@@ -2291,8 +2307,8 @@ export type ReferenceConverter = ReferenceConverter$instance;
 export class RefreshEventArgs$instance extends System_Internal.EventArgs$instance {
     constructor(componentChanged: unknown);
     constructor(typeChanged: Type);
-    readonly ComponentChanged: unknown;
-    readonly TypeChanged: Type;
+    readonly componentChanged: unknown;
+    readonly typeChanged: Type;
 }
 
 
@@ -2300,11 +2316,11 @@ export type RefreshEventArgs = RefreshEventArgs$instance;
 
 export class RefreshEventHandler$instance extends Function {
     constructor(object_: unknown, method: nint);
-    BeginInvoke(e: RefreshEventArgs, callback: AsyncCallback, object_: unknown): IAsyncResult;
+    beginInvoke(e: RefreshEventArgs, callback: AsyncCallback, object_: unknown): IAsyncResult;
     Clone(): unknown;
-    EndInvoke(result: IAsyncResult): void;
+    endInvoke(result: IAsyncResult): void;
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
-    Invoke(e: RefreshEventArgs): void;
+    invoke(e: RefreshEventArgs): void;
 }
 
 
@@ -2313,18 +2329,20 @@ export interface __RefreshEventHandler$views {
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
+export interface RefreshEventHandler$instance extends System_Internal.ICloneable$instance {}
+
 export type RefreshEventHandler = RefreshEventHandler$instance & __RefreshEventHandler$views;
 
 
 export class RefreshPropertiesAttribute$instance extends System_Internal.Attribute$instance {
     constructor(refresh: RefreshProperties);
-    readonly RefreshProperties: RefreshProperties;
-    Equals(obj: unknown): boolean;
-    GetHashCode(): int;
-    IsDefaultAttribute(): boolean;
-    static readonly All: RefreshPropertiesAttribute;
-    static readonly Repaint: RefreshPropertiesAttribute;
-    static readonly Default: RefreshPropertiesAttribute;
+    readonly refreshProperties: RefreshProperties;
+    equals(obj: unknown): boolean;
+    getHashCode(): int;
+    isDefaultAttribute(): boolean;
+    static readonly all: RefreshPropertiesAttribute;
+    static readonly repaint: RefreshPropertiesAttribute;
+    static readonly default_: RefreshPropertiesAttribute;
 }
 
 
@@ -2332,13 +2350,13 @@ export type RefreshPropertiesAttribute = RefreshPropertiesAttribute$instance;
 
 export class RunInstallerAttribute$instance extends System_Internal.Attribute$instance {
     constructor(runInstaller: boolean);
-    readonly RunInstaller: boolean;
-    Equals(obj: unknown): boolean;
-    GetHashCode(): int;
-    IsDefaultAttribute(): boolean;
-    static readonly Yes: RunInstallerAttribute;
-    static readonly No: RunInstallerAttribute;
-    static readonly Default: RunInstallerAttribute;
+    readonly runInstaller: boolean;
+    equals(obj: unknown): boolean;
+    getHashCode(): int;
+    isDefaultAttribute(): boolean;
+    static readonly yes: RunInstallerAttribute;
+    static readonly no: RunInstallerAttribute;
+    static readonly default_: RunInstallerAttribute;
 }
 
 
@@ -2346,8 +2364,8 @@ export type RunInstallerAttribute = RunInstallerAttribute$instance;
 
 export class RunWorkerCompletedEventArgs$instance extends AsyncCompletedEventArgs$instance {
     constructor(result: unknown, error: Exception, cancelled: boolean);
-    readonly Result: unknown;
-    readonly UserState: unknown;
+    readonly result: unknown;
+    readonly userState: unknown;
 }
 
 
@@ -2355,11 +2373,11 @@ export type RunWorkerCompletedEventArgs = RunWorkerCompletedEventArgs$instance;
 
 export class RunWorkerCompletedEventHandler$instance extends Function {
     constructor(object_: unknown, method: nint);
-    BeginInvoke(sender: unknown, e: RunWorkerCompletedEventArgs, callback: AsyncCallback, object_: unknown): IAsyncResult;
+    beginInvoke(sender: unknown, e: RunWorkerCompletedEventArgs, callback: AsyncCallback, object_: unknown): IAsyncResult;
     Clone(): unknown;
-    EndInvoke(result: IAsyncResult): void;
+    endInvoke(result: IAsyncResult): void;
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
-    Invoke(sender: unknown, e: RunWorkerCompletedEventArgs): void;
+    invoke(sender: unknown, e: RunWorkerCompletedEventArgs): void;
 }
 
 
@@ -2367,6 +2385,8 @@ export interface __RunWorkerCompletedEventHandler$views {
     As_ICloneable(): System_Internal.ICloneable$instance;
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
+
+export interface RunWorkerCompletedEventHandler$instance extends System_Internal.ICloneable$instance {}
 
 export type RunWorkerCompletedEventHandler = RunWorkerCompletedEventHandler$instance & __RunWorkerCompletedEventHandler$views;
 
@@ -2380,11 +2400,11 @@ export type SByteConverter = SByteConverter$instance;
 
 export class SettingsBindableAttribute$instance extends System_Internal.Attribute$instance {
     constructor(bindable: boolean);
-    readonly Bindable: boolean;
-    Equals(obj: unknown): boolean;
-    GetHashCode(): int;
-    static readonly Yes: SettingsBindableAttribute;
-    static readonly No: SettingsBindableAttribute;
+    readonly bindable: boolean;
+    equals(obj: unknown): boolean;
+    getHashCode(): int;
+    static readonly yes: SettingsBindableAttribute;
+    static readonly no: SettingsBindableAttribute;
 }
 
 
@@ -2399,10 +2419,10 @@ export type SingleConverter = SingleConverter$instance;
 
 export class StringConverter$instance extends TypeConverter$instance {
     constructor();
-    CanConvertFrom(context: ITypeDescriptorContext, sourceType: Type): boolean;
-    CanConvertFrom(sourceType: Type): boolean;
-    ConvertFrom(context: ITypeDescriptorContext, culture: CultureInfo, value: unknown): unknown;
-    ConvertFrom(value: unknown): unknown;
+    canConvertFrom(context: ITypeDescriptorContext, sourceType: Type): boolean;
+    canConvertFrom(sourceType: Type): boolean;
+    convertFrom(context: ITypeDescriptorContext, culture: CultureInfo, value: unknown): unknown;
+    convertFrom(value: unknown): unknown;
 }
 
 
@@ -2410,14 +2430,14 @@ export type StringConverter = StringConverter$instance;
 
 export class TimeOnlyConverter$instance extends TypeConverter$instance {
     constructor();
-    CanConvertFrom(context: ITypeDescriptorContext, sourceType: Type): boolean;
-    CanConvertFrom(sourceType: Type): boolean;
-    CanConvertTo(context: ITypeDescriptorContext, destinationType: Type): boolean;
-    CanConvertTo(destinationType: Type): boolean;
-    ConvertFrom(context: ITypeDescriptorContext, culture: CultureInfo, value: unknown): unknown;
-    ConvertFrom(value: unknown): unknown;
-    ConvertTo(context: ITypeDescriptorContext, culture: CultureInfo, value: unknown, destinationType: Type): unknown;
-    ConvertTo(value: unknown, destinationType: Type): unknown;
+    canConvertFrom(context: ITypeDescriptorContext, sourceType: Type): boolean;
+    canConvertFrom(sourceType: Type): boolean;
+    canConvertTo(context: ITypeDescriptorContext, destinationType: Type): boolean;
+    canConvertTo(destinationType: Type): boolean;
+    convertFrom(context: ITypeDescriptorContext, culture: CultureInfo, value: unknown): unknown;
+    convertFrom(value: unknown): unknown;
+    convertTo(context: ITypeDescriptorContext, culture: CultureInfo, value: unknown, destinationType: Type): unknown;
+    convertTo(value: unknown, destinationType: Type): unknown;
 }
 
 
@@ -2425,14 +2445,14 @@ export type TimeOnlyConverter = TimeOnlyConverter$instance;
 
 export class TimeSpanConverter$instance extends TypeConverter$instance {
     constructor();
-    CanConvertFrom(context: ITypeDescriptorContext, sourceType: Type): boolean;
-    CanConvertFrom(sourceType: Type): boolean;
-    CanConvertTo(context: ITypeDescriptorContext, destinationType: Type): boolean;
-    CanConvertTo(destinationType: Type): boolean;
-    ConvertFrom(context: ITypeDescriptorContext, culture: CultureInfo, value: unknown): unknown;
-    ConvertFrom(value: unknown): unknown;
-    ConvertTo(context: ITypeDescriptorContext, culture: CultureInfo, value: unknown, destinationType: Type): unknown;
-    ConvertTo(value: unknown, destinationType: Type): unknown;
+    canConvertFrom(context: ITypeDescriptorContext, sourceType: Type): boolean;
+    canConvertFrom(sourceType: Type): boolean;
+    canConvertTo(context: ITypeDescriptorContext, destinationType: Type): boolean;
+    canConvertTo(destinationType: Type): boolean;
+    convertFrom(context: ITypeDescriptorContext, culture: CultureInfo, value: unknown): unknown;
+    convertFrom(value: unknown): unknown;
+    convertTo(context: ITypeDescriptorContext, culture: CultureInfo, value: unknown, destinationType: Type): unknown;
+    convertTo(value: unknown, destinationType: Type): unknown;
 }
 
 
@@ -2442,13 +2462,13 @@ export class ToolboxItemAttribute$instance extends System_Internal.Attribute$ins
     constructor(defaultType: boolean);
     constructor(toolboxItemTypeName: string);
     constructor(toolboxItemType: Type);
-    readonly ToolboxItemType: Type;
-    readonly ToolboxItemTypeName: string;
-    Equals(obj: unknown): boolean;
-    GetHashCode(): int;
-    IsDefaultAttribute(): boolean;
-    static readonly Default: ToolboxItemAttribute;
-    static readonly None: ToolboxItemAttribute;
+    readonly toolboxItemType: Type;
+    readonly toolboxItemTypeName: string;
+    equals(obj: unknown): boolean;
+    getHashCode(): int;
+    isDefaultAttribute(): boolean;
+    static readonly default_: ToolboxItemAttribute;
+    static readonly none: ToolboxItemAttribute;
 }
 
 
@@ -2457,13 +2477,13 @@ export type ToolboxItemAttribute = ToolboxItemAttribute$instance;
 export class ToolboxItemFilterAttribute$instance extends System_Internal.Attribute$instance {
     constructor(filterString: string);
     constructor(filterString: string, filterType: ToolboxItemFilterType);
-    readonly FilterString: string;
-    readonly FilterType: ToolboxItemFilterType;
-    readonly TypeId: unknown;
-    Equals(obj: unknown): boolean;
-    GetHashCode(): int;
-    Match(obj: unknown): boolean;
-    ToString(): string;
+    readonly filterString: string;
+    readonly filterType: ToolboxItemFilterType;
+    readonly typeId: unknown;
+    equals(obj: unknown): boolean;
+    getHashCode(): int;
+    match(obj: unknown): boolean;
+    toString(): string;
 }
 
 
@@ -2471,41 +2491,41 @@ export type ToolboxItemFilterAttribute = ToolboxItemFilterAttribute$instance;
 
 export class TypeConverter$instance {
     constructor();
-    CanConvertFrom(sourceType: Type): boolean;
-    CanConvertFrom(context: ITypeDescriptorContext, sourceType: Type): boolean;
-    CanConvertTo(destinationType: Type): boolean;
-    CanConvertTo(context: ITypeDescriptorContext, destinationType: Type): boolean;
-    ConvertFrom(value: unknown): unknown;
-    ConvertFrom(context: ITypeDescriptorContext, culture: CultureInfo, value: unknown): unknown;
-    ConvertFromInvariantString(text: string): unknown;
-    ConvertFromInvariantString(context: ITypeDescriptorContext, text: string): unknown;
-    ConvertFromString(text: string): unknown;
-    ConvertFromString(context: ITypeDescriptorContext, text: string): unknown;
-    ConvertFromString(context: ITypeDescriptorContext, culture: CultureInfo, text: string): unknown;
-    ConvertTo(value: unknown, destinationType: Type): unknown;
-    ConvertTo(context: ITypeDescriptorContext, culture: CultureInfo, value: unknown, destinationType: Type): unknown;
-    ConvertToInvariantString(value: unknown): string;
-    ConvertToInvariantString(context: ITypeDescriptorContext, value: unknown): string;
-    ConvertToString(value: unknown): string;
-    ConvertToString(context: ITypeDescriptorContext, value: unknown): string;
-    ConvertToString(context: ITypeDescriptorContext, culture: CultureInfo, value: unknown): string;
-    CreateInstance(propertyValues: IDictionary): unknown;
-    CreateInstance(context: ITypeDescriptorContext, propertyValues: IDictionary): unknown;
-    GetCreateInstanceSupported(): boolean;
-    GetCreateInstanceSupported(context: ITypeDescriptorContext): boolean;
-    GetProperties(value: unknown): PropertyDescriptorCollection;
-    GetProperties(context: ITypeDescriptorContext, value: unknown): PropertyDescriptorCollection;
-    GetProperties(context: ITypeDescriptorContext, value: unknown, attributes: Attribute[]): PropertyDescriptorCollection;
-    GetPropertiesSupported(): boolean;
-    GetPropertiesSupported(context: ITypeDescriptorContext): boolean;
-    GetStandardValues(): ICollection;
-    GetStandardValues(context: ITypeDescriptorContext): TypeConverter_StandardValuesCollection;
-    GetStandardValuesExclusive(): boolean;
-    GetStandardValuesExclusive(context: ITypeDescriptorContext): boolean;
-    GetStandardValuesSupported(): boolean;
-    GetStandardValuesSupported(context: ITypeDescriptorContext): boolean;
-    IsValid(value: unknown): boolean;
-    IsValid(context: ITypeDescriptorContext, value: unknown): boolean;
+    canConvertFrom(sourceType: Type): boolean;
+    canConvertFrom(context: ITypeDescriptorContext, sourceType: Type): boolean;
+    canConvertTo(destinationType: Type): boolean;
+    canConvertTo(context: ITypeDescriptorContext, destinationType: Type): boolean;
+    convertFrom(value: unknown): unknown;
+    convertFrom(context: ITypeDescriptorContext, culture: CultureInfo, value: unknown): unknown;
+    convertFromInvariantString(text: string): unknown;
+    convertFromInvariantString(context: ITypeDescriptorContext, text: string): unknown;
+    convertFromString(text: string): unknown;
+    convertFromString(context: ITypeDescriptorContext, text: string): unknown;
+    convertFromString(context: ITypeDescriptorContext, culture: CultureInfo, text: string): unknown;
+    convertTo(value: unknown, destinationType: Type): unknown;
+    convertTo(context: ITypeDescriptorContext, culture: CultureInfo, value: unknown, destinationType: Type): unknown;
+    convertToInvariantString(value: unknown): string;
+    convertToInvariantString(context: ITypeDescriptorContext, value: unknown): string;
+    convertToString(value: unknown): string;
+    convertToString(context: ITypeDescriptorContext, value: unknown): string;
+    convertToString(context: ITypeDescriptorContext, culture: CultureInfo, value: unknown): string;
+    createInstance(propertyValues: IDictionary): unknown;
+    createInstance(context: ITypeDescriptorContext, propertyValues: IDictionary): unknown;
+    getCreateInstanceSupported(): boolean;
+    getCreateInstanceSupported(context: ITypeDescriptorContext): boolean;
+    getProperties(value: unknown): PropertyDescriptorCollection;
+    getProperties(context: ITypeDescriptorContext, value: unknown): PropertyDescriptorCollection;
+    getProperties(context: ITypeDescriptorContext, value: unknown, attributes: Attribute[]): PropertyDescriptorCollection;
+    getPropertiesSupported(): boolean;
+    getPropertiesSupported(context: ITypeDescriptorContext): boolean;
+    getStandardValues(): ICollection;
+    getStandardValues(context: ITypeDescriptorContext): TypeConverter_StandardValuesCollection;
+    getStandardValuesExclusive(): boolean;
+    getStandardValuesExclusive(context: ITypeDescriptorContext): boolean;
+    getStandardValuesSupported(): boolean;
+    getStandardValuesSupported(context: ITypeDescriptorContext): boolean;
+    isValid(value: unknown): boolean;
+    isValid(context: ITypeDescriptorContext, value: unknown): boolean;
 }
 
 
@@ -2513,10 +2533,10 @@ export type TypeConverter = TypeConverter$instance;
 
 export class TypeConverter_StandardValuesCollection$instance {
     constructor(values: ICollection);
-    readonly Count: int;
-    readonly Item: unknown;
-    CopyTo(array: ClrArray, index: int): void;
-    GetEnumerator(): IEnumerator;
+    readonly count: int;
+    readonly item: unknown;
+    copyTo(array: ClrArray, index: int): void;
+    getEnumerator(): IEnumerator;
 }
 
 
@@ -2532,35 +2552,35 @@ export class TypeConverterAttribute$instance extends System_Internal.Attribute$i
     constructor();
     constructor(type_: Type);
     constructor(typeName: string);
-    readonly ConverterTypeName: string;
-    Equals(obj: unknown): boolean;
-    GetHashCode(): int;
-    static readonly Default: TypeConverterAttribute;
+    readonly converterTypeName: string;
+    equals(obj: unknown): boolean;
+    getHashCode(): int;
+    static readonly default_: TypeConverterAttribute;
 }
 
 
 export type TypeConverterAttribute = TypeConverterAttribute$instance;
 
 export abstract class TypeDescriptionProvider$instance {
-    readonly RequireRegisteredTypes: Nullable_1<CLROf<boolean>>;
-    CreateInstance(provider: IServiceProvider, objectType: Type, argTypes: Type[], args: unknown[]): unknown;
-    GetCache(instance: unknown): IDictionary;
-    GetExtendedTypeDescriptor(instance: unknown): ICustomTypeDescriptor;
-    GetExtendedTypeDescriptorFromRegisteredType(instance: unknown): ICustomTypeDescriptor;
-    GetFullComponentName(component: unknown): string;
-    GetReflectionType(objectType: Type): Type;
-    GetReflectionType(instance: unknown): Type;
-    GetReflectionType(objectType: Type, instance: unknown): Type;
-    GetRuntimeType(reflectionType: Type): Type;
-    GetTypeDescriptor(objectType: Type): ICustomTypeDescriptor;
-    GetTypeDescriptor(instance: unknown): ICustomTypeDescriptor;
-    GetTypeDescriptor(objectType: Type, instance: unknown): ICustomTypeDescriptor;
-    GetTypeDescriptorFromRegisteredType(objectType: Type): ICustomTypeDescriptor;
-    GetTypeDescriptorFromRegisteredType(instance: unknown): ICustomTypeDescriptor;
-    GetTypeDescriptorFromRegisteredType(objectType: Type, instance: unknown): ICustomTypeDescriptor;
-    IsRegisteredType(type_: Type): boolean;
-    IsSupportedType(type_: Type): boolean;
-    RegisterType<T>(): void;
+    readonly requireRegisteredTypes: Nullable_1<CLROf<boolean>>;
+    createInstance(provider: IServiceProvider, objectType: Type, argTypes: Type[], args: unknown[]): unknown;
+    getCache(instance: unknown): IDictionary;
+    getExtendedTypeDescriptor(instance: unknown): ICustomTypeDescriptor;
+    getExtendedTypeDescriptorFromRegisteredType(instance: unknown): ICustomTypeDescriptor;
+    getFullComponentName(component: unknown): string;
+    getReflectionType(objectType: Type): Type;
+    getReflectionType(instance: unknown): Type;
+    getReflectionType(objectType: Type, instance: unknown): Type;
+    getRuntimeType(reflectionType: Type): Type;
+    getTypeDescriptor(objectType: Type): ICustomTypeDescriptor;
+    getTypeDescriptor(instance: unknown): ICustomTypeDescriptor;
+    getTypeDescriptor(objectType: Type, instance: unknown): ICustomTypeDescriptor;
+    getTypeDescriptorFromRegisteredType(objectType: Type): ICustomTypeDescriptor;
+    getTypeDescriptorFromRegisteredType(instance: unknown): ICustomTypeDescriptor;
+    getTypeDescriptorFromRegisteredType(objectType: Type, instance: unknown): ICustomTypeDescriptor;
+    isRegisteredType(type_: Type): boolean;
+    isSupportedType(type_: Type): boolean;
+    registerType<T>(): void;
 }
 
 
@@ -2569,105 +2589,105 @@ export type TypeDescriptionProvider = TypeDescriptionProvider$instance;
 export class TypeDescriptionProviderAttribute$instance extends System_Internal.Attribute$instance {
     constructor(typeName: string);
     constructor(type_: Type);
-    readonly TypeName: string;
+    readonly typeName: string;
 }
 
 
 export type TypeDescriptionProviderAttribute = TypeDescriptionProviderAttribute$instance;
 
 export class TypeDescriptor$instance {
-    static readonly InterfaceType: Type;
-    static readonly ComObjectType: Type;
-    static ComNativeDescriptorHandler: IComNativeDescriptorHandler;
-    static AddAttributes(instance: unknown, attributes: Attribute[]): TypeDescriptionProvider;
-    static AddAttributes(type_: Type, attributes: Attribute[]): TypeDescriptionProvider;
-    static AddEditorTable(editorBaseType: Type, table: Hashtable): void;
-    static AddProvider(provider: TypeDescriptionProvider, instance: unknown): void;
-    static AddProvider(provider: TypeDescriptionProvider, type_: Type): void;
-    static AddProviderTransparent(provider: TypeDescriptionProvider, instance: unknown): void;
-    static AddProviderTransparent(provider: TypeDescriptionProvider, type_: Type): void;
-    static CreateAssociation(primary: unknown, secondary: unknown): void;
-    static CreateDesigner(component: IComponent, designerBaseType: Type): IDesigner;
-    static CreateEvent(componentType: Type, oldEventDescriptor: EventDescriptor, attributes: Attribute[]): EventDescriptor;
-    static CreateEvent(componentType: Type, name: string, type_: Type, attributes: Attribute[]): EventDescriptor;
-    static CreateInstance(provider: IServiceProvider, objectType: Type, argTypes: Type[], args: unknown[]): unknown;
-    static CreateProperty(componentType: Type, oldPropertyDescriptor: PropertyDescriptor, attributes: Attribute[]): PropertyDescriptor;
-    static CreateProperty(componentType: Type, name: string, type_: Type, attributes: Attribute[]): PropertyDescriptor;
-    static GetAssociation(type_: Type, primary: unknown): unknown;
-    static GetAttributes(component: unknown, noCustomTypeDesc: boolean): AttributeCollection;
-    static GetAttributes(component: unknown): AttributeCollection;
-    static GetAttributes(componentType: Type): AttributeCollection;
-    static GetClassName(component: unknown, noCustomTypeDesc: boolean): string;
-    static GetClassName(component: unknown): string;
-    static GetClassName(componentType: Type): string;
-    static GetComponentName(component: unknown, noCustomTypeDesc: boolean): string;
-    static GetComponentName(component: unknown): string;
-    static GetConverter(component: unknown, noCustomTypeDesc: boolean): TypeConverter;
-    static GetConverter(component: unknown): TypeConverter;
-    static GetConverter(type_: Type): TypeConverter;
-    static GetConverterFromRegisteredType(component: unknown): TypeConverter;
-    static GetConverterFromRegisteredType(type_: Type): TypeConverter;
-    static GetDefaultEvent(component: unknown, noCustomTypeDesc: boolean): EventDescriptor;
-    static GetDefaultEvent(component: unknown): EventDescriptor;
-    static GetDefaultEvent(componentType: Type): EventDescriptor;
-    static GetDefaultProperty(component: unknown, noCustomTypeDesc: boolean): PropertyDescriptor;
-    static GetDefaultProperty(component: unknown): PropertyDescriptor;
-    static GetDefaultProperty(componentType: Type): PropertyDescriptor;
-    static GetEditor(component: unknown, editorBaseType: Type, noCustomTypeDesc: boolean): unknown;
-    static GetEditor(component: unknown, editorBaseType: Type): unknown;
-    static GetEditor(type_: Type, editorBaseType: Type): unknown;
-    static GetEvents(component: unknown, attributes: Attribute[], noCustomTypeDesc: boolean): EventDescriptorCollection;
-    static GetEvents(component: unknown, attributes: Attribute[]): EventDescriptorCollection;
-    static GetEvents(component: unknown, noCustomTypeDesc: boolean): EventDescriptorCollection;
-    static GetEvents(component: unknown): EventDescriptorCollection;
-    static GetEvents(componentType: Type, attributes: Attribute[]): EventDescriptorCollection;
-    static GetEvents(componentType: Type): EventDescriptorCollection;
-    static GetEventsFromRegisteredType(componentType: Type): EventDescriptorCollection;
-    static GetFullComponentName(component: unknown): string;
-    static GetProperties(component: unknown, attributes: Attribute[], noCustomTypeDesc: boolean): PropertyDescriptorCollection;
-    static GetProperties(component: unknown, attributes: Attribute[]): PropertyDescriptorCollection;
-    static GetProperties(component: unknown, noCustomTypeDesc: boolean): PropertyDescriptorCollection;
-    static GetProperties(component: unknown): PropertyDescriptorCollection;
-    static GetProperties(componentType: Type, attributes: Attribute[]): PropertyDescriptorCollection;
-    static GetProperties(componentType: Type): PropertyDescriptorCollection;
-    static GetPropertiesFromRegisteredType(component: unknown): PropertyDescriptorCollection;
-    static GetPropertiesFromRegisteredType(componentType: Type): PropertyDescriptorCollection;
-    static GetProvider(instance: unknown): TypeDescriptionProvider;
-    static GetProvider(type_: Type): TypeDescriptionProvider;
-    static GetReflectionType(instance: unknown): Type;
-    static GetReflectionType(type_: Type): Type;
-    static Refresh(component: unknown): void;
-    static Refresh(assembly: Assembly): void;
-    static Refresh(module_: Module): void;
-    static Refresh(type_: Type): void;
-    static RegisterType<T>(): void;
-    static RemoveAssociation(primary: unknown, secondary: unknown): void;
-    static RemoveAssociations(primary: unknown): void;
-    static RemoveProvider(provider: TypeDescriptionProvider, instance: unknown): void;
-    static RemoveProvider(provider: TypeDescriptionProvider, type_: Type): void;
-    static RemoveProviderTransparent(provider: TypeDescriptionProvider, instance: unknown): void;
-    static RemoveProviderTransparent(provider: TypeDescriptionProvider, type_: Type): void;
-    static SortDescriptorArray(infos: IList): void;
+    static readonly interfaceType: Type;
+    static readonly comObjectType: Type;
+    static comNativeDescriptorHandler: IComNativeDescriptorHandler;
+    static addAttributes(instance: unknown, attributes: Attribute[]): TypeDescriptionProvider;
+    static addAttributes(type_: Type, attributes: Attribute[]): TypeDescriptionProvider;
+    static addEditorTable(editorBaseType: Type, table: Hashtable): void;
+    static addProvider(provider: TypeDescriptionProvider, instance: unknown): void;
+    static addProvider(provider: TypeDescriptionProvider, type_: Type): void;
+    static addProviderTransparent(provider: TypeDescriptionProvider, instance: unknown): void;
+    static addProviderTransparent(provider: TypeDescriptionProvider, type_: Type): void;
+    static createAssociation(primary: unknown, secondary: unknown): void;
+    static createDesigner(component: IComponent, designerBaseType: Type): IDesigner;
+    static createEvent(componentType: Type, oldEventDescriptor: EventDescriptor, attributes: Attribute[]): EventDescriptor;
+    static createEvent(componentType: Type, name: string, type_: Type, attributes: Attribute[]): EventDescriptor;
+    static createInstance(provider: IServiceProvider, objectType: Type, argTypes: Type[], args: unknown[]): unknown;
+    static createProperty(componentType: Type, oldPropertyDescriptor: PropertyDescriptor, attributes: Attribute[]): PropertyDescriptor;
+    static createProperty(componentType: Type, name: string, type_: Type, attributes: Attribute[]): PropertyDescriptor;
+    static getAssociation(type_: Type, primary: unknown): unknown;
+    static getAttributes(component: unknown, noCustomTypeDesc: boolean): AttributeCollection;
+    static getAttributes(component: unknown): AttributeCollection;
+    static getAttributes(componentType: Type): AttributeCollection;
+    static getClassName(component: unknown, noCustomTypeDesc: boolean): string;
+    static getClassName(component: unknown): string;
+    static getClassName(componentType: Type): string;
+    static getComponentName(component: unknown, noCustomTypeDesc: boolean): string;
+    static getComponentName(component: unknown): string;
+    static getConverter(component: unknown, noCustomTypeDesc: boolean): TypeConverter;
+    static getConverter(component: unknown): TypeConverter;
+    static getConverter(type_: Type): TypeConverter;
+    static getConverterFromRegisteredType(component: unknown): TypeConverter;
+    static getConverterFromRegisteredType(type_: Type): TypeConverter;
+    static getDefaultEvent(component: unknown, noCustomTypeDesc: boolean): EventDescriptor;
+    static getDefaultEvent(component: unknown): EventDescriptor;
+    static getDefaultEvent(componentType: Type): EventDescriptor;
+    static getDefaultProperty(component: unknown, noCustomTypeDesc: boolean): PropertyDescriptor;
+    static getDefaultProperty(component: unknown): PropertyDescriptor;
+    static getDefaultProperty(componentType: Type): PropertyDescriptor;
+    static getEditor(component: unknown, editorBaseType: Type, noCustomTypeDesc: boolean): unknown;
+    static getEditor(component: unknown, editorBaseType: Type): unknown;
+    static getEditor(type_: Type, editorBaseType: Type): unknown;
+    static getEvents(component: unknown, attributes: Attribute[], noCustomTypeDesc: boolean): EventDescriptorCollection;
+    static getEvents(component: unknown, attributes: Attribute[]): EventDescriptorCollection;
+    static getEvents(component: unknown, noCustomTypeDesc: boolean): EventDescriptorCollection;
+    static getEvents(component: unknown): EventDescriptorCollection;
+    static getEvents(componentType: Type, attributes: Attribute[]): EventDescriptorCollection;
+    static getEvents(componentType: Type): EventDescriptorCollection;
+    static getEventsFromRegisteredType(componentType: Type): EventDescriptorCollection;
+    static getFullComponentName(component: unknown): string;
+    static getProperties(component: unknown, attributes: Attribute[], noCustomTypeDesc: boolean): PropertyDescriptorCollection;
+    static getProperties(component: unknown, attributes: Attribute[]): PropertyDescriptorCollection;
+    static getProperties(component: unknown, noCustomTypeDesc: boolean): PropertyDescriptorCollection;
+    static getProperties(component: unknown): PropertyDescriptorCollection;
+    static getProperties(componentType: Type, attributes: Attribute[]): PropertyDescriptorCollection;
+    static getProperties(componentType: Type): PropertyDescriptorCollection;
+    static getPropertiesFromRegisteredType(component: unknown): PropertyDescriptorCollection;
+    static getPropertiesFromRegisteredType(componentType: Type): PropertyDescriptorCollection;
+    static getProvider(instance: unknown): TypeDescriptionProvider;
+    static getProvider(type_: Type): TypeDescriptionProvider;
+    static getReflectionType(instance: unknown): Type;
+    static getReflectionType(type_: Type): Type;
+    static refresh(component: unknown): void;
+    static refresh(assembly: Assembly): void;
+    static refresh(module_: Module): void;
+    static refresh(type_: Type): void;
+    static registerType<T>(): void;
+    static removeAssociation(primary: unknown, secondary: unknown): void;
+    static removeAssociations(primary: unknown): void;
+    static removeProvider(provider: TypeDescriptionProvider, instance: unknown): void;
+    static removeProvider(provider: TypeDescriptionProvider, type_: Type): void;
+    static removeProviderTransparent(provider: TypeDescriptionProvider, instance: unknown): void;
+    static removeProviderTransparent(provider: TypeDescriptionProvider, type_: Type): void;
+    static sortDescriptorArray(infos: IList): void;
 }
 
 
 export type TypeDescriptor = TypeDescriptor$instance;
 
 export abstract class TypeListConverter$instance extends TypeConverter$instance {
-    CanConvertFrom(context: ITypeDescriptorContext, sourceType: Type): boolean;
-    CanConvertFrom(sourceType: Type): boolean;
-    CanConvertTo(context: ITypeDescriptorContext, destinationType: Type): boolean;
-    CanConvertTo(destinationType: Type): boolean;
-    ConvertFrom(context: ITypeDescriptorContext, culture: CultureInfo, value: unknown): unknown;
-    ConvertFrom(value: unknown): unknown;
-    ConvertTo(context: ITypeDescriptorContext, culture: CultureInfo, value: unknown, destinationType: Type): unknown;
-    ConvertTo(value: unknown, destinationType: Type): unknown;
-    GetStandardValues(context: ITypeDescriptorContext): TypeConverter_StandardValuesCollection;
-    GetStandardValues(): ICollection;
-    GetStandardValuesExclusive(context: ITypeDescriptorContext): boolean;
-    GetStandardValuesExclusive(): boolean;
-    GetStandardValuesSupported(context: ITypeDescriptorContext): boolean;
-    GetStandardValuesSupported(): boolean;
+    canConvertFrom(context: ITypeDescriptorContext, sourceType: Type): boolean;
+    canConvertFrom(sourceType: Type): boolean;
+    canConvertTo(context: ITypeDescriptorContext, destinationType: Type): boolean;
+    canConvertTo(destinationType: Type): boolean;
+    convertFrom(context: ITypeDescriptorContext, culture: CultureInfo, value: unknown): unknown;
+    convertFrom(value: unknown): unknown;
+    convertTo(context: ITypeDescriptorContext, culture: CultureInfo, value: unknown, destinationType: Type): unknown;
+    convertTo(value: unknown, destinationType: Type): unknown;
+    getStandardValues(context: ITypeDescriptorContext): TypeConverter_StandardValuesCollection;
+    getStandardValues(): ICollection;
+    getStandardValuesExclusive(context: ITypeDescriptorContext): boolean;
+    getStandardValuesExclusive(): boolean;
+    getStandardValuesSupported(context: ITypeDescriptorContext): boolean;
+    getStandardValuesSupported(): boolean;
 }
 
 
@@ -2703,16 +2723,16 @@ export type UInt64Converter = UInt64Converter$instance;
 
 export class VersionConverter$instance extends TypeConverter$instance {
     constructor();
-    CanConvertFrom(context: ITypeDescriptorContext, sourceType: Type): boolean;
-    CanConvertFrom(sourceType: Type): boolean;
-    CanConvertTo(context: ITypeDescriptorContext, destinationType: Type): boolean;
-    CanConvertTo(destinationType: Type): boolean;
-    ConvertFrom(context: ITypeDescriptorContext, culture: CultureInfo, value: unknown): unknown;
-    ConvertFrom(value: unknown): unknown;
-    ConvertTo(context: ITypeDescriptorContext, culture: CultureInfo, value: unknown, destinationType: Type): unknown;
-    ConvertTo(value: unknown, destinationType: Type): unknown;
-    IsValid(context: ITypeDescriptorContext, value: unknown): boolean;
-    IsValid(value: unknown): boolean;
+    canConvertFrom(context: ITypeDescriptorContext, sourceType: Type): boolean;
+    canConvertFrom(sourceType: Type): boolean;
+    canConvertTo(context: ITypeDescriptorContext, destinationType: Type): boolean;
+    canConvertTo(destinationType: Type): boolean;
+    convertFrom(context: ITypeDescriptorContext, culture: CultureInfo, value: unknown): unknown;
+    convertFrom(value: unknown): unknown;
+    convertTo(context: ITypeDescriptorContext, culture: CultureInfo, value: unknown, destinationType: Type): unknown;
+    convertTo(value: unknown, destinationType: Type): unknown;
+    isValid(context: ITypeDescriptorContext, value: unknown): boolean;
+    isValid(value: unknown): boolean;
 }
 
 
@@ -2724,9 +2744,9 @@ export class WarningException$instance extends System_Internal.SystemException$i
     constructor(message: string, helpUrl: string);
     constructor(message: string, innerException: Exception);
     constructor(message: string, helpUrl: string, helpTopic: string);
-    readonly HelpTopic: string;
-    readonly HelpUrl: string;
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    readonly helpTopic: string;
+    readonly helpUrl: string;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
@@ -2743,9 +2763,9 @@ export class Win32Exception$instance extends System_Runtime_InteropServices_Inte
     constructor(error: int, message: string);
     constructor(message: string);
     constructor(message: string, innerException: Exception);
-    readonly NativeErrorCode: int;
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
-    ToString(): string;
+    readonly nativeErrorCode: int;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
+    toString(): string;
 }
 
 
@@ -2757,17 +2777,17 @@ export type Win32Exception = Win32Exception$instance & __Win32Exception$views;
 
 
 export abstract class AsyncOperationManager$instance {
-    static SynchronizationContext: SynchronizationContext;
-    static CreateOperation(userSuppliedState: unknown): AsyncOperation;
+    static synchronizationContext: SynchronizationContext;
+    static createOperation(userSuppliedState: unknown): AsyncOperation;
 }
 
 
 export type AsyncOperationManager = AsyncOperationManager$instance;
 
 export abstract class SyntaxCheck$instance {
-    static CheckMachineName(value: string): boolean;
-    static CheckPath(value: string): boolean;
-    static CheckRootedPath(value: string): boolean;
+    static checkMachineName(value: string): boolean;
+    static checkPath(value: string): boolean;
+    static checkRootedPath(value: string): boolean;
 }
 
 

@@ -39,36 +39,36 @@ export type CLROf<T> =
     T; // Identity fallback for non-primitive types
 
 export class ComponentCrossReference$instance {
-    SourceGroupIndex: nuint;
-    DestinationGroupIndex: nuint;
+    sourceGroupIndex: nuint;
+    destinationGroupIndex: nuint;
 }
 
 
 export type ComponentCrossReference = ComponentCrossReference$instance;
 
 export class MarkCrossReferencesArgs$instance {
-    ComponentCount: nuint;
-    Components: ptr<StronglyConnectedComponent>;
-    CrossReferenceCount: nuint;
-    CrossReferences: ptr<ComponentCrossReference>;
+    componentCount: nuint;
+    components: ptr<StronglyConnectedComponent>;
+    crossReferenceCount: nuint;
+    crossReferences: ptr<ComponentCrossReference>;
 }
 
 
 export type MarkCrossReferencesArgs = MarkCrossReferencesArgs$instance;
 
 export class StronglyConnectedComponent$instance {
-    Count: nuint;
-    Contexts: ptr<void>;
+    count: nuint;
+    contexts: ptr<void>;
 }
 
 
 export type StronglyConnectedComponent = StronglyConnectedComponent$instance;
 
 export abstract class JavaMarshal$instance {
-    static CreateReferenceTrackingHandle(obj: unknown, context: ptr<void>): GCHandle;
-    static FinishCrossReferenceProcessing(crossReferences: ptr<MarkCrossReferencesArgs>, unreachableObjectHandles: ReadOnlySpan_1<GCHandle>): void;
-    static GetContext(obj: GCHandle): ptr<void>;
-    static Initialize(markCrossReferences: unknown): void;
+    static createReferenceTrackingHandle(obj: unknown, context: ptr<void>): GCHandle;
+    static finishCrossReferenceProcessing(crossReferences: ptr<MarkCrossReferencesArgs>, unreachableObjectHandles: ReadOnlySpan_1<GCHandle>): void;
+    static getContext(obj: GCHandle): ptr<void>;
+    static initialize(markCrossReferences: unknown): void;
 }
 
 

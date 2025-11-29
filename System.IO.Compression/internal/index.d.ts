@@ -49,39 +49,39 @@ export type CLROf<T> =
     T; // Identity fallback for non-primitive types
 
 export enum CompressionLevel {
-    Optimal = 0,
-    Fastest = 1,
-    NoCompression = 2,
-    SmallestSize = 3
+    optimal = 0,
+    fastest = 1,
+    noCompression = 2,
+    smallestSize = 3
 }
 
 
 export enum CompressionMode {
-    Decompress = 0,
-    Compress = 1
+    decompress = 0,
+    compress = 1
 }
 
 
 export enum ZipArchiveMode {
-    Read = 0,
-    Create = 1,
-    Update = 2
+    read = 0,
+    create = 1,
+    update = 2
 }
 
 
 export enum ZLibCompressionStrategy {
-    Default = 0,
-    Filtered = 1,
-    HuffmanOnly = 2,
-    RunLengthEncoding = 3,
-    Fixed = 4
+    default_ = 0,
+    filtered = 1,
+    huffmanOnly = 2,
+    runLengthEncoding = 3,
+    fixed = 4
 }
 
 
 export class BrotliDecoder$instance {
-    Decompress(source: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, bytesConsumed: { value: ref<int> }, bytesWritten: { value: ref<int> }): OperationStatus;
-    Dispose(): void;
-    static TryDecompress(source: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
+    decompress(source: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, bytesConsumed: { value: ref<int> }, bytesWritten: { value: ref<int> }): OperationStatus;
+    dispose(): void;
+    static tryDecompress(source: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
 }
 
 
@@ -96,12 +96,12 @@ export type BrotliDecoder = BrotliDecoder$instance & __BrotliDecoder$views;
 
 export class BrotliEncoder$instance {
     constructor(quality: int, window: int);
-    Compress(source: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, bytesConsumed: { value: ref<int> }, bytesWritten: { value: ref<int> }, isFinalBlock: boolean): OperationStatus;
-    Dispose(): void;
-    Flush(destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): OperationStatus;
-    static GetMaxCompressedLength(inputSize: int): int;
-    static TryCompress(source: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }, quality: int, window: int): boolean;
-    static TryCompress(source: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
+    compress(source: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, bytesConsumed: { value: ref<int> }, bytesWritten: { value: ref<int> }, isFinalBlock: boolean): OperationStatus;
+    dispose(): void;
+    flush(destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): OperationStatus;
+    static getMaxCompressedLength(inputSize: int): int;
+    static tryCompress(source: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }, quality: int, window: int): boolean;
+    static tryCompress(source: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
 }
 
 
@@ -116,7 +116,7 @@ export type BrotliEncoder = BrotliEncoder$instance & __BrotliEncoder$views;
 
 export class BrotliCompressionOptions$instance {
     constructor();
-    Quality: int;
+    quality: int;
 }
 
 
@@ -128,40 +128,40 @@ export class BrotliStream$instance extends System_IO_Internal.Stream$instance {
     constructor(stream: Stream, compressionOptions: BrotliCompressionOptions, leaveOpen: boolean);
     constructor(stream: Stream, mode: CompressionMode);
     constructor(stream: Stream, mode: CompressionMode, leaveOpen: boolean);
-    readonly BaseStream: Stream;
-    readonly CanRead: boolean;
-    readonly CanSeek: boolean;
-    readonly CanWrite: boolean;
-    readonly Length: long;
-    Position: long;
-    BeginRead(buffer: byte[], offset: int, count: int, asyncCallback: AsyncCallback, asyncState: unknown): IAsyncResult;
-    BeginWrite(buffer: byte[], offset: int, count: int, asyncCallback: AsyncCallback, asyncState: unknown): IAsyncResult;
+    readonly baseStream: Stream;
+    readonly canRead: boolean;
+    readonly canSeek: boolean;
+    readonly canWrite: boolean;
+    readonly length: long;
+    position: long;
+    beginRead(buffer: byte[], offset: int, count: int, asyncCallback: AsyncCallback, asyncState: unknown): IAsyncResult;
+    beginWrite(buffer: byte[], offset: int, count: int, asyncCallback: AsyncCallback, asyncState: unknown): IAsyncResult;
     Dispose(): void;
-    DisposeAsync(): ValueTask;
-    EndRead(asyncResult: IAsyncResult): int;
-    EndWrite(asyncResult: IAsyncResult): void;
-    Flush(): void;
-    FlushAsync(cancellationToken: CancellationToken): Task;
-    FlushAsync(): Task;
-    Read(buffer: byte[], offset: int, count: int): int;
-    Read(buffer: Span_1<CLROf<byte>>): int;
-    Read(buffer: Span_1<CLROf<byte>>): int;
-    ReadAsync(buffer: byte[], offset: int, count: int, cancellationToken: CancellationToken): Task_1<CLROf<int>>;
-    ReadAsync(buffer: Memory_1<CLROf<byte>>, cancellationToken?: CancellationToken): ValueTask_1<CLROf<int>>;
-    ReadAsync(buffer: byte[], offset: int, count: int): Task_1<CLROf<int>>;
-    ReadAsync(buffer: byte[], offset: int, count: int, cancellationToken: CancellationToken): Task_1<CLROf<int>>;
-    ReadAsync(buffer: Memory_1<CLROf<byte>>, cancellationToken?: CancellationToken): ValueTask_1<CLROf<int>>;
-    ReadByte(): int;
-    Seek(offset: long, origin: SeekOrigin): long;
-    SetLength(value: long): void;
-    Write(buffer: byte[], offset: int, count: int): void;
-    Write(buffer: ReadOnlySpan_1<CLROf<byte>>): void;
-    Write(buffer: ReadOnlySpan_1<CLROf<byte>>): void;
-    WriteAsync(buffer: byte[], offset: int, count: int, cancellationToken: CancellationToken): Task;
-    WriteAsync(buffer: ReadOnlyMemory_1<CLROf<byte>>, cancellationToken?: CancellationToken): ValueTask;
-    WriteAsync(buffer: byte[], offset: int, count: int): Task;
-    WriteAsync(buffer: ReadOnlyMemory_1<CLROf<byte>>, cancellationToken?: CancellationToken): ValueTask;
-    WriteByte(value: byte): void;
+    disposeAsync(): ValueTask;
+    endRead(asyncResult: IAsyncResult): int;
+    endWrite(asyncResult: IAsyncResult): void;
+    flush(): void;
+    flushAsync(cancellationToken: CancellationToken): Task;
+    flushAsync(): Task;
+    read(buffer: byte[], offset: int, count: int): int;
+    read(buffer: Span_1<CLROf<byte>>): int;
+    read(buffer: Span_1<CLROf<byte>>): int;
+    readAsync(buffer: byte[], offset: int, count: int, cancellationToken: CancellationToken): Task_1<CLROf<int>>;
+    readAsync(buffer: Memory_1<CLROf<byte>>, cancellationToken?: CancellationToken): ValueTask_1<CLROf<int>>;
+    readAsync(buffer: byte[], offset: int, count: int): Task_1<CLROf<int>>;
+    readAsync(buffer: byte[], offset: int, count: int, cancellationToken: CancellationToken): Task_1<CLROf<int>>;
+    readAsync(buffer: Memory_1<CLROf<byte>>, cancellationToken?: CancellationToken): ValueTask_1<CLROf<int>>;
+    readByte(): int;
+    seek(offset: long, origin: SeekOrigin): long;
+    setLength(value: long): void;
+    write(buffer: byte[], offset: int, count: int): void;
+    write(buffer: ReadOnlySpan_1<CLROf<byte>>): void;
+    write(buffer: ReadOnlySpan_1<CLROf<byte>>): void;
+    writeAsync(buffer: byte[], offset: int, count: int, cancellationToken: CancellationToken): Task;
+    writeAsync(buffer: ReadOnlyMemory_1<CLROf<byte>>, cancellationToken?: CancellationToken): ValueTask;
+    writeAsync(buffer: byte[], offset: int, count: int): Task;
+    writeAsync(buffer: ReadOnlyMemory_1<CLROf<byte>>, cancellationToken?: CancellationToken): ValueTask;
+    writeByte(value: byte): void;
 }
 
 
@@ -169,6 +169,8 @@ export interface __BrotliStream$views {
     As_IAsyncDisposable(): System_Internal.IAsyncDisposable$instance;
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
+
+export interface BrotliStream$instance extends System_Internal.IDisposable$instance {}
 
 export type BrotliStream = BrotliStream$instance & __BrotliStream$views;
 
@@ -179,46 +181,46 @@ export class DeflateStream$instance extends System_IO_Internal.Stream$instance {
     constructor(stream: Stream, compressionLevel: CompressionLevel);
     constructor(stream: Stream, compressionLevel: CompressionLevel, leaveOpen: boolean);
     constructor(stream: Stream, compressionOptions: ZLibCompressionOptions, leaveOpen: boolean);
-    readonly BaseStream: Stream;
-    readonly CanRead: boolean;
-    readonly CanSeek: boolean;
-    readonly CanWrite: boolean;
-    readonly Length: long;
-    Position: long;
-    BeginRead(buffer: byte[], offset: int, count: int, asyncCallback: AsyncCallback, asyncState: unknown): IAsyncResult;
-    BeginWrite(buffer: byte[], offset: int, count: int, asyncCallback: AsyncCallback, asyncState: unknown): IAsyncResult;
-    CopyTo(destination: Stream, bufferSize: int): void;
-    CopyTo(destination: Stream): void;
-    CopyToAsync(destination: Stream, bufferSize: int, cancellationToken: CancellationToken): Task;
-    CopyToAsync(destination: Stream): Task;
-    CopyToAsync(destination: Stream, bufferSize: int): Task;
-    CopyToAsync(destination: Stream, cancellationToken: CancellationToken): Task;
+    readonly baseStream: Stream;
+    readonly canRead: boolean;
+    readonly canSeek: boolean;
+    readonly canWrite: boolean;
+    readonly length: long;
+    position: long;
+    beginRead(buffer: byte[], offset: int, count: int, asyncCallback: AsyncCallback, asyncState: unknown): IAsyncResult;
+    beginWrite(buffer: byte[], offset: int, count: int, asyncCallback: AsyncCallback, asyncState: unknown): IAsyncResult;
+    copyTo(destination: Stream, bufferSize: int): void;
+    copyTo(destination: Stream): void;
+    copyToAsync(destination: Stream, bufferSize: int, cancellationToken: CancellationToken): Task;
+    copyToAsync(destination: Stream): Task;
+    copyToAsync(destination: Stream, bufferSize: int): Task;
+    copyToAsync(destination: Stream, cancellationToken: CancellationToken): Task;
     Dispose(): void;
-    DisposeAsync(): ValueTask;
-    EndRead(asyncResult: IAsyncResult): int;
-    EndWrite(asyncResult: IAsyncResult): void;
-    Flush(): void;
-    FlushAsync(cancellationToken: CancellationToken): Task;
-    FlushAsync(): Task;
-    Read(buffer: byte[], offset: int, count: int): int;
-    Read(buffer: Span_1<CLROf<byte>>): int;
-    Read(buffer: Span_1<CLROf<byte>>): int;
-    ReadAsync(buffer: byte[], offset: int, count: int, cancellationToken: CancellationToken): Task_1<CLROf<int>>;
-    ReadAsync(buffer: Memory_1<CLROf<byte>>, cancellationToken?: CancellationToken): ValueTask_1<CLROf<int>>;
-    ReadAsync(buffer: byte[], offset: int, count: int): Task_1<CLROf<int>>;
-    ReadAsync(buffer: byte[], offset: int, count: int, cancellationToken: CancellationToken): Task_1<CLROf<int>>;
-    ReadAsync(buffer: Memory_1<CLROf<byte>>, cancellationToken?: CancellationToken): ValueTask_1<CLROf<int>>;
-    ReadByte(): int;
-    Seek(offset: long, origin: SeekOrigin): long;
-    SetLength(value: long): void;
-    Write(buffer: byte[], offset: int, count: int): void;
-    Write(buffer: ReadOnlySpan_1<CLROf<byte>>): void;
-    Write(buffer: ReadOnlySpan_1<CLROf<byte>>): void;
-    WriteAsync(buffer: byte[], offset: int, count: int, cancellationToken: CancellationToken): Task;
-    WriteAsync(buffer: ReadOnlyMemory_1<CLROf<byte>>, cancellationToken?: CancellationToken): ValueTask;
-    WriteAsync(buffer: byte[], offset: int, count: int): Task;
-    WriteAsync(buffer: ReadOnlyMemory_1<CLROf<byte>>, cancellationToken?: CancellationToken): ValueTask;
-    WriteByte(value: byte): void;
+    disposeAsync(): ValueTask;
+    endRead(asyncResult: IAsyncResult): int;
+    endWrite(asyncResult: IAsyncResult): void;
+    flush(): void;
+    flushAsync(cancellationToken: CancellationToken): Task;
+    flushAsync(): Task;
+    read(buffer: byte[], offset: int, count: int): int;
+    read(buffer: Span_1<CLROf<byte>>): int;
+    read(buffer: Span_1<CLROf<byte>>): int;
+    readAsync(buffer: byte[], offset: int, count: int, cancellationToken: CancellationToken): Task_1<CLROf<int>>;
+    readAsync(buffer: Memory_1<CLROf<byte>>, cancellationToken?: CancellationToken): ValueTask_1<CLROf<int>>;
+    readAsync(buffer: byte[], offset: int, count: int): Task_1<CLROf<int>>;
+    readAsync(buffer: byte[], offset: int, count: int, cancellationToken: CancellationToken): Task_1<CLROf<int>>;
+    readAsync(buffer: Memory_1<CLROf<byte>>, cancellationToken?: CancellationToken): ValueTask_1<CLROf<int>>;
+    readByte(): int;
+    seek(offset: long, origin: SeekOrigin): long;
+    setLength(value: long): void;
+    write(buffer: byte[], offset: int, count: int): void;
+    write(buffer: ReadOnlySpan_1<CLROf<byte>>): void;
+    write(buffer: ReadOnlySpan_1<CLROf<byte>>): void;
+    writeAsync(buffer: byte[], offset: int, count: int, cancellationToken: CancellationToken): Task;
+    writeAsync(buffer: ReadOnlyMemory_1<CLROf<byte>>, cancellationToken?: CancellationToken): ValueTask;
+    writeAsync(buffer: byte[], offset: int, count: int): Task;
+    writeAsync(buffer: ReadOnlyMemory_1<CLROf<byte>>, cancellationToken?: CancellationToken): ValueTask;
+    writeByte(value: byte): void;
 }
 
 
@@ -226,6 +228,8 @@ export interface __DeflateStream$views {
     As_IAsyncDisposable(): System_Internal.IAsyncDisposable$instance;
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
+
+export interface DeflateStream$instance extends System_Internal.IDisposable$instance {}
 
 export type DeflateStream = DeflateStream$instance & __DeflateStream$views;
 
@@ -236,46 +240,46 @@ export class GZipStream$instance extends System_IO_Internal.Stream$instance {
     constructor(stream: Stream, compressionLevel: CompressionLevel);
     constructor(stream: Stream, compressionLevel: CompressionLevel, leaveOpen: boolean);
     constructor(stream: Stream, compressionOptions: ZLibCompressionOptions, leaveOpen: boolean);
-    readonly BaseStream: Stream;
-    readonly CanRead: boolean;
-    readonly CanSeek: boolean;
-    readonly CanWrite: boolean;
-    readonly Length: long;
-    Position: long;
-    BeginRead(buffer: byte[], offset: int, count: int, asyncCallback: AsyncCallback, asyncState: unknown): IAsyncResult;
-    BeginWrite(buffer: byte[], offset: int, count: int, asyncCallback: AsyncCallback, asyncState: unknown): IAsyncResult;
-    CopyTo(destination: Stream, bufferSize: int): void;
-    CopyTo(destination: Stream): void;
-    CopyToAsync(destination: Stream, bufferSize: int, cancellationToken: CancellationToken): Task;
-    CopyToAsync(destination: Stream): Task;
-    CopyToAsync(destination: Stream, bufferSize: int): Task;
-    CopyToAsync(destination: Stream, cancellationToken: CancellationToken): Task;
+    readonly baseStream: Stream;
+    readonly canRead: boolean;
+    readonly canSeek: boolean;
+    readonly canWrite: boolean;
+    readonly length: long;
+    position: long;
+    beginRead(buffer: byte[], offset: int, count: int, asyncCallback: AsyncCallback, asyncState: unknown): IAsyncResult;
+    beginWrite(buffer: byte[], offset: int, count: int, asyncCallback: AsyncCallback, asyncState: unknown): IAsyncResult;
+    copyTo(destination: Stream, bufferSize: int): void;
+    copyTo(destination: Stream): void;
+    copyToAsync(destination: Stream, bufferSize: int, cancellationToken: CancellationToken): Task;
+    copyToAsync(destination: Stream): Task;
+    copyToAsync(destination: Stream, bufferSize: int): Task;
+    copyToAsync(destination: Stream, cancellationToken: CancellationToken): Task;
     Dispose(): void;
-    DisposeAsync(): ValueTask;
-    EndRead(asyncResult: IAsyncResult): int;
-    EndWrite(asyncResult: IAsyncResult): void;
-    Flush(): void;
-    FlushAsync(cancellationToken: CancellationToken): Task;
-    FlushAsync(): Task;
-    Read(buffer: byte[], offset: int, count: int): int;
-    Read(buffer: Span_1<CLROf<byte>>): int;
-    Read(buffer: Span_1<CLROf<byte>>): int;
-    ReadAsync(buffer: byte[], offset: int, count: int, cancellationToken: CancellationToken): Task_1<CLROf<int>>;
-    ReadAsync(buffer: Memory_1<CLROf<byte>>, cancellationToken?: CancellationToken): ValueTask_1<CLROf<int>>;
-    ReadAsync(buffer: byte[], offset: int, count: int): Task_1<CLROf<int>>;
-    ReadAsync(buffer: byte[], offset: int, count: int, cancellationToken: CancellationToken): Task_1<CLROf<int>>;
-    ReadAsync(buffer: Memory_1<CLROf<byte>>, cancellationToken?: CancellationToken): ValueTask_1<CLROf<int>>;
-    ReadByte(): int;
-    Seek(offset: long, origin: SeekOrigin): long;
-    SetLength(value: long): void;
-    Write(buffer: byte[], offset: int, count: int): void;
-    Write(buffer: ReadOnlySpan_1<CLROf<byte>>): void;
-    Write(buffer: ReadOnlySpan_1<CLROf<byte>>): void;
-    WriteAsync(buffer: byte[], offset: int, count: int, cancellationToken: CancellationToken): Task;
-    WriteAsync(buffer: ReadOnlyMemory_1<CLROf<byte>>, cancellationToken?: CancellationToken): ValueTask;
-    WriteAsync(buffer: byte[], offset: int, count: int): Task;
-    WriteAsync(buffer: ReadOnlyMemory_1<CLROf<byte>>, cancellationToken?: CancellationToken): ValueTask;
-    WriteByte(value: byte): void;
+    disposeAsync(): ValueTask;
+    endRead(asyncResult: IAsyncResult): int;
+    endWrite(asyncResult: IAsyncResult): void;
+    flush(): void;
+    flushAsync(cancellationToken: CancellationToken): Task;
+    flushAsync(): Task;
+    read(buffer: byte[], offset: int, count: int): int;
+    read(buffer: Span_1<CLROf<byte>>): int;
+    read(buffer: Span_1<CLROf<byte>>): int;
+    readAsync(buffer: byte[], offset: int, count: int, cancellationToken: CancellationToken): Task_1<CLROf<int>>;
+    readAsync(buffer: Memory_1<CLROf<byte>>, cancellationToken?: CancellationToken): ValueTask_1<CLROf<int>>;
+    readAsync(buffer: byte[], offset: int, count: int): Task_1<CLROf<int>>;
+    readAsync(buffer: byte[], offset: int, count: int, cancellationToken: CancellationToken): Task_1<CLROf<int>>;
+    readAsync(buffer: Memory_1<CLROf<byte>>, cancellationToken?: CancellationToken): ValueTask_1<CLROf<int>>;
+    readByte(): int;
+    seek(offset: long, origin: SeekOrigin): long;
+    setLength(value: long): void;
+    write(buffer: byte[], offset: int, count: int): void;
+    write(buffer: ReadOnlySpan_1<CLROf<byte>>): void;
+    write(buffer: ReadOnlySpan_1<CLROf<byte>>): void;
+    writeAsync(buffer: byte[], offset: int, count: int, cancellationToken: CancellationToken): Task;
+    writeAsync(buffer: ReadOnlyMemory_1<CLROf<byte>>, cancellationToken?: CancellationToken): ValueTask;
+    writeAsync(buffer: byte[], offset: int, count: int): Task;
+    writeAsync(buffer: ReadOnlyMemory_1<CLROf<byte>>, cancellationToken?: CancellationToken): ValueTask;
+    writeByte(value: byte): void;
 }
 
 
@@ -283,6 +287,8 @@ export interface __GZipStream$views {
     As_IAsyncDisposable(): System_Internal.IAsyncDisposable$instance;
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
+
+export interface GZipStream$instance extends System_Internal.IDisposable$instance {}
 
 export type GZipStream = GZipStream$instance & __GZipStream$views;
 
@@ -292,15 +298,15 @@ export class ZipArchive$instance {
     constructor(stream: Stream, mode: ZipArchiveMode);
     constructor(stream: Stream, mode: ZipArchiveMode, leaveOpen: boolean);
     constructor(stream: Stream, mode: ZipArchiveMode, leaveOpen: boolean, entryNameEncoding: Encoding);
-    Comment: string;
-    readonly Entries: ReadOnlyCollection_1<ZipArchiveEntry>;
-    readonly Mode: ZipArchiveMode;
-    CreateEntry(entryName: string): ZipArchiveEntry;
-    CreateEntry(entryName: string, compressionLevel: CompressionLevel): ZipArchiveEntry;
-    Dispose(): void;
-    DisposeAsync(): ValueTask;
-    GetEntry(entryName: string): ZipArchiveEntry;
-    static CreateAsync(stream: Stream, mode: ZipArchiveMode, leaveOpen: boolean, entryNameEncoding: Encoding, cancellationToken?: CancellationToken): Task_1<ZipArchive>;
+    comment: string;
+    readonly entries: ReadOnlyCollection_1<ZipArchiveEntry>;
+    readonly mode: ZipArchiveMode;
+    createEntry(entryName: string): ZipArchiveEntry;
+    createEntry(entryName: string, compressionLevel: CompressionLevel): ZipArchiveEntry;
+    dispose(): void;
+    disposeAsync(): ValueTask;
+    getEntry(entryName: string): ZipArchiveEntry;
+    static createAsync(stream: Stream, mode: ZipArchiveMode, leaveOpen: boolean, entryNameEncoding: Encoding, cancellationToken?: CancellationToken): Task_1<ZipArchive>;
 }
 
 
@@ -315,20 +321,20 @@ export type ZipArchive = ZipArchive$instance & __ZipArchive$views;
 
 
 export class ZipArchiveEntry$instance {
-    readonly Archive: ZipArchive;
-    Comment: string;
-    readonly CompressedLength: long;
-    readonly Crc32: uint;
-    ExternalAttributes: int;
-    readonly FullName: string;
-    readonly IsEncrypted: boolean;
-    LastWriteTime: DateTimeOffset;
-    readonly Length: long;
-    readonly Name: string;
-    Delete(): void;
-    Open(): Stream;
-    OpenAsync(cancellationToken?: CancellationToken): Task_1<Stream>;
-    ToString(): string;
+    readonly archive: ZipArchive;
+    comment: string;
+    readonly compressedLength: long;
+    readonly crc32: uint;
+    externalAttributes: int;
+    readonly fullName: string;
+    readonly isEncrypted: boolean;
+    lastWriteTime: DateTimeOffset;
+    readonly length: long;
+    readonly name: string;
+    delete_(): void;
+    open(): Stream;
+    openAsync(cancellationToken?: CancellationToken): Task_1<Stream>;
+    toString(): string;
 }
 
 
@@ -336,8 +342,8 @@ export type ZipArchiveEntry = ZipArchiveEntry$instance;
 
 export class ZLibCompressionOptions$instance {
     constructor();
-    CompressionLevel: int;
-    CompressionStrategy: ZLibCompressionStrategy;
+    compressionLevel: int;
+    compressionStrategy: ZLibCompressionStrategy;
 }
 
 
@@ -355,6 +361,8 @@ export interface __ZLibException$views {
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
+export interface ZLibException$instance extends System_Runtime_Serialization_Internal.ISerializable$instance {}
+
 export type ZLibException = ZLibException$instance & __ZLibException$views;
 
 
@@ -364,46 +372,46 @@ export class ZLibStream$instance extends System_IO_Internal.Stream$instance {
     constructor(stream: Stream, compressionLevel: CompressionLevel);
     constructor(stream: Stream, compressionLevel: CompressionLevel, leaveOpen: boolean);
     constructor(stream: Stream, compressionOptions: ZLibCompressionOptions, leaveOpen: boolean);
-    readonly BaseStream: Stream;
-    readonly CanRead: boolean;
-    readonly CanSeek: boolean;
-    readonly CanWrite: boolean;
-    readonly Length: long;
-    Position: long;
-    BeginRead(buffer: byte[], offset: int, count: int, asyncCallback: AsyncCallback, asyncState: unknown): IAsyncResult;
-    BeginWrite(buffer: byte[], offset: int, count: int, asyncCallback: AsyncCallback, asyncState: unknown): IAsyncResult;
-    CopyTo(destination: Stream, bufferSize: int): void;
-    CopyTo(destination: Stream): void;
-    CopyToAsync(destination: Stream, bufferSize: int, cancellationToken: CancellationToken): Task;
-    CopyToAsync(destination: Stream): Task;
-    CopyToAsync(destination: Stream, bufferSize: int): Task;
-    CopyToAsync(destination: Stream, cancellationToken: CancellationToken): Task;
+    readonly baseStream: Stream;
+    readonly canRead: boolean;
+    readonly canSeek: boolean;
+    readonly canWrite: boolean;
+    readonly length: long;
+    position: long;
+    beginRead(buffer: byte[], offset: int, count: int, asyncCallback: AsyncCallback, asyncState: unknown): IAsyncResult;
+    beginWrite(buffer: byte[], offset: int, count: int, asyncCallback: AsyncCallback, asyncState: unknown): IAsyncResult;
+    copyTo(destination: Stream, bufferSize: int): void;
+    copyTo(destination: Stream): void;
+    copyToAsync(destination: Stream, bufferSize: int, cancellationToken: CancellationToken): Task;
+    copyToAsync(destination: Stream): Task;
+    copyToAsync(destination: Stream, bufferSize: int): Task;
+    copyToAsync(destination: Stream, cancellationToken: CancellationToken): Task;
     Dispose(): void;
-    DisposeAsync(): ValueTask;
-    EndRead(asyncResult: IAsyncResult): int;
-    EndWrite(asyncResult: IAsyncResult): void;
-    Flush(): void;
-    FlushAsync(cancellationToken: CancellationToken): Task;
-    FlushAsync(): Task;
-    Read(buffer: byte[], offset: int, count: int): int;
-    Read(buffer: Span_1<CLROf<byte>>): int;
-    Read(buffer: Span_1<CLROf<byte>>): int;
-    ReadAsync(buffer: byte[], offset: int, count: int, cancellationToken: CancellationToken): Task_1<CLROf<int>>;
-    ReadAsync(buffer: Memory_1<CLROf<byte>>, cancellationToken?: CancellationToken): ValueTask_1<CLROf<int>>;
-    ReadAsync(buffer: byte[], offset: int, count: int): Task_1<CLROf<int>>;
-    ReadAsync(buffer: byte[], offset: int, count: int, cancellationToken: CancellationToken): Task_1<CLROf<int>>;
-    ReadAsync(buffer: Memory_1<CLROf<byte>>, cancellationToken?: CancellationToken): ValueTask_1<CLROf<int>>;
-    ReadByte(): int;
-    Seek(offset: long, origin: SeekOrigin): long;
-    SetLength(value: long): void;
-    Write(buffer: byte[], offset: int, count: int): void;
-    Write(buffer: ReadOnlySpan_1<CLROf<byte>>): void;
-    Write(buffer: ReadOnlySpan_1<CLROf<byte>>): void;
-    WriteAsync(buffer: byte[], offset: int, count: int, cancellationToken: CancellationToken): Task;
-    WriteAsync(buffer: ReadOnlyMemory_1<CLROf<byte>>, cancellationToken?: CancellationToken): ValueTask;
-    WriteAsync(buffer: byte[], offset: int, count: int): Task;
-    WriteAsync(buffer: ReadOnlyMemory_1<CLROf<byte>>, cancellationToken?: CancellationToken): ValueTask;
-    WriteByte(value: byte): void;
+    disposeAsync(): ValueTask;
+    endRead(asyncResult: IAsyncResult): int;
+    endWrite(asyncResult: IAsyncResult): void;
+    flush(): void;
+    flushAsync(cancellationToken: CancellationToken): Task;
+    flushAsync(): Task;
+    read(buffer: byte[], offset: int, count: int): int;
+    read(buffer: Span_1<CLROf<byte>>): int;
+    read(buffer: Span_1<CLROf<byte>>): int;
+    readAsync(buffer: byte[], offset: int, count: int, cancellationToken: CancellationToken): Task_1<CLROf<int>>;
+    readAsync(buffer: Memory_1<CLROf<byte>>, cancellationToken?: CancellationToken): ValueTask_1<CLROf<int>>;
+    readAsync(buffer: byte[], offset: int, count: int): Task_1<CLROf<int>>;
+    readAsync(buffer: byte[], offset: int, count: int, cancellationToken: CancellationToken): Task_1<CLROf<int>>;
+    readAsync(buffer: Memory_1<CLROf<byte>>, cancellationToken?: CancellationToken): ValueTask_1<CLROf<int>>;
+    readByte(): int;
+    seek(offset: long, origin: SeekOrigin): long;
+    setLength(value: long): void;
+    write(buffer: byte[], offset: int, count: int): void;
+    write(buffer: ReadOnlySpan_1<CLROf<byte>>): void;
+    write(buffer: ReadOnlySpan_1<CLROf<byte>>): void;
+    writeAsync(buffer: byte[], offset: int, count: int, cancellationToken: CancellationToken): Task;
+    writeAsync(buffer: ReadOnlyMemory_1<CLROf<byte>>, cancellationToken?: CancellationToken): ValueTask;
+    writeAsync(buffer: byte[], offset: int, count: int): Task;
+    writeAsync(buffer: ReadOnlyMemory_1<CLROf<byte>>, cancellationToken?: CancellationToken): ValueTask;
+    writeByte(value: byte): void;
 }
 
 
@@ -412,62 +420,64 @@ export interface __ZLibStream$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
 
+export interface ZLibStream$instance extends System_Internal.IDisposable$instance {}
+
 export type ZLibStream = ZLibStream$instance & __ZLibStream$views;
 
 
 export abstract class ZipFile$instance {
-    static CreateFromDirectory(sourceDirectoryName: string, destination: Stream, compressionLevel: CompressionLevel, includeBaseDirectory: boolean, entryNameEncoding: Encoding): void;
-    static CreateFromDirectory(sourceDirectoryName: string, destination: Stream, compressionLevel: CompressionLevel, includeBaseDirectory: boolean): void;
-    static CreateFromDirectory(sourceDirectoryName: string, destination: Stream): void;
-    static CreateFromDirectory(sourceDirectoryName: string, destinationArchiveFileName: string, compressionLevel: CompressionLevel, includeBaseDirectory: boolean, entryNameEncoding: Encoding): void;
-    static CreateFromDirectory(sourceDirectoryName: string, destinationArchiveFileName: string, compressionLevel: CompressionLevel, includeBaseDirectory: boolean): void;
-    static CreateFromDirectory(sourceDirectoryName: string, destinationArchiveFileName: string): void;
-    static CreateFromDirectoryAsync(sourceDirectoryName: string, destination: Stream, compressionLevel: CompressionLevel, includeBaseDirectory: boolean, entryNameEncoding: Encoding, cancellationToken?: CancellationToken): Task;
-    static CreateFromDirectoryAsync(sourceDirectoryName: string, destination: Stream, compressionLevel: CompressionLevel, includeBaseDirectory: boolean, cancellationToken?: CancellationToken): Task;
-    static CreateFromDirectoryAsync(sourceDirectoryName: string, destination: Stream, cancellationToken?: CancellationToken): Task;
-    static CreateFromDirectoryAsync(sourceDirectoryName: string, destinationArchiveFileName: string, compressionLevel: CompressionLevel, includeBaseDirectory: boolean, entryNameEncoding: Encoding, cancellationToken?: CancellationToken): Task;
-    static CreateFromDirectoryAsync(sourceDirectoryName: string, destinationArchiveFileName: string, compressionLevel: CompressionLevel, includeBaseDirectory: boolean, cancellationToken?: CancellationToken): Task;
-    static CreateFromDirectoryAsync(sourceDirectoryName: string, destinationArchiveFileName: string, cancellationToken?: CancellationToken): Task;
-    static ExtractToDirectory(source: Stream, destinationDirectoryName: string, overwriteFiles: boolean): void;
-    static ExtractToDirectory(source: Stream, destinationDirectoryName: string, entryNameEncoding: Encoding, overwriteFiles: boolean): void;
-    static ExtractToDirectory(source: Stream, destinationDirectoryName: string, entryNameEncoding: Encoding): void;
-    static ExtractToDirectory(source: Stream, destinationDirectoryName: string): void;
-    static ExtractToDirectory(sourceArchiveFileName: string, destinationDirectoryName: string, overwriteFiles: boolean): void;
-    static ExtractToDirectory(sourceArchiveFileName: string, destinationDirectoryName: string, entryNameEncoding: Encoding, overwriteFiles: boolean): void;
-    static ExtractToDirectory(sourceArchiveFileName: string, destinationDirectoryName: string, entryNameEncoding: Encoding): void;
-    static ExtractToDirectory(sourceArchiveFileName: string, destinationDirectoryName: string): void;
-    static ExtractToDirectoryAsync(source: Stream, destinationDirectoryName: string, overwriteFiles: boolean, cancellationToken?: CancellationToken): Task;
-    static ExtractToDirectoryAsync(source: Stream, destinationDirectoryName: string, entryNameEncoding: Encoding, overwriteFiles: boolean, cancellationToken?: CancellationToken): Task;
-    static ExtractToDirectoryAsync(source: Stream, destinationDirectoryName: string, entryNameEncoding: Encoding, cancellationToken?: CancellationToken): Task;
-    static ExtractToDirectoryAsync(source: Stream, destinationDirectoryName: string, cancellationToken?: CancellationToken): Task;
-    static ExtractToDirectoryAsync(sourceArchiveFileName: string, destinationDirectoryName: string, overwriteFiles: boolean, cancellationToken?: CancellationToken): Task;
-    static ExtractToDirectoryAsync(sourceArchiveFileName: string, destinationDirectoryName: string, entryNameEncoding: Encoding, overwriteFiles: boolean, cancellationToken?: CancellationToken): Task;
-    static ExtractToDirectoryAsync(sourceArchiveFileName: string, destinationDirectoryName: string, entryNameEncoding: Encoding, cancellationToken?: CancellationToken): Task;
-    static ExtractToDirectoryAsync(sourceArchiveFileName: string, destinationDirectoryName: string, cancellationToken?: CancellationToken): Task;
-    static Open(archiveFileName: string, mode: ZipArchiveMode, entryNameEncoding: Encoding): ZipArchive;
-    static Open(archiveFileName: string, mode: ZipArchiveMode): ZipArchive;
-    static OpenAsync(archiveFileName: string, mode: ZipArchiveMode, entryNameEncoding: Encoding, cancellationToken?: CancellationToken): Task_1<ZipArchive>;
-    static OpenAsync(archiveFileName: string, mode: ZipArchiveMode, cancellationToken?: CancellationToken): Task_1<ZipArchive>;
-    static OpenRead(archiveFileName: string): ZipArchive;
-    static OpenReadAsync(archiveFileName: string, cancellationToken?: CancellationToken): Task_1<ZipArchive>;
+    static createFromDirectory(sourceDirectoryName: string, destination: Stream, compressionLevel: CompressionLevel, includeBaseDirectory: boolean, entryNameEncoding: Encoding): void;
+    static createFromDirectory(sourceDirectoryName: string, destination: Stream, compressionLevel: CompressionLevel, includeBaseDirectory: boolean): void;
+    static createFromDirectory(sourceDirectoryName: string, destination: Stream): void;
+    static createFromDirectory(sourceDirectoryName: string, destinationArchiveFileName: string, compressionLevel: CompressionLevel, includeBaseDirectory: boolean, entryNameEncoding: Encoding): void;
+    static createFromDirectory(sourceDirectoryName: string, destinationArchiveFileName: string, compressionLevel: CompressionLevel, includeBaseDirectory: boolean): void;
+    static createFromDirectory(sourceDirectoryName: string, destinationArchiveFileName: string): void;
+    static createFromDirectoryAsync(sourceDirectoryName: string, destination: Stream, compressionLevel: CompressionLevel, includeBaseDirectory: boolean, entryNameEncoding: Encoding, cancellationToken?: CancellationToken): Task;
+    static createFromDirectoryAsync(sourceDirectoryName: string, destination: Stream, compressionLevel: CompressionLevel, includeBaseDirectory: boolean, cancellationToken?: CancellationToken): Task;
+    static createFromDirectoryAsync(sourceDirectoryName: string, destination: Stream, cancellationToken?: CancellationToken): Task;
+    static createFromDirectoryAsync(sourceDirectoryName: string, destinationArchiveFileName: string, compressionLevel: CompressionLevel, includeBaseDirectory: boolean, entryNameEncoding: Encoding, cancellationToken?: CancellationToken): Task;
+    static createFromDirectoryAsync(sourceDirectoryName: string, destinationArchiveFileName: string, compressionLevel: CompressionLevel, includeBaseDirectory: boolean, cancellationToken?: CancellationToken): Task;
+    static createFromDirectoryAsync(sourceDirectoryName: string, destinationArchiveFileName: string, cancellationToken?: CancellationToken): Task;
+    static extractToDirectory(source: Stream, destinationDirectoryName: string, overwriteFiles: boolean): void;
+    static extractToDirectory(source: Stream, destinationDirectoryName: string, entryNameEncoding: Encoding, overwriteFiles: boolean): void;
+    static extractToDirectory(source: Stream, destinationDirectoryName: string, entryNameEncoding: Encoding): void;
+    static extractToDirectory(source: Stream, destinationDirectoryName: string): void;
+    static extractToDirectory(sourceArchiveFileName: string, destinationDirectoryName: string, overwriteFiles: boolean): void;
+    static extractToDirectory(sourceArchiveFileName: string, destinationDirectoryName: string, entryNameEncoding: Encoding, overwriteFiles: boolean): void;
+    static extractToDirectory(sourceArchiveFileName: string, destinationDirectoryName: string, entryNameEncoding: Encoding): void;
+    static extractToDirectory(sourceArchiveFileName: string, destinationDirectoryName: string): void;
+    static extractToDirectoryAsync(source: Stream, destinationDirectoryName: string, overwriteFiles: boolean, cancellationToken?: CancellationToken): Task;
+    static extractToDirectoryAsync(source: Stream, destinationDirectoryName: string, entryNameEncoding: Encoding, overwriteFiles: boolean, cancellationToken?: CancellationToken): Task;
+    static extractToDirectoryAsync(source: Stream, destinationDirectoryName: string, entryNameEncoding: Encoding, cancellationToken?: CancellationToken): Task;
+    static extractToDirectoryAsync(source: Stream, destinationDirectoryName: string, cancellationToken?: CancellationToken): Task;
+    static extractToDirectoryAsync(sourceArchiveFileName: string, destinationDirectoryName: string, overwriteFiles: boolean, cancellationToken?: CancellationToken): Task;
+    static extractToDirectoryAsync(sourceArchiveFileName: string, destinationDirectoryName: string, entryNameEncoding: Encoding, overwriteFiles: boolean, cancellationToken?: CancellationToken): Task;
+    static extractToDirectoryAsync(sourceArchiveFileName: string, destinationDirectoryName: string, entryNameEncoding: Encoding, cancellationToken?: CancellationToken): Task;
+    static extractToDirectoryAsync(sourceArchiveFileName: string, destinationDirectoryName: string, cancellationToken?: CancellationToken): Task;
+    static open(archiveFileName: string, mode: ZipArchiveMode, entryNameEncoding: Encoding): ZipArchive;
+    static open(archiveFileName: string, mode: ZipArchiveMode): ZipArchive;
+    static openAsync(archiveFileName: string, mode: ZipArchiveMode, entryNameEncoding: Encoding, cancellationToken?: CancellationToken): Task_1<ZipArchive>;
+    static openAsync(archiveFileName: string, mode: ZipArchiveMode, cancellationToken?: CancellationToken): Task_1<ZipArchive>;
+    static openRead(archiveFileName: string): ZipArchive;
+    static openReadAsync(archiveFileName: string, cancellationToken?: CancellationToken): Task_1<ZipArchive>;
 }
 
 
 export type ZipFile = ZipFile$instance;
 
 export abstract class ZipFileExtensions$instance {
-    static CreateEntryFromFile(destination: ZipArchive, sourceFileName: string, entryName: string, compressionLevel: CompressionLevel): ZipArchiveEntry;
-    static CreateEntryFromFile(destination: ZipArchive, sourceFileName: string, entryName: string): ZipArchiveEntry;
-    static CreateEntryFromFileAsync(destination: ZipArchive, sourceFileName: string, entryName: string, compressionLevel: CompressionLevel, cancellationToken?: CancellationToken): Task_1<ZipArchiveEntry>;
-    static CreateEntryFromFileAsync(destination: ZipArchive, sourceFileName: string, entryName: string, cancellationToken?: CancellationToken): Task_1<ZipArchiveEntry>;
-    static ExtractToDirectory(source: ZipArchive, destinationDirectoryName: string, overwriteFiles: boolean): void;
-    static ExtractToDirectory(source: ZipArchive, destinationDirectoryName: string): void;
-    static ExtractToDirectoryAsync(source: ZipArchive, destinationDirectoryName: string, overwriteFiles: boolean, cancellationToken?: CancellationToken): Task;
-    static ExtractToDirectoryAsync(source: ZipArchive, destinationDirectoryName: string, cancellationToken?: CancellationToken): Task;
-    static ExtractToFile(source: ZipArchiveEntry, destinationFileName: string, overwrite: boolean): void;
-    static ExtractToFile(source: ZipArchiveEntry, destinationFileName: string): void;
-    static ExtractToFileAsync(source: ZipArchiveEntry, destinationFileName: string, overwrite: boolean, cancellationToken?: CancellationToken): Task;
-    static ExtractToFileAsync(source: ZipArchiveEntry, destinationFileName: string, cancellationToken?: CancellationToken): Task;
+    static createEntryFromFile(destination: ZipArchive, sourceFileName: string, entryName: string, compressionLevel: CompressionLevel): ZipArchiveEntry;
+    static createEntryFromFile(destination: ZipArchive, sourceFileName: string, entryName: string): ZipArchiveEntry;
+    static createEntryFromFileAsync(destination: ZipArchive, sourceFileName: string, entryName: string, compressionLevel: CompressionLevel, cancellationToken?: CancellationToken): Task_1<ZipArchiveEntry>;
+    static createEntryFromFileAsync(destination: ZipArchive, sourceFileName: string, entryName: string, cancellationToken?: CancellationToken): Task_1<ZipArchiveEntry>;
+    static extractToDirectory(source: ZipArchive, destinationDirectoryName: string, overwriteFiles: boolean): void;
+    static extractToDirectory(source: ZipArchive, destinationDirectoryName: string): void;
+    static extractToDirectoryAsync(source: ZipArchive, destinationDirectoryName: string, overwriteFiles: boolean, cancellationToken?: CancellationToken): Task;
+    static extractToDirectoryAsync(source: ZipArchive, destinationDirectoryName: string, cancellationToken?: CancellationToken): Task;
+    static extractToFile(source: ZipArchiveEntry, destinationFileName: string, overwrite: boolean): void;
+    static extractToFile(source: ZipArchiveEntry, destinationFileName: string): void;
+    static extractToFileAsync(source: ZipArchiveEntry, destinationFileName: string, overwrite: boolean, cancellationToken?: CancellationToken): Task;
+    static extractToFileAsync(source: ZipArchiveEntry, destinationFileName: string, cancellationToken?: CancellationToken): Task;
 }
 
 
