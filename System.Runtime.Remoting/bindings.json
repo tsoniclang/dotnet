@@ -11,7 +11,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Remoting.ObjectHandle::Unwrap():System.Object",
           "clrName": "Unwrap",
-          "tsEmitName": "unwrap",
+          "tsEmitName": "Unwrap",
           "metadataToken": 100682761,
           "canonicalSignature": "():System.Object",
           "normalizedSignature": "Unwrap|():System.Object|static=false",
@@ -40,7 +40,7 @@
       ],
       "exposedMethods": [
         {
-          "tsName": "unwrap",
+          "tsName": "Unwrap",
           "isStatic": false,
           "tsSignatureId": "Unwrap|():System.Object|static=false",
           "target": {
@@ -50,7 +50,7 @@
           }
         },
         {
-          "tsName": "getLifetimeService",
+          "tsName": "GetLifetimeService",
           "isStatic": false,
           "tsSignatureId": "GetLifetimeService|():System.Object|static=false",
           "target": {
@@ -60,7 +60,7 @@
           }
         },
         {
-          "tsName": "initializeLifetimeService",
+          "tsName": "InitializeLifetimeService",
           "isStatic": false,
           "tsSignatureId": "InitializeLifetimeService|():System.Object|static=false",
           "target": {
@@ -70,7 +70,7 @@
           }
         },
         {
-          "tsName": "getType",
+          "tsName": "GetType",
           "isStatic": false,
           "tsSignatureId": "GetType|():System.Type|static=false",
           "target": {
@@ -80,7 +80,7 @@
           }
         },
         {
-          "tsName": "toString",
+          "tsName": "ToString",
           "isStatic": false,
           "tsSignatureId": "ToString|():System.String|static=false",
           "target": {
@@ -90,7 +90,7 @@
           }
         },
         {
-          "tsName": "equals",
+          "tsName": "Equals",
           "isStatic": false,
           "tsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
           "target": {
@@ -100,7 +100,7 @@
           }
         },
         {
-          "tsName": "equals",
+          "tsName": "Equals",
           "isStatic": true,
           "tsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
           "target": {
@@ -110,7 +110,7 @@
           }
         },
         {
-          "tsName": "referenceEquals",
+          "tsName": "ReferenceEquals",
           "isStatic": true,
           "tsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
           "target": {
@@ -120,7 +120,7 @@
           }
         },
         {
-          "tsName": "getHashCode",
+          "tsName": "GetHashCode",
           "isStatic": false,
           "tsSignatureId": "GetHashCode|():System.Int32|static=false",
           "target": {

@@ -11,7 +11,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.Json.IXmlJsonReaderInitializer::SetInput(System.Byte[],System.Int32,System.Int32,System.Text.Encoding,System.Xml.XmlDictionaryReaderQuotas,System.Xml.OnXmlDictionaryReaderClose):System.Void",
           "clrName": "SetInput",
-          "tsEmitName": "setInput",
+          "tsEmitName": "SetInput",
           "metadataToken": 100666980,
           "canonicalSignature": "(System.Byte[],System.Int32,System.Int32,System.Text.Encoding,System.Xml.XmlDictionaryReaderQuotas,System.Xml.OnXmlDictionaryReaderClose):System.Void",
           "normalizedSignature": "SetInput|(System.Byte[],System.Int32,System.Int32,System.Text.Encoding,System.Xml.XmlDictionaryReaderQuotas,System.Xml.OnXmlDictionaryReaderClose):System.Void|static=false",
@@ -25,7 +25,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.Json.IXmlJsonReaderInitializer::SetInput(System.IO.Stream,System.Text.Encoding,System.Xml.XmlDictionaryReaderQuotas,System.Xml.OnXmlDictionaryReaderClose):System.Void",
           "clrName": "SetInput",
-          "tsEmitName": "setInput2",
+          "tsEmitName": "SetInput2",
           "metadataToken": 100666981,
           "canonicalSignature": "(System.IO.Stream,System.Text.Encoding,System.Xml.XmlDictionaryReaderQuotas,System.Xml.OnXmlDictionaryReaderClose):System.Void",
           "normalizedSignature": "SetInput|(System.IO.Stream,System.Text.Encoding,System.Xml.XmlDictionaryReaderQuotas,System.Xml.OnXmlDictionaryReaderClose):System.Void|static=false",
@@ -43,7 +43,7 @@
       "constructors": [],
       "exposedMethods": [
         {
-          "tsName": "setInput",
+          "tsName": "SetInput",
           "isStatic": false,
           "tsSignatureId": "SetInput|(System.Byte[],System.Int32,System.Int32,System.Text.Encoding,System.Xml.XmlDictionaryReaderQuotas,System.Xml.OnXmlDictionaryReaderClose):System.Void|static=false",
           "target": {
@@ -53,7 +53,7 @@
           }
         },
         {
-          "tsName": "setInput2",
+          "tsName": "SetInput2",
           "isStatic": false,
           "tsSignatureId": "SetInput|(System.IO.Stream,System.Text.Encoding,System.Xml.XmlDictionaryReaderQuotas,System.Xml.OnXmlDictionaryReaderClose):System.Void|static=false",
           "target": {
@@ -74,7 +74,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.Json.IXmlJsonWriterInitializer::SetOutput(System.IO.Stream,System.Text.Encoding,System.Boolean):System.Void",
           "clrName": "SetOutput",
-          "tsEmitName": "setOutput",
+          "tsEmitName": "SetOutput",
           "metadataToken": 100666982,
           "canonicalSignature": "(System.IO.Stream,System.Text.Encoding,System.Boolean):System.Void",
           "normalizedSignature": "SetOutput|(System.IO.Stream,System.Text.Encoding,System.Boolean):System.Void|static=false",
@@ -92,7 +92,7 @@
       "constructors": [],
       "exposedMethods": [
         {
-          "tsName": "setOutput",
+          "tsName": "SetOutput",
           "isStatic": false,
           "tsSignatureId": "SetOutput|(System.IO.Stream,System.Text.Encoding,System.Boolean):System.Void|static=false",
           "target": {
@@ -113,7 +113,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.Json.DataContractJsonSerializer::GetSerializationSurrogateProvider():System.Runtime.Serialization.ISerializationSurrogateProvider",
           "clrName": "GetSerializationSurrogateProvider",
-          "tsEmitName": "getSerializationSurrogateProvider",
+          "tsEmitName": "GetSerializationSurrogateProvider",
           "metadataToken": 100666920,
           "canonicalSignature": "():System.Runtime.Serialization.ISerializationSurrogateProvider",
           "normalizedSignature": "GetSerializationSurrogateProvider|():System.Runtime.Serialization.ISerializationSurrogateProvider|static=false",
@@ -127,7 +127,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.Json.DataContractJsonSerializer::SetSerializationSurrogateProvider(System.Runtime.Serialization.ISerializationSurrogateProvider):System.Void",
           "clrName": "SetSerializationSurrogateProvider",
-          "tsEmitName": "setSerializationSurrogateProvider",
+          "tsEmitName": "SetSerializationSurrogateProvider",
           "metadataToken": 100666921,
           "canonicalSignature": "(System.Runtime.Serialization.ISerializationSurrogateProvider):System.Void",
           "normalizedSignature": "SetSerializationSurrogateProvider|(System.Runtime.Serialization.ISerializationSurrogateProvider):System.Void|static=false",
@@ -141,7 +141,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.Json.DataContractJsonSerializer::IsStartObject(System.Xml.XmlReader):System.Boolean",
           "clrName": "IsStartObject",
-          "tsEmitName": "isStartObject",
+          "tsEmitName": "IsStartObject",
           "metadataToken": 100666922,
           "canonicalSignature": "(System.Xml.XmlReader):System.Boolean",
           "normalizedSignature": "IsStartObject|(System.Xml.XmlReader):System.Boolean|static=false",
@@ -155,7 +155,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.Json.DataContractJsonSerializer::IsStartObject(System.Xml.XmlDictionaryReader):System.Boolean",
           "clrName": "IsStartObject",
-          "tsEmitName": "isStartObject2",
+          "tsEmitName": "IsStartObject2",
           "metadataToken": 100666923,
           "canonicalSignature": "(System.Xml.XmlDictionaryReader):System.Boolean",
           "normalizedSignature": "IsStartObject|(System.Xml.XmlDictionaryReader):System.Boolean|static=false",
@@ -169,7 +169,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.Json.DataContractJsonSerializer::ReadObject(System.IO.Stream):System.Object",
           "clrName": "ReadObject",
-          "tsEmitName": "readObject",
+          "tsEmitName": "ReadObject",
           "metadataToken": 100666924,
           "canonicalSignature": "(System.IO.Stream):System.Object",
           "normalizedSignature": "ReadObject|(System.IO.Stream):System.Object|static=false",
@@ -183,7 +183,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.Json.DataContractJsonSerializer::ReadObject(System.Xml.XmlReader):System.Object",
           "clrName": "ReadObject",
-          "tsEmitName": "readObject2",
+          "tsEmitName": "ReadObject2",
           "metadataToken": 100666925,
           "canonicalSignature": "(System.Xml.XmlReader):System.Object",
           "normalizedSignature": "ReadObject|(System.Xml.XmlReader):System.Object|static=false",
@@ -197,7 +197,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.Json.DataContractJsonSerializer::ReadObject(System.Xml.XmlReader,System.Boolean):System.Object",
           "clrName": "ReadObject",
-          "tsEmitName": "readObject3",
+          "tsEmitName": "ReadObject3",
           "metadataToken": 100666926,
           "canonicalSignature": "(System.Xml.XmlReader,System.Boolean):System.Object",
           "normalizedSignature": "ReadObject|(System.Xml.XmlReader,System.Boolean):System.Object|static=false",
@@ -211,7 +211,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.Json.DataContractJsonSerializer::ReadObject(System.Xml.XmlDictionaryReader):System.Object",
           "clrName": "ReadObject",
-          "tsEmitName": "readObject4",
+          "tsEmitName": "ReadObject4",
           "metadataToken": 100666927,
           "canonicalSignature": "(System.Xml.XmlDictionaryReader):System.Object",
           "normalizedSignature": "ReadObject|(System.Xml.XmlDictionaryReader):System.Object|static=false",
@@ -225,7 +225,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.Json.DataContractJsonSerializer::ReadObject(System.Xml.XmlDictionaryReader,System.Boolean):System.Object",
           "clrName": "ReadObject",
-          "tsEmitName": "readObject5",
+          "tsEmitName": "ReadObject5",
           "metadataToken": 100666928,
           "canonicalSignature": "(System.Xml.XmlDictionaryReader,System.Boolean):System.Object",
           "normalizedSignature": "ReadObject|(System.Xml.XmlDictionaryReader,System.Boolean):System.Object|static=false",
@@ -239,7 +239,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.Json.DataContractJsonSerializer::WriteEndObject(System.Xml.XmlWriter):System.Void",
           "clrName": "WriteEndObject",
-          "tsEmitName": "writeEndObject",
+          "tsEmitName": "WriteEndObject",
           "metadataToken": 100666929,
           "canonicalSignature": "(System.Xml.XmlWriter):System.Void",
           "normalizedSignature": "WriteEndObject|(System.Xml.XmlWriter):System.Void|static=false",
@@ -253,7 +253,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.Json.DataContractJsonSerializer::WriteEndObject(System.Xml.XmlDictionaryWriter):System.Void",
           "clrName": "WriteEndObject",
-          "tsEmitName": "writeEndObject2",
+          "tsEmitName": "WriteEndObject2",
           "metadataToken": 100666930,
           "canonicalSignature": "(System.Xml.XmlDictionaryWriter):System.Void",
           "normalizedSignature": "WriteEndObject|(System.Xml.XmlDictionaryWriter):System.Void|static=false",
@@ -267,7 +267,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.Json.DataContractJsonSerializer::WriteObject(System.IO.Stream,System.Object):System.Void",
           "clrName": "WriteObject",
-          "tsEmitName": "writeObject",
+          "tsEmitName": "WriteObject",
           "metadataToken": 100666931,
           "canonicalSignature": "(System.IO.Stream,System.Object):System.Void",
           "normalizedSignature": "WriteObject|(System.IO.Stream,System.Object):System.Void|static=false",
@@ -281,7 +281,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.Json.DataContractJsonSerializer::WriteObject(System.Xml.XmlWriter,System.Object):System.Void",
           "clrName": "WriteObject",
-          "tsEmitName": "writeObject2",
+          "tsEmitName": "WriteObject2",
           "metadataToken": 100666932,
           "canonicalSignature": "(System.Xml.XmlWriter,System.Object):System.Void",
           "normalizedSignature": "WriteObject|(System.Xml.XmlWriter,System.Object):System.Void|static=false",
@@ -295,7 +295,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.Json.DataContractJsonSerializer::WriteObject(System.Xml.XmlDictionaryWriter,System.Object):System.Void",
           "clrName": "WriteObject",
-          "tsEmitName": "writeObject3",
+          "tsEmitName": "WriteObject3",
           "metadataToken": 100666933,
           "canonicalSignature": "(System.Xml.XmlDictionaryWriter,System.Object):System.Void",
           "normalizedSignature": "WriteObject|(System.Xml.XmlDictionaryWriter,System.Object):System.Void|static=false",
@@ -309,7 +309,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.Json.DataContractJsonSerializer::WriteObjectContent(System.Xml.XmlWriter,System.Object):System.Void",
           "clrName": "WriteObjectContent",
-          "tsEmitName": "writeObjectContent",
+          "tsEmitName": "WriteObjectContent",
           "metadataToken": 100666934,
           "canonicalSignature": "(System.Xml.XmlWriter,System.Object):System.Void",
           "normalizedSignature": "WriteObjectContent|(System.Xml.XmlWriter,System.Object):System.Void|static=false",
@@ -323,7 +323,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.Json.DataContractJsonSerializer::WriteObjectContent(System.Xml.XmlDictionaryWriter,System.Object):System.Void",
           "clrName": "WriteObjectContent",
-          "tsEmitName": "writeObjectContent2",
+          "tsEmitName": "WriteObjectContent2",
           "metadataToken": 100666935,
           "canonicalSignature": "(System.Xml.XmlDictionaryWriter,System.Object):System.Void",
           "normalizedSignature": "WriteObjectContent|(System.Xml.XmlDictionaryWriter,System.Object):System.Void|static=false",
@@ -337,7 +337,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.Json.DataContractJsonSerializer::WriteStartObject(System.Xml.XmlWriter,System.Object):System.Void",
           "clrName": "WriteStartObject",
-          "tsEmitName": "writeStartObject",
+          "tsEmitName": "WriteStartObject",
           "metadataToken": 100666936,
           "canonicalSignature": "(System.Xml.XmlWriter,System.Object):System.Void",
           "normalizedSignature": "WriteStartObject|(System.Xml.XmlWriter,System.Object):System.Void|static=false",
@@ -351,7 +351,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.Json.DataContractJsonSerializer::WriteStartObject(System.Xml.XmlDictionaryWriter,System.Object):System.Void",
           "clrName": "WriteStartObject",
-          "tsEmitName": "writeStartObject2",
+          "tsEmitName": "WriteStartObject2",
           "metadataToken": 100666937,
           "canonicalSignature": "(System.Xml.XmlDictionaryWriter,System.Object):System.Void",
           "normalizedSignature": "WriteStartObject|(System.Xml.XmlDictionaryWriter,System.Object):System.Void|static=false",
@@ -367,7 +367,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.Json.DataContractJsonSerializer::IgnoreExtensionDataObject:System.Boolean",
           "clrName": "IgnoreExtensionDataObject",
-          "tsEmitName": "ignoreExtensionDataObject",
+          "tsEmitName": "IgnoreExtensionDataObject",
           "metadataToken": 385876922,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "IgnoreExtensionDataObject|:System.Boolean|static=false|accessor=get",
@@ -381,7 +381,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.Json.DataContractJsonSerializer::KnownTypes:System.Collections.ObjectModel.ReadOnlyCollection_1[[System.Type,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "KnownTypes",
-          "tsEmitName": "knownTypes",
+          "tsEmitName": "KnownTypes",
           "metadataToken": 385876923,
           "canonicalSignature": ":System.Collections.ObjectModel.ReadOnlyCollection_1[[System.Type,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "normalizedSignature": "KnownTypes|:System.Collections.ObjectModel.ReadOnlyCollection_1[[System.Type,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=get",
@@ -395,7 +395,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.Json.DataContractJsonSerializer::MaxItemsInObjectGraph:System.Int32",
           "clrName": "MaxItemsInObjectGraph",
-          "tsEmitName": "maxItemsInObjectGraph",
+          "tsEmitName": "MaxItemsInObjectGraph",
           "metadataToken": 385876925,
           "canonicalSignature": ":System.Int32",
           "normalizedSignature": "MaxItemsInObjectGraph|:System.Int32|static=false|accessor=get",
@@ -409,7 +409,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.Json.DataContractJsonSerializer::DateTimeFormat:System.Runtime.Serialization.DateTimeFormat",
           "clrName": "DateTimeFormat",
-          "tsEmitName": "dateTimeFormat",
+          "tsEmitName": "DateTimeFormat",
           "metadataToken": 385876926,
           "canonicalSignature": ":System.Runtime.Serialization.DateTimeFormat",
           "normalizedSignature": "DateTimeFormat|:System.Runtime.Serialization.DateTimeFormat|static=false|accessor=get",
@@ -423,7 +423,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.Json.DataContractJsonSerializer::EmitTypeInformation:System.Runtime.Serialization.EmitTypeInformation",
           "clrName": "EmitTypeInformation",
-          "tsEmitName": "emitTypeInformation",
+          "tsEmitName": "EmitTypeInformation",
           "metadataToken": 385876927,
           "canonicalSignature": ":System.Runtime.Serialization.EmitTypeInformation",
           "normalizedSignature": "EmitTypeInformation|:System.Runtime.Serialization.EmitTypeInformation|static=false|accessor=get",
@@ -437,7 +437,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.Json.DataContractJsonSerializer::SerializeReadOnlyTypes:System.Boolean",
           "clrName": "SerializeReadOnlyTypes",
-          "tsEmitName": "serializeReadOnlyTypes",
+          "tsEmitName": "SerializeReadOnlyTypes",
           "metadataToken": 385876928,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "SerializeReadOnlyTypes|:System.Boolean|static=false|accessor=get",
@@ -451,7 +451,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.Json.DataContractJsonSerializer::UseSimpleDictionaryFormat:System.Boolean",
           "clrName": "UseSimpleDictionaryFormat",
-          "tsEmitName": "useSimpleDictionaryFormat",
+          "tsEmitName": "UseSimpleDictionaryFormat",
           "metadataToken": 385876929,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "UseSimpleDictionaryFormat|:System.Boolean|static=false|accessor=get",
@@ -539,7 +539,7 @@
       ],
       "exposedMethods": [
         {
-          "tsName": "getSerializationSurrogateProvider",
+          "tsName": "GetSerializationSurrogateProvider",
           "isStatic": false,
           "tsSignatureId": "GetSerializationSurrogateProvider|():System.Runtime.Serialization.ISerializationSurrogateProvider|static=false",
           "target": {
@@ -549,7 +549,7 @@
           }
         },
         {
-          "tsName": "setSerializationSurrogateProvider",
+          "tsName": "SetSerializationSurrogateProvider",
           "isStatic": false,
           "tsSignatureId": "SetSerializationSurrogateProvider|(System.Runtime.Serialization.ISerializationSurrogateProvider):System.Void|static=false",
           "target": {
@@ -559,7 +559,7 @@
           }
         },
         {
-          "tsName": "isStartObject",
+          "tsName": "IsStartObject",
           "isStatic": false,
           "tsSignatureId": "IsStartObject|(System.Xml.XmlReader):System.Boolean|static=false",
           "target": {
@@ -569,7 +569,7 @@
           }
         },
         {
-          "tsName": "isStartObject2",
+          "tsName": "IsStartObject2",
           "isStatic": false,
           "tsSignatureId": "IsStartObject|(System.Xml.XmlDictionaryReader):System.Boolean|static=false",
           "target": {
@@ -579,7 +579,7 @@
           }
         },
         {
-          "tsName": "readObject",
+          "tsName": "ReadObject",
           "isStatic": false,
           "tsSignatureId": "ReadObject|(System.IO.Stream):System.Object|static=false",
           "target": {
@@ -589,7 +589,7 @@
           }
         },
         {
-          "tsName": "readObject2",
+          "tsName": "ReadObject2",
           "isStatic": false,
           "tsSignatureId": "ReadObject|(System.Xml.XmlReader):System.Object|static=false",
           "target": {
@@ -599,7 +599,7 @@
           }
         },
         {
-          "tsName": "readObject3",
+          "tsName": "ReadObject3",
           "isStatic": false,
           "tsSignatureId": "ReadObject|(System.Xml.XmlReader,System.Boolean):System.Object|static=false",
           "target": {
@@ -609,7 +609,7 @@
           }
         },
         {
-          "tsName": "readObject4",
+          "tsName": "ReadObject4",
           "isStatic": false,
           "tsSignatureId": "ReadObject|(System.Xml.XmlDictionaryReader):System.Object|static=false",
           "target": {
@@ -619,7 +619,7 @@
           }
         },
         {
-          "tsName": "readObject5",
+          "tsName": "ReadObject5",
           "isStatic": false,
           "tsSignatureId": "ReadObject|(System.Xml.XmlDictionaryReader,System.Boolean):System.Object|static=false",
           "target": {
@@ -629,7 +629,7 @@
           }
         },
         {
-          "tsName": "writeEndObject",
+          "tsName": "WriteEndObject",
           "isStatic": false,
           "tsSignatureId": "WriteEndObject|(System.Xml.XmlWriter):System.Void|static=false",
           "target": {
@@ -639,7 +639,7 @@
           }
         },
         {
-          "tsName": "writeEndObject2",
+          "tsName": "WriteEndObject2",
           "isStatic": false,
           "tsSignatureId": "WriteEndObject|(System.Xml.XmlDictionaryWriter):System.Void|static=false",
           "target": {
@@ -649,7 +649,7 @@
           }
         },
         {
-          "tsName": "writeObject",
+          "tsName": "WriteObject",
           "isStatic": false,
           "tsSignatureId": "WriteObject|(System.IO.Stream,System.Object):System.Void|static=false",
           "target": {
@@ -659,7 +659,7 @@
           }
         },
         {
-          "tsName": "writeObject2",
+          "tsName": "WriteObject2",
           "isStatic": false,
           "tsSignatureId": "WriteObject|(System.Xml.XmlWriter,System.Object):System.Void|static=false",
           "target": {
@@ -669,7 +669,7 @@
           }
         },
         {
-          "tsName": "writeObject3",
+          "tsName": "WriteObject3",
           "isStatic": false,
           "tsSignatureId": "WriteObject|(System.Xml.XmlDictionaryWriter,System.Object):System.Void|static=false",
           "target": {
@@ -679,7 +679,7 @@
           }
         },
         {
-          "tsName": "writeObjectContent",
+          "tsName": "WriteObjectContent",
           "isStatic": false,
           "tsSignatureId": "WriteObjectContent|(System.Xml.XmlWriter,System.Object):System.Void|static=false",
           "target": {
@@ -689,7 +689,7 @@
           }
         },
         {
-          "tsName": "writeObjectContent2",
+          "tsName": "WriteObjectContent2",
           "isStatic": false,
           "tsSignatureId": "WriteObjectContent|(System.Xml.XmlDictionaryWriter,System.Object):System.Void|static=false",
           "target": {
@@ -699,7 +699,7 @@
           }
         },
         {
-          "tsName": "writeStartObject",
+          "tsName": "WriteStartObject",
           "isStatic": false,
           "tsSignatureId": "WriteStartObject|(System.Xml.XmlWriter,System.Object):System.Void|static=false",
           "target": {
@@ -709,7 +709,7 @@
           }
         },
         {
-          "tsName": "writeStartObject2",
+          "tsName": "WriteStartObject2",
           "isStatic": false,
           "tsSignatureId": "WriteStartObject|(System.Xml.XmlDictionaryWriter,System.Object):System.Void|static=false",
           "target": {
@@ -719,7 +719,7 @@
           }
         },
         {
-          "tsName": "getType",
+          "tsName": "GetType",
           "isStatic": false,
           "tsSignatureId": "GetType|():System.Type|static=false",
           "target": {
@@ -729,7 +729,7 @@
           }
         },
         {
-          "tsName": "toString",
+          "tsName": "ToString",
           "isStatic": false,
           "tsSignatureId": "ToString|():System.String|static=false",
           "target": {
@@ -739,7 +739,7 @@
           }
         },
         {
-          "tsName": "equals",
+          "tsName": "Equals",
           "isStatic": false,
           "tsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
           "target": {
@@ -749,7 +749,7 @@
           }
         },
         {
-          "tsName": "equals",
+          "tsName": "Equals",
           "isStatic": true,
           "tsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
           "target": {
@@ -759,7 +759,7 @@
           }
         },
         {
-          "tsName": "referenceEquals",
+          "tsName": "ReferenceEquals",
           "isStatic": true,
           "tsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
           "target": {
@@ -769,7 +769,7 @@
           }
         },
         {
-          "tsName": "getHashCode",
+          "tsName": "GetHashCode",
           "isStatic": false,
           "tsSignatureId": "GetHashCode|():System.Int32|static=false",
           "target": {
@@ -781,7 +781,7 @@
       ],
       "exposedProperties": [
         {
-          "tsName": "ignoreExtensionDataObject",
+          "tsName": "IgnoreExtensionDataObject",
           "isStatic": false,
           "tsSignatureId": "IgnoreExtensionDataObject|:System.Boolean|static=false|accessor=get",
           "target": {
@@ -791,7 +791,7 @@
           }
         },
         {
-          "tsName": "knownTypes",
+          "tsName": "KnownTypes",
           "isStatic": false,
           "tsSignatureId": "KnownTypes|:System.Collections.ObjectModel.ReadOnlyCollection_1[[System.Type,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=get",
           "target": {
@@ -801,7 +801,7 @@
           }
         },
         {
-          "tsName": "maxItemsInObjectGraph",
+          "tsName": "MaxItemsInObjectGraph",
           "isStatic": false,
           "tsSignatureId": "MaxItemsInObjectGraph|:System.Int32|static=false|accessor=get",
           "target": {
@@ -811,7 +811,7 @@
           }
         },
         {
-          "tsName": "dateTimeFormat",
+          "tsName": "DateTimeFormat",
           "isStatic": false,
           "tsSignatureId": "DateTimeFormat|:System.Runtime.Serialization.DateTimeFormat|static=false|accessor=get",
           "target": {
@@ -821,7 +821,7 @@
           }
         },
         {
-          "tsName": "emitTypeInformation",
+          "tsName": "EmitTypeInformation",
           "isStatic": false,
           "tsSignatureId": "EmitTypeInformation|:System.Runtime.Serialization.EmitTypeInformation|static=false|accessor=get",
           "target": {
@@ -831,7 +831,7 @@
           }
         },
         {
-          "tsName": "serializeReadOnlyTypes",
+          "tsName": "SerializeReadOnlyTypes",
           "isStatic": false,
           "tsSignatureId": "SerializeReadOnlyTypes|:System.Boolean|static=false|accessor=get",
           "target": {
@@ -841,7 +841,7 @@
           }
         },
         {
-          "tsName": "useSimpleDictionaryFormat",
+          "tsName": "UseSimpleDictionaryFormat",
           "isStatic": false,
           "tsSignatureId": "UseSimpleDictionaryFormat|:System.Boolean|static=false|accessor=get",
           "target": {
@@ -928,7 +928,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.Json.DataContractJsonSerializerSettings::RootName:System.String",
           "clrName": "RootName",
-          "tsEmitName": "rootName",
+          "tsEmitName": "RootName",
           "metadataToken": 385876932,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "RootName|:System.String|static=false|accessor=getset",
@@ -942,7 +942,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.Json.DataContractJsonSerializerSettings::KnownTypes:System.Collections.Generic.IEnumerable_1[[System.Type,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "KnownTypes",
-          "tsEmitName": "knownTypes",
+          "tsEmitName": "KnownTypes",
           "metadataToken": 385876933,
           "canonicalSignature": ":System.Collections.Generic.IEnumerable_1[[System.Type,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "normalizedSignature": "KnownTypes|:System.Collections.Generic.IEnumerable_1[[System.Type,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=getset",
@@ -956,7 +956,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.Json.DataContractJsonSerializerSettings::MaxItemsInObjectGraph:System.Int32",
           "clrName": "MaxItemsInObjectGraph",
-          "tsEmitName": "maxItemsInObjectGraph",
+          "tsEmitName": "MaxItemsInObjectGraph",
           "metadataToken": 385876934,
           "canonicalSignature": ":System.Int32",
           "normalizedSignature": "MaxItemsInObjectGraph|:System.Int32|static=false|accessor=getset",
@@ -970,7 +970,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.Json.DataContractJsonSerializerSettings::IgnoreExtensionDataObject:System.Boolean",
           "clrName": "IgnoreExtensionDataObject",
-          "tsEmitName": "ignoreExtensionDataObject",
+          "tsEmitName": "IgnoreExtensionDataObject",
           "metadataToken": 385876935,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "IgnoreExtensionDataObject|:System.Boolean|static=false|accessor=getset",
@@ -984,7 +984,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.Json.DataContractJsonSerializerSettings::EmitTypeInformation:System.Runtime.Serialization.EmitTypeInformation",
           "clrName": "EmitTypeInformation",
-          "tsEmitName": "emitTypeInformation",
+          "tsEmitName": "EmitTypeInformation",
           "metadataToken": 385876936,
           "canonicalSignature": ":System.Runtime.Serialization.EmitTypeInformation",
           "normalizedSignature": "EmitTypeInformation|:System.Runtime.Serialization.EmitTypeInformation|static=false|accessor=getset",
@@ -998,7 +998,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.Json.DataContractJsonSerializerSettings::DateTimeFormat:System.Runtime.Serialization.DateTimeFormat",
           "clrName": "DateTimeFormat",
-          "tsEmitName": "dateTimeFormat",
+          "tsEmitName": "DateTimeFormat",
           "metadataToken": 385876937,
           "canonicalSignature": ":System.Runtime.Serialization.DateTimeFormat",
           "normalizedSignature": "DateTimeFormat|:System.Runtime.Serialization.DateTimeFormat|static=false|accessor=getset",
@@ -1012,7 +1012,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.Json.DataContractJsonSerializerSettings::SerializeReadOnlyTypes:System.Boolean",
           "clrName": "SerializeReadOnlyTypes",
-          "tsEmitName": "serializeReadOnlyTypes",
+          "tsEmitName": "SerializeReadOnlyTypes",
           "metadataToken": 385876938,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "SerializeReadOnlyTypes|:System.Boolean|static=false|accessor=getset",
@@ -1026,7 +1026,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.Json.DataContractJsonSerializerSettings::UseSimpleDictionaryFormat:System.Boolean",
           "clrName": "UseSimpleDictionaryFormat",
-          "tsEmitName": "useSimpleDictionaryFormat",
+          "tsEmitName": "UseSimpleDictionaryFormat",
           "metadataToken": 385876939,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "UseSimpleDictionaryFormat|:System.Boolean|static=false|accessor=getset",
@@ -1054,7 +1054,7 @@
       ],
       "exposedMethods": [
         {
-          "tsName": "getType",
+          "tsName": "GetType",
           "isStatic": false,
           "tsSignatureId": "GetType|():System.Type|static=false",
           "target": {
@@ -1064,7 +1064,7 @@
           }
         },
         {
-          "tsName": "toString",
+          "tsName": "ToString",
           "isStatic": false,
           "tsSignatureId": "ToString|():System.String|static=false",
           "target": {
@@ -1074,7 +1074,7 @@
           }
         },
         {
-          "tsName": "equals",
+          "tsName": "Equals",
           "isStatic": false,
           "tsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
           "target": {
@@ -1084,7 +1084,7 @@
           }
         },
         {
-          "tsName": "equals",
+          "tsName": "Equals",
           "isStatic": true,
           "tsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
           "target": {
@@ -1094,7 +1094,7 @@
           }
         },
         {
-          "tsName": "referenceEquals",
+          "tsName": "ReferenceEquals",
           "isStatic": true,
           "tsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
           "target": {
@@ -1104,7 +1104,7 @@
           }
         },
         {
-          "tsName": "getHashCode",
+          "tsName": "GetHashCode",
           "isStatic": false,
           "tsSignatureId": "GetHashCode|():System.Int32|static=false",
           "target": {
@@ -1116,7 +1116,7 @@
       ],
       "exposedProperties": [
         {
-          "tsName": "rootName",
+          "tsName": "RootName",
           "isStatic": false,
           "tsSignatureId": "RootName|:System.String|static=false|accessor=getset",
           "target": {
@@ -1126,7 +1126,7 @@
           }
         },
         {
-          "tsName": "knownTypes",
+          "tsName": "KnownTypes",
           "isStatic": false,
           "tsSignatureId": "KnownTypes|:System.Collections.Generic.IEnumerable_1[[System.Type,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=getset",
           "target": {
@@ -1136,7 +1136,7 @@
           }
         },
         {
-          "tsName": "maxItemsInObjectGraph",
+          "tsName": "MaxItemsInObjectGraph",
           "isStatic": false,
           "tsSignatureId": "MaxItemsInObjectGraph|:System.Int32|static=false|accessor=getset",
           "target": {
@@ -1146,7 +1146,7 @@
           }
         },
         {
-          "tsName": "ignoreExtensionDataObject",
+          "tsName": "IgnoreExtensionDataObject",
           "isStatic": false,
           "tsSignatureId": "IgnoreExtensionDataObject|:System.Boolean|static=false|accessor=getset",
           "target": {
@@ -1156,7 +1156,7 @@
           }
         },
         {
-          "tsName": "emitTypeInformation",
+          "tsName": "EmitTypeInformation",
           "isStatic": false,
           "tsSignatureId": "EmitTypeInformation|:System.Runtime.Serialization.EmitTypeInformation|static=false|accessor=getset",
           "target": {
@@ -1166,7 +1166,7 @@
           }
         },
         {
-          "tsName": "dateTimeFormat",
+          "tsName": "DateTimeFormat",
           "isStatic": false,
           "tsSignatureId": "DateTimeFormat|:System.Runtime.Serialization.DateTimeFormat|static=false|accessor=getset",
           "target": {
@@ -1176,7 +1176,7 @@
           }
         },
         {
-          "tsName": "serializeReadOnlyTypes",
+          "tsName": "SerializeReadOnlyTypes",
           "isStatic": false,
           "tsSignatureId": "SerializeReadOnlyTypes|:System.Boolean|static=false|accessor=getset",
           "target": {
@@ -1186,7 +1186,7 @@
           }
         },
         {
-          "tsName": "useSimpleDictionaryFormat",
+          "tsName": "UseSimpleDictionaryFormat",
           "isStatic": false,
           "tsSignatureId": "UseSimpleDictionaryFormat|:System.Boolean|static=false|accessor=getset",
           "target": {
@@ -1218,7 +1218,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.Json.DataContractJsonSerializerExtensions::GetSerializationSurrogateProvider(System.Runtime.Serialization.Json.DataContractJsonSerializer):System.Runtime.Serialization.ISerializationSurrogateProvider",
           "clrName": "GetSerializationSurrogateProvider",
-          "tsEmitName": "getSerializationSurrogateProvider",
+          "tsEmitName": "GetSerializationSurrogateProvider",
           "metadataToken": 100666961,
           "canonicalSignature": "(System.Runtime.Serialization.Json.DataContractJsonSerializer):System.Runtime.Serialization.ISerializationSurrogateProvider",
           "normalizedSignature": "GetSerializationSurrogateProvider|(System.Runtime.Serialization.Json.DataContractJsonSerializer):System.Runtime.Serialization.ISerializationSurrogateProvider|static=true",
@@ -1232,7 +1232,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.Json.DataContractJsonSerializerExtensions::SetSerializationSurrogateProvider(System.Runtime.Serialization.Json.DataContractJsonSerializer,System.Runtime.Serialization.ISerializationSurrogateProvider):System.Void",
           "clrName": "SetSerializationSurrogateProvider",
-          "tsEmitName": "setSerializationSurrogateProvider",
+          "tsEmitName": "SetSerializationSurrogateProvider",
           "metadataToken": 100666962,
           "canonicalSignature": "(System.Runtime.Serialization.Json.DataContractJsonSerializer,System.Runtime.Serialization.ISerializationSurrogateProvider):System.Void",
           "normalizedSignature": "SetSerializationSurrogateProvider|(System.Runtime.Serialization.Json.DataContractJsonSerializer,System.Runtime.Serialization.ISerializationSurrogateProvider):System.Void|static=true",
@@ -1250,7 +1250,7 @@
       "constructors": [],
       "exposedMethods": [
         {
-          "tsName": "getSerializationSurrogateProvider",
+          "tsName": "GetSerializationSurrogateProvider",
           "isStatic": true,
           "tsSignatureId": "GetSerializationSurrogateProvider|(System.Runtime.Serialization.Json.DataContractJsonSerializer):System.Runtime.Serialization.ISerializationSurrogateProvider|static=true",
           "target": {
@@ -1260,7 +1260,7 @@
           }
         },
         {
-          "tsName": "setSerializationSurrogateProvider",
+          "tsName": "SetSerializationSurrogateProvider",
           "isStatic": true,
           "tsSignatureId": "SetSerializationSurrogateProvider|(System.Runtime.Serialization.Json.DataContractJsonSerializer,System.Runtime.Serialization.ISerializationSurrogateProvider):System.Void|static=true",
           "target": {
@@ -1270,7 +1270,7 @@
           }
         },
         {
-          "tsName": "getType",
+          "tsName": "GetType",
           "isStatic": false,
           "tsSignatureId": "GetType|():System.Type|static=false",
           "target": {
@@ -1280,7 +1280,7 @@
           }
         },
         {
-          "tsName": "toString",
+          "tsName": "ToString",
           "isStatic": false,
           "tsSignatureId": "ToString|():System.String|static=false",
           "target": {
@@ -1290,7 +1290,7 @@
           }
         },
         {
-          "tsName": "equals",
+          "tsName": "Equals",
           "isStatic": false,
           "tsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
           "target": {
@@ -1300,7 +1300,7 @@
           }
         },
         {
-          "tsName": "equals",
+          "tsName": "Equals",
           "isStatic": true,
           "tsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
           "target": {
@@ -1310,7 +1310,7 @@
           }
         },
         {
-          "tsName": "referenceEquals",
+          "tsName": "ReferenceEquals",
           "isStatic": true,
           "tsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
           "target": {
@@ -1320,7 +1320,7 @@
           }
         },
         {
-          "tsName": "getHashCode",
+          "tsName": "GetHashCode",
           "isStatic": false,
           "tsSignatureId": "GetHashCode|():System.Int32|static=false",
           "target": {
@@ -1341,7 +1341,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.Json.JsonReaderWriterFactory::CreateJsonReader(System.IO.Stream,System.Xml.XmlDictionaryReaderQuotas):System.Xml.XmlDictionaryReader",
           "clrName": "CreateJsonReader",
-          "tsEmitName": "createJsonReader",
+          "tsEmitName": "CreateJsonReader",
           "metadataToken": 100667123,
           "canonicalSignature": "(System.IO.Stream,System.Xml.XmlDictionaryReaderQuotas):System.Xml.XmlDictionaryReader",
           "normalizedSignature": "CreateJsonReader|(System.IO.Stream,System.Xml.XmlDictionaryReaderQuotas):System.Xml.XmlDictionaryReader|static=true",
@@ -1355,7 +1355,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.Json.JsonReaderWriterFactory::CreateJsonReader(System.Byte[],System.Xml.XmlDictionaryReaderQuotas):System.Xml.XmlDictionaryReader",
           "clrName": "CreateJsonReader",
-          "tsEmitName": "createJsonReader2",
+          "tsEmitName": "CreateJsonReader2",
           "metadataToken": 100667124,
           "canonicalSignature": "(System.Byte[],System.Xml.XmlDictionaryReaderQuotas):System.Xml.XmlDictionaryReader",
           "normalizedSignature": "CreateJsonReader|(System.Byte[],System.Xml.XmlDictionaryReaderQuotas):System.Xml.XmlDictionaryReader|static=true",
@@ -1369,7 +1369,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.Json.JsonReaderWriterFactory::CreateJsonReader(System.IO.Stream,System.Text.Encoding,System.Xml.XmlDictionaryReaderQuotas,System.Xml.OnXmlDictionaryReaderClose):System.Xml.XmlDictionaryReader",
           "clrName": "CreateJsonReader",
-          "tsEmitName": "createJsonReader3",
+          "tsEmitName": "CreateJsonReader3",
           "metadataToken": 100667125,
           "canonicalSignature": "(System.IO.Stream,System.Text.Encoding,System.Xml.XmlDictionaryReaderQuotas,System.Xml.OnXmlDictionaryReaderClose):System.Xml.XmlDictionaryReader",
           "normalizedSignature": "CreateJsonReader|(System.IO.Stream,System.Text.Encoding,System.Xml.XmlDictionaryReaderQuotas,System.Xml.OnXmlDictionaryReaderClose):System.Xml.XmlDictionaryReader|static=true",
@@ -1383,7 +1383,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.Json.JsonReaderWriterFactory::CreateJsonReader(System.Byte[],System.Int32,System.Int32,System.Xml.XmlDictionaryReaderQuotas):System.Xml.XmlDictionaryReader",
           "clrName": "CreateJsonReader",
-          "tsEmitName": "createJsonReader4",
+          "tsEmitName": "CreateJsonReader4",
           "metadataToken": 100667126,
           "canonicalSignature": "(System.Byte[],System.Int32,System.Int32,System.Xml.XmlDictionaryReaderQuotas):System.Xml.XmlDictionaryReader",
           "normalizedSignature": "CreateJsonReader|(System.Byte[],System.Int32,System.Int32,System.Xml.XmlDictionaryReaderQuotas):System.Xml.XmlDictionaryReader|static=true",
@@ -1397,7 +1397,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.Json.JsonReaderWriterFactory::CreateJsonReader(System.Byte[],System.Int32,System.Int32,System.Text.Encoding,System.Xml.XmlDictionaryReaderQuotas,System.Xml.OnXmlDictionaryReaderClose):System.Xml.XmlDictionaryReader",
           "clrName": "CreateJsonReader",
-          "tsEmitName": "createJsonReader5",
+          "tsEmitName": "CreateJsonReader5",
           "metadataToken": 100667127,
           "canonicalSignature": "(System.Byte[],System.Int32,System.Int32,System.Text.Encoding,System.Xml.XmlDictionaryReaderQuotas,System.Xml.OnXmlDictionaryReaderClose):System.Xml.XmlDictionaryReader",
           "normalizedSignature": "CreateJsonReader|(System.Byte[],System.Int32,System.Int32,System.Text.Encoding,System.Xml.XmlDictionaryReaderQuotas,System.Xml.OnXmlDictionaryReaderClose):System.Xml.XmlDictionaryReader|static=true",
@@ -1411,7 +1411,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.Json.JsonReaderWriterFactory::CreateJsonWriter(System.IO.Stream):System.Xml.XmlDictionaryWriter",
           "clrName": "CreateJsonWriter",
-          "tsEmitName": "createJsonWriter",
+          "tsEmitName": "CreateJsonWriter",
           "metadataToken": 100667128,
           "canonicalSignature": "(System.IO.Stream):System.Xml.XmlDictionaryWriter",
           "normalizedSignature": "CreateJsonWriter|(System.IO.Stream):System.Xml.XmlDictionaryWriter|static=true",
@@ -1425,7 +1425,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.Json.JsonReaderWriterFactory::CreateJsonWriter(System.IO.Stream,System.Text.Encoding):System.Xml.XmlDictionaryWriter",
           "clrName": "CreateJsonWriter",
-          "tsEmitName": "createJsonWriter2",
+          "tsEmitName": "CreateJsonWriter2",
           "metadataToken": 100667129,
           "canonicalSignature": "(System.IO.Stream,System.Text.Encoding):System.Xml.XmlDictionaryWriter",
           "normalizedSignature": "CreateJsonWriter|(System.IO.Stream,System.Text.Encoding):System.Xml.XmlDictionaryWriter|static=true",
@@ -1439,7 +1439,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.Json.JsonReaderWriterFactory::CreateJsonWriter(System.IO.Stream,System.Text.Encoding,System.Boolean):System.Xml.XmlDictionaryWriter",
           "clrName": "CreateJsonWriter",
-          "tsEmitName": "createJsonWriter3",
+          "tsEmitName": "CreateJsonWriter3",
           "metadataToken": 100667130,
           "canonicalSignature": "(System.IO.Stream,System.Text.Encoding,System.Boolean):System.Xml.XmlDictionaryWriter",
           "normalizedSignature": "CreateJsonWriter|(System.IO.Stream,System.Text.Encoding,System.Boolean):System.Xml.XmlDictionaryWriter|static=true",
@@ -1453,7 +1453,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.Json.JsonReaderWriterFactory::CreateJsonWriter(System.IO.Stream,System.Text.Encoding,System.Boolean,System.Boolean):System.Xml.XmlDictionaryWriter",
           "clrName": "CreateJsonWriter",
-          "tsEmitName": "createJsonWriter4",
+          "tsEmitName": "CreateJsonWriter4",
           "metadataToken": 100667131,
           "canonicalSignature": "(System.IO.Stream,System.Text.Encoding,System.Boolean,System.Boolean):System.Xml.XmlDictionaryWriter",
           "normalizedSignature": "CreateJsonWriter|(System.IO.Stream,System.Text.Encoding,System.Boolean,System.Boolean):System.Xml.XmlDictionaryWriter|static=true",
@@ -1467,7 +1467,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.Json.JsonReaderWriterFactory::CreateJsonWriter(System.IO.Stream,System.Text.Encoding,System.Boolean,System.Boolean,System.String):System.Xml.XmlDictionaryWriter",
           "clrName": "CreateJsonWriter",
-          "tsEmitName": "createJsonWriter5",
+          "tsEmitName": "CreateJsonWriter5",
           "metadataToken": 100667132,
           "canonicalSignature": "(System.IO.Stream,System.Text.Encoding,System.Boolean,System.Boolean,System.String):System.Xml.XmlDictionaryWriter",
           "normalizedSignature": "CreateJsonWriter|(System.IO.Stream,System.Text.Encoding,System.Boolean,System.Boolean,System.String):System.Xml.XmlDictionaryWriter|static=true",
@@ -1485,7 +1485,7 @@
       "constructors": [],
       "exposedMethods": [
         {
-          "tsName": "createJsonReader",
+          "tsName": "CreateJsonReader",
           "isStatic": true,
           "tsSignatureId": "CreateJsonReader|(System.IO.Stream,System.Xml.XmlDictionaryReaderQuotas):System.Xml.XmlDictionaryReader|static=true",
           "target": {
@@ -1495,7 +1495,7 @@
           }
         },
         {
-          "tsName": "createJsonReader2",
+          "tsName": "CreateJsonReader2",
           "isStatic": true,
           "tsSignatureId": "CreateJsonReader|(System.Byte[],System.Xml.XmlDictionaryReaderQuotas):System.Xml.XmlDictionaryReader|static=true",
           "target": {
@@ -1505,7 +1505,7 @@
           }
         },
         {
-          "tsName": "createJsonReader3",
+          "tsName": "CreateJsonReader3",
           "isStatic": true,
           "tsSignatureId": "CreateJsonReader|(System.IO.Stream,System.Text.Encoding,System.Xml.XmlDictionaryReaderQuotas,System.Xml.OnXmlDictionaryReaderClose):System.Xml.XmlDictionaryReader|static=true",
           "target": {
@@ -1515,7 +1515,7 @@
           }
         },
         {
-          "tsName": "createJsonReader4",
+          "tsName": "CreateJsonReader4",
           "isStatic": true,
           "tsSignatureId": "CreateJsonReader|(System.Byte[],System.Int32,System.Int32,System.Xml.XmlDictionaryReaderQuotas):System.Xml.XmlDictionaryReader|static=true",
           "target": {
@@ -1525,7 +1525,7 @@
           }
         },
         {
-          "tsName": "createJsonReader5",
+          "tsName": "CreateJsonReader5",
           "isStatic": true,
           "tsSignatureId": "CreateJsonReader|(System.Byte[],System.Int32,System.Int32,System.Text.Encoding,System.Xml.XmlDictionaryReaderQuotas,System.Xml.OnXmlDictionaryReaderClose):System.Xml.XmlDictionaryReader|static=true",
           "target": {
@@ -1535,7 +1535,7 @@
           }
         },
         {
-          "tsName": "createJsonWriter",
+          "tsName": "CreateJsonWriter",
           "isStatic": true,
           "tsSignatureId": "CreateJsonWriter|(System.IO.Stream):System.Xml.XmlDictionaryWriter|static=true",
           "target": {
@@ -1545,7 +1545,7 @@
           }
         },
         {
-          "tsName": "createJsonWriter2",
+          "tsName": "CreateJsonWriter2",
           "isStatic": true,
           "tsSignatureId": "CreateJsonWriter|(System.IO.Stream,System.Text.Encoding):System.Xml.XmlDictionaryWriter|static=true",
           "target": {
@@ -1555,7 +1555,7 @@
           }
         },
         {
-          "tsName": "createJsonWriter3",
+          "tsName": "CreateJsonWriter3",
           "isStatic": true,
           "tsSignatureId": "CreateJsonWriter|(System.IO.Stream,System.Text.Encoding,System.Boolean):System.Xml.XmlDictionaryWriter|static=true",
           "target": {
@@ -1565,7 +1565,7 @@
           }
         },
         {
-          "tsName": "createJsonWriter4",
+          "tsName": "CreateJsonWriter4",
           "isStatic": true,
           "tsSignatureId": "CreateJsonWriter|(System.IO.Stream,System.Text.Encoding,System.Boolean,System.Boolean):System.Xml.XmlDictionaryWriter|static=true",
           "target": {
@@ -1575,7 +1575,7 @@
           }
         },
         {
-          "tsName": "createJsonWriter5",
+          "tsName": "CreateJsonWriter5",
           "isStatic": true,
           "tsSignatureId": "CreateJsonWriter|(System.IO.Stream,System.Text.Encoding,System.Boolean,System.Boolean,System.String):System.Xml.XmlDictionaryWriter|static=true",
           "target": {
@@ -1585,7 +1585,7 @@
           }
         },
         {
-          "tsName": "getType",
+          "tsName": "GetType",
           "isStatic": false,
           "tsSignatureId": "GetType|():System.Type|static=false",
           "target": {
@@ -1595,7 +1595,7 @@
           }
         },
         {
-          "tsName": "toString",
+          "tsName": "ToString",
           "isStatic": false,
           "tsSignatureId": "ToString|():System.String|static=false",
           "target": {
@@ -1605,7 +1605,7 @@
           }
         },
         {
-          "tsName": "equals",
+          "tsName": "Equals",
           "isStatic": false,
           "tsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
           "target": {
@@ -1615,7 +1615,7 @@
           }
         },
         {
-          "tsName": "equals",
+          "tsName": "Equals",
           "isStatic": true,
           "tsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
           "target": {
@@ -1625,7 +1625,7 @@
           }
         },
         {
-          "tsName": "referenceEquals",
+          "tsName": "ReferenceEquals",
           "isStatic": true,
           "tsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
           "target": {
@@ -1635,7 +1635,7 @@
           }
         },
         {
-          "tsName": "getHashCode",
+          "tsName": "GetHashCode",
           "isStatic": false,
           "tsSignatureId": "GetHashCode|():System.Int32|static=false",
           "target": {

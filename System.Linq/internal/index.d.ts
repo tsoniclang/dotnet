@@ -48,20 +48,20 @@ export type CLROf<T> =
     T; // Identity fallback for non-primitive types
 
 export enum ParallelExecutionMode {
-    default_ = 0,
-    forceParallelism = 1
+    Default = 0,
+    ForceParallelism = 1
 }
 
 
 export enum ParallelMergeOptions {
-    default_ = 0,
-    notBuffered = 1,
-    autoBuffered = 2,
-    fullyBuffered = 3
+    Default = 0,
+    NotBuffered = 1,
+    AutoBuffered = 2,
+    FullyBuffered = 3
 }
 
 
-export interface IGrouping_2$instance<TKey, TElement> {
+export interface IGrouping_2$instance<TKey, TElement> extends IEnumerable_1<TElement>, IEnumerable {
     readonly Key: TKey;
     GetEnumerator(): IEnumerator_1<TElement>;
     GetEnumerator(): IEnumerator;
@@ -70,7 +70,7 @@ export interface IGrouping_2$instance<TKey, TElement> {
 
 export type IGrouping_2<TKey, TElement> = IGrouping_2$instance<TKey, TElement>;
 
-export interface ILookup_2$instance<TKey, TElement> {
+export interface ILookup_2$instance<TKey, TElement> extends IEnumerable_1<IGrouping_2<TKey, TElement>>, IEnumerable {
     readonly Count: int;
     readonly Item: IEnumerable_1<TElement>;
     Contains(key: TKey): boolean;
@@ -81,16 +81,18 @@ export interface ILookup_2$instance<TKey, TElement> {
 
 export type ILookup_2<TKey, TElement> = ILookup_2$instance<TKey, TElement>;
 
-export interface IOrderedAsyncEnumerable_1$instance<TElement> {
+export interface IOrderedAsyncEnumerable_1$instance<TElement> extends IAsyncEnumerable_1<TElement> {
     CreateOrderedAsyncEnumerable<TKey>(keySelector: Func_2<TElement, TKey>, comparer: IComparer_1<TKey>, descending: boolean): IOrderedAsyncEnumerable_1<TElement>;
     CreateOrderedAsyncEnumerable<TKey>(keySelector: Func_3<TElement, CancellationToken, ValueTask_1<TKey>>, comparer: IComparer_1<TKey>, descending: boolean): IOrderedAsyncEnumerable_1<TElement>;
     GetAsyncEnumerator(cancellationToken?: CancellationToken): IAsyncEnumerator_1<TElement>;
 }
 
 
+export interface IOrderedAsyncEnumerable_1$instance<TElement> extends System_Collections_Generic_Internal.IAsyncEnumerable_1$instance<TElement> {}
+
 export type IOrderedAsyncEnumerable_1<TElement> = IOrderedAsyncEnumerable_1$instance<TElement>;
 
-export interface IOrderedEnumerable_1$instance<TElement> {
+export interface IOrderedEnumerable_1$instance<TElement> extends IEnumerable_1<TElement>, IEnumerable {
     CreateOrderedEnumerable<TKey>(keySelector: Func_2<TElement, TKey>, comparer: IComparer_1<TKey>, descending: boolean): IOrderedEnumerable_1<TElement>;
     GetEnumerator(): IEnumerator_1<TElement>;
     GetEnumerator(): IEnumerator;
@@ -99,7 +101,7 @@ export interface IOrderedEnumerable_1$instance<TElement> {
 
 export type IOrderedEnumerable_1<TElement> = IOrderedEnumerable_1$instance<TElement>;
 
-export interface IOrderedQueryable$instance {
+export interface IOrderedQueryable$instance extends IQueryable, IEnumerable {
     readonly Expression: Expression;
     readonly ElementType: Type;
     readonly Provider: IQueryProvider;
@@ -109,7 +111,7 @@ export interface IOrderedQueryable$instance {
 
 export type IOrderedQueryable = IOrderedQueryable$instance;
 
-export interface IOrderedQueryable_1$instance<T> {
+export interface IOrderedQueryable_1$instance<T> extends IQueryable_1<T>, IEnumerable_1<T>, IEnumerable, IQueryable, IOrderedQueryable {
     readonly Expression: Expression;
     readonly ElementType: Type;
     readonly Provider: IQueryProvider;
@@ -120,7 +122,7 @@ export interface IOrderedQueryable_1$instance<T> {
 
 export type IOrderedQueryable_1<T> = IOrderedQueryable_1$instance<T>;
 
-export interface IQueryable$instance {
+export interface IQueryable$instance extends IEnumerable {
     readonly Expression: Expression;
     readonly ElementType: Type;
     readonly Provider: IQueryProvider;
@@ -128,9 +130,11 @@ export interface IQueryable$instance {
 }
 
 
+export interface IQueryable$instance extends System_Collections_Internal.IEnumerable$instance {}
+
 export type IQueryable = IQueryable$instance;
 
-export interface IQueryable_1$instance<T> {
+export interface IQueryable_1$instance<T> extends IEnumerable_1<T>, IEnumerable, IQueryable {
     readonly Expression: Expression;
     readonly ElementType: Type;
     readonly Provider: IQueryProvider;
@@ -144,7 +148,7 @@ export type IQueryable_1<T> = IQueryable_1$instance<T>;
 export interface IQueryProvider$instance {
     CreateQuery<TElement>(expression: Expression): IQueryable_1<TElement>;
     CreateQuery(expression: Expression): IQueryable;
-    Execute(expression: Expression): any;
+    Execute(expression: Expression): unknown;
     Execute<TResult>(expression: Expression): TResult;
 }
 
@@ -173,48 +177,50 @@ export type EnumerableQuery = EnumerableQuery$instance;
 export class EnumerableQuery_1$instance<T> extends EnumerableQuery$instance {
     constructor(enumerable: IEnumerable_1<T>);
     constructor(expression: Expression);
-    toString(): string;
+    ToString(): string;
 }
 
 
 export interface __EnumerableQuery_1$views<T> {
-    readonly As_IQueryable: IQueryable$instance;
-    readonly As_IQueryProvider: IQueryProvider$instance;
-    readonly As_IEnumerable_1_of_Char: System_Collections_Generic_Internal.IEnumerable_1$instance<T>;
-    readonly As_IEnumerable: System_Collections_Internal.IEnumerable$instance;
+    As_IQueryable(): IQueryable$instance;
+    As_IQueryProvider(): IQueryProvider$instance;
+    As_IEnumerable_1(): System_Collections_Generic_Internal.IEnumerable_1$instance<T>;
+    As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
 }
+
+export interface EnumerableQuery_1$instance<T> extends IOrderedQueryable_1$instance<T>, IQueryProvider$instance {}
 
 export type EnumerableQuery_1<T> = EnumerableQuery_1$instance<T> & __EnumerableQuery_1$views<T>;
 
 
 export class Lookup_2$instance<TKey, TElement> {
-    readonly count: int;
-    readonly item: IEnumerable_1<TElement>;
-    applyResultSelector<TResult>(resultSelector: Func_3<TKey, IEnumerable_1<TElement>, TResult>): IEnumerable_1<TResult>;
-    contains(key: TKey): boolean;
-    getEnumerator(): IEnumerator_1<IGrouping_2<TKey, TElement>>;
+    readonly Count: int;
+    readonly Item: IEnumerable_1<TElement>;
+    ApplyResultSelector<TResult>(resultSelector: Func_3<TKey, IEnumerable_1<TElement>, TResult>): IEnumerable_1<TResult>;
+    Contains(key: TKey): boolean;
+    GetEnumerator(): IEnumerator_1<IGrouping_2<TKey, TElement>>;
 }
 
 
 export interface __Lookup_2$views<TKey, TElement> {
-    readonly As_ILookup_2: ILookup_2$instance<TKey, TElement>;
-    readonly As_IEnumerable_1_of_Char: System_Collections_Generic_Internal.IEnumerable_1$instance<IGrouping_2<TKey, TElement>>;
-    readonly As_IEnumerable: System_Collections_Internal.IEnumerable$instance;
+    As_ILookup_2(): ILookup_2$instance<TKey, TElement>;
+    As_IEnumerable_1(): System_Collections_Generic_Internal.IEnumerable_1$instance<IGrouping_2<TKey, TElement>>;
+    As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
 }
 
 export type Lookup_2<TKey, TElement> = Lookup_2$instance<TKey, TElement> & __Lookup_2$views<TKey, TElement>;
 
 
 export class OrderedParallelQuery_1$instance<TSource> extends ParallelQuery_1$instance<TSource> {
-    getEnumerator(): IEnumerator_1<TSource>;
-    getEnumerator(): IEnumerator_1<TSource>;
-    getEnumerator(): IEnumerator;
+    GetEnumerator(): IEnumerator_1<TSource>;
+    GetEnumerator(): IEnumerator_1<TSource>;
+    GetEnumerator(): IEnumerator;
 }
 
 
 export interface __OrderedParallelQuery_1$views<TSource> {
-    readonly As_IEnumerable_1_of_Char: System_Collections_Generic_Internal.IEnumerable_1$instance<TSource>;
-    readonly As_IEnumerable: System_Collections_Internal.IEnumerable$instance;
+    As_IEnumerable_1(): System_Collections_Generic_Internal.IEnumerable_1$instance<TSource>;
+    As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
 }
 
 export type OrderedParallelQuery_1<TSource> = OrderedParallelQuery_1$instance<TSource> & __OrderedParallelQuery_1$views<TSource>;
@@ -225,20 +231,22 @@ export class ParallelQuery$instance {
 
 
 export interface __ParallelQuery$views {
-    readonly As_IEnumerable: System_Collections_Internal.IEnumerable$instance;
+    As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
 }
+
+export interface ParallelQuery$instance extends System_Collections_Internal.IEnumerable$instance {}
 
 export type ParallelQuery = ParallelQuery$instance & __ParallelQuery$views;
 
 
 export class ParallelQuery_1$instance<TSource> extends ParallelQuery$instance {
-    getEnumerator(): IEnumerator;
+    GetEnumerator(): IEnumerator;
 }
 
 
 export interface __ParallelQuery_1$views<TSource> {
-    readonly As_IEnumerable_1_of_Char: System_Collections_Generic_Internal.IEnumerable_1$instance<TSource>;
-    readonly As_IEnumerable: System_Collections_Internal.IEnumerable$instance;
+    As_IEnumerable_1(): System_Collections_Generic_Internal.IEnumerable_1$instance<TSource>;
+    As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
 }
 
 export type ParallelQuery_1<TSource> = ParallelQuery_1$instance<TSource> & __ParallelQuery_1$views<TSource>;
@@ -271,7 +279,7 @@ export abstract class AsyncEnumerable$instance {
     static AverageAsync(source: IAsyncEnumerable_1<Nullable_1<CLROf<long>>>, cancellationToken?: CancellationToken): ValueTask_1<Nullable_1<CLROf<double>>>;
     static AverageAsync(source: IAsyncEnumerable_1<Nullable_1<CLROf<float>>>, cancellationToken?: CancellationToken): ValueTask_1<Nullable_1<CLROf<float>>>;
     static AverageAsync(source: IAsyncEnumerable_1<CLROf<float>>, cancellationToken?: CancellationToken): ValueTask_1<CLROf<float>>;
-    static Cast<TResult>(source: IAsyncEnumerable_1<any>): IAsyncEnumerable_1<TResult>;
+    static Cast<TResult>(source: IAsyncEnumerable_1<unknown>): IAsyncEnumerable_1<TResult>;
     static Chunk<TSource>(source: IAsyncEnumerable_1<TSource>, size: int): IAsyncEnumerable_1<TSource[]>;
     static Concat<TSource>(first: IAsyncEnumerable_1<TSource>, second: IAsyncEnumerable_1<TSource>): IAsyncEnumerable_1<TSource>;
     static ContainsAsync<TSource>(source: IAsyncEnumerable_1<TSource>, value: TSource, comparer?: IEqualityComparer_1<TSource>, cancellationToken?: CancellationToken): ValueTask_1<CLROf<boolean>>;
@@ -339,7 +347,7 @@ export abstract class AsyncEnumerable$instance {
     static MinAsync<TSource>(source: IAsyncEnumerable_1<TSource>, comparer?: IComparer_1<TSource>, cancellationToken?: CancellationToken): ValueTask_1<TSource>;
     static MinByAsync<TSource, TKey>(source: IAsyncEnumerable_1<TSource>, keySelector: Func_2<TSource, TKey>, comparer?: IComparer_1<TKey>, cancellationToken?: CancellationToken): ValueTask_1<TSource>;
     static MinByAsync<TSource, TKey>(source: IAsyncEnumerable_1<TSource>, keySelector: Func_3<TSource, CancellationToken, ValueTask_1<TKey>>, comparer?: IComparer_1<TKey>, cancellationToken?: CancellationToken): ValueTask_1<TSource>;
-    static OfType<TResult>(source: IAsyncEnumerable_1<any>): IAsyncEnumerable_1<TResult>;
+    static OfType<TResult>(source: IAsyncEnumerable_1<unknown>): IAsyncEnumerable_1<TResult>;
     static Order<T>(source: IAsyncEnumerable_1<T>, comparer?: IComparer_1<T>): IOrderedAsyncEnumerable_1<T>;
     static OrderBy<TSource, TKey>(source: IAsyncEnumerable_1<TSource>, keySelector: Func_2<TSource, TKey>, comparer?: IComparer_1<TKey>): IOrderedAsyncEnumerable_1<TSource>;
     static OrderBy<TSource, TKey>(source: IAsyncEnumerable_1<TSource>, keySelector: Func_3<TSource, CancellationToken, ValueTask_1<TKey>>, comparer?: IComparer_1<TKey>): IOrderedAsyncEnumerable_1<TSource>;

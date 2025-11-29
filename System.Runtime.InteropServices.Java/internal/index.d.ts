@@ -65,7 +65,7 @@ export class StronglyConnectedComponent$instance {
 export type StronglyConnectedComponent = StronglyConnectedComponent$instance;
 
 export abstract class JavaMarshal$instance {
-    static CreateReferenceTrackingHandle(obj: any, context: ptr<void>): GCHandle;
+    static CreateReferenceTrackingHandle(obj: unknown, context: ptr<void>): GCHandle;
     static FinishCrossReferenceProcessing(crossReferences: ptr<MarkCrossReferencesArgs>, unreachableObjectHandles: ReadOnlySpan_1<GCHandle>): void;
     static GetContext(obj: GCHandle): ptr<void>;
     static Initialize(markCrossReferences: unknown): void;

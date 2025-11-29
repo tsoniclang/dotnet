@@ -40,47 +40,47 @@ export type CLROf<T> =
     T; // Identity fallback for non-primitive types
 
 export enum MemoryMappedFileAccess {
-    readWrite = 0,
-    read = 1,
-    write = 2,
-    copyOnWrite = 3,
-    readExecute = 4,
-    readWriteExecute = 5
+    ReadWrite = 0,
+    Read = 1,
+    Write = 2,
+    CopyOnWrite = 3,
+    ReadExecute = 4,
+    ReadWriteExecute = 5
 }
 
 
 export enum MemoryMappedFileOptions {
-    none = 0,
-    delayAllocatePages = 67108864
+    None = 0,
+    DelayAllocatePages = 67108864
 }
 
 
 export enum MemoryMappedFileRights {
-    copyOnWrite = 1,
-    write = 2,
-    read = 4,
-    execute = 8,
-    delete_ = 65536,
-    readPermissions = 131072,
-    changePermissions = 262144,
-    takeOwnership = 524288,
-    readWrite = 6,
-    readExecute = 12,
-    readWriteExecute = 14,
-    fullControl = 983055,
-    accessSystemSecurity = 16777216
+    CopyOnWrite = 1,
+    Write = 2,
+    Read = 4,
+    Execute = 8,
+    Delete = 65536,
+    ReadPermissions = 131072,
+    ChangePermissions = 262144,
+    TakeOwnership = 524288,
+    ReadWrite = 6,
+    ReadExecute = 12,
+    ReadWriteExecute = 14,
+    FullControl = 983055,
+    AccessSystemSecurity = 16777216
 }
 
 
 export class MemoryMappedFile$instance {
-    readonly safeMemoryMappedFileHandle: SafeMemoryMappedFileHandle;
-    createViewAccessor(): MemoryMappedViewAccessor;
-    createViewAccessor(offset: long, size: long): MemoryMappedViewAccessor;
-    createViewAccessor(offset: long, size: long, access: MemoryMappedFileAccess): MemoryMappedViewAccessor;
-    createViewStream(): MemoryMappedViewStream;
-    createViewStream(offset: long, size: long): MemoryMappedViewStream;
-    createViewStream(offset: long, size: long, access: MemoryMappedFileAccess): MemoryMappedViewStream;
-    dispose(): void;
+    readonly SafeMemoryMappedFileHandle: SafeMemoryMappedFileHandle;
+    CreateViewAccessor(): MemoryMappedViewAccessor;
+    CreateViewAccessor(offset: long, size: long): MemoryMappedViewAccessor;
+    CreateViewAccessor(offset: long, size: long, access: MemoryMappedFileAccess): MemoryMappedViewAccessor;
+    CreateViewStream(): MemoryMappedViewStream;
+    CreateViewStream(offset: long, size: long): MemoryMappedViewStream;
+    CreateViewStream(offset: long, size: long, access: MemoryMappedFileAccess): MemoryMappedViewStream;
+    Dispose(): void;
     static CreateFromFile(fileHandle: SafeFileHandle, mapName: string, capacity: long, access: MemoryMappedFileAccess, inheritability: HandleInheritability, leaveOpen: boolean): MemoryMappedFile;
     static CreateFromFile(fileStream: FileStream, mapName: string, capacity: long, access: MemoryMappedFileAccess, inheritability: HandleInheritability, leaveOpen: boolean): MemoryMappedFile;
     static CreateFromFile(path: string, mode: FileMode, mapName: string, capacity: long, access: MemoryMappedFileAccess): MemoryMappedFile;
@@ -101,40 +101,42 @@ export class MemoryMappedFile$instance {
 
 
 export interface __MemoryMappedFile$views {
-    readonly As_IDisposable: System_Internal.IDisposable$instance;
+    As_IDisposable(): System_Internal.IDisposable$instance;
 }
+
+export interface MemoryMappedFile$instance extends System_Internal.IDisposable$instance {}
 
 export type MemoryMappedFile = MemoryMappedFile$instance & __MemoryMappedFile$views;
 
 
 export class MemoryMappedViewAccessor$instance extends System_IO_Internal.UnmanagedMemoryAccessor$instance {
-    readonly pointerOffset: long;
-    readonly safeMemoryMappedViewHandle: SafeMemoryMappedViewHandle;
-    dispose(): void;
-    flush(): void;
+    readonly PointerOffset: long;
+    readonly SafeMemoryMappedViewHandle: SafeMemoryMappedViewHandle;
+    Dispose(): void;
+    Flush(): void;
 }
 
 
 export interface __MemoryMappedViewAccessor$views {
-    readonly As_IDisposable: System_Internal.IDisposable$instance;
+    As_IDisposable(): System_Internal.IDisposable$instance;
 }
 
 export type MemoryMappedViewAccessor = MemoryMappedViewAccessor$instance & __MemoryMappedViewAccessor$views;
 
 
 export class MemoryMappedViewStream$instance extends System_IO_Internal.UnmanagedMemoryStream$instance {
-    readonly pointerOffset: long;
-    readonly safeMemoryMappedViewHandle: SafeMemoryMappedViewHandle;
-    dispose(): void;
-    disposeAsync(): ValueTask;
-    flush(): void;
-    setLength(value: long): void;
+    readonly PointerOffset: long;
+    readonly SafeMemoryMappedViewHandle: SafeMemoryMappedViewHandle;
+    Dispose(): void;
+    DisposeAsync(): ValueTask;
+    Flush(): void;
+    SetLength(value: long): void;
 }
 
 
 export interface __MemoryMappedViewStream$views {
-    readonly As_IAsyncDisposable: System_Internal.IAsyncDisposable$instance;
-    readonly As_IDisposable: System_Internal.IDisposable$instance;
+    As_IAsyncDisposable(): System_Internal.IAsyncDisposable$instance;
+    As_IDisposable(): System_Internal.IDisposable$instance;
 }
 
 export type MemoryMappedViewStream = MemoryMappedViewStream$instance & __MemoryMappedViewStream$views;

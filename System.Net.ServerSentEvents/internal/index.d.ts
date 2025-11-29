@@ -44,38 +44,38 @@ export type CLROf<T> =
 
 export class SseItem_1$instance<T> {
     constructor(data: T, eventType: string);
-    readonly data: T;
-    eventId: string;
-    readonly eventType: string;
-    reconnectionInterval: Nullable_1<TimeSpan>;
+    readonly Data: T;
+    EventId: string;
+    readonly EventType: string;
+    ReconnectionInterval: Nullable_1<TimeSpan>;
 }
 
 
 export type SseItem_1<T> = SseItem_1$instance<T>;
 
 export class SseItemParser_1$instance<T> extends Function {
-    constructor(object_: any, method: nint);
-    beginInvoke(eventType: string, data: ReadOnlySpan_1<CLROf<byte>>, callback: AsyncCallback, object_: any): IAsyncResult;
-    clone(): any;
-    endInvoke(result: IAsyncResult): T;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(eventType: string, data: ReadOnlySpan_1<CLROf<byte>>): T;
+    constructor(object_: unknown, method: nint);
+    BeginInvoke(eventType: string, data: ReadOnlySpan_1<CLROf<byte>>, callback: AsyncCallback, object_: unknown): IAsyncResult;
+    Clone(): unknown;
+    EndInvoke(result: IAsyncResult): T;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    Invoke(eventType: string, data: ReadOnlySpan_1<CLROf<byte>>): T;
 }
 
 
 export interface __SseItemParser_1$views<T> {
-    readonly As_ICloneable: System_Internal.ICloneable$instance;
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ICloneable(): System_Internal.ICloneable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type SseItemParser_1<T> = SseItemParser_1$instance<T> & __SseItemParser_1$views<T>;
 
 
 export class SseParser_1$instance<T> {
-    readonly lastEventId: string;
-    readonly reconnectionInterval: TimeSpan;
-    enumerate(): IEnumerable_1<SseItem_1<T>>;
-    enumerateAsync(cancellationToken?: CancellationToken): IAsyncEnumerable_1<SseItem_1<T>>;
+    readonly LastEventId: string;
+    readonly ReconnectionInterval: TimeSpan;
+    Enumerate(): IEnumerable_1<SseItem_1<T>>;
+    EnumerateAsync(cancellationToken?: CancellationToken): IAsyncEnumerable_1<SseItem_1<T>>;
 }
 
 

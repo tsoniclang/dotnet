@@ -18,7 +18,7 @@
         {
           "stableId": "System.Web.HttpUtility:System.Web.IHtmlString::ToHtmlString():System.String",
           "clrName": "ToHtmlString",
-          "tsEmitName": "toHtmlString",
+          "tsEmitName": "ToHtmlString",
           "normalizedSignature": "ToHtmlString|():System.String|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -51,7 +51,7 @@
         {
           "stableId": "System.Web.HttpUtility:System.Web.HttpUtility::ParseQueryString(System.String):System.Collections.Specialized.NameValueCollection",
           "clrName": "ParseQueryString",
-          "tsEmitName": "parseQueryString",
+          "tsEmitName": "ParseQueryString",
           "normalizedSignature": "ParseQueryString|(System.String):System.Collections.Specialized.NameValueCollection|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -67,7 +67,7 @@
         {
           "stableId": "System.Web.HttpUtility:System.Web.HttpUtility::ParseQueryString(System.String,System.Text.Encoding):System.Collections.Specialized.NameValueCollection",
           "clrName": "ParseQueryString",
-          "tsEmitName": "parseQueryString2",
+          "tsEmitName": "ParseQueryString2",
           "normalizedSignature": "ParseQueryString|(System.String,System.Text.Encoding):System.Collections.Specialized.NameValueCollection|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -83,7 +83,7 @@
         {
           "stableId": "System.Web.HttpUtility:System.Web.HttpUtility::HtmlDecode(System.String):System.String",
           "clrName": "HtmlDecode",
-          "tsEmitName": "htmlDecode",
+          "tsEmitName": "HtmlDecode",
           "normalizedSignature": "HtmlDecode|(System.String):System.String|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -99,7 +99,7 @@
         {
           "stableId": "System.Web.HttpUtility:System.Web.HttpUtility::HtmlDecode(System.String,System.IO.TextWriter):System.Void",
           "clrName": "HtmlDecode",
-          "tsEmitName": "htmlDecode2",
+          "tsEmitName": "HtmlDecode2",
           "normalizedSignature": "HtmlDecode|(System.String,System.IO.TextWriter):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -115,7 +115,7 @@
         {
           "stableId": "System.Web.HttpUtility:System.Web.HttpUtility::HtmlEncode(System.String):System.String",
           "clrName": "HtmlEncode",
-          "tsEmitName": "htmlEncode",
+          "tsEmitName": "HtmlEncode",
           "normalizedSignature": "HtmlEncode|(System.String):System.String|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -131,7 +131,7 @@
         {
           "stableId": "System.Web.HttpUtility:System.Web.HttpUtility::HtmlEncode(System.Object):System.String",
           "clrName": "HtmlEncode",
-          "tsEmitName": "htmlEncode2",
+          "tsEmitName": "HtmlEncode2",
           "normalizedSignature": "HtmlEncode|(System.Object):System.String|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -147,7 +147,7 @@
         {
           "stableId": "System.Web.HttpUtility:System.Web.HttpUtility::HtmlEncode(System.String,System.IO.TextWriter):System.Void",
           "clrName": "HtmlEncode",
-          "tsEmitName": "htmlEncode3",
+          "tsEmitName": "HtmlEncode3",
           "normalizedSignature": "HtmlEncode|(System.String,System.IO.TextWriter):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -163,7 +163,7 @@
         {
           "stableId": "System.Web.HttpUtility:System.Web.HttpUtility::HtmlAttributeEncode(System.String):System.String",
           "clrName": "HtmlAttributeEncode",
-          "tsEmitName": "htmlAttributeEncode",
+          "tsEmitName": "HtmlAttributeEncode",
           "normalizedSignature": "HtmlAttributeEncode|(System.String):System.String|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -179,7 +179,7 @@
         {
           "stableId": "System.Web.HttpUtility:System.Web.HttpUtility::HtmlAttributeEncode(System.String,System.IO.TextWriter):System.Void",
           "clrName": "HtmlAttributeEncode",
-          "tsEmitName": "htmlAttributeEncode2",
+          "tsEmitName": "HtmlAttributeEncode2",
           "normalizedSignature": "HtmlAttributeEncode|(System.String,System.IO.TextWriter):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -195,7 +195,7 @@
         {
           "stableId": "System.Web.HttpUtility:System.Web.HttpUtility::UrlEncode(System.String):System.String",
           "clrName": "UrlEncode",
-          "tsEmitName": "urlEncode",
+          "tsEmitName": "UrlEncode",
           "normalizedSignature": "UrlEncode|(System.String):System.String|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -211,7 +211,7 @@
         {
           "stableId": "System.Web.HttpUtility:System.Web.HttpUtility::UrlPathEncode(System.String):System.String",
           "clrName": "UrlPathEncode",
-          "tsEmitName": "urlPathEncode",
+          "tsEmitName": "UrlPathEncode",
           "normalizedSignature": "UrlPathEncode|(System.String):System.String|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -227,7 +227,7 @@
         {
           "stableId": "System.Web.HttpUtility:System.Web.HttpUtility::UrlEncode(System.String,System.Text.Encoding):System.String",
           "clrName": "UrlEncode",
-          "tsEmitName": "urlEncode2",
+          "tsEmitName": "UrlEncode2",
           "normalizedSignature": "UrlEncode|(System.String,System.Text.Encoding):System.String|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -243,7 +243,7 @@
         {
           "stableId": "System.Web.HttpUtility:System.Web.HttpUtility::UrlEncode(System.Byte[]):System.String",
           "clrName": "UrlEncode",
-          "tsEmitName": "urlEncode3",
+          "tsEmitName": "UrlEncode3",
           "normalizedSignature": "UrlEncode|(System.Byte[]):System.String|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -259,7 +259,7 @@
         {
           "stableId": "System.Web.HttpUtility:System.Web.HttpUtility::UrlEncode(System.Byte[],System.Int32,System.Int32):System.String",
           "clrName": "UrlEncode",
-          "tsEmitName": "urlEncode4",
+          "tsEmitName": "UrlEncode4",
           "normalizedSignature": "UrlEncode|(System.Byte[],System.Int32,System.Int32):System.String|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -275,7 +275,7 @@
         {
           "stableId": "System.Web.HttpUtility:System.Web.HttpUtility::UrlEncodeToBytes(System.String):System.Byte[]",
           "clrName": "UrlEncodeToBytes",
-          "tsEmitName": "urlEncodeToBytes",
+          "tsEmitName": "UrlEncodeToBytes",
           "normalizedSignature": "UrlEncodeToBytes|(System.String):System.Byte[]|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -291,7 +291,7 @@
         {
           "stableId": "System.Web.HttpUtility:System.Web.HttpUtility::UrlEncodeToBytes(System.Byte[]):System.Byte[]",
           "clrName": "UrlEncodeToBytes",
-          "tsEmitName": "urlEncodeToBytes2",
+          "tsEmitName": "UrlEncodeToBytes2",
           "normalizedSignature": "UrlEncodeToBytes|(System.Byte[]):System.Byte[]|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -307,7 +307,7 @@
         {
           "stableId": "System.Web.HttpUtility:System.Web.HttpUtility::UrlEncodeUnicodeToBytes(System.String):System.Byte[]",
           "clrName": "UrlEncodeUnicodeToBytes",
-          "tsEmitName": "urlEncodeUnicodeToBytes",
+          "tsEmitName": "UrlEncodeUnicodeToBytes",
           "normalizedSignature": "UrlEncodeUnicodeToBytes|(System.String):System.Byte[]|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -323,7 +323,7 @@
         {
           "stableId": "System.Web.HttpUtility:System.Web.HttpUtility::UrlDecode(System.String):System.String",
           "clrName": "UrlDecode",
-          "tsEmitName": "urlDecode",
+          "tsEmitName": "UrlDecode",
           "normalizedSignature": "UrlDecode|(System.String):System.String|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -339,7 +339,7 @@
         {
           "stableId": "System.Web.HttpUtility:System.Web.HttpUtility::UrlDecode(System.Byte[],System.Text.Encoding):System.String",
           "clrName": "UrlDecode",
-          "tsEmitName": "urlDecode2",
+          "tsEmitName": "UrlDecode2",
           "normalizedSignature": "UrlDecode|(System.Byte[],System.Text.Encoding):System.String|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -355,7 +355,7 @@
         {
           "stableId": "System.Web.HttpUtility:System.Web.HttpUtility::UrlDecodeToBytes(System.String):System.Byte[]",
           "clrName": "UrlDecodeToBytes",
-          "tsEmitName": "urlDecodeToBytes",
+          "tsEmitName": "UrlDecodeToBytes",
           "normalizedSignature": "UrlDecodeToBytes|(System.String):System.Byte[]|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -371,7 +371,7 @@
         {
           "stableId": "System.Web.HttpUtility:System.Web.HttpUtility::UrlDecodeToBytes(System.String,System.Text.Encoding):System.Byte[]",
           "clrName": "UrlDecodeToBytes",
-          "tsEmitName": "urlDecodeToBytes2",
+          "tsEmitName": "UrlDecodeToBytes2",
           "normalizedSignature": "UrlDecodeToBytes|(System.String,System.Text.Encoding):System.Byte[]|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -387,7 +387,7 @@
         {
           "stableId": "System.Web.HttpUtility:System.Web.HttpUtility::UrlDecodeToBytes(System.Byte[]):System.Byte[]",
           "clrName": "UrlDecodeToBytes",
-          "tsEmitName": "urlDecodeToBytes3",
+          "tsEmitName": "UrlDecodeToBytes3",
           "normalizedSignature": "UrlDecodeToBytes|(System.Byte[]):System.Byte[]|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -403,7 +403,7 @@
         {
           "stableId": "System.Web.HttpUtility:System.Web.HttpUtility::UrlEncodeToBytes(System.String,System.Text.Encoding):System.Byte[]",
           "clrName": "UrlEncodeToBytes",
-          "tsEmitName": "urlEncodeToBytes3",
+          "tsEmitName": "UrlEncodeToBytes3",
           "normalizedSignature": "UrlEncodeToBytes|(System.String,System.Text.Encoding):System.Byte[]|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -419,7 +419,7 @@
         {
           "stableId": "System.Web.HttpUtility:System.Web.HttpUtility::UrlEncodeToBytes(System.Byte[],System.Int32,System.Int32):System.Byte[]",
           "clrName": "UrlEncodeToBytes",
-          "tsEmitName": "urlEncodeToBytes4",
+          "tsEmitName": "UrlEncodeToBytes4",
           "normalizedSignature": "UrlEncodeToBytes|(System.Byte[],System.Int32,System.Int32):System.Byte[]|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -435,7 +435,7 @@
         {
           "stableId": "System.Web.HttpUtility:System.Web.HttpUtility::UrlEncodeUnicode(System.String):System.String",
           "clrName": "UrlEncodeUnicode",
-          "tsEmitName": "urlEncodeUnicode",
+          "tsEmitName": "UrlEncodeUnicode",
           "normalizedSignature": "UrlEncodeUnicode|(System.String):System.String|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -451,7 +451,7 @@
         {
           "stableId": "System.Web.HttpUtility:System.Web.HttpUtility::UrlDecode(System.String,System.Text.Encoding):System.String",
           "clrName": "UrlDecode",
-          "tsEmitName": "urlDecode3",
+          "tsEmitName": "UrlDecode3",
           "normalizedSignature": "UrlDecode|(System.String,System.Text.Encoding):System.String|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -467,7 +467,7 @@
         {
           "stableId": "System.Web.HttpUtility:System.Web.HttpUtility::UrlDecode(System.Byte[],System.Int32,System.Int32,System.Text.Encoding):System.String",
           "clrName": "UrlDecode",
-          "tsEmitName": "urlDecode4",
+          "tsEmitName": "UrlDecode4",
           "normalizedSignature": "UrlDecode|(System.Byte[],System.Int32,System.Int32,System.Text.Encoding):System.String|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -483,7 +483,7 @@
         {
           "stableId": "System.Web.HttpUtility:System.Web.HttpUtility::UrlDecodeToBytes(System.Byte[],System.Int32,System.Int32):System.Byte[]",
           "clrName": "UrlDecodeToBytes",
-          "tsEmitName": "urlDecodeToBytes4",
+          "tsEmitName": "UrlDecodeToBytes4",
           "normalizedSignature": "UrlDecodeToBytes|(System.Byte[],System.Int32,System.Int32):System.Byte[]|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -499,7 +499,7 @@
         {
           "stableId": "System.Web.HttpUtility:System.Web.HttpUtility::JavaScriptStringEncode(System.String):System.String",
           "clrName": "JavaScriptStringEncode",
-          "tsEmitName": "javaScriptStringEncode",
+          "tsEmitName": "JavaScriptStringEncode",
           "normalizedSignature": "JavaScriptStringEncode|(System.String):System.String|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -515,7 +515,7 @@
         {
           "stableId": "System.Web.HttpUtility:System.Web.HttpUtility::JavaScriptStringEncode(System.String,System.Boolean):System.String",
           "clrName": "JavaScriptStringEncode",
-          "tsEmitName": "javaScriptStringEncode2",
+          "tsEmitName": "JavaScriptStringEncode2",
           "normalizedSignature": "JavaScriptStringEncode|(System.String,System.Boolean):System.String|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",

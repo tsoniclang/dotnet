@@ -46,125 +46,125 @@ export type CLROf<T> =
     T; // Identity fallback for non-primitive types
 
 export enum RegexOptions {
-    none = 0,
-    ignoreCase = 1,
-    multiline = 2,
-    explicitCapture = 4,
-    compiled = 8,
-    singleline = 16,
-    ignorePatternWhitespace = 32,
-    rightToLeft = 64,
-    ecmaScript = 256,
-    cultureInvariant = 512,
-    nonBacktracking = 1024
+    None = 0,
+    IgnoreCase = 1,
+    Multiline = 2,
+    ExplicitCapture = 4,
+    Compiled = 8,
+    Singleline = 16,
+    IgnorePatternWhitespace = 32,
+    RightToLeft = 64,
+    ECMAScript = 256,
+    CultureInvariant = 512,
+    NonBacktracking = 1024
 }
 
 
 export enum RegexParseError {
-    unknown_ = 0,
-    alternationHasTooManyConditions = 1,
-    alternationHasMalformedCondition = 2,
-    invalidUnicodePropertyEscape = 3,
-    malformedUnicodePropertyEscape = 4,
-    unrecognizedEscape = 5,
-    unrecognizedControlCharacter = 6,
-    missingControlCharacter = 7,
-    insufficientOrInvalidHexDigits = 8,
-    quantifierOrCaptureGroupOutOfRange = 9,
-    undefinedNamedReference = 10,
-    undefinedNumberedReference = 11,
-    malformedNamedReference = 12,
-    unescapedEndingBackslash = 13,
-    unterminatedComment = 14,
-    invalidGroupingConstruct = 15,
-    alternationHasNamedCapture = 16,
-    alternationHasComment = 17,
-    alternationHasMalformedReference = 18,
-    alternationHasUndefinedReference = 19,
-    captureGroupNameInvalid = 20,
-    captureGroupOfZero = 21,
-    unterminatedBracket = 22,
-    exclusionGroupNotLast = 23,
-    reversedCharacterRange = 24,
-    shorthandClassInCharacterRange = 25,
-    insufficientClosingParentheses = 26,
-    reversedQuantifierRange = 27,
-    nestedQuantifiersNotParenthesized = 28,
-    quantifierAfterNothing = 29,
-    insufficientOpeningParentheses = 30,
-    unrecognizedUnicodeProperty = 31
+    Unknown = 0,
+    AlternationHasTooManyConditions = 1,
+    AlternationHasMalformedCondition = 2,
+    InvalidUnicodePropertyEscape = 3,
+    MalformedUnicodePropertyEscape = 4,
+    UnrecognizedEscape = 5,
+    UnrecognizedControlCharacter = 6,
+    MissingControlCharacter = 7,
+    InsufficientOrInvalidHexDigits = 8,
+    QuantifierOrCaptureGroupOutOfRange = 9,
+    UndefinedNamedReference = 10,
+    UndefinedNumberedReference = 11,
+    MalformedNamedReference = 12,
+    UnescapedEndingBackslash = 13,
+    UnterminatedComment = 14,
+    InvalidGroupingConstruct = 15,
+    AlternationHasNamedCapture = 16,
+    AlternationHasComment = 17,
+    AlternationHasMalformedReference = 18,
+    AlternationHasUndefinedReference = 19,
+    CaptureGroupNameInvalid = 20,
+    CaptureGroupOfZero = 21,
+    UnterminatedBracket = 22,
+    ExclusionGroupNotLast = 23,
+    ReversedCharacterRange = 24,
+    ShorthandClassInCharacterRange = 25,
+    InsufficientClosingParentheses = 26,
+    ReversedQuantifierRange = 27,
+    NestedQuantifiersNotParenthesized = 28,
+    QuantifierAfterNothing = 29,
+    InsufficientOpeningParentheses = 30,
+    UnrecognizedUnicodeProperty = 31
 }
 
 
 export class Regex_ValueMatchEnumerator$instance {
-    readonly current: ValueMatch;
-    getEnumerator(): Regex_ValueMatchEnumerator;
-    moveNext(): boolean;
+    readonly Current: ValueMatch;
+    GetEnumerator(): Regex_ValueMatchEnumerator;
+    MoveNext(): boolean;
 }
 
 
 export interface __Regex_ValueMatchEnumerator$views {
-    readonly As_IEnumerator_1: System_Collections_Generic_Internal.IEnumerator_1$instance<ValueMatch>;
-    readonly As_IEnumerator: System_Collections_Internal.IEnumerator$instance;
+    As_IEnumerator_1(): System_Collections_Generic_Internal.IEnumerator_1$instance<ValueMatch>;
+    As_IEnumerator(): System_Collections_Internal.IEnumerator$instance;
 }
 
 export type Regex_ValueMatchEnumerator = Regex_ValueMatchEnumerator$instance & __Regex_ValueMatchEnumerator$views;
 
 
 export class Regex_ValueSplitEnumerator$instance {
-    readonly current: Range;
-    getEnumerator(): Regex_ValueSplitEnumerator;
-    moveNext(): boolean;
+    readonly Current: Range;
+    GetEnumerator(): Regex_ValueSplitEnumerator;
+    MoveNext(): boolean;
 }
 
 
 export interface __Regex_ValueSplitEnumerator$views {
-    readonly As_IEnumerator_1: System_Collections_Generic_Internal.IEnumerator_1$instance<Range>;
-    readonly As_IEnumerator: System_Collections_Internal.IEnumerator$instance;
+    As_IEnumerator_1(): System_Collections_Generic_Internal.IEnumerator_1$instance<Range>;
+    As_IEnumerator(): System_Collections_Internal.IEnumerator$instance;
 }
 
 export type Regex_ValueSplitEnumerator = Regex_ValueSplitEnumerator$instance & __Regex_ValueSplitEnumerator$views;
 
 
 export class ValueMatch$instance {
-    readonly index: int;
-    readonly length: int;
+    readonly Index: int;
+    readonly Length: int;
 }
 
 
 export type ValueMatch = ValueMatch$instance;
 
 export class Capture$instance {
-    readonly index: int;
-    readonly length: int;
-    readonly value: string;
-    readonly valueSpan: ReadOnlySpan_1<CLROf<string>>;
-    toString(): string;
+    readonly Index: int;
+    readonly Length: int;
+    readonly Value: string;
+    readonly ValueSpan: ReadOnlySpan_1<CLROf<char>>;
+    ToString(): string;
 }
 
 
 export type Capture = Capture$instance;
 
 export class CaptureCollection$instance {
-    readonly count: int;
-    readonly isReadOnly: boolean;
-    readonly isSynchronized: boolean;
-    readonly item: Capture;
-    readonly syncRoot: any;
-    copyTo(array: ClrArray, arrayIndex: int): void;
-    copyTo(array: Capture[], arrayIndex: int): void;
-    getEnumerator(): IEnumerator;
+    readonly Count: int;
+    readonly IsReadOnly: boolean;
+    readonly IsSynchronized: boolean;
+    readonly Item: Capture;
+    readonly SyncRoot: unknown;
+    CopyTo(array: ClrArray, arrayIndex: int): void;
+    CopyTo(array: Capture[], arrayIndex: int): void;
+    GetEnumerator(): IEnumerator;
 }
 
 
 export interface __CaptureCollection$views {
-    readonly As_ICollection_1: System_Collections_Generic_Internal.ICollection_1$instance<Capture>;
-    readonly As_IEnumerable_1_of_Char: System_Collections_Generic_Internal.IEnumerable_1$instance<Capture>;
-    readonly As_IList_1: System_Collections_Generic_Internal.IList_1$instance<Capture>;
-    readonly As_IReadOnlyCollection_1: System_Collections_Generic_Internal.IReadOnlyCollection_1$instance<Capture>;
-    readonly As_ICollection: System_Collections_Internal.ICollection$instance;
-    readonly As_IEnumerable: System_Collections_Internal.IEnumerable$instance;
-    readonly As_IList: System_Collections_Internal.IList$instance;
+    As_ICollection_1(): System_Collections_Generic_Internal.ICollection_1$instance<Capture>;
+    As_IEnumerable_1(): System_Collections_Generic_Internal.IEnumerable_1$instance<Capture>;
+    As_IList_1(): System_Collections_Generic_Internal.IList_1$instance<Capture>;
+    As_IReadOnlyCollection_1(): System_Collections_Generic_Internal.IReadOnlyCollection_1$instance<Capture>;
+    As_ICollection(): System_Collections_Internal.ICollection$instance;
+    As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
+    As_IList(): System_Collections_Internal.IList$instance;
 }
 
 export type CaptureCollection = CaptureCollection$instance & __CaptureCollection$views;
@@ -176,19 +176,19 @@ export class GeneratedRegexAttribute$instance extends System_Internal.Attribute$
     constructor(pattern: string, options: RegexOptions, cultureName: string);
     constructor(pattern: string, options: RegexOptions, matchTimeoutMilliseconds: int);
     constructor(pattern: string, options: RegexOptions, matchTimeoutMilliseconds: int, cultureName: string);
-    readonly cultureName: string;
-    readonly matchTimeoutMilliseconds: int;
-    readonly options: RegexOptions;
-    readonly pattern: string;
+    readonly CultureName: string;
+    readonly MatchTimeoutMilliseconds: int;
+    readonly Options: RegexOptions;
+    readonly Pattern: string;
 }
 
 
 export type GeneratedRegexAttribute = GeneratedRegexAttribute$instance;
 
 export class Group$instance extends Capture$instance {
-    readonly captures: CaptureCollection;
-    readonly name: string;
-    readonly success: boolean;
+    readonly Captures: CaptureCollection;
+    readonly Name: string;
+    readonly Success: boolean;
     static Synchronized(inner: Group): Group;
 }
 
@@ -196,40 +196,40 @@ export class Group$instance extends Capture$instance {
 export type Group = Group$instance;
 
 export class GroupCollection$instance {
-    readonly count: int;
-    readonly isReadOnly: boolean;
-    readonly isSynchronized: boolean;
-    readonly keys: IEnumerable_1<CLROf<string>>;
-    readonly syncRoot: any;
-    readonly values: IEnumerable_1<Group>;
-    containsKey(key: string): boolean;
-    copyTo(array: ClrArray, arrayIndex: int): void;
-    copyTo(array: Group[], arrayIndex: int): void;
+    readonly Count: int;
+    readonly IsReadOnly: boolean;
+    readonly IsSynchronized: boolean;
+    readonly Keys: IEnumerable_1<CLROf<string>>;
+    readonly SyncRoot: unknown;
+    readonly Values: IEnumerable_1<Group>;
+    ContainsKey(key: string): boolean;
+    CopyTo(array: ClrArray, arrayIndex: int): void;
+    CopyTo(array: Group[], arrayIndex: int): void;
     get_Item(groupnum: int): Group;
     get_Item(groupname: string): Group;
-    getEnumerator(): IEnumerator;
-    tryGetValue(key: string, value: { value: ref<Group> }): boolean;
+    GetEnumerator(): IEnumerator;
+    TryGetValue(key: string, value: { value: ref<Group> }): boolean;
 }
 
 
 export interface __GroupCollection$views {
-    readonly As_ICollection_1: System_Collections_Generic_Internal.ICollection_1$instance<Group>;
-    readonly As_IEnumerable_1_of_Char: System_Collections_Generic_Internal.IEnumerable_1$instance<Group>;
-    readonly As_IList_1: System_Collections_Generic_Internal.IList_1$instance<Group>;
-    readonly As_IReadOnlyCollection_1: System_Collections_Generic_Internal.IReadOnlyCollection_1$instance<Group>;
-    readonly As_IReadOnlyDictionary_2: System_Collections_Generic_Internal.IReadOnlyDictionary_2$instance<CLROf<string>, Group>;
-    readonly As_ICollection: System_Collections_Internal.ICollection$instance;
-    readonly As_IEnumerable: System_Collections_Internal.IEnumerable$instance;
-    readonly As_IList: System_Collections_Internal.IList$instance;
+    As_ICollection_1(): System_Collections_Generic_Internal.ICollection_1$instance<Group>;
+    As_IEnumerable_1(): System_Collections_Generic_Internal.IEnumerable_1$instance<Group>;
+    As_IList_1(): System_Collections_Generic_Internal.IList_1$instance<Group>;
+    As_IReadOnlyCollection_1(): System_Collections_Generic_Internal.IReadOnlyCollection_1$instance<Group>;
+    As_IReadOnlyDictionary_2(): System_Collections_Generic_Internal.IReadOnlyDictionary_2$instance<CLROf<string>, Group>;
+    As_ICollection(): System_Collections_Internal.ICollection$instance;
+    As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
+    As_IList(): System_Collections_Internal.IList$instance;
 }
 
 export type GroupCollection = GroupCollection$instance & __GroupCollection$views;
 
 
 export class Match$instance extends Group$instance {
-    readonly groups: GroupCollection;
-    nextMatch(): Match;
-    result(replacement: string): string;
+    readonly Groups: GroupCollection;
+    NextMatch(): Match;
+    Result(replacement: string): string;
     static readonly Empty: Match;
 }
 
@@ -237,43 +237,43 @@ export class Match$instance extends Group$instance {
 export type Match = Match$instance;
 
 export class MatchCollection$instance {
-    readonly count: int;
-    readonly isReadOnly: boolean;
-    readonly isSynchronized: boolean;
-    readonly item: Match;
-    readonly syncRoot: any;
-    copyTo(array: ClrArray, arrayIndex: int): void;
-    copyTo(array: Match[], arrayIndex: int): void;
-    getEnumerator(): IEnumerator;
+    readonly Count: int;
+    readonly IsReadOnly: boolean;
+    readonly IsSynchronized: boolean;
+    readonly Item: Match;
+    readonly SyncRoot: unknown;
+    CopyTo(array: ClrArray, arrayIndex: int): void;
+    CopyTo(array: Match[], arrayIndex: int): void;
+    GetEnumerator(): IEnumerator;
 }
 
 
 export interface __MatchCollection$views {
-    readonly As_ICollection_1: System_Collections_Generic_Internal.ICollection_1$instance<Match>;
-    readonly As_IEnumerable_1_of_Char: System_Collections_Generic_Internal.IEnumerable_1$instance<Match>;
-    readonly As_IList_1: System_Collections_Generic_Internal.IList_1$instance<Match>;
-    readonly As_IReadOnlyCollection_1: System_Collections_Generic_Internal.IReadOnlyCollection_1$instance<Match>;
-    readonly As_ICollection: System_Collections_Internal.ICollection$instance;
-    readonly As_IEnumerable: System_Collections_Internal.IEnumerable$instance;
-    readonly As_IList: System_Collections_Internal.IList$instance;
+    As_ICollection_1(): System_Collections_Generic_Internal.ICollection_1$instance<Match>;
+    As_IEnumerable_1(): System_Collections_Generic_Internal.IEnumerable_1$instance<Match>;
+    As_IList_1(): System_Collections_Generic_Internal.IList_1$instance<Match>;
+    As_IReadOnlyCollection_1(): System_Collections_Generic_Internal.IReadOnlyCollection_1$instance<Match>;
+    As_ICollection(): System_Collections_Internal.ICollection$instance;
+    As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
+    As_IList(): System_Collections_Internal.IList$instance;
 }
 
 export type MatchCollection = MatchCollection$instance & __MatchCollection$views;
 
 
 export class MatchEvaluator$instance extends Function {
-    constructor(object_: any, method: nint);
-    beginInvoke(match: Match, callback: AsyncCallback, object_: any): IAsyncResult;
-    clone(): any;
-    endInvoke(result: IAsyncResult): string;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(match: Match): string;
+    constructor(object_: unknown, method: nint);
+    BeginInvoke(match: Match, callback: AsyncCallback, object_: unknown): IAsyncResult;
+    Clone(): unknown;
+    EndInvoke(result: IAsyncResult): string;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    Invoke(match: Match): string;
 }
 
 
 export interface __MatchEvaluator$views {
-    readonly As_ICloneable: System_Internal.ICloneable$instance;
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ICloneable(): System_Internal.ICloneable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type MatchEvaluator = MatchEvaluator$instance & __MatchEvaluator$views;
@@ -283,61 +283,61 @@ export class Regex$instance {
     constructor(pattern: string);
     constructor(pattern: string, options: RegexOptions);
     constructor(pattern: string, options: RegexOptions, matchTimeout: TimeSpan);
-    readonly matchTimeout: TimeSpan;
-    readonly options: RegexOptions;
-    readonly rightToLeft: boolean;
-    count(input: string): int;
-    count(input: ReadOnlySpan_1<CLROf<string>>): int;
-    count(input: ReadOnlySpan_1<CLROf<string>>, startat: int): int;
-    enumerateMatches(input: ReadOnlySpan_1<CLROf<string>>): Regex_ValueMatchEnumerator;
-    enumerateMatches(input: ReadOnlySpan_1<CLROf<string>>, startat: int): Regex_ValueMatchEnumerator;
-    enumerateSplits(input: ReadOnlySpan_1<CLROf<string>>): Regex_ValueSplitEnumerator;
-    enumerateSplits(input: ReadOnlySpan_1<CLROf<string>>, count: int): Regex_ValueSplitEnumerator;
-    enumerateSplits(input: ReadOnlySpan_1<CLROf<string>>, count: int, startat: int): Regex_ValueSplitEnumerator;
-    getGroupNames(): string[];
-    getGroupNumbers(): int[];
-    groupNameFromNumber(i: int): string;
-    groupNumberFromName(name: string): int;
-    isMatch(input: string): boolean;
-    isMatch(input: string, startat: int): boolean;
-    isMatch(input: ReadOnlySpan_1<CLROf<string>>): boolean;
-    isMatch(input: ReadOnlySpan_1<CLROf<string>>, startat: int): boolean;
-    match(input: string): Match;
-    match(input: string, startat: int): Match;
-    match(input: string, beginning: int, length: int): Match;
-    matches(input: string): MatchCollection;
-    matches(input: string, startat: int): MatchCollection;
-    replace(input: string, replacement: string): string;
-    replace(input: string, replacement: string, count: int): string;
-    replace(input: string, replacement: string, count: int, startat: int): string;
-    replace(input: string, evaluator: MatchEvaluator): string;
-    replace(input: string, evaluator: MatchEvaluator, count: int): string;
-    replace(input: string, evaluator: MatchEvaluator, count: int, startat: int): string;
-    split(input: string): string[];
-    split(input: string, count: int): string[];
-    split(input: string, count: int, startat: int): string[];
-    toString(): string;
-    static readonly infiniteMatchTimeout: TimeSpan;
+    readonly MatchTimeout: TimeSpan;
+    readonly Options: RegexOptions;
+    readonly RightToLeft: boolean;
+    Count(input: string): int;
+    Count(input: ReadOnlySpan_1<CLROf<char>>): int;
+    Count(input: ReadOnlySpan_1<CLROf<char>>, startat: int): int;
+    EnumerateMatches(input: ReadOnlySpan_1<CLROf<char>>): Regex_ValueMatchEnumerator;
+    EnumerateMatches(input: ReadOnlySpan_1<CLROf<char>>, startat: int): Regex_ValueMatchEnumerator;
+    EnumerateSplits(input: ReadOnlySpan_1<CLROf<char>>): Regex_ValueSplitEnumerator;
+    EnumerateSplits(input: ReadOnlySpan_1<CLROf<char>>, count: int): Regex_ValueSplitEnumerator;
+    EnumerateSplits(input: ReadOnlySpan_1<CLROf<char>>, count: int, startat: int): Regex_ValueSplitEnumerator;
+    GetGroupNames(): string[];
+    GetGroupNumbers(): int[];
+    GroupNameFromNumber(i: int): string;
+    GroupNumberFromName(name: string): int;
+    IsMatch(input: string): boolean;
+    IsMatch(input: string, startat: int): boolean;
+    IsMatch(input: ReadOnlySpan_1<CLROf<char>>): boolean;
+    IsMatch(input: ReadOnlySpan_1<CLROf<char>>, startat: int): boolean;
+    Match(input: string): Match;
+    Match(input: string, startat: int): Match;
+    Match(input: string, beginning: int, length: int): Match;
+    Matches(input: string): MatchCollection;
+    Matches(input: string, startat: int): MatchCollection;
+    Replace(input: string, replacement: string): string;
+    Replace(input: string, replacement: string, count: int): string;
+    Replace(input: string, replacement: string, count: int, startat: int): string;
+    Replace(input: string, evaluator: MatchEvaluator): string;
+    Replace(input: string, evaluator: MatchEvaluator, count: int): string;
+    Replace(input: string, evaluator: MatchEvaluator, count: int, startat: int): string;
+    Split(input: string): string[];
+    Split(input: string, count: int): string[];
+    Split(input: string, count: int, startat: int): string[];
+    ToString(): string;
+    static readonly InfiniteMatchTimeout: TimeSpan;
     static CacheSize: int;
     static CompileToAssembly(regexinfos: RegexCompilationInfo[], assemblyname: AssemblyName, attributes: CustomAttributeBuilder[], resourceFile: string): void;
     static CompileToAssembly(regexinfos: RegexCompilationInfo[], assemblyname: AssemblyName, attributes: CustomAttributeBuilder[]): void;
     static CompileToAssembly(regexinfos: RegexCompilationInfo[], assemblyname: AssemblyName): void;
-    static Count(input: ReadOnlySpan_1<CLROf<string>>, pattern: string, options: RegexOptions, matchTimeout: TimeSpan): int;
-    static Count(input: ReadOnlySpan_1<CLROf<string>>, pattern: string, options: RegexOptions): int;
-    static Count(input: ReadOnlySpan_1<CLROf<string>>, pattern: string): int;
+    static Count(input: ReadOnlySpan_1<CLROf<char>>, pattern: string, options: RegexOptions, matchTimeout: TimeSpan): int;
+    static Count(input: ReadOnlySpan_1<CLROf<char>>, pattern: string, options: RegexOptions): int;
+    static Count(input: ReadOnlySpan_1<CLROf<char>>, pattern: string): int;
     static Count(input: string, pattern: string, options: RegexOptions, matchTimeout: TimeSpan): int;
     static Count(input: string, pattern: string, options: RegexOptions): int;
     static Count(input: string, pattern: string): int;
-    static EnumerateMatches(input: ReadOnlySpan_1<CLROf<string>>, pattern: string, options: RegexOptions, matchTimeout: TimeSpan): Regex_ValueMatchEnumerator;
-    static EnumerateMatches(input: ReadOnlySpan_1<CLROf<string>>, pattern: string, options: RegexOptions): Regex_ValueMatchEnumerator;
-    static EnumerateMatches(input: ReadOnlySpan_1<CLROf<string>>, pattern: string): Regex_ValueMatchEnumerator;
-    static EnumerateSplits(input: ReadOnlySpan_1<CLROf<string>>, pattern: string, options: RegexOptions, matchTimeout: TimeSpan): Regex_ValueSplitEnumerator;
-    static EnumerateSplits(input: ReadOnlySpan_1<CLROf<string>>, pattern: string, options: RegexOptions): Regex_ValueSplitEnumerator;
-    static EnumerateSplits(input: ReadOnlySpan_1<CLROf<string>>, pattern: string): Regex_ValueSplitEnumerator;
+    static EnumerateMatches(input: ReadOnlySpan_1<CLROf<char>>, pattern: string, options: RegexOptions, matchTimeout: TimeSpan): Regex_ValueMatchEnumerator;
+    static EnumerateMatches(input: ReadOnlySpan_1<CLROf<char>>, pattern: string, options: RegexOptions): Regex_ValueMatchEnumerator;
+    static EnumerateMatches(input: ReadOnlySpan_1<CLROf<char>>, pattern: string): Regex_ValueMatchEnumerator;
+    static EnumerateSplits(input: ReadOnlySpan_1<CLROf<char>>, pattern: string, options: RegexOptions, matchTimeout: TimeSpan): Regex_ValueSplitEnumerator;
+    static EnumerateSplits(input: ReadOnlySpan_1<CLROf<char>>, pattern: string, options: RegexOptions): Regex_ValueSplitEnumerator;
+    static EnumerateSplits(input: ReadOnlySpan_1<CLROf<char>>, pattern: string): Regex_ValueSplitEnumerator;
     static Escape(str: string): string;
-    static IsMatch(input: ReadOnlySpan_1<CLROf<string>>, pattern: string, options: RegexOptions, matchTimeout: TimeSpan): boolean;
-    static IsMatch(input: ReadOnlySpan_1<CLROf<string>>, pattern: string, options: RegexOptions): boolean;
-    static IsMatch(input: ReadOnlySpan_1<CLROf<string>>, pattern: string): boolean;
+    static IsMatch(input: ReadOnlySpan_1<CLROf<char>>, pattern: string, options: RegexOptions, matchTimeout: TimeSpan): boolean;
+    static IsMatch(input: ReadOnlySpan_1<CLROf<char>>, pattern: string, options: RegexOptions): boolean;
+    static IsMatch(input: ReadOnlySpan_1<CLROf<char>>, pattern: string): boolean;
     static IsMatch(input: string, pattern: string, options: RegexOptions, matchTimeout: TimeSpan): boolean;
     static IsMatch(input: string, pattern: string, options: RegexOptions): boolean;
     static IsMatch(input: string, pattern: string): boolean;
@@ -361,8 +361,10 @@ export class Regex$instance {
 
 
 export interface __Regex$views {
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
+
+export interface Regex$instance extends System_Runtime_Serialization_Internal.ISerializable$instance {}
 
 export type Regex = Regex$instance & __Regex$views;
 
@@ -370,12 +372,12 @@ export type Regex = Regex$instance & __Regex$views;
 export class RegexCompilationInfo$instance {
     constructor(pattern: string, options: RegexOptions, name: string, fullnamespace: string, ispublic: boolean);
     constructor(pattern: string, options: RegexOptions, name: string, fullnamespace: string, ispublic: boolean, matchTimeout: TimeSpan);
-    isPublic: boolean;
-    matchTimeout: TimeSpan;
-    name: string;
-    namespace_: string;
-    options: RegexOptions;
-    pattern: string;
+    IsPublic: boolean;
+    MatchTimeout: TimeSpan;
+    Name: string;
+    Namespace: string;
+    Options: RegexOptions;
+    Pattern: string;
 }
 
 
@@ -386,36 +388,36 @@ export class RegexMatchTimeoutException$instance extends System_Internal.Timeout
     constructor();
     constructor(message: string);
     constructor(message: string, inner: Exception);
-    readonly input: string;
-    readonly matchTimeout: TimeSpan;
-    readonly pattern: string;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
+    readonly Input: string;
+    readonly MatchTimeout: TimeSpan;
+    readonly Pattern: string;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
 export interface __RegexMatchTimeoutException$views {
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type RegexMatchTimeoutException = RegexMatchTimeoutException$instance & __RegexMatchTimeoutException$views;
 
 
 export class RegexParseException$instance extends System_Internal.ArgumentException$instance {
-    readonly error: RegexParseError;
-    readonly offset: int;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
+    readonly Error: RegexParseError;
+    readonly Offset: int;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
 export interface __RegexParseException$views {
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type RegexParseException = RegexParseException$instance & __RegexParseException$views;
 
 
 export abstract class RegexRunner$instance {
-    static CharInClass(ch: string, charClass: string): boolean;
+    static CharInClass(ch: char, charClass: string): boolean;
 }
 
 

@@ -41,18 +41,18 @@ export type CLROf<T> =
 export class Utf8_TryWriteInterpolatedStringHandler$instance {
     constructor(literalLength: int, formattedCount: int, destination: Span_1<CLROf<byte>>, shouldAppend: ref<boolean>);
     constructor(literalLength: int, formattedCount: int, destination: Span_1<CLROf<byte>>, provider: IFormatProvider, shouldAppend: ref<boolean>);
-    appendFormatted<T>(value: T): boolean;
-    appendFormatted<T>(value: T, format: string): boolean;
-    appendFormatted<T>(value: T, alignment: int): boolean;
-    appendFormatted<T>(value: T, alignment: int, format: string): boolean;
-    appendFormatted(value: ReadOnlySpan_1<CLROf<string>>): boolean;
-    appendFormatted(value: ReadOnlySpan_1<CLROf<string>>, alignment?: int, format?: string): boolean;
-    appendFormatted(utf8Value: ReadOnlySpan_1<CLROf<byte>>): boolean;
-    appendFormatted(utf8Value: ReadOnlySpan_1<CLROf<byte>>, alignment?: int, format?: string): boolean;
-    appendFormatted(value: string): boolean;
-    appendFormatted(value: string, alignment?: int, format?: string): boolean;
-    appendFormatted(value: any, alignment?: int, format?: string): boolean;
-    appendLiteral(value: string): boolean;
+    AppendFormatted<T>(value: T): boolean;
+    AppendFormatted<T>(value: T, format: string): boolean;
+    AppendFormatted<T>(value: T, alignment: int): boolean;
+    AppendFormatted<T>(value: T, alignment: int, format: string): boolean;
+    AppendFormatted(value: ReadOnlySpan_1<CLROf<char>>): boolean;
+    AppendFormatted(value: ReadOnlySpan_1<CLROf<char>>, alignment?: int, format?: string): boolean;
+    AppendFormatted(utf8Value: ReadOnlySpan_1<CLROf<byte>>): boolean;
+    AppendFormatted(utf8Value: ReadOnlySpan_1<CLROf<byte>>, alignment?: int, format?: string): boolean;
+    AppendFormatted(value: string): boolean;
+    AppendFormatted(value: string, alignment?: int, format?: string): boolean;
+    AppendFormatted(value: unknown, alignment?: int, format?: string): boolean;
+    AppendLiteral(value: string): boolean;
 }
 
 
@@ -60,9 +60,9 @@ export type Utf8_TryWriteInterpolatedStringHandler = Utf8_TryWriteInterpolatedSt
 
 export class UnicodeRange$instance {
     constructor(firstCodePoint: int, length: int);
-    readonly firstCodePoint: int;
-    readonly length: int;
-    static Create(firstCharacter: string, lastCharacter: string): UnicodeRange;
+    readonly FirstCodePoint: int;
+    readonly Length: int;
+    static Create(firstCharacter: char, lastCharacter: char): UnicodeRange;
 }
 
 
@@ -237,9 +237,9 @@ export abstract class UnicodeRanges$instance {
 export type UnicodeRanges = UnicodeRanges$instance;
 
 export abstract class Utf8$instance {
-    static FromUtf16(source: ReadOnlySpan_1<CLROf<string>>, destination: Span_1<CLROf<byte>>, charsRead: { value: ref<int> }, bytesWritten: { value: ref<int> }, replaceInvalidSequences?: boolean, isFinalBlock?: boolean): OperationStatus;
+    static FromUtf16(source: ReadOnlySpan_1<CLROf<char>>, destination: Span_1<CLROf<byte>>, charsRead: { value: ref<int> }, bytesWritten: { value: ref<int> }, replaceInvalidSequences?: boolean, isFinalBlock?: boolean): OperationStatus;
     static IsValid(value: ReadOnlySpan_1<CLROf<byte>>): boolean;
-    static ToUtf16(source: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<string>>, bytesRead: { value: ref<int> }, charsWritten: { value: ref<int> }, replaceInvalidSequences?: boolean, isFinalBlock?: boolean): OperationStatus;
+    static ToUtf16(source: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<char>>, bytesRead: { value: ref<int> }, charsWritten: { value: ref<int> }, replaceInvalidSequences?: boolean, isFinalBlock?: boolean): OperationStatus;
     static TryWrite(destination: Span_1<CLROf<byte>>, provider: IFormatProvider, handler: { value: ref<Utf8_TryWriteInterpolatedStringHandler> }, bytesWritten: { value: ref<int> }): boolean;
     static TryWrite(destination: Span_1<CLROf<byte>>, handler: { value: ref<Utf8_TryWriteInterpolatedStringHandler> }, bytesWritten: { value: ref<int> }): boolean;
 }

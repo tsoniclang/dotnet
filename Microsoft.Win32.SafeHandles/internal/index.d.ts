@@ -37,26 +37,26 @@ export type CLROf<T> =
     T; // Identity fallback for non-primitive types
 
 export abstract class CriticalHandleMinusOneIsInvalid$instance extends System_Runtime_InteropServices_Internal.CriticalHandle$instance {
-    readonly isInvalid: boolean;
-    dispose(): void;
+    readonly IsInvalid: boolean;
+    Dispose(): void;
 }
 
 
 export interface __CriticalHandleMinusOneIsInvalid$views {
-    readonly As_IDisposable: System_Internal.IDisposable$instance;
+    As_IDisposable(): System_Internal.IDisposable$instance;
 }
 
 export type CriticalHandleMinusOneIsInvalid = CriticalHandleMinusOneIsInvalid$instance & __CriticalHandleMinusOneIsInvalid$views;
 
 
 export abstract class CriticalHandleZeroOrMinusOneIsInvalid$instance extends System_Runtime_InteropServices_Internal.CriticalHandle$instance {
-    readonly isInvalid: boolean;
-    dispose(): void;
+    readonly IsInvalid: boolean;
+    Dispose(): void;
 }
 
 
 export interface __CriticalHandleZeroOrMinusOneIsInvalid$views {
-    readonly As_IDisposable: System_Internal.IDisposable$instance;
+    As_IDisposable(): System_Internal.IDisposable$instance;
 }
 
 export type CriticalHandleZeroOrMinusOneIsInvalid = CriticalHandleZeroOrMinusOneIsInvalid$instance & __CriticalHandleZeroOrMinusOneIsInvalid$views;
@@ -65,14 +65,14 @@ export type CriticalHandleZeroOrMinusOneIsInvalid = CriticalHandleZeroOrMinusOne
 export class SafeAccessTokenHandle$instance extends System_Runtime_InteropServices_Internal.SafeHandle$instance {
     constructor();
     constructor(handle: nint);
-    readonly isInvalid: boolean;
-    dispose(): void;
+    readonly IsInvalid: boolean;
+    Dispose(): void;
     static readonly InvalidHandle: SafeAccessTokenHandle;
 }
 
 
 export interface __SafeAccessTokenHandle$views {
-    readonly As_IDisposable: System_Internal.IDisposable$instance;
+    As_IDisposable(): System_Internal.IDisposable$instance;
 }
 
 export type SafeAccessTokenHandle = SafeAccessTokenHandle$instance & __SafeAccessTokenHandle$views;
@@ -81,40 +81,40 @@ export type SafeAccessTokenHandle = SafeAccessTokenHandle$instance & __SafeAcces
 export class SafeFileHandle$instance extends SafeHandleZeroOrMinusOneIsInvalid$instance {
     constructor(preexistingHandle: nint, ownsHandle: boolean);
     constructor();
-    readonly isAsync: boolean;
-    readonly isInvalid: boolean;
-    dispose(): void;
+    readonly IsAsync: boolean;
+    readonly IsInvalid: boolean;
+    Dispose(): void;
 }
 
 
 export interface __SafeFileHandle$views {
-    readonly As_IDisposable: System_Internal.IDisposable$instance;
+    As_IDisposable(): System_Internal.IDisposable$instance;
 }
 
 export type SafeFileHandle = SafeFileHandle$instance & __SafeFileHandle$views;
 
 
 export abstract class SafeHandleMinusOneIsInvalid$instance extends System_Runtime_InteropServices_Internal.SafeHandle$instance {
-    readonly isInvalid: boolean;
-    dispose(): void;
+    readonly IsInvalid: boolean;
+    Dispose(): void;
 }
 
 
 export interface __SafeHandleMinusOneIsInvalid$views {
-    readonly As_IDisposable: System_Internal.IDisposable$instance;
+    As_IDisposable(): System_Internal.IDisposable$instance;
 }
 
 export type SafeHandleMinusOneIsInvalid = SafeHandleMinusOneIsInvalid$instance & __SafeHandleMinusOneIsInvalid$views;
 
 
 export abstract class SafeHandleZeroOrMinusOneIsInvalid$instance extends System_Runtime_InteropServices_Internal.SafeHandle$instance {
-    readonly isInvalid: boolean;
-    dispose(): void;
+    readonly IsInvalid: boolean;
+    Dispose(): void;
 }
 
 
 export interface __SafeHandleZeroOrMinusOneIsInvalid$views {
-    readonly As_IDisposable: System_Internal.IDisposable$instance;
+    As_IDisposable(): System_Internal.IDisposable$instance;
 }
 
 export type SafeHandleZeroOrMinusOneIsInvalid = SafeHandleZeroOrMinusOneIsInvalid$instance & __SafeHandleZeroOrMinusOneIsInvalid$views;
@@ -122,13 +122,13 @@ export type SafeHandleZeroOrMinusOneIsInvalid = SafeHandleZeroOrMinusOneIsInvali
 
 export class SafeMemoryMappedFileHandle$instance extends SafeHandleZeroOrMinusOneIsInvalid$instance {
     constructor();
-    readonly isInvalid: boolean;
-    dispose(): void;
+    readonly IsInvalid: boolean;
+    Dispose(): void;
 }
 
 
 export interface __SafeMemoryMappedFileHandle$views {
-    readonly As_IDisposable: System_Internal.IDisposable$instance;
+    As_IDisposable(): System_Internal.IDisposable$instance;
 }
 
 export type SafeMemoryMappedFileHandle = SafeMemoryMappedFileHandle$instance & __SafeMemoryMappedFileHandle$views;
@@ -136,24 +136,24 @@ export type SafeMemoryMappedFileHandle = SafeMemoryMappedFileHandle$instance & _
 
 export class SafeMemoryMappedViewHandle$instance extends System_Runtime_InteropServices_Internal.SafeBuffer$instance {
     constructor();
-    dispose(): void;
+    Dispose(): void;
 }
 
 
 export interface __SafeMemoryMappedViewHandle$views {
-    readonly As_IDisposable: System_Internal.IDisposable$instance;
+    As_IDisposable(): System_Internal.IDisposable$instance;
 }
 
 export type SafeMemoryMappedViewHandle = SafeMemoryMappedViewHandle$instance & __SafeMemoryMappedViewHandle$views;
 
 
 export abstract class SafeNCryptHandle$instance extends SafeHandleZeroOrMinusOneIsInvalid$instance {
-    dispose(): void;
+    Dispose(): void;
 }
 
 
 export interface __SafeNCryptHandle$views {
-    readonly As_IDisposable: System_Internal.IDisposable$instance;
+    As_IDisposable(): System_Internal.IDisposable$instance;
 }
 
 export type SafeNCryptHandle = SafeNCryptHandle$instance & __SafeNCryptHandle$views;
@@ -162,12 +162,12 @@ export type SafeNCryptHandle = SafeNCryptHandle$instance & __SafeNCryptHandle$vi
 export class SafeNCryptKeyHandle$instance extends SafeNCryptHandle$instance {
     constructor();
     constructor(handle: nint, parentHandle: SafeHandle);
-    dispose(): void;
+    Dispose(): void;
 }
 
 
 export interface __SafeNCryptKeyHandle$views {
-    readonly As_IDisposable: System_Internal.IDisposable$instance;
+    As_IDisposable(): System_Internal.IDisposable$instance;
 }
 
 export type SafeNCryptKeyHandle = SafeNCryptKeyHandle$instance & __SafeNCryptKeyHandle$views;
@@ -175,12 +175,12 @@ export type SafeNCryptKeyHandle = SafeNCryptKeyHandle$instance & __SafeNCryptKey
 
 export class SafeNCryptProviderHandle$instance extends SafeNCryptHandle$instance {
     constructor();
-    dispose(): void;
+    Dispose(): void;
 }
 
 
 export interface __SafeNCryptProviderHandle$views {
-    readonly As_IDisposable: System_Internal.IDisposable$instance;
+    As_IDisposable(): System_Internal.IDisposable$instance;
 }
 
 export type SafeNCryptProviderHandle = SafeNCryptProviderHandle$instance & __SafeNCryptProviderHandle$views;
@@ -188,12 +188,12 @@ export type SafeNCryptProviderHandle = SafeNCryptProviderHandle$instance & __Saf
 
 export class SafeNCryptSecretHandle$instance extends SafeNCryptHandle$instance {
     constructor();
-    dispose(): void;
+    Dispose(): void;
 }
 
 
 export interface __SafeNCryptSecretHandle$views {
-    readonly As_IDisposable: System_Internal.IDisposable$instance;
+    As_IDisposable(): System_Internal.IDisposable$instance;
 }
 
 export type SafeNCryptSecretHandle = SafeNCryptSecretHandle$instance & __SafeNCryptSecretHandle$views;
@@ -202,13 +202,13 @@ export type SafeNCryptSecretHandle = SafeNCryptSecretHandle$instance & __SafeNCr
 export class SafePipeHandle$instance extends SafeHandleZeroOrMinusOneIsInvalid$instance {
     constructor();
     constructor(preexistingHandle: nint, ownsHandle: boolean);
-    readonly isInvalid: boolean;
-    dispose(): void;
+    readonly IsInvalid: boolean;
+    Dispose(): void;
 }
 
 
 export interface __SafePipeHandle$views {
-    readonly As_IDisposable: System_Internal.IDisposable$instance;
+    As_IDisposable(): System_Internal.IDisposable$instance;
 }
 
 export type SafePipeHandle = SafePipeHandle$instance & __SafePipeHandle$views;
@@ -217,12 +217,12 @@ export type SafePipeHandle = SafePipeHandle$instance & __SafePipeHandle$views;
 export class SafeProcessHandle$instance extends SafeHandleZeroOrMinusOneIsInvalid$instance {
     constructor();
     constructor(existingHandle: nint, ownsHandle: boolean);
-    dispose(): void;
+    Dispose(): void;
 }
 
 
 export interface __SafeProcessHandle$views {
-    readonly As_IDisposable: System_Internal.IDisposable$instance;
+    As_IDisposable(): System_Internal.IDisposable$instance;
 }
 
 export type SafeProcessHandle = SafeProcessHandle$instance & __SafeProcessHandle$views;
@@ -231,12 +231,12 @@ export type SafeProcessHandle = SafeProcessHandle$instance & __SafeProcessHandle
 export class SafeRegistryHandle$instance extends SafeHandleZeroOrMinusOneIsInvalid$instance {
     constructor();
     constructor(preexistingHandle: nint, ownsHandle: boolean);
-    dispose(): void;
+    Dispose(): void;
 }
 
 
 export interface __SafeRegistryHandle$views {
-    readonly As_IDisposable: System_Internal.IDisposable$instance;
+    As_IDisposable(): System_Internal.IDisposable$instance;
 }
 
 export type SafeRegistryHandle = SafeRegistryHandle$instance & __SafeRegistryHandle$views;
@@ -245,12 +245,12 @@ export type SafeRegistryHandle = SafeRegistryHandle$instance & __SafeRegistryHan
 export class SafeWaitHandle$instance extends SafeHandleZeroOrMinusOneIsInvalid$instance {
     constructor();
     constructor(existingHandle: nint, ownsHandle: boolean);
-    dispose(): void;
+    Dispose(): void;
 }
 
 
 export interface __SafeWaitHandle$views {
-    readonly As_IDisposable: System_Internal.IDisposable$instance;
+    As_IDisposable(): System_Internal.IDisposable$instance;
 }
 
 export type SafeWaitHandle = SafeWaitHandle$instance & __SafeWaitHandle$views;
@@ -258,12 +258,12 @@ export type SafeWaitHandle = SafeWaitHandle$instance & __SafeWaitHandle$views;
 
 export class SafeX509ChainHandle$instance extends SafeHandleZeroOrMinusOneIsInvalid$instance {
     constructor();
-    dispose(): void;
+    Dispose(): void;
 }
 
 
 export interface __SafeX509ChainHandle$views {
-    readonly As_IDisposable: System_Internal.IDisposable$instance;
+    As_IDisposable(): System_Internal.IDisposable$instance;
 }
 
 export type SafeX509ChainHandle = SafeX509ChainHandle$instance & __SafeX509ChainHandle$views;

@@ -40,39 +40,39 @@ export type CLROf<T> =
     T; // Identity fallback for non-primitive types
 
 export enum SveMaskPattern {
-    largestPowerOf2 = 0,
-    vectorCount1 = 1,
-    vectorCount2 = 2,
-    vectorCount3 = 3,
-    vectorCount4 = 4,
-    vectorCount5 = 5,
-    vectorCount6 = 6,
-    vectorCount7 = 7,
-    vectorCount8 = 8,
-    vectorCount16 = 9,
-    vectorCount32 = 10,
-    vectorCount64 = 11,
-    vectorCount128 = 12,
-    vectorCount256 = 13,
-    largestMultipleOf4 = 29,
-    largestMultipleOf3 = 30,
-    all = 31
+    LargestPowerOf2 = 0,
+    VectorCount1 = 1,
+    VectorCount2 = 2,
+    VectorCount3 = 3,
+    VectorCount4 = 4,
+    VectorCount5 = 5,
+    VectorCount6 = 6,
+    VectorCount7 = 7,
+    VectorCount8 = 8,
+    VectorCount16 = 9,
+    VectorCount32 = 10,
+    VectorCount64 = 11,
+    VectorCount128 = 12,
+    VectorCount256 = 13,
+    LargestMultipleOf4 = 29,
+    LargestMultipleOf3 = 30,
+    All = 31
 }
 
 
 export enum SvePrefetchType {
-    loadL1Temporal = 0,
-    loadL1NonTemporal = 1,
-    loadL2Temporal = 2,
-    loadL2NonTemporal = 3,
-    loadL3Temporal = 4,
-    loadL3NonTemporal = 5,
-    storeL1Temporal = 8,
-    storeL1NonTemporal = 9,
-    storeL2Temporal = 10,
-    storeL2NonTemporal = 11,
-    storeL3Temporal = 12,
-    storeL3NonTemporal = 13
+    LoadL1Temporal = 0,
+    LoadL1NonTemporal = 1,
+    LoadL2Temporal = 2,
+    LoadL2NonTemporal = 3,
+    LoadL3Temporal = 4,
+    LoadL3NonTemporal = 5,
+    StoreL1Temporal = 8,
+    StoreL1NonTemporal = 9,
+    StoreL2Temporal = 10,
+    StoreL2NonTemporal = 11,
+    StoreL3Temporal = 12,
+    StoreL3NonTemporal = 13
 }
 
 

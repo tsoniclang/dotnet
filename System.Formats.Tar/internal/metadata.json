@@ -29,7 +29,7 @@
         {
           "stableId": "System.Formats.Tar:System.Formats.Tar.TarEntryFormat::UnknownSystem.Formats.Tar.TarEntryFormat",
           "clrName": "Unknown",
-          "tsEmitName": "unknown_",
+          "tsEmitName": "Unknown",
           "normalizedSignature": "Unknown|System.Formats.Tar.TarEntryFormat|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -38,7 +38,7 @@
         {
           "stableId": "System.Formats.Tar:System.Formats.Tar.TarEntryFormat::V7System.Formats.Tar.TarEntryFormat",
           "clrName": "V7",
-          "tsEmitName": "v7",
+          "tsEmitName": "V7",
           "normalizedSignature": "V7|System.Formats.Tar.TarEntryFormat|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -47,7 +47,7 @@
         {
           "stableId": "System.Formats.Tar:System.Formats.Tar.TarEntryFormat::UstarSystem.Formats.Tar.TarEntryFormat",
           "clrName": "Ustar",
-          "tsEmitName": "ustar",
+          "tsEmitName": "Ustar",
           "normalizedSignature": "Ustar|System.Formats.Tar.TarEntryFormat|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -56,7 +56,7 @@
         {
           "stableId": "System.Formats.Tar:System.Formats.Tar.TarEntryFormat::PaxSystem.Formats.Tar.TarEntryFormat",
           "clrName": "Pax",
-          "tsEmitName": "pax",
+          "tsEmitName": "Pax",
           "normalizedSignature": "Pax|System.Formats.Tar.TarEntryFormat|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -65,7 +65,7 @@
         {
           "stableId": "System.Formats.Tar:System.Formats.Tar.TarEntryFormat::GnuSystem.Formats.Tar.TarEntryFormat",
           "clrName": "Gnu",
-          "tsEmitName": "gnu",
+          "tsEmitName": "Gnu",
           "normalizedSignature": "Gnu|System.Formats.Tar.TarEntryFormat|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -100,7 +100,7 @@
         {
           "stableId": "System.Formats.Tar:System.Formats.Tar.TarEntryType::RegularFileSystem.Formats.Tar.TarEntryType",
           "clrName": "RegularFile",
-          "tsEmitName": "regularFile",
+          "tsEmitName": "RegularFile",
           "normalizedSignature": "RegularFile|System.Formats.Tar.TarEntryType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -109,7 +109,7 @@
         {
           "stableId": "System.Formats.Tar:System.Formats.Tar.TarEntryType::HardLinkSystem.Formats.Tar.TarEntryType",
           "clrName": "HardLink",
-          "tsEmitName": "hardLink",
+          "tsEmitName": "HardLink",
           "normalizedSignature": "HardLink|System.Formats.Tar.TarEntryType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -118,7 +118,7 @@
         {
           "stableId": "System.Formats.Tar:System.Formats.Tar.TarEntryType::SymbolicLinkSystem.Formats.Tar.TarEntryType",
           "clrName": "SymbolicLink",
-          "tsEmitName": "symbolicLink",
+          "tsEmitName": "SymbolicLink",
           "normalizedSignature": "SymbolicLink|System.Formats.Tar.TarEntryType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -127,7 +127,7 @@
         {
           "stableId": "System.Formats.Tar:System.Formats.Tar.TarEntryType::CharacterDeviceSystem.Formats.Tar.TarEntryType",
           "clrName": "CharacterDevice",
-          "tsEmitName": "characterDevice",
+          "tsEmitName": "CharacterDevice",
           "normalizedSignature": "CharacterDevice|System.Formats.Tar.TarEntryType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -136,7 +136,7 @@
         {
           "stableId": "System.Formats.Tar:System.Formats.Tar.TarEntryType::BlockDeviceSystem.Formats.Tar.TarEntryType",
           "clrName": "BlockDevice",
-          "tsEmitName": "blockDevice",
+          "tsEmitName": "BlockDevice",
           "normalizedSignature": "BlockDevice|System.Formats.Tar.TarEntryType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -145,7 +145,7 @@
         {
           "stableId": "System.Formats.Tar:System.Formats.Tar.TarEntryType::DirectorySystem.Formats.Tar.TarEntryType",
           "clrName": "Directory",
-          "tsEmitName": "directory",
+          "tsEmitName": "Directory",
           "normalizedSignature": "Directory|System.Formats.Tar.TarEntryType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -154,7 +154,7 @@
         {
           "stableId": "System.Formats.Tar:System.Formats.Tar.TarEntryType::FifoSystem.Formats.Tar.TarEntryType",
           "clrName": "Fifo",
-          "tsEmitName": "fifo",
+          "tsEmitName": "Fifo",
           "normalizedSignature": "Fifo|System.Formats.Tar.TarEntryType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -163,7 +163,7 @@
         {
           "stableId": "System.Formats.Tar:System.Formats.Tar.TarEntryType::ContiguousFileSystem.Formats.Tar.TarEntryType",
           "clrName": "ContiguousFile",
-          "tsEmitName": "contiguousFile",
+          "tsEmitName": "ContiguousFile",
           "normalizedSignature": "ContiguousFile|System.Formats.Tar.TarEntryType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -172,7 +172,7 @@
         {
           "stableId": "System.Formats.Tar:System.Formats.Tar.TarEntryType::ExtendedAttributesSystem.Formats.Tar.TarEntryType",
           "clrName": "ExtendedAttributes",
-          "tsEmitName": "extendedAttributes",
+          "tsEmitName": "ExtendedAttributes",
           "normalizedSignature": "ExtendedAttributes|System.Formats.Tar.TarEntryType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -181,7 +181,7 @@
         {
           "stableId": "System.Formats.Tar:System.Formats.Tar.TarEntryType::GlobalExtendedAttributesSystem.Formats.Tar.TarEntryType",
           "clrName": "GlobalExtendedAttributes",
-          "tsEmitName": "globalExtendedAttributes",
+          "tsEmitName": "GlobalExtendedAttributes",
           "normalizedSignature": "GlobalExtendedAttributes|System.Formats.Tar.TarEntryType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -190,7 +190,7 @@
         {
           "stableId": "System.Formats.Tar:System.Formats.Tar.TarEntryType::DirectoryListSystem.Formats.Tar.TarEntryType",
           "clrName": "DirectoryList",
-          "tsEmitName": "directoryList",
+          "tsEmitName": "DirectoryList",
           "normalizedSignature": "DirectoryList|System.Formats.Tar.TarEntryType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -199,7 +199,7 @@
         {
           "stableId": "System.Formats.Tar:System.Formats.Tar.TarEntryType::LongLinkSystem.Formats.Tar.TarEntryType",
           "clrName": "LongLink",
-          "tsEmitName": "longLink",
+          "tsEmitName": "LongLink",
           "normalizedSignature": "LongLink|System.Formats.Tar.TarEntryType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -208,7 +208,7 @@
         {
           "stableId": "System.Formats.Tar:System.Formats.Tar.TarEntryType::LongPathSystem.Formats.Tar.TarEntryType",
           "clrName": "LongPath",
-          "tsEmitName": "longPath",
+          "tsEmitName": "LongPath",
           "normalizedSignature": "LongPath|System.Formats.Tar.TarEntryType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -217,7 +217,7 @@
         {
           "stableId": "System.Formats.Tar:System.Formats.Tar.TarEntryType::MultiVolumeSystem.Formats.Tar.TarEntryType",
           "clrName": "MultiVolume",
-          "tsEmitName": "multiVolume",
+          "tsEmitName": "MultiVolume",
           "normalizedSignature": "MultiVolume|System.Formats.Tar.TarEntryType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -226,7 +226,7 @@
         {
           "stableId": "System.Formats.Tar:System.Formats.Tar.TarEntryType::V7RegularFileSystem.Formats.Tar.TarEntryType",
           "clrName": "V7RegularFile",
-          "tsEmitName": "v7RegularFile",
+          "tsEmitName": "V7RegularFile",
           "normalizedSignature": "V7RegularFile|System.Formats.Tar.TarEntryType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -235,7 +235,7 @@
         {
           "stableId": "System.Formats.Tar:System.Formats.Tar.TarEntryType::RenamedOrSymlinkedSystem.Formats.Tar.TarEntryType",
           "clrName": "RenamedOrSymlinked",
-          "tsEmitName": "renamedOrSymlinked",
+          "tsEmitName": "RenamedOrSymlinked",
           "normalizedSignature": "RenamedOrSymlinked|System.Formats.Tar.TarEntryType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -244,7 +244,7 @@
         {
           "stableId": "System.Formats.Tar:System.Formats.Tar.TarEntryType::SparseFileSystem.Formats.Tar.TarEntryType",
           "clrName": "SparseFile",
-          "tsEmitName": "sparseFile",
+          "tsEmitName": "SparseFile",
           "normalizedSignature": "SparseFile|System.Formats.Tar.TarEntryType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -253,7 +253,7 @@
         {
           "stableId": "System.Formats.Tar:System.Formats.Tar.TarEntryType::TapeVolumeSystem.Formats.Tar.TarEntryType",
           "clrName": "TapeVolume",
-          "tsEmitName": "tapeVolume",
+          "tsEmitName": "TapeVolume",
           "normalizedSignature": "TapeVolume|System.Formats.Tar.TarEntryType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -278,7 +278,7 @@
         {
           "stableId": "System.Formats.Tar:System.Formats.Tar.GnuTarEntry::AccessTime:System.DateTimeOffset",
           "clrName": "AccessTime",
-          "tsEmitName": "accessTime",
+          "tsEmitName": "AccessTime",
           "normalizedSignature": "AccessTime|:System.DateTimeOffset|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -293,7 +293,7 @@
         {
           "stableId": "System.Formats.Tar:System.Formats.Tar.GnuTarEntry::ChangeTime:System.DateTimeOffset",
           "clrName": "ChangeTime",
-          "tsEmitName": "changeTime",
+          "tsEmitName": "ChangeTime",
           "normalizedSignature": "ChangeTime|:System.DateTimeOffset|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -336,7 +336,7 @@
         {
           "stableId": "System.Formats.Tar:System.Formats.Tar.PaxGlobalExtendedAttributesTarEntry::GlobalExtendedAttributes:System.Collections.Generic.IReadOnlyDictionary_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "GlobalExtendedAttributes",
-          "tsEmitName": "globalExtendedAttributes",
+          "tsEmitName": "GlobalExtendedAttributes",
           "normalizedSignature": "GlobalExtendedAttributes|:System.Collections.Generic.IReadOnlyDictionary_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -374,7 +374,7 @@
         {
           "stableId": "System.Formats.Tar:System.Formats.Tar.PaxTarEntry::ExtendedAttributes:System.Collections.Generic.IReadOnlyDictionary_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "ExtendedAttributes",
-          "tsEmitName": "extendedAttributes",
+          "tsEmitName": "ExtendedAttributes",
           "normalizedSignature": "ExtendedAttributes|:System.Collections.Generic.IReadOnlyDictionary_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -422,7 +422,7 @@
         {
           "stableId": "System.Formats.Tar:System.Formats.Tar.PosixTarEntry::DeviceMajor:System.Int32",
           "clrName": "DeviceMajor",
-          "tsEmitName": "deviceMajor",
+          "tsEmitName": "DeviceMajor",
           "normalizedSignature": "DeviceMajor|:System.Int32|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -437,7 +437,7 @@
         {
           "stableId": "System.Formats.Tar:System.Formats.Tar.PosixTarEntry::DeviceMinor:System.Int32",
           "clrName": "DeviceMinor",
-          "tsEmitName": "deviceMinor",
+          "tsEmitName": "DeviceMinor",
           "normalizedSignature": "DeviceMinor|:System.Int32|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -452,7 +452,7 @@
         {
           "stableId": "System.Formats.Tar:System.Formats.Tar.PosixTarEntry::GroupName:System.String",
           "clrName": "GroupName",
-          "tsEmitName": "groupName",
+          "tsEmitName": "GroupName",
           "normalizedSignature": "GroupName|:System.String|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -467,7 +467,7 @@
         {
           "stableId": "System.Formats.Tar:System.Formats.Tar.PosixTarEntry::UserName:System.String",
           "clrName": "UserName",
-          "tsEmitName": "userName",
+          "tsEmitName": "UserName",
           "normalizedSignature": "UserName|:System.String|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -498,7 +498,7 @@
         {
           "stableId": "System.Formats.Tar:System.Formats.Tar.TarEntry::ExtractToFile(System.String,System.Boolean):System.Void",
           "clrName": "ExtractToFile",
-          "tsEmitName": "extractToFile",
+          "tsEmitName": "ExtractToFile",
           "normalizedSignature": "ExtractToFile|(System.String,System.Boolean):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -514,7 +514,7 @@
         {
           "stableId": "System.Formats.Tar:System.Formats.Tar.TarEntry::ExtractToFileAsync(System.String,System.Boolean,System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "clrName": "ExtractToFileAsync",
-          "tsEmitName": "extractToFileAsync",
+          "tsEmitName": "ExtractToFileAsync",
           "normalizedSignature": "ExtractToFileAsync|(System.String,System.Boolean,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -530,7 +530,7 @@
         {
           "stableId": "System.Formats.Tar:System.Formats.Tar.TarEntry::ToString():System.String",
           "clrName": "ToString",
-          "tsEmitName": "toString",
+          "tsEmitName": "ToString",
           "normalizedSignature": "ToString|():System.String|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -548,7 +548,7 @@
         {
           "stableId": "System.Formats.Tar:System.Formats.Tar.TarEntry::Checksum:System.Int32",
           "clrName": "Checksum",
-          "tsEmitName": "checksum",
+          "tsEmitName": "Checksum",
           "normalizedSignature": "Checksum|:System.Int32|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -563,7 +563,7 @@
         {
           "stableId": "System.Formats.Tar:System.Formats.Tar.TarEntry::EntryType:System.Formats.Tar.TarEntryType",
           "clrName": "EntryType",
-          "tsEmitName": "entryType",
+          "tsEmitName": "EntryType",
           "normalizedSignature": "EntryType|:System.Formats.Tar.TarEntryType|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -578,7 +578,7 @@
         {
           "stableId": "System.Formats.Tar:System.Formats.Tar.TarEntry::Format:System.Formats.Tar.TarEntryFormat",
           "clrName": "Format",
-          "tsEmitName": "format",
+          "tsEmitName": "Format",
           "normalizedSignature": "Format|:System.Formats.Tar.TarEntryFormat|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -593,7 +593,7 @@
         {
           "stableId": "System.Formats.Tar:System.Formats.Tar.TarEntry::Gid:System.Int32",
           "clrName": "Gid",
-          "tsEmitName": "gid",
+          "tsEmitName": "Gid",
           "normalizedSignature": "Gid|:System.Int32|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -608,7 +608,7 @@
         {
           "stableId": "System.Formats.Tar:System.Formats.Tar.TarEntry::ModificationTime:System.DateTimeOffset",
           "clrName": "ModificationTime",
-          "tsEmitName": "modificationTime",
+          "tsEmitName": "ModificationTime",
           "normalizedSignature": "ModificationTime|:System.DateTimeOffset|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -623,7 +623,7 @@
         {
           "stableId": "System.Formats.Tar:System.Formats.Tar.TarEntry::Length:System.Int64",
           "clrName": "Length",
-          "tsEmitName": "length",
+          "tsEmitName": "Length",
           "normalizedSignature": "Length|:System.Int64|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -638,7 +638,7 @@
         {
           "stableId": "System.Formats.Tar:System.Formats.Tar.TarEntry::LinkName:System.String",
           "clrName": "LinkName",
-          "tsEmitName": "linkName",
+          "tsEmitName": "LinkName",
           "normalizedSignature": "LinkName|:System.String|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -653,7 +653,7 @@
         {
           "stableId": "System.Formats.Tar:System.Formats.Tar.TarEntry::Mode:System.IO.UnixFileMode",
           "clrName": "Mode",
-          "tsEmitName": "mode",
+          "tsEmitName": "Mode",
           "normalizedSignature": "Mode|:System.IO.UnixFileMode|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -668,7 +668,7 @@
         {
           "stableId": "System.Formats.Tar:System.Formats.Tar.TarEntry::Name:System.String",
           "clrName": "Name",
-          "tsEmitName": "name",
+          "tsEmitName": "Name",
           "normalizedSignature": "Name|:System.String|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -683,7 +683,7 @@
         {
           "stableId": "System.Formats.Tar:System.Formats.Tar.TarEntry::Uid:System.Int32",
           "clrName": "Uid",
-          "tsEmitName": "uid",
+          "tsEmitName": "Uid",
           "normalizedSignature": "Uid|:System.Int32|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -698,7 +698,7 @@
         {
           "stableId": "System.Formats.Tar:System.Formats.Tar.TarEntry::DataStream:System.IO.Stream",
           "clrName": "DataStream",
-          "tsEmitName": "dataStream",
+          "tsEmitName": "DataStream",
           "normalizedSignature": "DataStream|:System.IO.Stream|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -713,7 +713,7 @@
         {
           "stableId": "System.Formats.Tar:System.Formats.Tar.TarEntry::DataOffset:System.Int64",
           "clrName": "DataOffset",
-          "tsEmitName": "dataOffset",
+          "tsEmitName": "DataOffset",
           "normalizedSignature": "DataOffset|:System.Int64|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -744,7 +744,7 @@
         {
           "stableId": "System.Formats.Tar:System.Formats.Tar.TarReader::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "dispose",
+          "tsEmitName": "Dispose",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -760,7 +760,7 @@
         {
           "stableId": "System.Formats.Tar:System.Formats.Tar.TarReader::DisposeAsync():System.Threading.Tasks.ValueTask",
           "clrName": "DisposeAsync",
-          "tsEmitName": "disposeAsync",
+          "tsEmitName": "DisposeAsync",
           "normalizedSignature": "DisposeAsync|():System.Threading.Tasks.ValueTask|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -776,7 +776,7 @@
         {
           "stableId": "System.Formats.Tar:System.Formats.Tar.TarReader::GetNextEntry(System.Boolean):System.Formats.Tar.TarEntry",
           "clrName": "GetNextEntry",
-          "tsEmitName": "getNextEntry",
+          "tsEmitName": "GetNextEntry",
           "normalizedSignature": "GetNextEntry|(System.Boolean):System.Formats.Tar.TarEntry|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -792,7 +792,7 @@
         {
           "stableId": "System.Formats.Tar:System.Formats.Tar.TarReader::GetNextEntryAsync(System.Boolean,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Formats.Tar.TarEntry,System.Formats.Tar,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]",
           "clrName": "GetNextEntryAsync",
-          "tsEmitName": "getNextEntryAsync",
+          "tsEmitName": "GetNextEntryAsync",
           "normalizedSignature": "GetNextEntryAsync|(System.Boolean,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Formats.Tar.TarEntry,System.Formats.Tar,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -808,7 +808,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "dispose$view",
+          "tsEmitName": "Dispose$view",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -825,7 +825,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IAsyncDisposable::DisposeAsync():System.Threading.Tasks.ValueTask",
           "clrName": "DisposeAsync",
-          "tsEmitName": "disposeAsync$view",
+          "tsEmitName": "DisposeAsync$view",
           "normalizedSignature": "DisposeAsync|():System.Threading.Tasks.ValueTask|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -865,7 +865,7 @@
         {
           "stableId": "System.Formats.Tar:System.Formats.Tar.TarWriter::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "dispose",
+          "tsEmitName": "Dispose",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -881,7 +881,7 @@
         {
           "stableId": "System.Formats.Tar:System.Formats.Tar.TarWriter::DisposeAsync():System.Threading.Tasks.ValueTask",
           "clrName": "DisposeAsync",
-          "tsEmitName": "disposeAsync",
+          "tsEmitName": "DisposeAsync",
           "normalizedSignature": "DisposeAsync|():System.Threading.Tasks.ValueTask|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -897,7 +897,7 @@
         {
           "stableId": "System.Formats.Tar:System.Formats.Tar.TarWriter::WriteEntry(System.String,System.String):System.Void",
           "clrName": "WriteEntry",
-          "tsEmitName": "writeEntry",
+          "tsEmitName": "WriteEntry",
           "normalizedSignature": "WriteEntry|(System.String,System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -913,7 +913,7 @@
         {
           "stableId": "System.Formats.Tar:System.Formats.Tar.TarWriter::WriteEntryAsync(System.String,System.String,System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "clrName": "WriteEntryAsync",
-          "tsEmitName": "writeEntryAsync",
+          "tsEmitName": "WriteEntryAsync",
           "normalizedSignature": "WriteEntryAsync|(System.String,System.String,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -929,7 +929,7 @@
         {
           "stableId": "System.Formats.Tar:System.Formats.Tar.TarWriter::WriteEntry(System.Formats.Tar.TarEntry):System.Void",
           "clrName": "WriteEntry",
-          "tsEmitName": "writeEntry2",
+          "tsEmitName": "WriteEntry2",
           "normalizedSignature": "WriteEntry|(System.Formats.Tar.TarEntry):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -945,7 +945,7 @@
         {
           "stableId": "System.Formats.Tar:System.Formats.Tar.TarWriter::WriteEntryAsync(System.Formats.Tar.TarEntry,System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "clrName": "WriteEntryAsync",
-          "tsEmitName": "writeEntryAsync2",
+          "tsEmitName": "WriteEntryAsync2",
           "normalizedSignature": "WriteEntryAsync|(System.Formats.Tar.TarEntry,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -961,7 +961,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "dispose$view",
+          "tsEmitName": "Dispose$view",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -978,7 +978,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IAsyncDisposable::DisposeAsync():System.Threading.Tasks.ValueTask",
           "clrName": "DisposeAsync",
-          "tsEmitName": "disposeAsync$view",
+          "tsEmitName": "DisposeAsync$view",
           "normalizedSignature": "DisposeAsync|():System.Threading.Tasks.ValueTask|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -997,7 +997,7 @@
         {
           "stableId": "System.Formats.Tar:System.Formats.Tar.TarWriter::Format:System.Formats.Tar.TarEntryFormat",
           "clrName": "Format",
-          "tsEmitName": "format",
+          "tsEmitName": "Format",
           "normalizedSignature": "Format|:System.Formats.Tar.TarEntryFormat|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1098,7 +1098,7 @@
         {
           "stableId": "System.Formats.Tar:System.Formats.Tar.TarFile::CreateFromDirectory(System.String,System.IO.Stream,System.Boolean):System.Void",
           "clrName": "CreateFromDirectory",
-          "tsEmitName": "createFromDirectory",
+          "tsEmitName": "CreateFromDirectory",
           "normalizedSignature": "CreateFromDirectory|(System.String,System.IO.Stream,System.Boolean):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1114,7 +1114,7 @@
         {
           "stableId": "System.Formats.Tar:System.Formats.Tar.TarFile::CreateFromDirectoryAsync(System.String,System.IO.Stream,System.Boolean,System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "clrName": "CreateFromDirectoryAsync",
-          "tsEmitName": "createFromDirectoryAsync",
+          "tsEmitName": "CreateFromDirectoryAsync",
           "normalizedSignature": "CreateFromDirectoryAsync|(System.String,System.IO.Stream,System.Boolean,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1130,7 +1130,7 @@
         {
           "stableId": "System.Formats.Tar:System.Formats.Tar.TarFile::CreateFromDirectory(System.String,System.String,System.Boolean):System.Void",
           "clrName": "CreateFromDirectory",
-          "tsEmitName": "createFromDirectory2",
+          "tsEmitName": "CreateFromDirectory2",
           "normalizedSignature": "CreateFromDirectory|(System.String,System.String,System.Boolean):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1146,7 +1146,7 @@
         {
           "stableId": "System.Formats.Tar:System.Formats.Tar.TarFile::CreateFromDirectoryAsync(System.String,System.String,System.Boolean,System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "clrName": "CreateFromDirectoryAsync",
-          "tsEmitName": "createFromDirectoryAsync2",
+          "tsEmitName": "CreateFromDirectoryAsync2",
           "normalizedSignature": "CreateFromDirectoryAsync|(System.String,System.String,System.Boolean,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1162,7 +1162,7 @@
         {
           "stableId": "System.Formats.Tar:System.Formats.Tar.TarFile::ExtractToDirectory(System.IO.Stream,System.String,System.Boolean):System.Void",
           "clrName": "ExtractToDirectory",
-          "tsEmitName": "extractToDirectory",
+          "tsEmitName": "ExtractToDirectory",
           "normalizedSignature": "ExtractToDirectory|(System.IO.Stream,System.String,System.Boolean):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1178,7 +1178,7 @@
         {
           "stableId": "System.Formats.Tar:System.Formats.Tar.TarFile::ExtractToDirectoryAsync(System.IO.Stream,System.String,System.Boolean,System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "clrName": "ExtractToDirectoryAsync",
-          "tsEmitName": "extractToDirectoryAsync",
+          "tsEmitName": "ExtractToDirectoryAsync",
           "normalizedSignature": "ExtractToDirectoryAsync|(System.IO.Stream,System.String,System.Boolean,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1194,7 +1194,7 @@
         {
           "stableId": "System.Formats.Tar:System.Formats.Tar.TarFile::ExtractToDirectory(System.String,System.String,System.Boolean):System.Void",
           "clrName": "ExtractToDirectory",
-          "tsEmitName": "extractToDirectory2",
+          "tsEmitName": "ExtractToDirectory2",
           "normalizedSignature": "ExtractToDirectory|(System.String,System.String,System.Boolean):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1210,7 +1210,7 @@
         {
           "stableId": "System.Formats.Tar:System.Formats.Tar.TarFile::ExtractToDirectoryAsync(System.String,System.String,System.Boolean,System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "clrName": "ExtractToDirectoryAsync",
-          "tsEmitName": "extractToDirectoryAsync2",
+          "tsEmitName": "ExtractToDirectoryAsync2",
           "normalizedSignature": "ExtractToDirectoryAsync|(System.String,System.String,System.Boolean,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",

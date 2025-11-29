@@ -19,7 +19,7 @@
         {
           "stableId": "System.Net.ServerSentEvents:System.Net.ServerSentEvents.SseItem\u00601::Data:T",
           "clrName": "Data",
-          "tsEmitName": "data",
+          "tsEmitName": "Data",
           "normalizedSignature": "Data|:T|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -34,7 +34,7 @@
         {
           "stableId": "System.Net.ServerSentEvents:System.Net.ServerSentEvents.SseItem\u00601::EventType:System.String",
           "clrName": "EventType",
-          "tsEmitName": "eventType",
+          "tsEmitName": "EventType",
           "normalizedSignature": "EventType|:System.String|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -49,7 +49,7 @@
         {
           "stableId": "System.Net.ServerSentEvents:System.Net.ServerSentEvents.SseItem\u00601::EventId:System.String",
           "clrName": "EventId",
-          "tsEmitName": "eventId",
+          "tsEmitName": "EventId",
           "normalizedSignature": "EventId|:System.String|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -64,7 +64,7 @@
         {
           "stableId": "System.Net.ServerSentEvents:System.Net.ServerSentEvents.SseItem\u00601::ReconnectionInterval:System.Nullable_1[[System.TimeSpan,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "ReconnectionInterval",
-          "tsEmitName": "reconnectionInterval",
+          "tsEmitName": "ReconnectionInterval",
           "normalizedSignature": "ReconnectionInterval|:System.Nullable_1[[System.TimeSpan,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -101,7 +101,7 @@
         {
           "stableId": "System.Net.ServerSentEvents:System.Net.ServerSentEvents.SseItemParser\u00601::Invoke(System.String,System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):T",
           "clrName": "Invoke",
-          "tsEmitName": "invoke",
+          "tsEmitName": "Invoke",
           "normalizedSignature": "Invoke|(System.String,System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):T|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -117,7 +117,7 @@
         {
           "stableId": "System.Net.ServerSentEvents:System.Net.ServerSentEvents.SseItemParser\u00601::BeginInvoke(System.String,System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.AsyncCallback,System.Object):System.IAsyncResult",
           "clrName": "BeginInvoke",
-          "tsEmitName": "beginInvoke",
+          "tsEmitName": "BeginInvoke",
           "normalizedSignature": "BeginInvoke|(System.String,System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.AsyncCallback,System.Object):System.IAsyncResult|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -133,7 +133,7 @@
         {
           "stableId": "System.Net.ServerSentEvents:System.Net.ServerSentEvents.SseItemParser\u00601::EndInvoke(System.IAsyncResult):T",
           "clrName": "EndInvoke",
-          "tsEmitName": "endInvoke",
+          "tsEmitName": "EndInvoke",
           "normalizedSignature": "EndInvoke|(System.IAsyncResult):T|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -149,7 +149,7 @@
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "clone$view",
+          "tsEmitName": "Clone$view",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -166,7 +166,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "getObjectData$view",
+          "tsEmitName": "GetObjectData$view",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -183,7 +183,7 @@
         {
           "stableId": "System.Net.ServerSentEvents:System.Net.ServerSentEvents.SseItemParser\u00601::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "clone",
+          "tsEmitName": "Clone",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -199,7 +199,7 @@
         {
           "stableId": "System.Net.ServerSentEvents:System.Net.ServerSentEvents.SseItemParser\u00601::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "getObjectData",
+          "tsEmitName": "GetObjectData",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -238,7 +238,7 @@
         {
           "stableId": "System.Net.ServerSentEvents:System.Net.ServerSentEvents.SseParser\u00601::Enumerate():IEnumerable_1",
           "clrName": "Enumerate",
-          "tsEmitName": "enumerate",
+          "tsEmitName": "Enumerate",
           "normalizedSignature": "Enumerate|():IEnumerable_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -254,7 +254,7 @@
         {
           "stableId": "System.Net.ServerSentEvents:System.Net.ServerSentEvents.SseParser\u00601::EnumerateAsync(System.Threading.CancellationToken):IAsyncEnumerable_1",
           "clrName": "EnumerateAsync",
-          "tsEmitName": "enumerateAsync",
+          "tsEmitName": "EnumerateAsync",
           "normalizedSignature": "EnumerateAsync|(System.Threading.CancellationToken):IAsyncEnumerable_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -272,7 +272,7 @@
         {
           "stableId": "System.Net.ServerSentEvents:System.Net.ServerSentEvents.SseParser\u00601::LastEventId:System.String",
           "clrName": "LastEventId",
-          "tsEmitName": "lastEventId",
+          "tsEmitName": "LastEventId",
           "normalizedSignature": "LastEventId|:System.String|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -287,7 +287,7 @@
         {
           "stableId": "System.Net.ServerSentEvents:System.Net.ServerSentEvents.SseParser\u00601::ReconnectionInterval:System.TimeSpan",
           "clrName": "ReconnectionInterval",
-          "tsEmitName": "reconnectionInterval",
+          "tsEmitName": "ReconnectionInterval",
           "normalizedSignature": "ReconnectionInterval|:System.TimeSpan|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -318,7 +318,7 @@
         {
           "stableId": "System.Net.ServerSentEvents:System.Net.ServerSentEvents.SseFormatter::WriteAsync(System.Collections.Generic.IAsyncEnumerable_1[[System.Net.ServerSentEvents.SseItem_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Net.ServerSentEvents,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]],System.IO.Stream,System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "clrName": "WriteAsync",
-          "tsEmitName": "writeAsync",
+          "tsEmitName": "WriteAsync",
           "normalizedSignature": "WriteAsync|(System.Collections.Generic.IAsyncEnumerable_1[[System.Net.ServerSentEvents.SseItem_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Net.ServerSentEvents,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]],System.IO.Stream,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -334,7 +334,7 @@
         {
           "stableId": "System.Net.ServerSentEvents:System.Net.ServerSentEvents.SseFormatter::WriteAsync(IAsyncEnumerable_1,System.IO.Stream,Action_2,System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "clrName": "WriteAsync",
-          "tsEmitName": "writeAsync2",
+          "tsEmitName": "WriteAsync2",
           "normalizedSignature": "WriteAsync|(IAsyncEnumerable_1,System.IO.Stream,Action_2,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -367,7 +367,7 @@
         {
           "stableId": "System.Net.ServerSentEvents:System.Net.ServerSentEvents.SseParser::Create(System.IO.Stream):System.Net.ServerSentEvents.SseParser_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "Create",
-          "tsEmitName": "create",
+          "tsEmitName": "Create",
           "normalizedSignature": "Create|(System.IO.Stream):System.Net.ServerSentEvents.SseParser_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -383,7 +383,7 @@
         {
           "stableId": "System.Net.ServerSentEvents:System.Net.ServerSentEvents.SseParser::Create(System.IO.Stream,SseItemParser_1):SseParser_1",
           "clrName": "Create",
-          "tsEmitName": "create2",
+          "tsEmitName": "Create2",
           "normalizedSignature": "Create|(System.IO.Stream,SseItemParser_1):SseParser_1|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -402,7 +402,7 @@
         {
           "stableId": "System.Net.ServerSentEvents:System.Net.ServerSentEvents.SseParser::EventTypeDefaultSystem.String",
           "clrName": "EventTypeDefault",
-          "tsEmitName": "eventTypeDefault",
+          "tsEmitName": "EventTypeDefault",
           "normalizedSignature": "EventTypeDefault|System.String|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,

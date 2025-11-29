@@ -43,113 +43,113 @@ export type CLROf<T> =
     T; // Identity fallback for non-primitive types
 
 export class FrozenDictionary_2_AlternateLookup_1$instance<TKey, TValue, TAlternateKey> {
-    readonly dictionary: FrozenDictionary_2<TKey, TValue>;
-    readonly item: TValue;
-    containsKey(key: TAlternateKey): boolean;
-    tryGetValue(key: TAlternateKey, value: { value: ref<TValue> }): boolean;
+    readonly Dictionary: FrozenDictionary_2<TKey, TValue>;
+    readonly Item: TValue;
+    ContainsKey(key: TAlternateKey): boolean;
+    TryGetValue(key: TAlternateKey, value: { value: ref<TValue> }): boolean;
 }
 
 
 export type FrozenDictionary_2_AlternateLookup_1<TKey, TValue, TAlternateKey> = FrozenDictionary_2_AlternateLookup_1$instance<TKey, TValue, TAlternateKey>;
 
 export class FrozenDictionary_2_Enumerator$instance<TKey, TValue> {
-    readonly current: KeyValuePair_2<TKey, TValue>;
-    moveNext(): boolean;
+    readonly Current: KeyValuePair_2<TKey, TValue>;
+    MoveNext(): boolean;
 }
 
 
 export interface __FrozenDictionary_2_Enumerator$views<TKey, TValue> {
-    readonly As_IEnumerator_1: System_Collections_Generic_Internal.IEnumerator_1$instance<KeyValuePair_2<TKey, TValue>>;
-    readonly As_IEnumerator: System_Collections_Internal.IEnumerator$instance;
+    As_IEnumerator_1(): System_Collections_Generic_Internal.IEnumerator_1$instance<KeyValuePair_2<TKey, TValue>>;
+    As_IEnumerator(): System_Collections_Internal.IEnumerator$instance;
 }
 
 export type FrozenDictionary_2_Enumerator<TKey, TValue> = FrozenDictionary_2_Enumerator$instance<TKey, TValue> & __FrozenDictionary_2_Enumerator$views<TKey, TValue>;
 
 
 export class FrozenSet_1_AlternateLookup_1$instance<T, TAlternate> {
-    readonly set_: FrozenSet_1<T>;
-    contains(item: TAlternate): boolean;
-    tryGetValue(equalValue: TAlternate, actualValue: { value: ref<T> }): boolean;
+    readonly Set: FrozenSet_1<T>;
+    Contains(item: TAlternate): boolean;
+    TryGetValue(equalValue: TAlternate, actualValue: { value: ref<T> }): boolean;
 }
 
 
 export type FrozenSet_1_AlternateLookup_1<T, TAlternate> = FrozenSet_1_AlternateLookup_1$instance<T, TAlternate>;
 
 export class FrozenSet_1_Enumerator$instance<T> {
-    readonly current: T;
-    moveNext(): boolean;
+    readonly Current: T;
+    MoveNext(): boolean;
 }
 
 
 export interface __FrozenSet_1_Enumerator$views<T> {
-    readonly As_IEnumerator_1: System_Collections_Generic_Internal.IEnumerator_1$instance<T>;
-    readonly As_IEnumerator: System_Collections_Internal.IEnumerator$instance;
+    As_IEnumerator_1(): System_Collections_Generic_Internal.IEnumerator_1$instance<T>;
+    As_IEnumerator(): System_Collections_Internal.IEnumerator$instance;
 }
 
 export type FrozenSet_1_Enumerator<T> = FrozenSet_1_Enumerator$instance<T> & __FrozenSet_1_Enumerator$views<T>;
 
 
 export abstract class FrozenDictionary_2$instance<TKey, TValue> {
-    readonly comparer: IEqualityComparer_1<TKey>;
-    readonly count: int;
-    readonly item: ref<TValue>;
-    readonly keys: ImmutableArray_1<TKey>;
-    readonly values: ImmutableArray_1<TValue>;
-    containsKey(key: TKey): boolean;
-    copyTo(destination: KeyValuePair_2<TKey, TValue>[], destinationIndex: int): void;
-    copyTo(destination: Span_1<KeyValuePair_2<TKey, TValue>>): void;
-    getAlternateLookup<TAlternateKey>(): FrozenDictionary_2_AlternateLookup_1<TKey, TValue, TAlternateKey>;
-    getEnumerator(): FrozenDictionary_2_Enumerator<TKey, TValue>;
-    getValueRefOrNullRef(key: TKey): ref<TValue>;
-    tryGetAlternateLookup<TAlternateKey>(lookup: { value: ref<FrozenDictionary_2_AlternateLookup_1<TKey, TValue, TAlternateKey>> }): boolean;
-    tryGetValue(key: TKey, value: { value: ref<TValue> }): boolean;
+    readonly Comparer: IEqualityComparer_1<TKey>;
+    readonly Count: int;
+    readonly Item: ref<TValue>;
+    readonly Keys: ImmutableArray_1<TKey>;
+    readonly Values: ImmutableArray_1<TValue>;
+    ContainsKey(key: TKey): boolean;
+    CopyTo(destination: KeyValuePair_2<TKey, TValue>[], destinationIndex: int): void;
+    CopyTo(destination: Span_1<KeyValuePair_2<TKey, TValue>>): void;
+    GetAlternateLookup<TAlternateKey>(): FrozenDictionary_2_AlternateLookup_1<TKey, TValue, TAlternateKey>;
+    GetEnumerator(): FrozenDictionary_2_Enumerator<TKey, TValue>;
+    GetValueRefOrNullRef(key: TKey): ref<TValue>;
+    TryGetAlternateLookup<TAlternateKey>(lookup: { value: ref<FrozenDictionary_2_AlternateLookup_1<TKey, TValue, TAlternateKey>> }): boolean;
+    TryGetValue(key: TKey, value: { value: ref<TValue> }): boolean;
     static readonly Empty: unknown;
 }
 
 
 export interface __FrozenDictionary_2$views<TKey, TValue> {
-    readonly As_ICollection_1: System_Collections_Generic_Internal.ICollection_1$instance<KeyValuePair_2<TKey, TValue>>;
-    readonly As_IDictionary_2: System_Collections_Generic_Internal.IDictionary_2$instance<TKey, TValue>;
-    readonly As_IEnumerable_1_of_Char: System_Collections_Generic_Internal.IEnumerable_1$instance<KeyValuePair_2<TKey, TValue>>;
-    readonly As_IReadOnlyCollection_1_of_KeyValuePair_2: System_Collections_Generic_Internal.IReadOnlyCollection_1$instance<KeyValuePair_2<TKey, TValue>>;
-    readonly As_IReadOnlyDictionary_2: System_Collections_Generic_Internal.IReadOnlyDictionary_2$instance<TKey, TValue>;
-    readonly As_ICollection: System_Collections_Internal.ICollection$instance;
-    readonly As_IDictionary: System_Collections_Internal.IDictionary$instance;
-    readonly As_IEnumerable: System_Collections_Internal.IEnumerable$instance;
+    As_ICollection_1(): System_Collections_Generic_Internal.ICollection_1$instance<KeyValuePair_2<TKey, TValue>>;
+    As_IDictionary_2(): System_Collections_Generic_Internal.IDictionary_2$instance<TKey, TValue>;
+    As_IEnumerable_1(): System_Collections_Generic_Internal.IEnumerable_1$instance<KeyValuePair_2<TKey, TValue>>;
+    As_IReadOnlyCollection_1(): System_Collections_Generic_Internal.IReadOnlyCollection_1$instance<KeyValuePair_2<TKey, TValue>>;
+    As_IReadOnlyDictionary_2(): System_Collections_Generic_Internal.IReadOnlyDictionary_2$instance<TKey, TValue>;
+    As_ICollection(): System_Collections_Internal.ICollection$instance;
+    As_IDictionary(): System_Collections_Internal.IDictionary$instance;
+    As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
 }
 
 export type FrozenDictionary_2<TKey, TValue> = FrozenDictionary_2$instance<TKey, TValue> & __FrozenDictionary_2$views<TKey, TValue>;
 
 
 export abstract class FrozenSet_1$instance<T> {
-    readonly comparer: IEqualityComparer_1<T>;
-    readonly count: int;
-    readonly items: ImmutableArray_1<T>;
-    contains(item: T): boolean;
-    copyTo(destination: T[], destinationIndex: int): void;
-    copyTo(destination: Span_1<T>): void;
-    getAlternateLookup<TAlternate>(): FrozenSet_1_AlternateLookup_1<T, TAlternate>;
-    getEnumerator(): FrozenSet_1_Enumerator<T>;
-    isProperSubsetOf(other: IEnumerable_1<T>): boolean;
-    isProperSupersetOf(other: IEnumerable_1<T>): boolean;
-    isSubsetOf(other: IEnumerable_1<T>): boolean;
-    isSupersetOf(other: IEnumerable_1<T>): boolean;
-    overlaps(other: IEnumerable_1<T>): boolean;
-    setEquals(other: IEnumerable_1<T>): boolean;
-    tryGetAlternateLookup<TAlternate>(lookup: { value: ref<FrozenSet_1_AlternateLookup_1<T, TAlternate>> }): boolean;
-    tryGetValue(equalValue: T, actualValue: { value: ref<T> }): boolean;
+    readonly Comparer: IEqualityComparer_1<T>;
+    readonly Count: int;
+    readonly Items: ImmutableArray_1<T>;
+    Contains(item: T): boolean;
+    CopyTo(destination: T[], destinationIndex: int): void;
+    CopyTo(destination: Span_1<T>): void;
+    GetAlternateLookup<TAlternate>(): FrozenSet_1_AlternateLookup_1<T, TAlternate>;
+    GetEnumerator(): FrozenSet_1_Enumerator<T>;
+    IsProperSubsetOf(other: IEnumerable_1<T>): boolean;
+    IsProperSupersetOf(other: IEnumerable_1<T>): boolean;
+    IsSubsetOf(other: IEnumerable_1<T>): boolean;
+    IsSupersetOf(other: IEnumerable_1<T>): boolean;
+    Overlaps(other: IEnumerable_1<T>): boolean;
+    SetEquals(other: IEnumerable_1<T>): boolean;
+    TryGetAlternateLookup<TAlternate>(lookup: { value: ref<FrozenSet_1_AlternateLookup_1<T, TAlternate>> }): boolean;
+    TryGetValue(equalValue: T, actualValue: { value: ref<T> }): boolean;
     static readonly Empty: unknown;
 }
 
 
 export interface __FrozenSet_1$views<T> {
-    readonly As_ICollection_1: System_Collections_Generic_Internal.ICollection_1$instance<T>;
-    readonly As_IEnumerable_1_of_Char: System_Collections_Generic_Internal.IEnumerable_1$instance<T>;
-    readonly As_IReadOnlyCollection_1: System_Collections_Generic_Internal.IReadOnlyCollection_1$instance<T>;
-    readonly As_IReadOnlySet_1: System_Collections_Generic_Internal.IReadOnlySet_1$instance<T>;
-    readonly As_ISet_1: System_Collections_Generic_Internal.ISet_1$instance<T>;
-    readonly As_ICollection: System_Collections_Internal.ICollection$instance;
-    readonly As_IEnumerable: System_Collections_Internal.IEnumerable$instance;
+    As_ICollection_1(): System_Collections_Generic_Internal.ICollection_1$instance<T>;
+    As_IEnumerable_1(): System_Collections_Generic_Internal.IEnumerable_1$instance<T>;
+    As_IReadOnlyCollection_1(): System_Collections_Generic_Internal.IReadOnlyCollection_1$instance<T>;
+    As_IReadOnlySet_1(): System_Collections_Generic_Internal.IReadOnlySet_1$instance<T>;
+    As_ISet_1(): System_Collections_Generic_Internal.ISet_1$instance<T>;
+    As_ICollection(): System_Collections_Internal.ICollection$instance;
+    As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
 }
 
 export type FrozenSet_1<T> = FrozenSet_1$instance<T> & __FrozenSet_1$views<T>;

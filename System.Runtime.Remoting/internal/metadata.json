@@ -18,7 +18,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Remoting.ObjectHandle::Unwrap():System.Object",
           "clrName": "Unwrap",
-          "tsEmitName": "unwrap",
+          "tsEmitName": "Unwrap",
           "normalizedSignature": "Unwrap|():System.Object|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",

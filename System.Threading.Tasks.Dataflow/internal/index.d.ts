@@ -42,11 +42,11 @@ export type CLROf<T> =
     T; // Identity fallback for non-primitive types
 
 export enum DataflowMessageStatus {
-    accepted = 0,
-    declined = 1,
-    postponed = 2,
-    notAvailable = 3,
-    decliningPermanently = 4
+    Accepted = 0,
+    Declined = 1,
+    Postponed = 2,
+    NotAvailable = 3,
+    DecliningPermanently = 4
 }
 
 
@@ -59,7 +59,7 @@ export interface IDataflowBlock$instance {
 
 export type IDataflowBlock = IDataflowBlock$instance;
 
-export interface IPropagatorBlock_2$instance<TInput, TOutput> {
+export interface IPropagatorBlock_2$instance<TInput, TOutput> extends ITargetBlock_1<TInput>, IDataflowBlock, ISourceBlock_1<TOutput> {
     readonly Completion: Task;
     Complete(): void;
     ConsumeMessage(messageHeader: DataflowMessageHeader, target: ITargetBlock_1<TOutput>, messageConsumed: { value: ref<boolean> }): TOutput;
@@ -73,7 +73,7 @@ export interface IPropagatorBlock_2$instance<TInput, TOutput> {
 
 export type IPropagatorBlock_2<TInput, TOutput> = IPropagatorBlock_2$instance<TInput, TOutput>;
 
-export interface IReceivableSourceBlock_1$instance<TOutput> {
+export interface IReceivableSourceBlock_1$instance<TOutput> extends ISourceBlock_1<TOutput>, IDataflowBlock {
     readonly Completion: Task;
     Complete(): void;
     ConsumeMessage(messageHeader: DataflowMessageHeader, target: ITargetBlock_1<TOutput>, messageConsumed: { value: ref<boolean> }): TOutput;
@@ -88,7 +88,7 @@ export interface IReceivableSourceBlock_1$instance<TOutput> {
 
 export type IReceivableSourceBlock_1<TOutput> = IReceivableSourceBlock_1$instance<TOutput>;
 
-export interface ISourceBlock_1$instance<TOutput> {
+export interface ISourceBlock_1$instance<TOutput> extends IDataflowBlock {
     readonly Completion: Task;
     Complete(): void;
     ConsumeMessage(messageHeader: DataflowMessageHeader, target: ITargetBlock_1<TOutput>, messageConsumed: { value: ref<boolean> }): TOutput;
@@ -99,9 +99,11 @@ export interface ISourceBlock_1$instance<TOutput> {
 }
 
 
+export interface ISourceBlock_1$instance<TOutput> extends IDataflowBlock$instance {}
+
 export type ISourceBlock_1<TOutput> = ISourceBlock_1$instance<TOutput>;
 
-export interface ITargetBlock_1$instance<TInput> {
+export interface ITargetBlock_1$instance<TInput> extends IDataflowBlock {
     readonly Completion: Task;
     Complete(): void;
     Fault(exception: Exception): void;
@@ -109,20 +111,22 @@ export interface ITargetBlock_1$instance<TInput> {
 }
 
 
+export interface ITargetBlock_1$instance<TInput> extends IDataflowBlock$instance {}
+
 export type ITargetBlock_1<TInput> = ITargetBlock_1$instance<TInput>;
 
 export class DataflowMessageHeader$instance {
     constructor(id: long);
-    readonly id: long;
-    readonly isValid: boolean;
-    equals(other: DataflowMessageHeader): boolean;
-    equals(obj: any): boolean;
-    getHashCode(): int;
+    readonly Id: long;
+    readonly IsValid: boolean;
+    Equals(other: DataflowMessageHeader): boolean;
+    Equals(obj: unknown): boolean;
+    GetHashCode(): int;
 }
 
 
 export interface __DataflowMessageHeader$views {
-    readonly As_IEquatable_1_of_ConsoleKeyInfo: System_Internal.IEquatable_1$instance<DataflowMessageHeader>;
+    As_IEquatable_1(): System_Internal.IEquatable_1$instance<DataflowMessageHeader>;
 
     // Structural method bridges for numeric interface constraints
     Equals(other: DataflowMessageHeader): boolean;
@@ -136,17 +140,17 @@ export class ActionBlock_1$instance<TInput> {
     constructor(action: Action_1<TInput>, dataflowBlockOptions: ExecutionDataflowBlockOptions);
     constructor(action: Func_2<TInput, Task>);
     constructor(action: Func_2<TInput, Task>, dataflowBlockOptions: ExecutionDataflowBlockOptions);
-    readonly completion: Task;
-    readonly inputCount: int;
-    complete(): void;
-    post(item: TInput): boolean;
-    toString(): string;
+    readonly Completion: Task;
+    readonly InputCount: int;
+    Complete(): void;
+    Post(item: TInput): boolean;
+    ToString(): string;
 }
 
 
 export interface __ActionBlock_1$views<TInput> {
-    readonly As_IDataflowBlock: IDataflowBlock$instance;
-    readonly As_ITargetBlock_1: ITargetBlock_1$instance<TInput>;
+    As_IDataflowBlock(): IDataflowBlock$instance;
+    As_ITargetBlock_1(): ITargetBlock_1$instance<TInput>;
 }
 
 export type ActionBlock_1<TInput> = ActionBlock_1$instance<TInput> & __ActionBlock_1$views<TInput>;
@@ -155,23 +159,23 @@ export type ActionBlock_1<TInput> = ActionBlock_1$instance<TInput> & __ActionBlo
 export class BatchBlock_1$instance<T> {
     constructor(batchSize: int);
     constructor(batchSize: int, dataflowBlockOptions: GroupingDataflowBlockOptions);
-    readonly batchSize: int;
-    readonly completion: Task;
-    readonly outputCount: int;
-    complete(): void;
-    linkTo(target: ITargetBlock_1<T[]>, linkOptions: DataflowLinkOptions): IDisposable;
-    toString(): string;
-    triggerBatch(): void;
-    tryReceive(filter: Predicate_1<T[]>, item: { value: ref<T[]> }): boolean;
-    tryReceiveAll(items: { value: ref<IList_1<T[]>> }): boolean;
+    readonly BatchSize: int;
+    readonly Completion: Task;
+    readonly OutputCount: int;
+    Complete(): void;
+    LinkTo(target: ITargetBlock_1<T[]>, linkOptions: DataflowLinkOptions): IDisposable;
+    ToString(): string;
+    TriggerBatch(): void;
+    TryReceive(filter: Predicate_1<T[]>, item: { value: ref<T[]> }): boolean;
+    TryReceiveAll(items: { value: ref<IList_1<T[]>> }): boolean;
 }
 
 
 export interface __BatchBlock_1$views<T> {
-    readonly As_IDataflowBlock: IDataflowBlock$instance;
-    readonly As_IReceivableSourceBlock_1_of__array: IReceivableSourceBlock_1$instance<T[]>;
-    readonly As_ISourceBlock_1_of__array: ISourceBlock_1$instance<T[]>;
-    readonly As_ITargetBlock_1: ITargetBlock_1$instance<T>;
+    As_IDataflowBlock(): IDataflowBlock$instance;
+    As_IReceivableSourceBlock_1(): IReceivableSourceBlock_1$instance<T[]>;
+    As_ISourceBlock_1(): ISourceBlock_1$instance<T[]>;
+    As_ITargetBlock_1(): ITargetBlock_1$instance<T>;
 }
 
 export type BatchBlock_1<T> = BatchBlock_1$instance<T> & __BatchBlock_1$views<T>;
@@ -180,23 +184,23 @@ export type BatchBlock_1<T> = BatchBlock_1$instance<T> & __BatchBlock_1$views<T>
 export class BatchedJoinBlock_2$instance<T1, T2> {
     constructor(batchSize: int);
     constructor(batchSize: int, dataflowBlockOptions: GroupingDataflowBlockOptions);
-    readonly batchSize: int;
-    readonly completion: Task;
-    readonly outputCount: int;
-    readonly target1: ITargetBlock_1<T1>;
-    readonly target2: ITargetBlock_1<T2>;
-    complete(): void;
-    linkTo(target: ITargetBlock_1<Tuple_2<IList_1<T1>, IList_1<T2>>>, linkOptions: DataflowLinkOptions): IDisposable;
-    toString(): string;
-    tryReceive(filter: Predicate_1<Tuple_2<IList_1<T1>, IList_1<T2>>>, item: { value: ref<Tuple_2<IList_1<T1>, IList_1<T2>>> }): boolean;
-    tryReceiveAll(items: { value: ref<IList_1<Tuple_2<IList_1<T1>, IList_1<T2>>>> }): boolean;
+    readonly BatchSize: int;
+    readonly Completion: Task;
+    readonly OutputCount: int;
+    readonly Target1: ITargetBlock_1<T1>;
+    readonly Target2: ITargetBlock_1<T2>;
+    Complete(): void;
+    LinkTo(target: ITargetBlock_1<Tuple_2<IList_1<T1>, IList_1<T2>>>, linkOptions: DataflowLinkOptions): IDisposable;
+    ToString(): string;
+    TryReceive(filter: Predicate_1<Tuple_2<IList_1<T1>, IList_1<T2>>>, item: { value: ref<Tuple_2<IList_1<T1>, IList_1<T2>>> }): boolean;
+    TryReceiveAll(items: { value: ref<IList_1<Tuple_2<IList_1<T1>, IList_1<T2>>>> }): boolean;
 }
 
 
 export interface __BatchedJoinBlock_2$views<T1, T2> {
-    readonly As_IDataflowBlock: IDataflowBlock$instance;
-    readonly As_IReceivableSourceBlock_1_of__array: IReceivableSourceBlock_1$instance<Tuple_2<IList_1<T1>, IList_1<T2>>>;
-    readonly As_ISourceBlock_1_of__array: ISourceBlock_1$instance<Tuple_2<IList_1<T1>, IList_1<T2>>>;
+    As_IDataflowBlock(): IDataflowBlock$instance;
+    As_IReceivableSourceBlock_1(): IReceivableSourceBlock_1$instance<Tuple_2<IList_1<T1>, IList_1<T2>>>;
+    As_ISourceBlock_1(): ISourceBlock_1$instance<Tuple_2<IList_1<T1>, IList_1<T2>>>;
 }
 
 export type BatchedJoinBlock_2<T1, T2> = BatchedJoinBlock_2$instance<T1, T2> & __BatchedJoinBlock_2$views<T1, T2>;
@@ -205,24 +209,24 @@ export type BatchedJoinBlock_2<T1, T2> = BatchedJoinBlock_2$instance<T1, T2> & _
 export class BatchedJoinBlock_3$instance<T1, T2, T3> {
     constructor(batchSize: int);
     constructor(batchSize: int, dataflowBlockOptions: GroupingDataflowBlockOptions);
-    readonly batchSize: int;
-    readonly completion: Task;
-    readonly outputCount: int;
-    readonly target1: ITargetBlock_1<T1>;
-    readonly target2: ITargetBlock_1<T2>;
-    readonly target3: ITargetBlock_1<T3>;
-    complete(): void;
-    linkTo(target: ITargetBlock_1<Tuple_3<IList_1<T1>, IList_1<T2>, IList_1<T3>>>, linkOptions: DataflowLinkOptions): IDisposable;
-    toString(): string;
-    tryReceive(filter: Predicate_1<Tuple_3<IList_1<T1>, IList_1<T2>, IList_1<T3>>>, item: { value: ref<Tuple_3<IList_1<T1>, IList_1<T2>, IList_1<T3>>> }): boolean;
-    tryReceiveAll(items: { value: ref<IList_1<Tuple_3<IList_1<T1>, IList_1<T2>, IList_1<T3>>>> }): boolean;
+    readonly BatchSize: int;
+    readonly Completion: Task;
+    readonly OutputCount: int;
+    readonly Target1: ITargetBlock_1<T1>;
+    readonly Target2: ITargetBlock_1<T2>;
+    readonly Target3: ITargetBlock_1<T3>;
+    Complete(): void;
+    LinkTo(target: ITargetBlock_1<Tuple_3<IList_1<T1>, IList_1<T2>, IList_1<T3>>>, linkOptions: DataflowLinkOptions): IDisposable;
+    ToString(): string;
+    TryReceive(filter: Predicate_1<Tuple_3<IList_1<T1>, IList_1<T2>, IList_1<T3>>>, item: { value: ref<Tuple_3<IList_1<T1>, IList_1<T2>, IList_1<T3>>> }): boolean;
+    TryReceiveAll(items: { value: ref<IList_1<Tuple_3<IList_1<T1>, IList_1<T2>, IList_1<T3>>>> }): boolean;
 }
 
 
 export interface __BatchedJoinBlock_3$views<T1, T2, T3> {
-    readonly As_IDataflowBlock: IDataflowBlock$instance;
-    readonly As_IReceivableSourceBlock_1_of__array: IReceivableSourceBlock_1$instance<Tuple_3<IList_1<T1>, IList_1<T2>, IList_1<T3>>>;
-    readonly As_ISourceBlock_1_of__array: ISourceBlock_1$instance<Tuple_3<IList_1<T1>, IList_1<T2>, IList_1<T3>>>;
+    As_IDataflowBlock(): IDataflowBlock$instance;
+    As_IReceivableSourceBlock_1(): IReceivableSourceBlock_1$instance<Tuple_3<IList_1<T1>, IList_1<T2>, IList_1<T3>>>;
+    As_ISourceBlock_1(): ISourceBlock_1$instance<Tuple_3<IList_1<T1>, IList_1<T2>, IList_1<T3>>>;
 }
 
 export type BatchedJoinBlock_3<T1, T2, T3> = BatchedJoinBlock_3$instance<T1, T2, T3> & __BatchedJoinBlock_3$views<T1, T2, T3>;
@@ -231,19 +235,19 @@ export type BatchedJoinBlock_3<T1, T2, T3> = BatchedJoinBlock_3$instance<T1, T2,
 export class BroadcastBlock_1$instance<T> {
     constructor(cloningFunction: Func_2<T, T>);
     constructor(cloningFunction: Func_2<T, T>, dataflowBlockOptions: DataflowBlockOptions);
-    readonly completion: Task;
-    complete(): void;
-    linkTo(target: ITargetBlock_1<T>, linkOptions: DataflowLinkOptions): IDisposable;
-    toString(): string;
-    tryReceive(filter: Predicate_1<T>, item: { value: ref<T> }): boolean;
+    readonly Completion: Task;
+    Complete(): void;
+    LinkTo(target: ITargetBlock_1<T>, linkOptions: DataflowLinkOptions): IDisposable;
+    ToString(): string;
+    TryReceive(filter: Predicate_1<T>, item: { value: ref<T> }): boolean;
 }
 
 
 export interface __BroadcastBlock_1$views<T> {
-    readonly As_IDataflowBlock: IDataflowBlock$instance;
-    readonly As_IReceivableSourceBlock_1_of__array: IReceivableSourceBlock_1$instance<T>;
-    readonly As_ISourceBlock_1_of__array: ISourceBlock_1$instance<T>;
-    readonly As_ITargetBlock_1: ITargetBlock_1$instance<T>;
+    As_IDataflowBlock(): IDataflowBlock$instance;
+    As_IReceivableSourceBlock_1(): IReceivableSourceBlock_1$instance<T>;
+    As_ISourceBlock_1(): ISourceBlock_1$instance<T>;
+    As_ITargetBlock_1(): ITargetBlock_1$instance<T>;
 }
 
 export type BroadcastBlock_1<T> = BroadcastBlock_1$instance<T> & __BroadcastBlock_1$views<T>;
@@ -252,21 +256,21 @@ export type BroadcastBlock_1<T> = BroadcastBlock_1$instance<T> & __BroadcastBloc
 export class BufferBlock_1$instance<T> {
     constructor();
     constructor(dataflowBlockOptions: DataflowBlockOptions);
-    readonly completion: Task;
-    readonly count: int;
-    complete(): void;
-    linkTo(target: ITargetBlock_1<T>, linkOptions: DataflowLinkOptions): IDisposable;
-    toString(): string;
-    tryReceive(filter: Predicate_1<T>, item: { value: ref<T> }): boolean;
-    tryReceiveAll(items: { value: ref<IList_1<T>> }): boolean;
+    readonly Completion: Task;
+    readonly Count: int;
+    Complete(): void;
+    LinkTo(target: ITargetBlock_1<T>, linkOptions: DataflowLinkOptions): IDisposable;
+    ToString(): string;
+    TryReceive(filter: Predicate_1<T>, item: { value: ref<T> }): boolean;
+    TryReceiveAll(items: { value: ref<IList_1<T>> }): boolean;
 }
 
 
 export interface __BufferBlock_1$views<T> {
-    readonly As_IDataflowBlock: IDataflowBlock$instance;
-    readonly As_IReceivableSourceBlock_1_of__array: IReceivableSourceBlock_1$instance<T>;
-    readonly As_ISourceBlock_1_of__array: ISourceBlock_1$instance<T>;
-    readonly As_ITargetBlock_1: ITargetBlock_1$instance<T>;
+    As_IDataflowBlock(): IDataflowBlock$instance;
+    As_IReceivableSourceBlock_1(): IReceivableSourceBlock_1$instance<T>;
+    As_ISourceBlock_1(): ISourceBlock_1$instance<T>;
+    As_ITargetBlock_1(): ITargetBlock_1$instance<T>;
 }
 
 export type BufferBlock_1<T> = BufferBlock_1$instance<T> & __BufferBlock_1$views<T>;
@@ -274,12 +278,12 @@ export type BufferBlock_1<T> = BufferBlock_1$instance<T> & __BufferBlock_1$views
 
 export class DataflowBlockOptions$instance {
     constructor();
-    boundedCapacity: int;
-    cancellationToken: CancellationToken;
-    ensureOrdered: boolean;
-    maxMessagesPerTask: int;
-    nameFormat: string;
-    taskScheduler: TaskScheduler;
+    BoundedCapacity: int;
+    CancellationToken: CancellationToken;
+    EnsureOrdered: boolean;
+    MaxMessagesPerTask: int;
+    NameFormat: string;
+    TaskScheduler: TaskScheduler;
     static readonly Unbounded: int;
 }
 
@@ -288,9 +292,9 @@ export type DataflowBlockOptions = DataflowBlockOptions$instance;
 
 export class DataflowLinkOptions$instance {
     constructor();
-    append: boolean;
-    maxMessages: int;
-    propagateCompletion: boolean;
+    Append: boolean;
+    MaxMessages: int;
+    PropagateCompletion: boolean;
 }
 
 
@@ -298,8 +302,8 @@ export type DataflowLinkOptions = DataflowLinkOptions$instance;
 
 export class ExecutionDataflowBlockOptions$instance extends DataflowBlockOptions$instance {
     constructor();
-    maxDegreeOfParallelism: int;
-    singleProducerConstrained: boolean;
+    MaxDegreeOfParallelism: int;
+    SingleProducerConstrained: boolean;
 }
 
 
@@ -307,8 +311,8 @@ export type ExecutionDataflowBlockOptions = ExecutionDataflowBlockOptions$instan
 
 export class GroupingDataflowBlockOptions$instance extends DataflowBlockOptions$instance {
     constructor();
-    greedy: boolean;
-    maxNumberOfGroups: long;
+    Greedy: boolean;
+    MaxNumberOfGroups: long;
 }
 
 
@@ -317,22 +321,22 @@ export type GroupingDataflowBlockOptions = GroupingDataflowBlockOptions$instance
 export class JoinBlock_2$instance<T1, T2> {
     constructor();
     constructor(dataflowBlockOptions: GroupingDataflowBlockOptions);
-    readonly completion: Task;
-    readonly outputCount: int;
-    readonly target1: ITargetBlock_1<T1>;
-    readonly target2: ITargetBlock_1<T2>;
-    complete(): void;
-    linkTo(target: ITargetBlock_1<Tuple_2<T1, T2>>, linkOptions: DataflowLinkOptions): IDisposable;
-    toString(): string;
-    tryReceive(filter: Predicate_1<Tuple_2<T1, T2>>, item: { value: ref<Tuple_2<T1, T2>> }): boolean;
-    tryReceiveAll(items: { value: ref<IList_1<Tuple_2<T1, T2>>> }): boolean;
+    readonly Completion: Task;
+    readonly OutputCount: int;
+    readonly Target1: ITargetBlock_1<T1>;
+    readonly Target2: ITargetBlock_1<T2>;
+    Complete(): void;
+    LinkTo(target: ITargetBlock_1<Tuple_2<T1, T2>>, linkOptions: DataflowLinkOptions): IDisposable;
+    ToString(): string;
+    TryReceive(filter: Predicate_1<Tuple_2<T1, T2>>, item: { value: ref<Tuple_2<T1, T2>> }): boolean;
+    TryReceiveAll(items: { value: ref<IList_1<Tuple_2<T1, T2>>> }): boolean;
 }
 
 
 export interface __JoinBlock_2$views<T1, T2> {
-    readonly As_IDataflowBlock: IDataflowBlock$instance;
-    readonly As_IReceivableSourceBlock_1_of__array: IReceivableSourceBlock_1$instance<Tuple_2<T1, T2>>;
-    readonly As_ISourceBlock_1_of__array: ISourceBlock_1$instance<Tuple_2<T1, T2>>;
+    As_IDataflowBlock(): IDataflowBlock$instance;
+    As_IReceivableSourceBlock_1(): IReceivableSourceBlock_1$instance<Tuple_2<T1, T2>>;
+    As_ISourceBlock_1(): ISourceBlock_1$instance<Tuple_2<T1, T2>>;
 }
 
 export type JoinBlock_2<T1, T2> = JoinBlock_2$instance<T1, T2> & __JoinBlock_2$views<T1, T2>;
@@ -341,23 +345,23 @@ export type JoinBlock_2<T1, T2> = JoinBlock_2$instance<T1, T2> & __JoinBlock_2$v
 export class JoinBlock_3$instance<T1, T2, T3> {
     constructor();
     constructor(dataflowBlockOptions: GroupingDataflowBlockOptions);
-    readonly completion: Task;
-    readonly outputCount: int;
-    readonly target1: ITargetBlock_1<T1>;
-    readonly target2: ITargetBlock_1<T2>;
-    readonly target3: ITargetBlock_1<T3>;
-    complete(): void;
-    linkTo(target: ITargetBlock_1<Tuple_3<T1, T2, T3>>, linkOptions: DataflowLinkOptions): IDisposable;
-    toString(): string;
-    tryReceive(filter: Predicate_1<Tuple_3<T1, T2, T3>>, item: { value: ref<Tuple_3<T1, T2, T3>> }): boolean;
-    tryReceiveAll(items: { value: ref<IList_1<Tuple_3<T1, T2, T3>>> }): boolean;
+    readonly Completion: Task;
+    readonly OutputCount: int;
+    readonly Target1: ITargetBlock_1<T1>;
+    readonly Target2: ITargetBlock_1<T2>;
+    readonly Target3: ITargetBlock_1<T3>;
+    Complete(): void;
+    LinkTo(target: ITargetBlock_1<Tuple_3<T1, T2, T3>>, linkOptions: DataflowLinkOptions): IDisposable;
+    ToString(): string;
+    TryReceive(filter: Predicate_1<Tuple_3<T1, T2, T3>>, item: { value: ref<Tuple_3<T1, T2, T3>> }): boolean;
+    TryReceiveAll(items: { value: ref<IList_1<Tuple_3<T1, T2, T3>>> }): boolean;
 }
 
 
 export interface __JoinBlock_3$views<T1, T2, T3> {
-    readonly As_IDataflowBlock: IDataflowBlock$instance;
-    readonly As_IReceivableSourceBlock_1_of__array: IReceivableSourceBlock_1$instance<Tuple_3<T1, T2, T3>>;
-    readonly As_ISourceBlock_1_of__array: ISourceBlock_1$instance<Tuple_3<T1, T2, T3>>;
+    As_IDataflowBlock(): IDataflowBlock$instance;
+    As_IReceivableSourceBlock_1(): IReceivableSourceBlock_1$instance<Tuple_3<T1, T2, T3>>;
+    As_ISourceBlock_1(): ISourceBlock_1$instance<Tuple_3<T1, T2, T3>>;
 }
 
 export type JoinBlock_3<T1, T2, T3> = JoinBlock_3$instance<T1, T2, T3> & __JoinBlock_3$views<T1, T2, T3>;
@@ -366,22 +370,22 @@ export type JoinBlock_3<T1, T2, T3> = JoinBlock_3$instance<T1, T2, T3> & __JoinB
 export class TransformBlock_2$instance<TInput, TOutput> {
     constructor(transform: Func_2<TInput, TOutput>);
     constructor(transform: Func_2<TInput, TOutput>, dataflowBlockOptions: ExecutionDataflowBlockOptions);
-    readonly completion: Task;
-    readonly inputCount: int;
-    readonly outputCount: int;
-    complete(): void;
-    linkTo(target: ITargetBlock_1<TOutput>, linkOptions: DataflowLinkOptions): IDisposable;
-    toString(): string;
-    tryReceive(filter: Predicate_1<TOutput>, item: { value: ref<TOutput> }): boolean;
-    tryReceiveAll(items: { value: ref<IList_1<TOutput>> }): boolean;
+    readonly Completion: Task;
+    readonly InputCount: int;
+    readonly OutputCount: int;
+    Complete(): void;
+    LinkTo(target: ITargetBlock_1<TOutput>, linkOptions: DataflowLinkOptions): IDisposable;
+    ToString(): string;
+    TryReceive(filter: Predicate_1<TOutput>, item: { value: ref<TOutput> }): boolean;
+    TryReceiveAll(items: { value: ref<IList_1<TOutput>> }): boolean;
 }
 
 
 export interface __TransformBlock_2$views<TInput, TOutput> {
-    readonly As_IDataflowBlock: IDataflowBlock$instance;
-    readonly As_IReceivableSourceBlock_1_of__array: IReceivableSourceBlock_1$instance<TOutput>;
-    readonly As_ISourceBlock_1_of__array: ISourceBlock_1$instance<TOutput>;
-    readonly As_ITargetBlock_1: ITargetBlock_1$instance<TInput>;
+    As_IDataflowBlock(): IDataflowBlock$instance;
+    As_IReceivableSourceBlock_1(): IReceivableSourceBlock_1$instance<TOutput>;
+    As_ISourceBlock_1(): ISourceBlock_1$instance<TOutput>;
+    As_ITargetBlock_1(): ITargetBlock_1$instance<TInput>;
 }
 
 export type TransformBlock_2<TInput, TOutput> = TransformBlock_2$instance<TInput, TOutput> & __TransformBlock_2$views<TInput, TOutput>;
@@ -390,22 +394,22 @@ export type TransformBlock_2<TInput, TOutput> = TransformBlock_2$instance<TInput
 export class TransformManyBlock_2$instance<TInput, TOutput> {
     constructor(transform: Func_2<TInput, IEnumerable_1<TOutput>>);
     constructor(transform: Func_2<TInput, IEnumerable_1<TOutput>>, dataflowBlockOptions: ExecutionDataflowBlockOptions);
-    readonly completion: Task;
-    readonly inputCount: int;
-    readonly outputCount: int;
-    complete(): void;
-    linkTo(target: ITargetBlock_1<TOutput>, linkOptions: DataflowLinkOptions): IDisposable;
-    toString(): string;
-    tryReceive(filter: Predicate_1<TOutput>, item: { value: ref<TOutput> }): boolean;
-    tryReceiveAll(items: { value: ref<IList_1<TOutput>> }): boolean;
+    readonly Completion: Task;
+    readonly InputCount: int;
+    readonly OutputCount: int;
+    Complete(): void;
+    LinkTo(target: ITargetBlock_1<TOutput>, linkOptions: DataflowLinkOptions): IDisposable;
+    ToString(): string;
+    TryReceive(filter: Predicate_1<TOutput>, item: { value: ref<TOutput> }): boolean;
+    TryReceiveAll(items: { value: ref<IList_1<TOutput>> }): boolean;
 }
 
 
 export interface __TransformManyBlock_2$views<TInput, TOutput> {
-    readonly As_IDataflowBlock: IDataflowBlock$instance;
-    readonly As_IReceivableSourceBlock_1_of__array: IReceivableSourceBlock_1$instance<TOutput>;
-    readonly As_ISourceBlock_1_of__array: ISourceBlock_1$instance<TOutput>;
-    readonly As_ITargetBlock_1: ITargetBlock_1$instance<TInput>;
+    As_IDataflowBlock(): IDataflowBlock$instance;
+    As_IReceivableSourceBlock_1(): IReceivableSourceBlock_1$instance<TOutput>;
+    As_ISourceBlock_1(): ISourceBlock_1$instance<TOutput>;
+    As_ITargetBlock_1(): ITargetBlock_1$instance<TInput>;
 }
 
 export type TransformManyBlock_2<TInput, TOutput> = TransformManyBlock_2$instance<TInput, TOutput> & __TransformManyBlock_2$views<TInput, TOutput>;
@@ -414,19 +418,19 @@ export type TransformManyBlock_2<TInput, TOutput> = TransformManyBlock_2$instanc
 export class WriteOnceBlock_1$instance<T> {
     constructor(cloningFunction: Func_2<T, T>);
     constructor(cloningFunction: Func_2<T, T>, dataflowBlockOptions: DataflowBlockOptions);
-    readonly completion: Task;
-    complete(): void;
-    linkTo(target: ITargetBlock_1<T>, linkOptions: DataflowLinkOptions): IDisposable;
-    toString(): string;
-    tryReceive(filter: Predicate_1<T>, item: { value: ref<T> }): boolean;
+    readonly Completion: Task;
+    Complete(): void;
+    LinkTo(target: ITargetBlock_1<T>, linkOptions: DataflowLinkOptions): IDisposable;
+    ToString(): string;
+    TryReceive(filter: Predicate_1<T>, item: { value: ref<T> }): boolean;
 }
 
 
 export interface __WriteOnceBlock_1$views<T> {
-    readonly As_IDataflowBlock: IDataflowBlock$instance;
-    readonly As_IReceivableSourceBlock_1_of__array: IReceivableSourceBlock_1$instance<T>;
-    readonly As_ISourceBlock_1_of__array: ISourceBlock_1$instance<T>;
-    readonly As_ITargetBlock_1: ITargetBlock_1$instance<T>;
+    As_IDataflowBlock(): IDataflowBlock$instance;
+    As_IReceivableSourceBlock_1(): IReceivableSourceBlock_1$instance<T>;
+    As_ISourceBlock_1(): ISourceBlock_1$instance<T>;
+    As_ITargetBlock_1(): ITargetBlock_1$instance<T>;
 }
 
 export type WriteOnceBlock_1<T> = WriteOnceBlock_1$instance<T> & __WriteOnceBlock_1$views<T>;

@@ -30,7 +30,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Buffers.OperationStatus::DoneSystem.Buffers.OperationStatus",
           "clrName": "Done",
-          "tsEmitName": "done",
+          "tsEmitName": "Done",
           "normalizedSignature": "Done|System.Buffers.OperationStatus|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -39,7 +39,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Buffers.OperationStatus::DestinationTooSmallSystem.Buffers.OperationStatus",
           "clrName": "DestinationTooSmall",
-          "tsEmitName": "destinationTooSmall",
+          "tsEmitName": "DestinationTooSmall",
           "normalizedSignature": "DestinationTooSmall|System.Buffers.OperationStatus|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -48,7 +48,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Buffers.OperationStatus::NeedMoreDataSystem.Buffers.OperationStatus",
           "clrName": "NeedMoreData",
-          "tsEmitName": "needMoreData",
+          "tsEmitName": "NeedMoreData",
           "normalizedSignature": "NeedMoreData|System.Buffers.OperationStatus|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -57,7 +57,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Buffers.OperationStatus::InvalidDataSystem.Buffers.OperationStatus",
           "clrName": "InvalidData",
-          "tsEmitName": "invalidData",
+          "tsEmitName": "InvalidData",
           "normalizedSignature": "InvalidData|System.Buffers.OperationStatus|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -81,7 +81,7 @@
         {
           "stableId": "System.Memory:System.Buffers.IBufferWriter\u00601::Advance(System.Int32):System.Void",
           "clrName": "Advance",
-          "tsEmitName": "advance",
+          "tsEmitName": "Advance",
           "normalizedSignature": "Advance|(System.Int32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -97,7 +97,7 @@
         {
           "stableId": "System.Memory:System.Buffers.IBufferWriter\u00601::GetMemory(System.Int32):Memory_1",
           "clrName": "GetMemory",
-          "tsEmitName": "getMemory",
+          "tsEmitName": "GetMemory",
           "normalizedSignature": "GetMemory|(System.Int32):Memory_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -113,7 +113,7 @@
         {
           "stableId": "System.Memory:System.Buffers.IBufferWriter\u00601::GetSpan(System.Int32):Span_1",
           "clrName": "GetSpan",
-          "tsEmitName": "getSpan",
+          "tsEmitName": "GetSpan",
           "normalizedSignature": "GetSpan|(System.Int32):Span_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -146,7 +146,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "dispose",
+          "tsEmitName": "Dispose",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -164,7 +164,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Buffers.IMemoryOwner\u00601::Memory:Memory_1",
           "clrName": "Memory",
-          "tsEmitName": "memory",
+          "tsEmitName": "Memory",
           "normalizedSignature": "Memory|:Memory_1|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -195,7 +195,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Buffers.IPinnable::Pin(System.Int32):System.Buffers.MemoryHandle",
           "clrName": "Pin",
-          "tsEmitName": "pin",
+          "tsEmitName": "Pin",
           "normalizedSignature": "Pin|(System.Int32):System.Buffers.MemoryHandle|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -211,7 +211,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Buffers.IPinnable::Unpin():System.Void",
           "clrName": "Unpin",
-          "tsEmitName": "unpin",
+          "tsEmitName": "Unpin",
           "normalizedSignature": "Unpin|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -244,7 +244,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Buffers.MemoryHandle::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "dispose",
+          "tsEmitName": "Dispose",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -260,7 +260,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "dispose$view",
+          "tsEmitName": "Dispose$view",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -279,7 +279,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Buffers.MemoryHandle::Pointer:System.Void*",
           "clrName": "Pointer",
-          "tsEmitName": "pointer",
+          "tsEmitName": "Pointer",
           "normalizedSignature": "Pointer|:System.Void*|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -316,7 +316,7 @@
         {
           "stableId": "System.Memory:System.Buffers.ReadOnlySequence\u00601::Slice(System.Int64,System.Int64):ReadOnlySequence_1",
           "clrName": "Slice",
-          "tsEmitName": "slice",
+          "tsEmitName": "Slice",
           "normalizedSignature": "Slice|(System.Int64,System.Int64):ReadOnlySequence_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -332,7 +332,7 @@
         {
           "stableId": "System.Memory:System.Buffers.ReadOnlySequence\u00601::Slice(System.Int64,System.SequencePosition):ReadOnlySequence_1",
           "clrName": "Slice",
-          "tsEmitName": "slice2",
+          "tsEmitName": "Slice2",
           "normalizedSignature": "Slice|(System.Int64,System.SequencePosition):ReadOnlySequence_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -348,7 +348,7 @@
         {
           "stableId": "System.Memory:System.Buffers.ReadOnlySequence\u00601::Slice(System.SequencePosition,System.Int64):ReadOnlySequence_1",
           "clrName": "Slice",
-          "tsEmitName": "slice3",
+          "tsEmitName": "Slice3",
           "normalizedSignature": "Slice|(System.SequencePosition,System.Int64):ReadOnlySequence_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -364,7 +364,7 @@
         {
           "stableId": "System.Memory:System.Buffers.ReadOnlySequence\u00601::Slice(System.Int32,System.Int32):ReadOnlySequence_1",
           "clrName": "Slice",
-          "tsEmitName": "slice4",
+          "tsEmitName": "Slice4",
           "normalizedSignature": "Slice|(System.Int32,System.Int32):ReadOnlySequence_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -380,7 +380,7 @@
         {
           "stableId": "System.Memory:System.Buffers.ReadOnlySequence\u00601::Slice(System.Int32,System.SequencePosition):ReadOnlySequence_1",
           "clrName": "Slice",
-          "tsEmitName": "slice5",
+          "tsEmitName": "Slice5",
           "normalizedSignature": "Slice|(System.Int32,System.SequencePosition):ReadOnlySequence_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -396,7 +396,7 @@
         {
           "stableId": "System.Memory:System.Buffers.ReadOnlySequence\u00601::Slice(System.SequencePosition,System.Int32):ReadOnlySequence_1",
           "clrName": "Slice",
-          "tsEmitName": "slice6",
+          "tsEmitName": "Slice6",
           "normalizedSignature": "Slice|(System.SequencePosition,System.Int32):ReadOnlySequence_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -412,7 +412,7 @@
         {
           "stableId": "System.Memory:System.Buffers.ReadOnlySequence\u00601::Slice(System.SequencePosition,System.SequencePosition):ReadOnlySequence_1",
           "clrName": "Slice",
-          "tsEmitName": "slice7",
+          "tsEmitName": "Slice7",
           "normalizedSignature": "Slice|(System.SequencePosition,System.SequencePosition):ReadOnlySequence_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -428,7 +428,7 @@
         {
           "stableId": "System.Memory:System.Buffers.ReadOnlySequence\u00601::Slice(System.SequencePosition):ReadOnlySequence_1",
           "clrName": "Slice",
-          "tsEmitName": "slice8",
+          "tsEmitName": "Slice8",
           "normalizedSignature": "Slice|(System.SequencePosition):ReadOnlySequence_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -444,7 +444,7 @@
         {
           "stableId": "System.Memory:System.Buffers.ReadOnlySequence\u00601::Slice(System.Int64):ReadOnlySequence_1",
           "clrName": "Slice",
-          "tsEmitName": "slice9",
+          "tsEmitName": "Slice9",
           "normalizedSignature": "Slice|(System.Int64):ReadOnlySequence_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -460,7 +460,7 @@
         {
           "stableId": "System.Memory:System.Buffers.ReadOnlySequence\u00601::ToString():System.String",
           "clrName": "ToString",
-          "tsEmitName": "toString",
+          "tsEmitName": "ToString",
           "normalizedSignature": "ToString|():System.String|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -476,7 +476,7 @@
         {
           "stableId": "System.Memory:System.Buffers.ReadOnlySequence\u00601::GetEnumerator():Enumerator",
           "clrName": "GetEnumerator",
-          "tsEmitName": "getEnumerator",
+          "tsEmitName": "GetEnumerator",
           "normalizedSignature": "GetEnumerator|():Enumerator|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -492,7 +492,7 @@
         {
           "stableId": "System.Memory:System.Buffers.ReadOnlySequence\u00601::GetPosition(System.Int64):System.SequencePosition",
           "clrName": "GetPosition",
-          "tsEmitName": "getPosition",
+          "tsEmitName": "GetPosition",
           "normalizedSignature": "GetPosition|(System.Int64):System.SequencePosition|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -508,7 +508,7 @@
         {
           "stableId": "System.Memory:System.Buffers.ReadOnlySequence\u00601::GetOffset(System.SequencePosition):System.Int64",
           "clrName": "GetOffset",
-          "tsEmitName": "getOffset",
+          "tsEmitName": "GetOffset",
           "normalizedSignature": "GetOffset|(System.SequencePosition):System.Int64|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -524,7 +524,7 @@
         {
           "stableId": "System.Memory:System.Buffers.ReadOnlySequence\u00601::GetPosition(System.Int64,System.SequencePosition):System.SequencePosition",
           "clrName": "GetPosition",
-          "tsEmitName": "getPosition2",
+          "tsEmitName": "GetPosition2",
           "normalizedSignature": "GetPosition|(System.Int64,System.SequencePosition):System.SequencePosition|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -540,7 +540,7 @@
         {
           "stableId": "System.Memory:System.Buffers.ReadOnlySequence\u00601::TryGet(System.SequencePosition\u0026,ReadOnlyMemory_1\u0026,System.Boolean):System.Boolean",
           "clrName": "TryGet",
-          "tsEmitName": "tryGet",
+          "tsEmitName": "TryGet",
           "normalizedSignature": "TryGet|(System.SequencePosition\u0026,ReadOnlyMemory_1\u0026,System.Boolean):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -558,7 +558,7 @@
         {
           "stableId": "System.Memory:System.Buffers.ReadOnlySequence\u00601::Length:System.Int64",
           "clrName": "Length",
-          "tsEmitName": "length",
+          "tsEmitName": "Length",
           "normalizedSignature": "Length|:System.Int64|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -573,7 +573,7 @@
         {
           "stableId": "System.Memory:System.Buffers.ReadOnlySequence\u00601::IsEmpty:System.Boolean",
           "clrName": "IsEmpty",
-          "tsEmitName": "isEmpty",
+          "tsEmitName": "IsEmpty",
           "normalizedSignature": "IsEmpty|:System.Boolean|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -588,7 +588,7 @@
         {
           "stableId": "System.Memory:System.Buffers.ReadOnlySequence\u00601::IsSingleSegment:System.Boolean",
           "clrName": "IsSingleSegment",
-          "tsEmitName": "isSingleSegment",
+          "tsEmitName": "IsSingleSegment",
           "normalizedSignature": "IsSingleSegment|:System.Boolean|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -603,7 +603,7 @@
         {
           "stableId": "System.Memory:System.Buffers.ReadOnlySequence\u00601::First:ReadOnlyMemory_1",
           "clrName": "First",
-          "tsEmitName": "first",
+          "tsEmitName": "First",
           "normalizedSignature": "First|:ReadOnlyMemory_1|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -618,7 +618,7 @@
         {
           "stableId": "System.Memory:System.Buffers.ReadOnlySequence\u00601::FirstSpan:ReadOnlySpan_1",
           "clrName": "FirstSpan",
-          "tsEmitName": "firstSpan",
+          "tsEmitName": "FirstSpan",
           "normalizedSignature": "FirstSpan|:ReadOnlySpan_1|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -633,7 +633,7 @@
         {
           "stableId": "System.Memory:System.Buffers.ReadOnlySequence\u00601::Start:System.SequencePosition",
           "clrName": "Start",
-          "tsEmitName": "start",
+          "tsEmitName": "Start",
           "normalizedSignature": "Start|:System.SequencePosition|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -648,7 +648,7 @@
         {
           "stableId": "System.Memory:System.Buffers.ReadOnlySequence\u00601::End:System.SequencePosition",
           "clrName": "End",
-          "tsEmitName": "end",
+          "tsEmitName": "End",
           "normalizedSignature": "End|:System.SequencePosition|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -665,7 +665,7 @@
         {
           "stableId": "System.Memory:System.Buffers.ReadOnlySequence\u00601::EmptyReadOnlySequence\u00601",
           "clrName": "Empty",
-          "tsEmitName": "empty",
+          "tsEmitName": "Empty",
           "normalizedSignature": "Empty|ReadOnlySequence\u00601|static=true|const=false",
           "isStatic": true,
           "isReadOnly": true,
@@ -710,7 +710,7 @@
         {
           "stableId": "System.Memory:System.Buffers.ReadOnlySequence\u00601\u002BEnumerator::MoveNext():System.Boolean",
           "clrName": "MoveNext",
-          "tsEmitName": "moveNext",
+          "tsEmitName": "MoveNext",
           "normalizedSignature": "MoveNext|():System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -728,7 +728,7 @@
         {
           "stableId": "System.Memory:System.Buffers.ReadOnlySequence\u00601\u002BEnumerator::Current:ReadOnlyMemory_1",
           "clrName": "Current",
-          "tsEmitName": "current",
+          "tsEmitName": "Current",
           "normalizedSignature": "Current|:ReadOnlyMemory_1|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -765,7 +765,7 @@
         {
           "stableId": "System.Memory:System.Buffers.SequenceReader\u00601::TryPeek(T\u0026):System.Boolean",
           "clrName": "TryPeek",
-          "tsEmitName": "tryPeek",
+          "tsEmitName": "TryPeek",
           "normalizedSignature": "TryPeek|(T\u0026):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -781,7 +781,7 @@
         {
           "stableId": "System.Memory:System.Buffers.SequenceReader\u00601::TryPeek(System.Int64,T\u0026):System.Boolean",
           "clrName": "TryPeek",
-          "tsEmitName": "tryPeek2",
+          "tsEmitName": "TryPeek2",
           "normalizedSignature": "TryPeek|(System.Int64,T\u0026):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -797,7 +797,7 @@
         {
           "stableId": "System.Memory:System.Buffers.SequenceReader\u00601::TryRead(T\u0026):System.Boolean",
           "clrName": "TryRead",
-          "tsEmitName": "tryRead",
+          "tsEmitName": "TryRead",
           "normalizedSignature": "TryRead|(T\u0026):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -813,7 +813,7 @@
         {
           "stableId": "System.Memory:System.Buffers.SequenceReader\u00601::Rewind(System.Int64):System.Void",
           "clrName": "Rewind",
-          "tsEmitName": "rewind",
+          "tsEmitName": "Rewind",
           "normalizedSignature": "Rewind|(System.Int64):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -829,7 +829,7 @@
         {
           "stableId": "System.Memory:System.Buffers.SequenceReader\u00601::Advance(System.Int64):System.Void",
           "clrName": "Advance",
-          "tsEmitName": "advance",
+          "tsEmitName": "Advance",
           "normalizedSignature": "Advance|(System.Int64):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -845,7 +845,7 @@
         {
           "stableId": "System.Memory:System.Buffers.SequenceReader\u00601::TryCopyTo(Span_1):System.Boolean",
           "clrName": "TryCopyTo",
-          "tsEmitName": "tryCopyTo",
+          "tsEmitName": "TryCopyTo",
           "normalizedSignature": "TryCopyTo|(Span_1):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -861,7 +861,7 @@
         {
           "stableId": "System.Memory:System.Buffers.SequenceReader\u00601::TryReadTo(ReadOnlySpan_1\u0026,T,System.Boolean):System.Boolean",
           "clrName": "TryReadTo",
-          "tsEmitName": "tryReadTo",
+          "tsEmitName": "TryReadTo",
           "normalizedSignature": "TryReadTo|(ReadOnlySpan_1\u0026,T,System.Boolean):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -877,7 +877,7 @@
         {
           "stableId": "System.Memory:System.Buffers.SequenceReader\u00601::TryReadTo(ReadOnlySpan_1\u0026,T,T,System.Boolean):System.Boolean",
           "clrName": "TryReadTo",
-          "tsEmitName": "tryReadTo2",
+          "tsEmitName": "TryReadTo2",
           "normalizedSignature": "TryReadTo|(ReadOnlySpan_1\u0026,T,T,System.Boolean):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -893,7 +893,7 @@
         {
           "stableId": "System.Memory:System.Buffers.SequenceReader\u00601::TryReadTo(ReadOnlySequence_1\u0026,T,System.Boolean):System.Boolean",
           "clrName": "TryReadTo",
-          "tsEmitName": "tryReadTo3",
+          "tsEmitName": "TryReadTo3",
           "normalizedSignature": "TryReadTo|(ReadOnlySequence_1\u0026,T,System.Boolean):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -909,7 +909,7 @@
         {
           "stableId": "System.Memory:System.Buffers.SequenceReader\u00601::TryReadTo(ReadOnlySequence_1\u0026,T,T,System.Boolean):System.Boolean",
           "clrName": "TryReadTo",
-          "tsEmitName": "tryReadTo4",
+          "tsEmitName": "TryReadTo4",
           "normalizedSignature": "TryReadTo|(ReadOnlySequence_1\u0026,T,T,System.Boolean):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -925,7 +925,7 @@
         {
           "stableId": "System.Memory:System.Buffers.SequenceReader\u00601::TryReadToAny(ReadOnlySpan_1\u0026,ReadOnlySpan_1,System.Boolean):System.Boolean",
           "clrName": "TryReadToAny",
-          "tsEmitName": "tryReadToAny",
+          "tsEmitName": "TryReadToAny",
           "normalizedSignature": "TryReadToAny|(ReadOnlySpan_1\u0026,ReadOnlySpan_1,System.Boolean):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -941,7 +941,7 @@
         {
           "stableId": "System.Memory:System.Buffers.SequenceReader\u00601::TryReadToAny(ReadOnlySequence_1\u0026,ReadOnlySpan_1,System.Boolean):System.Boolean",
           "clrName": "TryReadToAny",
-          "tsEmitName": "tryReadToAny2",
+          "tsEmitName": "TryReadToAny2",
           "normalizedSignature": "TryReadToAny|(ReadOnlySequence_1\u0026,ReadOnlySpan_1,System.Boolean):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -957,7 +957,7 @@
         {
           "stableId": "System.Memory:System.Buffers.SequenceReader\u00601::TryReadTo(ReadOnlySpan_1\u0026,ReadOnlySpan_1,System.Boolean):System.Boolean",
           "clrName": "TryReadTo",
-          "tsEmitName": "tryReadTo5",
+          "tsEmitName": "TryReadTo5",
           "normalizedSignature": "TryReadTo|(ReadOnlySpan_1\u0026,ReadOnlySpan_1,System.Boolean):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -973,7 +973,7 @@
         {
           "stableId": "System.Memory:System.Buffers.SequenceReader\u00601::TryReadTo(ReadOnlySequence_1\u0026,ReadOnlySpan_1,System.Boolean):System.Boolean",
           "clrName": "TryReadTo",
-          "tsEmitName": "tryReadTo6",
+          "tsEmitName": "TryReadTo6",
           "normalizedSignature": "TryReadTo|(ReadOnlySequence_1\u0026,ReadOnlySpan_1,System.Boolean):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -989,7 +989,7 @@
         {
           "stableId": "System.Memory:System.Buffers.SequenceReader\u00601::TryReadExact(System.Int32,ReadOnlySequence_1\u0026):System.Boolean",
           "clrName": "TryReadExact",
-          "tsEmitName": "tryReadExact",
+          "tsEmitName": "TryReadExact",
           "normalizedSignature": "TryReadExact|(System.Int32,ReadOnlySequence_1\u0026):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1005,7 +1005,7 @@
         {
           "stableId": "System.Memory:System.Buffers.SequenceReader\u00601::TryAdvanceTo(T,System.Boolean):System.Boolean",
           "clrName": "TryAdvanceTo",
-          "tsEmitName": "tryAdvanceTo",
+          "tsEmitName": "TryAdvanceTo",
           "normalizedSignature": "TryAdvanceTo|(T,System.Boolean):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1021,7 +1021,7 @@
         {
           "stableId": "System.Memory:System.Buffers.SequenceReader\u00601::TryAdvanceToAny(ReadOnlySpan_1,System.Boolean):System.Boolean",
           "clrName": "TryAdvanceToAny",
-          "tsEmitName": "tryAdvanceToAny",
+          "tsEmitName": "TryAdvanceToAny",
           "normalizedSignature": "TryAdvanceToAny|(ReadOnlySpan_1,System.Boolean):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1037,7 +1037,7 @@
         {
           "stableId": "System.Memory:System.Buffers.SequenceReader\u00601::AdvancePast(T):System.Int64",
           "clrName": "AdvancePast",
-          "tsEmitName": "advancePast",
+          "tsEmitName": "AdvancePast",
           "normalizedSignature": "AdvancePast|(T):System.Int64|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1053,7 +1053,7 @@
         {
           "stableId": "System.Memory:System.Buffers.SequenceReader\u00601::AdvancePastAny(ReadOnlySpan_1):System.Int64",
           "clrName": "AdvancePastAny",
-          "tsEmitName": "advancePastAny",
+          "tsEmitName": "AdvancePastAny",
           "normalizedSignature": "AdvancePastAny|(ReadOnlySpan_1):System.Int64|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1069,7 +1069,7 @@
         {
           "stableId": "System.Memory:System.Buffers.SequenceReader\u00601::AdvancePastAny(T,T,T,T):System.Int64",
           "clrName": "AdvancePastAny",
-          "tsEmitName": "advancePastAny2",
+          "tsEmitName": "AdvancePastAny2",
           "normalizedSignature": "AdvancePastAny|(T,T,T,T):System.Int64|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1085,7 +1085,7 @@
         {
           "stableId": "System.Memory:System.Buffers.SequenceReader\u00601::AdvancePastAny(T,T,T):System.Int64",
           "clrName": "AdvancePastAny",
-          "tsEmitName": "advancePastAny3",
+          "tsEmitName": "AdvancePastAny3",
           "normalizedSignature": "AdvancePastAny|(T,T,T):System.Int64|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1101,7 +1101,7 @@
         {
           "stableId": "System.Memory:System.Buffers.SequenceReader\u00601::AdvancePastAny(T,T):System.Int64",
           "clrName": "AdvancePastAny",
-          "tsEmitName": "advancePastAny4",
+          "tsEmitName": "AdvancePastAny4",
           "normalizedSignature": "AdvancePastAny|(T,T):System.Int64|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1117,7 +1117,7 @@
         {
           "stableId": "System.Memory:System.Buffers.SequenceReader\u00601::AdvanceToEnd():System.Void",
           "clrName": "AdvanceToEnd",
-          "tsEmitName": "advanceToEnd",
+          "tsEmitName": "AdvanceToEnd",
           "normalizedSignature": "AdvanceToEnd|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1133,7 +1133,7 @@
         {
           "stableId": "System.Memory:System.Buffers.SequenceReader\u00601::IsNext(T,System.Boolean):System.Boolean",
           "clrName": "IsNext",
-          "tsEmitName": "isNext",
+          "tsEmitName": "IsNext",
           "normalizedSignature": "IsNext|(T,System.Boolean):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1149,7 +1149,7 @@
         {
           "stableId": "System.Memory:System.Buffers.SequenceReader\u00601::IsNext(ReadOnlySpan_1,System.Boolean):System.Boolean",
           "clrName": "IsNext",
-          "tsEmitName": "isNext2",
+          "tsEmitName": "IsNext2",
           "normalizedSignature": "IsNext|(ReadOnlySpan_1,System.Boolean):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1167,7 +1167,7 @@
         {
           "stableId": "System.Memory:System.Buffers.SequenceReader\u00601::End:System.Boolean",
           "clrName": "End",
-          "tsEmitName": "end",
+          "tsEmitName": "End",
           "normalizedSignature": "End|:System.Boolean|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1182,7 +1182,7 @@
         {
           "stableId": "System.Memory:System.Buffers.SequenceReader\u00601::Sequence:ReadOnlySequence_1",
           "clrName": "Sequence",
-          "tsEmitName": "sequence",
+          "tsEmitName": "Sequence",
           "normalizedSignature": "Sequence|:ReadOnlySequence_1|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1197,7 +1197,7 @@
         {
           "stableId": "System.Memory:System.Buffers.SequenceReader\u00601::UnreadSequence:ReadOnlySequence_1",
           "clrName": "UnreadSequence",
-          "tsEmitName": "unreadSequence",
+          "tsEmitName": "UnreadSequence",
           "normalizedSignature": "UnreadSequence|:ReadOnlySequence_1|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1212,7 +1212,7 @@
         {
           "stableId": "System.Memory:System.Buffers.SequenceReader\u00601::Position:System.SequencePosition",
           "clrName": "Position",
-          "tsEmitName": "position",
+          "tsEmitName": "Position",
           "normalizedSignature": "Position|:System.SequencePosition|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1227,7 +1227,7 @@
         {
           "stableId": "System.Memory:System.Buffers.SequenceReader\u00601::CurrentSpan:ReadOnlySpan_1",
           "clrName": "CurrentSpan",
-          "tsEmitName": "currentSpan",
+          "tsEmitName": "CurrentSpan",
           "normalizedSignature": "CurrentSpan|:ReadOnlySpan_1|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1242,7 +1242,7 @@
         {
           "stableId": "System.Memory:System.Buffers.SequenceReader\u00601::CurrentSpanIndex:System.Int32",
           "clrName": "CurrentSpanIndex",
-          "tsEmitName": "currentSpanIndex",
+          "tsEmitName": "CurrentSpanIndex",
           "normalizedSignature": "CurrentSpanIndex|:System.Int32|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1257,7 +1257,7 @@
         {
           "stableId": "System.Memory:System.Buffers.SequenceReader\u00601::UnreadSpan:ReadOnlySpan_1",
           "clrName": "UnreadSpan",
-          "tsEmitName": "unreadSpan",
+          "tsEmitName": "UnreadSpan",
           "normalizedSignature": "UnreadSpan|:ReadOnlySpan_1|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1272,7 +1272,7 @@
         {
           "stableId": "System.Memory:System.Buffers.SequenceReader\u00601::Consumed:System.Int64",
           "clrName": "Consumed",
-          "tsEmitName": "consumed",
+          "tsEmitName": "Consumed",
           "normalizedSignature": "Consumed|:System.Int64|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1287,7 +1287,7 @@
         {
           "stableId": "System.Memory:System.Buffers.SequenceReader\u00601::Remaining:System.Int64",
           "clrName": "Remaining",
-          "tsEmitName": "remaining",
+          "tsEmitName": "Remaining",
           "normalizedSignature": "Remaining|:System.Int64|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1302,7 +1302,7 @@
         {
           "stableId": "System.Memory:System.Buffers.SequenceReader\u00601::Length:System.Int64",
           "clrName": "Length",
-          "tsEmitName": "length",
+          "tsEmitName": "Length",
           "normalizedSignature": "Length|:System.Int64|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1339,7 +1339,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Buffers.StandardFormat::Parse(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Buffers.StandardFormat",
           "clrName": "Parse",
-          "tsEmitName": "parse",
+          "tsEmitName": "Parse",
           "normalizedSignature": "Parse|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Buffers.StandardFormat|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1355,7 +1355,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Buffers.StandardFormat::Parse(System.String):System.Buffers.StandardFormat",
           "clrName": "Parse",
-          "tsEmitName": "parse2",
+          "tsEmitName": "Parse2",
           "normalizedSignature": "Parse|(System.String):System.Buffers.StandardFormat|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1371,7 +1371,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Buffers.StandardFormat::TryParse(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Buffers.StandardFormat\u0026):System.Boolean",
           "clrName": "TryParse",
-          "tsEmitName": "tryParse",
+          "tsEmitName": "TryParse",
           "normalizedSignature": "TryParse|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Buffers.StandardFormat\u0026):System.Boolean|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1387,7 +1387,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Buffers.StandardFormat::Equals(System.Object):System.Boolean",
           "clrName": "Equals",
-          "tsEmitName": "equals",
+          "tsEmitName": "Equals",
           "normalizedSignature": "Equals|(System.Object):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1403,7 +1403,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Buffers.StandardFormat::GetHashCode():System.Int32",
           "clrName": "GetHashCode",
-          "tsEmitName": "getHashCode",
+          "tsEmitName": "GetHashCode",
           "normalizedSignature": "GetHashCode|():System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1419,7 +1419,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Buffers.StandardFormat::Equals(System.Buffers.StandardFormat):System.Boolean",
           "clrName": "Equals",
-          "tsEmitName": "equals2",
+          "tsEmitName": "Equals2",
           "normalizedSignature": "Equals|(System.Buffers.StandardFormat):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1435,7 +1435,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Buffers.StandardFormat::ToString():System.String",
           "clrName": "ToString",
-          "tsEmitName": "toString",
+          "tsEmitName": "ToString",
           "normalizedSignature": "ToString|():System.String|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1451,7 +1451,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IEquatable\u00601::Equals(T):System.Boolean",
           "clrName": "Equals",
-          "tsEmitName": "equals$view",
+          "tsEmitName": "Equals$view",
           "normalizedSignature": "Equals|(T):System.Boolean|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -1470,7 +1470,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Buffers.StandardFormat::Symbol:System.Char",
           "clrName": "Symbol",
-          "tsEmitName": "symbol_",
+          "tsEmitName": "Symbol",
           "normalizedSignature": "Symbol|:System.Char|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1485,7 +1485,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Buffers.StandardFormat::Precision:System.Byte",
           "clrName": "Precision",
-          "tsEmitName": "precision",
+          "tsEmitName": "Precision",
           "normalizedSignature": "Precision|:System.Byte|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1500,7 +1500,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Buffers.StandardFormat::HasPrecision:System.Boolean",
           "clrName": "HasPrecision",
-          "tsEmitName": "hasPrecision",
+          "tsEmitName": "HasPrecision",
           "normalizedSignature": "HasPrecision|:System.Boolean|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1515,7 +1515,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Buffers.StandardFormat::IsDefault:System.Boolean",
           "clrName": "IsDefault",
-          "tsEmitName": "isDefault",
+          "tsEmitName": "IsDefault",
           "normalizedSignature": "IsDefault|:System.Boolean|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1532,7 +1532,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Buffers.StandardFormat::NoPrecisionSystem.Byte",
           "clrName": "NoPrecision",
-          "tsEmitName": "noPrecision",
+          "tsEmitName": "NoPrecision",
           "normalizedSignature": "NoPrecision|System.Byte|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1541,7 +1541,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Buffers.StandardFormat::MaxPrecisionSystem.Byte",
           "clrName": "MaxPrecision",
-          "tsEmitName": "maxPrecision",
+          "tsEmitName": "MaxPrecision",
           "normalizedSignature": "MaxPrecision|System.Byte|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1571,7 +1571,7 @@
         {
           "stableId": "System.Memory:System.Buffers.ArrayBufferWriter\u00601::Clear():System.Void",
           "clrName": "Clear",
-          "tsEmitName": "clear",
+          "tsEmitName": "Clear",
           "normalizedSignature": "Clear|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1587,7 +1587,7 @@
         {
           "stableId": "System.Memory:System.Buffers.ArrayBufferWriter\u00601::ResetWrittenCount():System.Void",
           "clrName": "ResetWrittenCount",
-          "tsEmitName": "resetWrittenCount",
+          "tsEmitName": "ResetWrittenCount",
           "normalizedSignature": "ResetWrittenCount|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1603,7 +1603,7 @@
         {
           "stableId": "System.Memory:System.Buffers.ArrayBufferWriter\u00601::Advance(System.Int32):System.Void",
           "clrName": "Advance",
-          "tsEmitName": "advance",
+          "tsEmitName": "Advance",
           "normalizedSignature": "Advance|(System.Int32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1619,7 +1619,7 @@
         {
           "stableId": "System.Memory:System.Buffers.ArrayBufferWriter\u00601::GetMemory(System.Int32):Memory_1",
           "clrName": "GetMemory",
-          "tsEmitName": "getMemory",
+          "tsEmitName": "GetMemory",
           "normalizedSignature": "GetMemory|(System.Int32):Memory_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1635,7 +1635,7 @@
         {
           "stableId": "System.Memory:System.Buffers.ArrayBufferWriter\u00601::GetSpan(System.Int32):Span_1",
           "clrName": "GetSpan",
-          "tsEmitName": "getSpan",
+          "tsEmitName": "GetSpan",
           "normalizedSignature": "GetSpan|(System.Int32):Span_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1651,7 +1651,7 @@
         {
           "stableId": "System.Memory:System.Buffers.IBufferWriter\u00601::Advance(System.Int32):System.Void",
           "clrName": "Advance",
-          "tsEmitName": "advance$view",
+          "tsEmitName": "Advance$view",
           "normalizedSignature": "Advance|(System.Int32):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -1668,7 +1668,7 @@
         {
           "stableId": "System.Memory:System.Buffers.IBufferWriter\u00601::GetMemory(System.Int32):Memory_1",
           "clrName": "GetMemory",
-          "tsEmitName": "getMemory$view",
+          "tsEmitName": "GetMemory$view",
           "normalizedSignature": "GetMemory|(System.Int32):Memory_1|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -1685,7 +1685,7 @@
         {
           "stableId": "System.Memory:System.Buffers.IBufferWriter\u00601::GetSpan(System.Int32):Span_1",
           "clrName": "GetSpan",
-          "tsEmitName": "getSpan$view",
+          "tsEmitName": "GetSpan$view",
           "normalizedSignature": "GetSpan|(System.Int32):Span_1|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -1704,7 +1704,7 @@
         {
           "stableId": "System.Memory:System.Buffers.ArrayBufferWriter\u00601::WrittenMemory:ReadOnlyMemory_1",
           "clrName": "WrittenMemory",
-          "tsEmitName": "writtenMemory",
+          "tsEmitName": "WrittenMemory",
           "normalizedSignature": "WrittenMemory|:ReadOnlyMemory_1|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1719,7 +1719,7 @@
         {
           "stableId": "System.Memory:System.Buffers.ArrayBufferWriter\u00601::WrittenSpan:ReadOnlySpan_1",
           "clrName": "WrittenSpan",
-          "tsEmitName": "writtenSpan",
+          "tsEmitName": "WrittenSpan",
           "normalizedSignature": "WrittenSpan|:ReadOnlySpan_1|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1734,7 +1734,7 @@
         {
           "stableId": "System.Memory:System.Buffers.ArrayBufferWriter\u00601::WrittenCount:System.Int32",
           "clrName": "WrittenCount",
-          "tsEmitName": "writtenCount",
+          "tsEmitName": "WrittenCount",
           "normalizedSignature": "WrittenCount|:System.Int32|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1749,7 +1749,7 @@
         {
           "stableId": "System.Memory:System.Buffers.ArrayBufferWriter\u00601::Capacity:System.Int32",
           "clrName": "Capacity",
-          "tsEmitName": "capacity",
+          "tsEmitName": "Capacity",
           "normalizedSignature": "Capacity|:System.Int32|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1764,7 +1764,7 @@
         {
           "stableId": "System.Memory:System.Buffers.ArrayBufferWriter\u00601::FreeCapacity:System.Int32",
           "clrName": "FreeCapacity",
-          "tsEmitName": "freeCapacity",
+          "tsEmitName": "FreeCapacity",
           "normalizedSignature": "FreeCapacity|:System.Int32|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1806,7 +1806,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Buffers.ArrayPool\u00601::Create():ArrayPool_1",
           "clrName": "Create",
-          "tsEmitName": "create",
+          "tsEmitName": "Create",
           "normalizedSignature": "Create|():ArrayPool_1|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1822,7 +1822,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Buffers.ArrayPool\u00601::Create(System.Int32,System.Int32):ArrayPool_1",
           "clrName": "Create",
-          "tsEmitName": "create2",
+          "tsEmitName": "Create2",
           "normalizedSignature": "Create|(System.Int32,System.Int32):ArrayPool_1|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1838,7 +1838,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Buffers.ArrayPool\u00601::Rent(System.Int32):T[]",
           "clrName": "Rent",
-          "tsEmitName": "rent",
+          "tsEmitName": "Rent",
           "normalizedSignature": "Rent|(System.Int32):T[]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1854,7 +1854,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Buffers.ArrayPool\u00601::Return(T[],System.Boolean):System.Void",
           "clrName": "Return",
-          "tsEmitName": "return_",
+          "tsEmitName": "Return",
           "normalizedSignature": "Return|(T[],System.Boolean):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1872,7 +1872,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Buffers.ArrayPool\u00601::Shared:ArrayPool_1",
           "clrName": "Shared",
-          "tsEmitName": "shared",
+          "tsEmitName": "Shared",
           "normalizedSignature": "Shared|:ArrayPool_1|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1903,7 +1903,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Buffers.MemoryManager\u00601::GetSpan():Span_1",
           "clrName": "GetSpan",
-          "tsEmitName": "getSpan",
+          "tsEmitName": "GetSpan",
           "normalizedSignature": "GetSpan|():Span_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1919,7 +1919,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Buffers.MemoryManager\u00601::Pin(System.Int32):System.Buffers.MemoryHandle",
           "clrName": "Pin",
-          "tsEmitName": "pin",
+          "tsEmitName": "Pin",
           "normalizedSignature": "Pin|(System.Int32):System.Buffers.MemoryHandle|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1935,7 +1935,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Buffers.MemoryManager\u00601::Unpin():System.Void",
           "clrName": "Unpin",
-          "tsEmitName": "unpin",
+          "tsEmitName": "Unpin",
           "normalizedSignature": "Unpin|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1951,7 +1951,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "dispose",
+          "tsEmitName": "Dispose",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -1968,7 +1968,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Buffers.IPinnable::Pin(System.Int32):System.Buffers.MemoryHandle",
           "clrName": "Pin",
-          "tsEmitName": "pin$view",
+          "tsEmitName": "Pin$view",
           "normalizedSignature": "Pin|(System.Int32):System.Buffers.MemoryHandle|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -1985,7 +1985,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Buffers.IPinnable::Unpin():System.Void",
           "clrName": "Unpin",
-          "tsEmitName": "unpin$view",
+          "tsEmitName": "Unpin$view",
           "normalizedSignature": "Unpin|():System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -2004,7 +2004,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Buffers.MemoryManager\u00601::Memory:Memory_1",
           "clrName": "Memory",
-          "tsEmitName": "memory",
+          "tsEmitName": "Memory",
           "normalizedSignature": "Memory|:Memory_1|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2019,7 +2019,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Buffers.IMemoryOwner\u00601::Memory:Memory_1",
           "clrName": "Memory",
-          "tsEmitName": "memory$view",
+          "tsEmitName": "Memory$view",
           "normalizedSignature": "Memory|:Memory_1|static=false|accessor=get",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -2051,7 +2051,7 @@
         {
           "stableId": "System.Memory:System.Buffers.MemoryPool\u00601::Rent(System.Int32):IMemoryOwner_1",
           "clrName": "Rent",
-          "tsEmitName": "rent",
+          "tsEmitName": "Rent",
           "normalizedSignature": "Rent|(System.Int32):IMemoryOwner_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2067,7 +2067,7 @@
         {
           "stableId": "System.Memory:System.Buffers.MemoryPool\u00601::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "dispose",
+          "tsEmitName": "Dispose",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2083,7 +2083,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "dispose$view",
+          "tsEmitName": "Dispose$view",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -2102,7 +2102,7 @@
         {
           "stableId": "System.Memory:System.Buffers.MemoryPool\u00601::Shared:MemoryPool_1",
           "clrName": "Shared",
-          "tsEmitName": "shared",
+          "tsEmitName": "Shared",
           "normalizedSignature": "Shared|:MemoryPool_1|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2117,7 +2117,7 @@
         {
           "stableId": "System.Memory:System.Buffers.MemoryPool\u00601::MaxBufferSize:System.Int32",
           "clrName": "MaxBufferSize",
-          "tsEmitName": "maxBufferSize",
+          "tsEmitName": "MaxBufferSize",
           "normalizedSignature": "MaxBufferSize|:System.Int32|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2149,7 +2149,7 @@
         {
           "stableId": "System.Memory:System.Buffers.ReadOnlySequenceSegment\u00601::Memory:ReadOnlyMemory_1",
           "clrName": "Memory",
-          "tsEmitName": "memory",
+          "tsEmitName": "Memory",
           "normalizedSignature": "Memory|:ReadOnlyMemory_1|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2164,7 +2164,7 @@
         {
           "stableId": "System.Memory:System.Buffers.ReadOnlySequenceSegment\u00601::Next:ReadOnlySequenceSegment_1",
           "clrName": "Next",
-          "tsEmitName": "next",
+          "tsEmitName": "Next",
           "normalizedSignature": "Next|:ReadOnlySequenceSegment_1|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2179,7 +2179,7 @@
         {
           "stableId": "System.Memory:System.Buffers.ReadOnlySequenceSegment\u00601::RunningIndex:System.Int64",
           "clrName": "RunningIndex",
-          "tsEmitName": "runningIndex",
+          "tsEmitName": "RunningIndex",
           "normalizedSignature": "RunningIndex|:System.Int64|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2210,7 +2210,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Buffers.ReadOnlySpanAction\u00602::Invoke(ReadOnlySpan_1,TArg):System.Void",
           "clrName": "Invoke",
-          "tsEmitName": "invoke",
+          "tsEmitName": "Invoke",
           "normalizedSignature": "Invoke|(ReadOnlySpan_1,TArg):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2226,7 +2226,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Buffers.ReadOnlySpanAction\u00602::BeginInvoke(ReadOnlySpan_1,TArg,System.AsyncCallback,System.Object):System.IAsyncResult",
           "clrName": "BeginInvoke",
-          "tsEmitName": "beginInvoke",
+          "tsEmitName": "BeginInvoke",
           "normalizedSignature": "BeginInvoke|(ReadOnlySpan_1,TArg,System.AsyncCallback,System.Object):System.IAsyncResult|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2242,7 +2242,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Buffers.ReadOnlySpanAction\u00602::EndInvoke(System.IAsyncResult):System.Void",
           "clrName": "EndInvoke",
-          "tsEmitName": "endInvoke",
+          "tsEmitName": "EndInvoke",
           "normalizedSignature": "EndInvoke|(System.IAsyncResult):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2258,7 +2258,7 @@
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "clone$view",
+          "tsEmitName": "Clone$view",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -2275,7 +2275,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "getObjectData$view",
+          "tsEmitName": "GetObjectData$view",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -2292,7 +2292,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Buffers.ReadOnlySpanAction\u00602::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "clone",
+          "tsEmitName": "Clone",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -2308,7 +2308,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Buffers.ReadOnlySpanAction\u00602::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "getObjectData",
+          "tsEmitName": "GetObjectData",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -2347,7 +2347,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Buffers.SearchValues\u00601::Contains(T):System.Boolean",
           "clrName": "Contains",
-          "tsEmitName": "contains",
+          "tsEmitName": "Contains",
           "normalizedSignature": "Contains|(T):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2380,7 +2380,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Buffers.SpanAction\u00602::Invoke(Span_1,TArg):System.Void",
           "clrName": "Invoke",
-          "tsEmitName": "invoke",
+          "tsEmitName": "Invoke",
           "normalizedSignature": "Invoke|(Span_1,TArg):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2396,7 +2396,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Buffers.SpanAction\u00602::BeginInvoke(Span_1,TArg,System.AsyncCallback,System.Object):System.IAsyncResult",
           "clrName": "BeginInvoke",
-          "tsEmitName": "beginInvoke",
+          "tsEmitName": "BeginInvoke",
           "normalizedSignature": "BeginInvoke|(Span_1,TArg,System.AsyncCallback,System.Object):System.IAsyncResult|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2412,7 +2412,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Buffers.SpanAction\u00602::EndInvoke(System.IAsyncResult):System.Void",
           "clrName": "EndInvoke",
-          "tsEmitName": "endInvoke",
+          "tsEmitName": "EndInvoke",
           "normalizedSignature": "EndInvoke|(System.IAsyncResult):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2428,7 +2428,7 @@
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "clone$view",
+          "tsEmitName": "Clone$view",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -2445,7 +2445,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "getObjectData$view",
+          "tsEmitName": "GetObjectData$view",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -2462,7 +2462,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Buffers.SpanAction\u00602::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "clone",
+          "tsEmitName": "Clone",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -2478,7 +2478,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Buffers.SpanAction\u00602::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "getObjectData",
+          "tsEmitName": "GetObjectData",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -2517,7 +2517,7 @@
         {
           "stableId": "System.Memory:System.Buffers.BuffersExtensions::PositionOf(ReadOnlySequence_1\u0026,T):System.Nullable_1[[System.SequencePosition,System.Memory,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]",
           "clrName": "PositionOf",
-          "tsEmitName": "positionOf",
+          "tsEmitName": "PositionOf",
           "normalizedSignature": "PositionOf|(ReadOnlySequence_1\u0026,T):System.Nullable_1[[System.SequencePosition,System.Memory,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2533,7 +2533,7 @@
         {
           "stableId": "System.Memory:System.Buffers.BuffersExtensions::CopyTo(ReadOnlySequence_1\u0026,Span_1):System.Void",
           "clrName": "CopyTo",
-          "tsEmitName": "copyTo",
+          "tsEmitName": "CopyTo",
           "normalizedSignature": "CopyTo|(ReadOnlySequence_1\u0026,Span_1):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2549,7 +2549,7 @@
         {
           "stableId": "System.Memory:System.Buffers.BuffersExtensions::ToArray(ReadOnlySequence_1\u0026):T[]",
           "clrName": "ToArray",
-          "tsEmitName": "toArray",
+          "tsEmitName": "ToArray",
           "normalizedSignature": "ToArray|(ReadOnlySequence_1\u0026):T[]|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2565,7 +2565,7 @@
         {
           "stableId": "System.Memory:System.Buffers.BuffersExtensions::Write(IBufferWriter_1,ReadOnlySpan_1):System.Void",
           "clrName": "Write",
-          "tsEmitName": "write",
+          "tsEmitName": "Write",
           "normalizedSignature": "Write|(IBufferWriter_1,ReadOnlySpan_1):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2598,7 +2598,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Buffers.SearchValues::Create(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Buffers.SearchValues_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "Create",
-          "tsEmitName": "create",
+          "tsEmitName": "Create",
           "normalizedSignature": "Create|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Buffers.SearchValues_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2614,7 +2614,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Buffers.SearchValues::Create(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Buffers.SearchValues_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "Create",
-          "tsEmitName": "create2",
+          "tsEmitName": "Create2",
           "normalizedSignature": "Create|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Buffers.SearchValues_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2630,7 +2630,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Buffers.SearchValues::Create(System.ReadOnlySpan_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.StringComparison):System.Buffers.SearchValues_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "Create",
-          "tsEmitName": "create3",
+          "tsEmitName": "Create3",
           "normalizedSignature": "Create|(System.ReadOnlySpan_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.StringComparison):System.Buffers.SearchValues_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2663,7 +2663,7 @@
         {
           "stableId": "System.Memory:System.Buffers.SequenceReaderExtensions::TryReadLittleEndian(System.Buffers.SequenceReader_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026,System.Int16\u0026):System.Boolean",
           "clrName": "TryReadLittleEndian",
-          "tsEmitName": "tryReadLittleEndian",
+          "tsEmitName": "TryReadLittleEndian",
           "normalizedSignature": "TryReadLittleEndian|(System.Buffers.SequenceReader_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026,System.Int16\u0026):System.Boolean|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2679,7 +2679,7 @@
         {
           "stableId": "System.Memory:System.Buffers.SequenceReaderExtensions::TryReadBigEndian(System.Buffers.SequenceReader_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026,System.Int16\u0026):System.Boolean",
           "clrName": "TryReadBigEndian",
-          "tsEmitName": "tryReadBigEndian",
+          "tsEmitName": "TryReadBigEndian",
           "normalizedSignature": "TryReadBigEndian|(System.Buffers.SequenceReader_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026,System.Int16\u0026):System.Boolean|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2695,7 +2695,7 @@
         {
           "stableId": "System.Memory:System.Buffers.SequenceReaderExtensions::TryReadLittleEndian(System.Buffers.SequenceReader_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026,System.Int32\u0026):System.Boolean",
           "clrName": "TryReadLittleEndian",
-          "tsEmitName": "tryReadLittleEndian2",
+          "tsEmitName": "TryReadLittleEndian2",
           "normalizedSignature": "TryReadLittleEndian|(System.Buffers.SequenceReader_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026,System.Int32\u0026):System.Boolean|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2711,7 +2711,7 @@
         {
           "stableId": "System.Memory:System.Buffers.SequenceReaderExtensions::TryReadBigEndian(System.Buffers.SequenceReader_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026,System.Int32\u0026):System.Boolean",
           "clrName": "TryReadBigEndian",
-          "tsEmitName": "tryReadBigEndian2",
+          "tsEmitName": "TryReadBigEndian2",
           "normalizedSignature": "TryReadBigEndian|(System.Buffers.SequenceReader_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026,System.Int32\u0026):System.Boolean|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2727,7 +2727,7 @@
         {
           "stableId": "System.Memory:System.Buffers.SequenceReaderExtensions::TryReadLittleEndian(System.Buffers.SequenceReader_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026,System.Int64\u0026):System.Boolean",
           "clrName": "TryReadLittleEndian",
-          "tsEmitName": "tryReadLittleEndian3",
+          "tsEmitName": "TryReadLittleEndian3",
           "normalizedSignature": "TryReadLittleEndian|(System.Buffers.SequenceReader_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026,System.Int64\u0026):System.Boolean|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2743,7 +2743,7 @@
         {
           "stableId": "System.Memory:System.Buffers.SequenceReaderExtensions::TryReadBigEndian(System.Buffers.SequenceReader_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026,System.Int64\u0026):System.Boolean",
           "clrName": "TryReadBigEndian",
-          "tsEmitName": "tryReadBigEndian3",
+          "tsEmitName": "TryReadBigEndian3",
           "normalizedSignature": "TryReadBigEndian|(System.Buffers.SequenceReader_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026,System.Int64\u0026):System.Boolean|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",

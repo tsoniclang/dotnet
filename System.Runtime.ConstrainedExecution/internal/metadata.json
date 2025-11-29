@@ -29,7 +29,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.ConstrainedExecution.Cer::NoneSystem.Runtime.ConstrainedExecution.Cer",
           "clrName": "None",
-          "tsEmitName": "none",
+          "tsEmitName": "None",
           "normalizedSignature": "None|System.Runtime.ConstrainedExecution.Cer|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -38,7 +38,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.ConstrainedExecution.Cer::MayFailSystem.Runtime.ConstrainedExecution.Cer",
           "clrName": "MayFail",
-          "tsEmitName": "mayFail",
+          "tsEmitName": "MayFail",
           "normalizedSignature": "MayFail|System.Runtime.ConstrainedExecution.Cer|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -47,7 +47,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.ConstrainedExecution.Cer::SuccessSystem.Runtime.ConstrainedExecution.Cer",
           "clrName": "Success",
-          "tsEmitName": "success",
+          "tsEmitName": "Success",
           "normalizedSignature": "Success|System.Runtime.ConstrainedExecution.Cer|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -82,7 +82,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.ConstrainedExecution.Consistency::MayCorruptProcessSystem.Runtime.ConstrainedExecution.Consistency",
           "clrName": "MayCorruptProcess",
-          "tsEmitName": "mayCorruptProcess",
+          "tsEmitName": "MayCorruptProcess",
           "normalizedSignature": "MayCorruptProcess|System.Runtime.ConstrainedExecution.Consistency|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -91,7 +91,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.ConstrainedExecution.Consistency::MayCorruptAppDomainSystem.Runtime.ConstrainedExecution.Consistency",
           "clrName": "MayCorruptAppDomain",
-          "tsEmitName": "mayCorruptAppDomain",
+          "tsEmitName": "MayCorruptAppDomain",
           "normalizedSignature": "MayCorruptAppDomain|System.Runtime.ConstrainedExecution.Consistency|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -100,7 +100,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.ConstrainedExecution.Consistency::MayCorruptInstanceSystem.Runtime.ConstrainedExecution.Consistency",
           "clrName": "MayCorruptInstance",
-          "tsEmitName": "mayCorruptInstance",
+          "tsEmitName": "MayCorruptInstance",
           "normalizedSignature": "MayCorruptInstance|System.Runtime.ConstrainedExecution.Consistency|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -109,7 +109,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.ConstrainedExecution.Consistency::WillNotCorruptStateSystem.Runtime.ConstrainedExecution.Consistency",
           "clrName": "WillNotCorruptState",
-          "tsEmitName": "willNotCorruptState",
+          "tsEmitName": "WillNotCorruptState",
           "normalizedSignature": "WillNotCorruptState|System.Runtime.ConstrainedExecution.Consistency|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -172,7 +172,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.ConstrainedExecution.ReliabilityContractAttribute::ConsistencyGuarantee:System.Runtime.ConstrainedExecution.Consistency",
           "clrName": "ConsistencyGuarantee",
-          "tsEmitName": "consistencyGuarantee",
+          "tsEmitName": "ConsistencyGuarantee",
           "normalizedSignature": "ConsistencyGuarantee|:System.Runtime.ConstrainedExecution.Consistency|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -187,7 +187,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.ConstrainedExecution.ReliabilityContractAttribute::Cer:System.Runtime.ConstrainedExecution.Cer",
           "clrName": "Cer",
-          "tsEmitName": "cer",
+          "tsEmitName": "Cer",
           "normalizedSignature": "Cer|:System.Runtime.ConstrainedExecution.Cer|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",

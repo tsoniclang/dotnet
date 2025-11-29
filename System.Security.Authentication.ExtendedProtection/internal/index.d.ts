@@ -44,33 +44,33 @@ export type CLROf<T> =
     T; // Identity fallback for non-primitive types
 
 export enum ChannelBindingKind {
-    unknown_ = 0,
-    unique = 25,
-    endpoint = 26
+    Unknown = 0,
+    Unique = 25,
+    Endpoint = 26
 }
 
 
 export enum PolicyEnforcement {
-    never_ = 0,
-    whenSupported = 1,
-    always = 2
+    Never = 0,
+    WhenSupported = 1,
+    Always = 2
 }
 
 
 export enum ProtectionScenario {
-    transportSelected = 0,
-    trustedProxy = 1
+    TransportSelected = 0,
+    TrustedProxy = 1
 }
 
 
 export abstract class ChannelBinding$instance extends Microsoft_Win32_SafeHandles_Internal.SafeHandleZeroOrMinusOneIsInvalid$instance {
-    readonly size: int;
-    dispose(): void;
+    readonly Size: int;
+    Dispose(): void;
 }
 
 
 export interface __ChannelBinding$views {
-    readonly As_IDisposable: System_Internal.IDisposable$instance;
+    As_IDisposable(): System_Internal.IDisposable$instance;
 }
 
 export type ChannelBinding = ChannelBinding$instance & __ChannelBinding$views;
@@ -81,28 +81,30 @@ export class ExtendedProtectionPolicy$instance {
     constructor(policyEnforcement: PolicyEnforcement, protectionScenario: ProtectionScenario, customServiceNames: ICollection);
     constructor(policyEnforcement: PolicyEnforcement, customChannelBinding: ChannelBinding);
     constructor(policyEnforcement: PolicyEnforcement);
-    readonly customChannelBinding: ChannelBinding;
-    readonly customServiceNames: ServiceNameCollection;
-    readonly policyEnforcement: PolicyEnforcement;
-    readonly protectionScenario: ProtectionScenario;
-    toString(): string;
+    readonly CustomChannelBinding: ChannelBinding;
+    readonly CustomServiceNames: ServiceNameCollection;
+    readonly PolicyEnforcement: PolicyEnforcement;
+    readonly ProtectionScenario: ProtectionScenario;
+    ToString(): string;
     static readonly OSSupportsExtendedProtection: boolean;
 }
 
 
 export interface __ExtendedProtectionPolicy$views {
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
+
+export interface ExtendedProtectionPolicy$instance extends System_Runtime_Serialization_Internal.ISerializable$instance {}
 
 export type ExtendedProtectionPolicy = ExtendedProtectionPolicy$instance & __ExtendedProtectionPolicy$views;
 
 
 export class ExtendedProtectionPolicyTypeConverter$instance extends System_ComponentModel_Internal.TypeConverter$instance {
     constructor();
-    canConvertTo(context: ITypeDescriptorContext, destinationType: Type): boolean;
-    canConvertTo(destinationType: Type): boolean;
-    convertTo(context: ITypeDescriptorContext, culture: CultureInfo, value: any, destinationType: Type): any;
-    convertTo(value: any, destinationType: Type): any;
+    CanConvertTo(context: ITypeDescriptorContext, destinationType: Type): boolean;
+    CanConvertTo(destinationType: Type): boolean;
+    ConvertTo(context: ITypeDescriptorContext, culture: CultureInfo, value: unknown, destinationType: Type): unknown;
+    ConvertTo(value: unknown, destinationType: Type): unknown;
 }
 
 
@@ -110,18 +112,20 @@ export type ExtendedProtectionPolicyTypeConverter = ExtendedProtectionPolicyType
 
 export class ServiceNameCollection$instance extends System_Collections_Internal.ReadOnlyCollectionBase$instance {
     constructor(items: ICollection);
-    contains(searchServiceName: string): boolean;
-    copyTo(array: ClrArray, index: int): void;
-    getEnumerator(): IEnumerator;
-    merge(serviceName: string): ServiceNameCollection;
-    merge(serviceNames: IEnumerable): ServiceNameCollection;
+    Contains(searchServiceName: string): boolean;
+    CopyTo(array: ClrArray, index: int): void;
+    GetEnumerator(): IEnumerator;
+    Merge(serviceName: string): ServiceNameCollection;
+    Merge(serviceNames: IEnumerable): ServiceNameCollection;
 }
 
 
 export interface __ServiceNameCollection$views {
-    readonly As_ICollection: System_Collections_Internal.ICollection$instance;
-    readonly As_IEnumerable: System_Collections_Internal.IEnumerable$instance;
+    As_ICollection(): System_Collections_Internal.ICollection$instance;
+    As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
 }
+
+export interface ServiceNameCollection$instance extends System_Collections_Internal.ICollection$instance {}
 
 export type ServiceNameCollection = ServiceNameCollection$instance & __ServiceNameCollection$views;
 

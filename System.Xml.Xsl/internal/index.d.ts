@@ -49,7 +49,7 @@ export interface IXsltContextFunction$instance {
     readonly Maxargs: int;
     readonly ReturnType: XPathResultType;
     readonly ArgTypes: XPathResultType[];
-    Invoke(xsltContext: XsltContext, args: any[], docContext: XPathNavigator): any;
+    Invoke(xsltContext: XsltContext, args: unknown[], docContext: XPathNavigator): unknown;
 }
 
 
@@ -59,7 +59,7 @@ export interface IXsltContextVariable$instance {
     readonly IsLocal: boolean;
     readonly IsParam: boolean;
     readonly VariableType: XPathResultType;
-    Evaluate(xsltContext: XsltContext): any;
+    Evaluate(xsltContext: XsltContext): unknown;
 }
 
 
@@ -68,30 +68,30 @@ export type IXsltContextVariable = IXsltContextVariable$instance;
 export class XslCompiledTransform$instance {
     constructor();
     constructor(enableDebug: boolean);
-    readonly outputSettings: XmlWriterSettings;
-    load(stylesheet: XmlReader): void;
-    load(stylesheet: XmlReader, settings: XsltSettings, stylesheetResolver: XmlResolver): void;
-    load(stylesheet: IXPathNavigable): void;
-    load(stylesheet: IXPathNavigable, settings: XsltSettings, stylesheetResolver: XmlResolver): void;
-    load(stylesheetUri: string): void;
-    load(stylesheetUri: string, settings: XsltSettings, stylesheetResolver: XmlResolver): void;
-    load(compiledStylesheet: Type): void;
-    load(executeMethod: MethodInfo, queryData: byte[], earlyBoundTypes: Type[]): void;
-    transform(input: IXPathNavigable, results: XmlWriter): void;
-    transform(input: IXPathNavigable, arguments: XsltArgumentList, results: XmlWriter): void;
-    transform(input: IXPathNavigable, arguments: XsltArgumentList, results: TextWriter): void;
-    transform(input: IXPathNavigable, arguments: XsltArgumentList, results: Stream): void;
-    transform(input: XmlReader, results: XmlWriter): void;
-    transform(input: XmlReader, arguments: XsltArgumentList, results: XmlWriter): void;
-    transform(input: XmlReader, arguments: XsltArgumentList, results: TextWriter): void;
-    transform(input: XmlReader, arguments: XsltArgumentList, results: Stream): void;
-    transform(inputUri: string, results: XmlWriter): void;
-    transform(inputUri: string, arguments: XsltArgumentList, results: XmlWriter): void;
-    transform(inputUri: string, arguments: XsltArgumentList, results: TextWriter): void;
-    transform(inputUri: string, arguments: XsltArgumentList, results: Stream): void;
-    transform(inputUri: string, resultsFile: string): void;
-    transform(input: XmlReader, arguments: XsltArgumentList, results: XmlWriter, documentResolver: XmlResolver): void;
-    transform(input: IXPathNavigable, arguments: XsltArgumentList, results: XmlWriter, documentResolver: XmlResolver): void;
+    readonly OutputSettings: XmlWriterSettings;
+    Load(stylesheet: XmlReader): void;
+    Load(stylesheet: XmlReader, settings: XsltSettings, stylesheetResolver: XmlResolver): void;
+    Load(stylesheet: IXPathNavigable): void;
+    Load(stylesheet: IXPathNavigable, settings: XsltSettings, stylesheetResolver: XmlResolver): void;
+    Load(stylesheetUri: string): void;
+    Load(stylesheetUri: string, settings: XsltSettings, stylesheetResolver: XmlResolver): void;
+    Load(compiledStylesheet: Type): void;
+    Load(executeMethod: MethodInfo, queryData: byte[], earlyBoundTypes: Type[]): void;
+    Transform(input: IXPathNavigable, results: XmlWriter): void;
+    Transform(input: IXPathNavigable, arguments: XsltArgumentList, results: XmlWriter): void;
+    Transform(input: IXPathNavigable, arguments: XsltArgumentList, results: TextWriter): void;
+    Transform(input: IXPathNavigable, arguments: XsltArgumentList, results: Stream): void;
+    Transform(input: XmlReader, results: XmlWriter): void;
+    Transform(input: XmlReader, arguments: XsltArgumentList, results: XmlWriter): void;
+    Transform(input: XmlReader, arguments: XsltArgumentList, results: TextWriter): void;
+    Transform(input: XmlReader, arguments: XsltArgumentList, results: Stream): void;
+    Transform(inputUri: string, results: XmlWriter): void;
+    Transform(inputUri: string, arguments: XsltArgumentList, results: XmlWriter): void;
+    Transform(inputUri: string, arguments: XsltArgumentList, results: TextWriter): void;
+    Transform(inputUri: string, arguments: XsltArgumentList, results: Stream): void;
+    Transform(inputUri: string, resultsFile: string): void;
+    Transform(input: XmlReader, arguments: XsltArgumentList, results: XmlWriter, documentResolver: XmlResolver): void;
+    Transform(input: IXPathNavigable, arguments: XsltArgumentList, results: XmlWriter, documentResolver: XmlResolver): void;
 }
 
 
@@ -99,13 +99,13 @@ export type XslCompiledTransform = XslCompiledTransform$instance;
 
 export class XsltArgumentList$instance {
     constructor();
-    addExtensionObject(namespaceUri: string, extension: any): void;
-    addParam(name: string, namespaceUri: string, parameter: any): void;
-    clear(): void;
-    getExtensionObject(namespaceUri: string): any;
-    getParam(name: string, namespaceUri: string): any;
-    removeExtensionObject(namespaceUri: string): any;
-    removeParam(name: string, namespaceUri: string): any;
+    AddExtensionObject(namespaceUri: string, extension: unknown): void;
+    AddParam(name: string, namespaceUri: string, parameter: unknown): void;
+    Clear(): void;
+    GetExtensionObject(namespaceUri: string): unknown;
+    GetParam(name: string, namespaceUri: string): unknown;
+    RemoveExtensionObject(namespaceUri: string): unknown;
+    RemoveParam(name: string, namespaceUri: string): unknown;
 }
 
 
@@ -116,32 +116,32 @@ export class XsltCompileException$instance extends XsltException$instance {
     constructor(message: string);
     constructor(message: string, innerException: Exception);
     constructor(inner: Exception, sourceUri: string, lineNumber: int, linePosition: int);
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
 export interface __XsltCompileException$views {
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type XsltCompileException = XsltCompileException$instance & __XsltCompileException$views;
 
 
 export abstract class XsltContext$instance extends System_Xml_Internal.XmlNamespaceManager$instance {
-    readonly whitespace: boolean;
-    abstract compareDocument(baseUri: string, nextbaseUri: string): int;
-    getEnumerator(): IEnumerator;
-    getNamespacesInScope(scope: XmlNamespaceScope): IDictionary_2<CLROf<string>, CLROf<string>>;
-    lookupNamespace(prefix: string): string;
-    abstract preserveWhitespace(node: XPathNavigator): boolean;
-    abstract resolveFunction(prefix: string, name: string, ArgTypes: XPathResultType[]): IXsltContextFunction;
-    abstract resolveVariable(prefix: string, name: string): IXsltContextVariable;
+    readonly Whitespace: boolean;
+    abstract CompareDocument(baseUri: string, nextbaseUri: string): int;
+    GetEnumerator(): IEnumerator;
+    GetNamespacesInScope(scope: XmlNamespaceScope): IDictionary_2<CLROf<string>, CLROf<string>>;
+    LookupNamespace(prefix: string): string;
+    abstract PreserveWhitespace(node: XPathNavigator): boolean;
+    abstract ResolveFunction(prefix: string, name: string, ArgTypes: XPathResultType[]): IXsltContextFunction;
+    abstract ResolveVariable(prefix: string, name: string): IXsltContextVariable;
 }
 
 
 export interface __XsltContext$views {
-    readonly As_IEnumerable: System_Collections_Internal.IEnumerable$instance;
-    readonly As_IXmlNamespaceResolver: System_Xml_Internal.IXmlNamespaceResolver$instance;
+    As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
+    As_IXmlNamespaceResolver(): System_Xml_Internal.IXmlNamespaceResolver$instance;
 }
 
 export type XsltContext = XsltContext$instance & __XsltContext$views;
@@ -151,41 +151,41 @@ export class XsltException$instance extends System_Internal.SystemException$inst
     constructor();
     constructor(message: string);
     constructor(message: string, innerException: Exception);
-    readonly lineNumber: int;
-    readonly linePosition: int;
-    readonly message: string;
-    readonly sourceUri: string;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
+    readonly LineNumber: int;
+    readonly LinePosition: int;
+    readonly Message: string;
+    readonly SourceUri: string;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
 export interface __XsltException$views {
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type XsltException = XsltException$instance & __XsltException$views;
 
 
 export abstract class XsltMessageEncounteredEventArgs$instance extends System_Internal.EventArgs$instance {
-    readonly message: string;
+    readonly Message: string;
 }
 
 
 export type XsltMessageEncounteredEventArgs = XsltMessageEncounteredEventArgs$instance;
 
 export class XsltMessageEncounteredEventHandler$instance extends Function {
-    constructor(object_: any, method: nint);
-    beginInvoke(sender: any, e: XsltMessageEncounteredEventArgs, callback: AsyncCallback, object_: any): IAsyncResult;
-    clone(): any;
-    endInvoke(result: IAsyncResult): void;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(sender: any, e: XsltMessageEncounteredEventArgs): void;
+    constructor(object_: unknown, method: nint);
+    BeginInvoke(sender: unknown, e: XsltMessageEncounteredEventArgs, callback: AsyncCallback, object_: unknown): IAsyncResult;
+    Clone(): unknown;
+    EndInvoke(result: IAsyncResult): void;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    Invoke(sender: unknown, e: XsltMessageEncounteredEventArgs): void;
 }
 
 
 export interface __XsltMessageEncounteredEventHandler$views {
-    readonly As_ICloneable: System_Internal.ICloneable$instance;
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ICloneable(): System_Internal.ICloneable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type XsltMessageEncounteredEventHandler = XsltMessageEncounteredEventHandler$instance & __XsltMessageEncounteredEventHandler$views;
@@ -193,33 +193,33 @@ export type XsltMessageEncounteredEventHandler = XsltMessageEncounteredEventHand
 
 export class XslTransform$instance {
     constructor();
-    xmlResolver: XmlResolver;
-    load(stylesheet: XmlReader): void;
-    load(stylesheet: XmlReader, resolver: XmlResolver): void;
-    load(stylesheet: IXPathNavigable): void;
-    load(stylesheet: IXPathNavigable, resolver: XmlResolver): void;
-    load(stylesheet: XPathNavigator): void;
-    load(stylesheet: XPathNavigator, resolver: XmlResolver): void;
-    load(url: string): void;
-    load(url: string, resolver: XmlResolver): void;
-    transform(input: XPathNavigator, args: XsltArgumentList, resolver: XmlResolver): XmlReader;
-    transform(input: XPathNavigator, args: XsltArgumentList): XmlReader;
-    transform(input: XPathNavigator, args: XsltArgumentList, output: XmlWriter, resolver: XmlResolver): void;
-    transform(input: XPathNavigator, args: XsltArgumentList, output: XmlWriter): void;
-    transform(input: XPathNavigator, args: XsltArgumentList, output: Stream, resolver: XmlResolver): void;
-    transform(input: XPathNavigator, args: XsltArgumentList, output: Stream): void;
-    transform(input: XPathNavigator, args: XsltArgumentList, output: TextWriter, resolver: XmlResolver): void;
-    transform(input: XPathNavigator, args: XsltArgumentList, output: TextWriter): void;
-    transform(input: IXPathNavigable, args: XsltArgumentList, resolver: XmlResolver): XmlReader;
-    transform(input: IXPathNavigable, args: XsltArgumentList): XmlReader;
-    transform(input: IXPathNavigable, args: XsltArgumentList, output: TextWriter, resolver: XmlResolver): void;
-    transform(input: IXPathNavigable, args: XsltArgumentList, output: TextWriter): void;
-    transform(input: IXPathNavigable, args: XsltArgumentList, output: Stream, resolver: XmlResolver): void;
-    transform(input: IXPathNavigable, args: XsltArgumentList, output: Stream): void;
-    transform(input: IXPathNavigable, args: XsltArgumentList, output: XmlWriter, resolver: XmlResolver): void;
-    transform(input: IXPathNavigable, args: XsltArgumentList, output: XmlWriter): void;
-    transform(inputfile: string, outputfile: string, resolver: XmlResolver): void;
-    transform(inputfile: string, outputfile: string): void;
+    XmlResolver: XmlResolver;
+    Load(stylesheet: XmlReader): void;
+    Load(stylesheet: XmlReader, resolver: XmlResolver): void;
+    Load(stylesheet: IXPathNavigable): void;
+    Load(stylesheet: IXPathNavigable, resolver: XmlResolver): void;
+    Load(stylesheet: XPathNavigator): void;
+    Load(stylesheet: XPathNavigator, resolver: XmlResolver): void;
+    Load(url: string): void;
+    Load(url: string, resolver: XmlResolver): void;
+    Transform(input: XPathNavigator, args: XsltArgumentList, resolver: XmlResolver): XmlReader;
+    Transform(input: XPathNavigator, args: XsltArgumentList): XmlReader;
+    Transform(input: XPathNavigator, args: XsltArgumentList, output: XmlWriter, resolver: XmlResolver): void;
+    Transform(input: XPathNavigator, args: XsltArgumentList, output: XmlWriter): void;
+    Transform(input: XPathNavigator, args: XsltArgumentList, output: Stream, resolver: XmlResolver): void;
+    Transform(input: XPathNavigator, args: XsltArgumentList, output: Stream): void;
+    Transform(input: XPathNavigator, args: XsltArgumentList, output: TextWriter, resolver: XmlResolver): void;
+    Transform(input: XPathNavigator, args: XsltArgumentList, output: TextWriter): void;
+    Transform(input: IXPathNavigable, args: XsltArgumentList, resolver: XmlResolver): XmlReader;
+    Transform(input: IXPathNavigable, args: XsltArgumentList): XmlReader;
+    Transform(input: IXPathNavigable, args: XsltArgumentList, output: TextWriter, resolver: XmlResolver): void;
+    Transform(input: IXPathNavigable, args: XsltArgumentList, output: TextWriter): void;
+    Transform(input: IXPathNavigable, args: XsltArgumentList, output: Stream, resolver: XmlResolver): void;
+    Transform(input: IXPathNavigable, args: XsltArgumentList, output: Stream): void;
+    Transform(input: IXPathNavigable, args: XsltArgumentList, output: XmlWriter, resolver: XmlResolver): void;
+    Transform(input: IXPathNavigable, args: XsltArgumentList, output: XmlWriter): void;
+    Transform(inputfile: string, outputfile: string, resolver: XmlResolver): void;
+    Transform(inputfile: string, outputfile: string): void;
 }
 
 
@@ -228,8 +228,8 @@ export type XslTransform = XslTransform$instance;
 export class XsltSettings$instance {
     constructor();
     constructor(enableDocumentFunction: boolean, enableScript: boolean);
-    enableDocumentFunction: boolean;
-    enableScript: boolean;
+    EnableDocumentFunction: boolean;
+    EnableScript: boolean;
     static readonly Default: XsltSettings;
     static readonly TrustedXslt: XsltSettings;
 }

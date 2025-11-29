@@ -18,7 +18,7 @@
         {
           "stableId": "System.Private.CoreLib:Internal.Console::WriteLine(System.String):System.Void",
           "clrName": "WriteLine",
-          "tsEmitName": "writeLine",
+          "tsEmitName": "WriteLine",
           "normalizedSignature": "WriteLine|(System.String):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -34,7 +34,7 @@
         {
           "stableId": "System.Private.CoreLib:Internal.Console::WriteLine():System.Void",
           "clrName": "WriteLine",
-          "tsEmitName": "writeLine2",
+          "tsEmitName": "WriteLine2",
           "normalizedSignature": "WriteLine|():System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -50,7 +50,7 @@
         {
           "stableId": "System.Private.CoreLib:Internal.Console::Write(System.String):System.Void",
           "clrName": "Write",
-          "tsEmitName": "write",
+          "tsEmitName": "Write",
           "normalizedSignature": "Write|(System.String):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -83,7 +83,7 @@
         {
           "stableId": "System.Private.CoreLib:Internal.Console\u002BError::WriteLine():System.Void",
           "clrName": "WriteLine",
-          "tsEmitName": "writeLine",
+          "tsEmitName": "WriteLine",
           "normalizedSignature": "WriteLine|():System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -99,7 +99,7 @@
         {
           "stableId": "System.Private.CoreLib:Internal.Console\u002BError::Write(System.String):System.Void",
           "clrName": "Write",
-          "tsEmitName": "write",
+          "tsEmitName": "Write",
           "normalizedSignature": "Write|(System.String):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
