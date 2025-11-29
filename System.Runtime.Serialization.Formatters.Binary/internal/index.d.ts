@@ -41,14 +41,14 @@ export type CLROf<T> =
 export class BinaryFormatter$instance {
     constructor();
     constructor(selector: ISurrogateSelector, context: StreamingContext);
-    AssemblyFormat: FormatterAssemblyStyle;
-    Binder: SerializationBinder;
-    Context: StreamingContext;
-    FilterLevel: TypeFilterLevel;
-    SurrogateSelector: ISurrogateSelector;
-    TypeFormat: FormatterTypeStyle;
-    Deserialize(serializationStream: Stream): unknown;
-    Serialize(serializationStream: Stream, graph: unknown): void;
+    assemblyFormat: FormatterAssemblyStyle;
+    binder: SerializationBinder;
+    context: StreamingContext;
+    filterLevel: TypeFilterLevel;
+    surrogateSelector: ISurrogateSelector;
+    typeFormat: FormatterTypeStyle;
+    deserialize(serializationStream: Stream): unknown;
+    serialize(serializationStream: Stream, graph: unknown): void;
 }
 
 

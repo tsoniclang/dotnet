@@ -18,7 +18,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Loader.AssemblyLoadContext\u002BContextualReflectionScope::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "Dispose",
+          "tsEmitName": "dispose",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -34,7 +34,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "Dispose$view",
+          "tsEmitName": "dispose$view",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -52,14 +52,7 @@
       "properties": [],
       "fields": [],
       "events": [],
-      "constructors": [],
-      "unsatisfiableInterfaces": [
-        {
-          "interfaceClrName": "System.IDisposable",
-          "reason": "ExplicitImplementationMovedToView",
-          "issueCount": 1
-        }
-      ]
+      "constructors": []
     },
     {
       "stableId": "System.Private.CoreLib:System.Runtime.Loader.AssemblyDependencyResolver",
@@ -75,7 +68,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Loader.AssemblyDependencyResolver::ResolveAssemblyToPath(System.Reflection.AssemblyName):System.String",
           "clrName": "ResolveAssemblyToPath",
-          "tsEmitName": "ResolveAssemblyToPath",
+          "tsEmitName": "resolveAssemblyToPath",
           "normalizedSignature": "ResolveAssemblyToPath|(System.Reflection.AssemblyName):System.String|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -91,7 +84,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Loader.AssemblyDependencyResolver::ResolveUnmanagedDllToPath(System.String):System.String",
           "clrName": "ResolveUnmanagedDllToPath",
-          "tsEmitName": "ResolveUnmanagedDllToPath",
+          "tsEmitName": "resolveUnmanagedDllToPath",
           "normalizedSignature": "ResolveUnmanagedDllToPath|(System.String):System.String|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -130,7 +123,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Loader.AssemblyLoadContext::GetLoadContext(System.Reflection.Assembly):System.Runtime.Loader.AssemblyLoadContext",
           "clrName": "GetLoadContext",
-          "tsEmitName": "GetLoadContext",
+          "tsEmitName": "getLoadContext",
           "normalizedSignature": "GetLoadContext|(System.Reflection.Assembly):System.Runtime.Loader.AssemblyLoadContext|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -146,7 +139,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Loader.AssemblyLoadContext::SetProfileOptimizationRoot(System.String):System.Void",
           "clrName": "SetProfileOptimizationRoot",
-          "tsEmitName": "SetProfileOptimizationRoot",
+          "tsEmitName": "setProfileOptimizationRoot",
           "normalizedSignature": "SetProfileOptimizationRoot|(System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -162,7 +155,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Loader.AssemblyLoadContext::StartProfileOptimization(System.String):System.Void",
           "clrName": "StartProfileOptimization",
-          "tsEmitName": "StartProfileOptimization",
+          "tsEmitName": "startProfileOptimization",
           "normalizedSignature": "StartProfileOptimization|(System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -178,7 +171,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Loader.AssemblyLoadContext::ToString():System.String",
           "clrName": "ToString",
-          "tsEmitName": "ToString",
+          "tsEmitName": "toString",
           "normalizedSignature": "ToString|():System.String|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -194,7 +187,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Loader.AssemblyLoadContext::GetAssemblyName(System.String):System.Reflection.AssemblyName",
           "clrName": "GetAssemblyName",
-          "tsEmitName": "GetAssemblyName",
+          "tsEmitName": "getAssemblyName",
           "normalizedSignature": "GetAssemblyName|(System.String):System.Reflection.AssemblyName|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -210,7 +203,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Loader.AssemblyLoadContext::LoadFromAssemblyName(System.Reflection.AssemblyName):System.Reflection.Assembly",
           "clrName": "LoadFromAssemblyName",
-          "tsEmitName": "LoadFromAssemblyName",
+          "tsEmitName": "loadFromAssemblyName",
           "normalizedSignature": "LoadFromAssemblyName|(System.Reflection.AssemblyName):System.Reflection.Assembly|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -226,7 +219,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Loader.AssemblyLoadContext::LoadFromAssemblyPath(System.String):System.Reflection.Assembly",
           "clrName": "LoadFromAssemblyPath",
-          "tsEmitName": "LoadFromAssemblyPath",
+          "tsEmitName": "loadFromAssemblyPath",
           "normalizedSignature": "LoadFromAssemblyPath|(System.String):System.Reflection.Assembly|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -242,7 +235,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Loader.AssemblyLoadContext::LoadFromNativeImagePath(System.String,System.String):System.Reflection.Assembly",
           "clrName": "LoadFromNativeImagePath",
-          "tsEmitName": "LoadFromNativeImagePath",
+          "tsEmitName": "loadFromNativeImagePath",
           "normalizedSignature": "LoadFromNativeImagePath|(System.String,System.String):System.Reflection.Assembly|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -258,7 +251,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Loader.AssemblyLoadContext::LoadFromStream(System.IO.Stream):System.Reflection.Assembly",
           "clrName": "LoadFromStream",
-          "tsEmitName": "LoadFromStream",
+          "tsEmitName": "loadFromStream",
           "normalizedSignature": "LoadFromStream|(System.IO.Stream):System.Reflection.Assembly|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -274,7 +267,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Loader.AssemblyLoadContext::LoadFromStream(System.IO.Stream,System.IO.Stream):System.Reflection.Assembly",
           "clrName": "LoadFromStream",
-          "tsEmitName": "LoadFromStream2",
+          "tsEmitName": "loadFromStream2",
           "normalizedSignature": "LoadFromStream|(System.IO.Stream,System.IO.Stream):System.Reflection.Assembly|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -290,7 +283,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Loader.AssemblyLoadContext::Unload():System.Void",
           "clrName": "Unload",
-          "tsEmitName": "Unload",
+          "tsEmitName": "unload",
           "normalizedSignature": "Unload|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -306,7 +299,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Loader.AssemblyLoadContext::EnterContextualReflection():System.Runtime.Loader.AssemblyLoadContext\u002BContextualReflectionScope",
           "clrName": "EnterContextualReflection",
-          "tsEmitName": "EnterContextualReflection",
+          "tsEmitName": "enterContextualReflection",
           "normalizedSignature": "EnterContextualReflection|():System.Runtime.Loader.AssemblyLoadContext\u002BContextualReflectionScope|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -322,7 +315,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Loader.AssemblyLoadContext::EnterContextualReflection(System.Reflection.Assembly):System.Runtime.Loader.AssemblyLoadContext\u002BContextualReflectionScope",
           "clrName": "EnterContextualReflection",
-          "tsEmitName": "EnterContextualReflection",
+          "tsEmitName": "enterContextualReflection",
           "normalizedSignature": "EnterContextualReflection|(System.Reflection.Assembly):System.Runtime.Loader.AssemblyLoadContext\u002BContextualReflectionScope|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -340,7 +333,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Loader.AssemblyLoadContext::Assemblies:System.Collections.Generic.IEnumerable_1[[System.Reflection.Assembly,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "Assemblies",
-          "tsEmitName": "Assemblies",
+          "tsEmitName": "assemblies",
           "normalizedSignature": "Assemblies|:System.Collections.Generic.IEnumerable_1[[System.Reflection.Assembly,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -355,7 +348,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Loader.AssemblyLoadContext::Default:System.Runtime.Loader.AssemblyLoadContext",
           "clrName": "Default",
-          "tsEmitName": "Default",
+          "tsEmitName": "default_",
           "normalizedSignature": "Default|:System.Runtime.Loader.AssemblyLoadContext|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -370,7 +363,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Loader.AssemblyLoadContext::IsCollectible:System.Boolean",
           "clrName": "IsCollectible",
-          "tsEmitName": "IsCollectible",
+          "tsEmitName": "isCollectible",
           "normalizedSignature": "IsCollectible|:System.Boolean|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -385,7 +378,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Loader.AssemblyLoadContext::Name:System.String",
           "clrName": "Name",
-          "tsEmitName": "Name",
+          "tsEmitName": "name",
           "normalizedSignature": "Name|:System.String|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -400,7 +393,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Loader.AssemblyLoadContext::All:System.Collections.Generic.IEnumerable_1[[System.Runtime.Loader.AssemblyLoadContext,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "All",
-          "tsEmitName": "All",
+          "tsEmitName": "all",
           "normalizedSignature": "All|:System.Collections.Generic.IEnumerable_1[[System.Runtime.Loader.AssemblyLoadContext,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -415,7 +408,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Loader.AssemblyLoadContext::CurrentContextualReflectionContext:System.Runtime.Loader.AssemblyLoadContext",
           "clrName": "CurrentContextualReflectionContext",
-          "tsEmitName": "CurrentContextualReflectionContext",
+          "tsEmitName": "currentContextualReflectionContext",
           "normalizedSignature": "CurrentContextualReflectionContext|:System.Runtime.Loader.AssemblyLoadContext|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -433,21 +426,21 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Loader.AssemblyLoadContext::ResolvingUnmanagedDllSystem.Func\u00603[[System.Reflection.Assembly, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.IntPtr, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "ResolvingUnmanagedDll",
-          "tsEmitName": "ResolvingUnmanagedDll",
+          "tsEmitName": "resolvingUnmanagedDll",
           "normalizedSignature": "ResolvingUnmanagedDll|System.Func\u00603[[System.Reflection.Assembly, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.IntPtr, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "isStatic": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Loader.AssemblyLoadContext::ResolvingSystem.Func\u00603[[System.Runtime.Loader.AssemblyLoadContext, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Reflection.AssemblyName, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Reflection.Assembly, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "Resolving",
-          "tsEmitName": "Resolving",
+          "tsEmitName": "resolving",
           "normalizedSignature": "Resolving|System.Func\u00603[[System.Runtime.Loader.AssemblyLoadContext, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Reflection.AssemblyName, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Reflection.Assembly, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "isStatic": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Loader.AssemblyLoadContext::UnloadingSystem.Action\u00601[[System.Runtime.Loader.AssemblyLoadContext, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "Unloading",
-          "tsEmitName": "Unloading",
+          "tsEmitName": "unloading",
           "normalizedSignature": "Unloading|System.Action\u00601[[System.Runtime.Loader.AssemblyLoadContext, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "isStatic": false
         }

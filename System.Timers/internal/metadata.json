@@ -19,7 +19,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Timers.ElapsedEventArgs::SignalTime:System.DateTime",
           "clrName": "SignalTime",
-          "tsEmitName": "SignalTime",
+          "tsEmitName": "signalTime",
           "normalizedSignature": "SignalTime|:System.DateTime|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -56,7 +56,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Timers.ElapsedEventHandler::Invoke(System.Object,System.Timers.ElapsedEventArgs):System.Void",
           "clrName": "Invoke",
-          "tsEmitName": "Invoke",
+          "tsEmitName": "invoke",
           "normalizedSignature": "Invoke|(System.Object,System.Timers.ElapsedEventArgs):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -72,7 +72,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Timers.ElapsedEventHandler::BeginInvoke(System.Object,System.Timers.ElapsedEventArgs,System.AsyncCallback,System.Object):System.IAsyncResult",
           "clrName": "BeginInvoke",
-          "tsEmitName": "BeginInvoke",
+          "tsEmitName": "beginInvoke",
           "normalizedSignature": "BeginInvoke|(System.Object,System.Timers.ElapsedEventArgs,System.AsyncCallback,System.Object):System.IAsyncResult|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -88,7 +88,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Timers.ElapsedEventHandler::EndInvoke(System.IAsyncResult):System.Void",
           "clrName": "EndInvoke",
-          "tsEmitName": "EndInvoke",
+          "tsEmitName": "endInvoke",
           "normalizedSignature": "EndInvoke|(System.IAsyncResult):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -104,7 +104,7 @@
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "Clone$view",
+          "tsEmitName": "clone$view",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -121,7 +121,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData$view",
+          "tsEmitName": "getObjectData$view",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -138,7 +138,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Timers.ElapsedEventHandler::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "Clone",
+          "tsEmitName": "clone",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -154,7 +154,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Timers.ElapsedEventHandler::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData",
+          "tsEmitName": "getObjectData",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -177,18 +177,6 @@
           "isStatic": false,
           "parameterCount": 2
         }
-      ],
-      "unsatisfiableInterfaces": [
-        {
-          "interfaceClrName": "System.ICloneable",
-          "reason": "ExplicitImplementationMovedToView",
-          "issueCount": 1
-        },
-        {
-          "interfaceClrName": "System.Runtime.Serialization.ISerializable",
-          "reason": "ExplicitImplementationMovedToView",
-          "issueCount": 1
-        }
       ]
     },
     {
@@ -205,7 +193,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Timers.Timer::BeginInit():System.Void",
           "clrName": "BeginInit",
-          "tsEmitName": "BeginInit",
+          "tsEmitName": "beginInit",
           "normalizedSignature": "BeginInit|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -221,7 +209,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Timers.Timer::Close():System.Void",
           "clrName": "Close",
-          "tsEmitName": "Close",
+          "tsEmitName": "close",
           "normalizedSignature": "Close|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -237,7 +225,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Timers.Timer::EndInit():System.Void",
           "clrName": "EndInit",
-          "tsEmitName": "EndInit",
+          "tsEmitName": "endInit",
           "normalizedSignature": "EndInit|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -253,7 +241,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Timers.Timer::Start():System.Void",
           "clrName": "Start",
-          "tsEmitName": "Start",
+          "tsEmitName": "start",
           "normalizedSignature": "Start|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -269,7 +257,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Timers.Timer::Stop():System.Void",
           "clrName": "Stop",
-          "tsEmitName": "Stop",
+          "tsEmitName": "stop",
           "normalizedSignature": "Stop|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -285,7 +273,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "Dispose$view",
+          "tsEmitName": "dispose$view",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -302,7 +290,7 @@
         {
           "stableId": "System.ComponentModel.Primitives:System.ComponentModel.ISupportInitialize::BeginInit():System.Void",
           "clrName": "BeginInit",
-          "tsEmitName": "BeginInit$view",
+          "tsEmitName": "beginInit$view",
           "normalizedSignature": "BeginInit|():System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -319,7 +307,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Timers.Timer::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "Dispose",
+          "tsEmitName": "dispose",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -337,7 +325,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Timers.Timer::AutoReset:System.Boolean",
           "clrName": "AutoReset",
-          "tsEmitName": "AutoReset",
+          "tsEmitName": "autoReset",
           "normalizedSignature": "AutoReset|:System.Boolean|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -352,7 +340,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Timers.Timer::Enabled:System.Boolean",
           "clrName": "Enabled",
-          "tsEmitName": "Enabled",
+          "tsEmitName": "enabled",
           "normalizedSignature": "Enabled|:System.Boolean|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -367,7 +355,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Timers.Timer::Interval:System.Double",
           "clrName": "Interval",
-          "tsEmitName": "Interval",
+          "tsEmitName": "interval",
           "normalizedSignature": "Interval|:System.Double|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -382,7 +370,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Timers.Timer::Site:System.ComponentModel.ISite",
           "clrName": "Site",
-          "tsEmitName": "Site",
+          "tsEmitName": "site",
           "normalizedSignature": "Site|:System.ComponentModel.ISite|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -397,7 +385,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Timers.Timer::SynchronizingObject:System.ComponentModel.ISynchronizeInvoke",
           "clrName": "SynchronizingObject",
-          "tsEmitName": "SynchronizingObject",
+          "tsEmitName": "synchronizingObject",
           "normalizedSignature": "SynchronizingObject|:System.ComponentModel.ISynchronizeInvoke|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -412,7 +400,7 @@
         {
           "stableId": "System.ComponentModel.Primitives:System.ComponentModel.IComponent::Site:System.ComponentModel.ISite",
           "clrName": "Site",
-          "tsEmitName": "Site$view",
+          "tsEmitName": "site$view",
           "normalizedSignature": "Site|:System.ComponentModel.ISite|static=false|accessor=getset",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -431,7 +419,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Timers.Timer::ElapsedSystem.Timers.ElapsedEventHandler",
           "clrName": "Elapsed",
-          "tsEmitName": "Elapsed",
+          "tsEmitName": "elapsed",
           "normalizedSignature": "Elapsed|System.Timers.ElapsedEventHandler|static=false",
           "isStatic": false
         }
@@ -452,23 +440,6 @@
           "isStatic": false,
           "parameterCount": 1
         }
-      ],
-      "unsatisfiableInterfaces": [
-        {
-          "interfaceClrName": "System.ComponentModel.IComponent",
-          "reason": "ExplicitImplementationMovedToView",
-          "issueCount": 1
-        },
-        {
-          "interfaceClrName": "System.IDisposable",
-          "reason": "ExplicitImplementationMovedToView",
-          "issueCount": 1
-        },
-        {
-          "interfaceClrName": "System.ComponentModel.ISupportInitialize",
-          "reason": "ExplicitImplementationMovedToView",
-          "issueCount": 1
-        }
       ]
     },
     {
@@ -486,7 +457,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Timers.TimersDescriptionAttribute::Description:System.String",
           "clrName": "Description",
-          "tsEmitName": "Description",
+          "tsEmitName": "description",
           "normalizedSignature": "Description|:System.String|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",

@@ -46,9 +46,9 @@ export type CLROf<T> =
     T; // Identity fallback for non-primitive types
 
 export class JsonContent$instance extends System_Net_Http_Internal.HttpContent$instance {
-    readonly ObjectType: Type;
-    readonly Value: unknown;
-    Dispose(): void;
+    readonly objectType: Type;
+    readonly value: unknown;
+    dispose(): void;
     static Create(inputValue: unknown, jsonTypeInfo: JsonTypeInfo, mediaType?: MediaTypeHeaderValue): JsonContent;
     static Create(inputValue: unknown, inputType: Type, mediaType?: MediaTypeHeaderValue, options?: JsonSerializerOptions): JsonContent;
     static Create<T>(inputValue: T, jsonTypeInfo: JsonTypeInfo_1<T>, mediaType?: MediaTypeHeaderValue): JsonContent;

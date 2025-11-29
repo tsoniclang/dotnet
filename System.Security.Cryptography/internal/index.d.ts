@@ -55,171 +55,171 @@ export type CLROf<T> =
     T; // Identity fallback for non-primitive types
 
 export enum CipherMode {
-    CBC = 1,
-    ECB = 2,
-    OFB = 3,
-    CFB = 4,
-    CTS = 5
+    cbc = 1,
+    ecb = 2,
+    ofb = 3,
+    cfb = 4,
+    cts = 5
 }
 
 
 export enum CngExportPolicies {
-    None = 0,
-    AllowExport = 1,
-    AllowPlaintextExport = 2,
-    AllowArchiving = 4,
-    AllowPlaintextArchiving = 8
+    none = 0,
+    allowExport = 1,
+    allowPlaintextExport = 2,
+    allowArchiving = 4,
+    allowPlaintextArchiving = 8
 }
 
 
 export enum CngKeyCreationOptions {
-    None = 0,
-    MachineKey = 32,
-    OverwriteExistingKey = 128,
-    PreferVbs = 65536,
-    RequireVbs = 131072,
-    UsePerBootKey = 262144
+    none = 0,
+    machineKey = 32,
+    overwriteExistingKey = 128,
+    preferVbs = 65536,
+    requireVbs = 131072,
+    usePerBootKey = 262144
 }
 
 
 export enum CngKeyHandleOpenOptions {
-    None = 0,
-    EphemeralKey = 1
+    none = 0,
+    ephemeralKey = 1
 }
 
 
 export enum CngKeyOpenOptions {
-    None = 0,
-    UserKey = 0,
-    MachineKey = 32,
-    Silent = 64
+    none = 0,
+    userKey = 0,
+    machineKey = 32,
+    silent = 64
 }
 
 
 export enum CngKeyUsages {
-    None = 0,
-    Decryption = 1,
-    Signing = 2,
-    KeyAgreement = 4,
-    AllUsages = 16777215
+    none = 0,
+    decryption = 1,
+    signing = 2,
+    keyAgreement = 4,
+    allUsages = 16777215
 }
 
 
 export enum CngPropertyOptions {
-    None = 0,
-    CustomProperty = 1073741824,
-    Persist = -2147483648
+    none = 0,
+    customProperty = 1073741824,
+    persist = -2147483648
 }
 
 
 export enum CngUIProtectionLevels {
-    None = 0,
-    ProtectKey = 1,
-    ForceHighProtection = 2
+    none = 0,
+    protectKey = 1,
+    forceHighProtection = 2
 }
 
 
 export enum CryptoStreamMode {
-    Read = 0,
-    Write = 1
+    read = 0,
+    write = 1
 }
 
 
 export enum CspProviderFlags {
-    NoFlags = 0,
-    UseMachineKeyStore = 1,
-    UseDefaultKeyContainer = 2,
-    UseNonExportableKey = 4,
-    UseExistingKey = 8,
-    UseArchivableKey = 16,
-    UseUserProtectedKey = 32,
-    NoPrompt = 64,
-    CreateEphemeralKey = 128
+    noFlags = 0,
+    useMachineKeyStore = 1,
+    useDefaultKeyContainer = 2,
+    useNonExportableKey = 4,
+    useExistingKey = 8,
+    useArchivableKey = 16,
+    useUserProtectedKey = 32,
+    noPrompt = 64,
+    createEphemeralKey = 128
 }
 
 
 export enum DSASignatureFormat {
-    IeeeP1363FixedFieldConcatenation = 0,
-    Rfc3279DerSequence = 1
+    ieeeP1363FixedFieldConcatenation = 0,
+    rfc3279DerSequence = 1
 }
 
 
 export enum ECCurve_ECCurveType {
-    Implicit = 0,
-    PrimeShortWeierstrass = 1,
-    PrimeTwistedEdwards = 2,
-    PrimeMontgomery = 3,
-    Characteristic2 = 4,
-    Named = 5
+    implicit = 0,
+    primeShortWeierstrass = 1,
+    primeTwistedEdwards = 2,
+    primeMontgomery = 3,
+    characteristic2 = 4,
+    named = 5
 }
 
 
 export enum ECDiffieHellmanKeyDerivationFunction {
-    Hash = 0,
-    Hmac = 1,
-    Tls = 2
+    hash = 0,
+    hmac = 1,
+    tls = 2
 }
 
 
 export enum ECKeyXmlFormat {
-    Rfc4050 = 0
+    rfc4050 = 0
 }
 
 
 export enum FromBase64TransformMode {
-    IgnoreWhiteSpaces = 0,
-    DoNotIgnoreWhiteSpaces = 1
+    ignoreWhiteSpaces = 0,
+    doNotIgnoreWhiteSpaces = 1
 }
 
 
 export enum KeyNumber {
-    Exchange = 1,
-    Signature = 2
+    exchange = 1,
+    signature = 2
 }
 
 
 export enum OidGroup {
-    All = 0,
-    HashAlgorithm = 1,
-    EncryptionAlgorithm = 2,
-    PublicKeyAlgorithm = 3,
-    SignatureAlgorithm = 4,
-    Attribute = 5,
-    ExtensionOrAttribute = 6,
-    EnhancedKeyUsage = 7,
-    Policy = 8,
-    Template = 9,
-    KeyDerivationFunction = 10
+    all = 0,
+    hashAlgorithm = 1,
+    encryptionAlgorithm = 2,
+    publicKeyAlgorithm = 3,
+    signatureAlgorithm = 4,
+    attribute = 5,
+    extensionOrAttribute = 6,
+    enhancedKeyUsage = 7,
+    policy = 8,
+    template = 9,
+    keyDerivationFunction = 10
 }
 
 
 export enum PaddingMode {
-    None = 1,
-    PKCS7 = 2,
-    Zeros = 3,
-    ANSIX923 = 4,
-    ISO10126 = 5
+    none = 1,
+    pkcs7 = 2,
+    zeros = 3,
+    ansix923 = 4,
+    iso10126 = 5
 }
 
 
 export enum PbeEncryptionAlgorithm {
-    Unknown = 0,
-    Aes128Cbc = 1,
-    Aes192Cbc = 2,
-    Aes256Cbc = 3,
-    TripleDes3KeyPkcs12 = 4
+    unknown_ = 0,
+    aes128Cbc = 1,
+    aes192Cbc = 2,
+    aes256Cbc = 3,
+    tripleDes3KeyPkcs12 = 4
 }
 
 
 export enum RSAEncryptionPaddingMode {
-    Pkcs1 = 0,
-    Oaep = 1
+    pkcs1 = 0,
+    oaep = 1
 }
 
 
 export enum RSASignaturePaddingMode {
-    Pkcs1 = 0,
-    Pss = 1
+    pkcs1 = 0,
+    pss = 1
 }
 
 
@@ -247,12 +247,12 @@ export type ICspAsymmetricAlgorithm = ICspAsymmetricAlgorithm$instance;
 
 export class CngProperty$instance {
     constructor(name: string, value: byte[], options: CngPropertyOptions);
-    readonly Name: string;
-    readonly Options: CngPropertyOptions;
-    Equals(obj: unknown): boolean;
-    Equals(other: CngProperty): boolean;
-    GetHashCode(): int;
-    GetValue(): byte[];
+    readonly name: string;
+    readonly options: CngPropertyOptions;
+    equals(obj: unknown): boolean;
+    equals(other: CngProperty): boolean;
+    getHashCode(): int;
+    getValue(): byte[];
 }
 
 
@@ -291,12 +291,12 @@ export class ECCurve$instance {
     Hash: Nullable_1<HashAlgorithmName>;
     Polynomial: byte[];
     Prime: byte[];
-    readonly IsCharacteristic2: boolean;
-    readonly IsExplicit: boolean;
-    readonly IsNamed: boolean;
-    readonly IsPrime: boolean;
-    readonly Oid: Oid;
-    Validate(): void;
+    readonly isCharacteristic2: boolean;
+    readonly isExplicit: boolean;
+    readonly isNamed: boolean;
+    readonly isPrime: boolean;
+    readonly oid: Oid;
+    validate(): void;
     static CreateFromFriendlyName(oidFriendlyName: string): ECCurve;
     static CreateFromOid(curveOid: Oid): ECCurve;
     static CreateFromValue(oidValue: string): ECCurve;
@@ -309,7 +309,7 @@ export class ECParameters$instance {
     Q: ECPoint;
     D: byte[];
     Curve: ECCurve;
-    Validate(): void;
+    validate(): void;
 }
 
 
@@ -325,11 +325,11 @@ export type ECPoint = ECPoint$instance;
 
 export class HashAlgorithmName$instance {
     constructor(name: string);
-    readonly Name: string;
-    Equals(obj: unknown): boolean;
-    Equals(other: HashAlgorithmName): boolean;
-    GetHashCode(): int;
-    ToString(): string;
+    readonly name: string;
+    equals(obj: unknown): boolean;
+    equals(other: HashAlgorithmName): boolean;
+    getHashCode(): int;
+    toString(): string;
     static readonly MD5: HashAlgorithmName;
     static readonly SHA1: HashAlgorithmName;
     static readonly SHA256: HashAlgorithmName;
@@ -354,10 +354,10 @@ export type HashAlgorithmName = HashAlgorithmName$instance & __HashAlgorithmName
 
 
 export class PemFields$instance {
-    readonly Base64Data: Range;
-    readonly DecodedDataLength: int;
-    readonly Label: Range;
-    readonly Location: Range;
+    readonly base64Data: Range;
+    readonly decodedDataLength: int;
+    readonly label: Range;
+    readonly location: Range;
 }
 
 
@@ -378,14 +378,14 @@ export class RSAParameters$instance {
 export type RSAParameters = RSAParameters$instance;
 
 export abstract class Aes$instance extends SymmetricAlgorithm$instance {
-    DecryptKeyWrapPadded(ciphertext: byte[]): byte[];
-    DecryptKeyWrapPadded(ciphertext: ReadOnlySpan_1<CLROf<byte>>): byte[];
-    DecryptKeyWrapPadded(ciphertext: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>): int;
-    Dispose(): void;
-    EncryptKeyWrapPadded(plaintext: byte[]): byte[];
-    EncryptKeyWrapPadded(plaintext: ReadOnlySpan_1<CLROf<byte>>): byte[];
-    EncryptKeyWrapPadded(plaintext: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>): void;
-    TryDecryptKeyWrapPadded(ciphertext: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
+    decryptKeyWrapPadded(ciphertext: byte[]): byte[];
+    decryptKeyWrapPadded(ciphertext: ReadOnlySpan_1<CLROf<byte>>): byte[];
+    decryptKeyWrapPadded(ciphertext: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>): int;
+    dispose(): void;
+    encryptKeyWrapPadded(plaintext: byte[]): byte[];
+    encryptKeyWrapPadded(plaintext: ReadOnlySpan_1<CLROf<byte>>): byte[];
+    encryptKeyWrapPadded(plaintext: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>): void;
+    tryDecryptKeyWrapPadded(ciphertext: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
     static GetKeyWrapPaddedLength(plaintextLengthInBytes: int): int;
 }
 
@@ -400,11 +400,11 @@ export type Aes = Aes$instance & __Aes$views;
 export class AesCcm$instance {
     constructor(key: ReadOnlySpan_1<CLROf<byte>>);
     constructor(key: byte[]);
-    Decrypt(nonce: byte[], ciphertext: byte[], tag: byte[], plaintext: byte[], associatedData?: byte[]): void;
-    Decrypt(nonce: ReadOnlySpan_1<CLROf<byte>>, ciphertext: ReadOnlySpan_1<CLROf<byte>>, tag: ReadOnlySpan_1<CLROf<byte>>, plaintext: Span_1<CLROf<byte>>, associatedData?: ReadOnlySpan_1<CLROf<byte>>): void;
-    Dispose(): void;
-    Encrypt(nonce: byte[], plaintext: byte[], ciphertext: byte[], tag: byte[], associatedData?: byte[]): void;
-    Encrypt(nonce: ReadOnlySpan_1<CLROf<byte>>, plaintext: ReadOnlySpan_1<CLROf<byte>>, ciphertext: Span_1<CLROf<byte>>, tag: Span_1<CLROf<byte>>, associatedData?: ReadOnlySpan_1<CLROf<byte>>): void;
+    decrypt(nonce: byte[], ciphertext: byte[], tag: byte[], plaintext: byte[], associatedData?: byte[]): void;
+    decrypt(nonce: ReadOnlySpan_1<CLROf<byte>>, ciphertext: ReadOnlySpan_1<CLROf<byte>>, tag: ReadOnlySpan_1<CLROf<byte>>, plaintext: Span_1<CLROf<byte>>, associatedData?: ReadOnlySpan_1<CLROf<byte>>): void;
+    dispose(): void;
+    encrypt(nonce: byte[], plaintext: byte[], ciphertext: byte[], tag: byte[], associatedData?: byte[]): void;
+    encrypt(nonce: ReadOnlySpan_1<CLROf<byte>>, plaintext: ReadOnlySpan_1<CLROf<byte>>, ciphertext: Span_1<CLROf<byte>>, tag: Span_1<CLROf<byte>>, associatedData?: ReadOnlySpan_1<CLROf<byte>>): void;
     static readonly NonceByteSizes: KeySizes;
     static readonly TagByteSizes: KeySizes;
     static readonly IsSupported: boolean;
@@ -424,13 +424,13 @@ export class AesCng$instance extends Aes$instance {
     constructor(keyName: string, provider: CngProvider);
     constructor(keyName: string, provider: CngProvider, openOptions: CngKeyOpenOptions);
     constructor(key: CngKey);
-    CreateDecryptor(rgbKey: byte[], rgbIV: byte[]): ICryptoTransform;
-    CreateDecryptor(): ICryptoTransform;
-    CreateEncryptor(rgbKey: byte[], rgbIV: byte[]): ICryptoTransform;
-    CreateEncryptor(): ICryptoTransform;
-    Dispose(): void;
-    GenerateIV(): void;
-    GenerateKey(): void;
+    createDecryptor(rgbKey: byte[], rgbIV: byte[]): ICryptoTransform;
+    createDecryptor(): ICryptoTransform;
+    createEncryptor(rgbKey: byte[], rgbIV: byte[]): ICryptoTransform;
+    createEncryptor(): ICryptoTransform;
+    dispose(): void;
+    generateIV(): void;
+    generateKey(): void;
 }
 
 
@@ -443,22 +443,22 @@ export type AesCng = AesCng$instance & __AesCng$views;
 
 export class AesCryptoServiceProvider$instance extends Aes$instance {
     constructor();
-    BlockSize: int;
-    FeedbackSize: int;
-    IV: byte[];
-    Key: byte[];
-    KeySize: int;
-    readonly LegalBlockSizes: KeySizes[];
-    readonly LegalKeySizes: KeySizes[];
-    Mode: CipherMode;
-    Padding: PaddingMode;
-    CreateDecryptor(): ICryptoTransform;
-    CreateDecryptor(rgbKey: byte[], rgbIV: byte[]): ICryptoTransform;
-    CreateEncryptor(): ICryptoTransform;
-    CreateEncryptor(rgbKey: byte[], rgbIV: byte[]): ICryptoTransform;
-    Dispose(): void;
-    GenerateIV(): void;
-    GenerateKey(): void;
+    blockSize: int;
+    feedbackSize: int;
+    iv: byte[];
+    key: byte[];
+    keySize: int;
+    readonly legalBlockSizes: KeySizes[];
+    readonly legalKeySizes: KeySizes[];
+    mode: CipherMode;
+    padding: PaddingMode;
+    createDecryptor(): ICryptoTransform;
+    createDecryptor(rgbKey: byte[], rgbIV: byte[]): ICryptoTransform;
+    createEncryptor(): ICryptoTransform;
+    createEncryptor(rgbKey: byte[], rgbIV: byte[]): ICryptoTransform;
+    dispose(): void;
+    generateIV(): void;
+    generateKey(): void;
 }
 
 
@@ -474,12 +474,12 @@ export class AesGcm$instance {
     constructor(key: byte[], tagSizeInBytes: int);
     constructor(key: ReadOnlySpan_1<CLROf<byte>>);
     constructor(key: byte[]);
-    readonly TagSizeInBytes: Nullable_1<CLROf<int>>;
-    Decrypt(nonce: byte[], ciphertext: byte[], tag: byte[], plaintext: byte[], associatedData?: byte[]): void;
-    Decrypt(nonce: ReadOnlySpan_1<CLROf<byte>>, ciphertext: ReadOnlySpan_1<CLROf<byte>>, tag: ReadOnlySpan_1<CLROf<byte>>, plaintext: Span_1<CLROf<byte>>, associatedData?: ReadOnlySpan_1<CLROf<byte>>): void;
-    Dispose(): void;
-    Encrypt(nonce: byte[], plaintext: byte[], ciphertext: byte[], tag: byte[], associatedData?: byte[]): void;
-    Encrypt(nonce: ReadOnlySpan_1<CLROf<byte>>, plaintext: ReadOnlySpan_1<CLROf<byte>>, ciphertext: Span_1<CLROf<byte>>, tag: Span_1<CLROf<byte>>, associatedData?: ReadOnlySpan_1<CLROf<byte>>): void;
+    readonly tagSizeInBytes: Nullable_1<CLROf<int>>;
+    decrypt(nonce: byte[], ciphertext: byte[], tag: byte[], plaintext: byte[], associatedData?: byte[]): void;
+    decrypt(nonce: ReadOnlySpan_1<CLROf<byte>>, ciphertext: ReadOnlySpan_1<CLROf<byte>>, tag: ReadOnlySpan_1<CLROf<byte>>, plaintext: Span_1<CLROf<byte>>, associatedData?: ReadOnlySpan_1<CLROf<byte>>): void;
+    dispose(): void;
+    encrypt(nonce: byte[], plaintext: byte[], ciphertext: byte[], tag: byte[], associatedData?: byte[]): void;
+    encrypt(nonce: ReadOnlySpan_1<CLROf<byte>>, plaintext: ReadOnlySpan_1<CLROf<byte>>, ciphertext: Span_1<CLROf<byte>>, tag: Span_1<CLROf<byte>>, associatedData?: ReadOnlySpan_1<CLROf<byte>>): void;
     static readonly NonceByteSizes: KeySizes;
     static readonly TagByteSizes: KeySizes;
     static readonly IsSupported: boolean;
@@ -495,22 +495,22 @@ export type AesGcm = AesGcm$instance & __AesGcm$views;
 
 export class AesManaged$instance extends Aes$instance {
     constructor();
-    BlockSize: int;
-    FeedbackSize: int;
-    IV: byte[];
-    Key: byte[];
-    KeySize: int;
-    readonly LegalBlockSizes: KeySizes[];
-    readonly LegalKeySizes: KeySizes[];
-    Mode: CipherMode;
-    Padding: PaddingMode;
-    CreateDecryptor(): ICryptoTransform;
-    CreateDecryptor(rgbKey: byte[], rgbIV: byte[]): ICryptoTransform;
-    CreateEncryptor(): ICryptoTransform;
-    CreateEncryptor(rgbKey: byte[], rgbIV: byte[]): ICryptoTransform;
-    Dispose(): void;
-    GenerateIV(): void;
-    GenerateKey(): void;
+    blockSize: int;
+    feedbackSize: int;
+    iv: byte[];
+    key: byte[];
+    keySize: int;
+    readonly legalBlockSizes: KeySizes[];
+    readonly legalKeySizes: KeySizes[];
+    mode: CipherMode;
+    padding: PaddingMode;
+    createDecryptor(): ICryptoTransform;
+    createDecryptor(rgbKey: byte[], rgbIV: byte[]): ICryptoTransform;
+    createEncryptor(): ICryptoTransform;
+    createEncryptor(rgbKey: byte[], rgbIV: byte[]): ICryptoTransform;
+    dispose(): void;
+    generateIV(): void;
+    generateKey(): void;
 }
 
 
@@ -529,10 +529,10 @@ export class AsnEncodedData$instance {
     constructor(oid: string, rawData: byte[]);
     constructor(oid: Oid, rawData: ReadOnlySpan_1<CLROf<byte>>);
     constructor(oid: string, rawData: ReadOnlySpan_1<CLROf<byte>>);
-    Oid: Oid;
-    RawData: byte[];
-    CopyFrom(asnEncodedData: AsnEncodedData): void;
-    Format(multiLine: boolean): string;
+    oid: Oid;
+    rawData: byte[];
+    copyFrom(asnEncodedData: AsnEncodedData): void;
+    format(multiLine: boolean): string;
 }
 
 
@@ -541,14 +541,14 @@ export type AsnEncodedData = AsnEncodedData$instance;
 export class AsnEncodedDataCollection$instance {
     constructor();
     constructor(asnEncodedData: AsnEncodedData);
-    readonly Count: int;
-    readonly IsSynchronized: boolean;
-    readonly Item: AsnEncodedData;
-    readonly SyncRoot: unknown;
-    Add(asnEncodedData: AsnEncodedData): int;
-    CopyTo(array: AsnEncodedData[], index: int): void;
-    GetEnumerator(): AsnEncodedDataEnumerator;
-    Remove(asnEncodedData: AsnEncodedData): void;
+    readonly count: int;
+    readonly isSynchronized: boolean;
+    readonly item: AsnEncodedData;
+    readonly syncRoot: unknown;
+    add(asnEncodedData: AsnEncodedData): int;
+    copyTo(array: AsnEncodedData[], index: int): void;
+    getEnumerator(): AsnEncodedDataEnumerator;
+    remove(asnEncodedData: AsnEncodedData): void;
 }
 
 
@@ -561,9 +561,9 @@ export type AsnEncodedDataCollection = AsnEncodedDataCollection$instance & __Asn
 
 
 export class AsnEncodedDataEnumerator$instance {
-    readonly Current: AsnEncodedData | unknown;
-    MoveNext(): boolean;
-    Reset(): void;
+    readonly current: AsnEncodedData | unknown;
+    moveNext(): boolean;
+    reset(): void;
 }
 
 
@@ -575,37 +575,37 @@ export type AsnEncodedDataEnumerator = AsnEncodedDataEnumerator$instance & __Asn
 
 
 export abstract class AsymmetricAlgorithm$instance {
-    readonly KeyExchangeAlgorithm: string;
-    KeySize: int;
-    readonly LegalKeySizes: KeySizes[];
-    readonly SignatureAlgorithm: string;
-    Clear(): void;
-    Dispose(): void;
-    ExportEncryptedPkcs8PrivateKey(passwordBytes: ReadOnlySpan_1<CLROf<byte>>, pbeParameters: PbeParameters): byte[];
-    ExportEncryptedPkcs8PrivateKey(password: ReadOnlySpan_1<CLROf<char>>, pbeParameters: PbeParameters): byte[];
-    ExportEncryptedPkcs8PrivateKeyPem(password: ReadOnlySpan_1<CLROf<char>>, pbeParameters: PbeParameters): string;
-    ExportEncryptedPkcs8PrivateKeyPem(passwordBytes: ReadOnlySpan_1<CLROf<byte>>, pbeParameters: PbeParameters): string;
-    ExportPkcs8PrivateKey(): byte[];
-    ExportPkcs8PrivateKeyPem(): string;
-    ExportSubjectPublicKeyInfo(): byte[];
-    ExportSubjectPublicKeyInfoPem(): string;
-    FromXmlString(xmlString: string): void;
-    ImportEncryptedPkcs8PrivateKey(passwordBytes: ReadOnlySpan_1<CLROf<byte>>, source: ReadOnlySpan_1<CLROf<byte>>, bytesRead: { value: ref<int> }): void;
-    ImportEncryptedPkcs8PrivateKey(password: ReadOnlySpan_1<CLROf<char>>, source: ReadOnlySpan_1<CLROf<byte>>, bytesRead: { value: ref<int> }): void;
-    ImportFromEncryptedPem(input: ReadOnlySpan_1<CLROf<char>>, password: ReadOnlySpan_1<CLROf<char>>): void;
-    ImportFromEncryptedPem(input: ReadOnlySpan_1<CLROf<char>>, passwordBytes: ReadOnlySpan_1<CLROf<byte>>): void;
-    ImportFromPem(input: ReadOnlySpan_1<CLROf<char>>): void;
-    ImportPkcs8PrivateKey(source: ReadOnlySpan_1<CLROf<byte>>, bytesRead: { value: ref<int> }): void;
-    ImportSubjectPublicKeyInfo(source: ReadOnlySpan_1<CLROf<byte>>, bytesRead: { value: ref<int> }): void;
-    ToXmlString(includePrivateParameters: boolean): string;
-    TryExportEncryptedPkcs8PrivateKey(passwordBytes: ReadOnlySpan_1<CLROf<byte>>, pbeParameters: PbeParameters, destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
-    TryExportEncryptedPkcs8PrivateKey(password: ReadOnlySpan_1<CLROf<char>>, pbeParameters: PbeParameters, destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
-    TryExportEncryptedPkcs8PrivateKeyPem(password: ReadOnlySpan_1<CLROf<char>>, pbeParameters: PbeParameters, destination: Span_1<CLROf<char>>, charsWritten: { value: ref<int> }): boolean;
-    TryExportEncryptedPkcs8PrivateKeyPem(passwordBytes: ReadOnlySpan_1<CLROf<byte>>, pbeParameters: PbeParameters, destination: Span_1<CLROf<char>>, charsWritten: { value: ref<int> }): boolean;
-    TryExportPkcs8PrivateKey(destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
-    TryExportPkcs8PrivateKeyPem(destination: Span_1<CLROf<char>>, charsWritten: { value: ref<int> }): boolean;
-    TryExportSubjectPublicKeyInfo(destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
-    TryExportSubjectPublicKeyInfoPem(destination: Span_1<CLROf<char>>, charsWritten: { value: ref<int> }): boolean;
+    readonly keyExchangeAlgorithm: string;
+    keySize: int;
+    readonly legalKeySizes: KeySizes[];
+    readonly signatureAlgorithm: string;
+    clear(): void;
+    dispose(): void;
+    exportEncryptedPkcs8PrivateKey(passwordBytes: ReadOnlySpan_1<CLROf<byte>>, pbeParameters: PbeParameters): byte[];
+    exportEncryptedPkcs8PrivateKey(password: ReadOnlySpan_1<CLROf<char>>, pbeParameters: PbeParameters): byte[];
+    exportEncryptedPkcs8PrivateKeyPem(password: ReadOnlySpan_1<CLROf<char>>, pbeParameters: PbeParameters): string;
+    exportEncryptedPkcs8PrivateKeyPem(passwordBytes: ReadOnlySpan_1<CLROf<byte>>, pbeParameters: PbeParameters): string;
+    exportPkcs8PrivateKey(): byte[];
+    exportPkcs8PrivateKeyPem(): string;
+    exportSubjectPublicKeyInfo(): byte[];
+    exportSubjectPublicKeyInfoPem(): string;
+    fromXmlString(xmlString: string): void;
+    importEncryptedPkcs8PrivateKey(passwordBytes: ReadOnlySpan_1<CLROf<byte>>, source: ReadOnlySpan_1<CLROf<byte>>, bytesRead: { value: ref<int> }): void;
+    importEncryptedPkcs8PrivateKey(password: ReadOnlySpan_1<CLROf<char>>, source: ReadOnlySpan_1<CLROf<byte>>, bytesRead: { value: ref<int> }): void;
+    importFromEncryptedPem(input: ReadOnlySpan_1<CLROf<char>>, password: ReadOnlySpan_1<CLROf<char>>): void;
+    importFromEncryptedPem(input: ReadOnlySpan_1<CLROf<char>>, passwordBytes: ReadOnlySpan_1<CLROf<byte>>): void;
+    importFromPem(input: ReadOnlySpan_1<CLROf<char>>): void;
+    importPkcs8PrivateKey(source: ReadOnlySpan_1<CLROf<byte>>, bytesRead: { value: ref<int> }): void;
+    importSubjectPublicKeyInfo(source: ReadOnlySpan_1<CLROf<byte>>, bytesRead: { value: ref<int> }): void;
+    toXmlString(includePrivateParameters: boolean): string;
+    tryExportEncryptedPkcs8PrivateKey(passwordBytes: ReadOnlySpan_1<CLROf<byte>>, pbeParameters: PbeParameters, destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
+    tryExportEncryptedPkcs8PrivateKey(password: ReadOnlySpan_1<CLROf<char>>, pbeParameters: PbeParameters, destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
+    tryExportEncryptedPkcs8PrivateKeyPem(password: ReadOnlySpan_1<CLROf<char>>, pbeParameters: PbeParameters, destination: Span_1<CLROf<char>>, charsWritten: { value: ref<int> }): boolean;
+    tryExportEncryptedPkcs8PrivateKeyPem(passwordBytes: ReadOnlySpan_1<CLROf<byte>>, pbeParameters: PbeParameters, destination: Span_1<CLROf<char>>, charsWritten: { value: ref<int> }): boolean;
+    tryExportPkcs8PrivateKey(destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
+    tryExportPkcs8PrivateKeyPem(destination: Span_1<CLROf<char>>, charsWritten: { value: ref<int> }): boolean;
+    tryExportSubjectPublicKeyInfo(destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
+    tryExportSubjectPublicKeyInfoPem(destination: Span_1<CLROf<char>>, charsWritten: { value: ref<int> }): boolean;
     static Create(): AsymmetricAlgorithm;
     static Create(algName: string): AsymmetricAlgorithm;
 }
@@ -619,39 +619,39 @@ export type AsymmetricAlgorithm = AsymmetricAlgorithm$instance & __AsymmetricAlg
 
 
 export abstract class AsymmetricKeyExchangeDeformatter$instance {
-    Parameters: string;
-    abstract DecryptKeyExchange(rgb: byte[]): byte[];
-    abstract SetKey(key: AsymmetricAlgorithm): void;
+    parameters: string;
+    abstract decryptKeyExchange(rgb: byte[]): byte[];
+    abstract setKey(key: AsymmetricAlgorithm): void;
 }
 
 
 export type AsymmetricKeyExchangeDeformatter = AsymmetricKeyExchangeDeformatter$instance;
 
 export abstract class AsymmetricKeyExchangeFormatter$instance {
-    readonly Parameters: string;
-    abstract CreateKeyExchange(data: byte[]): byte[];
-    abstract CreateKeyExchange(data: byte[], symAlgType: Type): byte[];
-    abstract SetKey(key: AsymmetricAlgorithm): void;
+    readonly parameters: string;
+    abstract createKeyExchange(data: byte[]): byte[];
+    abstract createKeyExchange(data: byte[], symAlgType: Type): byte[];
+    abstract setKey(key: AsymmetricAlgorithm): void;
 }
 
 
 export type AsymmetricKeyExchangeFormatter = AsymmetricKeyExchangeFormatter$instance;
 
 export abstract class AsymmetricSignatureDeformatter$instance {
-    abstract SetHashAlgorithm(strName: string): void;
-    abstract SetKey(key: AsymmetricAlgorithm): void;
-    VerifySignature(hash: HashAlgorithm, rgbSignature: byte[]): boolean;
-    VerifySignature(rgbHash: byte[], rgbSignature: byte[]): boolean;
+    abstract setHashAlgorithm(strName: string): void;
+    abstract setKey(key: AsymmetricAlgorithm): void;
+    verifySignature(hash: HashAlgorithm, rgbSignature: byte[]): boolean;
+    verifySignature(rgbHash: byte[], rgbSignature: byte[]): boolean;
 }
 
 
 export type AsymmetricSignatureDeformatter = AsymmetricSignatureDeformatter$instance;
 
 export abstract class AsymmetricSignatureFormatter$instance {
-    CreateSignature(hash: HashAlgorithm): byte[];
-    CreateSignature(rgbHash: byte[]): byte[];
-    abstract SetHashAlgorithm(strName: string): void;
-    abstract SetKey(key: AsymmetricAlgorithm): void;
+    createSignature(hash: HashAlgorithm): byte[];
+    createSignature(rgbHash: byte[]): byte[];
+    abstract setHashAlgorithm(strName: string): void;
+    abstract setKey(key: AsymmetricAlgorithm): void;
 }
 
 
@@ -661,7 +661,7 @@ export class AuthenticationTagMismatchException$instance extends CryptographicEx
     constructor();
     constructor(message: string);
     constructor(message: string, inner: Exception);
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
@@ -675,11 +675,11 @@ export type AuthenticationTagMismatchException = AuthenticationTagMismatchExcept
 export class ChaCha20Poly1305$instance {
     constructor(key: ReadOnlySpan_1<CLROf<byte>>);
     constructor(key: byte[]);
-    Decrypt(nonce: byte[], ciphertext: byte[], tag: byte[], plaintext: byte[], associatedData?: byte[]): void;
-    Decrypt(nonce: ReadOnlySpan_1<CLROf<byte>>, ciphertext: ReadOnlySpan_1<CLROf<byte>>, tag: ReadOnlySpan_1<CLROf<byte>>, plaintext: Span_1<CLROf<byte>>, associatedData?: ReadOnlySpan_1<CLROf<byte>>): void;
-    Dispose(): void;
-    Encrypt(nonce: byte[], plaintext: byte[], ciphertext: byte[], tag: byte[], associatedData?: byte[]): void;
-    Encrypt(nonce: ReadOnlySpan_1<CLROf<byte>>, plaintext: ReadOnlySpan_1<CLROf<byte>>, ciphertext: Span_1<CLROf<byte>>, tag: Span_1<CLROf<byte>>, associatedData?: ReadOnlySpan_1<CLROf<byte>>): void;
+    decrypt(nonce: byte[], ciphertext: byte[], tag: byte[], plaintext: byte[], associatedData?: byte[]): void;
+    decrypt(nonce: ReadOnlySpan_1<CLROf<byte>>, ciphertext: ReadOnlySpan_1<CLROf<byte>>, tag: ReadOnlySpan_1<CLROf<byte>>, plaintext: Span_1<CLROf<byte>>, associatedData?: ReadOnlySpan_1<CLROf<byte>>): void;
+    dispose(): void;
+    encrypt(nonce: byte[], plaintext: byte[], ciphertext: byte[], tag: byte[], associatedData?: byte[]): void;
+    encrypt(nonce: ReadOnlySpan_1<CLROf<byte>>, plaintext: ReadOnlySpan_1<CLROf<byte>>, ciphertext: Span_1<CLROf<byte>>, tag: Span_1<CLROf<byte>>, associatedData?: ReadOnlySpan_1<CLROf<byte>>): void;
     static readonly IsSupported: boolean;
 }
 
@@ -693,11 +693,11 @@ export type ChaCha20Poly1305 = ChaCha20Poly1305$instance & __ChaCha20Poly1305$vi
 
 export class CngAlgorithm$instance {
     constructor(algorithm: string);
-    readonly Algorithm: string;
-    Equals(obj: unknown): boolean;
-    Equals(other: CngAlgorithm): boolean;
-    GetHashCode(): int;
-    ToString(): string;
+    readonly algorithm: string;
+    equals(obj: unknown): boolean;
+    equals(other: CngAlgorithm): boolean;
+    getHashCode(): int;
+    toString(): string;
     static readonly Rsa: CngAlgorithm;
     static readonly ECDiffieHellman: CngAlgorithm;
     static readonly ECDiffieHellmanP256: CngAlgorithm;
@@ -730,11 +730,11 @@ export type CngAlgorithm = CngAlgorithm$instance & __CngAlgorithm$views;
 
 export class CngAlgorithmGroup$instance {
     constructor(algorithmGroup: string);
-    readonly AlgorithmGroup: string;
-    Equals(obj: unknown): boolean;
-    Equals(other: CngAlgorithmGroup): boolean;
-    GetHashCode(): int;
-    ToString(): string;
+    readonly algorithmGroup: string;
+    equals(obj: unknown): boolean;
+    equals(other: CngAlgorithmGroup): boolean;
+    getHashCode(): int;
+    toString(): string;
     static readonly DiffieHellman: CngAlgorithmGroup;
     static readonly Dsa: CngAlgorithmGroup;
     static readonly ECDiffieHellman: CngAlgorithmGroup;
@@ -757,26 +757,26 @@ export type CngAlgorithmGroup = CngAlgorithmGroup$instance & __CngAlgorithmGroup
 
 
 export class CngKey$instance {
-    readonly Algorithm: CngAlgorithm;
-    readonly AlgorithmGroup: CngAlgorithmGroup;
-    readonly ExportPolicy: CngExportPolicies;
-    readonly Handle: SafeNCryptKeyHandle;
-    readonly IsEphemeral: boolean;
-    readonly IsMachineKey: boolean;
-    readonly KeyName: string;
-    readonly KeySize: int;
-    readonly KeyUsage: CngKeyUsages;
-    ParentWindowHandle: nint;
-    readonly Provider: CngProvider;
-    readonly ProviderHandle: SafeNCryptProviderHandle;
-    readonly UIPolicy: CngUIPolicy;
-    readonly UniqueName: string;
-    Delete(): void;
-    Dispose(): void;
-    Export(format: CngKeyBlobFormat): byte[];
-    GetProperty(name: string, options: CngPropertyOptions): CngProperty;
-    HasProperty(name: string, options: CngPropertyOptions): boolean;
-    SetProperty(property: CngProperty): void;
+    readonly algorithm: CngAlgorithm;
+    readonly algorithmGroup: CngAlgorithmGroup;
+    readonly exportPolicy: CngExportPolicies;
+    readonly handle: SafeNCryptKeyHandle;
+    readonly isEphemeral: boolean;
+    readonly isMachineKey: boolean;
+    readonly keyName: string;
+    readonly keySize: int;
+    readonly keyUsage: CngKeyUsages;
+    parentWindowHandle: nint;
+    readonly provider: CngProvider;
+    readonly providerHandle: SafeNCryptProviderHandle;
+    readonly uiPolicy: CngUIPolicy;
+    readonly uniqueName: string;
+    delete_(): void;
+    dispose(): void;
+    export_(format: CngKeyBlobFormat): byte[];
+    getProperty(name: string, options: CngPropertyOptions): CngProperty;
+    hasProperty(name: string, options: CngPropertyOptions): boolean;
+    setProperty(property: CngProperty): void;
     static Create(algorithm: CngAlgorithm, keyName: string, creationParameters: CngKeyCreationParameters): CngKey;
     static Create(algorithm: CngAlgorithm, keyName: string): CngKey;
     static Create(algorithm: CngAlgorithm): CngKey;
@@ -801,11 +801,11 @@ export type CngKey = CngKey$instance & __CngKey$views;
 
 export class CngKeyBlobFormat$instance {
     constructor(format: string);
-    readonly Format: string;
-    Equals(obj: unknown): boolean;
-    Equals(other: CngKeyBlobFormat): boolean;
-    GetHashCode(): int;
-    ToString(): string;
+    readonly format: string;
+    equals(obj: unknown): boolean;
+    equals(other: CngKeyBlobFormat): boolean;
+    getHashCode(): int;
+    toString(): string;
     static readonly EccPrivateBlob: CngKeyBlobFormat;
     static readonly EccPublicBlob: CngKeyBlobFormat;
     static readonly EccFullPrivateBlob: CngKeyBlobFormat;
@@ -835,13 +835,13 @@ export type CngKeyBlobFormat = CngKeyBlobFormat$instance & __CngKeyBlobFormat$vi
 
 export class CngKeyCreationParameters$instance {
     constructor();
-    ExportPolicy: Nullable_1<CngExportPolicies>;
-    KeyCreationOptions: CngKeyCreationOptions;
-    KeyUsage: Nullable_1<CngKeyUsages>;
-    readonly Parameters: CngPropertyCollection;
-    ParentWindowHandle: nint;
-    Provider: CngProvider;
-    UIPolicy: CngUIPolicy;
+    exportPolicy: Nullable_1<CngExportPolicies>;
+    keyCreationOptions: CngKeyCreationOptions;
+    keyUsage: Nullable_1<CngKeyUsages>;
+    readonly parameters: CngPropertyCollection;
+    parentWindowHandle: nint;
+    provider: CngProvider;
+    uiPolicy: CngUIPolicy;
 }
 
 
@@ -849,21 +849,21 @@ export type CngKeyCreationParameters = CngKeyCreationParameters$instance;
 
 export class CngPropertyCollection$instance extends System_Collections_ObjectModel_Internal.Collection_1$instance<CngProperty> {
     constructor();
-    Add(item: CngProperty): void;
-    Add(value: unknown): int;
-    Clear(): void;
-    Contains(item: CngProperty): boolean;
-    Contains(value: unknown): boolean;
-    CopyTo(array: CngProperty[], index: int): void;
-    CopyTo(array: ClrArray, index: int): void;
-    GetEnumerator(): IEnumerator_1<CngProperty>;
-    GetEnumerator(): IEnumerator;
-    IndexOf(item: CngProperty): int;
-    Insert(index: int, item: CngProperty): void;
-    Insert(index: int, value: unknown): void;
-    Remove(item: CngProperty): boolean;
-    Remove(value: unknown): void;
-    RemoveAt(index: int): void;
+    add(item: CngProperty): void;
+    add(value: unknown): int;
+    clear(): void;
+    contains(item: CngProperty): boolean;
+    contains(value: unknown): boolean;
+    copyTo(array: CngProperty[], index: int): void;
+    copyTo(array: ClrArray, index: int): void;
+    getEnumerator(): IEnumerator_1<CngProperty>;
+    getEnumerator(): IEnumerator;
+    indexOf(item: CngProperty): int;
+    insert(index: int, item: CngProperty): void;
+    insert(index: int, value: unknown): void;
+    remove(item: CngProperty): boolean;
+    remove(value: unknown): void;
+    removeAt(index: int): void;
 }
 
 
@@ -882,11 +882,11 @@ export type CngPropertyCollection = CngPropertyCollection$instance & __CngProper
 
 export class CngProvider$instance {
     constructor(provider: string);
-    readonly Provider: string;
-    Equals(obj: unknown): boolean;
-    Equals(other: CngProvider): boolean;
-    GetHashCode(): int;
-    ToString(): string;
+    readonly provider: string;
+    equals(obj: unknown): boolean;
+    equals(other: CngProvider): boolean;
+    getHashCode(): int;
+    toString(): string;
     static readonly MicrosoftPlatformCryptoProvider: CngProvider;
     static readonly MicrosoftSmartCardKeyStorageProvider: CngProvider;
     static readonly MicrosoftSoftwareKeyStorageProvider: CngProvider;
@@ -909,44 +909,44 @@ export class CngUIPolicy$instance {
     constructor(protectionLevel: CngUIProtectionLevels, friendlyName: string, description: string);
     constructor(protectionLevel: CngUIProtectionLevels, friendlyName: string, description: string, useContext: string);
     constructor(protectionLevel: CngUIProtectionLevels, friendlyName: string, description: string, useContext: string, creationTitle: string);
-    readonly CreationTitle: string;
-    readonly Description: string;
-    readonly FriendlyName: string;
-    readonly ProtectionLevel: CngUIProtectionLevels;
-    readonly UseContext: string;
+    readonly creationTitle: string;
+    readonly description: string;
+    readonly friendlyName: string;
+    readonly protectionLevel: CngUIProtectionLevels;
+    readonly useContext: string;
 }
 
 
 export type CngUIPolicy = CngUIPolicy$instance;
 
 export abstract class CompositeMLDsa$instance {
-    readonly Algorithm: CompositeMLDsaAlgorithm;
-    Dispose(): void;
-    ExportCompositeMLDsaPrivateKey(): byte[];
-    ExportCompositeMLDsaPrivateKey(destination: Span_1<CLROf<byte>>): int;
-    ExportCompositeMLDsaPublicKey(): byte[];
-    ExportCompositeMLDsaPublicKey(destination: Span_1<CLROf<byte>>): int;
-    ExportEncryptedPkcs8PrivateKey(password: string, pbeParameters: PbeParameters): byte[];
-    ExportEncryptedPkcs8PrivateKey(passwordBytes: ReadOnlySpan_1<CLROf<byte>>, pbeParameters: PbeParameters): byte[];
-    ExportEncryptedPkcs8PrivateKey(password: ReadOnlySpan_1<CLROf<char>>, pbeParameters: PbeParameters): byte[];
-    ExportEncryptedPkcs8PrivateKeyPem(password: string, pbeParameters: PbeParameters): string;
-    ExportEncryptedPkcs8PrivateKeyPem(password: ReadOnlySpan_1<CLROf<char>>, pbeParameters: PbeParameters): string;
-    ExportEncryptedPkcs8PrivateKeyPem(passwordBytes: ReadOnlySpan_1<CLROf<byte>>, pbeParameters: PbeParameters): string;
-    ExportPkcs8PrivateKey(): byte[];
-    ExportPkcs8PrivateKeyPem(): string;
-    ExportSubjectPublicKeyInfo(): byte[];
-    ExportSubjectPublicKeyInfoPem(): string;
-    SignData(data: byte[], context?: byte[]): byte[];
-    SignData(data: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, context?: ReadOnlySpan_1<CLROf<byte>>): int;
-    TryExportCompositeMLDsaPrivateKey(destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
-    TryExportCompositeMLDsaPublicKey(destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
-    TryExportEncryptedPkcs8PrivateKey(password: string, pbeParameters: PbeParameters, destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
-    TryExportEncryptedPkcs8PrivateKey(password: ReadOnlySpan_1<CLROf<char>>, pbeParameters: PbeParameters, destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
-    TryExportEncryptedPkcs8PrivateKey(passwordBytes: ReadOnlySpan_1<CLROf<byte>>, pbeParameters: PbeParameters, destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
-    TryExportPkcs8PrivateKey(destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
-    TryExportSubjectPublicKeyInfo(destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
-    VerifyData(data: byte[], signature: byte[], context?: byte[]): boolean;
-    VerifyData(data: ReadOnlySpan_1<CLROf<byte>>, signature: ReadOnlySpan_1<CLROf<byte>>, context?: ReadOnlySpan_1<CLROf<byte>>): boolean;
+    readonly algorithm: CompositeMLDsaAlgorithm;
+    dispose(): void;
+    exportCompositeMLDsaPrivateKey(): byte[];
+    exportCompositeMLDsaPrivateKey(destination: Span_1<CLROf<byte>>): int;
+    exportCompositeMLDsaPublicKey(): byte[];
+    exportCompositeMLDsaPublicKey(destination: Span_1<CLROf<byte>>): int;
+    exportEncryptedPkcs8PrivateKey(password: string, pbeParameters: PbeParameters): byte[];
+    exportEncryptedPkcs8PrivateKey(passwordBytes: ReadOnlySpan_1<CLROf<byte>>, pbeParameters: PbeParameters): byte[];
+    exportEncryptedPkcs8PrivateKey(password: ReadOnlySpan_1<CLROf<char>>, pbeParameters: PbeParameters): byte[];
+    exportEncryptedPkcs8PrivateKeyPem(password: string, pbeParameters: PbeParameters): string;
+    exportEncryptedPkcs8PrivateKeyPem(password: ReadOnlySpan_1<CLROf<char>>, pbeParameters: PbeParameters): string;
+    exportEncryptedPkcs8PrivateKeyPem(passwordBytes: ReadOnlySpan_1<CLROf<byte>>, pbeParameters: PbeParameters): string;
+    exportPkcs8PrivateKey(): byte[];
+    exportPkcs8PrivateKeyPem(): string;
+    exportSubjectPublicKeyInfo(): byte[];
+    exportSubjectPublicKeyInfoPem(): string;
+    signData(data: byte[], context?: byte[]): byte[];
+    signData(data: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, context?: ReadOnlySpan_1<CLROf<byte>>): int;
+    tryExportCompositeMLDsaPrivateKey(destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
+    tryExportCompositeMLDsaPublicKey(destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
+    tryExportEncryptedPkcs8PrivateKey(password: string, pbeParameters: PbeParameters, destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
+    tryExportEncryptedPkcs8PrivateKey(password: ReadOnlySpan_1<CLROf<char>>, pbeParameters: PbeParameters, destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
+    tryExportEncryptedPkcs8PrivateKey(passwordBytes: ReadOnlySpan_1<CLROf<byte>>, pbeParameters: PbeParameters, destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
+    tryExportPkcs8PrivateKey(destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
+    tryExportSubjectPublicKeyInfo(destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
+    verifyData(data: byte[], signature: byte[], context?: byte[]): boolean;
+    verifyData(data: ReadOnlySpan_1<CLROf<byte>>, signature: ReadOnlySpan_1<CLROf<byte>>, context?: ReadOnlySpan_1<CLROf<byte>>): boolean;
     static readonly IsSupported: boolean;
     static GenerateKey(algorithm: CompositeMLDsaAlgorithm): CompositeMLDsa;
     static ImportCompositeMLDsaPrivateKey(algorithm: CompositeMLDsaAlgorithm, source: byte[]): CompositeMLDsa;
@@ -978,12 +978,12 @@ export type CompositeMLDsa = CompositeMLDsa$instance & __CompositeMLDsa$views;
 
 
 export class CompositeMLDsaAlgorithm$instance {
-    readonly MaxSignatureSizeInBytes: int;
-    readonly Name: string;
-    Equals(other: CompositeMLDsaAlgorithm): boolean;
-    Equals(obj: unknown): boolean;
-    GetHashCode(): int;
-    ToString(): string;
+    readonly maxSignatureSizeInBytes: int;
+    readonly name: string;
+    equals(other: CompositeMLDsaAlgorithm): boolean;
+    equals(obj: unknown): boolean;
+    getHashCode(): int;
+    toString(): string;
     static readonly MLDsa44WithRSA2048Pss: CompositeMLDsaAlgorithm;
     static readonly MLDsa44WithRSA2048Pkcs15: CompositeMLDsaAlgorithm;
     static readonly MLDsa44WithEd25519: CompositeMLDsaAlgorithm;
@@ -1017,8 +1017,8 @@ export type CompositeMLDsaAlgorithm = CompositeMLDsaAlgorithm$instance & __Compo
 
 export class CompositeMLDsaCng$instance extends CompositeMLDsa$instance {
     constructor(key: CngKey);
-    Dispose(): void;
-    GetKey(): CngKey;
+    dispose(): void;
+    getKey(): CngKey;
 }
 
 
@@ -1049,7 +1049,7 @@ export class CryptographicException$instance extends System_Internal.SystemExcep
     constructor(message: string);
     constructor(message: string, inner: Exception);
     constructor(format: string, insert: string);
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
@@ -1065,7 +1065,7 @@ export class CryptographicUnexpectedOperationException$instance extends Cryptogr
     constructor(message: string);
     constructor(message: string, inner: Exception);
     constructor(format: string, insert: string);
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
@@ -1079,48 +1079,48 @@ export type CryptographicUnexpectedOperationException = CryptographicUnexpectedO
 export class CryptoStream$instance extends System_IO_Internal.Stream$instance {
     constructor(stream: Stream, transform: ICryptoTransform, mode: CryptoStreamMode);
     constructor(stream: Stream, transform: ICryptoTransform, mode: CryptoStreamMode, leaveOpen: boolean);
-    readonly CanRead: boolean;
-    readonly CanSeek: boolean;
-    readonly CanWrite: boolean;
-    readonly HasFlushedFinalBlock: boolean;
-    readonly Length: long;
-    Position: long;
-    BeginRead(buffer: byte[], offset: int, count: int, callback: AsyncCallback, state: unknown): IAsyncResult;
-    BeginWrite(buffer: byte[], offset: int, count: int, callback: AsyncCallback, state: unknown): IAsyncResult;
-    Clear(): void;
-    CopyTo(destination: Stream, bufferSize: int): void;
-    CopyTo(destination: Stream): void;
-    CopyToAsync(destination: Stream, bufferSize: int, cancellationToken: CancellationToken): Task;
-    CopyToAsync(destination: Stream): Task;
-    CopyToAsync(destination: Stream, bufferSize: int): Task;
-    CopyToAsync(destination: Stream, cancellationToken: CancellationToken): Task;
-    Dispose(): void;
-    DisposeAsync(): ValueTask;
-    EndRead(asyncResult: IAsyncResult): int;
-    EndWrite(asyncResult: IAsyncResult): void;
-    Flush(): void;
-    FlushAsync(cancellationToken: CancellationToken): Task;
-    FlushAsync(): Task;
-    FlushFinalBlock(): void;
-    FlushFinalBlockAsync(cancellationToken?: CancellationToken): ValueTask;
-    Read(buffer: byte[], offset: int, count: int): int;
-    Read(buffer: Span_1<CLROf<byte>>): int;
-    ReadAsync(buffer: byte[], offset: int, count: int, cancellationToken: CancellationToken): Task_1<CLROf<int>>;
-    ReadAsync(buffer: Memory_1<CLROf<byte>>, cancellationToken?: CancellationToken): ValueTask_1<CLROf<int>>;
-    ReadAsync(buffer: byte[], offset: int, count: int): Task_1<CLROf<int>>;
-    ReadAsync(buffer: byte[], offset: int, count: int, cancellationToken: CancellationToken): Task_1<CLROf<int>>;
-    ReadAsync(buffer: Memory_1<CLROf<byte>>, cancellationToken?: CancellationToken): ValueTask_1<CLROf<int>>;
-    ReadByte(): int;
-    Seek(offset: long, origin: SeekOrigin): long;
-    SetLength(value: long): void;
-    Write(buffer: byte[], offset: int, count: int): void;
-    Write(buffer: ReadOnlySpan_1<CLROf<byte>>): void;
-    Write(buffer: ReadOnlySpan_1<CLROf<byte>>): void;
-    WriteAsync(buffer: byte[], offset: int, count: int, cancellationToken: CancellationToken): Task;
-    WriteAsync(buffer: ReadOnlyMemory_1<CLROf<byte>>, cancellationToken?: CancellationToken): ValueTask;
-    WriteAsync(buffer: byte[], offset: int, count: int): Task;
-    WriteAsync(buffer: ReadOnlyMemory_1<CLROf<byte>>, cancellationToken?: CancellationToken): ValueTask;
-    WriteByte(value: byte): void;
+    readonly canRead: boolean;
+    readonly canSeek: boolean;
+    readonly canWrite: boolean;
+    readonly hasFlushedFinalBlock: boolean;
+    readonly length: long;
+    position: long;
+    beginRead(buffer: byte[], offset: int, count: int, callback: AsyncCallback, state: unknown): IAsyncResult;
+    beginWrite(buffer: byte[], offset: int, count: int, callback: AsyncCallback, state: unknown): IAsyncResult;
+    clear(): void;
+    copyTo(destination: Stream, bufferSize: int): void;
+    copyTo(destination: Stream): void;
+    copyToAsync(destination: Stream, bufferSize: int, cancellationToken: CancellationToken): Task;
+    copyToAsync(destination: Stream): Task;
+    copyToAsync(destination: Stream, bufferSize: int): Task;
+    copyToAsync(destination: Stream, cancellationToken: CancellationToken): Task;
+    dispose(): void;
+    disposeAsync(): ValueTask;
+    endRead(asyncResult: IAsyncResult): int;
+    endWrite(asyncResult: IAsyncResult): void;
+    flush(): void;
+    flushAsync(cancellationToken: CancellationToken): Task;
+    flushAsync(): Task;
+    flushFinalBlock(): void;
+    flushFinalBlockAsync(cancellationToken?: CancellationToken): ValueTask;
+    read(buffer: byte[], offset: int, count: int): int;
+    read(buffer: Span_1<CLROf<byte>>): int;
+    readAsync(buffer: byte[], offset: int, count: int, cancellationToken: CancellationToken): Task_1<CLROf<int>>;
+    readAsync(buffer: Memory_1<CLROf<byte>>, cancellationToken?: CancellationToken): ValueTask_1<CLROf<int>>;
+    readAsync(buffer: byte[], offset: int, count: int): Task_1<CLROf<int>>;
+    readAsync(buffer: byte[], offset: int, count: int, cancellationToken: CancellationToken): Task_1<CLROf<int>>;
+    readAsync(buffer: Memory_1<CLROf<byte>>, cancellationToken?: CancellationToken): ValueTask_1<CLROf<int>>;
+    readByte(): int;
+    seek(offset: long, origin: SeekOrigin): long;
+    setLength(value: long): void;
+    write(buffer: byte[], offset: int, count: int): void;
+    write(buffer: ReadOnlySpan_1<CLROf<byte>>): void;
+    write(buffer: ReadOnlySpan_1<CLROf<byte>>): void;
+    writeAsync(buffer: byte[], offset: int, count: int, cancellationToken: CancellationToken): Task;
+    writeAsync(buffer: ReadOnlyMemory_1<CLROf<byte>>, cancellationToken?: CancellationToken): ValueTask;
+    writeAsync(buffer: byte[], offset: int, count: int): Task;
+    writeAsync(buffer: ReadOnlyMemory_1<CLROf<byte>>, cancellationToken?: CancellationToken): ValueTask;
+    writeByte(value: byte): void;
 }
 
 
@@ -1134,18 +1134,18 @@ export type CryptoStream = CryptoStream$instance & __CryptoStream$views;
 
 export class CspKeyContainerInfo$instance {
     constructor(parameters: CspParameters);
-    readonly Accessible: boolean;
-    readonly Exportable: boolean;
-    readonly HardwareDevice: boolean;
-    readonly KeyContainerName: string;
-    readonly KeyNumber: KeyNumber;
-    readonly MachineKeyStore: boolean;
-    readonly Protected: boolean;
-    readonly ProviderName: string;
-    readonly ProviderType: int;
-    readonly RandomlyGenerated: boolean;
-    readonly Removable: boolean;
-    readonly UniqueKeyContainerName: string;
+    readonly accessible: boolean;
+    readonly exportable: boolean;
+    readonly hardwareDevice: boolean;
+    readonly keyContainerName: string;
+    readonly keyNumber: KeyNumber;
+    readonly machineKeyStore: boolean;
+    readonly protected_: boolean;
+    readonly providerName: string;
+    readonly providerType: int;
+    readonly randomlyGenerated: boolean;
+    readonly removable: boolean;
+    readonly uniqueKeyContainerName: string;
 }
 
 
@@ -1160,18 +1160,18 @@ export class CspParameters$instance {
     ProviderName: string;
     KeyContainerName: string;
     KeyNumber: int;
-    Flags: CspProviderFlags;
-    KeyPassword: SecureString;
-    ParentWindowHandle: nint;
+    flags: CspProviderFlags;
+    keyPassword: SecureString;
+    parentWindowHandle: nint;
 }
 
 
 export type CspParameters = CspParameters$instance;
 
 export abstract class DeriveBytes$instance {
-    Dispose(): void;
-    abstract GetBytes(cb: int): byte[];
-    abstract Reset(): void;
+    dispose(): void;
+    abstract getBytes(cb: int): byte[];
+    abstract reset(): void;
 }
 
 
@@ -1183,8 +1183,8 @@ export type DeriveBytes = DeriveBytes$instance & __DeriveBytes$views;
 
 
 export abstract class DES$instance extends SymmetricAlgorithm$instance {
-    Key: byte[];
-    Dispose(): void;
+    key: byte[];
+    dispose(): void;
     static IsSemiWeakKey(rgbKey: byte[]): boolean;
     static IsWeakKey(rgbKey: byte[]): boolean;
 }
@@ -1199,22 +1199,22 @@ export type DES = DES$instance & __DES$views;
 
 export class DESCryptoServiceProvider$instance extends DES$instance {
     constructor();
-    BlockSize: int;
-    FeedbackSize: int;
-    IV: byte[];
-    Key: byte[];
-    KeySize: int;
-    readonly LegalBlockSizes: KeySizes[];
-    readonly LegalKeySizes: KeySizes[];
-    Mode: CipherMode;
-    Padding: PaddingMode;
-    CreateDecryptor(): ICryptoTransform;
-    CreateDecryptor(rgbKey: byte[], rgbIV: byte[]): ICryptoTransform;
-    CreateEncryptor(): ICryptoTransform;
-    CreateEncryptor(rgbKey: byte[], rgbIV: byte[]): ICryptoTransform;
-    Dispose(): void;
-    GenerateIV(): void;
-    GenerateKey(): void;
+    blockSize: int;
+    feedbackSize: int;
+    iv: byte[];
+    key: byte[];
+    keySize: int;
+    readonly legalBlockSizes: KeySizes[];
+    readonly legalKeySizes: KeySizes[];
+    mode: CipherMode;
+    padding: PaddingMode;
+    createDecryptor(): ICryptoTransform;
+    createDecryptor(rgbKey: byte[], rgbIV: byte[]): ICryptoTransform;
+    createEncryptor(): ICryptoTransform;
+    createEncryptor(rgbKey: byte[], rgbIV: byte[]): ICryptoTransform;
+    dispose(): void;
+    generateIV(): void;
+    generateKey(): void;
 }
 
 
@@ -1226,55 +1226,55 @@ export type DESCryptoServiceProvider = DESCryptoServiceProvider$instance & __DES
 
 
 export abstract class DSA$instance extends AsymmetricAlgorithm$instance {
-    CreateSignature(rgbHash: byte[]): byte[];
-    CreateSignature(rgbHash: byte[], signatureFormat: DSASignatureFormat): byte[];
-    Dispose(): void;
-    abstract ExportParameters(includePrivateParameters: boolean): DSAParameters;
-    FromXmlString(xmlString: string): void;
-    GetMaxSignatureSize(signatureFormat: DSASignatureFormat): int;
-    ImportEncryptedPkcs8PrivateKey(passwordBytes: ReadOnlySpan_1<CLROf<byte>>, source: ReadOnlySpan_1<CLROf<byte>>, bytesRead: { value: ref<int> }): void;
-    ImportEncryptedPkcs8PrivateKey(password: ReadOnlySpan_1<CLROf<char>>, source: ReadOnlySpan_1<CLROf<byte>>, bytesRead: { value: ref<int> }): void;
-    ImportEncryptedPkcs8PrivateKey(passwordBytes: ReadOnlySpan_1<CLROf<byte>>, source: ReadOnlySpan_1<CLROf<byte>>, bytesRead: { value: ref<int> }): void;
-    ImportFromEncryptedPem(input: ReadOnlySpan_1<CLROf<char>>, password: ReadOnlySpan_1<CLROf<char>>): void;
-    ImportFromEncryptedPem(input: ReadOnlySpan_1<CLROf<char>>, passwordBytes: ReadOnlySpan_1<CLROf<byte>>): void;
-    ImportFromEncryptedPem(input: ReadOnlySpan_1<CLROf<char>>, password: ReadOnlySpan_1<CLROf<char>>): void;
-    ImportFromPem(input: ReadOnlySpan_1<CLROf<char>>): void;
-    ImportFromPem(input: ReadOnlySpan_1<CLROf<char>>): void;
-    abstract ImportParameters(parameters: DSAParameters): void;
-    ImportPkcs8PrivateKey(source: ReadOnlySpan_1<CLROf<byte>>, bytesRead: { value: ref<int> }): void;
-    ImportPkcs8PrivateKey(source: ReadOnlySpan_1<CLROf<byte>>, bytesRead: { value: ref<int> }): void;
-    ImportSubjectPublicKeyInfo(source: ReadOnlySpan_1<CLROf<byte>>, bytesRead: { value: ref<int> }): void;
-    ImportSubjectPublicKeyInfo(source: ReadOnlySpan_1<CLROf<byte>>, bytesRead: { value: ref<int> }): void;
-    SignData(data: byte[], hashAlgorithm: HashAlgorithmName): byte[];
-    SignData(data: byte[], hashAlgorithm: HashAlgorithmName, signatureFormat: DSASignatureFormat): byte[];
-    SignData(data: byte[], offset: int, count: int, hashAlgorithm: HashAlgorithmName): byte[];
-    SignData(data: byte[], offset: int, count: int, hashAlgorithm: HashAlgorithmName, signatureFormat: DSASignatureFormat): byte[];
-    SignData(data: Stream, hashAlgorithm: HashAlgorithmName): byte[];
-    SignData(data: Stream, hashAlgorithm: HashAlgorithmName, signatureFormat: DSASignatureFormat): byte[];
-    ToXmlString(includePrivateParameters: boolean): string;
-    TryCreateSignature(hash: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
-    TryCreateSignature(hash: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, signatureFormat: DSASignatureFormat, bytesWritten: { value: ref<int> }): boolean;
-    TryExportEncryptedPkcs8PrivateKey(passwordBytes: ReadOnlySpan_1<CLROf<byte>>, pbeParameters: PbeParameters, destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
-    TryExportEncryptedPkcs8PrivateKey(password: ReadOnlySpan_1<CLROf<char>>, pbeParameters: PbeParameters, destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
-    TryExportEncryptedPkcs8PrivateKey(passwordBytes: ReadOnlySpan_1<CLROf<byte>>, pbeParameters: PbeParameters, destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
-    TryExportPkcs8PrivateKey(destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
-    TryExportPkcs8PrivateKey(destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
-    TryExportSubjectPublicKeyInfo(destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
-    TryExportSubjectPublicKeyInfo(destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
-    TrySignData(data: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, hashAlgorithm: HashAlgorithmName, bytesWritten: { value: ref<int> }): boolean;
-    TrySignData(data: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, hashAlgorithm: HashAlgorithmName, signatureFormat: DSASignatureFormat, bytesWritten: { value: ref<int> }): boolean;
-    VerifyData(data: byte[], signature: byte[], hashAlgorithm: HashAlgorithmName): boolean;
-    VerifyData(data: byte[], offset: int, count: int, signature: byte[], hashAlgorithm: HashAlgorithmName): boolean;
-    VerifyData(data: byte[], offset: int, count: int, signature: byte[], hashAlgorithm: HashAlgorithmName, signatureFormat: DSASignatureFormat): boolean;
-    VerifyData(data: Stream, signature: byte[], hashAlgorithm: HashAlgorithmName): boolean;
-    VerifyData(data: ReadOnlySpan_1<CLROf<byte>>, signature: ReadOnlySpan_1<CLROf<byte>>, hashAlgorithm: HashAlgorithmName): boolean;
-    VerifyData(data: byte[], signature: byte[], hashAlgorithm: HashAlgorithmName, signatureFormat: DSASignatureFormat): boolean;
-    VerifyData(data: Stream, signature: byte[], hashAlgorithm: HashAlgorithmName, signatureFormat: DSASignatureFormat): boolean;
-    VerifyData(data: ReadOnlySpan_1<CLROf<byte>>, signature: ReadOnlySpan_1<CLROf<byte>>, hashAlgorithm: HashAlgorithmName, signatureFormat: DSASignatureFormat): boolean;
-    VerifySignature(rgbHash: byte[], rgbSignature: byte[]): boolean;
-    VerifySignature(rgbHash: byte[], rgbSignature: byte[], signatureFormat: DSASignatureFormat): boolean;
-    VerifySignature(hash: ReadOnlySpan_1<CLROf<byte>>, signature: ReadOnlySpan_1<CLROf<byte>>): boolean;
-    VerifySignature(hash: ReadOnlySpan_1<CLROf<byte>>, signature: ReadOnlySpan_1<CLROf<byte>>, signatureFormat: DSASignatureFormat): boolean;
+    createSignature(rgbHash: byte[]): byte[];
+    createSignature(rgbHash: byte[], signatureFormat: DSASignatureFormat): byte[];
+    dispose(): void;
+    abstract exportParameters(includePrivateParameters: boolean): DSAParameters;
+    fromXmlString(xmlString: string): void;
+    getMaxSignatureSize(signatureFormat: DSASignatureFormat): int;
+    importEncryptedPkcs8PrivateKey(passwordBytes: ReadOnlySpan_1<CLROf<byte>>, source: ReadOnlySpan_1<CLROf<byte>>, bytesRead: { value: ref<int> }): void;
+    importEncryptedPkcs8PrivateKey(password: ReadOnlySpan_1<CLROf<char>>, source: ReadOnlySpan_1<CLROf<byte>>, bytesRead: { value: ref<int> }): void;
+    importEncryptedPkcs8PrivateKey(passwordBytes: ReadOnlySpan_1<CLROf<byte>>, source: ReadOnlySpan_1<CLROf<byte>>, bytesRead: { value: ref<int> }): void;
+    importFromEncryptedPem(input: ReadOnlySpan_1<CLROf<char>>, password: ReadOnlySpan_1<CLROf<char>>): void;
+    importFromEncryptedPem(input: ReadOnlySpan_1<CLROf<char>>, passwordBytes: ReadOnlySpan_1<CLROf<byte>>): void;
+    importFromEncryptedPem(input: ReadOnlySpan_1<CLROf<char>>, password: ReadOnlySpan_1<CLROf<char>>): void;
+    importFromPem(input: ReadOnlySpan_1<CLROf<char>>): void;
+    importFromPem(input: ReadOnlySpan_1<CLROf<char>>): void;
+    abstract importParameters(parameters: DSAParameters): void;
+    importPkcs8PrivateKey(source: ReadOnlySpan_1<CLROf<byte>>, bytesRead: { value: ref<int> }): void;
+    importPkcs8PrivateKey(source: ReadOnlySpan_1<CLROf<byte>>, bytesRead: { value: ref<int> }): void;
+    importSubjectPublicKeyInfo(source: ReadOnlySpan_1<CLROf<byte>>, bytesRead: { value: ref<int> }): void;
+    importSubjectPublicKeyInfo(source: ReadOnlySpan_1<CLROf<byte>>, bytesRead: { value: ref<int> }): void;
+    signData(data: byte[], hashAlgorithm: HashAlgorithmName): byte[];
+    signData(data: byte[], hashAlgorithm: HashAlgorithmName, signatureFormat: DSASignatureFormat): byte[];
+    signData(data: byte[], offset: int, count: int, hashAlgorithm: HashAlgorithmName): byte[];
+    signData(data: byte[], offset: int, count: int, hashAlgorithm: HashAlgorithmName, signatureFormat: DSASignatureFormat): byte[];
+    signData(data: Stream, hashAlgorithm: HashAlgorithmName): byte[];
+    signData(data: Stream, hashAlgorithm: HashAlgorithmName, signatureFormat: DSASignatureFormat): byte[];
+    toXmlString(includePrivateParameters: boolean): string;
+    tryCreateSignature(hash: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
+    tryCreateSignature(hash: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, signatureFormat: DSASignatureFormat, bytesWritten: { value: ref<int> }): boolean;
+    tryExportEncryptedPkcs8PrivateKey(passwordBytes: ReadOnlySpan_1<CLROf<byte>>, pbeParameters: PbeParameters, destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
+    tryExportEncryptedPkcs8PrivateKey(password: ReadOnlySpan_1<CLROf<char>>, pbeParameters: PbeParameters, destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
+    tryExportEncryptedPkcs8PrivateKey(passwordBytes: ReadOnlySpan_1<CLROf<byte>>, pbeParameters: PbeParameters, destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
+    tryExportPkcs8PrivateKey(destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
+    tryExportPkcs8PrivateKey(destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
+    tryExportSubjectPublicKeyInfo(destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
+    tryExportSubjectPublicKeyInfo(destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
+    trySignData(data: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, hashAlgorithm: HashAlgorithmName, bytesWritten: { value: ref<int> }): boolean;
+    trySignData(data: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, hashAlgorithm: HashAlgorithmName, signatureFormat: DSASignatureFormat, bytesWritten: { value: ref<int> }): boolean;
+    verifyData(data: byte[], signature: byte[], hashAlgorithm: HashAlgorithmName): boolean;
+    verifyData(data: byte[], offset: int, count: int, signature: byte[], hashAlgorithm: HashAlgorithmName): boolean;
+    verifyData(data: byte[], offset: int, count: int, signature: byte[], hashAlgorithm: HashAlgorithmName, signatureFormat: DSASignatureFormat): boolean;
+    verifyData(data: Stream, signature: byte[], hashAlgorithm: HashAlgorithmName): boolean;
+    verifyData(data: ReadOnlySpan_1<CLROf<byte>>, signature: ReadOnlySpan_1<CLROf<byte>>, hashAlgorithm: HashAlgorithmName): boolean;
+    verifyData(data: byte[], signature: byte[], hashAlgorithm: HashAlgorithmName, signatureFormat: DSASignatureFormat): boolean;
+    verifyData(data: Stream, signature: byte[], hashAlgorithm: HashAlgorithmName, signatureFormat: DSASignatureFormat): boolean;
+    verifyData(data: ReadOnlySpan_1<CLROf<byte>>, signature: ReadOnlySpan_1<CLROf<byte>>, hashAlgorithm: HashAlgorithmName, signatureFormat: DSASignatureFormat): boolean;
+    verifySignature(rgbHash: byte[], rgbSignature: byte[]): boolean;
+    verifySignature(rgbHash: byte[], rgbSignature: byte[], signatureFormat: DSASignatureFormat): boolean;
+    verifySignature(hash: ReadOnlySpan_1<CLROf<byte>>, signature: ReadOnlySpan_1<CLROf<byte>>): boolean;
+    verifySignature(hash: ReadOnlySpan_1<CLROf<byte>>, signature: ReadOnlySpan_1<CLROf<byte>>, signatureFormat: DSASignatureFormat): boolean;
 }
 
 
@@ -1289,16 +1289,16 @@ export class DSACng$instance extends DSA$instance {
     constructor();
     constructor(keySize: int);
     constructor(key: CngKey);
-    readonly Key: CngKey;
-    CreateSignature(rgbHash: byte[]): byte[];
-    CreateSignature(rgbHash: byte[], signatureFormat: DSASignatureFormat): byte[];
-    Dispose(): void;
-    ExportParameters(includePrivateParameters: boolean): DSAParameters;
-    ImportParameters(parameters: DSAParameters): void;
-    VerifySignature(rgbHash: byte[], rgbSignature: byte[]): boolean;
-    VerifySignature(rgbHash: byte[], rgbSignature: byte[], signatureFormat: DSASignatureFormat): boolean;
-    VerifySignature(hash: ReadOnlySpan_1<CLROf<byte>>, signature: ReadOnlySpan_1<CLROf<byte>>): boolean;
-    VerifySignature(hash: ReadOnlySpan_1<CLROf<byte>>, signature: ReadOnlySpan_1<CLROf<byte>>, signatureFormat: DSASignatureFormat): boolean;
+    readonly key: CngKey;
+    createSignature(rgbHash: byte[]): byte[];
+    createSignature(rgbHash: byte[], signatureFormat: DSASignatureFormat): byte[];
+    dispose(): void;
+    exportParameters(includePrivateParameters: boolean): DSAParameters;
+    importParameters(parameters: DSAParameters): void;
+    verifySignature(rgbHash: byte[], rgbSignature: byte[]): boolean;
+    verifySignature(rgbHash: byte[], rgbSignature: byte[], signatureFormat: DSASignatureFormat): boolean;
+    verifySignature(hash: ReadOnlySpan_1<CLROf<byte>>, signature: ReadOnlySpan_1<CLROf<byte>>): boolean;
+    verifySignature(hash: ReadOnlySpan_1<CLROf<byte>>, signature: ReadOnlySpan_1<CLROf<byte>>, signatureFormat: DSASignatureFormat): boolean;
 }
 
 
@@ -1314,53 +1314,53 @@ export class DSACryptoServiceProvider$instance extends DSA$instance {
     constructor(dwKeySize: int);
     constructor(dwKeySize: int, parameters: CspParameters);
     constructor(parameters: CspParameters);
-    readonly CspKeyContainerInfo: CspKeyContainerInfo;
-    readonly KeyExchangeAlgorithm: string;
-    KeySize: int;
-    readonly LegalKeySizes: KeySizes[];
-    PersistKeyInCsp: boolean;
-    readonly PublicOnly: boolean;
-    readonly SignatureAlgorithm: string;
-    CreateSignature(rgbHash: byte[]): byte[];
-    CreateSignature(rgbHash: byte[], signatureFormat: DSASignatureFormat): byte[];
-    Dispose(): void;
-    ExportCspBlob(includePrivateParameters: boolean): byte[];
-    ExportParameters(includePrivateParameters: boolean): DSAParameters;
-    FromXmlString(xmlString: string): void;
-    ImportCspBlob(keyBlob: byte[]): void;
-    ImportEncryptedPkcs8PrivateKey(passwordBytes: ReadOnlySpan_1<CLROf<byte>>, source: ReadOnlySpan_1<CLROf<byte>>, bytesRead: { value: ref<int> }): void;
-    ImportEncryptedPkcs8PrivateKey(password: ReadOnlySpan_1<CLROf<char>>, source: ReadOnlySpan_1<CLROf<byte>>, bytesRead: { value: ref<int> }): void;
-    ImportEncryptedPkcs8PrivateKey(passwordBytes: ReadOnlySpan_1<CLROf<byte>>, source: ReadOnlySpan_1<CLROf<byte>>, bytesRead: { value: ref<int> }): void;
-    ImportParameters(parameters: DSAParameters): void;
-    SignData(data: byte[], offset: int, count: int, hashAlgorithm: HashAlgorithmName): byte[];
-    SignData(data: Stream, hashAlgorithm: HashAlgorithmName): byte[];
-    SignData(data: byte[], hashAlgorithm: HashAlgorithmName): byte[];
-    SignData(data: byte[], hashAlgorithm: HashAlgorithmName, signatureFormat: DSASignatureFormat): byte[];
-    SignData(data: byte[], offset: int, count: int, hashAlgorithm: HashAlgorithmName, signatureFormat: DSASignatureFormat): byte[];
-    SignData(data: Stream, hashAlgorithm: HashAlgorithmName, signatureFormat: DSASignatureFormat): byte[];
-    SignHash(rgbHash: byte[], str: string): byte[];
-    ToXmlString(includePrivateParameters: boolean): string;
-    TryCreateSignature(hash: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
-    TryCreateSignature(hash: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
-    TryCreateSignature(hash: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, signatureFormat: DSASignatureFormat, bytesWritten: { value: ref<int> }): boolean;
-    TrySignData(data: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, hashAlgorithm: HashAlgorithmName, bytesWritten: { value: ref<int> }): boolean;
-    TrySignData(data: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, hashAlgorithm: HashAlgorithmName, bytesWritten: { value: ref<int> }): boolean;
-    TrySignData(data: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, hashAlgorithm: HashAlgorithmName, signatureFormat: DSASignatureFormat, bytesWritten: { value: ref<int> }): boolean;
-    VerifyData(data: byte[], offset: int, count: int, signature: byte[], hashAlgorithm: HashAlgorithmName): boolean;
-    VerifyData(data: Stream, signature: byte[], hashAlgorithm: HashAlgorithmName): boolean;
-    VerifyData(data: ReadOnlySpan_1<CLROf<byte>>, signature: ReadOnlySpan_1<CLROf<byte>>, hashAlgorithm: HashAlgorithmName): boolean;
-    VerifyData(data: byte[], signature: byte[], hashAlgorithm: HashAlgorithmName): boolean;
-    VerifyData(data: byte[], offset: int, count: int, signature: byte[], hashAlgorithm: HashAlgorithmName, signatureFormat: DSASignatureFormat): boolean;
-    VerifyData(data: ReadOnlySpan_1<CLROf<byte>>, signature: ReadOnlySpan_1<CLROf<byte>>, hashAlgorithm: HashAlgorithmName): boolean;
-    VerifyData(data: byte[], signature: byte[], hashAlgorithm: HashAlgorithmName, signatureFormat: DSASignatureFormat): boolean;
-    VerifyData(data: Stream, signature: byte[], hashAlgorithm: HashAlgorithmName, signatureFormat: DSASignatureFormat): boolean;
-    VerifyData(data: ReadOnlySpan_1<CLROf<byte>>, signature: ReadOnlySpan_1<CLROf<byte>>, hashAlgorithm: HashAlgorithmName, signatureFormat: DSASignatureFormat): boolean;
-    VerifyHash(rgbHash: byte[], str: string, rgbSignature: byte[]): boolean;
-    VerifySignature(rgbHash: byte[], rgbSignature: byte[]): boolean;
-    VerifySignature(hash: ReadOnlySpan_1<CLROf<byte>>, signature: ReadOnlySpan_1<CLROf<byte>>): boolean;
-    VerifySignature(rgbHash: byte[], rgbSignature: byte[], signatureFormat: DSASignatureFormat): boolean;
-    VerifySignature(hash: ReadOnlySpan_1<CLROf<byte>>, signature: ReadOnlySpan_1<CLROf<byte>>): boolean;
-    VerifySignature(hash: ReadOnlySpan_1<CLROf<byte>>, signature: ReadOnlySpan_1<CLROf<byte>>, signatureFormat: DSASignatureFormat): boolean;
+    readonly cspKeyContainerInfo: CspKeyContainerInfo;
+    readonly keyExchangeAlgorithm: string;
+    keySize: int;
+    readonly legalKeySizes: KeySizes[];
+    persistKeyInCsp: boolean;
+    readonly publicOnly: boolean;
+    readonly signatureAlgorithm: string;
+    createSignature(rgbHash: byte[]): byte[];
+    createSignature(rgbHash: byte[], signatureFormat: DSASignatureFormat): byte[];
+    dispose(): void;
+    exportCspBlob(includePrivateParameters: boolean): byte[];
+    exportParameters(includePrivateParameters: boolean): DSAParameters;
+    fromXmlString(xmlString: string): void;
+    importCspBlob(keyBlob: byte[]): void;
+    importEncryptedPkcs8PrivateKey(passwordBytes: ReadOnlySpan_1<CLROf<byte>>, source: ReadOnlySpan_1<CLROf<byte>>, bytesRead: { value: ref<int> }): void;
+    importEncryptedPkcs8PrivateKey(password: ReadOnlySpan_1<CLROf<char>>, source: ReadOnlySpan_1<CLROf<byte>>, bytesRead: { value: ref<int> }): void;
+    importEncryptedPkcs8PrivateKey(passwordBytes: ReadOnlySpan_1<CLROf<byte>>, source: ReadOnlySpan_1<CLROf<byte>>, bytesRead: { value: ref<int> }): void;
+    importParameters(parameters: DSAParameters): void;
+    signData(data: byte[], offset: int, count: int, hashAlgorithm: HashAlgorithmName): byte[];
+    signData(data: Stream, hashAlgorithm: HashAlgorithmName): byte[];
+    signData(data: byte[], hashAlgorithm: HashAlgorithmName): byte[];
+    signData(data: byte[], hashAlgorithm: HashAlgorithmName, signatureFormat: DSASignatureFormat): byte[];
+    signData(data: byte[], offset: int, count: int, hashAlgorithm: HashAlgorithmName, signatureFormat: DSASignatureFormat): byte[];
+    signData(data: Stream, hashAlgorithm: HashAlgorithmName, signatureFormat: DSASignatureFormat): byte[];
+    signHash(rgbHash: byte[], str: string): byte[];
+    toXmlString(includePrivateParameters: boolean): string;
+    tryCreateSignature(hash: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
+    tryCreateSignature(hash: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
+    tryCreateSignature(hash: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, signatureFormat: DSASignatureFormat, bytesWritten: { value: ref<int> }): boolean;
+    trySignData(data: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, hashAlgorithm: HashAlgorithmName, bytesWritten: { value: ref<int> }): boolean;
+    trySignData(data: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, hashAlgorithm: HashAlgorithmName, bytesWritten: { value: ref<int> }): boolean;
+    trySignData(data: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, hashAlgorithm: HashAlgorithmName, signatureFormat: DSASignatureFormat, bytesWritten: { value: ref<int> }): boolean;
+    verifyData(data: byte[], offset: int, count: int, signature: byte[], hashAlgorithm: HashAlgorithmName): boolean;
+    verifyData(data: Stream, signature: byte[], hashAlgorithm: HashAlgorithmName): boolean;
+    verifyData(data: ReadOnlySpan_1<CLROf<byte>>, signature: ReadOnlySpan_1<CLROf<byte>>, hashAlgorithm: HashAlgorithmName): boolean;
+    verifyData(data: byte[], signature: byte[], hashAlgorithm: HashAlgorithmName): boolean;
+    verifyData(data: byte[], offset: int, count: int, signature: byte[], hashAlgorithm: HashAlgorithmName, signatureFormat: DSASignatureFormat): boolean;
+    verifyData(data: ReadOnlySpan_1<CLROf<byte>>, signature: ReadOnlySpan_1<CLROf<byte>>, hashAlgorithm: HashAlgorithmName): boolean;
+    verifyData(data: byte[], signature: byte[], hashAlgorithm: HashAlgorithmName, signatureFormat: DSASignatureFormat): boolean;
+    verifyData(data: Stream, signature: byte[], hashAlgorithm: HashAlgorithmName, signatureFormat: DSASignatureFormat): boolean;
+    verifyData(data: ReadOnlySpan_1<CLROf<byte>>, signature: ReadOnlySpan_1<CLROf<byte>>, hashAlgorithm: HashAlgorithmName, signatureFormat: DSASignatureFormat): boolean;
+    verifyHash(rgbHash: byte[], str: string, rgbSignature: byte[]): boolean;
+    verifySignature(rgbHash: byte[], rgbSignature: byte[]): boolean;
+    verifySignature(hash: ReadOnlySpan_1<CLROf<byte>>, signature: ReadOnlySpan_1<CLROf<byte>>): boolean;
+    verifySignature(rgbHash: byte[], rgbSignature: byte[], signatureFormat: DSASignatureFormat): boolean;
+    verifySignature(hash: ReadOnlySpan_1<CLROf<byte>>, signature: ReadOnlySpan_1<CLROf<byte>>): boolean;
+    verifySignature(hash: ReadOnlySpan_1<CLROf<byte>>, signature: ReadOnlySpan_1<CLROf<byte>>, signatureFormat: DSASignatureFormat): boolean;
     static UseMachineKeyStore: boolean;
 }
 
@@ -1379,25 +1379,25 @@ export class DSAOpenSsl$instance extends DSA$instance {
     constructor(parameters: DSAParameters);
     constructor(pkeyHandle: SafeEvpPKeyHandle);
     constructor(handle: nint);
-    KeySize: int;
-    readonly LegalKeySizes: KeySizes[];
-    CreateSignature(rgbHash: byte[]): byte[];
-    CreateSignature(rgbHash: byte[], signatureFormat: DSASignatureFormat): byte[];
-    Dispose(): void;
-    DuplicateKeyHandle(): SafeEvpPKeyHandle;
-    ExportParameters(includePrivateParameters: boolean): DSAParameters;
-    ImportEncryptedPkcs8PrivateKey(passwordBytes: ReadOnlySpan_1<CLROf<byte>>, source: ReadOnlySpan_1<CLROf<byte>>, bytesRead: { value: ref<int> }): void;
-    ImportEncryptedPkcs8PrivateKey(password: ReadOnlySpan_1<CLROf<char>>, source: ReadOnlySpan_1<CLROf<byte>>, bytesRead: { value: ref<int> }): void;
-    ImportEncryptedPkcs8PrivateKey(passwordBytes: ReadOnlySpan_1<CLROf<byte>>, source: ReadOnlySpan_1<CLROf<byte>>, bytesRead: { value: ref<int> }): void;
-    ImportParameters(parameters: DSAParameters): void;
-    TryCreateSignature(hash: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
-    TryCreateSignature(hash: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
-    TryCreateSignature(hash: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, signatureFormat: DSASignatureFormat, bytesWritten: { value: ref<int> }): boolean;
-    VerifySignature(rgbHash: byte[], rgbSignature: byte[]): boolean;
-    VerifySignature(hash: ReadOnlySpan_1<CLROf<byte>>, signature: ReadOnlySpan_1<CLROf<byte>>): boolean;
-    VerifySignature(rgbHash: byte[], rgbSignature: byte[], signatureFormat: DSASignatureFormat): boolean;
-    VerifySignature(hash: ReadOnlySpan_1<CLROf<byte>>, signature: ReadOnlySpan_1<CLROf<byte>>): boolean;
-    VerifySignature(hash: ReadOnlySpan_1<CLROf<byte>>, signature: ReadOnlySpan_1<CLROf<byte>>, signatureFormat: DSASignatureFormat): boolean;
+    keySize: int;
+    readonly legalKeySizes: KeySizes[];
+    createSignature(rgbHash: byte[]): byte[];
+    createSignature(rgbHash: byte[], signatureFormat: DSASignatureFormat): byte[];
+    dispose(): void;
+    duplicateKeyHandle(): SafeEvpPKeyHandle;
+    exportParameters(includePrivateParameters: boolean): DSAParameters;
+    importEncryptedPkcs8PrivateKey(passwordBytes: ReadOnlySpan_1<CLROf<byte>>, source: ReadOnlySpan_1<CLROf<byte>>, bytesRead: { value: ref<int> }): void;
+    importEncryptedPkcs8PrivateKey(password: ReadOnlySpan_1<CLROf<char>>, source: ReadOnlySpan_1<CLROf<byte>>, bytesRead: { value: ref<int> }): void;
+    importEncryptedPkcs8PrivateKey(passwordBytes: ReadOnlySpan_1<CLROf<byte>>, source: ReadOnlySpan_1<CLROf<byte>>, bytesRead: { value: ref<int> }): void;
+    importParameters(parameters: DSAParameters): void;
+    tryCreateSignature(hash: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
+    tryCreateSignature(hash: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
+    tryCreateSignature(hash: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, signatureFormat: DSASignatureFormat, bytesWritten: { value: ref<int> }): boolean;
+    verifySignature(rgbHash: byte[], rgbSignature: byte[]): boolean;
+    verifySignature(hash: ReadOnlySpan_1<CLROf<byte>>, signature: ReadOnlySpan_1<CLROf<byte>>): boolean;
+    verifySignature(rgbHash: byte[], rgbSignature: byte[], signatureFormat: DSASignatureFormat): boolean;
+    verifySignature(hash: ReadOnlySpan_1<CLROf<byte>>, signature: ReadOnlySpan_1<CLROf<byte>>): boolean;
+    verifySignature(hash: ReadOnlySpan_1<CLROf<byte>>, signature: ReadOnlySpan_1<CLROf<byte>>, signatureFormat: DSASignatureFormat): boolean;
 }
 
 
@@ -1411,10 +1411,10 @@ export type DSAOpenSsl = DSAOpenSsl$instance & __DSAOpenSsl$views;
 export class DSASignatureDeformatter$instance extends AsymmetricSignatureDeformatter$instance {
     constructor();
     constructor(key: AsymmetricAlgorithm);
-    SetHashAlgorithm(strName: string): void;
-    SetKey(key: AsymmetricAlgorithm): void;
-    VerifySignature(rgbHash: byte[], rgbSignature: byte[]): boolean;
-    VerifySignature(hash: HashAlgorithm, rgbSignature: byte[]): boolean;
+    setHashAlgorithm(strName: string): void;
+    setKey(key: AsymmetricAlgorithm): void;
+    verifySignature(rgbHash: byte[], rgbSignature: byte[]): boolean;
+    verifySignature(hash: HashAlgorithm, rgbSignature: byte[]): boolean;
 }
 
 
@@ -1423,45 +1423,45 @@ export type DSASignatureDeformatter = DSASignatureDeformatter$instance;
 export class DSASignatureFormatter$instance extends AsymmetricSignatureFormatter$instance {
     constructor();
     constructor(key: AsymmetricAlgorithm);
-    CreateSignature(rgbHash: byte[]): byte[];
-    CreateSignature(hash: HashAlgorithm): byte[];
-    SetHashAlgorithm(strName: string): void;
-    SetKey(key: AsymmetricAlgorithm): void;
+    createSignature(rgbHash: byte[]): byte[];
+    createSignature(hash: HashAlgorithm): byte[];
+    setHashAlgorithm(strName: string): void;
+    setKey(key: AsymmetricAlgorithm): void;
 }
 
 
 export type DSASignatureFormatter = DSASignatureFormatter$instance;
 
 export abstract class ECAlgorithm$instance extends AsymmetricAlgorithm$instance {
-    Dispose(): void;
-    ExportECPrivateKey(): byte[];
-    ExportECPrivateKeyPem(): string;
-    ExportExplicitParameters(includePrivateParameters: boolean): ECParameters;
-    ExportParameters(includePrivateParameters: boolean): ECParameters;
-    GenerateKey(curve: ECCurve): void;
-    ImportECPrivateKey(source: ReadOnlySpan_1<CLROf<byte>>, bytesRead: { value: ref<int> }): void;
-    ImportEncryptedPkcs8PrivateKey(passwordBytes: ReadOnlySpan_1<CLROf<byte>>, source: ReadOnlySpan_1<CLROf<byte>>, bytesRead: { value: ref<int> }): void;
-    ImportEncryptedPkcs8PrivateKey(password: ReadOnlySpan_1<CLROf<char>>, source: ReadOnlySpan_1<CLROf<byte>>, bytesRead: { value: ref<int> }): void;
-    ImportEncryptedPkcs8PrivateKey(passwordBytes: ReadOnlySpan_1<CLROf<byte>>, source: ReadOnlySpan_1<CLROf<byte>>, bytesRead: { value: ref<int> }): void;
-    ImportFromEncryptedPem(input: ReadOnlySpan_1<CLROf<char>>, password: ReadOnlySpan_1<CLROf<char>>): void;
-    ImportFromEncryptedPem(input: ReadOnlySpan_1<CLROf<char>>, passwordBytes: ReadOnlySpan_1<CLROf<byte>>): void;
-    ImportFromEncryptedPem(input: ReadOnlySpan_1<CLROf<char>>, password: ReadOnlySpan_1<CLROf<char>>): void;
-    ImportFromPem(input: ReadOnlySpan_1<CLROf<char>>): void;
-    ImportFromPem(input: ReadOnlySpan_1<CLROf<char>>): void;
-    ImportParameters(parameters: ECParameters): void;
-    ImportPkcs8PrivateKey(source: ReadOnlySpan_1<CLROf<byte>>, bytesRead: { value: ref<int> }): void;
-    ImportPkcs8PrivateKey(source: ReadOnlySpan_1<CLROf<byte>>, bytesRead: { value: ref<int> }): void;
-    ImportSubjectPublicKeyInfo(source: ReadOnlySpan_1<CLROf<byte>>, bytesRead: { value: ref<int> }): void;
-    ImportSubjectPublicKeyInfo(source: ReadOnlySpan_1<CLROf<byte>>, bytesRead: { value: ref<int> }): void;
-    TryExportECPrivateKey(destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
-    TryExportECPrivateKeyPem(destination: Span_1<CLROf<char>>, charsWritten: { value: ref<int> }): boolean;
-    TryExportEncryptedPkcs8PrivateKey(passwordBytes: ReadOnlySpan_1<CLROf<byte>>, pbeParameters: PbeParameters, destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
-    TryExportEncryptedPkcs8PrivateKey(password: ReadOnlySpan_1<CLROf<char>>, pbeParameters: PbeParameters, destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
-    TryExportEncryptedPkcs8PrivateKey(passwordBytes: ReadOnlySpan_1<CLROf<byte>>, pbeParameters: PbeParameters, destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
-    TryExportPkcs8PrivateKey(destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
-    TryExportPkcs8PrivateKey(destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
-    TryExportSubjectPublicKeyInfo(destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
-    TryExportSubjectPublicKeyInfo(destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
+    dispose(): void;
+    exportECPrivateKey(): byte[];
+    exportECPrivateKeyPem(): string;
+    exportExplicitParameters(includePrivateParameters: boolean): ECParameters;
+    exportParameters(includePrivateParameters: boolean): ECParameters;
+    generateKey(curve: ECCurve): void;
+    importECPrivateKey(source: ReadOnlySpan_1<CLROf<byte>>, bytesRead: { value: ref<int> }): void;
+    importEncryptedPkcs8PrivateKey(passwordBytes: ReadOnlySpan_1<CLROf<byte>>, source: ReadOnlySpan_1<CLROf<byte>>, bytesRead: { value: ref<int> }): void;
+    importEncryptedPkcs8PrivateKey(password: ReadOnlySpan_1<CLROf<char>>, source: ReadOnlySpan_1<CLROf<byte>>, bytesRead: { value: ref<int> }): void;
+    importEncryptedPkcs8PrivateKey(passwordBytes: ReadOnlySpan_1<CLROf<byte>>, source: ReadOnlySpan_1<CLROf<byte>>, bytesRead: { value: ref<int> }): void;
+    importFromEncryptedPem(input: ReadOnlySpan_1<CLROf<char>>, password: ReadOnlySpan_1<CLROf<char>>): void;
+    importFromEncryptedPem(input: ReadOnlySpan_1<CLROf<char>>, passwordBytes: ReadOnlySpan_1<CLROf<byte>>): void;
+    importFromEncryptedPem(input: ReadOnlySpan_1<CLROf<char>>, password: ReadOnlySpan_1<CLROf<char>>): void;
+    importFromPem(input: ReadOnlySpan_1<CLROf<char>>): void;
+    importFromPem(input: ReadOnlySpan_1<CLROf<char>>): void;
+    importParameters(parameters: ECParameters): void;
+    importPkcs8PrivateKey(source: ReadOnlySpan_1<CLROf<byte>>, bytesRead: { value: ref<int> }): void;
+    importPkcs8PrivateKey(source: ReadOnlySpan_1<CLROf<byte>>, bytesRead: { value: ref<int> }): void;
+    importSubjectPublicKeyInfo(source: ReadOnlySpan_1<CLROf<byte>>, bytesRead: { value: ref<int> }): void;
+    importSubjectPublicKeyInfo(source: ReadOnlySpan_1<CLROf<byte>>, bytesRead: { value: ref<int> }): void;
+    tryExportECPrivateKey(destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
+    tryExportECPrivateKeyPem(destination: Span_1<CLROf<char>>, charsWritten: { value: ref<int> }): boolean;
+    tryExportEncryptedPkcs8PrivateKey(passwordBytes: ReadOnlySpan_1<CLROf<byte>>, pbeParameters: PbeParameters, destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
+    tryExportEncryptedPkcs8PrivateKey(password: ReadOnlySpan_1<CLROf<char>>, pbeParameters: PbeParameters, destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
+    tryExportEncryptedPkcs8PrivateKey(passwordBytes: ReadOnlySpan_1<CLROf<byte>>, pbeParameters: PbeParameters, destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
+    tryExportPkcs8PrivateKey(destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
+    tryExportPkcs8PrivateKey(destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
+    tryExportSubjectPublicKeyInfo(destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
+    tryExportSubjectPublicKeyInfo(destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
 }
 
 
@@ -1473,19 +1473,19 @@ export type ECAlgorithm = ECAlgorithm$instance & __ECAlgorithm$views;
 
 
 export abstract class ECDiffieHellman$instance extends ECAlgorithm$instance {
-    readonly KeyExchangeAlgorithm: string;
-    readonly PublicKey: ECDiffieHellmanPublicKey;
-    readonly SignatureAlgorithm: string;
-    DeriveKeyFromHash(otherPartyPublicKey: ECDiffieHellmanPublicKey, hashAlgorithm: HashAlgorithmName): byte[];
-    DeriveKeyFromHash(otherPartyPublicKey: ECDiffieHellmanPublicKey, hashAlgorithm: HashAlgorithmName, secretPrepend: byte[], secretAppend: byte[]): byte[];
-    DeriveKeyFromHmac(otherPartyPublicKey: ECDiffieHellmanPublicKey, hashAlgorithm: HashAlgorithmName, hmacKey: byte[]): byte[];
-    DeriveKeyFromHmac(otherPartyPublicKey: ECDiffieHellmanPublicKey, hashAlgorithm: HashAlgorithmName, hmacKey: byte[], secretPrepend: byte[], secretAppend: byte[]): byte[];
-    DeriveKeyMaterial(otherPartyPublicKey: ECDiffieHellmanPublicKey): byte[];
-    DeriveKeyTls(otherPartyPublicKey: ECDiffieHellmanPublicKey, prfLabel: byte[], prfSeed: byte[]): byte[];
-    DeriveRawSecretAgreement(otherPartyPublicKey: ECDiffieHellmanPublicKey): byte[];
-    Dispose(): void;
-    FromXmlString(xmlString: string): void;
-    ToXmlString(includePrivateParameters: boolean): string;
+    readonly keyExchangeAlgorithm: string;
+    readonly publicKey: ECDiffieHellmanPublicKey;
+    readonly signatureAlgorithm: string;
+    deriveKeyFromHash(otherPartyPublicKey: ECDiffieHellmanPublicKey, hashAlgorithm: HashAlgorithmName): byte[];
+    deriveKeyFromHash(otherPartyPublicKey: ECDiffieHellmanPublicKey, hashAlgorithm: HashAlgorithmName, secretPrepend: byte[], secretAppend: byte[]): byte[];
+    deriveKeyFromHmac(otherPartyPublicKey: ECDiffieHellmanPublicKey, hashAlgorithm: HashAlgorithmName, hmacKey: byte[]): byte[];
+    deriveKeyFromHmac(otherPartyPublicKey: ECDiffieHellmanPublicKey, hashAlgorithm: HashAlgorithmName, hmacKey: byte[], secretPrepend: byte[], secretAppend: byte[]): byte[];
+    deriveKeyMaterial(otherPartyPublicKey: ECDiffieHellmanPublicKey): byte[];
+    deriveKeyTls(otherPartyPublicKey: ECDiffieHellmanPublicKey, prfLabel: byte[], prfSeed: byte[]): byte[];
+    deriveRawSecretAgreement(otherPartyPublicKey: ECDiffieHellmanPublicKey): byte[];
+    dispose(): void;
+    fromXmlString(xmlString: string): void;
+    toXmlString(includePrivateParameters: boolean): string;
     static Create(): ECDiffieHellman;
     static Create(curve: ECCurve): ECDiffieHellman;
     static Create(parameters: ECParameters): ECDiffieHellman;
@@ -1505,22 +1505,22 @@ export class ECDiffieHellmanCng$instance extends ECDiffieHellman$instance {
     constructor(keySize: int);
     constructor(key: CngKey);
     constructor(curve: ECCurve);
-    HashAlgorithm: CngAlgorithm;
-    HmacKey: byte[];
-    readonly Key: CngKey;
-    KeyDerivationFunction: ECDiffieHellmanKeyDerivationFunction;
-    Label: byte[];
-    readonly PublicKey: ECDiffieHellmanPublicKey;
-    SecretAppend: byte[];
-    SecretPrepend: byte[];
-    Seed: byte[];
-    readonly UseSecretAgreementAsHmacKey: boolean;
-    DeriveKeyMaterial(otherPartyPublicKey: ECDiffieHellmanPublicKey): byte[];
-    DeriveSecretAgreementHandle(otherPartyPublicKey: CngKey): SafeNCryptSecretHandle;
-    DeriveSecretAgreementHandle(otherPartyPublicKey: ECDiffieHellmanPublicKey): SafeNCryptSecretHandle;
-    Dispose(): void;
-    FromXmlString(xmlString: string): void;
-    ToXmlString(includePrivateParameters: boolean): string;
+    hashAlgorithm: CngAlgorithm;
+    hmacKey: byte[];
+    readonly key: CngKey;
+    keyDerivationFunction: ECDiffieHellmanKeyDerivationFunction;
+    label: byte[];
+    readonly publicKey: ECDiffieHellmanPublicKey;
+    secretAppend: byte[];
+    secretPrepend: byte[];
+    seed: byte[];
+    readonly useSecretAgreementAsHmacKey: boolean;
+    deriveKeyMaterial(otherPartyPublicKey: ECDiffieHellmanPublicKey): byte[];
+    deriveSecretAgreementHandle(otherPartyPublicKey: CngKey): SafeNCryptSecretHandle;
+    deriveSecretAgreementHandle(otherPartyPublicKey: ECDiffieHellmanPublicKey): SafeNCryptSecretHandle;
+    dispose(): void;
+    fromXmlString(xmlString: string): void;
+    toXmlString(includePrivateParameters: boolean): string;
 }
 
 
@@ -1532,10 +1532,10 @@ export type ECDiffieHellmanCng = ECDiffieHellmanCng$instance & __ECDiffieHellman
 
 
 export class ECDiffieHellmanCngPublicKey$instance extends ECDiffieHellmanPublicKey$instance {
-    readonly BlobFormat: CngKeyBlobFormat;
-    Dispose(): void;
-    Import(): CngKey;
-    ToXmlString(): string;
+    readonly blobFormat: CngKeyBlobFormat;
+    dispose(): void;
+    import_(): CngKey;
+    toXmlString(): string;
     static FromByteArray(publicKeyBlob: byte[], format: CngKeyBlobFormat): ECDiffieHellmanPublicKey;
     static FromXmlString(xml: string): ECDiffieHellmanCngPublicKey;
 }
@@ -1554,25 +1554,25 @@ export class ECDiffieHellmanOpenSsl$instance extends ECDiffieHellman$instance {
     constructor(keySize: int);
     constructor(pkeyHandle: SafeEvpPKeyHandle);
     constructor(handle: nint);
-    KeySize: int;
-    readonly LegalKeySizes: KeySizes[];
-    readonly PublicKey: ECDiffieHellmanPublicKey;
-    DeriveKeyFromHash(otherPartyPublicKey: ECDiffieHellmanPublicKey, hashAlgorithm: HashAlgorithmName, secretPrepend: byte[], secretAppend: byte[]): byte[];
-    DeriveKeyFromHash(otherPartyPublicKey: ECDiffieHellmanPublicKey, hashAlgorithm: HashAlgorithmName): byte[];
-    DeriveKeyFromHmac(otherPartyPublicKey: ECDiffieHellmanPublicKey, hashAlgorithm: HashAlgorithmName, hmacKey: byte[], secretPrepend: byte[], secretAppend: byte[]): byte[];
-    DeriveKeyFromHmac(otherPartyPublicKey: ECDiffieHellmanPublicKey, hashAlgorithm: HashAlgorithmName, hmacKey: byte[]): byte[];
-    DeriveKeyMaterial(otherPartyPublicKey: ECDiffieHellmanPublicKey): byte[];
-    DeriveKeyTls(otherPartyPublicKey: ECDiffieHellmanPublicKey, prfLabel: byte[], prfSeed: byte[]): byte[];
-    DeriveRawSecretAgreement(otherPartyPublicKey: ECDiffieHellmanPublicKey): byte[];
-    Dispose(): void;
-    DuplicateKeyHandle(): SafeEvpPKeyHandle;
-    ExportExplicitParameters(includePrivateParameters: boolean): ECParameters;
-    ExportParameters(includePrivateParameters: boolean): ECParameters;
-    GenerateKey(curve: ECCurve): void;
-    ImportEncryptedPkcs8PrivateKey(passwordBytes: ReadOnlySpan_1<CLROf<byte>>, source: ReadOnlySpan_1<CLROf<byte>>, bytesRead: { value: ref<int> }): void;
-    ImportEncryptedPkcs8PrivateKey(password: ReadOnlySpan_1<CLROf<char>>, source: ReadOnlySpan_1<CLROf<byte>>, bytesRead: { value: ref<int> }): void;
-    ImportEncryptedPkcs8PrivateKey(passwordBytes: ReadOnlySpan_1<CLROf<byte>>, source: ReadOnlySpan_1<CLROf<byte>>, bytesRead: { value: ref<int> }): void;
-    ImportParameters(parameters: ECParameters): void;
+    keySize: int;
+    readonly legalKeySizes: KeySizes[];
+    readonly publicKey: ECDiffieHellmanPublicKey;
+    deriveKeyFromHash(otherPartyPublicKey: ECDiffieHellmanPublicKey, hashAlgorithm: HashAlgorithmName, secretPrepend: byte[], secretAppend: byte[]): byte[];
+    deriveKeyFromHash(otherPartyPublicKey: ECDiffieHellmanPublicKey, hashAlgorithm: HashAlgorithmName): byte[];
+    deriveKeyFromHmac(otherPartyPublicKey: ECDiffieHellmanPublicKey, hashAlgorithm: HashAlgorithmName, hmacKey: byte[], secretPrepend: byte[], secretAppend: byte[]): byte[];
+    deriveKeyFromHmac(otherPartyPublicKey: ECDiffieHellmanPublicKey, hashAlgorithm: HashAlgorithmName, hmacKey: byte[]): byte[];
+    deriveKeyMaterial(otherPartyPublicKey: ECDiffieHellmanPublicKey): byte[];
+    deriveKeyTls(otherPartyPublicKey: ECDiffieHellmanPublicKey, prfLabel: byte[], prfSeed: byte[]): byte[];
+    deriveRawSecretAgreement(otherPartyPublicKey: ECDiffieHellmanPublicKey): byte[];
+    dispose(): void;
+    duplicateKeyHandle(): SafeEvpPKeyHandle;
+    exportExplicitParameters(includePrivateParameters: boolean): ECParameters;
+    exportParameters(includePrivateParameters: boolean): ECParameters;
+    generateKey(curve: ECCurve): void;
+    importEncryptedPkcs8PrivateKey(passwordBytes: ReadOnlySpan_1<CLROf<byte>>, source: ReadOnlySpan_1<CLROf<byte>>, bytesRead: { value: ref<int> }): void;
+    importEncryptedPkcs8PrivateKey(password: ReadOnlySpan_1<CLROf<char>>, source: ReadOnlySpan_1<CLROf<byte>>, bytesRead: { value: ref<int> }): void;
+    importEncryptedPkcs8PrivateKey(passwordBytes: ReadOnlySpan_1<CLROf<byte>>, source: ReadOnlySpan_1<CLROf<byte>>, bytesRead: { value: ref<int> }): void;
+    importParameters(parameters: ECParameters): void;
 }
 
 
@@ -1584,13 +1584,13 @@ export type ECDiffieHellmanOpenSsl = ECDiffieHellmanOpenSsl$instance & __ECDiffi
 
 
 export abstract class ECDiffieHellmanPublicKey$instance {
-    Dispose(): void;
-    ExportExplicitParameters(): ECParameters;
-    ExportParameters(): ECParameters;
-    ExportSubjectPublicKeyInfo(): byte[];
-    ToByteArray(): byte[];
-    ToXmlString(): string;
-    TryExportSubjectPublicKeyInfo(destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
+    dispose(): void;
+    exportExplicitParameters(): ECParameters;
+    exportParameters(): ECParameters;
+    exportSubjectPublicKeyInfo(): byte[];
+    toByteArray(): byte[];
+    toXmlString(): string;
+    tryExportSubjectPublicKeyInfo(destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
 }
 
 
@@ -1602,44 +1602,44 @@ export type ECDiffieHellmanPublicKey = ECDiffieHellmanPublicKey$instance & __ECD
 
 
 export abstract class ECDsa$instance extends ECAlgorithm$instance {
-    readonly KeyExchangeAlgorithm: string;
-    readonly SignatureAlgorithm: string;
-    Dispose(): void;
-    FromXmlString(xmlString: string): void;
-    GetMaxSignatureSize(signatureFormat: DSASignatureFormat): int;
-    SignData(data: byte[], hashAlgorithm: HashAlgorithmName): byte[];
-    SignData(data: byte[], offset: int, count: int, hashAlgorithm: HashAlgorithmName): byte[];
-    SignData(data: byte[], offset: int, count: int, hashAlgorithm: HashAlgorithmName, signatureFormat: DSASignatureFormat): byte[];
-    SignData(data: byte[], hashAlgorithm: HashAlgorithmName, signatureFormat: DSASignatureFormat): byte[];
-    SignData(data: Stream, hashAlgorithm: HashAlgorithmName, signatureFormat: DSASignatureFormat): byte[];
-    SignData(data: Stream, hashAlgorithm: HashAlgorithmName): byte[];
-    SignData(data: ReadOnlySpan_1<CLROf<byte>>, hashAlgorithm: HashAlgorithmName): byte[];
-    SignData(data: ReadOnlySpan_1<CLROf<byte>>, hashAlgorithm: HashAlgorithmName, signatureFormat: DSASignatureFormat): byte[];
-    SignData(data: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, hashAlgorithm: HashAlgorithmName, signatureFormat: DSASignatureFormat): int;
-    SignData(data: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, hashAlgorithm: HashAlgorithmName): int;
-    SignHash(hash: byte[], signatureFormat: DSASignatureFormat): byte[];
-    SignHash(hash: ReadOnlySpan_1<CLROf<byte>>, signatureFormat: DSASignatureFormat): byte[];
-    SignHash(hash: ReadOnlySpan_1<CLROf<byte>>): byte[];
-    SignHash(hash: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, signatureFormat: DSASignatureFormat): int;
-    SignHash(hash: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>): int;
-    SignHash(hash: byte[]): byte[];
-    ToXmlString(includePrivateParameters: boolean): string;
-    TrySignData(data: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, hashAlgorithm: HashAlgorithmName, bytesWritten: { value: ref<int> }): boolean;
-    TrySignData(data: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, hashAlgorithm: HashAlgorithmName, signatureFormat: DSASignatureFormat, bytesWritten: { value: ref<int> }): boolean;
-    TrySignHash(hash: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
-    TrySignHash(hash: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, signatureFormat: DSASignatureFormat, bytesWritten: { value: ref<int> }): boolean;
-    VerifyData(data: byte[], signature: byte[], hashAlgorithm: HashAlgorithmName): boolean;
-    VerifyData(data: byte[], offset: int, count: int, signature: byte[], hashAlgorithm: HashAlgorithmName): boolean;
-    VerifyData(data: byte[], offset: int, count: int, signature: byte[], hashAlgorithm: HashAlgorithmName, signatureFormat: DSASignatureFormat): boolean;
-    VerifyData(data: byte[], signature: byte[], hashAlgorithm: HashAlgorithmName, signatureFormat: DSASignatureFormat): boolean;
-    VerifyData(data: ReadOnlySpan_1<CLROf<byte>>, signature: ReadOnlySpan_1<CLROf<byte>>, hashAlgorithm: HashAlgorithmName): boolean;
-    VerifyData(data: ReadOnlySpan_1<CLROf<byte>>, signature: ReadOnlySpan_1<CLROf<byte>>, hashAlgorithm: HashAlgorithmName, signatureFormat: DSASignatureFormat): boolean;
-    VerifyData(data: Stream, signature: byte[], hashAlgorithm: HashAlgorithmName): boolean;
-    VerifyData(data: Stream, signature: byte[], hashAlgorithm: HashAlgorithmName, signatureFormat: DSASignatureFormat): boolean;
-    VerifyHash(hash: byte[], signature: byte[]): boolean;
-    VerifyHash(hash: ReadOnlySpan_1<CLROf<byte>>, signature: ReadOnlySpan_1<CLROf<byte>>): boolean;
-    VerifyHash(hash: byte[], signature: byte[], signatureFormat: DSASignatureFormat): boolean;
-    VerifyHash(hash: ReadOnlySpan_1<CLROf<byte>>, signature: ReadOnlySpan_1<CLROf<byte>>, signatureFormat: DSASignatureFormat): boolean;
+    readonly keyExchangeAlgorithm: string;
+    readonly signatureAlgorithm: string;
+    dispose(): void;
+    fromXmlString(xmlString: string): void;
+    getMaxSignatureSize(signatureFormat: DSASignatureFormat): int;
+    signData(data: byte[], hashAlgorithm: HashAlgorithmName): byte[];
+    signData(data: byte[], offset: int, count: int, hashAlgorithm: HashAlgorithmName): byte[];
+    signData(data: byte[], offset: int, count: int, hashAlgorithm: HashAlgorithmName, signatureFormat: DSASignatureFormat): byte[];
+    signData(data: byte[], hashAlgorithm: HashAlgorithmName, signatureFormat: DSASignatureFormat): byte[];
+    signData(data: Stream, hashAlgorithm: HashAlgorithmName, signatureFormat: DSASignatureFormat): byte[];
+    signData(data: Stream, hashAlgorithm: HashAlgorithmName): byte[];
+    signData(data: ReadOnlySpan_1<CLROf<byte>>, hashAlgorithm: HashAlgorithmName): byte[];
+    signData(data: ReadOnlySpan_1<CLROf<byte>>, hashAlgorithm: HashAlgorithmName, signatureFormat: DSASignatureFormat): byte[];
+    signData(data: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, hashAlgorithm: HashAlgorithmName, signatureFormat: DSASignatureFormat): int;
+    signData(data: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, hashAlgorithm: HashAlgorithmName): int;
+    signHash(hash: byte[], signatureFormat: DSASignatureFormat): byte[];
+    signHash(hash: ReadOnlySpan_1<CLROf<byte>>, signatureFormat: DSASignatureFormat): byte[];
+    signHash(hash: ReadOnlySpan_1<CLROf<byte>>): byte[];
+    signHash(hash: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, signatureFormat: DSASignatureFormat): int;
+    signHash(hash: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>): int;
+    signHash(hash: byte[]): byte[];
+    toXmlString(includePrivateParameters: boolean): string;
+    trySignData(data: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, hashAlgorithm: HashAlgorithmName, bytesWritten: { value: ref<int> }): boolean;
+    trySignData(data: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, hashAlgorithm: HashAlgorithmName, signatureFormat: DSASignatureFormat, bytesWritten: { value: ref<int> }): boolean;
+    trySignHash(hash: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
+    trySignHash(hash: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, signatureFormat: DSASignatureFormat, bytesWritten: { value: ref<int> }): boolean;
+    verifyData(data: byte[], signature: byte[], hashAlgorithm: HashAlgorithmName): boolean;
+    verifyData(data: byte[], offset: int, count: int, signature: byte[], hashAlgorithm: HashAlgorithmName): boolean;
+    verifyData(data: byte[], offset: int, count: int, signature: byte[], hashAlgorithm: HashAlgorithmName, signatureFormat: DSASignatureFormat): boolean;
+    verifyData(data: byte[], signature: byte[], hashAlgorithm: HashAlgorithmName, signatureFormat: DSASignatureFormat): boolean;
+    verifyData(data: ReadOnlySpan_1<CLROf<byte>>, signature: ReadOnlySpan_1<CLROf<byte>>, hashAlgorithm: HashAlgorithmName): boolean;
+    verifyData(data: ReadOnlySpan_1<CLROf<byte>>, signature: ReadOnlySpan_1<CLROf<byte>>, hashAlgorithm: HashAlgorithmName, signatureFormat: DSASignatureFormat): boolean;
+    verifyData(data: Stream, signature: byte[], hashAlgorithm: HashAlgorithmName): boolean;
+    verifyData(data: Stream, signature: byte[], hashAlgorithm: HashAlgorithmName, signatureFormat: DSASignatureFormat): boolean;
+    verifyHash(hash: byte[], signature: byte[]): boolean;
+    verifyHash(hash: ReadOnlySpan_1<CLROf<byte>>, signature: ReadOnlySpan_1<CLROf<byte>>): boolean;
+    verifyHash(hash: byte[], signature: byte[], signatureFormat: DSASignatureFormat): boolean;
+    verifyHash(hash: ReadOnlySpan_1<CLROf<byte>>, signature: ReadOnlySpan_1<CLROf<byte>>, signatureFormat: DSASignatureFormat): boolean;
     static Create(): ECDsa;
     static Create(curve: ECCurve): ECDsa;
     static Create(parameters: ECParameters): ECDsa;
@@ -1659,39 +1659,39 @@ export class ECDsaCng$instance extends ECDsa$instance {
     constructor(keySize: int);
     constructor(key: CngKey);
     constructor(curve: ECCurve);
-    HashAlgorithm: CngAlgorithm;
-    readonly Key: CngKey;
-    Dispose(): void;
-    FromXmlString(xmlString: string): void;
-    SignData(data: byte[], hashAlgorithm: HashAlgorithmName): byte[];
-    SignData(data: byte[], offset: int, count: int, hashAlgorithm: HashAlgorithmName): byte[];
-    SignData(data: byte[], offset: int, count: int, hashAlgorithm: HashAlgorithmName, signatureFormat: DSASignatureFormat): byte[];
-    SignData(data: byte[], hashAlgorithm: HashAlgorithmName, signatureFormat: DSASignatureFormat): byte[];
-    SignData(data: Stream, hashAlgorithm: HashAlgorithmName, signatureFormat: DSASignatureFormat): byte[];
-    SignData(data: Stream, hashAlgorithm: HashAlgorithmName): byte[];
-    SignData(data: ReadOnlySpan_1<CLROf<byte>>, hashAlgorithm: HashAlgorithmName): byte[];
-    SignData(data: ReadOnlySpan_1<CLROf<byte>>, hashAlgorithm: HashAlgorithmName, signatureFormat: DSASignatureFormat): byte[];
-    SignData(data: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, hashAlgorithm: HashAlgorithmName, signatureFormat: DSASignatureFormat): int;
-    SignData(data: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, hashAlgorithm: HashAlgorithmName): int;
-    SignHash(hash: byte[]): byte[];
-    SignHash(hash: byte[], signatureFormat: DSASignatureFormat): byte[];
-    SignHash(hash: ReadOnlySpan_1<CLROf<byte>>, signatureFormat: DSASignatureFormat): byte[];
-    SignHash(hash: ReadOnlySpan_1<CLROf<byte>>): byte[];
-    SignHash(hash: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, signatureFormat: DSASignatureFormat): int;
-    SignHash(hash: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>): int;
-    ToXmlString(includePrivateParameters: boolean): string;
-    VerifyData(data: byte[], signature: byte[], hashAlgorithm: HashAlgorithmName): boolean;
-    VerifyData(data: byte[], offset: int, count: int, signature: byte[], hashAlgorithm: HashAlgorithmName): boolean;
-    VerifyData(data: byte[], offset: int, count: int, signature: byte[], hashAlgorithm: HashAlgorithmName, signatureFormat: DSASignatureFormat): boolean;
-    VerifyData(data: byte[], signature: byte[], hashAlgorithm: HashAlgorithmName, signatureFormat: DSASignatureFormat): boolean;
-    VerifyData(data: ReadOnlySpan_1<CLROf<byte>>, signature: ReadOnlySpan_1<CLROf<byte>>, hashAlgorithm: HashAlgorithmName): boolean;
-    VerifyData(data: ReadOnlySpan_1<CLROf<byte>>, signature: ReadOnlySpan_1<CLROf<byte>>, hashAlgorithm: HashAlgorithmName, signatureFormat: DSASignatureFormat): boolean;
-    VerifyData(data: Stream, signature: byte[], hashAlgorithm: HashAlgorithmName): boolean;
-    VerifyData(data: Stream, signature: byte[], hashAlgorithm: HashAlgorithmName, signatureFormat: DSASignatureFormat): boolean;
-    VerifyHash(hash: byte[], signature: byte[]): boolean;
-    VerifyHash(hash: ReadOnlySpan_1<CLROf<byte>>, signature: ReadOnlySpan_1<CLROf<byte>>): boolean;
-    VerifyHash(hash: byte[], signature: byte[], signatureFormat: DSASignatureFormat): boolean;
-    VerifyHash(hash: ReadOnlySpan_1<CLROf<byte>>, signature: ReadOnlySpan_1<CLROf<byte>>, signatureFormat: DSASignatureFormat): boolean;
+    hashAlgorithm: CngAlgorithm;
+    readonly key: CngKey;
+    dispose(): void;
+    fromXmlString(xmlString: string): void;
+    signData(data: byte[], hashAlgorithm: HashAlgorithmName): byte[];
+    signData(data: byte[], offset: int, count: int, hashAlgorithm: HashAlgorithmName): byte[];
+    signData(data: byte[], offset: int, count: int, hashAlgorithm: HashAlgorithmName, signatureFormat: DSASignatureFormat): byte[];
+    signData(data: byte[], hashAlgorithm: HashAlgorithmName, signatureFormat: DSASignatureFormat): byte[];
+    signData(data: Stream, hashAlgorithm: HashAlgorithmName, signatureFormat: DSASignatureFormat): byte[];
+    signData(data: Stream, hashAlgorithm: HashAlgorithmName): byte[];
+    signData(data: ReadOnlySpan_1<CLROf<byte>>, hashAlgorithm: HashAlgorithmName): byte[];
+    signData(data: ReadOnlySpan_1<CLROf<byte>>, hashAlgorithm: HashAlgorithmName, signatureFormat: DSASignatureFormat): byte[];
+    signData(data: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, hashAlgorithm: HashAlgorithmName, signatureFormat: DSASignatureFormat): int;
+    signData(data: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, hashAlgorithm: HashAlgorithmName): int;
+    signHash(hash: byte[]): byte[];
+    signHash(hash: byte[], signatureFormat: DSASignatureFormat): byte[];
+    signHash(hash: ReadOnlySpan_1<CLROf<byte>>, signatureFormat: DSASignatureFormat): byte[];
+    signHash(hash: ReadOnlySpan_1<CLROf<byte>>): byte[];
+    signHash(hash: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, signatureFormat: DSASignatureFormat): int;
+    signHash(hash: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>): int;
+    toXmlString(includePrivateParameters: boolean): string;
+    verifyData(data: byte[], signature: byte[], hashAlgorithm: HashAlgorithmName): boolean;
+    verifyData(data: byte[], offset: int, count: int, signature: byte[], hashAlgorithm: HashAlgorithmName): boolean;
+    verifyData(data: byte[], offset: int, count: int, signature: byte[], hashAlgorithm: HashAlgorithmName, signatureFormat: DSASignatureFormat): boolean;
+    verifyData(data: byte[], signature: byte[], hashAlgorithm: HashAlgorithmName, signatureFormat: DSASignatureFormat): boolean;
+    verifyData(data: ReadOnlySpan_1<CLROf<byte>>, signature: ReadOnlySpan_1<CLROf<byte>>, hashAlgorithm: HashAlgorithmName): boolean;
+    verifyData(data: ReadOnlySpan_1<CLROf<byte>>, signature: ReadOnlySpan_1<CLROf<byte>>, hashAlgorithm: HashAlgorithmName, signatureFormat: DSASignatureFormat): boolean;
+    verifyData(data: Stream, signature: byte[], hashAlgorithm: HashAlgorithmName): boolean;
+    verifyData(data: Stream, signature: byte[], hashAlgorithm: HashAlgorithmName, signatureFormat: DSASignatureFormat): boolean;
+    verifyHash(hash: byte[], signature: byte[]): boolean;
+    verifyHash(hash: ReadOnlySpan_1<CLROf<byte>>, signature: ReadOnlySpan_1<CLROf<byte>>): boolean;
+    verifyHash(hash: byte[], signature: byte[], signatureFormat: DSASignatureFormat): boolean;
+    verifyHash(hash: ReadOnlySpan_1<CLROf<byte>>, signature: ReadOnlySpan_1<CLROf<byte>>, signatureFormat: DSASignatureFormat): boolean;
 }
 
 
@@ -1708,31 +1708,31 @@ export class ECDsaOpenSsl$instance extends ECDsa$instance {
     constructor(keySize: int);
     constructor(pkeyHandle: SafeEvpPKeyHandle);
     constructor(handle: nint);
-    KeySize: int;
-    readonly LegalKeySizes: KeySizes[];
-    Dispose(): void;
-    DuplicateKeyHandle(): SafeEvpPKeyHandle;
-    ExportExplicitParameters(includePrivateParameters: boolean): ECParameters;
-    ExportParameters(includePrivateParameters: boolean): ECParameters;
-    GenerateKey(curve: ECCurve): void;
-    ImportEncryptedPkcs8PrivateKey(passwordBytes: ReadOnlySpan_1<CLROf<byte>>, source: ReadOnlySpan_1<CLROf<byte>>, bytesRead: { value: ref<int> }): void;
-    ImportEncryptedPkcs8PrivateKey(password: ReadOnlySpan_1<CLROf<char>>, source: ReadOnlySpan_1<CLROf<byte>>, bytesRead: { value: ref<int> }): void;
-    ImportEncryptedPkcs8PrivateKey(passwordBytes: ReadOnlySpan_1<CLROf<byte>>, source: ReadOnlySpan_1<CLROf<byte>>, bytesRead: { value: ref<int> }): void;
-    ImportParameters(parameters: ECParameters): void;
-    SignHash(hash: byte[]): byte[];
-    SignHash(hash: byte[], signatureFormat: DSASignatureFormat): byte[];
-    SignHash(hash: ReadOnlySpan_1<CLROf<byte>>, signatureFormat: DSASignatureFormat): byte[];
-    SignHash(hash: ReadOnlySpan_1<CLROf<byte>>): byte[];
-    SignHash(hash: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, signatureFormat: DSASignatureFormat): int;
-    SignHash(hash: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>): int;
-    TrySignHash(hash: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
-    TrySignHash(hash: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
-    TrySignHash(hash: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, signatureFormat: DSASignatureFormat, bytesWritten: { value: ref<int> }): boolean;
-    VerifyHash(hash: byte[], signature: byte[]): boolean;
-    VerifyHash(hash: ReadOnlySpan_1<CLROf<byte>>, signature: ReadOnlySpan_1<CLROf<byte>>): boolean;
-    VerifyHash(hash: ReadOnlySpan_1<CLROf<byte>>, signature: ReadOnlySpan_1<CLROf<byte>>): boolean;
-    VerifyHash(hash: byte[], signature: byte[], signatureFormat: DSASignatureFormat): boolean;
-    VerifyHash(hash: ReadOnlySpan_1<CLROf<byte>>, signature: ReadOnlySpan_1<CLROf<byte>>, signatureFormat: DSASignatureFormat): boolean;
+    keySize: int;
+    readonly legalKeySizes: KeySizes[];
+    dispose(): void;
+    duplicateKeyHandle(): SafeEvpPKeyHandle;
+    exportExplicitParameters(includePrivateParameters: boolean): ECParameters;
+    exportParameters(includePrivateParameters: boolean): ECParameters;
+    generateKey(curve: ECCurve): void;
+    importEncryptedPkcs8PrivateKey(passwordBytes: ReadOnlySpan_1<CLROf<byte>>, source: ReadOnlySpan_1<CLROf<byte>>, bytesRead: { value: ref<int> }): void;
+    importEncryptedPkcs8PrivateKey(password: ReadOnlySpan_1<CLROf<char>>, source: ReadOnlySpan_1<CLROf<byte>>, bytesRead: { value: ref<int> }): void;
+    importEncryptedPkcs8PrivateKey(passwordBytes: ReadOnlySpan_1<CLROf<byte>>, source: ReadOnlySpan_1<CLROf<byte>>, bytesRead: { value: ref<int> }): void;
+    importParameters(parameters: ECParameters): void;
+    signHash(hash: byte[]): byte[];
+    signHash(hash: byte[], signatureFormat: DSASignatureFormat): byte[];
+    signHash(hash: ReadOnlySpan_1<CLROf<byte>>, signatureFormat: DSASignatureFormat): byte[];
+    signHash(hash: ReadOnlySpan_1<CLROf<byte>>): byte[];
+    signHash(hash: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, signatureFormat: DSASignatureFormat): int;
+    signHash(hash: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>): int;
+    trySignHash(hash: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
+    trySignHash(hash: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
+    trySignHash(hash: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, signatureFormat: DSASignatureFormat, bytesWritten: { value: ref<int> }): boolean;
+    verifyHash(hash: byte[], signature: byte[]): boolean;
+    verifyHash(hash: ReadOnlySpan_1<CLROf<byte>>, signature: ReadOnlySpan_1<CLROf<byte>>): boolean;
+    verifyHash(hash: ReadOnlySpan_1<CLROf<byte>>, signature: ReadOnlySpan_1<CLROf<byte>>): boolean;
+    verifyHash(hash: byte[], signature: byte[], signatureFormat: DSASignatureFormat): boolean;
+    verifyHash(hash: ReadOnlySpan_1<CLROf<byte>>, signature: ReadOnlySpan_1<CLROf<byte>>, signatureFormat: DSASignatureFormat): boolean;
 }
 
 
@@ -1746,14 +1746,14 @@ export type ECDsaOpenSsl = ECDsaOpenSsl$instance & __ECDsaOpenSsl$views;
 export class FromBase64Transform$instance {
     constructor();
     constructor(whitespaces: FromBase64TransformMode);
-    readonly CanReuseTransform: boolean;
-    readonly CanTransformMultipleBlocks: boolean;
-    readonly InputBlockSize: int;
-    readonly OutputBlockSize: int;
-    Clear(): void;
-    Dispose(): void;
-    TransformBlock(inputBuffer: byte[], inputOffset: int, inputCount: int, outputBuffer: byte[], outputOffset: int): int;
-    TransformFinalBlock(inputBuffer: byte[], inputOffset: int, inputCount: int): byte[];
+    readonly canReuseTransform: boolean;
+    readonly canTransformMultipleBlocks: boolean;
+    readonly inputBlockSize: int;
+    readonly outputBlockSize: int;
+    clear(): void;
+    dispose(): void;
+    transformBlock(inputBuffer: byte[], inputOffset: int, inputCount: int, outputBuffer: byte[], outputOffset: int): int;
+    transformFinalBlock(inputBuffer: byte[], inputOffset: int, inputCount: int): byte[];
 }
 
 
@@ -1766,22 +1766,22 @@ export type FromBase64Transform = FromBase64Transform$instance & __FromBase64Tra
 
 
 export abstract class HashAlgorithm$instance {
-    readonly CanReuseTransform: boolean;
-    readonly CanTransformMultipleBlocks: boolean;
-    readonly Hash: byte[];
-    readonly HashSize: int;
-    readonly InputBlockSize: int;
-    readonly OutputBlockSize: int;
-    Clear(): void;
-    ComputeHash(buffer: byte[]): byte[];
-    ComputeHash(buffer: byte[], offset: int, count: int): byte[];
-    ComputeHash(inputStream: Stream): byte[];
-    ComputeHashAsync(inputStream: Stream, cancellationToken?: CancellationToken): Task_1<byte[]>;
-    Dispose(): void;
-    abstract Initialize(): void;
-    TransformBlock(inputBuffer: byte[], inputOffset: int, inputCount: int, outputBuffer: byte[], outputOffset: int): int;
-    TransformFinalBlock(inputBuffer: byte[], inputOffset: int, inputCount: int): byte[];
-    TryComputeHash(source: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
+    readonly canReuseTransform: boolean;
+    readonly canTransformMultipleBlocks: boolean;
+    readonly hash: byte[];
+    readonly hashSize: int;
+    readonly inputBlockSize: int;
+    readonly outputBlockSize: int;
+    clear(): void;
+    computeHash(buffer: byte[]): byte[];
+    computeHash(buffer: byte[], offset: int, count: int): byte[];
+    computeHash(inputStream: Stream): byte[];
+    computeHashAsync(inputStream: Stream, cancellationToken?: CancellationToken): Task_1<byte[]>;
+    dispose(): void;
+    abstract initialize(): void;
+    transformBlock(inputBuffer: byte[], inputOffset: int, inputCount: int, outputBuffer: byte[], outputOffset: int): int;
+    transformFinalBlock(inputBuffer: byte[], inputOffset: int, inputCount: int): byte[];
+    tryComputeHash(source: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
     static Create(): HashAlgorithm;
     static Create(hashName: string): HashAlgorithm;
 }
@@ -1796,12 +1796,12 @@ export type HashAlgorithm = HashAlgorithm$instance & __HashAlgorithm$views;
 
 
 export abstract class HMAC$instance extends KeyedHashAlgorithm$instance {
-    HashName: string;
-    Key: byte[];
-    Dispose(): void;
-    Initialize(): void;
-    TransformBlock(inputBuffer: byte[], inputOffset: int, inputCount: int, outputBuffer: byte[], outputOffset: int): int;
-    TransformFinalBlock(inputBuffer: byte[], inputOffset: int, inputCount: int): byte[];
+    hashName: string;
+    key: byte[];
+    dispose(): void;
+    initialize(): void;
+    transformBlock(inputBuffer: byte[], inputOffset: int, inputCount: int, outputBuffer: byte[], outputOffset: int): int;
+    transformFinalBlock(inputBuffer: byte[], inputOffset: int, inputCount: int): byte[];
 }
 
 
@@ -1816,11 +1816,11 @@ export type HMAC = HMAC$instance & __HMAC$views;
 export class HMACMD5$instance extends HMAC$instance {
     constructor();
     constructor(key: byte[]);
-    Key: byte[];
-    Dispose(): void;
-    Initialize(): void;
-    TransformBlock(inputBuffer: byte[], inputOffset: int, inputCount: int, outputBuffer: byte[], outputOffset: int): int;
-    TransformFinalBlock(inputBuffer: byte[], inputOffset: int, inputCount: int): byte[];
+    key: byte[];
+    dispose(): void;
+    initialize(): void;
+    transformBlock(inputBuffer: byte[], inputOffset: int, inputCount: int, outputBuffer: byte[], outputOffset: int): int;
+    transformFinalBlock(inputBuffer: byte[], inputOffset: int, inputCount: int): byte[];
     static readonly HashSizeInBits: int;
     static readonly HashSizeInBytes: int;
     static HashData(key: byte[], source: byte[]): byte[];
@@ -1848,11 +1848,11 @@ export class HMACSHA1$instance extends HMAC$instance {
     constructor();
     constructor(key: byte[]);
     constructor(key: byte[], useManagedSha1: boolean);
-    Key: byte[];
-    Dispose(): void;
-    Initialize(): void;
-    TransformBlock(inputBuffer: byte[], inputOffset: int, inputCount: int, outputBuffer: byte[], outputOffset: int): int;
-    TransformFinalBlock(inputBuffer: byte[], inputOffset: int, inputCount: int): byte[];
+    key: byte[];
+    dispose(): void;
+    initialize(): void;
+    transformBlock(inputBuffer: byte[], inputOffset: int, inputCount: int, outputBuffer: byte[], outputOffset: int): int;
+    transformFinalBlock(inputBuffer: byte[], inputOffset: int, inputCount: int): byte[];
     static readonly HashSizeInBits: int;
     static readonly HashSizeInBytes: int;
     static HashData(key: byte[], source: byte[]): byte[];
@@ -1879,11 +1879,11 @@ export type HMACSHA1 = HMACSHA1$instance & __HMACSHA1$views;
 export class HMACSHA256$instance extends HMAC$instance {
     constructor();
     constructor(key: byte[]);
-    Key: byte[];
-    Dispose(): void;
-    Initialize(): void;
-    TransformBlock(inputBuffer: byte[], inputOffset: int, inputCount: int, outputBuffer: byte[], outputOffset: int): int;
-    TransformFinalBlock(inputBuffer: byte[], inputOffset: int, inputCount: int): byte[];
+    key: byte[];
+    dispose(): void;
+    initialize(): void;
+    transformBlock(inputBuffer: byte[], inputOffset: int, inputCount: int, outputBuffer: byte[], outputOffset: int): int;
+    transformFinalBlock(inputBuffer: byte[], inputOffset: int, inputCount: int): byte[];
     static readonly HashSizeInBits: int;
     static readonly HashSizeInBytes: int;
     static HashData(key: byte[], source: byte[]): byte[];
@@ -1910,11 +1910,11 @@ export type HMACSHA256 = HMACSHA256$instance & __HMACSHA256$views;
 export class HMACSHA3_256$instance extends HMAC$instance {
     constructor();
     constructor(key: byte[]);
-    Key: byte[];
-    Dispose(): void;
-    Initialize(): void;
-    TransformBlock(inputBuffer: byte[], inputOffset: int, inputCount: int, outputBuffer: byte[], outputOffset: int): int;
-    TransformFinalBlock(inputBuffer: byte[], inputOffset: int, inputCount: int): byte[];
+    key: byte[];
+    dispose(): void;
+    initialize(): void;
+    transformBlock(inputBuffer: byte[], inputOffset: int, inputCount: int, outputBuffer: byte[], outputOffset: int): int;
+    transformFinalBlock(inputBuffer: byte[], inputOffset: int, inputCount: int): byte[];
     static readonly HashSizeInBits: int;
     static readonly HashSizeInBytes: int;
     static readonly IsSupported: boolean;
@@ -1942,11 +1942,11 @@ export type HMACSHA3_256 = HMACSHA3_256$instance & __HMACSHA3_256$views;
 export class HMACSHA3_384$instance extends HMAC$instance {
     constructor();
     constructor(key: byte[]);
-    Key: byte[];
-    Dispose(): void;
-    Initialize(): void;
-    TransformBlock(inputBuffer: byte[], inputOffset: int, inputCount: int, outputBuffer: byte[], outputOffset: int): int;
-    TransformFinalBlock(inputBuffer: byte[], inputOffset: int, inputCount: int): byte[];
+    key: byte[];
+    dispose(): void;
+    initialize(): void;
+    transformBlock(inputBuffer: byte[], inputOffset: int, inputCount: int, outputBuffer: byte[], outputOffset: int): int;
+    transformFinalBlock(inputBuffer: byte[], inputOffset: int, inputCount: int): byte[];
     static readonly HashSizeInBits: int;
     static readonly HashSizeInBytes: int;
     static readonly IsSupported: boolean;
@@ -1974,11 +1974,11 @@ export type HMACSHA3_384 = HMACSHA3_384$instance & __HMACSHA3_384$views;
 export class HMACSHA3_512$instance extends HMAC$instance {
     constructor();
     constructor(key: byte[]);
-    Key: byte[];
-    Dispose(): void;
-    Initialize(): void;
-    TransformBlock(inputBuffer: byte[], inputOffset: int, inputCount: int, outputBuffer: byte[], outputOffset: int): int;
-    TransformFinalBlock(inputBuffer: byte[], inputOffset: int, inputCount: int): byte[];
+    key: byte[];
+    dispose(): void;
+    initialize(): void;
+    transformBlock(inputBuffer: byte[], inputOffset: int, inputCount: int, outputBuffer: byte[], outputOffset: int): int;
+    transformFinalBlock(inputBuffer: byte[], inputOffset: int, inputCount: int): byte[];
     static readonly HashSizeInBits: int;
     static readonly HashSizeInBytes: int;
     static readonly IsSupported: boolean;
@@ -2006,12 +2006,12 @@ export type HMACSHA3_512 = HMACSHA3_512$instance & __HMACSHA3_512$views;
 export class HMACSHA384$instance extends HMAC$instance {
     constructor();
     constructor(key: byte[]);
-    Key: byte[];
-    ProduceLegacyHmacValues: boolean;
-    Dispose(): void;
-    Initialize(): void;
-    TransformBlock(inputBuffer: byte[], inputOffset: int, inputCount: int, outputBuffer: byte[], outputOffset: int): int;
-    TransformFinalBlock(inputBuffer: byte[], inputOffset: int, inputCount: int): byte[];
+    key: byte[];
+    produceLegacyHmacValues: boolean;
+    dispose(): void;
+    initialize(): void;
+    transformBlock(inputBuffer: byte[], inputOffset: int, inputCount: int, outputBuffer: byte[], outputOffset: int): int;
+    transformFinalBlock(inputBuffer: byte[], inputOffset: int, inputCount: int): byte[];
     static readonly HashSizeInBits: int;
     static readonly HashSizeInBytes: int;
     static HashData(key: byte[], source: byte[]): byte[];
@@ -2038,12 +2038,12 @@ export type HMACSHA384 = HMACSHA384$instance & __HMACSHA384$views;
 export class HMACSHA512$instance extends HMAC$instance {
     constructor();
     constructor(key: byte[]);
-    Key: byte[];
-    ProduceLegacyHmacValues: boolean;
-    Dispose(): void;
-    Initialize(): void;
-    TransformBlock(inputBuffer: byte[], inputOffset: int, inputCount: int, outputBuffer: byte[], outputOffset: int): int;
-    TransformFinalBlock(inputBuffer: byte[], inputOffset: int, inputCount: int): byte[];
+    key: byte[];
+    produceLegacyHmacValues: boolean;
+    dispose(): void;
+    initialize(): void;
+    transformBlock(inputBuffer: byte[], inputOffset: int, inputCount: int, outputBuffer: byte[], outputOffset: int): int;
+    transformFinalBlock(inputBuffer: byte[], inputOffset: int, inputCount: int): byte[];
     static readonly HashSizeInBits: int;
     static readonly HashSizeInBytes: int;
     static HashData(key: byte[], source: byte[]): byte[];
@@ -2068,19 +2068,19 @@ export type HMACSHA512 = HMACSHA512$instance & __HMACSHA512$views;
 
 
 export class IncrementalHash$instance {
-    readonly AlgorithmName: HashAlgorithmName;
-    readonly HashLengthInBytes: int;
-    AppendData(data: byte[]): void;
-    AppendData(data: byte[], offset: int, count: int): void;
-    AppendData(data: ReadOnlySpan_1<CLROf<byte>>): void;
-    Clone(): IncrementalHash;
-    Dispose(): void;
-    GetCurrentHash(): byte[];
-    GetCurrentHash(destination: Span_1<CLROf<byte>>): int;
-    GetHashAndReset(): byte[];
-    GetHashAndReset(destination: Span_1<CLROf<byte>>): int;
-    TryGetCurrentHash(destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
-    TryGetHashAndReset(destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
+    readonly algorithmName: HashAlgorithmName;
+    readonly hashLengthInBytes: int;
+    appendData(data: byte[]): void;
+    appendData(data: byte[], offset: int, count: int): void;
+    appendData(data: ReadOnlySpan_1<CLROf<byte>>): void;
+    clone(): IncrementalHash;
+    dispose(): void;
+    getCurrentHash(): byte[];
+    getCurrentHash(destination: Span_1<CLROf<byte>>): int;
+    getHashAndReset(): byte[];
+    getHashAndReset(destination: Span_1<CLROf<byte>>): int;
+    tryGetCurrentHash(destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
+    tryGetHashAndReset(destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
     static CreateHash(hashAlgorithm: HashAlgorithmName): IncrementalHash;
     static CreateHMAC(hashAlgorithm: HashAlgorithmName, key: byte[]): IncrementalHash;
     static CreateHMAC(hashAlgorithm: HashAlgorithmName, key: ReadOnlySpan_1<CLROf<byte>>): IncrementalHash;
@@ -2095,10 +2095,10 @@ export type IncrementalHash = IncrementalHash$instance & __IncrementalHash$views
 
 
 export abstract class KeyedHashAlgorithm$instance extends HashAlgorithm$instance {
-    Key: byte[];
-    Dispose(): void;
-    TransformBlock(inputBuffer: byte[], inputOffset: int, inputCount: int, outputBuffer: byte[], outputOffset: int): int;
-    TransformFinalBlock(inputBuffer: byte[], inputOffset: int, inputCount: int): byte[];
+    key: byte[];
+    dispose(): void;
+    transformBlock(inputBuffer: byte[], inputOffset: int, inputCount: int, outputBuffer: byte[], outputOffset: int): int;
+    transformFinalBlock(inputBuffer: byte[], inputOffset: int, inputCount: int): byte[];
 }
 
 
@@ -2112,9 +2112,9 @@ export type KeyedHashAlgorithm = KeyedHashAlgorithm$instance & __KeyedHashAlgori
 
 export class KeySizes$instance {
     constructor(minSize: int, maxSize: int, skipSize: int);
-    readonly MaxSize: int;
-    readonly MinSize: int;
-    readonly SkipSize: int;
+    readonly maxSize: int;
+    readonly minSize: int;
+    readonly skipSize: int;
 }
 
 
@@ -2123,14 +2123,14 @@ export type KeySizes = KeySizes$instance;
 export class Kmac128$instance {
     constructor(key: byte[], customizationString: byte[]);
     constructor(key: ReadOnlySpan_1<CLROf<byte>>, customizationString: ReadOnlySpan_1<CLROf<byte>>);
-    AppendData(data: byte[]): void;
-    AppendData(data: ReadOnlySpan_1<CLROf<byte>>): void;
-    Clone(): Kmac128;
-    Dispose(): void;
-    GetCurrentHash(outputLength: int): byte[];
-    GetCurrentHash(destination: Span_1<CLROf<byte>>): void;
-    GetHashAndReset(outputLength: int): byte[];
-    GetHashAndReset(destination: Span_1<CLROf<byte>>): void;
+    appendData(data: byte[]): void;
+    appendData(data: ReadOnlySpan_1<CLROf<byte>>): void;
+    clone(): Kmac128;
+    dispose(): void;
+    getCurrentHash(outputLength: int): byte[];
+    getCurrentHash(destination: Span_1<CLROf<byte>>): void;
+    getHashAndReset(outputLength: int): byte[];
+    getHashAndReset(destination: Span_1<CLROf<byte>>): void;
     static readonly IsSupported: boolean;
     static HashData(key: byte[], source: byte[], outputLength: int, customizationString?: byte[]): byte[];
     static HashData(key: byte[], source: Stream, outputLength: int, customizationString?: byte[]): byte[];
@@ -2154,14 +2154,14 @@ export type Kmac128 = Kmac128$instance & __Kmac128$views;
 export class Kmac256$instance {
     constructor(key: byte[], customizationString: byte[]);
     constructor(key: ReadOnlySpan_1<CLROf<byte>>, customizationString: ReadOnlySpan_1<CLROf<byte>>);
-    AppendData(data: byte[]): void;
-    AppendData(data: ReadOnlySpan_1<CLROf<byte>>): void;
-    Clone(): Kmac256;
-    Dispose(): void;
-    GetCurrentHash(outputLength: int): byte[];
-    GetCurrentHash(destination: Span_1<CLROf<byte>>): void;
-    GetHashAndReset(outputLength: int): byte[];
-    GetHashAndReset(destination: Span_1<CLROf<byte>>): void;
+    appendData(data: byte[]): void;
+    appendData(data: ReadOnlySpan_1<CLROf<byte>>): void;
+    clone(): Kmac256;
+    dispose(): void;
+    getCurrentHash(outputLength: int): byte[];
+    getCurrentHash(destination: Span_1<CLROf<byte>>): void;
+    getHashAndReset(outputLength: int): byte[];
+    getHashAndReset(destination: Span_1<CLROf<byte>>): void;
     static readonly IsSupported: boolean;
     static HashData(key: byte[], source: byte[], outputLength: int, customizationString?: byte[]): byte[];
     static HashData(key: byte[], source: Stream, outputLength: int, customizationString?: byte[]): byte[];
@@ -2185,14 +2185,14 @@ export type Kmac256 = Kmac256$instance & __Kmac256$views;
 export class KmacXof128$instance {
     constructor(key: byte[], customizationString: byte[]);
     constructor(key: ReadOnlySpan_1<CLROf<byte>>, customizationString: ReadOnlySpan_1<CLROf<byte>>);
-    AppendData(data: byte[]): void;
-    AppendData(data: ReadOnlySpan_1<CLROf<byte>>): void;
-    Clone(): KmacXof128;
-    Dispose(): void;
-    GetCurrentHash(outputLength: int): byte[];
-    GetCurrentHash(destination: Span_1<CLROf<byte>>): void;
-    GetHashAndReset(outputLength: int): byte[];
-    GetHashAndReset(destination: Span_1<CLROf<byte>>): void;
+    appendData(data: byte[]): void;
+    appendData(data: ReadOnlySpan_1<CLROf<byte>>): void;
+    clone(): KmacXof128;
+    dispose(): void;
+    getCurrentHash(outputLength: int): byte[];
+    getCurrentHash(destination: Span_1<CLROf<byte>>): void;
+    getHashAndReset(outputLength: int): byte[];
+    getHashAndReset(destination: Span_1<CLROf<byte>>): void;
     static readonly IsSupported: boolean;
     static HashData(key: byte[], source: byte[], outputLength: int, customizationString?: byte[]): byte[];
     static HashData(key: byte[], source: Stream, outputLength: int, customizationString?: byte[]): byte[];
@@ -2216,14 +2216,14 @@ export type KmacXof128 = KmacXof128$instance & __KmacXof128$views;
 export class KmacXof256$instance {
     constructor(key: byte[], customizationString: byte[]);
     constructor(key: ReadOnlySpan_1<CLROf<byte>>, customizationString: ReadOnlySpan_1<CLROf<byte>>);
-    AppendData(data: byte[]): void;
-    AppendData(data: ReadOnlySpan_1<CLROf<byte>>): void;
-    Clone(): KmacXof256;
-    Dispose(): void;
-    GetCurrentHash(outputLength: int): byte[];
-    GetCurrentHash(destination: Span_1<CLROf<byte>>): void;
-    GetHashAndReset(outputLength: int): byte[];
-    GetHashAndReset(destination: Span_1<CLROf<byte>>): void;
+    appendData(data: byte[]): void;
+    appendData(data: ReadOnlySpan_1<CLROf<byte>>): void;
+    clone(): KmacXof256;
+    dispose(): void;
+    getCurrentHash(outputLength: int): byte[];
+    getCurrentHash(destination: Span_1<CLROf<byte>>): void;
+    getHashAndReset(outputLength: int): byte[];
+    getHashAndReset(destination: Span_1<CLROf<byte>>): void;
     static readonly IsSupported: boolean;
     static HashData(key: byte[], source: byte[], outputLength: int, customizationString?: byte[]): byte[];
     static HashData(key: byte[], source: Stream, outputLength: int, customizationString?: byte[]): byte[];
@@ -2245,16 +2245,16 @@ export type KmacXof256 = KmacXof256$instance & __KmacXof256$views;
 
 
 export abstract class MaskGenerationMethod$instance {
-    abstract GenerateMask(rgbSeed: byte[], cbReturn: int): byte[];
+    abstract generateMask(rgbSeed: byte[], cbReturn: int): byte[];
 }
 
 
 export type MaskGenerationMethod = MaskGenerationMethod$instance;
 
 export abstract class MD5$instance extends HashAlgorithm$instance {
-    Dispose(): void;
-    TransformBlock(inputBuffer: byte[], inputOffset: int, inputCount: int, outputBuffer: byte[], outputOffset: int): int;
-    TransformFinalBlock(inputBuffer: byte[], inputOffset: int, inputCount: int): byte[];
+    dispose(): void;
+    transformBlock(inputBuffer: byte[], inputOffset: int, inputCount: int, outputBuffer: byte[], outputOffset: int): int;
+    transformFinalBlock(inputBuffer: byte[], inputOffset: int, inputCount: int): byte[];
     static readonly HashSizeInBits: int;
     static readonly HashSizeInBytes: int;
     static HashData(source: byte[]): byte[];
@@ -2278,10 +2278,10 @@ export type MD5 = MD5$instance & __MD5$views;
 
 export class MD5CryptoServiceProvider$instance extends MD5$instance {
     constructor();
-    Dispose(): void;
-    Initialize(): void;
-    TransformBlock(inputBuffer: byte[], inputOffset: int, inputCount: int, outputBuffer: byte[], outputOffset: int): int;
-    TransformFinalBlock(inputBuffer: byte[], inputOffset: int, inputCount: int): byte[];
+    dispose(): void;
+    initialize(): void;
+    transformBlock(inputBuffer: byte[], inputOffset: int, inputCount: int, outputBuffer: byte[], outputOffset: int): int;
+    transformFinalBlock(inputBuffer: byte[], inputOffset: int, inputCount: int): byte[];
 }
 
 
@@ -2294,42 +2294,42 @@ export type MD5CryptoServiceProvider = MD5CryptoServiceProvider$instance & __MD5
 
 
 export abstract class MLDsa$instance {
-    readonly Algorithm: MLDsaAlgorithm;
-    Dispose(): void;
-    ExportEncryptedPkcs8PrivateKey(password: ReadOnlySpan_1<CLROf<char>>, pbeParameters: PbeParameters): byte[];
-    ExportEncryptedPkcs8PrivateKey(passwordBytes: ReadOnlySpan_1<CLROf<byte>>, pbeParameters: PbeParameters): byte[];
-    ExportEncryptedPkcs8PrivateKey(password: string, pbeParameters: PbeParameters): byte[];
-    ExportEncryptedPkcs8PrivateKeyPem(password: ReadOnlySpan_1<CLROf<char>>, pbeParameters: PbeParameters): string;
-    ExportEncryptedPkcs8PrivateKeyPem(passwordBytes: ReadOnlySpan_1<CLROf<byte>>, pbeParameters: PbeParameters): string;
-    ExportEncryptedPkcs8PrivateKeyPem(password: string, pbeParameters: PbeParameters): string;
-    ExportMLDsaPrivateKey(): byte[];
-    ExportMLDsaPrivateKey(destination: Span_1<CLROf<byte>>): void;
-    ExportMLDsaPrivateSeed(): byte[];
-    ExportMLDsaPrivateSeed(destination: Span_1<CLROf<byte>>): void;
-    ExportMLDsaPublicKey(): byte[];
-    ExportMLDsaPublicKey(destination: Span_1<CLROf<byte>>): void;
-    ExportPkcs8PrivateKey(): byte[];
-    ExportPkcs8PrivateKeyPem(): string;
-    ExportSubjectPublicKeyInfo(): byte[];
-    ExportSubjectPublicKeyInfoPem(): string;
-    SignData(data: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, context?: ReadOnlySpan_1<CLROf<byte>>): void;
-    SignData(data: byte[], context?: byte[]): byte[];
-    SignMu(externalMu: byte[]): byte[];
-    SignMu(externalMu: ReadOnlySpan_1<CLROf<byte>>): byte[];
-    SignMu(externalMu: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>): void;
-    SignPreHash(hash: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, hashAlgorithmOid: string, context?: ReadOnlySpan_1<CLROf<byte>>): void;
-    SignPreHash(hash: byte[], hashAlgorithmOid: string, context?: byte[]): byte[];
-    TryExportEncryptedPkcs8PrivateKey(password: ReadOnlySpan_1<CLROf<char>>, pbeParameters: PbeParameters, destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
-    TryExportEncryptedPkcs8PrivateKey(passwordBytes: ReadOnlySpan_1<CLROf<byte>>, pbeParameters: PbeParameters, destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
-    TryExportEncryptedPkcs8PrivateKey(password: string, pbeParameters: PbeParameters, destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
-    TryExportPkcs8PrivateKey(destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
-    TryExportSubjectPublicKeyInfo(destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
-    VerifyData(data: ReadOnlySpan_1<CLROf<byte>>, signature: ReadOnlySpan_1<CLROf<byte>>, context?: ReadOnlySpan_1<CLROf<byte>>): boolean;
-    VerifyData(data: byte[], signature: byte[], context?: byte[]): boolean;
-    VerifyMu(externalMu: byte[], signature: byte[]): boolean;
-    VerifyMu(externalMu: ReadOnlySpan_1<CLROf<byte>>, signature: ReadOnlySpan_1<CLROf<byte>>): boolean;
-    VerifyPreHash(hash: ReadOnlySpan_1<CLROf<byte>>, signature: ReadOnlySpan_1<CLROf<byte>>, hashAlgorithmOid: string, context?: ReadOnlySpan_1<CLROf<byte>>): boolean;
-    VerifyPreHash(hash: byte[], signature: byte[], hashAlgorithmOid: string, context?: byte[]): boolean;
+    readonly algorithm: MLDsaAlgorithm;
+    dispose(): void;
+    exportEncryptedPkcs8PrivateKey(password: ReadOnlySpan_1<CLROf<char>>, pbeParameters: PbeParameters): byte[];
+    exportEncryptedPkcs8PrivateKey(passwordBytes: ReadOnlySpan_1<CLROf<byte>>, pbeParameters: PbeParameters): byte[];
+    exportEncryptedPkcs8PrivateKey(password: string, pbeParameters: PbeParameters): byte[];
+    exportEncryptedPkcs8PrivateKeyPem(password: ReadOnlySpan_1<CLROf<char>>, pbeParameters: PbeParameters): string;
+    exportEncryptedPkcs8PrivateKeyPem(passwordBytes: ReadOnlySpan_1<CLROf<byte>>, pbeParameters: PbeParameters): string;
+    exportEncryptedPkcs8PrivateKeyPem(password: string, pbeParameters: PbeParameters): string;
+    exportMLDsaPrivateKey(): byte[];
+    exportMLDsaPrivateKey(destination: Span_1<CLROf<byte>>): void;
+    exportMLDsaPrivateSeed(): byte[];
+    exportMLDsaPrivateSeed(destination: Span_1<CLROf<byte>>): void;
+    exportMLDsaPublicKey(): byte[];
+    exportMLDsaPublicKey(destination: Span_1<CLROf<byte>>): void;
+    exportPkcs8PrivateKey(): byte[];
+    exportPkcs8PrivateKeyPem(): string;
+    exportSubjectPublicKeyInfo(): byte[];
+    exportSubjectPublicKeyInfoPem(): string;
+    signData(data: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, context?: ReadOnlySpan_1<CLROf<byte>>): void;
+    signData(data: byte[], context?: byte[]): byte[];
+    signMu(externalMu: byte[]): byte[];
+    signMu(externalMu: ReadOnlySpan_1<CLROf<byte>>): byte[];
+    signMu(externalMu: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>): void;
+    signPreHash(hash: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, hashAlgorithmOid: string, context?: ReadOnlySpan_1<CLROf<byte>>): void;
+    signPreHash(hash: byte[], hashAlgorithmOid: string, context?: byte[]): byte[];
+    tryExportEncryptedPkcs8PrivateKey(password: ReadOnlySpan_1<CLROf<char>>, pbeParameters: PbeParameters, destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
+    tryExportEncryptedPkcs8PrivateKey(passwordBytes: ReadOnlySpan_1<CLROf<byte>>, pbeParameters: PbeParameters, destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
+    tryExportEncryptedPkcs8PrivateKey(password: string, pbeParameters: PbeParameters, destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
+    tryExportPkcs8PrivateKey(destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
+    tryExportSubjectPublicKeyInfo(destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
+    verifyData(data: ReadOnlySpan_1<CLROf<byte>>, signature: ReadOnlySpan_1<CLROf<byte>>, context?: ReadOnlySpan_1<CLROf<byte>>): boolean;
+    verifyData(data: byte[], signature: byte[], context?: byte[]): boolean;
+    verifyMu(externalMu: byte[], signature: byte[]): boolean;
+    verifyMu(externalMu: ReadOnlySpan_1<CLROf<byte>>, signature: ReadOnlySpan_1<CLROf<byte>>): boolean;
+    verifyPreHash(hash: ReadOnlySpan_1<CLROf<byte>>, signature: ReadOnlySpan_1<CLROf<byte>>, hashAlgorithmOid: string, context?: ReadOnlySpan_1<CLROf<byte>>): boolean;
+    verifyPreHash(hash: byte[], signature: byte[], hashAlgorithmOid: string, context?: byte[]): boolean;
     static readonly IsSupported: boolean;
     static GenerateKey(algorithm: MLDsaAlgorithm): MLDsa;
     static ImportEncryptedPkcs8PrivateKey(passwordBytes: ReadOnlySpan_1<CLROf<byte>>, source: ReadOnlySpan_1<CLROf<byte>>): MLDsa;
@@ -2362,16 +2362,16 @@ export type MLDsa = MLDsa$instance & __MLDsa$views;
 
 
 export class MLDsaAlgorithm$instance {
-    readonly MuSizeInBytes: int;
-    readonly Name: string;
-    readonly PrivateKeySizeInBytes: int;
-    readonly PrivateSeedSizeInBytes: int;
-    readonly PublicKeySizeInBytes: int;
-    readonly SignatureSizeInBytes: int;
-    Equals(other: MLDsaAlgorithm): boolean;
-    Equals(obj: unknown): boolean;
-    GetHashCode(): int;
-    ToString(): string;
+    readonly muSizeInBytes: int;
+    readonly name: string;
+    readonly privateKeySizeInBytes: int;
+    readonly privateSeedSizeInBytes: int;
+    readonly publicKeySizeInBytes: int;
+    readonly signatureSizeInBytes: int;
+    equals(other: MLDsaAlgorithm): boolean;
+    equals(obj: unknown): boolean;
+    getHashCode(): int;
+    toString(): string;
     static readonly MLDsa44: MLDsaAlgorithm;
     static readonly MLDsa65: MLDsaAlgorithm;
     static readonly MLDsa87: MLDsaAlgorithm;
@@ -2390,8 +2390,8 @@ export type MLDsaAlgorithm = MLDsaAlgorithm$instance & __MLDsaAlgorithm$views;
 
 export class MLDsaCng$instance extends MLDsa$instance {
     constructor(key: CngKey);
-    Dispose(): void;
-    GetKey(): CngKey;
+    dispose(): void;
+    getKey(): CngKey;
 }
 
 
@@ -2404,8 +2404,8 @@ export type MLDsaCng = MLDsaCng$instance & __MLDsaCng$views;
 
 export class MLDsaOpenSsl$instance extends MLDsa$instance {
     constructor(pkeyHandle: SafeEvpPKeyHandle);
-    Dispose(): void;
-    DuplicateKeyHandle(): SafeEvpPKeyHandle;
+    dispose(): void;
+    duplicateKeyHandle(): SafeEvpPKeyHandle;
 }
 
 
@@ -2417,33 +2417,33 @@ export type MLDsaOpenSsl = MLDsaOpenSsl$instance & __MLDsaOpenSsl$views;
 
 
 export abstract class MLKem$instance {
-    readonly Algorithm: MLKemAlgorithm;
-    Decapsulate(ciphertext: ReadOnlySpan_1<CLROf<byte>>, sharedSecret: Span_1<CLROf<byte>>): void;
-    Decapsulate(ciphertext: byte[]): byte[];
-    Dispose(): void;
-    Encapsulate(ciphertext: Span_1<CLROf<byte>>, sharedSecret: Span_1<CLROf<byte>>): void;
-    Encapsulate(ciphertext: { value: ref<byte[]> }, sharedSecret: { value: ref<byte[]> }): void;
-    ExportDecapsulationKey(destination: Span_1<CLROf<byte>>): void;
-    ExportDecapsulationKey(): byte[];
-    ExportEncapsulationKey(destination: Span_1<CLROf<byte>>): void;
-    ExportEncapsulationKey(): byte[];
-    ExportEncryptedPkcs8PrivateKey(passwordBytes: ReadOnlySpan_1<CLROf<byte>>, pbeParameters: PbeParameters): byte[];
-    ExportEncryptedPkcs8PrivateKey(password: ReadOnlySpan_1<CLROf<char>>, pbeParameters: PbeParameters): byte[];
-    ExportEncryptedPkcs8PrivateKey(password: string, pbeParameters: PbeParameters): byte[];
-    ExportEncryptedPkcs8PrivateKeyPem(passwordBytes: ReadOnlySpan_1<CLROf<byte>>, pbeParameters: PbeParameters): string;
-    ExportEncryptedPkcs8PrivateKeyPem(password: ReadOnlySpan_1<CLROf<char>>, pbeParameters: PbeParameters): string;
-    ExportEncryptedPkcs8PrivateKeyPem(password: string, pbeParameters: PbeParameters): string;
-    ExportPkcs8PrivateKey(): byte[];
-    ExportPkcs8PrivateKeyPem(): string;
-    ExportPrivateSeed(destination: Span_1<CLROf<byte>>): void;
-    ExportPrivateSeed(): byte[];
-    ExportSubjectPublicKeyInfo(): byte[];
-    ExportSubjectPublicKeyInfoPem(): string;
-    TryExportEncryptedPkcs8PrivateKey(password: ReadOnlySpan_1<CLROf<char>>, pbeParameters: PbeParameters, destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
-    TryExportEncryptedPkcs8PrivateKey(password: string, pbeParameters: PbeParameters, destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
-    TryExportEncryptedPkcs8PrivateKey(passwordBytes: ReadOnlySpan_1<CLROf<byte>>, pbeParameters: PbeParameters, destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
-    TryExportPkcs8PrivateKey(destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
-    TryExportSubjectPublicKeyInfo(destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
+    readonly algorithm: MLKemAlgorithm;
+    decapsulate(ciphertext: ReadOnlySpan_1<CLROf<byte>>, sharedSecret: Span_1<CLROf<byte>>): void;
+    decapsulate(ciphertext: byte[]): byte[];
+    dispose(): void;
+    encapsulate(ciphertext: Span_1<CLROf<byte>>, sharedSecret: Span_1<CLROf<byte>>): void;
+    encapsulate(ciphertext: { value: ref<byte[]> }, sharedSecret: { value: ref<byte[]> }): void;
+    exportDecapsulationKey(destination: Span_1<CLROf<byte>>): void;
+    exportDecapsulationKey(): byte[];
+    exportEncapsulationKey(destination: Span_1<CLROf<byte>>): void;
+    exportEncapsulationKey(): byte[];
+    exportEncryptedPkcs8PrivateKey(passwordBytes: ReadOnlySpan_1<CLROf<byte>>, pbeParameters: PbeParameters): byte[];
+    exportEncryptedPkcs8PrivateKey(password: ReadOnlySpan_1<CLROf<char>>, pbeParameters: PbeParameters): byte[];
+    exportEncryptedPkcs8PrivateKey(password: string, pbeParameters: PbeParameters): byte[];
+    exportEncryptedPkcs8PrivateKeyPem(passwordBytes: ReadOnlySpan_1<CLROf<byte>>, pbeParameters: PbeParameters): string;
+    exportEncryptedPkcs8PrivateKeyPem(password: ReadOnlySpan_1<CLROf<char>>, pbeParameters: PbeParameters): string;
+    exportEncryptedPkcs8PrivateKeyPem(password: string, pbeParameters: PbeParameters): string;
+    exportPkcs8PrivateKey(): byte[];
+    exportPkcs8PrivateKeyPem(): string;
+    exportPrivateSeed(destination: Span_1<CLROf<byte>>): void;
+    exportPrivateSeed(): byte[];
+    exportSubjectPublicKeyInfo(): byte[];
+    exportSubjectPublicKeyInfoPem(): string;
+    tryExportEncryptedPkcs8PrivateKey(password: ReadOnlySpan_1<CLROf<char>>, pbeParameters: PbeParameters, destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
+    tryExportEncryptedPkcs8PrivateKey(password: string, pbeParameters: PbeParameters, destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
+    tryExportEncryptedPkcs8PrivateKey(passwordBytes: ReadOnlySpan_1<CLROf<byte>>, pbeParameters: PbeParameters, destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
+    tryExportPkcs8PrivateKey(destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
+    tryExportSubjectPublicKeyInfo(destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
     static readonly IsSupported: boolean;
     static GenerateKey(algorithm: MLKemAlgorithm): MLKem;
     static ImportDecapsulationKey(algorithm: MLKemAlgorithm, source: byte[]): MLKem;
@@ -2476,16 +2476,16 @@ export type MLKem = MLKem$instance & __MLKem$views;
 
 
 export class MLKemAlgorithm$instance {
-    readonly CiphertextSizeInBytes: int;
-    readonly DecapsulationKeySizeInBytes: int;
-    readonly EncapsulationKeySizeInBytes: int;
-    readonly Name: string;
-    readonly PrivateSeedSizeInBytes: int;
-    readonly SharedSecretSizeInBytes: int;
-    Equals(other: MLKemAlgorithm): boolean;
-    Equals(obj: unknown): boolean;
-    GetHashCode(): int;
-    ToString(): string;
+    readonly ciphertextSizeInBytes: int;
+    readonly decapsulationKeySizeInBytes: int;
+    readonly encapsulationKeySizeInBytes: int;
+    readonly name: string;
+    readonly privateSeedSizeInBytes: int;
+    readonly sharedSecretSizeInBytes: int;
+    equals(other: MLKemAlgorithm): boolean;
+    equals(obj: unknown): boolean;
+    getHashCode(): int;
+    toString(): string;
     static readonly MLKem512: MLKemAlgorithm;
     static readonly MLKem768: MLKemAlgorithm;
     static readonly MLKem1024: MLKemAlgorithm;
@@ -2504,8 +2504,8 @@ export type MLKemAlgorithm = MLKemAlgorithm$instance & __MLKemAlgorithm$views;
 
 export class MLKemCng$instance extends MLKem$instance {
     constructor(key: CngKey);
-    Dispose(): void;
-    GetKey(): CngKey;
+    dispose(): void;
+    getKey(): CngKey;
 }
 
 
@@ -2518,8 +2518,8 @@ export type MLKemCng = MLKemCng$instance & __MLKemCng$views;
 
 export class MLKemOpenSsl$instance extends MLKem$instance {
     constructor(pkeyHandle: SafeEvpPKeyHandle);
-    Dispose(): void;
-    DuplicateKeyHandle(): SafeEvpPKeyHandle;
+    dispose(): void;
+    duplicateKeyHandle(): SafeEvpPKeyHandle;
 }
 
 
@@ -2535,8 +2535,8 @@ export class Oid$instance {
     constructor(oid: string);
     constructor(value: string, friendlyName: string);
     constructor(oid: Oid);
-    FriendlyName: string;
-    Value: string;
+    friendlyName: string;
+    value: string;
     static FromFriendlyName(friendlyName: string, group: OidGroup): Oid;
     static FromOidValue(oidValue: string, group: OidGroup): Oid;
 }
@@ -2546,14 +2546,14 @@ export type Oid = Oid$instance;
 
 export class OidCollection$instance {
     constructor();
-    readonly Count: int;
-    readonly IsSynchronized: boolean;
-    readonly SyncRoot: unknown;
-    Add(oid: Oid): int;
-    CopyTo(array: Oid[], index: int): void;
+    readonly count: int;
+    readonly isSynchronized: boolean;
+    readonly syncRoot: unknown;
+    add(oid: Oid): int;
+    copyTo(array: Oid[], index: int): void;
     get_Item(index: int): Oid;
     get_Item(oid: string): Oid;
-    GetEnumerator(): OidEnumerator;
+    getEnumerator(): OidEnumerator;
 }
 
 
@@ -2566,9 +2566,9 @@ export type OidCollection = OidCollection$instance & __OidCollection$views;
 
 
 export class OidEnumerator$instance {
-    readonly Current: Oid | unknown;
-    MoveNext(): boolean;
-    Reset(): void;
+    readonly current: Oid | unknown;
+    moveNext(): boolean;
+    reset(): void;
 }
 
 
@@ -2588,13 +2588,13 @@ export class PasswordDeriveBytes$instance extends DeriveBytes$instance {
     constructor(password: byte[], salt: byte[], cspParams: CspParameters);
     constructor(strPassword: string, rgbSalt: byte[], strHashName: string, iterations: int, cspParams: CspParameters);
     constructor(password: byte[], salt: byte[], hashName: string, iterations: int, cspParams: CspParameters);
-    HashName: string;
-    IterationCount: int;
-    Salt: byte[];
-    CryptDeriveKey(algname: string, alghashname: string, keySize: int, rgbIV: byte[]): byte[];
-    Dispose(): void;
-    GetBytes(cb: int): byte[];
-    Reset(): void;
+    hashName: string;
+    iterationCount: int;
+    salt: byte[];
+    cryptDeriveKey(algname: string, alghashname: string, keySize: int, rgbIV: byte[]): byte[];
+    dispose(): void;
+    getBytes(cb: int): byte[];
+    reset(): void;
 }
 
 
@@ -2607,9 +2607,9 @@ export type PasswordDeriveBytes = PasswordDeriveBytes$instance & __PasswordDeriv
 
 export class PbeParameters$instance {
     constructor(encryptionAlgorithm: PbeEncryptionAlgorithm, hashAlgorithm: HashAlgorithmName, iterationCount: int);
-    readonly EncryptionAlgorithm: PbeEncryptionAlgorithm;
-    readonly HashAlgorithm: HashAlgorithmName;
-    readonly IterationCount: int;
+    readonly encryptionAlgorithm: PbeEncryptionAlgorithm;
+    readonly hashAlgorithm: HashAlgorithmName;
+    readonly iterationCount: int;
 }
 
 
@@ -2617,20 +2617,20 @@ export type PbeParameters = PbeParameters$instance;
 
 export class PKCS1MaskGenerationMethod$instance extends MaskGenerationMethod$instance {
     constructor();
-    HashName: string;
-    GenerateMask(rgbSeed: byte[], cbReturn: int): byte[];
+    hashName: string;
+    generateMask(rgbSeed: byte[], cbReturn: int): byte[];
 }
 
 
 export type PKCS1MaskGenerationMethod = PKCS1MaskGenerationMethod$instance;
 
 export abstract class RandomNumberGenerator$instance {
-    Dispose(): void;
-    GetBytes(data: byte[]): void;
-    GetBytes(data: byte[], offset: int, count: int): void;
-    GetBytes(data: Span_1<CLROf<byte>>): void;
-    GetNonZeroBytes(data: byte[]): void;
-    GetNonZeroBytes(data: Span_1<CLROf<byte>>): void;
+    dispose(): void;
+    getBytes(data: byte[]): void;
+    getBytes(data: byte[], offset: int, count: int): void;
+    getBytes(data: Span_1<CLROf<byte>>): void;
+    getNonZeroBytes(data: byte[]): void;
+    getNonZeroBytes(data: Span_1<CLROf<byte>>): void;
     static Create(): RandomNumberGenerator;
     static Create(rngName: string): RandomNumberGenerator;
     static Fill(data: Span_1<CLROf<byte>>): void;
@@ -2654,9 +2654,9 @@ export type RandomNumberGenerator = RandomNumberGenerator$instance & __RandomNum
 
 
 export abstract class RC2$instance extends SymmetricAlgorithm$instance {
-    EffectiveKeySize: int;
-    KeySize: int;
-    Dispose(): void;
+    effectiveKeySize: int;
+    keySize: int;
+    dispose(): void;
 }
 
 
@@ -2669,24 +2669,24 @@ export type RC2 = RC2$instance & __RC2$views;
 
 export class RC2CryptoServiceProvider$instance extends RC2$instance {
     constructor();
-    BlockSize: int;
-    EffectiveKeySize: int;
-    FeedbackSize: int;
-    IV: byte[];
-    Key: byte[];
-    KeySize: int;
-    readonly LegalBlockSizes: KeySizes[];
-    readonly LegalKeySizes: KeySizes[];
-    Mode: CipherMode;
-    Padding: PaddingMode;
-    UseSalt: boolean;
-    CreateDecryptor(): ICryptoTransform;
-    CreateDecryptor(rgbKey: byte[], rgbIV: byte[]): ICryptoTransform;
-    CreateEncryptor(): ICryptoTransform;
-    CreateEncryptor(rgbKey: byte[], rgbIV: byte[]): ICryptoTransform;
-    Dispose(): void;
-    GenerateIV(): void;
-    GenerateKey(): void;
+    blockSize: int;
+    effectiveKeySize: int;
+    feedbackSize: int;
+    iv: byte[];
+    key: byte[];
+    keySize: int;
+    readonly legalBlockSizes: KeySizes[];
+    readonly legalKeySizes: KeySizes[];
+    mode: CipherMode;
+    padding: PaddingMode;
+    useSalt: boolean;
+    createDecryptor(): ICryptoTransform;
+    createDecryptor(rgbKey: byte[], rgbIV: byte[]): ICryptoTransform;
+    createEncryptor(): ICryptoTransform;
+    createEncryptor(rgbKey: byte[], rgbIV: byte[]): ICryptoTransform;
+    dispose(): void;
+    generateIV(): void;
+    generateKey(): void;
 }
 
 
@@ -2706,13 +2706,13 @@ export class Rfc2898DeriveBytes$instance extends DeriveBytes$instance {
     constructor(password: string, saltSize: int);
     constructor(password: string, saltSize: int, iterations: int);
     constructor(password: string, saltSize: int, iterations: int, hashAlgorithm: HashAlgorithmName);
-    readonly HashAlgorithm: HashAlgorithmName;
-    IterationCount: int;
-    Salt: byte[];
-    CryptDeriveKey(algname: string, alghashname: string, keySize: int, rgbIV: byte[]): byte[];
-    Dispose(): void;
-    GetBytes(cb: int): byte[];
-    Reset(): void;
+    readonly hashAlgorithm: HashAlgorithmName;
+    iterationCount: int;
+    salt: byte[];
+    cryptDeriveKey(algname: string, alghashname: string, keySize: int, rgbIV: byte[]): byte[];
+    dispose(): void;
+    getBytes(cb: int): byte[];
+    reset(): void;
     static Pbkdf2(password: byte[], salt: byte[], iterations: int, hashAlgorithm: HashAlgorithmName, outputLength: int): byte[];
     static Pbkdf2(password: ReadOnlySpan_1<CLROf<byte>>, salt: ReadOnlySpan_1<CLROf<byte>>, iterations: int, hashAlgorithm: HashAlgorithmName, outputLength: int): byte[];
     static Pbkdf2(password: ReadOnlySpan_1<CLROf<byte>>, salt: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, iterations: int, hashAlgorithm: HashAlgorithmName): void;
@@ -2730,7 +2730,7 @@ export type Rfc2898DeriveBytes = Rfc2898DeriveBytes$instance & __Rfc2898DeriveBy
 
 
 export abstract class Rijndael$instance extends SymmetricAlgorithm$instance {
-    Dispose(): void;
+    dispose(): void;
 }
 
 
@@ -2743,21 +2743,21 @@ export type Rijndael = Rijndael$instance & __Rijndael$views;
 
 export class RijndaelManaged$instance extends Rijndael$instance {
     constructor();
-    BlockSize: int;
-    FeedbackSize: int;
-    IV: byte[];
-    Key: byte[];
-    KeySize: int;
-    readonly LegalKeySizes: KeySizes[];
-    Mode: CipherMode;
-    Padding: PaddingMode;
-    CreateDecryptor(): ICryptoTransform;
-    CreateDecryptor(rgbKey: byte[], rgbIV: byte[]): ICryptoTransform;
-    CreateEncryptor(): ICryptoTransform;
-    CreateEncryptor(rgbKey: byte[], rgbIV: byte[]): ICryptoTransform;
-    Dispose(): void;
-    GenerateIV(): void;
-    GenerateKey(): void;
+    blockSize: int;
+    feedbackSize: int;
+    iv: byte[];
+    key: byte[];
+    keySize: int;
+    readonly legalKeySizes: KeySizes[];
+    mode: CipherMode;
+    padding: PaddingMode;
+    createDecryptor(): ICryptoTransform;
+    createDecryptor(rgbKey: byte[], rgbIV: byte[]): ICryptoTransform;
+    createEncryptor(): ICryptoTransform;
+    createEncryptor(rgbKey: byte[], rgbIV: byte[]): ICryptoTransform;
+    dispose(): void;
+    generateIV(): void;
+    generateKey(): void;
 }
 
 
@@ -2773,14 +2773,14 @@ export class RNGCryptoServiceProvider$instance extends RandomNumberGenerator$ins
     constructor(str: string);
     constructor(rgb: byte[]);
     constructor(cspParams: CspParameters);
-    Dispose(): void;
-    GetBytes(data: byte[]): void;
-    GetBytes(data: byte[], offset: int, count: int): void;
-    GetBytes(data: Span_1<CLROf<byte>>): void;
-    GetBytes(data: Span_1<CLROf<byte>>): void;
-    GetNonZeroBytes(data: byte[]): void;
-    GetNonZeroBytes(data: Span_1<CLROf<byte>>): void;
-    GetNonZeroBytes(data: Span_1<CLROf<byte>>): void;
+    dispose(): void;
+    getBytes(data: byte[]): void;
+    getBytes(data: byte[], offset: int, count: int): void;
+    getBytes(data: Span_1<CLROf<byte>>): void;
+    getBytes(data: Span_1<CLROf<byte>>): void;
+    getNonZeroBytes(data: byte[]): void;
+    getNonZeroBytes(data: Span_1<CLROf<byte>>): void;
+    getNonZeroBytes(data: Span_1<CLROf<byte>>): void;
 }
 
 
@@ -2792,69 +2792,69 @@ export type RNGCryptoServiceProvider = RNGCryptoServiceProvider$instance & __RNG
 
 
 export abstract class RSA$instance extends AsymmetricAlgorithm$instance {
-    readonly KeyExchangeAlgorithm: string;
-    readonly SignatureAlgorithm: string;
-    Decrypt(data: byte[], padding: RSAEncryptionPadding): byte[];
-    Decrypt(data: ReadOnlySpan_1<CLROf<byte>>, padding: RSAEncryptionPadding): byte[];
-    Decrypt(data: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, padding: RSAEncryptionPadding): int;
-    DecryptValue(rgb: byte[]): byte[];
-    Dispose(): void;
-    Encrypt(data: byte[], padding: RSAEncryptionPadding): byte[];
-    Encrypt(data: ReadOnlySpan_1<CLROf<byte>>, padding: RSAEncryptionPadding): byte[];
-    Encrypt(data: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, padding: RSAEncryptionPadding): int;
-    EncryptValue(rgb: byte[]): byte[];
-    abstract ExportParameters(includePrivateParameters: boolean): RSAParameters;
-    ExportRSAPrivateKey(): byte[];
-    ExportRSAPrivateKeyPem(): string;
-    ExportRSAPublicKey(): byte[];
-    ExportRSAPublicKeyPem(): string;
-    FromXmlString(xmlString: string): void;
-    GetMaxOutputSize(): int;
-    ImportEncryptedPkcs8PrivateKey(passwordBytes: ReadOnlySpan_1<CLROf<byte>>, source: ReadOnlySpan_1<CLROf<byte>>, bytesRead: { value: ref<int> }): void;
-    ImportEncryptedPkcs8PrivateKey(password: ReadOnlySpan_1<CLROf<char>>, source: ReadOnlySpan_1<CLROf<byte>>, bytesRead: { value: ref<int> }): void;
-    ImportEncryptedPkcs8PrivateKey(passwordBytes: ReadOnlySpan_1<CLROf<byte>>, source: ReadOnlySpan_1<CLROf<byte>>, bytesRead: { value: ref<int> }): void;
-    ImportFromEncryptedPem(input: ReadOnlySpan_1<CLROf<char>>, password: ReadOnlySpan_1<CLROf<char>>): void;
-    ImportFromEncryptedPem(input: ReadOnlySpan_1<CLROf<char>>, passwordBytes: ReadOnlySpan_1<CLROf<byte>>): void;
-    ImportFromEncryptedPem(input: ReadOnlySpan_1<CLROf<char>>, password: ReadOnlySpan_1<CLROf<char>>): void;
-    ImportFromPem(input: ReadOnlySpan_1<CLROf<char>>): void;
-    ImportFromPem(input: ReadOnlySpan_1<CLROf<char>>): void;
-    abstract ImportParameters(parameters: RSAParameters): void;
-    ImportPkcs8PrivateKey(source: ReadOnlySpan_1<CLROf<byte>>, bytesRead: { value: ref<int> }): void;
-    ImportPkcs8PrivateKey(source: ReadOnlySpan_1<CLROf<byte>>, bytesRead: { value: ref<int> }): void;
-    ImportRSAPrivateKey(source: ReadOnlySpan_1<CLROf<byte>>, bytesRead: { value: ref<int> }): void;
-    ImportRSAPublicKey(source: ReadOnlySpan_1<CLROf<byte>>, bytesRead: { value: ref<int> }): void;
-    ImportSubjectPublicKeyInfo(source: ReadOnlySpan_1<CLROf<byte>>, bytesRead: { value: ref<int> }): void;
-    ImportSubjectPublicKeyInfo(source: ReadOnlySpan_1<CLROf<byte>>, bytesRead: { value: ref<int> }): void;
-    SignData(data: byte[], hashAlgorithm: HashAlgorithmName, padding: RSASignaturePadding): byte[];
-    SignData(data: byte[], offset: int, count: int, hashAlgorithm: HashAlgorithmName, padding: RSASignaturePadding): byte[];
-    SignData(data: Stream, hashAlgorithm: HashAlgorithmName, padding: RSASignaturePadding): byte[];
-    SignData(data: ReadOnlySpan_1<CLROf<byte>>, hashAlgorithm: HashAlgorithmName, padding: RSASignaturePadding): byte[];
-    SignData(data: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, hashAlgorithm: HashAlgorithmName, padding: RSASignaturePadding): int;
-    SignHash(hash: byte[], hashAlgorithm: HashAlgorithmName, padding: RSASignaturePadding): byte[];
-    SignHash(hash: ReadOnlySpan_1<CLROf<byte>>, hashAlgorithm: HashAlgorithmName, padding: RSASignaturePadding): byte[];
-    SignHash(hash: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, hashAlgorithm: HashAlgorithmName, padding: RSASignaturePadding): int;
-    ToXmlString(includePrivateParameters: boolean): string;
-    TryDecrypt(data: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, padding: RSAEncryptionPadding, bytesWritten: { value: ref<int> }): boolean;
-    TryEncrypt(data: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, padding: RSAEncryptionPadding, bytesWritten: { value: ref<int> }): boolean;
-    TryExportEncryptedPkcs8PrivateKey(password: ReadOnlySpan_1<CLROf<char>>, pbeParameters: PbeParameters, destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
-    TryExportEncryptedPkcs8PrivateKey(passwordBytes: ReadOnlySpan_1<CLROf<byte>>, pbeParameters: PbeParameters, destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
-    TryExportEncryptedPkcs8PrivateKey(passwordBytes: ReadOnlySpan_1<CLROf<byte>>, pbeParameters: PbeParameters, destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
-    TryExportPkcs8PrivateKey(destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
-    TryExportPkcs8PrivateKey(destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
-    TryExportRSAPrivateKey(destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
-    TryExportRSAPrivateKeyPem(destination: Span_1<CLROf<char>>, charsWritten: { value: ref<int> }): boolean;
-    TryExportRSAPublicKey(destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
-    TryExportRSAPublicKeyPem(destination: Span_1<CLROf<char>>, charsWritten: { value: ref<int> }): boolean;
-    TryExportSubjectPublicKeyInfo(destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
-    TryExportSubjectPublicKeyInfo(destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
-    TrySignData(data: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, hashAlgorithm: HashAlgorithmName, padding: RSASignaturePadding, bytesWritten: { value: ref<int> }): boolean;
-    TrySignHash(hash: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, hashAlgorithm: HashAlgorithmName, padding: RSASignaturePadding, bytesWritten: { value: ref<int> }): boolean;
-    VerifyData(data: byte[], signature: byte[], hashAlgorithm: HashAlgorithmName, padding: RSASignaturePadding): boolean;
-    VerifyData(data: byte[], offset: int, count: int, signature: byte[], hashAlgorithm: HashAlgorithmName, padding: RSASignaturePadding): boolean;
-    VerifyData(data: Stream, signature: byte[], hashAlgorithm: HashAlgorithmName, padding: RSASignaturePadding): boolean;
-    VerifyData(data: ReadOnlySpan_1<CLROf<byte>>, signature: ReadOnlySpan_1<CLROf<byte>>, hashAlgorithm: HashAlgorithmName, padding: RSASignaturePadding): boolean;
-    VerifyHash(hash: byte[], signature: byte[], hashAlgorithm: HashAlgorithmName, padding: RSASignaturePadding): boolean;
-    VerifyHash(hash: ReadOnlySpan_1<CLROf<byte>>, signature: ReadOnlySpan_1<CLROf<byte>>, hashAlgorithm: HashAlgorithmName, padding: RSASignaturePadding): boolean;
+    readonly keyExchangeAlgorithm: string;
+    readonly signatureAlgorithm: string;
+    decrypt(data: byte[], padding: RSAEncryptionPadding): byte[];
+    decrypt(data: ReadOnlySpan_1<CLROf<byte>>, padding: RSAEncryptionPadding): byte[];
+    decrypt(data: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, padding: RSAEncryptionPadding): int;
+    decryptValue(rgb: byte[]): byte[];
+    dispose(): void;
+    encrypt(data: byte[], padding: RSAEncryptionPadding): byte[];
+    encrypt(data: ReadOnlySpan_1<CLROf<byte>>, padding: RSAEncryptionPadding): byte[];
+    encrypt(data: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, padding: RSAEncryptionPadding): int;
+    encryptValue(rgb: byte[]): byte[];
+    abstract exportParameters(includePrivateParameters: boolean): RSAParameters;
+    exportRSAPrivateKey(): byte[];
+    exportRSAPrivateKeyPem(): string;
+    exportRSAPublicKey(): byte[];
+    exportRSAPublicKeyPem(): string;
+    fromXmlString(xmlString: string): void;
+    getMaxOutputSize(): int;
+    importEncryptedPkcs8PrivateKey(passwordBytes: ReadOnlySpan_1<CLROf<byte>>, source: ReadOnlySpan_1<CLROf<byte>>, bytesRead: { value: ref<int> }): void;
+    importEncryptedPkcs8PrivateKey(password: ReadOnlySpan_1<CLROf<char>>, source: ReadOnlySpan_1<CLROf<byte>>, bytesRead: { value: ref<int> }): void;
+    importEncryptedPkcs8PrivateKey(passwordBytes: ReadOnlySpan_1<CLROf<byte>>, source: ReadOnlySpan_1<CLROf<byte>>, bytesRead: { value: ref<int> }): void;
+    importFromEncryptedPem(input: ReadOnlySpan_1<CLROf<char>>, password: ReadOnlySpan_1<CLROf<char>>): void;
+    importFromEncryptedPem(input: ReadOnlySpan_1<CLROf<char>>, passwordBytes: ReadOnlySpan_1<CLROf<byte>>): void;
+    importFromEncryptedPem(input: ReadOnlySpan_1<CLROf<char>>, password: ReadOnlySpan_1<CLROf<char>>): void;
+    importFromPem(input: ReadOnlySpan_1<CLROf<char>>): void;
+    importFromPem(input: ReadOnlySpan_1<CLROf<char>>): void;
+    abstract importParameters(parameters: RSAParameters): void;
+    importPkcs8PrivateKey(source: ReadOnlySpan_1<CLROf<byte>>, bytesRead: { value: ref<int> }): void;
+    importPkcs8PrivateKey(source: ReadOnlySpan_1<CLROf<byte>>, bytesRead: { value: ref<int> }): void;
+    importRSAPrivateKey(source: ReadOnlySpan_1<CLROf<byte>>, bytesRead: { value: ref<int> }): void;
+    importRSAPublicKey(source: ReadOnlySpan_1<CLROf<byte>>, bytesRead: { value: ref<int> }): void;
+    importSubjectPublicKeyInfo(source: ReadOnlySpan_1<CLROf<byte>>, bytesRead: { value: ref<int> }): void;
+    importSubjectPublicKeyInfo(source: ReadOnlySpan_1<CLROf<byte>>, bytesRead: { value: ref<int> }): void;
+    signData(data: byte[], hashAlgorithm: HashAlgorithmName, padding: RSASignaturePadding): byte[];
+    signData(data: byte[], offset: int, count: int, hashAlgorithm: HashAlgorithmName, padding: RSASignaturePadding): byte[];
+    signData(data: Stream, hashAlgorithm: HashAlgorithmName, padding: RSASignaturePadding): byte[];
+    signData(data: ReadOnlySpan_1<CLROf<byte>>, hashAlgorithm: HashAlgorithmName, padding: RSASignaturePadding): byte[];
+    signData(data: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, hashAlgorithm: HashAlgorithmName, padding: RSASignaturePadding): int;
+    signHash(hash: byte[], hashAlgorithm: HashAlgorithmName, padding: RSASignaturePadding): byte[];
+    signHash(hash: ReadOnlySpan_1<CLROf<byte>>, hashAlgorithm: HashAlgorithmName, padding: RSASignaturePadding): byte[];
+    signHash(hash: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, hashAlgorithm: HashAlgorithmName, padding: RSASignaturePadding): int;
+    toXmlString(includePrivateParameters: boolean): string;
+    tryDecrypt(data: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, padding: RSAEncryptionPadding, bytesWritten: { value: ref<int> }): boolean;
+    tryEncrypt(data: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, padding: RSAEncryptionPadding, bytesWritten: { value: ref<int> }): boolean;
+    tryExportEncryptedPkcs8PrivateKey(password: ReadOnlySpan_1<CLROf<char>>, pbeParameters: PbeParameters, destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
+    tryExportEncryptedPkcs8PrivateKey(passwordBytes: ReadOnlySpan_1<CLROf<byte>>, pbeParameters: PbeParameters, destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
+    tryExportEncryptedPkcs8PrivateKey(passwordBytes: ReadOnlySpan_1<CLROf<byte>>, pbeParameters: PbeParameters, destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
+    tryExportPkcs8PrivateKey(destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
+    tryExportPkcs8PrivateKey(destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
+    tryExportRSAPrivateKey(destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
+    tryExportRSAPrivateKeyPem(destination: Span_1<CLROf<char>>, charsWritten: { value: ref<int> }): boolean;
+    tryExportRSAPublicKey(destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
+    tryExportRSAPublicKeyPem(destination: Span_1<CLROf<char>>, charsWritten: { value: ref<int> }): boolean;
+    tryExportSubjectPublicKeyInfo(destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
+    tryExportSubjectPublicKeyInfo(destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
+    trySignData(data: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, hashAlgorithm: HashAlgorithmName, padding: RSASignaturePadding, bytesWritten: { value: ref<int> }): boolean;
+    trySignHash(hash: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, hashAlgorithm: HashAlgorithmName, padding: RSASignaturePadding, bytesWritten: { value: ref<int> }): boolean;
+    verifyData(data: byte[], signature: byte[], hashAlgorithm: HashAlgorithmName, padding: RSASignaturePadding): boolean;
+    verifyData(data: byte[], offset: int, count: int, signature: byte[], hashAlgorithm: HashAlgorithmName, padding: RSASignaturePadding): boolean;
+    verifyData(data: Stream, signature: byte[], hashAlgorithm: HashAlgorithmName, padding: RSASignaturePadding): boolean;
+    verifyData(data: ReadOnlySpan_1<CLROf<byte>>, signature: ReadOnlySpan_1<CLROf<byte>>, hashAlgorithm: HashAlgorithmName, padding: RSASignaturePadding): boolean;
+    verifyHash(hash: byte[], signature: byte[], hashAlgorithm: HashAlgorithmName, padding: RSASignaturePadding): boolean;
+    verifyHash(hash: ReadOnlySpan_1<CLROf<byte>>, signature: ReadOnlySpan_1<CLROf<byte>>, hashAlgorithm: HashAlgorithmName, padding: RSASignaturePadding): boolean;
 }
 
 
@@ -2869,10 +2869,10 @@ export class RSACng$instance extends RSA$instance {
     constructor();
     constructor(keySize: int);
     constructor(key: CngKey);
-    readonly Key: CngKey;
-    Dispose(): void;
-    ExportParameters(includePrivateParameters: boolean): RSAParameters;
-    ImportParameters(parameters: RSAParameters): void;
+    readonly key: CngKey;
+    dispose(): void;
+    exportParameters(includePrivateParameters: boolean): RSAParameters;
+    importParameters(parameters: RSAParameters): void;
 }
 
 
@@ -2888,53 +2888,53 @@ export class RSACryptoServiceProvider$instance extends RSA$instance {
     constructor(dwKeySize: int);
     constructor(dwKeySize: int, parameters: CspParameters);
     constructor(parameters: CspParameters);
-    readonly CspKeyContainerInfo: CspKeyContainerInfo;
-    readonly KeyExchangeAlgorithm: string;
-    KeySize: int;
-    readonly LegalKeySizes: KeySizes[];
-    PersistKeyInCsp: boolean;
-    readonly PublicOnly: boolean;
-    readonly SignatureAlgorithm: string;
-    Decrypt(data: byte[], padding: RSAEncryptionPadding): byte[];
-    Decrypt(data: ReadOnlySpan_1<CLROf<byte>>, padding: RSAEncryptionPadding): byte[];
-    Decrypt(data: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, padding: RSAEncryptionPadding): int;
-    Dispose(): void;
-    Encrypt(data: byte[], padding: RSAEncryptionPadding): byte[];
-    Encrypt(data: ReadOnlySpan_1<CLROf<byte>>, padding: RSAEncryptionPadding): byte[];
-    Encrypt(data: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, padding: RSAEncryptionPadding): int;
-    ExportCspBlob(includePrivateParameters: boolean): byte[];
-    ExportParameters(includePrivateParameters: boolean): RSAParameters;
-    FromXmlString(xmlString: string): void;
-    ImportCspBlob(keyBlob: byte[]): void;
-    ImportEncryptedPkcs8PrivateKey(passwordBytes: ReadOnlySpan_1<CLROf<byte>>, source: ReadOnlySpan_1<CLROf<byte>>, bytesRead: { value: ref<int> }): void;
-    ImportEncryptedPkcs8PrivateKey(password: ReadOnlySpan_1<CLROf<char>>, source: ReadOnlySpan_1<CLROf<byte>>, bytesRead: { value: ref<int> }): void;
-    ImportEncryptedPkcs8PrivateKey(passwordBytes: ReadOnlySpan_1<CLROf<byte>>, source: ReadOnlySpan_1<CLROf<byte>>, bytesRead: { value: ref<int> }): void;
-    ImportParameters(parameters: RSAParameters): void;
-    SignData(data: Stream, hashAlgorithm: HashAlgorithmName, padding: RSASignaturePadding): byte[];
-    SignData(data: byte[], offset: int, count: int, hashAlgorithm: HashAlgorithmName, padding: RSASignaturePadding): byte[];
-    SignData(data: byte[], hashAlgorithm: HashAlgorithmName, padding: RSASignaturePadding): byte[];
-    SignData(data: ReadOnlySpan_1<CLROf<byte>>, hashAlgorithm: HashAlgorithmName, padding: RSASignaturePadding): byte[];
-    SignData(data: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, hashAlgorithm: HashAlgorithmName, padding: RSASignaturePadding): int;
-    SignHash(hash: byte[], hashAlgorithm: HashAlgorithmName, padding: RSASignaturePadding): byte[];
-    SignHash(hash: ReadOnlySpan_1<CLROf<byte>>, hashAlgorithm: HashAlgorithmName, padding: RSASignaturePadding): byte[];
-    SignHash(hash: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, hashAlgorithm: HashAlgorithmName, padding: RSASignaturePadding): int;
-    ToXmlString(includePrivateParameters: boolean): string;
-    TryDecrypt(data: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, padding: RSAEncryptionPadding, bytesWritten: { value: ref<int> }): boolean;
-    TryDecrypt(data: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, padding: RSAEncryptionPadding, bytesWritten: { value: ref<int> }): boolean;
-    TryEncrypt(data: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, padding: RSAEncryptionPadding, bytesWritten: { value: ref<int> }): boolean;
-    TryEncrypt(data: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, padding: RSAEncryptionPadding, bytesWritten: { value: ref<int> }): boolean;
-    TrySignData(data: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, hashAlgorithm: HashAlgorithmName, padding: RSASignaturePadding, bytesWritten: { value: ref<int> }): boolean;
-    TrySignData(data: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, hashAlgorithm: HashAlgorithmName, padding: RSASignaturePadding, bytesWritten: { value: ref<int> }): boolean;
-    TrySignHash(hash: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, hashAlgorithm: HashAlgorithmName, padding: RSASignaturePadding, bytesWritten: { value: ref<int> }): boolean;
-    TrySignHash(hash: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, hashAlgorithm: HashAlgorithmName, padding: RSASignaturePadding, bytesWritten: { value: ref<int> }): boolean;
-    VerifyData(data: byte[], offset: int, count: int, signature: byte[], hashAlgorithm: HashAlgorithmName, padding: RSASignaturePadding): boolean;
-    VerifyData(data: ReadOnlySpan_1<CLROf<byte>>, signature: ReadOnlySpan_1<CLROf<byte>>, hashAlgorithm: HashAlgorithmName, padding: RSASignaturePadding): boolean;
-    VerifyData(data: byte[], signature: byte[], hashAlgorithm: HashAlgorithmName, padding: RSASignaturePadding): boolean;
-    VerifyData(data: Stream, signature: byte[], hashAlgorithm: HashAlgorithmName, padding: RSASignaturePadding): boolean;
-    VerifyData(data: ReadOnlySpan_1<CLROf<byte>>, signature: ReadOnlySpan_1<CLROf<byte>>, hashAlgorithm: HashAlgorithmName, padding: RSASignaturePadding): boolean;
-    VerifyHash(hash: byte[], signature: byte[], hashAlgorithm: HashAlgorithmName, padding: RSASignaturePadding): boolean;
-    VerifyHash(hash: ReadOnlySpan_1<CLROf<byte>>, signature: ReadOnlySpan_1<CLROf<byte>>, hashAlgorithm: HashAlgorithmName, padding: RSASignaturePadding): boolean;
-    VerifyHash(hash: ReadOnlySpan_1<CLROf<byte>>, signature: ReadOnlySpan_1<CLROf<byte>>, hashAlgorithm: HashAlgorithmName, padding: RSASignaturePadding): boolean;
+    readonly cspKeyContainerInfo: CspKeyContainerInfo;
+    readonly keyExchangeAlgorithm: string;
+    keySize: int;
+    readonly legalKeySizes: KeySizes[];
+    persistKeyInCsp: boolean;
+    readonly publicOnly: boolean;
+    readonly signatureAlgorithm: string;
+    decrypt(data: byte[], padding: RSAEncryptionPadding): byte[];
+    decrypt(data: ReadOnlySpan_1<CLROf<byte>>, padding: RSAEncryptionPadding): byte[];
+    decrypt(data: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, padding: RSAEncryptionPadding): int;
+    dispose(): void;
+    encrypt(data: byte[], padding: RSAEncryptionPadding): byte[];
+    encrypt(data: ReadOnlySpan_1<CLROf<byte>>, padding: RSAEncryptionPadding): byte[];
+    encrypt(data: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, padding: RSAEncryptionPadding): int;
+    exportCspBlob(includePrivateParameters: boolean): byte[];
+    exportParameters(includePrivateParameters: boolean): RSAParameters;
+    fromXmlString(xmlString: string): void;
+    importCspBlob(keyBlob: byte[]): void;
+    importEncryptedPkcs8PrivateKey(passwordBytes: ReadOnlySpan_1<CLROf<byte>>, source: ReadOnlySpan_1<CLROf<byte>>, bytesRead: { value: ref<int> }): void;
+    importEncryptedPkcs8PrivateKey(password: ReadOnlySpan_1<CLROf<char>>, source: ReadOnlySpan_1<CLROf<byte>>, bytesRead: { value: ref<int> }): void;
+    importEncryptedPkcs8PrivateKey(passwordBytes: ReadOnlySpan_1<CLROf<byte>>, source: ReadOnlySpan_1<CLROf<byte>>, bytesRead: { value: ref<int> }): void;
+    importParameters(parameters: RSAParameters): void;
+    signData(data: Stream, hashAlgorithm: HashAlgorithmName, padding: RSASignaturePadding): byte[];
+    signData(data: byte[], offset: int, count: int, hashAlgorithm: HashAlgorithmName, padding: RSASignaturePadding): byte[];
+    signData(data: byte[], hashAlgorithm: HashAlgorithmName, padding: RSASignaturePadding): byte[];
+    signData(data: ReadOnlySpan_1<CLROf<byte>>, hashAlgorithm: HashAlgorithmName, padding: RSASignaturePadding): byte[];
+    signData(data: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, hashAlgorithm: HashAlgorithmName, padding: RSASignaturePadding): int;
+    signHash(hash: byte[], hashAlgorithm: HashAlgorithmName, padding: RSASignaturePadding): byte[];
+    signHash(hash: ReadOnlySpan_1<CLROf<byte>>, hashAlgorithm: HashAlgorithmName, padding: RSASignaturePadding): byte[];
+    signHash(hash: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, hashAlgorithm: HashAlgorithmName, padding: RSASignaturePadding): int;
+    toXmlString(includePrivateParameters: boolean): string;
+    tryDecrypt(data: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, padding: RSAEncryptionPadding, bytesWritten: { value: ref<int> }): boolean;
+    tryDecrypt(data: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, padding: RSAEncryptionPadding, bytesWritten: { value: ref<int> }): boolean;
+    tryEncrypt(data: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, padding: RSAEncryptionPadding, bytesWritten: { value: ref<int> }): boolean;
+    tryEncrypt(data: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, padding: RSAEncryptionPadding, bytesWritten: { value: ref<int> }): boolean;
+    trySignData(data: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, hashAlgorithm: HashAlgorithmName, padding: RSASignaturePadding, bytesWritten: { value: ref<int> }): boolean;
+    trySignData(data: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, hashAlgorithm: HashAlgorithmName, padding: RSASignaturePadding, bytesWritten: { value: ref<int> }): boolean;
+    trySignHash(hash: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, hashAlgorithm: HashAlgorithmName, padding: RSASignaturePadding, bytesWritten: { value: ref<int> }): boolean;
+    trySignHash(hash: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, hashAlgorithm: HashAlgorithmName, padding: RSASignaturePadding, bytesWritten: { value: ref<int> }): boolean;
+    verifyData(data: byte[], offset: int, count: int, signature: byte[], hashAlgorithm: HashAlgorithmName, padding: RSASignaturePadding): boolean;
+    verifyData(data: ReadOnlySpan_1<CLROf<byte>>, signature: ReadOnlySpan_1<CLROf<byte>>, hashAlgorithm: HashAlgorithmName, padding: RSASignaturePadding): boolean;
+    verifyData(data: byte[], signature: byte[], hashAlgorithm: HashAlgorithmName, padding: RSASignaturePadding): boolean;
+    verifyData(data: Stream, signature: byte[], hashAlgorithm: HashAlgorithmName, padding: RSASignaturePadding): boolean;
+    verifyData(data: ReadOnlySpan_1<CLROf<byte>>, signature: ReadOnlySpan_1<CLROf<byte>>, hashAlgorithm: HashAlgorithmName, padding: RSASignaturePadding): boolean;
+    verifyHash(hash: byte[], signature: byte[], hashAlgorithm: HashAlgorithmName, padding: RSASignaturePadding): boolean;
+    verifyHash(hash: ReadOnlySpan_1<CLROf<byte>>, signature: ReadOnlySpan_1<CLROf<byte>>, hashAlgorithm: HashAlgorithmName, padding: RSASignaturePadding): boolean;
+    verifyHash(hash: ReadOnlySpan_1<CLROf<byte>>, signature: ReadOnlySpan_1<CLROf<byte>>, hashAlgorithm: HashAlgorithmName, padding: RSASignaturePadding): boolean;
     static UseMachineKeyStore: boolean;
 }
 
@@ -2948,12 +2948,12 @@ export type RSACryptoServiceProvider = RSACryptoServiceProvider$instance & __RSA
 
 
 export class RSAEncryptionPadding$instance {
-    readonly Mode: RSAEncryptionPaddingMode;
-    readonly OaepHashAlgorithm: HashAlgorithmName;
-    Equals(obj: unknown): boolean;
-    Equals(other: RSAEncryptionPadding): boolean;
-    GetHashCode(): int;
-    ToString(): string;
+    readonly mode: RSAEncryptionPaddingMode;
+    readonly oaepHashAlgorithm: HashAlgorithmName;
+    equals(obj: unknown): boolean;
+    equals(other: RSAEncryptionPadding): boolean;
+    getHashCode(): int;
+    toString(): string;
     static readonly Pkcs1: RSAEncryptionPadding;
     static readonly OaepSHA1: RSAEncryptionPadding;
     static readonly OaepSHA256: RSAEncryptionPadding;
@@ -2979,9 +2979,9 @@ export type RSAEncryptionPadding = RSAEncryptionPadding$instance & __RSAEncrypti
 export class RSAOAEPKeyExchangeDeformatter$instance extends AsymmetricKeyExchangeDeformatter$instance {
     constructor();
     constructor(key: AsymmetricAlgorithm);
-    Parameters: string;
-    DecryptKeyExchange(rgbData: byte[]): byte[];
-    SetKey(key: AsymmetricAlgorithm): void;
+    parameters: string;
+    decryptKeyExchange(rgbData: byte[]): byte[];
+    setKey(key: AsymmetricAlgorithm): void;
 }
 
 
@@ -2990,12 +2990,12 @@ export type RSAOAEPKeyExchangeDeformatter = RSAOAEPKeyExchangeDeformatter$instan
 export class RSAOAEPKeyExchangeFormatter$instance extends AsymmetricKeyExchangeFormatter$instance {
     constructor();
     constructor(key: AsymmetricAlgorithm);
-    Parameter: byte[];
-    readonly Parameters: string;
-    Rng: RandomNumberGenerator;
-    CreateKeyExchange(rgbData: byte[], symAlgType: Type): byte[];
-    CreateKeyExchange(rgbData: byte[]): byte[];
-    SetKey(key: AsymmetricAlgorithm): void;
+    parameter: byte[];
+    readonly parameters: string;
+    rng: RandomNumberGenerator;
+    createKeyExchange(rgbData: byte[], symAlgType: Type): byte[];
+    createKeyExchange(rgbData: byte[]): byte[];
+    setKey(key: AsymmetricAlgorithm): void;
 }
 
 
@@ -3007,53 +3007,53 @@ export class RSAOpenSsl$instance extends RSA$instance {
     constructor(parameters: RSAParameters);
     constructor(handle: nint);
     constructor(pkeyHandle: SafeEvpPKeyHandle);
-    KeySize: int;
-    readonly LegalKeySizes: KeySizes[];
-    Decrypt(data: byte[], padding: RSAEncryptionPadding): byte[];
-    Decrypt(data: ReadOnlySpan_1<CLROf<byte>>, padding: RSAEncryptionPadding): byte[];
-    Decrypt(data: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, padding: RSAEncryptionPadding): int;
-    Dispose(): void;
-    DuplicateKeyHandle(): SafeEvpPKeyHandle;
-    Encrypt(data: byte[], padding: RSAEncryptionPadding): byte[];
-    Encrypt(data: ReadOnlySpan_1<CLROf<byte>>, padding: RSAEncryptionPadding): byte[];
-    Encrypt(data: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, padding: RSAEncryptionPadding): int;
-    ExportParameters(includePrivateParameters: boolean): RSAParameters;
-    ExportPkcs8PrivateKey(): byte[];
-    ExportRSAPrivateKey(): byte[];
-    ExportRSAPublicKey(): byte[];
-    ExportSubjectPublicKeyInfo(): byte[];
-    ImportEncryptedPkcs8PrivateKey(passwordBytes: ReadOnlySpan_1<CLROf<byte>>, source: ReadOnlySpan_1<CLROf<byte>>, bytesRead: { value: ref<int> }): void;
-    ImportEncryptedPkcs8PrivateKey(password: ReadOnlySpan_1<CLROf<char>>, source: ReadOnlySpan_1<CLROf<byte>>, bytesRead: { value: ref<int> }): void;
-    ImportEncryptedPkcs8PrivateKey(passwordBytes: ReadOnlySpan_1<CLROf<byte>>, source: ReadOnlySpan_1<CLROf<byte>>, bytesRead: { value: ref<int> }): void;
-    ImportParameters(parameters: RSAParameters): void;
-    ImportPkcs8PrivateKey(source: ReadOnlySpan_1<CLROf<byte>>, bytesRead: { value: ref<int> }): void;
-    ImportPkcs8PrivateKey(source: ReadOnlySpan_1<CLROf<byte>>, bytesRead: { value: ref<int> }): void;
-    ImportRSAPrivateKey(source: ReadOnlySpan_1<CLROf<byte>>, bytesRead: { value: ref<int> }): void;
-    ImportRSAPrivateKey(source: ReadOnlySpan_1<CLROf<byte>>, bytesRead: { value: ref<int> }): void;
-    ImportRSAPublicKey(source: ReadOnlySpan_1<CLROf<byte>>, bytesRead: { value: ref<int> }): void;
-    ImportRSAPublicKey(source: ReadOnlySpan_1<CLROf<byte>>, bytesRead: { value: ref<int> }): void;
-    ImportSubjectPublicKeyInfo(source: ReadOnlySpan_1<CLROf<byte>>, bytesRead: { value: ref<int> }): void;
-    ImportSubjectPublicKeyInfo(source: ReadOnlySpan_1<CLROf<byte>>, bytesRead: { value: ref<int> }): void;
-    SignHash(hash: byte[], hashAlgorithm: HashAlgorithmName, padding: RSASignaturePadding): byte[];
-    SignHash(hash: ReadOnlySpan_1<CLROf<byte>>, hashAlgorithm: HashAlgorithmName, padding: RSASignaturePadding): byte[];
-    SignHash(hash: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, hashAlgorithm: HashAlgorithmName, padding: RSASignaturePadding): int;
-    TryDecrypt(data: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, padding: RSAEncryptionPadding, bytesWritten: { value: ref<int> }): boolean;
-    TryDecrypt(data: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, padding: RSAEncryptionPadding, bytesWritten: { value: ref<int> }): boolean;
-    TryEncrypt(data: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, padding: RSAEncryptionPadding, bytesWritten: { value: ref<int> }): boolean;
-    TryEncrypt(data: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, padding: RSAEncryptionPadding, bytesWritten: { value: ref<int> }): boolean;
-    TryExportPkcs8PrivateKey(destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
-    TryExportPkcs8PrivateKey(destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
-    TryExportRSAPrivateKey(destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
-    TryExportRSAPrivateKey(destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
-    TryExportRSAPublicKey(destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
-    TryExportRSAPublicKey(destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
-    TryExportSubjectPublicKeyInfo(destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
-    TryExportSubjectPublicKeyInfo(destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
-    TrySignHash(hash: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, hashAlgorithm: HashAlgorithmName, padding: RSASignaturePadding, bytesWritten: { value: ref<int> }): boolean;
-    TrySignHash(hash: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, hashAlgorithm: HashAlgorithmName, padding: RSASignaturePadding, bytesWritten: { value: ref<int> }): boolean;
-    VerifyHash(hash: byte[], signature: byte[], hashAlgorithm: HashAlgorithmName, padding: RSASignaturePadding): boolean;
-    VerifyHash(hash: ReadOnlySpan_1<CLROf<byte>>, signature: ReadOnlySpan_1<CLROf<byte>>, hashAlgorithm: HashAlgorithmName, padding: RSASignaturePadding): boolean;
-    VerifyHash(hash: ReadOnlySpan_1<CLROf<byte>>, signature: ReadOnlySpan_1<CLROf<byte>>, hashAlgorithm: HashAlgorithmName, padding: RSASignaturePadding): boolean;
+    keySize: int;
+    readonly legalKeySizes: KeySizes[];
+    decrypt(data: byte[], padding: RSAEncryptionPadding): byte[];
+    decrypt(data: ReadOnlySpan_1<CLROf<byte>>, padding: RSAEncryptionPadding): byte[];
+    decrypt(data: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, padding: RSAEncryptionPadding): int;
+    dispose(): void;
+    duplicateKeyHandle(): SafeEvpPKeyHandle;
+    encrypt(data: byte[], padding: RSAEncryptionPadding): byte[];
+    encrypt(data: ReadOnlySpan_1<CLROf<byte>>, padding: RSAEncryptionPadding): byte[];
+    encrypt(data: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, padding: RSAEncryptionPadding): int;
+    exportParameters(includePrivateParameters: boolean): RSAParameters;
+    exportPkcs8PrivateKey(): byte[];
+    exportRSAPrivateKey(): byte[];
+    exportRSAPublicKey(): byte[];
+    exportSubjectPublicKeyInfo(): byte[];
+    importEncryptedPkcs8PrivateKey(passwordBytes: ReadOnlySpan_1<CLROf<byte>>, source: ReadOnlySpan_1<CLROf<byte>>, bytesRead: { value: ref<int> }): void;
+    importEncryptedPkcs8PrivateKey(password: ReadOnlySpan_1<CLROf<char>>, source: ReadOnlySpan_1<CLROf<byte>>, bytesRead: { value: ref<int> }): void;
+    importEncryptedPkcs8PrivateKey(passwordBytes: ReadOnlySpan_1<CLROf<byte>>, source: ReadOnlySpan_1<CLROf<byte>>, bytesRead: { value: ref<int> }): void;
+    importParameters(parameters: RSAParameters): void;
+    importPkcs8PrivateKey(source: ReadOnlySpan_1<CLROf<byte>>, bytesRead: { value: ref<int> }): void;
+    importPkcs8PrivateKey(source: ReadOnlySpan_1<CLROf<byte>>, bytesRead: { value: ref<int> }): void;
+    importRSAPrivateKey(source: ReadOnlySpan_1<CLROf<byte>>, bytesRead: { value: ref<int> }): void;
+    importRSAPrivateKey(source: ReadOnlySpan_1<CLROf<byte>>, bytesRead: { value: ref<int> }): void;
+    importRSAPublicKey(source: ReadOnlySpan_1<CLROf<byte>>, bytesRead: { value: ref<int> }): void;
+    importRSAPublicKey(source: ReadOnlySpan_1<CLROf<byte>>, bytesRead: { value: ref<int> }): void;
+    importSubjectPublicKeyInfo(source: ReadOnlySpan_1<CLROf<byte>>, bytesRead: { value: ref<int> }): void;
+    importSubjectPublicKeyInfo(source: ReadOnlySpan_1<CLROf<byte>>, bytesRead: { value: ref<int> }): void;
+    signHash(hash: byte[], hashAlgorithm: HashAlgorithmName, padding: RSASignaturePadding): byte[];
+    signHash(hash: ReadOnlySpan_1<CLROf<byte>>, hashAlgorithm: HashAlgorithmName, padding: RSASignaturePadding): byte[];
+    signHash(hash: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, hashAlgorithm: HashAlgorithmName, padding: RSASignaturePadding): int;
+    tryDecrypt(data: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, padding: RSAEncryptionPadding, bytesWritten: { value: ref<int> }): boolean;
+    tryDecrypt(data: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, padding: RSAEncryptionPadding, bytesWritten: { value: ref<int> }): boolean;
+    tryEncrypt(data: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, padding: RSAEncryptionPadding, bytesWritten: { value: ref<int> }): boolean;
+    tryEncrypt(data: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, padding: RSAEncryptionPadding, bytesWritten: { value: ref<int> }): boolean;
+    tryExportPkcs8PrivateKey(destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
+    tryExportPkcs8PrivateKey(destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
+    tryExportRSAPrivateKey(destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
+    tryExportRSAPrivateKey(destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
+    tryExportRSAPublicKey(destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
+    tryExportRSAPublicKey(destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
+    tryExportSubjectPublicKeyInfo(destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
+    tryExportSubjectPublicKeyInfo(destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
+    trySignHash(hash: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, hashAlgorithm: HashAlgorithmName, padding: RSASignaturePadding, bytesWritten: { value: ref<int> }): boolean;
+    trySignHash(hash: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, hashAlgorithm: HashAlgorithmName, padding: RSASignaturePadding, bytesWritten: { value: ref<int> }): boolean;
+    verifyHash(hash: byte[], signature: byte[], hashAlgorithm: HashAlgorithmName, padding: RSASignaturePadding): boolean;
+    verifyHash(hash: ReadOnlySpan_1<CLROf<byte>>, signature: ReadOnlySpan_1<CLROf<byte>>, hashAlgorithm: HashAlgorithmName, padding: RSASignaturePadding): boolean;
+    verifyHash(hash: ReadOnlySpan_1<CLROf<byte>>, signature: ReadOnlySpan_1<CLROf<byte>>, hashAlgorithm: HashAlgorithmName, padding: RSASignaturePadding): boolean;
 }
 
 
@@ -3067,10 +3067,10 @@ export type RSAOpenSsl = RSAOpenSsl$instance & __RSAOpenSsl$views;
 export class RSAPKCS1KeyExchangeDeformatter$instance extends AsymmetricKeyExchangeDeformatter$instance {
     constructor();
     constructor(key: AsymmetricAlgorithm);
-    Parameters: string;
-    RNG: RandomNumberGenerator;
-    DecryptKeyExchange(rgbIn: byte[]): byte[];
-    SetKey(key: AsymmetricAlgorithm): void;
+    parameters: string;
+    rng: RandomNumberGenerator;
+    decryptKeyExchange(rgbIn: byte[]): byte[];
+    setKey(key: AsymmetricAlgorithm): void;
 }
 
 
@@ -3079,11 +3079,11 @@ export type RSAPKCS1KeyExchangeDeformatter = RSAPKCS1KeyExchangeDeformatter$inst
 export class RSAPKCS1KeyExchangeFormatter$instance extends AsymmetricKeyExchangeFormatter$instance {
     constructor();
     constructor(key: AsymmetricAlgorithm);
-    readonly Parameters: string;
-    Rng: RandomNumberGenerator;
-    CreateKeyExchange(rgbData: byte[], symAlgType: Type): byte[];
-    CreateKeyExchange(rgbData: byte[]): byte[];
-    SetKey(key: AsymmetricAlgorithm): void;
+    readonly parameters: string;
+    rng: RandomNumberGenerator;
+    createKeyExchange(rgbData: byte[], symAlgType: Type): byte[];
+    createKeyExchange(rgbData: byte[]): byte[];
+    setKey(key: AsymmetricAlgorithm): void;
 }
 
 
@@ -3092,10 +3092,10 @@ export type RSAPKCS1KeyExchangeFormatter = RSAPKCS1KeyExchangeFormatter$instance
 export class RSAPKCS1SignatureDeformatter$instance extends AsymmetricSignatureDeformatter$instance {
     constructor();
     constructor(key: AsymmetricAlgorithm);
-    SetHashAlgorithm(strName: string): void;
-    SetKey(key: AsymmetricAlgorithm): void;
-    VerifySignature(rgbHash: byte[], rgbSignature: byte[]): boolean;
-    VerifySignature(hash: HashAlgorithm, rgbSignature: byte[]): boolean;
+    setHashAlgorithm(strName: string): void;
+    setKey(key: AsymmetricAlgorithm): void;
+    verifySignature(rgbHash: byte[], rgbSignature: byte[]): boolean;
+    verifySignature(hash: HashAlgorithm, rgbSignature: byte[]): boolean;
 }
 
 
@@ -3104,21 +3104,21 @@ export type RSAPKCS1SignatureDeformatter = RSAPKCS1SignatureDeformatter$instance
 export class RSAPKCS1SignatureFormatter$instance extends AsymmetricSignatureFormatter$instance {
     constructor();
     constructor(key: AsymmetricAlgorithm);
-    CreateSignature(rgbHash: byte[]): byte[];
-    CreateSignature(hash: HashAlgorithm): byte[];
-    SetHashAlgorithm(strName: string): void;
-    SetKey(key: AsymmetricAlgorithm): void;
+    createSignature(rgbHash: byte[]): byte[];
+    createSignature(hash: HashAlgorithm): byte[];
+    setHashAlgorithm(strName: string): void;
+    setKey(key: AsymmetricAlgorithm): void;
 }
 
 
 export type RSAPKCS1SignatureFormatter = RSAPKCS1SignatureFormatter$instance;
 
 export class RSASignaturePadding$instance {
-    readonly Mode: RSASignaturePaddingMode;
-    Equals(obj: unknown): boolean;
-    Equals(other: RSASignaturePadding): boolean;
-    GetHashCode(): int;
-    ToString(): string;
+    readonly mode: RSASignaturePaddingMode;
+    equals(obj: unknown): boolean;
+    equals(other: RSASignaturePadding): boolean;
+    getHashCode(): int;
+    toString(): string;
     static readonly Pkcs1: RSASignaturePadding;
     static readonly Pss: RSASignaturePadding;
 }
@@ -3137,9 +3137,9 @@ export type RSASignaturePadding = RSASignaturePadding$instance & __RSASignatureP
 export class SafeEvpPKeyHandle$instance extends System_Runtime_InteropServices_Internal.SafeHandle$instance {
     constructor();
     constructor(handle: nint, ownsHandle: boolean);
-    readonly IsInvalid: boolean;
-    Dispose(): void;
-    DuplicateHandle(): SafeEvpPKeyHandle;
+    readonly isInvalid: boolean;
+    dispose(): void;
+    duplicateHandle(): SafeEvpPKeyHandle;
     static readonly OpenSslVersion: long;
     static OpenKeyFromProvider(providerName: string, keyUri: string): SafeEvpPKeyHandle;
     static OpenPrivateKeyFromEngine(engineName: string, keyId: string): SafeEvpPKeyHandle;
@@ -3155,9 +3155,9 @@ export type SafeEvpPKeyHandle = SafeEvpPKeyHandle$instance & __SafeEvpPKeyHandle
 
 
 export abstract class SHA1$instance extends HashAlgorithm$instance {
-    Dispose(): void;
-    TransformBlock(inputBuffer: byte[], inputOffset: int, inputCount: int, outputBuffer: byte[], outputOffset: int): int;
-    TransformFinalBlock(inputBuffer: byte[], inputOffset: int, inputCount: int): byte[];
+    dispose(): void;
+    transformBlock(inputBuffer: byte[], inputOffset: int, inputCount: int, outputBuffer: byte[], outputOffset: int): int;
+    transformFinalBlock(inputBuffer: byte[], inputOffset: int, inputCount: int): byte[];
     static readonly HashSizeInBits: int;
     static readonly HashSizeInBytes: int;
     static HashData(source: byte[]): byte[];
@@ -3181,10 +3181,10 @@ export type SHA1 = SHA1$instance & __SHA1$views;
 
 export class SHA1CryptoServiceProvider$instance extends SHA1$instance {
     constructor();
-    Dispose(): void;
-    Initialize(): void;
-    TransformBlock(inputBuffer: byte[], inputOffset: int, inputCount: int, outputBuffer: byte[], outputOffset: int): int;
-    TransformFinalBlock(inputBuffer: byte[], inputOffset: int, inputCount: int): byte[];
+    dispose(): void;
+    initialize(): void;
+    transformBlock(inputBuffer: byte[], inputOffset: int, inputCount: int, outputBuffer: byte[], outputOffset: int): int;
+    transformFinalBlock(inputBuffer: byte[], inputOffset: int, inputCount: int): byte[];
 }
 
 
@@ -3198,10 +3198,10 @@ export type SHA1CryptoServiceProvider = SHA1CryptoServiceProvider$instance & __S
 
 export class SHA1Managed$instance extends SHA1$instance {
     constructor();
-    Dispose(): void;
-    Initialize(): void;
-    TransformBlock(inputBuffer: byte[], inputOffset: int, inputCount: int, outputBuffer: byte[], outputOffset: int): int;
-    TransformFinalBlock(inputBuffer: byte[], inputOffset: int, inputCount: int): byte[];
+    dispose(): void;
+    initialize(): void;
+    transformBlock(inputBuffer: byte[], inputOffset: int, inputCount: int, outputBuffer: byte[], outputOffset: int): int;
+    transformFinalBlock(inputBuffer: byte[], inputOffset: int, inputCount: int): byte[];
 }
 
 
@@ -3214,9 +3214,9 @@ export type SHA1Managed = SHA1Managed$instance & __SHA1Managed$views;
 
 
 export abstract class SHA256$instance extends HashAlgorithm$instance {
-    Dispose(): void;
-    TransformBlock(inputBuffer: byte[], inputOffset: int, inputCount: int, outputBuffer: byte[], outputOffset: int): int;
-    TransformFinalBlock(inputBuffer: byte[], inputOffset: int, inputCount: int): byte[];
+    dispose(): void;
+    transformBlock(inputBuffer: byte[], inputOffset: int, inputCount: int, outputBuffer: byte[], outputOffset: int): int;
+    transformFinalBlock(inputBuffer: byte[], inputOffset: int, inputCount: int): byte[];
     static readonly HashSizeInBits: int;
     static readonly HashSizeInBytes: int;
     static HashData(source: byte[]): byte[];
@@ -3240,10 +3240,10 @@ export type SHA256 = SHA256$instance & __SHA256$views;
 
 export class SHA256CryptoServiceProvider$instance extends SHA256$instance {
     constructor();
-    Dispose(): void;
-    Initialize(): void;
-    TransformBlock(inputBuffer: byte[], inputOffset: int, inputCount: int, outputBuffer: byte[], outputOffset: int): int;
-    TransformFinalBlock(inputBuffer: byte[], inputOffset: int, inputCount: int): byte[];
+    dispose(): void;
+    initialize(): void;
+    transformBlock(inputBuffer: byte[], inputOffset: int, inputCount: int, outputBuffer: byte[], outputOffset: int): int;
+    transformFinalBlock(inputBuffer: byte[], inputOffset: int, inputCount: int): byte[];
 }
 
 
@@ -3257,10 +3257,10 @@ export type SHA256CryptoServiceProvider = SHA256CryptoServiceProvider$instance &
 
 export class SHA256Managed$instance extends SHA256$instance {
     constructor();
-    Dispose(): void;
-    Initialize(): void;
-    TransformBlock(inputBuffer: byte[], inputOffset: int, inputCount: int, outputBuffer: byte[], outputOffset: int): int;
-    TransformFinalBlock(inputBuffer: byte[], inputOffset: int, inputCount: int): byte[];
+    dispose(): void;
+    initialize(): void;
+    transformBlock(inputBuffer: byte[], inputOffset: int, inputCount: int, outputBuffer: byte[], outputOffset: int): int;
+    transformFinalBlock(inputBuffer: byte[], inputOffset: int, inputCount: int): byte[];
 }
 
 
@@ -3273,9 +3273,9 @@ export type SHA256Managed = SHA256Managed$instance & __SHA256Managed$views;
 
 
 export abstract class SHA3_256$instance extends HashAlgorithm$instance {
-    Dispose(): void;
-    TransformBlock(inputBuffer: byte[], inputOffset: int, inputCount: int, outputBuffer: byte[], outputOffset: int): int;
-    TransformFinalBlock(inputBuffer: byte[], inputOffset: int, inputCount: int): byte[];
+    dispose(): void;
+    transformBlock(inputBuffer: byte[], inputOffset: int, inputCount: int, outputBuffer: byte[], outputOffset: int): int;
+    transformFinalBlock(inputBuffer: byte[], inputOffset: int, inputCount: int): byte[];
     static readonly HashSizeInBits: int;
     static readonly HashSizeInBytes: int;
     static readonly IsSupported: boolean;
@@ -3299,9 +3299,9 @@ export type SHA3_256 = SHA3_256$instance & __SHA3_256$views;
 
 
 export abstract class SHA3_384$instance extends HashAlgorithm$instance {
-    Dispose(): void;
-    TransformBlock(inputBuffer: byte[], inputOffset: int, inputCount: int, outputBuffer: byte[], outputOffset: int): int;
-    TransformFinalBlock(inputBuffer: byte[], inputOffset: int, inputCount: int): byte[];
+    dispose(): void;
+    transformBlock(inputBuffer: byte[], inputOffset: int, inputCount: int, outputBuffer: byte[], outputOffset: int): int;
+    transformFinalBlock(inputBuffer: byte[], inputOffset: int, inputCount: int): byte[];
     static readonly HashSizeInBits: int;
     static readonly HashSizeInBytes: int;
     static readonly IsSupported: boolean;
@@ -3325,9 +3325,9 @@ export type SHA3_384 = SHA3_384$instance & __SHA3_384$views;
 
 
 export abstract class SHA3_512$instance extends HashAlgorithm$instance {
-    Dispose(): void;
-    TransformBlock(inputBuffer: byte[], inputOffset: int, inputCount: int, outputBuffer: byte[], outputOffset: int): int;
-    TransformFinalBlock(inputBuffer: byte[], inputOffset: int, inputCount: int): byte[];
+    dispose(): void;
+    transformBlock(inputBuffer: byte[], inputOffset: int, inputCount: int, outputBuffer: byte[], outputOffset: int): int;
+    transformFinalBlock(inputBuffer: byte[], inputOffset: int, inputCount: int): byte[];
     static readonly HashSizeInBits: int;
     static readonly HashSizeInBytes: int;
     static readonly IsSupported: boolean;
@@ -3351,9 +3351,9 @@ export type SHA3_512 = SHA3_512$instance & __SHA3_512$views;
 
 
 export abstract class SHA384$instance extends HashAlgorithm$instance {
-    Dispose(): void;
-    TransformBlock(inputBuffer: byte[], inputOffset: int, inputCount: int, outputBuffer: byte[], outputOffset: int): int;
-    TransformFinalBlock(inputBuffer: byte[], inputOffset: int, inputCount: int): byte[];
+    dispose(): void;
+    transformBlock(inputBuffer: byte[], inputOffset: int, inputCount: int, outputBuffer: byte[], outputOffset: int): int;
+    transformFinalBlock(inputBuffer: byte[], inputOffset: int, inputCount: int): byte[];
     static readonly HashSizeInBits: int;
     static readonly HashSizeInBytes: int;
     static HashData(source: byte[]): byte[];
@@ -3377,10 +3377,10 @@ export type SHA384 = SHA384$instance & __SHA384$views;
 
 export class SHA384CryptoServiceProvider$instance extends SHA384$instance {
     constructor();
-    Dispose(): void;
-    Initialize(): void;
-    TransformBlock(inputBuffer: byte[], inputOffset: int, inputCount: int, outputBuffer: byte[], outputOffset: int): int;
-    TransformFinalBlock(inputBuffer: byte[], inputOffset: int, inputCount: int): byte[];
+    dispose(): void;
+    initialize(): void;
+    transformBlock(inputBuffer: byte[], inputOffset: int, inputCount: int, outputBuffer: byte[], outputOffset: int): int;
+    transformFinalBlock(inputBuffer: byte[], inputOffset: int, inputCount: int): byte[];
 }
 
 
@@ -3394,10 +3394,10 @@ export type SHA384CryptoServiceProvider = SHA384CryptoServiceProvider$instance &
 
 export class SHA384Managed$instance extends SHA384$instance {
     constructor();
-    Dispose(): void;
-    Initialize(): void;
-    TransformBlock(inputBuffer: byte[], inputOffset: int, inputCount: int, outputBuffer: byte[], outputOffset: int): int;
-    TransformFinalBlock(inputBuffer: byte[], inputOffset: int, inputCount: int): byte[];
+    dispose(): void;
+    initialize(): void;
+    transformBlock(inputBuffer: byte[], inputOffset: int, inputCount: int, outputBuffer: byte[], outputOffset: int): int;
+    transformFinalBlock(inputBuffer: byte[], inputOffset: int, inputCount: int): byte[];
 }
 
 
@@ -3410,9 +3410,9 @@ export type SHA384Managed = SHA384Managed$instance & __SHA384Managed$views;
 
 
 export abstract class SHA512$instance extends HashAlgorithm$instance {
-    Dispose(): void;
-    TransformBlock(inputBuffer: byte[], inputOffset: int, inputCount: int, outputBuffer: byte[], outputOffset: int): int;
-    TransformFinalBlock(inputBuffer: byte[], inputOffset: int, inputCount: int): byte[];
+    dispose(): void;
+    transformBlock(inputBuffer: byte[], inputOffset: int, inputCount: int, outputBuffer: byte[], outputOffset: int): int;
+    transformFinalBlock(inputBuffer: byte[], inputOffset: int, inputCount: int): byte[];
     static readonly HashSizeInBits: int;
     static readonly HashSizeInBytes: int;
     static HashData(source: byte[]): byte[];
@@ -3436,10 +3436,10 @@ export type SHA512 = SHA512$instance & __SHA512$views;
 
 export class SHA512CryptoServiceProvider$instance extends SHA512$instance {
     constructor();
-    Dispose(): void;
-    Initialize(): void;
-    TransformBlock(inputBuffer: byte[], inputOffset: int, inputCount: int, outputBuffer: byte[], outputOffset: int): int;
-    TransformFinalBlock(inputBuffer: byte[], inputOffset: int, inputCount: int): byte[];
+    dispose(): void;
+    initialize(): void;
+    transformBlock(inputBuffer: byte[], inputOffset: int, inputCount: int, outputBuffer: byte[], outputOffset: int): int;
+    transformFinalBlock(inputBuffer: byte[], inputOffset: int, inputCount: int): byte[];
 }
 
 
@@ -3453,10 +3453,10 @@ export type SHA512CryptoServiceProvider = SHA512CryptoServiceProvider$instance &
 
 export class SHA512Managed$instance extends SHA512$instance {
     constructor();
-    Dispose(): void;
-    Initialize(): void;
-    TransformBlock(inputBuffer: byte[], inputOffset: int, inputCount: int, outputBuffer: byte[], outputOffset: int): int;
-    TransformFinalBlock(inputBuffer: byte[], inputOffset: int, inputCount: int): byte[];
+    dispose(): void;
+    initialize(): void;
+    transformBlock(inputBuffer: byte[], inputOffset: int, inputCount: int, outputBuffer: byte[], outputOffset: int): int;
+    transformFinalBlock(inputBuffer: byte[], inputOffset: int, inputCount: int): byte[];
 }
 
 
@@ -3470,17 +3470,17 @@ export type SHA512Managed = SHA512Managed$instance & __SHA512Managed$views;
 
 export class Shake128$instance {
     constructor();
-    AppendData(data: byte[]): void;
-    AppendData(data: ReadOnlySpan_1<CLROf<byte>>): void;
-    Clone(): Shake128;
-    Dispose(): void;
-    GetCurrentHash(outputLength: int): byte[];
-    GetCurrentHash(destination: Span_1<CLROf<byte>>): void;
-    GetHashAndReset(outputLength: int): byte[];
-    GetHashAndReset(destination: Span_1<CLROf<byte>>): void;
-    Read(outputLength: int): byte[];
-    Read(destination: Span_1<CLROf<byte>>): void;
-    Reset(): void;
+    appendData(data: byte[]): void;
+    appendData(data: ReadOnlySpan_1<CLROf<byte>>): void;
+    clone(): Shake128;
+    dispose(): void;
+    getCurrentHash(outputLength: int): byte[];
+    getCurrentHash(destination: Span_1<CLROf<byte>>): void;
+    getHashAndReset(outputLength: int): byte[];
+    getHashAndReset(destination: Span_1<CLROf<byte>>): void;
+    read(outputLength: int): byte[];
+    read(destination: Span_1<CLROf<byte>>): void;
+    reset(): void;
     static readonly IsSupported: boolean;
     static HashData(source: byte[], outputLength: int): byte[];
     static HashData(source: Stream, outputLength: int): byte[];
@@ -3501,17 +3501,17 @@ export type Shake128 = Shake128$instance & __Shake128$views;
 
 export class Shake256$instance {
     constructor();
-    AppendData(data: byte[]): void;
-    AppendData(data: ReadOnlySpan_1<CLROf<byte>>): void;
-    Clone(): Shake256;
-    Dispose(): void;
-    GetCurrentHash(outputLength: int): byte[];
-    GetCurrentHash(destination: Span_1<CLROf<byte>>): void;
-    GetHashAndReset(outputLength: int): byte[];
-    GetHashAndReset(destination: Span_1<CLROf<byte>>): void;
-    Read(outputLength: int): byte[];
-    Read(destination: Span_1<CLROf<byte>>): void;
-    Reset(): void;
+    appendData(data: byte[]): void;
+    appendData(data: ReadOnlySpan_1<CLROf<byte>>): void;
+    clone(): Shake256;
+    dispose(): void;
+    getCurrentHash(outputLength: int): byte[];
+    getCurrentHash(destination: Span_1<CLROf<byte>>): void;
+    getHashAndReset(outputLength: int): byte[];
+    getHashAndReset(destination: Span_1<CLROf<byte>>): void;
+    read(outputLength: int): byte[];
+    read(destination: Span_1<CLROf<byte>>): void;
+    reset(): void;
     static readonly IsSupported: boolean;
     static HashData(source: byte[], outputLength: int): byte[];
     static HashData(source: Stream, outputLength: int): byte[];
@@ -3533,48 +3533,48 @@ export type Shake256 = Shake256$instance & __Shake256$views;
 export class SignatureDescription$instance {
     constructor();
     constructor(el: SecurityElement);
-    DeformatterAlgorithm: string;
-    DigestAlgorithm: string;
-    FormatterAlgorithm: string;
-    KeyAlgorithm: string;
-    CreateDeformatter(key: AsymmetricAlgorithm): AsymmetricSignatureDeformatter;
-    CreateDigest(): HashAlgorithm;
-    CreateFormatter(key: AsymmetricAlgorithm): AsymmetricSignatureFormatter;
+    deformatterAlgorithm: string;
+    digestAlgorithm: string;
+    formatterAlgorithm: string;
+    keyAlgorithm: string;
+    createDeformatter(key: AsymmetricAlgorithm): AsymmetricSignatureDeformatter;
+    createDigest(): HashAlgorithm;
+    createFormatter(key: AsymmetricAlgorithm): AsymmetricSignatureFormatter;
 }
 
 
 export type SignatureDescription = SignatureDescription$instance;
 
 export abstract class SlhDsa$instance {
-    readonly Algorithm: SlhDsaAlgorithm;
-    Dispose(): void;
-    ExportEncryptedPkcs8PrivateKey(password: ReadOnlySpan_1<CLROf<char>>, pbeParameters: PbeParameters): byte[];
-    ExportEncryptedPkcs8PrivateKey(passwordBytes: ReadOnlySpan_1<CLROf<byte>>, pbeParameters: PbeParameters): byte[];
-    ExportEncryptedPkcs8PrivateKey(password: string, pbeParameters: PbeParameters): byte[];
-    ExportEncryptedPkcs8PrivateKeyPem(password: ReadOnlySpan_1<CLROf<char>>, pbeParameters: PbeParameters): string;
-    ExportEncryptedPkcs8PrivateKeyPem(passwordBytes: ReadOnlySpan_1<CLROf<byte>>, pbeParameters: PbeParameters): string;
-    ExportEncryptedPkcs8PrivateKeyPem(password: string, pbeParameters: PbeParameters): string;
-    ExportPkcs8PrivateKey(): byte[];
-    ExportPkcs8PrivateKeyPem(): string;
-    ExportSlhDsaPrivateKey(destination: Span_1<CLROf<byte>>): void;
-    ExportSlhDsaPrivateKey(): byte[];
-    ExportSlhDsaPublicKey(destination: Span_1<CLROf<byte>>): void;
-    ExportSlhDsaPublicKey(): byte[];
-    ExportSubjectPublicKeyInfo(): byte[];
-    ExportSubjectPublicKeyInfoPem(): string;
-    SignData(data: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, context?: ReadOnlySpan_1<CLROf<byte>>): void;
-    SignData(data: byte[], context?: byte[]): byte[];
-    SignPreHash(hash: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, hashAlgorithmOid: string, context?: ReadOnlySpan_1<CLROf<byte>>): void;
-    SignPreHash(hash: byte[], hashAlgorithmOid: string, context?: byte[]): byte[];
-    TryExportEncryptedPkcs8PrivateKey(password: ReadOnlySpan_1<CLROf<char>>, pbeParameters: PbeParameters, destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
-    TryExportEncryptedPkcs8PrivateKey(passwordBytes: ReadOnlySpan_1<CLROf<byte>>, pbeParameters: PbeParameters, destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
-    TryExportEncryptedPkcs8PrivateKey(password: string, pbeParameters: PbeParameters, destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
-    TryExportPkcs8PrivateKey(destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
-    TryExportSubjectPublicKeyInfo(destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
-    VerifyData(data: ReadOnlySpan_1<CLROf<byte>>, signature: ReadOnlySpan_1<CLROf<byte>>, context?: ReadOnlySpan_1<CLROf<byte>>): boolean;
-    VerifyData(data: byte[], signature: byte[], context?: byte[]): boolean;
-    VerifyPreHash(hash: ReadOnlySpan_1<CLROf<byte>>, signature: ReadOnlySpan_1<CLROf<byte>>, hashAlgorithmOid: string, context?: ReadOnlySpan_1<CLROf<byte>>): boolean;
-    VerifyPreHash(hash: byte[], signature: byte[], hashAlgorithmOid: string, context?: byte[]): boolean;
+    readonly algorithm: SlhDsaAlgorithm;
+    dispose(): void;
+    exportEncryptedPkcs8PrivateKey(password: ReadOnlySpan_1<CLROf<char>>, pbeParameters: PbeParameters): byte[];
+    exportEncryptedPkcs8PrivateKey(passwordBytes: ReadOnlySpan_1<CLROf<byte>>, pbeParameters: PbeParameters): byte[];
+    exportEncryptedPkcs8PrivateKey(password: string, pbeParameters: PbeParameters): byte[];
+    exportEncryptedPkcs8PrivateKeyPem(password: ReadOnlySpan_1<CLROf<char>>, pbeParameters: PbeParameters): string;
+    exportEncryptedPkcs8PrivateKeyPem(passwordBytes: ReadOnlySpan_1<CLROf<byte>>, pbeParameters: PbeParameters): string;
+    exportEncryptedPkcs8PrivateKeyPem(password: string, pbeParameters: PbeParameters): string;
+    exportPkcs8PrivateKey(): byte[];
+    exportPkcs8PrivateKeyPem(): string;
+    exportSlhDsaPrivateKey(destination: Span_1<CLROf<byte>>): void;
+    exportSlhDsaPrivateKey(): byte[];
+    exportSlhDsaPublicKey(destination: Span_1<CLROf<byte>>): void;
+    exportSlhDsaPublicKey(): byte[];
+    exportSubjectPublicKeyInfo(): byte[];
+    exportSubjectPublicKeyInfoPem(): string;
+    signData(data: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, context?: ReadOnlySpan_1<CLROf<byte>>): void;
+    signData(data: byte[], context?: byte[]): byte[];
+    signPreHash(hash: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, hashAlgorithmOid: string, context?: ReadOnlySpan_1<CLROf<byte>>): void;
+    signPreHash(hash: byte[], hashAlgorithmOid: string, context?: byte[]): byte[];
+    tryExportEncryptedPkcs8PrivateKey(password: ReadOnlySpan_1<CLROf<char>>, pbeParameters: PbeParameters, destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
+    tryExportEncryptedPkcs8PrivateKey(passwordBytes: ReadOnlySpan_1<CLROf<byte>>, pbeParameters: PbeParameters, destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
+    tryExportEncryptedPkcs8PrivateKey(password: string, pbeParameters: PbeParameters, destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
+    tryExportPkcs8PrivateKey(destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
+    tryExportSubjectPublicKeyInfo(destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
+    verifyData(data: ReadOnlySpan_1<CLROf<byte>>, signature: ReadOnlySpan_1<CLROf<byte>>, context?: ReadOnlySpan_1<CLROf<byte>>): boolean;
+    verifyData(data: byte[], signature: byte[], context?: byte[]): boolean;
+    verifyPreHash(hash: ReadOnlySpan_1<CLROf<byte>>, signature: ReadOnlySpan_1<CLROf<byte>>, hashAlgorithmOid: string, context?: ReadOnlySpan_1<CLROf<byte>>): boolean;
+    verifyPreHash(hash: byte[], signature: byte[], hashAlgorithmOid: string, context?: byte[]): boolean;
     static readonly IsSupported: boolean;
     static GenerateKey(algorithm: SlhDsaAlgorithm): SlhDsa;
     static ImportEncryptedPkcs8PrivateKey(passwordBytes: ReadOnlySpan_1<CLROf<byte>>, source: ReadOnlySpan_1<CLROf<byte>>): SlhDsa;
@@ -3605,14 +3605,14 @@ export type SlhDsa = SlhDsa$instance & __SlhDsa$views;
 
 
 export class SlhDsaAlgorithm$instance {
-    readonly Name: string;
-    readonly PrivateKeySizeInBytes: int;
-    readonly PublicKeySizeInBytes: int;
-    readonly SignatureSizeInBytes: int;
-    Equals(other: SlhDsaAlgorithm): boolean;
-    Equals(obj: unknown): boolean;
-    GetHashCode(): int;
-    ToString(): string;
+    readonly name: string;
+    readonly privateKeySizeInBytes: int;
+    readonly publicKeySizeInBytes: int;
+    readonly signatureSizeInBytes: int;
+    equals(other: SlhDsaAlgorithm): boolean;
+    equals(obj: unknown): boolean;
+    getHashCode(): int;
+    toString(): string;
     static readonly SlhDsaSha2_128s: SlhDsaAlgorithm;
     static readonly SlhDsaShake128s: SlhDsaAlgorithm;
     static readonly SlhDsaSha2_128f: SlhDsaAlgorithm;
@@ -3640,8 +3640,8 @@ export type SlhDsaAlgorithm = SlhDsaAlgorithm$instance & __SlhDsaAlgorithm$views
 
 export class SlhDsaCng$instance extends SlhDsa$instance {
     constructor(key: CngKey);
-    Dispose(): void;
-    GetKey(): CngKey;
+    dispose(): void;
+    getKey(): CngKey;
 }
 
 
@@ -3654,8 +3654,8 @@ export type SlhDsaCng = SlhDsaCng$instance & __SlhDsaCng$views;
 
 export class SlhDsaOpenSsl$instance extends SlhDsa$instance {
     constructor(pkeyHandle: SafeEvpPKeyHandle);
-    Dispose(): void;
-    DuplicateKeyHandle(): SafeEvpPKeyHandle;
+    dispose(): void;
+    duplicateKeyHandle(): SafeEvpPKeyHandle;
 }
 
 
@@ -3669,13 +3669,13 @@ export type SlhDsaOpenSsl = SlhDsaOpenSsl$instance & __SlhDsaOpenSsl$views;
 export class SP800108HmacCounterKdf$instance {
     constructor(key: ReadOnlySpan_1<CLROf<byte>>, hashAlgorithm: HashAlgorithmName);
     constructor(key: byte[], hashAlgorithm: HashAlgorithmName);
-    DeriveKey(label: byte[], context: byte[], derivedKeyLengthInBytes: int): byte[];
-    DeriveKey(label: ReadOnlySpan_1<CLROf<byte>>, context: ReadOnlySpan_1<CLROf<byte>>, derivedKeyLengthInBytes: int): byte[];
-    DeriveKey(label: ReadOnlySpan_1<CLROf<byte>>, context: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>): void;
-    DeriveKey(label: ReadOnlySpan_1<CLROf<char>>, context: ReadOnlySpan_1<CLROf<char>>, derivedKeyLengthInBytes: int): byte[];
-    DeriveKey(label: ReadOnlySpan_1<CLROf<char>>, context: ReadOnlySpan_1<CLROf<char>>, destination: Span_1<CLROf<byte>>): void;
-    DeriveKey(label: string, context: string, derivedKeyLengthInBytes: int): byte[];
-    Dispose(): void;
+    deriveKey(label: byte[], context: byte[], derivedKeyLengthInBytes: int): byte[];
+    deriveKey(label: ReadOnlySpan_1<CLROf<byte>>, context: ReadOnlySpan_1<CLROf<byte>>, derivedKeyLengthInBytes: int): byte[];
+    deriveKey(label: ReadOnlySpan_1<CLROf<byte>>, context: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>): void;
+    deriveKey(label: ReadOnlySpan_1<CLROf<char>>, context: ReadOnlySpan_1<CLROf<char>>, derivedKeyLengthInBytes: int): byte[];
+    deriveKey(label: ReadOnlySpan_1<CLROf<char>>, context: ReadOnlySpan_1<CLROf<char>>, destination: Span_1<CLROf<byte>>): void;
+    deriveKey(label: string, context: string, derivedKeyLengthInBytes: int): byte[];
+    dispose(): void;
     static DeriveBytes(key: byte[], hashAlgorithm: HashAlgorithmName, label: byte[], context: byte[], derivedKeyLengthInBytes: int): byte[];
     static DeriveBytes(key: byte[], hashAlgorithm: HashAlgorithmName, label: string, context: string, derivedKeyLengthInBytes: int): byte[];
     static DeriveBytes(key: ReadOnlySpan_1<CLROf<byte>>, hashAlgorithm: HashAlgorithmName, label: ReadOnlySpan_1<CLROf<byte>>, context: ReadOnlySpan_1<CLROf<byte>>, derivedKeyLengthInBytes: int): byte[];
@@ -3693,52 +3693,52 @@ export type SP800108HmacCounterKdf = SP800108HmacCounterKdf$instance & __SP80010
 
 
 export abstract class SymmetricAlgorithm$instance {
-    BlockSize: int;
-    FeedbackSize: int;
-    IV: byte[];
-    Key: byte[];
-    KeySize: int;
-    readonly LegalBlockSizes: KeySizes[];
-    readonly LegalKeySizes: KeySizes[];
-    Mode: CipherMode;
-    Padding: PaddingMode;
-    Clear(): void;
-    CreateDecryptor(): ICryptoTransform;
-    CreateDecryptor(rgbKey: byte[], rgbIV: byte[]): ICryptoTransform;
-    CreateEncryptor(): ICryptoTransform;
-    CreateEncryptor(rgbKey: byte[], rgbIV: byte[]): ICryptoTransform;
-    DecryptCbc(ciphertext: byte[], iv: byte[], paddingMode?: PaddingMode): byte[];
-    DecryptCbc(ciphertext: ReadOnlySpan_1<CLROf<byte>>, iv: ReadOnlySpan_1<CLROf<byte>>, paddingMode?: PaddingMode): byte[];
-    DecryptCbc(ciphertext: ReadOnlySpan_1<CLROf<byte>>, iv: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, paddingMode?: PaddingMode): int;
-    DecryptCfb(ciphertext: byte[], iv: byte[], paddingMode?: PaddingMode, feedbackSizeInBits?: int): byte[];
-    DecryptCfb(ciphertext: ReadOnlySpan_1<CLROf<byte>>, iv: ReadOnlySpan_1<CLROf<byte>>, paddingMode?: PaddingMode, feedbackSizeInBits?: int): byte[];
-    DecryptCfb(ciphertext: ReadOnlySpan_1<CLROf<byte>>, iv: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, paddingMode?: PaddingMode, feedbackSizeInBits?: int): int;
-    DecryptEcb(ciphertext: byte[], paddingMode: PaddingMode): byte[];
-    DecryptEcb(ciphertext: ReadOnlySpan_1<CLROf<byte>>, paddingMode: PaddingMode): byte[];
-    DecryptEcb(ciphertext: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, paddingMode: PaddingMode): int;
-    Dispose(): void;
-    EncryptCbc(plaintext: byte[], iv: byte[], paddingMode?: PaddingMode): byte[];
-    EncryptCbc(plaintext: ReadOnlySpan_1<CLROf<byte>>, iv: ReadOnlySpan_1<CLROf<byte>>, paddingMode?: PaddingMode): byte[];
-    EncryptCbc(plaintext: ReadOnlySpan_1<CLROf<byte>>, iv: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, paddingMode?: PaddingMode): int;
-    EncryptCfb(plaintext: byte[], iv: byte[], paddingMode?: PaddingMode, feedbackSizeInBits?: int): byte[];
-    EncryptCfb(plaintext: ReadOnlySpan_1<CLROf<byte>>, iv: ReadOnlySpan_1<CLROf<byte>>, paddingMode?: PaddingMode, feedbackSizeInBits?: int): byte[];
-    EncryptCfb(plaintext: ReadOnlySpan_1<CLROf<byte>>, iv: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, paddingMode?: PaddingMode, feedbackSizeInBits?: int): int;
-    EncryptEcb(plaintext: byte[], paddingMode: PaddingMode): byte[];
-    EncryptEcb(plaintext: ReadOnlySpan_1<CLROf<byte>>, paddingMode: PaddingMode): byte[];
-    EncryptEcb(plaintext: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, paddingMode: PaddingMode): int;
-    abstract GenerateIV(): void;
-    abstract GenerateKey(): void;
-    GetCiphertextLengthCbc(plaintextLength: int, paddingMode?: PaddingMode): int;
-    GetCiphertextLengthCfb(plaintextLength: int, paddingMode?: PaddingMode, feedbackSizeInBits?: int): int;
-    GetCiphertextLengthEcb(plaintextLength: int, paddingMode: PaddingMode): int;
-    SetKey(key: ReadOnlySpan_1<CLROf<byte>>): void;
-    TryDecryptCbc(ciphertext: ReadOnlySpan_1<CLROf<byte>>, iv: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }, paddingMode?: PaddingMode): boolean;
-    TryDecryptCfb(ciphertext: ReadOnlySpan_1<CLROf<byte>>, iv: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }, paddingMode?: PaddingMode, feedbackSizeInBits?: int): boolean;
-    TryDecryptEcb(ciphertext: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, paddingMode: PaddingMode, bytesWritten: { value: ref<int> }): boolean;
-    TryEncryptCbc(plaintext: ReadOnlySpan_1<CLROf<byte>>, iv: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }, paddingMode?: PaddingMode): boolean;
-    TryEncryptCfb(plaintext: ReadOnlySpan_1<CLROf<byte>>, iv: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }, paddingMode?: PaddingMode, feedbackSizeInBits?: int): boolean;
-    TryEncryptEcb(plaintext: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, paddingMode: PaddingMode, bytesWritten: { value: ref<int> }): boolean;
-    ValidKeySize(bitLength: int): boolean;
+    blockSize: int;
+    feedbackSize: int;
+    iv: byte[];
+    key: byte[];
+    keySize: int;
+    readonly legalBlockSizes: KeySizes[];
+    readonly legalKeySizes: KeySizes[];
+    mode: CipherMode;
+    padding: PaddingMode;
+    clear(): void;
+    createDecryptor(): ICryptoTransform;
+    createDecryptor(rgbKey: byte[], rgbIV: byte[]): ICryptoTransform;
+    createEncryptor(): ICryptoTransform;
+    createEncryptor(rgbKey: byte[], rgbIV: byte[]): ICryptoTransform;
+    decryptCbc(ciphertext: byte[], iv: byte[], paddingMode?: PaddingMode): byte[];
+    decryptCbc(ciphertext: ReadOnlySpan_1<CLROf<byte>>, iv: ReadOnlySpan_1<CLROf<byte>>, paddingMode?: PaddingMode): byte[];
+    decryptCbc(ciphertext: ReadOnlySpan_1<CLROf<byte>>, iv: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, paddingMode?: PaddingMode): int;
+    decryptCfb(ciphertext: byte[], iv: byte[], paddingMode?: PaddingMode, feedbackSizeInBits?: int): byte[];
+    decryptCfb(ciphertext: ReadOnlySpan_1<CLROf<byte>>, iv: ReadOnlySpan_1<CLROf<byte>>, paddingMode?: PaddingMode, feedbackSizeInBits?: int): byte[];
+    decryptCfb(ciphertext: ReadOnlySpan_1<CLROf<byte>>, iv: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, paddingMode?: PaddingMode, feedbackSizeInBits?: int): int;
+    decryptEcb(ciphertext: byte[], paddingMode: PaddingMode): byte[];
+    decryptEcb(ciphertext: ReadOnlySpan_1<CLROf<byte>>, paddingMode: PaddingMode): byte[];
+    decryptEcb(ciphertext: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, paddingMode: PaddingMode): int;
+    dispose(): void;
+    encryptCbc(plaintext: byte[], iv: byte[], paddingMode?: PaddingMode): byte[];
+    encryptCbc(plaintext: ReadOnlySpan_1<CLROf<byte>>, iv: ReadOnlySpan_1<CLROf<byte>>, paddingMode?: PaddingMode): byte[];
+    encryptCbc(plaintext: ReadOnlySpan_1<CLROf<byte>>, iv: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, paddingMode?: PaddingMode): int;
+    encryptCfb(plaintext: byte[], iv: byte[], paddingMode?: PaddingMode, feedbackSizeInBits?: int): byte[];
+    encryptCfb(plaintext: ReadOnlySpan_1<CLROf<byte>>, iv: ReadOnlySpan_1<CLROf<byte>>, paddingMode?: PaddingMode, feedbackSizeInBits?: int): byte[];
+    encryptCfb(plaintext: ReadOnlySpan_1<CLROf<byte>>, iv: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, paddingMode?: PaddingMode, feedbackSizeInBits?: int): int;
+    encryptEcb(plaintext: byte[], paddingMode: PaddingMode): byte[];
+    encryptEcb(plaintext: ReadOnlySpan_1<CLROf<byte>>, paddingMode: PaddingMode): byte[];
+    encryptEcb(plaintext: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, paddingMode: PaddingMode): int;
+    abstract generateIV(): void;
+    abstract generateKey(): void;
+    getCiphertextLengthCbc(plaintextLength: int, paddingMode?: PaddingMode): int;
+    getCiphertextLengthCfb(plaintextLength: int, paddingMode?: PaddingMode, feedbackSizeInBits?: int): int;
+    getCiphertextLengthEcb(plaintextLength: int, paddingMode: PaddingMode): int;
+    setKey(key: ReadOnlySpan_1<CLROf<byte>>): void;
+    tryDecryptCbc(ciphertext: ReadOnlySpan_1<CLROf<byte>>, iv: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }, paddingMode?: PaddingMode): boolean;
+    tryDecryptCfb(ciphertext: ReadOnlySpan_1<CLROf<byte>>, iv: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }, paddingMode?: PaddingMode, feedbackSizeInBits?: int): boolean;
+    tryDecryptEcb(ciphertext: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, paddingMode: PaddingMode, bytesWritten: { value: ref<int> }): boolean;
+    tryEncryptCbc(plaintext: ReadOnlySpan_1<CLROf<byte>>, iv: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }, paddingMode?: PaddingMode): boolean;
+    tryEncryptCfb(plaintext: ReadOnlySpan_1<CLROf<byte>>, iv: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }, paddingMode?: PaddingMode, feedbackSizeInBits?: int): boolean;
+    tryEncryptEcb(plaintext: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, paddingMode: PaddingMode, bytesWritten: { value: ref<int> }): boolean;
+    validKeySize(bitLength: int): boolean;
     static Create(): SymmetricAlgorithm;
     static Create(algName: string): SymmetricAlgorithm;
 }
@@ -3753,14 +3753,14 @@ export type SymmetricAlgorithm = SymmetricAlgorithm$instance & __SymmetricAlgori
 
 export class ToBase64Transform$instance {
     constructor();
-    readonly CanReuseTransform: boolean;
-    readonly CanTransformMultipleBlocks: boolean;
-    readonly InputBlockSize: int;
-    readonly OutputBlockSize: int;
-    Clear(): void;
-    Dispose(): void;
-    TransformBlock(inputBuffer: byte[], inputOffset: int, inputCount: int, outputBuffer: byte[], outputOffset: int): int;
-    TransformFinalBlock(inputBuffer: byte[], inputOffset: int, inputCount: int): byte[];
+    readonly canReuseTransform: boolean;
+    readonly canTransformMultipleBlocks: boolean;
+    readonly inputBlockSize: int;
+    readonly outputBlockSize: int;
+    clear(): void;
+    dispose(): void;
+    transformBlock(inputBuffer: byte[], inputOffset: int, inputCount: int, outputBuffer: byte[], outputOffset: int): int;
+    transformFinalBlock(inputBuffer: byte[], inputOffset: int, inputCount: int): byte[];
 }
 
 
@@ -3773,8 +3773,8 @@ export type ToBase64Transform = ToBase64Transform$instance & __ToBase64Transform
 
 
 export abstract class TripleDES$instance extends SymmetricAlgorithm$instance {
-    Key: byte[];
-    Dispose(): void;
+    key: byte[];
+    dispose(): void;
     static IsWeakKey(rgbKey: byte[]): boolean;
 }
 
@@ -3791,13 +3791,13 @@ export class TripleDESCng$instance extends TripleDES$instance {
     constructor(keyName: string);
     constructor(keyName: string, provider: CngProvider);
     constructor(keyName: string, provider: CngProvider, openOptions: CngKeyOpenOptions);
-    CreateDecryptor(rgbKey: byte[], rgbIV: byte[]): ICryptoTransform;
-    CreateDecryptor(): ICryptoTransform;
-    CreateEncryptor(rgbKey: byte[], rgbIV: byte[]): ICryptoTransform;
-    CreateEncryptor(): ICryptoTransform;
-    Dispose(): void;
-    GenerateIV(): void;
-    GenerateKey(): void;
+    createDecryptor(rgbKey: byte[], rgbIV: byte[]): ICryptoTransform;
+    createDecryptor(): ICryptoTransform;
+    createEncryptor(rgbKey: byte[], rgbIV: byte[]): ICryptoTransform;
+    createEncryptor(): ICryptoTransform;
+    dispose(): void;
+    generateIV(): void;
+    generateKey(): void;
 }
 
 
@@ -3810,22 +3810,22 @@ export type TripleDESCng = TripleDESCng$instance & __TripleDESCng$views;
 
 export class TripleDESCryptoServiceProvider$instance extends TripleDES$instance {
     constructor();
-    BlockSize: int;
-    FeedbackSize: int;
-    IV: byte[];
-    Key: byte[];
-    KeySize: int;
-    readonly LegalBlockSizes: KeySizes[];
-    readonly LegalKeySizes: KeySizes[];
-    Mode: CipherMode;
-    Padding: PaddingMode;
-    CreateDecryptor(): ICryptoTransform;
-    CreateDecryptor(rgbKey: byte[], rgbIV: byte[]): ICryptoTransform;
-    CreateEncryptor(): ICryptoTransform;
-    CreateEncryptor(rgbKey: byte[], rgbIV: byte[]): ICryptoTransform;
-    Dispose(): void;
-    GenerateIV(): void;
-    GenerateKey(): void;
+    blockSize: int;
+    feedbackSize: int;
+    iv: byte[];
+    key: byte[];
+    keySize: int;
+    readonly legalBlockSizes: KeySizes[];
+    readonly legalKeySizes: KeySizes[];
+    mode: CipherMode;
+    padding: PaddingMode;
+    createDecryptor(): ICryptoTransform;
+    createDecryptor(rgbKey: byte[], rgbIV: byte[]): ICryptoTransform;
+    createEncryptor(): ICryptoTransform;
+    createEncryptor(rgbKey: byte[], rgbIV: byte[]): ICryptoTransform;
+    dispose(): void;
+    generateIV(): void;
+    generateKey(): void;
 }
 
 

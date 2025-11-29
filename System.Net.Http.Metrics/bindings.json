@@ -11,7 +11,7 @@
         {
           "stableId": "System.Net.Http:System.Net.Http.Metrics.HttpMetricsEnrichmentContext::AddCustomTag(System.String,System.Object):System.Void",
           "clrName": "AddCustomTag",
-          "tsEmitName": "AddCustomTag",
+          "tsEmitName": "addCustomTag",
           "metadataToken": 100665659,
           "canonicalSignature": "(System.String,System.Object):System.Void",
           "normalizedSignature": "AddCustomTag|(System.String,System.Object):System.Void|static=false",
@@ -25,7 +25,7 @@
         {
           "stableId": "System.Net.Http:System.Net.Http.Metrics.HttpMetricsEnrichmentContext::AddCallback(System.Net.Http.HttpRequestMessage,System.Action_1[[System.Net.Http.Metrics.HttpMetricsEnrichmentContext,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):System.Void",
           "clrName": "AddCallback",
-          "tsEmitName": "AddCallback",
+          "tsEmitName": "addCallback",
           "metadataToken": 100665660,
           "canonicalSignature": "(System.Net.Http.HttpRequestMessage,System.Action_1[[System.Net.Http.Metrics.HttpMetricsEnrichmentContext,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):System.Void",
           "normalizedSignature": "AddCallback|(System.Net.Http.HttpRequestMessage,System.Action_1[[System.Net.Http.Metrics.HttpMetricsEnrichmentContext,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):System.Void|static=true",
@@ -41,7 +41,7 @@
         {
           "stableId": "System.Net.Http:System.Net.Http.Metrics.HttpMetricsEnrichmentContext::Request:System.Net.Http.HttpRequestMessage",
           "clrName": "Request",
-          "tsEmitName": "Request",
+          "tsEmitName": "request",
           "metadataToken": 385876422,
           "canonicalSignature": ":System.Net.Http.HttpRequestMessage",
           "normalizedSignature": "Request|:System.Net.Http.HttpRequestMessage|static=false|accessor=get",
@@ -55,7 +55,7 @@
         {
           "stableId": "System.Net.Http:System.Net.Http.Metrics.HttpMetricsEnrichmentContext::Response:System.Net.Http.HttpResponseMessage",
           "clrName": "Response",
-          "tsEmitName": "Response",
+          "tsEmitName": "response",
           "metadataToken": 385876423,
           "canonicalSignature": ":System.Net.Http.HttpResponseMessage",
           "normalizedSignature": "Response|:System.Net.Http.HttpResponseMessage|static=false|accessor=get",
@@ -69,7 +69,7 @@
         {
           "stableId": "System.Net.Http:System.Net.Http.Metrics.HttpMetricsEnrichmentContext::Exception:System.Exception",
           "clrName": "Exception",
-          "tsEmitName": "Exception",
+          "tsEmitName": "exception",
           "metadataToken": 385876424,
           "canonicalSignature": ":System.Exception",
           "normalizedSignature": "Exception|:System.Exception|static=false|accessor=get",
@@ -86,7 +86,7 @@
       "constructors": [],
       "exposedMethods": [
         {
-          "tsName": "AddCustomTag",
+          "tsName": "addCustomTag",
           "isStatic": false,
           "tsSignatureId": "AddCustomTag|(System.String,System.Object):System.Void|static=false",
           "target": {
@@ -96,7 +96,7 @@
           }
         },
         {
-          "tsName": "AddCallback",
+          "tsName": "addCallback",
           "isStatic": true,
           "tsSignatureId": "AddCallback|(System.Net.Http.HttpRequestMessage,System.Action_1[[System.Net.Http.Metrics.HttpMetricsEnrichmentContext,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):System.Void|static=true",
           "target": {
@@ -106,7 +106,7 @@
           }
         },
         {
-          "tsName": "GetType",
+          "tsName": "getType",
           "isStatic": false,
           "tsSignatureId": "GetType|():System.Type|static=false",
           "target": {
@@ -116,7 +116,7 @@
           }
         },
         {
-          "tsName": "ToString",
+          "tsName": "toString",
           "isStatic": false,
           "tsSignatureId": "ToString|():System.String|static=false",
           "target": {
@@ -126,7 +126,7 @@
           }
         },
         {
-          "tsName": "Equals",
+          "tsName": "equals",
           "isStatic": false,
           "tsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
           "target": {
@@ -136,7 +136,7 @@
           }
         },
         {
-          "tsName": "Equals",
+          "tsName": "equals",
           "isStatic": true,
           "tsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
           "target": {
@@ -146,7 +146,7 @@
           }
         },
         {
-          "tsName": "ReferenceEquals",
+          "tsName": "referenceEquals",
           "isStatic": true,
           "tsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
           "target": {
@@ -156,7 +156,7 @@
           }
         },
         {
-          "tsName": "GetHashCode",
+          "tsName": "getHashCode",
           "isStatic": false,
           "tsSignatureId": "GetHashCode|():System.Int32|static=false",
           "target": {
@@ -168,7 +168,7 @@
       ],
       "exposedProperties": [
         {
-          "tsName": "Request",
+          "tsName": "request",
           "isStatic": false,
           "tsSignatureId": "Request|:System.Net.Http.HttpRequestMessage|static=false|accessor=get",
           "target": {
@@ -178,7 +178,7 @@
           }
         },
         {
-          "tsName": "Response",
+          "tsName": "response",
           "isStatic": false,
           "tsSignatureId": "Response|:System.Net.Http.HttpResponseMessage|static=false|accessor=get",
           "target": {
@@ -188,7 +188,7 @@
           }
         },
         {
-          "tsName": "Exception",
+          "tsName": "exception",
           "isStatic": false,
           "tsSignatureId": "Exception|:System.Exception|static=false|accessor=get",
           "target": {

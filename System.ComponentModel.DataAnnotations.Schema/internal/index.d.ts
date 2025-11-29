@@ -35,18 +35,18 @@ export type CLROf<T> =
     T; // Identity fallback for non-primitive types
 
 export enum DatabaseGeneratedOption {
-    None = 0,
-    Identity = 1,
-    Computed = 2
+    none = 0,
+    identity = 1,
+    computed = 2
 }
 
 
 export class ColumnAttribute$instance extends System_Internal.Attribute$instance {
     constructor();
     constructor(name: string);
-    readonly Name: string;
-    Order: int;
-    TypeName: string;
+    readonly name: string;
+    order: int;
+    typeName: string;
 }
 
 
@@ -61,7 +61,7 @@ export type ComplexTypeAttribute = ComplexTypeAttribute$instance;
 
 export class DatabaseGeneratedAttribute$instance extends System_Internal.Attribute$instance {
     constructor(databaseGeneratedOption: DatabaseGeneratedOption);
-    readonly DatabaseGeneratedOption: DatabaseGeneratedOption;
+    readonly databaseGeneratedOption: DatabaseGeneratedOption;
 }
 
 
@@ -69,7 +69,7 @@ export type DatabaseGeneratedAttribute = DatabaseGeneratedAttribute$instance;
 
 export class ForeignKeyAttribute$instance extends System_Internal.Attribute$instance {
     constructor(name: string);
-    readonly Name: string;
+    readonly name: string;
 }
 
 
@@ -77,7 +77,7 @@ export type ForeignKeyAttribute = ForeignKeyAttribute$instance;
 
 export class InversePropertyAttribute$instance extends System_Internal.Attribute$instance {
     constructor(property: string);
-    readonly Property: string;
+    readonly property: string;
 }
 
 
@@ -92,8 +92,8 @@ export type NotMappedAttribute = NotMappedAttribute$instance;
 
 export class TableAttribute$instance extends System_Internal.Attribute$instance {
     constructor(name: string);
-    readonly Name: string;
-    Schema: string;
+    readonly name: string;
+    schema: string;
 }
 
 

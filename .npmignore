@@ -1,0 +1,5 @@
+# Don't publish generation scripts
+scripts/
+
+# Don't publish test artifacts
+.tests/

@@ -18,7 +18,7 @@
         {
           "stableId": "System.ObjectModel:System.Windows.Input.ICommand::CanExecute(System.Object):System.Boolean",
           "clrName": "CanExecute",
-          "tsEmitName": "CanExecute",
+          "tsEmitName": "canExecute",
           "normalizedSignature": "CanExecute|(System.Object):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -34,7 +34,7 @@
         {
           "stableId": "System.ObjectModel:System.Windows.Input.ICommand::Execute(System.Object):System.Void",
           "clrName": "Execute",
-          "tsEmitName": "Execute",
+          "tsEmitName": "execute",
           "normalizedSignature": "Execute|(System.Object):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -54,7 +54,7 @@
         {
           "stableId": "System.ObjectModel:System.Windows.Input.ICommand::CanExecuteChangedSystem.EventHandler",
           "clrName": "CanExecuteChanged",
-          "tsEmitName": "CanExecuteChanged",
+          "tsEmitName": "canExecuteChanged",
           "normalizedSignature": "CanExecuteChanged|System.EventHandler|static=false",
           "isStatic": false
         }

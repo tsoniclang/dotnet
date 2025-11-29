@@ -42,10 +42,10 @@ export type CLROf<T> =
     T; // Identity fallback for non-primitive types
 
 export enum JsonTypeInfoKind {
-    None = 0,
-    Object = 1,
-    Enumerable = 2,
-    Dictionary = 3
+    none = 0,
+    object_ = 1,
+    enumerable = 2,
+    dictionary = 3
 }
 
 
@@ -60,8 +60,8 @@ export class JsonDerivedType$instance {
     constructor(derivedType: Type);
     constructor(derivedType: Type, typeDiscriminator: int);
     constructor(derivedType: Type, typeDiscriminator: string);
-    readonly DerivedType: Type;
-    readonly TypeDiscriminator: unknown;
+    readonly derivedType: Type;
+    readonly typeDiscriminator: unknown;
 }
 
 
@@ -69,8 +69,8 @@ export type JsonDerivedType = JsonDerivedType$instance;
 
 export class DefaultJsonTypeInfoResolver$instance {
     constructor();
-    readonly Modifiers: IList_1<Action_1<JsonTypeInfo>>;
-    GetTypeInfo(type_: Type, options: JsonSerializerOptions): JsonTypeInfo;
+    readonly modifiers: IList_1<Action_1<JsonTypeInfo>>;
+    getTypeInfo(type_: Type, options: JsonSerializerOptions): JsonTypeInfo;
 }
 
 
@@ -83,11 +83,11 @@ export type DefaultJsonTypeInfoResolver = DefaultJsonTypeInfoResolver$instance &
 
 export class JsonCollectionInfoValues_1$instance<TCollection> {
     constructor();
-    ElementInfo: JsonTypeInfo;
-    KeyInfo: JsonTypeInfo;
-    NumberHandling: JsonNumberHandling;
-    ObjectCreator: Func_1<TCollection>;
-    SerializeHandler: Action_2<Utf8JsonWriter, TCollection>;
+    elementInfo: JsonTypeInfo;
+    keyInfo: JsonTypeInfo;
+    numberHandling: JsonNumberHandling;
+    objectCreator: Func_1<TCollection>;
+    serializeHandler: Action_2<Utf8JsonWriter, TCollection>;
 }
 
 
@@ -95,28 +95,28 @@ export type JsonCollectionInfoValues_1<TCollection> = JsonCollectionInfoValues_1
 
 export class JsonObjectInfoValues_1$instance<T> {
     constructor();
-    ConstructorAttributeProviderFactory: Func_1<ICustomAttributeProvider>;
-    ConstructorParameterMetadataInitializer: Func_1<JsonParameterInfoValues[]>;
-    NumberHandling: JsonNumberHandling;
-    ObjectCreator: Func_1<T>;
-    ObjectWithParameterizedConstructorCreator: Func_2<unknown[], T>;
-    PropertyMetadataInitializer: Func_2<JsonSerializerContext, JsonPropertyInfo[]>;
-    SerializeHandler: Action_2<Utf8JsonWriter, T>;
+    constructorAttributeProviderFactory: Func_1<ICustomAttributeProvider>;
+    constructorParameterMetadataInitializer: Func_1<JsonParameterInfoValues[]>;
+    numberHandling: JsonNumberHandling;
+    objectCreator: Func_1<T>;
+    objectWithParameterizedConstructorCreator: Func_2<unknown[], T>;
+    propertyMetadataInitializer: Func_2<JsonSerializerContext, JsonPropertyInfo[]>;
+    serializeHandler: Action_2<Utf8JsonWriter, T>;
 }
 
 
 export type JsonObjectInfoValues_1<T> = JsonObjectInfoValues_1$instance<T>;
 
 export abstract class JsonParameterInfo$instance {
-    readonly AttributeProvider: ICustomAttributeProvider;
-    readonly DeclaringType: Type;
-    readonly DefaultValue: unknown;
-    readonly HasDefaultValue: boolean;
-    readonly IsMemberInitializer: boolean;
-    readonly IsNullable: boolean;
-    readonly Name: string;
-    readonly ParameterType: Type;
-    readonly Position: int;
+    readonly attributeProvider: ICustomAttributeProvider;
+    readonly declaringType: Type;
+    readonly defaultValue: unknown;
+    readonly hasDefaultValue: boolean;
+    readonly isMemberInitializer: boolean;
+    readonly isNullable: boolean;
+    readonly name: string;
+    readonly parameterType: Type;
+    readonly position: int;
 }
 
 
@@ -124,13 +124,13 @@ export type JsonParameterInfo = JsonParameterInfo$instance;
 
 export class JsonParameterInfoValues$instance {
     constructor();
-    DefaultValue: unknown;
-    HasDefaultValue: boolean;
-    IsMemberInitializer: boolean;
-    IsNullable: boolean;
-    Name: string;
-    ParameterType: Type;
-    Position: int;
+    defaultValue: unknown;
+    hasDefaultValue: boolean;
+    isMemberInitializer: boolean;
+    isNullable: boolean;
+    name: string;
+    parameterType: Type;
+    position: int;
 }
 
 
@@ -138,33 +138,33 @@ export type JsonParameterInfoValues = JsonParameterInfoValues$instance;
 
 export class JsonPolymorphismOptions$instance {
     constructor();
-    readonly DerivedTypes: IList_1<JsonDerivedType>;
-    IgnoreUnrecognizedTypeDiscriminators: boolean;
-    TypeDiscriminatorPropertyName: string;
-    UnknownDerivedTypeHandling: JsonUnknownDerivedTypeHandling;
+    readonly derivedTypes: IList_1<JsonDerivedType>;
+    ignoreUnrecognizedTypeDiscriminators: boolean;
+    typeDiscriminatorPropertyName: string;
+    unknownDerivedTypeHandling: JsonUnknownDerivedTypeHandling;
 }
 
 
 export type JsonPolymorphismOptions = JsonPolymorphismOptions$instance;
 
 export abstract class JsonPropertyInfo$instance {
-    readonly AssociatedParameter: JsonParameterInfo;
-    AttributeProvider: ICustomAttributeProvider;
-    CustomConverter: JsonConverter;
-    readonly DeclaringType: Type;
-    Get: Func_2<unknown, unknown>;
-    IsExtensionData: boolean;
-    IsGetNullable: boolean;
-    IsRequired: boolean;
-    IsSetNullable: boolean;
-    Name: string;
-    NumberHandling: Nullable_1<JsonNumberHandling>;
-    ObjectCreationHandling: Nullable_1<JsonObjectCreationHandling>;
-    readonly Options: JsonSerializerOptions;
-    Order: int;
-    readonly PropertyType: Type;
-    Set: Action_2<unknown, unknown>;
-    ShouldSerialize: Func_3<unknown, unknown, CLROf<boolean>>;
+    readonly associatedParameter: JsonParameterInfo;
+    attributeProvider: ICustomAttributeProvider;
+    customConverter: JsonConverter;
+    readonly declaringType: Type;
+    get_: Func_2<unknown, unknown>;
+    isExtensionData: boolean;
+    isGetNullable: boolean;
+    isRequired: boolean;
+    isSetNullable: boolean;
+    name: string;
+    numberHandling: Nullable_1<JsonNumberHandling>;
+    objectCreationHandling: Nullable_1<JsonObjectCreationHandling>;
+    readonly options: JsonSerializerOptions;
+    order: int;
+    readonly propertyType: Type;
+    set_: Action_2<unknown, unknown>;
+    shouldSerialize: Func_3<unknown, unknown, CLROf<boolean>>;
 }
 
 
@@ -172,48 +172,48 @@ export type JsonPropertyInfo = JsonPropertyInfo$instance;
 
 export class JsonPropertyInfoValues_1$instance<T> {
     constructor();
-    AttributeProviderFactory: Func_1<ICustomAttributeProvider>;
-    Converter: JsonConverter_1<T>;
-    DeclaringType: Type;
-    Getter: Func_2<unknown, T>;
-    HasJsonInclude: boolean;
-    IgnoreCondition: Nullable_1<JsonIgnoreCondition>;
-    IsExtensionData: boolean;
-    IsProperty: boolean;
-    IsPublic: boolean;
-    IsVirtual: boolean;
-    JsonPropertyName: string;
-    NumberHandling: Nullable_1<JsonNumberHandling>;
-    PropertyName: string;
-    PropertyTypeInfo: JsonTypeInfo;
-    Setter: Action_2<unknown, T>;
+    attributeProviderFactory: Func_1<ICustomAttributeProvider>;
+    converter: JsonConverter_1<T>;
+    declaringType: Type;
+    getter: Func_2<unknown, T>;
+    hasJsonInclude: boolean;
+    ignoreCondition: Nullable_1<JsonIgnoreCondition>;
+    isExtensionData: boolean;
+    isProperty: boolean;
+    isPublic: boolean;
+    isVirtual: boolean;
+    jsonPropertyName: string;
+    numberHandling: Nullable_1<JsonNumberHandling>;
+    propertyName: string;
+    propertyTypeInfo: JsonTypeInfo;
+    setter: Action_2<unknown, T>;
 }
 
 
 export type JsonPropertyInfoValues_1<T> = JsonPropertyInfoValues_1$instance<T>;
 
 export abstract class JsonTypeInfo$instance {
-    readonly ConstructorAttributeProvider: ICustomAttributeProvider;
-    readonly Converter: JsonConverter;
-    CreateObject: Func_1<unknown>;
-    readonly ElementType: Type;
-    readonly IsReadOnly: boolean;
-    readonly KeyType: Type;
-    readonly Kind: JsonTypeInfoKind;
-    NumberHandling: Nullable_1<JsonNumberHandling>;
-    OnDeserialized: Action_1<unknown>;
-    OnDeserializing: Action_1<unknown>;
-    OnSerialized: Action_1<unknown>;
-    OnSerializing: Action_1<unknown>;
-    readonly Options: JsonSerializerOptions;
-    OriginatingResolver: IJsonTypeInfoResolver;
-    PolymorphismOptions: JsonPolymorphismOptions;
-    PreferredPropertyObjectCreationHandling: Nullable_1<JsonObjectCreationHandling>;
-    readonly Properties: IList_1<JsonPropertyInfo>;
-    readonly Type: Type;
-    UnmappedMemberHandling: Nullable_1<JsonUnmappedMemberHandling>;
-    CreateJsonPropertyInfo(propertyType: Type, name: string): JsonPropertyInfo;
-    MakeReadOnly(): void;
+    readonly constructorAttributeProvider: ICustomAttributeProvider;
+    readonly converter: JsonConverter;
+    createObject: Func_1<unknown>;
+    readonly elementType: Type;
+    readonly isReadOnly: boolean;
+    readonly keyType: Type;
+    readonly kind: JsonTypeInfoKind;
+    numberHandling: Nullable_1<JsonNumberHandling>;
+    onDeserialized: Action_1<unknown>;
+    onDeserializing: Action_1<unknown>;
+    onSerialized: Action_1<unknown>;
+    onSerializing: Action_1<unknown>;
+    readonly options: JsonSerializerOptions;
+    originatingResolver: IJsonTypeInfoResolver;
+    polymorphismOptions: JsonPolymorphismOptions;
+    preferredPropertyObjectCreationHandling: Nullable_1<JsonObjectCreationHandling>;
+    readonly properties: IList_1<JsonPropertyInfo>;
+    readonly type_: Type;
+    unmappedMemberHandling: Nullable_1<JsonUnmappedMemberHandling>;
+    createJsonPropertyInfo(propertyType: Type, name: string): JsonPropertyInfo;
+    makeReadOnly(): void;
     static CreateJsonTypeInfo<T>(options: JsonSerializerOptions): JsonTypeInfo_1<T>;
     static CreateJsonTypeInfo(type_: Type, options: JsonSerializerOptions): JsonTypeInfo;
 }
@@ -222,8 +222,8 @@ export abstract class JsonTypeInfo$instance {
 export type JsonTypeInfo = JsonTypeInfo$instance;
 
 export class JsonTypeInfo_1$instance<T> extends JsonTypeInfo$instance {
-    CreateObject: Func_1<T>;
-    readonly SerializeHandler: Action_2<Utf8JsonWriter, T>;
+    createObject: Func_1<T>;
+    readonly serializeHandler: Action_2<Utf8JsonWriter, T>;
 }
 
 

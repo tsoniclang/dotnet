@@ -64,31 +64,31 @@ export class DataContractJsonSerializer$instance extends System_Runtime_Serializ
     constructor(type_: Type, rootName: string, knownTypes: IEnumerable_1<Type>);
     constructor(type_: Type, rootName: XmlDictionaryString, knownTypes: IEnumerable_1<Type>);
     constructor(type_: Type, settings: DataContractJsonSerializerSettings);
-    readonly DateTimeFormat: DateTimeFormat;
-    readonly EmitTypeInformation: EmitTypeInformation;
-    readonly IgnoreExtensionDataObject: boolean;
-    readonly KnownTypes: ReadOnlyCollection_1<Type>;
-    readonly MaxItemsInObjectGraph: int;
-    readonly SerializeReadOnlyTypes: boolean;
-    readonly UseSimpleDictionaryFormat: boolean;
-    GetSerializationSurrogateProvider(): ISerializationSurrogateProvider;
-    IsStartObject(reader: XmlReader): boolean;
-    IsStartObject(reader: XmlDictionaryReader): boolean;
-    ReadObject(stream: Stream): unknown;
-    ReadObject(reader: XmlReader): unknown;
-    ReadObject(reader: XmlReader, verifyObjectName: boolean): unknown;
-    ReadObject(reader: XmlDictionaryReader): unknown;
-    ReadObject(reader: XmlDictionaryReader, verifyObjectName: boolean): unknown;
-    SetSerializationSurrogateProvider(provider: ISerializationSurrogateProvider): void;
-    WriteEndObject(writer: XmlWriter): void;
-    WriteEndObject(writer: XmlDictionaryWriter): void;
-    WriteObject(stream: Stream, graph: unknown): void;
-    WriteObject(writer: XmlWriter, graph: unknown): void;
-    WriteObject(writer: XmlDictionaryWriter, graph: unknown): void;
-    WriteObjectContent(writer: XmlWriter, graph: unknown): void;
-    WriteObjectContent(writer: XmlDictionaryWriter, graph: unknown): void;
-    WriteStartObject(writer: XmlWriter, graph: unknown): void;
-    WriteStartObject(writer: XmlDictionaryWriter, graph: unknown): void;
+    readonly dateTimeFormat: DateTimeFormat;
+    readonly emitTypeInformation: EmitTypeInformation;
+    readonly ignoreExtensionDataObject: boolean;
+    readonly knownTypes: ReadOnlyCollection_1<Type>;
+    readonly maxItemsInObjectGraph: int;
+    readonly serializeReadOnlyTypes: boolean;
+    readonly useSimpleDictionaryFormat: boolean;
+    getSerializationSurrogateProvider(): ISerializationSurrogateProvider;
+    isStartObject(reader: XmlReader): boolean;
+    isStartObject(reader: XmlDictionaryReader): boolean;
+    readObject(stream: Stream): unknown;
+    readObject(reader: XmlReader): unknown;
+    readObject(reader: XmlReader, verifyObjectName: boolean): unknown;
+    readObject(reader: XmlDictionaryReader): unknown;
+    readObject(reader: XmlDictionaryReader, verifyObjectName: boolean): unknown;
+    setSerializationSurrogateProvider(provider: ISerializationSurrogateProvider): void;
+    writeEndObject(writer: XmlWriter): void;
+    writeEndObject(writer: XmlDictionaryWriter): void;
+    writeObject(stream: Stream, graph: unknown): void;
+    writeObject(writer: XmlWriter, graph: unknown): void;
+    writeObject(writer: XmlDictionaryWriter, graph: unknown): void;
+    writeObjectContent(writer: XmlWriter, graph: unknown): void;
+    writeObjectContent(writer: XmlDictionaryWriter, graph: unknown): void;
+    writeStartObject(writer: XmlWriter, graph: unknown): void;
+    writeStartObject(writer: XmlDictionaryWriter, graph: unknown): void;
 }
 
 
@@ -96,14 +96,14 @@ export type DataContractJsonSerializer = DataContractJsonSerializer$instance;
 
 export class DataContractJsonSerializerSettings$instance {
     constructor();
-    DateTimeFormat: DateTimeFormat;
-    EmitTypeInformation: EmitTypeInformation;
-    IgnoreExtensionDataObject: boolean;
-    KnownTypes: IEnumerable_1<Type>;
-    MaxItemsInObjectGraph: int;
-    RootName: string;
-    SerializeReadOnlyTypes: boolean;
-    UseSimpleDictionaryFormat: boolean;
+    dateTimeFormat: DateTimeFormat;
+    emitTypeInformation: EmitTypeInformation;
+    ignoreExtensionDataObject: boolean;
+    knownTypes: IEnumerable_1<Type>;
+    maxItemsInObjectGraph: int;
+    rootName: string;
+    serializeReadOnlyTypes: boolean;
+    useSimpleDictionaryFormat: boolean;
 }
 
 

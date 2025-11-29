@@ -159,10 +159,10 @@ export type IStructuralEquatable = IStructuralEquatable$instance;
 
 export class DictionaryEntry$instance {
     constructor(key: unknown, value: unknown);
-    Key: unknown;
-    Value: unknown;
-    Deconstruct(key: { value: ref<unknown> }, value: { value: ref<unknown> }): void;
-    ToString(): string;
+    key: unknown;
+    value: unknown;
+    deconstruct(key: { value: ref<unknown> }, value: { value: ref<unknown> }): void;
+    toString(): string;
 }
 
 
@@ -172,47 +172,47 @@ export class ArrayList$instance {
     constructor();
     constructor(capacity: int);
     constructor(c: ICollection);
-    Capacity: int;
-    readonly Count: int;
-    readonly IsFixedSize: boolean;
-    readonly IsReadOnly: boolean;
-    readonly IsSynchronized: boolean;
-    Item: unknown;
-    readonly SyncRoot: unknown;
-    Add(value: unknown): int;
-    AddRange(c: ICollection): void;
-    BinarySearch(index: int, count: int, value: unknown, comparer: IComparer): int;
-    BinarySearch(value: unknown): int;
-    BinarySearch(value: unknown, comparer: IComparer): int;
-    Clear(): void;
-    Clone(): unknown;
-    Contains(item: unknown): boolean;
-    CopyTo(array: ClrArray): void;
-    CopyTo(array: ClrArray, arrayIndex: int): void;
-    CopyTo(index: int, array: ClrArray, arrayIndex: int, count: int): void;
-    GetEnumerator(): IEnumerator;
-    GetEnumerator(index: int, count: int): IEnumerator;
-    GetRange(index: int, count: int): ArrayList;
-    IndexOf(value: unknown): int;
-    IndexOf(value: unknown, startIndex: int): int;
-    IndexOf(value: unknown, startIndex: int, count: int): int;
-    Insert(index: int, value: unknown): void;
-    InsertRange(index: int, c: ICollection): void;
-    LastIndexOf(value: unknown): int;
-    LastIndexOf(value: unknown, startIndex: int): int;
-    LastIndexOf(value: unknown, startIndex: int, count: int): int;
-    Remove(obj: unknown): void;
-    RemoveAt(index: int): void;
-    RemoveRange(index: int, count: int): void;
-    Reverse(): void;
-    Reverse(index: int, count: int): void;
-    SetRange(index: int, c: ICollection): void;
-    Sort(): void;
-    Sort(comparer: IComparer): void;
-    Sort(index: int, count: int, comparer: IComparer): void;
-    ToArray(): unknown[];
-    ToArray(type_: Type): ClrArray;
-    TrimToSize(): void;
+    capacity: int;
+    readonly count: int;
+    readonly isFixedSize: boolean;
+    readonly isReadOnly: boolean;
+    readonly isSynchronized: boolean;
+    item: unknown;
+    readonly syncRoot: unknown;
+    add(value: unknown): int;
+    addRange(c: ICollection): void;
+    binarySearch(index: int, count: int, value: unknown, comparer: IComparer): int;
+    binarySearch(value: unknown): int;
+    binarySearch(value: unknown, comparer: IComparer): int;
+    clear(): void;
+    clone(): unknown;
+    contains(item: unknown): boolean;
+    copyTo(array: ClrArray): void;
+    copyTo(array: ClrArray, arrayIndex: int): void;
+    copyTo(index: int, array: ClrArray, arrayIndex: int, count: int): void;
+    getEnumerator(): IEnumerator;
+    getEnumerator(index: int, count: int): IEnumerator;
+    getRange(index: int, count: int): ArrayList;
+    indexOf(value: unknown): int;
+    indexOf(value: unknown, startIndex: int): int;
+    indexOf(value: unknown, startIndex: int, count: int): int;
+    insert(index: int, value: unknown): void;
+    insertRange(index: int, c: ICollection): void;
+    lastIndexOf(value: unknown): int;
+    lastIndexOf(value: unknown, startIndex: int): int;
+    lastIndexOf(value: unknown, startIndex: int, count: int): int;
+    remove(obj: unknown): void;
+    removeAt(index: int): void;
+    removeRange(index: int, count: int): void;
+    reverse(): void;
+    reverse(index: int, count: int): void;
+    setRange(index: int, c: ICollection): void;
+    sort(): void;
+    sort(comparer: IComparer): void;
+    sort(index: int, count: int, comparer: IComparer): void;
+    toArray(): unknown[];
+    toArray(type_: Type): ClrArray;
+    trimToSize(): void;
     static Adapter(list: IList): ArrayList;
     static FixedSize(list: ArrayList): ArrayList;
     static FixedSize(list: IList): IList;
@@ -241,26 +241,26 @@ export class BitArray$instance {
     constructor(values: boolean[]);
     constructor(values: int[]);
     constructor(bits: BitArray);
-    readonly Count: int;
-    readonly IsReadOnly: boolean;
-    readonly IsSynchronized: boolean;
-    Item: boolean;
-    Length: int;
-    readonly SyncRoot: unknown;
-    And(value: BitArray): BitArray;
-    Clone(): unknown;
-    CopyTo(array: ClrArray, index: int): void;
-    Get(index: int): boolean;
-    GetEnumerator(): IEnumerator;
-    HasAllSet(): boolean;
-    HasAnySet(): boolean;
-    LeftShift(count: int): BitArray;
-    Not(): BitArray;
-    Or(value: BitArray): BitArray;
-    RightShift(count: int): BitArray;
-    Set(index: int, value: boolean): void;
-    SetAll(value: boolean): void;
-    Xor(value: BitArray): BitArray;
+    readonly count: int;
+    readonly isReadOnly: boolean;
+    readonly isSynchronized: boolean;
+    item: boolean;
+    length: int;
+    readonly syncRoot: unknown;
+    and(value: BitArray): BitArray;
+    clone(): unknown;
+    copyTo(array: ClrArray, index: int): void;
+    get_(index: int): boolean;
+    getEnumerator(): IEnumerator;
+    hasAllSet(): boolean;
+    hasAnySet(): boolean;
+    leftShift(count: int): BitArray;
+    not(): BitArray;
+    or(value: BitArray): BitArray;
+    rightShift(count: int): BitArray;
+    set_(index: int, value: boolean): void;
+    setAll(value: boolean): void;
+    xor(value: BitArray): BitArray;
 }
 
 
@@ -277,7 +277,7 @@ export type BitArray = BitArray$instance & __BitArray$views;
 export class CaseInsensitiveComparer$instance {
     constructor();
     constructor(culture: CultureInfo);
-    Compare(a: unknown, b: unknown): int;
+    compare(a: unknown, b: unknown): int;
     static readonly Default: CaseInsensitiveComparer;
     static readonly DefaultInvariant: CaseInsensitiveComparer;
 }
@@ -293,7 +293,7 @@ export type CaseInsensitiveComparer = CaseInsensitiveComparer$instance & __CaseI
 export class CaseInsensitiveHashCodeProvider$instance {
     constructor();
     constructor(culture: CultureInfo);
-    GetHashCode(obj: unknown): int;
+    getHashCode(obj: unknown): int;
     static readonly Default: CaseInsensitiveHashCodeProvider;
     static readonly DefaultInvariant: CaseInsensitiveHashCodeProvider;
 }
@@ -307,11 +307,11 @@ export type CaseInsensitiveHashCodeProvider = CaseInsensitiveHashCodeProvider$in
 
 
 export abstract class CollectionBase$instance {
-    Capacity: int;
-    readonly Count: int;
-    Clear(): void;
-    GetEnumerator(): IEnumerator;
-    RemoveAt(index: int): void;
+    capacity: int;
+    readonly count: int;
+    clear(): void;
+    getEnumerator(): IEnumerator;
+    removeAt(index: int): void;
 }
 
 
@@ -326,10 +326,10 @@ export type CollectionBase = CollectionBase$instance & __CollectionBase$views;
 
 export class Comparer$instance {
     constructor(culture: CultureInfo);
-    Compare(a: unknown, b: unknown): int;
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
-    static readonly Default: Comparer;
-    static readonly DefaultInvariant: Comparer;
+    compare(a: unknown, b: unknown): int;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
+    static readonly default_: Comparer;
+    static readonly defaultInvariant: Comparer;
 }
 
 
@@ -342,10 +342,10 @@ export type Comparer = Comparer$instance & __Comparer$views;
 
 
 export abstract class DictionaryBase$instance {
-    readonly Count: int;
-    Clear(): void;
-    CopyTo(array: ClrArray, index: int): void;
-    GetEnumerator(): IDictionaryEnumerator;
+    readonly count: int;
+    clear(): void;
+    copyTo(array: ClrArray, index: int): void;
+    getEnumerator(): IDictionaryEnumerator;
 }
 
 
@@ -374,25 +374,25 @@ export class Hashtable$instance {
     constructor(capacity: int, loadFactor: float, hcp: IHashCodeProvider, comparer: IComparer);
     constructor(d: IDictionary, loadFactor: float, hcp: IHashCodeProvider, comparer: IComparer);
     constructor(d: IDictionary, loadFactor: float, equalityComparer: IEqualityComparer);
-    readonly Count: int;
-    readonly IsFixedSize: boolean;
-    readonly IsReadOnly: boolean;
-    readonly IsSynchronized: boolean;
-    Item: unknown;
-    readonly Keys: ICollection;
-    readonly SyncRoot: unknown;
-    readonly Values: ICollection;
-    Add(key: unknown, value: unknown): void;
-    Clear(): void;
-    Clone(): unknown;
-    Contains(key: unknown): boolean;
-    ContainsKey(key: unknown): boolean;
-    ContainsValue(value: unknown): boolean;
-    CopyTo(array: ClrArray, arrayIndex: int): void;
-    GetEnumerator(): IDictionaryEnumerator;
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
-    OnDeserialization(sender: unknown): void;
-    Remove(key: unknown): void;
+    readonly count: int;
+    readonly isFixedSize: boolean;
+    readonly isReadOnly: boolean;
+    readonly isSynchronized: boolean;
+    item: unknown;
+    readonly keys: ICollection;
+    readonly syncRoot: unknown;
+    readonly values: ICollection;
+    add(key: unknown, value: unknown): void;
+    clear(): void;
+    clone(): unknown;
+    contains(key: unknown): boolean;
+    containsKey(key: unknown): boolean;
+    containsValue(value: unknown): boolean;
+    copyTo(array: ClrArray, arrayIndex: int): void;
+    getEnumerator(): IDictionaryEnumerator;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
+    onDeserialization(sender: unknown): void;
+    remove(key: unknown): void;
     static Synchronized(table: Hashtable): Hashtable;
 }
 
@@ -411,20 +411,20 @@ export type Hashtable = Hashtable$instance & __Hashtable$views;
 
 export class ListDictionaryInternal$instance {
     constructor();
-    readonly Count: int;
-    readonly IsFixedSize: boolean;
-    readonly IsReadOnly: boolean;
-    readonly IsSynchronized: boolean;
-    Item: unknown;
-    readonly Keys: ICollection;
-    readonly SyncRoot: unknown;
-    readonly Values: ICollection;
-    Add(key: unknown, value: unknown): void;
-    Clear(): void;
-    Contains(key: unknown): boolean;
-    CopyTo(array: ClrArray, index: int): void;
-    GetEnumerator(): IDictionaryEnumerator;
-    Remove(key: unknown): void;
+    readonly count: int;
+    readonly isFixedSize: boolean;
+    readonly isReadOnly: boolean;
+    readonly isSynchronized: boolean;
+    item: unknown;
+    readonly keys: ICollection;
+    readonly syncRoot: unknown;
+    readonly values: ICollection;
+    add(key: unknown, value: unknown): void;
+    clear(): void;
+    contains(key: unknown): boolean;
+    copyTo(array: ClrArray, index: int): void;
+    getEnumerator(): IDictionaryEnumerator;
+    remove(key: unknown): void;
 }
 
 
@@ -442,19 +442,19 @@ export class Queue$instance {
     constructor(capacity: int);
     constructor(capacity: int, growFactor: float);
     constructor(col: ICollection);
-    readonly Count: int;
-    readonly IsSynchronized: boolean;
-    readonly SyncRoot: unknown;
-    Clear(): void;
-    Clone(): unknown;
-    Contains(obj: unknown): boolean;
-    CopyTo(array: ClrArray, index: int): void;
-    Dequeue(): unknown;
-    Enqueue(obj: unknown): void;
-    GetEnumerator(): IEnumerator;
-    Peek(): unknown;
-    ToArray(): unknown[];
-    TrimToSize(): void;
+    readonly count: int;
+    readonly isSynchronized: boolean;
+    readonly syncRoot: unknown;
+    clear(): void;
+    clone(): unknown;
+    contains(obj: unknown): boolean;
+    copyTo(array: ClrArray, index: int): void;
+    dequeue(): unknown;
+    enqueue(obj: unknown): void;
+    getEnumerator(): IEnumerator;
+    peek(): unknown;
+    toArray(): unknown[];
+    trimToSize(): void;
     static Synchronized(queue: Queue): Queue;
 }
 
@@ -469,8 +469,8 @@ export type Queue = Queue$instance & __Queue$views;
 
 
 export abstract class ReadOnlyCollectionBase$instance {
-    readonly Count: int;
-    GetEnumerator(): IEnumerator;
+    readonly count: int;
+    getEnumerator(): IEnumerator;
 }
 
 
@@ -489,33 +489,33 @@ export class SortedList$instance {
     constructor(comparer: IComparer, capacity: int);
     constructor(d: IDictionary);
     constructor(d: IDictionary, comparer: IComparer);
-    Capacity: int;
-    readonly Count: int;
-    readonly IsFixedSize: boolean;
-    readonly IsReadOnly: boolean;
-    readonly IsSynchronized: boolean;
-    Item: unknown;
-    readonly Keys: ICollection;
-    readonly SyncRoot: unknown;
-    readonly Values: ICollection;
-    Add(key: unknown, value: unknown): void;
-    Clear(): void;
-    Clone(): unknown;
-    Contains(key: unknown): boolean;
-    ContainsKey(key: unknown): boolean;
-    ContainsValue(value: unknown): boolean;
-    CopyTo(array: ClrArray, arrayIndex: int): void;
-    GetByIndex(index: int): unknown;
-    GetEnumerator(): IDictionaryEnumerator;
-    GetKey(index: int): unknown;
-    GetKeyList(): IList;
-    GetValueList(): IList;
-    IndexOfKey(key: unknown): int;
-    IndexOfValue(value: unknown): int;
-    Remove(key: unknown): void;
-    RemoveAt(index: int): void;
-    SetByIndex(index: int, value: unknown): void;
-    TrimToSize(): void;
+    capacity: int;
+    readonly count: int;
+    readonly isFixedSize: boolean;
+    readonly isReadOnly: boolean;
+    readonly isSynchronized: boolean;
+    item: unknown;
+    readonly keys: ICollection;
+    readonly syncRoot: unknown;
+    readonly values: ICollection;
+    add(key: unknown, value: unknown): void;
+    clear(): void;
+    clone(): unknown;
+    contains(key: unknown): boolean;
+    containsKey(key: unknown): boolean;
+    containsValue(value: unknown): boolean;
+    copyTo(array: ClrArray, arrayIndex: int): void;
+    getByIndex(index: int): unknown;
+    getEnumerator(): IDictionaryEnumerator;
+    getKey(index: int): unknown;
+    getKeyList(): IList;
+    getValueList(): IList;
+    indexOfKey(key: unknown): int;
+    indexOfValue(value: unknown): int;
+    remove(key: unknown): void;
+    removeAt(index: int): void;
+    setByIndex(index: int, value: unknown): void;
+    trimToSize(): void;
     static Synchronized(list: SortedList): SortedList;
 }
 
@@ -534,18 +534,18 @@ export class Stack$instance {
     constructor();
     constructor(initialCapacity: int);
     constructor(col: ICollection);
-    readonly Count: int;
-    readonly IsSynchronized: boolean;
-    readonly SyncRoot: unknown;
-    Clear(): void;
-    Clone(): unknown;
-    Contains(obj: unknown): boolean;
-    CopyTo(array: ClrArray, index: int): void;
-    GetEnumerator(): IEnumerator;
-    Peek(): unknown;
-    Pop(): unknown;
-    Push(obj: unknown): void;
-    ToArray(): unknown[];
+    readonly count: int;
+    readonly isSynchronized: boolean;
+    readonly syncRoot: unknown;
+    clear(): void;
+    clone(): unknown;
+    contains(obj: unknown): boolean;
+    copyTo(array: ClrArray, index: int): void;
+    getEnumerator(): IEnumerator;
+    peek(): unknown;
+    pop(): unknown;
+    push(obj: unknown): void;
+    toArray(): unknown[];
     static Synchronized(stack: Stack): Stack;
 }
 

@@ -49,47 +49,47 @@ export type CLROf<T> =
     T; // Identity fallback for non-primitive types
 
 export enum LoadOptions {
-    None = 0,
-    PreserveWhitespace = 1,
-    SetBaseUri = 2,
-    SetLineInfo = 4
+    none = 0,
+    preserveWhitespace = 1,
+    setBaseUri = 2,
+    setLineInfo = 4
 }
 
 
 export enum ReaderOptions {
-    None = 0,
-    OmitDuplicateNamespaces = 1
+    none = 0,
+    omitDuplicateNamespaces = 1
 }
 
 
 export enum SaveOptions {
-    None = 0,
-    DisableFormatting = 1,
-    OmitDuplicateNamespaces = 2
+    none = 0,
+    disableFormatting = 1,
+    omitDuplicateNamespaces = 2
 }
 
 
 export enum XObjectChange {
-    Add = 0,
-    Remove = 1,
-    Name = 2,
-    Value = 3
+    add = 0,
+    remove = 1,
+    name = 2,
+    value = 3
 }
 
 
 export class XAttribute$instance extends XObject$instance {
     constructor(name: XName, value: unknown);
     constructor(other: XAttribute);
-    readonly IsNamespaceDeclaration: boolean;
-    readonly Name: XName;
-    readonly NextAttribute: XAttribute;
-    readonly NodeType: XmlNodeType;
-    readonly PreviousAttribute: XAttribute;
-    Value: string;
-    HasLineInfo(): boolean;
-    Remove(): void;
-    SetValue(value: unknown): void;
-    ToString(): string;
+    readonly isNamespaceDeclaration: boolean;
+    readonly name: XName;
+    readonly nextAttribute: XAttribute;
+    readonly nodeType: XmlNodeType;
+    readonly previousAttribute: XAttribute;
+    value: string;
+    hasLineInfo(): boolean;
+    remove(): void;
+    setValue(value: unknown): void;
+    toString(): string;
     static readonly EmptySequence: IEnumerable_1<XAttribute>;
 }
 
@@ -104,10 +104,10 @@ export type XAttribute = XAttribute$instance & __XAttribute$views;
 export class XCData$instance extends XText$instance {
     constructor(value: string);
     constructor(other: XCData);
-    readonly NodeType: XmlNodeType;
-    HasLineInfo(): boolean;
-    WriteTo(writer: XmlWriter): void;
-    WriteToAsync(writer: XmlWriter, cancellationToken: CancellationToken): Task;
+    readonly nodeType: XmlNodeType;
+    hasLineInfo(): boolean;
+    writeTo(writer: XmlWriter): void;
+    writeToAsync(writer: XmlWriter, cancellationToken: CancellationToken): Task;
 }
 
 
@@ -121,11 +121,11 @@ export type XCData = XCData$instance & __XCData$views;
 export class XComment$instance extends XNode$instance {
     constructor(value: string);
     constructor(other: XComment);
-    readonly NodeType: XmlNodeType;
-    Value: string;
-    HasLineInfo(): boolean;
-    WriteTo(writer: XmlWriter): void;
-    WriteToAsync(writer: XmlWriter, cancellationToken: CancellationToken): Task;
+    readonly nodeType: XmlNodeType;
+    value: string;
+    hasLineInfo(): boolean;
+    writeTo(writer: XmlWriter): void;
+    writeToAsync(writer: XmlWriter, cancellationToken: CancellationToken): Task;
 }
 
 
@@ -137,24 +137,24 @@ export type XComment = XComment$instance & __XComment$views;
 
 
 export abstract class XContainer$instance extends XNode$instance {
-    readonly FirstNode: XNode;
-    readonly LastNode: XNode;
-    Add(content: unknown): void;
-    Add(content: unknown[]): void;
-    AddFirst(content: unknown): void;
-    AddFirst(content: unknown[]): void;
-    CreateWriter(): XmlWriter;
-    DescendantNodes(): IEnumerable_1<XNode>;
-    Descendants(): IEnumerable_1<XElement>;
-    Descendants(name: XName): IEnumerable_1<XElement>;
-    Element(name: XName): XElement;
-    Elements(): IEnumerable_1<XElement>;
-    Elements(name: XName): IEnumerable_1<XElement>;
-    HasLineInfo(): boolean;
-    Nodes(): IEnumerable_1<XNode>;
-    RemoveNodes(): void;
-    ReplaceNodes(content: unknown): void;
-    ReplaceNodes(content: unknown[]): void;
+    readonly firstNode: XNode;
+    readonly lastNode: XNode;
+    add(content: unknown): void;
+    add(content: unknown[]): void;
+    addFirst(content: unknown): void;
+    addFirst(content: unknown[]): void;
+    createWriter(): XmlWriter;
+    descendantNodes(): IEnumerable_1<XNode>;
+    descendants(): IEnumerable_1<XElement>;
+    descendants(name: XName): IEnumerable_1<XElement>;
+    element(name: XName): XElement;
+    elements(): IEnumerable_1<XElement>;
+    elements(name: XName): IEnumerable_1<XElement>;
+    hasLineInfo(): boolean;
+    nodes(): IEnumerable_1<XNode>;
+    removeNodes(): void;
+    replaceNodes(content: unknown): void;
+    replaceNodes(content: unknown[]): void;
 }
 
 
@@ -168,10 +168,10 @@ export type XContainer = XContainer$instance & __XContainer$views;
 export class XDeclaration$instance {
     constructor(version: string, encoding: string, standalone: string);
     constructor(other: XDeclaration);
-    Encoding: string;
-    Standalone: string;
-    Version: string;
-    ToString(): string;
+    encoding: string;
+    standalone: string;
+    version: string;
+    toString(): string;
 }
 
 
@@ -182,23 +182,23 @@ export class XDocument$instance extends XContainer$instance {
     constructor(content: unknown[]);
     constructor(declaration: XDeclaration, content: unknown[]);
     constructor(other: XDocument);
-    Declaration: XDeclaration;
-    readonly DocumentType: XDocumentType;
-    readonly NodeType: XmlNodeType;
-    readonly Root: XElement;
-    HasLineInfo(): boolean;
-    Save(stream: Stream): void;
-    Save(stream: Stream, options: SaveOptions): void;
-    Save(textWriter: TextWriter): void;
-    Save(textWriter: TextWriter, options: SaveOptions): void;
-    Save(writer: XmlWriter): void;
-    Save(fileName: string): void;
-    Save(fileName: string, options: SaveOptions): void;
-    SaveAsync(stream: Stream, options: SaveOptions, cancellationToken: CancellationToken): Task;
-    SaveAsync(textWriter: TextWriter, options: SaveOptions, cancellationToken: CancellationToken): Task;
-    SaveAsync(writer: XmlWriter, cancellationToken: CancellationToken): Task;
-    WriteTo(writer: XmlWriter): void;
-    WriteToAsync(writer: XmlWriter, cancellationToken: CancellationToken): Task;
+    declaration: XDeclaration;
+    readonly documentType: XDocumentType;
+    readonly nodeType: XmlNodeType;
+    readonly root: XElement;
+    hasLineInfo(): boolean;
+    save(stream: Stream): void;
+    save(stream: Stream, options: SaveOptions): void;
+    save(textWriter: TextWriter): void;
+    save(textWriter: TextWriter, options: SaveOptions): void;
+    save(writer: XmlWriter): void;
+    save(fileName: string): void;
+    save(fileName: string, options: SaveOptions): void;
+    saveAsync(stream: Stream, options: SaveOptions, cancellationToken: CancellationToken): Task;
+    saveAsync(textWriter: TextWriter, options: SaveOptions, cancellationToken: CancellationToken): Task;
+    saveAsync(writer: XmlWriter, cancellationToken: CancellationToken): Task;
+    writeTo(writer: XmlWriter): void;
+    writeToAsync(writer: XmlWriter, cancellationToken: CancellationToken): Task;
     static Load(stream: Stream, options: LoadOptions): XDocument;
     static Load(stream: Stream): XDocument;
     static Load(textReader: TextReader, options: LoadOptions): XDocument;
@@ -225,14 +225,14 @@ export type XDocument = XDocument$instance & __XDocument$views;
 export class XDocumentType$instance extends XNode$instance {
     constructor(name: string, publicId: string, systemId: string, internalSubset: string);
     constructor(other: XDocumentType);
-    InternalSubset: string;
-    Name: string;
-    readonly NodeType: XmlNodeType;
-    PublicId: string;
-    SystemId: string;
-    HasLineInfo(): boolean;
-    WriteTo(writer: XmlWriter): void;
-    WriteToAsync(writer: XmlWriter, cancellationToken: CancellationToken): Task;
+    internalSubset: string;
+    name: string;
+    readonly nodeType: XmlNodeType;
+    publicId: string;
+    systemId: string;
+    hasLineInfo(): boolean;
+    writeTo(writer: XmlWriter): void;
+    writeToAsync(writer: XmlWriter, cancellationToken: CancellationToken): Task;
 }
 
 
@@ -249,47 +249,47 @@ export class XElement$instance extends XContainer$instance {
     constructor(name: XName, content: unknown[]);
     constructor(other: XElement);
     constructor(other: XStreamingElement);
-    readonly FirstAttribute: XAttribute;
-    readonly HasAttributes: boolean;
-    readonly HasElements: boolean;
-    readonly IsEmpty: boolean;
-    readonly LastAttribute: XAttribute;
-    Name: XName;
-    readonly NodeType: XmlNodeType;
-    Value: string;
-    AncestorsAndSelf(): IEnumerable_1<XElement>;
-    AncestorsAndSelf(name: XName): IEnumerable_1<XElement>;
-    Attribute(name: XName): XAttribute;
-    Attributes(): IEnumerable_1<XAttribute>;
-    Attributes(name: XName): IEnumerable_1<XAttribute>;
-    DescendantNodesAndSelf(): IEnumerable_1<XNode>;
-    DescendantsAndSelf(): IEnumerable_1<XElement>;
-    DescendantsAndSelf(name: XName): IEnumerable_1<XElement>;
-    GetDefaultNamespace(): XNamespace;
-    GetNamespaceOfPrefix(prefix: string): XNamespace;
-    GetPrefixOfNamespace(ns: XNamespace): string;
-    HasLineInfo(): boolean;
-    RemoveAll(): void;
-    RemoveAttributes(): void;
-    ReplaceAll(content: unknown): void;
-    ReplaceAll(content: unknown[]): void;
-    ReplaceAttributes(content: unknown): void;
-    ReplaceAttributes(content: unknown[]): void;
-    Save(fileName: string): void;
-    Save(fileName: string, options: SaveOptions): void;
-    Save(stream: Stream): void;
-    Save(stream: Stream, options: SaveOptions): void;
-    Save(textWriter: TextWriter): void;
-    Save(textWriter: TextWriter, options: SaveOptions): void;
-    Save(writer: XmlWriter): void;
-    SaveAsync(stream: Stream, options: SaveOptions, cancellationToken: CancellationToken): Task;
-    SaveAsync(textWriter: TextWriter, options: SaveOptions, cancellationToken: CancellationToken): Task;
-    SaveAsync(writer: XmlWriter, cancellationToken: CancellationToken): Task;
-    SetAttributeValue(name: XName, value: unknown): void;
-    SetElementValue(name: XName, value: unknown): void;
-    SetValue(value: unknown): void;
-    WriteTo(writer: XmlWriter): void;
-    WriteToAsync(writer: XmlWriter, cancellationToken: CancellationToken): Task;
+    readonly firstAttribute: XAttribute;
+    readonly hasAttributes: boolean;
+    readonly hasElements: boolean;
+    readonly isEmpty: boolean;
+    readonly lastAttribute: XAttribute;
+    name: XName;
+    readonly nodeType: XmlNodeType;
+    value: string;
+    ancestorsAndSelf(): IEnumerable_1<XElement>;
+    ancestorsAndSelf(name: XName): IEnumerable_1<XElement>;
+    attribute(name: XName): XAttribute;
+    attributes(): IEnumerable_1<XAttribute>;
+    attributes(name: XName): IEnumerable_1<XAttribute>;
+    descendantNodesAndSelf(): IEnumerable_1<XNode>;
+    descendantsAndSelf(): IEnumerable_1<XElement>;
+    descendantsAndSelf(name: XName): IEnumerable_1<XElement>;
+    getDefaultNamespace(): XNamespace;
+    getNamespaceOfPrefix(prefix: string): XNamespace;
+    getPrefixOfNamespace(ns: XNamespace): string;
+    hasLineInfo(): boolean;
+    removeAll(): void;
+    removeAttributes(): void;
+    replaceAll(content: unknown): void;
+    replaceAll(content: unknown[]): void;
+    replaceAttributes(content: unknown): void;
+    replaceAttributes(content: unknown[]): void;
+    save(fileName: string): void;
+    save(fileName: string, options: SaveOptions): void;
+    save(stream: Stream): void;
+    save(stream: Stream, options: SaveOptions): void;
+    save(textWriter: TextWriter): void;
+    save(textWriter: TextWriter, options: SaveOptions): void;
+    save(writer: XmlWriter): void;
+    saveAsync(stream: Stream, options: SaveOptions, cancellationToken: CancellationToken): Task;
+    saveAsync(textWriter: TextWriter, options: SaveOptions, cancellationToken: CancellationToken): Task;
+    saveAsync(writer: XmlWriter, cancellationToken: CancellationToken): Task;
+    setAttributeValue(name: XName, value: unknown): void;
+    setElementValue(name: XName, value: unknown): void;
+    setValue(value: unknown): void;
+    writeTo(writer: XmlWriter): void;
+    writeToAsync(writer: XmlWriter, cancellationToken: CancellationToken): Task;
     static readonly EmptySequence: IEnumerable_1<XElement>;
     static Load(stream: Stream, options: LoadOptions): XElement;
     static Load(stream: Stream): XElement;
@@ -316,12 +316,12 @@ export type XElement = XElement$instance & __XElement$views;
 
 
 export class XName$instance {
-    readonly LocalName: string;
-    readonly Namespace: XNamespace;
-    readonly NamespaceName: string;
-    Equals(obj: unknown): boolean;
-    GetHashCode(): int;
-    ToString(): string;
+    readonly localName: string;
+    readonly namespace_: XNamespace;
+    readonly namespaceName: string;
+    equals(obj: unknown): boolean;
+    getHashCode(): int;
+    toString(): string;
     static Get(localName: string, namespaceName: string): XName;
     static Get(expandedName: string): XName;
 }
@@ -339,11 +339,11 @@ export type XName = XName$instance & __XName$views;
 
 
 export class XNamespace$instance {
-    readonly NamespaceName: string;
-    Equals(obj: unknown): boolean;
-    GetHashCode(): int;
-    GetName(localName: string): XName;
-    ToString(): string;
+    readonly namespaceName: string;
+    equals(obj: unknown): boolean;
+    getHashCode(): int;
+    getName(localName: string): XName;
+    toString(): string;
     static readonly None: XNamespace;
     static readonly Xml: XNamespace;
     static readonly Xmlns: XNamespace;
@@ -354,32 +354,32 @@ export class XNamespace$instance {
 export type XNamespace = XNamespace$instance;
 
 export abstract class XNode$instance extends XObject$instance {
-    readonly NextNode: XNode;
-    readonly PreviousNode: XNode;
-    AddAfterSelf(content: unknown): void;
-    AddAfterSelf(content: unknown[]): void;
-    AddBeforeSelf(content: unknown): void;
-    AddBeforeSelf(content: unknown[]): void;
-    Ancestors(): IEnumerable_1<XElement>;
-    Ancestors(name: XName): IEnumerable_1<XElement>;
-    CreateReader(): XmlReader;
-    CreateReader(readerOptions: ReaderOptions): XmlReader;
-    ElementsAfterSelf(): IEnumerable_1<XElement>;
-    ElementsAfterSelf(name: XName): IEnumerable_1<XElement>;
-    ElementsBeforeSelf(): IEnumerable_1<XElement>;
-    ElementsBeforeSelf(name: XName): IEnumerable_1<XElement>;
-    HasLineInfo(): boolean;
-    IsAfter(node: XNode): boolean;
-    IsBefore(node: XNode): boolean;
-    NodesAfterSelf(): IEnumerable_1<XNode>;
-    NodesBeforeSelf(): IEnumerable_1<XNode>;
-    Remove(): void;
-    ReplaceWith(content: unknown): void;
-    ReplaceWith(content: unknown[]): void;
-    ToString(): string;
-    ToString(options: SaveOptions): string;
-    abstract WriteTo(writer: XmlWriter): void;
-    abstract WriteToAsync(writer: XmlWriter, cancellationToken: CancellationToken): Task;
+    readonly nextNode: XNode;
+    readonly previousNode: XNode;
+    addAfterSelf(content: unknown): void;
+    addAfterSelf(content: unknown[]): void;
+    addBeforeSelf(content: unknown): void;
+    addBeforeSelf(content: unknown[]): void;
+    ancestors(): IEnumerable_1<XElement>;
+    ancestors(name: XName): IEnumerable_1<XElement>;
+    createReader(): XmlReader;
+    createReader(readerOptions: ReaderOptions): XmlReader;
+    elementsAfterSelf(): IEnumerable_1<XElement>;
+    elementsAfterSelf(name: XName): IEnumerable_1<XElement>;
+    elementsBeforeSelf(): IEnumerable_1<XElement>;
+    elementsBeforeSelf(name: XName): IEnumerable_1<XElement>;
+    hasLineInfo(): boolean;
+    isAfter(node: XNode): boolean;
+    isBefore(node: XNode): boolean;
+    nodesAfterSelf(): IEnumerable_1<XNode>;
+    nodesBeforeSelf(): IEnumerable_1<XNode>;
+    remove(): void;
+    replaceWith(content: unknown): void;
+    replaceWith(content: unknown[]): void;
+    toString(): string;
+    toString(options: SaveOptions): string;
+    abstract writeTo(writer: XmlWriter): void;
+    abstract writeToAsync(writer: XmlWriter, cancellationToken: CancellationToken): Task;
     static readonly DocumentOrderComparer: XNodeDocumentOrderComparer;
     static readonly EqualityComparer: XNodeEqualityComparer;
     static CompareDocumentOrder(n1: XNode, n2: XNode): int;
@@ -398,7 +398,7 @@ export type XNode = XNode$instance & __XNode$views;
 
 export class XNodeDocumentOrderComparer$instance {
     constructor();
-    Compare(x: XNode, y: XNode): int;
+    compare(x: XNode, y: XNode): int;
 }
 
 
@@ -412,8 +412,8 @@ export type XNodeDocumentOrderComparer = XNodeDocumentOrderComparer$instance & _
 
 export class XNodeEqualityComparer$instance {
     constructor();
-    Equals(x: XNode, y: XNode): boolean;
-    GetHashCode(obj: XNode): int;
+    equals(x: XNode, y: XNode): boolean;
+    getHashCode(obj: XNode): int;
 }
 
 
@@ -426,17 +426,17 @@ export type XNodeEqualityComparer = XNodeEqualityComparer$instance & __XNodeEqua
 
 
 export abstract class XObject$instance {
-    readonly BaseUri: string;
-    readonly Document: XDocument;
-    readonly NodeType: XmlNodeType;
-    readonly Parent: XElement;
-    AddAnnotation(annotation: unknown): void;
-    Annotation(type_: Type): unknown;
-    Annotation<T>(): T;
-    Annotations(type_: Type): IEnumerable_1<unknown>;
-    Annotations<T>(): IEnumerable_1<T>;
-    RemoveAnnotations(type_: Type): void;
-    RemoveAnnotations<T>(): void;
+    readonly baseUri: string;
+    readonly document: XDocument;
+    readonly nodeType: XmlNodeType;
+    readonly parent: XElement;
+    addAnnotation(annotation: unknown): void;
+    annotation(type_: Type): unknown;
+    annotation<T>(): T;
+    annotations(type_: Type): IEnumerable_1<unknown>;
+    annotations<T>(): IEnumerable_1<T>;
+    removeAnnotations(type_: Type): void;
+    removeAnnotations<T>(): void;
 }
 
 
@@ -449,11 +449,11 @@ export type XObject = XObject$instance & __XObject$views;
 
 export class XObjectChangeEventArgs$instance extends System_Internal.EventArgs$instance {
     constructor(objectChange: XObjectChange);
-    readonly ObjectChange: XObjectChange;
-    static readonly Add: XObjectChangeEventArgs;
-    static readonly Remove: XObjectChangeEventArgs;
-    static readonly Name: XObjectChangeEventArgs;
-    static readonly Value: XObjectChangeEventArgs;
+    readonly objectChange: XObjectChange;
+    static readonly add: XObjectChangeEventArgs;
+    static readonly remove: XObjectChangeEventArgs;
+    static readonly name: XObjectChangeEventArgs;
+    static readonly value: XObjectChangeEventArgs;
 }
 
 
@@ -462,12 +462,12 @@ export type XObjectChangeEventArgs = XObjectChangeEventArgs$instance;
 export class XProcessingInstruction$instance extends XNode$instance {
     constructor(target: string, data: string);
     constructor(other: XProcessingInstruction);
-    Data: string;
-    readonly NodeType: XmlNodeType;
-    Target: string;
-    HasLineInfo(): boolean;
-    WriteTo(writer: XmlWriter): void;
-    WriteToAsync(writer: XmlWriter, cancellationToken: CancellationToken): Task;
+    data: string;
+    readonly nodeType: XmlNodeType;
+    target: string;
+    hasLineInfo(): boolean;
+    writeTo(writer: XmlWriter): void;
+    writeToAsync(writer: XmlWriter, cancellationToken: CancellationToken): Task;
 }
 
 
@@ -482,19 +482,19 @@ export class XStreamingElement$instance {
     constructor(name: XName);
     constructor(name: XName, content: unknown);
     constructor(name: XName, content: unknown[]);
-    Name: XName;
-    Add(content: unknown): void;
-    Add(content: unknown[]): void;
-    Save(stream: Stream): void;
-    Save(stream: Stream, options: SaveOptions): void;
-    Save(textWriter: TextWriter): void;
-    Save(textWriter: TextWriter, options: SaveOptions): void;
-    Save(writer: XmlWriter): void;
-    Save(fileName: string): void;
-    Save(fileName: string, options: SaveOptions): void;
-    ToString(): string;
-    ToString(options: SaveOptions): string;
-    WriteTo(writer: XmlWriter): void;
+    name: XName;
+    add(content: unknown): void;
+    add(content: unknown[]): void;
+    save(stream: Stream): void;
+    save(stream: Stream, options: SaveOptions): void;
+    save(textWriter: TextWriter): void;
+    save(textWriter: TextWriter, options: SaveOptions): void;
+    save(writer: XmlWriter): void;
+    save(fileName: string): void;
+    save(fileName: string, options: SaveOptions): void;
+    toString(): string;
+    toString(options: SaveOptions): string;
+    writeTo(writer: XmlWriter): void;
 }
 
 
@@ -503,11 +503,11 @@ export type XStreamingElement = XStreamingElement$instance;
 export class XText$instance extends XNode$instance {
     constructor(value: string);
     constructor(other: XText);
-    readonly NodeType: XmlNodeType;
-    Value: string;
-    HasLineInfo(): boolean;
-    WriteTo(writer: XmlWriter): void;
-    WriteToAsync(writer: XmlWriter, cancellationToken: CancellationToken): Task;
+    readonly nodeType: XmlNodeType;
+    value: string;
+    hasLineInfo(): boolean;
+    writeTo(writer: XmlWriter): void;
+    writeToAsync(writer: XmlWriter, cancellationToken: CancellationToken): Task;
 }
 
 

@@ -53,406 +53,406 @@ export type CLROf<T> =
     T; // Identity fallback for non-primitive types
 
 export enum AuthenticationLevel {
-    None = 0,
-    MutualAuthRequested = 1,
-    MutualAuthRequired = 2
+    none = 0,
+    mutualAuthRequested = 1,
+    mutualAuthRequired = 2
 }
 
 
 export enum EncryptionPolicy {
-    RequireEncryption = 0,
-    AllowNoEncryption = 1,
-    NoEncryption = 2
+    requireEncryption = 0,
+    allowNoEncryption = 1,
+    noEncryption = 2
 }
 
 
 export enum NegotiateAuthenticationStatusCode {
-    Completed = 0,
-    ContinueNeeded = 1,
-    GenericFailure = 2,
-    BadBinding = 3,
-    Unsupported = 4,
-    MessageAltered = 5,
-    ContextExpired = 6,
-    CredentialsExpired = 7,
-    InvalidCredentials = 8,
-    InvalidToken = 9,
-    UnknownCredentials = 10,
-    QopNotSupported = 11,
-    OutOfSequence = 12,
-    SecurityQosFailed = 13,
-    TargetUnknown = 14,
-    ImpersonationValidationFailed = 15
+    completed = 0,
+    continueNeeded = 1,
+    genericFailure = 2,
+    badBinding = 3,
+    unsupported = 4,
+    messageAltered = 5,
+    contextExpired = 6,
+    credentialsExpired = 7,
+    invalidCredentials = 8,
+    invalidToken = 9,
+    unknownCredentials = 10,
+    qopNotSupported = 11,
+    outOfSequence = 12,
+    securityQosFailed = 13,
+    targetUnknown = 14,
+    impersonationValidationFailed = 15
 }
 
 
 export enum ProtectionLevel {
-    None = 0,
-    Sign = 1,
-    EncryptAndSign = 2
+    none = 0,
+    sign = 1,
+    encryptAndSign = 2
 }
 
 
 export enum SslPolicyErrors {
-    None = 0,
-    RemoteCertificateNotAvailable = 1,
-    RemoteCertificateNameMismatch = 2,
-    RemoteCertificateChainErrors = 4
+    none = 0,
+    remoteCertificateNotAvailable = 1,
+    remoteCertificateNameMismatch = 2,
+    remoteCertificateChainErrors = 4
 }
 
 
 export enum TlsCipherSuite {
-    TLS_NULL_WITH_NULL_NULL = 0,
-    TLS_RSA_WITH_NULL_MD5 = 1,
-    TLS_RSA_WITH_NULL_SHA = 2,
-    TLS_RSA_EXPORT_WITH_RC4_40_MD5 = 3,
-    TLS_RSA_WITH_RC4_128_MD5 = 4,
-    TLS_RSA_WITH_RC4_128_SHA = 5,
-    TLS_RSA_EXPORT_WITH_RC2_CBC_40_MD5 = 6,
-    TLS_RSA_WITH_IDEA_CBC_SHA = 7,
-    TLS_RSA_EXPORT_WITH_DES40_CBC_SHA = 8,
-    TLS_RSA_WITH_DES_CBC_SHA = 9,
-    TLS_RSA_WITH_3DES_EDE_CBC_SHA = 10,
-    TLS_DH_DSS_EXPORT_WITH_DES40_CBC_SHA = 11,
-    TLS_DH_DSS_WITH_DES_CBC_SHA = 12,
-    TLS_DH_DSS_WITH_3DES_EDE_CBC_SHA = 13,
-    TLS_DH_RSA_EXPORT_WITH_DES40_CBC_SHA = 14,
-    TLS_DH_RSA_WITH_DES_CBC_SHA = 15,
-    TLS_DH_RSA_WITH_3DES_EDE_CBC_SHA = 16,
-    TLS_DHE_DSS_EXPORT_WITH_DES40_CBC_SHA = 17,
-    TLS_DHE_DSS_WITH_DES_CBC_SHA = 18,
-    TLS_DHE_DSS_WITH_3DES_EDE_CBC_SHA = 19,
-    TLS_DHE_RSA_EXPORT_WITH_DES40_CBC_SHA = 20,
-    TLS_DHE_RSA_WITH_DES_CBC_SHA = 21,
-    TLS_DHE_RSA_WITH_3DES_EDE_CBC_SHA = 22,
-    TLS_DH_anon_EXPORT_WITH_RC4_40_MD5 = 23,
-    TLS_DH_anon_WITH_RC4_128_MD5 = 24,
-    TLS_DH_anon_EXPORT_WITH_DES40_CBC_SHA = 25,
-    TLS_DH_anon_WITH_DES_CBC_SHA = 26,
-    TLS_DH_anon_WITH_3DES_EDE_CBC_SHA = 27,
-    TLS_KRB5_WITH_DES_CBC_SHA = 30,
-    TLS_KRB5_WITH_3DES_EDE_CBC_SHA = 31,
-    TLS_KRB5_WITH_RC4_128_SHA = 32,
-    TLS_KRB5_WITH_IDEA_CBC_SHA = 33,
-    TLS_KRB5_WITH_DES_CBC_MD5 = 34,
-    TLS_KRB5_WITH_3DES_EDE_CBC_MD5 = 35,
-    TLS_KRB5_WITH_RC4_128_MD5 = 36,
-    TLS_KRB5_WITH_IDEA_CBC_MD5 = 37,
-    TLS_KRB5_EXPORT_WITH_DES_CBC_40_SHA = 38,
-    TLS_KRB5_EXPORT_WITH_RC2_CBC_40_SHA = 39,
-    TLS_KRB5_EXPORT_WITH_RC4_40_SHA = 40,
-    TLS_KRB5_EXPORT_WITH_DES_CBC_40_MD5 = 41,
-    TLS_KRB5_EXPORT_WITH_RC2_CBC_40_MD5 = 42,
-    TLS_KRB5_EXPORT_WITH_RC4_40_MD5 = 43,
-    TLS_PSK_WITH_NULL_SHA = 44,
-    TLS_DHE_PSK_WITH_NULL_SHA = 45,
-    TLS_RSA_PSK_WITH_NULL_SHA = 46,
-    TLS_RSA_WITH_AES_128_CBC_SHA = 47,
-    TLS_DH_DSS_WITH_AES_128_CBC_SHA = 48,
-    TLS_DH_RSA_WITH_AES_128_CBC_SHA = 49,
-    TLS_DHE_DSS_WITH_AES_128_CBC_SHA = 50,
-    TLS_DHE_RSA_WITH_AES_128_CBC_SHA = 51,
-    TLS_DH_anon_WITH_AES_128_CBC_SHA = 52,
-    TLS_RSA_WITH_AES_256_CBC_SHA = 53,
-    TLS_DH_DSS_WITH_AES_256_CBC_SHA = 54,
-    TLS_DH_RSA_WITH_AES_256_CBC_SHA = 55,
-    TLS_DHE_DSS_WITH_AES_256_CBC_SHA = 56,
-    TLS_DHE_RSA_WITH_AES_256_CBC_SHA = 57,
-    TLS_DH_anon_WITH_AES_256_CBC_SHA = 58,
-    TLS_RSA_WITH_NULL_SHA256 = 59,
-    TLS_RSA_WITH_AES_128_CBC_SHA256 = 60,
-    TLS_RSA_WITH_AES_256_CBC_SHA256 = 61,
-    TLS_DH_DSS_WITH_AES_128_CBC_SHA256 = 62,
-    TLS_DH_RSA_WITH_AES_128_CBC_SHA256 = 63,
-    TLS_DHE_DSS_WITH_AES_128_CBC_SHA256 = 64,
-    TLS_RSA_WITH_CAMELLIA_128_CBC_SHA = 65,
-    TLS_DH_DSS_WITH_CAMELLIA_128_CBC_SHA = 66,
-    TLS_DH_RSA_WITH_CAMELLIA_128_CBC_SHA = 67,
-    TLS_DHE_DSS_WITH_CAMELLIA_128_CBC_SHA = 68,
-    TLS_DHE_RSA_WITH_CAMELLIA_128_CBC_SHA = 69,
-    TLS_DH_anon_WITH_CAMELLIA_128_CBC_SHA = 70,
-    TLS_DHE_RSA_WITH_AES_128_CBC_SHA256 = 103,
-    TLS_DH_DSS_WITH_AES_256_CBC_SHA256 = 104,
-    TLS_DH_RSA_WITH_AES_256_CBC_SHA256 = 105,
-    TLS_DHE_DSS_WITH_AES_256_CBC_SHA256 = 106,
-    TLS_DHE_RSA_WITH_AES_256_CBC_SHA256 = 107,
-    TLS_DH_anon_WITH_AES_128_CBC_SHA256 = 108,
-    TLS_DH_anon_WITH_AES_256_CBC_SHA256 = 109,
-    TLS_RSA_WITH_CAMELLIA_256_CBC_SHA = 132,
-    TLS_DH_DSS_WITH_CAMELLIA_256_CBC_SHA = 133,
-    TLS_DH_RSA_WITH_CAMELLIA_256_CBC_SHA = 134,
-    TLS_DHE_DSS_WITH_CAMELLIA_256_CBC_SHA = 135,
-    TLS_DHE_RSA_WITH_CAMELLIA_256_CBC_SHA = 136,
-    TLS_DH_anon_WITH_CAMELLIA_256_CBC_SHA = 137,
-    TLS_PSK_WITH_RC4_128_SHA = 138,
-    TLS_PSK_WITH_3DES_EDE_CBC_SHA = 139,
-    TLS_PSK_WITH_AES_128_CBC_SHA = 140,
-    TLS_PSK_WITH_AES_256_CBC_SHA = 141,
-    TLS_DHE_PSK_WITH_RC4_128_SHA = 142,
-    TLS_DHE_PSK_WITH_3DES_EDE_CBC_SHA = 143,
-    TLS_DHE_PSK_WITH_AES_128_CBC_SHA = 144,
-    TLS_DHE_PSK_WITH_AES_256_CBC_SHA = 145,
-    TLS_RSA_PSK_WITH_RC4_128_SHA = 146,
-    TLS_RSA_PSK_WITH_3DES_EDE_CBC_SHA = 147,
-    TLS_RSA_PSK_WITH_AES_128_CBC_SHA = 148,
-    TLS_RSA_PSK_WITH_AES_256_CBC_SHA = 149,
-    TLS_RSA_WITH_SEED_CBC_SHA = 150,
-    TLS_DH_DSS_WITH_SEED_CBC_SHA = 151,
-    TLS_DH_RSA_WITH_SEED_CBC_SHA = 152,
-    TLS_DHE_DSS_WITH_SEED_CBC_SHA = 153,
-    TLS_DHE_RSA_WITH_SEED_CBC_SHA = 154,
-    TLS_DH_anon_WITH_SEED_CBC_SHA = 155,
-    TLS_RSA_WITH_AES_128_GCM_SHA256 = 156,
-    TLS_RSA_WITH_AES_256_GCM_SHA384 = 157,
-    TLS_DHE_RSA_WITH_AES_128_GCM_SHA256 = 158,
-    TLS_DHE_RSA_WITH_AES_256_GCM_SHA384 = 159,
-    TLS_DH_RSA_WITH_AES_128_GCM_SHA256 = 160,
-    TLS_DH_RSA_WITH_AES_256_GCM_SHA384 = 161,
-    TLS_DHE_DSS_WITH_AES_128_GCM_SHA256 = 162,
-    TLS_DHE_DSS_WITH_AES_256_GCM_SHA384 = 163,
-    TLS_DH_DSS_WITH_AES_128_GCM_SHA256 = 164,
-    TLS_DH_DSS_WITH_AES_256_GCM_SHA384 = 165,
-    TLS_DH_anon_WITH_AES_128_GCM_SHA256 = 166,
-    TLS_DH_anon_WITH_AES_256_GCM_SHA384 = 167,
-    TLS_PSK_WITH_AES_128_GCM_SHA256 = 168,
-    TLS_PSK_WITH_AES_256_GCM_SHA384 = 169,
-    TLS_DHE_PSK_WITH_AES_128_GCM_SHA256 = 170,
-    TLS_DHE_PSK_WITH_AES_256_GCM_SHA384 = 171,
-    TLS_RSA_PSK_WITH_AES_128_GCM_SHA256 = 172,
-    TLS_RSA_PSK_WITH_AES_256_GCM_SHA384 = 173,
-    TLS_PSK_WITH_AES_128_CBC_SHA256 = 174,
-    TLS_PSK_WITH_AES_256_CBC_SHA384 = 175,
-    TLS_PSK_WITH_NULL_SHA256 = 176,
-    TLS_PSK_WITH_NULL_SHA384 = 177,
-    TLS_DHE_PSK_WITH_AES_128_CBC_SHA256 = 178,
-    TLS_DHE_PSK_WITH_AES_256_CBC_SHA384 = 179,
-    TLS_DHE_PSK_WITH_NULL_SHA256 = 180,
-    TLS_DHE_PSK_WITH_NULL_SHA384 = 181,
-    TLS_RSA_PSK_WITH_AES_128_CBC_SHA256 = 182,
-    TLS_RSA_PSK_WITH_AES_256_CBC_SHA384 = 183,
-    TLS_RSA_PSK_WITH_NULL_SHA256 = 184,
-    TLS_RSA_PSK_WITH_NULL_SHA384 = 185,
-    TLS_RSA_WITH_CAMELLIA_128_CBC_SHA256 = 186,
-    TLS_DH_DSS_WITH_CAMELLIA_128_CBC_SHA256 = 187,
-    TLS_DH_RSA_WITH_CAMELLIA_128_CBC_SHA256 = 188,
-    TLS_DHE_DSS_WITH_CAMELLIA_128_CBC_SHA256 = 189,
-    TLS_DHE_RSA_WITH_CAMELLIA_128_CBC_SHA256 = 190,
-    TLS_DH_anon_WITH_CAMELLIA_128_CBC_SHA256 = 191,
-    TLS_RSA_WITH_CAMELLIA_256_CBC_SHA256 = 192,
-    TLS_DH_DSS_WITH_CAMELLIA_256_CBC_SHA256 = 193,
-    TLS_DH_RSA_WITH_CAMELLIA_256_CBC_SHA256 = 194,
-    TLS_DHE_DSS_WITH_CAMELLIA_256_CBC_SHA256 = 195,
-    TLS_DHE_RSA_WITH_CAMELLIA_256_CBC_SHA256 = 196,
-    TLS_DH_anon_WITH_CAMELLIA_256_CBC_SHA256 = 197,
-    TLS_AES_128_GCM_SHA256 = 4865,
-    TLS_AES_256_GCM_SHA384 = 4866,
-    TLS_CHACHA20_POLY1305_SHA256 = 4867,
-    TLS_AES_128_CCM_SHA256 = 4868,
-    TLS_AES_128_CCM_8_SHA256 = 4869,
-    TLS_ECDH_ECDSA_WITH_NULL_SHA = 49153,
-    TLS_ECDH_ECDSA_WITH_RC4_128_SHA = 49154,
-    TLS_ECDH_ECDSA_WITH_3DES_EDE_CBC_SHA = 49155,
-    TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA = 49156,
-    TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA = 49157,
-    TLS_ECDHE_ECDSA_WITH_NULL_SHA = 49158,
-    TLS_ECDHE_ECDSA_WITH_RC4_128_SHA = 49159,
-    TLS_ECDHE_ECDSA_WITH_3DES_EDE_CBC_SHA = 49160,
-    TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA = 49161,
-    TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA = 49162,
-    TLS_ECDH_RSA_WITH_NULL_SHA = 49163,
-    TLS_ECDH_RSA_WITH_RC4_128_SHA = 49164,
-    TLS_ECDH_RSA_WITH_3DES_EDE_CBC_SHA = 49165,
-    TLS_ECDH_RSA_WITH_AES_128_CBC_SHA = 49166,
-    TLS_ECDH_RSA_WITH_AES_256_CBC_SHA = 49167,
-    TLS_ECDHE_RSA_WITH_NULL_SHA = 49168,
-    TLS_ECDHE_RSA_WITH_RC4_128_SHA = 49169,
-    TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA = 49170,
-    TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA = 49171,
-    TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA = 49172,
-    TLS_ECDH_anon_WITH_NULL_SHA = 49173,
-    TLS_ECDH_anon_WITH_RC4_128_SHA = 49174,
-    TLS_ECDH_anon_WITH_3DES_EDE_CBC_SHA = 49175,
-    TLS_ECDH_anon_WITH_AES_128_CBC_SHA = 49176,
-    TLS_ECDH_anon_WITH_AES_256_CBC_SHA = 49177,
-    TLS_SRP_SHA_WITH_3DES_EDE_CBC_SHA = 49178,
-    TLS_SRP_SHA_RSA_WITH_3DES_EDE_CBC_SHA = 49179,
-    TLS_SRP_SHA_DSS_WITH_3DES_EDE_CBC_SHA = 49180,
-    TLS_SRP_SHA_WITH_AES_128_CBC_SHA = 49181,
-    TLS_SRP_SHA_RSA_WITH_AES_128_CBC_SHA = 49182,
-    TLS_SRP_SHA_DSS_WITH_AES_128_CBC_SHA = 49183,
-    TLS_SRP_SHA_WITH_AES_256_CBC_SHA = 49184,
-    TLS_SRP_SHA_RSA_WITH_AES_256_CBC_SHA = 49185,
-    TLS_SRP_SHA_DSS_WITH_AES_256_CBC_SHA = 49186,
-    TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256 = 49187,
-    TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384 = 49188,
-    TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256 = 49189,
-    TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384 = 49190,
-    TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256 = 49191,
-    TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384 = 49192,
-    TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256 = 49193,
-    TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384 = 49194,
-    TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256 = 49195,
-    TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384 = 49196,
-    TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256 = 49197,
-    TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384 = 49198,
-    TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256 = 49199,
-    TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 = 49200,
-    TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256 = 49201,
-    TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384 = 49202,
-    TLS_ECDHE_PSK_WITH_RC4_128_SHA = 49203,
-    TLS_ECDHE_PSK_WITH_3DES_EDE_CBC_SHA = 49204,
-    TLS_ECDHE_PSK_WITH_AES_128_CBC_SHA = 49205,
-    TLS_ECDHE_PSK_WITH_AES_256_CBC_SHA = 49206,
-    TLS_ECDHE_PSK_WITH_AES_128_CBC_SHA256 = 49207,
-    TLS_ECDHE_PSK_WITH_AES_256_CBC_SHA384 = 49208,
-    TLS_ECDHE_PSK_WITH_NULL_SHA = 49209,
-    TLS_ECDHE_PSK_WITH_NULL_SHA256 = 49210,
-    TLS_ECDHE_PSK_WITH_NULL_SHA384 = 49211,
-    TLS_RSA_WITH_ARIA_128_CBC_SHA256 = 49212,
-    TLS_RSA_WITH_ARIA_256_CBC_SHA384 = 49213,
-    TLS_DH_DSS_WITH_ARIA_128_CBC_SHA256 = 49214,
-    TLS_DH_DSS_WITH_ARIA_256_CBC_SHA384 = 49215,
-    TLS_DH_RSA_WITH_ARIA_128_CBC_SHA256 = 49216,
-    TLS_DH_RSA_WITH_ARIA_256_CBC_SHA384 = 49217,
-    TLS_DHE_DSS_WITH_ARIA_128_CBC_SHA256 = 49218,
-    TLS_DHE_DSS_WITH_ARIA_256_CBC_SHA384 = 49219,
-    TLS_DHE_RSA_WITH_ARIA_128_CBC_SHA256 = 49220,
-    TLS_DHE_RSA_WITH_ARIA_256_CBC_SHA384 = 49221,
-    TLS_DH_anon_WITH_ARIA_128_CBC_SHA256 = 49222,
-    TLS_DH_anon_WITH_ARIA_256_CBC_SHA384 = 49223,
-    TLS_ECDHE_ECDSA_WITH_ARIA_128_CBC_SHA256 = 49224,
-    TLS_ECDHE_ECDSA_WITH_ARIA_256_CBC_SHA384 = 49225,
-    TLS_ECDH_ECDSA_WITH_ARIA_128_CBC_SHA256 = 49226,
-    TLS_ECDH_ECDSA_WITH_ARIA_256_CBC_SHA384 = 49227,
-    TLS_ECDHE_RSA_WITH_ARIA_128_CBC_SHA256 = 49228,
-    TLS_ECDHE_RSA_WITH_ARIA_256_CBC_SHA384 = 49229,
-    TLS_ECDH_RSA_WITH_ARIA_128_CBC_SHA256 = 49230,
-    TLS_ECDH_RSA_WITH_ARIA_256_CBC_SHA384 = 49231,
-    TLS_RSA_WITH_ARIA_128_GCM_SHA256 = 49232,
-    TLS_RSA_WITH_ARIA_256_GCM_SHA384 = 49233,
-    TLS_DHE_RSA_WITH_ARIA_128_GCM_SHA256 = 49234,
-    TLS_DHE_RSA_WITH_ARIA_256_GCM_SHA384 = 49235,
-    TLS_DH_RSA_WITH_ARIA_128_GCM_SHA256 = 49236,
-    TLS_DH_RSA_WITH_ARIA_256_GCM_SHA384 = 49237,
-    TLS_DHE_DSS_WITH_ARIA_128_GCM_SHA256 = 49238,
-    TLS_DHE_DSS_WITH_ARIA_256_GCM_SHA384 = 49239,
-    TLS_DH_DSS_WITH_ARIA_128_GCM_SHA256 = 49240,
-    TLS_DH_DSS_WITH_ARIA_256_GCM_SHA384 = 49241,
-    TLS_DH_anon_WITH_ARIA_128_GCM_SHA256 = 49242,
-    TLS_DH_anon_WITH_ARIA_256_GCM_SHA384 = 49243,
-    TLS_ECDHE_ECDSA_WITH_ARIA_128_GCM_SHA256 = 49244,
-    TLS_ECDHE_ECDSA_WITH_ARIA_256_GCM_SHA384 = 49245,
-    TLS_ECDH_ECDSA_WITH_ARIA_128_GCM_SHA256 = 49246,
-    TLS_ECDH_ECDSA_WITH_ARIA_256_GCM_SHA384 = 49247,
-    TLS_ECDHE_RSA_WITH_ARIA_128_GCM_SHA256 = 49248,
-    TLS_ECDHE_RSA_WITH_ARIA_256_GCM_SHA384 = 49249,
-    TLS_ECDH_RSA_WITH_ARIA_128_GCM_SHA256 = 49250,
-    TLS_ECDH_RSA_WITH_ARIA_256_GCM_SHA384 = 49251,
-    TLS_PSK_WITH_ARIA_128_CBC_SHA256 = 49252,
-    TLS_PSK_WITH_ARIA_256_CBC_SHA384 = 49253,
-    TLS_DHE_PSK_WITH_ARIA_128_CBC_SHA256 = 49254,
-    TLS_DHE_PSK_WITH_ARIA_256_CBC_SHA384 = 49255,
-    TLS_RSA_PSK_WITH_ARIA_128_CBC_SHA256 = 49256,
-    TLS_RSA_PSK_WITH_ARIA_256_CBC_SHA384 = 49257,
-    TLS_PSK_WITH_ARIA_128_GCM_SHA256 = 49258,
-    TLS_PSK_WITH_ARIA_256_GCM_SHA384 = 49259,
-    TLS_DHE_PSK_WITH_ARIA_128_GCM_SHA256 = 49260,
-    TLS_DHE_PSK_WITH_ARIA_256_GCM_SHA384 = 49261,
-    TLS_RSA_PSK_WITH_ARIA_128_GCM_SHA256 = 49262,
-    TLS_RSA_PSK_WITH_ARIA_256_GCM_SHA384 = 49263,
-    TLS_ECDHE_PSK_WITH_ARIA_128_CBC_SHA256 = 49264,
-    TLS_ECDHE_PSK_WITH_ARIA_256_CBC_SHA384 = 49265,
-    TLS_ECDHE_ECDSA_WITH_CAMELLIA_128_CBC_SHA256 = 49266,
-    TLS_ECDHE_ECDSA_WITH_CAMELLIA_256_CBC_SHA384 = 49267,
-    TLS_ECDH_ECDSA_WITH_CAMELLIA_128_CBC_SHA256 = 49268,
-    TLS_ECDH_ECDSA_WITH_CAMELLIA_256_CBC_SHA384 = 49269,
-    TLS_ECDHE_RSA_WITH_CAMELLIA_128_CBC_SHA256 = 49270,
-    TLS_ECDHE_RSA_WITH_CAMELLIA_256_CBC_SHA384 = 49271,
-    TLS_ECDH_RSA_WITH_CAMELLIA_128_CBC_SHA256 = 49272,
-    TLS_ECDH_RSA_WITH_CAMELLIA_256_CBC_SHA384 = 49273,
-    TLS_RSA_WITH_CAMELLIA_128_GCM_SHA256 = 49274,
-    TLS_RSA_WITH_CAMELLIA_256_GCM_SHA384 = 49275,
-    TLS_DHE_RSA_WITH_CAMELLIA_128_GCM_SHA256 = 49276,
-    TLS_DHE_RSA_WITH_CAMELLIA_256_GCM_SHA384 = 49277,
-    TLS_DH_RSA_WITH_CAMELLIA_128_GCM_SHA256 = 49278,
-    TLS_DH_RSA_WITH_CAMELLIA_256_GCM_SHA384 = 49279,
-    TLS_DHE_DSS_WITH_CAMELLIA_128_GCM_SHA256 = 49280,
-    TLS_DHE_DSS_WITH_CAMELLIA_256_GCM_SHA384 = 49281,
-    TLS_DH_DSS_WITH_CAMELLIA_128_GCM_SHA256 = 49282,
-    TLS_DH_DSS_WITH_CAMELLIA_256_GCM_SHA384 = 49283,
-    TLS_DH_anon_WITH_CAMELLIA_128_GCM_SHA256 = 49284,
-    TLS_DH_anon_WITH_CAMELLIA_256_GCM_SHA384 = 49285,
-    TLS_ECDHE_ECDSA_WITH_CAMELLIA_128_GCM_SHA256 = 49286,
-    TLS_ECDHE_ECDSA_WITH_CAMELLIA_256_GCM_SHA384 = 49287,
-    TLS_ECDH_ECDSA_WITH_CAMELLIA_128_GCM_SHA256 = 49288,
-    TLS_ECDH_ECDSA_WITH_CAMELLIA_256_GCM_SHA384 = 49289,
-    TLS_ECDHE_RSA_WITH_CAMELLIA_128_GCM_SHA256 = 49290,
-    TLS_ECDHE_RSA_WITH_CAMELLIA_256_GCM_SHA384 = 49291,
-    TLS_ECDH_RSA_WITH_CAMELLIA_128_GCM_SHA256 = 49292,
-    TLS_ECDH_RSA_WITH_CAMELLIA_256_GCM_SHA384 = 49293,
-    TLS_PSK_WITH_CAMELLIA_128_GCM_SHA256 = 49294,
-    TLS_PSK_WITH_CAMELLIA_256_GCM_SHA384 = 49295,
-    TLS_DHE_PSK_WITH_CAMELLIA_128_GCM_SHA256 = 49296,
-    TLS_DHE_PSK_WITH_CAMELLIA_256_GCM_SHA384 = 49297,
-    TLS_RSA_PSK_WITH_CAMELLIA_128_GCM_SHA256 = 49298,
-    TLS_RSA_PSK_WITH_CAMELLIA_256_GCM_SHA384 = 49299,
-    TLS_PSK_WITH_CAMELLIA_128_CBC_SHA256 = 49300,
-    TLS_PSK_WITH_CAMELLIA_256_CBC_SHA384 = 49301,
-    TLS_DHE_PSK_WITH_CAMELLIA_128_CBC_SHA256 = 49302,
-    TLS_DHE_PSK_WITH_CAMELLIA_256_CBC_SHA384 = 49303,
-    TLS_RSA_PSK_WITH_CAMELLIA_128_CBC_SHA256 = 49304,
-    TLS_RSA_PSK_WITH_CAMELLIA_256_CBC_SHA384 = 49305,
-    TLS_ECDHE_PSK_WITH_CAMELLIA_128_CBC_SHA256 = 49306,
-    TLS_ECDHE_PSK_WITH_CAMELLIA_256_CBC_SHA384 = 49307,
-    TLS_RSA_WITH_AES_128_CCM = 49308,
-    TLS_RSA_WITH_AES_256_CCM = 49309,
-    TLS_DHE_RSA_WITH_AES_128_CCM = 49310,
-    TLS_DHE_RSA_WITH_AES_256_CCM = 49311,
-    TLS_RSA_WITH_AES_128_CCM_8 = 49312,
-    TLS_RSA_WITH_AES_256_CCM_8 = 49313,
-    TLS_DHE_RSA_WITH_AES_128_CCM_8 = 49314,
-    TLS_DHE_RSA_WITH_AES_256_CCM_8 = 49315,
-    TLS_PSK_WITH_AES_128_CCM = 49316,
-    TLS_PSK_WITH_AES_256_CCM = 49317,
-    TLS_DHE_PSK_WITH_AES_128_CCM = 49318,
-    TLS_DHE_PSK_WITH_AES_256_CCM = 49319,
-    TLS_PSK_WITH_AES_128_CCM_8 = 49320,
-    TLS_PSK_WITH_AES_256_CCM_8 = 49321,
-    TLS_PSK_DHE_WITH_AES_128_CCM_8 = 49322,
-    TLS_PSK_DHE_WITH_AES_256_CCM_8 = 49323,
-    TLS_ECDHE_ECDSA_WITH_AES_128_CCM = 49324,
-    TLS_ECDHE_ECDSA_WITH_AES_256_CCM = 49325,
-    TLS_ECDHE_ECDSA_WITH_AES_128_CCM_8 = 49326,
-    TLS_ECDHE_ECDSA_WITH_AES_256_CCM_8 = 49327,
-    TLS_ECCPWD_WITH_AES_128_GCM_SHA256 = 49328,
-    TLS_ECCPWD_WITH_AES_256_GCM_SHA384 = 49329,
-    TLS_ECCPWD_WITH_AES_128_CCM_SHA256 = 49330,
-    TLS_ECCPWD_WITH_AES_256_CCM_SHA384 = 49331,
-    TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256 = 52392,
-    TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256 = 52393,
-    TLS_DHE_RSA_WITH_CHACHA20_POLY1305_SHA256 = 52394,
-    TLS_PSK_WITH_CHACHA20_POLY1305_SHA256 = 52395,
-    TLS_ECDHE_PSK_WITH_CHACHA20_POLY1305_SHA256 = 52396,
-    TLS_DHE_PSK_WITH_CHACHA20_POLY1305_SHA256 = 52397,
-    TLS_RSA_PSK_WITH_CHACHA20_POLY1305_SHA256 = 52398,
-    TLS_ECDHE_PSK_WITH_AES_128_GCM_SHA256 = 53249,
-    TLS_ECDHE_PSK_WITH_AES_256_GCM_SHA384 = 53250,
-    TLS_ECDHE_PSK_WITH_AES_128_CCM_8_SHA256 = 53251,
-    TLS_ECDHE_PSK_WITH_AES_128_CCM_SHA256 = 53253
+    tls_null_with_null_null = 0,
+    tls_rsa_with_null_md5 = 1,
+    tls_rsa_with_null_sha = 2,
+    tls_rsa_export_with_rc4_40_md5 = 3,
+    tls_rsa_with_rc4_128_md5 = 4,
+    tls_rsa_with_rc4_128_sha = 5,
+    tls_rsa_export_with_rc2_cbc_40_md5 = 6,
+    tls_rsa_with_idea_cbc_sha = 7,
+    tls_rsa_export_with_des40_cbc_sha = 8,
+    tls_rsa_with_des_cbc_sha = 9,
+    tls_rsa_with_3des_ede_cbc_sha = 10,
+    tls_dh_dss_export_with_des40_cbc_sha = 11,
+    tls_dh_dss_with_des_cbc_sha = 12,
+    tls_dh_dss_with_3des_ede_cbc_sha = 13,
+    tls_dh_rsa_export_with_des40_cbc_sha = 14,
+    tls_dh_rsa_with_des_cbc_sha = 15,
+    tls_dh_rsa_with_3des_ede_cbc_sha = 16,
+    tls_dhe_dss_export_with_des40_cbc_sha = 17,
+    tls_dhe_dss_with_des_cbc_sha = 18,
+    tls_dhe_dss_with_3des_ede_cbc_sha = 19,
+    tls_dhe_rsa_export_with_des40_cbc_sha = 20,
+    tls_dhe_rsa_with_des_cbc_sha = 21,
+    tls_dhe_rsa_with_3des_ede_cbc_sha = 22,
+    tls_DH_anon_EXPORT_WITH_RC4_40_MD5 = 23,
+    tls_DH_anon_WITH_RC4_128_MD5 = 24,
+    tls_DH_anon_EXPORT_WITH_DES40_CBC_SHA = 25,
+    tls_DH_anon_WITH_DES_CBC_SHA = 26,
+    tls_DH_anon_WITH_3DES_EDE_CBC_SHA = 27,
+    tls_krb5_with_des_cbc_sha = 30,
+    tls_krb5_with_3des_ede_cbc_sha = 31,
+    tls_krb5_with_rc4_128_sha = 32,
+    tls_krb5_with_idea_cbc_sha = 33,
+    tls_krb5_with_des_cbc_md5 = 34,
+    tls_krb5_with_3des_ede_cbc_md5 = 35,
+    tls_krb5_with_rc4_128_md5 = 36,
+    tls_krb5_with_idea_cbc_md5 = 37,
+    tls_krb5_export_with_des_cbc_40_sha = 38,
+    tls_krb5_export_with_rc2_cbc_40_sha = 39,
+    tls_krb5_export_with_rc4_40_sha = 40,
+    tls_krb5_export_with_des_cbc_40_md5 = 41,
+    tls_krb5_export_with_rc2_cbc_40_md5 = 42,
+    tls_krb5_export_with_rc4_40_md5 = 43,
+    tls_psk_with_null_sha = 44,
+    tls_dhe_psk_with_null_sha = 45,
+    tls_rsa_psk_with_null_sha = 46,
+    tls_rsa_with_aes_128_cbc_sha = 47,
+    tls_dh_dss_with_aes_128_cbc_sha = 48,
+    tls_dh_rsa_with_aes_128_cbc_sha = 49,
+    tls_dhe_dss_with_aes_128_cbc_sha = 50,
+    tls_dhe_rsa_with_aes_128_cbc_sha = 51,
+    tls_DH_anon_WITH_AES_128_CBC_SHA = 52,
+    tls_rsa_with_aes_256_cbc_sha = 53,
+    tls_dh_dss_with_aes_256_cbc_sha = 54,
+    tls_dh_rsa_with_aes_256_cbc_sha = 55,
+    tls_dhe_dss_with_aes_256_cbc_sha = 56,
+    tls_dhe_rsa_with_aes_256_cbc_sha = 57,
+    tls_DH_anon_WITH_AES_256_CBC_SHA = 58,
+    tls_rsa_with_null_sha256 = 59,
+    tls_rsa_with_aes_128_cbc_sha256 = 60,
+    tls_rsa_with_aes_256_cbc_sha256 = 61,
+    tls_dh_dss_with_aes_128_cbc_sha256 = 62,
+    tls_dh_rsa_with_aes_128_cbc_sha256 = 63,
+    tls_dhe_dss_with_aes_128_cbc_sha256 = 64,
+    tls_rsa_with_camellia_128_cbc_sha = 65,
+    tls_dh_dss_with_camellia_128_cbc_sha = 66,
+    tls_dh_rsa_with_camellia_128_cbc_sha = 67,
+    tls_dhe_dss_with_camellia_128_cbc_sha = 68,
+    tls_dhe_rsa_with_camellia_128_cbc_sha = 69,
+    tls_DH_anon_WITH_CAMELLIA_128_CBC_SHA = 70,
+    tls_dhe_rsa_with_aes_128_cbc_sha256 = 103,
+    tls_dh_dss_with_aes_256_cbc_sha256 = 104,
+    tls_dh_rsa_with_aes_256_cbc_sha256 = 105,
+    tls_dhe_dss_with_aes_256_cbc_sha256 = 106,
+    tls_dhe_rsa_with_aes_256_cbc_sha256 = 107,
+    tls_DH_anon_WITH_AES_128_CBC_SHA256 = 108,
+    tls_DH_anon_WITH_AES_256_CBC_SHA256 = 109,
+    tls_rsa_with_camellia_256_cbc_sha = 132,
+    tls_dh_dss_with_camellia_256_cbc_sha = 133,
+    tls_dh_rsa_with_camellia_256_cbc_sha = 134,
+    tls_dhe_dss_with_camellia_256_cbc_sha = 135,
+    tls_dhe_rsa_with_camellia_256_cbc_sha = 136,
+    tls_DH_anon_WITH_CAMELLIA_256_CBC_SHA = 137,
+    tls_psk_with_rc4_128_sha = 138,
+    tls_psk_with_3des_ede_cbc_sha = 139,
+    tls_psk_with_aes_128_cbc_sha = 140,
+    tls_psk_with_aes_256_cbc_sha = 141,
+    tls_dhe_psk_with_rc4_128_sha = 142,
+    tls_dhe_psk_with_3des_ede_cbc_sha = 143,
+    tls_dhe_psk_with_aes_128_cbc_sha = 144,
+    tls_dhe_psk_with_aes_256_cbc_sha = 145,
+    tls_rsa_psk_with_rc4_128_sha = 146,
+    tls_rsa_psk_with_3des_ede_cbc_sha = 147,
+    tls_rsa_psk_with_aes_128_cbc_sha = 148,
+    tls_rsa_psk_with_aes_256_cbc_sha = 149,
+    tls_rsa_with_seed_cbc_sha = 150,
+    tls_dh_dss_with_seed_cbc_sha = 151,
+    tls_dh_rsa_with_seed_cbc_sha = 152,
+    tls_dhe_dss_with_seed_cbc_sha = 153,
+    tls_dhe_rsa_with_seed_cbc_sha = 154,
+    tls_DH_anon_WITH_SEED_CBC_SHA = 155,
+    tls_rsa_with_aes_128_gcm_sha256 = 156,
+    tls_rsa_with_aes_256_gcm_sha384 = 157,
+    tls_dhe_rsa_with_aes_128_gcm_sha256 = 158,
+    tls_dhe_rsa_with_aes_256_gcm_sha384 = 159,
+    tls_dh_rsa_with_aes_128_gcm_sha256 = 160,
+    tls_dh_rsa_with_aes_256_gcm_sha384 = 161,
+    tls_dhe_dss_with_aes_128_gcm_sha256 = 162,
+    tls_dhe_dss_with_aes_256_gcm_sha384 = 163,
+    tls_dh_dss_with_aes_128_gcm_sha256 = 164,
+    tls_dh_dss_with_aes_256_gcm_sha384 = 165,
+    tls_DH_anon_WITH_AES_128_GCM_SHA256 = 166,
+    tls_DH_anon_WITH_AES_256_GCM_SHA384 = 167,
+    tls_psk_with_aes_128_gcm_sha256 = 168,
+    tls_psk_with_aes_256_gcm_sha384 = 169,
+    tls_dhe_psk_with_aes_128_gcm_sha256 = 170,
+    tls_dhe_psk_with_aes_256_gcm_sha384 = 171,
+    tls_rsa_psk_with_aes_128_gcm_sha256 = 172,
+    tls_rsa_psk_with_aes_256_gcm_sha384 = 173,
+    tls_psk_with_aes_128_cbc_sha256 = 174,
+    tls_psk_with_aes_256_cbc_sha384 = 175,
+    tls_psk_with_null_sha256 = 176,
+    tls_psk_with_null_sha384 = 177,
+    tls_dhe_psk_with_aes_128_cbc_sha256 = 178,
+    tls_dhe_psk_with_aes_256_cbc_sha384 = 179,
+    tls_dhe_psk_with_null_sha256 = 180,
+    tls_dhe_psk_with_null_sha384 = 181,
+    tls_rsa_psk_with_aes_128_cbc_sha256 = 182,
+    tls_rsa_psk_with_aes_256_cbc_sha384 = 183,
+    tls_rsa_psk_with_null_sha256 = 184,
+    tls_rsa_psk_with_null_sha384 = 185,
+    tls_rsa_with_camellia_128_cbc_sha256 = 186,
+    tls_dh_dss_with_camellia_128_cbc_sha256 = 187,
+    tls_dh_rsa_with_camellia_128_cbc_sha256 = 188,
+    tls_dhe_dss_with_camellia_128_cbc_sha256 = 189,
+    tls_dhe_rsa_with_camellia_128_cbc_sha256 = 190,
+    tls_DH_anon_WITH_CAMELLIA_128_CBC_SHA256 = 191,
+    tls_rsa_with_camellia_256_cbc_sha256 = 192,
+    tls_dh_dss_with_camellia_256_cbc_sha256 = 193,
+    tls_dh_rsa_with_camellia_256_cbc_sha256 = 194,
+    tls_dhe_dss_with_camellia_256_cbc_sha256 = 195,
+    tls_dhe_rsa_with_camellia_256_cbc_sha256 = 196,
+    tls_DH_anon_WITH_CAMELLIA_256_CBC_SHA256 = 197,
+    tls_aes_128_gcm_sha256 = 4865,
+    tls_aes_256_gcm_sha384 = 4866,
+    tls_chacha20_poly1305_sha256 = 4867,
+    tls_aes_128_ccm_sha256 = 4868,
+    tls_aes_128_ccm_8_sha256 = 4869,
+    tls_ecdh_ecdsa_with_null_sha = 49153,
+    tls_ecdh_ecdsa_with_rc4_128_sha = 49154,
+    tls_ecdh_ecdsa_with_3des_ede_cbc_sha = 49155,
+    tls_ecdh_ecdsa_with_aes_128_cbc_sha = 49156,
+    tls_ecdh_ecdsa_with_aes_256_cbc_sha = 49157,
+    tls_ecdhe_ecdsa_with_null_sha = 49158,
+    tls_ecdhe_ecdsa_with_rc4_128_sha = 49159,
+    tls_ecdhe_ecdsa_with_3des_ede_cbc_sha = 49160,
+    tls_ecdhe_ecdsa_with_aes_128_cbc_sha = 49161,
+    tls_ecdhe_ecdsa_with_aes_256_cbc_sha = 49162,
+    tls_ecdh_rsa_with_null_sha = 49163,
+    tls_ecdh_rsa_with_rc4_128_sha = 49164,
+    tls_ecdh_rsa_with_3des_ede_cbc_sha = 49165,
+    tls_ecdh_rsa_with_aes_128_cbc_sha = 49166,
+    tls_ecdh_rsa_with_aes_256_cbc_sha = 49167,
+    tls_ecdhe_rsa_with_null_sha = 49168,
+    tls_ecdhe_rsa_with_rc4_128_sha = 49169,
+    tls_ecdhe_rsa_with_3des_ede_cbc_sha = 49170,
+    tls_ecdhe_rsa_with_aes_128_cbc_sha = 49171,
+    tls_ecdhe_rsa_with_aes_256_cbc_sha = 49172,
+    tls_ECDH_anon_WITH_NULL_SHA = 49173,
+    tls_ECDH_anon_WITH_RC4_128_SHA = 49174,
+    tls_ECDH_anon_WITH_3DES_EDE_CBC_SHA = 49175,
+    tls_ECDH_anon_WITH_AES_128_CBC_SHA = 49176,
+    tls_ECDH_anon_WITH_AES_256_CBC_SHA = 49177,
+    tls_srp_sha_with_3des_ede_cbc_sha = 49178,
+    tls_srp_sha_rsa_with_3des_ede_cbc_sha = 49179,
+    tls_srp_sha_dss_with_3des_ede_cbc_sha = 49180,
+    tls_srp_sha_with_aes_128_cbc_sha = 49181,
+    tls_srp_sha_rsa_with_aes_128_cbc_sha = 49182,
+    tls_srp_sha_dss_with_aes_128_cbc_sha = 49183,
+    tls_srp_sha_with_aes_256_cbc_sha = 49184,
+    tls_srp_sha_rsa_with_aes_256_cbc_sha = 49185,
+    tls_srp_sha_dss_with_aes_256_cbc_sha = 49186,
+    tls_ecdhe_ecdsa_with_aes_128_cbc_sha256 = 49187,
+    tls_ecdhe_ecdsa_with_aes_256_cbc_sha384 = 49188,
+    tls_ecdh_ecdsa_with_aes_128_cbc_sha256 = 49189,
+    tls_ecdh_ecdsa_with_aes_256_cbc_sha384 = 49190,
+    tls_ecdhe_rsa_with_aes_128_cbc_sha256 = 49191,
+    tls_ecdhe_rsa_with_aes_256_cbc_sha384 = 49192,
+    tls_ecdh_rsa_with_aes_128_cbc_sha256 = 49193,
+    tls_ecdh_rsa_with_aes_256_cbc_sha384 = 49194,
+    tls_ecdhe_ecdsa_with_aes_128_gcm_sha256 = 49195,
+    tls_ecdhe_ecdsa_with_aes_256_gcm_sha384 = 49196,
+    tls_ecdh_ecdsa_with_aes_128_gcm_sha256 = 49197,
+    tls_ecdh_ecdsa_with_aes_256_gcm_sha384 = 49198,
+    tls_ecdhe_rsa_with_aes_128_gcm_sha256 = 49199,
+    tls_ecdhe_rsa_with_aes_256_gcm_sha384 = 49200,
+    tls_ecdh_rsa_with_aes_128_gcm_sha256 = 49201,
+    tls_ecdh_rsa_with_aes_256_gcm_sha384 = 49202,
+    tls_ecdhe_psk_with_rc4_128_sha = 49203,
+    tls_ecdhe_psk_with_3des_ede_cbc_sha = 49204,
+    tls_ecdhe_psk_with_aes_128_cbc_sha = 49205,
+    tls_ecdhe_psk_with_aes_256_cbc_sha = 49206,
+    tls_ecdhe_psk_with_aes_128_cbc_sha256 = 49207,
+    tls_ecdhe_psk_with_aes_256_cbc_sha384 = 49208,
+    tls_ecdhe_psk_with_null_sha = 49209,
+    tls_ecdhe_psk_with_null_sha256 = 49210,
+    tls_ecdhe_psk_with_null_sha384 = 49211,
+    tls_rsa_with_aria_128_cbc_sha256 = 49212,
+    tls_rsa_with_aria_256_cbc_sha384 = 49213,
+    tls_dh_dss_with_aria_128_cbc_sha256 = 49214,
+    tls_dh_dss_with_aria_256_cbc_sha384 = 49215,
+    tls_dh_rsa_with_aria_128_cbc_sha256 = 49216,
+    tls_dh_rsa_with_aria_256_cbc_sha384 = 49217,
+    tls_dhe_dss_with_aria_128_cbc_sha256 = 49218,
+    tls_dhe_dss_with_aria_256_cbc_sha384 = 49219,
+    tls_dhe_rsa_with_aria_128_cbc_sha256 = 49220,
+    tls_dhe_rsa_with_aria_256_cbc_sha384 = 49221,
+    tls_DH_anon_WITH_ARIA_128_CBC_SHA256 = 49222,
+    tls_DH_anon_WITH_ARIA_256_CBC_SHA384 = 49223,
+    tls_ecdhe_ecdsa_with_aria_128_cbc_sha256 = 49224,
+    tls_ecdhe_ecdsa_with_aria_256_cbc_sha384 = 49225,
+    tls_ecdh_ecdsa_with_aria_128_cbc_sha256 = 49226,
+    tls_ecdh_ecdsa_with_aria_256_cbc_sha384 = 49227,
+    tls_ecdhe_rsa_with_aria_128_cbc_sha256 = 49228,
+    tls_ecdhe_rsa_with_aria_256_cbc_sha384 = 49229,
+    tls_ecdh_rsa_with_aria_128_cbc_sha256 = 49230,
+    tls_ecdh_rsa_with_aria_256_cbc_sha384 = 49231,
+    tls_rsa_with_aria_128_gcm_sha256 = 49232,
+    tls_rsa_with_aria_256_gcm_sha384 = 49233,
+    tls_dhe_rsa_with_aria_128_gcm_sha256 = 49234,
+    tls_dhe_rsa_with_aria_256_gcm_sha384 = 49235,
+    tls_dh_rsa_with_aria_128_gcm_sha256 = 49236,
+    tls_dh_rsa_with_aria_256_gcm_sha384 = 49237,
+    tls_dhe_dss_with_aria_128_gcm_sha256 = 49238,
+    tls_dhe_dss_with_aria_256_gcm_sha384 = 49239,
+    tls_dh_dss_with_aria_128_gcm_sha256 = 49240,
+    tls_dh_dss_with_aria_256_gcm_sha384 = 49241,
+    tls_DH_anon_WITH_ARIA_128_GCM_SHA256 = 49242,
+    tls_DH_anon_WITH_ARIA_256_GCM_SHA384 = 49243,
+    tls_ecdhe_ecdsa_with_aria_128_gcm_sha256 = 49244,
+    tls_ecdhe_ecdsa_with_aria_256_gcm_sha384 = 49245,
+    tls_ecdh_ecdsa_with_aria_128_gcm_sha256 = 49246,
+    tls_ecdh_ecdsa_with_aria_256_gcm_sha384 = 49247,
+    tls_ecdhe_rsa_with_aria_128_gcm_sha256 = 49248,
+    tls_ecdhe_rsa_with_aria_256_gcm_sha384 = 49249,
+    tls_ecdh_rsa_with_aria_128_gcm_sha256 = 49250,
+    tls_ecdh_rsa_with_aria_256_gcm_sha384 = 49251,
+    tls_psk_with_aria_128_cbc_sha256 = 49252,
+    tls_psk_with_aria_256_cbc_sha384 = 49253,
+    tls_dhe_psk_with_aria_128_cbc_sha256 = 49254,
+    tls_dhe_psk_with_aria_256_cbc_sha384 = 49255,
+    tls_rsa_psk_with_aria_128_cbc_sha256 = 49256,
+    tls_rsa_psk_with_aria_256_cbc_sha384 = 49257,
+    tls_psk_with_aria_128_gcm_sha256 = 49258,
+    tls_psk_with_aria_256_gcm_sha384 = 49259,
+    tls_dhe_psk_with_aria_128_gcm_sha256 = 49260,
+    tls_dhe_psk_with_aria_256_gcm_sha384 = 49261,
+    tls_rsa_psk_with_aria_128_gcm_sha256 = 49262,
+    tls_rsa_psk_with_aria_256_gcm_sha384 = 49263,
+    tls_ecdhe_psk_with_aria_128_cbc_sha256 = 49264,
+    tls_ecdhe_psk_with_aria_256_cbc_sha384 = 49265,
+    tls_ecdhe_ecdsa_with_camellia_128_cbc_sha256 = 49266,
+    tls_ecdhe_ecdsa_with_camellia_256_cbc_sha384 = 49267,
+    tls_ecdh_ecdsa_with_camellia_128_cbc_sha256 = 49268,
+    tls_ecdh_ecdsa_with_camellia_256_cbc_sha384 = 49269,
+    tls_ecdhe_rsa_with_camellia_128_cbc_sha256 = 49270,
+    tls_ecdhe_rsa_with_camellia_256_cbc_sha384 = 49271,
+    tls_ecdh_rsa_with_camellia_128_cbc_sha256 = 49272,
+    tls_ecdh_rsa_with_camellia_256_cbc_sha384 = 49273,
+    tls_rsa_with_camellia_128_gcm_sha256 = 49274,
+    tls_rsa_with_camellia_256_gcm_sha384 = 49275,
+    tls_dhe_rsa_with_camellia_128_gcm_sha256 = 49276,
+    tls_dhe_rsa_with_camellia_256_gcm_sha384 = 49277,
+    tls_dh_rsa_with_camellia_128_gcm_sha256 = 49278,
+    tls_dh_rsa_with_camellia_256_gcm_sha384 = 49279,
+    tls_dhe_dss_with_camellia_128_gcm_sha256 = 49280,
+    tls_dhe_dss_with_camellia_256_gcm_sha384 = 49281,
+    tls_dh_dss_with_camellia_128_gcm_sha256 = 49282,
+    tls_dh_dss_with_camellia_256_gcm_sha384 = 49283,
+    tls_DH_anon_WITH_CAMELLIA_128_GCM_SHA256 = 49284,
+    tls_DH_anon_WITH_CAMELLIA_256_GCM_SHA384 = 49285,
+    tls_ecdhe_ecdsa_with_camellia_128_gcm_sha256 = 49286,
+    tls_ecdhe_ecdsa_with_camellia_256_gcm_sha384 = 49287,
+    tls_ecdh_ecdsa_with_camellia_128_gcm_sha256 = 49288,
+    tls_ecdh_ecdsa_with_camellia_256_gcm_sha384 = 49289,
+    tls_ecdhe_rsa_with_camellia_128_gcm_sha256 = 49290,
+    tls_ecdhe_rsa_with_camellia_256_gcm_sha384 = 49291,
+    tls_ecdh_rsa_with_camellia_128_gcm_sha256 = 49292,
+    tls_ecdh_rsa_with_camellia_256_gcm_sha384 = 49293,
+    tls_psk_with_camellia_128_gcm_sha256 = 49294,
+    tls_psk_with_camellia_256_gcm_sha384 = 49295,
+    tls_dhe_psk_with_camellia_128_gcm_sha256 = 49296,
+    tls_dhe_psk_with_camellia_256_gcm_sha384 = 49297,
+    tls_rsa_psk_with_camellia_128_gcm_sha256 = 49298,
+    tls_rsa_psk_with_camellia_256_gcm_sha384 = 49299,
+    tls_psk_with_camellia_128_cbc_sha256 = 49300,
+    tls_psk_with_camellia_256_cbc_sha384 = 49301,
+    tls_dhe_psk_with_camellia_128_cbc_sha256 = 49302,
+    tls_dhe_psk_with_camellia_256_cbc_sha384 = 49303,
+    tls_rsa_psk_with_camellia_128_cbc_sha256 = 49304,
+    tls_rsa_psk_with_camellia_256_cbc_sha384 = 49305,
+    tls_ecdhe_psk_with_camellia_128_cbc_sha256 = 49306,
+    tls_ecdhe_psk_with_camellia_256_cbc_sha384 = 49307,
+    tls_rsa_with_aes_128_ccm = 49308,
+    tls_rsa_with_aes_256_ccm = 49309,
+    tls_dhe_rsa_with_aes_128_ccm = 49310,
+    tls_dhe_rsa_with_aes_256_ccm = 49311,
+    tls_rsa_with_aes_128_ccm_8 = 49312,
+    tls_rsa_with_aes_256_ccm_8 = 49313,
+    tls_dhe_rsa_with_aes_128_ccm_8 = 49314,
+    tls_dhe_rsa_with_aes_256_ccm_8 = 49315,
+    tls_psk_with_aes_128_ccm = 49316,
+    tls_psk_with_aes_256_ccm = 49317,
+    tls_dhe_psk_with_aes_128_ccm = 49318,
+    tls_dhe_psk_with_aes_256_ccm = 49319,
+    tls_psk_with_aes_128_ccm_8 = 49320,
+    tls_psk_with_aes_256_ccm_8 = 49321,
+    tls_psk_dhe_with_aes_128_ccm_8 = 49322,
+    tls_psk_dhe_with_aes_256_ccm_8 = 49323,
+    tls_ecdhe_ecdsa_with_aes_128_ccm = 49324,
+    tls_ecdhe_ecdsa_with_aes_256_ccm = 49325,
+    tls_ecdhe_ecdsa_with_aes_128_ccm_8 = 49326,
+    tls_ecdhe_ecdsa_with_aes_256_ccm_8 = 49327,
+    tls_eccpwd_with_aes_128_gcm_sha256 = 49328,
+    tls_eccpwd_with_aes_256_gcm_sha384 = 49329,
+    tls_eccpwd_with_aes_128_ccm_sha256 = 49330,
+    tls_eccpwd_with_aes_256_ccm_sha384 = 49331,
+    tls_ecdhe_rsa_with_chacha20_poly1305_sha256 = 52392,
+    tls_ecdhe_ecdsa_with_chacha20_poly1305_sha256 = 52393,
+    tls_dhe_rsa_with_chacha20_poly1305_sha256 = 52394,
+    tls_psk_with_chacha20_poly1305_sha256 = 52395,
+    tls_ecdhe_psk_with_chacha20_poly1305_sha256 = 52396,
+    tls_dhe_psk_with_chacha20_poly1305_sha256 = 52397,
+    tls_rsa_psk_with_chacha20_poly1305_sha256 = 52398,
+    tls_ecdhe_psk_with_aes_128_gcm_sha256 = 53249,
+    tls_ecdhe_psk_with_aes_256_gcm_sha384 = 53250,
+    tls_ecdhe_psk_with_aes_128_ccm_8_sha256 = 53251,
+    tls_ecdhe_psk_with_aes_128_ccm_sha256 = 53253
 }
 
 
 export class SslApplicationProtocol$instance {
     constructor(protocol: byte[]);
     constructor(protocol: string);
-    readonly Protocol: ReadOnlyMemory_1<CLROf<byte>>;
-    Equals(other: SslApplicationProtocol): boolean;
-    Equals(obj: unknown): boolean;
-    GetHashCode(): int;
-    ToString(): string;
-    static readonly Http3: SslApplicationProtocol;
-    static readonly Http2: SslApplicationProtocol;
-    static readonly Http11: SslApplicationProtocol;
+    readonly protocol: ReadOnlyMemory_1<CLROf<byte>>;
+    equals(other: SslApplicationProtocol): boolean;
+    equals(obj: unknown): boolean;
+    getHashCode(): int;
+    toString(): string;
+    static readonly http3: SslApplicationProtocol;
+    static readonly http2: SslApplicationProtocol;
+    static readonly http11: SslApplicationProtocol;
 }
 
 
@@ -468,22 +468,22 @@ export type SslApplicationProtocol = SslApplicationProtocol$instance & __SslAppl
 
 export class SslClientHelloInfo$instance {
     constructor(serverName: string, sslProtocols: SslProtocols);
-    readonly ServerName: string;
-    readonly SslProtocols: SslProtocols;
+    readonly serverName: string;
+    readonly sslProtocols: SslProtocols;
 }
 
 
 export type SslClientHelloInfo = SslClientHelloInfo$instance;
 
 export abstract class AuthenticatedStream$instance extends System_IO_Internal.Stream$instance {
-    readonly IsAuthenticated: boolean;
-    readonly IsEncrypted: boolean;
-    readonly IsMutuallyAuthenticated: boolean;
-    readonly IsServer: boolean;
-    readonly IsSigned: boolean;
-    readonly LeaveInnerStreamOpen: boolean;
-    Dispose(): void;
-    DisposeAsync(): ValueTask;
+    readonly isAuthenticated: boolean;
+    readonly isEncrypted: boolean;
+    readonly isMutuallyAuthenticated: boolean;
+    readonly isServer: boolean;
+    readonly isSigned: boolean;
+    readonly leaveInnerStreamOpen: boolean;
+    dispose(): void;
+    disposeAsync(): ValueTask;
 }
 
 
@@ -497,7 +497,7 @@ export type AuthenticatedStream = AuthenticatedStream$instance & __Authenticated
 
 export class CipherSuitesPolicy$instance {
     constructor(allowedCipherSuites: IEnumerable_1<TlsCipherSuite>);
-    readonly AllowedCipherSuites: IEnumerable_1<TlsCipherSuite>;
+    readonly allowedCipherSuites: IEnumerable_1<TlsCipherSuite>;
 }
 
 
@@ -505,11 +505,11 @@ export type CipherSuitesPolicy = CipherSuitesPolicy$instance;
 
 export class LocalCertificateSelectionCallback$instance extends Function {
     constructor(object_: unknown, method: nint);
-    BeginInvoke(sender: unknown, targetHost: string, localCertificates: X509CertificateCollection, remoteCertificate: X509Certificate, acceptableIssuers: string[], callback: AsyncCallback, object_: unknown): IAsyncResult;
-    Clone(): unknown;
-    EndInvoke(result: IAsyncResult): X509Certificate;
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
-    Invoke(sender: unknown, targetHost: string, localCertificates: X509CertificateCollection, remoteCertificate: X509Certificate, acceptableIssuers: string[]): X509Certificate;
+    beginInvoke(sender: unknown, targetHost: string, localCertificates: X509CertificateCollection, remoteCertificate: X509Certificate, acceptableIssuers: string[], callback: AsyncCallback, object_: unknown): IAsyncResult;
+    clone(): unknown;
+    endInvoke(result: IAsyncResult): X509Certificate;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
+    invoke(sender: unknown, targetHost: string, localCertificates: X509CertificateCollection, remoteCertificate: X509Certificate, acceptableIssuers: string[]): X509Certificate;
 }
 
 
@@ -524,24 +524,24 @@ export type LocalCertificateSelectionCallback = LocalCertificateSelectionCallbac
 export class NegotiateAuthentication$instance {
     constructor(clientOptions: NegotiateAuthenticationClientOptions);
     constructor(serverOptions: NegotiateAuthenticationServerOptions);
-    readonly ImpersonationLevel: TokenImpersonationLevel;
-    readonly IsAuthenticated: boolean;
-    readonly IsEncrypted: boolean;
-    readonly IsMutuallyAuthenticated: boolean;
-    readonly IsServer: boolean;
-    readonly IsSigned: boolean;
-    readonly Package: string;
-    readonly ProtectionLevel: ProtectionLevel;
-    readonly RemoteIdentity: IIdentity;
-    readonly TargetName: string;
-    ComputeIntegrityCheck(message: ReadOnlySpan_1<CLROf<byte>>, signatureWriter: IBufferWriter_1<CLROf<byte>>): void;
-    Dispose(): void;
-    GetOutgoingBlob(incomingBlob: ReadOnlySpan_1<CLROf<byte>>, statusCode: { value: ref<NegotiateAuthenticationStatusCode> }): byte[];
-    GetOutgoingBlob(incomingBlob: string, statusCode: { value: ref<NegotiateAuthenticationStatusCode> }): string;
-    Unwrap(input: ReadOnlySpan_1<CLROf<byte>>, outputWriter: IBufferWriter_1<CLROf<byte>>, wasEncrypted: { value: ref<boolean> }): NegotiateAuthenticationStatusCode;
-    UnwrapInPlace(input: Span_1<CLROf<byte>>, unwrappedOffset: { value: ref<int> }, unwrappedLength: { value: ref<int> }, wasEncrypted: { value: ref<boolean> }): NegotiateAuthenticationStatusCode;
-    VerifyIntegrityCheck(message: ReadOnlySpan_1<CLROf<byte>>, signature: ReadOnlySpan_1<CLROf<byte>>): boolean;
-    Wrap(input: ReadOnlySpan_1<CLROf<byte>>, outputWriter: IBufferWriter_1<CLROf<byte>>, requestEncryption: boolean, isEncrypted: { value: ref<boolean> }): NegotiateAuthenticationStatusCode;
+    readonly impersonationLevel: TokenImpersonationLevel;
+    readonly isAuthenticated: boolean;
+    readonly isEncrypted: boolean;
+    readonly isMutuallyAuthenticated: boolean;
+    readonly isServer: boolean;
+    readonly isSigned: boolean;
+    readonly package_: string;
+    readonly protectionLevel: ProtectionLevel;
+    readonly remoteIdentity: IIdentity;
+    readonly targetName: string;
+    computeIntegrityCheck(message: ReadOnlySpan_1<CLROf<byte>>, signatureWriter: IBufferWriter_1<CLROf<byte>>): void;
+    dispose(): void;
+    getOutgoingBlob(incomingBlob: ReadOnlySpan_1<CLROf<byte>>, statusCode: { value: ref<NegotiateAuthenticationStatusCode> }): byte[];
+    getOutgoingBlob(incomingBlob: string, statusCode: { value: ref<NegotiateAuthenticationStatusCode> }): string;
+    unwrap(input: ReadOnlySpan_1<CLROf<byte>>, outputWriter: IBufferWriter_1<CLROf<byte>>, wasEncrypted: { value: ref<boolean> }): NegotiateAuthenticationStatusCode;
+    unwrapInPlace(input: Span_1<CLROf<byte>>, unwrappedOffset: { value: ref<int> }, unwrappedLength: { value: ref<int> }, wasEncrypted: { value: ref<boolean> }): NegotiateAuthenticationStatusCode;
+    verifyIntegrityCheck(message: ReadOnlySpan_1<CLROf<byte>>, signature: ReadOnlySpan_1<CLROf<byte>>): boolean;
+    wrap(input: ReadOnlySpan_1<CLROf<byte>>, outputWriter: IBufferWriter_1<CLROf<byte>>, requestEncryption: boolean, isEncrypted: { value: ref<boolean> }): NegotiateAuthenticationStatusCode;
 }
 
 
@@ -554,13 +554,13 @@ export type NegotiateAuthentication = NegotiateAuthentication$instance & __Negot
 
 export class NegotiateAuthenticationClientOptions$instance {
     constructor();
-    AllowedImpersonationLevel: TokenImpersonationLevel;
-    Binding: ChannelBinding;
-    Credential: NetworkCredential;
-    Package: string;
-    RequiredProtectionLevel: ProtectionLevel;
-    RequireMutualAuthentication: boolean;
-    TargetName: string;
+    allowedImpersonationLevel: TokenImpersonationLevel;
+    binding: ChannelBinding;
+    credential: NetworkCredential;
+    package_: string;
+    requiredProtectionLevel: ProtectionLevel;
+    requireMutualAuthentication: boolean;
+    targetName: string;
 }
 
 
@@ -568,12 +568,12 @@ export type NegotiateAuthenticationClientOptions = NegotiateAuthenticationClient
 
 export class NegotiateAuthenticationServerOptions$instance {
     constructor();
-    Binding: ChannelBinding;
-    Credential: NetworkCredential;
-    Package: string;
-    Policy: ExtendedProtectionPolicy;
-    RequiredImpersonationLevel: TokenImpersonationLevel;
-    RequiredProtectionLevel: ProtectionLevel;
+    binding: ChannelBinding;
+    credential: NetworkCredential;
+    package_: string;
+    policy: ExtendedProtectionPolicy;
+    requiredImpersonationLevel: TokenImpersonationLevel;
+    requiredProtectionLevel: ProtectionLevel;
 }
 
 
@@ -582,74 +582,74 @@ export type NegotiateAuthenticationServerOptions = NegotiateAuthenticationServer
 export class NegotiateStream$instance extends AuthenticatedStream$instance {
     constructor(innerStream: Stream);
     constructor(innerStream: Stream, leaveInnerStreamOpen: boolean);
-    readonly CanRead: boolean;
-    readonly CanSeek: boolean;
-    readonly CanTimeout: boolean;
-    readonly CanWrite: boolean;
-    readonly ImpersonationLevel: TokenImpersonationLevel;
-    readonly IsAuthenticated: boolean;
-    readonly IsEncrypted: boolean;
-    readonly IsMutuallyAuthenticated: boolean;
-    readonly IsServer: boolean;
-    readonly IsSigned: boolean;
-    readonly Length: long;
-    Position: long;
-    ReadTimeout: int;
-    readonly RemoteIdentity: IIdentity;
-    WriteTimeout: int;
-    AuthenticateAsClient(): void;
-    AuthenticateAsClient(credential: NetworkCredential, targetName: string): void;
-    AuthenticateAsClient(credential: NetworkCredential, binding: ChannelBinding, targetName: string): void;
-    AuthenticateAsClient(credential: NetworkCredential, targetName: string, requiredProtectionLevel: ProtectionLevel, allowedImpersonationLevel: TokenImpersonationLevel): void;
-    AuthenticateAsClient(credential: NetworkCredential, binding: ChannelBinding, targetName: string, requiredProtectionLevel: ProtectionLevel, allowedImpersonationLevel: TokenImpersonationLevel): void;
-    AuthenticateAsClientAsync(): Task;
-    AuthenticateAsClientAsync(credential: NetworkCredential, targetName: string): Task;
-    AuthenticateAsClientAsync(credential: NetworkCredential, targetName: string, requiredProtectionLevel: ProtectionLevel, allowedImpersonationLevel: TokenImpersonationLevel): Task;
-    AuthenticateAsClientAsync(credential: NetworkCredential, binding: ChannelBinding, targetName: string): Task;
-    AuthenticateAsClientAsync(credential: NetworkCredential, binding: ChannelBinding, targetName: string, requiredProtectionLevel: ProtectionLevel, allowedImpersonationLevel: TokenImpersonationLevel): Task;
-    AuthenticateAsServer(): void;
-    AuthenticateAsServer(policy: ExtendedProtectionPolicy): void;
-    AuthenticateAsServer(credential: NetworkCredential, requiredProtectionLevel: ProtectionLevel, requiredImpersonationLevel: TokenImpersonationLevel): void;
-    AuthenticateAsServer(credential: NetworkCredential, policy: ExtendedProtectionPolicy, requiredProtectionLevel: ProtectionLevel, requiredImpersonationLevel: TokenImpersonationLevel): void;
-    AuthenticateAsServerAsync(): Task;
-    AuthenticateAsServerAsync(policy: ExtendedProtectionPolicy): Task;
-    AuthenticateAsServerAsync(credential: NetworkCredential, requiredProtectionLevel: ProtectionLevel, requiredImpersonationLevel: TokenImpersonationLevel): Task;
-    AuthenticateAsServerAsync(credential: NetworkCredential, policy: ExtendedProtectionPolicy, requiredProtectionLevel: ProtectionLevel, requiredImpersonationLevel: TokenImpersonationLevel): Task;
-    BeginAuthenticateAsClient(asyncCallback: AsyncCallback, asyncState: unknown): IAsyncResult;
-    BeginAuthenticateAsClient(credential: NetworkCredential, targetName: string, asyncCallback: AsyncCallback, asyncState: unknown): IAsyncResult;
-    BeginAuthenticateAsClient(credential: NetworkCredential, binding: ChannelBinding, targetName: string, asyncCallback: AsyncCallback, asyncState: unknown): IAsyncResult;
-    BeginAuthenticateAsClient(credential: NetworkCredential, targetName: string, requiredProtectionLevel: ProtectionLevel, allowedImpersonationLevel: TokenImpersonationLevel, asyncCallback: AsyncCallback, asyncState: unknown): IAsyncResult;
-    BeginAuthenticateAsClient(credential: NetworkCredential, binding: ChannelBinding, targetName: string, requiredProtectionLevel: ProtectionLevel, allowedImpersonationLevel: TokenImpersonationLevel, asyncCallback: AsyncCallback, asyncState: unknown): IAsyncResult;
-    BeginAuthenticateAsServer(asyncCallback: AsyncCallback, asyncState: unknown): IAsyncResult;
-    BeginAuthenticateAsServer(policy: ExtendedProtectionPolicy, asyncCallback: AsyncCallback, asyncState: unknown): IAsyncResult;
-    BeginAuthenticateAsServer(credential: NetworkCredential, requiredProtectionLevel: ProtectionLevel, requiredImpersonationLevel: TokenImpersonationLevel, asyncCallback: AsyncCallback, asyncState: unknown): IAsyncResult;
-    BeginAuthenticateAsServer(credential: NetworkCredential, policy: ExtendedProtectionPolicy, requiredProtectionLevel: ProtectionLevel, requiredImpersonationLevel: TokenImpersonationLevel, asyncCallback: AsyncCallback, asyncState: unknown): IAsyncResult;
-    BeginRead(buffer: byte[], offset: int, count: int, asyncCallback: AsyncCallback, asyncState: unknown): IAsyncResult;
-    BeginWrite(buffer: byte[], offset: int, count: int, asyncCallback: AsyncCallback, asyncState: unknown): IAsyncResult;
-    Dispose(): void;
-    DisposeAsync(): ValueTask;
-    EndAuthenticateAsClient(asyncResult: IAsyncResult): void;
-    EndAuthenticateAsServer(asyncResult: IAsyncResult): void;
-    EndRead(asyncResult: IAsyncResult): int;
-    EndWrite(asyncResult: IAsyncResult): void;
-    Flush(): void;
-    FlushAsync(cancellationToken: CancellationToken): Task;
-    FlushAsync(): Task;
-    Read(buffer: byte[], offset: int, count: int): int;
-    Read(buffer: Span_1<CLROf<byte>>): int;
-    ReadAsync(buffer: byte[], offset: int, count: int, cancellationToken: CancellationToken): Task_1<CLROf<int>>;
-    ReadAsync(buffer: Memory_1<CLROf<byte>>, cancellationToken?: CancellationToken): ValueTask_1<CLROf<int>>;
-    ReadAsync(buffer: byte[], offset: int, count: int): Task_1<CLROf<int>>;
-    ReadAsync(buffer: byte[], offset: int, count: int, cancellationToken: CancellationToken): Task_1<CLROf<int>>;
-    ReadAsync(buffer: Memory_1<CLROf<byte>>, cancellationToken?: CancellationToken): ValueTask_1<CLROf<int>>;
-    Seek(offset: long, origin: SeekOrigin): long;
-    SetLength(value: long): void;
-    Write(buffer: byte[], offset: int, count: int): void;
-    Write(buffer: ReadOnlySpan_1<CLROf<byte>>): void;
-    WriteAsync(buffer: byte[], offset: int, count: int, cancellationToken: CancellationToken): Task;
-    WriteAsync(buffer: ReadOnlyMemory_1<CLROf<byte>>, cancellationToken?: CancellationToken): ValueTask;
-    WriteAsync(buffer: byte[], offset: int, count: int): Task;
-    WriteAsync(buffer: ReadOnlyMemory_1<CLROf<byte>>, cancellationToken?: CancellationToken): ValueTask;
+    readonly canRead: boolean;
+    readonly canSeek: boolean;
+    readonly canTimeout: boolean;
+    readonly canWrite: boolean;
+    readonly impersonationLevel: TokenImpersonationLevel;
+    readonly isAuthenticated: boolean;
+    readonly isEncrypted: boolean;
+    readonly isMutuallyAuthenticated: boolean;
+    readonly isServer: boolean;
+    readonly isSigned: boolean;
+    readonly length: long;
+    position: long;
+    readTimeout: int;
+    readonly remoteIdentity: IIdentity;
+    writeTimeout: int;
+    authenticateAsClient(): void;
+    authenticateAsClient(credential: NetworkCredential, targetName: string): void;
+    authenticateAsClient(credential: NetworkCredential, binding: ChannelBinding, targetName: string): void;
+    authenticateAsClient(credential: NetworkCredential, targetName: string, requiredProtectionLevel: ProtectionLevel, allowedImpersonationLevel: TokenImpersonationLevel): void;
+    authenticateAsClient(credential: NetworkCredential, binding: ChannelBinding, targetName: string, requiredProtectionLevel: ProtectionLevel, allowedImpersonationLevel: TokenImpersonationLevel): void;
+    authenticateAsClientAsync(): Task;
+    authenticateAsClientAsync(credential: NetworkCredential, targetName: string): Task;
+    authenticateAsClientAsync(credential: NetworkCredential, targetName: string, requiredProtectionLevel: ProtectionLevel, allowedImpersonationLevel: TokenImpersonationLevel): Task;
+    authenticateAsClientAsync(credential: NetworkCredential, binding: ChannelBinding, targetName: string): Task;
+    authenticateAsClientAsync(credential: NetworkCredential, binding: ChannelBinding, targetName: string, requiredProtectionLevel: ProtectionLevel, allowedImpersonationLevel: TokenImpersonationLevel): Task;
+    authenticateAsServer(): void;
+    authenticateAsServer(policy: ExtendedProtectionPolicy): void;
+    authenticateAsServer(credential: NetworkCredential, requiredProtectionLevel: ProtectionLevel, requiredImpersonationLevel: TokenImpersonationLevel): void;
+    authenticateAsServer(credential: NetworkCredential, policy: ExtendedProtectionPolicy, requiredProtectionLevel: ProtectionLevel, requiredImpersonationLevel: TokenImpersonationLevel): void;
+    authenticateAsServerAsync(): Task;
+    authenticateAsServerAsync(policy: ExtendedProtectionPolicy): Task;
+    authenticateAsServerAsync(credential: NetworkCredential, requiredProtectionLevel: ProtectionLevel, requiredImpersonationLevel: TokenImpersonationLevel): Task;
+    authenticateAsServerAsync(credential: NetworkCredential, policy: ExtendedProtectionPolicy, requiredProtectionLevel: ProtectionLevel, requiredImpersonationLevel: TokenImpersonationLevel): Task;
+    beginAuthenticateAsClient(asyncCallback: AsyncCallback, asyncState: unknown): IAsyncResult;
+    beginAuthenticateAsClient(credential: NetworkCredential, targetName: string, asyncCallback: AsyncCallback, asyncState: unknown): IAsyncResult;
+    beginAuthenticateAsClient(credential: NetworkCredential, binding: ChannelBinding, targetName: string, asyncCallback: AsyncCallback, asyncState: unknown): IAsyncResult;
+    beginAuthenticateAsClient(credential: NetworkCredential, targetName: string, requiredProtectionLevel: ProtectionLevel, allowedImpersonationLevel: TokenImpersonationLevel, asyncCallback: AsyncCallback, asyncState: unknown): IAsyncResult;
+    beginAuthenticateAsClient(credential: NetworkCredential, binding: ChannelBinding, targetName: string, requiredProtectionLevel: ProtectionLevel, allowedImpersonationLevel: TokenImpersonationLevel, asyncCallback: AsyncCallback, asyncState: unknown): IAsyncResult;
+    beginAuthenticateAsServer(asyncCallback: AsyncCallback, asyncState: unknown): IAsyncResult;
+    beginAuthenticateAsServer(policy: ExtendedProtectionPolicy, asyncCallback: AsyncCallback, asyncState: unknown): IAsyncResult;
+    beginAuthenticateAsServer(credential: NetworkCredential, requiredProtectionLevel: ProtectionLevel, requiredImpersonationLevel: TokenImpersonationLevel, asyncCallback: AsyncCallback, asyncState: unknown): IAsyncResult;
+    beginAuthenticateAsServer(credential: NetworkCredential, policy: ExtendedProtectionPolicy, requiredProtectionLevel: ProtectionLevel, requiredImpersonationLevel: TokenImpersonationLevel, asyncCallback: AsyncCallback, asyncState: unknown): IAsyncResult;
+    beginRead(buffer: byte[], offset: int, count: int, asyncCallback: AsyncCallback, asyncState: unknown): IAsyncResult;
+    beginWrite(buffer: byte[], offset: int, count: int, asyncCallback: AsyncCallback, asyncState: unknown): IAsyncResult;
+    dispose(): void;
+    disposeAsync(): ValueTask;
+    endAuthenticateAsClient(asyncResult: IAsyncResult): void;
+    endAuthenticateAsServer(asyncResult: IAsyncResult): void;
+    endRead(asyncResult: IAsyncResult): int;
+    endWrite(asyncResult: IAsyncResult): void;
+    flush(): void;
+    flushAsync(cancellationToken: CancellationToken): Task;
+    flushAsync(): Task;
+    read(buffer: byte[], offset: int, count: int): int;
+    read(buffer: Span_1<CLROf<byte>>): int;
+    readAsync(buffer: byte[], offset: int, count: int, cancellationToken: CancellationToken): Task_1<CLROf<int>>;
+    readAsync(buffer: Memory_1<CLROf<byte>>, cancellationToken?: CancellationToken): ValueTask_1<CLROf<int>>;
+    readAsync(buffer: byte[], offset: int, count: int): Task_1<CLROf<int>>;
+    readAsync(buffer: byte[], offset: int, count: int, cancellationToken: CancellationToken): Task_1<CLROf<int>>;
+    readAsync(buffer: Memory_1<CLROf<byte>>, cancellationToken?: CancellationToken): ValueTask_1<CLROf<int>>;
+    seek(offset: long, origin: SeekOrigin): long;
+    setLength(value: long): void;
+    write(buffer: byte[], offset: int, count: int): void;
+    write(buffer: ReadOnlySpan_1<CLROf<byte>>): void;
+    writeAsync(buffer: byte[], offset: int, count: int, cancellationToken: CancellationToken): Task;
+    writeAsync(buffer: ReadOnlyMemory_1<CLROf<byte>>, cancellationToken?: CancellationToken): ValueTask;
+    writeAsync(buffer: byte[], offset: int, count: int): Task;
+    writeAsync(buffer: ReadOnlyMemory_1<CLROf<byte>>, cancellationToken?: CancellationToken): ValueTask;
 }
 
 
@@ -663,11 +663,11 @@ export type NegotiateStream = NegotiateStream$instance & __NegotiateStream$views
 
 export class RemoteCertificateValidationCallback$instance extends Function {
     constructor(object_: unknown, method: nint);
-    BeginInvoke(sender: unknown, certificate: X509Certificate, chain: X509Chain, sslPolicyErrors: SslPolicyErrors, callback: AsyncCallback, object_: unknown): IAsyncResult;
-    Clone(): unknown;
-    EndInvoke(result: IAsyncResult): boolean;
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
-    Invoke(sender: unknown, certificate: X509Certificate, chain: X509Chain, sslPolicyErrors: SslPolicyErrors): boolean;
+    beginInvoke(sender: unknown, certificate: X509Certificate, chain: X509Chain, sslPolicyErrors: SslPolicyErrors, callback: AsyncCallback, object_: unknown): IAsyncResult;
+    clone(): unknown;
+    endInvoke(result: IAsyncResult): boolean;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
+    invoke(sender: unknown, certificate: X509Certificate, chain: X509Chain, sslPolicyErrors: SslPolicyErrors): boolean;
 }
 
 
@@ -681,11 +681,11 @@ export type RemoteCertificateValidationCallback = RemoteCertificateValidationCal
 
 export class ServerCertificateSelectionCallback$instance extends Function {
     constructor(object_: unknown, method: nint);
-    BeginInvoke(sender: unknown, hostName: string, callback: AsyncCallback, object_: unknown): IAsyncResult;
-    Clone(): unknown;
-    EndInvoke(result: IAsyncResult): X509Certificate;
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
-    Invoke(sender: unknown, hostName: string): X509Certificate;
+    beginInvoke(sender: unknown, hostName: string, callback: AsyncCallback, object_: unknown): IAsyncResult;
+    clone(): unknown;
+    endInvoke(result: IAsyncResult): X509Certificate;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
+    invoke(sender: unknown, hostName: string): X509Certificate;
 }
 
 
@@ -699,11 +699,11 @@ export type ServerCertificateSelectionCallback = ServerCertificateSelectionCallb
 
 export class ServerOptionsSelectionCallback$instance extends Function {
     constructor(object_: unknown, method: nint);
-    BeginInvoke(stream: SslStream, clientHelloInfo: SslClientHelloInfo, state: unknown, cancellationToken: CancellationToken, callback: AsyncCallback, object_: unknown): IAsyncResult;
-    Clone(): unknown;
-    EndInvoke(result: IAsyncResult): ValueTask_1<SslServerAuthenticationOptions>;
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
-    Invoke(stream: SslStream, clientHelloInfo: SslClientHelloInfo, state: unknown, cancellationToken: CancellationToken): ValueTask_1<SslServerAuthenticationOptions>;
+    beginInvoke(stream: SslStream, clientHelloInfo: SslClientHelloInfo, state: unknown, cancellationToken: CancellationToken, callback: AsyncCallback, object_: unknown): IAsyncResult;
+    clone(): unknown;
+    endInvoke(result: IAsyncResult): ValueTask_1<SslServerAuthenticationOptions>;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
+    invoke(stream: SslStream, clientHelloInfo: SslClientHelloInfo, state: unknown, cancellationToken: CancellationToken): ValueTask_1<SslServerAuthenticationOptions>;
 }
 
 
@@ -725,21 +725,21 @@ export type SslCertificateTrust = SslCertificateTrust$instance;
 
 export class SslClientAuthenticationOptions$instance {
     constructor();
-    AllowRenegotiation: boolean;
-    AllowRsaPkcs1Padding: boolean;
-    AllowRsaPssPadding: boolean;
-    AllowTlsResume: boolean;
-    ApplicationProtocols: List_1<SslApplicationProtocol>;
-    CertificateChainPolicy: X509ChainPolicy;
-    CertificateRevocationCheckMode: X509RevocationMode;
-    CipherSuitesPolicy: CipherSuitesPolicy;
-    ClientCertificateContext: SslStreamCertificateContext;
-    ClientCertificates: X509CertificateCollection;
-    EnabledSslProtocols: SslProtocols;
-    EncryptionPolicy: EncryptionPolicy;
-    LocalCertificateSelectionCallback: LocalCertificateSelectionCallback;
-    RemoteCertificateValidationCallback: RemoteCertificateValidationCallback;
-    TargetHost: string;
+    allowRenegotiation: boolean;
+    allowRsaPkcs1Padding: boolean;
+    allowRsaPssPadding: boolean;
+    allowTlsResume: boolean;
+    applicationProtocols: List_1<SslApplicationProtocol>;
+    certificateChainPolicy: X509ChainPolicy;
+    certificateRevocationCheckMode: X509RevocationMode;
+    cipherSuitesPolicy: CipherSuitesPolicy;
+    clientCertificateContext: SslStreamCertificateContext;
+    clientCertificates: X509CertificateCollection;
+    enabledSslProtocols: SslProtocols;
+    encryptionPolicy: EncryptionPolicy;
+    localCertificateSelectionCallback: LocalCertificateSelectionCallback;
+    remoteCertificateValidationCallback: RemoteCertificateValidationCallback;
+    targetHost: string;
 }
 
 
@@ -747,21 +747,21 @@ export type SslClientAuthenticationOptions = SslClientAuthenticationOptions$inst
 
 export class SslServerAuthenticationOptions$instance {
     constructor();
-    AllowRenegotiation: boolean;
-    AllowRsaPkcs1Padding: boolean;
-    AllowRsaPssPadding: boolean;
-    AllowTlsResume: boolean;
-    ApplicationProtocols: List_1<SslApplicationProtocol>;
-    CertificateChainPolicy: X509ChainPolicy;
-    CertificateRevocationCheckMode: X509RevocationMode;
-    CipherSuitesPolicy: CipherSuitesPolicy;
-    ClientCertificateRequired: boolean;
-    EnabledSslProtocols: SslProtocols;
-    EncryptionPolicy: EncryptionPolicy;
-    RemoteCertificateValidationCallback: RemoteCertificateValidationCallback;
-    ServerCertificate: X509Certificate;
-    ServerCertificateContext: SslStreamCertificateContext;
-    ServerCertificateSelectionCallback: ServerCertificateSelectionCallback;
+    allowRenegotiation: boolean;
+    allowRsaPkcs1Padding: boolean;
+    allowRsaPssPadding: boolean;
+    allowTlsResume: boolean;
+    applicationProtocols: List_1<SslApplicationProtocol>;
+    certificateChainPolicy: X509ChainPolicy;
+    certificateRevocationCheckMode: X509RevocationMode;
+    cipherSuitesPolicy: CipherSuitesPolicy;
+    clientCertificateRequired: boolean;
+    enabledSslProtocols: SslProtocols;
+    encryptionPolicy: EncryptionPolicy;
+    remoteCertificateValidationCallback: RemoteCertificateValidationCallback;
+    serverCertificate: X509Certificate;
+    serverCertificateContext: SslStreamCertificateContext;
+    serverCertificateSelectionCallback: ServerCertificateSelectionCallback;
 }
 
 
@@ -773,89 +773,89 @@ export class SslStream$instance extends AuthenticatedStream$instance {
     constructor(innerStream: Stream, leaveInnerStreamOpen: boolean, userCertificateValidationCallback: RemoteCertificateValidationCallback);
     constructor(innerStream: Stream, leaveInnerStreamOpen: boolean, userCertificateValidationCallback: RemoteCertificateValidationCallback, userCertificateSelectionCallback: LocalCertificateSelectionCallback);
     constructor(innerStream: Stream, leaveInnerStreamOpen: boolean, userCertificateValidationCallback: RemoteCertificateValidationCallback, userCertificateSelectionCallback: LocalCertificateSelectionCallback, encryptionPolicy: EncryptionPolicy);
-    readonly CanRead: boolean;
-    readonly CanSeek: boolean;
-    readonly CanTimeout: boolean;
-    readonly CanWrite: boolean;
-    readonly CheckCertRevocationStatus: boolean;
-    readonly CipherAlgorithm: CipherAlgorithmType;
-    readonly CipherStrength: int;
-    readonly HashAlgorithm: HashAlgorithmType;
-    readonly HashStrength: int;
-    readonly IsAuthenticated: boolean;
-    readonly IsEncrypted: boolean;
-    readonly IsMutuallyAuthenticated: boolean;
-    readonly IsServer: boolean;
-    readonly IsSigned: boolean;
-    readonly KeyExchangeAlgorithm: ExchangeAlgorithmType;
-    readonly KeyExchangeStrength: int;
-    readonly Length: long;
-    readonly LocalCertificate: X509Certificate;
-    readonly NegotiatedApplicationProtocol: SslApplicationProtocol;
-    readonly NegotiatedCipherSuite: TlsCipherSuite;
-    Position: long;
-    ReadTimeout: int;
-    readonly RemoteCertificate: X509Certificate;
-    readonly SslProtocol: SslProtocols;
-    readonly TargetHostName: string;
-    readonly TransportContext: TransportContext;
-    WriteTimeout: int;
-    AuthenticateAsClient(targetHost: string): void;
-    AuthenticateAsClient(targetHost: string, clientCertificates: X509CertificateCollection, checkCertificateRevocation: boolean): void;
-    AuthenticateAsClient(targetHost: string, clientCertificates: X509CertificateCollection, enabledSslProtocols: SslProtocols, checkCertificateRevocation: boolean): void;
-    AuthenticateAsClient(sslClientAuthenticationOptions: SslClientAuthenticationOptions): void;
-    AuthenticateAsClientAsync(targetHost: string): Task;
-    AuthenticateAsClientAsync(targetHost: string, clientCertificates: X509CertificateCollection, checkCertificateRevocation: boolean): Task;
-    AuthenticateAsClientAsync(targetHost: string, clientCertificates: X509CertificateCollection, enabledSslProtocols: SslProtocols, checkCertificateRevocation: boolean): Task;
-    AuthenticateAsClientAsync(sslClientAuthenticationOptions: SslClientAuthenticationOptions, cancellationToken?: CancellationToken): Task;
-    AuthenticateAsServer(serverCertificate: X509Certificate): void;
-    AuthenticateAsServer(serverCertificate: X509Certificate, clientCertificateRequired: boolean, checkCertificateRevocation: boolean): void;
-    AuthenticateAsServer(serverCertificate: X509Certificate, clientCertificateRequired: boolean, enabledSslProtocols: SslProtocols, checkCertificateRevocation: boolean): void;
-    AuthenticateAsServer(sslServerAuthenticationOptions: SslServerAuthenticationOptions): void;
-    AuthenticateAsServerAsync(serverCertificate: X509Certificate): Task;
-    AuthenticateAsServerAsync(serverCertificate: X509Certificate, clientCertificateRequired: boolean, checkCertificateRevocation: boolean): Task;
-    AuthenticateAsServerAsync(serverCertificate: X509Certificate, clientCertificateRequired: boolean, enabledSslProtocols: SslProtocols, checkCertificateRevocation: boolean): Task;
-    AuthenticateAsServerAsync(sslServerAuthenticationOptions: SslServerAuthenticationOptions, cancellationToken?: CancellationToken): Task;
-    AuthenticateAsServerAsync(optionsCallback: ServerOptionsSelectionCallback, state: unknown, cancellationToken?: CancellationToken): Task;
-    BeginAuthenticateAsClient(targetHost: string, asyncCallback: AsyncCallback, asyncState: unknown): IAsyncResult;
-    BeginAuthenticateAsClient(targetHost: string, clientCertificates: X509CertificateCollection, checkCertificateRevocation: boolean, asyncCallback: AsyncCallback, asyncState: unknown): IAsyncResult;
-    BeginAuthenticateAsClient(targetHost: string, clientCertificates: X509CertificateCollection, enabledSslProtocols: SslProtocols, checkCertificateRevocation: boolean, asyncCallback: AsyncCallback, asyncState: unknown): IAsyncResult;
-    BeginAuthenticateAsServer(serverCertificate: X509Certificate, asyncCallback: AsyncCallback, asyncState: unknown): IAsyncResult;
-    BeginAuthenticateAsServer(serverCertificate: X509Certificate, clientCertificateRequired: boolean, checkCertificateRevocation: boolean, asyncCallback: AsyncCallback, asyncState: unknown): IAsyncResult;
-    BeginAuthenticateAsServer(serverCertificate: X509Certificate, clientCertificateRequired: boolean, enabledSslProtocols: SslProtocols, checkCertificateRevocation: boolean, asyncCallback: AsyncCallback, asyncState: unknown): IAsyncResult;
-    BeginRead(buffer: byte[], offset: int, count: int, asyncCallback: AsyncCallback, asyncState: unknown): IAsyncResult;
-    BeginWrite(buffer: byte[], offset: int, count: int, asyncCallback: AsyncCallback, asyncState: unknown): IAsyncResult;
-    Dispose(): void;
-    DisposeAsync(): ValueTask;
-    EndAuthenticateAsClient(asyncResult: IAsyncResult): void;
-    EndAuthenticateAsServer(asyncResult: IAsyncResult): void;
-    EndRead(asyncResult: IAsyncResult): int;
-    EndWrite(asyncResult: IAsyncResult): void;
-    Flush(): void;
-    FlushAsync(cancellationToken: CancellationToken): Task;
-    FlushAsync(): Task;
-    NegotiateClientCertificateAsync(cancellationToken?: CancellationToken): Task;
-    Read(buffer: Span_1<CLROf<byte>>): int;
-    Read(buffer: byte[], offset: int, count: int): int;
-    Read(buffer: Span_1<CLROf<byte>>): int;
-    ReadAsync(buffer: byte[], offset: int, count: int, cancellationToken: CancellationToken): Task_1<CLROf<int>>;
-    ReadAsync(buffer: Memory_1<CLROf<byte>>, cancellationToken?: CancellationToken): ValueTask_1<CLROf<int>>;
-    ReadAsync(buffer: byte[], offset: int, count: int): Task_1<CLROf<int>>;
-    ReadAsync(buffer: byte[], offset: int, count: int, cancellationToken: CancellationToken): Task_1<CLROf<int>>;
-    ReadAsync(buffer: Memory_1<CLROf<byte>>, cancellationToken?: CancellationToken): ValueTask_1<CLROf<int>>;
-    ReadByte(): int;
-    Seek(offset: long, origin: SeekOrigin): long;
-    SetLength(value: long): void;
-    ShutdownAsync(): Task;
-    Write(buffer: ReadOnlySpan_1<CLROf<byte>>): void;
-    Write(buffer: byte[]): void;
-    Write(buffer: byte[], offset: int, count: int): void;
-    Write(buffer: ReadOnlySpan_1<CLROf<byte>>): void;
-    WriteAsync(buffer: byte[], offset: int, count: int, cancellationToken: CancellationToken): Task;
-    WriteAsync(buffer: ReadOnlyMemory_1<CLROf<byte>>, cancellationToken?: CancellationToken): ValueTask;
-    WriteAsync(buffer: byte[], offset: int, count: int): Task;
-    WriteAsync(buffer: ReadOnlyMemory_1<CLROf<byte>>, cancellationToken?: CancellationToken): ValueTask;
-    WriteByte(value: byte): void;
+    readonly canRead: boolean;
+    readonly canSeek: boolean;
+    readonly canTimeout: boolean;
+    readonly canWrite: boolean;
+    readonly checkCertRevocationStatus: boolean;
+    readonly cipherAlgorithm: CipherAlgorithmType;
+    readonly cipherStrength: int;
+    readonly hashAlgorithm: HashAlgorithmType;
+    readonly hashStrength: int;
+    readonly isAuthenticated: boolean;
+    readonly isEncrypted: boolean;
+    readonly isMutuallyAuthenticated: boolean;
+    readonly isServer: boolean;
+    readonly isSigned: boolean;
+    readonly keyExchangeAlgorithm: ExchangeAlgorithmType;
+    readonly keyExchangeStrength: int;
+    readonly length: long;
+    readonly localCertificate: X509Certificate;
+    readonly negotiatedApplicationProtocol: SslApplicationProtocol;
+    readonly negotiatedCipherSuite: TlsCipherSuite;
+    position: long;
+    readTimeout: int;
+    readonly remoteCertificate: X509Certificate;
+    readonly sslProtocol: SslProtocols;
+    readonly targetHostName: string;
+    readonly transportContext: TransportContext;
+    writeTimeout: int;
+    authenticateAsClient(targetHost: string): void;
+    authenticateAsClient(targetHost: string, clientCertificates: X509CertificateCollection, checkCertificateRevocation: boolean): void;
+    authenticateAsClient(targetHost: string, clientCertificates: X509CertificateCollection, enabledSslProtocols: SslProtocols, checkCertificateRevocation: boolean): void;
+    authenticateAsClient(sslClientAuthenticationOptions: SslClientAuthenticationOptions): void;
+    authenticateAsClientAsync(targetHost: string): Task;
+    authenticateAsClientAsync(targetHost: string, clientCertificates: X509CertificateCollection, checkCertificateRevocation: boolean): Task;
+    authenticateAsClientAsync(targetHost: string, clientCertificates: X509CertificateCollection, enabledSslProtocols: SslProtocols, checkCertificateRevocation: boolean): Task;
+    authenticateAsClientAsync(sslClientAuthenticationOptions: SslClientAuthenticationOptions, cancellationToken?: CancellationToken): Task;
+    authenticateAsServer(serverCertificate: X509Certificate): void;
+    authenticateAsServer(serverCertificate: X509Certificate, clientCertificateRequired: boolean, checkCertificateRevocation: boolean): void;
+    authenticateAsServer(serverCertificate: X509Certificate, clientCertificateRequired: boolean, enabledSslProtocols: SslProtocols, checkCertificateRevocation: boolean): void;
+    authenticateAsServer(sslServerAuthenticationOptions: SslServerAuthenticationOptions): void;
+    authenticateAsServerAsync(serverCertificate: X509Certificate): Task;
+    authenticateAsServerAsync(serverCertificate: X509Certificate, clientCertificateRequired: boolean, checkCertificateRevocation: boolean): Task;
+    authenticateAsServerAsync(serverCertificate: X509Certificate, clientCertificateRequired: boolean, enabledSslProtocols: SslProtocols, checkCertificateRevocation: boolean): Task;
+    authenticateAsServerAsync(sslServerAuthenticationOptions: SslServerAuthenticationOptions, cancellationToken?: CancellationToken): Task;
+    authenticateAsServerAsync(optionsCallback: ServerOptionsSelectionCallback, state: unknown, cancellationToken?: CancellationToken): Task;
+    beginAuthenticateAsClient(targetHost: string, asyncCallback: AsyncCallback, asyncState: unknown): IAsyncResult;
+    beginAuthenticateAsClient(targetHost: string, clientCertificates: X509CertificateCollection, checkCertificateRevocation: boolean, asyncCallback: AsyncCallback, asyncState: unknown): IAsyncResult;
+    beginAuthenticateAsClient(targetHost: string, clientCertificates: X509CertificateCollection, enabledSslProtocols: SslProtocols, checkCertificateRevocation: boolean, asyncCallback: AsyncCallback, asyncState: unknown): IAsyncResult;
+    beginAuthenticateAsServer(serverCertificate: X509Certificate, asyncCallback: AsyncCallback, asyncState: unknown): IAsyncResult;
+    beginAuthenticateAsServer(serverCertificate: X509Certificate, clientCertificateRequired: boolean, checkCertificateRevocation: boolean, asyncCallback: AsyncCallback, asyncState: unknown): IAsyncResult;
+    beginAuthenticateAsServer(serverCertificate: X509Certificate, clientCertificateRequired: boolean, enabledSslProtocols: SslProtocols, checkCertificateRevocation: boolean, asyncCallback: AsyncCallback, asyncState: unknown): IAsyncResult;
+    beginRead(buffer: byte[], offset: int, count: int, asyncCallback: AsyncCallback, asyncState: unknown): IAsyncResult;
+    beginWrite(buffer: byte[], offset: int, count: int, asyncCallback: AsyncCallback, asyncState: unknown): IAsyncResult;
+    dispose(): void;
+    disposeAsync(): ValueTask;
+    endAuthenticateAsClient(asyncResult: IAsyncResult): void;
+    endAuthenticateAsServer(asyncResult: IAsyncResult): void;
+    endRead(asyncResult: IAsyncResult): int;
+    endWrite(asyncResult: IAsyncResult): void;
+    flush(): void;
+    flushAsync(cancellationToken: CancellationToken): Task;
+    flushAsync(): Task;
+    negotiateClientCertificateAsync(cancellationToken?: CancellationToken): Task;
+    read(buffer: Span_1<CLROf<byte>>): int;
+    read(buffer: byte[], offset: int, count: int): int;
+    read(buffer: Span_1<CLROf<byte>>): int;
+    readAsync(buffer: byte[], offset: int, count: int, cancellationToken: CancellationToken): Task_1<CLROf<int>>;
+    readAsync(buffer: Memory_1<CLROf<byte>>, cancellationToken?: CancellationToken): ValueTask_1<CLROf<int>>;
+    readAsync(buffer: byte[], offset: int, count: int): Task_1<CLROf<int>>;
+    readAsync(buffer: byte[], offset: int, count: int, cancellationToken: CancellationToken): Task_1<CLROf<int>>;
+    readAsync(buffer: Memory_1<CLROf<byte>>, cancellationToken?: CancellationToken): ValueTask_1<CLROf<int>>;
+    readByte(): int;
+    seek(offset: long, origin: SeekOrigin): long;
+    setLength(value: long): void;
+    shutdownAsync(): Task;
+    write(buffer: ReadOnlySpan_1<CLROf<byte>>): void;
+    write(buffer: byte[]): void;
+    write(buffer: byte[], offset: int, count: int): void;
+    write(buffer: ReadOnlySpan_1<CLROf<byte>>): void;
+    writeAsync(buffer: byte[], offset: int, count: int, cancellationToken: CancellationToken): Task;
+    writeAsync(buffer: ReadOnlyMemory_1<CLROf<byte>>, cancellationToken?: CancellationToken): ValueTask;
+    writeAsync(buffer: byte[], offset: int, count: int): Task;
+    writeAsync(buffer: ReadOnlyMemory_1<CLROf<byte>>, cancellationToken?: CancellationToken): ValueTask;
+    writeByte(value: byte): void;
 }
 
 
@@ -868,8 +868,8 @@ export type SslStream = SslStream$instance & __SslStream$views;
 
 
 export class SslStreamCertificateContext$instance {
-    readonly IntermediateCertificates: ReadOnlyCollection_1<X509Certificate2>;
-    readonly TargetCertificate: X509Certificate2;
+    readonly intermediateCertificates: ReadOnlyCollection_1<X509Certificate2>;
+    readonly targetCertificate: X509Certificate2;
     static Create(target: X509Certificate2, additionalCertificates: X509Certificate2Collection, offline?: boolean, trust?: SslCertificateTrust): SslStreamCertificateContext;
     static Create(target: X509Certificate2, additionalCertificates: X509Certificate2Collection, offline: boolean): SslStreamCertificateContext;
 }

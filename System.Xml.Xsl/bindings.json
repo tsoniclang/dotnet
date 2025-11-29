@@ -11,7 +11,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.IXsltContextFunction::Invoke(System.Xml.Xsl.XsltContext,System.Object[],System.Xml.XPath.XPathNavigator):System.Object",
           "clrName": "Invoke",
-          "tsEmitName": "Invoke",
+          "tsEmitName": "invoke",
           "metadataToken": 100673769,
           "canonicalSignature": "(System.Xml.Xsl.XsltContext,System.Object[],System.Xml.XPath.XPathNavigator):System.Object",
           "normalizedSignature": "Invoke|(System.Xml.Xsl.XsltContext,System.Object[],System.Xml.XPath.XPathNavigator):System.Object|static=false",
@@ -27,7 +27,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.IXsltContextFunction::Minargs:System.Int32",
           "clrName": "Minargs",
-          "tsEmitName": "Minargs",
+          "tsEmitName": "minargs",
           "metadataToken": 385879018,
           "canonicalSignature": ":System.Int32",
           "normalizedSignature": "Minargs|:System.Int32|static=false|accessor=get",
@@ -41,7 +41,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.IXsltContextFunction::Maxargs:System.Int32",
           "clrName": "Maxargs",
-          "tsEmitName": "Maxargs",
+          "tsEmitName": "maxargs",
           "metadataToken": 385879019,
           "canonicalSignature": ":System.Int32",
           "normalizedSignature": "Maxargs|:System.Int32|static=false|accessor=get",
@@ -55,7 +55,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.IXsltContextFunction::ReturnType:System.Xml.XPath.XPathResultType",
           "clrName": "ReturnType",
-          "tsEmitName": "ReturnType",
+          "tsEmitName": "returnType",
           "metadataToken": 385879020,
           "canonicalSignature": ":System.Xml.XPath.XPathResultType",
           "normalizedSignature": "ReturnType|:System.Xml.XPath.XPathResultType|static=false|accessor=get",
@@ -69,7 +69,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.IXsltContextFunction::ArgTypes:System.Xml.XPath.XPathResultType[]",
           "clrName": "ArgTypes",
-          "tsEmitName": "ArgTypes",
+          "tsEmitName": "argTypes",
           "metadataToken": 385879021,
           "canonicalSignature": ":System.Xml.XPath.XPathResultType[]",
           "normalizedSignature": "ArgTypes|:System.Xml.XPath.XPathResultType[]|static=false|accessor=get",
@@ -86,7 +86,7 @@
       "constructors": [],
       "exposedMethods": [
         {
-          "tsName": "Invoke",
+          "tsName": "invoke",
           "isStatic": false,
           "tsSignatureId": "Invoke|(System.Xml.Xsl.XsltContext,System.Object[],System.Xml.XPath.XPathNavigator):System.Object|static=false",
           "target": {
@@ -98,7 +98,7 @@
       ],
       "exposedProperties": [
         {
-          "tsName": "Minargs",
+          "tsName": "minargs",
           "isStatic": false,
           "tsSignatureId": "Minargs|:System.Int32|static=false|accessor=get",
           "target": {
@@ -108,7 +108,7 @@
           }
         },
         {
-          "tsName": "Maxargs",
+          "tsName": "maxargs",
           "isStatic": false,
           "tsSignatureId": "Maxargs|:System.Int32|static=false|accessor=get",
           "target": {
@@ -118,7 +118,7 @@
           }
         },
         {
-          "tsName": "ReturnType",
+          "tsName": "returnType",
           "isStatic": false,
           "tsSignatureId": "ReturnType|:System.Xml.XPath.XPathResultType|static=false|accessor=get",
           "target": {
@@ -128,7 +128,7 @@
           }
         },
         {
-          "tsName": "ArgTypes",
+          "tsName": "argTypes",
           "isStatic": false,
           "tsSignatureId": "ArgTypes|:System.Xml.XPath.XPathResultType[]|static=false|accessor=get",
           "target": {
@@ -149,7 +149,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.IXsltContextVariable::Evaluate(System.Xml.Xsl.XsltContext):System.Object",
           "clrName": "Evaluate",
-          "tsEmitName": "Evaluate",
+          "tsEmitName": "evaluate",
           "metadataToken": 100673773,
           "canonicalSignature": "(System.Xml.Xsl.XsltContext):System.Object",
           "normalizedSignature": "Evaluate|(System.Xml.Xsl.XsltContext):System.Object|static=false",
@@ -165,7 +165,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.IXsltContextVariable::IsLocal:System.Boolean",
           "clrName": "IsLocal",
-          "tsEmitName": "IsLocal",
+          "tsEmitName": "isLocal",
           "metadataToken": 385879022,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "IsLocal|:System.Boolean|static=false|accessor=get",
@@ -179,7 +179,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.IXsltContextVariable::IsParam:System.Boolean",
           "clrName": "IsParam",
-          "tsEmitName": "IsParam",
+          "tsEmitName": "isParam",
           "metadataToken": 385879023,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "IsParam|:System.Boolean|static=false|accessor=get",
@@ -193,7 +193,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.IXsltContextVariable::VariableType:System.Xml.XPath.XPathResultType",
           "clrName": "VariableType",
-          "tsEmitName": "VariableType",
+          "tsEmitName": "variableType",
           "metadataToken": 385879024,
           "canonicalSignature": ":System.Xml.XPath.XPathResultType",
           "normalizedSignature": "VariableType|:System.Xml.XPath.XPathResultType|static=false|accessor=get",
@@ -210,7 +210,7 @@
       "constructors": [],
       "exposedMethods": [
         {
-          "tsName": "Evaluate",
+          "tsName": "evaluate",
           "isStatic": false,
           "tsSignatureId": "Evaluate|(System.Xml.Xsl.XsltContext):System.Object|static=false",
           "target": {
@@ -222,7 +222,7 @@
       ],
       "exposedProperties": [
         {
-          "tsName": "IsLocal",
+          "tsName": "isLocal",
           "isStatic": false,
           "tsSignatureId": "IsLocal|:System.Boolean|static=false|accessor=get",
           "target": {
@@ -232,7 +232,7 @@
           }
         },
         {
-          "tsName": "IsParam",
+          "tsName": "isParam",
           "isStatic": false,
           "tsSignatureId": "IsParam|:System.Boolean|static=false|accessor=get",
           "target": {
@@ -242,7 +242,7 @@
           }
         },
         {
-          "tsName": "VariableType",
+          "tsName": "variableType",
           "isStatic": false,
           "tsSignatureId": "VariableType|:System.Xml.XPath.XPathResultType|static=false|accessor=get",
           "target": {
@@ -263,7 +263,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.XslCompiledTransform::Load(System.Xml.XmlReader):System.Void",
           "clrName": "Load",
-          "tsEmitName": "Load",
+          "tsEmitName": "load",
           "metadataToken": 100673719,
           "canonicalSignature": "(System.Xml.XmlReader):System.Void",
           "normalizedSignature": "Load|(System.Xml.XmlReader):System.Void|static=false",
@@ -277,7 +277,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.XslCompiledTransform::Load(System.Xml.XmlReader,System.Xml.Xsl.XsltSettings,System.Xml.XmlResolver):System.Void",
           "clrName": "Load",
-          "tsEmitName": "Load2",
+          "tsEmitName": "load2",
           "metadataToken": 100673720,
           "canonicalSignature": "(System.Xml.XmlReader,System.Xml.Xsl.XsltSettings,System.Xml.XmlResolver):System.Void",
           "normalizedSignature": "Load|(System.Xml.XmlReader,System.Xml.Xsl.XsltSettings,System.Xml.XmlResolver):System.Void|static=false",
@@ -291,7 +291,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.XslCompiledTransform::Load(System.Xml.XPath.IXPathNavigable):System.Void",
           "clrName": "Load",
-          "tsEmitName": "Load3",
+          "tsEmitName": "load3",
           "metadataToken": 100673721,
           "canonicalSignature": "(System.Xml.XPath.IXPathNavigable):System.Void",
           "normalizedSignature": "Load|(System.Xml.XPath.IXPathNavigable):System.Void|static=false",
@@ -305,7 +305,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.XslCompiledTransform::Load(System.Xml.XPath.IXPathNavigable,System.Xml.Xsl.XsltSettings,System.Xml.XmlResolver):System.Void",
           "clrName": "Load",
-          "tsEmitName": "Load4",
+          "tsEmitName": "load4",
           "metadataToken": 100673722,
           "canonicalSignature": "(System.Xml.XPath.IXPathNavigable,System.Xml.Xsl.XsltSettings,System.Xml.XmlResolver):System.Void",
           "normalizedSignature": "Load|(System.Xml.XPath.IXPathNavigable,System.Xml.Xsl.XsltSettings,System.Xml.XmlResolver):System.Void|static=false",
@@ -319,7 +319,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.XslCompiledTransform::Load(System.String):System.Void",
           "clrName": "Load",
-          "tsEmitName": "Load5",
+          "tsEmitName": "load5",
           "metadataToken": 100673723,
           "canonicalSignature": "(System.String):System.Void",
           "normalizedSignature": "Load|(System.String):System.Void|static=false",
@@ -333,7 +333,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.XslCompiledTransform::Load(System.String,System.Xml.Xsl.XsltSettings,System.Xml.XmlResolver):System.Void",
           "clrName": "Load",
-          "tsEmitName": "Load6",
+          "tsEmitName": "load6",
           "metadataToken": 100673724,
           "canonicalSignature": "(System.String,System.Xml.Xsl.XsltSettings,System.Xml.XmlResolver):System.Void",
           "normalizedSignature": "Load|(System.String,System.Xml.Xsl.XsltSettings,System.Xml.XmlResolver):System.Void|static=false",
@@ -347,7 +347,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.XslCompiledTransform::Load(System.Type):System.Void",
           "clrName": "Load",
-          "tsEmitName": "Load7",
+          "tsEmitName": "load7",
           "metadataToken": 100673729,
           "canonicalSignature": "(System.Type):System.Void",
           "normalizedSignature": "Load|(System.Type):System.Void|static=false",
@@ -361,7 +361,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.XslCompiledTransform::Load(System.Reflection.MethodInfo,System.Byte[],System.Type[]):System.Void",
           "clrName": "Load",
-          "tsEmitName": "Load8",
+          "tsEmitName": "load8",
           "metadataToken": 100673730,
           "canonicalSignature": "(System.Reflection.MethodInfo,System.Byte[],System.Type[]):System.Void",
           "normalizedSignature": "Load|(System.Reflection.MethodInfo,System.Byte[],System.Type[]):System.Void|static=false",
@@ -375,7 +375,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.XslCompiledTransform::Transform(System.Xml.XPath.IXPathNavigable,System.Xml.XmlWriter):System.Void",
           "clrName": "Transform",
-          "tsEmitName": "Transform",
+          "tsEmitName": "transform",
           "metadataToken": 100673731,
           "canonicalSignature": "(System.Xml.XPath.IXPathNavigable,System.Xml.XmlWriter):System.Void",
           "normalizedSignature": "Transform|(System.Xml.XPath.IXPathNavigable,System.Xml.XmlWriter):System.Void|static=false",
@@ -389,7 +389,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.XslCompiledTransform::Transform(System.Xml.XPath.IXPathNavigable,System.Xml.Xsl.XsltArgumentList,System.Xml.XmlWriter):System.Void",
           "clrName": "Transform",
-          "tsEmitName": "Transform2",
+          "tsEmitName": "transform2",
           "metadataToken": 100673732,
           "canonicalSignature": "(System.Xml.XPath.IXPathNavigable,System.Xml.Xsl.XsltArgumentList,System.Xml.XmlWriter):System.Void",
           "normalizedSignature": "Transform|(System.Xml.XPath.IXPathNavigable,System.Xml.Xsl.XsltArgumentList,System.Xml.XmlWriter):System.Void|static=false",
@@ -403,7 +403,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.XslCompiledTransform::Transform(System.Xml.XPath.IXPathNavigable,System.Xml.Xsl.XsltArgumentList,System.IO.TextWriter):System.Void",
           "clrName": "Transform",
-          "tsEmitName": "Transform3",
+          "tsEmitName": "transform3",
           "metadataToken": 100673733,
           "canonicalSignature": "(System.Xml.XPath.IXPathNavigable,System.Xml.Xsl.XsltArgumentList,System.IO.TextWriter):System.Void",
           "normalizedSignature": "Transform|(System.Xml.XPath.IXPathNavigable,System.Xml.Xsl.XsltArgumentList,System.IO.TextWriter):System.Void|static=false",
@@ -417,7 +417,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.XslCompiledTransform::Transform(System.Xml.XPath.IXPathNavigable,System.Xml.Xsl.XsltArgumentList,System.IO.Stream):System.Void",
           "clrName": "Transform",
-          "tsEmitName": "Transform4",
+          "tsEmitName": "transform4",
           "metadataToken": 100673734,
           "canonicalSignature": "(System.Xml.XPath.IXPathNavigable,System.Xml.Xsl.XsltArgumentList,System.IO.Stream):System.Void",
           "normalizedSignature": "Transform|(System.Xml.XPath.IXPathNavigable,System.Xml.Xsl.XsltArgumentList,System.IO.Stream):System.Void|static=false",
@@ -431,7 +431,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.XslCompiledTransform::Transform(System.Xml.XmlReader,System.Xml.XmlWriter):System.Void",
           "clrName": "Transform",
-          "tsEmitName": "Transform5",
+          "tsEmitName": "transform5",
           "metadataToken": 100673735,
           "canonicalSignature": "(System.Xml.XmlReader,System.Xml.XmlWriter):System.Void",
           "normalizedSignature": "Transform|(System.Xml.XmlReader,System.Xml.XmlWriter):System.Void|static=false",
@@ -445,7 +445,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.XslCompiledTransform::Transform(System.Xml.XmlReader,System.Xml.Xsl.XsltArgumentList,System.Xml.XmlWriter):System.Void",
           "clrName": "Transform",
-          "tsEmitName": "Transform6",
+          "tsEmitName": "transform6",
           "metadataToken": 100673736,
           "canonicalSignature": "(System.Xml.XmlReader,System.Xml.Xsl.XsltArgumentList,System.Xml.XmlWriter):System.Void",
           "normalizedSignature": "Transform|(System.Xml.XmlReader,System.Xml.Xsl.XsltArgumentList,System.Xml.XmlWriter):System.Void|static=false",
@@ -459,7 +459,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.XslCompiledTransform::Transform(System.Xml.XmlReader,System.Xml.Xsl.XsltArgumentList,System.IO.TextWriter):System.Void",
           "clrName": "Transform",
-          "tsEmitName": "Transform7",
+          "tsEmitName": "transform7",
           "metadataToken": 100673737,
           "canonicalSignature": "(System.Xml.XmlReader,System.Xml.Xsl.XsltArgumentList,System.IO.TextWriter):System.Void",
           "normalizedSignature": "Transform|(System.Xml.XmlReader,System.Xml.Xsl.XsltArgumentList,System.IO.TextWriter):System.Void|static=false",
@@ -473,7 +473,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.XslCompiledTransform::Transform(System.Xml.XmlReader,System.Xml.Xsl.XsltArgumentList,System.IO.Stream):System.Void",
           "clrName": "Transform",
-          "tsEmitName": "Transform8",
+          "tsEmitName": "transform8",
           "metadataToken": 100673738,
           "canonicalSignature": "(System.Xml.XmlReader,System.Xml.Xsl.XsltArgumentList,System.IO.Stream):System.Void",
           "normalizedSignature": "Transform|(System.Xml.XmlReader,System.Xml.Xsl.XsltArgumentList,System.IO.Stream):System.Void|static=false",
@@ -487,7 +487,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.XslCompiledTransform::Transform(System.String,System.Xml.XmlWriter):System.Void",
           "clrName": "Transform",
-          "tsEmitName": "Transform9",
+          "tsEmitName": "transform9",
           "metadataToken": 100673739,
           "canonicalSignature": "(System.String,System.Xml.XmlWriter):System.Void",
           "normalizedSignature": "Transform|(System.String,System.Xml.XmlWriter):System.Void|static=false",
@@ -501,7 +501,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.XslCompiledTransform::Transform(System.String,System.Xml.Xsl.XsltArgumentList,System.Xml.XmlWriter):System.Void",
           "clrName": "Transform",
-          "tsEmitName": "Transform10",
+          "tsEmitName": "transform10",
           "metadataToken": 100673740,
           "canonicalSignature": "(System.String,System.Xml.Xsl.XsltArgumentList,System.Xml.XmlWriter):System.Void",
           "normalizedSignature": "Transform|(System.String,System.Xml.Xsl.XsltArgumentList,System.Xml.XmlWriter):System.Void|static=false",
@@ -515,7 +515,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.XslCompiledTransform::Transform(System.String,System.Xml.Xsl.XsltArgumentList,System.IO.TextWriter):System.Void",
           "clrName": "Transform",
-          "tsEmitName": "Transform11",
+          "tsEmitName": "transform11",
           "metadataToken": 100673741,
           "canonicalSignature": "(System.String,System.Xml.Xsl.XsltArgumentList,System.IO.TextWriter):System.Void",
           "normalizedSignature": "Transform|(System.String,System.Xml.Xsl.XsltArgumentList,System.IO.TextWriter):System.Void|static=false",
@@ -529,7 +529,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.XslCompiledTransform::Transform(System.String,System.Xml.Xsl.XsltArgumentList,System.IO.Stream):System.Void",
           "clrName": "Transform",
-          "tsEmitName": "Transform12",
+          "tsEmitName": "transform12",
           "metadataToken": 100673742,
           "canonicalSignature": "(System.String,System.Xml.Xsl.XsltArgumentList,System.IO.Stream):System.Void",
           "normalizedSignature": "Transform|(System.String,System.Xml.Xsl.XsltArgumentList,System.IO.Stream):System.Void|static=false",
@@ -543,7 +543,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.XslCompiledTransform::Transform(System.String,System.String):System.Void",
           "clrName": "Transform",
-          "tsEmitName": "Transform13",
+          "tsEmitName": "transform13",
           "metadataToken": 100673743,
           "canonicalSignature": "(System.String,System.String):System.Void",
           "normalizedSignature": "Transform|(System.String,System.String):System.Void|static=false",
@@ -557,7 +557,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.XslCompiledTransform::Transform(System.Xml.XmlReader,System.Xml.Xsl.XsltArgumentList,System.Xml.XmlWriter,System.Xml.XmlResolver):System.Void",
           "clrName": "Transform",
-          "tsEmitName": "Transform14",
+          "tsEmitName": "transform14",
           "metadataToken": 100673744,
           "canonicalSignature": "(System.Xml.XmlReader,System.Xml.Xsl.XsltArgumentList,System.Xml.XmlWriter,System.Xml.XmlResolver):System.Void",
           "normalizedSignature": "Transform|(System.Xml.XmlReader,System.Xml.Xsl.XsltArgumentList,System.Xml.XmlWriter,System.Xml.XmlResolver):System.Void|static=false",
@@ -571,7 +571,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.XslCompiledTransform::Transform(System.Xml.XPath.IXPathNavigable,System.Xml.Xsl.XsltArgumentList,System.Xml.XmlWriter,System.Xml.XmlResolver):System.Void",
           "clrName": "Transform",
-          "tsEmitName": "Transform15",
+          "tsEmitName": "transform15",
           "metadataToken": 100673745,
           "canonicalSignature": "(System.Xml.XPath.IXPathNavigable,System.Xml.Xsl.XsltArgumentList,System.Xml.XmlWriter,System.Xml.XmlResolver):System.Void",
           "normalizedSignature": "Transform|(System.Xml.XPath.IXPathNavigable,System.Xml.Xsl.XsltArgumentList,System.Xml.XmlWriter,System.Xml.XmlResolver):System.Void|static=false",
@@ -587,7 +587,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.XslCompiledTransform::OutputSettings:System.Xml.XmlWriterSettings",
           "clrName": "OutputSettings",
-          "tsEmitName": "OutputSettings",
+          "tsEmitName": "outputSettings",
           "metadataToken": 385879016,
           "canonicalSignature": ":System.Xml.XmlWriterSettings",
           "normalizedSignature": "OutputSettings|:System.Xml.XmlWriterSettings|static=false|accessor=get",
@@ -625,7 +625,7 @@
       ],
       "exposedMethods": [
         {
-          "tsName": "Load",
+          "tsName": "load",
           "isStatic": false,
           "tsSignatureId": "Load|(System.Xml.XmlReader):System.Void|static=false",
           "target": {
@@ -635,7 +635,7 @@
           }
         },
         {
-          "tsName": "Load2",
+          "tsName": "load2",
           "isStatic": false,
           "tsSignatureId": "Load|(System.Xml.XmlReader,System.Xml.Xsl.XsltSettings,System.Xml.XmlResolver):System.Void|static=false",
           "target": {
@@ -645,7 +645,7 @@
           }
         },
         {
-          "tsName": "Load3",
+          "tsName": "load3",
           "isStatic": false,
           "tsSignatureId": "Load|(System.Xml.XPath.IXPathNavigable):System.Void|static=false",
           "target": {
@@ -655,7 +655,7 @@
           }
         },
         {
-          "tsName": "Load4",
+          "tsName": "load4",
           "isStatic": false,
           "tsSignatureId": "Load|(System.Xml.XPath.IXPathNavigable,System.Xml.Xsl.XsltSettings,System.Xml.XmlResolver):System.Void|static=false",
           "target": {
@@ -665,7 +665,7 @@
           }
         },
         {
-          "tsName": "Load5",
+          "tsName": "load5",
           "isStatic": false,
           "tsSignatureId": "Load|(System.String):System.Void|static=false",
           "target": {
@@ -675,7 +675,7 @@
           }
         },
         {
-          "tsName": "Load6",
+          "tsName": "load6",
           "isStatic": false,
           "tsSignatureId": "Load|(System.String,System.Xml.Xsl.XsltSettings,System.Xml.XmlResolver):System.Void|static=false",
           "target": {
@@ -685,7 +685,7 @@
           }
         },
         {
-          "tsName": "Load7",
+          "tsName": "load7",
           "isStatic": false,
           "tsSignatureId": "Load|(System.Type):System.Void|static=false",
           "target": {
@@ -695,7 +695,7 @@
           }
         },
         {
-          "tsName": "Load8",
+          "tsName": "load8",
           "isStatic": false,
           "tsSignatureId": "Load|(System.Reflection.MethodInfo,System.Byte[],System.Type[]):System.Void|static=false",
           "target": {
@@ -705,7 +705,7 @@
           }
         },
         {
-          "tsName": "Transform",
+          "tsName": "transform",
           "isStatic": false,
           "tsSignatureId": "Transform|(System.Xml.XPath.IXPathNavigable,System.Xml.XmlWriter):System.Void|static=false",
           "target": {
@@ -715,7 +715,7 @@
           }
         },
         {
-          "tsName": "Transform2",
+          "tsName": "transform2",
           "isStatic": false,
           "tsSignatureId": "Transform|(System.Xml.XPath.IXPathNavigable,System.Xml.Xsl.XsltArgumentList,System.Xml.XmlWriter):System.Void|static=false",
           "target": {
@@ -725,7 +725,7 @@
           }
         },
         {
-          "tsName": "Transform3",
+          "tsName": "transform3",
           "isStatic": false,
           "tsSignatureId": "Transform|(System.Xml.XPath.IXPathNavigable,System.Xml.Xsl.XsltArgumentList,System.IO.TextWriter):System.Void|static=false",
           "target": {
@@ -735,7 +735,7 @@
           }
         },
         {
-          "tsName": "Transform4",
+          "tsName": "transform4",
           "isStatic": false,
           "tsSignatureId": "Transform|(System.Xml.XPath.IXPathNavigable,System.Xml.Xsl.XsltArgumentList,System.IO.Stream):System.Void|static=false",
           "target": {
@@ -745,7 +745,7 @@
           }
         },
         {
-          "tsName": "Transform5",
+          "tsName": "transform5",
           "isStatic": false,
           "tsSignatureId": "Transform|(System.Xml.XmlReader,System.Xml.XmlWriter):System.Void|static=false",
           "target": {
@@ -755,7 +755,7 @@
           }
         },
         {
-          "tsName": "Transform6",
+          "tsName": "transform6",
           "isStatic": false,
           "tsSignatureId": "Transform|(System.Xml.XmlReader,System.Xml.Xsl.XsltArgumentList,System.Xml.XmlWriter):System.Void|static=false",
           "target": {
@@ -765,7 +765,7 @@
           }
         },
         {
-          "tsName": "Transform7",
+          "tsName": "transform7",
           "isStatic": false,
           "tsSignatureId": "Transform|(System.Xml.XmlReader,System.Xml.Xsl.XsltArgumentList,System.IO.TextWriter):System.Void|static=false",
           "target": {
@@ -775,7 +775,7 @@
           }
         },
         {
-          "tsName": "Transform8",
+          "tsName": "transform8",
           "isStatic": false,
           "tsSignatureId": "Transform|(System.Xml.XmlReader,System.Xml.Xsl.XsltArgumentList,System.IO.Stream):System.Void|static=false",
           "target": {
@@ -785,7 +785,7 @@
           }
         },
         {
-          "tsName": "Transform9",
+          "tsName": "transform9",
           "isStatic": false,
           "tsSignatureId": "Transform|(System.String,System.Xml.XmlWriter):System.Void|static=false",
           "target": {
@@ -795,7 +795,7 @@
           }
         },
         {
-          "tsName": "Transform10",
+          "tsName": "transform10",
           "isStatic": false,
           "tsSignatureId": "Transform|(System.String,System.Xml.Xsl.XsltArgumentList,System.Xml.XmlWriter):System.Void|static=false",
           "target": {
@@ -805,7 +805,7 @@
           }
         },
         {
-          "tsName": "Transform11",
+          "tsName": "transform11",
           "isStatic": false,
           "tsSignatureId": "Transform|(System.String,System.Xml.Xsl.XsltArgumentList,System.IO.TextWriter):System.Void|static=false",
           "target": {
@@ -815,7 +815,7 @@
           }
         },
         {
-          "tsName": "Transform12",
+          "tsName": "transform12",
           "isStatic": false,
           "tsSignatureId": "Transform|(System.String,System.Xml.Xsl.XsltArgumentList,System.IO.Stream):System.Void|static=false",
           "target": {
@@ -825,7 +825,7 @@
           }
         },
         {
-          "tsName": "Transform13",
+          "tsName": "transform13",
           "isStatic": false,
           "tsSignatureId": "Transform|(System.String,System.String):System.Void|static=false",
           "target": {
@@ -835,7 +835,7 @@
           }
         },
         {
-          "tsName": "Transform14",
+          "tsName": "transform14",
           "isStatic": false,
           "tsSignatureId": "Transform|(System.Xml.XmlReader,System.Xml.Xsl.XsltArgumentList,System.Xml.XmlWriter,System.Xml.XmlResolver):System.Void|static=false",
           "target": {
@@ -845,7 +845,7 @@
           }
         },
         {
-          "tsName": "Transform15",
+          "tsName": "transform15",
           "isStatic": false,
           "tsSignatureId": "Transform|(System.Xml.XPath.IXPathNavigable,System.Xml.Xsl.XsltArgumentList,System.Xml.XmlWriter,System.Xml.XmlResolver):System.Void|static=false",
           "target": {
@@ -855,7 +855,7 @@
           }
         },
         {
-          "tsName": "GetType",
+          "tsName": "getType",
           "isStatic": false,
           "tsSignatureId": "GetType|():System.Type|static=false",
           "target": {
@@ -865,7 +865,7 @@
           }
         },
         {
-          "tsName": "ToString",
+          "tsName": "toString",
           "isStatic": false,
           "tsSignatureId": "ToString|():System.String|static=false",
           "target": {
@@ -875,7 +875,7 @@
           }
         },
         {
-          "tsName": "Equals",
+          "tsName": "equals",
           "isStatic": false,
           "tsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
           "target": {
@@ -885,7 +885,7 @@
           }
         },
         {
-          "tsName": "Equals",
+          "tsName": "equals",
           "isStatic": true,
           "tsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
           "target": {
@@ -895,7 +895,7 @@
           }
         },
         {
-          "tsName": "ReferenceEquals",
+          "tsName": "referenceEquals",
           "isStatic": true,
           "tsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
           "target": {
@@ -905,7 +905,7 @@
           }
         },
         {
-          "tsName": "GetHashCode",
+          "tsName": "getHashCode",
           "isStatic": false,
           "tsSignatureId": "GetHashCode|():System.Int32|static=false",
           "target": {
@@ -917,7 +917,7 @@
       ],
       "exposedProperties": [
         {
-          "tsName": "OutputSettings",
+          "tsName": "outputSettings",
           "isStatic": false,
           "tsSignatureId": "OutputSettings|:System.Xml.XmlWriterSettings|static=false|accessor=get",
           "target": {
@@ -958,7 +958,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.XsltArgumentList::GetParam(System.String,System.String):System.Object",
           "clrName": "GetParam",
-          "tsEmitName": "GetParam",
+          "tsEmitName": "getParam",
           "metadataToken": 100673756,
           "canonicalSignature": "(System.String,System.String):System.Object",
           "normalizedSignature": "GetParam|(System.String,System.String):System.Object|static=false",
@@ -972,7 +972,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.XsltArgumentList::GetExtensionObject(System.String):System.Object",
           "clrName": "GetExtensionObject",
-          "tsEmitName": "GetExtensionObject",
+          "tsEmitName": "getExtensionObject",
           "metadataToken": 100673757,
           "canonicalSignature": "(System.String):System.Object",
           "normalizedSignature": "GetExtensionObject|(System.String):System.Object|static=false",
@@ -986,7 +986,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.XsltArgumentList::AddParam(System.String,System.String,System.Object):System.Void",
           "clrName": "AddParam",
-          "tsEmitName": "AddParam",
+          "tsEmitName": "addParam",
           "metadataToken": 100673758,
           "canonicalSignature": "(System.String,System.String,System.Object):System.Void",
           "normalizedSignature": "AddParam|(System.String,System.String,System.Object):System.Void|static=false",
@@ -1000,7 +1000,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.XsltArgumentList::AddExtensionObject(System.String,System.Object):System.Void",
           "clrName": "AddExtensionObject",
-          "tsEmitName": "AddExtensionObject",
+          "tsEmitName": "addExtensionObject",
           "metadataToken": 100673759,
           "canonicalSignature": "(System.String,System.Object):System.Void",
           "normalizedSignature": "AddExtensionObject|(System.String,System.Object):System.Void|static=false",
@@ -1014,7 +1014,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.XsltArgumentList::RemoveParam(System.String,System.String):System.Object",
           "clrName": "RemoveParam",
-          "tsEmitName": "RemoveParam",
+          "tsEmitName": "removeParam",
           "metadataToken": 100673760,
           "canonicalSignature": "(System.String,System.String):System.Object",
           "normalizedSignature": "RemoveParam|(System.String,System.String):System.Object|static=false",
@@ -1028,7 +1028,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.XsltArgumentList::RemoveExtensionObject(System.String):System.Object",
           "clrName": "RemoveExtensionObject",
-          "tsEmitName": "RemoveExtensionObject",
+          "tsEmitName": "removeExtensionObject",
           "metadataToken": 100673761,
           "canonicalSignature": "(System.String):System.Object",
           "normalizedSignature": "RemoveExtensionObject|(System.String):System.Object|static=false",
@@ -1042,7 +1042,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.XsltArgumentList::Clear():System.Void",
           "clrName": "Clear",
-          "tsEmitName": "Clear",
+          "tsEmitName": "clear",
           "metadataToken": 100673764,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Clear|():System.Void|static=false",
@@ -1060,7 +1060,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.XsltArgumentList::XsltMessageEncounteredSystem.Xml.Xsl.XsltMessageEncounteredEventHandler",
           "clrName": "XsltMessageEncountered",
-          "tsEmitName": "XsltMessageEncountered",
+          "tsEmitName": "xsltMessageEncountered",
           "metadataToken": 335544333,
           "normalizedSignature": "XsltMessageEncountered|System.Xml.Xsl.XsltMessageEncounteredEventHandler|static=false",
           "isStatic": false,
@@ -1082,7 +1082,7 @@
       ],
       "exposedMethods": [
         {
-          "tsName": "GetParam",
+          "tsName": "getParam",
           "isStatic": false,
           "tsSignatureId": "GetParam|(System.String,System.String):System.Object|static=false",
           "target": {
@@ -1092,7 +1092,7 @@
           }
         },
         {
-          "tsName": "GetExtensionObject",
+          "tsName": "getExtensionObject",
           "isStatic": false,
           "tsSignatureId": "GetExtensionObject|(System.String):System.Object|static=false",
           "target": {
@@ -1102,7 +1102,7 @@
           }
         },
         {
-          "tsName": "AddParam",
+          "tsName": "addParam",
           "isStatic": false,
           "tsSignatureId": "AddParam|(System.String,System.String,System.Object):System.Void|static=false",
           "target": {
@@ -1112,7 +1112,7 @@
           }
         },
         {
-          "tsName": "AddExtensionObject",
+          "tsName": "addExtensionObject",
           "isStatic": false,
           "tsSignatureId": "AddExtensionObject|(System.String,System.Object):System.Void|static=false",
           "target": {
@@ -1122,7 +1122,7 @@
           }
         },
         {
-          "tsName": "RemoveParam",
+          "tsName": "removeParam",
           "isStatic": false,
           "tsSignatureId": "RemoveParam|(System.String,System.String):System.Object|static=false",
           "target": {
@@ -1132,7 +1132,7 @@
           }
         },
         {
-          "tsName": "RemoveExtensionObject",
+          "tsName": "removeExtensionObject",
           "isStatic": false,
           "tsSignatureId": "RemoveExtensionObject|(System.String):System.Object|static=false",
           "target": {
@@ -1142,7 +1142,7 @@
           }
         },
         {
-          "tsName": "Clear",
+          "tsName": "clear",
           "isStatic": false,
           "tsSignatureId": "Clear|():System.Void|static=false",
           "target": {
@@ -1152,7 +1152,7 @@
           }
         },
         {
-          "tsName": "GetType",
+          "tsName": "getType",
           "isStatic": false,
           "tsSignatureId": "GetType|():System.Type|static=false",
           "target": {
@@ -1162,7 +1162,7 @@
           }
         },
         {
-          "tsName": "ToString",
+          "tsName": "toString",
           "isStatic": false,
           "tsSignatureId": "ToString|():System.String|static=false",
           "target": {
@@ -1172,7 +1172,7 @@
           }
         },
         {
-          "tsName": "Equals",
+          "tsName": "equals",
           "isStatic": false,
           "tsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
           "target": {
@@ -1182,7 +1182,7 @@
           }
         },
         {
-          "tsName": "Equals",
+          "tsName": "equals",
           "isStatic": true,
           "tsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
           "target": {
@@ -1192,7 +1192,7 @@
           }
         },
         {
-          "tsName": "ReferenceEquals",
+          "tsName": "referenceEquals",
           "isStatic": true,
           "tsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
           "target": {
@@ -1202,7 +1202,7 @@
           }
         },
         {
-          "tsName": "GetHashCode",
+          "tsName": "getHashCode",
           "isStatic": false,
           "tsSignatureId": "GetHashCode|():System.Int32|static=false",
           "target": {
@@ -1214,7 +1214,7 @@
       ],
       "exposedEvents": [
         {
-          "tsName": "XsltMessageEncountered",
+          "tsName": "xsltMessageEncountered",
           "isStatic": false,
           "tsSignatureId": "XsltMessageEncountered|System.Xml.Xsl.XsltMessageEncounteredEventHandler|static=false",
           "target": {
@@ -1246,7 +1246,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.XsltCompileException::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData",
+          "tsEmitName": "getObjectData",
           "metadataToken": 100673797,
           "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
@@ -1260,7 +1260,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData$view",
+          "tsEmitName": "getObjectData$view",
           "metadataToken": 100682669,
           "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
@@ -1319,7 +1319,7 @@
       ],
       "exposedMethods": [
         {
-          "tsName": "GetObjectData",
+          "tsName": "getObjectData",
           "isStatic": false,
           "tsSignatureId": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "target": {
@@ -1329,7 +1329,7 @@
           }
         },
         {
-          "tsName": "GetObjectData$view",
+          "tsName": "getObjectData$view",
           "isStatic": false,
           "tsSignatureId": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "target": {
@@ -1339,7 +1339,7 @@
           }
         },
         {
-          "tsName": "GetBaseException",
+          "tsName": "getBaseException",
           "isStatic": false,
           "tsSignatureId": "GetBaseException|():System.Exception|static=false",
           "target": {
@@ -1349,7 +1349,7 @@
           }
         },
         {
-          "tsName": "ToString",
+          "tsName": "toString",
           "isStatic": false,
           "tsSignatureId": "ToString|():System.String|static=false",
           "target": {
@@ -1359,7 +1359,7 @@
           }
         },
         {
-          "tsName": "GetType",
+          "tsName": "getType",
           "isStatic": false,
           "tsSignatureId": "GetType|():System.Type|static=false",
           "target": {
@@ -1369,7 +1369,7 @@
           }
         },
         {
-          "tsName": "Equals",
+          "tsName": "equals",
           "isStatic": false,
           "tsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
           "target": {
@@ -1379,7 +1379,7 @@
           }
         },
         {
-          "tsName": "Equals",
+          "tsName": "equals",
           "isStatic": true,
           "tsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
           "target": {
@@ -1389,7 +1389,7 @@
           }
         },
         {
-          "tsName": "ReferenceEquals",
+          "tsName": "referenceEquals",
           "isStatic": true,
           "tsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
           "target": {
@@ -1399,7 +1399,7 @@
           }
         },
         {
-          "tsName": "GetHashCode",
+          "tsName": "getHashCode",
           "isStatic": false,
           "tsSignatureId": "GetHashCode|():System.Int32|static=false",
           "target": {
@@ -1411,7 +1411,7 @@
       ],
       "exposedProperties": [
         {
-          "tsName": "SourceUri",
+          "tsName": "sourceUri",
           "isStatic": false,
           "tsSignatureId": "SourceUri|:System.String|static=false|accessor=get",
           "target": {
@@ -1421,7 +1421,7 @@
           }
         },
         {
-          "tsName": "LineNumber",
+          "tsName": "lineNumber",
           "isStatic": false,
           "tsSignatureId": "LineNumber|:System.Int32|static=false|accessor=get",
           "target": {
@@ -1431,7 +1431,7 @@
           }
         },
         {
-          "tsName": "LinePosition",
+          "tsName": "linePosition",
           "isStatic": false,
           "tsSignatureId": "LinePosition|:System.Int32|static=false|accessor=get",
           "target": {
@@ -1441,7 +1441,7 @@
           }
         },
         {
-          "tsName": "Message",
+          "tsName": "message",
           "isStatic": false,
           "tsSignatureId": "Message|:System.String|static=false|accessor=get",
           "target": {
@@ -1451,7 +1451,7 @@
           }
         },
         {
-          "tsName": "TargetSite",
+          "tsName": "targetSite",
           "isStatic": false,
           "tsSignatureId": "TargetSite|:System.Reflection.MethodBase|static=false|accessor=get",
           "target": {
@@ -1461,7 +1461,7 @@
           }
         },
         {
-          "tsName": "Data",
+          "tsName": "data",
           "isStatic": false,
           "tsSignatureId": "Data|:System.Collections.IDictionary|static=false|accessor=get",
           "target": {
@@ -1471,7 +1471,7 @@
           }
         },
         {
-          "tsName": "InnerException",
+          "tsName": "innerException",
           "isStatic": false,
           "tsSignatureId": "InnerException|:System.Exception|static=false|accessor=get",
           "target": {
@@ -1481,7 +1481,7 @@
           }
         },
         {
-          "tsName": "HelpLink",
+          "tsName": "helpLink",
           "isStatic": false,
           "tsSignatureId": "HelpLink|:System.String|static=false|accessor=getset",
           "target": {
@@ -1491,7 +1491,7 @@
           }
         },
         {
-          "tsName": "Source",
+          "tsName": "source",
           "isStatic": false,
           "tsSignatureId": "Source|:System.String|static=false|accessor=getset",
           "target": {
@@ -1501,7 +1501,7 @@
           }
         },
         {
-          "tsName": "HResult",
+          "tsName": "hResult",
           "isStatic": false,
           "tsSignatureId": "HResult|:System.Int32|static=false|accessor=getset",
           "target": {
@@ -1511,7 +1511,7 @@
           }
         },
         {
-          "tsName": "StackTrace",
+          "tsName": "stackTrace",
           "isStatic": false,
           "tsSignatureId": "StackTrace|:System.String|static=false|accessor=get",
           "target": {
@@ -1570,7 +1570,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.XsltContext::ResolveVariable(System.String,System.String):System.Xml.Xsl.IXsltContextVariable",
           "clrName": "ResolveVariable",
-          "tsEmitName": "ResolveVariable",
+          "tsEmitName": "resolveVariable",
           "metadataToken": 100673777,
           "canonicalSignature": "(System.String,System.String):System.Xml.Xsl.IXsltContextVariable",
           "normalizedSignature": "ResolveVariable|(System.String,System.String):System.Xml.Xsl.IXsltContextVariable|static=false",
@@ -1584,7 +1584,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.XsltContext::ResolveFunction(System.String,System.String,System.Xml.XPath.XPathResultType[]):System.Xml.Xsl.IXsltContextFunction",
           "clrName": "ResolveFunction",
-          "tsEmitName": "ResolveFunction",
+          "tsEmitName": "resolveFunction",
           "metadataToken": 100673778,
           "canonicalSignature": "(System.String,System.String,System.Xml.XPath.XPathResultType[]):System.Xml.Xsl.IXsltContextFunction",
           "normalizedSignature": "ResolveFunction|(System.String,System.String,System.Xml.XPath.XPathResultType[]):System.Xml.Xsl.IXsltContextFunction|static=false",
@@ -1598,7 +1598,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.XsltContext::PreserveWhitespace(System.Xml.XPath.XPathNavigator):System.Boolean",
           "clrName": "PreserveWhitespace",
-          "tsEmitName": "PreserveWhitespace",
+          "tsEmitName": "preserveWhitespace",
           "metadataToken": 100673780,
           "canonicalSignature": "(System.Xml.XPath.XPathNavigator):System.Boolean",
           "normalizedSignature": "PreserveWhitespace|(System.Xml.XPath.XPathNavigator):System.Boolean|static=false",
@@ -1612,7 +1612,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.XsltContext::CompareDocument(System.String,System.String):System.Int32",
           "clrName": "CompareDocument",
-          "tsEmitName": "CompareDocument",
+          "tsEmitName": "compareDocument",
           "metadataToken": 100673781,
           "canonicalSignature": "(System.String,System.String):System.Int32",
           "normalizedSignature": "CompareDocument|(System.String,System.String):System.Int32|static=false",
@@ -1626,7 +1626,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.IXmlNamespaceResolver::GetNamespacesInScope(System.Xml.XmlNamespaceScope):System.Collections.Generic.IDictionary_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "GetNamespacesInScope",
-          "tsEmitName": "GetNamespacesInScope$view",
+          "tsEmitName": "getNamespacesInScope$view",
           "metadataToken": 100666154,
           "canonicalSignature": "(System.Xml.XmlNamespaceScope):System.Collections.Generic.IDictionary_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "normalizedSignature": "GetNamespacesInScope|(System.Xml.XmlNamespaceScope):System.Collections.Generic.IDictionary_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
@@ -1640,7 +1640,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.IXmlNamespaceResolver::LookupNamespace(System.String):System.String",
           "clrName": "LookupNamespace",
-          "tsEmitName": "LookupNamespace$view",
+          "tsEmitName": "lookupNamespace$view",
           "metadataToken": 100666155,
           "canonicalSignature": "(System.String):System.String",
           "normalizedSignature": "LookupNamespace|(System.String):System.String|static=false",
@@ -1654,7 +1654,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
           "clrName": "GetEnumerator",
-          "tsEmitName": "GetEnumerator$view",
+          "tsEmitName": "getEnumerator$view",
           "metadataToken": 100703948,
           "canonicalSignature": "():System.Collections.IEnumerator",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
@@ -1668,7 +1668,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.XsltContext::GetEnumerator():System.Collections.IEnumerator",
           "clrName": "GetEnumerator",
-          "tsEmitName": "GetEnumerator",
+          "tsEmitName": "getEnumerator",
           "metadataToken": 0,
           "canonicalSignature": "():System.Collections.IEnumerator",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
@@ -1682,7 +1682,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.XsltContext::GetNamespacesInScope(System.Xml.XmlNamespaceScope):System.Collections.Generic.IDictionary_2",
           "clrName": "GetNamespacesInScope",
-          "tsEmitName": "GetNamespacesInScope",
+          "tsEmitName": "getNamespacesInScope",
           "metadataToken": 0,
           "canonicalSignature": "(System.Xml.XmlNamespaceScope):System.Collections.Generic.IDictionary_2",
           "normalizedSignature": "GetNamespacesInScope|(System.Xml.XmlNamespaceScope):System.Collections.Generic.IDictionary_2|static=false",
@@ -1696,7 +1696,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.XsltContext::LookupNamespace(System.String):System.String",
           "clrName": "LookupNamespace",
-          "tsEmitName": "LookupNamespace",
+          "tsEmitName": "lookupNamespace",
           "metadataToken": 0,
           "canonicalSignature": "(System.String):System.String",
           "normalizedSignature": "LookupNamespace|(System.String):System.String|static=false",
@@ -1712,7 +1712,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.XsltContext::Whitespace:System.Boolean",
           "clrName": "Whitespace",
-          "tsEmitName": "Whitespace",
+          "tsEmitName": "whitespace",
           "metadataToken": 385879025,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "Whitespace|:System.Boolean|static=false|accessor=get",
@@ -1729,7 +1729,7 @@
       "constructors": [],
       "exposedMethods": [
         {
-          "tsName": "ResolveVariable",
+          "tsName": "resolveVariable",
           "isStatic": false,
           "tsSignatureId": "ResolveVariable|(System.String,System.String):System.Xml.Xsl.IXsltContextVariable|static=false",
           "target": {
@@ -1739,7 +1739,7 @@
           }
         },
         {
-          "tsName": "ResolveFunction",
+          "tsName": "resolveFunction",
           "isStatic": false,
           "tsSignatureId": "ResolveFunction|(System.String,System.String,System.Xml.XPath.XPathResultType[]):System.Xml.Xsl.IXsltContextFunction|static=false",
           "target": {
@@ -1749,7 +1749,7 @@
           }
         },
         {
-          "tsName": "PreserveWhitespace",
+          "tsName": "preserveWhitespace",
           "isStatic": false,
           "tsSignatureId": "PreserveWhitespace|(System.Xml.XPath.XPathNavigator):System.Boolean|static=false",
           "target": {
@@ -1759,7 +1759,7 @@
           }
         },
         {
-          "tsName": "CompareDocument",
+          "tsName": "compareDocument",
           "isStatic": false,
           "tsSignatureId": "CompareDocument|(System.String,System.String):System.Int32|static=false",
           "target": {
@@ -1769,7 +1769,7 @@
           }
         },
         {
-          "tsName": "GetNamespacesInScope$view",
+          "tsName": "getNamespacesInScope$view",
           "isStatic": false,
           "tsSignatureId": "GetNamespacesInScope|(System.Xml.XmlNamespaceScope):System.Collections.Generic.IDictionary_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "target": {
@@ -1779,7 +1779,7 @@
           }
         },
         {
-          "tsName": "LookupNamespace$view",
+          "tsName": "lookupNamespace$view",
           "isStatic": false,
           "tsSignatureId": "LookupNamespace|(System.String):System.String|static=false",
           "target": {
@@ -1789,7 +1789,7 @@
           }
         },
         {
-          "tsName": "GetEnumerator$view",
+          "tsName": "getEnumerator$view",
           "isStatic": false,
           "tsSignatureId": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "target": {
@@ -1799,7 +1799,7 @@
           }
         },
         {
-          "tsName": "GetEnumerator",
+          "tsName": "getEnumerator",
           "isStatic": false,
           "tsSignatureId": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "target": {
@@ -1809,7 +1809,7 @@
           }
         },
         {
-          "tsName": "GetNamespacesInScope",
+          "tsName": "getNamespacesInScope",
           "isStatic": false,
           "tsSignatureId": "GetNamespacesInScope|(System.Xml.XmlNamespaceScope):System.Collections.Generic.IDictionary_2|static=false",
           "target": {
@@ -1819,7 +1819,7 @@
           }
         },
         {
-          "tsName": "LookupNamespace",
+          "tsName": "lookupNamespace",
           "isStatic": false,
           "tsSignatureId": "LookupNamespace|(System.String):System.String|static=false",
           "target": {
@@ -1829,7 +1829,7 @@
           }
         },
         {
-          "tsName": "PushScope",
+          "tsName": "pushScope",
           "isStatic": false,
           "tsSignatureId": "PushScope|():System.Void|static=false",
           "target": {
@@ -1839,7 +1839,7 @@
           }
         },
         {
-          "tsName": "PopScope",
+          "tsName": "popScope",
           "isStatic": false,
           "tsSignatureId": "PopScope|():System.Boolean|static=false",
           "target": {
@@ -1849,7 +1849,7 @@
           }
         },
         {
-          "tsName": "AddNamespace",
+          "tsName": "addNamespace",
           "isStatic": false,
           "tsSignatureId": "AddNamespace|(System.String,System.String):System.Void|static=false",
           "target": {
@@ -1859,7 +1859,7 @@
           }
         },
         {
-          "tsName": "RemoveNamespace",
+          "tsName": "removeNamespace",
           "isStatic": false,
           "tsSignatureId": "RemoveNamespace|(System.String,System.String):System.Void|static=false",
           "target": {
@@ -1869,7 +1869,7 @@
           }
         },
         {
-          "tsName": "LookupPrefix",
+          "tsName": "lookupPrefix",
           "isStatic": false,
           "tsSignatureId": "LookupPrefix|(System.String):System.String|static=false",
           "target": {
@@ -1879,7 +1879,7 @@
           }
         },
         {
-          "tsName": "HasNamespace",
+          "tsName": "hasNamespace",
           "isStatic": false,
           "tsSignatureId": "HasNamespace|(System.String):System.Boolean|static=false",
           "target": {
@@ -1889,7 +1889,7 @@
           }
         },
         {
-          "tsName": "GetType",
+          "tsName": "getType",
           "isStatic": false,
           "tsSignatureId": "GetType|():System.Type|static=false",
           "target": {
@@ -1899,7 +1899,7 @@
           }
         },
         {
-          "tsName": "ToString",
+          "tsName": "toString",
           "isStatic": false,
           "tsSignatureId": "ToString|():System.String|static=false",
           "target": {
@@ -1909,7 +1909,7 @@
           }
         },
         {
-          "tsName": "Equals",
+          "tsName": "equals",
           "isStatic": false,
           "tsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
           "target": {
@@ -1919,7 +1919,7 @@
           }
         },
         {
-          "tsName": "Equals",
+          "tsName": "equals",
           "isStatic": true,
           "tsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
           "target": {
@@ -1929,7 +1929,7 @@
           }
         },
         {
-          "tsName": "ReferenceEquals",
+          "tsName": "referenceEquals",
           "isStatic": true,
           "tsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
           "target": {
@@ -1939,7 +1939,7 @@
           }
         },
         {
-          "tsName": "GetHashCode",
+          "tsName": "getHashCode",
           "isStatic": false,
           "tsSignatureId": "GetHashCode|():System.Int32|static=false",
           "target": {
@@ -1951,7 +1951,7 @@
       ],
       "exposedProperties": [
         {
-          "tsName": "Whitespace",
+          "tsName": "whitespace",
           "isStatic": false,
           "tsSignatureId": "Whitespace|:System.Boolean|static=false|accessor=get",
           "target": {
@@ -1961,7 +1961,7 @@
           }
         },
         {
-          "tsName": "NameTable",
+          "tsName": "nameTable",
           "isStatic": false,
           "tsSignatureId": "NameTable|:System.Xml.XmlNameTable|static=false|accessor=get",
           "target": {
@@ -1971,7 +1971,7 @@
           }
         },
         {
-          "tsName": "DefaultNamespace",
+          "tsName": "defaultNamespace",
           "isStatic": false,
           "tsSignatureId": "DefaultNamespace|:System.String|static=false|accessor=get",
           "target": {
@@ -1992,7 +1992,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.XsltException::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData",
+          "tsEmitName": "getObjectData",
           "metadataToken": 100673783,
           "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
@@ -2006,7 +2006,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData$view",
+          "tsEmitName": "getObjectData$view",
           "metadataToken": 100682669,
           "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
@@ -2022,7 +2022,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.XsltException::SourceUri:System.String",
           "clrName": "SourceUri",
-          "tsEmitName": "SourceUri",
+          "tsEmitName": "sourceUri",
           "metadataToken": 385879026,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "SourceUri|:System.String|static=false|accessor=get",
@@ -2036,7 +2036,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.XsltException::LineNumber:System.Int32",
           "clrName": "LineNumber",
-          "tsEmitName": "LineNumber",
+          "tsEmitName": "lineNumber",
           "metadataToken": 385879027,
           "canonicalSignature": ":System.Int32",
           "normalizedSignature": "LineNumber|:System.Int32|static=false|accessor=get",
@@ -2050,7 +2050,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.XsltException::LinePosition:System.Int32",
           "clrName": "LinePosition",
-          "tsEmitName": "LinePosition",
+          "tsEmitName": "linePosition",
           "metadataToken": 385879028,
           "canonicalSignature": ":System.Int32",
           "normalizedSignature": "LinePosition|:System.Int32|static=false|accessor=get",
@@ -2064,7 +2064,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.XsltException::Message:System.String",
           "clrName": "Message",
-          "tsEmitName": "Message",
+          "tsEmitName": "message",
           "metadataToken": 385879029,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "Message|:System.String|static=false|accessor=get",
@@ -2112,7 +2112,7 @@
       ],
       "exposedMethods": [
         {
-          "tsName": "GetObjectData",
+          "tsName": "getObjectData",
           "isStatic": false,
           "tsSignatureId": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "target": {
@@ -2122,7 +2122,7 @@
           }
         },
         {
-          "tsName": "GetObjectData$view",
+          "tsName": "getObjectData$view",
           "isStatic": false,
           "tsSignatureId": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "target": {
@@ -2132,7 +2132,7 @@
           }
         },
         {
-          "tsName": "GetBaseException",
+          "tsName": "getBaseException",
           "isStatic": false,
           "tsSignatureId": "GetBaseException|():System.Exception|static=false",
           "target": {
@@ -2142,7 +2142,7 @@
           }
         },
         {
-          "tsName": "ToString",
+          "tsName": "toString",
           "isStatic": false,
           "tsSignatureId": "ToString|():System.String|static=false",
           "target": {
@@ -2152,7 +2152,7 @@
           }
         },
         {
-          "tsName": "GetType",
+          "tsName": "getType",
           "isStatic": false,
           "tsSignatureId": "GetType|():System.Type|static=false",
           "target": {
@@ -2162,7 +2162,7 @@
           }
         },
         {
-          "tsName": "Equals",
+          "tsName": "equals",
           "isStatic": false,
           "tsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
           "target": {
@@ -2172,7 +2172,7 @@
           }
         },
         {
-          "tsName": "Equals",
+          "tsName": "equals",
           "isStatic": true,
           "tsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
           "target": {
@@ -2182,7 +2182,7 @@
           }
         },
         {
-          "tsName": "ReferenceEquals",
+          "tsName": "referenceEquals",
           "isStatic": true,
           "tsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
           "target": {
@@ -2192,7 +2192,7 @@
           }
         },
         {
-          "tsName": "GetHashCode",
+          "tsName": "getHashCode",
           "isStatic": false,
           "tsSignatureId": "GetHashCode|():System.Int32|static=false",
           "target": {
@@ -2204,7 +2204,7 @@
       ],
       "exposedProperties": [
         {
-          "tsName": "SourceUri",
+          "tsName": "sourceUri",
           "isStatic": false,
           "tsSignatureId": "SourceUri|:System.String|static=false|accessor=get",
           "target": {
@@ -2214,7 +2214,7 @@
           }
         },
         {
-          "tsName": "LineNumber",
+          "tsName": "lineNumber",
           "isStatic": false,
           "tsSignatureId": "LineNumber|:System.Int32|static=false|accessor=get",
           "target": {
@@ -2224,7 +2224,7 @@
           }
         },
         {
-          "tsName": "LinePosition",
+          "tsName": "linePosition",
           "isStatic": false,
           "tsSignatureId": "LinePosition|:System.Int32|static=false|accessor=get",
           "target": {
@@ -2234,7 +2234,7 @@
           }
         },
         {
-          "tsName": "Message",
+          "tsName": "message",
           "isStatic": false,
           "tsSignatureId": "Message|:System.String|static=false|accessor=get",
           "target": {
@@ -2244,7 +2244,7 @@
           }
         },
         {
-          "tsName": "TargetSite",
+          "tsName": "targetSite",
           "isStatic": false,
           "tsSignatureId": "TargetSite|:System.Reflection.MethodBase|static=false|accessor=get",
           "target": {
@@ -2254,7 +2254,7 @@
           }
         },
         {
-          "tsName": "Data",
+          "tsName": "data",
           "isStatic": false,
           "tsSignatureId": "Data|:System.Collections.IDictionary|static=false|accessor=get",
           "target": {
@@ -2264,7 +2264,7 @@
           }
         },
         {
-          "tsName": "InnerException",
+          "tsName": "innerException",
           "isStatic": false,
           "tsSignatureId": "InnerException|:System.Exception|static=false|accessor=get",
           "target": {
@@ -2274,7 +2274,7 @@
           }
         },
         {
-          "tsName": "HelpLink",
+          "tsName": "helpLink",
           "isStatic": false,
           "tsSignatureId": "HelpLink|:System.String|static=false|accessor=getset",
           "target": {
@@ -2284,7 +2284,7 @@
           }
         },
         {
-          "tsName": "Source",
+          "tsName": "source",
           "isStatic": false,
           "tsSignatureId": "Source|:System.String|static=false|accessor=getset",
           "target": {
@@ -2294,7 +2294,7 @@
           }
         },
         {
-          "tsName": "HResult",
+          "tsName": "hResult",
           "isStatic": false,
           "tsSignatureId": "HResult|:System.Int32|static=false|accessor=getset",
           "target": {
@@ -2304,7 +2304,7 @@
           }
         },
         {
-          "tsName": "StackTrace",
+          "tsName": "stackTrace",
           "isStatic": false,
           "tsSignatureId": "StackTrace|:System.String|static=false|accessor=get",
           "target": {
@@ -2355,7 +2355,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.XsltMessageEncounteredEventArgs::Message:System.String",
           "clrName": "Message",
-          "tsEmitName": "Message",
+          "tsEmitName": "message",
           "metadataToken": 385879017,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "Message|:System.String|static=false|accessor=get",
@@ -2372,7 +2372,7 @@
       "constructors": [],
       "exposedMethods": [
         {
-          "tsName": "GetType",
+          "tsName": "getType",
           "isStatic": false,
           "tsSignatureId": "GetType|():System.Type|static=false",
           "target": {
@@ -2382,7 +2382,7 @@
           }
         },
         {
-          "tsName": "ToString",
+          "tsName": "toString",
           "isStatic": false,
           "tsSignatureId": "ToString|():System.String|static=false",
           "target": {
@@ -2392,7 +2392,7 @@
           }
         },
         {
-          "tsName": "Equals",
+          "tsName": "equals",
           "isStatic": false,
           "tsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
           "target": {
@@ -2402,7 +2402,7 @@
           }
         },
         {
-          "tsName": "Equals",
+          "tsName": "equals",
           "isStatic": true,
           "tsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
           "target": {
@@ -2412,7 +2412,7 @@
           }
         },
         {
-          "tsName": "ReferenceEquals",
+          "tsName": "referenceEquals",
           "isStatic": true,
           "tsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
           "target": {
@@ -2422,7 +2422,7 @@
           }
         },
         {
-          "tsName": "GetHashCode",
+          "tsName": "getHashCode",
           "isStatic": false,
           "tsSignatureId": "GetHashCode|():System.Int32|static=false",
           "target": {
@@ -2434,7 +2434,7 @@
       ],
       "exposedProperties": [
         {
-          "tsName": "Message",
+          "tsName": "message",
           "isStatic": false,
           "tsSignatureId": "Message|:System.String|static=false|accessor=get",
           "target": {
@@ -2455,7 +2455,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.XsltMessageEncounteredEventHandler::Invoke(System.Object,System.Xml.Xsl.XsltMessageEncounteredEventArgs):System.Void",
           "clrName": "Invoke",
-          "tsEmitName": "Invoke",
+          "tsEmitName": "invoke",
           "metadataToken": 100673752,
           "canonicalSignature": "(System.Object,System.Xml.Xsl.XsltMessageEncounteredEventArgs):System.Void",
           "normalizedSignature": "Invoke|(System.Object,System.Xml.Xsl.XsltMessageEncounteredEventArgs):System.Void|static=false",
@@ -2469,7 +2469,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.XsltMessageEncounteredEventHandler::BeginInvoke(System.Object,System.Xml.Xsl.XsltMessageEncounteredEventArgs,System.AsyncCallback,System.Object):System.IAsyncResult",
           "clrName": "BeginInvoke",
-          "tsEmitName": "BeginInvoke",
+          "tsEmitName": "beginInvoke",
           "metadataToken": 100673753,
           "canonicalSignature": "(System.Object,System.Xml.Xsl.XsltMessageEncounteredEventArgs,System.AsyncCallback,System.Object):System.IAsyncResult",
           "normalizedSignature": "BeginInvoke|(System.Object,System.Xml.Xsl.XsltMessageEncounteredEventArgs,System.AsyncCallback,System.Object):System.IAsyncResult|static=false",
@@ -2483,7 +2483,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.XsltMessageEncounteredEventHandler::EndInvoke(System.IAsyncResult):System.Void",
           "clrName": "EndInvoke",
-          "tsEmitName": "EndInvoke",
+          "tsEmitName": "endInvoke",
           "metadataToken": 100673754,
           "canonicalSignature": "(System.IAsyncResult):System.Void",
           "normalizedSignature": "EndInvoke|(System.IAsyncResult):System.Void|static=false",
@@ -2497,7 +2497,7 @@
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "Clone$view",
+          "tsEmitName": "clone$view",
           "metadataToken": 100668509,
           "canonicalSignature": "():System.Object",
           "normalizedSignature": "Clone|():System.Object|static=false",
@@ -2511,7 +2511,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData$view",
+          "tsEmitName": "getObjectData$view",
           "metadataToken": 100682669,
           "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
@@ -2525,7 +2525,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.XsltMessageEncounteredEventHandler::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "Clone",
+          "tsEmitName": "clone",
           "metadataToken": 0,
           "canonicalSignature": "():System.Object",
           "normalizedSignature": "Clone|():System.Object|static=false",
@@ -2539,7 +2539,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.XsltMessageEncounteredEventHandler::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData",
+          "tsEmitName": "getObjectData",
           "metadataToken": 0,
           "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
@@ -2568,7 +2568,7 @@
       ],
       "exposedMethods": [
         {
-          "tsName": "Invoke",
+          "tsName": "invoke",
           "isStatic": false,
           "tsSignatureId": "Invoke|(System.Object,System.Xml.Xsl.XsltMessageEncounteredEventArgs):System.Void|static=false",
           "target": {
@@ -2578,7 +2578,7 @@
           }
         },
         {
-          "tsName": "BeginInvoke",
+          "tsName": "beginInvoke",
           "isStatic": false,
           "tsSignatureId": "BeginInvoke|(System.Object,System.Xml.Xsl.XsltMessageEncounteredEventArgs,System.AsyncCallback,System.Object):System.IAsyncResult|static=false",
           "target": {
@@ -2588,7 +2588,7 @@
           }
         },
         {
-          "tsName": "EndInvoke",
+          "tsName": "endInvoke",
           "isStatic": false,
           "tsSignatureId": "EndInvoke|(System.IAsyncResult):System.Void|static=false",
           "target": {
@@ -2598,7 +2598,7 @@
           }
         },
         {
-          "tsName": "Clone$view",
+          "tsName": "clone$view",
           "isStatic": false,
           "tsSignatureId": "Clone|():System.Object|static=false",
           "target": {
@@ -2608,7 +2608,7 @@
           }
         },
         {
-          "tsName": "GetObjectData$view",
+          "tsName": "getObjectData$view",
           "isStatic": false,
           "tsSignatureId": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "target": {
@@ -2618,7 +2618,7 @@
           }
         },
         {
-          "tsName": "Clone",
+          "tsName": "clone",
           "isStatic": false,
           "tsSignatureId": "Clone|():System.Object|static=false",
           "target": {
@@ -2628,7 +2628,7 @@
           }
         },
         {
-          "tsName": "GetObjectData",
+          "tsName": "getObjectData",
           "isStatic": false,
           "tsSignatureId": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "target": {
@@ -2638,7 +2638,7 @@
           }
         },
         {
-          "tsName": "Equals",
+          "tsName": "equals",
           "isStatic": false,
           "tsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
           "target": {
@@ -2648,7 +2648,7 @@
           }
         },
         {
-          "tsName": "GetInvocationList",
+          "tsName": "getInvocationList",
           "isStatic": false,
           "tsSignatureId": "GetInvocationList|():System.Delegate[]|static=false",
           "target": {
@@ -2658,7 +2658,7 @@
           }
         },
         {
-          "tsName": "GetHashCode",
+          "tsName": "getHashCode",
           "isStatic": false,
           "tsSignatureId": "GetHashCode|():System.Int32|static=false",
           "target": {
@@ -2668,7 +2668,7 @@
           }
         },
         {
-          "tsName": "CreateDelegate",
+          "tsName": "createDelegate",
           "isStatic": true,
           "tsSignatureId": "CreateDelegate|(System.Type,System.Object,System.String,System.Boolean,System.Boolean):System.Delegate|static=true",
           "target": {
@@ -2678,7 +2678,7 @@
           }
         },
         {
-          "tsName": "CreateDelegate2",
+          "tsName": "createDelegate2",
           "isStatic": true,
           "tsSignatureId": "CreateDelegate|(System.Type,System.Type,System.String,System.Boolean,System.Boolean):System.Delegate|static=true",
           "target": {
@@ -2688,7 +2688,7 @@
           }
         },
         {
-          "tsName": "CreateDelegate3",
+          "tsName": "createDelegate3",
           "isStatic": true,
           "tsSignatureId": "CreateDelegate|(System.Type,System.Reflection.MethodInfo,System.Boolean):System.Delegate|static=true",
           "target": {
@@ -2698,7 +2698,7 @@
           }
         },
         {
-          "tsName": "CreateDelegate4",
+          "tsName": "createDelegate4",
           "isStatic": true,
           "tsSignatureId": "CreateDelegate|(System.Type,System.Object,System.Reflection.MethodInfo,System.Boolean):System.Delegate|static=true",
           "target": {
@@ -2708,7 +2708,7 @@
           }
         },
         {
-          "tsName": "Combine",
+          "tsName": "combine",
           "isStatic": true,
           "tsSignatureId": "Combine|(System.Delegate,System.Delegate):System.Delegate|static=true",
           "target": {
@@ -2718,7 +2718,7 @@
           }
         },
         {
-          "tsName": "Combine2",
+          "tsName": "combine2",
           "isStatic": true,
           "tsSignatureId": "Combine|(System.Delegate[]):System.Delegate|static=true",
           "target": {
@@ -2728,7 +2728,7 @@
           }
         },
         {
-          "tsName": "Combine3",
+          "tsName": "combine3",
           "isStatic": true,
           "tsSignatureId": "Combine|(System.ReadOnlySpan_1[[System.Delegate,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Delegate|static=true",
           "target": {
@@ -2738,7 +2738,7 @@
           }
         },
         {
-          "tsName": "CreateDelegate5",
+          "tsName": "createDelegate5",
           "isStatic": true,
           "tsSignatureId": "CreateDelegate|(System.Type,System.Object,System.Reflection.MethodInfo):System.Delegate|static=true",
           "target": {
@@ -2748,7 +2748,7 @@
           }
         },
         {
-          "tsName": "CreateDelegate6",
+          "tsName": "createDelegate6",
           "isStatic": true,
           "tsSignatureId": "CreateDelegate|(System.Type,System.Reflection.MethodInfo):System.Delegate|static=true",
           "target": {
@@ -2758,7 +2758,7 @@
           }
         },
         {
-          "tsName": "CreateDelegate7",
+          "tsName": "createDelegate7",
           "isStatic": true,
           "tsSignatureId": "CreateDelegate|(System.Type,System.Object,System.String):System.Delegate|static=true",
           "target": {
@@ -2768,7 +2768,7 @@
           }
         },
         {
-          "tsName": "CreateDelegate8",
+          "tsName": "createDelegate8",
           "isStatic": true,
           "tsSignatureId": "CreateDelegate|(System.Type,System.Object,System.String,System.Boolean):System.Delegate|static=true",
           "target": {
@@ -2778,7 +2778,7 @@
           }
         },
         {
-          "tsName": "CreateDelegate9",
+          "tsName": "createDelegate9",
           "isStatic": true,
           "tsSignatureId": "CreateDelegate|(System.Type,System.Type,System.String):System.Delegate|static=true",
           "target": {
@@ -2788,7 +2788,7 @@
           }
         },
         {
-          "tsName": "CreateDelegate10",
+          "tsName": "createDelegate10",
           "isStatic": true,
           "tsSignatureId": "CreateDelegate|(System.Type,System.Type,System.String,System.Boolean):System.Delegate|static=true",
           "target": {
@@ -2798,7 +2798,7 @@
           }
         },
         {
-          "tsName": "EnumerateInvocationList",
+          "tsName": "enumerateInvocationList",
           "isStatic": true,
           "tsSignatureId": "EnumerateInvocationList|(TDelegate):InvocationListEnumerator_1|static=true",
           "target": {
@@ -2808,7 +2808,7 @@
           }
         },
         {
-          "tsName": "DynamicInvoke",
+          "tsName": "dynamicInvoke",
           "isStatic": false,
           "tsSignatureId": "DynamicInvoke|(System.Object[]):System.Object|static=false",
           "target": {
@@ -2818,7 +2818,7 @@
           }
         },
         {
-          "tsName": "Remove",
+          "tsName": "remove",
           "isStatic": true,
           "tsSignatureId": "Remove|(System.Delegate,System.Delegate):System.Delegate|static=true",
           "target": {
@@ -2828,7 +2828,7 @@
           }
         },
         {
-          "tsName": "RemoveAll",
+          "tsName": "removeAll",
           "isStatic": true,
           "tsSignatureId": "RemoveAll|(System.Delegate,System.Delegate):System.Delegate|static=true",
           "target": {
@@ -2838,7 +2838,7 @@
           }
         },
         {
-          "tsName": "GetType",
+          "tsName": "getType",
           "isStatic": false,
           "tsSignatureId": "GetType|():System.Type|static=false",
           "target": {
@@ -2848,7 +2848,7 @@
           }
         },
         {
-          "tsName": "ToString",
+          "tsName": "toString",
           "isStatic": false,
           "tsSignatureId": "ToString|():System.String|static=false",
           "target": {
@@ -2858,7 +2858,7 @@
           }
         },
         {
-          "tsName": "Equals",
+          "tsName": "equals",
           "isStatic": true,
           "tsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
           "target": {
@@ -2868,7 +2868,7 @@
           }
         },
         {
-          "tsName": "ReferenceEquals",
+          "tsName": "referenceEquals",
           "isStatic": true,
           "tsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
           "target": {
@@ -2880,7 +2880,7 @@
       ],
       "exposedProperties": [
         {
-          "tsName": "Target",
+          "tsName": "target",
           "isStatic": false,
           "tsSignatureId": "Target|:System.Object|static=false|accessor=get",
           "target": {
@@ -2890,7 +2890,7 @@
           }
         },
         {
-          "tsName": "HasSingleTarget",
+          "tsName": "hasSingleTarget",
           "isStatic": false,
           "tsSignatureId": "HasSingleTarget|:System.Boolean|static=false|accessor=get",
           "target": {
@@ -2900,7 +2900,7 @@
           }
         },
         {
-          "tsName": "Method",
+          "tsName": "method",
           "isStatic": false,
           "tsSignatureId": "Method|:System.Reflection.MethodInfo|static=false|accessor=get",
           "target": {
@@ -2932,7 +2932,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.XslTransform::Load(System.Xml.XmlReader):System.Void",
           "clrName": "Load",
-          "tsEmitName": "Load",
+          "tsEmitName": "load",
           "metadataToken": 100673805,
           "canonicalSignature": "(System.Xml.XmlReader):System.Void",
           "normalizedSignature": "Load|(System.Xml.XmlReader):System.Void|static=false",
@@ -2946,7 +2946,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.XslTransform::Load(System.Xml.XmlReader,System.Xml.XmlResolver):System.Void",
           "clrName": "Load",
-          "tsEmitName": "Load2",
+          "tsEmitName": "load2",
           "metadataToken": 100673806,
           "canonicalSignature": "(System.Xml.XmlReader,System.Xml.XmlResolver):System.Void",
           "normalizedSignature": "Load|(System.Xml.XmlReader,System.Xml.XmlResolver):System.Void|static=false",
@@ -2960,7 +2960,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.XslTransform::Load(System.Xml.XPath.IXPathNavigable):System.Void",
           "clrName": "Load",
-          "tsEmitName": "Load3",
+          "tsEmitName": "load3",
           "metadataToken": 100673807,
           "canonicalSignature": "(System.Xml.XPath.IXPathNavigable):System.Void",
           "normalizedSignature": "Load|(System.Xml.XPath.IXPathNavigable):System.Void|static=false",
@@ -2974,7 +2974,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.XslTransform::Load(System.Xml.XPath.IXPathNavigable,System.Xml.XmlResolver):System.Void",
           "clrName": "Load",
-          "tsEmitName": "Load4",
+          "tsEmitName": "load4",
           "metadataToken": 100673808,
           "canonicalSignature": "(System.Xml.XPath.IXPathNavigable,System.Xml.XmlResolver):System.Void",
           "normalizedSignature": "Load|(System.Xml.XPath.IXPathNavigable,System.Xml.XmlResolver):System.Void|static=false",
@@ -2988,7 +2988,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.XslTransform::Load(System.Xml.XPath.XPathNavigator):System.Void",
           "clrName": "Load",
-          "tsEmitName": "Load5",
+          "tsEmitName": "load5",
           "metadataToken": 100673809,
           "canonicalSignature": "(System.Xml.XPath.XPathNavigator):System.Void",
           "normalizedSignature": "Load|(System.Xml.XPath.XPathNavigator):System.Void|static=false",
@@ -3002,7 +3002,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.XslTransform::Load(System.Xml.XPath.XPathNavigator,System.Xml.XmlResolver):System.Void",
           "clrName": "Load",
-          "tsEmitName": "Load6",
+          "tsEmitName": "load6",
           "metadataToken": 100673810,
           "canonicalSignature": "(System.Xml.XPath.XPathNavigator,System.Xml.XmlResolver):System.Void",
           "normalizedSignature": "Load|(System.Xml.XPath.XPathNavigator,System.Xml.XmlResolver):System.Void|static=false",
@@ -3016,7 +3016,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.XslTransform::Load(System.String):System.Void",
           "clrName": "Load",
-          "tsEmitName": "Load7",
+          "tsEmitName": "load7",
           "metadataToken": 100673811,
           "canonicalSignature": "(System.String):System.Void",
           "normalizedSignature": "Load|(System.String):System.Void|static=false",
@@ -3030,7 +3030,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.XslTransform::Load(System.String,System.Xml.XmlResolver):System.Void",
           "clrName": "Load",
-          "tsEmitName": "Load8",
+          "tsEmitName": "load8",
           "metadataToken": 100673812,
           "canonicalSignature": "(System.String,System.Xml.XmlResolver):System.Void",
           "normalizedSignature": "Load|(System.String,System.Xml.XmlResolver):System.Void|static=false",
@@ -3044,7 +3044,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.XslTransform::Transform(System.Xml.XPath.XPathNavigator,System.Xml.Xsl.XsltArgumentList,System.Xml.XmlResolver):System.Xml.XmlReader",
           "clrName": "Transform",
-          "tsEmitName": "Transform",
+          "tsEmitName": "transform",
           "metadataToken": 100673814,
           "canonicalSignature": "(System.Xml.XPath.XPathNavigator,System.Xml.Xsl.XsltArgumentList,System.Xml.XmlResolver):System.Xml.XmlReader",
           "normalizedSignature": "Transform|(System.Xml.XPath.XPathNavigator,System.Xml.Xsl.XsltArgumentList,System.Xml.XmlResolver):System.Xml.XmlReader|static=false",
@@ -3058,7 +3058,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.XslTransform::Transform(System.Xml.XPath.XPathNavigator,System.Xml.Xsl.XsltArgumentList):System.Xml.XmlReader",
           "clrName": "Transform",
-          "tsEmitName": "Transform2",
+          "tsEmitName": "transform2",
           "metadataToken": 100673815,
           "canonicalSignature": "(System.Xml.XPath.XPathNavigator,System.Xml.Xsl.XsltArgumentList):System.Xml.XmlReader",
           "normalizedSignature": "Transform|(System.Xml.XPath.XPathNavigator,System.Xml.Xsl.XsltArgumentList):System.Xml.XmlReader|static=false",
@@ -3072,7 +3072,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.XslTransform::Transform(System.Xml.XPath.XPathNavigator,System.Xml.Xsl.XsltArgumentList,System.Xml.XmlWriter,System.Xml.XmlResolver):System.Void",
           "clrName": "Transform",
-          "tsEmitName": "Transform3",
+          "tsEmitName": "transform3",
           "metadataToken": 100673816,
           "canonicalSignature": "(System.Xml.XPath.XPathNavigator,System.Xml.Xsl.XsltArgumentList,System.Xml.XmlWriter,System.Xml.XmlResolver):System.Void",
           "normalizedSignature": "Transform|(System.Xml.XPath.XPathNavigator,System.Xml.Xsl.XsltArgumentList,System.Xml.XmlWriter,System.Xml.XmlResolver):System.Void|static=false",
@@ -3086,7 +3086,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.XslTransform::Transform(System.Xml.XPath.XPathNavigator,System.Xml.Xsl.XsltArgumentList,System.Xml.XmlWriter):System.Void",
           "clrName": "Transform",
-          "tsEmitName": "Transform4",
+          "tsEmitName": "transform4",
           "metadataToken": 100673817,
           "canonicalSignature": "(System.Xml.XPath.XPathNavigator,System.Xml.Xsl.XsltArgumentList,System.Xml.XmlWriter):System.Void",
           "normalizedSignature": "Transform|(System.Xml.XPath.XPathNavigator,System.Xml.Xsl.XsltArgumentList,System.Xml.XmlWriter):System.Void|static=false",
@@ -3100,7 +3100,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.XslTransform::Transform(System.Xml.XPath.XPathNavigator,System.Xml.Xsl.XsltArgumentList,System.IO.Stream,System.Xml.XmlResolver):System.Void",
           "clrName": "Transform",
-          "tsEmitName": "Transform5",
+          "tsEmitName": "transform5",
           "metadataToken": 100673818,
           "canonicalSignature": "(System.Xml.XPath.XPathNavigator,System.Xml.Xsl.XsltArgumentList,System.IO.Stream,System.Xml.XmlResolver):System.Void",
           "normalizedSignature": "Transform|(System.Xml.XPath.XPathNavigator,System.Xml.Xsl.XsltArgumentList,System.IO.Stream,System.Xml.XmlResolver):System.Void|static=false",
@@ -3114,7 +3114,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.XslTransform::Transform(System.Xml.XPath.XPathNavigator,System.Xml.Xsl.XsltArgumentList,System.IO.Stream):System.Void",
           "clrName": "Transform",
-          "tsEmitName": "Transform6",
+          "tsEmitName": "transform6",
           "metadataToken": 100673819,
           "canonicalSignature": "(System.Xml.XPath.XPathNavigator,System.Xml.Xsl.XsltArgumentList,System.IO.Stream):System.Void",
           "normalizedSignature": "Transform|(System.Xml.XPath.XPathNavigator,System.Xml.Xsl.XsltArgumentList,System.IO.Stream):System.Void|static=false",
@@ -3128,7 +3128,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.XslTransform::Transform(System.Xml.XPath.XPathNavigator,System.Xml.Xsl.XsltArgumentList,System.IO.TextWriter,System.Xml.XmlResolver):System.Void",
           "clrName": "Transform",
-          "tsEmitName": "Transform7",
+          "tsEmitName": "transform7",
           "metadataToken": 100673820,
           "canonicalSignature": "(System.Xml.XPath.XPathNavigator,System.Xml.Xsl.XsltArgumentList,System.IO.TextWriter,System.Xml.XmlResolver):System.Void",
           "normalizedSignature": "Transform|(System.Xml.XPath.XPathNavigator,System.Xml.Xsl.XsltArgumentList,System.IO.TextWriter,System.Xml.XmlResolver):System.Void|static=false",
@@ -3142,7 +3142,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.XslTransform::Transform(System.Xml.XPath.XPathNavigator,System.Xml.Xsl.XsltArgumentList,System.IO.TextWriter):System.Void",
           "clrName": "Transform",
-          "tsEmitName": "Transform8",
+          "tsEmitName": "transform8",
           "metadataToken": 100673821,
           "canonicalSignature": "(System.Xml.XPath.XPathNavigator,System.Xml.Xsl.XsltArgumentList,System.IO.TextWriter):System.Void",
           "normalizedSignature": "Transform|(System.Xml.XPath.XPathNavigator,System.Xml.Xsl.XsltArgumentList,System.IO.TextWriter):System.Void|static=false",
@@ -3156,7 +3156,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.XslTransform::Transform(System.Xml.XPath.IXPathNavigable,System.Xml.Xsl.XsltArgumentList,System.Xml.XmlResolver):System.Xml.XmlReader",
           "clrName": "Transform",
-          "tsEmitName": "Transform9",
+          "tsEmitName": "transform9",
           "metadataToken": 100673822,
           "canonicalSignature": "(System.Xml.XPath.IXPathNavigable,System.Xml.Xsl.XsltArgumentList,System.Xml.XmlResolver):System.Xml.XmlReader",
           "normalizedSignature": "Transform|(System.Xml.XPath.IXPathNavigable,System.Xml.Xsl.XsltArgumentList,System.Xml.XmlResolver):System.Xml.XmlReader|static=false",
@@ -3170,7 +3170,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.XslTransform::Transform(System.Xml.XPath.IXPathNavigable,System.Xml.Xsl.XsltArgumentList):System.Xml.XmlReader",
           "clrName": "Transform",
-          "tsEmitName": "Transform10",
+          "tsEmitName": "transform10",
           "metadataToken": 100673823,
           "canonicalSignature": "(System.Xml.XPath.IXPathNavigable,System.Xml.Xsl.XsltArgumentList):System.Xml.XmlReader",
           "normalizedSignature": "Transform|(System.Xml.XPath.IXPathNavigable,System.Xml.Xsl.XsltArgumentList):System.Xml.XmlReader|static=false",
@@ -3184,7 +3184,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.XslTransform::Transform(System.Xml.XPath.IXPathNavigable,System.Xml.Xsl.XsltArgumentList,System.IO.TextWriter,System.Xml.XmlResolver):System.Void",
           "clrName": "Transform",
-          "tsEmitName": "Transform11",
+          "tsEmitName": "transform11",
           "metadataToken": 100673824,
           "canonicalSignature": "(System.Xml.XPath.IXPathNavigable,System.Xml.Xsl.XsltArgumentList,System.IO.TextWriter,System.Xml.XmlResolver):System.Void",
           "normalizedSignature": "Transform|(System.Xml.XPath.IXPathNavigable,System.Xml.Xsl.XsltArgumentList,System.IO.TextWriter,System.Xml.XmlResolver):System.Void|static=false",
@@ -3198,7 +3198,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.XslTransform::Transform(System.Xml.XPath.IXPathNavigable,System.Xml.Xsl.XsltArgumentList,System.IO.TextWriter):System.Void",
           "clrName": "Transform",
-          "tsEmitName": "Transform12",
+          "tsEmitName": "transform12",
           "metadataToken": 100673825,
           "canonicalSignature": "(System.Xml.XPath.IXPathNavigable,System.Xml.Xsl.XsltArgumentList,System.IO.TextWriter):System.Void",
           "normalizedSignature": "Transform|(System.Xml.XPath.IXPathNavigable,System.Xml.Xsl.XsltArgumentList,System.IO.TextWriter):System.Void|static=false",
@@ -3212,7 +3212,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.XslTransform::Transform(System.Xml.XPath.IXPathNavigable,System.Xml.Xsl.XsltArgumentList,System.IO.Stream,System.Xml.XmlResolver):System.Void",
           "clrName": "Transform",
-          "tsEmitName": "Transform13",
+          "tsEmitName": "transform13",
           "metadataToken": 100673826,
           "canonicalSignature": "(System.Xml.XPath.IXPathNavigable,System.Xml.Xsl.XsltArgumentList,System.IO.Stream,System.Xml.XmlResolver):System.Void",
           "normalizedSignature": "Transform|(System.Xml.XPath.IXPathNavigable,System.Xml.Xsl.XsltArgumentList,System.IO.Stream,System.Xml.XmlResolver):System.Void|static=false",
@@ -3226,7 +3226,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.XslTransform::Transform(System.Xml.XPath.IXPathNavigable,System.Xml.Xsl.XsltArgumentList,System.IO.Stream):System.Void",
           "clrName": "Transform",
-          "tsEmitName": "Transform14",
+          "tsEmitName": "transform14",
           "metadataToken": 100673827,
           "canonicalSignature": "(System.Xml.XPath.IXPathNavigable,System.Xml.Xsl.XsltArgumentList,System.IO.Stream):System.Void",
           "normalizedSignature": "Transform|(System.Xml.XPath.IXPathNavigable,System.Xml.Xsl.XsltArgumentList,System.IO.Stream):System.Void|static=false",
@@ -3240,7 +3240,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.XslTransform::Transform(System.Xml.XPath.IXPathNavigable,System.Xml.Xsl.XsltArgumentList,System.Xml.XmlWriter,System.Xml.XmlResolver):System.Void",
           "clrName": "Transform",
-          "tsEmitName": "Transform15",
+          "tsEmitName": "transform15",
           "metadataToken": 100673828,
           "canonicalSignature": "(System.Xml.XPath.IXPathNavigable,System.Xml.Xsl.XsltArgumentList,System.Xml.XmlWriter,System.Xml.XmlResolver):System.Void",
           "normalizedSignature": "Transform|(System.Xml.XPath.IXPathNavigable,System.Xml.Xsl.XsltArgumentList,System.Xml.XmlWriter,System.Xml.XmlResolver):System.Void|static=false",
@@ -3254,7 +3254,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.XslTransform::Transform(System.Xml.XPath.IXPathNavigable,System.Xml.Xsl.XsltArgumentList,System.Xml.XmlWriter):System.Void",
           "clrName": "Transform",
-          "tsEmitName": "Transform16",
+          "tsEmitName": "transform16",
           "metadataToken": 100673829,
           "canonicalSignature": "(System.Xml.XPath.IXPathNavigable,System.Xml.Xsl.XsltArgumentList,System.Xml.XmlWriter):System.Void",
           "normalizedSignature": "Transform|(System.Xml.XPath.IXPathNavigable,System.Xml.Xsl.XsltArgumentList,System.Xml.XmlWriter):System.Void|static=false",
@@ -3268,7 +3268,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.XslTransform::Transform(System.String,System.String,System.Xml.XmlResolver):System.Void",
           "clrName": "Transform",
-          "tsEmitName": "Transform17",
+          "tsEmitName": "transform17",
           "metadataToken": 100673830,
           "canonicalSignature": "(System.String,System.String,System.Xml.XmlResolver):System.Void",
           "normalizedSignature": "Transform|(System.String,System.String,System.Xml.XmlResolver):System.Void|static=false",
@@ -3282,7 +3282,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.XslTransform::Transform(System.String,System.String):System.Void",
           "clrName": "Transform",
-          "tsEmitName": "Transform18",
+          "tsEmitName": "transform18",
           "metadataToken": 100673831,
           "canonicalSignature": "(System.String,System.String):System.Void",
           "normalizedSignature": "Transform|(System.String,System.String):System.Void|static=false",
@@ -3298,7 +3298,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.XslTransform::XmlResolver:System.Xml.XmlResolver",
           "clrName": "XmlResolver",
-          "tsEmitName": "XmlResolver",
+          "tsEmitName": "xmlResolver",
           "metadataToken": 385879031,
           "canonicalSignature": ":System.Xml.XmlResolver",
           "normalizedSignature": "XmlResolver|:System.Xml.XmlResolver|static=false|accessor=set",
@@ -3326,7 +3326,7 @@
       ],
       "exposedMethods": [
         {
-          "tsName": "Load",
+          "tsName": "load",
           "isStatic": false,
           "tsSignatureId": "Load|(System.Xml.XmlReader):System.Void|static=false",
           "target": {
@@ -3336,7 +3336,7 @@
           }
         },
         {
-          "tsName": "Load2",
+          "tsName": "load2",
           "isStatic": false,
           "tsSignatureId": "Load|(System.Xml.XmlReader,System.Xml.XmlResolver):System.Void|static=false",
           "target": {
@@ -3346,7 +3346,7 @@
           }
         },
         {
-          "tsName": "Load3",
+          "tsName": "load3",
           "isStatic": false,
           "tsSignatureId": "Load|(System.Xml.XPath.IXPathNavigable):System.Void|static=false",
           "target": {
@@ -3356,7 +3356,7 @@
           }
         },
         {
-          "tsName": "Load4",
+          "tsName": "load4",
           "isStatic": false,
           "tsSignatureId": "Load|(System.Xml.XPath.IXPathNavigable,System.Xml.XmlResolver):System.Void|static=false",
           "target": {
@@ -3366,7 +3366,7 @@
           }
         },
         {
-          "tsName": "Load5",
+          "tsName": "load5",
           "isStatic": false,
           "tsSignatureId": "Load|(System.Xml.XPath.XPathNavigator):System.Void|static=false",
           "target": {
@@ -3376,7 +3376,7 @@
           }
         },
         {
-          "tsName": "Load6",
+          "tsName": "load6",
           "isStatic": false,
           "tsSignatureId": "Load|(System.Xml.XPath.XPathNavigator,System.Xml.XmlResolver):System.Void|static=false",
           "target": {
@@ -3386,7 +3386,7 @@
           }
         },
         {
-          "tsName": "Load7",
+          "tsName": "load7",
           "isStatic": false,
           "tsSignatureId": "Load|(System.String):System.Void|static=false",
           "target": {
@@ -3396,7 +3396,7 @@
           }
         },
         {
-          "tsName": "Load8",
+          "tsName": "load8",
           "isStatic": false,
           "tsSignatureId": "Load|(System.String,System.Xml.XmlResolver):System.Void|static=false",
           "target": {
@@ -3406,7 +3406,7 @@
           }
         },
         {
-          "tsName": "Transform",
+          "tsName": "transform",
           "isStatic": false,
           "tsSignatureId": "Transform|(System.Xml.XPath.XPathNavigator,System.Xml.Xsl.XsltArgumentList,System.Xml.XmlResolver):System.Xml.XmlReader|static=false",
           "target": {
@@ -3416,7 +3416,7 @@
           }
         },
         {
-          "tsName": "Transform2",
+          "tsName": "transform2",
           "isStatic": false,
           "tsSignatureId": "Transform|(System.Xml.XPath.XPathNavigator,System.Xml.Xsl.XsltArgumentList):System.Xml.XmlReader|static=false",
           "target": {
@@ -3426,7 +3426,7 @@
           }
         },
         {
-          "tsName": "Transform3",
+          "tsName": "transform3",
           "isStatic": false,
           "tsSignatureId": "Transform|(System.Xml.XPath.XPathNavigator,System.Xml.Xsl.XsltArgumentList,System.Xml.XmlWriter,System.Xml.XmlResolver):System.Void|static=false",
           "target": {
@@ -3436,7 +3436,7 @@
           }
         },
         {
-          "tsName": "Transform4",
+          "tsName": "transform4",
           "isStatic": false,
           "tsSignatureId": "Transform|(System.Xml.XPath.XPathNavigator,System.Xml.Xsl.XsltArgumentList,System.Xml.XmlWriter):System.Void|static=false",
           "target": {
@@ -3446,7 +3446,7 @@
           }
         },
         {
-          "tsName": "Transform5",
+          "tsName": "transform5",
           "isStatic": false,
           "tsSignatureId": "Transform|(System.Xml.XPath.XPathNavigator,System.Xml.Xsl.XsltArgumentList,System.IO.Stream,System.Xml.XmlResolver):System.Void|static=false",
           "target": {
@@ -3456,7 +3456,7 @@
           }
         },
         {
-          "tsName": "Transform6",
+          "tsName": "transform6",
           "isStatic": false,
           "tsSignatureId": "Transform|(System.Xml.XPath.XPathNavigator,System.Xml.Xsl.XsltArgumentList,System.IO.Stream):System.Void|static=false",
           "target": {
@@ -3466,7 +3466,7 @@
           }
         },
         {
-          "tsName": "Transform7",
+          "tsName": "transform7",
           "isStatic": false,
           "tsSignatureId": "Transform|(System.Xml.XPath.XPathNavigator,System.Xml.Xsl.XsltArgumentList,System.IO.TextWriter,System.Xml.XmlResolver):System.Void|static=false",
           "target": {
@@ -3476,7 +3476,7 @@
           }
         },
         {
-          "tsName": "Transform8",
+          "tsName": "transform8",
           "isStatic": false,
           "tsSignatureId": "Transform|(System.Xml.XPath.XPathNavigator,System.Xml.Xsl.XsltArgumentList,System.IO.TextWriter):System.Void|static=false",
           "target": {
@@ -3486,7 +3486,7 @@
           }
         },
         {
-          "tsName": "Transform9",
+          "tsName": "transform9",
           "isStatic": false,
           "tsSignatureId": "Transform|(System.Xml.XPath.IXPathNavigable,System.Xml.Xsl.XsltArgumentList,System.Xml.XmlResolver):System.Xml.XmlReader|static=false",
           "target": {
@@ -3496,7 +3496,7 @@
           }
         },
         {
-          "tsName": "Transform10",
+          "tsName": "transform10",
           "isStatic": false,
           "tsSignatureId": "Transform|(System.Xml.XPath.IXPathNavigable,System.Xml.Xsl.XsltArgumentList):System.Xml.XmlReader|static=false",
           "target": {
@@ -3506,7 +3506,7 @@
           }
         },
         {
-          "tsName": "Transform11",
+          "tsName": "transform11",
           "isStatic": false,
           "tsSignatureId": "Transform|(System.Xml.XPath.IXPathNavigable,System.Xml.Xsl.XsltArgumentList,System.IO.TextWriter,System.Xml.XmlResolver):System.Void|static=false",
           "target": {
@@ -3516,7 +3516,7 @@
           }
         },
         {
-          "tsName": "Transform12",
+          "tsName": "transform12",
           "isStatic": false,
           "tsSignatureId": "Transform|(System.Xml.XPath.IXPathNavigable,System.Xml.Xsl.XsltArgumentList,System.IO.TextWriter):System.Void|static=false",
           "target": {
@@ -3526,7 +3526,7 @@
           }
         },
         {
-          "tsName": "Transform13",
+          "tsName": "transform13",
           "isStatic": false,
           "tsSignatureId": "Transform|(System.Xml.XPath.IXPathNavigable,System.Xml.Xsl.XsltArgumentList,System.IO.Stream,System.Xml.XmlResolver):System.Void|static=false",
           "target": {
@@ -3536,7 +3536,7 @@
           }
         },
         {
-          "tsName": "Transform14",
+          "tsName": "transform14",
           "isStatic": false,
           "tsSignatureId": "Transform|(System.Xml.XPath.IXPathNavigable,System.Xml.Xsl.XsltArgumentList,System.IO.Stream):System.Void|static=false",
           "target": {
@@ -3546,7 +3546,7 @@
           }
         },
         {
-          "tsName": "Transform15",
+          "tsName": "transform15",
           "isStatic": false,
           "tsSignatureId": "Transform|(System.Xml.XPath.IXPathNavigable,System.Xml.Xsl.XsltArgumentList,System.Xml.XmlWriter,System.Xml.XmlResolver):System.Void|static=false",
           "target": {
@@ -3556,7 +3556,7 @@
           }
         },
         {
-          "tsName": "Transform16",
+          "tsName": "transform16",
           "isStatic": false,
           "tsSignatureId": "Transform|(System.Xml.XPath.IXPathNavigable,System.Xml.Xsl.XsltArgumentList,System.Xml.XmlWriter):System.Void|static=false",
           "target": {
@@ -3566,7 +3566,7 @@
           }
         },
         {
-          "tsName": "Transform17",
+          "tsName": "transform17",
           "isStatic": false,
           "tsSignatureId": "Transform|(System.String,System.String,System.Xml.XmlResolver):System.Void|static=false",
           "target": {
@@ -3576,7 +3576,7 @@
           }
         },
         {
-          "tsName": "Transform18",
+          "tsName": "transform18",
           "isStatic": false,
           "tsSignatureId": "Transform|(System.String,System.String):System.Void|static=false",
           "target": {
@@ -3586,7 +3586,7 @@
           }
         },
         {
-          "tsName": "GetType",
+          "tsName": "getType",
           "isStatic": false,
           "tsSignatureId": "GetType|():System.Type|static=false",
           "target": {
@@ -3596,7 +3596,7 @@
           }
         },
         {
-          "tsName": "ToString",
+          "tsName": "toString",
           "isStatic": false,
           "tsSignatureId": "ToString|():System.String|static=false",
           "target": {
@@ -3606,7 +3606,7 @@
           }
         },
         {
-          "tsName": "Equals",
+          "tsName": "equals",
           "isStatic": false,
           "tsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
           "target": {
@@ -3616,7 +3616,7 @@
           }
         },
         {
-          "tsName": "Equals",
+          "tsName": "equals",
           "isStatic": true,
           "tsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
           "target": {
@@ -3626,7 +3626,7 @@
           }
         },
         {
-          "tsName": "ReferenceEquals",
+          "tsName": "referenceEquals",
           "isStatic": true,
           "tsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
           "target": {
@@ -3636,7 +3636,7 @@
           }
         },
         {
-          "tsName": "GetHashCode",
+          "tsName": "getHashCode",
           "isStatic": false,
           "tsSignatureId": "GetHashCode|():System.Int32|static=false",
           "target": {
@@ -3648,7 +3648,7 @@
       ],
       "exposedProperties": [
         {
-          "tsName": "XmlResolver",
+          "tsName": "xmlResolver",
           "isStatic": false,
           "tsSignatureId": "XmlResolver|:System.Xml.XmlResolver|static=false|accessor=set",
           "target": {
@@ -3681,7 +3681,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.XsltSettings::Default:System.Xml.Xsl.XsltSettings",
           "clrName": "Default",
-          "tsEmitName": "Default",
+          "tsEmitName": "default_",
           "metadataToken": 385879032,
           "canonicalSignature": ":System.Xml.Xsl.XsltSettings",
           "normalizedSignature": "Default|:System.Xml.Xsl.XsltSettings|static=true|accessor=get",
@@ -3695,7 +3695,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.XsltSettings::TrustedXslt:System.Xml.Xsl.XsltSettings",
           "clrName": "TrustedXslt",
-          "tsEmitName": "TrustedXslt",
+          "tsEmitName": "trustedXslt",
           "metadataToken": 385879033,
           "canonicalSignature": ":System.Xml.Xsl.XsltSettings",
           "normalizedSignature": "TrustedXslt|:System.Xml.Xsl.XsltSettings|static=true|accessor=get",
@@ -3709,7 +3709,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.XsltSettings::EnableDocumentFunction:System.Boolean",
           "clrName": "EnableDocumentFunction",
-          "tsEmitName": "EnableDocumentFunction",
+          "tsEmitName": "enableDocumentFunction",
           "metadataToken": 385879034,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "EnableDocumentFunction|:System.Boolean|static=false|accessor=getset",
@@ -3723,7 +3723,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.XsltSettings::EnableScript:System.Boolean",
           "clrName": "EnableScript",
-          "tsEmitName": "EnableScript",
+          "tsEmitName": "enableScript",
           "metadataToken": 385879035,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "EnableScript|:System.Boolean|static=false|accessor=getset",
@@ -3761,7 +3761,7 @@
       ],
       "exposedMethods": [
         {
-          "tsName": "GetType",
+          "tsName": "getType",
           "isStatic": false,
           "tsSignatureId": "GetType|():System.Type|static=false",
           "target": {
@@ -3771,7 +3771,7 @@
           }
         },
         {
-          "tsName": "ToString",
+          "tsName": "toString",
           "isStatic": false,
           "tsSignatureId": "ToString|():System.String|static=false",
           "target": {
@@ -3781,7 +3781,7 @@
           }
         },
         {
-          "tsName": "Equals",
+          "tsName": "equals",
           "isStatic": false,
           "tsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
           "target": {
@@ -3791,7 +3791,7 @@
           }
         },
         {
-          "tsName": "Equals",
+          "tsName": "equals",
           "isStatic": true,
           "tsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
           "target": {
@@ -3801,7 +3801,7 @@
           }
         },
         {
-          "tsName": "ReferenceEquals",
+          "tsName": "referenceEquals",
           "isStatic": true,
           "tsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
           "target": {
@@ -3811,7 +3811,7 @@
           }
         },
         {
-          "tsName": "GetHashCode",
+          "tsName": "getHashCode",
           "isStatic": false,
           "tsSignatureId": "GetHashCode|():System.Int32|static=false",
           "target": {
@@ -3823,7 +3823,7 @@
       ],
       "exposedProperties": [
         {
-          "tsName": "Default",
+          "tsName": "default_",
           "isStatic": true,
           "tsSignatureId": "Default|:System.Xml.Xsl.XsltSettings|static=true|accessor=get",
           "target": {
@@ -3833,7 +3833,7 @@
           }
         },
         {
-          "tsName": "TrustedXslt",
+          "tsName": "trustedXslt",
           "isStatic": true,
           "tsSignatureId": "TrustedXslt|:System.Xml.Xsl.XsltSettings|static=true|accessor=get",
           "target": {
@@ -3843,7 +3843,7 @@
           }
         },
         {
-          "tsName": "EnableDocumentFunction",
+          "tsName": "enableDocumentFunction",
           "isStatic": false,
           "tsSignatureId": "EnableDocumentFunction|:System.Boolean|static=false|accessor=getset",
           "target": {
@@ -3853,7 +3853,7 @@
           }
         },
         {
-          "tsName": "EnableScript",
+          "tsName": "enableScript",
           "isStatic": false,
           "tsSignatureId": "EnableScript|:System.Boolean|static=false|accessor=getset",
           "target": {

@@ -3,11 +3,9 @@
   "version": "0.6.0",
   "description": "TypeScript type definitions for .NET 10 BCL (Base Class Library)",
   "type": "module",
-  "files": [
-    "**/*.d.ts",
-    "**/*.json",
-    "!node_modules"
-  ],
+  "scripts": {
+    "generate": "./scripts/generate.sh"
+  },
   "keywords": [
     "dotnet",
     "typescript",

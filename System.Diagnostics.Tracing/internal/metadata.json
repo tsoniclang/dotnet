@@ -29,7 +29,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventActivityOptions::NoneSystem.Diagnostics.Tracing.EventActivityOptions",
           "clrName": "None",
-          "tsEmitName": "None",
+          "tsEmitName": "none",
           "normalizedSignature": "None|System.Diagnostics.Tracing.EventActivityOptions|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -38,7 +38,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventActivityOptions::DisableSystem.Diagnostics.Tracing.EventActivityOptions",
           "clrName": "Disable",
-          "tsEmitName": "Disable",
+          "tsEmitName": "disable",
           "normalizedSignature": "Disable|System.Diagnostics.Tracing.EventActivityOptions|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -47,7 +47,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventActivityOptions::RecursiveSystem.Diagnostics.Tracing.EventActivityOptions",
           "clrName": "Recursive",
-          "tsEmitName": "Recursive",
+          "tsEmitName": "recursive",
           "normalizedSignature": "Recursive|System.Diagnostics.Tracing.EventActivityOptions|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -56,7 +56,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventActivityOptions::DetachableSystem.Diagnostics.Tracing.EventActivityOptions",
           "clrName": "Detachable",
-          "tsEmitName": "Detachable",
+          "tsEmitName": "detachable",
           "normalizedSignature": "Detachable|System.Diagnostics.Tracing.EventActivityOptions|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -91,7 +91,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventChannel::NoneSystem.Diagnostics.Tracing.EventChannel",
           "clrName": "None",
-          "tsEmitName": "None",
+          "tsEmitName": "none",
           "normalizedSignature": "None|System.Diagnostics.Tracing.EventChannel|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -100,7 +100,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventChannel::AdminSystem.Diagnostics.Tracing.EventChannel",
           "clrName": "Admin",
-          "tsEmitName": "Admin",
+          "tsEmitName": "admin",
           "normalizedSignature": "Admin|System.Diagnostics.Tracing.EventChannel|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -109,7 +109,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventChannel::OperationalSystem.Diagnostics.Tracing.EventChannel",
           "clrName": "Operational",
-          "tsEmitName": "Operational",
+          "tsEmitName": "operational",
           "normalizedSignature": "Operational|System.Diagnostics.Tracing.EventChannel|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -118,7 +118,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventChannel::AnalyticSystem.Diagnostics.Tracing.EventChannel",
           "clrName": "Analytic",
-          "tsEmitName": "Analytic",
+          "tsEmitName": "analytic",
           "normalizedSignature": "Analytic|System.Diagnostics.Tracing.EventChannel|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -127,7 +127,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventChannel::DebugSystem.Diagnostics.Tracing.EventChannel",
           "clrName": "Debug",
-          "tsEmitName": "Debug",
+          "tsEmitName": "debug",
           "normalizedSignature": "Debug|System.Diagnostics.Tracing.EventChannel|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -162,7 +162,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventCommand::UpdateSystem.Diagnostics.Tracing.EventCommand",
           "clrName": "Update",
-          "tsEmitName": "Update",
+          "tsEmitName": "update",
           "normalizedSignature": "Update|System.Diagnostics.Tracing.EventCommand|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -171,7 +171,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventCommand::SendManifestSystem.Diagnostics.Tracing.EventCommand",
           "clrName": "SendManifest",
-          "tsEmitName": "SendManifest",
+          "tsEmitName": "sendManifest",
           "normalizedSignature": "SendManifest|System.Diagnostics.Tracing.EventCommand|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -180,7 +180,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventCommand::EnableSystem.Diagnostics.Tracing.EventCommand",
           "clrName": "Enable",
-          "tsEmitName": "Enable",
+          "tsEmitName": "enable",
           "normalizedSignature": "Enable|System.Diagnostics.Tracing.EventCommand|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -189,7 +189,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventCommand::DisableSystem.Diagnostics.Tracing.EventCommand",
           "clrName": "Disable",
-          "tsEmitName": "Disable",
+          "tsEmitName": "disable",
           "normalizedSignature": "Disable|System.Diagnostics.Tracing.EventCommand|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -224,7 +224,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventFieldFormat::DefaultSystem.Diagnostics.Tracing.EventFieldFormat",
           "clrName": "Default",
-          "tsEmitName": "Default",
+          "tsEmitName": "default_",
           "normalizedSignature": "Default|System.Diagnostics.Tracing.EventFieldFormat|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -233,7 +233,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventFieldFormat::StringSystem.Diagnostics.Tracing.EventFieldFormat",
           "clrName": "String",
-          "tsEmitName": "String",
+          "tsEmitName": "string_",
           "normalizedSignature": "String|System.Diagnostics.Tracing.EventFieldFormat|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -242,7 +242,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventFieldFormat::BooleanSystem.Diagnostics.Tracing.EventFieldFormat",
           "clrName": "Boolean",
-          "tsEmitName": "Boolean",
+          "tsEmitName": "boolean_",
           "normalizedSignature": "Boolean|System.Diagnostics.Tracing.EventFieldFormat|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -251,7 +251,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventFieldFormat::HexadecimalSystem.Diagnostics.Tracing.EventFieldFormat",
           "clrName": "Hexadecimal",
-          "tsEmitName": "Hexadecimal",
+          "tsEmitName": "hexadecimal",
           "normalizedSignature": "Hexadecimal|System.Diagnostics.Tracing.EventFieldFormat|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -260,7 +260,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventFieldFormat::XmlSystem.Diagnostics.Tracing.EventFieldFormat",
           "clrName": "Xml",
-          "tsEmitName": "Xml",
+          "tsEmitName": "xml",
           "normalizedSignature": "Xml|System.Diagnostics.Tracing.EventFieldFormat|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -269,7 +269,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventFieldFormat::JsonSystem.Diagnostics.Tracing.EventFieldFormat",
           "clrName": "Json",
-          "tsEmitName": "Json",
+          "tsEmitName": "json",
           "normalizedSignature": "Json|System.Diagnostics.Tracing.EventFieldFormat|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -278,7 +278,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventFieldFormat::HResultSystem.Diagnostics.Tracing.EventFieldFormat",
           "clrName": "HResult",
-          "tsEmitName": "HResult",
+          "tsEmitName": "hResult",
           "normalizedSignature": "HResult|System.Diagnostics.Tracing.EventFieldFormat|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -313,7 +313,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventFieldTags::NoneSystem.Diagnostics.Tracing.EventFieldTags",
           "clrName": "None",
-          "tsEmitName": "None",
+          "tsEmitName": "none",
           "normalizedSignature": "None|System.Diagnostics.Tracing.EventFieldTags|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -348,7 +348,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventKeywords::NoneSystem.Diagnostics.Tracing.EventKeywords",
           "clrName": "None",
-          "tsEmitName": "None",
+          "tsEmitName": "none",
           "normalizedSignature": "None|System.Diagnostics.Tracing.EventKeywords|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -357,7 +357,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventKeywords::AllSystem.Diagnostics.Tracing.EventKeywords",
           "clrName": "All",
-          "tsEmitName": "All",
+          "tsEmitName": "all",
           "normalizedSignature": "All|System.Diagnostics.Tracing.EventKeywords|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -366,7 +366,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventKeywords::MicrosoftTelemetrySystem.Diagnostics.Tracing.EventKeywords",
           "clrName": "MicrosoftTelemetry",
-          "tsEmitName": "MicrosoftTelemetry",
+          "tsEmitName": "microsoftTelemetry",
           "normalizedSignature": "MicrosoftTelemetry|System.Diagnostics.Tracing.EventKeywords|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -375,7 +375,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventKeywords::WdiContextSystem.Diagnostics.Tracing.EventKeywords",
           "clrName": "WdiContext",
-          "tsEmitName": "WdiContext",
+          "tsEmitName": "wdiContext",
           "normalizedSignature": "WdiContext|System.Diagnostics.Tracing.EventKeywords|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -384,7 +384,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventKeywords::WdiDiagnosticSystem.Diagnostics.Tracing.EventKeywords",
           "clrName": "WdiDiagnostic",
-          "tsEmitName": "WdiDiagnostic",
+          "tsEmitName": "wdiDiagnostic",
           "normalizedSignature": "WdiDiagnostic|System.Diagnostics.Tracing.EventKeywords|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -393,7 +393,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventKeywords::SqmSystem.Diagnostics.Tracing.EventKeywords",
           "clrName": "Sqm",
-          "tsEmitName": "Sqm",
+          "tsEmitName": "sqm",
           "normalizedSignature": "Sqm|System.Diagnostics.Tracing.EventKeywords|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -402,7 +402,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventKeywords::AuditFailureSystem.Diagnostics.Tracing.EventKeywords",
           "clrName": "AuditFailure",
-          "tsEmitName": "AuditFailure",
+          "tsEmitName": "auditFailure",
           "normalizedSignature": "AuditFailure|System.Diagnostics.Tracing.EventKeywords|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -411,7 +411,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventKeywords::AuditSuccessSystem.Diagnostics.Tracing.EventKeywords",
           "clrName": "AuditSuccess",
-          "tsEmitName": "AuditSuccess",
+          "tsEmitName": "auditSuccess",
           "normalizedSignature": "AuditSuccess|System.Diagnostics.Tracing.EventKeywords|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -420,7 +420,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventKeywords::CorrelationHintSystem.Diagnostics.Tracing.EventKeywords",
           "clrName": "CorrelationHint",
-          "tsEmitName": "CorrelationHint",
+          "tsEmitName": "correlationHint",
           "normalizedSignature": "CorrelationHint|System.Diagnostics.Tracing.EventKeywords|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -429,7 +429,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventKeywords::EventLogClassicSystem.Diagnostics.Tracing.EventKeywords",
           "clrName": "EventLogClassic",
-          "tsEmitName": "EventLogClassic",
+          "tsEmitName": "eventLogClassic",
           "normalizedSignature": "EventLogClassic|System.Diagnostics.Tracing.EventKeywords|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -464,7 +464,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventLevel::LogAlwaysSystem.Diagnostics.Tracing.EventLevel",
           "clrName": "LogAlways",
-          "tsEmitName": "LogAlways",
+          "tsEmitName": "logAlways",
           "normalizedSignature": "LogAlways|System.Diagnostics.Tracing.EventLevel|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -473,7 +473,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventLevel::CriticalSystem.Diagnostics.Tracing.EventLevel",
           "clrName": "Critical",
-          "tsEmitName": "Critical",
+          "tsEmitName": "critical",
           "normalizedSignature": "Critical|System.Diagnostics.Tracing.EventLevel|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -482,7 +482,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventLevel::ErrorSystem.Diagnostics.Tracing.EventLevel",
           "clrName": "Error",
-          "tsEmitName": "Error",
+          "tsEmitName": "error",
           "normalizedSignature": "Error|System.Diagnostics.Tracing.EventLevel|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -491,7 +491,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventLevel::WarningSystem.Diagnostics.Tracing.EventLevel",
           "clrName": "Warning",
-          "tsEmitName": "Warning",
+          "tsEmitName": "warning",
           "normalizedSignature": "Warning|System.Diagnostics.Tracing.EventLevel|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -500,7 +500,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventLevel::InformationalSystem.Diagnostics.Tracing.EventLevel",
           "clrName": "Informational",
-          "tsEmitName": "Informational",
+          "tsEmitName": "informational",
           "normalizedSignature": "Informational|System.Diagnostics.Tracing.EventLevel|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -509,7 +509,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventLevel::VerboseSystem.Diagnostics.Tracing.EventLevel",
           "clrName": "Verbose",
-          "tsEmitName": "Verbose",
+          "tsEmitName": "verbose",
           "normalizedSignature": "Verbose|System.Diagnostics.Tracing.EventLevel|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -544,7 +544,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventManifestOptions::NoneSystem.Diagnostics.Tracing.EventManifestOptions",
           "clrName": "None",
-          "tsEmitName": "None",
+          "tsEmitName": "none",
           "normalizedSignature": "None|System.Diagnostics.Tracing.EventManifestOptions|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -553,7 +553,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventManifestOptions::StrictSystem.Diagnostics.Tracing.EventManifestOptions",
           "clrName": "Strict",
-          "tsEmitName": "Strict",
+          "tsEmitName": "strict",
           "normalizedSignature": "Strict|System.Diagnostics.Tracing.EventManifestOptions|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -562,7 +562,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventManifestOptions::AllCulturesSystem.Diagnostics.Tracing.EventManifestOptions",
           "clrName": "AllCultures",
-          "tsEmitName": "AllCultures",
+          "tsEmitName": "allCultures",
           "normalizedSignature": "AllCultures|System.Diagnostics.Tracing.EventManifestOptions|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -571,7 +571,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventManifestOptions::OnlyIfNeededForRegistrationSystem.Diagnostics.Tracing.EventManifestOptions",
           "clrName": "OnlyIfNeededForRegistration",
-          "tsEmitName": "OnlyIfNeededForRegistration",
+          "tsEmitName": "onlyIfNeededForRegistration",
           "normalizedSignature": "OnlyIfNeededForRegistration|System.Diagnostics.Tracing.EventManifestOptions|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -580,7 +580,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventManifestOptions::AllowEventSourceOverrideSystem.Diagnostics.Tracing.EventManifestOptions",
           "clrName": "AllowEventSourceOverride",
-          "tsEmitName": "AllowEventSourceOverride",
+          "tsEmitName": "allowEventSourceOverride",
           "normalizedSignature": "AllowEventSourceOverride|System.Diagnostics.Tracing.EventManifestOptions|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -615,7 +615,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventOpcode::InfoSystem.Diagnostics.Tracing.EventOpcode",
           "clrName": "Info",
-          "tsEmitName": "Info",
+          "tsEmitName": "info",
           "normalizedSignature": "Info|System.Diagnostics.Tracing.EventOpcode|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -624,7 +624,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventOpcode::StartSystem.Diagnostics.Tracing.EventOpcode",
           "clrName": "Start",
-          "tsEmitName": "Start",
+          "tsEmitName": "start",
           "normalizedSignature": "Start|System.Diagnostics.Tracing.EventOpcode|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -633,7 +633,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventOpcode::StopSystem.Diagnostics.Tracing.EventOpcode",
           "clrName": "Stop",
-          "tsEmitName": "Stop",
+          "tsEmitName": "stop",
           "normalizedSignature": "Stop|System.Diagnostics.Tracing.EventOpcode|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -642,7 +642,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventOpcode::DataCollectionStartSystem.Diagnostics.Tracing.EventOpcode",
           "clrName": "DataCollectionStart",
-          "tsEmitName": "DataCollectionStart",
+          "tsEmitName": "dataCollectionStart",
           "normalizedSignature": "DataCollectionStart|System.Diagnostics.Tracing.EventOpcode|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -651,7 +651,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventOpcode::DataCollectionStopSystem.Diagnostics.Tracing.EventOpcode",
           "clrName": "DataCollectionStop",
-          "tsEmitName": "DataCollectionStop",
+          "tsEmitName": "dataCollectionStop",
           "normalizedSignature": "DataCollectionStop|System.Diagnostics.Tracing.EventOpcode|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -660,7 +660,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventOpcode::ExtensionSystem.Diagnostics.Tracing.EventOpcode",
           "clrName": "Extension",
-          "tsEmitName": "Extension",
+          "tsEmitName": "extension",
           "normalizedSignature": "Extension|System.Diagnostics.Tracing.EventOpcode|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -669,7 +669,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventOpcode::ReplySystem.Diagnostics.Tracing.EventOpcode",
           "clrName": "Reply",
-          "tsEmitName": "Reply",
+          "tsEmitName": "reply",
           "normalizedSignature": "Reply|System.Diagnostics.Tracing.EventOpcode|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -678,7 +678,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventOpcode::ResumeSystem.Diagnostics.Tracing.EventOpcode",
           "clrName": "Resume",
-          "tsEmitName": "Resume",
+          "tsEmitName": "resume",
           "normalizedSignature": "Resume|System.Diagnostics.Tracing.EventOpcode|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -687,7 +687,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventOpcode::SuspendSystem.Diagnostics.Tracing.EventOpcode",
           "clrName": "Suspend",
-          "tsEmitName": "Suspend",
+          "tsEmitName": "suspend",
           "normalizedSignature": "Suspend|System.Diagnostics.Tracing.EventOpcode|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -696,7 +696,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventOpcode::SendSystem.Diagnostics.Tracing.EventOpcode",
           "clrName": "Send",
-          "tsEmitName": "Send",
+          "tsEmitName": "send",
           "normalizedSignature": "Send|System.Diagnostics.Tracing.EventOpcode|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -705,7 +705,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventOpcode::ReceiveSystem.Diagnostics.Tracing.EventOpcode",
           "clrName": "Receive",
-          "tsEmitName": "Receive",
+          "tsEmitName": "receive",
           "normalizedSignature": "Receive|System.Diagnostics.Tracing.EventOpcode|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -740,7 +740,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventSourceSettings::DefaultSystem.Diagnostics.Tracing.EventSourceSettings",
           "clrName": "Default",
-          "tsEmitName": "Default",
+          "tsEmitName": "default_",
           "normalizedSignature": "Default|System.Diagnostics.Tracing.EventSourceSettings|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -749,7 +749,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventSourceSettings::ThrowOnEventWriteErrorsSystem.Diagnostics.Tracing.EventSourceSettings",
           "clrName": "ThrowOnEventWriteErrors",
-          "tsEmitName": "ThrowOnEventWriteErrors",
+          "tsEmitName": "throwOnEventWriteErrors",
           "normalizedSignature": "ThrowOnEventWriteErrors|System.Diagnostics.Tracing.EventSourceSettings|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -758,7 +758,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventSourceSettings::EtwManifestEventFormatSystem.Diagnostics.Tracing.EventSourceSettings",
           "clrName": "EtwManifestEventFormat",
-          "tsEmitName": "EtwManifestEventFormat",
+          "tsEmitName": "etwManifestEventFormat",
           "normalizedSignature": "EtwManifestEventFormat|System.Diagnostics.Tracing.EventSourceSettings|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -767,7 +767,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventSourceSettings::EtwSelfDescribingEventFormatSystem.Diagnostics.Tracing.EventSourceSettings",
           "clrName": "EtwSelfDescribingEventFormat",
-          "tsEmitName": "EtwSelfDescribingEventFormat",
+          "tsEmitName": "etwSelfDescribingEventFormat",
           "normalizedSignature": "EtwSelfDescribingEventFormat|System.Diagnostics.Tracing.EventSourceSettings|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -802,7 +802,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventTags::NoneSystem.Diagnostics.Tracing.EventTags",
           "clrName": "None",
-          "tsEmitName": "None",
+          "tsEmitName": "none",
           "normalizedSignature": "None|System.Diagnostics.Tracing.EventTags|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -837,7 +837,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventTask::NoneSystem.Diagnostics.Tracing.EventTask",
           "clrName": "None",
-          "tsEmitName": "None",
+          "tsEmitName": "none",
           "normalizedSignature": "None|System.Diagnostics.Tracing.EventTask|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -878,7 +878,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventSourceOptions::Level:System.Diagnostics.Tracing.EventLevel",
           "clrName": "Level",
-          "tsEmitName": "Level",
+          "tsEmitName": "level",
           "normalizedSignature": "Level|:System.Diagnostics.Tracing.EventLevel|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -893,7 +893,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventSourceOptions::Opcode:System.Diagnostics.Tracing.EventOpcode",
           "clrName": "Opcode",
-          "tsEmitName": "Opcode",
+          "tsEmitName": "opcode",
           "normalizedSignature": "Opcode|:System.Diagnostics.Tracing.EventOpcode|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -908,7 +908,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventSourceOptions::Keywords:System.Diagnostics.Tracing.EventKeywords",
           "clrName": "Keywords",
-          "tsEmitName": "Keywords",
+          "tsEmitName": "keywords",
           "normalizedSignature": "Keywords|:System.Diagnostics.Tracing.EventKeywords|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -923,7 +923,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventSourceOptions::Tags:System.Diagnostics.Tracing.EventTags",
           "clrName": "Tags",
-          "tsEmitName": "Tags",
+          "tsEmitName": "tags",
           "normalizedSignature": "Tags|:System.Diagnostics.Tracing.EventTags|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -938,7 +938,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventSourceOptions::ActivityOptions:System.Diagnostics.Tracing.EventActivityOptions",
           "clrName": "ActivityOptions",
-          "tsEmitName": "ActivityOptions",
+          "tsEmitName": "activityOptions",
           "normalizedSignature": "ActivityOptions|:System.Diagnostics.Tracing.EventActivityOptions|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -969,7 +969,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.DiagnosticCounter::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "Dispose",
+          "tsEmitName": "dispose",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -985,7 +985,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.DiagnosticCounter::AddMetadata(System.String,System.String):System.Void",
           "clrName": "AddMetadata",
-          "tsEmitName": "AddMetadata",
+          "tsEmitName": "addMetadata",
           "normalizedSignature": "AddMetadata|(System.String,System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1001,7 +1001,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "Dispose$view",
+          "tsEmitName": "dispose$view",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -1020,7 +1020,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.DiagnosticCounter::DisplayName:System.String",
           "clrName": "DisplayName",
-          "tsEmitName": "DisplayName",
+          "tsEmitName": "displayName",
           "normalizedSignature": "DisplayName|:System.String|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1035,7 +1035,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.DiagnosticCounter::DisplayUnits:System.String",
           "clrName": "DisplayUnits",
-          "tsEmitName": "DisplayUnits",
+          "tsEmitName": "displayUnits",
           "normalizedSignature": "DisplayUnits|:System.String|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1050,7 +1050,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.DiagnosticCounter::Name:System.String",
           "clrName": "Name",
-          "tsEmitName": "Name",
+          "tsEmitName": "name",
           "normalizedSignature": "Name|:System.String|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1065,7 +1065,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.DiagnosticCounter::EventSource:System.Diagnostics.Tracing.EventSource",
           "clrName": "EventSource",
-          "tsEmitName": "EventSource",
+          "tsEmitName": "eventSource",
           "normalizedSignature": "EventSource|:System.Diagnostics.Tracing.EventSource|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1080,14 +1080,7 @@
       ],
       "fields": [],
       "events": [],
-      "constructors": [],
-      "unsatisfiableInterfaces": [
-        {
-          "interfaceClrName": "System.IDisposable",
-          "reason": "ExplicitImplementationMovedToView",
-          "issueCount": 1
-        }
-      ]
+      "constructors": []
     },
     {
       "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventAttribute",
@@ -1104,7 +1097,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventAttribute::EventId:System.Int32",
           "clrName": "EventId",
-          "tsEmitName": "EventId",
+          "tsEmitName": "eventId",
           "normalizedSignature": "EventId|:System.Int32|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1119,7 +1112,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventAttribute::Level:System.Diagnostics.Tracing.EventLevel",
           "clrName": "Level",
-          "tsEmitName": "Level",
+          "tsEmitName": "level",
           "normalizedSignature": "Level|:System.Diagnostics.Tracing.EventLevel|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1134,7 +1127,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventAttribute::Keywords:System.Diagnostics.Tracing.EventKeywords",
           "clrName": "Keywords",
-          "tsEmitName": "Keywords",
+          "tsEmitName": "keywords",
           "normalizedSignature": "Keywords|:System.Diagnostics.Tracing.EventKeywords|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1149,7 +1142,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventAttribute::Opcode:System.Diagnostics.Tracing.EventOpcode",
           "clrName": "Opcode",
-          "tsEmitName": "Opcode",
+          "tsEmitName": "opcode",
           "normalizedSignature": "Opcode|:System.Diagnostics.Tracing.EventOpcode|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1164,7 +1157,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventAttribute::Task:System.Diagnostics.Tracing.EventTask",
           "clrName": "Task",
-          "tsEmitName": "Task",
+          "tsEmitName": "task",
           "normalizedSignature": "Task|:System.Diagnostics.Tracing.EventTask|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1179,7 +1172,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventAttribute::Channel:System.Diagnostics.Tracing.EventChannel",
           "clrName": "Channel",
-          "tsEmitName": "Channel",
+          "tsEmitName": "channel",
           "normalizedSignature": "Channel|:System.Diagnostics.Tracing.EventChannel|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1194,7 +1187,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventAttribute::Version:System.Byte",
           "clrName": "Version",
-          "tsEmitName": "Version",
+          "tsEmitName": "version",
           "normalizedSignature": "Version|:System.Byte|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1209,7 +1202,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventAttribute::Message:System.String",
           "clrName": "Message",
-          "tsEmitName": "Message",
+          "tsEmitName": "message",
           "normalizedSignature": "Message|:System.String|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1224,7 +1217,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventAttribute::Tags:System.Diagnostics.Tracing.EventTags",
           "clrName": "Tags",
-          "tsEmitName": "Tags",
+          "tsEmitName": "tags",
           "normalizedSignature": "Tags|:System.Diagnostics.Tracing.EventTags|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1239,7 +1232,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventAttribute::ActivityOptions:System.Diagnostics.Tracing.EventActivityOptions",
           "clrName": "ActivityOptions",
-          "tsEmitName": "ActivityOptions",
+          "tsEmitName": "activityOptions",
           "normalizedSignature": "ActivityOptions|:System.Diagnostics.Tracing.EventActivityOptions|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1276,7 +1269,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventCommandEventArgs::EnableEvent(System.Int32):System.Boolean",
           "clrName": "EnableEvent",
-          "tsEmitName": "EnableEvent",
+          "tsEmitName": "enableEvent",
           "normalizedSignature": "EnableEvent|(System.Int32):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1292,7 +1285,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventCommandEventArgs::DisableEvent(System.Int32):System.Boolean",
           "clrName": "DisableEvent",
-          "tsEmitName": "DisableEvent",
+          "tsEmitName": "disableEvent",
           "normalizedSignature": "DisableEvent|(System.Int32):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1310,7 +1303,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventCommandEventArgs::Command:System.Diagnostics.Tracing.EventCommand",
           "clrName": "Command",
-          "tsEmitName": "Command",
+          "tsEmitName": "command",
           "normalizedSignature": "Command|:System.Diagnostics.Tracing.EventCommand|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1325,7 +1318,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventCommandEventArgs::Arguments:System.Collections.Generic.IDictionary_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "Arguments",
-          "tsEmitName": "Arguments",
+          "tsEmitName": "arguments",
           "normalizedSignature": "Arguments|:System.Collections.Generic.IDictionary_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1356,7 +1349,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventCounter::WriteMetric(System.Single):System.Void",
           "clrName": "WriteMetric",
-          "tsEmitName": "WriteMetric",
+          "tsEmitName": "writeMetric",
           "normalizedSignature": "WriteMetric|(System.Single):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1372,7 +1365,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventCounter::WriteMetric(System.Double):System.Void",
           "clrName": "WriteMetric",
-          "tsEmitName": "WriteMetric2",
+          "tsEmitName": "writeMetric2",
           "normalizedSignature": "WriteMetric|(System.Double):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1388,7 +1381,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventCounter::ToString():System.String",
           "clrName": "ToString",
-          "tsEmitName": "ToString",
+          "tsEmitName": "toString",
           "normalizedSignature": "ToString|():System.String|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1404,7 +1397,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "Dispose$view",
+          "tsEmitName": "dispose$view",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -1421,7 +1414,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventCounter::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "Dispose",
+          "tsEmitName": "dispose",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -1444,13 +1437,6 @@
           "isStatic": false,
           "parameterCount": 2
         }
-      ],
-      "unsatisfiableInterfaces": [
-        {
-          "interfaceClrName": "System.IDisposable",
-          "reason": "ExplicitImplementationMovedToView",
-          "issueCount": 1
-        }
       ]
     },
     {
@@ -1468,7 +1454,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventDataAttribute::Name:System.String",
           "clrName": "Name",
-          "tsEmitName": "Name",
+          "tsEmitName": "name",
           "normalizedSignature": "Name|:System.String|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1506,7 +1492,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventFieldAttribute::Tags:System.Diagnostics.Tracing.EventFieldTags",
           "clrName": "Tags",
-          "tsEmitName": "Tags",
+          "tsEmitName": "tags",
           "normalizedSignature": "Tags|:System.Diagnostics.Tracing.EventFieldTags|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1521,7 +1507,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventFieldAttribute::Format:System.Diagnostics.Tracing.EventFieldFormat",
           "clrName": "Format",
-          "tsEmitName": "Format",
+          "tsEmitName": "format",
           "normalizedSignature": "Format|:System.Diagnostics.Tracing.EventFieldFormat|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1580,7 +1566,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventListener::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "Dispose",
+          "tsEmitName": "dispose",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1596,7 +1582,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventListener::EnableEvents(System.Diagnostics.Tracing.EventSource,System.Diagnostics.Tracing.EventLevel):System.Void",
           "clrName": "EnableEvents",
-          "tsEmitName": "EnableEvents",
+          "tsEmitName": "enableEvents",
           "normalizedSignature": "EnableEvents|(System.Diagnostics.Tracing.EventSource,System.Diagnostics.Tracing.EventLevel):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1612,7 +1598,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventListener::EnableEvents(System.Diagnostics.Tracing.EventSource,System.Diagnostics.Tracing.EventLevel,System.Diagnostics.Tracing.EventKeywords):System.Void",
           "clrName": "EnableEvents",
-          "tsEmitName": "EnableEvents2",
+          "tsEmitName": "enableEvents2",
           "normalizedSignature": "EnableEvents|(System.Diagnostics.Tracing.EventSource,System.Diagnostics.Tracing.EventLevel,System.Diagnostics.Tracing.EventKeywords):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1628,7 +1614,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventListener::EnableEvents(System.Diagnostics.Tracing.EventSource,System.Diagnostics.Tracing.EventLevel,System.Diagnostics.Tracing.EventKeywords,System.Collections.Generic.IDictionary_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "clrName": "EnableEvents",
-          "tsEmitName": "EnableEvents3",
+          "tsEmitName": "enableEvents3",
           "normalizedSignature": "EnableEvents|(System.Diagnostics.Tracing.EventSource,System.Diagnostics.Tracing.EventLevel,System.Diagnostics.Tracing.EventKeywords,System.Collections.Generic.IDictionary_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1644,7 +1630,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventListener::DisableEvents(System.Diagnostics.Tracing.EventSource):System.Void",
           "clrName": "DisableEvents",
-          "tsEmitName": "DisableEvents",
+          "tsEmitName": "disableEvents",
           "normalizedSignature": "DisableEvents|(System.Diagnostics.Tracing.EventSource):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1660,7 +1646,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "Dispose$view",
+          "tsEmitName": "dispose$view",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -1681,26 +1667,19 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventListener::EventSourceCreatedSystem.EventHandler\u00601[[System.Diagnostics.Tracing.EventSourceCreatedEventArgs, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "EventSourceCreated",
-          "tsEmitName": "EventSourceCreated",
+          "tsEmitName": "eventSourceCreated",
           "normalizedSignature": "EventSourceCreated|System.EventHandler\u00601[[System.Diagnostics.Tracing.EventSourceCreatedEventArgs, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "isStatic": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventListener::EventWrittenSystem.EventHandler\u00601[[System.Diagnostics.Tracing.EventWrittenEventArgs, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "EventWritten",
-          "tsEmitName": "EventWritten",
+          "tsEmitName": "eventWritten",
           "normalizedSignature": "EventWritten|System.EventHandler\u00601[[System.Diagnostics.Tracing.EventWrittenEventArgs, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "isStatic": false
         }
       ],
-      "constructors": [],
-      "unsatisfiableInterfaces": [
-        {
-          "interfaceClrName": "System.IDisposable",
-          "reason": "ExplicitImplementationMovedToView",
-          "issueCount": 1
-        }
-      ]
+      "constructors": []
     },
     {
       "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventSource",
@@ -1716,7 +1695,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventSource::IsEnabled():System.Boolean",
           "clrName": "IsEnabled",
-          "tsEmitName": "IsEnabled",
+          "tsEmitName": "isEnabled",
           "normalizedSignature": "IsEnabled|():System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1732,7 +1711,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventSource::IsEnabled(System.Diagnostics.Tracing.EventLevel,System.Diagnostics.Tracing.EventKeywords):System.Boolean",
           "clrName": "IsEnabled",
-          "tsEmitName": "IsEnabled2",
+          "tsEmitName": "isEnabled2",
           "normalizedSignature": "IsEnabled|(System.Diagnostics.Tracing.EventLevel,System.Diagnostics.Tracing.EventKeywords):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1748,7 +1727,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventSource::IsEnabled(System.Diagnostics.Tracing.EventLevel,System.Diagnostics.Tracing.EventKeywords,System.Diagnostics.Tracing.EventChannel):System.Boolean",
           "clrName": "IsEnabled",
-          "tsEmitName": "IsEnabled3",
+          "tsEmitName": "isEnabled3",
           "normalizedSignature": "IsEnabled|(System.Diagnostics.Tracing.EventLevel,System.Diagnostics.Tracing.EventKeywords,System.Diagnostics.Tracing.EventChannel):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1764,7 +1743,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventSource::GetGuid(System.Type):System.Guid",
           "clrName": "GetGuid",
-          "tsEmitName": "GetGuid",
+          "tsEmitName": "getGuid",
           "normalizedSignature": "GetGuid|(System.Type):System.Guid|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1780,7 +1759,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventSource::GetName(System.Type):System.String",
           "clrName": "GetName",
-          "tsEmitName": "GetName",
+          "tsEmitName": "getName",
           "normalizedSignature": "GetName|(System.Type):System.String|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1796,7 +1775,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventSource::GenerateManifest(System.Type,System.String):System.String",
           "clrName": "GenerateManifest",
-          "tsEmitName": "GenerateManifest",
+          "tsEmitName": "generateManifest",
           "normalizedSignature": "GenerateManifest|(System.Type,System.String):System.String|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1812,7 +1791,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventSource::GenerateManifest(System.Type,System.String,System.Diagnostics.Tracing.EventManifestOptions):System.String",
           "clrName": "GenerateManifest",
-          "tsEmitName": "GenerateManifest2",
+          "tsEmitName": "generateManifest2",
           "normalizedSignature": "GenerateManifest|(System.Type,System.String,System.Diagnostics.Tracing.EventManifestOptions):System.String|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1828,7 +1807,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventSource::GetSources():System.Collections.Generic.IEnumerable_1[[System.Diagnostics.Tracing.EventSource,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "GetSources",
-          "tsEmitName": "GetSources",
+          "tsEmitName": "getSources",
           "normalizedSignature": "GetSources|():System.Collections.Generic.IEnumerable_1[[System.Diagnostics.Tracing.EventSource,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1844,7 +1823,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventSource::SendCommand(System.Diagnostics.Tracing.EventSource,System.Diagnostics.Tracing.EventCommand,System.Collections.Generic.IDictionary_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "clrName": "SendCommand",
-          "tsEmitName": "SendCommand",
+          "tsEmitName": "sendCommand",
           "normalizedSignature": "SendCommand|(System.Diagnostics.Tracing.EventSource,System.Diagnostics.Tracing.EventCommand,System.Collections.Generic.IDictionary_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1860,7 +1839,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventSource::GetTrait(System.String):System.String",
           "clrName": "GetTrait",
-          "tsEmitName": "GetTrait",
+          "tsEmitName": "getTrait",
           "normalizedSignature": "GetTrait|(System.String):System.String|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1876,7 +1855,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventSource::ToString():System.String",
           "clrName": "ToString",
-          "tsEmitName": "ToString",
+          "tsEmitName": "toString",
           "normalizedSignature": "ToString|():System.String|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1892,7 +1871,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventSource::SetCurrentThreadActivityId(System.Guid):System.Void",
           "clrName": "SetCurrentThreadActivityId",
-          "tsEmitName": "SetCurrentThreadActivityId",
+          "tsEmitName": "setCurrentThreadActivityId",
           "normalizedSignature": "SetCurrentThreadActivityId|(System.Guid):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1908,7 +1887,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventSource::SetCurrentThreadActivityId(System.Guid,System.Guid\u0026):System.Void",
           "clrName": "SetCurrentThreadActivityId",
-          "tsEmitName": "SetCurrentThreadActivityId2",
+          "tsEmitName": "setCurrentThreadActivityId2",
           "normalizedSignature": "SetCurrentThreadActivityId|(System.Guid,System.Guid\u0026):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1924,7 +1903,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventSource::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "Dispose",
+          "tsEmitName": "dispose",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1940,7 +1919,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventSource::Write(System.String):System.Void",
           "clrName": "Write",
-          "tsEmitName": "Write",
+          "tsEmitName": "write",
           "normalizedSignature": "Write|(System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1956,7 +1935,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventSource::Write(System.String,System.Diagnostics.Tracing.EventSourceOptions):System.Void",
           "clrName": "Write",
-          "tsEmitName": "Write2",
+          "tsEmitName": "write2",
           "normalizedSignature": "Write|(System.String,System.Diagnostics.Tracing.EventSourceOptions):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1972,7 +1951,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventSource::Write(System.String,T):System.Void",
           "clrName": "Write",
-          "tsEmitName": "Write3",
+          "tsEmitName": "write3",
           "normalizedSignature": "Write|(System.String,T):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1988,7 +1967,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventSource::Write(System.String,System.Diagnostics.Tracing.EventSourceOptions,T):System.Void",
           "clrName": "Write",
-          "tsEmitName": "Write4",
+          "tsEmitName": "write4",
           "normalizedSignature": "Write|(System.String,System.Diagnostics.Tracing.EventSourceOptions,T):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2004,7 +1983,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventSource::Write(System.String,System.Diagnostics.Tracing.EventSourceOptions\u0026,T\u0026):System.Void",
           "clrName": "Write",
-          "tsEmitName": "Write5",
+          "tsEmitName": "write5",
           "normalizedSignature": "Write|(System.String,System.Diagnostics.Tracing.EventSourceOptions\u0026,T\u0026):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2020,7 +1999,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventSource::Write(System.String,System.Diagnostics.Tracing.EventSourceOptions\u0026,System.Guid\u0026,System.Guid\u0026,T\u0026):System.Void",
           "clrName": "Write",
-          "tsEmitName": "Write6",
+          "tsEmitName": "write6",
           "normalizedSignature": "Write|(System.String,System.Diagnostics.Tracing.EventSourceOptions\u0026,System.Guid\u0026,System.Guid\u0026,T\u0026):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2036,7 +2015,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "Dispose$view",
+          "tsEmitName": "dispose$view",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -2055,7 +2034,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventSource::Name:System.String",
           "clrName": "Name",
-          "tsEmitName": "Name",
+          "tsEmitName": "name",
           "normalizedSignature": "Name|:System.String|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2070,7 +2049,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventSource::Guid:System.Guid",
           "clrName": "Guid",
-          "tsEmitName": "Guid",
+          "tsEmitName": "guid",
           "normalizedSignature": "Guid|:System.Guid|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2085,7 +2064,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventSource::Settings:System.Diagnostics.Tracing.EventSourceSettings",
           "clrName": "Settings",
-          "tsEmitName": "Settings",
+          "tsEmitName": "settings",
           "normalizedSignature": "Settings|:System.Diagnostics.Tracing.EventSourceSettings|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2100,7 +2079,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventSource::ConstructionException:System.Exception",
           "clrName": "ConstructionException",
-          "tsEmitName": "ConstructionException",
+          "tsEmitName": "constructionException",
           "normalizedSignature": "ConstructionException|:System.Exception|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2115,7 +2094,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventSource::CurrentThreadActivityId:System.Guid",
           "clrName": "CurrentThreadActivityId",
-          "tsEmitName": "CurrentThreadActivityId",
+          "tsEmitName": "currentThreadActivityId",
           "normalizedSignature": "CurrentThreadActivityId|:System.Guid|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2133,7 +2112,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventSource::EventCommandExecutedSystem.EventHandler\u00601[[System.Diagnostics.Tracing.EventCommandEventArgs, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "EventCommandExecuted",
-          "tsEmitName": "EventCommandExecuted",
+          "tsEmitName": "eventCommandExecuted",
           "normalizedSignature": "EventCommandExecuted|System.EventHandler\u00601[[System.Diagnostics.Tracing.EventCommandEventArgs, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "isStatic": false
         }
@@ -2154,13 +2133,6 @@
           "isStatic": false,
           "parameterCount": 3
         }
-      ],
-      "unsatisfiableInterfaces": [
-        {
-          "interfaceClrName": "System.IDisposable",
-          "reason": "ExplicitImplementationMovedToView",
-          "issueCount": 1
-        }
       ]
     },
     {
@@ -2178,7 +2150,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventSourceAttribute::Name:System.String",
           "clrName": "Name",
-          "tsEmitName": "Name",
+          "tsEmitName": "name",
           "normalizedSignature": "Name|:System.String|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2193,7 +2165,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventSourceAttribute::Guid:System.String",
           "clrName": "Guid",
-          "tsEmitName": "Guid",
+          "tsEmitName": "guid",
           "normalizedSignature": "Guid|:System.String|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2208,7 +2180,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventSourceAttribute::LocalizationResources:System.String",
           "clrName": "LocalizationResources",
-          "tsEmitName": "LocalizationResources",
+          "tsEmitName": "localizationResources",
           "normalizedSignature": "LocalizationResources|:System.String|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2246,7 +2218,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventSourceCreatedEventArgs::EventSource:System.Diagnostics.Tracing.EventSource",
           "clrName": "EventSource",
-          "tsEmitName": "EventSource",
+          "tsEmitName": "eventSource",
           "normalizedSignature": "EventSource|:System.Diagnostics.Tracing.EventSource|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2283,7 +2255,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData$view",
+          "tsEmitName": "getObjectData$view",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -2300,7 +2272,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventSourceException::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData",
+          "tsEmitName": "getObjectData",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -2333,13 +2305,6 @@
           "isStatic": false,
           "parameterCount": 2
         }
-      ],
-      "unsatisfiableInterfaces": [
-        {
-          "interfaceClrName": "System.Runtime.Serialization.ISerializable",
-          "reason": "ExplicitImplementationMovedToView",
-          "issueCount": 1
-        }
       ]
     },
     {
@@ -2357,7 +2322,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventWrittenEventArgs::EventName:System.String",
           "clrName": "EventName",
-          "tsEmitName": "EventName",
+          "tsEmitName": "eventName",
           "normalizedSignature": "EventName|:System.String|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2372,7 +2337,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventWrittenEventArgs::EventId:System.Int32",
           "clrName": "EventId",
-          "tsEmitName": "EventId",
+          "tsEmitName": "eventId",
           "normalizedSignature": "EventId|:System.Int32|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2387,7 +2352,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventWrittenEventArgs::ActivityId:System.Guid",
           "clrName": "ActivityId",
-          "tsEmitName": "ActivityId",
+          "tsEmitName": "activityId",
           "normalizedSignature": "ActivityId|:System.Guid|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2402,7 +2367,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventWrittenEventArgs::RelatedActivityId:System.Guid",
           "clrName": "RelatedActivityId",
-          "tsEmitName": "RelatedActivityId",
+          "tsEmitName": "relatedActivityId",
           "normalizedSignature": "RelatedActivityId|:System.Guid|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2417,7 +2382,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventWrittenEventArgs::Payload:System.Collections.ObjectModel.ReadOnlyCollection_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "Payload",
-          "tsEmitName": "Payload",
+          "tsEmitName": "payload",
           "normalizedSignature": "Payload|:System.Collections.ObjectModel.ReadOnlyCollection_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2432,7 +2397,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventWrittenEventArgs::PayloadNames:System.Collections.ObjectModel.ReadOnlyCollection_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "PayloadNames",
-          "tsEmitName": "PayloadNames",
+          "tsEmitName": "payloadNames",
           "normalizedSignature": "PayloadNames|:System.Collections.ObjectModel.ReadOnlyCollection_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2447,7 +2412,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventWrittenEventArgs::EventSource:System.Diagnostics.Tracing.EventSource",
           "clrName": "EventSource",
-          "tsEmitName": "EventSource",
+          "tsEmitName": "eventSource",
           "normalizedSignature": "EventSource|:System.Diagnostics.Tracing.EventSource|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2462,7 +2427,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventWrittenEventArgs::Keywords:System.Diagnostics.Tracing.EventKeywords",
           "clrName": "Keywords",
-          "tsEmitName": "Keywords",
+          "tsEmitName": "keywords",
           "normalizedSignature": "Keywords|:System.Diagnostics.Tracing.EventKeywords|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2477,7 +2442,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventWrittenEventArgs::Opcode:System.Diagnostics.Tracing.EventOpcode",
           "clrName": "Opcode",
-          "tsEmitName": "Opcode",
+          "tsEmitName": "opcode",
           "normalizedSignature": "Opcode|:System.Diagnostics.Tracing.EventOpcode|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2492,7 +2457,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventWrittenEventArgs::Task:System.Diagnostics.Tracing.EventTask",
           "clrName": "Task",
-          "tsEmitName": "Task",
+          "tsEmitName": "task",
           "normalizedSignature": "Task|:System.Diagnostics.Tracing.EventTask|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2507,7 +2472,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventWrittenEventArgs::Tags:System.Diagnostics.Tracing.EventTags",
           "clrName": "Tags",
-          "tsEmitName": "Tags",
+          "tsEmitName": "tags",
           "normalizedSignature": "Tags|:System.Diagnostics.Tracing.EventTags|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2522,7 +2487,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventWrittenEventArgs::Message:System.String",
           "clrName": "Message",
-          "tsEmitName": "Message",
+          "tsEmitName": "message",
           "normalizedSignature": "Message|:System.String|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2537,7 +2502,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventWrittenEventArgs::Channel:System.Diagnostics.Tracing.EventChannel",
           "clrName": "Channel",
-          "tsEmitName": "Channel",
+          "tsEmitName": "channel",
           "normalizedSignature": "Channel|:System.Diagnostics.Tracing.EventChannel|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2552,7 +2517,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventWrittenEventArgs::Version:System.Byte",
           "clrName": "Version",
-          "tsEmitName": "Version",
+          "tsEmitName": "version",
           "normalizedSignature": "Version|:System.Byte|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2567,7 +2532,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventWrittenEventArgs::Level:System.Diagnostics.Tracing.EventLevel",
           "clrName": "Level",
-          "tsEmitName": "Level",
+          "tsEmitName": "level",
           "normalizedSignature": "Level|:System.Diagnostics.Tracing.EventLevel|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2582,7 +2547,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventWrittenEventArgs::OSThreadId:System.Int64",
           "clrName": "OSThreadId",
-          "tsEmitName": "OSThreadId",
+          "tsEmitName": "osThreadId",
           "normalizedSignature": "OSThreadId|:System.Int64|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2597,7 +2562,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventWrittenEventArgs::TimeStamp:System.DateTime",
           "clrName": "TimeStamp",
-          "tsEmitName": "TimeStamp",
+          "tsEmitName": "timeStamp",
           "normalizedSignature": "TimeStamp|:System.DateTime|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2628,7 +2593,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.IncrementingEventCounter::Increment(System.Double):System.Void",
           "clrName": "Increment",
-          "tsEmitName": "Increment",
+          "tsEmitName": "increment",
           "normalizedSignature": "Increment|(System.Double):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2644,7 +2609,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.IncrementingEventCounter::ToString():System.String",
           "clrName": "ToString",
-          "tsEmitName": "ToString",
+          "tsEmitName": "toString",
           "normalizedSignature": "ToString|():System.String|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2660,7 +2625,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "Dispose$view",
+          "tsEmitName": "dispose$view",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -2677,7 +2642,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.IncrementingEventCounter::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "Dispose",
+          "tsEmitName": "dispose",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -2695,7 +2660,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.IncrementingEventCounter::DisplayRateTimeScale:System.TimeSpan",
           "clrName": "DisplayRateTimeScale",
-          "tsEmitName": "DisplayRateTimeScale",
+          "tsEmitName": "displayRateTimeScale",
           "normalizedSignature": "DisplayRateTimeScale|:System.TimeSpan|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2716,13 +2681,6 @@
           "isStatic": false,
           "parameterCount": 2
         }
-      ],
-      "unsatisfiableInterfaces": [
-        {
-          "interfaceClrName": "System.IDisposable",
-          "reason": "ExplicitImplementationMovedToView",
-          "issueCount": 1
-        }
       ]
     },
     {
@@ -2739,7 +2697,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.IncrementingPollingCounter::ToString():System.String",
           "clrName": "ToString",
-          "tsEmitName": "ToString",
+          "tsEmitName": "toString",
           "normalizedSignature": "ToString|():System.String|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2755,7 +2713,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "Dispose$view",
+          "tsEmitName": "dispose$view",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -2772,7 +2730,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.IncrementingPollingCounter::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "Dispose",
+          "tsEmitName": "dispose",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -2790,7 +2748,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.IncrementingPollingCounter::DisplayRateTimeScale:System.TimeSpan",
           "clrName": "DisplayRateTimeScale",
-          "tsEmitName": "DisplayRateTimeScale",
+          "tsEmitName": "displayRateTimeScale",
           "normalizedSignature": "DisplayRateTimeScale|:System.TimeSpan|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2810,13 +2768,6 @@
           "normalizedSignature": "constructor|(System.String,System.Diagnostics.Tracing.EventSource,System.Func_1[[System.Double,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):void|static=false",
           "isStatic": false,
           "parameterCount": 3
-        }
-      ],
-      "unsatisfiableInterfaces": [
-        {
-          "interfaceClrName": "System.IDisposable",
-          "reason": "ExplicitImplementationMovedToView",
-          "issueCount": 1
         }
       ]
     },
@@ -2856,7 +2807,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.PollingCounter::ToString():System.String",
           "clrName": "ToString",
-          "tsEmitName": "ToString",
+          "tsEmitName": "toString",
           "normalizedSignature": "ToString|():System.String|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2872,7 +2823,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "Dispose$view",
+          "tsEmitName": "dispose$view",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -2889,7 +2840,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.PollingCounter::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "Dispose",
+          "tsEmitName": "dispose",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -2911,13 +2862,6 @@
           "normalizedSignature": "constructor|(System.String,System.Diagnostics.Tracing.EventSource,System.Func_1[[System.Double,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):void|static=false",
           "isStatic": false,
           "parameterCount": 3
-        }
-      ],
-      "unsatisfiableInterfaces": [
-        {
-          "interfaceClrName": "System.IDisposable",
-          "reason": "ExplicitImplementationMovedToView",
-          "issueCount": 1
         }
       ]
     }

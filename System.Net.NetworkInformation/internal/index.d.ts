@@ -51,165 +51,165 @@ export type CLROf<T> =
     T; // Identity fallback for non-primitive types
 
 export enum DuplicateAddressDetectionState {
-    Invalid = 0,
-    Tentative = 1,
-    Duplicate = 2,
-    Deprecated = 3,
-    Preferred = 4
+    invalid = 0,
+    tentative = 1,
+    duplicate = 2,
+    deprecated = 3,
+    preferred = 4
 }
 
 
 export enum IPStatus {
-    Success = 0,
-    DestinationNetworkUnreachable = 11002,
-    DestinationHostUnreachable = 11003,
-    DestinationProtocolUnreachable = 11004,
-    DestinationPortUnreachable = 11005,
-    DestinationProhibited = 11004,
-    NoResources = 11006,
-    BadOption = 11007,
-    HardwareError = 11008,
-    PacketTooBig = 11009,
-    TimedOut = 11010,
-    BadRoute = 11012,
-    TtlExpired = 11013,
-    TtlReassemblyTimeExceeded = 11014,
-    ParameterProblem = 11015,
-    SourceQuench = 11016,
-    BadDestination = 11018,
-    DestinationUnreachable = 11040,
-    TimeExceeded = 11041,
-    BadHeader = 11042,
-    UnrecognizedNextHeader = 11043,
-    IcmpError = 11044,
-    DestinationScopeMismatch = 11045,
-    Unknown = -1
+    success = 0,
+    destinationNetworkUnreachable = 11002,
+    destinationHostUnreachable = 11003,
+    destinationProtocolUnreachable = 11004,
+    destinationPortUnreachable = 11005,
+    destinationProhibited = 11004,
+    noResources = 11006,
+    badOption = 11007,
+    hardwareError = 11008,
+    packetTooBig = 11009,
+    timedOut = 11010,
+    badRoute = 11012,
+    ttlExpired = 11013,
+    ttlReassemblyTimeExceeded = 11014,
+    parameterProblem = 11015,
+    sourceQuench = 11016,
+    badDestination = 11018,
+    destinationUnreachable = 11040,
+    timeExceeded = 11041,
+    badHeader = 11042,
+    unrecognizedNextHeader = 11043,
+    icmpError = 11044,
+    destinationScopeMismatch = 11045,
+    unknown_ = -1
 }
 
 
 export enum NetBiosNodeType {
-    Unknown = 0,
-    Broadcast = 1,
-    Peer2Peer = 2,
-    Mixed = 4,
-    Hybrid = 8
+    unknown_ = 0,
+    broadcast = 1,
+    peer2Peer = 2,
+    mixed = 4,
+    hybrid = 8
 }
 
 
 export enum NetworkInterfaceComponent {
-    IPv4 = 0,
-    IPv6 = 1
+    iPv4 = 0,
+    iPv6 = 1
 }
 
 
 export enum NetworkInterfaceType {
-    Unknown = 1,
-    Ethernet = 6,
-    TokenRing = 9,
-    Fddi = 15,
-    BasicIsdn = 20,
-    PrimaryIsdn = 21,
-    Ppp = 23,
-    Loopback = 24,
-    Ethernet3Megabit = 26,
-    Slip = 28,
-    Atm = 37,
-    GenericModem = 48,
-    FastEthernetT = 62,
-    Isdn = 63,
-    FastEthernetFx = 69,
-    Wireless80211 = 71,
-    AsymmetricDsl = 94,
-    RateAdaptDsl = 95,
-    SymmetricDsl = 96,
-    VeryHighSpeedDsl = 97,
-    IPOverAtm = 114,
-    GigabitEthernet = 117,
-    Tunnel = 131,
-    MultiRateSymmetricDsl = 143,
-    HighPerformanceSerialBus = 144,
-    Wman = 237,
-    Wwanpp = 243,
-    Wwanpp2 = 244
+    unknown_ = 1,
+    ethernet = 6,
+    tokenRing = 9,
+    fddi = 15,
+    basicIsdn = 20,
+    primaryIsdn = 21,
+    ppp = 23,
+    loopback = 24,
+    ethernet3Megabit = 26,
+    slip = 28,
+    atm = 37,
+    genericModem = 48,
+    fastEthernetT = 62,
+    isdn = 63,
+    fastEthernetFx = 69,
+    wireless80211 = 71,
+    asymmetricDsl = 94,
+    rateAdaptDsl = 95,
+    symmetricDsl = 96,
+    veryHighSpeedDsl = 97,
+    ipOverAtm = 114,
+    gigabitEthernet = 117,
+    tunnel = 131,
+    multiRateSymmetricDsl = 143,
+    highPerformanceSerialBus = 144,
+    wman = 237,
+    wwanpp = 243,
+    wwanpp2 = 244
 }
 
 
 export enum OperationalStatus {
-    Up = 1,
-    Down = 2,
-    Testing = 3,
-    Unknown = 4,
-    Dormant = 5,
-    NotPresent = 6,
-    LowerLayerDown = 7
+    up = 1,
+    down = 2,
+    testing = 3,
+    unknown_ = 4,
+    dormant = 5,
+    notPresent = 6,
+    lowerLayerDown = 7
 }
 
 
 export enum PrefixOrigin {
-    Other = 0,
-    Manual = 1,
-    WellKnown = 2,
-    Dhcp = 3,
-    RouterAdvertisement = 4
+    other = 0,
+    manual = 1,
+    wellKnown = 2,
+    dhcp = 3,
+    routerAdvertisement = 4
 }
 
 
 export enum ScopeLevel {
-    None = 0,
-    Interface = 1,
-    Link = 2,
-    Subnet = 3,
-    Admin = 4,
-    Site = 5,
-    Organization = 8,
-    Global = 14
+    none = 0,
+    interface_ = 1,
+    link = 2,
+    subnet = 3,
+    admin = 4,
+    site = 5,
+    organization = 8,
+    global = 14
 }
 
 
 export enum SuffixOrigin {
-    Other = 0,
-    Manual = 1,
-    WellKnown = 2,
-    OriginDhcp = 3,
-    LinkLayerAddress = 4,
-    Random = 5
+    other = 0,
+    manual = 1,
+    wellKnown = 2,
+    originDhcp = 3,
+    linkLayerAddress = 4,
+    random = 5
 }
 
 
 export enum TcpState {
-    Unknown = 0,
-    Closed = 1,
-    Listen = 2,
-    SynSent = 3,
-    SynReceived = 4,
-    Established = 5,
-    FinWait1 = 6,
-    FinWait2 = 7,
-    CloseWait = 8,
-    Closing = 9,
-    LastAck = 10,
-    TimeWait = 11,
-    DeleteTcb = 12
+    unknown_ = 0,
+    closed = 1,
+    listen = 2,
+    synSent = 3,
+    synReceived = 4,
+    established = 5,
+    finWait1 = 6,
+    finWait2 = 7,
+    closeWait = 8,
+    closing = 9,
+    lastAck = 10,
+    timeWait = 11,
+    deleteTcb = 12
 }
 
 
 export abstract class GatewayIPAddressInformation$instance {
-    readonly Address: IPAddress;
+    readonly address: IPAddress;
 }
 
 
 export type GatewayIPAddressInformation = GatewayIPAddressInformation$instance;
 
 export class GatewayIPAddressInformationCollection$instance {
-    readonly Count: int;
-    readonly IsReadOnly: boolean;
-    readonly Item: GatewayIPAddressInformation;
-    Add(address: GatewayIPAddressInformation): void;
-    Clear(): void;
-    Contains(address: GatewayIPAddressInformation): boolean;
-    CopyTo(array: GatewayIPAddressInformation[], offset: int): void;
-    GetEnumerator(): IEnumerator_1<GatewayIPAddressInformation>;
-    Remove(address: GatewayIPAddressInformation): boolean;
+    readonly count: int;
+    readonly isReadOnly: boolean;
+    readonly item: GatewayIPAddressInformation;
+    add(address: GatewayIPAddressInformation): void;
+    clear(): void;
+    contains(address: GatewayIPAddressInformation): boolean;
+    copyTo(array: GatewayIPAddressInformation[], offset: int): void;
+    getEnumerator(): IEnumerator_1<GatewayIPAddressInformation>;
+    remove(address: GatewayIPAddressInformation): boolean;
 }
 
 
@@ -223,85 +223,85 @@ export type GatewayIPAddressInformationCollection = GatewayIPAddressInformationC
 
 
 export abstract class IcmpV4Statistics$instance {
-    readonly AddressMaskRepliesReceived: long;
-    readonly AddressMaskRepliesSent: long;
-    readonly AddressMaskRequestsReceived: long;
-    readonly AddressMaskRequestsSent: long;
-    readonly DestinationUnreachableMessagesReceived: long;
-    readonly DestinationUnreachableMessagesSent: long;
-    readonly EchoRepliesReceived: long;
-    readonly EchoRepliesSent: long;
-    readonly EchoRequestsReceived: long;
-    readonly EchoRequestsSent: long;
-    readonly ErrorsReceived: long;
-    readonly ErrorsSent: long;
-    readonly MessagesReceived: long;
-    readonly MessagesSent: long;
-    readonly ParameterProblemsReceived: long;
-    readonly ParameterProblemsSent: long;
-    readonly RedirectsReceived: long;
-    readonly RedirectsSent: long;
-    readonly SourceQuenchesReceived: long;
-    readonly SourceQuenchesSent: long;
-    readonly TimeExceededMessagesReceived: long;
-    readonly TimeExceededMessagesSent: long;
-    readonly TimestampRepliesReceived: long;
-    readonly TimestampRepliesSent: long;
-    readonly TimestampRequestsReceived: long;
-    readonly TimestampRequestsSent: long;
+    readonly addressMaskRepliesReceived: long;
+    readonly addressMaskRepliesSent: long;
+    readonly addressMaskRequestsReceived: long;
+    readonly addressMaskRequestsSent: long;
+    readonly destinationUnreachableMessagesReceived: long;
+    readonly destinationUnreachableMessagesSent: long;
+    readonly echoRepliesReceived: long;
+    readonly echoRepliesSent: long;
+    readonly echoRequestsReceived: long;
+    readonly echoRequestsSent: long;
+    readonly errorsReceived: long;
+    readonly errorsSent: long;
+    readonly messagesReceived: long;
+    readonly messagesSent: long;
+    readonly parameterProblemsReceived: long;
+    readonly parameterProblemsSent: long;
+    readonly redirectsReceived: long;
+    readonly redirectsSent: long;
+    readonly sourceQuenchesReceived: long;
+    readonly sourceQuenchesSent: long;
+    readonly timeExceededMessagesReceived: long;
+    readonly timeExceededMessagesSent: long;
+    readonly timestampRepliesReceived: long;
+    readonly timestampRepliesSent: long;
+    readonly timestampRequestsReceived: long;
+    readonly timestampRequestsSent: long;
 }
 
 
 export type IcmpV4Statistics = IcmpV4Statistics$instance;
 
 export abstract class IcmpV6Statistics$instance {
-    readonly DestinationUnreachableMessagesReceived: long;
-    readonly DestinationUnreachableMessagesSent: long;
-    readonly EchoRepliesReceived: long;
-    readonly EchoRepliesSent: long;
-    readonly EchoRequestsReceived: long;
-    readonly EchoRequestsSent: long;
-    readonly ErrorsReceived: long;
-    readonly ErrorsSent: long;
-    readonly MembershipQueriesReceived: long;
-    readonly MembershipQueriesSent: long;
-    readonly MembershipReductionsReceived: long;
-    readonly MembershipReductionsSent: long;
-    readonly MembershipReportsReceived: long;
-    readonly MembershipReportsSent: long;
-    readonly MessagesReceived: long;
-    readonly MessagesSent: long;
-    readonly NeighborAdvertisementsReceived: long;
-    readonly NeighborAdvertisementsSent: long;
-    readonly NeighborSolicitsReceived: long;
-    readonly NeighborSolicitsSent: long;
-    readonly PacketTooBigMessagesReceived: long;
-    readonly PacketTooBigMessagesSent: long;
-    readonly ParameterProblemsReceived: long;
-    readonly ParameterProblemsSent: long;
-    readonly RedirectsReceived: long;
-    readonly RedirectsSent: long;
-    readonly RouterAdvertisementsReceived: long;
-    readonly RouterAdvertisementsSent: long;
-    readonly RouterSolicitsReceived: long;
-    readonly RouterSolicitsSent: long;
-    readonly TimeExceededMessagesReceived: long;
-    readonly TimeExceededMessagesSent: long;
+    readonly destinationUnreachableMessagesReceived: long;
+    readonly destinationUnreachableMessagesSent: long;
+    readonly echoRepliesReceived: long;
+    readonly echoRepliesSent: long;
+    readonly echoRequestsReceived: long;
+    readonly echoRequestsSent: long;
+    readonly errorsReceived: long;
+    readonly errorsSent: long;
+    readonly membershipQueriesReceived: long;
+    readonly membershipQueriesSent: long;
+    readonly membershipReductionsReceived: long;
+    readonly membershipReductionsSent: long;
+    readonly membershipReportsReceived: long;
+    readonly membershipReportsSent: long;
+    readonly messagesReceived: long;
+    readonly messagesSent: long;
+    readonly neighborAdvertisementsReceived: long;
+    readonly neighborAdvertisementsSent: long;
+    readonly neighborSolicitsReceived: long;
+    readonly neighborSolicitsSent: long;
+    readonly packetTooBigMessagesReceived: long;
+    readonly packetTooBigMessagesSent: long;
+    readonly parameterProblemsReceived: long;
+    readonly parameterProblemsSent: long;
+    readonly redirectsReceived: long;
+    readonly redirectsSent: long;
+    readonly routerAdvertisementsReceived: long;
+    readonly routerAdvertisementsSent: long;
+    readonly routerSolicitsReceived: long;
+    readonly routerSolicitsSent: long;
+    readonly timeExceededMessagesReceived: long;
+    readonly timeExceededMessagesSent: long;
 }
 
 
 export type IcmpV6Statistics = IcmpV6Statistics$instance;
 
 export class IPAddressCollection$instance {
-    readonly Count: int;
-    readonly IsReadOnly: boolean;
-    readonly Item: IPAddress;
-    Add(address: IPAddress): void;
-    Clear(): void;
-    Contains(address: IPAddress): boolean;
-    CopyTo(array: IPAddress[], offset: int): void;
-    GetEnumerator(): IEnumerator_1<IPAddress>;
-    Remove(address: IPAddress): boolean;
+    readonly count: int;
+    readonly isReadOnly: boolean;
+    readonly item: IPAddress;
+    add(address: IPAddress): void;
+    clear(): void;
+    contains(address: IPAddress): boolean;
+    copyTo(array: IPAddress[], offset: int): void;
+    getEnumerator(): IEnumerator_1<IPAddress>;
+    remove(address: IPAddress): boolean;
 }
 
 
@@ -315,24 +315,24 @@ export type IPAddressCollection = IPAddressCollection$instance & __IPAddressColl
 
 
 export abstract class IPAddressInformation$instance {
-    readonly Address: IPAddress;
-    readonly IsDnsEligible: boolean;
-    readonly IsTransient: boolean;
+    readonly address: IPAddress;
+    readonly isDnsEligible: boolean;
+    readonly isTransient: boolean;
 }
 
 
 export type IPAddressInformation = IPAddressInformation$instance;
 
 export class IPAddressInformationCollection$instance {
-    readonly Count: int;
-    readonly IsReadOnly: boolean;
-    readonly Item: IPAddressInformation;
-    Add(address: IPAddressInformation): void;
-    Clear(): void;
-    Contains(address: IPAddressInformation): boolean;
-    CopyTo(array: IPAddressInformation[], offset: int): void;
-    GetEnumerator(): IEnumerator_1<IPAddressInformation>;
-    Remove(address: IPAddressInformation): boolean;
+    readonly count: int;
+    readonly isReadOnly: boolean;
+    readonly item: IPAddressInformation;
+    add(address: IPAddressInformation): void;
+    clear(): void;
+    contains(address: IPAddressInformation): boolean;
+    copyTo(array: IPAddressInformation[], offset: int): void;
+    getEnumerator(): IEnumerator_1<IPAddressInformation>;
+    remove(address: IPAddressInformation): boolean;
 }
 
 
@@ -346,26 +346,26 @@ export type IPAddressInformationCollection = IPAddressInformationCollection$inst
 
 
 export abstract class IPGlobalProperties$instance {
-    readonly DhcpScopeName: string;
-    readonly DomainName: string;
-    readonly HostName: string;
-    readonly IsWinsProxy: boolean;
-    readonly NodeType: NetBiosNodeType;
-    BeginGetUnicastAddresses(callback: AsyncCallback, state: unknown): IAsyncResult;
-    EndGetUnicastAddresses(asyncResult: IAsyncResult): UnicastIPAddressInformationCollection;
-    abstract GetActiveTcpConnections(): TcpConnectionInformation[];
-    abstract GetActiveTcpListeners(): IPEndPoint[];
-    abstract GetActiveUdpListeners(): IPEndPoint[];
-    abstract GetIcmpV4Statistics(): IcmpV4Statistics;
-    abstract GetIcmpV6Statistics(): IcmpV6Statistics;
-    abstract GetIPv4GlobalStatistics(): IPGlobalStatistics;
-    abstract GetIPv6GlobalStatistics(): IPGlobalStatistics;
-    abstract GetTcpIPv4Statistics(): TcpStatistics;
-    abstract GetTcpIPv6Statistics(): TcpStatistics;
-    abstract GetUdpIPv4Statistics(): UdpStatistics;
-    abstract GetUdpIPv6Statistics(): UdpStatistics;
-    GetUnicastAddresses(): UnicastIPAddressInformationCollection;
-    GetUnicastAddressesAsync(): Task_1<UnicastIPAddressInformationCollection>;
+    readonly dhcpScopeName: string;
+    readonly domainName: string;
+    readonly hostName: string;
+    readonly isWinsProxy: boolean;
+    readonly nodeType: NetBiosNodeType;
+    beginGetUnicastAddresses(callback: AsyncCallback, state: unknown): IAsyncResult;
+    endGetUnicastAddresses(asyncResult: IAsyncResult): UnicastIPAddressInformationCollection;
+    abstract getActiveTcpConnections(): TcpConnectionInformation[];
+    abstract getActiveTcpListeners(): IPEndPoint[];
+    abstract getActiveUdpListeners(): IPEndPoint[];
+    abstract getIcmpV4Statistics(): IcmpV4Statistics;
+    abstract getIcmpV6Statistics(): IcmpV6Statistics;
+    abstract getIPv4GlobalStatistics(): IPGlobalStatistics;
+    abstract getIPv6GlobalStatistics(): IPGlobalStatistics;
+    abstract getTcpIPv4Statistics(): TcpStatistics;
+    abstract getTcpIPv6Statistics(): TcpStatistics;
+    abstract getUdpIPv4Statistics(): UdpStatistics;
+    abstract getUdpIPv6Statistics(): UdpStatistics;
+    getUnicastAddresses(): UnicastIPAddressInformationCollection;
+    getUnicastAddressesAsync(): Task_1<UnicastIPAddressInformationCollection>;
     static GetIPGlobalProperties(): IPGlobalProperties;
 }
 
@@ -373,131 +373,131 @@ export abstract class IPGlobalProperties$instance {
 export type IPGlobalProperties = IPGlobalProperties$instance;
 
 export abstract class IPGlobalStatistics$instance {
-    readonly DefaultTtl: int;
-    readonly ForwardingEnabled: boolean;
-    readonly NumberOfInterfaces: int;
-    readonly NumberOfIPAddresses: int;
-    readonly NumberOfRoutes: int;
-    readonly OutputPacketRequests: long;
-    readonly OutputPacketRoutingDiscards: long;
-    readonly OutputPacketsDiscarded: long;
-    readonly OutputPacketsWithNoRoute: long;
-    readonly PacketFragmentFailures: long;
-    readonly PacketReassembliesRequired: long;
-    readonly PacketReassemblyFailures: long;
-    readonly PacketReassemblyTimeout: long;
-    readonly PacketsFragmented: long;
-    readonly PacketsReassembled: long;
-    readonly ReceivedPackets: long;
-    readonly ReceivedPacketsDelivered: long;
-    readonly ReceivedPacketsDiscarded: long;
-    readonly ReceivedPacketsForwarded: long;
-    readonly ReceivedPacketsWithAddressErrors: long;
-    readonly ReceivedPacketsWithHeadersErrors: long;
-    readonly ReceivedPacketsWithUnknownProtocol: long;
+    readonly defaultTtl: int;
+    readonly forwardingEnabled: boolean;
+    readonly numberOfInterfaces: int;
+    readonly numberOfIPAddresses: int;
+    readonly numberOfRoutes: int;
+    readonly outputPacketRequests: long;
+    readonly outputPacketRoutingDiscards: long;
+    readonly outputPacketsDiscarded: long;
+    readonly outputPacketsWithNoRoute: long;
+    readonly packetFragmentFailures: long;
+    readonly packetReassembliesRequired: long;
+    readonly packetReassemblyFailures: long;
+    readonly packetReassemblyTimeout: long;
+    readonly packetsFragmented: long;
+    readonly packetsReassembled: long;
+    readonly receivedPackets: long;
+    readonly receivedPacketsDelivered: long;
+    readonly receivedPacketsDiscarded: long;
+    readonly receivedPacketsForwarded: long;
+    readonly receivedPacketsWithAddressErrors: long;
+    readonly receivedPacketsWithHeadersErrors: long;
+    readonly receivedPacketsWithUnknownProtocol: long;
 }
 
 
 export type IPGlobalStatistics = IPGlobalStatistics$instance;
 
 export abstract class IPInterfaceProperties$instance {
-    readonly AnycastAddresses: IPAddressInformationCollection;
-    readonly DhcpServerAddresses: IPAddressCollection;
-    readonly DnsAddresses: IPAddressCollection;
-    readonly DnsSuffix: string;
-    readonly GatewayAddresses: GatewayIPAddressInformationCollection;
-    readonly IsDnsEnabled: boolean;
-    readonly IsDynamicDnsEnabled: boolean;
-    readonly MulticastAddresses: MulticastIPAddressInformationCollection;
-    readonly UnicastAddresses: UnicastIPAddressInformationCollection;
-    readonly WinsServersAddresses: IPAddressCollection;
-    abstract GetIPv4Properties(): IPv4InterfaceProperties;
-    abstract GetIPv6Properties(): IPv6InterfaceProperties;
+    readonly anycastAddresses: IPAddressInformationCollection;
+    readonly dhcpServerAddresses: IPAddressCollection;
+    readonly dnsAddresses: IPAddressCollection;
+    readonly dnsSuffix: string;
+    readonly gatewayAddresses: GatewayIPAddressInformationCollection;
+    readonly isDnsEnabled: boolean;
+    readonly isDynamicDnsEnabled: boolean;
+    readonly multicastAddresses: MulticastIPAddressInformationCollection;
+    readonly unicastAddresses: UnicastIPAddressInformationCollection;
+    readonly winsServersAddresses: IPAddressCollection;
+    abstract getIPv4Properties(): IPv4InterfaceProperties;
+    abstract getIPv6Properties(): IPv6InterfaceProperties;
 }
 
 
 export type IPInterfaceProperties = IPInterfaceProperties$instance;
 
 export abstract class IPInterfaceStatistics$instance {
-    readonly BytesReceived: long;
-    readonly BytesSent: long;
-    readonly IncomingPacketsDiscarded: long;
-    readonly IncomingPacketsWithErrors: long;
-    readonly IncomingUnknownProtocolPackets: long;
-    readonly NonUnicastPacketsReceived: long;
-    readonly NonUnicastPacketsSent: long;
-    readonly OutgoingPacketsDiscarded: long;
-    readonly OutgoingPacketsWithErrors: long;
-    readonly OutputQueueLength: long;
-    readonly UnicastPacketsReceived: long;
-    readonly UnicastPacketsSent: long;
+    readonly bytesReceived: long;
+    readonly bytesSent: long;
+    readonly incomingPacketsDiscarded: long;
+    readonly incomingPacketsWithErrors: long;
+    readonly incomingUnknownProtocolPackets: long;
+    readonly nonUnicastPacketsReceived: long;
+    readonly nonUnicastPacketsSent: long;
+    readonly outgoingPacketsDiscarded: long;
+    readonly outgoingPacketsWithErrors: long;
+    readonly outputQueueLength: long;
+    readonly unicastPacketsReceived: long;
+    readonly unicastPacketsSent: long;
 }
 
 
 export type IPInterfaceStatistics = IPInterfaceStatistics$instance;
 
 export abstract class IPv4InterfaceProperties$instance {
-    readonly Index: int;
-    readonly IsAutomaticPrivateAddressingActive: boolean;
-    readonly IsAutomaticPrivateAddressingEnabled: boolean;
-    readonly IsDhcpEnabled: boolean;
-    readonly IsForwardingEnabled: boolean;
-    readonly Mtu: int;
-    readonly UsesWins: boolean;
+    readonly index: int;
+    readonly isAutomaticPrivateAddressingActive: boolean;
+    readonly isAutomaticPrivateAddressingEnabled: boolean;
+    readonly isDhcpEnabled: boolean;
+    readonly isForwardingEnabled: boolean;
+    readonly mtu: int;
+    readonly usesWins: boolean;
 }
 
 
 export type IPv4InterfaceProperties = IPv4InterfaceProperties$instance;
 
 export abstract class IPv4InterfaceStatistics$instance {
-    readonly BytesReceived: long;
-    readonly BytesSent: long;
-    readonly IncomingPacketsDiscarded: long;
-    readonly IncomingPacketsWithErrors: long;
-    readonly IncomingUnknownProtocolPackets: long;
-    readonly NonUnicastPacketsReceived: long;
-    readonly NonUnicastPacketsSent: long;
-    readonly OutgoingPacketsDiscarded: long;
-    readonly OutgoingPacketsWithErrors: long;
-    readonly OutputQueueLength: long;
-    readonly UnicastPacketsReceived: long;
-    readonly UnicastPacketsSent: long;
+    readonly bytesReceived: long;
+    readonly bytesSent: long;
+    readonly incomingPacketsDiscarded: long;
+    readonly incomingPacketsWithErrors: long;
+    readonly incomingUnknownProtocolPackets: long;
+    readonly nonUnicastPacketsReceived: long;
+    readonly nonUnicastPacketsSent: long;
+    readonly outgoingPacketsDiscarded: long;
+    readonly outgoingPacketsWithErrors: long;
+    readonly outputQueueLength: long;
+    readonly unicastPacketsReceived: long;
+    readonly unicastPacketsSent: long;
 }
 
 
 export type IPv4InterfaceStatistics = IPv4InterfaceStatistics$instance;
 
 export abstract class IPv6InterfaceProperties$instance {
-    readonly Index: int;
-    readonly Mtu: int;
-    GetScopeId(scopeLevel: ScopeLevel): long;
+    readonly index: int;
+    readonly mtu: int;
+    getScopeId(scopeLevel: ScopeLevel): long;
 }
 
 
 export type IPv6InterfaceProperties = IPv6InterfaceProperties$instance;
 
 export abstract class MulticastIPAddressInformation$instance extends IPAddressInformation$instance {
-    readonly AddressPreferredLifetime: long;
-    readonly AddressValidLifetime: long;
-    readonly DhcpLeaseLifetime: long;
-    readonly DuplicateAddressDetectionState: DuplicateAddressDetectionState;
-    readonly PrefixOrigin: PrefixOrigin;
-    readonly SuffixOrigin: SuffixOrigin;
+    readonly addressPreferredLifetime: long;
+    readonly addressValidLifetime: long;
+    readonly dhcpLeaseLifetime: long;
+    readonly duplicateAddressDetectionState: DuplicateAddressDetectionState;
+    readonly prefixOrigin: PrefixOrigin;
+    readonly suffixOrigin: SuffixOrigin;
 }
 
 
 export type MulticastIPAddressInformation = MulticastIPAddressInformation$instance;
 
 export class MulticastIPAddressInformationCollection$instance {
-    readonly Count: int;
-    readonly IsReadOnly: boolean;
-    readonly Item: MulticastIPAddressInformation;
-    Add(address: MulticastIPAddressInformation): void;
-    Clear(): void;
-    Contains(address: MulticastIPAddressInformation): boolean;
-    CopyTo(array: MulticastIPAddressInformation[], offset: int): void;
-    GetEnumerator(): IEnumerator_1<MulticastIPAddressInformation>;
-    Remove(address: MulticastIPAddressInformation): boolean;
+    readonly count: int;
+    readonly isReadOnly: boolean;
+    readonly item: MulticastIPAddressInformation;
+    add(address: MulticastIPAddressInformation): void;
+    clear(): void;
+    contains(address: MulticastIPAddressInformation): boolean;
+    copyTo(array: MulticastIPAddressInformation[], offset: int): void;
+    getEnumerator(): IEnumerator_1<MulticastIPAddressInformation>;
+    remove(address: MulticastIPAddressInformation): boolean;
 }
 
 
@@ -512,11 +512,11 @@ export type MulticastIPAddressInformationCollection = MulticastIPAddressInformat
 
 export class NetworkAddressChangedEventHandler$instance extends Function {
     constructor(object_: unknown, method: nint);
-    BeginInvoke(sender: unknown, e: EventArgs, callback: AsyncCallback, object_: unknown): IAsyncResult;
-    Clone(): unknown;
-    EndInvoke(result: IAsyncResult): void;
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
-    Invoke(sender: unknown, e: EventArgs): void;
+    beginInvoke(sender: unknown, e: EventArgs, callback: AsyncCallback, object_: unknown): IAsyncResult;
+    clone(): unknown;
+    endInvoke(result: IAsyncResult): void;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
+    invoke(sender: unknown, e: EventArgs): void;
 }
 
 
@@ -530,11 +530,11 @@ export type NetworkAddressChangedEventHandler = NetworkAddressChangedEventHandle
 
 export class NetworkAvailabilityChangedEventHandler$instance extends Function {
     constructor(object_: unknown, method: nint);
-    BeginInvoke(sender: unknown, e: NetworkAvailabilityEventArgs, callback: AsyncCallback, object_: unknown): IAsyncResult;
-    Clone(): unknown;
-    EndInvoke(result: IAsyncResult): void;
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
-    Invoke(sender: unknown, e: NetworkAvailabilityEventArgs): void;
+    beginInvoke(sender: unknown, e: NetworkAvailabilityEventArgs, callback: AsyncCallback, object_: unknown): IAsyncResult;
+    clone(): unknown;
+    endInvoke(result: IAsyncResult): void;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
+    invoke(sender: unknown, e: NetworkAvailabilityEventArgs): void;
 }
 
 
@@ -547,7 +547,7 @@ export type NetworkAvailabilityChangedEventHandler = NetworkAvailabilityChangedE
 
 
 export class NetworkAvailabilityEventArgs$instance extends System_Internal.EventArgs$instance {
-    readonly IsAvailable: boolean;
+    readonly isAvailable: boolean;
 }
 
 
@@ -564,8 +564,8 @@ export type NetworkChange = NetworkChange$instance;
 export class NetworkInformationException$instance extends System_ComponentModel_Internal.Win32Exception$instance {
     constructor();
     constructor(errorCode: int);
-    readonly ErrorCode: int;
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    readonly errorCode: int;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
@@ -577,19 +577,19 @@ export type NetworkInformationException = NetworkInformationException$instance &
 
 
 export abstract class NetworkInterface$instance {
-    readonly Description: string;
-    readonly Id: string;
-    readonly IsReceiveOnly: boolean;
-    readonly Name: string;
-    readonly NetworkInterfaceType: NetworkInterfaceType;
-    readonly OperationalStatus: OperationalStatus;
-    readonly Speed: long;
-    readonly SupportsMulticast: boolean;
-    GetIPProperties(): IPInterfaceProperties;
-    GetIPStatistics(): IPInterfaceStatistics;
-    GetIPv4Statistics(): IPv4InterfaceStatistics;
-    GetPhysicalAddress(): PhysicalAddress;
-    Supports(networkInterfaceComponent: NetworkInterfaceComponent): boolean;
+    readonly description: string;
+    readonly id: string;
+    readonly isReceiveOnly: boolean;
+    readonly name: string;
+    readonly networkInterfaceType: NetworkInterfaceType;
+    readonly operationalStatus: OperationalStatus;
+    readonly speed: long;
+    readonly supportsMulticast: boolean;
+    getIPProperties(): IPInterfaceProperties;
+    getIPStatistics(): IPInterfaceStatistics;
+    getIPv4Statistics(): IPv4InterfaceStatistics;
+    getPhysicalAddress(): PhysicalAddress;
+    supports(networkInterfaceComponent: NetworkInterfaceComponent): boolean;
     static readonly IPv6LoopbackInterfaceIndex: int;
     static readonly LoopbackInterfaceIndex: int;
     static GetAllNetworkInterfaces(): NetworkInterface[];
@@ -601,11 +601,11 @@ export type NetworkInterface = NetworkInterface$instance;
 
 export class PhysicalAddress$instance {
     constructor(address: byte[]);
-    Equals(comparand: unknown): boolean;
-    GetAddressBytes(): byte[];
-    GetHashCode(): int;
-    ToString(): string;
-    static readonly None: PhysicalAddress;
+    equals(comparand: unknown): boolean;
+    getAddressBytes(): byte[];
+    getHashCode(): int;
+    toString(): string;
+    static readonly none: PhysicalAddress;
     static Parse(address: ReadOnlySpan_1<CLROf<char>>): PhysicalAddress;
     static Parse(address: string): PhysicalAddress;
     static TryParse(address: ReadOnlySpan_1<CLROf<char>>, value: { value: ref<PhysicalAddress> }): boolean;
@@ -617,36 +617,36 @@ export type PhysicalAddress = PhysicalAddress$instance;
 
 export class Ping$instance extends System_ComponentModel_Internal.Component$instance {
     constructor();
-    Dispose(): void;
-    Send(hostNameOrAddress: string): PingReply;
-    Send(hostNameOrAddress: string, timeout: int): PingReply;
-    Send(address: IPAddress): PingReply;
-    Send(address: IPAddress, timeout: int): PingReply;
-    Send(hostNameOrAddress: string, timeout: int, buffer: byte[]): PingReply;
-    Send(address: IPAddress, timeout: int, buffer: byte[]): PingReply;
-    Send(hostNameOrAddress: string, timeout: int, buffer: byte[], options: PingOptions): PingReply;
-    Send(address: IPAddress, timeout: int, buffer: byte[], options: PingOptions): PingReply;
-    Send(address: IPAddress, timeout: TimeSpan, buffer?: byte[], options?: PingOptions): PingReply;
-    Send(hostNameOrAddress: string, timeout: TimeSpan, buffer?: byte[], options?: PingOptions): PingReply;
-    SendAsync(hostNameOrAddress: string, userToken: unknown): void;
-    SendAsync(hostNameOrAddress: string, timeout: int, userToken: unknown): void;
-    SendAsync(address: IPAddress, userToken: unknown): void;
-    SendAsync(address: IPAddress, timeout: int, userToken: unknown): void;
-    SendAsync(hostNameOrAddress: string, timeout: int, buffer: byte[], userToken: unknown): void;
-    SendAsync(address: IPAddress, timeout: int, buffer: byte[], userToken: unknown): void;
-    SendAsync(hostNameOrAddress: string, timeout: int, buffer: byte[], options: PingOptions, userToken: unknown): void;
-    SendAsync(address: IPAddress, timeout: int, buffer: byte[], options: PingOptions, userToken: unknown): void;
-    SendAsyncCancel(): void;
-    SendPingAsync(address: IPAddress): Task_1<PingReply>;
-    SendPingAsync(hostNameOrAddress: string): Task_1<PingReply>;
-    SendPingAsync(address: IPAddress, timeout: int): Task_1<PingReply>;
-    SendPingAsync(hostNameOrAddress: string, timeout: int): Task_1<PingReply>;
-    SendPingAsync(address: IPAddress, timeout: int, buffer: byte[]): Task_1<PingReply>;
-    SendPingAsync(hostNameOrAddress: string, timeout: int, buffer: byte[]): Task_1<PingReply>;
-    SendPingAsync(address: IPAddress, timeout: int, buffer: byte[], options: PingOptions): Task_1<PingReply>;
-    SendPingAsync(address: IPAddress, timeout: TimeSpan, buffer?: byte[], options?: PingOptions, cancellationToken?: CancellationToken): Task_1<PingReply>;
-    SendPingAsync(hostNameOrAddress: string, timeout: int, buffer: byte[], options: PingOptions): Task_1<PingReply>;
-    SendPingAsync(hostNameOrAddress: string, timeout: TimeSpan, buffer?: byte[], options?: PingOptions, cancellationToken?: CancellationToken): Task_1<PingReply>;
+    dispose(): void;
+    send(hostNameOrAddress: string): PingReply;
+    send(hostNameOrAddress: string, timeout: int): PingReply;
+    send(address: IPAddress): PingReply;
+    send(address: IPAddress, timeout: int): PingReply;
+    send(hostNameOrAddress: string, timeout: int, buffer: byte[]): PingReply;
+    send(address: IPAddress, timeout: int, buffer: byte[]): PingReply;
+    send(hostNameOrAddress: string, timeout: int, buffer: byte[], options: PingOptions): PingReply;
+    send(address: IPAddress, timeout: int, buffer: byte[], options: PingOptions): PingReply;
+    send(address: IPAddress, timeout: TimeSpan, buffer?: byte[], options?: PingOptions): PingReply;
+    send(hostNameOrAddress: string, timeout: TimeSpan, buffer?: byte[], options?: PingOptions): PingReply;
+    sendAsync(hostNameOrAddress: string, userToken: unknown): void;
+    sendAsync(hostNameOrAddress: string, timeout: int, userToken: unknown): void;
+    sendAsync(address: IPAddress, userToken: unknown): void;
+    sendAsync(address: IPAddress, timeout: int, userToken: unknown): void;
+    sendAsync(hostNameOrAddress: string, timeout: int, buffer: byte[], userToken: unknown): void;
+    sendAsync(address: IPAddress, timeout: int, buffer: byte[], userToken: unknown): void;
+    sendAsync(hostNameOrAddress: string, timeout: int, buffer: byte[], options: PingOptions, userToken: unknown): void;
+    sendAsync(address: IPAddress, timeout: int, buffer: byte[], options: PingOptions, userToken: unknown): void;
+    sendAsyncCancel(): void;
+    sendPingAsync(address: IPAddress): Task_1<PingReply>;
+    sendPingAsync(hostNameOrAddress: string): Task_1<PingReply>;
+    sendPingAsync(address: IPAddress, timeout: int): Task_1<PingReply>;
+    sendPingAsync(hostNameOrAddress: string, timeout: int): Task_1<PingReply>;
+    sendPingAsync(address: IPAddress, timeout: int, buffer: byte[]): Task_1<PingReply>;
+    sendPingAsync(hostNameOrAddress: string, timeout: int, buffer: byte[]): Task_1<PingReply>;
+    sendPingAsync(address: IPAddress, timeout: int, buffer: byte[], options: PingOptions): Task_1<PingReply>;
+    sendPingAsync(address: IPAddress, timeout: TimeSpan, buffer?: byte[], options?: PingOptions, cancellationToken?: CancellationToken): Task_1<PingReply>;
+    sendPingAsync(hostNameOrAddress: string, timeout: int, buffer: byte[], options: PingOptions): Task_1<PingReply>;
+    sendPingAsync(hostNameOrAddress: string, timeout: TimeSpan, buffer?: byte[], options?: PingOptions, cancellationToken?: CancellationToken): Task_1<PingReply>;
 }
 
 
@@ -659,7 +659,7 @@ export type Ping = Ping$instance & __Ping$views;
 
 
 export class PingCompletedEventArgs$instance extends System_ComponentModel_Internal.AsyncCompletedEventArgs$instance {
-    readonly Reply: PingReply;
+    readonly reply: PingReply;
 }
 
 
@@ -667,11 +667,11 @@ export type PingCompletedEventArgs = PingCompletedEventArgs$instance;
 
 export class PingCompletedEventHandler$instance extends Function {
     constructor(object_: unknown, method: nint);
-    BeginInvoke(sender: unknown, e: PingCompletedEventArgs, callback: AsyncCallback, object_: unknown): IAsyncResult;
-    Clone(): unknown;
-    EndInvoke(result: IAsyncResult): void;
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
-    Invoke(sender: unknown, e: PingCompletedEventArgs): void;
+    beginInvoke(sender: unknown, e: PingCompletedEventArgs, callback: AsyncCallback, object_: unknown): IAsyncResult;
+    clone(): unknown;
+    endInvoke(result: IAsyncResult): void;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
+    invoke(sender: unknown, e: PingCompletedEventArgs): void;
 }
 
 
@@ -686,7 +686,7 @@ export type PingCompletedEventHandler = PingCompletedEventHandler$instance & __P
 export class PingException$instance extends System_Internal.InvalidOperationException$instance {
     constructor(message: string);
     constructor(message: string, innerException: Exception);
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
@@ -700,88 +700,88 @@ export type PingException = PingException$instance & __PingException$views;
 export class PingOptions$instance {
     constructor();
     constructor(ttl: int, dontFragment: boolean);
-    DontFragment: boolean;
-    Ttl: int;
+    dontFragment: boolean;
+    ttl: int;
 }
 
 
 export type PingOptions = PingOptions$instance;
 
 export class PingReply$instance {
-    readonly Address: IPAddress;
-    readonly Buffer: byte[];
-    readonly Options: PingOptions;
-    readonly RoundtripTime: long;
-    readonly Status: IPStatus;
+    readonly address: IPAddress;
+    readonly buffer: byte[];
+    readonly options: PingOptions;
+    readonly roundtripTime: long;
+    readonly status: IPStatus;
 }
 
 
 export type PingReply = PingReply$instance;
 
 export abstract class TcpConnectionInformation$instance {
-    readonly LocalEndPoint: IPEndPoint;
-    readonly RemoteEndPoint: IPEndPoint;
-    readonly State: TcpState;
+    readonly localEndPoint: IPEndPoint;
+    readonly remoteEndPoint: IPEndPoint;
+    readonly state: TcpState;
 }
 
 
 export type TcpConnectionInformation = TcpConnectionInformation$instance;
 
 export abstract class TcpStatistics$instance {
-    readonly ConnectionsAccepted: long;
-    readonly ConnectionsInitiated: long;
-    readonly CumulativeConnections: long;
-    readonly CurrentConnections: long;
-    readonly ErrorsReceived: long;
-    readonly FailedConnectionAttempts: long;
-    readonly MaximumConnections: long;
-    readonly MaximumTransmissionTimeout: long;
-    readonly MinimumTransmissionTimeout: long;
-    readonly ResetConnections: long;
-    readonly ResetsSent: long;
-    readonly SegmentsReceived: long;
-    readonly SegmentsResent: long;
-    readonly SegmentsSent: long;
+    readonly connectionsAccepted: long;
+    readonly connectionsInitiated: long;
+    readonly cumulativeConnections: long;
+    readonly currentConnections: long;
+    readonly errorsReceived: long;
+    readonly failedConnectionAttempts: long;
+    readonly maximumConnections: long;
+    readonly maximumTransmissionTimeout: long;
+    readonly minimumTransmissionTimeout: long;
+    readonly resetConnections: long;
+    readonly resetsSent: long;
+    readonly segmentsReceived: long;
+    readonly segmentsResent: long;
+    readonly segmentsSent: long;
 }
 
 
 export type TcpStatistics = TcpStatistics$instance;
 
 export abstract class UdpStatistics$instance {
-    readonly DatagramsReceived: long;
-    readonly DatagramsSent: long;
-    readonly IncomingDatagramsDiscarded: long;
-    readonly IncomingDatagramsWithErrors: long;
-    readonly UdpListeners: int;
+    readonly datagramsReceived: long;
+    readonly datagramsSent: long;
+    readonly incomingDatagramsDiscarded: long;
+    readonly incomingDatagramsWithErrors: long;
+    readonly udpListeners: int;
 }
 
 
 export type UdpStatistics = UdpStatistics$instance;
 
 export abstract class UnicastIPAddressInformation$instance extends IPAddressInformation$instance {
-    readonly AddressPreferredLifetime: long;
-    readonly AddressValidLifetime: long;
-    readonly DhcpLeaseLifetime: long;
-    readonly DuplicateAddressDetectionState: DuplicateAddressDetectionState;
-    readonly IPv4Mask: IPAddress;
-    readonly PrefixLength: int;
-    readonly PrefixOrigin: PrefixOrigin;
-    readonly SuffixOrigin: SuffixOrigin;
+    readonly addressPreferredLifetime: long;
+    readonly addressValidLifetime: long;
+    readonly dhcpLeaseLifetime: long;
+    readonly duplicateAddressDetectionState: DuplicateAddressDetectionState;
+    readonly iPv4Mask: IPAddress;
+    readonly prefixLength: int;
+    readonly prefixOrigin: PrefixOrigin;
+    readonly suffixOrigin: SuffixOrigin;
 }
 
 
 export type UnicastIPAddressInformation = UnicastIPAddressInformation$instance;
 
 export class UnicastIPAddressInformationCollection$instance {
-    readonly Count: int;
-    readonly IsReadOnly: boolean;
-    readonly Item: UnicastIPAddressInformation;
-    Add(address: UnicastIPAddressInformation): void;
-    Clear(): void;
-    Contains(address: UnicastIPAddressInformation): boolean;
-    CopyTo(array: UnicastIPAddressInformation[], offset: int): void;
-    GetEnumerator(): IEnumerator_1<UnicastIPAddressInformation>;
-    Remove(address: UnicastIPAddressInformation): boolean;
+    readonly count: int;
+    readonly isReadOnly: boolean;
+    readonly item: UnicastIPAddressInformation;
+    add(address: UnicastIPAddressInformation): void;
+    clear(): void;
+    contains(address: UnicastIPAddressInformation): boolean;
+    copyTo(array: UnicastIPAddressInformation[], offset: int): void;
+    getEnumerator(): IEnumerator_1<UnicastIPAddressInformation>;
+    remove(address: UnicastIPAddressInformation): boolean;
 }
 
 

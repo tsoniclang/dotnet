@@ -35,21 +35,21 @@ export type CLROf<T> =
     T; // Identity fallback for non-primitive types
 
 export enum FormatterAssemblyStyle {
-    Simple = 0,
-    Full = 1
+    simple = 0,
+    full = 1
 }
 
 
 export enum FormatterTypeStyle {
-    TypesWhenNeeded = 0,
-    TypesAlways = 1,
-    XsdString = 2
+    typesWhenNeeded = 0,
+    typesAlways = 1,
+    xsdString = 2
 }
 
 
 export enum TypeFilterLevel {
-    Low = 2,
-    Full = 3
+    low = 2,
+    full = 3
 }
 
 
