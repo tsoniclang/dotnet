@@ -130,9 +130,9 @@ export type XsltCompileException = XsltCompileException$instance & __XsltCompile
 export abstract class XsltContext$instance extends System_Xml_Internal.XmlNamespaceManager$instance {
     readonly whitespace: boolean;
     abstract compareDocument(baseUri: string, nextbaseUri: string): int;
-    GetEnumerator(): IEnumerator;
-    GetNamespacesInScope(scope: XmlNamespaceScope): IDictionary_2<CLROf<string>, CLROf<string>>;
-    LookupNamespace(prefix: string): string;
+    getEnumerator(): IEnumerator;
+    getNamespacesInScope(scope: XmlNamespaceScope): IDictionary_2<CLROf<string>, CLROf<string>>;
+    lookupNamespace(prefix: string): string;
     abstract preserveWhitespace(node: XPathNavigator): boolean;
     abstract resolveFunction(prefix: string, name: string, ArgTypes: XPathResultType[]): IXsltContextFunction;
     abstract resolveVariable(prefix: string, name: string): IXsltContextVariable;
@@ -143,8 +143,6 @@ export interface __XsltContext$views {
     As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
     As_IXmlNamespaceResolver(): System_Xml_Internal.IXmlNamespaceResolver$instance;
 }
-
-export interface XsltContext$instance extends System_Collections_Internal.IEnumerable$instance, System_Xml_Internal.IXmlNamespaceResolver$instance {}
 
 export type XsltContext = XsltContext$instance & __XsltContext$views;
 
@@ -178,9 +176,9 @@ export type XsltMessageEncounteredEventArgs = XsltMessageEncounteredEventArgs$in
 export class XsltMessageEncounteredEventHandler$instance extends Function {
     constructor(object_: unknown, method: nint);
     beginInvoke(sender: unknown, e: XsltMessageEncounteredEventArgs, callback: AsyncCallback, object_: unknown): IAsyncResult;
-    Clone(): unknown;
+    clone(): unknown;
     endInvoke(result: IAsyncResult): void;
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
     invoke(sender: unknown, e: XsltMessageEncounteredEventArgs): void;
 }
 
@@ -189,8 +187,6 @@ export interface __XsltMessageEncounteredEventHandler$views {
     As_ICloneable(): System_Internal.ICloneable$instance;
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
-
-export interface XsltMessageEncounteredEventHandler$instance extends System_Internal.ICloneable$instance {}
 
 export type XsltMessageEncounteredEventHandler = XsltMessageEncounteredEventHandler$instance & __XsltMessageEncounteredEventHandler$views;
 
@@ -234,7 +230,7 @@ export class XsltSettings$instance {
     constructor(enableDocumentFunction: boolean, enableScript: boolean);
     enableDocumentFunction: boolean;
     enableScript: boolean;
-    static readonly default: XsltSettings;
+    static readonly default_: XsltSettings;
     static readonly trustedXslt: XsltSettings;
 }
 

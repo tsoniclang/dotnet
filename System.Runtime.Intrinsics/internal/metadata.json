@@ -834,7 +834,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Intrinsics.Vector128::get_E():Vector128_1",
           "clrName": "get_E",
-          "tsEmitName": "get_E",
+          "tsEmitName": "getE",
           "normalizedSignature": "get_E|():Vector128_1|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -850,7 +850,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Intrinsics.Vector128::get_Pi():Vector128_1",
           "clrName": "get_Pi",
-          "tsEmitName": "get_Pi",
+          "tsEmitName": "getPi",
           "normalizedSignature": "get_Pi|():Vector128_1|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -866,7 +866,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Intrinsics.Vector128::get_Tau():Vector128_1",
           "clrName": "get_Tau",
-          "tsEmitName": "get_Tau",
+          "tsEmitName": "getTau",
           "normalizedSignature": "get_Tau|():Vector128_1|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -882,7 +882,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Intrinsics.Vector128::get_Epsilon():Vector128_1",
           "clrName": "get_Epsilon",
-          "tsEmitName": "get_Epsilon",
+          "tsEmitName": "getEpsilon",
           "normalizedSignature": "get_Epsilon|():Vector128_1|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -898,7 +898,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Intrinsics.Vector128::get_NaN():Vector128_1",
           "clrName": "get_NaN",
-          "tsEmitName": "get_NaN",
+          "tsEmitName": "getNan",
           "normalizedSignature": "get_NaN|():Vector128_1|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -914,7 +914,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Intrinsics.Vector128::get_NegativeInfinity():Vector128_1",
           "clrName": "get_NegativeInfinity",
-          "tsEmitName": "get_NegativeInfinity",
+          "tsEmitName": "getNegativeinfinity",
           "normalizedSignature": "get_NegativeInfinity|():Vector128_1|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -930,7 +930,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Intrinsics.Vector128::get_NegativeZero():Vector128_1",
           "clrName": "get_NegativeZero",
-          "tsEmitName": "get_NegativeZero",
+          "tsEmitName": "getNegativezero",
           "normalizedSignature": "get_NegativeZero|():Vector128_1|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -946,7 +946,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Intrinsics.Vector128::get_PositiveInfinity():Vector128_1",
           "clrName": "get_PositiveInfinity",
-          "tsEmitName": "get_PositiveInfinity",
+          "tsEmitName": "getPositiveinfinity",
           "normalizedSignature": "get_PositiveInfinity|():Vector128_1|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -962,7 +962,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Intrinsics.Vector128::get_NegativeOne():Vector128_1",
           "clrName": "get_NegativeOne",
-          "tsEmitName": "get_NegativeOne",
+          "tsEmitName": "getNegativeone",
           "normalizedSignature": "get_NegativeOne|():Vector128_1|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6083,7 +6083,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Intrinsics.Vector256::get_E():Vector256_1",
           "clrName": "get_E",
-          "tsEmitName": "get_E",
+          "tsEmitName": "getE",
           "normalizedSignature": "get_E|():Vector256_1|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6099,7 +6099,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Intrinsics.Vector256::get_Pi():Vector256_1",
           "clrName": "get_Pi",
-          "tsEmitName": "get_Pi",
+          "tsEmitName": "getPi",
           "normalizedSignature": "get_Pi|():Vector256_1|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6115,7 +6115,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Intrinsics.Vector256::get_Tau():Vector256_1",
           "clrName": "get_Tau",
-          "tsEmitName": "get_Tau",
+          "tsEmitName": "getTau",
           "normalizedSignature": "get_Tau|():Vector256_1|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6131,7 +6131,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Intrinsics.Vector256::get_Epsilon():Vector256_1",
           "clrName": "get_Epsilon",
-          "tsEmitName": "get_Epsilon",
+          "tsEmitName": "getEpsilon",
           "normalizedSignature": "get_Epsilon|():Vector256_1|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6147,7 +6147,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Intrinsics.Vector256::get_NaN():Vector256_1",
           "clrName": "get_NaN",
-          "tsEmitName": "get_NaN",
+          "tsEmitName": "getNan",
           "normalizedSignature": "get_NaN|():Vector256_1|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6163,7 +6163,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Intrinsics.Vector256::get_NegativeInfinity():Vector256_1",
           "clrName": "get_NegativeInfinity",
-          "tsEmitName": "get_NegativeInfinity",
+          "tsEmitName": "getNegativeinfinity",
           "normalizedSignature": "get_NegativeInfinity|():Vector256_1|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6179,7 +6179,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Intrinsics.Vector256::get_NegativeZero():Vector256_1",
           "clrName": "get_NegativeZero",
-          "tsEmitName": "get_NegativeZero",
+          "tsEmitName": "getNegativezero",
           "normalizedSignature": "get_NegativeZero|():Vector256_1|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6195,7 +6195,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Intrinsics.Vector256::get_PositiveInfinity():Vector256_1",
           "clrName": "get_PositiveInfinity",
-          "tsEmitName": "get_PositiveInfinity",
+          "tsEmitName": "getPositiveinfinity",
           "normalizedSignature": "get_PositiveInfinity|():Vector256_1|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6211,7 +6211,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Intrinsics.Vector256::get_NegativeOne():Vector256_1",
           "clrName": "get_NegativeOne",
-          "tsEmitName": "get_NegativeOne",
+          "tsEmitName": "getNegativeone",
           "normalizedSignature": "get_NegativeOne|():Vector256_1|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -11156,7 +11156,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Intrinsics.Vector512::get_E():Vector512_1",
           "clrName": "get_E",
-          "tsEmitName": "get_E",
+          "tsEmitName": "getE",
           "normalizedSignature": "get_E|():Vector512_1|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -11172,7 +11172,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Intrinsics.Vector512::get_Pi():Vector512_1",
           "clrName": "get_Pi",
-          "tsEmitName": "get_Pi",
+          "tsEmitName": "getPi",
           "normalizedSignature": "get_Pi|():Vector512_1|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -11188,7 +11188,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Intrinsics.Vector512::get_Tau():Vector512_1",
           "clrName": "get_Tau",
-          "tsEmitName": "get_Tau",
+          "tsEmitName": "getTau",
           "normalizedSignature": "get_Tau|():Vector512_1|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -11204,7 +11204,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Intrinsics.Vector512::get_Epsilon():Vector512_1",
           "clrName": "get_Epsilon",
-          "tsEmitName": "get_Epsilon",
+          "tsEmitName": "getEpsilon",
           "normalizedSignature": "get_Epsilon|():Vector512_1|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -11220,7 +11220,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Intrinsics.Vector512::get_NaN():Vector512_1",
           "clrName": "get_NaN",
-          "tsEmitName": "get_NaN",
+          "tsEmitName": "getNan",
           "normalizedSignature": "get_NaN|():Vector512_1|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -11236,7 +11236,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Intrinsics.Vector512::get_NegativeInfinity():Vector512_1",
           "clrName": "get_NegativeInfinity",
-          "tsEmitName": "get_NegativeInfinity",
+          "tsEmitName": "getNegativeinfinity",
           "normalizedSignature": "get_NegativeInfinity|():Vector512_1|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -11252,7 +11252,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Intrinsics.Vector512::get_NegativeZero():Vector512_1",
           "clrName": "get_NegativeZero",
-          "tsEmitName": "get_NegativeZero",
+          "tsEmitName": "getNegativezero",
           "normalizedSignature": "get_NegativeZero|():Vector512_1|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -11268,7 +11268,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Intrinsics.Vector512::get_PositiveInfinity():Vector512_1",
           "clrName": "get_PositiveInfinity",
-          "tsEmitName": "get_PositiveInfinity",
+          "tsEmitName": "getPositiveinfinity",
           "normalizedSignature": "get_PositiveInfinity|():Vector512_1|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -11284,7 +11284,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Intrinsics.Vector512::get_NegativeOne():Vector512_1",
           "clrName": "get_NegativeOne",
-          "tsEmitName": "get_NegativeOne",
+          "tsEmitName": "getNegativeone",
           "normalizedSignature": "get_NegativeOne|():Vector512_1|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -16213,7 +16213,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Intrinsics.Vector64::get_E():Vector64_1",
           "clrName": "get_E",
-          "tsEmitName": "get_E",
+          "tsEmitName": "getE",
           "normalizedSignature": "get_E|():Vector64_1|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -16229,7 +16229,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Intrinsics.Vector64::get_Pi():Vector64_1",
           "clrName": "get_Pi",
-          "tsEmitName": "get_Pi",
+          "tsEmitName": "getPi",
           "normalizedSignature": "get_Pi|():Vector64_1|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -16245,7 +16245,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Intrinsics.Vector64::get_Tau():Vector64_1",
           "clrName": "get_Tau",
-          "tsEmitName": "get_Tau",
+          "tsEmitName": "getTau",
           "normalizedSignature": "get_Tau|():Vector64_1|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -16261,7 +16261,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Intrinsics.Vector64::get_Epsilon():Vector64_1",
           "clrName": "get_Epsilon",
-          "tsEmitName": "get_Epsilon",
+          "tsEmitName": "getEpsilon",
           "normalizedSignature": "get_Epsilon|():Vector64_1|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -16277,7 +16277,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Intrinsics.Vector64::get_NaN():Vector64_1",
           "clrName": "get_NaN",
-          "tsEmitName": "get_NaN",
+          "tsEmitName": "getNan",
           "normalizedSignature": "get_NaN|():Vector64_1|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -16293,7 +16293,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Intrinsics.Vector64::get_NegativeInfinity():Vector64_1",
           "clrName": "get_NegativeInfinity",
-          "tsEmitName": "get_NegativeInfinity",
+          "tsEmitName": "getNegativeinfinity",
           "normalizedSignature": "get_NegativeInfinity|():Vector64_1|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -16309,7 +16309,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Intrinsics.Vector64::get_NegativeZero():Vector64_1",
           "clrName": "get_NegativeZero",
-          "tsEmitName": "get_NegativeZero",
+          "tsEmitName": "getNegativezero",
           "normalizedSignature": "get_NegativeZero|():Vector64_1|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -16325,7 +16325,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Intrinsics.Vector64::get_PositiveInfinity():Vector64_1",
           "clrName": "get_PositiveInfinity",
-          "tsEmitName": "get_PositiveInfinity",
+          "tsEmitName": "getPositiveinfinity",
           "normalizedSignature": "get_PositiveInfinity|():Vector64_1|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -16341,7 +16341,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Intrinsics.Vector64::get_NegativeOne():Vector64_1",
           "clrName": "get_NegativeOne",
-          "tsEmitName": "get_NegativeOne",
+          "tsEmitName": "getNegativeone",
           "normalizedSignature": "get_NegativeOne|():Vector64_1|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",

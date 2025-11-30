@@ -218,13 +218,13 @@ export class ArrayList$instance {
     toArray(type_: Type): ClrArray;
     trimToSize(): void;
     static adapter(list: IList): ArrayList;
-    static fixedSize(list: ArrayList): ArrayList;
-    static fixedSize(list: IList): IList;
-    static readOnly(list: ArrayList): ArrayList;
-    static readOnly(list: IList): IList;
+    static fixedSize2(list: ArrayList): ArrayList;
+    static fixedSize2(list: IList): IList;
+    static readOnly2(list: ArrayList): ArrayList;
+    static readOnly2(list: IList): IList;
     static repeat(value: unknown, count: int): ArrayList;
-    static synchronized(list: ArrayList): ArrayList;
-    static synchronized(list: IList): IList;
+    static synchronized2(list: ArrayList): ArrayList;
+    static synchronized2(list: IList): IList;
 }
 
 
@@ -286,7 +286,7 @@ export class CaseInsensitiveComparer$instance {
     constructor();
     constructor(culture: CultureInfo);
     compare(a: unknown, b: unknown): int;
-    static readonly default: CaseInsensitiveComparer;
+    static readonly default_: CaseInsensitiveComparer;
     static readonly defaultInvariant: CaseInsensitiveComparer;
 }
 
@@ -304,7 +304,7 @@ export class CaseInsensitiveHashCodeProvider$instance {
     constructor();
     constructor(culture: CultureInfo);
     getHashCode(obj: unknown): int;
-    static readonly default: CaseInsensitiveHashCodeProvider;
+    static readonly default_: CaseInsensitiveHashCodeProvider;
     static readonly defaultInvariant: CaseInsensitiveHashCodeProvider;
 }
 

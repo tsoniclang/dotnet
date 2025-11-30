@@ -42,7 +42,7 @@ export type CLROf<T> =
     T; // Identity fallback for non-primitive types
 
 export abstract class HtmlEncoder$instance extends TextEncoder$instance {
-    static readonly default: HtmlEncoder;
+    static readonly default_: HtmlEncoder;
     static create(settings: TextEncoderSettings): HtmlEncoder;
     static create(allowedRanges: UnicodeRange[]): HtmlEncoder;
 }
@@ -51,7 +51,7 @@ export abstract class HtmlEncoder$instance extends TextEncoder$instance {
 export type HtmlEncoder = HtmlEncoder$instance;
 
 export abstract class JavaScriptEncoder$instance extends TextEncoder$instance {
-    static readonly default: JavaScriptEncoder;
+    static readonly default_: JavaScriptEncoder;
     static readonly unsafeRelaxedJsonEscaping: JavaScriptEncoder;
     static create(settings: TextEncoderSettings): JavaScriptEncoder;
     static create(allowedRanges: UnicodeRange[]): JavaScriptEncoder;
@@ -98,7 +98,7 @@ export class TextEncoderSettings$instance {
 export type TextEncoderSettings = TextEncoderSettings$instance;
 
 export abstract class UrlEncoder$instance extends TextEncoder$instance {
-    static readonly default: UrlEncoder;
+    static readonly default_: UrlEncoder;
     static create(settings: TextEncoderSettings): UrlEncoder;
     static create(allowedRanges: UnicodeRange[]): UrlEncoder;
 }

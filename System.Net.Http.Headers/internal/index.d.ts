@@ -226,7 +226,7 @@ export class EntityTagHeaderValue$instance {
     equals(obj: unknown): boolean;
     getHashCode(): int;
     toString(): string;
-    static readonly any: EntityTagHeaderValue;
+    static readonly any_: EntityTagHeaderValue;
     static parse(input: string): EntityTagHeaderValue;
     static tryParse(input: string, parsedValue: { value: ref<EntityTagHeaderValue> }): boolean;
 }
@@ -253,8 +253,8 @@ export class HttpContentHeaders$instance extends HttpHeaders$instance {
     contentType: MediaTypeHeaderValue;
     expires: Nullable_1<DateTimeOffset>;
     lastModified: Nullable_1<DateTimeOffset>;
-    GetEnumerator(): IEnumerator_1<KeyValuePair_2<CLROf<string>, IEnumerable_1<CLROf<string>>>>;
-    GetEnumerator(): IEnumerator;
+    getEnumerator(): IEnumerator_1<KeyValuePair_2<CLROf<string>, IEnumerable_1<CLROf<string>>>>;
+    getEnumerator(): IEnumerator;
 }
 
 
@@ -347,8 +347,8 @@ export class HttpRequestHeaders$instance extends HttpHeaders$instance {
     readonly userAgent: HttpHeaderValueCollection_1<ProductInfoHeaderValue>;
     readonly via: HttpHeaderValueCollection_1<ViaHeaderValue>;
     readonly warning: HttpHeaderValueCollection_1<WarningHeaderValue>;
-    GetEnumerator(): IEnumerator_1<KeyValuePair_2<CLROf<string>, IEnumerable_1<CLROf<string>>>>;
-    GetEnumerator(): IEnumerator;
+    getEnumerator(): IEnumerator_1<KeyValuePair_2<CLROf<string>, IEnumerable_1<CLROf<string>>>>;
+    getEnumerator(): IEnumerator;
 }
 
 
@@ -381,8 +381,8 @@ export class HttpResponseHeaders$instance extends HttpHeaders$instance {
     readonly via: HttpHeaderValueCollection_1<ViaHeaderValue>;
     readonly warning: HttpHeaderValueCollection_1<WarningHeaderValue>;
     readonly wwwAuthenticate: HttpHeaderValueCollection_1<AuthenticationHeaderValue>;
-    GetEnumerator(): IEnumerator_1<KeyValuePair_2<CLROf<string>, IEnumerable_1<CLROf<string>>>>;
-    GetEnumerator(): IEnumerator;
+    getEnumerator(): IEnumerator_1<KeyValuePair_2<CLROf<string>, IEnumerable_1<CLROf<string>>>>;
+    getEnumerator(): IEnumerator;
 }
 
 
@@ -421,7 +421,7 @@ export class MediaTypeWithQualityHeaderValue$instance extends MediaTypeHeaderVal
     constructor(mediaType: string);
     constructor(mediaType: string, quality: double);
     quality: Nullable_1<CLROf<double>>;
-    Clone(): unknown;
+    clone(): unknown;
 }
 
 
@@ -460,7 +460,7 @@ export class NameValueWithParametersHeaderValue$instance extends NameValueHeader
     constructor(name: string);
     constructor(name: string, value: string);
     readonly parameters: ICollection_1<NameValueHeaderValue>;
-    Clone(): unknown;
+    clone(): unknown;
     equals(obj: unknown): boolean;
     getHashCode(): int;
     toString(): string;
@@ -654,7 +654,7 @@ export class TransferCodingWithQualityHeaderValue$instance extends TransferCodin
     constructor(value: string);
     constructor(value: string, quality: double);
     quality: Nullable_1<CLROf<double>>;
-    Clone(): unknown;
+    clone(): unknown;
 }
 
 

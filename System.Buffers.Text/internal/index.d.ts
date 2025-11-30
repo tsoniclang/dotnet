@@ -45,10 +45,10 @@ export abstract class Base64$instance {
     static encodeToUtf8InPlace(buffer: Span_1<CLROf<byte>>, dataLength: int, bytesWritten: { value: ref<int> }): OperationStatus;
     static getMaxDecodedFromUtf8Length(length: int): int;
     static getMaxEncodedToUtf8Length(length: int): int;
-    static isValid(base64TextUtf8: ReadOnlySpan_1<CLROf<byte>>, decodedLength: { value: ref<int> }): boolean;
-    static isValid(base64TextUtf8: ReadOnlySpan_1<CLROf<byte>>): boolean;
-    static isValid(base64Text: ReadOnlySpan_1<CLROf<char>>, decodedLength: { value: ref<int> }): boolean;
-    static isValid(base64Text: ReadOnlySpan_1<CLROf<char>>): boolean;
+    static isValid4(base64TextUtf8: ReadOnlySpan_1<CLROf<byte>>, decodedLength: { value: ref<int> }): boolean;
+    static isValid4(base64TextUtf8: ReadOnlySpan_1<CLROf<byte>>): boolean;
+    static isValid4(base64Text: ReadOnlySpan_1<CLROf<char>>, decodedLength: { value: ref<int> }): boolean;
+    static isValid4(base64Text: ReadOnlySpan_1<CLROf<char>>): boolean;
 }
 
 
@@ -71,10 +71,10 @@ export abstract class Base64Url$instance {
     static encodeToUtf8(source: ReadOnlySpan_1<CLROf<byte>>): byte[];
     static getEncodedLength(bytesLength: int): int;
     static getMaxDecodedLength(base64Length: int): int;
-    static isValid(utf8Base64UrlText: ReadOnlySpan_1<CLROf<byte>>, decodedLength: { value: ref<int> }): boolean;
-    static isValid(utf8Base64UrlText: ReadOnlySpan_1<CLROf<byte>>): boolean;
-    static isValid(base64UrlText: ReadOnlySpan_1<CLROf<char>>, decodedLength: { value: ref<int> }): boolean;
-    static isValid(base64UrlText: ReadOnlySpan_1<CLROf<char>>): boolean;
+    static isValid4(utf8Base64UrlText: ReadOnlySpan_1<CLROf<byte>>, decodedLength: { value: ref<int> }): boolean;
+    static isValid4(utf8Base64UrlText: ReadOnlySpan_1<CLROf<byte>>): boolean;
+    static isValid4(base64UrlText: ReadOnlySpan_1<CLROf<char>>, decodedLength: { value: ref<int> }): boolean;
+    static isValid4(base64UrlText: ReadOnlySpan_1<CLROf<char>>): boolean;
     static tryDecodeFromChars(source: ReadOnlySpan_1<CLROf<char>>, destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
     static tryDecodeFromUtf8(source: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
     static tryEncodeToChars(source: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<char>>, charsWritten: { value: ref<int> }): boolean;

@@ -77,15 +77,13 @@ export class RuntimeBinderException$instance extends System_Internal.Exception$i
     constructor();
     constructor(message: string);
     constructor(message: string, innerException: Exception);
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
 export interface __RuntimeBinderException$views {
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
-
-export interface RuntimeBinderException$instance extends System_Runtime_Serialization_Internal.ISerializable$instance {}
 
 export type RuntimeBinderException = RuntimeBinderException$instance & __RuntimeBinderException$views;
 
@@ -94,15 +92,13 @@ export class RuntimeBinderInternalCompilerException$instance extends System_Inte
     constructor();
     constructor(message: string);
     constructor(message: string, innerException: Exception);
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
 export interface __RuntimeBinderInternalCompilerException$views {
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
-
-export interface RuntimeBinderInternalCompilerException$instance extends System_Runtime_Serialization_Internal.ISerializable$instance {}
 
 export type RuntimeBinderInternalCompilerException = RuntimeBinderInternalCompilerException$instance & __RuntimeBinderInternalCompilerException$views;
 

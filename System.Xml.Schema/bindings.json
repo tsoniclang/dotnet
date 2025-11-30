@@ -13,7 +13,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Schema.XmlSchemaContentProcessing::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67113834,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -772,7 +772,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -835,7 +835,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Schema.XmlSchemaContentType::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67113839,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -1594,7 +1594,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -1657,7 +1657,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Schema.XmlSchemaDatatypeVariety::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67112985,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -2405,7 +2405,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -2458,7 +2458,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Schema.XmlSchemaDerivationMethod::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67113844,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -3261,7 +3261,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -3364,7 +3364,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Schema.XmlSchemaForm::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67113908,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -4112,7 +4112,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -4165,7 +4165,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Schema.XmlSchemaInference\u002BInferenceOption::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67114526,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -4902,7 +4902,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -4945,7 +4945,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Schema.XmlSchemaUse::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67114035,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -5704,7 +5704,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -5767,7 +5767,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Schema.XmlSchemaValidationFlags::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67114041,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -6548,7 +6548,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -6631,7 +6631,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Schema.XmlSchemaValidity::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67114112,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -7379,7 +7379,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -7432,7 +7432,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Schema.XmlSeverityType::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67114116,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -8169,7 +8169,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -8212,7 +8212,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Schema.XmlTypeCode::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67114119,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -9532,7 +9532,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -10477,7 +10477,7 @@
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "clone",
+          "tsEmitName": "clone$view",
           "metadataToken": 100668509,
           "canonicalSignature": "():System.Object",
           "normalizedSignature": "Clone|():System.Object|static=false",
@@ -10491,7 +10491,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "getObjectData",
+          "tsEmitName": "getObjectData$view",
           "metadataToken": 100682669,
           "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
@@ -10505,7 +10505,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Schema.ValidationEventHandler::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "Clone",
+          "tsEmitName": "clone",
           "metadataToken": 0,
           "canonicalSignature": "():System.Object",
           "normalizedSignature": "Clone|():System.Object|static=false",
@@ -10519,7 +10519,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Schema.ValidationEventHandler::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData",
+          "tsEmitName": "getObjectData",
           "metadataToken": 0,
           "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
@@ -10578,7 +10578,7 @@
           }
         },
         {
-          "tsName": "clone",
+          "tsName": "clone$view",
           "isStatic": false,
           "tsSignatureId": "Clone|():System.Object|static=false",
           "target": {
@@ -10588,7 +10588,7 @@
           }
         },
         {
-          "tsName": "getObjectData",
+          "tsName": "getObjectData$view",
           "isStatic": false,
           "tsSignatureId": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "target": {
@@ -10598,7 +10598,7 @@
           }
         },
         {
-          "tsName": "Clone",
+          "tsName": "clone",
           "isStatic": false,
           "tsSignatureId": "Clone|():System.Object|static=false",
           "target": {
@@ -10608,7 +10608,7 @@
           }
         },
         {
-          "tsName": "GetObjectData",
+          "tsName": "getObjectData",
           "isStatic": false,
           "tsSignatureId": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "target": {
@@ -10926,7 +10926,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Schema.XmlAtomicValue::ValueAs(System.Type,System.Xml.IXmlNamespaceResolver):System.Object",
           "clrName": "ValueAs",
-          "tsEmitName": "valueAs",
+          "tsEmitName": "valueAs2",
           "metadataToken": 100672161,
           "canonicalSignature": "(System.Type,System.Xml.IXmlNamespaceResolver):System.Object",
           "normalizedSignature": "ValueAs|(System.Type,System.Xml.IXmlNamespaceResolver):System.Object|static=false",
@@ -10968,7 +10968,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Schema.XmlAtomicValue::ValueAs(System.Type):System.Object",
           "clrName": "ValueAs",
-          "tsEmitName": "ValueAs",
+          "tsEmitName": "valueAs",
           "metadataToken": 0,
           "canonicalSignature": "(System.Type):System.Object",
           "normalizedSignature": "ValueAs|(System.Type):System.Object|static=false",
@@ -11137,7 +11137,7 @@
           }
         },
         {
-          "tsName": "valueAs",
+          "tsName": "valueAs2",
           "isStatic": false,
           "tsSignatureId": "ValueAs|(System.Type,System.Xml.IXmlNamespaceResolver):System.Object|static=false",
           "target": {
@@ -11167,7 +11167,7 @@
           }
         },
         {
-          "tsName": "ValueAs",
+          "tsName": "valueAs",
           "isStatic": false,
           "tsSignatureId": "ValueAs|(System.Type):System.Object|static=false",
           "target": {
@@ -24682,7 +24682,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Schema.XmlSchemaObjectCollection::GetEnumerator():System.Xml.Schema.XmlSchemaObjectEnumerator",
           "clrName": "GetEnumerator",
-          "tsEmitName": "getEnumerator",
+          "tsEmitName": "getEnumerator2",
           "metadataToken": 100672733,
           "canonicalSignature": "():System.Xml.Schema.XmlSchemaObjectEnumerator",
           "normalizedSignature": "GetEnumerator|():System.Xml.Schema.XmlSchemaObjectEnumerator|static=false",
@@ -24696,7 +24696,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Schema.XmlSchemaObjectCollection::Add(System.Xml.Schema.XmlSchemaObject):System.Int32",
           "clrName": "Add",
-          "tsEmitName": "add",
+          "tsEmitName": "add2",
           "metadataToken": 100672734,
           "canonicalSignature": "(System.Xml.Schema.XmlSchemaObject):System.Int32",
           "normalizedSignature": "Add|(System.Xml.Schema.XmlSchemaObject):System.Int32|static=false",
@@ -24710,7 +24710,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Schema.XmlSchemaObjectCollection::Insert(System.Int32,System.Xml.Schema.XmlSchemaObject):System.Void",
           "clrName": "Insert",
-          "tsEmitName": "insert",
+          "tsEmitName": "insert2",
           "metadataToken": 100672735,
           "canonicalSignature": "(System.Int32,System.Xml.Schema.XmlSchemaObject):System.Void",
           "normalizedSignature": "Insert|(System.Int32,System.Xml.Schema.XmlSchemaObject):System.Void|static=false",
@@ -24738,7 +24738,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Schema.XmlSchemaObjectCollection::Contains(System.Xml.Schema.XmlSchemaObject):System.Boolean",
           "clrName": "Contains",
-          "tsEmitName": "contains",
+          "tsEmitName": "contains2",
           "metadataToken": 100672737,
           "canonicalSignature": "(System.Xml.Schema.XmlSchemaObject):System.Boolean",
           "normalizedSignature": "Contains|(System.Xml.Schema.XmlSchemaObject):System.Boolean|static=false",
@@ -24752,7 +24752,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Schema.XmlSchemaObjectCollection::Remove(System.Xml.Schema.XmlSchemaObject):System.Void",
           "clrName": "Remove",
-          "tsEmitName": "remove",
+          "tsEmitName": "remove2",
           "metadataToken": 100672738,
           "canonicalSignature": "(System.Xml.Schema.XmlSchemaObject):System.Void",
           "normalizedSignature": "Remove|(System.Xml.Schema.XmlSchemaObject):System.Void|static=false",
@@ -24766,7 +24766,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Schema.XmlSchemaObjectCollection::CopyTo(System.Xml.Schema.XmlSchemaObject[],System.Int32):System.Void",
           "clrName": "CopyTo",
-          "tsEmitName": "copyTo",
+          "tsEmitName": "copyTo2",
           "metadataToken": 100672739,
           "canonicalSignature": "(System.Xml.Schema.XmlSchemaObject[],System.Int32):System.Void",
           "normalizedSignature": "CopyTo|(System.Xml.Schema.XmlSchemaObject[],System.Int32):System.Void|static=false",
@@ -24780,7 +24780,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Clear():System.Void",
           "clrName": "Clear",
-          "tsEmitName": "clear",
+          "tsEmitName": "clear$view",
           "metadataToken": 100703959,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Clear|():System.Void|static=false",
@@ -24794,7 +24794,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::RemoveAt(System.Int32):System.Void",
           "clrName": "RemoveAt",
-          "tsEmitName": "removeAt",
+          "tsEmitName": "removeAt$view",
           "metadataToken": 100703965,
           "canonicalSignature": "(System.Int32):System.Void",
           "normalizedSignature": "RemoveAt|(System.Int32):System.Void|static=false",
@@ -24892,7 +24892,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Schema.XmlSchemaObjectCollection::Add(System.Object):System.Int32",
           "clrName": "Add",
-          "tsEmitName": "Add",
+          "tsEmitName": "add",
           "metadataToken": 0,
           "canonicalSignature": "(System.Object):System.Int32",
           "normalizedSignature": "Add|(System.Object):System.Int32|static=false",
@@ -24906,7 +24906,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Schema.XmlSchemaObjectCollection::Clear():System.Void",
           "clrName": "Clear",
-          "tsEmitName": "Clear",
+          "tsEmitName": "clear",
           "metadataToken": 0,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Clear|():System.Void|static=false",
@@ -24920,7 +24920,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Schema.XmlSchemaObjectCollection::Contains(System.Object):System.Boolean",
           "clrName": "Contains",
-          "tsEmitName": "Contains",
+          "tsEmitName": "contains",
           "metadataToken": 0,
           "canonicalSignature": "(System.Object):System.Boolean",
           "normalizedSignature": "Contains|(System.Object):System.Boolean|static=false",
@@ -24934,7 +24934,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Schema.XmlSchemaObjectCollection::CopyTo(System.Array,System.Int32):System.Void",
           "clrName": "CopyTo",
-          "tsEmitName": "CopyTo",
+          "tsEmitName": "copyTo",
           "metadataToken": 0,
           "canonicalSignature": "(System.Array,System.Int32):System.Void",
           "normalizedSignature": "CopyTo|(System.Array,System.Int32):System.Void|static=false",
@@ -24948,7 +24948,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Schema.XmlSchemaObjectCollection::GetEnumerator():System.Collections.IEnumerator",
           "clrName": "GetEnumerator",
-          "tsEmitName": "GetEnumerator",
+          "tsEmitName": "getEnumerator",
           "metadataToken": 0,
           "canonicalSignature": "():System.Collections.IEnumerator",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
@@ -24962,7 +24962,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Schema.XmlSchemaObjectCollection::Insert(System.Int32,System.Object):System.Void",
           "clrName": "Insert",
-          "tsEmitName": "Insert",
+          "tsEmitName": "insert",
           "metadataToken": 0,
           "canonicalSignature": "(System.Int32,System.Object):System.Void",
           "normalizedSignature": "Insert|(System.Int32,System.Object):System.Void|static=false",
@@ -24976,7 +24976,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Schema.XmlSchemaObjectCollection::Remove(System.Object):System.Void",
           "clrName": "Remove",
-          "tsEmitName": "Remove",
+          "tsEmitName": "remove",
           "metadataToken": 0,
           "canonicalSignature": "(System.Object):System.Void",
           "normalizedSignature": "Remove|(System.Object):System.Void|static=false",
@@ -24990,7 +24990,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Schema.XmlSchemaObjectCollection::RemoveAt(System.Int32):System.Void",
           "clrName": "RemoveAt",
-          "tsEmitName": "RemoveAt",
+          "tsEmitName": "removeAt",
           "metadataToken": 0,
           "canonicalSignature": "(System.Int32):System.Void",
           "normalizedSignature": "RemoveAt|(System.Int32):System.Void|static=false",
@@ -25114,7 +25114,7 @@
       ],
       "exposedMethods": [
         {
-          "tsName": "getEnumerator",
+          "tsName": "getEnumerator2",
           "isStatic": false,
           "tsSignatureId": "GetEnumerator|():System.Xml.Schema.XmlSchemaObjectEnumerator|static=false",
           "target": {
@@ -25124,7 +25124,7 @@
           }
         },
         {
-          "tsName": "add",
+          "tsName": "add2",
           "isStatic": false,
           "tsSignatureId": "Add|(System.Xml.Schema.XmlSchemaObject):System.Int32|static=false",
           "target": {
@@ -25134,7 +25134,7 @@
           }
         },
         {
-          "tsName": "insert",
+          "tsName": "insert2",
           "isStatic": false,
           "tsSignatureId": "Insert|(System.Int32,System.Xml.Schema.XmlSchemaObject):System.Void|static=false",
           "target": {
@@ -25154,7 +25154,7 @@
           }
         },
         {
-          "tsName": "contains",
+          "tsName": "contains2",
           "isStatic": false,
           "tsSignatureId": "Contains|(System.Xml.Schema.XmlSchemaObject):System.Boolean|static=false",
           "target": {
@@ -25164,7 +25164,7 @@
           }
         },
         {
-          "tsName": "remove",
+          "tsName": "remove2",
           "isStatic": false,
           "tsSignatureId": "Remove|(System.Xml.Schema.XmlSchemaObject):System.Void|static=false",
           "target": {
@@ -25174,7 +25174,7 @@
           }
         },
         {
-          "tsName": "copyTo",
+          "tsName": "copyTo2",
           "isStatic": false,
           "tsSignatureId": "CopyTo|(System.Xml.Schema.XmlSchemaObject[],System.Int32):System.Void|static=false",
           "target": {
@@ -25184,7 +25184,7 @@
           }
         },
         {
-          "tsName": "clear",
+          "tsName": "clear$view",
           "isStatic": false,
           "tsSignatureId": "Clear|():System.Void|static=false",
           "target": {
@@ -25194,7 +25194,7 @@
           }
         },
         {
-          "tsName": "removeAt",
+          "tsName": "removeAt$view",
           "isStatic": false,
           "tsSignatureId": "RemoveAt|(System.Int32):System.Void|static=false",
           "target": {
@@ -25264,7 +25264,7 @@
           }
         },
         {
-          "tsName": "Add",
+          "tsName": "add",
           "isStatic": false,
           "tsSignatureId": "Add|(System.Object):System.Int32|static=false",
           "target": {
@@ -25274,7 +25274,7 @@
           }
         },
         {
-          "tsName": "Clear",
+          "tsName": "clear",
           "isStatic": false,
           "tsSignatureId": "Clear|():System.Void|static=false",
           "target": {
@@ -25284,7 +25284,7 @@
           }
         },
         {
-          "tsName": "Contains",
+          "tsName": "contains",
           "isStatic": false,
           "tsSignatureId": "Contains|(System.Object):System.Boolean|static=false",
           "target": {
@@ -25294,7 +25294,7 @@
           }
         },
         {
-          "tsName": "CopyTo",
+          "tsName": "copyTo",
           "isStatic": false,
           "tsSignatureId": "CopyTo|(System.Array,System.Int32):System.Void|static=false",
           "target": {
@@ -25304,7 +25304,7 @@
           }
         },
         {
-          "tsName": "GetEnumerator",
+          "tsName": "getEnumerator",
           "isStatic": false,
           "tsSignatureId": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "target": {
@@ -25314,7 +25314,7 @@
           }
         },
         {
-          "tsName": "Insert",
+          "tsName": "insert",
           "isStatic": false,
           "tsSignatureId": "Insert|(System.Int32,System.Object):System.Void|static=false",
           "target": {
@@ -25324,7 +25324,7 @@
           }
         },
         {
-          "tsName": "Remove",
+          "tsName": "remove",
           "isStatic": false,
           "tsSignatureId": "Remove|(System.Object):System.Void|static=false",
           "target": {
@@ -25334,7 +25334,7 @@
           }
         },
         {
-          "tsName": "RemoveAt",
+          "tsName": "removeAt",
           "isStatic": false,
           "tsSignatureId": "RemoveAt|(System.Int32):System.Void|static=false",
           "target": {
@@ -32024,7 +32024,7 @@
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "clone",
+          "tsEmitName": "clone$view",
           "metadataToken": 100668509,
           "canonicalSignature": "():System.Object",
           "normalizedSignature": "Clone|():System.Object|static=false",
@@ -32038,7 +32038,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "getObjectData",
+          "tsEmitName": "getObjectData$view",
           "metadataToken": 100682669,
           "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
@@ -32052,7 +32052,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Schema.XmlValueGetter::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "Clone",
+          "tsEmitName": "clone",
           "metadataToken": 0,
           "canonicalSignature": "():System.Object",
           "normalizedSignature": "Clone|():System.Object|static=false",
@@ -32066,7 +32066,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Schema.XmlValueGetter::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData",
+          "tsEmitName": "getObjectData",
           "metadataToken": 0,
           "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
@@ -32125,7 +32125,7 @@
           }
         },
         {
-          "tsName": "clone",
+          "tsName": "clone$view",
           "isStatic": false,
           "tsSignatureId": "Clone|():System.Object|static=false",
           "target": {
@@ -32135,7 +32135,7 @@
           }
         },
         {
-          "tsName": "getObjectData",
+          "tsName": "getObjectData$view",
           "isStatic": false,
           "tsSignatureId": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "target": {
@@ -32145,7 +32145,7 @@
           }
         },
         {
-          "tsName": "Clone",
+          "tsName": "clone",
           "isStatic": false,
           "tsSignatureId": "Clone|():System.Object|static=false",
           "target": {
@@ -32155,7 +32155,7 @@
           }
         },
         {
-          "tsName": "GetObjectData",
+          "tsName": "getObjectData",
           "isStatic": false,
           "tsSignatureId": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "target": {

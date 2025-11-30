@@ -141,15 +141,13 @@ export class QuicException$instance extends System_IO_Internal.IOException$insta
     readonly applicationErrorCode: Nullable_1<CLROf<long>>;
     readonly quicError: QuicError;
     readonly transportErrorCode: Nullable_1<CLROf<long>>;
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
 export interface __QuicException$views {
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
-
-export interface QuicException$instance extends System_Runtime_Serialization_Internal.ISerializable$instance {}
 
 export type QuicException = QuicException$instance & __QuicException$views;
 
@@ -220,7 +218,7 @@ export class QuicStream$instance extends System_IO_Internal.Stream$instance {
     beginRead(buffer: byte[], offset: int, count: int, callback: AsyncCallback, state: unknown): IAsyncResult;
     beginWrite(buffer: byte[], offset: int, count: int, callback: AsyncCallback, state: unknown): IAsyncResult;
     completeWrites(): void;
-    Dispose(): void;
+    dispose(): void;
     disposeAsync(): ValueTask;
     endRead(asyncResult: IAsyncResult): int;
     endWrite(asyncResult: IAsyncResult): void;
@@ -254,8 +252,6 @@ export interface __QuicStream$views {
     As_IAsyncDisposable(): System_Internal.IAsyncDisposable$instance;
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
-
-export interface QuicStream$instance extends System_Internal.IDisposable$instance {}
 
 export type QuicStream = QuicStream$instance & __QuicStream$views;
 

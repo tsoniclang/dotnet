@@ -40,7 +40,7 @@ export class ExceptionDispatchInfo$instance {
     static capture(source: Exception): ExceptionDispatchInfo;
     static setCurrentStackTrace(source: Exception): Exception;
     static setRemoteStackTrace(source: Exception, stackTrace: string): Exception;
-    static throw(source: Exception): void;
+    static throw_(source: Exception): void;
 }
 
 

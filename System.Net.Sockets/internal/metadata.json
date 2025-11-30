@@ -21,7 +21,7 @@
         {
           "stableId": "System.Net.Primitives:System.Net.Sockets.AddressFamily::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -344,7 +344,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.IOControlCode::value__System.Int64",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int64|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -676,7 +676,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.IPProtectionLevel::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -738,7 +738,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.ProtocolFamily::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -1061,7 +1061,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.ProtocolType::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -1312,7 +1312,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.SelectMode::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -1365,7 +1365,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.SocketAsyncOperation::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -1481,7 +1481,7 @@
         {
           "stableId": "System.Net.Primitives:System.Net.Sockets.SocketError::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -1930,7 +1930,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.SocketFlags::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -2037,7 +2037,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.SocketInformationOptions::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -2099,7 +2099,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.SocketOptionLevel::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -2170,7 +2170,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.SocketOptionName::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -2646,7 +2646,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.SocketShutdown::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -2699,7 +2699,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.SocketType::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -2779,7 +2779,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.TransmitFileOptions::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -3462,7 +3462,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.NetworkStream::Read(System.Byte[],System.Int32,System.Int32):System.Int32",
           "clrName": "Read",
-          "tsEmitName": "read",
+          "tsEmitName": "read2",
           "normalizedSignature": "Read|(System.Byte[],System.Int32,System.Int32):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3478,7 +3478,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.NetworkStream::Read(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32",
           "clrName": "Read",
-          "tsEmitName": "read2",
+          "tsEmitName": "read3",
           "normalizedSignature": "Read|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3510,7 +3510,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.NetworkStream::Write(System.Byte[],System.Int32,System.Int32):System.Void",
           "clrName": "Write",
-          "tsEmitName": "write",
+          "tsEmitName": "write2",
           "normalizedSignature": "Write|(System.Byte[],System.Int32,System.Int32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3526,7 +3526,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.NetworkStream::Write(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "clrName": "Write",
-          "tsEmitName": "write2",
+          "tsEmitName": "write3",
           "normalizedSignature": "Write|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3558,7 +3558,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.NetworkStream::Close(System.Int32):System.Void",
           "clrName": "Close",
-          "tsEmitName": "close",
+          "tsEmitName": "close2",
           "normalizedSignature": "Close|(System.Int32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3574,7 +3574,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.NetworkStream::Close(System.TimeSpan):System.Void",
           "clrName": "Close",
-          "tsEmitName": "close2",
+          "tsEmitName": "close3",
           "normalizedSignature": "Close|(System.TimeSpan):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3654,7 +3654,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.NetworkStream::ReadAsync(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "ReadAsync",
-          "tsEmitName": "readAsync",
+          "tsEmitName": "readAsync4",
           "normalizedSignature": "ReadAsync|(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3670,7 +3670,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.NetworkStream::ReadAsync(System.Memory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "ReadAsync",
-          "tsEmitName": "readAsync2",
+          "tsEmitName": "readAsync5",
           "normalizedSignature": "ReadAsync|(System.Memory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3686,7 +3686,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.NetworkStream::WriteAsync(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "clrName": "WriteAsync",
-          "tsEmitName": "writeAsync",
+          "tsEmitName": "writeAsync3",
           "normalizedSignature": "WriteAsync|(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3702,7 +3702,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.NetworkStream::WriteAsync(System.ReadOnlyMemory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask",
           "clrName": "WriteAsync",
-          "tsEmitName": "writeAsync2",
+          "tsEmitName": "writeAsync4",
           "normalizedSignature": "WriteAsync|(System.ReadOnlyMemory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3734,7 +3734,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.NetworkStream::FlushAsync(System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "clrName": "FlushAsync",
-          "tsEmitName": "flushAsync",
+          "tsEmitName": "flushAsync2",
           "normalizedSignature": "FlushAsync|(System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3766,7 +3766,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "dispose",
+          "tsEmitName": "dispose$view",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3783,7 +3783,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IAsyncDisposable::DisposeAsync():System.Threading.Tasks.ValueTask",
           "clrName": "DisposeAsync",
-          "tsEmitName": "disposeAsync",
+          "tsEmitName": "disposeAsync$view",
           "normalizedSignature": "DisposeAsync|():System.Threading.Tasks.ValueTask|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3800,7 +3800,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.NetworkStream::Close():System.Void",
           "clrName": "Close",
-          "tsEmitName": "Close",
+          "tsEmitName": "close",
           "normalizedSignature": "Close|():System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -3816,7 +3816,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.NetworkStream::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "Dispose",
+          "tsEmitName": "dispose",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -3832,7 +3832,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.NetworkStream::DisposeAsync():System.Threading.Tasks.ValueTask",
           "clrName": "DisposeAsync",
-          "tsEmitName": "DisposeAsync",
+          "tsEmitName": "disposeAsync",
           "normalizedSignature": "DisposeAsync|():System.Threading.Tasks.ValueTask|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -3848,7 +3848,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.NetworkStream::FlushAsync():System.Threading.Tasks.Task",
           "clrName": "FlushAsync",
-          "tsEmitName": "FlushAsync",
+          "tsEmitName": "flushAsync",
           "normalizedSignature": "FlushAsync|():System.Threading.Tasks.Task|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -3864,7 +3864,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.NetworkStream::Read(System.Span_1):System.Int32",
           "clrName": "Read",
-          "tsEmitName": "Read",
+          "tsEmitName": "read",
           "normalizedSignature": "Read|(System.Span_1):System.Int32|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -3880,7 +3880,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.NetworkStream::ReadAsync(System.Byte[],System.Int32,System.Int32):System.Threading.Tasks.Task_1",
           "clrName": "ReadAsync",
-          "tsEmitName": "ReadAsync",
+          "tsEmitName": "readAsync",
           "normalizedSignature": "ReadAsync|(System.Byte[],System.Int32,System.Int32):System.Threading.Tasks.Task_1|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -3896,7 +3896,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.NetworkStream::ReadAsync(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken):System.Threading.Tasks.Task_1",
           "clrName": "ReadAsync",
-          "tsEmitName": "ReadAsync2",
+          "tsEmitName": "readAsync2",
           "normalizedSignature": "ReadAsync|(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken):System.Threading.Tasks.Task_1|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -3912,7 +3912,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.NetworkStream::ReadAsync(System.Memory_1,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1",
           "clrName": "ReadAsync",
-          "tsEmitName": "ReadAsync3",
+          "tsEmitName": "readAsync3",
           "normalizedSignature": "ReadAsync|(System.Memory_1,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -3928,7 +3928,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.NetworkStream::Write(System.ReadOnlySpan_1):System.Void",
           "clrName": "Write",
-          "tsEmitName": "Write",
+          "tsEmitName": "write",
           "normalizedSignature": "Write|(System.ReadOnlySpan_1):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -3944,7 +3944,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.NetworkStream::WriteAsync(System.Byte[],System.Int32,System.Int32):System.Threading.Tasks.Task",
           "clrName": "WriteAsync",
-          "tsEmitName": "WriteAsync",
+          "tsEmitName": "writeAsync",
           "normalizedSignature": "WriteAsync|(System.Byte[],System.Int32,System.Int32):System.Threading.Tasks.Task|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -3960,7 +3960,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.NetworkStream::WriteAsync(System.ReadOnlyMemory_1,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask",
           "clrName": "WriteAsync",
-          "tsEmitName": "WriteAsync2",
+          "tsEmitName": "writeAsync2",
           "normalizedSignature": "WriteAsync|(System.ReadOnlyMemory_1,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -4165,7 +4165,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "dispose",
+          "tsEmitName": "dispose$view",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -4182,7 +4182,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.SafeSocketHandle::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "Dispose",
+          "tsEmitName": "dispose",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -7851,7 +7851,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "getObjectData",
+          "tsEmitName": "getObjectData$view",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -7868,7 +7868,7 @@
         {
           "stableId": "System.Net.Primitives:System.Net.Sockets.SocketException::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData",
+          "tsEmitName": "getObjectData",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",

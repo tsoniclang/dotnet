@@ -13,7 +13,7 @@
         {
           "stableId": "System.Net.Requests:System.Net.Cache.HttpCacheAgeControl::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67109427,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -794,7 +794,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -877,7 +877,7 @@
         {
           "stableId": "System.Net.Requests:System.Net.Cache.HttpRequestCacheLevel::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67109434,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -1691,7 +1691,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -1804,7 +1804,7 @@
         {
           "stableId": "System.Net.Primitives:System.Net.Cache.RequestCacheLevel::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67109231,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -2596,7 +2596,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {

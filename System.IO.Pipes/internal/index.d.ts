@@ -94,8 +94,8 @@ export class AnonymousPipeClientStream$instance extends PipeStream$instance {
     constructor(direction: PipeDirection, safePipeHandle: SafePipeHandle);
     readMode: PipeTransmissionMode;
     readonly transmissionMode: PipeTransmissionMode;
-    Dispose(): void;
-    DisposeAsync(): ValueTask;
+    dispose(): void;
+    disposeAsync(): ValueTask;
 }
 
 
@@ -103,8 +103,6 @@ export interface __AnonymousPipeClientStream$views {
     As_IAsyncDisposable(): System_Internal.IAsyncDisposable$instance;
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
-
-export interface AnonymousPipeClientStream$instance extends System_Internal.IAsyncDisposable$instance, System_Internal.IDisposable$instance {}
 
 export type AnonymousPipeClientStream = AnonymousPipeClientStream$instance & __AnonymousPipeClientStream$views;
 
@@ -118,8 +116,8 @@ export class AnonymousPipeServerStream$instance extends PipeStream$instance {
     readonly clientSafePipeHandle: SafePipeHandle;
     readMode: PipeTransmissionMode;
     readonly transmissionMode: PipeTransmissionMode;
-    Dispose(): void;
-    DisposeAsync(): ValueTask;
+    dispose(): void;
+    disposeAsync(): ValueTask;
     disposeLocalCopyOfClientHandle(): void;
     getClientHandleAsString(): string;
 }
@@ -129,8 +127,6 @@ export interface __AnonymousPipeServerStream$views {
     As_IAsyncDisposable(): System_Internal.IAsyncDisposable$instance;
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
-
-export interface AnonymousPipeServerStream$instance extends System_Internal.IAsyncDisposable$instance, System_Internal.IDisposable$instance {}
 
 export type AnonymousPipeServerStream = AnonymousPipeServerStream$instance & __AnonymousPipeServerStream$views;
 
@@ -155,8 +151,8 @@ export class NamedPipeClientStream$instance extends PipeStream$instance {
     connectAsync(cancellationToken: CancellationToken): Task;
     connectAsync(timeout: int, cancellationToken: CancellationToken): Task;
     connectAsync(timeout: TimeSpan, cancellationToken?: CancellationToken): Task;
-    Dispose(): void;
-    DisposeAsync(): ValueTask;
+    dispose(): void;
+    disposeAsync(): ValueTask;
 }
 
 
@@ -164,8 +160,6 @@ export interface __NamedPipeClientStream$views {
     As_IAsyncDisposable(): System_Internal.IAsyncDisposable$instance;
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
-
-export interface NamedPipeClientStream$instance extends System_Internal.IAsyncDisposable$instance, System_Internal.IDisposable$instance {}
 
 export type NamedPipeClientStream = NamedPipeClientStream$instance & __NamedPipeClientStream$views;
 
@@ -182,8 +176,8 @@ export class NamedPipeServerStream$instance extends PipeStream$instance {
     readonly outBufferSize: int;
     beginWaitForConnection(callback: AsyncCallback, state: unknown): IAsyncResult;
     disconnect(): void;
-    Dispose(): void;
-    DisposeAsync(): ValueTask;
+    dispose(): void;
+    disposeAsync(): ValueTask;
     endWaitForConnection(asyncResult: IAsyncResult): void;
     getImpersonationUserName(): string;
     runAsClient(impersonationWorker: PipeStreamImpersonationWorker): void;
@@ -198,8 +192,6 @@ export interface __NamedPipeServerStream$views {
     As_IAsyncDisposable(): System_Internal.IAsyncDisposable$instance;
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
-
-export interface NamedPipeServerStream$instance extends System_Internal.IAsyncDisposable$instance, System_Internal.IDisposable$instance {}
 
 export type NamedPipeServerStream = NamedPipeServerStream$instance & __NamedPipeServerStream$views;
 
@@ -260,8 +252,8 @@ export abstract class PipeStream$instance extends System_IO_Internal.Stream$inst
     readonly transmissionMode: PipeTransmissionMode;
     beginRead(buffer: byte[], offset: int, count: int, callback: AsyncCallback, state: unknown): IAsyncResult;
     beginWrite(buffer: byte[], offset: int, count: int, callback: AsyncCallback, state: unknown): IAsyncResult;
-    Dispose(): void;
-    DisposeAsync(): ValueTask;
+    dispose(): void;
+    disposeAsync(): ValueTask;
     endRead(asyncResult: IAsyncResult): int;
     endWrite(asyncResult: IAsyncResult): void;
     flush(): void;
@@ -295,17 +287,15 @@ export interface __PipeStream$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
 
-export interface PipeStream$instance extends System_Internal.IAsyncDisposable$instance, System_Internal.IDisposable$instance {}
-
 export type PipeStream = PipeStream$instance & __PipeStream$views;
 
 
 export class PipeStreamImpersonationWorker$instance extends Function {
     constructor(object_: unknown, method: nint);
     beginInvoke(callback: AsyncCallback, object_: unknown): IAsyncResult;
-    Clone(): unknown;
+    clone(): unknown;
     endInvoke(result: IAsyncResult): void;
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
     invoke(): void;
 }
 
@@ -314,8 +304,6 @@ export interface __PipeStreamImpersonationWorker$views {
     As_ICloneable(): System_Internal.ICloneable$instance;
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
-
-export interface PipeStreamImpersonationWorker$instance extends System_Internal.ICloneable$instance {}
 
 export type PipeStreamImpersonationWorker = PipeStreamImpersonationWorker$instance & __PipeStreamImpersonationWorker$views;
 

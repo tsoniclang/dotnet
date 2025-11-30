@@ -22,7 +22,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Security.Principal.PrincipalPolicy::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -75,7 +75,7 @@
         {
           "stableId": "System.Security.Principal.Windows:System.Security.Principal.TokenAccessLevels::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -218,7 +218,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Security.Principal.TokenImpersonationLevel::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -289,7 +289,7 @@
         {
           "stableId": "System.Security.Principal.Windows:System.Security.Principal.WellKnownSidType::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -1179,7 +1179,7 @@
         {
           "stableId": "System.Security.Principal.Windows:System.Security.Principal.WindowsAccountType::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -1241,7 +1241,7 @@
         {
           "stableId": "System.Security.Principal.Windows:System.Security.Principal.WindowsBuiltInRole::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,

@@ -215,7 +215,7 @@ export type EventCommandEventArgs = EventCommandEventArgs$instance;
 
 export class EventCounter$instance extends DiagnosticCounter$instance {
     constructor(name: string, eventSource: EventSource);
-    Dispose(): void;
+    dispose(): void;
     toString(): string;
     writeMetric(value: float): void;
     writeMetric(value: double): void;
@@ -225,8 +225,6 @@ export class EventCounter$instance extends DiagnosticCounter$instance {
 export interface __EventCounter$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
-
-export interface EventCounter$instance extends System_Internal.IDisposable$instance {}
 
 export type EventCounter = EventCounter$instance & __EventCounter$views;
 
@@ -294,14 +292,14 @@ export class EventSource$instance {
     write<T>(eventName: string, options: { value: ref<EventSourceOptions> }, data: { value: ref<T> }): void;
     write<T>(eventName: string, options: { value: ref<EventSourceOptions> }, activityId: { value: ref<Guid> }, relatedActivityId: { value: ref<Guid> }, data: { value: ref<T> }): void;
     static readonly currentThreadActivityId: Guid;
-    static generateManifest(eventSourceType: Type, assemblyPathToIncludeInManifest: string, flags: EventManifestOptions): string;
-    static generateManifest(eventSourceType: Type, assemblyPathToIncludeInManifest: string): string;
+    static generateManifest2(eventSourceType: Type, assemblyPathToIncludeInManifest: string, flags: EventManifestOptions): string;
+    static generateManifest2(eventSourceType: Type, assemblyPathToIncludeInManifest: string): string;
     static getGuid(eventSourceType: Type): Guid;
     static getName(eventSourceType: Type): string;
     static getSources(): IEnumerable_1<EventSource>;
     static sendCommand(eventSource: EventSource, command: EventCommand, commandArguments: IDictionary_2<CLROf<string>, CLROf<string>>): void;
-    static setCurrentThreadActivityId(activityId: Guid, oldActivityThatWillContinue: { value: ref<Guid> }): void;
-    static setCurrentThreadActivityId(activityId: Guid): void;
+    static setCurrentThreadActivityId2(activityId: Guid, oldActivityThatWillContinue: { value: ref<Guid> }): void;
+    static setCurrentThreadActivityId2(activityId: Guid): void;
 }
 
 
@@ -336,15 +334,13 @@ export class EventSourceException$instance extends System_Internal.Exception$ins
     constructor();
     constructor(message: string);
     constructor(message: string, innerException: Exception);
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
 export interface __EventSourceException$views {
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
-
-export interface EventSourceException$instance extends System_Runtime_Serialization_Internal.ISerializable$instance {}
 
 export type EventSourceException = EventSourceException$instance & __EventSourceException$views;
 
@@ -375,7 +371,7 @@ export type EventWrittenEventArgs = EventWrittenEventArgs$instance;
 export class IncrementingEventCounter$instance extends DiagnosticCounter$instance {
     constructor(name: string, eventSource: EventSource);
     displayRateTimeScale: TimeSpan;
-    Dispose(): void;
+    dispose(): void;
     increment(increment?: double): void;
     toString(): string;
 }
@@ -385,15 +381,13 @@ export interface __IncrementingEventCounter$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
 
-export interface IncrementingEventCounter$instance extends System_Internal.IDisposable$instance {}
-
 export type IncrementingEventCounter = IncrementingEventCounter$instance & __IncrementingEventCounter$views;
 
 
 export class IncrementingPollingCounter$instance extends DiagnosticCounter$instance {
     constructor(name: string, eventSource: EventSource, totalValueProvider: Func_1<CLROf<double>>);
     displayRateTimeScale: TimeSpan;
-    Dispose(): void;
+    dispose(): void;
     toString(): string;
 }
 
@@ -401,8 +395,6 @@ export class IncrementingPollingCounter$instance extends DiagnosticCounter$insta
 export interface __IncrementingPollingCounter$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
-
-export interface IncrementingPollingCounter$instance extends System_Internal.IDisposable$instance {}
 
 export type IncrementingPollingCounter = IncrementingPollingCounter$instance & __IncrementingPollingCounter$views;
 
@@ -416,7 +408,7 @@ export type NonEventAttribute = NonEventAttribute$instance;
 
 export class PollingCounter$instance extends DiagnosticCounter$instance {
     constructor(name: string, eventSource: EventSource, metricProvider: Func_1<CLROf<double>>);
-    Dispose(): void;
+    dispose(): void;
     toString(): string;
 }
 
@@ -424,8 +416,6 @@ export class PollingCounter$instance extends DiagnosticCounter$instance {
 export interface __PollingCounter$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
-
-export interface PollingCounter$instance extends System_Internal.IDisposable$instance {}
 
 export type PollingCounter = PollingCounter$instance & __PollingCounter$views;
 

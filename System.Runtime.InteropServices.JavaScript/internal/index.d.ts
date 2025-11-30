@@ -154,15 +154,13 @@ export type JSMarshalerArgument = JSMarshalerArgument$instance;
 
 export class JSException$instance extends System_Internal.Exception$instance {
     constructor(msg: string);
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
 export interface __JSException$views {
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
-
-export interface JSException$instance extends System_Runtime_Serialization_Internal.ISerializable$instance {}
 
 export type JSException = JSException$instance & __JSException$views;
 
@@ -203,9 +201,9 @@ export type JSMarshalAsAttribute_1<T extends JSType> = JSMarshalAsAttribute_1$in
 export class JSMarshalerArgument_ArgumentToJSCallback_1$instance<T> extends Function {
     constructor(object_: unknown, method: nint);
     beginInvoke(arg: { value: ref<JSMarshalerArgument> }, value: T, callback: AsyncCallback, object_: unknown): IAsyncResult;
-    Clone(): unknown;
+    clone(): unknown;
     endInvoke(arg: { value: ref<JSMarshalerArgument> }, result: IAsyncResult): void;
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
     invoke(arg: { value: ref<JSMarshalerArgument> }, value: T): void;
 }
 
@@ -215,17 +213,15 @@ export interface __JSMarshalerArgument_ArgumentToJSCallback_1$views<T> {
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
-export interface JSMarshalerArgument_ArgumentToJSCallback_1$instance<T> extends System_Internal.ICloneable$instance {}
-
 export type JSMarshalerArgument_ArgumentToJSCallback_1<T> = JSMarshalerArgument_ArgumentToJSCallback_1$instance<T> & __JSMarshalerArgument_ArgumentToJSCallback_1$views<T>;
 
 
 export class JSMarshalerArgument_ArgumentToManagedCallback_1$instance<T> extends Function {
     constructor(object_: unknown, method: nint);
     beginInvoke(arg: { value: ref<JSMarshalerArgument> }, value: { value: ref<T> }, callback: AsyncCallback, object_: unknown): IAsyncResult;
-    Clone(): unknown;
+    clone(): unknown;
     endInvoke(arg: { value: ref<JSMarshalerArgument> }, value: { value: ref<T> }, result: IAsyncResult): void;
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
     invoke(arg: { value: ref<JSMarshalerArgument> }, value: { value: ref<T> }): void;
 }
 
@@ -235,15 +231,13 @@ export interface __JSMarshalerArgument_ArgumentToManagedCallback_1$views<T> {
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
-export interface JSMarshalerArgument_ArgumentToManagedCallback_1$instance<T> extends System_Internal.ICloneable$instance {}
-
 export type JSMarshalerArgument_ArgumentToManagedCallback_1<T> = JSMarshalerArgument_ArgumentToManagedCallback_1$instance<T> & __JSMarshalerArgument_ArgumentToManagedCallback_1$views<T>;
 
 
 export class JSMarshalerType$instance {
-    static readonly void: JSMarshalerType;
+    static readonly void_: JSMarshalerType;
     static readonly discard: JSMarshalerType;
-    static readonly boolean: JSMarshalerType;
+    static readonly boolean_: JSMarshalerType;
     static readonly byte: JSMarshalerType;
     static readonly char: JSMarshalerType;
     static readonly int16: JSMarshalerType;
@@ -254,8 +248,8 @@ export class JSMarshalerType$instance {
     static readonly single: JSMarshalerType;
     static readonly intPtr: JSMarshalerType;
     static readonly jsObject: JSMarshalerType;
-    static readonly object: JSMarshalerType;
-    static readonly string: JSMarshalerType;
+    static readonly object_: JSMarshalerType;
+    static readonly string_: JSMarshalerType;
     static readonly exception: JSMarshalerType;
     static readonly dateTime: JSMarshalerType;
     static readonly dateTimeOffset: JSMarshalerType;
@@ -265,10 +259,10 @@ export class JSMarshalerType$instance {
     static action(arg1: JSMarshalerType): JSMarshalerType;
     static array(element: JSMarshalerType): JSMarshalerType;
     static arraySegment(element: JSMarshalerType): JSMarshalerType;
-    static function(arg1: JSMarshalerType, arg2: JSMarshalerType, arg3: JSMarshalerType, result: JSMarshalerType): JSMarshalerType;
-    static function(arg1: JSMarshalerType, arg2: JSMarshalerType, result: JSMarshalerType): JSMarshalerType;
-    static function(arg1: JSMarshalerType, result: JSMarshalerType): JSMarshalerType;
-    static function(result: JSMarshalerType): JSMarshalerType;
+    static function_4(arg1: JSMarshalerType, arg2: JSMarshalerType, arg3: JSMarshalerType, result: JSMarshalerType): JSMarshalerType;
+    static function_4(arg1: JSMarshalerType, arg2: JSMarshalerType, result: JSMarshalerType): JSMarshalerType;
+    static function_4(arg1: JSMarshalerType, result: JSMarshalerType): JSMarshalerType;
+    static function_4(result: JSMarshalerType): JSMarshalerType;
     static nullable(primitive: JSMarshalerType): JSMarshalerType;
     static span(element: JSMarshalerType): JSMarshalerType;
     static task(): JSMarshalerType;

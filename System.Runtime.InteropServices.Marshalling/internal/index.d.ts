@@ -162,7 +162,7 @@ export class ComVariant$instance {
     as_<T>(): T;
     dispose(): void;
     getRawDataRef<T extends unknown>(): ref<T>;
-    static readonly null: ComVariant;
+    static readonly null_: ComVariant;
     static create<T>(value: T): ComVariant;
     static createRaw<T extends unknown>(vt: VarEnum, rawValue: T): ComVariant;
 }

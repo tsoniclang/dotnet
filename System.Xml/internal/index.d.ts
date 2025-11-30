@@ -268,9 +268,9 @@ export interface IXmlBinaryWriterInitializer$instance {
 export type IXmlBinaryWriterInitializer = IXmlBinaryWriterInitializer$instance;
 
 export interface IXmlDictionary$instance {
-    tryLookup(key: int, result: { value: ref<XmlDictionaryString> }): boolean;
-    tryLookup(value: string, result: { value: ref<XmlDictionaryString> }): boolean;
-    tryLookup(value: XmlDictionaryString, result: { value: ref<XmlDictionaryString> }): boolean;
+    tryLookup2(key: int, result: { value: ref<XmlDictionaryString> }): boolean;
+    tryLookup2(value: string, result: { value: ref<XmlDictionaryString> }): boolean;
+    tryLookup2(value: XmlDictionaryString, result: { value: ref<XmlDictionaryString> }): boolean;
 }
 
 
@@ -322,9 +322,9 @@ export type NameTable = NameTable$instance;
 export class OnXmlDictionaryReaderClose$instance extends Function {
     constructor(object_: unknown, method: nint);
     beginInvoke(reader: XmlDictionaryReader, callback: AsyncCallback, object_: unknown): IAsyncResult;
-    Clone(): unknown;
+    clone(): unknown;
     endInvoke(result: IAsyncResult): void;
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
     invoke(reader: XmlDictionaryReader): void;
 }
 
@@ -333,8 +333,6 @@ export interface __OnXmlDictionaryReaderClose$views {
     As_ICloneable(): System_Internal.ICloneable$instance;
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
-
-export interface OnXmlDictionaryReaderClose$instance extends System_Internal.ICloneable$instance {}
 
 export type OnXmlDictionaryReaderClose = OnXmlDictionaryReaderClose$instance & __OnXmlDictionaryReaderClose$views;
 
@@ -375,11 +373,11 @@ export class XmlAttribute$instance extends XmlNode$instance {
     readonly specified: boolean;
     value: string;
     appendChild(newChild: XmlNode): XmlNode;
-    Clone(): XmlNode;
-    Clone(): unknown;
+    clone(): XmlNode;
+    clone(): unknown;
     cloneNode(deep: boolean): XmlNode;
-    CreateNavigator(): XPathNavigator;
-    GetEnumerator(): IEnumerator;
+    createNavigator(): XPathNavigator;
+    getEnumerator(): IEnumerator;
     insertAfter(newChild: XmlNode, refChild: XmlNode): XmlNode;
     insertBefore(newChild: XmlNode, refChild: XmlNode): XmlNode;
     prependChild(newChild: XmlNode): XmlNode;
@@ -396,18 +394,16 @@ export interface __XmlAttribute$views {
     As_IXPathNavigable(): System_Xml_XPath_Internal.IXPathNavigable$instance;
 }
 
-export interface XmlAttribute$instance extends System_Collections_Internal.IEnumerable$instance, System_Xml_XPath_Internal.IXPathNavigable$instance {}
-
 export type XmlAttribute = XmlAttribute$instance & __XmlAttribute$views;
 
 
 export class XmlAttributeCollection$instance extends XmlNamedNodeMap$instance {
     append(node: XmlAttribute): XmlAttribute;
     copyTo(array: XmlAttribute[], index: int): void;
-    get_Item(i: int): XmlAttribute;
-    get_Item(name: string): XmlAttribute;
-    get_Item(localName: string, namespaceURI: string): XmlAttribute;
-    GetEnumerator(): IEnumerator;
+    getItem(i: int): XmlAttribute;
+    getItem(name: string): XmlAttribute;
+    getItem(localName: string, namespaceURI: string): XmlAttribute;
+    getEnumerator(): IEnumerator;
     insertAfter(newNode: XmlAttribute, refNode: XmlAttribute): XmlAttribute;
     insertBefore(newNode: XmlAttribute, refNode: XmlAttribute): XmlAttribute;
     prepend(node: XmlAttribute): XmlAttribute;
@@ -458,11 +454,11 @@ export class XmlCDataSection$instance extends XmlCharacterData$instance {
     readonly nodeType: XmlNodeType;
     readonly parentNode: XmlNode;
     readonly previousText: XmlNode;
-    Clone(): unknown;
-    Clone(): XmlNode;
+    clone(): unknown;
+    clone(): XmlNode;
     cloneNode(deep: boolean): XmlNode;
-    CreateNavigator(): XPathNavigator;
-    GetEnumerator(): IEnumerator;
+    createNavigator(): XPathNavigator;
+    getEnumerator(): IEnumerator;
     writeContentTo(w: XmlWriter): void;
     writeTo(w: XmlWriter): void;
 }
@@ -474,8 +470,6 @@ export interface __XmlCDataSection$views {
     As_IXPathNavigable(): System_Xml_XPath_Internal.IXPathNavigable$instance;
 }
 
-export interface XmlCDataSection$instance extends System_Collections_Internal.IEnumerable$instance, System_Xml_XPath_Internal.IXPathNavigable$instance {}
-
 export type XmlCDataSection = XmlCDataSection$instance & __XmlCDataSection$views;
 
 
@@ -485,11 +479,11 @@ export abstract class XmlCharacterData$instance extends XmlLinkedNode$instance {
     readonly length: int;
     value: string;
     appendData(strData: string): void;
-    Clone(): unknown;
-    Clone(): XmlNode;
-    CreateNavigator(): XPathNavigator;
+    clone(): unknown;
+    clone(): XmlNode;
+    createNavigator(): XPathNavigator;
     deleteData(offset: int, count: int): void;
-    GetEnumerator(): IEnumerator;
+    getEnumerator(): IEnumerator;
     insertData(offset: int, strData: string): void;
     replaceData(offset: int, count: int, strData: string): void;
     substring(offset: int, count: int): string;
@@ -502,8 +496,6 @@ export interface __XmlCharacterData$views {
     As_IXPathNavigable(): System_Xml_XPath_Internal.IXPathNavigable$instance;
 }
 
-export interface XmlCharacterData$instance extends System_Collections_Internal.IEnumerable$instance, System_Xml_XPath_Internal.IXPathNavigable$instance {}
-
 export type XmlCharacterData = XmlCharacterData$instance & __XmlCharacterData$views;
 
 
@@ -511,11 +503,11 @@ export class XmlComment$instance extends XmlCharacterData$instance {
     readonly localName: string;
     readonly name: string;
     readonly nodeType: XmlNodeType;
-    Clone(): unknown;
-    Clone(): XmlNode;
+    clone(): unknown;
+    clone(): XmlNode;
     cloneNode(deep: boolean): XmlNode;
-    CreateNavigator(): XPathNavigator;
-    GetEnumerator(): IEnumerator;
+    createNavigator(): XPathNavigator;
+    getEnumerator(): IEnumerator;
     writeContentTo(w: XmlWriter): void;
     writeTo(w: XmlWriter): void;
 }
@@ -526,8 +518,6 @@ export interface __XmlComment$views {
     As_ICloneable(): System_Internal.ICloneable$instance;
     As_IXPathNavigable(): System_Xml_XPath_Internal.IXPathNavigable$instance;
 }
-
-export interface XmlComment$instance extends System_Collections_Internal.IEnumerable$instance, System_Xml_XPath_Internal.IXPathNavigable$instance {}
 
 export type XmlComment = XmlComment$instance & __XmlComment$views;
 
@@ -547,13 +537,13 @@ export class XmlConvert$instance {
     static toBoolean(s: string): boolean;
     static toByte(s: string): byte;
     static toChar(s: string): char;
-    static toDateTime(s: string, format: string): DateTime;
-    static toDateTime(s: string, formats: string[]): DateTime;
-    static toDateTime(s: string, dateTimeOption: XmlDateTimeSerializationMode): DateTime;
-    static toDateTime(s: string): DateTime;
-    static toDateTimeOffset(s: string, format: string): DateTimeOffset;
-    static toDateTimeOffset(s: string, formats: string[]): DateTimeOffset;
-    static toDateTimeOffset(s: string): DateTimeOffset;
+    static toDateTime2(s: string, format: string): DateTime;
+    static toDateTime2(s: string, formats: string[]): DateTime;
+    static toDateTime2(s: string, dateTimeOption: XmlDateTimeSerializationMode): DateTime;
+    static toDateTime2(s: string): DateTime;
+    static toDateTimeOffset2(s: string, format: string): DateTimeOffset;
+    static toDateTimeOffset2(s: string, formats: string[]): DateTimeOffset;
+    static toDateTimeOffset2(s: string): DateTimeOffset;
     static toDecimal(s: string): decimal;
     static toDouble(s: string): double;
     static toGuid(s: string): Guid;
@@ -602,19 +592,19 @@ export class XmlDataDocument$instance extends XmlDocument$instance {
     constructor();
     constructor(dataset: DataSet);
     readonly dataSet: DataSet;
-    Clone(): unknown;
-    Clone(): XmlNode;
+    clone(): unknown;
+    clone(): XmlNode;
     cloneNode(deep: boolean): XmlNode;
     createElement(prefix: string, localName: string, namespaceURI: string): XmlElement;
     createElement(name: string): XmlElement;
     createElement(qualifiedName: string, namespaceURI: string): XmlElement;
     createEntityReference(name: string): XmlEntityReference;
-    CreateNavigator(): XPathNavigator;
+    createNavigator(): XPathNavigator;
     getElementById(elemId: string): XmlElement;
     getElementFromRow(r: DataRow): XmlElement;
     getElementsByTagName(name: string): XmlNodeList;
     getElementsByTagName(localName: string, namespaceURI: string): XmlNodeList;
-    GetEnumerator(): IEnumerator;
+    getEnumerator(): IEnumerator;
     getRowFromElement(e: XmlElement): DataRow;
     load(filename: string): void;
     load(inStream: Stream): void;
@@ -629,8 +619,6 @@ export interface __XmlDataDocument$views {
     As_IXPathNavigable(): System_Xml_XPath_Internal.IXPathNavigable$instance;
 }
 
-export interface XmlDataDocument$instance extends System_Collections_Internal.IEnumerable$instance {}
-
 export type XmlDataDocument = XmlDataDocument$instance & __XmlDataDocument$views;
 
 
@@ -643,11 +631,11 @@ export class XmlDeclaration$instance extends XmlLinkedNode$instance {
     standalone: string;
     value: string;
     readonly version: string;
-    Clone(): unknown;
-    Clone(): XmlNode;
+    clone(): unknown;
+    clone(): XmlNode;
     cloneNode(deep: boolean): XmlNode;
-    CreateNavigator(): XPathNavigator;
-    GetEnumerator(): IEnumerator;
+    createNavigator(): XPathNavigator;
+    getEnumerator(): IEnumerator;
     writeContentTo(w: XmlWriter): void;
     writeTo(w: XmlWriter): void;
 }
@@ -658,8 +646,6 @@ export interface __XmlDeclaration$views {
     As_ICloneable(): System_Internal.ICloneable$instance;
     As_IXPathNavigable(): System_Xml_XPath_Internal.IXPathNavigable$instance;
 }
-
-export interface XmlDeclaration$instance extends System_Collections_Internal.IEnumerable$instance, System_Xml_XPath_Internal.IXPathNavigable$instance {}
 
 export type XmlDeclaration = XmlDeclaration$instance & __XmlDeclaration$views;
 
@@ -687,7 +673,7 @@ export type XmlDictionary = XmlDictionary$instance & __XmlDictionary$views;
 export abstract class XmlDictionaryReader$instance extends XmlReader$instance {
     readonly canCanonicalize: boolean;
     readonly quotas: XmlDictionaryReaderQuotas;
-    Dispose(): void;
+    dispose(): void;
     endCanonicalization(): void;
     getAttribute(name: string): string;
     getAttribute(name: string, namespaceURI: string): string;
@@ -730,7 +716,7 @@ export abstract class XmlDictionaryReader$instance extends XmlReader$instance {
     readBooleanArray(localName: string, namespaceUri: string): boolean[];
     readBooleanArray(localName: XmlDictionaryString, namespaceUri: XmlDictionaryString): boolean[];
     readContentAs(type_: Type, namespaceResolver: IXmlNamespaceResolver): unknown;
-    readContentAsBase64(buffer: byte[], index: int, count: int): int;
+    readContentAsBase642(buffer: byte[], index: int, count: int): int;
     readContentAsBinHex(buffer: byte[], index: int, count: int): int;
     readContentAsChars(chars: char[], offset: int, count: int): int;
     readContentAsDecimal(): decimal;
@@ -746,7 +732,7 @@ export abstract class XmlDictionaryReader$instance extends XmlReader$instance {
     readDecimalArray(localName: XmlDictionaryString, namespaceUri: XmlDictionaryString): decimal[];
     readDoubleArray(localName: string, namespaceUri: string): double[];
     readDoubleArray(localName: XmlDictionaryString, namespaceUri: XmlDictionaryString): double[];
-    readElementContentAsBase64(buffer: byte[], index: int, count: int): int;
+    readElementContentAsBase642(buffer: byte[], index: int, count: int): int;
     readElementContentAsBinHex(buffer: byte[], index: int, count: int): int;
     readElementContentAsBoolean(): boolean;
     readElementContentAsBoolean(localName: string, namespaceURI: string): boolean;
@@ -794,37 +780,35 @@ export abstract class XmlDictionaryReader$instance extends XmlReader$instance {
     tryGetLocalNameAsDictionaryString(localName: { value: ref<XmlDictionaryString> }): boolean;
     tryGetNamespaceUriAsDictionaryString(namespaceUri: { value: ref<XmlDictionaryString> }): boolean;
     tryGetValueAsDictionaryString(value: { value: ref<XmlDictionaryString> }): boolean;
-    static createBinaryReader(buffer: byte[], offset: int, count: int, dictionary: IXmlDictionary, quotas: XmlDictionaryReaderQuotas, session: XmlBinaryReaderSession, onClose: OnXmlDictionaryReaderClose): XmlDictionaryReader;
-    static createBinaryReader(buffer: byte[], offset: int, count: int, dictionary: IXmlDictionary, quotas: XmlDictionaryReaderQuotas, session: XmlBinaryReaderSession): XmlDictionaryReader;
-    static createBinaryReader(buffer: byte[], offset: int, count: int, dictionary: IXmlDictionary, quotas: XmlDictionaryReaderQuotas): XmlDictionaryReader;
-    static createBinaryReader(buffer: byte[], offset: int, count: int, quotas: XmlDictionaryReaderQuotas): XmlDictionaryReader;
-    static createBinaryReader(buffer: byte[], quotas: XmlDictionaryReaderQuotas): XmlDictionaryReader;
-    static createBinaryReader(stream: Stream, dictionary: IXmlDictionary, quotas: XmlDictionaryReaderQuotas, session: XmlBinaryReaderSession, onClose: OnXmlDictionaryReaderClose): XmlDictionaryReader;
-    static createBinaryReader(stream: Stream, dictionary: IXmlDictionary, quotas: XmlDictionaryReaderQuotas, session: XmlBinaryReaderSession): XmlDictionaryReader;
-    static createBinaryReader(stream: Stream, dictionary: IXmlDictionary, quotas: XmlDictionaryReaderQuotas): XmlDictionaryReader;
-    static createBinaryReader(stream: Stream, quotas: XmlDictionaryReaderQuotas): XmlDictionaryReader;
+    static createBinaryReader5(buffer: byte[], offset: int, count: int, dictionary: IXmlDictionary, quotas: XmlDictionaryReaderQuotas, session: XmlBinaryReaderSession, onClose: OnXmlDictionaryReaderClose): XmlDictionaryReader;
+    static createBinaryReader5(buffer: byte[], offset: int, count: int, dictionary: IXmlDictionary, quotas: XmlDictionaryReaderQuotas, session: XmlBinaryReaderSession): XmlDictionaryReader;
+    static createBinaryReader5(buffer: byte[], offset: int, count: int, dictionary: IXmlDictionary, quotas: XmlDictionaryReaderQuotas): XmlDictionaryReader;
+    static createBinaryReader5(buffer: byte[], offset: int, count: int, quotas: XmlDictionaryReaderQuotas): XmlDictionaryReader;
+    static createBinaryReader5(buffer: byte[], quotas: XmlDictionaryReaderQuotas): XmlDictionaryReader;
+    static createBinaryReader5(stream: Stream, dictionary: IXmlDictionary, quotas: XmlDictionaryReaderQuotas, session: XmlBinaryReaderSession, onClose: OnXmlDictionaryReaderClose): XmlDictionaryReader;
+    static createBinaryReader5(stream: Stream, dictionary: IXmlDictionary, quotas: XmlDictionaryReaderQuotas, session: XmlBinaryReaderSession): XmlDictionaryReader;
+    static createBinaryReader5(stream: Stream, dictionary: IXmlDictionary, quotas: XmlDictionaryReaderQuotas): XmlDictionaryReader;
+    static createBinaryReader5(stream: Stream, quotas: XmlDictionaryReaderQuotas): XmlDictionaryReader;
     static createDictionaryReader(reader: XmlReader): XmlDictionaryReader;
-    static createMtomReader(buffer: byte[], offset: int, count: int, encoding: Encoding, quotas: XmlDictionaryReaderQuotas): XmlDictionaryReader;
-    static createMtomReader(buffer: byte[], offset: int, count: int, encodings: Encoding[], contentType: string, quotas: XmlDictionaryReaderQuotas, maxBufferSize: int, onClose: OnXmlDictionaryReaderClose): XmlDictionaryReader;
-    static createMtomReader(buffer: byte[], offset: int, count: int, encodings: Encoding[], contentType: string, quotas: XmlDictionaryReaderQuotas): XmlDictionaryReader;
-    static createMtomReader(buffer: byte[], offset: int, count: int, encodings: Encoding[], quotas: XmlDictionaryReaderQuotas): XmlDictionaryReader;
-    static createMtomReader(stream: Stream, encoding: Encoding, quotas: XmlDictionaryReaderQuotas): XmlDictionaryReader;
-    static createMtomReader(stream: Stream, encodings: Encoding[], contentType: string, quotas: XmlDictionaryReaderQuotas, maxBufferSize: int, onClose: OnXmlDictionaryReaderClose): XmlDictionaryReader;
-    static createMtomReader(stream: Stream, encodings: Encoding[], contentType: string, quotas: XmlDictionaryReaderQuotas): XmlDictionaryReader;
-    static createMtomReader(stream: Stream, encodings: Encoding[], quotas: XmlDictionaryReaderQuotas): XmlDictionaryReader;
-    static createTextReader(buffer: byte[], offset: int, count: int, encoding: Encoding, quotas: XmlDictionaryReaderQuotas, onClose: OnXmlDictionaryReaderClose): XmlDictionaryReader;
-    static createTextReader(buffer: byte[], offset: int, count: int, quotas: XmlDictionaryReaderQuotas): XmlDictionaryReader;
-    static createTextReader(buffer: byte[], quotas: XmlDictionaryReaderQuotas): XmlDictionaryReader;
-    static createTextReader(stream: Stream, encoding: Encoding, quotas: XmlDictionaryReaderQuotas, onClose: OnXmlDictionaryReaderClose): XmlDictionaryReader;
-    static createTextReader(stream: Stream, quotas: XmlDictionaryReaderQuotas): XmlDictionaryReader;
+    static createMtomReader5(buffer: byte[], offset: int, count: int, encoding: Encoding, quotas: XmlDictionaryReaderQuotas): XmlDictionaryReader;
+    static createMtomReader5(buffer: byte[], offset: int, count: int, encodings: Encoding[], contentType: string, quotas: XmlDictionaryReaderQuotas, maxBufferSize: int, onClose: OnXmlDictionaryReaderClose): XmlDictionaryReader;
+    static createMtomReader5(buffer: byte[], offset: int, count: int, encodings: Encoding[], contentType: string, quotas: XmlDictionaryReaderQuotas): XmlDictionaryReader;
+    static createMtomReader5(buffer: byte[], offset: int, count: int, encodings: Encoding[], quotas: XmlDictionaryReaderQuotas): XmlDictionaryReader;
+    static createMtomReader5(stream: Stream, encoding: Encoding, quotas: XmlDictionaryReaderQuotas): XmlDictionaryReader;
+    static createMtomReader5(stream: Stream, encodings: Encoding[], contentType: string, quotas: XmlDictionaryReaderQuotas, maxBufferSize: int, onClose: OnXmlDictionaryReaderClose): XmlDictionaryReader;
+    static createMtomReader5(stream: Stream, encodings: Encoding[], contentType: string, quotas: XmlDictionaryReaderQuotas): XmlDictionaryReader;
+    static createMtomReader5(stream: Stream, encodings: Encoding[], quotas: XmlDictionaryReaderQuotas): XmlDictionaryReader;
+    static createTextReader3(buffer: byte[], offset: int, count: int, encoding: Encoding, quotas: XmlDictionaryReaderQuotas, onClose: OnXmlDictionaryReaderClose): XmlDictionaryReader;
+    static createTextReader3(buffer: byte[], offset: int, count: int, quotas: XmlDictionaryReaderQuotas): XmlDictionaryReader;
+    static createTextReader3(buffer: byte[], quotas: XmlDictionaryReaderQuotas): XmlDictionaryReader;
+    static createTextReader3(stream: Stream, encoding: Encoding, quotas: XmlDictionaryReaderQuotas, onClose: OnXmlDictionaryReaderClose): XmlDictionaryReader;
+    static createTextReader3(stream: Stream, quotas: XmlDictionaryReaderQuotas): XmlDictionaryReader;
 }
 
 
 export interface __XmlDictionaryReader$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
-
-export interface XmlDictionaryReader$instance extends System_Internal.IDisposable$instance {}
 
 export type XmlDictionaryReader = XmlDictionaryReader$instance & __XmlDictionaryReader$views;
 
@@ -859,8 +843,8 @@ export type XmlDictionaryString = XmlDictionaryString$instance;
 export abstract class XmlDictionaryWriter$instance extends XmlWriter$instance {
     readonly canCanonicalize: boolean;
     close(): void;
-    Dispose(): void;
-    DisposeAsync(): ValueTask;
+    dispose(): void;
+    disposeAsync(): ValueTask;
     endCanonicalization(): void;
     startCanonicalization(stream: Stream, includeComments: boolean, inclusivePrefixes: string[]): void;
     writeArray(prefix: string, localName: string, namespaceUri: string, array: boolean[], offset: int, count: int): void;
@@ -915,16 +899,16 @@ export abstract class XmlDictionaryWriter$instance extends XmlWriter$instance {
     writeXmlAttribute(localName: XmlDictionaryString, value: XmlDictionaryString): void;
     writeXmlnsAttribute(prefix: string, namespaceUri: string): void;
     writeXmlnsAttribute(prefix: string, namespaceUri: XmlDictionaryString): void;
-    static createBinaryWriter(stream: Stream, dictionary: IXmlDictionary, session: XmlBinaryWriterSession, ownsStream: boolean): XmlDictionaryWriter;
-    static createBinaryWriter(stream: Stream, dictionary: IXmlDictionary, session: XmlBinaryWriterSession): XmlDictionaryWriter;
-    static createBinaryWriter(stream: Stream, dictionary: IXmlDictionary): XmlDictionaryWriter;
-    static createBinaryWriter(stream: Stream): XmlDictionaryWriter;
+    static createBinaryWriter4(stream: Stream, dictionary: IXmlDictionary, session: XmlBinaryWriterSession, ownsStream: boolean): XmlDictionaryWriter;
+    static createBinaryWriter4(stream: Stream, dictionary: IXmlDictionary, session: XmlBinaryWriterSession): XmlDictionaryWriter;
+    static createBinaryWriter4(stream: Stream, dictionary: IXmlDictionary): XmlDictionaryWriter;
+    static createBinaryWriter4(stream: Stream): XmlDictionaryWriter;
     static createDictionaryWriter(writer: XmlWriter): XmlDictionaryWriter;
-    static createMtomWriter(stream: Stream, encoding: Encoding, maxSizeInBytes: int, startInfo: string, boundary: string, startUri: string, writeMessageHeaders: boolean, ownsStream: boolean): XmlDictionaryWriter;
-    static createMtomWriter(stream: Stream, encoding: Encoding, maxSizeInBytes: int, startInfo: string): XmlDictionaryWriter;
-    static createTextWriter(stream: Stream, encoding: Encoding, ownsStream: boolean): XmlDictionaryWriter;
-    static createTextWriter(stream: Stream, encoding: Encoding): XmlDictionaryWriter;
-    static createTextWriter(stream: Stream): XmlDictionaryWriter;
+    static createMtomWriter2(stream: Stream, encoding: Encoding, maxSizeInBytes: int, startInfo: string, boundary: string, startUri: string, writeMessageHeaders: boolean, ownsStream: boolean): XmlDictionaryWriter;
+    static createMtomWriter2(stream: Stream, encoding: Encoding, maxSizeInBytes: int, startInfo: string): XmlDictionaryWriter;
+    static createTextWriter3(stream: Stream, encoding: Encoding, ownsStream: boolean): XmlDictionaryWriter;
+    static createTextWriter3(stream: Stream, encoding: Encoding): XmlDictionaryWriter;
+    static createTextWriter3(stream: Stream): XmlDictionaryWriter;
 }
 
 
@@ -932,8 +916,6 @@ export interface __XmlDictionaryWriter$views {
     As_IAsyncDisposable(): System_Internal.IAsyncDisposable$instance;
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
-
-export interface XmlDictionaryWriter$instance extends System_Internal.IAsyncDisposable$instance, System_Internal.IDisposable$instance {}
 
 export type XmlDictionaryWriter = XmlDictionaryWriter$instance & __XmlDictionaryWriter$views;
 
@@ -958,8 +940,8 @@ export class XmlDocument$instance extends XmlNode$instance {
     readonly schemaInfo: IXmlSchemaInfo;
     schemas: XmlSchemaSet;
     xmlResolver: XmlResolver;
-    Clone(): XmlNode;
-    Clone(): unknown;
+    clone(): XmlNode;
+    clone(): unknown;
     cloneNode(deep: boolean): XmlNode;
     createAttribute(name: string): XmlAttribute;
     createAttribute(qualifiedName: string, namespaceURI: string): XmlAttribute;
@@ -984,7 +966,7 @@ export class XmlDocument$instance extends XmlNode$instance {
     getElementById(elementId: string): XmlElement;
     getElementsByTagName(name: string): XmlNodeList;
     getElementsByTagName(localName: string, namespaceURI: string): XmlNodeList;
-    GetEnumerator(): IEnumerator;
+    getEnumerator(): IEnumerator;
     importNode(node: XmlNode, deep: boolean): XmlNode;
     load(filename: string): void;
     load(inStream: Stream): void;
@@ -1009,8 +991,6 @@ export interface __XmlDocument$views {
     As_IXPathNavigable(): System_Xml_XPath_Internal.IXPathNavigable$instance;
 }
 
-export interface XmlDocument$instance extends System_Collections_Internal.IEnumerable$instance {}
-
 export type XmlDocument = XmlDocument$instance & __XmlDocument$views;
 
 
@@ -1021,11 +1001,11 @@ export class XmlDocumentFragment$instance extends XmlNode$instance {
     readonly nodeType: XmlNodeType;
     readonly ownerDocument: XmlDocument;
     readonly parentNode: XmlNode;
-    Clone(): XmlNode;
-    Clone(): unknown;
+    clone(): XmlNode;
+    clone(): unknown;
     cloneNode(deep: boolean): XmlNode;
-    CreateNavigator(): XPathNavigator;
-    GetEnumerator(): IEnumerator;
+    createNavigator(): XPathNavigator;
+    getEnumerator(): IEnumerator;
     writeContentTo(w: XmlWriter): void;
     writeTo(w: XmlWriter): void;
 }
@@ -1036,8 +1016,6 @@ export interface __XmlDocumentFragment$views {
     As_ICloneable(): System_Internal.ICloneable$instance;
     As_IXPathNavigable(): System_Xml_XPath_Internal.IXPathNavigable$instance;
 }
-
-export interface XmlDocumentFragment$instance extends System_Collections_Internal.IEnumerable$instance, System_Xml_XPath_Internal.IXPathNavigable$instance {}
 
 export type XmlDocumentFragment = XmlDocumentFragment$instance & __XmlDocumentFragment$views;
 
@@ -1052,11 +1030,11 @@ export class XmlDocumentType$instance extends XmlLinkedNode$instance {
     readonly notations: XmlNamedNodeMap;
     readonly publicId: string;
     readonly systemId: string;
-    Clone(): unknown;
-    Clone(): XmlNode;
+    clone(): unknown;
+    clone(): XmlNode;
     cloneNode(deep: boolean): XmlNode;
-    CreateNavigator(): XPathNavigator;
-    GetEnumerator(): IEnumerator;
+    createNavigator(): XPathNavigator;
+    getEnumerator(): IEnumerator;
     writeContentTo(w: XmlWriter): void;
     writeTo(w: XmlWriter): void;
 }
@@ -1067,8 +1045,6 @@ export interface __XmlDocumentType$views {
     As_ICloneable(): System_Internal.ICloneable$instance;
     As_IXPathNavigable(): System_Xml_XPath_Internal.IXPathNavigable$instance;
 }
-
-export interface XmlDocumentType$instance extends System_Collections_Internal.IEnumerable$instance, System_Xml_XPath_Internal.IXPathNavigable$instance {}
 
 export type XmlDocumentType = XmlDocumentType$instance & __XmlDocumentType$views;
 
@@ -1088,17 +1064,17 @@ export class XmlElement$instance extends XmlLinkedNode$instance {
     readonly parentNode: XmlNode;
     prefix: string;
     readonly schemaInfo: IXmlSchemaInfo;
-    Clone(): unknown;
-    Clone(): XmlNode;
+    clone(): unknown;
+    clone(): XmlNode;
     cloneNode(deep: boolean): XmlNode;
-    CreateNavigator(): XPathNavigator;
+    createNavigator(): XPathNavigator;
     getAttribute(name: string): string;
     getAttribute(localName: string, namespaceURI: string): string;
     getAttributeNode(name: string): XmlAttribute;
     getAttributeNode(localName: string, namespaceURI: string): XmlAttribute;
     getElementsByTagName(name: string): XmlNodeList;
     getElementsByTagName(localName: string, namespaceURI: string): XmlNodeList;
-    GetEnumerator(): IEnumerator;
+    getEnumerator(): IEnumerator;
     hasAttribute(name: string): boolean;
     hasAttribute(localName: string, namespaceURI: string): boolean;
     removeAll(): void;
@@ -1123,8 +1099,6 @@ export interface __XmlElement$views {
     As_IXPathNavigable(): System_Xml_XPath_Internal.IXPathNavigable$instance;
 }
 
-export interface XmlElement$instance extends System_Collections_Internal.IEnumerable$instance, System_Xml_XPath_Internal.IXPathNavigable$instance {}
-
 export type XmlElement = XmlElement$instance & __XmlElement$views;
 
 
@@ -1140,11 +1114,11 @@ export class XmlEntity$instance extends XmlNode$instance {
     readonly outerXml: string;
     readonly publicId: string;
     readonly systemId: string;
-    Clone(): XmlNode;
-    Clone(): unknown;
+    clone(): XmlNode;
+    clone(): unknown;
     cloneNode(deep: boolean): XmlNode;
-    CreateNavigator(): XPathNavigator;
-    GetEnumerator(): IEnumerator;
+    createNavigator(): XPathNavigator;
+    getEnumerator(): IEnumerator;
     writeContentTo(w: XmlWriter): void;
     writeTo(w: XmlWriter): void;
 }
@@ -1156,8 +1130,6 @@ export interface __XmlEntity$views {
     As_IXPathNavigable(): System_Xml_XPath_Internal.IXPathNavigable$instance;
 }
 
-export interface XmlEntity$instance extends System_Collections_Internal.IEnumerable$instance, System_Xml_XPath_Internal.IXPathNavigable$instance {}
-
 export type XmlEntity = XmlEntity$instance & __XmlEntity$views;
 
 
@@ -1168,11 +1140,11 @@ export class XmlEntityReference$instance extends XmlLinkedNode$instance {
     readonly name: string;
     readonly nodeType: XmlNodeType;
     value: string;
-    Clone(): unknown;
-    Clone(): XmlNode;
+    clone(): unknown;
+    clone(): XmlNode;
     cloneNode(deep: boolean): XmlNode;
-    CreateNavigator(): XPathNavigator;
-    GetEnumerator(): IEnumerator;
+    createNavigator(): XPathNavigator;
+    getEnumerator(): IEnumerator;
     writeContentTo(w: XmlWriter): void;
     writeTo(w: XmlWriter): void;
 }
@@ -1183,8 +1155,6 @@ export interface __XmlEntityReference$views {
     As_ICloneable(): System_Internal.ICloneable$instance;
     As_IXPathNavigable(): System_Xml_XPath_Internal.IXPathNavigable$instance;
 }
-
-export interface XmlEntityReference$instance extends System_Collections_Internal.IEnumerable$instance, System_Xml_XPath_Internal.IXPathNavigable$instance {}
 
 export type XmlEntityReference = XmlEntityReference$instance & __XmlEntityReference$views;
 
@@ -1222,10 +1192,10 @@ export type XmlImplementation = XmlImplementation$instance;
 export abstract class XmlLinkedNode$instance extends XmlNode$instance {
     readonly nextSibling: XmlNode;
     readonly previousSibling: XmlNode;
-    Clone(): XmlNode;
-    Clone(): unknown;
-    CreateNavigator(): XPathNavigator;
-    GetEnumerator(): IEnumerator;
+    clone(): XmlNode;
+    clone(): unknown;
+    createNavigator(): XPathNavigator;
+    getEnumerator(): IEnumerator;
 }
 
 
@@ -1234,8 +1204,6 @@ export interface __XmlLinkedNode$views {
     As_ICloneable(): System_Internal.ICloneable$instance;
     As_IXPathNavigable(): System_Xml_XPath_Internal.IXPathNavigable$instance;
 }
-
-export interface XmlLinkedNode$instance extends System_Collections_Internal.IEnumerable$instance, System_Xml_XPath_Internal.IXPathNavigable$instance {}
 
 export type XmlLinkedNode = XmlLinkedNode$instance & __XmlLinkedNode$views;
 
@@ -1324,8 +1292,8 @@ export abstract class XmlNode$instance {
     clone(): XmlNode;
     abstract cloneNode(deep: boolean): XmlNode;
     createNavigator(): XPathNavigator;
-    get_Item(name: string): XmlElement;
-    get_Item(localname: string, ns: string): XmlElement;
+    getItem(name: string): XmlElement;
+    getItem(localname: string, ns: string): XmlElement;
     getEnumerator(): IEnumerator;
     getNamespaceOfPrefix(prefix: string): string;
     getPrefixOfNamespace(namespaceURI: string): string;
@@ -1373,9 +1341,9 @@ export type XmlNodeChangedEventArgs = XmlNodeChangedEventArgs$instance;
 export class XmlNodeChangedEventHandler$instance extends Function {
     constructor(object_: unknown, method: nint);
     beginInvoke(sender: unknown, e: XmlNodeChangedEventArgs, callback: AsyncCallback, object_: unknown): IAsyncResult;
-    Clone(): unknown;
+    clone(): unknown;
     endInvoke(result: IAsyncResult): void;
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
     invoke(sender: unknown, e: XmlNodeChangedEventArgs): void;
 }
 
@@ -1384,8 +1352,6 @@ export interface __XmlNodeChangedEventHandler$views {
     As_ICloneable(): System_Internal.ICloneable$instance;
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
-
-export interface XmlNodeChangedEventHandler$instance extends System_Internal.ICloneable$instance {}
 
 export type XmlNodeChangedEventHandler = XmlNodeChangedEventHandler$instance & __XmlNodeChangedEventHandler$views;
 
@@ -1432,7 +1398,7 @@ export class XmlNodeReader$instance extends XmlReader$instance {
     readonly xmlLang: string;
     readonly xmlSpace: XmlSpace;
     close(): void;
-    Dispose(): void;
+    dispose(): void;
     getAttribute(name: string): string;
     getAttribute(name: string, namespaceURI: string): string;
     getAttribute(attributeIndex: int): string;
@@ -1460,8 +1426,6 @@ export interface __XmlNodeReader$views {
     As_IXmlNamespaceResolver(): IXmlNamespaceResolver$instance;
 }
 
-export interface XmlNodeReader$instance extends System_Internal.IDisposable$instance {}
-
 export type XmlNodeReader = XmlNodeReader$instance & __XmlNodeReader$views;
 
 
@@ -1474,11 +1438,11 @@ export class XmlNotation$instance extends XmlNode$instance {
     readonly outerXml: string;
     readonly publicId: string;
     readonly systemId: string;
-    Clone(): XmlNode;
-    Clone(): unknown;
+    clone(): XmlNode;
+    clone(): unknown;
     cloneNode(deep: boolean): XmlNode;
-    CreateNavigator(): XPathNavigator;
-    GetEnumerator(): IEnumerator;
+    createNavigator(): XPathNavigator;
+    getEnumerator(): IEnumerator;
     writeContentTo(w: XmlWriter): void;
     writeTo(w: XmlWriter): void;
 }
@@ -1489,8 +1453,6 @@ export interface __XmlNotation$views {
     As_ICloneable(): System_Internal.ICloneable$instance;
     As_IXPathNavigable(): System_Xml_XPath_Internal.IXPathNavigable$instance;
 }
-
-export interface XmlNotation$instance extends System_Collections_Internal.IEnumerable$instance, System_Xml_XPath_Internal.IXPathNavigable$instance {}
 
 export type XmlNotation = XmlNotation$instance & __XmlNotation$views;
 
@@ -1523,11 +1485,11 @@ export class XmlProcessingInstruction$instance extends XmlLinkedNode$instance {
     readonly nodeType: XmlNodeType;
     readonly target: string;
     value: string;
-    Clone(): unknown;
-    Clone(): XmlNode;
+    clone(): unknown;
+    clone(): XmlNode;
     cloneNode(deep: boolean): XmlNode;
-    CreateNavigator(): XPathNavigator;
-    GetEnumerator(): IEnumerator;
+    createNavigator(): XPathNavigator;
+    getEnumerator(): IEnumerator;
     writeContentTo(w: XmlWriter): void;
     writeTo(w: XmlWriter): void;
 }
@@ -1538,8 +1500,6 @@ export interface __XmlProcessingInstruction$views {
     As_ICloneable(): System_Internal.ICloneable$instance;
     As_IXPathNavigable(): System_Xml_XPath_Internal.IXPathNavigable$instance;
 }
-
-export interface XmlProcessingInstruction$instance extends System_Collections_Internal.IEnumerable$instance, System_Xml_XPath_Internal.IXPathNavigable$instance {}
 
 export type XmlProcessingInstruction = XmlProcessingInstruction$instance & __XmlProcessingInstruction$views;
 
@@ -1589,9 +1549,9 @@ export abstract class XmlReader$instance {
     readonly xmlSpace: XmlSpace;
     close(): void;
     dispose(): void;
-    get_Item(i: int): string;
-    get_Item(name: string): string;
-    get_Item(name: string, namespaceURI: string): string;
+    getItem(i: int): string;
+    getItem(name: string): string;
+    getItem(name: string, namespaceURI: string): string;
     abstract getAttribute(name: string): string;
     abstract getAttribute(name: string, namespaceURI: string): string;
     abstract getAttribute(i: int): string;
@@ -1680,18 +1640,18 @@ export abstract class XmlReader$instance {
     abstract resolveEntity(): void;
     skip(): void;
     skipAsync(): Task;
-    static create(input: Stream, settings: XmlReaderSettings, baseUri: string): XmlReader;
-    static create(input: Stream, settings: XmlReaderSettings, inputContext: XmlParserContext): XmlReader;
-    static create(input: Stream, settings: XmlReaderSettings): XmlReader;
-    static create(input: Stream): XmlReader;
-    static create(input: TextReader, settings: XmlReaderSettings, baseUri: string): XmlReader;
-    static create(input: TextReader, settings: XmlReaderSettings, inputContext: XmlParserContext): XmlReader;
-    static create(input: TextReader, settings: XmlReaderSettings): XmlReader;
-    static create(input: TextReader): XmlReader;
-    static create(inputUri: string, settings: XmlReaderSettings, inputContext: XmlParserContext): XmlReader;
-    static create(inputUri: string, settings: XmlReaderSettings): XmlReader;
-    static create(inputUri: string): XmlReader;
-    static create(reader: XmlReader, settings: XmlReaderSettings): XmlReader;
+    static create6(input: Stream, settings: XmlReaderSettings, baseUri: string): XmlReader;
+    static create6(input: Stream, settings: XmlReaderSettings, inputContext: XmlParserContext): XmlReader;
+    static create6(input: Stream, settings: XmlReaderSettings): XmlReader;
+    static create6(input: Stream): XmlReader;
+    static create6(input: TextReader, settings: XmlReaderSettings, baseUri: string): XmlReader;
+    static create6(input: TextReader, settings: XmlReaderSettings, inputContext: XmlParserContext): XmlReader;
+    static create6(input: TextReader, settings: XmlReaderSettings): XmlReader;
+    static create6(input: TextReader): XmlReader;
+    static create6(inputUri: string, settings: XmlReaderSettings, inputContext: XmlParserContext): XmlReader;
+    static create6(inputUri: string, settings: XmlReaderSettings): XmlReader;
+    static create6(inputUri: string): XmlReader;
+    static create6(reader: XmlReader, settings: XmlReaderSettings): XmlReader;
     static isName(str: string): boolean;
     static isNameToken(str: string): boolean;
 }
@@ -1765,11 +1725,11 @@ export class XmlSignificantWhitespace$instance extends XmlCharacterData$instance
     readonly parentNode: XmlNode;
     readonly previousText: XmlNode;
     value: string;
-    Clone(): unknown;
-    Clone(): XmlNode;
+    clone(): unknown;
+    clone(): XmlNode;
     cloneNode(deep: boolean): XmlNode;
-    CreateNavigator(): XPathNavigator;
-    GetEnumerator(): IEnumerator;
+    createNavigator(): XPathNavigator;
+    getEnumerator(): IEnumerator;
     writeContentTo(w: XmlWriter): void;
     writeTo(w: XmlWriter): void;
 }
@@ -1781,8 +1741,6 @@ export interface __XmlSignificantWhitespace$views {
     As_IXPathNavigable(): System_Xml_XPath_Internal.IXPathNavigable$instance;
 }
 
-export interface XmlSignificantWhitespace$instance extends System_Collections_Internal.IEnumerable$instance, System_Xml_XPath_Internal.IXPathNavigable$instance {}
-
 export type XmlSignificantWhitespace = XmlSignificantWhitespace$instance & __XmlSignificantWhitespace$views;
 
 
@@ -1793,11 +1751,11 @@ export class XmlText$instance extends XmlCharacterData$instance {
     readonly parentNode: XmlNode;
     readonly previousText: XmlNode;
     value: string;
-    Clone(): unknown;
-    Clone(): XmlNode;
+    clone(): unknown;
+    clone(): XmlNode;
     cloneNode(deep: boolean): XmlNode;
-    CreateNavigator(): XPathNavigator;
-    GetEnumerator(): IEnumerator;
+    createNavigator(): XPathNavigator;
+    getEnumerator(): IEnumerator;
     splitText(offset: int): XmlText;
     writeContentTo(w: XmlWriter): void;
     writeTo(w: XmlWriter): void;
@@ -1809,8 +1767,6 @@ export interface __XmlText$views {
     As_ICloneable(): System_Internal.ICloneable$instance;
     As_IXPathNavigable(): System_Xml_XPath_Internal.IXPathNavigable$instance;
 }
-
-export interface XmlText$instance extends System_Collections_Internal.IEnumerable$instance, System_Xml_XPath_Internal.IXPathNavigable$instance {}
 
 export type XmlText = XmlText$instance & __XmlText$views;
 
@@ -1860,7 +1816,7 @@ export class XmlTextReader$instance extends XmlReader$instance {
     xmlResolver: XmlResolver;
     readonly xmlSpace: XmlSpace;
     close(): void;
-    Dispose(): void;
+    dispose(): void;
     getAttribute(name: string): string;
     getAttribute(localName: string, namespaceURI: string): string;
     getAttribute(i: int): string;
@@ -1896,7 +1852,7 @@ export interface __XmlTextReader$views {
     As_IXmlNamespaceResolver(): IXmlNamespaceResolver$instance;
 }
 
-export interface XmlTextReader$instance extends System_Internal.IDisposable$instance, IXmlLineInfo$instance {}
+export interface XmlTextReader$instance extends IXmlLineInfo$instance {}
 
 export type XmlTextReader = XmlTextReader$instance & __XmlTextReader$views;
 
@@ -1915,8 +1871,8 @@ export class XmlTextWriter$instance extends XmlWriter$instance {
     readonly xmlLang: string;
     readonly xmlSpace: XmlSpace;
     close(): void;
-    Dispose(): void;
-    DisposeAsync(): ValueTask;
+    dispose(): void;
+    disposeAsync(): ValueTask;
     flush(): void;
     lookupPrefix(ns: string): string;
     writeBase64(buffer: byte[], index: int, count: int): void;
@@ -1937,14 +1893,14 @@ export class XmlTextWriter$instance extends XmlWriter$instance {
     writeQualifiedName(localName: string, ns: string): void;
     writeRaw(buffer: char[], index: int, count: int): void;
     writeRaw(data: string): void;
-    WriteStartAttribute(prefix: string, localName: string, ns: string): void;
-    WriteStartAttribute(localName: string, ns: string): void;
-    WriteStartAttribute(localName: string): void;
+    writeStartAttribute(prefix: string, localName: string, ns: string): void;
+    writeStartAttribute(localName: string, ns: string): void;
+    writeStartAttribute(localName: string): void;
     writeStartDocument(): void;
     writeStartDocument(standalone: boolean): void;
-    WriteStartElement(prefix: string, localName: string, ns: string): void;
-    WriteStartElement(localName: string, ns: string): void;
-    WriteStartElement(localName: string): void;
+    writeStartElement(prefix: string, localName: string, ns: string): void;
+    writeStartElement(localName: string, ns: string): void;
+    writeStartElement(localName: string): void;
     writeString(text: string): void;
     writeSurrogateCharEntity(lowChar: char, highChar: char): void;
     writeWhitespace(ws: string): void;
@@ -1955,8 +1911,6 @@ export interface __XmlTextWriter$views {
     As_IAsyncDisposable(): System_Internal.IAsyncDisposable$instance;
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
-
-export interface XmlTextWriter$instance extends System_Internal.IAsyncDisposable$instance, System_Internal.IDisposable$instance {}
 
 export type XmlTextWriter = XmlTextWriter$instance & __XmlTextWriter$views;
 
@@ -2010,7 +1964,7 @@ export class XmlValidatingReader$instance extends XmlReader$instance {
     xmlResolver: XmlResolver;
     readonly xmlSpace: XmlSpace;
     close(): void;
-    Dispose(): void;
+    dispose(): void;
     getAttribute(name: string): string;
     getAttribute(localName: string, namespaceURI: string): string;
     getAttribute(i: int): string;
@@ -2040,7 +1994,7 @@ export interface __XmlValidatingReader$views {
     As_IXmlNamespaceResolver(): IXmlNamespaceResolver$instance;
 }
 
-export interface XmlValidatingReader$instance extends System_Internal.IDisposable$instance, IXmlLineInfo$instance {}
+export interface XmlValidatingReader$instance extends IXmlLineInfo$instance {}
 
 export type XmlValidatingReader = XmlValidatingReader$instance & __XmlValidatingReader$views;
 
@@ -2052,11 +2006,11 @@ export class XmlWhitespace$instance extends XmlCharacterData$instance {
     readonly parentNode: XmlNode;
     readonly previousText: XmlNode;
     value: string;
-    Clone(): unknown;
-    Clone(): XmlNode;
+    clone(): unknown;
+    clone(): XmlNode;
     cloneNode(deep: boolean): XmlNode;
-    CreateNavigator(): XPathNavigator;
-    GetEnumerator(): IEnumerator;
+    createNavigator(): XPathNavigator;
+    getEnumerator(): IEnumerator;
     writeContentTo(w: XmlWriter): void;
     writeTo(w: XmlWriter): void;
 }
@@ -2067,8 +2021,6 @@ export interface __XmlWhitespace$views {
     As_ICloneable(): System_Internal.ICloneable$instance;
     As_IXPathNavigable(): System_Xml_XPath_Internal.IXPathNavigable$instance;
 }
-
-export interface XmlWhitespace$instance extends System_Collections_Internal.IEnumerable$instance, System_Xml_XPath_Internal.IXPathNavigable$instance {}
 
 export type XmlWhitespace = XmlWhitespace$instance & __XmlWhitespace$views;
 
@@ -2160,16 +2112,16 @@ export abstract class XmlWriter$instance {
     writeValue(value: long): void;
     abstract writeWhitespace(ws: string): void;
     writeWhitespaceAsync(ws: string): Task;
-    static create(output: Stream, settings: XmlWriterSettings): XmlWriter;
-    static create(output: Stream): XmlWriter;
-    static create(output: TextWriter, settings: XmlWriterSettings): XmlWriter;
-    static create(output: TextWriter): XmlWriter;
-    static create(outputFileName: string, settings: XmlWriterSettings): XmlWriter;
-    static create(outputFileName: string): XmlWriter;
-    static create(output: StringBuilder, settings: XmlWriterSettings): XmlWriter;
-    static create(output: StringBuilder): XmlWriter;
-    static create(output: XmlWriter, settings: XmlWriterSettings): XmlWriter;
-    static create(output: XmlWriter): XmlWriter;
+    static create4(output: Stream, settings: XmlWriterSettings): XmlWriter;
+    static create4(output: Stream): XmlWriter;
+    static create4(output: TextWriter, settings: XmlWriterSettings): XmlWriter;
+    static create4(output: TextWriter): XmlWriter;
+    static create4(outputFileName: string, settings: XmlWriterSettings): XmlWriter;
+    static create4(outputFileName: string): XmlWriter;
+    static create4(output: StringBuilder, settings: XmlWriterSettings): XmlWriter;
+    static create4(output: StringBuilder): XmlWriter;
+    static create4(output: XmlWriter, settings: XmlWriterSettings): XmlWriter;
+    static create4(output: XmlWriter): XmlWriter;
 }
 
 

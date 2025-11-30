@@ -284,11 +284,11 @@ export abstract class JsonMetadataServices$instance {
     static createMemoryInfo<TElement>(options: JsonSerializerOptions, collectionInfo: JsonCollectionInfoValues_1<Memory_1<TElement>>): JsonTypeInfo_1<Memory_1<TElement>>;
     static createObjectInfo<T>(options: JsonSerializerOptions, objectInfo: JsonObjectInfoValues_1<T>): JsonTypeInfo_1<T>;
     static createPropertyInfo<T>(options: JsonSerializerOptions, propertyInfo: JsonPropertyInfoValues_1<T>): JsonPropertyInfo;
-    static createQueueInfo<TCollection extends IEnumerable>(options: JsonSerializerOptions, collectionInfo: JsonCollectionInfoValues_1<TCollection>, addFunc: Action_2<TCollection, unknown>): JsonTypeInfo_1<TCollection>;
-    static createQueueInfo<TCollection extends Queue_1<TElement>, TElement>(options: JsonSerializerOptions, collectionInfo: JsonCollectionInfoValues_1<TCollection>): JsonTypeInfo_1<TCollection>;
+    static createQueueInfo2<TCollection extends IEnumerable>(options: JsonSerializerOptions, collectionInfo: JsonCollectionInfoValues_1<TCollection>, addFunc: Action_2<TCollection, unknown>): JsonTypeInfo_1<TCollection>;
+    static createQueueInfo2<TCollection extends Queue_1<TElement>, TElement>(options: JsonSerializerOptions, collectionInfo: JsonCollectionInfoValues_1<TCollection>): JsonTypeInfo_1<TCollection>;
     static createReadOnlyMemoryInfo<TElement>(options: JsonSerializerOptions, collectionInfo: JsonCollectionInfoValues_1<ReadOnlyMemory_1<TElement>>): JsonTypeInfo_1<ReadOnlyMemory_1<TElement>>;
-    static createStackInfo<TCollection extends IEnumerable>(options: JsonSerializerOptions, collectionInfo: JsonCollectionInfoValues_1<TCollection>, addFunc: Action_2<TCollection, unknown>): JsonTypeInfo_1<TCollection>;
-    static createStackInfo<TCollection extends Stack_1<TElement>, TElement>(options: JsonSerializerOptions, collectionInfo: JsonCollectionInfoValues_1<TCollection>): JsonTypeInfo_1<TCollection>;
+    static createStackInfo2<TCollection extends IEnumerable>(options: JsonSerializerOptions, collectionInfo: JsonCollectionInfoValues_1<TCollection>, addFunc: Action_2<TCollection, unknown>): JsonTypeInfo_1<TCollection>;
+    static createStackInfo2<TCollection extends Stack_1<TElement>, TElement>(options: JsonSerializerOptions, collectionInfo: JsonCollectionInfoValues_1<TCollection>): JsonTypeInfo_1<TCollection>;
     static createValueInfo<T>(options: JsonSerializerOptions, converter: JsonConverter): JsonTypeInfo_1<T>;
     static getEnumConverter<T extends number>(options: JsonSerializerOptions): JsonConverter_1<T>;
     static getNullableConverter<T extends unknown>(underlyingTypeInfo: JsonTypeInfo_1<T>): JsonConverter_1<Nullable_1<T>>;
@@ -300,8 +300,8 @@ export abstract class JsonMetadataServices$instance {
 export type JsonMetadataServices = JsonMetadataServices$instance;
 
 export abstract class JsonTypeInfoResolver$instance {
-    static combine(resolvers: ReadOnlySpan_1<IJsonTypeInfoResolver>): IJsonTypeInfoResolver;
-    static combine(resolvers: IJsonTypeInfoResolver[]): IJsonTypeInfoResolver;
+    static combine2(resolvers: ReadOnlySpan_1<IJsonTypeInfoResolver>): IJsonTypeInfoResolver;
+    static combine2(resolvers: IJsonTypeInfoResolver[]): IJsonTypeInfoResolver;
     static withAddedModifier(resolver: IJsonTypeInfoResolver, modifier: Action_1<JsonTypeInfo>): IJsonTypeInfoResolver;
 }
 

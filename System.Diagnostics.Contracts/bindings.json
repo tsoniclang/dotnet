@@ -13,7 +13,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.ContractFailureKind::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67117652,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -794,7 +794,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {

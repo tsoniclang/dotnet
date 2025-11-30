@@ -22,7 +22,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.ConformanceLevel::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -75,7 +75,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.DtdProcessing::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -128,7 +128,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.EntityHandling::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -172,7 +172,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Formatting::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -216,7 +216,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.NamespaceHandling::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -260,7 +260,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.NewLineHandling::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -313,7 +313,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.ReadState::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -384,7 +384,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.ValidationType::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -455,7 +455,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.WhitespaceHandling::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -508,7 +508,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.WriteState::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -597,7 +597,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlDateTimeSerializationMode::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -659,7 +659,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryReaderQuotaTypes::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -730,7 +730,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlNamespaceScope::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -783,7 +783,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlNodeChangedAction::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -836,7 +836,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlNodeOrder::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -898,7 +898,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlNodeType::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -1086,7 +1086,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlOutputMethod::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -1148,7 +1148,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlSpace::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -1201,7 +1201,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlTokenizedType::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -2015,7 +2015,7 @@
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "clone",
+          "tsEmitName": "clone$view",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -2032,7 +2032,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "getObjectData",
+          "tsEmitName": "getObjectData$view",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -2049,7 +2049,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.OnXmlDictionaryReaderClose::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "Clone",
+          "tsEmitName": "clone",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -2065,7 +2065,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.OnXmlDictionaryReaderClose::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData",
+          "tsEmitName": "getObjectData",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -2423,7 +2423,7 @@
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "clone",
+          "tsEmitName": "clone$view",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -2440,7 +2440,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
           "clrName": "GetEnumerator",
-          "tsEmitName": "getEnumerator",
+          "tsEmitName": "getEnumerator$view",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -2457,7 +2457,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.IXPathNavigable::CreateNavigator():System.Xml.XPath.XPathNavigator",
           "clrName": "CreateNavigator",
-          "tsEmitName": "createNavigator",
+          "tsEmitName": "createNavigator$view",
           "normalizedSignature": "CreateNavigator|():System.Xml.XPath.XPathNavigator|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -2474,7 +2474,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlAttribute::Clone():System.Xml.XmlNode",
           "clrName": "Clone",
-          "tsEmitName": "Clone",
+          "tsEmitName": "clone",
           "normalizedSignature": "Clone|():System.Xml.XmlNode|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -2490,7 +2490,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlAttribute::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "Clone2",
+          "tsEmitName": "clone2",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -2506,7 +2506,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlAttribute::CreateNavigator():System.Xml.XPath.XPathNavigator",
           "clrName": "CreateNavigator",
-          "tsEmitName": "CreateNavigator",
+          "tsEmitName": "createNavigator",
           "normalizedSignature": "CreateNavigator|():System.Xml.XPath.XPathNavigator|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -2522,7 +2522,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlAttribute::GetEnumerator():System.Collections.IEnumerator",
           "clrName": "GetEnumerator",
-          "tsEmitName": "GetEnumerator",
+          "tsEmitName": "getEnumerator",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -2910,7 +2910,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
           "clrName": "GetEnumerator",
-          "tsEmitName": "getEnumerator",
+          "tsEmitName": "getEnumerator$view",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -2944,7 +2944,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlAttributeCollection::GetEnumerator():System.Collections.IEnumerator",
           "clrName": "GetEnumerator",
-          "tsEmitName": "GetEnumerator",
+          "tsEmitName": "getEnumerator",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -2960,7 +2960,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlAttributeCollection::get_Item(System.Int32):System.Xml.XmlAttribute",
           "clrName": "get_Item",
-          "tsEmitName": "get_Item",
+          "tsEmitName": "getItem",
           "normalizedSignature": "get_Item|(System.Int32):System.Xml.XmlAttribute|static=false",
           "provenance": "IndexerNormalized",
           "emitScope": "ClassSurface",
@@ -2976,7 +2976,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlAttributeCollection::get_Item(System.String):System.Xml.XmlAttribute",
           "clrName": "get_Item",
-          "tsEmitName": "get_Item2",
+          "tsEmitName": "getItem2",
           "normalizedSignature": "get_Item|(System.String):System.Xml.XmlAttribute|static=false",
           "provenance": "IndexerNormalized",
           "emitScope": "ClassSurface",
@@ -2992,7 +2992,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlAttributeCollection::get_Item(System.String,System.String):System.Xml.XmlAttribute",
           "clrName": "get_Item",
-          "tsEmitName": "get_Item3",
+          "tsEmitName": "getItem3",
           "normalizedSignature": "get_Item|(System.String,System.String):System.Xml.XmlAttribute|static=false",
           "provenance": "IndexerNormalized",
           "emitScope": "ClassSurface",
@@ -3331,7 +3331,7 @@
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "clone",
+          "tsEmitName": "clone$view",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3348,7 +3348,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
           "clrName": "GetEnumerator",
-          "tsEmitName": "getEnumerator",
+          "tsEmitName": "getEnumerator$view",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3365,7 +3365,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.IXPathNavigable::CreateNavigator():System.Xml.XPath.XPathNavigator",
           "clrName": "CreateNavigator",
-          "tsEmitName": "createNavigator",
+          "tsEmitName": "createNavigator$view",
           "normalizedSignature": "CreateNavigator|():System.Xml.XPath.XPathNavigator|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3382,7 +3382,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlCDataSection::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "Clone",
+          "tsEmitName": "clone",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -3398,7 +3398,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlCDataSection::Clone():System.Xml.XmlNode",
           "clrName": "Clone",
-          "tsEmitName": "Clone4",
+          "tsEmitName": "clone4",
           "normalizedSignature": "Clone|():System.Xml.XmlNode|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -3414,7 +3414,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlCDataSection::CreateNavigator():System.Xml.XPath.XPathNavigator",
           "clrName": "CreateNavigator",
-          "tsEmitName": "CreateNavigator",
+          "tsEmitName": "createNavigator",
           "normalizedSignature": "CreateNavigator|():System.Xml.XPath.XPathNavigator|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -3430,7 +3430,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlCDataSection::GetEnumerator():System.Collections.IEnumerator",
           "clrName": "GetEnumerator",
-          "tsEmitName": "GetEnumerator",
+          "tsEmitName": "getEnumerator",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -3619,7 +3619,7 @@
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "clone",
+          "tsEmitName": "clone$view",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3636,7 +3636,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
           "clrName": "GetEnumerator",
-          "tsEmitName": "getEnumerator",
+          "tsEmitName": "getEnumerator$view",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3653,7 +3653,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.IXPathNavigable::CreateNavigator():System.Xml.XPath.XPathNavigator",
           "clrName": "CreateNavigator",
-          "tsEmitName": "createNavigator",
+          "tsEmitName": "createNavigator$view",
           "normalizedSignature": "CreateNavigator|():System.Xml.XPath.XPathNavigator|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3670,7 +3670,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlCharacterData::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "Clone",
+          "tsEmitName": "clone",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -3686,7 +3686,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlCharacterData::Clone():System.Xml.XmlNode",
           "clrName": "Clone",
-          "tsEmitName": "Clone3",
+          "tsEmitName": "clone3",
           "normalizedSignature": "Clone|():System.Xml.XmlNode|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -3702,7 +3702,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlCharacterData::CreateNavigator():System.Xml.XPath.XPathNavigator",
           "clrName": "CreateNavigator",
-          "tsEmitName": "CreateNavigator",
+          "tsEmitName": "createNavigator",
           "normalizedSignature": "CreateNavigator|():System.Xml.XPath.XPathNavigator|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -3718,7 +3718,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlCharacterData::GetEnumerator():System.Collections.IEnumerator",
           "clrName": "GetEnumerator",
-          "tsEmitName": "GetEnumerator",
+          "tsEmitName": "getEnumerator",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -3860,7 +3860,7 @@
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "clone",
+          "tsEmitName": "clone$view",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3877,7 +3877,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
           "clrName": "GetEnumerator",
-          "tsEmitName": "getEnumerator",
+          "tsEmitName": "getEnumerator$view",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3894,7 +3894,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.IXPathNavigable::CreateNavigator():System.Xml.XPath.XPathNavigator",
           "clrName": "CreateNavigator",
-          "tsEmitName": "createNavigator",
+          "tsEmitName": "createNavigator$view",
           "normalizedSignature": "CreateNavigator|():System.Xml.XPath.XPathNavigator|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3911,7 +3911,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlComment::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "Clone",
+          "tsEmitName": "clone",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -3927,7 +3927,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlComment::Clone():System.Xml.XmlNode",
           "clrName": "Clone",
-          "tsEmitName": "Clone4",
+          "tsEmitName": "clone4",
           "normalizedSignature": "Clone|():System.Xml.XmlNode|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -3943,7 +3943,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlComment::CreateNavigator():System.Xml.XPath.XPathNavigator",
           "clrName": "CreateNavigator",
-          "tsEmitName": "CreateNavigator",
+          "tsEmitName": "createNavigator",
           "normalizedSignature": "CreateNavigator|():System.Xml.XPath.XPathNavigator|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -3959,7 +3959,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlComment::GetEnumerator():System.Collections.IEnumerator",
           "clrName": "GetEnumerator",
-          "tsEmitName": "GetEnumerator",
+          "tsEmitName": "getEnumerator",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -5005,7 +5005,7 @@
         {
           "stableId": "System.Data.Common:System.Xml.XmlDataDocument::CreateElement(System.String,System.String,System.String):System.Xml.XmlElement",
           "clrName": "CreateElement",
-          "tsEmitName": "createElement",
+          "tsEmitName": "createElement3",
           "normalizedSignature": "CreateElement|(System.String,System.String,System.String):System.Xml.XmlElement|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5165,7 +5165,7 @@
         {
           "stableId": "System.Data.Common:System.Xml.XmlDataDocument::GetElementsByTagName(System.String):System.Xml.XmlNodeList",
           "clrName": "GetElementsByTagName",
-          "tsEmitName": "getElementsByTagName",
+          "tsEmitName": "getElementsByTagName2",
           "normalizedSignature": "GetElementsByTagName|(System.String):System.Xml.XmlNodeList|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5181,7 +5181,7 @@
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "clone",
+          "tsEmitName": "clone$view",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -5198,7 +5198,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
           "clrName": "GetEnumerator",
-          "tsEmitName": "getEnumerator",
+          "tsEmitName": "getEnumerator$view",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -5215,7 +5215,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.IXPathNavigable::CreateNavigator():System.Xml.XPath.XPathNavigator",
           "clrName": "CreateNavigator",
-          "tsEmitName": "createNavigator",
+          "tsEmitName": "createNavigator$view",
           "normalizedSignature": "CreateNavigator|():System.Xml.XPath.XPathNavigator|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -5232,7 +5232,7 @@
         {
           "stableId": "System.Data.Common:System.Xml.XmlDataDocument::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "Clone",
+          "tsEmitName": "clone",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -5248,7 +5248,7 @@
         {
           "stableId": "System.Data.Common:System.Xml.XmlDataDocument::Clone():System.Xml.XmlNode",
           "clrName": "Clone",
-          "tsEmitName": "Clone3",
+          "tsEmitName": "clone3",
           "normalizedSignature": "Clone|():System.Xml.XmlNode|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -5264,7 +5264,7 @@
         {
           "stableId": "System.Data.Common:System.Xml.XmlDataDocument::CreateElement(System.String):System.Xml.XmlElement",
           "clrName": "CreateElement",
-          "tsEmitName": "CreateElement",
+          "tsEmitName": "createElement",
           "normalizedSignature": "CreateElement|(System.String):System.Xml.XmlElement|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -5280,7 +5280,7 @@
         {
           "stableId": "System.Data.Common:System.Xml.XmlDataDocument::CreateElement(System.String,System.String):System.Xml.XmlElement",
           "clrName": "CreateElement",
-          "tsEmitName": "CreateElement2",
+          "tsEmitName": "createElement2",
           "normalizedSignature": "CreateElement|(System.String,System.String):System.Xml.XmlElement|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -5296,7 +5296,7 @@
         {
           "stableId": "System.Data.Common:System.Xml.XmlDataDocument::CreateNavigator():System.Xml.XPath.XPathNavigator",
           "clrName": "CreateNavigator",
-          "tsEmitName": "CreateNavigator",
+          "tsEmitName": "createNavigator",
           "normalizedSignature": "CreateNavigator|():System.Xml.XPath.XPathNavigator|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -5312,7 +5312,7 @@
         {
           "stableId": "System.Data.Common:System.Xml.XmlDataDocument::GetElementsByTagName(System.String,System.String):System.Xml.XmlNodeList",
           "clrName": "GetElementsByTagName",
-          "tsEmitName": "GetElementsByTagName",
+          "tsEmitName": "getElementsByTagName",
           "normalizedSignature": "GetElementsByTagName|(System.String,System.String):System.Xml.XmlNodeList|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -5328,7 +5328,7 @@
         {
           "stableId": "System.Data.Common:System.Xml.XmlDataDocument::GetEnumerator():System.Collections.IEnumerator",
           "clrName": "GetEnumerator",
-          "tsEmitName": "GetEnumerator",
+          "tsEmitName": "getEnumerator",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -5436,7 +5436,7 @@
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "clone",
+          "tsEmitName": "clone$view",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -5453,7 +5453,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
           "clrName": "GetEnumerator",
-          "tsEmitName": "getEnumerator",
+          "tsEmitName": "getEnumerator$view",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -5470,7 +5470,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.IXPathNavigable::CreateNavigator():System.Xml.XPath.XPathNavigator",
           "clrName": "CreateNavigator",
-          "tsEmitName": "createNavigator",
+          "tsEmitName": "createNavigator$view",
           "normalizedSignature": "CreateNavigator|():System.Xml.XPath.XPathNavigator|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -5487,7 +5487,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlDeclaration::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "Clone",
+          "tsEmitName": "clone",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -5503,7 +5503,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlDeclaration::Clone():System.Xml.XmlNode",
           "clrName": "Clone",
-          "tsEmitName": "Clone3",
+          "tsEmitName": "clone3",
           "normalizedSignature": "Clone|():System.Xml.XmlNode|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -5519,7 +5519,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlDeclaration::CreateNavigator():System.Xml.XPath.XPathNavigator",
           "clrName": "CreateNavigator",
-          "tsEmitName": "CreateNavigator",
+          "tsEmitName": "createNavigator",
           "normalizedSignature": "CreateNavigator|():System.Xml.XPath.XPathNavigator|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -5535,7 +5535,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlDeclaration::GetEnumerator():System.Collections.IEnumerator",
           "clrName": "GetEnumerator",
-          "tsEmitName": "GetEnumerator",
+          "tsEmitName": "getEnumerator",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -6440,7 +6440,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryReader::ReadStartElement(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString):System.Void",
           "clrName": "ReadStartElement",
-          "tsEmitName": "readStartElement",
+          "tsEmitName": "readStartElement4",
           "normalizedSignature": "ReadStartElement|(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6456,7 +6456,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryReader::IsStartElement(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString):System.Boolean",
           "clrName": "IsStartElement",
-          "tsEmitName": "isStartElement",
+          "tsEmitName": "isStartElement4",
           "normalizedSignature": "IsStartElement|(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6504,7 +6504,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryReader::GetAttribute(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString):System.String",
           "clrName": "GetAttribute",
-          "tsEmitName": "getAttribute",
+          "tsEmitName": "getAttribute4",
           "normalizedSignature": "GetAttribute|(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString):System.String|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6552,7 +6552,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryReader::ReadContentAsBase64():System.Byte[]",
           "clrName": "ReadContentAsBase64",
-          "tsEmitName": "readContentAsBase64",
+          "tsEmitName": "readContentAsBase642",
           "normalizedSignature": "ReadContentAsBase64|():System.Byte[]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6600,7 +6600,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryReader::ReadContentAsBinHex():System.Byte[]",
           "clrName": "ReadContentAsBinHex",
-          "tsEmitName": "readContentAsBinHex",
+          "tsEmitName": "readContentAsBinHex2",
           "normalizedSignature": "ReadContentAsBinHex|():System.Byte[]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6776,7 +6776,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryReader::ReadElementContentAsString():System.String",
           "clrName": "ReadElementContentAsString",
-          "tsEmitName": "readElementContentAsString",
+          "tsEmitName": "readElementContentAsString2",
           "normalizedSignature": "ReadElementContentAsString|():System.String|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6792,7 +6792,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryReader::ReadElementContentAsBoolean():System.Boolean",
           "clrName": "ReadElementContentAsBoolean",
-          "tsEmitName": "readElementContentAsBoolean",
+          "tsEmitName": "readElementContentAsBoolean2",
           "normalizedSignature": "ReadElementContentAsBoolean|():System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6808,7 +6808,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryReader::ReadElementContentAsInt():System.Int32",
           "clrName": "ReadElementContentAsInt",
-          "tsEmitName": "readElementContentAsInt",
+          "tsEmitName": "readElementContentAsInt2",
           "normalizedSignature": "ReadElementContentAsInt|():System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6824,7 +6824,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryReader::ReadElementContentAsLong():System.Int64",
           "clrName": "ReadElementContentAsLong",
-          "tsEmitName": "readElementContentAsLong",
+          "tsEmitName": "readElementContentAsLong2",
           "normalizedSignature": "ReadElementContentAsLong|():System.Int64|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6840,7 +6840,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryReader::ReadElementContentAsFloat():System.Single",
           "clrName": "ReadElementContentAsFloat",
-          "tsEmitName": "readElementContentAsFloat",
+          "tsEmitName": "readElementContentAsFloat2",
           "normalizedSignature": "ReadElementContentAsFloat|():System.Single|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6856,7 +6856,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryReader::ReadElementContentAsDouble():System.Double",
           "clrName": "ReadElementContentAsDouble",
-          "tsEmitName": "readElementContentAsDouble",
+          "tsEmitName": "readElementContentAsDouble2",
           "normalizedSignature": "ReadElementContentAsDouble|():System.Double|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6872,7 +6872,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryReader::ReadElementContentAsDecimal():System.Decimal",
           "clrName": "ReadElementContentAsDecimal",
-          "tsEmitName": "readElementContentAsDecimal",
+          "tsEmitName": "readElementContentAsDecimal2",
           "normalizedSignature": "ReadElementContentAsDecimal|():System.Decimal|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6888,7 +6888,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryReader::ReadElementContentAsDateTime():System.DateTime",
           "clrName": "ReadElementContentAsDateTime",
-          "tsEmitName": "readElementContentAsDateTime",
+          "tsEmitName": "readElementContentAsDateTime2",
           "normalizedSignature": "ReadElementContentAsDateTime|():System.DateTime|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6952,7 +6952,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryReader::ReadElementContentAsBase64():System.Byte[]",
           "clrName": "ReadElementContentAsBase64",
-          "tsEmitName": "readElementContentAsBase64",
+          "tsEmitName": "readElementContentAsBase642",
           "normalizedSignature": "ReadElementContentAsBase64|():System.Byte[]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6968,7 +6968,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryReader::ReadElementContentAsBinHex():System.Byte[]",
           "clrName": "ReadElementContentAsBinHex",
-          "tsEmitName": "readElementContentAsBinHex",
+          "tsEmitName": "readElementContentAsBinHex2",
           "normalizedSignature": "ReadElementContentAsBinHex|():System.Byte[]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7720,7 +7720,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "dispose",
+          "tsEmitName": "dispose$view",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -7737,7 +7737,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryReader::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "Dispose",
+          "tsEmitName": "dispose",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -7753,7 +7753,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryReader::GetAttribute(System.String):System.String",
           "clrName": "GetAttribute",
-          "tsEmitName": "GetAttribute",
+          "tsEmitName": "getAttribute",
           "normalizedSignature": "GetAttribute|(System.String):System.String|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -7769,7 +7769,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryReader::GetAttribute(System.String,System.String):System.String",
           "clrName": "GetAttribute",
-          "tsEmitName": "GetAttribute2",
+          "tsEmitName": "getAttribute2",
           "normalizedSignature": "GetAttribute|(System.String,System.String):System.String|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -7785,7 +7785,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryReader::GetAttribute(System.Int32):System.String",
           "clrName": "GetAttribute",
-          "tsEmitName": "GetAttribute3",
+          "tsEmitName": "getAttribute3",
           "normalizedSignature": "GetAttribute|(System.Int32):System.String|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -7801,7 +7801,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryReader::IsStartElement():System.Boolean",
           "clrName": "IsStartElement",
-          "tsEmitName": "IsStartElement",
+          "tsEmitName": "isStartElement",
           "normalizedSignature": "IsStartElement|():System.Boolean|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -7817,7 +7817,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryReader::IsStartElement(System.String):System.Boolean",
           "clrName": "IsStartElement",
-          "tsEmitName": "IsStartElement2",
+          "tsEmitName": "isStartElement2",
           "normalizedSignature": "IsStartElement|(System.String):System.Boolean|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -7833,7 +7833,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryReader::IsStartElement(System.String,System.String):System.Boolean",
           "clrName": "IsStartElement",
-          "tsEmitName": "IsStartElement3",
+          "tsEmitName": "isStartElement3",
           "normalizedSignature": "IsStartElement|(System.String,System.String):System.Boolean|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -7849,7 +7849,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryReader::ReadContentAsBase64(System.Byte[],System.Int32,System.Int32):System.Int32",
           "clrName": "ReadContentAsBase64",
-          "tsEmitName": "ReadContentAsBase64",
+          "tsEmitName": "readContentAsBase64",
           "normalizedSignature": "ReadContentAsBase64|(System.Byte[],System.Int32,System.Int32):System.Int32|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -7865,7 +7865,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryReader::ReadContentAsBinHex(System.Byte[],System.Int32,System.Int32):System.Int32",
           "clrName": "ReadContentAsBinHex",
-          "tsEmitName": "ReadContentAsBinHex",
+          "tsEmitName": "readContentAsBinHex",
           "normalizedSignature": "ReadContentAsBinHex|(System.Byte[],System.Int32,System.Int32):System.Int32|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -7881,7 +7881,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryReader::ReadElementContentAsBase64(System.Byte[],System.Int32,System.Int32):System.Int32",
           "clrName": "ReadElementContentAsBase64",
-          "tsEmitName": "ReadElementContentAsBase64",
+          "tsEmitName": "readElementContentAsBase64",
           "normalizedSignature": "ReadElementContentAsBase64|(System.Byte[],System.Int32,System.Int32):System.Int32|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -7897,7 +7897,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryReader::ReadElementContentAsBinHex(System.Byte[],System.Int32,System.Int32):System.Int32",
           "clrName": "ReadElementContentAsBinHex",
-          "tsEmitName": "ReadElementContentAsBinHex",
+          "tsEmitName": "readElementContentAsBinHex",
           "normalizedSignature": "ReadElementContentAsBinHex|(System.Byte[],System.Int32,System.Int32):System.Int32|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -7913,7 +7913,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryReader::ReadElementContentAsBoolean(System.String,System.String):System.Boolean",
           "clrName": "ReadElementContentAsBoolean",
-          "tsEmitName": "ReadElementContentAsBoolean",
+          "tsEmitName": "readElementContentAsBoolean",
           "normalizedSignature": "ReadElementContentAsBoolean|(System.String,System.String):System.Boolean|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -7929,7 +7929,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryReader::ReadElementContentAsDateTime(System.String,System.String):System.DateTime",
           "clrName": "ReadElementContentAsDateTime",
-          "tsEmitName": "ReadElementContentAsDateTime",
+          "tsEmitName": "readElementContentAsDateTime",
           "normalizedSignature": "ReadElementContentAsDateTime|(System.String,System.String):System.DateTime|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -7945,7 +7945,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryReader::ReadElementContentAsDecimal(System.String,System.String):System.Decimal",
           "clrName": "ReadElementContentAsDecimal",
-          "tsEmitName": "ReadElementContentAsDecimal",
+          "tsEmitName": "readElementContentAsDecimal",
           "normalizedSignature": "ReadElementContentAsDecimal|(System.String,System.String):System.Decimal|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -7961,7 +7961,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryReader::ReadElementContentAsDouble(System.String,System.String):System.Double",
           "clrName": "ReadElementContentAsDouble",
-          "tsEmitName": "ReadElementContentAsDouble",
+          "tsEmitName": "readElementContentAsDouble",
           "normalizedSignature": "ReadElementContentAsDouble|(System.String,System.String):System.Double|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -7977,7 +7977,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryReader::ReadElementContentAsFloat(System.String,System.String):System.Single",
           "clrName": "ReadElementContentAsFloat",
-          "tsEmitName": "ReadElementContentAsFloat",
+          "tsEmitName": "readElementContentAsFloat",
           "normalizedSignature": "ReadElementContentAsFloat|(System.String,System.String):System.Single|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -7993,7 +7993,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryReader::ReadElementContentAsInt(System.String,System.String):System.Int32",
           "clrName": "ReadElementContentAsInt",
-          "tsEmitName": "ReadElementContentAsInt",
+          "tsEmitName": "readElementContentAsInt",
           "normalizedSignature": "ReadElementContentAsInt|(System.String,System.String):System.Int32|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -8009,7 +8009,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryReader::ReadElementContentAsLong(System.String,System.String):System.Int64",
           "clrName": "ReadElementContentAsLong",
-          "tsEmitName": "ReadElementContentAsLong",
+          "tsEmitName": "readElementContentAsLong",
           "normalizedSignature": "ReadElementContentAsLong|(System.String,System.String):System.Int64|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -8025,7 +8025,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryReader::ReadElementContentAsString(System.String,System.String):System.String",
           "clrName": "ReadElementContentAsString",
-          "tsEmitName": "ReadElementContentAsString",
+          "tsEmitName": "readElementContentAsString",
           "normalizedSignature": "ReadElementContentAsString|(System.String,System.String):System.String|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -8041,7 +8041,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryReader::ReadStartElement():System.Void",
           "clrName": "ReadStartElement",
-          "tsEmitName": "ReadStartElement",
+          "tsEmitName": "readStartElement",
           "normalizedSignature": "ReadStartElement|():System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -8057,7 +8057,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryReader::ReadStartElement(System.String):System.Void",
           "clrName": "ReadStartElement",
-          "tsEmitName": "ReadStartElement2",
+          "tsEmitName": "readStartElement2",
           "normalizedSignature": "ReadStartElement|(System.String):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -8073,7 +8073,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryReader::ReadStartElement(System.String,System.String):System.Void",
           "clrName": "ReadStartElement",
-          "tsEmitName": "ReadStartElement3",
+          "tsEmitName": "readStartElement3",
           "normalizedSignature": "ReadStartElement|(System.String,System.String):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -8558,7 +8558,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryWriter::WriteStartElement(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString):System.Void",
           "clrName": "WriteStartElement",
-          "tsEmitName": "writeStartElement",
+          "tsEmitName": "writeStartElement4",
           "normalizedSignature": "WriteStartElement|(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8574,7 +8574,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryWriter::WriteStartElement(System.String,System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString):System.Void",
           "clrName": "WriteStartElement",
-          "tsEmitName": "writeStartElement2",
+          "tsEmitName": "writeStartElement5",
           "normalizedSignature": "WriteStartElement|(System.String,System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8590,7 +8590,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryWriter::WriteStartAttribute(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString):System.Void",
           "clrName": "WriteStartAttribute",
-          "tsEmitName": "writeStartAttribute",
+          "tsEmitName": "writeStartAttribute4",
           "normalizedSignature": "WriteStartAttribute|(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8606,7 +8606,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryWriter::WriteStartAttribute(System.String,System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString):System.Void",
           "clrName": "WriteStartAttribute",
-          "tsEmitName": "writeStartAttribute2",
+          "tsEmitName": "writeStartAttribute5",
           "normalizedSignature": "WriteStartAttribute|(System.String,System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8622,7 +8622,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryWriter::WriteAttributeString(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString,System.String):System.Void",
           "clrName": "WriteAttributeString",
-          "tsEmitName": "writeAttributeString",
+          "tsEmitName": "writeAttributeString4",
           "normalizedSignature": "WriteAttributeString|(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString,System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8702,7 +8702,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryWriter::WriteAttributeString(System.String,System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString,System.String):System.Void",
           "clrName": "WriteAttributeString",
-          "tsEmitName": "writeAttributeString2",
+          "tsEmitName": "writeAttributeString5",
           "normalizedSignature": "WriteAttributeString|(System.String,System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString,System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8718,7 +8718,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryWriter::WriteElementString(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString,System.String):System.Void",
           "clrName": "WriteElementString",
-          "tsEmitName": "writeElementString",
+          "tsEmitName": "writeElementString4",
           "normalizedSignature": "WriteElementString|(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString,System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8734,7 +8734,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryWriter::WriteElementString(System.String,System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString,System.String):System.Void",
           "clrName": "WriteElementString",
-          "tsEmitName": "writeElementString2",
+          "tsEmitName": "writeElementString5",
           "normalizedSignature": "WriteElementString|(System.String,System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString,System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8750,7 +8750,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryWriter::WriteString(System.Xml.XmlDictionaryString):System.Void",
           "clrName": "WriteString",
-          "tsEmitName": "writeString",
+          "tsEmitName": "writeString2",
           "normalizedSignature": "WriteString|(System.Xml.XmlDictionaryString):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8766,7 +8766,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryWriter::WriteQualifiedName(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString):System.Void",
           "clrName": "WriteQualifiedName",
-          "tsEmitName": "writeQualifiedName",
+          "tsEmitName": "writeQualifiedName2",
           "normalizedSignature": "WriteQualifiedName|(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8782,7 +8782,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryWriter::WriteValue(System.Xml.XmlDictionaryString):System.Void",
           "clrName": "WriteValue",
-          "tsEmitName": "writeValue",
+          "tsEmitName": "writeValue11",
           "normalizedSignature": "WriteValue|(System.Xml.XmlDictionaryString):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8798,7 +8798,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryWriter::WriteValue(System.Xml.UniqueId):System.Void",
           "clrName": "WriteValue",
-          "tsEmitName": "writeValue2",
+          "tsEmitName": "writeValue12",
           "normalizedSignature": "WriteValue|(System.Xml.UniqueId):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8814,7 +8814,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryWriter::WriteValue(System.Guid):System.Void",
           "clrName": "WriteValue",
-          "tsEmitName": "writeValue3",
+          "tsEmitName": "writeValue13",
           "normalizedSignature": "WriteValue|(System.Guid):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8830,7 +8830,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryWriter::WriteValue(System.TimeSpan):System.Void",
           "clrName": "WriteValue",
-          "tsEmitName": "writeValue4",
+          "tsEmitName": "writeValue14",
           "normalizedSignature": "WriteValue|(System.TimeSpan):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8846,7 +8846,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryWriter::WriteValue(System.Xml.IStreamProvider):System.Void",
           "clrName": "WriteValue",
-          "tsEmitName": "writeValue5",
+          "tsEmitName": "writeValue15",
           "normalizedSignature": "WriteValue|(System.Xml.IStreamProvider):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8910,7 +8910,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryWriter::WriteNode(System.Xml.XmlReader,System.Boolean):System.Void",
           "clrName": "WriteNode",
-          "tsEmitName": "writeNode",
+          "tsEmitName": "writeNode2",
           "normalizedSignature": "WriteNode|(System.Xml.XmlReader,System.Boolean):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8926,7 +8926,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryWriter::WriteNode(System.Xml.XmlDictionaryReader,System.Boolean):System.Void",
           "clrName": "WriteNode",
-          "tsEmitName": "writeNode2",
+          "tsEmitName": "writeNode3",
           "normalizedSignature": "WriteNode|(System.Xml.XmlDictionaryReader,System.Boolean):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9278,7 +9278,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "dispose",
+          "tsEmitName": "dispose$view",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -9295,7 +9295,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IAsyncDisposable::DisposeAsync():System.Threading.Tasks.ValueTask",
           "clrName": "DisposeAsync",
-          "tsEmitName": "disposeAsync",
+          "tsEmitName": "disposeAsync$view",
           "normalizedSignature": "DisposeAsync|():System.Threading.Tasks.ValueTask|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -9312,7 +9312,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryWriter::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "Dispose",
+          "tsEmitName": "dispose",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -9328,7 +9328,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryWriter::DisposeAsync():System.Threading.Tasks.ValueTask",
           "clrName": "DisposeAsync",
-          "tsEmitName": "DisposeAsync",
+          "tsEmitName": "disposeAsync",
           "normalizedSignature": "DisposeAsync|():System.Threading.Tasks.ValueTask|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -9344,7 +9344,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryWriter::WriteAttributeString(System.String,System.String,System.String):System.Void",
           "clrName": "WriteAttributeString",
-          "tsEmitName": "WriteAttributeString",
+          "tsEmitName": "writeAttributeString",
           "normalizedSignature": "WriteAttributeString|(System.String,System.String,System.String):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -9360,7 +9360,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryWriter::WriteAttributeString(System.String,System.String):System.Void",
           "clrName": "WriteAttributeString",
-          "tsEmitName": "WriteAttributeString2",
+          "tsEmitName": "writeAttributeString2",
           "normalizedSignature": "WriteAttributeString|(System.String,System.String):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -9376,7 +9376,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryWriter::WriteAttributeString(System.String,System.String,System.String,System.String):System.Void",
           "clrName": "WriteAttributeString",
-          "tsEmitName": "WriteAttributeString3",
+          "tsEmitName": "writeAttributeString3",
           "normalizedSignature": "WriteAttributeString|(System.String,System.String,System.String,System.String):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -9392,7 +9392,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryWriter::WriteElementString(System.String,System.String):System.Void",
           "clrName": "WriteElementString",
-          "tsEmitName": "WriteElementString",
+          "tsEmitName": "writeElementString",
           "normalizedSignature": "WriteElementString|(System.String,System.String):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -9408,7 +9408,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryWriter::WriteElementString(System.String,System.String,System.String):System.Void",
           "clrName": "WriteElementString",
-          "tsEmitName": "WriteElementString2",
+          "tsEmitName": "writeElementString2",
           "normalizedSignature": "WriteElementString|(System.String,System.String,System.String):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -9424,7 +9424,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryWriter::WriteElementString(System.String,System.String,System.String,System.String):System.Void",
           "clrName": "WriteElementString",
-          "tsEmitName": "WriteElementString3",
+          "tsEmitName": "writeElementString3",
           "normalizedSignature": "WriteElementString|(System.String,System.String,System.String,System.String):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -9440,7 +9440,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryWriter::WriteNode(System.Xml.XPath.XPathNavigator,System.Boolean):System.Void",
           "clrName": "WriteNode",
-          "tsEmitName": "WriteNode",
+          "tsEmitName": "writeNode",
           "normalizedSignature": "WriteNode|(System.Xml.XPath.XPathNavigator,System.Boolean):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -9456,7 +9456,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryWriter::WriteQualifiedName(System.String,System.String):System.Void",
           "clrName": "WriteQualifiedName",
-          "tsEmitName": "WriteQualifiedName",
+          "tsEmitName": "writeQualifiedName",
           "normalizedSignature": "WriteQualifiedName|(System.String,System.String):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -9472,7 +9472,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryWriter::WriteStartAttribute(System.String,System.String):System.Void",
           "clrName": "WriteStartAttribute",
-          "tsEmitName": "WriteStartAttribute",
+          "tsEmitName": "writeStartAttribute",
           "normalizedSignature": "WriteStartAttribute|(System.String,System.String):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -9488,7 +9488,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryWriter::WriteStartAttribute(System.String,System.String,System.String):System.Void",
           "clrName": "WriteStartAttribute",
-          "tsEmitName": "WriteStartAttribute2",
+          "tsEmitName": "writeStartAttribute2",
           "normalizedSignature": "WriteStartAttribute|(System.String,System.String,System.String):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -9504,7 +9504,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryWriter::WriteStartAttribute(System.String):System.Void",
           "clrName": "WriteStartAttribute",
-          "tsEmitName": "WriteStartAttribute3",
+          "tsEmitName": "writeStartAttribute3",
           "normalizedSignature": "WriteStartAttribute|(System.String):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -9520,7 +9520,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryWriter::WriteStartElement(System.String,System.String):System.Void",
           "clrName": "WriteStartElement",
-          "tsEmitName": "WriteStartElement",
+          "tsEmitName": "writeStartElement",
           "normalizedSignature": "WriteStartElement|(System.String,System.String):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -9536,7 +9536,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryWriter::WriteStartElement(System.String,System.String,System.String):System.Void",
           "clrName": "WriteStartElement",
-          "tsEmitName": "WriteStartElement2",
+          "tsEmitName": "writeStartElement2",
           "normalizedSignature": "WriteStartElement|(System.String,System.String,System.String):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -9552,7 +9552,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryWriter::WriteStartElement(System.String):System.Void",
           "clrName": "WriteStartElement",
-          "tsEmitName": "WriteStartElement3",
+          "tsEmitName": "writeStartElement3",
           "normalizedSignature": "WriteStartElement|(System.String):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -9568,7 +9568,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryWriter::WriteString(System.String):System.Void",
           "clrName": "WriteString",
-          "tsEmitName": "WriteString",
+          "tsEmitName": "writeString",
           "normalizedSignature": "WriteString|(System.String):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -9584,7 +9584,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryWriter::WriteValue(System.Object):System.Void",
           "clrName": "WriteValue",
-          "tsEmitName": "WriteValue",
+          "tsEmitName": "writeValue",
           "normalizedSignature": "WriteValue|(System.Object):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -9600,7 +9600,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryWriter::WriteValue(System.String):System.Void",
           "clrName": "WriteValue",
-          "tsEmitName": "WriteValue2",
+          "tsEmitName": "writeValue2",
           "normalizedSignature": "WriteValue|(System.String):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -9616,7 +9616,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryWriter::WriteValue(System.Boolean):System.Void",
           "clrName": "WriteValue",
-          "tsEmitName": "WriteValue3",
+          "tsEmitName": "writeValue3",
           "normalizedSignature": "WriteValue|(System.Boolean):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -9632,7 +9632,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryWriter::WriteValue(System.DateTime):System.Void",
           "clrName": "WriteValue",
-          "tsEmitName": "WriteValue4",
+          "tsEmitName": "writeValue4",
           "normalizedSignature": "WriteValue|(System.DateTime):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -9648,7 +9648,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryWriter::WriteValue(System.DateTimeOffset):System.Void",
           "clrName": "WriteValue",
-          "tsEmitName": "WriteValue5",
+          "tsEmitName": "writeValue5",
           "normalizedSignature": "WriteValue|(System.DateTimeOffset):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -9664,7 +9664,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryWriter::WriteValue(System.Double):System.Void",
           "clrName": "WriteValue",
-          "tsEmitName": "WriteValue6",
+          "tsEmitName": "writeValue6",
           "normalizedSignature": "WriteValue|(System.Double):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -9680,7 +9680,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryWriter::WriteValue(System.Single):System.Void",
           "clrName": "WriteValue",
-          "tsEmitName": "WriteValue7",
+          "tsEmitName": "writeValue7",
           "normalizedSignature": "WriteValue|(System.Single):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -9696,7 +9696,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryWriter::WriteValue(System.Decimal):System.Void",
           "clrName": "WriteValue",
-          "tsEmitName": "WriteValue8",
+          "tsEmitName": "writeValue8",
           "normalizedSignature": "WriteValue|(System.Decimal):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -9712,7 +9712,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryWriter::WriteValue(System.Int32):System.Void",
           "clrName": "WriteValue",
-          "tsEmitName": "WriteValue9",
+          "tsEmitName": "writeValue9",
           "normalizedSignature": "WriteValue|(System.Int32):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -9728,7 +9728,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryWriter::WriteValue(System.Int64):System.Void",
           "clrName": "WriteValue",
-          "tsEmitName": "WriteValue10",
+          "tsEmitName": "writeValue10",
           "normalizedSignature": "WriteValue|(System.Int64):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -10401,7 +10401,7 @@
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "clone",
+          "tsEmitName": "clone$view",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -10418,7 +10418,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
           "clrName": "GetEnumerator",
-          "tsEmitName": "getEnumerator",
+          "tsEmitName": "getEnumerator$view",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -10452,7 +10452,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlDocument::Clone():System.Xml.XmlNode",
           "clrName": "Clone",
-          "tsEmitName": "Clone",
+          "tsEmitName": "clone",
           "normalizedSignature": "Clone|():System.Xml.XmlNode|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -10468,7 +10468,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlDocument::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "Clone2",
+          "tsEmitName": "clone2",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -10484,7 +10484,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlDocument::GetEnumerator():System.Collections.IEnumerator",
           "clrName": "GetEnumerator",
-          "tsEmitName": "GetEnumerator",
+          "tsEmitName": "getEnumerator",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -10875,7 +10875,7 @@
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "clone",
+          "tsEmitName": "clone$view",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -10892,7 +10892,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
           "clrName": "GetEnumerator",
-          "tsEmitName": "getEnumerator",
+          "tsEmitName": "getEnumerator$view",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -10909,7 +10909,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.IXPathNavigable::CreateNavigator():System.Xml.XPath.XPathNavigator",
           "clrName": "CreateNavigator",
-          "tsEmitName": "createNavigator",
+          "tsEmitName": "createNavigator$view",
           "normalizedSignature": "CreateNavigator|():System.Xml.XPath.XPathNavigator|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -10926,7 +10926,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlDocumentFragment::Clone():System.Xml.XmlNode",
           "clrName": "Clone",
-          "tsEmitName": "Clone",
+          "tsEmitName": "clone",
           "normalizedSignature": "Clone|():System.Xml.XmlNode|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -10942,7 +10942,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlDocumentFragment::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "Clone2",
+          "tsEmitName": "clone2",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -10958,7 +10958,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlDocumentFragment::CreateNavigator():System.Xml.XPath.XPathNavigator",
           "clrName": "CreateNavigator",
-          "tsEmitName": "CreateNavigator",
+          "tsEmitName": "createNavigator",
           "normalizedSignature": "CreateNavigator|():System.Xml.XPath.XPathNavigator|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -10974,7 +10974,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlDocumentFragment::GetEnumerator():System.Collections.IEnumerator",
           "clrName": "GetEnumerator",
-          "tsEmitName": "GetEnumerator",
+          "tsEmitName": "getEnumerator",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -11146,7 +11146,7 @@
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "clone",
+          "tsEmitName": "clone$view",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -11163,7 +11163,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
           "clrName": "GetEnumerator",
-          "tsEmitName": "getEnumerator",
+          "tsEmitName": "getEnumerator$view",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -11180,7 +11180,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.IXPathNavigable::CreateNavigator():System.Xml.XPath.XPathNavigator",
           "clrName": "CreateNavigator",
-          "tsEmitName": "createNavigator",
+          "tsEmitName": "createNavigator$view",
           "normalizedSignature": "CreateNavigator|():System.Xml.XPath.XPathNavigator|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -11197,7 +11197,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlDocumentType::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "Clone",
+          "tsEmitName": "clone",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -11213,7 +11213,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlDocumentType::Clone():System.Xml.XmlNode",
           "clrName": "Clone",
-          "tsEmitName": "Clone3",
+          "tsEmitName": "clone3",
           "normalizedSignature": "Clone|():System.Xml.XmlNode|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -11229,7 +11229,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlDocumentType::CreateNavigator():System.Xml.XPath.XPathNavigator",
           "clrName": "CreateNavigator",
-          "tsEmitName": "CreateNavigator",
+          "tsEmitName": "createNavigator",
           "normalizedSignature": "CreateNavigator|():System.Xml.XPath.XPathNavigator|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -11245,7 +11245,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlDocumentType::GetEnumerator():System.Collections.IEnumerator",
           "clrName": "GetEnumerator",
-          "tsEmitName": "GetEnumerator",
+          "tsEmitName": "getEnumerator",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -11766,7 +11766,7 @@
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "clone",
+          "tsEmitName": "clone$view",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -11783,7 +11783,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
           "clrName": "GetEnumerator",
-          "tsEmitName": "getEnumerator",
+          "tsEmitName": "getEnumerator$view",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -11800,7 +11800,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.IXPathNavigable::CreateNavigator():System.Xml.XPath.XPathNavigator",
           "clrName": "CreateNavigator",
-          "tsEmitName": "createNavigator",
+          "tsEmitName": "createNavigator$view",
           "normalizedSignature": "CreateNavigator|():System.Xml.XPath.XPathNavigator|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -11817,7 +11817,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlElement::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "Clone",
+          "tsEmitName": "clone",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -11833,7 +11833,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlElement::Clone():System.Xml.XmlNode",
           "clrName": "Clone",
-          "tsEmitName": "Clone3",
+          "tsEmitName": "clone3",
           "normalizedSignature": "Clone|():System.Xml.XmlNode|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -11849,7 +11849,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlElement::CreateNavigator():System.Xml.XPath.XPathNavigator",
           "clrName": "CreateNavigator",
-          "tsEmitName": "CreateNavigator",
+          "tsEmitName": "createNavigator",
           "normalizedSignature": "CreateNavigator|():System.Xml.XPath.XPathNavigator|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -11865,7 +11865,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlElement::GetEnumerator():System.Collections.IEnumerator",
           "clrName": "GetEnumerator",
-          "tsEmitName": "GetEnumerator",
+          "tsEmitName": "getEnumerator",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -12157,7 +12157,7 @@
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "clone",
+          "tsEmitName": "clone$view",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -12174,7 +12174,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
           "clrName": "GetEnumerator",
-          "tsEmitName": "getEnumerator",
+          "tsEmitName": "getEnumerator$view",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -12191,7 +12191,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.IXPathNavigable::CreateNavigator():System.Xml.XPath.XPathNavigator",
           "clrName": "CreateNavigator",
-          "tsEmitName": "createNavigator",
+          "tsEmitName": "createNavigator$view",
           "normalizedSignature": "CreateNavigator|():System.Xml.XPath.XPathNavigator|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -12208,7 +12208,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlEntity::Clone():System.Xml.XmlNode",
           "clrName": "Clone",
-          "tsEmitName": "Clone",
+          "tsEmitName": "clone",
           "normalizedSignature": "Clone|():System.Xml.XmlNode|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -12224,7 +12224,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlEntity::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "Clone2",
+          "tsEmitName": "clone2",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -12240,7 +12240,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlEntity::CreateNavigator():System.Xml.XPath.XPathNavigator",
           "clrName": "CreateNavigator",
-          "tsEmitName": "CreateNavigator",
+          "tsEmitName": "createNavigator",
           "normalizedSignature": "CreateNavigator|():System.Xml.XPath.XPathNavigator|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -12256,7 +12256,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlEntity::GetEnumerator():System.Collections.IEnumerator",
           "clrName": "GetEnumerator",
-          "tsEmitName": "GetEnumerator",
+          "tsEmitName": "getEnumerator",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -12503,7 +12503,7 @@
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "clone",
+          "tsEmitName": "clone$view",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -12520,7 +12520,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
           "clrName": "GetEnumerator",
-          "tsEmitName": "getEnumerator",
+          "tsEmitName": "getEnumerator$view",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -12537,7 +12537,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.IXPathNavigable::CreateNavigator():System.Xml.XPath.XPathNavigator",
           "clrName": "CreateNavigator",
-          "tsEmitName": "createNavigator",
+          "tsEmitName": "createNavigator$view",
           "normalizedSignature": "CreateNavigator|():System.Xml.XPath.XPathNavigator|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -12554,7 +12554,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlEntityReference::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "Clone",
+          "tsEmitName": "clone",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -12570,7 +12570,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlEntityReference::Clone():System.Xml.XmlNode",
           "clrName": "Clone",
-          "tsEmitName": "Clone3",
+          "tsEmitName": "clone3",
           "normalizedSignature": "Clone|():System.Xml.XmlNode|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -12586,7 +12586,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlEntityReference::CreateNavigator():System.Xml.XPath.XPathNavigator",
           "clrName": "CreateNavigator",
-          "tsEmitName": "CreateNavigator",
+          "tsEmitName": "createNavigator",
           "normalizedSignature": "CreateNavigator|():System.Xml.XPath.XPathNavigator|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -12602,7 +12602,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlEntityReference::GetEnumerator():System.Collections.IEnumerator",
           "clrName": "GetEnumerator",
-          "tsEmitName": "GetEnumerator",
+          "tsEmitName": "getEnumerator",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -12918,7 +12918,7 @@
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "clone",
+          "tsEmitName": "clone$view",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -12935,7 +12935,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
           "clrName": "GetEnumerator",
-          "tsEmitName": "getEnumerator",
+          "tsEmitName": "getEnumerator$view",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -12952,7 +12952,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.IXPathNavigable::CreateNavigator():System.Xml.XPath.XPathNavigator",
           "clrName": "CreateNavigator",
-          "tsEmitName": "createNavigator",
+          "tsEmitName": "createNavigator$view",
           "normalizedSignature": "CreateNavigator|():System.Xml.XPath.XPathNavigator|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -12969,7 +12969,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlLinkedNode::Clone():System.Xml.XmlNode",
           "clrName": "Clone",
-          "tsEmitName": "Clone",
+          "tsEmitName": "clone",
           "normalizedSignature": "Clone|():System.Xml.XmlNode|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -12985,7 +12985,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlLinkedNode::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "Clone2",
+          "tsEmitName": "clone2",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -13001,7 +13001,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlLinkedNode::CreateNavigator():System.Xml.XPath.XPathNavigator",
           "clrName": "CreateNavigator",
-          "tsEmitName": "CreateNavigator",
+          "tsEmitName": "createNavigator",
           "normalizedSignature": "CreateNavigator|():System.Xml.XPath.XPathNavigator|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -13017,7 +13017,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlLinkedNode::GetEnumerator():System.Collections.IEnumerator",
           "clrName": "GetEnumerator",
-          "tsEmitName": "GetEnumerator",
+          "tsEmitName": "getEnumerator",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -13960,7 +13960,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlNode::get_Item(System.String):System.Xml.XmlElement",
           "clrName": "get_Item",
-          "tsEmitName": "get_Item",
+          "tsEmitName": "getItem",
           "normalizedSignature": "get_Item|(System.String):System.Xml.XmlElement|static=false",
           "provenance": "IndexerNormalized",
           "emitScope": "ClassSurface",
@@ -13976,7 +13976,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlNode::get_Item(System.String,System.String):System.Xml.XmlElement",
           "clrName": "get_Item",
-          "tsEmitName": "get_Item2",
+          "tsEmitName": "getItem2",
           "normalizedSignature": "get_Item|(System.String,System.String):System.Xml.XmlElement|static=false",
           "provenance": "IndexerNormalized",
           "emitScope": "ClassSurface",
@@ -14501,7 +14501,7 @@
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "clone",
+          "tsEmitName": "clone$view",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -14518,7 +14518,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "getObjectData",
+          "tsEmitName": "getObjectData$view",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -14535,7 +14535,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlNodeChangedEventHandler::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "Clone",
+          "tsEmitName": "clone",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -14551,7 +14551,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlNodeChangedEventHandler::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData",
+          "tsEmitName": "getObjectData",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -15024,7 +15024,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "dispose",
+          "tsEmitName": "dispose$view",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -15092,7 +15092,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlNodeReader::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "Dispose",
+          "tsEmitName": "dispose",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -15495,7 +15495,7 @@
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "clone",
+          "tsEmitName": "clone$view",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -15512,7 +15512,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
           "clrName": "GetEnumerator",
-          "tsEmitName": "getEnumerator",
+          "tsEmitName": "getEnumerator$view",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -15529,7 +15529,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.IXPathNavigable::CreateNavigator():System.Xml.XPath.XPathNavigator",
           "clrName": "CreateNavigator",
-          "tsEmitName": "createNavigator",
+          "tsEmitName": "createNavigator$view",
           "normalizedSignature": "CreateNavigator|():System.Xml.XPath.XPathNavigator|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -15546,7 +15546,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlNotation::Clone():System.Xml.XmlNode",
           "clrName": "Clone",
-          "tsEmitName": "Clone",
+          "tsEmitName": "clone",
           "normalizedSignature": "Clone|():System.Xml.XmlNode|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -15562,7 +15562,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlNotation::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "Clone2",
+          "tsEmitName": "clone2",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -15578,7 +15578,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlNotation::CreateNavigator():System.Xml.XPath.XPathNavigator",
           "clrName": "CreateNavigator",
-          "tsEmitName": "CreateNavigator",
+          "tsEmitName": "createNavigator",
           "normalizedSignature": "CreateNavigator|():System.Xml.XPath.XPathNavigator|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -15594,7 +15594,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlNotation::GetEnumerator():System.Collections.IEnumerator",
           "clrName": "GetEnumerator",
-          "tsEmitName": "GetEnumerator",
+          "tsEmitName": "getEnumerator",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -15984,7 +15984,7 @@
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "clone",
+          "tsEmitName": "clone$view",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -16001,7 +16001,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
           "clrName": "GetEnumerator",
-          "tsEmitName": "getEnumerator",
+          "tsEmitName": "getEnumerator$view",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -16018,7 +16018,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.IXPathNavigable::CreateNavigator():System.Xml.XPath.XPathNavigator",
           "clrName": "CreateNavigator",
-          "tsEmitName": "createNavigator",
+          "tsEmitName": "createNavigator$view",
           "normalizedSignature": "CreateNavigator|():System.Xml.XPath.XPathNavigator|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -16035,7 +16035,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlProcessingInstruction::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "Clone",
+          "tsEmitName": "clone",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -16051,7 +16051,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlProcessingInstruction::Clone():System.Xml.XmlNode",
           "clrName": "Clone",
-          "tsEmitName": "Clone3",
+          "tsEmitName": "clone3",
           "normalizedSignature": "Clone|():System.Xml.XmlNode|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -16067,7 +16067,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlProcessingInstruction::CreateNavigator():System.Xml.XPath.XPathNavigator",
           "clrName": "CreateNavigator",
-          "tsEmitName": "CreateNavigator",
+          "tsEmitName": "createNavigator",
           "normalizedSignature": "CreateNavigator|():System.Xml.XPath.XPathNavigator|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -16083,7 +16083,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlProcessingInstruction::GetEnumerator():System.Collections.IEnumerator",
           "clrName": "GetEnumerator",
-          "tsEmitName": "GetEnumerator",
+          "tsEmitName": "getEnumerator",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -18056,7 +18056,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlReader::get_Item(System.Int32):System.String",
           "clrName": "get_Item",
-          "tsEmitName": "get_Item",
+          "tsEmitName": "getItem",
           "normalizedSignature": "get_Item|(System.Int32):System.String|static=false",
           "provenance": "IndexerNormalized",
           "emitScope": "ClassSurface",
@@ -18072,7 +18072,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlReader::get_Item(System.String):System.String",
           "clrName": "get_Item",
-          "tsEmitName": "get_Item2",
+          "tsEmitName": "getItem2",
           "normalizedSignature": "get_Item|(System.String):System.String|static=false",
           "provenance": "IndexerNormalized",
           "emitScope": "ClassSurface",
@@ -18088,7 +18088,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlReader::get_Item(System.String,System.String):System.String",
           "clrName": "get_Item",
-          "tsEmitName": "get_Item3",
+          "tsEmitName": "getItem3",
           "normalizedSignature": "get_Item|(System.String,System.String):System.String|static=false",
           "provenance": "IndexerNormalized",
           "emitScope": "ClassSurface",
@@ -18974,7 +18974,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlSecureResolver::GetEntityAsync(System.Uri,System.String,System.Type):System.Threading.Tasks.Task_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "GetEntityAsync",
-          "tsEmitName": "getEntityAsync",
+          "tsEmitName": "getEntityAsync2",
           "normalizedSignature": "GetEntityAsync|(System.Uri,System.String,System.Type):System.Threading.Tasks.Task_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -19006,7 +19006,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlSecureResolver::GetEntityAsync(System.Uri,System.String,System.Type):System.Threading.Tasks.Task_1",
           "clrName": "GetEntityAsync",
-          "tsEmitName": "GetEntityAsync",
+          "tsEmitName": "getEntityAsync",
           "normalizedSignature": "GetEntityAsync|(System.Uri,System.String,System.Type):System.Threading.Tasks.Task_1|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -19109,7 +19109,7 @@
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "clone",
+          "tsEmitName": "clone$view",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -19126,7 +19126,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
           "clrName": "GetEnumerator",
-          "tsEmitName": "getEnumerator",
+          "tsEmitName": "getEnumerator$view",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -19143,7 +19143,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.IXPathNavigable::CreateNavigator():System.Xml.XPath.XPathNavigator",
           "clrName": "CreateNavigator",
-          "tsEmitName": "createNavigator",
+          "tsEmitName": "createNavigator$view",
           "normalizedSignature": "CreateNavigator|():System.Xml.XPath.XPathNavigator|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -19160,7 +19160,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlSignificantWhitespace::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "Clone",
+          "tsEmitName": "clone",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -19176,7 +19176,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlSignificantWhitespace::Clone():System.Xml.XmlNode",
           "clrName": "Clone",
-          "tsEmitName": "Clone4",
+          "tsEmitName": "clone4",
           "normalizedSignature": "Clone|():System.Xml.XmlNode|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -19192,7 +19192,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlSignificantWhitespace::CreateNavigator():System.Xml.XPath.XPathNavigator",
           "clrName": "CreateNavigator",
-          "tsEmitName": "CreateNavigator",
+          "tsEmitName": "createNavigator",
           "normalizedSignature": "CreateNavigator|():System.Xml.XPath.XPathNavigator|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -19208,7 +19208,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlSignificantWhitespace::GetEnumerator():System.Collections.IEnumerator",
           "clrName": "GetEnumerator",
-          "tsEmitName": "GetEnumerator",
+          "tsEmitName": "getEnumerator",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -19396,7 +19396,7 @@
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "clone",
+          "tsEmitName": "clone$view",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -19413,7 +19413,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
           "clrName": "GetEnumerator",
-          "tsEmitName": "getEnumerator",
+          "tsEmitName": "getEnumerator$view",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -19430,7 +19430,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.IXPathNavigable::CreateNavigator():System.Xml.XPath.XPathNavigator",
           "clrName": "CreateNavigator",
-          "tsEmitName": "createNavigator",
+          "tsEmitName": "createNavigator$view",
           "normalizedSignature": "CreateNavigator|():System.Xml.XPath.XPathNavigator|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -19447,7 +19447,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlText::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "Clone",
+          "tsEmitName": "clone",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -19463,7 +19463,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlText::Clone():System.Xml.XmlNode",
           "clrName": "Clone",
-          "tsEmitName": "Clone4",
+          "tsEmitName": "clone4",
           "normalizedSignature": "Clone|():System.Xml.XmlNode|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -19479,7 +19479,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlText::CreateNavigator():System.Xml.XPath.XPathNavigator",
           "clrName": "CreateNavigator",
-          "tsEmitName": "CreateNavigator",
+          "tsEmitName": "createNavigator",
           "normalizedSignature": "CreateNavigator|():System.Xml.XPath.XPathNavigator|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -19495,7 +19495,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlText::GetEnumerator():System.Collections.IEnumerator",
           "clrName": "GetEnumerator",
-          "tsEmitName": "GetEnumerator",
+          "tsEmitName": "getEnumerator",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -20051,7 +20051,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "dispose",
+          "tsEmitName": "dispose$view",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -20136,7 +20136,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlTextReader::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "Dispose",
+          "tsEmitName": "dispose",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -20792,7 +20792,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlTextWriter::WriteStartElement(System.String,System.String,System.String):System.Void",
           "clrName": "WriteStartElement",
-          "tsEmitName": "writeStartElement",
+          "tsEmitName": "writeStartElement3",
           "normalizedSignature": "WriteStartElement|(System.String,System.String,System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -20840,7 +20840,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlTextWriter::WriteStartAttribute(System.String,System.String,System.String):System.Void",
           "clrName": "WriteStartAttribute",
-          "tsEmitName": "writeStartAttribute",
+          "tsEmitName": "writeStartAttribute3",
           "normalizedSignature": "WriteStartAttribute|(System.String,System.String,System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -21176,7 +21176,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "dispose",
+          "tsEmitName": "dispose$view",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -21193,7 +21193,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IAsyncDisposable::DisposeAsync():System.Threading.Tasks.ValueTask",
           "clrName": "DisposeAsync",
-          "tsEmitName": "disposeAsync",
+          "tsEmitName": "disposeAsync$view",
           "normalizedSignature": "DisposeAsync|():System.Threading.Tasks.ValueTask|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -21210,7 +21210,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlTextWriter::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "Dispose",
+          "tsEmitName": "dispose",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -21226,7 +21226,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlTextWriter::DisposeAsync():System.Threading.Tasks.ValueTask",
           "clrName": "DisposeAsync",
-          "tsEmitName": "DisposeAsync",
+          "tsEmitName": "disposeAsync",
           "normalizedSignature": "DisposeAsync|():System.Threading.Tasks.ValueTask|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -21242,7 +21242,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlTextWriter::WriteStartAttribute(System.String,System.String):System.Void",
           "clrName": "WriteStartAttribute",
-          "tsEmitName": "WriteStartAttribute",
+          "tsEmitName": "writeStartAttribute",
           "normalizedSignature": "WriteStartAttribute|(System.String,System.String):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -21258,7 +21258,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlTextWriter::WriteStartAttribute(System.String):System.Void",
           "clrName": "WriteStartAttribute",
-          "tsEmitName": "WriteStartAttribute2",
+          "tsEmitName": "writeStartAttribute2",
           "normalizedSignature": "WriteStartAttribute|(System.String):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -21274,7 +21274,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlTextWriter::WriteStartElement(System.String,System.String):System.Void",
           "clrName": "WriteStartElement",
-          "tsEmitName": "WriteStartElement",
+          "tsEmitName": "writeStartElement",
           "normalizedSignature": "WriteStartElement|(System.String,System.String):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -21290,7 +21290,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlTextWriter::WriteStartElement(System.String):System.Void",
           "clrName": "WriteStartElement",
-          "tsEmitName": "WriteStartElement2",
+          "tsEmitName": "writeStartElement2",
           "normalizedSignature": "WriteStartElement|(System.String):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -21491,7 +21491,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlUrlResolver::GetEntityAsync(System.Uri,System.String,System.Type):System.Threading.Tasks.Task_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "GetEntityAsync",
-          "tsEmitName": "getEntityAsync",
+          "tsEmitName": "getEntityAsync2",
           "normalizedSignature": "GetEntityAsync|(System.Uri,System.String,System.Type):System.Threading.Tasks.Task_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -21523,7 +21523,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlUrlResolver::GetEntityAsync(System.Uri,System.String,System.Type):System.Threading.Tasks.Task_1",
           "clrName": "GetEntityAsync",
-          "tsEmitName": "GetEntityAsync",
+          "tsEmitName": "getEntityAsync",
           "normalizedSignature": "GetEntityAsync|(System.Uri,System.String,System.Type):System.Threading.Tasks.Task_1|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -21944,7 +21944,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "dispose",
+          "tsEmitName": "dispose$view",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -22029,7 +22029,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlValidatingReader::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "Dispose",
+          "tsEmitName": "dispose",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -22617,7 +22617,7 @@
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "clone",
+          "tsEmitName": "clone$view",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -22634,7 +22634,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
           "clrName": "GetEnumerator",
-          "tsEmitName": "getEnumerator",
+          "tsEmitName": "getEnumerator$view",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -22651,7 +22651,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.IXPathNavigable::CreateNavigator():System.Xml.XPath.XPathNavigator",
           "clrName": "CreateNavigator",
-          "tsEmitName": "createNavigator",
+          "tsEmitName": "createNavigator$view",
           "normalizedSignature": "CreateNavigator|():System.Xml.XPath.XPathNavigator|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -22668,7 +22668,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlWhitespace::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "Clone",
+          "tsEmitName": "clone",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -22684,7 +22684,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlWhitespace::Clone():System.Xml.XmlNode",
           "clrName": "Clone",
-          "tsEmitName": "Clone4",
+          "tsEmitName": "clone4",
           "normalizedSignature": "Clone|():System.Xml.XmlNode|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -22700,7 +22700,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlWhitespace::CreateNavigator():System.Xml.XPath.XPathNavigator",
           "clrName": "CreateNavigator",
-          "tsEmitName": "CreateNavigator",
+          "tsEmitName": "createNavigator",
           "normalizedSignature": "CreateNavigator|():System.Xml.XPath.XPathNavigator|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -22716,7 +22716,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlWhitespace::GetEnumerator():System.Collections.IEnumerator",
           "clrName": "GetEnumerator",
-          "tsEmitName": "GetEnumerator",
+          "tsEmitName": "getEnumerator",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",

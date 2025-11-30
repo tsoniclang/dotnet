@@ -20,7 +20,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.CertificateRequestLoadOptions::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -73,7 +73,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.OpenFlags::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -144,7 +144,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.Pkcs12ExportPbeParameters::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -197,7 +197,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.StoreLocation::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -241,7 +241,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.StoreName::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -339,7 +339,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X500DistinguishedNameFlags::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -455,7 +455,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509ChainStatusFlags::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -715,7 +715,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509ChainTrustMode::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -759,7 +759,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509ContentType::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -857,7 +857,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509FindType::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -1018,7 +1018,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509IncludeOption::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -1080,7 +1080,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509KeyStorageFlags::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -1169,7 +1169,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509KeyUsageFlags::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -1285,7 +1285,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509NameType::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -1365,7 +1365,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509RevocationFlag::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -1418,7 +1418,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509RevocationMode::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -1471,7 +1471,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509RevocationReason::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -1596,7 +1596,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509SubjectKeyIdentifierHashAlgorithm::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -1703,7 +1703,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509VerificationFlags::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -2747,7 +2747,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "getObjectData",
+          "tsEmitName": "getObjectData$view",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -2764,7 +2764,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.Pkcs12LoadLimitExceededException::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData",
+          "tsEmitName": "getObjectData",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -5497,7 +5497,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "dispose",
+          "tsEmitName": "dispose$view",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -5514,7 +5514,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.IDeserializationCallback::OnDeserialization(System.Object):System.Void",
           "clrName": "OnDeserialization",
-          "tsEmitName": "onDeserialization",
+          "tsEmitName": "onDeserialization$view",
           "normalizedSignature": "OnDeserialization|(System.Object):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -5531,7 +5531,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "getObjectData",
+          "tsEmitName": "getObjectData$view",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -5548,7 +5548,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509Certificate2::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "Dispose",
+          "tsEmitName": "dispose",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -5564,7 +5564,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509Certificate2::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData",
+          "tsEmitName": "getObjectData",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -5580,7 +5580,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509Certificate2::OnDeserialization(System.Object):System.Void",
           "clrName": "OnDeserialization",
-          "tsEmitName": "OnDeserialization",
+          "tsEmitName": "onDeserialization",
           "normalizedSignature": "OnDeserialization|(System.Object):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -5935,7 +5935,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509Certificate2Collection::Add(System.Security.Cryptography.X509Certificates.X509Certificate2):System.Int32",
           "clrName": "Add",
-          "tsEmitName": "add",
+          "tsEmitName": "add5",
           "normalizedSignature": "Add|(System.Security.Cryptography.X509Certificates.X509Certificate2):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5951,7 +5951,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509Certificate2Collection::AddRange(System.Security.Cryptography.X509Certificates.X509Certificate2[]):System.Void",
           "clrName": "AddRange",
-          "tsEmitName": "addRange",
+          "tsEmitName": "addRange3",
           "normalizedSignature": "AddRange|(System.Security.Cryptography.X509Certificates.X509Certificate2[]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5967,7 +5967,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509Certificate2Collection::AddRange(System.Security.Cryptography.X509Certificates.X509Certificate2Collection):System.Void",
           "clrName": "AddRange",
-          "tsEmitName": "addRange2",
+          "tsEmitName": "addRange4",
           "normalizedSignature": "AddRange|(System.Security.Cryptography.X509Certificates.X509Certificate2Collection):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5983,7 +5983,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509Certificate2Collection::Contains(System.Security.Cryptography.X509Certificates.X509Certificate2):System.Boolean",
           "clrName": "Contains",
-          "tsEmitName": "contains",
+          "tsEmitName": "contains5",
           "normalizedSignature": "Contains|(System.Security.Cryptography.X509Certificates.X509Certificate2):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6079,7 +6079,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509Certificate2Collection::GetEnumerator():System.Security.Cryptography.X509Certificates.X509Certificate2Enumerator",
           "clrName": "GetEnumerator",
-          "tsEmitName": "getEnumerator",
+          "tsEmitName": "getEnumerator6",
           "normalizedSignature": "GetEnumerator|():System.Security.Cryptography.X509Certificates.X509Certificate2Enumerator|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6223,7 +6223,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509Certificate2Collection::Insert(System.Int32,System.Security.Cryptography.X509Certificates.X509Certificate2):System.Void",
           "clrName": "Insert",
-          "tsEmitName": "insert",
+          "tsEmitName": "insert5",
           "normalizedSignature": "Insert|(System.Int32,System.Security.Cryptography.X509Certificates.X509Certificate2):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6239,7 +6239,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509Certificate2Collection::Remove(System.Security.Cryptography.X509Certificates.X509Certificate2):System.Void",
           "clrName": "Remove",
-          "tsEmitName": "remove",
+          "tsEmitName": "remove5",
           "normalizedSignature": "Remove|(System.Security.Cryptography.X509Certificates.X509Certificate2):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6431,7 +6431,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Clear():System.Void",
           "clrName": "Clear",
-          "tsEmitName": "clear",
+          "tsEmitName": "clear$view",
           "normalizedSignature": "Clear|():System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -6448,7 +6448,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::IndexOf(System.Object):System.Int32",
           "clrName": "IndexOf",
-          "tsEmitName": "indexOf",
+          "tsEmitName": "indexOf$view",
           "normalizedSignature": "IndexOf|(System.Object):System.Int32|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -6465,7 +6465,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::RemoveAt(System.Int32):System.Void",
           "clrName": "RemoveAt",
-          "tsEmitName": "removeAt",
+          "tsEmitName": "removeAt$view",
           "normalizedSignature": "RemoveAt|(System.Int32):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -6482,7 +6482,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.ICollection::CopyTo(System.Array,System.Int32):System.Void",
           "clrName": "CopyTo",
-          "tsEmitName": "copyTo",
+          "tsEmitName": "copyTo$view",
           "normalizedSignature": "CopyTo|(System.Array,System.Int32):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -6601,7 +6601,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509Certificate2Collection::Add(System.Security.Cryptography.X509Certificates.X509Certificate):System.Int32",
           "clrName": "Add",
-          "tsEmitName": "Add",
+          "tsEmitName": "add",
           "normalizedSignature": "Add|(System.Security.Cryptography.X509Certificates.X509Certificate):System.Int32|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -6617,7 +6617,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509Certificate2Collection::Add(System.Object):System.Int32",
           "clrName": "Add",
-          "tsEmitName": "Add4",
+          "tsEmitName": "add4",
           "normalizedSignature": "Add|(System.Object):System.Int32|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -6633,7 +6633,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509Certificate2Collection::AddRange(System.Security.Cryptography.X509Certificates.X509Certificate[]):System.Void",
           "clrName": "AddRange",
-          "tsEmitName": "AddRange",
+          "tsEmitName": "addRange",
           "normalizedSignature": "AddRange|(System.Security.Cryptography.X509Certificates.X509Certificate[]):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -6649,7 +6649,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509Certificate2Collection::AddRange(System.Security.Cryptography.X509Certificates.X509CertificateCollection):System.Void",
           "clrName": "AddRange",
-          "tsEmitName": "AddRange2",
+          "tsEmitName": "addRange2",
           "normalizedSignature": "AddRange|(System.Security.Cryptography.X509Certificates.X509CertificateCollection):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -6665,7 +6665,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509Certificate2Collection::Clear():System.Void",
           "clrName": "Clear",
-          "tsEmitName": "Clear",
+          "tsEmitName": "clear",
           "normalizedSignature": "Clear|():System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -6681,7 +6681,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509Certificate2Collection::Contains(System.Security.Cryptography.X509Certificates.X509Certificate):System.Boolean",
           "clrName": "Contains",
-          "tsEmitName": "Contains",
+          "tsEmitName": "contains",
           "normalizedSignature": "Contains|(System.Security.Cryptography.X509Certificates.X509Certificate):System.Boolean|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -6697,7 +6697,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509Certificate2Collection::Contains(System.Object):System.Boolean",
           "clrName": "Contains",
-          "tsEmitName": "Contains4",
+          "tsEmitName": "contains4",
           "normalizedSignature": "Contains|(System.Object):System.Boolean|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -6713,7 +6713,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509Certificate2Collection::CopyTo(System.Security.Cryptography.X509Certificates.X509Certificate[],System.Int32):System.Void",
           "clrName": "CopyTo",
-          "tsEmitName": "CopyTo",
+          "tsEmitName": "copyTo",
           "normalizedSignature": "CopyTo|(System.Security.Cryptography.X509Certificates.X509Certificate[],System.Int32):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -6729,7 +6729,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509Certificate2Collection::CopyTo(System.Array,System.Int32):System.Void",
           "clrName": "CopyTo",
-          "tsEmitName": "CopyTo4",
+          "tsEmitName": "copyTo4",
           "normalizedSignature": "CopyTo|(System.Array,System.Int32):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -6745,7 +6745,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509Certificate2Collection::GetEnumerator():System.Security.Cryptography.X509Certificates.X509CertificateCollection\u002BX509CertificateEnumerator",
           "clrName": "GetEnumerator",
-          "tsEmitName": "GetEnumerator",
+          "tsEmitName": "getEnumerator",
           "normalizedSignature": "GetEnumerator|():System.Security.Cryptography.X509Certificates.X509CertificateCollection\u002BX509CertificateEnumerator|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -6761,7 +6761,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509Certificate2Collection::GetEnumerator():System.Collections.IEnumerator",
           "clrName": "GetEnumerator",
-          "tsEmitName": "GetEnumerator5",
+          "tsEmitName": "getEnumerator5",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -6777,7 +6777,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509Certificate2Collection::IndexOf(System.Security.Cryptography.X509Certificates.X509Certificate):System.Int32",
           "clrName": "IndexOf",
-          "tsEmitName": "IndexOf",
+          "tsEmitName": "indexOf",
           "normalizedSignature": "IndexOf|(System.Security.Cryptography.X509Certificates.X509Certificate):System.Int32|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -6793,7 +6793,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509Certificate2Collection::Insert(System.Int32,System.Security.Cryptography.X509Certificates.X509Certificate):System.Void",
           "clrName": "Insert",
-          "tsEmitName": "Insert",
+          "tsEmitName": "insert",
           "normalizedSignature": "Insert|(System.Int32,System.Security.Cryptography.X509Certificates.X509Certificate):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -6809,7 +6809,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509Certificate2Collection::Insert(System.Int32,System.Object):System.Void",
           "clrName": "Insert",
-          "tsEmitName": "Insert4",
+          "tsEmitName": "insert4",
           "normalizedSignature": "Insert|(System.Int32,System.Object):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -6825,7 +6825,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509Certificate2Collection::Remove(System.Security.Cryptography.X509Certificates.X509Certificate):System.Void",
           "clrName": "Remove",
-          "tsEmitName": "Remove",
+          "tsEmitName": "remove",
           "normalizedSignature": "Remove|(System.Security.Cryptography.X509Certificates.X509Certificate):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -6841,7 +6841,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509Certificate2Collection::Remove(System.Object):System.Void",
           "clrName": "Remove",
-          "tsEmitName": "Remove4",
+          "tsEmitName": "remove4",
           "normalizedSignature": "Remove|(System.Object):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -6857,7 +6857,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509Certificate2Collection::RemoveAt(System.Int32):System.Void",
           "clrName": "RemoveAt",
-          "tsEmitName": "RemoveAt",
+          "tsEmitName": "removeAt",
           "normalizedSignature": "RemoveAt|(System.Int32):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -7155,7 +7155,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509CertificateCollection::Add(System.Security.Cryptography.X509Certificates.X509Certificate):System.Int32",
           "clrName": "Add",
-          "tsEmitName": "add",
+          "tsEmitName": "add2",
           "normalizedSignature": "Add|(System.Security.Cryptography.X509Certificates.X509Certificate):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7203,7 +7203,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509CertificateCollection::Contains(System.Security.Cryptography.X509Certificates.X509Certificate):System.Boolean",
           "clrName": "Contains",
-          "tsEmitName": "contains",
+          "tsEmitName": "contains2",
           "normalizedSignature": "Contains|(System.Security.Cryptography.X509Certificates.X509Certificate):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7219,7 +7219,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509CertificateCollection::CopyTo(System.Security.Cryptography.X509Certificates.X509Certificate[],System.Int32):System.Void",
           "clrName": "CopyTo",
-          "tsEmitName": "copyTo",
+          "tsEmitName": "copyTo2",
           "normalizedSignature": "CopyTo|(System.Security.Cryptography.X509Certificates.X509Certificate[],System.Int32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7235,7 +7235,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509CertificateCollection::GetEnumerator():System.Security.Cryptography.X509Certificates.X509CertificateCollection\u002BX509CertificateEnumerator",
           "clrName": "GetEnumerator",
-          "tsEmitName": "getEnumerator",
+          "tsEmitName": "getEnumerator2",
           "normalizedSignature": "GetEnumerator|():System.Security.Cryptography.X509Certificates.X509CertificateCollection\u002BX509CertificateEnumerator|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7283,7 +7283,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509CertificateCollection::Insert(System.Int32,System.Security.Cryptography.X509Certificates.X509Certificate):System.Void",
           "clrName": "Insert",
-          "tsEmitName": "insert",
+          "tsEmitName": "insert2",
           "normalizedSignature": "Insert|(System.Int32,System.Security.Cryptography.X509Certificates.X509Certificate):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7299,7 +7299,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509CertificateCollection::Remove(System.Security.Cryptography.X509Certificates.X509Certificate):System.Void",
           "clrName": "Remove",
-          "tsEmitName": "remove",
+          "tsEmitName": "remove2",
           "normalizedSignature": "Remove|(System.Security.Cryptography.X509Certificates.X509Certificate):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7315,7 +7315,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Clear():System.Void",
           "clrName": "Clear",
-          "tsEmitName": "clear",
+          "tsEmitName": "clear$view",
           "normalizedSignature": "Clear|():System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -7332,7 +7332,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::RemoveAt(System.Int32):System.Void",
           "clrName": "RemoveAt",
-          "tsEmitName": "removeAt",
+          "tsEmitName": "removeAt$view",
           "normalizedSignature": "RemoveAt|(System.Int32):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -7451,7 +7451,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509CertificateCollection::Add(System.Object):System.Int32",
           "clrName": "Add",
-          "tsEmitName": "Add",
+          "tsEmitName": "add",
           "normalizedSignature": "Add|(System.Object):System.Int32|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -7467,7 +7467,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509CertificateCollection::Clear():System.Void",
           "clrName": "Clear",
-          "tsEmitName": "Clear",
+          "tsEmitName": "clear",
           "normalizedSignature": "Clear|():System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -7483,7 +7483,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509CertificateCollection::Contains(System.Object):System.Boolean",
           "clrName": "Contains",
-          "tsEmitName": "Contains",
+          "tsEmitName": "contains",
           "normalizedSignature": "Contains|(System.Object):System.Boolean|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -7499,7 +7499,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509CertificateCollection::CopyTo(System.Array,System.Int32):System.Void",
           "clrName": "CopyTo",
-          "tsEmitName": "CopyTo",
+          "tsEmitName": "copyTo",
           "normalizedSignature": "CopyTo|(System.Array,System.Int32):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -7515,7 +7515,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509CertificateCollection::GetEnumerator():System.Collections.IEnumerator",
           "clrName": "GetEnumerator",
-          "tsEmitName": "GetEnumerator",
+          "tsEmitName": "getEnumerator",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -7531,7 +7531,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509CertificateCollection::Insert(System.Int32,System.Object):System.Void",
           "clrName": "Insert",
-          "tsEmitName": "Insert",
+          "tsEmitName": "insert",
           "normalizedSignature": "Insert|(System.Int32,System.Object):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -7547,7 +7547,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509CertificateCollection::Remove(System.Object):System.Void",
           "clrName": "Remove",
-          "tsEmitName": "Remove",
+          "tsEmitName": "remove",
           "normalizedSignature": "Remove|(System.Object):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -7563,7 +7563,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509CertificateCollection::RemoveAt(System.Int32):System.Void",
           "clrName": "RemoveAt",
-          "tsEmitName": "RemoveAt",
+          "tsEmitName": "removeAt",
           "normalizedSignature": "RemoveAt|(System.Int32):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -8913,7 +8913,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509ExtensionCollection::get_Item(System.Int32):System.Security.Cryptography.X509Certificates.X509Extension",
           "clrName": "get_Item",
-          "tsEmitName": "get_Item",
+          "tsEmitName": "getItem",
           "normalizedSignature": "get_Item|(System.Int32):System.Security.Cryptography.X509Certificates.X509Extension|static=false",
           "provenance": "IndexerNormalized",
           "emitScope": "ClassSurface",
@@ -8929,7 +8929,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509ExtensionCollection::get_Item(System.String):System.Security.Cryptography.X509Certificates.X509Extension",
           "clrName": "get_Item",
-          "tsEmitName": "get_Item2",
+          "tsEmitName": "getItem2",
           "normalizedSignature": "get_Item|(System.String):System.Security.Cryptography.X509Certificates.X509Extension|static=false",
           "provenance": "IndexerNormalized",
           "emitScope": "ClassSurface",

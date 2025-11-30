@@ -75,7 +75,7 @@ export class AssemblyLoadContext$instance {
     startProfileOptimization(profile: string): void;
     toString(): string;
     unload(): void;
-    static readonly default: AssemblyLoadContext;
+    static readonly default_: AssemblyLoadContext;
     static readonly all: IEnumerable_1<AssemblyLoadContext>;
     static readonly currentContextualReflectionContext: AssemblyLoadContext;
     static enterContextualReflection(activating: Assembly): AssemblyLoadContext_ContextualReflectionScope;

@@ -13,7 +13,7 @@
         {
           "stableId": "System.Collections.Concurrent:System.Collections.Concurrent.EnumerablePartitionerOptions::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67108939,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -750,7 +750,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -5939,7 +5939,7 @@
         {
           "stableId": "System.Collections.Concurrent:System.Collections.Concurrent.OrderablePartitioner\u00601::GetPartitions(System.Int32):IList_1",
           "clrName": "GetPartitions",
-          "tsEmitName": "getPartitions",
+          "tsEmitName": "getPartitions2",
           "metadataToken": 100663617,
           "canonicalSignature": "(System.Int32):IList_1",
           "normalizedSignature": "GetPartitions|(System.Int32):IList_1|static=false",
@@ -5953,7 +5953,7 @@
         {
           "stableId": "System.Collections.Concurrent:System.Collections.Concurrent.OrderablePartitioner\u00601::GetDynamicPartitions():IEnumerable_1",
           "clrName": "GetDynamicPartitions",
-          "tsEmitName": "getDynamicPartitions",
+          "tsEmitName": "getDynamicPartitions2",
           "metadataToken": 100663618,
           "canonicalSignature": "():IEnumerable_1",
           "normalizedSignature": "GetDynamicPartitions|():IEnumerable_1|static=false",
@@ -5967,7 +5967,7 @@
         {
           "stableId": "System.Collections.Concurrent:System.Collections.Concurrent.OrderablePartitioner\u00601::GetDynamicPartitions():System.Collections.Generic.IEnumerable_1",
           "clrName": "GetDynamicPartitions",
-          "tsEmitName": "GetDynamicPartitions",
+          "tsEmitName": "getDynamicPartitions",
           "metadataToken": 0,
           "canonicalSignature": "():System.Collections.Generic.IEnumerable_1",
           "normalizedSignature": "GetDynamicPartitions|():System.Collections.Generic.IEnumerable_1|static=false",
@@ -5981,7 +5981,7 @@
         {
           "stableId": "System.Collections.Concurrent:System.Collections.Concurrent.OrderablePartitioner\u00601::GetPartitions(System.Int32):System.Collections.Generic.IList_1",
           "clrName": "GetPartitions",
-          "tsEmitName": "GetPartitions",
+          "tsEmitName": "getPartitions",
           "metadataToken": 0,
           "canonicalSignature": "(System.Int32):System.Collections.Generic.IList_1",
           "normalizedSignature": "GetPartitions|(System.Int32):System.Collections.Generic.IList_1|static=false",
@@ -6062,7 +6062,7 @@
           }
         },
         {
-          "tsName": "getPartitions",
+          "tsName": "getPartitions2",
           "isStatic": false,
           "tsSignatureId": "GetPartitions|(System.Int32):IList_1|static=false",
           "target": {
@@ -6072,7 +6072,7 @@
           }
         },
         {
-          "tsName": "getDynamicPartitions",
+          "tsName": "getDynamicPartitions2",
           "isStatic": false,
           "tsSignatureId": "GetDynamicPartitions|():IEnumerable_1|static=false",
           "target": {
@@ -6082,7 +6082,7 @@
           }
         },
         {
-          "tsName": "GetDynamicPartitions",
+          "tsName": "getDynamicPartitions",
           "isStatic": false,
           "tsSignatureId": "GetDynamicPartitions|():System.Collections.Generic.IEnumerable_1|static=false",
           "target": {
@@ -6092,7 +6092,7 @@
           }
         },
         {
-          "tsName": "GetPartitions",
+          "tsName": "getPartitions",
           "isStatic": false,
           "tsSignatureId": "GetPartitions|(System.Int32):System.Collections.Generic.IList_1|static=false",
           "target": {

@@ -631,15 +631,13 @@ export class ConsoleTraceListener$instance extends TextWriterTraceListener$insta
     constructor();
     constructor(useErrorStream: boolean);
     close(): void;
-    Dispose(): void;
+    dispose(): void;
 }
 
 
 export interface __ConsoleTraceListener$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
-
-export interface ConsoleTraceListener$instance extends System_Internal.IDisposable$instance {}
 
 export type ConsoleTraceListener = ConsoleTraceListener$instance & __ConsoleTraceListener$views;
 
@@ -665,9 +663,9 @@ export type DataReceivedEventArgs = DataReceivedEventArgs$instance;
 export class DataReceivedEventHandler$instance extends Function {
     constructor(object_: unknown, method: nint);
     beginInvoke(sender: unknown, e: DataReceivedEventArgs, callback: AsyncCallback, object_: unknown): IAsyncResult;
-    Clone(): unknown;
+    clone(): unknown;
     endInvoke(result: IAsyncResult): void;
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
     invoke(sender: unknown, e: DataReceivedEventArgs): void;
 }
 
@@ -676,8 +674,6 @@ export interface __DataReceivedEventHandler$views {
     As_ICloneable(): System_Internal.ICloneable$instance;
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
-
-export interface DataReceivedEventHandler$instance extends System_Internal.ICloneable$instance {}
 
 export type DataReceivedEventHandler = DataReceivedEventHandler$instance & __DataReceivedEventHandler$views;
 
@@ -794,7 +790,7 @@ export class DefaultTraceListener$instance extends TraceListener$instance {
     constructor();
     assertUiEnabled: boolean;
     logFileName: string;
-    Dispose(): void;
+    dispose(): void;
     fail(message: string): void;
     fail(message: string, detailMessage: string): void;
     write(message: string): void;
@@ -812,8 +808,6 @@ export interface __DefaultTraceListener$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
 
-export interface DefaultTraceListener$instance extends System_Internal.IDisposable$instance {}
-
 export type DefaultTraceListener = DefaultTraceListener$instance & __DefaultTraceListener$views;
 
 
@@ -825,7 +819,7 @@ export class DelimitedListTraceListener$instance extends TextWriterTraceListener
     constructor(fileName: string);
     constructor(fileName: string, name: string);
     delimiter: string;
-    Dispose(): void;
+    dispose(): void;
     traceData(eventCache: TraceEventCache, source: string, eventType: TraceEventType, id: int, data: unknown): void;
     traceData(eventCache: TraceEventCache, source: string, eventType: TraceEventType, id: int, data: unknown[]): void;
     traceEvent(eventCache: TraceEventCache, source: string, eventType: TraceEventType, id: int, format: string, args: unknown[]): void;
@@ -837,8 +831,6 @@ export class DelimitedListTraceListener$instance extends TextWriterTraceListener
 export interface __DelimitedListTraceListener$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
-
-export interface DelimitedListTraceListener$instance extends System_Internal.IDisposable$instance {}
 
 export type DelimitedListTraceListener = DelimitedListTraceListener$instance & __DelimitedListTraceListener$views;
 
@@ -918,9 +910,9 @@ export type DistributedContextPropagator = DistributedContextPropagator$instance
 export class DistributedContextPropagator_PropagatorGetterCallback$instance extends Function {
     constructor(object_: unknown, method: nint);
     beginInvoke(carrier: unknown, fieldName: string, fieldValue: { value: ref<string> }, fieldValues: { value: ref<IEnumerable_1<CLROf<string>>> }, callback: AsyncCallback, object_: unknown): IAsyncResult;
-    Clone(): unknown;
+    clone(): unknown;
     endInvoke(fieldValue: { value: ref<string> }, fieldValues: { value: ref<IEnumerable_1<CLROf<string>>> }, result: IAsyncResult): void;
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
     invoke(carrier: unknown, fieldName: string, fieldValue: { value: ref<string> }, fieldValues: { value: ref<IEnumerable_1<CLROf<string>>> }): void;
 }
 
@@ -930,17 +922,15 @@ export interface __DistributedContextPropagator_PropagatorGetterCallback$views {
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
-export interface DistributedContextPropagator_PropagatorGetterCallback$instance extends System_Internal.ICloneable$instance {}
-
 export type DistributedContextPropagator_PropagatorGetterCallback = DistributedContextPropagator_PropagatorGetterCallback$instance & __DistributedContextPropagator_PropagatorGetterCallback$views;
 
 
 export class DistributedContextPropagator_PropagatorSetterCallback$instance extends Function {
     constructor(object_: unknown, method: nint);
     beginInvoke(carrier: unknown, fieldName: string, fieldValue: string, callback: AsyncCallback, object_: unknown): IAsyncResult;
-    Clone(): unknown;
+    clone(): unknown;
     endInvoke(result: IAsyncResult): void;
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
     invoke(carrier: unknown, fieldName: string, fieldValue: string): void;
 }
 
@@ -949,8 +939,6 @@ export interface __DistributedContextPropagator_PropagatorSetterCallback$views {
     As_ICloneable(): System_Internal.ICloneable$instance;
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
-
-export interface DistributedContextPropagator_PropagatorSetterCallback$instance extends System_Internal.ICloneable$instance {}
 
 export type DistributedContextPropagator_PropagatorSetterCallback = DistributedContextPropagator_PropagatorSetterCallback$instance & __DistributedContextPropagator_PropagatorSetterCallback$views;
 
@@ -967,9 +955,9 @@ export type EventTypeFilter = EventTypeFilter$instance;
 export class ExceptionRecorder$instance extends Function {
     constructor(object_: unknown, method: nint);
     beginInvoke(activity: Activity, exception: Exception, tags: { value: ref<TagList> }, callback: AsyncCallback, object_: unknown): IAsyncResult;
-    Clone(): unknown;
+    clone(): unknown;
     endInvoke(tags: { value: ref<TagList> }, result: IAsyncResult): void;
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
     invoke(activity: Activity, exception: Exception, tags: { value: ref<TagList> }): void;
 }
 
@@ -978,8 +966,6 @@ export interface __ExceptionRecorder$views {
     As_ICloneable(): System_Internal.ICloneable$instance;
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
-
-export interface ExceptionRecorder$instance extends System_Internal.ICloneable$instance {}
 
 export type ExceptionRecorder = ExceptionRecorder$instance & __ExceptionRecorder$views;
 
@@ -1102,7 +1088,7 @@ export class Process$instance extends System_ComponentModel_Internal.Component$i
     cancelOutputRead(): void;
     close(): void;
     closeMainWindow(): boolean;
-    Dispose(): void;
+    dispose(): void;
     kill(): void;
     kill(entireProcessTree: boolean): void;
     refresh(): void;
@@ -1121,15 +1107,15 @@ export class Process$instance extends System_ComponentModel_Internal.Component$i
     static getProcessById(processId: int): Process;
     static getProcesses(): Process[];
     static getProcesses(machineName: string): Process[];
-    static getProcessesByName(processName: string, machineName: string): Process[];
-    static getProcessesByName(processName: string): Process[];
+    static getProcessesByName2(processName: string, machineName: string): Process[];
+    static getProcessesByName2(processName: string): Process[];
     static leaveDebugMode(): void;
-    static start(startInfo: ProcessStartInfo): Process;
-    static start(fileName: string, arguments: IEnumerable_1<CLROf<string>>): Process;
-    static start(fileName: string, userName: string, password: SecureString, domain: string): Process;
-    static start(fileName: string, arguments: string, userName: string, password: SecureString, domain: string): Process;
-    static start(fileName: string, arguments: string): Process;
-    static start(fileName: string): Process;
+    static start4(startInfo: ProcessStartInfo): Process;
+    static start4(fileName: string, arguments: IEnumerable_1<CLROf<string>>): Process;
+    static start4(fileName: string, userName: string, password: SecureString, domain: string): Process;
+    static start4(fileName: string, arguments: string, userName: string, password: SecureString, domain: string): Process;
+    static start4(fileName: string, arguments: string): Process;
+    static start4(fileName: string): Process;
 }
 
 
@@ -1137,6 +1123,8 @@ export interface __Process$views {
     As_IComponent(): System_ComponentModel_Internal.IComponent$instance;
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
+
+export interface Process$instance extends System_ComponentModel_Internal.IComponent$instance {}
 
 export type Process = Process$instance & __Process$views;
 
@@ -1148,7 +1136,7 @@ export class ProcessModule$instance extends System_ComponentModel_Internal.Compo
     readonly fileVersionInfo: FileVersionInfo;
     readonly moduleMemorySize: int;
     readonly moduleName: string;
-    Dispose(): void;
+    dispose(): void;
     toString(): string;
 }
 
@@ -1158,6 +1146,8 @@ export interface __ProcessModule$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
 
+export interface ProcessModule$instance extends System_ComponentModel_Internal.IComponent$instance {}
+
 export type ProcessModule = ProcessModule$instance & __ProcessModule$views;
 
 
@@ -1166,7 +1156,7 @@ export class ProcessModuleCollection$instance extends System_Collections_Interna
     readonly item: ProcessModule;
     contains(module_: ProcessModule): boolean;
     copyTo(array: ClrArray, index: int): void;
-    GetEnumerator(): IEnumerator;
+    getEnumerator(): IEnumerator;
     indexOf(module_: ProcessModule): int;
 }
 
@@ -1175,6 +1165,8 @@ export interface __ProcessModuleCollection$views {
     As_ICollection(): System_Collections_Internal.ICollection$instance;
     As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
 }
+
+export interface ProcessModuleCollection$instance extends System_Collections_Internal.ICollection$instance {}
 
 export type ProcessModuleCollection = ProcessModuleCollection$instance & __ProcessModuleCollection$views;
 
@@ -1230,7 +1222,7 @@ export class ProcessThread$instance extends System_ComponentModel_Internal.Compo
     readonly totalProcessorTime: TimeSpan;
     readonly userProcessorTime: TimeSpan;
     readonly waitReason: ThreadWaitReason;
-    Dispose(): void;
+    dispose(): void;
     resetIdealProcessor(): void;
 }
 
@@ -1239,6 +1231,8 @@ export interface __ProcessThread$views {
     As_IComponent(): System_ComponentModel_Internal.IComponent$instance;
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
+
+export interface ProcessThread$instance extends System_ComponentModel_Internal.IComponent$instance {}
 
 export type ProcessThread = ProcessThread$instance & __ProcessThread$views;
 
@@ -1249,7 +1243,7 @@ export class ProcessThreadCollection$instance extends System_Collections_Interna
     add(thread: ProcessThread): int;
     contains(thread: ProcessThread): boolean;
     copyTo(array: ClrArray, index: int): void;
-    GetEnumerator(): IEnumerator;
+    getEnumerator(): IEnumerator;
     indexOf(thread: ProcessThread): int;
     insert(index: int, thread: ProcessThread): void;
     remove(thread: ProcessThread): void;
@@ -1261,15 +1255,17 @@ export interface __ProcessThreadCollection$views {
     As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
 }
 
+export interface ProcessThreadCollection$instance extends System_Collections_Internal.ICollection$instance {}
+
 export type ProcessThreadCollection = ProcessThreadCollection$instance & __ProcessThreadCollection$views;
 
 
 export class SampleActivity_1$instance<T> extends Function {
     constructor(object_: unknown, method: nint);
     beginInvoke(options: { value: ref<ActivityCreationOptions_1<T>> }, callback: AsyncCallback, object_: unknown): IAsyncResult;
-    Clone(): unknown;
+    clone(): unknown;
     endInvoke(options: { value: ref<ActivityCreationOptions_1<T>> }, result: IAsyncResult): ActivitySamplingResult;
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
     invoke(options: { value: ref<ActivityCreationOptions_1<T>> }): ActivitySamplingResult;
 }
 
@@ -1278,8 +1274,6 @@ export interface __SampleActivity_1$views<T> {
     As_ICloneable(): System_Internal.ICloneable$instance;
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
-
-export interface SampleActivity_1$instance<T> extends System_Internal.ICloneable$instance {}
 
 export type SampleActivity_1<T> = SampleActivity_1$instance<T> & __SampleActivity_1$views<T>;
 
@@ -1317,7 +1311,7 @@ export class StackFrame$instance {
     getMethod(): MethodBase;
     getNativeOffset(): int;
     toString(): string;
-    static readonly offset_unknown: int;
+    static readonly offsetUnknown: int;
 }
 
 
@@ -1338,7 +1332,7 @@ export class StackTrace$instance {
     getFrame(index: int): StackFrame;
     getFrames(): StackFrame[];
     toString(): string;
-    static readonly methods_to_skip: int;
+    static readonly methodsToSkip: int;
 }
 
 
@@ -1364,8 +1358,8 @@ export class Stopwatch$instance {
     toString(): string;
     static readonly frequency: long;
     static readonly isHighResolution: boolean;
-    static getElapsedTime(startingTimestamp: long, endingTimestamp: long): TimeSpan;
-    static getElapsedTime(startingTimestamp: long): TimeSpan;
+    static getElapsedTime2(startingTimestamp: long, endingTimestamp: long): TimeSpan;
+    static getElapsedTime2(startingTimestamp: long): TimeSpan;
     static getTimestamp(): long;
     static startNew(): Stopwatch;
 }
@@ -1414,7 +1408,7 @@ export class TextWriterTraceListener$instance extends TraceListener$instance {
     constructor(fileName: string, name: string);
     writer: TextWriter;
     close(): void;
-    Dispose(): void;
+    dispose(): void;
     flush(): void;
     write(message: string): void;
     write(o: unknown): void;
@@ -1431,8 +1425,6 @@ export interface __TextWriterTraceListener$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
 
-export interface TextWriterTraceListener$instance extends System_Internal.IDisposable$instance {}
-
 export type TextWriterTraceListener = TextWriterTraceListener$instance & __TextWriterTraceListener$views;
 
 
@@ -1443,38 +1435,38 @@ export class Trace$instance {
     static useGlobalLock: boolean;
     static indentLevel: int;
     static indentSize: int;
-    static assert(condition: boolean, message: string, detailMessage: string): void;
-    static assert(condition: boolean, message?: string): void;
-    static assert(condition: boolean): void;
+    static assert3(condition: boolean, message: string, detailMessage: string): void;
+    static assert3(condition: boolean, message?: string): void;
+    static assert3(condition: boolean): void;
     static close(): void;
-    static fail(message: string, detailMessage: string): void;
-    static fail(message: string): void;
+    static fail2(message: string, detailMessage: string): void;
+    static fail2(message: string): void;
     static flush(): void;
     static indent(): void;
     static refresh(): void;
-    static traceError(format: string, args: unknown[]): void;
-    static traceError(message: string): void;
-    static traceInformation(format: string, args: unknown[]): void;
-    static traceInformation(message: string): void;
-    static traceWarning(format: string, args: unknown[]): void;
-    static traceWarning(message: string): void;
+    static traceError2(format: string, args: unknown[]): void;
+    static traceError2(message: string): void;
+    static traceInformation2(format: string, args: unknown[]): void;
+    static traceInformation2(message: string): void;
+    static traceWarning2(format: string, args: unknown[]): void;
+    static traceWarning2(message: string): void;
     static unindent(): void;
-    static write(value: unknown, category: string): void;
-    static write(value: unknown): void;
-    static write(message: string, category: string): void;
-    static write(message: string): void;
-    static writeIf(condition: boolean, value: unknown, category: string): void;
-    static writeIf(condition: boolean, value: unknown): void;
-    static writeIf(condition: boolean, message: string, category: string): void;
-    static writeIf(condition: boolean, message: string): void;
-    static writeLine(value: unknown, category: string): void;
-    static writeLine(value: unknown): void;
-    static writeLine(message: string, category: string): void;
-    static writeLine(message: string): void;
-    static writeLineIf(condition: boolean, value: unknown, category: string): void;
-    static writeLineIf(condition: boolean, value: unknown): void;
-    static writeLineIf(condition: boolean, message: string, category: string): void;
-    static writeLineIf(condition: boolean, message: string): void;
+    static write4(value: unknown, category: string): void;
+    static write4(value: unknown): void;
+    static write4(message: string, category: string): void;
+    static write4(message: string): void;
+    static writeIf4(condition: boolean, value: unknown, category: string): void;
+    static writeIf4(condition: boolean, value: unknown): void;
+    static writeIf4(condition: boolean, message: string, category: string): void;
+    static writeIf4(condition: boolean, message: string): void;
+    static writeLine4(value: unknown, category: string): void;
+    static writeLine4(value: unknown): void;
+    static writeLine4(message: string, category: string): void;
+    static writeLine4(message: string): void;
+    static writeLineIf4(condition: boolean, value: unknown, category: string): void;
+    static writeLineIf4(condition: boolean, value: unknown): void;
+    static writeLineIf4(condition: boolean, message: string, category: string): void;
+    static writeLineIf4(condition: boolean, message: string): void;
 }
 
 
@@ -1547,15 +1539,15 @@ export class TraceListenerCollection$instance {
     clear(): void;
     contains(listener: TraceListener): boolean;
     copyTo(listeners: TraceListener[], index: int): void;
-    get_Item(i: int): TraceListener;
-    get_Item(name: string): TraceListener;
+    getItem(i: int): TraceListener;
+    getItem(name: string): TraceListener;
     getEnumerator(): IEnumerator;
     indexOf(listener: TraceListener): int;
     insert(index: int, listener: TraceListener): void;
     remove(listener: TraceListener): void;
     remove(name: string): void;
     removeAt(index: int): void;
-    set_Item(i: int, value: TraceListener): void;
+    setItem(i: int, value: TraceListener): void;
 }
 
 
@@ -1608,15 +1600,13 @@ export class UnreachableException$instance extends System_Internal.Exception$ins
     constructor();
     constructor(message: string);
     constructor(message: string, innerException: Exception);
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
 export interface __UnreachableException$views {
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
-
-export interface UnreachableException$instance extends System_Runtime_Serialization_Internal.ISerializable$instance {}
 
 export type UnreachableException = UnreachableException$instance & __UnreachableException$views;
 
@@ -1629,7 +1619,7 @@ export class XmlWriterTraceListener$instance extends TextWriterTraceListener$ins
     constructor(filename: string);
     constructor(filename: string, name: string);
     close(): void;
-    Dispose(): void;
+    dispose(): void;
     fail(message: string, detailMessage: string): void;
     fail(message: string): void;
     traceData(eventCache: TraceEventCache, source: string, eventType: TraceEventType, id: int, data: unknown): void;
@@ -1653,8 +1643,6 @@ export interface __XmlWriterTraceListener$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
 
-export interface XmlWriterTraceListener$instance extends System_Internal.IDisposable$instance {}
-
 export type XmlWriterTraceListener = XmlWriterTraceListener$instance & __XmlWriterTraceListener$views;
 
 
@@ -1662,42 +1650,42 @@ export abstract class Debug$instance {
     static autoFlush: boolean;
     static indentLevel: int;
     static indentSize: int;
-    static assert(condition: boolean, message: { value: ref<Debug_AssertInterpolatedStringHandler> }, detailMessage: { value: ref<Debug_AssertInterpolatedStringHandler> }): void;
-    static assert(condition: boolean, message: { value: ref<Debug_AssertInterpolatedStringHandler> }): void;
-    static assert(condition: boolean, message: string, detailMessageFormat: string, args: unknown[]): void;
-    static assert(condition: boolean, message: string, detailMessage: string): void;
-    static assert(condition: boolean, message?: string): void;
-    static assert(condition: boolean): void;
+    static assert5(condition: boolean, message: { value: ref<Debug_AssertInterpolatedStringHandler> }, detailMessage: { value: ref<Debug_AssertInterpolatedStringHandler> }): void;
+    static assert5(condition: boolean, message: { value: ref<Debug_AssertInterpolatedStringHandler> }): void;
+    static assert5(condition: boolean, message: string, detailMessageFormat: string, args: unknown[]): void;
+    static assert5(condition: boolean, message: string, detailMessage: string): void;
+    static assert5(condition: boolean, message?: string): void;
+    static assert5(condition: boolean): void;
     static close(): void;
-    static fail(message: string, detailMessage: string): void;
-    static fail(message: string): void;
+    static fail2(message: string, detailMessage: string): void;
+    static fail2(message: string): void;
     static flush(): void;
     static indent(): void;
-    static print(format: string, args: unknown[]): void;
-    static print(message: string): void;
+    static print2(format: string, args: unknown[]): void;
+    static print2(message: string): void;
     static setProvider(provider: DebugProvider): DebugProvider;
     static unindent(): void;
-    static write(value: unknown, category: string): void;
-    static write(value: unknown): void;
-    static write(message: string, category: string): void;
-    static write(message: string): void;
-    static writeIf(condition: boolean, message: { value: ref<Debug_WriteIfInterpolatedStringHandler> }, category: string): void;
-    static writeIf(condition: boolean, message: { value: ref<Debug_WriteIfInterpolatedStringHandler> }): void;
-    static writeIf(condition: boolean, value: unknown, category: string): void;
-    static writeIf(condition: boolean, value: unknown): void;
-    static writeIf(condition: boolean, message: string, category: string): void;
-    static writeIf(condition: boolean, message: string): void;
-    static writeLine(value: unknown, category: string): void;
-    static writeLine(value: unknown): void;
-    static writeLine(format: string, args: unknown[]): void;
-    static writeLine(message: string, category: string): void;
-    static writeLine(message: string): void;
-    static writeLineIf(condition: boolean, message: { value: ref<Debug_WriteIfInterpolatedStringHandler> }, category: string): void;
-    static writeLineIf(condition: boolean, message: { value: ref<Debug_WriteIfInterpolatedStringHandler> }): void;
-    static writeLineIf(condition: boolean, value: unknown, category: string): void;
-    static writeLineIf(condition: boolean, value: unknown): void;
-    static writeLineIf(condition: boolean, message: string, category: string): void;
-    static writeLineIf(condition: boolean, message: string): void;
+    static write4(value: unknown, category: string): void;
+    static write4(value: unknown): void;
+    static write4(message: string, category: string): void;
+    static write4(message: string): void;
+    static writeIf5(condition: boolean, message: { value: ref<Debug_WriteIfInterpolatedStringHandler> }, category: string): void;
+    static writeIf5(condition: boolean, message: { value: ref<Debug_WriteIfInterpolatedStringHandler> }): void;
+    static writeIf5(condition: boolean, value: unknown, category: string): void;
+    static writeIf5(condition: boolean, value: unknown): void;
+    static writeIf5(condition: boolean, message: string, category: string): void;
+    static writeIf5(condition: boolean, message: string): void;
+    static writeLine3(value: unknown, category: string): void;
+    static writeLine3(value: unknown): void;
+    static writeLine3(format: string, args: unknown[]): void;
+    static writeLine3(message: string, category: string): void;
+    static writeLine3(message: string): void;
+    static writeLineIf6(condition: boolean, message: { value: ref<Debug_WriteIfInterpolatedStringHandler> }, category: string): void;
+    static writeLineIf6(condition: boolean, message: { value: ref<Debug_WriteIfInterpolatedStringHandler> }): void;
+    static writeLineIf6(condition: boolean, value: unknown, category: string): void;
+    static writeLineIf6(condition: boolean, value: unknown): void;
+    static writeLineIf6(condition: boolean, message: string, category: string): void;
+    static writeLineIf6(condition: boolean, message: string): void;
 }
 
 
@@ -1706,7 +1694,7 @@ export type Debug = Debug$instance;
 export abstract class Debugger$instance {
     static readonly defaultCategory: string;
     static readonly isAttached: boolean;
-    static break(): void;
+    static break_(): void;
     static breakForUserUnhandledException(exception: Exception): void;
     static isLogging(): boolean;
     static launch(): boolean;

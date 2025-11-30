@@ -86,9 +86,9 @@ export type FileSystemEnumerable_1<TResult> = FileSystemEnumerable_1$instance<TR
 export class FileSystemEnumerable_1_FindPredicate$instance<TResult> extends Function {
     constructor(object_: unknown, method: nint);
     beginInvoke(entry: { value: ref<FileSystemEntry> }, callback: AsyncCallback, object_: unknown): IAsyncResult;
-    Clone(): unknown;
+    clone(): unknown;
     endInvoke(entry: { value: ref<FileSystemEntry> }, result: IAsyncResult): boolean;
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
     invoke(entry: { value: ref<FileSystemEntry> }): boolean;
 }
 
@@ -98,17 +98,15 @@ export interface __FileSystemEnumerable_1_FindPredicate$views<TResult> {
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
-export interface FileSystemEnumerable_1_FindPredicate$instance<TResult> extends System_Internal.ICloneable$instance {}
-
 export type FileSystemEnumerable_1_FindPredicate<TResult> = FileSystemEnumerable_1_FindPredicate$instance<TResult> & __FileSystemEnumerable_1_FindPredicate$views<TResult>;
 
 
 export class FileSystemEnumerable_1_FindTransform$instance<TResult> extends Function {
     constructor(object_: unknown, method: nint);
     beginInvoke(entry: { value: ref<FileSystemEntry> }, callback: AsyncCallback, object_: unknown): IAsyncResult;
-    Clone(): unknown;
+    clone(): unknown;
     endInvoke(entry: { value: ref<FileSystemEntry> }, result: IAsyncResult): TResult;
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
     invoke(entry: { value: ref<FileSystemEntry> }): TResult;
 }
 
@@ -117,8 +115,6 @@ export interface __FileSystemEnumerable_1_FindTransform$views<TResult> {
     As_ICloneable(): System_Internal.ICloneable$instance;
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
-
-export interface FileSystemEnumerable_1_FindTransform$instance<TResult> extends System_Internal.ICloneable$instance {}
 
 export type FileSystemEnumerable_1_FindTransform<TResult> = FileSystemEnumerable_1_FindTransform$instance<TResult> & __FileSystemEnumerable_1_FindTransform$views<TResult>;
 

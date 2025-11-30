@@ -172,15 +172,13 @@ export class AsnContentException$instance extends System_Internal.Exception$inst
     constructor();
     constructor(message: string);
     constructor(message: string, inner: Exception);
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
 export interface __AsnContentException$views {
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
-
-export interface AsnContentException$instance extends System_Runtime_Serialization_Internal.ISerializable$instance {}
 
 export type AsnContentException = AsnContentException$instance & __AsnContentException$views;
 

@@ -240,8 +240,8 @@ export abstract class Utf8$instance {
     static fromUtf16(source: ReadOnlySpan_1<CLROf<char>>, destination: Span_1<CLROf<byte>>, charsRead: { value: ref<int> }, bytesWritten: { value: ref<int> }, replaceInvalidSequences?: boolean, isFinalBlock?: boolean): OperationStatus;
     static isValid(value: ReadOnlySpan_1<CLROf<byte>>): boolean;
     static toUtf16(source: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<char>>, bytesRead: { value: ref<int> }, charsWritten: { value: ref<int> }, replaceInvalidSequences?: boolean, isFinalBlock?: boolean): OperationStatus;
-    static tryWrite(destination: Span_1<CLROf<byte>>, provider: IFormatProvider, handler: { value: ref<Utf8_TryWriteInterpolatedStringHandler> }, bytesWritten: { value: ref<int> }): boolean;
-    static tryWrite(destination: Span_1<CLROf<byte>>, handler: { value: ref<Utf8_TryWriteInterpolatedStringHandler> }, bytesWritten: { value: ref<int> }): boolean;
+    static tryWrite2(destination: Span_1<CLROf<byte>>, provider: IFormatProvider, handler: { value: ref<Utf8_TryWriteInterpolatedStringHandler> }, bytesWritten: { value: ref<int> }): boolean;
+    static tryWrite2(destination: Span_1<CLROf<byte>>, handler: { value: ref<Utf8_TryWriteInterpolatedStringHandler> }, bytesWritten: { value: ref<int> }): boolean;
 }
 
 

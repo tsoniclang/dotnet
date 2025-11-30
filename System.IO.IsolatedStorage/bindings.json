@@ -13,7 +13,7 @@
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageScope::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67108889,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -805,7 +805,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -1297,7 +1297,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "getObjectData",
+          "tsEmitName": "getObjectData$view",
           "metadataToken": 100682669,
           "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
@@ -1311,7 +1311,7 @@
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageException::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData",
+          "tsEmitName": "getObjectData",
           "metadataToken": 0,
           "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
@@ -1360,7 +1360,7 @@
       ],
       "exposedMethods": [
         {
-          "tsName": "getObjectData",
+          "tsName": "getObjectData$view",
           "isStatic": false,
           "tsSignatureId": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "target": {
@@ -1370,7 +1370,7 @@
           }
         },
         {
-          "tsName": "GetObjectData",
+          "tsName": "getObjectData",
           "isStatic": false,
           "tsSignatureId": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "target": {
@@ -2808,7 +2808,7 @@
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFileStream::FlushAsync(System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "clrName": "FlushAsync",
-          "tsEmitName": "flushAsync",
+          "tsEmitName": "flushAsync2",
           "metadataToken": 100663419,
           "canonicalSignature": "(System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "normalizedSignature": "FlushAsync|(System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
@@ -2836,7 +2836,7 @@
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFileStream::Read(System.Byte[],System.Int32,System.Int32):System.Int32",
           "clrName": "Read",
-          "tsEmitName": "read",
+          "tsEmitName": "read2",
           "metadataToken": 100663421,
           "canonicalSignature": "(System.Byte[],System.Int32,System.Int32):System.Int32",
           "normalizedSignature": "Read|(System.Byte[],System.Int32,System.Int32):System.Int32|static=false",
@@ -2850,7 +2850,7 @@
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFileStream::Read(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32",
           "clrName": "Read",
-          "tsEmitName": "read2",
+          "tsEmitName": "read3",
           "metadataToken": 100663422,
           "canonicalSignature": "(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32",
           "normalizedSignature": "Read|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32|static=false",
@@ -2864,7 +2864,7 @@
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFileStream::ReadAsync(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "ReadAsync",
-          "tsEmitName": "readAsync",
+          "tsEmitName": "readAsync7",
           "metadataToken": 100663423,
           "canonicalSignature": "(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "normalizedSignature": "ReadAsync|(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
@@ -2878,7 +2878,7 @@
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFileStream::ReadAsync(System.Memory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "ReadAsync",
-          "tsEmitName": "readAsync2",
+          "tsEmitName": "readAsync8",
           "metadataToken": 100663424,
           "canonicalSignature": "(System.Memory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "normalizedSignature": "ReadAsync|(System.Memory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
@@ -2920,7 +2920,7 @@
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFileStream::Write(System.Byte[],System.Int32,System.Int32):System.Void",
           "clrName": "Write",
-          "tsEmitName": "write",
+          "tsEmitName": "write2",
           "metadataToken": 100663427,
           "canonicalSignature": "(System.Byte[],System.Int32,System.Int32):System.Void",
           "normalizedSignature": "Write|(System.Byte[],System.Int32,System.Int32):System.Void|static=false",
@@ -2934,7 +2934,7 @@
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFileStream::Write(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "clrName": "Write",
-          "tsEmitName": "write2",
+          "tsEmitName": "write3",
           "metadataToken": 100663428,
           "canonicalSignature": "(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "normalizedSignature": "Write|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
@@ -2948,7 +2948,7 @@
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFileStream::WriteAsync(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "clrName": "WriteAsync",
-          "tsEmitName": "writeAsync",
+          "tsEmitName": "writeAsync4",
           "metadataToken": 100663429,
           "canonicalSignature": "(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "normalizedSignature": "WriteAsync|(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
@@ -2962,7 +2962,7 @@
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFileStream::WriteAsync(System.ReadOnlyMemory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask",
           "clrName": "WriteAsync",
-          "tsEmitName": "writeAsync2",
+          "tsEmitName": "writeAsync5",
           "metadataToken": 100663430,
           "canonicalSignature": "(System.ReadOnlyMemory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask",
           "normalizedSignature": "WriteAsync|(System.ReadOnlyMemory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask|static=false",
@@ -3074,7 +3074,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "dispose",
+          "tsEmitName": "dispose$view",
           "metadataToken": 100668530,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Dispose|():System.Void|static=false",
@@ -3102,7 +3102,7 @@
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFileStream::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "Dispose",
+          "tsEmitName": "dispose",
           "metadataToken": 0,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Dispose|():System.Void|static=false",
@@ -3116,7 +3116,7 @@
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFileStream::FlushAsync():System.Threading.Tasks.Task",
           "clrName": "FlushAsync",
-          "tsEmitName": "FlushAsync",
+          "tsEmitName": "flushAsync",
           "metadataToken": 0,
           "canonicalSignature": "():System.Threading.Tasks.Task",
           "normalizedSignature": "FlushAsync|():System.Threading.Tasks.Task|static=false",
@@ -3130,7 +3130,7 @@
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFileStream::Read(System.Span_1):System.Int32",
           "clrName": "Read",
-          "tsEmitName": "Read",
+          "tsEmitName": "read",
           "metadataToken": 0,
           "canonicalSignature": "(System.Span_1):System.Int32",
           "normalizedSignature": "Read|(System.Span_1):System.Int32|static=false",
@@ -3144,7 +3144,7 @@
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFileStream::ReadAsync(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken):System.Threading.Tasks.Task_1",
           "clrName": "ReadAsync",
-          "tsEmitName": "ReadAsync",
+          "tsEmitName": "readAsync",
           "metadataToken": 0,
           "canonicalSignature": "(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken):System.Threading.Tasks.Task_1",
           "normalizedSignature": "ReadAsync|(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken):System.Threading.Tasks.Task_1|static=false",
@@ -3158,7 +3158,7 @@
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFileStream::ReadAsync(System.Memory_1,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1",
           "clrName": "ReadAsync",
-          "tsEmitName": "ReadAsync6",
+          "tsEmitName": "readAsync6",
           "metadataToken": 0,
           "canonicalSignature": "(System.Memory_1,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1",
           "normalizedSignature": "ReadAsync|(System.Memory_1,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1|static=false",
@@ -3172,7 +3172,7 @@
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFileStream::ReadAsync(System.Byte[],System.Int32,System.Int32):System.Threading.Tasks.Task_1",
           "clrName": "ReadAsync",
-          "tsEmitName": "ReadAsync5",
+          "tsEmitName": "readAsync5",
           "metadataToken": 0,
           "canonicalSignature": "(System.Byte[],System.Int32,System.Int32):System.Threading.Tasks.Task_1",
           "normalizedSignature": "ReadAsync|(System.Byte[],System.Int32,System.Int32):System.Threading.Tasks.Task_1|static=false",
@@ -3186,7 +3186,7 @@
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFileStream::Write(System.ReadOnlySpan_1):System.Void",
           "clrName": "Write",
-          "tsEmitName": "Write",
+          "tsEmitName": "write",
           "metadataToken": 0,
           "canonicalSignature": "(System.ReadOnlySpan_1):System.Void",
           "normalizedSignature": "Write|(System.ReadOnlySpan_1):System.Void|static=false",
@@ -3200,7 +3200,7 @@
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFileStream::WriteAsync(System.ReadOnlyMemory_1,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask",
           "clrName": "WriteAsync",
-          "tsEmitName": "WriteAsync",
+          "tsEmitName": "writeAsync",
           "metadataToken": 0,
           "canonicalSignature": "(System.ReadOnlyMemory_1,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask",
           "normalizedSignature": "WriteAsync|(System.ReadOnlyMemory_1,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask|static=false",
@@ -3214,7 +3214,7 @@
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFileStream::WriteAsync(System.Byte[],System.Int32,System.Int32):System.Threading.Tasks.Task",
           "clrName": "WriteAsync",
-          "tsEmitName": "WriteAsync3",
+          "tsEmitName": "writeAsync3",
           "metadataToken": 0,
           "canonicalSignature": "(System.Byte[],System.Int32,System.Int32):System.Threading.Tasks.Task",
           "normalizedSignature": "WriteAsync|(System.Byte[],System.Int32,System.Int32):System.Threading.Tasks.Task|static=false",
@@ -3456,7 +3456,7 @@
           }
         },
         {
-          "tsName": "flushAsync",
+          "tsName": "flushAsync2",
           "isStatic": false,
           "tsSignatureId": "FlushAsync|(System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
           "target": {
@@ -3476,7 +3476,7 @@
           }
         },
         {
-          "tsName": "read",
+          "tsName": "read2",
           "isStatic": false,
           "tsSignatureId": "Read|(System.Byte[],System.Int32,System.Int32):System.Int32|static=false",
           "target": {
@@ -3486,7 +3486,7 @@
           }
         },
         {
-          "tsName": "read2",
+          "tsName": "read3",
           "isStatic": false,
           "tsSignatureId": "Read|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32|static=false",
           "target": {
@@ -3496,7 +3496,7 @@
           }
         },
         {
-          "tsName": "readAsync",
+          "tsName": "readAsync7",
           "isStatic": false,
           "tsSignatureId": "ReadAsync|(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "target": {
@@ -3506,7 +3506,7 @@
           }
         },
         {
-          "tsName": "readAsync2",
+          "tsName": "readAsync8",
           "isStatic": false,
           "tsSignatureId": "ReadAsync|(System.Memory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "target": {
@@ -3536,7 +3536,7 @@
           }
         },
         {
-          "tsName": "write",
+          "tsName": "write2",
           "isStatic": false,
           "tsSignatureId": "Write|(System.Byte[],System.Int32,System.Int32):System.Void|static=false",
           "target": {
@@ -3546,7 +3546,7 @@
           }
         },
         {
-          "tsName": "write2",
+          "tsName": "write3",
           "isStatic": false,
           "tsSignatureId": "Write|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
           "target": {
@@ -3556,7 +3556,7 @@
           }
         },
         {
-          "tsName": "writeAsync",
+          "tsName": "writeAsync4",
           "isStatic": false,
           "tsSignatureId": "WriteAsync|(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
           "target": {
@@ -3566,7 +3566,7 @@
           }
         },
         {
-          "tsName": "writeAsync2",
+          "tsName": "writeAsync5",
           "isStatic": false,
           "tsSignatureId": "WriteAsync|(System.ReadOnlyMemory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask|static=false",
           "target": {
@@ -3646,7 +3646,7 @@
           }
         },
         {
-          "tsName": "dispose",
+          "tsName": "dispose$view",
           "isStatic": false,
           "tsSignatureId": "Dispose|():System.Void|static=false",
           "target": {
@@ -3666,7 +3666,7 @@
           }
         },
         {
-          "tsName": "Dispose",
+          "tsName": "dispose",
           "isStatic": false,
           "tsSignatureId": "Dispose|():System.Void|static=false",
           "target": {
@@ -3676,7 +3676,7 @@
           }
         },
         {
-          "tsName": "FlushAsync",
+          "tsName": "flushAsync",
           "isStatic": false,
           "tsSignatureId": "FlushAsync|():System.Threading.Tasks.Task|static=false",
           "target": {
@@ -3686,7 +3686,7 @@
           }
         },
         {
-          "tsName": "Read",
+          "tsName": "read",
           "isStatic": false,
           "tsSignatureId": "Read|(System.Span_1):System.Int32|static=false",
           "target": {
@@ -3696,7 +3696,7 @@
           }
         },
         {
-          "tsName": "ReadAsync",
+          "tsName": "readAsync",
           "isStatic": false,
           "tsSignatureId": "ReadAsync|(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken):System.Threading.Tasks.Task_1|static=false",
           "target": {
@@ -3706,7 +3706,7 @@
           }
         },
         {
-          "tsName": "ReadAsync6",
+          "tsName": "readAsync6",
           "isStatic": false,
           "tsSignatureId": "ReadAsync|(System.Memory_1,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1|static=false",
           "target": {
@@ -3716,7 +3716,7 @@
           }
         },
         {
-          "tsName": "ReadAsync5",
+          "tsName": "readAsync5",
           "isStatic": false,
           "tsSignatureId": "ReadAsync|(System.Byte[],System.Int32,System.Int32):System.Threading.Tasks.Task_1|static=false",
           "target": {
@@ -3726,7 +3726,7 @@
           }
         },
         {
-          "tsName": "Write",
+          "tsName": "write",
           "isStatic": false,
           "tsSignatureId": "Write|(System.ReadOnlySpan_1):System.Void|static=false",
           "target": {
@@ -3736,7 +3736,7 @@
           }
         },
         {
-          "tsName": "WriteAsync",
+          "tsName": "writeAsync",
           "isStatic": false,
           "tsSignatureId": "WriteAsync|(System.ReadOnlyMemory_1,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask|static=false",
           "target": {
@@ -3746,7 +3746,7 @@
           }
         },
         {
-          "tsName": "WriteAsync3",
+          "tsName": "writeAsync3",
           "isStatic": false,
           "tsSignatureId": "WriteAsync|(System.Byte[],System.Int32,System.Int32):System.Threading.Tasks.Task|static=false",
           "target": {
@@ -3756,7 +3756,7 @@
           }
         },
         {
-          "tsName": "copyTo",
+          "tsName": "copyTo2",
           "isStatic": false,
           "tsSignatureId": "CopyTo|(System.IO.Stream,System.Int32):System.Void|static=false",
           "target": {
@@ -3766,7 +3766,7 @@
           }
         },
         {
-          "tsName": "copyToAsync",
+          "tsName": "copyToAsync4",
           "isStatic": false,
           "tsSignatureId": "CopyToAsync|(System.IO.Stream,System.Int32,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
           "target": {
@@ -3776,7 +3776,7 @@
           }
         },
         {
-          "tsName": "CopyTo",
+          "tsName": "copyTo",
           "isStatic": false,
           "tsSignatureId": "CopyTo|(System.IO.Stream):System.Void|static=false",
           "target": {
@@ -3786,7 +3786,7 @@
           }
         },
         {
-          "tsName": "CopyToAsync",
+          "tsName": "copyToAsync",
           "isStatic": false,
           "tsSignatureId": "CopyToAsync|(System.IO.Stream):System.Threading.Tasks.Task|static=false",
           "target": {
@@ -3796,7 +3796,7 @@
           }
         },
         {
-          "tsName": "CopyToAsync2",
+          "tsName": "copyToAsync2",
           "isStatic": false,
           "tsSignatureId": "CopyToAsync|(System.IO.Stream,System.Int32):System.Threading.Tasks.Task|static=false",
           "target": {
@@ -3806,7 +3806,7 @@
           }
         },
         {
-          "tsName": "CopyToAsync3",
+          "tsName": "copyToAsync3",
           "isStatic": false,
           "tsSignatureId": "CopyToAsync|(System.IO.Stream,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
           "target": {

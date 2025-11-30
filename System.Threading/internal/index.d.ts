@@ -268,9 +268,9 @@ export class SpinWait$instance {
     reset(): void;
     spinOnce(): void;
     spinOnce(sleep1Threshold: int): void;
-    static spinUntil(condition: Func_1<CLROf<boolean>>, millisecondsTimeout: int): boolean;
-    static spinUntil(condition: Func_1<CLROf<boolean>>, timeout: TimeSpan): boolean;
-    static spinUntil(condition: Func_1<CLROf<boolean>>): void;
+    static spinUntil3(condition: Func_1<CLROf<boolean>>, millisecondsTimeout: int): boolean;
+    static spinUntil3(condition: Func_1<CLROf<boolean>>, timeout: TimeSpan): boolean;
+    static spinUntil3(condition: Func_1<CLROf<boolean>>): void;
 }
 
 
@@ -285,15 +285,13 @@ export class AbandonedMutexException$instance extends System_Internal.SystemExce
     constructor(message: string, inner: Exception, location: int, handle: WaitHandle);
     readonly mutex: Mutex;
     readonly mutexIndex: int;
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
 export interface __AbandonedMutexException$views {
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
-
-export interface AbandonedMutexException$instance extends System_Runtime_Serialization_Internal.ISerializable$instance {}
 
 export type AbandonedMutexException = AbandonedMutexException$instance & __AbandonedMutexException$views;
 
@@ -309,15 +307,13 @@ export type AsyncLocal_1<T> = AsyncLocal_1$instance<T>;
 
 export class AutoResetEvent$instance extends EventWaitHandle$instance {
     constructor(initialState: boolean);
-    Dispose(): void;
+    dispose(): void;
 }
 
 
 export interface __AutoResetEvent$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
-
-export interface AutoResetEvent$instance extends System_Internal.IDisposable$instance {}
 
 export type AutoResetEvent = AutoResetEvent$instance & __AutoResetEvent$views;
 
@@ -356,15 +352,13 @@ export class BarrierPostPhaseException$instance extends System_Internal.Exceptio
     constructor(innerException: Exception);
     constructor(message: string);
     constructor(message: string, innerException: Exception);
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
 export interface __BarrierPostPhaseException$views {
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
-
-export interface BarrierPostPhaseException$instance extends System_Runtime_Serialization_Internal.ISerializable$instance {}
 
 export type BarrierPostPhaseException = BarrierPostPhaseException$instance & __BarrierPostPhaseException$views;
 
@@ -383,10 +377,10 @@ export class CancellationTokenSource$instance {
     cancelAsync(): Task;
     dispose(): void;
     tryReset(): boolean;
-    static createLinkedTokenSource(tokens: ReadOnlySpan_1<CancellationToken>): CancellationTokenSource;
-    static createLinkedTokenSource(token1: CancellationToken, token2: CancellationToken): CancellationTokenSource;
-    static createLinkedTokenSource(token: CancellationToken): CancellationTokenSource;
-    static createLinkedTokenSource(tokens: CancellationToken[]): CancellationTokenSource;
+    static createLinkedTokenSource4(tokens: ReadOnlySpan_1<CancellationToken>): CancellationTokenSource;
+    static createLinkedTokenSource4(token1: CancellationToken, token2: CancellationToken): CancellationTokenSource;
+    static createLinkedTokenSource4(token: CancellationToken): CancellationTokenSource;
+    static createLinkedTokenSource4(tokens: CancellationToken[]): CancellationTokenSource;
 }
 
 
@@ -420,9 +414,9 @@ export type CompressedStack = CompressedStack$instance & __CompressedStack$views
 export class ContextCallback$instance extends Function {
     constructor(object_: unknown, method: nint);
     beginInvoke(state: unknown, callback: AsyncCallback, object_: unknown): IAsyncResult;
-    Clone(): unknown;
+    clone(): unknown;
     endInvoke(result: IAsyncResult): void;
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
     invoke(state: unknown): void;
 }
 
@@ -431,8 +425,6 @@ export interface __ContextCallback$views {
     As_ICloneable(): System_Internal.ICloneable$instance;
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
-
-export interface ContextCallback$instance extends System_Internal.ICloneable$instance {}
 
 export type ContextCallback = ContextCallback$instance & __ContextCallback$views;
 
@@ -476,21 +468,19 @@ export class EventWaitHandle$instance extends WaitHandle$instance {
     constructor(initialState: boolean, mode: EventResetMode, name: string);
     constructor(initialState: boolean, mode: EventResetMode, name: string, options: NamedWaitHandleOptions, createdNew: ref<boolean>);
     constructor(initialState: boolean, mode: EventResetMode, name: string, createdNew: ref<boolean>);
-    Dispose(): void;
+    dispose(): void;
     reset(): boolean;
     set_(): boolean;
     static openExisting(name: string, options: NamedWaitHandleOptions): EventWaitHandle;
     static openExisting(name: string): EventWaitHandle;
-    static tryOpenExisting(name: string, result: { value: ref<EventWaitHandle> }): boolean;
-    static tryOpenExisting(name: string, options: NamedWaitHandleOptions, result: { value: ref<EventWaitHandle> }): boolean;
+    static tryOpenExisting2(name: string, result: { value: ref<EventWaitHandle> }): boolean;
+    static tryOpenExisting2(name: string, options: NamedWaitHandleOptions, result: { value: ref<EventWaitHandle> }): boolean;
 }
 
 
 export interface __EventWaitHandle$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
-
-export interface EventWaitHandle$instance extends System_Internal.IDisposable$instance {}
 
 export type EventWaitHandle = EventWaitHandle$instance & __EventWaitHandle$views;
 
@@ -549,9 +539,9 @@ export type HostExecutionContextManager = HostExecutionContextManager$instance;
 export class IOCompletionCallback$instance extends Function {
     constructor(object_: unknown, method: nint);
     beginInvoke(errorCode: uint, numBytes: uint, pOVERLAP: ptr<NativeOverlapped>, callback: AsyncCallback, object_: unknown): IAsyncResult;
-    Clone(): unknown;
+    clone(): unknown;
     endInvoke(result: IAsyncResult): void;
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
     invoke(errorCode: uint, numBytes: uint, pOVERLAP: ptr<NativeOverlapped>): void;
 }
 
@@ -560,8 +550,6 @@ export interface __IOCompletionCallback$views {
     As_ICloneable(): System_Internal.ICloneable$instance;
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
-
-export interface IOCompletionCallback$instance extends System_Internal.ICloneable$instance {}
 
 export type IOCompletionCallback = IOCompletionCallback$instance & __IOCompletionCallback$views;
 
@@ -584,7 +572,7 @@ export class LockRecursionException$instance extends System_Internal.Exception$i
     constructor();
     constructor(message: string);
     constructor(message: string, innerException: Exception);
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
@@ -592,22 +580,18 @@ export interface __LockRecursionException$views {
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
-export interface LockRecursionException$instance extends System_Runtime_Serialization_Internal.ISerializable$instance {}
-
 export type LockRecursionException = LockRecursionException$instance & __LockRecursionException$views;
 
 
 export class ManualResetEvent$instance extends EventWaitHandle$instance {
     constructor(initialState: boolean);
-    Dispose(): void;
+    dispose(): void;
 }
 
 
 export interface __ManualResetEvent$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
-
-export interface ManualResetEvent$instance extends System_Internal.IDisposable$instance {}
 
 export type ManualResetEvent = ManualResetEvent$instance & __ManualResetEvent$views;
 
@@ -648,20 +632,18 @@ export class Mutex$instance extends WaitHandle$instance {
     constructor(name: string, options: NamedWaitHandleOptions);
     constructor(initiallyOwned: boolean);
     constructor();
-    Dispose(): void;
+    dispose(): void;
     releaseMutex(): void;
     static openExisting(name: string, options: NamedWaitHandleOptions): Mutex;
     static openExisting(name: string): Mutex;
-    static tryOpenExisting(name: string, result: { value: ref<Mutex> }): boolean;
-    static tryOpenExisting(name: string, options: NamedWaitHandleOptions, result: { value: ref<Mutex> }): boolean;
+    static tryOpenExisting2(name: string, result: { value: ref<Mutex> }): boolean;
+    static tryOpenExisting2(name: string, options: NamedWaitHandleOptions, result: { value: ref<Mutex> }): boolean;
 }
 
 
 export interface __Mutex$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
-
-export interface Mutex$instance extends System_Internal.IDisposable$instance {}
 
 export type Mutex = Mutex$instance & __Mutex$views;
 
@@ -689,9 +671,9 @@ export type Overlapped = Overlapped$instance;
 export class ParameterizedThreadStart$instance extends Function {
     constructor(object_: unknown, method: nint);
     beginInvoke(obj: unknown, callback: AsyncCallback, object_: unknown): IAsyncResult;
-    Clone(): unknown;
+    clone(): unknown;
     endInvoke(result: IAsyncResult): void;
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
     invoke(obj: unknown): void;
 }
 
@@ -700,8 +682,6 @@ export interface __ParameterizedThreadStart$views {
     As_ICloneable(): System_Internal.ICloneable$instance;
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
-
-export interface ParameterizedThreadStart$instance extends System_Internal.ICloneable$instance {}
 
 export type ParameterizedThreadStart = ParameterizedThreadStart$instance & __ParameterizedThreadStart$views;
 
@@ -814,7 +794,7 @@ export class Semaphore$instance extends WaitHandle$instance {
     constructor(initialCount: int, maximumCount: int, name: string);
     constructor(initialCount: int, maximumCount: int, name: string, options: NamedWaitHandleOptions, createdNew: ref<boolean>);
     constructor(initialCount: int, maximumCount: int, name: string, createdNew: ref<boolean>);
-    Dispose(): void;
+    dispose(): void;
     release(): int;
     release(releaseCount: int): int;
     static openExisting(name: string, options: NamedWaitHandleOptions): Semaphore;
@@ -828,8 +808,6 @@ export interface __Semaphore$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
 
-export interface Semaphore$instance extends System_Internal.IDisposable$instance {}
-
 export type Semaphore = Semaphore$instance & __Semaphore$views;
 
 
@@ -837,15 +815,13 @@ export class SemaphoreFullException$instance extends System_Internal.SystemExcep
     constructor();
     constructor(message: string);
     constructor(message: string, innerException: Exception);
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
 export interface __SemaphoreFullException$views {
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
-
-export interface SemaphoreFullException$instance extends System_Runtime_Serialization_Internal.ISerializable$instance {}
 
 export type SemaphoreFullException = SemaphoreFullException$instance & __SemaphoreFullException$views;
 
@@ -885,9 +861,9 @@ export type SemaphoreSlim = SemaphoreSlim$instance & __SemaphoreSlim$views;
 export class SendOrPostCallback$instance extends Function {
     constructor(object_: unknown, method: nint);
     beginInvoke(state: unknown, callback: AsyncCallback, object_: unknown): IAsyncResult;
-    Clone(): unknown;
+    clone(): unknown;
     endInvoke(result: IAsyncResult): void;
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
     invoke(state: unknown): void;
 }
 
@@ -896,8 +872,6 @@ export interface __SendOrPostCallback$views {
     As_ICloneable(): System_Internal.ICloneable$instance;
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
-
-export interface SendOrPostCallback$instance extends System_Internal.ICloneable$instance {}
 
 export type SendOrPostCallback = SendOrPostCallback$instance & __SendOrPostCallback$views;
 
@@ -922,15 +896,13 @@ export class SynchronizationLockException$instance extends System_Internal.Syste
     constructor();
     constructor(message: string);
     constructor(message: string, innerException: Exception);
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
 export interface __SynchronizationLockException$views {
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
-
-export interface SynchronizationLockException$instance extends System_Runtime_Serialization_Internal.ISerializable$instance {}
 
 export type SynchronizationLockException = SynchronizationLockException$instance & __SynchronizationLockException$views;
 
@@ -1016,7 +988,7 @@ export class Thread$instance extends System_Runtime_ConstrainedExecution_Interna
     static volatileWrite(address: { value: ref<uint> }, value: uint): void;
     static volatileWrite(address: { value: ref<ulong> }, value: ulong): void;
     static volatileWrite(address: { value: ref<nuint> }, value: nuint): void;
-    static yield(): boolean;
+    static yield_(): boolean;
 }
 
 
@@ -1024,15 +996,13 @@ export type Thread = Thread$instance;
 
 export class ThreadAbortException$instance extends System_Internal.SystemException$instance {
     readonly exceptionState: unknown;
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
 export interface __ThreadAbortException$views {
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
-
-export interface ThreadAbortException$instance extends System_Runtime_Serialization_Internal.ISerializable$instance {}
 
 export type ThreadAbortException = ThreadAbortException$instance & __ThreadAbortException$views;
 
@@ -1048,9 +1018,9 @@ export type ThreadExceptionEventArgs = ThreadExceptionEventArgs$instance;
 export class ThreadExceptionEventHandler$instance extends Function {
     constructor(object_: unknown, method: nint);
     beginInvoke(sender: unknown, e: ThreadExceptionEventArgs, callback: AsyncCallback, object_: unknown): IAsyncResult;
-    Clone(): unknown;
+    clone(): unknown;
     endInvoke(result: IAsyncResult): void;
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
     invoke(sender: unknown, e: ThreadExceptionEventArgs): void;
 }
 
@@ -1060,8 +1030,6 @@ export interface __ThreadExceptionEventHandler$views {
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
-export interface ThreadExceptionEventHandler$instance extends System_Internal.ICloneable$instance {}
-
 export type ThreadExceptionEventHandler = ThreadExceptionEventHandler$instance & __ThreadExceptionEventHandler$views;
 
 
@@ -1069,15 +1037,13 @@ export class ThreadInterruptedException$instance extends System_Internal.SystemE
     constructor();
     constructor(message: string);
     constructor(message: string, innerException: Exception);
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
 export interface __ThreadInterruptedException$views {
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
-
-export interface ThreadInterruptedException$instance extends System_Runtime_Serialization_Internal.ISerializable$instance {}
 
 export type ThreadInterruptedException = ThreadInterruptedException$instance & __ThreadInterruptedException$views;
 
@@ -1128,9 +1094,9 @@ export type ThreadPoolBoundHandle = ThreadPoolBoundHandle$instance & __ThreadPoo
 export class ThreadStart$instance extends Function {
     constructor(object_: unknown, method: nint);
     beginInvoke(callback: AsyncCallback, object_: unknown): IAsyncResult;
-    Clone(): unknown;
+    clone(): unknown;
     endInvoke(result: IAsyncResult): void;
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
     invoke(): void;
 }
 
@@ -1140,21 +1106,17 @@ export interface __ThreadStart$views {
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
-export interface ThreadStart$instance extends System_Internal.ICloneable$instance {}
-
 export type ThreadStart = ThreadStart$instance & __ThreadStart$views;
 
 
 export class ThreadStartException$instance extends System_Internal.SystemException$instance {
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
 export interface __ThreadStartException$views {
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
-
-export interface ThreadStartException$instance extends System_Runtime_Serialization_Internal.ISerializable$instance {}
 
 export type ThreadStartException = ThreadStartException$instance & __ThreadStartException$views;
 
@@ -1163,15 +1125,13 @@ export class ThreadStateException$instance extends System_Internal.SystemExcepti
     constructor();
     constructor(message: string);
     constructor(message: string, innerException: Exception);
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
 export interface __ThreadStateException$views {
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
-
-export interface ThreadStateException$instance extends System_Runtime_Serialization_Internal.ISerializable$instance {}
 
 export type ThreadStateException = ThreadStateException$instance & __ThreadStateException$views;
 
@@ -1205,9 +1165,9 @@ export type Timer = Timer$instance & __Timer$views;
 export class TimerCallback$instance extends Function {
     constructor(object_: unknown, method: nint);
     beginInvoke(state: unknown, callback: AsyncCallback, object_: unknown): IAsyncResult;
-    Clone(): unknown;
+    clone(): unknown;
     endInvoke(result: IAsyncResult): void;
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
     invoke(state: unknown): void;
 }
 
@@ -1217,17 +1177,15 @@ export interface __TimerCallback$views {
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
-export interface TimerCallback$instance extends System_Internal.ICloneable$instance {}
-
 export type TimerCallback = TimerCallback$instance & __TimerCallback$views;
 
 
 export class WaitCallback$instance extends Function {
     constructor(object_: unknown, method: nint);
     beginInvoke(state: unknown, callback: AsyncCallback, object_: unknown): IAsyncResult;
-    Clone(): unknown;
+    clone(): unknown;
     endInvoke(result: IAsyncResult): void;
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
     invoke(state: unknown): void;
 }
 
@@ -1236,8 +1194,6 @@ export interface __WaitCallback$views {
     As_ICloneable(): System_Internal.ICloneable$instance;
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
-
-export interface WaitCallback$instance extends System_Internal.ICloneable$instance {}
 
 export type WaitCallback = WaitCallback$instance & __WaitCallback$views;
 
@@ -1253,19 +1209,19 @@ export abstract class WaitHandle$instance extends System_Internal.MarshalByRefOb
     waitOne(millisecondsTimeout: int, exitContext: boolean): boolean;
     waitOne(timeout: TimeSpan, exitContext: boolean): boolean;
     static readonly waitTimeout: int;
-    static signalAndWait(toSignal: WaitHandle, toWaitOn: WaitHandle, millisecondsTimeout: int, exitContext: boolean): boolean;
-    static signalAndWait(toSignal: WaitHandle, toWaitOn: WaitHandle, timeout: TimeSpan, exitContext: boolean): boolean;
-    static signalAndWait(toSignal: WaitHandle, toWaitOn: WaitHandle): boolean;
-    static waitAll(waitHandles: WaitHandle[], millisecondsTimeout: int, exitContext: boolean): boolean;
-    static waitAll(waitHandles: WaitHandle[], millisecondsTimeout: int): boolean;
-    static waitAll(waitHandles: WaitHandle[], timeout: TimeSpan, exitContext: boolean): boolean;
-    static waitAll(waitHandles: WaitHandle[], timeout: TimeSpan): boolean;
-    static waitAll(waitHandles: WaitHandle[]): boolean;
-    static waitAny(waitHandles: WaitHandle[], millisecondsTimeout: int, exitContext: boolean): int;
-    static waitAny(waitHandles: WaitHandle[], millisecondsTimeout: int): int;
-    static waitAny(waitHandles: WaitHandle[], timeout: TimeSpan, exitContext: boolean): int;
-    static waitAny(waitHandles: WaitHandle[], timeout: TimeSpan): int;
-    static waitAny(waitHandles: WaitHandle[]): int;
+    static signalAndWait3(toSignal: WaitHandle, toWaitOn: WaitHandle, millisecondsTimeout: int, exitContext: boolean): boolean;
+    static signalAndWait3(toSignal: WaitHandle, toWaitOn: WaitHandle, timeout: TimeSpan, exitContext: boolean): boolean;
+    static signalAndWait3(toSignal: WaitHandle, toWaitOn: WaitHandle): boolean;
+    static waitAll4(waitHandles: WaitHandle[], millisecondsTimeout: int, exitContext: boolean): boolean;
+    static waitAll4(waitHandles: WaitHandle[], millisecondsTimeout: int): boolean;
+    static waitAll4(waitHandles: WaitHandle[], timeout: TimeSpan, exitContext: boolean): boolean;
+    static waitAll4(waitHandles: WaitHandle[], timeout: TimeSpan): boolean;
+    static waitAll4(waitHandles: WaitHandle[]): boolean;
+    static waitAny4(waitHandles: WaitHandle[], millisecondsTimeout: int, exitContext: boolean): int;
+    static waitAny4(waitHandles: WaitHandle[], millisecondsTimeout: int): int;
+    static waitAny4(waitHandles: WaitHandle[], timeout: TimeSpan, exitContext: boolean): int;
+    static waitAny4(waitHandles: WaitHandle[], timeout: TimeSpan): int;
+    static waitAny4(waitHandles: WaitHandle[]): int;
 }
 
 
@@ -1282,7 +1238,7 @@ export class WaitHandleCannotBeOpenedException$instance extends System_Internal.
     constructor();
     constructor(message: string);
     constructor(message: string, innerException: Exception);
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
@@ -1290,17 +1246,15 @@ export interface __WaitHandleCannotBeOpenedException$views {
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
-export interface WaitHandleCannotBeOpenedException$instance extends System_Runtime_Serialization_Internal.ISerializable$instance {}
-
 export type WaitHandleCannotBeOpenedException = WaitHandleCannotBeOpenedException$instance & __WaitHandleCannotBeOpenedException$views;
 
 
 export class WaitOrTimerCallback$instance extends Function {
     constructor(object_: unknown, method: nint);
     beginInvoke(state: unknown, timedOut: boolean, callback: AsyncCallback, object_: unknown): IAsyncResult;
-    Clone(): unknown;
+    clone(): unknown;
     endInvoke(result: IAsyncResult): void;
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
     invoke(state: unknown, timedOut: boolean): void;
 }
 
@@ -1309,8 +1263,6 @@ export interface __WaitOrTimerCallback$views {
     As_ICloneable(): System_Internal.ICloneable$instance;
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
-
-export interface WaitOrTimerCallback$instance extends System_Internal.ICloneable$instance {}
 
 export type WaitOrTimerCallback = WaitOrTimerCallback$instance & __WaitOrTimerCallback$views;
 
@@ -1333,38 +1285,38 @@ export abstract class Interlocked$instance {
     static and(location1: { value: ref<long> }, value: long): long;
     static and(location1: { value: ref<uint> }, value: uint): uint;
     static and(location1: { value: ref<ulong> }, value: ulong): ulong;
-    static compareExchange(location1: { value: ref<byte> }, value: byte, comparand: byte): byte;
-    static compareExchange(location1: { value: ref<double> }, value: double, comparand: double): double;
-    static compareExchange(location1: { value: ref<short> }, value: short, comparand: short): short;
-    static compareExchange(location1: { value: ref<int> }, value: int, comparand: int): int;
-    static compareExchange(location1: { value: ref<long> }, value: long, comparand: long): long;
-    static compareExchange(location1: { value: ref<nint> }, value: nint, comparand: nint): nint;
-    static compareExchange(location1: { value: ref<unknown> }, value: unknown, comparand: unknown): unknown;
-    static compareExchange(location1: { value: ref<sbyte> }, value: sbyte, comparand: sbyte): sbyte;
-    static compareExchange(location1: { value: ref<float> }, value: float, comparand: float): float;
-    static compareExchange(location1: { value: ref<ushort> }, value: ushort, comparand: ushort): ushort;
-    static compareExchange(location1: { value: ref<uint> }, value: uint, comparand: uint): uint;
-    static compareExchange(location1: { value: ref<ulong> }, value: ulong, comparand: ulong): ulong;
-    static compareExchange(location1: { value: ref<nuint> }, value: nuint, comparand: nuint): nuint;
-    static compareExchange<T>(location1: { value: ref<T> }, value: T, comparand: T): T;
+    static compareExchange6(location1: { value: ref<byte> }, value: byte, comparand: byte): byte;
+    static compareExchange6(location1: { value: ref<double> }, value: double, comparand: double): double;
+    static compareExchange6(location1: { value: ref<short> }, value: short, comparand: short): short;
+    static compareExchange6(location1: { value: ref<int> }, value: int, comparand: int): int;
+    static compareExchange6(location1: { value: ref<long> }, value: long, comparand: long): long;
+    static compareExchange6(location1: { value: ref<nint> }, value: nint, comparand: nint): nint;
+    static compareExchange6(location1: { value: ref<unknown> }, value: unknown, comparand: unknown): unknown;
+    static compareExchange6(location1: { value: ref<sbyte> }, value: sbyte, comparand: sbyte): sbyte;
+    static compareExchange6(location1: { value: ref<float> }, value: float, comparand: float): float;
+    static compareExchange6(location1: { value: ref<ushort> }, value: ushort, comparand: ushort): ushort;
+    static compareExchange6(location1: { value: ref<uint> }, value: uint, comparand: uint): uint;
+    static compareExchange6(location1: { value: ref<ulong> }, value: ulong, comparand: ulong): ulong;
+    static compareExchange6(location1: { value: ref<nuint> }, value: nuint, comparand: nuint): nuint;
+    static compareExchange6<T>(location1: { value: ref<T> }, value: T, comparand: T): T;
     static decrement(location: { value: ref<int> }): int;
     static decrement(location: { value: ref<long> }): long;
     static decrement(location: { value: ref<uint> }): uint;
     static decrement(location: { value: ref<ulong> }): ulong;
-    static exchange(location1: { value: ref<byte> }, value: byte): byte;
-    static exchange(location1: { value: ref<double> }, value: double): double;
-    static exchange(location1: { value: ref<short> }, value: short): short;
-    static exchange(location1: { value: ref<int> }, value: int): int;
-    static exchange(location1: { value: ref<long> }, value: long): long;
-    static exchange(location1: { value: ref<nint> }, value: nint): nint;
-    static exchange(location1: { value: ref<unknown> }, value: unknown): unknown;
-    static exchange(location1: { value: ref<sbyte> }, value: sbyte): sbyte;
-    static exchange(location1: { value: ref<float> }, value: float): float;
-    static exchange(location1: { value: ref<ushort> }, value: ushort): ushort;
-    static exchange(location1: { value: ref<uint> }, value: uint): uint;
-    static exchange(location1: { value: ref<ulong> }, value: ulong): ulong;
-    static exchange(location1: { value: ref<nuint> }, value: nuint): nuint;
-    static exchange<T>(location1: { value: ref<T> }, value: T): T;
+    static exchange6(location1: { value: ref<byte> }, value: byte): byte;
+    static exchange6(location1: { value: ref<double> }, value: double): double;
+    static exchange6(location1: { value: ref<short> }, value: short): short;
+    static exchange6(location1: { value: ref<int> }, value: int): int;
+    static exchange6(location1: { value: ref<long> }, value: long): long;
+    static exchange6(location1: { value: ref<nint> }, value: nint): nint;
+    static exchange6(location1: { value: ref<unknown> }, value: unknown): unknown;
+    static exchange6(location1: { value: ref<sbyte> }, value: sbyte): sbyte;
+    static exchange6(location1: { value: ref<float> }, value: float): float;
+    static exchange6(location1: { value: ref<ushort> }, value: ushort): ushort;
+    static exchange6(location1: { value: ref<uint> }, value: uint): uint;
+    static exchange6(location1: { value: ref<ulong> }, value: ulong): ulong;
+    static exchange6(location1: { value: ref<nuint> }, value: nuint): nuint;
+    static exchange6<T>(location1: { value: ref<T> }, value: T): T;
     static increment(location: { value: ref<int> }): int;
     static increment(location: { value: ref<long> }): long;
     static increment(location: { value: ref<uint> }): uint;
@@ -1383,11 +1335,11 @@ export abstract class Interlocked$instance {
 export type Interlocked = Interlocked$instance;
 
 export abstract class LazyInitializer$instance {
-    static ensureInitialized<T>(target: { value: ref<T> }, valueFactory: Func_1<T>): T;
-    static ensureInitialized<T>(target: { value: ref<T> }, initialized: { value: ref<boolean> }, syncLock: { value: ref<unknown> }, valueFactory: Func_1<T>): T;
-    static ensureInitialized<T>(target: { value: ref<T> }, initialized: { value: ref<boolean> }, syncLock: { value: ref<unknown> }): T;
-    static ensureInitialized<T>(target: { value: ref<T> }, syncLock: { value: ref<unknown> }, valueFactory: Func_1<T>): T;
-    static ensureInitialized<T>(target: { value: ref<T> }): T;
+    static ensureInitialized2<T>(target: { value: ref<T> }, valueFactory: Func_1<T>): T;
+    static ensureInitialized2<T>(target: { value: ref<T> }, initialized: { value: ref<boolean> }, syncLock: { value: ref<unknown> }, valueFactory: Func_1<T>): T;
+    static ensureInitialized2<T>(target: { value: ref<T> }, initialized: { value: ref<boolean> }, syncLock: { value: ref<unknown> }): T;
+    static ensureInitialized2<T>(target: { value: ref<T> }, syncLock: { value: ref<unknown> }, valueFactory: Func_1<T>): T;
+    static ensureInitialized2<T>(target: { value: ref<T> }): T;
 }
 
 
@@ -1395,23 +1347,23 @@ export type LazyInitializer = LazyInitializer$instance;
 
 export abstract class Monitor$instance {
     static readonly lockContentionCount: long;
-    static enter(obj: unknown, lockTaken: { value: ref<boolean> }): void;
-    static enter(obj: unknown): void;
+    static enter2(obj: unknown, lockTaken: { value: ref<boolean> }): void;
+    static enter2(obj: unknown): void;
     static exit(obj: unknown): void;
     static isEntered(obj: unknown): boolean;
     static pulse(obj: unknown): void;
     static pulseAll(obj: unknown): void;
-    static tryEnter(obj: unknown, lockTaken: { value: ref<boolean> }): void;
-    static tryEnter(obj: unknown, millisecondsTimeout: int, lockTaken: { value: ref<boolean> }): void;
-    static tryEnter(obj: unknown, millisecondsTimeout: int): boolean;
-    static tryEnter(obj: unknown, timeout: TimeSpan, lockTaken: { value: ref<boolean> }): void;
-    static tryEnter(obj: unknown, timeout: TimeSpan): boolean;
-    static tryEnter(obj: unknown): boolean;
-    static wait(obj: unknown, millisecondsTimeout: int, exitContext: boolean): boolean;
-    static wait(obj: unknown, millisecondsTimeout: int): boolean;
-    static wait(obj: unknown, timeout: TimeSpan, exitContext: boolean): boolean;
-    static wait(obj: unknown, timeout: TimeSpan): boolean;
-    static wait(obj: unknown): boolean;
+    static tryEnter2(obj: unknown, lockTaken: { value: ref<boolean> }): void;
+    static tryEnter2(obj: unknown, millisecondsTimeout: int, lockTaken: { value: ref<boolean> }): void;
+    static tryEnter2(obj: unknown, millisecondsTimeout: int): boolean;
+    static tryEnter2(obj: unknown, timeout: TimeSpan, lockTaken: { value: ref<boolean> }): void;
+    static tryEnter2(obj: unknown, timeout: TimeSpan): boolean;
+    static tryEnter2(obj: unknown): boolean;
+    static wait4(obj: unknown, millisecondsTimeout: int, exitContext: boolean): boolean;
+    static wait4(obj: unknown, millisecondsTimeout: int): boolean;
+    static wait4(obj: unknown, timeout: TimeSpan, exitContext: boolean): boolean;
+    static wait4(obj: unknown, timeout: TimeSpan): boolean;
+    static wait4(obj: unknown): boolean;
 }
 
 
@@ -1456,23 +1408,23 @@ export abstract class ThreadPool$instance {
     static getAvailableThreads(workerThreads: { value: ref<int> }, completionPortThreads: { value: ref<int> }): void;
     static getMaxThreads(workerThreads: { value: ref<int> }, completionPortThreads: { value: ref<int> }): void;
     static getMinThreads(workerThreads: { value: ref<int> }, completionPortThreads: { value: ref<int> }): void;
-    static queueUserWorkItem<TState>(callBack: Action_1<TState>, state: TState, preferLocal: boolean): boolean;
-    static queueUserWorkItem(callBack: WaitCallback, state: unknown): boolean;
-    static queueUserWorkItem(callBack: WaitCallback): boolean;
-    static registerWaitForSingleObject(waitObject: WaitHandle, callBack: WaitOrTimerCallback, state: unknown, millisecondsTimeOutInterval: int, executeOnlyOnce: boolean): RegisteredWaitHandle;
-    static registerWaitForSingleObject(waitObject: WaitHandle, callBack: WaitOrTimerCallback, state: unknown, millisecondsTimeOutInterval: long, executeOnlyOnce: boolean): RegisteredWaitHandle;
-    static registerWaitForSingleObject(waitObject: WaitHandle, callBack: WaitOrTimerCallback, state: unknown, timeout: TimeSpan, executeOnlyOnce: boolean): RegisteredWaitHandle;
-    static registerWaitForSingleObject(waitObject: WaitHandle, callBack: WaitOrTimerCallback, state: unknown, millisecondsTimeOutInterval: uint, executeOnlyOnce: boolean): RegisteredWaitHandle;
+    static queueUserWorkItem3<TState>(callBack: Action_1<TState>, state: TState, preferLocal: boolean): boolean;
+    static queueUserWorkItem3(callBack: WaitCallback, state: unknown): boolean;
+    static queueUserWorkItem3(callBack: WaitCallback): boolean;
+    static registerWaitForSingleObject2(waitObject: WaitHandle, callBack: WaitOrTimerCallback, state: unknown, millisecondsTimeOutInterval: int, executeOnlyOnce: boolean): RegisteredWaitHandle;
+    static registerWaitForSingleObject2(waitObject: WaitHandle, callBack: WaitOrTimerCallback, state: unknown, millisecondsTimeOutInterval: long, executeOnlyOnce: boolean): RegisteredWaitHandle;
+    static registerWaitForSingleObject2(waitObject: WaitHandle, callBack: WaitOrTimerCallback, state: unknown, timeout: TimeSpan, executeOnlyOnce: boolean): RegisteredWaitHandle;
+    static registerWaitForSingleObject2(waitObject: WaitHandle, callBack: WaitOrTimerCallback, state: unknown, millisecondsTimeOutInterval: uint, executeOnlyOnce: boolean): RegisteredWaitHandle;
     static setMaxThreads(workerThreads: int, completionPortThreads: int): boolean;
     static setMinThreads(workerThreads: int, completionPortThreads: int): boolean;
     static unsafeQueueNativeOverlapped(overlapped: ptr<NativeOverlapped>): boolean;
     static unsafeQueueUserWorkItem<TState>(callBack: Action_1<TState>, state: TState, preferLocal: boolean): boolean;
     static unsafeQueueUserWorkItem(callBack: IThreadPoolWorkItem, preferLocal: boolean): boolean;
     static unsafeQueueUserWorkItem(callBack: WaitCallback, state: unknown): boolean;
-    static unsafeRegisterWaitForSingleObject(waitObject: WaitHandle, callBack: WaitOrTimerCallback, state: unknown, millisecondsTimeOutInterval: int, executeOnlyOnce: boolean): RegisteredWaitHandle;
-    static unsafeRegisterWaitForSingleObject(waitObject: WaitHandle, callBack: WaitOrTimerCallback, state: unknown, millisecondsTimeOutInterval: long, executeOnlyOnce: boolean): RegisteredWaitHandle;
-    static unsafeRegisterWaitForSingleObject(waitObject: WaitHandle, callBack: WaitOrTimerCallback, state: unknown, timeout: TimeSpan, executeOnlyOnce: boolean): RegisteredWaitHandle;
-    static unsafeRegisterWaitForSingleObject(waitObject: WaitHandle, callBack: WaitOrTimerCallback, state: unknown, millisecondsTimeOutInterval: uint, executeOnlyOnce: boolean): RegisteredWaitHandle;
+    static unsafeRegisterWaitForSingleObject2(waitObject: WaitHandle, callBack: WaitOrTimerCallback, state: unknown, millisecondsTimeOutInterval: int, executeOnlyOnce: boolean): RegisteredWaitHandle;
+    static unsafeRegisterWaitForSingleObject2(waitObject: WaitHandle, callBack: WaitOrTimerCallback, state: unknown, millisecondsTimeOutInterval: long, executeOnlyOnce: boolean): RegisteredWaitHandle;
+    static unsafeRegisterWaitForSingleObject2(waitObject: WaitHandle, callBack: WaitOrTimerCallback, state: unknown, timeout: TimeSpan, executeOnlyOnce: boolean): RegisteredWaitHandle;
+    static unsafeRegisterWaitForSingleObject2(waitObject: WaitHandle, callBack: WaitOrTimerCallback, state: unknown, millisecondsTimeOutInterval: uint, executeOnlyOnce: boolean): RegisteredWaitHandle;
 }
 
 

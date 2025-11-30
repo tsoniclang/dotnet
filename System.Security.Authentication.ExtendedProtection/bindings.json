@@ -13,7 +13,7 @@
         {
           "stableId": "System.Net.Primitives:System.Security.Authentication.ExtendedProtection.ChannelBindingKind::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67108988,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -761,7 +761,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -814,7 +814,7 @@
         {
           "stableId": "System.Net.Security:System.Security.Authentication.ExtendedProtection.PolicyEnforcement::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67110145,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -1562,7 +1562,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -1615,7 +1615,7 @@
         {
           "stableId": "System.Net.Security:System.Security.Authentication.ExtendedProtection.ProtectionScenario::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67110149,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -2352,7 +2352,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -2393,7 +2393,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "dispose",
+          "tsEmitName": "dispose$view",
           "metadataToken": 100668530,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Dispose|():System.Void|static=false",
@@ -2407,7 +2407,7 @@
         {
           "stableId": "System.Net.Primitives:System.Security.Authentication.ExtendedProtection.ChannelBinding::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "Dispose",
+          "tsEmitName": "dispose",
           "metadataToken": 0,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Dispose|():System.Void|static=false",
@@ -2440,7 +2440,7 @@
       "constructors": [],
       "exposedMethods": [
         {
-          "tsName": "dispose",
+          "tsName": "dispose$view",
           "isStatic": false,
           "tsSignatureId": "Dispose|():System.Void|static=false",
           "target": {
@@ -2450,7 +2450,7 @@
           }
         },
         {
-          "tsName": "Dispose",
+          "tsName": "dispose",
           "isStatic": false,
           "tsSignatureId": "Dispose|():System.Void|static=false",
           "target": {
@@ -2928,7 +2928,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Security.Authentication.ExtendedProtection.ExtendedProtectionPolicyTypeConverter::CanConvertTo(System.ComponentModel.ITypeDescriptorContext,System.Type):System.Boolean",
           "clrName": "CanConvertTo",
-          "tsEmitName": "canConvertTo",
+          "tsEmitName": "canConvertTo2",
           "metadataToken": 100663395,
           "canonicalSignature": "(System.ComponentModel.ITypeDescriptorContext,System.Type):System.Boolean",
           "normalizedSignature": "CanConvertTo|(System.ComponentModel.ITypeDescriptorContext,System.Type):System.Boolean|static=false",
@@ -2942,7 +2942,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Security.Authentication.ExtendedProtection.ExtendedProtectionPolicyTypeConverter::ConvertTo(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object,System.Type):System.Object",
           "clrName": "ConvertTo",
-          "tsEmitName": "convertTo",
+          "tsEmitName": "convertTo2",
           "metadataToken": 100663396,
           "canonicalSignature": "(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object,System.Type):System.Object",
           "normalizedSignature": "ConvertTo|(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object,System.Type):System.Object|static=false",
@@ -2956,7 +2956,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Security.Authentication.ExtendedProtection.ExtendedProtectionPolicyTypeConverter::CanConvertTo(System.Type):System.Boolean",
           "clrName": "CanConvertTo",
-          "tsEmitName": "CanConvertTo",
+          "tsEmitName": "canConvertTo",
           "metadataToken": 0,
           "canonicalSignature": "(System.Type):System.Boolean",
           "normalizedSignature": "CanConvertTo|(System.Type):System.Boolean|static=false",
@@ -2970,7 +2970,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Security.Authentication.ExtendedProtection.ExtendedProtectionPolicyTypeConverter::ConvertTo(System.Object,System.Type):System.Object",
           "clrName": "ConvertTo",
-          "tsEmitName": "ConvertTo",
+          "tsEmitName": "convertTo",
           "metadataToken": 0,
           "canonicalSignature": "(System.Object,System.Type):System.Object",
           "normalizedSignature": "ConvertTo|(System.Object,System.Type):System.Object|static=false",
@@ -2999,7 +2999,7 @@
       ],
       "exposedMethods": [
         {
-          "tsName": "canConvertTo",
+          "tsName": "canConvertTo2",
           "isStatic": false,
           "tsSignatureId": "CanConvertTo|(System.ComponentModel.ITypeDescriptorContext,System.Type):System.Boolean|static=false",
           "target": {
@@ -3009,7 +3009,7 @@
           }
         },
         {
-          "tsName": "convertTo",
+          "tsName": "convertTo2",
           "isStatic": false,
           "tsSignatureId": "ConvertTo|(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object,System.Type):System.Object|static=false",
           "target": {
@@ -3019,7 +3019,7 @@
           }
         },
         {
-          "tsName": "CanConvertTo",
+          "tsName": "canConvertTo",
           "isStatic": false,
           "tsSignatureId": "CanConvertTo|(System.Type):System.Boolean|static=false",
           "target": {
@@ -3029,7 +3029,7 @@
           }
         },
         {
-          "tsName": "ConvertTo",
+          "tsName": "convertTo",
           "isStatic": false,
           "tsSignatureId": "ConvertTo|(System.Object,System.Type):System.Object|static=false",
           "target": {
@@ -3473,7 +3473,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.ICollection::CopyTo(System.Array,System.Int32):System.Void",
           "clrName": "CopyTo",
-          "tsEmitName": "copyTo",
+          "tsEmitName": "copyTo$view",
           "metadataToken": 100703929,
           "canonicalSignature": "(System.Array,System.Int32):System.Void",
           "normalizedSignature": "CopyTo|(System.Array,System.Int32):System.Void|static=false",
@@ -3487,7 +3487,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
           "clrName": "GetEnumerator",
-          "tsEmitName": "getEnumerator",
+          "tsEmitName": "getEnumerator$view",
           "metadataToken": 100703948,
           "canonicalSignature": "():System.Collections.IEnumerator",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
@@ -3501,7 +3501,7 @@
         {
           "stableId": "System.Net.Security:System.Security.Authentication.ExtendedProtection.ServiceNameCollection::CopyTo(System.Array,System.Int32):System.Void",
           "clrName": "CopyTo",
-          "tsEmitName": "CopyTo",
+          "tsEmitName": "copyTo",
           "metadataToken": 0,
           "canonicalSignature": "(System.Array,System.Int32):System.Void",
           "normalizedSignature": "CopyTo|(System.Array,System.Int32):System.Void|static=false",
@@ -3515,7 +3515,7 @@
         {
           "stableId": "System.Net.Security:System.Security.Authentication.ExtendedProtection.ServiceNameCollection::GetEnumerator():System.Collections.IEnumerator",
           "clrName": "GetEnumerator",
-          "tsEmitName": "GetEnumerator",
+          "tsEmitName": "getEnumerator",
           "metadataToken": 0,
           "canonicalSignature": "():System.Collections.IEnumerator",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
@@ -3617,7 +3617,7 @@
           }
         },
         {
-          "tsName": "copyTo",
+          "tsName": "copyTo$view",
           "isStatic": false,
           "tsSignatureId": "CopyTo|(System.Array,System.Int32):System.Void|static=false",
           "target": {
@@ -3627,7 +3627,7 @@
           }
         },
         {
-          "tsName": "getEnumerator",
+          "tsName": "getEnumerator$view",
           "isStatic": false,
           "tsSignatureId": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "target": {
@@ -3637,7 +3637,7 @@
           }
         },
         {
-          "tsName": "CopyTo",
+          "tsName": "copyTo",
           "isStatic": false,
           "tsSignatureId": "CopyTo|(System.Array,System.Int32):System.Void|static=false",
           "target": {
@@ -3647,7 +3647,7 @@
           }
         },
         {
-          "tsName": "GetEnumerator",
+          "tsName": "getEnumerator",
           "isStatic": false,
           "tsSignatureId": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "target": {

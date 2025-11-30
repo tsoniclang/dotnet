@@ -20,7 +20,7 @@
         {
           "stableId": "System.Data.Common:System.Data.AcceptRejectRule::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -64,7 +64,7 @@
         {
           "stableId": "System.Data.Common:System.Data.CommandBehavior::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -153,7 +153,7 @@
         {
           "stableId": "System.Data.Common:System.Data.CommandType::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -206,7 +206,7 @@
         {
           "stableId": "System.Data.Common:System.Data.ConflictOption::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -259,7 +259,7 @@
         {
           "stableId": "System.Data.Common:System.Data.ConnectionState::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -339,7 +339,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataRowAction::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -437,7 +437,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataRowState::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -508,7 +508,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataRowVersion::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -570,7 +570,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataSetDateTime::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -632,7 +632,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataViewRowState::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -730,7 +730,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DbType::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -999,7 +999,7 @@
         {
           "stableId": "System.Data.Common:System.Data.IsolationLevel::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -1088,7 +1088,7 @@
         {
           "stableId": "System.Data.Common:System.Data.KeyRestrictionBehavior::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -1132,7 +1132,7 @@
         {
           "stableId": "System.Data.Common:System.Data.LoadOption::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -1185,7 +1185,7 @@
         {
           "stableId": "System.Data.Common:System.Data.MappingType::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -1247,7 +1247,7 @@
         {
           "stableId": "System.Data.Common:System.Data.MissingMappingAction::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -1300,7 +1300,7 @@
         {
           "stableId": "System.Data.Common:System.Data.MissingSchemaAction::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -1362,7 +1362,7 @@
         {
           "stableId": "System.Data.Common:System.Data.ParameterDirection::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -1424,7 +1424,7 @@
         {
           "stableId": "System.Data.Common:System.Data.Rule::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -1486,7 +1486,7 @@
         {
           "stableId": "System.Data.Common:System.Data.SchemaSerializationMode::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -1530,7 +1530,7 @@
         {
           "stableId": "System.Data.Common:System.Data.SchemaType::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -1574,7 +1574,7 @@
         {
           "stableId": "System.Data.Common:System.Data.SerializationFormat::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -1618,7 +1618,7 @@
         {
           "stableId": "System.Data.Common:System.Data.SqlDbType::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -1941,7 +1941,7 @@
         {
           "stableId": "System.Data.Common:System.Data.StatementType::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -2012,7 +2012,7 @@
         {
           "stableId": "System.Data.Common:System.Data.UpdateRowSource::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -2074,7 +2074,7 @@
         {
           "stableId": "System.Data.Common:System.Data.UpdateStatus::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -2136,7 +2136,7 @@
         {
           "stableId": "System.Data.Common:System.Data.XmlReadMode::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -2225,7 +2225,7 @@
         {
           "stableId": "System.Data.Common:System.Data.XmlWriteMode::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -2531,7 +2531,7 @@
         {
           "stableId": "System.Data.Common:System.Data.IColumnMappingCollection::get_Item(System.String):System.Object",
           "clrName": "get_Item",
-          "tsEmitName": "get_Item",
+          "tsEmitName": "getItem",
           "normalizedSignature": "get_Item|(System.String):System.Object|static=false",
           "provenance": "IndexerNormalized",
           "emitScope": "ClassSurface",
@@ -2547,7 +2547,7 @@
         {
           "stableId": "System.Data.Common:System.Data.IColumnMappingCollection::set_Item(System.String,System.Object):System.Void",
           "clrName": "set_Item",
-          "tsEmitName": "set_Item",
+          "tsEmitName": "setItem",
           "normalizedSignature": "set_Item|(System.String,System.Object):System.Void|static=false",
           "provenance": "IndexerNormalized",
           "emitScope": "ClassSurface",
@@ -2563,7 +2563,7 @@
         {
           "stableId": "System.Data.Common:System.Data.IColumnMappingCollection::get_Item(System.Int32):System.Object",
           "clrName": "get_Item",
-          "tsEmitName": "get_Item2",
+          "tsEmitName": "getItem2",
           "normalizedSignature": "get_Item|(System.Int32):System.Object|static=false",
           "provenance": "IndexerNormalized",
           "emitScope": "ClassSurface",
@@ -2579,7 +2579,7 @@
         {
           "stableId": "System.Data.Common:System.Data.IColumnMappingCollection::set_Item(System.Int32,System.Object):System.Void",
           "clrName": "set_Item",
-          "tsEmitName": "set_Item2",
+          "tsEmitName": "setItem2",
           "normalizedSignature": "set_Item|(System.Int32,System.Object):System.Void|static=false",
           "provenance": "IndexerNormalized",
           "emitScope": "ClassSurface",
@@ -3097,7 +3097,7 @@
         {
           "stableId": "System.Data.Common:System.Data.IDataParameterCollection::get_Item(System.String):System.Object",
           "clrName": "get_Item",
-          "tsEmitName": "get_Item",
+          "tsEmitName": "getItem",
           "normalizedSignature": "get_Item|(System.String):System.Object|static=false",
           "provenance": "IndexerNormalized",
           "emitScope": "ClassSurface",
@@ -3113,7 +3113,7 @@
         {
           "stableId": "System.Data.Common:System.Data.IDataParameterCollection::set_Item(System.String,System.Object):System.Void",
           "clrName": "set_Item",
-          "tsEmitName": "set_Item",
+          "tsEmitName": "setItem",
           "normalizedSignature": "set_Item|(System.String,System.Object):System.Void|static=false",
           "provenance": "IndexerNormalized",
           "emitScope": "ClassSurface",
@@ -3129,7 +3129,7 @@
         {
           "stableId": "System.Data.Common:System.Data.IDataParameterCollection::get_Item(System.Int32):System.Object",
           "clrName": "get_Item",
-          "tsEmitName": "get_Item2",
+          "tsEmitName": "getItem2",
           "normalizedSignature": "get_Item|(System.Int32):System.Object|static=false",
           "provenance": "IndexerNormalized",
           "emitScope": "ClassSurface",
@@ -3145,7 +3145,7 @@
         {
           "stableId": "System.Data.Common:System.Data.IDataParameterCollection::set_Item(System.Int32,System.Object):System.Void",
           "clrName": "set_Item",
-          "tsEmitName": "set_Item2",
+          "tsEmitName": "setItem2",
           "normalizedSignature": "set_Item|(System.Int32,System.Object):System.Void|static=false",
           "provenance": "IndexerNormalized",
           "emitScope": "ClassSurface",
@@ -3606,7 +3606,7 @@
         {
           "stableId": "System.Data.Common:System.Data.IDataReader::get_Item(System.Int32):System.Object",
           "clrName": "get_Item",
-          "tsEmitName": "get_Item",
+          "tsEmitName": "getItem",
           "normalizedSignature": "get_Item|(System.Int32):System.Object|static=false",
           "provenance": "IndexerNormalized",
           "emitScope": "ClassSurface",
@@ -3622,7 +3622,7 @@
         {
           "stableId": "System.Data.Common:System.Data.IDataReader::get_Item(System.String):System.Object",
           "clrName": "get_Item",
-          "tsEmitName": "get_Item2",
+          "tsEmitName": "getItem2",
           "normalizedSignature": "get_Item|(System.String):System.Object|static=false",
           "provenance": "IndexerNormalized",
           "emitScope": "ClassSurface",
@@ -4020,7 +4020,7 @@
         {
           "stableId": "System.Data.Common:System.Data.IDataRecord::get_Item(System.Int32):System.Object",
           "clrName": "get_Item",
-          "tsEmitName": "get_Item",
+          "tsEmitName": "getItem",
           "normalizedSignature": "get_Item|(System.Int32):System.Object|static=false",
           "provenance": "IndexerNormalized",
           "emitScope": "ClassSurface",
@@ -4036,7 +4036,7 @@
         {
           "stableId": "System.Data.Common:System.Data.IDataRecord::get_Item(System.String):System.Object",
           "clrName": "get_Item",
-          "tsEmitName": "get_Item2",
+          "tsEmitName": "getItem2",
           "normalizedSignature": "get_Item|(System.String):System.Object|static=false",
           "provenance": "IndexerNormalized",
           "emitScope": "ClassSurface",
@@ -5134,7 +5134,7 @@
         {
           "stableId": "System.Data.Common:System.Data.ITableMappingCollection::get_Item(System.String):System.Object",
           "clrName": "get_Item",
-          "tsEmitName": "get_Item",
+          "tsEmitName": "getItem",
           "normalizedSignature": "get_Item|(System.String):System.Object|static=false",
           "provenance": "IndexerNormalized",
           "emitScope": "ClassSurface",
@@ -5150,7 +5150,7 @@
         {
           "stableId": "System.Data.Common:System.Data.ITableMappingCollection::set_Item(System.String,System.Object):System.Void",
           "clrName": "set_Item",
-          "tsEmitName": "set_Item",
+          "tsEmitName": "setItem",
           "normalizedSignature": "set_Item|(System.String,System.Object):System.Void|static=false",
           "provenance": "IndexerNormalized",
           "emitScope": "ClassSurface",
@@ -5166,7 +5166,7 @@
         {
           "stableId": "System.Data.Common:System.Data.ITableMappingCollection::get_Item(System.Int32):System.Object",
           "clrName": "get_Item",
-          "tsEmitName": "get_Item2",
+          "tsEmitName": "getItem2",
           "normalizedSignature": "get_Item|(System.Int32):System.Object|static=false",
           "provenance": "IndexerNormalized",
           "emitScope": "ClassSurface",
@@ -5182,7 +5182,7 @@
         {
           "stableId": "System.Data.Common:System.Data.ITableMappingCollection::set_Item(System.Int32,System.Object):System.Void",
           "clrName": "set_Item",
-          "tsEmitName": "set_Item2",
+          "tsEmitName": "setItem2",
           "normalizedSignature": "set_Item|(System.Int32,System.Object):System.Void|static=false",
           "provenance": "IndexerNormalized",
           "emitScope": "ClassSurface",
@@ -5514,7 +5514,7 @@
         {
           "stableId": "System.Data.Common:System.Data.ConstraintCollection::CopyTo(System.Data.Constraint[],System.Int32):System.Void",
           "clrName": "CopyTo",
-          "tsEmitName": "copyTo",
+          "tsEmitName": "copyTo2",
           "normalizedSignature": "CopyTo|(System.Data.Constraint[],System.Int32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5627,7 +5627,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
           "clrName": "GetEnumerator",
-          "tsEmitName": "getEnumerator",
+          "tsEmitName": "getEnumerator$view",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -5644,7 +5644,7 @@
         {
           "stableId": "System.Data.Common:System.Data.ConstraintCollection::CopyTo(System.Array,System.Int32):System.Void",
           "clrName": "CopyTo",
-          "tsEmitName": "CopyTo",
+          "tsEmitName": "copyTo",
           "normalizedSignature": "CopyTo|(System.Array,System.Int32):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -5660,7 +5660,7 @@
         {
           "stableId": "System.Data.Common:System.Data.ConstraintCollection::GetEnumerator():System.Collections.IEnumerator",
           "clrName": "GetEnumerator",
-          "tsEmitName": "GetEnumerator",
+          "tsEmitName": "getEnumerator",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -5676,7 +5676,7 @@
         {
           "stableId": "System.Data.Common:System.Data.ConstraintCollection::get_Item(System.Int32):System.Data.Constraint",
           "clrName": "get_Item",
-          "tsEmitName": "get_Item",
+          "tsEmitName": "getItem",
           "normalizedSignature": "get_Item|(System.Int32):System.Data.Constraint|static=false",
           "provenance": "IndexerNormalized",
           "emitScope": "ClassSurface",
@@ -5692,7 +5692,7 @@
         {
           "stableId": "System.Data.Common:System.Data.ConstraintCollection::get_Item(System.String):System.Data.Constraint",
           "clrName": "get_Item",
-          "tsEmitName": "get_Item2",
+          "tsEmitName": "getItem2",
           "normalizedSignature": "get_Item|(System.String):System.Data.Constraint|static=false",
           "provenance": "IndexerNormalized",
           "emitScope": "ClassSurface",
@@ -5782,7 +5782,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "getObjectData",
+          "tsEmitName": "getObjectData$view",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -5799,7 +5799,7 @@
         {
           "stableId": "System.Data.Common:System.Data.ConstraintException::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData",
+          "tsEmitName": "getObjectData",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -5880,7 +5880,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "dispose",
+          "tsEmitName": "dispose$view",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -5897,7 +5897,7 @@
         {
           "stableId": "System.ComponentModel:System.IServiceProvider::GetService(System.Type):System.Object",
           "clrName": "GetService",
-          "tsEmitName": "getService",
+          "tsEmitName": "getService$view",
           "normalizedSignature": "GetService|(System.Type):System.Object|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -5914,7 +5914,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataColumn::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "Dispose",
+          "tsEmitName": "dispose",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -5930,7 +5930,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataColumn::GetService(System.Type):System.Object",
           "clrName": "GetService",
-          "tsEmitName": "GetService",
+          "tsEmitName": "getService",
           "normalizedSignature": "GetService|(System.Type):System.Object|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -6407,7 +6407,7 @@
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "clone",
+          "tsEmitName": "clone$view",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -6424,7 +6424,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "getObjectData",
+          "tsEmitName": "getObjectData$view",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -6441,7 +6441,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataColumnChangeEventHandler::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "Clone",
+          "tsEmitName": "clone",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -6457,7 +6457,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataColumnChangeEventHandler::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData",
+          "tsEmitName": "getObjectData",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -6640,7 +6640,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataColumnCollection::CopyTo(System.Data.DataColumn[],System.Int32):System.Void",
           "clrName": "CopyTo",
-          "tsEmitName": "copyTo",
+          "tsEmitName": "copyTo2",
           "normalizedSignature": "CopyTo|(System.Data.DataColumn[],System.Int32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6753,7 +6753,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
           "clrName": "GetEnumerator",
-          "tsEmitName": "getEnumerator",
+          "tsEmitName": "getEnumerator$view",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -6770,7 +6770,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataColumnCollection::CopyTo(System.Array,System.Int32):System.Void",
           "clrName": "CopyTo",
-          "tsEmitName": "CopyTo",
+          "tsEmitName": "copyTo",
           "normalizedSignature": "CopyTo|(System.Array,System.Int32):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -6786,7 +6786,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataColumnCollection::GetEnumerator():System.Collections.IEnumerator",
           "clrName": "GetEnumerator",
-          "tsEmitName": "GetEnumerator",
+          "tsEmitName": "getEnumerator",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -6802,7 +6802,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataColumnCollection::get_Item(System.Int32):System.Data.DataColumn",
           "clrName": "get_Item",
-          "tsEmitName": "get_Item",
+          "tsEmitName": "getItem",
           "normalizedSignature": "get_Item|(System.Int32):System.Data.DataColumn|static=false",
           "provenance": "IndexerNormalized",
           "emitScope": "ClassSurface",
@@ -6818,7 +6818,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataColumnCollection::get_Item(System.String):System.Data.DataColumn",
           "clrName": "get_Item",
-          "tsEmitName": "get_Item2",
+          "tsEmitName": "getItem2",
           "normalizedSignature": "get_Item|(System.String):System.Data.DataColumn|static=false",
           "provenance": "IndexerNormalized",
           "emitScope": "ClassSurface",
@@ -6908,7 +6908,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "getObjectData",
+          "tsEmitName": "getObjectData$view",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -6925,7 +6925,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataException::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData",
+          "tsEmitName": "getObjectData",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -7349,7 +7349,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataRelationCollection::CopyTo(System.Data.DataRelation[],System.Int32):System.Void",
           "clrName": "CopyTo",
-          "tsEmitName": "copyTo",
+          "tsEmitName": "copyTo2",
           "normalizedSignature": "CopyTo|(System.Data.DataRelation[],System.Int32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7478,7 +7478,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
           "clrName": "GetEnumerator",
-          "tsEmitName": "getEnumerator",
+          "tsEmitName": "getEnumerator$view",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -7495,7 +7495,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataRelationCollection::CopyTo(System.Array,System.Int32):System.Void",
           "clrName": "CopyTo",
-          "tsEmitName": "CopyTo",
+          "tsEmitName": "copyTo",
           "normalizedSignature": "CopyTo|(System.Array,System.Int32):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -7511,7 +7511,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataRelationCollection::GetEnumerator():System.Collections.IEnumerator",
           "clrName": "GetEnumerator",
-          "tsEmitName": "GetEnumerator",
+          "tsEmitName": "getEnumerator",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -7527,7 +7527,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataRelationCollection::get_Item(System.Int32):System.Data.DataRelation",
           "clrName": "get_Item",
-          "tsEmitName": "get_Item",
+          "tsEmitName": "getItem",
           "normalizedSignature": "get_Item|(System.Int32):System.Data.DataRelation|static=false",
           "provenance": "IndexerNormalized",
           "emitScope": "ClassSurface",
@@ -7543,7 +7543,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataRelationCollection::get_Item(System.String):System.Data.DataRelation",
           "clrName": "get_Item",
-          "tsEmitName": "get_Item2",
+          "tsEmitName": "getItem2",
           "normalizedSignature": "get_Item|(System.String):System.Data.DataRelation|static=false",
           "provenance": "IndexerNormalized",
           "emitScope": "ClassSurface",
@@ -8193,7 +8193,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataRow::get_Item(System.Int32):System.Object",
           "clrName": "get_Item",
-          "tsEmitName": "get_Item",
+          "tsEmitName": "getItem",
           "normalizedSignature": "get_Item|(System.Int32):System.Object|static=false",
           "provenance": "IndexerNormalized",
           "emitScope": "ClassSurface",
@@ -8209,7 +8209,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataRow::set_Item(System.Int32,System.Object):System.Void",
           "clrName": "set_Item",
-          "tsEmitName": "set_Item",
+          "tsEmitName": "setItem",
           "normalizedSignature": "set_Item|(System.Int32,System.Object):System.Void|static=false",
           "provenance": "IndexerNormalized",
           "emitScope": "ClassSurface",
@@ -8225,7 +8225,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataRow::get_Item(System.String):System.Object",
           "clrName": "get_Item",
-          "tsEmitName": "get_Item2",
+          "tsEmitName": "getItem2",
           "normalizedSignature": "get_Item|(System.String):System.Object|static=false",
           "provenance": "IndexerNormalized",
           "emitScope": "ClassSurface",
@@ -8241,7 +8241,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataRow::set_Item(System.String,System.Object):System.Void",
           "clrName": "set_Item",
-          "tsEmitName": "set_Item2",
+          "tsEmitName": "setItem2",
           "normalizedSignature": "set_Item|(System.String,System.Object):System.Void|static=false",
           "provenance": "IndexerNormalized",
           "emitScope": "ClassSurface",
@@ -8257,7 +8257,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataRow::get_Item(System.Data.DataColumn):System.Object",
           "clrName": "get_Item",
-          "tsEmitName": "get_Item3",
+          "tsEmitName": "getItem3",
           "normalizedSignature": "get_Item|(System.Data.DataColumn):System.Object|static=false",
           "provenance": "IndexerNormalized",
           "emitScope": "ClassSurface",
@@ -8273,7 +8273,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataRow::set_Item(System.Data.DataColumn,System.Object):System.Void",
           "clrName": "set_Item",
-          "tsEmitName": "set_Item3",
+          "tsEmitName": "setItem3",
           "normalizedSignature": "set_Item|(System.Data.DataColumn,System.Object):System.Void|static=false",
           "provenance": "IndexerNormalized",
           "emitScope": "ClassSurface",
@@ -8289,7 +8289,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataRow::get_Item(System.Int32,System.Data.DataRowVersion):System.Object",
           "clrName": "get_Item",
-          "tsEmitName": "get_Item4",
+          "tsEmitName": "getItem4",
           "normalizedSignature": "get_Item|(System.Int32,System.Data.DataRowVersion):System.Object|static=false",
           "provenance": "IndexerNormalized",
           "emitScope": "ClassSurface",
@@ -8305,7 +8305,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataRow::get_Item(System.String,System.Data.DataRowVersion):System.Object",
           "clrName": "get_Item",
-          "tsEmitName": "get_Item5",
+          "tsEmitName": "getItem5",
           "normalizedSignature": "get_Item|(System.String,System.Data.DataRowVersion):System.Object|static=false",
           "provenance": "IndexerNormalized",
           "emitScope": "ClassSurface",
@@ -8321,7 +8321,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataRow::get_Item(System.Data.DataColumn,System.Data.DataRowVersion):System.Object",
           "clrName": "get_Item",
-          "tsEmitName": "get_Item6",
+          "tsEmitName": "getItem6",
           "normalizedSignature": "get_Item|(System.Data.DataColumn,System.Data.DataRowVersion):System.Object|static=false",
           "provenance": "IndexerNormalized",
           "emitScope": "ClassSurface",
@@ -8547,7 +8547,7 @@
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "clone",
+          "tsEmitName": "clone$view",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -8564,7 +8564,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "getObjectData",
+          "tsEmitName": "getObjectData$view",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -8581,7 +8581,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataRowChangeEventHandler::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "Clone",
+          "tsEmitName": "clone",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -8597,7 +8597,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataRowChangeEventHandler::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData",
+          "tsEmitName": "getObjectData",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -9453,7 +9453,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataRowView::get_Item(System.Int32):System.Object",
           "clrName": "get_Item",
-          "tsEmitName": "get_Item",
+          "tsEmitName": "getItem",
           "normalizedSignature": "get_Item|(System.Int32):System.Object|static=false",
           "provenance": "IndexerNormalized",
           "emitScope": "ClassSurface",
@@ -9469,7 +9469,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataRowView::set_Item(System.Int32,System.Object):System.Void",
           "clrName": "set_Item",
-          "tsEmitName": "set_Item",
+          "tsEmitName": "setItem",
           "normalizedSignature": "set_Item|(System.Int32,System.Object):System.Void|static=false",
           "provenance": "IndexerNormalized",
           "emitScope": "ClassSurface",
@@ -9485,7 +9485,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataRowView::get_Item(System.String):System.Object",
           "clrName": "get_Item",
-          "tsEmitName": "get_Item2",
+          "tsEmitName": "getItem2",
           "normalizedSignature": "get_Item|(System.String):System.Object|static=false",
           "provenance": "IndexerNormalized",
           "emitScope": "ClassSurface",
@@ -9501,7 +9501,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataRowView::set_Item(System.String,System.Object):System.Void",
           "clrName": "set_Item",
-          "tsEmitName": "set_Item2",
+          "tsEmitName": "setItem2",
           "normalizedSignature": "set_Item|(System.String,System.Object):System.Void|static=false",
           "provenance": "IndexerNormalized",
           "emitScope": "ClassSurface",
@@ -10610,7 +10610,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "dispose",
+          "tsEmitName": "dispose$view",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -10627,7 +10627,7 @@
         {
           "stableId": "System.ComponentModel:System.IServiceProvider::GetService(System.Type):System.Object",
           "clrName": "GetService",
-          "tsEmitName": "getService",
+          "tsEmitName": "getService$view",
           "normalizedSignature": "GetService|(System.Type):System.Object|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -10746,7 +10746,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataSet::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "Dispose",
+          "tsEmitName": "dispose",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -10762,7 +10762,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataSet::GetService(System.Type):System.Object",
           "clrName": "GetService",
-          "tsEmitName": "GetService",
+          "tsEmitName": "getService",
           "normalizedSignature": "GetService|(System.Type):System.Object|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -12157,7 +12157,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "dispose",
+          "tsEmitName": "dispose$view",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -12174,7 +12174,7 @@
         {
           "stableId": "System.ComponentModel:System.IServiceProvider::GetService(System.Type):System.Object",
           "clrName": "GetService",
-          "tsEmitName": "getService",
+          "tsEmitName": "getService$view",
           "normalizedSignature": "GetService|(System.Type):System.Object|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -12293,7 +12293,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataTable::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "Dispose",
+          "tsEmitName": "dispose",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -12309,7 +12309,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataTable::GetService(System.Type):System.Object",
           "clrName": "GetService",
-          "tsEmitName": "GetService",
+          "tsEmitName": "getService",
           "normalizedSignature": "GetService|(System.Type):System.Object|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -12894,7 +12894,7 @@
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "clone",
+          "tsEmitName": "clone$view",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -12911,7 +12911,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "getObjectData",
+          "tsEmitName": "getObjectData$view",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -12928,7 +12928,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataTableClearEventHandler::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "Clone",
+          "tsEmitName": "clone",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -12944,7 +12944,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataTableClearEventHandler::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData",
+          "tsEmitName": "getObjectData",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -13127,7 +13127,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataTableCollection::CopyTo(System.Data.DataTable[],System.Int32):System.Void",
           "clrName": "CopyTo",
-          "tsEmitName": "copyTo",
+          "tsEmitName": "copyTo2",
           "normalizedSignature": "CopyTo|(System.Data.DataTable[],System.Int32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -13272,7 +13272,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
           "clrName": "GetEnumerator",
-          "tsEmitName": "getEnumerator",
+          "tsEmitName": "getEnumerator$view",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -13289,7 +13289,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataTableCollection::CopyTo(System.Array,System.Int32):System.Void",
           "clrName": "CopyTo",
-          "tsEmitName": "CopyTo",
+          "tsEmitName": "copyTo",
           "normalizedSignature": "CopyTo|(System.Array,System.Int32):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -13305,7 +13305,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataTableCollection::GetEnumerator():System.Collections.IEnumerator",
           "clrName": "GetEnumerator",
-          "tsEmitName": "GetEnumerator",
+          "tsEmitName": "getEnumerator",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -13321,7 +13321,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataTableCollection::get_Item(System.Int32):System.Data.DataTable",
           "clrName": "get_Item",
-          "tsEmitName": "get_Item",
+          "tsEmitName": "getItem",
           "normalizedSignature": "get_Item|(System.Int32):System.Data.DataTable|static=false",
           "provenance": "IndexerNormalized",
           "emitScope": "ClassSurface",
@@ -13337,7 +13337,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataTableCollection::get_Item(System.String):System.Data.DataTable",
           "clrName": "get_Item",
-          "tsEmitName": "get_Item2",
+          "tsEmitName": "getItem2",
           "normalizedSignature": "get_Item|(System.String):System.Data.DataTable|static=false",
           "provenance": "IndexerNormalized",
           "emitScope": "ClassSurface",
@@ -13353,7 +13353,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataTableCollection::get_Item(System.String,System.String):System.Data.DataTable",
           "clrName": "get_Item",
-          "tsEmitName": "get_Item3",
+          "tsEmitName": "getItem3",
           "normalizedSignature": "get_Item|(System.String,System.String):System.Data.DataTable|static=false",
           "provenance": "IndexerNormalized",
           "emitScope": "ClassSurface",
@@ -13536,7 +13536,7 @@
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "clone",
+          "tsEmitName": "clone$view",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -13553,7 +13553,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "getObjectData",
+          "tsEmitName": "getObjectData$view",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -13570,7 +13570,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataTableNewRowEventHandler::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "Clone",
+          "tsEmitName": "clone",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -13586,7 +13586,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataTableNewRowEventHandler::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData",
+          "tsEmitName": "getObjectData",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -14089,7 +14089,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "dispose",
+          "tsEmitName": "dispose$view",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -14106,7 +14106,7 @@
         {
           "stableId": "System.Data.Common:System.Data.IDataRecord::GetData(System.Int32):System.Data.IDataReader",
           "clrName": "GetData",
-          "tsEmitName": "getData",
+          "tsEmitName": "getData$view",
           "normalizedSignature": "GetData|(System.Int32):System.Data.IDataReader|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -14123,7 +14123,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IAsyncDisposable::DisposeAsync():System.Threading.Tasks.ValueTask",
           "clrName": "DisposeAsync",
-          "tsEmitName": "disposeAsync",
+          "tsEmitName": "disposeAsync$view",
           "normalizedSignature": "DisposeAsync|():System.Threading.Tasks.ValueTask|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -14514,7 +14514,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataTableReader::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "Dispose",
+          "tsEmitName": "dispose",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -14530,7 +14530,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataTableReader::DisposeAsync():System.Threading.Tasks.ValueTask",
           "clrName": "DisposeAsync",
-          "tsEmitName": "DisposeAsync",
+          "tsEmitName": "disposeAsync",
           "normalizedSignature": "DisposeAsync|():System.Threading.Tasks.ValueTask|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -14546,7 +14546,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataTableReader::GetData(System.Int32):System.Data.Common.DbDataReader",
           "clrName": "GetData",
-          "tsEmitName": "GetData",
+          "tsEmitName": "getData",
           "normalizedSignature": "GetData|(System.Int32):System.Data.Common.DbDataReader|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -14562,7 +14562,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataTableReader::GetData(System.Int32):System.Data.IDataReader",
           "clrName": "GetData",
-          "tsEmitName": "GetData2",
+          "tsEmitName": "getData2",
           "normalizedSignature": "GetData|(System.Int32):System.Data.IDataReader|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -14578,7 +14578,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataTableReader::get_Item(System.Int32):System.Object",
           "clrName": "get_Item",
-          "tsEmitName": "get_Item",
+          "tsEmitName": "getItem",
           "normalizedSignature": "get_Item|(System.Int32):System.Object|static=false",
           "provenance": "IndexerNormalized",
           "emitScope": "ClassSurface",
@@ -14594,7 +14594,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataTableReader::get_Item(System.String):System.Object",
           "clrName": "get_Item",
-          "tsEmitName": "get_Item2",
+          "tsEmitName": "getItem2",
           "normalizedSignature": "get_Item|(System.String):System.Object|static=false",
           "provenance": "IndexerNormalized",
           "emitScope": "ClassSurface",
@@ -15002,7 +15002,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataView::Equals(System.Data.DataView):System.Boolean",
           "clrName": "Equals",
-          "tsEmitName": "equals",
+          "tsEmitName": "equals2",
           "normalizedSignature": "Equals|(System.Data.DataView):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -15018,7 +15018,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "dispose",
+          "tsEmitName": "dispose$view",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -15035,7 +15035,7 @@
         {
           "stableId": "System.ComponentModel:System.IServiceProvider::GetService(System.Type):System.Object",
           "clrName": "GetService",
-          "tsEmitName": "getService",
+          "tsEmitName": "getService$view",
           "normalizedSignature": "GetService|(System.Type):System.Object|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -15358,7 +15358,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataView::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "Dispose",
+          "tsEmitName": "dispose",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -15374,7 +15374,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataView::Equals(System.Object):System.Boolean",
           "clrName": "Equals",
-          "tsEmitName": "Equals",
+          "tsEmitName": "equals",
           "normalizedSignature": "Equals|(System.Object):System.Boolean|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -15390,7 +15390,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataView::GetService(System.Type):System.Object",
           "clrName": "GetService",
-          "tsEmitName": "GetService",
+          "tsEmitName": "getService",
           "normalizedSignature": "GetService|(System.Type):System.Object|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -15971,7 +15971,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "dispose",
+          "tsEmitName": "dispose$view",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -15988,7 +15988,7 @@
         {
           "stableId": "System.ComponentModel:System.IServiceProvider::GetService(System.Type):System.Object",
           "clrName": "GetService",
-          "tsEmitName": "getService",
+          "tsEmitName": "getService$view",
           "normalizedSignature": "GetService|(System.Type):System.Object|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -16260,7 +16260,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataViewManager::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "Dispose",
+          "tsEmitName": "dispose",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -16276,7 +16276,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataViewManager::GetService(System.Type):System.Object",
           "clrName": "GetService",
-          "tsEmitName": "GetService",
+          "tsEmitName": "getService",
           "normalizedSignature": "GetService|(System.Type):System.Object|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -16803,7 +16803,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataViewSettingCollection::get_Item(System.Data.DataTable):System.Data.DataViewSetting",
           "clrName": "get_Item",
-          "tsEmitName": "get_Item",
+          "tsEmitName": "getItem",
           "normalizedSignature": "get_Item|(System.Data.DataTable):System.Data.DataViewSetting|static=false",
           "provenance": "IndexerNormalized",
           "emitScope": "ClassSurface",
@@ -16819,7 +16819,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataViewSettingCollection::set_Item(System.Data.DataTable,System.Data.DataViewSetting):System.Void",
           "clrName": "set_Item",
-          "tsEmitName": "set_Item",
+          "tsEmitName": "setItem",
           "normalizedSignature": "set_Item|(System.Data.DataTable,System.Data.DataViewSetting):System.Void|static=false",
           "provenance": "IndexerNormalized",
           "emitScope": "ClassSurface",
@@ -16835,7 +16835,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataViewSettingCollection::get_Item(System.String):System.Data.DataViewSetting",
           "clrName": "get_Item",
-          "tsEmitName": "get_Item2",
+          "tsEmitName": "getItem2",
           "normalizedSignature": "get_Item|(System.String):System.Data.DataViewSetting|static=false",
           "provenance": "IndexerNormalized",
           "emitScope": "ClassSurface",
@@ -16851,7 +16851,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataViewSettingCollection::get_Item(System.Int32):System.Data.DataViewSetting",
           "clrName": "get_Item",
-          "tsEmitName": "get_Item3",
+          "tsEmitName": "getItem3",
           "normalizedSignature": "get_Item|(System.Int32):System.Data.DataViewSetting|static=false",
           "provenance": "IndexerNormalized",
           "emitScope": "ClassSurface",
@@ -16867,7 +16867,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataViewSettingCollection::set_Item(System.Int32,System.Data.DataViewSetting):System.Void",
           "clrName": "set_Item",
-          "tsEmitName": "set_Item2",
+          "tsEmitName": "setItem2",
           "normalizedSignature": "set_Item|(System.Int32,System.Data.DataViewSetting):System.Void|static=false",
           "provenance": "IndexerNormalized",
           "emitScope": "ClassSurface",
@@ -17143,7 +17143,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "getObjectData",
+          "tsEmitName": "getObjectData$view",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -17160,7 +17160,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DeletedRowInaccessibleException::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData",
+          "tsEmitName": "getObjectData",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -17209,7 +17209,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "getObjectData",
+          "tsEmitName": "getObjectData$view",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -17226,7 +17226,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DuplicateNameException::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData",
+          "tsEmitName": "getObjectData",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -17309,7 +17309,7 @@
         {
           "stableId": "System.Data.Common:System.Data.EnumerableRowCollection\u00601::GetEnumerator():IEnumerator_1",
           "clrName": "GetEnumerator",
-          "tsEmitName": "getEnumerator",
+          "tsEmitName": "getEnumerator2",
           "normalizedSignature": "GetEnumerator|():IEnumerator_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -17359,7 +17359,7 @@
         {
           "stableId": "System.Data.Common:System.Data.EnumerableRowCollection\u00601::GetEnumerator():System.Collections.IEnumerator",
           "clrName": "GetEnumerator",
-          "tsEmitName": "GetEnumerator",
+          "tsEmitName": "getEnumerator",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -17392,7 +17392,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "getObjectData",
+          "tsEmitName": "getObjectData$view",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -17409,7 +17409,7 @@
         {
           "stableId": "System.Data.Common:System.Data.EvaluateException::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData",
+          "tsEmitName": "getObjectData",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -17589,7 +17589,7 @@
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "clone",
+          "tsEmitName": "clone$view",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -17606,7 +17606,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "getObjectData",
+          "tsEmitName": "getObjectData$view",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -17623,7 +17623,7 @@
         {
           "stableId": "System.Data.Common:System.Data.FillErrorEventHandler::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "Clone",
+          "tsEmitName": "clone",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -17639,7 +17639,7 @@
         {
           "stableId": "System.Data.Common:System.Data.FillErrorEventHandler::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData",
+          "tsEmitName": "getObjectData",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -17864,7 +17864,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "getObjectData",
+          "tsEmitName": "getObjectData$view",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -17881,7 +17881,7 @@
         {
           "stableId": "System.Data.Common:System.Data.InRowChangingEventException::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData",
+          "tsEmitName": "getObjectData",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -18128,7 +18128,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "getObjectData",
+          "tsEmitName": "getObjectData$view",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -18145,7 +18145,7 @@
         {
           "stableId": "System.Data.Common:System.Data.InvalidConstraintException::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData",
+          "tsEmitName": "getObjectData",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -18194,7 +18194,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "getObjectData",
+          "tsEmitName": "getObjectData$view",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -18211,7 +18211,7 @@
         {
           "stableId": "System.Data.Common:System.Data.InvalidExpressionException::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData",
+          "tsEmitName": "getObjectData",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -18361,7 +18361,7 @@
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "clone",
+          "tsEmitName": "clone$view",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -18378,7 +18378,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "getObjectData",
+          "tsEmitName": "getObjectData$view",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -18395,7 +18395,7 @@
         {
           "stableId": "System.Data.Common:System.Data.MergeFailedEventHandler::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "Clone",
+          "tsEmitName": "clone",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -18411,7 +18411,7 @@
         {
           "stableId": "System.Data.Common:System.Data.MergeFailedEventHandler::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData",
+          "tsEmitName": "getObjectData",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -18450,7 +18450,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "getObjectData",
+          "tsEmitName": "getObjectData$view",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -18467,7 +18467,7 @@
         {
           "stableId": "System.Data.Common:System.Data.MissingPrimaryKeyException::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData",
+          "tsEmitName": "getObjectData",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -18516,7 +18516,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "getObjectData",
+          "tsEmitName": "getObjectData$view",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -18533,7 +18533,7 @@
         {
           "stableId": "System.Data.Common:System.Data.NoNullAllowedException::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData",
+          "tsEmitName": "getObjectData",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -18582,7 +18582,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
           "clrName": "GetEnumerator",
-          "tsEmitName": "getEnumerator",
+          "tsEmitName": "getEnumerator$view",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -18599,7 +18599,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IEnumerable\u00601::GetEnumerator():IEnumerator_1",
           "clrName": "GetEnumerator",
-          "tsEmitName": "getEnumerator",
+          "tsEmitName": "getEnumerator$view",
           "normalizedSignature": "GetEnumerator|():IEnumerator_1|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -18616,7 +18616,7 @@
         {
           "stableId": "System.Data.Common:System.Data.OrderedEnumerableRowCollection\u00601::GetEnumerator():System.Collections.Generic.IEnumerator_1",
           "clrName": "GetEnumerator",
-          "tsEmitName": "GetEnumerator",
+          "tsEmitName": "getEnumerator",
           "normalizedSignature": "GetEnumerator|():System.Collections.Generic.IEnumerator_1|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -18632,7 +18632,7 @@
         {
           "stableId": "System.Data.Common:System.Data.OrderedEnumerableRowCollection\u00601::GetEnumerator():System.Collections.IEnumerator",
           "clrName": "GetEnumerator",
-          "tsEmitName": "GetEnumerator4",
+          "tsEmitName": "getEnumerator4",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -18681,7 +18681,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IDictionary::Contains(System.Object):System.Boolean",
           "clrName": "Contains",
-          "tsEmitName": "contains",
+          "tsEmitName": "contains$view",
           "normalizedSignature": "Contains|(System.Object):System.Boolean|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -18698,7 +18698,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IDictionary::Add(System.Object,System.Object):System.Void",
           "clrName": "Add",
-          "tsEmitName": "add",
+          "tsEmitName": "add$view",
           "normalizedSignature": "Add|(System.Object,System.Object):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -18715,7 +18715,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IDictionary::Clear():System.Void",
           "clrName": "Clear",
-          "tsEmitName": "clear",
+          "tsEmitName": "clear$view",
           "normalizedSignature": "Clear|():System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -18732,7 +18732,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IDictionary::GetEnumerator():System.Collections.IDictionaryEnumerator",
           "clrName": "GetEnumerator",
-          "tsEmitName": "getEnumerator",
+          "tsEmitName": "getEnumerator$view",
           "normalizedSignature": "GetEnumerator|():System.Collections.IDictionaryEnumerator|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -18749,7 +18749,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IDictionary::Remove(System.Object):System.Void",
           "clrName": "Remove",
-          "tsEmitName": "remove",
+          "tsEmitName": "remove$view",
           "normalizedSignature": "Remove|(System.Object):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -18766,7 +18766,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.ICollection::CopyTo(System.Array,System.Int32):System.Void",
           "clrName": "CopyTo",
-          "tsEmitName": "copyTo",
+          "tsEmitName": "copyTo$view",
           "normalizedSignature": "CopyTo|(System.Array,System.Int32):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -18783,7 +18783,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
           "clrName": "GetEnumerator",
-          "tsEmitName": "getEnumerator",
+          "tsEmitName": "getEnumerator$view",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -18800,7 +18800,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "getObjectData",
+          "tsEmitName": "getObjectData$view",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -18817,7 +18817,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.IDeserializationCallback::OnDeserialization(System.Object):System.Void",
           "clrName": "OnDeserialization",
-          "tsEmitName": "onDeserialization",
+          "tsEmitName": "onDeserialization$view",
           "normalizedSignature": "OnDeserialization|(System.Object):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -18851,7 +18851,7 @@
         {
           "stableId": "System.Data.Common:System.Data.PropertyCollection::Add(System.Object,System.Object):System.Void",
           "clrName": "Add",
-          "tsEmitName": "Add",
+          "tsEmitName": "add",
           "normalizedSignature": "Add|(System.Object,System.Object):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -18867,7 +18867,7 @@
         {
           "stableId": "System.Data.Common:System.Data.PropertyCollection::Clear():System.Void",
           "clrName": "Clear",
-          "tsEmitName": "Clear",
+          "tsEmitName": "clear",
           "normalizedSignature": "Clear|():System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -18883,7 +18883,7 @@
         {
           "stableId": "System.Data.Common:System.Data.PropertyCollection::Contains(System.Object):System.Boolean",
           "clrName": "Contains",
-          "tsEmitName": "Contains",
+          "tsEmitName": "contains",
           "normalizedSignature": "Contains|(System.Object):System.Boolean|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -18899,7 +18899,7 @@
         {
           "stableId": "System.Data.Common:System.Data.PropertyCollection::CopyTo(System.Array,System.Int32):System.Void",
           "clrName": "CopyTo",
-          "tsEmitName": "CopyTo",
+          "tsEmitName": "copyTo",
           "normalizedSignature": "CopyTo|(System.Array,System.Int32):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -18915,7 +18915,7 @@
         {
           "stableId": "System.Data.Common:System.Data.PropertyCollection::GetEnumerator():System.Collections.IDictionaryEnumerator",
           "clrName": "GetEnumerator",
-          "tsEmitName": "GetEnumerator",
+          "tsEmitName": "getEnumerator",
           "normalizedSignature": "GetEnumerator|():System.Collections.IDictionaryEnumerator|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -18931,7 +18931,7 @@
         {
           "stableId": "System.Data.Common:System.Data.PropertyCollection::GetEnumerator():System.Collections.IEnumerator",
           "clrName": "GetEnumerator",
-          "tsEmitName": "GetEnumerator2",
+          "tsEmitName": "getEnumerator2",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -18947,7 +18947,7 @@
         {
           "stableId": "System.Data.Common:System.Data.PropertyCollection::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData",
+          "tsEmitName": "getObjectData",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -18963,7 +18963,7 @@
         {
           "stableId": "System.Data.Common:System.Data.PropertyCollection::OnDeserialization(System.Object):System.Void",
           "clrName": "OnDeserialization",
-          "tsEmitName": "OnDeserialization",
+          "tsEmitName": "onDeserialization",
           "normalizedSignature": "OnDeserialization|(System.Object):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -18979,7 +18979,7 @@
         {
           "stableId": "System.Data.Common:System.Data.PropertyCollection::Remove(System.Object):System.Void",
           "clrName": "Remove",
-          "tsEmitName": "Remove",
+          "tsEmitName": "remove",
           "normalizedSignature": "Remove|(System.Object):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -19131,7 +19131,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "getObjectData",
+          "tsEmitName": "getObjectData$view",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -19148,7 +19148,7 @@
         {
           "stableId": "System.Data.Common:System.Data.ReadOnlyException::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData",
+          "tsEmitName": "getObjectData",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -19197,7 +19197,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "getObjectData",
+          "tsEmitName": "getObjectData$view",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -19214,7 +19214,7 @@
         {
           "stableId": "System.Data.Common:System.Data.RowNotInTableException::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData",
+          "tsEmitName": "getObjectData",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -19364,7 +19364,7 @@
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "clone",
+          "tsEmitName": "clone$view",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -19381,7 +19381,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "getObjectData",
+          "tsEmitName": "getObjectData$view",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -19398,7 +19398,7 @@
         {
           "stableId": "System.Data.Common:System.Data.StateChangeEventHandler::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "Clone",
+          "tsEmitName": "clone",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -19414,7 +19414,7 @@
         {
           "stableId": "System.Data.Common:System.Data.StateChangeEventHandler::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData",
+          "tsEmitName": "getObjectData",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -19539,7 +19539,7 @@
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "clone",
+          "tsEmitName": "clone$view",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -19556,7 +19556,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "getObjectData",
+          "tsEmitName": "getObjectData$view",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -19573,7 +19573,7 @@
         {
           "stableId": "System.Data.Common:System.Data.StatementCompletedEventHandler::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "Clone",
+          "tsEmitName": "clone",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -19589,7 +19589,7 @@
         {
           "stableId": "System.Data.Common:System.Data.StatementCompletedEventHandler::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData",
+          "tsEmitName": "getObjectData",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -19628,7 +19628,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "getObjectData",
+          "tsEmitName": "getObjectData$view",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -19645,7 +19645,7 @@
         {
           "stableId": "System.Data.Common:System.Data.StrongTypingException::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData",
+          "tsEmitName": "getObjectData",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -19694,7 +19694,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "getObjectData",
+          "tsEmitName": "getObjectData$view",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -19711,7 +19711,7 @@
         {
           "stableId": "System.Data.Common:System.Data.SyntaxErrorException::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData",
+          "tsEmitName": "getObjectData",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -19792,7 +19792,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "dispose",
+          "tsEmitName": "dispose$view",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -19809,7 +19809,7 @@
         {
           "stableId": "System.ComponentModel:System.IServiceProvider::GetService(System.Type):System.Object",
           "clrName": "GetService",
-          "tsEmitName": "getService",
+          "tsEmitName": "getService$view",
           "normalizedSignature": "GetService|(System.Type):System.Object|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -19826,7 +19826,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.IListSource::GetList():System.Collections.IList",
           "clrName": "GetList",
-          "tsEmitName": "getList",
+          "tsEmitName": "getList$view",
           "normalizedSignature": "GetList|():System.Collections.IList|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -19843,7 +19843,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "getObjectData",
+          "tsEmitName": "getObjectData$view",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -19860,7 +19860,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.IXmlSerializable::GetSchema():System.Xml.Schema.XmlSchema",
           "clrName": "GetSchema",
-          "tsEmitName": "getSchema",
+          "tsEmitName": "getSchema$view",
           "normalizedSignature": "GetSchema|():System.Xml.Schema.XmlSchema|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -19877,7 +19877,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.IXmlSerializable::ReadXml(System.Xml.XmlReader):System.Void",
           "clrName": "ReadXml",
-          "tsEmitName": "readXml",
+          "tsEmitName": "readXml$view",
           "normalizedSignature": "ReadXml|(System.Xml.XmlReader):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -19894,7 +19894,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.IXmlSerializable::WriteXml(System.Xml.XmlWriter):System.Void",
           "clrName": "WriteXml",
-          "tsEmitName": "writeXml",
+          "tsEmitName": "writeXml$view",
           "normalizedSignature": "WriteXml|(System.Xml.XmlWriter):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -19928,7 +19928,7 @@
         {
           "stableId": "System.ComponentModel.Primitives:System.ComponentModel.ISupportInitialize::BeginInit():System.Void",
           "clrName": "BeginInit",
-          "tsEmitName": "beginInit",
+          "tsEmitName": "beginInit$view",
           "normalizedSignature": "BeginInit|():System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -19962,7 +19962,7 @@
         {
           "stableId": "System.Data.Common:System.Data.TypedTableBase\u00601::BeginInit():System.Void",
           "clrName": "BeginInit",
-          "tsEmitName": "BeginInit",
+          "tsEmitName": "beginInit",
           "normalizedSignature": "BeginInit|():System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -19978,7 +19978,7 @@
         {
           "stableId": "System.Data.Common:System.Data.TypedTableBase\u00601::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "Dispose",
+          "tsEmitName": "dispose",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -19994,7 +19994,7 @@
         {
           "stableId": "System.Data.Common:System.Data.TypedTableBase\u00601::GetList():System.Collections.IList",
           "clrName": "GetList",
-          "tsEmitName": "GetList",
+          "tsEmitName": "getList",
           "normalizedSignature": "GetList|():System.Collections.IList|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -20010,7 +20010,7 @@
         {
           "stableId": "System.Data.Common:System.Data.TypedTableBase\u00601::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData",
+          "tsEmitName": "getObjectData",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -20026,7 +20026,7 @@
         {
           "stableId": "System.Data.Common:System.Data.TypedTableBase\u00601::GetSchema():System.Xml.Schema.XmlSchema",
           "clrName": "GetSchema",
-          "tsEmitName": "GetSchema",
+          "tsEmitName": "getSchema",
           "normalizedSignature": "GetSchema|():System.Xml.Schema.XmlSchema|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -20042,7 +20042,7 @@
         {
           "stableId": "System.Data.Common:System.Data.TypedTableBase\u00601::GetService(System.Type):System.Object",
           "clrName": "GetService",
-          "tsEmitName": "GetService",
+          "tsEmitName": "getService",
           "normalizedSignature": "GetService|(System.Type):System.Object|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -20058,7 +20058,7 @@
         {
           "stableId": "System.Data.Common:System.Data.TypedTableBase\u00601::ReadXml(System.IO.Stream):System.Data.XmlReadMode",
           "clrName": "ReadXml",
-          "tsEmitName": "ReadXml",
+          "tsEmitName": "readXml",
           "normalizedSignature": "ReadXml|(System.IO.Stream):System.Data.XmlReadMode|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -20074,7 +20074,7 @@
         {
           "stableId": "System.Data.Common:System.Data.TypedTableBase\u00601::ReadXml(System.IO.TextReader):System.Data.XmlReadMode",
           "clrName": "ReadXml",
-          "tsEmitName": "ReadXml2",
+          "tsEmitName": "readXml2",
           "normalizedSignature": "ReadXml|(System.IO.TextReader):System.Data.XmlReadMode|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -20090,7 +20090,7 @@
         {
           "stableId": "System.Data.Common:System.Data.TypedTableBase\u00601::ReadXml(System.String):System.Data.XmlReadMode",
           "clrName": "ReadXml",
-          "tsEmitName": "ReadXml3",
+          "tsEmitName": "readXml3",
           "normalizedSignature": "ReadXml|(System.String):System.Data.XmlReadMode|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -20106,7 +20106,7 @@
         {
           "stableId": "System.Data.Common:System.Data.TypedTableBase\u00601::ReadXml(System.Xml.XmlReader):System.Data.XmlReadMode",
           "clrName": "ReadXml",
-          "tsEmitName": "ReadXml4",
+          "tsEmitName": "readXml4",
           "normalizedSignature": "ReadXml|(System.Xml.XmlReader):System.Data.XmlReadMode|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -20122,7 +20122,7 @@
         {
           "stableId": "System.Data.Common:System.Data.TypedTableBase\u00601::ReadXml(System.Xml.XmlReader):System.Void",
           "clrName": "ReadXml",
-          "tsEmitName": "ReadXml5",
+          "tsEmitName": "readXml5",
           "normalizedSignature": "ReadXml|(System.Xml.XmlReader):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -20138,7 +20138,7 @@
         {
           "stableId": "System.Data.Common:System.Data.TypedTableBase\u00601::WriteXml(System.IO.Stream):System.Void",
           "clrName": "WriteXml",
-          "tsEmitName": "WriteXml",
+          "tsEmitName": "writeXml",
           "normalizedSignature": "WriteXml|(System.IO.Stream):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -20154,7 +20154,7 @@
         {
           "stableId": "System.Data.Common:System.Data.TypedTableBase\u00601::WriteXml(System.IO.Stream,System.Boolean):System.Void",
           "clrName": "WriteXml",
-          "tsEmitName": "WriteXml2",
+          "tsEmitName": "writeXml2",
           "normalizedSignature": "WriteXml|(System.IO.Stream,System.Boolean):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -20170,7 +20170,7 @@
         {
           "stableId": "System.Data.Common:System.Data.TypedTableBase\u00601::WriteXml(System.IO.TextWriter):System.Void",
           "clrName": "WriteXml",
-          "tsEmitName": "WriteXml3",
+          "tsEmitName": "writeXml3",
           "normalizedSignature": "WriteXml|(System.IO.TextWriter):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -20186,7 +20186,7 @@
         {
           "stableId": "System.Data.Common:System.Data.TypedTableBase\u00601::WriteXml(System.IO.TextWriter,System.Boolean):System.Void",
           "clrName": "WriteXml",
-          "tsEmitName": "WriteXml4",
+          "tsEmitName": "writeXml4",
           "normalizedSignature": "WriteXml|(System.IO.TextWriter,System.Boolean):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -20202,7 +20202,7 @@
         {
           "stableId": "System.Data.Common:System.Data.TypedTableBase\u00601::WriteXml(System.Xml.XmlWriter):System.Void",
           "clrName": "WriteXml",
-          "tsEmitName": "WriteXml17",
+          "tsEmitName": "writeXml17",
           "normalizedSignature": "WriteXml|(System.Xml.XmlWriter):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -20218,7 +20218,7 @@
         {
           "stableId": "System.Data.Common:System.Data.TypedTableBase\u00601::WriteXml(System.Xml.XmlWriter,System.Boolean):System.Void",
           "clrName": "WriteXml",
-          "tsEmitName": "WriteXml6",
+          "tsEmitName": "writeXml6",
           "normalizedSignature": "WriteXml|(System.Xml.XmlWriter,System.Boolean):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -20234,7 +20234,7 @@
         {
           "stableId": "System.Data.Common:System.Data.TypedTableBase\u00601::WriteXml(System.String):System.Void",
           "clrName": "WriteXml",
-          "tsEmitName": "WriteXml7",
+          "tsEmitName": "writeXml7",
           "normalizedSignature": "WriteXml|(System.String):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -20250,7 +20250,7 @@
         {
           "stableId": "System.Data.Common:System.Data.TypedTableBase\u00601::WriteXml(System.String,System.Boolean):System.Void",
           "clrName": "WriteXml",
-          "tsEmitName": "WriteXml8",
+          "tsEmitName": "writeXml8",
           "normalizedSignature": "WriteXml|(System.String,System.Boolean):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -20266,7 +20266,7 @@
         {
           "stableId": "System.Data.Common:System.Data.TypedTableBase\u00601::WriteXml(System.IO.Stream,System.Data.XmlWriteMode):System.Void",
           "clrName": "WriteXml",
-          "tsEmitName": "WriteXml9",
+          "tsEmitName": "writeXml9",
           "normalizedSignature": "WriteXml|(System.IO.Stream,System.Data.XmlWriteMode):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -20282,7 +20282,7 @@
         {
           "stableId": "System.Data.Common:System.Data.TypedTableBase\u00601::WriteXml(System.IO.Stream,System.Data.XmlWriteMode,System.Boolean):System.Void",
           "clrName": "WriteXml",
-          "tsEmitName": "WriteXml10",
+          "tsEmitName": "writeXml10",
           "normalizedSignature": "WriteXml|(System.IO.Stream,System.Data.XmlWriteMode,System.Boolean):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -20298,7 +20298,7 @@
         {
           "stableId": "System.Data.Common:System.Data.TypedTableBase\u00601::WriteXml(System.IO.TextWriter,System.Data.XmlWriteMode):System.Void",
           "clrName": "WriteXml",
-          "tsEmitName": "WriteXml11",
+          "tsEmitName": "writeXml11",
           "normalizedSignature": "WriteXml|(System.IO.TextWriter,System.Data.XmlWriteMode):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -20314,7 +20314,7 @@
         {
           "stableId": "System.Data.Common:System.Data.TypedTableBase\u00601::WriteXml(System.IO.TextWriter,System.Data.XmlWriteMode,System.Boolean):System.Void",
           "clrName": "WriteXml",
-          "tsEmitName": "WriteXml12",
+          "tsEmitName": "writeXml12",
           "normalizedSignature": "WriteXml|(System.IO.TextWriter,System.Data.XmlWriteMode,System.Boolean):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -20330,7 +20330,7 @@
         {
           "stableId": "System.Data.Common:System.Data.TypedTableBase\u00601::WriteXml(System.Xml.XmlWriter,System.Data.XmlWriteMode):System.Void",
           "clrName": "WriteXml",
-          "tsEmitName": "WriteXml13",
+          "tsEmitName": "writeXml13",
           "normalizedSignature": "WriteXml|(System.Xml.XmlWriter,System.Data.XmlWriteMode):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -20346,7 +20346,7 @@
         {
           "stableId": "System.Data.Common:System.Data.TypedTableBase\u00601::WriteXml(System.Xml.XmlWriter,System.Data.XmlWriteMode,System.Boolean):System.Void",
           "clrName": "WriteXml",
-          "tsEmitName": "WriteXml14",
+          "tsEmitName": "writeXml14",
           "normalizedSignature": "WriteXml|(System.Xml.XmlWriter,System.Data.XmlWriteMode,System.Boolean):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -20362,7 +20362,7 @@
         {
           "stableId": "System.Data.Common:System.Data.TypedTableBase\u00601::WriteXml(System.String,System.Data.XmlWriteMode):System.Void",
           "clrName": "WriteXml",
-          "tsEmitName": "WriteXml15",
+          "tsEmitName": "writeXml15",
           "normalizedSignature": "WriteXml|(System.String,System.Data.XmlWriteMode):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -20378,7 +20378,7 @@
         {
           "stableId": "System.Data.Common:System.Data.TypedTableBase\u00601::WriteXml(System.String,System.Data.XmlWriteMode,System.Boolean):System.Void",
           "clrName": "WriteXml",
-          "tsEmitName": "WriteXml16",
+          "tsEmitName": "writeXml16",
           "normalizedSignature": "WriteXml|(System.String,System.Data.XmlWriteMode,System.Boolean):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -20601,7 +20601,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "getObjectData",
+          "tsEmitName": "getObjectData$view",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -20618,7 +20618,7 @@
         {
           "stableId": "System.Data.Common:System.Data.VersionNotFoundException::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData",
+          "tsEmitName": "getObjectData",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",

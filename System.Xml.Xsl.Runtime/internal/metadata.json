@@ -20,7 +20,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.IteratorResult::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -73,7 +73,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.SetIteratorResult::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -3330,7 +3330,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IList\u00601::IndexOf(T):System.Int32",
           "clrName": "IndexOf",
-          "tsEmitName": "indexOf",
+          "tsEmitName": "indexOf$view",
           "normalizedSignature": "IndexOf|(T):System.Int32|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3347,7 +3347,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IList\u00601::Insert(System.Int32,T):System.Void",
           "clrName": "Insert",
-          "tsEmitName": "insert",
+          "tsEmitName": "insert$view",
           "normalizedSignature": "Insert|(System.Int32,T):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3364,7 +3364,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IList\u00601::RemoveAt(System.Int32):System.Void",
           "clrName": "RemoveAt",
-          "tsEmitName": "removeAt",
+          "tsEmitName": "removeAt$view",
           "normalizedSignature": "RemoveAt|(System.Int32):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3381,7 +3381,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::Add(T):System.Void",
           "clrName": "Add",
-          "tsEmitName": "add",
+          "tsEmitName": "add$view",
           "normalizedSignature": "Add|(T):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3398,7 +3398,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::Clear():System.Void",
           "clrName": "Clear",
-          "tsEmitName": "clear",
+          "tsEmitName": "clear$view",
           "normalizedSignature": "Clear|():System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3415,7 +3415,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::Contains(T):System.Boolean",
           "clrName": "Contains",
-          "tsEmitName": "contains",
+          "tsEmitName": "contains$view",
           "normalizedSignature": "Contains|(T):System.Boolean|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3432,7 +3432,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::CopyTo(T[],System.Int32):System.Void",
           "clrName": "CopyTo",
-          "tsEmitName": "copyTo",
+          "tsEmitName": "copyTo$view",
           "normalizedSignature": "CopyTo|(T[],System.Int32):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3449,7 +3449,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IEnumerable\u00601::GetEnumerator():IEnumerator_1",
           "clrName": "GetEnumerator",
-          "tsEmitName": "getEnumerator",
+          "tsEmitName": "getEnumerator$view",
           "normalizedSignature": "GetEnumerator|():IEnumerator_1|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3466,7 +3466,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
           "clrName": "GetEnumerator",
-          "tsEmitName": "getEnumerator",
+          "tsEmitName": "getEnumerator$view",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3483,7 +3483,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Add(System.Object):System.Int32",
           "clrName": "Add",
-          "tsEmitName": "add",
+          "tsEmitName": "add$view",
           "normalizedSignature": "Add|(System.Object):System.Int32|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3500,7 +3500,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Contains(System.Object):System.Boolean",
           "clrName": "Contains",
-          "tsEmitName": "contains",
+          "tsEmitName": "contains$view",
           "normalizedSignature": "Contains|(System.Object):System.Boolean|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3517,7 +3517,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Insert(System.Int32,System.Object):System.Void",
           "clrName": "Insert",
-          "tsEmitName": "insert",
+          "tsEmitName": "insert$view",
           "normalizedSignature": "Insert|(System.Int32,System.Object):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3534,7 +3534,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Remove(System.Object):System.Void",
           "clrName": "Remove",
-          "tsEmitName": "remove",
+          "tsEmitName": "remove$view",
           "normalizedSignature": "Remove|(System.Object):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3551,7 +3551,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.ICollection::CopyTo(System.Array,System.Int32):System.Void",
           "clrName": "CopyTo",
-          "tsEmitName": "copyTo",
+          "tsEmitName": "copyTo$view",
           "normalizedSignature": "CopyTo|(System.Array,System.Int32):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3568,7 +3568,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Clear():System.Void",
           "clrName": "Clear",
-          "tsEmitName": "clear",
+          "tsEmitName": "clear$view",
           "normalizedSignature": "Clear|():System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3585,7 +3585,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::RemoveAt(System.Int32):System.Void",
           "clrName": "RemoveAt",
-          "tsEmitName": "removeAt",
+          "tsEmitName": "removeAt$view",
           "normalizedSignature": "RemoveAt|(System.Int32):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3602,7 +3602,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryItemSequence::Add(T):System.Void",
           "clrName": "Add",
-          "tsEmitName": "Add",
+          "tsEmitName": "add",
           "normalizedSignature": "Add|(T):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -3618,7 +3618,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryItemSequence::Add(System.Object):System.Int32",
           "clrName": "Add",
-          "tsEmitName": "Add2",
+          "tsEmitName": "add2",
           "normalizedSignature": "Add|(System.Object):System.Int32|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -3634,7 +3634,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryItemSequence::Clear():System.Void",
           "clrName": "Clear",
-          "tsEmitName": "Clear",
+          "tsEmitName": "clear",
           "normalizedSignature": "Clear|():System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -3650,7 +3650,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryItemSequence::Contains(T):System.Boolean",
           "clrName": "Contains",
-          "tsEmitName": "Contains",
+          "tsEmitName": "contains",
           "normalizedSignature": "Contains|(T):System.Boolean|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -3666,7 +3666,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryItemSequence::Contains(System.Object):System.Boolean",
           "clrName": "Contains",
-          "tsEmitName": "Contains2",
+          "tsEmitName": "contains2",
           "normalizedSignature": "Contains|(System.Object):System.Boolean|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -3682,7 +3682,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryItemSequence::CopyTo(T[],System.Int32):System.Void",
           "clrName": "CopyTo",
-          "tsEmitName": "CopyTo",
+          "tsEmitName": "copyTo",
           "normalizedSignature": "CopyTo|(T[],System.Int32):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -3698,7 +3698,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryItemSequence::CopyTo(System.Array,System.Int32):System.Void",
           "clrName": "CopyTo",
-          "tsEmitName": "CopyTo2",
+          "tsEmitName": "copyTo2",
           "normalizedSignature": "CopyTo|(System.Array,System.Int32):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -3714,7 +3714,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryItemSequence::GetEnumerator():System.Collections.Generic.IEnumerator_1",
           "clrName": "GetEnumerator",
-          "tsEmitName": "GetEnumerator",
+          "tsEmitName": "getEnumerator",
           "normalizedSignature": "GetEnumerator|():System.Collections.Generic.IEnumerator_1|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -3730,7 +3730,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryItemSequence::GetEnumerator():System.Collections.IEnumerator",
           "clrName": "GetEnumerator",
-          "tsEmitName": "GetEnumerator2",
+          "tsEmitName": "getEnumerator2",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -3746,7 +3746,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryItemSequence::IndexOf(T):System.Int32",
           "clrName": "IndexOf",
-          "tsEmitName": "IndexOf",
+          "tsEmitName": "indexOf",
           "normalizedSignature": "IndexOf|(T):System.Int32|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -3762,7 +3762,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryItemSequence::Insert(System.Int32,T):System.Void",
           "clrName": "Insert",
-          "tsEmitName": "Insert",
+          "tsEmitName": "insert",
           "normalizedSignature": "Insert|(System.Int32,T):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -3778,7 +3778,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryItemSequence::Insert(System.Int32,System.Object):System.Void",
           "clrName": "Insert",
-          "tsEmitName": "Insert2",
+          "tsEmitName": "insert2",
           "normalizedSignature": "Insert|(System.Int32,System.Object):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -3794,7 +3794,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryItemSequence::Remove(T):System.Boolean",
           "clrName": "Remove",
-          "tsEmitName": "Remove",
+          "tsEmitName": "remove",
           "normalizedSignature": "Remove|(T):System.Boolean|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -3810,7 +3810,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryItemSequence::Remove(System.Object):System.Void",
           "clrName": "Remove",
-          "tsEmitName": "Remove2",
+          "tsEmitName": "remove2",
           "normalizedSignature": "Remove|(System.Object):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -3826,7 +3826,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryItemSequence::RemoveAt(System.Int32):System.Void",
           "clrName": "RemoveAt",
-          "tsEmitName": "RemoveAt",
+          "tsEmitName": "removeAt",
           "normalizedSignature": "RemoveAt|(System.Int32):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -4062,7 +4062,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IList\u00601::IndexOf(T):System.Int32",
           "clrName": "IndexOf",
-          "tsEmitName": "indexOf",
+          "tsEmitName": "indexOf$view",
           "normalizedSignature": "IndexOf|(T):System.Int32|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -4079,7 +4079,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IList\u00601::Insert(System.Int32,T):System.Void",
           "clrName": "Insert",
-          "tsEmitName": "insert",
+          "tsEmitName": "insert$view",
           "normalizedSignature": "Insert|(System.Int32,T):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -4096,7 +4096,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IList\u00601::RemoveAt(System.Int32):System.Void",
           "clrName": "RemoveAt",
-          "tsEmitName": "removeAt",
+          "tsEmitName": "removeAt$view",
           "normalizedSignature": "RemoveAt|(System.Int32):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -4113,7 +4113,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::Add(T):System.Void",
           "clrName": "Add",
-          "tsEmitName": "add",
+          "tsEmitName": "add$view",
           "normalizedSignature": "Add|(T):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -4130,7 +4130,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::Clear():System.Void",
           "clrName": "Clear",
-          "tsEmitName": "clear",
+          "tsEmitName": "clear$view",
           "normalizedSignature": "Clear|():System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -4147,7 +4147,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::Contains(T):System.Boolean",
           "clrName": "Contains",
-          "tsEmitName": "contains",
+          "tsEmitName": "contains$view",
           "normalizedSignature": "Contains|(T):System.Boolean|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -4164,7 +4164,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::CopyTo(T[],System.Int32):System.Void",
           "clrName": "CopyTo",
-          "tsEmitName": "copyTo",
+          "tsEmitName": "copyTo$view",
           "normalizedSignature": "CopyTo|(T[],System.Int32):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -4181,7 +4181,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IEnumerable\u00601::GetEnumerator():IEnumerator_1",
           "clrName": "GetEnumerator",
-          "tsEmitName": "getEnumerator",
+          "tsEmitName": "getEnumerator$view",
           "normalizedSignature": "GetEnumerator|():IEnumerator_1|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -4198,7 +4198,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
           "clrName": "GetEnumerator",
-          "tsEmitName": "getEnumerator",
+          "tsEmitName": "getEnumerator$view",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -4215,7 +4215,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Add(System.Object):System.Int32",
           "clrName": "Add",
-          "tsEmitName": "add",
+          "tsEmitName": "add$view",
           "normalizedSignature": "Add|(System.Object):System.Int32|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -4232,7 +4232,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Contains(System.Object):System.Boolean",
           "clrName": "Contains",
-          "tsEmitName": "contains",
+          "tsEmitName": "contains$view",
           "normalizedSignature": "Contains|(System.Object):System.Boolean|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -4249,7 +4249,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Insert(System.Int32,System.Object):System.Void",
           "clrName": "Insert",
-          "tsEmitName": "insert",
+          "tsEmitName": "insert$view",
           "normalizedSignature": "Insert|(System.Int32,System.Object):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -4266,7 +4266,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Remove(System.Object):System.Void",
           "clrName": "Remove",
-          "tsEmitName": "remove",
+          "tsEmitName": "remove$view",
           "normalizedSignature": "Remove|(System.Object):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -4283,7 +4283,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.ICollection::CopyTo(System.Array,System.Int32):System.Void",
           "clrName": "CopyTo",
-          "tsEmitName": "copyTo",
+          "tsEmitName": "copyTo$view",
           "normalizedSignature": "CopyTo|(System.Array,System.Int32):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -4300,7 +4300,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Clear():System.Void",
           "clrName": "Clear",
-          "tsEmitName": "clear",
+          "tsEmitName": "clear$view",
           "normalizedSignature": "Clear|():System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -4317,7 +4317,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::RemoveAt(System.Int32):System.Void",
           "clrName": "RemoveAt",
-          "tsEmitName": "removeAt",
+          "tsEmitName": "removeAt$view",
           "normalizedSignature": "RemoveAt|(System.Int32):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -4334,7 +4334,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryNodeSequence::Add(T):System.Void",
           "clrName": "Add",
-          "tsEmitName": "Add",
+          "tsEmitName": "add",
           "normalizedSignature": "Add|(T):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -4350,7 +4350,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryNodeSequence::Add(System.Object):System.Int32",
           "clrName": "Add",
-          "tsEmitName": "Add2",
+          "tsEmitName": "add2",
           "normalizedSignature": "Add|(System.Object):System.Int32|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -4366,7 +4366,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryNodeSequence::Clear():System.Void",
           "clrName": "Clear",
-          "tsEmitName": "Clear",
+          "tsEmitName": "clear",
           "normalizedSignature": "Clear|():System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -4382,7 +4382,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryNodeSequence::Contains(T):System.Boolean",
           "clrName": "Contains",
-          "tsEmitName": "Contains",
+          "tsEmitName": "contains",
           "normalizedSignature": "Contains|(T):System.Boolean|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -4398,7 +4398,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryNodeSequence::Contains(System.Object):System.Boolean",
           "clrName": "Contains",
-          "tsEmitName": "Contains2",
+          "tsEmitName": "contains2",
           "normalizedSignature": "Contains|(System.Object):System.Boolean|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -4414,7 +4414,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryNodeSequence::CopyTo(T[],System.Int32):System.Void",
           "clrName": "CopyTo",
-          "tsEmitName": "CopyTo",
+          "tsEmitName": "copyTo",
           "normalizedSignature": "CopyTo|(T[],System.Int32):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -4430,7 +4430,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryNodeSequence::CopyTo(System.Array,System.Int32):System.Void",
           "clrName": "CopyTo",
-          "tsEmitName": "CopyTo2",
+          "tsEmitName": "copyTo2",
           "normalizedSignature": "CopyTo|(System.Array,System.Int32):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -4446,7 +4446,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryNodeSequence::GetEnumerator():System.Collections.Generic.IEnumerator_1",
           "clrName": "GetEnumerator",
-          "tsEmitName": "GetEnumerator",
+          "tsEmitName": "getEnumerator",
           "normalizedSignature": "GetEnumerator|():System.Collections.Generic.IEnumerator_1|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -4462,7 +4462,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryNodeSequence::GetEnumerator():System.Collections.IEnumerator",
           "clrName": "GetEnumerator",
-          "tsEmitName": "GetEnumerator2",
+          "tsEmitName": "getEnumerator2",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -4478,7 +4478,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryNodeSequence::IndexOf(T):System.Int32",
           "clrName": "IndexOf",
-          "tsEmitName": "IndexOf",
+          "tsEmitName": "indexOf",
           "normalizedSignature": "IndexOf|(T):System.Int32|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -4494,7 +4494,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryNodeSequence::Insert(System.Int32,T):System.Void",
           "clrName": "Insert",
-          "tsEmitName": "Insert",
+          "tsEmitName": "insert",
           "normalizedSignature": "Insert|(System.Int32,T):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -4510,7 +4510,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryNodeSequence::Insert(System.Int32,System.Object):System.Void",
           "clrName": "Insert",
-          "tsEmitName": "Insert2",
+          "tsEmitName": "insert2",
           "normalizedSignature": "Insert|(System.Int32,System.Object):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -4526,7 +4526,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryNodeSequence::Remove(T):System.Boolean",
           "clrName": "Remove",
-          "tsEmitName": "Remove",
+          "tsEmitName": "remove",
           "normalizedSignature": "Remove|(T):System.Boolean|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -4542,7 +4542,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryNodeSequence::Remove(System.Object):System.Void",
           "clrName": "Remove",
-          "tsEmitName": "Remove2",
+          "tsEmitName": "remove2",
           "normalizedSignature": "Remove|(System.Object):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -4558,7 +4558,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryNodeSequence::RemoveAt(System.Int32):System.Void",
           "clrName": "RemoveAt",
-          "tsEmitName": "RemoveAt",
+          "tsEmitName": "removeAt",
           "normalizedSignature": "RemoveAt|(System.Int32):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -4819,7 +4819,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryOutput::WriteStartElement(System.String,System.String,System.String):System.Void",
           "clrName": "WriteStartElement",
-          "tsEmitName": "writeStartElement",
+          "tsEmitName": "writeStartElement3",
           "normalizedSignature": "WriteStartElement|(System.String,System.String,System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4867,7 +4867,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryOutput::WriteStartAttribute(System.String,System.String,System.String):System.Void",
           "clrName": "WriteStartAttribute",
-          "tsEmitName": "writeStartAttribute",
+          "tsEmitName": "writeStartAttribute3",
           "normalizedSignature": "WriteStartAttribute|(System.String,System.String,System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5763,7 +5763,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "dispose",
+          "tsEmitName": "dispose$view",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -5780,7 +5780,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IAsyncDisposable::DisposeAsync():System.Threading.Tasks.ValueTask",
           "clrName": "DisposeAsync",
-          "tsEmitName": "disposeAsync",
+          "tsEmitName": "disposeAsync$view",
           "normalizedSignature": "DisposeAsync|():System.Threading.Tasks.ValueTask|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -5797,7 +5797,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryOutput::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "Dispose",
+          "tsEmitName": "dispose",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -5813,7 +5813,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryOutput::DisposeAsync():System.Threading.Tasks.ValueTask",
           "clrName": "DisposeAsync",
-          "tsEmitName": "DisposeAsync",
+          "tsEmitName": "disposeAsync",
           "normalizedSignature": "DisposeAsync|():System.Threading.Tasks.ValueTask|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -5829,7 +5829,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryOutput::WriteStartAttribute(System.String,System.String):System.Void",
           "clrName": "WriteStartAttribute",
-          "tsEmitName": "WriteStartAttribute",
+          "tsEmitName": "writeStartAttribute",
           "normalizedSignature": "WriteStartAttribute|(System.String,System.String):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -5845,7 +5845,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryOutput::WriteStartAttribute(System.String):System.Void",
           "clrName": "WriteStartAttribute",
-          "tsEmitName": "WriteStartAttribute2",
+          "tsEmitName": "writeStartAttribute2",
           "normalizedSignature": "WriteStartAttribute|(System.String):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -5861,7 +5861,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryOutput::WriteStartElement(System.String,System.String):System.Void",
           "clrName": "WriteStartElement",
-          "tsEmitName": "WriteStartElement",
+          "tsEmitName": "writeStartElement",
           "normalizedSignature": "WriteStartElement|(System.String,System.String):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -5877,7 +5877,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryOutput::WriteStartElement(System.String):System.Void",
           "clrName": "WriteStartElement",
-          "tsEmitName": "WriteStartElement2",
+          "tsEmitName": "writeStartElement2",
           "normalizedSignature": "WriteStartElement|(System.String):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",

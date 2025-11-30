@@ -20,7 +20,7 @@
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.LoadOptions::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -82,7 +82,7 @@
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.ReaderOptions::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -126,7 +126,7 @@
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.SaveOptions::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -179,7 +179,7 @@
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XObjectChange::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -287,7 +287,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.IXmlLineInfo::HasLineInfo():System.Boolean",
           "clrName": "HasLineInfo",
-          "tsEmitName": "hasLineInfo",
+          "tsEmitName": "hasLineInfo$view",
           "normalizedSignature": "HasLineInfo|():System.Boolean|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -304,7 +304,7 @@
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XAttribute::HasLineInfo():System.Boolean",
           "clrName": "HasLineInfo",
-          "tsEmitName": "HasLineInfo",
+          "tsEmitName": "hasLineInfo",
           "normalizedSignature": "HasLineInfo|():System.Boolean|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -518,7 +518,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.IXmlLineInfo::HasLineInfo():System.Boolean",
           "clrName": "HasLineInfo",
-          "tsEmitName": "hasLineInfo",
+          "tsEmitName": "hasLineInfo$view",
           "normalizedSignature": "HasLineInfo|():System.Boolean|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -535,7 +535,7 @@
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XCData::HasLineInfo():System.Boolean",
           "clrName": "HasLineInfo",
-          "tsEmitName": "HasLineInfo",
+          "tsEmitName": "hasLineInfo",
           "normalizedSignature": "HasLineInfo|():System.Boolean|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -659,7 +659,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.IXmlLineInfo::HasLineInfo():System.Boolean",
           "clrName": "HasLineInfo",
-          "tsEmitName": "hasLineInfo",
+          "tsEmitName": "hasLineInfo$view",
           "normalizedSignature": "HasLineInfo|():System.Boolean|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -676,7 +676,7 @@
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XComment::HasLineInfo():System.Boolean",
           "clrName": "HasLineInfo",
-          "tsEmitName": "HasLineInfo",
+          "tsEmitName": "hasLineInfo",
           "normalizedSignature": "HasLineInfo|():System.Boolean|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -1023,7 +1023,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.IXmlLineInfo::HasLineInfo():System.Boolean",
           "clrName": "HasLineInfo",
-          "tsEmitName": "hasLineInfo",
+          "tsEmitName": "hasLineInfo$view",
           "normalizedSignature": "HasLineInfo|():System.Boolean|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -1040,7 +1040,7 @@
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XContainer::HasLineInfo():System.Boolean",
           "clrName": "HasLineInfo",
-          "tsEmitName": "HasLineInfo",
+          "tsEmitName": "hasLineInfo",
           "normalizedSignature": "HasLineInfo|():System.Boolean|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -1626,7 +1626,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.IXmlLineInfo::HasLineInfo():System.Boolean",
           "clrName": "HasLineInfo",
-          "tsEmitName": "hasLineInfo",
+          "tsEmitName": "hasLineInfo$view",
           "normalizedSignature": "HasLineInfo|():System.Boolean|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -1643,7 +1643,7 @@
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XDocument::HasLineInfo():System.Boolean",
           "clrName": "HasLineInfo",
-          "tsEmitName": "HasLineInfo",
+          "tsEmitName": "hasLineInfo",
           "normalizedSignature": "HasLineInfo|():System.Boolean|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -1822,7 +1822,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.IXmlLineInfo::HasLineInfo():System.Boolean",
           "clrName": "HasLineInfo",
-          "tsEmitName": "hasLineInfo",
+          "tsEmitName": "hasLineInfo$view",
           "normalizedSignature": "HasLineInfo|():System.Boolean|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -1839,7 +1839,7 @@
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XDocumentType::HasLineInfo():System.Boolean",
           "clrName": "HasLineInfo",
-          "tsEmitName": "HasLineInfo",
+          "tsEmitName": "hasLineInfo",
           "normalizedSignature": "HasLineInfo|():System.Boolean|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -2711,7 +2711,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.IXmlLineInfo::HasLineInfo():System.Boolean",
           "clrName": "HasLineInfo",
-          "tsEmitName": "hasLineInfo",
+          "tsEmitName": "hasLineInfo$view",
           "normalizedSignature": "HasLineInfo|():System.Boolean|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -2779,7 +2779,7 @@
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XElement::HasLineInfo():System.Boolean",
           "clrName": "HasLineInfo",
-          "tsEmitName": "HasLineInfo",
+          "tsEmitName": "hasLineInfo",
           "normalizedSignature": "HasLineInfo|():System.Boolean|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -3773,7 +3773,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.IXmlLineInfo::HasLineInfo():System.Boolean",
           "clrName": "HasLineInfo",
-          "tsEmitName": "hasLineInfo",
+          "tsEmitName": "hasLineInfo$view",
           "normalizedSignature": "HasLineInfo|():System.Boolean|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3790,7 +3790,7 @@
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XNode::HasLineInfo():System.Boolean",
           "clrName": "HasLineInfo",
-          "tsEmitName": "HasLineInfo",
+          "tsEmitName": "hasLineInfo",
           "normalizedSignature": "HasLineInfo|():System.Boolean|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -4473,7 +4473,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.IXmlLineInfo::HasLineInfo():System.Boolean",
           "clrName": "HasLineInfo",
-          "tsEmitName": "hasLineInfo",
+          "tsEmitName": "hasLineInfo$view",
           "normalizedSignature": "HasLineInfo|():System.Boolean|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -4490,7 +4490,7 @@
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XProcessingInstruction::HasLineInfo():System.Boolean",
           "clrName": "HasLineInfo",
-          "tsEmitName": "HasLineInfo",
+          "tsEmitName": "hasLineInfo",
           "normalizedSignature": "HasLineInfo|():System.Boolean|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -4885,7 +4885,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.IXmlLineInfo::HasLineInfo():System.Boolean",
           "clrName": "HasLineInfo",
-          "tsEmitName": "hasLineInfo",
+          "tsEmitName": "hasLineInfo$view",
           "normalizedSignature": "HasLineInfo|():System.Boolean|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -4902,7 +4902,7 @@
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XText::HasLineInfo():System.Boolean",
           "clrName": "HasLineInfo",
-          "tsEmitName": "HasLineInfo",
+          "tsEmitName": "hasLineInfo",
           "normalizedSignature": "HasLineInfo|():System.Boolean|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",

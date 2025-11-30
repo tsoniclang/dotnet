@@ -103,7 +103,7 @@ export class DataAdapter$instance extends System_ComponentModel_Internal.Compone
     missingSchemaAction: MissingSchemaAction;
     returnProviderSpecificTypes: boolean;
     readonly tableMappings: DataTableMappingCollection | ITableMappingCollection;
-    Dispose(): void;
+    dispose(): void;
     fill(dataSet: DataSet): int;
     fillSchema(dataSet: DataSet, schemaType: SchemaType): DataTable[];
     getFillParameters(): IDataParameter[];
@@ -119,6 +119,8 @@ export interface __DataAdapter$views {
     As_IDataAdapter(): System_Data_Internal.IDataAdapter$instance;
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
+
+export interface DataAdapter$instance extends System_ComponentModel_Internal.IComponent$instance {}
 
 export type DataAdapter = DataAdapter$instance & __DataAdapter$views;
 
@@ -156,8 +158,8 @@ export class DataColumnMappingCollection$instance extends System_Internal.Marsha
     contains(value: unknown): boolean;
     copyTo(array: ClrArray, index: int): void;
     copyTo(array: DataColumnMapping[], index: int): void;
-    get_Item(index: int): DataColumnMapping;
-    get_Item(sourceColumn: string): DataColumnMapping;
+    getItem(index: int): DataColumnMapping;
+    getItem(sourceColumn: string): DataColumnMapping;
     getByDataSetColumn(value: string): DataColumnMapping;
     getEnumerator(): IEnumerator;
     indexOf(value: unknown): int;
@@ -169,8 +171,8 @@ export class DataColumnMappingCollection$instance extends System_Internal.Marsha
     remove(value: DataColumnMapping): void;
     removeAt(index: int): void;
     removeAt(sourceColumn: string): void;
-    set_Item(index: int, value: DataColumnMapping): void;
-    set_Item(sourceColumn: string, value: DataColumnMapping): void;
+    setItem(index: int, value: DataColumnMapping): void;
+    setItem(sourceColumn: string, value: DataColumnMapping): void;
     static getColumnMappingBySchemaAction(columnMappings: DataColumnMappingCollection, sourceColumn: string, mappingAction: MissingMappingAction): DataColumnMapping;
     static getDataColumn(columnMappings: DataColumnMappingCollection, sourceColumn: string, dataType: Type, dataTable: DataTable, mappingAction: MissingMappingAction, schemaAction: MissingSchemaAction): DataColumn;
 }
@@ -222,8 +224,8 @@ export class DataTableMappingCollection$instance extends System_Internal.Marshal
     contains(value: unknown): boolean;
     copyTo(array: ClrArray, index: int): void;
     copyTo(array: DataTableMapping[], index: int): void;
-    get_Item(index: int): DataTableMapping;
-    get_Item(sourceTable: string): DataTableMapping;
+    getItem(index: int): DataTableMapping;
+    getItem(sourceTable: string): DataTableMapping;
     getByDataSetTable(dataSetTable: string): DataTableMapping;
     getEnumerator(): IEnumerator;
     indexOf(value: unknown): int;
@@ -235,8 +237,8 @@ export class DataTableMappingCollection$instance extends System_Internal.Marshal
     remove(value: DataTableMapping): void;
     removeAt(index: int): void;
     removeAt(sourceTable: string): void;
-    set_Item(index: int, value: DataTableMapping): void;
-    set_Item(sourceTable: string, value: DataTableMapping): void;
+    setItem(index: int, value: DataTableMapping): void;
+    setItem(sourceTable: string, value: DataTableMapping): void;
     static getTableMappingBySchemaAction(tableMappings: DataTableMappingCollection, sourceTable: string, dataSetTable: string, mappingAction: MissingMappingAction): DataTableMapping;
 }
 
@@ -361,7 +363,7 @@ export abstract class DbCommand$instance extends System_ComponentModel_Internal.
     updatedRowSource: UpdateRowSource;
     abstract cancel(): void;
     createParameter(): DbParameter;
-    Dispose(): void;
+    dispose(): void;
     disposeAsync(): ValueTask;
     abstract executeNonQuery(): int;
     executeNonQueryAsync(): Task_1<CLROf<int>>;
@@ -387,7 +389,7 @@ export interface __DbCommand$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
 
-export interface DbCommand$instance extends System_Internal.IAsyncDisposable$instance {}
+export interface DbCommand$instance extends System_ComponentModel_Internal.IComponent$instance, System_Internal.IAsyncDisposable$instance {}
 
 export type DbCommand = DbCommand$instance & __DbCommand$views;
 
@@ -401,7 +403,7 @@ export abstract class DbCommandBuilder$instance extends System_ComponentModel_In
     quoteSuffix: string;
     schemaSeparator: string;
     setAllValues: boolean;
-    Dispose(): void;
+    dispose(): void;
     getDeleteCommand(): DbCommand;
     getDeleteCommand(useColumnsForParameterNames: boolean): DbCommand;
     getInsertCommand(): DbCommand;
@@ -418,6 +420,8 @@ export interface __DbCommandBuilder$views {
     As_IComponent(): System_ComponentModel_Internal.IComponent$instance;
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
+
+export interface DbCommandBuilder$instance extends System_ComponentModel_Internal.IComponent$instance {}
 
 export type DbCommandBuilder = DbCommandBuilder$instance & __DbCommandBuilder$views;
 
@@ -440,7 +444,7 @@ export abstract class DbConnection$instance extends System_ComponentModel_Intern
     closeAsync(): Task;
     createBatch(): DbBatch;
     createCommand(): DbCommand;
-    Dispose(): void;
+    dispose(): void;
     disposeAsync(): ValueTask;
     enlistTransaction(transaction: Transaction): void;
     getSchema(): DataTable;
@@ -462,7 +466,7 @@ export interface __DbConnection$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
 
-export interface DbConnection$instance extends System_Internal.IAsyncDisposable$instance {}
+export interface DbConnection$instance extends System_ComponentModel_Internal.IComponent$instance, System_Internal.IAsyncDisposable$instance {}
 
 export type DbConnection = DbConnection$instance & __DbConnection$views;
 
@@ -486,8 +490,8 @@ export class DbConnectionStringBuilder$instance {
     shouldSerialize(keyword: string): boolean;
     toString(): string;
     tryGetValue(keyword: string, value: { value: ref<unknown> }): boolean;
-    static appendKeyValuePair(builder: StringBuilder, keyword: string, value: string, useOdbcRules: boolean): void;
-    static appendKeyValuePair(builder: StringBuilder, keyword: string, value: string): void;
+    static appendKeyValuePair2(builder: StringBuilder, keyword: string, value: string, useOdbcRules: boolean): void;
+    static appendKeyValuePair2(builder: StringBuilder, keyword: string, value: string): void;
 }
 
 
@@ -509,7 +513,7 @@ export abstract class DbDataAdapter$instance extends DataAdapter$instance {
     selectCommand: DbCommand | IDbCommand;
     updateBatchSize: int;
     updateCommand: DbCommand | IDbCommand;
-    Dispose(): void;
+    dispose(): void;
     fill(dataSet: DataSet): int;
     fillSchema(dataSet: DataSet, schemaType: SchemaType): DataTable[];
     getFillParameters(): IDataParameter[];
@@ -542,8 +546,8 @@ export abstract class DbDataReader$instance extends System_Internal.MarshalByRef
     closeAsync(): Task;
     dispose(): void;
     disposeAsync(): ValueTask;
-    get_Item(ordinal: int): unknown;
-    get_Item(name: string): unknown;
+    getItem(ordinal: int): unknown;
+    getItem(name: string): unknown;
     abstract getBoolean(ordinal: int): boolean;
     abstract getByte(ordinal: int): byte;
     abstract getBytes(ordinal: int, dataOffset: long, buffer: byte[], bufferOffset: int, length: int): long;
@@ -604,8 +608,8 @@ export type DbDataReader = DbDataReader$instance & __DbDataReader$views;
 
 export abstract class DbDataRecord$instance {
     readonly fieldCount: int;
-    get_Item(i: int): unknown;
-    get_Item(name: string): unknown;
+    getItem(i: int): unknown;
+    getItem(name: string): unknown;
     abstract getBoolean(i: int): boolean;
     abstract getByte(i: int): byte;
     abstract getBytes(i: int, dataIndex: long, buffer: byte[], bufferIndex: int, length: int): long;
@@ -694,15 +698,13 @@ export abstract class DbException$instance extends System_Runtime_InteropService
     readonly batchCommand: DbBatchCommand;
     readonly isTransient: boolean;
     readonly sqlState: string;
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
 export interface __DbException$views {
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
-
-export interface DbException$instance extends System_Runtime_Serialization_Internal.ISerializable$instance {}
 
 export type DbException = DbException$instance & __DbException$views;
 
@@ -743,8 +745,8 @@ export abstract class DbParameterCollection$instance extends System_Internal.Mar
     abstract contains(value: unknown): boolean;
     abstract contains(value: string): boolean;
     abstract copyTo(array: ClrArray, index: int): void;
-    get_Item(index: int): DbParameter;
-    get_Item(parameterName: string): DbParameter;
+    getItem(index: int): DbParameter;
+    getItem(parameterName: string): DbParameter;
     abstract getEnumerator(): IEnumerator;
     abstract indexOf(value: unknown): int;
     abstract indexOf(parameterName: string): int;
@@ -752,8 +754,8 @@ export abstract class DbParameterCollection$instance extends System_Internal.Mar
     abstract remove(value: unknown): void;
     abstract removeAt(index: int): void;
     abstract removeAt(parameterName: string): void;
-    set_Item(index: int, value: DbParameter): void;
-    set_Item(parameterName: string, value: DbParameter): void;
+    setItem(index: int, value: DbParameter): void;
+    setItem(parameterName: string, value: DbParameter): void;
 }
 
 
@@ -924,14 +926,14 @@ export abstract class DbMetaDataColumnNames$instance {
 export type DbMetaDataColumnNames = DbMetaDataColumnNames$instance;
 
 export abstract class DbProviderFactories$instance {
-    static getFactory(connection: DbConnection): DbProviderFactory;
-    static getFactory(providerRow: DataRow): DbProviderFactory;
-    static getFactory(providerInvariantName: string): DbProviderFactory;
+    static getFactory3(connection: DbConnection): DbProviderFactory;
+    static getFactory3(providerRow: DataRow): DbProviderFactory;
+    static getFactory3(providerInvariantName: string): DbProviderFactory;
     static getFactoryClasses(): DataTable;
     static getProviderInvariantNames(): IEnumerable_1<CLROf<string>>;
-    static registerFactory(providerInvariantName: string, factory: DbProviderFactory): void;
-    static registerFactory(providerInvariantName: string, factoryTypeAssemblyQualifiedName: string): void;
-    static registerFactory(providerInvariantName: string, providerFactoryClass: Type): void;
+    static registerFactory3(providerInvariantName: string, factory: DbProviderFactory): void;
+    static registerFactory3(providerInvariantName: string, factoryTypeAssemblyQualifiedName: string): void;
+    static registerFactory3(providerInvariantName: string, providerFactoryClass: Type): void;
     static tryGetFactory(providerInvariantName: string, factory: { value: ref<DbProviderFactory> }): boolean;
     static unregisterFactory(providerInvariantName: string): boolean;
 }

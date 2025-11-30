@@ -382,10 +382,10 @@ export class WindowsIdentity$instance extends System_Security_Claims_Internal.Cl
     static getCurrent(): WindowsIdentity;
     static getCurrent(ifImpersonating: boolean): WindowsIdentity;
     static getCurrent(desiredAccess: TokenAccessLevels): WindowsIdentity;
-    static runImpersonated<T>(safeAccessTokenHandle: SafeAccessTokenHandle, func: Func_1<T>): T;
-    static runImpersonated(safeAccessTokenHandle: SafeAccessTokenHandle, action: Action): void;
-    static runImpersonatedAsync<T>(safeAccessTokenHandle: SafeAccessTokenHandle, func: Func_1<Task_1<T>>): Task_1<T>;
-    static runImpersonatedAsync(safeAccessTokenHandle: SafeAccessTokenHandle, func: Func_1<Task>): Task;
+    static runImpersonated2<T>(safeAccessTokenHandle: SafeAccessTokenHandle, func: Func_1<T>): T;
+    static runImpersonated2(safeAccessTokenHandle: SafeAccessTokenHandle, action: Action): void;
+    static runImpersonatedAsync2<T>(safeAccessTokenHandle: SafeAccessTokenHandle, func: Func_1<Task_1<T>>): Task_1<T>;
+    static runImpersonatedAsync2(safeAccessTokenHandle: SafeAccessTokenHandle, func: Func_1<Task>): Task;
 }
 
 

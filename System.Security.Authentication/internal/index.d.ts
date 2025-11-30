@@ -86,15 +86,13 @@ export class AuthenticationException$instance extends System_Internal.SystemExce
     constructor();
     constructor(message: string);
     constructor(message: string, innerException: Exception);
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
 export interface __AuthenticationException$views {
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
-
-export interface AuthenticationException$instance extends System_Runtime_Serialization_Internal.ISerializable$instance {}
 
 export type AuthenticationException = AuthenticationException$instance & __AuthenticationException$views;
 
@@ -103,15 +101,13 @@ export class InvalidCredentialException$instance extends AuthenticationException
     constructor();
     constructor(message: string);
     constructor(message: string, innerException: Exception);
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
 export interface __InvalidCredentialException$views {
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
-
-export interface InvalidCredentialException$instance extends System_Runtime_Serialization_Internal.ISerializable$instance {}
 
 export type InvalidCredentialException = InvalidCredentialException$instance & __InvalidCredentialException$views;
 

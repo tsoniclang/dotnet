@@ -66,15 +66,15 @@ export interface IOrderedDictionary$instance extends IDictionary, ICollection, I
     clear(): void;
     contains(key: unknown): boolean;
     copyTo(array: ClrArray, index: int): void;
-    get_Item(index: int): unknown;
-    get_Item(key: unknown): unknown;
+    getItem(index: int): unknown;
+    getItem(key: unknown): unknown;
     getEnumerator(): IDictionaryEnumerator;
     getEnumerator(): IEnumerator;
     insert(index: int, key: unknown, value: unknown): void;
     remove(key: unknown): void;
     removeAt(index: int): void;
-    set_Item(index: int, value: unknown): void;
-    set_Item(key: unknown, value: unknown): void;
+    setItem(index: int, value: unknown): void;
+    setItem(key: unknown, value: unknown): void;
 }
 
 
@@ -86,16 +86,16 @@ export class BitVector32$instance {
     readonly data: int;
     equals(o: unknown): boolean;
     equals(other: BitVector32): boolean;
-    get_Item(bit: int): boolean;
-    get_Item(section: BitVector32_Section): int;
+    getItem(bit: int): boolean;
+    getItem(section: BitVector32_Section): int;
     getHashCode(): int;
-    set_Item(bit: int, value: boolean): void;
-    set_Item(section: BitVector32_Section, value: int): void;
+    setItem(bit: int, value: boolean): void;
+    setItem(section: BitVector32_Section, value: int): void;
     toString(): string;
     static createMask(): int;
     static createMask(previous: int): int;
-    static createSection(maxValue: short, previous: BitVector32_Section): BitVector32_Section;
-    static createSection(maxValue: short): BitVector32_Section;
+    static createSection2(maxValue: short, previous: BitVector32_Section): BitVector32_Section;
+    static createSection2(maxValue: short): BitVector32_Section;
     static toString(value: BitVector32): string;
 }
 
@@ -265,18 +265,18 @@ export class NameValueCollection$instance extends NameObjectCollectionBase$insta
     copyTo(dest: ClrArray, index: int): void;
     get_(name: string): string;
     get_(index: int): string;
-    get_Item(name: string): string;
-    get_Item(index: int): string;
-    GetEnumerator(): IEnumerator;
+    getItem(name: string): string;
+    getItem(index: int): string;
+    getEnumerator(): IEnumerator;
     getKey(index: int): string;
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
     getValues(name: string): string[];
     getValues(index: int): string[];
     hasKeys(): boolean;
-    OnDeserialization(sender: unknown): void;
+    onDeserialization(sender: unknown): void;
     remove(name: string): void;
     set_(name: string, value: string): void;
-    set_Item(name: string, value: string): void;
+    setItem(name: string, value: string): void;
 }
 
 
@@ -287,7 +287,7 @@ export interface __NameValueCollection$views {
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
-export interface NameValueCollection$instance extends System_Runtime_Serialization_Internal.IDeserializationCallback$instance, System_Runtime_Serialization_Internal.ISerializable$instance {}
+export interface NameValueCollection$instance extends System_Collections_Internal.ICollection$instance {}
 
 export type NameValueCollection = NameValueCollection$instance & __NameValueCollection$views;
 
@@ -317,9 +317,9 @@ export type NotifyCollectionChangedEventArgs = NotifyCollectionChangedEventArgs$
 export class NotifyCollectionChangedEventHandler$instance extends Function {
     constructor(object_: unknown, method: nint);
     beginInvoke(sender: unknown, e: NotifyCollectionChangedEventArgs, callback: AsyncCallback, object_: unknown): IAsyncResult;
-    Clone(): unknown;
+    clone(): unknown;
     endInvoke(result: IAsyncResult): void;
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
     invoke(sender: unknown, e: NotifyCollectionChangedEventArgs): void;
 }
 
@@ -328,8 +328,6 @@ export interface __NotifyCollectionChangedEventHandler$views {
     As_ICloneable(): System_Internal.ICloneable$instance;
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
-
-export interface NotifyCollectionChangedEventHandler$instance extends System_Internal.ICloneable$instance {}
 
 export type NotifyCollectionChangedEventHandler = NotifyCollectionChangedEventHandler$instance & __NotifyCollectionChangedEventHandler$views;
 
@@ -348,15 +346,15 @@ export class OrderedDictionary$instance {
     clear(): void;
     contains(key: unknown): boolean;
     copyTo(array: ClrArray, index: int): void;
-    get_Item(index: int): unknown;
-    get_Item(key: unknown): unknown;
+    getItem(index: int): unknown;
+    getItem(key: unknown): unknown;
     getEnumerator(): IDictionaryEnumerator;
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
     insert(index: int, key: unknown, value: unknown): void;
     remove(key: unknown): void;
     removeAt(index: int): void;
-    set_Item(index: int, value: unknown): void;
-    set_Item(key: unknown, value: unknown): void;
+    setItem(index: int, value: unknown): void;
+    setItem(key: unknown, value: unknown): void;
 }
 
 

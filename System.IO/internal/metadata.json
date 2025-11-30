@@ -23,7 +23,7 @@
         {
           "stableId": "System.IO.FileSystem.DriveInfo:System.IO.DriveType::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -112,7 +112,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.FileAccess::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -165,7 +165,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.FileAttributes::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -344,7 +344,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.FileMode::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -424,7 +424,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.FileOptions::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -513,7 +513,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.FileShare::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -593,7 +593,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.HandleInheritability::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -637,7 +637,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.MatchCasing::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -690,7 +690,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.MatchType::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -734,7 +734,7 @@
         {
           "stableId": "System.IO.FileSystem.Watcher:System.IO.NotifyFilters::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -832,7 +832,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.SearchOption::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -876,7 +876,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.SeekOrigin::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -929,7 +929,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.UnixFileMode::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -1072,7 +1072,7 @@
         {
           "stableId": "System.IO.FileSystem.Watcher:System.IO.WatcherChangeTypes::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -2305,7 +2305,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.BufferedStream::FlushAsync(System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "clrName": "FlushAsync",
-          "tsEmitName": "flushAsync",
+          "tsEmitName": "flushAsync2",
           "normalizedSignature": "FlushAsync|(System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2321,7 +2321,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.BufferedStream::Read(System.Byte[],System.Int32,System.Int32):System.Int32",
           "clrName": "Read",
-          "tsEmitName": "read",
+          "tsEmitName": "read2",
           "normalizedSignature": "Read|(System.Byte[],System.Int32,System.Int32):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2337,7 +2337,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.BufferedStream::Read(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32",
           "clrName": "Read",
-          "tsEmitName": "read2",
+          "tsEmitName": "read3",
           "normalizedSignature": "Read|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2353,7 +2353,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.BufferedStream::ReadAsync(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "ReadAsync",
-          "tsEmitName": "readAsync",
+          "tsEmitName": "readAsync4",
           "normalizedSignature": "ReadAsync|(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2369,7 +2369,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.BufferedStream::ReadAsync(System.Memory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "ReadAsync",
-          "tsEmitName": "readAsync2",
+          "tsEmitName": "readAsync5",
           "normalizedSignature": "ReadAsync|(System.Memory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2433,7 +2433,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.BufferedStream::Write(System.Byte[],System.Int32,System.Int32):System.Void",
           "clrName": "Write",
-          "tsEmitName": "write",
+          "tsEmitName": "write2",
           "normalizedSignature": "Write|(System.Byte[],System.Int32,System.Int32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2449,7 +2449,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.BufferedStream::Write(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "clrName": "Write",
-          "tsEmitName": "write2",
+          "tsEmitName": "write3",
           "normalizedSignature": "Write|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2465,7 +2465,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.BufferedStream::WriteAsync(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "clrName": "WriteAsync",
-          "tsEmitName": "writeAsync",
+          "tsEmitName": "writeAsync3",
           "normalizedSignature": "WriteAsync|(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2481,7 +2481,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.BufferedStream::WriteAsync(System.ReadOnlyMemory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask",
           "clrName": "WriteAsync",
-          "tsEmitName": "writeAsync2",
+          "tsEmitName": "writeAsync4",
           "normalizedSignature": "WriteAsync|(System.ReadOnlyMemory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2577,7 +2577,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.BufferedStream::CopyTo(System.IO.Stream,System.Int32):System.Void",
           "clrName": "CopyTo",
-          "tsEmitName": "copyTo",
+          "tsEmitName": "copyTo2",
           "normalizedSignature": "CopyTo|(System.IO.Stream,System.Int32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2593,7 +2593,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.BufferedStream::CopyToAsync(System.IO.Stream,System.Int32,System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "clrName": "CopyToAsync",
-          "tsEmitName": "copyToAsync",
+          "tsEmitName": "copyToAsync4",
           "normalizedSignature": "CopyToAsync|(System.IO.Stream,System.Int32,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2609,7 +2609,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "dispose",
+          "tsEmitName": "dispose$view",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -2643,7 +2643,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.BufferedStream::CopyTo(System.IO.Stream):System.Void",
           "clrName": "CopyTo",
-          "tsEmitName": "CopyTo",
+          "tsEmitName": "copyTo",
           "normalizedSignature": "CopyTo|(System.IO.Stream):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -2659,7 +2659,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.BufferedStream::CopyToAsync(System.IO.Stream):System.Threading.Tasks.Task",
           "clrName": "CopyToAsync",
-          "tsEmitName": "CopyToAsync",
+          "tsEmitName": "copyToAsync",
           "normalizedSignature": "CopyToAsync|(System.IO.Stream):System.Threading.Tasks.Task|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -2675,7 +2675,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.BufferedStream::CopyToAsync(System.IO.Stream,System.Int32):System.Threading.Tasks.Task",
           "clrName": "CopyToAsync",
-          "tsEmitName": "CopyToAsync2",
+          "tsEmitName": "copyToAsync2",
           "normalizedSignature": "CopyToAsync|(System.IO.Stream,System.Int32):System.Threading.Tasks.Task|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -2691,7 +2691,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.BufferedStream::CopyToAsync(System.IO.Stream,System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "clrName": "CopyToAsync",
-          "tsEmitName": "CopyToAsync3",
+          "tsEmitName": "copyToAsync3",
           "normalizedSignature": "CopyToAsync|(System.IO.Stream,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -2707,7 +2707,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.BufferedStream::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "Dispose",
+          "tsEmitName": "dispose",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -2723,7 +2723,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.BufferedStream::FlushAsync():System.Threading.Tasks.Task",
           "clrName": "FlushAsync",
-          "tsEmitName": "FlushAsync",
+          "tsEmitName": "flushAsync",
           "normalizedSignature": "FlushAsync|():System.Threading.Tasks.Task|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -2739,7 +2739,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.BufferedStream::Read(System.Span_1):System.Int32",
           "clrName": "Read",
-          "tsEmitName": "Read",
+          "tsEmitName": "read",
           "normalizedSignature": "Read|(System.Span_1):System.Int32|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -2755,7 +2755,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.BufferedStream::ReadAsync(System.Byte[],System.Int32,System.Int32):System.Threading.Tasks.Task_1",
           "clrName": "ReadAsync",
-          "tsEmitName": "ReadAsync",
+          "tsEmitName": "readAsync",
           "normalizedSignature": "ReadAsync|(System.Byte[],System.Int32,System.Int32):System.Threading.Tasks.Task_1|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -2771,7 +2771,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.BufferedStream::ReadAsync(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken):System.Threading.Tasks.Task_1",
           "clrName": "ReadAsync",
-          "tsEmitName": "ReadAsync2",
+          "tsEmitName": "readAsync2",
           "normalizedSignature": "ReadAsync|(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken):System.Threading.Tasks.Task_1|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -2787,7 +2787,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.BufferedStream::ReadAsync(System.Memory_1,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1",
           "clrName": "ReadAsync",
-          "tsEmitName": "ReadAsync3",
+          "tsEmitName": "readAsync3",
           "normalizedSignature": "ReadAsync|(System.Memory_1,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -2803,7 +2803,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.BufferedStream::Write(System.ReadOnlySpan_1):System.Void",
           "clrName": "Write",
-          "tsEmitName": "Write",
+          "tsEmitName": "write",
           "normalizedSignature": "Write|(System.ReadOnlySpan_1):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -2819,7 +2819,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.BufferedStream::WriteAsync(System.Byte[],System.Int32,System.Int32):System.Threading.Tasks.Task",
           "clrName": "WriteAsync",
-          "tsEmitName": "WriteAsync",
+          "tsEmitName": "writeAsync",
           "normalizedSignature": "WriteAsync|(System.Byte[],System.Int32,System.Int32):System.Threading.Tasks.Task|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -2835,7 +2835,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.BufferedStream::WriteAsync(System.ReadOnlyMemory_1,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask",
           "clrName": "WriteAsync",
-          "tsEmitName": "WriteAsync2",
+          "tsEmitName": "writeAsync2",
           "normalizedSignature": "WriteAsync|(System.ReadOnlyMemory_1,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -3449,7 +3449,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "getObjectData",
+          "tsEmitName": "getObjectData$view",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3466,7 +3466,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.DirectoryInfo::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData",
+          "tsEmitName": "getObjectData",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -3566,7 +3566,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "getObjectData",
+          "tsEmitName": "getObjectData$view",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3583,7 +3583,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.DirectoryNotFoundException::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData",
+          "tsEmitName": "getObjectData",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -3840,7 +3840,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "getObjectData",
+          "tsEmitName": "getObjectData$view",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3857,7 +3857,7 @@
         {
           "stableId": "System.IO.FileSystem.DriveInfo:System.IO.DriveNotFoundException::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData",
+          "tsEmitName": "getObjectData",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -3906,7 +3906,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "getObjectData",
+          "tsEmitName": "getObjectData$view",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3923,7 +3923,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.EndOfStreamException::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData",
+          "tsEmitName": "getObjectData",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -4202,7 +4202,7 @@
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "clone",
+          "tsEmitName": "clone$view",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -4219,7 +4219,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "getObjectData",
+          "tsEmitName": "getObjectData$view",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -4236,7 +4236,7 @@
         {
           "stableId": "System.IO.FileSystem.Watcher:System.IO.ErrorEventHandler::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "Clone",
+          "tsEmitName": "clone",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -4252,7 +4252,7 @@
         {
           "stableId": "System.IO.FileSystem.Watcher:System.IO.ErrorEventHandler::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData",
+          "tsEmitName": "getObjectData",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -4595,7 +4595,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "getObjectData",
+          "tsEmitName": "getObjectData$view",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -4612,7 +4612,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.FileInfo::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData",
+          "tsEmitName": "getObjectData",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -5050,7 +5050,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.FileStream::FlushAsync(System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "clrName": "FlushAsync",
-          "tsEmitName": "flushAsync",
+          "tsEmitName": "flushAsync2",
           "normalizedSignature": "FlushAsync|(System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5066,7 +5066,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.FileStream::Read(System.Byte[],System.Int32,System.Int32):System.Int32",
           "clrName": "Read",
-          "tsEmitName": "read",
+          "tsEmitName": "read2",
           "normalizedSignature": "Read|(System.Byte[],System.Int32,System.Int32):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5082,7 +5082,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.FileStream::Read(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32",
           "clrName": "Read",
-          "tsEmitName": "read2",
+          "tsEmitName": "read3",
           "normalizedSignature": "Read|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5098,7 +5098,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.FileStream::ReadAsync(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "ReadAsync",
-          "tsEmitName": "readAsync",
+          "tsEmitName": "readAsync4",
           "normalizedSignature": "ReadAsync|(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5114,7 +5114,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.FileStream::ReadAsync(System.Memory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "ReadAsync",
-          "tsEmitName": "readAsync2",
+          "tsEmitName": "readAsync5",
           "normalizedSignature": "ReadAsync|(System.Memory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5130,7 +5130,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.FileStream::Write(System.Byte[],System.Int32,System.Int32):System.Void",
           "clrName": "Write",
-          "tsEmitName": "write",
+          "tsEmitName": "write2",
           "normalizedSignature": "Write|(System.Byte[],System.Int32,System.Int32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5146,7 +5146,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.FileStream::Write(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "clrName": "Write",
-          "tsEmitName": "write2",
+          "tsEmitName": "write3",
           "normalizedSignature": "Write|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5162,7 +5162,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.FileStream::WriteAsync(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "clrName": "WriteAsync",
-          "tsEmitName": "writeAsync",
+          "tsEmitName": "writeAsync3",
           "normalizedSignature": "WriteAsync|(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5178,7 +5178,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.FileStream::WriteAsync(System.ReadOnlyMemory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask",
           "clrName": "WriteAsync",
-          "tsEmitName": "writeAsync2",
+          "tsEmitName": "writeAsync4",
           "normalizedSignature": "WriteAsync|(System.ReadOnlyMemory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5290,7 +5290,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.FileStream::CopyTo(System.IO.Stream,System.Int32):System.Void",
           "clrName": "CopyTo",
-          "tsEmitName": "copyTo",
+          "tsEmitName": "copyTo2",
           "normalizedSignature": "CopyTo|(System.IO.Stream,System.Int32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5306,7 +5306,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.FileStream::CopyToAsync(System.IO.Stream,System.Int32,System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "clrName": "CopyToAsync",
-          "tsEmitName": "copyToAsync",
+          "tsEmitName": "copyToAsync4",
           "normalizedSignature": "CopyToAsync|(System.IO.Stream,System.Int32,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5402,7 +5402,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "dispose",
+          "tsEmitName": "dispose$view",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -5436,7 +5436,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.FileStream::CopyTo(System.IO.Stream):System.Void",
           "clrName": "CopyTo",
-          "tsEmitName": "CopyTo",
+          "tsEmitName": "copyTo",
           "normalizedSignature": "CopyTo|(System.IO.Stream):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -5452,7 +5452,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.FileStream::CopyToAsync(System.IO.Stream):System.Threading.Tasks.Task",
           "clrName": "CopyToAsync",
-          "tsEmitName": "CopyToAsync",
+          "tsEmitName": "copyToAsync",
           "normalizedSignature": "CopyToAsync|(System.IO.Stream):System.Threading.Tasks.Task|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -5468,7 +5468,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.FileStream::CopyToAsync(System.IO.Stream,System.Int32):System.Threading.Tasks.Task",
           "clrName": "CopyToAsync",
-          "tsEmitName": "CopyToAsync2",
+          "tsEmitName": "copyToAsync2",
           "normalizedSignature": "CopyToAsync|(System.IO.Stream,System.Int32):System.Threading.Tasks.Task|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -5484,7 +5484,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.FileStream::CopyToAsync(System.IO.Stream,System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "clrName": "CopyToAsync",
-          "tsEmitName": "CopyToAsync3",
+          "tsEmitName": "copyToAsync3",
           "normalizedSignature": "CopyToAsync|(System.IO.Stream,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -5500,7 +5500,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.FileStream::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "Dispose",
+          "tsEmitName": "dispose",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -5516,7 +5516,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.FileStream::FlushAsync():System.Threading.Tasks.Task",
           "clrName": "FlushAsync",
-          "tsEmitName": "FlushAsync",
+          "tsEmitName": "flushAsync",
           "normalizedSignature": "FlushAsync|():System.Threading.Tasks.Task|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -5532,7 +5532,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.FileStream::Read(System.Span_1):System.Int32",
           "clrName": "Read",
-          "tsEmitName": "Read",
+          "tsEmitName": "read",
           "normalizedSignature": "Read|(System.Span_1):System.Int32|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -5548,7 +5548,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.FileStream::ReadAsync(System.Byte[],System.Int32,System.Int32):System.Threading.Tasks.Task_1",
           "clrName": "ReadAsync",
-          "tsEmitName": "ReadAsync",
+          "tsEmitName": "readAsync",
           "normalizedSignature": "ReadAsync|(System.Byte[],System.Int32,System.Int32):System.Threading.Tasks.Task_1|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -5564,7 +5564,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.FileStream::ReadAsync(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken):System.Threading.Tasks.Task_1",
           "clrName": "ReadAsync",
-          "tsEmitName": "ReadAsync2",
+          "tsEmitName": "readAsync2",
           "normalizedSignature": "ReadAsync|(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken):System.Threading.Tasks.Task_1|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -5580,7 +5580,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.FileStream::ReadAsync(System.Memory_1,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1",
           "clrName": "ReadAsync",
-          "tsEmitName": "ReadAsync3",
+          "tsEmitName": "readAsync3",
           "normalizedSignature": "ReadAsync|(System.Memory_1,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -5596,7 +5596,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.FileStream::Write(System.ReadOnlySpan_1):System.Void",
           "clrName": "Write",
-          "tsEmitName": "Write",
+          "tsEmitName": "write",
           "normalizedSignature": "Write|(System.ReadOnlySpan_1):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -5612,7 +5612,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.FileStream::WriteAsync(System.Byte[],System.Int32,System.Int32):System.Threading.Tasks.Task",
           "clrName": "WriteAsync",
-          "tsEmitName": "WriteAsync",
+          "tsEmitName": "writeAsync",
           "normalizedSignature": "WriteAsync|(System.Byte[],System.Int32,System.Int32):System.Threading.Tasks.Task|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -5628,7 +5628,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.FileStream::WriteAsync(System.ReadOnlyMemory_1,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask",
           "clrName": "WriteAsync",
-          "tsEmitName": "WriteAsync2",
+          "tsEmitName": "writeAsync2",
           "normalizedSignature": "WriteAsync|(System.ReadOnlyMemory_1,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -6112,7 +6112,7 @@
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "clone",
+          "tsEmitName": "clone$view",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -6129,7 +6129,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "getObjectData",
+          "tsEmitName": "getObjectData$view",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -6146,7 +6146,7 @@
         {
           "stableId": "System.IO.FileSystem.Watcher:System.IO.FileSystemEventHandler::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "Clone",
+          "tsEmitName": "clone",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -6162,7 +6162,7 @@
         {
           "stableId": "System.IO.FileSystem.Watcher:System.IO.FileSystemEventHandler::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData",
+          "tsEmitName": "getObjectData",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -6607,7 +6607,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "dispose",
+          "tsEmitName": "dispose$view",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -6641,7 +6641,7 @@
         {
           "stableId": "System.IO.FileSystem.Watcher:System.IO.FileSystemWatcher::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "Dispose",
+          "tsEmitName": "dispose",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -6878,7 +6878,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "getObjectData",
+          "tsEmitName": "getObjectData$view",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -6895,7 +6895,7 @@
         {
           "stableId": "System.IO.FileSystem.Watcher:System.IO.InternalBufferOverflowException::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData",
+          "tsEmitName": "getObjectData",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -6944,7 +6944,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "getObjectData",
+          "tsEmitName": "getObjectData$view",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -6961,7 +6961,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.InvalidDataException::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData",
+          "tsEmitName": "getObjectData",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -7010,7 +7010,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "getObjectData",
+          "tsEmitName": "getObjectData$view",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -7027,7 +7027,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.IOException::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData",
+          "tsEmitName": "getObjectData",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -7097,7 +7097,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.MemoryStream::FlushAsync(System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "clrName": "FlushAsync",
-          "tsEmitName": "flushAsync",
+          "tsEmitName": "flushAsync2",
           "normalizedSignature": "FlushAsync|(System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7145,7 +7145,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.MemoryStream::Read(System.Byte[],System.Int32,System.Int32):System.Int32",
           "clrName": "Read",
-          "tsEmitName": "read",
+          "tsEmitName": "read2",
           "normalizedSignature": "Read|(System.Byte[],System.Int32,System.Int32):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7161,7 +7161,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.MemoryStream::Read(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32",
           "clrName": "Read",
-          "tsEmitName": "read2",
+          "tsEmitName": "read3",
           "normalizedSignature": "Read|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7177,7 +7177,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.MemoryStream::ReadAsync(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "ReadAsync",
-          "tsEmitName": "readAsync",
+          "tsEmitName": "readAsync4",
           "normalizedSignature": "ReadAsync|(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7193,7 +7193,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.MemoryStream::ReadAsync(System.Memory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "ReadAsync",
-          "tsEmitName": "readAsync2",
+          "tsEmitName": "readAsync5",
           "normalizedSignature": "ReadAsync|(System.Memory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7225,7 +7225,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.MemoryStream::CopyTo(System.IO.Stream,System.Int32):System.Void",
           "clrName": "CopyTo",
-          "tsEmitName": "copyTo",
+          "tsEmitName": "copyTo2",
           "normalizedSignature": "CopyTo|(System.IO.Stream,System.Int32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7241,7 +7241,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.MemoryStream::CopyToAsync(System.IO.Stream,System.Int32,System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "clrName": "CopyToAsync",
-          "tsEmitName": "copyToAsync",
+          "tsEmitName": "copyToAsync4",
           "normalizedSignature": "CopyToAsync|(System.IO.Stream,System.Int32,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7305,7 +7305,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.MemoryStream::Write(System.Byte[],System.Int32,System.Int32):System.Void",
           "clrName": "Write",
-          "tsEmitName": "write",
+          "tsEmitName": "write2",
           "normalizedSignature": "Write|(System.Byte[],System.Int32,System.Int32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7321,7 +7321,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.MemoryStream::Write(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "clrName": "Write",
-          "tsEmitName": "write2",
+          "tsEmitName": "write3",
           "normalizedSignature": "Write|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7337,7 +7337,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.MemoryStream::WriteAsync(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "clrName": "WriteAsync",
-          "tsEmitName": "writeAsync",
+          "tsEmitName": "writeAsync3",
           "normalizedSignature": "WriteAsync|(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7353,7 +7353,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.MemoryStream::WriteAsync(System.ReadOnlyMemory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask",
           "clrName": "WriteAsync",
-          "tsEmitName": "writeAsync2",
+          "tsEmitName": "writeAsync4",
           "normalizedSignature": "WriteAsync|(System.ReadOnlyMemory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7401,7 +7401,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "dispose",
+          "tsEmitName": "dispose$view",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -7418,7 +7418,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IAsyncDisposable::DisposeAsync():System.Threading.Tasks.ValueTask",
           "clrName": "DisposeAsync",
-          "tsEmitName": "disposeAsync",
+          "tsEmitName": "disposeAsync$view",
           "normalizedSignature": "DisposeAsync|():System.Threading.Tasks.ValueTask|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -7435,7 +7435,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.MemoryStream::CopyTo(System.IO.Stream):System.Void",
           "clrName": "CopyTo",
-          "tsEmitName": "CopyTo",
+          "tsEmitName": "copyTo",
           "normalizedSignature": "CopyTo|(System.IO.Stream):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -7451,7 +7451,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.MemoryStream::CopyToAsync(System.IO.Stream):System.Threading.Tasks.Task",
           "clrName": "CopyToAsync",
-          "tsEmitName": "CopyToAsync",
+          "tsEmitName": "copyToAsync",
           "normalizedSignature": "CopyToAsync|(System.IO.Stream):System.Threading.Tasks.Task|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -7467,7 +7467,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.MemoryStream::CopyToAsync(System.IO.Stream,System.Int32):System.Threading.Tasks.Task",
           "clrName": "CopyToAsync",
-          "tsEmitName": "CopyToAsync2",
+          "tsEmitName": "copyToAsync2",
           "normalizedSignature": "CopyToAsync|(System.IO.Stream,System.Int32):System.Threading.Tasks.Task|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -7483,7 +7483,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.MemoryStream::CopyToAsync(System.IO.Stream,System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "clrName": "CopyToAsync",
-          "tsEmitName": "CopyToAsync3",
+          "tsEmitName": "copyToAsync3",
           "normalizedSignature": "CopyToAsync|(System.IO.Stream,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -7499,7 +7499,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.MemoryStream::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "Dispose",
+          "tsEmitName": "dispose",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -7515,7 +7515,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.MemoryStream::DisposeAsync():System.Threading.Tasks.ValueTask",
           "clrName": "DisposeAsync",
-          "tsEmitName": "DisposeAsync",
+          "tsEmitName": "disposeAsync",
           "normalizedSignature": "DisposeAsync|():System.Threading.Tasks.ValueTask|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -7531,7 +7531,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.MemoryStream::FlushAsync():System.Threading.Tasks.Task",
           "clrName": "FlushAsync",
-          "tsEmitName": "FlushAsync",
+          "tsEmitName": "flushAsync",
           "normalizedSignature": "FlushAsync|():System.Threading.Tasks.Task|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -7547,7 +7547,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.MemoryStream::Read(System.Span_1):System.Int32",
           "clrName": "Read",
-          "tsEmitName": "Read",
+          "tsEmitName": "read",
           "normalizedSignature": "Read|(System.Span_1):System.Int32|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -7563,7 +7563,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.MemoryStream::ReadAsync(System.Byte[],System.Int32,System.Int32):System.Threading.Tasks.Task_1",
           "clrName": "ReadAsync",
-          "tsEmitName": "ReadAsync",
+          "tsEmitName": "readAsync",
           "normalizedSignature": "ReadAsync|(System.Byte[],System.Int32,System.Int32):System.Threading.Tasks.Task_1|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -7579,7 +7579,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.MemoryStream::ReadAsync(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken):System.Threading.Tasks.Task_1",
           "clrName": "ReadAsync",
-          "tsEmitName": "ReadAsync2",
+          "tsEmitName": "readAsync2",
           "normalizedSignature": "ReadAsync|(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken):System.Threading.Tasks.Task_1|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -7595,7 +7595,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.MemoryStream::ReadAsync(System.Memory_1,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1",
           "clrName": "ReadAsync",
-          "tsEmitName": "ReadAsync3",
+          "tsEmitName": "readAsync3",
           "normalizedSignature": "ReadAsync|(System.Memory_1,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -7611,7 +7611,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.MemoryStream::Write(System.ReadOnlySpan_1):System.Void",
           "clrName": "Write",
-          "tsEmitName": "Write",
+          "tsEmitName": "write",
           "normalizedSignature": "Write|(System.ReadOnlySpan_1):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -7627,7 +7627,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.MemoryStream::WriteAsync(System.Byte[],System.Int32,System.Int32):System.Threading.Tasks.Task",
           "clrName": "WriteAsync",
-          "tsEmitName": "WriteAsync",
+          "tsEmitName": "writeAsync",
           "normalizedSignature": "WriteAsync|(System.Byte[],System.Int32,System.Int32):System.Threading.Tasks.Task|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -7643,7 +7643,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.MemoryStream::WriteAsync(System.ReadOnlyMemory_1,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask",
           "clrName": "WriteAsync",
-          "tsEmitName": "WriteAsync2",
+          "tsEmitName": "writeAsync2",
           "normalizedSignature": "WriteAsync|(System.ReadOnlyMemory_1,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -7803,7 +7803,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "getObjectData",
+          "tsEmitName": "getObjectData$view",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -7820,7 +7820,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.PathTooLongException::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData",
+          "tsEmitName": "getObjectData",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -7970,7 +7970,7 @@
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "clone",
+          "tsEmitName": "clone$view",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -7987,7 +7987,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "getObjectData",
+          "tsEmitName": "getObjectData$view",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -8004,7 +8004,7 @@
         {
           "stableId": "System.IO.FileSystem.Watcher:System.IO.RenamedEventHandler::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "Clone",
+          "tsEmitName": "clone",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -8020,7 +8020,7 @@
         {
           "stableId": "System.IO.FileSystem.Watcher:System.IO.RenamedEventHandler::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData",
+          "tsEmitName": "getObjectData",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -8881,7 +8881,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StreamReader::Read():System.Int32",
           "clrName": "Read",
-          "tsEmitName": "read",
+          "tsEmitName": "read2",
           "normalizedSignature": "Read|():System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8897,7 +8897,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StreamReader::Read(System.Char[],System.Int32,System.Int32):System.Int32",
           "clrName": "Read",
-          "tsEmitName": "read2",
+          "tsEmitName": "read3",
           "normalizedSignature": "Read|(System.Char[],System.Int32,System.Int32):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8913,7 +8913,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StreamReader::Read(System.Span_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32",
           "clrName": "Read",
-          "tsEmitName": "read3",
+          "tsEmitName": "read4",
           "normalizedSignature": "Read|(System.Span_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8945,7 +8945,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StreamReader::ReadBlock(System.Char[],System.Int32,System.Int32):System.Int32",
           "clrName": "ReadBlock",
-          "tsEmitName": "readBlock",
+          "tsEmitName": "readBlock2",
           "normalizedSignature": "ReadBlock|(System.Char[],System.Int32,System.Int32):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8961,7 +8961,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StreamReader::ReadBlock(System.Span_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32",
           "clrName": "ReadBlock",
-          "tsEmitName": "readBlock2",
+          "tsEmitName": "readBlock3",
           "normalizedSignature": "ReadBlock|(System.Span_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8993,7 +8993,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StreamReader::ReadLineAsync():System.Threading.Tasks.Task_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "ReadLineAsync",
-          "tsEmitName": "readLineAsync",
+          "tsEmitName": "readLineAsync3",
           "normalizedSignature": "ReadLineAsync|():System.Threading.Tasks.Task_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9009,7 +9009,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StreamReader::ReadLineAsync(System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "ReadLineAsync",
-          "tsEmitName": "readLineAsync2",
+          "tsEmitName": "readLineAsync4",
           "normalizedSignature": "ReadLineAsync|(System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9025,7 +9025,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StreamReader::ReadToEndAsync():System.Threading.Tasks.Task_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "ReadToEndAsync",
-          "tsEmitName": "readToEndAsync",
+          "tsEmitName": "readToEndAsync3",
           "normalizedSignature": "ReadToEndAsync|():System.Threading.Tasks.Task_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9041,7 +9041,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StreamReader::ReadToEndAsync(System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "ReadToEndAsync",
-          "tsEmitName": "readToEndAsync2",
+          "tsEmitName": "readToEndAsync4",
           "normalizedSignature": "ReadToEndAsync|(System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9057,7 +9057,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StreamReader::ReadAsync(System.Char[],System.Int32,System.Int32):System.Threading.Tasks.Task_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "ReadAsync",
-          "tsEmitName": "readAsync",
+          "tsEmitName": "readAsync3",
           "normalizedSignature": "ReadAsync|(System.Char[],System.Int32,System.Int32):System.Threading.Tasks.Task_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9073,7 +9073,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StreamReader::ReadAsync(System.Memory_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "ReadAsync",
-          "tsEmitName": "readAsync2",
+          "tsEmitName": "readAsync4",
           "normalizedSignature": "ReadAsync|(System.Memory_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9089,7 +9089,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StreamReader::ReadBlockAsync(System.Char[],System.Int32,System.Int32):System.Threading.Tasks.Task_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "ReadBlockAsync",
-          "tsEmitName": "readBlockAsync",
+          "tsEmitName": "readBlockAsync3",
           "normalizedSignature": "ReadBlockAsync|(System.Char[],System.Int32,System.Int32):System.Threading.Tasks.Task_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9105,7 +9105,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StreamReader::ReadBlockAsync(System.Memory_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "ReadBlockAsync",
-          "tsEmitName": "readBlockAsync2",
+          "tsEmitName": "readBlockAsync4",
           "normalizedSignature": "ReadBlockAsync|(System.Memory_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9121,7 +9121,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "dispose",
+          "tsEmitName": "dispose$view",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -9138,7 +9138,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StreamReader::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "Dispose",
+          "tsEmitName": "dispose",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -9154,7 +9154,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StreamReader::Read(System.Span_1):System.Int32",
           "clrName": "Read",
-          "tsEmitName": "Read",
+          "tsEmitName": "read",
           "normalizedSignature": "Read|(System.Span_1):System.Int32|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -9170,7 +9170,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StreamReader::ReadAsync(System.Char[],System.Int32,System.Int32):System.Threading.Tasks.Task_1",
           "clrName": "ReadAsync",
-          "tsEmitName": "ReadAsync",
+          "tsEmitName": "readAsync",
           "normalizedSignature": "ReadAsync|(System.Char[],System.Int32,System.Int32):System.Threading.Tasks.Task_1|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -9186,7 +9186,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StreamReader::ReadAsync(System.Memory_1,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1",
           "clrName": "ReadAsync",
-          "tsEmitName": "ReadAsync2",
+          "tsEmitName": "readAsync2",
           "normalizedSignature": "ReadAsync|(System.Memory_1,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -9202,7 +9202,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StreamReader::ReadBlock(System.Span_1):System.Int32",
           "clrName": "ReadBlock",
-          "tsEmitName": "ReadBlock",
+          "tsEmitName": "readBlock",
           "normalizedSignature": "ReadBlock|(System.Span_1):System.Int32|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -9218,7 +9218,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StreamReader::ReadBlockAsync(System.Char[],System.Int32,System.Int32):System.Threading.Tasks.Task_1",
           "clrName": "ReadBlockAsync",
-          "tsEmitName": "ReadBlockAsync",
+          "tsEmitName": "readBlockAsync",
           "normalizedSignature": "ReadBlockAsync|(System.Char[],System.Int32,System.Int32):System.Threading.Tasks.Task_1|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -9234,7 +9234,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StreamReader::ReadBlockAsync(System.Memory_1,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1",
           "clrName": "ReadBlockAsync",
-          "tsEmitName": "ReadBlockAsync2",
+          "tsEmitName": "readBlockAsync2",
           "normalizedSignature": "ReadBlockAsync|(System.Memory_1,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -9250,7 +9250,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StreamReader::ReadLineAsync():System.Threading.Tasks.Task_1",
           "clrName": "ReadLineAsync",
-          "tsEmitName": "ReadLineAsync",
+          "tsEmitName": "readLineAsync",
           "normalizedSignature": "ReadLineAsync|():System.Threading.Tasks.Task_1|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -9266,7 +9266,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StreamReader::ReadLineAsync(System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1",
           "clrName": "ReadLineAsync",
-          "tsEmitName": "ReadLineAsync2",
+          "tsEmitName": "readLineAsync2",
           "normalizedSignature": "ReadLineAsync|(System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -9282,7 +9282,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StreamReader::ReadToEndAsync():System.Threading.Tasks.Task_1",
           "clrName": "ReadToEndAsync",
-          "tsEmitName": "ReadToEndAsync",
+          "tsEmitName": "readToEndAsync",
           "normalizedSignature": "ReadToEndAsync|():System.Threading.Tasks.Task_1|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -9298,7 +9298,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StreamReader::ReadToEndAsync(System.Threading.CancellationToken):System.Threading.Tasks.Task_1",
           "clrName": "ReadToEndAsync",
-          "tsEmitName": "ReadToEndAsync2",
+          "tsEmitName": "readToEndAsync2",
           "normalizedSignature": "ReadToEndAsync|(System.Threading.CancellationToken):System.Threading.Tasks.Task_1|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -9501,7 +9501,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StreamWriter::Write(System.Char):System.Void",
           "clrName": "Write",
-          "tsEmitName": "write",
+          "tsEmitName": "write13",
           "normalizedSignature": "Write|(System.Char):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9517,7 +9517,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StreamWriter::Write(System.Char[]):System.Void",
           "clrName": "Write",
-          "tsEmitName": "write2",
+          "tsEmitName": "write14",
           "normalizedSignature": "Write|(System.Char[]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9533,7 +9533,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StreamWriter::Write(System.Char[],System.Int32,System.Int32):System.Void",
           "clrName": "Write",
-          "tsEmitName": "write3",
+          "tsEmitName": "write15",
           "normalizedSignature": "Write|(System.Char[],System.Int32,System.Int32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9549,7 +9549,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StreamWriter::Write(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "clrName": "Write",
-          "tsEmitName": "write4",
+          "tsEmitName": "write16",
           "normalizedSignature": "Write|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9565,7 +9565,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StreamWriter::Write(System.String):System.Void",
           "clrName": "Write",
-          "tsEmitName": "write5",
+          "tsEmitName": "write17",
           "normalizedSignature": "Write|(System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9581,7 +9581,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StreamWriter::WriteLine(System.String):System.Void",
           "clrName": "WriteLine",
-          "tsEmitName": "writeLine",
+          "tsEmitName": "writeLine17",
           "normalizedSignature": "WriteLine|(System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9597,7 +9597,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StreamWriter::WriteLine(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "clrName": "WriteLine",
-          "tsEmitName": "writeLine2",
+          "tsEmitName": "writeLine18",
           "normalizedSignature": "WriteLine|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9613,7 +9613,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StreamWriter::Write(System.String,System.Object):System.Void",
           "clrName": "Write",
-          "tsEmitName": "write6",
+          "tsEmitName": "write18",
           "normalizedSignature": "Write|(System.String,System.Object):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9629,7 +9629,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StreamWriter::Write(System.String,System.Object,System.Object):System.Void",
           "clrName": "Write",
-          "tsEmitName": "write7",
+          "tsEmitName": "write19",
           "normalizedSignature": "Write|(System.String,System.Object,System.Object):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9645,7 +9645,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StreamWriter::Write(System.String,System.Object,System.Object,System.Object):System.Void",
           "clrName": "Write",
-          "tsEmitName": "write8",
+          "tsEmitName": "write20",
           "normalizedSignature": "Write|(System.String,System.Object,System.Object,System.Object):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9661,7 +9661,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StreamWriter::Write(System.String,System.Object[]):System.Void",
           "clrName": "Write",
-          "tsEmitName": "write9",
+          "tsEmitName": "write21",
           "normalizedSignature": "Write|(System.String,System.Object[]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9677,7 +9677,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StreamWriter::Write(System.String,System.ReadOnlySpan_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "clrName": "Write",
-          "tsEmitName": "write10",
+          "tsEmitName": "write22",
           "normalizedSignature": "Write|(System.String,System.ReadOnlySpan_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9693,7 +9693,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StreamWriter::WriteLine(System.String,System.Object):System.Void",
           "clrName": "WriteLine",
-          "tsEmitName": "writeLine3",
+          "tsEmitName": "writeLine19",
           "normalizedSignature": "WriteLine|(System.String,System.Object):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9709,7 +9709,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StreamWriter::WriteLine(System.String,System.Object,System.Object):System.Void",
           "clrName": "WriteLine",
-          "tsEmitName": "writeLine4",
+          "tsEmitName": "writeLine20",
           "normalizedSignature": "WriteLine|(System.String,System.Object,System.Object):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9725,7 +9725,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StreamWriter::WriteLine(System.String,System.Object,System.Object,System.Object):System.Void",
           "clrName": "WriteLine",
-          "tsEmitName": "writeLine5",
+          "tsEmitName": "writeLine21",
           "normalizedSignature": "WriteLine|(System.String,System.Object,System.Object,System.Object):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9741,7 +9741,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StreamWriter::WriteLine(System.String,System.Object[]):System.Void",
           "clrName": "WriteLine",
-          "tsEmitName": "writeLine6",
+          "tsEmitName": "writeLine22",
           "normalizedSignature": "WriteLine|(System.String,System.Object[]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9757,7 +9757,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StreamWriter::WriteLine(System.String,System.ReadOnlySpan_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "clrName": "WriteLine",
-          "tsEmitName": "writeLine7",
+          "tsEmitName": "writeLine23",
           "normalizedSignature": "WriteLine|(System.String,System.ReadOnlySpan_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9773,7 +9773,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StreamWriter::WriteAsync(System.Char):System.Threading.Tasks.Task",
           "clrName": "WriteAsync",
-          "tsEmitName": "writeAsync",
+          "tsEmitName": "writeAsync4",
           "normalizedSignature": "WriteAsync|(System.Char):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9789,7 +9789,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StreamWriter::WriteAsync(System.String):System.Threading.Tasks.Task",
           "clrName": "WriteAsync",
-          "tsEmitName": "writeAsync2",
+          "tsEmitName": "writeAsync5",
           "normalizedSignature": "WriteAsync|(System.String):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9805,7 +9805,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StreamWriter::WriteAsync(System.Char[],System.Int32,System.Int32):System.Threading.Tasks.Task",
           "clrName": "WriteAsync",
-          "tsEmitName": "writeAsync3",
+          "tsEmitName": "writeAsync6",
           "normalizedSignature": "WriteAsync|(System.Char[],System.Int32,System.Int32):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9821,7 +9821,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StreamWriter::WriteAsync(System.ReadOnlyMemory_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "clrName": "WriteAsync",
-          "tsEmitName": "writeAsync4",
+          "tsEmitName": "writeAsync7",
           "normalizedSignature": "WriteAsync|(System.ReadOnlyMemory_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9837,7 +9837,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StreamWriter::WriteLineAsync():System.Threading.Tasks.Task",
           "clrName": "WriteLineAsync",
-          "tsEmitName": "writeLineAsync",
+          "tsEmitName": "writeLineAsync4",
           "normalizedSignature": "WriteLineAsync|():System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9853,7 +9853,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StreamWriter::WriteLineAsync(System.Char):System.Threading.Tasks.Task",
           "clrName": "WriteLineAsync",
-          "tsEmitName": "writeLineAsync2",
+          "tsEmitName": "writeLineAsync5",
           "normalizedSignature": "WriteLineAsync|(System.Char):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9869,7 +9869,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StreamWriter::WriteLineAsync(System.String):System.Threading.Tasks.Task",
           "clrName": "WriteLineAsync",
-          "tsEmitName": "writeLineAsync3",
+          "tsEmitName": "writeLineAsync6",
           "normalizedSignature": "WriteLineAsync|(System.String):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9885,7 +9885,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StreamWriter::WriteLineAsync(System.Char[],System.Int32,System.Int32):System.Threading.Tasks.Task",
           "clrName": "WriteLineAsync",
-          "tsEmitName": "writeLineAsync4",
+          "tsEmitName": "writeLineAsync7",
           "normalizedSignature": "WriteLineAsync|(System.Char[],System.Int32,System.Int32):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9901,7 +9901,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StreamWriter::WriteLineAsync(System.ReadOnlyMemory_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "clrName": "WriteLineAsync",
-          "tsEmitName": "writeLineAsync5",
+          "tsEmitName": "writeLineAsync8",
           "normalizedSignature": "WriteLineAsync|(System.ReadOnlyMemory_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9949,7 +9949,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "dispose",
+          "tsEmitName": "dispose$view",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -9983,7 +9983,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StreamWriter::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "Dispose",
+          "tsEmitName": "dispose",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -9999,7 +9999,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StreamWriter::Write(System.ReadOnlySpan_1):System.Void",
           "clrName": "Write",
-          "tsEmitName": "Write",
+          "tsEmitName": "write",
           "normalizedSignature": "Write|(System.ReadOnlySpan_1):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -10015,7 +10015,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StreamWriter::Write(System.Boolean):System.Void",
           "clrName": "Write",
-          "tsEmitName": "Write2",
+          "tsEmitName": "write2",
           "normalizedSignature": "Write|(System.Boolean):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -10031,7 +10031,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StreamWriter::Write(System.Int32):System.Void",
           "clrName": "Write",
-          "tsEmitName": "Write3",
+          "tsEmitName": "write3",
           "normalizedSignature": "Write|(System.Int32):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -10047,7 +10047,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StreamWriter::Write(System.UInt32):System.Void",
           "clrName": "Write",
-          "tsEmitName": "Write4",
+          "tsEmitName": "write4",
           "normalizedSignature": "Write|(System.UInt32):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -10063,7 +10063,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StreamWriter::Write(System.Int64):System.Void",
           "clrName": "Write",
-          "tsEmitName": "Write5",
+          "tsEmitName": "write5",
           "normalizedSignature": "Write|(System.Int64):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -10079,7 +10079,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StreamWriter::Write(System.UInt64):System.Void",
           "clrName": "Write",
-          "tsEmitName": "Write6",
+          "tsEmitName": "write6",
           "normalizedSignature": "Write|(System.UInt64):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -10095,7 +10095,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StreamWriter::Write(System.Single):System.Void",
           "clrName": "Write",
-          "tsEmitName": "Write7",
+          "tsEmitName": "write7",
           "normalizedSignature": "Write|(System.Single):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -10111,7 +10111,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StreamWriter::Write(System.Double):System.Void",
           "clrName": "Write",
-          "tsEmitName": "Write8",
+          "tsEmitName": "write8",
           "normalizedSignature": "Write|(System.Double):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -10127,7 +10127,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StreamWriter::Write(System.Decimal):System.Void",
           "clrName": "Write",
-          "tsEmitName": "Write9",
+          "tsEmitName": "write9",
           "normalizedSignature": "Write|(System.Decimal):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -10143,7 +10143,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StreamWriter::Write(System.Object):System.Void",
           "clrName": "Write",
-          "tsEmitName": "Write10",
+          "tsEmitName": "write10",
           "normalizedSignature": "Write|(System.Object):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -10159,7 +10159,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StreamWriter::Write(System.Text.StringBuilder):System.Void",
           "clrName": "Write",
-          "tsEmitName": "Write11",
+          "tsEmitName": "write11",
           "normalizedSignature": "Write|(System.Text.StringBuilder):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -10175,7 +10175,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StreamWriter::Write(System.String,System.ReadOnlySpan_1):System.Void",
           "clrName": "Write",
-          "tsEmitName": "Write12",
+          "tsEmitName": "write12",
           "normalizedSignature": "Write|(System.String,System.ReadOnlySpan_1):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -10191,7 +10191,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StreamWriter::WriteAsync(System.Text.StringBuilder,System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "clrName": "WriteAsync",
-          "tsEmitName": "WriteAsync",
+          "tsEmitName": "writeAsync",
           "normalizedSignature": "WriteAsync|(System.Text.StringBuilder,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -10207,7 +10207,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StreamWriter::WriteAsync(System.Char[]):System.Threading.Tasks.Task",
           "clrName": "WriteAsync",
-          "tsEmitName": "WriteAsync2",
+          "tsEmitName": "writeAsync2",
           "normalizedSignature": "WriteAsync|(System.Char[]):System.Threading.Tasks.Task|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -10223,7 +10223,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StreamWriter::WriteAsync(System.ReadOnlyMemory_1,System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "clrName": "WriteAsync",
-          "tsEmitName": "WriteAsync3",
+          "tsEmitName": "writeAsync3",
           "normalizedSignature": "WriteAsync|(System.ReadOnlyMemory_1,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -10239,7 +10239,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StreamWriter::WriteLine():System.Void",
           "clrName": "WriteLine",
-          "tsEmitName": "WriteLine",
+          "tsEmitName": "writeLine",
           "normalizedSignature": "WriteLine|():System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -10255,7 +10255,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StreamWriter::WriteLine(System.Char):System.Void",
           "clrName": "WriteLine",
-          "tsEmitName": "WriteLine2",
+          "tsEmitName": "writeLine2",
           "normalizedSignature": "WriteLine|(System.Char):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -10271,7 +10271,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StreamWriter::WriteLine(System.Char[]):System.Void",
           "clrName": "WriteLine",
-          "tsEmitName": "WriteLine3",
+          "tsEmitName": "writeLine3",
           "normalizedSignature": "WriteLine|(System.Char[]):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -10287,7 +10287,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StreamWriter::WriteLine(System.Char[],System.Int32,System.Int32):System.Void",
           "clrName": "WriteLine",
-          "tsEmitName": "WriteLine4",
+          "tsEmitName": "writeLine4",
           "normalizedSignature": "WriteLine|(System.Char[],System.Int32,System.Int32):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -10303,7 +10303,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StreamWriter::WriteLine(System.ReadOnlySpan_1):System.Void",
           "clrName": "WriteLine",
-          "tsEmitName": "WriteLine5",
+          "tsEmitName": "writeLine5",
           "normalizedSignature": "WriteLine|(System.ReadOnlySpan_1):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -10319,7 +10319,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StreamWriter::WriteLine(System.Boolean):System.Void",
           "clrName": "WriteLine",
-          "tsEmitName": "WriteLine6",
+          "tsEmitName": "writeLine6",
           "normalizedSignature": "WriteLine|(System.Boolean):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -10335,7 +10335,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StreamWriter::WriteLine(System.Int32):System.Void",
           "clrName": "WriteLine",
-          "tsEmitName": "WriteLine7",
+          "tsEmitName": "writeLine7",
           "normalizedSignature": "WriteLine|(System.Int32):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -10351,7 +10351,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StreamWriter::WriteLine(System.UInt32):System.Void",
           "clrName": "WriteLine",
-          "tsEmitName": "WriteLine8",
+          "tsEmitName": "writeLine8",
           "normalizedSignature": "WriteLine|(System.UInt32):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -10367,7 +10367,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StreamWriter::WriteLine(System.Int64):System.Void",
           "clrName": "WriteLine",
-          "tsEmitName": "WriteLine9",
+          "tsEmitName": "writeLine9",
           "normalizedSignature": "WriteLine|(System.Int64):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -10383,7 +10383,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StreamWriter::WriteLine(System.UInt64):System.Void",
           "clrName": "WriteLine",
-          "tsEmitName": "WriteLine10",
+          "tsEmitName": "writeLine10",
           "normalizedSignature": "WriteLine|(System.UInt64):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -10399,7 +10399,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StreamWriter::WriteLine(System.Single):System.Void",
           "clrName": "WriteLine",
-          "tsEmitName": "WriteLine11",
+          "tsEmitName": "writeLine11",
           "normalizedSignature": "WriteLine|(System.Single):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -10415,7 +10415,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StreamWriter::WriteLine(System.Double):System.Void",
           "clrName": "WriteLine",
-          "tsEmitName": "WriteLine12",
+          "tsEmitName": "writeLine12",
           "normalizedSignature": "WriteLine|(System.Double):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -10431,7 +10431,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StreamWriter::WriteLine(System.Decimal):System.Void",
           "clrName": "WriteLine",
-          "tsEmitName": "WriteLine13",
+          "tsEmitName": "writeLine13",
           "normalizedSignature": "WriteLine|(System.Decimal):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -10447,7 +10447,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StreamWriter::WriteLine(System.Text.StringBuilder):System.Void",
           "clrName": "WriteLine",
-          "tsEmitName": "WriteLine14",
+          "tsEmitName": "writeLine14",
           "normalizedSignature": "WriteLine|(System.Text.StringBuilder):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -10463,7 +10463,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StreamWriter::WriteLine(System.Object):System.Void",
           "clrName": "WriteLine",
-          "tsEmitName": "WriteLine15",
+          "tsEmitName": "writeLine15",
           "normalizedSignature": "WriteLine|(System.Object):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -10479,7 +10479,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StreamWriter::WriteLine(System.String,System.ReadOnlySpan_1):System.Void",
           "clrName": "WriteLine",
-          "tsEmitName": "WriteLine16",
+          "tsEmitName": "writeLine16",
           "normalizedSignature": "WriteLine|(System.String,System.ReadOnlySpan_1):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -10495,7 +10495,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StreamWriter::WriteLineAsync(System.Text.StringBuilder,System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "clrName": "WriteLineAsync",
-          "tsEmitName": "WriteLineAsync",
+          "tsEmitName": "writeLineAsync",
           "normalizedSignature": "WriteLineAsync|(System.Text.StringBuilder,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -10511,7 +10511,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StreamWriter::WriteLineAsync(System.Char[]):System.Threading.Tasks.Task",
           "clrName": "WriteLineAsync",
-          "tsEmitName": "WriteLineAsync2",
+          "tsEmitName": "writeLineAsync2",
           "normalizedSignature": "WriteLineAsync|(System.Char[]):System.Threading.Tasks.Task|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -10527,7 +10527,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StreamWriter::WriteLineAsync(System.ReadOnlyMemory_1,System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "clrName": "WriteLineAsync",
-          "tsEmitName": "WriteLineAsync3",
+          "tsEmitName": "writeLineAsync3",
           "normalizedSignature": "WriteLineAsync|(System.ReadOnlyMemory_1,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -10699,7 +10699,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StringReader::Read():System.Int32",
           "clrName": "Read",
-          "tsEmitName": "read",
+          "tsEmitName": "read2",
           "normalizedSignature": "Read|():System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -10715,7 +10715,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StringReader::Read(System.Char[],System.Int32,System.Int32):System.Int32",
           "clrName": "Read",
-          "tsEmitName": "read2",
+          "tsEmitName": "read3",
           "normalizedSignature": "Read|(System.Char[],System.Int32,System.Int32):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -10731,7 +10731,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StringReader::Read(System.Span_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32",
           "clrName": "Read",
-          "tsEmitName": "read3",
+          "tsEmitName": "read4",
           "normalizedSignature": "Read|(System.Span_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -10747,7 +10747,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StringReader::ReadBlock(System.Span_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32",
           "clrName": "ReadBlock",
-          "tsEmitName": "readBlock",
+          "tsEmitName": "readBlock3",
           "normalizedSignature": "ReadBlock|(System.Span_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -10795,7 +10795,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StringReader::ReadLineAsync():System.Threading.Tasks.Task_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "ReadLineAsync",
-          "tsEmitName": "readLineAsync",
+          "tsEmitName": "readLineAsync3",
           "normalizedSignature": "ReadLineAsync|():System.Threading.Tasks.Task_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -10811,7 +10811,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StringReader::ReadLineAsync(System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "ReadLineAsync",
-          "tsEmitName": "readLineAsync2",
+          "tsEmitName": "readLineAsync4",
           "normalizedSignature": "ReadLineAsync|(System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -10827,7 +10827,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StringReader::ReadToEndAsync():System.Threading.Tasks.Task_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "ReadToEndAsync",
-          "tsEmitName": "readToEndAsync",
+          "tsEmitName": "readToEndAsync3",
           "normalizedSignature": "ReadToEndAsync|():System.Threading.Tasks.Task_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -10843,7 +10843,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StringReader::ReadToEndAsync(System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "ReadToEndAsync",
-          "tsEmitName": "readToEndAsync2",
+          "tsEmitName": "readToEndAsync4",
           "normalizedSignature": "ReadToEndAsync|(System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -10859,7 +10859,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StringReader::ReadBlockAsync(System.Char[],System.Int32,System.Int32):System.Threading.Tasks.Task_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "ReadBlockAsync",
-          "tsEmitName": "readBlockAsync",
+          "tsEmitName": "readBlockAsync3",
           "normalizedSignature": "ReadBlockAsync|(System.Char[],System.Int32,System.Int32):System.Threading.Tasks.Task_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -10875,7 +10875,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StringReader::ReadBlockAsync(System.Memory_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "ReadBlockAsync",
-          "tsEmitName": "readBlockAsync2",
+          "tsEmitName": "readBlockAsync4",
           "normalizedSignature": "ReadBlockAsync|(System.Memory_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -10891,7 +10891,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StringReader::ReadAsync(System.Char[],System.Int32,System.Int32):System.Threading.Tasks.Task_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "ReadAsync",
-          "tsEmitName": "readAsync",
+          "tsEmitName": "readAsync3",
           "normalizedSignature": "ReadAsync|(System.Char[],System.Int32,System.Int32):System.Threading.Tasks.Task_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -10907,7 +10907,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StringReader::ReadAsync(System.Memory_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "ReadAsync",
-          "tsEmitName": "readAsync2",
+          "tsEmitName": "readAsync4",
           "normalizedSignature": "ReadAsync|(System.Memory_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -10923,7 +10923,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "dispose",
+          "tsEmitName": "dispose$view",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -10940,7 +10940,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StringReader::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "Dispose",
+          "tsEmitName": "dispose",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -10956,7 +10956,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StringReader::Read(System.Span_1):System.Int32",
           "clrName": "Read",
-          "tsEmitName": "Read",
+          "tsEmitName": "read",
           "normalizedSignature": "Read|(System.Span_1):System.Int32|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -10972,7 +10972,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StringReader::ReadAsync(System.Char[],System.Int32,System.Int32):System.Threading.Tasks.Task_1",
           "clrName": "ReadAsync",
-          "tsEmitName": "ReadAsync",
+          "tsEmitName": "readAsync",
           "normalizedSignature": "ReadAsync|(System.Char[],System.Int32,System.Int32):System.Threading.Tasks.Task_1|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -10988,7 +10988,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StringReader::ReadAsync(System.Memory_1,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1",
           "clrName": "ReadAsync",
-          "tsEmitName": "ReadAsync2",
+          "tsEmitName": "readAsync2",
           "normalizedSignature": "ReadAsync|(System.Memory_1,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -11004,7 +11004,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StringReader::ReadBlock(System.Char[],System.Int32,System.Int32):System.Int32",
           "clrName": "ReadBlock",
-          "tsEmitName": "ReadBlock",
+          "tsEmitName": "readBlock",
           "normalizedSignature": "ReadBlock|(System.Char[],System.Int32,System.Int32):System.Int32|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -11020,7 +11020,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StringReader::ReadBlock(System.Span_1):System.Int32",
           "clrName": "ReadBlock",
-          "tsEmitName": "ReadBlock2",
+          "tsEmitName": "readBlock2",
           "normalizedSignature": "ReadBlock|(System.Span_1):System.Int32|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -11036,7 +11036,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StringReader::ReadBlockAsync(System.Char[],System.Int32,System.Int32):System.Threading.Tasks.Task_1",
           "clrName": "ReadBlockAsync",
-          "tsEmitName": "ReadBlockAsync",
+          "tsEmitName": "readBlockAsync",
           "normalizedSignature": "ReadBlockAsync|(System.Char[],System.Int32,System.Int32):System.Threading.Tasks.Task_1|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -11052,7 +11052,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StringReader::ReadBlockAsync(System.Memory_1,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1",
           "clrName": "ReadBlockAsync",
-          "tsEmitName": "ReadBlockAsync2",
+          "tsEmitName": "readBlockAsync2",
           "normalizedSignature": "ReadBlockAsync|(System.Memory_1,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -11068,7 +11068,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StringReader::ReadLineAsync():System.Threading.Tasks.Task_1",
           "clrName": "ReadLineAsync",
-          "tsEmitName": "ReadLineAsync",
+          "tsEmitName": "readLineAsync",
           "normalizedSignature": "ReadLineAsync|():System.Threading.Tasks.Task_1|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -11084,7 +11084,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StringReader::ReadLineAsync(System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1",
           "clrName": "ReadLineAsync",
-          "tsEmitName": "ReadLineAsync2",
+          "tsEmitName": "readLineAsync2",
           "normalizedSignature": "ReadLineAsync|(System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -11100,7 +11100,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StringReader::ReadToEndAsync():System.Threading.Tasks.Task_1",
           "clrName": "ReadToEndAsync",
-          "tsEmitName": "ReadToEndAsync",
+          "tsEmitName": "readToEndAsync",
           "normalizedSignature": "ReadToEndAsync|():System.Threading.Tasks.Task_1|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -11116,7 +11116,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StringReader::ReadToEndAsync(System.Threading.CancellationToken):System.Threading.Tasks.Task_1",
           "clrName": "ReadToEndAsync",
-          "tsEmitName": "ReadToEndAsync2",
+          "tsEmitName": "readToEndAsync2",
           "normalizedSignature": "ReadToEndAsync|(System.Threading.CancellationToken):System.Threading.Tasks.Task_1|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -11187,7 +11187,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StringWriter::Write(System.Char):System.Void",
           "clrName": "Write",
-          "tsEmitName": "write",
+          "tsEmitName": "write17",
           "normalizedSignature": "Write|(System.Char):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -11203,7 +11203,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StringWriter::Write(System.Char[],System.Int32,System.Int32):System.Void",
           "clrName": "Write",
-          "tsEmitName": "write2",
+          "tsEmitName": "write18",
           "normalizedSignature": "Write|(System.Char[],System.Int32,System.Int32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -11219,7 +11219,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StringWriter::Write(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "clrName": "Write",
-          "tsEmitName": "write3",
+          "tsEmitName": "write19",
           "normalizedSignature": "Write|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -11235,7 +11235,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StringWriter::Write(System.String):System.Void",
           "clrName": "Write",
-          "tsEmitName": "write4",
+          "tsEmitName": "write20",
           "normalizedSignature": "Write|(System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -11251,7 +11251,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StringWriter::Write(System.Text.StringBuilder):System.Void",
           "clrName": "Write",
-          "tsEmitName": "write5",
+          "tsEmitName": "write21",
           "normalizedSignature": "Write|(System.Text.StringBuilder):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -11267,7 +11267,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StringWriter::WriteLine(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "clrName": "WriteLine",
-          "tsEmitName": "writeLine",
+          "tsEmitName": "writeLine21",
           "normalizedSignature": "WriteLine|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -11283,7 +11283,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StringWriter::WriteLine(System.Text.StringBuilder):System.Void",
           "clrName": "WriteLine",
-          "tsEmitName": "writeLine2",
+          "tsEmitName": "writeLine22",
           "normalizedSignature": "WriteLine|(System.Text.StringBuilder):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -11299,7 +11299,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StringWriter::WriteAsync(System.Char):System.Threading.Tasks.Task",
           "clrName": "WriteAsync",
-          "tsEmitName": "writeAsync",
+          "tsEmitName": "writeAsync3",
           "normalizedSignature": "WriteAsync|(System.Char):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -11315,7 +11315,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StringWriter::WriteAsync(System.String):System.Threading.Tasks.Task",
           "clrName": "WriteAsync",
-          "tsEmitName": "writeAsync2",
+          "tsEmitName": "writeAsync4",
           "normalizedSignature": "WriteAsync|(System.String):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -11331,7 +11331,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StringWriter::WriteAsync(System.Char[],System.Int32,System.Int32):System.Threading.Tasks.Task",
           "clrName": "WriteAsync",
-          "tsEmitName": "writeAsync3",
+          "tsEmitName": "writeAsync5",
           "normalizedSignature": "WriteAsync|(System.Char[],System.Int32,System.Int32):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -11347,7 +11347,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StringWriter::WriteAsync(System.ReadOnlyMemory_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "clrName": "WriteAsync",
-          "tsEmitName": "writeAsync4",
+          "tsEmitName": "writeAsync6",
           "normalizedSignature": "WriteAsync|(System.ReadOnlyMemory_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -11363,7 +11363,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StringWriter::WriteAsync(System.Text.StringBuilder,System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "clrName": "WriteAsync",
-          "tsEmitName": "writeAsync5",
+          "tsEmitName": "writeAsync7",
           "normalizedSignature": "WriteAsync|(System.Text.StringBuilder,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -11379,7 +11379,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StringWriter::WriteLineAsync(System.Char):System.Threading.Tasks.Task",
           "clrName": "WriteLineAsync",
-          "tsEmitName": "writeLineAsync",
+          "tsEmitName": "writeLineAsync4",
           "normalizedSignature": "WriteLineAsync|(System.Char):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -11395,7 +11395,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StringWriter::WriteLineAsync(System.String):System.Threading.Tasks.Task",
           "clrName": "WriteLineAsync",
-          "tsEmitName": "writeLineAsync2",
+          "tsEmitName": "writeLineAsync5",
           "normalizedSignature": "WriteLineAsync|(System.String):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -11411,7 +11411,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StringWriter::WriteLineAsync(System.Text.StringBuilder,System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "clrName": "WriteLineAsync",
-          "tsEmitName": "writeLineAsync3",
+          "tsEmitName": "writeLineAsync6",
           "normalizedSignature": "WriteLineAsync|(System.Text.StringBuilder,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -11427,7 +11427,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StringWriter::WriteLineAsync(System.Char[],System.Int32,System.Int32):System.Threading.Tasks.Task",
           "clrName": "WriteLineAsync",
-          "tsEmitName": "writeLineAsync4",
+          "tsEmitName": "writeLineAsync7",
           "normalizedSignature": "WriteLineAsync|(System.Char[],System.Int32,System.Int32):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -11443,7 +11443,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StringWriter::WriteLineAsync(System.ReadOnlyMemory_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "clrName": "WriteLineAsync",
-          "tsEmitName": "writeLineAsync5",
+          "tsEmitName": "writeLineAsync8",
           "normalizedSignature": "WriteLineAsync|(System.ReadOnlyMemory_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -11459,7 +11459,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StringWriter::FlushAsync():System.Threading.Tasks.Task",
           "clrName": "FlushAsync",
-          "tsEmitName": "flushAsync",
+          "tsEmitName": "flushAsync2",
           "normalizedSignature": "FlushAsync|():System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -11491,7 +11491,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "dispose",
+          "tsEmitName": "dispose$view",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -11508,7 +11508,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IAsyncDisposable::DisposeAsync():System.Threading.Tasks.ValueTask",
           "clrName": "DisposeAsync",
-          "tsEmitName": "disposeAsync",
+          "tsEmitName": "disposeAsync$view",
           "normalizedSignature": "DisposeAsync|():System.Threading.Tasks.ValueTask|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -11525,7 +11525,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StringWriter::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "Dispose",
+          "tsEmitName": "dispose",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -11541,7 +11541,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StringWriter::DisposeAsync():System.Threading.Tasks.ValueTask",
           "clrName": "DisposeAsync",
-          "tsEmitName": "DisposeAsync",
+          "tsEmitName": "disposeAsync",
           "normalizedSignature": "DisposeAsync|():System.Threading.Tasks.ValueTask|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -11557,7 +11557,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StringWriter::FlushAsync(System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "clrName": "FlushAsync",
-          "tsEmitName": "FlushAsync",
+          "tsEmitName": "flushAsync",
           "normalizedSignature": "FlushAsync|(System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -11573,7 +11573,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StringWriter::Write(System.Char[]):System.Void",
           "clrName": "Write",
-          "tsEmitName": "Write",
+          "tsEmitName": "write",
           "normalizedSignature": "Write|(System.Char[]):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -11589,7 +11589,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StringWriter::Write(System.ReadOnlySpan_1):System.Void",
           "clrName": "Write",
-          "tsEmitName": "Write2",
+          "tsEmitName": "write2",
           "normalizedSignature": "Write|(System.ReadOnlySpan_1):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -11605,7 +11605,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StringWriter::Write(System.Boolean):System.Void",
           "clrName": "Write",
-          "tsEmitName": "Write3",
+          "tsEmitName": "write3",
           "normalizedSignature": "Write|(System.Boolean):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -11621,7 +11621,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StringWriter::Write(System.Int32):System.Void",
           "clrName": "Write",
-          "tsEmitName": "Write4",
+          "tsEmitName": "write4",
           "normalizedSignature": "Write|(System.Int32):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -11637,7 +11637,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StringWriter::Write(System.UInt32):System.Void",
           "clrName": "Write",
-          "tsEmitName": "Write5",
+          "tsEmitName": "write5",
           "normalizedSignature": "Write|(System.UInt32):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -11653,7 +11653,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StringWriter::Write(System.Int64):System.Void",
           "clrName": "Write",
-          "tsEmitName": "Write6",
+          "tsEmitName": "write6",
           "normalizedSignature": "Write|(System.Int64):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -11669,7 +11669,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StringWriter::Write(System.UInt64):System.Void",
           "clrName": "Write",
-          "tsEmitName": "Write7",
+          "tsEmitName": "write7",
           "normalizedSignature": "Write|(System.UInt64):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -11685,7 +11685,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StringWriter::Write(System.Single):System.Void",
           "clrName": "Write",
-          "tsEmitName": "Write8",
+          "tsEmitName": "write8",
           "normalizedSignature": "Write|(System.Single):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -11701,7 +11701,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StringWriter::Write(System.Double):System.Void",
           "clrName": "Write",
-          "tsEmitName": "Write9",
+          "tsEmitName": "write9",
           "normalizedSignature": "Write|(System.Double):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -11717,7 +11717,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StringWriter::Write(System.Decimal):System.Void",
           "clrName": "Write",
-          "tsEmitName": "Write10",
+          "tsEmitName": "write10",
           "normalizedSignature": "Write|(System.Decimal):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -11733,7 +11733,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StringWriter::Write(System.Object):System.Void",
           "clrName": "Write",
-          "tsEmitName": "Write11",
+          "tsEmitName": "write11",
           "normalizedSignature": "Write|(System.Object):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -11749,7 +11749,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StringWriter::Write(System.String,System.Object):System.Void",
           "clrName": "Write",
-          "tsEmitName": "Write12",
+          "tsEmitName": "write12",
           "normalizedSignature": "Write|(System.String,System.Object):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -11765,7 +11765,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StringWriter::Write(System.String,System.Object,System.Object):System.Void",
           "clrName": "Write",
-          "tsEmitName": "Write13",
+          "tsEmitName": "write13",
           "normalizedSignature": "Write|(System.String,System.Object,System.Object):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -11781,7 +11781,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StringWriter::Write(System.String,System.Object,System.Object,System.Object):System.Void",
           "clrName": "Write",
-          "tsEmitName": "Write14",
+          "tsEmitName": "write14",
           "normalizedSignature": "Write|(System.String,System.Object,System.Object,System.Object):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -11797,7 +11797,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StringWriter::Write(System.String,System.Object[]):System.Void",
           "clrName": "Write",
-          "tsEmitName": "Write15",
+          "tsEmitName": "write15",
           "normalizedSignature": "Write|(System.String,System.Object[]):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -11813,7 +11813,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StringWriter::Write(System.String,System.ReadOnlySpan_1):System.Void",
           "clrName": "Write",
-          "tsEmitName": "Write16",
+          "tsEmitName": "write16",
           "normalizedSignature": "Write|(System.String,System.ReadOnlySpan_1):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -11829,7 +11829,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StringWriter::WriteAsync(System.Char[]):System.Threading.Tasks.Task",
           "clrName": "WriteAsync",
-          "tsEmitName": "WriteAsync",
+          "tsEmitName": "writeAsync",
           "normalizedSignature": "WriteAsync|(System.Char[]):System.Threading.Tasks.Task|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -11845,7 +11845,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StringWriter::WriteAsync(System.ReadOnlyMemory_1,System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "clrName": "WriteAsync",
-          "tsEmitName": "WriteAsync2",
+          "tsEmitName": "writeAsync2",
           "normalizedSignature": "WriteAsync|(System.ReadOnlyMemory_1,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -11861,7 +11861,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StringWriter::WriteLine():System.Void",
           "clrName": "WriteLine",
-          "tsEmitName": "WriteLine",
+          "tsEmitName": "writeLine",
           "normalizedSignature": "WriteLine|():System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -11877,7 +11877,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StringWriter::WriteLine(System.Char):System.Void",
           "clrName": "WriteLine",
-          "tsEmitName": "WriteLine2",
+          "tsEmitName": "writeLine2",
           "normalizedSignature": "WriteLine|(System.Char):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -11893,7 +11893,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StringWriter::WriteLine(System.Char[]):System.Void",
           "clrName": "WriteLine",
-          "tsEmitName": "WriteLine3",
+          "tsEmitName": "writeLine3",
           "normalizedSignature": "WriteLine|(System.Char[]):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -11909,7 +11909,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StringWriter::WriteLine(System.Char[],System.Int32,System.Int32):System.Void",
           "clrName": "WriteLine",
-          "tsEmitName": "WriteLine4",
+          "tsEmitName": "writeLine4",
           "normalizedSignature": "WriteLine|(System.Char[],System.Int32,System.Int32):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -11925,7 +11925,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StringWriter::WriteLine(System.ReadOnlySpan_1):System.Void",
           "clrName": "WriteLine",
-          "tsEmitName": "WriteLine5",
+          "tsEmitName": "writeLine5",
           "normalizedSignature": "WriteLine|(System.ReadOnlySpan_1):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -11941,7 +11941,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StringWriter::WriteLine(System.Boolean):System.Void",
           "clrName": "WriteLine",
-          "tsEmitName": "WriteLine6",
+          "tsEmitName": "writeLine6",
           "normalizedSignature": "WriteLine|(System.Boolean):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -11957,7 +11957,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StringWriter::WriteLine(System.Int32):System.Void",
           "clrName": "WriteLine",
-          "tsEmitName": "WriteLine7",
+          "tsEmitName": "writeLine7",
           "normalizedSignature": "WriteLine|(System.Int32):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -11973,7 +11973,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StringWriter::WriteLine(System.UInt32):System.Void",
           "clrName": "WriteLine",
-          "tsEmitName": "WriteLine8",
+          "tsEmitName": "writeLine8",
           "normalizedSignature": "WriteLine|(System.UInt32):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -11989,7 +11989,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StringWriter::WriteLine(System.Int64):System.Void",
           "clrName": "WriteLine",
-          "tsEmitName": "WriteLine9",
+          "tsEmitName": "writeLine9",
           "normalizedSignature": "WriteLine|(System.Int64):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -12005,7 +12005,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StringWriter::WriteLine(System.UInt64):System.Void",
           "clrName": "WriteLine",
-          "tsEmitName": "WriteLine10",
+          "tsEmitName": "writeLine10",
           "normalizedSignature": "WriteLine|(System.UInt64):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -12021,7 +12021,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StringWriter::WriteLine(System.Single):System.Void",
           "clrName": "WriteLine",
-          "tsEmitName": "WriteLine11",
+          "tsEmitName": "writeLine11",
           "normalizedSignature": "WriteLine|(System.Single):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -12037,7 +12037,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StringWriter::WriteLine(System.Double):System.Void",
           "clrName": "WriteLine",
-          "tsEmitName": "WriteLine12",
+          "tsEmitName": "writeLine12",
           "normalizedSignature": "WriteLine|(System.Double):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -12053,7 +12053,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StringWriter::WriteLine(System.Decimal):System.Void",
           "clrName": "WriteLine",
-          "tsEmitName": "WriteLine13",
+          "tsEmitName": "writeLine13",
           "normalizedSignature": "WriteLine|(System.Decimal):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -12069,7 +12069,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StringWriter::WriteLine(System.String):System.Void",
           "clrName": "WriteLine",
-          "tsEmitName": "WriteLine14",
+          "tsEmitName": "writeLine14",
           "normalizedSignature": "WriteLine|(System.String):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -12085,7 +12085,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StringWriter::WriteLine(System.Object):System.Void",
           "clrName": "WriteLine",
-          "tsEmitName": "WriteLine15",
+          "tsEmitName": "writeLine15",
           "normalizedSignature": "WriteLine|(System.Object):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -12101,7 +12101,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StringWriter::WriteLine(System.String,System.Object):System.Void",
           "clrName": "WriteLine",
-          "tsEmitName": "WriteLine16",
+          "tsEmitName": "writeLine16",
           "normalizedSignature": "WriteLine|(System.String,System.Object):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -12117,7 +12117,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StringWriter::WriteLine(System.String,System.Object,System.Object):System.Void",
           "clrName": "WriteLine",
-          "tsEmitName": "WriteLine17",
+          "tsEmitName": "writeLine17",
           "normalizedSignature": "WriteLine|(System.String,System.Object,System.Object):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -12133,7 +12133,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StringWriter::WriteLine(System.String,System.Object,System.Object,System.Object):System.Void",
           "clrName": "WriteLine",
-          "tsEmitName": "WriteLine18",
+          "tsEmitName": "writeLine18",
           "normalizedSignature": "WriteLine|(System.String,System.Object,System.Object,System.Object):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -12149,7 +12149,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StringWriter::WriteLine(System.String,System.Object[]):System.Void",
           "clrName": "WriteLine",
-          "tsEmitName": "WriteLine19",
+          "tsEmitName": "writeLine19",
           "normalizedSignature": "WriteLine|(System.String,System.Object[]):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -12165,7 +12165,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StringWriter::WriteLine(System.String,System.ReadOnlySpan_1):System.Void",
           "clrName": "WriteLine",
-          "tsEmitName": "WriteLine20",
+          "tsEmitName": "writeLine20",
           "normalizedSignature": "WriteLine|(System.String,System.ReadOnlySpan_1):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -12181,7 +12181,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StringWriter::WriteLineAsync(System.Char[]):System.Threading.Tasks.Task",
           "clrName": "WriteLineAsync",
-          "tsEmitName": "WriteLineAsync",
+          "tsEmitName": "writeLineAsync",
           "normalizedSignature": "WriteLineAsync|(System.Char[]):System.Threading.Tasks.Task|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -12197,7 +12197,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StringWriter::WriteLineAsync(System.ReadOnlyMemory_1,System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "clrName": "WriteLineAsync",
-          "tsEmitName": "WriteLineAsync2",
+          "tsEmitName": "writeLineAsync2",
           "normalizedSignature": "WriteLineAsync|(System.ReadOnlyMemory_1,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -12213,7 +12213,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StringWriter::WriteLineAsync():System.Threading.Tasks.Task",
           "clrName": "WriteLineAsync",
-          "tsEmitName": "WriteLineAsync3",
+          "tsEmitName": "writeLineAsync3",
           "normalizedSignature": "WriteLineAsync|():System.Threading.Tasks.Task|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -14333,7 +14333,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.UnmanagedMemoryStream::FlushAsync(System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "clrName": "FlushAsync",
-          "tsEmitName": "flushAsync",
+          "tsEmitName": "flushAsync2",
           "normalizedSignature": "FlushAsync|(System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -14349,7 +14349,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.UnmanagedMemoryStream::Read(System.Byte[],System.Int32,System.Int32):System.Int32",
           "clrName": "Read",
-          "tsEmitName": "read",
+          "tsEmitName": "read2",
           "normalizedSignature": "Read|(System.Byte[],System.Int32,System.Int32):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -14365,7 +14365,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.UnmanagedMemoryStream::Read(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32",
           "clrName": "Read",
-          "tsEmitName": "read2",
+          "tsEmitName": "read3",
           "normalizedSignature": "Read|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -14381,7 +14381,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.UnmanagedMemoryStream::ReadAsync(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "ReadAsync",
-          "tsEmitName": "readAsync",
+          "tsEmitName": "readAsync4",
           "normalizedSignature": "ReadAsync|(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -14397,7 +14397,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.UnmanagedMemoryStream::ReadAsync(System.Memory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "ReadAsync",
-          "tsEmitName": "readAsync2",
+          "tsEmitName": "readAsync5",
           "normalizedSignature": "ReadAsync|(System.Memory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -14461,7 +14461,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.UnmanagedMemoryStream::Write(System.Byte[],System.Int32,System.Int32):System.Void",
           "clrName": "Write",
-          "tsEmitName": "write",
+          "tsEmitName": "write2",
           "normalizedSignature": "Write|(System.Byte[],System.Int32,System.Int32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -14477,7 +14477,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.UnmanagedMemoryStream::Write(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "clrName": "Write",
-          "tsEmitName": "write2",
+          "tsEmitName": "write3",
           "normalizedSignature": "Write|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -14493,7 +14493,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.UnmanagedMemoryStream::WriteAsync(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "clrName": "WriteAsync",
-          "tsEmitName": "writeAsync",
+          "tsEmitName": "writeAsync3",
           "normalizedSignature": "WriteAsync|(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -14509,7 +14509,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.UnmanagedMemoryStream::WriteAsync(System.ReadOnlyMemory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask",
           "clrName": "WriteAsync",
-          "tsEmitName": "writeAsync2",
+          "tsEmitName": "writeAsync4",
           "normalizedSignature": "WriteAsync|(System.ReadOnlyMemory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -14541,7 +14541,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "dispose",
+          "tsEmitName": "dispose$view",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -14558,7 +14558,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IAsyncDisposable::DisposeAsync():System.Threading.Tasks.ValueTask",
           "clrName": "DisposeAsync",
-          "tsEmitName": "disposeAsync",
+          "tsEmitName": "disposeAsync$view",
           "normalizedSignature": "DisposeAsync|():System.Threading.Tasks.ValueTask|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -14575,7 +14575,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.UnmanagedMemoryStream::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "Dispose",
+          "tsEmitName": "dispose",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -14591,7 +14591,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.UnmanagedMemoryStream::DisposeAsync():System.Threading.Tasks.ValueTask",
           "clrName": "DisposeAsync",
-          "tsEmitName": "DisposeAsync",
+          "tsEmitName": "disposeAsync",
           "normalizedSignature": "DisposeAsync|():System.Threading.Tasks.ValueTask|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -14607,7 +14607,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.UnmanagedMemoryStream::FlushAsync():System.Threading.Tasks.Task",
           "clrName": "FlushAsync",
-          "tsEmitName": "FlushAsync",
+          "tsEmitName": "flushAsync",
           "normalizedSignature": "FlushAsync|():System.Threading.Tasks.Task|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -14623,7 +14623,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.UnmanagedMemoryStream::Read(System.Span_1):System.Int32",
           "clrName": "Read",
-          "tsEmitName": "Read",
+          "tsEmitName": "read",
           "normalizedSignature": "Read|(System.Span_1):System.Int32|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -14639,7 +14639,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.UnmanagedMemoryStream::ReadAsync(System.Byte[],System.Int32,System.Int32):System.Threading.Tasks.Task_1",
           "clrName": "ReadAsync",
-          "tsEmitName": "ReadAsync",
+          "tsEmitName": "readAsync",
           "normalizedSignature": "ReadAsync|(System.Byte[],System.Int32,System.Int32):System.Threading.Tasks.Task_1|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -14655,7 +14655,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.UnmanagedMemoryStream::ReadAsync(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken):System.Threading.Tasks.Task_1",
           "clrName": "ReadAsync",
-          "tsEmitName": "ReadAsync2",
+          "tsEmitName": "readAsync2",
           "normalizedSignature": "ReadAsync|(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken):System.Threading.Tasks.Task_1|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -14671,7 +14671,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.UnmanagedMemoryStream::ReadAsync(System.Memory_1,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1",
           "clrName": "ReadAsync",
-          "tsEmitName": "ReadAsync3",
+          "tsEmitName": "readAsync3",
           "normalizedSignature": "ReadAsync|(System.Memory_1,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -14687,7 +14687,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.UnmanagedMemoryStream::Write(System.ReadOnlySpan_1):System.Void",
           "clrName": "Write",
-          "tsEmitName": "Write",
+          "tsEmitName": "write",
           "normalizedSignature": "Write|(System.ReadOnlySpan_1):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -14703,7 +14703,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.UnmanagedMemoryStream::WriteAsync(System.Byte[],System.Int32,System.Int32):System.Threading.Tasks.Task",
           "clrName": "WriteAsync",
-          "tsEmitName": "WriteAsync",
+          "tsEmitName": "writeAsync",
           "normalizedSignature": "WriteAsync|(System.Byte[],System.Int32,System.Int32):System.Threading.Tasks.Task|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -14719,7 +14719,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.UnmanagedMemoryStream::WriteAsync(System.ReadOnlyMemory_1,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask",
           "clrName": "WriteAsync",
-          "tsEmitName": "WriteAsync2",
+          "tsEmitName": "writeAsync2",
           "normalizedSignature": "WriteAsync|(System.ReadOnlyMemory_1,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",

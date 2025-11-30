@@ -822,7 +822,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.Nodes.JsonNode::get_Item(System.Int32):System.Text.Json.Nodes.JsonNode",
           "clrName": "get_Item",
-          "tsEmitName": "get_Item",
+          "tsEmitName": "getItem",
           "normalizedSignature": "get_Item|(System.Int32):System.Text.Json.Nodes.JsonNode|static=false",
           "provenance": "IndexerNormalized",
           "emitScope": "ClassSurface",
@@ -838,7 +838,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.Nodes.JsonNode::set_Item(System.Int32,System.Text.Json.Nodes.JsonNode):System.Void",
           "clrName": "set_Item",
-          "tsEmitName": "set_Item",
+          "tsEmitName": "setItem",
           "normalizedSignature": "set_Item|(System.Int32,System.Text.Json.Nodes.JsonNode):System.Void|static=false",
           "provenance": "IndexerNormalized",
           "emitScope": "ClassSurface",
@@ -854,7 +854,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.Nodes.JsonNode::get_Item(System.String):System.Text.Json.Nodes.JsonNode",
           "clrName": "get_Item",
-          "tsEmitName": "get_Item2",
+          "tsEmitName": "getItem2",
           "normalizedSignature": "get_Item|(System.String):System.Text.Json.Nodes.JsonNode|static=false",
           "provenance": "IndexerNormalized",
           "emitScope": "ClassSurface",
@@ -870,7 +870,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.Nodes.JsonNode::set_Item(System.String,System.Text.Json.Nodes.JsonNode):System.Void",
           "clrName": "set_Item",
-          "tsEmitName": "set_Item2",
+          "tsEmitName": "setItem2",
           "normalizedSignature": "set_Item|(System.String,System.Text.Json.Nodes.JsonNode):System.Void|static=false",
           "provenance": "IndexerNormalized",
           "emitScope": "ClassSurface",

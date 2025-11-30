@@ -13,7 +13,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.AssemblyContentType::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67114818,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -750,7 +750,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -793,7 +793,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.AssemblyFlags::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67109052,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -1574,7 +1574,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -1657,7 +1657,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.AssemblyHashAlgorithm::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67109045,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -2438,7 +2438,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -2521,7 +2521,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.AssemblyNameFlags::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67114833,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -3291,7 +3291,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -3364,7 +3364,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.BindingFlags::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67114845,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -4310,7 +4310,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -4543,7 +4543,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.CallingConventions::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67114867,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -5313,7 +5313,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -5386,7 +5386,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.DeclarativeSecurityAction::value__System.Int16",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67109010,
           "normalizedSignature": "value__|System.Int16|static=false|const=false",
           "isStatic": false,
@@ -6211,7 +6211,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int16|static=false|const=false",
           "target": {
@@ -6334,7 +6334,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.EventAttributes::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67114913,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -7093,7 +7093,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -7156,7 +7156,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.ExceptionHandlingClauseOptions::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67114918,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -7915,7 +7915,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -7978,7 +7978,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.FieldAttributes::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67114946,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -8902,7 +8902,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -9115,7 +9115,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.GenericParameterAttributes::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67114966,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -9929,7 +9929,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -10042,7 +10042,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.ImageFileMachine::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67114976,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -10801,7 +10801,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -10864,7 +10864,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.ManifestResourceAttributes::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67109041,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -11612,7 +11612,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -11665,7 +11665,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.MemberTypes::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67115006,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -12479,7 +12479,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -12592,7 +12592,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.MethodAttributes::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67115016,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -13571,7 +13571,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -13834,7 +13834,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.MethodImplAttributes::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67115041,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -14747,7 +14747,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -14950,7 +14950,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.MethodImportAttributes::value__System.Int16",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67109021,
           "normalizedSignature": "value__|System.Int16|static=false|const=false",
           "isStatic": false,
@@ -15874,7 +15874,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int16|static=false|const=false",
           "target": {
@@ -16087,7 +16087,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.MethodSemanticsAttributes::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67109003,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -16868,7 +16868,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -16951,7 +16951,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.NullabilityState::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67115073,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -17699,7 +17699,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -17752,7 +17752,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.ParameterAttributes::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67115091,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -18588,7 +18588,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -18721,7 +18721,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.PortableExecutableKinds::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67115112,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -19502,7 +19502,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -19585,7 +19585,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.ProcessorArchitecture::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67115119,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -20366,7 +20366,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -20449,7 +20449,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.PropertyAttributes::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67115126,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -21252,7 +21252,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -21355,7 +21355,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.ResourceAttributes::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67115137,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -22092,7 +22092,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -22135,7 +22135,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.ResourceLocation::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67115140,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -22883,7 +22883,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -22936,7 +22936,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeAttributes::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67115157,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -24003,7 +24003,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -25661,7 +25661,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "getObjectData",
+          "tsEmitName": "getObjectData$view",
           "metadataToken": 100682669,
           "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
@@ -25675,7 +25675,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.AmbiguousMatchException::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData",
+          "tsEmitName": "getObjectData",
           "metadataToken": 0,
           "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
@@ -25724,7 +25724,7 @@
       ],
       "exposedMethods": [
         {
-          "tsName": "getObjectData",
+          "tsName": "getObjectData$view",
           "isStatic": false,
           "tsSignatureId": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "target": {
@@ -25734,7 +25734,7 @@
           }
         },
         {
-          "tsName": "GetObjectData",
+          "tsName": "getObjectData",
           "isStatic": false,
           "tsSignatureId": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "target": {
@@ -38040,7 +38040,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.ConstructorInfo::Invoke(System.Object[]):System.Object",
           "clrName": "Invoke",
-          "tsEmitName": "invoke",
+          "tsEmitName": "invoke3",
           "metadataToken": 100696585,
           "canonicalSignature": "(System.Object[]):System.Object",
           "normalizedSignature": "Invoke|(System.Object[]):System.Object|static=false",
@@ -38054,7 +38054,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.ConstructorInfo::Invoke(System.Reflection.BindingFlags,System.Reflection.Binder,System.Object[],System.Globalization.CultureInfo):System.Object",
           "clrName": "Invoke",
-          "tsEmitName": "invoke2",
+          "tsEmitName": "invoke4",
           "metadataToken": 100696586,
           "canonicalSignature": "(System.Reflection.BindingFlags,System.Reflection.Binder,System.Object[],System.Globalization.CultureInfo):System.Object",
           "normalizedSignature": "Invoke|(System.Reflection.BindingFlags,System.Reflection.Binder,System.Object[],System.Globalization.CultureInfo):System.Object|static=false",
@@ -38096,7 +38096,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.ICustomAttributeProvider::GetCustomAttributes(System.Boolean):System.Object[]",
           "clrName": "GetCustomAttributes",
-          "tsEmitName": "getCustomAttributes",
+          "tsEmitName": "getCustomAttributes$view",
           "metadataToken": 100697669,
           "canonicalSignature": "(System.Boolean):System.Object[]",
           "normalizedSignature": "GetCustomAttributes|(System.Boolean):System.Object[]|static=false",
@@ -38110,7 +38110,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.ICustomAttributeProvider::GetCustomAttributes(System.Type,System.Boolean):System.Object[]",
           "clrName": "GetCustomAttributes",
-          "tsEmitName": "getCustomAttributes2",
+          "tsEmitName": "getCustomAttributes$view2",
           "metadataToken": 100697670,
           "canonicalSignature": "(System.Type,System.Boolean):System.Object[]",
           "normalizedSignature": "GetCustomAttributes|(System.Type,System.Boolean):System.Object[]|static=false",
@@ -38124,7 +38124,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.ICustomAttributeProvider::IsDefined(System.Type,System.Boolean):System.Boolean",
           "clrName": "IsDefined",
-          "tsEmitName": "isDefined",
+          "tsEmitName": "isDefined$view",
           "metadataToken": 100697671,
           "canonicalSignature": "(System.Type,System.Boolean):System.Boolean",
           "normalizedSignature": "IsDefined|(System.Type,System.Boolean):System.Boolean|static=false",
@@ -38138,7 +38138,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.ConstructorInfo::GetCustomAttributes(System.Boolean):System.Object[]",
           "clrName": "GetCustomAttributes",
-          "tsEmitName": "GetCustomAttributes",
+          "tsEmitName": "getCustomAttributes",
           "metadataToken": 0,
           "canonicalSignature": "(System.Boolean):System.Object[]",
           "normalizedSignature": "GetCustomAttributes|(System.Boolean):System.Object[]|static=false",
@@ -38152,7 +38152,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.ConstructorInfo::GetCustomAttributes(System.Type,System.Boolean):System.Object[]",
           "clrName": "GetCustomAttributes",
-          "tsEmitName": "GetCustomAttributes5",
+          "tsEmitName": "getCustomAttributes5",
           "metadataToken": 0,
           "canonicalSignature": "(System.Type,System.Boolean):System.Object[]",
           "normalizedSignature": "GetCustomAttributes|(System.Type,System.Boolean):System.Object[]|static=false",
@@ -38166,7 +38166,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.ConstructorInfo::Invoke(System.Object,System.Object[]):System.Object",
           "clrName": "Invoke",
-          "tsEmitName": "Invoke",
+          "tsEmitName": "invoke",
           "metadataToken": 0,
           "canonicalSignature": "(System.Object,System.Object[]):System.Object",
           "normalizedSignature": "Invoke|(System.Object,System.Object[]):System.Object|static=false",
@@ -38180,7 +38180,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.ConstructorInfo::Invoke(System.Object,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object[],System.Globalization.CultureInfo):System.Object",
           "clrName": "Invoke",
-          "tsEmitName": "Invoke2",
+          "tsEmitName": "invoke2",
           "metadataToken": 0,
           "canonicalSignature": "(System.Object,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object[],System.Globalization.CultureInfo):System.Object",
           "normalizedSignature": "Invoke|(System.Object,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object[],System.Globalization.CultureInfo):System.Object|static=false",
@@ -38194,7 +38194,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.ConstructorInfo::IsDefined(System.Type,System.Boolean):System.Boolean",
           "clrName": "IsDefined",
-          "tsEmitName": "IsDefined",
+          "tsEmitName": "isDefined",
           "metadataToken": 0,
           "canonicalSignature": "(System.Type,System.Boolean):System.Boolean",
           "normalizedSignature": "IsDefined|(System.Type,System.Boolean):System.Boolean|static=false",
@@ -38250,7 +38250,7 @@
       "constructors": [],
       "exposedMethods": [
         {
-          "tsName": "invoke",
+          "tsName": "invoke3",
           "isStatic": false,
           "tsSignatureId": "Invoke|(System.Object[]):System.Object|static=false",
           "target": {
@@ -38260,7 +38260,7 @@
           }
         },
         {
-          "tsName": "invoke2",
+          "tsName": "invoke4",
           "isStatic": false,
           "tsSignatureId": "Invoke|(System.Reflection.BindingFlags,System.Reflection.Binder,System.Object[],System.Globalization.CultureInfo):System.Object|static=false",
           "target": {
@@ -38290,7 +38290,7 @@
           }
         },
         {
-          "tsName": "getCustomAttributes",
+          "tsName": "getCustomAttributes$view",
           "isStatic": false,
           "tsSignatureId": "GetCustomAttributes|(System.Boolean):System.Object[]|static=false",
           "target": {
@@ -38300,7 +38300,7 @@
           }
         },
         {
-          "tsName": "getCustomAttributes2",
+          "tsName": "getCustomAttributes$view2",
           "isStatic": false,
           "tsSignatureId": "GetCustomAttributes|(System.Type,System.Boolean):System.Object[]|static=false",
           "target": {
@@ -38310,7 +38310,7 @@
           }
         },
         {
-          "tsName": "isDefined",
+          "tsName": "isDefined$view",
           "isStatic": false,
           "tsSignatureId": "IsDefined|(System.Type,System.Boolean):System.Boolean|static=false",
           "target": {
@@ -38320,7 +38320,7 @@
           }
         },
         {
-          "tsName": "GetCustomAttributes",
+          "tsName": "getCustomAttributes",
           "isStatic": false,
           "tsSignatureId": "GetCustomAttributes|(System.Boolean):System.Object[]|static=false",
           "target": {
@@ -38330,7 +38330,7 @@
           }
         },
         {
-          "tsName": "GetCustomAttributes5",
+          "tsName": "getCustomAttributes5",
           "isStatic": false,
           "tsSignatureId": "GetCustomAttributes|(System.Type,System.Boolean):System.Object[]|static=false",
           "target": {
@@ -38340,7 +38340,7 @@
           }
         },
         {
-          "tsName": "Invoke",
+          "tsName": "invoke",
           "isStatic": false,
           "tsSignatureId": "Invoke|(System.Object,System.Object[]):System.Object|static=false",
           "target": {
@@ -38350,7 +38350,7 @@
           }
         },
         {
-          "tsName": "Invoke2",
+          "tsName": "invoke2",
           "isStatic": false,
           "tsSignatureId": "Invoke|(System.Object,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object[],System.Globalization.CultureInfo):System.Object|static=false",
           "target": {
@@ -38360,7 +38360,7 @@
           }
         },
         {
-          "tsName": "IsDefined",
+          "tsName": "isDefined",
           "isStatic": false,
           "tsSignatureId": "IsDefined|(System.Type,System.Boolean):System.Boolean|static=false",
           "target": {
@@ -39382,7 +39382,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "getObjectData",
+          "tsEmitName": "getObjectData$view",
           "metadataToken": 100682669,
           "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
@@ -39396,7 +39396,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.CustomAttributeFormatException::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData",
+          "tsEmitName": "getObjectData",
           "metadataToken": 0,
           "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
@@ -39445,7 +39445,7 @@
       ],
       "exposedMethods": [
         {
-          "tsName": "getObjectData",
+          "tsName": "getObjectData$view",
           "isStatic": false,
           "tsSignatureId": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "target": {
@@ -39455,7 +39455,7 @@
           }
         },
         {
-          "tsName": "GetObjectData",
+          "tsName": "getObjectData",
           "isStatic": false,
           "tsSignatureId": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "target": {
@@ -40421,7 +40421,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.ICustomAttributeProvider::GetCustomAttributes(System.Boolean):System.Object[]",
           "clrName": "GetCustomAttributes",
-          "tsEmitName": "getCustomAttributes",
+          "tsEmitName": "getCustomAttributes$view",
           "metadataToken": 100697669,
           "canonicalSignature": "(System.Boolean):System.Object[]",
           "normalizedSignature": "GetCustomAttributes|(System.Boolean):System.Object[]|static=false",
@@ -40435,7 +40435,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.ICustomAttributeProvider::GetCustomAttributes(System.Type,System.Boolean):System.Object[]",
           "clrName": "GetCustomAttributes",
-          "tsEmitName": "getCustomAttributes2",
+          "tsEmitName": "getCustomAttributes$view2",
           "metadataToken": 100697670,
           "canonicalSignature": "(System.Type,System.Boolean):System.Object[]",
           "normalizedSignature": "GetCustomAttributes|(System.Type,System.Boolean):System.Object[]|static=false",
@@ -40449,7 +40449,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.ICustomAttributeProvider::IsDefined(System.Type,System.Boolean):System.Boolean",
           "clrName": "IsDefined",
-          "tsEmitName": "isDefined",
+          "tsEmitName": "isDefined$view",
           "metadataToken": 100697671,
           "canonicalSignature": "(System.Type,System.Boolean):System.Boolean",
           "normalizedSignature": "IsDefined|(System.Type,System.Boolean):System.Boolean|static=false",
@@ -40463,7 +40463,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.EventInfo::GetCustomAttributes(System.Boolean):System.Object[]",
           "clrName": "GetCustomAttributes",
-          "tsEmitName": "GetCustomAttributes",
+          "tsEmitName": "getCustomAttributes",
           "metadataToken": 0,
           "canonicalSignature": "(System.Boolean):System.Object[]",
           "normalizedSignature": "GetCustomAttributes|(System.Boolean):System.Object[]|static=false",
@@ -40477,7 +40477,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.EventInfo::GetCustomAttributes(System.Type,System.Boolean):System.Object[]",
           "clrName": "GetCustomAttributes",
-          "tsEmitName": "GetCustomAttributes3",
+          "tsEmitName": "getCustomAttributes3",
           "metadataToken": 0,
           "canonicalSignature": "(System.Type,System.Boolean):System.Object[]",
           "normalizedSignature": "GetCustomAttributes|(System.Type,System.Boolean):System.Object[]|static=false",
@@ -40491,7 +40491,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.EventInfo::IsDefined(System.Type,System.Boolean):System.Boolean",
           "clrName": "IsDefined",
-          "tsEmitName": "IsDefined",
+          "tsEmitName": "isDefined",
           "metadataToken": 0,
           "canonicalSignature": "(System.Type,System.Boolean):System.Boolean",
           "normalizedSignature": "IsDefined|(System.Type,System.Boolean):System.Boolean|static=false",
@@ -40742,7 +40742,7 @@
           }
         },
         {
-          "tsName": "getCustomAttributes",
+          "tsName": "getCustomAttributes$view",
           "isStatic": false,
           "tsSignatureId": "GetCustomAttributes|(System.Boolean):System.Object[]|static=false",
           "target": {
@@ -40752,7 +40752,7 @@
           }
         },
         {
-          "tsName": "getCustomAttributes2",
+          "tsName": "getCustomAttributes$view2",
           "isStatic": false,
           "tsSignatureId": "GetCustomAttributes|(System.Type,System.Boolean):System.Object[]|static=false",
           "target": {
@@ -40762,7 +40762,7 @@
           }
         },
         {
-          "tsName": "isDefined",
+          "tsName": "isDefined$view",
           "isStatic": false,
           "tsSignatureId": "IsDefined|(System.Type,System.Boolean):System.Boolean|static=false",
           "target": {
@@ -40772,7 +40772,7 @@
           }
         },
         {
-          "tsName": "GetCustomAttributes",
+          "tsName": "getCustomAttributes",
           "isStatic": false,
           "tsSignatureId": "GetCustomAttributes|(System.Boolean):System.Object[]|static=false",
           "target": {
@@ -40782,7 +40782,7 @@
           }
         },
         {
-          "tsName": "GetCustomAttributes3",
+          "tsName": "getCustomAttributes3",
           "isStatic": false,
           "tsSignatureId": "GetCustomAttributes|(System.Type,System.Boolean):System.Object[]|static=false",
           "target": {
@@ -40792,7 +40792,7 @@
           }
         },
         {
-          "tsName": "IsDefined",
+          "tsName": "isDefined",
           "isStatic": false,
           "tsSignatureId": "IsDefined|(System.Type,System.Boolean):System.Boolean|static=false",
           "target": {
@@ -41467,7 +41467,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.ICustomAttributeProvider::GetCustomAttributes(System.Boolean):System.Object[]",
           "clrName": "GetCustomAttributes",
-          "tsEmitName": "getCustomAttributes",
+          "tsEmitName": "getCustomAttributes$view",
           "metadataToken": 100697669,
           "canonicalSignature": "(System.Boolean):System.Object[]",
           "normalizedSignature": "GetCustomAttributes|(System.Boolean):System.Object[]|static=false",
@@ -41481,7 +41481,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.ICustomAttributeProvider::GetCustomAttributes(System.Type,System.Boolean):System.Object[]",
           "clrName": "GetCustomAttributes",
-          "tsEmitName": "getCustomAttributes2",
+          "tsEmitName": "getCustomAttributes$view2",
           "metadataToken": 100697670,
           "canonicalSignature": "(System.Type,System.Boolean):System.Object[]",
           "normalizedSignature": "GetCustomAttributes|(System.Type,System.Boolean):System.Object[]|static=false",
@@ -41495,7 +41495,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.ICustomAttributeProvider::IsDefined(System.Type,System.Boolean):System.Boolean",
           "clrName": "IsDefined",
-          "tsEmitName": "isDefined",
+          "tsEmitName": "isDefined$view",
           "metadataToken": 100697671,
           "canonicalSignature": "(System.Type,System.Boolean):System.Boolean",
           "normalizedSignature": "IsDefined|(System.Type,System.Boolean):System.Boolean|static=false",
@@ -41509,7 +41509,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.FieldInfo::GetCustomAttributes(System.Boolean):System.Object[]",
           "clrName": "GetCustomAttributes",
-          "tsEmitName": "GetCustomAttributes",
+          "tsEmitName": "getCustomAttributes",
           "metadataToken": 0,
           "canonicalSignature": "(System.Boolean):System.Object[]",
           "normalizedSignature": "GetCustomAttributes|(System.Boolean):System.Object[]|static=false",
@@ -41523,7 +41523,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.FieldInfo::GetCustomAttributes(System.Type,System.Boolean):System.Object[]",
           "clrName": "GetCustomAttributes",
-          "tsEmitName": "GetCustomAttributes3",
+          "tsEmitName": "getCustomAttributes3",
           "metadataToken": 0,
           "canonicalSignature": "(System.Type,System.Boolean):System.Object[]",
           "normalizedSignature": "GetCustomAttributes|(System.Type,System.Boolean):System.Object[]|static=false",
@@ -41537,7 +41537,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.FieldInfo::IsDefined(System.Type,System.Boolean):System.Boolean",
           "clrName": "IsDefined",
-          "tsEmitName": "IsDefined",
+          "tsEmitName": "isDefined",
           "metadataToken": 0,
           "canonicalSignature": "(System.Type,System.Boolean):System.Boolean",
           "normalizedSignature": "IsDefined|(System.Type,System.Boolean):System.Boolean|static=false",
@@ -41952,7 +41952,7 @@
           }
         },
         {
-          "tsName": "getCustomAttributes",
+          "tsName": "getCustomAttributes$view",
           "isStatic": false,
           "tsSignatureId": "GetCustomAttributes|(System.Boolean):System.Object[]|static=false",
           "target": {
@@ -41962,7 +41962,7 @@
           }
         },
         {
-          "tsName": "getCustomAttributes2",
+          "tsName": "getCustomAttributes$view2",
           "isStatic": false,
           "tsSignatureId": "GetCustomAttributes|(System.Type,System.Boolean):System.Object[]|static=false",
           "target": {
@@ -41972,7 +41972,7 @@
           }
         },
         {
-          "tsName": "isDefined",
+          "tsName": "isDefined$view",
           "isStatic": false,
           "tsSignatureId": "IsDefined|(System.Type,System.Boolean):System.Boolean|static=false",
           "target": {
@@ -41982,7 +41982,7 @@
           }
         },
         {
-          "tsName": "GetCustomAttributes",
+          "tsName": "getCustomAttributes",
           "isStatic": false,
           "tsSignatureId": "GetCustomAttributes|(System.Boolean):System.Object[]|static=false",
           "target": {
@@ -41992,7 +41992,7 @@
           }
         },
         {
-          "tsName": "GetCustomAttributes3",
+          "tsName": "getCustomAttributes3",
           "isStatic": false,
           "tsSignatureId": "GetCustomAttributes|(System.Type,System.Boolean):System.Object[]|static=false",
           "target": {
@@ -42002,7 +42002,7 @@
           }
         },
         {
-          "tsName": "IsDefined",
+          "tsName": "isDefined",
           "isStatic": false,
           "tsSignatureId": "IsDefined|(System.Type,System.Boolean):System.Boolean|static=false",
           "target": {
@@ -42345,7 +42345,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "getObjectData",
+          "tsEmitName": "getObjectData$view",
           "metadataToken": 100682669,
           "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
@@ -42359,7 +42359,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.InvalidFilterCriteriaException::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData",
+          "tsEmitName": "getObjectData",
           "metadataToken": 0,
           "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
@@ -42408,7 +42408,7 @@
       ],
       "exposedMethods": [
         {
-          "tsName": "getObjectData",
+          "tsName": "getObjectData$view",
           "isStatic": false,
           "tsSignatureId": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "target": {
@@ -42418,7 +42418,7 @@
           }
         },
         {
-          "tsName": "GetObjectData",
+          "tsName": "getObjectData",
           "isStatic": false,
           "tsSignatureId": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "target": {
@@ -42997,7 +42997,7 @@
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "clone",
+          "tsEmitName": "clone$view",
           "metadataToken": 100668509,
           "canonicalSignature": "():System.Object",
           "normalizedSignature": "Clone|():System.Object|static=false",
@@ -43011,7 +43011,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "getObjectData",
+          "tsEmitName": "getObjectData$view",
           "metadataToken": 100682669,
           "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
@@ -43025,7 +43025,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.MemberFilter::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "Clone",
+          "tsEmitName": "clone",
           "metadataToken": 0,
           "canonicalSignature": "():System.Object",
           "normalizedSignature": "Clone|():System.Object|static=false",
@@ -43039,7 +43039,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.MemberFilter::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData",
+          "tsEmitName": "getObjectData",
           "metadataToken": 0,
           "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
@@ -43098,7 +43098,7 @@
           }
         },
         {
-          "tsName": "clone",
+          "tsName": "clone$view",
           "isStatic": false,
           "tsSignatureId": "Clone|():System.Object|static=false",
           "target": {
@@ -43108,7 +43108,7 @@
           }
         },
         {
-          "tsName": "getObjectData",
+          "tsName": "getObjectData$view",
           "isStatic": false,
           "tsSignatureId": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "target": {
@@ -43118,7 +43118,7 @@
           }
         },
         {
-          "tsName": "Clone",
+          "tsName": "clone",
           "isStatic": false,
           "tsSignatureId": "Clone|():System.Object|static=false",
           "target": {
@@ -43128,7 +43128,7 @@
           }
         },
         {
-          "tsName": "GetObjectData",
+          "tsName": "getObjectData",
           "isStatic": false,
           "tsSignatureId": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "target": {
@@ -44076,7 +44076,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.ICustomAttributeProvider::GetCustomAttributes(System.Boolean):System.Object[]",
           "clrName": "GetCustomAttributes",
-          "tsEmitName": "getCustomAttributes",
+          "tsEmitName": "getCustomAttributes$view",
           "metadataToken": 100697669,
           "canonicalSignature": "(System.Boolean):System.Object[]",
           "normalizedSignature": "GetCustomAttributes|(System.Boolean):System.Object[]|static=false",
@@ -44090,7 +44090,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.ICustomAttributeProvider::GetCustomAttributes(System.Type,System.Boolean):System.Object[]",
           "clrName": "GetCustomAttributes",
-          "tsEmitName": "getCustomAttributes2",
+          "tsEmitName": "getCustomAttributes$view2",
           "metadataToken": 100697670,
           "canonicalSignature": "(System.Type,System.Boolean):System.Object[]",
           "normalizedSignature": "GetCustomAttributes|(System.Type,System.Boolean):System.Object[]|static=false",
@@ -44104,7 +44104,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.ICustomAttributeProvider::IsDefined(System.Type,System.Boolean):System.Boolean",
           "clrName": "IsDefined",
-          "tsEmitName": "isDefined",
+          "tsEmitName": "isDefined$view",
           "metadataToken": 100697671,
           "canonicalSignature": "(System.Type,System.Boolean):System.Boolean",
           "normalizedSignature": "IsDefined|(System.Type,System.Boolean):System.Boolean|static=false",
@@ -44118,7 +44118,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.MethodBase::GetCustomAttributes(System.Boolean):System.Object[]",
           "clrName": "GetCustomAttributes",
-          "tsEmitName": "GetCustomAttributes",
+          "tsEmitName": "getCustomAttributes",
           "metadataToken": 0,
           "canonicalSignature": "(System.Boolean):System.Object[]",
           "normalizedSignature": "GetCustomAttributes|(System.Boolean):System.Object[]|static=false",
@@ -44132,7 +44132,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.MethodBase::GetCustomAttributes(System.Type,System.Boolean):System.Object[]",
           "clrName": "GetCustomAttributes",
-          "tsEmitName": "GetCustomAttributes3",
+          "tsEmitName": "getCustomAttributes3",
           "metadataToken": 0,
           "canonicalSignature": "(System.Type,System.Boolean):System.Object[]",
           "normalizedSignature": "GetCustomAttributes|(System.Type,System.Boolean):System.Object[]|static=false",
@@ -44146,7 +44146,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.MethodBase::IsDefined(System.Type,System.Boolean):System.Boolean",
           "clrName": "IsDefined",
-          "tsEmitName": "IsDefined",
+          "tsEmitName": "isDefined",
           "metadataToken": 0,
           "canonicalSignature": "(System.Type,System.Boolean):System.Boolean",
           "normalizedSignature": "IsDefined|(System.Type,System.Boolean):System.Boolean|static=false",
@@ -44611,7 +44611,7 @@
           }
         },
         {
-          "tsName": "getCustomAttributes",
+          "tsName": "getCustomAttributes$view",
           "isStatic": false,
           "tsSignatureId": "GetCustomAttributes|(System.Boolean):System.Object[]|static=false",
           "target": {
@@ -44621,7 +44621,7 @@
           }
         },
         {
-          "tsName": "getCustomAttributes2",
+          "tsName": "getCustomAttributes$view2",
           "isStatic": false,
           "tsSignatureId": "GetCustomAttributes|(System.Type,System.Boolean):System.Object[]|static=false",
           "target": {
@@ -44631,7 +44631,7 @@
           }
         },
         {
-          "tsName": "isDefined",
+          "tsName": "isDefined$view",
           "isStatic": false,
           "tsSignatureId": "IsDefined|(System.Type,System.Boolean):System.Boolean|static=false",
           "target": {
@@ -44641,7 +44641,7 @@
           }
         },
         {
-          "tsName": "GetCustomAttributes",
+          "tsName": "getCustomAttributes",
           "isStatic": false,
           "tsSignatureId": "GetCustomAttributes|(System.Boolean):System.Object[]|static=false",
           "target": {
@@ -44651,7 +44651,7 @@
           }
         },
         {
-          "tsName": "GetCustomAttributes3",
+          "tsName": "getCustomAttributes3",
           "isStatic": false,
           "tsSignatureId": "GetCustomAttributes|(System.Type,System.Boolean):System.Object[]|static=false",
           "target": {
@@ -44661,7 +44661,7 @@
           }
         },
         {
-          "tsName": "IsDefined",
+          "tsName": "isDefined",
           "isStatic": false,
           "tsSignatureId": "IsDefined|(System.Type,System.Boolean):System.Boolean|static=false",
           "target": {
@@ -45426,7 +45426,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.ICustomAttributeProvider::GetCustomAttributes(System.Boolean):System.Object[]",
           "clrName": "GetCustomAttributes",
-          "tsEmitName": "getCustomAttributes",
+          "tsEmitName": "getCustomAttributes$view",
           "metadataToken": 100697669,
           "canonicalSignature": "(System.Boolean):System.Object[]",
           "normalizedSignature": "GetCustomAttributes|(System.Boolean):System.Object[]|static=false",
@@ -45440,7 +45440,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.ICustomAttributeProvider::GetCustomAttributes(System.Type,System.Boolean):System.Object[]",
           "clrName": "GetCustomAttributes",
-          "tsEmitName": "getCustomAttributes2",
+          "tsEmitName": "getCustomAttributes$view2",
           "metadataToken": 100697670,
           "canonicalSignature": "(System.Type,System.Boolean):System.Object[]",
           "normalizedSignature": "GetCustomAttributes|(System.Type,System.Boolean):System.Object[]|static=false",
@@ -45454,7 +45454,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.ICustomAttributeProvider::IsDefined(System.Type,System.Boolean):System.Boolean",
           "clrName": "IsDefined",
-          "tsEmitName": "isDefined",
+          "tsEmitName": "isDefined$view",
           "metadataToken": 100697671,
           "canonicalSignature": "(System.Type,System.Boolean):System.Boolean",
           "normalizedSignature": "IsDefined|(System.Type,System.Boolean):System.Boolean|static=false",
@@ -45468,7 +45468,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.MethodInfo::GetCustomAttributes(System.Boolean):System.Object[]",
           "clrName": "GetCustomAttributes",
-          "tsEmitName": "GetCustomAttributes",
+          "tsEmitName": "getCustomAttributes",
           "metadataToken": 0,
           "canonicalSignature": "(System.Boolean):System.Object[]",
           "normalizedSignature": "GetCustomAttributes|(System.Boolean):System.Object[]|static=false",
@@ -45482,7 +45482,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.MethodInfo::GetCustomAttributes(System.Type,System.Boolean):System.Object[]",
           "clrName": "GetCustomAttributes",
-          "tsEmitName": "GetCustomAttributes5",
+          "tsEmitName": "getCustomAttributes5",
           "metadataToken": 0,
           "canonicalSignature": "(System.Type,System.Boolean):System.Object[]",
           "normalizedSignature": "GetCustomAttributes|(System.Type,System.Boolean):System.Object[]|static=false",
@@ -45496,7 +45496,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.MethodInfo::IsDefined(System.Type,System.Boolean):System.Boolean",
           "clrName": "IsDefined",
-          "tsEmitName": "IsDefined",
+          "tsEmitName": "isDefined",
           "metadataToken": 0,
           "canonicalSignature": "(System.Type,System.Boolean):System.Boolean",
           "normalizedSignature": "IsDefined|(System.Type,System.Boolean):System.Boolean|static=false",
@@ -45671,7 +45671,7 @@
           }
         },
         {
-          "tsName": "getCustomAttributes",
+          "tsName": "getCustomAttributes$view",
           "isStatic": false,
           "tsSignatureId": "GetCustomAttributes|(System.Boolean):System.Object[]|static=false",
           "target": {
@@ -45681,7 +45681,7 @@
           }
         },
         {
-          "tsName": "getCustomAttributes2",
+          "tsName": "getCustomAttributes$view2",
           "isStatic": false,
           "tsSignatureId": "GetCustomAttributes|(System.Type,System.Boolean):System.Object[]|static=false",
           "target": {
@@ -45691,7 +45691,7 @@
           }
         },
         {
-          "tsName": "isDefined",
+          "tsName": "isDefined$view",
           "isStatic": false,
           "tsSignatureId": "IsDefined|(System.Type,System.Boolean):System.Boolean|static=false",
           "target": {
@@ -45701,7 +45701,7 @@
           }
         },
         {
-          "tsName": "GetCustomAttributes",
+          "tsName": "getCustomAttributes",
           "isStatic": false,
           "tsSignatureId": "GetCustomAttributes|(System.Boolean):System.Object[]|static=false",
           "target": {
@@ -45711,7 +45711,7 @@
           }
         },
         {
-          "tsName": "GetCustomAttributes5",
+          "tsName": "getCustomAttributes5",
           "isStatic": false,
           "tsSignatureId": "GetCustomAttributes|(System.Type,System.Boolean):System.Object[]|static=false",
           "target": {
@@ -45721,7 +45721,7 @@
           }
         },
         {
-          "tsName": "IsDefined",
+          "tsName": "isDefined",
           "isStatic": false,
           "tsSignatureId": "IsDefined|(System.Type,System.Boolean):System.Boolean|static=false",
           "target": {
@@ -47863,7 +47863,7 @@
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "clone",
+          "tsEmitName": "clone$view",
           "metadataToken": 100668509,
           "canonicalSignature": "():System.Object",
           "normalizedSignature": "Clone|():System.Object|static=false",
@@ -47877,7 +47877,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "getObjectData",
+          "tsEmitName": "getObjectData$view",
           "metadataToken": 100682669,
           "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
@@ -47891,7 +47891,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.ModuleResolveEventHandler::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "Clone",
+          "tsEmitName": "clone",
           "metadataToken": 0,
           "canonicalSignature": "():System.Object",
           "normalizedSignature": "Clone|():System.Object|static=false",
@@ -47905,7 +47905,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.ModuleResolveEventHandler::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData",
+          "tsEmitName": "getObjectData",
           "metadataToken": 0,
           "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
@@ -47964,7 +47964,7 @@
           }
         },
         {
-          "tsName": "clone",
+          "tsName": "clone$view",
           "isStatic": false,
           "tsSignatureId": "Clone|():System.Object|static=false",
           "target": {
@@ -47974,7 +47974,7 @@
           }
         },
         {
-          "tsName": "getObjectData",
+          "tsName": "getObjectData$view",
           "isStatic": false,
           "tsSignatureId": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "target": {
@@ -47984,7 +47984,7 @@
           }
         },
         {
-          "tsName": "Clone",
+          "tsName": "clone",
           "isStatic": false,
           "tsSignatureId": "Clone|():System.Object|static=false",
           "target": {
@@ -47994,7 +47994,7 @@
           }
         },
         {
-          "tsName": "GetObjectData",
+          "tsName": "getObjectData",
           "isStatic": false,
           "tsSignatureId": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "target": {
@@ -50925,7 +50925,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.ICustomAttributeProvider::GetCustomAttributes(System.Boolean):System.Object[]",
           "clrName": "GetCustomAttributes",
-          "tsEmitName": "getCustomAttributes",
+          "tsEmitName": "getCustomAttributes$view",
           "metadataToken": 100697669,
           "canonicalSignature": "(System.Boolean):System.Object[]",
           "normalizedSignature": "GetCustomAttributes|(System.Boolean):System.Object[]|static=false",
@@ -50939,7 +50939,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.ICustomAttributeProvider::GetCustomAttributes(System.Type,System.Boolean):System.Object[]",
           "clrName": "GetCustomAttributes",
-          "tsEmitName": "getCustomAttributes2",
+          "tsEmitName": "getCustomAttributes$view2",
           "metadataToken": 100697670,
           "canonicalSignature": "(System.Type,System.Boolean):System.Object[]",
           "normalizedSignature": "GetCustomAttributes|(System.Type,System.Boolean):System.Object[]|static=false",
@@ -50953,7 +50953,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.ICustomAttributeProvider::IsDefined(System.Type,System.Boolean):System.Boolean",
           "clrName": "IsDefined",
-          "tsEmitName": "isDefined",
+          "tsEmitName": "isDefined$view",
           "metadataToken": 100697671,
           "canonicalSignature": "(System.Type,System.Boolean):System.Boolean",
           "normalizedSignature": "IsDefined|(System.Type,System.Boolean):System.Boolean|static=false",
@@ -50967,7 +50967,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.PropertyInfo::GetCustomAttributes(System.Boolean):System.Object[]",
           "clrName": "GetCustomAttributes",
-          "tsEmitName": "GetCustomAttributes",
+          "tsEmitName": "getCustomAttributes",
           "metadataToken": 0,
           "canonicalSignature": "(System.Boolean):System.Object[]",
           "normalizedSignature": "GetCustomAttributes|(System.Boolean):System.Object[]|static=false",
@@ -50981,7 +50981,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.PropertyInfo::GetCustomAttributes(System.Type,System.Boolean):System.Object[]",
           "clrName": "GetCustomAttributes",
-          "tsEmitName": "GetCustomAttributes3",
+          "tsEmitName": "getCustomAttributes3",
           "metadataToken": 0,
           "canonicalSignature": "(System.Type,System.Boolean):System.Object[]",
           "normalizedSignature": "GetCustomAttributes|(System.Type,System.Boolean):System.Object[]|static=false",
@@ -50995,7 +50995,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.PropertyInfo::IsDefined(System.Type,System.Boolean):System.Boolean",
           "clrName": "IsDefined",
-          "tsEmitName": "IsDefined",
+          "tsEmitName": "isDefined",
           "metadataToken": 0,
           "canonicalSignature": "(System.Type,System.Boolean):System.Boolean",
           "normalizedSignature": "IsDefined|(System.Type,System.Boolean):System.Boolean|static=false",
@@ -51326,7 +51326,7 @@
           }
         },
         {
-          "tsName": "getCustomAttributes",
+          "tsName": "getCustomAttributes$view",
           "isStatic": false,
           "tsSignatureId": "GetCustomAttributes|(System.Boolean):System.Object[]|static=false",
           "target": {
@@ -51336,7 +51336,7 @@
           }
         },
         {
-          "tsName": "getCustomAttributes2",
+          "tsName": "getCustomAttributes$view2",
           "isStatic": false,
           "tsSignatureId": "GetCustomAttributes|(System.Type,System.Boolean):System.Object[]|static=false",
           "target": {
@@ -51346,7 +51346,7 @@
           }
         },
         {
-          "tsName": "isDefined",
+          "tsName": "isDefined$view",
           "isStatic": false,
           "tsSignatureId": "IsDefined|(System.Type,System.Boolean):System.Boolean|static=false",
           "target": {
@@ -51356,7 +51356,7 @@
           }
         },
         {
-          "tsName": "GetCustomAttributes",
+          "tsName": "getCustomAttributes",
           "isStatic": false,
           "tsSignatureId": "GetCustomAttributes|(System.Boolean):System.Object[]|static=false",
           "target": {
@@ -51366,7 +51366,7 @@
           }
         },
         {
-          "tsName": "GetCustomAttributes3",
+          "tsName": "getCustomAttributes3",
           "isStatic": false,
           "tsSignatureId": "GetCustomAttributes|(System.Type,System.Boolean):System.Object[]|static=false",
           "target": {
@@ -51376,7 +51376,7 @@
           }
         },
         {
-          "tsName": "IsDefined",
+          "tsName": "isDefined",
           "isStatic": false,
           "tsSignatureId": "IsDefined|(System.Type,System.Boolean):System.Boolean|static=false",
           "target": {
@@ -52299,7 +52299,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "getObjectData",
+          "tsEmitName": "getObjectData$view",
           "metadataToken": 100682669,
           "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
@@ -52313,7 +52313,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TargetException::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData",
+          "tsEmitName": "getObjectData",
           "metadataToken": 0,
           "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
@@ -52362,7 +52362,7 @@
       ],
       "exposedMethods": [
         {
-          "tsName": "getObjectData",
+          "tsName": "getObjectData$view",
           "isStatic": false,
           "tsSignatureId": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "target": {
@@ -52372,7 +52372,7 @@
           }
         },
         {
-          "tsName": "GetObjectData",
+          "tsName": "getObjectData",
           "isStatic": false,
           "tsSignatureId": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "target": {
@@ -52574,7 +52574,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "getObjectData",
+          "tsEmitName": "getObjectData$view",
           "metadataToken": 100682669,
           "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
@@ -52588,7 +52588,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TargetInvocationException::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData",
+          "tsEmitName": "getObjectData",
           "metadataToken": 0,
           "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
@@ -52627,7 +52627,7 @@
       ],
       "exposedMethods": [
         {
-          "tsName": "getObjectData",
+          "tsName": "getObjectData$view",
           "isStatic": false,
           "tsSignatureId": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "target": {
@@ -52637,7 +52637,7 @@
           }
         },
         {
-          "tsName": "GetObjectData",
+          "tsName": "getObjectData",
           "isStatic": false,
           "tsSignatureId": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "target": {
@@ -52830,7 +52830,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "getObjectData",
+          "tsEmitName": "getObjectData$view",
           "metadataToken": 100682669,
           "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
@@ -52844,7 +52844,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TargetParameterCountException::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData",
+          "tsEmitName": "getObjectData",
           "metadataToken": 0,
           "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
@@ -52893,7 +52893,7 @@
       ],
       "exposedMethods": [
         {
-          "tsName": "getObjectData",
+          "tsName": "getObjectData$view",
           "isStatic": false,
           "tsSignatureId": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "target": {
@@ -52903,7 +52903,7 @@
           }
         },
         {
-          "tsName": "GetObjectData",
+          "tsName": "getObjectData",
           "isStatic": false,
           "tsSignatureId": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "target": {
@@ -53105,7 +53105,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeDelegator::IsAssignableFrom(System.Reflection.TypeInfo):System.Boolean",
           "clrName": "IsAssignableFrom",
-          "tsEmitName": "isAssignableFrom",
+          "tsEmitName": "isAssignableFrom2",
           "metadataToken": 100698204,
           "canonicalSignature": "(System.Reflection.TypeInfo):System.Boolean",
           "normalizedSignature": "IsAssignableFrom|(System.Reflection.TypeInfo):System.Boolean|static=false",
@@ -53119,7 +53119,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeDelegator::InvokeMember(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object,System.Object[],System.Reflection.ParameterModifier[],System.Globalization.CultureInfo,System.String[]):System.Object",
           "clrName": "InvokeMember",
-          "tsEmitName": "invokeMember",
+          "tsEmitName": "invokeMember4",
           "metadataToken": 100698209,
           "canonicalSignature": "(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object,System.Object[],System.Reflection.ParameterModifier[],System.Globalization.CultureInfo,System.String[]):System.Object",
           "normalizedSignature": "InvokeMember|(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object,System.Object[],System.Reflection.ParameterModifier[],System.Globalization.CultureInfo,System.String[]):System.Object|static=false",
@@ -53147,7 +53147,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeDelegator::GetConstructors(System.Reflection.BindingFlags):System.Reflection.ConstructorInfo[]",
           "clrName": "GetConstructors",
-          "tsEmitName": "getConstructors",
+          "tsEmitName": "getConstructors2",
           "metadataToken": 100698220,
           "canonicalSignature": "(System.Reflection.BindingFlags):System.Reflection.ConstructorInfo[]",
           "normalizedSignature": "GetConstructors|(System.Reflection.BindingFlags):System.Reflection.ConstructorInfo[]|static=false",
@@ -53161,7 +53161,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeDelegator::GetMethods(System.Reflection.BindingFlags):System.Reflection.MethodInfo[]",
           "clrName": "GetMethods",
-          "tsEmitName": "getMethods",
+          "tsEmitName": "getMethods2",
           "metadataToken": 100698222,
           "canonicalSignature": "(System.Reflection.BindingFlags):System.Reflection.MethodInfo[]",
           "normalizedSignature": "GetMethods|(System.Reflection.BindingFlags):System.Reflection.MethodInfo[]|static=false",
@@ -53175,7 +53175,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeDelegator::GetField(System.String,System.Reflection.BindingFlags):System.Reflection.FieldInfo",
           "clrName": "GetField",
-          "tsEmitName": "getField",
+          "tsEmitName": "getField2",
           "metadataToken": 100698223,
           "canonicalSignature": "(System.String,System.Reflection.BindingFlags):System.Reflection.FieldInfo",
           "normalizedSignature": "GetField|(System.String,System.Reflection.BindingFlags):System.Reflection.FieldInfo|static=false",
@@ -53189,7 +53189,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeDelegator::GetFields(System.Reflection.BindingFlags):System.Reflection.FieldInfo[]",
           "clrName": "GetFields",
-          "tsEmitName": "getFields",
+          "tsEmitName": "getFields2",
           "metadataToken": 100698224,
           "canonicalSignature": "(System.Reflection.BindingFlags):System.Reflection.FieldInfo[]",
           "normalizedSignature": "GetFields|(System.Reflection.BindingFlags):System.Reflection.FieldInfo[]|static=false",
@@ -53245,7 +53245,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeDelegator::GetInterface(System.String,System.Boolean):System.Type",
           "clrName": "GetInterface",
-          "tsEmitName": "getInterface",
+          "tsEmitName": "getInterface2",
           "metadataToken": 100698228,
           "canonicalSignature": "(System.String,System.Boolean):System.Type",
           "normalizedSignature": "GetInterface|(System.String,System.Boolean):System.Type|static=false",
@@ -53273,7 +53273,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeDelegator::GetEvent(System.String,System.Reflection.BindingFlags):System.Reflection.EventInfo",
           "clrName": "GetEvent",
-          "tsEmitName": "getEvent",
+          "tsEmitName": "getEvent2",
           "metadataToken": 100698230,
           "canonicalSignature": "(System.String,System.Reflection.BindingFlags):System.Reflection.EventInfo",
           "normalizedSignature": "GetEvent|(System.String,System.Reflection.BindingFlags):System.Reflection.EventInfo|static=false",
@@ -53301,7 +53301,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeDelegator::GetProperties(System.Reflection.BindingFlags):System.Reflection.PropertyInfo[]",
           "clrName": "GetProperties",
-          "tsEmitName": "getProperties",
+          "tsEmitName": "getProperties2",
           "metadataToken": 100698233,
           "canonicalSignature": "(System.Reflection.BindingFlags):System.Reflection.PropertyInfo[]",
           "normalizedSignature": "GetProperties|(System.Reflection.BindingFlags):System.Reflection.PropertyInfo[]|static=false",
@@ -53329,7 +53329,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeDelegator::GetNestedTypes(System.Reflection.BindingFlags):System.Type[]",
           "clrName": "GetNestedTypes",
-          "tsEmitName": "getNestedTypes",
+          "tsEmitName": "getNestedTypes2",
           "metadataToken": 100698235,
           "canonicalSignature": "(System.Reflection.BindingFlags):System.Type[]",
           "normalizedSignature": "GetNestedTypes|(System.Reflection.BindingFlags):System.Type[]|static=false",
@@ -53343,7 +53343,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeDelegator::GetNestedType(System.String,System.Reflection.BindingFlags):System.Type",
           "clrName": "GetNestedType",
-          "tsEmitName": "getNestedType",
+          "tsEmitName": "getNestedType2",
           "metadataToken": 100698236,
           "canonicalSignature": "(System.String,System.Reflection.BindingFlags):System.Type",
           "normalizedSignature": "GetNestedType|(System.String,System.Reflection.BindingFlags):System.Type|static=false",
@@ -53357,7 +53357,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeDelegator::GetMember(System.String,System.Reflection.MemberTypes,System.Reflection.BindingFlags):System.Reflection.MemberInfo[]",
           "clrName": "GetMember",
-          "tsEmitName": "getMember",
+          "tsEmitName": "getMember4",
           "metadataToken": 100698237,
           "canonicalSignature": "(System.String,System.Reflection.MemberTypes,System.Reflection.BindingFlags):System.Reflection.MemberInfo[]",
           "normalizedSignature": "GetMember|(System.String,System.Reflection.MemberTypes,System.Reflection.BindingFlags):System.Reflection.MemberInfo[]|static=false",
@@ -53371,7 +53371,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeDelegator::GetMembers(System.Reflection.BindingFlags):System.Reflection.MemberInfo[]",
           "clrName": "GetMembers",
-          "tsEmitName": "getMembers",
+          "tsEmitName": "getMembers2",
           "metadataToken": 100698238,
           "canonicalSignature": "(System.Reflection.BindingFlags):System.Reflection.MemberInfo[]",
           "normalizedSignature": "GetMembers|(System.Reflection.BindingFlags):System.Reflection.MemberInfo[]|static=false",
@@ -53469,7 +53469,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.IReflect::GetMethod(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Type[],System.Reflection.ParameterModifier[]):System.Reflection.MethodInfo",
           "clrName": "GetMethod",
-          "tsEmitName": "getMethod",
+          "tsEmitName": "getMethod$view",
           "metadataToken": 100697699,
           "canonicalSignature": "(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Type[],System.Reflection.ParameterModifier[]):System.Reflection.MethodInfo",
           "normalizedSignature": "GetMethod|(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Type[],System.Reflection.ParameterModifier[]):System.Reflection.MethodInfo|static=false",
@@ -53483,7 +53483,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.IReflect::GetMethod(System.String,System.Reflection.BindingFlags):System.Reflection.MethodInfo",
           "clrName": "GetMethod",
-          "tsEmitName": "getMethod2",
+          "tsEmitName": "getMethod$view2",
           "metadataToken": 100697700,
           "canonicalSignature": "(System.String,System.Reflection.BindingFlags):System.Reflection.MethodInfo",
           "normalizedSignature": "GetMethod|(System.String,System.Reflection.BindingFlags):System.Reflection.MethodInfo|static=false",
@@ -53497,7 +53497,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.IReflect::GetProperty(System.String,System.Reflection.BindingFlags):System.Reflection.PropertyInfo",
           "clrName": "GetProperty",
-          "tsEmitName": "getProperty2",
+          "tsEmitName": "getProperty$view2",
           "metadataToken": 100697704,
           "canonicalSignature": "(System.String,System.Reflection.BindingFlags):System.Reflection.PropertyInfo",
           "normalizedSignature": "GetProperty|(System.String,System.Reflection.BindingFlags):System.Reflection.PropertyInfo|static=false",
@@ -53511,7 +53511,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.IReflect::GetProperty(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Type,System.Type[],System.Reflection.ParameterModifier[]):System.Reflection.PropertyInfo",
           "clrName": "GetProperty",
-          "tsEmitName": "getProperty",
+          "tsEmitName": "getProperty$view",
           "metadataToken": 100697705,
           "canonicalSignature": "(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Type,System.Type[],System.Reflection.ParameterModifier[]):System.Reflection.PropertyInfo",
           "normalizedSignature": "GetProperty|(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Type,System.Type[],System.Reflection.ParameterModifier[]):System.Reflection.PropertyInfo|static=false",
@@ -53539,7 +53539,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.IReflectableType::GetTypeInfo():System.Reflection.TypeInfo",
           "clrName": "GetTypeInfo",
-          "tsEmitName": "getTypeInfo",
+          "tsEmitName": "getTypeInfo$view",
           "metadataToken": 100697711,
           "canonicalSignature": "():System.Reflection.TypeInfo",
           "normalizedSignature": "GetTypeInfo|():System.Reflection.TypeInfo|static=false",
@@ -53679,7 +53679,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeDelegator::GetConstructors():System.Reflection.ConstructorInfo[]",
           "clrName": "GetConstructors",
-          "tsEmitName": "GetConstructors",
+          "tsEmitName": "getConstructors",
           "metadataToken": 0,
           "canonicalSignature": "():System.Reflection.ConstructorInfo[]",
           "normalizedSignature": "GetConstructors|():System.Reflection.ConstructorInfo[]|static=false",
@@ -53693,7 +53693,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeDelegator::GetEvent(System.String):System.Reflection.EventInfo",
           "clrName": "GetEvent",
-          "tsEmitName": "GetEvent",
+          "tsEmitName": "getEvent",
           "metadataToken": 0,
           "canonicalSignature": "(System.String):System.Reflection.EventInfo",
           "normalizedSignature": "GetEvent|(System.String):System.Reflection.EventInfo|static=false",
@@ -53707,7 +53707,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeDelegator::GetField(System.String):System.Reflection.FieldInfo",
           "clrName": "GetField",
-          "tsEmitName": "GetField",
+          "tsEmitName": "getField",
           "metadataToken": 0,
           "canonicalSignature": "(System.String):System.Reflection.FieldInfo",
           "normalizedSignature": "GetField|(System.String):System.Reflection.FieldInfo|static=false",
@@ -53721,7 +53721,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeDelegator::GetFields():System.Reflection.FieldInfo[]",
           "clrName": "GetFields",
-          "tsEmitName": "GetFields",
+          "tsEmitName": "getFields",
           "metadataToken": 0,
           "canonicalSignature": "():System.Reflection.FieldInfo[]",
           "normalizedSignature": "GetFields|():System.Reflection.FieldInfo[]|static=false",
@@ -53735,7 +53735,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeDelegator::GetInterface(System.String):System.Type",
           "clrName": "GetInterface",
-          "tsEmitName": "GetInterface",
+          "tsEmitName": "getInterface",
           "metadataToken": 0,
           "canonicalSignature": "(System.String):System.Type",
           "normalizedSignature": "GetInterface|(System.String):System.Type|static=false",
@@ -53749,7 +53749,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeDelegator::GetMember(System.String,System.Reflection.BindingFlags):System.Reflection.MemberInfo[]",
           "clrName": "GetMember",
-          "tsEmitName": "GetMember",
+          "tsEmitName": "getMember",
           "metadataToken": 0,
           "canonicalSignature": "(System.String,System.Reflection.BindingFlags):System.Reflection.MemberInfo[]",
           "normalizedSignature": "GetMember|(System.String,System.Reflection.BindingFlags):System.Reflection.MemberInfo[]|static=false",
@@ -53763,7 +53763,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeDelegator::GetMember(System.String):System.Reflection.MemberInfo[]",
           "clrName": "GetMember",
-          "tsEmitName": "GetMember3",
+          "tsEmitName": "getMember3",
           "metadataToken": 0,
           "canonicalSignature": "(System.String):System.Reflection.MemberInfo[]",
           "normalizedSignature": "GetMember|(System.String):System.Reflection.MemberInfo[]|static=false",
@@ -53777,7 +53777,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeDelegator::GetMembers():System.Reflection.MemberInfo[]",
           "clrName": "GetMembers",
-          "tsEmitName": "GetMembers",
+          "tsEmitName": "getMembers",
           "metadataToken": 0,
           "canonicalSignature": "():System.Reflection.MemberInfo[]",
           "normalizedSignature": "GetMembers|():System.Reflection.MemberInfo[]|static=false",
@@ -53791,7 +53791,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeDelegator::GetMethod(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Type[],System.Reflection.ParameterModifier[]):System.Reflection.MethodInfo",
           "clrName": "GetMethod",
-          "tsEmitName": "GetMethod",
+          "tsEmitName": "getMethod",
           "metadataToken": 0,
           "canonicalSignature": "(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Type[],System.Reflection.ParameterModifier[]):System.Reflection.MethodInfo",
           "normalizedSignature": "GetMethod|(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Type[],System.Reflection.ParameterModifier[]):System.Reflection.MethodInfo|static=false",
@@ -53805,7 +53805,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeDelegator::GetMethod(System.String,System.Reflection.BindingFlags):System.Reflection.MethodInfo",
           "clrName": "GetMethod",
-          "tsEmitName": "GetMethod25",
+          "tsEmitName": "getMethod25",
           "metadataToken": 0,
           "canonicalSignature": "(System.String,System.Reflection.BindingFlags):System.Reflection.MethodInfo",
           "normalizedSignature": "GetMethod|(System.String,System.Reflection.BindingFlags):System.Reflection.MethodInfo|static=false",
@@ -53819,7 +53819,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeDelegator::GetMethod(System.String):System.Reflection.MethodInfo",
           "clrName": "GetMethod",
-          "tsEmitName": "GetMethod14",
+          "tsEmitName": "getMethod14",
           "metadataToken": 0,
           "canonicalSignature": "(System.String):System.Reflection.MethodInfo",
           "normalizedSignature": "GetMethod|(System.String):System.Reflection.MethodInfo|static=false",
@@ -53833,7 +53833,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeDelegator::GetMethod(System.String,System.Reflection.BindingFlags,System.Type[]):System.Reflection.MethodInfo",
           "clrName": "GetMethod",
-          "tsEmitName": "GetMethod16",
+          "tsEmitName": "getMethod16",
           "metadataToken": 0,
           "canonicalSignature": "(System.String,System.Reflection.BindingFlags,System.Type[]):System.Reflection.MethodInfo",
           "normalizedSignature": "GetMethod|(System.String,System.Reflection.BindingFlags,System.Type[]):System.Reflection.MethodInfo|static=false",
@@ -53847,7 +53847,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeDelegator::GetMethod(System.String,System.Type[]):System.Reflection.MethodInfo",
           "clrName": "GetMethod",
-          "tsEmitName": "GetMethod17",
+          "tsEmitName": "getMethod17",
           "metadataToken": 0,
           "canonicalSignature": "(System.String,System.Type[]):System.Reflection.MethodInfo",
           "normalizedSignature": "GetMethod|(System.String,System.Type[]):System.Reflection.MethodInfo|static=false",
@@ -53861,7 +53861,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeDelegator::GetMethod(System.String,System.Type[],System.Reflection.ParameterModifier[]):System.Reflection.MethodInfo",
           "clrName": "GetMethod",
-          "tsEmitName": "GetMethod18",
+          "tsEmitName": "getMethod18",
           "metadataToken": 0,
           "canonicalSignature": "(System.String,System.Type[],System.Reflection.ParameterModifier[]):System.Reflection.MethodInfo",
           "normalizedSignature": "GetMethod|(System.String,System.Type[],System.Reflection.ParameterModifier[]):System.Reflection.MethodInfo|static=false",
@@ -53875,7 +53875,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeDelegator::GetMethod(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Reflection.CallingConventions,System.Type[],System.Reflection.ParameterModifier[]):System.Reflection.MethodInfo",
           "clrName": "GetMethod",
-          "tsEmitName": "GetMethod19",
+          "tsEmitName": "getMethod19",
           "metadataToken": 0,
           "canonicalSignature": "(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Reflection.CallingConventions,System.Type[],System.Reflection.ParameterModifier[]):System.Reflection.MethodInfo",
           "normalizedSignature": "GetMethod|(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Reflection.CallingConventions,System.Type[],System.Reflection.ParameterModifier[]):System.Reflection.MethodInfo|static=false",
@@ -53889,7 +53889,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeDelegator::GetMethod(System.String,System.Int32,System.Type[]):System.Reflection.MethodInfo",
           "clrName": "GetMethod",
-          "tsEmitName": "GetMethod20",
+          "tsEmitName": "getMethod20",
           "metadataToken": 0,
           "canonicalSignature": "(System.String,System.Int32,System.Type[]):System.Reflection.MethodInfo",
           "normalizedSignature": "GetMethod|(System.String,System.Int32,System.Type[]):System.Reflection.MethodInfo|static=false",
@@ -53903,7 +53903,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeDelegator::GetMethod(System.String,System.Int32,System.Type[],System.Reflection.ParameterModifier[]):System.Reflection.MethodInfo",
           "clrName": "GetMethod",
-          "tsEmitName": "GetMethod21",
+          "tsEmitName": "getMethod21",
           "metadataToken": 0,
           "canonicalSignature": "(System.String,System.Int32,System.Type[],System.Reflection.ParameterModifier[]):System.Reflection.MethodInfo",
           "normalizedSignature": "GetMethod|(System.String,System.Int32,System.Type[],System.Reflection.ParameterModifier[]):System.Reflection.MethodInfo|static=false",
@@ -53917,7 +53917,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeDelegator::GetMethod(System.String,System.Int32,System.Reflection.BindingFlags,System.Type[]):System.Reflection.MethodInfo",
           "clrName": "GetMethod",
-          "tsEmitName": "GetMethod22",
+          "tsEmitName": "getMethod22",
           "metadataToken": 0,
           "canonicalSignature": "(System.String,System.Int32,System.Reflection.BindingFlags,System.Type[]):System.Reflection.MethodInfo",
           "normalizedSignature": "GetMethod|(System.String,System.Int32,System.Reflection.BindingFlags,System.Type[]):System.Reflection.MethodInfo|static=false",
@@ -53931,7 +53931,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeDelegator::GetMethod(System.String,System.Int32,System.Reflection.BindingFlags,System.Reflection.Binder,System.Type[],System.Reflection.ParameterModifier[]):System.Reflection.MethodInfo",
           "clrName": "GetMethod",
-          "tsEmitName": "GetMethod23",
+          "tsEmitName": "getMethod23",
           "metadataToken": 0,
           "canonicalSignature": "(System.String,System.Int32,System.Reflection.BindingFlags,System.Reflection.Binder,System.Type[],System.Reflection.ParameterModifier[]):System.Reflection.MethodInfo",
           "normalizedSignature": "GetMethod|(System.String,System.Int32,System.Reflection.BindingFlags,System.Reflection.Binder,System.Type[],System.Reflection.ParameterModifier[]):System.Reflection.MethodInfo|static=false",
@@ -53945,7 +53945,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeDelegator::GetMethod(System.String,System.Int32,System.Reflection.BindingFlags,System.Reflection.Binder,System.Reflection.CallingConventions,System.Type[],System.Reflection.ParameterModifier[]):System.Reflection.MethodInfo",
           "clrName": "GetMethod",
-          "tsEmitName": "GetMethod24",
+          "tsEmitName": "getMethod24",
           "metadataToken": 0,
           "canonicalSignature": "(System.String,System.Int32,System.Reflection.BindingFlags,System.Reflection.Binder,System.Reflection.CallingConventions,System.Type[],System.Reflection.ParameterModifier[]):System.Reflection.MethodInfo",
           "normalizedSignature": "GetMethod|(System.String,System.Int32,System.Reflection.BindingFlags,System.Reflection.Binder,System.Reflection.CallingConventions,System.Type[],System.Reflection.ParameterModifier[]):System.Reflection.MethodInfo|static=false",
@@ -53959,7 +53959,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeDelegator::GetMethods():System.Reflection.MethodInfo[]",
           "clrName": "GetMethods",
-          "tsEmitName": "GetMethods",
+          "tsEmitName": "getMethods",
           "metadataToken": 0,
           "canonicalSignature": "():System.Reflection.MethodInfo[]",
           "normalizedSignature": "GetMethods|():System.Reflection.MethodInfo[]|static=false",
@@ -53973,7 +53973,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeDelegator::GetNestedType(System.String):System.Type",
           "clrName": "GetNestedType",
-          "tsEmitName": "GetNestedType",
+          "tsEmitName": "getNestedType",
           "metadataToken": 0,
           "canonicalSignature": "(System.String):System.Type",
           "normalizedSignature": "GetNestedType|(System.String):System.Type|static=false",
@@ -53987,7 +53987,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeDelegator::GetNestedTypes():System.Type[]",
           "clrName": "GetNestedTypes",
-          "tsEmitName": "GetNestedTypes",
+          "tsEmitName": "getNestedTypes",
           "metadataToken": 0,
           "canonicalSignature": "():System.Type[]",
           "normalizedSignature": "GetNestedTypes|():System.Type[]|static=false",
@@ -54001,7 +54001,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeDelegator::GetProperties():System.Reflection.PropertyInfo[]",
           "clrName": "GetProperties",
-          "tsEmitName": "GetProperties",
+          "tsEmitName": "getProperties",
           "metadataToken": 0,
           "canonicalSignature": "():System.Reflection.PropertyInfo[]",
           "normalizedSignature": "GetProperties|():System.Reflection.PropertyInfo[]|static=false",
@@ -54015,7 +54015,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeDelegator::GetProperty(System.String,System.Reflection.BindingFlags):System.Reflection.PropertyInfo",
           "clrName": "GetProperty",
-          "tsEmitName": "GetProperty",
+          "tsEmitName": "getProperty",
           "metadataToken": 0,
           "canonicalSignature": "(System.String,System.Reflection.BindingFlags):System.Reflection.PropertyInfo",
           "normalizedSignature": "GetProperty|(System.String,System.Reflection.BindingFlags):System.Reflection.PropertyInfo|static=false",
@@ -54029,7 +54029,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeDelegator::GetProperty(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Type,System.Type[],System.Reflection.ParameterModifier[]):System.Reflection.PropertyInfo",
           "clrName": "GetProperty",
-          "tsEmitName": "GetProperty15",
+          "tsEmitName": "getProperty15",
           "metadataToken": 0,
           "canonicalSignature": "(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Type,System.Type[],System.Reflection.ParameterModifier[]):System.Reflection.PropertyInfo",
           "normalizedSignature": "GetProperty|(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Type,System.Type[],System.Reflection.ParameterModifier[]):System.Reflection.PropertyInfo|static=false",
@@ -54043,7 +54043,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeDelegator::GetProperty(System.String):System.Reflection.PropertyInfo",
           "clrName": "GetProperty",
-          "tsEmitName": "GetProperty9",
+          "tsEmitName": "getProperty9",
           "metadataToken": 0,
           "canonicalSignature": "(System.String):System.Reflection.PropertyInfo",
           "normalizedSignature": "GetProperty|(System.String):System.Reflection.PropertyInfo|static=false",
@@ -54057,7 +54057,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeDelegator::GetProperty(System.String,System.Type):System.Reflection.PropertyInfo",
           "clrName": "GetProperty",
-          "tsEmitName": "GetProperty10",
+          "tsEmitName": "getProperty10",
           "metadataToken": 0,
           "canonicalSignature": "(System.String,System.Type):System.Reflection.PropertyInfo",
           "normalizedSignature": "GetProperty|(System.String,System.Type):System.Reflection.PropertyInfo|static=false",
@@ -54071,7 +54071,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeDelegator::GetProperty(System.String,System.Type[]):System.Reflection.PropertyInfo",
           "clrName": "GetProperty",
-          "tsEmitName": "GetProperty11",
+          "tsEmitName": "getProperty11",
           "metadataToken": 0,
           "canonicalSignature": "(System.String,System.Type[]):System.Reflection.PropertyInfo",
           "normalizedSignature": "GetProperty|(System.String,System.Type[]):System.Reflection.PropertyInfo|static=false",
@@ -54085,7 +54085,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeDelegator::GetProperty(System.String,System.Type,System.Type[]):System.Reflection.PropertyInfo",
           "clrName": "GetProperty",
-          "tsEmitName": "GetProperty12",
+          "tsEmitName": "getProperty12",
           "metadataToken": 0,
           "canonicalSignature": "(System.String,System.Type,System.Type[]):System.Reflection.PropertyInfo",
           "normalizedSignature": "GetProperty|(System.String,System.Type,System.Type[]):System.Reflection.PropertyInfo|static=false",
@@ -54099,7 +54099,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeDelegator::GetProperty(System.String,System.Type,System.Type[],System.Reflection.ParameterModifier[]):System.Reflection.PropertyInfo",
           "clrName": "GetProperty",
-          "tsEmitName": "GetProperty13",
+          "tsEmitName": "getProperty13",
           "metadataToken": 0,
           "canonicalSignature": "(System.String,System.Type,System.Type[],System.Reflection.ParameterModifier[]):System.Reflection.PropertyInfo",
           "normalizedSignature": "GetProperty|(System.String,System.Type,System.Type[],System.Reflection.ParameterModifier[]):System.Reflection.PropertyInfo|static=false",
@@ -54113,7 +54113,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeDelegator::GetTypeInfo():System.Reflection.TypeInfo",
           "clrName": "GetTypeInfo",
-          "tsEmitName": "GetTypeInfo",
+          "tsEmitName": "getTypeInfo",
           "metadataToken": 0,
           "canonicalSignature": "():System.Reflection.TypeInfo",
           "normalizedSignature": "GetTypeInfo|():System.Reflection.TypeInfo|static=false",
@@ -54127,7 +54127,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeDelegator::InvokeMember(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object,System.Object[]):System.Object",
           "clrName": "InvokeMember",
-          "tsEmitName": "InvokeMember",
+          "tsEmitName": "invokeMember",
           "metadataToken": 0,
           "canonicalSignature": "(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object,System.Object[]):System.Object",
           "normalizedSignature": "InvokeMember|(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object,System.Object[]):System.Object|static=false",
@@ -54141,7 +54141,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeDelegator::InvokeMember(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object,System.Object[],System.Globalization.CultureInfo):System.Object",
           "clrName": "InvokeMember",
-          "tsEmitName": "InvokeMember3",
+          "tsEmitName": "invokeMember3",
           "metadataToken": 0,
           "canonicalSignature": "(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object,System.Object[],System.Globalization.CultureInfo):System.Object",
           "normalizedSignature": "InvokeMember|(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object,System.Object[],System.Globalization.CultureInfo):System.Object|static=false",
@@ -54155,7 +54155,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeDelegator::IsAssignableFrom(System.Type):System.Boolean",
           "clrName": "IsAssignableFrom",
-          "tsEmitName": "IsAssignableFrom",
+          "tsEmitName": "isAssignableFrom",
           "metadataToken": 0,
           "canonicalSignature": "(System.Type):System.Boolean",
           "normalizedSignature": "IsAssignableFrom|(System.Type):System.Boolean|static=false",
@@ -54493,7 +54493,7 @@
       ],
       "exposedMethods": [
         {
-          "tsName": "isAssignableFrom",
+          "tsName": "isAssignableFrom2",
           "isStatic": false,
           "tsSignatureId": "IsAssignableFrom|(System.Reflection.TypeInfo):System.Boolean|static=false",
           "target": {
@@ -54503,7 +54503,7 @@
           }
         },
         {
-          "tsName": "invokeMember",
+          "tsName": "invokeMember4",
           "isStatic": false,
           "tsSignatureId": "InvokeMember|(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object,System.Object[],System.Reflection.ParameterModifier[],System.Globalization.CultureInfo,System.String[]):System.Object|static=false",
           "target": {
@@ -54523,7 +54523,7 @@
           }
         },
         {
-          "tsName": "getConstructors",
+          "tsName": "getConstructors2",
           "isStatic": false,
           "tsSignatureId": "GetConstructors|(System.Reflection.BindingFlags):System.Reflection.ConstructorInfo[]|static=false",
           "target": {
@@ -54533,7 +54533,7 @@
           }
         },
         {
-          "tsName": "getMethods",
+          "tsName": "getMethods2",
           "isStatic": false,
           "tsSignatureId": "GetMethods|(System.Reflection.BindingFlags):System.Reflection.MethodInfo[]|static=false",
           "target": {
@@ -54543,7 +54543,7 @@
           }
         },
         {
-          "tsName": "getField",
+          "tsName": "getField2",
           "isStatic": false,
           "tsSignatureId": "GetField|(System.String,System.Reflection.BindingFlags):System.Reflection.FieldInfo|static=false",
           "target": {
@@ -54553,7 +54553,7 @@
           }
         },
         {
-          "tsName": "getFields",
+          "tsName": "getFields2",
           "isStatic": false,
           "tsSignatureId": "GetFields|(System.Reflection.BindingFlags):System.Reflection.FieldInfo[]|static=false",
           "target": {
@@ -54593,7 +54593,7 @@
           }
         },
         {
-          "tsName": "getInterface",
+          "tsName": "getInterface2",
           "isStatic": false,
           "tsSignatureId": "GetInterface|(System.String,System.Boolean):System.Type|static=false",
           "target": {
@@ -54613,7 +54613,7 @@
           }
         },
         {
-          "tsName": "getEvent",
+          "tsName": "getEvent2",
           "isStatic": false,
           "tsSignatureId": "GetEvent|(System.String,System.Reflection.BindingFlags):System.Reflection.EventInfo|static=false",
           "target": {
@@ -54633,7 +54633,7 @@
           }
         },
         {
-          "tsName": "getProperties",
+          "tsName": "getProperties2",
           "isStatic": false,
           "tsSignatureId": "GetProperties|(System.Reflection.BindingFlags):System.Reflection.PropertyInfo[]|static=false",
           "target": {
@@ -54653,7 +54653,7 @@
           }
         },
         {
-          "tsName": "getNestedTypes",
+          "tsName": "getNestedTypes2",
           "isStatic": false,
           "tsSignatureId": "GetNestedTypes|(System.Reflection.BindingFlags):System.Type[]|static=false",
           "target": {
@@ -54663,7 +54663,7 @@
           }
         },
         {
-          "tsName": "getNestedType",
+          "tsName": "getNestedType2",
           "isStatic": false,
           "tsSignatureId": "GetNestedType|(System.String,System.Reflection.BindingFlags):System.Type|static=false",
           "target": {
@@ -54673,7 +54673,7 @@
           }
         },
         {
-          "tsName": "getMember",
+          "tsName": "getMember4",
           "isStatic": false,
           "tsSignatureId": "GetMember|(System.String,System.Reflection.MemberTypes,System.Reflection.BindingFlags):System.Reflection.MemberInfo[]|static=false",
           "target": {
@@ -54683,7 +54683,7 @@
           }
         },
         {
-          "tsName": "getMembers",
+          "tsName": "getMembers2",
           "isStatic": false,
           "tsSignatureId": "GetMembers|(System.Reflection.BindingFlags):System.Reflection.MemberInfo[]|static=false",
           "target": {
@@ -54753,7 +54753,7 @@
           }
         },
         {
-          "tsName": "getMethod",
+          "tsName": "getMethod$view",
           "isStatic": false,
           "tsSignatureId": "GetMethod|(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Type[],System.Reflection.ParameterModifier[]):System.Reflection.MethodInfo|static=false",
           "target": {
@@ -54763,7 +54763,7 @@
           }
         },
         {
-          "tsName": "getMethod2",
+          "tsName": "getMethod$view2",
           "isStatic": false,
           "tsSignatureId": "GetMethod|(System.String,System.Reflection.BindingFlags):System.Reflection.MethodInfo|static=false",
           "target": {
@@ -54773,7 +54773,7 @@
           }
         },
         {
-          "tsName": "getProperty2",
+          "tsName": "getProperty$view2",
           "isStatic": false,
           "tsSignatureId": "GetProperty|(System.String,System.Reflection.BindingFlags):System.Reflection.PropertyInfo|static=false",
           "target": {
@@ -54783,7 +54783,7 @@
           }
         },
         {
-          "tsName": "getProperty",
+          "tsName": "getProperty$view",
           "isStatic": false,
           "tsSignatureId": "GetProperty|(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Type,System.Type[],System.Reflection.ParameterModifier[]):System.Reflection.PropertyInfo|static=false",
           "target": {
@@ -54803,7 +54803,7 @@
           }
         },
         {
-          "tsName": "getTypeInfo",
+          "tsName": "getTypeInfo$view",
           "isStatic": false,
           "tsSignatureId": "GetTypeInfo|():System.Reflection.TypeInfo|static=false",
           "target": {
@@ -54903,7 +54903,7 @@
           }
         },
         {
-          "tsName": "GetConstructors",
+          "tsName": "getConstructors",
           "isStatic": false,
           "tsSignatureId": "GetConstructors|():System.Reflection.ConstructorInfo[]|static=false",
           "target": {
@@ -54913,7 +54913,7 @@
           }
         },
         {
-          "tsName": "GetEvent",
+          "tsName": "getEvent",
           "isStatic": false,
           "tsSignatureId": "GetEvent|(System.String):System.Reflection.EventInfo|static=false",
           "target": {
@@ -54923,7 +54923,7 @@
           }
         },
         {
-          "tsName": "GetField",
+          "tsName": "getField",
           "isStatic": false,
           "tsSignatureId": "GetField|(System.String):System.Reflection.FieldInfo|static=false",
           "target": {
@@ -54933,7 +54933,7 @@
           }
         },
         {
-          "tsName": "GetFields",
+          "tsName": "getFields",
           "isStatic": false,
           "tsSignatureId": "GetFields|():System.Reflection.FieldInfo[]|static=false",
           "target": {
@@ -54943,7 +54943,7 @@
           }
         },
         {
-          "tsName": "GetInterface",
+          "tsName": "getInterface",
           "isStatic": false,
           "tsSignatureId": "GetInterface|(System.String):System.Type|static=false",
           "target": {
@@ -54953,7 +54953,7 @@
           }
         },
         {
-          "tsName": "GetMember",
+          "tsName": "getMember",
           "isStatic": false,
           "tsSignatureId": "GetMember|(System.String,System.Reflection.BindingFlags):System.Reflection.MemberInfo[]|static=false",
           "target": {
@@ -54963,7 +54963,7 @@
           }
         },
         {
-          "tsName": "GetMember3",
+          "tsName": "getMember3",
           "isStatic": false,
           "tsSignatureId": "GetMember|(System.String):System.Reflection.MemberInfo[]|static=false",
           "target": {
@@ -54973,7 +54973,7 @@
           }
         },
         {
-          "tsName": "GetMembers",
+          "tsName": "getMembers",
           "isStatic": false,
           "tsSignatureId": "GetMembers|():System.Reflection.MemberInfo[]|static=false",
           "target": {
@@ -54983,7 +54983,7 @@
           }
         },
         {
-          "tsName": "GetMethod",
+          "tsName": "getMethod",
           "isStatic": false,
           "tsSignatureId": "GetMethod|(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Type[],System.Reflection.ParameterModifier[]):System.Reflection.MethodInfo|static=false",
           "target": {
@@ -54993,7 +54993,7 @@
           }
         },
         {
-          "tsName": "GetMethod25",
+          "tsName": "getMethod25",
           "isStatic": false,
           "tsSignatureId": "GetMethod|(System.String,System.Reflection.BindingFlags):System.Reflection.MethodInfo|static=false",
           "target": {
@@ -55003,7 +55003,7 @@
           }
         },
         {
-          "tsName": "GetMethod14",
+          "tsName": "getMethod14",
           "isStatic": false,
           "tsSignatureId": "GetMethod|(System.String):System.Reflection.MethodInfo|static=false",
           "target": {
@@ -55013,7 +55013,7 @@
           }
         },
         {
-          "tsName": "GetMethod16",
+          "tsName": "getMethod16",
           "isStatic": false,
           "tsSignatureId": "GetMethod|(System.String,System.Reflection.BindingFlags,System.Type[]):System.Reflection.MethodInfo|static=false",
           "target": {
@@ -55023,7 +55023,7 @@
           }
         },
         {
-          "tsName": "GetMethod17",
+          "tsName": "getMethod17",
           "isStatic": false,
           "tsSignatureId": "GetMethod|(System.String,System.Type[]):System.Reflection.MethodInfo|static=false",
           "target": {
@@ -55033,7 +55033,7 @@
           }
         },
         {
-          "tsName": "GetMethod18",
+          "tsName": "getMethod18",
           "isStatic": false,
           "tsSignatureId": "GetMethod|(System.String,System.Type[],System.Reflection.ParameterModifier[]):System.Reflection.MethodInfo|static=false",
           "target": {
@@ -55043,7 +55043,7 @@
           }
         },
         {
-          "tsName": "GetMethod19",
+          "tsName": "getMethod19",
           "isStatic": false,
           "tsSignatureId": "GetMethod|(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Reflection.CallingConventions,System.Type[],System.Reflection.ParameterModifier[]):System.Reflection.MethodInfo|static=false",
           "target": {
@@ -55053,7 +55053,7 @@
           }
         },
         {
-          "tsName": "GetMethod20",
+          "tsName": "getMethod20",
           "isStatic": false,
           "tsSignatureId": "GetMethod|(System.String,System.Int32,System.Type[]):System.Reflection.MethodInfo|static=false",
           "target": {
@@ -55063,7 +55063,7 @@
           }
         },
         {
-          "tsName": "GetMethod21",
+          "tsName": "getMethod21",
           "isStatic": false,
           "tsSignatureId": "GetMethod|(System.String,System.Int32,System.Type[],System.Reflection.ParameterModifier[]):System.Reflection.MethodInfo|static=false",
           "target": {
@@ -55073,7 +55073,7 @@
           }
         },
         {
-          "tsName": "GetMethod22",
+          "tsName": "getMethod22",
           "isStatic": false,
           "tsSignatureId": "GetMethod|(System.String,System.Int32,System.Reflection.BindingFlags,System.Type[]):System.Reflection.MethodInfo|static=false",
           "target": {
@@ -55083,7 +55083,7 @@
           }
         },
         {
-          "tsName": "GetMethod23",
+          "tsName": "getMethod23",
           "isStatic": false,
           "tsSignatureId": "GetMethod|(System.String,System.Int32,System.Reflection.BindingFlags,System.Reflection.Binder,System.Type[],System.Reflection.ParameterModifier[]):System.Reflection.MethodInfo|static=false",
           "target": {
@@ -55093,7 +55093,7 @@
           }
         },
         {
-          "tsName": "GetMethod24",
+          "tsName": "getMethod24",
           "isStatic": false,
           "tsSignatureId": "GetMethod|(System.String,System.Int32,System.Reflection.BindingFlags,System.Reflection.Binder,System.Reflection.CallingConventions,System.Type[],System.Reflection.ParameterModifier[]):System.Reflection.MethodInfo|static=false",
           "target": {
@@ -55103,7 +55103,7 @@
           }
         },
         {
-          "tsName": "GetMethods",
+          "tsName": "getMethods",
           "isStatic": false,
           "tsSignatureId": "GetMethods|():System.Reflection.MethodInfo[]|static=false",
           "target": {
@@ -55113,7 +55113,7 @@
           }
         },
         {
-          "tsName": "GetNestedType",
+          "tsName": "getNestedType",
           "isStatic": false,
           "tsSignatureId": "GetNestedType|(System.String):System.Type|static=false",
           "target": {
@@ -55123,7 +55123,7 @@
           }
         },
         {
-          "tsName": "GetNestedTypes",
+          "tsName": "getNestedTypes",
           "isStatic": false,
           "tsSignatureId": "GetNestedTypes|():System.Type[]|static=false",
           "target": {
@@ -55133,7 +55133,7 @@
           }
         },
         {
-          "tsName": "GetProperties",
+          "tsName": "getProperties",
           "isStatic": false,
           "tsSignatureId": "GetProperties|():System.Reflection.PropertyInfo[]|static=false",
           "target": {
@@ -55143,7 +55143,7 @@
           }
         },
         {
-          "tsName": "GetProperty",
+          "tsName": "getProperty",
           "isStatic": false,
           "tsSignatureId": "GetProperty|(System.String,System.Reflection.BindingFlags):System.Reflection.PropertyInfo|static=false",
           "target": {
@@ -55153,7 +55153,7 @@
           }
         },
         {
-          "tsName": "GetProperty15",
+          "tsName": "getProperty15",
           "isStatic": false,
           "tsSignatureId": "GetProperty|(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Type,System.Type[],System.Reflection.ParameterModifier[]):System.Reflection.PropertyInfo|static=false",
           "target": {
@@ -55163,7 +55163,7 @@
           }
         },
         {
-          "tsName": "GetProperty9",
+          "tsName": "getProperty9",
           "isStatic": false,
           "tsSignatureId": "GetProperty|(System.String):System.Reflection.PropertyInfo|static=false",
           "target": {
@@ -55173,7 +55173,7 @@
           }
         },
         {
-          "tsName": "GetProperty10",
+          "tsName": "getProperty10",
           "isStatic": false,
           "tsSignatureId": "GetProperty|(System.String,System.Type):System.Reflection.PropertyInfo|static=false",
           "target": {
@@ -55183,7 +55183,7 @@
           }
         },
         {
-          "tsName": "GetProperty11",
+          "tsName": "getProperty11",
           "isStatic": false,
           "tsSignatureId": "GetProperty|(System.String,System.Type[]):System.Reflection.PropertyInfo|static=false",
           "target": {
@@ -55193,7 +55193,7 @@
           }
         },
         {
-          "tsName": "GetProperty12",
+          "tsName": "getProperty12",
           "isStatic": false,
           "tsSignatureId": "GetProperty|(System.String,System.Type,System.Type[]):System.Reflection.PropertyInfo|static=false",
           "target": {
@@ -55203,7 +55203,7 @@
           }
         },
         {
-          "tsName": "GetProperty13",
+          "tsName": "getProperty13",
           "isStatic": false,
           "tsSignatureId": "GetProperty|(System.String,System.Type,System.Type[],System.Reflection.ParameterModifier[]):System.Reflection.PropertyInfo|static=false",
           "target": {
@@ -55213,7 +55213,7 @@
           }
         },
         {
-          "tsName": "GetTypeInfo",
+          "tsName": "getTypeInfo",
           "isStatic": false,
           "tsSignatureId": "GetTypeInfo|():System.Reflection.TypeInfo|static=false",
           "target": {
@@ -55223,7 +55223,7 @@
           }
         },
         {
-          "tsName": "InvokeMember",
+          "tsName": "invokeMember",
           "isStatic": false,
           "tsSignatureId": "InvokeMember|(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object,System.Object[]):System.Object|static=false",
           "target": {
@@ -55233,7 +55233,7 @@
           }
         },
         {
-          "tsName": "InvokeMember3",
+          "tsName": "invokeMember3",
           "isStatic": false,
           "tsSignatureId": "InvokeMember|(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object,System.Object[],System.Globalization.CultureInfo):System.Object|static=false",
           "target": {
@@ -55243,7 +55243,7 @@
           }
         },
         {
-          "tsName": "IsAssignableFrom",
+          "tsName": "isAssignableFrom",
           "isStatic": false,
           "tsSignatureId": "IsAssignableFrom|(System.Type):System.Boolean|static=false",
           "target": {
@@ -56799,7 +56799,7 @@
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "clone",
+          "tsEmitName": "clone$view",
           "metadataToken": 100668509,
           "canonicalSignature": "():System.Object",
           "normalizedSignature": "Clone|():System.Object|static=false",
@@ -56813,7 +56813,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "getObjectData",
+          "tsEmitName": "getObjectData$view",
           "metadataToken": 100682669,
           "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
@@ -56827,7 +56827,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeFilter::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "Clone",
+          "tsEmitName": "clone",
           "metadataToken": 0,
           "canonicalSignature": "():System.Object",
           "normalizedSignature": "Clone|():System.Object|static=false",
@@ -56841,7 +56841,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeFilter::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData",
+          "tsEmitName": "getObjectData",
           "metadataToken": 0,
           "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
@@ -56900,7 +56900,7 @@
           }
         },
         {
-          "tsName": "clone",
+          "tsName": "clone$view",
           "isStatic": false,
           "tsSignatureId": "Clone|():System.Object|static=false",
           "target": {
@@ -56910,7 +56910,7 @@
           }
         },
         {
-          "tsName": "getObjectData",
+          "tsName": "getObjectData$view",
           "isStatic": false,
           "tsSignatureId": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "target": {
@@ -56920,7 +56920,7 @@
           }
         },
         {
-          "tsName": "Clone",
+          "tsName": "clone",
           "isStatic": false,
           "tsSignatureId": "Clone|():System.Object|static=false",
           "target": {
@@ -56930,7 +56930,7 @@
           }
         },
         {
-          "tsName": "GetObjectData",
+          "tsName": "getObjectData",
           "isStatic": false,
           "tsSignatureId": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "target": {
@@ -57332,7 +57332,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeInfo::IsAssignableFrom(System.Reflection.TypeInfo):System.Boolean",
           "clrName": "IsAssignableFrom",
-          "tsEmitName": "isAssignableFrom",
+          "tsEmitName": "isAssignableFrom2",
           "metadataToken": 100698286,
           "canonicalSignature": "(System.Reflection.TypeInfo):System.Boolean",
           "normalizedSignature": "IsAssignableFrom|(System.Reflection.TypeInfo):System.Boolean|static=false",
@@ -57346,7 +57346,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.ICustomAttributeProvider::GetCustomAttributes(System.Boolean):System.Object[]",
           "clrName": "GetCustomAttributes",
-          "tsEmitName": "getCustomAttributes",
+          "tsEmitName": "getCustomAttributes$view",
           "metadataToken": 100697669,
           "canonicalSignature": "(System.Boolean):System.Object[]",
           "normalizedSignature": "GetCustomAttributes|(System.Boolean):System.Object[]|static=false",
@@ -57360,7 +57360,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.ICustomAttributeProvider::GetCustomAttributes(System.Type,System.Boolean):System.Object[]",
           "clrName": "GetCustomAttributes",
-          "tsEmitName": "getCustomAttributes2",
+          "tsEmitName": "getCustomAttributes$view2",
           "metadataToken": 100697670,
           "canonicalSignature": "(System.Type,System.Boolean):System.Object[]",
           "normalizedSignature": "GetCustomAttributes|(System.Type,System.Boolean):System.Object[]|static=false",
@@ -57374,7 +57374,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.ICustomAttributeProvider::IsDefined(System.Type,System.Boolean):System.Boolean",
           "clrName": "IsDefined",
-          "tsEmitName": "isDefined",
+          "tsEmitName": "isDefined$view",
           "metadataToken": 100697671,
           "canonicalSignature": "(System.Type,System.Boolean):System.Boolean",
           "normalizedSignature": "IsDefined|(System.Type,System.Boolean):System.Boolean|static=false",
@@ -57388,7 +57388,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.IReflect::GetMethod(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Type[],System.Reflection.ParameterModifier[]):System.Reflection.MethodInfo",
           "clrName": "GetMethod",
-          "tsEmitName": "getMethod",
+          "tsEmitName": "getMethod$view",
           "metadataToken": 100697699,
           "canonicalSignature": "(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Type[],System.Reflection.ParameterModifier[]):System.Reflection.MethodInfo",
           "normalizedSignature": "GetMethod|(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Type[],System.Reflection.ParameterModifier[]):System.Reflection.MethodInfo|static=false",
@@ -57402,7 +57402,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.IReflect::GetMethod(System.String,System.Reflection.BindingFlags):System.Reflection.MethodInfo",
           "clrName": "GetMethod",
-          "tsEmitName": "getMethod2",
+          "tsEmitName": "getMethod$view2",
           "metadataToken": 100697700,
           "canonicalSignature": "(System.String,System.Reflection.BindingFlags):System.Reflection.MethodInfo",
           "normalizedSignature": "GetMethod|(System.String,System.Reflection.BindingFlags):System.Reflection.MethodInfo|static=false",
@@ -57416,7 +57416,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.IReflect::GetMethods(System.Reflection.BindingFlags):System.Reflection.MethodInfo[]",
           "clrName": "GetMethods",
-          "tsEmitName": "getMethods",
+          "tsEmitName": "getMethods$view",
           "metadataToken": 100697701,
           "canonicalSignature": "(System.Reflection.BindingFlags):System.Reflection.MethodInfo[]",
           "normalizedSignature": "GetMethods|(System.Reflection.BindingFlags):System.Reflection.MethodInfo[]|static=false",
@@ -57430,7 +57430,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.IReflect::GetField(System.String,System.Reflection.BindingFlags):System.Reflection.FieldInfo",
           "clrName": "GetField",
-          "tsEmitName": "getField",
+          "tsEmitName": "getField$view",
           "metadataToken": 100697702,
           "canonicalSignature": "(System.String,System.Reflection.BindingFlags):System.Reflection.FieldInfo",
           "normalizedSignature": "GetField|(System.String,System.Reflection.BindingFlags):System.Reflection.FieldInfo|static=false",
@@ -57444,7 +57444,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.IReflect::GetFields(System.Reflection.BindingFlags):System.Reflection.FieldInfo[]",
           "clrName": "GetFields",
-          "tsEmitName": "getFields",
+          "tsEmitName": "getFields$view",
           "metadataToken": 100697703,
           "canonicalSignature": "(System.Reflection.BindingFlags):System.Reflection.FieldInfo[]",
           "normalizedSignature": "GetFields|(System.Reflection.BindingFlags):System.Reflection.FieldInfo[]|static=false",
@@ -57458,7 +57458,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.IReflect::GetProperty(System.String,System.Reflection.BindingFlags):System.Reflection.PropertyInfo",
           "clrName": "GetProperty",
-          "tsEmitName": "getProperty2",
+          "tsEmitName": "getProperty$view2",
           "metadataToken": 100697704,
           "canonicalSignature": "(System.String,System.Reflection.BindingFlags):System.Reflection.PropertyInfo",
           "normalizedSignature": "GetProperty|(System.String,System.Reflection.BindingFlags):System.Reflection.PropertyInfo|static=false",
@@ -57472,7 +57472,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.IReflect::GetProperty(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Type,System.Type[],System.Reflection.ParameterModifier[]):System.Reflection.PropertyInfo",
           "clrName": "GetProperty",
-          "tsEmitName": "getProperty",
+          "tsEmitName": "getProperty$view",
           "metadataToken": 100697705,
           "canonicalSignature": "(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Type,System.Type[],System.Reflection.ParameterModifier[]):System.Reflection.PropertyInfo",
           "normalizedSignature": "GetProperty|(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Type,System.Type[],System.Reflection.ParameterModifier[]):System.Reflection.PropertyInfo|static=false",
@@ -57486,7 +57486,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.IReflect::GetProperties(System.Reflection.BindingFlags):System.Reflection.PropertyInfo[]",
           "clrName": "GetProperties",
-          "tsEmitName": "getProperties",
+          "tsEmitName": "getProperties$view",
           "metadataToken": 100697706,
           "canonicalSignature": "(System.Reflection.BindingFlags):System.Reflection.PropertyInfo[]",
           "normalizedSignature": "GetProperties|(System.Reflection.BindingFlags):System.Reflection.PropertyInfo[]|static=false",
@@ -57500,7 +57500,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.IReflect::GetMember(System.String,System.Reflection.BindingFlags):System.Reflection.MemberInfo[]",
           "clrName": "GetMember",
-          "tsEmitName": "getMember",
+          "tsEmitName": "getMember$view",
           "metadataToken": 100697707,
           "canonicalSignature": "(System.String,System.Reflection.BindingFlags):System.Reflection.MemberInfo[]",
           "normalizedSignature": "GetMember|(System.String,System.Reflection.BindingFlags):System.Reflection.MemberInfo[]|static=false",
@@ -57514,7 +57514,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.IReflect::GetMembers(System.Reflection.BindingFlags):System.Reflection.MemberInfo[]",
           "clrName": "GetMembers",
-          "tsEmitName": "getMembers",
+          "tsEmitName": "getMembers$view",
           "metadataToken": 100697708,
           "canonicalSignature": "(System.Reflection.BindingFlags):System.Reflection.MemberInfo[]",
           "normalizedSignature": "GetMembers|(System.Reflection.BindingFlags):System.Reflection.MemberInfo[]|static=false",
@@ -57528,7 +57528,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.IReflect::InvokeMember(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object,System.Object[],System.Reflection.ParameterModifier[],System.Globalization.CultureInfo,System.String[]):System.Object",
           "clrName": "InvokeMember",
-          "tsEmitName": "invokeMember",
+          "tsEmitName": "invokeMember$view",
           "metadataToken": 100697709,
           "canonicalSignature": "(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object,System.Object[],System.Reflection.ParameterModifier[],System.Globalization.CultureInfo,System.String[]):System.Object",
           "normalizedSignature": "InvokeMember|(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object,System.Object[],System.Reflection.ParameterModifier[],System.Globalization.CultureInfo,System.String[]):System.Object|static=false",
@@ -57556,7 +57556,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeInfo::GetCustomAttributes(System.Boolean):System.Object[]",
           "clrName": "GetCustomAttributes",
-          "tsEmitName": "GetCustomAttributes",
+          "tsEmitName": "getCustomAttributes",
           "metadataToken": 0,
           "canonicalSignature": "(System.Boolean):System.Object[]",
           "normalizedSignature": "GetCustomAttributes|(System.Boolean):System.Object[]|static=false",
@@ -57570,7 +57570,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeInfo::GetCustomAttributes(System.Type,System.Boolean):System.Object[]",
           "clrName": "GetCustomAttributes",
-          "tsEmitName": "GetCustomAttributes5",
+          "tsEmitName": "getCustomAttributes5",
           "metadataToken": 0,
           "canonicalSignature": "(System.Type,System.Boolean):System.Object[]",
           "normalizedSignature": "GetCustomAttributes|(System.Type,System.Boolean):System.Object[]|static=false",
@@ -57584,7 +57584,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeInfo::GetField(System.String):System.Reflection.FieldInfo",
           "clrName": "GetField",
-          "tsEmitName": "GetField",
+          "tsEmitName": "getField",
           "metadataToken": 0,
           "canonicalSignature": "(System.String):System.Reflection.FieldInfo",
           "normalizedSignature": "GetField|(System.String):System.Reflection.FieldInfo|static=false",
@@ -57598,7 +57598,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeInfo::GetField(System.String,System.Reflection.BindingFlags):System.Reflection.FieldInfo",
           "clrName": "GetField",
-          "tsEmitName": "GetField3",
+          "tsEmitName": "getField3",
           "metadataToken": 0,
           "canonicalSignature": "(System.String,System.Reflection.BindingFlags):System.Reflection.FieldInfo",
           "normalizedSignature": "GetField|(System.String,System.Reflection.BindingFlags):System.Reflection.FieldInfo|static=false",
@@ -57612,7 +57612,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeInfo::GetFields():System.Reflection.FieldInfo[]",
           "clrName": "GetFields",
-          "tsEmitName": "GetFields",
+          "tsEmitName": "getFields",
           "metadataToken": 0,
           "canonicalSignature": "():System.Reflection.FieldInfo[]",
           "normalizedSignature": "GetFields|():System.Reflection.FieldInfo[]|static=false",
@@ -57626,7 +57626,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeInfo::GetFields(System.Reflection.BindingFlags):System.Reflection.FieldInfo[]",
           "clrName": "GetFields",
-          "tsEmitName": "GetFields3",
+          "tsEmitName": "getFields3",
           "metadataToken": 0,
           "canonicalSignature": "(System.Reflection.BindingFlags):System.Reflection.FieldInfo[]",
           "normalizedSignature": "GetFields|(System.Reflection.BindingFlags):System.Reflection.FieldInfo[]|static=false",
@@ -57640,7 +57640,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeInfo::GetMember(System.String):System.Reflection.MemberInfo[]",
           "clrName": "GetMember",
-          "tsEmitName": "GetMember",
+          "tsEmitName": "getMember",
           "metadataToken": 0,
           "canonicalSignature": "(System.String):System.Reflection.MemberInfo[]",
           "normalizedSignature": "GetMember|(System.String):System.Reflection.MemberInfo[]|static=false",
@@ -57654,7 +57654,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeInfo::GetMember(System.String,System.Reflection.BindingFlags):System.Reflection.MemberInfo[]",
           "clrName": "GetMember",
-          "tsEmitName": "GetMember4",
+          "tsEmitName": "getMember4",
           "metadataToken": 0,
           "canonicalSignature": "(System.String,System.Reflection.BindingFlags):System.Reflection.MemberInfo[]",
           "normalizedSignature": "GetMember|(System.String,System.Reflection.BindingFlags):System.Reflection.MemberInfo[]|static=false",
@@ -57668,7 +57668,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeInfo::GetMember(System.String,System.Reflection.MemberTypes,System.Reflection.BindingFlags):System.Reflection.MemberInfo[]",
           "clrName": "GetMember",
-          "tsEmitName": "GetMember3",
+          "tsEmitName": "getMember3",
           "metadataToken": 0,
           "canonicalSignature": "(System.String,System.Reflection.MemberTypes,System.Reflection.BindingFlags):System.Reflection.MemberInfo[]",
           "normalizedSignature": "GetMember|(System.String,System.Reflection.MemberTypes,System.Reflection.BindingFlags):System.Reflection.MemberInfo[]|static=false",
@@ -57682,7 +57682,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeInfo::GetMembers():System.Reflection.MemberInfo[]",
           "clrName": "GetMembers",
-          "tsEmitName": "GetMembers",
+          "tsEmitName": "getMembers",
           "metadataToken": 0,
           "canonicalSignature": "():System.Reflection.MemberInfo[]",
           "normalizedSignature": "GetMembers|():System.Reflection.MemberInfo[]|static=false",
@@ -57696,7 +57696,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeInfo::GetMembers(System.Reflection.BindingFlags):System.Reflection.MemberInfo[]",
           "clrName": "GetMembers",
-          "tsEmitName": "GetMembers3",
+          "tsEmitName": "getMembers3",
           "metadataToken": 0,
           "canonicalSignature": "(System.Reflection.BindingFlags):System.Reflection.MemberInfo[]",
           "normalizedSignature": "GetMembers|(System.Reflection.BindingFlags):System.Reflection.MemberInfo[]|static=false",
@@ -57710,7 +57710,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeInfo::GetMethod(System.String):System.Reflection.MethodInfo",
           "clrName": "GetMethod",
-          "tsEmitName": "GetMethod",
+          "tsEmitName": "getMethod",
           "metadataToken": 0,
           "canonicalSignature": "(System.String):System.Reflection.MethodInfo",
           "normalizedSignature": "GetMethod|(System.String):System.Reflection.MethodInfo|static=false",
@@ -57724,7 +57724,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeInfo::GetMethod(System.String,System.Reflection.BindingFlags):System.Reflection.MethodInfo",
           "clrName": "GetMethod",
-          "tsEmitName": "GetMethod14",
+          "tsEmitName": "getMethod14",
           "metadataToken": 0,
           "canonicalSignature": "(System.String,System.Reflection.BindingFlags):System.Reflection.MethodInfo",
           "normalizedSignature": "GetMethod|(System.String,System.Reflection.BindingFlags):System.Reflection.MethodInfo|static=false",
@@ -57738,7 +57738,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeInfo::GetMethod(System.String,System.Reflection.BindingFlags,System.Type[]):System.Reflection.MethodInfo",
           "clrName": "GetMethod",
-          "tsEmitName": "GetMethod3",
+          "tsEmitName": "getMethod3",
           "metadataToken": 0,
           "canonicalSignature": "(System.String,System.Reflection.BindingFlags,System.Type[]):System.Reflection.MethodInfo",
           "normalizedSignature": "GetMethod|(System.String,System.Reflection.BindingFlags,System.Type[]):System.Reflection.MethodInfo|static=false",
@@ -57752,7 +57752,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeInfo::GetMethod(System.String,System.Type[]):System.Reflection.MethodInfo",
           "clrName": "GetMethod",
-          "tsEmitName": "GetMethod4",
+          "tsEmitName": "getMethod4",
           "metadataToken": 0,
           "canonicalSignature": "(System.String,System.Type[]):System.Reflection.MethodInfo",
           "normalizedSignature": "GetMethod|(System.String,System.Type[]):System.Reflection.MethodInfo|static=false",
@@ -57766,7 +57766,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeInfo::GetMethod(System.String,System.Type[],System.Reflection.ParameterModifier[]):System.Reflection.MethodInfo",
           "clrName": "GetMethod",
-          "tsEmitName": "GetMethod5",
+          "tsEmitName": "getMethod5",
           "metadataToken": 0,
           "canonicalSignature": "(System.String,System.Type[],System.Reflection.ParameterModifier[]):System.Reflection.MethodInfo",
           "normalizedSignature": "GetMethod|(System.String,System.Type[],System.Reflection.ParameterModifier[]):System.Reflection.MethodInfo|static=false",
@@ -57780,7 +57780,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeInfo::GetMethod(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Type[],System.Reflection.ParameterModifier[]):System.Reflection.MethodInfo",
           "clrName": "GetMethod",
-          "tsEmitName": "GetMethod13",
+          "tsEmitName": "getMethod13",
           "metadataToken": 0,
           "canonicalSignature": "(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Type[],System.Reflection.ParameterModifier[]):System.Reflection.MethodInfo",
           "normalizedSignature": "GetMethod|(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Type[],System.Reflection.ParameterModifier[]):System.Reflection.MethodInfo|static=false",
@@ -57794,7 +57794,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeInfo::GetMethod(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Reflection.CallingConventions,System.Type[],System.Reflection.ParameterModifier[]):System.Reflection.MethodInfo",
           "clrName": "GetMethod",
-          "tsEmitName": "GetMethod7",
+          "tsEmitName": "getMethod7",
           "metadataToken": 0,
           "canonicalSignature": "(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Reflection.CallingConventions,System.Type[],System.Reflection.ParameterModifier[]):System.Reflection.MethodInfo",
           "normalizedSignature": "GetMethod|(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Reflection.CallingConventions,System.Type[],System.Reflection.ParameterModifier[]):System.Reflection.MethodInfo|static=false",
@@ -57808,7 +57808,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeInfo::GetMethod(System.String,System.Int32,System.Type[]):System.Reflection.MethodInfo",
           "clrName": "GetMethod",
-          "tsEmitName": "GetMethod8",
+          "tsEmitName": "getMethod8",
           "metadataToken": 0,
           "canonicalSignature": "(System.String,System.Int32,System.Type[]):System.Reflection.MethodInfo",
           "normalizedSignature": "GetMethod|(System.String,System.Int32,System.Type[]):System.Reflection.MethodInfo|static=false",
@@ -57822,7 +57822,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeInfo::GetMethod(System.String,System.Int32,System.Type[],System.Reflection.ParameterModifier[]):System.Reflection.MethodInfo",
           "clrName": "GetMethod",
-          "tsEmitName": "GetMethod9",
+          "tsEmitName": "getMethod9",
           "metadataToken": 0,
           "canonicalSignature": "(System.String,System.Int32,System.Type[],System.Reflection.ParameterModifier[]):System.Reflection.MethodInfo",
           "normalizedSignature": "GetMethod|(System.String,System.Int32,System.Type[],System.Reflection.ParameterModifier[]):System.Reflection.MethodInfo|static=false",
@@ -57836,7 +57836,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeInfo::GetMethod(System.String,System.Int32,System.Reflection.BindingFlags,System.Type[]):System.Reflection.MethodInfo",
           "clrName": "GetMethod",
-          "tsEmitName": "GetMethod10",
+          "tsEmitName": "getMethod10",
           "metadataToken": 0,
           "canonicalSignature": "(System.String,System.Int32,System.Reflection.BindingFlags,System.Type[]):System.Reflection.MethodInfo",
           "normalizedSignature": "GetMethod|(System.String,System.Int32,System.Reflection.BindingFlags,System.Type[]):System.Reflection.MethodInfo|static=false",
@@ -57850,7 +57850,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeInfo::GetMethod(System.String,System.Int32,System.Reflection.BindingFlags,System.Reflection.Binder,System.Type[],System.Reflection.ParameterModifier[]):System.Reflection.MethodInfo",
           "clrName": "GetMethod",
-          "tsEmitName": "GetMethod11",
+          "tsEmitName": "getMethod11",
           "metadataToken": 0,
           "canonicalSignature": "(System.String,System.Int32,System.Reflection.BindingFlags,System.Reflection.Binder,System.Type[],System.Reflection.ParameterModifier[]):System.Reflection.MethodInfo",
           "normalizedSignature": "GetMethod|(System.String,System.Int32,System.Reflection.BindingFlags,System.Reflection.Binder,System.Type[],System.Reflection.ParameterModifier[]):System.Reflection.MethodInfo|static=false",
@@ -57864,7 +57864,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeInfo::GetMethod(System.String,System.Int32,System.Reflection.BindingFlags,System.Reflection.Binder,System.Reflection.CallingConventions,System.Type[],System.Reflection.ParameterModifier[]):System.Reflection.MethodInfo",
           "clrName": "GetMethod",
-          "tsEmitName": "GetMethod12",
+          "tsEmitName": "getMethod12",
           "metadataToken": 0,
           "canonicalSignature": "(System.String,System.Int32,System.Reflection.BindingFlags,System.Reflection.Binder,System.Reflection.CallingConventions,System.Type[],System.Reflection.ParameterModifier[]):System.Reflection.MethodInfo",
           "normalizedSignature": "GetMethod|(System.String,System.Int32,System.Reflection.BindingFlags,System.Reflection.Binder,System.Reflection.CallingConventions,System.Type[],System.Reflection.ParameterModifier[]):System.Reflection.MethodInfo|static=false",
@@ -57878,7 +57878,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeInfo::GetMethods():System.Reflection.MethodInfo[]",
           "clrName": "GetMethods",
-          "tsEmitName": "GetMethods",
+          "tsEmitName": "getMethods",
           "metadataToken": 0,
           "canonicalSignature": "():System.Reflection.MethodInfo[]",
           "normalizedSignature": "GetMethods|():System.Reflection.MethodInfo[]|static=false",
@@ -57892,7 +57892,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeInfo::GetMethods(System.Reflection.BindingFlags):System.Reflection.MethodInfo[]",
           "clrName": "GetMethods",
-          "tsEmitName": "GetMethods3",
+          "tsEmitName": "getMethods3",
           "metadataToken": 0,
           "canonicalSignature": "(System.Reflection.BindingFlags):System.Reflection.MethodInfo[]",
           "normalizedSignature": "GetMethods|(System.Reflection.BindingFlags):System.Reflection.MethodInfo[]|static=false",
@@ -57906,7 +57906,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeInfo::GetProperties():System.Reflection.PropertyInfo[]",
           "clrName": "GetProperties",
-          "tsEmitName": "GetProperties",
+          "tsEmitName": "getProperties",
           "metadataToken": 0,
           "canonicalSignature": "():System.Reflection.PropertyInfo[]",
           "normalizedSignature": "GetProperties|():System.Reflection.PropertyInfo[]|static=false",
@@ -57920,7 +57920,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeInfo::GetProperties(System.Reflection.BindingFlags):System.Reflection.PropertyInfo[]",
           "clrName": "GetProperties",
-          "tsEmitName": "GetProperties3",
+          "tsEmitName": "getProperties3",
           "metadataToken": 0,
           "canonicalSignature": "(System.Reflection.BindingFlags):System.Reflection.PropertyInfo[]",
           "normalizedSignature": "GetProperties|(System.Reflection.BindingFlags):System.Reflection.PropertyInfo[]|static=false",
@@ -57934,7 +57934,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeInfo::GetProperty(System.String):System.Reflection.PropertyInfo",
           "clrName": "GetProperty",
-          "tsEmitName": "GetProperty",
+          "tsEmitName": "getProperty",
           "metadataToken": 0,
           "canonicalSignature": "(System.String):System.Reflection.PropertyInfo",
           "normalizedSignature": "GetProperty|(System.String):System.Reflection.PropertyInfo|static=false",
@@ -57948,7 +57948,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeInfo::GetProperty(System.String,System.Reflection.BindingFlags):System.Reflection.PropertyInfo",
           "clrName": "GetProperty",
-          "tsEmitName": "GetProperty8",
+          "tsEmitName": "getProperty8",
           "metadataToken": 0,
           "canonicalSignature": "(System.String,System.Reflection.BindingFlags):System.Reflection.PropertyInfo",
           "normalizedSignature": "GetProperty|(System.String,System.Reflection.BindingFlags):System.Reflection.PropertyInfo|static=false",
@@ -57962,7 +57962,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeInfo::GetProperty(System.String,System.Type):System.Reflection.PropertyInfo",
           "clrName": "GetProperty",
-          "tsEmitName": "GetProperty3",
+          "tsEmitName": "getProperty3",
           "metadataToken": 0,
           "canonicalSignature": "(System.String,System.Type):System.Reflection.PropertyInfo",
           "normalizedSignature": "GetProperty|(System.String,System.Type):System.Reflection.PropertyInfo|static=false",
@@ -57976,7 +57976,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeInfo::GetProperty(System.String,System.Type[]):System.Reflection.PropertyInfo",
           "clrName": "GetProperty",
-          "tsEmitName": "GetProperty4",
+          "tsEmitName": "getProperty4",
           "metadataToken": 0,
           "canonicalSignature": "(System.String,System.Type[]):System.Reflection.PropertyInfo",
           "normalizedSignature": "GetProperty|(System.String,System.Type[]):System.Reflection.PropertyInfo|static=false",
@@ -57990,7 +57990,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeInfo::GetProperty(System.String,System.Type,System.Type[]):System.Reflection.PropertyInfo",
           "clrName": "GetProperty",
-          "tsEmitName": "GetProperty5",
+          "tsEmitName": "getProperty5",
           "metadataToken": 0,
           "canonicalSignature": "(System.String,System.Type,System.Type[]):System.Reflection.PropertyInfo",
           "normalizedSignature": "GetProperty|(System.String,System.Type,System.Type[]):System.Reflection.PropertyInfo|static=false",
@@ -58004,7 +58004,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeInfo::GetProperty(System.String,System.Type,System.Type[],System.Reflection.ParameterModifier[]):System.Reflection.PropertyInfo",
           "clrName": "GetProperty",
-          "tsEmitName": "GetProperty6",
+          "tsEmitName": "getProperty6",
           "metadataToken": 0,
           "canonicalSignature": "(System.String,System.Type,System.Type[],System.Reflection.ParameterModifier[]):System.Reflection.PropertyInfo",
           "normalizedSignature": "GetProperty|(System.String,System.Type,System.Type[],System.Reflection.ParameterModifier[]):System.Reflection.PropertyInfo|static=false",
@@ -58018,7 +58018,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeInfo::GetProperty(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Type,System.Type[],System.Reflection.ParameterModifier[]):System.Reflection.PropertyInfo",
           "clrName": "GetProperty",
-          "tsEmitName": "GetProperty9",
+          "tsEmitName": "getProperty9",
           "metadataToken": 0,
           "canonicalSignature": "(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Type,System.Type[],System.Reflection.ParameterModifier[]):System.Reflection.PropertyInfo",
           "normalizedSignature": "GetProperty|(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Type,System.Type[],System.Reflection.ParameterModifier[]):System.Reflection.PropertyInfo|static=false",
@@ -58032,7 +58032,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeInfo::InvokeMember(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object,System.Object[]):System.Object",
           "clrName": "InvokeMember",
-          "tsEmitName": "InvokeMember",
+          "tsEmitName": "invokeMember",
           "metadataToken": 0,
           "canonicalSignature": "(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object,System.Object[]):System.Object",
           "normalizedSignature": "InvokeMember|(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object,System.Object[]):System.Object|static=false",
@@ -58046,7 +58046,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeInfo::InvokeMember(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object,System.Object[],System.Globalization.CultureInfo):System.Object",
           "clrName": "InvokeMember",
-          "tsEmitName": "InvokeMember2",
+          "tsEmitName": "invokeMember2",
           "metadataToken": 0,
           "canonicalSignature": "(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object,System.Object[],System.Globalization.CultureInfo):System.Object",
           "normalizedSignature": "InvokeMember|(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object,System.Object[],System.Globalization.CultureInfo):System.Object|static=false",
@@ -58060,7 +58060,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeInfo::InvokeMember(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object,System.Object[],System.Reflection.ParameterModifier[],System.Globalization.CultureInfo,System.String[]):System.Object",
           "clrName": "InvokeMember",
-          "tsEmitName": "InvokeMember4",
+          "tsEmitName": "invokeMember4",
           "metadataToken": 0,
           "canonicalSignature": "(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object,System.Object[],System.Reflection.ParameterModifier[],System.Globalization.CultureInfo,System.String[]):System.Object",
           "normalizedSignature": "InvokeMember|(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object,System.Object[],System.Reflection.ParameterModifier[],System.Globalization.CultureInfo,System.String[]):System.Object|static=false",
@@ -58074,7 +58074,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeInfo::IsAssignableFrom(System.Type):System.Boolean",
           "clrName": "IsAssignableFrom",
-          "tsEmitName": "IsAssignableFrom",
+          "tsEmitName": "isAssignableFrom",
           "metadataToken": 0,
           "canonicalSignature": "(System.Type):System.Boolean",
           "normalizedSignature": "IsAssignableFrom|(System.Type):System.Boolean|static=false",
@@ -58088,7 +58088,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeInfo::IsDefined(System.Type,System.Boolean):System.Boolean",
           "clrName": "IsDefined",
-          "tsEmitName": "IsDefined",
+          "tsEmitName": "isDefined",
           "metadataToken": 0,
           "canonicalSignature": "(System.Type,System.Boolean):System.Boolean",
           "normalizedSignature": "IsDefined|(System.Type,System.Boolean):System.Boolean|static=false",
@@ -58317,7 +58317,7 @@
           }
         },
         {
-          "tsName": "isAssignableFrom",
+          "tsName": "isAssignableFrom2",
           "isStatic": false,
           "tsSignatureId": "IsAssignableFrom|(System.Reflection.TypeInfo):System.Boolean|static=false",
           "target": {
@@ -58327,7 +58327,7 @@
           }
         },
         {
-          "tsName": "getCustomAttributes",
+          "tsName": "getCustomAttributes$view",
           "isStatic": false,
           "tsSignatureId": "GetCustomAttributes|(System.Boolean):System.Object[]|static=false",
           "target": {
@@ -58337,7 +58337,7 @@
           }
         },
         {
-          "tsName": "getCustomAttributes2",
+          "tsName": "getCustomAttributes$view2",
           "isStatic": false,
           "tsSignatureId": "GetCustomAttributes|(System.Type,System.Boolean):System.Object[]|static=false",
           "target": {
@@ -58347,7 +58347,7 @@
           }
         },
         {
-          "tsName": "isDefined",
+          "tsName": "isDefined$view",
           "isStatic": false,
           "tsSignatureId": "IsDefined|(System.Type,System.Boolean):System.Boolean|static=false",
           "target": {
@@ -58357,7 +58357,7 @@
           }
         },
         {
-          "tsName": "getMethod",
+          "tsName": "getMethod$view",
           "isStatic": false,
           "tsSignatureId": "GetMethod|(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Type[],System.Reflection.ParameterModifier[]):System.Reflection.MethodInfo|static=false",
           "target": {
@@ -58367,7 +58367,7 @@
           }
         },
         {
-          "tsName": "getMethod2",
+          "tsName": "getMethod$view2",
           "isStatic": false,
           "tsSignatureId": "GetMethod|(System.String,System.Reflection.BindingFlags):System.Reflection.MethodInfo|static=false",
           "target": {
@@ -58377,7 +58377,7 @@
           }
         },
         {
-          "tsName": "getMethods",
+          "tsName": "getMethods$view",
           "isStatic": false,
           "tsSignatureId": "GetMethods|(System.Reflection.BindingFlags):System.Reflection.MethodInfo[]|static=false",
           "target": {
@@ -58387,7 +58387,7 @@
           }
         },
         {
-          "tsName": "getField",
+          "tsName": "getField$view",
           "isStatic": false,
           "tsSignatureId": "GetField|(System.String,System.Reflection.BindingFlags):System.Reflection.FieldInfo|static=false",
           "target": {
@@ -58397,7 +58397,7 @@
           }
         },
         {
-          "tsName": "getFields",
+          "tsName": "getFields$view",
           "isStatic": false,
           "tsSignatureId": "GetFields|(System.Reflection.BindingFlags):System.Reflection.FieldInfo[]|static=false",
           "target": {
@@ -58407,7 +58407,7 @@
           }
         },
         {
-          "tsName": "getProperty2",
+          "tsName": "getProperty$view2",
           "isStatic": false,
           "tsSignatureId": "GetProperty|(System.String,System.Reflection.BindingFlags):System.Reflection.PropertyInfo|static=false",
           "target": {
@@ -58417,7 +58417,7 @@
           }
         },
         {
-          "tsName": "getProperty",
+          "tsName": "getProperty$view",
           "isStatic": false,
           "tsSignatureId": "GetProperty|(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Type,System.Type[],System.Reflection.ParameterModifier[]):System.Reflection.PropertyInfo|static=false",
           "target": {
@@ -58427,7 +58427,7 @@
           }
         },
         {
-          "tsName": "getProperties",
+          "tsName": "getProperties$view",
           "isStatic": false,
           "tsSignatureId": "GetProperties|(System.Reflection.BindingFlags):System.Reflection.PropertyInfo[]|static=false",
           "target": {
@@ -58437,7 +58437,7 @@
           }
         },
         {
-          "tsName": "getMember",
+          "tsName": "getMember$view",
           "isStatic": false,
           "tsSignatureId": "GetMember|(System.String,System.Reflection.BindingFlags):System.Reflection.MemberInfo[]|static=false",
           "target": {
@@ -58447,7 +58447,7 @@
           }
         },
         {
-          "tsName": "getMembers",
+          "tsName": "getMembers$view",
           "isStatic": false,
           "tsSignatureId": "GetMembers|(System.Reflection.BindingFlags):System.Reflection.MemberInfo[]|static=false",
           "target": {
@@ -58457,7 +58457,7 @@
           }
         },
         {
-          "tsName": "invokeMember",
+          "tsName": "invokeMember$view",
           "isStatic": false,
           "tsSignatureId": "InvokeMember|(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object,System.Object[],System.Reflection.ParameterModifier[],System.Globalization.CultureInfo,System.String[]):System.Object|static=false",
           "target": {
@@ -58477,7 +58477,7 @@
           }
         },
         {
-          "tsName": "GetCustomAttributes",
+          "tsName": "getCustomAttributes",
           "isStatic": false,
           "tsSignatureId": "GetCustomAttributes|(System.Boolean):System.Object[]|static=false",
           "target": {
@@ -58487,7 +58487,7 @@
           }
         },
         {
-          "tsName": "GetCustomAttributes5",
+          "tsName": "getCustomAttributes5",
           "isStatic": false,
           "tsSignatureId": "GetCustomAttributes|(System.Type,System.Boolean):System.Object[]|static=false",
           "target": {
@@ -58497,7 +58497,7 @@
           }
         },
         {
-          "tsName": "GetField",
+          "tsName": "getField",
           "isStatic": false,
           "tsSignatureId": "GetField|(System.String):System.Reflection.FieldInfo|static=false",
           "target": {
@@ -58507,7 +58507,7 @@
           }
         },
         {
-          "tsName": "GetField3",
+          "tsName": "getField3",
           "isStatic": false,
           "tsSignatureId": "GetField|(System.String,System.Reflection.BindingFlags):System.Reflection.FieldInfo|static=false",
           "target": {
@@ -58517,7 +58517,7 @@
           }
         },
         {
-          "tsName": "GetFields",
+          "tsName": "getFields",
           "isStatic": false,
           "tsSignatureId": "GetFields|():System.Reflection.FieldInfo[]|static=false",
           "target": {
@@ -58527,7 +58527,7 @@
           }
         },
         {
-          "tsName": "GetFields3",
+          "tsName": "getFields3",
           "isStatic": false,
           "tsSignatureId": "GetFields|(System.Reflection.BindingFlags):System.Reflection.FieldInfo[]|static=false",
           "target": {
@@ -58537,7 +58537,7 @@
           }
         },
         {
-          "tsName": "GetMember",
+          "tsName": "getMember",
           "isStatic": false,
           "tsSignatureId": "GetMember|(System.String):System.Reflection.MemberInfo[]|static=false",
           "target": {
@@ -58547,7 +58547,7 @@
           }
         },
         {
-          "tsName": "GetMember4",
+          "tsName": "getMember4",
           "isStatic": false,
           "tsSignatureId": "GetMember|(System.String,System.Reflection.BindingFlags):System.Reflection.MemberInfo[]|static=false",
           "target": {
@@ -58557,7 +58557,7 @@
           }
         },
         {
-          "tsName": "GetMember3",
+          "tsName": "getMember3",
           "isStatic": false,
           "tsSignatureId": "GetMember|(System.String,System.Reflection.MemberTypes,System.Reflection.BindingFlags):System.Reflection.MemberInfo[]|static=false",
           "target": {
@@ -58567,7 +58567,7 @@
           }
         },
         {
-          "tsName": "GetMembers",
+          "tsName": "getMembers",
           "isStatic": false,
           "tsSignatureId": "GetMembers|():System.Reflection.MemberInfo[]|static=false",
           "target": {
@@ -58577,7 +58577,7 @@
           }
         },
         {
-          "tsName": "GetMembers3",
+          "tsName": "getMembers3",
           "isStatic": false,
           "tsSignatureId": "GetMembers|(System.Reflection.BindingFlags):System.Reflection.MemberInfo[]|static=false",
           "target": {
@@ -58587,7 +58587,7 @@
           }
         },
         {
-          "tsName": "GetMethod",
+          "tsName": "getMethod",
           "isStatic": false,
           "tsSignatureId": "GetMethod|(System.String):System.Reflection.MethodInfo|static=false",
           "target": {
@@ -58597,7 +58597,7 @@
           }
         },
         {
-          "tsName": "GetMethod14",
+          "tsName": "getMethod14",
           "isStatic": false,
           "tsSignatureId": "GetMethod|(System.String,System.Reflection.BindingFlags):System.Reflection.MethodInfo|static=false",
           "target": {
@@ -58607,7 +58607,7 @@
           }
         },
         {
-          "tsName": "GetMethod3",
+          "tsName": "getMethod3",
           "isStatic": false,
           "tsSignatureId": "GetMethod|(System.String,System.Reflection.BindingFlags,System.Type[]):System.Reflection.MethodInfo|static=false",
           "target": {
@@ -58617,7 +58617,7 @@
           }
         },
         {
-          "tsName": "GetMethod4",
+          "tsName": "getMethod4",
           "isStatic": false,
           "tsSignatureId": "GetMethod|(System.String,System.Type[]):System.Reflection.MethodInfo|static=false",
           "target": {
@@ -58627,7 +58627,7 @@
           }
         },
         {
-          "tsName": "GetMethod5",
+          "tsName": "getMethod5",
           "isStatic": false,
           "tsSignatureId": "GetMethod|(System.String,System.Type[],System.Reflection.ParameterModifier[]):System.Reflection.MethodInfo|static=false",
           "target": {
@@ -58637,7 +58637,7 @@
           }
         },
         {
-          "tsName": "GetMethod13",
+          "tsName": "getMethod13",
           "isStatic": false,
           "tsSignatureId": "GetMethod|(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Type[],System.Reflection.ParameterModifier[]):System.Reflection.MethodInfo|static=false",
           "target": {
@@ -58647,7 +58647,7 @@
           }
         },
         {
-          "tsName": "GetMethod7",
+          "tsName": "getMethod7",
           "isStatic": false,
           "tsSignatureId": "GetMethod|(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Reflection.CallingConventions,System.Type[],System.Reflection.ParameterModifier[]):System.Reflection.MethodInfo|static=false",
           "target": {
@@ -58657,7 +58657,7 @@
           }
         },
         {
-          "tsName": "GetMethod8",
+          "tsName": "getMethod8",
           "isStatic": false,
           "tsSignatureId": "GetMethod|(System.String,System.Int32,System.Type[]):System.Reflection.MethodInfo|static=false",
           "target": {
@@ -58667,7 +58667,7 @@
           }
         },
         {
-          "tsName": "GetMethod9",
+          "tsName": "getMethod9",
           "isStatic": false,
           "tsSignatureId": "GetMethod|(System.String,System.Int32,System.Type[],System.Reflection.ParameterModifier[]):System.Reflection.MethodInfo|static=false",
           "target": {
@@ -58677,7 +58677,7 @@
           }
         },
         {
-          "tsName": "GetMethod10",
+          "tsName": "getMethod10",
           "isStatic": false,
           "tsSignatureId": "GetMethod|(System.String,System.Int32,System.Reflection.BindingFlags,System.Type[]):System.Reflection.MethodInfo|static=false",
           "target": {
@@ -58687,7 +58687,7 @@
           }
         },
         {
-          "tsName": "GetMethod11",
+          "tsName": "getMethod11",
           "isStatic": false,
           "tsSignatureId": "GetMethod|(System.String,System.Int32,System.Reflection.BindingFlags,System.Reflection.Binder,System.Type[],System.Reflection.ParameterModifier[]):System.Reflection.MethodInfo|static=false",
           "target": {
@@ -58697,7 +58697,7 @@
           }
         },
         {
-          "tsName": "GetMethod12",
+          "tsName": "getMethod12",
           "isStatic": false,
           "tsSignatureId": "GetMethod|(System.String,System.Int32,System.Reflection.BindingFlags,System.Reflection.Binder,System.Reflection.CallingConventions,System.Type[],System.Reflection.ParameterModifier[]):System.Reflection.MethodInfo|static=false",
           "target": {
@@ -58707,7 +58707,7 @@
           }
         },
         {
-          "tsName": "GetMethods",
+          "tsName": "getMethods",
           "isStatic": false,
           "tsSignatureId": "GetMethods|():System.Reflection.MethodInfo[]|static=false",
           "target": {
@@ -58717,7 +58717,7 @@
           }
         },
         {
-          "tsName": "GetMethods3",
+          "tsName": "getMethods3",
           "isStatic": false,
           "tsSignatureId": "GetMethods|(System.Reflection.BindingFlags):System.Reflection.MethodInfo[]|static=false",
           "target": {
@@ -58727,7 +58727,7 @@
           }
         },
         {
-          "tsName": "GetProperties",
+          "tsName": "getProperties",
           "isStatic": false,
           "tsSignatureId": "GetProperties|():System.Reflection.PropertyInfo[]|static=false",
           "target": {
@@ -58737,7 +58737,7 @@
           }
         },
         {
-          "tsName": "GetProperties3",
+          "tsName": "getProperties3",
           "isStatic": false,
           "tsSignatureId": "GetProperties|(System.Reflection.BindingFlags):System.Reflection.PropertyInfo[]|static=false",
           "target": {
@@ -58747,7 +58747,7 @@
           }
         },
         {
-          "tsName": "GetProperty",
+          "tsName": "getProperty",
           "isStatic": false,
           "tsSignatureId": "GetProperty|(System.String):System.Reflection.PropertyInfo|static=false",
           "target": {
@@ -58757,7 +58757,7 @@
           }
         },
         {
-          "tsName": "GetProperty8",
+          "tsName": "getProperty8",
           "isStatic": false,
           "tsSignatureId": "GetProperty|(System.String,System.Reflection.BindingFlags):System.Reflection.PropertyInfo|static=false",
           "target": {
@@ -58767,7 +58767,7 @@
           }
         },
         {
-          "tsName": "GetProperty3",
+          "tsName": "getProperty3",
           "isStatic": false,
           "tsSignatureId": "GetProperty|(System.String,System.Type):System.Reflection.PropertyInfo|static=false",
           "target": {
@@ -58777,7 +58777,7 @@
           }
         },
         {
-          "tsName": "GetProperty4",
+          "tsName": "getProperty4",
           "isStatic": false,
           "tsSignatureId": "GetProperty|(System.String,System.Type[]):System.Reflection.PropertyInfo|static=false",
           "target": {
@@ -58787,7 +58787,7 @@
           }
         },
         {
-          "tsName": "GetProperty5",
+          "tsName": "getProperty5",
           "isStatic": false,
           "tsSignatureId": "GetProperty|(System.String,System.Type,System.Type[]):System.Reflection.PropertyInfo|static=false",
           "target": {
@@ -58797,7 +58797,7 @@
           }
         },
         {
-          "tsName": "GetProperty6",
+          "tsName": "getProperty6",
           "isStatic": false,
           "tsSignatureId": "GetProperty|(System.String,System.Type,System.Type[],System.Reflection.ParameterModifier[]):System.Reflection.PropertyInfo|static=false",
           "target": {
@@ -58807,7 +58807,7 @@
           }
         },
         {
-          "tsName": "GetProperty9",
+          "tsName": "getProperty9",
           "isStatic": false,
           "tsSignatureId": "GetProperty|(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Type,System.Type[],System.Reflection.ParameterModifier[]):System.Reflection.PropertyInfo|static=false",
           "target": {
@@ -58817,7 +58817,7 @@
           }
         },
         {
-          "tsName": "InvokeMember",
+          "tsName": "invokeMember",
           "isStatic": false,
           "tsSignatureId": "InvokeMember|(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object,System.Object[]):System.Object|static=false",
           "target": {
@@ -58827,7 +58827,7 @@
           }
         },
         {
-          "tsName": "InvokeMember2",
+          "tsName": "invokeMember2",
           "isStatic": false,
           "tsSignatureId": "InvokeMember|(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object,System.Object[],System.Globalization.CultureInfo):System.Object|static=false",
           "target": {
@@ -58837,7 +58837,7 @@
           }
         },
         {
-          "tsName": "InvokeMember4",
+          "tsName": "invokeMember4",
           "isStatic": false,
           "tsSignatureId": "InvokeMember|(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object,System.Object[],System.Reflection.ParameterModifier[],System.Globalization.CultureInfo,System.String[]):System.Object|static=false",
           "target": {
@@ -58847,7 +58847,7 @@
           }
         },
         {
-          "tsName": "IsAssignableFrom",
+          "tsName": "isAssignableFrom",
           "isStatic": false,
           "tsSignatureId": "IsAssignableFrom|(System.Type):System.Boolean|static=false",
           "target": {
@@ -58857,7 +58857,7 @@
           }
         },
         {
-          "tsName": "IsDefined",
+          "tsName": "isDefined",
           "isStatic": false,
           "tsSignatureId": "IsDefined|(System.Type,System.Boolean):System.Boolean|static=false",
           "target": {

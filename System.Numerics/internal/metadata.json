@@ -11402,7 +11402,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Numerics.Matrix3x2::get_Item(System.Int32):System.Numerics.Vector2",
           "clrName": "get_Item",
-          "tsEmitName": "get_Item",
+          "tsEmitName": "getItem",
           "normalizedSignature": "get_Item|(System.Int32):System.Numerics.Vector2|static=false",
           "provenance": "IndexerNormalized",
           "emitScope": "ClassSurface",
@@ -11418,7 +11418,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Numerics.Matrix3x2::set_Item(System.Int32,System.Numerics.Vector2):System.Void",
           "clrName": "set_Item",
-          "tsEmitName": "set_Item",
+          "tsEmitName": "setItem",
           "normalizedSignature": "set_Item|(System.Int32,System.Numerics.Vector2):System.Void|static=false",
           "provenance": "IndexerNormalized",
           "emitScope": "ClassSurface",
@@ -11434,7 +11434,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Numerics.Matrix3x2::get_Item(System.Int32,System.Int32):System.Single",
           "clrName": "get_Item",
-          "tsEmitName": "get_Item2",
+          "tsEmitName": "getItem2",
           "normalizedSignature": "get_Item|(System.Int32,System.Int32):System.Single|static=false",
           "provenance": "IndexerNormalized",
           "emitScope": "ClassSurface",
@@ -11450,7 +11450,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Numerics.Matrix3x2::set_Item(System.Int32,System.Int32,System.Single):System.Void",
           "clrName": "set_Item",
-          "tsEmitName": "set_Item2",
+          "tsEmitName": "setItem2",
           "normalizedSignature": "set_Item|(System.Int32,System.Int32,System.Single):System.Void|static=false",
           "provenance": "IndexerNormalized",
           "emitScope": "ClassSurface",
@@ -12676,7 +12676,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Numerics.Matrix4x4::get_Item(System.Int32):System.Numerics.Vector4",
           "clrName": "get_Item",
-          "tsEmitName": "get_Item",
+          "tsEmitName": "getItem",
           "normalizedSignature": "get_Item|(System.Int32):System.Numerics.Vector4|static=false",
           "provenance": "IndexerNormalized",
           "emitScope": "ClassSurface",
@@ -12692,7 +12692,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Numerics.Matrix4x4::set_Item(System.Int32,System.Numerics.Vector4):System.Void",
           "clrName": "set_Item",
-          "tsEmitName": "set_Item",
+          "tsEmitName": "setItem",
           "normalizedSignature": "set_Item|(System.Int32,System.Numerics.Vector4):System.Void|static=false",
           "provenance": "IndexerNormalized",
           "emitScope": "ClassSurface",
@@ -12708,7 +12708,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Numerics.Matrix4x4::get_Item(System.Int32,System.Int32):System.Single",
           "clrName": "get_Item",
-          "tsEmitName": "get_Item2",
+          "tsEmitName": "getItem2",
           "normalizedSignature": "get_Item|(System.Int32,System.Int32):System.Single|static=false",
           "provenance": "IndexerNormalized",
           "emitScope": "ClassSurface",
@@ -12724,7 +12724,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Numerics.Matrix4x4::set_Item(System.Int32,System.Int32,System.Single):System.Void",
           "clrName": "set_Item",
-          "tsEmitName": "set_Item2",
+          "tsEmitName": "setItem2",
           "normalizedSignature": "set_Item|(System.Int32,System.Int32,System.Single):System.Void|static=false",
           "provenance": "IndexerNormalized",
           "emitScope": "ClassSurface",
@@ -21747,7 +21747,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Numerics.Vector::get_E():Vector_1",
           "clrName": "get_E",
-          "tsEmitName": "get_E",
+          "tsEmitName": "getE",
           "normalizedSignature": "get_E|():Vector_1|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -21763,7 +21763,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Numerics.Vector::get_Pi():Vector_1",
           "clrName": "get_Pi",
-          "tsEmitName": "get_Pi",
+          "tsEmitName": "getPi",
           "normalizedSignature": "get_Pi|():Vector_1|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -21779,7 +21779,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Numerics.Vector::get_Tau():Vector_1",
           "clrName": "get_Tau",
-          "tsEmitName": "get_Tau",
+          "tsEmitName": "getTau",
           "normalizedSignature": "get_Tau|():Vector_1|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -21795,7 +21795,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Numerics.Vector::get_Epsilon():Vector_1",
           "clrName": "get_Epsilon",
-          "tsEmitName": "get_Epsilon",
+          "tsEmitName": "getEpsilon",
           "normalizedSignature": "get_Epsilon|():Vector_1|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -21811,7 +21811,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Numerics.Vector::get_NaN():Vector_1",
           "clrName": "get_NaN",
-          "tsEmitName": "get_NaN",
+          "tsEmitName": "getNan",
           "normalizedSignature": "get_NaN|():Vector_1|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -21827,7 +21827,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Numerics.Vector::get_NegativeInfinity():Vector_1",
           "clrName": "get_NegativeInfinity",
-          "tsEmitName": "get_NegativeInfinity",
+          "tsEmitName": "getNegativeinfinity",
           "normalizedSignature": "get_NegativeInfinity|():Vector_1|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -21843,7 +21843,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Numerics.Vector::get_NegativeZero():Vector_1",
           "clrName": "get_NegativeZero",
-          "tsEmitName": "get_NegativeZero",
+          "tsEmitName": "getNegativezero",
           "normalizedSignature": "get_NegativeZero|():Vector_1|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -21859,7 +21859,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Numerics.Vector::get_PositiveInfinity():Vector_1",
           "clrName": "get_PositiveInfinity",
-          "tsEmitName": "get_PositiveInfinity",
+          "tsEmitName": "getPositiveinfinity",
           "normalizedSignature": "get_PositiveInfinity|():Vector_1|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -21875,7 +21875,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Numerics.Vector::get_NegativeOne():Vector_1",
           "clrName": "get_NegativeOne",
-          "tsEmitName": "get_NegativeOne",
+          "tsEmitName": "getNegativeone",
           "normalizedSignature": "get_NegativeOne|():Vector_1|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",

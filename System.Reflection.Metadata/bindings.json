@@ -13,7 +13,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.ConstantTypeCode::value__System.Byte",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67109901,
           "normalizedSignature": "value__|System.Byte|static=false|const=false",
           "isStatic": false,
@@ -893,7 +893,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.Byte|static=false|const=false",
           "target": {
@@ -1066,7 +1066,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.CustomAttributeNamedArgumentKind::value__System.Byte",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67109919,
           "normalizedSignature": "value__|System.Byte|static=false|const=false",
           "isStatic": false,
@@ -1803,7 +1803,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.Byte|static=false|const=false",
           "target": {
@@ -1846,7 +1846,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.ExceptionRegionKind::value__System.UInt16",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67109963,
           "normalizedSignature": "value__|System.UInt16|static=false|const=false",
           "isStatic": false,
@@ -2605,7 +2605,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.UInt16|static=false|const=false",
           "target": {
@@ -2668,7 +2668,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.HandleKind::value__System.Byte",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67110066,
           "normalizedSignature": "value__|System.Byte|static=false|const=false",
           "isStatic": false,
@@ -3790,7 +3790,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.Byte|static=false|const=false",
           "target": {
@@ -4183,7 +4183,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.ILOpCode::value__System.UInt16",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67109501,
           "normalizedSignature": "value__|System.UInt16|static=false|const=false",
           "isStatic": false,
@@ -4216,7 +4216,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.ILOpCode::Ldarg_0System.Reflection.Metadata.ILOpCode",
           "clrName": "Ldarg_0",
-          "tsEmitName": "ldarg_0",
+          "tsEmitName": "ldarg0",
           "metadataToken": 67109504,
           "normalizedSignature": "Ldarg_0|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "isStatic": true,
@@ -4227,7 +4227,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.ILOpCode::Ldarg_1System.Reflection.Metadata.ILOpCode",
           "clrName": "Ldarg_1",
-          "tsEmitName": "ldarg_1",
+          "tsEmitName": "ldarg1",
           "metadataToken": 67109505,
           "normalizedSignature": "Ldarg_1|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "isStatic": true,
@@ -4238,7 +4238,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.ILOpCode::Ldarg_2System.Reflection.Metadata.ILOpCode",
           "clrName": "Ldarg_2",
-          "tsEmitName": "ldarg_2",
+          "tsEmitName": "ldarg2",
           "metadataToken": 67109506,
           "normalizedSignature": "Ldarg_2|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "isStatic": true,
@@ -4249,7 +4249,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.ILOpCode::Ldarg_3System.Reflection.Metadata.ILOpCode",
           "clrName": "Ldarg_3",
-          "tsEmitName": "ldarg_3",
+          "tsEmitName": "ldarg3",
           "metadataToken": 67109507,
           "normalizedSignature": "Ldarg_3|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "isStatic": true,
@@ -4260,7 +4260,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.ILOpCode::Ldloc_0System.Reflection.Metadata.ILOpCode",
           "clrName": "Ldloc_0",
-          "tsEmitName": "ldloc_0",
+          "tsEmitName": "ldloc0",
           "metadataToken": 67109508,
           "normalizedSignature": "Ldloc_0|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "isStatic": true,
@@ -4271,7 +4271,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.ILOpCode::Ldloc_1System.Reflection.Metadata.ILOpCode",
           "clrName": "Ldloc_1",
-          "tsEmitName": "ldloc_1",
+          "tsEmitName": "ldloc1",
           "metadataToken": 67109509,
           "normalizedSignature": "Ldloc_1|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "isStatic": true,
@@ -4282,7 +4282,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.ILOpCode::Ldloc_2System.Reflection.Metadata.ILOpCode",
           "clrName": "Ldloc_2",
-          "tsEmitName": "ldloc_2",
+          "tsEmitName": "ldloc2",
           "metadataToken": 67109510,
           "normalizedSignature": "Ldloc_2|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "isStatic": true,
@@ -4293,7 +4293,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.ILOpCode::Ldloc_3System.Reflection.Metadata.ILOpCode",
           "clrName": "Ldloc_3",
-          "tsEmitName": "ldloc_3",
+          "tsEmitName": "ldloc3",
           "metadataToken": 67109511,
           "normalizedSignature": "Ldloc_3|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "isStatic": true,
@@ -4304,7 +4304,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.ILOpCode::Stloc_0System.Reflection.Metadata.ILOpCode",
           "clrName": "Stloc_0",
-          "tsEmitName": "stloc_0",
+          "tsEmitName": "stloc0",
           "metadataToken": 67109512,
           "normalizedSignature": "Stloc_0|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "isStatic": true,
@@ -4315,7 +4315,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.ILOpCode::Stloc_1System.Reflection.Metadata.ILOpCode",
           "clrName": "Stloc_1",
-          "tsEmitName": "stloc_1",
+          "tsEmitName": "stloc1",
           "metadataToken": 67109513,
           "normalizedSignature": "Stloc_1|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "isStatic": true,
@@ -4326,7 +4326,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.ILOpCode::Stloc_2System.Reflection.Metadata.ILOpCode",
           "clrName": "Stloc_2",
-          "tsEmitName": "stloc_2",
+          "tsEmitName": "stloc2",
           "metadataToken": 67109514,
           "normalizedSignature": "Stloc_2|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "isStatic": true,
@@ -4337,7 +4337,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.ILOpCode::Stloc_3System.Reflection.Metadata.ILOpCode",
           "clrName": "Stloc_3",
-          "tsEmitName": "stloc_3",
+          "tsEmitName": "stloc3",
           "metadataToken": 67109515,
           "normalizedSignature": "Stloc_3|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "isStatic": true,
@@ -4348,7 +4348,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.ILOpCode::Ldarg_sSystem.Reflection.Metadata.ILOpCode",
           "clrName": "Ldarg_s",
-          "tsEmitName": "ldarg_s",
+          "tsEmitName": "ldargS",
           "metadataToken": 67109516,
           "normalizedSignature": "Ldarg_s|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "isStatic": true,
@@ -4359,7 +4359,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.ILOpCode::Ldarga_sSystem.Reflection.Metadata.ILOpCode",
           "clrName": "Ldarga_s",
-          "tsEmitName": "ldarga_s",
+          "tsEmitName": "ldargaS",
           "metadataToken": 67109517,
           "normalizedSignature": "Ldarga_s|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "isStatic": true,
@@ -4370,7 +4370,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.ILOpCode::Starg_sSystem.Reflection.Metadata.ILOpCode",
           "clrName": "Starg_s",
-          "tsEmitName": "starg_s",
+          "tsEmitName": "stargS",
           "metadataToken": 67109518,
           "normalizedSignature": "Starg_s|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "isStatic": true,
@@ -4381,7 +4381,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.ILOpCode::Ldloc_sSystem.Reflection.Metadata.ILOpCode",
           "clrName": "Ldloc_s",
-          "tsEmitName": "ldloc_s",
+          "tsEmitName": "ldlocS",
           "metadataToken": 67109519,
           "normalizedSignature": "Ldloc_s|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "isStatic": true,
@@ -4392,7 +4392,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.ILOpCode::Ldloca_sSystem.Reflection.Metadata.ILOpCode",
           "clrName": "Ldloca_s",
-          "tsEmitName": "ldloca_s",
+          "tsEmitName": "ldlocaS",
           "metadataToken": 67109520,
           "normalizedSignature": "Ldloca_s|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "isStatic": true,
@@ -4403,7 +4403,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.ILOpCode::Stloc_sSystem.Reflection.Metadata.ILOpCode",
           "clrName": "Stloc_s",
-          "tsEmitName": "stloc_s",
+          "tsEmitName": "stlocS",
           "metadataToken": 67109521,
           "normalizedSignature": "Stloc_s|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "isStatic": true,
@@ -4425,7 +4425,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.ILOpCode::Ldc_i4_m1System.Reflection.Metadata.ILOpCode",
           "clrName": "Ldc_i4_m1",
-          "tsEmitName": "ldc_i4_m1",
+          "tsEmitName": "ldcI4M1",
           "metadataToken": 67109523,
           "normalizedSignature": "Ldc_i4_m1|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "isStatic": true,
@@ -4436,7 +4436,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.ILOpCode::Ldc_i4_0System.Reflection.Metadata.ILOpCode",
           "clrName": "Ldc_i4_0",
-          "tsEmitName": "ldc_i4_0",
+          "tsEmitName": "ldcI40",
           "metadataToken": 67109524,
           "normalizedSignature": "Ldc_i4_0|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "isStatic": true,
@@ -4447,7 +4447,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.ILOpCode::Ldc_i4_1System.Reflection.Metadata.ILOpCode",
           "clrName": "Ldc_i4_1",
-          "tsEmitName": "ldc_i4_1",
+          "tsEmitName": "ldcI41",
           "metadataToken": 67109525,
           "normalizedSignature": "Ldc_i4_1|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "isStatic": true,
@@ -4458,7 +4458,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.ILOpCode::Ldc_i4_2System.Reflection.Metadata.ILOpCode",
           "clrName": "Ldc_i4_2",
-          "tsEmitName": "ldc_i4_2",
+          "tsEmitName": "ldcI42",
           "metadataToken": 67109526,
           "normalizedSignature": "Ldc_i4_2|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "isStatic": true,
@@ -4469,7 +4469,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.ILOpCode::Ldc_i4_3System.Reflection.Metadata.ILOpCode",
           "clrName": "Ldc_i4_3",
-          "tsEmitName": "ldc_i4_3",
+          "tsEmitName": "ldcI43",
           "metadataToken": 67109527,
           "normalizedSignature": "Ldc_i4_3|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "isStatic": true,
@@ -4480,7 +4480,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.ILOpCode::Ldc_i4_4System.Reflection.Metadata.ILOpCode",
           "clrName": "Ldc_i4_4",
-          "tsEmitName": "ldc_i4_4",
+          "tsEmitName": "ldcI44",
           "metadataToken": 67109528,
           "normalizedSignature": "Ldc_i4_4|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "isStatic": true,
@@ -4491,7 +4491,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.ILOpCode::Ldc_i4_5System.Reflection.Metadata.ILOpCode",
           "clrName": "Ldc_i4_5",
-          "tsEmitName": "ldc_i4_5",
+          "tsEmitName": "ldcI45",
           "metadataToken": 67109529,
           "normalizedSignature": "Ldc_i4_5|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "isStatic": true,
@@ -4502,7 +4502,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.ILOpCode::Ldc_i4_6System.Reflection.Metadata.ILOpCode",
           "clrName": "Ldc_i4_6",
-          "tsEmitName": "ldc_i4_6",
+          "tsEmitName": "ldcI46",
           "metadataToken": 67109530,
           "normalizedSignature": "Ldc_i4_6|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "isStatic": true,
@@ -4513,7 +4513,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.ILOpCode::Ldc_i4_7System.Reflection.Metadata.ILOpCode",
           "clrName": "Ldc_i4_7",
-          "tsEmitName": "ldc_i4_7",
+          "tsEmitName": "ldcI47",
           "metadataToken": 67109531,
           "normalizedSignature": "Ldc_i4_7|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "isStatic": true,
@@ -4524,7 +4524,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.ILOpCode::Ldc_i4_8System.Reflection.Metadata.ILOpCode",
           "clrName": "Ldc_i4_8",
-          "tsEmitName": "ldc_i4_8",
+          "tsEmitName": "ldcI48",
           "metadataToken": 67109532,
           "normalizedSignature": "Ldc_i4_8|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "isStatic": true,
@@ -4535,7 +4535,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.ILOpCode::Ldc_i4_sSystem.Reflection.Metadata.ILOpCode",
           "clrName": "Ldc_i4_s",
-          "tsEmitName": "ldc_i4_s",
+          "tsEmitName": "ldcI4S",
           "metadataToken": 67109533,
           "normalizedSignature": "Ldc_i4_s|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "isStatic": true,
@@ -4546,7 +4546,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.ILOpCode::Ldc_i4System.Reflection.Metadata.ILOpCode",
           "clrName": "Ldc_i4",
-          "tsEmitName": "ldc_i4",
+          "tsEmitName": "ldcI4",
           "metadataToken": 67109534,
           "normalizedSignature": "Ldc_i4|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "isStatic": true,
@@ -4557,7 +4557,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.ILOpCode::Ldc_i8System.Reflection.Metadata.ILOpCode",
           "clrName": "Ldc_i8",
-          "tsEmitName": "ldc_i8",
+          "tsEmitName": "ldcI8",
           "metadataToken": 67109535,
           "normalizedSignature": "Ldc_i8|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "isStatic": true,
@@ -4568,7 +4568,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.ILOpCode::Ldc_r4System.Reflection.Metadata.ILOpCode",
           "clrName": "Ldc_r4",
-          "tsEmitName": "ldc_r4",
+          "tsEmitName": "ldcR4",
           "metadataToken": 67109536,
           "normalizedSignature": "Ldc_r4|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "isStatic": true,
@@ -4579,7 +4579,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.ILOpCode::Ldc_r8System.Reflection.Metadata.ILOpCode",
           "clrName": "Ldc_r8",
-          "tsEmitName": "ldc_r8",
+          "tsEmitName": "ldcR8",
           "metadataToken": 67109537,
           "normalizedSignature": "Ldc_r8|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "isStatic": true,
@@ -4656,7 +4656,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.ILOpCode::Br_sSystem.Reflection.Metadata.ILOpCode",
           "clrName": "Br_s",
-          "tsEmitName": "br_s",
+          "tsEmitName": "brS",
           "metadataToken": 67109544,
           "normalizedSignature": "Br_s|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "isStatic": true,
@@ -4667,7 +4667,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.ILOpCode::Brfalse_sSystem.Reflection.Metadata.ILOpCode",
           "clrName": "Brfalse_s",
-          "tsEmitName": "brfalse_s",
+          "tsEmitName": "brfalseS",
           "metadataToken": 67109545,
           "normalizedSignature": "Brfalse_s|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "isStatic": true,
@@ -4678,7 +4678,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.ILOpCode::Brtrue_sSystem.Reflection.Metadata.ILOpCode",
           "clrName": "Brtrue_s",
-          "tsEmitName": "brtrue_s",
+          "tsEmitName": "brtrueS",
           "metadataToken": 67109546,
           "normalizedSignature": "Brtrue_s|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "isStatic": true,
@@ -4689,7 +4689,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.ILOpCode::Beq_sSystem.Reflection.Metadata.ILOpCode",
           "clrName": "Beq_s",
-          "tsEmitName": "beq_s",
+          "tsEmitName": "beqS",
           "metadataToken": 67109547,
           "normalizedSignature": "Beq_s|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "isStatic": true,
@@ -4700,7 +4700,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.ILOpCode::Bge_sSystem.Reflection.Metadata.ILOpCode",
           "clrName": "Bge_s",
-          "tsEmitName": "bge_s",
+          "tsEmitName": "bgeS",
           "metadataToken": 67109548,
           "normalizedSignature": "Bge_s|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "isStatic": true,
@@ -4711,7 +4711,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.ILOpCode::Bgt_sSystem.Reflection.Metadata.ILOpCode",
           "clrName": "Bgt_s",
-          "tsEmitName": "bgt_s",
+          "tsEmitName": "bgtS",
           "metadataToken": 67109549,
           "normalizedSignature": "Bgt_s|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "isStatic": true,
@@ -4722,7 +4722,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.ILOpCode::Ble_sSystem.Reflection.Metadata.ILOpCode",
           "clrName": "Ble_s",
-          "tsEmitName": "ble_s",
+          "tsEmitName": "bleS",
           "metadataToken": 67109550,
           "normalizedSignature": "Ble_s|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "isStatic": true,
@@ -4733,7 +4733,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.ILOpCode::Blt_sSystem.Reflection.Metadata.ILOpCode",
           "clrName": "Blt_s",
-          "tsEmitName": "blt_s",
+          "tsEmitName": "bltS",
           "metadataToken": 67109551,
           "normalizedSignature": "Blt_s|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "isStatic": true,
@@ -4744,7 +4744,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.ILOpCode::Bne_un_sSystem.Reflection.Metadata.ILOpCode",
           "clrName": "Bne_un_s",
-          "tsEmitName": "bne_un_s",
+          "tsEmitName": "bneUnS",
           "metadataToken": 67109552,
           "normalizedSignature": "Bne_un_s|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "isStatic": true,
@@ -4755,7 +4755,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.ILOpCode::Bge_un_sSystem.Reflection.Metadata.ILOpCode",
           "clrName": "Bge_un_s",
-          "tsEmitName": "bge_un_s",
+          "tsEmitName": "bgeUnS",
           "metadataToken": 67109553,
           "normalizedSignature": "Bge_un_s|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "isStatic": true,
@@ -4766,7 +4766,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.ILOpCode::Bgt_un_sSystem.Reflection.Metadata.ILOpCode",
           "clrName": "Bgt_un_s",
-          "tsEmitName": "bgt_un_s",
+          "tsEmitName": "bgtUnS",
           "metadataToken": 67109554,
           "normalizedSignature": "Bgt_un_s|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "isStatic": true,
@@ -4777,7 +4777,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.ILOpCode::Ble_un_sSystem.Reflection.Metadata.ILOpCode",
           "clrName": "Ble_un_s",
-          "tsEmitName": "ble_un_s",
+          "tsEmitName": "bleUnS",
           "metadataToken": 67109555,
           "normalizedSignature": "Ble_un_s|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "isStatic": true,
@@ -4788,7 +4788,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.ILOpCode::Blt_un_sSystem.Reflection.Metadata.ILOpCode",
           "clrName": "Blt_un_s",
-          "tsEmitName": "blt_un_s",
+          "tsEmitName": "bltUnS",
           "metadataToken": 67109556,
           "normalizedSignature": "Blt_un_s|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "isStatic": true,
@@ -4887,7 +4887,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.ILOpCode::Bne_unSystem.Reflection.Metadata.ILOpCode",
           "clrName": "Bne_un",
-          "tsEmitName": "bne_un",
+          "tsEmitName": "bneUn",
           "metadataToken": 67109565,
           "normalizedSignature": "Bne_un|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "isStatic": true,
@@ -4898,7 +4898,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.ILOpCode::Bge_unSystem.Reflection.Metadata.ILOpCode",
           "clrName": "Bge_un",
-          "tsEmitName": "bge_un",
+          "tsEmitName": "bgeUn",
           "metadataToken": 67109566,
           "normalizedSignature": "Bge_un|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "isStatic": true,
@@ -4909,7 +4909,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.ILOpCode::Bgt_unSystem.Reflection.Metadata.ILOpCode",
           "clrName": "Bgt_un",
-          "tsEmitName": "bgt_un",
+          "tsEmitName": "bgtUn",
           "metadataToken": 67109567,
           "normalizedSignature": "Bgt_un|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "isStatic": true,
@@ -4920,7 +4920,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.ILOpCode::Ble_unSystem.Reflection.Metadata.ILOpCode",
           "clrName": "Ble_un",
-          "tsEmitName": "ble_un",
+          "tsEmitName": "bleUn",
           "metadataToken": 67109568,
           "normalizedSignature": "Ble_un|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "isStatic": true,
@@ -4931,7 +4931,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.ILOpCode::Blt_unSystem.Reflection.Metadata.ILOpCode",
           "clrName": "Blt_un",
-          "tsEmitName": "blt_un",
+          "tsEmitName": "bltUn",
           "metadataToken": 67109569,
           "normalizedSignature": "Blt_un|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "isStatic": true,
@@ -4953,7 +4953,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.ILOpCode::Ldind_i1System.Reflection.Metadata.ILOpCode",
           "clrName": "Ldind_i1",
-          "tsEmitName": "ldind_i1",
+          "tsEmitName": "ldindI1",
           "metadataToken": 67109571,
           "normalizedSignature": "Ldind_i1|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "isStatic": true,
@@ -4964,7 +4964,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.ILOpCode::Ldind_u1System.Reflection.Metadata.ILOpCode",
           "clrName": "Ldind_u1",
-          "tsEmitName": "ldind_u1",
+          "tsEmitName": "ldindU1",
           "metadataToken": 67109572,
           "normalizedSignature": "Ldind_u1|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "isStatic": true,
@@ -4975,7 +4975,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.ILOpCode::Ldind_i2System.Reflection.Metadata.ILOpCode",
           "clrName": "Ldind_i2",
-          "tsEmitName": "ldind_i2",
+          "tsEmitName": "ldindI2",
           "metadataToken": 67109573,
           "normalizedSignature": "Ldind_i2|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "isStatic": true,
@@ -4986,7 +4986,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.ILOpCode::Ldind_u2System.Reflection.Metadata.ILOpCode",
           "clrName": "Ldind_u2",
-          "tsEmitName": "ldind_u2",
+          "tsEmitName": "ldindU2",
           "metadataToken": 67109574,
           "normalizedSignature": "Ldind_u2|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "isStatic": true,
@@ -4997,7 +4997,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.ILOpCode::Ldind_i4System.Reflection.Metadata.ILOpCode",
           "clrName": "Ldind_i4",
-          "tsEmitName": "ldind_i4",
+          "tsEmitName": "ldindI4",
           "metadataToken": 67109575,
           "normalizedSignature": "Ldind_i4|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "isStatic": true,
@@ -5008,7 +5008,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.ILOpCode::Ldind_u4System.Reflection.Metadata.ILOpCode",
           "clrName": "Ldind_u4",
-          "tsEmitName": "ldind_u4",
+          "tsEmitName": "ldindU4",
           "metadataToken": 67109576,
           "normalizedSignature": "Ldind_u4|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "isStatic": true,
@@ -5019,7 +5019,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.ILOpCode::Ldind_i8System.Reflection.Metadata.ILOpCode",
           "clrName": "Ldind_i8",
-          "tsEmitName": "ldind_i8",
+          "tsEmitName": "ldindI8",
           "metadataToken": 67109577,
           "normalizedSignature": "Ldind_i8|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "isStatic": true,
@@ -5030,7 +5030,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.ILOpCode::Ldind_iSystem.Reflection.Metadata.ILOpCode",
           "clrName": "Ldind_i",
-          "tsEmitName": "ldind_i",
+          "tsEmitName": "ldindI",
           "metadataToken": 67109578,
           "normalizedSignature": "Ldind_i|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "isStatic": true,
@@ -5041,7 +5041,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.ILOpCode::Ldind_r4System.Reflection.Metadata.ILOpCode",
           "clrName": "Ldind_r4",
-          "tsEmitName": "ldind_r4",
+          "tsEmitName": "ldindR4",
           "metadataToken": 67109579,
           "normalizedSignature": "Ldind_r4|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "isStatic": true,
@@ -5052,7 +5052,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.ILOpCode::Ldind_r8System.Reflection.Metadata.ILOpCode",
           "clrName": "Ldind_r8",
-          "tsEmitName": "ldind_r8",
+          "tsEmitName": "ldindR8",
           "metadataToken": 67109580,
           "normalizedSignature": "Ldind_r8|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "isStatic": true,
@@ -5063,7 +5063,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.ILOpCode::Ldind_refSystem.Reflection.Metadata.ILOpCode",
           "clrName": "Ldind_ref",
-          "tsEmitName": "ldind_ref",
+          "tsEmitName": "ldindRef",
           "metadataToken": 67109581,
           "normalizedSignature": "Ldind_ref|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "isStatic": true,
@@ -5074,7 +5074,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.ILOpCode::Stind_refSystem.Reflection.Metadata.ILOpCode",
           "clrName": "Stind_ref",
-          "tsEmitName": "stind_ref",
+          "tsEmitName": "stindRef",
           "metadataToken": 67109582,
           "normalizedSignature": "Stind_ref|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "isStatic": true,
@@ -5085,7 +5085,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.ILOpCode::Stind_i1System.Reflection.Metadata.ILOpCode",
           "clrName": "Stind_i1",
-          "tsEmitName": "stind_i1",
+          "tsEmitName": "stindI1",
           "metadataToken": 67109583,
           "normalizedSignature": "Stind_i1|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "isStatic": true,
@@ -5096,7 +5096,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.ILOpCode::Stind_i2System.Reflection.Metadata.ILOpCode",
           "clrName": "Stind_i2",
-          "tsEmitName": "stind_i2",
+          "tsEmitName": "stindI2",
           "metadataToken": 67109584,
           "normalizedSignature": "Stind_i2|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "isStatic": true,
@@ -5107,7 +5107,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.ILOpCode::Stind_i4System.Reflection.Metadata.ILOpCode",
           "clrName": "Stind_i4",
-          "tsEmitName": "stind_i4",
+          "tsEmitName": "stindI4",
           "metadataToken": 67109585,
           "normalizedSignature": "Stind_i4|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "isStatic": true,
@@ -5118,7 +5118,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.ILOpCode::Stind_i8System.Reflection.Metadata.ILOpCode",
           "clrName": "Stind_i8",
-          "tsEmitName": "stind_i8",
+          "tsEmitName": "stindI8",
           "metadataToken": 67109586,
           "normalizedSignature": "Stind_i8|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "isStatic": true,
@@ -5129,7 +5129,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.ILOpCode::Stind_r4System.Reflection.Metadata.ILOpCode",
           "clrName": "Stind_r4",
-          "tsEmitName": "stind_r4",
+          "tsEmitName": "stindR4",
           "metadataToken": 67109587,
           "normalizedSignature": "Stind_r4|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "isStatic": true,
@@ -5140,7 +5140,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.ILOpCode::Stind_r8System.Reflection.Metadata.ILOpCode",
           "clrName": "Stind_r8",
-          "tsEmitName": "stind_r8",
+          "tsEmitName": "stindR8",
           "metadataToken": 67109588,
           "normalizedSignature": "Stind_r8|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "isStatic": true,
@@ -5195,7 +5195,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.ILOpCode::Div_unSystem.Reflection.Metadata.ILOpCode",
           "clrName": "Div_un",
-          "tsEmitName": "div_un",
+          "tsEmitName": "divUn",
           "metadataToken": 67109593,
           "normalizedSignature": "Div_un|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "isStatic": true,
@@ -5217,7 +5217,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.ILOpCode::Rem_unSystem.Reflection.Metadata.ILOpCode",
           "clrName": "Rem_un",
-          "tsEmitName": "rem_un",
+          "tsEmitName": "remUn",
           "metadataToken": 67109595,
           "normalizedSignature": "Rem_un|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "isStatic": true,
@@ -5283,7 +5283,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.ILOpCode::Shr_unSystem.Reflection.Metadata.ILOpCode",
           "clrName": "Shr_un",
-          "tsEmitName": "shr_un",
+          "tsEmitName": "shrUn",
           "metadataToken": 67109601,
           "normalizedSignature": "Shr_un|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "isStatic": true,
@@ -5316,7 +5316,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.ILOpCode::Conv_i1System.Reflection.Metadata.ILOpCode",
           "clrName": "Conv_i1",
-          "tsEmitName": "conv_i1",
+          "tsEmitName": "convI1",
           "metadataToken": 67109604,
           "normalizedSignature": "Conv_i1|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "isStatic": true,
@@ -5327,7 +5327,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.ILOpCode::Conv_i2System.Reflection.Metadata.ILOpCode",
           "clrName": "Conv_i2",
-          "tsEmitName": "conv_i2",
+          "tsEmitName": "convI2",
           "metadataToken": 67109605,
           "normalizedSignature": "Conv_i2|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "isStatic": true,
@@ -5338,7 +5338,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.ILOpCode::Conv_i4System.Reflection.Metadata.ILOpCode",
           "clrName": "Conv_i4",
-          "tsEmitName": "conv_i4",
+          "tsEmitName": "convI4",
           "metadataToken": 67109606,
           "normalizedSignature": "Conv_i4|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "isStatic": true,
@@ -5349,7 +5349,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.ILOpCode::Conv_i8System.Reflection.Metadata.ILOpCode",
           "clrName": "Conv_i8",
-          "tsEmitName": "conv_i8",
+          "tsEmitName": "convI8",
           "metadataToken": 67109607,
           "normalizedSignature": "Conv_i8|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "isStatic": true,
@@ -5360,7 +5360,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.ILOpCode::Conv_r4System.Reflection.Metadata.ILOpCode",
           "clrName": "Conv_r4",
-          "tsEmitName": "conv_r4",
+          "tsEmitName": "convR4",
           "metadataToken": 67109608,
           "normalizedSignature": "Conv_r4|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "isStatic": true,
@@ -5371,7 +5371,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.ILOpCode::Conv_r8System.Reflection.Metadata.ILOpCode",
           "clrName": "Conv_r8",
-          "tsEmitName": "conv_r8",
+          "tsEmitName": "convR8",
           "metadataToken": 67109609,
           "normalizedSignature": "Conv_r8|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "isStatic": true,
@@ -5382,7 +5382,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.ILOpCode::Conv_u4System.Reflection.Metadata.ILOpCode",
           "clrName": "Conv_u4",
-          "tsEmitName": "conv_u4",
+          "tsEmitName": "convU4",
           "metadataToken": 67109610,
           "normalizedSignature": "Conv_u4|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "isStatic": true,
@@ -5393,7 +5393,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.ILOpCode::Conv_u8System.Reflection.Metadata.ILOpCode",
           "clrName": "Conv_u8",
-          "tsEmitName": "conv_u8",
+          "tsEmitName": "convU8",
           "metadataToken": 67109611,
           "normalizedSignature": "Conv_u8|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "isStatic": true,
@@ -5481,7 +5481,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.ILOpCode::Conv_r_unSystem.Reflection.Metadata.ILOpCode",
           "clrName": "Conv_r_un",
-          "tsEmitName": "conv_r_un",
+          "tsEmitName": "convRUn",
           "metadataToken": 67109619,
           "normalizedSignature": "Conv_r_un|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "isStatic": true,
@@ -5591,7 +5591,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.ILOpCode::Conv_ovf_i1_unSystem.Reflection.Metadata.ILOpCode",
           "clrName": "Conv_ovf_i1_un",
-          "tsEmitName": "conv_ovf_i1_un",
+          "tsEmitName": "convOvfI1Un",
           "metadataToken": 67109629,
           "normalizedSignature": "Conv_ovf_i1_un|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "isStatic": true,
@@ -5602,7 +5602,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.ILOpCode::Conv_ovf_i2_unSystem.Reflection.Metadata.ILOpCode",
           "clrName": "Conv_ovf_i2_un",
-          "tsEmitName": "conv_ovf_i2_un",
+          "tsEmitName": "convOvfI2Un",
           "metadataToken": 67109630,
           "normalizedSignature": "Conv_ovf_i2_un|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "isStatic": true,
@@ -5613,7 +5613,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.ILOpCode::Conv_ovf_i4_unSystem.Reflection.Metadata.ILOpCode",
           "clrName": "Conv_ovf_i4_un",
-          "tsEmitName": "conv_ovf_i4_un",
+          "tsEmitName": "convOvfI4Un",
           "metadataToken": 67109631,
           "normalizedSignature": "Conv_ovf_i4_un|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "isStatic": true,
@@ -5624,7 +5624,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.ILOpCode::Conv_ovf_i8_unSystem.Reflection.Metadata.ILOpCode",
           "clrName": "Conv_ovf_i8_un",
-          "tsEmitName": "conv_ovf_i8_un",
+          "tsEmitName": "convOvfI8Un",
           "metadataToken": 67109632,
           "normalizedSignature": "Conv_ovf_i8_un|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "isStatic": true,
@@ -5635,7 +5635,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.ILOpCode::Conv_ovf_u1_unSystem.Reflection.Metadata.ILOpCode",
           "clrName": "Conv_ovf_u1_un",
-          "tsEmitName": "conv_ovf_u1_un",
+          "tsEmitName": "convOvfU1Un",
           "metadataToken": 67109633,
           "normalizedSignature": "Conv_ovf_u1_un|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "isStatic": true,
@@ -5646,7 +5646,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.ILOpCode::Conv_ovf_u2_unSystem.Reflection.Metadata.ILOpCode",
           "clrName": "Conv_ovf_u2_un",
-          "tsEmitName": "conv_ovf_u2_un",
+          "tsEmitName": "convOvfU2Un",
           "metadataToken": 67109634,
           "normalizedSignature": "Conv_ovf_u2_un|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "isStatic": true,
@@ -5657,7 +5657,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.ILOpCode::Conv_ovf_u4_unSystem.Reflection.Metadata.ILOpCode",
           "clrName": "Conv_ovf_u4_un",
-          "tsEmitName": "conv_ovf_u4_un",
+          "tsEmitName": "convOvfU4Un",
           "metadataToken": 67109635,
           "normalizedSignature": "Conv_ovf_u4_un|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "isStatic": true,
@@ -5668,7 +5668,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.ILOpCode::Conv_ovf_u8_unSystem.Reflection.Metadata.ILOpCode",
           "clrName": "Conv_ovf_u8_un",
-          "tsEmitName": "conv_ovf_u8_un",
+          "tsEmitName": "convOvfU8Un",
           "metadataToken": 67109636,
           "normalizedSignature": "Conv_ovf_u8_un|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "isStatic": true,
@@ -5679,7 +5679,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.ILOpCode::Conv_ovf_i_unSystem.Reflection.Metadata.ILOpCode",
           "clrName": "Conv_ovf_i_un",
-          "tsEmitName": "conv_ovf_i_un",
+          "tsEmitName": "convOvfIUn",
           "metadataToken": 67109637,
           "normalizedSignature": "Conv_ovf_i_un|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "isStatic": true,
@@ -5690,7 +5690,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.ILOpCode::Conv_ovf_u_unSystem.Reflection.Metadata.ILOpCode",
           "clrName": "Conv_ovf_u_un",
-          "tsEmitName": "conv_ovf_u_un",
+          "tsEmitName": "convOvfUUn",
           "metadataToken": 67109638,
           "normalizedSignature": "Conv_ovf_u_un|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "isStatic": true,
@@ -5745,7 +5745,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.ILOpCode::Ldelem_i1System.Reflection.Metadata.ILOpCode",
           "clrName": "Ldelem_i1",
-          "tsEmitName": "ldelem_i1",
+          "tsEmitName": "ldelemI1",
           "metadataToken": 67109643,
           "normalizedSignature": "Ldelem_i1|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "isStatic": true,
@@ -5756,7 +5756,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.ILOpCode::Ldelem_u1System.Reflection.Metadata.ILOpCode",
           "clrName": "Ldelem_u1",
-          "tsEmitName": "ldelem_u1",
+          "tsEmitName": "ldelemU1",
           "metadataToken": 67109644,
           "normalizedSignature": "Ldelem_u1|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "isStatic": true,
@@ -5767,7 +5767,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.ILOpCode::Ldelem_i2System.Reflection.Metadata.ILOpCode",
           "clrName": "Ldelem_i2",
-          "tsEmitName": "ldelem_i2",
+          "tsEmitName": "ldelemI2",
           "metadataToken": 67109645,
           "normalizedSignature": "Ldelem_i2|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "isStatic": true,
@@ -5778,7 +5778,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.ILOpCode::Ldelem_u2System.Reflection.Metadata.ILOpCode",
           "clrName": "Ldelem_u2",
-          "tsEmitName": "ldelem_u2",
+          "tsEmitName": "ldelemU2",
           "metadataToken": 67109646,
           "normalizedSignature": "Ldelem_u2|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "isStatic": true,
@@ -5789,7 +5789,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.ILOpCode::Ldelem_i4System.Reflection.Metadata.ILOpCode",
           "clrName": "Ldelem_i4",
-          "tsEmitName": "ldelem_i4",
+          "tsEmitName": "ldelemI4",
           "metadataToken": 67109647,
           "normalizedSignature": "Ldelem_i4|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "isStatic": true,
@@ -5800,7 +5800,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.ILOpCode::Ldelem_u4System.Reflection.Metadata.ILOpCode",
           "clrName": "Ldelem_u4",
-          "tsEmitName": "ldelem_u4",
+          "tsEmitName": "ldelemU4",
           "metadataToken": 67109648,
           "normalizedSignature": "Ldelem_u4|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "isStatic": true,
@@ -5811,7 +5811,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.ILOpCode::Ldelem_i8System.Reflection.Metadata.ILOpCode",
           "clrName": "Ldelem_i8",
-          "tsEmitName": "ldelem_i8",
+          "tsEmitName": "ldelemI8",
           "metadataToken": 67109649,
           "normalizedSignature": "Ldelem_i8|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "isStatic": true,
@@ -5822,7 +5822,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.ILOpCode::Ldelem_iSystem.Reflection.Metadata.ILOpCode",
           "clrName": "Ldelem_i",
-          "tsEmitName": "ldelem_i",
+          "tsEmitName": "ldelemI",
           "metadataToken": 67109650,
           "normalizedSignature": "Ldelem_i|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "isStatic": true,
@@ -5833,7 +5833,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.ILOpCode::Ldelem_r4System.Reflection.Metadata.ILOpCode",
           "clrName": "Ldelem_r4",
-          "tsEmitName": "ldelem_r4",
+          "tsEmitName": "ldelemR4",
           "metadataToken": 67109651,
           "normalizedSignature": "Ldelem_r4|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "isStatic": true,
@@ -5844,7 +5844,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.ILOpCode::Ldelem_r8System.Reflection.Metadata.ILOpCode",
           "clrName": "Ldelem_r8",
-          "tsEmitName": "ldelem_r8",
+          "tsEmitName": "ldelemR8",
           "metadataToken": 67109652,
           "normalizedSignature": "Ldelem_r8|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "isStatic": true,
@@ -5855,7 +5855,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.ILOpCode::Ldelem_refSystem.Reflection.Metadata.ILOpCode",
           "clrName": "Ldelem_ref",
-          "tsEmitName": "ldelem_ref",
+          "tsEmitName": "ldelemRef",
           "metadataToken": 67109653,
           "normalizedSignature": "Ldelem_ref|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "isStatic": true,
@@ -5866,7 +5866,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.ILOpCode::Stelem_iSystem.Reflection.Metadata.ILOpCode",
           "clrName": "Stelem_i",
-          "tsEmitName": "stelem_i",
+          "tsEmitName": "stelemI",
           "metadataToken": 67109654,
           "normalizedSignature": "Stelem_i|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "isStatic": true,
@@ -5877,7 +5877,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.ILOpCode::Stelem_i1System.Reflection.Metadata.ILOpCode",
           "clrName": "Stelem_i1",
-          "tsEmitName": "stelem_i1",
+          "tsEmitName": "stelemI1",
           "metadataToken": 67109655,
           "normalizedSignature": "Stelem_i1|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "isStatic": true,
@@ -5888,7 +5888,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.ILOpCode::Stelem_i2System.Reflection.Metadata.ILOpCode",
           "clrName": "Stelem_i2",
-          "tsEmitName": "stelem_i2",
+          "tsEmitName": "stelemI2",
           "metadataToken": 67109656,
           "normalizedSignature": "Stelem_i2|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "isStatic": true,
@@ -5899,7 +5899,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.ILOpCode::Stelem_i4System.Reflection.Metadata.ILOpCode",
           "clrName": "Stelem_i4",
-          "tsEmitName": "stelem_i4",
+          "tsEmitName": "stelemI4",
           "metadataToken": 67109657,
           "normalizedSignature": "Stelem_i4|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "isStatic": true,
@@ -5910,7 +5910,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.ILOpCode::Stelem_i8System.Reflection.Metadata.ILOpCode",
           "clrName": "Stelem_i8",
-          "tsEmitName": "stelem_i8",
+          "tsEmitName": "stelemI8",
           "metadataToken": 67109658,
           "normalizedSignature": "Stelem_i8|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "isStatic": true,
@@ -5921,7 +5921,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.ILOpCode::Stelem_r4System.Reflection.Metadata.ILOpCode",
           "clrName": "Stelem_r4",
-          "tsEmitName": "stelem_r4",
+          "tsEmitName": "stelemR4",
           "metadataToken": 67109659,
           "normalizedSignature": "Stelem_r4|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "isStatic": true,
@@ -5932,7 +5932,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.ILOpCode::Stelem_r8System.Reflection.Metadata.ILOpCode",
           "clrName": "Stelem_r8",
-          "tsEmitName": "stelem_r8",
+          "tsEmitName": "stelemR8",
           "metadataToken": 67109660,
           "normalizedSignature": "Stelem_r8|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "isStatic": true,
@@ -5943,7 +5943,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.ILOpCode::Stelem_refSystem.Reflection.Metadata.ILOpCode",
           "clrName": "Stelem_ref",
-          "tsEmitName": "stelem_ref",
+          "tsEmitName": "stelemRef",
           "metadataToken": 67109661,
           "normalizedSignature": "Stelem_ref|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "isStatic": true,
@@ -5976,7 +5976,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.ILOpCode::Unbox_anySystem.Reflection.Metadata.ILOpCode",
           "clrName": "Unbox_any",
-          "tsEmitName": "unbox_any",
+          "tsEmitName": "unboxAny",
           "metadataToken": 67109664,
           "normalizedSignature": "Unbox_any|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "isStatic": true,
@@ -5987,7 +5987,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.ILOpCode::Conv_ovf_i1System.Reflection.Metadata.ILOpCode",
           "clrName": "Conv_ovf_i1",
-          "tsEmitName": "conv_ovf_i1",
+          "tsEmitName": "convOvfI1",
           "metadataToken": 67109665,
           "normalizedSignature": "Conv_ovf_i1|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "isStatic": true,
@@ -5998,7 +5998,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.ILOpCode::Conv_ovf_u1System.Reflection.Metadata.ILOpCode",
           "clrName": "Conv_ovf_u1",
-          "tsEmitName": "conv_ovf_u1",
+          "tsEmitName": "convOvfU1",
           "metadataToken": 67109666,
           "normalizedSignature": "Conv_ovf_u1|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "isStatic": true,
@@ -6009,7 +6009,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.ILOpCode::Conv_ovf_i2System.Reflection.Metadata.ILOpCode",
           "clrName": "Conv_ovf_i2",
-          "tsEmitName": "conv_ovf_i2",
+          "tsEmitName": "convOvfI2",
           "metadataToken": 67109667,
           "normalizedSignature": "Conv_ovf_i2|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "isStatic": true,
@@ -6020,7 +6020,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.ILOpCode::Conv_ovf_u2System.Reflection.Metadata.ILOpCode",
           "clrName": "Conv_ovf_u2",
-          "tsEmitName": "conv_ovf_u2",
+          "tsEmitName": "convOvfU2",
           "metadataToken": 67109668,
           "normalizedSignature": "Conv_ovf_u2|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "isStatic": true,
@@ -6031,7 +6031,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.ILOpCode::Conv_ovf_i4System.Reflection.Metadata.ILOpCode",
           "clrName": "Conv_ovf_i4",
-          "tsEmitName": "conv_ovf_i4",
+          "tsEmitName": "convOvfI4",
           "metadataToken": 67109669,
           "normalizedSignature": "Conv_ovf_i4|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "isStatic": true,
@@ -6042,7 +6042,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.ILOpCode::Conv_ovf_u4System.Reflection.Metadata.ILOpCode",
           "clrName": "Conv_ovf_u4",
-          "tsEmitName": "conv_ovf_u4",
+          "tsEmitName": "convOvfU4",
           "metadataToken": 67109670,
           "normalizedSignature": "Conv_ovf_u4|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "isStatic": true,
@@ -6053,7 +6053,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.ILOpCode::Conv_ovf_i8System.Reflection.Metadata.ILOpCode",
           "clrName": "Conv_ovf_i8",
-          "tsEmitName": "conv_ovf_i8",
+          "tsEmitName": "convOvfI8",
           "metadataToken": 67109671,
           "normalizedSignature": "Conv_ovf_i8|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "isStatic": true,
@@ -6064,7 +6064,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.ILOpCode::Conv_ovf_u8System.Reflection.Metadata.ILOpCode",
           "clrName": "Conv_ovf_u8",
-          "tsEmitName": "conv_ovf_u8",
+          "tsEmitName": "convOvfU8",
           "metadataToken": 67109672,
           "normalizedSignature": "Conv_ovf_u8|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "isStatic": true,
@@ -6119,7 +6119,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.ILOpCode::Conv_u2System.Reflection.Metadata.ILOpCode",
           "clrName": "Conv_u2",
-          "tsEmitName": "conv_u2",
+          "tsEmitName": "convU2",
           "metadataToken": 67109677,
           "normalizedSignature": "Conv_u2|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "isStatic": true,
@@ -6130,7 +6130,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.ILOpCode::Conv_u1System.Reflection.Metadata.ILOpCode",
           "clrName": "Conv_u1",
-          "tsEmitName": "conv_u1",
+          "tsEmitName": "convU1",
           "metadataToken": 67109678,
           "normalizedSignature": "Conv_u1|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "isStatic": true,
@@ -6141,7 +6141,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.ILOpCode::Conv_iSystem.Reflection.Metadata.ILOpCode",
           "clrName": "Conv_i",
-          "tsEmitName": "conv_i",
+          "tsEmitName": "convI",
           "metadataToken": 67109679,
           "normalizedSignature": "Conv_i|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "isStatic": true,
@@ -6152,7 +6152,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.ILOpCode::Conv_ovf_iSystem.Reflection.Metadata.ILOpCode",
           "clrName": "Conv_ovf_i",
-          "tsEmitName": "conv_ovf_i",
+          "tsEmitName": "convOvfI",
           "metadataToken": 67109680,
           "normalizedSignature": "Conv_ovf_i|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "isStatic": true,
@@ -6163,7 +6163,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.ILOpCode::Conv_ovf_uSystem.Reflection.Metadata.ILOpCode",
           "clrName": "Conv_ovf_u",
-          "tsEmitName": "conv_ovf_u",
+          "tsEmitName": "convOvfU",
           "metadataToken": 67109681,
           "normalizedSignature": "Conv_ovf_u|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "isStatic": true,
@@ -6174,7 +6174,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.ILOpCode::Add_ovfSystem.Reflection.Metadata.ILOpCode",
           "clrName": "Add_ovf",
-          "tsEmitName": "add_ovf",
+          "tsEmitName": "addOvf",
           "metadataToken": 67109682,
           "normalizedSignature": "Add_ovf|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "isStatic": true,
@@ -6185,7 +6185,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.ILOpCode::Add_ovf_unSystem.Reflection.Metadata.ILOpCode",
           "clrName": "Add_ovf_un",
-          "tsEmitName": "add_ovf_un",
+          "tsEmitName": "addOvfUn",
           "metadataToken": 67109683,
           "normalizedSignature": "Add_ovf_un|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "isStatic": true,
@@ -6196,7 +6196,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.ILOpCode::Mul_ovfSystem.Reflection.Metadata.ILOpCode",
           "clrName": "Mul_ovf",
-          "tsEmitName": "mul_ovf",
+          "tsEmitName": "mulOvf",
           "metadataToken": 67109684,
           "normalizedSignature": "Mul_ovf|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "isStatic": true,
@@ -6207,7 +6207,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.ILOpCode::Mul_ovf_unSystem.Reflection.Metadata.ILOpCode",
           "clrName": "Mul_ovf_un",
-          "tsEmitName": "mul_ovf_un",
+          "tsEmitName": "mulOvfUn",
           "metadataToken": 67109685,
           "normalizedSignature": "Mul_ovf_un|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "isStatic": true,
@@ -6218,7 +6218,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.ILOpCode::Sub_ovfSystem.Reflection.Metadata.ILOpCode",
           "clrName": "Sub_ovf",
-          "tsEmitName": "sub_ovf",
+          "tsEmitName": "subOvf",
           "metadataToken": 67109686,
           "normalizedSignature": "Sub_ovf|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "isStatic": true,
@@ -6229,7 +6229,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.ILOpCode::Sub_ovf_unSystem.Reflection.Metadata.ILOpCode",
           "clrName": "Sub_ovf_un",
-          "tsEmitName": "sub_ovf_un",
+          "tsEmitName": "subOvfUn",
           "metadataToken": 67109687,
           "normalizedSignature": "Sub_ovf_un|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "isStatic": true,
@@ -6262,7 +6262,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.ILOpCode::Leave_sSystem.Reflection.Metadata.ILOpCode",
           "clrName": "Leave_s",
-          "tsEmitName": "leave_s",
+          "tsEmitName": "leaveS",
           "metadataToken": 67109690,
           "normalizedSignature": "Leave_s|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "isStatic": true,
@@ -6273,7 +6273,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.ILOpCode::Stind_iSystem.Reflection.Metadata.ILOpCode",
           "clrName": "Stind_i",
-          "tsEmitName": "stind_i",
+          "tsEmitName": "stindI",
           "metadataToken": 67109691,
           "normalizedSignature": "Stind_i|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "isStatic": true,
@@ -6284,7 +6284,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.ILOpCode::Conv_uSystem.Reflection.Metadata.ILOpCode",
           "clrName": "Conv_u",
-          "tsEmitName": "conv_u",
+          "tsEmitName": "convU",
           "metadataToken": 67109692,
           "normalizedSignature": "Conv_u|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "isStatic": true,
@@ -6328,7 +6328,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.ILOpCode::Cgt_unSystem.Reflection.Metadata.ILOpCode",
           "clrName": "Cgt_un",
-          "tsEmitName": "cgt_un",
+          "tsEmitName": "cgtUn",
           "metadataToken": 67109696,
           "normalizedSignature": "Cgt_un|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "isStatic": true,
@@ -6350,7 +6350,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.ILOpCode::Clt_unSystem.Reflection.Metadata.ILOpCode",
           "clrName": "Clt_un",
-          "tsEmitName": "clt_un",
+          "tsEmitName": "cltUn",
           "metadataToken": 67109698,
           "normalizedSignature": "Clt_un|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "isStatic": true,
@@ -7296,7 +7296,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.UInt16|static=false|const=false",
           "target": {
@@ -7326,7 +7326,7 @@
           }
         },
         {
-          "tsName": "ldarg_0",
+          "tsName": "ldarg0",
           "isStatic": true,
           "tsSignatureId": "Ldarg_0|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "target": {
@@ -7336,7 +7336,7 @@
           }
         },
         {
-          "tsName": "ldarg_1",
+          "tsName": "ldarg1",
           "isStatic": true,
           "tsSignatureId": "Ldarg_1|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "target": {
@@ -7346,7 +7346,7 @@
           }
         },
         {
-          "tsName": "ldarg_2",
+          "tsName": "ldarg2",
           "isStatic": true,
           "tsSignatureId": "Ldarg_2|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "target": {
@@ -7356,7 +7356,7 @@
           }
         },
         {
-          "tsName": "ldarg_3",
+          "tsName": "ldarg3",
           "isStatic": true,
           "tsSignatureId": "Ldarg_3|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "target": {
@@ -7366,7 +7366,7 @@
           }
         },
         {
-          "tsName": "ldloc_0",
+          "tsName": "ldloc0",
           "isStatic": true,
           "tsSignatureId": "Ldloc_0|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "target": {
@@ -7376,7 +7376,7 @@
           }
         },
         {
-          "tsName": "ldloc_1",
+          "tsName": "ldloc1",
           "isStatic": true,
           "tsSignatureId": "Ldloc_1|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "target": {
@@ -7386,7 +7386,7 @@
           }
         },
         {
-          "tsName": "ldloc_2",
+          "tsName": "ldloc2",
           "isStatic": true,
           "tsSignatureId": "Ldloc_2|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "target": {
@@ -7396,7 +7396,7 @@
           }
         },
         {
-          "tsName": "ldloc_3",
+          "tsName": "ldloc3",
           "isStatic": true,
           "tsSignatureId": "Ldloc_3|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "target": {
@@ -7406,7 +7406,7 @@
           }
         },
         {
-          "tsName": "stloc_0",
+          "tsName": "stloc0",
           "isStatic": true,
           "tsSignatureId": "Stloc_0|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "target": {
@@ -7416,7 +7416,7 @@
           }
         },
         {
-          "tsName": "stloc_1",
+          "tsName": "stloc1",
           "isStatic": true,
           "tsSignatureId": "Stloc_1|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "target": {
@@ -7426,7 +7426,7 @@
           }
         },
         {
-          "tsName": "stloc_2",
+          "tsName": "stloc2",
           "isStatic": true,
           "tsSignatureId": "Stloc_2|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "target": {
@@ -7436,7 +7436,7 @@
           }
         },
         {
-          "tsName": "stloc_3",
+          "tsName": "stloc3",
           "isStatic": true,
           "tsSignatureId": "Stloc_3|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "target": {
@@ -7446,7 +7446,7 @@
           }
         },
         {
-          "tsName": "ldarg_s",
+          "tsName": "ldargS",
           "isStatic": true,
           "tsSignatureId": "Ldarg_s|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "target": {
@@ -7456,7 +7456,7 @@
           }
         },
         {
-          "tsName": "ldarga_s",
+          "tsName": "ldargaS",
           "isStatic": true,
           "tsSignatureId": "Ldarga_s|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "target": {
@@ -7466,7 +7466,7 @@
           }
         },
         {
-          "tsName": "starg_s",
+          "tsName": "stargS",
           "isStatic": true,
           "tsSignatureId": "Starg_s|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "target": {
@@ -7476,7 +7476,7 @@
           }
         },
         {
-          "tsName": "ldloc_s",
+          "tsName": "ldlocS",
           "isStatic": true,
           "tsSignatureId": "Ldloc_s|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "target": {
@@ -7486,7 +7486,7 @@
           }
         },
         {
-          "tsName": "ldloca_s",
+          "tsName": "ldlocaS",
           "isStatic": true,
           "tsSignatureId": "Ldloca_s|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "target": {
@@ -7496,7 +7496,7 @@
           }
         },
         {
-          "tsName": "stloc_s",
+          "tsName": "stlocS",
           "isStatic": true,
           "tsSignatureId": "Stloc_s|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "target": {
@@ -7516,7 +7516,7 @@
           }
         },
         {
-          "tsName": "ldc_i4_m1",
+          "tsName": "ldcI4M1",
           "isStatic": true,
           "tsSignatureId": "Ldc_i4_m1|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "target": {
@@ -7526,7 +7526,7 @@
           }
         },
         {
-          "tsName": "ldc_i4_0",
+          "tsName": "ldcI40",
           "isStatic": true,
           "tsSignatureId": "Ldc_i4_0|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "target": {
@@ -7536,7 +7536,7 @@
           }
         },
         {
-          "tsName": "ldc_i4_1",
+          "tsName": "ldcI41",
           "isStatic": true,
           "tsSignatureId": "Ldc_i4_1|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "target": {
@@ -7546,7 +7546,7 @@
           }
         },
         {
-          "tsName": "ldc_i4_2",
+          "tsName": "ldcI42",
           "isStatic": true,
           "tsSignatureId": "Ldc_i4_2|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "target": {
@@ -7556,7 +7556,7 @@
           }
         },
         {
-          "tsName": "ldc_i4_3",
+          "tsName": "ldcI43",
           "isStatic": true,
           "tsSignatureId": "Ldc_i4_3|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "target": {
@@ -7566,7 +7566,7 @@
           }
         },
         {
-          "tsName": "ldc_i4_4",
+          "tsName": "ldcI44",
           "isStatic": true,
           "tsSignatureId": "Ldc_i4_4|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "target": {
@@ -7576,7 +7576,7 @@
           }
         },
         {
-          "tsName": "ldc_i4_5",
+          "tsName": "ldcI45",
           "isStatic": true,
           "tsSignatureId": "Ldc_i4_5|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "target": {
@@ -7586,7 +7586,7 @@
           }
         },
         {
-          "tsName": "ldc_i4_6",
+          "tsName": "ldcI46",
           "isStatic": true,
           "tsSignatureId": "Ldc_i4_6|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "target": {
@@ -7596,7 +7596,7 @@
           }
         },
         {
-          "tsName": "ldc_i4_7",
+          "tsName": "ldcI47",
           "isStatic": true,
           "tsSignatureId": "Ldc_i4_7|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "target": {
@@ -7606,7 +7606,7 @@
           }
         },
         {
-          "tsName": "ldc_i4_8",
+          "tsName": "ldcI48",
           "isStatic": true,
           "tsSignatureId": "Ldc_i4_8|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "target": {
@@ -7616,7 +7616,7 @@
           }
         },
         {
-          "tsName": "ldc_i4_s",
+          "tsName": "ldcI4S",
           "isStatic": true,
           "tsSignatureId": "Ldc_i4_s|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "target": {
@@ -7626,7 +7626,7 @@
           }
         },
         {
-          "tsName": "ldc_i4",
+          "tsName": "ldcI4",
           "isStatic": true,
           "tsSignatureId": "Ldc_i4|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "target": {
@@ -7636,7 +7636,7 @@
           }
         },
         {
-          "tsName": "ldc_i8",
+          "tsName": "ldcI8",
           "isStatic": true,
           "tsSignatureId": "Ldc_i8|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "target": {
@@ -7646,7 +7646,7 @@
           }
         },
         {
-          "tsName": "ldc_r4",
+          "tsName": "ldcR4",
           "isStatic": true,
           "tsSignatureId": "Ldc_r4|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "target": {
@@ -7656,7 +7656,7 @@
           }
         },
         {
-          "tsName": "ldc_r8",
+          "tsName": "ldcR8",
           "isStatic": true,
           "tsSignatureId": "Ldc_r8|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "target": {
@@ -7726,7 +7726,7 @@
           }
         },
         {
-          "tsName": "br_s",
+          "tsName": "brS",
           "isStatic": true,
           "tsSignatureId": "Br_s|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "target": {
@@ -7736,7 +7736,7 @@
           }
         },
         {
-          "tsName": "brfalse_s",
+          "tsName": "brfalseS",
           "isStatic": true,
           "tsSignatureId": "Brfalse_s|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "target": {
@@ -7746,7 +7746,7 @@
           }
         },
         {
-          "tsName": "brtrue_s",
+          "tsName": "brtrueS",
           "isStatic": true,
           "tsSignatureId": "Brtrue_s|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "target": {
@@ -7756,7 +7756,7 @@
           }
         },
         {
-          "tsName": "beq_s",
+          "tsName": "beqS",
           "isStatic": true,
           "tsSignatureId": "Beq_s|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "target": {
@@ -7766,7 +7766,7 @@
           }
         },
         {
-          "tsName": "bge_s",
+          "tsName": "bgeS",
           "isStatic": true,
           "tsSignatureId": "Bge_s|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "target": {
@@ -7776,7 +7776,7 @@
           }
         },
         {
-          "tsName": "bgt_s",
+          "tsName": "bgtS",
           "isStatic": true,
           "tsSignatureId": "Bgt_s|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "target": {
@@ -7786,7 +7786,7 @@
           }
         },
         {
-          "tsName": "ble_s",
+          "tsName": "bleS",
           "isStatic": true,
           "tsSignatureId": "Ble_s|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "target": {
@@ -7796,7 +7796,7 @@
           }
         },
         {
-          "tsName": "blt_s",
+          "tsName": "bltS",
           "isStatic": true,
           "tsSignatureId": "Blt_s|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "target": {
@@ -7806,7 +7806,7 @@
           }
         },
         {
-          "tsName": "bne_un_s",
+          "tsName": "bneUnS",
           "isStatic": true,
           "tsSignatureId": "Bne_un_s|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "target": {
@@ -7816,7 +7816,7 @@
           }
         },
         {
-          "tsName": "bge_un_s",
+          "tsName": "bgeUnS",
           "isStatic": true,
           "tsSignatureId": "Bge_un_s|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "target": {
@@ -7826,7 +7826,7 @@
           }
         },
         {
-          "tsName": "bgt_un_s",
+          "tsName": "bgtUnS",
           "isStatic": true,
           "tsSignatureId": "Bgt_un_s|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "target": {
@@ -7836,7 +7836,7 @@
           }
         },
         {
-          "tsName": "ble_un_s",
+          "tsName": "bleUnS",
           "isStatic": true,
           "tsSignatureId": "Ble_un_s|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "target": {
@@ -7846,7 +7846,7 @@
           }
         },
         {
-          "tsName": "blt_un_s",
+          "tsName": "bltUnS",
           "isStatic": true,
           "tsSignatureId": "Blt_un_s|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "target": {
@@ -7936,7 +7936,7 @@
           }
         },
         {
-          "tsName": "bne_un",
+          "tsName": "bneUn",
           "isStatic": true,
           "tsSignatureId": "Bne_un|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "target": {
@@ -7946,7 +7946,7 @@
           }
         },
         {
-          "tsName": "bge_un",
+          "tsName": "bgeUn",
           "isStatic": true,
           "tsSignatureId": "Bge_un|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "target": {
@@ -7956,7 +7956,7 @@
           }
         },
         {
-          "tsName": "bgt_un",
+          "tsName": "bgtUn",
           "isStatic": true,
           "tsSignatureId": "Bgt_un|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "target": {
@@ -7966,7 +7966,7 @@
           }
         },
         {
-          "tsName": "ble_un",
+          "tsName": "bleUn",
           "isStatic": true,
           "tsSignatureId": "Ble_un|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "target": {
@@ -7976,7 +7976,7 @@
           }
         },
         {
-          "tsName": "blt_un",
+          "tsName": "bltUn",
           "isStatic": true,
           "tsSignatureId": "Blt_un|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "target": {
@@ -7996,7 +7996,7 @@
           }
         },
         {
-          "tsName": "ldind_i1",
+          "tsName": "ldindI1",
           "isStatic": true,
           "tsSignatureId": "Ldind_i1|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "target": {
@@ -8006,7 +8006,7 @@
           }
         },
         {
-          "tsName": "ldind_u1",
+          "tsName": "ldindU1",
           "isStatic": true,
           "tsSignatureId": "Ldind_u1|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "target": {
@@ -8016,7 +8016,7 @@
           }
         },
         {
-          "tsName": "ldind_i2",
+          "tsName": "ldindI2",
           "isStatic": true,
           "tsSignatureId": "Ldind_i2|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "target": {
@@ -8026,7 +8026,7 @@
           }
         },
         {
-          "tsName": "ldind_u2",
+          "tsName": "ldindU2",
           "isStatic": true,
           "tsSignatureId": "Ldind_u2|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "target": {
@@ -8036,7 +8036,7 @@
           }
         },
         {
-          "tsName": "ldind_i4",
+          "tsName": "ldindI4",
           "isStatic": true,
           "tsSignatureId": "Ldind_i4|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "target": {
@@ -8046,7 +8046,7 @@
           }
         },
         {
-          "tsName": "ldind_u4",
+          "tsName": "ldindU4",
           "isStatic": true,
           "tsSignatureId": "Ldind_u4|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "target": {
@@ -8056,7 +8056,7 @@
           }
         },
         {
-          "tsName": "ldind_i8",
+          "tsName": "ldindI8",
           "isStatic": true,
           "tsSignatureId": "Ldind_i8|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "target": {
@@ -8066,7 +8066,7 @@
           }
         },
         {
-          "tsName": "ldind_i",
+          "tsName": "ldindI",
           "isStatic": true,
           "tsSignatureId": "Ldind_i|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "target": {
@@ -8076,7 +8076,7 @@
           }
         },
         {
-          "tsName": "ldind_r4",
+          "tsName": "ldindR4",
           "isStatic": true,
           "tsSignatureId": "Ldind_r4|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "target": {
@@ -8086,7 +8086,7 @@
           }
         },
         {
-          "tsName": "ldind_r8",
+          "tsName": "ldindR8",
           "isStatic": true,
           "tsSignatureId": "Ldind_r8|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "target": {
@@ -8096,7 +8096,7 @@
           }
         },
         {
-          "tsName": "ldind_ref",
+          "tsName": "ldindRef",
           "isStatic": true,
           "tsSignatureId": "Ldind_ref|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "target": {
@@ -8106,7 +8106,7 @@
           }
         },
         {
-          "tsName": "stind_ref",
+          "tsName": "stindRef",
           "isStatic": true,
           "tsSignatureId": "Stind_ref|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "target": {
@@ -8116,7 +8116,7 @@
           }
         },
         {
-          "tsName": "stind_i1",
+          "tsName": "stindI1",
           "isStatic": true,
           "tsSignatureId": "Stind_i1|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "target": {
@@ -8126,7 +8126,7 @@
           }
         },
         {
-          "tsName": "stind_i2",
+          "tsName": "stindI2",
           "isStatic": true,
           "tsSignatureId": "Stind_i2|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "target": {
@@ -8136,7 +8136,7 @@
           }
         },
         {
-          "tsName": "stind_i4",
+          "tsName": "stindI4",
           "isStatic": true,
           "tsSignatureId": "Stind_i4|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "target": {
@@ -8146,7 +8146,7 @@
           }
         },
         {
-          "tsName": "stind_i8",
+          "tsName": "stindI8",
           "isStatic": true,
           "tsSignatureId": "Stind_i8|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "target": {
@@ -8156,7 +8156,7 @@
           }
         },
         {
-          "tsName": "stind_r4",
+          "tsName": "stindR4",
           "isStatic": true,
           "tsSignatureId": "Stind_r4|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "target": {
@@ -8166,7 +8166,7 @@
           }
         },
         {
-          "tsName": "stind_r8",
+          "tsName": "stindR8",
           "isStatic": true,
           "tsSignatureId": "Stind_r8|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "target": {
@@ -8216,7 +8216,7 @@
           }
         },
         {
-          "tsName": "div_un",
+          "tsName": "divUn",
           "isStatic": true,
           "tsSignatureId": "Div_un|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "target": {
@@ -8236,7 +8236,7 @@
           }
         },
         {
-          "tsName": "rem_un",
+          "tsName": "remUn",
           "isStatic": true,
           "tsSignatureId": "Rem_un|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "target": {
@@ -8296,7 +8296,7 @@
           }
         },
         {
-          "tsName": "shr_un",
+          "tsName": "shrUn",
           "isStatic": true,
           "tsSignatureId": "Shr_un|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "target": {
@@ -8326,7 +8326,7 @@
           }
         },
         {
-          "tsName": "conv_i1",
+          "tsName": "convI1",
           "isStatic": true,
           "tsSignatureId": "Conv_i1|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "target": {
@@ -8336,7 +8336,7 @@
           }
         },
         {
-          "tsName": "conv_i2",
+          "tsName": "convI2",
           "isStatic": true,
           "tsSignatureId": "Conv_i2|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "target": {
@@ -8346,7 +8346,7 @@
           }
         },
         {
-          "tsName": "conv_i4",
+          "tsName": "convI4",
           "isStatic": true,
           "tsSignatureId": "Conv_i4|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "target": {
@@ -8356,7 +8356,7 @@
           }
         },
         {
-          "tsName": "conv_i8",
+          "tsName": "convI8",
           "isStatic": true,
           "tsSignatureId": "Conv_i8|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "target": {
@@ -8366,7 +8366,7 @@
           }
         },
         {
-          "tsName": "conv_r4",
+          "tsName": "convR4",
           "isStatic": true,
           "tsSignatureId": "Conv_r4|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "target": {
@@ -8376,7 +8376,7 @@
           }
         },
         {
-          "tsName": "conv_r8",
+          "tsName": "convR8",
           "isStatic": true,
           "tsSignatureId": "Conv_r8|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "target": {
@@ -8386,7 +8386,7 @@
           }
         },
         {
-          "tsName": "conv_u4",
+          "tsName": "convU4",
           "isStatic": true,
           "tsSignatureId": "Conv_u4|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "target": {
@@ -8396,7 +8396,7 @@
           }
         },
         {
-          "tsName": "conv_u8",
+          "tsName": "convU8",
           "isStatic": true,
           "tsSignatureId": "Conv_u8|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "target": {
@@ -8476,7 +8476,7 @@
           }
         },
         {
-          "tsName": "conv_r_un",
+          "tsName": "convRUn",
           "isStatic": true,
           "tsSignatureId": "Conv_r_un|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "target": {
@@ -8576,7 +8576,7 @@
           }
         },
         {
-          "tsName": "conv_ovf_i1_un",
+          "tsName": "convOvfI1Un",
           "isStatic": true,
           "tsSignatureId": "Conv_ovf_i1_un|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "target": {
@@ -8586,7 +8586,7 @@
           }
         },
         {
-          "tsName": "conv_ovf_i2_un",
+          "tsName": "convOvfI2Un",
           "isStatic": true,
           "tsSignatureId": "Conv_ovf_i2_un|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "target": {
@@ -8596,7 +8596,7 @@
           }
         },
         {
-          "tsName": "conv_ovf_i4_un",
+          "tsName": "convOvfI4Un",
           "isStatic": true,
           "tsSignatureId": "Conv_ovf_i4_un|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "target": {
@@ -8606,7 +8606,7 @@
           }
         },
         {
-          "tsName": "conv_ovf_i8_un",
+          "tsName": "convOvfI8Un",
           "isStatic": true,
           "tsSignatureId": "Conv_ovf_i8_un|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "target": {
@@ -8616,7 +8616,7 @@
           }
         },
         {
-          "tsName": "conv_ovf_u1_un",
+          "tsName": "convOvfU1Un",
           "isStatic": true,
           "tsSignatureId": "Conv_ovf_u1_un|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "target": {
@@ -8626,7 +8626,7 @@
           }
         },
         {
-          "tsName": "conv_ovf_u2_un",
+          "tsName": "convOvfU2Un",
           "isStatic": true,
           "tsSignatureId": "Conv_ovf_u2_un|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "target": {
@@ -8636,7 +8636,7 @@
           }
         },
         {
-          "tsName": "conv_ovf_u4_un",
+          "tsName": "convOvfU4Un",
           "isStatic": true,
           "tsSignatureId": "Conv_ovf_u4_un|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "target": {
@@ -8646,7 +8646,7 @@
           }
         },
         {
-          "tsName": "conv_ovf_u8_un",
+          "tsName": "convOvfU8Un",
           "isStatic": true,
           "tsSignatureId": "Conv_ovf_u8_un|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "target": {
@@ -8656,7 +8656,7 @@
           }
         },
         {
-          "tsName": "conv_ovf_i_un",
+          "tsName": "convOvfIUn",
           "isStatic": true,
           "tsSignatureId": "Conv_ovf_i_un|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "target": {
@@ -8666,7 +8666,7 @@
           }
         },
         {
-          "tsName": "conv_ovf_u_un",
+          "tsName": "convOvfUUn",
           "isStatic": true,
           "tsSignatureId": "Conv_ovf_u_un|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "target": {
@@ -8716,7 +8716,7 @@
           }
         },
         {
-          "tsName": "ldelem_i1",
+          "tsName": "ldelemI1",
           "isStatic": true,
           "tsSignatureId": "Ldelem_i1|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "target": {
@@ -8726,7 +8726,7 @@
           }
         },
         {
-          "tsName": "ldelem_u1",
+          "tsName": "ldelemU1",
           "isStatic": true,
           "tsSignatureId": "Ldelem_u1|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "target": {
@@ -8736,7 +8736,7 @@
           }
         },
         {
-          "tsName": "ldelem_i2",
+          "tsName": "ldelemI2",
           "isStatic": true,
           "tsSignatureId": "Ldelem_i2|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "target": {
@@ -8746,7 +8746,7 @@
           }
         },
         {
-          "tsName": "ldelem_u2",
+          "tsName": "ldelemU2",
           "isStatic": true,
           "tsSignatureId": "Ldelem_u2|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "target": {
@@ -8756,7 +8756,7 @@
           }
         },
         {
-          "tsName": "ldelem_i4",
+          "tsName": "ldelemI4",
           "isStatic": true,
           "tsSignatureId": "Ldelem_i4|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "target": {
@@ -8766,7 +8766,7 @@
           }
         },
         {
-          "tsName": "ldelem_u4",
+          "tsName": "ldelemU4",
           "isStatic": true,
           "tsSignatureId": "Ldelem_u4|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "target": {
@@ -8776,7 +8776,7 @@
           }
         },
         {
-          "tsName": "ldelem_i8",
+          "tsName": "ldelemI8",
           "isStatic": true,
           "tsSignatureId": "Ldelem_i8|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "target": {
@@ -8786,7 +8786,7 @@
           }
         },
         {
-          "tsName": "ldelem_i",
+          "tsName": "ldelemI",
           "isStatic": true,
           "tsSignatureId": "Ldelem_i|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "target": {
@@ -8796,7 +8796,7 @@
           }
         },
         {
-          "tsName": "ldelem_r4",
+          "tsName": "ldelemR4",
           "isStatic": true,
           "tsSignatureId": "Ldelem_r4|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "target": {
@@ -8806,7 +8806,7 @@
           }
         },
         {
-          "tsName": "ldelem_r8",
+          "tsName": "ldelemR8",
           "isStatic": true,
           "tsSignatureId": "Ldelem_r8|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "target": {
@@ -8816,7 +8816,7 @@
           }
         },
         {
-          "tsName": "ldelem_ref",
+          "tsName": "ldelemRef",
           "isStatic": true,
           "tsSignatureId": "Ldelem_ref|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "target": {
@@ -8826,7 +8826,7 @@
           }
         },
         {
-          "tsName": "stelem_i",
+          "tsName": "stelemI",
           "isStatic": true,
           "tsSignatureId": "Stelem_i|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "target": {
@@ -8836,7 +8836,7 @@
           }
         },
         {
-          "tsName": "stelem_i1",
+          "tsName": "stelemI1",
           "isStatic": true,
           "tsSignatureId": "Stelem_i1|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "target": {
@@ -8846,7 +8846,7 @@
           }
         },
         {
-          "tsName": "stelem_i2",
+          "tsName": "stelemI2",
           "isStatic": true,
           "tsSignatureId": "Stelem_i2|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "target": {
@@ -8856,7 +8856,7 @@
           }
         },
         {
-          "tsName": "stelem_i4",
+          "tsName": "stelemI4",
           "isStatic": true,
           "tsSignatureId": "Stelem_i4|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "target": {
@@ -8866,7 +8866,7 @@
           }
         },
         {
-          "tsName": "stelem_i8",
+          "tsName": "stelemI8",
           "isStatic": true,
           "tsSignatureId": "Stelem_i8|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "target": {
@@ -8876,7 +8876,7 @@
           }
         },
         {
-          "tsName": "stelem_r4",
+          "tsName": "stelemR4",
           "isStatic": true,
           "tsSignatureId": "Stelem_r4|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "target": {
@@ -8886,7 +8886,7 @@
           }
         },
         {
-          "tsName": "stelem_r8",
+          "tsName": "stelemR8",
           "isStatic": true,
           "tsSignatureId": "Stelem_r8|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "target": {
@@ -8896,7 +8896,7 @@
           }
         },
         {
-          "tsName": "stelem_ref",
+          "tsName": "stelemRef",
           "isStatic": true,
           "tsSignatureId": "Stelem_ref|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "target": {
@@ -8926,7 +8926,7 @@
           }
         },
         {
-          "tsName": "unbox_any",
+          "tsName": "unboxAny",
           "isStatic": true,
           "tsSignatureId": "Unbox_any|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "target": {
@@ -8936,7 +8936,7 @@
           }
         },
         {
-          "tsName": "conv_ovf_i1",
+          "tsName": "convOvfI1",
           "isStatic": true,
           "tsSignatureId": "Conv_ovf_i1|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "target": {
@@ -8946,7 +8946,7 @@
           }
         },
         {
-          "tsName": "conv_ovf_u1",
+          "tsName": "convOvfU1",
           "isStatic": true,
           "tsSignatureId": "Conv_ovf_u1|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "target": {
@@ -8956,7 +8956,7 @@
           }
         },
         {
-          "tsName": "conv_ovf_i2",
+          "tsName": "convOvfI2",
           "isStatic": true,
           "tsSignatureId": "Conv_ovf_i2|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "target": {
@@ -8966,7 +8966,7 @@
           }
         },
         {
-          "tsName": "conv_ovf_u2",
+          "tsName": "convOvfU2",
           "isStatic": true,
           "tsSignatureId": "Conv_ovf_u2|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "target": {
@@ -8976,7 +8976,7 @@
           }
         },
         {
-          "tsName": "conv_ovf_i4",
+          "tsName": "convOvfI4",
           "isStatic": true,
           "tsSignatureId": "Conv_ovf_i4|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "target": {
@@ -8986,7 +8986,7 @@
           }
         },
         {
-          "tsName": "conv_ovf_u4",
+          "tsName": "convOvfU4",
           "isStatic": true,
           "tsSignatureId": "Conv_ovf_u4|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "target": {
@@ -8996,7 +8996,7 @@
           }
         },
         {
-          "tsName": "conv_ovf_i8",
+          "tsName": "convOvfI8",
           "isStatic": true,
           "tsSignatureId": "Conv_ovf_i8|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "target": {
@@ -9006,7 +9006,7 @@
           }
         },
         {
-          "tsName": "conv_ovf_u8",
+          "tsName": "convOvfU8",
           "isStatic": true,
           "tsSignatureId": "Conv_ovf_u8|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "target": {
@@ -9056,7 +9056,7 @@
           }
         },
         {
-          "tsName": "conv_u2",
+          "tsName": "convU2",
           "isStatic": true,
           "tsSignatureId": "Conv_u2|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "target": {
@@ -9066,7 +9066,7 @@
           }
         },
         {
-          "tsName": "conv_u1",
+          "tsName": "convU1",
           "isStatic": true,
           "tsSignatureId": "Conv_u1|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "target": {
@@ -9076,7 +9076,7 @@
           }
         },
         {
-          "tsName": "conv_i",
+          "tsName": "convI",
           "isStatic": true,
           "tsSignatureId": "Conv_i|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "target": {
@@ -9086,7 +9086,7 @@
           }
         },
         {
-          "tsName": "conv_ovf_i",
+          "tsName": "convOvfI",
           "isStatic": true,
           "tsSignatureId": "Conv_ovf_i|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "target": {
@@ -9096,7 +9096,7 @@
           }
         },
         {
-          "tsName": "conv_ovf_u",
+          "tsName": "convOvfU",
           "isStatic": true,
           "tsSignatureId": "Conv_ovf_u|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "target": {
@@ -9106,7 +9106,7 @@
           }
         },
         {
-          "tsName": "add_ovf",
+          "tsName": "addOvf",
           "isStatic": true,
           "tsSignatureId": "Add_ovf|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "target": {
@@ -9116,7 +9116,7 @@
           }
         },
         {
-          "tsName": "add_ovf_un",
+          "tsName": "addOvfUn",
           "isStatic": true,
           "tsSignatureId": "Add_ovf_un|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "target": {
@@ -9126,7 +9126,7 @@
           }
         },
         {
-          "tsName": "mul_ovf",
+          "tsName": "mulOvf",
           "isStatic": true,
           "tsSignatureId": "Mul_ovf|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "target": {
@@ -9136,7 +9136,7 @@
           }
         },
         {
-          "tsName": "mul_ovf_un",
+          "tsName": "mulOvfUn",
           "isStatic": true,
           "tsSignatureId": "Mul_ovf_un|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "target": {
@@ -9146,7 +9146,7 @@
           }
         },
         {
-          "tsName": "sub_ovf",
+          "tsName": "subOvf",
           "isStatic": true,
           "tsSignatureId": "Sub_ovf|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "target": {
@@ -9156,7 +9156,7 @@
           }
         },
         {
-          "tsName": "sub_ovf_un",
+          "tsName": "subOvfUn",
           "isStatic": true,
           "tsSignatureId": "Sub_ovf_un|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "target": {
@@ -9186,7 +9186,7 @@
           }
         },
         {
-          "tsName": "leave_s",
+          "tsName": "leaveS",
           "isStatic": true,
           "tsSignatureId": "Leave_s|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "target": {
@@ -9196,7 +9196,7 @@
           }
         },
         {
-          "tsName": "stind_i",
+          "tsName": "stindI",
           "isStatic": true,
           "tsSignatureId": "Stind_i|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "target": {
@@ -9206,7 +9206,7 @@
           }
         },
         {
-          "tsName": "conv_u",
+          "tsName": "convU",
           "isStatic": true,
           "tsSignatureId": "Conv_u|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "target": {
@@ -9246,7 +9246,7 @@
           }
         },
         {
-          "tsName": "cgt_un",
+          "tsName": "cgtUn",
           "isStatic": true,
           "tsSignatureId": "Cgt_un|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "target": {
@@ -9266,7 +9266,7 @@
           }
         },
         {
-          "tsName": "clt_un",
+          "tsName": "cltUn",
           "isStatic": true,
           "tsSignatureId": "Clt_un|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "target": {
@@ -9499,7 +9499,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.ImportDefinitionKind::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67110300,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -10313,7 +10313,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -10426,7 +10426,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.LocalVariableAttributes::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67110321,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -11163,7 +11163,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -11206,7 +11206,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.MemberReferenceKind::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67110117,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -11943,7 +11943,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -11986,7 +11986,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.MetadataKind::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67110120,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -12734,7 +12734,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -12787,7 +12787,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.MetadataReaderOptions::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67110206,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -13535,7 +13535,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -13588,7 +13588,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.MetadataStreamOptions::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67109720,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -14336,7 +14336,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -14389,7 +14389,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.PrimitiveSerializationTypeCode::value__System.Byte",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67109731,
           "normalizedSignature": "value__|System.Byte|static=false|const=false",
           "isStatic": false,
@@ -15247,7 +15247,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.Byte|static=false|const=false",
           "target": {
@@ -15400,7 +15400,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.PrimitiveTypeCode::value__System.Byte",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67109936,
           "normalizedSignature": "value__|System.Byte|static=false|const=false",
           "isStatic": false,
@@ -16313,7 +16313,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.Byte|static=false|const=false",
           "target": {
@@ -16516,7 +16516,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.SerializationTypeCode::value__System.Byte",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67110341,
           "normalizedSignature": "value__|System.Byte|static=false|const=false",
           "isStatic": false,
@@ -17429,7 +17429,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.Byte|static=false|const=false",
           "target": {
@@ -17632,7 +17632,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.SignatureAttributes::value__System.Byte",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67110360,
           "normalizedSignature": "value__|System.Byte|static=false|const=false",
           "isStatic": false,
@@ -18391,7 +18391,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.Byte|static=false|const=false",
           "target": {
@@ -18454,7 +18454,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.SignatureCallingConvention::value__System.Byte",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67110365,
           "normalizedSignature": "value__|System.Byte|static=false|const=false",
           "isStatic": false,
@@ -19246,7 +19246,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.Byte|static=false|const=false",
           "target": {
@@ -19339,7 +19339,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.SignatureKind::value__System.Byte",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67110375,
           "normalizedSignature": "value__|System.Byte|static=false|const=false",
           "isStatic": false,
@@ -20109,7 +20109,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.Byte|static=false|const=false",
           "target": {
@@ -20182,7 +20182,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.SignatureTypeCode::value__System.Byte",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67110381,
           "normalizedSignature": "value__|System.Byte|static=false|const=false",
           "isStatic": false,
@@ -21249,7 +21249,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.Byte|static=false|const=false",
           "target": {
@@ -21592,7 +21592,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.SignatureTypeKind::value__System.Byte",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67109927,
           "normalizedSignature": "value__|System.Byte|static=false|const=false",
           "isStatic": false,
@@ -22340,7 +22340,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.Byte|static=false|const=false",
           "target": {
@@ -22393,7 +22393,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.StandaloneSignatureKind::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67110114,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -23130,7 +23130,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -58695,7 +58695,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "getObjectData",
+          "tsEmitName": "getObjectData$view",
           "metadataToken": 100682669,
           "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
@@ -58709,7 +58709,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.ImageFormatLimitationException::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData",
+          "tsEmitName": "getObjectData",
           "metadataToken": 0,
           "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
@@ -58758,7 +58758,7 @@
       ],
       "exposedMethods": [
         {
-          "tsName": "getObjectData",
+          "tsName": "getObjectData$view",
           "isStatic": false,
           "tsSignatureId": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "target": {
@@ -58768,7 +58768,7 @@
           }
         },
         {
-          "tsName": "GetObjectData",
+          "tsName": "getObjectData",
           "isStatic": false,
           "tsSignatureId": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "target": {

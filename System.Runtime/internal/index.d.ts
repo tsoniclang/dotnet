@@ -79,15 +79,13 @@ export class AmbiguousImplementationException$instance extends System_Internal.E
     constructor();
     constructor(message: string);
     constructor(message: string, innerException: Exception);
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
 export interface __AmbiguousImplementationException$views {
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
-
-export interface AmbiguousImplementationException$instance extends System_Runtime_Serialization_Internal.ISerializable$instance {}
 
 export type AmbiguousImplementationException = AmbiguousImplementationException$instance & __AmbiguousImplementationException$views;
 

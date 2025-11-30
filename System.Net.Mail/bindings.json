@@ -13,7 +13,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.DeliveryNotificationOptions::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67108981,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -783,7 +783,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -856,7 +856,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.MailPriority::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67109005,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -1604,7 +1604,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -1657,7 +1657,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.SmtpDeliveryFormat::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67109065,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -2394,7 +2394,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -2437,7 +2437,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.SmtpDeliveryMethod::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67109061,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -3185,7 +3185,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -3238,7 +3238,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.SmtpStatusCode::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67109035,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -4228,7 +4228,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -4541,7 +4541,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "dispose",
+          "tsEmitName": "dispose$view",
           "metadataToken": 100668530,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Dispose|():System.Void|static=false",
@@ -4555,7 +4555,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.AlternateView::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "Dispose",
+          "tsEmitName": "dispose",
           "metadataToken": 0,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Dispose|():System.Void|static=false",
@@ -4693,7 +4693,7 @@
           }
         },
         {
-          "tsName": "dispose",
+          "tsName": "dispose$view",
           "isStatic": false,
           "tsSignatureId": "Dispose|():System.Void|static=false",
           "target": {
@@ -4703,7 +4703,7 @@
           }
         },
         {
-          "tsName": "Dispose",
+          "tsName": "dispose",
           "isStatic": false,
           "tsSignatureId": "Dispose|():System.Void|static=false",
           "target": {
@@ -4916,7 +4916,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IList\u00601::IndexOf(T):System.Int32",
           "clrName": "IndexOf",
-          "tsEmitName": "indexOf",
+          "tsEmitName": "indexOf$view",
           "metadataToken": 100704671,
           "canonicalSignature": "(T):System.Int32",
           "normalizedSignature": "IndexOf|(T):System.Int32|static=false",
@@ -4930,7 +4930,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IList\u00601::Insert(System.Int32,T):System.Void",
           "clrName": "Insert",
-          "tsEmitName": "insert",
+          "tsEmitName": "insert$view",
           "metadataToken": 100704672,
           "canonicalSignature": "(System.Int32,T):System.Void",
           "normalizedSignature": "Insert|(System.Int32,T):System.Void|static=false",
@@ -4944,7 +4944,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IList\u00601::RemoveAt(System.Int32):System.Void",
           "clrName": "RemoveAt",
-          "tsEmitName": "removeAt",
+          "tsEmitName": "removeAt$view",
           "metadataToken": 100704673,
           "canonicalSignature": "(System.Int32):System.Void",
           "normalizedSignature": "RemoveAt|(System.Int32):System.Void|static=false",
@@ -4958,7 +4958,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::Add(T):System.Void",
           "clrName": "Add",
-          "tsEmitName": "add",
+          "tsEmitName": "add$view",
           "metadataToken": 100704641,
           "canonicalSignature": "(T):System.Void",
           "normalizedSignature": "Add|(T):System.Void|static=false",
@@ -4972,7 +4972,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::Clear():System.Void",
           "clrName": "Clear",
-          "tsEmitName": "clear",
+          "tsEmitName": "clear$view",
           "metadataToken": 100704642,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Clear|():System.Void|static=false",
@@ -4986,7 +4986,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::Contains(T):System.Boolean",
           "clrName": "Contains",
-          "tsEmitName": "contains",
+          "tsEmitName": "contains$view",
           "metadataToken": 100704643,
           "canonicalSignature": "(T):System.Boolean",
           "normalizedSignature": "Contains|(T):System.Boolean|static=false",
@@ -5000,7 +5000,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::CopyTo(T[],System.Int32):System.Void",
           "clrName": "CopyTo",
-          "tsEmitName": "copyTo",
+          "tsEmitName": "copyTo$view",
           "metadataToken": 100704644,
           "canonicalSignature": "(T[],System.Int32):System.Void",
           "normalizedSignature": "CopyTo|(T[],System.Int32):System.Void|static=false",
@@ -5014,7 +5014,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IEnumerable\u00601::GetEnumerator():IEnumerator_1",
           "clrName": "GetEnumerator",
-          "tsEmitName": "getEnumerator",
+          "tsEmitName": "getEnumerator$view",
           "metadataToken": 100704663,
           "canonicalSignature": "():IEnumerator_1",
           "normalizedSignature": "GetEnumerator|():IEnumerator_1|static=false",
@@ -5028,7 +5028,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
           "clrName": "GetEnumerator",
-          "tsEmitName": "getEnumerator",
+          "tsEmitName": "getEnumerator$view",
           "metadataToken": 100703948,
           "canonicalSignature": "():System.Collections.IEnumerator",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
@@ -5042,7 +5042,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Add(System.Object):System.Int32",
           "clrName": "Add",
-          "tsEmitName": "add",
+          "tsEmitName": "add$view",
           "metadataToken": 100703957,
           "canonicalSignature": "(System.Object):System.Int32",
           "normalizedSignature": "Add|(System.Object):System.Int32|static=false",
@@ -5056,7 +5056,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Contains(System.Object):System.Boolean",
           "clrName": "Contains",
-          "tsEmitName": "contains",
+          "tsEmitName": "contains$view",
           "metadataToken": 100703958,
           "canonicalSignature": "(System.Object):System.Boolean",
           "normalizedSignature": "Contains|(System.Object):System.Boolean|static=false",
@@ -5070,7 +5070,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Insert(System.Int32,System.Object):System.Void",
           "clrName": "Insert",
-          "tsEmitName": "insert",
+          "tsEmitName": "insert$view",
           "metadataToken": 100703963,
           "canonicalSignature": "(System.Int32,System.Object):System.Void",
           "normalizedSignature": "Insert|(System.Int32,System.Object):System.Void|static=false",
@@ -5084,7 +5084,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Remove(System.Object):System.Void",
           "clrName": "Remove",
-          "tsEmitName": "remove",
+          "tsEmitName": "remove$view",
           "metadataToken": 100703964,
           "canonicalSignature": "(System.Object):System.Void",
           "normalizedSignature": "Remove|(System.Object):System.Void|static=false",
@@ -5098,7 +5098,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.ICollection::CopyTo(System.Array,System.Int32):System.Void",
           "clrName": "CopyTo",
-          "tsEmitName": "copyTo",
+          "tsEmitName": "copyTo$view",
           "metadataToken": 100703929,
           "canonicalSignature": "(System.Array,System.Int32):System.Void",
           "normalizedSignature": "CopyTo|(System.Array,System.Int32):System.Void|static=false",
@@ -5112,7 +5112,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Clear():System.Void",
           "clrName": "Clear",
-          "tsEmitName": "clear",
+          "tsEmitName": "clear$view",
           "metadataToken": 100703959,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Clear|():System.Void|static=false",
@@ -5126,7 +5126,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::RemoveAt(System.Int32):System.Void",
           "clrName": "RemoveAt",
-          "tsEmitName": "removeAt",
+          "tsEmitName": "removeAt$view",
           "metadataToken": 100703965,
           "canonicalSignature": "(System.Int32):System.Void",
           "normalizedSignature": "RemoveAt|(System.Int32):System.Void|static=false",
@@ -5154,7 +5154,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.AlternateViewCollection::Add(T):System.Void",
           "clrName": "Add",
-          "tsEmitName": "Add",
+          "tsEmitName": "add",
           "metadataToken": 0,
           "canonicalSignature": "(T):System.Void",
           "normalizedSignature": "Add|(T):System.Void|static=false",
@@ -5168,7 +5168,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.AlternateViewCollection::Add(System.Object):System.Int32",
           "clrName": "Add",
-          "tsEmitName": "Add2",
+          "tsEmitName": "add2",
           "metadataToken": 0,
           "canonicalSignature": "(System.Object):System.Int32",
           "normalizedSignature": "Add|(System.Object):System.Int32|static=false",
@@ -5182,7 +5182,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.AlternateViewCollection::Clear():System.Void",
           "clrName": "Clear",
-          "tsEmitName": "Clear",
+          "tsEmitName": "clear",
           "metadataToken": 0,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Clear|():System.Void|static=false",
@@ -5196,7 +5196,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.AlternateViewCollection::Contains(T):System.Boolean",
           "clrName": "Contains",
-          "tsEmitName": "Contains",
+          "tsEmitName": "contains",
           "metadataToken": 0,
           "canonicalSignature": "(T):System.Boolean",
           "normalizedSignature": "Contains|(T):System.Boolean|static=false",
@@ -5210,7 +5210,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.AlternateViewCollection::Contains(System.Object):System.Boolean",
           "clrName": "Contains",
-          "tsEmitName": "Contains2",
+          "tsEmitName": "contains2",
           "metadataToken": 0,
           "canonicalSignature": "(System.Object):System.Boolean",
           "normalizedSignature": "Contains|(System.Object):System.Boolean|static=false",
@@ -5224,7 +5224,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.AlternateViewCollection::CopyTo(T[],System.Int32):System.Void",
           "clrName": "CopyTo",
-          "tsEmitName": "CopyTo",
+          "tsEmitName": "copyTo",
           "metadataToken": 0,
           "canonicalSignature": "(T[],System.Int32):System.Void",
           "normalizedSignature": "CopyTo|(T[],System.Int32):System.Void|static=false",
@@ -5238,7 +5238,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.AlternateViewCollection::CopyTo(System.Array,System.Int32):System.Void",
           "clrName": "CopyTo",
-          "tsEmitName": "CopyTo2",
+          "tsEmitName": "copyTo2",
           "metadataToken": 0,
           "canonicalSignature": "(System.Array,System.Int32):System.Void",
           "normalizedSignature": "CopyTo|(System.Array,System.Int32):System.Void|static=false",
@@ -5252,7 +5252,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.AlternateViewCollection::GetEnumerator():System.Collections.Generic.IEnumerator_1",
           "clrName": "GetEnumerator",
-          "tsEmitName": "GetEnumerator",
+          "tsEmitName": "getEnumerator",
           "metadataToken": 0,
           "canonicalSignature": "():System.Collections.Generic.IEnumerator_1",
           "normalizedSignature": "GetEnumerator|():System.Collections.Generic.IEnumerator_1|static=false",
@@ -5266,7 +5266,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.AlternateViewCollection::GetEnumerator():System.Collections.IEnumerator",
           "clrName": "GetEnumerator",
-          "tsEmitName": "GetEnumerator2",
+          "tsEmitName": "getEnumerator2",
           "metadataToken": 0,
           "canonicalSignature": "():System.Collections.IEnumerator",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
@@ -5280,7 +5280,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.AlternateViewCollection::IndexOf(T):System.Int32",
           "clrName": "IndexOf",
-          "tsEmitName": "IndexOf",
+          "tsEmitName": "indexOf",
           "metadataToken": 0,
           "canonicalSignature": "(T):System.Int32",
           "normalizedSignature": "IndexOf|(T):System.Int32|static=false",
@@ -5294,7 +5294,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.AlternateViewCollection::Insert(System.Int32,T):System.Void",
           "clrName": "Insert",
-          "tsEmitName": "Insert",
+          "tsEmitName": "insert",
           "metadataToken": 0,
           "canonicalSignature": "(System.Int32,T):System.Void",
           "normalizedSignature": "Insert|(System.Int32,T):System.Void|static=false",
@@ -5308,7 +5308,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.AlternateViewCollection::Insert(System.Int32,System.Object):System.Void",
           "clrName": "Insert",
-          "tsEmitName": "Insert2",
+          "tsEmitName": "insert2",
           "metadataToken": 0,
           "canonicalSignature": "(System.Int32,System.Object):System.Void",
           "normalizedSignature": "Insert|(System.Int32,System.Object):System.Void|static=false",
@@ -5322,7 +5322,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.AlternateViewCollection::Remove(T):System.Boolean",
           "clrName": "Remove",
-          "tsEmitName": "Remove",
+          "tsEmitName": "remove",
           "metadataToken": 0,
           "canonicalSignature": "(T):System.Boolean",
           "normalizedSignature": "Remove|(T):System.Boolean|static=false",
@@ -5336,7 +5336,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.AlternateViewCollection::Remove(System.Object):System.Void",
           "clrName": "Remove",
-          "tsEmitName": "Remove2",
+          "tsEmitName": "remove2",
           "metadataToken": 0,
           "canonicalSignature": "(System.Object):System.Void",
           "normalizedSignature": "Remove|(System.Object):System.Void|static=false",
@@ -5350,7 +5350,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.AlternateViewCollection::RemoveAt(System.Int32):System.Void",
           "clrName": "RemoveAt",
-          "tsEmitName": "RemoveAt",
+          "tsEmitName": "removeAt",
           "metadataToken": 0,
           "canonicalSignature": "(System.Int32):System.Void",
           "normalizedSignature": "RemoveAt|(System.Int32):System.Void|static=false",
@@ -5491,7 +5491,7 @@
           }
         },
         {
-          "tsName": "indexOf",
+          "tsName": "indexOf$view",
           "isStatic": false,
           "tsSignatureId": "IndexOf|(T):System.Int32|static=false",
           "target": {
@@ -5501,7 +5501,7 @@
           }
         },
         {
-          "tsName": "insert",
+          "tsName": "insert$view",
           "isStatic": false,
           "tsSignatureId": "Insert|(System.Int32,T):System.Void|static=false",
           "target": {
@@ -5511,7 +5511,7 @@
           }
         },
         {
-          "tsName": "removeAt",
+          "tsName": "removeAt$view",
           "isStatic": false,
           "tsSignatureId": "RemoveAt|(System.Int32):System.Void|static=false",
           "target": {
@@ -5521,7 +5521,7 @@
           }
         },
         {
-          "tsName": "add",
+          "tsName": "add$view",
           "isStatic": false,
           "tsSignatureId": "Add|(T):System.Void|static=false",
           "target": {
@@ -5531,7 +5531,7 @@
           }
         },
         {
-          "tsName": "clear",
+          "tsName": "clear$view",
           "isStatic": false,
           "tsSignatureId": "Clear|():System.Void|static=false",
           "target": {
@@ -5541,7 +5541,7 @@
           }
         },
         {
-          "tsName": "contains",
+          "tsName": "contains$view",
           "isStatic": false,
           "tsSignatureId": "Contains|(T):System.Boolean|static=false",
           "target": {
@@ -5551,7 +5551,7 @@
           }
         },
         {
-          "tsName": "copyTo",
+          "tsName": "copyTo$view",
           "isStatic": false,
           "tsSignatureId": "CopyTo|(T[],System.Int32):System.Void|static=false",
           "target": {
@@ -5561,7 +5561,7 @@
           }
         },
         {
-          "tsName": "getEnumerator",
+          "tsName": "getEnumerator$view",
           "isStatic": false,
           "tsSignatureId": "GetEnumerator|():IEnumerator_1|static=false",
           "target": {
@@ -5571,7 +5571,7 @@
           }
         },
         {
-          "tsName": "getEnumerator",
+          "tsName": "getEnumerator$view",
           "isStatic": false,
           "tsSignatureId": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "target": {
@@ -5581,7 +5581,7 @@
           }
         },
         {
-          "tsName": "add",
+          "tsName": "add$view",
           "isStatic": false,
           "tsSignatureId": "Add|(System.Object):System.Int32|static=false",
           "target": {
@@ -5591,7 +5591,7 @@
           }
         },
         {
-          "tsName": "contains",
+          "tsName": "contains$view",
           "isStatic": false,
           "tsSignatureId": "Contains|(System.Object):System.Boolean|static=false",
           "target": {
@@ -5601,7 +5601,7 @@
           }
         },
         {
-          "tsName": "insert",
+          "tsName": "insert$view",
           "isStatic": false,
           "tsSignatureId": "Insert|(System.Int32,System.Object):System.Void|static=false",
           "target": {
@@ -5611,7 +5611,7 @@
           }
         },
         {
-          "tsName": "remove",
+          "tsName": "remove$view",
           "isStatic": false,
           "tsSignatureId": "Remove|(System.Object):System.Void|static=false",
           "target": {
@@ -5621,7 +5621,7 @@
           }
         },
         {
-          "tsName": "copyTo",
+          "tsName": "copyTo$view",
           "isStatic": false,
           "tsSignatureId": "CopyTo|(System.Array,System.Int32):System.Void|static=false",
           "target": {
@@ -5631,7 +5631,7 @@
           }
         },
         {
-          "tsName": "clear",
+          "tsName": "clear$view",
           "isStatic": false,
           "tsSignatureId": "Clear|():System.Void|static=false",
           "target": {
@@ -5641,7 +5641,7 @@
           }
         },
         {
-          "tsName": "removeAt",
+          "tsName": "removeAt$view",
           "isStatic": false,
           "tsSignatureId": "RemoveAt|(System.Int32):System.Void|static=false",
           "target": {
@@ -5661,7 +5661,7 @@
           }
         },
         {
-          "tsName": "Add",
+          "tsName": "add",
           "isStatic": false,
           "tsSignatureId": "Add|(T):System.Void|static=false",
           "target": {
@@ -5671,7 +5671,7 @@
           }
         },
         {
-          "tsName": "Add2",
+          "tsName": "add2",
           "isStatic": false,
           "tsSignatureId": "Add|(System.Object):System.Int32|static=false",
           "target": {
@@ -5681,7 +5681,7 @@
           }
         },
         {
-          "tsName": "Clear",
+          "tsName": "clear",
           "isStatic": false,
           "tsSignatureId": "Clear|():System.Void|static=false",
           "target": {
@@ -5691,7 +5691,7 @@
           }
         },
         {
-          "tsName": "Contains",
+          "tsName": "contains",
           "isStatic": false,
           "tsSignatureId": "Contains|(T):System.Boolean|static=false",
           "target": {
@@ -5701,7 +5701,7 @@
           }
         },
         {
-          "tsName": "Contains2",
+          "tsName": "contains2",
           "isStatic": false,
           "tsSignatureId": "Contains|(System.Object):System.Boolean|static=false",
           "target": {
@@ -5711,7 +5711,7 @@
           }
         },
         {
-          "tsName": "CopyTo",
+          "tsName": "copyTo",
           "isStatic": false,
           "tsSignatureId": "CopyTo|(T[],System.Int32):System.Void|static=false",
           "target": {
@@ -5721,7 +5721,7 @@
           }
         },
         {
-          "tsName": "CopyTo2",
+          "tsName": "copyTo2",
           "isStatic": false,
           "tsSignatureId": "CopyTo|(System.Array,System.Int32):System.Void|static=false",
           "target": {
@@ -5731,7 +5731,7 @@
           }
         },
         {
-          "tsName": "GetEnumerator",
+          "tsName": "getEnumerator",
           "isStatic": false,
           "tsSignatureId": "GetEnumerator|():System.Collections.Generic.IEnumerator_1|static=false",
           "target": {
@@ -5741,7 +5741,7 @@
           }
         },
         {
-          "tsName": "GetEnumerator2",
+          "tsName": "getEnumerator2",
           "isStatic": false,
           "tsSignatureId": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "target": {
@@ -5751,7 +5751,7 @@
           }
         },
         {
-          "tsName": "IndexOf",
+          "tsName": "indexOf",
           "isStatic": false,
           "tsSignatureId": "IndexOf|(T):System.Int32|static=false",
           "target": {
@@ -5761,7 +5761,7 @@
           }
         },
         {
-          "tsName": "Insert",
+          "tsName": "insert",
           "isStatic": false,
           "tsSignatureId": "Insert|(System.Int32,T):System.Void|static=false",
           "target": {
@@ -5771,7 +5771,7 @@
           }
         },
         {
-          "tsName": "Insert2",
+          "tsName": "insert2",
           "isStatic": false,
           "tsSignatureId": "Insert|(System.Int32,System.Object):System.Void|static=false",
           "target": {
@@ -5781,7 +5781,7 @@
           }
         },
         {
-          "tsName": "Remove",
+          "tsName": "remove",
           "isStatic": false,
           "tsSignatureId": "Remove|(T):System.Boolean|static=false",
           "target": {
@@ -5791,7 +5791,7 @@
           }
         },
         {
-          "tsName": "Remove2",
+          "tsName": "remove2",
           "isStatic": false,
           "tsSignatureId": "Remove|(System.Object):System.Void|static=false",
           "target": {
@@ -5801,7 +5801,7 @@
           }
         },
         {
-          "tsName": "RemoveAt",
+          "tsName": "removeAt",
           "isStatic": false,
           "tsSignatureId": "RemoveAt|(System.Int32):System.Void|static=false",
           "target": {
@@ -6016,7 +6016,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "dispose",
+          "tsEmitName": "dispose$view",
           "metadataToken": 100668530,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Dispose|():System.Void|static=false",
@@ -6030,7 +6030,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.Attachment::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "Dispose",
+          "tsEmitName": "dispose",
           "metadataToken": 0,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Dispose|():System.Void|static=false",
@@ -6182,7 +6182,7 @@
           }
         },
         {
-          "tsName": "dispose",
+          "tsName": "dispose$view",
           "isStatic": false,
           "tsSignatureId": "Dispose|():System.Void|static=false",
           "target": {
@@ -6192,7 +6192,7 @@
           }
         },
         {
-          "tsName": "Dispose",
+          "tsName": "dispose",
           "isStatic": false,
           "tsSignatureId": "Dispose|():System.Void|static=false",
           "target": {
@@ -6637,7 +6637,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IList\u00601::IndexOf(T):System.Int32",
           "clrName": "IndexOf",
-          "tsEmitName": "indexOf",
+          "tsEmitName": "indexOf$view",
           "metadataToken": 100704671,
           "canonicalSignature": "(T):System.Int32",
           "normalizedSignature": "IndexOf|(T):System.Int32|static=false",
@@ -6651,7 +6651,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IList\u00601::Insert(System.Int32,T):System.Void",
           "clrName": "Insert",
-          "tsEmitName": "insert",
+          "tsEmitName": "insert$view",
           "metadataToken": 100704672,
           "canonicalSignature": "(System.Int32,T):System.Void",
           "normalizedSignature": "Insert|(System.Int32,T):System.Void|static=false",
@@ -6665,7 +6665,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IList\u00601::RemoveAt(System.Int32):System.Void",
           "clrName": "RemoveAt",
-          "tsEmitName": "removeAt",
+          "tsEmitName": "removeAt$view",
           "metadataToken": 100704673,
           "canonicalSignature": "(System.Int32):System.Void",
           "normalizedSignature": "RemoveAt|(System.Int32):System.Void|static=false",
@@ -6679,7 +6679,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::Add(T):System.Void",
           "clrName": "Add",
-          "tsEmitName": "add",
+          "tsEmitName": "add$view",
           "metadataToken": 100704641,
           "canonicalSignature": "(T):System.Void",
           "normalizedSignature": "Add|(T):System.Void|static=false",
@@ -6693,7 +6693,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::Clear():System.Void",
           "clrName": "Clear",
-          "tsEmitName": "clear",
+          "tsEmitName": "clear$view",
           "metadataToken": 100704642,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Clear|():System.Void|static=false",
@@ -6707,7 +6707,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::Contains(T):System.Boolean",
           "clrName": "Contains",
-          "tsEmitName": "contains",
+          "tsEmitName": "contains$view",
           "metadataToken": 100704643,
           "canonicalSignature": "(T):System.Boolean",
           "normalizedSignature": "Contains|(T):System.Boolean|static=false",
@@ -6721,7 +6721,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::CopyTo(T[],System.Int32):System.Void",
           "clrName": "CopyTo",
-          "tsEmitName": "copyTo",
+          "tsEmitName": "copyTo$view",
           "metadataToken": 100704644,
           "canonicalSignature": "(T[],System.Int32):System.Void",
           "normalizedSignature": "CopyTo|(T[],System.Int32):System.Void|static=false",
@@ -6735,7 +6735,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IEnumerable\u00601::GetEnumerator():IEnumerator_1",
           "clrName": "GetEnumerator",
-          "tsEmitName": "getEnumerator",
+          "tsEmitName": "getEnumerator$view",
           "metadataToken": 100704663,
           "canonicalSignature": "():IEnumerator_1",
           "normalizedSignature": "GetEnumerator|():IEnumerator_1|static=false",
@@ -6749,7 +6749,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
           "clrName": "GetEnumerator",
-          "tsEmitName": "getEnumerator",
+          "tsEmitName": "getEnumerator$view",
           "metadataToken": 100703948,
           "canonicalSignature": "():System.Collections.IEnumerator",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
@@ -6763,7 +6763,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Add(System.Object):System.Int32",
           "clrName": "Add",
-          "tsEmitName": "add",
+          "tsEmitName": "add$view",
           "metadataToken": 100703957,
           "canonicalSignature": "(System.Object):System.Int32",
           "normalizedSignature": "Add|(System.Object):System.Int32|static=false",
@@ -6777,7 +6777,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Contains(System.Object):System.Boolean",
           "clrName": "Contains",
-          "tsEmitName": "contains",
+          "tsEmitName": "contains$view",
           "metadataToken": 100703958,
           "canonicalSignature": "(System.Object):System.Boolean",
           "normalizedSignature": "Contains|(System.Object):System.Boolean|static=false",
@@ -6791,7 +6791,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Insert(System.Int32,System.Object):System.Void",
           "clrName": "Insert",
-          "tsEmitName": "insert",
+          "tsEmitName": "insert$view",
           "metadataToken": 100703963,
           "canonicalSignature": "(System.Int32,System.Object):System.Void",
           "normalizedSignature": "Insert|(System.Int32,System.Object):System.Void|static=false",
@@ -6805,7 +6805,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Remove(System.Object):System.Void",
           "clrName": "Remove",
-          "tsEmitName": "remove",
+          "tsEmitName": "remove$view",
           "metadataToken": 100703964,
           "canonicalSignature": "(System.Object):System.Void",
           "normalizedSignature": "Remove|(System.Object):System.Void|static=false",
@@ -6819,7 +6819,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.ICollection::CopyTo(System.Array,System.Int32):System.Void",
           "clrName": "CopyTo",
-          "tsEmitName": "copyTo",
+          "tsEmitName": "copyTo$view",
           "metadataToken": 100703929,
           "canonicalSignature": "(System.Array,System.Int32):System.Void",
           "normalizedSignature": "CopyTo|(System.Array,System.Int32):System.Void|static=false",
@@ -6833,7 +6833,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Clear():System.Void",
           "clrName": "Clear",
-          "tsEmitName": "clear",
+          "tsEmitName": "clear$view",
           "metadataToken": 100703959,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Clear|():System.Void|static=false",
@@ -6847,7 +6847,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::RemoveAt(System.Int32):System.Void",
           "clrName": "RemoveAt",
-          "tsEmitName": "removeAt",
+          "tsEmitName": "removeAt$view",
           "metadataToken": 100703965,
           "canonicalSignature": "(System.Int32):System.Void",
           "normalizedSignature": "RemoveAt|(System.Int32):System.Void|static=false",
@@ -6875,7 +6875,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.AttachmentCollection::Add(T):System.Void",
           "clrName": "Add",
-          "tsEmitName": "Add",
+          "tsEmitName": "add",
           "metadataToken": 0,
           "canonicalSignature": "(T):System.Void",
           "normalizedSignature": "Add|(T):System.Void|static=false",
@@ -6889,7 +6889,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.AttachmentCollection::Add(System.Object):System.Int32",
           "clrName": "Add",
-          "tsEmitName": "Add2",
+          "tsEmitName": "add2",
           "metadataToken": 0,
           "canonicalSignature": "(System.Object):System.Int32",
           "normalizedSignature": "Add|(System.Object):System.Int32|static=false",
@@ -6903,7 +6903,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.AttachmentCollection::Clear():System.Void",
           "clrName": "Clear",
-          "tsEmitName": "Clear",
+          "tsEmitName": "clear",
           "metadataToken": 0,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Clear|():System.Void|static=false",
@@ -6917,7 +6917,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.AttachmentCollection::Contains(T):System.Boolean",
           "clrName": "Contains",
-          "tsEmitName": "Contains",
+          "tsEmitName": "contains",
           "metadataToken": 0,
           "canonicalSignature": "(T):System.Boolean",
           "normalizedSignature": "Contains|(T):System.Boolean|static=false",
@@ -6931,7 +6931,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.AttachmentCollection::Contains(System.Object):System.Boolean",
           "clrName": "Contains",
-          "tsEmitName": "Contains2",
+          "tsEmitName": "contains2",
           "metadataToken": 0,
           "canonicalSignature": "(System.Object):System.Boolean",
           "normalizedSignature": "Contains|(System.Object):System.Boolean|static=false",
@@ -6945,7 +6945,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.AttachmentCollection::CopyTo(T[],System.Int32):System.Void",
           "clrName": "CopyTo",
-          "tsEmitName": "CopyTo",
+          "tsEmitName": "copyTo",
           "metadataToken": 0,
           "canonicalSignature": "(T[],System.Int32):System.Void",
           "normalizedSignature": "CopyTo|(T[],System.Int32):System.Void|static=false",
@@ -6959,7 +6959,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.AttachmentCollection::CopyTo(System.Array,System.Int32):System.Void",
           "clrName": "CopyTo",
-          "tsEmitName": "CopyTo2",
+          "tsEmitName": "copyTo2",
           "metadataToken": 0,
           "canonicalSignature": "(System.Array,System.Int32):System.Void",
           "normalizedSignature": "CopyTo|(System.Array,System.Int32):System.Void|static=false",
@@ -6973,7 +6973,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.AttachmentCollection::GetEnumerator():System.Collections.Generic.IEnumerator_1",
           "clrName": "GetEnumerator",
-          "tsEmitName": "GetEnumerator",
+          "tsEmitName": "getEnumerator",
           "metadataToken": 0,
           "canonicalSignature": "():System.Collections.Generic.IEnumerator_1",
           "normalizedSignature": "GetEnumerator|():System.Collections.Generic.IEnumerator_1|static=false",
@@ -6987,7 +6987,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.AttachmentCollection::GetEnumerator():System.Collections.IEnumerator",
           "clrName": "GetEnumerator",
-          "tsEmitName": "GetEnumerator2",
+          "tsEmitName": "getEnumerator2",
           "metadataToken": 0,
           "canonicalSignature": "():System.Collections.IEnumerator",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
@@ -7001,7 +7001,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.AttachmentCollection::IndexOf(T):System.Int32",
           "clrName": "IndexOf",
-          "tsEmitName": "IndexOf",
+          "tsEmitName": "indexOf",
           "metadataToken": 0,
           "canonicalSignature": "(T):System.Int32",
           "normalizedSignature": "IndexOf|(T):System.Int32|static=false",
@@ -7015,7 +7015,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.AttachmentCollection::Insert(System.Int32,T):System.Void",
           "clrName": "Insert",
-          "tsEmitName": "Insert",
+          "tsEmitName": "insert",
           "metadataToken": 0,
           "canonicalSignature": "(System.Int32,T):System.Void",
           "normalizedSignature": "Insert|(System.Int32,T):System.Void|static=false",
@@ -7029,7 +7029,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.AttachmentCollection::Insert(System.Int32,System.Object):System.Void",
           "clrName": "Insert",
-          "tsEmitName": "Insert2",
+          "tsEmitName": "insert2",
           "metadataToken": 0,
           "canonicalSignature": "(System.Int32,System.Object):System.Void",
           "normalizedSignature": "Insert|(System.Int32,System.Object):System.Void|static=false",
@@ -7043,7 +7043,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.AttachmentCollection::Remove(T):System.Boolean",
           "clrName": "Remove",
-          "tsEmitName": "Remove",
+          "tsEmitName": "remove",
           "metadataToken": 0,
           "canonicalSignature": "(T):System.Boolean",
           "normalizedSignature": "Remove|(T):System.Boolean|static=false",
@@ -7057,7 +7057,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.AttachmentCollection::Remove(System.Object):System.Void",
           "clrName": "Remove",
-          "tsEmitName": "Remove2",
+          "tsEmitName": "remove2",
           "metadataToken": 0,
           "canonicalSignature": "(System.Object):System.Void",
           "normalizedSignature": "Remove|(System.Object):System.Void|static=false",
@@ -7071,7 +7071,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.AttachmentCollection::RemoveAt(System.Int32):System.Void",
           "clrName": "RemoveAt",
-          "tsEmitName": "RemoveAt",
+          "tsEmitName": "removeAt",
           "metadataToken": 0,
           "canonicalSignature": "(System.Int32):System.Void",
           "normalizedSignature": "RemoveAt|(System.Int32):System.Void|static=false",
@@ -7212,7 +7212,7 @@
           }
         },
         {
-          "tsName": "indexOf",
+          "tsName": "indexOf$view",
           "isStatic": false,
           "tsSignatureId": "IndexOf|(T):System.Int32|static=false",
           "target": {
@@ -7222,7 +7222,7 @@
           }
         },
         {
-          "tsName": "insert",
+          "tsName": "insert$view",
           "isStatic": false,
           "tsSignatureId": "Insert|(System.Int32,T):System.Void|static=false",
           "target": {
@@ -7232,7 +7232,7 @@
           }
         },
         {
-          "tsName": "removeAt",
+          "tsName": "removeAt$view",
           "isStatic": false,
           "tsSignatureId": "RemoveAt|(System.Int32):System.Void|static=false",
           "target": {
@@ -7242,7 +7242,7 @@
           }
         },
         {
-          "tsName": "add",
+          "tsName": "add$view",
           "isStatic": false,
           "tsSignatureId": "Add|(T):System.Void|static=false",
           "target": {
@@ -7252,7 +7252,7 @@
           }
         },
         {
-          "tsName": "clear",
+          "tsName": "clear$view",
           "isStatic": false,
           "tsSignatureId": "Clear|():System.Void|static=false",
           "target": {
@@ -7262,7 +7262,7 @@
           }
         },
         {
-          "tsName": "contains",
+          "tsName": "contains$view",
           "isStatic": false,
           "tsSignatureId": "Contains|(T):System.Boolean|static=false",
           "target": {
@@ -7272,7 +7272,7 @@
           }
         },
         {
-          "tsName": "copyTo",
+          "tsName": "copyTo$view",
           "isStatic": false,
           "tsSignatureId": "CopyTo|(T[],System.Int32):System.Void|static=false",
           "target": {
@@ -7282,7 +7282,7 @@
           }
         },
         {
-          "tsName": "getEnumerator",
+          "tsName": "getEnumerator$view",
           "isStatic": false,
           "tsSignatureId": "GetEnumerator|():IEnumerator_1|static=false",
           "target": {
@@ -7292,7 +7292,7 @@
           }
         },
         {
-          "tsName": "getEnumerator",
+          "tsName": "getEnumerator$view",
           "isStatic": false,
           "tsSignatureId": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "target": {
@@ -7302,7 +7302,7 @@
           }
         },
         {
-          "tsName": "add",
+          "tsName": "add$view",
           "isStatic": false,
           "tsSignatureId": "Add|(System.Object):System.Int32|static=false",
           "target": {
@@ -7312,7 +7312,7 @@
           }
         },
         {
-          "tsName": "contains",
+          "tsName": "contains$view",
           "isStatic": false,
           "tsSignatureId": "Contains|(System.Object):System.Boolean|static=false",
           "target": {
@@ -7322,7 +7322,7 @@
           }
         },
         {
-          "tsName": "insert",
+          "tsName": "insert$view",
           "isStatic": false,
           "tsSignatureId": "Insert|(System.Int32,System.Object):System.Void|static=false",
           "target": {
@@ -7332,7 +7332,7 @@
           }
         },
         {
-          "tsName": "remove",
+          "tsName": "remove$view",
           "isStatic": false,
           "tsSignatureId": "Remove|(System.Object):System.Void|static=false",
           "target": {
@@ -7342,7 +7342,7 @@
           }
         },
         {
-          "tsName": "copyTo",
+          "tsName": "copyTo$view",
           "isStatic": false,
           "tsSignatureId": "CopyTo|(System.Array,System.Int32):System.Void|static=false",
           "target": {
@@ -7352,7 +7352,7 @@
           }
         },
         {
-          "tsName": "clear",
+          "tsName": "clear$view",
           "isStatic": false,
           "tsSignatureId": "Clear|():System.Void|static=false",
           "target": {
@@ -7362,7 +7362,7 @@
           }
         },
         {
-          "tsName": "removeAt",
+          "tsName": "removeAt$view",
           "isStatic": false,
           "tsSignatureId": "RemoveAt|(System.Int32):System.Void|static=false",
           "target": {
@@ -7382,7 +7382,7 @@
           }
         },
         {
-          "tsName": "Add",
+          "tsName": "add",
           "isStatic": false,
           "tsSignatureId": "Add|(T):System.Void|static=false",
           "target": {
@@ -7392,7 +7392,7 @@
           }
         },
         {
-          "tsName": "Add2",
+          "tsName": "add2",
           "isStatic": false,
           "tsSignatureId": "Add|(System.Object):System.Int32|static=false",
           "target": {
@@ -7402,7 +7402,7 @@
           }
         },
         {
-          "tsName": "Clear",
+          "tsName": "clear",
           "isStatic": false,
           "tsSignatureId": "Clear|():System.Void|static=false",
           "target": {
@@ -7412,7 +7412,7 @@
           }
         },
         {
-          "tsName": "Contains",
+          "tsName": "contains",
           "isStatic": false,
           "tsSignatureId": "Contains|(T):System.Boolean|static=false",
           "target": {
@@ -7422,7 +7422,7 @@
           }
         },
         {
-          "tsName": "Contains2",
+          "tsName": "contains2",
           "isStatic": false,
           "tsSignatureId": "Contains|(System.Object):System.Boolean|static=false",
           "target": {
@@ -7432,7 +7432,7 @@
           }
         },
         {
-          "tsName": "CopyTo",
+          "tsName": "copyTo",
           "isStatic": false,
           "tsSignatureId": "CopyTo|(T[],System.Int32):System.Void|static=false",
           "target": {
@@ -7442,7 +7442,7 @@
           }
         },
         {
-          "tsName": "CopyTo2",
+          "tsName": "copyTo2",
           "isStatic": false,
           "tsSignatureId": "CopyTo|(System.Array,System.Int32):System.Void|static=false",
           "target": {
@@ -7452,7 +7452,7 @@
           }
         },
         {
-          "tsName": "GetEnumerator",
+          "tsName": "getEnumerator",
           "isStatic": false,
           "tsSignatureId": "GetEnumerator|():System.Collections.Generic.IEnumerator_1|static=false",
           "target": {
@@ -7462,7 +7462,7 @@
           }
         },
         {
-          "tsName": "GetEnumerator2",
+          "tsName": "getEnumerator2",
           "isStatic": false,
           "tsSignatureId": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "target": {
@@ -7472,7 +7472,7 @@
           }
         },
         {
-          "tsName": "IndexOf",
+          "tsName": "indexOf",
           "isStatic": false,
           "tsSignatureId": "IndexOf|(T):System.Int32|static=false",
           "target": {
@@ -7482,7 +7482,7 @@
           }
         },
         {
-          "tsName": "Insert",
+          "tsName": "insert",
           "isStatic": false,
           "tsSignatureId": "Insert|(System.Int32,T):System.Void|static=false",
           "target": {
@@ -7492,7 +7492,7 @@
           }
         },
         {
-          "tsName": "Insert2",
+          "tsName": "insert2",
           "isStatic": false,
           "tsSignatureId": "Insert|(System.Int32,System.Object):System.Void|static=false",
           "target": {
@@ -7502,7 +7502,7 @@
           }
         },
         {
-          "tsName": "Remove",
+          "tsName": "remove",
           "isStatic": false,
           "tsSignatureId": "Remove|(T):System.Boolean|static=false",
           "target": {
@@ -7512,7 +7512,7 @@
           }
         },
         {
-          "tsName": "Remove2",
+          "tsName": "remove2",
           "isStatic": false,
           "tsSignatureId": "Remove|(System.Object):System.Void|static=false",
           "target": {
@@ -7522,7 +7522,7 @@
           }
         },
         {
-          "tsName": "RemoveAt",
+          "tsName": "removeAt",
           "isStatic": false,
           "tsSignatureId": "RemoveAt|(System.Int32):System.Void|static=false",
           "target": {
@@ -7737,7 +7737,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "dispose",
+          "tsEmitName": "dispose$view",
           "metadataToken": 100668530,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Dispose|():System.Void|static=false",
@@ -7751,7 +7751,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.LinkedResource::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "Dispose",
+          "tsEmitName": "dispose",
           "metadataToken": 0,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Dispose|():System.Void|static=false",
@@ -7875,7 +7875,7 @@
           }
         },
         {
-          "tsName": "dispose",
+          "tsName": "dispose$view",
           "isStatic": false,
           "tsSignatureId": "Dispose|():System.Void|static=false",
           "target": {
@@ -7885,7 +7885,7 @@
           }
         },
         {
-          "tsName": "Dispose",
+          "tsName": "dispose",
           "isStatic": false,
           "tsSignatureId": "Dispose|():System.Void|static=false",
           "target": {
@@ -8088,7 +8088,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IList\u00601::IndexOf(T):System.Int32",
           "clrName": "IndexOf",
-          "tsEmitName": "indexOf",
+          "tsEmitName": "indexOf$view",
           "metadataToken": 100704671,
           "canonicalSignature": "(T):System.Int32",
           "normalizedSignature": "IndexOf|(T):System.Int32|static=false",
@@ -8102,7 +8102,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IList\u00601::Insert(System.Int32,T):System.Void",
           "clrName": "Insert",
-          "tsEmitName": "insert",
+          "tsEmitName": "insert$view",
           "metadataToken": 100704672,
           "canonicalSignature": "(System.Int32,T):System.Void",
           "normalizedSignature": "Insert|(System.Int32,T):System.Void|static=false",
@@ -8116,7 +8116,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IList\u00601::RemoveAt(System.Int32):System.Void",
           "clrName": "RemoveAt",
-          "tsEmitName": "removeAt",
+          "tsEmitName": "removeAt$view",
           "metadataToken": 100704673,
           "canonicalSignature": "(System.Int32):System.Void",
           "normalizedSignature": "RemoveAt|(System.Int32):System.Void|static=false",
@@ -8130,7 +8130,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::Add(T):System.Void",
           "clrName": "Add",
-          "tsEmitName": "add",
+          "tsEmitName": "add$view",
           "metadataToken": 100704641,
           "canonicalSignature": "(T):System.Void",
           "normalizedSignature": "Add|(T):System.Void|static=false",
@@ -8144,7 +8144,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::Clear():System.Void",
           "clrName": "Clear",
-          "tsEmitName": "clear",
+          "tsEmitName": "clear$view",
           "metadataToken": 100704642,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Clear|():System.Void|static=false",
@@ -8158,7 +8158,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::Contains(T):System.Boolean",
           "clrName": "Contains",
-          "tsEmitName": "contains",
+          "tsEmitName": "contains$view",
           "metadataToken": 100704643,
           "canonicalSignature": "(T):System.Boolean",
           "normalizedSignature": "Contains|(T):System.Boolean|static=false",
@@ -8172,7 +8172,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::CopyTo(T[],System.Int32):System.Void",
           "clrName": "CopyTo",
-          "tsEmitName": "copyTo",
+          "tsEmitName": "copyTo$view",
           "metadataToken": 100704644,
           "canonicalSignature": "(T[],System.Int32):System.Void",
           "normalizedSignature": "CopyTo|(T[],System.Int32):System.Void|static=false",
@@ -8186,7 +8186,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IEnumerable\u00601::GetEnumerator():IEnumerator_1",
           "clrName": "GetEnumerator",
-          "tsEmitName": "getEnumerator",
+          "tsEmitName": "getEnumerator$view",
           "metadataToken": 100704663,
           "canonicalSignature": "():IEnumerator_1",
           "normalizedSignature": "GetEnumerator|():IEnumerator_1|static=false",
@@ -8200,7 +8200,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
           "clrName": "GetEnumerator",
-          "tsEmitName": "getEnumerator",
+          "tsEmitName": "getEnumerator$view",
           "metadataToken": 100703948,
           "canonicalSignature": "():System.Collections.IEnumerator",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
@@ -8214,7 +8214,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Add(System.Object):System.Int32",
           "clrName": "Add",
-          "tsEmitName": "add",
+          "tsEmitName": "add$view",
           "metadataToken": 100703957,
           "canonicalSignature": "(System.Object):System.Int32",
           "normalizedSignature": "Add|(System.Object):System.Int32|static=false",
@@ -8228,7 +8228,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Contains(System.Object):System.Boolean",
           "clrName": "Contains",
-          "tsEmitName": "contains",
+          "tsEmitName": "contains$view",
           "metadataToken": 100703958,
           "canonicalSignature": "(System.Object):System.Boolean",
           "normalizedSignature": "Contains|(System.Object):System.Boolean|static=false",
@@ -8242,7 +8242,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Insert(System.Int32,System.Object):System.Void",
           "clrName": "Insert",
-          "tsEmitName": "insert",
+          "tsEmitName": "insert$view",
           "metadataToken": 100703963,
           "canonicalSignature": "(System.Int32,System.Object):System.Void",
           "normalizedSignature": "Insert|(System.Int32,System.Object):System.Void|static=false",
@@ -8256,7 +8256,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Remove(System.Object):System.Void",
           "clrName": "Remove",
-          "tsEmitName": "remove",
+          "tsEmitName": "remove$view",
           "metadataToken": 100703964,
           "canonicalSignature": "(System.Object):System.Void",
           "normalizedSignature": "Remove|(System.Object):System.Void|static=false",
@@ -8270,7 +8270,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.ICollection::CopyTo(System.Array,System.Int32):System.Void",
           "clrName": "CopyTo",
-          "tsEmitName": "copyTo",
+          "tsEmitName": "copyTo$view",
           "metadataToken": 100703929,
           "canonicalSignature": "(System.Array,System.Int32):System.Void",
           "normalizedSignature": "CopyTo|(System.Array,System.Int32):System.Void|static=false",
@@ -8284,7 +8284,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Clear():System.Void",
           "clrName": "Clear",
-          "tsEmitName": "clear",
+          "tsEmitName": "clear$view",
           "metadataToken": 100703959,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Clear|():System.Void|static=false",
@@ -8298,7 +8298,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::RemoveAt(System.Int32):System.Void",
           "clrName": "RemoveAt",
-          "tsEmitName": "removeAt",
+          "tsEmitName": "removeAt$view",
           "metadataToken": 100703965,
           "canonicalSignature": "(System.Int32):System.Void",
           "normalizedSignature": "RemoveAt|(System.Int32):System.Void|static=false",
@@ -8326,7 +8326,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.LinkedResourceCollection::Add(T):System.Void",
           "clrName": "Add",
-          "tsEmitName": "Add",
+          "tsEmitName": "add",
           "metadataToken": 0,
           "canonicalSignature": "(T):System.Void",
           "normalizedSignature": "Add|(T):System.Void|static=false",
@@ -8340,7 +8340,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.LinkedResourceCollection::Add(System.Object):System.Int32",
           "clrName": "Add",
-          "tsEmitName": "Add2",
+          "tsEmitName": "add2",
           "metadataToken": 0,
           "canonicalSignature": "(System.Object):System.Int32",
           "normalizedSignature": "Add|(System.Object):System.Int32|static=false",
@@ -8354,7 +8354,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.LinkedResourceCollection::Clear():System.Void",
           "clrName": "Clear",
-          "tsEmitName": "Clear",
+          "tsEmitName": "clear",
           "metadataToken": 0,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Clear|():System.Void|static=false",
@@ -8368,7 +8368,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.LinkedResourceCollection::Contains(T):System.Boolean",
           "clrName": "Contains",
-          "tsEmitName": "Contains",
+          "tsEmitName": "contains",
           "metadataToken": 0,
           "canonicalSignature": "(T):System.Boolean",
           "normalizedSignature": "Contains|(T):System.Boolean|static=false",
@@ -8382,7 +8382,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.LinkedResourceCollection::Contains(System.Object):System.Boolean",
           "clrName": "Contains",
-          "tsEmitName": "Contains2",
+          "tsEmitName": "contains2",
           "metadataToken": 0,
           "canonicalSignature": "(System.Object):System.Boolean",
           "normalizedSignature": "Contains|(System.Object):System.Boolean|static=false",
@@ -8396,7 +8396,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.LinkedResourceCollection::CopyTo(T[],System.Int32):System.Void",
           "clrName": "CopyTo",
-          "tsEmitName": "CopyTo",
+          "tsEmitName": "copyTo",
           "metadataToken": 0,
           "canonicalSignature": "(T[],System.Int32):System.Void",
           "normalizedSignature": "CopyTo|(T[],System.Int32):System.Void|static=false",
@@ -8410,7 +8410,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.LinkedResourceCollection::CopyTo(System.Array,System.Int32):System.Void",
           "clrName": "CopyTo",
-          "tsEmitName": "CopyTo2",
+          "tsEmitName": "copyTo2",
           "metadataToken": 0,
           "canonicalSignature": "(System.Array,System.Int32):System.Void",
           "normalizedSignature": "CopyTo|(System.Array,System.Int32):System.Void|static=false",
@@ -8424,7 +8424,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.LinkedResourceCollection::GetEnumerator():System.Collections.Generic.IEnumerator_1",
           "clrName": "GetEnumerator",
-          "tsEmitName": "GetEnumerator",
+          "tsEmitName": "getEnumerator",
           "metadataToken": 0,
           "canonicalSignature": "():System.Collections.Generic.IEnumerator_1",
           "normalizedSignature": "GetEnumerator|():System.Collections.Generic.IEnumerator_1|static=false",
@@ -8438,7 +8438,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.LinkedResourceCollection::GetEnumerator():System.Collections.IEnumerator",
           "clrName": "GetEnumerator",
-          "tsEmitName": "GetEnumerator2",
+          "tsEmitName": "getEnumerator2",
           "metadataToken": 0,
           "canonicalSignature": "():System.Collections.IEnumerator",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
@@ -8452,7 +8452,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.LinkedResourceCollection::IndexOf(T):System.Int32",
           "clrName": "IndexOf",
-          "tsEmitName": "IndexOf",
+          "tsEmitName": "indexOf",
           "metadataToken": 0,
           "canonicalSignature": "(T):System.Int32",
           "normalizedSignature": "IndexOf|(T):System.Int32|static=false",
@@ -8466,7 +8466,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.LinkedResourceCollection::Insert(System.Int32,T):System.Void",
           "clrName": "Insert",
-          "tsEmitName": "Insert",
+          "tsEmitName": "insert",
           "metadataToken": 0,
           "canonicalSignature": "(System.Int32,T):System.Void",
           "normalizedSignature": "Insert|(System.Int32,T):System.Void|static=false",
@@ -8480,7 +8480,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.LinkedResourceCollection::Insert(System.Int32,System.Object):System.Void",
           "clrName": "Insert",
-          "tsEmitName": "Insert2",
+          "tsEmitName": "insert2",
           "metadataToken": 0,
           "canonicalSignature": "(System.Int32,System.Object):System.Void",
           "normalizedSignature": "Insert|(System.Int32,System.Object):System.Void|static=false",
@@ -8494,7 +8494,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.LinkedResourceCollection::Remove(T):System.Boolean",
           "clrName": "Remove",
-          "tsEmitName": "Remove",
+          "tsEmitName": "remove",
           "metadataToken": 0,
           "canonicalSignature": "(T):System.Boolean",
           "normalizedSignature": "Remove|(T):System.Boolean|static=false",
@@ -8508,7 +8508,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.LinkedResourceCollection::Remove(System.Object):System.Void",
           "clrName": "Remove",
-          "tsEmitName": "Remove2",
+          "tsEmitName": "remove2",
           "metadataToken": 0,
           "canonicalSignature": "(System.Object):System.Void",
           "normalizedSignature": "Remove|(System.Object):System.Void|static=false",
@@ -8522,7 +8522,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.LinkedResourceCollection::RemoveAt(System.Int32):System.Void",
           "clrName": "RemoveAt",
-          "tsEmitName": "RemoveAt",
+          "tsEmitName": "removeAt",
           "metadataToken": 0,
           "canonicalSignature": "(System.Int32):System.Void",
           "normalizedSignature": "RemoveAt|(System.Int32):System.Void|static=false",
@@ -8663,7 +8663,7 @@
           }
         },
         {
-          "tsName": "indexOf",
+          "tsName": "indexOf$view",
           "isStatic": false,
           "tsSignatureId": "IndexOf|(T):System.Int32|static=false",
           "target": {
@@ -8673,7 +8673,7 @@
           }
         },
         {
-          "tsName": "insert",
+          "tsName": "insert$view",
           "isStatic": false,
           "tsSignatureId": "Insert|(System.Int32,T):System.Void|static=false",
           "target": {
@@ -8683,7 +8683,7 @@
           }
         },
         {
-          "tsName": "removeAt",
+          "tsName": "removeAt$view",
           "isStatic": false,
           "tsSignatureId": "RemoveAt|(System.Int32):System.Void|static=false",
           "target": {
@@ -8693,7 +8693,7 @@
           }
         },
         {
-          "tsName": "add",
+          "tsName": "add$view",
           "isStatic": false,
           "tsSignatureId": "Add|(T):System.Void|static=false",
           "target": {
@@ -8703,7 +8703,7 @@
           }
         },
         {
-          "tsName": "clear",
+          "tsName": "clear$view",
           "isStatic": false,
           "tsSignatureId": "Clear|():System.Void|static=false",
           "target": {
@@ -8713,7 +8713,7 @@
           }
         },
         {
-          "tsName": "contains",
+          "tsName": "contains$view",
           "isStatic": false,
           "tsSignatureId": "Contains|(T):System.Boolean|static=false",
           "target": {
@@ -8723,7 +8723,7 @@
           }
         },
         {
-          "tsName": "copyTo",
+          "tsName": "copyTo$view",
           "isStatic": false,
           "tsSignatureId": "CopyTo|(T[],System.Int32):System.Void|static=false",
           "target": {
@@ -8733,7 +8733,7 @@
           }
         },
         {
-          "tsName": "getEnumerator",
+          "tsName": "getEnumerator$view",
           "isStatic": false,
           "tsSignatureId": "GetEnumerator|():IEnumerator_1|static=false",
           "target": {
@@ -8743,7 +8743,7 @@
           }
         },
         {
-          "tsName": "getEnumerator",
+          "tsName": "getEnumerator$view",
           "isStatic": false,
           "tsSignatureId": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "target": {
@@ -8753,7 +8753,7 @@
           }
         },
         {
-          "tsName": "add",
+          "tsName": "add$view",
           "isStatic": false,
           "tsSignatureId": "Add|(System.Object):System.Int32|static=false",
           "target": {
@@ -8763,7 +8763,7 @@
           }
         },
         {
-          "tsName": "contains",
+          "tsName": "contains$view",
           "isStatic": false,
           "tsSignatureId": "Contains|(System.Object):System.Boolean|static=false",
           "target": {
@@ -8773,7 +8773,7 @@
           }
         },
         {
-          "tsName": "insert",
+          "tsName": "insert$view",
           "isStatic": false,
           "tsSignatureId": "Insert|(System.Int32,System.Object):System.Void|static=false",
           "target": {
@@ -8783,7 +8783,7 @@
           }
         },
         {
-          "tsName": "remove",
+          "tsName": "remove$view",
           "isStatic": false,
           "tsSignatureId": "Remove|(System.Object):System.Void|static=false",
           "target": {
@@ -8793,7 +8793,7 @@
           }
         },
         {
-          "tsName": "copyTo",
+          "tsName": "copyTo$view",
           "isStatic": false,
           "tsSignatureId": "CopyTo|(System.Array,System.Int32):System.Void|static=false",
           "target": {
@@ -8803,7 +8803,7 @@
           }
         },
         {
-          "tsName": "clear",
+          "tsName": "clear$view",
           "isStatic": false,
           "tsSignatureId": "Clear|():System.Void|static=false",
           "target": {
@@ -8813,7 +8813,7 @@
           }
         },
         {
-          "tsName": "removeAt",
+          "tsName": "removeAt$view",
           "isStatic": false,
           "tsSignatureId": "RemoveAt|(System.Int32):System.Void|static=false",
           "target": {
@@ -8833,7 +8833,7 @@
           }
         },
         {
-          "tsName": "Add",
+          "tsName": "add",
           "isStatic": false,
           "tsSignatureId": "Add|(T):System.Void|static=false",
           "target": {
@@ -8843,7 +8843,7 @@
           }
         },
         {
-          "tsName": "Add2",
+          "tsName": "add2",
           "isStatic": false,
           "tsSignatureId": "Add|(System.Object):System.Int32|static=false",
           "target": {
@@ -8853,7 +8853,7 @@
           }
         },
         {
-          "tsName": "Clear",
+          "tsName": "clear",
           "isStatic": false,
           "tsSignatureId": "Clear|():System.Void|static=false",
           "target": {
@@ -8863,7 +8863,7 @@
           }
         },
         {
-          "tsName": "Contains",
+          "tsName": "contains",
           "isStatic": false,
           "tsSignatureId": "Contains|(T):System.Boolean|static=false",
           "target": {
@@ -8873,7 +8873,7 @@
           }
         },
         {
-          "tsName": "Contains2",
+          "tsName": "contains2",
           "isStatic": false,
           "tsSignatureId": "Contains|(System.Object):System.Boolean|static=false",
           "target": {
@@ -8883,7 +8883,7 @@
           }
         },
         {
-          "tsName": "CopyTo",
+          "tsName": "copyTo",
           "isStatic": false,
           "tsSignatureId": "CopyTo|(T[],System.Int32):System.Void|static=false",
           "target": {
@@ -8893,7 +8893,7 @@
           }
         },
         {
-          "tsName": "CopyTo2",
+          "tsName": "copyTo2",
           "isStatic": false,
           "tsSignatureId": "CopyTo|(System.Array,System.Int32):System.Void|static=false",
           "target": {
@@ -8903,7 +8903,7 @@
           }
         },
         {
-          "tsName": "GetEnumerator",
+          "tsName": "getEnumerator",
           "isStatic": false,
           "tsSignatureId": "GetEnumerator|():System.Collections.Generic.IEnumerator_1|static=false",
           "target": {
@@ -8913,7 +8913,7 @@
           }
         },
         {
-          "tsName": "GetEnumerator2",
+          "tsName": "getEnumerator2",
           "isStatic": false,
           "tsSignatureId": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "target": {
@@ -8923,7 +8923,7 @@
           }
         },
         {
-          "tsName": "IndexOf",
+          "tsName": "indexOf",
           "isStatic": false,
           "tsSignatureId": "IndexOf|(T):System.Int32|static=false",
           "target": {
@@ -8933,7 +8933,7 @@
           }
         },
         {
-          "tsName": "Insert",
+          "tsName": "insert",
           "isStatic": false,
           "tsSignatureId": "Insert|(System.Int32,T):System.Void|static=false",
           "target": {
@@ -8943,7 +8943,7 @@
           }
         },
         {
-          "tsName": "Insert2",
+          "tsName": "insert2",
           "isStatic": false,
           "tsSignatureId": "Insert|(System.Int32,System.Object):System.Void|static=false",
           "target": {
@@ -8953,7 +8953,7 @@
           }
         },
         {
-          "tsName": "Remove",
+          "tsName": "remove",
           "isStatic": false,
           "tsSignatureId": "Remove|(T):System.Boolean|static=false",
           "target": {
@@ -8963,7 +8963,7 @@
           }
         },
         {
-          "tsName": "Remove2",
+          "tsName": "remove2",
           "isStatic": false,
           "tsSignatureId": "Remove|(System.Object):System.Void|static=false",
           "target": {
@@ -8973,7 +8973,7 @@
           }
         },
         {
-          "tsName": "RemoveAt",
+          "tsName": "removeAt",
           "isStatic": false,
           "tsSignatureId": "RemoveAt|(System.Int32):System.Void|static=false",
           "target": {
@@ -9494,7 +9494,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.MailAddressCollection::Add(System.String):System.Void",
           "clrName": "Add",
-          "tsEmitName": "add",
+          "tsEmitName": "add3",
           "metadataToken": 100663653,
           "canonicalSignature": "(System.String):System.Void",
           "normalizedSignature": "Add|(System.String):System.Void|static=false",
@@ -9522,7 +9522,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IList\u00601::IndexOf(T):System.Int32",
           "clrName": "IndexOf",
-          "tsEmitName": "indexOf",
+          "tsEmitName": "indexOf$view",
           "metadataToken": 100704671,
           "canonicalSignature": "(T):System.Int32",
           "normalizedSignature": "IndexOf|(T):System.Int32|static=false",
@@ -9536,7 +9536,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IList\u00601::Insert(System.Int32,T):System.Void",
           "clrName": "Insert",
-          "tsEmitName": "insert",
+          "tsEmitName": "insert$view",
           "metadataToken": 100704672,
           "canonicalSignature": "(System.Int32,T):System.Void",
           "normalizedSignature": "Insert|(System.Int32,T):System.Void|static=false",
@@ -9550,7 +9550,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IList\u00601::RemoveAt(System.Int32):System.Void",
           "clrName": "RemoveAt",
-          "tsEmitName": "removeAt",
+          "tsEmitName": "removeAt$view",
           "metadataToken": 100704673,
           "canonicalSignature": "(System.Int32):System.Void",
           "normalizedSignature": "RemoveAt|(System.Int32):System.Void|static=false",
@@ -9578,7 +9578,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::Clear():System.Void",
           "clrName": "Clear",
-          "tsEmitName": "clear",
+          "tsEmitName": "clear$view",
           "metadataToken": 100704642,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Clear|():System.Void|static=false",
@@ -9592,7 +9592,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::Contains(T):System.Boolean",
           "clrName": "Contains",
-          "tsEmitName": "contains",
+          "tsEmitName": "contains$view",
           "metadataToken": 100704643,
           "canonicalSignature": "(T):System.Boolean",
           "normalizedSignature": "Contains|(T):System.Boolean|static=false",
@@ -9606,7 +9606,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::CopyTo(T[],System.Int32):System.Void",
           "clrName": "CopyTo",
-          "tsEmitName": "copyTo",
+          "tsEmitName": "copyTo$view",
           "metadataToken": 100704644,
           "canonicalSignature": "(T[],System.Int32):System.Void",
           "normalizedSignature": "CopyTo|(T[],System.Int32):System.Void|static=false",
@@ -9620,7 +9620,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IEnumerable\u00601::GetEnumerator():IEnumerator_1",
           "clrName": "GetEnumerator",
-          "tsEmitName": "getEnumerator",
+          "tsEmitName": "getEnumerator$view",
           "metadataToken": 100704663,
           "canonicalSignature": "():IEnumerator_1",
           "normalizedSignature": "GetEnumerator|():IEnumerator_1|static=false",
@@ -9634,7 +9634,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
           "clrName": "GetEnumerator",
-          "tsEmitName": "getEnumerator",
+          "tsEmitName": "getEnumerator$view",
           "metadataToken": 100703948,
           "canonicalSignature": "():System.Collections.IEnumerator",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
@@ -9662,7 +9662,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Contains(System.Object):System.Boolean",
           "clrName": "Contains",
-          "tsEmitName": "contains",
+          "tsEmitName": "contains$view",
           "metadataToken": 100703958,
           "canonicalSignature": "(System.Object):System.Boolean",
           "normalizedSignature": "Contains|(System.Object):System.Boolean|static=false",
@@ -9676,7 +9676,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Insert(System.Int32,System.Object):System.Void",
           "clrName": "Insert",
-          "tsEmitName": "insert",
+          "tsEmitName": "insert$view",
           "metadataToken": 100703963,
           "canonicalSignature": "(System.Int32,System.Object):System.Void",
           "normalizedSignature": "Insert|(System.Int32,System.Object):System.Void|static=false",
@@ -9690,7 +9690,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Remove(System.Object):System.Void",
           "clrName": "Remove",
-          "tsEmitName": "remove",
+          "tsEmitName": "remove$view",
           "metadataToken": 100703964,
           "canonicalSignature": "(System.Object):System.Void",
           "normalizedSignature": "Remove|(System.Object):System.Void|static=false",
@@ -9704,7 +9704,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.ICollection::CopyTo(System.Array,System.Int32):System.Void",
           "clrName": "CopyTo",
-          "tsEmitName": "copyTo",
+          "tsEmitName": "copyTo$view",
           "metadataToken": 100703929,
           "canonicalSignature": "(System.Array,System.Int32):System.Void",
           "normalizedSignature": "CopyTo|(System.Array,System.Int32):System.Void|static=false",
@@ -9718,7 +9718,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Clear():System.Void",
           "clrName": "Clear",
-          "tsEmitName": "clear",
+          "tsEmitName": "clear$view",
           "metadataToken": 100703959,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Clear|():System.Void|static=false",
@@ -9732,7 +9732,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::RemoveAt(System.Int32):System.Void",
           "clrName": "RemoveAt",
-          "tsEmitName": "removeAt",
+          "tsEmitName": "removeAt$view",
           "metadataToken": 100703965,
           "canonicalSignature": "(System.Int32):System.Void",
           "normalizedSignature": "RemoveAt|(System.Int32):System.Void|static=false",
@@ -9746,7 +9746,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.MailAddressCollection::Add(T):System.Void",
           "clrName": "Add",
-          "tsEmitName": "Add",
+          "tsEmitName": "add",
           "metadataToken": 0,
           "canonicalSignature": "(T):System.Void",
           "normalizedSignature": "Add|(T):System.Void|static=false",
@@ -9760,7 +9760,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.MailAddressCollection::Add(System.Object):System.Int32",
           "clrName": "Add",
-          "tsEmitName": "Add2",
+          "tsEmitName": "add2",
           "metadataToken": 0,
           "canonicalSignature": "(System.Object):System.Int32",
           "normalizedSignature": "Add|(System.Object):System.Int32|static=false",
@@ -9774,7 +9774,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.MailAddressCollection::Clear():System.Void",
           "clrName": "Clear",
-          "tsEmitName": "Clear",
+          "tsEmitName": "clear",
           "metadataToken": 0,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Clear|():System.Void|static=false",
@@ -9788,7 +9788,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.MailAddressCollection::Contains(T):System.Boolean",
           "clrName": "Contains",
-          "tsEmitName": "Contains",
+          "tsEmitName": "contains",
           "metadataToken": 0,
           "canonicalSignature": "(T):System.Boolean",
           "normalizedSignature": "Contains|(T):System.Boolean|static=false",
@@ -9802,7 +9802,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.MailAddressCollection::Contains(System.Object):System.Boolean",
           "clrName": "Contains",
-          "tsEmitName": "Contains2",
+          "tsEmitName": "contains2",
           "metadataToken": 0,
           "canonicalSignature": "(System.Object):System.Boolean",
           "normalizedSignature": "Contains|(System.Object):System.Boolean|static=false",
@@ -9816,7 +9816,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.MailAddressCollection::CopyTo(T[],System.Int32):System.Void",
           "clrName": "CopyTo",
-          "tsEmitName": "CopyTo",
+          "tsEmitName": "copyTo",
           "metadataToken": 0,
           "canonicalSignature": "(T[],System.Int32):System.Void",
           "normalizedSignature": "CopyTo|(T[],System.Int32):System.Void|static=false",
@@ -9830,7 +9830,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.MailAddressCollection::CopyTo(System.Array,System.Int32):System.Void",
           "clrName": "CopyTo",
-          "tsEmitName": "CopyTo2",
+          "tsEmitName": "copyTo2",
           "metadataToken": 0,
           "canonicalSignature": "(System.Array,System.Int32):System.Void",
           "normalizedSignature": "CopyTo|(System.Array,System.Int32):System.Void|static=false",
@@ -9844,7 +9844,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.MailAddressCollection::GetEnumerator():System.Collections.Generic.IEnumerator_1",
           "clrName": "GetEnumerator",
-          "tsEmitName": "GetEnumerator",
+          "tsEmitName": "getEnumerator",
           "metadataToken": 0,
           "canonicalSignature": "():System.Collections.Generic.IEnumerator_1",
           "normalizedSignature": "GetEnumerator|():System.Collections.Generic.IEnumerator_1|static=false",
@@ -9858,7 +9858,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.MailAddressCollection::GetEnumerator():System.Collections.IEnumerator",
           "clrName": "GetEnumerator",
-          "tsEmitName": "GetEnumerator2",
+          "tsEmitName": "getEnumerator2",
           "metadataToken": 0,
           "canonicalSignature": "():System.Collections.IEnumerator",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
@@ -9872,7 +9872,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.MailAddressCollection::IndexOf(T):System.Int32",
           "clrName": "IndexOf",
-          "tsEmitName": "IndexOf",
+          "tsEmitName": "indexOf",
           "metadataToken": 0,
           "canonicalSignature": "(T):System.Int32",
           "normalizedSignature": "IndexOf|(T):System.Int32|static=false",
@@ -9886,7 +9886,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.MailAddressCollection::Insert(System.Int32,T):System.Void",
           "clrName": "Insert",
-          "tsEmitName": "Insert",
+          "tsEmitName": "insert",
           "metadataToken": 0,
           "canonicalSignature": "(System.Int32,T):System.Void",
           "normalizedSignature": "Insert|(System.Int32,T):System.Void|static=false",
@@ -9900,7 +9900,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.MailAddressCollection::Insert(System.Int32,System.Object):System.Void",
           "clrName": "Insert",
-          "tsEmitName": "Insert2",
+          "tsEmitName": "insert2",
           "metadataToken": 0,
           "canonicalSignature": "(System.Int32,System.Object):System.Void",
           "normalizedSignature": "Insert|(System.Int32,System.Object):System.Void|static=false",
@@ -9914,7 +9914,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.MailAddressCollection::Remove(T):System.Boolean",
           "clrName": "Remove",
-          "tsEmitName": "Remove",
+          "tsEmitName": "remove",
           "metadataToken": 0,
           "canonicalSignature": "(T):System.Boolean",
           "normalizedSignature": "Remove|(T):System.Boolean|static=false",
@@ -9928,7 +9928,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.MailAddressCollection::Remove(System.Object):System.Void",
           "clrName": "Remove",
-          "tsEmitName": "Remove2",
+          "tsEmitName": "remove2",
           "metadataToken": 0,
           "canonicalSignature": "(System.Object):System.Void",
           "normalizedSignature": "Remove|(System.Object):System.Void|static=false",
@@ -9942,7 +9942,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.MailAddressCollection::RemoveAt(System.Int32):System.Void",
           "clrName": "RemoveAt",
-          "tsEmitName": "RemoveAt",
+          "tsEmitName": "removeAt",
           "metadataToken": 0,
           "canonicalSignature": "(System.Int32):System.Void",
           "normalizedSignature": "RemoveAt|(System.Int32):System.Void|static=false",
@@ -10084,7 +10084,7 @@
       ],
       "exposedMethods": [
         {
-          "tsName": "add",
+          "tsName": "add3",
           "isStatic": false,
           "tsSignatureId": "Add|(System.String):System.Void|static=false",
           "target": {
@@ -10104,7 +10104,7 @@
           }
         },
         {
-          "tsName": "indexOf",
+          "tsName": "indexOf$view",
           "isStatic": false,
           "tsSignatureId": "IndexOf|(T):System.Int32|static=false",
           "target": {
@@ -10114,7 +10114,7 @@
           }
         },
         {
-          "tsName": "insert",
+          "tsName": "insert$view",
           "isStatic": false,
           "tsSignatureId": "Insert|(System.Int32,T):System.Void|static=false",
           "target": {
@@ -10124,7 +10124,7 @@
           }
         },
         {
-          "tsName": "removeAt",
+          "tsName": "removeAt$view",
           "isStatic": false,
           "tsSignatureId": "RemoveAt|(System.Int32):System.Void|static=false",
           "target": {
@@ -10144,7 +10144,7 @@
           }
         },
         {
-          "tsName": "clear",
+          "tsName": "clear$view",
           "isStatic": false,
           "tsSignatureId": "Clear|():System.Void|static=false",
           "target": {
@@ -10154,7 +10154,7 @@
           }
         },
         {
-          "tsName": "contains",
+          "tsName": "contains$view",
           "isStatic": false,
           "tsSignatureId": "Contains|(T):System.Boolean|static=false",
           "target": {
@@ -10164,7 +10164,7 @@
           }
         },
         {
-          "tsName": "copyTo",
+          "tsName": "copyTo$view",
           "isStatic": false,
           "tsSignatureId": "CopyTo|(T[],System.Int32):System.Void|static=false",
           "target": {
@@ -10174,7 +10174,7 @@
           }
         },
         {
-          "tsName": "getEnumerator",
+          "tsName": "getEnumerator$view",
           "isStatic": false,
           "tsSignatureId": "GetEnumerator|():IEnumerator_1|static=false",
           "target": {
@@ -10184,7 +10184,7 @@
           }
         },
         {
-          "tsName": "getEnumerator",
+          "tsName": "getEnumerator$view",
           "isStatic": false,
           "tsSignatureId": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "target": {
@@ -10204,7 +10204,7 @@
           }
         },
         {
-          "tsName": "contains",
+          "tsName": "contains$view",
           "isStatic": false,
           "tsSignatureId": "Contains|(System.Object):System.Boolean|static=false",
           "target": {
@@ -10214,7 +10214,7 @@
           }
         },
         {
-          "tsName": "insert",
+          "tsName": "insert$view",
           "isStatic": false,
           "tsSignatureId": "Insert|(System.Int32,System.Object):System.Void|static=false",
           "target": {
@@ -10224,7 +10224,7 @@
           }
         },
         {
-          "tsName": "remove",
+          "tsName": "remove$view",
           "isStatic": false,
           "tsSignatureId": "Remove|(System.Object):System.Void|static=false",
           "target": {
@@ -10234,7 +10234,7 @@
           }
         },
         {
-          "tsName": "copyTo",
+          "tsName": "copyTo$view",
           "isStatic": false,
           "tsSignatureId": "CopyTo|(System.Array,System.Int32):System.Void|static=false",
           "target": {
@@ -10244,7 +10244,7 @@
           }
         },
         {
-          "tsName": "clear",
+          "tsName": "clear$view",
           "isStatic": false,
           "tsSignatureId": "Clear|():System.Void|static=false",
           "target": {
@@ -10254,7 +10254,7 @@
           }
         },
         {
-          "tsName": "removeAt",
+          "tsName": "removeAt$view",
           "isStatic": false,
           "tsSignatureId": "RemoveAt|(System.Int32):System.Void|static=false",
           "target": {
@@ -10264,7 +10264,7 @@
           }
         },
         {
-          "tsName": "Add",
+          "tsName": "add",
           "isStatic": false,
           "tsSignatureId": "Add|(T):System.Void|static=false",
           "target": {
@@ -10274,7 +10274,7 @@
           }
         },
         {
-          "tsName": "Add2",
+          "tsName": "add2",
           "isStatic": false,
           "tsSignatureId": "Add|(System.Object):System.Int32|static=false",
           "target": {
@@ -10284,7 +10284,7 @@
           }
         },
         {
-          "tsName": "Clear",
+          "tsName": "clear",
           "isStatic": false,
           "tsSignatureId": "Clear|():System.Void|static=false",
           "target": {
@@ -10294,7 +10294,7 @@
           }
         },
         {
-          "tsName": "Contains",
+          "tsName": "contains",
           "isStatic": false,
           "tsSignatureId": "Contains|(T):System.Boolean|static=false",
           "target": {
@@ -10304,7 +10304,7 @@
           }
         },
         {
-          "tsName": "Contains2",
+          "tsName": "contains2",
           "isStatic": false,
           "tsSignatureId": "Contains|(System.Object):System.Boolean|static=false",
           "target": {
@@ -10314,7 +10314,7 @@
           }
         },
         {
-          "tsName": "CopyTo",
+          "tsName": "copyTo",
           "isStatic": false,
           "tsSignatureId": "CopyTo|(T[],System.Int32):System.Void|static=false",
           "target": {
@@ -10324,7 +10324,7 @@
           }
         },
         {
-          "tsName": "CopyTo2",
+          "tsName": "copyTo2",
           "isStatic": false,
           "tsSignatureId": "CopyTo|(System.Array,System.Int32):System.Void|static=false",
           "target": {
@@ -10334,7 +10334,7 @@
           }
         },
         {
-          "tsName": "GetEnumerator",
+          "tsName": "getEnumerator",
           "isStatic": false,
           "tsSignatureId": "GetEnumerator|():System.Collections.Generic.IEnumerator_1|static=false",
           "target": {
@@ -10344,7 +10344,7 @@
           }
         },
         {
-          "tsName": "GetEnumerator2",
+          "tsName": "getEnumerator2",
           "isStatic": false,
           "tsSignatureId": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "target": {
@@ -10354,7 +10354,7 @@
           }
         },
         {
-          "tsName": "IndexOf",
+          "tsName": "indexOf",
           "isStatic": false,
           "tsSignatureId": "IndexOf|(T):System.Int32|static=false",
           "target": {
@@ -10364,7 +10364,7 @@
           }
         },
         {
-          "tsName": "Insert",
+          "tsName": "insert",
           "isStatic": false,
           "tsSignatureId": "Insert|(System.Int32,T):System.Void|static=false",
           "target": {
@@ -10374,7 +10374,7 @@
           }
         },
         {
-          "tsName": "Insert2",
+          "tsName": "insert2",
           "isStatic": false,
           "tsSignatureId": "Insert|(System.Int32,System.Object):System.Void|static=false",
           "target": {
@@ -10384,7 +10384,7 @@
           }
         },
         {
-          "tsName": "Remove",
+          "tsName": "remove",
           "isStatic": false,
           "tsSignatureId": "Remove|(T):System.Boolean|static=false",
           "target": {
@@ -10394,7 +10394,7 @@
           }
         },
         {
-          "tsName": "Remove2",
+          "tsName": "remove2",
           "isStatic": false,
           "tsSignatureId": "Remove|(System.Object):System.Void|static=false",
           "target": {
@@ -10404,7 +10404,7 @@
           }
         },
         {
-          "tsName": "RemoveAt",
+          "tsName": "removeAt",
           "isStatic": false,
           "tsSignatureId": "RemoveAt|(System.Int32):System.Void|static=false",
           "target": {
@@ -11281,7 +11281,7 @@
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "clone",
+          "tsEmitName": "clone$view",
           "metadataToken": 100668509,
           "canonicalSignature": "():System.Object",
           "normalizedSignature": "Clone|():System.Object|static=false",
@@ -11295,7 +11295,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "getObjectData",
+          "tsEmitName": "getObjectData$view",
           "metadataToken": 100682669,
           "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
@@ -11309,7 +11309,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.SendCompletedEventHandler::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "Clone",
+          "tsEmitName": "clone",
           "metadataToken": 0,
           "canonicalSignature": "():System.Object",
           "normalizedSignature": "Clone|():System.Object|static=false",
@@ -11323,7 +11323,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.SendCompletedEventHandler::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData",
+          "tsEmitName": "getObjectData",
           "metadataToken": 0,
           "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
@@ -11382,7 +11382,7 @@
           }
         },
         {
-          "tsName": "clone",
+          "tsName": "clone$view",
           "isStatic": false,
           "tsSignatureId": "Clone|():System.Object|static=false",
           "target": {
@@ -11392,7 +11392,7 @@
           }
         },
         {
-          "tsName": "getObjectData",
+          "tsName": "getObjectData$view",
           "isStatic": false,
           "tsSignatureId": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "target": {
@@ -11402,7 +11402,7 @@
           }
         },
         {
-          "tsName": "Clone",
+          "tsName": "clone",
           "isStatic": false,
           "tsSignatureId": "Clone|():System.Object|static=false",
           "target": {
@@ -11412,7 +11412,7 @@
           }
         },
         {
-          "tsName": "GetObjectData",
+          "tsName": "getObjectData",
           "isStatic": false,
           "tsSignatureId": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "target": {

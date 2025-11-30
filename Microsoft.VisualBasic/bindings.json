@@ -13,7 +13,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.AppWinStyle::value__System.Int16",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67109557,
           "normalizedSignature": "value__|System.Int16|static=false|const=false",
           "isStatic": false,
@@ -794,7 +794,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int16|static=false|const=false",
           "target": {
@@ -877,7 +877,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CallType::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67109564,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -1636,7 +1636,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -1699,7 +1699,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompareMethod::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67109569,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -2436,7 +2436,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -2479,7 +2479,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.DateFormat::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67109572,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -3249,7 +3249,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -3322,7 +3322,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.DateInterval::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67109616,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -4147,7 +4147,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -4270,7 +4270,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.DueDate::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67109627,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -5007,7 +5007,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -5050,7 +5050,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileAttribute::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67109587,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -5842,7 +5842,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -5935,7 +5935,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FirstDayOfWeek::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67109578,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -6738,7 +6738,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -6841,7 +6841,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FirstWeekOfYear::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67109595,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -7600,7 +7600,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -7663,7 +7663,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.MsgBoxResult::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67109656,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -8455,7 +8455,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -8548,7 +8548,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.MsgBoxStyle::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67109664,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -9472,7 +9472,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -9685,7 +9685,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.OpenAccess::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67109643,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -10444,7 +10444,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -10507,7 +10507,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.OpenMode::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67109630,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -11277,7 +11277,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -11350,7 +11350,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.OpenShare::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67109648,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -12120,7 +12120,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -12193,7 +12193,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.TriState::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67109612,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -12941,7 +12941,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -12994,7 +12994,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.VariantType::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67109536,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -13929,7 +13929,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -14152,7 +14152,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.VbStrConv::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67109600,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -14988,7 +14988,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -15511,7 +15511,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Collection::get_Item(System.Int32):System.Object",
           "clrName": "get_Item",
-          "tsEmitName": "get_Item",
+          "tsEmitName": "getItem",
           "metadataToken": 0,
           "canonicalSignature": "(System.Int32):System.Object",
           "normalizedSignature": "get_Item|(System.Int32):System.Object|static=false",
@@ -15525,7 +15525,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Collection::get_Item(System.String):System.Object",
           "clrName": "get_Item",
-          "tsEmitName": "get_Item2",
+          "tsEmitName": "getItem2",
           "metadataToken": 0,
           "canonicalSignature": "(System.String):System.Object",
           "normalizedSignature": "get_Item|(System.String):System.Object|static=false",
@@ -15539,7 +15539,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Collection::get_Item(System.Object):System.Object",
           "clrName": "get_Item",
-          "tsEmitName": "get_Item3",
+          "tsEmitName": "getItem3",
           "metadataToken": 0,
           "canonicalSignature": "(System.Object):System.Object",
           "normalizedSignature": "get_Item|(System.Object):System.Object|static=false",
@@ -15793,7 +15793,7 @@
           }
         },
         {
-          "tsName": "get_Item",
+          "tsName": "getItem",
           "isStatic": false,
           "tsSignatureId": "get_Item|(System.Int32):System.Object|static=false",
           "target": {
@@ -15803,7 +15803,7 @@
           }
         },
         {
-          "tsName": "get_Item2",
+          "tsName": "getItem2",
           "isStatic": false,
           "tsSignatureId": "get_Item|(System.String):System.Object|static=false",
           "target": {
@@ -15813,7 +15813,7 @@
           }
         },
         {
-          "tsName": "get_Item3",
+          "tsName": "getItem3",
           "isStatic": false,
           "tsSignatureId": "get_Item|(System.Object):System.Object|static=false",
           "target": {

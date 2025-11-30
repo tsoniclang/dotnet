@@ -115,7 +115,7 @@
         {
           "stableId": "System.Linq.Expressions:System.Dynamic.BinaryOperationBinder::Bind(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject",
           "clrName": "Bind",
-          "tsEmitName": "bind",
+          "tsEmitName": "bind2",
           "normalizedSignature": "Bind|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -131,7 +131,7 @@
         {
           "stableId": "System.Linq.Expressions:System.Dynamic.BinaryOperationBinder::Bind(System.Object[],System.Collections.ObjectModel.ReadOnlyCollection_1,System.Linq.Expressions.LabelTarget):System.Linq.Expressions.Expression",
           "clrName": "Bind",
-          "tsEmitName": "Bind",
+          "tsEmitName": "bind",
           "normalizedSignature": "Bind|(System.Object[],System.Collections.ObjectModel.ReadOnlyCollection_1,System.Linq.Expressions.LabelTarget):System.Linq.Expressions.Expression|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -441,7 +441,7 @@
         {
           "stableId": "System.Linq.Expressions:System.Dynamic.ConvertBinder::Bind(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject",
           "clrName": "Bind",
-          "tsEmitName": "bind",
+          "tsEmitName": "bind2",
           "normalizedSignature": "Bind|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -457,7 +457,7 @@
         {
           "stableId": "System.Linq.Expressions:System.Dynamic.ConvertBinder::Bind(System.Object[],System.Collections.ObjectModel.ReadOnlyCollection_1,System.Linq.Expressions.LabelTarget):System.Linq.Expressions.Expression",
           "clrName": "Bind",
-          "tsEmitName": "Bind",
+          "tsEmitName": "bind",
           "normalizedSignature": "Bind|(System.Object[],System.Collections.ObjectModel.ReadOnlyCollection_1,System.Linq.Expressions.LabelTarget):System.Linq.Expressions.Expression|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -568,7 +568,7 @@
         {
           "stableId": "System.Linq.Expressions:System.Dynamic.CreateInstanceBinder::Bind(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject",
           "clrName": "Bind",
-          "tsEmitName": "bind",
+          "tsEmitName": "bind2",
           "normalizedSignature": "Bind|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -584,7 +584,7 @@
         {
           "stableId": "System.Linq.Expressions:System.Dynamic.CreateInstanceBinder::Bind(System.Object[],System.Collections.ObjectModel.ReadOnlyCollection_1,System.Linq.Expressions.LabelTarget):System.Linq.Expressions.Expression",
           "clrName": "Bind",
-          "tsEmitName": "Bind",
+          "tsEmitName": "bind",
           "normalizedSignature": "Bind|(System.Object[],System.Collections.ObjectModel.ReadOnlyCollection_1,System.Linq.Expressions.LabelTarget):System.Linq.Expressions.Expression|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -648,7 +648,7 @@
         {
           "stableId": "System.Linq.Expressions:System.Dynamic.DeleteIndexBinder::Bind(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject",
           "clrName": "Bind",
-          "tsEmitName": "bind",
+          "tsEmitName": "bind2",
           "normalizedSignature": "Bind|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -696,7 +696,7 @@
         {
           "stableId": "System.Linq.Expressions:System.Dynamic.DeleteIndexBinder::Bind(System.Object[],System.Collections.ObjectModel.ReadOnlyCollection_1,System.Linq.Expressions.LabelTarget):System.Linq.Expressions.Expression",
           "clrName": "Bind",
-          "tsEmitName": "Bind",
+          "tsEmitName": "bind",
           "normalizedSignature": "Bind|(System.Object[],System.Collections.ObjectModel.ReadOnlyCollection_1,System.Linq.Expressions.LabelTarget):System.Linq.Expressions.Expression|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -792,7 +792,7 @@
         {
           "stableId": "System.Linq.Expressions:System.Dynamic.DeleteMemberBinder::Bind(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject",
           "clrName": "Bind",
-          "tsEmitName": "bind",
+          "tsEmitName": "bind2",
           "normalizedSignature": "Bind|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -808,7 +808,7 @@
         {
           "stableId": "System.Linq.Expressions:System.Dynamic.DeleteMemberBinder::Bind(System.Object[],System.Collections.ObjectModel.ReadOnlyCollection_1,System.Linq.Expressions.LabelTarget):System.Linq.Expressions.Expression",
           "clrName": "Bind",
-          "tsEmitName": "Bind",
+          "tsEmitName": "bind",
           "normalizedSignature": "Bind|(System.Object[],System.Collections.ObjectModel.ReadOnlyCollection_1,System.Linq.Expressions.LabelTarget):System.Linq.Expressions.Expression|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -1240,7 +1240,7 @@
         {
           "stableId": "System.Linq.Expressions:System.Dynamic.DynamicMetaObjectBinder::Bind(System.Object[],System.Collections.ObjectModel.ReadOnlyCollection_1[[System.Linq.Expressions.ParameterExpression,System.Linq.Expressions,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]],System.Linq.Expressions.LabelTarget):System.Linq.Expressions.Expression",
           "clrName": "Bind",
-          "tsEmitName": "bind",
+          "tsEmitName": "bind2",
           "normalizedSignature": "Bind|(System.Object[],System.Collections.ObjectModel.ReadOnlyCollection_1[[System.Linq.Expressions.ParameterExpression,System.Linq.Expressions,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]],System.Linq.Expressions.LabelTarget):System.Linq.Expressions.Expression|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1256,7 +1256,7 @@
         {
           "stableId": "System.Linq.Expressions:System.Dynamic.DynamicMetaObjectBinder::Bind(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject",
           "clrName": "Bind",
-          "tsEmitName": "bind2",
+          "tsEmitName": "bind3",
           "normalizedSignature": "Bind|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1320,7 +1320,7 @@
         {
           "stableId": "System.Linq.Expressions:System.Dynamic.DynamicMetaObjectBinder::Bind(System.Object[],System.Collections.ObjectModel.ReadOnlyCollection_1,System.Linq.Expressions.LabelTarget):System.Linq.Expressions.Expression",
           "clrName": "Bind",
-          "tsEmitName": "Bind",
+          "tsEmitName": "bind",
           "normalizedSignature": "Bind|(System.Object[],System.Collections.ObjectModel.ReadOnlyCollection_1,System.Linq.Expressions.LabelTarget):System.Linq.Expressions.Expression|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -1885,7 +1885,7 @@
         {
           "stableId": "System.Linq.Expressions:System.Dynamic.GetIndexBinder::Bind(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject",
           "clrName": "Bind",
-          "tsEmitName": "bind",
+          "tsEmitName": "bind2",
           "normalizedSignature": "Bind|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1933,7 +1933,7 @@
         {
           "stableId": "System.Linq.Expressions:System.Dynamic.GetIndexBinder::Bind(System.Object[],System.Collections.ObjectModel.ReadOnlyCollection_1,System.Linq.Expressions.LabelTarget):System.Linq.Expressions.Expression",
           "clrName": "Bind",
-          "tsEmitName": "Bind",
+          "tsEmitName": "bind",
           "normalizedSignature": "Bind|(System.Object[],System.Collections.ObjectModel.ReadOnlyCollection_1,System.Linq.Expressions.LabelTarget):System.Linq.Expressions.Expression|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -2029,7 +2029,7 @@
         {
           "stableId": "System.Linq.Expressions:System.Dynamic.GetMemberBinder::Bind(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject",
           "clrName": "Bind",
-          "tsEmitName": "bind",
+          "tsEmitName": "bind2",
           "normalizedSignature": "Bind|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2045,7 +2045,7 @@
         {
           "stableId": "System.Linq.Expressions:System.Dynamic.GetMemberBinder::Bind(System.Object[],System.Collections.ObjectModel.ReadOnlyCollection_1,System.Linq.Expressions.LabelTarget):System.Linq.Expressions.Expression",
           "clrName": "Bind",
-          "tsEmitName": "Bind",
+          "tsEmitName": "bind",
           "normalizedSignature": "Bind|(System.Object[],System.Collections.ObjectModel.ReadOnlyCollection_1,System.Linq.Expressions.LabelTarget):System.Linq.Expressions.Expression|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -2156,7 +2156,7 @@
         {
           "stableId": "System.Linq.Expressions:System.Dynamic.InvokeBinder::Bind(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject",
           "clrName": "Bind",
-          "tsEmitName": "bind",
+          "tsEmitName": "bind2",
           "normalizedSignature": "Bind|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2172,7 +2172,7 @@
         {
           "stableId": "System.Linq.Expressions:System.Dynamic.InvokeBinder::Bind(System.Object[],System.Collections.ObjectModel.ReadOnlyCollection_1,System.Linq.Expressions.LabelTarget):System.Linq.Expressions.Expression",
           "clrName": "Bind",
-          "tsEmitName": "Bind",
+          "tsEmitName": "bind",
           "normalizedSignature": "Bind|(System.Object[],System.Collections.ObjectModel.ReadOnlyCollection_1,System.Linq.Expressions.LabelTarget):System.Linq.Expressions.Expression|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -2236,7 +2236,7 @@
         {
           "stableId": "System.Linq.Expressions:System.Dynamic.InvokeMemberBinder::Bind(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject",
           "clrName": "Bind",
-          "tsEmitName": "bind",
+          "tsEmitName": "bind2",
           "normalizedSignature": "Bind|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2300,7 +2300,7 @@
         {
           "stableId": "System.Linq.Expressions:System.Dynamic.InvokeMemberBinder::Bind(System.Object[],System.Collections.ObjectModel.ReadOnlyCollection_1,System.Linq.Expressions.LabelTarget):System.Linq.Expressions.Expression",
           "clrName": "Bind",
-          "tsEmitName": "Bind",
+          "tsEmitName": "bind",
           "normalizedSignature": "Bind|(System.Object[],System.Collections.ObjectModel.ReadOnlyCollection_1,System.Linq.Expressions.LabelTarget):System.Linq.Expressions.Expression|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -2394,7 +2394,7 @@
         {
           "stableId": "System.Linq.Expressions:System.Dynamic.SetIndexBinder::Bind(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject",
           "clrName": "Bind",
-          "tsEmitName": "bind",
+          "tsEmitName": "bind2",
           "normalizedSignature": "Bind|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2442,7 +2442,7 @@
         {
           "stableId": "System.Linq.Expressions:System.Dynamic.SetIndexBinder::Bind(System.Object[],System.Collections.ObjectModel.ReadOnlyCollection_1,System.Linq.Expressions.LabelTarget):System.Linq.Expressions.Expression",
           "clrName": "Bind",
-          "tsEmitName": "Bind",
+          "tsEmitName": "bind",
           "normalizedSignature": "Bind|(System.Object[],System.Collections.ObjectModel.ReadOnlyCollection_1,System.Linq.Expressions.LabelTarget):System.Linq.Expressions.Expression|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -2506,7 +2506,7 @@
         {
           "stableId": "System.Linq.Expressions:System.Dynamic.SetMemberBinder::Bind(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject",
           "clrName": "Bind",
-          "tsEmitName": "bind",
+          "tsEmitName": "bind2",
           "normalizedSignature": "Bind|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2554,7 +2554,7 @@
         {
           "stableId": "System.Linq.Expressions:System.Dynamic.SetMemberBinder::Bind(System.Object[],System.Collections.ObjectModel.ReadOnlyCollection_1,System.Linq.Expressions.LabelTarget):System.Linq.Expressions.Expression",
           "clrName": "Bind",
-          "tsEmitName": "Bind",
+          "tsEmitName": "bind",
           "normalizedSignature": "Bind|(System.Object[],System.Collections.ObjectModel.ReadOnlyCollection_1,System.Linq.Expressions.LabelTarget):System.Linq.Expressions.Expression|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -2665,7 +2665,7 @@
         {
           "stableId": "System.Linq.Expressions:System.Dynamic.UnaryOperationBinder::Bind(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject",
           "clrName": "Bind",
-          "tsEmitName": "bind",
+          "tsEmitName": "bind2",
           "normalizedSignature": "Bind|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2681,7 +2681,7 @@
         {
           "stableId": "System.Linq.Expressions:System.Dynamic.UnaryOperationBinder::Bind(System.Object[],System.Collections.ObjectModel.ReadOnlyCollection_1,System.Linq.Expressions.LabelTarget):System.Linq.Expressions.Expression",
           "clrName": "Bind",
-          "tsEmitName": "Bind",
+          "tsEmitName": "bind",
           "normalizedSignature": "Bind|(System.Object[],System.Collections.ObjectModel.ReadOnlyCollection_1,System.Linq.Expressions.LabelTarget):System.Linq.Expressions.Expression|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",

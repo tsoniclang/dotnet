@@ -380,10 +380,10 @@ export class Color$instance {
     static readonly whiteSmoke: Color;
     static readonly yellow: Color;
     static readonly yellowGreen: Color;
-    static fromArgb(alpha: int, baseColor: Color): Color;
-    static fromArgb(alpha: int, red: int, green: int, blue: int): Color;
-    static fromArgb(red: int, green: int, blue: int): Color;
-    static fromArgb(argb: int): Color;
+    static fromArgb3(alpha: int, baseColor: Color): Color;
+    static fromArgb3(alpha: int, red: int, green: int, blue: int): Color;
+    static fromArgb3(red: int, green: int, blue: int): Color;
+    static fromArgb3(argb: int): Color;
     static fromKnownColor(color: KnownColor): Color;
     static fromName(name: string): Color;
 }

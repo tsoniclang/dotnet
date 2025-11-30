@@ -881,7 +881,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.IXmlNamespaceResolver::GetNamespacesInScope(System.Xml.XmlNamespaceScope):System.Collections.Generic.IDictionary_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "GetNamespacesInScope",
-          "tsEmitName": "getNamespacesInScope",
+          "tsEmitName": "getNamespacesInScope$view",
           "normalizedSignature": "GetNamespacesInScope|(System.Xml.XmlNamespaceScope):System.Collections.Generic.IDictionary_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -898,7 +898,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.IXmlNamespaceResolver::LookupNamespace(System.String):System.String",
           "clrName": "LookupNamespace",
-          "tsEmitName": "lookupNamespace",
+          "tsEmitName": "lookupNamespace$view",
           "normalizedSignature": "LookupNamespace|(System.String):System.String|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -915,7 +915,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
           "clrName": "GetEnumerator",
-          "tsEmitName": "getEnumerator",
+          "tsEmitName": "getEnumerator$view",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -932,7 +932,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.XsltContext::GetEnumerator():System.Collections.IEnumerator",
           "clrName": "GetEnumerator",
-          "tsEmitName": "GetEnumerator",
+          "tsEmitName": "getEnumerator",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -948,7 +948,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.XsltContext::GetNamespacesInScope(System.Xml.XmlNamespaceScope):System.Collections.Generic.IDictionary_2",
           "clrName": "GetNamespacesInScope",
-          "tsEmitName": "GetNamespacesInScope",
+          "tsEmitName": "getNamespacesInScope",
           "normalizedSignature": "GetNamespacesInScope|(System.Xml.XmlNamespaceScope):System.Collections.Generic.IDictionary_2|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -964,7 +964,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.XsltContext::LookupNamespace(System.String):System.String",
           "clrName": "LookupNamespace",
-          "tsEmitName": "LookupNamespace",
+          "tsEmitName": "lookupNamespace",
           "normalizedSignature": "LookupNamespace|(System.String):System.String|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -1220,7 +1220,7 @@
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "clone",
+          "tsEmitName": "clone$view",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -1237,7 +1237,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "getObjectData",
+          "tsEmitName": "getObjectData$view",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -1254,7 +1254,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.XsltMessageEncounteredEventHandler::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "Clone",
+          "tsEmitName": "clone",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -1270,7 +1270,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.XsltMessageEncounteredEventHandler::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData",
+          "tsEmitName": "getObjectData",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",

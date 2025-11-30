@@ -13,7 +13,7 @@
         {
           "stableId": "System.Drawing.Primitives:System.Drawing.KnownColor::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67108896,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -2653,7 +2653,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -12042,7 +12042,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Drawing.ColorConverter::CanConvertFrom(System.ComponentModel.ITypeDescriptorContext,System.Type):System.Boolean",
           "clrName": "CanConvertFrom",
-          "tsEmitName": "canConvertFrom",
+          "tsEmitName": "canConvertFrom2",
           "metadataToken": 100663408,
           "canonicalSignature": "(System.ComponentModel.ITypeDescriptorContext,System.Type):System.Boolean",
           "normalizedSignature": "CanConvertFrom|(System.ComponentModel.ITypeDescriptorContext,System.Type):System.Boolean|static=false",
@@ -12056,7 +12056,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Drawing.ColorConverter::CanConvertTo(System.ComponentModel.ITypeDescriptorContext,System.Type):System.Boolean",
           "clrName": "CanConvertTo",
-          "tsEmitName": "canConvertTo",
+          "tsEmitName": "canConvertTo2",
           "metadataToken": 100663409,
           "canonicalSignature": "(System.ComponentModel.ITypeDescriptorContext,System.Type):System.Boolean",
           "normalizedSignature": "CanConvertTo|(System.ComponentModel.ITypeDescriptorContext,System.Type):System.Boolean|static=false",
@@ -12070,7 +12070,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Drawing.ColorConverter::ConvertFrom(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object):System.Object",
           "clrName": "ConvertFrom",
-          "tsEmitName": "convertFrom",
+          "tsEmitName": "convertFrom2",
           "metadataToken": 100663410,
           "canonicalSignature": "(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object):System.Object",
           "normalizedSignature": "ConvertFrom|(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object):System.Object|static=false",
@@ -12084,7 +12084,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Drawing.ColorConverter::ConvertTo(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object,System.Type):System.Object",
           "clrName": "ConvertTo",
-          "tsEmitName": "convertTo",
+          "tsEmitName": "convertTo2",
           "metadataToken": 100663411,
           "canonicalSignature": "(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object,System.Type):System.Object",
           "normalizedSignature": "ConvertTo|(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object,System.Type):System.Object|static=false",
@@ -12098,7 +12098,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Drawing.ColorConverter::GetStandardValues(System.ComponentModel.ITypeDescriptorContext):System.ComponentModel.TypeConverter\u002BStandardValuesCollection",
           "clrName": "GetStandardValues",
-          "tsEmitName": "getStandardValues",
+          "tsEmitName": "getStandardValues2",
           "metadataToken": 100663412,
           "canonicalSignature": "(System.ComponentModel.ITypeDescriptorContext):System.ComponentModel.TypeConverter\u002BStandardValuesCollection",
           "normalizedSignature": "GetStandardValues|(System.ComponentModel.ITypeDescriptorContext):System.ComponentModel.TypeConverter\u002BStandardValuesCollection|static=false",
@@ -12112,7 +12112,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Drawing.ColorConverter::GetStandardValuesSupported(System.ComponentModel.ITypeDescriptorContext):System.Boolean",
           "clrName": "GetStandardValuesSupported",
-          "tsEmitName": "getStandardValuesSupported",
+          "tsEmitName": "getStandardValuesSupported2",
           "metadataToken": 100663413,
           "canonicalSignature": "(System.ComponentModel.ITypeDescriptorContext):System.Boolean",
           "normalizedSignature": "GetStandardValuesSupported|(System.ComponentModel.ITypeDescriptorContext):System.Boolean|static=false",
@@ -12126,7 +12126,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Drawing.ColorConverter::CanConvertFrom(System.Type):System.Boolean",
           "clrName": "CanConvertFrom",
-          "tsEmitName": "CanConvertFrom",
+          "tsEmitName": "canConvertFrom",
           "metadataToken": 0,
           "canonicalSignature": "(System.Type):System.Boolean",
           "normalizedSignature": "CanConvertFrom|(System.Type):System.Boolean|static=false",
@@ -12140,7 +12140,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Drawing.ColorConverter::CanConvertTo(System.Type):System.Boolean",
           "clrName": "CanConvertTo",
-          "tsEmitName": "CanConvertTo",
+          "tsEmitName": "canConvertTo",
           "metadataToken": 0,
           "canonicalSignature": "(System.Type):System.Boolean",
           "normalizedSignature": "CanConvertTo|(System.Type):System.Boolean|static=false",
@@ -12154,7 +12154,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Drawing.ColorConverter::ConvertFrom(System.Object):System.Object",
           "clrName": "ConvertFrom",
-          "tsEmitName": "ConvertFrom",
+          "tsEmitName": "convertFrom",
           "metadataToken": 0,
           "canonicalSignature": "(System.Object):System.Object",
           "normalizedSignature": "ConvertFrom|(System.Object):System.Object|static=false",
@@ -12168,7 +12168,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Drawing.ColorConverter::ConvertTo(System.Object,System.Type):System.Object",
           "clrName": "ConvertTo",
-          "tsEmitName": "ConvertTo",
+          "tsEmitName": "convertTo",
           "metadataToken": 0,
           "canonicalSignature": "(System.Object,System.Type):System.Object",
           "normalizedSignature": "ConvertTo|(System.Object,System.Type):System.Object|static=false",
@@ -12182,7 +12182,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Drawing.ColorConverter::GetStandardValues():System.Collections.ICollection",
           "clrName": "GetStandardValues",
-          "tsEmitName": "GetStandardValues",
+          "tsEmitName": "getStandardValues",
           "metadataToken": 0,
           "canonicalSignature": "():System.Collections.ICollection",
           "normalizedSignature": "GetStandardValues|():System.Collections.ICollection|static=false",
@@ -12196,7 +12196,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Drawing.ColorConverter::GetStandardValuesSupported():System.Boolean",
           "clrName": "GetStandardValuesSupported",
-          "tsEmitName": "GetStandardValuesSupported",
+          "tsEmitName": "getStandardValuesSupported",
           "metadataToken": 0,
           "canonicalSignature": "():System.Boolean",
           "normalizedSignature": "GetStandardValuesSupported|():System.Boolean|static=false",
@@ -12225,7 +12225,7 @@
       ],
       "exposedMethods": [
         {
-          "tsName": "canConvertFrom",
+          "tsName": "canConvertFrom2",
           "isStatic": false,
           "tsSignatureId": "CanConvertFrom|(System.ComponentModel.ITypeDescriptorContext,System.Type):System.Boolean|static=false",
           "target": {
@@ -12235,7 +12235,7 @@
           }
         },
         {
-          "tsName": "canConvertTo",
+          "tsName": "canConvertTo2",
           "isStatic": false,
           "tsSignatureId": "CanConvertTo|(System.ComponentModel.ITypeDescriptorContext,System.Type):System.Boolean|static=false",
           "target": {
@@ -12245,7 +12245,7 @@
           }
         },
         {
-          "tsName": "convertFrom",
+          "tsName": "convertFrom2",
           "isStatic": false,
           "tsSignatureId": "ConvertFrom|(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object):System.Object|static=false",
           "target": {
@@ -12255,7 +12255,7 @@
           }
         },
         {
-          "tsName": "convertTo",
+          "tsName": "convertTo2",
           "isStatic": false,
           "tsSignatureId": "ConvertTo|(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object,System.Type):System.Object|static=false",
           "target": {
@@ -12265,7 +12265,7 @@
           }
         },
         {
-          "tsName": "getStandardValues",
+          "tsName": "getStandardValues2",
           "isStatic": false,
           "tsSignatureId": "GetStandardValues|(System.ComponentModel.ITypeDescriptorContext):System.ComponentModel.TypeConverter\u002BStandardValuesCollection|static=false",
           "target": {
@@ -12275,7 +12275,7 @@
           }
         },
         {
-          "tsName": "getStandardValuesSupported",
+          "tsName": "getStandardValuesSupported2",
           "isStatic": false,
           "tsSignatureId": "GetStandardValuesSupported|(System.ComponentModel.ITypeDescriptorContext):System.Boolean|static=false",
           "target": {
@@ -12285,7 +12285,7 @@
           }
         },
         {
-          "tsName": "CanConvertFrom",
+          "tsName": "canConvertFrom",
           "isStatic": false,
           "tsSignatureId": "CanConvertFrom|(System.Type):System.Boolean|static=false",
           "target": {
@@ -12295,7 +12295,7 @@
           }
         },
         {
-          "tsName": "CanConvertTo",
+          "tsName": "canConvertTo",
           "isStatic": false,
           "tsSignatureId": "CanConvertTo|(System.Type):System.Boolean|static=false",
           "target": {
@@ -12305,7 +12305,7 @@
           }
         },
         {
-          "tsName": "ConvertFrom",
+          "tsName": "convertFrom",
           "isStatic": false,
           "tsSignatureId": "ConvertFrom|(System.Object):System.Object|static=false",
           "target": {
@@ -12315,7 +12315,7 @@
           }
         },
         {
-          "tsName": "ConvertTo",
+          "tsName": "convertTo",
           "isStatic": false,
           "tsSignatureId": "ConvertTo|(System.Object,System.Type):System.Object|static=false",
           "target": {
@@ -12325,7 +12325,7 @@
           }
         },
         {
-          "tsName": "GetStandardValues",
+          "tsName": "getStandardValues",
           "isStatic": false,
           "tsSignatureId": "GetStandardValues|():System.Collections.ICollection|static=false",
           "target": {
@@ -12335,7 +12335,7 @@
           }
         },
         {
-          "tsName": "GetStandardValuesSupported",
+          "tsName": "getStandardValuesSupported",
           "isStatic": false,
           "tsSignatureId": "GetStandardValuesSupported|():System.Boolean|static=false",
           "target": {
@@ -12657,7 +12657,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Drawing.PointConverter::CanConvertFrom(System.ComponentModel.ITypeDescriptorContext,System.Type):System.Boolean",
           "clrName": "CanConvertFrom",
-          "tsEmitName": "canConvertFrom",
+          "tsEmitName": "canConvertFrom2",
           "metadataToken": 100663421,
           "canonicalSignature": "(System.ComponentModel.ITypeDescriptorContext,System.Type):System.Boolean",
           "normalizedSignature": "CanConvertFrom|(System.ComponentModel.ITypeDescriptorContext,System.Type):System.Boolean|static=false",
@@ -12671,7 +12671,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Drawing.PointConverter::CanConvertTo(System.ComponentModel.ITypeDescriptorContext,System.Type):System.Boolean",
           "clrName": "CanConvertTo",
-          "tsEmitName": "canConvertTo",
+          "tsEmitName": "canConvertTo2",
           "metadataToken": 100663422,
           "canonicalSignature": "(System.ComponentModel.ITypeDescriptorContext,System.Type):System.Boolean",
           "normalizedSignature": "CanConvertTo|(System.ComponentModel.ITypeDescriptorContext,System.Type):System.Boolean|static=false",
@@ -12685,7 +12685,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Drawing.PointConverter::ConvertFrom(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object):System.Object",
           "clrName": "ConvertFrom",
-          "tsEmitName": "convertFrom",
+          "tsEmitName": "convertFrom2",
           "metadataToken": 100663423,
           "canonicalSignature": "(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object):System.Object",
           "normalizedSignature": "ConvertFrom|(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object):System.Object|static=false",
@@ -12699,7 +12699,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Drawing.PointConverter::ConvertTo(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object,System.Type):System.Object",
           "clrName": "ConvertTo",
-          "tsEmitName": "convertTo",
+          "tsEmitName": "convertTo2",
           "metadataToken": 100663424,
           "canonicalSignature": "(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object,System.Type):System.Object",
           "normalizedSignature": "ConvertTo|(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object,System.Type):System.Object|static=false",
@@ -12713,7 +12713,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Drawing.PointConverter::CreateInstance(System.ComponentModel.ITypeDescriptorContext,System.Collections.IDictionary):System.Object",
           "clrName": "CreateInstance",
-          "tsEmitName": "createInstance",
+          "tsEmitName": "createInstance2",
           "metadataToken": 100663425,
           "canonicalSignature": "(System.ComponentModel.ITypeDescriptorContext,System.Collections.IDictionary):System.Object",
           "normalizedSignature": "CreateInstance|(System.ComponentModel.ITypeDescriptorContext,System.Collections.IDictionary):System.Object|static=false",
@@ -12727,7 +12727,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Drawing.PointConverter::GetCreateInstanceSupported(System.ComponentModel.ITypeDescriptorContext):System.Boolean",
           "clrName": "GetCreateInstanceSupported",
-          "tsEmitName": "getCreateInstanceSupported",
+          "tsEmitName": "getCreateInstanceSupported2",
           "metadataToken": 100663426,
           "canonicalSignature": "(System.ComponentModel.ITypeDescriptorContext):System.Boolean",
           "normalizedSignature": "GetCreateInstanceSupported|(System.ComponentModel.ITypeDescriptorContext):System.Boolean|static=false",
@@ -12741,7 +12741,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Drawing.PointConverter::GetProperties(System.ComponentModel.ITypeDescriptorContext,System.Object,System.Attribute[]):System.ComponentModel.PropertyDescriptorCollection",
           "clrName": "GetProperties",
-          "tsEmitName": "getProperties",
+          "tsEmitName": "getProperties3",
           "metadataToken": 100663427,
           "canonicalSignature": "(System.ComponentModel.ITypeDescriptorContext,System.Object,System.Attribute[]):System.ComponentModel.PropertyDescriptorCollection",
           "normalizedSignature": "GetProperties|(System.ComponentModel.ITypeDescriptorContext,System.Object,System.Attribute[]):System.ComponentModel.PropertyDescriptorCollection|static=false",
@@ -12755,7 +12755,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Drawing.PointConverter::GetPropertiesSupported(System.ComponentModel.ITypeDescriptorContext):System.Boolean",
           "clrName": "GetPropertiesSupported",
-          "tsEmitName": "getPropertiesSupported",
+          "tsEmitName": "getPropertiesSupported2",
           "metadataToken": 100663428,
           "canonicalSignature": "(System.ComponentModel.ITypeDescriptorContext):System.Boolean",
           "normalizedSignature": "GetPropertiesSupported|(System.ComponentModel.ITypeDescriptorContext):System.Boolean|static=false",
@@ -12769,7 +12769,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Drawing.PointConverter::CanConvertFrom(System.Type):System.Boolean",
           "clrName": "CanConvertFrom",
-          "tsEmitName": "CanConvertFrom",
+          "tsEmitName": "canConvertFrom",
           "metadataToken": 0,
           "canonicalSignature": "(System.Type):System.Boolean",
           "normalizedSignature": "CanConvertFrom|(System.Type):System.Boolean|static=false",
@@ -12783,7 +12783,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Drawing.PointConverter::CanConvertTo(System.Type):System.Boolean",
           "clrName": "CanConvertTo",
-          "tsEmitName": "CanConvertTo",
+          "tsEmitName": "canConvertTo",
           "metadataToken": 0,
           "canonicalSignature": "(System.Type):System.Boolean",
           "normalizedSignature": "CanConvertTo|(System.Type):System.Boolean|static=false",
@@ -12797,7 +12797,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Drawing.PointConverter::ConvertFrom(System.Object):System.Object",
           "clrName": "ConvertFrom",
-          "tsEmitName": "ConvertFrom",
+          "tsEmitName": "convertFrom",
           "metadataToken": 0,
           "canonicalSignature": "(System.Object):System.Object",
           "normalizedSignature": "ConvertFrom|(System.Object):System.Object|static=false",
@@ -12811,7 +12811,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Drawing.PointConverter::ConvertTo(System.Object,System.Type):System.Object",
           "clrName": "ConvertTo",
-          "tsEmitName": "ConvertTo",
+          "tsEmitName": "convertTo",
           "metadataToken": 0,
           "canonicalSignature": "(System.Object,System.Type):System.Object",
           "normalizedSignature": "ConvertTo|(System.Object,System.Type):System.Object|static=false",
@@ -12825,7 +12825,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Drawing.PointConverter::CreateInstance(System.Collections.IDictionary):System.Object",
           "clrName": "CreateInstance",
-          "tsEmitName": "CreateInstance",
+          "tsEmitName": "createInstance",
           "metadataToken": 0,
           "canonicalSignature": "(System.Collections.IDictionary):System.Object",
           "normalizedSignature": "CreateInstance|(System.Collections.IDictionary):System.Object|static=false",
@@ -12839,7 +12839,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Drawing.PointConverter::GetCreateInstanceSupported():System.Boolean",
           "clrName": "GetCreateInstanceSupported",
-          "tsEmitName": "GetCreateInstanceSupported",
+          "tsEmitName": "getCreateInstanceSupported",
           "metadataToken": 0,
           "canonicalSignature": "():System.Boolean",
           "normalizedSignature": "GetCreateInstanceSupported|():System.Boolean|static=false",
@@ -12853,7 +12853,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Drawing.PointConverter::GetProperties(System.Object):System.ComponentModel.PropertyDescriptorCollection",
           "clrName": "GetProperties",
-          "tsEmitName": "GetProperties",
+          "tsEmitName": "getProperties",
           "metadataToken": 0,
           "canonicalSignature": "(System.Object):System.ComponentModel.PropertyDescriptorCollection",
           "normalizedSignature": "GetProperties|(System.Object):System.ComponentModel.PropertyDescriptorCollection|static=false",
@@ -12867,7 +12867,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Drawing.PointConverter::GetProperties(System.ComponentModel.ITypeDescriptorContext,System.Object):System.ComponentModel.PropertyDescriptorCollection",
           "clrName": "GetProperties",
-          "tsEmitName": "GetProperties2",
+          "tsEmitName": "getProperties2",
           "metadataToken": 0,
           "canonicalSignature": "(System.ComponentModel.ITypeDescriptorContext,System.Object):System.ComponentModel.PropertyDescriptorCollection",
           "normalizedSignature": "GetProperties|(System.ComponentModel.ITypeDescriptorContext,System.Object):System.ComponentModel.PropertyDescriptorCollection|static=false",
@@ -12881,7 +12881,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Drawing.PointConverter::GetPropertiesSupported():System.Boolean",
           "clrName": "GetPropertiesSupported",
-          "tsEmitName": "GetPropertiesSupported",
+          "tsEmitName": "getPropertiesSupported",
           "metadataToken": 0,
           "canonicalSignature": "():System.Boolean",
           "normalizedSignature": "GetPropertiesSupported|():System.Boolean|static=false",
@@ -12910,7 +12910,7 @@
       ],
       "exposedMethods": [
         {
-          "tsName": "canConvertFrom",
+          "tsName": "canConvertFrom2",
           "isStatic": false,
           "tsSignatureId": "CanConvertFrom|(System.ComponentModel.ITypeDescriptorContext,System.Type):System.Boolean|static=false",
           "target": {
@@ -12920,7 +12920,7 @@
           }
         },
         {
-          "tsName": "canConvertTo",
+          "tsName": "canConvertTo2",
           "isStatic": false,
           "tsSignatureId": "CanConvertTo|(System.ComponentModel.ITypeDescriptorContext,System.Type):System.Boolean|static=false",
           "target": {
@@ -12930,7 +12930,7 @@
           }
         },
         {
-          "tsName": "convertFrom",
+          "tsName": "convertFrom2",
           "isStatic": false,
           "tsSignatureId": "ConvertFrom|(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object):System.Object|static=false",
           "target": {
@@ -12940,7 +12940,7 @@
           }
         },
         {
-          "tsName": "convertTo",
+          "tsName": "convertTo2",
           "isStatic": false,
           "tsSignatureId": "ConvertTo|(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object,System.Type):System.Object|static=false",
           "target": {
@@ -12950,7 +12950,7 @@
           }
         },
         {
-          "tsName": "createInstance",
+          "tsName": "createInstance2",
           "isStatic": false,
           "tsSignatureId": "CreateInstance|(System.ComponentModel.ITypeDescriptorContext,System.Collections.IDictionary):System.Object|static=false",
           "target": {
@@ -12960,7 +12960,7 @@
           }
         },
         {
-          "tsName": "getCreateInstanceSupported",
+          "tsName": "getCreateInstanceSupported2",
           "isStatic": false,
           "tsSignatureId": "GetCreateInstanceSupported|(System.ComponentModel.ITypeDescriptorContext):System.Boolean|static=false",
           "target": {
@@ -12970,7 +12970,7 @@
           }
         },
         {
-          "tsName": "getProperties",
+          "tsName": "getProperties3",
           "isStatic": false,
           "tsSignatureId": "GetProperties|(System.ComponentModel.ITypeDescriptorContext,System.Object,System.Attribute[]):System.ComponentModel.PropertyDescriptorCollection|static=false",
           "target": {
@@ -12980,7 +12980,7 @@
           }
         },
         {
-          "tsName": "getPropertiesSupported",
+          "tsName": "getPropertiesSupported2",
           "isStatic": false,
           "tsSignatureId": "GetPropertiesSupported|(System.ComponentModel.ITypeDescriptorContext):System.Boolean|static=false",
           "target": {
@@ -12990,7 +12990,7 @@
           }
         },
         {
-          "tsName": "CanConvertFrom",
+          "tsName": "canConvertFrom",
           "isStatic": false,
           "tsSignatureId": "CanConvertFrom|(System.Type):System.Boolean|static=false",
           "target": {
@@ -13000,7 +13000,7 @@
           }
         },
         {
-          "tsName": "CanConvertTo",
+          "tsName": "canConvertTo",
           "isStatic": false,
           "tsSignatureId": "CanConvertTo|(System.Type):System.Boolean|static=false",
           "target": {
@@ -13010,7 +13010,7 @@
           }
         },
         {
-          "tsName": "ConvertFrom",
+          "tsName": "convertFrom",
           "isStatic": false,
           "tsSignatureId": "ConvertFrom|(System.Object):System.Object|static=false",
           "target": {
@@ -13020,7 +13020,7 @@
           }
         },
         {
-          "tsName": "ConvertTo",
+          "tsName": "convertTo",
           "isStatic": false,
           "tsSignatureId": "ConvertTo|(System.Object,System.Type):System.Object|static=false",
           "target": {
@@ -13030,7 +13030,7 @@
           }
         },
         {
-          "tsName": "CreateInstance",
+          "tsName": "createInstance",
           "isStatic": false,
           "tsSignatureId": "CreateInstance|(System.Collections.IDictionary):System.Object|static=false",
           "target": {
@@ -13040,7 +13040,7 @@
           }
         },
         {
-          "tsName": "GetCreateInstanceSupported",
+          "tsName": "getCreateInstanceSupported",
           "isStatic": false,
           "tsSignatureId": "GetCreateInstanceSupported|():System.Boolean|static=false",
           "target": {
@@ -13050,7 +13050,7 @@
           }
         },
         {
-          "tsName": "GetProperties",
+          "tsName": "getProperties",
           "isStatic": false,
           "tsSignatureId": "GetProperties|(System.Object):System.ComponentModel.PropertyDescriptorCollection|static=false",
           "target": {
@@ -13060,7 +13060,7 @@
           }
         },
         {
-          "tsName": "GetProperties2",
+          "tsName": "getProperties2",
           "isStatic": false,
           "tsSignatureId": "GetProperties|(System.ComponentModel.ITypeDescriptorContext,System.Object):System.ComponentModel.PropertyDescriptorCollection|static=false",
           "target": {
@@ -13070,7 +13070,7 @@
           }
         },
         {
-          "tsName": "GetPropertiesSupported",
+          "tsName": "getPropertiesSupported",
           "isStatic": false,
           "tsSignatureId": "GetPropertiesSupported|():System.Boolean|static=false",
           "target": {
@@ -13342,7 +13342,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Drawing.RectangleConverter::CanConvertFrom(System.ComponentModel.ITypeDescriptorContext,System.Type):System.Boolean",
           "clrName": "CanConvertFrom",
-          "tsEmitName": "canConvertFrom",
+          "tsEmitName": "canConvertFrom2",
           "metadataToken": 100663431,
           "canonicalSignature": "(System.ComponentModel.ITypeDescriptorContext,System.Type):System.Boolean",
           "normalizedSignature": "CanConvertFrom|(System.ComponentModel.ITypeDescriptorContext,System.Type):System.Boolean|static=false",
@@ -13356,7 +13356,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Drawing.RectangleConverter::CanConvertTo(System.ComponentModel.ITypeDescriptorContext,System.Type):System.Boolean",
           "clrName": "CanConvertTo",
-          "tsEmitName": "canConvertTo",
+          "tsEmitName": "canConvertTo2",
           "metadataToken": 100663432,
           "canonicalSignature": "(System.ComponentModel.ITypeDescriptorContext,System.Type):System.Boolean",
           "normalizedSignature": "CanConvertTo|(System.ComponentModel.ITypeDescriptorContext,System.Type):System.Boolean|static=false",
@@ -13370,7 +13370,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Drawing.RectangleConverter::ConvertFrom(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object):System.Object",
           "clrName": "ConvertFrom",
-          "tsEmitName": "convertFrom",
+          "tsEmitName": "convertFrom2",
           "metadataToken": 100663433,
           "canonicalSignature": "(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object):System.Object",
           "normalizedSignature": "ConvertFrom|(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object):System.Object|static=false",
@@ -13384,7 +13384,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Drawing.RectangleConverter::ConvertTo(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object,System.Type):System.Object",
           "clrName": "ConvertTo",
-          "tsEmitName": "convertTo",
+          "tsEmitName": "convertTo2",
           "metadataToken": 100663434,
           "canonicalSignature": "(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object,System.Type):System.Object",
           "normalizedSignature": "ConvertTo|(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object,System.Type):System.Object|static=false",
@@ -13398,7 +13398,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Drawing.RectangleConverter::CreateInstance(System.ComponentModel.ITypeDescriptorContext,System.Collections.IDictionary):System.Object",
           "clrName": "CreateInstance",
-          "tsEmitName": "createInstance",
+          "tsEmitName": "createInstance2",
           "metadataToken": 100663435,
           "canonicalSignature": "(System.ComponentModel.ITypeDescriptorContext,System.Collections.IDictionary):System.Object",
           "normalizedSignature": "CreateInstance|(System.ComponentModel.ITypeDescriptorContext,System.Collections.IDictionary):System.Object|static=false",
@@ -13412,7 +13412,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Drawing.RectangleConverter::GetCreateInstanceSupported(System.ComponentModel.ITypeDescriptorContext):System.Boolean",
           "clrName": "GetCreateInstanceSupported",
-          "tsEmitName": "getCreateInstanceSupported",
+          "tsEmitName": "getCreateInstanceSupported2",
           "metadataToken": 100663436,
           "canonicalSignature": "(System.ComponentModel.ITypeDescriptorContext):System.Boolean",
           "normalizedSignature": "GetCreateInstanceSupported|(System.ComponentModel.ITypeDescriptorContext):System.Boolean|static=false",
@@ -13426,7 +13426,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Drawing.RectangleConverter::GetProperties(System.ComponentModel.ITypeDescriptorContext,System.Object,System.Attribute[]):System.ComponentModel.PropertyDescriptorCollection",
           "clrName": "GetProperties",
-          "tsEmitName": "getProperties",
+          "tsEmitName": "getProperties3",
           "metadataToken": 100663437,
           "canonicalSignature": "(System.ComponentModel.ITypeDescriptorContext,System.Object,System.Attribute[]):System.ComponentModel.PropertyDescriptorCollection",
           "normalizedSignature": "GetProperties|(System.ComponentModel.ITypeDescriptorContext,System.Object,System.Attribute[]):System.ComponentModel.PropertyDescriptorCollection|static=false",
@@ -13440,7 +13440,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Drawing.RectangleConverter::GetPropertiesSupported(System.ComponentModel.ITypeDescriptorContext):System.Boolean",
           "clrName": "GetPropertiesSupported",
-          "tsEmitName": "getPropertiesSupported",
+          "tsEmitName": "getPropertiesSupported2",
           "metadataToken": 100663438,
           "canonicalSignature": "(System.ComponentModel.ITypeDescriptorContext):System.Boolean",
           "normalizedSignature": "GetPropertiesSupported|(System.ComponentModel.ITypeDescriptorContext):System.Boolean|static=false",
@@ -13454,7 +13454,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Drawing.RectangleConverter::CanConvertFrom(System.Type):System.Boolean",
           "clrName": "CanConvertFrom",
-          "tsEmitName": "CanConvertFrom",
+          "tsEmitName": "canConvertFrom",
           "metadataToken": 0,
           "canonicalSignature": "(System.Type):System.Boolean",
           "normalizedSignature": "CanConvertFrom|(System.Type):System.Boolean|static=false",
@@ -13468,7 +13468,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Drawing.RectangleConverter::CanConvertTo(System.Type):System.Boolean",
           "clrName": "CanConvertTo",
-          "tsEmitName": "CanConvertTo",
+          "tsEmitName": "canConvertTo",
           "metadataToken": 0,
           "canonicalSignature": "(System.Type):System.Boolean",
           "normalizedSignature": "CanConvertTo|(System.Type):System.Boolean|static=false",
@@ -13482,7 +13482,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Drawing.RectangleConverter::ConvertFrom(System.Object):System.Object",
           "clrName": "ConvertFrom",
-          "tsEmitName": "ConvertFrom",
+          "tsEmitName": "convertFrom",
           "metadataToken": 0,
           "canonicalSignature": "(System.Object):System.Object",
           "normalizedSignature": "ConvertFrom|(System.Object):System.Object|static=false",
@@ -13496,7 +13496,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Drawing.RectangleConverter::ConvertTo(System.Object,System.Type):System.Object",
           "clrName": "ConvertTo",
-          "tsEmitName": "ConvertTo",
+          "tsEmitName": "convertTo",
           "metadataToken": 0,
           "canonicalSignature": "(System.Object,System.Type):System.Object",
           "normalizedSignature": "ConvertTo|(System.Object,System.Type):System.Object|static=false",
@@ -13510,7 +13510,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Drawing.RectangleConverter::CreateInstance(System.Collections.IDictionary):System.Object",
           "clrName": "CreateInstance",
-          "tsEmitName": "CreateInstance",
+          "tsEmitName": "createInstance",
           "metadataToken": 0,
           "canonicalSignature": "(System.Collections.IDictionary):System.Object",
           "normalizedSignature": "CreateInstance|(System.Collections.IDictionary):System.Object|static=false",
@@ -13524,7 +13524,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Drawing.RectangleConverter::GetCreateInstanceSupported():System.Boolean",
           "clrName": "GetCreateInstanceSupported",
-          "tsEmitName": "GetCreateInstanceSupported",
+          "tsEmitName": "getCreateInstanceSupported",
           "metadataToken": 0,
           "canonicalSignature": "():System.Boolean",
           "normalizedSignature": "GetCreateInstanceSupported|():System.Boolean|static=false",
@@ -13538,7 +13538,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Drawing.RectangleConverter::GetProperties(System.Object):System.ComponentModel.PropertyDescriptorCollection",
           "clrName": "GetProperties",
-          "tsEmitName": "GetProperties",
+          "tsEmitName": "getProperties",
           "metadataToken": 0,
           "canonicalSignature": "(System.Object):System.ComponentModel.PropertyDescriptorCollection",
           "normalizedSignature": "GetProperties|(System.Object):System.ComponentModel.PropertyDescriptorCollection|static=false",
@@ -13552,7 +13552,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Drawing.RectangleConverter::GetProperties(System.ComponentModel.ITypeDescriptorContext,System.Object):System.ComponentModel.PropertyDescriptorCollection",
           "clrName": "GetProperties",
-          "tsEmitName": "GetProperties2",
+          "tsEmitName": "getProperties2",
           "metadataToken": 0,
           "canonicalSignature": "(System.ComponentModel.ITypeDescriptorContext,System.Object):System.ComponentModel.PropertyDescriptorCollection",
           "normalizedSignature": "GetProperties|(System.ComponentModel.ITypeDescriptorContext,System.Object):System.ComponentModel.PropertyDescriptorCollection|static=false",
@@ -13566,7 +13566,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Drawing.RectangleConverter::GetPropertiesSupported():System.Boolean",
           "clrName": "GetPropertiesSupported",
-          "tsEmitName": "GetPropertiesSupported",
+          "tsEmitName": "getPropertiesSupported",
           "metadataToken": 0,
           "canonicalSignature": "():System.Boolean",
           "normalizedSignature": "GetPropertiesSupported|():System.Boolean|static=false",
@@ -13595,7 +13595,7 @@
       ],
       "exposedMethods": [
         {
-          "tsName": "canConvertFrom",
+          "tsName": "canConvertFrom2",
           "isStatic": false,
           "tsSignatureId": "CanConvertFrom|(System.ComponentModel.ITypeDescriptorContext,System.Type):System.Boolean|static=false",
           "target": {
@@ -13605,7 +13605,7 @@
           }
         },
         {
-          "tsName": "canConvertTo",
+          "tsName": "canConvertTo2",
           "isStatic": false,
           "tsSignatureId": "CanConvertTo|(System.ComponentModel.ITypeDescriptorContext,System.Type):System.Boolean|static=false",
           "target": {
@@ -13615,7 +13615,7 @@
           }
         },
         {
-          "tsName": "convertFrom",
+          "tsName": "convertFrom2",
           "isStatic": false,
           "tsSignatureId": "ConvertFrom|(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object):System.Object|static=false",
           "target": {
@@ -13625,7 +13625,7 @@
           }
         },
         {
-          "tsName": "convertTo",
+          "tsName": "convertTo2",
           "isStatic": false,
           "tsSignatureId": "ConvertTo|(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object,System.Type):System.Object|static=false",
           "target": {
@@ -13635,7 +13635,7 @@
           }
         },
         {
-          "tsName": "createInstance",
+          "tsName": "createInstance2",
           "isStatic": false,
           "tsSignatureId": "CreateInstance|(System.ComponentModel.ITypeDescriptorContext,System.Collections.IDictionary):System.Object|static=false",
           "target": {
@@ -13645,7 +13645,7 @@
           }
         },
         {
-          "tsName": "getCreateInstanceSupported",
+          "tsName": "getCreateInstanceSupported2",
           "isStatic": false,
           "tsSignatureId": "GetCreateInstanceSupported|(System.ComponentModel.ITypeDescriptorContext):System.Boolean|static=false",
           "target": {
@@ -13655,7 +13655,7 @@
           }
         },
         {
-          "tsName": "getProperties",
+          "tsName": "getProperties3",
           "isStatic": false,
           "tsSignatureId": "GetProperties|(System.ComponentModel.ITypeDescriptorContext,System.Object,System.Attribute[]):System.ComponentModel.PropertyDescriptorCollection|static=false",
           "target": {
@@ -13665,7 +13665,7 @@
           }
         },
         {
-          "tsName": "getPropertiesSupported",
+          "tsName": "getPropertiesSupported2",
           "isStatic": false,
           "tsSignatureId": "GetPropertiesSupported|(System.ComponentModel.ITypeDescriptorContext):System.Boolean|static=false",
           "target": {
@@ -13675,7 +13675,7 @@
           }
         },
         {
-          "tsName": "CanConvertFrom",
+          "tsName": "canConvertFrom",
           "isStatic": false,
           "tsSignatureId": "CanConvertFrom|(System.Type):System.Boolean|static=false",
           "target": {
@@ -13685,7 +13685,7 @@
           }
         },
         {
-          "tsName": "CanConvertTo",
+          "tsName": "canConvertTo",
           "isStatic": false,
           "tsSignatureId": "CanConvertTo|(System.Type):System.Boolean|static=false",
           "target": {
@@ -13695,7 +13695,7 @@
           }
         },
         {
-          "tsName": "ConvertFrom",
+          "tsName": "convertFrom",
           "isStatic": false,
           "tsSignatureId": "ConvertFrom|(System.Object):System.Object|static=false",
           "target": {
@@ -13705,7 +13705,7 @@
           }
         },
         {
-          "tsName": "ConvertTo",
+          "tsName": "convertTo",
           "isStatic": false,
           "tsSignatureId": "ConvertTo|(System.Object,System.Type):System.Object|static=false",
           "target": {
@@ -13715,7 +13715,7 @@
           }
         },
         {
-          "tsName": "CreateInstance",
+          "tsName": "createInstance",
           "isStatic": false,
           "tsSignatureId": "CreateInstance|(System.Collections.IDictionary):System.Object|static=false",
           "target": {
@@ -13725,7 +13725,7 @@
           }
         },
         {
-          "tsName": "GetCreateInstanceSupported",
+          "tsName": "getCreateInstanceSupported",
           "isStatic": false,
           "tsSignatureId": "GetCreateInstanceSupported|():System.Boolean|static=false",
           "target": {
@@ -13735,7 +13735,7 @@
           }
         },
         {
-          "tsName": "GetProperties",
+          "tsName": "getProperties",
           "isStatic": false,
           "tsSignatureId": "GetProperties|(System.Object):System.ComponentModel.PropertyDescriptorCollection|static=false",
           "target": {
@@ -13745,7 +13745,7 @@
           }
         },
         {
-          "tsName": "GetProperties2",
+          "tsName": "getProperties2",
           "isStatic": false,
           "tsSignatureId": "GetProperties|(System.ComponentModel.ITypeDescriptorContext,System.Object):System.ComponentModel.PropertyDescriptorCollection|static=false",
           "target": {
@@ -13755,7 +13755,7 @@
           }
         },
         {
-          "tsName": "GetPropertiesSupported",
+          "tsName": "getPropertiesSupported",
           "isStatic": false,
           "tsSignatureId": "GetPropertiesSupported|():System.Boolean|static=false",
           "target": {
@@ -14027,7 +14027,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Drawing.SizeConverter::CanConvertFrom(System.ComponentModel.ITypeDescriptorContext,System.Type):System.Boolean",
           "clrName": "CanConvertFrom",
-          "tsEmitName": "canConvertFrom",
+          "tsEmitName": "canConvertFrom2",
           "metadataToken": 100663441,
           "canonicalSignature": "(System.ComponentModel.ITypeDescriptorContext,System.Type):System.Boolean",
           "normalizedSignature": "CanConvertFrom|(System.ComponentModel.ITypeDescriptorContext,System.Type):System.Boolean|static=false",
@@ -14041,7 +14041,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Drawing.SizeConverter::CanConvertTo(System.ComponentModel.ITypeDescriptorContext,System.Type):System.Boolean",
           "clrName": "CanConvertTo",
-          "tsEmitName": "canConvertTo",
+          "tsEmitName": "canConvertTo2",
           "metadataToken": 100663442,
           "canonicalSignature": "(System.ComponentModel.ITypeDescriptorContext,System.Type):System.Boolean",
           "normalizedSignature": "CanConvertTo|(System.ComponentModel.ITypeDescriptorContext,System.Type):System.Boolean|static=false",
@@ -14055,7 +14055,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Drawing.SizeConverter::ConvertFrom(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object):System.Object",
           "clrName": "ConvertFrom",
-          "tsEmitName": "convertFrom",
+          "tsEmitName": "convertFrom2",
           "metadataToken": 100663443,
           "canonicalSignature": "(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object):System.Object",
           "normalizedSignature": "ConvertFrom|(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object):System.Object|static=false",
@@ -14069,7 +14069,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Drawing.SizeConverter::ConvertTo(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object,System.Type):System.Object",
           "clrName": "ConvertTo",
-          "tsEmitName": "convertTo",
+          "tsEmitName": "convertTo2",
           "metadataToken": 100663444,
           "canonicalSignature": "(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object,System.Type):System.Object",
           "normalizedSignature": "ConvertTo|(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object,System.Type):System.Object|static=false",
@@ -14083,7 +14083,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Drawing.SizeConverter::CreateInstance(System.ComponentModel.ITypeDescriptorContext,System.Collections.IDictionary):System.Object",
           "clrName": "CreateInstance",
-          "tsEmitName": "createInstance",
+          "tsEmitName": "createInstance2",
           "metadataToken": 100663445,
           "canonicalSignature": "(System.ComponentModel.ITypeDescriptorContext,System.Collections.IDictionary):System.Object",
           "normalizedSignature": "CreateInstance|(System.ComponentModel.ITypeDescriptorContext,System.Collections.IDictionary):System.Object|static=false",
@@ -14097,7 +14097,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Drawing.SizeConverter::GetCreateInstanceSupported(System.ComponentModel.ITypeDescriptorContext):System.Boolean",
           "clrName": "GetCreateInstanceSupported",
-          "tsEmitName": "getCreateInstanceSupported",
+          "tsEmitName": "getCreateInstanceSupported2",
           "metadataToken": 100663446,
           "canonicalSignature": "(System.ComponentModel.ITypeDescriptorContext):System.Boolean",
           "normalizedSignature": "GetCreateInstanceSupported|(System.ComponentModel.ITypeDescriptorContext):System.Boolean|static=false",
@@ -14111,7 +14111,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Drawing.SizeConverter::GetProperties(System.ComponentModel.ITypeDescriptorContext,System.Object,System.Attribute[]):System.ComponentModel.PropertyDescriptorCollection",
           "clrName": "GetProperties",
-          "tsEmitName": "getProperties",
+          "tsEmitName": "getProperties3",
           "metadataToken": 100663447,
           "canonicalSignature": "(System.ComponentModel.ITypeDescriptorContext,System.Object,System.Attribute[]):System.ComponentModel.PropertyDescriptorCollection",
           "normalizedSignature": "GetProperties|(System.ComponentModel.ITypeDescriptorContext,System.Object,System.Attribute[]):System.ComponentModel.PropertyDescriptorCollection|static=false",
@@ -14125,7 +14125,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Drawing.SizeConverter::GetPropertiesSupported(System.ComponentModel.ITypeDescriptorContext):System.Boolean",
           "clrName": "GetPropertiesSupported",
-          "tsEmitName": "getPropertiesSupported",
+          "tsEmitName": "getPropertiesSupported2",
           "metadataToken": 100663448,
           "canonicalSignature": "(System.ComponentModel.ITypeDescriptorContext):System.Boolean",
           "normalizedSignature": "GetPropertiesSupported|(System.ComponentModel.ITypeDescriptorContext):System.Boolean|static=false",
@@ -14139,7 +14139,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Drawing.SizeConverter::CanConvertFrom(System.Type):System.Boolean",
           "clrName": "CanConvertFrom",
-          "tsEmitName": "CanConvertFrom",
+          "tsEmitName": "canConvertFrom",
           "metadataToken": 0,
           "canonicalSignature": "(System.Type):System.Boolean",
           "normalizedSignature": "CanConvertFrom|(System.Type):System.Boolean|static=false",
@@ -14153,7 +14153,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Drawing.SizeConverter::CanConvertTo(System.Type):System.Boolean",
           "clrName": "CanConvertTo",
-          "tsEmitName": "CanConvertTo",
+          "tsEmitName": "canConvertTo",
           "metadataToken": 0,
           "canonicalSignature": "(System.Type):System.Boolean",
           "normalizedSignature": "CanConvertTo|(System.Type):System.Boolean|static=false",
@@ -14167,7 +14167,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Drawing.SizeConverter::ConvertFrom(System.Object):System.Object",
           "clrName": "ConvertFrom",
-          "tsEmitName": "ConvertFrom",
+          "tsEmitName": "convertFrom",
           "metadataToken": 0,
           "canonicalSignature": "(System.Object):System.Object",
           "normalizedSignature": "ConvertFrom|(System.Object):System.Object|static=false",
@@ -14181,7 +14181,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Drawing.SizeConverter::ConvertTo(System.Object,System.Type):System.Object",
           "clrName": "ConvertTo",
-          "tsEmitName": "ConvertTo",
+          "tsEmitName": "convertTo",
           "metadataToken": 0,
           "canonicalSignature": "(System.Object,System.Type):System.Object",
           "normalizedSignature": "ConvertTo|(System.Object,System.Type):System.Object|static=false",
@@ -14195,7 +14195,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Drawing.SizeConverter::CreateInstance(System.Collections.IDictionary):System.Object",
           "clrName": "CreateInstance",
-          "tsEmitName": "CreateInstance",
+          "tsEmitName": "createInstance",
           "metadataToken": 0,
           "canonicalSignature": "(System.Collections.IDictionary):System.Object",
           "normalizedSignature": "CreateInstance|(System.Collections.IDictionary):System.Object|static=false",
@@ -14209,7 +14209,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Drawing.SizeConverter::GetCreateInstanceSupported():System.Boolean",
           "clrName": "GetCreateInstanceSupported",
-          "tsEmitName": "GetCreateInstanceSupported",
+          "tsEmitName": "getCreateInstanceSupported",
           "metadataToken": 0,
           "canonicalSignature": "():System.Boolean",
           "normalizedSignature": "GetCreateInstanceSupported|():System.Boolean|static=false",
@@ -14223,7 +14223,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Drawing.SizeConverter::GetProperties(System.Object):System.ComponentModel.PropertyDescriptorCollection",
           "clrName": "GetProperties",
-          "tsEmitName": "GetProperties",
+          "tsEmitName": "getProperties",
           "metadataToken": 0,
           "canonicalSignature": "(System.Object):System.ComponentModel.PropertyDescriptorCollection",
           "normalizedSignature": "GetProperties|(System.Object):System.ComponentModel.PropertyDescriptorCollection|static=false",
@@ -14237,7 +14237,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Drawing.SizeConverter::GetProperties(System.ComponentModel.ITypeDescriptorContext,System.Object):System.ComponentModel.PropertyDescriptorCollection",
           "clrName": "GetProperties",
-          "tsEmitName": "GetProperties2",
+          "tsEmitName": "getProperties2",
           "metadataToken": 0,
           "canonicalSignature": "(System.ComponentModel.ITypeDescriptorContext,System.Object):System.ComponentModel.PropertyDescriptorCollection",
           "normalizedSignature": "GetProperties|(System.ComponentModel.ITypeDescriptorContext,System.Object):System.ComponentModel.PropertyDescriptorCollection|static=false",
@@ -14251,7 +14251,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Drawing.SizeConverter::GetPropertiesSupported():System.Boolean",
           "clrName": "GetPropertiesSupported",
-          "tsEmitName": "GetPropertiesSupported",
+          "tsEmitName": "getPropertiesSupported",
           "metadataToken": 0,
           "canonicalSignature": "():System.Boolean",
           "normalizedSignature": "GetPropertiesSupported|():System.Boolean|static=false",
@@ -14280,7 +14280,7 @@
       ],
       "exposedMethods": [
         {
-          "tsName": "canConvertFrom",
+          "tsName": "canConvertFrom2",
           "isStatic": false,
           "tsSignatureId": "CanConvertFrom|(System.ComponentModel.ITypeDescriptorContext,System.Type):System.Boolean|static=false",
           "target": {
@@ -14290,7 +14290,7 @@
           }
         },
         {
-          "tsName": "canConvertTo",
+          "tsName": "canConvertTo2",
           "isStatic": false,
           "tsSignatureId": "CanConvertTo|(System.ComponentModel.ITypeDescriptorContext,System.Type):System.Boolean|static=false",
           "target": {
@@ -14300,7 +14300,7 @@
           }
         },
         {
-          "tsName": "convertFrom",
+          "tsName": "convertFrom2",
           "isStatic": false,
           "tsSignatureId": "ConvertFrom|(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object):System.Object|static=false",
           "target": {
@@ -14310,7 +14310,7 @@
           }
         },
         {
-          "tsName": "convertTo",
+          "tsName": "convertTo2",
           "isStatic": false,
           "tsSignatureId": "ConvertTo|(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object,System.Type):System.Object|static=false",
           "target": {
@@ -14320,7 +14320,7 @@
           }
         },
         {
-          "tsName": "createInstance",
+          "tsName": "createInstance2",
           "isStatic": false,
           "tsSignatureId": "CreateInstance|(System.ComponentModel.ITypeDescriptorContext,System.Collections.IDictionary):System.Object|static=false",
           "target": {
@@ -14330,7 +14330,7 @@
           }
         },
         {
-          "tsName": "getCreateInstanceSupported",
+          "tsName": "getCreateInstanceSupported2",
           "isStatic": false,
           "tsSignatureId": "GetCreateInstanceSupported|(System.ComponentModel.ITypeDescriptorContext):System.Boolean|static=false",
           "target": {
@@ -14340,7 +14340,7 @@
           }
         },
         {
-          "tsName": "getProperties",
+          "tsName": "getProperties3",
           "isStatic": false,
           "tsSignatureId": "GetProperties|(System.ComponentModel.ITypeDescriptorContext,System.Object,System.Attribute[]):System.ComponentModel.PropertyDescriptorCollection|static=false",
           "target": {
@@ -14350,7 +14350,7 @@
           }
         },
         {
-          "tsName": "getPropertiesSupported",
+          "tsName": "getPropertiesSupported2",
           "isStatic": false,
           "tsSignatureId": "GetPropertiesSupported|(System.ComponentModel.ITypeDescriptorContext):System.Boolean|static=false",
           "target": {
@@ -14360,7 +14360,7 @@
           }
         },
         {
-          "tsName": "CanConvertFrom",
+          "tsName": "canConvertFrom",
           "isStatic": false,
           "tsSignatureId": "CanConvertFrom|(System.Type):System.Boolean|static=false",
           "target": {
@@ -14370,7 +14370,7 @@
           }
         },
         {
-          "tsName": "CanConvertTo",
+          "tsName": "canConvertTo",
           "isStatic": false,
           "tsSignatureId": "CanConvertTo|(System.Type):System.Boolean|static=false",
           "target": {
@@ -14380,7 +14380,7 @@
           }
         },
         {
-          "tsName": "ConvertFrom",
+          "tsName": "convertFrom",
           "isStatic": false,
           "tsSignatureId": "ConvertFrom|(System.Object):System.Object|static=false",
           "target": {
@@ -14390,7 +14390,7 @@
           }
         },
         {
-          "tsName": "ConvertTo",
+          "tsName": "convertTo",
           "isStatic": false,
           "tsSignatureId": "ConvertTo|(System.Object,System.Type):System.Object|static=false",
           "target": {
@@ -14400,7 +14400,7 @@
           }
         },
         {
-          "tsName": "CreateInstance",
+          "tsName": "createInstance",
           "isStatic": false,
           "tsSignatureId": "CreateInstance|(System.Collections.IDictionary):System.Object|static=false",
           "target": {
@@ -14410,7 +14410,7 @@
           }
         },
         {
-          "tsName": "GetCreateInstanceSupported",
+          "tsName": "getCreateInstanceSupported",
           "isStatic": false,
           "tsSignatureId": "GetCreateInstanceSupported|():System.Boolean|static=false",
           "target": {
@@ -14420,7 +14420,7 @@
           }
         },
         {
-          "tsName": "GetProperties",
+          "tsName": "getProperties",
           "isStatic": false,
           "tsSignatureId": "GetProperties|(System.Object):System.ComponentModel.PropertyDescriptorCollection|static=false",
           "target": {
@@ -14430,7 +14430,7 @@
           }
         },
         {
-          "tsName": "GetProperties2",
+          "tsName": "getProperties2",
           "isStatic": false,
           "tsSignatureId": "GetProperties|(System.ComponentModel.ITypeDescriptorContext,System.Object):System.ComponentModel.PropertyDescriptorCollection|static=false",
           "target": {
@@ -14440,7 +14440,7 @@
           }
         },
         {
-          "tsName": "GetPropertiesSupported",
+          "tsName": "getPropertiesSupported",
           "isStatic": false,
           "tsSignatureId": "GetPropertiesSupported|():System.Boolean|static=false",
           "target": {
@@ -14712,7 +14712,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Drawing.SizeFConverter::CanConvertFrom(System.ComponentModel.ITypeDescriptorContext,System.Type):System.Boolean",
           "clrName": "CanConvertFrom",
-          "tsEmitName": "canConvertFrom",
+          "tsEmitName": "canConvertFrom2",
           "metadataToken": 100663451,
           "canonicalSignature": "(System.ComponentModel.ITypeDescriptorContext,System.Type):System.Boolean",
           "normalizedSignature": "CanConvertFrom|(System.ComponentModel.ITypeDescriptorContext,System.Type):System.Boolean|static=false",
@@ -14726,7 +14726,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Drawing.SizeFConverter::CanConvertTo(System.ComponentModel.ITypeDescriptorContext,System.Type):System.Boolean",
           "clrName": "CanConvertTo",
-          "tsEmitName": "canConvertTo",
+          "tsEmitName": "canConvertTo2",
           "metadataToken": 100663452,
           "canonicalSignature": "(System.ComponentModel.ITypeDescriptorContext,System.Type):System.Boolean",
           "normalizedSignature": "CanConvertTo|(System.ComponentModel.ITypeDescriptorContext,System.Type):System.Boolean|static=false",
@@ -14740,7 +14740,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Drawing.SizeFConverter::ConvertFrom(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object):System.Object",
           "clrName": "ConvertFrom",
-          "tsEmitName": "convertFrom",
+          "tsEmitName": "convertFrom2",
           "metadataToken": 100663453,
           "canonicalSignature": "(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object):System.Object",
           "normalizedSignature": "ConvertFrom|(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object):System.Object|static=false",
@@ -14754,7 +14754,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Drawing.SizeFConverter::ConvertTo(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object,System.Type):System.Object",
           "clrName": "ConvertTo",
-          "tsEmitName": "convertTo",
+          "tsEmitName": "convertTo2",
           "metadataToken": 100663454,
           "canonicalSignature": "(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object,System.Type):System.Object",
           "normalizedSignature": "ConvertTo|(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object,System.Type):System.Object|static=false",
@@ -14768,7 +14768,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Drawing.SizeFConverter::CreateInstance(System.ComponentModel.ITypeDescriptorContext,System.Collections.IDictionary):System.Object",
           "clrName": "CreateInstance",
-          "tsEmitName": "createInstance",
+          "tsEmitName": "createInstance2",
           "metadataToken": 100663455,
           "canonicalSignature": "(System.ComponentModel.ITypeDescriptorContext,System.Collections.IDictionary):System.Object",
           "normalizedSignature": "CreateInstance|(System.ComponentModel.ITypeDescriptorContext,System.Collections.IDictionary):System.Object|static=false",
@@ -14782,7 +14782,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Drawing.SizeFConverter::GetCreateInstanceSupported(System.ComponentModel.ITypeDescriptorContext):System.Boolean",
           "clrName": "GetCreateInstanceSupported",
-          "tsEmitName": "getCreateInstanceSupported",
+          "tsEmitName": "getCreateInstanceSupported2",
           "metadataToken": 100663456,
           "canonicalSignature": "(System.ComponentModel.ITypeDescriptorContext):System.Boolean",
           "normalizedSignature": "GetCreateInstanceSupported|(System.ComponentModel.ITypeDescriptorContext):System.Boolean|static=false",
@@ -14796,7 +14796,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Drawing.SizeFConverter::GetProperties(System.ComponentModel.ITypeDescriptorContext,System.Object,System.Attribute[]):System.ComponentModel.PropertyDescriptorCollection",
           "clrName": "GetProperties",
-          "tsEmitName": "getProperties",
+          "tsEmitName": "getProperties3",
           "metadataToken": 100663457,
           "canonicalSignature": "(System.ComponentModel.ITypeDescriptorContext,System.Object,System.Attribute[]):System.ComponentModel.PropertyDescriptorCollection",
           "normalizedSignature": "GetProperties|(System.ComponentModel.ITypeDescriptorContext,System.Object,System.Attribute[]):System.ComponentModel.PropertyDescriptorCollection|static=false",
@@ -14810,7 +14810,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Drawing.SizeFConverter::GetPropertiesSupported(System.ComponentModel.ITypeDescriptorContext):System.Boolean",
           "clrName": "GetPropertiesSupported",
-          "tsEmitName": "getPropertiesSupported",
+          "tsEmitName": "getPropertiesSupported2",
           "metadataToken": 100663458,
           "canonicalSignature": "(System.ComponentModel.ITypeDescriptorContext):System.Boolean",
           "normalizedSignature": "GetPropertiesSupported|(System.ComponentModel.ITypeDescriptorContext):System.Boolean|static=false",
@@ -14824,7 +14824,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Drawing.SizeFConverter::CanConvertFrom(System.Type):System.Boolean",
           "clrName": "CanConvertFrom",
-          "tsEmitName": "CanConvertFrom",
+          "tsEmitName": "canConvertFrom",
           "metadataToken": 0,
           "canonicalSignature": "(System.Type):System.Boolean",
           "normalizedSignature": "CanConvertFrom|(System.Type):System.Boolean|static=false",
@@ -14838,7 +14838,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Drawing.SizeFConverter::CanConvertTo(System.Type):System.Boolean",
           "clrName": "CanConvertTo",
-          "tsEmitName": "CanConvertTo",
+          "tsEmitName": "canConvertTo",
           "metadataToken": 0,
           "canonicalSignature": "(System.Type):System.Boolean",
           "normalizedSignature": "CanConvertTo|(System.Type):System.Boolean|static=false",
@@ -14852,7 +14852,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Drawing.SizeFConverter::ConvertFrom(System.Object):System.Object",
           "clrName": "ConvertFrom",
-          "tsEmitName": "ConvertFrom",
+          "tsEmitName": "convertFrom",
           "metadataToken": 0,
           "canonicalSignature": "(System.Object):System.Object",
           "normalizedSignature": "ConvertFrom|(System.Object):System.Object|static=false",
@@ -14866,7 +14866,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Drawing.SizeFConverter::ConvertTo(System.Object,System.Type):System.Object",
           "clrName": "ConvertTo",
-          "tsEmitName": "ConvertTo",
+          "tsEmitName": "convertTo",
           "metadataToken": 0,
           "canonicalSignature": "(System.Object,System.Type):System.Object",
           "normalizedSignature": "ConvertTo|(System.Object,System.Type):System.Object|static=false",
@@ -14880,7 +14880,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Drawing.SizeFConverter::CreateInstance(System.Collections.IDictionary):System.Object",
           "clrName": "CreateInstance",
-          "tsEmitName": "CreateInstance",
+          "tsEmitName": "createInstance",
           "metadataToken": 0,
           "canonicalSignature": "(System.Collections.IDictionary):System.Object",
           "normalizedSignature": "CreateInstance|(System.Collections.IDictionary):System.Object|static=false",
@@ -14894,7 +14894,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Drawing.SizeFConverter::GetCreateInstanceSupported():System.Boolean",
           "clrName": "GetCreateInstanceSupported",
-          "tsEmitName": "GetCreateInstanceSupported",
+          "tsEmitName": "getCreateInstanceSupported",
           "metadataToken": 0,
           "canonicalSignature": "():System.Boolean",
           "normalizedSignature": "GetCreateInstanceSupported|():System.Boolean|static=false",
@@ -14908,7 +14908,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Drawing.SizeFConverter::GetProperties(System.Object):System.ComponentModel.PropertyDescriptorCollection",
           "clrName": "GetProperties",
-          "tsEmitName": "GetProperties",
+          "tsEmitName": "getProperties",
           "metadataToken": 0,
           "canonicalSignature": "(System.Object):System.ComponentModel.PropertyDescriptorCollection",
           "normalizedSignature": "GetProperties|(System.Object):System.ComponentModel.PropertyDescriptorCollection|static=false",
@@ -14922,7 +14922,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Drawing.SizeFConverter::GetProperties(System.ComponentModel.ITypeDescriptorContext,System.Object):System.ComponentModel.PropertyDescriptorCollection",
           "clrName": "GetProperties",
-          "tsEmitName": "GetProperties2",
+          "tsEmitName": "getProperties2",
           "metadataToken": 0,
           "canonicalSignature": "(System.ComponentModel.ITypeDescriptorContext,System.Object):System.ComponentModel.PropertyDescriptorCollection",
           "normalizedSignature": "GetProperties|(System.ComponentModel.ITypeDescriptorContext,System.Object):System.ComponentModel.PropertyDescriptorCollection|static=false",
@@ -14936,7 +14936,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Drawing.SizeFConverter::GetPropertiesSupported():System.Boolean",
           "clrName": "GetPropertiesSupported",
-          "tsEmitName": "GetPropertiesSupported",
+          "tsEmitName": "getPropertiesSupported",
           "metadataToken": 0,
           "canonicalSignature": "():System.Boolean",
           "normalizedSignature": "GetPropertiesSupported|():System.Boolean|static=false",
@@ -14965,7 +14965,7 @@
       ],
       "exposedMethods": [
         {
-          "tsName": "canConvertFrom",
+          "tsName": "canConvertFrom2",
           "isStatic": false,
           "tsSignatureId": "CanConvertFrom|(System.ComponentModel.ITypeDescriptorContext,System.Type):System.Boolean|static=false",
           "target": {
@@ -14975,7 +14975,7 @@
           }
         },
         {
-          "tsName": "canConvertTo",
+          "tsName": "canConvertTo2",
           "isStatic": false,
           "tsSignatureId": "CanConvertTo|(System.ComponentModel.ITypeDescriptorContext,System.Type):System.Boolean|static=false",
           "target": {
@@ -14985,7 +14985,7 @@
           }
         },
         {
-          "tsName": "convertFrom",
+          "tsName": "convertFrom2",
           "isStatic": false,
           "tsSignatureId": "ConvertFrom|(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object):System.Object|static=false",
           "target": {
@@ -14995,7 +14995,7 @@
           }
         },
         {
-          "tsName": "convertTo",
+          "tsName": "convertTo2",
           "isStatic": false,
           "tsSignatureId": "ConvertTo|(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object,System.Type):System.Object|static=false",
           "target": {
@@ -15005,7 +15005,7 @@
           }
         },
         {
-          "tsName": "createInstance",
+          "tsName": "createInstance2",
           "isStatic": false,
           "tsSignatureId": "CreateInstance|(System.ComponentModel.ITypeDescriptorContext,System.Collections.IDictionary):System.Object|static=false",
           "target": {
@@ -15015,7 +15015,7 @@
           }
         },
         {
-          "tsName": "getCreateInstanceSupported",
+          "tsName": "getCreateInstanceSupported2",
           "isStatic": false,
           "tsSignatureId": "GetCreateInstanceSupported|(System.ComponentModel.ITypeDescriptorContext):System.Boolean|static=false",
           "target": {
@@ -15025,7 +15025,7 @@
           }
         },
         {
-          "tsName": "getProperties",
+          "tsName": "getProperties3",
           "isStatic": false,
           "tsSignatureId": "GetProperties|(System.ComponentModel.ITypeDescriptorContext,System.Object,System.Attribute[]):System.ComponentModel.PropertyDescriptorCollection|static=false",
           "target": {
@@ -15035,7 +15035,7 @@
           }
         },
         {
-          "tsName": "getPropertiesSupported",
+          "tsName": "getPropertiesSupported2",
           "isStatic": false,
           "tsSignatureId": "GetPropertiesSupported|(System.ComponentModel.ITypeDescriptorContext):System.Boolean|static=false",
           "target": {
@@ -15045,7 +15045,7 @@
           }
         },
         {
-          "tsName": "CanConvertFrom",
+          "tsName": "canConvertFrom",
           "isStatic": false,
           "tsSignatureId": "CanConvertFrom|(System.Type):System.Boolean|static=false",
           "target": {
@@ -15055,7 +15055,7 @@
           }
         },
         {
-          "tsName": "CanConvertTo",
+          "tsName": "canConvertTo",
           "isStatic": false,
           "tsSignatureId": "CanConvertTo|(System.Type):System.Boolean|static=false",
           "target": {
@@ -15065,7 +15065,7 @@
           }
         },
         {
-          "tsName": "ConvertFrom",
+          "tsName": "convertFrom",
           "isStatic": false,
           "tsSignatureId": "ConvertFrom|(System.Object):System.Object|static=false",
           "target": {
@@ -15075,7 +15075,7 @@
           }
         },
         {
-          "tsName": "ConvertTo",
+          "tsName": "convertTo",
           "isStatic": false,
           "tsSignatureId": "ConvertTo|(System.Object,System.Type):System.Object|static=false",
           "target": {
@@ -15085,7 +15085,7 @@
           }
         },
         {
-          "tsName": "CreateInstance",
+          "tsName": "createInstance",
           "isStatic": false,
           "tsSignatureId": "CreateInstance|(System.Collections.IDictionary):System.Object|static=false",
           "target": {
@@ -15095,7 +15095,7 @@
           }
         },
         {
-          "tsName": "GetCreateInstanceSupported",
+          "tsName": "getCreateInstanceSupported",
           "isStatic": false,
           "tsSignatureId": "GetCreateInstanceSupported|():System.Boolean|static=false",
           "target": {
@@ -15105,7 +15105,7 @@
           }
         },
         {
-          "tsName": "GetProperties",
+          "tsName": "getProperties",
           "isStatic": false,
           "tsSignatureId": "GetProperties|(System.Object):System.ComponentModel.PropertyDescriptorCollection|static=false",
           "target": {
@@ -15115,7 +15115,7 @@
           }
         },
         {
-          "tsName": "GetProperties2",
+          "tsName": "getProperties2",
           "isStatic": false,
           "tsSignatureId": "GetProperties|(System.ComponentModel.ITypeDescriptorContext,System.Object):System.ComponentModel.PropertyDescriptorCollection|static=false",
           "target": {
@@ -15125,7 +15125,7 @@
           }
         },
         {
-          "tsName": "GetPropertiesSupported",
+          "tsName": "getPropertiesSupported",
           "isStatic": false,
           "tsSignatureId": "GetPropertiesSupported|():System.Boolean|static=false",
           "target": {

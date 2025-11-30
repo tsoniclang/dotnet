@@ -21,7 +21,7 @@
         {
           "stableId": "System.Collections.Concurrent:System.Collections.Concurrent.EnumerablePartitionerOptions::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -3197,7 +3197,7 @@
         {
           "stableId": "System.Collections.Concurrent:System.Collections.Concurrent.OrderablePartitioner\u00601::GetPartitions(System.Int32):IList_1",
           "clrName": "GetPartitions",
-          "tsEmitName": "getPartitions",
+          "tsEmitName": "getPartitions2",
           "normalizedSignature": "GetPartitions|(System.Int32):IList_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3213,7 +3213,7 @@
         {
           "stableId": "System.Collections.Concurrent:System.Collections.Concurrent.OrderablePartitioner\u00601::GetDynamicPartitions():IEnumerable_1",
           "clrName": "GetDynamicPartitions",
-          "tsEmitName": "getDynamicPartitions",
+          "tsEmitName": "getDynamicPartitions2",
           "normalizedSignature": "GetDynamicPartitions|():IEnumerable_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3229,7 +3229,7 @@
         {
           "stableId": "System.Collections.Concurrent:System.Collections.Concurrent.OrderablePartitioner\u00601::GetDynamicPartitions():System.Collections.Generic.IEnumerable_1",
           "clrName": "GetDynamicPartitions",
-          "tsEmitName": "GetDynamicPartitions",
+          "tsEmitName": "getDynamicPartitions",
           "normalizedSignature": "GetDynamicPartitions|():System.Collections.Generic.IEnumerable_1|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -3245,7 +3245,7 @@
         {
           "stableId": "System.Collections.Concurrent:System.Collections.Concurrent.OrderablePartitioner\u00601::GetPartitions(System.Int32):System.Collections.Generic.IList_1",
           "clrName": "GetPartitions",
-          "tsEmitName": "GetPartitions",
+          "tsEmitName": "getPartitions",
           "normalizedSignature": "GetPartitions|(System.Int32):System.Collections.Generic.IList_1|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",

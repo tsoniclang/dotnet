@@ -342,7 +342,7 @@ export class AuthorizationRuleCollection$instance extends System_Collections_Int
     readonly item: AuthorizationRule;
     addRule(rule: AuthorizationRule): void;
     copyTo(array: ClrArray, index: int): void;
-    GetEnumerator(): IEnumerator;
+    getEnumerator(): IEnumerator;
 }
 
 
@@ -350,6 +350,8 @@ export interface __AuthorizationRuleCollection$views {
     As_ICollection(): System_Collections_Internal.ICollection$instance;
     As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
 }
+
+export interface AuthorizationRuleCollection$instance extends System_Collections_Internal.ICollection$instance {}
 
 export type AuthorizationRuleCollection = AuthorizationRuleCollection$instance & __AuthorizationRuleCollection$views;
 
@@ -372,11 +374,11 @@ export abstract class CommonAcl$instance extends GenericAcl$instance {
     readonly isDS: boolean;
     item: GenericAce;
     readonly revision: byte;
-    CopyTo(array: GenericAce[], index: int): void;
-    CopyTo(array: ClrArray, index: int): void;
+    copyTo(array: GenericAce[], index: int): void;
+    copyTo(array: ClrArray, index: int): void;
     getBinaryForm(binaryForm: byte[], offset: int): void;
-    GetEnumerator(): AceEnumerator;
-    GetEnumerator(): IEnumerator;
+    getEnumerator(): AceEnumerator;
+    getEnumerator(): IEnumerator;
     purge(sid: SecurityIdentifier): void;
     removeInheritedAces(): void;
 }
@@ -473,10 +475,10 @@ export class DiscretionaryAcl$instance extends CommonAcl$instance {
     addAccess(accessType: AccessControlType, sid: SecurityIdentifier, accessMask: int, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags): void;
     addAccess(accessType: AccessControlType, sid: SecurityIdentifier, accessMask: int, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags, objectFlags: ObjectAceFlags, objectType: Guid, inheritedObjectType: Guid): void;
     addAccess(accessType: AccessControlType, sid: SecurityIdentifier, rule: ObjectAccessRule): void;
-    CopyTo(array: ClrArray, index: int): void;
-    CopyTo(array: GenericAce[], index: int): void;
-    GetEnumerator(): IEnumerator;
-    GetEnumerator(): AceEnumerator;
+    copyTo(array: ClrArray, index: int): void;
+    copyTo(array: GenericAce[], index: int): void;
+    getEnumerator(): IEnumerator;
+    getEnumerator(): AceEnumerator;
     removeAccess(accessType: AccessControlType, sid: SecurityIdentifier, accessMask: int, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags): boolean;
     removeAccess(accessType: AccessControlType, sid: SecurityIdentifier, accessMask: int, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags, objectFlags: ObjectAceFlags, objectType: Guid, inheritedObjectType: Guid): boolean;
     removeAccess(accessType: AccessControlType, sid: SecurityIdentifier, rule: ObjectAccessRule): boolean;
@@ -819,11 +821,11 @@ export class RawAcl$instance extends GenericAcl$instance {
     readonly count: int;
     item: GenericAce;
     readonly revision: byte;
-    CopyTo(array: GenericAce[], index: int): void;
-    CopyTo(array: ClrArray, index: int): void;
+    copyTo(array: GenericAce[], index: int): void;
+    copyTo(array: ClrArray, index: int): void;
     getBinaryForm(binaryForm: byte[], offset: int): void;
-    GetEnumerator(): AceEnumerator;
-    GetEnumerator(): IEnumerator;
+    getEnumerator(): AceEnumerator;
+    getEnumerator(): IEnumerator;
     insertAce(index: int, ace: GenericAce): void;
     removeAce(index: int): void;
 }
@@ -944,10 +946,10 @@ export class SystemAcl$instance extends CommonAcl$instance {
     addAudit(auditFlags: AuditFlags, sid: SecurityIdentifier, accessMask: int, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags): void;
     addAudit(auditFlags: AuditFlags, sid: SecurityIdentifier, accessMask: int, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags, objectFlags: ObjectAceFlags, objectType: Guid, inheritedObjectType: Guid): void;
     addAudit(sid: SecurityIdentifier, rule: ObjectAuditRule): void;
-    CopyTo(array: ClrArray, index: int): void;
-    CopyTo(array: GenericAce[], index: int): void;
-    GetEnumerator(): IEnumerator;
-    GetEnumerator(): AceEnumerator;
+    copyTo(array: ClrArray, index: int): void;
+    copyTo(array: GenericAce[], index: int): void;
+    getEnumerator(): IEnumerator;
+    getEnumerator(): AceEnumerator;
     removeAudit(auditFlags: AuditFlags, sid: SecurityIdentifier, accessMask: int, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags): boolean;
     removeAudit(auditFlags: AuditFlags, sid: SecurityIdentifier, accessMask: int, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags, objectFlags: ObjectAceFlags, objectType: Guid, inheritedObjectType: Guid): boolean;
     removeAudit(sid: SecurityIdentifier, rule: ObjectAuditRule): boolean;

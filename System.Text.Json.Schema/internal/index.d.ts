@@ -51,7 +51,7 @@ export class JsonSchemaExporterOptions$instance {
     constructor();
     transformSchemaNode: Func_3<JsonSchemaExporterContext, JsonNode, JsonNode>;
     treatNullObliviousAsNonNullable: boolean;
-    static readonly default: JsonSchemaExporterOptions;
+    static readonly default_: JsonSchemaExporterOptions;
 }
 
 

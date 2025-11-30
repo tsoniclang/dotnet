@@ -282,15 +282,13 @@ export class VerificationException$instance extends System_Internal.SystemExcept
     constructor();
     constructor(message: string);
     constructor(message: string, innerException: Exception);
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
 export interface __VerificationException$views {
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
-
-export interface VerificationException$instance extends System_Runtime_Serialization_Internal.ISerializable$instance {}
 
 export type VerificationException = VerificationException$instance & __VerificationException$views;
 

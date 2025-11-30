@@ -241,7 +241,7 @@ export class ChineseLunisolarCalendar$instance extends EastAsianLunisolarCalenda
     readonly eras: int[];
     readonly maxSupportedDateTime: DateTime;
     readonly minSupportedDateTime: DateTime;
-    Clone(): unknown;
+    clone(): unknown;
     getEra(time: DateTime): int;
     static readonly chineseEra: int;
 }
@@ -250,8 +250,6 @@ export class ChineseLunisolarCalendar$instance extends EastAsianLunisolarCalenda
 export interface __ChineseLunisolarCalendar$views {
     As_ICloneable(): System_Internal.ICloneable$instance;
 }
-
-export interface ChineseLunisolarCalendar$instance extends System_Internal.ICloneable$instance {}
 
 export type ChineseLunisolarCalendar = ChineseLunisolarCalendar$instance & __ChineseLunisolarCalendar$views;
 
@@ -490,31 +488,31 @@ export abstract class EastAsianLunisolarCalendar$instance extends Calendar$insta
     twoDigitYearMax: int;
     addMonths(time: DateTime, months: int): DateTime;
     addYears(time: DateTime, years: int): DateTime;
-    Clone(): unknown;
+    clone(): unknown;
     getCelestialStem(sexagenaryYear: int): int;
     getDayOfMonth(time: DateTime): int;
     getDayOfWeek(time: DateTime): DayOfWeek;
     getDayOfYear(time: DateTime): int;
-    GetDaysInMonth(year: int, month: int, era: int): int;
-    GetDaysInMonth(year: int, month: int): int;
-    GetDaysInYear(year: int, era: int): int;
-    GetDaysInYear(year: int): int;
+    getDaysInMonth(year: int, month: int, era: int): int;
+    getDaysInMonth(year: int, month: int): int;
+    getDaysInYear(year: int, era: int): int;
+    getDaysInYear(year: int): int;
     getLeapMonth(year: int, era: int): int;
     getLeapMonth(year: int): int;
     getMonth(time: DateTime): int;
-    GetMonthsInYear(year: int, era: int): int;
-    GetMonthsInYear(year: int): int;
+    getMonthsInYear(year: int, era: int): int;
+    getMonthsInYear(year: int): int;
     getSexagenaryYear(time: DateTime): int;
     getTerrestrialBranch(sexagenaryYear: int): int;
     getYear(time: DateTime): int;
-    IsLeapDay(year: int, month: int, day: int, era: int): boolean;
-    IsLeapDay(year: int, month: int, day: int): boolean;
-    IsLeapMonth(year: int, month: int, era: int): boolean;
-    IsLeapMonth(year: int, month: int): boolean;
-    IsLeapYear(year: int, era: int): boolean;
-    IsLeapYear(year: int): boolean;
-    ToDateTime(year: int, month: int, day: int, hour: int, minute: int, second: int, millisecond: int, era: int): DateTime;
-    ToDateTime(year: int, month: int, day: int, hour: int, minute: int, second: int, millisecond: int): DateTime;
+    isLeapDay(year: int, month: int, day: int, era: int): boolean;
+    isLeapDay(year: int, month: int, day: int): boolean;
+    isLeapMonth(year: int, month: int, era: int): boolean;
+    isLeapMonth(year: int, month: int): boolean;
+    isLeapYear(year: int, era: int): boolean;
+    isLeapYear(year: int): boolean;
+    toDateTime(year: int, month: int, day: int, hour: int, minute: int, second: int, millisecond: int, era: int): DateTime;
+    toDateTime(year: int, month: int, day: int, hour: int, minute: int, second: int, millisecond: int): DateTime;
     toFourDigitYear(year: int): int;
 }
 
@@ -522,8 +520,6 @@ export abstract class EastAsianLunisolarCalendar$instance extends Calendar$insta
 export interface __EastAsianLunisolarCalendar$views {
     As_ICloneable(): System_Internal.ICloneable$instance;
 }
-
-export interface EastAsianLunisolarCalendar$instance extends System_Internal.ICloneable$instance {}
 
 export type EastAsianLunisolarCalendar = EastAsianLunisolarCalendar$instance & __EastAsianLunisolarCalendar$views;
 
@@ -539,29 +535,29 @@ export class GregorianCalendar$instance extends Calendar$instance {
     twoDigitYearMax: int;
     addMonths(time: DateTime, months: int): DateTime;
     addYears(time: DateTime, years: int): DateTime;
-    Clone(): unknown;
+    clone(): unknown;
     getDayOfMonth(time: DateTime): int;
     getDayOfWeek(time: DateTime): DayOfWeek;
     getDayOfYear(time: DateTime): int;
-    GetDaysInMonth(year: int, month: int, era: int): int;
-    GetDaysInMonth(year: int, month: int): int;
-    GetDaysInYear(year: int, era: int): int;
-    GetDaysInYear(year: int): int;
+    getDaysInMonth(year: int, month: int, era: int): int;
+    getDaysInMonth(year: int, month: int): int;
+    getDaysInYear(year: int, era: int): int;
+    getDaysInYear(year: int): int;
     getEra(time: DateTime): int;
     getLeapMonth(year: int, era: int): int;
     getLeapMonth(year: int): int;
     getMonth(time: DateTime): int;
-    GetMonthsInYear(year: int, era: int): int;
-    GetMonthsInYear(year: int): int;
+    getMonthsInYear(year: int, era: int): int;
+    getMonthsInYear(year: int): int;
     getYear(time: DateTime): int;
-    IsLeapDay(year: int, month: int, day: int, era: int): boolean;
-    IsLeapDay(year: int, month: int, day: int): boolean;
-    IsLeapMonth(year: int, month: int, era: int): boolean;
-    IsLeapMonth(year: int, month: int): boolean;
-    IsLeapYear(year: int, era: int): boolean;
-    IsLeapYear(year: int): boolean;
-    ToDateTime(year: int, month: int, day: int, hour: int, minute: int, second: int, millisecond: int, era: int): DateTime;
-    ToDateTime(year: int, month: int, day: int, hour: int, minute: int, second: int, millisecond: int): DateTime;
+    isLeapDay(year: int, month: int, day: int, era: int): boolean;
+    isLeapDay(year: int, month: int, day: int): boolean;
+    isLeapMonth(year: int, month: int, era: int): boolean;
+    isLeapMonth(year: int, month: int): boolean;
+    isLeapYear(year: int, era: int): boolean;
+    isLeapYear(year: int): boolean;
+    toDateTime(year: int, month: int, day: int, hour: int, minute: int, second: int, millisecond: int, era: int): DateTime;
+    toDateTime(year: int, month: int, day: int, hour: int, minute: int, second: int, millisecond: int): DateTime;
     toFourDigitYear(year: int): int;
     static readonly adEra: int;
 }
@@ -570,8 +566,6 @@ export class GregorianCalendar$instance extends Calendar$instance {
 export interface __GregorianCalendar$views {
     As_ICloneable(): System_Internal.ICloneable$instance;
 }
-
-export interface GregorianCalendar$instance extends System_Internal.ICloneable$instance {}
 
 export type GregorianCalendar = GregorianCalendar$instance & __GregorianCalendar$views;
 
@@ -585,29 +579,29 @@ export class HebrewCalendar$instance extends Calendar$instance {
     twoDigitYearMax: int;
     addMonths(time: DateTime, months: int): DateTime;
     addYears(time: DateTime, years: int): DateTime;
-    Clone(): unknown;
+    clone(): unknown;
     getDayOfMonth(time: DateTime): int;
     getDayOfWeek(time: DateTime): DayOfWeek;
     getDayOfYear(time: DateTime): int;
-    GetDaysInMonth(year: int, month: int, era: int): int;
-    GetDaysInMonth(year: int, month: int): int;
-    GetDaysInYear(year: int, era: int): int;
-    GetDaysInYear(year: int): int;
+    getDaysInMonth(year: int, month: int, era: int): int;
+    getDaysInMonth(year: int, month: int): int;
+    getDaysInYear(year: int, era: int): int;
+    getDaysInYear(year: int): int;
     getEra(time: DateTime): int;
     getLeapMonth(year: int, era: int): int;
     getLeapMonth(year: int): int;
     getMonth(time: DateTime): int;
-    GetMonthsInYear(year: int, era: int): int;
-    GetMonthsInYear(year: int): int;
+    getMonthsInYear(year: int, era: int): int;
+    getMonthsInYear(year: int): int;
     getYear(time: DateTime): int;
-    IsLeapDay(year: int, month: int, day: int, era: int): boolean;
-    IsLeapDay(year: int, month: int, day: int): boolean;
-    IsLeapMonth(year: int, month: int, era: int): boolean;
-    IsLeapMonth(year: int, month: int): boolean;
-    IsLeapYear(year: int, era: int): boolean;
-    IsLeapYear(year: int): boolean;
-    ToDateTime(year: int, month: int, day: int, hour: int, minute: int, second: int, millisecond: int, era: int): DateTime;
-    ToDateTime(year: int, month: int, day: int, hour: int, minute: int, second: int, millisecond: int): DateTime;
+    isLeapDay(year: int, month: int, day: int, era: int): boolean;
+    isLeapDay(year: int, month: int, day: int): boolean;
+    isLeapMonth(year: int, month: int, era: int): boolean;
+    isLeapMonth(year: int, month: int): boolean;
+    isLeapYear(year: int, era: int): boolean;
+    isLeapYear(year: int): boolean;
+    toDateTime(year: int, month: int, day: int, hour: int, minute: int, second: int, millisecond: int, era: int): DateTime;
+    toDateTime(year: int, month: int, day: int, hour: int, minute: int, second: int, millisecond: int): DateTime;
     toFourDigitYear(year: int): int;
     static readonly hebrewEra: int;
 }
@@ -616,8 +610,6 @@ export class HebrewCalendar$instance extends Calendar$instance {
 export interface __HebrewCalendar$views {
     As_ICloneable(): System_Internal.ICloneable$instance;
 }
-
-export interface HebrewCalendar$instance extends System_Internal.ICloneable$instance {}
 
 export type HebrewCalendar = HebrewCalendar$instance & __HebrewCalendar$views;
 
@@ -632,29 +624,29 @@ export class HijriCalendar$instance extends Calendar$instance {
     twoDigitYearMax: int;
     addMonths(time: DateTime, months: int): DateTime;
     addYears(time: DateTime, years: int): DateTime;
-    Clone(): unknown;
+    clone(): unknown;
     getDayOfMonth(time: DateTime): int;
     getDayOfWeek(time: DateTime): DayOfWeek;
     getDayOfYear(time: DateTime): int;
-    GetDaysInMonth(year: int, month: int, era: int): int;
-    GetDaysInMonth(year: int, month: int): int;
-    GetDaysInYear(year: int, era: int): int;
-    GetDaysInYear(year: int): int;
+    getDaysInMonth(year: int, month: int, era: int): int;
+    getDaysInMonth(year: int, month: int): int;
+    getDaysInYear(year: int, era: int): int;
+    getDaysInYear(year: int): int;
     getEra(time: DateTime): int;
     getLeapMonth(year: int, era: int): int;
     getLeapMonth(year: int): int;
     getMonth(time: DateTime): int;
-    GetMonthsInYear(year: int, era: int): int;
-    GetMonthsInYear(year: int): int;
+    getMonthsInYear(year: int, era: int): int;
+    getMonthsInYear(year: int): int;
     getYear(time: DateTime): int;
-    IsLeapDay(year: int, month: int, day: int, era: int): boolean;
-    IsLeapDay(year: int, month: int, day: int): boolean;
-    IsLeapMonth(year: int, month: int, era: int): boolean;
-    IsLeapMonth(year: int, month: int): boolean;
-    IsLeapYear(year: int, era: int): boolean;
-    IsLeapYear(year: int): boolean;
-    ToDateTime(year: int, month: int, day: int, hour: int, minute: int, second: int, millisecond: int, era: int): DateTime;
-    ToDateTime(year: int, month: int, day: int, hour: int, minute: int, second: int, millisecond: int): DateTime;
+    isLeapDay(year: int, month: int, day: int, era: int): boolean;
+    isLeapDay(year: int, month: int, day: int): boolean;
+    isLeapMonth(year: int, month: int, era: int): boolean;
+    isLeapMonth(year: int, month: int): boolean;
+    isLeapYear(year: int, era: int): boolean;
+    isLeapYear(year: int): boolean;
+    toDateTime(year: int, month: int, day: int, hour: int, minute: int, second: int, millisecond: int, era: int): DateTime;
+    toDateTime(year: int, month: int, day: int, hour: int, minute: int, second: int, millisecond: int): DateTime;
     toFourDigitYear(year: int): int;
     static readonly hijriEra: int;
 }
@@ -663,8 +655,6 @@ export class HijriCalendar$instance extends Calendar$instance {
 export interface __HijriCalendar$views {
     As_ICloneable(): System_Internal.ICloneable$instance;
 }
-
-export interface HijriCalendar$instance extends System_Internal.ICloneable$instance {}
 
 export type HijriCalendar = HijriCalendar$instance & __HijriCalendar$views;
 
@@ -695,30 +685,30 @@ export class JapaneseCalendar$instance extends Calendar$instance {
     twoDigitYearMax: int;
     addMonths(time: DateTime, months: int): DateTime;
     addYears(time: DateTime, years: int): DateTime;
-    Clone(): unknown;
+    clone(): unknown;
     getDayOfMonth(time: DateTime): int;
     getDayOfWeek(time: DateTime): DayOfWeek;
     getDayOfYear(time: DateTime): int;
-    GetDaysInMonth(year: int, month: int, era: int): int;
-    GetDaysInMonth(year: int, month: int): int;
-    GetDaysInYear(year: int, era: int): int;
-    GetDaysInYear(year: int): int;
+    getDaysInMonth(year: int, month: int, era: int): int;
+    getDaysInMonth(year: int, month: int): int;
+    getDaysInYear(year: int, era: int): int;
+    getDaysInYear(year: int): int;
     getEra(time: DateTime): int;
     getLeapMonth(year: int, era: int): int;
     getLeapMonth(year: int): int;
     getMonth(time: DateTime): int;
-    GetMonthsInYear(year: int, era: int): int;
-    GetMonthsInYear(year: int): int;
+    getMonthsInYear(year: int, era: int): int;
+    getMonthsInYear(year: int): int;
     getWeekOfYear(time: DateTime, rule: CalendarWeekRule, firstDayOfWeek: DayOfWeek): int;
     getYear(time: DateTime): int;
-    IsLeapDay(year: int, month: int, day: int, era: int): boolean;
-    IsLeapDay(year: int, month: int, day: int): boolean;
-    IsLeapMonth(year: int, month: int, era: int): boolean;
-    IsLeapMonth(year: int, month: int): boolean;
-    IsLeapYear(year: int, era: int): boolean;
-    IsLeapYear(year: int): boolean;
-    ToDateTime(year: int, month: int, day: int, hour: int, minute: int, second: int, millisecond: int, era: int): DateTime;
-    ToDateTime(year: int, month: int, day: int, hour: int, minute: int, second: int, millisecond: int): DateTime;
+    isLeapDay(year: int, month: int, day: int, era: int): boolean;
+    isLeapDay(year: int, month: int, day: int): boolean;
+    isLeapMonth(year: int, month: int, era: int): boolean;
+    isLeapMonth(year: int, month: int): boolean;
+    isLeapYear(year: int, era: int): boolean;
+    isLeapYear(year: int): boolean;
+    toDateTime(year: int, month: int, day: int, hour: int, minute: int, second: int, millisecond: int, era: int): DateTime;
+    toDateTime(year: int, month: int, day: int, hour: int, minute: int, second: int, millisecond: int): DateTime;
     toFourDigitYear(year: int): int;
 }
 
@@ -726,8 +716,6 @@ export class JapaneseCalendar$instance extends Calendar$instance {
 export interface __JapaneseCalendar$views {
     As_ICloneable(): System_Internal.ICloneable$instance;
 }
-
-export interface JapaneseCalendar$instance extends System_Internal.ICloneable$instance {}
 
 export type JapaneseCalendar = JapaneseCalendar$instance & __JapaneseCalendar$views;
 
@@ -737,7 +725,7 @@ export class JapaneseLunisolarCalendar$instance extends EastAsianLunisolarCalend
     readonly eras: int[];
     readonly maxSupportedDateTime: DateTime;
     readonly minSupportedDateTime: DateTime;
-    Clone(): unknown;
+    clone(): unknown;
     getEra(time: DateTime): int;
     static readonly japaneseEra: int;
 }
@@ -746,8 +734,6 @@ export class JapaneseLunisolarCalendar$instance extends EastAsianLunisolarCalend
 export interface __JapaneseLunisolarCalendar$views {
     As_ICloneable(): System_Internal.ICloneable$instance;
 }
-
-export interface JapaneseLunisolarCalendar$instance extends System_Internal.ICloneable$instance {}
 
 export type JapaneseLunisolarCalendar = JapaneseLunisolarCalendar$instance & __JapaneseLunisolarCalendar$views;
 
@@ -761,29 +747,29 @@ export class JulianCalendar$instance extends Calendar$instance {
     twoDigitYearMax: int;
     addMonths(time: DateTime, months: int): DateTime;
     addYears(time: DateTime, years: int): DateTime;
-    Clone(): unknown;
+    clone(): unknown;
     getDayOfMonth(time: DateTime): int;
     getDayOfWeek(time: DateTime): DayOfWeek;
     getDayOfYear(time: DateTime): int;
-    GetDaysInMonth(year: int, month: int, era: int): int;
-    GetDaysInMonth(year: int, month: int): int;
-    GetDaysInYear(year: int, era: int): int;
-    GetDaysInYear(year: int): int;
+    getDaysInMonth(year: int, month: int, era: int): int;
+    getDaysInMonth(year: int, month: int): int;
+    getDaysInYear(year: int, era: int): int;
+    getDaysInYear(year: int): int;
     getEra(time: DateTime): int;
     getLeapMonth(year: int, era: int): int;
     getLeapMonth(year: int): int;
     getMonth(time: DateTime): int;
-    GetMonthsInYear(year: int, era: int): int;
-    GetMonthsInYear(year: int): int;
+    getMonthsInYear(year: int, era: int): int;
+    getMonthsInYear(year: int): int;
     getYear(time: DateTime): int;
-    IsLeapDay(year: int, month: int, day: int, era: int): boolean;
-    IsLeapDay(year: int, month: int, day: int): boolean;
-    IsLeapMonth(year: int, month: int, era: int): boolean;
-    IsLeapMonth(year: int, month: int): boolean;
-    IsLeapYear(year: int, era: int): boolean;
-    IsLeapYear(year: int): boolean;
-    ToDateTime(year: int, month: int, day: int, hour: int, minute: int, second: int, millisecond: int, era: int): DateTime;
-    ToDateTime(year: int, month: int, day: int, hour: int, minute: int, second: int, millisecond: int): DateTime;
+    isLeapDay(year: int, month: int, day: int, era: int): boolean;
+    isLeapDay(year: int, month: int, day: int): boolean;
+    isLeapMonth(year: int, month: int, era: int): boolean;
+    isLeapMonth(year: int, month: int): boolean;
+    isLeapYear(year: int, era: int): boolean;
+    isLeapYear(year: int): boolean;
+    toDateTime(year: int, month: int, day: int, hour: int, minute: int, second: int, millisecond: int, era: int): DateTime;
+    toDateTime(year: int, month: int, day: int, hour: int, minute: int, second: int, millisecond: int): DateTime;
     toFourDigitYear(year: int): int;
     static readonly julianEra: int;
 }
@@ -792,8 +778,6 @@ export class JulianCalendar$instance extends Calendar$instance {
 export interface __JulianCalendar$views {
     As_ICloneable(): System_Internal.ICloneable$instance;
 }
-
-export interface JulianCalendar$instance extends System_Internal.ICloneable$instance {}
 
 export type JulianCalendar = JulianCalendar$instance & __JulianCalendar$views;
 
@@ -807,30 +791,30 @@ export class KoreanCalendar$instance extends Calendar$instance {
     twoDigitYearMax: int;
     addMonths(time: DateTime, months: int): DateTime;
     addYears(time: DateTime, years: int): DateTime;
-    Clone(): unknown;
+    clone(): unknown;
     getDayOfMonth(time: DateTime): int;
     getDayOfWeek(time: DateTime): DayOfWeek;
     getDayOfYear(time: DateTime): int;
-    GetDaysInMonth(year: int, month: int, era: int): int;
-    GetDaysInMonth(year: int, month: int): int;
-    GetDaysInYear(year: int, era: int): int;
-    GetDaysInYear(year: int): int;
+    getDaysInMonth(year: int, month: int, era: int): int;
+    getDaysInMonth(year: int, month: int): int;
+    getDaysInYear(year: int, era: int): int;
+    getDaysInYear(year: int): int;
     getEra(time: DateTime): int;
     getLeapMonth(year: int, era: int): int;
     getLeapMonth(year: int): int;
     getMonth(time: DateTime): int;
-    GetMonthsInYear(year: int, era: int): int;
-    GetMonthsInYear(year: int): int;
+    getMonthsInYear(year: int, era: int): int;
+    getMonthsInYear(year: int): int;
     getWeekOfYear(time: DateTime, rule: CalendarWeekRule, firstDayOfWeek: DayOfWeek): int;
     getYear(time: DateTime): int;
-    IsLeapDay(year: int, month: int, day: int, era: int): boolean;
-    IsLeapDay(year: int, month: int, day: int): boolean;
-    IsLeapMonth(year: int, month: int, era: int): boolean;
-    IsLeapMonth(year: int, month: int): boolean;
-    IsLeapYear(year: int, era: int): boolean;
-    IsLeapYear(year: int): boolean;
-    ToDateTime(year: int, month: int, day: int, hour: int, minute: int, second: int, millisecond: int, era: int): DateTime;
-    ToDateTime(year: int, month: int, day: int, hour: int, minute: int, second: int, millisecond: int): DateTime;
+    isLeapDay(year: int, month: int, day: int, era: int): boolean;
+    isLeapDay(year: int, month: int, day: int): boolean;
+    isLeapMonth(year: int, month: int, era: int): boolean;
+    isLeapMonth(year: int, month: int): boolean;
+    isLeapYear(year: int, era: int): boolean;
+    isLeapYear(year: int): boolean;
+    toDateTime(year: int, month: int, day: int, hour: int, minute: int, second: int, millisecond: int, era: int): DateTime;
+    toDateTime(year: int, month: int, day: int, hour: int, minute: int, second: int, millisecond: int): DateTime;
     toFourDigitYear(year: int): int;
     static readonly koreanEra: int;
 }
@@ -840,8 +824,6 @@ export interface __KoreanCalendar$views {
     As_ICloneable(): System_Internal.ICloneable$instance;
 }
 
-export interface KoreanCalendar$instance extends System_Internal.ICloneable$instance {}
-
 export type KoreanCalendar = KoreanCalendar$instance & __KoreanCalendar$views;
 
 
@@ -850,7 +832,7 @@ export class KoreanLunisolarCalendar$instance extends EastAsianLunisolarCalendar
     readonly eras: int[];
     readonly maxSupportedDateTime: DateTime;
     readonly minSupportedDateTime: DateTime;
-    Clone(): unknown;
+    clone(): unknown;
     getEra(time: DateTime): int;
     static readonly gregorianEra: int;
 }
@@ -859,8 +841,6 @@ export class KoreanLunisolarCalendar$instance extends EastAsianLunisolarCalendar
 export interface __KoreanLunisolarCalendar$views {
     As_ICloneable(): System_Internal.ICloneable$instance;
 }
-
-export interface KoreanLunisolarCalendar$instance extends System_Internal.ICloneable$instance {}
 
 export type KoreanLunisolarCalendar = KoreanLunisolarCalendar$instance & __KoreanLunisolarCalendar$views;
 
@@ -923,29 +903,29 @@ export class PersianCalendar$instance extends Calendar$instance {
     twoDigitYearMax: int;
     addMonths(time: DateTime, months: int): DateTime;
     addYears(time: DateTime, years: int): DateTime;
-    Clone(): unknown;
+    clone(): unknown;
     getDayOfMonth(time: DateTime): int;
     getDayOfWeek(time: DateTime): DayOfWeek;
     getDayOfYear(time: DateTime): int;
-    GetDaysInMonth(year: int, month: int, era: int): int;
-    GetDaysInMonth(year: int, month: int): int;
-    GetDaysInYear(year: int, era: int): int;
-    GetDaysInYear(year: int): int;
+    getDaysInMonth(year: int, month: int, era: int): int;
+    getDaysInMonth(year: int, month: int): int;
+    getDaysInYear(year: int, era: int): int;
+    getDaysInYear(year: int): int;
     getEra(time: DateTime): int;
     getLeapMonth(year: int, era: int): int;
     getLeapMonth(year: int): int;
     getMonth(time: DateTime): int;
-    GetMonthsInYear(year: int, era: int): int;
-    GetMonthsInYear(year: int): int;
+    getMonthsInYear(year: int, era: int): int;
+    getMonthsInYear(year: int): int;
     getYear(time: DateTime): int;
-    IsLeapDay(year: int, month: int, day: int, era: int): boolean;
-    IsLeapDay(year: int, month: int, day: int): boolean;
-    IsLeapMonth(year: int, month: int, era: int): boolean;
-    IsLeapMonth(year: int, month: int): boolean;
-    IsLeapYear(year: int, era: int): boolean;
-    IsLeapYear(year: int): boolean;
-    ToDateTime(year: int, month: int, day: int, hour: int, minute: int, second: int, millisecond: int, era: int): DateTime;
-    ToDateTime(year: int, month: int, day: int, hour: int, minute: int, second: int, millisecond: int): DateTime;
+    isLeapDay(year: int, month: int, day: int, era: int): boolean;
+    isLeapDay(year: int, month: int, day: int): boolean;
+    isLeapMonth(year: int, month: int, era: int): boolean;
+    isLeapMonth(year: int, month: int): boolean;
+    isLeapYear(year: int, era: int): boolean;
+    isLeapYear(year: int): boolean;
+    toDateTime(year: int, month: int, day: int, hour: int, minute: int, second: int, millisecond: int, era: int): DateTime;
+    toDateTime(year: int, month: int, day: int, hour: int, minute: int, second: int, millisecond: int): DateTime;
     toFourDigitYear(year: int): int;
     static readonly persianEra: int;
 }
@@ -954,8 +934,6 @@ export class PersianCalendar$instance extends Calendar$instance {
 export interface __PersianCalendar$views {
     As_ICloneable(): System_Internal.ICloneable$instance;
 }
-
-export interface PersianCalendar$instance extends System_Internal.ICloneable$instance {}
 
 export type PersianCalendar = PersianCalendar$instance & __PersianCalendar$views;
 
@@ -1026,13 +1004,13 @@ export class StringInfo$instance {
     getHashCode(): int;
     substringByTextElements(startingTextElement: int): string;
     substringByTextElements(startingTextElement: int, lengthInTextElements: int): string;
-    static getNextTextElement(str: string, index: int): string;
-    static getNextTextElement(str: string): string;
-    static getNextTextElementLength(str: ReadOnlySpan_1<CLROf<char>>): int;
-    static getNextTextElementLength(str: string, index: int): int;
-    static getNextTextElementLength(str: string): int;
-    static getTextElementEnumerator(str: string, index: int): TextElementEnumerator;
-    static getTextElementEnumerator(str: string): TextElementEnumerator;
+    static getNextTextElement2(str: string, index: int): string;
+    static getNextTextElement2(str: string): string;
+    static getNextTextElementLength3(str: ReadOnlySpan_1<CLROf<char>>): int;
+    static getNextTextElementLength3(str: string, index: int): int;
+    static getNextTextElementLength3(str: string): int;
+    static getTextElementEnumerator2(str: string, index: int): TextElementEnumerator;
+    static getTextElementEnumerator2(str: string): TextElementEnumerator;
     static parseCombiningCharacters(str: string): int[];
 }
 
@@ -1048,30 +1026,30 @@ export class TaiwanCalendar$instance extends Calendar$instance {
     twoDigitYearMax: int;
     addMonths(time: DateTime, months: int): DateTime;
     addYears(time: DateTime, years: int): DateTime;
-    Clone(): unknown;
+    clone(): unknown;
     getDayOfMonth(time: DateTime): int;
     getDayOfWeek(time: DateTime): DayOfWeek;
     getDayOfYear(time: DateTime): int;
-    GetDaysInMonth(year: int, month: int, era: int): int;
-    GetDaysInMonth(year: int, month: int): int;
-    GetDaysInYear(year: int, era: int): int;
-    GetDaysInYear(year: int): int;
+    getDaysInMonth(year: int, month: int, era: int): int;
+    getDaysInMonth(year: int, month: int): int;
+    getDaysInYear(year: int, era: int): int;
+    getDaysInYear(year: int): int;
     getEra(time: DateTime): int;
     getLeapMonth(year: int, era: int): int;
     getLeapMonth(year: int): int;
     getMonth(time: DateTime): int;
-    GetMonthsInYear(year: int, era: int): int;
-    GetMonthsInYear(year: int): int;
+    getMonthsInYear(year: int, era: int): int;
+    getMonthsInYear(year: int): int;
     getWeekOfYear(time: DateTime, rule: CalendarWeekRule, firstDayOfWeek: DayOfWeek): int;
     getYear(time: DateTime): int;
-    IsLeapDay(year: int, month: int, day: int, era: int): boolean;
-    IsLeapDay(year: int, month: int, day: int): boolean;
-    IsLeapMonth(year: int, month: int, era: int): boolean;
-    IsLeapMonth(year: int, month: int): boolean;
-    IsLeapYear(year: int, era: int): boolean;
-    IsLeapYear(year: int): boolean;
-    ToDateTime(year: int, month: int, day: int, hour: int, minute: int, second: int, millisecond: int, era: int): DateTime;
-    ToDateTime(year: int, month: int, day: int, hour: int, minute: int, second: int, millisecond: int): DateTime;
+    isLeapDay(year: int, month: int, day: int, era: int): boolean;
+    isLeapDay(year: int, month: int, day: int): boolean;
+    isLeapMonth(year: int, month: int, era: int): boolean;
+    isLeapMonth(year: int, month: int): boolean;
+    isLeapYear(year: int, era: int): boolean;
+    isLeapYear(year: int): boolean;
+    toDateTime(year: int, month: int, day: int, hour: int, minute: int, second: int, millisecond: int, era: int): DateTime;
+    toDateTime(year: int, month: int, day: int, hour: int, minute: int, second: int, millisecond: int): DateTime;
     toFourDigitYear(year: int): int;
 }
 
@@ -1079,8 +1057,6 @@ export class TaiwanCalendar$instance extends Calendar$instance {
 export interface __TaiwanCalendar$views {
     As_ICloneable(): System_Internal.ICloneable$instance;
 }
-
-export interface TaiwanCalendar$instance extends System_Internal.ICloneable$instance {}
 
 export type TaiwanCalendar = TaiwanCalendar$instance & __TaiwanCalendar$views;
 
@@ -1090,7 +1066,7 @@ export class TaiwanLunisolarCalendar$instance extends EastAsianLunisolarCalendar
     readonly eras: int[];
     readonly maxSupportedDateTime: DateTime;
     readonly minSupportedDateTime: DateTime;
-    Clone(): unknown;
+    clone(): unknown;
     getEra(time: DateTime): int;
 }
 
@@ -1098,8 +1074,6 @@ export class TaiwanLunisolarCalendar$instance extends EastAsianLunisolarCalendar
 export interface __TaiwanLunisolarCalendar$views {
     As_ICloneable(): System_Internal.ICloneable$instance;
 }
-
-export interface TaiwanLunisolarCalendar$instance extends System_Internal.ICloneable$instance {}
 
 export type TaiwanLunisolarCalendar = TaiwanLunisolarCalendar$instance & __TaiwanLunisolarCalendar$views;
 
@@ -1164,30 +1138,30 @@ export class ThaiBuddhistCalendar$instance extends Calendar$instance {
     twoDigitYearMax: int;
     addMonths(time: DateTime, months: int): DateTime;
     addYears(time: DateTime, years: int): DateTime;
-    Clone(): unknown;
+    clone(): unknown;
     getDayOfMonth(time: DateTime): int;
     getDayOfWeek(time: DateTime): DayOfWeek;
     getDayOfYear(time: DateTime): int;
-    GetDaysInMonth(year: int, month: int, era: int): int;
-    GetDaysInMonth(year: int, month: int): int;
-    GetDaysInYear(year: int, era: int): int;
-    GetDaysInYear(year: int): int;
+    getDaysInMonth(year: int, month: int, era: int): int;
+    getDaysInMonth(year: int, month: int): int;
+    getDaysInYear(year: int, era: int): int;
+    getDaysInYear(year: int): int;
     getEra(time: DateTime): int;
     getLeapMonth(year: int, era: int): int;
     getLeapMonth(year: int): int;
     getMonth(time: DateTime): int;
-    GetMonthsInYear(year: int, era: int): int;
-    GetMonthsInYear(year: int): int;
+    getMonthsInYear(year: int, era: int): int;
+    getMonthsInYear(year: int): int;
     getWeekOfYear(time: DateTime, rule: CalendarWeekRule, firstDayOfWeek: DayOfWeek): int;
     getYear(time: DateTime): int;
-    IsLeapDay(year: int, month: int, day: int, era: int): boolean;
-    IsLeapDay(year: int, month: int, day: int): boolean;
-    IsLeapMonth(year: int, month: int, era: int): boolean;
-    IsLeapMonth(year: int, month: int): boolean;
-    IsLeapYear(year: int, era: int): boolean;
-    IsLeapYear(year: int): boolean;
-    ToDateTime(year: int, month: int, day: int, hour: int, minute: int, second: int, millisecond: int, era: int): DateTime;
-    ToDateTime(year: int, month: int, day: int, hour: int, minute: int, second: int, millisecond: int): DateTime;
+    isLeapDay(year: int, month: int, day: int, era: int): boolean;
+    isLeapDay(year: int, month: int, day: int): boolean;
+    isLeapMonth(year: int, month: int, era: int): boolean;
+    isLeapMonth(year: int, month: int): boolean;
+    isLeapYear(year: int, era: int): boolean;
+    isLeapYear(year: int): boolean;
+    toDateTime(year: int, month: int, day: int, hour: int, minute: int, second: int, millisecond: int, era: int): DateTime;
+    toDateTime(year: int, month: int, day: int, hour: int, minute: int, second: int, millisecond: int): DateTime;
     toFourDigitYear(year: int): int;
     static readonly thaiBuddhistEra: int;
 }
@@ -1196,8 +1170,6 @@ export class ThaiBuddhistCalendar$instance extends Calendar$instance {
 export interface __ThaiBuddhistCalendar$views {
     As_ICloneable(): System_Internal.ICloneable$instance;
 }
-
-export interface ThaiBuddhistCalendar$instance extends System_Internal.ICloneable$instance {}
 
 export type ThaiBuddhistCalendar = ThaiBuddhistCalendar$instance & __ThaiBuddhistCalendar$views;
 
@@ -1211,29 +1183,29 @@ export class UmAlQuraCalendar$instance extends Calendar$instance {
     twoDigitYearMax: int;
     addMonths(time: DateTime, months: int): DateTime;
     addYears(time: DateTime, years: int): DateTime;
-    Clone(): unknown;
+    clone(): unknown;
     getDayOfMonth(time: DateTime): int;
     getDayOfWeek(time: DateTime): DayOfWeek;
     getDayOfYear(time: DateTime): int;
-    GetDaysInMonth(year: int, month: int, era: int): int;
-    GetDaysInMonth(year: int, month: int): int;
-    GetDaysInYear(year: int, era: int): int;
-    GetDaysInYear(year: int): int;
+    getDaysInMonth(year: int, month: int, era: int): int;
+    getDaysInMonth(year: int, month: int): int;
+    getDaysInYear(year: int, era: int): int;
+    getDaysInYear(year: int): int;
     getEra(time: DateTime): int;
     getLeapMonth(year: int, era: int): int;
     getLeapMonth(year: int): int;
     getMonth(time: DateTime): int;
-    GetMonthsInYear(year: int, era: int): int;
-    GetMonthsInYear(year: int): int;
+    getMonthsInYear(year: int, era: int): int;
+    getMonthsInYear(year: int): int;
     getYear(time: DateTime): int;
-    IsLeapDay(year: int, month: int, day: int, era: int): boolean;
-    IsLeapDay(year: int, month: int, day: int): boolean;
-    IsLeapMonth(year: int, month: int, era: int): boolean;
-    IsLeapMonth(year: int, month: int): boolean;
-    IsLeapYear(year: int, era: int): boolean;
-    IsLeapYear(year: int): boolean;
-    ToDateTime(year: int, month: int, day: int, hour: int, minute: int, second: int, millisecond: int, era: int): DateTime;
-    ToDateTime(year: int, month: int, day: int, hour: int, minute: int, second: int, millisecond: int): DateTime;
+    isLeapDay(year: int, month: int, day: int, era: int): boolean;
+    isLeapDay(year: int, month: int, day: int): boolean;
+    isLeapMonth(year: int, month: int, era: int): boolean;
+    isLeapMonth(year: int, month: int): boolean;
+    isLeapYear(year: int, era: int): boolean;
+    isLeapYear(year: int): boolean;
+    toDateTime(year: int, month: int, day: int, hour: int, minute: int, second: int, millisecond: int, era: int): DateTime;
+    toDateTime(year: int, month: int, day: int, hour: int, minute: int, second: int, millisecond: int): DateTime;
     toFourDigitYear(year: int): int;
     static readonly umAlQuraEra: int;
 }
@@ -1242,8 +1214,6 @@ export class UmAlQuraCalendar$instance extends Calendar$instance {
 export interface __UmAlQuraCalendar$views {
     As_ICloneable(): System_Internal.ICloneable$instance;
 }
-
-export interface UmAlQuraCalendar$instance extends System_Internal.ICloneable$instance {}
 
 export type UmAlQuraCalendar = UmAlQuraCalendar$instance & __UmAlQuraCalendar$views;
 
@@ -1271,11 +1241,11 @@ export abstract class GlobalizationExtensions$instance {
 export type GlobalizationExtensions = GlobalizationExtensions$instance;
 
 export abstract class ISOWeek$instance {
-    static getWeekOfYear(date: DateOnly): int;
-    static getWeekOfYear(date: DateTime): int;
+    static getWeekOfYear2(date: DateOnly): int;
+    static getWeekOfYear2(date: DateTime): int;
     static getWeeksInYear(year: int): int;
-    static getYear(date: DateOnly): int;
-    static getYear(date: DateTime): int;
+    static getYear2(date: DateOnly): int;
+    static getYear2(date: DateTime): int;
     static getYearEnd(year: int): DateTime;
     static getYearStart(year: int): DateTime;
     static toDateOnly(year: int, week: int, dayOfWeek: DayOfWeek): DateOnly;

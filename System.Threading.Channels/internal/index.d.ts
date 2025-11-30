@@ -80,15 +80,13 @@ export class ChannelClosedException$instance extends System_Internal.InvalidOper
     constructor(message: string);
     constructor(innerException: Exception);
     constructor(message: string, innerException: Exception);
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
 export interface __ChannelClosedException$views {
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
-
-export interface ChannelClosedException$instance extends System_Runtime_Serialization_Internal.ISerializable$instance {}
 
 export type ChannelClosedException = ChannelClosedException$instance & __ChannelClosedException$views;
 

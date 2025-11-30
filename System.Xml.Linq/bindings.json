@@ -13,7 +13,7 @@
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.LoadOptions::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67109245,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -772,7 +772,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -835,7 +835,7 @@
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.ReaderOptions::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67109254,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -1572,7 +1572,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -1615,7 +1615,7 @@
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.SaveOptions::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67109250,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -2363,7 +2363,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -2416,7 +2416,7 @@
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XObjectChange::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67109240,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -3175,7 +3175,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -3278,7 +3278,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.IXmlLineInfo::HasLineInfo():System.Boolean",
           "clrName": "HasLineInfo",
-          "tsEmitName": "hasLineInfo",
+          "tsEmitName": "hasLineInfo$view",
           "metadataToken": 100666142,
           "canonicalSignature": "():System.Boolean",
           "normalizedSignature": "HasLineInfo|():System.Boolean|static=false",
@@ -3292,7 +3292,7 @@
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XAttribute::HasLineInfo():System.Boolean",
           "clrName": "HasLineInfo",
-          "tsEmitName": "HasLineInfo",
+          "tsEmitName": "hasLineInfo",
           "metadataToken": 0,
           "canonicalSignature": "():System.Boolean",
           "normalizedSignature": "HasLineInfo|():System.Boolean|static=false",
@@ -3488,7 +3488,7 @@
           }
         },
         {
-          "tsName": "hasLineInfo",
+          "tsName": "hasLineInfo$view",
           "isStatic": false,
           "tsSignatureId": "HasLineInfo|():System.Boolean|static=false",
           "target": {
@@ -3498,7 +3498,7 @@
           }
         },
         {
-          "tsName": "HasLineInfo",
+          "tsName": "hasLineInfo",
           "isStatic": false,
           "tsSignatureId": "HasLineInfo|():System.Boolean|static=false",
           "target": {
@@ -3831,7 +3831,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.IXmlLineInfo::HasLineInfo():System.Boolean",
           "clrName": "HasLineInfo",
-          "tsEmitName": "hasLineInfo",
+          "tsEmitName": "hasLineInfo$view",
           "metadataToken": 100666142,
           "canonicalSignature": "():System.Boolean",
           "normalizedSignature": "HasLineInfo|():System.Boolean|static=false",
@@ -3845,7 +3845,7 @@
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XCData::HasLineInfo():System.Boolean",
           "clrName": "HasLineInfo",
-          "tsEmitName": "HasLineInfo",
+          "tsEmitName": "hasLineInfo",
           "metadataToken": 0,
           "canonicalSignature": "():System.Boolean",
           "normalizedSignature": "HasLineInfo|():System.Boolean|static=false",
@@ -3947,7 +3947,7 @@
           }
         },
         {
-          "tsName": "hasLineInfo",
+          "tsName": "hasLineInfo$view",
           "isStatic": false,
           "tsSignatureId": "HasLineInfo|():System.Boolean|static=false",
           "target": {
@@ -3957,7 +3957,7 @@
           }
         },
         {
-          "tsName": "HasLineInfo",
+          "tsName": "hasLineInfo",
           "isStatic": false,
           "tsSignatureId": "HasLineInfo|():System.Boolean|static=false",
           "target": {
@@ -4530,7 +4530,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.IXmlLineInfo::HasLineInfo():System.Boolean",
           "clrName": "HasLineInfo",
-          "tsEmitName": "hasLineInfo",
+          "tsEmitName": "hasLineInfo$view",
           "metadataToken": 100666142,
           "canonicalSignature": "():System.Boolean",
           "normalizedSignature": "HasLineInfo|():System.Boolean|static=false",
@@ -4544,7 +4544,7 @@
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XComment::HasLineInfo():System.Boolean",
           "clrName": "HasLineInfo",
-          "tsEmitName": "HasLineInfo",
+          "tsEmitName": "hasLineInfo",
           "metadataToken": 0,
           "canonicalSignature": "():System.Boolean",
           "normalizedSignature": "HasLineInfo|():System.Boolean|static=false",
@@ -4660,7 +4660,7 @@
           }
         },
         {
-          "tsName": "hasLineInfo",
+          "tsName": "hasLineInfo$view",
           "isStatic": false,
           "tsSignatureId": "HasLineInfo|():System.Boolean|static=false",
           "target": {
@@ -4670,7 +4670,7 @@
           }
         },
         {
-          "tsName": "HasLineInfo",
+          "tsName": "hasLineInfo",
           "isStatic": false,
           "tsSignatureId": "HasLineInfo|():System.Boolean|static=false",
           "target": {
@@ -5425,7 +5425,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.IXmlLineInfo::HasLineInfo():System.Boolean",
           "clrName": "HasLineInfo",
-          "tsEmitName": "hasLineInfo",
+          "tsEmitName": "hasLineInfo$view",
           "metadataToken": 100666142,
           "canonicalSignature": "():System.Boolean",
           "normalizedSignature": "HasLineInfo|():System.Boolean|static=false",
@@ -5439,7 +5439,7 @@
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XContainer::HasLineInfo():System.Boolean",
           "clrName": "HasLineInfo",
-          "tsEmitName": "HasLineInfo",
+          "tsEmitName": "hasLineInfo",
           "metadataToken": 0,
           "canonicalSignature": "():System.Boolean",
           "normalizedSignature": "HasLineInfo|():System.Boolean|static=false",
@@ -5664,7 +5664,7 @@
           }
         },
         {
-          "tsName": "hasLineInfo",
+          "tsName": "hasLineInfo$view",
           "isStatic": false,
           "tsSignatureId": "HasLineInfo|():System.Boolean|static=false",
           "target": {
@@ -5674,7 +5674,7 @@
           }
         },
         {
-          "tsName": "HasLineInfo",
+          "tsName": "hasLineInfo",
           "isStatic": false,
           "tsSignatureId": "HasLineInfo|():System.Boolean|static=false",
           "target": {
@@ -6784,7 +6784,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.IXmlLineInfo::HasLineInfo():System.Boolean",
           "clrName": "HasLineInfo",
-          "tsEmitName": "hasLineInfo",
+          "tsEmitName": "hasLineInfo$view",
           "metadataToken": 100666142,
           "canonicalSignature": "():System.Boolean",
           "normalizedSignature": "HasLineInfo|():System.Boolean|static=false",
@@ -6798,7 +6798,7 @@
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XDocument::HasLineInfo():System.Boolean",
           "clrName": "HasLineInfo",
-          "tsEmitName": "HasLineInfo",
+          "tsEmitName": "hasLineInfo",
           "metadataToken": 0,
           "canonicalSignature": "():System.Boolean",
           "normalizedSignature": "HasLineInfo|():System.Boolean|static=false",
@@ -7192,7 +7192,7 @@
           }
         },
         {
-          "tsName": "hasLineInfo",
+          "tsName": "hasLineInfo$view",
           "isStatic": false,
           "tsSignatureId": "HasLineInfo|():System.Boolean|static=false",
           "target": {
@@ -7202,7 +7202,7 @@
           }
         },
         {
-          "tsName": "HasLineInfo",
+          "tsName": "hasLineInfo",
           "isStatic": false,
           "tsSignatureId": "HasLineInfo|():System.Boolean|static=false",
           "target": {
@@ -7983,7 +7983,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.IXmlLineInfo::HasLineInfo():System.Boolean",
           "clrName": "HasLineInfo",
-          "tsEmitName": "hasLineInfo",
+          "tsEmitName": "hasLineInfo$view",
           "metadataToken": 100666142,
           "canonicalSignature": "():System.Boolean",
           "normalizedSignature": "HasLineInfo|():System.Boolean|static=false",
@@ -7997,7 +7997,7 @@
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XDocumentType::HasLineInfo():System.Boolean",
           "clrName": "HasLineInfo",
-          "tsEmitName": "HasLineInfo",
+          "tsEmitName": "hasLineInfo",
           "metadataToken": 0,
           "canonicalSignature": "():System.Boolean",
           "normalizedSignature": "HasLineInfo|():System.Boolean|static=false",
@@ -8155,7 +8155,7 @@
           }
         },
         {
-          "tsName": "hasLineInfo",
+          "tsName": "hasLineInfo$view",
           "isStatic": false,
           "tsSignatureId": "HasLineInfo|():System.Boolean|static=false",
           "target": {
@@ -8165,7 +8165,7 @@
           }
         },
         {
-          "tsName": "HasLineInfo",
+          "tsName": "hasLineInfo",
           "isStatic": false,
           "tsSignatureId": "HasLineInfo|():System.Boolean|static=false",
           "target": {
@@ -9370,7 +9370,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.IXmlLineInfo::HasLineInfo():System.Boolean",
           "clrName": "HasLineInfo",
-          "tsEmitName": "hasLineInfo",
+          "tsEmitName": "hasLineInfo$view",
           "metadataToken": 100666142,
           "canonicalSignature": "():System.Boolean",
           "normalizedSignature": "HasLineInfo|():System.Boolean|static=false",
@@ -9426,7 +9426,7 @@
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XElement::HasLineInfo():System.Boolean",
           "clrName": "HasLineInfo",
-          "tsEmitName": "HasLineInfo",
+          "tsEmitName": "hasLineInfo",
           "metadataToken": 0,
           "canonicalSignature": "():System.Boolean",
           "normalizedSignature": "HasLineInfo|():System.Boolean|static=false",
@@ -10100,7 +10100,7 @@
           }
         },
         {
-          "tsName": "hasLineInfo",
+          "tsName": "hasLineInfo$view",
           "isStatic": false,
           "tsSignatureId": "HasLineInfo|():System.Boolean|static=false",
           "target": {
@@ -10140,7 +10140,7 @@
           }
         },
         {
-          "tsName": "HasLineInfo",
+          "tsName": "hasLineInfo",
           "isStatic": false,
           "tsSignatureId": "HasLineInfo|():System.Boolean|static=false",
           "target": {
@@ -11882,7 +11882,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.IXmlLineInfo::HasLineInfo():System.Boolean",
           "clrName": "HasLineInfo",
-          "tsEmitName": "hasLineInfo",
+          "tsEmitName": "hasLineInfo$view",
           "metadataToken": 100666142,
           "canonicalSignature": "():System.Boolean",
           "normalizedSignature": "HasLineInfo|():System.Boolean|static=false",
@@ -11896,7 +11896,7 @@
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XNode::HasLineInfo():System.Boolean",
           "clrName": "HasLineInfo",
-          "tsEmitName": "HasLineInfo",
+          "tsEmitName": "hasLineInfo",
           "metadataToken": 0,
           "canonicalSignature": "():System.Boolean",
           "normalizedSignature": "HasLineInfo|():System.Boolean|static=false",
@@ -12269,7 +12269,7 @@
           }
         },
         {
-          "tsName": "hasLineInfo",
+          "tsName": "hasLineInfo$view",
           "isStatic": false,
           "tsSignatureId": "HasLineInfo|():System.Boolean|static=false",
           "target": {
@@ -12279,7 +12279,7 @@
           }
         },
         {
-          "tsName": "HasLineInfo",
+          "tsName": "hasLineInfo",
           "isStatic": false,
           "tsSignatureId": "HasLineInfo|():System.Boolean|static=false",
           "target": {
@@ -13649,7 +13649,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.IXmlLineInfo::HasLineInfo():System.Boolean",
           "clrName": "HasLineInfo",
-          "tsEmitName": "hasLineInfo",
+          "tsEmitName": "hasLineInfo$view",
           "metadataToken": 100666142,
           "canonicalSignature": "():System.Boolean",
           "normalizedSignature": "HasLineInfo|():System.Boolean|static=false",
@@ -13663,7 +13663,7 @@
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XProcessingInstruction::HasLineInfo():System.Boolean",
           "clrName": "HasLineInfo",
-          "tsEmitName": "HasLineInfo",
+          "tsEmitName": "hasLineInfo",
           "metadataToken": 0,
           "canonicalSignature": "():System.Boolean",
           "normalizedSignature": "HasLineInfo|():System.Boolean|static=false",
@@ -13793,7 +13793,7 @@
           }
         },
         {
-          "tsName": "hasLineInfo",
+          "tsName": "hasLineInfo$view",
           "isStatic": false,
           "tsSignatureId": "HasLineInfo|():System.Boolean|static=false",
           "target": {
@@ -13803,7 +13803,7 @@
           }
         },
         {
-          "tsName": "HasLineInfo",
+          "tsName": "hasLineInfo",
           "isStatic": false,
           "tsSignatureId": "HasLineInfo|():System.Boolean|static=false",
           "target": {
@@ -14826,7 +14826,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.IXmlLineInfo::HasLineInfo():System.Boolean",
           "clrName": "HasLineInfo",
-          "tsEmitName": "hasLineInfo",
+          "tsEmitName": "hasLineInfo$view",
           "metadataToken": 100666142,
           "canonicalSignature": "():System.Boolean",
           "normalizedSignature": "HasLineInfo|():System.Boolean|static=false",
@@ -14840,7 +14840,7 @@
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XText::HasLineInfo():System.Boolean",
           "clrName": "HasLineInfo",
-          "tsEmitName": "HasLineInfo",
+          "tsEmitName": "hasLineInfo",
           "metadataToken": 0,
           "canonicalSignature": "():System.Boolean",
           "normalizedSignature": "HasLineInfo|():System.Boolean|static=false",
@@ -14956,7 +14956,7 @@
           }
         },
         {
-          "tsName": "hasLineInfo",
+          "tsName": "hasLineInfo$view",
           "isStatic": false,
           "tsSignatureId": "HasLineInfo|():System.Boolean|static=false",
           "target": {
@@ -14966,7 +14966,7 @@
           }
         },
         {
-          "tsName": "HasLineInfo",
+          "tsName": "hasLineInfo",
           "isStatic": false,
           "tsSignatureId": "HasLineInfo|():System.Boolean|static=false",
           "target": {

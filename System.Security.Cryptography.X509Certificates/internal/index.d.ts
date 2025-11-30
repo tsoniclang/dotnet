@@ -314,8 +314,8 @@ export class CertificateRequest$instance {
     createSigningRequestPem(signatureGenerator: X509SignatureGenerator): string;
     static loadSigningRequest(pkcs10: byte[], signerHashAlgorithm: HashAlgorithmName, options?: CertificateRequestLoadOptions, signerSignaturePadding?: RSASignaturePadding): CertificateRequest;
     static loadSigningRequest(pkcs10: ReadOnlySpan_1<CLROf<byte>>, signerHashAlgorithm: HashAlgorithmName, bytesConsumed: { value: ref<int> }, options?: CertificateRequestLoadOptions, signerSignaturePadding?: RSASignaturePadding): CertificateRequest;
-    static loadSigningRequestPem(pkcs10Pem: ReadOnlySpan_1<CLROf<char>>, signerHashAlgorithm: HashAlgorithmName, options?: CertificateRequestLoadOptions, signerSignaturePadding?: RSASignaturePadding): CertificateRequest;
-    static loadSigningRequestPem(pkcs10Pem: string, signerHashAlgorithm: HashAlgorithmName, options?: CertificateRequestLoadOptions, signerSignaturePadding?: RSASignaturePadding): CertificateRequest;
+    static loadSigningRequestPem2(pkcs10Pem: ReadOnlySpan_1<CLROf<char>>, signerHashAlgorithm: HashAlgorithmName, options?: CertificateRequestLoadOptions, signerSignaturePadding?: RSASignaturePadding): CertificateRequest;
+    static loadSigningRequestPem2(pkcs10Pem: string, signerHashAlgorithm: HashAlgorithmName, options?: CertificateRequestLoadOptions, signerSignaturePadding?: RSASignaturePadding): CertificateRequest;
 }
 
 
@@ -333,8 +333,8 @@ export class CertificateRevocationListBuilder$instance {
     static buildCrlDistributionPointExtension(uris: IEnumerable_1<CLROf<string>>, critical?: boolean): X509Extension;
     static load(currentCrl: byte[], currentCrlNumber: { value: ref<BigInteger> }): CertificateRevocationListBuilder;
     static load(currentCrl: ReadOnlySpan_1<CLROf<byte>>, currentCrlNumber: { value: ref<BigInteger> }, bytesConsumed: { value: ref<int> }): CertificateRevocationListBuilder;
-    static loadPem(currentCrl: ReadOnlySpan_1<CLROf<char>>, currentCrlNumber: { value: ref<BigInteger> }): CertificateRevocationListBuilder;
-    static loadPem(currentCrl: string, currentCrlNumber: { value: ref<BigInteger> }): CertificateRevocationListBuilder;
+    static loadPem2(currentCrl: ReadOnlySpan_1<CLROf<char>>, currentCrlNumber: { value: ref<BigInteger> }): CertificateRevocationListBuilder;
+    static loadPem2(currentCrl: string, currentCrlNumber: { value: ref<BigInteger> }): CertificateRevocationListBuilder;
 }
 
 
@@ -366,15 +366,13 @@ export type Pkcs12LoaderLimits = Pkcs12LoaderLimits$instance;
 
 export class Pkcs12LoadLimitExceededException$instance extends System_Security_Cryptography_Internal.CryptographicException$instance {
     constructor(propertyName: string);
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
 export interface __Pkcs12LoadLimitExceededException$views {
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
-
-export interface Pkcs12LoadLimitExceededException$instance extends System_Runtime_Serialization_Internal.ISerializable$instance {}
 
 export type Pkcs12LoadLimitExceededException = Pkcs12LoadLimitExceededException$instance & __Pkcs12LoadLimitExceededException$views;
 
@@ -492,9 +490,9 @@ export class X509AuthorityKeyIdentifierExtension$instance extends X509Extension$
     static createFromCertificate(certificate: X509Certificate2, includeKeyIdentifier: boolean, includeIssuerAndSerial: boolean): X509AuthorityKeyIdentifierExtension;
     static createFromIssuerNameAndSerialNumber(issuerName: X500DistinguishedName, serialNumber: byte[]): X509AuthorityKeyIdentifierExtension;
     static createFromIssuerNameAndSerialNumber(issuerName: X500DistinguishedName, serialNumber: ReadOnlySpan_1<CLROf<byte>>): X509AuthorityKeyIdentifierExtension;
-    static createFromSubjectKeyIdentifier(subjectKeyIdentifier: byte[]): X509AuthorityKeyIdentifierExtension;
-    static createFromSubjectKeyIdentifier(subjectKeyIdentifier: ReadOnlySpan_1<CLROf<byte>>): X509AuthorityKeyIdentifierExtension;
-    static createFromSubjectKeyIdentifier(subjectKeyIdentifier: X509SubjectKeyIdentifierExtension): X509AuthorityKeyIdentifierExtension;
+    static createFromSubjectKeyIdentifier2(subjectKeyIdentifier: byte[]): X509AuthorityKeyIdentifierExtension;
+    static createFromSubjectKeyIdentifier2(subjectKeyIdentifier: ReadOnlySpan_1<CLROf<byte>>): X509AuthorityKeyIdentifierExtension;
+    static createFromSubjectKeyIdentifier2(subjectKeyIdentifier: X509SubjectKeyIdentifierExtension): X509AuthorityKeyIdentifierExtension;
 }
 
 
@@ -625,7 +623,7 @@ export class X509Certificate2$instance extends X509Certificate$instance {
     copyWithPrivateKey(privateKey: MLDsa): X509Certificate2;
     copyWithPrivateKey(privateKey: SlhDsa): X509Certificate2;
     copyWithPrivateKey(privateKey: CompositeMLDsa): X509Certificate2;
-    Dispose(): void;
+    dispose(): void;
     exportCertificatePem(): string;
     getCompositeMLDsaPrivateKey(): CompositeMLDsa;
     getCompositeMLDsaPublicKey(): CompositeMLDsa;
@@ -636,7 +634,7 @@ export class X509Certificate2$instance extends X509Certificate$instance {
     getMLKemPrivateKey(): MLKem;
     getMLKemPublicKey(): MLKem;
     getNameInfo(nameType: X509NameType, forIssuer: boolean): string;
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
     getSlhDsaPrivateKey(): SlhDsa;
     getSlhDsaPublicKey(): SlhDsa;
     import_(rawData: byte[]): void;
@@ -646,7 +644,7 @@ export class X509Certificate2$instance extends X509Certificate$instance {
     import_(fileName: string, password: string, keyStorageFlags: X509KeyStorageFlags): void;
     import_(fileName: string, password: SecureString, keyStorageFlags: X509KeyStorageFlags): void;
     matchesHostname(hostname: string, allowWildcards?: boolean, allowCommonName?: boolean): boolean;
-    OnDeserialization(sender: unknown): void;
+    onDeserialization(sender: unknown): void;
     reset(): void;
     toString(): string;
     toString(verbose: boolean): string;
@@ -669,7 +667,7 @@ export interface __X509Certificate2$views {
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
-export interface X509Certificate2$instance extends System_Internal.IDisposable$instance, System_Runtime_Serialization_Internal.IDeserializationCallback$instance, System_Runtime_Serialization_Internal.ISerializable$instance {}
+export interface X509Certificate2$instance extends System_Runtime_Serialization_Internal.IDeserializationCallback$instance, System_Runtime_Serialization_Internal.ISerializable$instance {}
 
 export type X509Certificate2 = X509Certificate2$instance & __X509Certificate2$views;
 
@@ -683,11 +681,11 @@ export class X509Certificate2Collection$instance extends X509CertificateCollecti
     add(value: unknown): int;
     addRange(value: X509Certificate[]): void;
     addRange(value: X509CertificateCollection): void;
-    Clear(): void;
+    clear(): void;
     contains(value: X509Certificate): boolean;
     contains(value: unknown): boolean;
-    CopyTo(array: X509Certificate[], index: int): void;
-    CopyTo(array: ClrArray, index: int): void;
+    copyTo(array: X509Certificate[], index: int): void;
+    copyTo(array: ClrArray, index: int): void;
     export_(contentType: X509ContentType): byte[];
     export_(contentType: X509ContentType, password: string): byte[];
     exportCertificatePems(): string;
@@ -710,12 +708,12 @@ export class X509Certificate2Collection$instance extends X509CertificateCollecti
     import_(fileName: string, password: ReadOnlySpan_1<CLROf<char>>, keyStorageFlags?: X509KeyStorageFlags): void;
     importFromPem(certPem: ReadOnlySpan_1<CLROf<char>>): void;
     importFromPemFile(certPemFilePath: string): void;
-    IndexOf(value: X509Certificate): int;
+    indexOf(value: X509Certificate): int;
     insert(index: int, value: X509Certificate): void;
     insert(index: int, value: unknown): void;
     remove(value: X509Certificate): void;
     remove(value: unknown): void;
-    RemoveAt(index: int): void;
+    removeAt(index: int): void;
     removeRange(certificates: X509Certificate2[]): void;
     removeRange(certificates: X509Certificate2Collection): void;
     tryExportCertificatePems(destination: Span_1<CLROf<char>>, charsWritten: { value: ref<int> }): boolean;
@@ -757,7 +755,7 @@ export class X509CertificateCollection$instance extends System_Collections_Inter
     add(value: unknown): int;
     addRange(value: X509Certificate[]): void;
     addRange(value: X509CertificateCollection): void;
-    Clear(): void;
+    clear(): void;
     contains(value: unknown): boolean;
     copyTo(array: ClrArray, index: int): void;
     getEnumerator(): IEnumerator;
@@ -765,7 +763,7 @@ export class X509CertificateCollection$instance extends System_Collections_Inter
     indexOf(value: X509Certificate): int;
     insert(index: int, value: unknown): void;
     remove(value: unknown): void;
-    RemoveAt(index: int): void;
+    removeAt(index: int): void;
 }
 
 
@@ -914,8 +912,8 @@ export class X509ExtensionCollection$instance {
     readonly syncRoot: unknown;
     add(extension: X509Extension): int;
     copyTo(array: X509Extension[], index: int): void;
-    get_Item(index: int): X509Extension;
-    get_Item(oid: string): X509Extension;
+    getItem(index: int): X509Extension;
+    getItem(oid: string): X509Extension;
     getEnumerator(): X509ExtensionEnumerator;
 }
 
@@ -1060,17 +1058,17 @@ export abstract class RSACertificateExtensions$instance {
 export type RSACertificateExtensions = RSACertificateExtensions$instance;
 
 export abstract class X509CertificateLoader$instance {
-    static loadCertificate(data: byte[]): X509Certificate2;
-    static loadCertificate(data: ReadOnlySpan_1<CLROf<byte>>): X509Certificate2;
+    static loadCertificate2(data: byte[]): X509Certificate2;
+    static loadCertificate2(data: ReadOnlySpan_1<CLROf<byte>>): X509Certificate2;
     static loadCertificateFromFile(path: string): X509Certificate2;
     static loadPkcs12(data: byte[], password: string, keyStorageFlags?: X509KeyStorageFlags, loaderLimits?: Pkcs12LoaderLimits): X509Certificate2;
     static loadPkcs12(data: ReadOnlySpan_1<CLROf<byte>>, password: ReadOnlySpan_1<CLROf<char>>, keyStorageFlags?: X509KeyStorageFlags, loaderLimits?: Pkcs12LoaderLimits): X509Certificate2;
     static loadPkcs12Collection(data: byte[], password: string, keyStorageFlags?: X509KeyStorageFlags, loaderLimits?: Pkcs12LoaderLimits): X509Certificate2Collection;
     static loadPkcs12Collection(data: ReadOnlySpan_1<CLROf<byte>>, password: ReadOnlySpan_1<CLROf<char>>, keyStorageFlags?: X509KeyStorageFlags, loaderLimits?: Pkcs12LoaderLimits): X509Certificate2Collection;
-    static loadPkcs12CollectionFromFile(path: string, password: ReadOnlySpan_1<CLROf<char>>, keyStorageFlags?: X509KeyStorageFlags, loaderLimits?: Pkcs12LoaderLimits): X509Certificate2Collection;
-    static loadPkcs12CollectionFromFile(path: string, password: string, keyStorageFlags?: X509KeyStorageFlags, loaderLimits?: Pkcs12LoaderLimits): X509Certificate2Collection;
-    static loadPkcs12FromFile(path: string, password: ReadOnlySpan_1<CLROf<char>>, keyStorageFlags?: X509KeyStorageFlags, loaderLimits?: Pkcs12LoaderLimits): X509Certificate2;
-    static loadPkcs12FromFile(path: string, password: string, keyStorageFlags?: X509KeyStorageFlags, loaderLimits?: Pkcs12LoaderLimits): X509Certificate2;
+    static loadPkcs12CollectionFromFile2(path: string, password: ReadOnlySpan_1<CLROf<char>>, keyStorageFlags?: X509KeyStorageFlags, loaderLimits?: Pkcs12LoaderLimits): X509Certificate2Collection;
+    static loadPkcs12CollectionFromFile2(path: string, password: string, keyStorageFlags?: X509KeyStorageFlags, loaderLimits?: Pkcs12LoaderLimits): X509Certificate2Collection;
+    static loadPkcs12FromFile2(path: string, password: ReadOnlySpan_1<CLROf<char>>, keyStorageFlags?: X509KeyStorageFlags, loaderLimits?: Pkcs12LoaderLimits): X509Certificate2;
+    static loadPkcs12FromFile2(path: string, password: string, keyStorageFlags?: X509KeyStorageFlags, loaderLimits?: Pkcs12LoaderLimits): X509Certificate2;
 }
 
 

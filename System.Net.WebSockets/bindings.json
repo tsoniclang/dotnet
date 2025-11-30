@@ -13,7 +13,7 @@
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocketCloseStatus::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67109090,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -838,7 +838,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -961,7 +961,7 @@
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocketError::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67109110,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -1786,7 +1786,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -1909,7 +1909,7 @@
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocketMessageFlags::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67109126,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -2657,7 +2657,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -2710,7 +2710,7 @@
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocketMessageType::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67109122,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -3458,7 +3458,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -3511,7 +3511,7 @@
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocketState::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67109135,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -4303,7 +4303,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -4593,7 +4593,7 @@
         {
           "stableId": "System.Net.WebSockets.Client:System.Net.WebSockets.ClientWebSocket::SendAsync(System.ArraySegment_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Net.WebSockets.WebSocketMessageType,System.Boolean,System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "clrName": "SendAsync",
-          "tsEmitName": "sendAsync",
+          "tsEmitName": "sendAsync4",
           "metadataToken": 100663332,
           "canonicalSignature": "(System.ArraySegment_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Net.WebSockets.WebSocketMessageType,System.Boolean,System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "normalizedSignature": "SendAsync|(System.ArraySegment_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Net.WebSockets.WebSocketMessageType,System.Boolean,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
@@ -4607,7 +4607,7 @@
         {
           "stableId": "System.Net.WebSockets.Client:System.Net.WebSockets.ClientWebSocket::SendAsync(System.ReadOnlyMemory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Net.WebSockets.WebSocketMessageType,System.Boolean,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask",
           "clrName": "SendAsync",
-          "tsEmitName": "sendAsync2",
+          "tsEmitName": "sendAsync5",
           "metadataToken": 100663333,
           "canonicalSignature": "(System.ReadOnlyMemory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Net.WebSockets.WebSocketMessageType,System.Boolean,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask",
           "normalizedSignature": "SendAsync|(System.ReadOnlyMemory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Net.WebSockets.WebSocketMessageType,System.Boolean,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask|static=false",
@@ -4621,7 +4621,7 @@
         {
           "stableId": "System.Net.WebSockets.Client:System.Net.WebSockets.ClientWebSocket::SendAsync(System.ReadOnlyMemory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Net.WebSockets.WebSocketMessageType,System.Net.WebSockets.WebSocketMessageFlags,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask",
           "clrName": "SendAsync",
-          "tsEmitName": "sendAsync3",
+          "tsEmitName": "sendAsync6",
           "metadataToken": 100663334,
           "canonicalSignature": "(System.ReadOnlyMemory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Net.WebSockets.WebSocketMessageType,System.Net.WebSockets.WebSocketMessageFlags,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask",
           "normalizedSignature": "SendAsync|(System.ReadOnlyMemory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Net.WebSockets.WebSocketMessageType,System.Net.WebSockets.WebSocketMessageFlags,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask|static=false",
@@ -4635,7 +4635,7 @@
         {
           "stableId": "System.Net.WebSockets.Client:System.Net.WebSockets.ClientWebSocket::ReceiveAsync(System.ArraySegment_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.WebSockets.WebSocketReceiveResult,System.Net.WebSockets,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
           "clrName": "ReceiveAsync",
-          "tsEmitName": "receiveAsync",
+          "tsEmitName": "receiveAsync3",
           "metadataToken": 100663335,
           "canonicalSignature": "(System.ArraySegment_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.WebSockets.WebSocketReceiveResult,System.Net.WebSockets,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
           "normalizedSignature": "ReceiveAsync|(System.ArraySegment_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.WebSockets.WebSocketReceiveResult,System.Net.WebSockets,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false",
@@ -4649,7 +4649,7 @@
         {
           "stableId": "System.Net.WebSockets.Client:System.Net.WebSockets.ClientWebSocket::ReceiveAsync(System.Memory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Net.WebSockets.ValueWebSocketReceiveResult,System.Net.WebSockets,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
           "clrName": "ReceiveAsync",
-          "tsEmitName": "receiveAsync2",
+          "tsEmitName": "receiveAsync4",
           "metadataToken": 100663336,
           "canonicalSignature": "(System.Memory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Net.WebSockets.ValueWebSocketReceiveResult,System.Net.WebSockets,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
           "normalizedSignature": "ReceiveAsync|(System.Memory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Net.WebSockets.ValueWebSocketReceiveResult,System.Net.WebSockets,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false",
@@ -4733,7 +4733,7 @@
         {
           "stableId": "System.Net.WebSockets.Client:System.Net.WebSockets.ClientWebSocket::ReceiveAsync(System.ArraySegment_1,System.Threading.CancellationToken):System.Threading.Tasks.Task_1",
           "clrName": "ReceiveAsync",
-          "tsEmitName": "ReceiveAsync",
+          "tsEmitName": "receiveAsync",
           "metadataToken": 0,
           "canonicalSignature": "(System.ArraySegment_1,System.Threading.CancellationToken):System.Threading.Tasks.Task_1",
           "normalizedSignature": "ReceiveAsync|(System.ArraySegment_1,System.Threading.CancellationToken):System.Threading.Tasks.Task_1|static=false",
@@ -4747,7 +4747,7 @@
         {
           "stableId": "System.Net.WebSockets.Client:System.Net.WebSockets.ClientWebSocket::ReceiveAsync(System.Memory_1,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1",
           "clrName": "ReceiveAsync",
-          "tsEmitName": "ReceiveAsync2",
+          "tsEmitName": "receiveAsync2",
           "metadataToken": 0,
           "canonicalSignature": "(System.Memory_1,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1",
           "normalizedSignature": "ReceiveAsync|(System.Memory_1,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1|static=false",
@@ -4761,7 +4761,7 @@
         {
           "stableId": "System.Net.WebSockets.Client:System.Net.WebSockets.ClientWebSocket::SendAsync(System.ArraySegment_1,System.Net.WebSockets.WebSocketMessageType,System.Boolean,System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "clrName": "SendAsync",
-          "tsEmitName": "SendAsync",
+          "tsEmitName": "sendAsync",
           "metadataToken": 0,
           "canonicalSignature": "(System.ArraySegment_1,System.Net.WebSockets.WebSocketMessageType,System.Boolean,System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "normalizedSignature": "SendAsync|(System.ArraySegment_1,System.Net.WebSockets.WebSocketMessageType,System.Boolean,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
@@ -4775,7 +4775,7 @@
         {
           "stableId": "System.Net.WebSockets.Client:System.Net.WebSockets.ClientWebSocket::SendAsync(System.ReadOnlyMemory_1,System.Net.WebSockets.WebSocketMessageType,System.Boolean,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask",
           "clrName": "SendAsync",
-          "tsEmitName": "SendAsync2",
+          "tsEmitName": "sendAsync2",
           "metadataToken": 0,
           "canonicalSignature": "(System.ReadOnlyMemory_1,System.Net.WebSockets.WebSocketMessageType,System.Boolean,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask",
           "normalizedSignature": "SendAsync|(System.ReadOnlyMemory_1,System.Net.WebSockets.WebSocketMessageType,System.Boolean,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask|static=false",
@@ -4789,7 +4789,7 @@
         {
           "stableId": "System.Net.WebSockets.Client:System.Net.WebSockets.ClientWebSocket::SendAsync(System.ReadOnlyMemory_1,System.Net.WebSockets.WebSocketMessageType,System.Net.WebSockets.WebSocketMessageFlags,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask",
           "clrName": "SendAsync",
-          "tsEmitName": "SendAsync3",
+          "tsEmitName": "sendAsync3",
           "metadataToken": 0,
           "canonicalSignature": "(System.ReadOnlyMemory_1,System.Net.WebSockets.WebSocketMessageType,System.Net.WebSockets.WebSocketMessageFlags,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask",
           "normalizedSignature": "SendAsync|(System.ReadOnlyMemory_1,System.Net.WebSockets.WebSocketMessageType,System.Net.WebSockets.WebSocketMessageFlags,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask|static=false",
@@ -4937,7 +4937,7 @@
           }
         },
         {
-          "tsName": "sendAsync",
+          "tsName": "sendAsync4",
           "isStatic": false,
           "tsSignatureId": "SendAsync|(System.ArraySegment_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Net.WebSockets.WebSocketMessageType,System.Boolean,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
           "target": {
@@ -4947,7 +4947,7 @@
           }
         },
         {
-          "tsName": "sendAsync2",
+          "tsName": "sendAsync5",
           "isStatic": false,
           "tsSignatureId": "SendAsync|(System.ReadOnlyMemory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Net.WebSockets.WebSocketMessageType,System.Boolean,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask|static=false",
           "target": {
@@ -4957,7 +4957,7 @@
           }
         },
         {
-          "tsName": "sendAsync3",
+          "tsName": "sendAsync6",
           "isStatic": false,
           "tsSignatureId": "SendAsync|(System.ReadOnlyMemory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Net.WebSockets.WebSocketMessageType,System.Net.WebSockets.WebSocketMessageFlags,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask|static=false",
           "target": {
@@ -4967,7 +4967,7 @@
           }
         },
         {
-          "tsName": "receiveAsync",
+          "tsName": "receiveAsync3",
           "isStatic": false,
           "tsSignatureId": "ReceiveAsync|(System.ArraySegment_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.WebSockets.WebSocketReceiveResult,System.Net.WebSockets,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false",
           "target": {
@@ -4977,7 +4977,7 @@
           }
         },
         {
-          "tsName": "receiveAsync2",
+          "tsName": "receiveAsync4",
           "isStatic": false,
           "tsSignatureId": "ReceiveAsync|(System.Memory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Net.WebSockets.ValueWebSocketReceiveResult,System.Net.WebSockets,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false",
           "target": {
@@ -5037,7 +5037,7 @@
           }
         },
         {
-          "tsName": "ReceiveAsync",
+          "tsName": "receiveAsync",
           "isStatic": false,
           "tsSignatureId": "ReceiveAsync|(System.ArraySegment_1,System.Threading.CancellationToken):System.Threading.Tasks.Task_1|static=false",
           "target": {
@@ -5047,7 +5047,7 @@
           }
         },
         {
-          "tsName": "ReceiveAsync2",
+          "tsName": "receiveAsync2",
           "isStatic": false,
           "tsSignatureId": "ReceiveAsync|(System.Memory_1,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1|static=false",
           "target": {
@@ -5057,7 +5057,7 @@
           }
         },
         {
-          "tsName": "SendAsync",
+          "tsName": "sendAsync",
           "isStatic": false,
           "tsSignatureId": "SendAsync|(System.ArraySegment_1,System.Net.WebSockets.WebSocketMessageType,System.Boolean,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
           "target": {
@@ -5067,7 +5067,7 @@
           }
         },
         {
-          "tsName": "SendAsync2",
+          "tsName": "sendAsync2",
           "isStatic": false,
           "tsSignatureId": "SendAsync|(System.ReadOnlyMemory_1,System.Net.WebSockets.WebSocketMessageType,System.Boolean,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask|static=false",
           "target": {
@@ -5077,7 +5077,7 @@
           }
         },
         {
-          "tsName": "SendAsync3",
+          "tsName": "sendAsync3",
           "isStatic": false,
           "tsSignatureId": "SendAsync|(System.ReadOnlyMemory_1,System.Net.WebSockets.WebSocketMessageType,System.Net.WebSockets.WebSocketMessageFlags,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask|static=false",
           "target": {
@@ -8384,7 +8384,7 @@
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocketStream::FlushAsync(System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "clrName": "FlushAsync",
-          "tsEmitName": "flushAsync",
+          "tsEmitName": "flushAsync2",
           "metadataToken": 100663631,
           "canonicalSignature": "(System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "normalizedSignature": "FlushAsync|(System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
@@ -8398,7 +8398,7 @@
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocketStream::ReadAsync(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "ReadAsync",
-          "tsEmitName": "readAsync",
+          "tsEmitName": "readAsync4",
           "metadataToken": 100663632,
           "canonicalSignature": "(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "normalizedSignature": "ReadAsync|(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
@@ -8412,7 +8412,7 @@
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocketStream::ReadAsync(System.Memory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "ReadAsync",
-          "tsEmitName": "readAsync2",
+          "tsEmitName": "readAsync5",
           "metadataToken": 100663633,
           "canonicalSignature": "(System.Memory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "normalizedSignature": "ReadAsync|(System.Memory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
@@ -8454,7 +8454,7 @@
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocketStream::WriteAsync(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "clrName": "WriteAsync",
-          "tsEmitName": "writeAsync",
+          "tsEmitName": "writeAsync3",
           "metadataToken": 100663636,
           "canonicalSignature": "(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "normalizedSignature": "WriteAsync|(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
@@ -8468,7 +8468,7 @@
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocketStream::WriteAsync(System.ReadOnlyMemory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask",
           "clrName": "WriteAsync",
-          "tsEmitName": "writeAsync2",
+          "tsEmitName": "writeAsync4",
           "metadataToken": 100663637,
           "canonicalSignature": "(System.ReadOnlyMemory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask",
           "normalizedSignature": "WriteAsync|(System.ReadOnlyMemory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask|static=false",
@@ -8510,7 +8510,7 @@
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocketStream::Read(System.Byte[],System.Int32,System.Int32):System.Int32",
           "clrName": "Read",
-          "tsEmitName": "read",
+          "tsEmitName": "read2",
           "metadataToken": 100663640,
           "canonicalSignature": "(System.Byte[],System.Int32,System.Int32):System.Int32",
           "normalizedSignature": "Read|(System.Byte[],System.Int32,System.Int32):System.Int32|static=false",
@@ -8524,7 +8524,7 @@
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocketStream::Write(System.Byte[],System.Int32,System.Int32):System.Void",
           "clrName": "Write",
-          "tsEmitName": "write",
+          "tsEmitName": "write2",
           "metadataToken": 100663641,
           "canonicalSignature": "(System.Byte[],System.Int32,System.Int32):System.Void",
           "normalizedSignature": "Write|(System.Byte[],System.Int32,System.Int32):System.Void|static=false",
@@ -8566,7 +8566,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "dispose",
+          "tsEmitName": "dispose$view",
           "metadataToken": 100668530,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Dispose|():System.Void|static=false",
@@ -8580,7 +8580,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IAsyncDisposable::DisposeAsync():System.Threading.Tasks.ValueTask",
           "clrName": "DisposeAsync",
-          "tsEmitName": "disposeAsync",
+          "tsEmitName": "disposeAsync$view",
           "metadataToken": 100668504,
           "canonicalSignature": "():System.Threading.Tasks.ValueTask",
           "normalizedSignature": "DisposeAsync|():System.Threading.Tasks.ValueTask|static=false",
@@ -8594,7 +8594,7 @@
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocketStream::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "Dispose",
+          "tsEmitName": "dispose",
           "metadataToken": 0,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Dispose|():System.Void|static=false",
@@ -8608,7 +8608,7 @@
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocketStream::DisposeAsync():System.Threading.Tasks.ValueTask",
           "clrName": "DisposeAsync",
-          "tsEmitName": "DisposeAsync",
+          "tsEmitName": "disposeAsync",
           "metadataToken": 0,
           "canonicalSignature": "():System.Threading.Tasks.ValueTask",
           "normalizedSignature": "DisposeAsync|():System.Threading.Tasks.ValueTask|static=false",
@@ -8622,7 +8622,7 @@
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocketStream::FlushAsync():System.Threading.Tasks.Task",
           "clrName": "FlushAsync",
-          "tsEmitName": "FlushAsync",
+          "tsEmitName": "flushAsync",
           "metadataToken": 0,
           "canonicalSignature": "():System.Threading.Tasks.Task",
           "normalizedSignature": "FlushAsync|():System.Threading.Tasks.Task|static=false",
@@ -8636,7 +8636,7 @@
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocketStream::Read(System.Span_1):System.Int32",
           "clrName": "Read",
-          "tsEmitName": "Read",
+          "tsEmitName": "read",
           "metadataToken": 0,
           "canonicalSignature": "(System.Span_1):System.Int32",
           "normalizedSignature": "Read|(System.Span_1):System.Int32|static=false",
@@ -8650,7 +8650,7 @@
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocketStream::ReadAsync(System.Byte[],System.Int32,System.Int32):System.Threading.Tasks.Task_1",
           "clrName": "ReadAsync",
-          "tsEmitName": "ReadAsync",
+          "tsEmitName": "readAsync",
           "metadataToken": 0,
           "canonicalSignature": "(System.Byte[],System.Int32,System.Int32):System.Threading.Tasks.Task_1",
           "normalizedSignature": "ReadAsync|(System.Byte[],System.Int32,System.Int32):System.Threading.Tasks.Task_1|static=false",
@@ -8664,7 +8664,7 @@
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocketStream::ReadAsync(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken):System.Threading.Tasks.Task_1",
           "clrName": "ReadAsync",
-          "tsEmitName": "ReadAsync2",
+          "tsEmitName": "readAsync2",
           "metadataToken": 0,
           "canonicalSignature": "(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken):System.Threading.Tasks.Task_1",
           "normalizedSignature": "ReadAsync|(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken):System.Threading.Tasks.Task_1|static=false",
@@ -8678,7 +8678,7 @@
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocketStream::ReadAsync(System.Memory_1,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1",
           "clrName": "ReadAsync",
-          "tsEmitName": "ReadAsync3",
+          "tsEmitName": "readAsync3",
           "metadataToken": 0,
           "canonicalSignature": "(System.Memory_1,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1",
           "normalizedSignature": "ReadAsync|(System.Memory_1,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1|static=false",
@@ -8692,7 +8692,7 @@
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocketStream::Write(System.ReadOnlySpan_1):System.Void",
           "clrName": "Write",
-          "tsEmitName": "Write",
+          "tsEmitName": "write",
           "metadataToken": 0,
           "canonicalSignature": "(System.ReadOnlySpan_1):System.Void",
           "normalizedSignature": "Write|(System.ReadOnlySpan_1):System.Void|static=false",
@@ -8706,7 +8706,7 @@
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocketStream::WriteAsync(System.Byte[],System.Int32,System.Int32):System.Threading.Tasks.Task",
           "clrName": "WriteAsync",
-          "tsEmitName": "WriteAsync",
+          "tsEmitName": "writeAsync",
           "metadataToken": 0,
           "canonicalSignature": "(System.Byte[],System.Int32,System.Int32):System.Threading.Tasks.Task",
           "normalizedSignature": "WriteAsync|(System.Byte[],System.Int32,System.Int32):System.Threading.Tasks.Task|static=false",
@@ -8720,7 +8720,7 @@
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocketStream::WriteAsync(System.ReadOnlyMemory_1,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask",
           "clrName": "WriteAsync",
-          "tsEmitName": "WriteAsync2",
+          "tsEmitName": "writeAsync2",
           "metadataToken": 0,
           "canonicalSignature": "(System.ReadOnlyMemory_1,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask",
           "normalizedSignature": "WriteAsync|(System.ReadOnlyMemory_1,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask|static=false",
@@ -8873,7 +8873,7 @@
           }
         },
         {
-          "tsName": "flushAsync",
+          "tsName": "flushAsync2",
           "isStatic": false,
           "tsSignatureId": "FlushAsync|(System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
           "target": {
@@ -8883,7 +8883,7 @@
           }
         },
         {
-          "tsName": "readAsync",
+          "tsName": "readAsync4",
           "isStatic": false,
           "tsSignatureId": "ReadAsync|(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "target": {
@@ -8893,7 +8893,7 @@
           }
         },
         {
-          "tsName": "readAsync2",
+          "tsName": "readAsync5",
           "isStatic": false,
           "tsSignatureId": "ReadAsync|(System.Memory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "target": {
@@ -8923,7 +8923,7 @@
           }
         },
         {
-          "tsName": "writeAsync",
+          "tsName": "writeAsync3",
           "isStatic": false,
           "tsSignatureId": "WriteAsync|(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
           "target": {
@@ -8933,7 +8933,7 @@
           }
         },
         {
-          "tsName": "writeAsync2",
+          "tsName": "writeAsync4",
           "isStatic": false,
           "tsSignatureId": "WriteAsync|(System.ReadOnlyMemory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask|static=false",
           "target": {
@@ -8963,7 +8963,7 @@
           }
         },
         {
-          "tsName": "read",
+          "tsName": "read2",
           "isStatic": false,
           "tsSignatureId": "Read|(System.Byte[],System.Int32,System.Int32):System.Int32|static=false",
           "target": {
@@ -8973,7 +8973,7 @@
           }
         },
         {
-          "tsName": "write",
+          "tsName": "write2",
           "isStatic": false,
           "tsSignatureId": "Write|(System.Byte[],System.Int32,System.Int32):System.Void|static=false",
           "target": {
@@ -9003,7 +9003,7 @@
           }
         },
         {
-          "tsName": "dispose",
+          "tsName": "dispose$view",
           "isStatic": false,
           "tsSignatureId": "Dispose|():System.Void|static=false",
           "target": {
@@ -9013,7 +9013,7 @@
           }
         },
         {
-          "tsName": "disposeAsync",
+          "tsName": "disposeAsync$view",
           "isStatic": false,
           "tsSignatureId": "DisposeAsync|():System.Threading.Tasks.ValueTask|static=false",
           "target": {
@@ -9023,7 +9023,7 @@
           }
         },
         {
-          "tsName": "Dispose",
+          "tsName": "dispose",
           "isStatic": false,
           "tsSignatureId": "Dispose|():System.Void|static=false",
           "target": {
@@ -9033,7 +9033,7 @@
           }
         },
         {
-          "tsName": "DisposeAsync",
+          "tsName": "disposeAsync",
           "isStatic": false,
           "tsSignatureId": "DisposeAsync|():System.Threading.Tasks.ValueTask|static=false",
           "target": {
@@ -9043,7 +9043,7 @@
           }
         },
         {
-          "tsName": "FlushAsync",
+          "tsName": "flushAsync",
           "isStatic": false,
           "tsSignatureId": "FlushAsync|():System.Threading.Tasks.Task|static=false",
           "target": {
@@ -9053,7 +9053,7 @@
           }
         },
         {
-          "tsName": "Read",
+          "tsName": "read",
           "isStatic": false,
           "tsSignatureId": "Read|(System.Span_1):System.Int32|static=false",
           "target": {
@@ -9063,7 +9063,7 @@
           }
         },
         {
-          "tsName": "ReadAsync",
+          "tsName": "readAsync",
           "isStatic": false,
           "tsSignatureId": "ReadAsync|(System.Byte[],System.Int32,System.Int32):System.Threading.Tasks.Task_1|static=false",
           "target": {
@@ -9073,7 +9073,7 @@
           }
         },
         {
-          "tsName": "ReadAsync2",
+          "tsName": "readAsync2",
           "isStatic": false,
           "tsSignatureId": "ReadAsync|(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken):System.Threading.Tasks.Task_1|static=false",
           "target": {
@@ -9083,7 +9083,7 @@
           }
         },
         {
-          "tsName": "ReadAsync3",
+          "tsName": "readAsync3",
           "isStatic": false,
           "tsSignatureId": "ReadAsync|(System.Memory_1,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1|static=false",
           "target": {
@@ -9093,7 +9093,7 @@
           }
         },
         {
-          "tsName": "Write",
+          "tsName": "write",
           "isStatic": false,
           "tsSignatureId": "Write|(System.ReadOnlySpan_1):System.Void|static=false",
           "target": {
@@ -9103,7 +9103,7 @@
           }
         },
         {
-          "tsName": "WriteAsync",
+          "tsName": "writeAsync",
           "isStatic": false,
           "tsSignatureId": "WriteAsync|(System.Byte[],System.Int32,System.Int32):System.Threading.Tasks.Task|static=false",
           "target": {
@@ -9113,7 +9113,7 @@
           }
         },
         {
-          "tsName": "WriteAsync2",
+          "tsName": "writeAsync2",
           "isStatic": false,
           "tsSignatureId": "WriteAsync|(System.ReadOnlyMemory_1,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask|static=false",
           "target": {

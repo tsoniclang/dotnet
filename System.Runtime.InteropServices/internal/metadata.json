@@ -24,7 +24,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Architecture::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -140,7 +140,7 @@
         {
           "stableId": "System.Runtime.InteropServices:System.Runtime.InteropServices.AssemblyRegistrationFlags::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -184,7 +184,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.CallingConvention::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -255,7 +255,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.CharSet::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -317,7 +317,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ClassInterfaceType::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -370,7 +370,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComInterfaceType::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -432,7 +432,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComMemberType::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -485,7 +485,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.CreateComInterfaceFlags::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -538,7 +538,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.CreatedWrapperFlags::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -591,7 +591,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.CreateObjectFlags::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -662,7 +662,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.CustomQueryInterfaceMode::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -706,7 +706,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.CustomQueryInterfaceResult::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -759,7 +759,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.DllImportSearchPath::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -848,7 +848,7 @@
         {
           "stableId": "System.Runtime.InteropServices:System.Runtime.InteropServices.ExporterEventKind::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -857,7 +857,7 @@
         {
           "stableId": "System.Runtime.InteropServices:System.Runtime.InteropServices.ExporterEventKind::NOTIF_TYPECONVERTEDSystem.Runtime.InteropServices.ExporterEventKind",
           "clrName": "NOTIF_TYPECONVERTED",
-          "tsEmitName": "notif_typeconverted",
+          "tsEmitName": "notifTypeconverted",
           "normalizedSignature": "NOTIF_TYPECONVERTED|System.Runtime.InteropServices.ExporterEventKind|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -866,7 +866,7 @@
         {
           "stableId": "System.Runtime.InteropServices:System.Runtime.InteropServices.ExporterEventKind::NOTIF_CONVERTWARNINGSystem.Runtime.InteropServices.ExporterEventKind",
           "clrName": "NOTIF_CONVERTWARNING",
-          "tsEmitName": "notif_convertwarning",
+          "tsEmitName": "notifConvertwarning",
           "normalizedSignature": "NOTIF_CONVERTWARNING|System.Runtime.InteropServices.ExporterEventKind|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -875,7 +875,7 @@
         {
           "stableId": "System.Runtime.InteropServices:System.Runtime.InteropServices.ExporterEventKind::ERROR_REFTOINVALIDASSEMBLYSystem.Runtime.InteropServices.ExporterEventKind",
           "clrName": "ERROR_REFTOINVALIDASSEMBLY",
-          "tsEmitName": "error_reftoinvalidassembly",
+          "tsEmitName": "errorReftoinvalidassembly",
           "normalizedSignature": "ERROR_REFTOINVALIDASSEMBLY|System.Runtime.InteropServices.ExporterEventKind|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -901,7 +901,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.GCHandleType::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -963,7 +963,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.LayoutKind::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -1016,7 +1016,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.PosixSignal::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -1132,7 +1132,7 @@
         {
           "stableId": "System.Runtime.InteropServices:System.Runtime.InteropServices.RegistrationClassContext::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -1320,7 +1320,7 @@
         {
           "stableId": "System.Runtime.InteropServices:System.Runtime.InteropServices.RegistrationConnectionType::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -1391,7 +1391,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.StringMarshalling::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -1444,7 +1444,7 @@
         {
           "stableId": "System.Runtime.InteropServices:System.Runtime.InteropServices.TypeLibFuncFlags::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -1587,7 +1587,7 @@
         {
           "stableId": "System.Runtime.InteropServices:System.Runtime.InteropServices.TypeLibTypeFlags::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -1739,7 +1739,7 @@
         {
           "stableId": "System.Runtime.InteropServices:System.Runtime.InteropServices.TypeLibVarFlags::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -1882,7 +1882,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.UnmanagedType::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -2250,7 +2250,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.VarEnum::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -2259,7 +2259,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.VarEnum::VT_EMPTYSystem.Runtime.InteropServices.VarEnum",
           "clrName": "VT_EMPTY",
-          "tsEmitName": "vt_empty",
+          "tsEmitName": "vtEmpty",
           "normalizedSignature": "VT_EMPTY|System.Runtime.InteropServices.VarEnum|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -2268,7 +2268,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.VarEnum::VT_NULLSystem.Runtime.InteropServices.VarEnum",
           "clrName": "VT_NULL",
-          "tsEmitName": "vt_null",
+          "tsEmitName": "vtNull",
           "normalizedSignature": "VT_NULL|System.Runtime.InteropServices.VarEnum|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -2277,7 +2277,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.VarEnum::VT_I2System.Runtime.InteropServices.VarEnum",
           "clrName": "VT_I2",
-          "tsEmitName": "vt_i2",
+          "tsEmitName": "vtI2",
           "normalizedSignature": "VT_I2|System.Runtime.InteropServices.VarEnum|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -2286,7 +2286,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.VarEnum::VT_I4System.Runtime.InteropServices.VarEnum",
           "clrName": "VT_I4",
-          "tsEmitName": "vt_i4",
+          "tsEmitName": "vtI4",
           "normalizedSignature": "VT_I4|System.Runtime.InteropServices.VarEnum|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -2295,7 +2295,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.VarEnum::VT_R4System.Runtime.InteropServices.VarEnum",
           "clrName": "VT_R4",
-          "tsEmitName": "vt_r4",
+          "tsEmitName": "vtR4",
           "normalizedSignature": "VT_R4|System.Runtime.InteropServices.VarEnum|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -2304,7 +2304,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.VarEnum::VT_R8System.Runtime.InteropServices.VarEnum",
           "clrName": "VT_R8",
-          "tsEmitName": "vt_r8",
+          "tsEmitName": "vtR8",
           "normalizedSignature": "VT_R8|System.Runtime.InteropServices.VarEnum|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -2313,7 +2313,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.VarEnum::VT_CYSystem.Runtime.InteropServices.VarEnum",
           "clrName": "VT_CY",
-          "tsEmitName": "vt_cy",
+          "tsEmitName": "vtCy",
           "normalizedSignature": "VT_CY|System.Runtime.InteropServices.VarEnum|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -2322,7 +2322,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.VarEnum::VT_DATESystem.Runtime.InteropServices.VarEnum",
           "clrName": "VT_DATE",
-          "tsEmitName": "vt_date",
+          "tsEmitName": "vtDate",
           "normalizedSignature": "VT_DATE|System.Runtime.InteropServices.VarEnum|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -2331,7 +2331,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.VarEnum::VT_BSTRSystem.Runtime.InteropServices.VarEnum",
           "clrName": "VT_BSTR",
-          "tsEmitName": "vt_bstr",
+          "tsEmitName": "vtBstr",
           "normalizedSignature": "VT_BSTR|System.Runtime.InteropServices.VarEnum|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -2340,7 +2340,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.VarEnum::VT_DISPATCHSystem.Runtime.InteropServices.VarEnum",
           "clrName": "VT_DISPATCH",
-          "tsEmitName": "vt_dispatch",
+          "tsEmitName": "vtDispatch",
           "normalizedSignature": "VT_DISPATCH|System.Runtime.InteropServices.VarEnum|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -2349,7 +2349,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.VarEnum::VT_ERRORSystem.Runtime.InteropServices.VarEnum",
           "clrName": "VT_ERROR",
-          "tsEmitName": "vt_error",
+          "tsEmitName": "vtError",
           "normalizedSignature": "VT_ERROR|System.Runtime.InteropServices.VarEnum|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -2358,7 +2358,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.VarEnum::VT_BOOLSystem.Runtime.InteropServices.VarEnum",
           "clrName": "VT_BOOL",
-          "tsEmitName": "vt_bool",
+          "tsEmitName": "vtBool",
           "normalizedSignature": "VT_BOOL|System.Runtime.InteropServices.VarEnum|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -2367,7 +2367,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.VarEnum::VT_VARIANTSystem.Runtime.InteropServices.VarEnum",
           "clrName": "VT_VARIANT",
-          "tsEmitName": "vt_variant",
+          "tsEmitName": "vtVariant",
           "normalizedSignature": "VT_VARIANT|System.Runtime.InteropServices.VarEnum|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -2376,7 +2376,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.VarEnum::VT_UNKNOWNSystem.Runtime.InteropServices.VarEnum",
           "clrName": "VT_UNKNOWN",
-          "tsEmitName": "vt_unknown",
+          "tsEmitName": "vtUnknown",
           "normalizedSignature": "VT_UNKNOWN|System.Runtime.InteropServices.VarEnum|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -2385,7 +2385,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.VarEnum::VT_DECIMALSystem.Runtime.InteropServices.VarEnum",
           "clrName": "VT_DECIMAL",
-          "tsEmitName": "vt_decimal",
+          "tsEmitName": "vtDecimal",
           "normalizedSignature": "VT_DECIMAL|System.Runtime.InteropServices.VarEnum|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -2394,7 +2394,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.VarEnum::VT_I1System.Runtime.InteropServices.VarEnum",
           "clrName": "VT_I1",
-          "tsEmitName": "vt_i1",
+          "tsEmitName": "vtI1",
           "normalizedSignature": "VT_I1|System.Runtime.InteropServices.VarEnum|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -2403,7 +2403,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.VarEnum::VT_UI1System.Runtime.InteropServices.VarEnum",
           "clrName": "VT_UI1",
-          "tsEmitName": "vt_ui1",
+          "tsEmitName": "vtUi1",
           "normalizedSignature": "VT_UI1|System.Runtime.InteropServices.VarEnum|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -2412,7 +2412,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.VarEnum::VT_UI2System.Runtime.InteropServices.VarEnum",
           "clrName": "VT_UI2",
-          "tsEmitName": "vt_ui2",
+          "tsEmitName": "vtUi2",
           "normalizedSignature": "VT_UI2|System.Runtime.InteropServices.VarEnum|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -2421,7 +2421,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.VarEnum::VT_UI4System.Runtime.InteropServices.VarEnum",
           "clrName": "VT_UI4",
-          "tsEmitName": "vt_ui4",
+          "tsEmitName": "vtUi4",
           "normalizedSignature": "VT_UI4|System.Runtime.InteropServices.VarEnum|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -2430,7 +2430,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.VarEnum::VT_I8System.Runtime.InteropServices.VarEnum",
           "clrName": "VT_I8",
-          "tsEmitName": "vt_i8",
+          "tsEmitName": "vtI8",
           "normalizedSignature": "VT_I8|System.Runtime.InteropServices.VarEnum|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -2439,7 +2439,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.VarEnum::VT_UI8System.Runtime.InteropServices.VarEnum",
           "clrName": "VT_UI8",
-          "tsEmitName": "vt_ui8",
+          "tsEmitName": "vtUi8",
           "normalizedSignature": "VT_UI8|System.Runtime.InteropServices.VarEnum|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -2448,7 +2448,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.VarEnum::VT_INTSystem.Runtime.InteropServices.VarEnum",
           "clrName": "VT_INT",
-          "tsEmitName": "vt_int",
+          "tsEmitName": "vtInt",
           "normalizedSignature": "VT_INT|System.Runtime.InteropServices.VarEnum|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -2457,7 +2457,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.VarEnum::VT_UINTSystem.Runtime.InteropServices.VarEnum",
           "clrName": "VT_UINT",
-          "tsEmitName": "vt_uint",
+          "tsEmitName": "vtUint",
           "normalizedSignature": "VT_UINT|System.Runtime.InteropServices.VarEnum|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -2466,7 +2466,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.VarEnum::VT_VOIDSystem.Runtime.InteropServices.VarEnum",
           "clrName": "VT_VOID",
-          "tsEmitName": "vt_void",
+          "tsEmitName": "vtVoid",
           "normalizedSignature": "VT_VOID|System.Runtime.InteropServices.VarEnum|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -2475,7 +2475,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.VarEnum::VT_HRESULTSystem.Runtime.InteropServices.VarEnum",
           "clrName": "VT_HRESULT",
-          "tsEmitName": "vt_hresult",
+          "tsEmitName": "vtHresult",
           "normalizedSignature": "VT_HRESULT|System.Runtime.InteropServices.VarEnum|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -2484,7 +2484,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.VarEnum::VT_PTRSystem.Runtime.InteropServices.VarEnum",
           "clrName": "VT_PTR",
-          "tsEmitName": "vt_ptr",
+          "tsEmitName": "vtPtr",
           "normalizedSignature": "VT_PTR|System.Runtime.InteropServices.VarEnum|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -2493,7 +2493,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.VarEnum::VT_SAFEARRAYSystem.Runtime.InteropServices.VarEnum",
           "clrName": "VT_SAFEARRAY",
-          "tsEmitName": "vt_safearray",
+          "tsEmitName": "vtSafearray",
           "normalizedSignature": "VT_SAFEARRAY|System.Runtime.InteropServices.VarEnum|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -2502,7 +2502,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.VarEnum::VT_CARRAYSystem.Runtime.InteropServices.VarEnum",
           "clrName": "VT_CARRAY",
-          "tsEmitName": "vt_carray",
+          "tsEmitName": "vtCarray",
           "normalizedSignature": "VT_CARRAY|System.Runtime.InteropServices.VarEnum|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -2511,7 +2511,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.VarEnum::VT_USERDEFINEDSystem.Runtime.InteropServices.VarEnum",
           "clrName": "VT_USERDEFINED",
-          "tsEmitName": "vt_userdefined",
+          "tsEmitName": "vtUserdefined",
           "normalizedSignature": "VT_USERDEFINED|System.Runtime.InteropServices.VarEnum|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -2520,7 +2520,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.VarEnum::VT_LPSTRSystem.Runtime.InteropServices.VarEnum",
           "clrName": "VT_LPSTR",
-          "tsEmitName": "vt_lpstr",
+          "tsEmitName": "vtLpstr",
           "normalizedSignature": "VT_LPSTR|System.Runtime.InteropServices.VarEnum|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -2529,7 +2529,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.VarEnum::VT_LPWSTRSystem.Runtime.InteropServices.VarEnum",
           "clrName": "VT_LPWSTR",
-          "tsEmitName": "vt_lpwstr",
+          "tsEmitName": "vtLpwstr",
           "normalizedSignature": "VT_LPWSTR|System.Runtime.InteropServices.VarEnum|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -2538,7 +2538,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.VarEnum::VT_RECORDSystem.Runtime.InteropServices.VarEnum",
           "clrName": "VT_RECORD",
-          "tsEmitName": "vt_record",
+          "tsEmitName": "vtRecord",
           "normalizedSignature": "VT_RECORD|System.Runtime.InteropServices.VarEnum|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -2547,7 +2547,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.VarEnum::VT_FILETIMESystem.Runtime.InteropServices.VarEnum",
           "clrName": "VT_FILETIME",
-          "tsEmitName": "vt_filetime",
+          "tsEmitName": "vtFiletime",
           "normalizedSignature": "VT_FILETIME|System.Runtime.InteropServices.VarEnum|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -2556,7 +2556,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.VarEnum::VT_BLOBSystem.Runtime.InteropServices.VarEnum",
           "clrName": "VT_BLOB",
-          "tsEmitName": "vt_blob",
+          "tsEmitName": "vtBlob",
           "normalizedSignature": "VT_BLOB|System.Runtime.InteropServices.VarEnum|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -2565,7 +2565,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.VarEnum::VT_STREAMSystem.Runtime.InteropServices.VarEnum",
           "clrName": "VT_STREAM",
-          "tsEmitName": "vt_stream",
+          "tsEmitName": "vtStream",
           "normalizedSignature": "VT_STREAM|System.Runtime.InteropServices.VarEnum|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -2574,7 +2574,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.VarEnum::VT_STORAGESystem.Runtime.InteropServices.VarEnum",
           "clrName": "VT_STORAGE",
-          "tsEmitName": "vt_storage",
+          "tsEmitName": "vtStorage",
           "normalizedSignature": "VT_STORAGE|System.Runtime.InteropServices.VarEnum|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -2583,7 +2583,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.VarEnum::VT_STREAMED_OBJECTSystem.Runtime.InteropServices.VarEnum",
           "clrName": "VT_STREAMED_OBJECT",
-          "tsEmitName": "vt_streamed_object",
+          "tsEmitName": "vtStreamedObject",
           "normalizedSignature": "VT_STREAMED_OBJECT|System.Runtime.InteropServices.VarEnum|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -2592,7 +2592,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.VarEnum::VT_STORED_OBJECTSystem.Runtime.InteropServices.VarEnum",
           "clrName": "VT_STORED_OBJECT",
-          "tsEmitName": "vt_stored_object",
+          "tsEmitName": "vtStoredObject",
           "normalizedSignature": "VT_STORED_OBJECT|System.Runtime.InteropServices.VarEnum|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -2601,7 +2601,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.VarEnum::VT_BLOB_OBJECTSystem.Runtime.InteropServices.VarEnum",
           "clrName": "VT_BLOB_OBJECT",
-          "tsEmitName": "vt_blob_object",
+          "tsEmitName": "vtBlobObject",
           "normalizedSignature": "VT_BLOB_OBJECT|System.Runtime.InteropServices.VarEnum|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -2610,7 +2610,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.VarEnum::VT_CFSystem.Runtime.InteropServices.VarEnum",
           "clrName": "VT_CF",
-          "tsEmitName": "vt_cf",
+          "tsEmitName": "vtCf",
           "normalizedSignature": "VT_CF|System.Runtime.InteropServices.VarEnum|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -2619,7 +2619,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.VarEnum::VT_CLSIDSystem.Runtime.InteropServices.VarEnum",
           "clrName": "VT_CLSID",
-          "tsEmitName": "vt_clsid",
+          "tsEmitName": "vtClsid",
           "normalizedSignature": "VT_CLSID|System.Runtime.InteropServices.VarEnum|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -2628,7 +2628,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.VarEnum::VT_VECTORSystem.Runtime.InteropServices.VarEnum",
           "clrName": "VT_VECTOR",
-          "tsEmitName": "vt_vector",
+          "tsEmitName": "vtVector",
           "normalizedSignature": "VT_VECTOR|System.Runtime.InteropServices.VarEnum|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -2637,7 +2637,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.VarEnum::VT_ARRAYSystem.Runtime.InteropServices.VarEnum",
           "clrName": "VT_ARRAY",
-          "tsEmitName": "vt_array",
+          "tsEmitName": "vtArray",
           "normalizedSignature": "VT_ARRAY|System.Runtime.InteropServices.VarEnum|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -2646,7 +2646,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.VarEnum::VT_BYREFSystem.Runtime.InteropServices.VarEnum",
           "clrName": "VT_BYREF",
-          "tsEmitName": "vt_byref",
+          "tsEmitName": "vtByref",
           "normalizedSignature": "VT_BYREF|System.Runtime.InteropServices.VarEnum|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -7988,7 +7988,7 @@
         {
           "stableId": "System.Runtime.InteropServices:System.Runtime.InteropServices.ComAwareEventInfo::GetAddMethod(System.Boolean):System.Reflection.MethodInfo",
           "clrName": "GetAddMethod",
-          "tsEmitName": "getAddMethod",
+          "tsEmitName": "getAddMethod2",
           "normalizedSignature": "GetAddMethod|(System.Boolean):System.Reflection.MethodInfo|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8004,7 +8004,7 @@
         {
           "stableId": "System.Runtime.InteropServices:System.Runtime.InteropServices.ComAwareEventInfo::GetOtherMethods(System.Boolean):System.Reflection.MethodInfo[]",
           "clrName": "GetOtherMethods",
-          "tsEmitName": "getOtherMethods",
+          "tsEmitName": "getOtherMethods2",
           "normalizedSignature": "GetOtherMethods|(System.Boolean):System.Reflection.MethodInfo[]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8020,7 +8020,7 @@
         {
           "stableId": "System.Runtime.InteropServices:System.Runtime.InteropServices.ComAwareEventInfo::GetRaiseMethod(System.Boolean):System.Reflection.MethodInfo",
           "clrName": "GetRaiseMethod",
-          "tsEmitName": "getRaiseMethod",
+          "tsEmitName": "getRaiseMethod2",
           "normalizedSignature": "GetRaiseMethod|(System.Boolean):System.Reflection.MethodInfo|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8036,7 +8036,7 @@
         {
           "stableId": "System.Runtime.InteropServices:System.Runtime.InteropServices.ComAwareEventInfo::GetRemoveMethod(System.Boolean):System.Reflection.MethodInfo",
           "clrName": "GetRemoveMethod",
-          "tsEmitName": "getRemoveMethod",
+          "tsEmitName": "getRemoveMethod2",
           "normalizedSignature": "GetRemoveMethod|(System.Boolean):System.Reflection.MethodInfo|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8084,7 +8084,7 @@
         {
           "stableId": "System.Runtime.InteropServices:System.Runtime.InteropServices.ComAwareEventInfo::GetCustomAttributesData():System.Collections.Generic.IList_1[[System.Reflection.CustomAttributeData,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "GetCustomAttributesData",
-          "tsEmitName": "getCustomAttributesData",
+          "tsEmitName": "getCustomAttributesData2",
           "normalizedSignature": "GetCustomAttributesData|():System.Collections.Generic.IList_1[[System.Reflection.CustomAttributeData,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8167,7 +8167,7 @@
         {
           "stableId": "System.Runtime.InteropServices:System.Runtime.InteropServices.ComAwareEventInfo::GetAddMethod():System.Reflection.MethodInfo",
           "clrName": "GetAddMethod",
-          "tsEmitName": "GetAddMethod",
+          "tsEmitName": "getAddMethod",
           "normalizedSignature": "GetAddMethod|():System.Reflection.MethodInfo|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -8183,7 +8183,7 @@
         {
           "stableId": "System.Runtime.InteropServices:System.Runtime.InteropServices.ComAwareEventInfo::GetCustomAttributesData():System.Collections.Generic.IList_1",
           "clrName": "GetCustomAttributesData",
-          "tsEmitName": "GetCustomAttributesData",
+          "tsEmitName": "getCustomAttributesData",
           "normalizedSignature": "GetCustomAttributesData|():System.Collections.Generic.IList_1|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -8199,7 +8199,7 @@
         {
           "stableId": "System.Runtime.InteropServices:System.Runtime.InteropServices.ComAwareEventInfo::GetOtherMethods():System.Reflection.MethodInfo[]",
           "clrName": "GetOtherMethods",
-          "tsEmitName": "GetOtherMethods",
+          "tsEmitName": "getOtherMethods",
           "normalizedSignature": "GetOtherMethods|():System.Reflection.MethodInfo[]|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -8215,7 +8215,7 @@
         {
           "stableId": "System.Runtime.InteropServices:System.Runtime.InteropServices.ComAwareEventInfo::GetRaiseMethod():System.Reflection.MethodInfo",
           "clrName": "GetRaiseMethod",
-          "tsEmitName": "GetRaiseMethod",
+          "tsEmitName": "getRaiseMethod",
           "normalizedSignature": "GetRaiseMethod|():System.Reflection.MethodInfo|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -8231,7 +8231,7 @@
         {
           "stableId": "System.Runtime.InteropServices:System.Runtime.InteropServices.ComAwareEventInfo::GetRemoveMethod():System.Reflection.MethodInfo",
           "clrName": "GetRemoveMethod",
-          "tsEmitName": "GetRemoveMethod",
+          "tsEmitName": "getRemoveMethod",
           "normalizedSignature": "GetRemoveMethod|():System.Reflection.MethodInfo|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -8573,7 +8573,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "getObjectData",
+          "tsEmitName": "getObjectData$view",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -8590,7 +8590,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.COMException::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData",
+          "tsEmitName": "getObjectData",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -9488,7 +9488,7 @@
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "clone",
+          "tsEmitName": "clone$view",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -9505,7 +9505,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "getObjectData",
+          "tsEmitName": "getObjectData$view",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -9522,7 +9522,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.DllImportResolver::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "Clone",
+          "tsEmitName": "clone",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -9538,7 +9538,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.DllImportResolver::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData",
+          "tsEmitName": "getObjectData",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -9663,7 +9663,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "getObjectData",
+          "tsEmitName": "getObjectData$view",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -9680,7 +9680,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ExternalException::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData",
+          "tsEmitName": "getObjectData",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -10050,7 +10050,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "getObjectData",
+          "tsEmitName": "getObjectData$view",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -10067,7 +10067,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.InvalidComObjectException::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData",
+          "tsEmitName": "getObjectData",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -10116,7 +10116,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "getObjectData",
+          "tsEmitName": "getObjectData$view",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -10133,7 +10133,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.InvalidOleVariantTypeException::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData",
+          "tsEmitName": "getObjectData",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -10496,7 +10496,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "getObjectData",
+          "tsEmitName": "getObjectData$view",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -10513,7 +10513,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.MarshalDirectiveException::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData",
+          "tsEmitName": "getObjectData",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -10838,7 +10838,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "getObjectData",
+          "tsEmitName": "getObjectData$view",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -10855,7 +10855,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.SafeArrayRankMismatchException::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData",
+          "tsEmitName": "getObjectData",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -10904,7 +10904,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "getObjectData",
+          "tsEmitName": "getObjectData$view",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -10921,7 +10921,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.SafeArrayTypeMismatchException::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData",
+          "tsEmitName": "getObjectData",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -11146,7 +11146,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "dispose",
+          "tsEmitName": "dispose$view",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -11163,7 +11163,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.SafeBuffer::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "Dispose",
+          "tsEmitName": "dispose",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -11389,7 +11389,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "getObjectData",
+          "tsEmitName": "getObjectData$view",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -11406,7 +11406,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.SEHException::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData",
+          "tsEmitName": "getObjectData",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",

@@ -178,8 +178,8 @@ export class UnsupportedOSPlatformGuardAttribute$instance extends OSPlatformAttr
 export type UnsupportedOSPlatformGuardAttribute = UnsupportedOSPlatformGuardAttribute$instance;
 
 export abstract class VersioningHelper$instance {
-    static makeVersionSafeName(name: string, from_: ResourceScope, to: ResourceScope, type_: Type): string;
-    static makeVersionSafeName(name: string, from_: ResourceScope, to: ResourceScope): string;
+    static makeVersionSafeName2(name: string, from_: ResourceScope, to: ResourceScope, type_: Type): string;
+    static makeVersionSafeName2(name: string, from_: ResourceScope, to: ResourceScope): string;
 }
 
 

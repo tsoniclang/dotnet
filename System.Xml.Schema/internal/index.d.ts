@@ -208,9 +208,9 @@ export type ValidationEventArgs = ValidationEventArgs$instance;
 export class ValidationEventHandler$instance extends Function {
     constructor(object_: unknown, method: nint);
     beginInvoke(sender: unknown, e: ValidationEventArgs, callback: AsyncCallback, object_: unknown): IAsyncResult;
-    Clone(): unknown;
+    clone(): unknown;
     endInvoke(result: IAsyncResult): void;
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
     invoke(sender: unknown, e: ValidationEventArgs): void;
 }
 
@@ -219,8 +219,6 @@ export interface __ValidationEventHandler$views {
     As_ICloneable(): System_Internal.ICloneable$instance;
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
-
-export interface ValidationEventHandler$instance extends System_Internal.ICloneable$instance {}
 
 export type ValidationEventHandler = ValidationEventHandler$instance & __ValidationEventHandler$views;
 
@@ -238,8 +236,8 @@ export class XmlAtomicValue$instance extends System_Xml_XPath_Internal.XPathItem
     readonly xmlType: XmlSchemaType;
     clone(): XmlAtomicValue;
     toString(): string;
-    ValueAs(type_: Type, nsResolver: IXmlNamespaceResolver): unknown;
-    ValueAs(returnType: Type): unknown;
+    valueAs(type_: Type, nsResolver: IXmlNamespaceResolver): unknown;
+    valueAs(returnType: Type): unknown;
 }
 
 
@@ -277,11 +275,11 @@ export class XmlSchema$instance extends XmlSchemaObject$instance {
     write(writer: TextWriter, namespaceManager: XmlNamespaceManager): void;
     write(writer: XmlWriter): void;
     write(writer: XmlWriter, namespaceManager: XmlNamespaceManager): void;
-    static readonly namespace: string;
+    static readonly namespace_: string;
     static readonly instanceNamespace: string;
-    static read(stream: Stream, validationEventHandler: ValidationEventHandler): XmlSchema;
-    static read(reader: TextReader, validationEventHandler: ValidationEventHandler): XmlSchema;
-    static read(reader: XmlReader, validationEventHandler: ValidationEventHandler): XmlSchema;
+    static read2(stream: Stream, validationEventHandler: ValidationEventHandler): XmlSchema;
+    static read2(reader: TextReader, validationEventHandler: ValidationEventHandler): XmlSchema;
+    static read2(reader: XmlReader, validationEventHandler: ValidationEventHandler): XmlSchema;
 }
 
 
@@ -798,14 +796,14 @@ export class XmlSchemaObjectCollection$instance extends System_Collections_Inter
     constructor(parent: XmlSchemaObject);
     item: XmlSchemaObject;
     add(value: unknown): int;
-    Clear(): void;
+    clear(): void;
     contains(value: unknown): boolean;
     copyTo(array: ClrArray, index: int): void;
     getEnumerator(): IEnumerator;
     indexOf(item: XmlSchemaObject): int;
     insert(index: int, value: unknown): void;
     remove(value: unknown): void;
-    RemoveAt(index: int): void;
+    removeAt(index: int): void;
 }
 
 
@@ -1004,8 +1002,8 @@ export class XmlSchemaType$instance extends XmlSchemaAnnotated$instance {
     readonly typeCode: XmlTypeCode;
     static getBuiltInComplexType(typeCode: XmlTypeCode): XmlSchemaComplexType;
     static getBuiltInComplexType(qualifiedName: XmlQualifiedName): XmlSchemaComplexType;
-    static getBuiltInSimpleType(typeCode: XmlTypeCode): XmlSchemaSimpleType;
-    static getBuiltInSimpleType(qualifiedName: XmlQualifiedName): XmlSchemaSimpleType;
+    static getBuiltInSimpleType2(typeCode: XmlTypeCode): XmlSchemaSimpleType;
+    static getBuiltInSimpleType2(qualifiedName: XmlQualifiedName): XmlSchemaSimpleType;
     static isDerivedFrom(derivedType: XmlSchemaType, baseType: XmlSchemaType, except: XmlSchemaDerivationMethod): boolean;
 }
 
@@ -1084,9 +1082,9 @@ export type XmlSchemaXPath = XmlSchemaXPath$instance;
 export class XmlValueGetter$instance extends Function {
     constructor(object_: unknown, method: nint);
     beginInvoke(callback: AsyncCallback, object_: unknown): IAsyncResult;
-    Clone(): unknown;
+    clone(): unknown;
     endInvoke(result: IAsyncResult): unknown;
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
     invoke(): unknown;
 }
 
@@ -1096,20 +1094,18 @@ export interface __XmlValueGetter$views {
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
-export interface XmlValueGetter$instance extends System_Internal.ICloneable$instance {}
-
 export type XmlValueGetter = XmlValueGetter$instance & __XmlValueGetter$views;
 
 
 export abstract class Extensions$instance {
-    static getSchemaInfo(source: XAttribute): IXmlSchemaInfo;
-    static getSchemaInfo(source: XElement): IXmlSchemaInfo;
-    static validate(source: XAttribute, partialValidationType: XmlSchemaObject, schemas: XmlSchemaSet, validationEventHandler: ValidationEventHandler, addSchemaInfo: boolean): void;
-    static validate(source: XAttribute, partialValidationType: XmlSchemaObject, schemas: XmlSchemaSet, validationEventHandler: ValidationEventHandler): void;
-    static validate(source: XDocument, schemas: XmlSchemaSet, validationEventHandler: ValidationEventHandler, addSchemaInfo: boolean): void;
-    static validate(source: XDocument, schemas: XmlSchemaSet, validationEventHandler: ValidationEventHandler): void;
-    static validate(source: XElement, partialValidationType: XmlSchemaObject, schemas: XmlSchemaSet, validationEventHandler: ValidationEventHandler, addSchemaInfo: boolean): void;
-    static validate(source: XElement, partialValidationType: XmlSchemaObject, schemas: XmlSchemaSet, validationEventHandler: ValidationEventHandler): void;
+    static getSchemaInfo2(source: XAttribute): IXmlSchemaInfo;
+    static getSchemaInfo2(source: XElement): IXmlSchemaInfo;
+    static validate6(source: XAttribute, partialValidationType: XmlSchemaObject, schemas: XmlSchemaSet, validationEventHandler: ValidationEventHandler, addSchemaInfo: boolean): void;
+    static validate6(source: XAttribute, partialValidationType: XmlSchemaObject, schemas: XmlSchemaSet, validationEventHandler: ValidationEventHandler): void;
+    static validate6(source: XDocument, schemas: XmlSchemaSet, validationEventHandler: ValidationEventHandler, addSchemaInfo: boolean): void;
+    static validate6(source: XDocument, schemas: XmlSchemaSet, validationEventHandler: ValidationEventHandler): void;
+    static validate6(source: XElement, partialValidationType: XmlSchemaObject, schemas: XmlSchemaSet, validationEventHandler: ValidationEventHandler, addSchemaInfo: boolean): void;
+    static validate6(source: XElement, partialValidationType: XmlSchemaObject, schemas: XmlSchemaSet, validationEventHandler: ValidationEventHandler): void;
 }
 
 

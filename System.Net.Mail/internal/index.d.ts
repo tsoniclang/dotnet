@@ -122,10 +122,10 @@ export class AlternateView$instance extends AttachmentBase$instance {
     constructor(contentStream: Stream, contentType: ContentType);
     baseUri: Uri;
     readonly linkedResources: LinkedResourceCollection;
-    Dispose(): void;
-    static createAlternateViewFromString(content: string, contentType: ContentType): AlternateView;
-    static createAlternateViewFromString(content: string, contentEncoding: Encoding, mediaType: string): AlternateView;
-    static createAlternateViewFromString(content: string): AlternateView;
+    dispose(): void;
+    static createAlternateViewFromString3(content: string, contentType: ContentType): AlternateView;
+    static createAlternateViewFromString3(content: string, contentEncoding: Encoding, mediaType: string): AlternateView;
+    static createAlternateViewFromString3(content: string): AlternateView;
 }
 
 
@@ -133,28 +133,26 @@ export interface __AlternateView$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
 
-export interface AlternateView$instance extends System_Internal.IDisposable$instance {}
-
 export type AlternateView = AlternateView$instance & __AlternateView$views;
 
 
 export class AlternateViewCollection$instance extends System_Collections_ObjectModel_Internal.Collection_1$instance<AlternateView> {
-    Add(item: AlternateView): void;
-    Add(value: unknown): int;
-    Clear(): void;
-    Contains(item: AlternateView): boolean;
-    Contains(value: unknown): boolean;
-    CopyTo(array: AlternateView[], index: int): void;
-    CopyTo(array: ClrArray, index: int): void;
+    add(item: AlternateView): void;
+    add(value: unknown): int;
+    clear(): void;
+    contains(item: AlternateView): boolean;
+    contains(value: unknown): boolean;
+    copyTo(array: AlternateView[], index: int): void;
+    copyTo(array: ClrArray, index: int): void;
     dispose(): void;
-    GetEnumerator(): IEnumerator_1<AlternateView>;
-    GetEnumerator(): IEnumerator;
-    IndexOf(item: AlternateView): int;
-    Insert(index: int, item: AlternateView): void;
-    Insert(index: int, value: unknown): void;
-    Remove(item: AlternateView): boolean;
-    Remove(value: unknown): void;
-    RemoveAt(index: int): void;
+    getEnumerator(): IEnumerator_1<AlternateView>;
+    getEnumerator(): IEnumerator;
+    indexOf(item: AlternateView): int;
+    insert(index: int, item: AlternateView): void;
+    insert(index: int, value: unknown): void;
+    remove(item: AlternateView): boolean;
+    remove(value: unknown): void;
+    removeAt(index: int): void;
 }
 
 
@@ -184,18 +182,16 @@ export class Attachment$instance extends AttachmentBase$instance {
     readonly contentDisposition: ContentDisposition;
     name: string;
     nameEncoding: Encoding;
-    Dispose(): void;
-    static createAttachmentFromString(content: string, contentType: ContentType): Attachment;
-    static createAttachmentFromString(content: string, name: string, contentEncoding: Encoding, mediaType: string): Attachment;
-    static createAttachmentFromString(content: string, name: string): Attachment;
+    dispose(): void;
+    static createAttachmentFromString3(content: string, contentType: ContentType): Attachment;
+    static createAttachmentFromString3(content: string, name: string, contentEncoding: Encoding, mediaType: string): Attachment;
+    static createAttachmentFromString3(content: string, name: string): Attachment;
 }
 
 
 export interface __Attachment$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
-
-export interface Attachment$instance extends System_Internal.IDisposable$instance {}
 
 export type Attachment = Attachment$instance & __Attachment$views;
 
@@ -219,22 +215,22 @@ export type AttachmentBase = AttachmentBase$instance & __AttachmentBase$views;
 
 
 export class AttachmentCollection$instance extends System_Collections_ObjectModel_Internal.Collection_1$instance<Attachment> {
-    Add(item: Attachment): void;
-    Add(value: unknown): int;
-    Clear(): void;
-    Contains(item: Attachment): boolean;
-    Contains(value: unknown): boolean;
-    CopyTo(array: Attachment[], index: int): void;
-    CopyTo(array: ClrArray, index: int): void;
+    add(item: Attachment): void;
+    add(value: unknown): int;
+    clear(): void;
+    contains(item: Attachment): boolean;
+    contains(value: unknown): boolean;
+    copyTo(array: Attachment[], index: int): void;
+    copyTo(array: ClrArray, index: int): void;
     dispose(): void;
-    GetEnumerator(): IEnumerator_1<Attachment>;
-    GetEnumerator(): IEnumerator;
-    IndexOf(item: Attachment): int;
-    Insert(index: int, item: Attachment): void;
-    Insert(index: int, value: unknown): void;
-    Remove(item: Attachment): boolean;
-    Remove(value: unknown): void;
-    RemoveAt(index: int): void;
+    getEnumerator(): IEnumerator_1<Attachment>;
+    getEnumerator(): IEnumerator;
+    indexOf(item: Attachment): int;
+    insert(index: int, item: Attachment): void;
+    insert(index: int, value: unknown): void;
+    remove(item: Attachment): boolean;
+    remove(value: unknown): void;
+    removeAt(index: int): void;
 }
 
 
@@ -262,10 +258,10 @@ export class LinkedResource$instance extends AttachmentBase$instance {
     constructor(contentStream: Stream, mediaType: string);
     constructor(contentStream: Stream, contentType: ContentType);
     contentLink: Uri;
-    Dispose(): void;
-    static createLinkedResourceFromString(content: string, contentType: ContentType): LinkedResource;
-    static createLinkedResourceFromString(content: string, contentEncoding: Encoding, mediaType: string): LinkedResource;
-    static createLinkedResourceFromString(content: string): LinkedResource;
+    dispose(): void;
+    static createLinkedResourceFromString3(content: string, contentType: ContentType): LinkedResource;
+    static createLinkedResourceFromString3(content: string, contentEncoding: Encoding, mediaType: string): LinkedResource;
+    static createLinkedResourceFromString3(content: string): LinkedResource;
 }
 
 
@@ -273,28 +269,26 @@ export interface __LinkedResource$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
 
-export interface LinkedResource$instance extends System_Internal.IDisposable$instance {}
-
 export type LinkedResource = LinkedResource$instance & __LinkedResource$views;
 
 
 export class LinkedResourceCollection$instance extends System_Collections_ObjectModel_Internal.Collection_1$instance<LinkedResource> {
-    Add(item: LinkedResource): void;
-    Add(value: unknown): int;
-    Clear(): void;
-    Contains(item: LinkedResource): boolean;
-    Contains(value: unknown): boolean;
-    CopyTo(array: LinkedResource[], index: int): void;
-    CopyTo(array: ClrArray, index: int): void;
+    add(item: LinkedResource): void;
+    add(value: unknown): int;
+    clear(): void;
+    contains(item: LinkedResource): boolean;
+    contains(value: unknown): boolean;
+    copyTo(array: LinkedResource[], index: int): void;
+    copyTo(array: ClrArray, index: int): void;
     dispose(): void;
-    GetEnumerator(): IEnumerator_1<LinkedResource>;
-    GetEnumerator(): IEnumerator;
-    IndexOf(item: LinkedResource): int;
-    Insert(index: int, item: LinkedResource): void;
-    Insert(index: int, value: unknown): void;
-    Remove(item: LinkedResource): boolean;
-    Remove(value: unknown): void;
-    RemoveAt(index: int): void;
+    getEnumerator(): IEnumerator_1<LinkedResource>;
+    getEnumerator(): IEnumerator;
+    indexOf(item: LinkedResource): int;
+    insert(index: int, item: LinkedResource): void;
+    insert(index: int, value: unknown): void;
+    remove(item: LinkedResource): boolean;
+    remove(value: unknown): void;
+    removeAt(index: int): void;
 }
 
 
@@ -337,19 +331,19 @@ export class MailAddressCollection$instance extends System_Collections_ObjectMod
     constructor();
     add(item: MailAddress): void;
     add(value: unknown): int;
-    Clear(): void;
-    Contains(item: MailAddress): boolean;
-    Contains(value: unknown): boolean;
-    CopyTo(array: MailAddress[], index: int): void;
-    CopyTo(array: ClrArray, index: int): void;
-    GetEnumerator(): IEnumerator_1<MailAddress>;
-    GetEnumerator(): IEnumerator;
-    IndexOf(item: MailAddress): int;
-    Insert(index: int, item: MailAddress): void;
-    Insert(index: int, value: unknown): void;
-    Remove(item: MailAddress): boolean;
-    Remove(value: unknown): void;
-    RemoveAt(index: int): void;
+    clear(): void;
+    contains(item: MailAddress): boolean;
+    contains(value: unknown): boolean;
+    copyTo(array: MailAddress[], index: int): void;
+    copyTo(array: ClrArray, index: int): void;
+    getEnumerator(): IEnumerator_1<MailAddress>;
+    getEnumerator(): IEnumerator;
+    indexOf(item: MailAddress): int;
+    insert(index: int, item: MailAddress): void;
+    insert(index: int, value: unknown): void;
+    remove(item: MailAddress): boolean;
+    remove(value: unknown): void;
+    removeAt(index: int): void;
     toString(): string;
 }
 
@@ -407,9 +401,9 @@ export type MailMessage = MailMessage$instance & __MailMessage$views;
 export class SendCompletedEventHandler$instance extends Function {
     constructor(object_: unknown, method: nint);
     beginInvoke(sender: unknown, e: AsyncCompletedEventArgs, callback: AsyncCallback, object_: unknown): IAsyncResult;
-    Clone(): unknown;
+    clone(): unknown;
     endInvoke(result: IAsyncResult): void;
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
     invoke(sender: unknown, e: AsyncCompletedEventArgs): void;
 }
 
@@ -418,8 +412,6 @@ export interface __SendCompletedEventHandler$views {
     As_ICloneable(): System_Internal.ICloneable$instance;
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
-
-export interface SendCompletedEventHandler$instance extends System_Internal.ICloneable$instance {}
 
 export type SendCompletedEventHandler = SendCompletedEventHandler$instance & __SendCompletedEventHandler$views;
 

@@ -95,24 +95,24 @@ export abstract class JsonNode$instance {
     asObject(): JsonObject;
     asValue(): JsonValue;
     deepClone(): JsonNode;
-    get_Item(index: int): JsonNode;
-    get_Item(propertyName: string): JsonNode;
+    getItem(index: int): JsonNode;
+    getItem(propertyName: string): JsonNode;
     getElementIndex(): int;
     getPath(): string;
     getPropertyName(): string;
     getValue<T>(): T;
     getValueKind(): JsonValueKind;
     replaceWith<T>(value: T): void;
-    set_Item(index: int, value: JsonNode): void;
-    set_Item(propertyName: string, value: JsonNode): void;
+    setItem(index: int, value: JsonNode): void;
+    setItem(propertyName: string, value: JsonNode): void;
     toJsonString(options?: JsonSerializerOptions): string;
     toString(): string;
     abstract writeTo(writer: Utf8JsonWriter, options?: JsonSerializerOptions): void;
     static deepEquals(node1: JsonNode, node2: JsonNode): boolean;
-    static parse(utf8Json: Stream, nodeOptions?: Nullable_1<JsonNodeOptions>, documentOptions?: JsonDocumentOptions): JsonNode;
-    static parse(utf8Json: ReadOnlySpan_1<CLROf<byte>>, nodeOptions?: Nullable_1<JsonNodeOptions>, documentOptions?: JsonDocumentOptions): JsonNode;
-    static parse(json: string, nodeOptions?: Nullable_1<JsonNodeOptions>, documentOptions?: JsonDocumentOptions): JsonNode;
-    static parse(reader: { value: ref<Utf8JsonReader> }, nodeOptions?: Nullable_1<JsonNodeOptions>): JsonNode;
+    static parse4(utf8Json: Stream, nodeOptions?: Nullable_1<JsonNodeOptions>, documentOptions?: JsonDocumentOptions): JsonNode;
+    static parse4(utf8Json: ReadOnlySpan_1<CLROf<byte>>, nodeOptions?: Nullable_1<JsonNodeOptions>, documentOptions?: JsonDocumentOptions): JsonNode;
+    static parse4(json: string, nodeOptions?: Nullable_1<JsonNodeOptions>, documentOptions?: JsonDocumentOptions): JsonNode;
+    static parse4(reader: { value: ref<Utf8JsonReader> }, nodeOptions?: Nullable_1<JsonNodeOptions>): JsonNode;
     static parseAsync(utf8Json: Stream, nodeOptions?: Nullable_1<JsonNodeOptions>, documentOptions?: JsonDocumentOptions, cancellationToken?: CancellationToken): Task_1<JsonNode>;
 }
 

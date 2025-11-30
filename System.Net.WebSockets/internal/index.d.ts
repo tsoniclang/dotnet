@@ -312,8 +312,8 @@ export class WebSocketStream$instance extends System_IO_Internal.Stream$instance
     readonly webSocket: WebSocket;
     beginRead(buffer: byte[], offset: int, count: int, callback: AsyncCallback, state: unknown): IAsyncResult;
     beginWrite(buffer: byte[], offset: int, count: int, callback: AsyncCallback, state: unknown): IAsyncResult;
-    Dispose(): void;
-    DisposeAsync(): ValueTask;
+    dispose(): void;
+    disposeAsync(): ValueTask;
     endRead(asyncResult: IAsyncResult): int;
     endWrite(asyncResult: IAsyncResult): void;
     flush(): void;
@@ -345,8 +345,6 @@ export interface __WebSocketStream$views {
     As_IAsyncDisposable(): System_Internal.IAsyncDisposable$instance;
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
-
-export interface WebSocketStream$instance extends System_Internal.IAsyncDisposable$instance, System_Internal.IDisposable$instance {}
 
 export type WebSocketStream = WebSocketStream$instance & __WebSocketStream$views;
 

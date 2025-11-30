@@ -13,7 +13,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Architecture::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67113551,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -838,7 +838,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -961,7 +961,7 @@
         {
           "stableId": "System.Runtime.InteropServices:System.Runtime.InteropServices.AssemblyRegistrationFlags::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67108867,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -1698,7 +1698,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -1741,7 +1741,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.CallingConvention::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67113568,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -2511,7 +2511,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -2584,7 +2584,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.CharSet::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67113574,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -3343,7 +3343,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -3406,7 +3406,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ClassInterfaceType::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67113580,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -4154,7 +4154,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -4207,7 +4207,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComInterfaceType::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67113589,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -4966,7 +4966,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -5029,7 +5029,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComMemberType::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67113594,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -5777,7 +5777,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -5830,7 +5830,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.CreateComInterfaceFlags::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67113606,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -6578,7 +6578,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -6631,7 +6631,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.CreatedWrapperFlags::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67113610,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -7379,7 +7379,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -7432,7 +7432,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.CreateObjectFlags::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67113600,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -8202,7 +8202,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -8275,7 +8275,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.CustomQueryInterfaceMode::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67113618,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -9012,7 +9012,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -9055,7 +9055,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.CustomQueryInterfaceResult::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67113621,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -9803,7 +9803,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -9856,7 +9856,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.DllImportSearchPath::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67113639,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -10648,7 +10648,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -10741,7 +10741,7 @@
         {
           "stableId": "System.Runtime.InteropServices:System.Runtime.InteropServices.ExporterEventKind::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67108877,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -10752,7 +10752,7 @@
         {
           "stableId": "System.Runtime.InteropServices:System.Runtime.InteropServices.ExporterEventKind::NOTIF_TYPECONVERTEDSystem.Runtime.InteropServices.ExporterEventKind",
           "clrName": "NOTIF_TYPECONVERTED",
-          "tsEmitName": "notif_typeconverted",
+          "tsEmitName": "notifTypeconverted",
           "metadataToken": 67108878,
           "normalizedSignature": "NOTIF_TYPECONVERTED|System.Runtime.InteropServices.ExporterEventKind|static=true|const=true",
           "isStatic": true,
@@ -10763,7 +10763,7 @@
         {
           "stableId": "System.Runtime.InteropServices:System.Runtime.InteropServices.ExporterEventKind::NOTIF_CONVERTWARNINGSystem.Runtime.InteropServices.ExporterEventKind",
           "clrName": "NOTIF_CONVERTWARNING",
-          "tsEmitName": "notif_convertwarning",
+          "tsEmitName": "notifConvertwarning",
           "metadataToken": 67108879,
           "normalizedSignature": "NOTIF_CONVERTWARNING|System.Runtime.InteropServices.ExporterEventKind|static=true|const=true",
           "isStatic": true,
@@ -10774,7 +10774,7 @@
         {
           "stableId": "System.Runtime.InteropServices:System.Runtime.InteropServices.ExporterEventKind::ERROR_REFTOINVALIDASSEMBLYSystem.Runtime.InteropServices.ExporterEventKind",
           "clrName": "ERROR_REFTOINVALIDASSEMBLY",
-          "tsEmitName": "error_reftoinvalidassembly",
+          "tsEmitName": "errorReftoinvalidassembly",
           "metadataToken": 67108880,
           "normalizedSignature": "ERROR_REFTOINVALIDASSEMBLY|System.Runtime.InteropServices.ExporterEventKind|static=true|const=true",
           "isStatic": true,
@@ -11489,7 +11489,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -11499,7 +11499,7 @@
           }
         },
         {
-          "tsName": "notif_typeconverted",
+          "tsName": "notifTypeconverted",
           "isStatic": true,
           "tsSignatureId": "NOTIF_TYPECONVERTED|System.Runtime.InteropServices.ExporterEventKind|static=true|const=true",
           "target": {
@@ -11509,7 +11509,7 @@
           }
         },
         {
-          "tsName": "notif_convertwarning",
+          "tsName": "notifConvertwarning",
           "isStatic": true,
           "tsSignatureId": "NOTIF_CONVERTWARNING|System.Runtime.InteropServices.ExporterEventKind|static=true|const=true",
           "target": {
@@ -11519,7 +11519,7 @@
           }
         },
         {
-          "tsName": "error_reftoinvalidassembly",
+          "tsName": "errorReftoinvalidassembly",
           "isStatic": true,
           "tsSignatureId": "ERROR_REFTOINVALIDASSEMBLY|System.Runtime.InteropServices.ExporterEventKind|static=true|const=true",
           "target": {
@@ -11542,7 +11542,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.GCHandleType::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67113650,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -12301,7 +12301,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -12364,7 +12364,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.LayoutKind::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67113659,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -13112,7 +13112,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -13165,7 +13165,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.PosixSignal::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67113686,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -13990,7 +13990,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -14113,7 +14113,7 @@
         {
           "stableId": "System.Runtime.InteropServices:System.Runtime.InteropServices.RegistrationClassContext::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67108893,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -15026,7 +15026,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -15229,7 +15229,7 @@
         {
           "stableId": "System.Runtime.InteropServices:System.Runtime.InteropServices.RegistrationConnectionType::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67108912,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -15999,7 +15999,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -16072,7 +16072,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.StringMarshalling::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67113715,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -16820,7 +16820,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -16873,7 +16873,7 @@
         {
           "stableId": "System.Runtime.InteropServices:System.Runtime.InteropServices.TypeLibFuncFlags::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67108919,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -17731,7 +17731,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -17884,7 +17884,7 @@
         {
           "stableId": "System.Runtime.InteropServices:System.Runtime.InteropServices.TypeLibTypeFlags::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67108935,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -18753,7 +18753,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -18916,7 +18916,7 @@
         {
           "stableId": "System.Runtime.InteropServices:System.Runtime.InteropServices.TypeLibVarFlags::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67108951,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -19774,7 +19774,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -19927,7 +19927,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.UnmanagedType::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67113755,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -21060,7 +21060,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -21463,7 +21463,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.VarEnum::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67113794,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -21474,7 +21474,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.VarEnum::VT_EMPTYSystem.Runtime.InteropServices.VarEnum",
           "clrName": "VT_EMPTY",
-          "tsEmitName": "vt_empty",
+          "tsEmitName": "vtEmpty",
           "metadataToken": 67113795,
           "normalizedSignature": "VT_EMPTY|System.Runtime.InteropServices.VarEnum|static=true|const=true",
           "isStatic": true,
@@ -21485,7 +21485,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.VarEnum::VT_NULLSystem.Runtime.InteropServices.VarEnum",
           "clrName": "VT_NULL",
-          "tsEmitName": "vt_null",
+          "tsEmitName": "vtNull",
           "metadataToken": 67113796,
           "normalizedSignature": "VT_NULL|System.Runtime.InteropServices.VarEnum|static=true|const=true",
           "isStatic": true,
@@ -21496,7 +21496,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.VarEnum::VT_I2System.Runtime.InteropServices.VarEnum",
           "clrName": "VT_I2",
-          "tsEmitName": "vt_i2",
+          "tsEmitName": "vtI2",
           "metadataToken": 67113797,
           "normalizedSignature": "VT_I2|System.Runtime.InteropServices.VarEnum|static=true|const=true",
           "isStatic": true,
@@ -21507,7 +21507,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.VarEnum::VT_I4System.Runtime.InteropServices.VarEnum",
           "clrName": "VT_I4",
-          "tsEmitName": "vt_i4",
+          "tsEmitName": "vtI4",
           "metadataToken": 67113798,
           "normalizedSignature": "VT_I4|System.Runtime.InteropServices.VarEnum|static=true|const=true",
           "isStatic": true,
@@ -21518,7 +21518,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.VarEnum::VT_R4System.Runtime.InteropServices.VarEnum",
           "clrName": "VT_R4",
-          "tsEmitName": "vt_r4",
+          "tsEmitName": "vtR4",
           "metadataToken": 67113799,
           "normalizedSignature": "VT_R4|System.Runtime.InteropServices.VarEnum|static=true|const=true",
           "isStatic": true,
@@ -21529,7 +21529,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.VarEnum::VT_R8System.Runtime.InteropServices.VarEnum",
           "clrName": "VT_R8",
-          "tsEmitName": "vt_r8",
+          "tsEmitName": "vtR8",
           "metadataToken": 67113800,
           "normalizedSignature": "VT_R8|System.Runtime.InteropServices.VarEnum|static=true|const=true",
           "isStatic": true,
@@ -21540,7 +21540,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.VarEnum::VT_CYSystem.Runtime.InteropServices.VarEnum",
           "clrName": "VT_CY",
-          "tsEmitName": "vt_cy",
+          "tsEmitName": "vtCy",
           "metadataToken": 67113801,
           "normalizedSignature": "VT_CY|System.Runtime.InteropServices.VarEnum|static=true|const=true",
           "isStatic": true,
@@ -21551,7 +21551,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.VarEnum::VT_DATESystem.Runtime.InteropServices.VarEnum",
           "clrName": "VT_DATE",
-          "tsEmitName": "vt_date",
+          "tsEmitName": "vtDate",
           "metadataToken": 67113802,
           "normalizedSignature": "VT_DATE|System.Runtime.InteropServices.VarEnum|static=true|const=true",
           "isStatic": true,
@@ -21562,7 +21562,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.VarEnum::VT_BSTRSystem.Runtime.InteropServices.VarEnum",
           "clrName": "VT_BSTR",
-          "tsEmitName": "vt_bstr",
+          "tsEmitName": "vtBstr",
           "metadataToken": 67113803,
           "normalizedSignature": "VT_BSTR|System.Runtime.InteropServices.VarEnum|static=true|const=true",
           "isStatic": true,
@@ -21573,7 +21573,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.VarEnum::VT_DISPATCHSystem.Runtime.InteropServices.VarEnum",
           "clrName": "VT_DISPATCH",
-          "tsEmitName": "vt_dispatch",
+          "tsEmitName": "vtDispatch",
           "metadataToken": 67113804,
           "normalizedSignature": "VT_DISPATCH|System.Runtime.InteropServices.VarEnum|static=true|const=true",
           "isStatic": true,
@@ -21584,7 +21584,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.VarEnum::VT_ERRORSystem.Runtime.InteropServices.VarEnum",
           "clrName": "VT_ERROR",
-          "tsEmitName": "vt_error",
+          "tsEmitName": "vtError",
           "metadataToken": 67113805,
           "normalizedSignature": "VT_ERROR|System.Runtime.InteropServices.VarEnum|static=true|const=true",
           "isStatic": true,
@@ -21595,7 +21595,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.VarEnum::VT_BOOLSystem.Runtime.InteropServices.VarEnum",
           "clrName": "VT_BOOL",
-          "tsEmitName": "vt_bool",
+          "tsEmitName": "vtBool",
           "metadataToken": 67113806,
           "normalizedSignature": "VT_BOOL|System.Runtime.InteropServices.VarEnum|static=true|const=true",
           "isStatic": true,
@@ -21606,7 +21606,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.VarEnum::VT_VARIANTSystem.Runtime.InteropServices.VarEnum",
           "clrName": "VT_VARIANT",
-          "tsEmitName": "vt_variant",
+          "tsEmitName": "vtVariant",
           "metadataToken": 67113807,
           "normalizedSignature": "VT_VARIANT|System.Runtime.InteropServices.VarEnum|static=true|const=true",
           "isStatic": true,
@@ -21617,7 +21617,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.VarEnum::VT_UNKNOWNSystem.Runtime.InteropServices.VarEnum",
           "clrName": "VT_UNKNOWN",
-          "tsEmitName": "vt_unknown",
+          "tsEmitName": "vtUnknown",
           "metadataToken": 67113808,
           "normalizedSignature": "VT_UNKNOWN|System.Runtime.InteropServices.VarEnum|static=true|const=true",
           "isStatic": true,
@@ -21628,7 +21628,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.VarEnum::VT_DECIMALSystem.Runtime.InteropServices.VarEnum",
           "clrName": "VT_DECIMAL",
-          "tsEmitName": "vt_decimal",
+          "tsEmitName": "vtDecimal",
           "metadataToken": 67113809,
           "normalizedSignature": "VT_DECIMAL|System.Runtime.InteropServices.VarEnum|static=true|const=true",
           "isStatic": true,
@@ -21639,7 +21639,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.VarEnum::VT_I1System.Runtime.InteropServices.VarEnum",
           "clrName": "VT_I1",
-          "tsEmitName": "vt_i1",
+          "tsEmitName": "vtI1",
           "metadataToken": 67113810,
           "normalizedSignature": "VT_I1|System.Runtime.InteropServices.VarEnum|static=true|const=true",
           "isStatic": true,
@@ -21650,7 +21650,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.VarEnum::VT_UI1System.Runtime.InteropServices.VarEnum",
           "clrName": "VT_UI1",
-          "tsEmitName": "vt_ui1",
+          "tsEmitName": "vtUi1",
           "metadataToken": 67113811,
           "normalizedSignature": "VT_UI1|System.Runtime.InteropServices.VarEnum|static=true|const=true",
           "isStatic": true,
@@ -21661,7 +21661,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.VarEnum::VT_UI2System.Runtime.InteropServices.VarEnum",
           "clrName": "VT_UI2",
-          "tsEmitName": "vt_ui2",
+          "tsEmitName": "vtUi2",
           "metadataToken": 67113812,
           "normalizedSignature": "VT_UI2|System.Runtime.InteropServices.VarEnum|static=true|const=true",
           "isStatic": true,
@@ -21672,7 +21672,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.VarEnum::VT_UI4System.Runtime.InteropServices.VarEnum",
           "clrName": "VT_UI4",
-          "tsEmitName": "vt_ui4",
+          "tsEmitName": "vtUi4",
           "metadataToken": 67113813,
           "normalizedSignature": "VT_UI4|System.Runtime.InteropServices.VarEnum|static=true|const=true",
           "isStatic": true,
@@ -21683,7 +21683,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.VarEnum::VT_I8System.Runtime.InteropServices.VarEnum",
           "clrName": "VT_I8",
-          "tsEmitName": "vt_i8",
+          "tsEmitName": "vtI8",
           "metadataToken": 67113814,
           "normalizedSignature": "VT_I8|System.Runtime.InteropServices.VarEnum|static=true|const=true",
           "isStatic": true,
@@ -21694,7 +21694,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.VarEnum::VT_UI8System.Runtime.InteropServices.VarEnum",
           "clrName": "VT_UI8",
-          "tsEmitName": "vt_ui8",
+          "tsEmitName": "vtUi8",
           "metadataToken": 67113815,
           "normalizedSignature": "VT_UI8|System.Runtime.InteropServices.VarEnum|static=true|const=true",
           "isStatic": true,
@@ -21705,7 +21705,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.VarEnum::VT_INTSystem.Runtime.InteropServices.VarEnum",
           "clrName": "VT_INT",
-          "tsEmitName": "vt_int",
+          "tsEmitName": "vtInt",
           "metadataToken": 67113816,
           "normalizedSignature": "VT_INT|System.Runtime.InteropServices.VarEnum|static=true|const=true",
           "isStatic": true,
@@ -21716,7 +21716,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.VarEnum::VT_UINTSystem.Runtime.InteropServices.VarEnum",
           "clrName": "VT_UINT",
-          "tsEmitName": "vt_uint",
+          "tsEmitName": "vtUint",
           "metadataToken": 67113817,
           "normalizedSignature": "VT_UINT|System.Runtime.InteropServices.VarEnum|static=true|const=true",
           "isStatic": true,
@@ -21727,7 +21727,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.VarEnum::VT_VOIDSystem.Runtime.InteropServices.VarEnum",
           "clrName": "VT_VOID",
-          "tsEmitName": "vt_void",
+          "tsEmitName": "vtVoid",
           "metadataToken": 67113818,
           "normalizedSignature": "VT_VOID|System.Runtime.InteropServices.VarEnum|static=true|const=true",
           "isStatic": true,
@@ -21738,7 +21738,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.VarEnum::VT_HRESULTSystem.Runtime.InteropServices.VarEnum",
           "clrName": "VT_HRESULT",
-          "tsEmitName": "vt_hresult",
+          "tsEmitName": "vtHresult",
           "metadataToken": 67113819,
           "normalizedSignature": "VT_HRESULT|System.Runtime.InteropServices.VarEnum|static=true|const=true",
           "isStatic": true,
@@ -21749,7 +21749,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.VarEnum::VT_PTRSystem.Runtime.InteropServices.VarEnum",
           "clrName": "VT_PTR",
-          "tsEmitName": "vt_ptr",
+          "tsEmitName": "vtPtr",
           "metadataToken": 67113820,
           "normalizedSignature": "VT_PTR|System.Runtime.InteropServices.VarEnum|static=true|const=true",
           "isStatic": true,
@@ -21760,7 +21760,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.VarEnum::VT_SAFEARRAYSystem.Runtime.InteropServices.VarEnum",
           "clrName": "VT_SAFEARRAY",
-          "tsEmitName": "vt_safearray",
+          "tsEmitName": "vtSafearray",
           "metadataToken": 67113821,
           "normalizedSignature": "VT_SAFEARRAY|System.Runtime.InteropServices.VarEnum|static=true|const=true",
           "isStatic": true,
@@ -21771,7 +21771,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.VarEnum::VT_CARRAYSystem.Runtime.InteropServices.VarEnum",
           "clrName": "VT_CARRAY",
-          "tsEmitName": "vt_carray",
+          "tsEmitName": "vtCarray",
           "metadataToken": 67113822,
           "normalizedSignature": "VT_CARRAY|System.Runtime.InteropServices.VarEnum|static=true|const=true",
           "isStatic": true,
@@ -21782,7 +21782,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.VarEnum::VT_USERDEFINEDSystem.Runtime.InteropServices.VarEnum",
           "clrName": "VT_USERDEFINED",
-          "tsEmitName": "vt_userdefined",
+          "tsEmitName": "vtUserdefined",
           "metadataToken": 67113823,
           "normalizedSignature": "VT_USERDEFINED|System.Runtime.InteropServices.VarEnum|static=true|const=true",
           "isStatic": true,
@@ -21793,7 +21793,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.VarEnum::VT_LPSTRSystem.Runtime.InteropServices.VarEnum",
           "clrName": "VT_LPSTR",
-          "tsEmitName": "vt_lpstr",
+          "tsEmitName": "vtLpstr",
           "metadataToken": 67113824,
           "normalizedSignature": "VT_LPSTR|System.Runtime.InteropServices.VarEnum|static=true|const=true",
           "isStatic": true,
@@ -21804,7 +21804,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.VarEnum::VT_LPWSTRSystem.Runtime.InteropServices.VarEnum",
           "clrName": "VT_LPWSTR",
-          "tsEmitName": "vt_lpwstr",
+          "tsEmitName": "vtLpwstr",
           "metadataToken": 67113825,
           "normalizedSignature": "VT_LPWSTR|System.Runtime.InteropServices.VarEnum|static=true|const=true",
           "isStatic": true,
@@ -21815,7 +21815,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.VarEnum::VT_RECORDSystem.Runtime.InteropServices.VarEnum",
           "clrName": "VT_RECORD",
-          "tsEmitName": "vt_record",
+          "tsEmitName": "vtRecord",
           "metadataToken": 67113826,
           "normalizedSignature": "VT_RECORD|System.Runtime.InteropServices.VarEnum|static=true|const=true",
           "isStatic": true,
@@ -21826,7 +21826,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.VarEnum::VT_FILETIMESystem.Runtime.InteropServices.VarEnum",
           "clrName": "VT_FILETIME",
-          "tsEmitName": "vt_filetime",
+          "tsEmitName": "vtFiletime",
           "metadataToken": 67113827,
           "normalizedSignature": "VT_FILETIME|System.Runtime.InteropServices.VarEnum|static=true|const=true",
           "isStatic": true,
@@ -21837,7 +21837,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.VarEnum::VT_BLOBSystem.Runtime.InteropServices.VarEnum",
           "clrName": "VT_BLOB",
-          "tsEmitName": "vt_blob",
+          "tsEmitName": "vtBlob",
           "metadataToken": 67113828,
           "normalizedSignature": "VT_BLOB|System.Runtime.InteropServices.VarEnum|static=true|const=true",
           "isStatic": true,
@@ -21848,7 +21848,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.VarEnum::VT_STREAMSystem.Runtime.InteropServices.VarEnum",
           "clrName": "VT_STREAM",
-          "tsEmitName": "vt_stream",
+          "tsEmitName": "vtStream",
           "metadataToken": 67113829,
           "normalizedSignature": "VT_STREAM|System.Runtime.InteropServices.VarEnum|static=true|const=true",
           "isStatic": true,
@@ -21859,7 +21859,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.VarEnum::VT_STORAGESystem.Runtime.InteropServices.VarEnum",
           "clrName": "VT_STORAGE",
-          "tsEmitName": "vt_storage",
+          "tsEmitName": "vtStorage",
           "metadataToken": 67113830,
           "normalizedSignature": "VT_STORAGE|System.Runtime.InteropServices.VarEnum|static=true|const=true",
           "isStatic": true,
@@ -21870,7 +21870,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.VarEnum::VT_STREAMED_OBJECTSystem.Runtime.InteropServices.VarEnum",
           "clrName": "VT_STREAMED_OBJECT",
-          "tsEmitName": "vt_streamed_object",
+          "tsEmitName": "vtStreamedObject",
           "metadataToken": 67113831,
           "normalizedSignature": "VT_STREAMED_OBJECT|System.Runtime.InteropServices.VarEnum|static=true|const=true",
           "isStatic": true,
@@ -21881,7 +21881,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.VarEnum::VT_STORED_OBJECTSystem.Runtime.InteropServices.VarEnum",
           "clrName": "VT_STORED_OBJECT",
-          "tsEmitName": "vt_stored_object",
+          "tsEmitName": "vtStoredObject",
           "metadataToken": 67113832,
           "normalizedSignature": "VT_STORED_OBJECT|System.Runtime.InteropServices.VarEnum|static=true|const=true",
           "isStatic": true,
@@ -21892,7 +21892,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.VarEnum::VT_BLOB_OBJECTSystem.Runtime.InteropServices.VarEnum",
           "clrName": "VT_BLOB_OBJECT",
-          "tsEmitName": "vt_blob_object",
+          "tsEmitName": "vtBlobObject",
           "metadataToken": 67113833,
           "normalizedSignature": "VT_BLOB_OBJECT|System.Runtime.InteropServices.VarEnum|static=true|const=true",
           "isStatic": true,
@@ -21903,7 +21903,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.VarEnum::VT_CFSystem.Runtime.InteropServices.VarEnum",
           "clrName": "VT_CF",
-          "tsEmitName": "vt_cf",
+          "tsEmitName": "vtCf",
           "metadataToken": 67113834,
           "normalizedSignature": "VT_CF|System.Runtime.InteropServices.VarEnum|static=true|const=true",
           "isStatic": true,
@@ -21914,7 +21914,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.VarEnum::VT_CLSIDSystem.Runtime.InteropServices.VarEnum",
           "clrName": "VT_CLSID",
-          "tsEmitName": "vt_clsid",
+          "tsEmitName": "vtClsid",
           "metadataToken": 67113835,
           "normalizedSignature": "VT_CLSID|System.Runtime.InteropServices.VarEnum|static=true|const=true",
           "isStatic": true,
@@ -21925,7 +21925,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.VarEnum::VT_VECTORSystem.Runtime.InteropServices.VarEnum",
           "clrName": "VT_VECTOR",
-          "tsEmitName": "vt_vector",
+          "tsEmitName": "vtVector",
           "metadataToken": 67113836,
           "normalizedSignature": "VT_VECTOR|System.Runtime.InteropServices.VarEnum|static=true|const=true",
           "isStatic": true,
@@ -21936,7 +21936,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.VarEnum::VT_ARRAYSystem.Runtime.InteropServices.VarEnum",
           "clrName": "VT_ARRAY",
-          "tsEmitName": "vt_array",
+          "tsEmitName": "vtArray",
           "metadataToken": 67113837,
           "normalizedSignature": "VT_ARRAY|System.Runtime.InteropServices.VarEnum|static=true|const=true",
           "isStatic": true,
@@ -21947,7 +21947,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.VarEnum::VT_BYREFSystem.Runtime.InteropServices.VarEnum",
           "clrName": "VT_BYREF",
-          "tsEmitName": "vt_byref",
+          "tsEmitName": "vtByref",
           "metadataToken": 67113838,
           "normalizedSignature": "VT_BYREF|System.Runtime.InteropServices.VarEnum|static=true|const=true",
           "isStatic": true,
@@ -22662,7 +22662,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -22672,7 +22672,7 @@
           }
         },
         {
-          "tsName": "vt_empty",
+          "tsName": "vtEmpty",
           "isStatic": true,
           "tsSignatureId": "VT_EMPTY|System.Runtime.InteropServices.VarEnum|static=true|const=true",
           "target": {
@@ -22682,7 +22682,7 @@
           }
         },
         {
-          "tsName": "vt_null",
+          "tsName": "vtNull",
           "isStatic": true,
           "tsSignatureId": "VT_NULL|System.Runtime.InteropServices.VarEnum|static=true|const=true",
           "target": {
@@ -22692,7 +22692,7 @@
           }
         },
         {
-          "tsName": "vt_i2",
+          "tsName": "vtI2",
           "isStatic": true,
           "tsSignatureId": "VT_I2|System.Runtime.InteropServices.VarEnum|static=true|const=true",
           "target": {
@@ -22702,7 +22702,7 @@
           }
         },
         {
-          "tsName": "vt_i4",
+          "tsName": "vtI4",
           "isStatic": true,
           "tsSignatureId": "VT_I4|System.Runtime.InteropServices.VarEnum|static=true|const=true",
           "target": {
@@ -22712,7 +22712,7 @@
           }
         },
         {
-          "tsName": "vt_r4",
+          "tsName": "vtR4",
           "isStatic": true,
           "tsSignatureId": "VT_R4|System.Runtime.InteropServices.VarEnum|static=true|const=true",
           "target": {
@@ -22722,7 +22722,7 @@
           }
         },
         {
-          "tsName": "vt_r8",
+          "tsName": "vtR8",
           "isStatic": true,
           "tsSignatureId": "VT_R8|System.Runtime.InteropServices.VarEnum|static=true|const=true",
           "target": {
@@ -22732,7 +22732,7 @@
           }
         },
         {
-          "tsName": "vt_cy",
+          "tsName": "vtCy",
           "isStatic": true,
           "tsSignatureId": "VT_CY|System.Runtime.InteropServices.VarEnum|static=true|const=true",
           "target": {
@@ -22742,7 +22742,7 @@
           }
         },
         {
-          "tsName": "vt_date",
+          "tsName": "vtDate",
           "isStatic": true,
           "tsSignatureId": "VT_DATE|System.Runtime.InteropServices.VarEnum|static=true|const=true",
           "target": {
@@ -22752,7 +22752,7 @@
           }
         },
         {
-          "tsName": "vt_bstr",
+          "tsName": "vtBstr",
           "isStatic": true,
           "tsSignatureId": "VT_BSTR|System.Runtime.InteropServices.VarEnum|static=true|const=true",
           "target": {
@@ -22762,7 +22762,7 @@
           }
         },
         {
-          "tsName": "vt_dispatch",
+          "tsName": "vtDispatch",
           "isStatic": true,
           "tsSignatureId": "VT_DISPATCH|System.Runtime.InteropServices.VarEnum|static=true|const=true",
           "target": {
@@ -22772,7 +22772,7 @@
           }
         },
         {
-          "tsName": "vt_error",
+          "tsName": "vtError",
           "isStatic": true,
           "tsSignatureId": "VT_ERROR|System.Runtime.InteropServices.VarEnum|static=true|const=true",
           "target": {
@@ -22782,7 +22782,7 @@
           }
         },
         {
-          "tsName": "vt_bool",
+          "tsName": "vtBool",
           "isStatic": true,
           "tsSignatureId": "VT_BOOL|System.Runtime.InteropServices.VarEnum|static=true|const=true",
           "target": {
@@ -22792,7 +22792,7 @@
           }
         },
         {
-          "tsName": "vt_variant",
+          "tsName": "vtVariant",
           "isStatic": true,
           "tsSignatureId": "VT_VARIANT|System.Runtime.InteropServices.VarEnum|static=true|const=true",
           "target": {
@@ -22802,7 +22802,7 @@
           }
         },
         {
-          "tsName": "vt_unknown",
+          "tsName": "vtUnknown",
           "isStatic": true,
           "tsSignatureId": "VT_UNKNOWN|System.Runtime.InteropServices.VarEnum|static=true|const=true",
           "target": {
@@ -22812,7 +22812,7 @@
           }
         },
         {
-          "tsName": "vt_decimal",
+          "tsName": "vtDecimal",
           "isStatic": true,
           "tsSignatureId": "VT_DECIMAL|System.Runtime.InteropServices.VarEnum|static=true|const=true",
           "target": {
@@ -22822,7 +22822,7 @@
           }
         },
         {
-          "tsName": "vt_i1",
+          "tsName": "vtI1",
           "isStatic": true,
           "tsSignatureId": "VT_I1|System.Runtime.InteropServices.VarEnum|static=true|const=true",
           "target": {
@@ -22832,7 +22832,7 @@
           }
         },
         {
-          "tsName": "vt_ui1",
+          "tsName": "vtUi1",
           "isStatic": true,
           "tsSignatureId": "VT_UI1|System.Runtime.InteropServices.VarEnum|static=true|const=true",
           "target": {
@@ -22842,7 +22842,7 @@
           }
         },
         {
-          "tsName": "vt_ui2",
+          "tsName": "vtUi2",
           "isStatic": true,
           "tsSignatureId": "VT_UI2|System.Runtime.InteropServices.VarEnum|static=true|const=true",
           "target": {
@@ -22852,7 +22852,7 @@
           }
         },
         {
-          "tsName": "vt_ui4",
+          "tsName": "vtUi4",
           "isStatic": true,
           "tsSignatureId": "VT_UI4|System.Runtime.InteropServices.VarEnum|static=true|const=true",
           "target": {
@@ -22862,7 +22862,7 @@
           }
         },
         {
-          "tsName": "vt_i8",
+          "tsName": "vtI8",
           "isStatic": true,
           "tsSignatureId": "VT_I8|System.Runtime.InteropServices.VarEnum|static=true|const=true",
           "target": {
@@ -22872,7 +22872,7 @@
           }
         },
         {
-          "tsName": "vt_ui8",
+          "tsName": "vtUi8",
           "isStatic": true,
           "tsSignatureId": "VT_UI8|System.Runtime.InteropServices.VarEnum|static=true|const=true",
           "target": {
@@ -22882,7 +22882,7 @@
           }
         },
         {
-          "tsName": "vt_int",
+          "tsName": "vtInt",
           "isStatic": true,
           "tsSignatureId": "VT_INT|System.Runtime.InteropServices.VarEnum|static=true|const=true",
           "target": {
@@ -22892,7 +22892,7 @@
           }
         },
         {
-          "tsName": "vt_uint",
+          "tsName": "vtUint",
           "isStatic": true,
           "tsSignatureId": "VT_UINT|System.Runtime.InteropServices.VarEnum|static=true|const=true",
           "target": {
@@ -22902,7 +22902,7 @@
           }
         },
         {
-          "tsName": "vt_void",
+          "tsName": "vtVoid",
           "isStatic": true,
           "tsSignatureId": "VT_VOID|System.Runtime.InteropServices.VarEnum|static=true|const=true",
           "target": {
@@ -22912,7 +22912,7 @@
           }
         },
         {
-          "tsName": "vt_hresult",
+          "tsName": "vtHresult",
           "isStatic": true,
           "tsSignatureId": "VT_HRESULT|System.Runtime.InteropServices.VarEnum|static=true|const=true",
           "target": {
@@ -22922,7 +22922,7 @@
           }
         },
         {
-          "tsName": "vt_ptr",
+          "tsName": "vtPtr",
           "isStatic": true,
           "tsSignatureId": "VT_PTR|System.Runtime.InteropServices.VarEnum|static=true|const=true",
           "target": {
@@ -22932,7 +22932,7 @@
           }
         },
         {
-          "tsName": "vt_safearray",
+          "tsName": "vtSafearray",
           "isStatic": true,
           "tsSignatureId": "VT_SAFEARRAY|System.Runtime.InteropServices.VarEnum|static=true|const=true",
           "target": {
@@ -22942,7 +22942,7 @@
           }
         },
         {
-          "tsName": "vt_carray",
+          "tsName": "vtCarray",
           "isStatic": true,
           "tsSignatureId": "VT_CARRAY|System.Runtime.InteropServices.VarEnum|static=true|const=true",
           "target": {
@@ -22952,7 +22952,7 @@
           }
         },
         {
-          "tsName": "vt_userdefined",
+          "tsName": "vtUserdefined",
           "isStatic": true,
           "tsSignatureId": "VT_USERDEFINED|System.Runtime.InteropServices.VarEnum|static=true|const=true",
           "target": {
@@ -22962,7 +22962,7 @@
           }
         },
         {
-          "tsName": "vt_lpstr",
+          "tsName": "vtLpstr",
           "isStatic": true,
           "tsSignatureId": "VT_LPSTR|System.Runtime.InteropServices.VarEnum|static=true|const=true",
           "target": {
@@ -22972,7 +22972,7 @@
           }
         },
         {
-          "tsName": "vt_lpwstr",
+          "tsName": "vtLpwstr",
           "isStatic": true,
           "tsSignatureId": "VT_LPWSTR|System.Runtime.InteropServices.VarEnum|static=true|const=true",
           "target": {
@@ -22982,7 +22982,7 @@
           }
         },
         {
-          "tsName": "vt_record",
+          "tsName": "vtRecord",
           "isStatic": true,
           "tsSignatureId": "VT_RECORD|System.Runtime.InteropServices.VarEnum|static=true|const=true",
           "target": {
@@ -22992,7 +22992,7 @@
           }
         },
         {
-          "tsName": "vt_filetime",
+          "tsName": "vtFiletime",
           "isStatic": true,
           "tsSignatureId": "VT_FILETIME|System.Runtime.InteropServices.VarEnum|static=true|const=true",
           "target": {
@@ -23002,7 +23002,7 @@
           }
         },
         {
-          "tsName": "vt_blob",
+          "tsName": "vtBlob",
           "isStatic": true,
           "tsSignatureId": "VT_BLOB|System.Runtime.InteropServices.VarEnum|static=true|const=true",
           "target": {
@@ -23012,7 +23012,7 @@
           }
         },
         {
-          "tsName": "vt_stream",
+          "tsName": "vtStream",
           "isStatic": true,
           "tsSignatureId": "VT_STREAM|System.Runtime.InteropServices.VarEnum|static=true|const=true",
           "target": {
@@ -23022,7 +23022,7 @@
           }
         },
         {
-          "tsName": "vt_storage",
+          "tsName": "vtStorage",
           "isStatic": true,
           "tsSignatureId": "VT_STORAGE|System.Runtime.InteropServices.VarEnum|static=true|const=true",
           "target": {
@@ -23032,7 +23032,7 @@
           }
         },
         {
-          "tsName": "vt_streamed_object",
+          "tsName": "vtStreamedObject",
           "isStatic": true,
           "tsSignatureId": "VT_STREAMED_OBJECT|System.Runtime.InteropServices.VarEnum|static=true|const=true",
           "target": {
@@ -23042,7 +23042,7 @@
           }
         },
         {
-          "tsName": "vt_stored_object",
+          "tsName": "vtStoredObject",
           "isStatic": true,
           "tsSignatureId": "VT_STORED_OBJECT|System.Runtime.InteropServices.VarEnum|static=true|const=true",
           "target": {
@@ -23052,7 +23052,7 @@
           }
         },
         {
-          "tsName": "vt_blob_object",
+          "tsName": "vtBlobObject",
           "isStatic": true,
           "tsSignatureId": "VT_BLOB_OBJECT|System.Runtime.InteropServices.VarEnum|static=true|const=true",
           "target": {
@@ -23062,7 +23062,7 @@
           }
         },
         {
-          "tsName": "vt_cf",
+          "tsName": "vtCf",
           "isStatic": true,
           "tsSignatureId": "VT_CF|System.Runtime.InteropServices.VarEnum|static=true|const=true",
           "target": {
@@ -23072,7 +23072,7 @@
           }
         },
         {
-          "tsName": "vt_clsid",
+          "tsName": "vtClsid",
           "isStatic": true,
           "tsSignatureId": "VT_CLSID|System.Runtime.InteropServices.VarEnum|static=true|const=true",
           "target": {
@@ -23082,7 +23082,7 @@
           }
         },
         {
-          "tsName": "vt_vector",
+          "tsName": "vtVector",
           "isStatic": true,
           "tsSignatureId": "VT_VECTOR|System.Runtime.InteropServices.VarEnum|static=true|const=true",
           "target": {
@@ -23092,7 +23092,7 @@
           }
         },
         {
-          "tsName": "vt_array",
+          "tsName": "vtArray",
           "isStatic": true,
           "tsSignatureId": "VT_ARRAY|System.Runtime.InteropServices.VarEnum|static=true|const=true",
           "target": {
@@ -23102,7 +23102,7 @@
           }
         },
         {
-          "tsName": "vt_byref",
+          "tsName": "vtByref",
           "isStatic": true,
           "tsSignatureId": "VT_BYREF|System.Runtime.InteropServices.VarEnum|static=true|const=true",
           "target": {
@@ -34120,7 +34120,7 @@
         {
           "stableId": "System.Runtime.InteropServices:System.Runtime.InteropServices.ComAwareEventInfo::GetAddMethod(System.Boolean):System.Reflection.MethodInfo",
           "clrName": "GetAddMethod",
-          "tsEmitName": "getAddMethod",
+          "tsEmitName": "getAddMethod2",
           "metadataToken": 100663323,
           "canonicalSignature": "(System.Boolean):System.Reflection.MethodInfo",
           "normalizedSignature": "GetAddMethod|(System.Boolean):System.Reflection.MethodInfo|static=false",
@@ -34134,7 +34134,7 @@
         {
           "stableId": "System.Runtime.InteropServices:System.Runtime.InteropServices.ComAwareEventInfo::GetOtherMethods(System.Boolean):System.Reflection.MethodInfo[]",
           "clrName": "GetOtherMethods",
-          "tsEmitName": "getOtherMethods",
+          "tsEmitName": "getOtherMethods2",
           "metadataToken": 100663324,
           "canonicalSignature": "(System.Boolean):System.Reflection.MethodInfo[]",
           "normalizedSignature": "GetOtherMethods|(System.Boolean):System.Reflection.MethodInfo[]|static=false",
@@ -34148,7 +34148,7 @@
         {
           "stableId": "System.Runtime.InteropServices:System.Runtime.InteropServices.ComAwareEventInfo::GetRaiseMethod(System.Boolean):System.Reflection.MethodInfo",
           "clrName": "GetRaiseMethod",
-          "tsEmitName": "getRaiseMethod",
+          "tsEmitName": "getRaiseMethod2",
           "metadataToken": 100663325,
           "canonicalSignature": "(System.Boolean):System.Reflection.MethodInfo",
           "normalizedSignature": "GetRaiseMethod|(System.Boolean):System.Reflection.MethodInfo|static=false",
@@ -34162,7 +34162,7 @@
         {
           "stableId": "System.Runtime.InteropServices:System.Runtime.InteropServices.ComAwareEventInfo::GetRemoveMethod(System.Boolean):System.Reflection.MethodInfo",
           "clrName": "GetRemoveMethod",
-          "tsEmitName": "getRemoveMethod",
+          "tsEmitName": "getRemoveMethod2",
           "metadataToken": 100663326,
           "canonicalSignature": "(System.Boolean):System.Reflection.MethodInfo",
           "normalizedSignature": "GetRemoveMethod|(System.Boolean):System.Reflection.MethodInfo|static=false",
@@ -34204,7 +34204,7 @@
         {
           "stableId": "System.Runtime.InteropServices:System.Runtime.InteropServices.ComAwareEventInfo::GetCustomAttributesData():System.Collections.Generic.IList_1[[System.Reflection.CustomAttributeData,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "GetCustomAttributesData",
-          "tsEmitName": "getCustomAttributesData",
+          "tsEmitName": "getCustomAttributesData2",
           "metadataToken": 100663330,
           "canonicalSignature": "():System.Collections.Generic.IList_1[[System.Reflection.CustomAttributeData,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "normalizedSignature": "GetCustomAttributesData|():System.Collections.Generic.IList_1[[System.Reflection.CustomAttributeData,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
@@ -34274,7 +34274,7 @@
         {
           "stableId": "System.Runtime.InteropServices:System.Runtime.InteropServices.ComAwareEventInfo::GetAddMethod():System.Reflection.MethodInfo",
           "clrName": "GetAddMethod",
-          "tsEmitName": "GetAddMethod",
+          "tsEmitName": "getAddMethod",
           "metadataToken": 0,
           "canonicalSignature": "():System.Reflection.MethodInfo",
           "normalizedSignature": "GetAddMethod|():System.Reflection.MethodInfo|static=false",
@@ -34288,7 +34288,7 @@
         {
           "stableId": "System.Runtime.InteropServices:System.Runtime.InteropServices.ComAwareEventInfo::GetCustomAttributesData():System.Collections.Generic.IList_1",
           "clrName": "GetCustomAttributesData",
-          "tsEmitName": "GetCustomAttributesData",
+          "tsEmitName": "getCustomAttributesData",
           "metadataToken": 0,
           "canonicalSignature": "():System.Collections.Generic.IList_1",
           "normalizedSignature": "GetCustomAttributesData|():System.Collections.Generic.IList_1|static=false",
@@ -34302,7 +34302,7 @@
         {
           "stableId": "System.Runtime.InteropServices:System.Runtime.InteropServices.ComAwareEventInfo::GetOtherMethods():System.Reflection.MethodInfo[]",
           "clrName": "GetOtherMethods",
-          "tsEmitName": "GetOtherMethods",
+          "tsEmitName": "getOtherMethods",
           "metadataToken": 0,
           "canonicalSignature": "():System.Reflection.MethodInfo[]",
           "normalizedSignature": "GetOtherMethods|():System.Reflection.MethodInfo[]|static=false",
@@ -34316,7 +34316,7 @@
         {
           "stableId": "System.Runtime.InteropServices:System.Runtime.InteropServices.ComAwareEventInfo::GetRaiseMethod():System.Reflection.MethodInfo",
           "clrName": "GetRaiseMethod",
-          "tsEmitName": "GetRaiseMethod",
+          "tsEmitName": "getRaiseMethod",
           "metadataToken": 0,
           "canonicalSignature": "():System.Reflection.MethodInfo",
           "normalizedSignature": "GetRaiseMethod|():System.Reflection.MethodInfo|static=false",
@@ -34330,7 +34330,7 @@
         {
           "stableId": "System.Runtime.InteropServices:System.Runtime.InteropServices.ComAwareEventInfo::GetRemoveMethod():System.Reflection.MethodInfo",
           "clrName": "GetRemoveMethod",
-          "tsEmitName": "GetRemoveMethod",
+          "tsEmitName": "getRemoveMethod",
           "metadataToken": 0,
           "canonicalSignature": "():System.Reflection.MethodInfo",
           "normalizedSignature": "GetRemoveMethod|():System.Reflection.MethodInfo|static=false",
@@ -34464,7 +34464,7 @@
           }
         },
         {
-          "tsName": "getAddMethod",
+          "tsName": "getAddMethod2",
           "isStatic": false,
           "tsSignatureId": "GetAddMethod|(System.Boolean):System.Reflection.MethodInfo|static=false",
           "target": {
@@ -34474,7 +34474,7 @@
           }
         },
         {
-          "tsName": "getOtherMethods",
+          "tsName": "getOtherMethods2",
           "isStatic": false,
           "tsSignatureId": "GetOtherMethods|(System.Boolean):System.Reflection.MethodInfo[]|static=false",
           "target": {
@@ -34484,7 +34484,7 @@
           }
         },
         {
-          "tsName": "getRaiseMethod",
+          "tsName": "getRaiseMethod2",
           "isStatic": false,
           "tsSignatureId": "GetRaiseMethod|(System.Boolean):System.Reflection.MethodInfo|static=false",
           "target": {
@@ -34494,7 +34494,7 @@
           }
         },
         {
-          "tsName": "getRemoveMethod",
+          "tsName": "getRemoveMethod2",
           "isStatic": false,
           "tsSignatureId": "GetRemoveMethod|(System.Boolean):System.Reflection.MethodInfo|static=false",
           "target": {
@@ -34524,7 +34524,7 @@
           }
         },
         {
-          "tsName": "getCustomAttributesData",
+          "tsName": "getCustomAttributesData2",
           "isStatic": false,
           "tsSignatureId": "GetCustomAttributesData|():System.Collections.Generic.IList_1[[System.Reflection.CustomAttributeData,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "target": {
@@ -34574,7 +34574,7 @@
           }
         },
         {
-          "tsName": "GetAddMethod",
+          "tsName": "getAddMethod",
           "isStatic": false,
           "tsSignatureId": "GetAddMethod|():System.Reflection.MethodInfo|static=false",
           "target": {
@@ -34584,7 +34584,7 @@
           }
         },
         {
-          "tsName": "GetCustomAttributesData",
+          "tsName": "getCustomAttributesData",
           "isStatic": false,
           "tsSignatureId": "GetCustomAttributesData|():System.Collections.Generic.IList_1|static=false",
           "target": {
@@ -34594,7 +34594,7 @@
           }
         },
         {
-          "tsName": "GetOtherMethods",
+          "tsName": "getOtherMethods",
           "isStatic": false,
           "tsSignatureId": "GetOtherMethods|():System.Reflection.MethodInfo[]|static=false",
           "target": {
@@ -34604,7 +34604,7 @@
           }
         },
         {
-          "tsName": "GetRaiseMethod",
+          "tsName": "getRaiseMethod",
           "isStatic": false,
           "tsSignatureId": "GetRaiseMethod|():System.Reflection.MethodInfo|static=false",
           "target": {
@@ -34614,7 +34614,7 @@
           }
         },
         {
-          "tsName": "GetRemoveMethod",
+          "tsName": "getRemoveMethod",
           "isStatic": false,
           "tsSignatureId": "GetRemoveMethod|():System.Reflection.MethodInfo|static=false",
           "target": {
@@ -36845,7 +36845,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "getObjectData",
+          "tsEmitName": "getObjectData$view",
           "metadataToken": 100682669,
           "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
@@ -36859,7 +36859,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.COMException::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData",
+          "tsEmitName": "getObjectData",
           "metadataToken": 0,
           "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
@@ -36928,7 +36928,7 @@
           }
         },
         {
-          "tsName": "getObjectData",
+          "tsName": "getObjectData$view",
           "isStatic": false,
           "tsSignatureId": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "target": {
@@ -36938,7 +36938,7 @@
           }
         },
         {
-          "tsName": "GetObjectData",
+          "tsName": "getObjectData",
           "isStatic": false,
           "tsSignatureId": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "target": {
@@ -42895,7 +42895,7 @@
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "clone",
+          "tsEmitName": "clone$view",
           "metadataToken": 100668509,
           "canonicalSignature": "():System.Object",
           "normalizedSignature": "Clone|():System.Object|static=false",
@@ -42909,7 +42909,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "getObjectData",
+          "tsEmitName": "getObjectData$view",
           "metadataToken": 100682669,
           "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
@@ -42923,7 +42923,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.DllImportResolver::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "Clone",
+          "tsEmitName": "clone",
           "metadataToken": 0,
           "canonicalSignature": "():System.Object",
           "normalizedSignature": "Clone|():System.Object|static=false",
@@ -42937,7 +42937,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.DllImportResolver::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData",
+          "tsEmitName": "getObjectData",
           "metadataToken": 0,
           "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
@@ -42996,7 +42996,7 @@
           }
         },
         {
-          "tsName": "clone",
+          "tsName": "clone$view",
           "isStatic": false,
           "tsSignatureId": "Clone|():System.Object|static=false",
           "target": {
@@ -43006,7 +43006,7 @@
           }
         },
         {
-          "tsName": "getObjectData",
+          "tsName": "getObjectData$view",
           "isStatic": false,
           "tsSignatureId": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "target": {
@@ -43016,7 +43016,7 @@
           }
         },
         {
-          "tsName": "Clone",
+          "tsName": "clone",
           "isStatic": false,
           "tsSignatureId": "Clone|():System.Object|static=false",
           "target": {
@@ -43026,7 +43026,7 @@
           }
         },
         {
-          "tsName": "GetObjectData",
+          "tsName": "getObjectData",
           "isStatic": false,
           "tsSignatureId": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "target": {
@@ -43953,7 +43953,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "getObjectData",
+          "tsEmitName": "getObjectData$view",
           "metadataToken": 100682669,
           "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
@@ -43967,7 +43967,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ExternalException::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData",
+          "tsEmitName": "getObjectData",
           "metadataToken": 0,
           "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
@@ -44051,7 +44051,7 @@
           }
         },
         {
-          "tsName": "getObjectData",
+          "tsName": "getObjectData$view",
           "isStatic": false,
           "tsSignatureId": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "target": {
@@ -44061,7 +44061,7 @@
           }
         },
         {
-          "tsName": "GetObjectData",
+          "tsName": "getObjectData",
           "isStatic": false,
           "tsSignatureId": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "target": {
@@ -46894,7 +46894,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "getObjectData",
+          "tsEmitName": "getObjectData$view",
           "metadataToken": 100682669,
           "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
@@ -46908,7 +46908,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.InvalidComObjectException::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData",
+          "tsEmitName": "getObjectData",
           "metadataToken": 0,
           "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
@@ -46957,7 +46957,7 @@
       ],
       "exposedMethods": [
         {
-          "tsName": "getObjectData",
+          "tsName": "getObjectData$view",
           "isStatic": false,
           "tsSignatureId": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "target": {
@@ -46967,7 +46967,7 @@
           }
         },
         {
-          "tsName": "GetObjectData",
+          "tsName": "getObjectData",
           "isStatic": false,
           "tsSignatureId": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "target": {
@@ -47169,7 +47169,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "getObjectData",
+          "tsEmitName": "getObjectData$view",
           "metadataToken": 100682669,
           "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
@@ -47183,7 +47183,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.InvalidOleVariantTypeException::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData",
+          "tsEmitName": "getObjectData",
           "metadataToken": 0,
           "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
@@ -47232,7 +47232,7 @@
       ],
       "exposedMethods": [
         {
-          "tsName": "getObjectData",
+          "tsName": "getObjectData$view",
           "isStatic": false,
           "tsSignatureId": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "target": {
@@ -47242,7 +47242,7 @@
           }
         },
         {
-          "tsName": "GetObjectData",
+          "tsName": "getObjectData",
           "isStatic": false,
           "tsSignatureId": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "target": {
@@ -49667,7 +49667,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "getObjectData",
+          "tsEmitName": "getObjectData$view",
           "metadataToken": 100682669,
           "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
@@ -49681,7 +49681,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.MarshalDirectiveException::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData",
+          "tsEmitName": "getObjectData",
           "metadataToken": 0,
           "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
@@ -49730,7 +49730,7 @@
       ],
       "exposedMethods": [
         {
-          "tsName": "getObjectData",
+          "tsName": "getObjectData$view",
           "isStatic": false,
           "tsSignatureId": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "target": {
@@ -49740,7 +49740,7 @@
           }
         },
         {
-          "tsName": "GetObjectData",
+          "tsName": "getObjectData",
           "isStatic": false,
           "tsSignatureId": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "target": {
@@ -52550,7 +52550,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "getObjectData",
+          "tsEmitName": "getObjectData$view",
           "metadataToken": 100682669,
           "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
@@ -52564,7 +52564,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.SafeArrayRankMismatchException::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData",
+          "tsEmitName": "getObjectData",
           "metadataToken": 0,
           "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
@@ -52613,7 +52613,7 @@
       ],
       "exposedMethods": [
         {
-          "tsName": "getObjectData",
+          "tsName": "getObjectData$view",
           "isStatic": false,
           "tsSignatureId": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "target": {
@@ -52623,7 +52623,7 @@
           }
         },
         {
-          "tsName": "GetObjectData",
+          "tsName": "getObjectData",
           "isStatic": false,
           "tsSignatureId": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "target": {
@@ -52825,7 +52825,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "getObjectData",
+          "tsEmitName": "getObjectData$view",
           "metadataToken": 100682669,
           "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
@@ -52839,7 +52839,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.SafeArrayTypeMismatchException::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData",
+          "tsEmitName": "getObjectData",
           "metadataToken": 0,
           "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
@@ -52888,7 +52888,7 @@
       ],
       "exposedMethods": [
         {
-          "tsName": "getObjectData",
+          "tsName": "getObjectData$view",
           "isStatic": false,
           "tsSignatureId": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "target": {
@@ -52898,7 +52898,7 @@
           }
         },
         {
-          "tsName": "GetObjectData",
+          "tsName": "getObjectData",
           "isStatic": false,
           "tsSignatureId": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "target": {
@@ -53254,7 +53254,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "dispose",
+          "tsEmitName": "dispose$view",
           "metadataToken": 100668530,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Dispose|():System.Void|static=false",
@@ -53268,7 +53268,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.SafeBuffer::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "Dispose",
+          "tsEmitName": "dispose",
           "metadataToken": 0,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Dispose|():System.Void|static=false",
@@ -53411,7 +53411,7 @@
           }
         },
         {
-          "tsName": "dispose",
+          "tsName": "dispose$view",
           "isStatic": false,
           "tsSignatureId": "Dispose|():System.Void|static=false",
           "target": {
@@ -53421,7 +53421,7 @@
           }
         },
         {
-          "tsName": "Dispose",
+          "tsName": "dispose",
           "isStatic": false,
           "tsSignatureId": "Dispose|():System.Void|static=false",
           "target": {
@@ -53892,7 +53892,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "getObjectData",
+          "tsEmitName": "getObjectData$view",
           "metadataToken": 100682669,
           "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
@@ -53906,7 +53906,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.SEHException::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData",
+          "tsEmitName": "getObjectData",
           "metadataToken": 0,
           "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
@@ -53965,7 +53965,7 @@
           }
         },
         {
-          "tsName": "getObjectData",
+          "tsName": "getObjectData$view",
           "isStatic": false,
           "tsSignatureId": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "target": {
@@ -53975,7 +53975,7 @@
           }
         },
         {
-          "tsName": "GetObjectData",
+          "tsName": "getObjectData",
           "isStatic": false,
           "tsSignatureId": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "target": {

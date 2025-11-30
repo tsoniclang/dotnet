@@ -22,7 +22,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.NormalizationForm::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -1701,7 +1701,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.ASCIIEncoding::GetByteCount(System.Char[],System.Int32,System.Int32):System.Int32",
           "clrName": "GetByteCount",
-          "tsEmitName": "getByteCount",
+          "tsEmitName": "getByteCount4",
           "normalizedSignature": "GetByteCount|(System.Char[],System.Int32,System.Int32):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1717,7 +1717,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.ASCIIEncoding::GetByteCount(System.String):System.Int32",
           "clrName": "GetByteCount",
-          "tsEmitName": "getByteCount2",
+          "tsEmitName": "getByteCount5",
           "normalizedSignature": "GetByteCount|(System.String):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1733,7 +1733,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.ASCIIEncoding::GetByteCount(System.Char*,System.Int32):System.Int32",
           "clrName": "GetByteCount",
-          "tsEmitName": "getByteCount3",
+          "tsEmitName": "getByteCount6",
           "normalizedSignature": "GetByteCount|(System.Char*,System.Int32):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1749,7 +1749,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.ASCIIEncoding::GetByteCount(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32",
           "clrName": "GetByteCount",
-          "tsEmitName": "getByteCount4",
+          "tsEmitName": "getByteCount7",
           "normalizedSignature": "GetByteCount|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1765,7 +1765,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.ASCIIEncoding::GetBytes(System.String,System.Int32,System.Int32,System.Byte[],System.Int32):System.Int32",
           "clrName": "GetBytes",
-          "tsEmitName": "getBytes",
+          "tsEmitName": "getBytes6",
           "normalizedSignature": "GetBytes|(System.String,System.Int32,System.Int32,System.Byte[],System.Int32):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1781,7 +1781,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.ASCIIEncoding::GetBytes(System.Char[],System.Int32,System.Int32,System.Byte[],System.Int32):System.Int32",
           "clrName": "GetBytes",
-          "tsEmitName": "getBytes2",
+          "tsEmitName": "getBytes7",
           "normalizedSignature": "GetBytes|(System.Char[],System.Int32,System.Int32,System.Byte[],System.Int32):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1797,7 +1797,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.ASCIIEncoding::GetBytes(System.Char*,System.Int32,System.Byte*,System.Int32):System.Int32",
           "clrName": "GetBytes",
-          "tsEmitName": "getBytes3",
+          "tsEmitName": "getBytes8",
           "normalizedSignature": "GetBytes|(System.Char*,System.Int32,System.Byte*,System.Int32):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1813,7 +1813,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.ASCIIEncoding::GetBytes(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32",
           "clrName": "GetBytes",
-          "tsEmitName": "getBytes4",
+          "tsEmitName": "getBytes9",
           "normalizedSignature": "GetBytes|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1829,7 +1829,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.ASCIIEncoding::TryGetBytes(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32\u0026):System.Boolean",
           "clrName": "TryGetBytes",
-          "tsEmitName": "tryGetBytes",
+          "tsEmitName": "tryGetBytes2",
           "normalizedSignature": "TryGetBytes|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32\u0026):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1845,7 +1845,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.ASCIIEncoding::GetCharCount(System.Byte[],System.Int32,System.Int32):System.Int32",
           "clrName": "GetCharCount",
-          "tsEmitName": "getCharCount",
+          "tsEmitName": "getCharCount3",
           "normalizedSignature": "GetCharCount|(System.Byte[],System.Int32,System.Int32):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1861,7 +1861,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.ASCIIEncoding::GetCharCount(System.Byte*,System.Int32):System.Int32",
           "clrName": "GetCharCount",
-          "tsEmitName": "getCharCount2",
+          "tsEmitName": "getCharCount4",
           "normalizedSignature": "GetCharCount|(System.Byte*,System.Int32):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1877,7 +1877,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.ASCIIEncoding::GetCharCount(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32",
           "clrName": "GetCharCount",
-          "tsEmitName": "getCharCount3",
+          "tsEmitName": "getCharCount5",
           "normalizedSignature": "GetCharCount|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1893,7 +1893,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.ASCIIEncoding::GetChars(System.Byte[],System.Int32,System.Int32,System.Char[],System.Int32):System.Int32",
           "clrName": "GetChars",
-          "tsEmitName": "getChars",
+          "tsEmitName": "getChars4",
           "normalizedSignature": "GetChars|(System.Byte[],System.Int32,System.Int32,System.Char[],System.Int32):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1909,7 +1909,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.ASCIIEncoding::GetChars(System.Byte*,System.Int32,System.Char*,System.Int32):System.Int32",
           "clrName": "GetChars",
-          "tsEmitName": "getChars2",
+          "tsEmitName": "getChars5",
           "normalizedSignature": "GetChars|(System.Byte*,System.Int32,System.Char*,System.Int32):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1925,7 +1925,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.ASCIIEncoding::GetChars(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32",
           "clrName": "GetChars",
-          "tsEmitName": "getChars3",
+          "tsEmitName": "getChars6",
           "normalizedSignature": "GetChars|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1941,7 +1941,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.ASCIIEncoding::TryGetChars(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32\u0026):System.Boolean",
           "clrName": "TryGetChars",
-          "tsEmitName": "tryGetChars",
+          "tsEmitName": "tryGetChars2",
           "normalizedSignature": "TryGetChars|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32\u0026):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1957,7 +1957,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.ASCIIEncoding::GetString(System.Byte[],System.Int32,System.Int32):System.String",
           "clrName": "GetString",
-          "tsEmitName": "getString",
+          "tsEmitName": "getString4",
           "normalizedSignature": "GetString|(System.Byte[],System.Int32,System.Int32):System.String|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2037,7 +2037,7 @@
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "clone",
+          "tsEmitName": "clone$view",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -2054,7 +2054,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.ASCIIEncoding::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "Clone",
+          "tsEmitName": "clone",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -2070,7 +2070,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.ASCIIEncoding::GetByteCount(System.Char[]):System.Int32",
           "clrName": "GetByteCount",
-          "tsEmitName": "GetByteCount",
+          "tsEmitName": "getByteCount",
           "normalizedSignature": "GetByteCount|(System.Char[]):System.Int32|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -2086,7 +2086,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.ASCIIEncoding::GetByteCount(System.String,System.Int32,System.Int32):System.Int32",
           "clrName": "GetByteCount",
-          "tsEmitName": "GetByteCount2",
+          "tsEmitName": "getByteCount2",
           "normalizedSignature": "GetByteCount|(System.String,System.Int32,System.Int32):System.Int32|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -2102,7 +2102,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.ASCIIEncoding::GetByteCount(System.ReadOnlySpan_1):System.Int32",
           "clrName": "GetByteCount",
-          "tsEmitName": "GetByteCount3",
+          "tsEmitName": "getByteCount3",
           "normalizedSignature": "GetByteCount|(System.ReadOnlySpan_1):System.Int32|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -2118,7 +2118,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.ASCIIEncoding::GetBytes(System.Char[]):System.Byte[]",
           "clrName": "GetBytes",
-          "tsEmitName": "GetBytes",
+          "tsEmitName": "getBytes",
           "normalizedSignature": "GetBytes|(System.Char[]):System.Byte[]|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -2134,7 +2134,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.ASCIIEncoding::GetBytes(System.Char[],System.Int32,System.Int32):System.Byte[]",
           "clrName": "GetBytes",
-          "tsEmitName": "GetBytes2",
+          "tsEmitName": "getBytes2",
           "normalizedSignature": "GetBytes|(System.Char[],System.Int32,System.Int32):System.Byte[]|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -2150,7 +2150,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.ASCIIEncoding::GetBytes(System.String):System.Byte[]",
           "clrName": "GetBytes",
-          "tsEmitName": "GetBytes3",
+          "tsEmitName": "getBytes3",
           "normalizedSignature": "GetBytes|(System.String):System.Byte[]|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -2166,7 +2166,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.ASCIIEncoding::GetBytes(System.String,System.Int32,System.Int32):System.Byte[]",
           "clrName": "GetBytes",
-          "tsEmitName": "GetBytes4",
+          "tsEmitName": "getBytes4",
           "normalizedSignature": "GetBytes|(System.String,System.Int32,System.Int32):System.Byte[]|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -2182,7 +2182,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.ASCIIEncoding::GetBytes(System.ReadOnlySpan_1,System.Span_1):System.Int32",
           "clrName": "GetBytes",
-          "tsEmitName": "GetBytes5",
+          "tsEmitName": "getBytes5",
           "normalizedSignature": "GetBytes|(System.ReadOnlySpan_1,System.Span_1):System.Int32|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -2198,7 +2198,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.ASCIIEncoding::GetCharCount(System.Byte[]):System.Int32",
           "clrName": "GetCharCount",
-          "tsEmitName": "GetCharCount",
+          "tsEmitName": "getCharCount",
           "normalizedSignature": "GetCharCount|(System.Byte[]):System.Int32|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -2214,7 +2214,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.ASCIIEncoding::GetCharCount(System.ReadOnlySpan_1):System.Int32",
           "clrName": "GetCharCount",
-          "tsEmitName": "GetCharCount2",
+          "tsEmitName": "getCharCount2",
           "normalizedSignature": "GetCharCount|(System.ReadOnlySpan_1):System.Int32|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -2230,7 +2230,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.ASCIIEncoding::GetChars(System.Byte[]):System.Char[]",
           "clrName": "GetChars",
-          "tsEmitName": "GetChars",
+          "tsEmitName": "getChars",
           "normalizedSignature": "GetChars|(System.Byte[]):System.Char[]|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -2246,7 +2246,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.ASCIIEncoding::GetChars(System.Byte[],System.Int32,System.Int32):System.Char[]",
           "clrName": "GetChars",
-          "tsEmitName": "GetChars2",
+          "tsEmitName": "getChars2",
           "normalizedSignature": "GetChars|(System.Byte[],System.Int32,System.Int32):System.Char[]|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -2262,7 +2262,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.ASCIIEncoding::GetChars(System.ReadOnlySpan_1,System.Span_1):System.Int32",
           "clrName": "GetChars",
-          "tsEmitName": "GetChars3",
+          "tsEmitName": "getChars3",
           "normalizedSignature": "GetChars|(System.ReadOnlySpan_1,System.Span_1):System.Int32|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -2278,7 +2278,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.ASCIIEncoding::GetString(System.Byte*,System.Int32):System.String",
           "clrName": "GetString",
-          "tsEmitName": "GetString",
+          "tsEmitName": "getString",
           "normalizedSignature": "GetString|(System.Byte*,System.Int32):System.String|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -2294,7 +2294,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.ASCIIEncoding::GetString(System.ReadOnlySpan_1):System.String",
           "clrName": "GetString",
-          "tsEmitName": "GetString2",
+          "tsEmitName": "getString2",
           "normalizedSignature": "GetString|(System.ReadOnlySpan_1):System.String|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -2310,7 +2310,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.ASCIIEncoding::GetString(System.Byte[]):System.String",
           "clrName": "GetString",
-          "tsEmitName": "GetString3",
+          "tsEmitName": "getString3",
           "normalizedSignature": "GetString|(System.Byte[]):System.String|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -2326,7 +2326,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.ASCIIEncoding::TryGetBytes(System.ReadOnlySpan_1,System.Span_1,System.Int32\u0026):System.Boolean",
           "clrName": "TryGetBytes",
-          "tsEmitName": "TryGetBytes",
+          "tsEmitName": "tryGetBytes",
           "normalizedSignature": "TryGetBytes|(System.ReadOnlySpan_1,System.Span_1,System.Int32\u0026):System.Boolean|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -2342,7 +2342,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.ASCIIEncoding::TryGetChars(System.ReadOnlySpan_1,System.Span_1,System.Int32\u0026):System.Boolean",
           "clrName": "TryGetChars",
-          "tsEmitName": "TryGetChars",
+          "tsEmitName": "tryGetChars",
           "normalizedSignature": "TryGetChars|(System.ReadOnlySpan_1,System.Span_1,System.Int32\u0026):System.Boolean|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -2397,7 +2397,7 @@
         {
           "stableId": "System.Text.Encoding.CodePages:System.Text.CodePagesEncodingProvider::GetEncoding(System.Int32):System.Text.Encoding",
           "clrName": "GetEncoding",
-          "tsEmitName": "getEncoding",
+          "tsEmitName": "getEncoding3",
           "normalizedSignature": "GetEncoding|(System.Int32):System.Text.Encoding|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2413,7 +2413,7 @@
         {
           "stableId": "System.Text.Encoding.CodePages:System.Text.CodePagesEncodingProvider::GetEncoding(System.String):System.Text.Encoding",
           "clrName": "GetEncoding",
-          "tsEmitName": "getEncoding2",
+          "tsEmitName": "getEncoding4",
           "normalizedSignature": "GetEncoding|(System.String):System.Text.Encoding|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2429,7 +2429,7 @@
         {
           "stableId": "System.Text.Encoding.CodePages:System.Text.CodePagesEncodingProvider::GetEncodings():System.Collections.Generic.IEnumerable_1[[System.Text.EncodingInfo,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "GetEncodings",
-          "tsEmitName": "getEncodings",
+          "tsEmitName": "getEncodings2",
           "normalizedSignature": "GetEncodings|():System.Collections.Generic.IEnumerable_1[[System.Text.EncodingInfo,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2445,7 +2445,7 @@
         {
           "stableId": "System.Text.Encoding.CodePages:System.Text.CodePagesEncodingProvider::GetEncoding(System.String,System.Text.EncoderFallback,System.Text.DecoderFallback):System.Text.Encoding",
           "clrName": "GetEncoding",
-          "tsEmitName": "GetEncoding",
+          "tsEmitName": "getEncoding",
           "normalizedSignature": "GetEncoding|(System.String,System.Text.EncoderFallback,System.Text.DecoderFallback):System.Text.Encoding|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -2461,7 +2461,7 @@
         {
           "stableId": "System.Text.Encoding.CodePages:System.Text.CodePagesEncodingProvider::GetEncoding(System.Int32,System.Text.EncoderFallback,System.Text.DecoderFallback):System.Text.Encoding",
           "clrName": "GetEncoding",
-          "tsEmitName": "GetEncoding2",
+          "tsEmitName": "getEncoding2",
           "normalizedSignature": "GetEncoding|(System.Int32,System.Text.EncoderFallback,System.Text.DecoderFallback):System.Text.Encoding|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -2477,7 +2477,7 @@
         {
           "stableId": "System.Text.Encoding.CodePages:System.Text.CodePagesEncodingProvider::GetEncodings():System.Collections.Generic.IEnumerable_1",
           "clrName": "GetEncodings",
-          "tsEmitName": "GetEncodings",
+          "tsEmitName": "getEncodings",
           "normalizedSignature": "GetEncodings|():System.Collections.Generic.IEnumerable_1|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -3180,7 +3180,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "getObjectData",
+          "tsEmitName": "getObjectData$view",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3197,7 +3197,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.DecoderFallbackException::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData",
+          "tsEmitName": "getObjectData",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -4098,7 +4098,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "getObjectData",
+          "tsEmitName": "getObjectData$view",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -4115,7 +4115,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.EncoderFallbackException::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData",
+          "tsEmitName": "getObjectData",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -7385,7 +7385,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UnicodeEncoding::GetByteCount(System.Char[],System.Int32,System.Int32):System.Int32",
           "clrName": "GetByteCount",
-          "tsEmitName": "getByteCount",
+          "tsEmitName": "getByteCount4",
           "normalizedSignature": "GetByteCount|(System.Char[],System.Int32,System.Int32):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7401,7 +7401,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UnicodeEncoding::GetByteCount(System.String):System.Int32",
           "clrName": "GetByteCount",
-          "tsEmitName": "getByteCount2",
+          "tsEmitName": "getByteCount5",
           "normalizedSignature": "GetByteCount|(System.String):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7417,7 +7417,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UnicodeEncoding::GetByteCount(System.Char*,System.Int32):System.Int32",
           "clrName": "GetByteCount",
-          "tsEmitName": "getByteCount3",
+          "tsEmitName": "getByteCount6",
           "normalizedSignature": "GetByteCount|(System.Char*,System.Int32):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7433,7 +7433,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UnicodeEncoding::GetBytes(System.String,System.Int32,System.Int32,System.Byte[],System.Int32):System.Int32",
           "clrName": "GetBytes",
-          "tsEmitName": "getBytes",
+          "tsEmitName": "getBytes6",
           "normalizedSignature": "GetBytes|(System.String,System.Int32,System.Int32,System.Byte[],System.Int32):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7449,7 +7449,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UnicodeEncoding::GetBytes(System.Char[],System.Int32,System.Int32,System.Byte[],System.Int32):System.Int32",
           "clrName": "GetBytes",
-          "tsEmitName": "getBytes2",
+          "tsEmitName": "getBytes7",
           "normalizedSignature": "GetBytes|(System.Char[],System.Int32,System.Int32,System.Byte[],System.Int32):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7465,7 +7465,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UnicodeEncoding::GetBytes(System.Char*,System.Int32,System.Byte*,System.Int32):System.Int32",
           "clrName": "GetBytes",
-          "tsEmitName": "getBytes3",
+          "tsEmitName": "getBytes8",
           "normalizedSignature": "GetBytes|(System.Char*,System.Int32,System.Byte*,System.Int32):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7481,7 +7481,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UnicodeEncoding::GetCharCount(System.Byte[],System.Int32,System.Int32):System.Int32",
           "clrName": "GetCharCount",
-          "tsEmitName": "getCharCount",
+          "tsEmitName": "getCharCount3",
           "normalizedSignature": "GetCharCount|(System.Byte[],System.Int32,System.Int32):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7497,7 +7497,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UnicodeEncoding::GetCharCount(System.Byte*,System.Int32):System.Int32",
           "clrName": "GetCharCount",
-          "tsEmitName": "getCharCount2",
+          "tsEmitName": "getCharCount4",
           "normalizedSignature": "GetCharCount|(System.Byte*,System.Int32):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7513,7 +7513,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UnicodeEncoding::GetChars(System.Byte[],System.Int32,System.Int32,System.Char[],System.Int32):System.Int32",
           "clrName": "GetChars",
-          "tsEmitName": "getChars",
+          "tsEmitName": "getChars4",
           "normalizedSignature": "GetChars|(System.Byte[],System.Int32,System.Int32,System.Char[],System.Int32):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7529,7 +7529,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UnicodeEncoding::GetChars(System.Byte*,System.Int32,System.Char*,System.Int32):System.Int32",
           "clrName": "GetChars",
-          "tsEmitName": "getChars2",
+          "tsEmitName": "getChars5",
           "normalizedSignature": "GetChars|(System.Byte*,System.Int32,System.Char*,System.Int32):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7545,7 +7545,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UnicodeEncoding::GetString(System.Byte[],System.Int32,System.Int32):System.String",
           "clrName": "GetString",
-          "tsEmitName": "getString",
+          "tsEmitName": "getString4",
           "normalizedSignature": "GetString|(System.Byte[],System.Int32,System.Int32):System.String|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7673,7 +7673,7 @@
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "clone",
+          "tsEmitName": "clone$view",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -7690,7 +7690,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UnicodeEncoding::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "Clone",
+          "tsEmitName": "clone",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -7706,7 +7706,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UnicodeEncoding::GetByteCount(System.Char[]):System.Int32",
           "clrName": "GetByteCount",
-          "tsEmitName": "GetByteCount",
+          "tsEmitName": "getByteCount",
           "normalizedSignature": "GetByteCount|(System.Char[]):System.Int32|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -7722,7 +7722,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UnicodeEncoding::GetByteCount(System.String,System.Int32,System.Int32):System.Int32",
           "clrName": "GetByteCount",
-          "tsEmitName": "GetByteCount2",
+          "tsEmitName": "getByteCount2",
           "normalizedSignature": "GetByteCount|(System.String,System.Int32,System.Int32):System.Int32|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -7738,7 +7738,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UnicodeEncoding::GetByteCount(System.ReadOnlySpan_1):System.Int32",
           "clrName": "GetByteCount",
-          "tsEmitName": "GetByteCount3",
+          "tsEmitName": "getByteCount3",
           "normalizedSignature": "GetByteCount|(System.ReadOnlySpan_1):System.Int32|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -7754,7 +7754,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UnicodeEncoding::GetBytes(System.Char[]):System.Byte[]",
           "clrName": "GetBytes",
-          "tsEmitName": "GetBytes",
+          "tsEmitName": "getBytes",
           "normalizedSignature": "GetBytes|(System.Char[]):System.Byte[]|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -7770,7 +7770,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UnicodeEncoding::GetBytes(System.Char[],System.Int32,System.Int32):System.Byte[]",
           "clrName": "GetBytes",
-          "tsEmitName": "GetBytes2",
+          "tsEmitName": "getBytes2",
           "normalizedSignature": "GetBytes|(System.Char[],System.Int32,System.Int32):System.Byte[]|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -7786,7 +7786,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UnicodeEncoding::GetBytes(System.String):System.Byte[]",
           "clrName": "GetBytes",
-          "tsEmitName": "GetBytes3",
+          "tsEmitName": "getBytes3",
           "normalizedSignature": "GetBytes|(System.String):System.Byte[]|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -7802,7 +7802,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UnicodeEncoding::GetBytes(System.String,System.Int32,System.Int32):System.Byte[]",
           "clrName": "GetBytes",
-          "tsEmitName": "GetBytes4",
+          "tsEmitName": "getBytes4",
           "normalizedSignature": "GetBytes|(System.String,System.Int32,System.Int32):System.Byte[]|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -7818,7 +7818,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UnicodeEncoding::GetBytes(System.ReadOnlySpan_1,System.Span_1):System.Int32",
           "clrName": "GetBytes",
-          "tsEmitName": "GetBytes5",
+          "tsEmitName": "getBytes5",
           "normalizedSignature": "GetBytes|(System.ReadOnlySpan_1,System.Span_1):System.Int32|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -7834,7 +7834,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UnicodeEncoding::GetCharCount(System.Byte[]):System.Int32",
           "clrName": "GetCharCount",
-          "tsEmitName": "GetCharCount",
+          "tsEmitName": "getCharCount",
           "normalizedSignature": "GetCharCount|(System.Byte[]):System.Int32|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -7850,7 +7850,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UnicodeEncoding::GetCharCount(System.ReadOnlySpan_1):System.Int32",
           "clrName": "GetCharCount",
-          "tsEmitName": "GetCharCount2",
+          "tsEmitName": "getCharCount2",
           "normalizedSignature": "GetCharCount|(System.ReadOnlySpan_1):System.Int32|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -7866,7 +7866,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UnicodeEncoding::GetChars(System.Byte[]):System.Char[]",
           "clrName": "GetChars",
-          "tsEmitName": "GetChars",
+          "tsEmitName": "getChars",
           "normalizedSignature": "GetChars|(System.Byte[]):System.Char[]|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -7882,7 +7882,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UnicodeEncoding::GetChars(System.Byte[],System.Int32,System.Int32):System.Char[]",
           "clrName": "GetChars",
-          "tsEmitName": "GetChars2",
+          "tsEmitName": "getChars2",
           "normalizedSignature": "GetChars|(System.Byte[],System.Int32,System.Int32):System.Char[]|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -7898,7 +7898,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UnicodeEncoding::GetChars(System.ReadOnlySpan_1,System.Span_1):System.Int32",
           "clrName": "GetChars",
-          "tsEmitName": "GetChars3",
+          "tsEmitName": "getChars3",
           "normalizedSignature": "GetChars|(System.ReadOnlySpan_1,System.Span_1):System.Int32|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -7914,7 +7914,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UnicodeEncoding::GetString(System.Byte*,System.Int32):System.String",
           "clrName": "GetString",
-          "tsEmitName": "GetString",
+          "tsEmitName": "getString",
           "normalizedSignature": "GetString|(System.Byte*,System.Int32):System.String|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -7930,7 +7930,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UnicodeEncoding::GetString(System.ReadOnlySpan_1):System.String",
           "clrName": "GetString",
-          "tsEmitName": "GetString2",
+          "tsEmitName": "getString2",
           "normalizedSignature": "GetString|(System.ReadOnlySpan_1):System.String|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -7946,7 +7946,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UnicodeEncoding::GetString(System.Byte[]):System.String",
           "clrName": "GetString",
-          "tsEmitName": "GetString3",
+          "tsEmitName": "getString3",
           "normalizedSignature": "GetString|(System.Byte[]):System.String|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -8021,7 +8021,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF32Encoding::GetByteCount(System.Char[],System.Int32,System.Int32):System.Int32",
           "clrName": "GetByteCount",
-          "tsEmitName": "getByteCount",
+          "tsEmitName": "getByteCount4",
           "normalizedSignature": "GetByteCount|(System.Char[],System.Int32,System.Int32):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8037,7 +8037,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF32Encoding::GetByteCount(System.String):System.Int32",
           "clrName": "GetByteCount",
-          "tsEmitName": "getByteCount2",
+          "tsEmitName": "getByteCount5",
           "normalizedSignature": "GetByteCount|(System.String):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8053,7 +8053,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF32Encoding::GetByteCount(System.Char*,System.Int32):System.Int32",
           "clrName": "GetByteCount",
-          "tsEmitName": "getByteCount3",
+          "tsEmitName": "getByteCount6",
           "normalizedSignature": "GetByteCount|(System.Char*,System.Int32):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8069,7 +8069,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF32Encoding::GetBytes(System.String,System.Int32,System.Int32,System.Byte[],System.Int32):System.Int32",
           "clrName": "GetBytes",
-          "tsEmitName": "getBytes",
+          "tsEmitName": "getBytes6",
           "normalizedSignature": "GetBytes|(System.String,System.Int32,System.Int32,System.Byte[],System.Int32):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8085,7 +8085,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF32Encoding::GetBytes(System.Char[],System.Int32,System.Int32,System.Byte[],System.Int32):System.Int32",
           "clrName": "GetBytes",
-          "tsEmitName": "getBytes2",
+          "tsEmitName": "getBytes7",
           "normalizedSignature": "GetBytes|(System.Char[],System.Int32,System.Int32,System.Byte[],System.Int32):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8101,7 +8101,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF32Encoding::GetBytes(System.Char*,System.Int32,System.Byte*,System.Int32):System.Int32",
           "clrName": "GetBytes",
-          "tsEmitName": "getBytes3",
+          "tsEmitName": "getBytes8",
           "normalizedSignature": "GetBytes|(System.Char*,System.Int32,System.Byte*,System.Int32):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8117,7 +8117,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF32Encoding::GetCharCount(System.Byte[],System.Int32,System.Int32):System.Int32",
           "clrName": "GetCharCount",
-          "tsEmitName": "getCharCount",
+          "tsEmitName": "getCharCount3",
           "normalizedSignature": "GetCharCount|(System.Byte[],System.Int32,System.Int32):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8133,7 +8133,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF32Encoding::GetCharCount(System.Byte*,System.Int32):System.Int32",
           "clrName": "GetCharCount",
-          "tsEmitName": "getCharCount2",
+          "tsEmitName": "getCharCount4",
           "normalizedSignature": "GetCharCount|(System.Byte*,System.Int32):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8149,7 +8149,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF32Encoding::GetChars(System.Byte[],System.Int32,System.Int32,System.Char[],System.Int32):System.Int32",
           "clrName": "GetChars",
-          "tsEmitName": "getChars",
+          "tsEmitName": "getChars4",
           "normalizedSignature": "GetChars|(System.Byte[],System.Int32,System.Int32,System.Char[],System.Int32):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8165,7 +8165,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF32Encoding::GetChars(System.Byte*,System.Int32,System.Char*,System.Int32):System.Int32",
           "clrName": "GetChars",
-          "tsEmitName": "getChars2",
+          "tsEmitName": "getChars5",
           "normalizedSignature": "GetChars|(System.Byte*,System.Int32,System.Char*,System.Int32):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8181,7 +8181,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF32Encoding::GetString(System.Byte[],System.Int32,System.Int32):System.String",
           "clrName": "GetString",
-          "tsEmitName": "getString",
+          "tsEmitName": "getString4",
           "normalizedSignature": "GetString|(System.Byte[],System.Int32,System.Int32):System.String|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8309,7 +8309,7 @@
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "clone",
+          "tsEmitName": "clone$view",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -8326,7 +8326,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF32Encoding::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "Clone",
+          "tsEmitName": "clone",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -8342,7 +8342,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF32Encoding::GetByteCount(System.Char[]):System.Int32",
           "clrName": "GetByteCount",
-          "tsEmitName": "GetByteCount",
+          "tsEmitName": "getByteCount",
           "normalizedSignature": "GetByteCount|(System.Char[]):System.Int32|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -8358,7 +8358,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF32Encoding::GetByteCount(System.String,System.Int32,System.Int32):System.Int32",
           "clrName": "GetByteCount",
-          "tsEmitName": "GetByteCount2",
+          "tsEmitName": "getByteCount2",
           "normalizedSignature": "GetByteCount|(System.String,System.Int32,System.Int32):System.Int32|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -8374,7 +8374,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF32Encoding::GetByteCount(System.ReadOnlySpan_1):System.Int32",
           "clrName": "GetByteCount",
-          "tsEmitName": "GetByteCount3",
+          "tsEmitName": "getByteCount3",
           "normalizedSignature": "GetByteCount|(System.ReadOnlySpan_1):System.Int32|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -8390,7 +8390,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF32Encoding::GetBytes(System.Char[]):System.Byte[]",
           "clrName": "GetBytes",
-          "tsEmitName": "GetBytes",
+          "tsEmitName": "getBytes",
           "normalizedSignature": "GetBytes|(System.Char[]):System.Byte[]|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -8406,7 +8406,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF32Encoding::GetBytes(System.Char[],System.Int32,System.Int32):System.Byte[]",
           "clrName": "GetBytes",
-          "tsEmitName": "GetBytes2",
+          "tsEmitName": "getBytes2",
           "normalizedSignature": "GetBytes|(System.Char[],System.Int32,System.Int32):System.Byte[]|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -8422,7 +8422,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF32Encoding::GetBytes(System.String):System.Byte[]",
           "clrName": "GetBytes",
-          "tsEmitName": "GetBytes3",
+          "tsEmitName": "getBytes3",
           "normalizedSignature": "GetBytes|(System.String):System.Byte[]|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -8438,7 +8438,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF32Encoding::GetBytes(System.String,System.Int32,System.Int32):System.Byte[]",
           "clrName": "GetBytes",
-          "tsEmitName": "GetBytes4",
+          "tsEmitName": "getBytes4",
           "normalizedSignature": "GetBytes|(System.String,System.Int32,System.Int32):System.Byte[]|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -8454,7 +8454,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF32Encoding::GetBytes(System.ReadOnlySpan_1,System.Span_1):System.Int32",
           "clrName": "GetBytes",
-          "tsEmitName": "GetBytes5",
+          "tsEmitName": "getBytes5",
           "normalizedSignature": "GetBytes|(System.ReadOnlySpan_1,System.Span_1):System.Int32|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -8470,7 +8470,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF32Encoding::GetCharCount(System.Byte[]):System.Int32",
           "clrName": "GetCharCount",
-          "tsEmitName": "GetCharCount",
+          "tsEmitName": "getCharCount",
           "normalizedSignature": "GetCharCount|(System.Byte[]):System.Int32|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -8486,7 +8486,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF32Encoding::GetCharCount(System.ReadOnlySpan_1):System.Int32",
           "clrName": "GetCharCount",
-          "tsEmitName": "GetCharCount2",
+          "tsEmitName": "getCharCount2",
           "normalizedSignature": "GetCharCount|(System.ReadOnlySpan_1):System.Int32|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -8502,7 +8502,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF32Encoding::GetChars(System.Byte[]):System.Char[]",
           "clrName": "GetChars",
-          "tsEmitName": "GetChars",
+          "tsEmitName": "getChars",
           "normalizedSignature": "GetChars|(System.Byte[]):System.Char[]|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -8518,7 +8518,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF32Encoding::GetChars(System.Byte[],System.Int32,System.Int32):System.Char[]",
           "clrName": "GetChars",
-          "tsEmitName": "GetChars2",
+          "tsEmitName": "getChars2",
           "normalizedSignature": "GetChars|(System.Byte[],System.Int32,System.Int32):System.Char[]|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -8534,7 +8534,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF32Encoding::GetChars(System.ReadOnlySpan_1,System.Span_1):System.Int32",
           "clrName": "GetChars",
-          "tsEmitName": "GetChars3",
+          "tsEmitName": "getChars3",
           "normalizedSignature": "GetChars|(System.ReadOnlySpan_1,System.Span_1):System.Int32|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -8550,7 +8550,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF32Encoding::GetString(System.Byte*,System.Int32):System.String",
           "clrName": "GetString",
-          "tsEmitName": "GetString",
+          "tsEmitName": "getString",
           "normalizedSignature": "GetString|(System.Byte*,System.Int32):System.String|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -8566,7 +8566,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF32Encoding::GetString(System.ReadOnlySpan_1):System.String",
           "clrName": "GetString",
-          "tsEmitName": "GetString2",
+          "tsEmitName": "getString2",
           "normalizedSignature": "GetString|(System.ReadOnlySpan_1):System.String|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -8582,7 +8582,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF32Encoding::GetString(System.Byte[]):System.String",
           "clrName": "GetString",
-          "tsEmitName": "GetString3",
+          "tsEmitName": "getString3",
           "normalizedSignature": "GetString|(System.Byte[]):System.String|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -8679,7 +8679,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF7Encoding::GetByteCount(System.Char[],System.Int32,System.Int32):System.Int32",
           "clrName": "GetByteCount",
-          "tsEmitName": "getByteCount",
+          "tsEmitName": "getByteCount4",
           "normalizedSignature": "GetByteCount|(System.Char[],System.Int32,System.Int32):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8695,7 +8695,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF7Encoding::GetByteCount(System.String):System.Int32",
           "clrName": "GetByteCount",
-          "tsEmitName": "getByteCount2",
+          "tsEmitName": "getByteCount5",
           "normalizedSignature": "GetByteCount|(System.String):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8711,7 +8711,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF7Encoding::GetByteCount(System.Char*,System.Int32):System.Int32",
           "clrName": "GetByteCount",
-          "tsEmitName": "getByteCount3",
+          "tsEmitName": "getByteCount6",
           "normalizedSignature": "GetByteCount|(System.Char*,System.Int32):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8727,7 +8727,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF7Encoding::GetBytes(System.String,System.Int32,System.Int32,System.Byte[],System.Int32):System.Int32",
           "clrName": "GetBytes",
-          "tsEmitName": "getBytes",
+          "tsEmitName": "getBytes6",
           "normalizedSignature": "GetBytes|(System.String,System.Int32,System.Int32,System.Byte[],System.Int32):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8743,7 +8743,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF7Encoding::GetBytes(System.Char[],System.Int32,System.Int32,System.Byte[],System.Int32):System.Int32",
           "clrName": "GetBytes",
-          "tsEmitName": "getBytes2",
+          "tsEmitName": "getBytes7",
           "normalizedSignature": "GetBytes|(System.Char[],System.Int32,System.Int32,System.Byte[],System.Int32):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8759,7 +8759,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF7Encoding::GetBytes(System.Char*,System.Int32,System.Byte*,System.Int32):System.Int32",
           "clrName": "GetBytes",
-          "tsEmitName": "getBytes3",
+          "tsEmitName": "getBytes8",
           "normalizedSignature": "GetBytes|(System.Char*,System.Int32,System.Byte*,System.Int32):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8775,7 +8775,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF7Encoding::GetCharCount(System.Byte[],System.Int32,System.Int32):System.Int32",
           "clrName": "GetCharCount",
-          "tsEmitName": "getCharCount",
+          "tsEmitName": "getCharCount3",
           "normalizedSignature": "GetCharCount|(System.Byte[],System.Int32,System.Int32):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8791,7 +8791,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF7Encoding::GetCharCount(System.Byte*,System.Int32):System.Int32",
           "clrName": "GetCharCount",
-          "tsEmitName": "getCharCount2",
+          "tsEmitName": "getCharCount4",
           "normalizedSignature": "GetCharCount|(System.Byte*,System.Int32):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8807,7 +8807,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF7Encoding::GetChars(System.Byte[],System.Int32,System.Int32,System.Char[],System.Int32):System.Int32",
           "clrName": "GetChars",
-          "tsEmitName": "getChars",
+          "tsEmitName": "getChars4",
           "normalizedSignature": "GetChars|(System.Byte[],System.Int32,System.Int32,System.Char[],System.Int32):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8823,7 +8823,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF7Encoding::GetChars(System.Byte*,System.Int32,System.Char*,System.Int32):System.Int32",
           "clrName": "GetChars",
-          "tsEmitName": "getChars2",
+          "tsEmitName": "getChars5",
           "normalizedSignature": "GetChars|(System.Byte*,System.Int32,System.Char*,System.Int32):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8839,7 +8839,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF7Encoding::GetString(System.Byte[],System.Int32,System.Int32):System.String",
           "clrName": "GetString",
-          "tsEmitName": "getString",
+          "tsEmitName": "getString4",
           "normalizedSignature": "GetString|(System.Byte[],System.Int32,System.Int32):System.String|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8919,7 +8919,7 @@
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "clone",
+          "tsEmitName": "clone$view",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -8936,7 +8936,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF7Encoding::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "Clone",
+          "tsEmitName": "clone",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -8952,7 +8952,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF7Encoding::GetByteCount(System.Char[]):System.Int32",
           "clrName": "GetByteCount",
-          "tsEmitName": "GetByteCount",
+          "tsEmitName": "getByteCount",
           "normalizedSignature": "GetByteCount|(System.Char[]):System.Int32|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -8968,7 +8968,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF7Encoding::GetByteCount(System.String,System.Int32,System.Int32):System.Int32",
           "clrName": "GetByteCount",
-          "tsEmitName": "GetByteCount2",
+          "tsEmitName": "getByteCount2",
           "normalizedSignature": "GetByteCount|(System.String,System.Int32,System.Int32):System.Int32|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -8984,7 +8984,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF7Encoding::GetByteCount(System.ReadOnlySpan_1):System.Int32",
           "clrName": "GetByteCount",
-          "tsEmitName": "GetByteCount3",
+          "tsEmitName": "getByteCount3",
           "normalizedSignature": "GetByteCount|(System.ReadOnlySpan_1):System.Int32|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -9000,7 +9000,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF7Encoding::GetBytes(System.Char[]):System.Byte[]",
           "clrName": "GetBytes",
-          "tsEmitName": "GetBytes",
+          "tsEmitName": "getBytes",
           "normalizedSignature": "GetBytes|(System.Char[]):System.Byte[]|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -9016,7 +9016,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF7Encoding::GetBytes(System.Char[],System.Int32,System.Int32):System.Byte[]",
           "clrName": "GetBytes",
-          "tsEmitName": "GetBytes2",
+          "tsEmitName": "getBytes2",
           "normalizedSignature": "GetBytes|(System.Char[],System.Int32,System.Int32):System.Byte[]|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -9032,7 +9032,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF7Encoding::GetBytes(System.String):System.Byte[]",
           "clrName": "GetBytes",
-          "tsEmitName": "GetBytes3",
+          "tsEmitName": "getBytes3",
           "normalizedSignature": "GetBytes|(System.String):System.Byte[]|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -9048,7 +9048,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF7Encoding::GetBytes(System.String,System.Int32,System.Int32):System.Byte[]",
           "clrName": "GetBytes",
-          "tsEmitName": "GetBytes4",
+          "tsEmitName": "getBytes4",
           "normalizedSignature": "GetBytes|(System.String,System.Int32,System.Int32):System.Byte[]|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -9064,7 +9064,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF7Encoding::GetBytes(System.ReadOnlySpan_1,System.Span_1):System.Int32",
           "clrName": "GetBytes",
-          "tsEmitName": "GetBytes5",
+          "tsEmitName": "getBytes5",
           "normalizedSignature": "GetBytes|(System.ReadOnlySpan_1,System.Span_1):System.Int32|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -9080,7 +9080,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF7Encoding::GetCharCount(System.Byte[]):System.Int32",
           "clrName": "GetCharCount",
-          "tsEmitName": "GetCharCount",
+          "tsEmitName": "getCharCount",
           "normalizedSignature": "GetCharCount|(System.Byte[]):System.Int32|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -9096,7 +9096,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF7Encoding::GetCharCount(System.ReadOnlySpan_1):System.Int32",
           "clrName": "GetCharCount",
-          "tsEmitName": "GetCharCount2",
+          "tsEmitName": "getCharCount2",
           "normalizedSignature": "GetCharCount|(System.ReadOnlySpan_1):System.Int32|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -9112,7 +9112,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF7Encoding::GetChars(System.Byte[]):System.Char[]",
           "clrName": "GetChars",
-          "tsEmitName": "GetChars",
+          "tsEmitName": "getChars",
           "normalizedSignature": "GetChars|(System.Byte[]):System.Char[]|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -9128,7 +9128,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF7Encoding::GetChars(System.Byte[],System.Int32,System.Int32):System.Char[]",
           "clrName": "GetChars",
-          "tsEmitName": "GetChars2",
+          "tsEmitName": "getChars2",
           "normalizedSignature": "GetChars|(System.Byte[],System.Int32,System.Int32):System.Char[]|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -9144,7 +9144,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF7Encoding::GetChars(System.ReadOnlySpan_1,System.Span_1):System.Int32",
           "clrName": "GetChars",
-          "tsEmitName": "GetChars3",
+          "tsEmitName": "getChars3",
           "normalizedSignature": "GetChars|(System.ReadOnlySpan_1,System.Span_1):System.Int32|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -9160,7 +9160,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF7Encoding::GetString(System.Byte*,System.Int32):System.String",
           "clrName": "GetString",
-          "tsEmitName": "GetString",
+          "tsEmitName": "getString",
           "normalizedSignature": "GetString|(System.Byte*,System.Int32):System.String|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -9176,7 +9176,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF7Encoding::GetString(System.ReadOnlySpan_1):System.String",
           "clrName": "GetString",
-          "tsEmitName": "GetString2",
+          "tsEmitName": "getString2",
           "normalizedSignature": "GetString|(System.ReadOnlySpan_1):System.String|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -9192,7 +9192,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF7Encoding::GetString(System.Byte[]):System.String",
           "clrName": "GetString",
-          "tsEmitName": "GetString3",
+          "tsEmitName": "getString3",
           "normalizedSignature": "GetString|(System.Byte[]):System.String|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -9236,7 +9236,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF8Encoding::GetByteCount(System.Char[],System.Int32,System.Int32):System.Int32",
           "clrName": "GetByteCount",
-          "tsEmitName": "getByteCount",
+          "tsEmitName": "getByteCount4",
           "normalizedSignature": "GetByteCount|(System.Char[],System.Int32,System.Int32):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9252,7 +9252,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF8Encoding::GetByteCount(System.String):System.Int32",
           "clrName": "GetByteCount",
-          "tsEmitName": "getByteCount2",
+          "tsEmitName": "getByteCount5",
           "normalizedSignature": "GetByteCount|(System.String):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9268,7 +9268,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF8Encoding::GetByteCount(System.Char*,System.Int32):System.Int32",
           "clrName": "GetByteCount",
-          "tsEmitName": "getByteCount3",
+          "tsEmitName": "getByteCount6",
           "normalizedSignature": "GetByteCount|(System.Char*,System.Int32):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9284,7 +9284,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF8Encoding::GetByteCount(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32",
           "clrName": "GetByteCount",
-          "tsEmitName": "getByteCount4",
+          "tsEmitName": "getByteCount7",
           "normalizedSignature": "GetByteCount|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9300,7 +9300,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF8Encoding::GetBytes(System.String,System.Int32,System.Int32,System.Byte[],System.Int32):System.Int32",
           "clrName": "GetBytes",
-          "tsEmitName": "getBytes",
+          "tsEmitName": "getBytes6",
           "normalizedSignature": "GetBytes|(System.String,System.Int32,System.Int32,System.Byte[],System.Int32):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9316,7 +9316,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF8Encoding::GetBytes(System.Char[],System.Int32,System.Int32,System.Byte[],System.Int32):System.Int32",
           "clrName": "GetBytes",
-          "tsEmitName": "getBytes2",
+          "tsEmitName": "getBytes7",
           "normalizedSignature": "GetBytes|(System.Char[],System.Int32,System.Int32,System.Byte[],System.Int32):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9332,7 +9332,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF8Encoding::GetBytes(System.Char*,System.Int32,System.Byte*,System.Int32):System.Int32",
           "clrName": "GetBytes",
-          "tsEmitName": "getBytes3",
+          "tsEmitName": "getBytes8",
           "normalizedSignature": "GetBytes|(System.Char*,System.Int32,System.Byte*,System.Int32):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9348,7 +9348,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF8Encoding::GetBytes(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32",
           "clrName": "GetBytes",
-          "tsEmitName": "getBytes4",
+          "tsEmitName": "getBytes9",
           "normalizedSignature": "GetBytes|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9364,7 +9364,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF8Encoding::TryGetBytes(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32\u0026):System.Boolean",
           "clrName": "TryGetBytes",
-          "tsEmitName": "tryGetBytes",
+          "tsEmitName": "tryGetBytes2",
           "normalizedSignature": "TryGetBytes|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32\u0026):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9380,7 +9380,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF8Encoding::GetCharCount(System.Byte[],System.Int32,System.Int32):System.Int32",
           "clrName": "GetCharCount",
-          "tsEmitName": "getCharCount",
+          "tsEmitName": "getCharCount3",
           "normalizedSignature": "GetCharCount|(System.Byte[],System.Int32,System.Int32):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9396,7 +9396,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF8Encoding::GetCharCount(System.Byte*,System.Int32):System.Int32",
           "clrName": "GetCharCount",
-          "tsEmitName": "getCharCount2",
+          "tsEmitName": "getCharCount4",
           "normalizedSignature": "GetCharCount|(System.Byte*,System.Int32):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9412,7 +9412,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF8Encoding::GetCharCount(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32",
           "clrName": "GetCharCount",
-          "tsEmitName": "getCharCount3",
+          "tsEmitName": "getCharCount5",
           "normalizedSignature": "GetCharCount|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9428,7 +9428,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF8Encoding::GetChars(System.Byte[],System.Int32,System.Int32,System.Char[],System.Int32):System.Int32",
           "clrName": "GetChars",
-          "tsEmitName": "getChars",
+          "tsEmitName": "getChars4",
           "normalizedSignature": "GetChars|(System.Byte[],System.Int32,System.Int32,System.Char[],System.Int32):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9444,7 +9444,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF8Encoding::GetChars(System.Byte*,System.Int32,System.Char*,System.Int32):System.Int32",
           "clrName": "GetChars",
-          "tsEmitName": "getChars2",
+          "tsEmitName": "getChars5",
           "normalizedSignature": "GetChars|(System.Byte*,System.Int32,System.Char*,System.Int32):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9460,7 +9460,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF8Encoding::GetChars(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32",
           "clrName": "GetChars",
-          "tsEmitName": "getChars3",
+          "tsEmitName": "getChars6",
           "normalizedSignature": "GetChars|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9476,7 +9476,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF8Encoding::TryGetChars(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32\u0026):System.Boolean",
           "clrName": "TryGetChars",
-          "tsEmitName": "tryGetChars",
+          "tsEmitName": "tryGetChars2",
           "normalizedSignature": "TryGetChars|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32\u0026):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9492,7 +9492,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF8Encoding::GetString(System.Byte[],System.Int32,System.Int32):System.String",
           "clrName": "GetString",
-          "tsEmitName": "getString",
+          "tsEmitName": "getString4",
           "normalizedSignature": "GetString|(System.Byte[],System.Int32,System.Int32):System.String|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9620,7 +9620,7 @@
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "clone",
+          "tsEmitName": "clone$view",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -9637,7 +9637,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF8Encoding::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "Clone",
+          "tsEmitName": "clone",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -9653,7 +9653,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF8Encoding::GetByteCount(System.Char[]):System.Int32",
           "clrName": "GetByteCount",
-          "tsEmitName": "GetByteCount",
+          "tsEmitName": "getByteCount",
           "normalizedSignature": "GetByteCount|(System.Char[]):System.Int32|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -9669,7 +9669,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF8Encoding::GetByteCount(System.String,System.Int32,System.Int32):System.Int32",
           "clrName": "GetByteCount",
-          "tsEmitName": "GetByteCount2",
+          "tsEmitName": "getByteCount2",
           "normalizedSignature": "GetByteCount|(System.String,System.Int32,System.Int32):System.Int32|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -9685,7 +9685,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF8Encoding::GetByteCount(System.ReadOnlySpan_1):System.Int32",
           "clrName": "GetByteCount",
-          "tsEmitName": "GetByteCount3",
+          "tsEmitName": "getByteCount3",
           "normalizedSignature": "GetByteCount|(System.ReadOnlySpan_1):System.Int32|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -9701,7 +9701,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF8Encoding::GetBytes(System.Char[]):System.Byte[]",
           "clrName": "GetBytes",
-          "tsEmitName": "GetBytes",
+          "tsEmitName": "getBytes",
           "normalizedSignature": "GetBytes|(System.Char[]):System.Byte[]|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -9717,7 +9717,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF8Encoding::GetBytes(System.Char[],System.Int32,System.Int32):System.Byte[]",
           "clrName": "GetBytes",
-          "tsEmitName": "GetBytes2",
+          "tsEmitName": "getBytes2",
           "normalizedSignature": "GetBytes|(System.Char[],System.Int32,System.Int32):System.Byte[]|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -9733,7 +9733,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF8Encoding::GetBytes(System.String):System.Byte[]",
           "clrName": "GetBytes",
-          "tsEmitName": "GetBytes3",
+          "tsEmitName": "getBytes3",
           "normalizedSignature": "GetBytes|(System.String):System.Byte[]|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -9749,7 +9749,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF8Encoding::GetBytes(System.String,System.Int32,System.Int32):System.Byte[]",
           "clrName": "GetBytes",
-          "tsEmitName": "GetBytes4",
+          "tsEmitName": "getBytes4",
           "normalizedSignature": "GetBytes|(System.String,System.Int32,System.Int32):System.Byte[]|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -9765,7 +9765,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF8Encoding::GetBytes(System.ReadOnlySpan_1,System.Span_1):System.Int32",
           "clrName": "GetBytes",
-          "tsEmitName": "GetBytes5",
+          "tsEmitName": "getBytes5",
           "normalizedSignature": "GetBytes|(System.ReadOnlySpan_1,System.Span_1):System.Int32|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -9781,7 +9781,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF8Encoding::GetCharCount(System.Byte[]):System.Int32",
           "clrName": "GetCharCount",
-          "tsEmitName": "GetCharCount",
+          "tsEmitName": "getCharCount",
           "normalizedSignature": "GetCharCount|(System.Byte[]):System.Int32|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -9797,7 +9797,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF8Encoding::GetCharCount(System.ReadOnlySpan_1):System.Int32",
           "clrName": "GetCharCount",
-          "tsEmitName": "GetCharCount2",
+          "tsEmitName": "getCharCount2",
           "normalizedSignature": "GetCharCount|(System.ReadOnlySpan_1):System.Int32|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -9813,7 +9813,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF8Encoding::GetChars(System.Byte[]):System.Char[]",
           "clrName": "GetChars",
-          "tsEmitName": "GetChars",
+          "tsEmitName": "getChars",
           "normalizedSignature": "GetChars|(System.Byte[]):System.Char[]|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -9829,7 +9829,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF8Encoding::GetChars(System.Byte[],System.Int32,System.Int32):System.Char[]",
           "clrName": "GetChars",
-          "tsEmitName": "GetChars2",
+          "tsEmitName": "getChars2",
           "normalizedSignature": "GetChars|(System.Byte[],System.Int32,System.Int32):System.Char[]|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -9845,7 +9845,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF8Encoding::GetChars(System.ReadOnlySpan_1,System.Span_1):System.Int32",
           "clrName": "GetChars",
-          "tsEmitName": "GetChars3",
+          "tsEmitName": "getChars3",
           "normalizedSignature": "GetChars|(System.ReadOnlySpan_1,System.Span_1):System.Int32|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -9861,7 +9861,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF8Encoding::GetString(System.Byte*,System.Int32):System.String",
           "clrName": "GetString",
-          "tsEmitName": "GetString",
+          "tsEmitName": "getString",
           "normalizedSignature": "GetString|(System.Byte*,System.Int32):System.String|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -9877,7 +9877,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF8Encoding::GetString(System.ReadOnlySpan_1):System.String",
           "clrName": "GetString",
-          "tsEmitName": "GetString2",
+          "tsEmitName": "getString2",
           "normalizedSignature": "GetString|(System.ReadOnlySpan_1):System.String|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -9893,7 +9893,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF8Encoding::GetString(System.Byte[]):System.String",
           "clrName": "GetString",
-          "tsEmitName": "GetString3",
+          "tsEmitName": "getString3",
           "normalizedSignature": "GetString|(System.Byte[]):System.String|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -9909,7 +9909,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF8Encoding::TryGetBytes(System.ReadOnlySpan_1,System.Span_1,System.Int32\u0026):System.Boolean",
           "clrName": "TryGetBytes",
-          "tsEmitName": "TryGetBytes",
+          "tsEmitName": "tryGetBytes",
           "normalizedSignature": "TryGetBytes|(System.ReadOnlySpan_1,System.Span_1,System.Int32\u0026):System.Boolean|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -9925,7 +9925,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF8Encoding::TryGetChars(System.ReadOnlySpan_1,System.Span_1,System.Int32\u0026):System.Boolean",
           "clrName": "TryGetChars",
-          "tsEmitName": "TryGetChars",
+          "tsEmitName": "tryGetChars",
           "normalizedSignature": "TryGetChars|(System.ReadOnlySpan_1,System.Span_1,System.Int32\u0026):System.Boolean|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",

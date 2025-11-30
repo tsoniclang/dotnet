@@ -13,7 +13,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.NormalizationForm::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67112990,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -772,7 +772,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -3596,7 +3596,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.ASCIIEncoding::GetByteCount(System.Char[],System.Int32,System.Int32):System.Int32",
           "clrName": "GetByteCount",
-          "tsEmitName": "getByteCount",
+          "tsEmitName": "getByteCount4",
           "metadataToken": 100681455,
           "canonicalSignature": "(System.Char[],System.Int32,System.Int32):System.Int32",
           "normalizedSignature": "GetByteCount|(System.Char[],System.Int32,System.Int32):System.Int32|static=false",
@@ -3610,7 +3610,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.ASCIIEncoding::GetByteCount(System.String):System.Int32",
           "clrName": "GetByteCount",
-          "tsEmitName": "getByteCount2",
+          "tsEmitName": "getByteCount5",
           "metadataToken": 100681456,
           "canonicalSignature": "(System.String):System.Int32",
           "normalizedSignature": "GetByteCount|(System.String):System.Int32|static=false",
@@ -3624,7 +3624,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.ASCIIEncoding::GetByteCount(System.Char*,System.Int32):System.Int32",
           "clrName": "GetByteCount",
-          "tsEmitName": "getByteCount3",
+          "tsEmitName": "getByteCount6",
           "metadataToken": 100681457,
           "canonicalSignature": "(System.Char*,System.Int32):System.Int32",
           "normalizedSignature": "GetByteCount|(System.Char*,System.Int32):System.Int32|static=false",
@@ -3638,7 +3638,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.ASCIIEncoding::GetByteCount(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32",
           "clrName": "GetByteCount",
-          "tsEmitName": "getByteCount4",
+          "tsEmitName": "getByteCount7",
           "metadataToken": 100681458,
           "canonicalSignature": "(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32",
           "normalizedSignature": "GetByteCount|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32|static=false",
@@ -3652,7 +3652,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.ASCIIEncoding::GetBytes(System.String,System.Int32,System.Int32,System.Byte[],System.Int32):System.Int32",
           "clrName": "GetBytes",
-          "tsEmitName": "getBytes",
+          "tsEmitName": "getBytes6",
           "metadataToken": 100681461,
           "canonicalSignature": "(System.String,System.Int32,System.Int32,System.Byte[],System.Int32):System.Int32",
           "normalizedSignature": "GetBytes|(System.String,System.Int32,System.Int32,System.Byte[],System.Int32):System.Int32|static=false",
@@ -3666,7 +3666,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.ASCIIEncoding::GetBytes(System.Char[],System.Int32,System.Int32,System.Byte[],System.Int32):System.Int32",
           "clrName": "GetBytes",
-          "tsEmitName": "getBytes2",
+          "tsEmitName": "getBytes7",
           "metadataToken": 100681462,
           "canonicalSignature": "(System.Char[],System.Int32,System.Int32,System.Byte[],System.Int32):System.Int32",
           "normalizedSignature": "GetBytes|(System.Char[],System.Int32,System.Int32,System.Byte[],System.Int32):System.Int32|static=false",
@@ -3680,7 +3680,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.ASCIIEncoding::GetBytes(System.Char*,System.Int32,System.Byte*,System.Int32):System.Int32",
           "clrName": "GetBytes",
-          "tsEmitName": "getBytes3",
+          "tsEmitName": "getBytes8",
           "metadataToken": 100681463,
           "canonicalSignature": "(System.Char*,System.Int32,System.Byte*,System.Int32):System.Int32",
           "normalizedSignature": "GetBytes|(System.Char*,System.Int32,System.Byte*,System.Int32):System.Int32|static=false",
@@ -3694,7 +3694,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.ASCIIEncoding::GetBytes(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32",
           "clrName": "GetBytes",
-          "tsEmitName": "getBytes4",
+          "tsEmitName": "getBytes9",
           "metadataToken": 100681464,
           "canonicalSignature": "(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32",
           "normalizedSignature": "GetBytes|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32|static=false",
@@ -3708,7 +3708,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.ASCIIEncoding::TryGetBytes(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32\u0026):System.Boolean",
           "clrName": "TryGetBytes",
-          "tsEmitName": "tryGetBytes",
+          "tsEmitName": "tryGetBytes2",
           "metadataToken": 100681465,
           "canonicalSignature": "(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32\u0026):System.Boolean",
           "normalizedSignature": "TryGetBytes|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32\u0026):System.Boolean|static=false",
@@ -3722,7 +3722,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.ASCIIEncoding::GetCharCount(System.Byte[],System.Int32,System.Int32):System.Int32",
           "clrName": "GetCharCount",
-          "tsEmitName": "getCharCount",
+          "tsEmitName": "getCharCount3",
           "metadataToken": 100681469,
           "canonicalSignature": "(System.Byte[],System.Int32,System.Int32):System.Int32",
           "normalizedSignature": "GetCharCount|(System.Byte[],System.Int32,System.Int32):System.Int32|static=false",
@@ -3736,7 +3736,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.ASCIIEncoding::GetCharCount(System.Byte*,System.Int32):System.Int32",
           "clrName": "GetCharCount",
-          "tsEmitName": "getCharCount2",
+          "tsEmitName": "getCharCount4",
           "metadataToken": 100681470,
           "canonicalSignature": "(System.Byte*,System.Int32):System.Int32",
           "normalizedSignature": "GetCharCount|(System.Byte*,System.Int32):System.Int32|static=false",
@@ -3750,7 +3750,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.ASCIIEncoding::GetCharCount(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32",
           "clrName": "GetCharCount",
-          "tsEmitName": "getCharCount3",
+          "tsEmitName": "getCharCount5",
           "metadataToken": 100681471,
           "canonicalSignature": "(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32",
           "normalizedSignature": "GetCharCount|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32|static=false",
@@ -3764,7 +3764,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.ASCIIEncoding::GetChars(System.Byte[],System.Int32,System.Int32,System.Char[],System.Int32):System.Int32",
           "clrName": "GetChars",
-          "tsEmitName": "getChars",
+          "tsEmitName": "getChars4",
           "metadataToken": 100681474,
           "canonicalSignature": "(System.Byte[],System.Int32,System.Int32,System.Char[],System.Int32):System.Int32",
           "normalizedSignature": "GetChars|(System.Byte[],System.Int32,System.Int32,System.Char[],System.Int32):System.Int32|static=false",
@@ -3778,7 +3778,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.ASCIIEncoding::GetChars(System.Byte*,System.Int32,System.Char*,System.Int32):System.Int32",
           "clrName": "GetChars",
-          "tsEmitName": "getChars2",
+          "tsEmitName": "getChars5",
           "metadataToken": 100681475,
           "canonicalSignature": "(System.Byte*,System.Int32,System.Char*,System.Int32):System.Int32",
           "normalizedSignature": "GetChars|(System.Byte*,System.Int32,System.Char*,System.Int32):System.Int32|static=false",
@@ -3792,7 +3792,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.ASCIIEncoding::GetChars(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32",
           "clrName": "GetChars",
-          "tsEmitName": "getChars3",
+          "tsEmitName": "getChars6",
           "metadataToken": 100681476,
           "canonicalSignature": "(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32",
           "normalizedSignature": "GetChars|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32|static=false",
@@ -3806,7 +3806,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.ASCIIEncoding::TryGetChars(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32\u0026):System.Boolean",
           "clrName": "TryGetChars",
-          "tsEmitName": "tryGetChars",
+          "tsEmitName": "tryGetChars2",
           "metadataToken": 100681477,
           "canonicalSignature": "(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32\u0026):System.Boolean",
           "normalizedSignature": "TryGetChars|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32\u0026):System.Boolean|static=false",
@@ -3820,7 +3820,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.ASCIIEncoding::GetString(System.Byte[],System.Int32,System.Int32):System.String",
           "clrName": "GetString",
-          "tsEmitName": "getString",
+          "tsEmitName": "getString4",
           "metadataToken": 100681481,
           "canonicalSignature": "(System.Byte[],System.Int32,System.Int32):System.String",
           "normalizedSignature": "GetString|(System.Byte[],System.Int32,System.Int32):System.String|static=false",
@@ -3890,7 +3890,7 @@
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "clone",
+          "tsEmitName": "clone$view",
           "metadataToken": 100668509,
           "canonicalSignature": "():System.Object",
           "normalizedSignature": "Clone|():System.Object|static=false",
@@ -3904,7 +3904,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.ASCIIEncoding::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "Clone",
+          "tsEmitName": "clone",
           "metadataToken": 0,
           "canonicalSignature": "():System.Object",
           "normalizedSignature": "Clone|():System.Object|static=false",
@@ -3918,7 +3918,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.ASCIIEncoding::GetByteCount(System.Char[]):System.Int32",
           "clrName": "GetByteCount",
-          "tsEmitName": "GetByteCount",
+          "tsEmitName": "getByteCount",
           "metadataToken": 0,
           "canonicalSignature": "(System.Char[]):System.Int32",
           "normalizedSignature": "GetByteCount|(System.Char[]):System.Int32|static=false",
@@ -3932,7 +3932,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.ASCIIEncoding::GetByteCount(System.String,System.Int32,System.Int32):System.Int32",
           "clrName": "GetByteCount",
-          "tsEmitName": "GetByteCount2",
+          "tsEmitName": "getByteCount2",
           "metadataToken": 0,
           "canonicalSignature": "(System.String,System.Int32,System.Int32):System.Int32",
           "normalizedSignature": "GetByteCount|(System.String,System.Int32,System.Int32):System.Int32|static=false",
@@ -3946,7 +3946,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.ASCIIEncoding::GetByteCount(System.ReadOnlySpan_1):System.Int32",
           "clrName": "GetByteCount",
-          "tsEmitName": "GetByteCount3",
+          "tsEmitName": "getByteCount3",
           "metadataToken": 0,
           "canonicalSignature": "(System.ReadOnlySpan_1):System.Int32",
           "normalizedSignature": "GetByteCount|(System.ReadOnlySpan_1):System.Int32|static=false",
@@ -3960,7 +3960,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.ASCIIEncoding::GetBytes(System.Char[]):System.Byte[]",
           "clrName": "GetBytes",
-          "tsEmitName": "GetBytes",
+          "tsEmitName": "getBytes",
           "metadataToken": 0,
           "canonicalSignature": "(System.Char[]):System.Byte[]",
           "normalizedSignature": "GetBytes|(System.Char[]):System.Byte[]|static=false",
@@ -3974,7 +3974,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.ASCIIEncoding::GetBytes(System.Char[],System.Int32,System.Int32):System.Byte[]",
           "clrName": "GetBytes",
-          "tsEmitName": "GetBytes2",
+          "tsEmitName": "getBytes2",
           "metadataToken": 0,
           "canonicalSignature": "(System.Char[],System.Int32,System.Int32):System.Byte[]",
           "normalizedSignature": "GetBytes|(System.Char[],System.Int32,System.Int32):System.Byte[]|static=false",
@@ -3988,7 +3988,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.ASCIIEncoding::GetBytes(System.String):System.Byte[]",
           "clrName": "GetBytes",
-          "tsEmitName": "GetBytes3",
+          "tsEmitName": "getBytes3",
           "metadataToken": 0,
           "canonicalSignature": "(System.String):System.Byte[]",
           "normalizedSignature": "GetBytes|(System.String):System.Byte[]|static=false",
@@ -4002,7 +4002,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.ASCIIEncoding::GetBytes(System.String,System.Int32,System.Int32):System.Byte[]",
           "clrName": "GetBytes",
-          "tsEmitName": "GetBytes4",
+          "tsEmitName": "getBytes4",
           "metadataToken": 0,
           "canonicalSignature": "(System.String,System.Int32,System.Int32):System.Byte[]",
           "normalizedSignature": "GetBytes|(System.String,System.Int32,System.Int32):System.Byte[]|static=false",
@@ -4016,7 +4016,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.ASCIIEncoding::GetBytes(System.ReadOnlySpan_1,System.Span_1):System.Int32",
           "clrName": "GetBytes",
-          "tsEmitName": "GetBytes5",
+          "tsEmitName": "getBytes5",
           "metadataToken": 0,
           "canonicalSignature": "(System.ReadOnlySpan_1,System.Span_1):System.Int32",
           "normalizedSignature": "GetBytes|(System.ReadOnlySpan_1,System.Span_1):System.Int32|static=false",
@@ -4030,7 +4030,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.ASCIIEncoding::GetCharCount(System.Byte[]):System.Int32",
           "clrName": "GetCharCount",
-          "tsEmitName": "GetCharCount",
+          "tsEmitName": "getCharCount",
           "metadataToken": 0,
           "canonicalSignature": "(System.Byte[]):System.Int32",
           "normalizedSignature": "GetCharCount|(System.Byte[]):System.Int32|static=false",
@@ -4044,7 +4044,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.ASCIIEncoding::GetCharCount(System.ReadOnlySpan_1):System.Int32",
           "clrName": "GetCharCount",
-          "tsEmitName": "GetCharCount2",
+          "tsEmitName": "getCharCount2",
           "metadataToken": 0,
           "canonicalSignature": "(System.ReadOnlySpan_1):System.Int32",
           "normalizedSignature": "GetCharCount|(System.ReadOnlySpan_1):System.Int32|static=false",
@@ -4058,7 +4058,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.ASCIIEncoding::GetChars(System.Byte[]):System.Char[]",
           "clrName": "GetChars",
-          "tsEmitName": "GetChars",
+          "tsEmitName": "getChars",
           "metadataToken": 0,
           "canonicalSignature": "(System.Byte[]):System.Char[]",
           "normalizedSignature": "GetChars|(System.Byte[]):System.Char[]|static=false",
@@ -4072,7 +4072,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.ASCIIEncoding::GetChars(System.Byte[],System.Int32,System.Int32):System.Char[]",
           "clrName": "GetChars",
-          "tsEmitName": "GetChars2",
+          "tsEmitName": "getChars2",
           "metadataToken": 0,
           "canonicalSignature": "(System.Byte[],System.Int32,System.Int32):System.Char[]",
           "normalizedSignature": "GetChars|(System.Byte[],System.Int32,System.Int32):System.Char[]|static=false",
@@ -4086,7 +4086,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.ASCIIEncoding::GetChars(System.ReadOnlySpan_1,System.Span_1):System.Int32",
           "clrName": "GetChars",
-          "tsEmitName": "GetChars3",
+          "tsEmitName": "getChars3",
           "metadataToken": 0,
           "canonicalSignature": "(System.ReadOnlySpan_1,System.Span_1):System.Int32",
           "normalizedSignature": "GetChars|(System.ReadOnlySpan_1,System.Span_1):System.Int32|static=false",
@@ -4100,7 +4100,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.ASCIIEncoding::GetString(System.Byte*,System.Int32):System.String",
           "clrName": "GetString",
-          "tsEmitName": "GetString",
+          "tsEmitName": "getString",
           "metadataToken": 0,
           "canonicalSignature": "(System.Byte*,System.Int32):System.String",
           "normalizedSignature": "GetString|(System.Byte*,System.Int32):System.String|static=false",
@@ -4114,7 +4114,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.ASCIIEncoding::GetString(System.ReadOnlySpan_1):System.String",
           "clrName": "GetString",
-          "tsEmitName": "GetString2",
+          "tsEmitName": "getString2",
           "metadataToken": 0,
           "canonicalSignature": "(System.ReadOnlySpan_1):System.String",
           "normalizedSignature": "GetString|(System.ReadOnlySpan_1):System.String|static=false",
@@ -4128,7 +4128,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.ASCIIEncoding::GetString(System.Byte[]):System.String",
           "clrName": "GetString",
-          "tsEmitName": "GetString3",
+          "tsEmitName": "getString3",
           "metadataToken": 0,
           "canonicalSignature": "(System.Byte[]):System.String",
           "normalizedSignature": "GetString|(System.Byte[]):System.String|static=false",
@@ -4142,7 +4142,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.ASCIIEncoding::TryGetBytes(System.ReadOnlySpan_1,System.Span_1,System.Int32\u0026):System.Boolean",
           "clrName": "TryGetBytes",
-          "tsEmitName": "TryGetBytes",
+          "tsEmitName": "tryGetBytes",
           "metadataToken": 0,
           "canonicalSignature": "(System.ReadOnlySpan_1,System.Span_1,System.Int32\u0026):System.Boolean",
           "normalizedSignature": "TryGetBytes|(System.ReadOnlySpan_1,System.Span_1,System.Int32\u0026):System.Boolean|static=false",
@@ -4156,7 +4156,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.ASCIIEncoding::TryGetChars(System.ReadOnlySpan_1,System.Span_1,System.Int32\u0026):System.Boolean",
           "clrName": "TryGetChars",
-          "tsEmitName": "TryGetChars",
+          "tsEmitName": "tryGetChars",
           "metadataToken": 0,
           "canonicalSignature": "(System.ReadOnlySpan_1,System.Span_1,System.Int32\u0026):System.Boolean",
           "normalizedSignature": "TryGetChars|(System.ReadOnlySpan_1,System.Span_1,System.Int32\u0026):System.Boolean|static=false",
@@ -4200,7 +4200,7 @@
       ],
       "exposedMethods": [
         {
-          "tsName": "getByteCount",
+          "tsName": "getByteCount4",
           "isStatic": false,
           "tsSignatureId": "GetByteCount|(System.Char[],System.Int32,System.Int32):System.Int32|static=false",
           "target": {
@@ -4210,7 +4210,7 @@
           }
         },
         {
-          "tsName": "getByteCount2",
+          "tsName": "getByteCount5",
           "isStatic": false,
           "tsSignatureId": "GetByteCount|(System.String):System.Int32|static=false",
           "target": {
@@ -4220,7 +4220,7 @@
           }
         },
         {
-          "tsName": "getByteCount3",
+          "tsName": "getByteCount6",
           "isStatic": false,
           "tsSignatureId": "GetByteCount|(System.Char*,System.Int32):System.Int32|static=false",
           "target": {
@@ -4230,7 +4230,7 @@
           }
         },
         {
-          "tsName": "getByteCount4",
+          "tsName": "getByteCount7",
           "isStatic": false,
           "tsSignatureId": "GetByteCount|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32|static=false",
           "target": {
@@ -4240,7 +4240,7 @@
           }
         },
         {
-          "tsName": "getBytes",
+          "tsName": "getBytes6",
           "isStatic": false,
           "tsSignatureId": "GetBytes|(System.String,System.Int32,System.Int32,System.Byte[],System.Int32):System.Int32|static=false",
           "target": {
@@ -4250,7 +4250,7 @@
           }
         },
         {
-          "tsName": "getBytes2",
+          "tsName": "getBytes7",
           "isStatic": false,
           "tsSignatureId": "GetBytes|(System.Char[],System.Int32,System.Int32,System.Byte[],System.Int32):System.Int32|static=false",
           "target": {
@@ -4260,7 +4260,7 @@
           }
         },
         {
-          "tsName": "getBytes3",
+          "tsName": "getBytes8",
           "isStatic": false,
           "tsSignatureId": "GetBytes|(System.Char*,System.Int32,System.Byte*,System.Int32):System.Int32|static=false",
           "target": {
@@ -4270,7 +4270,7 @@
           }
         },
         {
-          "tsName": "getBytes4",
+          "tsName": "getBytes9",
           "isStatic": false,
           "tsSignatureId": "GetBytes|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32|static=false",
           "target": {
@@ -4280,7 +4280,7 @@
           }
         },
         {
-          "tsName": "tryGetBytes",
+          "tsName": "tryGetBytes2",
           "isStatic": false,
           "tsSignatureId": "TryGetBytes|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32\u0026):System.Boolean|static=false",
           "target": {
@@ -4290,7 +4290,7 @@
           }
         },
         {
-          "tsName": "getCharCount",
+          "tsName": "getCharCount3",
           "isStatic": false,
           "tsSignatureId": "GetCharCount|(System.Byte[],System.Int32,System.Int32):System.Int32|static=false",
           "target": {
@@ -4300,7 +4300,7 @@
           }
         },
         {
-          "tsName": "getCharCount2",
+          "tsName": "getCharCount4",
           "isStatic": false,
           "tsSignatureId": "GetCharCount|(System.Byte*,System.Int32):System.Int32|static=false",
           "target": {
@@ -4310,7 +4310,7 @@
           }
         },
         {
-          "tsName": "getCharCount3",
+          "tsName": "getCharCount5",
           "isStatic": false,
           "tsSignatureId": "GetCharCount|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32|static=false",
           "target": {
@@ -4320,7 +4320,7 @@
           }
         },
         {
-          "tsName": "getChars",
+          "tsName": "getChars4",
           "isStatic": false,
           "tsSignatureId": "GetChars|(System.Byte[],System.Int32,System.Int32,System.Char[],System.Int32):System.Int32|static=false",
           "target": {
@@ -4330,7 +4330,7 @@
           }
         },
         {
-          "tsName": "getChars2",
+          "tsName": "getChars5",
           "isStatic": false,
           "tsSignatureId": "GetChars|(System.Byte*,System.Int32,System.Char*,System.Int32):System.Int32|static=false",
           "target": {
@@ -4340,7 +4340,7 @@
           }
         },
         {
-          "tsName": "getChars3",
+          "tsName": "getChars6",
           "isStatic": false,
           "tsSignatureId": "GetChars|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32|static=false",
           "target": {
@@ -4350,7 +4350,7 @@
           }
         },
         {
-          "tsName": "tryGetChars",
+          "tsName": "tryGetChars2",
           "isStatic": false,
           "tsSignatureId": "TryGetChars|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32\u0026):System.Boolean|static=false",
           "target": {
@@ -4360,7 +4360,7 @@
           }
         },
         {
-          "tsName": "getString",
+          "tsName": "getString4",
           "isStatic": false,
           "tsSignatureId": "GetString|(System.Byte[],System.Int32,System.Int32):System.String|static=false",
           "target": {
@@ -4410,7 +4410,7 @@
           }
         },
         {
-          "tsName": "clone",
+          "tsName": "clone$view",
           "isStatic": false,
           "tsSignatureId": "Clone|():System.Object|static=false",
           "target": {
@@ -4420,7 +4420,7 @@
           }
         },
         {
-          "tsName": "Clone",
+          "tsName": "clone",
           "isStatic": false,
           "tsSignatureId": "Clone|():System.Object|static=false",
           "target": {
@@ -4430,7 +4430,7 @@
           }
         },
         {
-          "tsName": "GetByteCount",
+          "tsName": "getByteCount",
           "isStatic": false,
           "tsSignatureId": "GetByteCount|(System.Char[]):System.Int32|static=false",
           "target": {
@@ -4440,7 +4440,7 @@
           }
         },
         {
-          "tsName": "GetByteCount2",
+          "tsName": "getByteCount2",
           "isStatic": false,
           "tsSignatureId": "GetByteCount|(System.String,System.Int32,System.Int32):System.Int32|static=false",
           "target": {
@@ -4450,7 +4450,7 @@
           }
         },
         {
-          "tsName": "GetByteCount3",
+          "tsName": "getByteCount3",
           "isStatic": false,
           "tsSignatureId": "GetByteCount|(System.ReadOnlySpan_1):System.Int32|static=false",
           "target": {
@@ -4460,7 +4460,7 @@
           }
         },
         {
-          "tsName": "GetBytes",
+          "tsName": "getBytes",
           "isStatic": false,
           "tsSignatureId": "GetBytes|(System.Char[]):System.Byte[]|static=false",
           "target": {
@@ -4470,7 +4470,7 @@
           }
         },
         {
-          "tsName": "GetBytes2",
+          "tsName": "getBytes2",
           "isStatic": false,
           "tsSignatureId": "GetBytes|(System.Char[],System.Int32,System.Int32):System.Byte[]|static=false",
           "target": {
@@ -4480,7 +4480,7 @@
           }
         },
         {
-          "tsName": "GetBytes3",
+          "tsName": "getBytes3",
           "isStatic": false,
           "tsSignatureId": "GetBytes|(System.String):System.Byte[]|static=false",
           "target": {
@@ -4490,7 +4490,7 @@
           }
         },
         {
-          "tsName": "GetBytes4",
+          "tsName": "getBytes4",
           "isStatic": false,
           "tsSignatureId": "GetBytes|(System.String,System.Int32,System.Int32):System.Byte[]|static=false",
           "target": {
@@ -4500,7 +4500,7 @@
           }
         },
         {
-          "tsName": "GetBytes5",
+          "tsName": "getBytes5",
           "isStatic": false,
           "tsSignatureId": "GetBytes|(System.ReadOnlySpan_1,System.Span_1):System.Int32|static=false",
           "target": {
@@ -4510,7 +4510,7 @@
           }
         },
         {
-          "tsName": "GetCharCount",
+          "tsName": "getCharCount",
           "isStatic": false,
           "tsSignatureId": "GetCharCount|(System.Byte[]):System.Int32|static=false",
           "target": {
@@ -4520,7 +4520,7 @@
           }
         },
         {
-          "tsName": "GetCharCount2",
+          "tsName": "getCharCount2",
           "isStatic": false,
           "tsSignatureId": "GetCharCount|(System.ReadOnlySpan_1):System.Int32|static=false",
           "target": {
@@ -4530,7 +4530,7 @@
           }
         },
         {
-          "tsName": "GetChars",
+          "tsName": "getChars",
           "isStatic": false,
           "tsSignatureId": "GetChars|(System.Byte[]):System.Char[]|static=false",
           "target": {
@@ -4540,7 +4540,7 @@
           }
         },
         {
-          "tsName": "GetChars2",
+          "tsName": "getChars2",
           "isStatic": false,
           "tsSignatureId": "GetChars|(System.Byte[],System.Int32,System.Int32):System.Char[]|static=false",
           "target": {
@@ -4550,7 +4550,7 @@
           }
         },
         {
-          "tsName": "GetChars3",
+          "tsName": "getChars3",
           "isStatic": false,
           "tsSignatureId": "GetChars|(System.ReadOnlySpan_1,System.Span_1):System.Int32|static=false",
           "target": {
@@ -4560,7 +4560,7 @@
           }
         },
         {
-          "tsName": "GetString",
+          "tsName": "getString",
           "isStatic": false,
           "tsSignatureId": "GetString|(System.Byte*,System.Int32):System.String|static=false",
           "target": {
@@ -4570,7 +4570,7 @@
           }
         },
         {
-          "tsName": "GetString2",
+          "tsName": "getString2",
           "isStatic": false,
           "tsSignatureId": "GetString|(System.ReadOnlySpan_1):System.String|static=false",
           "target": {
@@ -4580,7 +4580,7 @@
           }
         },
         {
-          "tsName": "GetString3",
+          "tsName": "getString3",
           "isStatic": false,
           "tsSignatureId": "GetString|(System.Byte[]):System.String|static=false",
           "target": {
@@ -4590,7 +4590,7 @@
           }
         },
         {
-          "tsName": "TryGetBytes",
+          "tsName": "tryGetBytes",
           "isStatic": false,
           "tsSignatureId": "TryGetBytes|(System.ReadOnlySpan_1,System.Span_1,System.Int32\u0026):System.Boolean|static=false",
           "target": {
@@ -4600,7 +4600,7 @@
           }
         },
         {
-          "tsName": "TryGetChars",
+          "tsName": "tryGetChars",
           "isStatic": false,
           "tsSignatureId": "TryGetChars|(System.ReadOnlySpan_1,System.Span_1,System.Int32\u0026):System.Boolean|static=false",
           "target": {
@@ -5054,7 +5054,7 @@
         {
           "stableId": "System.Text.Encoding.CodePages:System.Text.CodePagesEncodingProvider::GetEncoding(System.Int32):System.Text.Encoding",
           "clrName": "GetEncoding",
-          "tsEmitName": "getEncoding",
+          "tsEmitName": "getEncoding3",
           "metadataToken": 100663481,
           "canonicalSignature": "(System.Int32):System.Text.Encoding",
           "normalizedSignature": "GetEncoding|(System.Int32):System.Text.Encoding|static=false",
@@ -5068,7 +5068,7 @@
         {
           "stableId": "System.Text.Encoding.CodePages:System.Text.CodePagesEncodingProvider::GetEncoding(System.String):System.Text.Encoding",
           "clrName": "GetEncoding",
-          "tsEmitName": "getEncoding2",
+          "tsEmitName": "getEncoding4",
           "metadataToken": 100663482,
           "canonicalSignature": "(System.String):System.Text.Encoding",
           "normalizedSignature": "GetEncoding|(System.String):System.Text.Encoding|static=false",
@@ -5082,7 +5082,7 @@
         {
           "stableId": "System.Text.Encoding.CodePages:System.Text.CodePagesEncodingProvider::GetEncodings():System.Collections.Generic.IEnumerable_1[[System.Text.EncodingInfo,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "GetEncodings",
-          "tsEmitName": "getEncodings",
+          "tsEmitName": "getEncodings2",
           "metadataToken": 100663485,
           "canonicalSignature": "():System.Collections.Generic.IEnumerable_1[[System.Text.EncodingInfo,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "normalizedSignature": "GetEncodings|():System.Collections.Generic.IEnumerable_1[[System.Text.EncodingInfo,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
@@ -5096,7 +5096,7 @@
         {
           "stableId": "System.Text.Encoding.CodePages:System.Text.CodePagesEncodingProvider::GetEncoding(System.String,System.Text.EncoderFallback,System.Text.DecoderFallback):System.Text.Encoding",
           "clrName": "GetEncoding",
-          "tsEmitName": "GetEncoding",
+          "tsEmitName": "getEncoding",
           "metadataToken": 0,
           "canonicalSignature": "(System.String,System.Text.EncoderFallback,System.Text.DecoderFallback):System.Text.Encoding",
           "normalizedSignature": "GetEncoding|(System.String,System.Text.EncoderFallback,System.Text.DecoderFallback):System.Text.Encoding|static=false",
@@ -5110,7 +5110,7 @@
         {
           "stableId": "System.Text.Encoding.CodePages:System.Text.CodePagesEncodingProvider::GetEncoding(System.Int32,System.Text.EncoderFallback,System.Text.DecoderFallback):System.Text.Encoding",
           "clrName": "GetEncoding",
-          "tsEmitName": "GetEncoding2",
+          "tsEmitName": "getEncoding2",
           "metadataToken": 0,
           "canonicalSignature": "(System.Int32,System.Text.EncoderFallback,System.Text.DecoderFallback):System.Text.Encoding",
           "normalizedSignature": "GetEncoding|(System.Int32,System.Text.EncoderFallback,System.Text.DecoderFallback):System.Text.Encoding|static=false",
@@ -5124,7 +5124,7 @@
         {
           "stableId": "System.Text.Encoding.CodePages:System.Text.CodePagesEncodingProvider::GetEncodings():System.Collections.Generic.IEnumerable_1",
           "clrName": "GetEncodings",
-          "tsEmitName": "GetEncodings",
+          "tsEmitName": "getEncodings",
           "metadataToken": 0,
           "canonicalSignature": "():System.Collections.Generic.IEnumerable_1",
           "normalizedSignature": "GetEncodings|():System.Collections.Generic.IEnumerable_1|static=false",
@@ -5157,7 +5157,7 @@
       "constructors": [],
       "exposedMethods": [
         {
-          "tsName": "getEncoding",
+          "tsName": "getEncoding3",
           "isStatic": false,
           "tsSignatureId": "GetEncoding|(System.Int32):System.Text.Encoding|static=false",
           "target": {
@@ -5167,7 +5167,7 @@
           }
         },
         {
-          "tsName": "getEncoding2",
+          "tsName": "getEncoding4",
           "isStatic": false,
           "tsSignatureId": "GetEncoding|(System.String):System.Text.Encoding|static=false",
           "target": {
@@ -5177,7 +5177,7 @@
           }
         },
         {
-          "tsName": "getEncodings",
+          "tsName": "getEncodings2",
           "isStatic": false,
           "tsSignatureId": "GetEncodings|():System.Collections.Generic.IEnumerable_1[[System.Text.EncodingInfo,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "target": {
@@ -5187,7 +5187,7 @@
           }
         },
         {
-          "tsName": "GetEncoding",
+          "tsName": "getEncoding",
           "isStatic": false,
           "tsSignatureId": "GetEncoding|(System.String,System.Text.EncoderFallback,System.Text.DecoderFallback):System.Text.Encoding|static=false",
           "target": {
@@ -5197,7 +5197,7 @@
           }
         },
         {
-          "tsName": "GetEncoding2",
+          "tsName": "getEncoding2",
           "isStatic": false,
           "tsSignatureId": "GetEncoding|(System.Int32,System.Text.EncoderFallback,System.Text.DecoderFallback):System.Text.Encoding|static=false",
           "target": {
@@ -5207,7 +5207,7 @@
           }
         },
         {
-          "tsName": "GetEncodings",
+          "tsName": "getEncodings",
           "isStatic": false,
           "tsSignatureId": "GetEncodings|():System.Collections.Generic.IEnumerable_1|static=false",
           "target": {
@@ -6638,7 +6638,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "getObjectData",
+          "tsEmitName": "getObjectData$view",
           "metadataToken": 100682669,
           "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
@@ -6652,7 +6652,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.DecoderFallbackException::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData",
+          "tsEmitName": "getObjectData",
           "metadataToken": 0,
           "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
@@ -6740,7 +6740,7 @@
       ],
       "exposedMethods": [
         {
-          "tsName": "getObjectData",
+          "tsName": "getObjectData$view",
           "isStatic": false,
           "tsSignatureId": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "target": {
@@ -6750,7 +6750,7 @@
           }
         },
         {
-          "tsName": "GetObjectData",
+          "tsName": "getObjectData",
           "isStatic": false,
           "tsSignatureId": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "target": {
@@ -8672,7 +8672,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "getObjectData",
+          "tsEmitName": "getObjectData$view",
           "metadataToken": 100682669,
           "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
@@ -8686,7 +8686,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.EncoderFallbackException::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData",
+          "tsEmitName": "getObjectData",
           "metadataToken": 0,
           "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
@@ -8802,7 +8802,7 @@
           }
         },
         {
-          "tsName": "getObjectData",
+          "tsName": "getObjectData$view",
           "isStatic": false,
           "tsSignatureId": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "target": {
@@ -8812,7 +8812,7 @@
           }
         },
         {
-          "tsName": "GetObjectData",
+          "tsName": "getObjectData",
           "isStatic": false,
           "tsSignatureId": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "target": {
@@ -14259,7 +14259,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UnicodeEncoding::GetByteCount(System.Char[],System.Int32,System.Int32):System.Int32",
           "clrName": "GetByteCount",
-          "tsEmitName": "getByteCount",
+          "tsEmitName": "getByteCount4",
           "metadataToken": 100682090,
           "canonicalSignature": "(System.Char[],System.Int32,System.Int32):System.Int32",
           "normalizedSignature": "GetByteCount|(System.Char[],System.Int32,System.Int32):System.Int32|static=false",
@@ -14273,7 +14273,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UnicodeEncoding::GetByteCount(System.String):System.Int32",
           "clrName": "GetByteCount",
-          "tsEmitName": "getByteCount2",
+          "tsEmitName": "getByteCount5",
           "metadataToken": 100682091,
           "canonicalSignature": "(System.String):System.Int32",
           "normalizedSignature": "GetByteCount|(System.String):System.Int32|static=false",
@@ -14287,7 +14287,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UnicodeEncoding::GetByteCount(System.Char*,System.Int32):System.Int32",
           "clrName": "GetByteCount",
-          "tsEmitName": "getByteCount3",
+          "tsEmitName": "getByteCount6",
           "metadataToken": 100682092,
           "canonicalSignature": "(System.Char*,System.Int32):System.Int32",
           "normalizedSignature": "GetByteCount|(System.Char*,System.Int32):System.Int32|static=false",
@@ -14301,7 +14301,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UnicodeEncoding::GetBytes(System.String,System.Int32,System.Int32,System.Byte[],System.Int32):System.Int32",
           "clrName": "GetBytes",
-          "tsEmitName": "getBytes",
+          "tsEmitName": "getBytes6",
           "metadataToken": 100682093,
           "canonicalSignature": "(System.String,System.Int32,System.Int32,System.Byte[],System.Int32):System.Int32",
           "normalizedSignature": "GetBytes|(System.String,System.Int32,System.Int32,System.Byte[],System.Int32):System.Int32|static=false",
@@ -14315,7 +14315,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UnicodeEncoding::GetBytes(System.Char[],System.Int32,System.Int32,System.Byte[],System.Int32):System.Int32",
           "clrName": "GetBytes",
-          "tsEmitName": "getBytes2",
+          "tsEmitName": "getBytes7",
           "metadataToken": 100682094,
           "canonicalSignature": "(System.Char[],System.Int32,System.Int32,System.Byte[],System.Int32):System.Int32",
           "normalizedSignature": "GetBytes|(System.Char[],System.Int32,System.Int32,System.Byte[],System.Int32):System.Int32|static=false",
@@ -14329,7 +14329,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UnicodeEncoding::GetBytes(System.Char*,System.Int32,System.Byte*,System.Int32):System.Int32",
           "clrName": "GetBytes",
-          "tsEmitName": "getBytes3",
+          "tsEmitName": "getBytes8",
           "metadataToken": 100682095,
           "canonicalSignature": "(System.Char*,System.Int32,System.Byte*,System.Int32):System.Int32",
           "normalizedSignature": "GetBytes|(System.Char*,System.Int32,System.Byte*,System.Int32):System.Int32|static=false",
@@ -14343,7 +14343,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UnicodeEncoding::GetCharCount(System.Byte[],System.Int32,System.Int32):System.Int32",
           "clrName": "GetCharCount",
-          "tsEmitName": "getCharCount",
+          "tsEmitName": "getCharCount3",
           "metadataToken": 100682096,
           "canonicalSignature": "(System.Byte[],System.Int32,System.Int32):System.Int32",
           "normalizedSignature": "GetCharCount|(System.Byte[],System.Int32,System.Int32):System.Int32|static=false",
@@ -14357,7 +14357,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UnicodeEncoding::GetCharCount(System.Byte*,System.Int32):System.Int32",
           "clrName": "GetCharCount",
-          "tsEmitName": "getCharCount2",
+          "tsEmitName": "getCharCount4",
           "metadataToken": 100682097,
           "canonicalSignature": "(System.Byte*,System.Int32):System.Int32",
           "normalizedSignature": "GetCharCount|(System.Byte*,System.Int32):System.Int32|static=false",
@@ -14371,7 +14371,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UnicodeEncoding::GetChars(System.Byte[],System.Int32,System.Int32,System.Char[],System.Int32):System.Int32",
           "clrName": "GetChars",
-          "tsEmitName": "getChars",
+          "tsEmitName": "getChars4",
           "metadataToken": 100682098,
           "canonicalSignature": "(System.Byte[],System.Int32,System.Int32,System.Char[],System.Int32):System.Int32",
           "normalizedSignature": "GetChars|(System.Byte[],System.Int32,System.Int32,System.Char[],System.Int32):System.Int32|static=false",
@@ -14385,7 +14385,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UnicodeEncoding::GetChars(System.Byte*,System.Int32,System.Char*,System.Int32):System.Int32",
           "clrName": "GetChars",
-          "tsEmitName": "getChars2",
+          "tsEmitName": "getChars5",
           "metadataToken": 100682099,
           "canonicalSignature": "(System.Byte*,System.Int32,System.Char*,System.Int32):System.Int32",
           "normalizedSignature": "GetChars|(System.Byte*,System.Int32,System.Char*,System.Int32):System.Int32|static=false",
@@ -14399,7 +14399,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UnicodeEncoding::GetString(System.Byte[],System.Int32,System.Int32):System.String",
           "clrName": "GetString",
-          "tsEmitName": "getString",
+          "tsEmitName": "getString4",
           "metadataToken": 100682100,
           "canonicalSignature": "(System.Byte[],System.Int32,System.Int32):System.String",
           "normalizedSignature": "GetString|(System.Byte[],System.Int32,System.Int32):System.String|static=false",
@@ -14511,7 +14511,7 @@
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "clone",
+          "tsEmitName": "clone$view",
           "metadataToken": 100668509,
           "canonicalSignature": "():System.Object",
           "normalizedSignature": "Clone|():System.Object|static=false",
@@ -14525,7 +14525,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UnicodeEncoding::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "Clone",
+          "tsEmitName": "clone",
           "metadataToken": 0,
           "canonicalSignature": "():System.Object",
           "normalizedSignature": "Clone|():System.Object|static=false",
@@ -14539,7 +14539,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UnicodeEncoding::GetByteCount(System.Char[]):System.Int32",
           "clrName": "GetByteCount",
-          "tsEmitName": "GetByteCount",
+          "tsEmitName": "getByteCount",
           "metadataToken": 0,
           "canonicalSignature": "(System.Char[]):System.Int32",
           "normalizedSignature": "GetByteCount|(System.Char[]):System.Int32|static=false",
@@ -14553,7 +14553,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UnicodeEncoding::GetByteCount(System.String,System.Int32,System.Int32):System.Int32",
           "clrName": "GetByteCount",
-          "tsEmitName": "GetByteCount2",
+          "tsEmitName": "getByteCount2",
           "metadataToken": 0,
           "canonicalSignature": "(System.String,System.Int32,System.Int32):System.Int32",
           "normalizedSignature": "GetByteCount|(System.String,System.Int32,System.Int32):System.Int32|static=false",
@@ -14567,7 +14567,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UnicodeEncoding::GetByteCount(System.ReadOnlySpan_1):System.Int32",
           "clrName": "GetByteCount",
-          "tsEmitName": "GetByteCount3",
+          "tsEmitName": "getByteCount3",
           "metadataToken": 0,
           "canonicalSignature": "(System.ReadOnlySpan_1):System.Int32",
           "normalizedSignature": "GetByteCount|(System.ReadOnlySpan_1):System.Int32|static=false",
@@ -14581,7 +14581,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UnicodeEncoding::GetBytes(System.Char[]):System.Byte[]",
           "clrName": "GetBytes",
-          "tsEmitName": "GetBytes",
+          "tsEmitName": "getBytes",
           "metadataToken": 0,
           "canonicalSignature": "(System.Char[]):System.Byte[]",
           "normalizedSignature": "GetBytes|(System.Char[]):System.Byte[]|static=false",
@@ -14595,7 +14595,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UnicodeEncoding::GetBytes(System.Char[],System.Int32,System.Int32):System.Byte[]",
           "clrName": "GetBytes",
-          "tsEmitName": "GetBytes2",
+          "tsEmitName": "getBytes2",
           "metadataToken": 0,
           "canonicalSignature": "(System.Char[],System.Int32,System.Int32):System.Byte[]",
           "normalizedSignature": "GetBytes|(System.Char[],System.Int32,System.Int32):System.Byte[]|static=false",
@@ -14609,7 +14609,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UnicodeEncoding::GetBytes(System.String):System.Byte[]",
           "clrName": "GetBytes",
-          "tsEmitName": "GetBytes3",
+          "tsEmitName": "getBytes3",
           "metadataToken": 0,
           "canonicalSignature": "(System.String):System.Byte[]",
           "normalizedSignature": "GetBytes|(System.String):System.Byte[]|static=false",
@@ -14623,7 +14623,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UnicodeEncoding::GetBytes(System.String,System.Int32,System.Int32):System.Byte[]",
           "clrName": "GetBytes",
-          "tsEmitName": "GetBytes4",
+          "tsEmitName": "getBytes4",
           "metadataToken": 0,
           "canonicalSignature": "(System.String,System.Int32,System.Int32):System.Byte[]",
           "normalizedSignature": "GetBytes|(System.String,System.Int32,System.Int32):System.Byte[]|static=false",
@@ -14637,7 +14637,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UnicodeEncoding::GetBytes(System.ReadOnlySpan_1,System.Span_1):System.Int32",
           "clrName": "GetBytes",
-          "tsEmitName": "GetBytes5",
+          "tsEmitName": "getBytes5",
           "metadataToken": 0,
           "canonicalSignature": "(System.ReadOnlySpan_1,System.Span_1):System.Int32",
           "normalizedSignature": "GetBytes|(System.ReadOnlySpan_1,System.Span_1):System.Int32|static=false",
@@ -14651,7 +14651,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UnicodeEncoding::GetCharCount(System.Byte[]):System.Int32",
           "clrName": "GetCharCount",
-          "tsEmitName": "GetCharCount",
+          "tsEmitName": "getCharCount",
           "metadataToken": 0,
           "canonicalSignature": "(System.Byte[]):System.Int32",
           "normalizedSignature": "GetCharCount|(System.Byte[]):System.Int32|static=false",
@@ -14665,7 +14665,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UnicodeEncoding::GetCharCount(System.ReadOnlySpan_1):System.Int32",
           "clrName": "GetCharCount",
-          "tsEmitName": "GetCharCount2",
+          "tsEmitName": "getCharCount2",
           "metadataToken": 0,
           "canonicalSignature": "(System.ReadOnlySpan_1):System.Int32",
           "normalizedSignature": "GetCharCount|(System.ReadOnlySpan_1):System.Int32|static=false",
@@ -14679,7 +14679,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UnicodeEncoding::GetChars(System.Byte[]):System.Char[]",
           "clrName": "GetChars",
-          "tsEmitName": "GetChars",
+          "tsEmitName": "getChars",
           "metadataToken": 0,
           "canonicalSignature": "(System.Byte[]):System.Char[]",
           "normalizedSignature": "GetChars|(System.Byte[]):System.Char[]|static=false",
@@ -14693,7 +14693,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UnicodeEncoding::GetChars(System.Byte[],System.Int32,System.Int32):System.Char[]",
           "clrName": "GetChars",
-          "tsEmitName": "GetChars2",
+          "tsEmitName": "getChars2",
           "metadataToken": 0,
           "canonicalSignature": "(System.Byte[],System.Int32,System.Int32):System.Char[]",
           "normalizedSignature": "GetChars|(System.Byte[],System.Int32,System.Int32):System.Char[]|static=false",
@@ -14707,7 +14707,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UnicodeEncoding::GetChars(System.ReadOnlySpan_1,System.Span_1):System.Int32",
           "clrName": "GetChars",
-          "tsEmitName": "GetChars3",
+          "tsEmitName": "getChars3",
           "metadataToken": 0,
           "canonicalSignature": "(System.ReadOnlySpan_1,System.Span_1):System.Int32",
           "normalizedSignature": "GetChars|(System.ReadOnlySpan_1,System.Span_1):System.Int32|static=false",
@@ -14721,7 +14721,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UnicodeEncoding::GetString(System.Byte*,System.Int32):System.String",
           "clrName": "GetString",
-          "tsEmitName": "GetString",
+          "tsEmitName": "getString",
           "metadataToken": 0,
           "canonicalSignature": "(System.Byte*,System.Int32):System.String",
           "normalizedSignature": "GetString|(System.Byte*,System.Int32):System.String|static=false",
@@ -14735,7 +14735,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UnicodeEncoding::GetString(System.ReadOnlySpan_1):System.String",
           "clrName": "GetString",
-          "tsEmitName": "GetString2",
+          "tsEmitName": "getString2",
           "metadataToken": 0,
           "canonicalSignature": "(System.ReadOnlySpan_1):System.String",
           "normalizedSignature": "GetString|(System.ReadOnlySpan_1):System.String|static=false",
@@ -14749,7 +14749,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UnicodeEncoding::GetString(System.Byte[]):System.String",
           "clrName": "GetString",
-          "tsEmitName": "GetString3",
+          "tsEmitName": "getString3",
           "metadataToken": 0,
           "canonicalSignature": "(System.Byte[]):System.String",
           "normalizedSignature": "GetString|(System.Byte[]):System.String|static=false",
@@ -14825,7 +14825,7 @@
       ],
       "exposedMethods": [
         {
-          "tsName": "getByteCount",
+          "tsName": "getByteCount4",
           "isStatic": false,
           "tsSignatureId": "GetByteCount|(System.Char[],System.Int32,System.Int32):System.Int32|static=false",
           "target": {
@@ -14835,7 +14835,7 @@
           }
         },
         {
-          "tsName": "getByteCount2",
+          "tsName": "getByteCount5",
           "isStatic": false,
           "tsSignatureId": "GetByteCount|(System.String):System.Int32|static=false",
           "target": {
@@ -14845,7 +14845,7 @@
           }
         },
         {
-          "tsName": "getByteCount3",
+          "tsName": "getByteCount6",
           "isStatic": false,
           "tsSignatureId": "GetByteCount|(System.Char*,System.Int32):System.Int32|static=false",
           "target": {
@@ -14855,7 +14855,7 @@
           }
         },
         {
-          "tsName": "getBytes",
+          "tsName": "getBytes6",
           "isStatic": false,
           "tsSignatureId": "GetBytes|(System.String,System.Int32,System.Int32,System.Byte[],System.Int32):System.Int32|static=false",
           "target": {
@@ -14865,7 +14865,7 @@
           }
         },
         {
-          "tsName": "getBytes2",
+          "tsName": "getBytes7",
           "isStatic": false,
           "tsSignatureId": "GetBytes|(System.Char[],System.Int32,System.Int32,System.Byte[],System.Int32):System.Int32|static=false",
           "target": {
@@ -14875,7 +14875,7 @@
           }
         },
         {
-          "tsName": "getBytes3",
+          "tsName": "getBytes8",
           "isStatic": false,
           "tsSignatureId": "GetBytes|(System.Char*,System.Int32,System.Byte*,System.Int32):System.Int32|static=false",
           "target": {
@@ -14885,7 +14885,7 @@
           }
         },
         {
-          "tsName": "getCharCount",
+          "tsName": "getCharCount3",
           "isStatic": false,
           "tsSignatureId": "GetCharCount|(System.Byte[],System.Int32,System.Int32):System.Int32|static=false",
           "target": {
@@ -14895,7 +14895,7 @@
           }
         },
         {
-          "tsName": "getCharCount2",
+          "tsName": "getCharCount4",
           "isStatic": false,
           "tsSignatureId": "GetCharCount|(System.Byte*,System.Int32):System.Int32|static=false",
           "target": {
@@ -14905,7 +14905,7 @@
           }
         },
         {
-          "tsName": "getChars",
+          "tsName": "getChars4",
           "isStatic": false,
           "tsSignatureId": "GetChars|(System.Byte[],System.Int32,System.Int32,System.Char[],System.Int32):System.Int32|static=false",
           "target": {
@@ -14915,7 +14915,7 @@
           }
         },
         {
-          "tsName": "getChars2",
+          "tsName": "getChars5",
           "isStatic": false,
           "tsSignatureId": "GetChars|(System.Byte*,System.Int32,System.Char*,System.Int32):System.Int32|static=false",
           "target": {
@@ -14925,7 +14925,7 @@
           }
         },
         {
-          "tsName": "getString",
+          "tsName": "getString4",
           "isStatic": false,
           "tsSignatureId": "GetString|(System.Byte[],System.Int32,System.Int32):System.String|static=false",
           "target": {
@@ -15005,7 +15005,7 @@
           }
         },
         {
-          "tsName": "clone",
+          "tsName": "clone$view",
           "isStatic": false,
           "tsSignatureId": "Clone|():System.Object|static=false",
           "target": {
@@ -15015,7 +15015,7 @@
           }
         },
         {
-          "tsName": "Clone",
+          "tsName": "clone",
           "isStatic": false,
           "tsSignatureId": "Clone|():System.Object|static=false",
           "target": {
@@ -15025,7 +15025,7 @@
           }
         },
         {
-          "tsName": "GetByteCount",
+          "tsName": "getByteCount",
           "isStatic": false,
           "tsSignatureId": "GetByteCount|(System.Char[]):System.Int32|static=false",
           "target": {
@@ -15035,7 +15035,7 @@
           }
         },
         {
-          "tsName": "GetByteCount2",
+          "tsName": "getByteCount2",
           "isStatic": false,
           "tsSignatureId": "GetByteCount|(System.String,System.Int32,System.Int32):System.Int32|static=false",
           "target": {
@@ -15045,7 +15045,7 @@
           }
         },
         {
-          "tsName": "GetByteCount3",
+          "tsName": "getByteCount3",
           "isStatic": false,
           "tsSignatureId": "GetByteCount|(System.ReadOnlySpan_1):System.Int32|static=false",
           "target": {
@@ -15055,7 +15055,7 @@
           }
         },
         {
-          "tsName": "GetBytes",
+          "tsName": "getBytes",
           "isStatic": false,
           "tsSignatureId": "GetBytes|(System.Char[]):System.Byte[]|static=false",
           "target": {
@@ -15065,7 +15065,7 @@
           }
         },
         {
-          "tsName": "GetBytes2",
+          "tsName": "getBytes2",
           "isStatic": false,
           "tsSignatureId": "GetBytes|(System.Char[],System.Int32,System.Int32):System.Byte[]|static=false",
           "target": {
@@ -15075,7 +15075,7 @@
           }
         },
         {
-          "tsName": "GetBytes3",
+          "tsName": "getBytes3",
           "isStatic": false,
           "tsSignatureId": "GetBytes|(System.String):System.Byte[]|static=false",
           "target": {
@@ -15085,7 +15085,7 @@
           }
         },
         {
-          "tsName": "GetBytes4",
+          "tsName": "getBytes4",
           "isStatic": false,
           "tsSignatureId": "GetBytes|(System.String,System.Int32,System.Int32):System.Byte[]|static=false",
           "target": {
@@ -15095,7 +15095,7 @@
           }
         },
         {
-          "tsName": "GetBytes5",
+          "tsName": "getBytes5",
           "isStatic": false,
           "tsSignatureId": "GetBytes|(System.ReadOnlySpan_1,System.Span_1):System.Int32|static=false",
           "target": {
@@ -15105,7 +15105,7 @@
           }
         },
         {
-          "tsName": "GetCharCount",
+          "tsName": "getCharCount",
           "isStatic": false,
           "tsSignatureId": "GetCharCount|(System.Byte[]):System.Int32|static=false",
           "target": {
@@ -15115,7 +15115,7 @@
           }
         },
         {
-          "tsName": "GetCharCount2",
+          "tsName": "getCharCount2",
           "isStatic": false,
           "tsSignatureId": "GetCharCount|(System.ReadOnlySpan_1):System.Int32|static=false",
           "target": {
@@ -15125,7 +15125,7 @@
           }
         },
         {
-          "tsName": "GetChars",
+          "tsName": "getChars",
           "isStatic": false,
           "tsSignatureId": "GetChars|(System.Byte[]):System.Char[]|static=false",
           "target": {
@@ -15135,7 +15135,7 @@
           }
         },
         {
-          "tsName": "GetChars2",
+          "tsName": "getChars2",
           "isStatic": false,
           "tsSignatureId": "GetChars|(System.Byte[],System.Int32,System.Int32):System.Char[]|static=false",
           "target": {
@@ -15145,7 +15145,7 @@
           }
         },
         {
-          "tsName": "GetChars3",
+          "tsName": "getChars3",
           "isStatic": false,
           "tsSignatureId": "GetChars|(System.ReadOnlySpan_1,System.Span_1):System.Int32|static=false",
           "target": {
@@ -15155,7 +15155,7 @@
           }
         },
         {
-          "tsName": "GetString",
+          "tsName": "getString",
           "isStatic": false,
           "tsSignatureId": "GetString|(System.Byte*,System.Int32):System.String|static=false",
           "target": {
@@ -15165,7 +15165,7 @@
           }
         },
         {
-          "tsName": "GetString2",
+          "tsName": "getString2",
           "isStatic": false,
           "tsSignatureId": "GetString|(System.ReadOnlySpan_1):System.String|static=false",
           "target": {
@@ -15175,7 +15175,7 @@
           }
         },
         {
-          "tsName": "GetString3",
+          "tsName": "getString3",
           "isStatic": false,
           "tsSignatureId": "GetString|(System.Byte[]):System.String|static=false",
           "target": {
@@ -15689,7 +15689,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF32Encoding::GetByteCount(System.Char[],System.Int32,System.Int32):System.Int32",
           "clrName": "GetByteCount",
-          "tsEmitName": "getByteCount",
+          "tsEmitName": "getByteCount4",
           "metadataToken": 100682134,
           "canonicalSignature": "(System.Char[],System.Int32,System.Int32):System.Int32",
           "normalizedSignature": "GetByteCount|(System.Char[],System.Int32,System.Int32):System.Int32|static=false",
@@ -15703,7 +15703,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF32Encoding::GetByteCount(System.String):System.Int32",
           "clrName": "GetByteCount",
-          "tsEmitName": "getByteCount2",
+          "tsEmitName": "getByteCount5",
           "metadataToken": 100682135,
           "canonicalSignature": "(System.String):System.Int32",
           "normalizedSignature": "GetByteCount|(System.String):System.Int32|static=false",
@@ -15717,7 +15717,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF32Encoding::GetByteCount(System.Char*,System.Int32):System.Int32",
           "clrName": "GetByteCount",
-          "tsEmitName": "getByteCount3",
+          "tsEmitName": "getByteCount6",
           "metadataToken": 100682136,
           "canonicalSignature": "(System.Char*,System.Int32):System.Int32",
           "normalizedSignature": "GetByteCount|(System.Char*,System.Int32):System.Int32|static=false",
@@ -15731,7 +15731,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF32Encoding::GetBytes(System.String,System.Int32,System.Int32,System.Byte[],System.Int32):System.Int32",
           "clrName": "GetBytes",
-          "tsEmitName": "getBytes",
+          "tsEmitName": "getBytes6",
           "metadataToken": 100682137,
           "canonicalSignature": "(System.String,System.Int32,System.Int32,System.Byte[],System.Int32):System.Int32",
           "normalizedSignature": "GetBytes|(System.String,System.Int32,System.Int32,System.Byte[],System.Int32):System.Int32|static=false",
@@ -15745,7 +15745,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF32Encoding::GetBytes(System.Char[],System.Int32,System.Int32,System.Byte[],System.Int32):System.Int32",
           "clrName": "GetBytes",
-          "tsEmitName": "getBytes2",
+          "tsEmitName": "getBytes7",
           "metadataToken": 100682138,
           "canonicalSignature": "(System.Char[],System.Int32,System.Int32,System.Byte[],System.Int32):System.Int32",
           "normalizedSignature": "GetBytes|(System.Char[],System.Int32,System.Int32,System.Byte[],System.Int32):System.Int32|static=false",
@@ -15759,7 +15759,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF32Encoding::GetBytes(System.Char*,System.Int32,System.Byte*,System.Int32):System.Int32",
           "clrName": "GetBytes",
-          "tsEmitName": "getBytes3",
+          "tsEmitName": "getBytes8",
           "metadataToken": 100682139,
           "canonicalSignature": "(System.Char*,System.Int32,System.Byte*,System.Int32):System.Int32",
           "normalizedSignature": "GetBytes|(System.Char*,System.Int32,System.Byte*,System.Int32):System.Int32|static=false",
@@ -15773,7 +15773,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF32Encoding::GetCharCount(System.Byte[],System.Int32,System.Int32):System.Int32",
           "clrName": "GetCharCount",
-          "tsEmitName": "getCharCount",
+          "tsEmitName": "getCharCount3",
           "metadataToken": 100682140,
           "canonicalSignature": "(System.Byte[],System.Int32,System.Int32):System.Int32",
           "normalizedSignature": "GetCharCount|(System.Byte[],System.Int32,System.Int32):System.Int32|static=false",
@@ -15787,7 +15787,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF32Encoding::GetCharCount(System.Byte*,System.Int32):System.Int32",
           "clrName": "GetCharCount",
-          "tsEmitName": "getCharCount2",
+          "tsEmitName": "getCharCount4",
           "metadataToken": 100682141,
           "canonicalSignature": "(System.Byte*,System.Int32):System.Int32",
           "normalizedSignature": "GetCharCount|(System.Byte*,System.Int32):System.Int32|static=false",
@@ -15801,7 +15801,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF32Encoding::GetChars(System.Byte[],System.Int32,System.Int32,System.Char[],System.Int32):System.Int32",
           "clrName": "GetChars",
-          "tsEmitName": "getChars",
+          "tsEmitName": "getChars4",
           "metadataToken": 100682142,
           "canonicalSignature": "(System.Byte[],System.Int32,System.Int32,System.Char[],System.Int32):System.Int32",
           "normalizedSignature": "GetChars|(System.Byte[],System.Int32,System.Int32,System.Char[],System.Int32):System.Int32|static=false",
@@ -15815,7 +15815,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF32Encoding::GetChars(System.Byte*,System.Int32,System.Char*,System.Int32):System.Int32",
           "clrName": "GetChars",
-          "tsEmitName": "getChars2",
+          "tsEmitName": "getChars5",
           "metadataToken": 100682143,
           "canonicalSignature": "(System.Byte*,System.Int32,System.Char*,System.Int32):System.Int32",
           "normalizedSignature": "GetChars|(System.Byte*,System.Int32,System.Char*,System.Int32):System.Int32|static=false",
@@ -15829,7 +15829,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF32Encoding::GetString(System.Byte[],System.Int32,System.Int32):System.String",
           "clrName": "GetString",
-          "tsEmitName": "getString",
+          "tsEmitName": "getString4",
           "metadataToken": 100682144,
           "canonicalSignature": "(System.Byte[],System.Int32,System.Int32):System.String",
           "normalizedSignature": "GetString|(System.Byte[],System.Int32,System.Int32):System.String|static=false",
@@ -15941,7 +15941,7 @@
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "clone",
+          "tsEmitName": "clone$view",
           "metadataToken": 100668509,
           "canonicalSignature": "():System.Object",
           "normalizedSignature": "Clone|():System.Object|static=false",
@@ -15955,7 +15955,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF32Encoding::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "Clone",
+          "tsEmitName": "clone",
           "metadataToken": 0,
           "canonicalSignature": "():System.Object",
           "normalizedSignature": "Clone|():System.Object|static=false",
@@ -15969,7 +15969,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF32Encoding::GetByteCount(System.Char[]):System.Int32",
           "clrName": "GetByteCount",
-          "tsEmitName": "GetByteCount",
+          "tsEmitName": "getByteCount",
           "metadataToken": 0,
           "canonicalSignature": "(System.Char[]):System.Int32",
           "normalizedSignature": "GetByteCount|(System.Char[]):System.Int32|static=false",
@@ -15983,7 +15983,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF32Encoding::GetByteCount(System.String,System.Int32,System.Int32):System.Int32",
           "clrName": "GetByteCount",
-          "tsEmitName": "GetByteCount2",
+          "tsEmitName": "getByteCount2",
           "metadataToken": 0,
           "canonicalSignature": "(System.String,System.Int32,System.Int32):System.Int32",
           "normalizedSignature": "GetByteCount|(System.String,System.Int32,System.Int32):System.Int32|static=false",
@@ -15997,7 +15997,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF32Encoding::GetByteCount(System.ReadOnlySpan_1):System.Int32",
           "clrName": "GetByteCount",
-          "tsEmitName": "GetByteCount3",
+          "tsEmitName": "getByteCount3",
           "metadataToken": 0,
           "canonicalSignature": "(System.ReadOnlySpan_1):System.Int32",
           "normalizedSignature": "GetByteCount|(System.ReadOnlySpan_1):System.Int32|static=false",
@@ -16011,7 +16011,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF32Encoding::GetBytes(System.Char[]):System.Byte[]",
           "clrName": "GetBytes",
-          "tsEmitName": "GetBytes",
+          "tsEmitName": "getBytes",
           "metadataToken": 0,
           "canonicalSignature": "(System.Char[]):System.Byte[]",
           "normalizedSignature": "GetBytes|(System.Char[]):System.Byte[]|static=false",
@@ -16025,7 +16025,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF32Encoding::GetBytes(System.Char[],System.Int32,System.Int32):System.Byte[]",
           "clrName": "GetBytes",
-          "tsEmitName": "GetBytes2",
+          "tsEmitName": "getBytes2",
           "metadataToken": 0,
           "canonicalSignature": "(System.Char[],System.Int32,System.Int32):System.Byte[]",
           "normalizedSignature": "GetBytes|(System.Char[],System.Int32,System.Int32):System.Byte[]|static=false",
@@ -16039,7 +16039,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF32Encoding::GetBytes(System.String):System.Byte[]",
           "clrName": "GetBytes",
-          "tsEmitName": "GetBytes3",
+          "tsEmitName": "getBytes3",
           "metadataToken": 0,
           "canonicalSignature": "(System.String):System.Byte[]",
           "normalizedSignature": "GetBytes|(System.String):System.Byte[]|static=false",
@@ -16053,7 +16053,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF32Encoding::GetBytes(System.String,System.Int32,System.Int32):System.Byte[]",
           "clrName": "GetBytes",
-          "tsEmitName": "GetBytes4",
+          "tsEmitName": "getBytes4",
           "metadataToken": 0,
           "canonicalSignature": "(System.String,System.Int32,System.Int32):System.Byte[]",
           "normalizedSignature": "GetBytes|(System.String,System.Int32,System.Int32):System.Byte[]|static=false",
@@ -16067,7 +16067,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF32Encoding::GetBytes(System.ReadOnlySpan_1,System.Span_1):System.Int32",
           "clrName": "GetBytes",
-          "tsEmitName": "GetBytes5",
+          "tsEmitName": "getBytes5",
           "metadataToken": 0,
           "canonicalSignature": "(System.ReadOnlySpan_1,System.Span_1):System.Int32",
           "normalizedSignature": "GetBytes|(System.ReadOnlySpan_1,System.Span_1):System.Int32|static=false",
@@ -16081,7 +16081,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF32Encoding::GetCharCount(System.Byte[]):System.Int32",
           "clrName": "GetCharCount",
-          "tsEmitName": "GetCharCount",
+          "tsEmitName": "getCharCount",
           "metadataToken": 0,
           "canonicalSignature": "(System.Byte[]):System.Int32",
           "normalizedSignature": "GetCharCount|(System.Byte[]):System.Int32|static=false",
@@ -16095,7 +16095,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF32Encoding::GetCharCount(System.ReadOnlySpan_1):System.Int32",
           "clrName": "GetCharCount",
-          "tsEmitName": "GetCharCount2",
+          "tsEmitName": "getCharCount2",
           "metadataToken": 0,
           "canonicalSignature": "(System.ReadOnlySpan_1):System.Int32",
           "normalizedSignature": "GetCharCount|(System.ReadOnlySpan_1):System.Int32|static=false",
@@ -16109,7 +16109,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF32Encoding::GetChars(System.Byte[]):System.Char[]",
           "clrName": "GetChars",
-          "tsEmitName": "GetChars",
+          "tsEmitName": "getChars",
           "metadataToken": 0,
           "canonicalSignature": "(System.Byte[]):System.Char[]",
           "normalizedSignature": "GetChars|(System.Byte[]):System.Char[]|static=false",
@@ -16123,7 +16123,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF32Encoding::GetChars(System.Byte[],System.Int32,System.Int32):System.Char[]",
           "clrName": "GetChars",
-          "tsEmitName": "GetChars2",
+          "tsEmitName": "getChars2",
           "metadataToken": 0,
           "canonicalSignature": "(System.Byte[],System.Int32,System.Int32):System.Char[]",
           "normalizedSignature": "GetChars|(System.Byte[],System.Int32,System.Int32):System.Char[]|static=false",
@@ -16137,7 +16137,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF32Encoding::GetChars(System.ReadOnlySpan_1,System.Span_1):System.Int32",
           "clrName": "GetChars",
-          "tsEmitName": "GetChars3",
+          "tsEmitName": "getChars3",
           "metadataToken": 0,
           "canonicalSignature": "(System.ReadOnlySpan_1,System.Span_1):System.Int32",
           "normalizedSignature": "GetChars|(System.ReadOnlySpan_1,System.Span_1):System.Int32|static=false",
@@ -16151,7 +16151,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF32Encoding::GetString(System.Byte*,System.Int32):System.String",
           "clrName": "GetString",
-          "tsEmitName": "GetString",
+          "tsEmitName": "getString",
           "metadataToken": 0,
           "canonicalSignature": "(System.Byte*,System.Int32):System.String",
           "normalizedSignature": "GetString|(System.Byte*,System.Int32):System.String|static=false",
@@ -16165,7 +16165,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF32Encoding::GetString(System.ReadOnlySpan_1):System.String",
           "clrName": "GetString",
-          "tsEmitName": "GetString2",
+          "tsEmitName": "getString2",
           "metadataToken": 0,
           "canonicalSignature": "(System.ReadOnlySpan_1):System.String",
           "normalizedSignature": "GetString|(System.ReadOnlySpan_1):System.String|static=false",
@@ -16179,7 +16179,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF32Encoding::GetString(System.Byte[]):System.String",
           "clrName": "GetString",
-          "tsEmitName": "GetString3",
+          "tsEmitName": "getString3",
           "metadataToken": 0,
           "canonicalSignature": "(System.Byte[]):System.String",
           "normalizedSignature": "GetString|(System.Byte[]):System.String|static=false",
@@ -16243,7 +16243,7 @@
       ],
       "exposedMethods": [
         {
-          "tsName": "getByteCount",
+          "tsName": "getByteCount4",
           "isStatic": false,
           "tsSignatureId": "GetByteCount|(System.Char[],System.Int32,System.Int32):System.Int32|static=false",
           "target": {
@@ -16253,7 +16253,7 @@
           }
         },
         {
-          "tsName": "getByteCount2",
+          "tsName": "getByteCount5",
           "isStatic": false,
           "tsSignatureId": "GetByteCount|(System.String):System.Int32|static=false",
           "target": {
@@ -16263,7 +16263,7 @@
           }
         },
         {
-          "tsName": "getByteCount3",
+          "tsName": "getByteCount6",
           "isStatic": false,
           "tsSignatureId": "GetByteCount|(System.Char*,System.Int32):System.Int32|static=false",
           "target": {
@@ -16273,7 +16273,7 @@
           }
         },
         {
-          "tsName": "getBytes",
+          "tsName": "getBytes6",
           "isStatic": false,
           "tsSignatureId": "GetBytes|(System.String,System.Int32,System.Int32,System.Byte[],System.Int32):System.Int32|static=false",
           "target": {
@@ -16283,7 +16283,7 @@
           }
         },
         {
-          "tsName": "getBytes2",
+          "tsName": "getBytes7",
           "isStatic": false,
           "tsSignatureId": "GetBytes|(System.Char[],System.Int32,System.Int32,System.Byte[],System.Int32):System.Int32|static=false",
           "target": {
@@ -16293,7 +16293,7 @@
           }
         },
         {
-          "tsName": "getBytes3",
+          "tsName": "getBytes8",
           "isStatic": false,
           "tsSignatureId": "GetBytes|(System.Char*,System.Int32,System.Byte*,System.Int32):System.Int32|static=false",
           "target": {
@@ -16303,7 +16303,7 @@
           }
         },
         {
-          "tsName": "getCharCount",
+          "tsName": "getCharCount3",
           "isStatic": false,
           "tsSignatureId": "GetCharCount|(System.Byte[],System.Int32,System.Int32):System.Int32|static=false",
           "target": {
@@ -16313,7 +16313,7 @@
           }
         },
         {
-          "tsName": "getCharCount2",
+          "tsName": "getCharCount4",
           "isStatic": false,
           "tsSignatureId": "GetCharCount|(System.Byte*,System.Int32):System.Int32|static=false",
           "target": {
@@ -16323,7 +16323,7 @@
           }
         },
         {
-          "tsName": "getChars",
+          "tsName": "getChars4",
           "isStatic": false,
           "tsSignatureId": "GetChars|(System.Byte[],System.Int32,System.Int32,System.Char[],System.Int32):System.Int32|static=false",
           "target": {
@@ -16333,7 +16333,7 @@
           }
         },
         {
-          "tsName": "getChars2",
+          "tsName": "getChars5",
           "isStatic": false,
           "tsSignatureId": "GetChars|(System.Byte*,System.Int32,System.Char*,System.Int32):System.Int32|static=false",
           "target": {
@@ -16343,7 +16343,7 @@
           }
         },
         {
-          "tsName": "getString",
+          "tsName": "getString4",
           "isStatic": false,
           "tsSignatureId": "GetString|(System.Byte[],System.Int32,System.Int32):System.String|static=false",
           "target": {
@@ -16423,7 +16423,7 @@
           }
         },
         {
-          "tsName": "clone",
+          "tsName": "clone$view",
           "isStatic": false,
           "tsSignatureId": "Clone|():System.Object|static=false",
           "target": {
@@ -16433,7 +16433,7 @@
           }
         },
         {
-          "tsName": "Clone",
+          "tsName": "clone",
           "isStatic": false,
           "tsSignatureId": "Clone|():System.Object|static=false",
           "target": {
@@ -16443,7 +16443,7 @@
           }
         },
         {
-          "tsName": "GetByteCount",
+          "tsName": "getByteCount",
           "isStatic": false,
           "tsSignatureId": "GetByteCount|(System.Char[]):System.Int32|static=false",
           "target": {
@@ -16453,7 +16453,7 @@
           }
         },
         {
-          "tsName": "GetByteCount2",
+          "tsName": "getByteCount2",
           "isStatic": false,
           "tsSignatureId": "GetByteCount|(System.String,System.Int32,System.Int32):System.Int32|static=false",
           "target": {
@@ -16463,7 +16463,7 @@
           }
         },
         {
-          "tsName": "GetByteCount3",
+          "tsName": "getByteCount3",
           "isStatic": false,
           "tsSignatureId": "GetByteCount|(System.ReadOnlySpan_1):System.Int32|static=false",
           "target": {
@@ -16473,7 +16473,7 @@
           }
         },
         {
-          "tsName": "GetBytes",
+          "tsName": "getBytes",
           "isStatic": false,
           "tsSignatureId": "GetBytes|(System.Char[]):System.Byte[]|static=false",
           "target": {
@@ -16483,7 +16483,7 @@
           }
         },
         {
-          "tsName": "GetBytes2",
+          "tsName": "getBytes2",
           "isStatic": false,
           "tsSignatureId": "GetBytes|(System.Char[],System.Int32,System.Int32):System.Byte[]|static=false",
           "target": {
@@ -16493,7 +16493,7 @@
           }
         },
         {
-          "tsName": "GetBytes3",
+          "tsName": "getBytes3",
           "isStatic": false,
           "tsSignatureId": "GetBytes|(System.String):System.Byte[]|static=false",
           "target": {
@@ -16503,7 +16503,7 @@
           }
         },
         {
-          "tsName": "GetBytes4",
+          "tsName": "getBytes4",
           "isStatic": false,
           "tsSignatureId": "GetBytes|(System.String,System.Int32,System.Int32):System.Byte[]|static=false",
           "target": {
@@ -16513,7 +16513,7 @@
           }
         },
         {
-          "tsName": "GetBytes5",
+          "tsName": "getBytes5",
           "isStatic": false,
           "tsSignatureId": "GetBytes|(System.ReadOnlySpan_1,System.Span_1):System.Int32|static=false",
           "target": {
@@ -16523,7 +16523,7 @@
           }
         },
         {
-          "tsName": "GetCharCount",
+          "tsName": "getCharCount",
           "isStatic": false,
           "tsSignatureId": "GetCharCount|(System.Byte[]):System.Int32|static=false",
           "target": {
@@ -16533,7 +16533,7 @@
           }
         },
         {
-          "tsName": "GetCharCount2",
+          "tsName": "getCharCount2",
           "isStatic": false,
           "tsSignatureId": "GetCharCount|(System.ReadOnlySpan_1):System.Int32|static=false",
           "target": {
@@ -16543,7 +16543,7 @@
           }
         },
         {
-          "tsName": "GetChars",
+          "tsName": "getChars",
           "isStatic": false,
           "tsSignatureId": "GetChars|(System.Byte[]):System.Char[]|static=false",
           "target": {
@@ -16553,7 +16553,7 @@
           }
         },
         {
-          "tsName": "GetChars2",
+          "tsName": "getChars2",
           "isStatic": false,
           "tsSignatureId": "GetChars|(System.Byte[],System.Int32,System.Int32):System.Char[]|static=false",
           "target": {
@@ -16563,7 +16563,7 @@
           }
         },
         {
-          "tsName": "GetChars3",
+          "tsName": "getChars3",
           "isStatic": false,
           "tsSignatureId": "GetChars|(System.ReadOnlySpan_1,System.Span_1):System.Int32|static=false",
           "target": {
@@ -16573,7 +16573,7 @@
           }
         },
         {
-          "tsName": "GetString",
+          "tsName": "getString",
           "isStatic": false,
           "tsSignatureId": "GetString|(System.Byte*,System.Int32):System.String|static=false",
           "target": {
@@ -16583,7 +16583,7 @@
           }
         },
         {
-          "tsName": "GetString2",
+          "tsName": "getString2",
           "isStatic": false,
           "tsSignatureId": "GetString|(System.ReadOnlySpan_1):System.String|static=false",
           "target": {
@@ -16593,7 +16593,7 @@
           }
         },
         {
-          "tsName": "GetString3",
+          "tsName": "getString3",
           "isStatic": false,
           "tsSignatureId": "GetString|(System.Byte[]):System.String|static=false",
           "target": {
@@ -17123,7 +17123,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF7Encoding::GetByteCount(System.Char[],System.Int32,System.Int32):System.Int32",
           "clrName": "GetByteCount",
-          "tsEmitName": "getByteCount",
+          "tsEmitName": "getByteCount4",
           "metadataToken": 100682170,
           "canonicalSignature": "(System.Char[],System.Int32,System.Int32):System.Int32",
           "normalizedSignature": "GetByteCount|(System.Char[],System.Int32,System.Int32):System.Int32|static=false",
@@ -17137,7 +17137,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF7Encoding::GetByteCount(System.String):System.Int32",
           "clrName": "GetByteCount",
-          "tsEmitName": "getByteCount2",
+          "tsEmitName": "getByteCount5",
           "metadataToken": 100682171,
           "canonicalSignature": "(System.String):System.Int32",
           "normalizedSignature": "GetByteCount|(System.String):System.Int32|static=false",
@@ -17151,7 +17151,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF7Encoding::GetByteCount(System.Char*,System.Int32):System.Int32",
           "clrName": "GetByteCount",
-          "tsEmitName": "getByteCount3",
+          "tsEmitName": "getByteCount6",
           "metadataToken": 100682172,
           "canonicalSignature": "(System.Char*,System.Int32):System.Int32",
           "normalizedSignature": "GetByteCount|(System.Char*,System.Int32):System.Int32|static=false",
@@ -17165,7 +17165,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF7Encoding::GetBytes(System.String,System.Int32,System.Int32,System.Byte[],System.Int32):System.Int32",
           "clrName": "GetBytes",
-          "tsEmitName": "getBytes",
+          "tsEmitName": "getBytes6",
           "metadataToken": 100682173,
           "canonicalSignature": "(System.String,System.Int32,System.Int32,System.Byte[],System.Int32):System.Int32",
           "normalizedSignature": "GetBytes|(System.String,System.Int32,System.Int32,System.Byte[],System.Int32):System.Int32|static=false",
@@ -17179,7 +17179,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF7Encoding::GetBytes(System.Char[],System.Int32,System.Int32,System.Byte[],System.Int32):System.Int32",
           "clrName": "GetBytes",
-          "tsEmitName": "getBytes2",
+          "tsEmitName": "getBytes7",
           "metadataToken": 100682174,
           "canonicalSignature": "(System.Char[],System.Int32,System.Int32,System.Byte[],System.Int32):System.Int32",
           "normalizedSignature": "GetBytes|(System.Char[],System.Int32,System.Int32,System.Byte[],System.Int32):System.Int32|static=false",
@@ -17193,7 +17193,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF7Encoding::GetBytes(System.Char*,System.Int32,System.Byte*,System.Int32):System.Int32",
           "clrName": "GetBytes",
-          "tsEmitName": "getBytes3",
+          "tsEmitName": "getBytes8",
           "metadataToken": 100682175,
           "canonicalSignature": "(System.Char*,System.Int32,System.Byte*,System.Int32):System.Int32",
           "normalizedSignature": "GetBytes|(System.Char*,System.Int32,System.Byte*,System.Int32):System.Int32|static=false",
@@ -17207,7 +17207,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF7Encoding::GetCharCount(System.Byte[],System.Int32,System.Int32):System.Int32",
           "clrName": "GetCharCount",
-          "tsEmitName": "getCharCount",
+          "tsEmitName": "getCharCount3",
           "metadataToken": 100682176,
           "canonicalSignature": "(System.Byte[],System.Int32,System.Int32):System.Int32",
           "normalizedSignature": "GetCharCount|(System.Byte[],System.Int32,System.Int32):System.Int32|static=false",
@@ -17221,7 +17221,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF7Encoding::GetCharCount(System.Byte*,System.Int32):System.Int32",
           "clrName": "GetCharCount",
-          "tsEmitName": "getCharCount2",
+          "tsEmitName": "getCharCount4",
           "metadataToken": 100682177,
           "canonicalSignature": "(System.Byte*,System.Int32):System.Int32",
           "normalizedSignature": "GetCharCount|(System.Byte*,System.Int32):System.Int32|static=false",
@@ -17235,7 +17235,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF7Encoding::GetChars(System.Byte[],System.Int32,System.Int32,System.Char[],System.Int32):System.Int32",
           "clrName": "GetChars",
-          "tsEmitName": "getChars",
+          "tsEmitName": "getChars4",
           "metadataToken": 100682178,
           "canonicalSignature": "(System.Byte[],System.Int32,System.Int32,System.Char[],System.Int32):System.Int32",
           "normalizedSignature": "GetChars|(System.Byte[],System.Int32,System.Int32,System.Char[],System.Int32):System.Int32|static=false",
@@ -17249,7 +17249,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF7Encoding::GetChars(System.Byte*,System.Int32,System.Char*,System.Int32):System.Int32",
           "clrName": "GetChars",
-          "tsEmitName": "getChars2",
+          "tsEmitName": "getChars5",
           "metadataToken": 100682179,
           "canonicalSignature": "(System.Byte*,System.Int32,System.Char*,System.Int32):System.Int32",
           "normalizedSignature": "GetChars|(System.Byte*,System.Int32,System.Char*,System.Int32):System.Int32|static=false",
@@ -17263,7 +17263,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF7Encoding::GetString(System.Byte[],System.Int32,System.Int32):System.String",
           "clrName": "GetString",
-          "tsEmitName": "getString",
+          "tsEmitName": "getString4",
           "metadataToken": 100682180,
           "canonicalSignature": "(System.Byte[],System.Int32,System.Int32):System.String",
           "normalizedSignature": "GetString|(System.Byte[],System.Int32,System.Int32):System.String|static=false",
@@ -17333,7 +17333,7 @@
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "clone",
+          "tsEmitName": "clone$view",
           "metadataToken": 100668509,
           "canonicalSignature": "():System.Object",
           "normalizedSignature": "Clone|():System.Object|static=false",
@@ -17347,7 +17347,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF7Encoding::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "Clone",
+          "tsEmitName": "clone",
           "metadataToken": 0,
           "canonicalSignature": "():System.Object",
           "normalizedSignature": "Clone|():System.Object|static=false",
@@ -17361,7 +17361,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF7Encoding::GetByteCount(System.Char[]):System.Int32",
           "clrName": "GetByteCount",
-          "tsEmitName": "GetByteCount",
+          "tsEmitName": "getByteCount",
           "metadataToken": 0,
           "canonicalSignature": "(System.Char[]):System.Int32",
           "normalizedSignature": "GetByteCount|(System.Char[]):System.Int32|static=false",
@@ -17375,7 +17375,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF7Encoding::GetByteCount(System.String,System.Int32,System.Int32):System.Int32",
           "clrName": "GetByteCount",
-          "tsEmitName": "GetByteCount2",
+          "tsEmitName": "getByteCount2",
           "metadataToken": 0,
           "canonicalSignature": "(System.String,System.Int32,System.Int32):System.Int32",
           "normalizedSignature": "GetByteCount|(System.String,System.Int32,System.Int32):System.Int32|static=false",
@@ -17389,7 +17389,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF7Encoding::GetByteCount(System.ReadOnlySpan_1):System.Int32",
           "clrName": "GetByteCount",
-          "tsEmitName": "GetByteCount3",
+          "tsEmitName": "getByteCount3",
           "metadataToken": 0,
           "canonicalSignature": "(System.ReadOnlySpan_1):System.Int32",
           "normalizedSignature": "GetByteCount|(System.ReadOnlySpan_1):System.Int32|static=false",
@@ -17403,7 +17403,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF7Encoding::GetBytes(System.Char[]):System.Byte[]",
           "clrName": "GetBytes",
-          "tsEmitName": "GetBytes",
+          "tsEmitName": "getBytes",
           "metadataToken": 0,
           "canonicalSignature": "(System.Char[]):System.Byte[]",
           "normalizedSignature": "GetBytes|(System.Char[]):System.Byte[]|static=false",
@@ -17417,7 +17417,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF7Encoding::GetBytes(System.Char[],System.Int32,System.Int32):System.Byte[]",
           "clrName": "GetBytes",
-          "tsEmitName": "GetBytes2",
+          "tsEmitName": "getBytes2",
           "metadataToken": 0,
           "canonicalSignature": "(System.Char[],System.Int32,System.Int32):System.Byte[]",
           "normalizedSignature": "GetBytes|(System.Char[],System.Int32,System.Int32):System.Byte[]|static=false",
@@ -17431,7 +17431,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF7Encoding::GetBytes(System.String):System.Byte[]",
           "clrName": "GetBytes",
-          "tsEmitName": "GetBytes3",
+          "tsEmitName": "getBytes3",
           "metadataToken": 0,
           "canonicalSignature": "(System.String):System.Byte[]",
           "normalizedSignature": "GetBytes|(System.String):System.Byte[]|static=false",
@@ -17445,7 +17445,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF7Encoding::GetBytes(System.String,System.Int32,System.Int32):System.Byte[]",
           "clrName": "GetBytes",
-          "tsEmitName": "GetBytes4",
+          "tsEmitName": "getBytes4",
           "metadataToken": 0,
           "canonicalSignature": "(System.String,System.Int32,System.Int32):System.Byte[]",
           "normalizedSignature": "GetBytes|(System.String,System.Int32,System.Int32):System.Byte[]|static=false",
@@ -17459,7 +17459,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF7Encoding::GetBytes(System.ReadOnlySpan_1,System.Span_1):System.Int32",
           "clrName": "GetBytes",
-          "tsEmitName": "GetBytes5",
+          "tsEmitName": "getBytes5",
           "metadataToken": 0,
           "canonicalSignature": "(System.ReadOnlySpan_1,System.Span_1):System.Int32",
           "normalizedSignature": "GetBytes|(System.ReadOnlySpan_1,System.Span_1):System.Int32|static=false",
@@ -17473,7 +17473,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF7Encoding::GetCharCount(System.Byte[]):System.Int32",
           "clrName": "GetCharCount",
-          "tsEmitName": "GetCharCount",
+          "tsEmitName": "getCharCount",
           "metadataToken": 0,
           "canonicalSignature": "(System.Byte[]):System.Int32",
           "normalizedSignature": "GetCharCount|(System.Byte[]):System.Int32|static=false",
@@ -17487,7 +17487,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF7Encoding::GetCharCount(System.ReadOnlySpan_1):System.Int32",
           "clrName": "GetCharCount",
-          "tsEmitName": "GetCharCount2",
+          "tsEmitName": "getCharCount2",
           "metadataToken": 0,
           "canonicalSignature": "(System.ReadOnlySpan_1):System.Int32",
           "normalizedSignature": "GetCharCount|(System.ReadOnlySpan_1):System.Int32|static=false",
@@ -17501,7 +17501,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF7Encoding::GetChars(System.Byte[]):System.Char[]",
           "clrName": "GetChars",
-          "tsEmitName": "GetChars",
+          "tsEmitName": "getChars",
           "metadataToken": 0,
           "canonicalSignature": "(System.Byte[]):System.Char[]",
           "normalizedSignature": "GetChars|(System.Byte[]):System.Char[]|static=false",
@@ -17515,7 +17515,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF7Encoding::GetChars(System.Byte[],System.Int32,System.Int32):System.Char[]",
           "clrName": "GetChars",
-          "tsEmitName": "GetChars2",
+          "tsEmitName": "getChars2",
           "metadataToken": 0,
           "canonicalSignature": "(System.Byte[],System.Int32,System.Int32):System.Char[]",
           "normalizedSignature": "GetChars|(System.Byte[],System.Int32,System.Int32):System.Char[]|static=false",
@@ -17529,7 +17529,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF7Encoding::GetChars(System.ReadOnlySpan_1,System.Span_1):System.Int32",
           "clrName": "GetChars",
-          "tsEmitName": "GetChars3",
+          "tsEmitName": "getChars3",
           "metadataToken": 0,
           "canonicalSignature": "(System.ReadOnlySpan_1,System.Span_1):System.Int32",
           "normalizedSignature": "GetChars|(System.ReadOnlySpan_1,System.Span_1):System.Int32|static=false",
@@ -17543,7 +17543,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF7Encoding::GetString(System.Byte*,System.Int32):System.String",
           "clrName": "GetString",
-          "tsEmitName": "GetString",
+          "tsEmitName": "getString",
           "metadataToken": 0,
           "canonicalSignature": "(System.Byte*,System.Int32):System.String",
           "normalizedSignature": "GetString|(System.Byte*,System.Int32):System.String|static=false",
@@ -17557,7 +17557,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF7Encoding::GetString(System.ReadOnlySpan_1):System.String",
           "clrName": "GetString",
-          "tsEmitName": "GetString2",
+          "tsEmitName": "getString2",
           "metadataToken": 0,
           "canonicalSignature": "(System.ReadOnlySpan_1):System.String",
           "normalizedSignature": "GetString|(System.ReadOnlySpan_1):System.String|static=false",
@@ -17571,7 +17571,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF7Encoding::GetString(System.Byte[]):System.String",
           "clrName": "GetString",
-          "tsEmitName": "GetString3",
+          "tsEmitName": "getString3",
           "metadataToken": 0,
           "canonicalSignature": "(System.Byte[]):System.String",
           "normalizedSignature": "GetString|(System.Byte[]):System.String|static=false",
@@ -17630,7 +17630,7 @@
           }
         },
         {
-          "tsName": "getByteCount",
+          "tsName": "getByteCount4",
           "isStatic": false,
           "tsSignatureId": "GetByteCount|(System.Char[],System.Int32,System.Int32):System.Int32|static=false",
           "target": {
@@ -17640,7 +17640,7 @@
           }
         },
         {
-          "tsName": "getByteCount2",
+          "tsName": "getByteCount5",
           "isStatic": false,
           "tsSignatureId": "GetByteCount|(System.String):System.Int32|static=false",
           "target": {
@@ -17650,7 +17650,7 @@
           }
         },
         {
-          "tsName": "getByteCount3",
+          "tsName": "getByteCount6",
           "isStatic": false,
           "tsSignatureId": "GetByteCount|(System.Char*,System.Int32):System.Int32|static=false",
           "target": {
@@ -17660,7 +17660,7 @@
           }
         },
         {
-          "tsName": "getBytes",
+          "tsName": "getBytes6",
           "isStatic": false,
           "tsSignatureId": "GetBytes|(System.String,System.Int32,System.Int32,System.Byte[],System.Int32):System.Int32|static=false",
           "target": {
@@ -17670,7 +17670,7 @@
           }
         },
         {
-          "tsName": "getBytes2",
+          "tsName": "getBytes7",
           "isStatic": false,
           "tsSignatureId": "GetBytes|(System.Char[],System.Int32,System.Int32,System.Byte[],System.Int32):System.Int32|static=false",
           "target": {
@@ -17680,7 +17680,7 @@
           }
         },
         {
-          "tsName": "getBytes3",
+          "tsName": "getBytes8",
           "isStatic": false,
           "tsSignatureId": "GetBytes|(System.Char*,System.Int32,System.Byte*,System.Int32):System.Int32|static=false",
           "target": {
@@ -17690,7 +17690,7 @@
           }
         },
         {
-          "tsName": "getCharCount",
+          "tsName": "getCharCount3",
           "isStatic": false,
           "tsSignatureId": "GetCharCount|(System.Byte[],System.Int32,System.Int32):System.Int32|static=false",
           "target": {
@@ -17700,7 +17700,7 @@
           }
         },
         {
-          "tsName": "getCharCount2",
+          "tsName": "getCharCount4",
           "isStatic": false,
           "tsSignatureId": "GetCharCount|(System.Byte*,System.Int32):System.Int32|static=false",
           "target": {
@@ -17710,7 +17710,7 @@
           }
         },
         {
-          "tsName": "getChars",
+          "tsName": "getChars4",
           "isStatic": false,
           "tsSignatureId": "GetChars|(System.Byte[],System.Int32,System.Int32,System.Char[],System.Int32):System.Int32|static=false",
           "target": {
@@ -17720,7 +17720,7 @@
           }
         },
         {
-          "tsName": "getChars2",
+          "tsName": "getChars5",
           "isStatic": false,
           "tsSignatureId": "GetChars|(System.Byte*,System.Int32,System.Char*,System.Int32):System.Int32|static=false",
           "target": {
@@ -17730,7 +17730,7 @@
           }
         },
         {
-          "tsName": "getString",
+          "tsName": "getString4",
           "isStatic": false,
           "tsSignatureId": "GetString|(System.Byte[],System.Int32,System.Int32):System.String|static=false",
           "target": {
@@ -17780,7 +17780,7 @@
           }
         },
         {
-          "tsName": "clone",
+          "tsName": "clone$view",
           "isStatic": false,
           "tsSignatureId": "Clone|():System.Object|static=false",
           "target": {
@@ -17790,7 +17790,7 @@
           }
         },
         {
-          "tsName": "Clone",
+          "tsName": "clone",
           "isStatic": false,
           "tsSignatureId": "Clone|():System.Object|static=false",
           "target": {
@@ -17800,7 +17800,7 @@
           }
         },
         {
-          "tsName": "GetByteCount",
+          "tsName": "getByteCount",
           "isStatic": false,
           "tsSignatureId": "GetByteCount|(System.Char[]):System.Int32|static=false",
           "target": {
@@ -17810,7 +17810,7 @@
           }
         },
         {
-          "tsName": "GetByteCount2",
+          "tsName": "getByteCount2",
           "isStatic": false,
           "tsSignatureId": "GetByteCount|(System.String,System.Int32,System.Int32):System.Int32|static=false",
           "target": {
@@ -17820,7 +17820,7 @@
           }
         },
         {
-          "tsName": "GetByteCount3",
+          "tsName": "getByteCount3",
           "isStatic": false,
           "tsSignatureId": "GetByteCount|(System.ReadOnlySpan_1):System.Int32|static=false",
           "target": {
@@ -17830,7 +17830,7 @@
           }
         },
         {
-          "tsName": "GetBytes",
+          "tsName": "getBytes",
           "isStatic": false,
           "tsSignatureId": "GetBytes|(System.Char[]):System.Byte[]|static=false",
           "target": {
@@ -17840,7 +17840,7 @@
           }
         },
         {
-          "tsName": "GetBytes2",
+          "tsName": "getBytes2",
           "isStatic": false,
           "tsSignatureId": "GetBytes|(System.Char[],System.Int32,System.Int32):System.Byte[]|static=false",
           "target": {
@@ -17850,7 +17850,7 @@
           }
         },
         {
-          "tsName": "GetBytes3",
+          "tsName": "getBytes3",
           "isStatic": false,
           "tsSignatureId": "GetBytes|(System.String):System.Byte[]|static=false",
           "target": {
@@ -17860,7 +17860,7 @@
           }
         },
         {
-          "tsName": "GetBytes4",
+          "tsName": "getBytes4",
           "isStatic": false,
           "tsSignatureId": "GetBytes|(System.String,System.Int32,System.Int32):System.Byte[]|static=false",
           "target": {
@@ -17870,7 +17870,7 @@
           }
         },
         {
-          "tsName": "GetBytes5",
+          "tsName": "getBytes5",
           "isStatic": false,
           "tsSignatureId": "GetBytes|(System.ReadOnlySpan_1,System.Span_1):System.Int32|static=false",
           "target": {
@@ -17880,7 +17880,7 @@
           }
         },
         {
-          "tsName": "GetCharCount",
+          "tsName": "getCharCount",
           "isStatic": false,
           "tsSignatureId": "GetCharCount|(System.Byte[]):System.Int32|static=false",
           "target": {
@@ -17890,7 +17890,7 @@
           }
         },
         {
-          "tsName": "GetCharCount2",
+          "tsName": "getCharCount2",
           "isStatic": false,
           "tsSignatureId": "GetCharCount|(System.ReadOnlySpan_1):System.Int32|static=false",
           "target": {
@@ -17900,7 +17900,7 @@
           }
         },
         {
-          "tsName": "GetChars",
+          "tsName": "getChars",
           "isStatic": false,
           "tsSignatureId": "GetChars|(System.Byte[]):System.Char[]|static=false",
           "target": {
@@ -17910,7 +17910,7 @@
           }
         },
         {
-          "tsName": "GetChars2",
+          "tsName": "getChars2",
           "isStatic": false,
           "tsSignatureId": "GetChars|(System.Byte[],System.Int32,System.Int32):System.Char[]|static=false",
           "target": {
@@ -17920,7 +17920,7 @@
           }
         },
         {
-          "tsName": "GetChars3",
+          "tsName": "getChars3",
           "isStatic": false,
           "tsSignatureId": "GetChars|(System.ReadOnlySpan_1,System.Span_1):System.Int32|static=false",
           "target": {
@@ -17930,7 +17930,7 @@
           }
         },
         {
-          "tsName": "GetString",
+          "tsName": "getString",
           "isStatic": false,
           "tsSignatureId": "GetString|(System.Byte*,System.Int32):System.String|static=false",
           "target": {
@@ -17940,7 +17940,7 @@
           }
         },
         {
-          "tsName": "GetString2",
+          "tsName": "getString2",
           "isStatic": false,
           "tsSignatureId": "GetString|(System.ReadOnlySpan_1):System.String|static=false",
           "target": {
@@ -17950,7 +17950,7 @@
           }
         },
         {
-          "tsName": "GetString3",
+          "tsName": "getString3",
           "isStatic": false,
           "tsSignatureId": "GetString|(System.Byte[]):System.String|static=false",
           "target": {
@@ -18453,7 +18453,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF8Encoding::GetByteCount(System.Char[],System.Int32,System.Int32):System.Int32",
           "clrName": "GetByteCount",
-          "tsEmitName": "getByteCount",
+          "tsEmitName": "getByteCount4",
           "metadataToken": 100682213,
           "canonicalSignature": "(System.Char[],System.Int32,System.Int32):System.Int32",
           "normalizedSignature": "GetByteCount|(System.Char[],System.Int32,System.Int32):System.Int32|static=false",
@@ -18467,7 +18467,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF8Encoding::GetByteCount(System.String):System.Int32",
           "clrName": "GetByteCount",
-          "tsEmitName": "getByteCount2",
+          "tsEmitName": "getByteCount5",
           "metadataToken": 100682214,
           "canonicalSignature": "(System.String):System.Int32",
           "normalizedSignature": "GetByteCount|(System.String):System.Int32|static=false",
@@ -18481,7 +18481,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF8Encoding::GetByteCount(System.Char*,System.Int32):System.Int32",
           "clrName": "GetByteCount",
-          "tsEmitName": "getByteCount3",
+          "tsEmitName": "getByteCount6",
           "metadataToken": 100682215,
           "canonicalSignature": "(System.Char*,System.Int32):System.Int32",
           "normalizedSignature": "GetByteCount|(System.Char*,System.Int32):System.Int32|static=false",
@@ -18495,7 +18495,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF8Encoding::GetByteCount(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32",
           "clrName": "GetByteCount",
-          "tsEmitName": "getByteCount4",
+          "tsEmitName": "getByteCount7",
           "metadataToken": 100682216,
           "canonicalSignature": "(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32",
           "normalizedSignature": "GetByteCount|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32|static=false",
@@ -18509,7 +18509,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF8Encoding::GetBytes(System.String,System.Int32,System.Int32,System.Byte[],System.Int32):System.Int32",
           "clrName": "GetBytes",
-          "tsEmitName": "getBytes",
+          "tsEmitName": "getBytes6",
           "metadataToken": 100682219,
           "canonicalSignature": "(System.String,System.Int32,System.Int32,System.Byte[],System.Int32):System.Int32",
           "normalizedSignature": "GetBytes|(System.String,System.Int32,System.Int32,System.Byte[],System.Int32):System.Int32|static=false",
@@ -18523,7 +18523,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF8Encoding::GetBytes(System.Char[],System.Int32,System.Int32,System.Byte[],System.Int32):System.Int32",
           "clrName": "GetBytes",
-          "tsEmitName": "getBytes2",
+          "tsEmitName": "getBytes7",
           "metadataToken": 100682220,
           "canonicalSignature": "(System.Char[],System.Int32,System.Int32,System.Byte[],System.Int32):System.Int32",
           "normalizedSignature": "GetBytes|(System.Char[],System.Int32,System.Int32,System.Byte[],System.Int32):System.Int32|static=false",
@@ -18537,7 +18537,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF8Encoding::GetBytes(System.Char*,System.Int32,System.Byte*,System.Int32):System.Int32",
           "clrName": "GetBytes",
-          "tsEmitName": "getBytes3",
+          "tsEmitName": "getBytes8",
           "metadataToken": 100682221,
           "canonicalSignature": "(System.Char*,System.Int32,System.Byte*,System.Int32):System.Int32",
           "normalizedSignature": "GetBytes|(System.Char*,System.Int32,System.Byte*,System.Int32):System.Int32|static=false",
@@ -18551,7 +18551,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF8Encoding::GetBytes(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32",
           "clrName": "GetBytes",
-          "tsEmitName": "getBytes4",
+          "tsEmitName": "getBytes9",
           "metadataToken": 100682222,
           "canonicalSignature": "(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32",
           "normalizedSignature": "GetBytes|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32|static=false",
@@ -18565,7 +18565,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF8Encoding::TryGetBytes(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32\u0026):System.Boolean",
           "clrName": "TryGetBytes",
-          "tsEmitName": "tryGetBytes",
+          "tsEmitName": "tryGetBytes2",
           "metadataToken": 100682223,
           "canonicalSignature": "(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32\u0026):System.Boolean",
           "normalizedSignature": "TryGetBytes|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32\u0026):System.Boolean|static=false",
@@ -18579,7 +18579,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF8Encoding::GetCharCount(System.Byte[],System.Int32,System.Int32):System.Int32",
           "clrName": "GetCharCount",
-          "tsEmitName": "getCharCount",
+          "tsEmitName": "getCharCount3",
           "metadataToken": 100682226,
           "canonicalSignature": "(System.Byte[],System.Int32,System.Int32):System.Int32",
           "normalizedSignature": "GetCharCount|(System.Byte[],System.Int32,System.Int32):System.Int32|static=false",
@@ -18593,7 +18593,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF8Encoding::GetCharCount(System.Byte*,System.Int32):System.Int32",
           "clrName": "GetCharCount",
-          "tsEmitName": "getCharCount2",
+          "tsEmitName": "getCharCount4",
           "metadataToken": 100682227,
           "canonicalSignature": "(System.Byte*,System.Int32):System.Int32",
           "normalizedSignature": "GetCharCount|(System.Byte*,System.Int32):System.Int32|static=false",
@@ -18607,7 +18607,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF8Encoding::GetCharCount(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32",
           "clrName": "GetCharCount",
-          "tsEmitName": "getCharCount3",
+          "tsEmitName": "getCharCount5",
           "metadataToken": 100682228,
           "canonicalSignature": "(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32",
           "normalizedSignature": "GetCharCount|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32|static=false",
@@ -18621,7 +18621,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF8Encoding::GetChars(System.Byte[],System.Int32,System.Int32,System.Char[],System.Int32):System.Int32",
           "clrName": "GetChars",
-          "tsEmitName": "getChars",
+          "tsEmitName": "getChars4",
           "metadataToken": 100682229,
           "canonicalSignature": "(System.Byte[],System.Int32,System.Int32,System.Char[],System.Int32):System.Int32",
           "normalizedSignature": "GetChars|(System.Byte[],System.Int32,System.Int32,System.Char[],System.Int32):System.Int32|static=false",
@@ -18635,7 +18635,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF8Encoding::GetChars(System.Byte*,System.Int32,System.Char*,System.Int32):System.Int32",
           "clrName": "GetChars",
-          "tsEmitName": "getChars2",
+          "tsEmitName": "getChars5",
           "metadataToken": 100682230,
           "canonicalSignature": "(System.Byte*,System.Int32,System.Char*,System.Int32):System.Int32",
           "normalizedSignature": "GetChars|(System.Byte*,System.Int32,System.Char*,System.Int32):System.Int32|static=false",
@@ -18649,7 +18649,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF8Encoding::GetChars(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32",
           "clrName": "GetChars",
-          "tsEmitName": "getChars3",
+          "tsEmitName": "getChars6",
           "metadataToken": 100682231,
           "canonicalSignature": "(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32",
           "normalizedSignature": "GetChars|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32|static=false",
@@ -18663,7 +18663,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF8Encoding::TryGetChars(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32\u0026):System.Boolean",
           "clrName": "TryGetChars",
-          "tsEmitName": "tryGetChars",
+          "tsEmitName": "tryGetChars2",
           "metadataToken": 100682232,
           "canonicalSignature": "(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32\u0026):System.Boolean",
           "normalizedSignature": "TryGetChars|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32\u0026):System.Boolean|static=false",
@@ -18677,7 +18677,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF8Encoding::GetString(System.Byte[],System.Int32,System.Int32):System.String",
           "clrName": "GetString",
-          "tsEmitName": "getString",
+          "tsEmitName": "getString4",
           "metadataToken": 100682236,
           "canonicalSignature": "(System.Byte[],System.Int32,System.Int32):System.String",
           "normalizedSignature": "GetString|(System.Byte[],System.Int32,System.Int32):System.String|static=false",
@@ -18789,7 +18789,7 @@
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "clone",
+          "tsEmitName": "clone$view",
           "metadataToken": 100668509,
           "canonicalSignature": "():System.Object",
           "normalizedSignature": "Clone|():System.Object|static=false",
@@ -18803,7 +18803,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF8Encoding::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "Clone",
+          "tsEmitName": "clone",
           "metadataToken": 0,
           "canonicalSignature": "():System.Object",
           "normalizedSignature": "Clone|():System.Object|static=false",
@@ -18817,7 +18817,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF8Encoding::GetByteCount(System.Char[]):System.Int32",
           "clrName": "GetByteCount",
-          "tsEmitName": "GetByteCount",
+          "tsEmitName": "getByteCount",
           "metadataToken": 0,
           "canonicalSignature": "(System.Char[]):System.Int32",
           "normalizedSignature": "GetByteCount|(System.Char[]):System.Int32|static=false",
@@ -18831,7 +18831,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF8Encoding::GetByteCount(System.String,System.Int32,System.Int32):System.Int32",
           "clrName": "GetByteCount",
-          "tsEmitName": "GetByteCount2",
+          "tsEmitName": "getByteCount2",
           "metadataToken": 0,
           "canonicalSignature": "(System.String,System.Int32,System.Int32):System.Int32",
           "normalizedSignature": "GetByteCount|(System.String,System.Int32,System.Int32):System.Int32|static=false",
@@ -18845,7 +18845,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF8Encoding::GetByteCount(System.ReadOnlySpan_1):System.Int32",
           "clrName": "GetByteCount",
-          "tsEmitName": "GetByteCount3",
+          "tsEmitName": "getByteCount3",
           "metadataToken": 0,
           "canonicalSignature": "(System.ReadOnlySpan_1):System.Int32",
           "normalizedSignature": "GetByteCount|(System.ReadOnlySpan_1):System.Int32|static=false",
@@ -18859,7 +18859,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF8Encoding::GetBytes(System.Char[]):System.Byte[]",
           "clrName": "GetBytes",
-          "tsEmitName": "GetBytes",
+          "tsEmitName": "getBytes",
           "metadataToken": 0,
           "canonicalSignature": "(System.Char[]):System.Byte[]",
           "normalizedSignature": "GetBytes|(System.Char[]):System.Byte[]|static=false",
@@ -18873,7 +18873,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF8Encoding::GetBytes(System.Char[],System.Int32,System.Int32):System.Byte[]",
           "clrName": "GetBytes",
-          "tsEmitName": "GetBytes2",
+          "tsEmitName": "getBytes2",
           "metadataToken": 0,
           "canonicalSignature": "(System.Char[],System.Int32,System.Int32):System.Byte[]",
           "normalizedSignature": "GetBytes|(System.Char[],System.Int32,System.Int32):System.Byte[]|static=false",
@@ -18887,7 +18887,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF8Encoding::GetBytes(System.String):System.Byte[]",
           "clrName": "GetBytes",
-          "tsEmitName": "GetBytes3",
+          "tsEmitName": "getBytes3",
           "metadataToken": 0,
           "canonicalSignature": "(System.String):System.Byte[]",
           "normalizedSignature": "GetBytes|(System.String):System.Byte[]|static=false",
@@ -18901,7 +18901,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF8Encoding::GetBytes(System.String,System.Int32,System.Int32):System.Byte[]",
           "clrName": "GetBytes",
-          "tsEmitName": "GetBytes4",
+          "tsEmitName": "getBytes4",
           "metadataToken": 0,
           "canonicalSignature": "(System.String,System.Int32,System.Int32):System.Byte[]",
           "normalizedSignature": "GetBytes|(System.String,System.Int32,System.Int32):System.Byte[]|static=false",
@@ -18915,7 +18915,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF8Encoding::GetBytes(System.ReadOnlySpan_1,System.Span_1):System.Int32",
           "clrName": "GetBytes",
-          "tsEmitName": "GetBytes5",
+          "tsEmitName": "getBytes5",
           "metadataToken": 0,
           "canonicalSignature": "(System.ReadOnlySpan_1,System.Span_1):System.Int32",
           "normalizedSignature": "GetBytes|(System.ReadOnlySpan_1,System.Span_1):System.Int32|static=false",
@@ -18929,7 +18929,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF8Encoding::GetCharCount(System.Byte[]):System.Int32",
           "clrName": "GetCharCount",
-          "tsEmitName": "GetCharCount",
+          "tsEmitName": "getCharCount",
           "metadataToken": 0,
           "canonicalSignature": "(System.Byte[]):System.Int32",
           "normalizedSignature": "GetCharCount|(System.Byte[]):System.Int32|static=false",
@@ -18943,7 +18943,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF8Encoding::GetCharCount(System.ReadOnlySpan_1):System.Int32",
           "clrName": "GetCharCount",
-          "tsEmitName": "GetCharCount2",
+          "tsEmitName": "getCharCount2",
           "metadataToken": 0,
           "canonicalSignature": "(System.ReadOnlySpan_1):System.Int32",
           "normalizedSignature": "GetCharCount|(System.ReadOnlySpan_1):System.Int32|static=false",
@@ -18957,7 +18957,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF8Encoding::GetChars(System.Byte[]):System.Char[]",
           "clrName": "GetChars",
-          "tsEmitName": "GetChars",
+          "tsEmitName": "getChars",
           "metadataToken": 0,
           "canonicalSignature": "(System.Byte[]):System.Char[]",
           "normalizedSignature": "GetChars|(System.Byte[]):System.Char[]|static=false",
@@ -18971,7 +18971,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF8Encoding::GetChars(System.Byte[],System.Int32,System.Int32):System.Char[]",
           "clrName": "GetChars",
-          "tsEmitName": "GetChars2",
+          "tsEmitName": "getChars2",
           "metadataToken": 0,
           "canonicalSignature": "(System.Byte[],System.Int32,System.Int32):System.Char[]",
           "normalizedSignature": "GetChars|(System.Byte[],System.Int32,System.Int32):System.Char[]|static=false",
@@ -18985,7 +18985,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF8Encoding::GetChars(System.ReadOnlySpan_1,System.Span_1):System.Int32",
           "clrName": "GetChars",
-          "tsEmitName": "GetChars3",
+          "tsEmitName": "getChars3",
           "metadataToken": 0,
           "canonicalSignature": "(System.ReadOnlySpan_1,System.Span_1):System.Int32",
           "normalizedSignature": "GetChars|(System.ReadOnlySpan_1,System.Span_1):System.Int32|static=false",
@@ -18999,7 +18999,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF8Encoding::GetString(System.Byte*,System.Int32):System.String",
           "clrName": "GetString",
-          "tsEmitName": "GetString",
+          "tsEmitName": "getString",
           "metadataToken": 0,
           "canonicalSignature": "(System.Byte*,System.Int32):System.String",
           "normalizedSignature": "GetString|(System.Byte*,System.Int32):System.String|static=false",
@@ -19013,7 +19013,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF8Encoding::GetString(System.ReadOnlySpan_1):System.String",
           "clrName": "GetString",
-          "tsEmitName": "GetString2",
+          "tsEmitName": "getString2",
           "metadataToken": 0,
           "canonicalSignature": "(System.ReadOnlySpan_1):System.String",
           "normalizedSignature": "GetString|(System.ReadOnlySpan_1):System.String|static=false",
@@ -19027,7 +19027,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF8Encoding::GetString(System.Byte[]):System.String",
           "clrName": "GetString",
-          "tsEmitName": "GetString3",
+          "tsEmitName": "getString3",
           "metadataToken": 0,
           "canonicalSignature": "(System.Byte[]):System.String",
           "normalizedSignature": "GetString|(System.Byte[]):System.String|static=false",
@@ -19041,7 +19041,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF8Encoding::TryGetBytes(System.ReadOnlySpan_1,System.Span_1,System.Int32\u0026):System.Boolean",
           "clrName": "TryGetBytes",
-          "tsEmitName": "TryGetBytes",
+          "tsEmitName": "tryGetBytes",
           "metadataToken": 0,
           "canonicalSignature": "(System.ReadOnlySpan_1,System.Span_1,System.Int32\u0026):System.Boolean",
           "normalizedSignature": "TryGetBytes|(System.ReadOnlySpan_1,System.Span_1,System.Int32\u0026):System.Boolean|static=false",
@@ -19055,7 +19055,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UTF8Encoding::TryGetChars(System.ReadOnlySpan_1,System.Span_1,System.Int32\u0026):System.Boolean",
           "clrName": "TryGetChars",
-          "tsEmitName": "TryGetChars",
+          "tsEmitName": "tryGetChars",
           "metadataToken": 0,
           "canonicalSignature": "(System.ReadOnlySpan_1,System.Span_1,System.Int32\u0026):System.Boolean",
           "normalizedSignature": "TryGetChars|(System.ReadOnlySpan_1,System.Span_1,System.Int32\u0026):System.Boolean|static=false",
@@ -19119,7 +19119,7 @@
       ],
       "exposedMethods": [
         {
-          "tsName": "getByteCount",
+          "tsName": "getByteCount4",
           "isStatic": false,
           "tsSignatureId": "GetByteCount|(System.Char[],System.Int32,System.Int32):System.Int32|static=false",
           "target": {
@@ -19129,7 +19129,7 @@
           }
         },
         {
-          "tsName": "getByteCount2",
+          "tsName": "getByteCount5",
           "isStatic": false,
           "tsSignatureId": "GetByteCount|(System.String):System.Int32|static=false",
           "target": {
@@ -19139,7 +19139,7 @@
           }
         },
         {
-          "tsName": "getByteCount3",
+          "tsName": "getByteCount6",
           "isStatic": false,
           "tsSignatureId": "GetByteCount|(System.Char*,System.Int32):System.Int32|static=false",
           "target": {
@@ -19149,7 +19149,7 @@
           }
         },
         {
-          "tsName": "getByteCount4",
+          "tsName": "getByteCount7",
           "isStatic": false,
           "tsSignatureId": "GetByteCount|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32|static=false",
           "target": {
@@ -19159,7 +19159,7 @@
           }
         },
         {
-          "tsName": "getBytes",
+          "tsName": "getBytes6",
           "isStatic": false,
           "tsSignatureId": "GetBytes|(System.String,System.Int32,System.Int32,System.Byte[],System.Int32):System.Int32|static=false",
           "target": {
@@ -19169,7 +19169,7 @@
           }
         },
         {
-          "tsName": "getBytes2",
+          "tsName": "getBytes7",
           "isStatic": false,
           "tsSignatureId": "GetBytes|(System.Char[],System.Int32,System.Int32,System.Byte[],System.Int32):System.Int32|static=false",
           "target": {
@@ -19179,7 +19179,7 @@
           }
         },
         {
-          "tsName": "getBytes3",
+          "tsName": "getBytes8",
           "isStatic": false,
           "tsSignatureId": "GetBytes|(System.Char*,System.Int32,System.Byte*,System.Int32):System.Int32|static=false",
           "target": {
@@ -19189,7 +19189,7 @@
           }
         },
         {
-          "tsName": "getBytes4",
+          "tsName": "getBytes9",
           "isStatic": false,
           "tsSignatureId": "GetBytes|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32|static=false",
           "target": {
@@ -19199,7 +19199,7 @@
           }
         },
         {
-          "tsName": "tryGetBytes",
+          "tsName": "tryGetBytes2",
           "isStatic": false,
           "tsSignatureId": "TryGetBytes|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32\u0026):System.Boolean|static=false",
           "target": {
@@ -19209,7 +19209,7 @@
           }
         },
         {
-          "tsName": "getCharCount",
+          "tsName": "getCharCount3",
           "isStatic": false,
           "tsSignatureId": "GetCharCount|(System.Byte[],System.Int32,System.Int32):System.Int32|static=false",
           "target": {
@@ -19219,7 +19219,7 @@
           }
         },
         {
-          "tsName": "getCharCount2",
+          "tsName": "getCharCount4",
           "isStatic": false,
           "tsSignatureId": "GetCharCount|(System.Byte*,System.Int32):System.Int32|static=false",
           "target": {
@@ -19229,7 +19229,7 @@
           }
         },
         {
-          "tsName": "getCharCount3",
+          "tsName": "getCharCount5",
           "isStatic": false,
           "tsSignatureId": "GetCharCount|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32|static=false",
           "target": {
@@ -19239,7 +19239,7 @@
           }
         },
         {
-          "tsName": "getChars",
+          "tsName": "getChars4",
           "isStatic": false,
           "tsSignatureId": "GetChars|(System.Byte[],System.Int32,System.Int32,System.Char[],System.Int32):System.Int32|static=false",
           "target": {
@@ -19249,7 +19249,7 @@
           }
         },
         {
-          "tsName": "getChars2",
+          "tsName": "getChars5",
           "isStatic": false,
           "tsSignatureId": "GetChars|(System.Byte*,System.Int32,System.Char*,System.Int32):System.Int32|static=false",
           "target": {
@@ -19259,7 +19259,7 @@
           }
         },
         {
-          "tsName": "getChars3",
+          "tsName": "getChars6",
           "isStatic": false,
           "tsSignatureId": "GetChars|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32|static=false",
           "target": {
@@ -19269,7 +19269,7 @@
           }
         },
         {
-          "tsName": "tryGetChars",
+          "tsName": "tryGetChars2",
           "isStatic": false,
           "tsSignatureId": "TryGetChars|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32\u0026):System.Boolean|static=false",
           "target": {
@@ -19279,7 +19279,7 @@
           }
         },
         {
-          "tsName": "getString",
+          "tsName": "getString4",
           "isStatic": false,
           "tsSignatureId": "GetString|(System.Byte[],System.Int32,System.Int32):System.String|static=false",
           "target": {
@@ -19359,7 +19359,7 @@
           }
         },
         {
-          "tsName": "clone",
+          "tsName": "clone$view",
           "isStatic": false,
           "tsSignatureId": "Clone|():System.Object|static=false",
           "target": {
@@ -19369,7 +19369,7 @@
           }
         },
         {
-          "tsName": "Clone",
+          "tsName": "clone",
           "isStatic": false,
           "tsSignatureId": "Clone|():System.Object|static=false",
           "target": {
@@ -19379,7 +19379,7 @@
           }
         },
         {
-          "tsName": "GetByteCount",
+          "tsName": "getByteCount",
           "isStatic": false,
           "tsSignatureId": "GetByteCount|(System.Char[]):System.Int32|static=false",
           "target": {
@@ -19389,7 +19389,7 @@
           }
         },
         {
-          "tsName": "GetByteCount2",
+          "tsName": "getByteCount2",
           "isStatic": false,
           "tsSignatureId": "GetByteCount|(System.String,System.Int32,System.Int32):System.Int32|static=false",
           "target": {
@@ -19399,7 +19399,7 @@
           }
         },
         {
-          "tsName": "GetByteCount3",
+          "tsName": "getByteCount3",
           "isStatic": false,
           "tsSignatureId": "GetByteCount|(System.ReadOnlySpan_1):System.Int32|static=false",
           "target": {
@@ -19409,7 +19409,7 @@
           }
         },
         {
-          "tsName": "GetBytes",
+          "tsName": "getBytes",
           "isStatic": false,
           "tsSignatureId": "GetBytes|(System.Char[]):System.Byte[]|static=false",
           "target": {
@@ -19419,7 +19419,7 @@
           }
         },
         {
-          "tsName": "GetBytes2",
+          "tsName": "getBytes2",
           "isStatic": false,
           "tsSignatureId": "GetBytes|(System.Char[],System.Int32,System.Int32):System.Byte[]|static=false",
           "target": {
@@ -19429,7 +19429,7 @@
           }
         },
         {
-          "tsName": "GetBytes3",
+          "tsName": "getBytes3",
           "isStatic": false,
           "tsSignatureId": "GetBytes|(System.String):System.Byte[]|static=false",
           "target": {
@@ -19439,7 +19439,7 @@
           }
         },
         {
-          "tsName": "GetBytes4",
+          "tsName": "getBytes4",
           "isStatic": false,
           "tsSignatureId": "GetBytes|(System.String,System.Int32,System.Int32):System.Byte[]|static=false",
           "target": {
@@ -19449,7 +19449,7 @@
           }
         },
         {
-          "tsName": "GetBytes5",
+          "tsName": "getBytes5",
           "isStatic": false,
           "tsSignatureId": "GetBytes|(System.ReadOnlySpan_1,System.Span_1):System.Int32|static=false",
           "target": {
@@ -19459,7 +19459,7 @@
           }
         },
         {
-          "tsName": "GetCharCount",
+          "tsName": "getCharCount",
           "isStatic": false,
           "tsSignatureId": "GetCharCount|(System.Byte[]):System.Int32|static=false",
           "target": {
@@ -19469,7 +19469,7 @@
           }
         },
         {
-          "tsName": "GetCharCount2",
+          "tsName": "getCharCount2",
           "isStatic": false,
           "tsSignatureId": "GetCharCount|(System.ReadOnlySpan_1):System.Int32|static=false",
           "target": {
@@ -19479,7 +19479,7 @@
           }
         },
         {
-          "tsName": "GetChars",
+          "tsName": "getChars",
           "isStatic": false,
           "tsSignatureId": "GetChars|(System.Byte[]):System.Char[]|static=false",
           "target": {
@@ -19489,7 +19489,7 @@
           }
         },
         {
-          "tsName": "GetChars2",
+          "tsName": "getChars2",
           "isStatic": false,
           "tsSignatureId": "GetChars|(System.Byte[],System.Int32,System.Int32):System.Char[]|static=false",
           "target": {
@@ -19499,7 +19499,7 @@
           }
         },
         {
-          "tsName": "GetChars3",
+          "tsName": "getChars3",
           "isStatic": false,
           "tsSignatureId": "GetChars|(System.ReadOnlySpan_1,System.Span_1):System.Int32|static=false",
           "target": {
@@ -19509,7 +19509,7 @@
           }
         },
         {
-          "tsName": "GetString",
+          "tsName": "getString",
           "isStatic": false,
           "tsSignatureId": "GetString|(System.Byte*,System.Int32):System.String|static=false",
           "target": {
@@ -19519,7 +19519,7 @@
           }
         },
         {
-          "tsName": "GetString2",
+          "tsName": "getString2",
           "isStatic": false,
           "tsSignatureId": "GetString|(System.ReadOnlySpan_1):System.String|static=false",
           "target": {
@@ -19529,7 +19529,7 @@
           }
         },
         {
-          "tsName": "GetString3",
+          "tsName": "getString3",
           "isStatic": false,
           "tsSignatureId": "GetString|(System.Byte[]):System.String|static=false",
           "target": {
@@ -19539,7 +19539,7 @@
           }
         },
         {
-          "tsName": "TryGetBytes",
+          "tsName": "tryGetBytes",
           "isStatic": false,
           "tsSignatureId": "TryGetBytes|(System.ReadOnlySpan_1,System.Span_1,System.Int32\u0026):System.Boolean|static=false",
           "target": {
@@ -19549,7 +19549,7 @@
           }
         },
         {
-          "tsName": "TryGetChars",
+          "tsName": "tryGetChars",
           "isStatic": false,
           "tsSignatureId": "TryGetChars|(System.ReadOnlySpan_1,System.Span_1,System.Int32\u0026):System.Boolean|static=false",
           "target": {

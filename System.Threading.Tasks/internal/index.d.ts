@@ -261,56 +261,56 @@ export class Task$instance {
     static readonly currentId: Nullable_1<CLROf<int>>;
     static readonly factory: TaskFactory;
     static readonly completedTask: Task;
-    static delay(millisecondsDelay: int, cancellationToken: CancellationToken): Task;
-    static delay(millisecondsDelay: int): Task;
-    static delay(delay: TimeSpan, cancellationToken: CancellationToken): Task;
-    static delay(delay: TimeSpan, timeProvider: TimeProvider, cancellationToken: CancellationToken): Task;
-    static delay(delay: TimeSpan, timeProvider: TimeProvider): Task;
-    static delay(delay: TimeSpan): Task;
+    static delay6(millisecondsDelay: int, cancellationToken: CancellationToken): Task;
+    static delay6(millisecondsDelay: int): Task;
+    static delay6(delay: TimeSpan, cancellationToken: CancellationToken): Task;
+    static delay6(delay: TimeSpan, timeProvider: TimeProvider, cancellationToken: CancellationToken): Task;
+    static delay6(delay: TimeSpan, timeProvider: TimeProvider): Task;
+    static delay6(delay: TimeSpan): Task;
     static fromCanceled(cancellationToken: CancellationToken): Task;
     static fromCanceled<TResult>(cancellationToken: CancellationToken): Task_1<TResult>;
     static fromException(exception: Exception): Task;
     static fromException<TResult>(exception: Exception): Task_1<TResult>;
     static fromResult<TResult>(result: TResult): Task_1<TResult>;
-    static run<TResult>(function_: Func_1<TResult>, cancellationToken: CancellationToken): Task_1<TResult>;
-    static run<TResult>(function_: Func_1<TResult>): Task_1<TResult>;
-    static run(action: Action, cancellationToken: CancellationToken): Task;
-    static run(action: Action): Task;
-    static run(function_: Func_1<Task>, cancellationToken: CancellationToken): Task;
-    static run(function_: Func_1<Task>): Task;
-    static waitAll(tasks: IEnumerable_1<Task>, cancellationToken?: CancellationToken): void;
-    static waitAll(tasks: ReadOnlySpan_1<Task>): void;
-    static waitAll(tasks: Task[], millisecondsTimeout: int, cancellationToken: CancellationToken): boolean;
-    static waitAll(tasks: Task[], millisecondsTimeout: int): boolean;
-    static waitAll(tasks: Task[], cancellationToken: CancellationToken): void;
-    static waitAll(tasks: Task[], timeout: TimeSpan): boolean;
-    static waitAll(tasks: Task[]): void;
-    static waitAny(tasks: Task[], millisecondsTimeout: int, cancellationToken: CancellationToken): int;
-    static waitAny(tasks: Task[], millisecondsTimeout: int): int;
-    static waitAny(tasks: Task[], cancellationToken: CancellationToken): int;
-    static waitAny(tasks: Task[], timeout: TimeSpan): int;
-    static waitAny(tasks: Task[]): int;
-    static whenAll<TResult>(tasks: IEnumerable_1<Task_1<TResult>>): Task_1<TResult[]>;
-    static whenAll<TResult>(tasks: ReadOnlySpan_1<Task_1<TResult>>): Task_1<TResult[]>;
-    static whenAll(tasks: IEnumerable_1<Task>): Task;
-    static whenAll(tasks: ReadOnlySpan_1<Task>): Task;
-    static whenAll(tasks: Task[]): Task;
-    static whenAll<TResult>(tasks: Task_1<TResult>[]): Task_1<TResult[]>;
-    static whenAny<TResult>(tasks: IEnumerable_1<Task_1<TResult>>): Task_1<Task_1<TResult>>;
-    static whenAny<TResult>(tasks: ReadOnlySpan_1<Task_1<TResult>>): Task_1<Task_1<TResult>>;
-    static whenAny(tasks: IEnumerable_1<Task>): Task_1<Task>;
-    static whenAny(tasks: ReadOnlySpan_1<Task>): Task_1<Task>;
-    static whenAny(task1: Task, task2: Task): Task_1<Task>;
-    static whenAny(tasks: Task[]): Task_1<Task>;
-    static whenAny<TResult>(task1: Task_1<TResult>, task2: Task_1<TResult>): Task_1<Task_1<TResult>>;
-    static whenAny<TResult>(tasks: Task_1<TResult>[]): Task_1<Task_1<TResult>>;
-    static whenEach<TResult>(tasks: IEnumerable_1<Task_1<TResult>>): IAsyncEnumerable_1<Task_1<TResult>>;
-    static whenEach<TResult>(tasks: ReadOnlySpan_1<Task_1<TResult>>): IAsyncEnumerable_1<Task_1<TResult>>;
-    static whenEach(tasks: IEnumerable_1<Task>): IAsyncEnumerable_1<Task>;
-    static whenEach(tasks: ReadOnlySpan_1<Task>): IAsyncEnumerable_1<Task>;
-    static whenEach(tasks: Task[]): IAsyncEnumerable_1<Task>;
-    static whenEach<TResult>(tasks: Task_1<TResult>[]): IAsyncEnumerable_1<Task_1<TResult>>;
-    static yield(): YieldAwaitable;
+    static run4<TResult>(function_: Func_1<TResult>, cancellationToken: CancellationToken): Task_1<TResult>;
+    static run4<TResult>(function_: Func_1<TResult>): Task_1<TResult>;
+    static run4(action: Action, cancellationToken: CancellationToken): Task;
+    static run4(action: Action): Task;
+    static run4(function_: Func_1<Task>, cancellationToken: CancellationToken): Task;
+    static run4(function_: Func_1<Task>): Task;
+    static waitAll7(tasks: IEnumerable_1<Task>, cancellationToken?: CancellationToken): void;
+    static waitAll7(tasks: ReadOnlySpan_1<Task>): void;
+    static waitAll7(tasks: Task[], millisecondsTimeout: int, cancellationToken: CancellationToken): boolean;
+    static waitAll7(tasks: Task[], millisecondsTimeout: int): boolean;
+    static waitAll7(tasks: Task[], cancellationToken: CancellationToken): void;
+    static waitAll7(tasks: Task[], timeout: TimeSpan): boolean;
+    static waitAll7(tasks: Task[]): void;
+    static waitAny5(tasks: Task[], millisecondsTimeout: int, cancellationToken: CancellationToken): int;
+    static waitAny5(tasks: Task[], millisecondsTimeout: int): int;
+    static waitAny5(tasks: Task[], cancellationToken: CancellationToken): int;
+    static waitAny5(tasks: Task[], timeout: TimeSpan): int;
+    static waitAny5(tasks: Task[]): int;
+    static whenAll4<TResult>(tasks: IEnumerable_1<Task_1<TResult>>): Task_1<TResult[]>;
+    static whenAll4<TResult>(tasks: ReadOnlySpan_1<Task_1<TResult>>): Task_1<TResult[]>;
+    static whenAll4(tasks: IEnumerable_1<Task>): Task;
+    static whenAll4(tasks: ReadOnlySpan_1<Task>): Task;
+    static whenAll4(tasks: Task[]): Task;
+    static whenAll4<TResult>(tasks: Task_1<TResult>[]): Task_1<TResult[]>;
+    static whenAny8<TResult>(tasks: IEnumerable_1<Task_1<TResult>>): Task_1<Task_1<TResult>>;
+    static whenAny8<TResult>(tasks: ReadOnlySpan_1<Task_1<TResult>>): Task_1<Task_1<TResult>>;
+    static whenAny8(tasks: IEnumerable_1<Task>): Task_1<Task>;
+    static whenAny8(tasks: ReadOnlySpan_1<Task>): Task_1<Task>;
+    static whenAny8(task1: Task, task2: Task): Task_1<Task>;
+    static whenAny8(tasks: Task[]): Task_1<Task>;
+    static whenAny8<TResult>(task1: Task_1<TResult>, task2: Task_1<TResult>): Task_1<Task_1<TResult>>;
+    static whenAny8<TResult>(tasks: Task_1<TResult>[]): Task_1<Task_1<TResult>>;
+    static whenEach6<TResult>(tasks: IEnumerable_1<Task_1<TResult>>): IAsyncEnumerable_1<Task_1<TResult>>;
+    static whenEach6<TResult>(tasks: ReadOnlySpan_1<Task_1<TResult>>): IAsyncEnumerable_1<Task_1<TResult>>;
+    static whenEach6(tasks: IEnumerable_1<Task>): IAsyncEnumerable_1<Task>;
+    static whenEach6(tasks: ReadOnlySpan_1<Task>): IAsyncEnumerable_1<Task>;
+    static whenEach6(tasks: Task[]): IAsyncEnumerable_1<Task>;
+    static whenEach6<TResult>(tasks: Task_1<TResult>[]): IAsyncEnumerable_1<Task_1<TResult>>;
+    static yield_(): YieldAwaitable;
 }
 
 
@@ -376,7 +376,7 @@ export class Task_1$instance<TResult> extends Task$instance {
     continueWith<TResult>(continuationFunction: Func_3<Task, unknown, TResult>, state: unknown, scheduler: TaskScheduler): Task_1<TResult>;
     continueWith<TResult>(continuationFunction: Func_3<Task, unknown, TResult>, state: unknown, continuationOptions: TaskContinuationOptions): Task_1<TResult>;
     continueWith<TResult>(continuationFunction: Func_3<Task, unknown, TResult>, state: unknown, cancellationToken: CancellationToken, continuationOptions: TaskContinuationOptions, scheduler: TaskScheduler): Task_1<TResult>;
-    Dispose(): void;
+    dispose(): void;
     getAwaiter(): TaskAwaiter;
     waitAsync(cancellationToken: CancellationToken): Task;
     waitAsync(timeout: TimeSpan): Task;
@@ -391,7 +391,7 @@ export interface __Task_1$views<TResult> {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
 
-export interface Task_1$instance<TResult> extends System_Internal.IAsyncResult$instance, System_Internal.IDisposable$instance {}
+export interface Task_1$instance<TResult> extends System_Internal.IAsyncResult$instance {}
 
 export type Task_1<TResult> = Task_1$instance<TResult> & __Task_1$views<TResult>;
 
@@ -403,15 +403,13 @@ export class TaskCanceledException$instance extends System_Internal.OperationCan
     constructor(message: string, innerException: Exception, token: CancellationToken);
     constructor(task: Task);
     readonly task: Task;
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
 export interface __TaskCanceledException$views {
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
-
-export interface TaskCanceledException$instance extends System_Runtime_Serialization_Internal.ISerializable$instance {}
 
 export type TaskCanceledException = TaskCanceledException$instance & __TaskCanceledException$views;
 
@@ -600,7 +598,7 @@ export type TaskFactory_1<TResult> = TaskFactory_1$instance<TResult>;
 export abstract class TaskScheduler$instance {
     readonly id: int;
     readonly maximumConcurrencyLevel: int;
-    static readonly default: TaskScheduler;
+    static readonly default_: TaskScheduler;
     static readonly current: TaskScheduler;
     static fromCurrentSynchronizationContext(): TaskScheduler;
 }
@@ -613,15 +611,13 @@ export class TaskSchedulerException$instance extends System_Internal.Exception$i
     constructor(message: string);
     constructor(innerException: Exception);
     constructor(message: string, innerException: Exception);
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
 export interface __TaskSchedulerException$views {
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
-
-export interface TaskSchedulerException$instance extends System_Runtime_Serialization_Internal.ISerializable$instance {}
 
 export type TaskSchedulerException = TaskSchedulerException$instance & __TaskSchedulerException$views;
 
@@ -637,18 +633,18 @@ export class UnobservedTaskExceptionEventArgs$instance extends System_Internal.E
 export type UnobservedTaskExceptionEventArgs = UnobservedTaskExceptionEventArgs$instance;
 
 export abstract class Parallel$instance {
-    static for<TLocal>(fromInclusive: int, toExclusive: int, localInit: Func_1<TLocal>, body: Func_4<CLROf<int>, ParallelLoopState, TLocal, TLocal>, localFinally: Action_1<TLocal>): ParallelLoopResult;
-    static for(fromInclusive: int, toExclusive: int, body: Action_1<CLROf<int>>): ParallelLoopResult;
-    static for(fromInclusive: int, toExclusive: int, body: Action_2<CLROf<int>, ParallelLoopState>): ParallelLoopResult;
-    static for<TLocal>(fromInclusive: int, toExclusive: int, parallelOptions: ParallelOptions, localInit: Func_1<TLocal>, body: Func_4<CLROf<int>, ParallelLoopState, TLocal, TLocal>, localFinally: Action_1<TLocal>): ParallelLoopResult;
-    static for(fromInclusive: int, toExclusive: int, parallelOptions: ParallelOptions, body: Action_1<CLROf<int>>): ParallelLoopResult;
-    static for(fromInclusive: int, toExclusive: int, parallelOptions: ParallelOptions, body: Action_2<CLROf<int>, ParallelLoopState>): ParallelLoopResult;
-    static for<TLocal>(fromInclusive: long, toExclusive: long, localInit: Func_1<TLocal>, body: Func_4<CLROf<long>, ParallelLoopState, TLocal, TLocal>, localFinally: Action_1<TLocal>): ParallelLoopResult;
-    static for(fromInclusive: long, toExclusive: long, body: Action_1<CLROf<long>>): ParallelLoopResult;
-    static for(fromInclusive: long, toExclusive: long, body: Action_2<CLROf<long>, ParallelLoopState>): ParallelLoopResult;
-    static for<TLocal>(fromInclusive: long, toExclusive: long, parallelOptions: ParallelOptions, localInit: Func_1<TLocal>, body: Func_4<CLROf<long>, ParallelLoopState, TLocal, TLocal>, localFinally: Action_1<TLocal>): ParallelLoopResult;
-    static for(fromInclusive: long, toExclusive: long, parallelOptions: ParallelOptions, body: Action_1<CLROf<long>>): ParallelLoopResult;
-    static for(fromInclusive: long, toExclusive: long, parallelOptions: ParallelOptions, body: Action_2<CLROf<long>, ParallelLoopState>): ParallelLoopResult;
+    static for_9<TLocal>(fromInclusive: int, toExclusive: int, localInit: Func_1<TLocal>, body: Func_4<CLROf<int>, ParallelLoopState, TLocal, TLocal>, localFinally: Action_1<TLocal>): ParallelLoopResult;
+    static for_9(fromInclusive: int, toExclusive: int, body: Action_1<CLROf<int>>): ParallelLoopResult;
+    static for_9(fromInclusive: int, toExclusive: int, body: Action_2<CLROf<int>, ParallelLoopState>): ParallelLoopResult;
+    static for_9<TLocal>(fromInclusive: int, toExclusive: int, parallelOptions: ParallelOptions, localInit: Func_1<TLocal>, body: Func_4<CLROf<int>, ParallelLoopState, TLocal, TLocal>, localFinally: Action_1<TLocal>): ParallelLoopResult;
+    static for_9(fromInclusive: int, toExclusive: int, parallelOptions: ParallelOptions, body: Action_1<CLROf<int>>): ParallelLoopResult;
+    static for_9(fromInclusive: int, toExclusive: int, parallelOptions: ParallelOptions, body: Action_2<CLROf<int>, ParallelLoopState>): ParallelLoopResult;
+    static for_9<TLocal>(fromInclusive: long, toExclusive: long, localInit: Func_1<TLocal>, body: Func_4<CLROf<long>, ParallelLoopState, TLocal, TLocal>, localFinally: Action_1<TLocal>): ParallelLoopResult;
+    static for_9(fromInclusive: long, toExclusive: long, body: Action_1<CLROf<long>>): ParallelLoopResult;
+    static for_9(fromInclusive: long, toExclusive: long, body: Action_2<CLROf<long>, ParallelLoopState>): ParallelLoopResult;
+    static for_9<TLocal>(fromInclusive: long, toExclusive: long, parallelOptions: ParallelOptions, localInit: Func_1<TLocal>, body: Func_4<CLROf<long>, ParallelLoopState, TLocal, TLocal>, localFinally: Action_1<TLocal>): ParallelLoopResult;
+    static for_9(fromInclusive: long, toExclusive: long, parallelOptions: ParallelOptions, body: Action_1<CLROf<long>>): ParallelLoopResult;
+    static for_9(fromInclusive: long, toExclusive: long, parallelOptions: ParallelOptions, body: Action_2<CLROf<long>, ParallelLoopState>): ParallelLoopResult;
     static forAsync<T extends IBinaryInteger_1<T>>(fromInclusive: T, toExclusive: T, body: Func_3<T, CancellationToken, ValueTask>): Task;
     static forAsync<T extends IBinaryInteger_1<T>>(fromInclusive: T, toExclusive: T, cancellationToken: CancellationToken, body: Func_3<T, CancellationToken, ValueTask>): Task;
     static forAsync<T extends IBinaryInteger_1<T>>(fromInclusive: T, toExclusive: T, parallelOptions: ParallelOptions, body: Func_3<T, CancellationToken, ValueTask>): Task;
@@ -672,12 +668,12 @@ export abstract class Parallel$instance {
     static forEach<TSource>(source: Partitioner_1<TSource>, parallelOptions: ParallelOptions, body: Action_1<TSource>): ParallelLoopResult;
     static forEach<TSource>(source: Partitioner_1<TSource>, parallelOptions: ParallelOptions, body: Action_2<TSource, ParallelLoopState>): ParallelLoopResult;
     static forEach<TSource, TLocal>(source: Partitioner_1<TSource>, parallelOptions: ParallelOptions, localInit: Func_1<TLocal>, body: Func_4<TSource, ParallelLoopState, TLocal, TLocal>, localFinally: Action_1<TLocal>): ParallelLoopResult;
-    static forEachAsync<TSource>(source: IAsyncEnumerable_1<TSource>, body: Func_3<TSource, CancellationToken, ValueTask>): Task;
-    static forEachAsync<TSource>(source: IAsyncEnumerable_1<TSource>, cancellationToken: CancellationToken, body: Func_3<TSource, CancellationToken, ValueTask>): Task;
-    static forEachAsync<TSource>(source: IAsyncEnumerable_1<TSource>, parallelOptions: ParallelOptions, body: Func_3<TSource, CancellationToken, ValueTask>): Task;
-    static forEachAsync<TSource>(source: IEnumerable_1<TSource>, body: Func_3<TSource, CancellationToken, ValueTask>): Task;
-    static forEachAsync<TSource>(source: IEnumerable_1<TSource>, cancellationToken: CancellationToken, body: Func_3<TSource, CancellationToken, ValueTask>): Task;
-    static forEachAsync<TSource>(source: IEnumerable_1<TSource>, parallelOptions: ParallelOptions, body: Func_3<TSource, CancellationToken, ValueTask>): Task;
+    static forEachAsync4<TSource>(source: IAsyncEnumerable_1<TSource>, body: Func_3<TSource, CancellationToken, ValueTask>): Task;
+    static forEachAsync4<TSource>(source: IAsyncEnumerable_1<TSource>, cancellationToken: CancellationToken, body: Func_3<TSource, CancellationToken, ValueTask>): Task;
+    static forEachAsync4<TSource>(source: IAsyncEnumerable_1<TSource>, parallelOptions: ParallelOptions, body: Func_3<TSource, CancellationToken, ValueTask>): Task;
+    static forEachAsync4<TSource>(source: IEnumerable_1<TSource>, body: Func_3<TSource, CancellationToken, ValueTask>): Task;
+    static forEachAsync4<TSource>(source: IEnumerable_1<TSource>, cancellationToken: CancellationToken, body: Func_3<TSource, CancellationToken, ValueTask>): Task;
+    static forEachAsync4<TSource>(source: IEnumerable_1<TSource>, parallelOptions: ParallelOptions, body: Func_3<TSource, CancellationToken, ValueTask>): Task;
     static invoke(actions: Action[]): void;
     static invoke(parallelOptions: ParallelOptions, actions: Action[]): void;
 }
@@ -686,8 +682,8 @@ export abstract class Parallel$instance {
 export type Parallel = Parallel$instance;
 
 export abstract class TaskAsyncEnumerableExtensions$instance {
-    static configureAwait<T>(source: IAsyncEnumerable_1<T>, continueOnCapturedContext: boolean): ConfiguredCancelableAsyncEnumerable_1<T>;
-    static configureAwait(source: IAsyncDisposable, continueOnCapturedContext: boolean): ConfiguredAsyncDisposable;
+    static configureAwait2<T>(source: IAsyncEnumerable_1<T>, continueOnCapturedContext: boolean): ConfiguredCancelableAsyncEnumerable_1<T>;
+    static configureAwait2(source: IAsyncDisposable, continueOnCapturedContext: boolean): ConfiguredAsyncDisposable;
     static toBlockingEnumerable<T>(source: IAsyncEnumerable_1<T>, cancellationToken?: CancellationToken): IEnumerable_1<T>;
     static withCancellation<T>(source: IAsyncEnumerable_1<T>, cancellationToken: CancellationToken): ConfiguredCancelableAsyncEnumerable_1<T>;
 }

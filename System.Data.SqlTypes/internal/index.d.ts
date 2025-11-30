@@ -831,15 +831,13 @@ export class SqlAlreadyFilledException$instance extends SqlTypeException$instanc
     constructor();
     constructor(message: string);
     constructor(message: string, e: Exception);
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
 export interface __SqlAlreadyFilledException$views {
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
-
-export interface SqlAlreadyFilledException$instance extends System_Runtime_Serialization_Internal.ISerializable$instance {}
 
 export type SqlAlreadyFilledException = SqlAlreadyFilledException$instance & __SqlAlreadyFilledException$views;
 
@@ -862,7 +860,7 @@ export class SqlBytes$instance {
     setNull(): void;
     toSqlBinary(): SqlBinary;
     write(offset: long, buffer: byte[], offsetInBuffer: int, count: int): void;
-    static readonly null: SqlBytes;
+    static readonly null_: SqlBytes;
     static getXsdType(schemaSet: XmlSchemaSet): XmlQualifiedName;
 }
 
@@ -894,7 +892,7 @@ export class SqlChars$instance {
     setNull(): void;
     toSqlString(): SqlString;
     write(offset: long, buffer: char[], offsetInBuffer: int, count: int): void;
-    static readonly null: SqlChars;
+    static readonly null_: SqlChars;
     static getXsdType(schemaSet: XmlSchemaSet): XmlQualifiedName;
 }
 
@@ -914,15 +912,13 @@ export class SqlNotFilledException$instance extends SqlTypeException$instance {
     constructor();
     constructor(message: string);
     constructor(message: string, e: Exception);
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
 export interface __SqlNotFilledException$views {
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
-
-export interface SqlNotFilledException$instance extends System_Runtime_Serialization_Internal.ISerializable$instance {}
 
 export type SqlNotFilledException = SqlNotFilledException$instance & __SqlNotFilledException$views;
 
@@ -931,15 +927,13 @@ export class SqlNullValueException$instance extends SqlTypeException$instance {
     constructor();
     constructor(message: string);
     constructor(message: string, e: Exception);
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
 export interface __SqlNullValueException$views {
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
-
-export interface SqlNullValueException$instance extends System_Runtime_Serialization_Internal.ISerializable$instance {}
 
 export type SqlNullValueException = SqlNullValueException$instance & __SqlNullValueException$views;
 
@@ -948,15 +942,13 @@ export class SqlTruncateException$instance extends SqlTypeException$instance {
     constructor();
     constructor(message: string);
     constructor(message: string, e: Exception);
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
 export interface __SqlTruncateException$views {
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
-
-export interface SqlTruncateException$instance extends System_Runtime_Serialization_Internal.ISerializable$instance {}
 
 export type SqlTruncateException = SqlTruncateException$instance & __SqlTruncateException$views;
 
@@ -965,15 +957,13 @@ export class SqlTypeException$instance extends System_Internal.SystemException$i
     constructor();
     constructor(message: string);
     constructor(message: string, e: Exception);
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
 export interface __SqlTypeException$views {
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
-
-export interface SqlTypeException$instance extends System_Runtime_Serialization_Internal.ISerializable$instance {}
 
 export type SqlTypeException = SqlTypeException$instance & __SqlTypeException$views;
 
@@ -985,7 +975,7 @@ export class SqlXml$instance {
     readonly isNull: boolean;
     readonly value: string;
     createReader(): XmlReader;
-    static readonly null: SqlXml;
+    static readonly null_: SqlXml;
     static getXsdType(schemaSet: XmlSchemaSet): XmlQualifiedName;
 }
 

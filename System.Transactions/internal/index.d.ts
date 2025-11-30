@@ -171,9 +171,9 @@ export class CommittableTransaction$instance extends Transaction$instance {
     constructor(options: TransactionOptions);
     beginCommit(asyncCallback: AsyncCallback, asyncState: unknown): IAsyncResult;
     commit(): void;
-    Dispose(): void;
+    dispose(): void;
     endCommit(asyncResult: IAsyncResult): void;
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
@@ -183,15 +183,15 @@ export interface __CommittableTransaction$views {
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
-export interface CommittableTransaction$instance extends System_Internal.IAsyncResult$instance, System_Internal.IDisposable$instance, System_Runtime_Serialization_Internal.ISerializable$instance {}
+export interface CommittableTransaction$instance extends System_Internal.IAsyncResult$instance, System_Runtime_Serialization_Internal.ISerializable$instance {}
 
 export type CommittableTransaction = CommittableTransaction$instance & __CommittableTransaction$views;
 
 
 export class DependentTransaction$instance extends Transaction$instance {
     complete(): void;
-    Dispose(): void;
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    dispose(): void;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
@@ -200,7 +200,7 @@ export interface __DependentTransaction$views {
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
-export interface DependentTransaction$instance extends System_Internal.IDisposable$instance, System_Runtime_Serialization_Internal.ISerializable$instance {}
+export interface DependentTransaction$instance extends System_Runtime_Serialization_Internal.ISerializable$instance {}
 
 export type DependentTransaction = DependentTransaction$instance & __DependentTransaction$views;
 
@@ -215,9 +215,9 @@ export type Enlistment = Enlistment$instance;
 export class HostCurrentTransactionCallback$instance extends Function {
     constructor(object_: unknown, method: nint);
     beginInvoke(callback: AsyncCallback, object_: unknown): IAsyncResult;
-    Clone(): unknown;
+    clone(): unknown;
     endInvoke(result: IAsyncResult): Transaction;
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
     invoke(): Transaction;
 }
 
@@ -226,8 +226,6 @@ export interface __HostCurrentTransactionCallback$views {
     As_ICloneable(): System_Internal.ICloneable$instance;
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
-
-export interface HostCurrentTransactionCallback$instance extends System_Internal.ICloneable$instance {}
 
 export type HostCurrentTransactionCallback = HostCurrentTransactionCallback$instance & __HostCurrentTransactionCallback$views;
 
@@ -255,8 +253,8 @@ export type SinglePhaseEnlistment = SinglePhaseEnlistment$instance;
 
 export class SubordinateTransaction$instance extends Transaction$instance {
     constructor(isoLevel: IsolationLevel, superior: ISimpleTransactionSuperior);
-    Dispose(): void;
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    dispose(): void;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
@@ -265,7 +263,7 @@ export interface __SubordinateTransaction$views {
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
-export interface SubordinateTransaction$instance extends System_Internal.IDisposable$instance, System_Runtime_Serialization_Internal.ISerializable$instance {}
+export interface SubordinateTransaction$instance extends System_Runtime_Serialization_Internal.ISerializable$instance {}
 
 export type SubordinateTransaction = SubordinateTransaction$instance & __SubordinateTransaction$views;
 
@@ -308,7 +306,7 @@ export class TransactionAbortedException$instance extends TransactionException$i
     constructor();
     constructor(message: string);
     constructor(message: string, innerException: Exception);
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
@@ -316,17 +314,15 @@ export interface __TransactionAbortedException$views {
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
-export interface TransactionAbortedException$instance extends System_Runtime_Serialization_Internal.ISerializable$instance {}
-
 export type TransactionAbortedException = TransactionAbortedException$instance & __TransactionAbortedException$views;
 
 
 export class TransactionCompletedEventHandler$instance extends Function {
     constructor(object_: unknown, method: nint);
     beginInvoke(sender: unknown, e: TransactionEventArgs, callback: AsyncCallback, object_: unknown): IAsyncResult;
-    Clone(): unknown;
+    clone(): unknown;
     endInvoke(result: IAsyncResult): void;
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
     invoke(sender: unknown, e: TransactionEventArgs): void;
 }
 
@@ -335,8 +331,6 @@ export interface __TransactionCompletedEventHandler$views {
     As_ICloneable(): System_Internal.ICloneable$instance;
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
-
-export interface TransactionCompletedEventHandler$instance extends System_Internal.ICloneable$instance {}
 
 export type TransactionCompletedEventHandler = TransactionCompletedEventHandler$instance & __TransactionCompletedEventHandler$views;
 
@@ -353,15 +347,13 @@ export class TransactionException$instance extends System_Internal.SystemExcepti
     constructor();
     constructor(message: string);
     constructor(message: string, innerException: Exception);
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
 export interface __TransactionException$views {
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
-
-export interface TransactionException$instance extends System_Runtime_Serialization_Internal.ISerializable$instance {}
 
 export type TransactionException = TransactionException$instance & __TransactionException$views;
 
@@ -370,15 +362,13 @@ export class TransactionInDoubtException$instance extends TransactionException$i
     constructor();
     constructor(message: string);
     constructor(message: string, innerException: Exception);
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
 export interface __TransactionInDoubtException$views {
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
-
-export interface TransactionInDoubtException$instance extends System_Runtime_Serialization_Internal.ISerializable$instance {}
 
 export type TransactionInDoubtException = TransactionInDoubtException$instance & __TransactionInDoubtException$views;
 
@@ -397,15 +387,13 @@ export class TransactionManagerCommunicationException$instance extends Transacti
     constructor();
     constructor(message: string);
     constructor(message: string, innerException: Exception);
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
 export interface __TransactionManagerCommunicationException$views {
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
-
-export interface TransactionManagerCommunicationException$instance extends System_Runtime_Serialization_Internal.ISerializable$instance {}
 
 export type TransactionManagerCommunicationException = TransactionManagerCommunicationException$instance & __TransactionManagerCommunicationException$views;
 
@@ -414,15 +402,13 @@ export class TransactionPromotionException$instance extends TransactionException
     constructor();
     constructor(message: string);
     constructor(message: string, innerException: Exception);
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
 export interface __TransactionPromotionException$views {
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
-
-export interface TransactionPromotionException$instance extends System_Runtime_Serialization_Internal.ISerializable$instance {}
 
 export type TransactionPromotionException = TransactionPromotionException$instance & __TransactionPromotionException$views;
 
@@ -459,9 +445,9 @@ export type TransactionScope = TransactionScope$instance & __TransactionScope$vi
 export class TransactionStartedEventHandler$instance extends Function {
     constructor(object_: unknown, method: nint);
     beginInvoke(sender: unknown, e: TransactionEventArgs, callback: AsyncCallback, object_: unknown): IAsyncResult;
-    Clone(): unknown;
+    clone(): unknown;
     endInvoke(result: IAsyncResult): void;
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
     invoke(sender: unknown, e: TransactionEventArgs): void;
 }
 
@@ -470,8 +456,6 @@ export interface __TransactionStartedEventHandler$views {
     As_ICloneable(): System_Internal.ICloneable$instance;
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
-
-export interface TransactionStartedEventHandler$instance extends System_Internal.ICloneable$instance {}
 
 export type TransactionStartedEventHandler = TransactionStartedEventHandler$instance & __TransactionStartedEventHandler$views;
 

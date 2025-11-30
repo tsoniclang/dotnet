@@ -311,7 +311,7 @@ export class BufferedStream$instance extends Stream$instance {
     copyToAsync(destination: Stream): Task;
     copyToAsync(destination: Stream, bufferSize: int): Task;
     copyToAsync(destination: Stream, cancellationToken: CancellationToken): Task;
-    Dispose(): void;
+    dispose(): void;
     disposeAsync(): ValueTask;
     endRead(asyncResult: IAsyncResult): int;
     endWrite(asyncResult: IAsyncResult): void;
@@ -344,8 +344,6 @@ export interface __BufferedStream$views {
     As_IAsyncDisposable(): System_Internal.IAsyncDisposable$instance;
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
-
-export interface BufferedStream$instance extends System_Internal.IDisposable$instance {}
 
 export type BufferedStream = BufferedStream$instance & __BufferedStream$views;
 
@@ -383,7 +381,7 @@ export class DirectoryInfo$instance extends FileSystemInfo$instance {
     getFileSystemInfos(searchPattern: string): FileSystemInfo[];
     getFileSystemInfos(searchPattern: string, searchOption: SearchOption): FileSystemInfo[];
     getFileSystemInfos(searchPattern: string, enumerationOptions: EnumerationOptions): FileSystemInfo[];
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
     moveTo(destDirName: string): void;
 }
 
@@ -392,8 +390,6 @@ export interface __DirectoryInfo$views {
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
-export interface DirectoryInfo$instance extends System_Runtime_Serialization_Internal.ISerializable$instance {}
-
 export type DirectoryInfo = DirectoryInfo$instance & __DirectoryInfo$views;
 
 
@@ -401,15 +397,13 @@ export class DirectoryNotFoundException$instance extends IOException$instance {
     constructor();
     constructor(message: string);
     constructor(message: string, innerException: Exception);
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
 export interface __DirectoryNotFoundException$views {
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
-
-export interface DirectoryNotFoundException$instance extends System_Runtime_Serialization_Internal.ISerializable$instance {}
 
 export type DirectoryNotFoundException = DirectoryNotFoundException$instance & __DirectoryNotFoundException$views;
 
@@ -443,15 +437,13 @@ export class DriveNotFoundException$instance extends IOException$instance {
     constructor();
     constructor(message: string);
     constructor(message: string, innerException: Exception);
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
 export interface __DriveNotFoundException$views {
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
-
-export interface DriveNotFoundException$instance extends System_Runtime_Serialization_Internal.ISerializable$instance {}
 
 export type DriveNotFoundException = DriveNotFoundException$instance & __DriveNotFoundException$views;
 
@@ -460,15 +452,13 @@ export class EndOfStreamException$instance extends IOException$instance {
     constructor();
     constructor(message: string);
     constructor(message: string, innerException: Exception);
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
 export interface __EndOfStreamException$views {
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
-
-export interface EndOfStreamException$instance extends System_Runtime_Serialization_Internal.ISerializable$instance {}
 
 export type EndOfStreamException = EndOfStreamException$instance & __EndOfStreamException$views;
 
@@ -499,9 +489,9 @@ export type ErrorEventArgs = ErrorEventArgs$instance;
 export class ErrorEventHandler$instance extends Function {
     constructor(object_: unknown, method: nint);
     beginInvoke(sender: unknown, e: ErrorEventArgs, callback: AsyncCallback, object_: unknown): IAsyncResult;
-    Clone(): unknown;
+    clone(): unknown;
     endInvoke(result: IAsyncResult): void;
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
     invoke(sender: unknown, e: ErrorEventArgs): void;
 }
 
@@ -510,8 +500,6 @@ export interface __ErrorEventHandler$views {
     As_ICloneable(): System_Internal.ICloneable$instance;
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
-
-export interface ErrorEventHandler$instance extends System_Internal.ICloneable$instance {}
 
 export type ErrorEventHandler = ErrorEventHandler$instance & __ErrorEventHandler$views;
 
@@ -532,7 +520,7 @@ export class FileInfo$instance extends FileSystemInfo$instance {
     decrypt(): void;
     delete_(): void;
     encrypt(): void;
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
     moveTo(destFileName: string): void;
     moveTo(destFileName: string, overwrite: boolean): void;
     open(options: FileStreamOptions): FileStream;
@@ -550,8 +538,6 @@ export class FileInfo$instance extends FileSystemInfo$instance {
 export interface __FileInfo$views {
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
-
-export interface FileInfo$instance extends System_Runtime_Serialization_Internal.ISerializable$instance {}
 
 export type FileInfo = FileInfo$instance & __FileInfo$views;
 
@@ -630,7 +616,7 @@ export class FileStream$instance extends Stream$instance {
     copyToAsync(destination: Stream): Task;
     copyToAsync(destination: Stream, bufferSize: int): Task;
     copyToAsync(destination: Stream, cancellationToken: CancellationToken): Task;
-    Dispose(): void;
+    dispose(): void;
     disposeAsync(): ValueTask;
     endRead(asyncResult: IAsyncResult): int;
     endWrite(asyncResult: IAsyncResult): void;
@@ -666,8 +652,6 @@ export interface __FileStream$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
 
-export interface FileStream$instance extends System_Internal.IDisposable$instance {}
-
 export type FileStream = FileStream$instance & __FileStream$views;
 
 
@@ -698,9 +682,9 @@ export type FileSystemEventArgs = FileSystemEventArgs$instance;
 export class FileSystemEventHandler$instance extends Function {
     constructor(object_: unknown, method: nint);
     beginInvoke(sender: unknown, e: FileSystemEventArgs, callback: AsyncCallback, object_: unknown): IAsyncResult;
-    Clone(): unknown;
+    clone(): unknown;
     endInvoke(result: IAsyncResult): void;
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
     invoke(sender: unknown, e: FileSystemEventArgs): void;
 }
 
@@ -709,8 +693,6 @@ export interface __FileSystemEventHandler$views {
     As_ICloneable(): System_Internal.ICloneable$instance;
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
-
-export interface FileSystemEventHandler$instance extends System_Internal.ICloneable$instance {}
 
 export type FileSystemEventHandler = FileSystemEventHandler$instance & __FileSystemEventHandler$views;
 
@@ -761,7 +743,7 @@ export class FileSystemWatcher$instance extends System_ComponentModel_Internal.C
     site: ISite;
     synchronizingObject: ISynchronizeInvoke;
     beginInit(): void;
-    Dispose(): void;
+    dispose(): void;
     endInit(): void;
     waitForChanged(changeType: WatcherChangeTypes): WaitForChangedResult;
     waitForChanged(changeType: WatcherChangeTypes, timeout: int): WaitForChangedResult;
@@ -775,7 +757,7 @@ export interface __FileSystemWatcher$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
 
-export interface FileSystemWatcher$instance extends System_ComponentModel_Internal.ISupportInitialize$instance {}
+export interface FileSystemWatcher$instance extends System_ComponentModel_Internal.IComponent$instance, System_ComponentModel_Internal.ISupportInitialize$instance {}
 
 export type FileSystemWatcher = FileSystemWatcher$instance & __FileSystemWatcher$views;
 
@@ -784,15 +766,13 @@ export class InternalBufferOverflowException$instance extends System_Internal.Sy
     constructor();
     constructor(message: string);
     constructor(message: string, inner: Exception);
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
 export interface __InternalBufferOverflowException$views {
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
-
-export interface InternalBufferOverflowException$instance extends System_Runtime_Serialization_Internal.ISerializable$instance {}
 
 export type InternalBufferOverflowException = InternalBufferOverflowException$instance & __InternalBufferOverflowException$views;
 
@@ -801,15 +781,13 @@ export class InvalidDataException$instance extends System_Internal.SystemExcepti
     constructor();
     constructor(message: string);
     constructor(message: string, innerException: Exception);
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
 export interface __InvalidDataException$views {
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
-
-export interface InvalidDataException$instance extends System_Runtime_Serialization_Internal.ISerializable$instance {}
 
 export type InvalidDataException = InvalidDataException$instance & __InvalidDataException$views;
 
@@ -819,15 +797,13 @@ export class IOException$instance extends System_Internal.SystemException$instan
     constructor(message: string);
     constructor(message: string, hresult: int);
     constructor(message: string, innerException: Exception);
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
 export interface __IOException$views {
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
-
-export interface IOException$instance extends System_Runtime_Serialization_Internal.ISerializable$instance {}
 
 export type IOException = IOException$instance & __IOException$views;
 
@@ -852,8 +828,8 @@ export class MemoryStream$instance extends Stream$instance {
     copyToAsync(destination: Stream): Task;
     copyToAsync(destination: Stream, bufferSize: int): Task;
     copyToAsync(destination: Stream, cancellationToken: CancellationToken): Task;
-    Dispose(): void;
-    DisposeAsync(): ValueTask;
+    dispose(): void;
+    disposeAsync(): ValueTask;
     flush(): void;
     flushAsync(cancellationToken: CancellationToken): Task;
     flushAsync(): Task;
@@ -888,8 +864,6 @@ export interface __MemoryStream$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
 
-export interface MemoryStream$instance extends System_Internal.IAsyncDisposable$instance, System_Internal.IDisposable$instance {}
-
 export type MemoryStream = MemoryStream$instance & __MemoryStream$views;
 
 
@@ -897,15 +871,13 @@ export class PathTooLongException$instance extends IOException$instance {
     constructor();
     constructor(message: string);
     constructor(message: string, innerException: Exception);
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
 export interface __PathTooLongException$views {
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
-
-export interface PathTooLongException$instance extends System_Runtime_Serialization_Internal.ISerializable$instance {}
 
 export type PathTooLongException = PathTooLongException$instance & __PathTooLongException$views;
 
@@ -922,9 +894,9 @@ export type RenamedEventArgs = RenamedEventArgs$instance;
 export class RenamedEventHandler$instance extends Function {
     constructor(object_: unknown, method: nint);
     beginInvoke(sender: unknown, e: RenamedEventArgs, callback: AsyncCallback, object_: unknown): IAsyncResult;
-    Clone(): unknown;
+    clone(): unknown;
     endInvoke(result: IAsyncResult): void;
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
     invoke(sender: unknown, e: RenamedEventArgs): void;
 }
 
@@ -933,8 +905,6 @@ export interface __RenamedEventHandler$views {
     As_ICloneable(): System_Internal.ICloneable$instance;
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
-
-export interface RenamedEventHandler$instance extends System_Internal.ICloneable$instance {}
 
 export type RenamedEventHandler = RenamedEventHandler$instance & __RenamedEventHandler$views;
 
@@ -1018,7 +988,7 @@ export class StreamReader$instance extends TextReader$instance {
     readonly endOfStream: boolean;
     close(): void;
     discardBufferedData(): void;
-    Dispose(): void;
+    dispose(): void;
     peek(): int;
     read(): int;
     read(buffer: char[], index: int, count: int): int;
@@ -1052,8 +1022,6 @@ export interface __StreamReader$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
 
-export interface StreamReader$instance extends System_Internal.IDisposable$instance {}
-
 export type StreamReader = StreamReader$instance & __StreamReader$views;
 
 
@@ -1072,7 +1040,7 @@ export class StreamWriter$instance extends TextWriter$instance {
     readonly baseStream: Stream;
     readonly encoding: Encoding;
     close(): void;
-    Dispose(): void;
+    dispose(): void;
     disposeAsync(): ValueTask;
     flush(): void;
     flushAsync(): Task;
@@ -1145,15 +1113,13 @@ export interface __StreamWriter$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
 
-export interface StreamWriter$instance extends System_Internal.IDisposable$instance {}
-
 export type StreamWriter = StreamWriter$instance & __StreamWriter$views;
 
 
 export class StringReader$instance extends TextReader$instance {
     constructor(s: string);
     close(): void;
-    Dispose(): void;
+    dispose(): void;
     peek(): int;
     read(): int;
     read(buffer: char[], index: int, count: int): int;
@@ -1187,8 +1153,6 @@ export interface __StringReader$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
 
-export interface StringReader$instance extends System_Internal.IDisposable$instance {}
-
 export type StringReader = StringReader$instance & __StringReader$views;
 
 
@@ -1199,8 +1163,8 @@ export class StringWriter$instance extends TextWriter$instance {
     constructor(sb: StringBuilder, formatProvider: IFormatProvider);
     readonly encoding: Encoding;
     close(): void;
-    Dispose(): void;
-    DisposeAsync(): ValueTask;
+    dispose(): void;
+    disposeAsync(): ValueTask;
     flushAsync(): Task;
     flushAsync(cancellationToken: CancellationToken): Task;
     getStringBuilder(): StringBuilder;
@@ -1270,8 +1234,6 @@ export interface __StringWriter$views {
     As_IAsyncDisposable(): System_Internal.IAsyncDisposable$instance;
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
-
-export interface StringWriter$instance extends System_Internal.IAsyncDisposable$instance, System_Internal.IDisposable$instance {}
 
 export type StringWriter = StringWriter$instance & __StringWriter$views;
 
@@ -1450,8 +1412,8 @@ export class UnmanagedMemoryStream$instance extends Stream$instance {
     readonly length: long;
     position: long;
     positionPointer: ptr<byte>;
-    Dispose(): void;
-    DisposeAsync(): ValueTask;
+    dispose(): void;
+    disposeAsync(): ValueTask;
     flush(): void;
     flushAsync(cancellationToken: CancellationToken): Task;
     flushAsync(): Task;
@@ -1482,47 +1444,45 @@ export interface __UnmanagedMemoryStream$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
 
-export interface UnmanagedMemoryStream$instance extends System_Internal.IAsyncDisposable$instance, System_Internal.IDisposable$instance {}
-
 export type UnmanagedMemoryStream = UnmanagedMemoryStream$instance & __UnmanagedMemoryStream$views;
 
 
 export abstract class Directory$instance {
-    static createDirectory(path: string, unixCreateMode: UnixFileMode): DirectoryInfo;
-    static createDirectory(path: string): DirectoryInfo;
+    static createDirectory2(path: string, unixCreateMode: UnixFileMode): DirectoryInfo;
+    static createDirectory2(path: string): DirectoryInfo;
     static createSymbolicLink(path: string, pathToTarget: string): FileSystemInfo;
     static createTempSubdirectory(prefix?: string): DirectoryInfo;
-    static delete(path: string, recursive: boolean): void;
-    static delete(path: string): void;
-    static enumerateDirectories(path: string, searchPattern: string, enumerationOptions: EnumerationOptions): IEnumerable_1<CLROf<string>>;
-    static enumerateDirectories(path: string, searchPattern: string, searchOption: SearchOption): IEnumerable_1<CLROf<string>>;
-    static enumerateDirectories(path: string, searchPattern: string): IEnumerable_1<CLROf<string>>;
-    static enumerateDirectories(path: string): IEnumerable_1<CLROf<string>>;
-    static enumerateFiles(path: string, searchPattern: string, enumerationOptions: EnumerationOptions): IEnumerable_1<CLROf<string>>;
-    static enumerateFiles(path: string, searchPattern: string, searchOption: SearchOption): IEnumerable_1<CLROf<string>>;
-    static enumerateFiles(path: string, searchPattern: string): IEnumerable_1<CLROf<string>>;
-    static enumerateFiles(path: string): IEnumerable_1<CLROf<string>>;
-    static enumerateFileSystemEntries(path: string, searchPattern: string, enumerationOptions: EnumerationOptions): IEnumerable_1<CLROf<string>>;
-    static enumerateFileSystemEntries(path: string, searchPattern: string, searchOption: SearchOption): IEnumerable_1<CLROf<string>>;
-    static enumerateFileSystemEntries(path: string, searchPattern: string): IEnumerable_1<CLROf<string>>;
-    static enumerateFileSystemEntries(path: string): IEnumerable_1<CLROf<string>>;
+    static delete_2(path: string, recursive: boolean): void;
+    static delete_2(path: string): void;
+    static enumerateDirectories4(path: string, searchPattern: string, enumerationOptions: EnumerationOptions): IEnumerable_1<CLROf<string>>;
+    static enumerateDirectories4(path: string, searchPattern: string, searchOption: SearchOption): IEnumerable_1<CLROf<string>>;
+    static enumerateDirectories4(path: string, searchPattern: string): IEnumerable_1<CLROf<string>>;
+    static enumerateDirectories4(path: string): IEnumerable_1<CLROf<string>>;
+    static enumerateFiles4(path: string, searchPattern: string, enumerationOptions: EnumerationOptions): IEnumerable_1<CLROf<string>>;
+    static enumerateFiles4(path: string, searchPattern: string, searchOption: SearchOption): IEnumerable_1<CLROf<string>>;
+    static enumerateFiles4(path: string, searchPattern: string): IEnumerable_1<CLROf<string>>;
+    static enumerateFiles4(path: string): IEnumerable_1<CLROf<string>>;
+    static enumerateFileSystemEntries4(path: string, searchPattern: string, enumerationOptions: EnumerationOptions): IEnumerable_1<CLROf<string>>;
+    static enumerateFileSystemEntries4(path: string, searchPattern: string, searchOption: SearchOption): IEnumerable_1<CLROf<string>>;
+    static enumerateFileSystemEntries4(path: string, searchPattern: string): IEnumerable_1<CLROf<string>>;
+    static enumerateFileSystemEntries4(path: string): IEnumerable_1<CLROf<string>>;
     static exists(path: string): boolean;
     static getCreationTime(path: string): DateTime;
     static getCreationTimeUtc(path: string): DateTime;
     static getCurrentDirectory(): string;
-    static getDirectories(path: string, searchPattern: string, enumerationOptions: EnumerationOptions): string[];
-    static getDirectories(path: string, searchPattern: string, searchOption: SearchOption): string[];
-    static getDirectories(path: string, searchPattern: string): string[];
-    static getDirectories(path: string): string[];
+    static getDirectories4(path: string, searchPattern: string, enumerationOptions: EnumerationOptions): string[];
+    static getDirectories4(path: string, searchPattern: string, searchOption: SearchOption): string[];
+    static getDirectories4(path: string, searchPattern: string): string[];
+    static getDirectories4(path: string): string[];
     static getDirectoryRoot(path: string): string;
-    static getFiles(path: string, searchPattern: string, enumerationOptions: EnumerationOptions): string[];
-    static getFiles(path: string, searchPattern: string, searchOption: SearchOption): string[];
-    static getFiles(path: string, searchPattern: string): string[];
-    static getFiles(path: string): string[];
-    static getFileSystemEntries(path: string, searchPattern: string, enumerationOptions: EnumerationOptions): string[];
-    static getFileSystemEntries(path: string, searchPattern: string, searchOption: SearchOption): string[];
-    static getFileSystemEntries(path: string, searchPattern: string): string[];
-    static getFileSystemEntries(path: string): string[];
+    static getFiles4(path: string, searchPattern: string, enumerationOptions: EnumerationOptions): string[];
+    static getFiles4(path: string, searchPattern: string, searchOption: SearchOption): string[];
+    static getFiles4(path: string, searchPattern: string): string[];
+    static getFiles4(path: string): string[];
+    static getFileSystemEntries4(path: string, searchPattern: string, enumerationOptions: EnumerationOptions): string[];
+    static getFileSystemEntries4(path: string, searchPattern: string, searchOption: SearchOption): string[];
+    static getFileSystemEntries4(path: string, searchPattern: string): string[];
+    static getFileSystemEntries4(path: string): string[];
     static getLastAccessTime(path: string): DateTime;
     static getLastAccessTimeUtc(path: string): DateTime;
     static getLastWriteTime(path: string): DateTime;
@@ -1548,107 +1508,107 @@ export abstract class File$instance {
     static appendAllBytes(path: string, bytes: ReadOnlySpan_1<CLROf<byte>>): void;
     static appendAllBytesAsync(path: string, bytes: byte[], cancellationToken?: CancellationToken): Task;
     static appendAllBytesAsync(path: string, bytes: ReadOnlyMemory_1<CLROf<byte>>, cancellationToken?: CancellationToken): Task;
-    static appendAllLines(path: string, contents: IEnumerable_1<CLROf<string>>, encoding: Encoding): void;
-    static appendAllLines(path: string, contents: IEnumerable_1<CLROf<string>>): void;
-    static appendAllLinesAsync(path: string, contents: IEnumerable_1<CLROf<string>>, encoding: Encoding, cancellationToken?: CancellationToken): Task;
-    static appendAllLinesAsync(path: string, contents: IEnumerable_1<CLROf<string>>, cancellationToken?: CancellationToken): Task;
-    static appendAllText(path: string, contents: ReadOnlySpan_1<CLROf<char>>, encoding: Encoding): void;
-    static appendAllText(path: string, contents: ReadOnlySpan_1<CLROf<char>>): void;
-    static appendAllText(path: string, contents: string, encoding: Encoding): void;
-    static appendAllText(path: string, contents: string): void;
-    static appendAllTextAsync(path: string, contents: ReadOnlyMemory_1<CLROf<char>>, encoding: Encoding, cancellationToken?: CancellationToken): Task;
-    static appendAllTextAsync(path: string, contents: ReadOnlyMemory_1<CLROf<char>>, cancellationToken?: CancellationToken): Task;
-    static appendAllTextAsync(path: string, contents: string, encoding: Encoding, cancellationToken?: CancellationToken): Task;
-    static appendAllTextAsync(path: string, contents: string, cancellationToken?: CancellationToken): Task;
+    static appendAllLines2(path: string, contents: IEnumerable_1<CLROf<string>>, encoding: Encoding): void;
+    static appendAllLines2(path: string, contents: IEnumerable_1<CLROf<string>>): void;
+    static appendAllLinesAsync2(path: string, contents: IEnumerable_1<CLROf<string>>, encoding: Encoding, cancellationToken?: CancellationToken): Task;
+    static appendAllLinesAsync2(path: string, contents: IEnumerable_1<CLROf<string>>, cancellationToken?: CancellationToken): Task;
+    static appendAllText4(path: string, contents: ReadOnlySpan_1<CLROf<char>>, encoding: Encoding): void;
+    static appendAllText4(path: string, contents: ReadOnlySpan_1<CLROf<char>>): void;
+    static appendAllText4(path: string, contents: string, encoding: Encoding): void;
+    static appendAllText4(path: string, contents: string): void;
+    static appendAllTextAsync4(path: string, contents: ReadOnlyMemory_1<CLROf<char>>, encoding: Encoding, cancellationToken?: CancellationToken): Task;
+    static appendAllTextAsync4(path: string, contents: ReadOnlyMemory_1<CLROf<char>>, cancellationToken?: CancellationToken): Task;
+    static appendAllTextAsync4(path: string, contents: string, encoding: Encoding, cancellationToken?: CancellationToken): Task;
+    static appendAllTextAsync4(path: string, contents: string, cancellationToken?: CancellationToken): Task;
     static appendText(path: string): StreamWriter;
-    static copy(sourceFileName: string, destFileName: string, overwrite: boolean): void;
-    static copy(sourceFileName: string, destFileName: string): void;
-    static create(path: string, bufferSize: int, options: FileOptions): FileStream;
-    static create(path: string, bufferSize: int): FileStream;
-    static create(path: string): FileStream;
+    static copy2(sourceFileName: string, destFileName: string, overwrite: boolean): void;
+    static copy2(sourceFileName: string, destFileName: string): void;
+    static create3(path: string, bufferSize: int, options: FileOptions): FileStream;
+    static create3(path: string, bufferSize: int): FileStream;
+    static create3(path: string): FileStream;
     static createSymbolicLink(path: string, pathToTarget: string): FileSystemInfo;
     static createText(path: string): StreamWriter;
     static decrypt(path: string): void;
-    static delete(path: string): void;
+    static delete_(path: string): void;
     static encrypt(path: string): void;
     static exists(path: string): boolean;
-    static getAttributes(fileHandle: SafeFileHandle): FileAttributes;
-    static getAttributes(path: string): FileAttributes;
-    static getCreationTime(fileHandle: SafeFileHandle): DateTime;
-    static getCreationTime(path: string): DateTime;
-    static getCreationTimeUtc(fileHandle: SafeFileHandle): DateTime;
-    static getCreationTimeUtc(path: string): DateTime;
-    static getLastAccessTime(fileHandle: SafeFileHandle): DateTime;
-    static getLastAccessTime(path: string): DateTime;
-    static getLastAccessTimeUtc(fileHandle: SafeFileHandle): DateTime;
-    static getLastAccessTimeUtc(path: string): DateTime;
-    static getLastWriteTime(fileHandle: SafeFileHandle): DateTime;
-    static getLastWriteTime(path: string): DateTime;
-    static getLastWriteTimeUtc(fileHandle: SafeFileHandle): DateTime;
-    static getLastWriteTimeUtc(path: string): DateTime;
-    static getUnixFileMode(fileHandle: SafeFileHandle): UnixFileMode;
-    static getUnixFileMode(path: string): UnixFileMode;
-    static move(sourceFileName: string, destFileName: string, overwrite: boolean): void;
-    static move(sourceFileName: string, destFileName: string): void;
-    static open(path: string, mode: FileMode, access: FileAccess, share: FileShare): FileStream;
-    static open(path: string, mode: FileMode, access: FileAccess): FileStream;
-    static open(path: string, mode: FileMode): FileStream;
-    static open(path: string, options: FileStreamOptions): FileStream;
+    static getAttributes2(fileHandle: SafeFileHandle): FileAttributes;
+    static getAttributes2(path: string): FileAttributes;
+    static getCreationTime2(fileHandle: SafeFileHandle): DateTime;
+    static getCreationTime2(path: string): DateTime;
+    static getCreationTimeUtc2(fileHandle: SafeFileHandle): DateTime;
+    static getCreationTimeUtc2(path: string): DateTime;
+    static getLastAccessTime2(fileHandle: SafeFileHandle): DateTime;
+    static getLastAccessTime2(path: string): DateTime;
+    static getLastAccessTimeUtc2(fileHandle: SafeFileHandle): DateTime;
+    static getLastAccessTimeUtc2(path: string): DateTime;
+    static getLastWriteTime2(fileHandle: SafeFileHandle): DateTime;
+    static getLastWriteTime2(path: string): DateTime;
+    static getLastWriteTimeUtc2(fileHandle: SafeFileHandle): DateTime;
+    static getLastWriteTimeUtc2(path: string): DateTime;
+    static getUnixFileMode2(fileHandle: SafeFileHandle): UnixFileMode;
+    static getUnixFileMode2(path: string): UnixFileMode;
+    static move2(sourceFileName: string, destFileName: string, overwrite: boolean): void;
+    static move2(sourceFileName: string, destFileName: string): void;
+    static open4(path: string, mode: FileMode, access: FileAccess, share: FileShare): FileStream;
+    static open4(path: string, mode: FileMode, access: FileAccess): FileStream;
+    static open4(path: string, mode: FileMode): FileStream;
+    static open4(path: string, options: FileStreamOptions): FileStream;
     static openHandle(path: string, mode?: FileMode, access?: FileAccess, share?: FileShare, options?: FileOptions, preallocationSize?: long): SafeFileHandle;
     static openRead(path: string): FileStream;
     static openText(path: string): StreamReader;
     static openWrite(path: string): FileStream;
     static readAllBytes(path: string): byte[];
     static readAllBytesAsync(path: string, cancellationToken?: CancellationToken): Task_1<byte[]>;
-    static readAllLines(path: string, encoding: Encoding): string[];
-    static readAllLines(path: string): string[];
-    static readAllLinesAsync(path: string, encoding: Encoding, cancellationToken?: CancellationToken): Task_1<string[]>;
-    static readAllLinesAsync(path: string, cancellationToken?: CancellationToken): Task_1<string[]>;
-    static readAllText(path: string, encoding: Encoding): string;
-    static readAllText(path: string): string;
-    static readAllTextAsync(path: string, encoding: Encoding, cancellationToken?: CancellationToken): Task_1<CLROf<string>>;
-    static readAllTextAsync(path: string, cancellationToken?: CancellationToken): Task_1<CLROf<string>>;
-    static readLines(path: string, encoding: Encoding): IEnumerable_1<CLROf<string>>;
-    static readLines(path: string): IEnumerable_1<CLROf<string>>;
-    static readLinesAsync(path: string, encoding: Encoding, cancellationToken?: CancellationToken): IAsyncEnumerable_1<CLROf<string>>;
-    static readLinesAsync(path: string, cancellationToken?: CancellationToken): IAsyncEnumerable_1<CLROf<string>>;
-    static replace(sourceFileName: string, destinationFileName: string, destinationBackupFileName: string, ignoreMetadataErrors: boolean): void;
-    static replace(sourceFileName: string, destinationFileName: string, destinationBackupFileName: string): void;
+    static readAllLines2(path: string, encoding: Encoding): string[];
+    static readAllLines2(path: string): string[];
+    static readAllLinesAsync2(path: string, encoding: Encoding, cancellationToken?: CancellationToken): Task_1<string[]>;
+    static readAllLinesAsync2(path: string, cancellationToken?: CancellationToken): Task_1<string[]>;
+    static readAllText2(path: string, encoding: Encoding): string;
+    static readAllText2(path: string): string;
+    static readAllTextAsync2(path: string, encoding: Encoding, cancellationToken?: CancellationToken): Task_1<CLROf<string>>;
+    static readAllTextAsync2(path: string, cancellationToken?: CancellationToken): Task_1<CLROf<string>>;
+    static readLines2(path: string, encoding: Encoding): IEnumerable_1<CLROf<string>>;
+    static readLines2(path: string): IEnumerable_1<CLROf<string>>;
+    static readLinesAsync2(path: string, encoding: Encoding, cancellationToken?: CancellationToken): IAsyncEnumerable_1<CLROf<string>>;
+    static readLinesAsync2(path: string, cancellationToken?: CancellationToken): IAsyncEnumerable_1<CLROf<string>>;
+    static replace2(sourceFileName: string, destinationFileName: string, destinationBackupFileName: string, ignoreMetadataErrors: boolean): void;
+    static replace2(sourceFileName: string, destinationFileName: string, destinationBackupFileName: string): void;
     static resolveLinkTarget(linkPath: string, returnFinalTarget: boolean): FileSystemInfo;
-    static setAttributes(fileHandle: SafeFileHandle, fileAttributes: FileAttributes): void;
-    static setAttributes(path: string, fileAttributes: FileAttributes): void;
-    static setCreationTime(fileHandle: SafeFileHandle, creationTime: DateTime): void;
-    static setCreationTime(path: string, creationTime: DateTime): void;
-    static setCreationTimeUtc(fileHandle: SafeFileHandle, creationTimeUtc: DateTime): void;
-    static setCreationTimeUtc(path: string, creationTimeUtc: DateTime): void;
-    static setLastAccessTime(fileHandle: SafeFileHandle, lastAccessTime: DateTime): void;
-    static setLastAccessTime(path: string, lastAccessTime: DateTime): void;
-    static setLastAccessTimeUtc(fileHandle: SafeFileHandle, lastAccessTimeUtc: DateTime): void;
-    static setLastAccessTimeUtc(path: string, lastAccessTimeUtc: DateTime): void;
-    static setLastWriteTime(fileHandle: SafeFileHandle, lastWriteTime: DateTime): void;
-    static setLastWriteTime(path: string, lastWriteTime: DateTime): void;
-    static setLastWriteTimeUtc(fileHandle: SafeFileHandle, lastWriteTimeUtc: DateTime): void;
-    static setLastWriteTimeUtc(path: string, lastWriteTimeUtc: DateTime): void;
-    static setUnixFileMode(fileHandle: SafeFileHandle, mode: UnixFileMode): void;
-    static setUnixFileMode(path: string, mode: UnixFileMode): void;
+    static setAttributes2(fileHandle: SafeFileHandle, fileAttributes: FileAttributes): void;
+    static setAttributes2(path: string, fileAttributes: FileAttributes): void;
+    static setCreationTime2(fileHandle: SafeFileHandle, creationTime: DateTime): void;
+    static setCreationTime2(path: string, creationTime: DateTime): void;
+    static setCreationTimeUtc2(fileHandle: SafeFileHandle, creationTimeUtc: DateTime): void;
+    static setCreationTimeUtc2(path: string, creationTimeUtc: DateTime): void;
+    static setLastAccessTime2(fileHandle: SafeFileHandle, lastAccessTime: DateTime): void;
+    static setLastAccessTime2(path: string, lastAccessTime: DateTime): void;
+    static setLastAccessTimeUtc2(fileHandle: SafeFileHandle, lastAccessTimeUtc: DateTime): void;
+    static setLastAccessTimeUtc2(path: string, lastAccessTimeUtc: DateTime): void;
+    static setLastWriteTime2(fileHandle: SafeFileHandle, lastWriteTime: DateTime): void;
+    static setLastWriteTime2(path: string, lastWriteTime: DateTime): void;
+    static setLastWriteTimeUtc2(fileHandle: SafeFileHandle, lastWriteTimeUtc: DateTime): void;
+    static setLastWriteTimeUtc2(path: string, lastWriteTimeUtc: DateTime): void;
+    static setUnixFileMode2(fileHandle: SafeFileHandle, mode: UnixFileMode): void;
+    static setUnixFileMode2(path: string, mode: UnixFileMode): void;
     static writeAllBytes(path: string, bytes: byte[]): void;
     static writeAllBytes(path: string, bytes: ReadOnlySpan_1<CLROf<byte>>): void;
     static writeAllBytesAsync(path: string, bytes: byte[], cancellationToken?: CancellationToken): Task;
     static writeAllBytesAsync(path: string, bytes: ReadOnlyMemory_1<CLROf<byte>>, cancellationToken?: CancellationToken): Task;
-    static writeAllLines(path: string, contents: IEnumerable_1<CLROf<string>>, encoding: Encoding): void;
-    static writeAllLines(path: string, contents: IEnumerable_1<CLROf<string>>): void;
-    static writeAllLines(path: string, contents: string[], encoding: Encoding): void;
-    static writeAllLines(path: string, contents: string[]): void;
-    static writeAllLinesAsync(path: string, contents: IEnumerable_1<CLROf<string>>, encoding: Encoding, cancellationToken?: CancellationToken): Task;
-    static writeAllLinesAsync(path: string, contents: IEnumerable_1<CLROf<string>>, cancellationToken?: CancellationToken): Task;
-    static writeAllText(path: string, contents: ReadOnlySpan_1<CLROf<char>>, encoding: Encoding): void;
-    static writeAllText(path: string, contents: ReadOnlySpan_1<CLROf<char>>): void;
-    static writeAllText(path: string, contents: string, encoding: Encoding): void;
-    static writeAllText(path: string, contents: string): void;
-    static writeAllTextAsync(path: string, contents: ReadOnlyMemory_1<CLROf<char>>, encoding: Encoding, cancellationToken?: CancellationToken): Task;
-    static writeAllTextAsync(path: string, contents: ReadOnlyMemory_1<CLROf<char>>, cancellationToken?: CancellationToken): Task;
-    static writeAllTextAsync(path: string, contents: string, encoding: Encoding, cancellationToken?: CancellationToken): Task;
-    static writeAllTextAsync(path: string, contents: string, cancellationToken?: CancellationToken): Task;
+    static writeAllLines4(path: string, contents: IEnumerable_1<CLROf<string>>, encoding: Encoding): void;
+    static writeAllLines4(path: string, contents: IEnumerable_1<CLROf<string>>): void;
+    static writeAllLines4(path: string, contents: string[], encoding: Encoding): void;
+    static writeAllLines4(path: string, contents: string[]): void;
+    static writeAllLinesAsync2(path: string, contents: IEnumerable_1<CLROf<string>>, encoding: Encoding, cancellationToken?: CancellationToken): Task;
+    static writeAllLinesAsync2(path: string, contents: IEnumerable_1<CLROf<string>>, cancellationToken?: CancellationToken): Task;
+    static writeAllText4(path: string, contents: ReadOnlySpan_1<CLROf<char>>, encoding: Encoding): void;
+    static writeAllText4(path: string, contents: ReadOnlySpan_1<CLROf<char>>): void;
+    static writeAllText4(path: string, contents: string, encoding: Encoding): void;
+    static writeAllText4(path: string, contents: string): void;
+    static writeAllTextAsync4(path: string, contents: ReadOnlyMemory_1<CLROf<char>>, encoding: Encoding, cancellationToken?: CancellationToken): Task;
+    static writeAllTextAsync4(path: string, contents: ReadOnlyMemory_1<CLROf<char>>, cancellationToken?: CancellationToken): Task;
+    static writeAllTextAsync4(path: string, contents: string, encoding: Encoding, cancellationToken?: CancellationToken): Task;
+    static writeAllTextAsync4(path: string, contents: string, cancellationToken?: CancellationToken): Task;
 }
 
 
@@ -1658,11 +1618,11 @@ export abstract class FileSystemAclExtensions$instance {
     static create(directoryInfo: DirectoryInfo, directorySecurity: DirectorySecurity): void;
     static create(fileInfo: FileInfo, mode: FileMode, rights: FileSystemRights, share: FileShare, bufferSize: int, options: FileOptions, fileSecurity: FileSecurity): FileStream;
     static createDirectory(directorySecurity: DirectorySecurity, path: string): DirectoryInfo;
-    static getAccessControl(directoryInfo: DirectoryInfo, includeSections: AccessControlSections): DirectorySecurity;
-    static getAccessControl(directoryInfo: DirectoryInfo): DirectorySecurity;
-    static getAccessControl(fileInfo: FileInfo, includeSections: AccessControlSections): FileSecurity;
-    static getAccessControl(fileInfo: FileInfo): FileSecurity;
-    static getAccessControl(fileStream: FileStream): FileSecurity;
+    static getAccessControl2(directoryInfo: DirectoryInfo, includeSections: AccessControlSections): DirectorySecurity;
+    static getAccessControl2(directoryInfo: DirectoryInfo): DirectorySecurity;
+    static getAccessControl2(fileInfo: FileInfo, includeSections: AccessControlSections): FileSecurity;
+    static getAccessControl2(fileInfo: FileInfo): FileSecurity;
+    static getAccessControl2(fileStream: FileStream): FileSecurity;
     static setAccessControl(directoryInfo: DirectoryInfo, directorySecurity: DirectorySecurity): void;
     static setAccessControl(fileInfo: FileInfo, fileSecurity: FileSecurity): void;
     static setAccessControl(fileStream: FileStream, fileSecurity: FileSecurity): void;
@@ -1678,50 +1638,50 @@ export abstract class Path$instance {
     static readonly pathSeparator: char;
     static readonly invalidPathChars: char[];
     static changeExtension(path: string, extension: string): string;
-    static combine(paths: ReadOnlySpan_1<CLROf<string>>): string;
-    static combine(path1: string, path2: string, path3: string, path4: string): string;
-    static combine(path1: string, path2: string, path3: string): string;
-    static combine(path1: string, path2: string): string;
-    static combine(paths: string[]): string;
+    static combine5(paths: ReadOnlySpan_1<CLROf<string>>): string;
+    static combine5(path1: string, path2: string, path3: string, path4: string): string;
+    static combine5(path1: string, path2: string, path3: string): string;
+    static combine5(path1: string, path2: string): string;
+    static combine5(paths: string[]): string;
     static endsInDirectorySeparator(path: ReadOnlySpan_1<CLROf<char>>): boolean;
     static endsInDirectorySeparator(path: string): boolean;
     static exists(path: string): boolean;
-    static getDirectoryName(path: ReadOnlySpan_1<CLROf<char>>): ReadOnlySpan_1<CLROf<char>>;
-    static getDirectoryName(path: string): string;
-    static getExtension(path: ReadOnlySpan_1<CLROf<char>>): ReadOnlySpan_1<CLROf<char>>;
-    static getExtension(path: string): string;
-    static getFileName(path: ReadOnlySpan_1<CLROf<char>>): ReadOnlySpan_1<CLROf<char>>;
-    static getFileName(path: string): string;
-    static getFileNameWithoutExtension(path: ReadOnlySpan_1<CLROf<char>>): ReadOnlySpan_1<CLROf<char>>;
-    static getFileNameWithoutExtension(path: string): string;
-    static getFullPath(path: string, basePath: string): string;
-    static getFullPath(path: string): string;
+    static getDirectoryName2(path: ReadOnlySpan_1<CLROf<char>>): ReadOnlySpan_1<CLROf<char>>;
+    static getDirectoryName2(path: string): string;
+    static getExtension2(path: ReadOnlySpan_1<CLROf<char>>): ReadOnlySpan_1<CLROf<char>>;
+    static getExtension2(path: string): string;
+    static getFileName2(path: ReadOnlySpan_1<CLROf<char>>): ReadOnlySpan_1<CLROf<char>>;
+    static getFileName2(path: string): string;
+    static getFileNameWithoutExtension2(path: ReadOnlySpan_1<CLROf<char>>): ReadOnlySpan_1<CLROf<char>>;
+    static getFileNameWithoutExtension2(path: string): string;
+    static getFullPath2(path: string, basePath: string): string;
+    static getFullPath2(path: string): string;
     static getInvalidFileNameChars(): char[];
     static getInvalidPathChars(): char[];
-    static getPathRoot(path: ReadOnlySpan_1<CLROf<char>>): ReadOnlySpan_1<CLROf<char>>;
-    static getPathRoot(path: string): string;
+    static getPathRoot2(path: ReadOnlySpan_1<CLROf<char>>): ReadOnlySpan_1<CLROf<char>>;
+    static getPathRoot2(path: string): string;
     static getRandomFileName(): string;
     static getRelativePath(relativeTo: string, path: string): string;
     static getTempFileName(): string;
     static getTempPath(): string;
-    static hasExtension(path: ReadOnlySpan_1<CLROf<char>>): boolean;
-    static hasExtension(path: string): boolean;
-    static isPathFullyQualified(path: ReadOnlySpan_1<CLROf<char>>): boolean;
-    static isPathFullyQualified(path: string): boolean;
-    static isPathRooted(path: ReadOnlySpan_1<CLROf<char>>): boolean;
-    static isPathRooted(path: string): boolean;
-    static join(path1: ReadOnlySpan_1<CLROf<char>>, path2: ReadOnlySpan_1<CLROf<char>>, path3: ReadOnlySpan_1<CLROf<char>>, path4: ReadOnlySpan_1<CLROf<char>>): string;
-    static join(path1: ReadOnlySpan_1<CLROf<char>>, path2: ReadOnlySpan_1<CLROf<char>>, path3: ReadOnlySpan_1<CLROf<char>>): string;
-    static join(path1: ReadOnlySpan_1<CLROf<char>>, path2: ReadOnlySpan_1<CLROf<char>>): string;
-    static join(paths: ReadOnlySpan_1<CLROf<string>>): string;
-    static join(path1: string, path2: string, path3: string, path4: string): string;
-    static join(path1: string, path2: string, path3: string): string;
-    static join(path1: string, path2: string): string;
-    static join(paths: string[]): string;
-    static trimEndingDirectorySeparator(path: ReadOnlySpan_1<CLROf<char>>): ReadOnlySpan_1<CLROf<char>>;
-    static trimEndingDirectorySeparator(path: string): string;
-    static tryJoin(path1: ReadOnlySpan_1<CLROf<char>>, path2: ReadOnlySpan_1<CLROf<char>>, path3: ReadOnlySpan_1<CLROf<char>>, destination: Span_1<CLROf<char>>, charsWritten: { value: ref<int> }): boolean;
-    static tryJoin(path1: ReadOnlySpan_1<CLROf<char>>, path2: ReadOnlySpan_1<CLROf<char>>, destination: Span_1<CLROf<char>>, charsWritten: { value: ref<int> }): boolean;
+    static hasExtension2(path: ReadOnlySpan_1<CLROf<char>>): boolean;
+    static hasExtension2(path: string): boolean;
+    static isPathFullyQualified2(path: ReadOnlySpan_1<CLROf<char>>): boolean;
+    static isPathFullyQualified2(path: string): boolean;
+    static isPathRooted2(path: ReadOnlySpan_1<CLROf<char>>): boolean;
+    static isPathRooted2(path: string): boolean;
+    static join3(path1: ReadOnlySpan_1<CLROf<char>>, path2: ReadOnlySpan_1<CLROf<char>>, path3: ReadOnlySpan_1<CLROf<char>>, path4: ReadOnlySpan_1<CLROf<char>>): string;
+    static join3(path1: ReadOnlySpan_1<CLROf<char>>, path2: ReadOnlySpan_1<CLROf<char>>, path3: ReadOnlySpan_1<CLROf<char>>): string;
+    static join3(path1: ReadOnlySpan_1<CLROf<char>>, path2: ReadOnlySpan_1<CLROf<char>>): string;
+    static join3(paths: ReadOnlySpan_1<CLROf<string>>): string;
+    static join3(path1: string, path2: string, path3: string, path4: string): string;
+    static join3(path1: string, path2: string, path3: string): string;
+    static join3(path1: string, path2: string): string;
+    static join3(paths: string[]): string;
+    static trimEndingDirectorySeparator2(path: ReadOnlySpan_1<CLROf<char>>): ReadOnlySpan_1<CLROf<char>>;
+    static trimEndingDirectorySeparator2(path: string): string;
+    static tryJoin2(path1: ReadOnlySpan_1<CLROf<char>>, path2: ReadOnlySpan_1<CLROf<char>>, path3: ReadOnlySpan_1<CLROf<char>>, destination: Span_1<CLROf<char>>, charsWritten: { value: ref<int> }): boolean;
+    static tryJoin2(path1: ReadOnlySpan_1<CLROf<char>>, path2: ReadOnlySpan_1<CLROf<char>>, destination: Span_1<CLROf<char>>, charsWritten: { value: ref<int> }): boolean;
 }
 
 
@@ -1730,15 +1690,15 @@ export type Path = Path$instance;
 export abstract class RandomAccess$instance {
     static flushToDisk(handle: SafeFileHandle): void;
     static getLength(handle: SafeFileHandle): long;
-    static read(handle: SafeFileHandle, buffers: IReadOnlyList_1<Memory_1<CLROf<byte>>>, fileOffset: long): long;
-    static read(handle: SafeFileHandle, buffer: Span_1<CLROf<byte>>, fileOffset: long): int;
-    static readAsync(handle: SafeFileHandle, buffers: IReadOnlyList_1<Memory_1<CLROf<byte>>>, fileOffset: long, cancellationToken?: CancellationToken): ValueTask_1<CLROf<long>>;
-    static readAsync(handle: SafeFileHandle, buffer: Memory_1<CLROf<byte>>, fileOffset: long, cancellationToken?: CancellationToken): ValueTask_1<CLROf<int>>;
+    static read2(handle: SafeFileHandle, buffers: IReadOnlyList_1<Memory_1<CLROf<byte>>>, fileOffset: long): long;
+    static read2(handle: SafeFileHandle, buffer: Span_1<CLROf<byte>>, fileOffset: long): int;
+    static readAsync2(handle: SafeFileHandle, buffers: IReadOnlyList_1<Memory_1<CLROf<byte>>>, fileOffset: long, cancellationToken?: CancellationToken): ValueTask_1<CLROf<long>>;
+    static readAsync2(handle: SafeFileHandle, buffer: Memory_1<CLROf<byte>>, fileOffset: long, cancellationToken?: CancellationToken): ValueTask_1<CLROf<int>>;
     static setLength(handle: SafeFileHandle, length: long): void;
-    static write(handle: SafeFileHandle, buffers: IReadOnlyList_1<ReadOnlyMemory_1<CLROf<byte>>>, fileOffset: long): void;
-    static write(handle: SafeFileHandle, buffer: ReadOnlySpan_1<CLROf<byte>>, fileOffset: long): void;
-    static writeAsync(handle: SafeFileHandle, buffers: IReadOnlyList_1<ReadOnlyMemory_1<CLROf<byte>>>, fileOffset: long, cancellationToken?: CancellationToken): ValueTask;
-    static writeAsync(handle: SafeFileHandle, buffer: ReadOnlyMemory_1<CLROf<byte>>, fileOffset: long, cancellationToken?: CancellationToken): ValueTask;
+    static write2(handle: SafeFileHandle, buffers: IReadOnlyList_1<ReadOnlyMemory_1<CLROf<byte>>>, fileOffset: long): void;
+    static write2(handle: SafeFileHandle, buffer: ReadOnlySpan_1<CLROf<byte>>, fileOffset: long): void;
+    static writeAsync2(handle: SafeFileHandle, buffers: IReadOnlyList_1<ReadOnlyMemory_1<CLROf<byte>>>, fileOffset: long, cancellationToken?: CancellationToken): ValueTask;
+    static writeAsync2(handle: SafeFileHandle, buffer: ReadOnlyMemory_1<CLROf<byte>>, fileOffset: long, cancellationToken?: CancellationToken): ValueTask;
 }
 
 

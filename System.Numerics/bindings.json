@@ -16746,7 +16746,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Numerics.Matrix3x2::get_Item(System.Int32):System.Numerics.Vector2",
           "clrName": "get_Item",
-          "tsEmitName": "get_Item",
+          "tsEmitName": "getItem",
           "metadataToken": 0,
           "canonicalSignature": "(System.Int32):System.Numerics.Vector2",
           "normalizedSignature": "get_Item|(System.Int32):System.Numerics.Vector2|static=false",
@@ -16760,7 +16760,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Numerics.Matrix3x2::set_Item(System.Int32,System.Numerics.Vector2):System.Void",
           "clrName": "set_Item",
-          "tsEmitName": "set_Item",
+          "tsEmitName": "setItem",
           "metadataToken": 0,
           "canonicalSignature": "(System.Int32,System.Numerics.Vector2):System.Void",
           "normalizedSignature": "set_Item|(System.Int32,System.Numerics.Vector2):System.Void|static=false",
@@ -16774,7 +16774,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Numerics.Matrix3x2::get_Item(System.Int32,System.Int32):System.Single",
           "clrName": "get_Item",
-          "tsEmitName": "get_Item2",
+          "tsEmitName": "getItem2",
           "metadataToken": 0,
           "canonicalSignature": "(System.Int32,System.Int32):System.Single",
           "normalizedSignature": "get_Item|(System.Int32,System.Int32):System.Single|static=false",
@@ -16788,7 +16788,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Numerics.Matrix3x2::set_Item(System.Int32,System.Int32,System.Single):System.Void",
           "clrName": "set_Item",
-          "tsEmitName": "set_Item2",
+          "tsEmitName": "setItem2",
           "metadataToken": 0,
           "canonicalSignature": "(System.Int32,System.Int32,System.Single):System.Void",
           "normalizedSignature": "set_Item|(System.Int32,System.Int32,System.Single):System.Void|static=false",
@@ -17299,7 +17299,7 @@
           }
         },
         {
-          "tsName": "get_Item",
+          "tsName": "getItem",
           "isStatic": false,
           "tsSignatureId": "get_Item|(System.Int32):System.Numerics.Vector2|static=false",
           "target": {
@@ -17309,7 +17309,7 @@
           }
         },
         {
-          "tsName": "set_Item",
+          "tsName": "setItem",
           "isStatic": false,
           "tsSignatureId": "set_Item|(System.Int32,System.Numerics.Vector2):System.Void|static=false",
           "target": {
@@ -17319,7 +17319,7 @@
           }
         },
         {
-          "tsName": "get_Item2",
+          "tsName": "getItem2",
           "isStatic": false,
           "tsSignatureId": "get_Item|(System.Int32,System.Int32):System.Single|static=false",
           "target": {
@@ -17329,7 +17329,7 @@
           }
         },
         {
-          "tsName": "set_Item2",
+          "tsName": "setItem2",
           "isStatic": false,
           "tsSignatureId": "set_Item|(System.Int32,System.Int32,System.Single):System.Void|static=false",
           "target": {
@@ -18425,7 +18425,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Numerics.Matrix4x4::get_Item(System.Int32):System.Numerics.Vector4",
           "clrName": "get_Item",
-          "tsEmitName": "get_Item",
+          "tsEmitName": "getItem",
           "metadataToken": 0,
           "canonicalSignature": "(System.Int32):System.Numerics.Vector4",
           "normalizedSignature": "get_Item|(System.Int32):System.Numerics.Vector4|static=false",
@@ -18439,7 +18439,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Numerics.Matrix4x4::set_Item(System.Int32,System.Numerics.Vector4):System.Void",
           "clrName": "set_Item",
-          "tsEmitName": "set_Item",
+          "tsEmitName": "setItem",
           "metadataToken": 0,
           "canonicalSignature": "(System.Int32,System.Numerics.Vector4):System.Void",
           "normalizedSignature": "set_Item|(System.Int32,System.Numerics.Vector4):System.Void|static=false",
@@ -18453,7 +18453,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Numerics.Matrix4x4::get_Item(System.Int32,System.Int32):System.Single",
           "clrName": "get_Item",
-          "tsEmitName": "get_Item2",
+          "tsEmitName": "getItem2",
           "metadataToken": 0,
           "canonicalSignature": "(System.Int32,System.Int32):System.Single",
           "normalizedSignature": "get_Item|(System.Int32,System.Int32):System.Single|static=false",
@@ -18467,7 +18467,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Numerics.Matrix4x4::set_Item(System.Int32,System.Int32,System.Single):System.Void",
           "clrName": "set_Item",
-          "tsEmitName": "set_Item2",
+          "tsEmitName": "setItem2",
           "metadataToken": 0,
           "canonicalSignature": "(System.Int32,System.Int32,System.Single):System.Void",
           "normalizedSignature": "set_Item|(System.Int32,System.Int32,System.Single):System.Void|static=false",
@@ -19432,7 +19432,7 @@
           }
         },
         {
-          "tsName": "get_Item",
+          "tsName": "getItem",
           "isStatic": false,
           "tsSignatureId": "get_Item|(System.Int32):System.Numerics.Vector4|static=false",
           "target": {
@@ -19442,7 +19442,7 @@
           }
         },
         {
-          "tsName": "set_Item",
+          "tsName": "setItem",
           "isStatic": false,
           "tsSignatureId": "set_Item|(System.Int32,System.Numerics.Vector4):System.Void|static=false",
           "target": {
@@ -19452,7 +19452,7 @@
           }
         },
         {
-          "tsName": "get_Item2",
+          "tsName": "getItem2",
           "isStatic": false,
           "tsSignatureId": "get_Item|(System.Int32,System.Int32):System.Single|static=false",
           "target": {
@@ -19462,7 +19462,7 @@
           }
         },
         {
-          "tsName": "set_Item2",
+          "tsName": "setItem2",
           "isStatic": false,
           "tsSignatureId": "set_Item|(System.Int32,System.Int32,System.Single):System.Void|static=false",
           "target": {
@@ -33499,7 +33499,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Numerics.Vector::get_E():Vector_1",
           "clrName": "get_E",
-          "tsEmitName": "get_E",
+          "tsEmitName": "getE",
           "metadataToken": 100674809,
           "canonicalSignature": "():Vector_1",
           "normalizedSignature": "get_E|():Vector_1|static=true",
@@ -33513,7 +33513,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Numerics.Vector::get_Pi():Vector_1",
           "clrName": "get_Pi",
-          "tsEmitName": "get_Pi",
+          "tsEmitName": "getPi",
           "metadataToken": 100674810,
           "canonicalSignature": "():Vector_1",
           "normalizedSignature": "get_Pi|():Vector_1|static=true",
@@ -33527,7 +33527,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Numerics.Vector::get_Tau():Vector_1",
           "clrName": "get_Tau",
-          "tsEmitName": "get_Tau",
+          "tsEmitName": "getTau",
           "metadataToken": 100674811,
           "canonicalSignature": "():Vector_1",
           "normalizedSignature": "get_Tau|():Vector_1|static=true",
@@ -33541,7 +33541,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Numerics.Vector::get_Epsilon():Vector_1",
           "clrName": "get_Epsilon",
-          "tsEmitName": "get_Epsilon",
+          "tsEmitName": "getEpsilon",
           "metadataToken": 100674812,
           "canonicalSignature": "():Vector_1",
           "normalizedSignature": "get_Epsilon|():Vector_1|static=true",
@@ -33555,7 +33555,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Numerics.Vector::get_NaN():Vector_1",
           "clrName": "get_NaN",
-          "tsEmitName": "get_NaN",
+          "tsEmitName": "getNan",
           "metadataToken": 100674813,
           "canonicalSignature": "():Vector_1",
           "normalizedSignature": "get_NaN|():Vector_1|static=true",
@@ -33569,7 +33569,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Numerics.Vector::get_NegativeInfinity():Vector_1",
           "clrName": "get_NegativeInfinity",
-          "tsEmitName": "get_NegativeInfinity",
+          "tsEmitName": "getNegativeinfinity",
           "metadataToken": 100674814,
           "canonicalSignature": "():Vector_1",
           "normalizedSignature": "get_NegativeInfinity|():Vector_1|static=true",
@@ -33583,7 +33583,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Numerics.Vector::get_NegativeZero():Vector_1",
           "clrName": "get_NegativeZero",
-          "tsEmitName": "get_NegativeZero",
+          "tsEmitName": "getNegativezero",
           "metadataToken": 100674815,
           "canonicalSignature": "():Vector_1",
           "normalizedSignature": "get_NegativeZero|():Vector_1|static=true",
@@ -33597,7 +33597,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Numerics.Vector::get_PositiveInfinity():Vector_1",
           "clrName": "get_PositiveInfinity",
-          "tsEmitName": "get_PositiveInfinity",
+          "tsEmitName": "getPositiveinfinity",
           "metadataToken": 100674816,
           "canonicalSignature": "():Vector_1",
           "normalizedSignature": "get_PositiveInfinity|():Vector_1|static=true",
@@ -33611,7 +33611,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Numerics.Vector::get_NegativeOne():Vector_1",
           "clrName": "get_NegativeOne",
-          "tsEmitName": "get_NegativeOne",
+          "tsEmitName": "getNegativeone",
           "metadataToken": 100674817,
           "canonicalSignature": "():Vector_1",
           "normalizedSignature": "get_NegativeOne|():Vector_1|static=true",
@@ -37444,7 +37444,7 @@
           }
         },
         {
-          "tsName": "get_E",
+          "tsName": "getE",
           "isStatic": true,
           "tsSignatureId": "get_E|():Vector_1|static=true",
           "target": {
@@ -37454,7 +37454,7 @@
           }
         },
         {
-          "tsName": "get_Pi",
+          "tsName": "getPi",
           "isStatic": true,
           "tsSignatureId": "get_Pi|():Vector_1|static=true",
           "target": {
@@ -37464,7 +37464,7 @@
           }
         },
         {
-          "tsName": "get_Tau",
+          "tsName": "getTau",
           "isStatic": true,
           "tsSignatureId": "get_Tau|():Vector_1|static=true",
           "target": {
@@ -37474,7 +37474,7 @@
           }
         },
         {
-          "tsName": "get_Epsilon",
+          "tsName": "getEpsilon",
           "isStatic": true,
           "tsSignatureId": "get_Epsilon|():Vector_1|static=true",
           "target": {
@@ -37484,7 +37484,7 @@
           }
         },
         {
-          "tsName": "get_NaN",
+          "tsName": "getNan",
           "isStatic": true,
           "tsSignatureId": "get_NaN|():Vector_1|static=true",
           "target": {
@@ -37494,7 +37494,7 @@
           }
         },
         {
-          "tsName": "get_NegativeInfinity",
+          "tsName": "getNegativeinfinity",
           "isStatic": true,
           "tsSignatureId": "get_NegativeInfinity|():Vector_1|static=true",
           "target": {
@@ -37504,7 +37504,7 @@
           }
         },
         {
-          "tsName": "get_NegativeZero",
+          "tsName": "getNegativezero",
           "isStatic": true,
           "tsSignatureId": "get_NegativeZero|():Vector_1|static=true",
           "target": {
@@ -37514,7 +37514,7 @@
           }
         },
         {
-          "tsName": "get_PositiveInfinity",
+          "tsName": "getPositiveinfinity",
           "isStatic": true,
           "tsSignatureId": "get_PositiveInfinity|():Vector_1|static=true",
           "target": {
@@ -37524,7 +37524,7 @@
           }
         },
         {
-          "tsName": "get_NegativeOne",
+          "tsName": "getNegativeone",
           "isStatic": true,
           "tsSignatureId": "get_NegativeOne|():Vector_1|static=true",
           "target": {

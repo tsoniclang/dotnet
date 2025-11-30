@@ -13,7 +13,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Resolvers.XmlKnownDtds::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67117087,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -772,7 +772,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -945,7 +945,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Resolvers.XmlPreloadedResolver::GetEntityAsync(System.Uri,System.String,System.Type):System.Threading.Tasks.Task_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "GetEntityAsync",
-          "tsEmitName": "getEntityAsync",
+          "tsEmitName": "getEntityAsync2",
           "metadataToken": 100678357,
           "canonicalSignature": "(System.Uri,System.String,System.Type):System.Threading.Tasks.Task_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "normalizedSignature": "GetEntityAsync|(System.Uri,System.String,System.Type):System.Threading.Tasks.Task_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
@@ -959,7 +959,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Resolvers.XmlPreloadedResolver::GetEntityAsync(System.Uri,System.String,System.Type):System.Threading.Tasks.Task_1",
           "clrName": "GetEntityAsync",
-          "tsEmitName": "GetEntityAsync",
+          "tsEmitName": "getEntityAsync",
           "metadataToken": 0,
           "canonicalSignature": "(System.Uri,System.String,System.Type):System.Threading.Tasks.Task_1",
           "normalizedSignature": "GetEntityAsync|(System.Uri,System.String,System.Type):System.Threading.Tasks.Task_1|static=false",
@@ -1137,7 +1137,7 @@
           }
         },
         {
-          "tsName": "getEntityAsync",
+          "tsName": "getEntityAsync2",
           "isStatic": false,
           "tsSignatureId": "GetEntityAsync|(System.Uri,System.String,System.Type):System.Threading.Tasks.Task_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "target": {
@@ -1147,7 +1147,7 @@
           }
         },
         {
-          "tsName": "GetEntityAsync",
+          "tsName": "getEntityAsync",
           "isStatic": false,
           "tsSignatureId": "GetEntityAsync|(System.Uri,System.String,System.Type):System.Threading.Tasks.Task_1|static=false",
           "target": {

@@ -226,8 +226,8 @@ export interface IBindingListView$instance extends IBindingList, IList, ICollect
     add(value: unknown): int;
     addIndex(property: PropertyDescriptor): void;
     addNew(): unknown;
-    applySort(property: PropertyDescriptor, direction: ListSortDirection): void;
-    applySort(sorts: ListSortDescriptionCollection): void;
+    applySort2(property: PropertyDescriptor, direction: ListSortDirection): void;
+    applySort2(sorts: ListSortDescriptionCollection): void;
     contains(value: unknown): boolean;
     copyTo(array: ClrArray, index: int): void;
     find(property: PropertyDescriptor, key: unknown): int;
@@ -263,11 +263,11 @@ export interface IComNativeDescriptorHandler$instance {
     getDefaultEvent(component: unknown): EventDescriptor;
     getDefaultProperty(component: unknown): PropertyDescriptor;
     getEditor(component: unknown, baseEditorType: Type): unknown;
-    getEvents(component: unknown, attributes: Attribute[]): EventDescriptorCollection;
-    getEvents(component: unknown): EventDescriptorCollection;
+    getEvents2(component: unknown, attributes: Attribute[]): EventDescriptorCollection;
+    getEvents2(component: unknown): EventDescriptorCollection;
     getProperties(component: unknown, attributes: Attribute[]): PropertyDescriptorCollection;
-    getPropertyValue(component: unknown, dispid: int, success: { value: ref<boolean> }): unknown;
-    getPropertyValue(component: unknown, propertyName: string, success: { value: ref<boolean> }): unknown;
+    getPropertyValue2(component: unknown, dispid: int, success: { value: ref<boolean> }): unknown;
+    getPropertyValue2(component: unknown, propertyName: string, success: { value: ref<boolean> }): unknown;
 }
 
 
@@ -285,8 +285,8 @@ export type IComponent = IComponent$instance;
 
 export interface IContainer$instance extends IDisposable {
     readonly components: ComponentCollection;
-    add(component: IComponent, name: string): void;
-    add(component: IComponent): void;
+    add2(component: IComponent, name: string): void;
+    add2(component: IComponent): void;
     dispose(): void;
 }
 
@@ -354,8 +354,8 @@ export type IListSource = IListSource$instance;
 export interface INestedContainer$instance extends IContainer, IDisposable {
     readonly owner: IComponent;
     readonly components: ComponentCollection;
-    add(component: IComponent, name: string): void;
-    add(component: IComponent): void;
+    add2(component: IComponent, name: string): void;
+    add2(component: IComponent): void;
     dispose(): void;
 }
 
@@ -485,9 +485,9 @@ export type AddingNewEventArgs = AddingNewEventArgs$instance;
 export class AddingNewEventHandler$instance extends Function {
     constructor(object_: unknown, method: nint);
     beginInvoke(sender: unknown, e: AddingNewEventArgs, callback: AsyncCallback, object_: unknown): IAsyncResult;
-    Clone(): unknown;
+    clone(): unknown;
     endInvoke(result: IAsyncResult): void;
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
     invoke(sender: unknown, e: AddingNewEventArgs): void;
 }
 
@@ -496,8 +496,6 @@ export interface __AddingNewEventHandler$views {
     As_ICloneable(): System_Internal.ICloneable$instance;
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
-
-export interface AddingNewEventHandler$instance extends System_Internal.ICloneable$instance {}
 
 export type AddingNewEventHandler = AddingNewEventHandler$instance & __AddingNewEventHandler$views;
 
@@ -549,9 +547,9 @@ export type AsyncCompletedEventArgs = AsyncCompletedEventArgs$instance;
 export class AsyncCompletedEventHandler$instance extends Function {
     constructor(object_: unknown, method: nint);
     beginInvoke(sender: unknown, e: AsyncCompletedEventArgs, callback: AsyncCallback, object_: unknown): IAsyncResult;
-    Clone(): unknown;
+    clone(): unknown;
     endInvoke(result: IAsyncResult): void;
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
     invoke(sender: unknown, e: AsyncCompletedEventArgs): void;
 }
 
@@ -560,8 +558,6 @@ export interface __AsyncCompletedEventHandler$views {
     As_ICloneable(): System_Internal.ICloneable$instance;
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
-
-export interface AsyncCompletedEventHandler$instance extends System_Internal.ICloneable$instance {}
 
 export type AsyncCompletedEventHandler = AsyncCompletedEventHandler$instance & __AsyncCompletedEventHandler$views;
 
@@ -583,8 +579,8 @@ export class AttributeCollection$instance {
     contains(attribute: Attribute): boolean;
     contains(attributes: Attribute[]): boolean;
     copyTo(array: ClrArray, index: int): void;
-    get_Item(index: int): Attribute;
-    get_Item(attributeType: Type): Attribute;
+    getItem(index: int): Attribute;
+    getItem(attributeType: Type): Attribute;
     getEnumerator(): IEnumerator;
     matches(attribute: Attribute): boolean;
     matches(attributes: Attribute[]): boolean;
@@ -619,7 +615,7 @@ export class BackgroundWorker$instance extends Component$instance {
     workerReportsProgress: boolean;
     workerSupportsCancellation: boolean;
     cancelAsync(): void;
-    Dispose(): void;
+    dispose(): void;
     reportProgress(percentProgress: int): void;
     reportProgress(percentProgress: int, userState: unknown): void;
     runWorkerAsync(): void;
@@ -631,6 +627,8 @@ export interface __BackgroundWorker$views {
     As_IComponent(): IComponent$instance;
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
+
+export interface BackgroundWorker$instance extends IComponent$instance {}
 
 export type BackgroundWorker = BackgroundWorker$instance & __BackgroundWorker$views;
 
@@ -674,24 +672,24 @@ export class BindingList_1$instance<T> extends System_Collections_ObjectModel_In
     allowNew: boolean;
     allowRemove: boolean;
     raiseListChangedEvents: boolean;
-    Add(item: T): void;
-    Add(value: unknown): int;
+    add(item: T): void;
+    add(value: unknown): int;
     addNew(): T;
     cancelNew(itemIndex: int): void;
-    Clear(): void;
-    Contains(item: T): boolean;
-    Contains(value: unknown): boolean;
-    CopyTo(array: T[], index: int): void;
-    CopyTo(array: ClrArray, index: int): void;
+    clear(): void;
+    contains(item: T): boolean;
+    contains(value: unknown): boolean;
+    copyTo(array: T[], index: int): void;
+    copyTo(array: ClrArray, index: int): void;
     endNew(itemIndex: int): void;
-    GetEnumerator(): IEnumerator_1<T>;
-    GetEnumerator(): IEnumerator;
-    IndexOf(item: T): int;
-    Insert(index: int, item: T): void;
-    Insert(index: int, value: unknown): void;
-    Remove(item: T): boolean;
-    Remove(value: unknown): void;
-    RemoveAt(index: int): void;
+    getEnumerator(): IEnumerator_1<T>;
+    getEnumerator(): IEnumerator;
+    indexOf(item: T): int;
+    insert(index: int, item: T): void;
+    insert(index: int, value: unknown): void;
+    remove(item: T): boolean;
+    remove(value: unknown): void;
+    removeAt(index: int): void;
     resetBindings(): void;
     resetItem(position: int): void;
 }
@@ -765,9 +763,9 @@ export type CancelEventArgs = CancelEventArgs$instance;
 export class CancelEventHandler$instance extends Function {
     constructor(object_: unknown, method: nint);
     beginInvoke(sender: unknown, e: CancelEventArgs, callback: AsyncCallback, object_: unknown): IAsyncResult;
-    Clone(): unknown;
+    clone(): unknown;
     endInvoke(result: IAsyncResult): void;
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
     invoke(sender: unknown, e: CancelEventArgs): void;
 }
 
@@ -776,8 +774,6 @@ export interface __CancelEventHandler$views {
     As_ICloneable(): System_Internal.ICloneable$instance;
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
-
-export interface CancelEventHandler$instance extends System_Internal.ICloneable$instance {}
 
 export type CancelEventHandler = CancelEventHandler$instance & __CancelEventHandler$views;
 
@@ -794,7 +790,7 @@ export class CategoryAttribute$instance extends System_Internal.Attribute$instan
     static readonly asynchronous: CategoryAttribute;
     static readonly behavior: CategoryAttribute;
     static readonly data: CategoryAttribute;
-    static readonly default: CategoryAttribute;
+    static readonly default_: CategoryAttribute;
     static readonly design: CategoryAttribute;
     static readonly dragDrop: CategoryAttribute;
     static readonly focus: CategoryAttribute;
@@ -833,9 +829,9 @@ export type CollectionChangeEventArgs = CollectionChangeEventArgs$instance;
 export class CollectionChangeEventHandler$instance extends Function {
     constructor(object_: unknown, method: nint);
     beginInvoke(sender: unknown, e: CollectionChangeEventArgs, callback: AsyncCallback, object_: unknown): IAsyncResult;
-    Clone(): unknown;
+    clone(): unknown;
     endInvoke(result: IAsyncResult): void;
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
     invoke(sender: unknown, e: CollectionChangeEventArgs): void;
 }
 
@@ -844,8 +840,6 @@ export interface __CollectionChangeEventHandler$views {
     As_ICloneable(): System_Internal.ICloneable$instance;
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
-
-export interface CollectionChangeEventHandler$instance extends System_Internal.ICloneable$instance {}
 
 export type CollectionChangeEventHandler = CollectionChangeEventHandler$instance & __CollectionChangeEventHandler$views;
 
@@ -896,9 +890,9 @@ export type Component = Component$instance & __Component$views;
 export class ComponentCollection$instance extends System_Collections_Internal.ReadOnlyCollectionBase$instance {
     constructor(components: IComponent[]);
     copyTo(array: ClrArray, index: int): void;
-    get_Item(name: string): IComponent;
-    get_Item(index: int): IComponent;
-    GetEnumerator(): IEnumerator;
+    getItem(name: string): IComponent;
+    getItem(index: int): IComponent;
+    getEnumerator(): IEnumerator;
 }
 
 
@@ -906,6 +900,8 @@ export interface __ComponentCollection$views {
     As_ICollection(): System_Collections_Internal.ICollection$instance;
     As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
 }
+
+export interface ComponentCollection$instance extends System_Collections_Internal.ICollection$instance {}
 
 export type ComponentCollection = ComponentCollection$instance & __ComponentCollection$views;
 
@@ -1304,9 +1300,9 @@ export type DoWorkEventArgs = DoWorkEventArgs$instance;
 export class DoWorkEventHandler$instance extends Function {
     constructor(object_: unknown, method: nint);
     beginInvoke(sender: unknown, e: DoWorkEventArgs, callback: AsyncCallback, object_: unknown): IAsyncResult;
-    Clone(): unknown;
+    clone(): unknown;
     endInvoke(result: IAsyncResult): void;
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
     invoke(sender: unknown, e: DoWorkEventArgs): void;
 }
 
@@ -1315,8 +1311,6 @@ export interface __DoWorkEventHandler$views {
     As_ICloneable(): System_Internal.ICloneable$instance;
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
-
-export interface DoWorkEventHandler$instance extends System_Internal.ICloneable$instance {}
 
 export type DoWorkEventHandler = DoWorkEventHandler$instance & __DoWorkEventHandler$views;
 
@@ -1389,8 +1383,8 @@ export class EventDescriptorCollection$instance {
     clear(): void;
     contains(value: EventDescriptor): boolean;
     find(name: string, ignoreCase: boolean): EventDescriptor;
-    get_Item(index: int): EventDescriptor;
-    get_Item(name: string): EventDescriptor;
+    getItem(index: int): EventDescriptor;
+    getItem(name: string): EventDescriptor;
     getEnumerator(): IEnumerator;
     indexOf(value: EventDescriptor): int;
     insert(index: int, value: EventDescriptor): void;
@@ -1491,9 +1485,9 @@ export type HandledEventArgs = HandledEventArgs$instance;
 export class HandledEventHandler$instance extends Function {
     constructor(object_: unknown, method: nint);
     beginInvoke(sender: unknown, e: HandledEventArgs, callback: AsyncCallback, object_: unknown): IAsyncResult;
-    Clone(): unknown;
+    clone(): unknown;
     endInvoke(result: IAsyncResult): void;
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
     invoke(sender: unknown, e: HandledEventArgs): void;
 }
 
@@ -1502,8 +1496,6 @@ export interface __HandledEventHandler$views {
     As_ICloneable(): System_Internal.ICloneable$instance;
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
-
-export interface HandledEventHandler$instance extends System_Internal.ICloneable$instance {}
 
 export type HandledEventHandler = HandledEventHandler$instance & __HandledEventHandler$views;
 
@@ -1598,7 +1590,7 @@ export class InvalidAsynchronousStateException$instance extends System_Internal.
     constructor();
     constructor(message: string);
     constructor(message: string, innerException: Exception);
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
@@ -1614,7 +1606,7 @@ export class InvalidEnumArgumentException$instance extends System_Internal.Argum
     constructor(message: string);
     constructor(message: string, innerException: Exception);
     constructor(argumentName: string, invalidValue: int, enumClass: Type);
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
@@ -1678,15 +1670,15 @@ export type LicenseException = LicenseException$instance & __LicenseException$vi
 export class LicenseManager$instance {
     static currentContext: LicenseContext;
     static readonly usageMode: LicenseUsageMode;
-    static createWithContext(type_: Type, creationContext: LicenseContext, args: unknown[]): unknown;
-    static createWithContext(type_: Type, creationContext: LicenseContext): unknown;
+    static createWithContext2(type_: Type, creationContext: LicenseContext, args: unknown[]): unknown;
+    static createWithContext2(type_: Type, creationContext: LicenseContext): unknown;
     static isLicensed(type_: Type): boolean;
-    static isValid(type_: Type, instance: unknown, license: { value: ref<License> }): boolean;
-    static isValid(type_: Type): boolean;
+    static isValid2(type_: Type, instance: unknown, license: { value: ref<License> }): boolean;
+    static isValid2(type_: Type): boolean;
     static lockContext(contextUser: unknown): void;
     static unlockContext(contextUser: unknown): void;
-    static validate(type_: Type, instance: unknown): License;
-    static validate(type_: Type): void;
+    static validate2(type_: Type, instance: unknown): License;
+    static validate2(type_: Type): void;
 }
 
 
@@ -1753,9 +1745,9 @@ export type ListChangedEventArgs = ListChangedEventArgs$instance;
 export class ListChangedEventHandler$instance extends Function {
     constructor(object_: unknown, method: nint);
     beginInvoke(sender: unknown, e: ListChangedEventArgs, callback: AsyncCallback, object_: unknown): IAsyncResult;
-    Clone(): unknown;
+    clone(): unknown;
     endInvoke(result: IAsyncResult): void;
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
     invoke(sender: unknown, e: ListChangedEventArgs): void;
 }
 
@@ -1764,8 +1756,6 @@ export interface __ListChangedEventHandler$views {
     As_ICloneable(): System_Internal.ICloneable$instance;
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
-
-export interface ListChangedEventHandler$instance extends System_Internal.ICloneable$instance {}
 
 export type ListChangedEventHandler = ListChangedEventHandler$instance & __ListChangedEventHandler$views;
 
@@ -1989,9 +1979,9 @@ export type MultilineStringConverter = MultilineStringConverter$instance;
 export class NestedContainer$instance extends Container$instance {
     constructor(owner: IComponent);
     readonly owner: IComponent;
-    Add(component: IComponent): void;
-    Add(component: IComponent, name: string): void;
-    Dispose(): void;
+    add(component: IComponent): void;
+    add(component: IComponent, name: string): void;
+    dispose(): void;
 }
 
 
@@ -2093,9 +2083,9 @@ export type ProgressChangedEventArgs = ProgressChangedEventArgs$instance;
 export class ProgressChangedEventHandler$instance extends Function {
     constructor(object_: unknown, method: nint);
     beginInvoke(sender: unknown, e: ProgressChangedEventArgs, callback: AsyncCallback, object_: unknown): IAsyncResult;
-    Clone(): unknown;
+    clone(): unknown;
     endInvoke(result: IAsyncResult): void;
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
     invoke(sender: unknown, e: ProgressChangedEventArgs): void;
 }
 
@@ -2104,8 +2094,6 @@ export interface __ProgressChangedEventHandler$views {
     As_ICloneable(): System_Internal.ICloneable$instance;
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
-
-export interface ProgressChangedEventHandler$instance extends System_Internal.ICloneable$instance {}
 
 export type ProgressChangedEventHandler = ProgressChangedEventHandler$instance & __ProgressChangedEventHandler$views;
 
@@ -2121,9 +2109,9 @@ export type PropertyChangedEventArgs = PropertyChangedEventArgs$instance;
 export class PropertyChangedEventHandler$instance extends Function {
     constructor(object_: unknown, method: nint);
     beginInvoke(sender: unknown, e: PropertyChangedEventArgs, callback: AsyncCallback, object_: unknown): IAsyncResult;
-    Clone(): unknown;
+    clone(): unknown;
     endInvoke(result: IAsyncResult): void;
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
     invoke(sender: unknown, e: PropertyChangedEventArgs): void;
 }
 
@@ -2132,8 +2120,6 @@ export interface __PropertyChangedEventHandler$views {
     As_ICloneable(): System_Internal.ICloneable$instance;
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
-
-export interface PropertyChangedEventHandler$instance extends System_Internal.ICloneable$instance {}
 
 export type PropertyChangedEventHandler = PropertyChangedEventHandler$instance & __PropertyChangedEventHandler$views;
 
@@ -2149,9 +2135,9 @@ export type PropertyChangingEventArgs = PropertyChangingEventArgs$instance;
 export class PropertyChangingEventHandler$instance extends Function {
     constructor(object_: unknown, method: nint);
     beginInvoke(sender: unknown, e: PropertyChangingEventArgs, callback: AsyncCallback, object_: unknown): IAsyncResult;
-    Clone(): unknown;
+    clone(): unknown;
     endInvoke(result: IAsyncResult): void;
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
     invoke(sender: unknown, e: PropertyChangingEventArgs): void;
 }
 
@@ -2160,8 +2146,6 @@ export interface __PropertyChangingEventHandler$views {
     As_ICloneable(): System_Internal.ICloneable$instance;
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
-
-export interface PropertyChangingEventHandler$instance extends System_Internal.ICloneable$instance {}
 
 export type PropertyChangingEventHandler = PropertyChangingEventHandler$instance & __PropertyChangingEventHandler$views;
 
@@ -2203,8 +2187,8 @@ export class PropertyDescriptorCollection$instance {
     contains(value: PropertyDescriptor): boolean;
     copyTo(array: ClrArray, index: int): void;
     find(name: string, ignoreCase: boolean): PropertyDescriptor;
-    get_Item(index: int): PropertyDescriptor;
-    get_Item(name: string): PropertyDescriptor;
+    getItem(index: int): PropertyDescriptor;
+    getItem(name: string): PropertyDescriptor;
     getEnumerator(): IEnumerator;
     indexOf(value: PropertyDescriptor): int;
     insert(index: int, value: PropertyDescriptor): void;
@@ -2317,9 +2301,9 @@ export type RefreshEventArgs = RefreshEventArgs$instance;
 export class RefreshEventHandler$instance extends Function {
     constructor(object_: unknown, method: nint);
     beginInvoke(e: RefreshEventArgs, callback: AsyncCallback, object_: unknown): IAsyncResult;
-    Clone(): unknown;
+    clone(): unknown;
     endInvoke(result: IAsyncResult): void;
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
     invoke(e: RefreshEventArgs): void;
 }
 
@@ -2328,8 +2312,6 @@ export interface __RefreshEventHandler$views {
     As_ICloneable(): System_Internal.ICloneable$instance;
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
-
-export interface RefreshEventHandler$instance extends System_Internal.ICloneable$instance {}
 
 export type RefreshEventHandler = RefreshEventHandler$instance & __RefreshEventHandler$views;
 
@@ -2374,9 +2356,9 @@ export type RunWorkerCompletedEventArgs = RunWorkerCompletedEventArgs$instance;
 export class RunWorkerCompletedEventHandler$instance extends Function {
     constructor(object_: unknown, method: nint);
     beginInvoke(sender: unknown, e: RunWorkerCompletedEventArgs, callback: AsyncCallback, object_: unknown): IAsyncResult;
-    Clone(): unknown;
+    clone(): unknown;
     endInvoke(result: IAsyncResult): void;
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
     invoke(sender: unknown, e: RunWorkerCompletedEventArgs): void;
 }
 
@@ -2385,8 +2367,6 @@ export interface __RunWorkerCompletedEventHandler$views {
     As_ICloneable(): System_Internal.ICloneable$instance;
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
-
-export interface RunWorkerCompletedEventHandler$instance extends System_Internal.ICloneable$instance {}
 
 export type RunWorkerCompletedEventHandler = RunWorkerCompletedEventHandler$instance & __RunWorkerCompletedEventHandler$views;
 
@@ -2599,63 +2579,63 @@ export class TypeDescriptor$instance {
     static readonly interfaceType: Type;
     static readonly comObjectType: Type;
     static comNativeDescriptorHandler: IComNativeDescriptorHandler;
-    static addAttributes(instance: unknown, attributes: Attribute[]): TypeDescriptionProvider;
-    static addAttributes(type_: Type, attributes: Attribute[]): TypeDescriptionProvider;
+    static addAttributes2(instance: unknown, attributes: Attribute[]): TypeDescriptionProvider;
+    static addAttributes2(type_: Type, attributes: Attribute[]): TypeDescriptionProvider;
     static addEditorTable(editorBaseType: Type, table: Hashtable): void;
-    static addProvider(provider: TypeDescriptionProvider, instance: unknown): void;
-    static addProvider(provider: TypeDescriptionProvider, type_: Type): void;
-    static addProviderTransparent(provider: TypeDescriptionProvider, instance: unknown): void;
-    static addProviderTransparent(provider: TypeDescriptionProvider, type_: Type): void;
+    static addProvider2(provider: TypeDescriptionProvider, instance: unknown): void;
+    static addProvider2(provider: TypeDescriptionProvider, type_: Type): void;
+    static addProviderTransparent2(provider: TypeDescriptionProvider, instance: unknown): void;
+    static addProviderTransparent2(provider: TypeDescriptionProvider, type_: Type): void;
     static createAssociation(primary: unknown, secondary: unknown): void;
     static createDesigner(component: IComponent, designerBaseType: Type): IDesigner;
-    static createEvent(componentType: Type, oldEventDescriptor: EventDescriptor, attributes: Attribute[]): EventDescriptor;
-    static createEvent(componentType: Type, name: string, type_: Type, attributes: Attribute[]): EventDescriptor;
+    static createEvent2(componentType: Type, oldEventDescriptor: EventDescriptor, attributes: Attribute[]): EventDescriptor;
+    static createEvent2(componentType: Type, name: string, type_: Type, attributes: Attribute[]): EventDescriptor;
     static createInstance(provider: IServiceProvider, objectType: Type, argTypes: Type[], args: unknown[]): unknown;
-    static createProperty(componentType: Type, oldPropertyDescriptor: PropertyDescriptor, attributes: Attribute[]): PropertyDescriptor;
-    static createProperty(componentType: Type, name: string, type_: Type, attributes: Attribute[]): PropertyDescriptor;
+    static createProperty2(componentType: Type, oldPropertyDescriptor: PropertyDescriptor, attributes: Attribute[]): PropertyDescriptor;
+    static createProperty2(componentType: Type, name: string, type_: Type, attributes: Attribute[]): PropertyDescriptor;
     static getAssociation(type_: Type, primary: unknown): unknown;
-    static getAttributes(component: unknown, noCustomTypeDesc: boolean): AttributeCollection;
-    static getAttributes(component: unknown): AttributeCollection;
-    static getAttributes(componentType: Type): AttributeCollection;
-    static getClassName(component: unknown, noCustomTypeDesc: boolean): string;
-    static getClassName(component: unknown): string;
-    static getClassName(componentType: Type): string;
-    static getComponentName(component: unknown, noCustomTypeDesc: boolean): string;
-    static getComponentName(component: unknown): string;
-    static getConverter(component: unknown, noCustomTypeDesc: boolean): TypeConverter;
-    static getConverter(component: unknown): TypeConverter;
-    static getConverter(type_: Type): TypeConverter;
+    static getAttributes3(component: unknown, noCustomTypeDesc: boolean): AttributeCollection;
+    static getAttributes3(component: unknown): AttributeCollection;
+    static getAttributes3(componentType: Type): AttributeCollection;
+    static getClassName2(component: unknown, noCustomTypeDesc: boolean): string;
+    static getClassName2(component: unknown): string;
+    static getClassName2(componentType: Type): string;
+    static getComponentName2(component: unknown, noCustomTypeDesc: boolean): string;
+    static getComponentName2(component: unknown): string;
+    static getConverter2(component: unknown, noCustomTypeDesc: boolean): TypeConverter;
+    static getConverter2(component: unknown): TypeConverter;
+    static getConverter2(type_: Type): TypeConverter;
     static getConverterFromRegisteredType(component: unknown): TypeConverter;
     static getConverterFromRegisteredType(type_: Type): TypeConverter;
-    static getDefaultEvent(component: unknown, noCustomTypeDesc: boolean): EventDescriptor;
-    static getDefaultEvent(component: unknown): EventDescriptor;
-    static getDefaultEvent(componentType: Type): EventDescriptor;
-    static getDefaultProperty(component: unknown, noCustomTypeDesc: boolean): PropertyDescriptor;
-    static getDefaultProperty(component: unknown): PropertyDescriptor;
-    static getDefaultProperty(componentType: Type): PropertyDescriptor;
-    static getEditor(component: unknown, editorBaseType: Type, noCustomTypeDesc: boolean): unknown;
-    static getEditor(component: unknown, editorBaseType: Type): unknown;
-    static getEditor(type_: Type, editorBaseType: Type): unknown;
-    static getEvents(component: unknown, attributes: Attribute[], noCustomTypeDesc: boolean): EventDescriptorCollection;
-    static getEvents(component: unknown, attributes: Attribute[]): EventDescriptorCollection;
-    static getEvents(component: unknown, noCustomTypeDesc: boolean): EventDescriptorCollection;
-    static getEvents(component: unknown): EventDescriptorCollection;
-    static getEvents(componentType: Type, attributes: Attribute[]): EventDescriptorCollection;
-    static getEvents(componentType: Type): EventDescriptorCollection;
+    static getDefaultEvent3(component: unknown, noCustomTypeDesc: boolean): EventDescriptor;
+    static getDefaultEvent3(component: unknown): EventDescriptor;
+    static getDefaultEvent3(componentType: Type): EventDescriptor;
+    static getDefaultProperty3(component: unknown, noCustomTypeDesc: boolean): PropertyDescriptor;
+    static getDefaultProperty3(component: unknown): PropertyDescriptor;
+    static getDefaultProperty3(componentType: Type): PropertyDescriptor;
+    static getEditor2(component: unknown, editorBaseType: Type, noCustomTypeDesc: boolean): unknown;
+    static getEditor2(component: unknown, editorBaseType: Type): unknown;
+    static getEditor2(type_: Type, editorBaseType: Type): unknown;
+    static getEvents6(component: unknown, attributes: Attribute[], noCustomTypeDesc: boolean): EventDescriptorCollection;
+    static getEvents6(component: unknown, attributes: Attribute[]): EventDescriptorCollection;
+    static getEvents6(component: unknown, noCustomTypeDesc: boolean): EventDescriptorCollection;
+    static getEvents6(component: unknown): EventDescriptorCollection;
+    static getEvents6(componentType: Type, attributes: Attribute[]): EventDescriptorCollection;
+    static getEvents6(componentType: Type): EventDescriptorCollection;
     static getEventsFromRegisteredType(componentType: Type): EventDescriptorCollection;
     static getFullComponentName(component: unknown): string;
-    static getProperties(component: unknown, attributes: Attribute[], noCustomTypeDesc: boolean): PropertyDescriptorCollection;
-    static getProperties(component: unknown, attributes: Attribute[]): PropertyDescriptorCollection;
-    static getProperties(component: unknown, noCustomTypeDesc: boolean): PropertyDescriptorCollection;
-    static getProperties(component: unknown): PropertyDescriptorCollection;
-    static getProperties(componentType: Type, attributes: Attribute[]): PropertyDescriptorCollection;
-    static getProperties(componentType: Type): PropertyDescriptorCollection;
-    static getPropertiesFromRegisteredType(component: unknown): PropertyDescriptorCollection;
-    static getPropertiesFromRegisteredType(componentType: Type): PropertyDescriptorCollection;
-    static getProvider(instance: unknown): TypeDescriptionProvider;
-    static getProvider(type_: Type): TypeDescriptionProvider;
-    static getReflectionType(instance: unknown): Type;
-    static getReflectionType(type_: Type): Type;
+    static getProperties6(component: unknown, attributes: Attribute[], noCustomTypeDesc: boolean): PropertyDescriptorCollection;
+    static getProperties6(component: unknown, attributes: Attribute[]): PropertyDescriptorCollection;
+    static getProperties6(component: unknown, noCustomTypeDesc: boolean): PropertyDescriptorCollection;
+    static getProperties6(component: unknown): PropertyDescriptorCollection;
+    static getProperties6(componentType: Type, attributes: Attribute[]): PropertyDescriptorCollection;
+    static getProperties6(componentType: Type): PropertyDescriptorCollection;
+    static getPropertiesFromRegisteredType2(component: unknown): PropertyDescriptorCollection;
+    static getPropertiesFromRegisteredType2(componentType: Type): PropertyDescriptorCollection;
+    static getProvider2(instance: unknown): TypeDescriptionProvider;
+    static getProvider2(type_: Type): TypeDescriptionProvider;
+    static getReflectionType2(instance: unknown): Type;
+    static getReflectionType2(type_: Type): Type;
     static refresh(component: unknown): void;
     static refresh(assembly: Assembly): void;
     static refresh(module_: Module): void;
@@ -2663,10 +2643,10 @@ export class TypeDescriptor$instance {
     static registerType<T>(): void;
     static removeAssociation(primary: unknown, secondary: unknown): void;
     static removeAssociations(primary: unknown): void;
-    static removeProvider(provider: TypeDescriptionProvider, instance: unknown): void;
-    static removeProvider(provider: TypeDescriptionProvider, type_: Type): void;
-    static removeProviderTransparent(provider: TypeDescriptionProvider, instance: unknown): void;
-    static removeProviderTransparent(provider: TypeDescriptionProvider, type_: Type): void;
+    static removeProvider2(provider: TypeDescriptionProvider, instance: unknown): void;
+    static removeProvider2(provider: TypeDescriptionProvider, type_: Type): void;
+    static removeProviderTransparent2(provider: TypeDescriptionProvider, instance: unknown): void;
+    static removeProviderTransparent2(provider: TypeDescriptionProvider, type_: Type): void;
     static sortDescriptorArray(infos: IList): void;
 }
 

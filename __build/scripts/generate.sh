@@ -69,10 +69,13 @@ cd "$TSBINDGEN_DIR"
 dotnet build src/tsbindgen/tsbindgen.csproj -c Release --verbosity quiet
 echo "  Done"
 
-# Generate types
+# Generate types with TypeScript conventions (camelCase members)
 echo "[3/3] Generating TypeScript declarations..."
 dotnet run --project src/tsbindgen/tsbindgen.csproj --no-build -c Release -- \
-    generate -d "$DOTNET_RUNTIME_PATH" -o "$PROJECT_DIR"
+    generate -d "$DOTNET_RUNTIME_PATH" -o "$PROJECT_DIR" \
+    --method-names camelCase \
+    --property-names camelCase \
+    --enum-member-names camelCase
 
 echo ""
 echo "================================================================"

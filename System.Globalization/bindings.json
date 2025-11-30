@@ -13,7 +13,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.CalendarAlgorithmType::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67110939,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -772,7 +772,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -835,7 +835,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.CalendarWeekRule::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67110984,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -1583,7 +1583,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -1636,7 +1636,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.CompareOptions::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67111013,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -2461,7 +2461,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -2584,7 +2584,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.CultureTypes::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67111188,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -3387,7 +3387,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -3490,7 +3490,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.DateTimeStyles::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67111307,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -4315,7 +4315,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -4438,7 +4438,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.DigitShapes::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67111324,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -5186,7 +5186,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -5239,7 +5239,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.GregorianCalendarTypes::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67111347,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -6020,7 +6020,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -6103,7 +6103,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.NumberStyles::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67111486,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -7027,7 +7027,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -7240,7 +7240,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.TimeSpanStyles::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67111614,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -7977,7 +7977,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -8020,7 +8020,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.UnicodeCategory::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67111623,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -9065,7 +9065,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -10582,7 +10582,7 @@
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "clone",
+          "tsEmitName": "clone$view",
           "metadataToken": 100668509,
           "canonicalSignature": "():System.Object",
           "normalizedSignature": "Clone|():System.Object|static=false",
@@ -10596,7 +10596,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.ChineseLunisolarCalendar::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "Clone",
+          "tsEmitName": "clone",
           "metadataToken": 0,
           "canonicalSignature": "():System.Object",
           "normalizedSignature": "Clone|():System.Object|static=false",
@@ -10690,7 +10690,7 @@
           }
         },
         {
-          "tsName": "clone",
+          "tsName": "clone$view",
           "isStatic": false,
           "tsSignatureId": "Clone|():System.Object|static=false",
           "target": {
@@ -10700,7 +10700,7 @@
           }
         },
         {
-          "tsName": "Clone",
+          "tsName": "clone",
           "isStatic": false,
           "tsSignatureId": "Clone|():System.Object|static=false",
           "target": {
@@ -10740,7 +10740,7 @@
           }
         },
         {
-          "tsName": "getDaysInMonth",
+          "tsName": "getDaysInMonth2",
           "isStatic": false,
           "tsSignatureId": "GetDaysInMonth|(System.Int32,System.Int32,System.Int32):System.Int32|static=false",
           "target": {
@@ -10750,7 +10750,7 @@
           }
         },
         {
-          "tsName": "toDateTime",
+          "tsName": "toDateTime2",
           "isStatic": false,
           "tsSignatureId": "ToDateTime|(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32):System.DateTime|static=false",
           "target": {
@@ -10800,7 +10800,7 @@
           }
         },
         {
-          "tsName": "getDaysInYear",
+          "tsName": "getDaysInYear2",
           "isStatic": false,
           "tsSignatureId": "GetDaysInYear|(System.Int32,System.Int32):System.Int32|static=false",
           "target": {
@@ -10840,7 +10840,7 @@
           }
         },
         {
-          "tsName": "getMonthsInYear",
+          "tsName": "getMonthsInYear2",
           "isStatic": false,
           "tsSignatureId": "GetMonthsInYear|(System.Int32,System.Int32):System.Int32|static=false",
           "target": {
@@ -10850,7 +10850,7 @@
           }
         },
         {
-          "tsName": "isLeapDay",
+          "tsName": "isLeapDay2",
           "isStatic": false,
           "tsSignatureId": "IsLeapDay|(System.Int32,System.Int32,System.Int32,System.Int32):System.Boolean|static=false",
           "target": {
@@ -10860,7 +10860,7 @@
           }
         },
         {
-          "tsName": "isLeapMonth",
+          "tsName": "isLeapMonth2",
           "isStatic": false,
           "tsSignatureId": "IsLeapMonth|(System.Int32,System.Int32,System.Int32):System.Boolean|static=false",
           "target": {
@@ -10870,7 +10870,7 @@
           }
         },
         {
-          "tsName": "getLeapMonth",
+          "tsName": "getLeapMonth2",
           "isStatic": false,
           "tsSignatureId": "GetLeapMonth|(System.Int32,System.Int32):System.Int32|static=false",
           "target": {
@@ -10880,7 +10880,7 @@
           }
         },
         {
-          "tsName": "isLeapYear",
+          "tsName": "isLeapYear2",
           "isStatic": false,
           "tsSignatureId": "IsLeapYear|(System.Int32,System.Int32):System.Boolean|static=false",
           "target": {
@@ -10900,7 +10900,7 @@
           }
         },
         {
-          "tsName": "GetDaysInMonth",
+          "tsName": "getDaysInMonth",
           "isStatic": false,
           "tsSignatureId": "GetDaysInMonth|(System.Int32,System.Int32):System.Int32|static=false",
           "target": {
@@ -10910,7 +10910,7 @@
           }
         },
         {
-          "tsName": "GetDaysInYear",
+          "tsName": "getDaysInYear",
           "isStatic": false,
           "tsSignatureId": "GetDaysInYear|(System.Int32):System.Int32|static=false",
           "target": {
@@ -10920,7 +10920,7 @@
           }
         },
         {
-          "tsName": "GetLeapMonth",
+          "tsName": "getLeapMonth",
           "isStatic": false,
           "tsSignatureId": "GetLeapMonth|(System.Int32):System.Int32|static=false",
           "target": {
@@ -10930,7 +10930,7 @@
           }
         },
         {
-          "tsName": "GetMonthsInYear",
+          "tsName": "getMonthsInYear",
           "isStatic": false,
           "tsSignatureId": "GetMonthsInYear|(System.Int32):System.Int32|static=false",
           "target": {
@@ -10940,7 +10940,7 @@
           }
         },
         {
-          "tsName": "IsLeapDay",
+          "tsName": "isLeapDay",
           "isStatic": false,
           "tsSignatureId": "IsLeapDay|(System.Int32,System.Int32,System.Int32):System.Boolean|static=false",
           "target": {
@@ -10950,7 +10950,7 @@
           }
         },
         {
-          "tsName": "IsLeapMonth",
+          "tsName": "isLeapMonth",
           "isStatic": false,
           "tsSignatureId": "IsLeapMonth|(System.Int32,System.Int32):System.Boolean|static=false",
           "target": {
@@ -10960,7 +10960,7 @@
           }
         },
         {
-          "tsName": "IsLeapYear",
+          "tsName": "isLeapYear",
           "isStatic": false,
           "tsSignatureId": "IsLeapYear|(System.Int32):System.Boolean|static=false",
           "target": {
@@ -10970,7 +10970,7 @@
           }
         },
         {
-          "tsName": "ToDateTime",
+          "tsName": "toDateTime",
           "isStatic": false,
           "tsSignatureId": "ToDateTime|(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32):System.DateTime|static=false",
           "target": {
@@ -15927,7 +15927,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.EastAsianLunisolarCalendar::GetDaysInMonth(System.Int32,System.Int32,System.Int32):System.Int32",
           "clrName": "GetDaysInMonth",
-          "tsEmitName": "getDaysInMonth",
+          "tsEmitName": "getDaysInMonth2",
           "metadataToken": 100676772,
           "canonicalSignature": "(System.Int32,System.Int32,System.Int32):System.Int32",
           "normalizedSignature": "GetDaysInMonth|(System.Int32,System.Int32,System.Int32):System.Int32|static=false",
@@ -15941,7 +15941,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.EastAsianLunisolarCalendar::ToDateTime(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32):System.DateTime",
           "clrName": "ToDateTime",
-          "tsEmitName": "toDateTime",
+          "tsEmitName": "toDateTime2",
           "metadataToken": 100676774,
           "canonicalSignature": "(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32):System.DateTime",
           "normalizedSignature": "ToDateTime|(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32):System.DateTime|static=false",
@@ -16011,7 +16011,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.EastAsianLunisolarCalendar::GetDaysInYear(System.Int32,System.Int32):System.Int32",
           "clrName": "GetDaysInYear",
-          "tsEmitName": "getDaysInYear",
+          "tsEmitName": "getDaysInYear2",
           "metadataToken": 100676783,
           "canonicalSignature": "(System.Int32,System.Int32):System.Int32",
           "normalizedSignature": "GetDaysInYear|(System.Int32,System.Int32):System.Int32|static=false",
@@ -16067,7 +16067,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.EastAsianLunisolarCalendar::GetMonthsInYear(System.Int32,System.Int32):System.Int32",
           "clrName": "GetMonthsInYear",
-          "tsEmitName": "getMonthsInYear",
+          "tsEmitName": "getMonthsInYear2",
           "metadataToken": 100676787,
           "canonicalSignature": "(System.Int32,System.Int32):System.Int32",
           "normalizedSignature": "GetMonthsInYear|(System.Int32,System.Int32):System.Int32|static=false",
@@ -16081,7 +16081,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.EastAsianLunisolarCalendar::IsLeapDay(System.Int32,System.Int32,System.Int32,System.Int32):System.Boolean",
           "clrName": "IsLeapDay",
-          "tsEmitName": "isLeapDay",
+          "tsEmitName": "isLeapDay2",
           "metadataToken": 100676788,
           "canonicalSignature": "(System.Int32,System.Int32,System.Int32,System.Int32):System.Boolean",
           "normalizedSignature": "IsLeapDay|(System.Int32,System.Int32,System.Int32,System.Int32):System.Boolean|static=false",
@@ -16095,7 +16095,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.EastAsianLunisolarCalendar::IsLeapMonth(System.Int32,System.Int32,System.Int32):System.Boolean",
           "clrName": "IsLeapMonth",
-          "tsEmitName": "isLeapMonth",
+          "tsEmitName": "isLeapMonth2",
           "metadataToken": 100676789,
           "canonicalSignature": "(System.Int32,System.Int32,System.Int32):System.Boolean",
           "normalizedSignature": "IsLeapMonth|(System.Int32,System.Int32,System.Int32):System.Boolean|static=false",
@@ -16109,7 +16109,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.EastAsianLunisolarCalendar::GetLeapMonth(System.Int32,System.Int32):System.Int32",
           "clrName": "GetLeapMonth",
-          "tsEmitName": "getLeapMonth",
+          "tsEmitName": "getLeapMonth2",
           "metadataToken": 100676790,
           "canonicalSignature": "(System.Int32,System.Int32):System.Int32",
           "normalizedSignature": "GetLeapMonth|(System.Int32,System.Int32):System.Int32|static=false",
@@ -16123,7 +16123,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.EastAsianLunisolarCalendar::IsLeapYear(System.Int32,System.Int32):System.Boolean",
           "clrName": "IsLeapYear",
-          "tsEmitName": "isLeapYear",
+          "tsEmitName": "isLeapYear2",
           "metadataToken": 100676792,
           "canonicalSignature": "(System.Int32,System.Int32):System.Boolean",
           "normalizedSignature": "IsLeapYear|(System.Int32,System.Int32):System.Boolean|static=false",
@@ -16151,7 +16151,7 @@
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "clone",
+          "tsEmitName": "clone$view",
           "metadataToken": 100668509,
           "canonicalSignature": "():System.Object",
           "normalizedSignature": "Clone|():System.Object|static=false",
@@ -16165,7 +16165,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.EastAsianLunisolarCalendar::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "Clone",
+          "tsEmitName": "clone",
           "metadataToken": 0,
           "canonicalSignature": "():System.Object",
           "normalizedSignature": "Clone|():System.Object|static=false",
@@ -16179,7 +16179,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.EastAsianLunisolarCalendar::GetDaysInMonth(System.Int32,System.Int32):System.Int32",
           "clrName": "GetDaysInMonth",
-          "tsEmitName": "GetDaysInMonth",
+          "tsEmitName": "getDaysInMonth",
           "metadataToken": 0,
           "canonicalSignature": "(System.Int32,System.Int32):System.Int32",
           "normalizedSignature": "GetDaysInMonth|(System.Int32,System.Int32):System.Int32|static=false",
@@ -16193,7 +16193,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.EastAsianLunisolarCalendar::GetDaysInYear(System.Int32):System.Int32",
           "clrName": "GetDaysInYear",
-          "tsEmitName": "GetDaysInYear",
+          "tsEmitName": "getDaysInYear",
           "metadataToken": 0,
           "canonicalSignature": "(System.Int32):System.Int32",
           "normalizedSignature": "GetDaysInYear|(System.Int32):System.Int32|static=false",
@@ -16207,7 +16207,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.EastAsianLunisolarCalendar::GetLeapMonth(System.Int32):System.Int32",
           "clrName": "GetLeapMonth",
-          "tsEmitName": "GetLeapMonth",
+          "tsEmitName": "getLeapMonth",
           "metadataToken": 0,
           "canonicalSignature": "(System.Int32):System.Int32",
           "normalizedSignature": "GetLeapMonth|(System.Int32):System.Int32|static=false",
@@ -16221,7 +16221,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.EastAsianLunisolarCalendar::GetMonthsInYear(System.Int32):System.Int32",
           "clrName": "GetMonthsInYear",
-          "tsEmitName": "GetMonthsInYear",
+          "tsEmitName": "getMonthsInYear",
           "metadataToken": 0,
           "canonicalSignature": "(System.Int32):System.Int32",
           "normalizedSignature": "GetMonthsInYear|(System.Int32):System.Int32|static=false",
@@ -16235,7 +16235,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.EastAsianLunisolarCalendar::IsLeapDay(System.Int32,System.Int32,System.Int32):System.Boolean",
           "clrName": "IsLeapDay",
-          "tsEmitName": "IsLeapDay",
+          "tsEmitName": "isLeapDay",
           "metadataToken": 0,
           "canonicalSignature": "(System.Int32,System.Int32,System.Int32):System.Boolean",
           "normalizedSignature": "IsLeapDay|(System.Int32,System.Int32,System.Int32):System.Boolean|static=false",
@@ -16249,7 +16249,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.EastAsianLunisolarCalendar::IsLeapMonth(System.Int32,System.Int32):System.Boolean",
           "clrName": "IsLeapMonth",
-          "tsEmitName": "IsLeapMonth",
+          "tsEmitName": "isLeapMonth",
           "metadataToken": 0,
           "canonicalSignature": "(System.Int32,System.Int32):System.Boolean",
           "normalizedSignature": "IsLeapMonth|(System.Int32,System.Int32):System.Boolean|static=false",
@@ -16263,7 +16263,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.EastAsianLunisolarCalendar::IsLeapYear(System.Int32):System.Boolean",
           "clrName": "IsLeapYear",
-          "tsEmitName": "IsLeapYear",
+          "tsEmitName": "isLeapYear",
           "metadataToken": 0,
           "canonicalSignature": "(System.Int32):System.Boolean",
           "normalizedSignature": "IsLeapYear|(System.Int32):System.Boolean|static=false",
@@ -16277,7 +16277,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.EastAsianLunisolarCalendar::ToDateTime(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32):System.DateTime",
           "clrName": "ToDateTime",
-          "tsEmitName": "ToDateTime",
+          "tsEmitName": "toDateTime",
           "metadataToken": 0,
           "canonicalSignature": "(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32):System.DateTime",
           "normalizedSignature": "ToDateTime|(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32):System.DateTime|static=false",
@@ -16354,7 +16354,7 @@
           }
         },
         {
-          "tsName": "getDaysInMonth",
+          "tsName": "getDaysInMonth2",
           "isStatic": false,
           "tsSignatureId": "GetDaysInMonth|(System.Int32,System.Int32,System.Int32):System.Int32|static=false",
           "target": {
@@ -16364,7 +16364,7 @@
           }
         },
         {
-          "tsName": "toDateTime",
+          "tsName": "toDateTime2",
           "isStatic": false,
           "tsSignatureId": "ToDateTime|(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32):System.DateTime|static=false",
           "target": {
@@ -16414,7 +16414,7 @@
           }
         },
         {
-          "tsName": "getDaysInYear",
+          "tsName": "getDaysInYear2",
           "isStatic": false,
           "tsSignatureId": "GetDaysInYear|(System.Int32,System.Int32):System.Int32|static=false",
           "target": {
@@ -16454,7 +16454,7 @@
           }
         },
         {
-          "tsName": "getMonthsInYear",
+          "tsName": "getMonthsInYear2",
           "isStatic": false,
           "tsSignatureId": "GetMonthsInYear|(System.Int32,System.Int32):System.Int32|static=false",
           "target": {
@@ -16464,7 +16464,7 @@
           }
         },
         {
-          "tsName": "isLeapDay",
+          "tsName": "isLeapDay2",
           "isStatic": false,
           "tsSignatureId": "IsLeapDay|(System.Int32,System.Int32,System.Int32,System.Int32):System.Boolean|static=false",
           "target": {
@@ -16474,7 +16474,7 @@
           }
         },
         {
-          "tsName": "isLeapMonth",
+          "tsName": "isLeapMonth2",
           "isStatic": false,
           "tsSignatureId": "IsLeapMonth|(System.Int32,System.Int32,System.Int32):System.Boolean|static=false",
           "target": {
@@ -16484,7 +16484,7 @@
           }
         },
         {
-          "tsName": "getLeapMonth",
+          "tsName": "getLeapMonth2",
           "isStatic": false,
           "tsSignatureId": "GetLeapMonth|(System.Int32,System.Int32):System.Int32|static=false",
           "target": {
@@ -16494,7 +16494,7 @@
           }
         },
         {
-          "tsName": "isLeapYear",
+          "tsName": "isLeapYear2",
           "isStatic": false,
           "tsSignatureId": "IsLeapYear|(System.Int32,System.Int32):System.Boolean|static=false",
           "target": {
@@ -16514,7 +16514,7 @@
           }
         },
         {
-          "tsName": "clone",
+          "tsName": "clone$view",
           "isStatic": false,
           "tsSignatureId": "Clone|():System.Object|static=false",
           "target": {
@@ -16524,7 +16524,7 @@
           }
         },
         {
-          "tsName": "Clone",
+          "tsName": "clone",
           "isStatic": false,
           "tsSignatureId": "Clone|():System.Object|static=false",
           "target": {
@@ -16534,7 +16534,7 @@
           }
         },
         {
-          "tsName": "GetDaysInMonth",
+          "tsName": "getDaysInMonth",
           "isStatic": false,
           "tsSignatureId": "GetDaysInMonth|(System.Int32,System.Int32):System.Int32|static=false",
           "target": {
@@ -16544,7 +16544,7 @@
           }
         },
         {
-          "tsName": "GetDaysInYear",
+          "tsName": "getDaysInYear",
           "isStatic": false,
           "tsSignatureId": "GetDaysInYear|(System.Int32):System.Int32|static=false",
           "target": {
@@ -16554,7 +16554,7 @@
           }
         },
         {
-          "tsName": "GetLeapMonth",
+          "tsName": "getLeapMonth",
           "isStatic": false,
           "tsSignatureId": "GetLeapMonth|(System.Int32):System.Int32|static=false",
           "target": {
@@ -16564,7 +16564,7 @@
           }
         },
         {
-          "tsName": "GetMonthsInYear",
+          "tsName": "getMonthsInYear",
           "isStatic": false,
           "tsSignatureId": "GetMonthsInYear|(System.Int32):System.Int32|static=false",
           "target": {
@@ -16574,7 +16574,7 @@
           }
         },
         {
-          "tsName": "IsLeapDay",
+          "tsName": "isLeapDay",
           "isStatic": false,
           "tsSignatureId": "IsLeapDay|(System.Int32,System.Int32,System.Int32):System.Boolean|static=false",
           "target": {
@@ -16584,7 +16584,7 @@
           }
         },
         {
-          "tsName": "IsLeapMonth",
+          "tsName": "isLeapMonth",
           "isStatic": false,
           "tsSignatureId": "IsLeapMonth|(System.Int32,System.Int32):System.Boolean|static=false",
           "target": {
@@ -16594,7 +16594,7 @@
           }
         },
         {
-          "tsName": "IsLeapYear",
+          "tsName": "isLeapYear",
           "isStatic": false,
           "tsSignatureId": "IsLeapYear|(System.Int32):System.Boolean|static=false",
           "target": {
@@ -16604,7 +16604,7 @@
           }
         },
         {
-          "tsName": "ToDateTime",
+          "tsName": "toDateTime",
           "isStatic": false,
           "tsSignatureId": "ToDateTime|(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32):System.DateTime|static=false",
           "target": {
@@ -16947,7 +16947,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.GregorianCalendar::GetDaysInMonth(System.Int32,System.Int32,System.Int32):System.Int32",
           "clrName": "GetDaysInMonth",
-          "tsEmitName": "getDaysInMonth",
+          "tsEmitName": "getDaysInMonth2",
           "metadataToken": 100676829,
           "canonicalSignature": "(System.Int32,System.Int32,System.Int32):System.Int32",
           "normalizedSignature": "GetDaysInMonth|(System.Int32,System.Int32,System.Int32):System.Int32|static=false",
@@ -16961,7 +16961,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.GregorianCalendar::GetDaysInYear(System.Int32,System.Int32):System.Int32",
           "clrName": "GetDaysInYear",
-          "tsEmitName": "getDaysInYear",
+          "tsEmitName": "getDaysInYear2",
           "metadataToken": 100676830,
           "canonicalSignature": "(System.Int32,System.Int32):System.Int32",
           "normalizedSignature": "GetDaysInYear|(System.Int32,System.Int32):System.Int32|static=false",
@@ -17003,7 +17003,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.GregorianCalendar::GetMonthsInYear(System.Int32,System.Int32):System.Int32",
           "clrName": "GetMonthsInYear",
-          "tsEmitName": "getMonthsInYear",
+          "tsEmitName": "getMonthsInYear2",
           "metadataToken": 100676834,
           "canonicalSignature": "(System.Int32,System.Int32):System.Int32",
           "normalizedSignature": "GetMonthsInYear|(System.Int32,System.Int32):System.Int32|static=false",
@@ -17031,7 +17031,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.GregorianCalendar::IsLeapDay(System.Int32,System.Int32,System.Int32,System.Int32):System.Boolean",
           "clrName": "IsLeapDay",
-          "tsEmitName": "isLeapDay",
+          "tsEmitName": "isLeapDay2",
           "metadataToken": 100676838,
           "canonicalSignature": "(System.Int32,System.Int32,System.Int32,System.Int32):System.Boolean",
           "normalizedSignature": "IsLeapDay|(System.Int32,System.Int32,System.Int32,System.Int32):System.Boolean|static=false",
@@ -17045,7 +17045,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.GregorianCalendar::GetLeapMonth(System.Int32,System.Int32):System.Int32",
           "clrName": "GetLeapMonth",
-          "tsEmitName": "getLeapMonth",
+          "tsEmitName": "getLeapMonth2",
           "metadataToken": 100676839,
           "canonicalSignature": "(System.Int32,System.Int32):System.Int32",
           "normalizedSignature": "GetLeapMonth|(System.Int32,System.Int32):System.Int32|static=false",
@@ -17059,7 +17059,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.GregorianCalendar::IsLeapMonth(System.Int32,System.Int32,System.Int32):System.Boolean",
           "clrName": "IsLeapMonth",
-          "tsEmitName": "isLeapMonth",
+          "tsEmitName": "isLeapMonth2",
           "metadataToken": 100676840,
           "canonicalSignature": "(System.Int32,System.Int32,System.Int32):System.Boolean",
           "normalizedSignature": "IsLeapMonth|(System.Int32,System.Int32,System.Int32):System.Boolean|static=false",
@@ -17073,7 +17073,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.GregorianCalendar::IsLeapYear(System.Int32,System.Int32):System.Boolean",
           "clrName": "IsLeapYear",
-          "tsEmitName": "isLeapYear",
+          "tsEmitName": "isLeapYear2",
           "metadataToken": 100676841,
           "canonicalSignature": "(System.Int32,System.Int32):System.Boolean",
           "normalizedSignature": "IsLeapYear|(System.Int32,System.Int32):System.Boolean|static=false",
@@ -17087,7 +17087,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.GregorianCalendar::ToDateTime(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32):System.DateTime",
           "clrName": "ToDateTime",
-          "tsEmitName": "toDateTime",
+          "tsEmitName": "toDateTime2",
           "metadataToken": 100676842,
           "canonicalSignature": "(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32):System.DateTime",
           "normalizedSignature": "ToDateTime|(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32):System.DateTime|static=false",
@@ -17115,7 +17115,7 @@
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "clone",
+          "tsEmitName": "clone$view",
           "metadataToken": 100668509,
           "canonicalSignature": "():System.Object",
           "normalizedSignature": "Clone|():System.Object|static=false",
@@ -17129,7 +17129,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.GregorianCalendar::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "Clone",
+          "tsEmitName": "clone",
           "metadataToken": 0,
           "canonicalSignature": "():System.Object",
           "normalizedSignature": "Clone|():System.Object|static=false",
@@ -17143,7 +17143,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.GregorianCalendar::GetDaysInMonth(System.Int32,System.Int32):System.Int32",
           "clrName": "GetDaysInMonth",
-          "tsEmitName": "GetDaysInMonth",
+          "tsEmitName": "getDaysInMonth",
           "metadataToken": 0,
           "canonicalSignature": "(System.Int32,System.Int32):System.Int32",
           "normalizedSignature": "GetDaysInMonth|(System.Int32,System.Int32):System.Int32|static=false",
@@ -17157,7 +17157,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.GregorianCalendar::GetDaysInYear(System.Int32):System.Int32",
           "clrName": "GetDaysInYear",
-          "tsEmitName": "GetDaysInYear",
+          "tsEmitName": "getDaysInYear",
           "metadataToken": 0,
           "canonicalSignature": "(System.Int32):System.Int32",
           "normalizedSignature": "GetDaysInYear|(System.Int32):System.Int32|static=false",
@@ -17171,7 +17171,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.GregorianCalendar::GetLeapMonth(System.Int32):System.Int32",
           "clrName": "GetLeapMonth",
-          "tsEmitName": "GetLeapMonth",
+          "tsEmitName": "getLeapMonth",
           "metadataToken": 0,
           "canonicalSignature": "(System.Int32):System.Int32",
           "normalizedSignature": "GetLeapMonth|(System.Int32):System.Int32|static=false",
@@ -17185,7 +17185,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.GregorianCalendar::GetMonthsInYear(System.Int32):System.Int32",
           "clrName": "GetMonthsInYear",
-          "tsEmitName": "GetMonthsInYear",
+          "tsEmitName": "getMonthsInYear",
           "metadataToken": 0,
           "canonicalSignature": "(System.Int32):System.Int32",
           "normalizedSignature": "GetMonthsInYear|(System.Int32):System.Int32|static=false",
@@ -17199,7 +17199,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.GregorianCalendar::IsLeapDay(System.Int32,System.Int32,System.Int32):System.Boolean",
           "clrName": "IsLeapDay",
-          "tsEmitName": "IsLeapDay",
+          "tsEmitName": "isLeapDay",
           "metadataToken": 0,
           "canonicalSignature": "(System.Int32,System.Int32,System.Int32):System.Boolean",
           "normalizedSignature": "IsLeapDay|(System.Int32,System.Int32,System.Int32):System.Boolean|static=false",
@@ -17213,7 +17213,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.GregorianCalendar::IsLeapMonth(System.Int32,System.Int32):System.Boolean",
           "clrName": "IsLeapMonth",
-          "tsEmitName": "IsLeapMonth",
+          "tsEmitName": "isLeapMonth",
           "metadataToken": 0,
           "canonicalSignature": "(System.Int32,System.Int32):System.Boolean",
           "normalizedSignature": "IsLeapMonth|(System.Int32,System.Int32):System.Boolean|static=false",
@@ -17227,7 +17227,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.GregorianCalendar::IsLeapYear(System.Int32):System.Boolean",
           "clrName": "IsLeapYear",
-          "tsEmitName": "IsLeapYear",
+          "tsEmitName": "isLeapYear",
           "metadataToken": 0,
           "canonicalSignature": "(System.Int32):System.Boolean",
           "normalizedSignature": "IsLeapYear|(System.Int32):System.Boolean|static=false",
@@ -17241,7 +17241,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.GregorianCalendar::ToDateTime(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32):System.DateTime",
           "clrName": "ToDateTime",
-          "tsEmitName": "ToDateTime",
+          "tsEmitName": "toDateTime",
           "metadataToken": 0,
           "canonicalSignature": "(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32):System.DateTime",
           "normalizedSignature": "ToDateTime|(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32):System.DateTime|static=false",
@@ -17427,7 +17427,7 @@
           }
         },
         {
-          "tsName": "getDaysInMonth",
+          "tsName": "getDaysInMonth2",
           "isStatic": false,
           "tsSignatureId": "GetDaysInMonth|(System.Int32,System.Int32,System.Int32):System.Int32|static=false",
           "target": {
@@ -17437,7 +17437,7 @@
           }
         },
         {
-          "tsName": "getDaysInYear",
+          "tsName": "getDaysInYear2",
           "isStatic": false,
           "tsSignatureId": "GetDaysInYear|(System.Int32,System.Int32):System.Int32|static=false",
           "target": {
@@ -17467,7 +17467,7 @@
           }
         },
         {
-          "tsName": "getMonthsInYear",
+          "tsName": "getMonthsInYear2",
           "isStatic": false,
           "tsSignatureId": "GetMonthsInYear|(System.Int32,System.Int32):System.Int32|static=false",
           "target": {
@@ -17487,7 +17487,7 @@
           }
         },
         {
-          "tsName": "isLeapDay",
+          "tsName": "isLeapDay2",
           "isStatic": false,
           "tsSignatureId": "IsLeapDay|(System.Int32,System.Int32,System.Int32,System.Int32):System.Boolean|static=false",
           "target": {
@@ -17497,7 +17497,7 @@
           }
         },
         {
-          "tsName": "getLeapMonth",
+          "tsName": "getLeapMonth2",
           "isStatic": false,
           "tsSignatureId": "GetLeapMonth|(System.Int32,System.Int32):System.Int32|static=false",
           "target": {
@@ -17507,7 +17507,7 @@
           }
         },
         {
-          "tsName": "isLeapMonth",
+          "tsName": "isLeapMonth2",
           "isStatic": false,
           "tsSignatureId": "IsLeapMonth|(System.Int32,System.Int32,System.Int32):System.Boolean|static=false",
           "target": {
@@ -17517,7 +17517,7 @@
           }
         },
         {
-          "tsName": "isLeapYear",
+          "tsName": "isLeapYear2",
           "isStatic": false,
           "tsSignatureId": "IsLeapYear|(System.Int32,System.Int32):System.Boolean|static=false",
           "target": {
@@ -17527,7 +17527,7 @@
           }
         },
         {
-          "tsName": "toDateTime",
+          "tsName": "toDateTime2",
           "isStatic": false,
           "tsSignatureId": "ToDateTime|(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32):System.DateTime|static=false",
           "target": {
@@ -17547,7 +17547,7 @@
           }
         },
         {
-          "tsName": "clone",
+          "tsName": "clone$view",
           "isStatic": false,
           "tsSignatureId": "Clone|():System.Object|static=false",
           "target": {
@@ -17557,7 +17557,7 @@
           }
         },
         {
-          "tsName": "Clone",
+          "tsName": "clone",
           "isStatic": false,
           "tsSignatureId": "Clone|():System.Object|static=false",
           "target": {
@@ -17567,7 +17567,7 @@
           }
         },
         {
-          "tsName": "GetDaysInMonth",
+          "tsName": "getDaysInMonth",
           "isStatic": false,
           "tsSignatureId": "GetDaysInMonth|(System.Int32,System.Int32):System.Int32|static=false",
           "target": {
@@ -17577,7 +17577,7 @@
           }
         },
         {
-          "tsName": "GetDaysInYear",
+          "tsName": "getDaysInYear",
           "isStatic": false,
           "tsSignatureId": "GetDaysInYear|(System.Int32):System.Int32|static=false",
           "target": {
@@ -17587,7 +17587,7 @@
           }
         },
         {
-          "tsName": "GetLeapMonth",
+          "tsName": "getLeapMonth",
           "isStatic": false,
           "tsSignatureId": "GetLeapMonth|(System.Int32):System.Int32|static=false",
           "target": {
@@ -17597,7 +17597,7 @@
           }
         },
         {
-          "tsName": "GetMonthsInYear",
+          "tsName": "getMonthsInYear",
           "isStatic": false,
           "tsSignatureId": "GetMonthsInYear|(System.Int32):System.Int32|static=false",
           "target": {
@@ -17607,7 +17607,7 @@
           }
         },
         {
-          "tsName": "IsLeapDay",
+          "tsName": "isLeapDay",
           "isStatic": false,
           "tsSignatureId": "IsLeapDay|(System.Int32,System.Int32,System.Int32):System.Boolean|static=false",
           "target": {
@@ -17617,7 +17617,7 @@
           }
         },
         {
-          "tsName": "IsLeapMonth",
+          "tsName": "isLeapMonth",
           "isStatic": false,
           "tsSignatureId": "IsLeapMonth|(System.Int32,System.Int32):System.Boolean|static=false",
           "target": {
@@ -17627,7 +17627,7 @@
           }
         },
         {
-          "tsName": "IsLeapYear",
+          "tsName": "isLeapYear",
           "isStatic": false,
           "tsSignatureId": "IsLeapYear|(System.Int32):System.Boolean|static=false",
           "target": {
@@ -17637,7 +17637,7 @@
           }
         },
         {
-          "tsName": "ToDateTime",
+          "tsName": "toDateTime",
           "isStatic": false,
           "tsSignatureId": "ToDateTime|(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32):System.DateTime|static=false",
           "target": {
@@ -18012,7 +18012,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.HebrewCalendar::GetDaysInMonth(System.Int32,System.Int32,System.Int32):System.Int32",
           "clrName": "GetDaysInMonth",
-          "tsEmitName": "getDaysInMonth",
+          "tsEmitName": "getDaysInMonth2",
           "metadataToken": 100676898,
           "canonicalSignature": "(System.Int32,System.Int32,System.Int32):System.Int32",
           "normalizedSignature": "GetDaysInMonth|(System.Int32,System.Int32,System.Int32):System.Int32|static=false",
@@ -18026,7 +18026,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.HebrewCalendar::GetDaysInYear(System.Int32,System.Int32):System.Int32",
           "clrName": "GetDaysInYear",
-          "tsEmitName": "getDaysInYear",
+          "tsEmitName": "getDaysInYear2",
           "metadataToken": 100676899,
           "canonicalSignature": "(System.Int32,System.Int32):System.Int32",
           "normalizedSignature": "GetDaysInYear|(System.Int32,System.Int32):System.Int32|static=false",
@@ -18068,7 +18068,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.HebrewCalendar::GetMonthsInYear(System.Int32,System.Int32):System.Int32",
           "clrName": "GetMonthsInYear",
-          "tsEmitName": "getMonthsInYear",
+          "tsEmitName": "getMonthsInYear2",
           "metadataToken": 100676903,
           "canonicalSignature": "(System.Int32,System.Int32):System.Int32",
           "normalizedSignature": "GetMonthsInYear|(System.Int32,System.Int32):System.Int32|static=false",
@@ -18096,7 +18096,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.HebrewCalendar::IsLeapDay(System.Int32,System.Int32,System.Int32,System.Int32):System.Boolean",
           "clrName": "IsLeapDay",
-          "tsEmitName": "isLeapDay",
+          "tsEmitName": "isLeapDay2",
           "metadataToken": 100676905,
           "canonicalSignature": "(System.Int32,System.Int32,System.Int32,System.Int32):System.Boolean",
           "normalizedSignature": "IsLeapDay|(System.Int32,System.Int32,System.Int32,System.Int32):System.Boolean|static=false",
@@ -18110,7 +18110,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.HebrewCalendar::GetLeapMonth(System.Int32,System.Int32):System.Int32",
           "clrName": "GetLeapMonth",
-          "tsEmitName": "getLeapMonth",
+          "tsEmitName": "getLeapMonth2",
           "metadataToken": 100676906,
           "canonicalSignature": "(System.Int32,System.Int32):System.Int32",
           "normalizedSignature": "GetLeapMonth|(System.Int32,System.Int32):System.Int32|static=false",
@@ -18124,7 +18124,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.HebrewCalendar::IsLeapMonth(System.Int32,System.Int32,System.Int32):System.Boolean",
           "clrName": "IsLeapMonth",
-          "tsEmitName": "isLeapMonth",
+          "tsEmitName": "isLeapMonth2",
           "metadataToken": 100676907,
           "canonicalSignature": "(System.Int32,System.Int32,System.Int32):System.Boolean",
           "normalizedSignature": "IsLeapMonth|(System.Int32,System.Int32,System.Int32):System.Boolean|static=false",
@@ -18138,7 +18138,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.HebrewCalendar::IsLeapYear(System.Int32,System.Int32):System.Boolean",
           "clrName": "IsLeapYear",
-          "tsEmitName": "isLeapYear",
+          "tsEmitName": "isLeapYear2",
           "metadataToken": 100676908,
           "canonicalSignature": "(System.Int32,System.Int32):System.Boolean",
           "normalizedSignature": "IsLeapYear|(System.Int32,System.Int32):System.Boolean|static=false",
@@ -18152,7 +18152,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.HebrewCalendar::ToDateTime(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32):System.DateTime",
           "clrName": "ToDateTime",
-          "tsEmitName": "toDateTime",
+          "tsEmitName": "toDateTime2",
           "metadataToken": 100676911,
           "canonicalSignature": "(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32):System.DateTime",
           "normalizedSignature": "ToDateTime|(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32):System.DateTime|static=false",
@@ -18180,7 +18180,7 @@
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "clone",
+          "tsEmitName": "clone$view",
           "metadataToken": 100668509,
           "canonicalSignature": "():System.Object",
           "normalizedSignature": "Clone|():System.Object|static=false",
@@ -18194,7 +18194,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.HebrewCalendar::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "Clone",
+          "tsEmitName": "clone",
           "metadataToken": 0,
           "canonicalSignature": "():System.Object",
           "normalizedSignature": "Clone|():System.Object|static=false",
@@ -18208,7 +18208,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.HebrewCalendar::GetDaysInMonth(System.Int32,System.Int32):System.Int32",
           "clrName": "GetDaysInMonth",
-          "tsEmitName": "GetDaysInMonth",
+          "tsEmitName": "getDaysInMonth",
           "metadataToken": 0,
           "canonicalSignature": "(System.Int32,System.Int32):System.Int32",
           "normalizedSignature": "GetDaysInMonth|(System.Int32,System.Int32):System.Int32|static=false",
@@ -18222,7 +18222,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.HebrewCalendar::GetDaysInYear(System.Int32):System.Int32",
           "clrName": "GetDaysInYear",
-          "tsEmitName": "GetDaysInYear",
+          "tsEmitName": "getDaysInYear",
           "metadataToken": 0,
           "canonicalSignature": "(System.Int32):System.Int32",
           "normalizedSignature": "GetDaysInYear|(System.Int32):System.Int32|static=false",
@@ -18236,7 +18236,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.HebrewCalendar::GetLeapMonth(System.Int32):System.Int32",
           "clrName": "GetLeapMonth",
-          "tsEmitName": "GetLeapMonth",
+          "tsEmitName": "getLeapMonth",
           "metadataToken": 0,
           "canonicalSignature": "(System.Int32):System.Int32",
           "normalizedSignature": "GetLeapMonth|(System.Int32):System.Int32|static=false",
@@ -18250,7 +18250,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.HebrewCalendar::GetMonthsInYear(System.Int32):System.Int32",
           "clrName": "GetMonthsInYear",
-          "tsEmitName": "GetMonthsInYear",
+          "tsEmitName": "getMonthsInYear",
           "metadataToken": 0,
           "canonicalSignature": "(System.Int32):System.Int32",
           "normalizedSignature": "GetMonthsInYear|(System.Int32):System.Int32|static=false",
@@ -18264,7 +18264,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.HebrewCalendar::IsLeapDay(System.Int32,System.Int32,System.Int32):System.Boolean",
           "clrName": "IsLeapDay",
-          "tsEmitName": "IsLeapDay",
+          "tsEmitName": "isLeapDay",
           "metadataToken": 0,
           "canonicalSignature": "(System.Int32,System.Int32,System.Int32):System.Boolean",
           "normalizedSignature": "IsLeapDay|(System.Int32,System.Int32,System.Int32):System.Boolean|static=false",
@@ -18278,7 +18278,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.HebrewCalendar::IsLeapMonth(System.Int32,System.Int32):System.Boolean",
           "clrName": "IsLeapMonth",
-          "tsEmitName": "IsLeapMonth",
+          "tsEmitName": "isLeapMonth",
           "metadataToken": 0,
           "canonicalSignature": "(System.Int32,System.Int32):System.Boolean",
           "normalizedSignature": "IsLeapMonth|(System.Int32,System.Int32):System.Boolean|static=false",
@@ -18292,7 +18292,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.HebrewCalendar::IsLeapYear(System.Int32):System.Boolean",
           "clrName": "IsLeapYear",
-          "tsEmitName": "IsLeapYear",
+          "tsEmitName": "isLeapYear",
           "metadataToken": 0,
           "canonicalSignature": "(System.Int32):System.Boolean",
           "normalizedSignature": "IsLeapYear|(System.Int32):System.Boolean|static=false",
@@ -18306,7 +18306,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.HebrewCalendar::ToDateTime(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32):System.DateTime",
           "clrName": "ToDateTime",
-          "tsEmitName": "ToDateTime",
+          "tsEmitName": "toDateTime",
           "metadataToken": 0,
           "canonicalSignature": "(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32):System.DateTime",
           "normalizedSignature": "ToDateTime|(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32):System.DateTime|static=false",
@@ -18468,7 +18468,7 @@
           }
         },
         {
-          "tsName": "getDaysInMonth",
+          "tsName": "getDaysInMonth2",
           "isStatic": false,
           "tsSignatureId": "GetDaysInMonth|(System.Int32,System.Int32,System.Int32):System.Int32|static=false",
           "target": {
@@ -18478,7 +18478,7 @@
           }
         },
         {
-          "tsName": "getDaysInYear",
+          "tsName": "getDaysInYear2",
           "isStatic": false,
           "tsSignatureId": "GetDaysInYear|(System.Int32,System.Int32):System.Int32|static=false",
           "target": {
@@ -18508,7 +18508,7 @@
           }
         },
         {
-          "tsName": "getMonthsInYear",
+          "tsName": "getMonthsInYear2",
           "isStatic": false,
           "tsSignatureId": "GetMonthsInYear|(System.Int32,System.Int32):System.Int32|static=false",
           "target": {
@@ -18528,7 +18528,7 @@
           }
         },
         {
-          "tsName": "isLeapDay",
+          "tsName": "isLeapDay2",
           "isStatic": false,
           "tsSignatureId": "IsLeapDay|(System.Int32,System.Int32,System.Int32,System.Int32):System.Boolean|static=false",
           "target": {
@@ -18538,7 +18538,7 @@
           }
         },
         {
-          "tsName": "getLeapMonth",
+          "tsName": "getLeapMonth2",
           "isStatic": false,
           "tsSignatureId": "GetLeapMonth|(System.Int32,System.Int32):System.Int32|static=false",
           "target": {
@@ -18548,7 +18548,7 @@
           }
         },
         {
-          "tsName": "isLeapMonth",
+          "tsName": "isLeapMonth2",
           "isStatic": false,
           "tsSignatureId": "IsLeapMonth|(System.Int32,System.Int32,System.Int32):System.Boolean|static=false",
           "target": {
@@ -18558,7 +18558,7 @@
           }
         },
         {
-          "tsName": "isLeapYear",
+          "tsName": "isLeapYear2",
           "isStatic": false,
           "tsSignatureId": "IsLeapYear|(System.Int32,System.Int32):System.Boolean|static=false",
           "target": {
@@ -18568,7 +18568,7 @@
           }
         },
         {
-          "tsName": "toDateTime",
+          "tsName": "toDateTime2",
           "isStatic": false,
           "tsSignatureId": "ToDateTime|(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32):System.DateTime|static=false",
           "target": {
@@ -18588,7 +18588,7 @@
           }
         },
         {
-          "tsName": "clone",
+          "tsName": "clone$view",
           "isStatic": false,
           "tsSignatureId": "Clone|():System.Object|static=false",
           "target": {
@@ -18598,7 +18598,7 @@
           }
         },
         {
-          "tsName": "Clone",
+          "tsName": "clone",
           "isStatic": false,
           "tsSignatureId": "Clone|():System.Object|static=false",
           "target": {
@@ -18608,7 +18608,7 @@
           }
         },
         {
-          "tsName": "GetDaysInMonth",
+          "tsName": "getDaysInMonth",
           "isStatic": false,
           "tsSignatureId": "GetDaysInMonth|(System.Int32,System.Int32):System.Int32|static=false",
           "target": {
@@ -18618,7 +18618,7 @@
           }
         },
         {
-          "tsName": "GetDaysInYear",
+          "tsName": "getDaysInYear",
           "isStatic": false,
           "tsSignatureId": "GetDaysInYear|(System.Int32):System.Int32|static=false",
           "target": {
@@ -18628,7 +18628,7 @@
           }
         },
         {
-          "tsName": "GetLeapMonth",
+          "tsName": "getLeapMonth",
           "isStatic": false,
           "tsSignatureId": "GetLeapMonth|(System.Int32):System.Int32|static=false",
           "target": {
@@ -18638,7 +18638,7 @@
           }
         },
         {
-          "tsName": "GetMonthsInYear",
+          "tsName": "getMonthsInYear",
           "isStatic": false,
           "tsSignatureId": "GetMonthsInYear|(System.Int32):System.Int32|static=false",
           "target": {
@@ -18648,7 +18648,7 @@
           }
         },
         {
-          "tsName": "IsLeapDay",
+          "tsName": "isLeapDay",
           "isStatic": false,
           "tsSignatureId": "IsLeapDay|(System.Int32,System.Int32,System.Int32):System.Boolean|static=false",
           "target": {
@@ -18658,7 +18658,7 @@
           }
         },
         {
-          "tsName": "IsLeapMonth",
+          "tsName": "isLeapMonth",
           "isStatic": false,
           "tsSignatureId": "IsLeapMonth|(System.Int32,System.Int32):System.Boolean|static=false",
           "target": {
@@ -18668,7 +18668,7 @@
           }
         },
         {
-          "tsName": "IsLeapYear",
+          "tsName": "isLeapYear",
           "isStatic": false,
           "tsSignatureId": "IsLeapYear|(System.Int32):System.Boolean|static=false",
           "target": {
@@ -18678,7 +18678,7 @@
           }
         },
         {
-          "tsName": "ToDateTime",
+          "tsName": "toDateTime",
           "isStatic": false,
           "tsSignatureId": "ToDateTime|(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32):System.DateTime|static=false",
           "target": {
@@ -19034,7 +19034,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.HijriCalendar::GetDaysInMonth(System.Int32,System.Int32,System.Int32):System.Int32",
           "clrName": "GetDaysInMonth",
-          "tsEmitName": "getDaysInMonth",
+          "tsEmitName": "getDaysInMonth2",
           "metadataToken": 100676944,
           "canonicalSignature": "(System.Int32,System.Int32,System.Int32):System.Int32",
           "normalizedSignature": "GetDaysInMonth|(System.Int32,System.Int32,System.Int32):System.Int32|static=false",
@@ -19048,7 +19048,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.HijriCalendar::GetDaysInYear(System.Int32,System.Int32):System.Int32",
           "clrName": "GetDaysInYear",
-          "tsEmitName": "getDaysInYear",
+          "tsEmitName": "getDaysInYear2",
           "metadataToken": 100676945,
           "canonicalSignature": "(System.Int32,System.Int32):System.Int32",
           "normalizedSignature": "GetDaysInYear|(System.Int32,System.Int32):System.Int32|static=false",
@@ -19090,7 +19090,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.HijriCalendar::GetMonthsInYear(System.Int32,System.Int32):System.Int32",
           "clrName": "GetMonthsInYear",
-          "tsEmitName": "getMonthsInYear",
+          "tsEmitName": "getMonthsInYear2",
           "metadataToken": 100676949,
           "canonicalSignature": "(System.Int32,System.Int32):System.Int32",
           "normalizedSignature": "GetMonthsInYear|(System.Int32,System.Int32):System.Int32|static=false",
@@ -19118,7 +19118,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.HijriCalendar::IsLeapDay(System.Int32,System.Int32,System.Int32,System.Int32):System.Boolean",
           "clrName": "IsLeapDay",
-          "tsEmitName": "isLeapDay",
+          "tsEmitName": "isLeapDay2",
           "metadataToken": 100676951,
           "canonicalSignature": "(System.Int32,System.Int32,System.Int32,System.Int32):System.Boolean",
           "normalizedSignature": "IsLeapDay|(System.Int32,System.Int32,System.Int32,System.Int32):System.Boolean|static=false",
@@ -19132,7 +19132,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.HijriCalendar::GetLeapMonth(System.Int32,System.Int32):System.Int32",
           "clrName": "GetLeapMonth",
-          "tsEmitName": "getLeapMonth",
+          "tsEmitName": "getLeapMonth2",
           "metadataToken": 100676952,
           "canonicalSignature": "(System.Int32,System.Int32):System.Int32",
           "normalizedSignature": "GetLeapMonth|(System.Int32,System.Int32):System.Int32|static=false",
@@ -19146,7 +19146,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.HijriCalendar::IsLeapMonth(System.Int32,System.Int32,System.Int32):System.Boolean",
           "clrName": "IsLeapMonth",
-          "tsEmitName": "isLeapMonth",
+          "tsEmitName": "isLeapMonth2",
           "metadataToken": 100676953,
           "canonicalSignature": "(System.Int32,System.Int32,System.Int32):System.Boolean",
           "normalizedSignature": "IsLeapMonth|(System.Int32,System.Int32,System.Int32):System.Boolean|static=false",
@@ -19160,7 +19160,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.HijriCalendar::IsLeapYear(System.Int32,System.Int32):System.Boolean",
           "clrName": "IsLeapYear",
-          "tsEmitName": "isLeapYear",
+          "tsEmitName": "isLeapYear2",
           "metadataToken": 100676954,
           "canonicalSignature": "(System.Int32,System.Int32):System.Boolean",
           "normalizedSignature": "IsLeapYear|(System.Int32,System.Int32):System.Boolean|static=false",
@@ -19174,7 +19174,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.HijriCalendar::ToDateTime(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32):System.DateTime",
           "clrName": "ToDateTime",
-          "tsEmitName": "toDateTime",
+          "tsEmitName": "toDateTime2",
           "metadataToken": 100676955,
           "canonicalSignature": "(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32):System.DateTime",
           "normalizedSignature": "ToDateTime|(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32):System.DateTime|static=false",
@@ -19202,7 +19202,7 @@
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "clone",
+          "tsEmitName": "clone$view",
           "metadataToken": 100668509,
           "canonicalSignature": "():System.Object",
           "normalizedSignature": "Clone|():System.Object|static=false",
@@ -19216,7 +19216,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.HijriCalendar::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "Clone",
+          "tsEmitName": "clone",
           "metadataToken": 0,
           "canonicalSignature": "():System.Object",
           "normalizedSignature": "Clone|():System.Object|static=false",
@@ -19230,7 +19230,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.HijriCalendar::GetDaysInMonth(System.Int32,System.Int32):System.Int32",
           "clrName": "GetDaysInMonth",
-          "tsEmitName": "GetDaysInMonth",
+          "tsEmitName": "getDaysInMonth",
           "metadataToken": 0,
           "canonicalSignature": "(System.Int32,System.Int32):System.Int32",
           "normalizedSignature": "GetDaysInMonth|(System.Int32,System.Int32):System.Int32|static=false",
@@ -19244,7 +19244,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.HijriCalendar::GetDaysInYear(System.Int32):System.Int32",
           "clrName": "GetDaysInYear",
-          "tsEmitName": "GetDaysInYear",
+          "tsEmitName": "getDaysInYear",
           "metadataToken": 0,
           "canonicalSignature": "(System.Int32):System.Int32",
           "normalizedSignature": "GetDaysInYear|(System.Int32):System.Int32|static=false",
@@ -19258,7 +19258,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.HijriCalendar::GetLeapMonth(System.Int32):System.Int32",
           "clrName": "GetLeapMonth",
-          "tsEmitName": "GetLeapMonth",
+          "tsEmitName": "getLeapMonth",
           "metadataToken": 0,
           "canonicalSignature": "(System.Int32):System.Int32",
           "normalizedSignature": "GetLeapMonth|(System.Int32):System.Int32|static=false",
@@ -19272,7 +19272,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.HijriCalendar::GetMonthsInYear(System.Int32):System.Int32",
           "clrName": "GetMonthsInYear",
-          "tsEmitName": "GetMonthsInYear",
+          "tsEmitName": "getMonthsInYear",
           "metadataToken": 0,
           "canonicalSignature": "(System.Int32):System.Int32",
           "normalizedSignature": "GetMonthsInYear|(System.Int32):System.Int32|static=false",
@@ -19286,7 +19286,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.HijriCalendar::IsLeapDay(System.Int32,System.Int32,System.Int32):System.Boolean",
           "clrName": "IsLeapDay",
-          "tsEmitName": "IsLeapDay",
+          "tsEmitName": "isLeapDay",
           "metadataToken": 0,
           "canonicalSignature": "(System.Int32,System.Int32,System.Int32):System.Boolean",
           "normalizedSignature": "IsLeapDay|(System.Int32,System.Int32,System.Int32):System.Boolean|static=false",
@@ -19300,7 +19300,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.HijriCalendar::IsLeapMonth(System.Int32,System.Int32):System.Boolean",
           "clrName": "IsLeapMonth",
-          "tsEmitName": "IsLeapMonth",
+          "tsEmitName": "isLeapMonth",
           "metadataToken": 0,
           "canonicalSignature": "(System.Int32,System.Int32):System.Boolean",
           "normalizedSignature": "IsLeapMonth|(System.Int32,System.Int32):System.Boolean|static=false",
@@ -19314,7 +19314,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.HijriCalendar::IsLeapYear(System.Int32):System.Boolean",
           "clrName": "IsLeapYear",
-          "tsEmitName": "IsLeapYear",
+          "tsEmitName": "isLeapYear",
           "metadataToken": 0,
           "canonicalSignature": "(System.Int32):System.Boolean",
           "normalizedSignature": "IsLeapYear|(System.Int32):System.Boolean|static=false",
@@ -19328,7 +19328,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.HijriCalendar::ToDateTime(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32):System.DateTime",
           "clrName": "ToDateTime",
-          "tsEmitName": "ToDateTime",
+          "tsEmitName": "toDateTime",
           "metadataToken": 0,
           "canonicalSignature": "(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32):System.DateTime",
           "normalizedSignature": "ToDateTime|(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32):System.DateTime|static=false",
@@ -19504,7 +19504,7 @@
           }
         },
         {
-          "tsName": "getDaysInMonth",
+          "tsName": "getDaysInMonth2",
           "isStatic": false,
           "tsSignatureId": "GetDaysInMonth|(System.Int32,System.Int32,System.Int32):System.Int32|static=false",
           "target": {
@@ -19514,7 +19514,7 @@
           }
         },
         {
-          "tsName": "getDaysInYear",
+          "tsName": "getDaysInYear2",
           "isStatic": false,
           "tsSignatureId": "GetDaysInYear|(System.Int32,System.Int32):System.Int32|static=false",
           "target": {
@@ -19544,7 +19544,7 @@
           }
         },
         {
-          "tsName": "getMonthsInYear",
+          "tsName": "getMonthsInYear2",
           "isStatic": false,
           "tsSignatureId": "GetMonthsInYear|(System.Int32,System.Int32):System.Int32|static=false",
           "target": {
@@ -19564,7 +19564,7 @@
           }
         },
         {
-          "tsName": "isLeapDay",
+          "tsName": "isLeapDay2",
           "isStatic": false,
           "tsSignatureId": "IsLeapDay|(System.Int32,System.Int32,System.Int32,System.Int32):System.Boolean|static=false",
           "target": {
@@ -19574,7 +19574,7 @@
           }
         },
         {
-          "tsName": "getLeapMonth",
+          "tsName": "getLeapMonth2",
           "isStatic": false,
           "tsSignatureId": "GetLeapMonth|(System.Int32,System.Int32):System.Int32|static=false",
           "target": {
@@ -19584,7 +19584,7 @@
           }
         },
         {
-          "tsName": "isLeapMonth",
+          "tsName": "isLeapMonth2",
           "isStatic": false,
           "tsSignatureId": "IsLeapMonth|(System.Int32,System.Int32,System.Int32):System.Boolean|static=false",
           "target": {
@@ -19594,7 +19594,7 @@
           }
         },
         {
-          "tsName": "isLeapYear",
+          "tsName": "isLeapYear2",
           "isStatic": false,
           "tsSignatureId": "IsLeapYear|(System.Int32,System.Int32):System.Boolean|static=false",
           "target": {
@@ -19604,7 +19604,7 @@
           }
         },
         {
-          "tsName": "toDateTime",
+          "tsName": "toDateTime2",
           "isStatic": false,
           "tsSignatureId": "ToDateTime|(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32):System.DateTime|static=false",
           "target": {
@@ -19624,7 +19624,7 @@
           }
         },
         {
-          "tsName": "clone",
+          "tsName": "clone$view",
           "isStatic": false,
           "tsSignatureId": "Clone|():System.Object|static=false",
           "target": {
@@ -19634,7 +19634,7 @@
           }
         },
         {
-          "tsName": "Clone",
+          "tsName": "clone",
           "isStatic": false,
           "tsSignatureId": "Clone|():System.Object|static=false",
           "target": {
@@ -19644,7 +19644,7 @@
           }
         },
         {
-          "tsName": "GetDaysInMonth",
+          "tsName": "getDaysInMonth",
           "isStatic": false,
           "tsSignatureId": "GetDaysInMonth|(System.Int32,System.Int32):System.Int32|static=false",
           "target": {
@@ -19654,7 +19654,7 @@
           }
         },
         {
-          "tsName": "GetDaysInYear",
+          "tsName": "getDaysInYear",
           "isStatic": false,
           "tsSignatureId": "GetDaysInYear|(System.Int32):System.Int32|static=false",
           "target": {
@@ -19664,7 +19664,7 @@
           }
         },
         {
-          "tsName": "GetLeapMonth",
+          "tsName": "getLeapMonth",
           "isStatic": false,
           "tsSignatureId": "GetLeapMonth|(System.Int32):System.Int32|static=false",
           "target": {
@@ -19674,7 +19674,7 @@
           }
         },
         {
-          "tsName": "GetMonthsInYear",
+          "tsName": "getMonthsInYear",
           "isStatic": false,
           "tsSignatureId": "GetMonthsInYear|(System.Int32):System.Int32|static=false",
           "target": {
@@ -19684,7 +19684,7 @@
           }
         },
         {
-          "tsName": "IsLeapDay",
+          "tsName": "isLeapDay",
           "isStatic": false,
           "tsSignatureId": "IsLeapDay|(System.Int32,System.Int32,System.Int32):System.Boolean|static=false",
           "target": {
@@ -19694,7 +19694,7 @@
           }
         },
         {
-          "tsName": "IsLeapMonth",
+          "tsName": "isLeapMonth",
           "isStatic": false,
           "tsSignatureId": "IsLeapMonth|(System.Int32,System.Int32):System.Boolean|static=false",
           "target": {
@@ -19704,7 +19704,7 @@
           }
         },
         {
-          "tsName": "IsLeapYear",
+          "tsName": "isLeapYear",
           "isStatic": false,
           "tsSignatureId": "IsLeapYear|(System.Int32):System.Boolean|static=false",
           "target": {
@@ -19714,7 +19714,7 @@
           }
         },
         {
-          "tsName": "ToDateTime",
+          "tsName": "toDateTime",
           "isStatic": false,
           "tsSignatureId": "ToDateTime|(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32):System.DateTime|static=false",
           "target": {
@@ -20358,7 +20358,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.JapaneseCalendar::GetDaysInMonth(System.Int32,System.Int32,System.Int32):System.Int32",
           "clrName": "GetDaysInMonth",
-          "tsEmitName": "getDaysInMonth",
+          "tsEmitName": "getDaysInMonth2",
           "metadataToken": 100677039,
           "canonicalSignature": "(System.Int32,System.Int32,System.Int32):System.Int32",
           "normalizedSignature": "GetDaysInMonth|(System.Int32,System.Int32,System.Int32):System.Int32|static=false",
@@ -20372,7 +20372,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.JapaneseCalendar::GetDaysInYear(System.Int32,System.Int32):System.Int32",
           "clrName": "GetDaysInYear",
-          "tsEmitName": "getDaysInYear",
+          "tsEmitName": "getDaysInYear2",
           "metadataToken": 100677040,
           "canonicalSignature": "(System.Int32,System.Int32):System.Int32",
           "normalizedSignature": "GetDaysInYear|(System.Int32,System.Int32):System.Int32|static=false",
@@ -20428,7 +20428,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.JapaneseCalendar::GetMonthsInYear(System.Int32,System.Int32):System.Int32",
           "clrName": "GetMonthsInYear",
-          "tsEmitName": "getMonthsInYear",
+          "tsEmitName": "getMonthsInYear2",
           "metadataToken": 100677044,
           "canonicalSignature": "(System.Int32,System.Int32):System.Int32",
           "normalizedSignature": "GetMonthsInYear|(System.Int32,System.Int32):System.Int32|static=false",
@@ -20498,7 +20498,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.JapaneseCalendar::IsLeapDay(System.Int32,System.Int32,System.Int32,System.Int32):System.Boolean",
           "clrName": "IsLeapDay",
-          "tsEmitName": "isLeapDay",
+          "tsEmitName": "isLeapDay2",
           "metadataToken": 100677049,
           "canonicalSignature": "(System.Int32,System.Int32,System.Int32,System.Int32):System.Boolean",
           "normalizedSignature": "IsLeapDay|(System.Int32,System.Int32,System.Int32,System.Int32):System.Boolean|static=false",
@@ -20512,7 +20512,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.JapaneseCalendar::IsLeapYear(System.Int32,System.Int32):System.Boolean",
           "clrName": "IsLeapYear",
-          "tsEmitName": "isLeapYear",
+          "tsEmitName": "isLeapYear2",
           "metadataToken": 100677050,
           "canonicalSignature": "(System.Int32,System.Int32):System.Boolean",
           "normalizedSignature": "IsLeapYear|(System.Int32,System.Int32):System.Boolean|static=false",
@@ -20526,7 +20526,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.JapaneseCalendar::GetLeapMonth(System.Int32,System.Int32):System.Int32",
           "clrName": "GetLeapMonth",
-          "tsEmitName": "getLeapMonth",
+          "tsEmitName": "getLeapMonth2",
           "metadataToken": 100677051,
           "canonicalSignature": "(System.Int32,System.Int32):System.Int32",
           "normalizedSignature": "GetLeapMonth|(System.Int32,System.Int32):System.Int32|static=false",
@@ -20540,7 +20540,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.JapaneseCalendar::IsLeapMonth(System.Int32,System.Int32,System.Int32):System.Boolean",
           "clrName": "IsLeapMonth",
-          "tsEmitName": "isLeapMonth",
+          "tsEmitName": "isLeapMonth2",
           "metadataToken": 100677052,
           "canonicalSignature": "(System.Int32,System.Int32,System.Int32):System.Boolean",
           "normalizedSignature": "IsLeapMonth|(System.Int32,System.Int32,System.Int32):System.Boolean|static=false",
@@ -20554,7 +20554,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.JapaneseCalendar::ToDateTime(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32):System.DateTime",
           "clrName": "ToDateTime",
-          "tsEmitName": "toDateTime",
+          "tsEmitName": "toDateTime2",
           "metadataToken": 100677053,
           "canonicalSignature": "(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32):System.DateTime",
           "normalizedSignature": "ToDateTime|(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32):System.DateTime|static=false",
@@ -20582,7 +20582,7 @@
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "clone",
+          "tsEmitName": "clone$view",
           "metadataToken": 100668509,
           "canonicalSignature": "():System.Object",
           "normalizedSignature": "Clone|():System.Object|static=false",
@@ -20596,7 +20596,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.JapaneseCalendar::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "Clone",
+          "tsEmitName": "clone",
           "metadataToken": 0,
           "canonicalSignature": "():System.Object",
           "normalizedSignature": "Clone|():System.Object|static=false",
@@ -20610,7 +20610,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.JapaneseCalendar::GetDaysInMonth(System.Int32,System.Int32):System.Int32",
           "clrName": "GetDaysInMonth",
-          "tsEmitName": "GetDaysInMonth",
+          "tsEmitName": "getDaysInMonth",
           "metadataToken": 0,
           "canonicalSignature": "(System.Int32,System.Int32):System.Int32",
           "normalizedSignature": "GetDaysInMonth|(System.Int32,System.Int32):System.Int32|static=false",
@@ -20624,7 +20624,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.JapaneseCalendar::GetDaysInYear(System.Int32):System.Int32",
           "clrName": "GetDaysInYear",
-          "tsEmitName": "GetDaysInYear",
+          "tsEmitName": "getDaysInYear",
           "metadataToken": 0,
           "canonicalSignature": "(System.Int32):System.Int32",
           "normalizedSignature": "GetDaysInYear|(System.Int32):System.Int32|static=false",
@@ -20638,7 +20638,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.JapaneseCalendar::GetLeapMonth(System.Int32):System.Int32",
           "clrName": "GetLeapMonth",
-          "tsEmitName": "GetLeapMonth",
+          "tsEmitName": "getLeapMonth",
           "metadataToken": 0,
           "canonicalSignature": "(System.Int32):System.Int32",
           "normalizedSignature": "GetLeapMonth|(System.Int32):System.Int32|static=false",
@@ -20652,7 +20652,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.JapaneseCalendar::GetMonthsInYear(System.Int32):System.Int32",
           "clrName": "GetMonthsInYear",
-          "tsEmitName": "GetMonthsInYear",
+          "tsEmitName": "getMonthsInYear",
           "metadataToken": 0,
           "canonicalSignature": "(System.Int32):System.Int32",
           "normalizedSignature": "GetMonthsInYear|(System.Int32):System.Int32|static=false",
@@ -20666,7 +20666,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.JapaneseCalendar::IsLeapDay(System.Int32,System.Int32,System.Int32):System.Boolean",
           "clrName": "IsLeapDay",
-          "tsEmitName": "IsLeapDay",
+          "tsEmitName": "isLeapDay",
           "metadataToken": 0,
           "canonicalSignature": "(System.Int32,System.Int32,System.Int32):System.Boolean",
           "normalizedSignature": "IsLeapDay|(System.Int32,System.Int32,System.Int32):System.Boolean|static=false",
@@ -20680,7 +20680,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.JapaneseCalendar::IsLeapMonth(System.Int32,System.Int32):System.Boolean",
           "clrName": "IsLeapMonth",
-          "tsEmitName": "IsLeapMonth",
+          "tsEmitName": "isLeapMonth",
           "metadataToken": 0,
           "canonicalSignature": "(System.Int32,System.Int32):System.Boolean",
           "normalizedSignature": "IsLeapMonth|(System.Int32,System.Int32):System.Boolean|static=false",
@@ -20694,7 +20694,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.JapaneseCalendar::IsLeapYear(System.Int32):System.Boolean",
           "clrName": "IsLeapYear",
-          "tsEmitName": "IsLeapYear",
+          "tsEmitName": "isLeapYear",
           "metadataToken": 0,
           "canonicalSignature": "(System.Int32):System.Boolean",
           "normalizedSignature": "IsLeapYear|(System.Int32):System.Boolean|static=false",
@@ -20708,7 +20708,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.JapaneseCalendar::ToDateTime(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32):System.DateTime",
           "clrName": "ToDateTime",
-          "tsEmitName": "ToDateTime",
+          "tsEmitName": "toDateTime",
           "metadataToken": 0,
           "canonicalSignature": "(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32):System.DateTime",
           "normalizedSignature": "ToDateTime|(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32):System.DateTime|static=false",
@@ -20828,7 +20828,7 @@
           }
         },
         {
-          "tsName": "getDaysInMonth",
+          "tsName": "getDaysInMonth2",
           "isStatic": false,
           "tsSignatureId": "GetDaysInMonth|(System.Int32,System.Int32,System.Int32):System.Int32|static=false",
           "target": {
@@ -20838,7 +20838,7 @@
           }
         },
         {
-          "tsName": "getDaysInYear",
+          "tsName": "getDaysInYear2",
           "isStatic": false,
           "tsSignatureId": "GetDaysInYear|(System.Int32,System.Int32):System.Int32|static=false",
           "target": {
@@ -20878,7 +20878,7 @@
           }
         },
         {
-          "tsName": "getMonthsInYear",
+          "tsName": "getMonthsInYear2",
           "isStatic": false,
           "tsSignatureId": "GetMonthsInYear|(System.Int32,System.Int32):System.Int32|static=false",
           "target": {
@@ -20928,7 +20928,7 @@
           }
         },
         {
-          "tsName": "isLeapDay",
+          "tsName": "isLeapDay2",
           "isStatic": false,
           "tsSignatureId": "IsLeapDay|(System.Int32,System.Int32,System.Int32,System.Int32):System.Boolean|static=false",
           "target": {
@@ -20938,7 +20938,7 @@
           }
         },
         {
-          "tsName": "isLeapYear",
+          "tsName": "isLeapYear2",
           "isStatic": false,
           "tsSignatureId": "IsLeapYear|(System.Int32,System.Int32):System.Boolean|static=false",
           "target": {
@@ -20948,7 +20948,7 @@
           }
         },
         {
-          "tsName": "getLeapMonth",
+          "tsName": "getLeapMonth2",
           "isStatic": false,
           "tsSignatureId": "GetLeapMonth|(System.Int32,System.Int32):System.Int32|static=false",
           "target": {
@@ -20958,7 +20958,7 @@
           }
         },
         {
-          "tsName": "isLeapMonth",
+          "tsName": "isLeapMonth2",
           "isStatic": false,
           "tsSignatureId": "IsLeapMonth|(System.Int32,System.Int32,System.Int32):System.Boolean|static=false",
           "target": {
@@ -20968,7 +20968,7 @@
           }
         },
         {
-          "tsName": "toDateTime",
+          "tsName": "toDateTime2",
           "isStatic": false,
           "tsSignatureId": "ToDateTime|(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32):System.DateTime|static=false",
           "target": {
@@ -20988,7 +20988,7 @@
           }
         },
         {
-          "tsName": "clone",
+          "tsName": "clone$view",
           "isStatic": false,
           "tsSignatureId": "Clone|():System.Object|static=false",
           "target": {
@@ -20998,7 +20998,7 @@
           }
         },
         {
-          "tsName": "Clone",
+          "tsName": "clone",
           "isStatic": false,
           "tsSignatureId": "Clone|():System.Object|static=false",
           "target": {
@@ -21008,7 +21008,7 @@
           }
         },
         {
-          "tsName": "GetDaysInMonth",
+          "tsName": "getDaysInMonth",
           "isStatic": false,
           "tsSignatureId": "GetDaysInMonth|(System.Int32,System.Int32):System.Int32|static=false",
           "target": {
@@ -21018,7 +21018,7 @@
           }
         },
         {
-          "tsName": "GetDaysInYear",
+          "tsName": "getDaysInYear",
           "isStatic": false,
           "tsSignatureId": "GetDaysInYear|(System.Int32):System.Int32|static=false",
           "target": {
@@ -21028,7 +21028,7 @@
           }
         },
         {
-          "tsName": "GetLeapMonth",
+          "tsName": "getLeapMonth",
           "isStatic": false,
           "tsSignatureId": "GetLeapMonth|(System.Int32):System.Int32|static=false",
           "target": {
@@ -21038,7 +21038,7 @@
           }
         },
         {
-          "tsName": "GetMonthsInYear",
+          "tsName": "getMonthsInYear",
           "isStatic": false,
           "tsSignatureId": "GetMonthsInYear|(System.Int32):System.Int32|static=false",
           "target": {
@@ -21048,7 +21048,7 @@
           }
         },
         {
-          "tsName": "IsLeapDay",
+          "tsName": "isLeapDay",
           "isStatic": false,
           "tsSignatureId": "IsLeapDay|(System.Int32,System.Int32,System.Int32):System.Boolean|static=false",
           "target": {
@@ -21058,7 +21058,7 @@
           }
         },
         {
-          "tsName": "IsLeapMonth",
+          "tsName": "isLeapMonth",
           "isStatic": false,
           "tsSignatureId": "IsLeapMonth|(System.Int32,System.Int32):System.Boolean|static=false",
           "target": {
@@ -21068,7 +21068,7 @@
           }
         },
         {
-          "tsName": "IsLeapYear",
+          "tsName": "isLeapYear",
           "isStatic": false,
           "tsSignatureId": "IsLeapYear|(System.Int32):System.Boolean|static=false",
           "target": {
@@ -21078,7 +21078,7 @@
           }
         },
         {
-          "tsName": "ToDateTime",
+          "tsName": "toDateTime",
           "isStatic": false,
           "tsSignatureId": "ToDateTime|(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32):System.DateTime|static=false",
           "target": {
@@ -21356,7 +21356,7 @@
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "clone",
+          "tsEmitName": "clone$view",
           "metadataToken": 100668509,
           "canonicalSignature": "():System.Object",
           "normalizedSignature": "Clone|():System.Object|static=false",
@@ -21370,7 +21370,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.JapaneseLunisolarCalendar::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "Clone",
+          "tsEmitName": "clone",
           "metadataToken": 0,
           "canonicalSignature": "():System.Object",
           "normalizedSignature": "Clone|():System.Object|static=false",
@@ -21464,7 +21464,7 @@
           }
         },
         {
-          "tsName": "clone",
+          "tsName": "clone$view",
           "isStatic": false,
           "tsSignatureId": "Clone|():System.Object|static=false",
           "target": {
@@ -21474,7 +21474,7 @@
           }
         },
         {
-          "tsName": "Clone",
+          "tsName": "clone",
           "isStatic": false,
           "tsSignatureId": "Clone|():System.Object|static=false",
           "target": {
@@ -21514,7 +21514,7 @@
           }
         },
         {
-          "tsName": "getDaysInMonth",
+          "tsName": "getDaysInMonth2",
           "isStatic": false,
           "tsSignatureId": "GetDaysInMonth|(System.Int32,System.Int32,System.Int32):System.Int32|static=false",
           "target": {
@@ -21524,7 +21524,7 @@
           }
         },
         {
-          "tsName": "toDateTime",
+          "tsName": "toDateTime2",
           "isStatic": false,
           "tsSignatureId": "ToDateTime|(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32):System.DateTime|static=false",
           "target": {
@@ -21574,7 +21574,7 @@
           }
         },
         {
-          "tsName": "getDaysInYear",
+          "tsName": "getDaysInYear2",
           "isStatic": false,
           "tsSignatureId": "GetDaysInYear|(System.Int32,System.Int32):System.Int32|static=false",
           "target": {
@@ -21614,7 +21614,7 @@
           }
         },
         {
-          "tsName": "getMonthsInYear",
+          "tsName": "getMonthsInYear2",
           "isStatic": false,
           "tsSignatureId": "GetMonthsInYear|(System.Int32,System.Int32):System.Int32|static=false",
           "target": {
@@ -21624,7 +21624,7 @@
           }
         },
         {
-          "tsName": "isLeapDay",
+          "tsName": "isLeapDay2",
           "isStatic": false,
           "tsSignatureId": "IsLeapDay|(System.Int32,System.Int32,System.Int32,System.Int32):System.Boolean|static=false",
           "target": {
@@ -21634,7 +21634,7 @@
           }
         },
         {
-          "tsName": "isLeapMonth",
+          "tsName": "isLeapMonth2",
           "isStatic": false,
           "tsSignatureId": "IsLeapMonth|(System.Int32,System.Int32,System.Int32):System.Boolean|static=false",
           "target": {
@@ -21644,7 +21644,7 @@
           }
         },
         {
-          "tsName": "getLeapMonth",
+          "tsName": "getLeapMonth2",
           "isStatic": false,
           "tsSignatureId": "GetLeapMonth|(System.Int32,System.Int32):System.Int32|static=false",
           "target": {
@@ -21654,7 +21654,7 @@
           }
         },
         {
-          "tsName": "isLeapYear",
+          "tsName": "isLeapYear2",
           "isStatic": false,
           "tsSignatureId": "IsLeapYear|(System.Int32,System.Int32):System.Boolean|static=false",
           "target": {
@@ -21674,7 +21674,7 @@
           }
         },
         {
-          "tsName": "GetDaysInMonth",
+          "tsName": "getDaysInMonth",
           "isStatic": false,
           "tsSignatureId": "GetDaysInMonth|(System.Int32,System.Int32):System.Int32|static=false",
           "target": {
@@ -21684,7 +21684,7 @@
           }
         },
         {
-          "tsName": "GetDaysInYear",
+          "tsName": "getDaysInYear",
           "isStatic": false,
           "tsSignatureId": "GetDaysInYear|(System.Int32):System.Int32|static=false",
           "target": {
@@ -21694,7 +21694,7 @@
           }
         },
         {
-          "tsName": "GetLeapMonth",
+          "tsName": "getLeapMonth",
           "isStatic": false,
           "tsSignatureId": "GetLeapMonth|(System.Int32):System.Int32|static=false",
           "target": {
@@ -21704,7 +21704,7 @@
           }
         },
         {
-          "tsName": "GetMonthsInYear",
+          "tsName": "getMonthsInYear",
           "isStatic": false,
           "tsSignatureId": "GetMonthsInYear|(System.Int32):System.Int32|static=false",
           "target": {
@@ -21714,7 +21714,7 @@
           }
         },
         {
-          "tsName": "IsLeapDay",
+          "tsName": "isLeapDay",
           "isStatic": false,
           "tsSignatureId": "IsLeapDay|(System.Int32,System.Int32,System.Int32):System.Boolean|static=false",
           "target": {
@@ -21724,7 +21724,7 @@
           }
         },
         {
-          "tsName": "IsLeapMonth",
+          "tsName": "isLeapMonth",
           "isStatic": false,
           "tsSignatureId": "IsLeapMonth|(System.Int32,System.Int32):System.Boolean|static=false",
           "target": {
@@ -21734,7 +21734,7 @@
           }
         },
         {
-          "tsName": "IsLeapYear",
+          "tsName": "isLeapYear",
           "isStatic": false,
           "tsSignatureId": "IsLeapYear|(System.Int32):System.Boolean|static=false",
           "target": {
@@ -21744,7 +21744,7 @@
           }
         },
         {
-          "tsName": "ToDateTime",
+          "tsName": "toDateTime",
           "isStatic": false,
           "tsSignatureId": "ToDateTime|(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32):System.DateTime|static=false",
           "target": {
@@ -22100,7 +22100,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.JulianCalendar::GetDaysInMonth(System.Int32,System.Int32,System.Int32):System.Int32",
           "clrName": "GetDaysInMonth",
-          "tsEmitName": "getDaysInMonth",
+          "tsEmitName": "getDaysInMonth2",
           "metadataToken": 100677100,
           "canonicalSignature": "(System.Int32,System.Int32,System.Int32):System.Int32",
           "normalizedSignature": "GetDaysInMonth|(System.Int32,System.Int32,System.Int32):System.Int32|static=false",
@@ -22114,7 +22114,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.JulianCalendar::GetDaysInYear(System.Int32,System.Int32):System.Int32",
           "clrName": "GetDaysInYear",
-          "tsEmitName": "getDaysInYear",
+          "tsEmitName": "getDaysInYear2",
           "metadataToken": 100677101,
           "canonicalSignature": "(System.Int32,System.Int32):System.Int32",
           "normalizedSignature": "GetDaysInYear|(System.Int32,System.Int32):System.Int32|static=false",
@@ -22156,7 +22156,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.JulianCalendar::GetMonthsInYear(System.Int32,System.Int32):System.Int32",
           "clrName": "GetMonthsInYear",
-          "tsEmitName": "getMonthsInYear",
+          "tsEmitName": "getMonthsInYear2",
           "metadataToken": 100677105,
           "canonicalSignature": "(System.Int32,System.Int32):System.Int32",
           "normalizedSignature": "GetMonthsInYear|(System.Int32,System.Int32):System.Int32|static=false",
@@ -22184,7 +22184,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.JulianCalendar::IsLeapDay(System.Int32,System.Int32,System.Int32,System.Int32):System.Boolean",
           "clrName": "IsLeapDay",
-          "tsEmitName": "isLeapDay",
+          "tsEmitName": "isLeapDay2",
           "metadataToken": 100677107,
           "canonicalSignature": "(System.Int32,System.Int32,System.Int32,System.Int32):System.Boolean",
           "normalizedSignature": "IsLeapDay|(System.Int32,System.Int32,System.Int32,System.Int32):System.Boolean|static=false",
@@ -22198,7 +22198,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.JulianCalendar::GetLeapMonth(System.Int32,System.Int32):System.Int32",
           "clrName": "GetLeapMonth",
-          "tsEmitName": "getLeapMonth",
+          "tsEmitName": "getLeapMonth2",
           "metadataToken": 100677108,
           "canonicalSignature": "(System.Int32,System.Int32):System.Int32",
           "normalizedSignature": "GetLeapMonth|(System.Int32,System.Int32):System.Int32|static=false",
@@ -22212,7 +22212,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.JulianCalendar::IsLeapMonth(System.Int32,System.Int32,System.Int32):System.Boolean",
           "clrName": "IsLeapMonth",
-          "tsEmitName": "isLeapMonth",
+          "tsEmitName": "isLeapMonth2",
           "metadataToken": 100677109,
           "canonicalSignature": "(System.Int32,System.Int32,System.Int32):System.Boolean",
           "normalizedSignature": "IsLeapMonth|(System.Int32,System.Int32,System.Int32):System.Boolean|static=false",
@@ -22226,7 +22226,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.JulianCalendar::IsLeapYear(System.Int32,System.Int32):System.Boolean",
           "clrName": "IsLeapYear",
-          "tsEmitName": "isLeapYear",
+          "tsEmitName": "isLeapYear2",
           "metadataToken": 100677110,
           "canonicalSignature": "(System.Int32,System.Int32):System.Boolean",
           "normalizedSignature": "IsLeapYear|(System.Int32,System.Int32):System.Boolean|static=false",
@@ -22240,7 +22240,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.JulianCalendar::ToDateTime(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32):System.DateTime",
           "clrName": "ToDateTime",
-          "tsEmitName": "toDateTime",
+          "tsEmitName": "toDateTime2",
           "metadataToken": 100677111,
           "canonicalSignature": "(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32):System.DateTime",
           "normalizedSignature": "ToDateTime|(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32):System.DateTime|static=false",
@@ -22268,7 +22268,7 @@
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "clone",
+          "tsEmitName": "clone$view",
           "metadataToken": 100668509,
           "canonicalSignature": "():System.Object",
           "normalizedSignature": "Clone|():System.Object|static=false",
@@ -22282,7 +22282,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.JulianCalendar::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "Clone",
+          "tsEmitName": "clone",
           "metadataToken": 0,
           "canonicalSignature": "():System.Object",
           "normalizedSignature": "Clone|():System.Object|static=false",
@@ -22296,7 +22296,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.JulianCalendar::GetDaysInMonth(System.Int32,System.Int32):System.Int32",
           "clrName": "GetDaysInMonth",
-          "tsEmitName": "GetDaysInMonth",
+          "tsEmitName": "getDaysInMonth",
           "metadataToken": 0,
           "canonicalSignature": "(System.Int32,System.Int32):System.Int32",
           "normalizedSignature": "GetDaysInMonth|(System.Int32,System.Int32):System.Int32|static=false",
@@ -22310,7 +22310,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.JulianCalendar::GetDaysInYear(System.Int32):System.Int32",
           "clrName": "GetDaysInYear",
-          "tsEmitName": "GetDaysInYear",
+          "tsEmitName": "getDaysInYear",
           "metadataToken": 0,
           "canonicalSignature": "(System.Int32):System.Int32",
           "normalizedSignature": "GetDaysInYear|(System.Int32):System.Int32|static=false",
@@ -22324,7 +22324,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.JulianCalendar::GetLeapMonth(System.Int32):System.Int32",
           "clrName": "GetLeapMonth",
-          "tsEmitName": "GetLeapMonth",
+          "tsEmitName": "getLeapMonth",
           "metadataToken": 0,
           "canonicalSignature": "(System.Int32):System.Int32",
           "normalizedSignature": "GetLeapMonth|(System.Int32):System.Int32|static=false",
@@ -22338,7 +22338,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.JulianCalendar::GetMonthsInYear(System.Int32):System.Int32",
           "clrName": "GetMonthsInYear",
-          "tsEmitName": "GetMonthsInYear",
+          "tsEmitName": "getMonthsInYear",
           "metadataToken": 0,
           "canonicalSignature": "(System.Int32):System.Int32",
           "normalizedSignature": "GetMonthsInYear|(System.Int32):System.Int32|static=false",
@@ -22352,7 +22352,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.JulianCalendar::IsLeapDay(System.Int32,System.Int32,System.Int32):System.Boolean",
           "clrName": "IsLeapDay",
-          "tsEmitName": "IsLeapDay",
+          "tsEmitName": "isLeapDay",
           "metadataToken": 0,
           "canonicalSignature": "(System.Int32,System.Int32,System.Int32):System.Boolean",
           "normalizedSignature": "IsLeapDay|(System.Int32,System.Int32,System.Int32):System.Boolean|static=false",
@@ -22366,7 +22366,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.JulianCalendar::IsLeapMonth(System.Int32,System.Int32):System.Boolean",
           "clrName": "IsLeapMonth",
-          "tsEmitName": "IsLeapMonth",
+          "tsEmitName": "isLeapMonth",
           "metadataToken": 0,
           "canonicalSignature": "(System.Int32,System.Int32):System.Boolean",
           "normalizedSignature": "IsLeapMonth|(System.Int32,System.Int32):System.Boolean|static=false",
@@ -22380,7 +22380,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.JulianCalendar::IsLeapYear(System.Int32):System.Boolean",
           "clrName": "IsLeapYear",
-          "tsEmitName": "IsLeapYear",
+          "tsEmitName": "isLeapYear",
           "metadataToken": 0,
           "canonicalSignature": "(System.Int32):System.Boolean",
           "normalizedSignature": "IsLeapYear|(System.Int32):System.Boolean|static=false",
@@ -22394,7 +22394,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.JulianCalendar::ToDateTime(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32):System.DateTime",
           "clrName": "ToDateTime",
-          "tsEmitName": "ToDateTime",
+          "tsEmitName": "toDateTime",
           "metadataToken": 0,
           "canonicalSignature": "(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32):System.DateTime",
           "normalizedSignature": "ToDateTime|(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32):System.DateTime|static=false",
@@ -22556,7 +22556,7 @@
           }
         },
         {
-          "tsName": "getDaysInMonth",
+          "tsName": "getDaysInMonth2",
           "isStatic": false,
           "tsSignatureId": "GetDaysInMonth|(System.Int32,System.Int32,System.Int32):System.Int32|static=false",
           "target": {
@@ -22566,7 +22566,7 @@
           }
         },
         {
-          "tsName": "getDaysInYear",
+          "tsName": "getDaysInYear2",
           "isStatic": false,
           "tsSignatureId": "GetDaysInYear|(System.Int32,System.Int32):System.Int32|static=false",
           "target": {
@@ -22596,7 +22596,7 @@
           }
         },
         {
-          "tsName": "getMonthsInYear",
+          "tsName": "getMonthsInYear2",
           "isStatic": false,
           "tsSignatureId": "GetMonthsInYear|(System.Int32,System.Int32):System.Int32|static=false",
           "target": {
@@ -22616,7 +22616,7 @@
           }
         },
         {
-          "tsName": "isLeapDay",
+          "tsName": "isLeapDay2",
           "isStatic": false,
           "tsSignatureId": "IsLeapDay|(System.Int32,System.Int32,System.Int32,System.Int32):System.Boolean|static=false",
           "target": {
@@ -22626,7 +22626,7 @@
           }
         },
         {
-          "tsName": "getLeapMonth",
+          "tsName": "getLeapMonth2",
           "isStatic": false,
           "tsSignatureId": "GetLeapMonth|(System.Int32,System.Int32):System.Int32|static=false",
           "target": {
@@ -22636,7 +22636,7 @@
           }
         },
         {
-          "tsName": "isLeapMonth",
+          "tsName": "isLeapMonth2",
           "isStatic": false,
           "tsSignatureId": "IsLeapMonth|(System.Int32,System.Int32,System.Int32):System.Boolean|static=false",
           "target": {
@@ -22646,7 +22646,7 @@
           }
         },
         {
-          "tsName": "isLeapYear",
+          "tsName": "isLeapYear2",
           "isStatic": false,
           "tsSignatureId": "IsLeapYear|(System.Int32,System.Int32):System.Boolean|static=false",
           "target": {
@@ -22656,7 +22656,7 @@
           }
         },
         {
-          "tsName": "toDateTime",
+          "tsName": "toDateTime2",
           "isStatic": false,
           "tsSignatureId": "ToDateTime|(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32):System.DateTime|static=false",
           "target": {
@@ -22676,7 +22676,7 @@
           }
         },
         {
-          "tsName": "clone",
+          "tsName": "clone$view",
           "isStatic": false,
           "tsSignatureId": "Clone|():System.Object|static=false",
           "target": {
@@ -22686,7 +22686,7 @@
           }
         },
         {
-          "tsName": "Clone",
+          "tsName": "clone",
           "isStatic": false,
           "tsSignatureId": "Clone|():System.Object|static=false",
           "target": {
@@ -22696,7 +22696,7 @@
           }
         },
         {
-          "tsName": "GetDaysInMonth",
+          "tsName": "getDaysInMonth",
           "isStatic": false,
           "tsSignatureId": "GetDaysInMonth|(System.Int32,System.Int32):System.Int32|static=false",
           "target": {
@@ -22706,7 +22706,7 @@
           }
         },
         {
-          "tsName": "GetDaysInYear",
+          "tsName": "getDaysInYear",
           "isStatic": false,
           "tsSignatureId": "GetDaysInYear|(System.Int32):System.Int32|static=false",
           "target": {
@@ -22716,7 +22716,7 @@
           }
         },
         {
-          "tsName": "GetLeapMonth",
+          "tsName": "getLeapMonth",
           "isStatic": false,
           "tsSignatureId": "GetLeapMonth|(System.Int32):System.Int32|static=false",
           "target": {
@@ -22726,7 +22726,7 @@
           }
         },
         {
-          "tsName": "GetMonthsInYear",
+          "tsName": "getMonthsInYear",
           "isStatic": false,
           "tsSignatureId": "GetMonthsInYear|(System.Int32):System.Int32|static=false",
           "target": {
@@ -22736,7 +22736,7 @@
           }
         },
         {
-          "tsName": "IsLeapDay",
+          "tsName": "isLeapDay",
           "isStatic": false,
           "tsSignatureId": "IsLeapDay|(System.Int32,System.Int32,System.Int32):System.Boolean|static=false",
           "target": {
@@ -22746,7 +22746,7 @@
           }
         },
         {
-          "tsName": "IsLeapMonth",
+          "tsName": "isLeapMonth",
           "isStatic": false,
           "tsSignatureId": "IsLeapMonth|(System.Int32,System.Int32):System.Boolean|static=false",
           "target": {
@@ -22756,7 +22756,7 @@
           }
         },
         {
-          "tsName": "IsLeapYear",
+          "tsName": "isLeapYear",
           "isStatic": false,
           "tsSignatureId": "IsLeapYear|(System.Int32):System.Boolean|static=false",
           "target": {
@@ -22766,7 +22766,7 @@
           }
         },
         {
-          "tsName": "ToDateTime",
+          "tsName": "toDateTime",
           "isStatic": false,
           "tsSignatureId": "ToDateTime|(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32):System.DateTime|static=false",
           "target": {
@@ -23080,7 +23080,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.KoreanCalendar::GetDaysInMonth(System.Int32,System.Int32,System.Int32):System.Int32",
           "clrName": "GetDaysInMonth",
-          "tsEmitName": "getDaysInMonth",
+          "tsEmitName": "getDaysInMonth2",
           "metadataToken": 100677123,
           "canonicalSignature": "(System.Int32,System.Int32,System.Int32):System.Int32",
           "normalizedSignature": "GetDaysInMonth|(System.Int32,System.Int32,System.Int32):System.Int32|static=false",
@@ -23094,7 +23094,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.KoreanCalendar::GetDaysInYear(System.Int32,System.Int32):System.Int32",
           "clrName": "GetDaysInYear",
-          "tsEmitName": "getDaysInYear",
+          "tsEmitName": "getDaysInYear2",
           "metadataToken": 100677124,
           "canonicalSignature": "(System.Int32,System.Int32):System.Int32",
           "normalizedSignature": "GetDaysInYear|(System.Int32,System.Int32):System.Int32|static=false",
@@ -23150,7 +23150,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.KoreanCalendar::GetMonthsInYear(System.Int32,System.Int32):System.Int32",
           "clrName": "GetMonthsInYear",
-          "tsEmitName": "getMonthsInYear",
+          "tsEmitName": "getMonthsInYear2",
           "metadataToken": 100677128,
           "canonicalSignature": "(System.Int32,System.Int32):System.Int32",
           "normalizedSignature": "GetMonthsInYear|(System.Int32,System.Int32):System.Int32|static=false",
@@ -23220,7 +23220,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.KoreanCalendar::IsLeapDay(System.Int32,System.Int32,System.Int32,System.Int32):System.Boolean",
           "clrName": "IsLeapDay",
-          "tsEmitName": "isLeapDay",
+          "tsEmitName": "isLeapDay2",
           "metadataToken": 100677133,
           "canonicalSignature": "(System.Int32,System.Int32,System.Int32,System.Int32):System.Boolean",
           "normalizedSignature": "IsLeapDay|(System.Int32,System.Int32,System.Int32,System.Int32):System.Boolean|static=false",
@@ -23234,7 +23234,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.KoreanCalendar::IsLeapYear(System.Int32,System.Int32):System.Boolean",
           "clrName": "IsLeapYear",
-          "tsEmitName": "isLeapYear",
+          "tsEmitName": "isLeapYear2",
           "metadataToken": 100677134,
           "canonicalSignature": "(System.Int32,System.Int32):System.Boolean",
           "normalizedSignature": "IsLeapYear|(System.Int32,System.Int32):System.Boolean|static=false",
@@ -23248,7 +23248,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.KoreanCalendar::GetLeapMonth(System.Int32,System.Int32):System.Int32",
           "clrName": "GetLeapMonth",
-          "tsEmitName": "getLeapMonth",
+          "tsEmitName": "getLeapMonth2",
           "metadataToken": 100677135,
           "canonicalSignature": "(System.Int32,System.Int32):System.Int32",
           "normalizedSignature": "GetLeapMonth|(System.Int32,System.Int32):System.Int32|static=false",
@@ -23262,7 +23262,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.KoreanCalendar::IsLeapMonth(System.Int32,System.Int32,System.Int32):System.Boolean",
           "clrName": "IsLeapMonth",
-          "tsEmitName": "isLeapMonth",
+          "tsEmitName": "isLeapMonth2",
           "metadataToken": 100677136,
           "canonicalSignature": "(System.Int32,System.Int32,System.Int32):System.Boolean",
           "normalizedSignature": "IsLeapMonth|(System.Int32,System.Int32,System.Int32):System.Boolean|static=false",
@@ -23276,7 +23276,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.KoreanCalendar::ToDateTime(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32):System.DateTime",
           "clrName": "ToDateTime",
-          "tsEmitName": "toDateTime",
+          "tsEmitName": "toDateTime2",
           "metadataToken": 100677137,
           "canonicalSignature": "(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32):System.DateTime",
           "normalizedSignature": "ToDateTime|(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32):System.DateTime|static=false",
@@ -23304,7 +23304,7 @@
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "clone",
+          "tsEmitName": "clone$view",
           "metadataToken": 100668509,
           "canonicalSignature": "():System.Object",
           "normalizedSignature": "Clone|():System.Object|static=false",
@@ -23318,7 +23318,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.KoreanCalendar::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "Clone",
+          "tsEmitName": "clone",
           "metadataToken": 0,
           "canonicalSignature": "():System.Object",
           "normalizedSignature": "Clone|():System.Object|static=false",
@@ -23332,7 +23332,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.KoreanCalendar::GetDaysInMonth(System.Int32,System.Int32):System.Int32",
           "clrName": "GetDaysInMonth",
-          "tsEmitName": "GetDaysInMonth",
+          "tsEmitName": "getDaysInMonth",
           "metadataToken": 0,
           "canonicalSignature": "(System.Int32,System.Int32):System.Int32",
           "normalizedSignature": "GetDaysInMonth|(System.Int32,System.Int32):System.Int32|static=false",
@@ -23346,7 +23346,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.KoreanCalendar::GetDaysInYear(System.Int32):System.Int32",
           "clrName": "GetDaysInYear",
-          "tsEmitName": "GetDaysInYear",
+          "tsEmitName": "getDaysInYear",
           "metadataToken": 0,
           "canonicalSignature": "(System.Int32):System.Int32",
           "normalizedSignature": "GetDaysInYear|(System.Int32):System.Int32|static=false",
@@ -23360,7 +23360,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.KoreanCalendar::GetLeapMonth(System.Int32):System.Int32",
           "clrName": "GetLeapMonth",
-          "tsEmitName": "GetLeapMonth",
+          "tsEmitName": "getLeapMonth",
           "metadataToken": 0,
           "canonicalSignature": "(System.Int32):System.Int32",
           "normalizedSignature": "GetLeapMonth|(System.Int32):System.Int32|static=false",
@@ -23374,7 +23374,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.KoreanCalendar::GetMonthsInYear(System.Int32):System.Int32",
           "clrName": "GetMonthsInYear",
-          "tsEmitName": "GetMonthsInYear",
+          "tsEmitName": "getMonthsInYear",
           "metadataToken": 0,
           "canonicalSignature": "(System.Int32):System.Int32",
           "normalizedSignature": "GetMonthsInYear|(System.Int32):System.Int32|static=false",
@@ -23388,7 +23388,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.KoreanCalendar::IsLeapDay(System.Int32,System.Int32,System.Int32):System.Boolean",
           "clrName": "IsLeapDay",
-          "tsEmitName": "IsLeapDay",
+          "tsEmitName": "isLeapDay",
           "metadataToken": 0,
           "canonicalSignature": "(System.Int32,System.Int32,System.Int32):System.Boolean",
           "normalizedSignature": "IsLeapDay|(System.Int32,System.Int32,System.Int32):System.Boolean|static=false",
@@ -23402,7 +23402,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.KoreanCalendar::IsLeapMonth(System.Int32,System.Int32):System.Boolean",
           "clrName": "IsLeapMonth",
-          "tsEmitName": "IsLeapMonth",
+          "tsEmitName": "isLeapMonth",
           "metadataToken": 0,
           "canonicalSignature": "(System.Int32,System.Int32):System.Boolean",
           "normalizedSignature": "IsLeapMonth|(System.Int32,System.Int32):System.Boolean|static=false",
@@ -23416,7 +23416,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.KoreanCalendar::IsLeapYear(System.Int32):System.Boolean",
           "clrName": "IsLeapYear",
-          "tsEmitName": "IsLeapYear",
+          "tsEmitName": "isLeapYear",
           "metadataToken": 0,
           "canonicalSignature": "(System.Int32):System.Boolean",
           "normalizedSignature": "IsLeapYear|(System.Int32):System.Boolean|static=false",
@@ -23430,7 +23430,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.KoreanCalendar::ToDateTime(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32):System.DateTime",
           "clrName": "ToDateTime",
-          "tsEmitName": "ToDateTime",
+          "tsEmitName": "toDateTime",
           "metadataToken": 0,
           "canonicalSignature": "(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32):System.DateTime",
           "normalizedSignature": "ToDateTime|(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32):System.DateTime|static=false",
@@ -23562,7 +23562,7 @@
           }
         },
         {
-          "tsName": "getDaysInMonth",
+          "tsName": "getDaysInMonth2",
           "isStatic": false,
           "tsSignatureId": "GetDaysInMonth|(System.Int32,System.Int32,System.Int32):System.Int32|static=false",
           "target": {
@@ -23572,7 +23572,7 @@
           }
         },
         {
-          "tsName": "getDaysInYear",
+          "tsName": "getDaysInYear2",
           "isStatic": false,
           "tsSignatureId": "GetDaysInYear|(System.Int32,System.Int32):System.Int32|static=false",
           "target": {
@@ -23612,7 +23612,7 @@
           }
         },
         {
-          "tsName": "getMonthsInYear",
+          "tsName": "getMonthsInYear2",
           "isStatic": false,
           "tsSignatureId": "GetMonthsInYear|(System.Int32,System.Int32):System.Int32|static=false",
           "target": {
@@ -23662,7 +23662,7 @@
           }
         },
         {
-          "tsName": "isLeapDay",
+          "tsName": "isLeapDay2",
           "isStatic": false,
           "tsSignatureId": "IsLeapDay|(System.Int32,System.Int32,System.Int32,System.Int32):System.Boolean|static=false",
           "target": {
@@ -23672,7 +23672,7 @@
           }
         },
         {
-          "tsName": "isLeapYear",
+          "tsName": "isLeapYear2",
           "isStatic": false,
           "tsSignatureId": "IsLeapYear|(System.Int32,System.Int32):System.Boolean|static=false",
           "target": {
@@ -23682,7 +23682,7 @@
           }
         },
         {
-          "tsName": "getLeapMonth",
+          "tsName": "getLeapMonth2",
           "isStatic": false,
           "tsSignatureId": "GetLeapMonth|(System.Int32,System.Int32):System.Int32|static=false",
           "target": {
@@ -23692,7 +23692,7 @@
           }
         },
         {
-          "tsName": "isLeapMonth",
+          "tsName": "isLeapMonth2",
           "isStatic": false,
           "tsSignatureId": "IsLeapMonth|(System.Int32,System.Int32,System.Int32):System.Boolean|static=false",
           "target": {
@@ -23702,7 +23702,7 @@
           }
         },
         {
-          "tsName": "toDateTime",
+          "tsName": "toDateTime2",
           "isStatic": false,
           "tsSignatureId": "ToDateTime|(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32):System.DateTime|static=false",
           "target": {
@@ -23722,7 +23722,7 @@
           }
         },
         {
-          "tsName": "clone",
+          "tsName": "clone$view",
           "isStatic": false,
           "tsSignatureId": "Clone|():System.Object|static=false",
           "target": {
@@ -23732,7 +23732,7 @@
           }
         },
         {
-          "tsName": "Clone",
+          "tsName": "clone",
           "isStatic": false,
           "tsSignatureId": "Clone|():System.Object|static=false",
           "target": {
@@ -23742,7 +23742,7 @@
           }
         },
         {
-          "tsName": "GetDaysInMonth",
+          "tsName": "getDaysInMonth",
           "isStatic": false,
           "tsSignatureId": "GetDaysInMonth|(System.Int32,System.Int32):System.Int32|static=false",
           "target": {
@@ -23752,7 +23752,7 @@
           }
         },
         {
-          "tsName": "GetDaysInYear",
+          "tsName": "getDaysInYear",
           "isStatic": false,
           "tsSignatureId": "GetDaysInYear|(System.Int32):System.Int32|static=false",
           "target": {
@@ -23762,7 +23762,7 @@
           }
         },
         {
-          "tsName": "GetLeapMonth",
+          "tsName": "getLeapMonth",
           "isStatic": false,
           "tsSignatureId": "GetLeapMonth|(System.Int32):System.Int32|static=false",
           "target": {
@@ -23772,7 +23772,7 @@
           }
         },
         {
-          "tsName": "GetMonthsInYear",
+          "tsName": "getMonthsInYear",
           "isStatic": false,
           "tsSignatureId": "GetMonthsInYear|(System.Int32):System.Int32|static=false",
           "target": {
@@ -23782,7 +23782,7 @@
           }
         },
         {
-          "tsName": "IsLeapDay",
+          "tsName": "isLeapDay",
           "isStatic": false,
           "tsSignatureId": "IsLeapDay|(System.Int32,System.Int32,System.Int32):System.Boolean|static=false",
           "target": {
@@ -23792,7 +23792,7 @@
           }
         },
         {
-          "tsName": "IsLeapMonth",
+          "tsName": "isLeapMonth",
           "isStatic": false,
           "tsSignatureId": "IsLeapMonth|(System.Int32,System.Int32):System.Boolean|static=false",
           "target": {
@@ -23802,7 +23802,7 @@
           }
         },
         {
-          "tsName": "IsLeapYear",
+          "tsName": "isLeapYear",
           "isStatic": false,
           "tsSignatureId": "IsLeapYear|(System.Int32):System.Boolean|static=false",
           "target": {
@@ -23812,7 +23812,7 @@
           }
         },
         {
-          "tsName": "ToDateTime",
+          "tsName": "toDateTime",
           "isStatic": false,
           "tsSignatureId": "ToDateTime|(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32):System.DateTime|static=false",
           "target": {
@@ -24102,7 +24102,7 @@
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "clone",
+          "tsEmitName": "clone$view",
           "metadataToken": 100668509,
           "canonicalSignature": "():System.Object",
           "normalizedSignature": "Clone|():System.Object|static=false",
@@ -24116,7 +24116,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.KoreanLunisolarCalendar::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "Clone",
+          "tsEmitName": "clone",
           "metadataToken": 0,
           "canonicalSignature": "():System.Object",
           "normalizedSignature": "Clone|():System.Object|static=false",
@@ -24210,7 +24210,7 @@
           }
         },
         {
-          "tsName": "clone",
+          "tsName": "clone$view",
           "isStatic": false,
           "tsSignatureId": "Clone|():System.Object|static=false",
           "target": {
@@ -24220,7 +24220,7 @@
           }
         },
         {
-          "tsName": "Clone",
+          "tsName": "clone",
           "isStatic": false,
           "tsSignatureId": "Clone|():System.Object|static=false",
           "target": {
@@ -24260,7 +24260,7 @@
           }
         },
         {
-          "tsName": "getDaysInMonth",
+          "tsName": "getDaysInMonth2",
           "isStatic": false,
           "tsSignatureId": "GetDaysInMonth|(System.Int32,System.Int32,System.Int32):System.Int32|static=false",
           "target": {
@@ -24270,7 +24270,7 @@
           }
         },
         {
-          "tsName": "toDateTime",
+          "tsName": "toDateTime2",
           "isStatic": false,
           "tsSignatureId": "ToDateTime|(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32):System.DateTime|static=false",
           "target": {
@@ -24320,7 +24320,7 @@
           }
         },
         {
-          "tsName": "getDaysInYear",
+          "tsName": "getDaysInYear2",
           "isStatic": false,
           "tsSignatureId": "GetDaysInYear|(System.Int32,System.Int32):System.Int32|static=false",
           "target": {
@@ -24360,7 +24360,7 @@
           }
         },
         {
-          "tsName": "getMonthsInYear",
+          "tsName": "getMonthsInYear2",
           "isStatic": false,
           "tsSignatureId": "GetMonthsInYear|(System.Int32,System.Int32):System.Int32|static=false",
           "target": {
@@ -24370,7 +24370,7 @@
           }
         },
         {
-          "tsName": "isLeapDay",
+          "tsName": "isLeapDay2",
           "isStatic": false,
           "tsSignatureId": "IsLeapDay|(System.Int32,System.Int32,System.Int32,System.Int32):System.Boolean|static=false",
           "target": {
@@ -24380,7 +24380,7 @@
           }
         },
         {
-          "tsName": "isLeapMonth",
+          "tsName": "isLeapMonth2",
           "isStatic": false,
           "tsSignatureId": "IsLeapMonth|(System.Int32,System.Int32,System.Int32):System.Boolean|static=false",
           "target": {
@@ -24390,7 +24390,7 @@
           }
         },
         {
-          "tsName": "getLeapMonth",
+          "tsName": "getLeapMonth2",
           "isStatic": false,
           "tsSignatureId": "GetLeapMonth|(System.Int32,System.Int32):System.Int32|static=false",
           "target": {
@@ -24400,7 +24400,7 @@
           }
         },
         {
-          "tsName": "isLeapYear",
+          "tsName": "isLeapYear2",
           "isStatic": false,
           "tsSignatureId": "IsLeapYear|(System.Int32,System.Int32):System.Boolean|static=false",
           "target": {
@@ -24420,7 +24420,7 @@
           }
         },
         {
-          "tsName": "GetDaysInMonth",
+          "tsName": "getDaysInMonth",
           "isStatic": false,
           "tsSignatureId": "GetDaysInMonth|(System.Int32,System.Int32):System.Int32|static=false",
           "target": {
@@ -24430,7 +24430,7 @@
           }
         },
         {
-          "tsName": "GetDaysInYear",
+          "tsName": "getDaysInYear",
           "isStatic": false,
           "tsSignatureId": "GetDaysInYear|(System.Int32):System.Int32|static=false",
           "target": {
@@ -24440,7 +24440,7 @@
           }
         },
         {
-          "tsName": "GetLeapMonth",
+          "tsName": "getLeapMonth",
           "isStatic": false,
           "tsSignatureId": "GetLeapMonth|(System.Int32):System.Int32|static=false",
           "target": {
@@ -24450,7 +24450,7 @@
           }
         },
         {
-          "tsName": "GetMonthsInYear",
+          "tsName": "getMonthsInYear",
           "isStatic": false,
           "tsSignatureId": "GetMonthsInYear|(System.Int32):System.Int32|static=false",
           "target": {
@@ -24460,7 +24460,7 @@
           }
         },
         {
-          "tsName": "IsLeapDay",
+          "tsName": "isLeapDay",
           "isStatic": false,
           "tsSignatureId": "IsLeapDay|(System.Int32,System.Int32,System.Int32):System.Boolean|static=false",
           "target": {
@@ -24470,7 +24470,7 @@
           }
         },
         {
-          "tsName": "IsLeapMonth",
+          "tsName": "isLeapMonth",
           "isStatic": false,
           "tsSignatureId": "IsLeapMonth|(System.Int32,System.Int32):System.Boolean|static=false",
           "target": {
@@ -24480,7 +24480,7 @@
           }
         },
         {
-          "tsName": "IsLeapYear",
+          "tsName": "isLeapYear",
           "isStatic": false,
           "tsSignatureId": "IsLeapYear|(System.Int32):System.Boolean|static=false",
           "target": {
@@ -24490,7 +24490,7 @@
           }
         },
         {
-          "tsName": "ToDateTime",
+          "tsName": "toDateTime",
           "isStatic": false,
           "tsSignatureId": "ToDateTime|(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32):System.DateTime|static=false",
           "target": {
@@ -25810,7 +25810,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.PersianCalendar::GetDaysInMonth(System.Int32,System.Int32,System.Int32):System.Int32",
           "clrName": "GetDaysInMonth",
-          "tsEmitName": "getDaysInMonth",
+          "tsEmitName": "getDaysInMonth2",
           "metadataToken": 100677311,
           "canonicalSignature": "(System.Int32,System.Int32,System.Int32):System.Int32",
           "normalizedSignature": "GetDaysInMonth|(System.Int32,System.Int32,System.Int32):System.Int32|static=false",
@@ -25824,7 +25824,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.PersianCalendar::GetDaysInYear(System.Int32,System.Int32):System.Int32",
           "clrName": "GetDaysInYear",
-          "tsEmitName": "getDaysInYear",
+          "tsEmitName": "getDaysInYear2",
           "metadataToken": 100677312,
           "canonicalSignature": "(System.Int32,System.Int32):System.Int32",
           "normalizedSignature": "GetDaysInYear|(System.Int32,System.Int32):System.Int32|static=false",
@@ -25866,7 +25866,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.PersianCalendar::GetMonthsInYear(System.Int32,System.Int32):System.Int32",
           "clrName": "GetMonthsInYear",
-          "tsEmitName": "getMonthsInYear",
+          "tsEmitName": "getMonthsInYear2",
           "metadataToken": 100677316,
           "canonicalSignature": "(System.Int32,System.Int32):System.Int32",
           "normalizedSignature": "GetMonthsInYear|(System.Int32,System.Int32):System.Int32|static=false",
@@ -25894,7 +25894,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.PersianCalendar::IsLeapDay(System.Int32,System.Int32,System.Int32,System.Int32):System.Boolean",
           "clrName": "IsLeapDay",
-          "tsEmitName": "isLeapDay",
+          "tsEmitName": "isLeapDay2",
           "metadataToken": 100677318,
           "canonicalSignature": "(System.Int32,System.Int32,System.Int32,System.Int32):System.Boolean",
           "normalizedSignature": "IsLeapDay|(System.Int32,System.Int32,System.Int32,System.Int32):System.Boolean|static=false",
@@ -25908,7 +25908,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.PersianCalendar::GetLeapMonth(System.Int32,System.Int32):System.Int32",
           "clrName": "GetLeapMonth",
-          "tsEmitName": "getLeapMonth",
+          "tsEmitName": "getLeapMonth2",
           "metadataToken": 100677319,
           "canonicalSignature": "(System.Int32,System.Int32):System.Int32",
           "normalizedSignature": "GetLeapMonth|(System.Int32,System.Int32):System.Int32|static=false",
@@ -25922,7 +25922,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.PersianCalendar::IsLeapMonth(System.Int32,System.Int32,System.Int32):System.Boolean",
           "clrName": "IsLeapMonth",
-          "tsEmitName": "isLeapMonth",
+          "tsEmitName": "isLeapMonth2",
           "metadataToken": 100677320,
           "canonicalSignature": "(System.Int32,System.Int32,System.Int32):System.Boolean",
           "normalizedSignature": "IsLeapMonth|(System.Int32,System.Int32,System.Int32):System.Boolean|static=false",
@@ -25936,7 +25936,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.PersianCalendar::IsLeapYear(System.Int32,System.Int32):System.Boolean",
           "clrName": "IsLeapYear",
-          "tsEmitName": "isLeapYear",
+          "tsEmitName": "isLeapYear2",
           "metadataToken": 100677321,
           "canonicalSignature": "(System.Int32,System.Int32):System.Boolean",
           "normalizedSignature": "IsLeapYear|(System.Int32,System.Int32):System.Boolean|static=false",
@@ -25950,7 +25950,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.PersianCalendar::ToDateTime(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32):System.DateTime",
           "clrName": "ToDateTime",
-          "tsEmitName": "toDateTime",
+          "tsEmitName": "toDateTime2",
           "metadataToken": 100677322,
           "canonicalSignature": "(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32):System.DateTime",
           "normalizedSignature": "ToDateTime|(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32):System.DateTime|static=false",
@@ -25978,7 +25978,7 @@
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "clone",
+          "tsEmitName": "clone$view",
           "metadataToken": 100668509,
           "canonicalSignature": "():System.Object",
           "normalizedSignature": "Clone|():System.Object|static=false",
@@ -25992,7 +25992,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.PersianCalendar::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "Clone",
+          "tsEmitName": "clone",
           "metadataToken": 0,
           "canonicalSignature": "():System.Object",
           "normalizedSignature": "Clone|():System.Object|static=false",
@@ -26006,7 +26006,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.PersianCalendar::GetDaysInMonth(System.Int32,System.Int32):System.Int32",
           "clrName": "GetDaysInMonth",
-          "tsEmitName": "GetDaysInMonth",
+          "tsEmitName": "getDaysInMonth",
           "metadataToken": 0,
           "canonicalSignature": "(System.Int32,System.Int32):System.Int32",
           "normalizedSignature": "GetDaysInMonth|(System.Int32,System.Int32):System.Int32|static=false",
@@ -26020,7 +26020,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.PersianCalendar::GetDaysInYear(System.Int32):System.Int32",
           "clrName": "GetDaysInYear",
-          "tsEmitName": "GetDaysInYear",
+          "tsEmitName": "getDaysInYear",
           "metadataToken": 0,
           "canonicalSignature": "(System.Int32):System.Int32",
           "normalizedSignature": "GetDaysInYear|(System.Int32):System.Int32|static=false",
@@ -26034,7 +26034,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.PersianCalendar::GetLeapMonth(System.Int32):System.Int32",
           "clrName": "GetLeapMonth",
-          "tsEmitName": "GetLeapMonth",
+          "tsEmitName": "getLeapMonth",
           "metadataToken": 0,
           "canonicalSignature": "(System.Int32):System.Int32",
           "normalizedSignature": "GetLeapMonth|(System.Int32):System.Int32|static=false",
@@ -26048,7 +26048,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.PersianCalendar::GetMonthsInYear(System.Int32):System.Int32",
           "clrName": "GetMonthsInYear",
-          "tsEmitName": "GetMonthsInYear",
+          "tsEmitName": "getMonthsInYear",
           "metadataToken": 0,
           "canonicalSignature": "(System.Int32):System.Int32",
           "normalizedSignature": "GetMonthsInYear|(System.Int32):System.Int32|static=false",
@@ -26062,7 +26062,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.PersianCalendar::IsLeapDay(System.Int32,System.Int32,System.Int32):System.Boolean",
           "clrName": "IsLeapDay",
-          "tsEmitName": "IsLeapDay",
+          "tsEmitName": "isLeapDay",
           "metadataToken": 0,
           "canonicalSignature": "(System.Int32,System.Int32,System.Int32):System.Boolean",
           "normalizedSignature": "IsLeapDay|(System.Int32,System.Int32,System.Int32):System.Boolean|static=false",
@@ -26076,7 +26076,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.PersianCalendar::IsLeapMonth(System.Int32,System.Int32):System.Boolean",
           "clrName": "IsLeapMonth",
-          "tsEmitName": "IsLeapMonth",
+          "tsEmitName": "isLeapMonth",
           "metadataToken": 0,
           "canonicalSignature": "(System.Int32,System.Int32):System.Boolean",
           "normalizedSignature": "IsLeapMonth|(System.Int32,System.Int32):System.Boolean|static=false",
@@ -26090,7 +26090,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.PersianCalendar::IsLeapYear(System.Int32):System.Boolean",
           "clrName": "IsLeapYear",
-          "tsEmitName": "IsLeapYear",
+          "tsEmitName": "isLeapYear",
           "metadataToken": 0,
           "canonicalSignature": "(System.Int32):System.Boolean",
           "normalizedSignature": "IsLeapYear|(System.Int32):System.Boolean|static=false",
@@ -26104,7 +26104,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.PersianCalendar::ToDateTime(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32):System.DateTime",
           "clrName": "ToDateTime",
-          "tsEmitName": "ToDateTime",
+          "tsEmitName": "toDateTime",
           "metadataToken": 0,
           "canonicalSignature": "(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32):System.DateTime",
           "normalizedSignature": "ToDateTime|(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32):System.DateTime|static=false",
@@ -26266,7 +26266,7 @@
           }
         },
         {
-          "tsName": "getDaysInMonth",
+          "tsName": "getDaysInMonth2",
           "isStatic": false,
           "tsSignatureId": "GetDaysInMonth|(System.Int32,System.Int32,System.Int32):System.Int32|static=false",
           "target": {
@@ -26276,7 +26276,7 @@
           }
         },
         {
-          "tsName": "getDaysInYear",
+          "tsName": "getDaysInYear2",
           "isStatic": false,
           "tsSignatureId": "GetDaysInYear|(System.Int32,System.Int32):System.Int32|static=false",
           "target": {
@@ -26306,7 +26306,7 @@
           }
         },
         {
-          "tsName": "getMonthsInYear",
+          "tsName": "getMonthsInYear2",
           "isStatic": false,
           "tsSignatureId": "GetMonthsInYear|(System.Int32,System.Int32):System.Int32|static=false",
           "target": {
@@ -26326,7 +26326,7 @@
           }
         },
         {
-          "tsName": "isLeapDay",
+          "tsName": "isLeapDay2",
           "isStatic": false,
           "tsSignatureId": "IsLeapDay|(System.Int32,System.Int32,System.Int32,System.Int32):System.Boolean|static=false",
           "target": {
@@ -26336,7 +26336,7 @@
           }
         },
         {
-          "tsName": "getLeapMonth",
+          "tsName": "getLeapMonth2",
           "isStatic": false,
           "tsSignatureId": "GetLeapMonth|(System.Int32,System.Int32):System.Int32|static=false",
           "target": {
@@ -26346,7 +26346,7 @@
           }
         },
         {
-          "tsName": "isLeapMonth",
+          "tsName": "isLeapMonth2",
           "isStatic": false,
           "tsSignatureId": "IsLeapMonth|(System.Int32,System.Int32,System.Int32):System.Boolean|static=false",
           "target": {
@@ -26356,7 +26356,7 @@
           }
         },
         {
-          "tsName": "isLeapYear",
+          "tsName": "isLeapYear2",
           "isStatic": false,
           "tsSignatureId": "IsLeapYear|(System.Int32,System.Int32):System.Boolean|static=false",
           "target": {
@@ -26366,7 +26366,7 @@
           }
         },
         {
-          "tsName": "toDateTime",
+          "tsName": "toDateTime2",
           "isStatic": false,
           "tsSignatureId": "ToDateTime|(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32):System.DateTime|static=false",
           "target": {
@@ -26386,7 +26386,7 @@
           }
         },
         {
-          "tsName": "clone",
+          "tsName": "clone$view",
           "isStatic": false,
           "tsSignatureId": "Clone|():System.Object|static=false",
           "target": {
@@ -26396,7 +26396,7 @@
           }
         },
         {
-          "tsName": "Clone",
+          "tsName": "clone",
           "isStatic": false,
           "tsSignatureId": "Clone|():System.Object|static=false",
           "target": {
@@ -26406,7 +26406,7 @@
           }
         },
         {
-          "tsName": "GetDaysInMonth",
+          "tsName": "getDaysInMonth",
           "isStatic": false,
           "tsSignatureId": "GetDaysInMonth|(System.Int32,System.Int32):System.Int32|static=false",
           "target": {
@@ -26416,7 +26416,7 @@
           }
         },
         {
-          "tsName": "GetDaysInYear",
+          "tsName": "getDaysInYear",
           "isStatic": false,
           "tsSignatureId": "GetDaysInYear|(System.Int32):System.Int32|static=false",
           "target": {
@@ -26426,7 +26426,7 @@
           }
         },
         {
-          "tsName": "GetLeapMonth",
+          "tsName": "getLeapMonth",
           "isStatic": false,
           "tsSignatureId": "GetLeapMonth|(System.Int32):System.Int32|static=false",
           "target": {
@@ -26436,7 +26436,7 @@
           }
         },
         {
-          "tsName": "GetMonthsInYear",
+          "tsName": "getMonthsInYear",
           "isStatic": false,
           "tsSignatureId": "GetMonthsInYear|(System.Int32):System.Int32|static=false",
           "target": {
@@ -26446,7 +26446,7 @@
           }
         },
         {
-          "tsName": "IsLeapDay",
+          "tsName": "isLeapDay",
           "isStatic": false,
           "tsSignatureId": "IsLeapDay|(System.Int32,System.Int32,System.Int32):System.Boolean|static=false",
           "target": {
@@ -26456,7 +26456,7 @@
           }
         },
         {
-          "tsName": "IsLeapMonth",
+          "tsName": "isLeapMonth",
           "isStatic": false,
           "tsSignatureId": "IsLeapMonth|(System.Int32,System.Int32):System.Boolean|static=false",
           "target": {
@@ -26466,7 +26466,7 @@
           }
         },
         {
-          "tsName": "IsLeapYear",
+          "tsName": "isLeapYear",
           "isStatic": false,
           "tsSignatureId": "IsLeapYear|(System.Int32):System.Boolean|static=false",
           "target": {
@@ -26476,7 +26476,7 @@
           }
         },
         {
-          "tsName": "ToDateTime",
+          "tsName": "toDateTime",
           "isStatic": false,
           "tsSignatureId": "ToDateTime|(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32):System.DateTime|static=false",
           "target": {
@@ -28138,7 +28138,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.TaiwanCalendar::GetDaysInMonth(System.Int32,System.Int32,System.Int32):System.Int32",
           "clrName": "GetDaysInMonth",
-          "tsEmitName": "getDaysInMonth",
+          "tsEmitName": "getDaysInMonth2",
           "metadataToken": 100677392,
           "canonicalSignature": "(System.Int32,System.Int32,System.Int32):System.Int32",
           "normalizedSignature": "GetDaysInMonth|(System.Int32,System.Int32,System.Int32):System.Int32|static=false",
@@ -28152,7 +28152,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.TaiwanCalendar::GetDaysInYear(System.Int32,System.Int32):System.Int32",
           "clrName": "GetDaysInYear",
-          "tsEmitName": "getDaysInYear",
+          "tsEmitName": "getDaysInYear2",
           "metadataToken": 100677393,
           "canonicalSignature": "(System.Int32,System.Int32):System.Int32",
           "normalizedSignature": "GetDaysInYear|(System.Int32,System.Int32):System.Int32|static=false",
@@ -28208,7 +28208,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.TaiwanCalendar::GetMonthsInYear(System.Int32,System.Int32):System.Int32",
           "clrName": "GetMonthsInYear",
-          "tsEmitName": "getMonthsInYear",
+          "tsEmitName": "getMonthsInYear2",
           "metadataToken": 100677397,
           "canonicalSignature": "(System.Int32,System.Int32):System.Int32",
           "normalizedSignature": "GetMonthsInYear|(System.Int32,System.Int32):System.Int32|static=false",
@@ -28278,7 +28278,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.TaiwanCalendar::IsLeapDay(System.Int32,System.Int32,System.Int32,System.Int32):System.Boolean",
           "clrName": "IsLeapDay",
-          "tsEmitName": "isLeapDay",
+          "tsEmitName": "isLeapDay2",
           "metadataToken": 100677402,
           "canonicalSignature": "(System.Int32,System.Int32,System.Int32,System.Int32):System.Boolean",
           "normalizedSignature": "IsLeapDay|(System.Int32,System.Int32,System.Int32,System.Int32):System.Boolean|static=false",
@@ -28292,7 +28292,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.TaiwanCalendar::IsLeapYear(System.Int32,System.Int32):System.Boolean",
           "clrName": "IsLeapYear",
-          "tsEmitName": "isLeapYear",
+          "tsEmitName": "isLeapYear2",
           "metadataToken": 100677403,
           "canonicalSignature": "(System.Int32,System.Int32):System.Boolean",
           "normalizedSignature": "IsLeapYear|(System.Int32,System.Int32):System.Boolean|static=false",
@@ -28306,7 +28306,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.TaiwanCalendar::GetLeapMonth(System.Int32,System.Int32):System.Int32",
           "clrName": "GetLeapMonth",
-          "tsEmitName": "getLeapMonth",
+          "tsEmitName": "getLeapMonth2",
           "metadataToken": 100677404,
           "canonicalSignature": "(System.Int32,System.Int32):System.Int32",
           "normalizedSignature": "GetLeapMonth|(System.Int32,System.Int32):System.Int32|static=false",
@@ -28320,7 +28320,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.TaiwanCalendar::IsLeapMonth(System.Int32,System.Int32,System.Int32):System.Boolean",
           "clrName": "IsLeapMonth",
-          "tsEmitName": "isLeapMonth",
+          "tsEmitName": "isLeapMonth2",
           "metadataToken": 100677405,
           "canonicalSignature": "(System.Int32,System.Int32,System.Int32):System.Boolean",
           "normalizedSignature": "IsLeapMonth|(System.Int32,System.Int32,System.Int32):System.Boolean|static=false",
@@ -28334,7 +28334,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.TaiwanCalendar::ToDateTime(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32):System.DateTime",
           "clrName": "ToDateTime",
-          "tsEmitName": "toDateTime",
+          "tsEmitName": "toDateTime2",
           "metadataToken": 100677406,
           "canonicalSignature": "(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32):System.DateTime",
           "normalizedSignature": "ToDateTime|(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32):System.DateTime|static=false",
@@ -28362,7 +28362,7 @@
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "clone",
+          "tsEmitName": "clone$view",
           "metadataToken": 100668509,
           "canonicalSignature": "():System.Object",
           "normalizedSignature": "Clone|():System.Object|static=false",
@@ -28376,7 +28376,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.TaiwanCalendar::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "Clone",
+          "tsEmitName": "clone",
           "metadataToken": 0,
           "canonicalSignature": "():System.Object",
           "normalizedSignature": "Clone|():System.Object|static=false",
@@ -28390,7 +28390,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.TaiwanCalendar::GetDaysInMonth(System.Int32,System.Int32):System.Int32",
           "clrName": "GetDaysInMonth",
-          "tsEmitName": "GetDaysInMonth",
+          "tsEmitName": "getDaysInMonth",
           "metadataToken": 0,
           "canonicalSignature": "(System.Int32,System.Int32):System.Int32",
           "normalizedSignature": "GetDaysInMonth|(System.Int32,System.Int32):System.Int32|static=false",
@@ -28404,7 +28404,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.TaiwanCalendar::GetDaysInYear(System.Int32):System.Int32",
           "clrName": "GetDaysInYear",
-          "tsEmitName": "GetDaysInYear",
+          "tsEmitName": "getDaysInYear",
           "metadataToken": 0,
           "canonicalSignature": "(System.Int32):System.Int32",
           "normalizedSignature": "GetDaysInYear|(System.Int32):System.Int32|static=false",
@@ -28418,7 +28418,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.TaiwanCalendar::GetLeapMonth(System.Int32):System.Int32",
           "clrName": "GetLeapMonth",
-          "tsEmitName": "GetLeapMonth",
+          "tsEmitName": "getLeapMonth",
           "metadataToken": 0,
           "canonicalSignature": "(System.Int32):System.Int32",
           "normalizedSignature": "GetLeapMonth|(System.Int32):System.Int32|static=false",
@@ -28432,7 +28432,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.TaiwanCalendar::GetMonthsInYear(System.Int32):System.Int32",
           "clrName": "GetMonthsInYear",
-          "tsEmitName": "GetMonthsInYear",
+          "tsEmitName": "getMonthsInYear",
           "metadataToken": 0,
           "canonicalSignature": "(System.Int32):System.Int32",
           "normalizedSignature": "GetMonthsInYear|(System.Int32):System.Int32|static=false",
@@ -28446,7 +28446,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.TaiwanCalendar::IsLeapDay(System.Int32,System.Int32,System.Int32):System.Boolean",
           "clrName": "IsLeapDay",
-          "tsEmitName": "IsLeapDay",
+          "tsEmitName": "isLeapDay",
           "metadataToken": 0,
           "canonicalSignature": "(System.Int32,System.Int32,System.Int32):System.Boolean",
           "normalizedSignature": "IsLeapDay|(System.Int32,System.Int32,System.Int32):System.Boolean|static=false",
@@ -28460,7 +28460,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.TaiwanCalendar::IsLeapMonth(System.Int32,System.Int32):System.Boolean",
           "clrName": "IsLeapMonth",
-          "tsEmitName": "IsLeapMonth",
+          "tsEmitName": "isLeapMonth",
           "metadataToken": 0,
           "canonicalSignature": "(System.Int32,System.Int32):System.Boolean",
           "normalizedSignature": "IsLeapMonth|(System.Int32,System.Int32):System.Boolean|static=false",
@@ -28474,7 +28474,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.TaiwanCalendar::IsLeapYear(System.Int32):System.Boolean",
           "clrName": "IsLeapYear",
-          "tsEmitName": "IsLeapYear",
+          "tsEmitName": "isLeapYear",
           "metadataToken": 0,
           "canonicalSignature": "(System.Int32):System.Boolean",
           "normalizedSignature": "IsLeapYear|(System.Int32):System.Boolean|static=false",
@@ -28488,7 +28488,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.TaiwanCalendar::ToDateTime(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32):System.DateTime",
           "clrName": "ToDateTime",
-          "tsEmitName": "ToDateTime",
+          "tsEmitName": "toDateTime",
           "metadataToken": 0,
           "canonicalSignature": "(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32):System.DateTime",
           "normalizedSignature": "ToDateTime|(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32):System.DateTime|static=false",
@@ -28608,7 +28608,7 @@
           }
         },
         {
-          "tsName": "getDaysInMonth",
+          "tsName": "getDaysInMonth2",
           "isStatic": false,
           "tsSignatureId": "GetDaysInMonth|(System.Int32,System.Int32,System.Int32):System.Int32|static=false",
           "target": {
@@ -28618,7 +28618,7 @@
           }
         },
         {
-          "tsName": "getDaysInYear",
+          "tsName": "getDaysInYear2",
           "isStatic": false,
           "tsSignatureId": "GetDaysInYear|(System.Int32,System.Int32):System.Int32|static=false",
           "target": {
@@ -28658,7 +28658,7 @@
           }
         },
         {
-          "tsName": "getMonthsInYear",
+          "tsName": "getMonthsInYear2",
           "isStatic": false,
           "tsSignatureId": "GetMonthsInYear|(System.Int32,System.Int32):System.Int32|static=false",
           "target": {
@@ -28708,7 +28708,7 @@
           }
         },
         {
-          "tsName": "isLeapDay",
+          "tsName": "isLeapDay2",
           "isStatic": false,
           "tsSignatureId": "IsLeapDay|(System.Int32,System.Int32,System.Int32,System.Int32):System.Boolean|static=false",
           "target": {
@@ -28718,7 +28718,7 @@
           }
         },
         {
-          "tsName": "isLeapYear",
+          "tsName": "isLeapYear2",
           "isStatic": false,
           "tsSignatureId": "IsLeapYear|(System.Int32,System.Int32):System.Boolean|static=false",
           "target": {
@@ -28728,7 +28728,7 @@
           }
         },
         {
-          "tsName": "getLeapMonth",
+          "tsName": "getLeapMonth2",
           "isStatic": false,
           "tsSignatureId": "GetLeapMonth|(System.Int32,System.Int32):System.Int32|static=false",
           "target": {
@@ -28738,7 +28738,7 @@
           }
         },
         {
-          "tsName": "isLeapMonth",
+          "tsName": "isLeapMonth2",
           "isStatic": false,
           "tsSignatureId": "IsLeapMonth|(System.Int32,System.Int32,System.Int32):System.Boolean|static=false",
           "target": {
@@ -28748,7 +28748,7 @@
           }
         },
         {
-          "tsName": "toDateTime",
+          "tsName": "toDateTime2",
           "isStatic": false,
           "tsSignatureId": "ToDateTime|(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32):System.DateTime|static=false",
           "target": {
@@ -28768,7 +28768,7 @@
           }
         },
         {
-          "tsName": "clone",
+          "tsName": "clone$view",
           "isStatic": false,
           "tsSignatureId": "Clone|():System.Object|static=false",
           "target": {
@@ -28778,7 +28778,7 @@
           }
         },
         {
-          "tsName": "Clone",
+          "tsName": "clone",
           "isStatic": false,
           "tsSignatureId": "Clone|():System.Object|static=false",
           "target": {
@@ -28788,7 +28788,7 @@
           }
         },
         {
-          "tsName": "GetDaysInMonth",
+          "tsName": "getDaysInMonth",
           "isStatic": false,
           "tsSignatureId": "GetDaysInMonth|(System.Int32,System.Int32):System.Int32|static=false",
           "target": {
@@ -28798,7 +28798,7 @@
           }
         },
         {
-          "tsName": "GetDaysInYear",
+          "tsName": "getDaysInYear",
           "isStatic": false,
           "tsSignatureId": "GetDaysInYear|(System.Int32):System.Int32|static=false",
           "target": {
@@ -28808,7 +28808,7 @@
           }
         },
         {
-          "tsName": "GetLeapMonth",
+          "tsName": "getLeapMonth",
           "isStatic": false,
           "tsSignatureId": "GetLeapMonth|(System.Int32):System.Int32|static=false",
           "target": {
@@ -28818,7 +28818,7 @@
           }
         },
         {
-          "tsName": "GetMonthsInYear",
+          "tsName": "getMonthsInYear",
           "isStatic": false,
           "tsSignatureId": "GetMonthsInYear|(System.Int32):System.Int32|static=false",
           "target": {
@@ -28828,7 +28828,7 @@
           }
         },
         {
-          "tsName": "IsLeapDay",
+          "tsName": "isLeapDay",
           "isStatic": false,
           "tsSignatureId": "IsLeapDay|(System.Int32,System.Int32,System.Int32):System.Boolean|static=false",
           "target": {
@@ -28838,7 +28838,7 @@
           }
         },
         {
-          "tsName": "IsLeapMonth",
+          "tsName": "isLeapMonth",
           "isStatic": false,
           "tsSignatureId": "IsLeapMonth|(System.Int32,System.Int32):System.Boolean|static=false",
           "target": {
@@ -28848,7 +28848,7 @@
           }
         },
         {
-          "tsName": "IsLeapYear",
+          "tsName": "isLeapYear",
           "isStatic": false,
           "tsSignatureId": "IsLeapYear|(System.Int32):System.Boolean|static=false",
           "target": {
@@ -28858,7 +28858,7 @@
           }
         },
         {
-          "tsName": "ToDateTime",
+          "tsName": "toDateTime",
           "isStatic": false,
           "tsSignatureId": "ToDateTime|(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32):System.DateTime|static=false",
           "target": {
@@ -29136,7 +29136,7 @@
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "clone",
+          "tsEmitName": "clone$view",
           "metadataToken": 100668509,
           "canonicalSignature": "():System.Object",
           "normalizedSignature": "Clone|():System.Object|static=false",
@@ -29150,7 +29150,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.TaiwanLunisolarCalendar::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "Clone",
+          "tsEmitName": "clone",
           "metadataToken": 0,
           "canonicalSignature": "():System.Object",
           "normalizedSignature": "Clone|():System.Object|static=false",
@@ -29232,7 +29232,7 @@
           }
         },
         {
-          "tsName": "clone",
+          "tsName": "clone$view",
           "isStatic": false,
           "tsSignatureId": "Clone|():System.Object|static=false",
           "target": {
@@ -29242,7 +29242,7 @@
           }
         },
         {
-          "tsName": "Clone",
+          "tsName": "clone",
           "isStatic": false,
           "tsSignatureId": "Clone|():System.Object|static=false",
           "target": {
@@ -29282,7 +29282,7 @@
           }
         },
         {
-          "tsName": "getDaysInMonth",
+          "tsName": "getDaysInMonth2",
           "isStatic": false,
           "tsSignatureId": "GetDaysInMonth|(System.Int32,System.Int32,System.Int32):System.Int32|static=false",
           "target": {
@@ -29292,7 +29292,7 @@
           }
         },
         {
-          "tsName": "toDateTime",
+          "tsName": "toDateTime2",
           "isStatic": false,
           "tsSignatureId": "ToDateTime|(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32):System.DateTime|static=false",
           "target": {
@@ -29342,7 +29342,7 @@
           }
         },
         {
-          "tsName": "getDaysInYear",
+          "tsName": "getDaysInYear2",
           "isStatic": false,
           "tsSignatureId": "GetDaysInYear|(System.Int32,System.Int32):System.Int32|static=false",
           "target": {
@@ -29382,7 +29382,7 @@
           }
         },
         {
-          "tsName": "getMonthsInYear",
+          "tsName": "getMonthsInYear2",
           "isStatic": false,
           "tsSignatureId": "GetMonthsInYear|(System.Int32,System.Int32):System.Int32|static=false",
           "target": {
@@ -29392,7 +29392,7 @@
           }
         },
         {
-          "tsName": "isLeapDay",
+          "tsName": "isLeapDay2",
           "isStatic": false,
           "tsSignatureId": "IsLeapDay|(System.Int32,System.Int32,System.Int32,System.Int32):System.Boolean|static=false",
           "target": {
@@ -29402,7 +29402,7 @@
           }
         },
         {
-          "tsName": "isLeapMonth",
+          "tsName": "isLeapMonth2",
           "isStatic": false,
           "tsSignatureId": "IsLeapMonth|(System.Int32,System.Int32,System.Int32):System.Boolean|static=false",
           "target": {
@@ -29412,7 +29412,7 @@
           }
         },
         {
-          "tsName": "getLeapMonth",
+          "tsName": "getLeapMonth2",
           "isStatic": false,
           "tsSignatureId": "GetLeapMonth|(System.Int32,System.Int32):System.Int32|static=false",
           "target": {
@@ -29422,7 +29422,7 @@
           }
         },
         {
-          "tsName": "isLeapYear",
+          "tsName": "isLeapYear2",
           "isStatic": false,
           "tsSignatureId": "IsLeapYear|(System.Int32,System.Int32):System.Boolean|static=false",
           "target": {
@@ -29442,7 +29442,7 @@
           }
         },
         {
-          "tsName": "GetDaysInMonth",
+          "tsName": "getDaysInMonth",
           "isStatic": false,
           "tsSignatureId": "GetDaysInMonth|(System.Int32,System.Int32):System.Int32|static=false",
           "target": {
@@ -29452,7 +29452,7 @@
           }
         },
         {
-          "tsName": "GetDaysInYear",
+          "tsName": "getDaysInYear",
           "isStatic": false,
           "tsSignatureId": "GetDaysInYear|(System.Int32):System.Int32|static=false",
           "target": {
@@ -29462,7 +29462,7 @@
           }
         },
         {
-          "tsName": "GetLeapMonth",
+          "tsName": "getLeapMonth",
           "isStatic": false,
           "tsSignatureId": "GetLeapMonth|(System.Int32):System.Int32|static=false",
           "target": {
@@ -29472,7 +29472,7 @@
           }
         },
         {
-          "tsName": "GetMonthsInYear",
+          "tsName": "getMonthsInYear",
           "isStatic": false,
           "tsSignatureId": "GetMonthsInYear|(System.Int32):System.Int32|static=false",
           "target": {
@@ -29482,7 +29482,7 @@
           }
         },
         {
-          "tsName": "IsLeapDay",
+          "tsName": "isLeapDay",
           "isStatic": false,
           "tsSignatureId": "IsLeapDay|(System.Int32,System.Int32,System.Int32):System.Boolean|static=false",
           "target": {
@@ -29492,7 +29492,7 @@
           }
         },
         {
-          "tsName": "IsLeapMonth",
+          "tsName": "isLeapMonth",
           "isStatic": false,
           "tsSignatureId": "IsLeapMonth|(System.Int32,System.Int32):System.Boolean|static=false",
           "target": {
@@ -29502,7 +29502,7 @@
           }
         },
         {
-          "tsName": "IsLeapYear",
+          "tsName": "isLeapYear",
           "isStatic": false,
           "tsSignatureId": "IsLeapYear|(System.Int32):System.Boolean|static=false",
           "target": {
@@ -29512,7 +29512,7 @@
           }
         },
         {
-          "tsName": "ToDateTime",
+          "tsName": "toDateTime",
           "isStatic": false,
           "tsSignatureId": "ToDateTime|(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32):System.DateTime|static=false",
           "target": {
@@ -30636,7 +30636,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.ThaiBuddhistCalendar::GetDaysInMonth(System.Int32,System.Int32,System.Int32):System.Int32",
           "clrName": "GetDaysInMonth",
-          "tsEmitName": "getDaysInMonth",
+          "tsEmitName": "getDaysInMonth2",
           "metadataToken": 100677489,
           "canonicalSignature": "(System.Int32,System.Int32,System.Int32):System.Int32",
           "normalizedSignature": "GetDaysInMonth|(System.Int32,System.Int32,System.Int32):System.Int32|static=false",
@@ -30650,7 +30650,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.ThaiBuddhistCalendar::GetDaysInYear(System.Int32,System.Int32):System.Int32",
           "clrName": "GetDaysInYear",
-          "tsEmitName": "getDaysInYear",
+          "tsEmitName": "getDaysInYear2",
           "metadataToken": 100677490,
           "canonicalSignature": "(System.Int32,System.Int32):System.Int32",
           "normalizedSignature": "GetDaysInYear|(System.Int32,System.Int32):System.Int32|static=false",
@@ -30706,7 +30706,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.ThaiBuddhistCalendar::GetMonthsInYear(System.Int32,System.Int32):System.Int32",
           "clrName": "GetMonthsInYear",
-          "tsEmitName": "getMonthsInYear",
+          "tsEmitName": "getMonthsInYear2",
           "metadataToken": 100677494,
           "canonicalSignature": "(System.Int32,System.Int32):System.Int32",
           "normalizedSignature": "GetMonthsInYear|(System.Int32,System.Int32):System.Int32|static=false",
@@ -30776,7 +30776,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.ThaiBuddhistCalendar::IsLeapDay(System.Int32,System.Int32,System.Int32,System.Int32):System.Boolean",
           "clrName": "IsLeapDay",
-          "tsEmitName": "isLeapDay",
+          "tsEmitName": "isLeapDay2",
           "metadataToken": 100677499,
           "canonicalSignature": "(System.Int32,System.Int32,System.Int32,System.Int32):System.Boolean",
           "normalizedSignature": "IsLeapDay|(System.Int32,System.Int32,System.Int32,System.Int32):System.Boolean|static=false",
@@ -30790,7 +30790,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.ThaiBuddhistCalendar::IsLeapYear(System.Int32,System.Int32):System.Boolean",
           "clrName": "IsLeapYear",
-          "tsEmitName": "isLeapYear",
+          "tsEmitName": "isLeapYear2",
           "metadataToken": 100677500,
           "canonicalSignature": "(System.Int32,System.Int32):System.Boolean",
           "normalizedSignature": "IsLeapYear|(System.Int32,System.Int32):System.Boolean|static=false",
@@ -30804,7 +30804,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.ThaiBuddhistCalendar::GetLeapMonth(System.Int32,System.Int32):System.Int32",
           "clrName": "GetLeapMonth",
-          "tsEmitName": "getLeapMonth",
+          "tsEmitName": "getLeapMonth2",
           "metadataToken": 100677501,
           "canonicalSignature": "(System.Int32,System.Int32):System.Int32",
           "normalizedSignature": "GetLeapMonth|(System.Int32,System.Int32):System.Int32|static=false",
@@ -30818,7 +30818,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.ThaiBuddhistCalendar::IsLeapMonth(System.Int32,System.Int32,System.Int32):System.Boolean",
           "clrName": "IsLeapMonth",
-          "tsEmitName": "isLeapMonth",
+          "tsEmitName": "isLeapMonth2",
           "metadataToken": 100677502,
           "canonicalSignature": "(System.Int32,System.Int32,System.Int32):System.Boolean",
           "normalizedSignature": "IsLeapMonth|(System.Int32,System.Int32,System.Int32):System.Boolean|static=false",
@@ -30832,7 +30832,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.ThaiBuddhistCalendar::ToDateTime(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32):System.DateTime",
           "clrName": "ToDateTime",
-          "tsEmitName": "toDateTime",
+          "tsEmitName": "toDateTime2",
           "metadataToken": 100677503,
           "canonicalSignature": "(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32):System.DateTime",
           "normalizedSignature": "ToDateTime|(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32):System.DateTime|static=false",
@@ -30860,7 +30860,7 @@
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "clone",
+          "tsEmitName": "clone$view",
           "metadataToken": 100668509,
           "canonicalSignature": "():System.Object",
           "normalizedSignature": "Clone|():System.Object|static=false",
@@ -30874,7 +30874,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.ThaiBuddhistCalendar::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "Clone",
+          "tsEmitName": "clone",
           "metadataToken": 0,
           "canonicalSignature": "():System.Object",
           "normalizedSignature": "Clone|():System.Object|static=false",
@@ -30888,7 +30888,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.ThaiBuddhistCalendar::GetDaysInMonth(System.Int32,System.Int32):System.Int32",
           "clrName": "GetDaysInMonth",
-          "tsEmitName": "GetDaysInMonth",
+          "tsEmitName": "getDaysInMonth",
           "metadataToken": 0,
           "canonicalSignature": "(System.Int32,System.Int32):System.Int32",
           "normalizedSignature": "GetDaysInMonth|(System.Int32,System.Int32):System.Int32|static=false",
@@ -30902,7 +30902,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.ThaiBuddhistCalendar::GetDaysInYear(System.Int32):System.Int32",
           "clrName": "GetDaysInYear",
-          "tsEmitName": "GetDaysInYear",
+          "tsEmitName": "getDaysInYear",
           "metadataToken": 0,
           "canonicalSignature": "(System.Int32):System.Int32",
           "normalizedSignature": "GetDaysInYear|(System.Int32):System.Int32|static=false",
@@ -30916,7 +30916,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.ThaiBuddhistCalendar::GetLeapMonth(System.Int32):System.Int32",
           "clrName": "GetLeapMonth",
-          "tsEmitName": "GetLeapMonth",
+          "tsEmitName": "getLeapMonth",
           "metadataToken": 0,
           "canonicalSignature": "(System.Int32):System.Int32",
           "normalizedSignature": "GetLeapMonth|(System.Int32):System.Int32|static=false",
@@ -30930,7 +30930,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.ThaiBuddhistCalendar::GetMonthsInYear(System.Int32):System.Int32",
           "clrName": "GetMonthsInYear",
-          "tsEmitName": "GetMonthsInYear",
+          "tsEmitName": "getMonthsInYear",
           "metadataToken": 0,
           "canonicalSignature": "(System.Int32):System.Int32",
           "normalizedSignature": "GetMonthsInYear|(System.Int32):System.Int32|static=false",
@@ -30944,7 +30944,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.ThaiBuddhistCalendar::IsLeapDay(System.Int32,System.Int32,System.Int32):System.Boolean",
           "clrName": "IsLeapDay",
-          "tsEmitName": "IsLeapDay",
+          "tsEmitName": "isLeapDay",
           "metadataToken": 0,
           "canonicalSignature": "(System.Int32,System.Int32,System.Int32):System.Boolean",
           "normalizedSignature": "IsLeapDay|(System.Int32,System.Int32,System.Int32):System.Boolean|static=false",
@@ -30958,7 +30958,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.ThaiBuddhistCalendar::IsLeapMonth(System.Int32,System.Int32):System.Boolean",
           "clrName": "IsLeapMonth",
-          "tsEmitName": "IsLeapMonth",
+          "tsEmitName": "isLeapMonth",
           "metadataToken": 0,
           "canonicalSignature": "(System.Int32,System.Int32):System.Boolean",
           "normalizedSignature": "IsLeapMonth|(System.Int32,System.Int32):System.Boolean|static=false",
@@ -30972,7 +30972,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.ThaiBuddhistCalendar::IsLeapYear(System.Int32):System.Boolean",
           "clrName": "IsLeapYear",
-          "tsEmitName": "IsLeapYear",
+          "tsEmitName": "isLeapYear",
           "metadataToken": 0,
           "canonicalSignature": "(System.Int32):System.Boolean",
           "normalizedSignature": "IsLeapYear|(System.Int32):System.Boolean|static=false",
@@ -30986,7 +30986,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.ThaiBuddhistCalendar::ToDateTime(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32):System.DateTime",
           "clrName": "ToDateTime",
-          "tsEmitName": "ToDateTime",
+          "tsEmitName": "toDateTime",
           "metadataToken": 0,
           "canonicalSignature": "(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32):System.DateTime",
           "normalizedSignature": "ToDateTime|(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32):System.DateTime|static=false",
@@ -31118,7 +31118,7 @@
           }
         },
         {
-          "tsName": "getDaysInMonth",
+          "tsName": "getDaysInMonth2",
           "isStatic": false,
           "tsSignatureId": "GetDaysInMonth|(System.Int32,System.Int32,System.Int32):System.Int32|static=false",
           "target": {
@@ -31128,7 +31128,7 @@
           }
         },
         {
-          "tsName": "getDaysInYear",
+          "tsName": "getDaysInYear2",
           "isStatic": false,
           "tsSignatureId": "GetDaysInYear|(System.Int32,System.Int32):System.Int32|static=false",
           "target": {
@@ -31168,7 +31168,7 @@
           }
         },
         {
-          "tsName": "getMonthsInYear",
+          "tsName": "getMonthsInYear2",
           "isStatic": false,
           "tsSignatureId": "GetMonthsInYear|(System.Int32,System.Int32):System.Int32|static=false",
           "target": {
@@ -31218,7 +31218,7 @@
           }
         },
         {
-          "tsName": "isLeapDay",
+          "tsName": "isLeapDay2",
           "isStatic": false,
           "tsSignatureId": "IsLeapDay|(System.Int32,System.Int32,System.Int32,System.Int32):System.Boolean|static=false",
           "target": {
@@ -31228,7 +31228,7 @@
           }
         },
         {
-          "tsName": "isLeapYear",
+          "tsName": "isLeapYear2",
           "isStatic": false,
           "tsSignatureId": "IsLeapYear|(System.Int32,System.Int32):System.Boolean|static=false",
           "target": {
@@ -31238,7 +31238,7 @@
           }
         },
         {
-          "tsName": "getLeapMonth",
+          "tsName": "getLeapMonth2",
           "isStatic": false,
           "tsSignatureId": "GetLeapMonth|(System.Int32,System.Int32):System.Int32|static=false",
           "target": {
@@ -31248,7 +31248,7 @@
           }
         },
         {
-          "tsName": "isLeapMonth",
+          "tsName": "isLeapMonth2",
           "isStatic": false,
           "tsSignatureId": "IsLeapMonth|(System.Int32,System.Int32,System.Int32):System.Boolean|static=false",
           "target": {
@@ -31258,7 +31258,7 @@
           }
         },
         {
-          "tsName": "toDateTime",
+          "tsName": "toDateTime2",
           "isStatic": false,
           "tsSignatureId": "ToDateTime|(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32):System.DateTime|static=false",
           "target": {
@@ -31278,7 +31278,7 @@
           }
         },
         {
-          "tsName": "clone",
+          "tsName": "clone$view",
           "isStatic": false,
           "tsSignatureId": "Clone|():System.Object|static=false",
           "target": {
@@ -31288,7 +31288,7 @@
           }
         },
         {
-          "tsName": "Clone",
+          "tsName": "clone",
           "isStatic": false,
           "tsSignatureId": "Clone|():System.Object|static=false",
           "target": {
@@ -31298,7 +31298,7 @@
           }
         },
         {
-          "tsName": "GetDaysInMonth",
+          "tsName": "getDaysInMonth",
           "isStatic": false,
           "tsSignatureId": "GetDaysInMonth|(System.Int32,System.Int32):System.Int32|static=false",
           "target": {
@@ -31308,7 +31308,7 @@
           }
         },
         {
-          "tsName": "GetDaysInYear",
+          "tsName": "getDaysInYear",
           "isStatic": false,
           "tsSignatureId": "GetDaysInYear|(System.Int32):System.Int32|static=false",
           "target": {
@@ -31318,7 +31318,7 @@
           }
         },
         {
-          "tsName": "GetLeapMonth",
+          "tsName": "getLeapMonth",
           "isStatic": false,
           "tsSignatureId": "GetLeapMonth|(System.Int32):System.Int32|static=false",
           "target": {
@@ -31328,7 +31328,7 @@
           }
         },
         {
-          "tsName": "GetMonthsInYear",
+          "tsName": "getMonthsInYear",
           "isStatic": false,
           "tsSignatureId": "GetMonthsInYear|(System.Int32):System.Int32|static=false",
           "target": {
@@ -31338,7 +31338,7 @@
           }
         },
         {
-          "tsName": "IsLeapDay",
+          "tsName": "isLeapDay",
           "isStatic": false,
           "tsSignatureId": "IsLeapDay|(System.Int32,System.Int32,System.Int32):System.Boolean|static=false",
           "target": {
@@ -31348,7 +31348,7 @@
           }
         },
         {
-          "tsName": "IsLeapMonth",
+          "tsName": "isLeapMonth",
           "isStatic": false,
           "tsSignatureId": "IsLeapMonth|(System.Int32,System.Int32):System.Boolean|static=false",
           "target": {
@@ -31358,7 +31358,7 @@
           }
         },
         {
-          "tsName": "IsLeapYear",
+          "tsName": "isLeapYear",
           "isStatic": false,
           "tsSignatureId": "IsLeapYear|(System.Int32):System.Boolean|static=false",
           "target": {
@@ -31368,7 +31368,7 @@
           }
         },
         {
-          "tsName": "ToDateTime",
+          "tsName": "toDateTime",
           "isStatic": false,
           "tsSignatureId": "ToDateTime|(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32):System.DateTime|static=false",
           "target": {
@@ -31714,7 +31714,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.UmAlQuraCalendar::GetDaysInMonth(System.Int32,System.Int32,System.Int32):System.Int32",
           "clrName": "GetDaysInMonth",
-          "tsEmitName": "getDaysInMonth",
+          "tsEmitName": "getDaysInMonth2",
           "metadataToken": 100677607,
           "canonicalSignature": "(System.Int32,System.Int32,System.Int32):System.Int32",
           "normalizedSignature": "GetDaysInMonth|(System.Int32,System.Int32,System.Int32):System.Int32|static=false",
@@ -31728,7 +31728,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.UmAlQuraCalendar::GetDaysInYear(System.Int32,System.Int32):System.Int32",
           "clrName": "GetDaysInYear",
-          "tsEmitName": "getDaysInYear",
+          "tsEmitName": "getDaysInYear2",
           "metadataToken": 100677609,
           "canonicalSignature": "(System.Int32,System.Int32):System.Int32",
           "normalizedSignature": "GetDaysInYear|(System.Int32,System.Int32):System.Int32|static=false",
@@ -31770,7 +31770,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.UmAlQuraCalendar::GetMonthsInYear(System.Int32,System.Int32):System.Int32",
           "clrName": "GetMonthsInYear",
-          "tsEmitName": "getMonthsInYear",
+          "tsEmitName": "getMonthsInYear2",
           "metadataToken": 100677613,
           "canonicalSignature": "(System.Int32,System.Int32):System.Int32",
           "normalizedSignature": "GetMonthsInYear|(System.Int32,System.Int32):System.Int32|static=false",
@@ -31798,7 +31798,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.UmAlQuraCalendar::IsLeapDay(System.Int32,System.Int32,System.Int32,System.Int32):System.Boolean",
           "clrName": "IsLeapDay",
-          "tsEmitName": "isLeapDay",
+          "tsEmitName": "isLeapDay2",
           "metadataToken": 100677615,
           "canonicalSignature": "(System.Int32,System.Int32,System.Int32,System.Int32):System.Boolean",
           "normalizedSignature": "IsLeapDay|(System.Int32,System.Int32,System.Int32,System.Int32):System.Boolean|static=false",
@@ -31812,7 +31812,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.UmAlQuraCalendar::GetLeapMonth(System.Int32,System.Int32):System.Int32",
           "clrName": "GetLeapMonth",
-          "tsEmitName": "getLeapMonth",
+          "tsEmitName": "getLeapMonth2",
           "metadataToken": 100677616,
           "canonicalSignature": "(System.Int32,System.Int32):System.Int32",
           "normalizedSignature": "GetLeapMonth|(System.Int32,System.Int32):System.Int32|static=false",
@@ -31826,7 +31826,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.UmAlQuraCalendar::IsLeapMonth(System.Int32,System.Int32,System.Int32):System.Boolean",
           "clrName": "IsLeapMonth",
-          "tsEmitName": "isLeapMonth",
+          "tsEmitName": "isLeapMonth2",
           "metadataToken": 100677617,
           "canonicalSignature": "(System.Int32,System.Int32,System.Int32):System.Boolean",
           "normalizedSignature": "IsLeapMonth|(System.Int32,System.Int32,System.Int32):System.Boolean|static=false",
@@ -31840,7 +31840,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.UmAlQuraCalendar::IsLeapYear(System.Int32,System.Int32):System.Boolean",
           "clrName": "IsLeapYear",
-          "tsEmitName": "isLeapYear",
+          "tsEmitName": "isLeapYear2",
           "metadataToken": 100677618,
           "canonicalSignature": "(System.Int32,System.Int32):System.Boolean",
           "normalizedSignature": "IsLeapYear|(System.Int32,System.Int32):System.Boolean|static=false",
@@ -31854,7 +31854,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.UmAlQuraCalendar::ToDateTime(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32):System.DateTime",
           "clrName": "ToDateTime",
-          "tsEmitName": "toDateTime",
+          "tsEmitName": "toDateTime2",
           "metadataToken": 100677619,
           "canonicalSignature": "(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32):System.DateTime",
           "normalizedSignature": "ToDateTime|(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32):System.DateTime|static=false",
@@ -31882,7 +31882,7 @@
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "clone",
+          "tsEmitName": "clone$view",
           "metadataToken": 100668509,
           "canonicalSignature": "():System.Object",
           "normalizedSignature": "Clone|():System.Object|static=false",
@@ -31896,7 +31896,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.UmAlQuraCalendar::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "Clone",
+          "tsEmitName": "clone",
           "metadataToken": 0,
           "canonicalSignature": "():System.Object",
           "normalizedSignature": "Clone|():System.Object|static=false",
@@ -31910,7 +31910,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.UmAlQuraCalendar::GetDaysInMonth(System.Int32,System.Int32):System.Int32",
           "clrName": "GetDaysInMonth",
-          "tsEmitName": "GetDaysInMonth",
+          "tsEmitName": "getDaysInMonth",
           "metadataToken": 0,
           "canonicalSignature": "(System.Int32,System.Int32):System.Int32",
           "normalizedSignature": "GetDaysInMonth|(System.Int32,System.Int32):System.Int32|static=false",
@@ -31924,7 +31924,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.UmAlQuraCalendar::GetDaysInYear(System.Int32):System.Int32",
           "clrName": "GetDaysInYear",
-          "tsEmitName": "GetDaysInYear",
+          "tsEmitName": "getDaysInYear",
           "metadataToken": 0,
           "canonicalSignature": "(System.Int32):System.Int32",
           "normalizedSignature": "GetDaysInYear|(System.Int32):System.Int32|static=false",
@@ -31938,7 +31938,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.UmAlQuraCalendar::GetLeapMonth(System.Int32):System.Int32",
           "clrName": "GetLeapMonth",
-          "tsEmitName": "GetLeapMonth",
+          "tsEmitName": "getLeapMonth",
           "metadataToken": 0,
           "canonicalSignature": "(System.Int32):System.Int32",
           "normalizedSignature": "GetLeapMonth|(System.Int32):System.Int32|static=false",
@@ -31952,7 +31952,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.UmAlQuraCalendar::GetMonthsInYear(System.Int32):System.Int32",
           "clrName": "GetMonthsInYear",
-          "tsEmitName": "GetMonthsInYear",
+          "tsEmitName": "getMonthsInYear",
           "metadataToken": 0,
           "canonicalSignature": "(System.Int32):System.Int32",
           "normalizedSignature": "GetMonthsInYear|(System.Int32):System.Int32|static=false",
@@ -31966,7 +31966,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.UmAlQuraCalendar::IsLeapDay(System.Int32,System.Int32,System.Int32):System.Boolean",
           "clrName": "IsLeapDay",
-          "tsEmitName": "IsLeapDay",
+          "tsEmitName": "isLeapDay",
           "metadataToken": 0,
           "canonicalSignature": "(System.Int32,System.Int32,System.Int32):System.Boolean",
           "normalizedSignature": "IsLeapDay|(System.Int32,System.Int32,System.Int32):System.Boolean|static=false",
@@ -31980,7 +31980,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.UmAlQuraCalendar::IsLeapMonth(System.Int32,System.Int32):System.Boolean",
           "clrName": "IsLeapMonth",
-          "tsEmitName": "IsLeapMonth",
+          "tsEmitName": "isLeapMonth",
           "metadataToken": 0,
           "canonicalSignature": "(System.Int32,System.Int32):System.Boolean",
           "normalizedSignature": "IsLeapMonth|(System.Int32,System.Int32):System.Boolean|static=false",
@@ -31994,7 +31994,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.UmAlQuraCalendar::IsLeapYear(System.Int32):System.Boolean",
           "clrName": "IsLeapYear",
-          "tsEmitName": "IsLeapYear",
+          "tsEmitName": "isLeapYear",
           "metadataToken": 0,
           "canonicalSignature": "(System.Int32):System.Boolean",
           "normalizedSignature": "IsLeapYear|(System.Int32):System.Boolean|static=false",
@@ -32008,7 +32008,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.UmAlQuraCalendar::ToDateTime(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32):System.DateTime",
           "clrName": "ToDateTime",
-          "tsEmitName": "ToDateTime",
+          "tsEmitName": "toDateTime",
           "metadataToken": 0,
           "canonicalSignature": "(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32):System.DateTime",
           "normalizedSignature": "ToDateTime|(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32):System.DateTime|static=false",
@@ -32170,7 +32170,7 @@
           }
         },
         {
-          "tsName": "getDaysInMonth",
+          "tsName": "getDaysInMonth2",
           "isStatic": false,
           "tsSignatureId": "GetDaysInMonth|(System.Int32,System.Int32,System.Int32):System.Int32|static=false",
           "target": {
@@ -32180,7 +32180,7 @@
           }
         },
         {
-          "tsName": "getDaysInYear",
+          "tsName": "getDaysInYear2",
           "isStatic": false,
           "tsSignatureId": "GetDaysInYear|(System.Int32,System.Int32):System.Int32|static=false",
           "target": {
@@ -32210,7 +32210,7 @@
           }
         },
         {
-          "tsName": "getMonthsInYear",
+          "tsName": "getMonthsInYear2",
           "isStatic": false,
           "tsSignatureId": "GetMonthsInYear|(System.Int32,System.Int32):System.Int32|static=false",
           "target": {
@@ -32230,7 +32230,7 @@
           }
         },
         {
-          "tsName": "isLeapDay",
+          "tsName": "isLeapDay2",
           "isStatic": false,
           "tsSignatureId": "IsLeapDay|(System.Int32,System.Int32,System.Int32,System.Int32):System.Boolean|static=false",
           "target": {
@@ -32240,7 +32240,7 @@
           }
         },
         {
-          "tsName": "getLeapMonth",
+          "tsName": "getLeapMonth2",
           "isStatic": false,
           "tsSignatureId": "GetLeapMonth|(System.Int32,System.Int32):System.Int32|static=false",
           "target": {
@@ -32250,7 +32250,7 @@
           }
         },
         {
-          "tsName": "isLeapMonth",
+          "tsName": "isLeapMonth2",
           "isStatic": false,
           "tsSignatureId": "IsLeapMonth|(System.Int32,System.Int32,System.Int32):System.Boolean|static=false",
           "target": {
@@ -32260,7 +32260,7 @@
           }
         },
         {
-          "tsName": "isLeapYear",
+          "tsName": "isLeapYear2",
           "isStatic": false,
           "tsSignatureId": "IsLeapYear|(System.Int32,System.Int32):System.Boolean|static=false",
           "target": {
@@ -32270,7 +32270,7 @@
           }
         },
         {
-          "tsName": "toDateTime",
+          "tsName": "toDateTime2",
           "isStatic": false,
           "tsSignatureId": "ToDateTime|(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32):System.DateTime|static=false",
           "target": {
@@ -32290,7 +32290,7 @@
           }
         },
         {
-          "tsName": "clone",
+          "tsName": "clone$view",
           "isStatic": false,
           "tsSignatureId": "Clone|():System.Object|static=false",
           "target": {
@@ -32300,7 +32300,7 @@
           }
         },
         {
-          "tsName": "Clone",
+          "tsName": "clone",
           "isStatic": false,
           "tsSignatureId": "Clone|():System.Object|static=false",
           "target": {
@@ -32310,7 +32310,7 @@
           }
         },
         {
-          "tsName": "GetDaysInMonth",
+          "tsName": "getDaysInMonth",
           "isStatic": false,
           "tsSignatureId": "GetDaysInMonth|(System.Int32,System.Int32):System.Int32|static=false",
           "target": {
@@ -32320,7 +32320,7 @@
           }
         },
         {
-          "tsName": "GetDaysInYear",
+          "tsName": "getDaysInYear",
           "isStatic": false,
           "tsSignatureId": "GetDaysInYear|(System.Int32):System.Int32|static=false",
           "target": {
@@ -32330,7 +32330,7 @@
           }
         },
         {
-          "tsName": "GetLeapMonth",
+          "tsName": "getLeapMonth",
           "isStatic": false,
           "tsSignatureId": "GetLeapMonth|(System.Int32):System.Int32|static=false",
           "target": {
@@ -32340,7 +32340,7 @@
           }
         },
         {
-          "tsName": "GetMonthsInYear",
+          "tsName": "getMonthsInYear",
           "isStatic": false,
           "tsSignatureId": "GetMonthsInYear|(System.Int32):System.Int32|static=false",
           "target": {
@@ -32350,7 +32350,7 @@
           }
         },
         {
-          "tsName": "IsLeapDay",
+          "tsName": "isLeapDay",
           "isStatic": false,
           "tsSignatureId": "IsLeapDay|(System.Int32,System.Int32,System.Int32):System.Boolean|static=false",
           "target": {
@@ -32360,7 +32360,7 @@
           }
         },
         {
-          "tsName": "IsLeapMonth",
+          "tsName": "isLeapMonth",
           "isStatic": false,
           "tsSignatureId": "IsLeapMonth|(System.Int32,System.Int32):System.Boolean|static=false",
           "target": {
@@ -32370,7 +32370,7 @@
           }
         },
         {
-          "tsName": "IsLeapYear",
+          "tsName": "isLeapYear",
           "isStatic": false,
           "tsSignatureId": "IsLeapYear|(System.Int32):System.Boolean|static=false",
           "target": {
@@ -32380,7 +32380,7 @@
           }
         },
         {
-          "tsName": "ToDateTime",
+          "tsName": "toDateTime",
           "isStatic": false,
           "tsSignatureId": "ToDateTime|(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32):System.DateTime|static=false",
           "target": {

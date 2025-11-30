@@ -288,9 +288,9 @@ export type ReadOnlySequenceSegment_1<T> = ReadOnlySequenceSegment_1$instance<T>
 export class ReadOnlySpanAction_2$instance<T, TArg> extends Function {
     constructor(object_: unknown, method: nint);
     beginInvoke(span: ReadOnlySpan_1<T>, arg: TArg, callback: AsyncCallback, object_: unknown): IAsyncResult;
-    Clone(): unknown;
+    clone(): unknown;
     endInvoke(result: IAsyncResult): void;
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
     invoke(span: ReadOnlySpan_1<T>, arg: TArg): void;
 }
 
@@ -299,8 +299,6 @@ export interface __ReadOnlySpanAction_2$views<T, TArg> {
     As_ICloneable(): System_Internal.ICloneable$instance;
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
-
-export interface ReadOnlySpanAction_2$instance<T, TArg> extends System_Internal.ICloneable$instance {}
 
 export type ReadOnlySpanAction_2<T, TArg> = ReadOnlySpanAction_2$instance<T, TArg> & __ReadOnlySpanAction_2$views<T, TArg>;
 
@@ -315,9 +313,9 @@ export type SearchValues_1<T extends IEquatable_1<T>> = SearchValues_1$instance<
 export class SpanAction_2$instance<T, TArg> extends Function {
     constructor(object_: unknown, method: nint);
     beginInvoke(span: Span_1<T>, arg: TArg, callback: AsyncCallback, object_: unknown): IAsyncResult;
-    Clone(): unknown;
+    clone(): unknown;
     endInvoke(result: IAsyncResult): void;
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
     invoke(span: Span_1<T>, arg: TArg): void;
 }
 
@@ -326,8 +324,6 @@ export interface __SpanAction_2$views<T, TArg> {
     As_ICloneable(): System_Internal.ICloneable$instance;
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
-
-export interface SpanAction_2$instance<T, TArg> extends System_Internal.ICloneable$instance {}
 
 export type SpanAction_2<T, TArg> = SpanAction_2$instance<T, TArg> & __SpanAction_2$views<T, TArg>;
 

@@ -65,15 +65,13 @@ export enum ProtectionScenario {
 
 export abstract class ChannelBinding$instance extends Microsoft_Win32_SafeHandles_Internal.SafeHandleZeroOrMinusOneIsInvalid$instance {
     readonly size: int;
-    Dispose(): void;
+    dispose(): void;
 }
 
 
 export interface __ChannelBinding$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
-
-export interface ChannelBinding$instance extends System_Internal.IDisposable$instance {}
 
 export type ChannelBinding = ChannelBinding$instance & __ChannelBinding$views;
 
@@ -115,8 +113,8 @@ export type ExtendedProtectionPolicyTypeConverter = ExtendedProtectionPolicyType
 export class ServiceNameCollection$instance extends System_Collections_Internal.ReadOnlyCollectionBase$instance {
     constructor(items: ICollection);
     contains(searchServiceName: string): boolean;
-    CopyTo(array: ClrArray, index: int): void;
-    GetEnumerator(): IEnumerator;
+    copyTo(array: ClrArray, index: int): void;
+    getEnumerator(): IEnumerator;
     merge(serviceName: string): ServiceNameCollection;
     merge(serviceNames: IEnumerable): ServiceNameCollection;
 }
@@ -126,6 +124,8 @@ export interface __ServiceNameCollection$views {
     As_ICollection(): System_Collections_Internal.ICollection$instance;
     As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
 }
+
+export interface ServiceNameCollection$instance extends System_Collections_Internal.ICollection$instance {}
 
 export type ServiceNameCollection = ServiceNameCollection$instance & __ServiceNameCollection$views;
 

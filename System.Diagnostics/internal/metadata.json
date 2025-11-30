@@ -25,7 +25,7 @@
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.ActivityIdFormat::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -78,7 +78,7 @@
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.ActivityKind::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -149,7 +149,7 @@
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.ActivitySamplingResult::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -211,7 +211,7 @@
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.ActivityStatusCode::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -264,7 +264,7 @@
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.ActivityTraceFlags::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -308,7 +308,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.DebuggableAttribute\u002BDebuggingModes::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -379,7 +379,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.DebuggerBrowsableState::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -432,7 +432,7 @@
         {
           "stableId": "System.Diagnostics.Process:System.Diagnostics.ProcessPriorityClass::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -512,7 +512,7 @@
         {
           "stableId": "System.Diagnostics.Process:System.Diagnostics.ProcessWindowStyle::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -574,7 +574,7 @@
         {
           "stableId": "System.Diagnostics.TraceSource:System.Diagnostics.SourceLevels::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -672,7 +672,7 @@
         {
           "stableId": "System.Diagnostics.Process:System.Diagnostics.ThreadPriorityLevel::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -761,7 +761,7 @@
         {
           "stableId": "System.Diagnostics.Process:System.Diagnostics.ThreadState::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -859,7 +859,7 @@
         {
           "stableId": "System.Diagnostics.Process:System.Diagnostics.ThreadWaitReason::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -1011,7 +1011,7 @@
         {
           "stableId": "System.Diagnostics.TraceSource:System.Diagnostics.TraceEventType::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -1127,7 +1127,7 @@
         {
           "stableId": "System.Diagnostics.TraceSource:System.Diagnostics.TraceLevel::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -1198,7 +1198,7 @@
         {
           "stableId": "System.Diagnostics.TraceSource:System.Diagnostics.TraceOptions::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -5495,7 +5495,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "dispose",
+          "tsEmitName": "dispose$view",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -5512,7 +5512,7 @@
         {
           "stableId": "System.Diagnostics.TextWriterTraceListener:System.Diagnostics.ConsoleTraceListener::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "Dispose",
+          "tsEmitName": "dispose",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -5732,7 +5732,7 @@
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "clone",
+          "tsEmitName": "clone$view",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -5749,7 +5749,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "getObjectData",
+          "tsEmitName": "getObjectData$view",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -5766,7 +5766,7 @@
         {
           "stableId": "System.Diagnostics.Process:System.Diagnostics.DataReceivedEventHandler::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "Clone",
+          "tsEmitName": "clone",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -5782,7 +5782,7 @@
         {
           "stableId": "System.Diagnostics.Process:System.Diagnostics.DataReceivedEventHandler::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData",
+          "tsEmitName": "getObjectData",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -6503,7 +6503,7 @@
         {
           "stableId": "System.Diagnostics.TraceSource:System.Diagnostics.DefaultTraceListener::Write(System.String):System.Void",
           "clrName": "Write",
-          "tsEmitName": "write",
+          "tsEmitName": "write4",
           "normalizedSignature": "Write|(System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6519,7 +6519,7 @@
         {
           "stableId": "System.Diagnostics.TraceSource:System.Diagnostics.DefaultTraceListener::WriteLine(System.String):System.Void",
           "clrName": "WriteLine",
-          "tsEmitName": "writeLine",
+          "tsEmitName": "writeLine4",
           "normalizedSignature": "WriteLine|(System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6535,7 +6535,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "dispose",
+          "tsEmitName": "dispose$view",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -6552,7 +6552,7 @@
         {
           "stableId": "System.Diagnostics.TraceSource:System.Diagnostics.DefaultTraceListener::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "Dispose",
+          "tsEmitName": "dispose",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -6568,7 +6568,7 @@
         {
           "stableId": "System.Diagnostics.TraceSource:System.Diagnostics.DefaultTraceListener::Write(System.Object):System.Void",
           "clrName": "Write",
-          "tsEmitName": "Write",
+          "tsEmitName": "write",
           "normalizedSignature": "Write|(System.Object):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -6584,7 +6584,7 @@
         {
           "stableId": "System.Diagnostics.TraceSource:System.Diagnostics.DefaultTraceListener::Write(System.String,System.String):System.Void",
           "clrName": "Write",
-          "tsEmitName": "Write2",
+          "tsEmitName": "write2",
           "normalizedSignature": "Write|(System.String,System.String):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -6600,7 +6600,7 @@
         {
           "stableId": "System.Diagnostics.TraceSource:System.Diagnostics.DefaultTraceListener::Write(System.Object,System.String):System.Void",
           "clrName": "Write",
-          "tsEmitName": "Write3",
+          "tsEmitName": "write3",
           "normalizedSignature": "Write|(System.Object,System.String):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -6616,7 +6616,7 @@
         {
           "stableId": "System.Diagnostics.TraceSource:System.Diagnostics.DefaultTraceListener::WriteLine(System.Object):System.Void",
           "clrName": "WriteLine",
-          "tsEmitName": "WriteLine",
+          "tsEmitName": "writeLine",
           "normalizedSignature": "WriteLine|(System.Object):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -6632,7 +6632,7 @@
         {
           "stableId": "System.Diagnostics.TraceSource:System.Diagnostics.DefaultTraceListener::WriteLine(System.String,System.String):System.Void",
           "clrName": "WriteLine",
-          "tsEmitName": "WriteLine2",
+          "tsEmitName": "writeLine2",
           "normalizedSignature": "WriteLine|(System.String,System.String):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -6648,7 +6648,7 @@
         {
           "stableId": "System.Diagnostics.TraceSource:System.Diagnostics.DefaultTraceListener::WriteLine(System.Object,System.String):System.Void",
           "clrName": "WriteLine",
-          "tsEmitName": "WriteLine3",
+          "tsEmitName": "writeLine3",
           "normalizedSignature": "WriteLine|(System.Object,System.String):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -6718,7 +6718,7 @@
         {
           "stableId": "System.Diagnostics.TextWriterTraceListener:System.Diagnostics.DelimitedListTraceListener::TraceEvent(System.Diagnostics.TraceEventCache,System.String,System.Diagnostics.TraceEventType,System.Int32,System.String,System.Object[]):System.Void",
           "clrName": "TraceEvent",
-          "tsEmitName": "traceEvent",
+          "tsEmitName": "traceEvent2",
           "normalizedSignature": "TraceEvent|(System.Diagnostics.TraceEventCache,System.String,System.Diagnostics.TraceEventType,System.Int32,System.String,System.Object[]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6734,7 +6734,7 @@
         {
           "stableId": "System.Diagnostics.TextWriterTraceListener:System.Diagnostics.DelimitedListTraceListener::TraceEvent(System.Diagnostics.TraceEventCache,System.String,System.Diagnostics.TraceEventType,System.Int32,System.String):System.Void",
           "clrName": "TraceEvent",
-          "tsEmitName": "traceEvent2",
+          "tsEmitName": "traceEvent3",
           "normalizedSignature": "TraceEvent|(System.Diagnostics.TraceEventCache,System.String,System.Diagnostics.TraceEventType,System.Int32,System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6782,7 +6782,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "dispose",
+          "tsEmitName": "dispose$view",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -6799,7 +6799,7 @@
         {
           "stableId": "System.Diagnostics.TextWriterTraceListener:System.Diagnostics.DelimitedListTraceListener::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "Dispose",
+          "tsEmitName": "dispose",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -6815,7 +6815,7 @@
         {
           "stableId": "System.Diagnostics.TextWriterTraceListener:System.Diagnostics.DelimitedListTraceListener::TraceEvent(System.Diagnostics.TraceEventCache,System.String,System.Diagnostics.TraceEventType,System.Int32):System.Void",
           "clrName": "TraceEvent",
-          "tsEmitName": "TraceEvent",
+          "tsEmitName": "traceEvent",
           "normalizedSignature": "TraceEvent|(System.Diagnostics.TraceEventCache,System.String,System.Diagnostics.TraceEventType,System.Int32):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -7071,7 +7071,7 @@
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.DiagnosticListener::Write(System.String,System.Object):System.Void",
           "clrName": "Write",
-          "tsEmitName": "write",
+          "tsEmitName": "write2",
           "normalizedSignature": "Write|(System.String,System.Object):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7121,7 +7121,7 @@
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.DiagnosticListener::Write(System.String,T):System.Void",
           "clrName": "Write",
-          "tsEmitName": "Write",
+          "tsEmitName": "write",
           "normalizedSignature": "Write|(System.String,T):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -7687,7 +7687,7 @@
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "clone",
+          "tsEmitName": "clone$view",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -7704,7 +7704,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "getObjectData",
+          "tsEmitName": "getObjectData$view",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -7721,7 +7721,7 @@
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.DistributedContextPropagator\u002BPropagatorGetterCallback::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "Clone",
+          "tsEmitName": "clone",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -7737,7 +7737,7 @@
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.DistributedContextPropagator\u002BPropagatorGetterCallback::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData",
+          "tsEmitName": "getObjectData",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -7824,7 +7824,7 @@
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "clone",
+          "tsEmitName": "clone$view",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -7841,7 +7841,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "getObjectData",
+          "tsEmitName": "getObjectData$view",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -7858,7 +7858,7 @@
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.DistributedContextPropagator\u002BPropagatorSetterCallback::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "Clone",
+          "tsEmitName": "clone",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -7874,7 +7874,7 @@
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.DistributedContextPropagator\u002BPropagatorSetterCallback::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData",
+          "tsEmitName": "getObjectData",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -8016,7 +8016,7 @@
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "clone",
+          "tsEmitName": "clone$view",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -8033,7 +8033,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "getObjectData",
+          "tsEmitName": "getObjectData$view",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -8050,7 +8050,7 @@
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.ExceptionRecorder::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "Clone",
+          "tsEmitName": "clone",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -8066,7 +8066,7 @@
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.ExceptionRecorder::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData",
+          "tsEmitName": "getObjectData",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -9217,7 +9217,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "dispose",
+          "tsEmitName": "dispose$view",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -9234,7 +9234,7 @@
         {
           "stableId": "System.Diagnostics.Process:System.Diagnostics.Process::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "Dispose",
+          "tsEmitName": "dispose",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -10078,7 +10078,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "dispose",
+          "tsEmitName": "dispose$view",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -10095,7 +10095,7 @@
         {
           "stableId": "System.Diagnostics.Process:System.Diagnostics.ProcessModule::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "Dispose",
+          "tsEmitName": "dispose",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -10267,7 +10267,7 @@
         {
           "stableId": "System.Diagnostics.Process:System.Diagnostics.ProcessModuleCollection::CopyTo(System.Diagnostics.ProcessModule[],System.Int32):System.Void",
           "clrName": "CopyTo",
-          "tsEmitName": "copyTo",
+          "tsEmitName": "copyTo2",
           "normalizedSignature": "CopyTo|(System.Diagnostics.ProcessModule[],System.Int32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -10300,7 +10300,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
           "clrName": "GetEnumerator",
-          "tsEmitName": "getEnumerator",
+          "tsEmitName": "getEnumerator$view",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -10317,7 +10317,7 @@
         {
           "stableId": "System.Diagnostics.Process:System.Diagnostics.ProcessModuleCollection::CopyTo(System.Array,System.Int32):System.Void",
           "clrName": "CopyTo",
-          "tsEmitName": "CopyTo",
+          "tsEmitName": "copyTo",
           "normalizedSignature": "CopyTo|(System.Array,System.Int32):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -10333,7 +10333,7 @@
         {
           "stableId": "System.Diagnostics.Process:System.Diagnostics.ProcessModuleCollection::GetEnumerator():System.Collections.IEnumerator",
           "clrName": "GetEnumerator",
-          "tsEmitName": "GetEnumerator",
+          "tsEmitName": "getEnumerator",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -10880,7 +10880,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "dispose",
+          "tsEmitName": "dispose$view",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -10897,7 +10897,7 @@
         {
           "stableId": "System.Diagnostics.Process:System.Diagnostics.ProcessThread::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "Dispose",
+          "tsEmitName": "dispose",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -11237,7 +11237,7 @@
         {
           "stableId": "System.Diagnostics.Process:System.Diagnostics.ProcessThreadCollection::CopyTo(System.Diagnostics.ProcessThread[],System.Int32):System.Void",
           "clrName": "CopyTo",
-          "tsEmitName": "copyTo",
+          "tsEmitName": "copyTo2",
           "normalizedSignature": "CopyTo|(System.Diagnostics.ProcessThread[],System.Int32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -11270,7 +11270,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
           "clrName": "GetEnumerator",
-          "tsEmitName": "getEnumerator",
+          "tsEmitName": "getEnumerator$view",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -11287,7 +11287,7 @@
         {
           "stableId": "System.Diagnostics.Process:System.Diagnostics.ProcessThreadCollection::CopyTo(System.Array,System.Int32):System.Void",
           "clrName": "CopyTo",
-          "tsEmitName": "CopyTo",
+          "tsEmitName": "copyTo",
           "normalizedSignature": "CopyTo|(System.Array,System.Int32):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -11303,7 +11303,7 @@
         {
           "stableId": "System.Diagnostics.Process:System.Diagnostics.ProcessThreadCollection::GetEnumerator():System.Collections.IEnumerator",
           "clrName": "GetEnumerator",
-          "tsEmitName": "GetEnumerator",
+          "tsEmitName": "getEnumerator",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -11454,7 +11454,7 @@
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "clone",
+          "tsEmitName": "clone$view",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -11471,7 +11471,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "getObjectData",
+          "tsEmitName": "getObjectData$view",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -11488,7 +11488,7 @@
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.SampleActivity\u00601::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "Clone",
+          "tsEmitName": "clone",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -11504,7 +11504,7 @@
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.SampleActivity\u00601::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData",
+          "tsEmitName": "getObjectData",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -11773,7 +11773,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.StackFrame::OFFSET_UNKNOWNSystem.Int32",
           "clrName": "OFFSET_UNKNOWN",
-          "tsEmitName": "offset_unknown",
+          "tsEmitName": "offsetUnknown",
           "normalizedSignature": "OFFSET_UNKNOWN|System.Int32|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -11895,7 +11895,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.StackTrace::METHODS_TO_SKIPSystem.Int32",
           "clrName": "METHODS_TO_SKIP",
-          "tsEmitName": "methods_to_skip",
+          "tsEmitName": "methodsToSkip",
           "normalizedSignature": "METHODS_TO_SKIP|System.Int32|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -12511,7 +12511,7 @@
         {
           "stableId": "System.Diagnostics.TextWriterTraceListener:System.Diagnostics.TextWriterTraceListener::Write(System.String):System.Void",
           "clrName": "Write",
-          "tsEmitName": "write",
+          "tsEmitName": "write4",
           "normalizedSignature": "Write|(System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -12527,7 +12527,7 @@
         {
           "stableId": "System.Diagnostics.TextWriterTraceListener:System.Diagnostics.TextWriterTraceListener::WriteLine(System.String):System.Void",
           "clrName": "WriteLine",
-          "tsEmitName": "writeLine",
+          "tsEmitName": "writeLine4",
           "normalizedSignature": "WriteLine|(System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -12543,7 +12543,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "dispose",
+          "tsEmitName": "dispose$view",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -12560,7 +12560,7 @@
         {
           "stableId": "System.Diagnostics.TextWriterTraceListener:System.Diagnostics.TextWriterTraceListener::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "Dispose",
+          "tsEmitName": "dispose",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -12576,7 +12576,7 @@
         {
           "stableId": "System.Diagnostics.TextWriterTraceListener:System.Diagnostics.TextWriterTraceListener::Write(System.Object):System.Void",
           "clrName": "Write",
-          "tsEmitName": "Write",
+          "tsEmitName": "write",
           "normalizedSignature": "Write|(System.Object):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -12592,7 +12592,7 @@
         {
           "stableId": "System.Diagnostics.TextWriterTraceListener:System.Diagnostics.TextWriterTraceListener::Write(System.String,System.String):System.Void",
           "clrName": "Write",
-          "tsEmitName": "Write2",
+          "tsEmitName": "write2",
           "normalizedSignature": "Write|(System.String,System.String):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -12608,7 +12608,7 @@
         {
           "stableId": "System.Diagnostics.TextWriterTraceListener:System.Diagnostics.TextWriterTraceListener::Write(System.Object,System.String):System.Void",
           "clrName": "Write",
-          "tsEmitName": "Write3",
+          "tsEmitName": "write3",
           "normalizedSignature": "Write|(System.Object,System.String):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -12624,7 +12624,7 @@
         {
           "stableId": "System.Diagnostics.TextWriterTraceListener:System.Diagnostics.TextWriterTraceListener::WriteLine(System.Object):System.Void",
           "clrName": "WriteLine",
-          "tsEmitName": "WriteLine",
+          "tsEmitName": "writeLine",
           "normalizedSignature": "WriteLine|(System.Object):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -12640,7 +12640,7 @@
         {
           "stableId": "System.Diagnostics.TextWriterTraceListener:System.Diagnostics.TextWriterTraceListener::WriteLine(System.String,System.String):System.Void",
           "clrName": "WriteLine",
-          "tsEmitName": "WriteLine2",
+          "tsEmitName": "writeLine2",
           "normalizedSignature": "WriteLine|(System.String,System.String):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -12656,7 +12656,7 @@
         {
           "stableId": "System.Diagnostics.TextWriterTraceListener:System.Diagnostics.TextWriterTraceListener::WriteLine(System.Object,System.String):System.Void",
           "clrName": "WriteLine",
-          "tsEmitName": "WriteLine3",
+          "tsEmitName": "writeLine3",
           "normalizedSignature": "WriteLine|(System.Object,System.String):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -14287,7 +14287,7 @@
         {
           "stableId": "System.Diagnostics.TraceSource:System.Diagnostics.TraceListenerCollection::get_Item(System.Int32):System.Diagnostics.TraceListener",
           "clrName": "get_Item",
-          "tsEmitName": "get_Item",
+          "tsEmitName": "getItem",
           "normalizedSignature": "get_Item|(System.Int32):System.Diagnostics.TraceListener|static=false",
           "provenance": "IndexerNormalized",
           "emitScope": "ClassSurface",
@@ -14303,7 +14303,7 @@
         {
           "stableId": "System.Diagnostics.TraceSource:System.Diagnostics.TraceListenerCollection::set_Item(System.Int32,System.Diagnostics.TraceListener):System.Void",
           "clrName": "set_Item",
-          "tsEmitName": "set_Item",
+          "tsEmitName": "setItem",
           "normalizedSignature": "set_Item|(System.Int32,System.Diagnostics.TraceListener):System.Void|static=false",
           "provenance": "IndexerNormalized",
           "emitScope": "ClassSurface",
@@ -14319,7 +14319,7 @@
         {
           "stableId": "System.Diagnostics.TraceSource:System.Diagnostics.TraceListenerCollection::get_Item(System.String):System.Diagnostics.TraceListener",
           "clrName": "get_Item",
-          "tsEmitName": "get_Item2",
+          "tsEmitName": "getItem2",
           "normalizedSignature": "get_Item|(System.String):System.Diagnostics.TraceListener|static=false",
           "provenance": "IndexerNormalized",
           "emitScope": "ClassSurface",
@@ -14823,7 +14823,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "getObjectData",
+          "tsEmitName": "getObjectData$view",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -14840,7 +14840,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.UnreachableException::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData",
+          "tsEmitName": "getObjectData",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -14889,7 +14889,7 @@
         {
           "stableId": "System.Diagnostics.TextWriterTraceListener:System.Diagnostics.XmlWriterTraceListener::Write(System.String):System.Void",
           "clrName": "Write",
-          "tsEmitName": "write",
+          "tsEmitName": "write6",
           "normalizedSignature": "Write|(System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -14905,7 +14905,7 @@
         {
           "stableId": "System.Diagnostics.TextWriterTraceListener:System.Diagnostics.XmlWriterTraceListener::WriteLine(System.String):System.Void",
           "clrName": "WriteLine",
-          "tsEmitName": "writeLine",
+          "tsEmitName": "writeLine6",
           "normalizedSignature": "WriteLine|(System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -14921,7 +14921,7 @@
         {
           "stableId": "System.Diagnostics.TextWriterTraceListener:System.Diagnostics.XmlWriterTraceListener::Fail(System.String,System.String):System.Void",
           "clrName": "Fail",
-          "tsEmitName": "fail",
+          "tsEmitName": "fail2",
           "normalizedSignature": "Fail|(System.String,System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -14937,7 +14937,7 @@
         {
           "stableId": "System.Diagnostics.TextWriterTraceListener:System.Diagnostics.XmlWriterTraceListener::TraceEvent(System.Diagnostics.TraceEventCache,System.String,System.Diagnostics.TraceEventType,System.Int32,System.String,System.Object[]):System.Void",
           "clrName": "TraceEvent",
-          "tsEmitName": "traceEvent",
+          "tsEmitName": "traceEvent2",
           "normalizedSignature": "TraceEvent|(System.Diagnostics.TraceEventCache,System.String,System.Diagnostics.TraceEventType,System.Int32,System.String,System.Object[]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -14953,7 +14953,7 @@
         {
           "stableId": "System.Diagnostics.TextWriterTraceListener:System.Diagnostics.XmlWriterTraceListener::TraceEvent(System.Diagnostics.TraceEventCache,System.String,System.Diagnostics.TraceEventType,System.Int32,System.String):System.Void",
           "clrName": "TraceEvent",
-          "tsEmitName": "traceEvent2",
+          "tsEmitName": "traceEvent3",
           "normalizedSignature": "TraceEvent|(System.Diagnostics.TraceEventCache,System.String,System.Diagnostics.TraceEventType,System.Int32,System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -15033,7 +15033,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "dispose",
+          "tsEmitName": "dispose$view",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -15050,7 +15050,7 @@
         {
           "stableId": "System.Diagnostics.TextWriterTraceListener:System.Diagnostics.XmlWriterTraceListener::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "Dispose",
+          "tsEmitName": "dispose",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -15066,7 +15066,7 @@
         {
           "stableId": "System.Diagnostics.TextWriterTraceListener:System.Diagnostics.XmlWriterTraceListener::Fail(System.String):System.Void",
           "clrName": "Fail",
-          "tsEmitName": "Fail",
+          "tsEmitName": "fail",
           "normalizedSignature": "Fail|(System.String):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -15082,7 +15082,7 @@
         {
           "stableId": "System.Diagnostics.TextWriterTraceListener:System.Diagnostics.XmlWriterTraceListener::TraceEvent(System.Diagnostics.TraceEventCache,System.String,System.Diagnostics.TraceEventType,System.Int32):System.Void",
           "clrName": "TraceEvent",
-          "tsEmitName": "TraceEvent",
+          "tsEmitName": "traceEvent",
           "normalizedSignature": "TraceEvent|(System.Diagnostics.TraceEventCache,System.String,System.Diagnostics.TraceEventType,System.Int32):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -15098,7 +15098,7 @@
         {
           "stableId": "System.Diagnostics.TextWriterTraceListener:System.Diagnostics.XmlWriterTraceListener::Write(System.Object):System.Void",
           "clrName": "Write",
-          "tsEmitName": "Write",
+          "tsEmitName": "write",
           "normalizedSignature": "Write|(System.Object):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -15114,7 +15114,7 @@
         {
           "stableId": "System.Diagnostics.TextWriterTraceListener:System.Diagnostics.XmlWriterTraceListener::Write(System.String,System.String):System.Void",
           "clrName": "Write",
-          "tsEmitName": "Write4",
+          "tsEmitName": "write4",
           "normalizedSignature": "Write|(System.String,System.String):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -15130,7 +15130,7 @@
         {
           "stableId": "System.Diagnostics.TextWriterTraceListener:System.Diagnostics.XmlWriterTraceListener::Write(System.Object,System.String):System.Void",
           "clrName": "Write",
-          "tsEmitName": "Write5",
+          "tsEmitName": "write5",
           "normalizedSignature": "Write|(System.Object,System.String):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -15146,7 +15146,7 @@
         {
           "stableId": "System.Diagnostics.TextWriterTraceListener:System.Diagnostics.XmlWriterTraceListener::WriteLine(System.Object):System.Void",
           "clrName": "WriteLine",
-          "tsEmitName": "WriteLine",
+          "tsEmitName": "writeLine",
           "normalizedSignature": "WriteLine|(System.Object):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -15162,7 +15162,7 @@
         {
           "stableId": "System.Diagnostics.TextWriterTraceListener:System.Diagnostics.XmlWriterTraceListener::WriteLine(System.String,System.String):System.Void",
           "clrName": "WriteLine",
-          "tsEmitName": "WriteLine4",
+          "tsEmitName": "writeLine4",
           "normalizedSignature": "WriteLine|(System.String,System.String):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -15178,7 +15178,7 @@
         {
           "stableId": "System.Diagnostics.TextWriterTraceListener:System.Diagnostics.XmlWriterTraceListener::WriteLine(System.Object,System.String):System.Void",
           "clrName": "WriteLine",
-          "tsEmitName": "WriteLine5",
+          "tsEmitName": "writeLine5",
           "normalizedSignature": "WriteLine|(System.Object,System.String):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",

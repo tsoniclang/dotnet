@@ -135,9 +135,9 @@ export type InstrumentAdvice_1<T> = InstrumentAdvice_1$instance<T>;
 export class MeasurementCallback_1$instance<T extends unknown> extends Function {
     constructor(object_: unknown, method: nint);
     beginInvoke(instrument: Instrument, measurement: T, tags: ReadOnlySpan_1<KeyValuePair_2<CLROf<string>, unknown>>, state: unknown, callback: AsyncCallback, object_: unknown): IAsyncResult;
-    Clone(): unknown;
+    clone(): unknown;
     endInvoke(result: IAsyncResult): void;
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
     invoke(instrument: Instrument, measurement: T, tags: ReadOnlySpan_1<KeyValuePair_2<CLROf<string>, unknown>>, state: unknown): void;
 }
 
@@ -146,8 +146,6 @@ export interface __MeasurementCallback_1$views<T extends unknown> {
     As_ICloneable(): System_Internal.ICloneable$instance;
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
-
-export interface MeasurementCallback_1$instance<T extends unknown> extends System_Internal.ICloneable$instance {}
 
 export type MeasurementCallback_1<T> = MeasurementCallback_1$instance<T> & __MeasurementCallback_1$views<T>;
 

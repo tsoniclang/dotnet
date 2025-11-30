@@ -13,7 +13,7 @@
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.ActivityIdFormat::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67108944,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -761,7 +761,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -814,7 +814,7 @@
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.ActivityKind::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67108980,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -1584,7 +1584,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -1657,7 +1657,7 @@
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.ActivitySamplingResult::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67108971,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -2416,7 +2416,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -2479,7 +2479,7 @@
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.ActivityStatusCode::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67108950,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -3227,7 +3227,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -3280,7 +3280,7 @@
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.ActivityTraceFlags::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67108941,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -4017,7 +4017,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -4060,7 +4060,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.DebuggableAttribute\u002BDebuggingModes::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67116837,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -4830,7 +4830,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -4903,7 +4903,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.DebuggerBrowsableState::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67116843,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -5651,7 +5651,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -5704,7 +5704,7 @@
         {
           "stableId": "System.Diagnostics.Process:System.Diagnostics.ProcessPriorityClass::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67109169,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -6485,7 +6485,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -6568,7 +6568,7 @@
         {
           "stableId": "System.Diagnostics.Process:System.Diagnostics.ProcessWindowStyle::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67109199,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -7327,7 +7327,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -7390,7 +7390,7 @@
         {
           "stableId": "System.Diagnostics.TraceSource:System.Diagnostics.SourceLevels::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67108885,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -8193,7 +8193,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -8296,7 +8296,7 @@
         {
           "stableId": "System.Diagnostics.Process:System.Diagnostics.ThreadPriorityLevel::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67109211,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -9088,7 +9088,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -9181,7 +9181,7 @@
         {
           "stableId": "System.Diagnostics.Process:System.Diagnostics.ThreadState::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67109219,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -9984,7 +9984,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -10087,7 +10087,7 @@
         {
           "stableId": "System.Diagnostics.Process:System.Diagnostics.ThreadWaitReason::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67109228,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -10956,7 +10956,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -11119,7 +11119,7 @@
         {
           "stableId": "System.Diagnostics.TraceSource:System.Diagnostics.TraceEventType::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67108911,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -11944,7 +11944,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -12067,7 +12067,7 @@
         {
           "stableId": "System.Diagnostics.TraceSource:System.Diagnostics.TraceLevel::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67108929,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -12837,7 +12837,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -12910,7 +12910,7 @@
         {
           "stableId": "System.Diagnostics.TraceSource:System.Diagnostics.TraceOptions::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67108943,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -13702,7 +13702,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -21759,7 +21759,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "dispose",
+          "tsEmitName": "dispose$view",
           "metadataToken": 100668530,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Dispose|():System.Void|static=false",
@@ -21773,7 +21773,7 @@
         {
           "stableId": "System.Diagnostics.TextWriterTraceListener:System.Diagnostics.ConsoleTraceListener::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "Dispose",
+          "tsEmitName": "dispose",
           "metadataToken": 0,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Dispose|():System.Void|static=false",
@@ -21822,7 +21822,7 @@
           }
         },
         {
-          "tsName": "dispose",
+          "tsName": "dispose$view",
           "isStatic": false,
           "tsSignatureId": "Dispose|():System.Void|static=false",
           "target": {
@@ -21832,7 +21832,7 @@
           }
         },
         {
-          "tsName": "Dispose",
+          "tsName": "dispose",
           "isStatic": false,
           "tsSignatureId": "Dispose|():System.Void|static=false",
           "target": {
@@ -21852,7 +21852,7 @@
           }
         },
         {
-          "tsName": "write",
+          "tsName": "write4",
           "isStatic": false,
           "tsSignatureId": "Write|(System.String):System.Void|static=false",
           "target": {
@@ -21862,7 +21862,7 @@
           }
         },
         {
-          "tsName": "writeLine",
+          "tsName": "writeLine4",
           "isStatic": false,
           "tsSignatureId": "WriteLine|(System.String):System.Void|static=false",
           "target": {
@@ -21872,7 +21872,7 @@
           }
         },
         {
-          "tsName": "Write",
+          "tsName": "write",
           "isStatic": false,
           "tsSignatureId": "Write|(System.Object):System.Void|static=false",
           "target": {
@@ -21882,7 +21882,7 @@
           }
         },
         {
-          "tsName": "Write2",
+          "tsName": "write2",
           "isStatic": false,
           "tsSignatureId": "Write|(System.String,System.String):System.Void|static=false",
           "target": {
@@ -21892,7 +21892,7 @@
           }
         },
         {
-          "tsName": "Write3",
+          "tsName": "write3",
           "isStatic": false,
           "tsSignatureId": "Write|(System.Object,System.String):System.Void|static=false",
           "target": {
@@ -21902,7 +21902,7 @@
           }
         },
         {
-          "tsName": "WriteLine",
+          "tsName": "writeLine",
           "isStatic": false,
           "tsSignatureId": "WriteLine|(System.Object):System.Void|static=false",
           "target": {
@@ -21912,7 +21912,7 @@
           }
         },
         {
-          "tsName": "WriteLine2",
+          "tsName": "writeLine2",
           "isStatic": false,
           "tsSignatureId": "WriteLine|(System.String,System.String):System.Void|static=false",
           "target": {
@@ -21922,7 +21922,7 @@
           }
         },
         {
-          "tsName": "WriteLine3",
+          "tsName": "writeLine3",
           "isStatic": false,
           "tsSignatureId": "WriteLine|(System.Object,System.String):System.Void|static=false",
           "target": {
@@ -22546,7 +22546,7 @@
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "clone",
+          "tsEmitName": "clone$view",
           "metadataToken": 100668509,
           "canonicalSignature": "():System.Object",
           "normalizedSignature": "Clone|():System.Object|static=false",
@@ -22560,7 +22560,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "getObjectData",
+          "tsEmitName": "getObjectData$view",
           "metadataToken": 100682669,
           "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
@@ -22574,7 +22574,7 @@
         {
           "stableId": "System.Diagnostics.Process:System.Diagnostics.DataReceivedEventHandler::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "Clone",
+          "tsEmitName": "clone",
           "metadataToken": 0,
           "canonicalSignature": "():System.Object",
           "normalizedSignature": "Clone|():System.Object|static=false",
@@ -22588,7 +22588,7 @@
         {
           "stableId": "System.Diagnostics.Process:System.Diagnostics.DataReceivedEventHandler::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData",
+          "tsEmitName": "getObjectData",
           "metadataToken": 0,
           "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
@@ -22647,7 +22647,7 @@
           }
         },
         {
-          "tsName": "clone",
+          "tsName": "clone$view",
           "isStatic": false,
           "tsSignatureId": "Clone|():System.Object|static=false",
           "target": {
@@ -22657,7 +22657,7 @@
           }
         },
         {
-          "tsName": "getObjectData",
+          "tsName": "getObjectData$view",
           "isStatic": false,
           "tsSignatureId": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "target": {
@@ -22667,7 +22667,7 @@
           }
         },
         {
-          "tsName": "Clone",
+          "tsName": "clone",
           "isStatic": false,
           "tsSignatureId": "Clone|():System.Object|static=false",
           "target": {
@@ -22677,7 +22677,7 @@
           }
         },
         {
-          "tsName": "GetObjectData",
+          "tsName": "getObjectData",
           "isStatic": false,
           "tsSignatureId": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "target": {
@@ -28300,7 +28300,7 @@
         {
           "stableId": "System.Diagnostics.TraceSource:System.Diagnostics.DefaultTraceListener::Write(System.String):System.Void",
           "clrName": "Write",
-          "tsEmitName": "write",
+          "tsEmitName": "write4",
           "metadataToken": 100663364,
           "canonicalSignature": "(System.String):System.Void",
           "normalizedSignature": "Write|(System.String):System.Void|static=false",
@@ -28314,7 +28314,7 @@
         {
           "stableId": "System.Diagnostics.TraceSource:System.Diagnostics.DefaultTraceListener::WriteLine(System.String):System.Void",
           "clrName": "WriteLine",
-          "tsEmitName": "writeLine",
+          "tsEmitName": "writeLine4",
           "metadataToken": 100663365,
           "canonicalSignature": "(System.String):System.Void",
           "normalizedSignature": "WriteLine|(System.String):System.Void|static=false",
@@ -28328,7 +28328,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "dispose",
+          "tsEmitName": "dispose$view",
           "metadataToken": 100668530,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Dispose|():System.Void|static=false",
@@ -28342,7 +28342,7 @@
         {
           "stableId": "System.Diagnostics.TraceSource:System.Diagnostics.DefaultTraceListener::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "Dispose",
+          "tsEmitName": "dispose",
           "metadataToken": 0,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Dispose|():System.Void|static=false",
@@ -28356,7 +28356,7 @@
         {
           "stableId": "System.Diagnostics.TraceSource:System.Diagnostics.DefaultTraceListener::Write(System.Object):System.Void",
           "clrName": "Write",
-          "tsEmitName": "Write",
+          "tsEmitName": "write",
           "metadataToken": 0,
           "canonicalSignature": "(System.Object):System.Void",
           "normalizedSignature": "Write|(System.Object):System.Void|static=false",
@@ -28370,7 +28370,7 @@
         {
           "stableId": "System.Diagnostics.TraceSource:System.Diagnostics.DefaultTraceListener::Write(System.String,System.String):System.Void",
           "clrName": "Write",
-          "tsEmitName": "Write2",
+          "tsEmitName": "write2",
           "metadataToken": 0,
           "canonicalSignature": "(System.String,System.String):System.Void",
           "normalizedSignature": "Write|(System.String,System.String):System.Void|static=false",
@@ -28384,7 +28384,7 @@
         {
           "stableId": "System.Diagnostics.TraceSource:System.Diagnostics.DefaultTraceListener::Write(System.Object,System.String):System.Void",
           "clrName": "Write",
-          "tsEmitName": "Write3",
+          "tsEmitName": "write3",
           "metadataToken": 0,
           "canonicalSignature": "(System.Object,System.String):System.Void",
           "normalizedSignature": "Write|(System.Object,System.String):System.Void|static=false",
@@ -28398,7 +28398,7 @@
         {
           "stableId": "System.Diagnostics.TraceSource:System.Diagnostics.DefaultTraceListener::WriteLine(System.Object):System.Void",
           "clrName": "WriteLine",
-          "tsEmitName": "WriteLine",
+          "tsEmitName": "writeLine",
           "metadataToken": 0,
           "canonicalSignature": "(System.Object):System.Void",
           "normalizedSignature": "WriteLine|(System.Object):System.Void|static=false",
@@ -28412,7 +28412,7 @@
         {
           "stableId": "System.Diagnostics.TraceSource:System.Diagnostics.DefaultTraceListener::WriteLine(System.String,System.String):System.Void",
           "clrName": "WriteLine",
-          "tsEmitName": "WriteLine2",
+          "tsEmitName": "writeLine2",
           "metadataToken": 0,
           "canonicalSignature": "(System.String,System.String):System.Void",
           "normalizedSignature": "WriteLine|(System.String,System.String):System.Void|static=false",
@@ -28426,7 +28426,7 @@
         {
           "stableId": "System.Diagnostics.TraceSource:System.Diagnostics.DefaultTraceListener::WriteLine(System.Object,System.String):System.Void",
           "clrName": "WriteLine",
-          "tsEmitName": "WriteLine3",
+          "tsEmitName": "writeLine3",
           "metadataToken": 0,
           "canonicalSignature": "(System.Object,System.String):System.Void",
           "normalizedSignature": "WriteLine|(System.Object,System.String):System.Void|static=false",
@@ -28504,7 +28504,7 @@
           }
         },
         {
-          "tsName": "write",
+          "tsName": "write4",
           "isStatic": false,
           "tsSignatureId": "Write|(System.String):System.Void|static=false",
           "target": {
@@ -28514,7 +28514,7 @@
           }
         },
         {
-          "tsName": "writeLine",
+          "tsName": "writeLine4",
           "isStatic": false,
           "tsSignatureId": "WriteLine|(System.String):System.Void|static=false",
           "target": {
@@ -28524,7 +28524,7 @@
           }
         },
         {
-          "tsName": "dispose",
+          "tsName": "dispose$view",
           "isStatic": false,
           "tsSignatureId": "Dispose|():System.Void|static=false",
           "target": {
@@ -28534,7 +28534,7 @@
           }
         },
         {
-          "tsName": "Dispose",
+          "tsName": "dispose",
           "isStatic": false,
           "tsSignatureId": "Dispose|():System.Void|static=false",
           "target": {
@@ -28544,7 +28544,7 @@
           }
         },
         {
-          "tsName": "Write",
+          "tsName": "write",
           "isStatic": false,
           "tsSignatureId": "Write|(System.Object):System.Void|static=false",
           "target": {
@@ -28554,7 +28554,7 @@
           }
         },
         {
-          "tsName": "Write2",
+          "tsName": "write2",
           "isStatic": false,
           "tsSignatureId": "Write|(System.String,System.String):System.Void|static=false",
           "target": {
@@ -28564,7 +28564,7 @@
           }
         },
         {
-          "tsName": "Write3",
+          "tsName": "write3",
           "isStatic": false,
           "tsSignatureId": "Write|(System.Object,System.String):System.Void|static=false",
           "target": {
@@ -28574,7 +28574,7 @@
           }
         },
         {
-          "tsName": "WriteLine",
+          "tsName": "writeLine",
           "isStatic": false,
           "tsSignatureId": "WriteLine|(System.Object):System.Void|static=false",
           "target": {
@@ -28584,7 +28584,7 @@
           }
         },
         {
-          "tsName": "WriteLine2",
+          "tsName": "writeLine2",
           "isStatic": false,
           "tsSignatureId": "WriteLine|(System.String,System.String):System.Void|static=false",
           "target": {
@@ -28594,7 +28594,7 @@
           }
         },
         {
-          "tsName": "WriteLine3",
+          "tsName": "writeLine3",
           "isStatic": false,
           "tsSignatureId": "WriteLine|(System.Object,System.String):System.Void|static=false",
           "target": {
@@ -28878,7 +28878,7 @@
         {
           "stableId": "System.Diagnostics.TextWriterTraceListener:System.Diagnostics.DelimitedListTraceListener::TraceEvent(System.Diagnostics.TraceEventCache,System.String,System.Diagnostics.TraceEventType,System.Int32,System.String,System.Object[]):System.Void",
           "clrName": "TraceEvent",
-          "tsEmitName": "traceEvent",
+          "tsEmitName": "traceEvent2",
           "metadataToken": 100663315,
           "canonicalSignature": "(System.Diagnostics.TraceEventCache,System.String,System.Diagnostics.TraceEventType,System.Int32,System.String,System.Object[]):System.Void",
           "normalizedSignature": "TraceEvent|(System.Diagnostics.TraceEventCache,System.String,System.Diagnostics.TraceEventType,System.Int32,System.String,System.Object[]):System.Void|static=false",
@@ -28892,7 +28892,7 @@
         {
           "stableId": "System.Diagnostics.TextWriterTraceListener:System.Diagnostics.DelimitedListTraceListener::TraceEvent(System.Diagnostics.TraceEventCache,System.String,System.Diagnostics.TraceEventType,System.Int32,System.String):System.Void",
           "clrName": "TraceEvent",
-          "tsEmitName": "traceEvent2",
+          "tsEmitName": "traceEvent3",
           "metadataToken": 100663316,
           "canonicalSignature": "(System.Diagnostics.TraceEventCache,System.String,System.Diagnostics.TraceEventType,System.Int32,System.String):System.Void",
           "normalizedSignature": "TraceEvent|(System.Diagnostics.TraceEventCache,System.String,System.Diagnostics.TraceEventType,System.Int32,System.String):System.Void|static=false",
@@ -28934,7 +28934,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "dispose",
+          "tsEmitName": "dispose$view",
           "metadataToken": 100668530,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Dispose|():System.Void|static=false",
@@ -28948,7 +28948,7 @@
         {
           "stableId": "System.Diagnostics.TextWriterTraceListener:System.Diagnostics.DelimitedListTraceListener::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "Dispose",
+          "tsEmitName": "dispose",
           "metadataToken": 0,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Dispose|():System.Void|static=false",
@@ -28962,7 +28962,7 @@
         {
           "stableId": "System.Diagnostics.TextWriterTraceListener:System.Diagnostics.DelimitedListTraceListener::TraceEvent(System.Diagnostics.TraceEventCache,System.String,System.Diagnostics.TraceEventType,System.Int32):System.Void",
           "clrName": "TraceEvent",
-          "tsEmitName": "TraceEvent",
+          "tsEmitName": "traceEvent",
           "metadataToken": 0,
           "canonicalSignature": "(System.Diagnostics.TraceEventCache,System.String,System.Diagnostics.TraceEventType,System.Int32):System.Void",
           "normalizedSignature": "TraceEvent|(System.Diagnostics.TraceEventCache,System.String,System.Diagnostics.TraceEventType,System.Int32):System.Void|static=false",
@@ -29056,7 +29056,7 @@
       ],
       "exposedMethods": [
         {
-          "tsName": "traceEvent",
+          "tsName": "traceEvent2",
           "isStatic": false,
           "tsSignatureId": "TraceEvent|(System.Diagnostics.TraceEventCache,System.String,System.Diagnostics.TraceEventType,System.Int32,System.String,System.Object[]):System.Void|static=false",
           "target": {
@@ -29066,7 +29066,7 @@
           }
         },
         {
-          "tsName": "traceEvent2",
+          "tsName": "traceEvent3",
           "isStatic": false,
           "tsSignatureId": "TraceEvent|(System.Diagnostics.TraceEventCache,System.String,System.Diagnostics.TraceEventType,System.Int32,System.String):System.Void|static=false",
           "target": {
@@ -29096,7 +29096,7 @@
           }
         },
         {
-          "tsName": "dispose",
+          "tsName": "dispose$view",
           "isStatic": false,
           "tsSignatureId": "Dispose|():System.Void|static=false",
           "target": {
@@ -29106,7 +29106,7 @@
           }
         },
         {
-          "tsName": "Dispose",
+          "tsName": "dispose",
           "isStatic": false,
           "tsSignatureId": "Dispose|():System.Void|static=false",
           "target": {
@@ -29116,7 +29116,7 @@
           }
         },
         {
-          "tsName": "TraceEvent",
+          "tsName": "traceEvent",
           "isStatic": false,
           "tsSignatureId": "TraceEvent|(System.Diagnostics.TraceEventCache,System.String,System.Diagnostics.TraceEventType,System.Int32):System.Void|static=false",
           "target": {
@@ -29146,7 +29146,7 @@
           }
         },
         {
-          "tsName": "write",
+          "tsName": "write4",
           "isStatic": false,
           "tsSignatureId": "Write|(System.String):System.Void|static=false",
           "target": {
@@ -29156,7 +29156,7 @@
           }
         },
         {
-          "tsName": "writeLine",
+          "tsName": "writeLine4",
           "isStatic": false,
           "tsSignatureId": "WriteLine|(System.String):System.Void|static=false",
           "target": {
@@ -29166,7 +29166,7 @@
           }
         },
         {
-          "tsName": "Write",
+          "tsName": "write",
           "isStatic": false,
           "tsSignatureId": "Write|(System.Object):System.Void|static=false",
           "target": {
@@ -29176,7 +29176,7 @@
           }
         },
         {
-          "tsName": "Write2",
+          "tsName": "write2",
           "isStatic": false,
           "tsSignatureId": "Write|(System.String,System.String):System.Void|static=false",
           "target": {
@@ -29186,7 +29186,7 @@
           }
         },
         {
-          "tsName": "Write3",
+          "tsName": "write3",
           "isStatic": false,
           "tsSignatureId": "Write|(System.Object,System.String):System.Void|static=false",
           "target": {
@@ -29196,7 +29196,7 @@
           }
         },
         {
-          "tsName": "WriteLine",
+          "tsName": "writeLine",
           "isStatic": false,
           "tsSignatureId": "WriteLine|(System.Object):System.Void|static=false",
           "target": {
@@ -29206,7 +29206,7 @@
           }
         },
         {
-          "tsName": "WriteLine2",
+          "tsName": "writeLine2",
           "isStatic": false,
           "tsSignatureId": "WriteLine|(System.String,System.String):System.Void|static=false",
           "target": {
@@ -29216,7 +29216,7 @@
           }
         },
         {
-          "tsName": "WriteLine3",
+          "tsName": "writeLine3",
           "isStatic": false,
           "tsSignatureId": "WriteLine|(System.Object,System.String):System.Void|static=false",
           "target": {
@@ -29649,7 +29649,7 @@
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.DiagnosticListener::Write(System.String,System.Object):System.Void",
           "clrName": "Write",
-          "tsEmitName": "write",
+          "tsEmitName": "write2",
           "metadataToken": 100663694,
           "canonicalSignature": "(System.String,System.Object):System.Void",
           "normalizedSignature": "Write|(System.String,System.Object):System.Void|static=false",
@@ -29691,7 +29691,7 @@
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.DiagnosticListener::Write(System.String,T):System.Void",
           "clrName": "Write",
-          "tsEmitName": "Write",
+          "tsEmitName": "write",
           "metadataToken": 0,
           "canonicalSignature": "(System.String,T):System.Void",
           "normalizedSignature": "Write|(System.String,T):System.Void|static=false",
@@ -29859,7 +29859,7 @@
           }
         },
         {
-          "tsName": "write",
+          "tsName": "write2",
           "isStatic": false,
           "tsSignatureId": "Write|(System.String,System.Object):System.Void|static=false",
           "target": {
@@ -29889,7 +29889,7 @@
           }
         },
         {
-          "tsName": "Write",
+          "tsName": "write",
           "isStatic": false,
           "tsSignatureId": "Write|(System.String,T):System.Void|static=false",
           "target": {
@@ -30906,7 +30906,7 @@
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "clone",
+          "tsEmitName": "clone$view",
           "metadataToken": 100668509,
           "canonicalSignature": "():System.Object",
           "normalizedSignature": "Clone|():System.Object|static=false",
@@ -30920,7 +30920,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "getObjectData",
+          "tsEmitName": "getObjectData$view",
           "metadataToken": 100682669,
           "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
@@ -30934,7 +30934,7 @@
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.DistributedContextPropagator\u002BPropagatorGetterCallback::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "Clone",
+          "tsEmitName": "clone",
           "metadataToken": 0,
           "canonicalSignature": "():System.Object",
           "normalizedSignature": "Clone|():System.Object|static=false",
@@ -30948,7 +30948,7 @@
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.DistributedContextPropagator\u002BPropagatorGetterCallback::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData",
+          "tsEmitName": "getObjectData",
           "metadataToken": 0,
           "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
@@ -31007,7 +31007,7 @@
           }
         },
         {
-          "tsName": "clone",
+          "tsName": "clone$view",
           "isStatic": false,
           "tsSignatureId": "Clone|():System.Object|static=false",
           "target": {
@@ -31017,7 +31017,7 @@
           }
         },
         {
-          "tsName": "getObjectData",
+          "tsName": "getObjectData$view",
           "isStatic": false,
           "tsSignatureId": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "target": {
@@ -31027,7 +31027,7 @@
           }
         },
         {
-          "tsName": "Clone",
+          "tsName": "clone",
           "isStatic": false,
           "tsSignatureId": "Clone|():System.Object|static=false",
           "target": {
@@ -31037,7 +31037,7 @@
           }
         },
         {
-          "tsName": "GetObjectData",
+          "tsName": "getObjectData",
           "isStatic": false,
           "tsSignatureId": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "target": {
@@ -31383,7 +31383,7 @@
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "clone",
+          "tsEmitName": "clone$view",
           "metadataToken": 100668509,
           "canonicalSignature": "():System.Object",
           "normalizedSignature": "Clone|():System.Object|static=false",
@@ -31397,7 +31397,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "getObjectData",
+          "tsEmitName": "getObjectData$view",
           "metadataToken": 100682669,
           "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
@@ -31411,7 +31411,7 @@
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.DistributedContextPropagator\u002BPropagatorSetterCallback::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "Clone",
+          "tsEmitName": "clone",
           "metadataToken": 0,
           "canonicalSignature": "():System.Object",
           "normalizedSignature": "Clone|():System.Object|static=false",
@@ -31425,7 +31425,7 @@
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.DistributedContextPropagator\u002BPropagatorSetterCallback::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData",
+          "tsEmitName": "getObjectData",
           "metadataToken": 0,
           "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
@@ -31484,7 +31484,7 @@
           }
         },
         {
-          "tsName": "clone",
+          "tsName": "clone$view",
           "isStatic": false,
           "tsSignatureId": "Clone|():System.Object|static=false",
           "target": {
@@ -31494,7 +31494,7 @@
           }
         },
         {
-          "tsName": "getObjectData",
+          "tsName": "getObjectData$view",
           "isStatic": false,
           "tsSignatureId": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "target": {
@@ -31504,7 +31504,7 @@
           }
         },
         {
-          "tsName": "Clone",
+          "tsName": "clone",
           "isStatic": false,
           "tsSignatureId": "Clone|():System.Object|static=false",
           "target": {
@@ -31514,7 +31514,7 @@
           }
         },
         {
-          "tsName": "GetObjectData",
+          "tsName": "getObjectData",
           "isStatic": false,
           "tsSignatureId": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "target": {
@@ -32008,7 +32008,7 @@
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "clone",
+          "tsEmitName": "clone$view",
           "metadataToken": 100668509,
           "canonicalSignature": "():System.Object",
           "normalizedSignature": "Clone|():System.Object|static=false",
@@ -32022,7 +32022,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "getObjectData",
+          "tsEmitName": "getObjectData$view",
           "metadataToken": 100682669,
           "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
@@ -32036,7 +32036,7 @@
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.ExceptionRecorder::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "Clone",
+          "tsEmitName": "clone",
           "metadataToken": 0,
           "canonicalSignature": "():System.Object",
           "normalizedSignature": "Clone|():System.Object|static=false",
@@ -32050,7 +32050,7 @@
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.ExceptionRecorder::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData",
+          "tsEmitName": "getObjectData",
           "metadataToken": 0,
           "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
@@ -32109,7 +32109,7 @@
           }
         },
         {
-          "tsName": "clone",
+          "tsName": "clone$view",
           "isStatic": false,
           "tsSignatureId": "Clone|():System.Object|static=false",
           "target": {
@@ -32119,7 +32119,7 @@
           }
         },
         {
-          "tsName": "getObjectData",
+          "tsName": "getObjectData$view",
           "isStatic": false,
           "tsSignatureId": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "target": {
@@ -32129,7 +32129,7 @@
           }
         },
         {
-          "tsName": "Clone",
+          "tsName": "clone",
           "isStatic": false,
           "tsSignatureId": "Clone|():System.Object|static=false",
           "target": {
@@ -32139,7 +32139,7 @@
           }
         },
         {
-          "tsName": "GetObjectData",
+          "tsName": "getObjectData",
           "isStatic": false,
           "tsSignatureId": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "target": {
@@ -34412,7 +34412,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "dispose",
+          "tsEmitName": "dispose$view",
           "metadataToken": 100668530,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Dispose|():System.Void|static=false",
@@ -34426,7 +34426,7 @@
         {
           "stableId": "System.Diagnostics.Process:System.Diagnostics.Process::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "Dispose",
+          "tsEmitName": "dispose",
           "metadataToken": 0,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Dispose|():System.Void|static=false",
@@ -35531,7 +35531,7 @@
           }
         },
         {
-          "tsName": "dispose",
+          "tsName": "dispose$view",
           "isStatic": false,
           "tsSignatureId": "Dispose|():System.Void|static=false",
           "target": {
@@ -35541,7 +35541,7 @@
           }
         },
         {
-          "tsName": "Dispose",
+          "tsName": "dispose",
           "isStatic": false,
           "tsSignatureId": "Dispose|():System.Void|static=false",
           "target": {
@@ -36221,7 +36221,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "dispose",
+          "tsEmitName": "dispose$view",
           "metadataToken": 100668530,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Dispose|():System.Void|static=false",
@@ -36235,7 +36235,7 @@
         {
           "stableId": "System.Diagnostics.Process:System.Diagnostics.ProcessModule::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "Dispose",
+          "tsEmitName": "dispose",
           "metadataToken": 0,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Dispose|():System.Void|static=false",
@@ -36362,7 +36362,7 @@
           }
         },
         {
-          "tsName": "dispose",
+          "tsName": "dispose$view",
           "isStatic": false,
           "tsSignatureId": "Dispose|():System.Void|static=false",
           "target": {
@@ -36372,7 +36372,7 @@
           }
         },
         {
-          "tsName": "Dispose",
+          "tsName": "dispose",
           "isStatic": false,
           "tsSignatureId": "Dispose|():System.Void|static=false",
           "target": {
@@ -36585,7 +36585,7 @@
         {
           "stableId": "System.Diagnostics.Process:System.Diagnostics.ProcessModuleCollection::CopyTo(System.Diagnostics.ProcessModule[],System.Int32):System.Void",
           "clrName": "CopyTo",
-          "tsEmitName": "copyTo",
+          "tsEmitName": "copyTo2",
           "metadataToken": 100663757,
           "canonicalSignature": "(System.Diagnostics.ProcessModule[],System.Int32):System.Void",
           "normalizedSignature": "CopyTo|(System.Diagnostics.ProcessModule[],System.Int32):System.Void|static=false",
@@ -36613,7 +36613,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
           "clrName": "GetEnumerator",
-          "tsEmitName": "getEnumerator",
+          "tsEmitName": "getEnumerator$view",
           "metadataToken": 100703948,
           "canonicalSignature": "():System.Collections.IEnumerator",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
@@ -36627,7 +36627,7 @@
         {
           "stableId": "System.Diagnostics.Process:System.Diagnostics.ProcessModuleCollection::CopyTo(System.Array,System.Int32):System.Void",
           "clrName": "CopyTo",
-          "tsEmitName": "CopyTo",
+          "tsEmitName": "copyTo",
           "metadataToken": 0,
           "canonicalSignature": "(System.Array,System.Int32):System.Void",
           "normalizedSignature": "CopyTo|(System.Array,System.Int32):System.Void|static=false",
@@ -36641,7 +36641,7 @@
         {
           "stableId": "System.Diagnostics.Process:System.Diagnostics.ProcessModuleCollection::GetEnumerator():System.Collections.IEnumerator",
           "clrName": "GetEnumerator",
-          "tsEmitName": "GetEnumerator",
+          "tsEmitName": "getEnumerator",
           "metadataToken": 0,
           "canonicalSignature": "():System.Collections.IEnumerator",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
@@ -36747,7 +36747,7 @@
           }
         },
         {
-          "tsName": "copyTo",
+          "tsName": "copyTo2",
           "isStatic": false,
           "tsSignatureId": "CopyTo|(System.Diagnostics.ProcessModule[],System.Int32):System.Void|static=false",
           "target": {
@@ -36767,7 +36767,7 @@
           }
         },
         {
-          "tsName": "getEnumerator",
+          "tsName": "getEnumerator$view",
           "isStatic": false,
           "tsSignatureId": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "target": {
@@ -36777,7 +36777,7 @@
           }
         },
         {
-          "tsName": "CopyTo",
+          "tsName": "copyTo",
           "isStatic": false,
           "tsSignatureId": "CopyTo|(System.Array,System.Int32):System.Void|static=false",
           "target": {
@@ -36787,7 +36787,7 @@
           }
         },
         {
-          "tsName": "GetEnumerator",
+          "tsName": "getEnumerator",
           "isStatic": false,
           "tsSignatureId": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "target": {
@@ -37715,7 +37715,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "dispose",
+          "tsEmitName": "dispose$view",
           "metadataToken": 100668530,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Dispose|():System.Void|static=false",
@@ -37729,7 +37729,7 @@
         {
           "stableId": "System.Diagnostics.Process:System.Diagnostics.ProcessThread::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "Dispose",
+          "tsEmitName": "dispose",
           "metadataToken": 0,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Dispose|():System.Void|static=false",
@@ -37968,7 +37968,7 @@
           }
         },
         {
-          "tsName": "dispose",
+          "tsName": "dispose$view",
           "isStatic": false,
           "tsSignatureId": "Dispose|():System.Void|static=false",
           "target": {
@@ -37978,7 +37978,7 @@
           }
         },
         {
-          "tsName": "Dispose",
+          "tsName": "dispose",
           "isStatic": false,
           "tsSignatureId": "Dispose|():System.Void|static=false",
           "target": {
@@ -38323,7 +38323,7 @@
         {
           "stableId": "System.Diagnostics.Process:System.Diagnostics.ProcessThreadCollection::CopyTo(System.Diagnostics.ProcessThread[],System.Int32):System.Void",
           "clrName": "CopyTo",
-          "tsEmitName": "copyTo",
+          "tsEmitName": "copyTo2",
           "metadataToken": 100663845,
           "canonicalSignature": "(System.Diagnostics.ProcessThread[],System.Int32):System.Void",
           "normalizedSignature": "CopyTo|(System.Diagnostics.ProcessThread[],System.Int32):System.Void|static=false",
@@ -38351,7 +38351,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
           "clrName": "GetEnumerator",
-          "tsEmitName": "getEnumerator",
+          "tsEmitName": "getEnumerator$view",
           "metadataToken": 100703948,
           "canonicalSignature": "():System.Collections.IEnumerator",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
@@ -38365,7 +38365,7 @@
         {
           "stableId": "System.Diagnostics.Process:System.Diagnostics.ProcessThreadCollection::CopyTo(System.Array,System.Int32):System.Void",
           "clrName": "CopyTo",
-          "tsEmitName": "CopyTo",
+          "tsEmitName": "copyTo",
           "metadataToken": 0,
           "canonicalSignature": "(System.Array,System.Int32):System.Void",
           "normalizedSignature": "CopyTo|(System.Array,System.Int32):System.Void|static=false",
@@ -38379,7 +38379,7 @@
         {
           "stableId": "System.Diagnostics.Process:System.Diagnostics.ProcessThreadCollection::GetEnumerator():System.Collections.IEnumerator",
           "clrName": "GetEnumerator",
-          "tsEmitName": "GetEnumerator",
+          "tsEmitName": "getEnumerator",
           "metadataToken": 0,
           "canonicalSignature": "():System.Collections.IEnumerator",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
@@ -38515,7 +38515,7 @@
           }
         },
         {
-          "tsName": "copyTo",
+          "tsName": "copyTo2",
           "isStatic": false,
           "tsSignatureId": "CopyTo|(System.Diagnostics.ProcessThread[],System.Int32):System.Void|static=false",
           "target": {
@@ -38535,7 +38535,7 @@
           }
         },
         {
-          "tsName": "getEnumerator",
+          "tsName": "getEnumerator$view",
           "isStatic": false,
           "tsSignatureId": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "target": {
@@ -38545,7 +38545,7 @@
           }
         },
         {
-          "tsName": "CopyTo",
+          "tsName": "copyTo",
           "isStatic": false,
           "tsSignatureId": "CopyTo|(System.Array,System.Int32):System.Void|static=false",
           "target": {
@@ -38555,7 +38555,7 @@
           }
         },
         {
-          "tsName": "GetEnumerator",
+          "tsName": "getEnumerator",
           "isStatic": false,
           "tsSignatureId": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "target": {
@@ -38731,7 +38731,7 @@
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "clone",
+          "tsEmitName": "clone$view",
           "metadataToken": 100668509,
           "canonicalSignature": "():System.Object",
           "normalizedSignature": "Clone|():System.Object|static=false",
@@ -38745,7 +38745,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "getObjectData",
+          "tsEmitName": "getObjectData$view",
           "metadataToken": 100682669,
           "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
@@ -38759,7 +38759,7 @@
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.SampleActivity\u00601::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "Clone",
+          "tsEmitName": "clone",
           "metadataToken": 0,
           "canonicalSignature": "():System.Object",
           "normalizedSignature": "Clone|():System.Object|static=false",
@@ -38773,7 +38773,7 @@
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.SampleActivity\u00601::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData",
+          "tsEmitName": "getObjectData",
           "metadataToken": 0,
           "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
@@ -38832,7 +38832,7 @@
           }
         },
         {
-          "tsName": "clone",
+          "tsName": "clone$view",
           "isStatic": false,
           "tsSignatureId": "Clone|():System.Object|static=false",
           "target": {
@@ -38842,7 +38842,7 @@
           }
         },
         {
-          "tsName": "getObjectData",
+          "tsName": "getObjectData$view",
           "isStatic": false,
           "tsSignatureId": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "target": {
@@ -38852,7 +38852,7 @@
           }
         },
         {
-          "tsName": "Clone",
+          "tsName": "clone",
           "isStatic": false,
           "tsSignatureId": "Clone|():System.Object|static=false",
           "target": {
@@ -38862,7 +38862,7 @@
           }
         },
         {
-          "tsName": "GetObjectData",
+          "tsName": "getObjectData",
           "isStatic": false,
           "tsSignatureId": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "target": {
@@ -39654,7 +39654,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.StackFrame::OFFSET_UNKNOWNSystem.Int32",
           "clrName": "OFFSET_UNKNOWN",
-          "tsEmitName": "offset_unknown",
+          "tsEmitName": "offsetUnknown",
           "metadataToken": 67116802,
           "normalizedSignature": "OFFSET_UNKNOWN|System.Int32|static=true|const=true",
           "isStatic": true,
@@ -39850,7 +39850,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "offset_unknown",
+          "tsName": "offsetUnknown",
           "isStatic": true,
           "tsSignatureId": "OFFSET_UNKNOWN|System.Int32|static=true|const=true",
           "target": {
@@ -39987,7 +39987,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.StackTrace::METHODS_TO_SKIPSystem.Int32",
           "clrName": "METHODS_TO_SKIP",
-          "tsEmitName": "methods_to_skip",
+          "tsEmitName": "methodsToSkip",
           "metadataToken": 67116823,
           "normalizedSignature": "METHODS_TO_SKIP|System.Int32|static=true|const=true",
           "isStatic": true,
@@ -40195,7 +40195,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "methods_to_skip",
+          "tsName": "methodsToSkip",
           "isStatic": true,
           "tsSignatureId": "METHODS_TO_SKIP|System.Int32|static=true|const=true",
           "target": {
@@ -42495,7 +42495,7 @@
         {
           "stableId": "System.Diagnostics.TextWriterTraceListener:System.Diagnostics.TextWriterTraceListener::Write(System.String):System.Void",
           "clrName": "Write",
-          "tsEmitName": "write",
+          "tsEmitName": "write4",
           "metadataToken": 100663336,
           "canonicalSignature": "(System.String):System.Void",
           "normalizedSignature": "Write|(System.String):System.Void|static=false",
@@ -42509,7 +42509,7 @@
         {
           "stableId": "System.Diagnostics.TextWriterTraceListener:System.Diagnostics.TextWriterTraceListener::WriteLine(System.String):System.Void",
           "clrName": "WriteLine",
-          "tsEmitName": "writeLine",
+          "tsEmitName": "writeLine4",
           "metadataToken": 100663337,
           "canonicalSignature": "(System.String):System.Void",
           "normalizedSignature": "WriteLine|(System.String):System.Void|static=false",
@@ -42523,7 +42523,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "dispose",
+          "tsEmitName": "dispose$view",
           "metadataToken": 100668530,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Dispose|():System.Void|static=false",
@@ -42537,7 +42537,7 @@
         {
           "stableId": "System.Diagnostics.TextWriterTraceListener:System.Diagnostics.TextWriterTraceListener::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "Dispose",
+          "tsEmitName": "dispose",
           "metadataToken": 0,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Dispose|():System.Void|static=false",
@@ -42551,7 +42551,7 @@
         {
           "stableId": "System.Diagnostics.TextWriterTraceListener:System.Diagnostics.TextWriterTraceListener::Write(System.Object):System.Void",
           "clrName": "Write",
-          "tsEmitName": "Write",
+          "tsEmitName": "write",
           "metadataToken": 0,
           "canonicalSignature": "(System.Object):System.Void",
           "normalizedSignature": "Write|(System.Object):System.Void|static=false",
@@ -42565,7 +42565,7 @@
         {
           "stableId": "System.Diagnostics.TextWriterTraceListener:System.Diagnostics.TextWriterTraceListener::Write(System.String,System.String):System.Void",
           "clrName": "Write",
-          "tsEmitName": "Write2",
+          "tsEmitName": "write2",
           "metadataToken": 0,
           "canonicalSignature": "(System.String,System.String):System.Void",
           "normalizedSignature": "Write|(System.String,System.String):System.Void|static=false",
@@ -42579,7 +42579,7 @@
         {
           "stableId": "System.Diagnostics.TextWriterTraceListener:System.Diagnostics.TextWriterTraceListener::Write(System.Object,System.String):System.Void",
           "clrName": "Write",
-          "tsEmitName": "Write3",
+          "tsEmitName": "write3",
           "metadataToken": 0,
           "canonicalSignature": "(System.Object,System.String):System.Void",
           "normalizedSignature": "Write|(System.Object,System.String):System.Void|static=false",
@@ -42593,7 +42593,7 @@
         {
           "stableId": "System.Diagnostics.TextWriterTraceListener:System.Diagnostics.TextWriterTraceListener::WriteLine(System.Object):System.Void",
           "clrName": "WriteLine",
-          "tsEmitName": "WriteLine",
+          "tsEmitName": "writeLine",
           "metadataToken": 0,
           "canonicalSignature": "(System.Object):System.Void",
           "normalizedSignature": "WriteLine|(System.Object):System.Void|static=false",
@@ -42607,7 +42607,7 @@
         {
           "stableId": "System.Diagnostics.TextWriterTraceListener:System.Diagnostics.TextWriterTraceListener::WriteLine(System.String,System.String):System.Void",
           "clrName": "WriteLine",
-          "tsEmitName": "WriteLine2",
+          "tsEmitName": "writeLine2",
           "metadataToken": 0,
           "canonicalSignature": "(System.String,System.String):System.Void",
           "normalizedSignature": "WriteLine|(System.String,System.String):System.Void|static=false",
@@ -42621,7 +42621,7 @@
         {
           "stableId": "System.Diagnostics.TextWriterTraceListener:System.Diagnostics.TextWriterTraceListener::WriteLine(System.Object,System.String):System.Void",
           "clrName": "WriteLine",
-          "tsEmitName": "WriteLine3",
+          "tsEmitName": "writeLine3",
           "metadataToken": 0,
           "canonicalSignature": "(System.Object,System.String):System.Void",
           "normalizedSignature": "WriteLine|(System.Object,System.String):System.Void|static=false",
@@ -42745,7 +42745,7 @@
           }
         },
         {
-          "tsName": "write",
+          "tsName": "write4",
           "isStatic": false,
           "tsSignatureId": "Write|(System.String):System.Void|static=false",
           "target": {
@@ -42755,7 +42755,7 @@
           }
         },
         {
-          "tsName": "writeLine",
+          "tsName": "writeLine4",
           "isStatic": false,
           "tsSignatureId": "WriteLine|(System.String):System.Void|static=false",
           "target": {
@@ -42765,7 +42765,7 @@
           }
         },
         {
-          "tsName": "dispose",
+          "tsName": "dispose$view",
           "isStatic": false,
           "tsSignatureId": "Dispose|():System.Void|static=false",
           "target": {
@@ -42775,7 +42775,7 @@
           }
         },
         {
-          "tsName": "Dispose",
+          "tsName": "dispose",
           "isStatic": false,
           "tsSignatureId": "Dispose|():System.Void|static=false",
           "target": {
@@ -42785,7 +42785,7 @@
           }
         },
         {
-          "tsName": "Write",
+          "tsName": "write",
           "isStatic": false,
           "tsSignatureId": "Write|(System.Object):System.Void|static=false",
           "target": {
@@ -42795,7 +42795,7 @@
           }
         },
         {
-          "tsName": "Write2",
+          "tsName": "write2",
           "isStatic": false,
           "tsSignatureId": "Write|(System.String,System.String):System.Void|static=false",
           "target": {
@@ -42805,7 +42805,7 @@
           }
         },
         {
-          "tsName": "Write3",
+          "tsName": "write3",
           "isStatic": false,
           "tsSignatureId": "Write|(System.Object,System.String):System.Void|static=false",
           "target": {
@@ -42815,7 +42815,7 @@
           }
         },
         {
-          "tsName": "WriteLine",
+          "tsName": "writeLine",
           "isStatic": false,
           "tsSignatureId": "WriteLine|(System.Object):System.Void|static=false",
           "target": {
@@ -42825,7 +42825,7 @@
           }
         },
         {
-          "tsName": "WriteLine2",
+          "tsName": "writeLine2",
           "isStatic": false,
           "tsSignatureId": "WriteLine|(System.String,System.String):System.Void|static=false",
           "target": {
@@ -42835,7 +42835,7 @@
           }
         },
         {
-          "tsName": "WriteLine3",
+          "tsName": "writeLine3",
           "isStatic": false,
           "tsSignatureId": "WriteLine|(System.Object,System.String):System.Void|static=false",
           "target": {
@@ -45544,7 +45544,7 @@
         {
           "stableId": "System.Diagnostics.TraceSource:System.Diagnostics.TraceListenerCollection::get_Item(System.Int32):System.Diagnostics.TraceListener",
           "clrName": "get_Item",
-          "tsEmitName": "get_Item",
+          "tsEmitName": "getItem",
           "metadataToken": 0,
           "canonicalSignature": "(System.Int32):System.Diagnostics.TraceListener",
           "normalizedSignature": "get_Item|(System.Int32):System.Diagnostics.TraceListener|static=false",
@@ -45558,7 +45558,7 @@
         {
           "stableId": "System.Diagnostics.TraceSource:System.Diagnostics.TraceListenerCollection::set_Item(System.Int32,System.Diagnostics.TraceListener):System.Void",
           "clrName": "set_Item",
-          "tsEmitName": "set_Item",
+          "tsEmitName": "setItem",
           "metadataToken": 0,
           "canonicalSignature": "(System.Int32,System.Diagnostics.TraceListener):System.Void",
           "normalizedSignature": "set_Item|(System.Int32,System.Diagnostics.TraceListener):System.Void|static=false",
@@ -45572,7 +45572,7 @@
         {
           "stableId": "System.Diagnostics.TraceSource:System.Diagnostics.TraceListenerCollection::get_Item(System.String):System.Diagnostics.TraceListener",
           "clrName": "get_Item",
-          "tsEmitName": "get_Item2",
+          "tsEmitName": "getItem2",
           "metadataToken": 0,
           "canonicalSignature": "(System.String):System.Diagnostics.TraceListener",
           "normalizedSignature": "get_Item|(System.String):System.Diagnostics.TraceListener|static=false",
@@ -45875,7 +45875,7 @@
           }
         },
         {
-          "tsName": "get_Item",
+          "tsName": "getItem",
           "isStatic": false,
           "tsSignatureId": "get_Item|(System.Int32):System.Diagnostics.TraceListener|static=false",
           "target": {
@@ -45885,7 +45885,7 @@
           }
         },
         {
-          "tsName": "set_Item",
+          "tsName": "setItem",
           "isStatic": false,
           "tsSignatureId": "set_Item|(System.Int32,System.Diagnostics.TraceListener):System.Void|static=false",
           "target": {
@@ -45895,7 +45895,7 @@
           }
         },
         {
-          "tsName": "get_Item2",
+          "tsName": "getItem2",
           "isStatic": false,
           "tsSignatureId": "get_Item|(System.String):System.Diagnostics.TraceListener|static=false",
           "target": {
@@ -46850,7 +46850,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "getObjectData",
+          "tsEmitName": "getObjectData$view",
           "metadataToken": 100682669,
           "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
@@ -46864,7 +46864,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.UnreachableException::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData",
+          "tsEmitName": "getObjectData",
           "metadataToken": 0,
           "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
@@ -46913,7 +46913,7 @@
       ],
       "exposedMethods": [
         {
-          "tsName": "getObjectData",
+          "tsName": "getObjectData$view",
           "isStatic": false,
           "tsSignatureId": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "target": {
@@ -46923,7 +46923,7 @@
           }
         },
         {
-          "tsName": "GetObjectData",
+          "tsName": "getObjectData",
           "isStatic": false,
           "tsSignatureId": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "target": {
@@ -47125,7 +47125,7 @@
         {
           "stableId": "System.Diagnostics.TextWriterTraceListener:System.Diagnostics.XmlWriterTraceListener::Write(System.String):System.Void",
           "clrName": "Write",
-          "tsEmitName": "write",
+          "tsEmitName": "write6",
           "metadataToken": 100663347,
           "canonicalSignature": "(System.String):System.Void",
           "normalizedSignature": "Write|(System.String):System.Void|static=false",
@@ -47139,7 +47139,7 @@
         {
           "stableId": "System.Diagnostics.TextWriterTraceListener:System.Diagnostics.XmlWriterTraceListener::WriteLine(System.String):System.Void",
           "clrName": "WriteLine",
-          "tsEmitName": "writeLine",
+          "tsEmitName": "writeLine6",
           "metadataToken": 100663348,
           "canonicalSignature": "(System.String):System.Void",
           "normalizedSignature": "WriteLine|(System.String):System.Void|static=false",
@@ -47153,7 +47153,7 @@
         {
           "stableId": "System.Diagnostics.TextWriterTraceListener:System.Diagnostics.XmlWriterTraceListener::Fail(System.String,System.String):System.Void",
           "clrName": "Fail",
-          "tsEmitName": "fail",
+          "tsEmitName": "fail2",
           "metadataToken": 100663349,
           "canonicalSignature": "(System.String,System.String):System.Void",
           "normalizedSignature": "Fail|(System.String,System.String):System.Void|static=false",
@@ -47167,7 +47167,7 @@
         {
           "stableId": "System.Diagnostics.TextWriterTraceListener:System.Diagnostics.XmlWriterTraceListener::TraceEvent(System.Diagnostics.TraceEventCache,System.String,System.Diagnostics.TraceEventType,System.Int32,System.String,System.Object[]):System.Void",
           "clrName": "TraceEvent",
-          "tsEmitName": "traceEvent",
+          "tsEmitName": "traceEvent2",
           "metadataToken": 100663350,
           "canonicalSignature": "(System.Diagnostics.TraceEventCache,System.String,System.Diagnostics.TraceEventType,System.Int32,System.String,System.Object[]):System.Void",
           "normalizedSignature": "TraceEvent|(System.Diagnostics.TraceEventCache,System.String,System.Diagnostics.TraceEventType,System.Int32,System.String,System.Object[]):System.Void|static=false",
@@ -47181,7 +47181,7 @@
         {
           "stableId": "System.Diagnostics.TextWriterTraceListener:System.Diagnostics.XmlWriterTraceListener::TraceEvent(System.Diagnostics.TraceEventCache,System.String,System.Diagnostics.TraceEventType,System.Int32,System.String):System.Void",
           "clrName": "TraceEvent",
-          "tsEmitName": "traceEvent2",
+          "tsEmitName": "traceEvent3",
           "metadataToken": 100663351,
           "canonicalSignature": "(System.Diagnostics.TraceEventCache,System.String,System.Diagnostics.TraceEventType,System.Int32,System.String):System.Void",
           "normalizedSignature": "TraceEvent|(System.Diagnostics.TraceEventCache,System.String,System.Diagnostics.TraceEventType,System.Int32,System.String):System.Void|static=false",
@@ -47251,7 +47251,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "dispose",
+          "tsEmitName": "dispose$view",
           "metadataToken": 100668530,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Dispose|():System.Void|static=false",
@@ -47265,7 +47265,7 @@
         {
           "stableId": "System.Diagnostics.TextWriterTraceListener:System.Diagnostics.XmlWriterTraceListener::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "Dispose",
+          "tsEmitName": "dispose",
           "metadataToken": 0,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Dispose|():System.Void|static=false",
@@ -47279,7 +47279,7 @@
         {
           "stableId": "System.Diagnostics.TextWriterTraceListener:System.Diagnostics.XmlWriterTraceListener::Fail(System.String):System.Void",
           "clrName": "Fail",
-          "tsEmitName": "Fail",
+          "tsEmitName": "fail",
           "metadataToken": 0,
           "canonicalSignature": "(System.String):System.Void",
           "normalizedSignature": "Fail|(System.String):System.Void|static=false",
@@ -47293,7 +47293,7 @@
         {
           "stableId": "System.Diagnostics.TextWriterTraceListener:System.Diagnostics.XmlWriterTraceListener::TraceEvent(System.Diagnostics.TraceEventCache,System.String,System.Diagnostics.TraceEventType,System.Int32):System.Void",
           "clrName": "TraceEvent",
-          "tsEmitName": "TraceEvent",
+          "tsEmitName": "traceEvent",
           "metadataToken": 0,
           "canonicalSignature": "(System.Diagnostics.TraceEventCache,System.String,System.Diagnostics.TraceEventType,System.Int32):System.Void",
           "normalizedSignature": "TraceEvent|(System.Diagnostics.TraceEventCache,System.String,System.Diagnostics.TraceEventType,System.Int32):System.Void|static=false",
@@ -47307,7 +47307,7 @@
         {
           "stableId": "System.Diagnostics.TextWriterTraceListener:System.Diagnostics.XmlWriterTraceListener::Write(System.Object):System.Void",
           "clrName": "Write",
-          "tsEmitName": "Write",
+          "tsEmitName": "write",
           "metadataToken": 0,
           "canonicalSignature": "(System.Object):System.Void",
           "normalizedSignature": "Write|(System.Object):System.Void|static=false",
@@ -47321,7 +47321,7 @@
         {
           "stableId": "System.Diagnostics.TextWriterTraceListener:System.Diagnostics.XmlWriterTraceListener::Write(System.String,System.String):System.Void",
           "clrName": "Write",
-          "tsEmitName": "Write4",
+          "tsEmitName": "write4",
           "metadataToken": 0,
           "canonicalSignature": "(System.String,System.String):System.Void",
           "normalizedSignature": "Write|(System.String,System.String):System.Void|static=false",
@@ -47335,7 +47335,7 @@
         {
           "stableId": "System.Diagnostics.TextWriterTraceListener:System.Diagnostics.XmlWriterTraceListener::Write(System.Object,System.String):System.Void",
           "clrName": "Write",
-          "tsEmitName": "Write5",
+          "tsEmitName": "write5",
           "metadataToken": 0,
           "canonicalSignature": "(System.Object,System.String):System.Void",
           "normalizedSignature": "Write|(System.Object,System.String):System.Void|static=false",
@@ -47349,7 +47349,7 @@
         {
           "stableId": "System.Diagnostics.TextWriterTraceListener:System.Diagnostics.XmlWriterTraceListener::WriteLine(System.Object):System.Void",
           "clrName": "WriteLine",
-          "tsEmitName": "WriteLine",
+          "tsEmitName": "writeLine",
           "metadataToken": 0,
           "canonicalSignature": "(System.Object):System.Void",
           "normalizedSignature": "WriteLine|(System.Object):System.Void|static=false",
@@ -47363,7 +47363,7 @@
         {
           "stableId": "System.Diagnostics.TextWriterTraceListener:System.Diagnostics.XmlWriterTraceListener::WriteLine(System.String,System.String):System.Void",
           "clrName": "WriteLine",
-          "tsEmitName": "WriteLine4",
+          "tsEmitName": "writeLine4",
           "metadataToken": 0,
           "canonicalSignature": "(System.String,System.String):System.Void",
           "normalizedSignature": "WriteLine|(System.String,System.String):System.Void|static=false",
@@ -47377,7 +47377,7 @@
         {
           "stableId": "System.Diagnostics.TextWriterTraceListener:System.Diagnostics.XmlWriterTraceListener::WriteLine(System.Object,System.String):System.Void",
           "clrName": "WriteLine",
-          "tsEmitName": "WriteLine5",
+          "tsEmitName": "writeLine5",
           "metadataToken": 0,
           "canonicalSignature": "(System.Object,System.String):System.Void",
           "normalizedSignature": "WriteLine|(System.Object,System.String):System.Void|static=false",
@@ -47456,7 +47456,7 @@
       ],
       "exposedMethods": [
         {
-          "tsName": "write",
+          "tsName": "write6",
           "isStatic": false,
           "tsSignatureId": "Write|(System.String):System.Void|static=false",
           "target": {
@@ -47466,7 +47466,7 @@
           }
         },
         {
-          "tsName": "writeLine",
+          "tsName": "writeLine6",
           "isStatic": false,
           "tsSignatureId": "WriteLine|(System.String):System.Void|static=false",
           "target": {
@@ -47476,7 +47476,7 @@
           }
         },
         {
-          "tsName": "fail",
+          "tsName": "fail2",
           "isStatic": false,
           "tsSignatureId": "Fail|(System.String,System.String):System.Void|static=false",
           "target": {
@@ -47486,7 +47486,7 @@
           }
         },
         {
-          "tsName": "traceEvent",
+          "tsName": "traceEvent2",
           "isStatic": false,
           "tsSignatureId": "TraceEvent|(System.Diagnostics.TraceEventCache,System.String,System.Diagnostics.TraceEventType,System.Int32,System.String,System.Object[]):System.Void|static=false",
           "target": {
@@ -47496,7 +47496,7 @@
           }
         },
         {
-          "tsName": "traceEvent2",
+          "tsName": "traceEvent3",
           "isStatic": false,
           "tsSignatureId": "TraceEvent|(System.Diagnostics.TraceEventCache,System.String,System.Diagnostics.TraceEventType,System.Int32,System.String):System.Void|static=false",
           "target": {
@@ -47546,7 +47546,7 @@
           }
         },
         {
-          "tsName": "dispose",
+          "tsName": "dispose$view",
           "isStatic": false,
           "tsSignatureId": "Dispose|():System.Void|static=false",
           "target": {
@@ -47556,7 +47556,7 @@
           }
         },
         {
-          "tsName": "Dispose",
+          "tsName": "dispose",
           "isStatic": false,
           "tsSignatureId": "Dispose|():System.Void|static=false",
           "target": {
@@ -47566,7 +47566,7 @@
           }
         },
         {
-          "tsName": "Fail",
+          "tsName": "fail",
           "isStatic": false,
           "tsSignatureId": "Fail|(System.String):System.Void|static=false",
           "target": {
@@ -47576,7 +47576,7 @@
           }
         },
         {
-          "tsName": "TraceEvent",
+          "tsName": "traceEvent",
           "isStatic": false,
           "tsSignatureId": "TraceEvent|(System.Diagnostics.TraceEventCache,System.String,System.Diagnostics.TraceEventType,System.Int32):System.Void|static=false",
           "target": {
@@ -47586,7 +47586,7 @@
           }
         },
         {
-          "tsName": "Write",
+          "tsName": "write",
           "isStatic": false,
           "tsSignatureId": "Write|(System.Object):System.Void|static=false",
           "target": {
@@ -47596,7 +47596,7 @@
           }
         },
         {
-          "tsName": "Write4",
+          "tsName": "write4",
           "isStatic": false,
           "tsSignatureId": "Write|(System.String,System.String):System.Void|static=false",
           "target": {
@@ -47606,7 +47606,7 @@
           }
         },
         {
-          "tsName": "Write5",
+          "tsName": "write5",
           "isStatic": false,
           "tsSignatureId": "Write|(System.Object,System.String):System.Void|static=false",
           "target": {
@@ -47616,7 +47616,7 @@
           }
         },
         {
-          "tsName": "WriteLine",
+          "tsName": "writeLine",
           "isStatic": false,
           "tsSignatureId": "WriteLine|(System.Object):System.Void|static=false",
           "target": {
@@ -47626,7 +47626,7 @@
           }
         },
         {
-          "tsName": "WriteLine4",
+          "tsName": "writeLine4",
           "isStatic": false,
           "tsSignatureId": "WriteLine|(System.String,System.String):System.Void|static=false",
           "target": {
@@ -47636,7 +47636,7 @@
           }
         },
         {
-          "tsName": "WriteLine5",
+          "tsName": "writeLine5",
           "isStatic": false,
           "tsSignatureId": "WriteLine|(System.Object,System.String):System.Void|static=false",
           "target": {

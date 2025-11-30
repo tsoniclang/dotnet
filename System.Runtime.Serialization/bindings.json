@@ -13,7 +13,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.EmitTypeInformation::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67110007,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -761,7 +761,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -814,7 +814,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.StreamingContextStates::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67113298,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -1628,7 +1628,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -5284,7 +5284,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.DataContractSerializer::WriteObject(System.Xml.XmlWriter,System.Object):System.Void",
           "clrName": "WriteObject",
-          "tsEmitName": "writeObject",
+          "tsEmitName": "writeObject3",
           "metadataToken": 100665595,
           "canonicalSignature": "(System.Xml.XmlWriter,System.Object):System.Void",
           "normalizedSignature": "WriteObject|(System.Xml.XmlWriter,System.Object):System.Void|static=false",
@@ -5382,7 +5382,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.DataContractSerializer::WriteObject(System.Xml.XmlDictionaryWriter,System.Object,System.Runtime.Serialization.DataContractResolver):System.Void",
           "clrName": "WriteObject",
-          "tsEmitName": "writeObject2",
+          "tsEmitName": "writeObject4",
           "metadataToken": 100665602,
           "canonicalSignature": "(System.Xml.XmlDictionaryWriter,System.Object,System.Runtime.Serialization.DataContractResolver):System.Void",
           "normalizedSignature": "WriteObject|(System.Xml.XmlDictionaryWriter,System.Object,System.Runtime.Serialization.DataContractResolver):System.Void|static=false",
@@ -5396,7 +5396,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.DataContractSerializer::ReadObject(System.Xml.XmlReader):System.Object",
           "clrName": "ReadObject",
-          "tsEmitName": "readObject",
+          "tsEmitName": "readObject3",
           "metadataToken": 100665603,
           "canonicalSignature": "(System.Xml.XmlReader):System.Object",
           "normalizedSignature": "ReadObject|(System.Xml.XmlReader):System.Object|static=false",
@@ -5410,7 +5410,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.DataContractSerializer::ReadObject(System.Xml.XmlReader,System.Boolean):System.Object",
           "clrName": "ReadObject",
-          "tsEmitName": "readObject2",
+          "tsEmitName": "readObject4",
           "metadataToken": 100665604,
           "canonicalSignature": "(System.Xml.XmlReader,System.Boolean):System.Object",
           "normalizedSignature": "ReadObject|(System.Xml.XmlReader,System.Boolean):System.Object|static=false",
@@ -5438,7 +5438,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.DataContractSerializer::ReadObject(System.Xml.XmlDictionaryReader,System.Boolean):System.Object",
           "clrName": "ReadObject",
-          "tsEmitName": "readObject3",
+          "tsEmitName": "readObject5",
           "metadataToken": 100665606,
           "canonicalSignature": "(System.Xml.XmlDictionaryReader,System.Boolean):System.Object",
           "normalizedSignature": "ReadObject|(System.Xml.XmlDictionaryReader,System.Boolean):System.Object|static=false",
@@ -5466,7 +5466,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.DataContractSerializer::ReadObject(System.Xml.XmlDictionaryReader,System.Boolean,System.Runtime.Serialization.DataContractResolver):System.Object",
           "clrName": "ReadObject",
-          "tsEmitName": "readObject4",
+          "tsEmitName": "readObject6",
           "metadataToken": 100665608,
           "canonicalSignature": "(System.Xml.XmlDictionaryReader,System.Boolean,System.Runtime.Serialization.DataContractResolver):System.Object",
           "normalizedSignature": "ReadObject|(System.Xml.XmlDictionaryReader,System.Boolean,System.Runtime.Serialization.DataContractResolver):System.Object|static=false",
@@ -5480,7 +5480,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.DataContractSerializer::ReadObject(System.IO.Stream):System.Object",
           "clrName": "ReadObject",
-          "tsEmitName": "ReadObject",
+          "tsEmitName": "readObject",
           "metadataToken": 0,
           "canonicalSignature": "(System.IO.Stream):System.Object",
           "normalizedSignature": "ReadObject|(System.IO.Stream):System.Object|static=false",
@@ -5494,7 +5494,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.DataContractSerializer::ReadObject(System.Xml.XmlDictionaryReader):System.Object",
           "clrName": "ReadObject",
-          "tsEmitName": "ReadObject2",
+          "tsEmitName": "readObject2",
           "metadataToken": 0,
           "canonicalSignature": "(System.Xml.XmlDictionaryReader):System.Object",
           "normalizedSignature": "ReadObject|(System.Xml.XmlDictionaryReader):System.Object|static=false",
@@ -5508,7 +5508,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.DataContractSerializer::WriteObject(System.IO.Stream,System.Object):System.Void",
           "clrName": "WriteObject",
-          "tsEmitName": "WriteObject",
+          "tsEmitName": "writeObject",
           "metadataToken": 0,
           "canonicalSignature": "(System.IO.Stream,System.Object):System.Void",
           "normalizedSignature": "WriteObject|(System.IO.Stream,System.Object):System.Void|static=false",
@@ -5522,7 +5522,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.DataContractSerializer::WriteObject(System.Xml.XmlDictionaryWriter,System.Object):System.Void",
           "clrName": "WriteObject",
-          "tsEmitName": "WriteObject2",
+          "tsEmitName": "writeObject2",
           "metadataToken": 0,
           "canonicalSignature": "(System.Xml.XmlDictionaryWriter,System.Object):System.Void",
           "normalizedSignature": "WriteObject|(System.Xml.XmlDictionaryWriter,System.Object):System.Void|static=false",
@@ -5696,7 +5696,7 @@
       ],
       "exposedMethods": [
         {
-          "tsName": "writeObject",
+          "tsName": "writeObject3",
           "isStatic": false,
           "tsSignatureId": "WriteObject|(System.Xml.XmlWriter,System.Object):System.Void|static=false",
           "target": {
@@ -5766,7 +5766,7 @@
           }
         },
         {
-          "tsName": "writeObject2",
+          "tsName": "writeObject4",
           "isStatic": false,
           "tsSignatureId": "WriteObject|(System.Xml.XmlDictionaryWriter,System.Object,System.Runtime.Serialization.DataContractResolver):System.Void|static=false",
           "target": {
@@ -5776,7 +5776,7 @@
           }
         },
         {
-          "tsName": "readObject",
+          "tsName": "readObject3",
           "isStatic": false,
           "tsSignatureId": "ReadObject|(System.Xml.XmlReader):System.Object|static=false",
           "target": {
@@ -5786,7 +5786,7 @@
           }
         },
         {
-          "tsName": "readObject2",
+          "tsName": "readObject4",
           "isStatic": false,
           "tsSignatureId": "ReadObject|(System.Xml.XmlReader,System.Boolean):System.Object|static=false",
           "target": {
@@ -5806,7 +5806,7 @@
           }
         },
         {
-          "tsName": "readObject3",
+          "tsName": "readObject5",
           "isStatic": false,
           "tsSignatureId": "ReadObject|(System.Xml.XmlDictionaryReader,System.Boolean):System.Object|static=false",
           "target": {
@@ -5826,7 +5826,7 @@
           }
         },
         {
-          "tsName": "readObject4",
+          "tsName": "readObject6",
           "isStatic": false,
           "tsSignatureId": "ReadObject|(System.Xml.XmlDictionaryReader,System.Boolean,System.Runtime.Serialization.DataContractResolver):System.Object|static=false",
           "target": {
@@ -5836,7 +5836,7 @@
           }
         },
         {
-          "tsName": "ReadObject",
+          "tsName": "readObject",
           "isStatic": false,
           "tsSignatureId": "ReadObject|(System.IO.Stream):System.Object|static=false",
           "target": {
@@ -5846,7 +5846,7 @@
           }
         },
         {
-          "tsName": "ReadObject2",
+          "tsName": "readObject2",
           "isStatic": false,
           "tsSignatureId": "ReadObject|(System.Xml.XmlDictionaryReader):System.Object|static=false",
           "target": {
@@ -5856,7 +5856,7 @@
           }
         },
         {
-          "tsName": "WriteObject",
+          "tsName": "writeObject",
           "isStatic": false,
           "tsSignatureId": "WriteObject|(System.IO.Stream,System.Object):System.Void|static=false",
           "target": {
@@ -5866,7 +5866,7 @@
           }
         },
         {
-          "tsName": "WriteObject2",
+          "tsName": "writeObject2",
           "isStatic": false,
           "tsSignatureId": "WriteObject|(System.Xml.XmlDictionaryWriter,System.Object):System.Void|static=false",
           "target": {
@@ -9521,7 +9521,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "getObjectData",
+          "tsEmitName": "getObjectData$view",
           "metadataToken": 100682669,
           "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
@@ -9535,7 +9535,7 @@
         {
           "stableId": "System.Runtime.Serialization.Primitives:System.Runtime.Serialization.InvalidDataContractException::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData",
+          "tsEmitName": "getObjectData",
           "metadataToken": 0,
           "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
@@ -9584,7 +9584,7 @@
       ],
       "exposedMethods": [
         {
-          "tsName": "getObjectData",
+          "tsName": "getObjectData$view",
           "isStatic": false,
           "tsSignatureId": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "target": {
@@ -9594,7 +9594,7 @@
           }
         },
         {
-          "tsName": "GetObjectData",
+          "tsName": "getObjectData",
           "isStatic": false,
           "tsSignatureId": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "target": {
@@ -13398,7 +13398,7 @@
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "clone",
+          "tsEmitName": "clone$view",
           "metadataToken": 100668509,
           "canonicalSignature": "():System.Object",
           "normalizedSignature": "Clone|():System.Object|static=false",
@@ -13412,7 +13412,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "getObjectData",
+          "tsEmitName": "getObjectData$view",
           "metadataToken": 100682669,
           "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
@@ -13426,7 +13426,7 @@
         {
           "stableId": "System.Runtime.Serialization.Formatters:System.Runtime.Serialization.SerializationEventHandler::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "Clone",
+          "tsEmitName": "clone",
           "metadataToken": 0,
           "canonicalSignature": "():System.Object",
           "normalizedSignature": "Clone|():System.Object|static=false",
@@ -13440,7 +13440,7 @@
         {
           "stableId": "System.Runtime.Serialization.Formatters:System.Runtime.Serialization.SerializationEventHandler::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData",
+          "tsEmitName": "getObjectData",
           "metadataToken": 0,
           "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
@@ -13499,7 +13499,7 @@
           }
         },
         {
-          "tsName": "clone",
+          "tsName": "clone$view",
           "isStatic": false,
           "tsSignatureId": "Clone|():System.Object|static=false",
           "target": {
@@ -13509,7 +13509,7 @@
           }
         },
         {
-          "tsName": "getObjectData",
+          "tsName": "getObjectData$view",
           "isStatic": false,
           "tsSignatureId": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "target": {
@@ -13519,7 +13519,7 @@
           }
         },
         {
-          "tsName": "Clone",
+          "tsName": "clone",
           "isStatic": false,
           "tsSignatureId": "Clone|():System.Object|static=false",
           "target": {
@@ -13529,7 +13529,7 @@
           }
         },
         {
-          "tsName": "GetObjectData",
+          "tsName": "getObjectData",
           "isStatic": false,
           "tsSignatureId": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "target": {
@@ -13833,7 +13833,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "getObjectData",
+          "tsEmitName": "getObjectData$view",
           "metadataToken": 100682669,
           "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
@@ -13847,7 +13847,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.SerializationException::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData",
+          "tsEmitName": "getObjectData",
           "metadataToken": 0,
           "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
@@ -13896,7 +13896,7 @@
       ],
       "exposedMethods": [
         {
-          "tsName": "getObjectData",
+          "tsName": "getObjectData$view",
           "isStatic": false,
           "tsSignatureId": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "target": {
@@ -13906,7 +13906,7 @@
           }
         },
         {
-          "tsName": "GetObjectData",
+          "tsName": "getObjectData",
           "isStatic": false,
           "tsSignatureId": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "target": {

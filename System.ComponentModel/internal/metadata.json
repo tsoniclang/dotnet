@@ -25,7 +25,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.BindableSupport::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -78,7 +78,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.BindingDirection::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -122,7 +122,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.CollectionChangeAction::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -175,7 +175,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.DataObjectMethodType::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -246,7 +246,7 @@
         {
           "stableId": "System.ComponentModel.Primitives:System.ComponentModel.DesignerSerializationVisibility::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -299,7 +299,7 @@
         {
           "stableId": "System.Private.CoreLib:System.ComponentModel.EditorBrowsableState::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -352,7 +352,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.InheritanceLevel::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -405,7 +405,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.LicenseUsageMode::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -449,7 +449,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.ListChangedType::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -547,7 +547,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.ListSortDirection::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -591,7 +591,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.MaskedTextResultHint::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -752,7 +752,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.PropertyTabScope::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -814,7 +814,7 @@
         {
           "stableId": "System.ComponentModel.Primitives:System.ComponentModel.RefreshProperties::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -867,7 +867,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.ToolboxItemFilterType::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -3629,7 +3629,7 @@
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "clone",
+          "tsEmitName": "clone$view",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3646,7 +3646,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "getObjectData",
+          "tsEmitName": "getObjectData$view",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3663,7 +3663,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.AddingNewEventHandler::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "Clone",
+          "tsEmitName": "clone",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -3679,7 +3679,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.AddingNewEventHandler::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData",
+          "tsEmitName": "getObjectData",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -3839,7 +3839,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.ArrayConverter::ConvertTo(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object,System.Type):System.Object",
           "clrName": "ConvertTo",
-          "tsEmitName": "convertTo",
+          "tsEmitName": "convertTo2",
           "normalizedSignature": "ConvertTo|(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object,System.Type):System.Object|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3855,7 +3855,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.ArrayConverter::GetProperties(System.ComponentModel.ITypeDescriptorContext,System.Object,System.Attribute[]):System.ComponentModel.PropertyDescriptorCollection",
           "clrName": "GetProperties",
-          "tsEmitName": "getProperties",
+          "tsEmitName": "getProperties4",
           "normalizedSignature": "GetProperties|(System.ComponentModel.ITypeDescriptorContext,System.Object,System.Attribute[]):System.ComponentModel.PropertyDescriptorCollection|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3871,7 +3871,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.ArrayConverter::GetPropertiesSupported(System.ComponentModel.ITypeDescriptorContext):System.Boolean",
           "clrName": "GetPropertiesSupported",
-          "tsEmitName": "getPropertiesSupported",
+          "tsEmitName": "getPropertiesSupported2",
           "normalizedSignature": "GetPropertiesSupported|(System.ComponentModel.ITypeDescriptorContext):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3887,7 +3887,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.ArrayConverter::ConvertTo(System.Object,System.Type):System.Object",
           "clrName": "ConvertTo",
-          "tsEmitName": "ConvertTo",
+          "tsEmitName": "convertTo",
           "normalizedSignature": "ConvertTo|(System.Object,System.Type):System.Object|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -3903,7 +3903,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.ArrayConverter::GetProperties(System.Object):System.ComponentModel.PropertyDescriptorCollection",
           "clrName": "GetProperties",
-          "tsEmitName": "GetProperties",
+          "tsEmitName": "getProperties",
           "normalizedSignature": "GetProperties|(System.Object):System.ComponentModel.PropertyDescriptorCollection|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -3919,7 +3919,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.ArrayConverter::GetProperties(System.ComponentModel.ITypeDescriptorContext,System.Object):System.ComponentModel.PropertyDescriptorCollection",
           "clrName": "GetProperties",
-          "tsEmitName": "GetProperties3",
+          "tsEmitName": "getProperties3",
           "normalizedSignature": "GetProperties|(System.ComponentModel.ITypeDescriptorContext,System.Object):System.ComponentModel.PropertyDescriptorCollection|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -3935,7 +3935,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.ArrayConverter::GetPropertiesSupported():System.Boolean",
           "clrName": "GetPropertiesSupported",
-          "tsEmitName": "GetPropertiesSupported",
+          "tsEmitName": "getPropertiesSupported",
           "normalizedSignature": "GetPropertiesSupported|():System.Boolean|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -4090,7 +4090,7 @@
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "clone",
+          "tsEmitName": "clone$view",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -4107,7 +4107,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "getObjectData",
+          "tsEmitName": "getObjectData$view",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -4124,7 +4124,7 @@
         {
           "stableId": "System.ComponentModel.EventBasedAsync:System.ComponentModel.AsyncCompletedEventHandler::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "Clone",
+          "tsEmitName": "clone",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -4140,7 +4140,7 @@
         {
           "stableId": "System.ComponentModel.EventBasedAsync:System.ComponentModel.AsyncCompletedEventHandler::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData",
+          "tsEmitName": "getObjectData",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -4421,7 +4421,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.AttributeCollection::get_Item(System.Int32):System.Attribute",
           "clrName": "get_Item",
-          "tsEmitName": "get_Item",
+          "tsEmitName": "getItem",
           "normalizedSignature": "get_Item|(System.Int32):System.Attribute|static=false",
           "provenance": "IndexerNormalized",
           "emitScope": "ClassSurface",
@@ -4437,7 +4437,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.AttributeCollection::get_Item(System.Type):System.Attribute",
           "clrName": "get_Item",
-          "tsEmitName": "get_Item2",
+          "tsEmitName": "getItem2",
           "normalizedSignature": "get_Item|(System.Type):System.Attribute|static=false",
           "provenance": "IndexerNormalized",
           "emitScope": "ClassSurface",
@@ -4693,7 +4693,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "dispose",
+          "tsEmitName": "dispose$view",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -4710,7 +4710,7 @@
         {
           "stableId": "System.ComponentModel.EventBasedAsync:System.ComponentModel.BackgroundWorker::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "Dispose",
+          "tsEmitName": "dispose",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -4848,7 +4848,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.BaseNumberConverter::CanConvertFrom(System.ComponentModel.ITypeDescriptorContext,System.Type):System.Boolean",
           "clrName": "CanConvertFrom",
-          "tsEmitName": "canConvertFrom",
+          "tsEmitName": "canConvertFrom2",
           "normalizedSignature": "CanConvertFrom|(System.ComponentModel.ITypeDescriptorContext,System.Type):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4864,7 +4864,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.BaseNumberConverter::ConvertFrom(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object):System.Object",
           "clrName": "ConvertFrom",
-          "tsEmitName": "convertFrom",
+          "tsEmitName": "convertFrom2",
           "normalizedSignature": "ConvertFrom|(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object):System.Object|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4880,7 +4880,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.BaseNumberConverter::ConvertTo(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object,System.Type):System.Object",
           "clrName": "ConvertTo",
-          "tsEmitName": "convertTo",
+          "tsEmitName": "convertTo2",
           "normalizedSignature": "ConvertTo|(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object,System.Type):System.Object|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4896,7 +4896,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.BaseNumberConverter::CanConvertTo(System.ComponentModel.ITypeDescriptorContext,System.Type):System.Boolean",
           "clrName": "CanConvertTo",
-          "tsEmitName": "canConvertTo",
+          "tsEmitName": "canConvertTo2",
           "normalizedSignature": "CanConvertTo|(System.ComponentModel.ITypeDescriptorContext,System.Type):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4912,7 +4912,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.BaseNumberConverter::CanConvertFrom(System.Type):System.Boolean",
           "clrName": "CanConvertFrom",
-          "tsEmitName": "CanConvertFrom",
+          "tsEmitName": "canConvertFrom",
           "normalizedSignature": "CanConvertFrom|(System.Type):System.Boolean|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -4928,7 +4928,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.BaseNumberConverter::CanConvertTo(System.Type):System.Boolean",
           "clrName": "CanConvertTo",
-          "tsEmitName": "CanConvertTo",
+          "tsEmitName": "canConvertTo",
           "normalizedSignature": "CanConvertTo|(System.Type):System.Boolean|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -4944,7 +4944,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.BaseNumberConverter::ConvertFrom(System.Object):System.Object",
           "clrName": "ConvertFrom",
-          "tsEmitName": "ConvertFrom",
+          "tsEmitName": "convertFrom",
           "normalizedSignature": "ConvertFrom|(System.Object):System.Object|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -4960,7 +4960,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.BaseNumberConverter::ConvertTo(System.Object,System.Type):System.Object",
           "clrName": "ConvertTo",
-          "tsEmitName": "ConvertTo",
+          "tsEmitName": "convertTo",
           "normalizedSignature": "ConvertTo|(System.Object,System.Type):System.Object|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -5218,7 +5218,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IList\u00601::IndexOf(T):System.Int32",
           "clrName": "IndexOf",
-          "tsEmitName": "indexOf",
+          "tsEmitName": "indexOf$view",
           "normalizedSignature": "IndexOf|(T):System.Int32|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -5235,7 +5235,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IList\u00601::Insert(System.Int32,T):System.Void",
           "clrName": "Insert",
-          "tsEmitName": "insert",
+          "tsEmitName": "insert$view",
           "normalizedSignature": "Insert|(System.Int32,T):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -5252,7 +5252,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IList\u00601::RemoveAt(System.Int32):System.Void",
           "clrName": "RemoveAt",
-          "tsEmitName": "removeAt",
+          "tsEmitName": "removeAt$view",
           "normalizedSignature": "RemoveAt|(System.Int32):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -5269,7 +5269,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::Add(T):System.Void",
           "clrName": "Add",
-          "tsEmitName": "add",
+          "tsEmitName": "add$view",
           "normalizedSignature": "Add|(T):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -5286,7 +5286,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::Clear():System.Void",
           "clrName": "Clear",
-          "tsEmitName": "clear",
+          "tsEmitName": "clear$view",
           "normalizedSignature": "Clear|():System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -5303,7 +5303,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::Contains(T):System.Boolean",
           "clrName": "Contains",
-          "tsEmitName": "contains",
+          "tsEmitName": "contains$view",
           "normalizedSignature": "Contains|(T):System.Boolean|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -5320,7 +5320,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::CopyTo(T[],System.Int32):System.Void",
           "clrName": "CopyTo",
-          "tsEmitName": "copyTo",
+          "tsEmitName": "copyTo$view",
           "normalizedSignature": "CopyTo|(T[],System.Int32):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -5337,7 +5337,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IEnumerable\u00601::GetEnumerator():IEnumerator_1",
           "clrName": "GetEnumerator",
-          "tsEmitName": "getEnumerator",
+          "tsEmitName": "getEnumerator$view",
           "normalizedSignature": "GetEnumerator|():IEnumerator_1|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -5354,7 +5354,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
           "clrName": "GetEnumerator",
-          "tsEmitName": "getEnumerator",
+          "tsEmitName": "getEnumerator$view",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -5371,7 +5371,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Add(System.Object):System.Int32",
           "clrName": "Add",
-          "tsEmitName": "add",
+          "tsEmitName": "add$view",
           "normalizedSignature": "Add|(System.Object):System.Int32|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -5388,7 +5388,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Contains(System.Object):System.Boolean",
           "clrName": "Contains",
-          "tsEmitName": "contains",
+          "tsEmitName": "contains$view",
           "normalizedSignature": "Contains|(System.Object):System.Boolean|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -5405,7 +5405,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Insert(System.Int32,System.Object):System.Void",
           "clrName": "Insert",
-          "tsEmitName": "insert",
+          "tsEmitName": "insert$view",
           "normalizedSignature": "Insert|(System.Int32,System.Object):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -5422,7 +5422,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Remove(System.Object):System.Void",
           "clrName": "Remove",
-          "tsEmitName": "remove",
+          "tsEmitName": "remove$view",
           "normalizedSignature": "Remove|(System.Object):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -5439,7 +5439,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.ICollection::CopyTo(System.Array,System.Int32):System.Void",
           "clrName": "CopyTo",
-          "tsEmitName": "copyTo",
+          "tsEmitName": "copyTo$view",
           "normalizedSignature": "CopyTo|(System.Array,System.Int32):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -5524,7 +5524,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Clear():System.Void",
           "clrName": "Clear",
-          "tsEmitName": "clear",
+          "tsEmitName": "clear$view",
           "normalizedSignature": "Clear|():System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -5541,7 +5541,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::RemoveAt(System.Int32):System.Void",
           "clrName": "RemoveAt",
-          "tsEmitName": "removeAt",
+          "tsEmitName": "removeAt$view",
           "normalizedSignature": "RemoveAt|(System.Int32):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -5592,7 +5592,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.BindingList\u00601::Add(T):System.Void",
           "clrName": "Add",
-          "tsEmitName": "Add",
+          "tsEmitName": "add",
           "normalizedSignature": "Add|(T):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -5608,7 +5608,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.BindingList\u00601::Add(System.Object):System.Int32",
           "clrName": "Add",
-          "tsEmitName": "Add2",
+          "tsEmitName": "add2",
           "normalizedSignature": "Add|(System.Object):System.Int32|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -5624,7 +5624,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.BindingList\u00601::Clear():System.Void",
           "clrName": "Clear",
-          "tsEmitName": "Clear",
+          "tsEmitName": "clear",
           "normalizedSignature": "Clear|():System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -5640,7 +5640,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.BindingList\u00601::Contains(T):System.Boolean",
           "clrName": "Contains",
-          "tsEmitName": "Contains",
+          "tsEmitName": "contains",
           "normalizedSignature": "Contains|(T):System.Boolean|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -5656,7 +5656,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.BindingList\u00601::Contains(System.Object):System.Boolean",
           "clrName": "Contains",
-          "tsEmitName": "Contains2",
+          "tsEmitName": "contains2",
           "normalizedSignature": "Contains|(System.Object):System.Boolean|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -5672,7 +5672,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.BindingList\u00601::CopyTo(T[],System.Int32):System.Void",
           "clrName": "CopyTo",
-          "tsEmitName": "CopyTo",
+          "tsEmitName": "copyTo",
           "normalizedSignature": "CopyTo|(T[],System.Int32):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -5688,7 +5688,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.BindingList\u00601::CopyTo(System.Array,System.Int32):System.Void",
           "clrName": "CopyTo",
-          "tsEmitName": "CopyTo2",
+          "tsEmitName": "copyTo2",
           "normalizedSignature": "CopyTo|(System.Array,System.Int32):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -5704,7 +5704,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.BindingList\u00601::GetEnumerator():System.Collections.Generic.IEnumerator_1",
           "clrName": "GetEnumerator",
-          "tsEmitName": "GetEnumerator",
+          "tsEmitName": "getEnumerator",
           "normalizedSignature": "GetEnumerator|():System.Collections.Generic.IEnumerator_1|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -5720,7 +5720,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.BindingList\u00601::GetEnumerator():System.Collections.IEnumerator",
           "clrName": "GetEnumerator",
-          "tsEmitName": "GetEnumerator2",
+          "tsEmitName": "getEnumerator2",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -5736,7 +5736,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.BindingList\u00601::IndexOf(T):System.Int32",
           "clrName": "IndexOf",
-          "tsEmitName": "IndexOf",
+          "tsEmitName": "indexOf",
           "normalizedSignature": "IndexOf|(T):System.Int32|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -5752,7 +5752,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.BindingList\u00601::Insert(System.Int32,T):System.Void",
           "clrName": "Insert",
-          "tsEmitName": "Insert",
+          "tsEmitName": "insert",
           "normalizedSignature": "Insert|(System.Int32,T):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -5768,7 +5768,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.BindingList\u00601::Insert(System.Int32,System.Object):System.Void",
           "clrName": "Insert",
-          "tsEmitName": "Insert2",
+          "tsEmitName": "insert2",
           "normalizedSignature": "Insert|(System.Int32,System.Object):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -5784,7 +5784,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.BindingList\u00601::Remove(T):System.Boolean",
           "clrName": "Remove",
-          "tsEmitName": "Remove",
+          "tsEmitName": "remove",
           "normalizedSignature": "Remove|(T):System.Boolean|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -5800,7 +5800,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.BindingList\u00601::Remove(System.Object):System.Void",
           "clrName": "Remove",
-          "tsEmitName": "Remove2",
+          "tsEmitName": "remove2",
           "normalizedSignature": "Remove|(System.Object):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -5816,7 +5816,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.BindingList\u00601::RemoveAt(System.Int32):System.Void",
           "clrName": "RemoveAt",
-          "tsEmitName": "RemoveAt",
+          "tsEmitName": "removeAt",
           "normalizedSignature": "RemoveAt|(System.Int32):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -6224,7 +6224,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.BooleanConverter::CanConvertFrom(System.ComponentModel.ITypeDescriptorContext,System.Type):System.Boolean",
           "clrName": "CanConvertFrom",
-          "tsEmitName": "canConvertFrom",
+          "tsEmitName": "canConvertFrom2",
           "normalizedSignature": "CanConvertFrom|(System.ComponentModel.ITypeDescriptorContext,System.Type):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6240,7 +6240,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.BooleanConverter::ConvertFrom(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object):System.Object",
           "clrName": "ConvertFrom",
-          "tsEmitName": "convertFrom",
+          "tsEmitName": "convertFrom2",
           "normalizedSignature": "ConvertFrom|(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object):System.Object|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6256,7 +6256,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.BooleanConverter::GetStandardValues(System.ComponentModel.ITypeDescriptorContext):System.ComponentModel.TypeConverter\u002BStandardValuesCollection",
           "clrName": "GetStandardValues",
-          "tsEmitName": "getStandardValues",
+          "tsEmitName": "getStandardValues2",
           "normalizedSignature": "GetStandardValues|(System.ComponentModel.ITypeDescriptorContext):System.ComponentModel.TypeConverter\u002BStandardValuesCollection|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6272,7 +6272,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.BooleanConverter::GetStandardValuesExclusive(System.ComponentModel.ITypeDescriptorContext):System.Boolean",
           "clrName": "GetStandardValuesExclusive",
-          "tsEmitName": "getStandardValuesExclusive",
+          "tsEmitName": "getStandardValuesExclusive2",
           "normalizedSignature": "GetStandardValuesExclusive|(System.ComponentModel.ITypeDescriptorContext):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6288,7 +6288,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.BooleanConverter::GetStandardValuesSupported(System.ComponentModel.ITypeDescriptorContext):System.Boolean",
           "clrName": "GetStandardValuesSupported",
-          "tsEmitName": "getStandardValuesSupported",
+          "tsEmitName": "getStandardValuesSupported2",
           "normalizedSignature": "GetStandardValuesSupported|(System.ComponentModel.ITypeDescriptorContext):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6304,7 +6304,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.BooleanConverter::CanConvertFrom(System.Type):System.Boolean",
           "clrName": "CanConvertFrom",
-          "tsEmitName": "CanConvertFrom",
+          "tsEmitName": "canConvertFrom",
           "normalizedSignature": "CanConvertFrom|(System.Type):System.Boolean|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -6320,7 +6320,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.BooleanConverter::ConvertFrom(System.Object):System.Object",
           "clrName": "ConvertFrom",
-          "tsEmitName": "ConvertFrom",
+          "tsEmitName": "convertFrom",
           "normalizedSignature": "ConvertFrom|(System.Object):System.Object|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -6336,7 +6336,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.BooleanConverter::GetStandardValues():System.Collections.ICollection",
           "clrName": "GetStandardValues",
-          "tsEmitName": "GetStandardValues",
+          "tsEmitName": "getStandardValues",
           "normalizedSignature": "GetStandardValues|():System.Collections.ICollection|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -6352,7 +6352,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.BooleanConverter::GetStandardValuesExclusive():System.Boolean",
           "clrName": "GetStandardValuesExclusive",
-          "tsEmitName": "GetStandardValuesExclusive",
+          "tsEmitName": "getStandardValuesExclusive",
           "normalizedSignature": "GetStandardValuesExclusive|():System.Boolean|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -6368,7 +6368,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.BooleanConverter::GetStandardValuesSupported():System.Boolean",
           "clrName": "GetStandardValuesSupported",
-          "tsEmitName": "GetStandardValuesSupported",
+          "tsEmitName": "getStandardValuesSupported",
           "normalizedSignature": "GetStandardValuesSupported|():System.Boolean|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -6635,7 +6635,7 @@
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "clone",
+          "tsEmitName": "clone$view",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -6652,7 +6652,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "getObjectData",
+          "tsEmitName": "getObjectData$view",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -6669,7 +6669,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.CancelEventHandler::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "Clone",
+          "tsEmitName": "clone",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -6685,7 +6685,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.CancelEventHandler::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData",
+          "tsEmitName": "getObjectData",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -7026,7 +7026,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.CharConverter::CanConvertFrom(System.ComponentModel.ITypeDescriptorContext,System.Type):System.Boolean",
           "clrName": "CanConvertFrom",
-          "tsEmitName": "canConvertFrom",
+          "tsEmitName": "canConvertFrom2",
           "normalizedSignature": "CanConvertFrom|(System.ComponentModel.ITypeDescriptorContext,System.Type):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7042,7 +7042,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.CharConverter::ConvertTo(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object,System.Type):System.Object",
           "clrName": "ConvertTo",
-          "tsEmitName": "convertTo",
+          "tsEmitName": "convertTo2",
           "normalizedSignature": "ConvertTo|(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object,System.Type):System.Object|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7058,7 +7058,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.CharConverter::ConvertFrom(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object):System.Object",
           "clrName": "ConvertFrom",
-          "tsEmitName": "convertFrom",
+          "tsEmitName": "convertFrom2",
           "normalizedSignature": "ConvertFrom|(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object):System.Object|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7074,7 +7074,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.CharConverter::CanConvertFrom(System.Type):System.Boolean",
           "clrName": "CanConvertFrom",
-          "tsEmitName": "CanConvertFrom",
+          "tsEmitName": "canConvertFrom",
           "normalizedSignature": "CanConvertFrom|(System.Type):System.Boolean|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -7090,7 +7090,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.CharConverter::ConvertFrom(System.Object):System.Object",
           "clrName": "ConvertFrom",
-          "tsEmitName": "ConvertFrom",
+          "tsEmitName": "convertFrom",
           "normalizedSignature": "ConvertFrom|(System.Object):System.Object|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -7106,7 +7106,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.CharConverter::ConvertTo(System.Object,System.Type):System.Object",
           "clrName": "ConvertTo",
-          "tsEmitName": "ConvertTo",
+          "tsEmitName": "convertTo",
           "normalizedSignature": "ConvertTo|(System.Object,System.Type):System.Object|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -7246,7 +7246,7 @@
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "clone",
+          "tsEmitName": "clone$view",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -7263,7 +7263,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "getObjectData",
+          "tsEmitName": "getObjectData$view",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -7280,7 +7280,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.CollectionChangeEventHandler::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "Clone",
+          "tsEmitName": "clone",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -7296,7 +7296,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.CollectionChangeEventHandler::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData",
+          "tsEmitName": "getObjectData",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -7335,7 +7335,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.CollectionConverter::ConvertTo(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object,System.Type):System.Object",
           "clrName": "ConvertTo",
-          "tsEmitName": "convertTo",
+          "tsEmitName": "convertTo2",
           "normalizedSignature": "ConvertTo|(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object,System.Type):System.Object|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7351,7 +7351,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.CollectionConverter::GetProperties(System.ComponentModel.ITypeDescriptorContext,System.Object,System.Attribute[]):System.ComponentModel.PropertyDescriptorCollection",
           "clrName": "GetProperties",
-          "tsEmitName": "getProperties",
+          "tsEmitName": "getProperties3",
           "normalizedSignature": "GetProperties|(System.ComponentModel.ITypeDescriptorContext,System.Object,System.Attribute[]):System.ComponentModel.PropertyDescriptorCollection|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7367,7 +7367,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.CollectionConverter::ConvertTo(System.Object,System.Type):System.Object",
           "clrName": "ConvertTo",
-          "tsEmitName": "ConvertTo",
+          "tsEmitName": "convertTo",
           "normalizedSignature": "ConvertTo|(System.Object,System.Type):System.Object|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -7383,7 +7383,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.CollectionConverter::GetProperties(System.Object):System.ComponentModel.PropertyDescriptorCollection",
           "clrName": "GetProperties",
-          "tsEmitName": "GetProperties",
+          "tsEmitName": "getProperties",
           "normalizedSignature": "GetProperties|(System.Object):System.ComponentModel.PropertyDescriptorCollection|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -7399,7 +7399,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.CollectionConverter::GetProperties(System.ComponentModel.ITypeDescriptorContext,System.Object):System.ComponentModel.PropertyDescriptorCollection",
           "clrName": "GetProperties",
-          "tsEmitName": "GetProperties2",
+          "tsEmitName": "getProperties2",
           "normalizedSignature": "GetProperties|(System.ComponentModel.ITypeDescriptorContext,System.Object):System.ComponentModel.PropertyDescriptorCollection|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -7671,7 +7671,7 @@
         {
           "stableId": "System.ComponentModel.Primitives:System.ComponentModel.ComponentCollection::CopyTo(System.ComponentModel.IComponent[],System.Int32):System.Void",
           "clrName": "CopyTo",
-          "tsEmitName": "copyTo",
+          "tsEmitName": "copyTo2",
           "normalizedSignature": "CopyTo|(System.ComponentModel.IComponent[],System.Int32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7704,7 +7704,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
           "clrName": "GetEnumerator",
-          "tsEmitName": "getEnumerator",
+          "tsEmitName": "getEnumerator$view",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -7721,7 +7721,7 @@
         {
           "stableId": "System.ComponentModel.Primitives:System.ComponentModel.ComponentCollection::CopyTo(System.Array,System.Int32):System.Void",
           "clrName": "CopyTo",
-          "tsEmitName": "CopyTo",
+          "tsEmitName": "copyTo",
           "normalizedSignature": "CopyTo|(System.Array,System.Int32):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -7737,7 +7737,7 @@
         {
           "stableId": "System.ComponentModel.Primitives:System.ComponentModel.ComponentCollection::GetEnumerator():System.Collections.IEnumerator",
           "clrName": "GetEnumerator",
-          "tsEmitName": "GetEnumerator",
+          "tsEmitName": "getEnumerator",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -7753,7 +7753,7 @@
         {
           "stableId": "System.ComponentModel.Primitives:System.ComponentModel.ComponentCollection::get_Item(System.String):System.ComponentModel.IComponent",
           "clrName": "get_Item",
-          "tsEmitName": "get_Item",
+          "tsEmitName": "getItem",
           "normalizedSignature": "get_Item|(System.String):System.ComponentModel.IComponent|static=false",
           "provenance": "IndexerNormalized",
           "emitScope": "ClassSurface",
@@ -7769,7 +7769,7 @@
         {
           "stableId": "System.ComponentModel.Primitives:System.ComponentModel.ComponentCollection::get_Item(System.Int32):System.ComponentModel.IComponent",
           "clrName": "get_Item",
-          "tsEmitName": "get_Item2",
+          "tsEmitName": "getItem2",
           "normalizedSignature": "get_Item|(System.Int32):System.ComponentModel.IComponent|static=false",
           "provenance": "IndexerNormalized",
           "emitScope": "ClassSurface",
@@ -7857,7 +7857,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.ComponentConverter::GetProperties(System.ComponentModel.ITypeDescriptorContext,System.Object,System.Attribute[]):System.ComponentModel.PropertyDescriptorCollection",
           "clrName": "GetProperties",
-          "tsEmitName": "getProperties",
+          "tsEmitName": "getProperties3",
           "normalizedSignature": "GetProperties|(System.ComponentModel.ITypeDescriptorContext,System.Object,System.Attribute[]):System.ComponentModel.PropertyDescriptorCollection|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7873,7 +7873,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.ComponentConverter::GetPropertiesSupported(System.ComponentModel.ITypeDescriptorContext):System.Boolean",
           "clrName": "GetPropertiesSupported",
-          "tsEmitName": "getPropertiesSupported",
+          "tsEmitName": "getPropertiesSupported2",
           "normalizedSignature": "GetPropertiesSupported|(System.ComponentModel.ITypeDescriptorContext):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7889,7 +7889,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.ComponentConverter::GetProperties(System.Object):System.ComponentModel.PropertyDescriptorCollection",
           "clrName": "GetProperties",
-          "tsEmitName": "GetProperties",
+          "tsEmitName": "getProperties",
           "normalizedSignature": "GetProperties|(System.Object):System.ComponentModel.PropertyDescriptorCollection|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -7905,7 +7905,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.ComponentConverter::GetProperties(System.ComponentModel.ITypeDescriptorContext,System.Object):System.ComponentModel.PropertyDescriptorCollection",
           "clrName": "GetProperties",
-          "tsEmitName": "GetProperties2",
+          "tsEmitName": "getProperties2",
           "normalizedSignature": "GetProperties|(System.ComponentModel.ITypeDescriptorContext,System.Object):System.ComponentModel.PropertyDescriptorCollection|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -7921,7 +7921,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.ComponentConverter::GetPropertiesSupported():System.Boolean",
           "clrName": "GetPropertiesSupported",
-          "tsEmitName": "GetPropertiesSupported",
+          "tsEmitName": "getPropertiesSupported",
           "normalizedSignature": "GetPropertiesSupported|():System.Boolean|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -8288,7 +8288,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.CultureInfoConverter::CanConvertFrom(System.ComponentModel.ITypeDescriptorContext,System.Type):System.Boolean",
           "clrName": "CanConvertFrom",
-          "tsEmitName": "canConvertFrom",
+          "tsEmitName": "canConvertFrom2",
           "normalizedSignature": "CanConvertFrom|(System.ComponentModel.ITypeDescriptorContext,System.Type):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8304,7 +8304,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.CultureInfoConverter::CanConvertTo(System.ComponentModel.ITypeDescriptorContext,System.Type):System.Boolean",
           "clrName": "CanConvertTo",
-          "tsEmitName": "canConvertTo",
+          "tsEmitName": "canConvertTo2",
           "normalizedSignature": "CanConvertTo|(System.ComponentModel.ITypeDescriptorContext,System.Type):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8320,7 +8320,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.CultureInfoConverter::ConvertFrom(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object):System.Object",
           "clrName": "ConvertFrom",
-          "tsEmitName": "convertFrom",
+          "tsEmitName": "convertFrom2",
           "normalizedSignature": "ConvertFrom|(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object):System.Object|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8336,7 +8336,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.CultureInfoConverter::ConvertTo(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object,System.Type):System.Object",
           "clrName": "ConvertTo",
-          "tsEmitName": "convertTo",
+          "tsEmitName": "convertTo2",
           "normalizedSignature": "ConvertTo|(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object,System.Type):System.Object|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8352,7 +8352,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.CultureInfoConverter::GetStandardValues(System.ComponentModel.ITypeDescriptorContext):System.ComponentModel.TypeConverter\u002BStandardValuesCollection",
           "clrName": "GetStandardValues",
-          "tsEmitName": "getStandardValues",
+          "tsEmitName": "getStandardValues2",
           "normalizedSignature": "GetStandardValues|(System.ComponentModel.ITypeDescriptorContext):System.ComponentModel.TypeConverter\u002BStandardValuesCollection|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8368,7 +8368,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.CultureInfoConverter::GetStandardValuesExclusive(System.ComponentModel.ITypeDescriptorContext):System.Boolean",
           "clrName": "GetStandardValuesExclusive",
-          "tsEmitName": "getStandardValuesExclusive",
+          "tsEmitName": "getStandardValuesExclusive2",
           "normalizedSignature": "GetStandardValuesExclusive|(System.ComponentModel.ITypeDescriptorContext):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8384,7 +8384,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.CultureInfoConverter::GetStandardValuesSupported(System.ComponentModel.ITypeDescriptorContext):System.Boolean",
           "clrName": "GetStandardValuesSupported",
-          "tsEmitName": "getStandardValuesSupported",
+          "tsEmitName": "getStandardValuesSupported2",
           "normalizedSignature": "GetStandardValuesSupported|(System.ComponentModel.ITypeDescriptorContext):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8400,7 +8400,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.CultureInfoConverter::CanConvertFrom(System.Type):System.Boolean",
           "clrName": "CanConvertFrom",
-          "tsEmitName": "CanConvertFrom",
+          "tsEmitName": "canConvertFrom",
           "normalizedSignature": "CanConvertFrom|(System.Type):System.Boolean|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -8416,7 +8416,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.CultureInfoConverter::CanConvertTo(System.Type):System.Boolean",
           "clrName": "CanConvertTo",
-          "tsEmitName": "CanConvertTo",
+          "tsEmitName": "canConvertTo",
           "normalizedSignature": "CanConvertTo|(System.Type):System.Boolean|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -8432,7 +8432,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.CultureInfoConverter::ConvertFrom(System.Object):System.Object",
           "clrName": "ConvertFrom",
-          "tsEmitName": "ConvertFrom",
+          "tsEmitName": "convertFrom",
           "normalizedSignature": "ConvertFrom|(System.Object):System.Object|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -8448,7 +8448,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.CultureInfoConverter::ConvertTo(System.Object,System.Type):System.Object",
           "clrName": "ConvertTo",
-          "tsEmitName": "ConvertTo",
+          "tsEmitName": "convertTo",
           "normalizedSignature": "ConvertTo|(System.Object,System.Type):System.Object|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -8464,7 +8464,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.CultureInfoConverter::GetStandardValues():System.Collections.ICollection",
           "clrName": "GetStandardValues",
-          "tsEmitName": "GetStandardValues",
+          "tsEmitName": "getStandardValues",
           "normalizedSignature": "GetStandardValues|():System.Collections.ICollection|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -8480,7 +8480,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.CultureInfoConverter::GetStandardValuesExclusive():System.Boolean",
           "clrName": "GetStandardValuesExclusive",
-          "tsEmitName": "GetStandardValuesExclusive",
+          "tsEmitName": "getStandardValuesExclusive",
           "normalizedSignature": "GetStandardValuesExclusive|():System.Boolean|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -8496,7 +8496,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.CultureInfoConverter::GetStandardValuesSupported():System.Boolean",
           "clrName": "GetStandardValuesSupported",
-          "tsEmitName": "GetStandardValuesSupported",
+          "tsEmitName": "getStandardValuesSupported",
           "normalizedSignature": "GetStandardValuesSupported|():System.Boolean|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -9407,7 +9407,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.DateOnlyConverter::CanConvertFrom(System.ComponentModel.ITypeDescriptorContext,System.Type):System.Boolean",
           "clrName": "CanConvertFrom",
-          "tsEmitName": "canConvertFrom",
+          "tsEmitName": "canConvertFrom2",
           "normalizedSignature": "CanConvertFrom|(System.ComponentModel.ITypeDescriptorContext,System.Type):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9423,7 +9423,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.DateOnlyConverter::CanConvertTo(System.ComponentModel.ITypeDescriptorContext,System.Type):System.Boolean",
           "clrName": "CanConvertTo",
-          "tsEmitName": "canConvertTo",
+          "tsEmitName": "canConvertTo2",
           "normalizedSignature": "CanConvertTo|(System.ComponentModel.ITypeDescriptorContext,System.Type):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9439,7 +9439,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.DateOnlyConverter::ConvertFrom(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object):System.Object",
           "clrName": "ConvertFrom",
-          "tsEmitName": "convertFrom",
+          "tsEmitName": "convertFrom2",
           "normalizedSignature": "ConvertFrom|(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object):System.Object|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9455,7 +9455,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.DateOnlyConverter::ConvertTo(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object,System.Type):System.Object",
           "clrName": "ConvertTo",
-          "tsEmitName": "convertTo",
+          "tsEmitName": "convertTo2",
           "normalizedSignature": "ConvertTo|(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object,System.Type):System.Object|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9471,7 +9471,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.DateOnlyConverter::CanConvertFrom(System.Type):System.Boolean",
           "clrName": "CanConvertFrom",
-          "tsEmitName": "CanConvertFrom",
+          "tsEmitName": "canConvertFrom",
           "normalizedSignature": "CanConvertFrom|(System.Type):System.Boolean|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -9487,7 +9487,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.DateOnlyConverter::CanConvertTo(System.Type):System.Boolean",
           "clrName": "CanConvertTo",
-          "tsEmitName": "CanConvertTo",
+          "tsEmitName": "canConvertTo",
           "normalizedSignature": "CanConvertTo|(System.Type):System.Boolean|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -9503,7 +9503,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.DateOnlyConverter::ConvertFrom(System.Object):System.Object",
           "clrName": "ConvertFrom",
-          "tsEmitName": "ConvertFrom",
+          "tsEmitName": "convertFrom",
           "normalizedSignature": "ConvertFrom|(System.Object):System.Object|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -9519,7 +9519,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.DateOnlyConverter::ConvertTo(System.Object,System.Type):System.Object",
           "clrName": "ConvertTo",
-          "tsEmitName": "ConvertTo",
+          "tsEmitName": "convertTo",
           "normalizedSignature": "ConvertTo|(System.Object,System.Type):System.Object|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -9558,7 +9558,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.DateTimeConverter::CanConvertFrom(System.ComponentModel.ITypeDescriptorContext,System.Type):System.Boolean",
           "clrName": "CanConvertFrom",
-          "tsEmitName": "canConvertFrom",
+          "tsEmitName": "canConvertFrom2",
           "normalizedSignature": "CanConvertFrom|(System.ComponentModel.ITypeDescriptorContext,System.Type):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9574,7 +9574,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.DateTimeConverter::CanConvertTo(System.ComponentModel.ITypeDescriptorContext,System.Type):System.Boolean",
           "clrName": "CanConvertTo",
-          "tsEmitName": "canConvertTo",
+          "tsEmitName": "canConvertTo2",
           "normalizedSignature": "CanConvertTo|(System.ComponentModel.ITypeDescriptorContext,System.Type):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9590,7 +9590,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.DateTimeConverter::ConvertFrom(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object):System.Object",
           "clrName": "ConvertFrom",
-          "tsEmitName": "convertFrom",
+          "tsEmitName": "convertFrom2",
           "normalizedSignature": "ConvertFrom|(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object):System.Object|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9606,7 +9606,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.DateTimeConverter::ConvertTo(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object,System.Type):System.Object",
           "clrName": "ConvertTo",
-          "tsEmitName": "convertTo",
+          "tsEmitName": "convertTo2",
           "normalizedSignature": "ConvertTo|(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object,System.Type):System.Object|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9622,7 +9622,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.DateTimeConverter::CanConvertFrom(System.Type):System.Boolean",
           "clrName": "CanConvertFrom",
-          "tsEmitName": "CanConvertFrom",
+          "tsEmitName": "canConvertFrom",
           "normalizedSignature": "CanConvertFrom|(System.Type):System.Boolean|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -9638,7 +9638,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.DateTimeConverter::CanConvertTo(System.Type):System.Boolean",
           "clrName": "CanConvertTo",
-          "tsEmitName": "CanConvertTo",
+          "tsEmitName": "canConvertTo",
           "normalizedSignature": "CanConvertTo|(System.Type):System.Boolean|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -9654,7 +9654,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.DateTimeConverter::ConvertFrom(System.Object):System.Object",
           "clrName": "ConvertFrom",
-          "tsEmitName": "ConvertFrom",
+          "tsEmitName": "convertFrom",
           "normalizedSignature": "ConvertFrom|(System.Object):System.Object|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -9670,7 +9670,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.DateTimeConverter::ConvertTo(System.Object,System.Type):System.Object",
           "clrName": "ConvertTo",
-          "tsEmitName": "ConvertTo",
+          "tsEmitName": "convertTo",
           "normalizedSignature": "ConvertTo|(System.Object,System.Type):System.Object|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -9709,7 +9709,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.DateTimeOffsetConverter::CanConvertFrom(System.ComponentModel.ITypeDescriptorContext,System.Type):System.Boolean",
           "clrName": "CanConvertFrom",
-          "tsEmitName": "canConvertFrom",
+          "tsEmitName": "canConvertFrom2",
           "normalizedSignature": "CanConvertFrom|(System.ComponentModel.ITypeDescriptorContext,System.Type):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9725,7 +9725,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.DateTimeOffsetConverter::CanConvertTo(System.ComponentModel.ITypeDescriptorContext,System.Type):System.Boolean",
           "clrName": "CanConvertTo",
-          "tsEmitName": "canConvertTo",
+          "tsEmitName": "canConvertTo2",
           "normalizedSignature": "CanConvertTo|(System.ComponentModel.ITypeDescriptorContext,System.Type):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9741,7 +9741,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.DateTimeOffsetConverter::ConvertFrom(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object):System.Object",
           "clrName": "ConvertFrom",
-          "tsEmitName": "convertFrom",
+          "tsEmitName": "convertFrom2",
           "normalizedSignature": "ConvertFrom|(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object):System.Object|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9757,7 +9757,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.DateTimeOffsetConverter::ConvertTo(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object,System.Type):System.Object",
           "clrName": "ConvertTo",
-          "tsEmitName": "convertTo",
+          "tsEmitName": "convertTo2",
           "normalizedSignature": "ConvertTo|(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object,System.Type):System.Object|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9773,7 +9773,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.DateTimeOffsetConverter::CanConvertFrom(System.Type):System.Boolean",
           "clrName": "CanConvertFrom",
-          "tsEmitName": "CanConvertFrom",
+          "tsEmitName": "canConvertFrom",
           "normalizedSignature": "CanConvertFrom|(System.Type):System.Boolean|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -9789,7 +9789,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.DateTimeOffsetConverter::CanConvertTo(System.Type):System.Boolean",
           "clrName": "CanConvertTo",
-          "tsEmitName": "CanConvertTo",
+          "tsEmitName": "canConvertTo",
           "normalizedSignature": "CanConvertTo|(System.Type):System.Boolean|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -9805,7 +9805,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.DateTimeOffsetConverter::ConvertFrom(System.Object):System.Object",
           "clrName": "ConvertFrom",
-          "tsEmitName": "ConvertFrom",
+          "tsEmitName": "convertFrom",
           "normalizedSignature": "ConvertFrom|(System.Object):System.Object|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -9821,7 +9821,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.DateTimeOffsetConverter::ConvertTo(System.Object,System.Type):System.Object",
           "clrName": "ConvertTo",
-          "tsEmitName": "ConvertTo",
+          "tsEmitName": "convertTo",
           "normalizedSignature": "ConvertTo|(System.Object,System.Type):System.Object|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -9860,7 +9860,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.DecimalConverter::CanConvertTo(System.ComponentModel.ITypeDescriptorContext,System.Type):System.Boolean",
           "clrName": "CanConvertTo",
-          "tsEmitName": "canConvertTo",
+          "tsEmitName": "canConvertTo2",
           "normalizedSignature": "CanConvertTo|(System.ComponentModel.ITypeDescriptorContext,System.Type):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9876,7 +9876,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.DecimalConverter::ConvertTo(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object,System.Type):System.Object",
           "clrName": "ConvertTo",
-          "tsEmitName": "convertTo",
+          "tsEmitName": "convertTo2",
           "normalizedSignature": "ConvertTo|(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object,System.Type):System.Object|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9892,7 +9892,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.DecimalConverter::CanConvertTo(System.Type):System.Boolean",
           "clrName": "CanConvertTo",
-          "tsEmitName": "CanConvertTo",
+          "tsEmitName": "canConvertTo",
           "normalizedSignature": "CanConvertTo|(System.Type):System.Boolean|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -9908,7 +9908,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.DecimalConverter::ConvertTo(System.Object,System.Type):System.Object",
           "clrName": "ConvertTo",
-          "tsEmitName": "ConvertTo",
+          "tsEmitName": "convertTo",
           "normalizedSignature": "ConvertTo|(System.Object,System.Type):System.Object|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -11287,7 +11287,7 @@
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "clone",
+          "tsEmitName": "clone$view",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -11304,7 +11304,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "getObjectData",
+          "tsEmitName": "getObjectData$view",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -11321,7 +11321,7 @@
         {
           "stableId": "System.ComponentModel.EventBasedAsync:System.ComponentModel.DoWorkEventHandler::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "Clone",
+          "tsEmitName": "clone",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -11337,7 +11337,7 @@
         {
           "stableId": "System.ComponentModel.EventBasedAsync:System.ComponentModel.DoWorkEventHandler::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData",
+          "tsEmitName": "getObjectData",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -11568,7 +11568,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.EnumConverter::CanConvertFrom(System.ComponentModel.ITypeDescriptorContext,System.Type):System.Boolean",
           "clrName": "CanConvertFrom",
-          "tsEmitName": "canConvertFrom",
+          "tsEmitName": "canConvertFrom2",
           "normalizedSignature": "CanConvertFrom|(System.ComponentModel.ITypeDescriptorContext,System.Type):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -11584,7 +11584,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.EnumConverter::CanConvertTo(System.ComponentModel.ITypeDescriptorContext,System.Type):System.Boolean",
           "clrName": "CanConvertTo",
-          "tsEmitName": "canConvertTo",
+          "tsEmitName": "canConvertTo2",
           "normalizedSignature": "CanConvertTo|(System.ComponentModel.ITypeDescriptorContext,System.Type):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -11600,7 +11600,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.EnumConverter::ConvertFrom(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object):System.Object",
           "clrName": "ConvertFrom",
-          "tsEmitName": "convertFrom",
+          "tsEmitName": "convertFrom2",
           "normalizedSignature": "ConvertFrom|(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object):System.Object|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -11616,7 +11616,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.EnumConverter::ConvertTo(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object,System.Type):System.Object",
           "clrName": "ConvertTo",
-          "tsEmitName": "convertTo",
+          "tsEmitName": "convertTo2",
           "normalizedSignature": "ConvertTo|(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object,System.Type):System.Object|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -11632,7 +11632,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.EnumConverter::GetStandardValues(System.ComponentModel.ITypeDescriptorContext):System.ComponentModel.TypeConverter\u002BStandardValuesCollection",
           "clrName": "GetStandardValues",
-          "tsEmitName": "getStandardValues",
+          "tsEmitName": "getStandardValues2",
           "normalizedSignature": "GetStandardValues|(System.ComponentModel.ITypeDescriptorContext):System.ComponentModel.TypeConverter\u002BStandardValuesCollection|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -11648,7 +11648,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.EnumConverter::GetStandardValuesExclusive(System.ComponentModel.ITypeDescriptorContext):System.Boolean",
           "clrName": "GetStandardValuesExclusive",
-          "tsEmitName": "getStandardValuesExclusive",
+          "tsEmitName": "getStandardValuesExclusive2",
           "normalizedSignature": "GetStandardValuesExclusive|(System.ComponentModel.ITypeDescriptorContext):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -11664,7 +11664,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.EnumConverter::GetStandardValuesSupported(System.ComponentModel.ITypeDescriptorContext):System.Boolean",
           "clrName": "GetStandardValuesSupported",
-          "tsEmitName": "getStandardValuesSupported",
+          "tsEmitName": "getStandardValuesSupported2",
           "normalizedSignature": "GetStandardValuesSupported|(System.ComponentModel.ITypeDescriptorContext):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -11680,7 +11680,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.EnumConverter::IsValid(System.ComponentModel.ITypeDescriptorContext,System.Object):System.Boolean",
           "clrName": "IsValid",
-          "tsEmitName": "isValid",
+          "tsEmitName": "isValid2",
           "normalizedSignature": "IsValid|(System.ComponentModel.ITypeDescriptorContext,System.Object):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -11696,7 +11696,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.EnumConverter::CanConvertFrom(System.Type):System.Boolean",
           "clrName": "CanConvertFrom",
-          "tsEmitName": "CanConvertFrom",
+          "tsEmitName": "canConvertFrom",
           "normalizedSignature": "CanConvertFrom|(System.Type):System.Boolean|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -11712,7 +11712,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.EnumConverter::CanConvertTo(System.Type):System.Boolean",
           "clrName": "CanConvertTo",
-          "tsEmitName": "CanConvertTo",
+          "tsEmitName": "canConvertTo",
           "normalizedSignature": "CanConvertTo|(System.Type):System.Boolean|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -11728,7 +11728,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.EnumConverter::ConvertFrom(System.Object):System.Object",
           "clrName": "ConvertFrom",
-          "tsEmitName": "ConvertFrom",
+          "tsEmitName": "convertFrom",
           "normalizedSignature": "ConvertFrom|(System.Object):System.Object|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -11744,7 +11744,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.EnumConverter::ConvertTo(System.Object,System.Type):System.Object",
           "clrName": "ConvertTo",
-          "tsEmitName": "ConvertTo",
+          "tsEmitName": "convertTo",
           "normalizedSignature": "ConvertTo|(System.Object,System.Type):System.Object|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -11760,7 +11760,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.EnumConverter::GetStandardValues():System.Collections.ICollection",
           "clrName": "GetStandardValues",
-          "tsEmitName": "GetStandardValues",
+          "tsEmitName": "getStandardValues",
           "normalizedSignature": "GetStandardValues|():System.Collections.ICollection|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -11776,7 +11776,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.EnumConverter::GetStandardValuesExclusive():System.Boolean",
           "clrName": "GetStandardValuesExclusive",
-          "tsEmitName": "GetStandardValuesExclusive",
+          "tsEmitName": "getStandardValuesExclusive",
           "normalizedSignature": "GetStandardValuesExclusive|():System.Boolean|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -11792,7 +11792,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.EnumConverter::GetStandardValuesSupported():System.Boolean",
           "clrName": "GetStandardValuesSupported",
-          "tsEmitName": "GetStandardValuesSupported",
+          "tsEmitName": "getStandardValuesSupported",
           "normalizedSignature": "GetStandardValuesSupported|():System.Boolean|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -11808,7 +11808,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.EnumConverter::IsValid(System.Object):System.Boolean",
           "clrName": "IsValid",
-          "tsEmitName": "IsValid",
+          "tsEmitName": "isValid",
           "normalizedSignature": "IsValid|(System.Object):System.Boolean|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -12286,7 +12286,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.EventDescriptorCollection::get_Item(System.Int32):System.ComponentModel.EventDescriptor",
           "clrName": "get_Item",
-          "tsEmitName": "get_Item",
+          "tsEmitName": "getItem",
           "normalizedSignature": "get_Item|(System.Int32):System.ComponentModel.EventDescriptor|static=false",
           "provenance": "IndexerNormalized",
           "emitScope": "ClassSurface",
@@ -12302,7 +12302,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.EventDescriptorCollection::get_Item(System.String):System.ComponentModel.EventDescriptor",
           "clrName": "get_Item",
-          "tsEmitName": "get_Item2",
+          "tsEmitName": "getItem2",
           "normalizedSignature": "get_Item|(System.String):System.ComponentModel.EventDescriptor|static=false",
           "provenance": "IndexerNormalized",
           "emitScope": "ClassSurface",
@@ -12572,7 +12572,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.ExpandableObjectConverter::GetProperties(System.ComponentModel.ITypeDescriptorContext,System.Object,System.Attribute[]):System.ComponentModel.PropertyDescriptorCollection",
           "clrName": "GetProperties",
-          "tsEmitName": "getProperties",
+          "tsEmitName": "getProperties3",
           "normalizedSignature": "GetProperties|(System.ComponentModel.ITypeDescriptorContext,System.Object,System.Attribute[]):System.ComponentModel.PropertyDescriptorCollection|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -12588,7 +12588,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.ExpandableObjectConverter::GetPropertiesSupported(System.ComponentModel.ITypeDescriptorContext):System.Boolean",
           "clrName": "GetPropertiesSupported",
-          "tsEmitName": "getPropertiesSupported",
+          "tsEmitName": "getPropertiesSupported2",
           "normalizedSignature": "GetPropertiesSupported|(System.ComponentModel.ITypeDescriptorContext):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -12604,7 +12604,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.ExpandableObjectConverter::GetProperties(System.Object):System.ComponentModel.PropertyDescriptorCollection",
           "clrName": "GetProperties",
-          "tsEmitName": "GetProperties",
+          "tsEmitName": "getProperties",
           "normalizedSignature": "GetProperties|(System.Object):System.ComponentModel.PropertyDescriptorCollection|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -12620,7 +12620,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.ExpandableObjectConverter::GetProperties(System.ComponentModel.ITypeDescriptorContext,System.Object):System.ComponentModel.PropertyDescriptorCollection",
           "clrName": "GetProperties",
-          "tsEmitName": "GetProperties2",
+          "tsEmitName": "getProperties2",
           "normalizedSignature": "GetProperties|(System.ComponentModel.ITypeDescriptorContext,System.Object):System.ComponentModel.PropertyDescriptorCollection|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -12636,7 +12636,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.ExpandableObjectConverter::GetPropertiesSupported():System.Boolean",
           "clrName": "GetPropertiesSupported",
-          "tsEmitName": "GetPropertiesSupported",
+          "tsEmitName": "getPropertiesSupported",
           "normalizedSignature": "GetPropertiesSupported|():System.Boolean|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -12792,7 +12792,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.GuidConverter::CanConvertFrom(System.ComponentModel.ITypeDescriptorContext,System.Type):System.Boolean",
           "clrName": "CanConvertFrom",
-          "tsEmitName": "canConvertFrom",
+          "tsEmitName": "canConvertFrom2",
           "normalizedSignature": "CanConvertFrom|(System.ComponentModel.ITypeDescriptorContext,System.Type):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -12808,7 +12808,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.GuidConverter::CanConvertTo(System.ComponentModel.ITypeDescriptorContext,System.Type):System.Boolean",
           "clrName": "CanConvertTo",
-          "tsEmitName": "canConvertTo",
+          "tsEmitName": "canConvertTo2",
           "normalizedSignature": "CanConvertTo|(System.ComponentModel.ITypeDescriptorContext,System.Type):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -12824,7 +12824,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.GuidConverter::ConvertFrom(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object):System.Object",
           "clrName": "ConvertFrom",
-          "tsEmitName": "convertFrom",
+          "tsEmitName": "convertFrom2",
           "normalizedSignature": "ConvertFrom|(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object):System.Object|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -12840,7 +12840,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.GuidConverter::ConvertTo(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object,System.Type):System.Object",
           "clrName": "ConvertTo",
-          "tsEmitName": "convertTo",
+          "tsEmitName": "convertTo2",
           "normalizedSignature": "ConvertTo|(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object,System.Type):System.Object|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -12856,7 +12856,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.GuidConverter::CanConvertFrom(System.Type):System.Boolean",
           "clrName": "CanConvertFrom",
-          "tsEmitName": "CanConvertFrom",
+          "tsEmitName": "canConvertFrom",
           "normalizedSignature": "CanConvertFrom|(System.Type):System.Boolean|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -12872,7 +12872,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.GuidConverter::CanConvertTo(System.Type):System.Boolean",
           "clrName": "CanConvertTo",
-          "tsEmitName": "CanConvertTo",
+          "tsEmitName": "canConvertTo",
           "normalizedSignature": "CanConvertTo|(System.Type):System.Boolean|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -12888,7 +12888,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.GuidConverter::ConvertFrom(System.Object):System.Object",
           "clrName": "ConvertFrom",
-          "tsEmitName": "ConvertFrom",
+          "tsEmitName": "convertFrom",
           "normalizedSignature": "ConvertFrom|(System.Object):System.Object|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -12904,7 +12904,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.GuidConverter::ConvertTo(System.Object,System.Type):System.Object",
           "clrName": "ConvertTo",
-          "tsEmitName": "ConvertTo",
+          "tsEmitName": "convertTo",
           "normalizedSignature": "ConvertTo|(System.Object,System.Type):System.Object|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -13056,7 +13056,7 @@
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "clone",
+          "tsEmitName": "clone$view",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -13073,7 +13073,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "getObjectData",
+          "tsEmitName": "getObjectData$view",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -13090,7 +13090,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.HandledEventHandler::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "Clone",
+          "tsEmitName": "clone",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -13106,7 +13106,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.HandledEventHandler::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData",
+          "tsEmitName": "getObjectData",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -13656,7 +13656,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "getObjectData",
+          "tsEmitName": "getObjectData$view",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -13673,7 +13673,7 @@
         {
           "stableId": "System.ComponentModel.Primitives:System.ComponentModel.InvalidAsynchronousStateException::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData",
+          "tsEmitName": "getObjectData",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -13722,7 +13722,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "getObjectData",
+          "tsEmitName": "getObjectData$view",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -13739,7 +13739,7 @@
         {
           "stableId": "System.ComponentModel.Primitives:System.ComponentModel.InvalidEnumArgumentException::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData",
+          "tsEmitName": "getObjectData",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -14686,7 +14686,7 @@
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "clone",
+          "tsEmitName": "clone$view",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -14703,7 +14703,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "getObjectData",
+          "tsEmitName": "getObjectData$view",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -14720,7 +14720,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.ListChangedEventHandler::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "Clone",
+          "tsEmitName": "clone",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -14736,7 +14736,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.ListChangedEventHandler::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData",
+          "tsEmitName": "getObjectData",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -17058,7 +17058,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.MultilineStringConverter::ConvertTo(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object,System.Type):System.Object",
           "clrName": "ConvertTo",
-          "tsEmitName": "convertTo",
+          "tsEmitName": "convertTo2",
           "normalizedSignature": "ConvertTo|(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object,System.Type):System.Object|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -17074,7 +17074,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.MultilineStringConverter::GetProperties(System.ComponentModel.ITypeDescriptorContext,System.Object,System.Attribute[]):System.ComponentModel.PropertyDescriptorCollection",
           "clrName": "GetProperties",
-          "tsEmitName": "getProperties",
+          "tsEmitName": "getProperties3",
           "normalizedSignature": "GetProperties|(System.ComponentModel.ITypeDescriptorContext,System.Object,System.Attribute[]):System.ComponentModel.PropertyDescriptorCollection|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -17090,7 +17090,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.MultilineStringConverter::GetPropertiesSupported(System.ComponentModel.ITypeDescriptorContext):System.Boolean",
           "clrName": "GetPropertiesSupported",
-          "tsEmitName": "getPropertiesSupported",
+          "tsEmitName": "getPropertiesSupported2",
           "normalizedSignature": "GetPropertiesSupported|(System.ComponentModel.ITypeDescriptorContext):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -17106,7 +17106,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.MultilineStringConverter::ConvertTo(System.Object,System.Type):System.Object",
           "clrName": "ConvertTo",
-          "tsEmitName": "ConvertTo",
+          "tsEmitName": "convertTo",
           "normalizedSignature": "ConvertTo|(System.Object,System.Type):System.Object|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -17122,7 +17122,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.MultilineStringConverter::GetProperties(System.Object):System.ComponentModel.PropertyDescriptorCollection",
           "clrName": "GetProperties",
-          "tsEmitName": "GetProperties",
+          "tsEmitName": "getProperties",
           "normalizedSignature": "GetProperties|(System.Object):System.ComponentModel.PropertyDescriptorCollection|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -17138,7 +17138,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.MultilineStringConverter::GetProperties(System.ComponentModel.ITypeDescriptorContext,System.Object):System.ComponentModel.PropertyDescriptorCollection",
           "clrName": "GetProperties",
-          "tsEmitName": "GetProperties2",
+          "tsEmitName": "getProperties2",
           "normalizedSignature": "GetProperties|(System.ComponentModel.ITypeDescriptorContext,System.Object):System.ComponentModel.PropertyDescriptorCollection|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -17154,7 +17154,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.MultilineStringConverter::GetPropertiesSupported():System.Boolean",
           "clrName": "GetPropertiesSupported",
-          "tsEmitName": "GetPropertiesSupported",
+          "tsEmitName": "getPropertiesSupported",
           "normalizedSignature": "GetPropertiesSupported|():System.Boolean|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -17193,7 +17193,7 @@
         {
           "stableId": "System.ComponentModel.Primitives:System.ComponentModel.IContainer::Add(System.ComponentModel.IComponent):System.Void",
           "clrName": "Add",
-          "tsEmitName": "add2",
+          "tsEmitName": "add$view2",
           "normalizedSignature": "Add|(System.ComponentModel.IComponent):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -17210,7 +17210,7 @@
         {
           "stableId": "System.ComponentModel.Primitives:System.ComponentModel.IContainer::Add(System.ComponentModel.IComponent,System.String):System.Void",
           "clrName": "Add",
-          "tsEmitName": "add",
+          "tsEmitName": "add$view",
           "normalizedSignature": "Add|(System.ComponentModel.IComponent,System.String):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -17227,7 +17227,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "dispose",
+          "tsEmitName": "dispose$view",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -17244,7 +17244,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.NestedContainer::Add(System.ComponentModel.IComponent):System.Void",
           "clrName": "Add",
-          "tsEmitName": "Add",
+          "tsEmitName": "add",
           "normalizedSignature": "Add|(System.ComponentModel.IComponent):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -17260,7 +17260,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.NestedContainer::Add(System.ComponentModel.IComponent,System.String):System.Void",
           "clrName": "Add",
-          "tsEmitName": "Add3",
+          "tsEmitName": "add3",
           "normalizedSignature": "Add|(System.ComponentModel.IComponent,System.String):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -17276,7 +17276,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.NestedContainer::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "Dispose",
+          "tsEmitName": "dispose",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -17478,7 +17478,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.NullableConverter::CanConvertFrom(System.ComponentModel.ITypeDescriptorContext,System.Type):System.Boolean",
           "clrName": "CanConvertFrom",
-          "tsEmitName": "canConvertFrom",
+          "tsEmitName": "canConvertFrom2",
           "normalizedSignature": "CanConvertFrom|(System.ComponentModel.ITypeDescriptorContext,System.Type):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -17494,7 +17494,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.NullableConverter::ConvertFrom(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object):System.Object",
           "clrName": "ConvertFrom",
-          "tsEmitName": "convertFrom",
+          "tsEmitName": "convertFrom2",
           "normalizedSignature": "ConvertFrom|(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object):System.Object|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -17510,7 +17510,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.NullableConverter::CanConvertTo(System.ComponentModel.ITypeDescriptorContext,System.Type):System.Boolean",
           "clrName": "CanConvertTo",
-          "tsEmitName": "canConvertTo",
+          "tsEmitName": "canConvertTo2",
           "normalizedSignature": "CanConvertTo|(System.ComponentModel.ITypeDescriptorContext,System.Type):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -17526,7 +17526,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.NullableConverter::ConvertTo(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object,System.Type):System.Object",
           "clrName": "ConvertTo",
-          "tsEmitName": "convertTo",
+          "tsEmitName": "convertTo2",
           "normalizedSignature": "ConvertTo|(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object,System.Type):System.Object|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -17542,7 +17542,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.NullableConverter::CreateInstance(System.ComponentModel.ITypeDescriptorContext,System.Collections.IDictionary):System.Object",
           "clrName": "CreateInstance",
-          "tsEmitName": "createInstance",
+          "tsEmitName": "createInstance2",
           "normalizedSignature": "CreateInstance|(System.ComponentModel.ITypeDescriptorContext,System.Collections.IDictionary):System.Object|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -17558,7 +17558,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.NullableConverter::GetCreateInstanceSupported(System.ComponentModel.ITypeDescriptorContext):System.Boolean",
           "clrName": "GetCreateInstanceSupported",
-          "tsEmitName": "getCreateInstanceSupported",
+          "tsEmitName": "getCreateInstanceSupported2",
           "normalizedSignature": "GetCreateInstanceSupported|(System.ComponentModel.ITypeDescriptorContext):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -17574,7 +17574,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.NullableConverter::GetProperties(System.ComponentModel.ITypeDescriptorContext,System.Object,System.Attribute[]):System.ComponentModel.PropertyDescriptorCollection",
           "clrName": "GetProperties",
-          "tsEmitName": "getProperties",
+          "tsEmitName": "getProperties3",
           "normalizedSignature": "GetProperties|(System.ComponentModel.ITypeDescriptorContext,System.Object,System.Attribute[]):System.ComponentModel.PropertyDescriptorCollection|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -17590,7 +17590,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.NullableConverter::GetPropertiesSupported(System.ComponentModel.ITypeDescriptorContext):System.Boolean",
           "clrName": "GetPropertiesSupported",
-          "tsEmitName": "getPropertiesSupported",
+          "tsEmitName": "getPropertiesSupported2",
           "normalizedSignature": "GetPropertiesSupported|(System.ComponentModel.ITypeDescriptorContext):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -17606,7 +17606,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.NullableConverter::GetStandardValues(System.ComponentModel.ITypeDescriptorContext):System.ComponentModel.TypeConverter\u002BStandardValuesCollection",
           "clrName": "GetStandardValues",
-          "tsEmitName": "getStandardValues",
+          "tsEmitName": "getStandardValues2",
           "normalizedSignature": "GetStandardValues|(System.ComponentModel.ITypeDescriptorContext):System.ComponentModel.TypeConverter\u002BStandardValuesCollection|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -17622,7 +17622,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.NullableConverter::GetStandardValuesExclusive(System.ComponentModel.ITypeDescriptorContext):System.Boolean",
           "clrName": "GetStandardValuesExclusive",
-          "tsEmitName": "getStandardValuesExclusive",
+          "tsEmitName": "getStandardValuesExclusive2",
           "normalizedSignature": "GetStandardValuesExclusive|(System.ComponentModel.ITypeDescriptorContext):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -17638,7 +17638,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.NullableConverter::GetStandardValuesSupported(System.ComponentModel.ITypeDescriptorContext):System.Boolean",
           "clrName": "GetStandardValuesSupported",
-          "tsEmitName": "getStandardValuesSupported",
+          "tsEmitName": "getStandardValuesSupported2",
           "normalizedSignature": "GetStandardValuesSupported|(System.ComponentModel.ITypeDescriptorContext):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -17654,7 +17654,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.NullableConverter::IsValid(System.ComponentModel.ITypeDescriptorContext,System.Object):System.Boolean",
           "clrName": "IsValid",
-          "tsEmitName": "isValid",
+          "tsEmitName": "isValid2",
           "normalizedSignature": "IsValid|(System.ComponentModel.ITypeDescriptorContext,System.Object):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -17670,7 +17670,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.NullableConverter::CanConvertFrom(System.Type):System.Boolean",
           "clrName": "CanConvertFrom",
-          "tsEmitName": "CanConvertFrom",
+          "tsEmitName": "canConvertFrom",
           "normalizedSignature": "CanConvertFrom|(System.Type):System.Boolean|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -17686,7 +17686,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.NullableConverter::CanConvertTo(System.Type):System.Boolean",
           "clrName": "CanConvertTo",
-          "tsEmitName": "CanConvertTo",
+          "tsEmitName": "canConvertTo",
           "normalizedSignature": "CanConvertTo|(System.Type):System.Boolean|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -17702,7 +17702,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.NullableConverter::ConvertFrom(System.Object):System.Object",
           "clrName": "ConvertFrom",
-          "tsEmitName": "ConvertFrom",
+          "tsEmitName": "convertFrom",
           "normalizedSignature": "ConvertFrom|(System.Object):System.Object|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -17718,7 +17718,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.NullableConverter::ConvertTo(System.Object,System.Type):System.Object",
           "clrName": "ConvertTo",
-          "tsEmitName": "ConvertTo",
+          "tsEmitName": "convertTo",
           "normalizedSignature": "ConvertTo|(System.Object,System.Type):System.Object|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -17734,7 +17734,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.NullableConverter::CreateInstance(System.Collections.IDictionary):System.Object",
           "clrName": "CreateInstance",
-          "tsEmitName": "CreateInstance",
+          "tsEmitName": "createInstance",
           "normalizedSignature": "CreateInstance|(System.Collections.IDictionary):System.Object|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -17750,7 +17750,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.NullableConverter::GetCreateInstanceSupported():System.Boolean",
           "clrName": "GetCreateInstanceSupported",
-          "tsEmitName": "GetCreateInstanceSupported",
+          "tsEmitName": "getCreateInstanceSupported",
           "normalizedSignature": "GetCreateInstanceSupported|():System.Boolean|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -17766,7 +17766,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.NullableConverter::GetProperties(System.Object):System.ComponentModel.PropertyDescriptorCollection",
           "clrName": "GetProperties",
-          "tsEmitName": "GetProperties",
+          "tsEmitName": "getProperties",
           "normalizedSignature": "GetProperties|(System.Object):System.ComponentModel.PropertyDescriptorCollection|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -17782,7 +17782,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.NullableConverter::GetProperties(System.ComponentModel.ITypeDescriptorContext,System.Object):System.ComponentModel.PropertyDescriptorCollection",
           "clrName": "GetProperties",
-          "tsEmitName": "GetProperties2",
+          "tsEmitName": "getProperties2",
           "normalizedSignature": "GetProperties|(System.ComponentModel.ITypeDescriptorContext,System.Object):System.ComponentModel.PropertyDescriptorCollection|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -17798,7 +17798,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.NullableConverter::GetPropertiesSupported():System.Boolean",
           "clrName": "GetPropertiesSupported",
-          "tsEmitName": "GetPropertiesSupported",
+          "tsEmitName": "getPropertiesSupported",
           "normalizedSignature": "GetPropertiesSupported|():System.Boolean|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -17814,7 +17814,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.NullableConverter::GetStandardValues():System.Collections.ICollection",
           "clrName": "GetStandardValues",
-          "tsEmitName": "GetStandardValues",
+          "tsEmitName": "getStandardValues",
           "normalizedSignature": "GetStandardValues|():System.Collections.ICollection|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -17830,7 +17830,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.NullableConverter::GetStandardValuesExclusive():System.Boolean",
           "clrName": "GetStandardValuesExclusive",
-          "tsEmitName": "GetStandardValuesExclusive",
+          "tsEmitName": "getStandardValuesExclusive",
           "normalizedSignature": "GetStandardValuesExclusive|():System.Boolean|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -17846,7 +17846,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.NullableConverter::GetStandardValuesSupported():System.Boolean",
           "clrName": "GetStandardValuesSupported",
-          "tsEmitName": "GetStandardValuesSupported",
+          "tsEmitName": "getStandardValuesSupported",
           "normalizedSignature": "GetStandardValuesSupported|():System.Boolean|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -17862,7 +17862,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.NullableConverter::IsValid(System.Object):System.Boolean",
           "clrName": "IsValid",
-          "tsEmitName": "IsValid",
+          "tsEmitName": "isValid",
           "normalizedSignature": "IsValid|(System.Object):System.Boolean|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -18270,7 +18270,7 @@
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "clone",
+          "tsEmitName": "clone$view",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -18287,7 +18287,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "getObjectData",
+          "tsEmitName": "getObjectData$view",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -18304,7 +18304,7 @@
         {
           "stableId": "System.ComponentModel.EventBasedAsync:System.ComponentModel.ProgressChangedEventHandler::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "Clone",
+          "tsEmitName": "clone",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -18320,7 +18320,7 @@
         {
           "stableId": "System.ComponentModel.EventBasedAsync:System.ComponentModel.ProgressChangedEventHandler::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData",
+          "tsEmitName": "getObjectData",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -18445,7 +18445,7 @@
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "clone",
+          "tsEmitName": "clone$view",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -18462,7 +18462,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "getObjectData",
+          "tsEmitName": "getObjectData$view",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -18479,7 +18479,7 @@
         {
           "stableId": "System.ObjectModel:System.ComponentModel.PropertyChangedEventHandler::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "Clone",
+          "tsEmitName": "clone",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -18495,7 +18495,7 @@
         {
           "stableId": "System.ObjectModel:System.ComponentModel.PropertyChangedEventHandler::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData",
+          "tsEmitName": "getObjectData",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -18620,7 +18620,7 @@
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "clone",
+          "tsEmitName": "clone$view",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -18637,7 +18637,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "getObjectData",
+          "tsEmitName": "getObjectData$view",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -18654,7 +18654,7 @@
         {
           "stableId": "System.ObjectModel:System.ComponentModel.PropertyChangingEventHandler::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "Clone",
+          "tsEmitName": "clone",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -18670,7 +18670,7 @@
         {
           "stableId": "System.ObjectModel:System.ComponentModel.PropertyChangingEventHandler::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData",
+          "tsEmitName": "getObjectData",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -19516,7 +19516,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.PropertyDescriptorCollection::get_Item(System.Int32):System.ComponentModel.PropertyDescriptor",
           "clrName": "get_Item",
-          "tsEmitName": "get_Item",
+          "tsEmitName": "getItem",
           "normalizedSignature": "get_Item|(System.Int32):System.ComponentModel.PropertyDescriptor|static=false",
           "provenance": "IndexerNormalized",
           "emitScope": "ClassSurface",
@@ -19532,7 +19532,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.PropertyDescriptorCollection::get_Item(System.String):System.ComponentModel.PropertyDescriptor",
           "clrName": "get_Item",
-          "tsEmitName": "get_Item2",
+          "tsEmitName": "getItem2",
           "normalizedSignature": "get_Item|(System.String):System.ComponentModel.PropertyDescriptor|static=false",
           "provenance": "IndexerNormalized",
           "emitScope": "ClassSurface",
@@ -20204,7 +20204,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.ReferenceConverter::CanConvertFrom(System.ComponentModel.ITypeDescriptorContext,System.Type):System.Boolean",
           "clrName": "CanConvertFrom",
-          "tsEmitName": "canConvertFrom",
+          "tsEmitName": "canConvertFrom2",
           "normalizedSignature": "CanConvertFrom|(System.ComponentModel.ITypeDescriptorContext,System.Type):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -20220,7 +20220,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.ReferenceConverter::ConvertFrom(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object):System.Object",
           "clrName": "ConvertFrom",
-          "tsEmitName": "convertFrom",
+          "tsEmitName": "convertFrom2",
           "normalizedSignature": "ConvertFrom|(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object):System.Object|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -20236,7 +20236,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.ReferenceConverter::ConvertTo(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object,System.Type):System.Object",
           "clrName": "ConvertTo",
-          "tsEmitName": "convertTo",
+          "tsEmitName": "convertTo2",
           "normalizedSignature": "ConvertTo|(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object,System.Type):System.Object|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -20252,7 +20252,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.ReferenceConverter::GetStandardValues(System.ComponentModel.ITypeDescriptorContext):System.ComponentModel.TypeConverter\u002BStandardValuesCollection",
           "clrName": "GetStandardValues",
-          "tsEmitName": "getStandardValues",
+          "tsEmitName": "getStandardValues2",
           "normalizedSignature": "GetStandardValues|(System.ComponentModel.ITypeDescriptorContext):System.ComponentModel.TypeConverter\u002BStandardValuesCollection|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -20268,7 +20268,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.ReferenceConverter::GetStandardValuesExclusive(System.ComponentModel.ITypeDescriptorContext):System.Boolean",
           "clrName": "GetStandardValuesExclusive",
-          "tsEmitName": "getStandardValuesExclusive",
+          "tsEmitName": "getStandardValuesExclusive2",
           "normalizedSignature": "GetStandardValuesExclusive|(System.ComponentModel.ITypeDescriptorContext):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -20284,7 +20284,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.ReferenceConverter::GetStandardValuesSupported(System.ComponentModel.ITypeDescriptorContext):System.Boolean",
           "clrName": "GetStandardValuesSupported",
-          "tsEmitName": "getStandardValuesSupported",
+          "tsEmitName": "getStandardValuesSupported2",
           "normalizedSignature": "GetStandardValuesSupported|(System.ComponentModel.ITypeDescriptorContext):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -20300,7 +20300,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.ReferenceConverter::CanConvertFrom(System.Type):System.Boolean",
           "clrName": "CanConvertFrom",
-          "tsEmitName": "CanConvertFrom",
+          "tsEmitName": "canConvertFrom",
           "normalizedSignature": "CanConvertFrom|(System.Type):System.Boolean|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -20316,7 +20316,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.ReferenceConverter::ConvertFrom(System.Object):System.Object",
           "clrName": "ConvertFrom",
-          "tsEmitName": "ConvertFrom",
+          "tsEmitName": "convertFrom",
           "normalizedSignature": "ConvertFrom|(System.Object):System.Object|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -20332,7 +20332,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.ReferenceConverter::ConvertTo(System.Object,System.Type):System.Object",
           "clrName": "ConvertTo",
-          "tsEmitName": "ConvertTo",
+          "tsEmitName": "convertTo",
           "normalizedSignature": "ConvertTo|(System.Object,System.Type):System.Object|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -20348,7 +20348,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.ReferenceConverter::GetStandardValues():System.Collections.ICollection",
           "clrName": "GetStandardValues",
-          "tsEmitName": "GetStandardValues",
+          "tsEmitName": "getStandardValues",
           "normalizedSignature": "GetStandardValues|():System.Collections.ICollection|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -20364,7 +20364,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.ReferenceConverter::GetStandardValuesExclusive():System.Boolean",
           "clrName": "GetStandardValuesExclusive",
-          "tsEmitName": "GetStandardValuesExclusive",
+          "tsEmitName": "getStandardValuesExclusive",
           "normalizedSignature": "GetStandardValuesExclusive|():System.Boolean|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -20380,7 +20380,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.ReferenceConverter::GetStandardValuesSupported():System.Boolean",
           "clrName": "GetStandardValuesSupported",
-          "tsEmitName": "GetStandardValuesSupported",
+          "tsEmitName": "getStandardValuesSupported",
           "normalizedSignature": "GetStandardValuesSupported|():System.Boolean|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -20525,7 +20525,7 @@
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "clone",
+          "tsEmitName": "clone$view",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -20542,7 +20542,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "getObjectData",
+          "tsEmitName": "getObjectData$view",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -20559,7 +20559,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.RefreshEventHandler::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "Clone",
+          "tsEmitName": "clone",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -20575,7 +20575,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.RefreshEventHandler::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData",
+          "tsEmitName": "getObjectData",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -20945,7 +20945,7 @@
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "clone",
+          "tsEmitName": "clone$view",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -20962,7 +20962,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "getObjectData",
+          "tsEmitName": "getObjectData$view",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -20979,7 +20979,7 @@
         {
           "stableId": "System.ComponentModel.EventBasedAsync:System.ComponentModel.RunWorkerCompletedEventHandler::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "Clone",
+          "tsEmitName": "clone",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -20995,7 +20995,7 @@
         {
           "stableId": "System.ComponentModel.EventBasedAsync:System.ComponentModel.RunWorkerCompletedEventHandler::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData",
+          "tsEmitName": "getObjectData",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -21168,7 +21168,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.StringConverter::CanConvertFrom(System.ComponentModel.ITypeDescriptorContext,System.Type):System.Boolean",
           "clrName": "CanConvertFrom",
-          "tsEmitName": "canConvertFrom",
+          "tsEmitName": "canConvertFrom2",
           "normalizedSignature": "CanConvertFrom|(System.ComponentModel.ITypeDescriptorContext,System.Type):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -21184,7 +21184,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.StringConverter::ConvertFrom(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object):System.Object",
           "clrName": "ConvertFrom",
-          "tsEmitName": "convertFrom",
+          "tsEmitName": "convertFrom2",
           "normalizedSignature": "ConvertFrom|(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object):System.Object|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -21200,7 +21200,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.StringConverter::CanConvertFrom(System.Type):System.Boolean",
           "clrName": "CanConvertFrom",
-          "tsEmitName": "CanConvertFrom",
+          "tsEmitName": "canConvertFrom",
           "normalizedSignature": "CanConvertFrom|(System.Type):System.Boolean|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -21216,7 +21216,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.StringConverter::ConvertFrom(System.Object):System.Object",
           "clrName": "ConvertFrom",
-          "tsEmitName": "ConvertFrom",
+          "tsEmitName": "convertFrom",
           "normalizedSignature": "ConvertFrom|(System.Object):System.Object|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -21255,7 +21255,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.TimeOnlyConverter::CanConvertFrom(System.ComponentModel.ITypeDescriptorContext,System.Type):System.Boolean",
           "clrName": "CanConvertFrom",
-          "tsEmitName": "canConvertFrom",
+          "tsEmitName": "canConvertFrom2",
           "normalizedSignature": "CanConvertFrom|(System.ComponentModel.ITypeDescriptorContext,System.Type):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -21271,7 +21271,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.TimeOnlyConverter::CanConvertTo(System.ComponentModel.ITypeDescriptorContext,System.Type):System.Boolean",
           "clrName": "CanConvertTo",
-          "tsEmitName": "canConvertTo",
+          "tsEmitName": "canConvertTo2",
           "normalizedSignature": "CanConvertTo|(System.ComponentModel.ITypeDescriptorContext,System.Type):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -21287,7 +21287,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.TimeOnlyConverter::ConvertFrom(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object):System.Object",
           "clrName": "ConvertFrom",
-          "tsEmitName": "convertFrom",
+          "tsEmitName": "convertFrom2",
           "normalizedSignature": "ConvertFrom|(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object):System.Object|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -21303,7 +21303,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.TimeOnlyConverter::ConvertTo(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object,System.Type):System.Object",
           "clrName": "ConvertTo",
-          "tsEmitName": "convertTo",
+          "tsEmitName": "convertTo2",
           "normalizedSignature": "ConvertTo|(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object,System.Type):System.Object|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -21319,7 +21319,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.TimeOnlyConverter::CanConvertFrom(System.Type):System.Boolean",
           "clrName": "CanConvertFrom",
-          "tsEmitName": "CanConvertFrom",
+          "tsEmitName": "canConvertFrom",
           "normalizedSignature": "CanConvertFrom|(System.Type):System.Boolean|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -21335,7 +21335,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.TimeOnlyConverter::CanConvertTo(System.Type):System.Boolean",
           "clrName": "CanConvertTo",
-          "tsEmitName": "CanConvertTo",
+          "tsEmitName": "canConvertTo",
           "normalizedSignature": "CanConvertTo|(System.Type):System.Boolean|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -21351,7 +21351,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.TimeOnlyConverter::ConvertFrom(System.Object):System.Object",
           "clrName": "ConvertFrom",
-          "tsEmitName": "ConvertFrom",
+          "tsEmitName": "convertFrom",
           "normalizedSignature": "ConvertFrom|(System.Object):System.Object|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -21367,7 +21367,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.TimeOnlyConverter::ConvertTo(System.Object,System.Type):System.Object",
           "clrName": "ConvertTo",
-          "tsEmitName": "ConvertTo",
+          "tsEmitName": "convertTo",
           "normalizedSignature": "ConvertTo|(System.Object,System.Type):System.Object|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -21406,7 +21406,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.TimeSpanConverter::CanConvertFrom(System.ComponentModel.ITypeDescriptorContext,System.Type):System.Boolean",
           "clrName": "CanConvertFrom",
-          "tsEmitName": "canConvertFrom",
+          "tsEmitName": "canConvertFrom2",
           "normalizedSignature": "CanConvertFrom|(System.ComponentModel.ITypeDescriptorContext,System.Type):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -21422,7 +21422,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.TimeSpanConverter::CanConvertTo(System.ComponentModel.ITypeDescriptorContext,System.Type):System.Boolean",
           "clrName": "CanConvertTo",
-          "tsEmitName": "canConvertTo",
+          "tsEmitName": "canConvertTo2",
           "normalizedSignature": "CanConvertTo|(System.ComponentModel.ITypeDescriptorContext,System.Type):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -21438,7 +21438,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.TimeSpanConverter::ConvertFrom(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object):System.Object",
           "clrName": "ConvertFrom",
-          "tsEmitName": "convertFrom",
+          "tsEmitName": "convertFrom2",
           "normalizedSignature": "ConvertFrom|(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object):System.Object|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -21454,7 +21454,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.TimeSpanConverter::ConvertTo(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object,System.Type):System.Object",
           "clrName": "ConvertTo",
-          "tsEmitName": "convertTo",
+          "tsEmitName": "convertTo2",
           "normalizedSignature": "ConvertTo|(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object,System.Type):System.Object|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -21470,7 +21470,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.TimeSpanConverter::CanConvertFrom(System.Type):System.Boolean",
           "clrName": "CanConvertFrom",
-          "tsEmitName": "CanConvertFrom",
+          "tsEmitName": "canConvertFrom",
           "normalizedSignature": "CanConvertFrom|(System.Type):System.Boolean|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -21486,7 +21486,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.TimeSpanConverter::CanConvertTo(System.Type):System.Boolean",
           "clrName": "CanConvertTo",
-          "tsEmitName": "CanConvertTo",
+          "tsEmitName": "canConvertTo",
           "normalizedSignature": "CanConvertTo|(System.Type):System.Boolean|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -21502,7 +21502,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.TimeSpanConverter::ConvertFrom(System.Object):System.Object",
           "clrName": "ConvertFrom",
-          "tsEmitName": "ConvertFrom",
+          "tsEmitName": "convertFrom",
           "normalizedSignature": "ConvertFrom|(System.Object):System.Object|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -21518,7 +21518,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.TimeSpanConverter::ConvertTo(System.Object,System.Type):System.Object",
           "clrName": "ConvertTo",
-          "tsEmitName": "ConvertTo",
+          "tsEmitName": "convertTo",
           "normalizedSignature": "ConvertTo|(System.Object,System.Type):System.Object|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -24207,7 +24207,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.TypeListConverter::CanConvertFrom(System.ComponentModel.ITypeDescriptorContext,System.Type):System.Boolean",
           "clrName": "CanConvertFrom",
-          "tsEmitName": "canConvertFrom",
+          "tsEmitName": "canConvertFrom2",
           "normalizedSignature": "CanConvertFrom|(System.ComponentModel.ITypeDescriptorContext,System.Type):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -24223,7 +24223,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.TypeListConverter::CanConvertTo(System.ComponentModel.ITypeDescriptorContext,System.Type):System.Boolean",
           "clrName": "CanConvertTo",
-          "tsEmitName": "canConvertTo",
+          "tsEmitName": "canConvertTo2",
           "normalizedSignature": "CanConvertTo|(System.ComponentModel.ITypeDescriptorContext,System.Type):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -24239,7 +24239,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.TypeListConverter::ConvertFrom(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object):System.Object",
           "clrName": "ConvertFrom",
-          "tsEmitName": "convertFrom",
+          "tsEmitName": "convertFrom2",
           "normalizedSignature": "ConvertFrom|(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object):System.Object|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -24255,7 +24255,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.TypeListConverter::ConvertTo(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object,System.Type):System.Object",
           "clrName": "ConvertTo",
-          "tsEmitName": "convertTo",
+          "tsEmitName": "convertTo2",
           "normalizedSignature": "ConvertTo|(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object,System.Type):System.Object|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -24271,7 +24271,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.TypeListConverter::GetStandardValues(System.ComponentModel.ITypeDescriptorContext):System.ComponentModel.TypeConverter\u002BStandardValuesCollection",
           "clrName": "GetStandardValues",
-          "tsEmitName": "getStandardValues",
+          "tsEmitName": "getStandardValues2",
           "normalizedSignature": "GetStandardValues|(System.ComponentModel.ITypeDescriptorContext):System.ComponentModel.TypeConverter\u002BStandardValuesCollection|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -24287,7 +24287,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.TypeListConverter::GetStandardValuesExclusive(System.ComponentModel.ITypeDescriptorContext):System.Boolean",
           "clrName": "GetStandardValuesExclusive",
-          "tsEmitName": "getStandardValuesExclusive",
+          "tsEmitName": "getStandardValuesExclusive2",
           "normalizedSignature": "GetStandardValuesExclusive|(System.ComponentModel.ITypeDescriptorContext):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -24303,7 +24303,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.TypeListConverter::GetStandardValuesSupported(System.ComponentModel.ITypeDescriptorContext):System.Boolean",
           "clrName": "GetStandardValuesSupported",
-          "tsEmitName": "getStandardValuesSupported",
+          "tsEmitName": "getStandardValuesSupported2",
           "normalizedSignature": "GetStandardValuesSupported|(System.ComponentModel.ITypeDescriptorContext):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -24319,7 +24319,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.TypeListConverter::CanConvertFrom(System.Type):System.Boolean",
           "clrName": "CanConvertFrom",
-          "tsEmitName": "CanConvertFrom",
+          "tsEmitName": "canConvertFrom",
           "normalizedSignature": "CanConvertFrom|(System.Type):System.Boolean|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -24335,7 +24335,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.TypeListConverter::CanConvertTo(System.Type):System.Boolean",
           "clrName": "CanConvertTo",
-          "tsEmitName": "CanConvertTo",
+          "tsEmitName": "canConvertTo",
           "normalizedSignature": "CanConvertTo|(System.Type):System.Boolean|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -24351,7 +24351,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.TypeListConverter::ConvertFrom(System.Object):System.Object",
           "clrName": "ConvertFrom",
-          "tsEmitName": "ConvertFrom",
+          "tsEmitName": "convertFrom",
           "normalizedSignature": "ConvertFrom|(System.Object):System.Object|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -24367,7 +24367,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.TypeListConverter::ConvertTo(System.Object,System.Type):System.Object",
           "clrName": "ConvertTo",
-          "tsEmitName": "ConvertTo",
+          "tsEmitName": "convertTo",
           "normalizedSignature": "ConvertTo|(System.Object,System.Type):System.Object|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -24383,7 +24383,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.TypeListConverter::GetStandardValues():System.Collections.ICollection",
           "clrName": "GetStandardValues",
-          "tsEmitName": "GetStandardValues",
+          "tsEmitName": "getStandardValues",
           "normalizedSignature": "GetStandardValues|():System.Collections.ICollection|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -24399,7 +24399,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.TypeListConverter::GetStandardValuesExclusive():System.Boolean",
           "clrName": "GetStandardValuesExclusive",
-          "tsEmitName": "GetStandardValuesExclusive",
+          "tsEmitName": "getStandardValuesExclusive",
           "normalizedSignature": "GetStandardValuesExclusive|():System.Boolean|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -24415,7 +24415,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.TypeListConverter::GetStandardValuesSupported():System.Boolean",
           "clrName": "GetStandardValuesSupported",
-          "tsEmitName": "GetStandardValuesSupported",
+          "tsEmitName": "getStandardValuesSupported",
           "normalizedSignature": "GetStandardValuesSupported|():System.Boolean|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -24536,7 +24536,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.VersionConverter::CanConvertFrom(System.ComponentModel.ITypeDescriptorContext,System.Type):System.Boolean",
           "clrName": "CanConvertFrom",
-          "tsEmitName": "canConvertFrom",
+          "tsEmitName": "canConvertFrom2",
           "normalizedSignature": "CanConvertFrom|(System.ComponentModel.ITypeDescriptorContext,System.Type):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -24552,7 +24552,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.VersionConverter::CanConvertTo(System.ComponentModel.ITypeDescriptorContext,System.Type):System.Boolean",
           "clrName": "CanConvertTo",
-          "tsEmitName": "canConvertTo",
+          "tsEmitName": "canConvertTo2",
           "normalizedSignature": "CanConvertTo|(System.ComponentModel.ITypeDescriptorContext,System.Type):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -24568,7 +24568,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.VersionConverter::ConvertFrom(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object):System.Object",
           "clrName": "ConvertFrom",
-          "tsEmitName": "convertFrom",
+          "tsEmitName": "convertFrom2",
           "normalizedSignature": "ConvertFrom|(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object):System.Object|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -24584,7 +24584,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.VersionConverter::ConvertTo(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object,System.Type):System.Object",
           "clrName": "ConvertTo",
-          "tsEmitName": "convertTo",
+          "tsEmitName": "convertTo2",
           "normalizedSignature": "ConvertTo|(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object,System.Type):System.Object|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -24600,7 +24600,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.VersionConverter::IsValid(System.ComponentModel.ITypeDescriptorContext,System.Object):System.Boolean",
           "clrName": "IsValid",
-          "tsEmitName": "isValid",
+          "tsEmitName": "isValid2",
           "normalizedSignature": "IsValid|(System.ComponentModel.ITypeDescriptorContext,System.Object):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -24616,7 +24616,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.VersionConverter::CanConvertFrom(System.Type):System.Boolean",
           "clrName": "CanConvertFrom",
-          "tsEmitName": "CanConvertFrom",
+          "tsEmitName": "canConvertFrom",
           "normalizedSignature": "CanConvertFrom|(System.Type):System.Boolean|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -24632,7 +24632,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.VersionConverter::CanConvertTo(System.Type):System.Boolean",
           "clrName": "CanConvertTo",
-          "tsEmitName": "CanConvertTo",
+          "tsEmitName": "canConvertTo",
           "normalizedSignature": "CanConvertTo|(System.Type):System.Boolean|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -24648,7 +24648,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.VersionConverter::ConvertFrom(System.Object):System.Object",
           "clrName": "ConvertFrom",
-          "tsEmitName": "ConvertFrom",
+          "tsEmitName": "convertFrom",
           "normalizedSignature": "ConvertFrom|(System.Object):System.Object|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -24664,7 +24664,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.VersionConverter::ConvertTo(System.Object,System.Type):System.Object",
           "clrName": "ConvertTo",
-          "tsEmitName": "ConvertTo",
+          "tsEmitName": "convertTo",
           "normalizedSignature": "ConvertTo|(System.Object,System.Type):System.Object|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -24680,7 +24680,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.VersionConverter::IsValid(System.Object):System.Boolean",
           "clrName": "IsValid",
-          "tsEmitName": "IsValid",
+          "tsEmitName": "isValid",
           "normalizedSignature": "IsValid|(System.Object):System.Boolean|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",

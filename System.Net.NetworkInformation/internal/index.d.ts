@@ -513,9 +513,9 @@ export type MulticastIPAddressInformationCollection = MulticastIPAddressInformat
 export class NetworkAddressChangedEventHandler$instance extends Function {
     constructor(object_: unknown, method: nint);
     beginInvoke(sender: unknown, e: EventArgs, callback: AsyncCallback, object_: unknown): IAsyncResult;
-    Clone(): unknown;
+    clone(): unknown;
     endInvoke(result: IAsyncResult): void;
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
     invoke(sender: unknown, e: EventArgs): void;
 }
 
@@ -525,17 +525,15 @@ export interface __NetworkAddressChangedEventHandler$views {
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
-export interface NetworkAddressChangedEventHandler$instance extends System_Internal.ICloneable$instance {}
-
 export type NetworkAddressChangedEventHandler = NetworkAddressChangedEventHandler$instance & __NetworkAddressChangedEventHandler$views;
 
 
 export class NetworkAvailabilityChangedEventHandler$instance extends Function {
     constructor(object_: unknown, method: nint);
     beginInvoke(sender: unknown, e: NetworkAvailabilityEventArgs, callback: AsyncCallback, object_: unknown): IAsyncResult;
-    Clone(): unknown;
+    clone(): unknown;
     endInvoke(result: IAsyncResult): void;
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
     invoke(sender: unknown, e: NetworkAvailabilityEventArgs): void;
 }
 
@@ -544,8 +542,6 @@ export interface __NetworkAvailabilityChangedEventHandler$views {
     As_ICloneable(): System_Internal.ICloneable$instance;
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
-
-export interface NetworkAvailabilityChangedEventHandler$instance extends System_Internal.ICloneable$instance {}
 
 export type NetworkAvailabilityChangedEventHandler = NetworkAvailabilityChangedEventHandler$instance & __NetworkAvailabilityChangedEventHandler$views;
 
@@ -569,7 +565,7 @@ export class NetworkInformationException$instance extends System_ComponentModel_
     constructor();
     constructor(errorCode: int);
     readonly errorCode: int;
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
@@ -610,10 +606,10 @@ export class PhysicalAddress$instance {
     getHashCode(): int;
     toString(): string;
     static readonly none: PhysicalAddress;
-    static parse(address: ReadOnlySpan_1<CLROf<char>>): PhysicalAddress;
-    static parse(address: string): PhysicalAddress;
-    static tryParse(address: ReadOnlySpan_1<CLROf<char>>, value: { value: ref<PhysicalAddress> }): boolean;
-    static tryParse(address: string, value: { value: ref<PhysicalAddress> }): boolean;
+    static parse2(address: ReadOnlySpan_1<CLROf<char>>): PhysicalAddress;
+    static parse2(address: string): PhysicalAddress;
+    static tryParse2(address: ReadOnlySpan_1<CLROf<char>>, value: { value: ref<PhysicalAddress> }): boolean;
+    static tryParse2(address: string, value: { value: ref<PhysicalAddress> }): boolean;
 }
 
 
@@ -621,7 +617,7 @@ export type PhysicalAddress = PhysicalAddress$instance;
 
 export class Ping$instance extends System_ComponentModel_Internal.Component$instance {
     constructor();
-    Dispose(): void;
+    dispose(): void;
     send(hostNameOrAddress: string): PingReply;
     send(hostNameOrAddress: string, timeout: int): PingReply;
     send(address: IPAddress): PingReply;
@@ -659,6 +655,8 @@ export interface __Ping$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
 
+export interface Ping$instance extends System_ComponentModel_Internal.IComponent$instance {}
+
 export type Ping = Ping$instance & __Ping$views;
 
 
@@ -672,9 +670,9 @@ export type PingCompletedEventArgs = PingCompletedEventArgs$instance;
 export class PingCompletedEventHandler$instance extends Function {
     constructor(object_: unknown, method: nint);
     beginInvoke(sender: unknown, e: PingCompletedEventArgs, callback: AsyncCallback, object_: unknown): IAsyncResult;
-    Clone(): unknown;
+    clone(): unknown;
     endInvoke(result: IAsyncResult): void;
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
     invoke(sender: unknown, e: PingCompletedEventArgs): void;
 }
 
@@ -684,23 +682,19 @@ export interface __PingCompletedEventHandler$views {
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
-export interface PingCompletedEventHandler$instance extends System_Internal.ICloneable$instance {}
-
 export type PingCompletedEventHandler = PingCompletedEventHandler$instance & __PingCompletedEventHandler$views;
 
 
 export class PingException$instance extends System_Internal.InvalidOperationException$instance {
     constructor(message: string);
     constructor(message: string, innerException: Exception);
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
 export interface __PingException$views {
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
-
-export interface PingException$instance extends System_Runtime_Serialization_Internal.ISerializable$instance {}
 
 export type PingException = PingException$instance & __PingException$views;
 

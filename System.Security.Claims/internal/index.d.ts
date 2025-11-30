@@ -209,7 +209,7 @@ export type ClaimTypes = ClaimTypes$instance;
 export abstract class ClaimValueTypes$instance {
     static readonly base64Binary: string;
     static readonly base64Octet: string;
-    static readonly boolean: string;
+    static readonly boolean_: string;
     static readonly date: string;
     static readonly dateTime: string;
     static readonly double: string;
@@ -219,7 +219,7 @@ export abstract class ClaimValueTypes$instance {
     static readonly integer32: string;
     static readonly integer64: string;
     static readonly sid: string;
-    static readonly string: string;
+    static readonly string_: string;
     static readonly time: string;
     static readonly uInteger32: string;
     static readonly uInteger64: string;

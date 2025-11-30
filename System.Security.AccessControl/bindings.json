@@ -13,7 +13,7 @@
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.AccessControlActions::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67108867,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -761,7 +761,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -814,7 +814,7 @@
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.AccessControlModification::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67108871,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -1595,7 +1595,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -1678,7 +1678,7 @@
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.AccessControlSections::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67108878,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -2459,7 +2459,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -2542,7 +2542,7 @@
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.AccessControlType::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67108885,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -3279,7 +3279,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -3322,7 +3322,7 @@
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.AceFlags::value__System.Byte",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67108888,
           "normalizedSignature": "value__|System.Byte|static=false|const=false",
           "isStatic": false,
@@ -4147,7 +4147,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.Byte|static=false|const=false",
           "target": {
@@ -4270,7 +4270,7 @@
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.AceQualifier::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67108899,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -5029,7 +5029,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -5092,7 +5092,7 @@
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.AceType::value__System.Byte",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67108904,
           "normalizedSignature": "value__|System.Byte|static=false|const=false",
           "isStatic": false,
@@ -6005,7 +6005,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.Byte|static=false|const=false",
           "target": {
@@ -6208,7 +6208,7 @@
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.AuditFlags::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67108923,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -6956,7 +6956,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -7009,7 +7009,7 @@
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.CompoundAceType::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67108927,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -7735,7 +7735,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -7768,7 +7768,7 @@
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.ControlFlags::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67108929,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -8670,7 +8670,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -8863,7 +8863,7 @@
         {
           "stableId": "System.Threading.AccessControl:System.Security.AccessControl.EventWaitHandleRights::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67108867,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -9655,7 +9655,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -9748,7 +9748,7 @@
         {
           "stableId": "System.IO.FileSystem.AccessControl:System.Security.AccessControl.FileSystemRights::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67108867,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -10716,7 +10716,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -10969,7 +10969,7 @@
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.InheritanceFlags::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67108951,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -11717,7 +11717,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -11770,7 +11770,7 @@
         {
           "stableId": "System.Threading.AccessControl:System.Security.AccessControl.MutexRights::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67108875,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -12562,7 +12562,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -12655,7 +12655,7 @@
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.ObjectAceFlags::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67108955,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -13403,7 +13403,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -13456,7 +13456,7 @@
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.PropagationFlags::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67108959,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -14204,7 +14204,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -14257,7 +14257,7 @@
         {
           "stableId": "Microsoft.Win32.Registry:System.Security.AccessControl.RegistryRights::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67108903,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -15126,7 +15126,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -15289,7 +15289,7 @@
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.ResourceType::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67108963,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -16147,7 +16147,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -16300,7 +16300,7 @@
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.SecurityInfos::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67108977,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -17059,7 +17059,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -17122,7 +17122,7 @@
         {
           "stableId": "System.Threading.AccessControl:System.Security.AccessControl.SemaphoreRights::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67108883,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -17914,7 +17914,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -19156,7 +19156,7 @@
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.AuthorizationRuleCollection::CopyTo(System.Security.AccessControl.AuthorizationRule[],System.Int32):System.Void",
           "clrName": "CopyTo",
-          "tsEmitName": "copyTo",
+          "tsEmitName": "copyTo2",
           "metadataToken": 100663411,
           "canonicalSignature": "(System.Security.AccessControl.AuthorizationRule[],System.Int32):System.Void",
           "normalizedSignature": "CopyTo|(System.Security.AccessControl.AuthorizationRule[],System.Int32):System.Void|static=false",
@@ -19184,7 +19184,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
           "clrName": "GetEnumerator",
-          "tsEmitName": "getEnumerator",
+          "tsEmitName": "getEnumerator$view",
           "metadataToken": 100703948,
           "canonicalSignature": "():System.Collections.IEnumerator",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
@@ -19198,7 +19198,7 @@
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.AuthorizationRuleCollection::CopyTo(System.Array,System.Int32):System.Void",
           "clrName": "CopyTo",
-          "tsEmitName": "CopyTo",
+          "tsEmitName": "copyTo",
           "metadataToken": 0,
           "canonicalSignature": "(System.Array,System.Int32):System.Void",
           "normalizedSignature": "CopyTo|(System.Array,System.Int32):System.Void|static=false",
@@ -19212,7 +19212,7 @@
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.AuthorizationRuleCollection::GetEnumerator():System.Collections.IEnumerator",
           "clrName": "GetEnumerator",
-          "tsEmitName": "GetEnumerator",
+          "tsEmitName": "getEnumerator",
           "metadataToken": 0,
           "canonicalSignature": "():System.Collections.IEnumerator",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
@@ -19308,7 +19308,7 @@
           }
         },
         {
-          "tsName": "copyTo",
+          "tsName": "copyTo2",
           "isStatic": false,
           "tsSignatureId": "CopyTo|(System.Security.AccessControl.AuthorizationRule[],System.Int32):System.Void|static=false",
           "target": {
@@ -19328,7 +19328,7 @@
           }
         },
         {
-          "tsName": "getEnumerator",
+          "tsName": "getEnumerator$view",
           "isStatic": false,
           "tsSignatureId": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "target": {
@@ -19338,7 +19338,7 @@
           }
         },
         {
-          "tsName": "CopyTo",
+          "tsName": "copyTo",
           "isStatic": false,
           "tsSignatureId": "CopyTo|(System.Array,System.Int32):System.Void|static=false",
           "target": {
@@ -19348,7 +19348,7 @@
           }
         },
         {
-          "tsName": "GetEnumerator",
+          "tsName": "getEnumerator",
           "isStatic": false,
           "tsSignatureId": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "target": {
@@ -19846,7 +19846,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.ICollection::CopyTo(System.Array,System.Int32):System.Void",
           "clrName": "CopyTo",
-          "tsEmitName": "copyTo",
+          "tsEmitName": "copyTo$view",
           "metadataToken": 100703929,
           "canonicalSignature": "(System.Array,System.Int32):System.Void",
           "normalizedSignature": "CopyTo|(System.Array,System.Int32):System.Void|static=false",
@@ -19860,7 +19860,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
           "clrName": "GetEnumerator",
-          "tsEmitName": "getEnumerator",
+          "tsEmitName": "getEnumerator$view",
           "metadataToken": 100703948,
           "canonicalSignature": "():System.Collections.IEnumerator",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
@@ -19874,7 +19874,7 @@
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.CommonAcl::CopyTo(System.Security.AccessControl.GenericAce[],System.Int32):System.Void",
           "clrName": "CopyTo",
-          "tsEmitName": "CopyTo",
+          "tsEmitName": "copyTo",
           "metadataToken": 0,
           "canonicalSignature": "(System.Security.AccessControl.GenericAce[],System.Int32):System.Void",
           "normalizedSignature": "CopyTo|(System.Security.AccessControl.GenericAce[],System.Int32):System.Void|static=false",
@@ -19888,7 +19888,7 @@
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.CommonAcl::CopyTo(System.Array,System.Int32):System.Void",
           "clrName": "CopyTo",
-          "tsEmitName": "CopyTo2",
+          "tsEmitName": "copyTo2",
           "metadataToken": 0,
           "canonicalSignature": "(System.Array,System.Int32):System.Void",
           "normalizedSignature": "CopyTo|(System.Array,System.Int32):System.Void|static=false",
@@ -19902,7 +19902,7 @@
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.CommonAcl::GetEnumerator():System.Security.AccessControl.AceEnumerator",
           "clrName": "GetEnumerator",
-          "tsEmitName": "GetEnumerator",
+          "tsEmitName": "getEnumerator",
           "metadataToken": 0,
           "canonicalSignature": "():System.Security.AccessControl.AceEnumerator",
           "normalizedSignature": "GetEnumerator|():System.Security.AccessControl.AceEnumerator|static=false",
@@ -19916,7 +19916,7 @@
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.CommonAcl::GetEnumerator():System.Collections.IEnumerator",
           "clrName": "GetEnumerator",
-          "tsEmitName": "GetEnumerator2",
+          "tsEmitName": "getEnumerator2",
           "metadataToken": 0,
           "canonicalSignature": "():System.Collections.IEnumerator",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
@@ -20105,7 +20105,7 @@
           }
         },
         {
-          "tsName": "copyTo",
+          "tsName": "copyTo$view",
           "isStatic": false,
           "tsSignatureId": "CopyTo|(System.Array,System.Int32):System.Void|static=false",
           "target": {
@@ -20115,7 +20115,7 @@
           }
         },
         {
-          "tsName": "getEnumerator",
+          "tsName": "getEnumerator$view",
           "isStatic": false,
           "tsSignatureId": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "target": {
@@ -20125,7 +20125,7 @@
           }
         },
         {
-          "tsName": "CopyTo",
+          "tsName": "copyTo",
           "isStatic": false,
           "tsSignatureId": "CopyTo|(System.Security.AccessControl.GenericAce[],System.Int32):System.Void|static=false",
           "target": {
@@ -20135,7 +20135,7 @@
           }
         },
         {
-          "tsName": "CopyTo2",
+          "tsName": "copyTo2",
           "isStatic": false,
           "tsSignatureId": "CopyTo|(System.Array,System.Int32):System.Void|static=false",
           "target": {
@@ -20145,7 +20145,7 @@
           }
         },
         {
-          "tsName": "GetEnumerator",
+          "tsName": "getEnumerator",
           "isStatic": false,
           "tsSignatureId": "GetEnumerator|():System.Security.AccessControl.AceEnumerator|static=false",
           "target": {
@@ -20155,7 +20155,7 @@
           }
         },
         {
-          "tsName": "GetEnumerator2",
+          "tsName": "getEnumerator2",
           "isStatic": false,
           "tsSignatureId": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "target": {
@@ -21886,7 +21886,7 @@
         {
           "stableId": "System.IO.FileSystem.AccessControl:System.Security.AccessControl.DirectoryObjectSecurity::AccessRuleFactory(System.Security.Principal.IdentityReference,System.Int32,System.Boolean,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags,System.Security.AccessControl.AccessControlType,System.Guid,System.Guid):System.Security.AccessControl.AccessRule",
           "clrName": "AccessRuleFactory",
-          "tsEmitName": "accessRuleFactory",
+          "tsEmitName": "accessRuleFactory2",
           "metadataToken": 100663339,
           "canonicalSignature": "(System.Security.Principal.IdentityReference,System.Int32,System.Boolean,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags,System.Security.AccessControl.AccessControlType,System.Guid,System.Guid):System.Security.AccessControl.AccessRule",
           "normalizedSignature": "AccessRuleFactory|(System.Security.Principal.IdentityReference,System.Int32,System.Boolean,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags,System.Security.AccessControl.AccessControlType,System.Guid,System.Guid):System.Security.AccessControl.AccessRule|static=false",
@@ -21900,7 +21900,7 @@
         {
           "stableId": "System.IO.FileSystem.AccessControl:System.Security.AccessControl.DirectoryObjectSecurity::AuditRuleFactory(System.Security.Principal.IdentityReference,System.Int32,System.Boolean,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags,System.Security.AccessControl.AuditFlags,System.Guid,System.Guid):System.Security.AccessControl.AuditRule",
           "clrName": "AuditRuleFactory",
-          "tsEmitName": "auditRuleFactory",
+          "tsEmitName": "auditRuleFactory2",
           "metadataToken": 100663342,
           "canonicalSignature": "(System.Security.Principal.IdentityReference,System.Int32,System.Boolean,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags,System.Security.AccessControl.AuditFlags,System.Guid,System.Guid):System.Security.AccessControl.AuditRule",
           "normalizedSignature": "AuditRuleFactory|(System.Security.Principal.IdentityReference,System.Int32,System.Boolean,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags,System.Security.AccessControl.AuditFlags,System.Guid,System.Guid):System.Security.AccessControl.AuditRule|static=false",
@@ -21942,7 +21942,7 @@
         {
           "stableId": "System.IO.FileSystem.AccessControl:System.Security.AccessControl.DirectoryObjectSecurity::AccessRuleFactory(System.Security.Principal.IdentityReference,System.Int32,System.Boolean,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags,System.Security.AccessControl.AccessControlType):System.Security.AccessControl.AccessRule",
           "clrName": "AccessRuleFactory",
-          "tsEmitName": "AccessRuleFactory",
+          "tsEmitName": "accessRuleFactory",
           "metadataToken": 0,
           "canonicalSignature": "(System.Security.Principal.IdentityReference,System.Int32,System.Boolean,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags,System.Security.AccessControl.AccessControlType):System.Security.AccessControl.AccessRule",
           "normalizedSignature": "AccessRuleFactory|(System.Security.Principal.IdentityReference,System.Int32,System.Boolean,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags,System.Security.AccessControl.AccessControlType):System.Security.AccessControl.AccessRule|static=false",
@@ -21956,7 +21956,7 @@
         {
           "stableId": "System.IO.FileSystem.AccessControl:System.Security.AccessControl.DirectoryObjectSecurity::AuditRuleFactory(System.Security.Principal.IdentityReference,System.Int32,System.Boolean,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags,System.Security.AccessControl.AuditFlags):System.Security.AccessControl.AuditRule",
           "clrName": "AuditRuleFactory",
-          "tsEmitName": "AuditRuleFactory",
+          "tsEmitName": "auditRuleFactory",
           "metadataToken": 0,
           "canonicalSignature": "(System.Security.Principal.IdentityReference,System.Int32,System.Boolean,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags,System.Security.AccessControl.AuditFlags):System.Security.AccessControl.AuditRule",
           "normalizedSignature": "AuditRuleFactory|(System.Security.Principal.IdentityReference,System.Int32,System.Boolean,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags,System.Security.AccessControl.AuditFlags):System.Security.AccessControl.AuditRule|static=false",
@@ -21974,7 +21974,7 @@
       "constructors": [],
       "exposedMethods": [
         {
-          "tsName": "accessRuleFactory",
+          "tsName": "accessRuleFactory2",
           "isStatic": false,
           "tsSignatureId": "AccessRuleFactory|(System.Security.Principal.IdentityReference,System.Int32,System.Boolean,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags,System.Security.AccessControl.AccessControlType,System.Guid,System.Guid):System.Security.AccessControl.AccessRule|static=false",
           "target": {
@@ -21984,7 +21984,7 @@
           }
         },
         {
-          "tsName": "auditRuleFactory",
+          "tsName": "auditRuleFactory2",
           "isStatic": false,
           "tsSignatureId": "AuditRuleFactory|(System.Security.Principal.IdentityReference,System.Int32,System.Boolean,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags,System.Security.AccessControl.AuditFlags,System.Guid,System.Guid):System.Security.AccessControl.AuditRule|static=false",
           "target": {
@@ -22014,7 +22014,7 @@
           }
         },
         {
-          "tsName": "AccessRuleFactory",
+          "tsName": "accessRuleFactory",
           "isStatic": false,
           "tsSignatureId": "AccessRuleFactory|(System.Security.Principal.IdentityReference,System.Int32,System.Boolean,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags,System.Security.AccessControl.AccessControlType):System.Security.AccessControl.AccessRule|static=false",
           "target": {
@@ -22024,7 +22024,7 @@
           }
         },
         {
-          "tsName": "AuditRuleFactory",
+          "tsName": "auditRuleFactory",
           "isStatic": false,
           "tsSignatureId": "AuditRuleFactory|(System.Security.Principal.IdentityReference,System.Int32,System.Boolean,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags,System.Security.AccessControl.AuditFlags):System.Security.AccessControl.AuditRule|static=false",
           "target": {
@@ -23022,7 +23022,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.ICollection::CopyTo(System.Array,System.Int32):System.Void",
           "clrName": "CopyTo",
-          "tsEmitName": "copyTo",
+          "tsEmitName": "copyTo$view",
           "metadataToken": 100703929,
           "canonicalSignature": "(System.Array,System.Int32):System.Void",
           "normalizedSignature": "CopyTo|(System.Array,System.Int32):System.Void|static=false",
@@ -23036,7 +23036,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
           "clrName": "GetEnumerator",
-          "tsEmitName": "getEnumerator",
+          "tsEmitName": "getEnumerator$view",
           "metadataToken": 100703948,
           "canonicalSignature": "():System.Collections.IEnumerator",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
@@ -23050,7 +23050,7 @@
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.DiscretionaryAcl::CopyTo(System.Array,System.Int32):System.Void",
           "clrName": "CopyTo",
-          "tsEmitName": "CopyTo",
+          "tsEmitName": "copyTo",
           "metadataToken": 0,
           "canonicalSignature": "(System.Array,System.Int32):System.Void",
           "normalizedSignature": "CopyTo|(System.Array,System.Int32):System.Void|static=false",
@@ -23064,7 +23064,7 @@
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.DiscretionaryAcl::CopyTo(System.Security.AccessControl.GenericAce[],System.Int32):System.Void",
           "clrName": "CopyTo",
-          "tsEmitName": "CopyTo3",
+          "tsEmitName": "copyTo3",
           "metadataToken": 0,
           "canonicalSignature": "(System.Security.AccessControl.GenericAce[],System.Int32):System.Void",
           "normalizedSignature": "CopyTo|(System.Security.AccessControl.GenericAce[],System.Int32):System.Void|static=false",
@@ -23078,7 +23078,7 @@
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.DiscretionaryAcl::GetEnumerator():System.Collections.IEnumerator",
           "clrName": "GetEnumerator",
-          "tsEmitName": "GetEnumerator",
+          "tsEmitName": "getEnumerator",
           "metadataToken": 0,
           "canonicalSignature": "():System.Collections.IEnumerator",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
@@ -23092,7 +23092,7 @@
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.DiscretionaryAcl::GetEnumerator():System.Security.AccessControl.AceEnumerator",
           "clrName": "GetEnumerator",
-          "tsEmitName": "GetEnumerator3",
+          "tsEmitName": "getEnumerator3",
           "metadataToken": 0,
           "canonicalSignature": "():System.Security.AccessControl.AceEnumerator",
           "normalizedSignature": "GetEnumerator|():System.Security.AccessControl.AceEnumerator|static=false",
@@ -23304,7 +23304,7 @@
           }
         },
         {
-          "tsName": "copyTo",
+          "tsName": "copyTo$view",
           "isStatic": false,
           "tsSignatureId": "CopyTo|(System.Array,System.Int32):System.Void|static=false",
           "target": {
@@ -23314,7 +23314,7 @@
           }
         },
         {
-          "tsName": "getEnumerator",
+          "tsName": "getEnumerator$view",
           "isStatic": false,
           "tsSignatureId": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "target": {
@@ -23324,7 +23324,7 @@
           }
         },
         {
-          "tsName": "CopyTo",
+          "tsName": "copyTo",
           "isStatic": false,
           "tsSignatureId": "CopyTo|(System.Array,System.Int32):System.Void|static=false",
           "target": {
@@ -23334,7 +23334,7 @@
           }
         },
         {
-          "tsName": "CopyTo3",
+          "tsName": "copyTo3",
           "isStatic": false,
           "tsSignatureId": "CopyTo|(System.Security.AccessControl.GenericAce[],System.Int32):System.Void|static=false",
           "target": {
@@ -23344,7 +23344,7 @@
           }
         },
         {
-          "tsName": "GetEnumerator",
+          "tsName": "getEnumerator",
           "isStatic": false,
           "tsSignatureId": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "target": {
@@ -23354,7 +23354,7 @@
           }
         },
         {
-          "tsName": "GetEnumerator3",
+          "tsName": "getEnumerator3",
           "isStatic": false,
           "tsSignatureId": "GetEnumerator|():System.Security.AccessControl.AceEnumerator|static=false",
           "target": {
@@ -31945,7 +31945,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.ICollection::CopyTo(System.Array,System.Int32):System.Void",
           "clrName": "CopyTo",
-          "tsEmitName": "copyTo",
+          "tsEmitName": "copyTo$view",
           "metadataToken": 100703929,
           "canonicalSignature": "(System.Array,System.Int32):System.Void",
           "normalizedSignature": "CopyTo|(System.Array,System.Int32):System.Void|static=false",
@@ -31959,7 +31959,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
           "clrName": "GetEnumerator",
-          "tsEmitName": "getEnumerator",
+          "tsEmitName": "getEnumerator$view",
           "metadataToken": 100703948,
           "canonicalSignature": "():System.Collections.IEnumerator",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
@@ -31973,7 +31973,7 @@
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.RawAcl::CopyTo(System.Security.AccessControl.GenericAce[],System.Int32):System.Void",
           "clrName": "CopyTo",
-          "tsEmitName": "CopyTo",
+          "tsEmitName": "copyTo",
           "metadataToken": 0,
           "canonicalSignature": "(System.Security.AccessControl.GenericAce[],System.Int32):System.Void",
           "normalizedSignature": "CopyTo|(System.Security.AccessControl.GenericAce[],System.Int32):System.Void|static=false",
@@ -31987,7 +31987,7 @@
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.RawAcl::CopyTo(System.Array,System.Int32):System.Void",
           "clrName": "CopyTo",
-          "tsEmitName": "CopyTo2",
+          "tsEmitName": "copyTo2",
           "metadataToken": 0,
           "canonicalSignature": "(System.Array,System.Int32):System.Void",
           "normalizedSignature": "CopyTo|(System.Array,System.Int32):System.Void|static=false",
@@ -32001,7 +32001,7 @@
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.RawAcl::GetEnumerator():System.Security.AccessControl.AceEnumerator",
           "clrName": "GetEnumerator",
-          "tsEmitName": "GetEnumerator",
+          "tsEmitName": "getEnumerator",
           "metadataToken": 0,
           "canonicalSignature": "():System.Security.AccessControl.AceEnumerator",
           "normalizedSignature": "GetEnumerator|():System.Security.AccessControl.AceEnumerator|static=false",
@@ -32015,7 +32015,7 @@
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.RawAcl::GetEnumerator():System.Collections.IEnumerator",
           "clrName": "GetEnumerator",
-          "tsEmitName": "GetEnumerator2",
+          "tsEmitName": "getEnumerator2",
           "metadataToken": 0,
           "canonicalSignature": "():System.Collections.IEnumerator",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
@@ -32183,7 +32183,7 @@
           }
         },
         {
-          "tsName": "copyTo",
+          "tsName": "copyTo$view",
           "isStatic": false,
           "tsSignatureId": "CopyTo|(System.Array,System.Int32):System.Void|static=false",
           "target": {
@@ -32193,7 +32193,7 @@
           }
         },
         {
-          "tsName": "getEnumerator",
+          "tsName": "getEnumerator$view",
           "isStatic": false,
           "tsSignatureId": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "target": {
@@ -32203,7 +32203,7 @@
           }
         },
         {
-          "tsName": "CopyTo",
+          "tsName": "copyTo",
           "isStatic": false,
           "tsSignatureId": "CopyTo|(System.Security.AccessControl.GenericAce[],System.Int32):System.Void|static=false",
           "target": {
@@ -32213,7 +32213,7 @@
           }
         },
         {
-          "tsName": "CopyTo2",
+          "tsName": "copyTo2",
           "isStatic": false,
           "tsSignatureId": "CopyTo|(System.Array,System.Int32):System.Void|static=false",
           "target": {
@@ -32223,7 +32223,7 @@
           }
         },
         {
-          "tsName": "GetEnumerator",
+          "tsName": "getEnumerator",
           "isStatic": false,
           "tsSignatureId": "GetEnumerator|():System.Security.AccessControl.AceEnumerator|static=false",
           "target": {
@@ -32233,7 +32233,7 @@
           }
         },
         {
-          "tsName": "GetEnumerator2",
+          "tsName": "getEnumerator2",
           "isStatic": false,
           "tsSignatureId": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "target": {
@@ -35164,7 +35164,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.ICollection::CopyTo(System.Array,System.Int32):System.Void",
           "clrName": "CopyTo",
-          "tsEmitName": "copyTo",
+          "tsEmitName": "copyTo$view",
           "metadataToken": 100703929,
           "canonicalSignature": "(System.Array,System.Int32):System.Void",
           "normalizedSignature": "CopyTo|(System.Array,System.Int32):System.Void|static=false",
@@ -35178,7 +35178,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
           "clrName": "GetEnumerator",
-          "tsEmitName": "getEnumerator",
+          "tsEmitName": "getEnumerator$view",
           "metadataToken": 100703948,
           "canonicalSignature": "():System.Collections.IEnumerator",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
@@ -35192,7 +35192,7 @@
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.SystemAcl::CopyTo(System.Array,System.Int32):System.Void",
           "clrName": "CopyTo",
-          "tsEmitName": "CopyTo",
+          "tsEmitName": "copyTo",
           "metadataToken": 0,
           "canonicalSignature": "(System.Array,System.Int32):System.Void",
           "normalizedSignature": "CopyTo|(System.Array,System.Int32):System.Void|static=false",
@@ -35206,7 +35206,7 @@
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.SystemAcl::CopyTo(System.Security.AccessControl.GenericAce[],System.Int32):System.Void",
           "clrName": "CopyTo",
-          "tsEmitName": "CopyTo3",
+          "tsEmitName": "copyTo3",
           "metadataToken": 0,
           "canonicalSignature": "(System.Security.AccessControl.GenericAce[],System.Int32):System.Void",
           "normalizedSignature": "CopyTo|(System.Security.AccessControl.GenericAce[],System.Int32):System.Void|static=false",
@@ -35220,7 +35220,7 @@
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.SystemAcl::GetEnumerator():System.Collections.IEnumerator",
           "clrName": "GetEnumerator",
-          "tsEmitName": "GetEnumerator",
+          "tsEmitName": "getEnumerator",
           "metadataToken": 0,
           "canonicalSignature": "():System.Collections.IEnumerator",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
@@ -35234,7 +35234,7 @@
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.SystemAcl::GetEnumerator():System.Security.AccessControl.AceEnumerator",
           "clrName": "GetEnumerator",
-          "tsEmitName": "GetEnumerator3",
+          "tsEmitName": "getEnumerator3",
           "metadataToken": 0,
           "canonicalSignature": "():System.Security.AccessControl.AceEnumerator",
           "normalizedSignature": "GetEnumerator|():System.Security.AccessControl.AceEnumerator|static=false",
@@ -35446,7 +35446,7 @@
           }
         },
         {
-          "tsName": "copyTo",
+          "tsName": "copyTo$view",
           "isStatic": false,
           "tsSignatureId": "CopyTo|(System.Array,System.Int32):System.Void|static=false",
           "target": {
@@ -35456,7 +35456,7 @@
           }
         },
         {
-          "tsName": "getEnumerator",
+          "tsName": "getEnumerator$view",
           "isStatic": false,
           "tsSignatureId": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "target": {
@@ -35466,7 +35466,7 @@
           }
         },
         {
-          "tsName": "CopyTo",
+          "tsName": "copyTo",
           "isStatic": false,
           "tsSignatureId": "CopyTo|(System.Array,System.Int32):System.Void|static=false",
           "target": {
@@ -35476,7 +35476,7 @@
           }
         },
         {
-          "tsName": "CopyTo3",
+          "tsName": "copyTo3",
           "isStatic": false,
           "tsSignatureId": "CopyTo|(System.Security.AccessControl.GenericAce[],System.Int32):System.Void|static=false",
           "target": {
@@ -35486,7 +35486,7 @@
           }
         },
         {
-          "tsName": "GetEnumerator",
+          "tsName": "getEnumerator",
           "isStatic": false,
           "tsSignatureId": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "target": {
@@ -35496,7 +35496,7 @@
           }
         },
         {
-          "tsName": "GetEnumerator3",
+          "tsName": "getEnumerator3",
           "isStatic": false,
           "tsSignatureId": "GetEnumerator|():System.Security.AccessControl.AceEnumerator|static=false",
           "target": {

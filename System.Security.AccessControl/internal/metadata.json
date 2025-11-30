@@ -23,7 +23,7 @@
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.AccessControlActions::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -76,7 +76,7 @@
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.AccessControlModification::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -156,7 +156,7 @@
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.AccessControlSections::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -236,7 +236,7 @@
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.AccessControlType::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -280,7 +280,7 @@
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.AceFlags::value__System.Byte",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Byte|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -396,7 +396,7 @@
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.AceQualifier::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -458,7 +458,7 @@
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.AceType::value__System.Byte",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Byte|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -646,7 +646,7 @@
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.AuditFlags::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -699,7 +699,7 @@
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.CompoundAceType::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -734,7 +734,7 @@
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.ControlFlags::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -913,7 +913,7 @@
         {
           "stableId": "System.Threading.AccessControl:System.Security.AccessControl.EventWaitHandleRights::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -1002,7 +1002,7 @@
         {
           "stableId": "System.IO.FileSystem.AccessControl:System.Security.AccessControl.FileSystemRights::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -1235,7 +1235,7 @@
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.InheritanceFlags::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -1288,7 +1288,7 @@
         {
           "stableId": "System.Threading.AccessControl:System.Security.AccessControl.MutexRights::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -1377,7 +1377,7 @@
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.ObjectAceFlags::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -1430,7 +1430,7 @@
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.PropagationFlags::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -1483,7 +1483,7 @@
         {
           "stableId": "Microsoft.Win32.Registry:System.Security.AccessControl.RegistryRights::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -1635,7 +1635,7 @@
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.ResourceType::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -1778,7 +1778,7 @@
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.SecurityInfos::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -1840,7 +1840,7 @@
         {
           "stableId": "System.Threading.AccessControl:System.Security.AccessControl.SemaphoreRights::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -2305,7 +2305,7 @@
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.AuthorizationRuleCollection::CopyTo(System.Security.AccessControl.AuthorizationRule[],System.Int32):System.Void",
           "clrName": "CopyTo",
-          "tsEmitName": "copyTo",
+          "tsEmitName": "copyTo2",
           "normalizedSignature": "CopyTo|(System.Security.AccessControl.AuthorizationRule[],System.Int32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2338,7 +2338,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
           "clrName": "GetEnumerator",
-          "tsEmitName": "getEnumerator",
+          "tsEmitName": "getEnumerator$view",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -2355,7 +2355,7 @@
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.AuthorizationRuleCollection::CopyTo(System.Array,System.Int32):System.Void",
           "clrName": "CopyTo",
-          "tsEmitName": "CopyTo",
+          "tsEmitName": "copyTo",
           "normalizedSignature": "CopyTo|(System.Array,System.Int32):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -2371,7 +2371,7 @@
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.AuthorizationRuleCollection::GetEnumerator():System.Collections.IEnumerator",
           "clrName": "GetEnumerator",
-          "tsEmitName": "GetEnumerator",
+          "tsEmitName": "getEnumerator",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -2593,7 +2593,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.ICollection::CopyTo(System.Array,System.Int32):System.Void",
           "clrName": "CopyTo",
-          "tsEmitName": "copyTo",
+          "tsEmitName": "copyTo$view",
           "normalizedSignature": "CopyTo|(System.Array,System.Int32):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -2610,7 +2610,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
           "clrName": "GetEnumerator",
-          "tsEmitName": "getEnumerator",
+          "tsEmitName": "getEnumerator$view",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -2627,7 +2627,7 @@
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.CommonAcl::CopyTo(System.Security.AccessControl.GenericAce[],System.Int32):System.Void",
           "clrName": "CopyTo",
-          "tsEmitName": "CopyTo",
+          "tsEmitName": "copyTo",
           "normalizedSignature": "CopyTo|(System.Security.AccessControl.GenericAce[],System.Int32):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -2643,7 +2643,7 @@
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.CommonAcl::CopyTo(System.Array,System.Int32):System.Void",
           "clrName": "CopyTo",
-          "tsEmitName": "CopyTo2",
+          "tsEmitName": "copyTo2",
           "normalizedSignature": "CopyTo|(System.Array,System.Int32):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -2659,7 +2659,7 @@
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.CommonAcl::GetEnumerator():System.Security.AccessControl.AceEnumerator",
           "clrName": "GetEnumerator",
-          "tsEmitName": "GetEnumerator",
+          "tsEmitName": "getEnumerator",
           "normalizedSignature": "GetEnumerator|():System.Security.AccessControl.AceEnumerator|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -2675,7 +2675,7 @@
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.CommonAcl::GetEnumerator():System.Collections.IEnumerator",
           "clrName": "GetEnumerator",
-          "tsEmitName": "GetEnumerator2",
+          "tsEmitName": "getEnumerator2",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -3363,7 +3363,7 @@
         {
           "stableId": "System.IO.FileSystem.AccessControl:System.Security.AccessControl.DirectoryObjectSecurity::AccessRuleFactory(System.Security.Principal.IdentityReference,System.Int32,System.Boolean,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags,System.Security.AccessControl.AccessControlType,System.Guid,System.Guid):System.Security.AccessControl.AccessRule",
           "clrName": "AccessRuleFactory",
-          "tsEmitName": "accessRuleFactory",
+          "tsEmitName": "accessRuleFactory2",
           "normalizedSignature": "AccessRuleFactory|(System.Security.Principal.IdentityReference,System.Int32,System.Boolean,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags,System.Security.AccessControl.AccessControlType,System.Guid,System.Guid):System.Security.AccessControl.AccessRule|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3379,7 +3379,7 @@
         {
           "stableId": "System.IO.FileSystem.AccessControl:System.Security.AccessControl.DirectoryObjectSecurity::AuditRuleFactory(System.Security.Principal.IdentityReference,System.Int32,System.Boolean,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags,System.Security.AccessControl.AuditFlags,System.Guid,System.Guid):System.Security.AccessControl.AuditRule",
           "clrName": "AuditRuleFactory",
-          "tsEmitName": "auditRuleFactory",
+          "tsEmitName": "auditRuleFactory2",
           "normalizedSignature": "AuditRuleFactory|(System.Security.Principal.IdentityReference,System.Int32,System.Boolean,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags,System.Security.AccessControl.AuditFlags,System.Guid,System.Guid):System.Security.AccessControl.AuditRule|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3427,7 +3427,7 @@
         {
           "stableId": "System.IO.FileSystem.AccessControl:System.Security.AccessControl.DirectoryObjectSecurity::AccessRuleFactory(System.Security.Principal.IdentityReference,System.Int32,System.Boolean,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags,System.Security.AccessControl.AccessControlType):System.Security.AccessControl.AccessRule",
           "clrName": "AccessRuleFactory",
-          "tsEmitName": "AccessRuleFactory",
+          "tsEmitName": "accessRuleFactory",
           "normalizedSignature": "AccessRuleFactory|(System.Security.Principal.IdentityReference,System.Int32,System.Boolean,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags,System.Security.AccessControl.AccessControlType):System.Security.AccessControl.AccessRule|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -3443,7 +3443,7 @@
         {
           "stableId": "System.IO.FileSystem.AccessControl:System.Security.AccessControl.DirectoryObjectSecurity::AuditRuleFactory(System.Security.Principal.IdentityReference,System.Int32,System.Boolean,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags,System.Security.AccessControl.AuditFlags):System.Security.AccessControl.AuditRule",
           "clrName": "AuditRuleFactory",
-          "tsEmitName": "AuditRuleFactory",
+          "tsEmitName": "auditRuleFactory",
           "normalizedSignature": "AuditRuleFactory|(System.Security.Principal.IdentityReference,System.Int32,System.Boolean,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags,System.Security.AccessControl.AuditFlags):System.Security.AccessControl.AuditRule|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -3695,7 +3695,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.ICollection::CopyTo(System.Array,System.Int32):System.Void",
           "clrName": "CopyTo",
-          "tsEmitName": "copyTo",
+          "tsEmitName": "copyTo$view",
           "normalizedSignature": "CopyTo|(System.Array,System.Int32):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3712,7 +3712,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
           "clrName": "GetEnumerator",
-          "tsEmitName": "getEnumerator",
+          "tsEmitName": "getEnumerator$view",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3729,7 +3729,7 @@
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.DiscretionaryAcl::CopyTo(System.Array,System.Int32):System.Void",
           "clrName": "CopyTo",
-          "tsEmitName": "CopyTo",
+          "tsEmitName": "copyTo",
           "normalizedSignature": "CopyTo|(System.Array,System.Int32):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -3745,7 +3745,7 @@
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.DiscretionaryAcl::CopyTo(System.Security.AccessControl.GenericAce[],System.Int32):System.Void",
           "clrName": "CopyTo",
-          "tsEmitName": "CopyTo3",
+          "tsEmitName": "copyTo3",
           "normalizedSignature": "CopyTo|(System.Security.AccessControl.GenericAce[],System.Int32):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -3761,7 +3761,7 @@
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.DiscretionaryAcl::GetEnumerator():System.Collections.IEnumerator",
           "clrName": "GetEnumerator",
-          "tsEmitName": "GetEnumerator",
+          "tsEmitName": "getEnumerator",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -3777,7 +3777,7 @@
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.DiscretionaryAcl::GetEnumerator():System.Security.AccessControl.AceEnumerator",
           "clrName": "GetEnumerator",
-          "tsEmitName": "GetEnumerator3",
+          "tsEmitName": "getEnumerator3",
           "normalizedSignature": "GetEnumerator|():System.Security.AccessControl.AceEnumerator|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -6836,7 +6836,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.ICollection::CopyTo(System.Array,System.Int32):System.Void",
           "clrName": "CopyTo",
-          "tsEmitName": "copyTo",
+          "tsEmitName": "copyTo$view",
           "normalizedSignature": "CopyTo|(System.Array,System.Int32):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -6853,7 +6853,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
           "clrName": "GetEnumerator",
-          "tsEmitName": "getEnumerator",
+          "tsEmitName": "getEnumerator$view",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -6870,7 +6870,7 @@
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.RawAcl::CopyTo(System.Security.AccessControl.GenericAce[],System.Int32):System.Void",
           "clrName": "CopyTo",
-          "tsEmitName": "CopyTo",
+          "tsEmitName": "copyTo",
           "normalizedSignature": "CopyTo|(System.Security.AccessControl.GenericAce[],System.Int32):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -6886,7 +6886,7 @@
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.RawAcl::CopyTo(System.Array,System.Int32):System.Void",
           "clrName": "CopyTo",
-          "tsEmitName": "CopyTo2",
+          "tsEmitName": "copyTo2",
           "normalizedSignature": "CopyTo|(System.Array,System.Int32):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -6902,7 +6902,7 @@
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.RawAcl::GetEnumerator():System.Security.AccessControl.AceEnumerator",
           "clrName": "GetEnumerator",
-          "tsEmitName": "GetEnumerator",
+          "tsEmitName": "getEnumerator",
           "normalizedSignature": "GetEnumerator|():System.Security.AccessControl.AceEnumerator|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -6918,7 +6918,7 @@
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.RawAcl::GetEnumerator():System.Collections.IEnumerator",
           "clrName": "GetEnumerator",
-          "tsEmitName": "GetEnumerator2",
+          "tsEmitName": "getEnumerator2",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -8139,7 +8139,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.ICollection::CopyTo(System.Array,System.Int32):System.Void",
           "clrName": "CopyTo",
-          "tsEmitName": "copyTo",
+          "tsEmitName": "copyTo$view",
           "normalizedSignature": "CopyTo|(System.Array,System.Int32):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -8156,7 +8156,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
           "clrName": "GetEnumerator",
-          "tsEmitName": "getEnumerator",
+          "tsEmitName": "getEnumerator$view",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -8173,7 +8173,7 @@
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.SystemAcl::CopyTo(System.Array,System.Int32):System.Void",
           "clrName": "CopyTo",
-          "tsEmitName": "CopyTo",
+          "tsEmitName": "copyTo",
           "normalizedSignature": "CopyTo|(System.Array,System.Int32):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -8189,7 +8189,7 @@
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.SystemAcl::CopyTo(System.Security.AccessControl.GenericAce[],System.Int32):System.Void",
           "clrName": "CopyTo",
-          "tsEmitName": "CopyTo3",
+          "tsEmitName": "copyTo3",
           "normalizedSignature": "CopyTo|(System.Security.AccessControl.GenericAce[],System.Int32):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -8205,7 +8205,7 @@
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.SystemAcl::GetEnumerator():System.Collections.IEnumerator",
           "clrName": "GetEnumerator",
-          "tsEmitName": "GetEnumerator",
+          "tsEmitName": "getEnumerator",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -8221,7 +8221,7 @@
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.SystemAcl::GetEnumerator():System.Security.AccessControl.AceEnumerator",
           "clrName": "GetEnumerator",
-          "tsEmitName": "GetEnumerator3",
+          "tsEmitName": "getEnumerator3",
           "normalizedSignature": "GetEnumerator|():System.Security.AccessControl.AceEnumerator|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",

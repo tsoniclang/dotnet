@@ -21,7 +21,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.ConfigureAwaitOptions::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -83,7 +83,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.TaskContinuationOptions::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -244,7 +244,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.TaskCreationOptions::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -333,7 +333,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.TaskStatus::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -3065,7 +3065,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task\u00601::GetAwaiter():TaskAwaiter_1",
           "clrName": "GetAwaiter",
-          "tsEmitName": "getAwaiter",
+          "tsEmitName": "getAwaiter2",
           "normalizedSignature": "GetAwaiter|():TaskAwaiter_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3081,7 +3081,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task\u00601::ConfigureAwait(System.Boolean):ConfiguredTaskAwaitable_1",
           "clrName": "ConfigureAwait",
-          "tsEmitName": "configureAwait",
+          "tsEmitName": "configureAwait3",
           "normalizedSignature": "ConfigureAwait|(System.Boolean):ConfiguredTaskAwaitable_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3097,7 +3097,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task\u00601::ConfigureAwait(System.Threading.Tasks.ConfigureAwaitOptions):ConfiguredTaskAwaitable_1",
           "clrName": "ConfigureAwait",
-          "tsEmitName": "configureAwait2",
+          "tsEmitName": "configureAwait4",
           "normalizedSignature": "ConfigureAwait|(System.Threading.Tasks.ConfigureAwaitOptions):ConfiguredTaskAwaitable_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3113,7 +3113,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task\u00601::WaitAsync(System.Threading.CancellationToken):Task_1",
           "clrName": "WaitAsync",
-          "tsEmitName": "waitAsync",
+          "tsEmitName": "waitAsync6",
           "normalizedSignature": "WaitAsync|(System.Threading.CancellationToken):Task_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3129,7 +3129,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task\u00601::WaitAsync(System.TimeSpan):Task_1",
           "clrName": "WaitAsync",
-          "tsEmitName": "waitAsync2",
+          "tsEmitName": "waitAsync7",
           "normalizedSignature": "WaitAsync|(System.TimeSpan):Task_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3145,7 +3145,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task\u00601::WaitAsync(System.TimeSpan,System.TimeProvider):Task_1",
           "clrName": "WaitAsync",
-          "tsEmitName": "waitAsync3",
+          "tsEmitName": "waitAsync8",
           "normalizedSignature": "WaitAsync|(System.TimeSpan,System.TimeProvider):Task_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3161,7 +3161,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task\u00601::WaitAsync(System.TimeSpan,System.Threading.CancellationToken):Task_1",
           "clrName": "WaitAsync",
-          "tsEmitName": "waitAsync4",
+          "tsEmitName": "waitAsync9",
           "normalizedSignature": "WaitAsync|(System.TimeSpan,System.Threading.CancellationToken):Task_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3177,7 +3177,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task\u00601::WaitAsync(System.TimeSpan,System.TimeProvider,System.Threading.CancellationToken):Task_1",
           "clrName": "WaitAsync",
-          "tsEmitName": "waitAsync5",
+          "tsEmitName": "waitAsync10",
           "normalizedSignature": "WaitAsync|(System.TimeSpan,System.TimeProvider,System.Threading.CancellationToken):Task_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3193,7 +3193,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task\u00601::ContinueWith(Action_1):System.Threading.Tasks.Task",
           "clrName": "ContinueWith",
-          "tsEmitName": "continueWith",
+          "tsEmitName": "continueWith21",
           "normalizedSignature": "ContinueWith|(Action_1):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3209,7 +3209,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task\u00601::ContinueWith(Action_1,System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "clrName": "ContinueWith",
-          "tsEmitName": "continueWith2",
+          "tsEmitName": "continueWith22",
           "normalizedSignature": "ContinueWith|(Action_1,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3225,7 +3225,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task\u00601::ContinueWith(Action_1,System.Threading.Tasks.TaskScheduler):System.Threading.Tasks.Task",
           "clrName": "ContinueWith",
-          "tsEmitName": "continueWith3",
+          "tsEmitName": "continueWith23",
           "normalizedSignature": "ContinueWith|(Action_1,System.Threading.Tasks.TaskScheduler):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3241,7 +3241,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task\u00601::ContinueWith(Action_1,System.Threading.Tasks.TaskContinuationOptions):System.Threading.Tasks.Task",
           "clrName": "ContinueWith",
-          "tsEmitName": "continueWith4",
+          "tsEmitName": "continueWith24",
           "normalizedSignature": "ContinueWith|(Action_1,System.Threading.Tasks.TaskContinuationOptions):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3257,7 +3257,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task\u00601::ContinueWith(Action_1,System.Threading.CancellationToken,System.Threading.Tasks.TaskContinuationOptions,System.Threading.Tasks.TaskScheduler):System.Threading.Tasks.Task",
           "clrName": "ContinueWith",
-          "tsEmitName": "continueWith5",
+          "tsEmitName": "continueWith25",
           "normalizedSignature": "ContinueWith|(Action_1,System.Threading.CancellationToken,System.Threading.Tasks.TaskContinuationOptions,System.Threading.Tasks.TaskScheduler):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3273,7 +3273,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task\u00601::ContinueWith(Action_2,System.Object):System.Threading.Tasks.Task",
           "clrName": "ContinueWith",
-          "tsEmitName": "continueWith6",
+          "tsEmitName": "continueWith26",
           "normalizedSignature": "ContinueWith|(Action_2,System.Object):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3289,7 +3289,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task\u00601::ContinueWith(Action_2,System.Object,System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "clrName": "ContinueWith",
-          "tsEmitName": "continueWith7",
+          "tsEmitName": "continueWith27",
           "normalizedSignature": "ContinueWith|(Action_2,System.Object,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3305,7 +3305,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task\u00601::ContinueWith(Action_2,System.Object,System.Threading.Tasks.TaskScheduler):System.Threading.Tasks.Task",
           "clrName": "ContinueWith",
-          "tsEmitName": "continueWith8",
+          "tsEmitName": "continueWith28",
           "normalizedSignature": "ContinueWith|(Action_2,System.Object,System.Threading.Tasks.TaskScheduler):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3321,7 +3321,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task\u00601::ContinueWith(Action_2,System.Object,System.Threading.Tasks.TaskContinuationOptions):System.Threading.Tasks.Task",
           "clrName": "ContinueWith",
-          "tsEmitName": "continueWith9",
+          "tsEmitName": "continueWith29",
           "normalizedSignature": "ContinueWith|(Action_2,System.Object,System.Threading.Tasks.TaskContinuationOptions):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3337,7 +3337,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task\u00601::ContinueWith(Action_2,System.Object,System.Threading.CancellationToken,System.Threading.Tasks.TaskContinuationOptions,System.Threading.Tasks.TaskScheduler):System.Threading.Tasks.Task",
           "clrName": "ContinueWith",
-          "tsEmitName": "continueWith10",
+          "tsEmitName": "continueWith30",
           "normalizedSignature": "ContinueWith|(Action_2,System.Object,System.Threading.CancellationToken,System.Threading.Tasks.TaskContinuationOptions,System.Threading.Tasks.TaskScheduler):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3353,7 +3353,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task\u00601::ContinueWith(Func_2):Task_1",
           "clrName": "ContinueWith",
-          "tsEmitName": "continueWith11",
+          "tsEmitName": "continueWith31",
           "normalizedSignature": "ContinueWith|(Func_2):Task_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3369,7 +3369,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task\u00601::ContinueWith(Func_2,System.Threading.CancellationToken):Task_1",
           "clrName": "ContinueWith",
-          "tsEmitName": "continueWith12",
+          "tsEmitName": "continueWith32",
           "normalizedSignature": "ContinueWith|(Func_2,System.Threading.CancellationToken):Task_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3385,7 +3385,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task\u00601::ContinueWith(Func_2,System.Threading.Tasks.TaskScheduler):Task_1",
           "clrName": "ContinueWith",
-          "tsEmitName": "continueWith13",
+          "tsEmitName": "continueWith33",
           "normalizedSignature": "ContinueWith|(Func_2,System.Threading.Tasks.TaskScheduler):Task_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3401,7 +3401,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task\u00601::ContinueWith(Func_2,System.Threading.Tasks.TaskContinuationOptions):Task_1",
           "clrName": "ContinueWith",
-          "tsEmitName": "continueWith14",
+          "tsEmitName": "continueWith34",
           "normalizedSignature": "ContinueWith|(Func_2,System.Threading.Tasks.TaskContinuationOptions):Task_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3417,7 +3417,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task\u00601::ContinueWith(Func_2,System.Threading.CancellationToken,System.Threading.Tasks.TaskContinuationOptions,System.Threading.Tasks.TaskScheduler):Task_1",
           "clrName": "ContinueWith",
-          "tsEmitName": "continueWith15",
+          "tsEmitName": "continueWith35",
           "normalizedSignature": "ContinueWith|(Func_2,System.Threading.CancellationToken,System.Threading.Tasks.TaskContinuationOptions,System.Threading.Tasks.TaskScheduler):Task_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3433,7 +3433,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task\u00601::ContinueWith(Func_3,System.Object):Task_1",
           "clrName": "ContinueWith",
-          "tsEmitName": "continueWith16",
+          "tsEmitName": "continueWith36",
           "normalizedSignature": "ContinueWith|(Func_3,System.Object):Task_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3449,7 +3449,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task\u00601::ContinueWith(Func_3,System.Object,System.Threading.CancellationToken):Task_1",
           "clrName": "ContinueWith",
-          "tsEmitName": "continueWith17",
+          "tsEmitName": "continueWith37",
           "normalizedSignature": "ContinueWith|(Func_3,System.Object,System.Threading.CancellationToken):Task_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3465,7 +3465,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task\u00601::ContinueWith(Func_3,System.Object,System.Threading.Tasks.TaskScheduler):Task_1",
           "clrName": "ContinueWith",
-          "tsEmitName": "continueWith18",
+          "tsEmitName": "continueWith38",
           "normalizedSignature": "ContinueWith|(Func_3,System.Object,System.Threading.Tasks.TaskScheduler):Task_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3481,7 +3481,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task\u00601::ContinueWith(Func_3,System.Object,System.Threading.Tasks.TaskContinuationOptions):Task_1",
           "clrName": "ContinueWith",
-          "tsEmitName": "continueWith19",
+          "tsEmitName": "continueWith39",
           "normalizedSignature": "ContinueWith|(Func_3,System.Object,System.Threading.Tasks.TaskContinuationOptions):Task_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3497,7 +3497,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task\u00601::ContinueWith(Func_3,System.Object,System.Threading.CancellationToken,System.Threading.Tasks.TaskContinuationOptions,System.Threading.Tasks.TaskScheduler):Task_1",
           "clrName": "ContinueWith",
-          "tsEmitName": "continueWith20",
+          "tsEmitName": "continueWith40",
           "normalizedSignature": "ContinueWith|(Func_3,System.Object,System.Threading.CancellationToken,System.Threading.Tasks.TaskContinuationOptions,System.Threading.Tasks.TaskScheduler):Task_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3513,7 +3513,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "dispose",
+          "tsEmitName": "dispose$view",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3530,7 +3530,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task\u00601::ConfigureAwait(System.Boolean):System.Runtime.CompilerServices.ConfiguredTaskAwaitable",
           "clrName": "ConfigureAwait",
-          "tsEmitName": "ConfigureAwait",
+          "tsEmitName": "configureAwait",
           "normalizedSignature": "ConfigureAwait|(System.Boolean):System.Runtime.CompilerServices.ConfiguredTaskAwaitable|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -3546,7 +3546,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task\u00601::ConfigureAwait(System.Threading.Tasks.ConfigureAwaitOptions):System.Runtime.CompilerServices.ConfiguredTaskAwaitable",
           "clrName": "ConfigureAwait",
-          "tsEmitName": "ConfigureAwait2",
+          "tsEmitName": "configureAwait2",
           "normalizedSignature": "ConfigureAwait|(System.Threading.Tasks.ConfigureAwaitOptions):System.Runtime.CompilerServices.ConfiguredTaskAwaitable|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -3562,7 +3562,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task\u00601::ContinueWith(System.Action_1):System.Threading.Tasks.Task",
           "clrName": "ContinueWith",
-          "tsEmitName": "ContinueWith",
+          "tsEmitName": "continueWith",
           "normalizedSignature": "ContinueWith|(System.Action_1):System.Threading.Tasks.Task|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -3578,7 +3578,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task\u00601::ContinueWith(System.Action_1,System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "clrName": "ContinueWith",
-          "tsEmitName": "ContinueWith2",
+          "tsEmitName": "continueWith2",
           "normalizedSignature": "ContinueWith|(System.Action_1,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -3594,7 +3594,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task\u00601::ContinueWith(System.Action_1,System.Threading.Tasks.TaskScheduler):System.Threading.Tasks.Task",
           "clrName": "ContinueWith",
-          "tsEmitName": "ContinueWith3",
+          "tsEmitName": "continueWith3",
           "normalizedSignature": "ContinueWith|(System.Action_1,System.Threading.Tasks.TaskScheduler):System.Threading.Tasks.Task|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -3610,7 +3610,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task\u00601::ContinueWith(System.Action_1,System.Threading.Tasks.TaskContinuationOptions):System.Threading.Tasks.Task",
           "clrName": "ContinueWith",
-          "tsEmitName": "ContinueWith4",
+          "tsEmitName": "continueWith4",
           "normalizedSignature": "ContinueWith|(System.Action_1,System.Threading.Tasks.TaskContinuationOptions):System.Threading.Tasks.Task|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -3626,7 +3626,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task\u00601::ContinueWith(System.Action_1,System.Threading.CancellationToken,System.Threading.Tasks.TaskContinuationOptions,System.Threading.Tasks.TaskScheduler):System.Threading.Tasks.Task",
           "clrName": "ContinueWith",
-          "tsEmitName": "ContinueWith5",
+          "tsEmitName": "continueWith5",
           "normalizedSignature": "ContinueWith|(System.Action_1,System.Threading.CancellationToken,System.Threading.Tasks.TaskContinuationOptions,System.Threading.Tasks.TaskScheduler):System.Threading.Tasks.Task|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -3642,7 +3642,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task\u00601::ContinueWith(System.Action_2,System.Object):System.Threading.Tasks.Task",
           "clrName": "ContinueWith",
-          "tsEmitName": "ContinueWith6",
+          "tsEmitName": "continueWith6",
           "normalizedSignature": "ContinueWith|(System.Action_2,System.Object):System.Threading.Tasks.Task|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -3658,7 +3658,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task\u00601::ContinueWith(System.Action_2,System.Object,System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "clrName": "ContinueWith",
-          "tsEmitName": "ContinueWith7",
+          "tsEmitName": "continueWith7",
           "normalizedSignature": "ContinueWith|(System.Action_2,System.Object,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -3674,7 +3674,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task\u00601::ContinueWith(System.Action_2,System.Object,System.Threading.Tasks.TaskScheduler):System.Threading.Tasks.Task",
           "clrName": "ContinueWith",
-          "tsEmitName": "ContinueWith8",
+          "tsEmitName": "continueWith8",
           "normalizedSignature": "ContinueWith|(System.Action_2,System.Object,System.Threading.Tasks.TaskScheduler):System.Threading.Tasks.Task|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -3690,7 +3690,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task\u00601::ContinueWith(System.Action_2,System.Object,System.Threading.Tasks.TaskContinuationOptions):System.Threading.Tasks.Task",
           "clrName": "ContinueWith",
-          "tsEmitName": "ContinueWith9",
+          "tsEmitName": "continueWith9",
           "normalizedSignature": "ContinueWith|(System.Action_2,System.Object,System.Threading.Tasks.TaskContinuationOptions):System.Threading.Tasks.Task|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -3706,7 +3706,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task\u00601::ContinueWith(System.Action_2,System.Object,System.Threading.CancellationToken,System.Threading.Tasks.TaskContinuationOptions,System.Threading.Tasks.TaskScheduler):System.Threading.Tasks.Task",
           "clrName": "ContinueWith",
-          "tsEmitName": "ContinueWith10",
+          "tsEmitName": "continueWith10",
           "normalizedSignature": "ContinueWith|(System.Action_2,System.Object,System.Threading.CancellationToken,System.Threading.Tasks.TaskContinuationOptions,System.Threading.Tasks.TaskScheduler):System.Threading.Tasks.Task|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -3722,7 +3722,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task\u00601::ContinueWith(System.Func_2):System.Threading.Tasks.Task_1",
           "clrName": "ContinueWith",
-          "tsEmitName": "ContinueWith11",
+          "tsEmitName": "continueWith11",
           "normalizedSignature": "ContinueWith|(System.Func_2):System.Threading.Tasks.Task_1|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -3738,7 +3738,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task\u00601::ContinueWith(System.Func_2,System.Threading.CancellationToken):System.Threading.Tasks.Task_1",
           "clrName": "ContinueWith",
-          "tsEmitName": "ContinueWith12",
+          "tsEmitName": "continueWith12",
           "normalizedSignature": "ContinueWith|(System.Func_2,System.Threading.CancellationToken):System.Threading.Tasks.Task_1|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -3754,7 +3754,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task\u00601::ContinueWith(System.Func_2,System.Threading.Tasks.TaskScheduler):System.Threading.Tasks.Task_1",
           "clrName": "ContinueWith",
-          "tsEmitName": "ContinueWith13",
+          "tsEmitName": "continueWith13",
           "normalizedSignature": "ContinueWith|(System.Func_2,System.Threading.Tasks.TaskScheduler):System.Threading.Tasks.Task_1|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -3770,7 +3770,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task\u00601::ContinueWith(System.Func_2,System.Threading.Tasks.TaskContinuationOptions):System.Threading.Tasks.Task_1",
           "clrName": "ContinueWith",
-          "tsEmitName": "ContinueWith14",
+          "tsEmitName": "continueWith14",
           "normalizedSignature": "ContinueWith|(System.Func_2,System.Threading.Tasks.TaskContinuationOptions):System.Threading.Tasks.Task_1|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -3786,7 +3786,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task\u00601::ContinueWith(System.Func_2,System.Threading.CancellationToken,System.Threading.Tasks.TaskContinuationOptions,System.Threading.Tasks.TaskScheduler):System.Threading.Tasks.Task_1",
           "clrName": "ContinueWith",
-          "tsEmitName": "ContinueWith15",
+          "tsEmitName": "continueWith15",
           "normalizedSignature": "ContinueWith|(System.Func_2,System.Threading.CancellationToken,System.Threading.Tasks.TaskContinuationOptions,System.Threading.Tasks.TaskScheduler):System.Threading.Tasks.Task_1|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -3802,7 +3802,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task\u00601::ContinueWith(System.Func_3,System.Object):System.Threading.Tasks.Task_1",
           "clrName": "ContinueWith",
-          "tsEmitName": "ContinueWith16",
+          "tsEmitName": "continueWith16",
           "normalizedSignature": "ContinueWith|(System.Func_3,System.Object):System.Threading.Tasks.Task_1|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -3818,7 +3818,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task\u00601::ContinueWith(System.Func_3,System.Object,System.Threading.CancellationToken):System.Threading.Tasks.Task_1",
           "clrName": "ContinueWith",
-          "tsEmitName": "ContinueWith17",
+          "tsEmitName": "continueWith17",
           "normalizedSignature": "ContinueWith|(System.Func_3,System.Object,System.Threading.CancellationToken):System.Threading.Tasks.Task_1|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -3834,7 +3834,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task\u00601::ContinueWith(System.Func_3,System.Object,System.Threading.Tasks.TaskScheduler):System.Threading.Tasks.Task_1",
           "clrName": "ContinueWith",
-          "tsEmitName": "ContinueWith18",
+          "tsEmitName": "continueWith18",
           "normalizedSignature": "ContinueWith|(System.Func_3,System.Object,System.Threading.Tasks.TaskScheduler):System.Threading.Tasks.Task_1|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -3850,7 +3850,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task\u00601::ContinueWith(System.Func_3,System.Object,System.Threading.Tasks.TaskContinuationOptions):System.Threading.Tasks.Task_1",
           "clrName": "ContinueWith",
-          "tsEmitName": "ContinueWith19",
+          "tsEmitName": "continueWith19",
           "normalizedSignature": "ContinueWith|(System.Func_3,System.Object,System.Threading.Tasks.TaskContinuationOptions):System.Threading.Tasks.Task_1|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -3866,7 +3866,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task\u00601::ContinueWith(System.Func_3,System.Object,System.Threading.CancellationToken,System.Threading.Tasks.TaskContinuationOptions,System.Threading.Tasks.TaskScheduler):System.Threading.Tasks.Task_1",
           "clrName": "ContinueWith",
-          "tsEmitName": "ContinueWith20",
+          "tsEmitName": "continueWith20",
           "normalizedSignature": "ContinueWith|(System.Func_3,System.Object,System.Threading.CancellationToken,System.Threading.Tasks.TaskContinuationOptions,System.Threading.Tasks.TaskScheduler):System.Threading.Tasks.Task_1|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -3882,7 +3882,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task\u00601::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "Dispose",
+          "tsEmitName": "dispose",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -3898,7 +3898,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task\u00601::GetAwaiter():System.Runtime.CompilerServices.TaskAwaiter",
           "clrName": "GetAwaiter",
-          "tsEmitName": "GetAwaiter",
+          "tsEmitName": "getAwaiter",
           "normalizedSignature": "GetAwaiter|():System.Runtime.CompilerServices.TaskAwaiter|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -3914,7 +3914,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task\u00601::WaitAsync(System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "clrName": "WaitAsync",
-          "tsEmitName": "WaitAsync",
+          "tsEmitName": "waitAsync",
           "normalizedSignature": "WaitAsync|(System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -3930,7 +3930,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task\u00601::WaitAsync(System.TimeSpan):System.Threading.Tasks.Task",
           "clrName": "WaitAsync",
-          "tsEmitName": "WaitAsync2",
+          "tsEmitName": "waitAsync2",
           "normalizedSignature": "WaitAsync|(System.TimeSpan):System.Threading.Tasks.Task|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -3946,7 +3946,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task\u00601::WaitAsync(System.TimeSpan,System.TimeProvider):System.Threading.Tasks.Task",
           "clrName": "WaitAsync",
-          "tsEmitName": "WaitAsync3",
+          "tsEmitName": "waitAsync3",
           "normalizedSignature": "WaitAsync|(System.TimeSpan,System.TimeProvider):System.Threading.Tasks.Task|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -3962,7 +3962,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task\u00601::WaitAsync(System.TimeSpan,System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "clrName": "WaitAsync",
-          "tsEmitName": "WaitAsync4",
+          "tsEmitName": "waitAsync4",
           "normalizedSignature": "WaitAsync|(System.TimeSpan,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -3978,7 +3978,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task\u00601::WaitAsync(System.TimeSpan,System.TimeProvider,System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "clrName": "WaitAsync",
-          "tsEmitName": "WaitAsync5",
+          "tsEmitName": "waitAsync5",
           "normalizedSignature": "WaitAsync|(System.TimeSpan,System.TimeProvider,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -4147,7 +4147,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "getObjectData",
+          "tsEmitName": "getObjectData$view",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -4164,7 +4164,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.TaskCanceledException::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData",
+          "tsEmitName": "getObjectData",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -6721,7 +6721,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "getObjectData",
+          "tsEmitName": "getObjectData$view",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -6738,7 +6738,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.TaskSchedulerException::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData",
+          "tsEmitName": "getObjectData",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",

@@ -460,15 +460,13 @@ export class ValidationException$instance extends System_Internal.Exception$inst
     readonly validationAttribute: ValidationAttribute;
     readonly validationResult: ValidationResult;
     readonly value: unknown;
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
 export interface __ValidationException$views {
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
-
-export interface ValidationException$instance extends System_Runtime_Serialization_Internal.ISerializable$instance {}
 
 export type ValidationException = ValidationException$instance & __ValidationException$views;
 
@@ -486,12 +484,12 @@ export class ValidationResult$instance {
 export type ValidationResult = ValidationResult$instance;
 
 export abstract class Validator$instance {
-    static tryValidateObject(instance: unknown, validationContext: ValidationContext, validationResults: ICollection_1<ValidationResult>, validateAllProperties: boolean): boolean;
-    static tryValidateObject(instance: unknown, validationContext: ValidationContext, validationResults: ICollection_1<ValidationResult>): boolean;
+    static tryValidateObject2(instance: unknown, validationContext: ValidationContext, validationResults: ICollection_1<ValidationResult>, validateAllProperties: boolean): boolean;
+    static tryValidateObject2(instance: unknown, validationContext: ValidationContext, validationResults: ICollection_1<ValidationResult>): boolean;
     static tryValidateProperty(value: unknown, validationContext: ValidationContext, validationResults: ICollection_1<ValidationResult>): boolean;
     static tryValidateValue(value: unknown, validationContext: ValidationContext, validationResults: ICollection_1<ValidationResult>, validationAttributes: IEnumerable_1<ValidationAttribute>): boolean;
-    static validateObject(instance: unknown, validationContext: ValidationContext, validateAllProperties: boolean): void;
-    static validateObject(instance: unknown, validationContext: ValidationContext): void;
+    static validateObject2(instance: unknown, validationContext: ValidationContext, validateAllProperties: boolean): void;
+    static validateObject2(instance: unknown, validationContext: ValidationContext): void;
     static validateProperty(value: unknown, validationContext: ValidationContext): void;
     static validateValue(value: unknown, validationContext: ValidationContext, validationAttributes: IEnumerable_1<ValidationAttribute>): void;
 }

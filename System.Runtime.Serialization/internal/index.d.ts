@@ -417,15 +417,13 @@ export class InvalidDataContractException$instance extends System_Internal.Excep
     constructor();
     constructor(message: string);
     constructor(message: string, innerException: Exception);
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
 export interface __InvalidDataContractException$views {
     As_ISerializable(): ISerializable$instance;
 }
-
-export interface InvalidDataContractException$instance extends ISerializable$instance {}
 
 export type InvalidDataContractException = InvalidDataContractException$instance & __InvalidDataContractException$views;
 
@@ -523,9 +521,9 @@ export type SerializationBinder = SerializationBinder$instance;
 export class SerializationEventHandler$instance extends Function {
     constructor(object_: unknown, method: nint);
     beginInvoke(context: StreamingContext, callback: AsyncCallback, object_: unknown): IAsyncResult;
-    Clone(): unknown;
+    clone(): unknown;
     endInvoke(result: IAsyncResult): void;
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
     invoke(context: StreamingContext): void;
 }
 
@@ -535,8 +533,6 @@ export interface __SerializationEventHandler$views {
     As_ISerializable(): ISerializable$instance;
 }
 
-export interface SerializationEventHandler$instance extends System_Internal.ICloneable$instance {}
-
 export type SerializationEventHandler = SerializationEventHandler$instance & __SerializationEventHandler$views;
 
 
@@ -544,15 +540,13 @@ export class SerializationException$instance extends System_Internal.SystemExcep
     constructor();
     constructor(message: string);
     constructor(message: string, innerException: Exception);
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
 export interface __SerializationException$views {
     As_ISerializable(): ISerializable$instance;
 }
-
-export interface SerializationException$instance extends ISerializable$instance {}
 
 export type SerializationException = SerializationException$instance & __SerializationException$views;
 
@@ -710,8 +704,8 @@ export abstract class FormatterServices$instance {
     static checkTypeSecurity(t: Type, securityLevel: TypeFilterLevel): void;
     static getObjectData(obj: unknown, members: MemberInfo[]): unknown[];
     static getSafeUninitializedObject(type_: Type): unknown;
-    static getSerializableMembers(type_: Type, context: StreamingContext): MemberInfo[];
-    static getSerializableMembers(type_: Type): MemberInfo[];
+    static getSerializableMembers2(type_: Type, context: StreamingContext): MemberInfo[];
+    static getSerializableMembers2(type_: Type): MemberInfo[];
     static getSurrogateForCyclicalReference(innerSurrogate: ISerializationSurrogate): ISerializationSurrogate;
     static getTypeFromAssembly(assem: Assembly, name: string): Type;
     static getUninitializedObject(type_: Type): unknown;
@@ -773,8 +767,8 @@ export abstract class XmlSerializableServices$instance {
 export type XmlSerializableServices = XmlSerializableServices$instance;
 
 export abstract class XPathQueryGenerator$instance {
-    static createFromDataContractSerializer(type_: Type, pathToMember: MemberInfo[], rootElementXpath: StringBuilder, namespaces: { value: ref<XmlNamespaceManager> }): string;
-    static createFromDataContractSerializer(type_: Type, pathToMember: MemberInfo[], namespaces: { value: ref<XmlNamespaceManager> }): string;
+    static createFromDataContractSerializer2(type_: Type, pathToMember: MemberInfo[], rootElementXpath: StringBuilder, namespaces: { value: ref<XmlNamespaceManager> }): string;
+    static createFromDataContractSerializer2(type_: Type, pathToMember: MemberInfo[], namespaces: { value: ref<XmlNamespaceManager> }): string;
 }
 
 

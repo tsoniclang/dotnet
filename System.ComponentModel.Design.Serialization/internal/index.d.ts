@@ -49,12 +49,12 @@ export interface IDesignerLoaderHost$instance extends IDesignerHost, IServiceCon
     readonly rootComponent: IComponent;
     readonly rootComponentClassName: string;
     readonly transactionDescription: string;
-    addService(serviceType: Type, callback: ServiceCreatorCallback, promote: boolean): void;
-    addService(serviceType: Type, callback: ServiceCreatorCallback): void;
-    addService(serviceType: Type, serviceInstance: unknown, promote: boolean): void;
-    addService(serviceType: Type, serviceInstance: unknown): void;
-    createComponent(componentClass: Type, name: string): IComponent;
-    createComponent(componentClass: Type): IComponent;
+    addService4(serviceType: Type, callback: ServiceCreatorCallback, promote: boolean): void;
+    addService4(serviceType: Type, callback: ServiceCreatorCallback): void;
+    addService4(serviceType: Type, serviceInstance: unknown, promote: boolean): void;
+    addService4(serviceType: Type, serviceInstance: unknown): void;
+    createComponent2(componentClass: Type, name: string): IComponent;
+    createComponent2(componentClass: Type): IComponent;
     createTransaction(): DesignerTransaction;
     createTransaction(description: string): DesignerTransaction;
     destroyComponent(component: IComponent): void;
@@ -63,8 +63,8 @@ export interface IDesignerLoaderHost$instance extends IDesignerHost, IServiceCon
     getService(serviceType: Type): unknown;
     getType(typeName: string): Type;
     reload(): void;
-    removeService(serviceType: Type, promote: boolean): void;
-    removeService(serviceType: Type): void;
+    removeService2(serviceType: Type, promote: boolean): void;
+    removeService2(serviceType: Type): void;
 }
 
 
@@ -79,12 +79,12 @@ export interface IDesignerLoaderHost2$instance extends IDesignerLoaderHost, IDes
     readonly rootComponent: IComponent;
     readonly rootComponentClassName: string;
     readonly transactionDescription: string;
-    addService(serviceType: Type, callback: ServiceCreatorCallback, promote: boolean): void;
-    addService(serviceType: Type, callback: ServiceCreatorCallback): void;
-    addService(serviceType: Type, serviceInstance: unknown, promote: boolean): void;
-    addService(serviceType: Type, serviceInstance: unknown): void;
-    createComponent(componentClass: Type, name: string): IComponent;
-    createComponent(componentClass: Type): IComponent;
+    addService4(serviceType: Type, callback: ServiceCreatorCallback, promote: boolean): void;
+    addService4(serviceType: Type, callback: ServiceCreatorCallback): void;
+    addService4(serviceType: Type, serviceInstance: unknown, promote: boolean): void;
+    addService4(serviceType: Type, serviceInstance: unknown): void;
+    createComponent2(componentClass: Type, name: string): IComponent;
+    createComponent2(componentClass: Type): IComponent;
     createTransaction(): DesignerTransaction;
     createTransaction(description: string): DesignerTransaction;
     destroyComponent(component: IComponent): void;
@@ -93,8 +93,8 @@ export interface IDesignerLoaderHost2$instance extends IDesignerLoaderHost, IDes
     getService(serviceType: Type): unknown;
     getType(typeName: string): Type;
     reload(): void;
-    removeService(serviceType: Type, promote: boolean): void;
-    removeService(serviceType: Type): void;
+    removeService2(serviceType: Type, promote: boolean): void;
+    removeService2(serviceType: Type): void;
 }
 
 
@@ -195,8 +195,8 @@ export class ContextStack$instance {
     constructor();
     readonly current: unknown;
     append(context: unknown): void;
-    get_Item(level: int): unknown;
-    get_Item(type_: Type): unknown;
+    getItem(level: int): unknown;
+    getItem(type_: Type): unknown;
     pop(): unknown;
     push(context: unknown): void;
 }
@@ -248,10 +248,10 @@ export class InstanceDescriptor$instance {
 export type InstanceDescriptor = InstanceDescriptor$instance;
 
 export abstract class MemberRelationshipService$instance {
-    get_Item(source: MemberRelationship): MemberRelationship;
-    get_Item(sourceOwner: unknown, sourceMember: MemberDescriptor): MemberRelationship;
-    set_Item(source: MemberRelationship, value: MemberRelationship): void;
-    set_Item(sourceOwner: unknown, sourceMember: MemberDescriptor, value: MemberRelationship): void;
+    getItem(source: MemberRelationship): MemberRelationship;
+    getItem(sourceOwner: unknown, sourceMember: MemberDescriptor): MemberRelationship;
+    setItem(source: MemberRelationship, value: MemberRelationship): void;
+    setItem(sourceOwner: unknown, sourceMember: MemberDescriptor, value: MemberRelationship): void;
     abstract supportsRelationship(source: MemberRelationship, relationship: MemberRelationship): boolean;
 }
 
@@ -270,9 +270,9 @@ export type ResolveNameEventArgs = ResolveNameEventArgs$instance;
 export class ResolveNameEventHandler$instance extends Function {
     constructor(object_: unknown, method: nint);
     beginInvoke(sender: unknown, e: ResolveNameEventArgs, callback: AsyncCallback, object_: unknown): IAsyncResult;
-    Clone(): unknown;
+    clone(): unknown;
     endInvoke(result: IAsyncResult): void;
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
     invoke(sender: unknown, e: ResolveNameEventArgs): void;
 }
 
@@ -281,8 +281,6 @@ export interface __ResolveNameEventHandler$views {
     As_ICloneable(): System_Internal.ICloneable$instance;
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
-
-export interface ResolveNameEventHandler$instance extends System_Internal.ICloneable$instance {}
 
 export type ResolveNameEventHandler = ResolveNameEventHandler$instance & __ResolveNameEventHandler$views;
 

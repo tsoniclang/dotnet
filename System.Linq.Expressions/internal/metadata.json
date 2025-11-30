@@ -20,7 +20,7 @@
         {
           "stableId": "System.Linq.Expressions:System.Linq.Expressions.ExpressionType::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -811,7 +811,7 @@
         {
           "stableId": "System.Linq.Expressions:System.Linq.Expressions.GotoExpressionKind::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -873,7 +873,7 @@
         {
           "stableId": "System.Linq.Expressions:System.Linq.Expressions.MemberBindingType::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -7450,7 +7450,7 @@
         {
           "stableId": "System.Linq.Expressions:System.Linq.Expressions.Expression\u00601::Compile():TDelegate",
           "clrName": "Compile",
-          "tsEmitName": "compile",
+          "tsEmitName": "compile4",
           "normalizedSignature": "Compile|():TDelegate|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7466,7 +7466,7 @@
         {
           "stableId": "System.Linq.Expressions:System.Linq.Expressions.Expression\u00601::Compile(System.Boolean):TDelegate",
           "clrName": "Compile",
-          "tsEmitName": "compile2",
+          "tsEmitName": "compile5",
           "normalizedSignature": "Compile|(System.Boolean):TDelegate|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7498,7 +7498,7 @@
         {
           "stableId": "System.Linq.Expressions:System.Linq.Expressions.Expression\u00601::Compile(System.Runtime.CompilerServices.DebugInfoGenerator):TDelegate",
           "clrName": "Compile",
-          "tsEmitName": "compile3",
+          "tsEmitName": "compile6",
           "normalizedSignature": "Compile|(System.Runtime.CompilerServices.DebugInfoGenerator):TDelegate|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7514,7 +7514,7 @@
         {
           "stableId": "System.Linq.Expressions:System.Linq.Expressions.Expression\u00601::Compile():System.Delegate",
           "clrName": "Compile",
-          "tsEmitName": "Compile",
+          "tsEmitName": "compile",
           "normalizedSignature": "Compile|():System.Delegate|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -7530,7 +7530,7 @@
         {
           "stableId": "System.Linq.Expressions:System.Linq.Expressions.Expression\u00601::Compile(System.Boolean):System.Delegate",
           "clrName": "Compile",
-          "tsEmitName": "Compile2",
+          "tsEmitName": "compile2",
           "normalizedSignature": "Compile|(System.Boolean):System.Delegate|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -7546,7 +7546,7 @@
         {
           "stableId": "System.Linq.Expressions:System.Linq.Expressions.Expression\u00601::Compile(System.Runtime.CompilerServices.DebugInfoGenerator):System.Delegate",
           "clrName": "Compile",
-          "tsEmitName": "Compile3",
+          "tsEmitName": "compile3",
           "normalizedSignature": "Compile|(System.Runtime.CompilerServices.DebugInfoGenerator):System.Delegate|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",

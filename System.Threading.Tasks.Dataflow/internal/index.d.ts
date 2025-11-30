@@ -439,29 +439,29 @@ export type WriteOnceBlock_1<T> = WriteOnceBlock_1$instance<T> & __WriteOnceBloc
 export abstract class DataflowBlock$instance {
     static asObservable<TOutput>(source: ISourceBlock_1<TOutput>): IObservable_1<TOutput>;
     static asObserver<TInput>(target: ITargetBlock_1<TInput>): IObserver_1<TInput>;
-    static choose<T1, T2, T3>(source1: ISourceBlock_1<T1>, action1: Action_1<T1>, source2: ISourceBlock_1<T2>, action2: Action_1<T2>, source3: ISourceBlock_1<T3>, action3: Action_1<T3>, dataflowBlockOptions: DataflowBlockOptions): Task_1<CLROf<int>>;
-    static choose<T1, T2, T3>(source1: ISourceBlock_1<T1>, action1: Action_1<T1>, source2: ISourceBlock_1<T2>, action2: Action_1<T2>, source3: ISourceBlock_1<T3>, action3: Action_1<T3>): Task_1<CLROf<int>>;
-    static choose<T1, T2>(source1: ISourceBlock_1<T1>, action1: Action_1<T1>, source2: ISourceBlock_1<T2>, action2: Action_1<T2>, dataflowBlockOptions: DataflowBlockOptions): Task_1<CLROf<int>>;
-    static choose<T1, T2>(source1: ISourceBlock_1<T1>, action1: Action_1<T1>, source2: ISourceBlock_1<T2>, action2: Action_1<T2>): Task_1<CLROf<int>>;
+    static choose4<T1, T2, T3>(source1: ISourceBlock_1<T1>, action1: Action_1<T1>, source2: ISourceBlock_1<T2>, action2: Action_1<T2>, source3: ISourceBlock_1<T3>, action3: Action_1<T3>, dataflowBlockOptions: DataflowBlockOptions): Task_1<CLROf<int>>;
+    static choose4<T1, T2, T3>(source1: ISourceBlock_1<T1>, action1: Action_1<T1>, source2: ISourceBlock_1<T2>, action2: Action_1<T2>, source3: ISourceBlock_1<T3>, action3: Action_1<T3>): Task_1<CLROf<int>>;
+    static choose4<T1, T2>(source1: ISourceBlock_1<T1>, action1: Action_1<T1>, source2: ISourceBlock_1<T2>, action2: Action_1<T2>, dataflowBlockOptions: DataflowBlockOptions): Task_1<CLROf<int>>;
+    static choose4<T1, T2>(source1: ISourceBlock_1<T1>, action1: Action_1<T1>, source2: ISourceBlock_1<T2>, action2: Action_1<T2>): Task_1<CLROf<int>>;
     static encapsulate<TInput, TOutput>(target: ITargetBlock_1<TInput>, source: ISourceBlock_1<TOutput>): IPropagatorBlock_2<TInput, TOutput>;
-    static linkTo<TOutput>(source: ISourceBlock_1<TOutput>, target: ITargetBlock_1<TOutput>, predicate: Predicate_1<TOutput>): IDisposable;
-    static linkTo<TOutput>(source: ISourceBlock_1<TOutput>, target: ITargetBlock_1<TOutput>, linkOptions: DataflowLinkOptions, predicate: Predicate_1<TOutput>): IDisposable;
-    static linkTo<TOutput>(source: ISourceBlock_1<TOutput>, target: ITargetBlock_1<TOutput>): IDisposable;
+    static linkTo2<TOutput>(source: ISourceBlock_1<TOutput>, target: ITargetBlock_1<TOutput>, predicate: Predicate_1<TOutput>): IDisposable;
+    static linkTo2<TOutput>(source: ISourceBlock_1<TOutput>, target: ITargetBlock_1<TOutput>, linkOptions: DataflowLinkOptions, predicate: Predicate_1<TOutput>): IDisposable;
+    static linkTo2<TOutput>(source: ISourceBlock_1<TOutput>, target: ITargetBlock_1<TOutput>): IDisposable;
     static nullTarget<TInput>(): ITargetBlock_1<TInput>;
-    static outputAvailableAsync<TOutput>(source: ISourceBlock_1<TOutput>, cancellationToken: CancellationToken): Task_1<CLROf<boolean>>;
-    static outputAvailableAsync<TOutput>(source: ISourceBlock_1<TOutput>): Task_1<CLROf<boolean>>;
+    static outputAvailableAsync2<TOutput>(source: ISourceBlock_1<TOutput>, cancellationToken: CancellationToken): Task_1<CLROf<boolean>>;
+    static outputAvailableAsync2<TOutput>(source: ISourceBlock_1<TOutput>): Task_1<CLROf<boolean>>;
     static post<TInput>(target: ITargetBlock_1<TInput>, item: TInput): boolean;
-    static receive<TOutput>(source: ISourceBlock_1<TOutput>, cancellationToken: CancellationToken): TOutput;
-    static receive<TOutput>(source: ISourceBlock_1<TOutput>, timeout: TimeSpan, cancellationToken: CancellationToken): TOutput;
-    static receive<TOutput>(source: ISourceBlock_1<TOutput>, timeout: TimeSpan): TOutput;
-    static receive<TOutput>(source: ISourceBlock_1<TOutput>): TOutput;
+    static receive2<TOutput>(source: ISourceBlock_1<TOutput>, cancellationToken: CancellationToken): TOutput;
+    static receive2<TOutput>(source: ISourceBlock_1<TOutput>, timeout: TimeSpan, cancellationToken: CancellationToken): TOutput;
+    static receive2<TOutput>(source: ISourceBlock_1<TOutput>, timeout: TimeSpan): TOutput;
+    static receive2<TOutput>(source: ISourceBlock_1<TOutput>): TOutput;
     static receiveAllAsync<TOutput>(source: IReceivableSourceBlock_1<TOutput>, cancellationToken?: CancellationToken): IAsyncEnumerable_1<TOutput>;
-    static receiveAsync<TOutput>(source: ISourceBlock_1<TOutput>, cancellationToken: CancellationToken): Task_1<TOutput>;
-    static receiveAsync<TOutput>(source: ISourceBlock_1<TOutput>, timeout: TimeSpan, cancellationToken: CancellationToken): Task_1<TOutput>;
-    static receiveAsync<TOutput>(source: ISourceBlock_1<TOutput>, timeout: TimeSpan): Task_1<TOutput>;
-    static receiveAsync<TOutput>(source: ISourceBlock_1<TOutput>): Task_1<TOutput>;
-    static sendAsync<TInput>(target: ITargetBlock_1<TInput>, item: TInput, cancellationToken: CancellationToken): Task_1<CLROf<boolean>>;
-    static sendAsync<TInput>(target: ITargetBlock_1<TInput>, item: TInput): Task_1<CLROf<boolean>>;
+    static receiveAsync2<TOutput>(source: ISourceBlock_1<TOutput>, cancellationToken: CancellationToken): Task_1<TOutput>;
+    static receiveAsync2<TOutput>(source: ISourceBlock_1<TOutput>, timeout: TimeSpan, cancellationToken: CancellationToken): Task_1<TOutput>;
+    static receiveAsync2<TOutput>(source: ISourceBlock_1<TOutput>, timeout: TimeSpan): Task_1<TOutput>;
+    static receiveAsync2<TOutput>(source: ISourceBlock_1<TOutput>): Task_1<TOutput>;
+    static sendAsync2<TInput>(target: ITargetBlock_1<TInput>, item: TInput, cancellationToken: CancellationToken): Task_1<CLROf<boolean>>;
+    static sendAsync2<TInput>(target: ITargetBlock_1<TInput>, item: TInput): Task_1<CLROf<boolean>>;
     static tryReceive<TOutput>(source: IReceivableSourceBlock_1<TOutput>, item: { value: ref<TOutput> }): boolean;
 }
 

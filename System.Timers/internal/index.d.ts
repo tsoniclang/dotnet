@@ -50,9 +50,9 @@ export type ElapsedEventArgs = ElapsedEventArgs$instance;
 export class ElapsedEventHandler$instance extends Function {
     constructor(object_: unknown, method: nint);
     beginInvoke(sender: unknown, e: ElapsedEventArgs, callback: AsyncCallback, object_: unknown): IAsyncResult;
-    Clone(): unknown;
+    clone(): unknown;
     endInvoke(result: IAsyncResult): void;
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
     invoke(sender: unknown, e: ElapsedEventArgs): void;
 }
 
@@ -61,8 +61,6 @@ export interface __ElapsedEventHandler$views {
     As_ICloneable(): System_Internal.ICloneable$instance;
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
-
-export interface ElapsedEventHandler$instance extends System_Internal.ICloneable$instance {}
 
 export type ElapsedEventHandler = ElapsedEventHandler$instance & __ElapsedEventHandler$views;
 
@@ -78,7 +76,7 @@ export class Timer$instance extends System_ComponentModel_Internal.Component$ins
     synchronizingObject: ISynchronizeInvoke;
     beginInit(): void;
     close(): void;
-    Dispose(): void;
+    dispose(): void;
     endInit(): void;
     start(): void;
     stop(): void;
@@ -91,7 +89,7 @@ export interface __Timer$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
 
-export interface Timer$instance extends System_ComponentModel_Internal.ISupportInitialize$instance {}
+export interface Timer$instance extends System_ComponentModel_Internal.IComponent$instance, System_ComponentModel_Internal.ISupportInitialize$instance {}
 
 export type Timer = Timer$instance & __Timer$views;
 

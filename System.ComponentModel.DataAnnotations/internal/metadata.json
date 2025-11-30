@@ -20,7 +20,7 @@
         {
           "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.DataType::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -285,7 +285,7 @@
         {
           "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.AssociatedMetadataTypeTypeDescriptionProvider::GetTypeDescriptor(System.Type,System.Object):System.ComponentModel.ICustomTypeDescriptor",
           "clrName": "GetTypeDescriptor",
-          "tsEmitName": "getTypeDescriptor",
+          "tsEmitName": "getTypeDescriptor3",
           "normalizedSignature": "GetTypeDescriptor|(System.Type,System.Object):System.ComponentModel.ICustomTypeDescriptor|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -301,7 +301,7 @@
         {
           "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.AssociatedMetadataTypeTypeDescriptionProvider::GetTypeDescriptor(System.Type):System.ComponentModel.ICustomTypeDescriptor",
           "clrName": "GetTypeDescriptor",
-          "tsEmitName": "GetTypeDescriptor",
+          "tsEmitName": "getTypeDescriptor",
           "normalizedSignature": "GetTypeDescriptor|(System.Type):System.ComponentModel.ICustomTypeDescriptor|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -317,7 +317,7 @@
         {
           "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.AssociatedMetadataTypeTypeDescriptionProvider::GetTypeDescriptor(System.Object):System.ComponentModel.ICustomTypeDescriptor",
           "clrName": "GetTypeDescriptor",
-          "tsEmitName": "GetTypeDescriptor2",
+          "tsEmitName": "getTypeDescriptor2",
           "normalizedSignature": "GetTypeDescriptor|(System.Object):System.ComponentModel.ICustomTypeDescriptor|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -3020,7 +3020,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "getObjectData",
+          "tsEmitName": "getObjectData$view",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3037,7 +3037,7 @@
         {
           "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.ValidationException::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData",
+          "tsEmitName": "getObjectData",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",

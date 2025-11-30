@@ -99,8 +99,8 @@ export interface IDictionary_2$instance<TKey, TValue> extends ICollection_1<KeyV
     readonly values: ICollection_1<TValue>;
     readonly count: int;
     readonly isReadOnly: boolean;
-    add(item: KeyValuePair_2<TKey, TValue>): void;
-    add(key: TKey, value: TValue): void;
+    add2(item: KeyValuePair_2<TKey, TValue>): void;
+    add2(key: TKey, value: TValue): void;
     clear(): void;
     contains(item: KeyValuePair_2<TKey, TValue>): boolean;
     containsKey(key: TKey): boolean;
@@ -205,8 +205,8 @@ export type IReadOnlySet_1<T> = IReadOnlySet_1$instance<T>;
 export interface ISet_1$instance<T> extends ICollection_1<T>, IEnumerable_1<T>, IEnumerable {
     readonly count: int;
     readonly isReadOnly: boolean;
-    add(item: T): void;
-    add(item: T): boolean;
+    add2(item: T): void;
+    add2(item: T): boolean;
     clear(): void;
     copyTo(array: T[], arrayIndex: int): void;
     getEnumerator(): IEnumerator_1<T>;
@@ -519,7 +519,7 @@ export type ByteEqualityComparer = ByteEqualityComparer$instance & __ByteEqualit
 
 export abstract class Comparer_1$instance<T> {
     abstract compare(x: T, y: T): int;
-    static readonly default: unknown;
+    static readonly default_: unknown;
     static create<T>(comparison: Comparison_1<T>): Comparer_1<T>;
 }
 
@@ -647,7 +647,7 @@ export type EnumEqualityComparer_1<T extends number> = EnumEqualityComparer_1$in
 export abstract class EqualityComparer_1$instance<T> {
     abstract equals(x: T, y: T): boolean;
     abstract getHashCode(obj: T): int;
-    static readonly default: unknown;
+    static readonly default_: unknown;
     static create<T>(equals: Func_3<T, T, CLROf<boolean>>, getHashCode?: Func_2<T, CLROf<int>>): EqualityComparer_1<T>;
 }
 
@@ -752,15 +752,13 @@ export class KeyNotFoundException$instance extends System_Internal.SystemExcepti
     constructor();
     constructor(message: string);
     constructor(message: string, innerException: Exception);
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
 export interface __KeyNotFoundException$views {
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
-
-export interface KeyNotFoundException$instance extends System_Runtime_Serialization_Internal.ISerializable$instance {}
 
 export type KeyNotFoundException = KeyNotFoundException$instance & __KeyNotFoundException$views;
 
@@ -1443,22 +1441,22 @@ export type Stack_1<T> = Stack_1$instance<T> & __Stack_1$views<T>;
 export class TreeSet_1$instance<T> extends SortedSet_1$instance<T> {
     constructor();
     constructor(comparer: IComparer_1<T>);
-    Add(item: T): boolean;
-    Add(item: T): void;
-    Clear(): void;
-    Contains(item: T): boolean;
-    CopyTo(array: T[]): void;
-    CopyTo(array: T[], index: int): void;
-    CopyTo(array: T[], index: int, count: int): void;
-    CopyTo(array: ClrArray, index: int): void;
-    GetEnumerator(): SortedSet_1_Enumerator<T>;
-    GetEnumerator(): IEnumerator_1<T>;
-    GetEnumerator(): IEnumerator;
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
-    IsProperSubsetOf(other: IEnumerable_1<T>): boolean;
-    IsSubsetOf(other: IEnumerable_1<T>): boolean;
-    OnDeserialization(sender: unknown): void;
-    UnionWith(other: IEnumerable_1<T>): void;
+    add(item: T): boolean;
+    add(item: T): void;
+    clear(): void;
+    contains(item: T): boolean;
+    copyTo(array: T[]): void;
+    copyTo(array: T[], index: int): void;
+    copyTo(array: T[], index: int, count: int): void;
+    copyTo(array: ClrArray, index: int): void;
+    getEnumerator(): SortedSet_1_Enumerator<T>;
+    getEnumerator(): IEnumerator_1<T>;
+    getEnumerator(): IEnumerator;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
+    isProperSubsetOf(other: IEnumerable_1<T>): boolean;
+    isSubsetOf(other: IEnumerable_1<T>): boolean;
+    onDeserialization(sender: unknown): void;
+    unionWith(other: IEnumerable_1<T>): void;
 }
 
 
@@ -1481,12 +1479,12 @@ export type TreeSet_1<T> = TreeSet_1$instance<T> & __TreeSet_1$views<T>;
 
 export abstract class CollectionExtensions$instance {
     static addRange<T>(list: List_1<T>, source: ReadOnlySpan_1<T>): void;
-    static asReadOnly<TKey, TValue>(dictionary: IDictionary_2<TKey, TValue>): ReadOnlyDictionary_2<TKey, TValue>;
-    static asReadOnly<T>(list: IList_1<T>): ReadOnlyCollection_1<T>;
-    static asReadOnly<T>(set_: ISet_1<T>): ReadOnlySet_1<T>;
+    static asReadOnly3<TKey, TValue>(dictionary: IDictionary_2<TKey, TValue>): ReadOnlyDictionary_2<TKey, TValue>;
+    static asReadOnly3<T>(list: IList_1<T>): ReadOnlyCollection_1<T>;
+    static asReadOnly3<T>(set_: ISet_1<T>): ReadOnlySet_1<T>;
     static copyTo<T>(list: List_1<T>, destination: Span_1<T>): void;
-    static getValueOrDefault<TKey, TValue>(dictionary: IReadOnlyDictionary_2<TKey, TValue>, key: TKey, defaultValue: TValue): TValue;
-    static getValueOrDefault<TKey, TValue>(dictionary: IReadOnlyDictionary_2<TKey, TValue>, key: TKey): TValue;
+    static getValueOrDefault2<TKey, TValue>(dictionary: IReadOnlyDictionary_2<TKey, TValue>, key: TKey, defaultValue: TValue): TValue;
+    static getValueOrDefault2<TKey, TValue>(dictionary: IReadOnlyDictionary_2<TKey, TValue>, key: TKey): TValue;
     static insertRange<T>(list: List_1<T>, index: int, source: ReadOnlySpan_1<T>): void;
     static remove<TKey, TValue>(dictionary: IDictionary_2<TKey, TValue>, key: TKey, value: { value: ref<TValue> }): boolean;
     static tryAdd<TKey, TValue>(dictionary: IDictionary_2<TKey, TValue>, key: TKey, value: TValue): boolean;

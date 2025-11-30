@@ -13,7 +13,7 @@
         {
           "stableId": "System.ObjectModel:System.Collections.Specialized.NotifyCollectionChangedAction::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67108894,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -783,7 +783,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -1015,7 +1015,7 @@
         {
           "stableId": "System.Collections.Specialized:System.Collections.Specialized.IOrderedDictionary::get_Item(System.Int32):System.Object",
           "clrName": "get_Item",
-          "tsEmitName": "get_Item",
+          "tsEmitName": "getItem",
           "metadataToken": 0,
           "canonicalSignature": "(System.Int32):System.Object",
           "normalizedSignature": "get_Item|(System.Int32):System.Object|static=false",
@@ -1029,7 +1029,7 @@
         {
           "stableId": "System.Collections.Specialized:System.Collections.Specialized.IOrderedDictionary::set_Item(System.Int32,System.Object):System.Void",
           "clrName": "set_Item",
-          "tsEmitName": "set_Item",
+          "tsEmitName": "setItem",
           "metadataToken": 0,
           "canonicalSignature": "(System.Int32,System.Object):System.Void",
           "normalizedSignature": "set_Item|(System.Int32,System.Object):System.Void|static=false",
@@ -1043,7 +1043,7 @@
         {
           "stableId": "System.Collections.Specialized:System.Collections.Specialized.IOrderedDictionary::get_Item(System.Object):System.Object",
           "clrName": "get_Item",
-          "tsEmitName": "get_Item2",
+          "tsEmitName": "getItem2",
           "metadataToken": 0,
           "canonicalSignature": "(System.Object):System.Object",
           "normalizedSignature": "get_Item|(System.Object):System.Object|static=false",
@@ -1057,7 +1057,7 @@
         {
           "stableId": "System.Collections.Specialized:System.Collections.Specialized.IOrderedDictionary::set_Item(System.Object,System.Object):System.Void",
           "clrName": "set_Item",
-          "tsEmitName": "set_Item2",
+          "tsEmitName": "setItem2",
           "metadataToken": 0,
           "canonicalSignature": "(System.Object,System.Object):System.Void",
           "normalizedSignature": "set_Item|(System.Object,System.Object):System.Void|static=false",
@@ -1264,7 +1264,7 @@
           }
         },
         {
-          "tsName": "get_Item",
+          "tsName": "getItem",
           "isStatic": false,
           "tsSignatureId": "get_Item|(System.Int32):System.Object|static=false",
           "target": {
@@ -1274,7 +1274,7 @@
           }
         },
         {
-          "tsName": "set_Item",
+          "tsName": "setItem",
           "isStatic": false,
           "tsSignatureId": "set_Item|(System.Int32,System.Object):System.Void|static=false",
           "target": {
@@ -1284,7 +1284,7 @@
           }
         },
         {
-          "tsName": "get_Item2",
+          "tsName": "getItem2",
           "isStatic": false,
           "tsSignatureId": "get_Item|(System.Object):System.Object|static=false",
           "target": {
@@ -1294,7 +1294,7 @@
           }
         },
         {
-          "tsName": "set_Item2",
+          "tsName": "setItem2",
           "isStatic": false,
           "tsSignatureId": "set_Item|(System.Object,System.Object):System.Void|static=false",
           "target": {
@@ -1527,7 +1527,7 @@
         {
           "stableId": "System.Collections.Specialized:System.Collections.Specialized.BitVector32::get_Item(System.Int32):System.Boolean",
           "clrName": "get_Item",
-          "tsEmitName": "get_Item",
+          "tsEmitName": "getItem",
           "metadataToken": 0,
           "canonicalSignature": "(System.Int32):System.Boolean",
           "normalizedSignature": "get_Item|(System.Int32):System.Boolean|static=false",
@@ -1541,7 +1541,7 @@
         {
           "stableId": "System.Collections.Specialized:System.Collections.Specialized.BitVector32::set_Item(System.Int32,System.Boolean):System.Void",
           "clrName": "set_Item",
-          "tsEmitName": "set_Item",
+          "tsEmitName": "setItem",
           "metadataToken": 0,
           "canonicalSignature": "(System.Int32,System.Boolean):System.Void",
           "normalizedSignature": "set_Item|(System.Int32,System.Boolean):System.Void|static=false",
@@ -1555,7 +1555,7 @@
         {
           "stableId": "System.Collections.Specialized:System.Collections.Specialized.BitVector32::get_Item(System.Collections.Specialized.BitVector32\u002BSection):System.Int32",
           "clrName": "get_Item",
-          "tsEmitName": "get_Item2",
+          "tsEmitName": "getItem2",
           "metadataToken": 0,
           "canonicalSignature": "(System.Collections.Specialized.BitVector32\u002BSection):System.Int32",
           "normalizedSignature": "get_Item|(System.Collections.Specialized.BitVector32\u002BSection):System.Int32|static=false",
@@ -1569,7 +1569,7 @@
         {
           "stableId": "System.Collections.Specialized:System.Collections.Specialized.BitVector32::set_Item(System.Collections.Specialized.BitVector32\u002BSection,System.Int32):System.Void",
           "clrName": "set_Item",
-          "tsEmitName": "set_Item2",
+          "tsEmitName": "setItem2",
           "metadataToken": 0,
           "canonicalSignature": "(System.Collections.Specialized.BitVector32\u002BSection,System.Int32):System.Void",
           "normalizedSignature": "set_Item|(System.Collections.Specialized.BitVector32\u002BSection,System.Int32):System.Void|static=false",
@@ -1723,7 +1723,7 @@
           }
         },
         {
-          "tsName": "get_Item",
+          "tsName": "getItem",
           "isStatic": false,
           "tsSignatureId": "get_Item|(System.Int32):System.Boolean|static=false",
           "target": {
@@ -1733,7 +1733,7 @@
           }
         },
         {
-          "tsName": "set_Item",
+          "tsName": "setItem",
           "isStatic": false,
           "tsSignatureId": "set_Item|(System.Int32,System.Boolean):System.Void|static=false",
           "target": {
@@ -1743,7 +1743,7 @@
           }
         },
         {
-          "tsName": "get_Item2",
+          "tsName": "getItem2",
           "isStatic": false,
           "tsSignatureId": "get_Item|(System.Collections.Specialized.BitVector32\u002BSection):System.Int32|static=false",
           "target": {
@@ -1753,7 +1753,7 @@
           }
         },
         {
-          "tsName": "set_Item2",
+          "tsName": "setItem2",
           "isStatic": false,
           "tsSignatureId": "set_Item|(System.Collections.Specialized.BitVector32\u002BSection,System.Int32):System.Void|static=false",
           "target": {
@@ -4879,7 +4879,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
           "clrName": "GetEnumerator",
-          "tsEmitName": "getEnumerator",
+          "tsEmitName": "getEnumerator$view",
           "metadataToken": 100703948,
           "canonicalSignature": "():System.Collections.IEnumerator",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
@@ -4893,7 +4893,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "getObjectData",
+          "tsEmitName": "getObjectData$view",
           "metadataToken": 100682669,
           "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
@@ -4907,7 +4907,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.IDeserializationCallback::OnDeserialization(System.Object):System.Void",
           "clrName": "OnDeserialization",
-          "tsEmitName": "onDeserialization",
+          "tsEmitName": "onDeserialization$view",
           "metadataToken": 100682649,
           "canonicalSignature": "(System.Object):System.Void",
           "normalizedSignature": "OnDeserialization|(System.Object):System.Void|static=false",
@@ -4935,7 +4935,7 @@
         {
           "stableId": "System.Collections.Specialized:System.Collections.Specialized.NameValueCollection::GetEnumerator():System.Collections.IEnumerator",
           "clrName": "GetEnumerator",
-          "tsEmitName": "GetEnumerator",
+          "tsEmitName": "getEnumerator",
           "metadataToken": 0,
           "canonicalSignature": "():System.Collections.IEnumerator",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
@@ -4949,7 +4949,7 @@
         {
           "stableId": "System.Collections.Specialized:System.Collections.Specialized.NameValueCollection::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData",
+          "tsEmitName": "getObjectData",
           "metadataToken": 0,
           "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
@@ -4963,7 +4963,7 @@
         {
           "stableId": "System.Collections.Specialized:System.Collections.Specialized.NameValueCollection::OnDeserialization(System.Object):System.Void",
           "clrName": "OnDeserialization",
-          "tsEmitName": "OnDeserialization",
+          "tsEmitName": "onDeserialization",
           "metadataToken": 0,
           "canonicalSignature": "(System.Object):System.Void",
           "normalizedSignature": "OnDeserialization|(System.Object):System.Void|static=false",
@@ -4977,7 +4977,7 @@
         {
           "stableId": "System.Collections.Specialized:System.Collections.Specialized.NameValueCollection::get_Item(System.String):System.String",
           "clrName": "get_Item",
-          "tsEmitName": "get_Item",
+          "tsEmitName": "getItem",
           "metadataToken": 0,
           "canonicalSignature": "(System.String):System.String",
           "normalizedSignature": "get_Item|(System.String):System.String|static=false",
@@ -4991,7 +4991,7 @@
         {
           "stableId": "System.Collections.Specialized:System.Collections.Specialized.NameValueCollection::set_Item(System.String,System.String):System.Void",
           "clrName": "set_Item",
-          "tsEmitName": "set_Item",
+          "tsEmitName": "setItem",
           "metadataToken": 0,
           "canonicalSignature": "(System.String,System.String):System.Void",
           "normalizedSignature": "set_Item|(System.String,System.String):System.Void|static=false",
@@ -5005,7 +5005,7 @@
         {
           "stableId": "System.Collections.Specialized:System.Collections.Specialized.NameValueCollection::get_Item(System.Int32):System.String",
           "clrName": "get_Item",
-          "tsEmitName": "get_Item2",
+          "tsEmitName": "getItem2",
           "metadataToken": 0,
           "canonicalSignature": "(System.Int32):System.String",
           "normalizedSignature": "get_Item|(System.Int32):System.String|static=false",
@@ -5281,7 +5281,7 @@
           }
         },
         {
-          "tsName": "getEnumerator",
+          "tsName": "getEnumerator$view",
           "isStatic": false,
           "tsSignatureId": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "target": {
@@ -5291,7 +5291,7 @@
           }
         },
         {
-          "tsName": "getObjectData",
+          "tsName": "getObjectData$view",
           "isStatic": false,
           "tsSignatureId": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "target": {
@@ -5301,7 +5301,7 @@
           }
         },
         {
-          "tsName": "onDeserialization",
+          "tsName": "onDeserialization$view",
           "isStatic": false,
           "tsSignatureId": "OnDeserialization|(System.Object):System.Void|static=false",
           "target": {
@@ -5321,7 +5321,7 @@
           }
         },
         {
-          "tsName": "GetEnumerator",
+          "tsName": "getEnumerator",
           "isStatic": false,
           "tsSignatureId": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "target": {
@@ -5331,7 +5331,7 @@
           }
         },
         {
-          "tsName": "GetObjectData",
+          "tsName": "getObjectData",
           "isStatic": false,
           "tsSignatureId": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "target": {
@@ -5341,7 +5341,7 @@
           }
         },
         {
-          "tsName": "OnDeserialization",
+          "tsName": "onDeserialization",
           "isStatic": false,
           "tsSignatureId": "OnDeserialization|(System.Object):System.Void|static=false",
           "target": {
@@ -5351,7 +5351,7 @@
           }
         },
         {
-          "tsName": "get_Item",
+          "tsName": "getItem",
           "isStatic": false,
           "tsSignatureId": "get_Item|(System.String):System.String|static=false",
           "target": {
@@ -5361,7 +5361,7 @@
           }
         },
         {
-          "tsName": "set_Item",
+          "tsName": "setItem",
           "isStatic": false,
           "tsSignatureId": "set_Item|(System.String,System.String):System.Void|static=false",
           "target": {
@@ -5371,7 +5371,7 @@
           }
         },
         {
-          "tsName": "get_Item2",
+          "tsName": "getItem2",
           "isStatic": false,
           "tsSignatureId": "get_Item|(System.Int32):System.String|static=false",
           "target": {
@@ -6029,7 +6029,7 @@
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "clone",
+          "tsEmitName": "clone$view",
           "metadataToken": 100668509,
           "canonicalSignature": "():System.Object",
           "normalizedSignature": "Clone|():System.Object|static=false",
@@ -6043,7 +6043,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "getObjectData",
+          "tsEmitName": "getObjectData$view",
           "metadataToken": 100682669,
           "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
@@ -6057,7 +6057,7 @@
         {
           "stableId": "System.ObjectModel:System.Collections.Specialized.NotifyCollectionChangedEventHandler::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "Clone",
+          "tsEmitName": "clone",
           "metadataToken": 0,
           "canonicalSignature": "():System.Object",
           "normalizedSignature": "Clone|():System.Object|static=false",
@@ -6071,7 +6071,7 @@
         {
           "stableId": "System.ObjectModel:System.Collections.Specialized.NotifyCollectionChangedEventHandler::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData",
+          "tsEmitName": "getObjectData",
           "metadataToken": 0,
           "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
@@ -6130,7 +6130,7 @@
           }
         },
         {
-          "tsName": "clone",
+          "tsName": "clone$view",
           "isStatic": false,
           "tsSignatureId": "Clone|():System.Object|static=false",
           "target": {
@@ -6140,7 +6140,7 @@
           }
         },
         {
-          "tsName": "getObjectData",
+          "tsName": "getObjectData$view",
           "isStatic": false,
           "tsSignatureId": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "target": {
@@ -6150,7 +6150,7 @@
           }
         },
         {
-          "tsName": "Clone",
+          "tsName": "clone",
           "isStatic": false,
           "tsSignatureId": "Clone|():System.Object|static=false",
           "target": {
@@ -6160,7 +6160,7 @@
           }
         },
         {
-          "tsName": "GetObjectData",
+          "tsName": "getObjectData",
           "isStatic": false,
           "tsSignatureId": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "target": {
@@ -6772,7 +6772,7 @@
         {
           "stableId": "System.Collections.Specialized:System.Collections.Specialized.OrderedDictionary::get_Item(System.Int32):System.Object",
           "clrName": "get_Item",
-          "tsEmitName": "get_Item",
+          "tsEmitName": "getItem",
           "metadataToken": 0,
           "canonicalSignature": "(System.Int32):System.Object",
           "normalizedSignature": "get_Item|(System.Int32):System.Object|static=false",
@@ -6786,7 +6786,7 @@
         {
           "stableId": "System.Collections.Specialized:System.Collections.Specialized.OrderedDictionary::set_Item(System.Int32,System.Object):System.Void",
           "clrName": "set_Item",
-          "tsEmitName": "set_Item",
+          "tsEmitName": "setItem",
           "metadataToken": 0,
           "canonicalSignature": "(System.Int32,System.Object):System.Void",
           "normalizedSignature": "set_Item|(System.Int32,System.Object):System.Void|static=false",
@@ -6800,7 +6800,7 @@
         {
           "stableId": "System.Collections.Specialized:System.Collections.Specialized.OrderedDictionary::get_Item(System.Object):System.Object",
           "clrName": "get_Item",
-          "tsEmitName": "get_Item2",
+          "tsEmitName": "getItem2",
           "metadataToken": 0,
           "canonicalSignature": "(System.Object):System.Object",
           "normalizedSignature": "get_Item|(System.Object):System.Object|static=false",
@@ -6814,7 +6814,7 @@
         {
           "stableId": "System.Collections.Specialized:System.Collections.Specialized.OrderedDictionary::set_Item(System.Object,System.Object):System.Void",
           "clrName": "set_Item",
-          "tsEmitName": "set_Item2",
+          "tsEmitName": "setItem2",
           "metadataToken": 0,
           "canonicalSignature": "(System.Object,System.Object):System.Void",
           "normalizedSignature": "set_Item|(System.Object,System.Object):System.Void|static=false",
@@ -7248,7 +7248,7 @@
           }
         },
         {
-          "tsName": "get_Item",
+          "tsName": "getItem",
           "isStatic": false,
           "tsSignatureId": "get_Item|(System.Int32):System.Object|static=false",
           "target": {
@@ -7258,7 +7258,7 @@
           }
         },
         {
-          "tsName": "set_Item",
+          "tsName": "setItem",
           "isStatic": false,
           "tsSignatureId": "set_Item|(System.Int32,System.Object):System.Void|static=false",
           "target": {
@@ -7268,7 +7268,7 @@
           }
         },
         {
-          "tsName": "get_Item2",
+          "tsName": "getItem2",
           "isStatic": false,
           "tsSignatureId": "get_Item|(System.Object):System.Object|static=false",
           "target": {
@@ -7278,7 +7278,7 @@
           }
         },
         {
-          "tsName": "set_Item2",
+          "tsName": "setItem2",
           "isStatic": false,
           "tsSignatureId": "set_Item|(System.Object,System.Object):System.Void|static=false",
           "target": {

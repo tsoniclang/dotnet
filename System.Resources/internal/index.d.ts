@@ -52,8 +52,8 @@ export enum UltimateResourceFallbackLocation {
 
 export interface IResourceReader$instance extends IEnumerable, IDisposable {
     close(): void;
-    getEnumerator(): IEnumerator;
-    getEnumerator(): IDictionaryEnumerator;
+    getEnumerator2(): IEnumerator;
+    getEnumerator2(): IDictionaryEnumerator;
 }
 
 
@@ -62,9 +62,9 @@ export interface IResourceReader$instance extends System_Internal.IDisposable$in
 export type IResourceReader = IResourceReader$instance;
 
 export interface IResourceWriter$instance extends IDisposable {
-    addResource(name: string, value: byte[]): void;
-    addResource(name: string, value: unknown): void;
-    addResource(name: string, value: string): void;
+    addResource3(name: string, value: byte[]): void;
+    addResource3(name: string, value: unknown): void;
+    addResource3(name: string, value: string): void;
     close(): void;
 }
 
@@ -77,15 +77,13 @@ export class MissingManifestResourceException$instance extends System_Internal.S
     constructor();
     constructor(message: string);
     constructor(message: string, inner: Exception);
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
 export interface __MissingManifestResourceException$views {
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
-
-export interface MissingManifestResourceException$instance extends System_Runtime_Serialization_Internal.ISerializable$instance {}
 
 export type MissingManifestResourceException = MissingManifestResourceException$instance & __MissingManifestResourceException$views;
 
@@ -96,15 +94,13 @@ export class MissingSatelliteAssemblyException$instance extends System_Internal.
     constructor(message: string, cultureName: string);
     constructor(message: string, inner: Exception);
     readonly cultureName: string;
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
 export interface __MissingSatelliteAssemblyException$views {
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
-
-export interface MissingSatelliteAssemblyException$instance extends System_Runtime_Serialization_Internal.ISerializable$instance {}
 
 export type MissingSatelliteAssemblyException = MissingSatelliteAssemblyException$instance & __MissingSatelliteAssemblyException$views;
 

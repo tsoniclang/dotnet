@@ -20,7 +20,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Resolvers.XmlKnownDtds::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -208,7 +208,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Resolvers.XmlPreloadedResolver::GetEntityAsync(System.Uri,System.String,System.Type):System.Threading.Tasks.Task_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "GetEntityAsync",
-          "tsEmitName": "getEntityAsync",
+          "tsEmitName": "getEntityAsync2",
           "normalizedSignature": "GetEntityAsync|(System.Uri,System.String,System.Type):System.Threading.Tasks.Task_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -224,7 +224,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Resolvers.XmlPreloadedResolver::GetEntityAsync(System.Uri,System.String,System.Type):System.Threading.Tasks.Task_1",
           "clrName": "GetEntityAsync",
-          "tsEmitName": "GetEntityAsync",
+          "tsEmitName": "getEntityAsync",
           "normalizedSignature": "GetEntityAsync|(System.Uri,System.String,System.Type):System.Threading.Tasks.Task_1|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",

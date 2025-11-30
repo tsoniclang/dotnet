@@ -13,7 +13,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XmlCaseOrder::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67117025,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -761,7 +761,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -814,7 +814,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XmlDataType::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67117029,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -1551,7 +1551,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -1594,7 +1594,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XmlSortOrder::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67117022,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -2331,7 +2331,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -2374,7 +2374,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathNamespaceScope::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67117040,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -3122,7 +3122,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -3175,7 +3175,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathNodeType::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67117076,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -4000,7 +4000,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -4123,7 +4123,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathResultType::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "metadataToken": 67117032,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -4915,7 +4915,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value__",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -6277,7 +6277,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathNavigator::ValueAs(System.Type,System.Xml.IXmlNamespaceResolver):System.Object",
           "clrName": "ValueAs",
-          "tsEmitName": "valueAs",
+          "tsEmitName": "valueAs2",
           "metadataToken": 100678101,
           "canonicalSignature": "(System.Type,System.Xml.IXmlNamespaceResolver):System.Object",
           "normalizedSignature": "ValueAs|(System.Type,System.Xml.IXmlNamespaceResolver):System.Object|static=false",
@@ -7523,7 +7523,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathNavigator::ValueAs(System.Type):System.Object",
           "clrName": "ValueAs",
-          "tsEmitName": "ValueAs",
+          "tsEmitName": "valueAs",
           "metadataToken": 0,
           "canonicalSignature": "(System.Type):System.Object",
           "normalizedSignature": "ValueAs|(System.Type):System.Object|static=false",
@@ -7936,7 +7936,7 @@
           }
         },
         {
-          "tsName": "valueAs",
+          "tsName": "valueAs2",
           "isStatic": false,
           "tsSignatureId": "ValueAs|(System.Type,System.Xml.IXmlNamespaceResolver):System.Object|static=false",
           "target": {
@@ -8826,7 +8826,7 @@
           }
         },
         {
-          "tsName": "ValueAs",
+          "tsName": "valueAs",
           "isStatic": false,
           "tsSignatureId": "ValueAs|(System.Type):System.Object|static=false",
           "target": {

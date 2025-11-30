@@ -53,9 +53,9 @@ export enum ObjectiveCMarshal_MessageSendFunction {
 export class ObjectiveCMarshal_UnhandledExceptionPropagationHandler$instance extends Function {
     constructor(object_: unknown, method: nint);
     beginInvoke(exception: Exception, lastMethod: RuntimeMethodHandle, context: { value: ref<nint> }, callback: AsyncCallback, object_: unknown): IAsyncResult;
-    Clone(): unknown;
+    clone(): unknown;
     endInvoke(context: { value: ref<nint> }, result: IAsyncResult): unknown;
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
     invoke(exception: Exception, lastMethod: RuntimeMethodHandle, context: { value: ref<nint> }): unknown;
 }
 
@@ -64,8 +64,6 @@ export interface __ObjectiveCMarshal_UnhandledExceptionPropagationHandler$views 
     As_ICloneable(): System_Internal.ICloneable$instance;
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
-
-export interface ObjectiveCMarshal_UnhandledExceptionPropagationHandler$instance extends System_Internal.ICloneable$instance {}
 
 export type ObjectiveCMarshal_UnhandledExceptionPropagationHandler = ObjectiveCMarshal_UnhandledExceptionPropagationHandler$instance & __ObjectiveCMarshal_UnhandledExceptionPropagationHandler$views;
 

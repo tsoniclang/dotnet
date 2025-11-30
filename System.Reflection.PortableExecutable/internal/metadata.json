@@ -20,7 +20,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.Characteristics::value__System.UInt16",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.UInt16|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -181,7 +181,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.CorFlags::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -270,7 +270,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.DebugDirectoryEntryType::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -350,7 +350,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.DllCharacteristics::value__System.UInt16",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.UInt16|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -511,7 +511,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.Machine::value__System.UInt16",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.UInt16|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -807,7 +807,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.PEMagic::value__System.UInt16",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.UInt16|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -851,7 +851,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.PEStreamOptions::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -922,7 +922,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.SectionCharacteristics::value__System.UInt32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.UInt32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -1362,7 +1362,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.Subsystem::value__System.UInt16",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.UInt16|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,

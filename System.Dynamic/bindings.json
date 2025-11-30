@@ -117,7 +117,7 @@
         {
           "stableId": "System.Linq.Expressions:System.Dynamic.BinaryOperationBinder::Bind(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject",
           "clrName": "Bind",
-          "tsEmitName": "bind",
+          "tsEmitName": "bind2",
           "metadataToken": 100667612,
           "canonicalSignature": "(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject",
           "normalizedSignature": "Bind|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject|static=false",
@@ -131,7 +131,7 @@
         {
           "stableId": "System.Linq.Expressions:System.Dynamic.BinaryOperationBinder::Bind(System.Object[],System.Collections.ObjectModel.ReadOnlyCollection_1,System.Linq.Expressions.LabelTarget):System.Linq.Expressions.Expression",
           "clrName": "Bind",
-          "tsEmitName": "Bind",
+          "tsEmitName": "bind",
           "metadataToken": 0,
           "canonicalSignature": "(System.Object[],System.Collections.ObjectModel.ReadOnlyCollection_1,System.Linq.Expressions.LabelTarget):System.Linq.Expressions.Expression",
           "normalizedSignature": "Bind|(System.Object[],System.Collections.ObjectModel.ReadOnlyCollection_1,System.Linq.Expressions.LabelTarget):System.Linq.Expressions.Expression|static=false",
@@ -198,7 +198,7 @@
           }
         },
         {
-          "tsName": "bind",
+          "tsName": "bind2",
           "isStatic": false,
           "tsSignatureId": "Bind|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject|static=false",
           "target": {
@@ -208,7 +208,7 @@
           }
         },
         {
-          "tsName": "Bind",
+          "tsName": "bind",
           "isStatic": false,
           "tsSignatureId": "Bind|(System.Object[],System.Collections.ObjectModel.ReadOnlyCollection_1,System.Linq.Expressions.LabelTarget):System.Linq.Expressions.Expression|static=false",
           "target": {
@@ -218,7 +218,7 @@
           }
         },
         {
-          "tsName": "bind",
+          "tsName": "bind2",
           "isStatic": false,
           "tsSignatureId": "Bind|(System.Object[],System.Collections.ObjectModel.ReadOnlyCollection_1[[System.Linq.Expressions.ParameterExpression,System.Linq.Expressions,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]],System.Linq.Expressions.LabelTarget):System.Linq.Expressions.Expression|static=false",
           "target": {
@@ -837,7 +837,7 @@
         {
           "stableId": "System.Linq.Expressions:System.Dynamic.ConvertBinder::Bind(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject",
           "clrName": "Bind",
-          "tsEmitName": "bind",
+          "tsEmitName": "bind2",
           "metadataToken": 100667743,
           "canonicalSignature": "(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject",
           "normalizedSignature": "Bind|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject|static=false",
@@ -851,7 +851,7 @@
         {
           "stableId": "System.Linq.Expressions:System.Dynamic.ConvertBinder::Bind(System.Object[],System.Collections.ObjectModel.ReadOnlyCollection_1,System.Linq.Expressions.LabelTarget):System.Linq.Expressions.Expression",
           "clrName": "Bind",
-          "tsEmitName": "Bind",
+          "tsEmitName": "bind",
           "metadataToken": 0,
           "canonicalSignature": "(System.Object[],System.Collections.ObjectModel.ReadOnlyCollection_1,System.Linq.Expressions.LabelTarget):System.Linq.Expressions.Expression",
           "normalizedSignature": "Bind|(System.Object[],System.Collections.ObjectModel.ReadOnlyCollection_1,System.Linq.Expressions.LabelTarget):System.Linq.Expressions.Expression|static=false",
@@ -932,7 +932,7 @@
           }
         },
         {
-          "tsName": "bind",
+          "tsName": "bind2",
           "isStatic": false,
           "tsSignatureId": "Bind|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject|static=false",
           "target": {
@@ -942,7 +942,7 @@
           }
         },
         {
-          "tsName": "Bind",
+          "tsName": "bind",
           "isStatic": false,
           "tsSignatureId": "Bind|(System.Object[],System.Collections.ObjectModel.ReadOnlyCollection_1,System.Linq.Expressions.LabelTarget):System.Linq.Expressions.Expression|static=false",
           "target": {
@@ -952,7 +952,7 @@
           }
         },
         {
-          "tsName": "bind",
+          "tsName": "bind2",
           "isStatic": false,
           "tsSignatureId": "Bind|(System.Object[],System.Collections.ObjectModel.ReadOnlyCollection_1[[System.Linq.Expressions.ParameterExpression,System.Linq.Expressions,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]],System.Linq.Expressions.LabelTarget):System.Linq.Expressions.Expression|static=false",
           "target": {
@@ -1143,7 +1143,7 @@
         {
           "stableId": "System.Linq.Expressions:System.Dynamic.CreateInstanceBinder::Bind(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject",
           "clrName": "Bind",
-          "tsEmitName": "bind",
+          "tsEmitName": "bind2",
           "metadataToken": 100667751,
           "canonicalSignature": "(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject",
           "normalizedSignature": "Bind|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject|static=false",
@@ -1157,7 +1157,7 @@
         {
           "stableId": "System.Linq.Expressions:System.Dynamic.CreateInstanceBinder::Bind(System.Object[],System.Collections.ObjectModel.ReadOnlyCollection_1,System.Linq.Expressions.LabelTarget):System.Linq.Expressions.Expression",
           "clrName": "Bind",
-          "tsEmitName": "Bind",
+          "tsEmitName": "bind",
           "metadataToken": 0,
           "canonicalSignature": "(System.Object[],System.Collections.ObjectModel.ReadOnlyCollection_1,System.Linq.Expressions.LabelTarget):System.Linq.Expressions.Expression",
           "normalizedSignature": "Bind|(System.Object[],System.Collections.ObjectModel.ReadOnlyCollection_1,System.Linq.Expressions.LabelTarget):System.Linq.Expressions.Expression|static=false",
@@ -1224,7 +1224,7 @@
           }
         },
         {
-          "tsName": "bind",
+          "tsName": "bind2",
           "isStatic": false,
           "tsSignatureId": "Bind|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject|static=false",
           "target": {
@@ -1234,7 +1234,7 @@
           }
         },
         {
-          "tsName": "Bind",
+          "tsName": "bind",
           "isStatic": false,
           "tsSignatureId": "Bind|(System.Object[],System.Collections.ObjectModel.ReadOnlyCollection_1,System.Linq.Expressions.LabelTarget):System.Linq.Expressions.Expression|static=false",
           "target": {
@@ -1244,7 +1244,7 @@
           }
         },
         {
-          "tsName": "bind",
+          "tsName": "bind2",
           "isStatic": false,
           "tsSignatureId": "Bind|(System.Object[],System.Collections.ObjectModel.ReadOnlyCollection_1[[System.Linq.Expressions.ParameterExpression,System.Linq.Expressions,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]],System.Linq.Expressions.LabelTarget):System.Linq.Expressions.Expression|static=false",
           "target": {
@@ -1397,7 +1397,7 @@
         {
           "stableId": "System.Linq.Expressions:System.Dynamic.DeleteIndexBinder::Bind(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject",
           "clrName": "Bind",
-          "tsEmitName": "bind",
+          "tsEmitName": "bind2",
           "metadataToken": 100667756,
           "canonicalSignature": "(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject",
           "normalizedSignature": "Bind|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject|static=false",
@@ -1439,7 +1439,7 @@
         {
           "stableId": "System.Linq.Expressions:System.Dynamic.DeleteIndexBinder::Bind(System.Object[],System.Collections.ObjectModel.ReadOnlyCollection_1,System.Linq.Expressions.LabelTarget):System.Linq.Expressions.Expression",
           "clrName": "Bind",
-          "tsEmitName": "Bind",
+          "tsEmitName": "bind",
           "metadataToken": 0,
           "canonicalSignature": "(System.Object[],System.Collections.ObjectModel.ReadOnlyCollection_1,System.Linq.Expressions.LabelTarget):System.Linq.Expressions.Expression",
           "normalizedSignature": "Bind|(System.Object[],System.Collections.ObjectModel.ReadOnlyCollection_1,System.Linq.Expressions.LabelTarget):System.Linq.Expressions.Expression|static=false",
@@ -1486,7 +1486,7 @@
       "constructors": [],
       "exposedMethods": [
         {
-          "tsName": "bind",
+          "tsName": "bind2",
           "isStatic": false,
           "tsSignatureId": "Bind|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject|static=false",
           "target": {
@@ -1516,7 +1516,7 @@
           }
         },
         {
-          "tsName": "Bind",
+          "tsName": "bind",
           "isStatic": false,
           "tsSignatureId": "Bind|(System.Object[],System.Collections.ObjectModel.ReadOnlyCollection_1,System.Linq.Expressions.LabelTarget):System.Linq.Expressions.Expression|static=false",
           "target": {
@@ -1526,7 +1526,7 @@
           }
         },
         {
-          "tsName": "bind",
+          "tsName": "bind2",
           "isStatic": false,
           "tsSignatureId": "Bind|(System.Object[],System.Collections.ObjectModel.ReadOnlyCollection_1[[System.Linq.Expressions.ParameterExpression,System.Linq.Expressions,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]],System.Linq.Expressions.LabelTarget):System.Linq.Expressions.Expression|static=false",
           "target": {
@@ -1707,7 +1707,7 @@
         {
           "stableId": "System.Linq.Expressions:System.Dynamic.DeleteMemberBinder::Bind(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject",
           "clrName": "Bind",
-          "tsEmitName": "bind",
+          "tsEmitName": "bind2",
           "metadataToken": 100667766,
           "canonicalSignature": "(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject",
           "normalizedSignature": "Bind|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject|static=false",
@@ -1721,7 +1721,7 @@
         {
           "stableId": "System.Linq.Expressions:System.Dynamic.DeleteMemberBinder::Bind(System.Object[],System.Collections.ObjectModel.ReadOnlyCollection_1,System.Linq.Expressions.LabelTarget):System.Linq.Expressions.Expression",
           "clrName": "Bind",
-          "tsEmitName": "Bind",
+          "tsEmitName": "bind",
           "metadataToken": 0,
           "canonicalSignature": "(System.Object[],System.Collections.ObjectModel.ReadOnlyCollection_1,System.Linq.Expressions.LabelTarget):System.Linq.Expressions.Expression",
           "normalizedSignature": "Bind|(System.Object[],System.Collections.ObjectModel.ReadOnlyCollection_1,System.Linq.Expressions.LabelTarget):System.Linq.Expressions.Expression|static=false",
@@ -1802,7 +1802,7 @@
           }
         },
         {
-          "tsName": "bind",
+          "tsName": "bind2",
           "isStatic": false,
           "tsSignatureId": "Bind|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject|static=false",
           "target": {
@@ -1812,7 +1812,7 @@
           }
         },
         {
-          "tsName": "Bind",
+          "tsName": "bind",
           "isStatic": false,
           "tsSignatureId": "Bind|(System.Object[],System.Collections.ObjectModel.ReadOnlyCollection_1,System.Linq.Expressions.LabelTarget):System.Linq.Expressions.Expression|static=false",
           "target": {
@@ -1822,7 +1822,7 @@
           }
         },
         {
-          "tsName": "bind",
+          "tsName": "bind2",
           "isStatic": false,
           "tsSignatureId": "Bind|(System.Object[],System.Collections.ObjectModel.ReadOnlyCollection_1[[System.Linq.Expressions.ParameterExpression,System.Linq.Expressions,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]],System.Linq.Expressions.LabelTarget):System.Linq.Expressions.Expression|static=false",
           "target": {
@@ -2608,7 +2608,7 @@
         {
           "stableId": "System.Linq.Expressions:System.Dynamic.DynamicMetaObjectBinder::Bind(System.Object[],System.Collections.ObjectModel.ReadOnlyCollection_1[[System.Linq.Expressions.ParameterExpression,System.Linq.Expressions,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]],System.Linq.Expressions.LabelTarget):System.Linq.Expressions.Expression",
           "clrName": "Bind",
-          "tsEmitName": "bind",
+          "tsEmitName": "bind2",
           "metadataToken": 100667540,
           "canonicalSignature": "(System.Object[],System.Collections.ObjectModel.ReadOnlyCollection_1[[System.Linq.Expressions.ParameterExpression,System.Linq.Expressions,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]],System.Linq.Expressions.LabelTarget):System.Linq.Expressions.Expression",
           "normalizedSignature": "Bind|(System.Object[],System.Collections.ObjectModel.ReadOnlyCollection_1[[System.Linq.Expressions.ParameterExpression,System.Linq.Expressions,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]],System.Linq.Expressions.LabelTarget):System.Linq.Expressions.Expression|static=false",
@@ -2622,7 +2622,7 @@
         {
           "stableId": "System.Linq.Expressions:System.Dynamic.DynamicMetaObjectBinder::Bind(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject",
           "clrName": "Bind",
-          "tsEmitName": "bind2",
+          "tsEmitName": "bind3",
           "metadataToken": 100667542,
           "canonicalSignature": "(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject",
           "normalizedSignature": "Bind|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject|static=false",
@@ -2678,7 +2678,7 @@
         {
           "stableId": "System.Linq.Expressions:System.Dynamic.DynamicMetaObjectBinder::Bind(System.Object[],System.Collections.ObjectModel.ReadOnlyCollection_1,System.Linq.Expressions.LabelTarget):System.Linq.Expressions.Expression",
           "clrName": "Bind",
-          "tsEmitName": "Bind",
+          "tsEmitName": "bind",
           "metadataToken": 0,
           "canonicalSignature": "(System.Object[],System.Collections.ObjectModel.ReadOnlyCollection_1,System.Linq.Expressions.LabelTarget):System.Linq.Expressions.Expression",
           "normalizedSignature": "Bind|(System.Object[],System.Collections.ObjectModel.ReadOnlyCollection_1,System.Linq.Expressions.LabelTarget):System.Linq.Expressions.Expression|static=false",
@@ -2711,7 +2711,7 @@
       "constructors": [],
       "exposedMethods": [
         {
-          "tsName": "bind",
+          "tsName": "bind2",
           "isStatic": false,
           "tsSignatureId": "Bind|(System.Object[],System.Collections.ObjectModel.ReadOnlyCollection_1[[System.Linq.Expressions.ParameterExpression,System.Linq.Expressions,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]],System.Linq.Expressions.LabelTarget):System.Linq.Expressions.Expression|static=false",
           "target": {
@@ -2721,7 +2721,7 @@
           }
         },
         {
-          "tsName": "bind2",
+          "tsName": "bind3",
           "isStatic": false,
           "tsSignatureId": "Bind|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject|static=false",
           "target": {
@@ -2761,7 +2761,7 @@
           }
         },
         {
-          "tsName": "Bind",
+          "tsName": "bind",
           "isStatic": false,
           "tsSignatureId": "Bind|(System.Object[],System.Collections.ObjectModel.ReadOnlyCollection_1,System.Linq.Expressions.LabelTarget):System.Linq.Expressions.Expression|static=false",
           "target": {
@@ -3745,7 +3745,7 @@
         {
           "stableId": "System.Linq.Expressions:System.Dynamic.GetIndexBinder::Bind(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject",
           "clrName": "Bind",
-          "tsEmitName": "bind",
+          "tsEmitName": "bind2",
           "metadataToken": 100667840,
           "canonicalSignature": "(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject",
           "normalizedSignature": "Bind|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject|static=false",
@@ -3787,7 +3787,7 @@
         {
           "stableId": "System.Linq.Expressions:System.Dynamic.GetIndexBinder::Bind(System.Object[],System.Collections.ObjectModel.ReadOnlyCollection_1,System.Linq.Expressions.LabelTarget):System.Linq.Expressions.Expression",
           "clrName": "Bind",
-          "tsEmitName": "Bind",
+          "tsEmitName": "bind",
           "metadataToken": 0,
           "canonicalSignature": "(System.Object[],System.Collections.ObjectModel.ReadOnlyCollection_1,System.Linq.Expressions.LabelTarget):System.Linq.Expressions.Expression",
           "normalizedSignature": "Bind|(System.Object[],System.Collections.ObjectModel.ReadOnlyCollection_1,System.Linq.Expressions.LabelTarget):System.Linq.Expressions.Expression|static=false",
@@ -3834,7 +3834,7 @@
       "constructors": [],
       "exposedMethods": [
         {
-          "tsName": "bind",
+          "tsName": "bind2",
           "isStatic": false,
           "tsSignatureId": "Bind|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject|static=false",
           "target": {
@@ -3864,7 +3864,7 @@
           }
         },
         {
-          "tsName": "Bind",
+          "tsName": "bind",
           "isStatic": false,
           "tsSignatureId": "Bind|(System.Object[],System.Collections.ObjectModel.ReadOnlyCollection_1,System.Linq.Expressions.LabelTarget):System.Linq.Expressions.Expression|static=false",
           "target": {
@@ -3874,7 +3874,7 @@
           }
         },
         {
-          "tsName": "bind",
+          "tsName": "bind2",
           "isStatic": false,
           "tsSignatureId": "Bind|(System.Object[],System.Collections.ObjectModel.ReadOnlyCollection_1[[System.Linq.Expressions.ParameterExpression,System.Linq.Expressions,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]],System.Linq.Expressions.LabelTarget):System.Linq.Expressions.Expression|static=false",
           "target": {
@@ -4055,7 +4055,7 @@
         {
           "stableId": "System.Linq.Expressions:System.Dynamic.GetMemberBinder::Bind(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject",
           "clrName": "Bind",
-          "tsEmitName": "bind",
+          "tsEmitName": "bind2",
           "metadataToken": 100667850,
           "canonicalSignature": "(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject",
           "normalizedSignature": "Bind|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject|static=false",
@@ -4069,7 +4069,7 @@
         {
           "stableId": "System.Linq.Expressions:System.Dynamic.GetMemberBinder::Bind(System.Object[],System.Collections.ObjectModel.ReadOnlyCollection_1,System.Linq.Expressions.LabelTarget):System.Linq.Expressions.Expression",
           "clrName": "Bind",
-          "tsEmitName": "Bind",
+          "tsEmitName": "bind",
           "metadataToken": 0,
           "canonicalSignature": "(System.Object[],System.Collections.ObjectModel.ReadOnlyCollection_1,System.Linq.Expressions.LabelTarget):System.Linq.Expressions.Expression",
           "normalizedSignature": "Bind|(System.Object[],System.Collections.ObjectModel.ReadOnlyCollection_1,System.Linq.Expressions.LabelTarget):System.Linq.Expressions.Expression|static=false",
@@ -4150,7 +4150,7 @@
           }
         },
         {
-          "tsName": "bind",
+          "tsName": "bind2",
           "isStatic": false,
           "tsSignatureId": "Bind|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject|static=false",
           "target": {
@@ -4160,7 +4160,7 @@
           }
         },
         {
-          "tsName": "Bind",
+          "tsName": "bind",
           "isStatic": false,
           "tsSignatureId": "Bind|(System.Object[],System.Collections.ObjectModel.ReadOnlyCollection_1,System.Linq.Expressions.LabelTarget):System.Linq.Expressions.Expression|static=false",
           "target": {
@@ -4170,7 +4170,7 @@
           }
         },
         {
-          "tsName": "bind",
+          "tsName": "bind2",
           "isStatic": false,
           "tsSignatureId": "Bind|(System.Object[],System.Collections.ObjectModel.ReadOnlyCollection_1[[System.Linq.Expressions.ParameterExpression,System.Linq.Expressions,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]],System.Linq.Expressions.LabelTarget):System.Linq.Expressions.Expression|static=false",
           "target": {
@@ -4361,7 +4361,7 @@
         {
           "stableId": "System.Linq.Expressions:System.Dynamic.InvokeBinder::Bind(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject",
           "clrName": "Bind",
-          "tsEmitName": "bind",
+          "tsEmitName": "bind2",
           "metadataToken": 100667857,
           "canonicalSignature": "(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject",
           "normalizedSignature": "Bind|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject|static=false",
@@ -4375,7 +4375,7 @@
         {
           "stableId": "System.Linq.Expressions:System.Dynamic.InvokeBinder::Bind(System.Object[],System.Collections.ObjectModel.ReadOnlyCollection_1,System.Linq.Expressions.LabelTarget):System.Linq.Expressions.Expression",
           "clrName": "Bind",
-          "tsEmitName": "Bind",
+          "tsEmitName": "bind",
           "metadataToken": 0,
           "canonicalSignature": "(System.Object[],System.Collections.ObjectModel.ReadOnlyCollection_1,System.Linq.Expressions.LabelTarget):System.Linq.Expressions.Expression",
           "normalizedSignature": "Bind|(System.Object[],System.Collections.ObjectModel.ReadOnlyCollection_1,System.Linq.Expressions.LabelTarget):System.Linq.Expressions.Expression|static=false",
@@ -4442,7 +4442,7 @@
           }
         },
         {
-          "tsName": "bind",
+          "tsName": "bind2",
           "isStatic": false,
           "tsSignatureId": "Bind|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject|static=false",
           "target": {
@@ -4452,7 +4452,7 @@
           }
         },
         {
-          "tsName": "Bind",
+          "tsName": "bind",
           "isStatic": false,
           "tsSignatureId": "Bind|(System.Object[],System.Collections.ObjectModel.ReadOnlyCollection_1,System.Linq.Expressions.LabelTarget):System.Linq.Expressions.Expression|static=false",
           "target": {
@@ -4462,7 +4462,7 @@
           }
         },
         {
-          "tsName": "bind",
+          "tsName": "bind2",
           "isStatic": false,
           "tsSignatureId": "Bind|(System.Object[],System.Collections.ObjectModel.ReadOnlyCollection_1[[System.Linq.Expressions.ParameterExpression,System.Linq.Expressions,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]],System.Linq.Expressions.LabelTarget):System.Linq.Expressions.Expression|static=false",
           "target": {
@@ -4615,7 +4615,7 @@
         {
           "stableId": "System.Linq.Expressions:System.Dynamic.InvokeMemberBinder::Bind(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject",
           "clrName": "Bind",
-          "tsEmitName": "bind",
+          "tsEmitName": "bind2",
           "metadataToken": 100667864,
           "canonicalSignature": "(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject",
           "normalizedSignature": "Bind|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject|static=false",
@@ -4671,7 +4671,7 @@
         {
           "stableId": "System.Linq.Expressions:System.Dynamic.InvokeMemberBinder::Bind(System.Object[],System.Collections.ObjectModel.ReadOnlyCollection_1,System.Linq.Expressions.LabelTarget):System.Linq.Expressions.Expression",
           "clrName": "Bind",
-          "tsEmitName": "Bind",
+          "tsEmitName": "bind",
           "metadataToken": 0,
           "canonicalSignature": "(System.Object[],System.Collections.ObjectModel.ReadOnlyCollection_1,System.Linq.Expressions.LabelTarget):System.Linq.Expressions.Expression",
           "normalizedSignature": "Bind|(System.Object[],System.Collections.ObjectModel.ReadOnlyCollection_1,System.Linq.Expressions.LabelTarget):System.Linq.Expressions.Expression|static=false",
@@ -4746,7 +4746,7 @@
       "constructors": [],
       "exposedMethods": [
         {
-          "tsName": "bind",
+          "tsName": "bind2",
           "isStatic": false,
           "tsSignatureId": "Bind|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject|static=false",
           "target": {
@@ -4786,7 +4786,7 @@
           }
         },
         {
-          "tsName": "Bind",
+          "tsName": "bind",
           "isStatic": false,
           "tsSignatureId": "Bind|(System.Object[],System.Collections.ObjectModel.ReadOnlyCollection_1,System.Linq.Expressions.LabelTarget):System.Linq.Expressions.Expression|static=false",
           "target": {
@@ -4796,7 +4796,7 @@
           }
         },
         {
-          "tsName": "bind",
+          "tsName": "bind2",
           "isStatic": false,
           "tsSignatureId": "Bind|(System.Object[],System.Collections.ObjectModel.ReadOnlyCollection_1[[System.Linq.Expressions.ParameterExpression,System.Linq.Expressions,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]],System.Linq.Expressions.LabelTarget):System.Linq.Expressions.Expression|static=false",
           "target": {
@@ -4969,7 +4969,7 @@
         {
           "stableId": "System.Linq.Expressions:System.Dynamic.SetIndexBinder::Bind(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject",
           "clrName": "Bind",
-          "tsEmitName": "bind",
+          "tsEmitName": "bind2",
           "metadataToken": 100667872,
           "canonicalSignature": "(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject",
           "normalizedSignature": "Bind|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject|static=false",
@@ -5011,7 +5011,7 @@
         {
           "stableId": "System.Linq.Expressions:System.Dynamic.SetIndexBinder::Bind(System.Object[],System.Collections.ObjectModel.ReadOnlyCollection_1,System.Linq.Expressions.LabelTarget):System.Linq.Expressions.Expression",
           "clrName": "Bind",
-          "tsEmitName": "Bind",
+          "tsEmitName": "bind",
           "metadataToken": 0,
           "canonicalSignature": "(System.Object[],System.Collections.ObjectModel.ReadOnlyCollection_1,System.Linq.Expressions.LabelTarget):System.Linq.Expressions.Expression",
           "normalizedSignature": "Bind|(System.Object[],System.Collections.ObjectModel.ReadOnlyCollection_1,System.Linq.Expressions.LabelTarget):System.Linq.Expressions.Expression|static=false",
@@ -5058,7 +5058,7 @@
       "constructors": [],
       "exposedMethods": [
         {
-          "tsName": "bind",
+          "tsName": "bind2",
           "isStatic": false,
           "tsSignatureId": "Bind|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject|static=false",
           "target": {
@@ -5088,7 +5088,7 @@
           }
         },
         {
-          "tsName": "Bind",
+          "tsName": "bind",
           "isStatic": false,
           "tsSignatureId": "Bind|(System.Object[],System.Collections.ObjectModel.ReadOnlyCollection_1,System.Linq.Expressions.LabelTarget):System.Linq.Expressions.Expression|static=false",
           "target": {
@@ -5098,7 +5098,7 @@
           }
         },
         {
-          "tsName": "bind",
+          "tsName": "bind2",
           "isStatic": false,
           "tsSignatureId": "Bind|(System.Object[],System.Collections.ObjectModel.ReadOnlyCollection_1[[System.Linq.Expressions.ParameterExpression,System.Linq.Expressions,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]],System.Linq.Expressions.LabelTarget):System.Linq.Expressions.Expression|static=false",
           "target": {
@@ -5251,7 +5251,7 @@
         {
           "stableId": "System.Linq.Expressions:System.Dynamic.SetMemberBinder::Bind(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject",
           "clrName": "Bind",
-          "tsEmitName": "bind",
+          "tsEmitName": "bind2",
           "metadataToken": 100667880,
           "canonicalSignature": "(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject",
           "normalizedSignature": "Bind|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject|static=false",
@@ -5293,7 +5293,7 @@
         {
           "stableId": "System.Linq.Expressions:System.Dynamic.SetMemberBinder::Bind(System.Object[],System.Collections.ObjectModel.ReadOnlyCollection_1,System.Linq.Expressions.LabelTarget):System.Linq.Expressions.Expression",
           "clrName": "Bind",
-          "tsEmitName": "Bind",
+          "tsEmitName": "bind",
           "metadataToken": 0,
           "canonicalSignature": "(System.Object[],System.Collections.ObjectModel.ReadOnlyCollection_1,System.Linq.Expressions.LabelTarget):System.Linq.Expressions.Expression",
           "normalizedSignature": "Bind|(System.Object[],System.Collections.ObjectModel.ReadOnlyCollection_1,System.Linq.Expressions.LabelTarget):System.Linq.Expressions.Expression|static=false",
@@ -5354,7 +5354,7 @@
       "constructors": [],
       "exposedMethods": [
         {
-          "tsName": "bind",
+          "tsName": "bind2",
           "isStatic": false,
           "tsSignatureId": "Bind|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject|static=false",
           "target": {
@@ -5384,7 +5384,7 @@
           }
         },
         {
-          "tsName": "Bind",
+          "tsName": "bind",
           "isStatic": false,
           "tsSignatureId": "Bind|(System.Object[],System.Collections.ObjectModel.ReadOnlyCollection_1,System.Linq.Expressions.LabelTarget):System.Linq.Expressions.Expression|static=false",
           "target": {
@@ -5394,7 +5394,7 @@
           }
         },
         {
-          "tsName": "bind",
+          "tsName": "bind2",
           "isStatic": false,
           "tsSignatureId": "Bind|(System.Object[],System.Collections.ObjectModel.ReadOnlyCollection_1[[System.Linq.Expressions.ParameterExpression,System.Linq.Expressions,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]],System.Linq.Expressions.LabelTarget):System.Linq.Expressions.Expression|static=false",
           "target": {
@@ -5585,7 +5585,7 @@
         {
           "stableId": "System.Linq.Expressions:System.Dynamic.UnaryOperationBinder::Bind(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject",
           "clrName": "Bind",
-          "tsEmitName": "bind",
+          "tsEmitName": "bind2",
           "metadataToken": 100667889,
           "canonicalSignature": "(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject",
           "normalizedSignature": "Bind|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject|static=false",
@@ -5599,7 +5599,7 @@
         {
           "stableId": "System.Linq.Expressions:System.Dynamic.UnaryOperationBinder::Bind(System.Object[],System.Collections.ObjectModel.ReadOnlyCollection_1,System.Linq.Expressions.LabelTarget):System.Linq.Expressions.Expression",
           "clrName": "Bind",
-          "tsEmitName": "Bind",
+          "tsEmitName": "bind",
           "metadataToken": 0,
           "canonicalSignature": "(System.Object[],System.Collections.ObjectModel.ReadOnlyCollection_1,System.Linq.Expressions.LabelTarget):System.Linq.Expressions.Expression",
           "normalizedSignature": "Bind|(System.Object[],System.Collections.ObjectModel.ReadOnlyCollection_1,System.Linq.Expressions.LabelTarget):System.Linq.Expressions.Expression|static=false",
@@ -5666,7 +5666,7 @@
           }
         },
         {
-          "tsName": "bind",
+          "tsName": "bind2",
           "isStatic": false,
           "tsSignatureId": "Bind|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject|static=false",
           "target": {
@@ -5676,7 +5676,7 @@
           }
         },
         {
-          "tsName": "Bind",
+          "tsName": "bind",
           "isStatic": false,
           "tsSignatureId": "Bind|(System.Object[],System.Collections.ObjectModel.ReadOnlyCollection_1,System.Linq.Expressions.LabelTarget):System.Linq.Expressions.Expression|static=false",
           "target": {
@@ -5686,7 +5686,7 @@
           }
         },
         {
-          "tsName": "bind",
+          "tsName": "bind2",
           "isStatic": false,
           "tsSignatureId": "Bind|(System.Object[],System.Collections.ObjectModel.ReadOnlyCollection_1[[System.Linq.Expressions.ParameterExpression,System.Linq.Expressions,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]],System.Linq.Expressions.LabelTarget):System.Linq.Expressions.Expression|static=false",
           "target": {

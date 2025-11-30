@@ -38,199 +38,199 @@ export type CLROf<T> =
     T; // Identity fallback for non-primitive types
 
 export enum ADVF {
-    advf_nodata = 1,
-    advf_primefirst = 2,
-    advf_onlyonce = 4,
-    advf_dataonstop = 64,
-    advfcache_nohandler = 8,
-    advfcache_forcebuiltin = 16,
-    advfcache_onsave = 32
+    advfNodata = 1,
+    advfPrimefirst = 2,
+    advfOnlyonce = 4,
+    advfDataonstop = 64,
+    advfcacheNohandler = 8,
+    advfcacheForcebuiltin = 16,
+    advfcacheOnsave = 32
 }
 
 
 export enum CALLCONV {
-    cc_cdecl = 1,
-    cc_mscpascal = 2,
-    cc_pascal = 2,
-    cc_macpascal = 3,
-    cc_stdcall = 4,
-    cc_reserved = 5,
-    cc_syscall = 6,
-    cc_mpwcdecl = 7,
-    cc_mpwpascal = 8,
-    cc_max = 9
+    ccCdecl = 1,
+    ccMscpascal = 2,
+    ccPascal = 2,
+    ccMacpascal = 3,
+    ccStdcall = 4,
+    ccReserved = 5,
+    ccSyscall = 6,
+    ccMpwcdecl = 7,
+    ccMpwpascal = 8,
+    ccMax = 9
 }
 
 
 export enum DATADIR {
-    datadir_get = 1,
-    datadir_set = 2
+    datadirGet = 1,
+    datadirSet = 2
 }
 
 
 export enum DESCKIND {
-    desckind_none = 0,
-    desckind_funcdesc = 1,
-    desckind_vardesc = 2,
-    desckind_typecomp = 3,
-    desckind_implicitappobj = 4,
-    desckind_max = 5
+    desckindNone = 0,
+    desckindFuncdesc = 1,
+    desckindVardesc = 2,
+    desckindTypecomp = 3,
+    desckindImplicitappobj = 4,
+    desckindMax = 5
 }
 
 
 export enum DVASPECT {
-    dvaspect_content = 1,
-    dvaspect_thumbnail = 2,
-    dvaspect_icon = 4,
-    dvaspect_docprint = 8
+    dvaspectContent = 1,
+    dvaspectThumbnail = 2,
+    dvaspectIcon = 4,
+    dvaspectDocprint = 8
 }
 
 
 export enum FUNCFLAGS {
-    funcflag_frestricted = 1,
-    funcflag_fsource = 2,
-    funcflag_fbindable = 4,
-    funcflag_frequestedit = 8,
-    funcflag_fdisplaybind = 16,
-    funcflag_fdefaultbind = 32,
-    funcflag_fhidden = 64,
-    funcflag_fusesgetlasterror = 128,
-    funcflag_fdefaultcollelem = 256,
-    funcflag_fuidefault = 512,
-    funcflag_fnonbrowsable = 1024,
-    funcflag_freplaceable = 2048,
-    funcflag_fimmediatebind = 4096
+    funcflagFrestricted = 1,
+    funcflagFsource = 2,
+    funcflagFbindable = 4,
+    funcflagFrequestedit = 8,
+    funcflagFdisplaybind = 16,
+    funcflagFdefaultbind = 32,
+    funcflagFhidden = 64,
+    funcflagFusesgetlasterror = 128,
+    funcflagFdefaultcollelem = 256,
+    funcflagFuidefault = 512,
+    funcflagFnonbrowsable = 1024,
+    funcflagFreplaceable = 2048,
+    funcflagFimmediatebind = 4096
 }
 
 
 export enum FUNCKIND {
-    func_virtual = 0,
-    func_purevirtual = 1,
-    func_nonvirtual = 2,
-    func_static = 3,
-    func_dispatch = 4
+    funcVirtual = 0,
+    funcPurevirtual = 1,
+    funcNonvirtual = 2,
+    funcStatic = 3,
+    funcDispatch = 4
 }
 
 
 export enum IDLFLAG {
-    idlflag_none = 0,
-    idlflag_fin = 1,
-    idlflag_fout = 2,
-    idlflag_flcid = 4,
-    idlflag_fretval = 8
+    idlflagNone = 0,
+    idlflagFin = 1,
+    idlflagFout = 2,
+    idlflagFlcid = 4,
+    idlflagFretval = 8
 }
 
 
 export enum IMPLTYPEFLAGS {
-    impltypeflag_fdefault = 1,
-    impltypeflag_fsource = 2,
-    impltypeflag_frestricted = 4,
-    impltypeflag_fdefaultvtable = 8
+    impltypeflagFdefault = 1,
+    impltypeflagFsource = 2,
+    impltypeflagFrestricted = 4,
+    impltypeflagFdefaultvtable = 8
 }
 
 
 export enum INVOKEKIND {
-    invoke_func = 1,
-    invoke_propertyget = 2,
-    invoke_propertyput = 4,
-    invoke_propertyputref = 8
+    invokeFunc = 1,
+    invokePropertyget = 2,
+    invokePropertyput = 4,
+    invokePropertyputref = 8
 }
 
 
 export enum LIBFLAGS {
-    libflag_frestricted = 1,
-    libflag_fcontrol = 2,
-    libflag_fhidden = 4,
-    libflag_fhasdiskimage = 8
+    libflagFrestricted = 1,
+    libflagFcontrol = 2,
+    libflagFhidden = 4,
+    libflagFhasdiskimage = 8
 }
 
 
 export enum PARAMFLAG {
-    paramflag_none = 0,
-    paramflag_fin = 1,
-    paramflag_fout = 2,
-    paramflag_flcid = 4,
-    paramflag_fretval = 8,
-    paramflag_fopt = 16,
-    paramflag_fhasdefault = 32,
-    paramflag_fhascustdata = 64
+    paramflagNone = 0,
+    paramflagFin = 1,
+    paramflagFout = 2,
+    paramflagFlcid = 4,
+    paramflagFretval = 8,
+    paramflagFopt = 16,
+    paramflagFhasdefault = 32,
+    paramflagFhascustdata = 64
 }
 
 
 export enum SYSKIND {
-    sys_win16 = 0,
-    sys_win32 = 1,
-    sys_mac = 2,
-    sys_win64 = 3
+    sysWin16 = 0,
+    sysWin32 = 1,
+    sysMac = 2,
+    sysWin64 = 3
 }
 
 
 export enum TYMED {
-    tymed_hglobal = 1,
-    tymed_file = 2,
-    tymed_istream = 4,
-    tymed_istorage = 8,
-    tymed_gdi = 16,
-    tymed_mfpict = 32,
-    tymed_enhmf = 64,
-    tymed_null = 0
+    tymedHglobal = 1,
+    tymedFile = 2,
+    tymedIstream = 4,
+    tymedIstorage = 8,
+    tymedGdi = 16,
+    tymedMfpict = 32,
+    tymedEnhmf = 64,
+    tymedNull = 0
 }
 
 
 export enum TYPEFLAGS {
-    typeflag_fappobject = 1,
-    typeflag_fcancreate = 2,
-    typeflag_flicensed = 4,
-    typeflag_fpredeclid = 8,
-    typeflag_fhidden = 16,
-    typeflag_fcontrol = 32,
-    typeflag_fdual = 64,
-    typeflag_fnonextensible = 128,
-    typeflag_foleautomation = 256,
-    typeflag_frestricted = 512,
-    typeflag_faggregatable = 1024,
-    typeflag_freplaceable = 2048,
-    typeflag_fdispatchable = 4096,
-    typeflag_freversebind = 8192,
-    typeflag_fproxy = 16384
+    typeflagFappobject = 1,
+    typeflagFcancreate = 2,
+    typeflagFlicensed = 4,
+    typeflagFpredeclid = 8,
+    typeflagFhidden = 16,
+    typeflagFcontrol = 32,
+    typeflagFdual = 64,
+    typeflagFnonextensible = 128,
+    typeflagFoleautomation = 256,
+    typeflagFrestricted = 512,
+    typeflagFaggregatable = 1024,
+    typeflagFreplaceable = 2048,
+    typeflagFdispatchable = 4096,
+    typeflagFreversebind = 8192,
+    typeflagFproxy = 16384
 }
 
 
 export enum TYPEKIND {
-    tkind_enum = 0,
-    tkind_record = 1,
-    tkind_module = 2,
-    tkind_interface = 3,
-    tkind_dispatch = 4,
-    tkind_coclass = 5,
-    tkind_alias = 6,
-    tkind_union = 7,
-    tkind_max = 8
+    tkindEnum = 0,
+    tkindRecord = 1,
+    tkindModule = 2,
+    tkindInterface = 3,
+    tkindDispatch = 4,
+    tkindCoclass = 5,
+    tkindAlias = 6,
+    tkindUnion = 7,
+    tkindMax = 8
 }
 
 
 export enum VARFLAGS {
-    varflag_freadonly = 1,
-    varflag_fsource = 2,
-    varflag_fbindable = 4,
-    varflag_frequestedit = 8,
-    varflag_fdisplaybind = 16,
-    varflag_fdefaultbind = 32,
-    varflag_fhidden = 64,
-    varflag_frestricted = 128,
-    varflag_fdefaultcollelem = 256,
-    varflag_fuidefault = 512,
-    varflag_fnonbrowsable = 1024,
-    varflag_freplaceable = 2048,
-    varflag_fimmediatebind = 4096
+    varflagFreadonly = 1,
+    varflagFsource = 2,
+    varflagFbindable = 4,
+    varflagFrequestedit = 8,
+    varflagFdisplaybind = 16,
+    varflagFdefaultbind = 32,
+    varflagFhidden = 64,
+    varflagFrestricted = 128,
+    varflagFdefaultcollelem = 256,
+    varflagFuidefault = 512,
+    varflagFnonbrowsable = 1024,
+    varflagFreplaceable = 2048,
+    varflagFimmediatebind = 4096
 }
 
 
 export enum VARKIND {
-    var_perinstance = 0,
-    var_static = 1,
-    var_const = 2,
-    var_dispatch = 3
+    varPerinstance = 0,
+    varStatic = 1,
+    varConst = 2,
+    varDispatch = 3
 }
 
 
@@ -365,7 +365,7 @@ export interface IMoniker$instance {
     bindToObject(pbc: IBindCtx, pmkToLeft: IMoniker, riidResult: { value: ref<Guid> }, ppvResult: { value: ref<unknown> }): void;
     commonPrefixWith(pmkOther: IMoniker, ppmkPrefix: { value: ref<IMoniker> }): void;
     composeWith(pmkRight: IMoniker, fOnlyIfNotGeneric: boolean, ppmkComposite: { value: ref<IMoniker> }): void;
-    enum(fForward: boolean, ppenumMoniker: { value: ref<IEnumMoniker> }): void;
+    enum_(fForward: boolean, ppenumMoniker: { value: ref<IEnumMoniker> }): void;
     getClassID(pClassID: { value: ref<Guid> }): void;
     getDisplayName(pbc: IBindCtx, pmkToLeft: IMoniker, ppszDisplayName: { value: ref<string> }): void;
     getSizeMax(pcbSize: { value: ref<long> }): void;
@@ -701,7 +701,7 @@ export class TYPEATTR$instance {
     wMinorVerNum: short;
     tdescAlias: TYPEDESC;
     idldescType: IDLDESC;
-    static readonly member_id_nil: int;
+    static readonly memberIdNil: int;
 }
 
 

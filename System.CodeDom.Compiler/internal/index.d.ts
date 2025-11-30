@@ -56,7 +56,7 @@ export class IndentedTextWriter$instance extends System_IO_Internal.TextWriter$i
     readonly innerWriter: TextWriter;
     newLine: string;
     close(): void;
-    Dispose(): void;
+    dispose(): void;
     disposeAsync(): ValueTask;
     flush(): void;
     flushAsync(): Task;
@@ -129,8 +129,6 @@ export interface __IndentedTextWriter$views {
     As_IAsyncDisposable(): System_Internal.IAsyncDisposable$instance;
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
-
-export interface IndentedTextWriter$instance extends System_Internal.IDisposable$instance {}
 
 export type IndentedTextWriter = IndentedTextWriter$instance & __IndentedTextWriter$views;
 

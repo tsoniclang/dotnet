@@ -100,10 +100,10 @@ export class Rune$instance {
     static toLowerInvariant(value: Rune): Rune;
     static toUpper(value: Rune, culture: CultureInfo): Rune;
     static toUpperInvariant(value: Rune): Rune;
-    static tryCreate(highSurrogate: char, lowSurrogate: char, result: { value: ref<Rune> }): boolean;
-    static tryCreate(ch: char, result: { value: ref<Rune> }): boolean;
-    static tryCreate(value: int, result: { value: ref<Rune> }): boolean;
-    static tryCreate(value: uint, result: { value: ref<Rune> }): boolean;
+    static tryCreate2(highSurrogate: char, lowSurrogate: char, result: { value: ref<Rune> }): boolean;
+    static tryCreate2(ch: char, result: { value: ref<Rune> }): boolean;
+    static tryCreate2(value: int, result: { value: ref<Rune> }): boolean;
+    static tryCreate2(value: uint, result: { value: ref<Rune> }): boolean;
     static tryGetRuneAt(input: string, index: int, value: { value: ref<Rune> }): boolean;
 }
 
@@ -207,14 +207,14 @@ export type StringRuneEnumerator = StringRuneEnumerator$instance & __StringRuneE
 export class ASCIIEncoding$instance extends Encoding$instance {
     constructor();
     readonly isSingleByte: boolean;
-    Clone(): unknown;
-    GetByteCount(chars: char[], index: int, count: int): int;
-    GetByteCount(chars: string): int;
-    GetByteCount(chars: ptr<char>, count: int): int;
-    GetByteCount(chars: ReadOnlySpan_1<CLROf<char>>): int;
-    GetByteCount(chars: char[]): int;
-    GetByteCount(s: string, index: int, count: int): int;
-    GetByteCount(chars: ReadOnlySpan_1<CLROf<char>>): int;
+    clone(): unknown;
+    getByteCount(chars: char[], index: int, count: int): int;
+    getByteCount(chars: string): int;
+    getByteCount(chars: ptr<char>, count: int): int;
+    getByteCount(chars: ReadOnlySpan_1<CLROf<char>>): int;
+    getByteCount(chars: char[]): int;
+    getByteCount(s: string, index: int, count: int): int;
+    getByteCount(chars: ReadOnlySpan_1<CLROf<char>>): int;
     getBytes(chars: string, charIndex: int, charCount: int, bytes: byte[], byteIndex: int): int;
     getBytes(chars: char[], charIndex: int, charCount: int, bytes: byte[], byteIndex: int): int;
     getBytes(chars: ptr<char>, charCount: int, bytes: ptr<byte>, byteCount: int): int;
@@ -224,17 +224,17 @@ export class ASCIIEncoding$instance extends Encoding$instance {
     getBytes(s: string): byte[];
     getBytes(s: string, index: int, count: int): byte[];
     getBytes(chars: ReadOnlySpan_1<CLROf<char>>, bytes: Span_1<CLROf<byte>>): int;
-    GetCharCount(bytes: byte[], index: int, count: int): int;
-    GetCharCount(bytes: ptr<byte>, count: int): int;
-    GetCharCount(bytes: ReadOnlySpan_1<CLROf<byte>>): int;
-    GetCharCount(bytes: byte[]): int;
-    GetCharCount(bytes: ReadOnlySpan_1<CLROf<byte>>): int;
-    GetChars(bytes: byte[], byteIndex: int, byteCount: int, chars: char[], charIndex: int): int;
-    GetChars(bytes: ptr<byte>, byteCount: int, chars: ptr<char>, charCount: int): int;
-    GetChars(bytes: ReadOnlySpan_1<CLROf<byte>>, chars: Span_1<CLROf<char>>): int;
-    GetChars(bytes: byte[]): char[];
-    GetChars(bytes: byte[], index: int, count: int): char[];
-    GetChars(bytes: ReadOnlySpan_1<CLROf<byte>>, chars: Span_1<CLROf<char>>): int;
+    getCharCount(bytes: byte[], index: int, count: int): int;
+    getCharCount(bytes: ptr<byte>, count: int): int;
+    getCharCount(bytes: ReadOnlySpan_1<CLROf<byte>>): int;
+    getCharCount(bytes: byte[]): int;
+    getCharCount(bytes: ReadOnlySpan_1<CLROf<byte>>): int;
+    getChars(bytes: byte[], byteIndex: int, byteCount: int, chars: char[], charIndex: int): int;
+    getChars(bytes: ptr<byte>, byteCount: int, chars: ptr<char>, charCount: int): int;
+    getChars(bytes: ReadOnlySpan_1<CLROf<byte>>, chars: Span_1<CLROf<char>>): int;
+    getChars(bytes: byte[]): char[];
+    getChars(bytes: byte[], index: int, count: int): char[];
+    getChars(bytes: ReadOnlySpan_1<CLROf<byte>>, chars: Span_1<CLROf<char>>): int;
     getDecoder(): Decoder;
     getEncoder(): Encoder;
     getMaxByteCount(charCount: int): int;
@@ -253,8 +253,6 @@ export class ASCIIEncoding$instance extends Encoding$instance {
 export interface __ASCIIEncoding$views {
     As_ICloneable(): System_Internal.ICloneable$instance;
 }
-
-export interface ASCIIEncoding$instance extends System_Internal.ICloneable$instance {}
 
 export type ASCIIEncoding = ASCIIEncoding$instance & __ASCIIEncoding$views;
 
@@ -351,7 +349,7 @@ export class DecoderFallbackException$instance extends System_Internal.ArgumentE
     constructor(message: string, bytesUnknown: byte[], index: int);
     readonly bytesUnknown: byte[];
     readonly index: int;
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
@@ -458,7 +456,7 @@ export class EncoderFallbackException$instance extends System_Internal.ArgumentE
     readonly charUnknownHigh: char;
     readonly charUnknownLow: char;
     readonly index: int;
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
     isUnknownSurrogate(): boolean;
 }
 
@@ -551,7 +549,7 @@ export abstract class Encoding$instance {
     isAlwaysNormalized(form: NormalizationForm): boolean;
     tryGetBytes(chars: ReadOnlySpan_1<CLROf<char>>, bytes: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
     tryGetChars(bytes: ReadOnlySpan_1<CLROf<byte>>, chars: Span_1<CLROf<char>>, charsWritten: { value: ref<int> }): boolean;
-    static readonly default: Encoding;
+    static readonly default_: Encoding;
     static readonly ascii: Encoding;
     static readonly latin1: Encoding;
     static readonly unicode: Encoding;
@@ -559,13 +557,13 @@ export abstract class Encoding$instance {
     static readonly utf7: Encoding;
     static readonly utf8: Encoding;
     static readonly utf32: Encoding;
-    static convert(srcEncoding: Encoding, dstEncoding: Encoding, bytes: byte[], index: int, count: int): byte[];
-    static convert(srcEncoding: Encoding, dstEncoding: Encoding, bytes: byte[]): byte[];
+    static convert2(srcEncoding: Encoding, dstEncoding: Encoding, bytes: byte[], index: int, count: int): byte[];
+    static convert2(srcEncoding: Encoding, dstEncoding: Encoding, bytes: byte[]): byte[];
     static createTranscodingStream(innerStream: Stream, innerStreamEncoding: Encoding, outerStreamEncoding: Encoding, leaveOpen?: boolean): Stream;
-    static getEncoding(codepage: int, encoderFallback: EncoderFallback, decoderFallback: DecoderFallback): Encoding;
-    static getEncoding(codepage: int): Encoding;
-    static getEncoding(name: string, encoderFallback: EncoderFallback, decoderFallback: DecoderFallback): Encoding;
-    static getEncoding(name: string): Encoding;
+    static getEncoding2(codepage: int, encoderFallback: EncoderFallback, decoderFallback: DecoderFallback): Encoding;
+    static getEncoding2(codepage: int): Encoding;
+    static getEncoding2(name: string, encoderFallback: EncoderFallback, decoderFallback: DecoderFallback): Encoding;
+    static getEncoding2(name: string): Encoding;
     static getEncodings(): EncodingInfo[];
     static registerProvider(provider: EncodingProvider): void;
 }
@@ -723,14 +721,14 @@ export class UnicodeEncoding$instance extends Encoding$instance {
     constructor(bigEndian: boolean, byteOrderMark: boolean);
     constructor(bigEndian: boolean, byteOrderMark: boolean, throwOnInvalidBytes: boolean);
     readonly preamble: ReadOnlySpan_1<CLROf<byte>>;
-    Clone(): unknown;
+    clone(): unknown;
     equals(value: unknown): boolean;
-    GetByteCount(chars: char[], index: int, count: int): int;
-    GetByteCount(s: string): int;
-    GetByteCount(chars: ptr<char>, count: int): int;
-    GetByteCount(chars: char[]): int;
-    GetByteCount(s: string, index: int, count: int): int;
-    GetByteCount(chars: ReadOnlySpan_1<CLROf<char>>): int;
+    getByteCount(chars: char[], index: int, count: int): int;
+    getByteCount(s: string): int;
+    getByteCount(chars: ptr<char>, count: int): int;
+    getByteCount(chars: char[]): int;
+    getByteCount(s: string, index: int, count: int): int;
+    getByteCount(chars: ReadOnlySpan_1<CLROf<char>>): int;
     getBytes(s: string, charIndex: int, charCount: int, bytes: byte[], byteIndex: int): int;
     getBytes(chars: char[], charIndex: int, charCount: int, bytes: byte[], byteIndex: int): int;
     getBytes(chars: ptr<char>, charCount: int, bytes: ptr<byte>, byteCount: int): int;
@@ -739,15 +737,15 @@ export class UnicodeEncoding$instance extends Encoding$instance {
     getBytes(s: string): byte[];
     getBytes(s: string, index: int, count: int): byte[];
     getBytes(chars: ReadOnlySpan_1<CLROf<char>>, bytes: Span_1<CLROf<byte>>): int;
-    GetCharCount(bytes: byte[], index: int, count: int): int;
-    GetCharCount(bytes: ptr<byte>, count: int): int;
-    GetCharCount(bytes: byte[]): int;
-    GetCharCount(bytes: ReadOnlySpan_1<CLROf<byte>>): int;
-    GetChars(bytes: byte[], byteIndex: int, byteCount: int, chars: char[], charIndex: int): int;
-    GetChars(bytes: ptr<byte>, byteCount: int, chars: ptr<char>, charCount: int): int;
-    GetChars(bytes: byte[]): char[];
-    GetChars(bytes: byte[], index: int, count: int): char[];
-    GetChars(bytes: ReadOnlySpan_1<CLROf<byte>>, chars: Span_1<CLROf<char>>): int;
+    getCharCount(bytes: byte[], index: int, count: int): int;
+    getCharCount(bytes: ptr<byte>, count: int): int;
+    getCharCount(bytes: byte[]): int;
+    getCharCount(bytes: ReadOnlySpan_1<CLROf<byte>>): int;
+    getChars(bytes: byte[], byteIndex: int, byteCount: int, chars: char[], charIndex: int): int;
+    getChars(bytes: ptr<byte>, byteCount: int, chars: ptr<char>, charCount: int): int;
+    getChars(bytes: byte[]): char[];
+    getChars(bytes: byte[], index: int, count: int): char[];
+    getChars(bytes: ReadOnlySpan_1<CLROf<byte>>, chars: Span_1<CLROf<char>>): int;
     getDecoder(): Decoder;
     getEncoder(): Encoder;
     getHashCode(): int;
@@ -766,8 +764,6 @@ export interface __UnicodeEncoding$views {
     As_ICloneable(): System_Internal.ICloneable$instance;
 }
 
-export interface UnicodeEncoding$instance extends System_Internal.ICloneable$instance {}
-
 export type UnicodeEncoding = UnicodeEncoding$instance & __UnicodeEncoding$views;
 
 
@@ -776,14 +772,14 @@ export class UTF32Encoding$instance extends Encoding$instance {
     constructor(bigEndian: boolean, byteOrderMark: boolean);
     constructor(bigEndian: boolean, byteOrderMark: boolean, throwOnInvalidCharacters: boolean);
     readonly preamble: ReadOnlySpan_1<CLROf<byte>>;
-    Clone(): unknown;
+    clone(): unknown;
     equals(value: unknown): boolean;
-    GetByteCount(chars: char[], index: int, count: int): int;
-    GetByteCount(s: string): int;
-    GetByteCount(chars: ptr<char>, count: int): int;
-    GetByteCount(chars: char[]): int;
-    GetByteCount(s: string, index: int, count: int): int;
-    GetByteCount(chars: ReadOnlySpan_1<CLROf<char>>): int;
+    getByteCount(chars: char[], index: int, count: int): int;
+    getByteCount(s: string): int;
+    getByteCount(chars: ptr<char>, count: int): int;
+    getByteCount(chars: char[]): int;
+    getByteCount(s: string, index: int, count: int): int;
+    getByteCount(chars: ReadOnlySpan_1<CLROf<char>>): int;
     getBytes(s: string, charIndex: int, charCount: int, bytes: byte[], byteIndex: int): int;
     getBytes(chars: char[], charIndex: int, charCount: int, bytes: byte[], byteIndex: int): int;
     getBytes(chars: ptr<char>, charCount: int, bytes: ptr<byte>, byteCount: int): int;
@@ -792,15 +788,15 @@ export class UTF32Encoding$instance extends Encoding$instance {
     getBytes(s: string): byte[];
     getBytes(s: string, index: int, count: int): byte[];
     getBytes(chars: ReadOnlySpan_1<CLROf<char>>, bytes: Span_1<CLROf<byte>>): int;
-    GetCharCount(bytes: byte[], index: int, count: int): int;
-    GetCharCount(bytes: ptr<byte>, count: int): int;
-    GetCharCount(bytes: byte[]): int;
-    GetCharCount(bytes: ReadOnlySpan_1<CLROf<byte>>): int;
-    GetChars(bytes: byte[], byteIndex: int, byteCount: int, chars: char[], charIndex: int): int;
-    GetChars(bytes: ptr<byte>, byteCount: int, chars: ptr<char>, charCount: int): int;
-    GetChars(bytes: byte[]): char[];
-    GetChars(bytes: byte[], index: int, count: int): char[];
-    GetChars(bytes: ReadOnlySpan_1<CLROf<byte>>, chars: Span_1<CLROf<char>>): int;
+    getCharCount(bytes: byte[], index: int, count: int): int;
+    getCharCount(bytes: ptr<byte>, count: int): int;
+    getCharCount(bytes: byte[]): int;
+    getCharCount(bytes: ReadOnlySpan_1<CLROf<byte>>): int;
+    getChars(bytes: byte[], byteIndex: int, byteCount: int, chars: char[], charIndex: int): int;
+    getChars(bytes: ptr<byte>, byteCount: int, chars: ptr<char>, charCount: int): int;
+    getChars(bytes: byte[]): char[];
+    getChars(bytes: byte[], index: int, count: int): char[];
+    getChars(bytes: ReadOnlySpan_1<CLROf<byte>>, chars: Span_1<CLROf<char>>): int;
     getDecoder(): Decoder;
     getEncoder(): Encoder;
     getHashCode(): int;
@@ -818,22 +814,20 @@ export interface __UTF32Encoding$views {
     As_ICloneable(): System_Internal.ICloneable$instance;
 }
 
-export interface UTF32Encoding$instance extends System_Internal.ICloneable$instance {}
-
 export type UTF32Encoding = UTF32Encoding$instance & __UTF32Encoding$views;
 
 
 export class UTF7Encoding$instance extends Encoding$instance {
     constructor();
     constructor(allowOptionals: boolean);
-    Clone(): unknown;
+    clone(): unknown;
     equals(value: unknown): boolean;
-    GetByteCount(chars: char[], index: int, count: int): int;
-    GetByteCount(s: string): int;
-    GetByteCount(chars: ptr<char>, count: int): int;
-    GetByteCount(chars: char[]): int;
-    GetByteCount(s: string, index: int, count: int): int;
-    GetByteCount(chars: ReadOnlySpan_1<CLROf<char>>): int;
+    getByteCount(chars: char[], index: int, count: int): int;
+    getByteCount(s: string): int;
+    getByteCount(chars: ptr<char>, count: int): int;
+    getByteCount(chars: char[]): int;
+    getByteCount(s: string, index: int, count: int): int;
+    getByteCount(chars: ReadOnlySpan_1<CLROf<char>>): int;
     getBytes(s: string, charIndex: int, charCount: int, bytes: byte[], byteIndex: int): int;
     getBytes(chars: char[], charIndex: int, charCount: int, bytes: byte[], byteIndex: int): int;
     getBytes(chars: ptr<char>, charCount: int, bytes: ptr<byte>, byteCount: int): int;
@@ -842,15 +836,15 @@ export class UTF7Encoding$instance extends Encoding$instance {
     getBytes(s: string): byte[];
     getBytes(s: string, index: int, count: int): byte[];
     getBytes(chars: ReadOnlySpan_1<CLROf<char>>, bytes: Span_1<CLROf<byte>>): int;
-    GetCharCount(bytes: byte[], index: int, count: int): int;
-    GetCharCount(bytes: ptr<byte>, count: int): int;
-    GetCharCount(bytes: byte[]): int;
-    GetCharCount(bytes: ReadOnlySpan_1<CLROf<byte>>): int;
-    GetChars(bytes: byte[], byteIndex: int, byteCount: int, chars: char[], charIndex: int): int;
-    GetChars(bytes: ptr<byte>, byteCount: int, chars: ptr<char>, charCount: int): int;
-    GetChars(bytes: byte[]): char[];
-    GetChars(bytes: byte[], index: int, count: int): char[];
-    GetChars(bytes: ReadOnlySpan_1<CLROf<byte>>, chars: Span_1<CLROf<char>>): int;
+    getCharCount(bytes: byte[], index: int, count: int): int;
+    getCharCount(bytes: ptr<byte>, count: int): int;
+    getCharCount(bytes: byte[]): int;
+    getCharCount(bytes: ReadOnlySpan_1<CLROf<byte>>): int;
+    getChars(bytes: byte[], byteIndex: int, byteCount: int, chars: char[], charIndex: int): int;
+    getChars(bytes: ptr<byte>, byteCount: int, chars: ptr<char>, charCount: int): int;
+    getChars(bytes: byte[]): char[];
+    getChars(bytes: byte[], index: int, count: int): char[];
+    getChars(bytes: ReadOnlySpan_1<CLROf<byte>>, chars: Span_1<CLROf<char>>): int;
     getDecoder(): Decoder;
     getEncoder(): Encoder;
     getHashCode(): int;
@@ -867,8 +861,6 @@ export interface __UTF7Encoding$views {
     As_ICloneable(): System_Internal.ICloneable$instance;
 }
 
-export interface UTF7Encoding$instance extends System_Internal.ICloneable$instance {}
-
 export type UTF7Encoding = UTF7Encoding$instance & __UTF7Encoding$views;
 
 
@@ -877,15 +869,15 @@ export class UTF8Encoding$instance extends Encoding$instance {
     constructor(encoderShouldEmitUTF8Identifier: boolean);
     constructor(encoderShouldEmitUTF8Identifier: boolean, throwOnInvalidBytes: boolean);
     readonly preamble: ReadOnlySpan_1<CLROf<byte>>;
-    Clone(): unknown;
+    clone(): unknown;
     equals(value: unknown): boolean;
-    GetByteCount(chars: char[], index: int, count: int): int;
-    GetByteCount(chars: string): int;
-    GetByteCount(chars: ptr<char>, count: int): int;
-    GetByteCount(chars: ReadOnlySpan_1<CLROf<char>>): int;
-    GetByteCount(chars: char[]): int;
-    GetByteCount(s: string, index: int, count: int): int;
-    GetByteCount(chars: ReadOnlySpan_1<CLROf<char>>): int;
+    getByteCount(chars: char[], index: int, count: int): int;
+    getByteCount(chars: string): int;
+    getByteCount(chars: ptr<char>, count: int): int;
+    getByteCount(chars: ReadOnlySpan_1<CLROf<char>>): int;
+    getByteCount(chars: char[]): int;
+    getByteCount(s: string, index: int, count: int): int;
+    getByteCount(chars: ReadOnlySpan_1<CLROf<char>>): int;
     getBytes(s: string, charIndex: int, charCount: int, bytes: byte[], byteIndex: int): int;
     getBytes(chars: char[], charIndex: int, charCount: int, bytes: byte[], byteIndex: int): int;
     getBytes(chars: ptr<char>, charCount: int, bytes: ptr<byte>, byteCount: int): int;
@@ -895,17 +887,17 @@ export class UTF8Encoding$instance extends Encoding$instance {
     getBytes(s: string): byte[];
     getBytes(s: string, index: int, count: int): byte[];
     getBytes(chars: ReadOnlySpan_1<CLROf<char>>, bytes: Span_1<CLROf<byte>>): int;
-    GetCharCount(bytes: byte[], index: int, count: int): int;
-    GetCharCount(bytes: ptr<byte>, count: int): int;
-    GetCharCount(bytes: ReadOnlySpan_1<CLROf<byte>>): int;
-    GetCharCount(bytes: byte[]): int;
-    GetCharCount(bytes: ReadOnlySpan_1<CLROf<byte>>): int;
-    GetChars(bytes: byte[], byteIndex: int, byteCount: int, chars: char[], charIndex: int): int;
-    GetChars(bytes: ptr<byte>, byteCount: int, chars: ptr<char>, charCount: int): int;
-    GetChars(bytes: ReadOnlySpan_1<CLROf<byte>>, chars: Span_1<CLROf<char>>): int;
-    GetChars(bytes: byte[]): char[];
-    GetChars(bytes: byte[], index: int, count: int): char[];
-    GetChars(bytes: ReadOnlySpan_1<CLROf<byte>>, chars: Span_1<CLROf<char>>): int;
+    getCharCount(bytes: byte[], index: int, count: int): int;
+    getCharCount(bytes: ptr<byte>, count: int): int;
+    getCharCount(bytes: ReadOnlySpan_1<CLROf<byte>>): int;
+    getCharCount(bytes: byte[]): int;
+    getCharCount(bytes: ReadOnlySpan_1<CLROf<byte>>): int;
+    getChars(bytes: byte[], byteIndex: int, byteCount: int, chars: char[], charIndex: int): int;
+    getChars(bytes: ptr<byte>, byteCount: int, chars: ptr<char>, charCount: int): int;
+    getChars(bytes: ReadOnlySpan_1<CLROf<byte>>, chars: Span_1<CLROf<char>>): int;
+    getChars(bytes: byte[]): char[];
+    getChars(bytes: byte[], index: int, count: int): char[];
+    getChars(bytes: ReadOnlySpan_1<CLROf<byte>>, chars: Span_1<CLROf<char>>): int;
     getDecoder(): Decoder;
     getEncoder(): Encoder;
     getHashCode(): int;
@@ -927,8 +919,6 @@ export interface __UTF8Encoding$views {
     As_ICloneable(): System_Internal.ICloneable$instance;
 }
 
-export interface UTF8Encoding$instance extends System_Internal.ICloneable$instance {}
-
 export type UTF8Encoding = UTF8Encoding$instance & __UTF8Encoding$views;
 
 
@@ -942,10 +932,10 @@ export abstract class Ascii$instance {
     static equalsIgnoreCase(left: ReadOnlySpan_1<CLROf<char>>, right: ReadOnlySpan_1<CLROf<byte>>): boolean;
     static equalsIgnoreCase(left: ReadOnlySpan_1<CLROf<char>>, right: ReadOnlySpan_1<CLROf<char>>): boolean;
     static fromUtf16(source: ReadOnlySpan_1<CLROf<char>>, destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): OperationStatus;
-    static isValid(value: byte): boolean;
-    static isValid(value: char): boolean;
-    static isValid(value: ReadOnlySpan_1<CLROf<byte>>): boolean;
-    static isValid(value: ReadOnlySpan_1<CLROf<char>>): boolean;
+    static isValid3(value: byte): boolean;
+    static isValid3(value: char): boolean;
+    static isValid3(value: ReadOnlySpan_1<CLROf<byte>>): boolean;
+    static isValid3(value: ReadOnlySpan_1<CLROf<char>>): boolean;
     static toLower(source: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): OperationStatus;
     static toLower(source: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<char>>, charsWritten: { value: ref<int> }): OperationStatus;
     static toLower(source: ReadOnlySpan_1<CLROf<char>>, destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): OperationStatus;
@@ -971,17 +961,17 @@ export abstract class Ascii$instance {
 export type Ascii = Ascii$instance;
 
 export abstract class EncodingExtensions$instance {
-    static convert(decoder: Decoder, bytes: { value: ref<ReadOnlySequence_1<CLROf<byte>>> }, writer: IBufferWriter_1<CLROf<char>>, flush: boolean, charsUsed: { value: ref<long> }, completed: { value: ref<boolean> }): void;
-    static convert(decoder: Decoder, bytes: ReadOnlySpan_1<CLROf<byte>>, writer: IBufferWriter_1<CLROf<char>>, flush: boolean, charsUsed: { value: ref<long> }, completed: { value: ref<boolean> }): void;
-    static convert(encoder: Encoder, chars: { value: ref<ReadOnlySequence_1<CLROf<char>>> }, writer: IBufferWriter_1<CLROf<byte>>, flush: boolean, bytesUsed: { value: ref<long> }, completed: { value: ref<boolean> }): void;
-    static convert(encoder: Encoder, chars: ReadOnlySpan_1<CLROf<char>>, writer: IBufferWriter_1<CLROf<byte>>, flush: boolean, bytesUsed: { value: ref<long> }, completed: { value: ref<boolean> }): void;
-    static getBytes(encoding: Encoding, chars: { value: ref<ReadOnlySequence_1<CLROf<char>>> }, writer: IBufferWriter_1<CLROf<byte>>): long;
-    static getBytes(encoding: Encoding, chars: { value: ref<ReadOnlySequence_1<CLROf<char>>> }, bytes: Span_1<CLROf<byte>>): int;
-    static getBytes(encoding: Encoding, chars: { value: ref<ReadOnlySequence_1<CLROf<char>>> }): byte[];
-    static getBytes(encoding: Encoding, chars: ReadOnlySpan_1<CLROf<char>>, writer: IBufferWriter_1<CLROf<byte>>): long;
-    static getChars(encoding: Encoding, bytes: { value: ref<ReadOnlySequence_1<CLROf<byte>>> }, writer: IBufferWriter_1<CLROf<char>>): long;
-    static getChars(encoding: Encoding, bytes: { value: ref<ReadOnlySequence_1<CLROf<byte>>> }, chars: Span_1<CLROf<char>>): int;
-    static getChars(encoding: Encoding, bytes: ReadOnlySpan_1<CLROf<byte>>, writer: IBufferWriter_1<CLROf<char>>): long;
+    static convert4(decoder: Decoder, bytes: { value: ref<ReadOnlySequence_1<CLROf<byte>>> }, writer: IBufferWriter_1<CLROf<char>>, flush: boolean, charsUsed: { value: ref<long> }, completed: { value: ref<boolean> }): void;
+    static convert4(decoder: Decoder, bytes: ReadOnlySpan_1<CLROf<byte>>, writer: IBufferWriter_1<CLROf<char>>, flush: boolean, charsUsed: { value: ref<long> }, completed: { value: ref<boolean> }): void;
+    static convert4(encoder: Encoder, chars: { value: ref<ReadOnlySequence_1<CLROf<char>>> }, writer: IBufferWriter_1<CLROf<byte>>, flush: boolean, bytesUsed: { value: ref<long> }, completed: { value: ref<boolean> }): void;
+    static convert4(encoder: Encoder, chars: ReadOnlySpan_1<CLROf<char>>, writer: IBufferWriter_1<CLROf<byte>>, flush: boolean, bytesUsed: { value: ref<long> }, completed: { value: ref<boolean> }): void;
+    static getBytes2(encoding: Encoding, chars: { value: ref<ReadOnlySequence_1<CLROf<char>>> }, writer: IBufferWriter_1<CLROf<byte>>): long;
+    static getBytes2(encoding: Encoding, chars: { value: ref<ReadOnlySequence_1<CLROf<char>>> }, bytes: Span_1<CLROf<byte>>): int;
+    static getBytes2(encoding: Encoding, chars: { value: ref<ReadOnlySequence_1<CLROf<char>>> }): byte[];
+    static getBytes2(encoding: Encoding, chars: ReadOnlySpan_1<CLROf<char>>, writer: IBufferWriter_1<CLROf<byte>>): long;
+    static getChars2(encoding: Encoding, bytes: { value: ref<ReadOnlySequence_1<CLROf<byte>>> }, writer: IBufferWriter_1<CLROf<char>>): long;
+    static getChars2(encoding: Encoding, bytes: { value: ref<ReadOnlySequence_1<CLROf<byte>>> }, chars: Span_1<CLROf<char>>): int;
+    static getChars2(encoding: Encoding, bytes: ReadOnlySpan_1<CLROf<byte>>, writer: IBufferWriter_1<CLROf<char>>): long;
     static getString(encoding: Encoding, bytes: { value: ref<ReadOnlySequence_1<CLROf<byte>>> }): string;
 }
 

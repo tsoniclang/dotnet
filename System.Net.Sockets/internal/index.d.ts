@@ -500,8 +500,8 @@ export class NetworkStream$instance extends System_IO_Internal.Stream$instance {
     beginRead(buffer: byte[], offset: int, count: int, callback: AsyncCallback, state: unknown): IAsyncResult;
     beginWrite(buffer: byte[], offset: int, count: int, callback: AsyncCallback, state: unknown): IAsyncResult;
     close(): void;
-    Dispose(): void;
-    DisposeAsync(): ValueTask;
+    dispose(): void;
+    disposeAsync(): ValueTask;
     endRead(asyncResult: IAsyncResult): int;
     endWrite(asyncResult: IAsyncResult): void;
     flush(): void;
@@ -534,8 +534,6 @@ export interface __NetworkStream$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
 
-export interface NetworkStream$instance extends System_Internal.IAsyncDisposable$instance, System_Internal.IDisposable$instance {}
-
 export type NetworkStream = NetworkStream$instance & __NetworkStream$views;
 
 
@@ -543,15 +541,13 @@ export class SafeSocketHandle$instance extends Microsoft_Win32_SafeHandles_Inter
     constructor();
     constructor(preexistingHandle: nint, ownsHandle: boolean);
     readonly isInvalid: boolean;
-    Dispose(): void;
+    dispose(): void;
 }
 
 
 export interface __SafeSocketHandle$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
-
-export interface SafeSocketHandle$instance extends System_Internal.IDisposable$instance {}
 
 export type SafeSocketHandle = SafeSocketHandle$instance & __SafeSocketHandle$views;
 
@@ -831,7 +827,7 @@ export class SocketException$instance extends System_ComponentModel_Internal.Win
     readonly errorCode: int;
     readonly message: string;
     readonly socketErrorCode: SocketError;
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
@@ -997,16 +993,16 @@ export class UnixDomainSocketEndPoint$instance extends System_Net_Internal.EndPo
 export type UnixDomainSocketEndPoint = UnixDomainSocketEndPoint$instance;
 
 export abstract class SocketTaskExtensions$instance {
-    static acceptAsync(socket: Socket, acceptSocket: Socket): Task_1<Socket>;
-    static acceptAsync(socket: Socket): Task_1<Socket>;
-    static connectAsync(socket: Socket, remoteEP: EndPoint, cancellationToken: CancellationToken): ValueTask;
-    static connectAsync(socket: Socket, remoteEP: EndPoint): Task;
-    static connectAsync(socket: Socket, address: IPAddress, port: int, cancellationToken: CancellationToken): ValueTask;
-    static connectAsync(socket: Socket, address: IPAddress, port: int): Task;
-    static connectAsync(socket: Socket, addresses: IPAddress[], port: int, cancellationToken: CancellationToken): ValueTask;
-    static connectAsync(socket: Socket, addresses: IPAddress[], port: int): Task;
-    static connectAsync(socket: Socket, host: string, port: int, cancellationToken: CancellationToken): ValueTask;
-    static connectAsync(socket: Socket, host: string, port: int): Task;
+    static acceptAsync2(socket: Socket, acceptSocket: Socket): Task_1<Socket>;
+    static acceptAsync2(socket: Socket): Task_1<Socket>;
+    static connectAsync2(socket: Socket, remoteEP: EndPoint, cancellationToken: CancellationToken): ValueTask;
+    static connectAsync2(socket: Socket, remoteEP: EndPoint): Task;
+    static connectAsync2(socket: Socket, address: IPAddress, port: int, cancellationToken: CancellationToken): ValueTask;
+    static connectAsync2(socket: Socket, address: IPAddress, port: int): Task;
+    static connectAsync2(socket: Socket, addresses: IPAddress[], port: int, cancellationToken: CancellationToken): ValueTask;
+    static connectAsync2(socket: Socket, addresses: IPAddress[], port: int): Task;
+    static connectAsync2(socket: Socket, host: string, port: int, cancellationToken: CancellationToken): ValueTask;
+    static connectAsync2(socket: Socket, host: string, port: int): Task;
     static receiveAsync(socket: Socket, buffer: ArraySegment_1<CLROf<byte>>, socketFlags: SocketFlags): Task_1<CLROf<int>>;
     static receiveAsync(socket: Socket, buffers: IList_1<ArraySegment_1<CLROf<byte>>>, socketFlags: SocketFlags): Task_1<CLROf<int>>;
     static receiveAsync(socket: Socket, buffer: Memory_1<CLROf<byte>>, socketFlags: SocketFlags, cancellationToken?: CancellationToken): ValueTask_1<CLROf<int>>;

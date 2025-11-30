@@ -123,11 +123,11 @@ export class RegistryKey$instance extends System_Internal.MarshalByRefObject$ins
     setValue(name: string, value: unknown): void;
     setValue(name: string, value: unknown, valueKind: RegistryValueKind): void;
     toString(): string;
-    static fromHandle(handle: SafeRegistryHandle, view: RegistryView): RegistryKey;
-    static fromHandle(handle: SafeRegistryHandle): RegistryKey;
+    static fromHandle2(handle: SafeRegistryHandle, view: RegistryView): RegistryKey;
+    static fromHandle2(handle: SafeRegistryHandle): RegistryKey;
     static openBaseKey(hKey: RegistryHive, view: RegistryView): RegistryKey;
-    static openRemoteBaseKey(hKey: RegistryHive, machineName: string, view: RegistryView): RegistryKey;
-    static openRemoteBaseKey(hKey: RegistryHive, machineName: string): RegistryKey;
+    static openRemoteBaseKey2(hKey: RegistryHive, machineName: string, view: RegistryView): RegistryKey;
+    static openRemoteBaseKey2(hKey: RegistryHive, machineName: string): RegistryKey;
 }
 
 
@@ -148,8 +148,8 @@ export abstract class Registry$instance {
     static readonly performanceData: RegistryKey;
     static readonly users: RegistryKey;
     static getValue(keyName: string, valueName: string, defaultValue: unknown): unknown;
-    static setValue(keyName: string, valueName: string, value: unknown, valueKind: RegistryValueKind): void;
-    static setValue(keyName: string, valueName: string, value: unknown): void;
+    static setValue2(keyName: string, valueName: string, value: unknown, valueKind: RegistryValueKind): void;
+    static setValue2(keyName: string, valueName: string, value: unknown): void;
 }
 
 

@@ -36,8 +36,8 @@ export type CLROf<T> =
 
 export abstract class Console$instance {
     static write(s: string): void;
-    static writeLine(): void;
-    static writeLine(s: string): void;
+    static writeLine2(): void;
+    static writeLine2(s: string): void;
 }
 
 

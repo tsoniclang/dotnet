@@ -4385,7 +4385,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ByteEqualityComparer::Equals(System.Byte,System.Byte):System.Boolean",
           "clrName": "Equals",
-          "tsEmitName": "equals",
+          "tsEmitName": "equals3",
           "normalizedSignature": "Equals|(System.Byte,System.Byte):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4401,7 +4401,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ByteEqualityComparer::GetHashCode(System.Byte):System.Int32",
           "clrName": "GetHashCode",
-          "tsEmitName": "getHashCode",
+          "tsEmitName": "getHashCode3",
           "normalizedSignature": "GetHashCode|(System.Byte):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4417,7 +4417,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ByteEqualityComparer::Equals(System.Object):System.Boolean",
           "clrName": "Equals",
-          "tsEmitName": "equals2",
+          "tsEmitName": "equals4",
           "normalizedSignature": "Equals|(System.Object):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4433,7 +4433,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ByteEqualityComparer::GetHashCode():System.Int32",
           "clrName": "GetHashCode",
-          "tsEmitName": "getHashCode2",
+          "tsEmitName": "getHashCode4",
           "normalizedSignature": "GetHashCode|():System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4517,7 +4517,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ByteEqualityComparer::Equals(T,T):System.Boolean",
           "clrName": "Equals",
-          "tsEmitName": "Equals",
+          "tsEmitName": "equals",
           "normalizedSignature": "Equals|(T,T):System.Boolean|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -4533,7 +4533,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ByteEqualityComparer::Equals(System.Object,System.Object):System.Boolean",
           "clrName": "Equals",
-          "tsEmitName": "Equals2",
+          "tsEmitName": "equals2",
           "normalizedSignature": "Equals|(System.Object,System.Object):System.Boolean|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -4549,7 +4549,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ByteEqualityComparer::GetHashCode(T):System.Int32",
           "clrName": "GetHashCode",
-          "tsEmitName": "GetHashCode",
+          "tsEmitName": "getHashCode",
           "normalizedSignature": "GetHashCode|(T):System.Int32|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -4565,7 +4565,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ByteEqualityComparer::GetHashCode(System.Object):System.Int32",
           "clrName": "GetHashCode",
-          "tsEmitName": "GetHashCode2",
+          "tsEmitName": "getHashCode2",
           "normalizedSignature": "GetHashCode|(System.Object):System.Int32|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -6243,7 +6243,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.EnumEqualityComparer\u00601::Equals(T,T):System.Boolean",
           "clrName": "Equals",
-          "tsEmitName": "equals",
+          "tsEmitName": "equals2",
           "normalizedSignature": "Equals|(T,T):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6275,7 +6275,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.EnumEqualityComparer\u00601::GetHashCode(T):System.Int32",
           "clrName": "GetHashCode",
-          "tsEmitName": "getHashCode",
+          "tsEmitName": "getHashCode2",
           "normalizedSignature": "GetHashCode|(T):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6291,7 +6291,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.EnumEqualityComparer\u00601::Equals(System.Object):System.Boolean",
           "clrName": "Equals",
-          "tsEmitName": "equals2",
+          "tsEmitName": "equals3",
           "normalizedSignature": "Equals|(System.Object):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6307,7 +6307,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.EnumEqualityComparer\u00601::GetHashCode():System.Int32",
           "clrName": "GetHashCode",
-          "tsEmitName": "getHashCode2",
+          "tsEmitName": "getHashCode3",
           "normalizedSignature": "GetHashCode|():System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6408,7 +6408,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.EnumEqualityComparer\u00601::Equals(System.Object,System.Object):System.Boolean",
           "clrName": "Equals",
-          "tsEmitName": "Equals",
+          "tsEmitName": "equals",
           "normalizedSignature": "Equals|(System.Object,System.Object):System.Boolean|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -6424,7 +6424,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.EnumEqualityComparer\u00601::GetHashCode(System.Object):System.Int32",
           "clrName": "GetHashCode",
-          "tsEmitName": "GetHashCode",
+          "tsEmitName": "getHashCode",
           "normalizedSignature": "GetHashCode|(System.Object):System.Int32|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -6612,7 +6612,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.GenericComparer\u00601::Compare(T,T):System.Int32",
           "clrName": "Compare",
-          "tsEmitName": "compare",
+          "tsEmitName": "compare2",
           "normalizedSignature": "Compare|(T,T):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6694,7 +6694,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.GenericComparer\u00601::Compare(System.Object,System.Object):System.Int32",
           "clrName": "Compare",
-          "tsEmitName": "Compare",
+          "tsEmitName": "compare",
           "normalizedSignature": "Compare|(System.Object,System.Object):System.Int32|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -6733,7 +6733,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.GenericEqualityComparer\u00601::Equals(T,T):System.Boolean",
           "clrName": "Equals",
-          "tsEmitName": "equals",
+          "tsEmitName": "equals2",
           "normalizedSignature": "Equals|(T,T):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6749,7 +6749,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.GenericEqualityComparer\u00601::GetHashCode(T):System.Int32",
           "clrName": "GetHashCode",
-          "tsEmitName": "getHashCode",
+          "tsEmitName": "getHashCode2",
           "normalizedSignature": "GetHashCode|(T):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6765,7 +6765,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.GenericEqualityComparer\u00601::Equals(System.Object):System.Boolean",
           "clrName": "Equals",
-          "tsEmitName": "equals2",
+          "tsEmitName": "equals3",
           "normalizedSignature": "Equals|(System.Object):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6781,7 +6781,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.GenericEqualityComparer\u00601::GetHashCode():System.Int32",
           "clrName": "GetHashCode",
-          "tsEmitName": "getHashCode2",
+          "tsEmitName": "getHashCode3",
           "normalizedSignature": "GetHashCode|():System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6865,7 +6865,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.GenericEqualityComparer\u00601::Equals(System.Object,System.Object):System.Boolean",
           "clrName": "Equals",
-          "tsEmitName": "Equals",
+          "tsEmitName": "equals",
           "normalizedSignature": "Equals|(System.Object,System.Object):System.Boolean|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -6881,7 +6881,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.GenericEqualityComparer\u00601::GetHashCode(System.Object):System.Int32",
           "clrName": "GetHashCode",
-          "tsEmitName": "GetHashCode",
+          "tsEmitName": "getHashCode",
           "normalizedSignature": "GetHashCode|(System.Object):System.Int32|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -7731,7 +7731,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "getObjectData",
+          "tsEmitName": "getObjectData$view",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -7748,7 +7748,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.KeyNotFoundException::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData",
+          "tsEmitName": "getObjectData",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -9933,7 +9933,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.NullableComparer\u00601::Compare(Nullable_1,Nullable_1):System.Int32",
           "clrName": "Compare",
-          "tsEmitName": "compare",
+          "tsEmitName": "compare3",
           "normalizedSignature": "Compare|(Nullable_1,Nullable_1):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -10032,7 +10032,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.NullableComparer\u00601::Compare(T,T):System.Int32",
           "clrName": "Compare",
-          "tsEmitName": "Compare",
+          "tsEmitName": "compare",
           "normalizedSignature": "Compare|(T,T):System.Int32|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -10048,7 +10048,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.NullableComparer\u00601::Compare(System.Object,System.Object):System.Int32",
           "clrName": "Compare",
-          "tsEmitName": "Compare2",
+          "tsEmitName": "compare2",
           "normalizedSignature": "Compare|(System.Object,System.Object):System.Int32|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -10103,7 +10103,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.NullableEqualityComparer\u00601::Equals(Nullable_1,Nullable_1):System.Boolean",
           "clrName": "Equals",
-          "tsEmitName": "equals",
+          "tsEmitName": "equals3",
           "normalizedSignature": "Equals|(Nullable_1,Nullable_1):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -10119,7 +10119,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.NullableEqualityComparer\u00601::GetHashCode(Nullable_1):System.Int32",
           "clrName": "GetHashCode",
-          "tsEmitName": "getHashCode",
+          "tsEmitName": "getHashCode3",
           "normalizedSignature": "GetHashCode|(Nullable_1):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -10135,7 +10135,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.NullableEqualityComparer\u00601::Equals(System.Object):System.Boolean",
           "clrName": "Equals",
-          "tsEmitName": "equals2",
+          "tsEmitName": "equals4",
           "normalizedSignature": "Equals|(System.Object):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -10151,7 +10151,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.NullableEqualityComparer\u00601::GetHashCode():System.Int32",
           "clrName": "GetHashCode",
-          "tsEmitName": "getHashCode2",
+          "tsEmitName": "getHashCode4",
           "normalizedSignature": "GetHashCode|():System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -10252,7 +10252,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.NullableEqualityComparer\u00601::Equals(T,T):System.Boolean",
           "clrName": "Equals",
-          "tsEmitName": "Equals",
+          "tsEmitName": "equals",
           "normalizedSignature": "Equals|(T,T):System.Boolean|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -10268,7 +10268,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.NullableEqualityComparer\u00601::Equals(System.Object,System.Object):System.Boolean",
           "clrName": "Equals",
-          "tsEmitName": "Equals2",
+          "tsEmitName": "equals2",
           "normalizedSignature": "Equals|(System.Object,System.Object):System.Boolean|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -10284,7 +10284,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.NullableEqualityComparer\u00601::GetHashCode(T):System.Int32",
           "clrName": "GetHashCode",
-          "tsEmitName": "GetHashCode",
+          "tsEmitName": "getHashCode",
           "normalizedSignature": "GetHashCode|(T):System.Int32|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -10300,7 +10300,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.NullableEqualityComparer\u00601::GetHashCode(System.Object):System.Int32",
           "clrName": "GetHashCode",
-          "tsEmitName": "GetHashCode2",
+          "tsEmitName": "getHashCode2",
           "normalizedSignature": "GetHashCode|(System.Object):System.Int32|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -10339,7 +10339,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ObjectComparer\u00601::Compare(T,T):System.Int32",
           "clrName": "Compare",
-          "tsEmitName": "compare",
+          "tsEmitName": "compare2",
           "normalizedSignature": "Compare|(T,T):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -10421,7 +10421,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ObjectComparer\u00601::Compare(System.Object,System.Object):System.Int32",
           "clrName": "Compare",
-          "tsEmitName": "Compare",
+          "tsEmitName": "compare",
           "normalizedSignature": "Compare|(System.Object,System.Object):System.Int32|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -10460,7 +10460,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ObjectEqualityComparer\u00601::Equals(T,T):System.Boolean",
           "clrName": "Equals",
-          "tsEmitName": "equals",
+          "tsEmitName": "equals2",
           "normalizedSignature": "Equals|(T,T):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -10476,7 +10476,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ObjectEqualityComparer\u00601::GetHashCode(T):System.Int32",
           "clrName": "GetHashCode",
-          "tsEmitName": "getHashCode",
+          "tsEmitName": "getHashCode2",
           "normalizedSignature": "GetHashCode|(T):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -10492,7 +10492,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ObjectEqualityComparer\u00601::Equals(System.Object):System.Boolean",
           "clrName": "Equals",
-          "tsEmitName": "equals2",
+          "tsEmitName": "equals3",
           "normalizedSignature": "Equals|(System.Object):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -10508,7 +10508,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ObjectEqualityComparer\u00601::GetHashCode():System.Int32",
           "clrName": "GetHashCode",
-          "tsEmitName": "getHashCode2",
+          "tsEmitName": "getHashCode3",
           "normalizedSignature": "GetHashCode|():System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -10592,7 +10592,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ObjectEqualityComparer\u00601::Equals(System.Object,System.Object):System.Boolean",
           "clrName": "Equals",
-          "tsEmitName": "Equals",
+          "tsEmitName": "equals",
           "normalizedSignature": "Equals|(System.Object,System.Object):System.Boolean|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -10608,7 +10608,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ObjectEqualityComparer\u00601::GetHashCode(System.Object):System.Int32",
           "clrName": "GetHashCode",
-          "tsEmitName": "GetHashCode",
+          "tsEmitName": "getHashCode",
           "normalizedSignature": "GetHashCode|(System.Object):System.Int32|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -14818,7 +14818,7 @@
         {
           "stableId": "System.Collections:System.Collections.Generic.SortedDictionary\u00602\u002BKeyValuePairComparer::Compare(KeyValuePair_2,KeyValuePair_2):System.Int32",
           "clrName": "Compare",
-          "tsEmitName": "compare",
+          "tsEmitName": "compare3",
           "normalizedSignature": "Compare|(KeyValuePair_2,KeyValuePair_2):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -14900,7 +14900,7 @@
         {
           "stableId": "System.Collections:System.Collections.Generic.SortedDictionary\u00602\u002BKeyValuePairComparer::Compare(T,T):System.Int32",
           "clrName": "Compare",
-          "tsEmitName": "Compare",
+          "tsEmitName": "compare",
           "normalizedSignature": "Compare|(T,T):System.Int32|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -14916,7 +14916,7 @@
         {
           "stableId": "System.Collections:System.Collections.Generic.SortedDictionary\u00602\u002BKeyValuePairComparer::Compare(System.Object,System.Object):System.Int32",
           "clrName": "Compare",
-          "tsEmitName": "Compare2",
+          "tsEmitName": "compare2",
           "normalizedSignature": "Compare|(System.Object,System.Object):System.Int32|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -18235,7 +18235,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ISet\u00601::Add(T):System.Boolean",
           "clrName": "Add",
-          "tsEmitName": "add2",
+          "tsEmitName": "add$view2",
           "normalizedSignature": "Add|(T):System.Boolean|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -18252,7 +18252,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ISet\u00601::UnionWith(IEnumerable_1):System.Void",
           "clrName": "UnionWith",
-          "tsEmitName": "unionWith",
+          "tsEmitName": "unionWith$view",
           "normalizedSignature": "UnionWith|(IEnumerable_1):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -18269,7 +18269,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ISet\u00601::IsSubsetOf(IEnumerable_1):System.Boolean",
           "clrName": "IsSubsetOf",
-          "tsEmitName": "isSubsetOf",
+          "tsEmitName": "isSubsetOf$view",
           "normalizedSignature": "IsSubsetOf|(IEnumerable_1):System.Boolean|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -18286,7 +18286,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::Add(T):System.Void",
           "clrName": "Add",
-          "tsEmitName": "add",
+          "tsEmitName": "add$view",
           "normalizedSignature": "Add|(T):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -18303,7 +18303,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::Clear():System.Void",
           "clrName": "Clear",
-          "tsEmitName": "clear",
+          "tsEmitName": "clear$view",
           "normalizedSignature": "Clear|():System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -18320,7 +18320,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::CopyTo(T[],System.Int32):System.Void",
           "clrName": "CopyTo",
-          "tsEmitName": "copyTo",
+          "tsEmitName": "copyTo$view",
           "normalizedSignature": "CopyTo|(T[],System.Int32):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -18337,7 +18337,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IEnumerable\u00601::GetEnumerator():IEnumerator_1",
           "clrName": "GetEnumerator",
-          "tsEmitName": "getEnumerator",
+          "tsEmitName": "getEnumerator$view",
           "normalizedSignature": "GetEnumerator|():IEnumerator_1|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -18354,7 +18354,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
           "clrName": "GetEnumerator",
-          "tsEmitName": "getEnumerator",
+          "tsEmitName": "getEnumerator$view",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -18371,7 +18371,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.ICollection::CopyTo(System.Array,System.Int32):System.Void",
           "clrName": "CopyTo",
-          "tsEmitName": "copyTo",
+          "tsEmitName": "copyTo$view",
           "normalizedSignature": "CopyTo|(System.Array,System.Int32):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -18388,7 +18388,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "getObjectData",
+          "tsEmitName": "getObjectData$view",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -18405,7 +18405,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.IDeserializationCallback::OnDeserialization(System.Object):System.Void",
           "clrName": "OnDeserialization",
-          "tsEmitName": "onDeserialization",
+          "tsEmitName": "onDeserialization$view",
           "normalizedSignature": "OnDeserialization|(System.Object):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -18422,7 +18422,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::Contains(T):System.Boolean",
           "clrName": "Contains",
-          "tsEmitName": "contains",
+          "tsEmitName": "contains$view",
           "normalizedSignature": "Contains|(T):System.Boolean|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -18439,7 +18439,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IReadOnlySet\u00601::Contains(T):System.Boolean",
           "clrName": "Contains",
-          "tsEmitName": "contains",
+          "tsEmitName": "contains$view",
           "normalizedSignature": "Contains|(T):System.Boolean|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -18456,7 +18456,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IReadOnlySet\u00601::IsProperSubsetOf(IEnumerable_1):System.Boolean",
           "clrName": "IsProperSubsetOf",
-          "tsEmitName": "isProperSubsetOf",
+          "tsEmitName": "isProperSubsetOf$view",
           "normalizedSignature": "IsProperSubsetOf|(IEnumerable_1):System.Boolean|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -18473,7 +18473,7 @@
         {
           "stableId": "System.Collections:System.Collections.Generic.TreeSet\u00601::Add(T):System.Boolean",
           "clrName": "Add",
-          "tsEmitName": "Add",
+          "tsEmitName": "add",
           "normalizedSignature": "Add|(T):System.Boolean|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -18489,7 +18489,7 @@
         {
           "stableId": "System.Collections:System.Collections.Generic.TreeSet\u00601::Add(T):System.Void",
           "clrName": "Add",
-          "tsEmitName": "Add2",
+          "tsEmitName": "add2",
           "normalizedSignature": "Add|(T):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -18505,7 +18505,7 @@
         {
           "stableId": "System.Collections:System.Collections.Generic.TreeSet\u00601::Clear():System.Void",
           "clrName": "Clear",
-          "tsEmitName": "Clear",
+          "tsEmitName": "clear",
           "normalizedSignature": "Clear|():System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -18521,7 +18521,7 @@
         {
           "stableId": "System.Collections:System.Collections.Generic.TreeSet\u00601::Contains(T):System.Boolean",
           "clrName": "Contains",
-          "tsEmitName": "Contains",
+          "tsEmitName": "contains",
           "normalizedSignature": "Contains|(T):System.Boolean|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -18537,7 +18537,7 @@
         {
           "stableId": "System.Collections:System.Collections.Generic.TreeSet\u00601::CopyTo(T[]):System.Void",
           "clrName": "CopyTo",
-          "tsEmitName": "CopyTo",
+          "tsEmitName": "copyTo",
           "normalizedSignature": "CopyTo|(T[]):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -18553,7 +18553,7 @@
         {
           "stableId": "System.Collections:System.Collections.Generic.TreeSet\u00601::CopyTo(T[],System.Int32):System.Void",
           "clrName": "CopyTo",
-          "tsEmitName": "CopyTo5",
+          "tsEmitName": "copyTo5",
           "normalizedSignature": "CopyTo|(T[],System.Int32):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -18569,7 +18569,7 @@
         {
           "stableId": "System.Collections:System.Collections.Generic.TreeSet\u00601::CopyTo(T[],System.Int32,System.Int32):System.Void",
           "clrName": "CopyTo",
-          "tsEmitName": "CopyTo3",
+          "tsEmitName": "copyTo3",
           "normalizedSignature": "CopyTo|(T[],System.Int32,System.Int32):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -18585,7 +18585,7 @@
         {
           "stableId": "System.Collections:System.Collections.Generic.TreeSet\u00601::CopyTo(System.Array,System.Int32):System.Void",
           "clrName": "CopyTo",
-          "tsEmitName": "CopyTo4",
+          "tsEmitName": "copyTo4",
           "normalizedSignature": "CopyTo|(System.Array,System.Int32):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -18601,7 +18601,7 @@
         {
           "stableId": "System.Collections:System.Collections.Generic.TreeSet\u00601::GetEnumerator():System.Collections.Generic.SortedSet_1\u002BEnumerator",
           "clrName": "GetEnumerator",
-          "tsEmitName": "GetEnumerator",
+          "tsEmitName": "getEnumerator",
           "normalizedSignature": "GetEnumerator|():System.Collections.Generic.SortedSet_1\u002BEnumerator|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -18617,7 +18617,7 @@
         {
           "stableId": "System.Collections:System.Collections.Generic.TreeSet\u00601::GetEnumerator():System.Collections.Generic.IEnumerator_1",
           "clrName": "GetEnumerator",
-          "tsEmitName": "GetEnumerator2",
+          "tsEmitName": "getEnumerator2",
           "normalizedSignature": "GetEnumerator|():System.Collections.Generic.IEnumerator_1|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -18633,7 +18633,7 @@
         {
           "stableId": "System.Collections:System.Collections.Generic.TreeSet\u00601::GetEnumerator():System.Collections.IEnumerator",
           "clrName": "GetEnumerator",
-          "tsEmitName": "GetEnumerator3",
+          "tsEmitName": "getEnumerator3",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -18649,7 +18649,7 @@
         {
           "stableId": "System.Collections:System.Collections.Generic.TreeSet\u00601::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData",
+          "tsEmitName": "getObjectData",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -18665,7 +18665,7 @@
         {
           "stableId": "System.Collections:System.Collections.Generic.TreeSet\u00601::IsProperSubsetOf(System.Collections.Generic.IEnumerable_1):System.Boolean",
           "clrName": "IsProperSubsetOf",
-          "tsEmitName": "IsProperSubsetOf",
+          "tsEmitName": "isProperSubsetOf",
           "normalizedSignature": "IsProperSubsetOf|(System.Collections.Generic.IEnumerable_1):System.Boolean|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -18681,7 +18681,7 @@
         {
           "stableId": "System.Collections:System.Collections.Generic.TreeSet\u00601::IsSubsetOf(System.Collections.Generic.IEnumerable_1):System.Boolean",
           "clrName": "IsSubsetOf",
-          "tsEmitName": "IsSubsetOf",
+          "tsEmitName": "isSubsetOf",
           "normalizedSignature": "IsSubsetOf|(System.Collections.Generic.IEnumerable_1):System.Boolean|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -18697,7 +18697,7 @@
         {
           "stableId": "System.Collections:System.Collections.Generic.TreeSet\u00601::OnDeserialization(System.Object):System.Void",
           "clrName": "OnDeserialization",
-          "tsEmitName": "OnDeserialization",
+          "tsEmitName": "onDeserialization",
           "normalizedSignature": "OnDeserialization|(System.Object):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -18713,7 +18713,7 @@
         {
           "stableId": "System.Collections:System.Collections.Generic.TreeSet\u00601::UnionWith(System.Collections.Generic.IEnumerable_1):System.Void",
           "clrName": "UnionWith",
-          "tsEmitName": "UnionWith",
+          "tsEmitName": "unionWith",
           "normalizedSignature": "UnionWith|(System.Collections.Generic.IEnumerable_1):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",

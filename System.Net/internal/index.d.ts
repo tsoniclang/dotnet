@@ -384,12 +384,12 @@ export class IPNetwork$instance {
     toString(): string;
     tryFormat(destination: Span_1<CLROf<char>>, charsWritten: { value: ref<int> }): boolean;
     tryFormat(utf8Destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
-    static parse(utf8Text: ReadOnlySpan_1<CLROf<byte>>): IPNetwork;
-    static parse(s: ReadOnlySpan_1<CLROf<char>>): IPNetwork;
-    static parse(s: string): IPNetwork;
-    static tryParse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, result: { value: ref<IPNetwork> }): boolean;
-    static tryParse(s: ReadOnlySpan_1<CLROf<char>>, result: { value: ref<IPNetwork> }): boolean;
-    static tryParse(s: string, result: { value: ref<IPNetwork> }): boolean;
+    static parse3(utf8Text: ReadOnlySpan_1<CLROf<byte>>): IPNetwork;
+    static parse3(s: ReadOnlySpan_1<CLROf<char>>): IPNetwork;
+    static parse3(s: string): IPNetwork;
+    static tryParse3(utf8Text: ReadOnlySpan_1<CLROf<byte>>, result: { value: ref<IPNetwork> }): boolean;
+    static tryParse3(s: ReadOnlySpan_1<CLROf<char>>, result: { value: ref<IPNetwork> }): boolean;
+    static tryParse3(s: string, result: { value: ref<IPNetwork> }): boolean;
 }
 
 
@@ -428,9 +428,9 @@ export type AuthenticationManager = AuthenticationManager$instance;
 export class AuthenticationSchemeSelector$instance extends Function {
     constructor(object_: unknown, method: nint);
     beginInvoke(httpRequest: HttpListenerRequest, callback: AsyncCallback, object_: unknown): IAsyncResult;
-    Clone(): unknown;
+    clone(): unknown;
     endInvoke(result: IAsyncResult): AuthenticationSchemes;
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
     invoke(httpRequest: HttpListenerRequest): AuthenticationSchemes;
 }
 
@@ -439,8 +439,6 @@ export interface __AuthenticationSchemeSelector$views {
     As_ICloneable(): System_Internal.ICloneable$instance;
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
-
-export interface AuthenticationSchemeSelector$instance extends System_Internal.ICloneable$instance {}
 
 export type AuthenticationSchemeSelector = AuthenticationSchemeSelector$instance & __AuthenticationSchemeSelector$views;
 
@@ -462,9 +460,9 @@ export type Authorization = Authorization$instance;
 export class BindIPEndPoint$instance extends Function {
     constructor(object_: unknown, method: nint);
     beginInvoke(servicePoint: ServicePoint, remoteEndPoint: IPEndPoint, retryCount: int, callback: AsyncCallback, object_: unknown): IAsyncResult;
-    Clone(): unknown;
+    clone(): unknown;
     endInvoke(result: IAsyncResult): IPEndPoint;
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
     invoke(servicePoint: ServicePoint, remoteEndPoint: IPEndPoint, retryCount: int): IPEndPoint;
 }
 
@@ -473,8 +471,6 @@ export interface __BindIPEndPoint$views {
     As_ICloneable(): System_Internal.ICloneable$instance;
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
-
-export interface BindIPEndPoint$instance extends System_Internal.ICloneable$instance {}
 
 export type BindIPEndPoint = BindIPEndPoint$instance & __BindIPEndPoint$views;
 
@@ -518,8 +514,8 @@ export class CookieCollection$instance {
     contains(cookie: Cookie): boolean;
     copyTo(array: ClrArray, index: int): void;
     copyTo(array: Cookie[], index: int): void;
-    get_Item(index: int): Cookie;
-    get_Item(name: string): Cookie;
+    getItem(index: int): Cookie;
+    getItem(name: string): Cookie;
     getEnumerator(): IEnumerator;
     remove(cookie: Cookie): boolean;
 }
@@ -624,9 +620,9 @@ export type DownloadDataCompletedEventArgs = DownloadDataCompletedEventArgs$inst
 export class DownloadDataCompletedEventHandler$instance extends Function {
     constructor(object_: unknown, method: nint);
     beginInvoke(sender: unknown, e: DownloadDataCompletedEventArgs, callback: AsyncCallback, object_: unknown): IAsyncResult;
-    Clone(): unknown;
+    clone(): unknown;
     endInvoke(result: IAsyncResult): void;
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
     invoke(sender: unknown, e: DownloadDataCompletedEventArgs): void;
 }
 
@@ -635,8 +631,6 @@ export interface __DownloadDataCompletedEventHandler$views {
     As_ICloneable(): System_Internal.ICloneable$instance;
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
-
-export interface DownloadDataCompletedEventHandler$instance extends System_Internal.ICloneable$instance {}
 
 export type DownloadDataCompletedEventHandler = DownloadDataCompletedEventHandler$instance & __DownloadDataCompletedEventHandler$views;
 
@@ -652,9 +646,9 @@ export type DownloadProgressChangedEventArgs = DownloadProgressChangedEventArgs$
 export class DownloadProgressChangedEventHandler$instance extends Function {
     constructor(object_: unknown, method: nint);
     beginInvoke(sender: unknown, e: DownloadProgressChangedEventArgs, callback: AsyncCallback, object_: unknown): IAsyncResult;
-    Clone(): unknown;
+    clone(): unknown;
     endInvoke(result: IAsyncResult): void;
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
     invoke(sender: unknown, e: DownloadProgressChangedEventArgs): void;
 }
 
@@ -663,8 +657,6 @@ export interface __DownloadProgressChangedEventHandler$views {
     As_ICloneable(): System_Internal.ICloneable$instance;
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
-
-export interface DownloadProgressChangedEventHandler$instance extends System_Internal.ICloneable$instance {}
 
 export type DownloadProgressChangedEventHandler = DownloadProgressChangedEventHandler$instance & __DownloadProgressChangedEventHandler$views;
 
@@ -679,9 +671,9 @@ export type DownloadStringCompletedEventArgs = DownloadStringCompletedEventArgs$
 export class DownloadStringCompletedEventHandler$instance extends Function {
     constructor(object_: unknown, method: nint);
     beginInvoke(sender: unknown, e: DownloadStringCompletedEventArgs, callback: AsyncCallback, object_: unknown): IAsyncResult;
-    Clone(): unknown;
+    clone(): unknown;
     endInvoke(result: IAsyncResult): void;
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
     invoke(sender: unknown, e: DownloadStringCompletedEventArgs): void;
 }
 
@@ -690,8 +682,6 @@ export interface __DownloadStringCompletedEventHandler$views {
     As_ICloneable(): System_Internal.ICloneable$instance;
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
-
-export interface DownloadStringCompletedEventHandler$instance extends System_Internal.ICloneable$instance {}
 
 export type DownloadStringCompletedEventHandler = DownloadStringCompletedEventHandler$instance & __DownloadStringCompletedEventHandler$views;
 
@@ -722,7 +712,7 @@ export class FileWebRequest$instance extends WebRequest$instance {
     beginGetResponse(callback: AsyncCallback, state: unknown): IAsyncResult;
     endGetRequestStream(asyncResult: IAsyncResult): Stream;
     endGetResponse(asyncResult: IAsyncResult): WebResponse;
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
     getRequestStream(): Stream;
     getRequestStreamAsync(): Task_1<Stream>;
     getRequestStreamAsync(): Task_1<Stream>;
@@ -748,8 +738,8 @@ export class FileWebResponse$instance extends WebResponse$instance {
     readonly responseUri: Uri;
     readonly supportsHeaders: boolean;
     close(): void;
-    Dispose(): void;
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    dispose(): void;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
     getResponseStream(): Stream;
 }
 
@@ -759,7 +749,7 @@ export interface __FileWebResponse$views {
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
-export interface FileWebResponse$instance extends System_Internal.IDisposable$instance, System_Runtime_Serialization_Internal.ISerializable$instance {}
+export interface FileWebResponse$instance extends System_Runtime_Serialization_Internal.ISerializable$instance {}
 
 export type FileWebResponse = FileWebResponse$instance & __FileWebResponse$views;
 
@@ -791,7 +781,7 @@ export class FtpWebRequest$instance extends WebRequest$instance {
     beginGetResponse(callback: AsyncCallback, state: unknown): IAsyncResult;
     endGetRequestStream(asyncResult: IAsyncResult): Stream;
     endGetResponse(asyncResult: IAsyncResult): WebResponse;
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
     getRequestStream(): Stream;
     getResponse(): WebResponse;
     static defaultCachePolicy: RequestCachePolicy;
@@ -819,8 +809,8 @@ export class FtpWebResponse$instance extends WebResponse$instance {
     readonly supportsHeaders: boolean;
     readonly welcomeMessage: string;
     close(): void;
-    Dispose(): void;
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    dispose(): void;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
     getResponseStream(): Stream;
 }
 
@@ -830,7 +820,7 @@ export interface __FtpWebResponse$views {
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
-export interface FtpWebResponse$instance extends System_Internal.IDisposable$instance, System_Runtime_Serialization_Internal.ISerializable$instance {}
+export interface FtpWebResponse$instance extends System_Runtime_Serialization_Internal.ISerializable$instance {}
 
 export type FtpWebResponse = FtpWebResponse$instance & __FtpWebResponse$views;
 
@@ -847,9 +837,9 @@ export type GlobalProxySelection = GlobalProxySelection$instance;
 export class HttpContinueDelegate$instance extends Function {
     constructor(object_: unknown, method: nint);
     beginInvoke(StatusCode: int, httpHeaders: WebHeaderCollection, callback: AsyncCallback, object_: unknown): IAsyncResult;
-    Clone(): unknown;
+    clone(): unknown;
     endInvoke(result: IAsyncResult): void;
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
     invoke(StatusCode: int, httpHeaders: WebHeaderCollection): void;
 }
 
@@ -858,8 +848,6 @@ export interface __HttpContinueDelegate$views {
     As_ICloneable(): System_Internal.ICloneable$instance;
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
-
-export interface HttpContinueDelegate$instance extends System_Internal.ICloneable$instance {}
 
 export type HttpContinueDelegate = HttpContinueDelegate$instance & __HttpContinueDelegate$views;
 
@@ -901,9 +889,9 @@ export type HttpListener = HttpListener$instance & __HttpListener$views;
 export class HttpListener_ExtendedProtectionSelector$instance extends Function {
     constructor(object_: unknown, method: nint);
     beginInvoke(request: HttpListenerRequest, callback: AsyncCallback, object_: unknown): IAsyncResult;
-    Clone(): unknown;
+    clone(): unknown;
     endInvoke(result: IAsyncResult): ExtendedProtectionPolicy;
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
     invoke(request: HttpListenerRequest): ExtendedProtectionPolicy;
 }
 
@@ -912,8 +900,6 @@ export interface __HttpListener_ExtendedProtectionSelector$views {
     As_ICloneable(): System_Internal.ICloneable$instance;
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
-
-export interface HttpListener_ExtendedProtectionSelector$instance extends System_Internal.ICloneable$instance {}
 
 export type HttpListener_ExtendedProtectionSelector = HttpListener_ExtendedProtectionSelector$instance & __HttpListener_ExtendedProtectionSelector$views;
 
@@ -951,7 +937,7 @@ export class HttpListenerException$instance extends System_ComponentModel_Intern
     constructor(errorCode: int);
     constructor(errorCode: int, message: string);
     readonly errorCode: int;
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
@@ -1126,7 +1112,7 @@ export class HttpWebRequest$instance extends WebRequest$instance {
     beginGetResponse(callback: AsyncCallback, state: unknown): IAsyncResult;
     endGetRequestStream(asyncResult: IAsyncResult): Stream;
     endGetResponse(asyncResult: IAsyncResult): WebResponse;
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
     getRequestStream(): Stream;
     getResponse(): WebResponse;
     static defaultMaximumResponseHeadersLength: int;
@@ -1162,8 +1148,8 @@ export class HttpWebResponse$instance extends WebResponse$instance {
     readonly statusDescription: string;
     readonly supportsHeaders: boolean;
     close(): void;
-    Dispose(): void;
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    dispose(): void;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
     getResponseHeader(headerName: string): string;
     getResponseStream(): Stream;
 }
@@ -1174,7 +1160,7 @@ export interface __HttpWebResponse$views {
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
-export interface HttpWebResponse$instance extends System_Internal.IDisposable$instance, System_Runtime_Serialization_Internal.ISerializable$instance {}
+export interface HttpWebResponse$instance extends System_Runtime_Serialization_Internal.ISerializable$instance {}
 
 export type HttpWebResponse = HttpWebResponse$instance & __HttpWebResponse$views;
 
@@ -1210,21 +1196,21 @@ export class IPAddress$instance {
     static readonly iPv6Any: IPAddress;
     static readonly iPv6Loopback: IPAddress;
     static readonly iPv6None: IPAddress;
-    static hostToNetworkOrder(host: short): short;
-    static hostToNetworkOrder(host: int): int;
-    static hostToNetworkOrder(host: long): long;
+    static hostToNetworkOrder3(host: short): short;
+    static hostToNetworkOrder3(host: int): int;
+    static hostToNetworkOrder3(host: long): long;
     static isLoopback(address: IPAddress): boolean;
     static isValid(ipSpan: ReadOnlySpan_1<CLROf<char>>): boolean;
     static isValidUtf8(utf8Text: ReadOnlySpan_1<CLROf<byte>>): boolean;
-    static networkToHostOrder(network: short): short;
-    static networkToHostOrder(network: int): int;
-    static networkToHostOrder(network: long): long;
-    static parse(utf8Text: ReadOnlySpan_1<CLROf<byte>>): IPAddress;
-    static parse(ipSpan: ReadOnlySpan_1<CLROf<char>>): IPAddress;
-    static parse(ipString: string): IPAddress;
-    static tryParse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, result: { value: ref<IPAddress> }): boolean;
-    static tryParse(ipSpan: ReadOnlySpan_1<CLROf<char>>, address: { value: ref<IPAddress> }): boolean;
-    static tryParse(ipString: string, address: { value: ref<IPAddress> }): boolean;
+    static networkToHostOrder3(network: short): short;
+    static networkToHostOrder3(network: int): int;
+    static networkToHostOrder3(network: long): long;
+    static parse2(utf8Text: ReadOnlySpan_1<CLROf<byte>>): IPAddress;
+    static parse2(ipSpan: ReadOnlySpan_1<CLROf<char>>): IPAddress;
+    static parse2(ipString: string): IPAddress;
+    static tryParse2(utf8Text: ReadOnlySpan_1<CLROf<byte>>, result: { value: ref<IPAddress> }): boolean;
+    static tryParse2(ipSpan: ReadOnlySpan_1<CLROf<char>>, address: { value: ref<IPAddress> }): boolean;
+    static tryParse2(ipString: string, address: { value: ref<IPAddress> }): boolean;
 }
 
 
@@ -1255,10 +1241,10 @@ export class IPEndPoint$instance extends EndPoint$instance {
     toString(): string;
     static readonly minPort: int;
     static readonly maxPort: int;
-    static parse(s: ReadOnlySpan_1<CLROf<char>>): IPEndPoint;
-    static parse(s: string): IPEndPoint;
-    static tryParse(s: ReadOnlySpan_1<CLROf<char>>, result: { value: ref<IPEndPoint> }): boolean;
-    static tryParse(s: string, result: { value: ref<IPEndPoint> }): boolean;
+    static parse2(s: ReadOnlySpan_1<CLROf<char>>): IPEndPoint;
+    static parse2(s: string): IPEndPoint;
+    static tryParse2(s: ReadOnlySpan_1<CLROf<char>>, result: { value: ref<IPEndPoint> }): boolean;
+    static tryParse2(s: string, result: { value: ref<IPEndPoint> }): boolean;
 }
 
 
@@ -1309,9 +1295,9 @@ export type OpenReadCompletedEventArgs = OpenReadCompletedEventArgs$instance;
 export class OpenReadCompletedEventHandler$instance extends Function {
     constructor(object_: unknown, method: nint);
     beginInvoke(sender: unknown, e: OpenReadCompletedEventArgs, callback: AsyncCallback, object_: unknown): IAsyncResult;
-    Clone(): unknown;
+    clone(): unknown;
     endInvoke(result: IAsyncResult): void;
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
     invoke(sender: unknown, e: OpenReadCompletedEventArgs): void;
 }
 
@@ -1320,8 +1306,6 @@ export interface __OpenReadCompletedEventHandler$views {
     As_ICloneable(): System_Internal.ICloneable$instance;
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
-
-export interface OpenReadCompletedEventHandler$instance extends System_Internal.ICloneable$instance {}
 
 export type OpenReadCompletedEventHandler = OpenReadCompletedEventHandler$instance & __OpenReadCompletedEventHandler$views;
 
@@ -1336,9 +1320,9 @@ export type OpenWriteCompletedEventArgs = OpenWriteCompletedEventArgs$instance;
 export class OpenWriteCompletedEventHandler$instance extends Function {
     constructor(object_: unknown, method: nint);
     beginInvoke(sender: unknown, e: OpenWriteCompletedEventArgs, callback: AsyncCallback, object_: unknown): IAsyncResult;
-    Clone(): unknown;
+    clone(): unknown;
     endInvoke(result: IAsyncResult): void;
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
     invoke(sender: unknown, e: OpenWriteCompletedEventArgs): void;
 }
 
@@ -1347,8 +1331,6 @@ export interface __OpenWriteCompletedEventHandler$views {
     As_ICloneable(): System_Internal.ICloneable$instance;
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
-
-export interface OpenWriteCompletedEventHandler$instance extends System_Internal.ICloneable$instance {}
 
 export type OpenWriteCompletedEventHandler = OpenWriteCompletedEventHandler$instance & __OpenWriteCompletedEventHandler$views;
 
@@ -1412,9 +1394,9 @@ export class ServicePointManager$instance {
     static reusePort: boolean;
     static checkCertificateRevocationList: boolean;
     static readonly encryptionPolicy: EncryptionPolicy;
-    static findServicePoint(uriString: string, proxy: IWebProxy): ServicePoint;
-    static findServicePoint(address: Uri, proxy: IWebProxy): ServicePoint;
-    static findServicePoint(address: Uri): ServicePoint;
+    static findServicePoint2(uriString: string, proxy: IWebProxy): ServicePoint;
+    static findServicePoint2(address: Uri, proxy: IWebProxy): ServicePoint;
+    static findServicePoint2(address: Uri): ServicePoint;
     static setTcpKeepAlive(enabled: boolean, keepAliveTime: int, keepAliveInterval: int): void;
 }
 
@@ -1463,9 +1445,9 @@ export type UploadDataCompletedEventArgs = UploadDataCompletedEventArgs$instance
 export class UploadDataCompletedEventHandler$instance extends Function {
     constructor(object_: unknown, method: nint);
     beginInvoke(sender: unknown, e: UploadDataCompletedEventArgs, callback: AsyncCallback, object_: unknown): IAsyncResult;
-    Clone(): unknown;
+    clone(): unknown;
     endInvoke(result: IAsyncResult): void;
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
     invoke(sender: unknown, e: UploadDataCompletedEventArgs): void;
 }
 
@@ -1474,8 +1456,6 @@ export interface __UploadDataCompletedEventHandler$views {
     As_ICloneable(): System_Internal.ICloneable$instance;
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
-
-export interface UploadDataCompletedEventHandler$instance extends System_Internal.ICloneable$instance {}
 
 export type UploadDataCompletedEventHandler = UploadDataCompletedEventHandler$instance & __UploadDataCompletedEventHandler$views;
 
@@ -1490,9 +1470,9 @@ export type UploadFileCompletedEventArgs = UploadFileCompletedEventArgs$instance
 export class UploadFileCompletedEventHandler$instance extends Function {
     constructor(object_: unknown, method: nint);
     beginInvoke(sender: unknown, e: UploadFileCompletedEventArgs, callback: AsyncCallback, object_: unknown): IAsyncResult;
-    Clone(): unknown;
+    clone(): unknown;
     endInvoke(result: IAsyncResult): void;
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
     invoke(sender: unknown, e: UploadFileCompletedEventArgs): void;
 }
 
@@ -1501,8 +1481,6 @@ export interface __UploadFileCompletedEventHandler$views {
     As_ICloneable(): System_Internal.ICloneable$instance;
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
-
-export interface UploadFileCompletedEventHandler$instance extends System_Internal.ICloneable$instance {}
 
 export type UploadFileCompletedEventHandler = UploadFileCompletedEventHandler$instance & __UploadFileCompletedEventHandler$views;
 
@@ -1520,9 +1498,9 @@ export type UploadProgressChangedEventArgs = UploadProgressChangedEventArgs$inst
 export class UploadProgressChangedEventHandler$instance extends Function {
     constructor(object_: unknown, method: nint);
     beginInvoke(sender: unknown, e: UploadProgressChangedEventArgs, callback: AsyncCallback, object_: unknown): IAsyncResult;
-    Clone(): unknown;
+    clone(): unknown;
     endInvoke(result: IAsyncResult): void;
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
     invoke(sender: unknown, e: UploadProgressChangedEventArgs): void;
 }
 
@@ -1531,8 +1509,6 @@ export interface __UploadProgressChangedEventHandler$views {
     As_ICloneable(): System_Internal.ICloneable$instance;
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
-
-export interface UploadProgressChangedEventHandler$instance extends System_Internal.ICloneable$instance {}
 
 export type UploadProgressChangedEventHandler = UploadProgressChangedEventHandler$instance & __UploadProgressChangedEventHandler$views;
 
@@ -1547,9 +1523,9 @@ export type UploadStringCompletedEventArgs = UploadStringCompletedEventArgs$inst
 export class UploadStringCompletedEventHandler$instance extends Function {
     constructor(object_: unknown, method: nint);
     beginInvoke(sender: unknown, e: UploadStringCompletedEventArgs, callback: AsyncCallback, object_: unknown): IAsyncResult;
-    Clone(): unknown;
+    clone(): unknown;
     endInvoke(result: IAsyncResult): void;
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
     invoke(sender: unknown, e: UploadStringCompletedEventArgs): void;
 }
 
@@ -1558,8 +1534,6 @@ export interface __UploadStringCompletedEventHandler$views {
     As_ICloneable(): System_Internal.ICloneable$instance;
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
-
-export interface UploadStringCompletedEventHandler$instance extends System_Internal.ICloneable$instance {}
 
 export type UploadStringCompletedEventHandler = UploadStringCompletedEventHandler$instance & __UploadStringCompletedEventHandler$views;
 
@@ -1574,9 +1548,9 @@ export type UploadValuesCompletedEventArgs = UploadValuesCompletedEventArgs$inst
 export class UploadValuesCompletedEventHandler$instance extends Function {
     constructor(object_: unknown, method: nint);
     beginInvoke(sender: unknown, e: UploadValuesCompletedEventArgs, callback: AsyncCallback, object_: unknown): IAsyncResult;
-    Clone(): unknown;
+    clone(): unknown;
     endInvoke(result: IAsyncResult): void;
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
     invoke(sender: unknown, e: UploadValuesCompletedEventArgs): void;
 }
 
@@ -1585,8 +1559,6 @@ export interface __UploadValuesCompletedEventHandler$views {
     As_ICloneable(): System_Internal.ICloneable$instance;
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
-
-export interface UploadValuesCompletedEventHandler$instance extends System_Internal.ICloneable$instance {}
 
 export type UploadValuesCompletedEventHandler = UploadValuesCompletedEventHandler$instance & __UploadValuesCompletedEventHandler$views;
 
@@ -1606,7 +1578,7 @@ export class WebClient$instance extends System_ComponentModel_Internal.Component
     readonly responseHeaders: WebHeaderCollection;
     useDefaultCredentials: boolean;
     cancelAsync(): void;
-    Dispose(): void;
+    dispose(): void;
     downloadData(address: string): byte[];
     downloadData(address: Uri): byte[];
     downloadDataAsync(address: Uri): void;
@@ -1694,6 +1666,8 @@ export interface __WebClient$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
 
+export interface WebClient$instance extends System_ComponentModel_Internal.IComponent$instance {}
+
 export type WebClient = WebClient$instance & __WebClient$views;
 
 
@@ -1724,7 +1698,7 @@ export class WebHeaderCollection$instance extends System_Collections_Specialized
     add(name: string, value: string): void;
     add(c: NameValueCollection): void;
     clear(): void;
-    CopyTo(dest: ClrArray, index: int): void;
+    copyTo(dest: ClrArray, index: int): void;
     get_(index: int): string;
     get_(name: string): string;
     getEnumerator(): IEnumerator;
@@ -1737,8 +1711,8 @@ export class WebHeaderCollection$instance extends System_Collections_Specialized
     set_(name: string, value: string): void;
     toByteArray(): byte[];
     toString(): string;
-    static isRestricted(headerName: string, response: boolean): boolean;
-    static isRestricted(headerName: string): boolean;
+    static isRestricted2(headerName: string, response: boolean): boolean;
+    static isRestricted2(headerName: string): boolean;
 }
 
 
@@ -1748,8 +1722,6 @@ export interface __WebHeaderCollection$views {
     As_IDeserializationCallback(): System_Runtime_Serialization_Internal.IDeserializationCallback$instance;
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
-
-export interface WebHeaderCollection$instance extends System_Collections_Internal.ICollection$instance {}
 
 export type WebHeaderCollection = WebHeaderCollection$instance & __WebHeaderCollection$views;
 
@@ -1867,9 +1839,9 @@ export type WriteStreamClosedEventArgs = WriteStreamClosedEventArgs$instance;
 export class WriteStreamClosedEventHandler$instance extends Function {
     constructor(object_: unknown, method: nint);
     beginInvoke(sender: unknown, e: WriteStreamClosedEventArgs, callback: AsyncCallback, object_: unknown): IAsyncResult;
-    Clone(): unknown;
+    clone(): unknown;
     endInvoke(result: IAsyncResult): void;
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
     invoke(sender: unknown, e: WriteStreamClosedEventArgs): void;
 }
 
@@ -1878,8 +1850,6 @@ export interface __WriteStreamClosedEventHandler$views {
     As_ICloneable(): System_Internal.ICloneable$instance;
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
-
-export interface WriteStreamClosedEventHandler$instance extends System_Internal.ICloneable$instance {}
 
 export type WriteStreamClosedEventHandler = WriteStreamClosedEventHandler$instance & __WriteStreamClosedEventHandler$views;
 
@@ -1894,21 +1864,21 @@ export abstract class Dns$instance {
     static endGetHostByName(asyncResult: IAsyncResult): IPHostEntry;
     static endGetHostEntry(asyncResult: IAsyncResult): IPHostEntry;
     static endResolve(asyncResult: IAsyncResult): IPHostEntry;
-    static getHostAddresses(hostNameOrAddress: string, family: AddressFamily): IPAddress[];
-    static getHostAddresses(hostNameOrAddress: string): IPAddress[];
-    static getHostAddressesAsync(hostNameOrAddress: string, family: AddressFamily, cancellationToken?: CancellationToken): Task_1<IPAddress[]>;
-    static getHostAddressesAsync(hostNameOrAddress: string, cancellationToken: CancellationToken): Task_1<IPAddress[]>;
-    static getHostAddressesAsync(hostNameOrAddress: string): Task_1<IPAddress[]>;
-    static getHostByAddress(address: IPAddress): IPHostEntry;
-    static getHostByAddress(address: string): IPHostEntry;
+    static getHostAddresses2(hostNameOrAddress: string, family: AddressFamily): IPAddress[];
+    static getHostAddresses2(hostNameOrAddress: string): IPAddress[];
+    static getHostAddressesAsync3(hostNameOrAddress: string, family: AddressFamily, cancellationToken?: CancellationToken): Task_1<IPAddress[]>;
+    static getHostAddressesAsync3(hostNameOrAddress: string, cancellationToken: CancellationToken): Task_1<IPAddress[]>;
+    static getHostAddressesAsync3(hostNameOrAddress: string): Task_1<IPAddress[]>;
+    static getHostByAddress2(address: IPAddress): IPHostEntry;
+    static getHostByAddress2(address: string): IPHostEntry;
     static getHostByName(hostName: string): IPHostEntry;
     static getHostEntry(address: IPAddress): IPHostEntry;
     static getHostEntry(hostNameOrAddress: string, family: AddressFamily): IPHostEntry;
     static getHostEntry(hostNameOrAddress: string): IPHostEntry;
-    static getHostEntryAsync(address: IPAddress): Task_1<IPHostEntry>;
-    static getHostEntryAsync(hostNameOrAddress: string, family: AddressFamily, cancellationToken?: CancellationToken): Task_1<IPHostEntry>;
-    static getHostEntryAsync(hostNameOrAddress: string, cancellationToken: CancellationToken): Task_1<IPHostEntry>;
-    static getHostEntryAsync(hostNameOrAddress: string): Task_1<IPHostEntry>;
+    static getHostEntryAsync4(address: IPAddress): Task_1<IPHostEntry>;
+    static getHostEntryAsync4(hostNameOrAddress: string, family: AddressFamily, cancellationToken?: CancellationToken): Task_1<IPHostEntry>;
+    static getHostEntryAsync4(hostNameOrAddress: string, cancellationToken: CancellationToken): Task_1<IPHostEntry>;
+    static getHostEntryAsync4(hostNameOrAddress: string): Task_1<IPHostEntry>;
     static getHostName(): string;
     static resolve(hostName: string): IPHostEntry;
 }
@@ -1961,7 +1931,7 @@ export abstract class WebRequestMethods_Ftp$instance {
 export type WebRequestMethods_Ftp = WebRequestMethods_Ftp$instance;
 
 export abstract class WebRequestMethods_Http$instance {
-    static readonly get: string;
+    static readonly get_: string;
     static readonly connect: string;
     static readonly head: string;
     static readonly put: string;
@@ -1973,10 +1943,10 @@ export abstract class WebRequestMethods_Http$instance {
 export type WebRequestMethods_Http = WebRequestMethods_Http$instance;
 
 export abstract class WebUtility$instance {
-    static htmlDecode(value: string, output: TextWriter): void;
-    static htmlDecode(value: string): string;
-    static htmlEncode(value: string, output: TextWriter): void;
-    static htmlEncode(value: string): string;
+    static htmlDecode2(value: string, output: TextWriter): void;
+    static htmlDecode2(value: string): string;
+    static htmlEncode2(value: string, output: TextWriter): void;
+    static htmlEncode2(value: string): string;
     static urlDecode(encodedValue: string): string;
     static urlDecodeToBytes(encodedValue: byte[], offset: int, count: int): byte[];
     static urlEncode(value: string): string;

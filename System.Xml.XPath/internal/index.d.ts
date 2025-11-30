@@ -147,8 +147,8 @@ export abstract class XPathExpression$instance {
     abstract clone(): XPathExpression;
     abstract setContext(nsManager: XmlNamespaceManager): void;
     abstract setContext(nsResolver: IXmlNamespaceResolver): void;
-    static compile(xpath: string, nsResolver: IXmlNamespaceResolver): XPathExpression;
-    static compile(xpath: string): XPathExpression;
+    static compile2(xpath: string, nsResolver: IXmlNamespaceResolver): XPathExpression;
+    static compile2(xpath: string): XPathExpression;
 }
 
 
@@ -284,8 +284,8 @@ export abstract class XPathNavigator$instance extends XPathItem$instance {
     setTypedValue(typedValue: unknown): void;
     setValue(value: string): void;
     toString(): string;
-    ValueAs(returnType: Type, nsResolver: IXmlNamespaceResolver): unknown;
-    ValueAs(returnType: Type): unknown;
+    valueAs(returnType: Type, nsResolver: IXmlNamespaceResolver): unknown;
+    valueAs(returnType: Type): unknown;
     writeSubtree(writer: XmlWriter): void;
     static readonly navigatorComparer: IEqualityComparer;
 }
@@ -323,14 +323,14 @@ export type XPathNodeIterator = XPathNodeIterator$instance & __XPathNodeIterator
 
 
 export abstract class Extensions$instance {
-    static createNavigator(node: XNode, nameTable: XmlNameTable): XPathNavigator;
-    static createNavigator(node: XNode): XPathNavigator;
-    static xPathEvaluate(node: XNode, expression: string, resolver: IXmlNamespaceResolver): unknown;
-    static xPathEvaluate(node: XNode, expression: string): unknown;
-    static xPathSelectElement(node: XNode, expression: string, resolver: IXmlNamespaceResolver): XElement;
-    static xPathSelectElement(node: XNode, expression: string): XElement;
-    static xPathSelectElements(node: XNode, expression: string, resolver: IXmlNamespaceResolver): IEnumerable_1<XElement>;
-    static xPathSelectElements(node: XNode, expression: string): IEnumerable_1<XElement>;
+    static createNavigator2(node: XNode, nameTable: XmlNameTable): XPathNavigator;
+    static createNavigator2(node: XNode): XPathNavigator;
+    static xPathEvaluate2(node: XNode, expression: string, resolver: IXmlNamespaceResolver): unknown;
+    static xPathEvaluate2(node: XNode, expression: string): unknown;
+    static xPathSelectElement2(node: XNode, expression: string, resolver: IXmlNamespaceResolver): XElement;
+    static xPathSelectElement2(node: XNode, expression: string): XElement;
+    static xPathSelectElements2(node: XNode, expression: string, resolver: IXmlNamespaceResolver): IEnumerable_1<XElement>;
+    static xPathSelectElements2(node: XNode, expression: string): IEnumerable_1<XElement>;
 }
 
 

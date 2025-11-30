@@ -24,7 +24,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.AssemblyContentType::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -68,7 +68,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.AssemblyFlags::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -148,7 +148,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.AssemblyHashAlgorithm::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -228,7 +228,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.AssemblyNameFlags::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -299,7 +299,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.BindingFlags::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -514,7 +514,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.CallingConventions::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -585,7 +585,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.DeclarativeSecurityAction::value__System.Int16",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int16|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -701,7 +701,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.EventAttributes::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -763,7 +763,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.ExceptionHandlingClauseOptions::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -825,7 +825,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.FieldAttributes::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -1022,7 +1022,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.GenericParameterAttributes::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -1129,7 +1129,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.ImageFileMachine::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -1191,7 +1191,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.ManifestResourceAttributes::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -1244,7 +1244,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.MemberTypes::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -1351,7 +1351,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.MethodAttributes::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -1593,7 +1593,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.MethodImplAttributes::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -1781,7 +1781,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.MethodImportAttributes::value__System.Int16",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int16|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -1978,7 +1978,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.MethodSemanticsAttributes::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -2058,7 +2058,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.NullabilityState::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -2111,7 +2111,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.ParameterAttributes::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -2236,7 +2236,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.PortableExecutableKinds::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -2316,7 +2316,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.ProcessorArchitecture::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -2396,7 +2396,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.PropertyAttributes::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -2494,7 +2494,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.ResourceAttributes::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -2538,7 +2538,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.ResourceLocation::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -2591,7 +2591,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeAttributes::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value__",
+          "tsEmitName": "value",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -3644,7 +3644,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "getObjectData",
+          "tsEmitName": "getObjectData$view",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3661,7 +3661,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.AmbiguousMatchException::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData",
+          "tsEmitName": "getObjectData",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -6307,7 +6307,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.ConstructorInfo::Invoke(System.Object[]):System.Object",
           "clrName": "Invoke",
-          "tsEmitName": "invoke",
+          "tsEmitName": "invoke3",
           "normalizedSignature": "Invoke|(System.Object[]):System.Object|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6323,7 +6323,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.ConstructorInfo::Invoke(System.Reflection.BindingFlags,System.Reflection.Binder,System.Object[],System.Globalization.CultureInfo):System.Object",
           "clrName": "Invoke",
-          "tsEmitName": "invoke2",
+          "tsEmitName": "invoke4",
           "normalizedSignature": "Invoke|(System.Reflection.BindingFlags,System.Reflection.Binder,System.Object[],System.Globalization.CultureInfo):System.Object|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6371,7 +6371,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.ICustomAttributeProvider::GetCustomAttributes(System.Boolean):System.Object[]",
           "clrName": "GetCustomAttributes",
-          "tsEmitName": "getCustomAttributes",
+          "tsEmitName": "getCustomAttributes$view",
           "normalizedSignature": "GetCustomAttributes|(System.Boolean):System.Object[]|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -6388,7 +6388,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.ICustomAttributeProvider::GetCustomAttributes(System.Type,System.Boolean):System.Object[]",
           "clrName": "GetCustomAttributes",
-          "tsEmitName": "getCustomAttributes2",
+          "tsEmitName": "getCustomAttributes$view2",
           "normalizedSignature": "GetCustomAttributes|(System.Type,System.Boolean):System.Object[]|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -6405,7 +6405,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.ICustomAttributeProvider::IsDefined(System.Type,System.Boolean):System.Boolean",
           "clrName": "IsDefined",
-          "tsEmitName": "isDefined",
+          "tsEmitName": "isDefined$view",
           "normalizedSignature": "IsDefined|(System.Type,System.Boolean):System.Boolean|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -6422,7 +6422,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.ConstructorInfo::GetCustomAttributes(System.Boolean):System.Object[]",
           "clrName": "GetCustomAttributes",
-          "tsEmitName": "GetCustomAttributes",
+          "tsEmitName": "getCustomAttributes",
           "normalizedSignature": "GetCustomAttributes|(System.Boolean):System.Object[]|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -6438,7 +6438,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.ConstructorInfo::GetCustomAttributes(System.Type,System.Boolean):System.Object[]",
           "clrName": "GetCustomAttributes",
-          "tsEmitName": "GetCustomAttributes5",
+          "tsEmitName": "getCustomAttributes5",
           "normalizedSignature": "GetCustomAttributes|(System.Type,System.Boolean):System.Object[]|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -6454,7 +6454,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.ConstructorInfo::Invoke(System.Object,System.Object[]):System.Object",
           "clrName": "Invoke",
-          "tsEmitName": "Invoke",
+          "tsEmitName": "invoke",
           "normalizedSignature": "Invoke|(System.Object,System.Object[]):System.Object|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -6470,7 +6470,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.ConstructorInfo::Invoke(System.Object,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object[],System.Globalization.CultureInfo):System.Object",
           "clrName": "Invoke",
-          "tsEmitName": "Invoke2",
+          "tsEmitName": "invoke2",
           "normalizedSignature": "Invoke|(System.Object,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object[],System.Globalization.CultureInfo):System.Object|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -6486,7 +6486,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.ConstructorInfo::IsDefined(System.Type,System.Boolean):System.Boolean",
           "clrName": "IsDefined",
-          "tsEmitName": "IsDefined",
+          "tsEmitName": "isDefined",
           "normalizedSignature": "IsDefined|(System.Type,System.Boolean):System.Boolean|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -6841,7 +6841,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "getObjectData",
+          "tsEmitName": "getObjectData$view",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -6858,7 +6858,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.CustomAttributeFormatException::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData",
+          "tsEmitName": "getObjectData",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -7186,7 +7186,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.ICustomAttributeProvider::GetCustomAttributes(System.Boolean):System.Object[]",
           "clrName": "GetCustomAttributes",
-          "tsEmitName": "getCustomAttributes",
+          "tsEmitName": "getCustomAttributes$view",
           "normalizedSignature": "GetCustomAttributes|(System.Boolean):System.Object[]|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -7203,7 +7203,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.ICustomAttributeProvider::GetCustomAttributes(System.Type,System.Boolean):System.Object[]",
           "clrName": "GetCustomAttributes",
-          "tsEmitName": "getCustomAttributes2",
+          "tsEmitName": "getCustomAttributes$view2",
           "normalizedSignature": "GetCustomAttributes|(System.Type,System.Boolean):System.Object[]|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -7220,7 +7220,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.ICustomAttributeProvider::IsDefined(System.Type,System.Boolean):System.Boolean",
           "clrName": "IsDefined",
-          "tsEmitName": "isDefined",
+          "tsEmitName": "isDefined$view",
           "normalizedSignature": "IsDefined|(System.Type,System.Boolean):System.Boolean|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -7237,7 +7237,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.EventInfo::GetCustomAttributes(System.Boolean):System.Object[]",
           "clrName": "GetCustomAttributes",
-          "tsEmitName": "GetCustomAttributes",
+          "tsEmitName": "getCustomAttributes",
           "normalizedSignature": "GetCustomAttributes|(System.Boolean):System.Object[]|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -7253,7 +7253,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.EventInfo::GetCustomAttributes(System.Type,System.Boolean):System.Object[]",
           "clrName": "GetCustomAttributes",
-          "tsEmitName": "GetCustomAttributes3",
+          "tsEmitName": "getCustomAttributes3",
           "normalizedSignature": "GetCustomAttributes|(System.Type,System.Boolean):System.Object[]|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -7269,7 +7269,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.EventInfo::IsDefined(System.Type,System.Boolean):System.Boolean",
           "clrName": "IsDefined",
-          "tsEmitName": "IsDefined",
+          "tsEmitName": "isDefined",
           "normalizedSignature": "IsDefined|(System.Type,System.Boolean):System.Boolean|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -7770,7 +7770,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.ICustomAttributeProvider::GetCustomAttributes(System.Boolean):System.Object[]",
           "clrName": "GetCustomAttributes",
-          "tsEmitName": "getCustomAttributes",
+          "tsEmitName": "getCustomAttributes$view",
           "normalizedSignature": "GetCustomAttributes|(System.Boolean):System.Object[]|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -7787,7 +7787,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.ICustomAttributeProvider::GetCustomAttributes(System.Type,System.Boolean):System.Object[]",
           "clrName": "GetCustomAttributes",
-          "tsEmitName": "getCustomAttributes2",
+          "tsEmitName": "getCustomAttributes$view2",
           "normalizedSignature": "GetCustomAttributes|(System.Type,System.Boolean):System.Object[]|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -7804,7 +7804,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.ICustomAttributeProvider::IsDefined(System.Type,System.Boolean):System.Boolean",
           "clrName": "IsDefined",
-          "tsEmitName": "isDefined",
+          "tsEmitName": "isDefined$view",
           "normalizedSignature": "IsDefined|(System.Type,System.Boolean):System.Boolean|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -7821,7 +7821,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.FieldInfo::GetCustomAttributes(System.Boolean):System.Object[]",
           "clrName": "GetCustomAttributes",
-          "tsEmitName": "GetCustomAttributes",
+          "tsEmitName": "getCustomAttributes",
           "normalizedSignature": "GetCustomAttributes|(System.Boolean):System.Object[]|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -7837,7 +7837,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.FieldInfo::GetCustomAttributes(System.Type,System.Boolean):System.Object[]",
           "clrName": "GetCustomAttributes",
-          "tsEmitName": "GetCustomAttributes3",
+          "tsEmitName": "getCustomAttributes3",
           "normalizedSignature": "GetCustomAttributes|(System.Type,System.Boolean):System.Object[]|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -7853,7 +7853,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.FieldInfo::IsDefined(System.Type,System.Boolean):System.Boolean",
           "clrName": "IsDefined",
-          "tsEmitName": "IsDefined",
+          "tsEmitName": "isDefined",
           "normalizedSignature": "IsDefined|(System.Type,System.Boolean):System.Boolean|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -8172,7 +8172,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "getObjectData",
+          "tsEmitName": "getObjectData$view",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -8189,7 +8189,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.InvalidFilterCriteriaException::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData",
+          "tsEmitName": "getObjectData",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -8433,7 +8433,7 @@
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "clone",
+          "tsEmitName": "clone$view",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -8450,7 +8450,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "getObjectData",
+          "tsEmitName": "getObjectData$view",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -8467,7 +8467,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.MemberFilter::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "Clone",
+          "tsEmitName": "clone",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -8483,7 +8483,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.MemberFilter::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData",
+          "tsEmitName": "getObjectData",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -8999,7 +8999,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.ICustomAttributeProvider::GetCustomAttributes(System.Boolean):System.Object[]",
           "clrName": "GetCustomAttributes",
-          "tsEmitName": "getCustomAttributes",
+          "tsEmitName": "getCustomAttributes$view",
           "normalizedSignature": "GetCustomAttributes|(System.Boolean):System.Object[]|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -9016,7 +9016,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.ICustomAttributeProvider::GetCustomAttributes(System.Type,System.Boolean):System.Object[]",
           "clrName": "GetCustomAttributes",
-          "tsEmitName": "getCustomAttributes2",
+          "tsEmitName": "getCustomAttributes$view2",
           "normalizedSignature": "GetCustomAttributes|(System.Type,System.Boolean):System.Object[]|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -9033,7 +9033,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.ICustomAttributeProvider::IsDefined(System.Type,System.Boolean):System.Boolean",
           "clrName": "IsDefined",
-          "tsEmitName": "isDefined",
+          "tsEmitName": "isDefined$view",
           "normalizedSignature": "IsDefined|(System.Type,System.Boolean):System.Boolean|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -9050,7 +9050,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.MethodBase::GetCustomAttributes(System.Boolean):System.Object[]",
           "clrName": "GetCustomAttributes",
-          "tsEmitName": "GetCustomAttributes",
+          "tsEmitName": "getCustomAttributes",
           "normalizedSignature": "GetCustomAttributes|(System.Boolean):System.Object[]|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -9066,7 +9066,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.MethodBase::GetCustomAttributes(System.Type,System.Boolean):System.Object[]",
           "clrName": "GetCustomAttributes",
-          "tsEmitName": "GetCustomAttributes3",
+          "tsEmitName": "getCustomAttributes3",
           "normalizedSignature": "GetCustomAttributes|(System.Type,System.Boolean):System.Object[]|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -9082,7 +9082,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.MethodBase::IsDefined(System.Type,System.Boolean):System.Boolean",
           "clrName": "IsDefined",
-          "tsEmitName": "IsDefined",
+          "tsEmitName": "isDefined",
           "normalizedSignature": "IsDefined|(System.Type,System.Boolean):System.Boolean|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -9745,7 +9745,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.ICustomAttributeProvider::GetCustomAttributes(System.Boolean):System.Object[]",
           "clrName": "GetCustomAttributes",
-          "tsEmitName": "getCustomAttributes",
+          "tsEmitName": "getCustomAttributes$view",
           "normalizedSignature": "GetCustomAttributes|(System.Boolean):System.Object[]|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -9762,7 +9762,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.ICustomAttributeProvider::GetCustomAttributes(System.Type,System.Boolean):System.Object[]",
           "clrName": "GetCustomAttributes",
-          "tsEmitName": "getCustomAttributes2",
+          "tsEmitName": "getCustomAttributes$view2",
           "normalizedSignature": "GetCustomAttributes|(System.Type,System.Boolean):System.Object[]|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -9779,7 +9779,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.ICustomAttributeProvider::IsDefined(System.Type,System.Boolean):System.Boolean",
           "clrName": "IsDefined",
-          "tsEmitName": "isDefined",
+          "tsEmitName": "isDefined$view",
           "normalizedSignature": "IsDefined|(System.Type,System.Boolean):System.Boolean|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -9796,7 +9796,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.MethodInfo::GetCustomAttributes(System.Boolean):System.Object[]",
           "clrName": "GetCustomAttributes",
-          "tsEmitName": "GetCustomAttributes",
+          "tsEmitName": "getCustomAttributes",
           "normalizedSignature": "GetCustomAttributes|(System.Boolean):System.Object[]|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -9812,7 +9812,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.MethodInfo::GetCustomAttributes(System.Type,System.Boolean):System.Object[]",
           "clrName": "GetCustomAttributes",
-          "tsEmitName": "GetCustomAttributes5",
+          "tsEmitName": "getCustomAttributes5",
           "normalizedSignature": "GetCustomAttributes|(System.Type,System.Boolean):System.Object[]|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -9828,7 +9828,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.MethodInfo::IsDefined(System.Type,System.Boolean):System.Boolean",
           "clrName": "IsDefined",
-          "tsEmitName": "IsDefined",
+          "tsEmitName": "isDefined",
           "normalizedSignature": "IsDefined|(System.Type,System.Boolean):System.Boolean|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -10927,7 +10927,7 @@
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "clone",
+          "tsEmitName": "clone$view",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -10944,7 +10944,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "getObjectData",
+          "tsEmitName": "getObjectData$view",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -10961,7 +10961,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.ModuleResolveEventHandler::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "Clone",
+          "tsEmitName": "clone",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -10977,7 +10977,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.ModuleResolveEventHandler::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData",
+          "tsEmitName": "getObjectData",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -12204,7 +12204,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.ICustomAttributeProvider::GetCustomAttributes(System.Boolean):System.Object[]",
           "clrName": "GetCustomAttributes",
-          "tsEmitName": "getCustomAttributes",
+          "tsEmitName": "getCustomAttributes$view",
           "normalizedSignature": "GetCustomAttributes|(System.Boolean):System.Object[]|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -12221,7 +12221,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.ICustomAttributeProvider::GetCustomAttributes(System.Type,System.Boolean):System.Object[]",
           "clrName": "GetCustomAttributes",
-          "tsEmitName": "getCustomAttributes2",
+          "tsEmitName": "getCustomAttributes$view2",
           "normalizedSignature": "GetCustomAttributes|(System.Type,System.Boolean):System.Object[]|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -12238,7 +12238,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.ICustomAttributeProvider::IsDefined(System.Type,System.Boolean):System.Boolean",
           "clrName": "IsDefined",
-          "tsEmitName": "isDefined",
+          "tsEmitName": "isDefined$view",
           "normalizedSignature": "IsDefined|(System.Type,System.Boolean):System.Boolean|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -12255,7 +12255,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.PropertyInfo::GetCustomAttributes(System.Boolean):System.Object[]",
           "clrName": "GetCustomAttributes",
-          "tsEmitName": "GetCustomAttributes",
+          "tsEmitName": "getCustomAttributes",
           "normalizedSignature": "GetCustomAttributes|(System.Boolean):System.Object[]|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -12271,7 +12271,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.PropertyInfo::GetCustomAttributes(System.Type,System.Boolean):System.Object[]",
           "clrName": "GetCustomAttributes",
-          "tsEmitName": "GetCustomAttributes3",
+          "tsEmitName": "getCustomAttributes3",
           "normalizedSignature": "GetCustomAttributes|(System.Type,System.Boolean):System.Object[]|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -12287,7 +12287,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.PropertyInfo::IsDefined(System.Type,System.Boolean):System.Boolean",
           "clrName": "IsDefined",
-          "tsEmitName": "IsDefined",
+          "tsEmitName": "isDefined",
           "normalizedSignature": "IsDefined|(System.Type,System.Boolean):System.Boolean|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -12712,7 +12712,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "getObjectData",
+          "tsEmitName": "getObjectData$view",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -12729,7 +12729,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TargetException::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData",
+          "tsEmitName": "getObjectData",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -12778,7 +12778,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "getObjectData",
+          "tsEmitName": "getObjectData$view",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -12795,7 +12795,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TargetInvocationException::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData",
+          "tsEmitName": "getObjectData",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -12839,7 +12839,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "getObjectData",
+          "tsEmitName": "getObjectData$view",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -12856,7 +12856,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TargetParameterCountException::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData",
+          "tsEmitName": "getObjectData",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -12905,7 +12905,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeDelegator::IsAssignableFrom(System.Reflection.TypeInfo):System.Boolean",
           "clrName": "IsAssignableFrom",
-          "tsEmitName": "isAssignableFrom",
+          "tsEmitName": "isAssignableFrom2",
           "normalizedSignature": "IsAssignableFrom|(System.Reflection.TypeInfo):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -12921,7 +12921,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeDelegator::InvokeMember(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object,System.Object[],System.Reflection.ParameterModifier[],System.Globalization.CultureInfo,System.String[]):System.Object",
           "clrName": "InvokeMember",
-          "tsEmitName": "invokeMember",
+          "tsEmitName": "invokeMember4",
           "normalizedSignature": "InvokeMember|(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object,System.Object[],System.Reflection.ParameterModifier[],System.Globalization.CultureInfo,System.String[]):System.Object|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -12953,7 +12953,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeDelegator::GetConstructors(System.Reflection.BindingFlags):System.Reflection.ConstructorInfo[]",
           "clrName": "GetConstructors",
-          "tsEmitName": "getConstructors",
+          "tsEmitName": "getConstructors2",
           "normalizedSignature": "GetConstructors|(System.Reflection.BindingFlags):System.Reflection.ConstructorInfo[]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -12969,7 +12969,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeDelegator::GetMethods(System.Reflection.BindingFlags):System.Reflection.MethodInfo[]",
           "clrName": "GetMethods",
-          "tsEmitName": "getMethods",
+          "tsEmitName": "getMethods2",
           "normalizedSignature": "GetMethods|(System.Reflection.BindingFlags):System.Reflection.MethodInfo[]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -12985,7 +12985,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeDelegator::GetField(System.String,System.Reflection.BindingFlags):System.Reflection.FieldInfo",
           "clrName": "GetField",
-          "tsEmitName": "getField",
+          "tsEmitName": "getField2",
           "normalizedSignature": "GetField|(System.String,System.Reflection.BindingFlags):System.Reflection.FieldInfo|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -13001,7 +13001,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeDelegator::GetFields(System.Reflection.BindingFlags):System.Reflection.FieldInfo[]",
           "clrName": "GetFields",
-          "tsEmitName": "getFields",
+          "tsEmitName": "getFields2",
           "normalizedSignature": "GetFields|(System.Reflection.BindingFlags):System.Reflection.FieldInfo[]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -13065,7 +13065,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeDelegator::GetInterface(System.String,System.Boolean):System.Type",
           "clrName": "GetInterface",
-          "tsEmitName": "getInterface",
+          "tsEmitName": "getInterface2",
           "normalizedSignature": "GetInterface|(System.String,System.Boolean):System.Type|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -13097,7 +13097,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeDelegator::GetEvent(System.String,System.Reflection.BindingFlags):System.Reflection.EventInfo",
           "clrName": "GetEvent",
-          "tsEmitName": "getEvent",
+          "tsEmitName": "getEvent2",
           "normalizedSignature": "GetEvent|(System.String,System.Reflection.BindingFlags):System.Reflection.EventInfo|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -13129,7 +13129,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeDelegator::GetProperties(System.Reflection.BindingFlags):System.Reflection.PropertyInfo[]",
           "clrName": "GetProperties",
-          "tsEmitName": "getProperties",
+          "tsEmitName": "getProperties2",
           "normalizedSignature": "GetProperties|(System.Reflection.BindingFlags):System.Reflection.PropertyInfo[]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -13161,7 +13161,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeDelegator::GetNestedTypes(System.Reflection.BindingFlags):System.Type[]",
           "clrName": "GetNestedTypes",
-          "tsEmitName": "getNestedTypes",
+          "tsEmitName": "getNestedTypes2",
           "normalizedSignature": "GetNestedTypes|(System.Reflection.BindingFlags):System.Type[]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -13177,7 +13177,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeDelegator::GetNestedType(System.String,System.Reflection.BindingFlags):System.Type",
           "clrName": "GetNestedType",
-          "tsEmitName": "getNestedType",
+          "tsEmitName": "getNestedType2",
           "normalizedSignature": "GetNestedType|(System.String,System.Reflection.BindingFlags):System.Type|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -13193,7 +13193,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeDelegator::GetMember(System.String,System.Reflection.MemberTypes,System.Reflection.BindingFlags):System.Reflection.MemberInfo[]",
           "clrName": "GetMember",
-          "tsEmitName": "getMember",
+          "tsEmitName": "getMember4",
           "normalizedSignature": "GetMember|(System.String,System.Reflection.MemberTypes,System.Reflection.BindingFlags):System.Reflection.MemberInfo[]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -13209,7 +13209,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeDelegator::GetMembers(System.Reflection.BindingFlags):System.Reflection.MemberInfo[]",
           "clrName": "GetMembers",
-          "tsEmitName": "getMembers",
+          "tsEmitName": "getMembers2",
           "normalizedSignature": "GetMembers|(System.Reflection.BindingFlags):System.Reflection.MemberInfo[]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -13321,7 +13321,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.IReflect::GetMethod(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Type[],System.Reflection.ParameterModifier[]):System.Reflection.MethodInfo",
           "clrName": "GetMethod",
-          "tsEmitName": "getMethod",
+          "tsEmitName": "getMethod$view",
           "normalizedSignature": "GetMethod|(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Type[],System.Reflection.ParameterModifier[]):System.Reflection.MethodInfo|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -13338,7 +13338,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.IReflect::GetMethod(System.String,System.Reflection.BindingFlags):System.Reflection.MethodInfo",
           "clrName": "GetMethod",
-          "tsEmitName": "getMethod2",
+          "tsEmitName": "getMethod$view2",
           "normalizedSignature": "GetMethod|(System.String,System.Reflection.BindingFlags):System.Reflection.MethodInfo|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -13355,7 +13355,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.IReflect::GetProperty(System.String,System.Reflection.BindingFlags):System.Reflection.PropertyInfo",
           "clrName": "GetProperty",
-          "tsEmitName": "getProperty2",
+          "tsEmitName": "getProperty$view2",
           "normalizedSignature": "GetProperty|(System.String,System.Reflection.BindingFlags):System.Reflection.PropertyInfo|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -13372,7 +13372,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.IReflect::GetProperty(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Type,System.Type[],System.Reflection.ParameterModifier[]):System.Reflection.PropertyInfo",
           "clrName": "GetProperty",
-          "tsEmitName": "getProperty",
+          "tsEmitName": "getProperty$view",
           "normalizedSignature": "GetProperty|(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Type,System.Type[],System.Reflection.ParameterModifier[]):System.Reflection.PropertyInfo|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -13406,7 +13406,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.IReflectableType::GetTypeInfo():System.Reflection.TypeInfo",
           "clrName": "GetTypeInfo",
-          "tsEmitName": "getTypeInfo",
+          "tsEmitName": "getTypeInfo$view",
           "normalizedSignature": "GetTypeInfo|():System.Reflection.TypeInfo|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -13576,7 +13576,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeDelegator::GetConstructors():System.Reflection.ConstructorInfo[]",
           "clrName": "GetConstructors",
-          "tsEmitName": "GetConstructors",
+          "tsEmitName": "getConstructors",
           "normalizedSignature": "GetConstructors|():System.Reflection.ConstructorInfo[]|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -13592,7 +13592,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeDelegator::GetEvent(System.String):System.Reflection.EventInfo",
           "clrName": "GetEvent",
-          "tsEmitName": "GetEvent",
+          "tsEmitName": "getEvent",
           "normalizedSignature": "GetEvent|(System.String):System.Reflection.EventInfo|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -13608,7 +13608,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeDelegator::GetField(System.String):System.Reflection.FieldInfo",
           "clrName": "GetField",
-          "tsEmitName": "GetField",
+          "tsEmitName": "getField",
           "normalizedSignature": "GetField|(System.String):System.Reflection.FieldInfo|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -13624,7 +13624,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeDelegator::GetFields():System.Reflection.FieldInfo[]",
           "clrName": "GetFields",
-          "tsEmitName": "GetFields",
+          "tsEmitName": "getFields",
           "normalizedSignature": "GetFields|():System.Reflection.FieldInfo[]|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -13640,7 +13640,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeDelegator::GetInterface(System.String):System.Type",
           "clrName": "GetInterface",
-          "tsEmitName": "GetInterface",
+          "tsEmitName": "getInterface",
           "normalizedSignature": "GetInterface|(System.String):System.Type|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -13656,7 +13656,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeDelegator::GetMember(System.String,System.Reflection.BindingFlags):System.Reflection.MemberInfo[]",
           "clrName": "GetMember",
-          "tsEmitName": "GetMember",
+          "tsEmitName": "getMember",
           "normalizedSignature": "GetMember|(System.String,System.Reflection.BindingFlags):System.Reflection.MemberInfo[]|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -13672,7 +13672,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeDelegator::GetMember(System.String):System.Reflection.MemberInfo[]",
           "clrName": "GetMember",
-          "tsEmitName": "GetMember3",
+          "tsEmitName": "getMember3",
           "normalizedSignature": "GetMember|(System.String):System.Reflection.MemberInfo[]|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -13688,7 +13688,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeDelegator::GetMembers():System.Reflection.MemberInfo[]",
           "clrName": "GetMembers",
-          "tsEmitName": "GetMembers",
+          "tsEmitName": "getMembers",
           "normalizedSignature": "GetMembers|():System.Reflection.MemberInfo[]|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -13704,7 +13704,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeDelegator::GetMethod(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Type[],System.Reflection.ParameterModifier[]):System.Reflection.MethodInfo",
           "clrName": "GetMethod",
-          "tsEmitName": "GetMethod",
+          "tsEmitName": "getMethod",
           "normalizedSignature": "GetMethod|(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Type[],System.Reflection.ParameterModifier[]):System.Reflection.MethodInfo|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -13720,7 +13720,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeDelegator::GetMethod(System.String,System.Reflection.BindingFlags):System.Reflection.MethodInfo",
           "clrName": "GetMethod",
-          "tsEmitName": "GetMethod25",
+          "tsEmitName": "getMethod25",
           "normalizedSignature": "GetMethod|(System.String,System.Reflection.BindingFlags):System.Reflection.MethodInfo|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -13736,7 +13736,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeDelegator::GetMethod(System.String):System.Reflection.MethodInfo",
           "clrName": "GetMethod",
-          "tsEmitName": "GetMethod14",
+          "tsEmitName": "getMethod14",
           "normalizedSignature": "GetMethod|(System.String):System.Reflection.MethodInfo|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -13752,7 +13752,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeDelegator::GetMethod(System.String,System.Reflection.BindingFlags,System.Type[]):System.Reflection.MethodInfo",
           "clrName": "GetMethod",
-          "tsEmitName": "GetMethod16",
+          "tsEmitName": "getMethod16",
           "normalizedSignature": "GetMethod|(System.String,System.Reflection.BindingFlags,System.Type[]):System.Reflection.MethodInfo|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -13768,7 +13768,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeDelegator::GetMethod(System.String,System.Type[]):System.Reflection.MethodInfo",
           "clrName": "GetMethod",
-          "tsEmitName": "GetMethod17",
+          "tsEmitName": "getMethod17",
           "normalizedSignature": "GetMethod|(System.String,System.Type[]):System.Reflection.MethodInfo|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -13784,7 +13784,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeDelegator::GetMethod(System.String,System.Type[],System.Reflection.ParameterModifier[]):System.Reflection.MethodInfo",
           "clrName": "GetMethod",
-          "tsEmitName": "GetMethod18",
+          "tsEmitName": "getMethod18",
           "normalizedSignature": "GetMethod|(System.String,System.Type[],System.Reflection.ParameterModifier[]):System.Reflection.MethodInfo|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -13800,7 +13800,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeDelegator::GetMethod(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Reflection.CallingConventions,System.Type[],System.Reflection.ParameterModifier[]):System.Reflection.MethodInfo",
           "clrName": "GetMethod",
-          "tsEmitName": "GetMethod19",
+          "tsEmitName": "getMethod19",
           "normalizedSignature": "GetMethod|(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Reflection.CallingConventions,System.Type[],System.Reflection.ParameterModifier[]):System.Reflection.MethodInfo|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -13816,7 +13816,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeDelegator::GetMethod(System.String,System.Int32,System.Type[]):System.Reflection.MethodInfo",
           "clrName": "GetMethod",
-          "tsEmitName": "GetMethod20",
+          "tsEmitName": "getMethod20",
           "normalizedSignature": "GetMethod|(System.String,System.Int32,System.Type[]):System.Reflection.MethodInfo|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -13832,7 +13832,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeDelegator::GetMethod(System.String,System.Int32,System.Type[],System.Reflection.ParameterModifier[]):System.Reflection.MethodInfo",
           "clrName": "GetMethod",
-          "tsEmitName": "GetMethod21",
+          "tsEmitName": "getMethod21",
           "normalizedSignature": "GetMethod|(System.String,System.Int32,System.Type[],System.Reflection.ParameterModifier[]):System.Reflection.MethodInfo|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -13848,7 +13848,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeDelegator::GetMethod(System.String,System.Int32,System.Reflection.BindingFlags,System.Type[]):System.Reflection.MethodInfo",
           "clrName": "GetMethod",
-          "tsEmitName": "GetMethod22",
+          "tsEmitName": "getMethod22",
           "normalizedSignature": "GetMethod|(System.String,System.Int32,System.Reflection.BindingFlags,System.Type[]):System.Reflection.MethodInfo|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -13864,7 +13864,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeDelegator::GetMethod(System.String,System.Int32,System.Reflection.BindingFlags,System.Reflection.Binder,System.Type[],System.Reflection.ParameterModifier[]):System.Reflection.MethodInfo",
           "clrName": "GetMethod",
-          "tsEmitName": "GetMethod23",
+          "tsEmitName": "getMethod23",
           "normalizedSignature": "GetMethod|(System.String,System.Int32,System.Reflection.BindingFlags,System.Reflection.Binder,System.Type[],System.Reflection.ParameterModifier[]):System.Reflection.MethodInfo|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -13880,7 +13880,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeDelegator::GetMethod(System.String,System.Int32,System.Reflection.BindingFlags,System.Reflection.Binder,System.Reflection.CallingConventions,System.Type[],System.Reflection.ParameterModifier[]):System.Reflection.MethodInfo",
           "clrName": "GetMethod",
-          "tsEmitName": "GetMethod24",
+          "tsEmitName": "getMethod24",
           "normalizedSignature": "GetMethod|(System.String,System.Int32,System.Reflection.BindingFlags,System.Reflection.Binder,System.Reflection.CallingConventions,System.Type[],System.Reflection.ParameterModifier[]):System.Reflection.MethodInfo|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -13896,7 +13896,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeDelegator::GetMethods():System.Reflection.MethodInfo[]",
           "clrName": "GetMethods",
-          "tsEmitName": "GetMethods",
+          "tsEmitName": "getMethods",
           "normalizedSignature": "GetMethods|():System.Reflection.MethodInfo[]|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -13912,7 +13912,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeDelegator::GetNestedType(System.String):System.Type",
           "clrName": "GetNestedType",
-          "tsEmitName": "GetNestedType",
+          "tsEmitName": "getNestedType",
           "normalizedSignature": "GetNestedType|(System.String):System.Type|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -13928,7 +13928,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeDelegator::GetNestedTypes():System.Type[]",
           "clrName": "GetNestedTypes",
-          "tsEmitName": "GetNestedTypes",
+          "tsEmitName": "getNestedTypes",
           "normalizedSignature": "GetNestedTypes|():System.Type[]|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -13944,7 +13944,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeDelegator::GetProperties():System.Reflection.PropertyInfo[]",
           "clrName": "GetProperties",
-          "tsEmitName": "GetProperties",
+          "tsEmitName": "getProperties",
           "normalizedSignature": "GetProperties|():System.Reflection.PropertyInfo[]|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -13960,7 +13960,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeDelegator::GetProperty(System.String,System.Reflection.BindingFlags):System.Reflection.PropertyInfo",
           "clrName": "GetProperty",
-          "tsEmitName": "GetProperty",
+          "tsEmitName": "getProperty",
           "normalizedSignature": "GetProperty|(System.String,System.Reflection.BindingFlags):System.Reflection.PropertyInfo|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -13976,7 +13976,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeDelegator::GetProperty(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Type,System.Type[],System.Reflection.ParameterModifier[]):System.Reflection.PropertyInfo",
           "clrName": "GetProperty",
-          "tsEmitName": "GetProperty15",
+          "tsEmitName": "getProperty15",
           "normalizedSignature": "GetProperty|(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Type,System.Type[],System.Reflection.ParameterModifier[]):System.Reflection.PropertyInfo|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -13992,7 +13992,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeDelegator::GetProperty(System.String):System.Reflection.PropertyInfo",
           "clrName": "GetProperty",
-          "tsEmitName": "GetProperty9",
+          "tsEmitName": "getProperty9",
           "normalizedSignature": "GetProperty|(System.String):System.Reflection.PropertyInfo|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -14008,7 +14008,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeDelegator::GetProperty(System.String,System.Type):System.Reflection.PropertyInfo",
           "clrName": "GetProperty",
-          "tsEmitName": "GetProperty10",
+          "tsEmitName": "getProperty10",
           "normalizedSignature": "GetProperty|(System.String,System.Type):System.Reflection.PropertyInfo|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -14024,7 +14024,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeDelegator::GetProperty(System.String,System.Type[]):System.Reflection.PropertyInfo",
           "clrName": "GetProperty",
-          "tsEmitName": "GetProperty11",
+          "tsEmitName": "getProperty11",
           "normalizedSignature": "GetProperty|(System.String,System.Type[]):System.Reflection.PropertyInfo|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -14040,7 +14040,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeDelegator::GetProperty(System.String,System.Type,System.Type[]):System.Reflection.PropertyInfo",
           "clrName": "GetProperty",
-          "tsEmitName": "GetProperty12",
+          "tsEmitName": "getProperty12",
           "normalizedSignature": "GetProperty|(System.String,System.Type,System.Type[]):System.Reflection.PropertyInfo|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -14056,7 +14056,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeDelegator::GetProperty(System.String,System.Type,System.Type[],System.Reflection.ParameterModifier[]):System.Reflection.PropertyInfo",
           "clrName": "GetProperty",
-          "tsEmitName": "GetProperty13",
+          "tsEmitName": "getProperty13",
           "normalizedSignature": "GetProperty|(System.String,System.Type,System.Type[],System.Reflection.ParameterModifier[]):System.Reflection.PropertyInfo|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -14072,7 +14072,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeDelegator::GetTypeInfo():System.Reflection.TypeInfo",
           "clrName": "GetTypeInfo",
-          "tsEmitName": "GetTypeInfo",
+          "tsEmitName": "getTypeInfo",
           "normalizedSignature": "GetTypeInfo|():System.Reflection.TypeInfo|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -14088,7 +14088,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeDelegator::InvokeMember(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object,System.Object[]):System.Object",
           "clrName": "InvokeMember",
-          "tsEmitName": "InvokeMember",
+          "tsEmitName": "invokeMember",
           "normalizedSignature": "InvokeMember|(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object,System.Object[]):System.Object|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -14104,7 +14104,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeDelegator::InvokeMember(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object,System.Object[],System.Globalization.CultureInfo):System.Object",
           "clrName": "InvokeMember",
-          "tsEmitName": "InvokeMember3",
+          "tsEmitName": "invokeMember3",
           "normalizedSignature": "InvokeMember|(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object,System.Object[],System.Globalization.CultureInfo):System.Object|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -14120,7 +14120,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeDelegator::IsAssignableFrom(System.Type):System.Boolean",
           "clrName": "IsAssignableFrom",
-          "tsEmitName": "IsAssignableFrom",
+          "tsEmitName": "isAssignableFrom",
           "normalizedSignature": "IsAssignableFrom|(System.Type):System.Boolean|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -14539,7 +14539,7 @@
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "clone",
+          "tsEmitName": "clone$view",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -14556,7 +14556,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "getObjectData",
+          "tsEmitName": "getObjectData$view",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -14573,7 +14573,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeFilter::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "Clone",
+          "tsEmitName": "clone",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -14589,7 +14589,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeFilter::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData",
+          "tsEmitName": "getObjectData",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -14740,7 +14740,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeInfo::IsAssignableFrom(System.Reflection.TypeInfo):System.Boolean",
           "clrName": "IsAssignableFrom",
-          "tsEmitName": "isAssignableFrom",
+          "tsEmitName": "isAssignableFrom2",
           "normalizedSignature": "IsAssignableFrom|(System.Reflection.TypeInfo):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -14756,7 +14756,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.ICustomAttributeProvider::GetCustomAttributes(System.Boolean):System.Object[]",
           "clrName": "GetCustomAttributes",
-          "tsEmitName": "getCustomAttributes",
+          "tsEmitName": "getCustomAttributes$view",
           "normalizedSignature": "GetCustomAttributes|(System.Boolean):System.Object[]|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -14773,7 +14773,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.ICustomAttributeProvider::GetCustomAttributes(System.Type,System.Boolean):System.Object[]",
           "clrName": "GetCustomAttributes",
-          "tsEmitName": "getCustomAttributes2",
+          "tsEmitName": "getCustomAttributes$view2",
           "normalizedSignature": "GetCustomAttributes|(System.Type,System.Boolean):System.Object[]|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -14790,7 +14790,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.ICustomAttributeProvider::IsDefined(System.Type,System.Boolean):System.Boolean",
           "clrName": "IsDefined",
-          "tsEmitName": "isDefined",
+          "tsEmitName": "isDefined$view",
           "normalizedSignature": "IsDefined|(System.Type,System.Boolean):System.Boolean|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -14807,7 +14807,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.IReflect::GetMethod(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Type[],System.Reflection.ParameterModifier[]):System.Reflection.MethodInfo",
           "clrName": "GetMethod",
-          "tsEmitName": "getMethod",
+          "tsEmitName": "getMethod$view",
           "normalizedSignature": "GetMethod|(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Type[],System.Reflection.ParameterModifier[]):System.Reflection.MethodInfo|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -14824,7 +14824,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.IReflect::GetMethod(System.String,System.Reflection.BindingFlags):System.Reflection.MethodInfo",
           "clrName": "GetMethod",
-          "tsEmitName": "getMethod2",
+          "tsEmitName": "getMethod$view2",
           "normalizedSignature": "GetMethod|(System.String,System.Reflection.BindingFlags):System.Reflection.MethodInfo|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -14841,7 +14841,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.IReflect::GetMethods(System.Reflection.BindingFlags):System.Reflection.MethodInfo[]",
           "clrName": "GetMethods",
-          "tsEmitName": "getMethods",
+          "tsEmitName": "getMethods$view",
           "normalizedSignature": "GetMethods|(System.Reflection.BindingFlags):System.Reflection.MethodInfo[]|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -14858,7 +14858,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.IReflect::GetField(System.String,System.Reflection.BindingFlags):System.Reflection.FieldInfo",
           "clrName": "GetField",
-          "tsEmitName": "getField",
+          "tsEmitName": "getField$view",
           "normalizedSignature": "GetField|(System.String,System.Reflection.BindingFlags):System.Reflection.FieldInfo|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -14875,7 +14875,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.IReflect::GetFields(System.Reflection.BindingFlags):System.Reflection.FieldInfo[]",
           "clrName": "GetFields",
-          "tsEmitName": "getFields",
+          "tsEmitName": "getFields$view",
           "normalizedSignature": "GetFields|(System.Reflection.BindingFlags):System.Reflection.FieldInfo[]|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -14892,7 +14892,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.IReflect::GetProperty(System.String,System.Reflection.BindingFlags):System.Reflection.PropertyInfo",
           "clrName": "GetProperty",
-          "tsEmitName": "getProperty2",
+          "tsEmitName": "getProperty$view2",
           "normalizedSignature": "GetProperty|(System.String,System.Reflection.BindingFlags):System.Reflection.PropertyInfo|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -14909,7 +14909,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.IReflect::GetProperty(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Type,System.Type[],System.Reflection.ParameterModifier[]):System.Reflection.PropertyInfo",
           "clrName": "GetProperty",
-          "tsEmitName": "getProperty",
+          "tsEmitName": "getProperty$view",
           "normalizedSignature": "GetProperty|(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Type,System.Type[],System.Reflection.ParameterModifier[]):System.Reflection.PropertyInfo|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -14926,7 +14926,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.IReflect::GetProperties(System.Reflection.BindingFlags):System.Reflection.PropertyInfo[]",
           "clrName": "GetProperties",
-          "tsEmitName": "getProperties",
+          "tsEmitName": "getProperties$view",
           "normalizedSignature": "GetProperties|(System.Reflection.BindingFlags):System.Reflection.PropertyInfo[]|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -14943,7 +14943,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.IReflect::GetMember(System.String,System.Reflection.BindingFlags):System.Reflection.MemberInfo[]",
           "clrName": "GetMember",
-          "tsEmitName": "getMember",
+          "tsEmitName": "getMember$view",
           "normalizedSignature": "GetMember|(System.String,System.Reflection.BindingFlags):System.Reflection.MemberInfo[]|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -14960,7 +14960,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.IReflect::GetMembers(System.Reflection.BindingFlags):System.Reflection.MemberInfo[]",
           "clrName": "GetMembers",
-          "tsEmitName": "getMembers",
+          "tsEmitName": "getMembers$view",
           "normalizedSignature": "GetMembers|(System.Reflection.BindingFlags):System.Reflection.MemberInfo[]|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -14977,7 +14977,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.IReflect::InvokeMember(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object,System.Object[],System.Reflection.ParameterModifier[],System.Globalization.CultureInfo,System.String[]):System.Object",
           "clrName": "InvokeMember",
-          "tsEmitName": "invokeMember",
+          "tsEmitName": "invokeMember$view",
           "normalizedSignature": "InvokeMember|(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object,System.Object[],System.Reflection.ParameterModifier[],System.Globalization.CultureInfo,System.String[]):System.Object|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -15011,7 +15011,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeInfo::GetCustomAttributes(System.Boolean):System.Object[]",
           "clrName": "GetCustomAttributes",
-          "tsEmitName": "GetCustomAttributes",
+          "tsEmitName": "getCustomAttributes",
           "normalizedSignature": "GetCustomAttributes|(System.Boolean):System.Object[]|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -15027,7 +15027,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeInfo::GetCustomAttributes(System.Type,System.Boolean):System.Object[]",
           "clrName": "GetCustomAttributes",
-          "tsEmitName": "GetCustomAttributes5",
+          "tsEmitName": "getCustomAttributes5",
           "normalizedSignature": "GetCustomAttributes|(System.Type,System.Boolean):System.Object[]|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -15043,7 +15043,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeInfo::GetField(System.String):System.Reflection.FieldInfo",
           "clrName": "GetField",
-          "tsEmitName": "GetField",
+          "tsEmitName": "getField",
           "normalizedSignature": "GetField|(System.String):System.Reflection.FieldInfo|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -15059,7 +15059,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeInfo::GetField(System.String,System.Reflection.BindingFlags):System.Reflection.FieldInfo",
           "clrName": "GetField",
-          "tsEmitName": "GetField3",
+          "tsEmitName": "getField3",
           "normalizedSignature": "GetField|(System.String,System.Reflection.BindingFlags):System.Reflection.FieldInfo|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -15075,7 +15075,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeInfo::GetFields():System.Reflection.FieldInfo[]",
           "clrName": "GetFields",
-          "tsEmitName": "GetFields",
+          "tsEmitName": "getFields",
           "normalizedSignature": "GetFields|():System.Reflection.FieldInfo[]|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -15091,7 +15091,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeInfo::GetFields(System.Reflection.BindingFlags):System.Reflection.FieldInfo[]",
           "clrName": "GetFields",
-          "tsEmitName": "GetFields3",
+          "tsEmitName": "getFields3",
           "normalizedSignature": "GetFields|(System.Reflection.BindingFlags):System.Reflection.FieldInfo[]|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -15107,7 +15107,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeInfo::GetMember(System.String):System.Reflection.MemberInfo[]",
           "clrName": "GetMember",
-          "tsEmitName": "GetMember",
+          "tsEmitName": "getMember",
           "normalizedSignature": "GetMember|(System.String):System.Reflection.MemberInfo[]|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -15123,7 +15123,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeInfo::GetMember(System.String,System.Reflection.BindingFlags):System.Reflection.MemberInfo[]",
           "clrName": "GetMember",
-          "tsEmitName": "GetMember4",
+          "tsEmitName": "getMember4",
           "normalizedSignature": "GetMember|(System.String,System.Reflection.BindingFlags):System.Reflection.MemberInfo[]|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -15139,7 +15139,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeInfo::GetMember(System.String,System.Reflection.MemberTypes,System.Reflection.BindingFlags):System.Reflection.MemberInfo[]",
           "clrName": "GetMember",
-          "tsEmitName": "GetMember3",
+          "tsEmitName": "getMember3",
           "normalizedSignature": "GetMember|(System.String,System.Reflection.MemberTypes,System.Reflection.BindingFlags):System.Reflection.MemberInfo[]|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -15155,7 +15155,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeInfo::GetMembers():System.Reflection.MemberInfo[]",
           "clrName": "GetMembers",
-          "tsEmitName": "GetMembers",
+          "tsEmitName": "getMembers",
           "normalizedSignature": "GetMembers|():System.Reflection.MemberInfo[]|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -15171,7 +15171,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeInfo::GetMembers(System.Reflection.BindingFlags):System.Reflection.MemberInfo[]",
           "clrName": "GetMembers",
-          "tsEmitName": "GetMembers3",
+          "tsEmitName": "getMembers3",
           "normalizedSignature": "GetMembers|(System.Reflection.BindingFlags):System.Reflection.MemberInfo[]|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -15187,7 +15187,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeInfo::GetMethod(System.String):System.Reflection.MethodInfo",
           "clrName": "GetMethod",
-          "tsEmitName": "GetMethod",
+          "tsEmitName": "getMethod",
           "normalizedSignature": "GetMethod|(System.String):System.Reflection.MethodInfo|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -15203,7 +15203,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeInfo::GetMethod(System.String,System.Reflection.BindingFlags):System.Reflection.MethodInfo",
           "clrName": "GetMethod",
-          "tsEmitName": "GetMethod14",
+          "tsEmitName": "getMethod14",
           "normalizedSignature": "GetMethod|(System.String,System.Reflection.BindingFlags):System.Reflection.MethodInfo|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -15219,7 +15219,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeInfo::GetMethod(System.String,System.Reflection.BindingFlags,System.Type[]):System.Reflection.MethodInfo",
           "clrName": "GetMethod",
-          "tsEmitName": "GetMethod3",
+          "tsEmitName": "getMethod3",
           "normalizedSignature": "GetMethod|(System.String,System.Reflection.BindingFlags,System.Type[]):System.Reflection.MethodInfo|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -15235,7 +15235,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeInfo::GetMethod(System.String,System.Type[]):System.Reflection.MethodInfo",
           "clrName": "GetMethod",
-          "tsEmitName": "GetMethod4",
+          "tsEmitName": "getMethod4",
           "normalizedSignature": "GetMethod|(System.String,System.Type[]):System.Reflection.MethodInfo|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -15251,7 +15251,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeInfo::GetMethod(System.String,System.Type[],System.Reflection.ParameterModifier[]):System.Reflection.MethodInfo",
           "clrName": "GetMethod",
-          "tsEmitName": "GetMethod5",
+          "tsEmitName": "getMethod5",
           "normalizedSignature": "GetMethod|(System.String,System.Type[],System.Reflection.ParameterModifier[]):System.Reflection.MethodInfo|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -15267,7 +15267,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeInfo::GetMethod(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Type[],System.Reflection.ParameterModifier[]):System.Reflection.MethodInfo",
           "clrName": "GetMethod",
-          "tsEmitName": "GetMethod13",
+          "tsEmitName": "getMethod13",
           "normalizedSignature": "GetMethod|(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Type[],System.Reflection.ParameterModifier[]):System.Reflection.MethodInfo|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -15283,7 +15283,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeInfo::GetMethod(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Reflection.CallingConventions,System.Type[],System.Reflection.ParameterModifier[]):System.Reflection.MethodInfo",
           "clrName": "GetMethod",
-          "tsEmitName": "GetMethod7",
+          "tsEmitName": "getMethod7",
           "normalizedSignature": "GetMethod|(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Reflection.CallingConventions,System.Type[],System.Reflection.ParameterModifier[]):System.Reflection.MethodInfo|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -15299,7 +15299,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeInfo::GetMethod(System.String,System.Int32,System.Type[]):System.Reflection.MethodInfo",
           "clrName": "GetMethod",
-          "tsEmitName": "GetMethod8",
+          "tsEmitName": "getMethod8",
           "normalizedSignature": "GetMethod|(System.String,System.Int32,System.Type[]):System.Reflection.MethodInfo|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -15315,7 +15315,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeInfo::GetMethod(System.String,System.Int32,System.Type[],System.Reflection.ParameterModifier[]):System.Reflection.MethodInfo",
           "clrName": "GetMethod",
-          "tsEmitName": "GetMethod9",
+          "tsEmitName": "getMethod9",
           "normalizedSignature": "GetMethod|(System.String,System.Int32,System.Type[],System.Reflection.ParameterModifier[]):System.Reflection.MethodInfo|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -15331,7 +15331,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeInfo::GetMethod(System.String,System.Int32,System.Reflection.BindingFlags,System.Type[]):System.Reflection.MethodInfo",
           "clrName": "GetMethod",
-          "tsEmitName": "GetMethod10",
+          "tsEmitName": "getMethod10",
           "normalizedSignature": "GetMethod|(System.String,System.Int32,System.Reflection.BindingFlags,System.Type[]):System.Reflection.MethodInfo|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -15347,7 +15347,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeInfo::GetMethod(System.String,System.Int32,System.Reflection.BindingFlags,System.Reflection.Binder,System.Type[],System.Reflection.ParameterModifier[]):System.Reflection.MethodInfo",
           "clrName": "GetMethod",
-          "tsEmitName": "GetMethod11",
+          "tsEmitName": "getMethod11",
           "normalizedSignature": "GetMethod|(System.String,System.Int32,System.Reflection.BindingFlags,System.Reflection.Binder,System.Type[],System.Reflection.ParameterModifier[]):System.Reflection.MethodInfo|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -15363,7 +15363,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeInfo::GetMethod(System.String,System.Int32,System.Reflection.BindingFlags,System.Reflection.Binder,System.Reflection.CallingConventions,System.Type[],System.Reflection.ParameterModifier[]):System.Reflection.MethodInfo",
           "clrName": "GetMethod",
-          "tsEmitName": "GetMethod12",
+          "tsEmitName": "getMethod12",
           "normalizedSignature": "GetMethod|(System.String,System.Int32,System.Reflection.BindingFlags,System.Reflection.Binder,System.Reflection.CallingConventions,System.Type[],System.Reflection.ParameterModifier[]):System.Reflection.MethodInfo|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -15379,7 +15379,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeInfo::GetMethods():System.Reflection.MethodInfo[]",
           "clrName": "GetMethods",
-          "tsEmitName": "GetMethods",
+          "tsEmitName": "getMethods",
           "normalizedSignature": "GetMethods|():System.Reflection.MethodInfo[]|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -15395,7 +15395,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeInfo::GetMethods(System.Reflection.BindingFlags):System.Reflection.MethodInfo[]",
           "clrName": "GetMethods",
-          "tsEmitName": "GetMethods3",
+          "tsEmitName": "getMethods3",
           "normalizedSignature": "GetMethods|(System.Reflection.BindingFlags):System.Reflection.MethodInfo[]|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -15411,7 +15411,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeInfo::GetProperties():System.Reflection.PropertyInfo[]",
           "clrName": "GetProperties",
-          "tsEmitName": "GetProperties",
+          "tsEmitName": "getProperties",
           "normalizedSignature": "GetProperties|():System.Reflection.PropertyInfo[]|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -15427,7 +15427,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeInfo::GetProperties(System.Reflection.BindingFlags):System.Reflection.PropertyInfo[]",
           "clrName": "GetProperties",
-          "tsEmitName": "GetProperties3",
+          "tsEmitName": "getProperties3",
           "normalizedSignature": "GetProperties|(System.Reflection.BindingFlags):System.Reflection.PropertyInfo[]|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -15443,7 +15443,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeInfo::GetProperty(System.String):System.Reflection.PropertyInfo",
           "clrName": "GetProperty",
-          "tsEmitName": "GetProperty",
+          "tsEmitName": "getProperty",
           "normalizedSignature": "GetProperty|(System.String):System.Reflection.PropertyInfo|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -15459,7 +15459,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeInfo::GetProperty(System.String,System.Reflection.BindingFlags):System.Reflection.PropertyInfo",
           "clrName": "GetProperty",
-          "tsEmitName": "GetProperty8",
+          "tsEmitName": "getProperty8",
           "normalizedSignature": "GetProperty|(System.String,System.Reflection.BindingFlags):System.Reflection.PropertyInfo|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -15475,7 +15475,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeInfo::GetProperty(System.String,System.Type):System.Reflection.PropertyInfo",
           "clrName": "GetProperty",
-          "tsEmitName": "GetProperty3",
+          "tsEmitName": "getProperty3",
           "normalizedSignature": "GetProperty|(System.String,System.Type):System.Reflection.PropertyInfo|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -15491,7 +15491,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeInfo::GetProperty(System.String,System.Type[]):System.Reflection.PropertyInfo",
           "clrName": "GetProperty",
-          "tsEmitName": "GetProperty4",
+          "tsEmitName": "getProperty4",
           "normalizedSignature": "GetProperty|(System.String,System.Type[]):System.Reflection.PropertyInfo|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -15507,7 +15507,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeInfo::GetProperty(System.String,System.Type,System.Type[]):System.Reflection.PropertyInfo",
           "clrName": "GetProperty",
-          "tsEmitName": "GetProperty5",
+          "tsEmitName": "getProperty5",
           "normalizedSignature": "GetProperty|(System.String,System.Type,System.Type[]):System.Reflection.PropertyInfo|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -15523,7 +15523,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeInfo::GetProperty(System.String,System.Type,System.Type[],System.Reflection.ParameterModifier[]):System.Reflection.PropertyInfo",
           "clrName": "GetProperty",
-          "tsEmitName": "GetProperty6",
+          "tsEmitName": "getProperty6",
           "normalizedSignature": "GetProperty|(System.String,System.Type,System.Type[],System.Reflection.ParameterModifier[]):System.Reflection.PropertyInfo|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -15539,7 +15539,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeInfo::GetProperty(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Type,System.Type[],System.Reflection.ParameterModifier[]):System.Reflection.PropertyInfo",
           "clrName": "GetProperty",
-          "tsEmitName": "GetProperty9",
+          "tsEmitName": "getProperty9",
           "normalizedSignature": "GetProperty|(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Type,System.Type[],System.Reflection.ParameterModifier[]):System.Reflection.PropertyInfo|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -15555,7 +15555,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeInfo::InvokeMember(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object,System.Object[]):System.Object",
           "clrName": "InvokeMember",
-          "tsEmitName": "InvokeMember",
+          "tsEmitName": "invokeMember",
           "normalizedSignature": "InvokeMember|(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object,System.Object[]):System.Object|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -15571,7 +15571,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeInfo::InvokeMember(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object,System.Object[],System.Globalization.CultureInfo):System.Object",
           "clrName": "InvokeMember",
-          "tsEmitName": "InvokeMember2",
+          "tsEmitName": "invokeMember2",
           "normalizedSignature": "InvokeMember|(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object,System.Object[],System.Globalization.CultureInfo):System.Object|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -15587,7 +15587,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeInfo::InvokeMember(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object,System.Object[],System.Reflection.ParameterModifier[],System.Globalization.CultureInfo,System.String[]):System.Object",
           "clrName": "InvokeMember",
-          "tsEmitName": "InvokeMember4",
+          "tsEmitName": "invokeMember4",
           "normalizedSignature": "InvokeMember|(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object,System.Object[],System.Reflection.ParameterModifier[],System.Globalization.CultureInfo,System.String[]):System.Object|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -15603,7 +15603,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeInfo::IsAssignableFrom(System.Type):System.Boolean",
           "clrName": "IsAssignableFrom",
-          "tsEmitName": "IsAssignableFrom",
+          "tsEmitName": "isAssignableFrom",
           "normalizedSignature": "IsAssignableFrom|(System.Type):System.Boolean|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -15619,7 +15619,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeInfo::IsDefined(System.Type,System.Boolean):System.Boolean",
           "clrName": "IsDefined",
-          "tsEmitName": "IsDefined",
+          "tsEmitName": "isDefined",
           "normalizedSignature": "IsDefined|(System.Type,System.Boolean):System.Boolean|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
